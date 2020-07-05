@@ -1,0 +1,410 @@
+# German translations for hello package.
+# Copyright (C) 2019 THE hello'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hello package.
+# brian <brian@gallifrey>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hello 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-10 00:19+1000\n"
+"PO-Revision-Date: 2019-07-09 22:05+1000\n"
+"Last-Translator: brian <brian@gallifrey>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+##############################
+# Player misses monster
+##############################
+
+#, c-format
+msgid "You miss %s."
+msgstr "Du verfehlst {akk}%s."
+
+#, c-format
+msgid "You completely miss %s."
+msgstr "Du verfehlst {akk}%s völlig."
+
+#, c-format
+msgid "You closely miss %s."
+msgstr "Du verfehlst {akk}%s nur knapp."
+
+#, c-format
+msgid "You barely miss %s."
+msgstr "Du verfehlst {akk}%s sehr knapp."
+
+#, c-format
+msgid "Your armour prevents you from hitting %s."
+msgstr "Deine Rüstung hindert dich daran, {akk}%s zu treffen."
+
+#, c-format
+msgid "Your shield prevents you from hitting %s."
+msgstr "Dein Schild hindert dich daran, {akk}%s zu treffen."
+
+#, c-format
+msgid "Your shield and armour prevent you from hitting %s."
+msgstr "Dein Schild und deine Rüstung hindert dich daran, {akk}%s zu treffen."
+
+##############################
+# Player hits monster
+##############################
+
+#, c-format
+msgid "You hit %s"
+msgstr "Du schlägst {akk}%s"
+
+#, c-format
+msgid "You clumsily bash %s"
+msgstr "Du schlägst {akk}%s ungeschickt"
+
+#, c-format
+msgid "You puncture %s"
+msgstr "Du durchstichst {akk}%s"
+
+#, c-format
+msgid "You impale %s"
+msgstr "Du spießst {akk}%s auf"
+
+#, c-format
+msgid "You slash %s"
+msgstr "Du schlitzt {akk}%s"
+
+#, c-format
+msgid "You slice %s"
+msgstr "Du schneidest {akk}%s"
+
+#, c-format
+msgid "You shave %s"
+msgstr "Du schneidest {akk}%s ab"
+
+#, c-format
+msgid "You thump %s"
+msgstr "Du prügelst {akk}%s durch"
+
+#, c-format
+msgid "You sock %s"
+msgstr "Du verhaust {akk}%s"
+
+#, c-format
+msgid "You bludgeon %s"
+msgstr "Du knüppelst {akk}%s"
+
+#, c-format
+msgid "You whack %s"
+msgstr "Du verhaust {akk}%s"
+
+#, c-format
+msgid "You thrash %s"
+msgstr "Du bläust {akk}%s durch"
+
+#, c-format
+msgid "You devastate %s"
+msgstr "Du schmetterst {akk}%s nieder"
+
+#, c-format
+msgid "You scratch %s"
+msgstr "Du kratzt {akk}%s"
+
+#, c-format
+msgid "You claw %s"
+msgstr "Du zerkratzt {akk}%s"
+
+#, c-format
+msgid "You mangle %s"
+msgstr "Du mangelst {akk}%s"
+
+#, c-format
+msgid "You eviscerate %s"
+msgstr "Du ausweidest {akk}%s"
+
+#, c-format
+msgid "You tentacle-slap %s"
+msgstr "Du schlägst {akk}%s mit deinem Tentakel"
+
+#, c-format
+msgid "You batter %s"
+msgstr "Du verprügelst {akk}%s"
+
+#, c-format
+msgid "You punch %s"
+msgstr "Du schlägst {akk}%s mit deiner Faust"
+
+#, c-format
+msgid "You pummel %s"
+msgstr "Du verprügelst {akk}%s"
+
+#, c-format
+msgid "You pulverise %s"
+msgstr "Du pulverisierst {akk}%s"
+
+#, c-format
+msgid "You bite %s"
+msgstr "Du beißt {akk}%s"
+
+#, c-format
+msgid "You chomp %s"
+msgstr "Du kaust {akk}%s"
+
+#, c-format
+msgid "You gouge %s"
+msgstr "Du zockst {akk}%s ab"
+
+#, c-format
+msgid "You maul %s"
+msgstr "Du zurichtest {akk}%s übel"
+
+#, c-format
+msgid "You shred %s"
+msgstr "Du zerreißt {akk}%s"
+
+#, c-format
+msgid "You engulf %s"
+msgstr "Du verschlingst {akk}%s"
+
+#, c-format
+msgid "You touch %s"
+msgstr "Du fasst {akk}%s an"
+
+#, c-format
+msgid "You release spores at %s"
+msgstr "Du setzt auf {dat}%s Sporen frei"
+
+# ones with adverbial phrases
+
+#, c-format
+msgid "You attack %s's weak point"
+msgstr "Du greifst {akk}%s an der Swachstelle an"
+
+#, c-format
+msgid "You carve %s like a ham"
+msgstr "Du tranchierst {akk}%s wie einen Schinken"
+
+#, c-format
+msgid "You carve %s like the proverbial ham"
+msgstr "Du tranchierst {akk}%s wie den sprichwörtlichen Schinken"
+
+#, c-format
+msgid "You carve %s like a turkey"
+msgstr "Du tranchierst {akk}%s wie einen Truthahn"
+
+#, c-format
+msgid "You dice %s like an onion"
+msgstr "Du würfelst {akk}%s wie eine Zwiebel"
+
+#, c-format
+msgid "You spit %s like a pig"
+msgstr "Du spießst {akk}%s auf wie ein Schwein"
+
+#, c-format
+msgid "You spit %s like the proverbial pig"
+msgstr "Du spießst {akk}%s auf wie das sprichwörtliche Schwein"
+
+#, c-format
+msgid "You skewer %s like a kebab"
+msgstr "Du spießst {akk}%s wie einen Kebab"
+
+#, c-format
+msgid "You stick %s like a pincushion"
+msgstr "Du steckst {akk}%s wie ein Nadelkissen"
+
+#, c-format
+msgid "You perforate %s like a sieve"
+msgstr "Du durchlöcherst {akk}%s wie ein Sieb"
+
+#, c-format
+msgid "You shatter %s into splinters"
+msgstr "Du zerschmetterst {akk}%s in Splitter"
+
+#, c-format
+msgid "You fracture %s into splinters"
+msgstr "Du zerbrechst {akk}%s in Splitter"
+
+#, c-format
+msgid "You open %s like a pillowcase"
+msgstr "Du öffnest {akk}%s wie einen Kissenbezug"
+
+#, c-format
+msgid "You slice %s like a ripe choko"
+msgstr "Du schneidest {akk}%s wie eine reife Chayote"
+
+#, c-format
+msgid "You cut %s into ribbons"
+msgstr "Du schneidest {akk}%s in Bänder"
+
+#, c-format
+msgid "You chop %s into pieces"
+msgstr "Du zerhackst {akk}%s in Stücke"
+
+#, c-format
+msgid "You splatter %s into a gooey mess"
+msgstr "Du zerstampfst {akk}%s zu einem klebrigen Brei"
+
+#, c-format
+msgid "You beat %s into a bloody pulp"
+msgstr "Du schlägst {akk}%s zu einem blutigen Brei"
+
+#, c-format
+msgid "You zerquetschst %s like a grape"
+msgstr "Du schlägst {akk}%s wie eine Traube"
+
+#, c-format
+msgid "You beat %s like a drum"
+msgstr "Du schlägst {akk}%s wie eine Trommel"
+
+#, c-format
+msgid "You hammer %s like a gong"
+msgstr "Du hämmerst {akk}%s wie einen Gong"
+
+#, c-format
+msgid "You pound %s like an anvil"
+msgstr "Du hämmerst {akk}%s wie einen Amboss"
+
+#, c-format
+msgid "You flatten %s like a pancake"
+msgstr "Du machst {akk}%s platt wie ein Brett"
+
+#, c-format
+msgid "You pound %s into fine dust"
+msgstr "Du zerstampfst {akk}%s zu feinem Staub"
+
+#, c-format
+msgid "You pummel %s like a punching bag"
+msgstr "Du prügelst auf {dat}%s wie einem Boxsack ein"
+
+#, c-format
+msgid "You squash %s like an ant"
+msgstr "Du zerquetschst {akk}%s wie eine Ameise"
+
+#, c-format
+msgid "You squash %s like the proverbial ant"
+msgstr "Du zerquetschst {akk}%s wie die sprichwörtliche Ameise"
+
+#, c-format
+msgid "You punish %s, causing immense pain"
+msgstr "Du bestrafst {akk}%s und verursachst heftigen Schmerz"
+
+# Exclamation marks show amount of damage
+# Some languages (e.g. Spanish) have different ways of doing exclamation marks
+
+#, c-format
+msgid "%s!"
+msgstr "%s!"
+
+#, c-format
+msgid "%s!!"
+msgstr "%s!!"
+
+#, c-format
+msgid "%s!!!"
+msgstr "%s!!!"
+
+#, c-format
+msgid "%s!!!!"
+msgstr "%s!!!!"
+
+#, c-format
+msgid "%s!!!!!"
+msgstr "%s!!!!!"
+
+#, c-format
+msgid "%s!!!!!!"
+msgstr "%s!!!!!!"
+
+#, c-format
+msgid "%s!!!!!!!"
+msgstr "%s!!!!!!!"
+
+#, c-format
+msgid "%s!!!!!!!!"
+msgstr "%s!!!!!!!!"
+
+#, c-format
+msgid "%s!!!!!!!!!"
+msgstr "%s!!!!!!!!!"
+
+#, c-format
+msgid "%s!!!!!!!!!!"
+msgstr "%s!!!!!!!!!!"
+
+##############################
+# Player kills monster
+##############################
+
+#, c-format
+msgid "You kill %s!"
+msgstr "Du tötest {akk}%s!"
+
+#, c-format
+msgid "You blow up %s!"
+msgstr "Du sprengst {akk}%s ab!"
+
+#, c-format
+msgid "You destroy %s!"
+msgstr "Du vernichtest {akk}%s!"
+
+#, c-format
+msgid "%s is killed!"
+msgstr "%s wird getötet!"
+
+#, c-format
+msgid "%s is blown up!"
+msgstr "%s wird abgesprengt!"
+
+#, c-format
+msgid "%s is destroyed!"
+msgstr "%s wird vernichtet!"
+
+###################
+# Other
+###################
+
+#, c-format
+msgid "%s come into view."
+msgstr "{nom}%s kommen in Sicht."
+
+#, c-format
+msgid "You see %s."
+msgstr "Du siehst {akk}%s."
+
+#, c-format
+msgid "%s shouts."
+msgstr "{nom}%s schreit."
+
+#, c-format
+msgid "%s attacks you."
+msgstr "{nom}%s greift dich an."
+
+#, c-format
+msgid "%s misses you."
+msgstr "{nom}%s verfehlt dich."
+
+#, c-format
+msgid "%s closely misses you."
+msgstr "{nom}%s verfehlt dich eng."
+
+#, c-format
+msgid "%s barely misses you."
+msgstr "{nom}%s verfehlt dich ganz eng."
+
+#, c-format
+msgid "%s hits you."
+msgstr "{nom}%s schlägt dich."
+
+#, c-format
+msgid "%s slashes you."
+msgstr "{nom}%s schlitzt dich auf."
+
+#, c-format
+msgid "%s kills you."
+msgstr "{nom}%s tötet dich."
+
+#, c-format
+msgid "You command %s to wait here."
+msgstr "Du befiehlst {dat}%s hier zu warten."
+
+
+
