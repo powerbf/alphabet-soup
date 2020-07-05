@@ -245,3 +245,6 @@ icon.png
 
 # generated files for catch2-tests
 /source/catch2-tests/*.d
+
+# generated translation files
+/source/dat/locale
