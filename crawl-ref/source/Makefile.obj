@@ -128,6 +128,7 @@ lang-fake.o \
 lev-pand.o \
 libutil.o \
 loading-screen.o \
+localize.o \
 lookup-help.o \
 los.o \
 los-def.o \
@@ -267,6 +268,7 @@ wiz-mon.o \
 wiz-you.o \
 wizard.o \
 worley.o \
+xlate.o \
 xom.o \
 tilepick.o \
 tileview.o
