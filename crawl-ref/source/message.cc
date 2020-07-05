@@ -47,6 +47,16 @@ void mpr(const string &text)
     _mpr(text);
 }
 
+void mpr(msg_channel_type channel, const string &text)
+{
+    _mpr(text, channel);
+}
+
+void mpr(msg_channel_type channel, int param, const string &text)
+{
+    _mpr(text, channel, param);
+}
+
 void mpr_nojoin(msg_channel_type channel, string text)
 {
     _mpr(text, channel, 0, true);

@@ -56,24 +56,20 @@ void init_localization(const string& lang);
 // Get the current localization language
 const string& get_localization_language();
 
-// Localize a format string and a list of args.
-// If there are multiple args, expects the first arg to be a format string.
-// It is expected that any input strings are in English.
-// If you pre-translate some strings it will probably still work in most cases.
-// However, there's a remote chance that the pre-translated string may match an English
-// string that we've provided a translation for and be erroneously translated again.
-// One theoretical case would be: "poison"(en) -> "Gift"(de) -> "Gift"(en) -> "Geschenk"(de).
-string localize(const vector<LocalizationArg>& args);
-
-// same as localize except it capitalizes first letter
-string localize_sentence(const vector<LocalizationArg>& args);
+/**
+ *  Localize a list of args.
+ *  @param args The list of arguments.
+ *              If there's more than one, the first one is expected to be a printf-style format string.
+ *  @capitalize Capitalize the first letter of the result? (true by default)
+ */
+string localize(const vector<LocalizationArg>& args, const bool capitalize = true);
 
 // convenience function using va_args (yuk!)
 string localize(const string& fmt_str, ...);
 
 // more convenience functions
-string localize(const LocalizationArg& arg);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3);
+string localize(const LocalizationArg& arg, const bool capitalize = true);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const bool capitalize = true);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const bool capitalize = true);
 
 

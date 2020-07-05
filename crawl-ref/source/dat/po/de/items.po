@@ -1,0 +1,2187 @@
+# German translations for PACKAGE package.
+# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# brian <brian@gallifrey>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-05 10:43+1000\n"
+"PO-Revision-Date: 2020-07-05 11:05+1000\n"
+"Last-Translator: brian <brian@gallifrey>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "god gift"
+msgstr ""
+
+# this is used to show item properties
+#, c-format
+msgid " {%s}"
+msgstr " {%s}"
+
+msgid ", "
+msgstr ", "
+
+msgid ") "
+msgstr ") "
+
+msgid " - "
+msgstr " - "
+
+msgid "shaped "
+msgstr ""
+
+msgid " (melded)"
+msgstr ""
+
+msgid " (weapon)"
+msgstr ""
+
+msgid " (in mouth)"
+msgstr ""
+
+msgid " (in "
+msgstr ""
+
+msgid ")"
+msgstr ""
+
+msgid " (worn)"
+msgstr ""
+
+msgid " ("
+msgstr " ("
+
+msgid "left"
+msgstr ""
+
+msgid "right"
+msgstr ""
+
+msgid " (around mantle)"
+msgstr ""
+
+msgid " (around neck)"
+msgstr ""
+
+msgid " (on tentacle)"
+msgstr ""
+
+msgid " (on amulet)"
+msgstr ""
+
+msgid "Item in an invalid slot"
+msgstr ""
+
+msgid " (quivered)"
+msgstr ""
+
+msgid " (curse)"
+msgstr ""
+
+msgid "flame"
+msgstr ""
+
+msgid "frost"
+msgstr ""
+
+msgid "poisoned"
+msgstr ""
+
+msgid "poison"
+msgstr ""
+
+msgid "curare-tipped"
+msgstr ""
+
+msgid "curare"
+msgstr ""
+
+msgid "explode"
+msgstr ""
+
+msgid "exploding"
+msgstr ""
+
+msgid "steel"
+msgstr ""
+
+msgid "return"
+msgstr ""
+
+msgid "returning"
+msgstr ""
+
+msgid "penet"
+msgstr ""
+
+msgid "penetration"
+msgstr ""
+
+msgid "silver"
+msgstr ""
+
+msgid "paralysis"
+msgstr ""
+
+msgid "slow"
+msgstr ""
+
+msgid "slowing"
+msgstr ""
+
+msgid "sleep"
+msgstr ""
+
+msgid "sleeping"
+msgstr ""
+
+msgid "conf"
+msgstr ""
+
+msgid "confusion"
+msgstr ""
+
+msgid "sick"
+msgstr ""
+
+msgid "sickness"
+msgstr ""
+
+msgid "datura-tipped"
+msgstr ""
+
+msgid "datura"
+msgstr ""
+
+msgid "chaos"
+msgstr ""
+
+msgid "disperse"
+msgstr ""
+
+msgid "dispersal"
+msgstr ""
+
+msgid "atropa-tipped"
+msgstr ""
+
+msgid "atropa"
+msgstr ""
+
+msgid "buggy"
+msgstr ""
+
+msgid "bugginess"
+msgstr ""
+
+msgid "freeze"
+msgstr ""
+
+msgid "holy"
+msgstr ""
+
+msgid "elec"
+msgstr ""
+
+msgid "obsolete"
+msgstr ""
+
+msgid "venom"
+msgstr ""
+
+msgid "protect"
+msgstr ""
+
+msgid "drain"
+msgstr ""
+
+msgid "speed"
+msgstr ""
+
+msgid "vorpal"
+msgstr ""
+
+msgid "vamp"
+msgstr ""
+
+msgid "pain"
+msgstr ""
+
+msgid "antimagic"
+msgstr ""
+
+msgid "distort"
+msgstr ""
+
+msgid "evade"
+msgstr ""
+
+msgid "confuse"
+msgstr ""
+
+msgid "reap"
+msgstr ""
+
+msgid "acid"
+msgstr ""
+
+msgid "debug"
+msgstr ""
+
+msgid "flaming"
+msgstr ""
+
+msgid "freezing"
+msgstr ""
+
+msgid "holy wrath"
+msgstr ""
+
+msgid "electrocution"
+msgstr ""
+
+msgid "orc slaying"
+msgstr ""
+
+msgid "dragon slaying"
+msgstr ""
+
+msgid "protection"
+msgstr ""
+
+msgid "draining"
+msgstr ""
+
+msgid "vorpality"
+msgstr ""
+
+msgid "vampirism"
+msgstr ""
+
+msgid "distortion"
+msgstr ""
+
+msgid "reaching"
+msgstr ""
+
+msgid "evasion"
+msgstr ""
+
+msgid "reaping"
+msgstr ""
+
+msgid "electric"
+msgstr ""
+
+msgid "orc-killing"
+msgstr ""
+
+msgid "dragon-slaying"
+msgstr ""
+
+msgid "venomous"
+msgstr ""
+
+msgid "protective"
+msgstr ""
+
+msgid "fast"
+msgstr ""
+
+msgid "vampiric"
+msgstr ""
+
+msgid "painful"
+msgstr ""
+
+msgid "distorting"
+msgstr ""
+
+msgid "chaotic"
+msgstr ""
+
+msgid "evasive"
+msgstr ""
+
+msgid "confusing"
+msgstr ""
+
+msgid "penetrating"
+msgstr ""
+
+msgid "acidic"
+msgstr ""
+
+msgid "speedy slithering"
+msgstr ""
+
+msgid "running"
+msgstr ""
+
+msgid "fire resistance"
+msgstr ""
+
+msgid "cold resistance"
+msgstr ""
+
+msgid "poison resistance"
+msgstr ""
+
+msgid "see invisible"
+msgstr ""
+
+msgid "invisibility"
+msgstr ""
+
+msgid "strength"
+msgstr ""
+
+msgid "dexterity"
+msgstr ""
+
+msgid "intelligence"
+msgstr ""
+
+msgid "ponderousness"
+msgstr ""
+
+msgid "flying"
+msgstr ""
+
+msgid "magic resistance"
+msgstr ""
+
+msgid "stealth"
+msgstr ""
+
+msgid "resistance"
+msgstr ""
+
+msgid "positive energy"
+msgstr ""
+
+msgid "the Archmagi"
+msgstr ""
+
+msgid "jumping"
+msgstr ""
+
+msgid "preservation"
+msgstr ""
+
+msgid "reflection"
+msgstr ""
+
+msgid "spirit shield"
+msgstr ""
+
+msgid "archery"
+msgstr ""
+
+msgid "repulsion"
+msgstr ""
+
+msgid "cloud immunity"
+msgstr ""
+
+msgid "harm"
+msgstr ""
+
+msgid "run"
+msgstr ""
+
+msgid "rF+"
+msgstr "rF+"
+
+msgid "rC+"
+msgstr "rC+"
+
+msgid "rPois"
+msgstr "rPois"
+
+msgid "SInv"
+msgstr ""
+
+msgid "+Inv"
+msgstr ""
+
+msgid "Str+3"
+msgstr ""
+
+msgid "Dex+3"
+msgstr ""
+
+msgid "Int+3"
+msgstr ""
+
+msgid "ponderous"
+msgstr ""
+
+msgid "Fly"
+msgstr ""
+
+msgid "MR+"
+msgstr "MR+"
+
+msgid "AC+3"
+msgstr "AC+3"
+
+msgid "Stlth+"
+msgstr "Stlth+"
+
+msgid "rC+ rF+"
+msgstr "rC+ rF+"
+
+msgid "rN+"
+msgstr "rN+"
+
+msgid "Archmagi"
+msgstr ""
+
+msgid "rCorr"
+msgstr "rCorr"
+
+msgid "reflect"
+msgstr ""
+
+msgid "Spirit"
+msgstr ""
+
+msgid "digging"
+msgstr ""
+
+msgid "iceblast"
+msgstr ""
+
+msgid "polymorph"
+msgstr ""
+
+msgid "enslavement"
+msgstr ""
+
+msgid "random effects"
+msgstr ""
+
+msgid "disintegration"
+msgstr ""
+
+msgid "clouds"
+msgstr ""
+
+msgid "removedness"
+msgstr ""
+
+msgid "jewelled "
+msgstr ""
+
+msgid "curved "
+msgstr ""
+
+msgid "long "
+msgstr ""
+
+msgid "short "
+msgstr ""
+
+msgid "twisted "
+msgstr ""
+
+msgid "crooked "
+msgstr ""
+
+msgid "forked "
+msgstr ""
+
+msgid "shiny "
+msgstr ""
+
+msgid "blackened "
+msgstr ""
+
+msgid "tapered "
+msgstr ""
+
+msgid "glowing "
+msgstr ""
+
+msgid "worn "
+msgstr ""
+
+msgid "encrusted "
+msgstr ""
+
+msgid "runed "
+msgstr ""
+
+msgid "sharpened "
+msgstr ""
+
+msgid "iron"
+msgstr ""
+
+msgid "brass"
+msgstr ""
+
+msgid "bone"
+msgstr ""
+
+msgid "wooden"
+msgstr ""
+
+msgid "copper"
+msgstr ""
+
+msgid "gold"
+msgstr ""
+
+msgid "bronze"
+msgstr ""
+
+msgid "ivory"
+msgstr ""
+
+msgid "glass"
+msgstr ""
+
+msgid "lead"
+msgstr ""
+
+msgid "fluorescent"
+msgstr ""
+
+msgid "curing"
+msgstr ""
+
+msgid "heal wounds"
+msgstr ""
+
+msgid "haste"
+msgstr ""
+
+msgid "might"
+msgstr ""
+
+msgid "stabbing"
+msgstr ""
+
+msgid "brilliance"
+msgstr ""
+
+msgid "flight"
+msgstr ""
+
+msgid "cancellation"
+msgstr ""
+
+msgid "ambrosia"
+msgstr ""
+
+msgid "degeneration"
+msgstr ""
+
+msgid "experience"
+msgstr ""
+
+msgid "magic"
+msgstr ""
+
+msgid "berserk rage"
+msgstr ""
+
+msgid "mutation"
+msgstr ""
+
+msgid "lignification"
+msgstr ""
+
+msgid "identify"
+msgstr ""
+
+msgid "teleportation"
+msgstr ""
+
+msgid "fear"
+msgstr ""
+
+msgid "noise"
+msgstr ""
+
+msgid "remove curse"
+msgstr ""
+
+msgid "summoning"
+msgstr ""
+
+msgid "enchant weapon"
+msgstr ""
+
+msgid "enchant armour"
+msgstr ""
+
+msgid "torment"
+msgstr ""
+
+msgid "random uselessness"
+msgstr ""
+
+msgid "immolation"
+msgstr ""
+
+msgid "blinking"
+msgstr ""
+
+msgid "magic mapping"
+msgstr ""
+
+msgid "fog"
+msgstr ""
+
+msgid "acquirement"
+msgstr ""
+
+msgid "brand weapon"
+msgstr ""
+
+msgid "holy word"
+msgstr ""
+
+msgid "vulnerability"
+msgstr ""
+
+msgid "silence"
+msgstr ""
+
+msgid "amnesia"
+msgstr ""
+
+msgid "curse weapon"
+msgstr ""
+
+msgid "curse armour"
+msgstr ""
+
+msgid "curse jewellery"
+msgstr ""
+
+msgid "obsoleteness"
+msgstr ""
+
+msgid "protection from fire"
+msgstr ""
+
+msgid "protection from cold"
+msgstr ""
+
+msgid "slaying"
+msgstr ""
+
+msgid "resist corrosion"
+msgstr ""
+
+msgid "attention"
+msgstr ""
+
+msgid "sustain attributes"
+msgstr ""
+
+msgid "wizardry"
+msgstr ""
+
+msgid "magical power"
+msgstr ""
+
+msgid "protection from magic"
+msgstr ""
+
+msgid "fire"
+msgstr ""
+
+msgid "ice"
+msgstr ""
+
+msgid "teleport control"
+msgstr ""
+
+msgid "magic regeneration"
+msgstr ""
+
+msgid "the acrobat"
+msgstr ""
+
+msgid "rage"
+msgstr ""
+
+msgid "gourmand"
+msgstr ""
+
+msgid "conservation"
+msgstr ""
+
+msgid "controlled flight"
+msgstr ""
+
+msgid "inaccuracy"
+msgstr ""
+
+msgid "nothing"
+msgstr ""
+
+msgid "guardian spirit"
+msgstr ""
+
+msgid "faith"
+msgstr ""
+
+msgid "regeneration"
+msgstr ""
+
+msgid "buggy jewellery"
+msgstr ""
+
+msgid "AC"
+msgstr ""
+
+msgid "Str"
+msgstr ""
+
+msgid "Slay"
+msgstr ""
+
+msgid "sInv"
+msgstr ""
+
+msgid "Stlth-"
+msgstr ""
+
+msgid "EV"
+msgstr ""
+
+msgid "Dex"
+msgstr ""
+
+msgid "Int"
+msgstr ""
+
+msgid "MP+9"
+msgstr ""
+
+msgid "+Fly"
+msgstr ""
+
+msgid "Regen"
+msgstr ""
+
+msgid "+Rage"
+msgstr ""
+
+msgid "Acrobat"
+msgstr ""
+
+msgid "ring of"
+msgstr ""
+
+msgid "amulet of"
+msgstr ""
+
+#, c-format
+msgid "%s %s"
+msgstr ""
+
+msgid "tubular "
+msgstr ""
+
+msgid "scratched "
+msgstr ""
+
+msgid "small "
+msgstr ""
+
+msgid "large "
+msgstr ""
+
+msgid "notched "
+msgstr ""
+
+msgid "knobbly "
+msgstr ""
+
+msgid "golden"
+msgstr ""
+
+msgid "tourmaline"
+msgstr ""
+
+msgid "granite"
+msgstr ""
+
+msgid "ruby"
+msgstr ""
+
+msgid "marble"
+msgstr ""
+
+msgid "jade"
+msgstr ""
+
+msgid "agate"
+msgstr ""
+
+msgid "diamond"
+msgstr ""
+
+msgid "emerald"
+msgstr ""
+
+msgid "peridot"
+msgstr ""
+
+msgid "garnet"
+msgstr ""
+
+msgid "opal"
+msgstr ""
+
+msgid "pearl"
+msgstr ""
+
+msgid "coral"
+msgstr ""
+
+msgid "sapphire"
+msgstr ""
+
+msgid "cabochon"
+msgstr ""
+
+msgid "gilded"
+msgstr ""
+
+msgid "onyx"
+msgstr ""
+
+msgid "moonstone"
+msgstr ""
+
+msgid "dented "
+msgstr ""
+
+msgid "square "
+msgstr ""
+
+msgid "thick "
+msgstr ""
+
+msgid "thin "
+msgstr ""
+
+msgid "tiny "
+msgstr ""
+
+msgid "triangular "
+msgstr ""
+
+msgid "lumpy "
+msgstr ""
+
+msgid "zirconium"
+msgstr ""
+
+msgid "citrine"
+msgstr ""
+
+msgid "platinum"
+msgstr ""
+
+msgid "amethyst"
+msgstr ""
+
+msgid "cameo"
+msgstr ""
+
+msgid "blue"
+msgstr ""
+
+msgid "jasper"
+msgstr ""
+
+msgid "malachite"
+msgstr ""
+
+msgid "soapstone"
+msgstr ""
+
+msgid "lapis lazuli"
+msgstr ""
+
+msgid "filigree"
+msgstr ""
+
+msgid "beryl"
+msgstr ""
+
+msgid "obsidian"
+msgstr ""
+
+msgid "icy"
+msgstr ""
+
+msgid "slimy"
+msgstr ""
+
+msgid "serpentine"
+msgstr ""
+
+msgid "elven"
+msgstr ""
+
+msgid "decaying"
+msgstr ""
+
+msgid "barnacled"
+msgstr ""
+
+msgid "gossamer"
+msgstr ""
+
+msgid "mossy"
+msgstr ""
+
+msgid "demonic"
+msgstr ""
+
+msgid "abyssal"
+msgstr ""
+
+msgid "glowing"
+msgstr ""
+
+msgid "magical"
+msgstr ""
+
+msgid "fiery"
+msgstr ""
+
+msgid "dark"
+msgstr ""
+
+msgid "removed deck"
+msgstr ""
+
+msgid "removed crystal ball"
+msgstr ""
+
+msgid "box of beasts"
+msgstr ""
+
+msgid "removed ebony casket"
+msgstr ""
+
+msgid "removed fan of gales"
+msgstr ""
+
+msgid "removed lamp of fire"
+msgstr ""
+
+msgid "removed lantern of shadows"
+msgstr ""
+
+msgid "horn of Geryon"
+msgstr ""
+
+msgid "lightning rod"
+msgstr ""
+
+msgid "empty flask"
+msgstr ""
+
+msgid "obsolete rune of zot"
+msgstr ""
+
+msgid "removed stone of tremors"
+msgstr ""
+
+msgid "quad damage"
+msgstr ""
+
+msgid "phial of floods"
+msgstr ""
+
+msgid "removed sack of spiders"
+msgstr ""
+
+msgid "phantom mirror"
+msgstr ""
+
+msgid "figurine of a ziggurat"
+msgstr ""
+
+msgid "removed chess piece"
+msgstr ""
+
+msgid "tin of tremorstones"
+msgstr ""
+
+msgid "buggy miscellaneous item"
+msgstr ""
+
+msgid "chunky "
+msgstr ""
+
+msgid "wide "
+msgstr ""
+
+msgid "dog-eared "
+msgstr ""
+
+msgid "oblong "
+msgstr ""
+
+msgid "paperback"
+msgstr ""
+
+msgid "hardcover"
+msgstr ""
+
+msgid "leatherbound"
+msgstr ""
+
+msgid "metal-bound"
+msgstr ""
+
+msgid "papyrus"
+msgstr ""
+
+msgid "Minor Magic"
+msgstr ""
+
+msgid "Conjurations"
+msgstr ""
+
+msgid "Flames"
+msgstr ""
+
+msgid "Frost"
+msgstr ""
+
+msgid "Summonings"
+msgstr ""
+
+msgid "Fire"
+msgstr ""
+
+msgid "Ice"
+msgstr ""
+
+msgid "Spatial Translocations"
+msgstr ""
+
+msgid "Hexes"
+msgstr ""
+
+msgid "the Tempests"
+msgstr ""
+
+msgid "Death"
+msgstr ""
+
+msgid "Misfortune"
+msgstr ""
+
+msgid "Changes"
+msgstr ""
+
+msgid "Transfigurations"
+msgstr ""
+
+msgid "Battle"
+msgstr ""
+
+msgid "Clouds"
+msgstr ""
+
+msgid "Necromancy"
+msgstr ""
+
+msgid "Callings"
+msgstr ""
+
+msgid "Maledictions"
+msgstr ""
+
+msgid "Air"
+msgstr ""
+
+msgid "the Sky"
+msgstr ""
+
+msgid "the Warp"
+msgstr ""
+
+msgid "Envenomations"
+msgstr ""
+
+msgid "Annihilations"
+msgstr ""
+
+msgid "Unlife"
+msgstr ""
+
+msgid "Control"
+msgstr ""
+
+msgid "Geomancy"
+msgstr ""
+
+msgid "the Earth"
+msgstr ""
+
+msgid "Wizardry"
+msgstr ""
+
+msgid "Power"
+msgstr ""
+
+msgid "Cantrips"
+msgstr ""
+
+msgid "Party Tricks"
+msgstr ""
+
+msgid "Debilitation"
+msgstr ""
+
+msgid "the Dragon"
+msgstr ""
+
+msgid "Burglary"
+msgstr ""
+
+msgid "Dreams"
+msgstr ""
+
+msgid "Alchemy"
+msgstr ""
+
+msgid "Beasts"
+msgstr ""
+
+msgid "Fixed Level"
+msgstr ""
+
+msgid "Fixed Theme"
+msgstr ""
+
+msgid "Bugginess"
+msgstr ""
+
+msgid "weird "
+msgstr ""
+
+msgid "gnarled "
+msgstr ""
+
+msgid "smoking "
+msgstr ""
+
+msgid "power"
+msgstr ""
+
+msgid "cold"
+msgstr ""
+
+msgid "energy"
+msgstr ""
+
+msgid "death"
+msgstr ""
+
+msgid "conjuration"
+msgstr ""
+
+msgid "enchantment"
+msgstr ""
+
+msgid "air"
+msgstr ""
+
+msgid "earth"
+msgstr ""
+
+msgid "weapon"
+msgstr ""
+
+msgid "missile"
+msgstr ""
+
+msgid "armour"
+msgstr ""
+
+msgid "wand"
+msgstr ""
+
+msgid "food"
+msgstr ""
+
+msgid "scroll"
+msgstr ""
+
+msgid "jewellery"
+msgstr ""
+
+msgid "potion"
+msgstr ""
+
+msgid "book"
+msgstr ""
+
+msgid "staff"
+msgstr ""
+
+msgid "removed rod"
+msgstr ""
+
+msgid "orb"
+msgstr ""
+
+msgid "miscellaneous"
+msgstr ""
+
+msgid "corpse"
+msgstr ""
+
+msgid "rune"
+msgstr ""
+
+msgid "manual"
+msgstr ""
+
+msgid "manual of "
+msgstr ""
+
+msgid "Necronomicon"
+msgstr ""
+
+msgid "Grand Grimoire"
+msgstr ""
+
+msgid "tome of obsoleteness"
+msgstr ""
+
+msgid "Young Poisoner's Handbook"
+msgstr ""
+
+msgid "Fen Folio"
+msgstr ""
+
+msgid "Akashic Record"
+msgstr ""
+
+msgid "book of "
+msgstr ""
+
+msgid "orb of Zot"
+msgstr ""
+
+msgid "rune of Zot"
+msgstr ""
+
+#, c-format
+msgid "%s weapon"
+msgstr ""
+
+#, c-format
+msgid "weapon of %s"
+msgstr ""
+
+#, c-format
+msgid "%s touch"
+msgstr ""
+
+msgid "damnation"
+msgstr ""
+
+msgid "cursed "
+msgstr ""
+
+msgid "uncursed "
+msgstr ""
+
+msgid "+∞ "
+msgstr ""
+
+#, c-format
+msgid "%+d "
+msgstr ""
+
+#, c-format
+msgid "%s (%s)"
+msgstr ""
+
+#, c-format
+msgid "vampiric %s"
+msgstr ""
+
+#, c-format
+msgid "antimagic %s"
+msgstr ""
+
+#, c-format
+msgid "vorpal %s"
+msgstr ""
+
+#, c-format
+msgid "enchanted %s"
+msgstr ""
+
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+msgid "x) "
+msgstr ""
+
+msgid "damnation "
+msgstr ""
+
+msgid " (damnation)"
+msgstr ""
+
+msgid " of "
+msgstr ""
+
+msgid "enchanted "
+msgstr ""
+
+msgid "pair of "
+msgstr ""
+
+msgid "embroidered "
+msgstr ""
+
+msgid "dyed "
+msgstr ""
+
+msgid " {"
+msgstr ""
+
+msgid "}"
+msgstr ""
+
+msgid "wand of "
+msgstr ""
+
+msgid " wand"
+msgstr ""
+
+msgid "potion of "
+msgstr ""
+
+msgid "bubbling "
+msgstr ""
+
+msgid "fuming "
+msgstr ""
+
+msgid "fizzy "
+msgstr ""
+
+msgid "viscous "
+msgstr ""
+
+msgid "smoky "
+msgstr ""
+
+msgid "sedimented "
+msgstr ""
+
+msgid "metallic "
+msgstr ""
+
+msgid "murky "
+msgstr ""
+
+msgid "gluggy "
+msgstr ""
+
+msgid "oily "
+msgstr ""
+
+msgid "slimy "
+msgstr ""
+
+msgid "emulsified "
+msgstr ""
+
+msgid "clear"
+msgstr ""
+
+msgid "black"
+msgstr ""
+
+msgid "silvery"
+msgstr ""
+
+msgid "cyan"
+msgstr ""
+
+msgid "purple"
+msgstr ""
+
+msgid "orange"
+msgstr ""
+
+msgid "inky"
+msgstr ""
+
+msgid "red"
+msgstr ""
+
+msgid "yellow"
+msgstr ""
+
+msgid "green"
+msgstr ""
+
+msgid "brown"
+msgstr ""
+
+msgid "white"
+msgstr ""
+
+msgid "grey"
+msgstr ""
+
+msgid "pink"
+msgstr ""
+
+msgid "coppery"
+msgstr ""
+
+msgid "puce"
+msgstr ""
+
+msgid "bug-filled "
+msgstr ""
+
+msgid "bogus"
+msgstr ""
+
+msgid " potion"
+msgstr ""
+
+msgid "ration"
+msgstr ""
+
+msgid "inedible "
+msgstr ""
+
+msgid "chunk of flesh"
+msgstr ""
+
+msgid "removed food"
+msgstr ""
+
+msgid "of "
+msgstr ""
+
+msgid "labeled "
+msgstr ""
+
+msgid "amulet"
+msgstr ""
+
+msgid "ring"
+msgstr ""
+
+msgid " amulet"
+msgstr ""
+
+msgid " ring"
+msgstr ""
+
+msgid "+"
+msgstr ""
+
+msgid " (inert)"
+msgstr ""
+
+msgid "/"
+msgstr ""
+
+msgid "staff of "
+msgstr ""
+
+msgid "Orb of Zot"
+msgstr ""
+
+msgid "gold piece"
+msgstr ""
+
+msgid "decaying skeleton"
+msgstr ""
+
+msgid "skeleton"
+msgstr ""
+
+msgid "corpse bug"
+msgstr ""
+
+msgid "!"
+msgstr ""
+
+msgid "bad item (cl:"
+msgstr ""
+
+msgid ",ty:"
+msgstr ""
+
+msgid ",pl:"
+msgstr ""
+
+msgid ",pl2:"
+msgstr ""
+
+msgid ",sp:"
+msgstr ""
+
+msgid ",qu:"
+msgstr ""
+
+#, c-format
+msgid "%s"
+msgstr ""
+
+msgid "<"
+msgstr ""
+
+msgid ">"
+msgstr ""
+
+msgid " rune of Zot"
+msgstr ""
+
+msgid "</"
+msgstr ""
+
+msgid "<magenta>The Orb of Zot</magenta>"
+msgstr ""
+
+msgid "<darkgrey>The Orb of Zot (the Realm of Zot)</darkgrey>"
+msgstr ""
+
+msgid "lightgrey"
+msgstr ""
+
+msgid "lightgreen"
+msgstr ""
+
+#, c-format
+msgid ""
+"<white>Runes of Zot (</white><%s>%d</%s><white> collected) & Orbs of Power</"
+"white>"
+msgstr ""
+
+msgid "plog"
+msgstr ""
+
+msgid "aeiouaeiouaeiouy  "
+msgstr ""
+
+msgid "bcdfghjklmnpqrstvwxzcdfghlmnrstlmnrst"
+msgstr ""
+
+msgid "kl"
+msgstr ""
+
+msgid "gr"
+msgstr ""
+
+msgid "cl"
+msgstr ""
+
+msgid "cr"
+msgstr ""
+
+msgid "fr"
+msgstr ""
+
+msgid "pr"
+msgstr ""
+
+msgid "tr"
+msgstr ""
+
+msgid "tw"
+msgstr ""
+
+msgid "br"
+msgstr ""
+
+msgid "pl"
+msgstr ""
+
+msgid "bl"
+msgstr ""
+
+msgid "str"
+msgstr ""
+
+msgid "shr"
+msgstr ""
+
+msgid "thr"
+msgstr ""
+
+msgid "sm"
+msgstr ""
+
+msgid "sh"
+msgstr ""
+
+msgid "ch"
+msgstr ""
+
+msgid "th"
+msgstr ""
+
+msgid "ph"
+msgstr ""
+
+msgid "pn"
+msgstr ""
+
+msgid "kh"
+msgstr ""
+
+msgid "gh"
+msgstr ""
+
+msgid "mn"
+msgstr ""
+
+msgid "ps"
+msgstr ""
+
+msgid "st"
+msgstr ""
+
+msgid "sk"
+msgstr ""
+
+msgid "sch"
+msgstr ""
+
+msgid "ts"
+msgstr ""
+
+msgid "cs"
+msgstr ""
+
+msgid "xt"
+msgstr ""
+
+msgid "nt"
+msgstr ""
+
+msgid "ll"
+msgstr ""
+
+msgid "rr"
+msgstr ""
+
+msgid "ss"
+msgstr ""
+
+msgid "wk"
+msgstr ""
+
+msgid "wn"
+msgstr ""
+
+msgid "ng"
+msgstr ""
+
+msgid "cw"
+msgstr ""
+
+msgid "mp"
+msgstr ""
+
+msgid "ck"
+msgstr ""
+
+msgid "nk"
+msgstr ""
+
+msgid "dd"
+msgstr ""
+
+msgid "tt"
+msgstr ""
+
+msgid "bb"
+msgstr ""
+
+msgid "pp"
+msgstr ""
+
+msgid "nn"
+msgstr ""
+
+msgid "mm"
+msgstr ""
+
+msgid "kk"
+msgstr ""
+
+msgid "gg"
+msgstr ""
+
+msgid "ff"
+msgstr ""
+
+msgid "pt"
+msgstr ""
+
+msgid "tz"
+msgstr ""
+
+msgid "dgh"
+msgstr ""
+
+msgid "rgh"
+msgstr ""
+
+msgid "rph"
+msgstr ""
+
+msgid "rch"
+msgstr ""
+
+msgid "cz"
+msgstr ""
+
+msgid "xk"
+msgstr ""
+
+msgid "zx"
+msgstr ""
+
+msgid "xz"
+msgstr ""
+
+msgid "cv"
+msgstr ""
+
+msgid "vv"
+msgstr ""
+
+msgid "nl"
+msgstr ""
+
+msgid "rh"
+msgstr ""
+
+msgid "dw"
+msgstr ""
+
+msgid "nw"
+msgstr ""
+
+msgid "khl"
+msgstr ""
+
+msgid "w"
+msgstr ""
+
+msgid "can't write test output"
+msgstr ""
+
+#, c-format
+msgid "%s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Longest: %s (%d)\n"
+msgstr ""
+
+msgid "jiyva_names.out"
+msgstr ""
+
+msgid "scroll_names.out"
+msgstr ""
+
+msgid "identified"
+msgstr ""
+
+msgid "known"
+msgstr ""
+
+msgid "unidentified"
+msgstr ""
+
+msgid "uncursed"
+msgstr ""
+
+msgid "evil_item"
+msgstr ""
+
+msgid "forbidden"
+msgstr ""
+
+msgid "emergency_item"
+msgstr ""
+
+msgid "good_item"
+msgstr ""
+
+msgid "dangerous_item"
+msgstr ""
+
+msgid "bad_item"
+msgstr ""
+
+msgid "useless_item"
+msgstr ""
+
+msgid "stationary"
+msgstr ""
+
+msgid "inedible"
+msgstr ""
+
+msgid "preferred"
+msgstr ""
+
+msgid "ranged"
+msgstr ""
+
+msgid "melee"
+msgstr ""
+
+msgid "artefact"
+msgstr ""
+
+msgid "equipped"
+msgstr ""
+
+msgid "spellbook"
+msgstr ""
+
+msgid "pickup"
+msgstr ""
+
+#, c-format
+msgid "<%s>%s</%s>"
+msgstr ""
+
+#, c-format
+msgid "Bad name for item name cache: %s"
+msgstr ""
+
+msgid "removed "
+msgstr ""
+
+msgid " dragon hide"
+msgstr ""
+
+msgid " dragon scales"
+msgstr ""
+
+msgid "animal skin"
+msgstr ""
+
+msgid "robe"
+msgstr ""
+
+msgid "leather armour"
+msgstr ""
+
+msgid "ring mail"
+msgstr ""
+
+msgid "scale mail"
+msgstr ""
+
+msgid "chain mail"
+msgstr ""
+
+msgid "plate armour"
+msgstr ""
+
+msgid "crystal plate armour"
+msgstr ""
+
+msgid "removed troll hide"
+msgstr ""
+
+msgid "troll leather armour"
+msgstr ""
+
+msgid "cloak"
+msgstr ""
+
+msgid "scarf"
+msgstr ""
+
+msgid "gloves"
+msgstr ""
+
+msgid "helmet"
+msgstr ""
+
+msgid "cap"
+msgstr ""
+
+msgid "hat"
+msgstr ""
+
+msgid "boots"
+msgstr ""
+
+msgid "centaur barding"
+msgstr ""
+
+msgid "naga barding"
+msgstr ""
+
+msgid "buckler"
+msgstr ""
+
+msgid "kite shield"
+msgstr ""
+
+msgid "tower shield"
+msgstr ""
+
+msgid "steam"
+msgstr ""
+
+msgid "quicksilver"
+msgstr ""
+
+msgid "swamp"
+msgstr ""
+
+msgid "storm"
+msgstr ""
+
+msgid "shadow"
+msgstr ""
+
+msgid "club"
+msgstr ""
+
+msgid "spiked flail"
+msgstr ""
+
+msgid "whip"
+msgstr ""
+
+msgid "hammer"
+msgstr ""
+
+msgid "mace"
+msgstr ""
+
+msgid "flail"
+msgstr ""
+
+msgid "morningstar"
+msgstr ""
+
+msgid "demon whip"
+msgstr ""
+
+msgid "sacred scourge"
+msgstr ""
+
+msgid "dire flail"
+msgstr ""
+
+msgid "eveningstar"
+msgstr ""
+
+msgid "great mace"
+msgstr ""
+
+msgid "giant club"
+msgstr ""
+
+msgid "giant spiked club"
+msgstr ""
+
+msgid "dagger"
+msgstr ""
+
+msgid "quick blade"
+msgstr ""
+
+msgid "short sword"
+msgstr ""
+
+msgid "rapier"
+msgstr ""
+
+msgid "cutlass"
+msgstr ""
+
+msgid "falchion"
+msgstr ""
+
+msgid "long sword"
+msgstr ""
+
+msgid "scimitar"
+msgstr ""
+
+msgid "demon blade"
+msgstr ""
+
+msgid "eudemon blade"
+msgstr ""
+
+msgid "double sword"
+msgstr ""
+
+msgid "great sword"
+msgstr ""
+
+msgid "triple sword"
+msgstr ""
+
+msgid "old falchion"
+msgstr ""
+
+msgid "old long sword"
+msgstr ""
+
+msgid "old scimitar"
+msgstr ""
+
+msgid "old double sword"
+msgstr ""
+
+msgid "old great sword"
+msgstr ""
+
+msgid "old triple sword"
+msgstr ""
+
+msgid "hand axe"
+msgstr ""
+
+msgid "war axe"
+msgstr ""
+
+msgid "broad axe"
+msgstr ""
+
+msgid "battleaxe"
+msgstr ""
+
+msgid "executioner's axe"
+msgstr ""
+
+msgid "spear"
+msgstr ""
+
+msgid "trident"
+msgstr ""
+
+msgid "halberd"
+msgstr ""
+
+msgid "scythe"
+msgstr ""
+
+msgid "demon trident"
+msgstr ""
+
+msgid "trishula"
+msgstr ""
+
+msgid "glaive"
+msgstr ""
+
+msgid "bardiche"
+msgstr ""
+
+msgid "quarterstaff"
+msgstr ""
+
+msgid "lajatang"
+msgstr ""
+
+msgid "blowgun"
+msgstr ""
+
+msgid "hunting sling"
+msgstr ""
+
+msgid "fustibalus"
+msgstr ""
+
+msgid "hand crossbow"
+msgstr ""
+
+msgid "arbalest"
+msgstr ""
+
+msgid "triple crossbow"
+msgstr ""
+
+msgid "shortbow"
+msgstr ""
+
+msgid "longbow"
+msgstr ""
+
+msgid "dart"
+msgstr ""
+
+msgid "needle"
+msgstr ""
+
+msgid "stone"
+msgstr ""
+
+msgid "arrow"
+msgstr ""
+
+msgid "bolt"
+msgstr ""
+
+msgid "large rock"
+msgstr ""
+
+msgid "sling bullet"
+msgstr ""
+
+msgid "javelin"
+msgstr ""
+
+msgid "throwing net"
+msgstr ""
+
+msgid "boomerang"
+msgstr ""
+
+msgid "chunk"
+msgstr ""
+
+msgid "eggplant"
+msgstr ""
+
+#, c-format
+msgid "Bad food type %d (NUM_FOODS = %d)"
+msgstr ""

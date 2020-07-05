@@ -406,7 +406,7 @@ const string& get_localization_language()
     return get_xlate_language();
 }
 
-string localize(const vector<LocalizationArg>& args)
+string localize(const vector<LocalizationArg>& args, const bool capitalize)
 {
     if (args.empty())
     {
@@ -524,14 +524,13 @@ string localize(const vector<LocalizationArg>& args)
         }
     }
 
-    return ss.str();
-}
+    string result = ss.str();
+    if (capitalize)
+    {
+        result = uppercase_first(result);
+    }
+    return result;
 
-// same as localize except it capitalizes first letter
-string localize_sentence(const vector<LocalizationArg>& args)
-{
-    string result = localize(args);
-    return uppercase_first(result);
 }
 
 // convenience function using va_args (yuk!)
@@ -612,26 +611,26 @@ string localize(const string& fmt_str, ...)
     return localize(niceArgs);
 }
 
-string localize(const LocalizationArg& arg)
+string localize(const LocalizationArg& arg, const bool capitalize)
 {
     vector<LocalizationArg> args;
     args.push_back(arg);
-    return localize(args);
+    return localize(args, capitalize);
 }
 
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2)
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const bool capitalize)
 {
     vector<LocalizationArg> args;
     args.push_back(arg1);
     args.push_back(arg2);
-    return localize(args);
+    return localize(args, capitalize);
 }
 
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3)
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const bool capitalize)
 {
     vector<LocalizationArg> args;
     args.push_back(arg1);
     args.push_back(arg2);
     args.push_back(arg3);
-    return localize(args);
+    return localize(args, capitalize);
 }

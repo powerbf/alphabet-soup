@@ -29,6 +29,7 @@
 #include "god-passive.h" // passive_t::convert_orcs
 #include "hints.h"
 #include "item-prop.h"
+#include "localize.h"
 #include "mapdef.h"
 #include "message.h"
 #include "mon-behv.h"
@@ -1474,12 +1475,11 @@ string melee_attack::player_why_missed()
                                           : string("armour");
 
         if (armour_miss && !shield_miss)
-            return "Your " + armour_name + " prevents you from hitting ";
+            return "Your armour prevents you from hitting ";
         else if (shield_miss && !armour_miss)
             return "Your shield prevents you from hitting ";
         else
-            return "Your shield and " + armour_name
-                   + " prevent you from hitting ";
+            return "Your shield and armour prevent you from hitting ";
     }
 
     return "You" + evasion_margin_adverb() + " miss ";
@@ -1489,9 +1489,12 @@ void melee_attack::player_warn_miss()
 {
     did_hit = false;
 
-    mprf("%s%s.",
-         player_why_missed().c_str(),
-         defender->name(DESC_THE).c_str());
+    string msg = player_why_missed() + "%s.";
+
+    msg = localize(LocalizationArg(msg),
+                   LocalizationArg("monsters", defender->name(DESC_THE)));
+
+    mpr(msg);
 
     // Upset only non-sleeping non-fleeing monsters if we missed.
     if (!defender->asleep() && !mons_is_fleeing(*defender->as_monster()))
@@ -2415,11 +2418,19 @@ void melee_attack::announce_hit()
             verb_degree = " " + verb_degree;
         }
 
-        mprf("You %s %s%s%s%s",
-             attack_verb.c_str(),
-             defender->name(DESC_THE).c_str(),
-             verb_degree.c_str(), debug_damage_number().c_str(),
-             attack_strength_punctuation(damage_done).c_str());
+        string msg = string("You ") + attack_verb + " %s" + verb_degree;
+
+        msg = localize(LocalizationArg(msg),
+                       LocalizationArg("monsters", defender->name(DESC_THE)));
+        msg += debug_damage_number();
+
+        // This adds exclamation marks to show the amount of damage.
+        // Not sure what the maximum possible is. I saw a reddit thread that claimed 8.
+        // Some languages do exclamation marks in other ways...
+        string punct_fmt = string("%s") + attack_strength_punctuation(damage_done);
+        punct_fmt = localize(LocalizationArg(punct_fmt));
+
+        mprf(punct_fmt.c_str(), msg.c_str());
     }
 }
 
