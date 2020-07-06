@@ -340,11 +340,10 @@ LocalizationArg::LocalizationArg()
     init();
 }
 
-LocalizationArg::LocalizationArg(const string& value, const bool translt)
+LocalizationArg::LocalizationArg(const string& value)
     : stringVal(value)
 {
     init();
-    translate = translt;
 }
 
 LocalizationArg::LocalizationArg(const string& dom, const string& value)

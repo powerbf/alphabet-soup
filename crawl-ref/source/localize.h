@@ -33,7 +33,7 @@ public:
     bool translate;
 
     LocalizationArg();
-    LocalizationArg(const string& value, const bool translate = true);
+    LocalizationArg(const string& value);
     LocalizationArg(const string& domain, const string& value);
     LocalizationArg(const string& value, const string& plural_val, const int count);
     LocalizationArg(const string& domain, const string& value, const string& plural_val, const int count);
