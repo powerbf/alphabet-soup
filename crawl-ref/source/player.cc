@@ -5213,7 +5213,11 @@ string player_save_info::really_short_desc() const
 {
     vector<LocalizationArg> args;
     args.push_back(LocalizationArg("%s the %s %s"));
-    args.push_back(LocalizationArg(name, false));
+
+    LocalizationArg nameArg(name);
+    nameArg.translate = false;
+    args.push_back(nameArg);
+
     args.push_back(LocalizationArg(species_name));
     args.push_back(LocalizationArg(class_name));
 
