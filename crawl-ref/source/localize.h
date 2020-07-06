@@ -33,7 +33,7 @@ public:
     bool translate;
 
     LocalizationArg();
-    LocalizationArg(const string& value);
+    LocalizationArg(const string& value, const bool translate = true);
     LocalizationArg(const string& domain, const string& value);
     LocalizationArg(const string& value, const string& plural_val, const int count);
     LocalizationArg(const string& domain, const string& value, const string& plural_val, const int count);
@@ -70,6 +70,9 @@ string localize(const string& fmt_str, ...);
 // more convenience functions
 string localize(const LocalizationArg& arg, const bool capitalize = true);
 string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const bool capitalize = true);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const bool capitalize = true);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
+                const bool capitalize = true);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
+                const LocalizationArg& arg4, const bool capitalize = true);
 
 

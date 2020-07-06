@@ -49,6 +49,7 @@
 #include "kills.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localize.h"
 #include "macro.h"
 #include "melee-attack.h"
 #include "message.h"
@@ -5210,10 +5211,13 @@ bool player_save_info::operator<(const player_save_info& rhs) const
 
 string player_save_info::really_short_desc() const
 {
-    ostringstream desc;
-    desc << name << " the " << species_name << ' ' << class_name;
+    vector<LocalizationArg> args;
+    args.push_back(LocalizationArg("%s the %s %s"));
+    args.push_back(LocalizationArg(name, false));
+    args.push_back(LocalizationArg(species_name));
+    args.push_back(LocalizationArg(class_name));
 
-    return desc.str();
+    return localize(args, false);
 }
 
 string player_save_info::short_desc(bool use_qualifier) const

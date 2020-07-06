@@ -1,21 +1,147 @@
-# German translations for hello package.
-# Copyright (C) 2019 THE hello'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hello package.
-# brian <brian@gallifrey>, 2019.
+###############################################################################
 #
+# German translations for general messages
+#
+###############################################################################
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 1.0\n"
+"Project-Id-Version: Messages 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-10 00:19+1000\n"
-"PO-Revision-Date: 2019-07-09 22:05+1000\n"
-"Last-Translator: brian <brian@gallifrey>\n"
+"POT-Creation-Date:\n"
+"PO-Revision-Date:\n"
+"Last-Translator: powerbf\n"
 "Language-Team: German\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+##############################
+# Startup
+##############################
+
+msgid "Loading databases..."
+msgstr "Datenbanken wird geladen..."
+
+msgid "Loading spells and features..."
+msgstr "Zaubersprüche und Features wird geladen..."
+
+msgid "Loading maps..."
+msgstr "Karten wird geladen..."
+
+msgid "Loading complete, press any key to start."
+msgstr "Laden fertig, drücke eine Taste um zu starten."
+
+#, c-format
+msgid "Hello, welcome to %s %s!"
+msgstr "Hallo, willkommen bei %s %s!"
+
+#, c-format
+msgid "Dismissing %s"
+msgstr "%s wird entlassen"
+
+msgid "Dungeon Crawl"
+msgstr "Dungeon Crawl"
+
+msgid "Dungeon Crawl: The main game: full of monsters, items, gods and danger!"
+msgstr "Dungeon Crawl: Das Hauptspiel: voller Monster, Gegstände, Götter und Gefahr!"
+
+msgid "Choose Game Seed"
+msgstr "Spielsamen wählen"
+
+msgid "Play with a chosen custom dungeon seed."
+msgstr "Spielen mit einem gewählten Samen für Erzeugung des Dungeons"
+
+msgid "Tutorial for Dungeon Crawl"
+msgstr "Tutorial für Dungeon Crawl"
+
+msgid "Tutorial that covers the basics of Dungeon Crawl survival."
+msgstr "Tutorial, das die Grundlagen des Überlebens behandelt."
+
+msgid "Hints Mode for Dungeon Crawl"
+msgstr "Hinweismodus für Dungeon Crawl"
+
+msgid "A mostly normal game that provides more advanced hints than the tutorial."
+msgstr "Ein fast normales Spiel, das fortgeschrittenere Hinweise bietet."
+
+msgid "Dungeon Sprint"
+msgstr "Dungeon-Sprint"
+
+msgid "Hard, fixed single level game mode."
+msgstr "Harter, fester Single-Level-Spielmodus."
+
+msgid "Instructions"
+msgstr "Anleitungen"
+
+msgid "Help menu."
+msgstr "Hilfemenü."
+
+msgid "The Arena"
+msgstr "Die Arena"
+
+msgid "Pit computer controlled teams versus each other!"
+msgstr "Computergesteuerte Teams gegeneinander antreten!"
+
+msgid "High Scores"
+msgstr "Highscores"
+
+msgid "View the high score list."
+msgstr "Die Highscore-Liste anschauen."
+
+msgid "New Game"
+msgstr "Neues Spiel"
+
+msgid " (WIZ)"
+msgstr " (WIZ)"
+
+msgid "Enter your name:"
+msgstr "Gib deinen Namen ein:"
+
+msgid "Choices:"
+msgstr "Optionen:"
+
+msgid "Saved games:"
+msgstr "Gespeicherte Spiele:"
+
+msgid "quick-load last game: "
+msgstr "letztes Spiel schnell laden: "
+
+msgid "quick-start last combo: "
+msgstr "letzte Kombination schnell starten: "
+
+msgid "view rc file information and log"
+msgstr "Log und Informationen zur Startup-Datei anschauen"
+
+msgid "Errors during initialization!"
+msgstr "Fehler bei der Initialisierung!"
+
+msgid "Press Esc to close, arrows/pgup/pgdn to scroll."
+msgstr "Drücke Esc zu schließen, pfiele/pgup/pgdn zu scrollen."
+
+msgid "Crawl encountered errors during initialization:"
+msgstr "Crawl trifft Fehler bei der Initialisierung:"
+
+msgid "Initialization log:"
+msgstr "Initialisierungslog:"
+
+# key names (NOTE: these are names only - you can't change the input keys with this)
+
+msgid "tab"
+msgstr "tab"
+
+msgid "ctrl-p"
+msgstr "ctrl-p"
+
+# "<player name> the <species> <background>"
+#, c-format
+msgid "%s the %s %s"
+msgstr "%s der %s %s"
+
+# "<player name> the <combo>"
+#, c-format
+msgid "%s the %s"
+msgstr "%s der %s"
 
 ##############################
 # Player misses monster

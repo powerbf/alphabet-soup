@@ -340,10 +340,11 @@ LocalizationArg::LocalizationArg()
     init();
 }
 
-LocalizationArg::LocalizationArg(const string& value)
+LocalizationArg::LocalizationArg(const string& value, const bool translt)
     : stringVal(value)
 {
     init();
+    translate = translt;
 }
 
 LocalizationArg::LocalizationArg(const string& dom, const string& value)
@@ -632,5 +633,16 @@ string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const 
     args.push_back(arg1);
     args.push_back(arg2);
     args.push_back(arg3);
+    return localize(args, capitalize);
+}
+
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
+                const LocalizationArg& arg4, const bool capitalize)
+{
+    vector<LocalizationArg> args;
+    args.push_back(arg1);
+    args.push_back(arg2);
+    args.push_back(arg3);
+    args.push_back(arg4);
     return localize(args, capitalize);
 }

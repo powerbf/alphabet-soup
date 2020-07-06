@@ -15,6 +15,7 @@
 #include "hints.h"
 #include "initfile.h"
 #include "libutil.h"
+#include "localize.h"
 #ifdef WIZARD
  #include "luaterp.h"
 #endif
@@ -2257,11 +2258,13 @@ void replay_messages_during_startup()
 {
     formatted_scroller hist(FS_PREWRAPPED_TEXT);
     hist.set_more();
-    hist.set_more(formatted_string::parse_string(
-            "<cyan>Press Esc to close, arrows/pgup/pgdn to scroll.</cyan>"));
-    hist.set_title(formatted_string::parse_string(recent_error_messages()
-        ? "<yellow>Crawl encountered errors during initialization:</yellow>"
-        : "<yellow>Initialization log:</yellow>"));
+    string more_msg = localize("Press Esc to close, arrows/pgup/pgdn to scroll.");
+    hist.set_more(formatted_string::parse_string(string("<cyan>") + more_msg + "</cyan>"));
+    string title = localize(
+            recent_error_messages()
+            ? "Crawl encountered errors during initialization:"
+            : "Initialization log:");
+    hist.set_title(formatted_string::parse_string(string("<yellow>") + title + "</yellow>"));
     _replay_messages_core(hist);
 }
 
