@@ -741,10 +741,10 @@ public:
                     more_str += "or click ";
                 more_str += "to continue. You can later reread messages with "
                             "Ctrl-P.";
-                cprintf(more_str.c_str());
+                cprintf(localize(more_str).c_str());
             }
             else
-                cprintf("--more--");
+                cprintf(localize("--more--").c_str());
 
             readkey_more(user);
         }
