@@ -1,15 +1,18 @@
-# German translations for PACKAGE package.
-# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# brian <brian@gallifrey>, 2020.
+###############################################################################
 #
+# German translations for item names
+#
+# Translation notes:
+#
+#
+###############################################################################
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Items 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-05 10:43+1000\n"
-"PO-Revision-Date: 2020-07-05 11:05+1000\n"
-"Last-Translator: brian <brian@gallifrey>\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -17,73 +20,316 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "god gift"
+#################################
+# Weapons
+#################################
+
+msgid "unarmed"
+msgstr "unbewaffnet"
+
+# unarmed when you have claws
+msgid "claws"
+msgstr "Krallen"
+
+msgid "club"
+msgstr "Keule"
+
+msgid "spiked flail"
+msgstr "Stachelflegel"
+
+msgid "whip"
+msgstr "Peitsche"
+
+msgid "hammer"
+msgstr "Hammer"
+
+msgid "mace"
+msgstr "Streitkolben"
+
+msgid "flail"
+msgstr "Flegel"
+
+msgid "morningstar"
+msgstr "Morgenstern"
+
+msgid "demon whip"
+msgstr "Dämonenpeitsche"
+
+msgid "sacred scourge"
+msgstr "geistliche Geißel"
+
+msgid "dire flail"
+msgstr "Schreckensflegel"
+
+msgid "eveningstar"
+msgstr "Abendstern"
+
+msgid "great mace"
+msgstr "großer Streitkolben"
+
+msgid "giant club"
+msgstr "Riesenkeule"
+
+msgid "giant spiked club"
+msgstr "riesiger Stachelkeule"
+
+msgid "dagger"
+msgstr "Dolch"
+
+msgid "quick blade"
+msgstr "Schnellklinge"
+
+msgid "short sword"
+msgstr "Kurzschwert"
+
+msgid "rapier"
+msgstr "Rapier"
+
+msgid "cutlass"
+msgstr "Entersäbel"
+
+msgid "falchion"
+msgstr "Falchion"
+
+msgid "long sword"
+msgstr "Langschwert"
+
+msgid "scimitar"
+msgstr "Krummsäbel"
+
+msgid "demon blade"
+msgstr "Dämonenklinge"
+
+msgid "eudemon blade"
+msgstr "Eudämonenklinge"
+
+msgid "double sword"
+msgstr "Doppelschwert"
+
+msgid "great sword"
+msgstr "Großschwert"
+
+msgid "triple sword"
+msgstr "Dreifach-Schwert"
+
+msgid "hand axe"
+msgstr "Beil"
+
+msgid "war axe"
+msgstr "Kriegsaxt"
+
+msgid "broad axe"
+msgstr "Breitaxt"
+
+msgid "battleaxe"
+msgstr "Streitaxt"
+
+msgid "executioner's axe"
+msgstr "Henkersaxt"
+
+msgid "spear"
+msgstr "Speer"
+
+msgid "trident"
+msgstr "Dreizack"
+
+msgid "halberd"
+msgstr "Hellebarde"
+
+msgid "scythe"
+msgstr "Sense"
+
+msgid "demon trident"
+msgstr "Dämonendreizack"
+
+msgid "trishula"
+msgstr "Trishula"
+
+msgid "glaive"
+msgstr "Gleve"
+
+msgid "bardiche"
+msgstr "Bardiche"
+
+msgid "quarterstaff"
+msgstr "Kampfstab"
+
+msgid "lajatang"
+msgstr "Lajatang"
+
+msgid "blowgun"
+msgstr "Blasrohr"
+
+msgid "hunting sling"
+msgstr "Schleuder"
+
+msgid "fustibalus"
+msgstr "Fustibalus"
+
+msgid "hand crossbow"
+msgstr "Handarmbrust"
+
+msgid "arbalest"
+msgstr "Armbrust"
+
+msgid "triple crossbow"
+msgstr "Dreifach-armbrust"
+
+msgid "shortbow"
+msgstr "Kurzbogen"
+
+msgid "longbow"
+msgstr "Langbogen"
+
+msgid "dart"
+msgstr "Wurfpfeil"
+
+msgid "needle"
+msgstr "Blasrohrpfeil"
+
+msgid "stone"
+msgstr "Stein"
+
+msgid "arrow"
+msgstr "Pfeil"
+
+msgid "bolt"
+msgstr "Bolzen"
+
+msgid "large rock"
+msgstr "Felsblock"
+
+msgid "sling bullet"
+msgstr "Schleuderkugel"
+
+msgid "javelin"
+msgstr "Wurfspeer"
+
+msgid "throwing net"
+msgstr "Wurfnetz"
+
+msgid "boomerang"
+msgstr "Bumerang"
+
+# the new game menu lists these combinations:
+
+msgid "large rocks and throwing nets"
+msgstr "Felsblöcke und Wurfnetze"
+
+msgid "boomerangs and throwing nets"
+msgstr "Bumerangs und Wurfnetze"
+
+msgid "javelins and throwing nets"
+msgstr "Wurfspeer und Wurfnetze"
+
+msgid "hunting sling and sling bullets"
+msgstr "Schleuder und Schleuderkugeln"
+
+msgid "shortbow and arrows"
+msgstr "Kurzbogen und Pfeile"
+
+msgid "hand crossbow and bolts"
+msgstr "Handarmbrust und Bolzen"
+
+#################################
+# Food
+#################################
+
+msgid "ration"
 msgstr ""
+
+msgid "chunk"
+msgstr "Stück"
+
+msgid "chunk of flesh"
+msgstr "Fleischstück"
+
+msgid "inedible chunk of flesh"
+msgstr "ungenießbares Fleischstück"
+
+msgid "eggplant"
+msgstr "Aubergine"
+
+#################################
+# Item slots
+#################################
+
+msgid " (melded)"
+msgstr " (integriert)"
+
+msgid " (weapon)"
+msgstr " (Waffe)"
+
+msgid " (in mouth)"
+msgstr " (im Mund)"
+
+msgid " (worn)"
+msgstr " (getragen)"
+
+msgid " (left hand)"
+msgstr " (linke Hand)"
+
+msgid " (right hand)"
+msgstr " (rechte Hand)"
+
+# NOTE: German has different words for the paw of a cat/dog/etc.(die Pfote) vs. the paw of a lion/bear/etc. (die Pranke)
+# This refers to a felid's paw, which I guess it's the same as a cat's paw...
+
+msgid " (left paw)"
+msgstr " (linke Pfote)"
+
+msgid " (right paw)"
+msgstr " (rechte Pfote)"
+
+# Claw -> die Kralle oder die Klaue?
+
+msgid " (left claw)"
+msgstr " (linke Pfote)"
+
+msgid " (right claw)"
+msgstr " (rechte Pfote)"
+
+# NOTE: This is mantle in the zoological sense (octopode)
+msgid " (around mantle)"
+msgstr " (um den Mantel)"
+
+msgid " (around neck)"
+msgstr " (um den Hals)"
+
+msgid " (on tentacle)"
+msgstr " (am Tentakel)"
+
+msgid " (on amulet)"
+msgstr " (am Amulett)"
+
+msgid " (quivered)"
+msgstr " (im Köcher)"
+
+msgid "Item in an invalid slot"
+msgstr "Gegenstand in falscher Position"
+
+#################################
+# Other
+#################################
+
+msgid " (curse)"
+msgstr " (verflucht)"
+
+msgid "god gift"
+msgstr "Gottesgeschenk"
+
+#################################
+# TODO
+#################################
 
 # this is used to show item properties
 #, c-format
 msgid " {%s}"
 msgstr " {%s}"
 
-msgid ", "
-msgstr ", "
-
-msgid ") "
-msgstr ") "
-
-msgid " - "
-msgstr " - "
-
 msgid "shaped "
 msgstr ""
 
-msgid " (melded)"
-msgstr ""
-
-msgid " (weapon)"
-msgstr ""
-
-msgid " (in mouth)"
-msgstr ""
-
-msgid " (in "
-msgstr ""
-
-msgid ")"
-msgstr ""
-
-msgid " (worn)"
-msgstr ""
-
-msgid " ("
-msgstr " ("
-
-msgid "left"
-msgstr ""
-
-msgid "right"
-msgstr ""
-
-msgid " (around mantle)"
-msgstr ""
-
-msgid " (around neck)"
-msgstr ""
-
-msgid " (on tentacle)"
-msgstr ""
-
-msgid " (on amulet)"
-msgstr ""
-
-msgid "Item in an invalid slot"
-msgstr ""
-
-msgid " (quivered)"
-msgstr ""
-
-msgid " (curse)"
-msgstr ""
 
 msgid "flame"
 msgstr ""
@@ -971,27 +1217,6 @@ msgstr ""
 msgid "dark"
 msgstr ""
 
-msgid "removed deck"
-msgstr ""
-
-msgid "removed crystal ball"
-msgstr ""
-
-msgid "box of beasts"
-msgstr ""
-
-msgid "removed ebony casket"
-msgstr ""
-
-msgid "removed fan of gales"
-msgstr ""
-
-msgid "removed lamp of fire"
-msgstr ""
-
-msgid "removed lantern of shadows"
-msgstr ""
-
 msgid "horn of Geryon"
 msgstr ""
 
@@ -1001,28 +1226,16 @@ msgstr ""
 msgid "empty flask"
 msgstr ""
 
-msgid "obsolete rune of zot"
-msgstr ""
-
-msgid "removed stone of tremors"
-msgstr ""
-
 msgid "quad damage"
 msgstr ""
 
 msgid "phial of floods"
 msgstr ""
 
-msgid "removed sack of spiders"
-msgstr ""
-
 msgid "phantom mirror"
 msgstr ""
 
 msgid "figurine of a ziggurat"
-msgstr ""
-
-msgid "removed chess piece"
 msgstr ""
 
 msgid "tin of tremorstones"
@@ -1368,12 +1581,6 @@ msgstr ""
 msgid "dyed "
 msgstr ""
 
-msgid " {"
-msgstr ""
-
-msgid "}"
-msgstr ""
-
 msgid "wand of "
 msgstr ""
 
@@ -1474,18 +1681,6 @@ msgid "bogus"
 msgstr ""
 
 msgid " potion"
-msgstr ""
-
-msgid "ration"
-msgstr ""
-
-msgid "inedible "
-msgstr ""
-
-msgid "chunk of flesh"
-msgstr ""
-
-msgid "removed food"
 msgstr ""
 
 msgid "of "
@@ -1832,25 +2027,7 @@ msgstr ""
 msgid "uncursed"
 msgstr ""
 
-msgid "evil_item"
-msgstr ""
-
 msgid "forbidden"
-msgstr ""
-
-msgid "emergency_item"
-msgstr ""
-
-msgid "good_item"
-msgstr ""
-
-msgid "dangerous_item"
-msgstr ""
-
-msgid "bad_item"
-msgstr ""
-
-msgid "useless_item"
 msgstr ""
 
 msgid "stationary"
@@ -1978,210 +2155,3 @@ msgstr ""
 msgid "shadow"
 msgstr ""
 
-msgid "club"
-msgstr ""
-
-msgid "spiked flail"
-msgstr ""
-
-msgid "whip"
-msgstr ""
-
-msgid "hammer"
-msgstr ""
-
-msgid "mace"
-msgstr ""
-
-msgid "flail"
-msgstr ""
-
-msgid "morningstar"
-msgstr ""
-
-msgid "demon whip"
-msgstr ""
-
-msgid "sacred scourge"
-msgstr ""
-
-msgid "dire flail"
-msgstr ""
-
-msgid "eveningstar"
-msgstr ""
-
-msgid "great mace"
-msgstr ""
-
-msgid "giant club"
-msgstr ""
-
-msgid "giant spiked club"
-msgstr ""
-
-msgid "dagger"
-msgstr ""
-
-msgid "quick blade"
-msgstr ""
-
-msgid "short sword"
-msgstr ""
-
-msgid "rapier"
-msgstr ""
-
-msgid "cutlass"
-msgstr ""
-
-msgid "falchion"
-msgstr ""
-
-msgid "long sword"
-msgstr ""
-
-msgid "scimitar"
-msgstr ""
-
-msgid "demon blade"
-msgstr ""
-
-msgid "eudemon blade"
-msgstr ""
-
-msgid "double sword"
-msgstr ""
-
-msgid "great sword"
-msgstr ""
-
-msgid "triple sword"
-msgstr ""
-
-msgid "old falchion"
-msgstr ""
-
-msgid "old long sword"
-msgstr ""
-
-msgid "old scimitar"
-msgstr ""
-
-msgid "old double sword"
-msgstr ""
-
-msgid "old great sword"
-msgstr ""
-
-msgid "old triple sword"
-msgstr ""
-
-msgid "hand axe"
-msgstr ""
-
-msgid "war axe"
-msgstr ""
-
-msgid "broad axe"
-msgstr ""
-
-msgid "battleaxe"
-msgstr ""
-
-msgid "executioner's axe"
-msgstr ""
-
-msgid "spear"
-msgstr ""
-
-msgid "trident"
-msgstr ""
-
-msgid "halberd"
-msgstr ""
-
-msgid "scythe"
-msgstr ""
-
-msgid "demon trident"
-msgstr ""
-
-msgid "trishula"
-msgstr ""
-
-msgid "glaive"
-msgstr ""
-
-msgid "bardiche"
-msgstr ""
-
-msgid "quarterstaff"
-msgstr ""
-
-msgid "lajatang"
-msgstr ""
-
-msgid "blowgun"
-msgstr ""
-
-msgid "hunting sling"
-msgstr ""
-
-msgid "fustibalus"
-msgstr ""
-
-msgid "hand crossbow"
-msgstr ""
-
-msgid "arbalest"
-msgstr ""
-
-msgid "triple crossbow"
-msgstr ""
-
-msgid "shortbow"
-msgstr ""
-
-msgid "longbow"
-msgstr ""
-
-msgid "dart"
-msgstr ""
-
-msgid "needle"
-msgstr ""
-
-msgid "stone"
-msgstr ""
-
-msgid "arrow"
-msgstr ""
-
-msgid "bolt"
-msgstr ""
-
-msgid "large rock"
-msgstr ""
-
-msgid "sling bullet"
-msgstr ""
-
-msgid "javelin"
-msgstr ""
-
-msgid "throwing net"
-msgstr ""
-
-msgid "boomerang"
-msgstr ""
-
-msgid "chunk"
-msgstr ""
-
-msgid "eggplant"
-msgstr ""
-
-#, c-format
-msgid "Bad food type %d (NUM_FOODS = %d)"
-msgstr ""
