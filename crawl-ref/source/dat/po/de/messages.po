@@ -474,6 +474,152 @@ msgid "Trunk games don't count for the tournament, you want %s. Play trunk anywa
 msgstr "Trunk-Spiele gelten nicht für das Turnier. Du willst veilleicht %s. Trunk trotzdem spielen? (Y/N)"
 
 ###############################
+# Canned messages
+###############################
+
+msgid "Something appears at your feet!"
+msgstr "Etwas erscheint dir zu Füßen!"
+
+msgid "Something appears before you!"
+msgstr "Etwas erscheint vor dir!"
+
+msgid "Nothing appears to happen."
+msgstr "Nichts scheint zu passieren."
+
+msgid "You are unaffected."
+msgstr "Du bist nicht betroffen."
+
+msgid "You resist."
+msgstr "Du widerstehst."
+
+msgid "You partially resist."
+msgstr "Du widerstehst teilweise."
+
+msgid "You are too berserk!"
+msgstr "Du bist zu wütend!"
+
+msgid "You're too confused!"
+msgstr "Du bist zu verwirrt!"
+
+msgid "You can't do that in your present form."
+msgstr "Das kannst du in deiner jetzigen Form nicht tun."
+
+msgid "You aren't carrying anything."
+msgstr "Du trägst nichts."
+
+msgid "You can't do that yet."
+msgstr "Das kannst du noch nicht machen."
+
+msgid "Okay, then."
+msgstr "Okay, dann."
+
+msgid "Why would you want to do that?"
+msgstr "Warum willst du das tun?"
+
+msgid "There's nothing there!"
+msgstr "Da ist nichts!"
+
+msgid "There's nothing close enough!"
+msgstr "Es gibt nichts nah genug!"
+
+msgid "You don't have the energy to cast that spell."
+msgstr "Du hast nicht die Energie, diesen Zauber zu wirken."
+
+msgid "The spell fizzles."
+msgstr "Der Zauber scheitert."
+
+msgid "Huh?"
+msgstr "Hä?"
+
+msgid "Your mouth is already empty."
+msgstr "Dein Mund ist schon leer."
+
+msgid "You are already empty-clawed."
+msgstr "Du bist schon mit leeren Krallen."
+
+msgid "You are already empty-tentacled."
+msgstr "Du bist schon mit leeren Tentakeln."
+
+msgid "You are already empty-handed."
+msgstr "Du bist schon mit leeren Händen."
+
+msgid "Your mouth is now empty."
+msgstr "Dein Mund ist jetzt leer."
+
+msgid "You are now empty-clawed."
+msgstr "Du bist jetzt mit leeren Krallen."
+
+msgid "You are now empty-tentacled."
+msgstr "Du bist jetzt mit leeren Tentakeln."
+
+msgid "You are now empty-handed."
+msgstr "Du bist jetzt mit leeren Händen."
+
+# NOTE: Blink here means a short-range teleport
+msgid "You blink."
+msgstr "Du flimmerst."
+
+msgid "You feel a strange sense of stasis."
+msgstr "Du fühlst ein seltsames Gefühl der Stase."
+
+msgid "You don't know any spells."
+msgstr "Du kennst keine Zauber."
+
+msgid "You feel your magic capacity increase."
+msgstr "Du fühlst, dass deine magische Kapazität zunimmt."
+
+msgid "You feel your magic capacity decrease."
+msgstr "Du fühlst, dass deine magische Kapazität abnimmt."
+
+msgid "You feel momentarily disoriented."
+msgstr "Du fühlst dich momentan desorientiert."
+
+msgid "You're too hungry."
+msgstr "Du hast zu viel hunger."
+
+msgid "You detect nothing."
+msgstr "Du entdeckst nichts."
+
+msgid "You call on the dead to rise..."
+msgstr "Du rufst die Toten auf, aufzustehen..."
+
+msgid "You attempt to give life to the dead..."
+msgstr "Du versuchst, den Toten Leben zu geben..."
+
+msgid "You cannot move."
+msgstr "Du kannst dich nicht bewegen."
+
+msgid "You die..."
+msgstr "Du sterbst..."
+
+msgid "You see a ghostly outline there, and the spell fizzles."
+msgstr "Du siehst dort einen gespenstischen Umriss und der Zauber scheitert."
+
+msgid "Your health is already full."
+msgstr "Deine Gesundheit ist bereits voll."
+
+msgid "Your reserves of magic are already full."
+msgstr "Deine magischen Reserven sind bereits voll."
+
+msgid "You feel better."
+msgstr "Du fühlst dich besser."
+
+msgid "You feel your power returning."
+msgstr "Du fühlst, dass deine Kraft zurückkehrt."
+
+msgid "You suddenly feel drained of magical energy!"
+msgstr "Du fühlst dich plötzlich von magischer Energie erschöpft!"
+
+msgid "There's something in the way."
+msgstr "Da ist etwas im Weg."
+
+msgid "You can't see that place."
+msgstr "Du kannst diesen Ort nicht sehen."
+
+msgid "Your god isn't willing to do this for you now."
+msgstr "Dein Gott ist nicht bereit, das jetzt für dich zu tun."
+
+###############################
 # Melee - Player misses monster
 ###############################
 
