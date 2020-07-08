@@ -310,15 +310,15 @@ static void _resolve_escapes(string& str)
 
 
 // localize a single string
-static string _localize_string(const string& domain, const string& context, const string& value, const string& plural_val, const int count)
+static string _localize_string(const string& context, const string& value, const string& plural_val, const int count)
 {
     if (plural_val.empty())
     {
-        return dcxlate(domain, context, value);
+        return cxlate(context, value);
     }
     else
     {
-        string result = dcnxlate(domain, context, value, plural_val, count);
+        string result = cnxlate(context, value, plural_val, count);
         result = make_stringf(result.c_str(), count);
         return result;
     }
@@ -346,21 +346,8 @@ LocalizationArg::LocalizationArg(const string& value)
     init();
 }
 
-LocalizationArg::LocalizationArg(const string& dom, const string& value)
-    : domain(dom), stringVal(value)
-{
-    init();
-}
-
 LocalizationArg::LocalizationArg(const string& value, const string& plural_val, const int num)
     : stringVal(value), plural(plural_val)
-{
-    init();
-    count = num;
-}
-
-LocalizationArg::LocalizationArg(const string& dom, const string& value, const string& plural_val, const int num)
-    : domain(dom), stringVal(value), plural(plural_val)
 {
     init();
     count = num;
@@ -420,7 +407,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
     string fmt_xlated;
     if (fmt_arg.translate)
     {
-        fmt_xlated = _localize_string(fmt_arg.domain, "", fmt_arg.stringVal, fmt_arg.plural, fmt_arg.count);
+        fmt_xlated = _localize_string("", fmt_arg.stringVal, fmt_arg.plural, fmt_arg.count);
     }
     else
     {
@@ -484,7 +471,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
                     string argx;
                     if (arg.translate)
                     {
-                        argx = _localize_string(arg.domain, context, arg.stringVal, arg.plural, arg.count);
+                        argx = _localize_string(context, arg.stringVal, arg.plural, arg.count);
                     }
                     else
                     {

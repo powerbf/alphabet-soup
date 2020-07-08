@@ -16,7 +16,6 @@ using std::vector;
 struct LocalizationArg
 {
 public:
-    string domain;
     string stringVal;
     string plural;
 
@@ -34,9 +33,7 @@ public:
 
     LocalizationArg();
     LocalizationArg(const string& value);
-    LocalizationArg(const string& domain, const string& value);
     LocalizationArg(const string& value, const string& plural_val, const int count);
-    LocalizationArg(const string& domain, const string& value, const string& plural_val, const int count);
     LocalizationArg(const int value);
     LocalizationArg(const long value);
     LocalizationArg(const long long value);

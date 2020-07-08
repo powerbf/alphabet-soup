@@ -55,8 +55,6 @@ void init_xlate(const string &lang)
     setenv("LANGUAGE", language.c_str(), 1);
 
     bindtextdomain("messages", "./dat/locale");
-    bindtextdomain("monsters", "./dat/locale");
-    bindtextdomain("items", "./dat/locale");
 
     // set default domain
     textdomain(DEFAULT_DOMAIN.c_str());
