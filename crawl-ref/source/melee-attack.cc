@@ -1490,10 +1490,7 @@ void melee_attack::player_warn_miss()
     did_hit = false;
 
     string msg = player_why_missed() + "%s.";
-
-    msg = localize(msg.c_str(), defender->name(DESC_THE).c_str());
-
-    mpr(msg);
+    mprf(msg.c_str(), defender->name(DESC_THE).c_str());
 
     // Upset only non-sleeping non-fleeing monsters if we missed.
     if (!defender->asleep() && !mons_is_fleeing(*defender->as_monster()))
@@ -2428,7 +2425,7 @@ void melee_attack::announce_hit()
         string punct_fmt = string("%s") + attack_strength_punctuation(damage_done);
         punct_fmt = localize(LocalizationArg(punct_fmt));
 
-        mprf(punct_fmt.c_str(), msg.c_str());
+        mprf_nolocalize(punct_fmt.c_str(), msg.c_str());
     }
 }
 

@@ -41,7 +41,7 @@ void set_log_emergency_stderr(bool b)
 }
 
 static void _mpr(string text, msg_channel_type channel=MSGCH_PLAIN, int param=0,
-                 bool nojoin=false, bool cap=true);
+                 bool nojoin=false, bool cap=true, bool localize=true);
 
 void mpr(const string &text)
 {
@@ -61,6 +61,16 @@ void mpr(msg_channel_type channel, int param, const string &text)
 void mpr_nojoin(msg_channel_type channel, string text)
 {
     _mpr(text, channel, 0, true);
+}
+
+void mpr_nolocalize(string text)
+{
+    _mpr(text, MSGCH_PLAIN, 0, false, true, false);
+}
+
+void mpr_nolocalize(msg_channel_type channel, string text)
+{
+    _mpr(text, channel, 0, false, true, false);
 }
 
 static bool _ends_in_punctuation(const string& text)
@@ -1200,22 +1210,10 @@ int channel_to_colour(msg_channel_type channel, int param)
 }
 
 void do_message_print(msg_channel_type channel, int param, bool cap,
-                             bool nojoin, const char *format, va_list argp)
+                             bool nojoin, const char *format, va_list argp, bool loclz)
 {
-    va_list ap;
-    va_copy(ap, argp);
-    char buff[200];
-    size_t len = vsnprintf(buff, sizeof(buff), format, argp);
-    if (len < sizeof(buff))
-        _mpr(buff, channel, param, nojoin, cap);
-    else
-    {
-        char *heapbuf = (char*)malloc(len + 1);
-        vsnprintf(heapbuf, len + 1, format, ap);
-        _mpr(heapbuf, channel, param, nojoin, cap);
-        free(heapbuf);
-    }
-    va_end(ap);
+    string text = loclz ? localize(format, argp) : vmake_stringf(format, argp);
+    _mpr(text, channel, param, nojoin, cap, false);
 }
 
 void mprf_nocap(msg_channel_type channel, int param, const char *format, ...)
@@ -1240,6 +1238,31 @@ void mprf_nocap(const char *format, ...)
     va_list argp;
     va_start(argp, format);
     do_message_print(MSGCH_PLAIN, 0, false, false, format, argp);
+    va_end(argp);
+}
+
+void mprf_nolocalize(msg_channel_type channel, int param, const char *format, ...)
+{
+    va_list argp;
+    va_start(argp, format);
+    do_message_print(channel, param, false, false, format, argp, false);
+    va_end(argp);
+}
+
+void mprf_nolocalize(msg_channel_type channel, const char *format, ...)
+{
+    va_list argp;
+    va_start(argp, format);
+    do_message_print(channel, channel == MSGCH_GOD ? you.religion : 0,
+                     false, false, format, argp, false);
+    va_end(argp);
+}
+
+void mprf_nolocalize(const char *format, ...)
+{
+    va_list argp;
+    va_start(argp, format);
+    do_message_print(MSGCH_PLAIN, 0, false, false, format, argp, false);
     va_end(argp);
 }
 
@@ -1449,10 +1472,12 @@ void msgwin_clear_temporary()
 
 static int _last_msg_turn = -1; // Turn of last message.
 
-static void _mpr(string text, msg_channel_type channel, int param, bool nojoin,
-                 bool cap)
+static void _mpr(string txt, msg_channel_type channel, int param, bool nojoin,
+                 bool cap, bool loclz)
 {
     rng::generator rng(rng::UI);
+
+    string text = (loclz ? localize(txt) : txt);
 
     if (_msg_dump_file != nullptr)
         fprintf(_msg_dump_file, "%s\n", text.c_str());
@@ -1683,20 +1708,20 @@ void mpr_comma_separated_list(const string &prefix,
                               const msg_channel_type channel,
                               const int param)
 {
-    string out = prefix;
+    string out = localize(prefix);
 
     for (int i = 0, size = list.size(); i < size; i++)
     {
         out += list[i];
 
         if (size > 0 && i < (size - 2))
-            out += comma;
+            out += localize(comma);
         else if (i == (size - 2))
-            out += andc;
+            out += localize(andc);
         else if (i == (size - 1))
-            out += ".";
+            out += localize(".");
     }
-    _mpr(out, channel, param);
+    _mpr(out, channel, param, false, true, false);
 }
 
 // Checks whether a given message contains patterns relevant for

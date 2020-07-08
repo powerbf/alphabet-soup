@@ -59,17 +59,18 @@ const string& get_localization_language();
  *              If there's more than one, the first one is expected to be a printf-style format string.
  *  @capitalize Capitalize the first letter of the result? (true by default)
  */
-string localize(const vector<LocalizationArg>& args, const bool capitalize = true);
+string localize(const vector<LocalizationArg>& args, const bool capitalize = false);
 
 // convenience function using va_args (yuk!)
 string localize(const string& fmt_str, ...);
+string localize(const string& fmt_str, va_list args, const bool capitalize = false);
 
 // more convenience functions
-string localize(const LocalizationArg& arg, const bool capitalize = true);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const bool capitalize = true);
+string localize(const LocalizationArg& arg, const bool capitalize = false);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const bool capitalize = false);
 string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
-                const bool capitalize = true);
+                const bool capitalize = false);
 string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
-                const LocalizationArg& arg4, const bool capitalize = true);
+                const LocalizationArg& arg4, const bool capitalize = false);
 
 

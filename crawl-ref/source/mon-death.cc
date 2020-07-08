@@ -2080,9 +2080,7 @@ item_def* monster_die(monster& mons, killer_type killer,
                     msg += " %s!";
                 }
 
-                msg = localize(msg.c_str(), mons.name(DESC_THE).c_str());
-
-                mpr(MSGCH_MONSTER_DAMAGE, MDAM_DEAD, msg);
+                mprf(MSGCH_MONSTER_DAMAGE, MDAM_DEAD, msg.c_str(), mons.name(DESC_THE).c_str());
 
                 // If this monster would otherwise give xp but didn't because
                 // it grants no reward or was neutral, give a message.

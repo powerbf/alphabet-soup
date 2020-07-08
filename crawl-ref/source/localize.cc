@@ -525,6 +525,16 @@ string localize(const string& fmt_str, ...)
 {
     va_list args;
     va_start(args, fmt_str);
+    string text = localize(fmt_str, args);
+    va_end(args);
+    return text;
+}
+
+string localize(const string& fmt_str, va_list argp, const bool capitalize)
+{
+    va_list args;
+    va_copy(args, argp);
+
     vector<LocalizationArg> niceArgs;
 
     niceArgs.push_back(LocalizationArg(fmt_str));
@@ -595,7 +605,7 @@ string localize(const string& fmt_str, ...)
 
     va_end(args);
 
-    return localize(niceArgs);
+    return localize(niceArgs, capitalize);
 }
 
 string localize(const LocalizationArg& arg, const bool capitalize)
