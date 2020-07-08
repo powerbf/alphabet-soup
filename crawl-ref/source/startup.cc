@@ -657,8 +657,7 @@ public:
             string game_desc = newgame_char_description(defaults);
             if (!defaults.name.empty())
             {
-                string fmt = localize("%s der %s");
-                game_desc = make_stringf(fmt.c_str(), defaults.name.c_str(), game_desc.c_str());
+                game_desc = localize("%s the %s", defaults.name.c_str(), game_desc.c_str());
             }
             instructions_text +=
                     string("<white>[") + localize("tab") + "]</white> "
