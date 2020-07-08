@@ -1212,8 +1212,10 @@ int channel_to_colour(msg_channel_type channel, int param)
 void do_message_print(msg_channel_type channel, int param, bool cap,
                              bool nojoin, const char *format, va_list argp, bool loclz)
 {
+    // Localize here handles the message piece-by-piece
     string text = loclz ? localize(format, argp) : vmake_stringf(format, argp);
-    _mpr(text, channel, param, nojoin, cap, false);
+    // We also tell _mpr to localize because there might be a translation defined for the entire message.
+    _mpr(text, channel, param, nojoin, cap, loclz);
 }
 
 void mprf_nocap(msg_channel_type channel, int param, const char *format, ...)
