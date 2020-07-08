@@ -166,27 +166,17 @@ static string _you_are_character(const string& species, const string& background
     if (!species.empty() && !background.empty())
     {
         string fmt = (is_vowel(species[0]) ? "You are an %s %s." : "You are a %s %s.");
-        return localize(
-                    LocalizationArg(fmt),
-                    LocalizationArg("monsters", species),
-                    LocalizationArg("monsters", background)
-        );
+        return localize(fmt.c_str(), species.c_str(), background.c_str());
     }
     else if (!species.empty())
     {
         string fmt = (is_vowel(species[0]) ? "You are an %s." : "You are a %s.");
-        return localize(
-                    LocalizationArg(fmt),
-                    LocalizationArg("monsters", species)
-        );
+        return localize(fmt.c_str(), species.c_str());
     }
     else if (!background.empty())
     {
         string fmt = (is_vowel(background[0]) ? "You are an %s." : "You are a %s.");
-        return localize(
-                    LocalizationArg(fmt),
-                    LocalizationArg("monsters", background)
-        );
+        return localize(fmt.c_str(), background.c_str());
     }
     else
     {
@@ -1584,7 +1574,7 @@ void job_group::attach(const newgame_def& ng, const newgame_def& defaults,
             letter,
             job,
             item_status,
-            localize(LocalizationArg("monsters", get_job_name(job))),
+            localize(get_job_name(job)),
 #ifdef USE_TILE
             tile_def(tileidx_player_job(job,
                     item_status != ITEM_STATUS_RESTRICTED), TEX_GUI),
@@ -1634,7 +1624,7 @@ void species_group::attach(const newgame_def& ng, const newgame_def& defaults,
             letter,
             this_species,
             item_status,
-            localize(LocalizationArg("monsters", species_name(this_species))),
+            localize(species_name(this_species)),
 #ifdef USE_TILE
             tile_def(tileidx_player_species(this_species,
                     item_status != ITEM_STATUS_RESTRICTED), TEX_GUI),
@@ -1716,7 +1706,7 @@ static void _construct_weapon_menu(const newgame_def& ng,
         {
         case WPN_UNARMED:
             choices.emplace_back(SK_UNARMED_COMBAT,
-                                 localize(LocalizationArg("items", species_has_claws(ng.species) ? "claws" : "unarmed")));
+                                 localize(species_has_claws(ng.species) ? "claws" : "unarmed"));
             break;
         case WPN_THROWN:
         {
@@ -1743,7 +1733,7 @@ static void _construct_weapon_menu(const newgame_def& ng,
                 tile = TILE_MI_JAVELIN;
 #endif
             }
-            thrown_name = localize(LocalizationArg("items", thrown_name + " and throwing nets"));
+            thrown_name = localize(thrown_name + " and throwing nets");
             choices.emplace_back(SK_THROWING, thrown_name, tile);
             break;
         }
@@ -1759,7 +1749,7 @@ static void _construct_weapon_menu(const newgame_def& ng,
                                                       : ammo_name(wpn_type);
                 text += "s";
             }
-            text = localize(LocalizationArg("items", text));
+            text = localize(text);
             choices.emplace_back(item_attack_skill(dummy), text
 #ifdef USE_TILE
                     , tileidx_item(dummy)

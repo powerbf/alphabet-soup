@@ -2080,8 +2080,7 @@ item_def* monster_die(monster& mons, killer_type killer,
                     msg += " %s!";
                 }
 
-                msg = localize(LocalizationArg(msg),
-                               LocalizationArg("monsters", mons.name(DESC_THE)));
+                msg = localize(msg.c_str(), mons.name(DESC_THE).c_str());
 
                 mpr(MSGCH_MONSTER_DAMAGE, MDAM_DEAD, msg);
 

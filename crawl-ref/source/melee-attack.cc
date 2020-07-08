@@ -1491,8 +1491,7 @@ void melee_attack::player_warn_miss()
 
     string msg = player_why_missed() + "%s.";
 
-    msg = localize(LocalizationArg(msg),
-                   LocalizationArg("monsters", defender->name(DESC_THE)));
+    msg = localize(msg.c_str(), defender->name(DESC_THE).c_str());
 
     mpr(msg);
 
@@ -2420,8 +2419,7 @@ void melee_attack::announce_hit()
 
         string msg = string("You ") + attack_verb + " %s" + verb_degree;
 
-        msg = localize(LocalizationArg(msg),
-                       LocalizationArg("monsters", defender->name(DESC_THE)));
+        msg = localize(msg.c_str(), defender->name(DESC_THE).c_str());
         msg += debug_damage_number();
 
         // This adds exclamation marks to show the amount of damage.
