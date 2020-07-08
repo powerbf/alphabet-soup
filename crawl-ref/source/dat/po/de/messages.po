@@ -620,6 +620,19 @@ msgid "Your god isn't willing to do this for you now."
 msgstr "Dein Gott ist nicht bereit, das jetzt für dich zu tun."
 
 ###############################
+# Misc
+###############################
+
+msgid "--more--"
+msgstr "--mehr--"
+
+msgid "--more-- Press Space to continue. You can later reread messages with Ctrl-P."
+msgstr "--mehr-- Drücke Leertaste weiterzumachen. Mit Ctrl-P kannst du Nachrichten später nochmal lesen."
+
+msgid "--more-- Press Space or click to continue. You can later reread messages with Ctrl-P."
+msgstr "--mehr-- Drücke Leertaste oder klicke weiterzumachen. Mit Ctrl-P kannst du Nachrichten später nochmal lesen."
+
+###############################
 # Melee - Player misses monster
 ###############################
 
