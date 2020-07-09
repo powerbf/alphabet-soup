@@ -477,6 +477,19 @@ msgctxt "dat"
 msgid  "the Serpent of Hell"
 msgstr "der Höllenschlange"
 
+msgid "You"
+msgstr "Du"
+
+msgid "you"
+msgstr "du"
+
+msgctxt "akk"
+msgid "you"
+msgstr "dich"
+
+msgctxt "dat"
+msgid "you"
+msgstr "dir"
 
 ################################
 # definite - nominative
