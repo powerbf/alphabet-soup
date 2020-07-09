@@ -17,22 +17,6 @@ using namespace std;
 #include "xlate.h"
 #include "stringutil.h"
 
-union arg_t
-{
-    int i;
-    long l;
-    long long ll;
-    intmax_t im;
-    double d;
-    long double ld;
-    size_t sz;
-    ptrdiff_t pd;
-    char* s;
-    int* pi;
-    void* pv;
-};
-
-
 // check if string contains the char
 static inline bool _contains(const std::string& s, char c)
 {
@@ -512,6 +496,14 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
     }
 
     string result = ss.str();
+
+    if (fmt_arg.translate && fmt_xlated == fmt_arg.stringVal)
+    {
+        // there was no translation for the format string,
+        // but there may be a translation for the completed string
+        result = localize(result);
+    }
+
     if (capitalize)
     {
         result = uppercase_first(result);
