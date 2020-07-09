@@ -1926,12 +1926,12 @@ MOFILES:=$(patsubst %,dat/locale/%/LC_MESSAGES/messages.mo,$(LANGS))
 
 define LOCALE_DIR_RULE
 dat/locale/$(lang)/LC_MESSAGES:
-	mkdir -p $$@
+	@mkdir -p $$@
 endef
 
 define GEN_MO_RULE
 dat/locale/$(lang)/LC_MESSAGES/messages.mo: dat/po/$(lang)/*.po
-	@echo "Compiling $$^"
+	@echo "    LOCALIZE $(lang)"
 	@msgcat --no-wrap -o dat/locale/$(lang)/LC_MESSAGES/messages.po $$^
 	@msgfmt --output-file=$$@ dat/locale/$(lang)/LC_MESSAGES/messages.po
 endef
@@ -1941,7 +1941,6 @@ $(foreach lang,$(LANGS),$(eval $(LOCALE_DIR_RULE)))
 $(foreach lang,$(LANGS),$(eval $(GEN_MO_RULE)))
 
 translations: $(LOCALE_DIRS) $(MOFILES)
-	@echo "Translations compiled for: $(LANGS)"
 
 .PHONY: translations
 	
