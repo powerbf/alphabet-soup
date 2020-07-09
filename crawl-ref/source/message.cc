@@ -1316,7 +1316,7 @@ void dprf(const char *format, ...)
 
     va_list argp;
     va_start(argp, format);
-    do_message_print(MSGCH_DIAGNOSTICS, 0, false, false, format, argp);
+    do_message_print(MSGCH_DIAGNOSTICS, 0, false, false, format, argp, false);
     va_end(argp);
 }
 
@@ -1327,7 +1327,7 @@ void dprf(diag_type param, const char *format, ...)
 
     va_list argp;
     va_start(argp, format);
-    do_message_print(MSGCH_DIAGNOSTICS, param, false, false, format, argp);
+    do_message_print(MSGCH_DIAGNOSTICS, param, false, false, format, argp, false);
     va_end(argp);
 }
 #endif
