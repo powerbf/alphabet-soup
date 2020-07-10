@@ -1,0 +1,4010 @@
+###############################################################################
+#
+# German translations for monster names (genitive case, set 2)
+#
+# These are used when the English is NOT genitive, but the German is.
+#
+###############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Alphabet Soup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+##############################################
+# Uniques
+##############################################
+
+msgctxt "gen"
+msgid  "Mennas"
+msgstr "Mennas'"
+
+msgctxt "gen"
+msgid  "Nessos"
+msgstr "Nessos'"
+
+msgctxt "gen"
+msgid  "Chuck"
+msgstr "Chucks"
+
+msgctxt "gen"
+msgid  "Polyphemus"
+msgstr "Polyphems"
+
+msgctxt "gen"
+msgid  "Antaeus"
+msgstr "Antaeus'"
+
+msgctxt "gen"
+msgid  "Tiamat"
+msgstr "Tiamats"
+
+msgctxt "gen"
+msgid  "Bai Suzhen"
+msgstr "Bai Suzhens"
+
+msgctxt "gen"
+msgid  "Xtahua"
+msgstr "Xtahuas"
+
+msgid  "Ijyb"
+msgstr "Ijybs"
+
+msgid  "Robin"
+msgstr "Robins"
+
+msgctxt "gen"
+msgid  "Grum"
+msgstr "Grums"
+
+msgctxt "gen"
+msgid  "Duvessa"
+msgstr "Duvessas"
+
+msgctxt "gen"
+msgid  "Dowan"
+msgstr "Dowans"
+
+msgctxt "gen"
+msgid  "Fannar"
+msgstr "Fannars"
+
+msgctxt "gen"
+msgid  "Jorgrun"
+msgstr "Jorgruns"
+
+msgctxt "gen"
+msgid  "Natasha"
+msgstr "Nataschas"
+
+msgctxt "gen"
+msgid  "Arachne"
+msgstr "Arachnes"
+
+msgctxt "gen"
+msgid  "Asterion"
+msgstr "Asterions"
+
+msgctxt "gen"
+msgid  "Agnes"
+msgstr "Agnes'"
+
+msgctxt "gen"
+msgid  "Dissolution"
+msgstr "Dissolutions"
+
+msgctxt "gen"
+msgid  "Sonja"
+msgstr "Sonjas"
+
+msgctxt "gen"
+msgid  "Pikel"
+msgstr "Pikels"
+
+msgctxt "gen"
+msgid  "Boris"
+msgstr "Boris'"
+
+msgctxt "gen"
+msgid  "Menkaure"
+msgstr "Menkaures"
+
+msgctxt "gen"
+msgid  "Khufu"
+msgstr "Khufus"
+
+msgctxt "gen"
+msgid  "Ilsuiw"
+msgstr "Ilsuiws"
+
+msgctxt "gen"
+msgid  "Vashnia"
+msgstr "Vashnias"
+
+msgctxt "gen"
+msgid  "Erolcha"
+msgstr "Erolchas"
+
+msgctxt "gen"
+msgid  "Urug"
+msgstr "Urugs"
+
+msgctxt "gen"
+msgid  "Nergalle"
+msgstr "Nergalles"
+
+msgctxt "gen"
+msgid  "Saint Roka"
+msgstr "Sankt Rokas"
+
+msgctxt "gen"
+msgid  "Sojobo"
+msgstr "Sojobos"
+
+msgctxt "gen"
+msgid  "Azrael"
+msgstr "Azraels"
+
+msgctxt "gen"
+msgid  "Mara"
+msgstr "Maras"
+
+msgctxt "gen"
+msgid  "Aizul"
+msgstr "Aizuls"
+
+msgctxt "gen"
+msgid  "Snorg"
+msgstr "Snorgs"
+
+msgctxt "gen"
+msgid  "Purgy"
+msgstr "Purgys"
+
+msgctxt "gen"
+msgid  "Jory"
+msgstr "Jorys"
+
+msgctxt "gen"
+msgid  "Gastronok"
+msgstr "Gastronoks"
+
+msgctxt "gen"
+msgid  "Nellie"
+msgstr "Nellies"
+
+msgctxt "gen"
+msgid  "Murray"
+msgstr "Murrays"
+
+msgctxt "gen"
+msgid  "Ignacio"
+msgstr "Ignacios"
+
+msgctxt "gen"
+msgid  "Grinder"
+msgstr "Grinders"
+
+msgctxt "gen"
+msgid  "Roxanne"
+msgstr "Roxannes"
+
+msgctxt "gen"
+msgid  "Terence"
+msgstr "Terences"
+
+msgctxt "gen"
+msgid  "Jessica"
+msgstr "Jessicas"
+
+msgctxt "gen"
+msgid  "Sigmund"
+msgstr "Sigmunds"
+
+msgctxt "gen"
+msgid  "Edmund"
+msgstr "Edmunds"
+
+msgctxt "gen"
+msgid  "Psyche"
+msgstr "Psyches"
+
+msgctxt "gen"
+msgid  "Donald"
+msgstr "Donalds"
+
+msgctxt "gen"
+msgid  "Joseph"
+msgstr "Josephs"
+
+msgctxt "gen"
+msgid  "Erica"
+msgstr "Ericas"
+
+msgctxt "gen"
+msgid  "Josephine"
+msgstr "Josephines"
+
+msgctxt "gen"
+msgid  "Harold"
+msgstr "Harolds"
+
+msgctxt "gen"
+msgid  "Louise"
+msgstr "Louises"
+
+msgctxt "gen"
+msgid  "Frances"
+msgstr "Frances'"
+
+msgctxt "gen"
+msgid  "Rupert"
+msgstr "Ruperts"
+
+msgctxt "gen"
+msgid  "Kirke"
+msgstr "Kirkes"
+
+msgctxt "gen"
+msgid  "Frederick"
+msgstr "Fredericks"
+
+msgctxt "gen"
+msgid  "Margery"
+msgstr "Margerys"
+
+msgctxt "gen"
+msgid  "Maggie"
+msgstr "Maggies"
+
+msgctxt "gen"
+msgid  "Eustachio"
+msgstr "Eustachios"
+
+msgctxt "gen"
+msgid  "Maurice"
+msgstr "Maurices"
+
+msgctxt "gen"
+msgid  "Nikola"
+msgstr "Nikolas"
+
+msgctxt "gen"
+msgid  "Mnoleg"
+msgstr "Mnolegs"
+
+msgctxt "gen"
+msgid  "Lom Lobon"
+msgstr "Lom Lobons"
+
+msgctxt "gen"
+msgid  "Cerebov"
+msgstr "Cerebovs"
+
+msgctxt "gen"
+msgid  "Gloorx Vloq"
+msgstr "Gloorx Vloqs"
+
+msgctxt "gen"
+msgid  "Geryon"
+msgstr "Geryons"
+
+msgctxt "gen"
+msgid  "Dispater"
+msgstr "Dispaters"
+
+msgctxt "gen"
+msgid  "Asmodeus"
+msgstr "Asmodäus'"
+
+msgctxt "gen"
+msgid  "Ereshkigal"
+msgstr "Ereshkigals"
+
+msgctxt "gen"
+msgid  "Prince Ribbit"
+msgstr "Prinzen Ribbits"
+
+msgctxt "gen"
+msgid  "Crazy Yiuf"
+msgstr "Verrücktem Yiufs"
+
+msgctxt "gen"
+msgid  "the Enchantress"
+msgstr "der Hexenmeisterin"
+
+msgctxt "gen"
+msgid  "Blork the Orc"
+msgstr "des Blorks des Orks"
+
+msgctxt "gen"
+msgid  "the Lernaean hydra"
+msgstr "der Lernäischen Hydra"
+
+msgctxt "gen"
+msgid  "the Royal Jelly"
+msgstr "des Gelée Royales"
+
+msgctxt "gen"
+msgid  "the Serpent of Hell"
+msgstr "der Höllenschlange"
+
+################################
+# definite
+################################
+
+msgctxt "gen"
+msgid  "the program bug"
+msgstr "des Programmfehlers"
+
+msgctxt "gen"
+msgid  "the worker ant"
+msgstr "der Ameisenarbeiterin"
+
+msgctxt "gen"
+msgid  "the queen ant"
+msgstr "der Ameisenkönigin"
+
+msgctxt "gen"
+msgid  "the soldier ant"
+msgstr "der Ameisensoldatin"
+
+msgctxt "gen"
+msgid  "the formicid"
+msgstr "des Formicids"
+
+msgctxt "gen"
+msgid  "the entropy weaver"
+msgstr "des Entropiewebers"
+
+msgctxt "gen"
+msgid  "the bat"
+msgstr "der Fledermaus"
+
+msgctxt "gen"
+msgid  "the butterfly"
+msgstr "des Schmetterlings"
+
+msgctxt "gen"
+msgid  "the vampire bat"
+msgstr "der Vampirfledermaus"
+
+msgctxt "gen"
+msgid  "the fire bat"
+msgstr "der Feuerfledermaus"
+
+msgctxt "gen"
+msgid  "the bennu"
+msgstr "des Bennus"
+
+msgctxt "gen"
+msgid  "the caustic shrike"
+msgstr "des ätzenden Würgers"
+
+msgctxt "gen"
+msgid  "the shard shrike"
+msgstr "des Scherbenwürgers"
+
+msgctxt "gen"
+msgid  "the centaur"
+msgstr "des Zentaurs"
+
+msgctxt "gen"
+msgid  "the centaur warrior"
+msgstr "des Zentaur-Kriegers"
+
+msgctxt "gen"
+msgid  "the yaktaur"
+msgstr "des Yaktaurs"
+
+msgctxt "gen"
+msgid  "the yaktaur captain"
+msgstr "des Yaktaur-Kapitäns"
+
+msgctxt "gen"
+msgid  "the faun"
+msgstr "des Fauns"
+
+msgctxt "gen"
+msgid  "the satyr"
+msgstr "des Satyrs"
+
+msgctxt "gen"
+msgid  "the draconian"
+msgstr "des Drakoniers"
+
+msgctxt "gen"
+msgid  "the black draconian"
+msgstr "des schwarzen Drakoniers"
+
+msgctxt "gen"
+msgid  "the yellow draconian"
+msgstr "des gelben Drakoniers"
+
+msgctxt "gen"
+msgid  "the pale draconian"
+msgstr "des blassen Drakoniers"
+
+msgctxt "gen"
+msgid  "the green draconian"
+msgstr "des grünen Drakoniers"
+
+msgctxt "gen"
+msgid  "the purple draconian"
+msgstr "des purpurnen Drakoniers"
+
+msgctxt "gen"
+msgid  "the red draconian"
+msgstr "des roten Drakoniers"
+
+msgctxt "gen"
+msgid  "the white draconian"
+msgstr "des weißen Drakoniers"
+
+msgctxt "gen"
+msgid  "the grey draconian"
+msgstr "des grauen Drakoniers"
+
+msgctxt "gen"
+msgid  "the draconian stormcaller"
+msgstr "des Drakonier-Sturmrufers"
+
+msgctxt "gen"
+msgid  "the draconian monk"
+msgstr "des Drakonier-Mönchs"
+
+msgctxt "gen"
+msgid  "the draconian shifter"
+msgstr "des Drakonier-Verschiebers"
+
+msgctxt "gen"
+msgid  "the draconian annihilator"
+msgstr "des Drakonier-Vernichters"
+
+msgctxt "gen"
+msgid  "the draconian knight"
+msgstr "des Drakonier-Ritters"
+
+msgctxt "gen"
+msgid  "the draconian scorcher"
+msgstr "des Drakonier-Verschmorers"
+
+msgctxt "gen"
+msgid  "the elf"
+msgstr "des Elfs"
+
+msgctxt "gen"
+msgid  "the deep elf knight"
+msgstr "des Tiefenelf-Ritters"
+
+msgctxt "gen"
+msgid  "the deep elf archer"
+msgstr "des Tiefenelf-Bogenschützens"
+
+msgctxt "gen"
+msgid  "the deep elf blademaster"
+msgstr "des Tiefenelf-Klingenmeisters"
+
+msgctxt "gen"
+msgid  "the deep elf master archer"
+msgstr "des Tiefenelf-Bogenmeisters"
+
+msgctxt "gen"
+msgid  "the deep elf mage"
+msgstr "des Tiefenelf-Magiers"
+
+msgctxt "gen"
+msgid  "the deep elf high priest"
+msgstr "des Tiefenelf-Hohepriesters"
+
+msgctxt "gen"
+msgid  "the deep elf demonologist"
+msgstr "des Tiefenelf-Dämonologens"
+
+msgctxt "gen"
+msgid  "the deep elf annihilator"
+msgstr "des Tiefenelf-Vernichters"
+
+msgctxt "gen"
+msgid  "the deep elf sorcerer"
+msgstr "des Tiefenelf-Zauberers"
+
+msgctxt "gen"
+msgid  "the deep elf death mage"
+msgstr "des Tiefenelf-Todesmagiers"
+
+msgctxt "gen"
+msgid  "the deep elf elementalist"
+msgstr "des Tiefenelf-Elementalistens"
+
+msgctxt "gen"
+msgid  "the wandering mushroom"
+msgstr "des wandernden Pilzs"
+
+msgctxt "gen"
+msgid  "the deathcap"
+msgstr "der Todesmütze"
+
+msgctxt "gen"
+msgid  "the thorn hunter"
+msgstr "des Dornenjägers"
+
+msgctxt "gen"
+msgid  "the shambling mangrove"
+msgstr "der watschelnden Mangrove"
+
+msgctxt "gen"
+msgid  "the vine stalker"
+msgstr "des Rebjägers"
+
+msgctxt "gen"
+msgid  "the goblin"
+msgstr "des Goblins"
+
+msgctxt "gen"
+msgid  "the hobgoblin"
+msgstr "des Hobgoblins"
+
+msgctxt "gen"
+msgid  "the gnoll"
+msgstr "des Gnolls"
+
+msgctxt "gen"
+msgid  "the gnoll shaman"
+msgstr "des Gnoll-Schamanens"
+
+msgctxt "gen"
+msgid  "the gnoll sergeant"
+msgstr "des Gnoll-Wachtmeisters"
+
+msgctxt "gen"
+msgid  "the boggart"
+msgstr "des Boggarts"
+
+msgctxt "gen"
+msgid  "the dwarf"
+msgstr "des Zwergs"
+
+msgctxt "gen"
+msgid  "the deep dwarf"
+msgstr "des Tiefenzwergs"
+
+msgctxt "gen"
+msgid  "the jackal"
+msgstr "des Schakals"
+
+msgctxt "gen"
+msgid  "the hound"
+msgstr "des Hunds"
+
+msgctxt "gen"
+msgid  "the howler monkey"
+msgstr "des Brüllaffens"
+
+msgctxt "gen"
+msgid  "the warg"
+msgstr "des Wargs"
+
+msgctxt "gen"
+msgid  "the wolf"
+msgstr "des Wolfs"
+
+msgctxt "gen"
+msgid  "the hog"
+msgstr "des Schweins"
+
+msgctxt "gen"
+msgid  "the hell hound"
+msgstr "des Höllenhunds"
+
+msgctxt "gen"
+msgid  "the doom hound"
+msgstr "des Untergangshunds"
+
+msgctxt "gen"
+msgid  "the raiju"
+msgstr "des Raijus"
+
+msgctxt "gen"
+msgid  "the hell hog"
+msgstr "des höllischen Schweins"
+
+msgctxt "gen"
+msgid  "the holy swine"
+msgstr "des heiligen Schweins"
+
+msgctxt "gen"
+msgid  "the felid"
+msgstr "des Felids"
+
+msgctxt "gen"
+msgid  "the bear"
+msgstr "des Bärens"
+
+msgctxt "gen"
+msgid  "the polar bear"
+msgstr "des Eisbärens"
+
+msgctxt "gen"
+msgid  "the black bear"
+msgstr "des Schwarzbärens"
+
+msgctxt "gen"
+msgid  "the spriggan"
+msgstr "des Spriggans"
+
+msgctxt "gen"
+msgid  "the spriggan rider"
+msgstr "des Spriggan-Reiters"
+
+msgctxt "gen"
+msgid  "the spriggan druid"
+msgstr "des Spriggan-Druidens"
+
+msgctxt "gen"
+msgid  "the spriggan berserker"
+msgstr "des Spriggan-Berserkers"
+
+msgctxt "gen"
+msgid  "the spriggan air mage"
+msgstr "des Spriggan-Luftmagiers"
+
+msgctxt "gen"
+msgid  "the spriggan defender"
+msgstr "des Spriggan-Verteidigers"
+
+msgctxt "gen"
+msgid  "the drake"
+msgstr "des Drachlings"
+
+msgctxt "gen"
+msgid  "the swamp drake"
+msgstr "des Sumpfdrachlings"
+
+msgctxt "gen"
+msgid  "the rime drake"
+msgstr "des Reifsdrachlings"
+
+msgctxt "gen"
+msgid  "the wind drake"
+msgstr "des Winddrachlings"
+
+msgctxt "gen"
+msgid  "the lindwurm"
+msgstr "des Lindwurms"
+
+msgctxt "gen"
+msgid  "the death drake"
+msgstr "des Todesdrachens"
+
+msgctxt "gen"
+msgid  "the giant lizard"
+msgstr "der Rieseneidechse"
+
+msgctxt "gen"
+msgid  "the frilled lizard"
+msgstr "der gekräuselten Eidechse"
+
+msgctxt "gen"
+msgid  "the leopard gecko"
+msgstr "des Leopardgeckos"
+
+msgctxt "gen"
+msgid  "the iguana"
+msgstr "des Leguans"
+
+msgctxt "gen"
+msgid  "the basilisk"
+msgstr "des Basilisks"
+
+msgctxt "gen"
+msgid  "the wyvern"
+msgstr "des Wyverns"
+
+msgctxt "gen"
+msgid  "the komodo dragon"
+msgstr "des Komododrachens"
+
+msgctxt "gen"
+msgid  "the merfolk"
+msgstr "des Meervolks"
+
+msgctxt "gen"
+msgid  "the merfolk impaler"
+msgstr "des Meervolk-Impalers"
+
+msgctxt "gen"
+msgid  "the merfolk javelineer"
+msgstr "des Meervolk-Speerführers"
+
+msgctxt "gen"
+msgid  "the merfolk aquamancer"
+msgstr "des Meervolk-Aquamancers"
+
+msgctxt "gen"
+msgid  "the merfolk siren"
+msgstr "der Meervolk-Sirene"
+
+msgctxt "gen"
+msgid  "the merfolk avatar"
+msgstr "des Meervolk-Avatars"
+
+msgctxt "gen"
+msgid  "the water nymph"
+msgstr "der Wassernymphe"
+
+msgctxt "gen"
+msgid  "the bog body"
+msgstr "der Moorleiche"
+
+msgctxt "gen"
+msgid  "the necrophage"
+msgstr "des Nekrophagens"
+
+msgctxt "gen"
+msgid  "the ghoul"
+msgstr "des Ghuls"
+
+msgctxt "gen"
+msgid  "the orc"
+msgstr "des Orks"
+
+msgctxt "gen"
+msgid  "the orc wizard"
+msgstr "des Ork-Zauberers"
+
+msgctxt "gen"
+msgid  "the orc priest"
+msgstr "des Ork-Priesters"
+
+msgctxt "gen"
+msgid  "the orc warrior"
+msgstr "des Ork-Kriegers"
+
+msgctxt "gen"
+msgid  "the orc knight"
+msgstr "des Ork-Ritters"
+
+msgctxt "gen"
+msgid  "the orc warlord"
+msgstr "des Ork-Warlords"
+
+msgctxt "gen"
+msgid  "the orc sorcerer"
+msgstr "des Ork-Hexenmeisters"
+
+msgctxt "gen"
+msgid  "the orc high priest"
+msgstr "des Ork-Hohepriesters"
+
+msgctxt "gen"
+msgid  "the lava orc"
+msgstr "des Lava-Orks"
+
+msgctxt "gen"
+msgid  "the human"
+msgstr "des Menschens"
+
+msgctxt "gen"
+msgid  "the slave"
+msgstr "des Sklavens"
+
+msgctxt "gen"
+msgid  "the hell knight"
+msgstr "des Höllenritters"
+
+msgctxt "gen"
+msgid  "the death knight"
+msgstr "des Todesritters"
+
+msgctxt "gen"
+msgid  "the necromancer"
+msgstr "des Nekromantens"
+
+msgctxt "gen"
+msgid  "the wizard"
+msgstr "des Zauberers"
+
+msgctxt "gen"
+msgid  "the vault guard"
+msgstr "des Tresorwächters"
+
+msgctxt "gen"
+msgid  "the vault sentinel"
+msgstr "der Tresorwache"
+
+msgctxt "gen"
+msgid  "the vault warden"
+msgstr "des Tresorwärters"
+
+msgctxt "gen"
+msgid  "the ironbrand convoker"
+msgstr "des Eisenbrandeinberufers"
+
+msgctxt "gen"
+msgid  "the imperial myrmidon"
+msgstr "des kaiserlichen Myrmidons"
+
+msgctxt "gen"
+msgid  "the servant of whispers"
+msgstr "des Dieners des Flüsterns"
+
+msgctxt "gen"
+msgid  "the ragged hierophant"
+msgstr "des zerlumpten Hierophantens"
+
+msgctxt "gen"
+msgid  "the ironheart preserver"
+msgstr "des Eisenherzbewahrers"
+
+msgctxt "gen"
+msgid  "the shapeshifter"
+msgstr "des Gestaltwandlers"
+
+msgctxt "gen"
+msgid  "the glowing shapeshifter"
+msgstr "des leuchtenden Gestaltwandlers"
+
+msgctxt "gen"
+msgid  "the Killer Klown"
+msgstr "des Killer-Klowns"
+
+msgctxt "gen"
+msgid  "the demigod"
+msgstr "des Halbgotts"
+
+msgctxt "gen"
+msgid  "the halfling"
+msgstr "des Halblings"
+
+msgctxt "gen"
+msgid  "the rat"
+msgstr "der Ratte"
+
+msgctxt "gen"
+msgid  "the quokka"
+msgstr "des Quokkas"
+
+msgctxt "gen"
+msgid  "the river rat"
+msgstr "der Flussratte"
+
+msgctxt "gen"
+msgid  "the hell rat"
+msgstr "der Höllenratte"
+
+msgctxt "gen"
+msgid  "the porcupine"
+msgstr "des Stachelschweins"
+
+msgctxt "gen"
+msgid  "the giant cockroach"
+msgstr "der Riesenkakerlake"
+
+msgctxt "gen"
+msgid  "the scorpion"
+msgstr "des Skorpions"
+
+msgctxt "gen"
+msgid  "the emperor scorpion"
+msgstr "des Kaiserskorpions"
+
+msgctxt "gen"
+msgid  "the death scarab"
+msgstr "des Todesskarabäus"
+
+msgctxt "gen"
+msgid  "the spider"
+msgstr "der Spinne"
+
+msgctxt "gen"
+msgid  "the tarantella"
+msgstr "der Tarantella"
+
+msgctxt "gen"
+msgid  "the jumping spider"
+msgstr "der springenden Spinne"
+
+msgctxt "gen"
+msgid  "the wolf spider"
+msgstr "der Wolfsspinne"
+
+msgctxt "gen"
+msgid  "the redback"
+msgstr "der Rotrückenspinne"
+
+msgctxt "gen"
+msgid  "the demonic crawler"
+msgstr "des dämonischen Kriechers"
+
+msgctxt "gen"
+msgid  "the orb spider"
+msgstr "der Kugelspinne"
+
+msgctxt "gen"
+msgid  "the crocodile"
+msgstr "des Krokodils"
+
+msgctxt "gen"
+msgid  "the alligator"
+msgstr "des Alligators"
+
+msgctxt "gen"
+msgid  "the snapping turtle"
+msgstr "der Schnappschildkröte"
+
+msgctxt "gen"
+msgid  "the alligator snapping turtle"
+msgstr "der Alligatorschnappschildkröte"
+
+msgctxt "gen"
+msgid  "the crab"
+msgstr "der Krabbe"
+
+msgctxt "gen"
+msgid  "the fire crab"
+msgstr "der Feuerkrabbe"
+
+msgctxt "gen"
+msgid  "the ghost crab"
+msgstr "der Geisterkrabbe"
+
+msgctxt "gen"
+msgid  "the apocalypse crab"
+msgstr "der Apokalypse-Krabbe"
+
+msgctxt "gen"
+msgid  "the ugly thing"
+msgstr "des hässlichen Dings"
+
+msgctxt "gen"
+msgid  "the very ugly thing"
+msgstr "des sehr hässlichen Dings"
+
+msgctxt "gen"
+msgid  "the fire vortex"
+msgstr "des Feuerwirbels"
+
+msgctxt "gen"
+msgid  "the spatial vortex"
+msgstr "des räumlichen Wirbels"
+
+msgctxt "gen"
+msgid  "the spatial maelstrom"
+msgstr "des räumlichen Mahlstroms"
+
+msgctxt "gen"
+msgid  "the insubstantial wisp"
+msgstr "des unwesentlichen Irrlichts"
+
+msgctxt "gen"
+msgid  "the twister"
+msgstr "des Twisters"
+
+msgctxt "gen"
+msgid  "the worm"
+msgstr "des Wurms"
+
+msgctxt "gen"
+msgid  "the swamp worm"
+msgstr "des Sumpfwurms"
+
+msgctxt "gen"
+msgid  "the tyrant leech"
+msgstr "des Tyrannblutegels"
+
+msgctxt "gen"
+msgid  "the dart slug"
+msgstr "der Pfeilschnecke"
+
+msgctxt "gen"
+msgid  "the torpor snail"
+msgstr "der Erstarrungsschnecke"
+
+msgctxt "gen"
+msgid  "the elephant slug"
+msgstr "der Elefantenschnecke"
+
+msgctxt "gen"
+msgid  "the unseen horror"
+msgstr "des unsichtbaren Grauens"
+
+msgctxt "gen"
+msgid  "the small abomination"
+msgstr "des kleinen Greuels"
+
+msgctxt "gen"
+msgid  "the crawling corpse"
+msgstr "der kriechenden Leiche"
+
+msgctxt "gen"
+msgid  "the macabre mass"
+msgstr "der makaberen Masse"
+
+msgctxt "gen"
+msgid  "the ancient zyme"
+msgstr "des alten Zymens"
+
+msgctxt "gen"
+msgid  "the worldbinder"
+msgstr "des Weltbinders"
+
+msgctxt "gen"
+msgid  "the killer bee"
+msgstr "der Killerbiene"
+
+msgctxt "gen"
+msgid  "the queen bee"
+msgstr "der Bienenkönigin"
+
+msgctxt "gen"
+msgid  "the vampire mosquito"
+msgstr "der Vampir-Mücke"
+
+msgctxt "gen"
+msgid  "the hornet"
+msgstr "der Hornisse"
+
+msgctxt "gen"
+msgid  "the meliai"
+msgstr "der Meliai"
+
+msgctxt "gen"
+msgid  "the spark wasp"
+msgstr "der Funkenwespe"
+
+msgctxt "gen"
+msgid  "the moth"
+msgstr "der Motte"
+
+msgctxt "gen"
+msgid  "the ghost moth"
+msgstr "der Geistermotte"
+
+msgctxt "gen"
+msgid  "the moth of wrath"
+msgstr "der Motte des Zorns"
+
+msgctxt "gen"
+msgid  "the wight"
+msgstr "des Wights"
+
+msgctxt "gen"
+msgid  "the skeletal warrior"
+msgstr "des Skelettkriegers"
+
+msgctxt "gen"
+msgid  "the ancient champion"
+msgstr "des alten Champions"
+
+msgctxt "gen"
+msgid  "the flying skull"
+msgstr "des fliegenden Schädels"
+
+msgctxt "gen"
+msgid  "the curse skull"
+msgstr "des Fluchschädels"
+
+msgctxt "gen"
+msgid  "the curse toe"
+msgstr "des Fluchzehens"
+
+msgctxt "gen"
+msgid  "the angel"
+msgstr "des Engels"
+
+msgctxt "gen"
+msgid  "the cherub"
+msgstr "des Cherubs"
+
+msgctxt "gen"
+msgid  "the seraph"
+msgstr "des Seraphs"
+
+msgctxt "gen"
+msgid  "the daeva"
+msgstr "des Daevas"
+
+msgctxt "gen"
+msgid  "the profane servitor"
+msgstr "des profanen Dieners"
+
+msgctxt "gen"
+msgid  "the giant"
+msgstr "des Riesens"
+
+msgctxt "gen"
+msgid  "the cyclops"
+msgstr "des Zyklops"
+
+msgctxt "gen"
+msgid  "the ettin"
+msgstr "des Ettins"
+
+msgctxt "gen"
+msgid  "the fire giant"
+msgstr "des Feuerriesens"
+
+msgctxt "gen"
+msgid  "the frost giant"
+msgstr "des Frostriesens"
+
+msgctxt "gen"
+msgid  "the stone giant"
+msgstr "des Steinriesens"
+
+msgctxt "gen"
+msgid  "the titan"
+msgstr "des Titans"
+
+msgctxt "gen"
+msgid  "the juggernaut"
+msgstr "des Juggernauts"
+
+msgctxt "gen"
+msgid  "the iron giant"
+msgstr "des Eisenriesens"
+
+msgctxt "gen"
+msgid  "the dragon"
+msgstr "des Drachens"
+
+msgctxt "gen"
+msgid  "the fire dragon"
+msgstr "des Feuerdrachens"
+
+msgctxt "gen"
+msgid  "the hydra"
+msgstr "der Hydra"
+
+msgctxt "gen"
+msgid  "the %d-headed hydra"
+msgstr "der %d-köpfigen Hydra"
+
+msgctxt "gen"
+msgid  "the ice dragon"
+msgstr "des Eisdrachens"
+
+msgctxt "gen"
+msgid  "the steam dragon"
+msgstr "des Dampfdrachens"
+
+msgctxt "gen"
+msgid  "the swamp dragon"
+msgstr "des Sumpfdrachens"
+
+msgctxt "gen"
+msgid  "the acid dragon"
+msgstr "des Säuredrachens"
+
+msgctxt "gen"
+msgid  "the quicksilver dragon"
+msgstr "des Quecksilberdrachens"
+
+msgctxt "gen"
+msgid  "the iron dragon"
+msgstr "des Eisendrachens"
+
+msgctxt "gen"
+msgid  "the storm dragon"
+msgstr "des Sturmdrachens"
+
+msgctxt "gen"
+msgid  "the golden dragon"
+msgstr "des Golddrachens"
+
+msgctxt "gen"
+msgid  "the shadow dragon"
+msgstr "des Schattendrachens"
+
+msgctxt "gen"
+msgid  "the bone dragon"
+msgstr "des Knochendrachens"
+
+msgctxt "gen"
+msgid  "the pearl dragon"
+msgstr "des Perlendrachens"
+
+msgctxt "gen"
+msgid  "the elemental"
+msgstr "des Elementars"
+
+msgctxt "gen"
+msgid  "the earth elemental"
+msgstr "des Erdelementars"
+
+msgctxt "gen"
+msgid  "the fire elemental"
+msgstr "des Feuerelementars"
+
+msgctxt "gen"
+msgid  "the water elemental"
+msgstr "des Wasserelementars"
+
+msgctxt "gen"
+msgid  "the air elemental"
+msgstr "des Luftelementars"
+
+msgctxt "gen"
+msgid  "the iron elemental"
+msgstr "des Eisenelementars"
+
+msgctxt "gen"
+msgid  "the elemental wellspring"
+msgstr "der elementaren Quelle"
+
+msgctxt "gen"
+msgid  "the giant frog"
+msgstr "des Riesenfroschs"
+
+msgctxt "gen"
+msgid  "the bullfrog"
+msgstr "des Ochsenfroschs"
+
+msgctxt "gen"
+msgid  "the spiny frog"
+msgstr "des Stachelfroschs"
+
+msgctxt "gen"
+msgid  "the blink frog"
+msgstr "des Blinzelfroschs"
+
+msgctxt "gen"
+msgid  "the barachi"
+msgstr "der Barachi"
+
+msgctxt "gen"
+msgid  "the floating eye"
+msgstr "des schwebenden Auges"
+
+msgctxt "gen"
+msgid  "the eye of draining"
+msgstr "des Auges des Schwächens"
+
+msgctxt "gen"
+msgid  "the glowing orange brain"
+msgstr "des orangen leuchtenden Gehirns"
+
+msgctxt "gen"
+msgid  "the great orb of eyes"
+msgstr "des großen Augenkugels"
+
+msgctxt "gen"
+msgid  "the shining eye"
+msgstr "des leuchtenden Auges"
+
+msgctxt "gen"
+msgid  "the eye of devastation"
+msgstr "des Auge der Verwüstungs"
+
+msgctxt "gen"
+msgid  "the golden eye"
+msgstr "des goldenen Auges"
+
+msgctxt "gen"
+msgid  "the ophan"
+msgstr "des Ophans"
+
+msgctxt "gen"
+msgid  "the hippogriff"
+msgstr "des Hippogriffs"
+
+msgctxt "gen"
+msgid  "the manticore"
+msgstr "des Mantikors"
+
+msgctxt "gen"
+msgid  "the minotaur"
+msgstr "des Minotaurus"
+
+msgctxt "gen"
+msgid  "the sphinx"
+msgstr "der Sphinx"
+
+msgctxt "gen"
+msgid  "the harpy"
+msgstr "der Harpyie"
+
+msgctxt "gen"
+msgid  "the mutant beast"
+msgstr "der mutierten Bestie"
+
+msgctxt "gen"
+msgid  "the ancestor"
+msgstr "des Ahnens"
+
+msgctxt "gen"
+msgid  "the knight"
+msgstr "des Ritters"
+
+msgctxt "gen"
+msgid  "the battlemage"
+msgstr "des Kampfmagiers"
+
+msgctxt "gen"
+msgid  "the hexer"
+msgstr "des Hexers"
+
+msgctxt "gen"
+msgid  "the ooze"
+msgstr "des Schlamms"
+
+msgctxt "gen"
+msgid  "the jelly"
+msgstr "des Gelees"
+
+msgctxt "gen"
+msgid  "the slime creature"
+msgstr "des Schleimwesens"
+
+msgctxt "gen"
+msgid  "the merged slime creature"
+msgstr "der verschmolzenen Schleimkreatur"
+
+msgctxt "gen"
+msgid  "the azure jelly"
+msgstr "des azurblauen Gelees"
+
+msgctxt "gen"
+msgid  "the death ooze"
+msgstr "des Todesschlamms"
+
+msgctxt "gen"
+msgid  "the acid blob"
+msgstr "des Säureklumpens"
+
+msgctxt "gen"
+msgid  "the kobold"
+msgstr "des Kobolds"
+
+msgctxt "gen"
+msgid  "the big kobold"
+msgstr "des großen Kobolds"
+
+msgctxt "gen"
+msgid  "the kobold demonologist"
+msgstr "des Kobold-Dämonologens"
+
+msgctxt "gen"
+msgid  "the lich"
+msgstr "des Lichs"
+
+msgctxt "gen"
+msgid  "the ancient lich"
+msgstr "des alten Lichs"
+
+msgctxt "gen"
+msgid  "the revenant"
+msgstr "des Wiedergängers"
+
+msgctxt "gen"
+msgid  "the halazid warlock"
+msgstr "des halazidischen Hexenmeisters"
+
+msgctxt "gen"
+msgid  "the mummy"
+msgstr "der Mumie"
+
+msgctxt "gen"
+msgid  "the guardian mummy"
+msgstr "der Wächtermumie"
+
+msgctxt "gen"
+msgid  "the greater mummy"
+msgstr "der größeren Mumie"
+
+msgctxt "gen"
+msgid  "the mummy priest"
+msgstr "des Mumie-Priesters"
+
+msgctxt "gen"
+msgid  "the naga"
+msgstr "des Nagas"
+
+msgctxt "gen"
+msgid  "the naga mage"
+msgstr "des Naga-Magiers"
+
+msgctxt "gen"
+msgid  "the naga sharpshooter"
+msgstr "des Naga-Scharfschützens"
+
+msgctxt "gen"
+msgid  "the naga ritualist"
+msgstr "des Naga-Ritualistens"
+
+msgctxt "gen"
+msgid  "the naga warrior"
+msgstr "des Naga-Kriegers"
+
+msgctxt "gen"
+msgid  "the nagaraja"
+msgstr "des Nagarajas"
+
+msgctxt "gen"
+msgid  "the ogre"
+msgstr "des Ogers"
+
+msgctxt "gen"
+msgid  "the two-headed ogre"
+msgstr "des zweiköpfigen Ogers"
+
+msgctxt "gen"
+msgid  "the ogre mage"
+msgstr "des Oger-Magiers"
+
+msgctxt "gen"
+msgid  "the plant"
+msgstr "der Pflanze"
+
+msgctxt "gen"
+msgid  "the demonic plant"
+msgstr "der dämonischen Pflanze"
+
+msgctxt "gen"
+msgid  "the withered plant"
+msgstr "der verwelkten Pflanze"
+
+msgctxt "gen"
+msgid  "the oklob sapling"
+msgstr "des Oklob-Setzlings"
+
+msgctxt "gen"
+msgid  "the oklob plant"
+msgstr "der Oklob-Pflanze"
+
+msgctxt "gen"
+msgid  "the bush"
+msgstr "des Buschs"
+
+msgctxt "gen"
+msgid  "the burning bush"
+msgstr "des brennenden Buschs"
+
+msgctxt "gen"
+msgid  "the toadstool"
+msgstr "des Giftpilzs"
+
+msgctxt "gen"
+msgid  "the fungus"
+msgstr "des Pilzs"
+
+msgctxt "gen"
+msgid  "the ballistomycete"
+msgstr "des Ballistomycetens"
+
+msgctxt "gen"
+msgid  "the hyperactive ballistomycete"
+msgstr "des hyperaktiven Ballistomycetens"
+
+msgctxt "gen"
+msgid  "the briar patch"
+msgstr "des Dornstrauchs"
+
+msgctxt "gen"
+msgid  "the tengu"
+msgstr "des Tengus"
+
+msgctxt "gen"
+msgid  "the tengu conjurer"
+msgstr "des Tengu-Zauberers"
+
+msgctxt "gen"
+msgid  "the tengu warrior"
+msgstr "des Tengu-Kriegers"
+
+msgctxt "gen"
+msgid  "the tengu reaver"
+msgstr "des Tengu-Häschers"
+
+msgctxt "gen"
+msgid  "the efreet"
+msgstr "des Efreets"
+
+msgctxt "gen"
+msgid  "the rakshasa"
+msgstr "des Rakshasas"
+
+msgctxt "gen"
+msgid  "the dryad"
+msgstr "der Dryade"
+
+msgctxt "gen"
+msgid  "the snaplasher vine"
+msgstr "der Peitscherrebe"
+
+msgctxt "gen"
+msgid  "the snaplasher vine segment"
+msgstr "des Peitscherrebesegments"
+
+msgctxt "gen"
+msgid  "the snake"
+msgstr "der Schlange"
+
+msgctxt "gen"
+msgid  "the ball python"
+msgstr "der Kugelpython"
+
+msgctxt "gen"
+msgid  "the adder"
+msgstr "der Kreuzotter"
+
+msgctxt "gen"
+msgid  "the water moccasin"
+msgstr "des Wassermokassins"
+
+msgctxt "gen"
+msgid  "the black mamba"
+msgstr "der schwarzen Mamba"
+
+msgctxt "gen"
+msgid  "the sea snake"
+msgstr "der Seeschlange"
+
+msgctxt "gen"
+msgid  "the anaconda"
+msgstr "der Anakonda"
+
+msgctxt "gen"
+msgid  "the guardian serpent"
+msgstr "der Wächter-Schlange"
+
+msgctxt "gen"
+msgid  "the shock serpent"
+msgstr "der Schockschlange"
+
+msgctxt "gen"
+msgid  "the mana viper"
+msgstr "der Manaviper"
+
+msgctxt "gen"
+msgid  "the troll"
+msgstr "des Trolls"
+
+msgctxt "gen"
+msgid  "the iron troll"
+msgstr "des Eisentrolls"
+
+msgctxt "gen"
+msgid  "the deep troll"
+msgstr "des Tiefentrolls"
+
+msgctxt "gen"
+msgid  "the deep troll earth mage"
+msgstr "des Tiefentroll-Erdmagiers"
+
+msgctxt "gen"
+msgid  "the deep troll shaman"
+msgstr "des Tiefentroll-Schamanens"
+
+msgctxt "gen"
+msgid  "the vampire"
+msgstr "des Vampirs"
+
+msgctxt "gen"
+msgid  "the vampire knight"
+msgstr "des Vampir-Ritters"
+
+msgctxt "gen"
+msgid  "the vampire mage"
+msgstr "des Vampir-Magiers"
+
+msgctxt "gen"
+msgid  "the jiangshi"
+msgstr "des Jiangshis"
+
+msgctxt "gen"
+msgid  "the ghost"
+msgstr "des Gespensts"
+
+msgctxt "gen"
+msgid  "the phantom"
+msgstr "des Phantoms"
+
+msgctxt "gen"
+msgid  "the hungry ghost"
+msgstr "des hungrigen Geistens"
+
+msgctxt "gen"
+msgid  "the flayed ghost"
+msgstr "des enthäuteten Geistens"
+
+msgctxt "gen"
+msgid  "the player ghost"
+msgstr "des Spielergeistens"
+
+msgctxt "gen"
+msgid  "the shadow"
+msgstr "des Schattens"
+
+msgctxt "gen"
+msgid  "the silent spectre"
+msgstr "des stillen Gespensts"
+
+msgctxt "gen"
+msgid  "the drowned soul"
+msgstr "der ertrunkenen Seele"
+
+msgctxt "gen"
+msgid  "the wraith"
+msgstr "des Geistens"
+
+msgctxt "gen"
+msgid  "the shadow wraith"
+msgstr "des Schattengeistens"
+
+msgctxt "gen"
+msgid  "the freezing wraith"
+msgstr "des Frostgeistens"
+
+msgctxt "gen"
+msgid  "the eidolon"
+msgstr "des Eidolons"
+
+msgctxt "gen"
+msgid  "the phantasmal warrior"
+msgstr "des phantastischen Kriegers"
+
+msgctxt "gen"
+msgid  "the large abomination"
+msgstr "des großen Greuels"
+
+msgctxt "gen"
+msgid  "the thrashing horror"
+msgstr "des verprügelnden Grauens"
+
+msgctxt "gen"
+msgid  "the tentacled monstrosity"
+msgstr "der Tentakel-Monstrosität"
+
+msgctxt "gen"
+msgid  "the Orb Guardian"
+msgstr "des Kugelwächters"
+
+msgctxt "gen"
+msgid  "the tentacled starspawn"
+msgstr "des Tentakelsternbruts"
+
+msgctxt "gen"
+msgid  "the starspawn tentacle"
+msgstr "des Sternbruttentakels"
+
+msgctxt "gen"
+msgid  "the starspawn tentacle segment"
+msgstr "des Sternbruttentakelsegments"
+
+msgctxt "gen"
+msgid  "the starcursed mass"
+msgstr "der sternverfluchten Masse"
+
+msgctxt "gen"
+msgid  "the dream sheep"
+msgstr "des Traumschafs"
+
+msgctxt "gen"
+msgid  "the yak"
+msgstr "des Yaks"
+
+msgctxt "gen"
+msgid  "the death yak"
+msgstr "des Todesyaks"
+
+msgctxt "gen"
+msgid  "the catoblepas"
+msgstr "der Catoblepas"
+
+msgctxt "gen"
+msgid  "the elephant"
+msgstr "des Elefantens"
+
+msgctxt "gen"
+msgid  "the dire elephant"
+msgstr "des Schreckenselefantens"
+
+msgctxt "gen"
+msgid  "the hellephant"
+msgstr "des Höllefantens"
+
+msgctxt "gen"
+msgid  "the apis"
+msgstr "der Apis"
+
+msgctxt "gen"
+msgid  "the ice beast"
+msgstr "der Eisbestie"
+
+msgctxt "gen"
+msgid  "the sky beast"
+msgstr "des Himmelstiers"
+
+msgctxt "gen"
+msgid  "the zombie"
+msgstr "des Zombies"
+
+msgctxt "gen"
+msgid  "the skeleton"
+msgstr "des Skeletts"
+
+msgctxt "gen"
+msgid  "the simulacrum"
+msgstr "des Simulacrums"
+
+msgctxt "gen"
+msgid  "the small zombie"
+msgstr "des kleinen Zombies"
+
+msgctxt "gen"
+msgid  "the small skeleton"
+msgstr "des kleinen Skeletts"
+
+msgctxt "gen"
+msgid  "the small simulacrum"
+msgstr "des kleinen Simulacrums"
+
+msgctxt "gen"
+msgid  "the large zombie"
+msgstr "des großen Zombies"
+
+msgctxt "gen"
+msgid  "the large skeleton"
+msgstr "des großen Skeletts"
+
+msgctxt "gen"
+msgid  "the large simulacrum"
+msgstr "des großen Simulacrums"
+
+msgctxt "gen"
+msgid  "the spectral thing"
+msgstr "der spektralen Sache"
+
+msgctxt "gen"
+msgid  "the electric eel"
+msgstr "des Zitteraals"
+
+msgctxt "gen"
+msgid  "the kraken"
+msgstr "des Krakens"
+
+msgctxt "gen"
+msgid  "the tentacle"
+msgstr "des Tentakels"
+
+msgctxt "gen"
+msgid  "the tentacle segment"
+msgstr "des Tentakelsegments"
+
+msgctxt "gen"
+msgid  "the octopode"
+msgstr "des Oktopods"
+
+msgctxt "gen"
+msgid  "the lava snake"
+msgstr "der Lavaschlange"
+
+msgctxt "gen"
+msgid  "the salamander"
+msgstr "des Salamanders"
+
+msgctxt "gen"
+msgid  "the salamander mystic"
+msgstr "des Salamander-Mystikers"
+
+msgctxt "gen"
+msgid  "the Hellbinder"
+msgstr "des Höllenbinders"
+
+msgctxt "gen"
+msgid  "the Cloud Mage"
+msgstr "des Wolkenmagiers"
+
+msgctxt "gen"
+msgid  "the player"
+msgstr "des Spielers"
+
+msgctxt "gen"
+msgid  "the player illusion"
+msgstr "der Spieler-Illusion"
+
+msgctxt "gen"
+msgid  "the dancing weapon"
+msgstr "der tanzenden Waffe"
+
+msgctxt "gen"
+msgid  "the spectral weapon"
+msgstr "der Spektralwaffe"
+
+msgctxt "gen"
+msgid  "the eldritch tentacle"
+msgstr "des unheimlichen Tentakels"
+
+msgctxt "gen"
+msgid  "the eldritch tentacle segment"
+msgstr "des unheimlichen Tentakelsegments"
+
+msgctxt "gen"
+msgid  "the demonspawn"
+msgstr "der Dämonenbrut"
+
+msgctxt "gen"
+msgid  "the monstrous demonspawn"
+msgstr "der monströsen Dämonenbrut"
+
+msgctxt "gen"
+msgid  "the gelid demonspawn"
+msgstr "des geliden Dämonenbruts"
+
+msgctxt "gen"
+msgid  "the infernal demonspawn"
+msgstr "der höllischen Dämonenbrut"
+
+msgctxt "gen"
+msgid  "the torturous demonspawn"
+msgstr "der quälenden Dämonenbrut"
+
+msgctxt "gen"
+msgid  "the blood saint"
+msgstr "des Blutheiligens"
+
+msgctxt "gen"
+msgid  "the warmonger"
+msgstr "des Kriegstreibers"
+
+msgctxt "gen"
+msgid  "the corrupter"
+msgstr "des Korruptors"
+
+msgctxt "gen"
+msgid  "the black sun"
+msgstr "der schwarzen Sonne"
+
+msgctxt "gen"
+msgid  "the crimson imp"
+msgstr "des karminroten Teufelchens"
+
+msgctxt "gen"
+msgid  "the quasit"
+msgstr "des Quasits"
+
+msgctxt "gen"
+msgid  "the white imp"
+msgstr "des weißen Teufelchens"
+
+msgctxt "gen"
+msgid  "the ufetubus"
+msgstr "des Ufetubus"
+
+msgctxt "gen"
+msgid  "the iron imp"
+msgstr "des Eisenteufelchens"
+
+msgctxt "gen"
+msgid  "the shadow imp"
+msgstr "des Schattenteufelchens"
+
+msgctxt "gen"
+msgid  "the rust devil"
+msgstr "des Rostteufels"
+
+msgctxt "gen"
+msgid  "the orange demon"
+msgstr "des orangen Dämons"
+
+msgctxt "gen"
+msgid  "the red devil"
+msgstr "des roten Teufels"
+
+msgctxt "gen"
+msgid  "the hellwing"
+msgstr "des Höllenflügels"
+
+msgctxt "gen"
+msgid  "the ice devil"
+msgstr "des Eisteufels"
+
+msgctxt "gen"
+msgid  "the chaos spawn"
+msgstr "der Chaosbrut"
+
+msgctxt "gen"
+msgid  "the sun demon"
+msgstr "des Sonnendämons"
+
+msgctxt "gen"
+msgid  "the soul eater"
+msgstr "des Seelenfressers"
+
+msgctxt "gen"
+msgid  "the smoke demon"
+msgstr "des Rauchdämons"
+
+msgctxt "gen"
+msgid  "the neqoxec"
+msgstr "der Neqoxec"
+
+msgctxt "gen"
+msgid  "the ynoxinul"
+msgstr "des Ynoxinuls"
+
+msgctxt "gen"
+msgid  "the sixfirhy"
+msgstr "des Sixfirhys"
+
+msgctxt "gen"
+msgid  "the shadow demon"
+msgstr "des Schattendämons"
+
+msgctxt "gen"
+msgid  "the green death"
+msgstr "des grünen Tods"
+
+msgctxt "gen"
+msgid  "the blizzard demon"
+msgstr "des Blizzarddämons"
+
+msgctxt "gen"
+msgid  "the balrug"
+msgstr "des Balrugs"
+
+msgctxt "gen"
+msgid  "the cacodemon"
+msgstr "des Cacodaemons"
+
+msgctxt "gen"
+msgid  "the hell beast"
+msgstr "des Höllentiers"
+
+msgctxt "gen"
+msgid  "the hellion"
+msgstr "des Teufelsbratens"
+
+msgctxt "gen"
+msgid  "the reaper"
+msgstr "des Schnitters"
+
+msgctxt "gen"
+msgid  "the lorocyproca"
+msgstr "der Lorocyproca"
+
+msgctxt "gen"
+msgid  "the tormentor"
+msgstr "des Peinigers"
+
+msgctxt "gen"
+msgid  "the Brimstone Fiend"
+msgstr "des Schwefelunterweltlers"
+
+msgctxt "gen"
+msgid  "the Ice Fiend"
+msgstr "des Eisunterweltlers"
+
+msgctxt "gen"
+msgid  "the Tzitzimitl"
+msgstr "des Tzitzimitls"
+
+msgctxt "gen"
+msgid  "the Hell Sentinel"
+msgstr "des Höllenwächters"
+
+msgctxt "gen"
+msgid  "the Executioner"
+msgstr "des Scharfrichters"
+
+msgctxt "gen"
+msgid  "the animated tree"
+msgstr "des animierten Baums"
+
+msgctxt "gen"
+msgid  "the golem"
+msgstr "des Golems"
+
+msgctxt "gen"
+msgid  "the saltling"
+msgstr "des Salzlings"
+
+msgctxt "gen"
+msgid  "the peacekeeper"
+msgstr "des Friedenshüters"
+
+msgctxt "gen"
+msgid  "the iron golem"
+msgstr "des Eisengolems"
+
+msgctxt "gen"
+msgid  "the crystal guardian"
+msgstr "des Kristallwächters"
+
+msgctxt "gen"
+msgid  "the toenail golem"
+msgstr "des Zehennagelgolems"
+
+msgctxt "gen"
+msgid  "the electric golem"
+msgstr "des Blitzgolems"
+
+msgctxt "gen"
+msgid  "the ushabti"
+msgstr "der Uschabti"
+
+msgctxt "gen"
+msgid  "the guardian golem"
+msgstr "des Wächtergolems"
+
+msgctxt "gen"
+msgid  "the spellforged servitor"
+msgstr "des zaubergeschmeideten Dieners"
+
+msgctxt "gen"
+msgid  "the ice statue"
+msgstr "der Eisstatue"
+
+msgctxt "gen"
+msgid  "the obsidian statue"
+msgstr "der Obsidianstatue"
+
+msgctxt "gen"
+msgid  "the orange crystal statue"
+msgstr "der orangen Kristallstatue"
+
+msgctxt "gen"
+msgid  "the statue"
+msgstr "der Statue"
+
+msgctxt "gen"
+msgid  "the training dummy"
+msgstr "der Trainingspuppe"
+
+msgctxt "gen"
+msgid  "the pillar of salt"
+msgstr "der Säule des Salzes"
+
+msgctxt "gen"
+msgid  "the block of ice"
+msgstr "des Eisblocks"
+
+msgctxt "gen"
+msgid  "the diamond obelisk"
+msgstr "des Diamantobelisks"
+
+msgctxt "gen"
+msgid  "the lightning spire"
+msgstr "des Blitzturms"
+
+msgctxt "gen"
+msgid  "the gargoyle"
+msgstr "des Gargoyles"
+
+msgctxt "gen"
+msgid  "the war gargoyle"
+msgstr "des Kriegsgargoyles"
+
+msgctxt "gen"
+msgid  "the molten gargoyle"
+msgstr "des geschmolzenen Gargoyles"
+
+msgctxt "gen"
+msgid  "the pandemonium lord"
+msgstr "des Pandemoniumsherrns"
+
+msgctxt "gen"
+msgid  "the hell lord"
+msgstr "des Höllenherrns"
+
+msgctxt "gen"
+msgid  "the ball lightning"
+msgstr "des Kugelblitzs"
+
+msgctxt "gen"
+msgid  "the ballistomycete spore"
+msgstr "der Ballistomycetenspore"
+
+msgctxt "gen"
+msgid  "the lost soul"
+msgstr "der verlorenen Seele"
+
+msgctxt "gen"
+msgid  "the lurking horror"
+msgstr "des lauernden Grauens"
+
+msgctxt "gen"
+msgid  "the orb of fire"
+msgstr "der Feuerkugel"
+
+msgctxt "gen"
+msgid  "the orb of destruction"
+msgstr "der Kugel der Zerstörung"
+
+msgctxt "gen"
+msgid  "the fulminant prism"
+msgstr "des fulminanten Prismas"
+
+msgctxt "gen"
+msgid  "the wretched star"
+msgstr "des elenden Sterns"
+
+msgctxt "gen"
+msgid  "the battlesphere"
+msgstr "der Kampfsphäre"
+
+msgctxt "gen"
+msgid  "the death cob"
+msgstr "des Todeskolbens"
+
+msgctxt "gen"
+msgid  "the moon troll"
+msgstr "des Mondtrolls"
+
+msgctxt "gen"
+msgid  "the foxfire"
+msgstr "des Fuchsfeuers"
+
+msgctxt "gen"
+msgid  "the nameless horror"
+msgstr "des namenlosen Horrors"
+
+msgctxt "gen"
+msgid  "the sensed monster"
+msgstr "des gespürten Monsters"
+
+msgctxt "gen"
+msgid  "the friendly sensed monster"
+msgstr "des freundlichen gespürten Monsters"
+
+msgctxt "gen"
+msgid  "the trivial sensed monster"
+msgstr "des trivialen gespürten Monsters"
+
+msgctxt "gen"
+msgid  "the easy sensed monster"
+msgstr "des leichten gespürten Monsters"
+
+msgctxt "gen"
+msgid  "the tough sensed monster"
+msgstr "des harten gespürten Monsters"
+
+msgctxt "gen"
+msgid  "the nasty sensed monster"
+msgstr "des furchtbaren gespürten Monsters"
+
+################################
+# indefinite
+################################
+
+msgctxt "gen"
+msgid "a program bug"
+msgstr "eines Programmfehlers"
+
+msgctxt "gen"
+msgid "a worker ant"
+msgstr "einer Ameisenarbeiterin"
+
+msgctxt "gen"
+msgid "a queen ant"
+msgstr "einer Ameisenkönigin"
+
+msgctxt "gen"
+msgid "a soldier ant"
+msgstr "einer Ameisensoldatin"
+
+msgctxt "gen"
+msgid "a formicid"
+msgstr "eines Formicids"
+
+msgctxt "gen"
+msgid "an entropy weaver"
+msgstr "eines Entropiewebers"
+
+msgctxt "gen"
+msgid "a bat"
+msgstr "einer Fledermaus"
+
+msgctxt "gen"
+msgid "a butterfly"
+msgstr "eines Schmetterlings"
+
+msgctxt "gen"
+msgid "a vampire bat"
+msgstr "einer Vampirfledermaus"
+
+msgctxt "gen"
+msgid "a fire bat"
+msgstr "einer Feuerfledermaus"
+
+msgctxt "gen"
+msgid "a bennu"
+msgstr "eines Bennus"
+
+msgctxt "gen"
+msgid "a caustic shrike"
+msgstr "eines ätzenden Würgers"
+
+msgctxt "gen"
+msgid "a shard shrike"
+msgstr "eines Scherbenwürgers"
+
+msgctxt "gen"
+msgid "a centaur"
+msgstr "eines Zentaurs"
+
+msgctxt "gen"
+msgid "a centaur warrior"
+msgstr "eines Zentaur-Kriegers"
+
+msgctxt "gen"
+msgid "a yaktaur"
+msgstr "eines Yaktaurs"
+
+msgctxt "gen"
+msgid "a yaktaur captain"
+msgstr "eines Yaktaur-Kapitäns"
+
+msgctxt "gen"
+msgid "a faun"
+msgstr "eines Fauns"
+
+msgctxt "gen"
+msgid "a satyr"
+msgstr "eines Satyrs"
+
+msgctxt "gen"
+msgid "a draconian"
+msgstr "eines Drakoniers"
+
+msgctxt "gen"
+msgid "a black draconian"
+msgstr "eines schwarzen Drakoniers"
+
+msgctxt "gen"
+msgid "a yellow draconian"
+msgstr "eines gelben Drakoniers"
+
+msgctxt "gen"
+msgid "a pale draconian"
+msgstr "eines blassen Drakoniers"
+
+msgctxt "gen"
+msgid "a green draconian"
+msgstr "eines grünen Drakoniers"
+
+msgctxt "gen"
+msgid "a purple draconian"
+msgstr "eines purpurnen Drakoniers"
+
+msgctxt "gen"
+msgid "a red draconian"
+msgstr "eines roten Drakoniers"
+
+msgctxt "gen"
+msgid "a white draconian"
+msgstr "eines weißen Drakoniers"
+
+msgctxt "gen"
+msgid "a grey draconian"
+msgstr "eines grauen Drakoniers"
+
+msgctxt "gen"
+msgid "a draconian stormcaller"
+msgstr "eines Drakonier-Sturmrufers"
+
+msgctxt "gen"
+msgid "a draconian monk"
+msgstr "eines Drakonier-Mönchs"
+
+msgctxt "gen"
+msgid "a draconian shifter"
+msgstr "eines Drakonier-Verwandlers"
+
+msgctxt "gen"
+msgid "a draconian annihilator"
+msgstr "eines Drakonier-Vernichters"
+
+msgctxt "gen"
+msgid "a draconian knight"
+msgstr "eines Drakonier-Ritters"
+
+msgctxt "gen"
+msgid "a draconian scorcher"
+msgstr "eines Drakonier-Verschmorers"
+
+msgctxt "gen"
+msgid "an elf"
+msgstr "eines Elfs"
+
+msgctxt "gen"
+msgid "a deep elf knight"
+msgstr "eines Tiefenelf-Ritters"
+
+msgctxt "gen"
+msgid "a deep elf archer"
+msgstr "eines Tiefenelf-Bogenschützens"
+
+msgctxt "gen"
+msgid "a deep elf blademaster"
+msgstr "eines Tiefenelf-Klingenmeisters"
+
+msgctxt "gen"
+msgid "a deep elf master archer"
+msgstr "eines Tiefenelf-Bogenmeisters"
+
+msgctxt "gen"
+msgid "a deep elf mage"
+msgstr "eines Tiefenelf-Magiers"
+
+msgctxt "gen"
+msgid "a deep elf high priest"
+msgstr "eines Tiefenelf-Hohepriesters"
+
+msgctxt "gen"
+msgid "a deep elf demonologist"
+msgstr "eines Tiefenelf-Dämonologens"
+
+msgctxt "gen"
+msgid "a deep elf annihilator"
+msgstr "eines Tiefenelf-Vernichters"
+
+msgctxt "gen"
+msgid "a deep elf sorcerer"
+msgstr "eines Tiefenelf-Zauberers"
+
+msgctxt "gen"
+msgid "a deep elf death mage"
+msgstr "eines Tiefenelf-Todesmagiers"
+
+msgctxt "gen"
+msgid "a deep elf elementalist"
+msgstr "eines Tiefenelf-Elementalistens"
+
+msgctxt "gen"
+msgid "a wandering mushroom"
+msgstr "eines wandernden Pilzs"
+
+msgctxt "gen"
+msgid "a deathcap"
+msgstr "einer Todesmütze"
+
+msgctxt "gen"
+msgid "a thorn hunter"
+msgstr "eines Dornenjägers"
+
+msgctxt "gen"
+msgid "a shambling mangrove"
+msgstr "einer watschelnden Mangrove"
+
+msgctxt "gen"
+msgid "a vine stalker"
+msgstr "eines Rebjägers"
+
+msgctxt "gen"
+msgid "a goblin"
+msgstr "eines Goblins"
+
+msgctxt "gen"
+msgid "a hobgoblin"
+msgstr "eines Hobgoblins"
+
+msgctxt "gen"
+msgid "a gnoll"
+msgstr "eines Gnolls"
+
+msgctxt "gen"
+msgid "a gnoll shaman"
+msgstr "eines Gnoll-Schamanens"
+
+msgctxt "gen"
+msgid "a gnoll sergeant"
+msgstr "eines Gnoll-Wachtmeisters"
+
+msgctxt "gen"
+msgid "a boggart"
+msgstr "eines Boggarts"
+
+msgctxt "gen"
+msgid "a dwarf"
+msgstr "eines Zwergs"
+
+msgctxt "gen"
+msgid "a deep dwarf"
+msgstr "eines Tiefenzwergs"
+
+msgctxt "gen"
+msgid "a jackal"
+msgstr "eines Schakals"
+
+msgctxt "gen"
+msgid "a hound"
+msgstr "eines Hunds"
+
+msgctxt "gen"
+msgid "a howler monkey"
+msgstr "eines Brüllaffens"
+
+msgctxt "gen"
+msgid "a warg"
+msgstr "eines Wargs"
+
+msgctxt "gen"
+msgid "a wolf"
+msgstr "eines Wolfs"
+
+msgctxt "gen"
+msgid "a hog"
+msgstr "eines Schweins"
+
+msgctxt "gen"
+msgid "a hell hound"
+msgstr "eines Höllenhunds"
+
+msgctxt "gen"
+msgid "a doom hound"
+msgstr "eines Untergangshunds"
+
+msgctxt "gen"
+msgid "a raiju"
+msgstr "eines Raijus"
+
+msgctxt "gen"
+msgid "a hell hog"
+msgstr "eines höllischen Schweins"
+
+msgctxt "gen"
+msgid "a holy swine"
+msgstr "eines heiligen Schweins"
+
+msgctxt "gen"
+msgid "a felid"
+msgstr "eines Felids"
+
+msgctxt "gen"
+msgid "a bear"
+msgstr "eines Bärens"
+
+msgctxt "gen"
+msgid "a polar bear"
+msgstr "eines Eisbärens"
+
+msgctxt "gen"
+msgid "a black bear"
+msgstr "eines Schwarzbärens"
+
+msgctxt "gen"
+msgid "a spriggan"
+msgstr "eines Spriggans"
+
+msgctxt "gen"
+msgid "a spriggan rider"
+msgstr "eines Spriggan-Reiters"
+
+msgctxt "gen"
+msgid "a spriggan druid"
+msgstr "eines Spriggan-Druidens"
+
+msgctxt "gen"
+msgid "a spriggan berserker"
+msgstr "eines Spriggan-Berserkers"
+
+msgctxt "gen"
+msgid "a spriggan air mage"
+msgstr "eines Spriggan-Luftmagiers"
+
+msgctxt "gen"
+msgid "a spriggan defender"
+msgstr "eines Spriggan-Verteidigers"
+
+msgctxt "gen"
+msgid "a drake"
+msgstr "eines Drachlings"
+
+msgctxt "gen"
+msgid "a swamp drake"
+msgstr "eines Sumpfdrachlings"
+
+msgctxt "gen"
+msgid "a rime drake"
+msgstr "eines Reifsdrachlings"
+
+msgctxt "gen"
+msgid "a wind drake"
+msgstr "eines Winddrachlings"
+
+msgctxt "gen"
+msgid "a lindwurm"
+msgstr "eines Lindwurms"
+
+msgctxt "gen"
+msgid "a death drake"
+msgstr "eines Todesdrachens"
+
+msgctxt "gen"
+msgid "a giant lizard"
+msgstr "einer Rieseneidechse"
+
+msgctxt "gen"
+msgid "a frilled lizard"
+msgstr "einer gekräuselten Eidechse"
+
+msgctxt "gen"
+msgid "a leopard gecko"
+msgstr "eines Leopardgeckos"
+
+msgctxt "gen"
+msgid "an iguana"
+msgstr "eines Leguans"
+
+msgctxt "gen"
+msgid "a basilisk"
+msgstr "eines Basilisks"
+
+msgctxt "gen"
+msgid "a wyvern"
+msgstr "eines Wyverns"
+
+msgctxt "gen"
+msgid "a komodo dragon"
+msgstr "eines Komododrachens"
+
+msgctxt "gen"
+msgid "a merfolk"
+msgstr "eines Meervolks"
+
+msgctxt "gen"
+msgid "a merfolk impaler"
+msgstr "eines Meervolk-Impalers"
+
+msgctxt "gen"
+msgid "a merfolk javelineer"
+msgstr "eines Meervolk-Speerführers"
+
+msgctxt "gen"
+msgid "a merfolk aquamancer"
+msgstr "eines Meervolk-Aquamancers"
+
+msgctxt "gen"
+msgid "a merfolk siren"
+msgstr "einer Meervolk-Sirene"
+
+msgctxt "gen"
+msgid "a merfolk avatar"
+msgstr "eines Meervolk-Avatars"
+
+msgctxt "gen"
+msgid "a water nymph"
+msgstr "einer Wassernymphe"
+
+msgctxt "gen"
+msgid "a bog body"
+msgstr "einer Moorleiche"
+
+msgctxt "gen"
+msgid "a necrophage"
+msgstr "eines Nekrophagens"
+
+msgctxt "gen"
+msgid "a ghoul"
+msgstr "eines Ghuls"
+
+msgctxt "gen"
+msgid "an orc"
+msgstr "eines Orks"
+
+msgctxt "gen"
+msgid "an orc wizard"
+msgstr "eines Ork-Zauberers"
+
+msgctxt "gen"
+msgid "an orc priest"
+msgstr "eines Ork-Priesters"
+
+msgctxt "gen"
+msgid "an orc warrior"
+msgstr "eines Ork-Kriegers"
+
+msgctxt "gen"
+msgid "an orc knight"
+msgstr "eines Ork-Ritters"
+
+msgctxt "gen"
+msgid "an orc warlord"
+msgstr "eines Ork-Warlords"
+
+msgctxt "gen"
+msgid "an orc sorcerer"
+msgstr "eines Ork-Hexenmeisters"
+
+msgctxt "gen"
+msgid "an orc high priest"
+msgstr "eines Ork-Hohepriesters"
+
+msgctxt "gen"
+msgid "a lava orc"
+msgstr "eines Lava-Orks"
+
+msgctxt "gen"
+msgid "a human"
+msgstr "eines Menschens"
+
+msgctxt "gen"
+msgid "a slave"
+msgstr "eines Sklavens"
+
+msgctxt "gen"
+msgid "a hell knight"
+msgstr "eines Höllenritters"
+
+msgctxt "gen"
+msgid "a death knight"
+msgstr "eines Todesritters"
+
+msgctxt "gen"
+msgid "a necromancer"
+msgstr "eines Nekromantens"
+
+msgctxt "gen"
+msgid "a wizard"
+msgstr "eines Zauberers"
+
+msgctxt "gen"
+msgid "a vault guard"
+msgstr "eines Tresorwächters"
+
+msgctxt "gen"
+msgid "a vault sentinel"
+msgstr "einer Tresorwache"
+
+msgctxt "gen"
+msgid "a vault warden"
+msgstr "eines Tresorwärters"
+
+msgctxt "gen"
+msgid "an ironbrand convoker"
+msgstr "eines Eisenbrandeinberufers"
+
+msgctxt "gen"
+msgid "an imperial myrmidon"
+msgstr "eines kaiserlichen Myrmidons"
+
+msgctxt "gen"
+msgid "a servant of whispers"
+msgstr "eines Dieners des Flüsterns"
+
+msgctxt "gen"
+msgid "a ragged hierophant"
+msgstr "eines zerlumpten Hierophantens"
+
+msgctxt "gen"
+msgid "an ironheart preserver"
+msgstr "eines Eisenherzbewahrers"
+
+msgctxt "gen"
+msgid "a shapeshifter"
+msgstr "eines Gestaltwandlers"
+
+msgctxt "gen"
+msgid "a glowing shapeshifter"
+msgstr "eines leuchtenden Gestaltwandlers"
+
+msgctxt "gen"
+msgid "a Killer Klown"
+msgstr "eines Killer-Klowns"
+
+msgctxt "gen"
+msgid "a demigod"
+msgstr "eines Halbgotts"
+
+msgctxt "gen"
+msgid "a halfling"
+msgstr "eines Halblings"
+
+msgctxt "gen"
+msgid "a rat"
+msgstr "einer Ratte"
+
+msgctxt "gen"
+msgid "a quokka"
+msgstr "eines Quokkas"
+
+msgctxt "gen"
+msgid "a river rat"
+msgstr "einer Flussratte"
+
+msgctxt "gen"
+msgid "a hell rat"
+msgstr "einer Höllenratte"
+
+msgctxt "gen"
+msgid "a porcupine"
+msgstr "eines Stachelschweins"
+
+msgctxt "gen"
+msgid "a giant cockroach"
+msgstr "einer Riesenkakerlake"
+
+msgctxt "gen"
+msgid "a scorpion"
+msgstr "eines Skorpions"
+
+msgctxt "gen"
+msgid "an emperor scorpion"
+msgstr "eines Kaiserskorpions"
+
+msgctxt "gen"
+msgid "a death scarab"
+msgstr "eines Todesskarabäus"
+
+msgctxt "gen"
+msgid "a spider"
+msgstr "einer Spinne"
+
+msgctxt "gen"
+msgid "a tarantella"
+msgstr "einer Tarantella"
+
+msgctxt "gen"
+msgid "a jumping spider"
+msgstr "einer springenden Spinne"
+
+msgctxt "gen"
+msgid "a wolf spider"
+msgstr "einer Wolfsspinne"
+
+msgctxt "gen"
+msgid "a redback"
+msgstr "einer Rotrückenspinne"
+
+msgctxt "gen"
+msgid "a demonic crawler"
+msgstr "eines dämonischen Kriechers"
+
+msgctxt "gen"
+msgid "an orb spider"
+msgstr "einer Kugelspinne"
+
+msgctxt "gen"
+msgid "a crocodile"
+msgstr "eines Krokodils"
+
+msgctxt "gen"
+msgid "an alligator"
+msgstr "eines Alligators"
+
+msgctxt "gen"
+msgid "a snapping turtle"
+msgstr "einer Schnappschildkröte"
+
+msgctxt "gen"
+msgid "an alligator snapping turtle"
+msgstr "einer Alligatorschnappschildkröte"
+
+msgctxt "gen"
+msgid "a crab"
+msgstr "einer Krabbe"
+
+msgctxt "gen"
+msgid "a fire crab"
+msgstr "einer Feuerkrabbe"
+
+msgctxt "gen"
+msgid "a ghost crab"
+msgstr "einer Geisterkrabbe"
+
+msgctxt "gen"
+msgid "an apocalypse crab"
+msgstr "einer Apokalypse-Krabbe"
+
+msgctxt "gen"
+msgid "an ugly thing"
+msgstr "eines hässlichen Dings"
+
+msgctxt "gen"
+msgid "a very ugly thing"
+msgstr "eines sehr hässlichen Dings"
+
+msgctxt "gen"
+msgid "a fire vortex"
+msgstr "eines Feuerwirbels"
+
+msgctxt "gen"
+msgid "a spatial vortex"
+msgstr "eines räumlichen Wirbels"
+
+msgctxt "gen"
+msgid "a spatial maelstrom"
+msgstr "eines räumlichen Mahlstroms"
+
+msgctxt "gen"
+msgid "an insubstantial wisp"
+msgstr "eines unwesentlichen Irrlichts"
+
+msgctxt "gen"
+msgid "a twister"
+msgstr "eines Twisters"
+
+msgctxt "gen"
+msgid "a worm"
+msgstr "eines Wurms"
+
+msgctxt "gen"
+msgid "a swamp worm"
+msgstr "eines Sumpfwurms"
+
+msgctxt "gen"
+msgid "a tyrant leech"
+msgstr "eines Tyrannblutegels"
+
+msgctxt "gen"
+msgid "a dart slug"
+msgstr "einer Pfeilschnecke"
+
+msgctxt "gen"
+msgid "a torpor snail"
+msgstr "einer Erstarrungsschnecke"
+
+msgctxt "gen"
+msgid "an elephant slug"
+msgstr "einer Elefantenschnecke"
+
+msgctxt "gen"
+msgid "an unseen horror"
+msgstr "eines unsichtbaren Grauens"
+
+msgctxt "gen"
+msgid "a small abomination"
+msgstr "eines kleinen Greuels"
+
+msgctxt "gen"
+msgid "a crawling corpse"
+msgstr "einer kriechenden Leiche"
+
+msgctxt "gen"
+msgid "a macabre mass"
+msgstr "einer makaberen Masse"
+
+msgctxt "gen"
+msgid "an ancient zyme"
+msgstr "eines alten Zymens"
+
+msgctxt "gen"
+msgid "a worldbinder"
+msgstr "eines Weltbinders"
+
+msgctxt "gen"
+msgid "a killer bee"
+msgstr "einer Killerbiene"
+
+msgctxt "gen"
+msgid "a queen bee"
+msgstr "einer Bienenkönigin"
+
+msgctxt "gen"
+msgid "a vampire mosquito"
+msgstr "einer Vampir-Mücke"
+
+msgctxt "gen"
+msgid "a hornet"
+msgstr "einer Hornisse"
+
+msgctxt "gen"
+msgid "a meliai"
+msgstr "einer Meliai"
+
+msgctxt "gen"
+msgid "a spark wasp"
+msgstr "einer Funkenwespe"
+
+msgctxt "gen"
+msgid "a moth"
+msgstr "einer Motte"
+
+msgctxt "gen"
+msgid "a ghost moth"
+msgstr "einer Geistermotte"
+
+msgctxt "gen"
+msgid "a moth of wrath"
+msgstr "einer Motte des Zorns"
+
+msgctxt "gen"
+msgid "a wight"
+msgstr "eines Wights"
+
+msgctxt "gen"
+msgid "a skeletal warrior"
+msgstr "eines Skelettkriegers"
+
+msgctxt "gen"
+msgid "an ancient champion"
+msgstr "eines alten Champions"
+
+msgctxt "gen"
+msgid "a flying skull"
+msgstr "eines fliegenden Schädels"
+
+msgctxt "gen"
+msgid "a curse skull"
+msgstr "eines Fluchschädels"
+
+msgctxt "gen"
+msgid "a curse toe"
+msgstr "eines Fluchzehens"
+
+msgctxt "gen"
+msgid "an angel"
+msgstr "eines Engels"
+
+msgctxt "gen"
+msgid "a cherub"
+msgstr "eines Cherubs"
+
+msgctxt "gen"
+msgid "a seraph"
+msgstr "eines Seraphs"
+
+msgctxt "gen"
+msgid "a daeva"
+msgstr "eines Daevas"
+
+msgctxt "gen"
+msgid "a profane servitor"
+msgstr "eines profanen Dieners"
+
+msgctxt "gen"
+msgid "a giant"
+msgstr "eines Riesens"
+
+msgctxt "gen"
+msgid "a cyclops"
+msgstr "eines Zyklops"
+
+msgctxt "gen"
+msgid "an ettin"
+msgstr "eines Ettins"
+
+msgctxt "gen"
+msgid "a fire giant"
+msgstr "eines Feuerriesens"
+
+msgctxt "gen"
+msgid "a frost giant"
+msgstr "eines Frostriesens"
+
+msgctxt "gen"
+msgid "a stone giant"
+msgstr "eines Steinriesens"
+
+msgctxt "gen"
+msgid "a titan"
+msgstr "eines Titans"
+
+msgctxt "gen"
+msgid "a juggernaut"
+msgstr "eines Juggernauts"
+
+msgctxt "gen"
+msgid "an iron giant"
+msgstr "eines Eisenriesens"
+
+msgctxt "gen"
+msgid "a dragon"
+msgstr "eines Drachens"
+
+msgctxt "gen"
+msgid "a fire dragon"
+msgstr "eines Feuerdrachens"
+
+msgctxt "gen"
+msgid "a hydra"
+msgstr "einer Hydra"
+
+msgctxt "gen"
+msgid "a %d-headed hydra"
+msgstr "einer %d-köpfigen Hydra"
+
+msgctxt "gen"
+msgid "an ice dragon"
+msgstr "eines Eisdrachens"
+
+msgctxt "gen"
+msgid "a steam dragon"
+msgstr "eines Dampfdrachens"
+
+msgctxt "gen"
+msgid "a swamp dragon"
+msgstr "eines Sumpfdrachens"
+
+msgctxt "gen"
+msgid "an acid dragon"
+msgstr "eines Säuredrachens"
+
+msgctxt "gen"
+msgid "a quicksilver dragon"
+msgstr "eines Quecksilberdrachens"
+
+msgctxt "gen"
+msgid "an iron dragon"
+msgstr "eines Eisendrachens"
+
+msgctxt "gen"
+msgid "a storm dragon"
+msgstr "eines Sturmdrachens"
+
+msgctxt "gen"
+msgid "a golden dragon"
+msgstr "eines Golddrachens"
+
+msgctxt "gen"
+msgid "a shadow dragon"
+msgstr "eines Schattendrachens"
+
+msgctxt "gen"
+msgid "a bone dragon"
+msgstr "eines Knochendrachens"
+
+msgctxt "gen"
+msgid "a pearl dragon"
+msgstr "eines Perlendrachens"
+
+msgctxt "gen"
+msgid "an elemental"
+msgstr "eines Elementars"
+
+msgctxt "gen"
+msgid "an earth elemental"
+msgstr "eines Erdelementars"
+
+msgctxt "gen"
+msgid "a fire elemental"
+msgstr "eines Feuerelementars"
+
+msgctxt "gen"
+msgid "a water elemental"
+msgstr "eines Wasserelementars"
+
+msgctxt "gen"
+msgid "an air elemental"
+msgstr "eines Luftelementars"
+
+msgctxt "gen"
+msgid "an iron elemental"
+msgstr "eines Eisenelementars"
+
+msgctxt "gen"
+msgid "an elemental wellspring"
+msgstr "einer elementaren Quelle"
+
+msgctxt "gen"
+msgid "a giant frog"
+msgstr "eines Riesenfroschs"
+
+msgctxt "gen"
+msgid "a bullfrog"
+msgstr "eines Ochsenfroschs"
+
+msgctxt "gen"
+msgid "a spiny frog"
+msgstr "eines Stachelfroschs"
+
+msgctxt "gen"
+msgid "a blink frog"
+msgstr "eines Blinzelfroschs"
+
+msgctxt "gen"
+msgid "a barachi"
+msgstr "einer Barachi"
+
+msgctxt "gen"
+msgid "a floating eye"
+msgstr "eines schwebenden Auges"
+
+msgctxt "gen"
+msgid "an eye of draining"
+msgstr "eines Auges des Schwächens"
+
+msgctxt "gen"
+msgid "a glowing orange brain"
+msgstr "eines orangen leuchtenden Gehirns"
+
+msgctxt "gen"
+msgid "a great orb of eyes"
+msgstr "eines großen Augenkugels"
+
+msgctxt "gen"
+msgid "a shining eye"
+msgstr "eines leuchtenden Auges"
+
+msgctxt "gen"
+msgid "an eye of devastation"
+msgstr "eines Auge der Verwüstungs"
+
+msgctxt "gen"
+msgid "a golden eye"
+msgstr "eines goldenen Auges"
+
+msgctxt "gen"
+msgid "an ophan"
+msgstr "eines Ophans"
+
+msgctxt "gen"
+msgid "a hippogriff"
+msgstr "eines Hippogriffs"
+
+msgctxt "gen"
+msgid "a manticore"
+msgstr "eines Mantikors"
+
+msgctxt "gen"
+msgid "a minotaur"
+msgstr "eines Minotaurus"
+
+msgctxt "gen"
+msgid "a sphinx"
+msgstr "einer Sphinx"
+
+msgctxt "gen"
+msgid "a harpy"
+msgstr "einer Harpyie"
+
+msgctxt "gen"
+msgid "a mutant beast"
+msgstr "einer mutierten Bestie"
+
+msgctxt "gen"
+msgid "an ancestor"
+msgstr "eines Ahnens"
+
+msgctxt "gen"
+msgid "a knight"
+msgstr "eines Ritters"
+
+msgctxt "gen"
+msgid "a battlemage"
+msgstr "eines Kampfmagiers"
+
+msgctxt "gen"
+msgid "a hexer"
+msgstr "eines Hexers"
+
+msgctxt "gen"
+msgid "an ooze"
+msgstr "eines Schlamms"
+
+msgctxt "gen"
+msgid "a jelly"
+msgstr "eines Gelees"
+
+msgctxt "gen"
+msgid "a slime creature"
+msgstr "eines Schleimwesens"
+
+msgctxt "gen"
+msgid "a merged slime creature"
+msgstr "einer verschmolzenen Schleimkreatur"
+
+msgctxt "gen"
+msgid "an azure jelly"
+msgstr "eines azurblauen Gelees"
+
+msgctxt "gen"
+msgid "a death ooze"
+msgstr "eines Todesschlamms"
+
+msgctxt "gen"
+msgid "an acid blob"
+msgstr "eines Säureklumpens"
+
+msgctxt "gen"
+msgid "a kobold"
+msgstr "eines Kobolds"
+
+msgctxt "gen"
+msgid "a big kobold"
+msgstr "eines großen Kobolds"
+
+msgctxt "gen"
+msgid "a kobold demonologist"
+msgstr "eines Kobold-Dämonologens"
+
+msgctxt "gen"
+msgid "a lich"
+msgstr "eines Lichs"
+
+msgctxt "gen"
+msgid "an ancient lich"
+msgstr "eines alten Lichs"
+
+msgctxt "gen"
+msgid "a revenant"
+msgstr "eines Wiedergängers"
+
+msgctxt "gen"
+msgid "a halazid warlock"
+msgstr "eines halazidischen Hexenmeisters"
+
+msgctxt "gen"
+msgid "a mummy"
+msgstr "einer Mumie"
+
+msgctxt "gen"
+msgid "a guardian mummy"
+msgstr "einer Wächtermumie"
+
+msgctxt "gen"
+msgid "a greater mummy"
+msgstr "einer größeren Mumie"
+
+msgctxt "gen"
+msgid "a mummy priest"
+msgstr "eines Mumie-Priesters"
+
+msgctxt "gen"
+msgid "a naga"
+msgstr "eines Nagas"
+
+msgctxt "gen"
+msgid "a naga mage"
+msgstr "eines Naga-Magiers"
+
+msgctxt "gen"
+msgid "a naga sharpshooter"
+msgstr "eines Naga-Scharfschützens"
+
+msgctxt "gen"
+msgid "a naga ritualist"
+msgstr "eines Naga-Ritualistens"
+
+msgctxt "gen"
+msgid "a naga warrior"
+msgstr "eines Naga-Kriegers"
+
+msgctxt "gen"
+msgid "a nagaraja"
+msgstr "eines Nagarajas"
+
+msgctxt "gen"
+msgid "an ogre"
+msgstr "eines Ogers"
+
+msgctxt "gen"
+msgid "a two-headed ogre"
+msgstr "eines zweiköpfigen Ogers"
+
+msgctxt "gen"
+msgid "an ogre mage"
+msgstr "eines Oger-Magiers"
+
+msgctxt "gen"
+msgid "a plant"
+msgstr "einer Pflanze"
+
+msgctxt "gen"
+msgid "a demonic plant"
+msgstr "einer dämonischen Pflanze"
+
+msgctxt "gen"
+msgid "a withered plant"
+msgstr "einer verwelkten Pflanze"
+
+msgctxt "gen"
+msgid "an oklob sapling"
+msgstr "eines Oklob-Setzlings"
+
+msgctxt "gen"
+msgid "an oklob plant"
+msgstr "einer Oklob-Pflanze"
+
+msgctxt "gen"
+msgid "a bush"
+msgstr "eines Buschs"
+
+msgctxt "gen"
+msgid "a burning bush"
+msgstr "eines brennenden Buschs"
+
+msgctxt "gen"
+msgid "a toadstool"
+msgstr "eines Giftpilzs"
+
+msgctxt "gen"
+msgid "a fungus"
+msgstr "eines Pilzs"
+
+msgctxt "gen"
+msgid "a ballistomycete"
+msgstr "eines Ballistomycetens"
+
+msgctxt "gen"
+msgid "a hyperactive ballistomycete"
+msgstr "eines hyperaktiven Ballistomycetens"
+
+msgctxt "gen"
+msgid "a briar patch"
+msgstr "eines Dornstrauchs"
+
+msgctxt "gen"
+msgid "a tengu"
+msgstr "eines Tengus"
+
+msgctxt "gen"
+msgid "a tengu conjurer"
+msgstr "eines Tengu-Zauberers"
+
+msgctxt "gen"
+msgid "a tengu warrior"
+msgstr "eines Tengu-Kriegers"
+
+msgctxt "gen"
+msgid "a tengu reaver"
+msgstr "eines Tengu-Häschers"
+
+msgctxt "gen"
+msgid "an efreet"
+msgstr "eines Efreets"
+
+msgctxt "gen"
+msgid "a rakshasa"
+msgstr "eines Rakshasas"
+
+msgctxt "gen"
+msgid "a dryad"
+msgstr "einer Dryade"
+
+msgctxt "gen"
+msgid "a snaplasher vine"
+msgstr "einer Peitscherrebe"
+
+msgctxt "gen"
+msgid "a snaplasher vine segment"
+msgstr "eines Peitscherrebesegments"
+
+msgctxt "gen"
+msgid "a snake"
+msgstr "einer Schlange"
+
+msgctxt "gen"
+msgid "a ball python"
+msgstr "einer Kugelpython"
+
+msgctxt "gen"
+msgid "an adder"
+msgstr "einer Kreuzotter"
+
+msgctxt "gen"
+msgid "a water moccasin"
+msgstr "eines Wassermokassins"
+
+msgctxt "gen"
+msgid "a black mamba"
+msgstr "einer schwarzen Mamba"
+
+msgctxt "gen"
+msgid "a sea snake"
+msgstr "einer Seeschlange"
+
+msgctxt "gen"
+msgid "an anaconda"
+msgstr "einer Anakonda"
+
+msgctxt "gen"
+msgid "a guardian serpent"
+msgstr "einer Wächter-Schlange"
+
+msgctxt "gen"
+msgid "a shock serpent"
+msgstr "einer Schockschlange"
+
+msgctxt "gen"
+msgid "a mana viper"
+msgstr "einer Manaviper"
+
+msgctxt "gen"
+msgid "a troll"
+msgstr "eines Trolls"
+
+msgctxt "gen"
+msgid "an iron troll"
+msgstr "eines Eisentrolls"
+
+msgctxt "gen"
+msgid "a deep troll"
+msgstr "eines Tiefentrolls"
+
+msgctxt "gen"
+msgid "a deep troll earth mage"
+msgstr "eines Tiefentroll-Erdmagiers"
+
+msgctxt "gen"
+msgid "a deep troll shaman"
+msgstr "eines Tiefentroll-Schamanens"
+
+msgctxt "gen"
+msgid "a vampire"
+msgstr "eines Vampirs"
+
+msgctxt "gen"
+msgid "a vampire knight"
+msgstr "eines Vampir-Ritters"
+
+msgctxt "gen"
+msgid "a vampire mage"
+msgstr "eines Vampir-Magiers"
+
+msgctxt "gen"
+msgid "a jiangshi"
+msgstr "eines Jiangshis"
+
+msgctxt "gen"
+msgid "a ghost"
+msgstr "eines Gespensts"
+
+msgctxt "gen"
+msgid "a phantom"
+msgstr "eines Phantoms"
+
+msgctxt "gen"
+msgid "a hungry ghost"
+msgstr "eines hungrigen Geistens"
+
+msgctxt "gen"
+msgid "a flayed ghost"
+msgstr "eines enthäuteten Geistens"
+
+msgctxt "gen"
+msgid "a player ghost"
+msgstr "eines Spielergeistens"
+
+msgctxt "gen"
+msgid "a shadow"
+msgstr "eines Schattens"
+
+msgctxt "gen"
+msgid "a silent spectre"
+msgstr "eines stillen Gespensts"
+
+msgctxt "gen"
+msgid "a drowned soul"
+msgstr "einer ertrunkenen Seele"
+
+msgctxt "gen"
+msgid "a wraith"
+msgstr "eines Geistens"
+
+msgctxt "gen"
+msgid "a shadow wraith"
+msgstr "eines Schattengeistens"
+
+msgctxt "gen"
+msgid "a freezing wraith"
+msgstr "eines Frostgeistens"
+
+msgctxt "gen"
+msgid "an eidolon"
+msgstr "eines Eidolons"
+
+msgctxt "gen"
+msgid "a phantasmal warrior"
+msgstr "eines phantastischen Kriegers"
+
+msgctxt "gen"
+msgid "a large abomination"
+msgstr "eines großen Greuels"
+
+msgctxt "gen"
+msgid "a thrashing horror"
+msgstr "eines verprügelnden Grauens"
+
+msgctxt "gen"
+msgid "a tentacled monstrosity"
+msgstr "einer Tentakel-Monstrosität"
+
+msgctxt "gen"
+msgid "an Orb Guardian"
+msgstr "eines Kugelwächters"
+
+msgctxt "gen"
+msgid "a tentacled starspawn"
+msgstr "eines Tentakelsternbruts"
+
+msgctxt "gen"
+msgid "a starspawn tentacle"
+msgstr "eines Sternbruttentakels"
+
+msgctxt "gen"
+msgid "a starspawn tentacle segment"
+msgstr "eines Sternbruttentakelsegments"
+
+msgctxt "gen"
+msgid "a starcursed mass"
+msgstr "einer sternverfluchten Masse"
+
+msgctxt "gen"
+msgid "a dream sheep"
+msgstr "eines Traumschafs"
+
+msgctxt "gen"
+msgid "a yak"
+msgstr "eines Yaks"
+
+msgctxt "gen"
+msgid "a death yak"
+msgstr "eines Todesyaks"
+
+msgctxt "gen"
+msgid "a catoblepas"
+msgstr "einer Catoblepas"
+
+msgctxt "gen"
+msgid "an elephant"
+msgstr "eines Elefantens"
+
+msgctxt "gen"
+msgid "a dire elephant"
+msgstr "eines Schreckenselefantens"
+
+msgctxt "gen"
+msgid "a hellephant"
+msgstr "eines Höllefantens"
+
+msgctxt "gen"
+msgid "an apis"
+msgstr "einer Apis"
+
+msgctxt "gen"
+msgid "an ice beast"
+msgstr "einer Eisbestie"
+
+msgctxt "gen"
+msgid "a sky beast"
+msgstr "eines Himmelstiers"
+
+msgctxt "gen"
+msgid "a zombie"
+msgstr "eines Zombies"
+
+msgctxt "gen"
+msgid "a skeleton"
+msgstr "eines Skeletts"
+
+msgctxt "gen"
+msgid "a simulacrum"
+msgstr "eines Simulacrums"
+
+msgctxt "gen"
+msgid "a small zombie"
+msgstr "eines kleinen Zombies"
+
+msgctxt "gen"
+msgid "a small skeleton"
+msgstr "eines kleinen Skeletts"
+
+msgctxt "gen"
+msgid "a small simulacrum"
+msgstr "eines kleinen Simulacrums"
+
+msgctxt "gen"
+msgid "a large zombie"
+msgstr "eines großen Zombies"
+
+msgctxt "gen"
+msgid "a large skeleton"
+msgstr "eines großen Skeletts"
+
+msgctxt "gen"
+msgid "a large simulacrum"
+msgstr "eines großen Simulacrums"
+
+msgctxt "gen"
+msgid "a spectral thing"
+msgstr "einer spektralen Sache"
+
+msgctxt "gen"
+msgid "an electric eel"
+msgstr "eines Zitteraals"
+
+msgctxt "gen"
+msgid "a kraken"
+msgstr "eines Krakens"
+
+msgctxt "gen"
+msgid "a tentacle"
+msgstr "eines Tentakels"
+
+msgctxt "gen"
+msgid "a tentacle segment"
+msgstr "eines Tentakelsegments"
+
+msgctxt "gen"
+msgid "an octopode"
+msgstr "eines Oktopods"
+
+msgctxt "gen"
+msgid "a lava snake"
+msgstr "einer Lavaschlange"
+
+msgctxt "gen"
+msgid "a salamander"
+msgstr "eines Salamanders"
+
+msgctxt "gen"
+msgid "a salamander mystic"
+msgstr "eines Salamander-Mystikers"
+
+msgctxt "gen"
+msgid "a Hellbinder"
+msgstr "eines Höllenbinders"
+
+msgctxt "gen"
+msgid "a Cloud Mage"
+msgstr "eines Wolkenmagiers"
+
+msgctxt "gen"
+msgid "a player"
+msgstr "eines Spielers"
+
+msgctxt "gen"
+msgid "a player illusion"
+msgstr "einer Spieler-Illusion"
+
+msgctxt "gen"
+msgid "a dancing weapon"
+msgstr "einer tanzenden Waffe"
+
+msgctxt "gen"
+msgid "a spectral weapon"
+msgstr "einer Spektralwaffe"
+
+msgctxt "gen"
+msgid "an eldritch tentacle"
+msgstr "eines unheimlichen Tentakels"
+
+msgctxt "gen"
+msgid "an eldritch tentacle segment"
+msgstr "eines unheimlichen Tentakelsegments"
+
+msgctxt "gen"
+msgid "a demonspawn"
+msgstr "einer Dämonenbrut"
+
+msgctxt "gen"
+msgid "a monstrous demonspawn"
+msgstr "einer monströsen Dämonenbrut"
+
+msgctxt "gen"
+msgid "a gelid demonspawn"
+msgstr "eines geliden Dämonenbruts"
+
+msgctxt "gen"
+msgid "an infernal demonspawn"
+msgstr "einer höllischen Dämonenbrut"
+
+msgctxt "gen"
+msgid "a torturous demonspawn"
+msgstr "einer quälenden Dämonenbrut"
+
+msgctxt "gen"
+msgid "a blood saint"
+msgstr "eines Blutheiligens"
+
+msgctxt "gen"
+msgid "a warmonger"
+msgstr "eines Kriegstreibers"
+
+msgctxt "gen"
+msgid "a corrupter"
+msgstr "eines Korruptors"
+
+msgctxt "gen"
+msgid "a black sun"
+msgstr "einer schwarzen Sonne"
+
+msgctxt "gen"
+msgid "a crimson imp"
+msgstr "eines karminroten Teufelchens"
+
+msgctxt "gen"
+msgid "a quasit"
+msgstr "eines Quasits"
+
+msgctxt "gen"
+msgid "a white imp"
+msgstr "eines weißen Teufelchens"
+
+msgctxt "gen"
+msgid "an ufetubus"
+msgstr "eines Ufetubus"
+
+msgctxt "gen"
+msgid "an iron imp"
+msgstr "eines Eisenteufelchens"
+
+msgctxt "gen"
+msgid "a shadow imp"
+msgstr "eines Schattenteufelchens"
+
+msgctxt "gen"
+msgid "a rust devil"
+msgstr "eines Rostteufels"
+
+msgctxt "gen"
+msgid "an orange demon"
+msgstr "eines orangen Dämons"
+
+msgctxt "gen"
+msgid "a red devil"
+msgstr "eines roten Teufels"
+
+msgctxt "gen"
+msgid "a hellwing"
+msgstr "eines Höllenflügels"
+
+msgctxt "gen"
+msgid "an ice devil"
+msgstr "eines Eisteufels"
+
+msgctxt "gen"
+msgid "a chaos spawn"
+msgstr "einer Chaosbrut"
+
+msgctxt "gen"
+msgid "a sun demon"
+msgstr "eines Sonnendämons"
+
+msgctxt "gen"
+msgid "a soul eater"
+msgstr "eines Seelenfressers"
+
+msgctxt "gen"
+msgid "a smoke demon"
+msgstr "eines Rauchdämons"
+
+msgctxt "gen"
+msgid "a neqoxec"
+msgstr "einer Neqoxec"
+
+msgctxt "gen"
+msgid "a ynoxinul"
+msgstr "eines Ynoxinuls"
+
+msgctxt "gen"
+msgid "a sixfirhy"
+msgstr "eines Sixfirhys"
+
+msgctxt "gen"
+msgid "a shadow demon"
+msgstr "eines Schattendämons"
+
+msgctxt "gen"
+msgid "a green death"
+msgstr "eines grünen Tods"
+
+msgctxt "gen"
+msgid "a blizzard demon"
+msgstr "eines Blizzarddämons"
+
+msgctxt "gen"
+msgid "a balrug"
+msgstr "eines Balrugs"
+
+msgctxt "gen"
+msgid "a cacodemon"
+msgstr "eines Cacodaemons"
+
+msgctxt "gen"
+msgid "a hell beast"
+msgstr "eines Höllentiers"
+
+msgctxt "gen"
+msgid "a hellion"
+msgstr "eines Teufelsbratens"
+
+msgctxt "gen"
+msgid "a reaper"
+msgstr "eines Schnitters"
+
+msgctxt "gen"
+msgid "a lorocyproca"
+msgstr "einer Lorocyproca"
+
+msgctxt "gen"
+msgid "a tormentor"
+msgstr "eines Peinigers"
+
+msgctxt "gen"
+msgid "a Brimstone Fiend"
+msgstr "eines Schwefelunterweltlers"
+
+msgctxt "gen"
+msgid "an Ice Fiend"
+msgstr "eines Eisunterweltlers"
+
+msgctxt "gen"
+msgid "a Tzitzimitl"
+msgstr "eines Tzitzimitls"
+
+msgctxt "gen"
+msgid "a Hell Sentinel"
+msgstr "eines Höllenwächters"
+
+msgctxt "gen"
+msgid "an Executioner"
+msgstr "eines Scharfrichters"
+
+msgctxt "gen"
+msgid "an animated tree"
+msgstr "eines animierten Baums"
+
+msgctxt "gen"
+msgid "a golem"
+msgstr "eines Golems"
+
+msgctxt "gen"
+msgid "a saltling"
+msgstr "eines Salzlings"
+
+msgctxt "gen"
+msgid "a peacekeeper"
+msgstr "eines Friedenshüters"
+
+msgctxt "gen"
+msgid "an iron golem"
+msgstr "eines Eisengolems"
+
+msgctxt "gen"
+msgid "a crystal guardian"
+msgstr "eines Kristallwächters"
+
+msgctxt "gen"
+msgid "a toenail golem"
+msgstr "eines Zehennagelgolems"
+
+msgctxt "gen"
+msgid "an electric golem"
+msgstr "eines Blitzgolems"
+
+msgctxt "gen"
+msgid "an ushabti"
+msgstr "einer Uschabti"
+
+msgctxt "gen"
+msgid "a guardian golem"
+msgstr "eines Wächtergolems"
+
+msgctxt "gen"
+msgid "a spellforged servitor"
+msgstr "eines zaubergeschmeideten Dieners"
+
+msgctxt "gen"
+msgid "an ice statue"
+msgstr "einer Eisstatue"
+
+msgctxt "gen"
+msgid "an obsidian statue"
+msgstr "einer Obsidianstatue"
+
+msgctxt "gen"
+msgid "an orange crystal statue"
+msgstr "einer orangen Kristallstatue"
+
+msgctxt "gen"
+msgid "a statue"
+msgstr "einer Statue"
+
+msgctxt "gen"
+msgid "a training dummy"
+msgstr "einer Trainingspuppe"
+
+msgctxt "gen"
+msgid "a pillar of salt"
+msgstr "einer Säule des Salzes"
+
+msgctxt "gen"
+msgid "a block of ice"
+msgstr "eines Eisblocks"
+
+msgctxt "gen"
+msgid "a diamond obelisk"
+msgstr "eines Diamantobelisks"
+
+msgctxt "gen"
+msgid "a lightning spire"
+msgstr "eines Blitzturms"
+
+msgctxt "gen"
+msgid "a gargoyle"
+msgstr "eines Gargoyles"
+
+msgctxt "gen"
+msgid "a war gargoyle"
+msgstr "eines Kriegsgargoyles"
+
+msgctxt "gen"
+msgid "a molten gargoyle"
+msgstr "eines geschmolzenen Gargoyles"
+
+msgctxt "gen"
+msgid "a pandemonium lord"
+msgstr "eines Pandemoniumsherrns"
+
+msgctxt "gen"
+msgid "a hell lord"
+msgstr "eines Höllenherrns"
+
+msgctxt "gen"
+msgid "a ball lightning"
+msgstr "eines Kugelblitzs"
+
+msgctxt "gen"
+msgid "a ballistomycete spore"
+msgstr "einer Ballistomycetenspore"
+
+msgctxt "gen"
+msgid "a lost soul"
+msgstr "einer verlorenen Seele"
+
+msgctxt "gen"
+msgid "a lurking horror"
+msgstr "eines lauernden Grauens"
+
+msgctxt "gen"
+msgid "an orb of fire"
+msgstr "einer Feuerkugel"
+
+msgctxt "gen"
+msgid "an orb of destruction"
+msgstr "einer Kugel der Zerstörung"
+
+msgctxt "gen"
+msgid "a fulminant prism"
+msgstr "eines fulminanten Prismas"
+
+msgctxt "gen"
+msgid "a wretched star"
+msgstr "eines elenden Sterns"
+
+msgctxt "gen"
+msgid "a battlesphere"
+msgstr "einer Kampfsphäre"
+
+msgctxt "gen"
+msgid "a death cob"
+msgstr "eines Todeskolbens"
+
+msgctxt "gen"
+msgid "a moon troll"
+msgstr "eines Mondtrolls"
+
+msgctxt "gen"
+msgid "a foxfire"
+msgstr "eines Fuchsfeuers"
+
+msgctxt "gen"
+msgid "a nameless horror"
+msgstr "eines namenlosen Horrors"
+
+msgctxt "gen"
+msgid "a sensed monster"
+msgstr "eines gespürten Monsters"
+
+msgctxt "gen"
+msgid "a friendly sensed monster"
+msgstr "eines freundlichen gespürten Monsters"
+
+msgctxt "gen"
+msgid "a trivial sensed monster"
+msgstr "eines trivialen gespürten Monsters"
+
+msgctxt "gen"
+msgid "an easy sensed monster"
+msgstr "eines leichten gespürten Monsters"
+
+msgctxt "gen"
+msgid "a tough sensed monster"
+msgstr "eines harten gespürten Monsters"
+
+msgctxt "gen"
+msgid "a nasty sensed monster"
+msgstr "eines furchtbaren gespürten Monsters"
