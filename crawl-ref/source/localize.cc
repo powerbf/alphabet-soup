@@ -337,6 +337,15 @@ LocalizationArg::LocalizationArg(const string& value, const string& plural_val, 
     count = num;
 }
 
+LocalizationArg::LocalizationArg(const char* value)
+{
+    init();
+    if (value != nullptr)
+    {
+        stringVal = value;
+    }
+}
+
 LocalizationArg::LocalizationArg(const int value)
 {
     init();
@@ -512,16 +521,6 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
 
 }
 
-// convenience function using va_args (yuk!)
-string localize(const string& fmt_str, ...)
-{
-    va_list args;
-    va_start(args, fmt_str);
-    string text = localize(fmt_str, args);
-    va_end(args);
-    return text;
-}
-
 string localize(const string& fmt_str, va_list argp, const bool capitalize)
 {
     va_list args;
@@ -600,37 +599,37 @@ string localize(const string& fmt_str, va_list argp, const bool capitalize)
     return localize(niceArgs, capitalize);
 }
 
-string localize(const LocalizationArg& arg, const bool capitalize)
+string localize(const LocalizationArg& arg)
 {
     vector<LocalizationArg> args;
     args.push_back(arg);
-    return localize(args, capitalize);
+    return localize(args);
 }
 
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const bool capitalize)
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2)
 {
     vector<LocalizationArg> args;
     args.push_back(arg1);
     args.push_back(arg2);
-    return localize(args, capitalize);
+    return localize(args);
 }
 
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const bool capitalize)
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3)
 {
     vector<LocalizationArg> args;
     args.push_back(arg1);
     args.push_back(arg2);
     args.push_back(arg3);
-    return localize(args, capitalize);
+    return localize(args);
 }
 
 string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
-                const LocalizationArg& arg4, const bool capitalize)
+                const LocalizationArg& arg4)
 {
     vector<LocalizationArg> args;
     args.push_back(arg1);
     args.push_back(arg2);
     args.push_back(arg3);
     args.push_back(arg4);
-    return localize(args, capitalize);
+    return localize(args);
 }
