@@ -33,6 +33,7 @@ public:
 
     LocalizationArg();
     LocalizationArg(const string& value);
+    LocalizationArg(const char* value);
     LocalizationArg(const string& value, const string& plural_val, const int count);
     LocalizationArg(const int value);
     LocalizationArg(const long value);
@@ -61,16 +62,14 @@ const string& get_localization_language();
  */
 string localize(const vector<LocalizationArg>& args, const bool capitalize = false);
 
-// convenience function using va_args (yuk!)
-string localize(const string& fmt_str, ...);
+// localize using va_list (yuk!)
 string localize(const string& fmt_str, va_list args, const bool capitalize = false);
 
-// more convenience functions
-string localize(const LocalizationArg& arg, const bool capitalize = false);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const bool capitalize = false);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
-                const bool capitalize = false);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
-                const LocalizationArg& arg4, const bool capitalize = false);
+// convenience functions
+// TODO: Rewrite using variadic template
+string localize(const LocalizationArg& arg);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const LocalizationArg& arg4);
 
 
