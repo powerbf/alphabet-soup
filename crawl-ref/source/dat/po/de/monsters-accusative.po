@@ -1209,10 +1209,6 @@ msgctxt "akk"
 msgid  "the nameless horror"
 msgstr "den namenlosen Horror"
 
-msgctxt "akk"
-msgid  "the foxfire"
-msgstr "das Fuchsfeuer"
-
 ################################
 # indefinite
 ################################
@@ -3218,4 +3214,2348 @@ msgid "a nameless horror"
 msgid_plural "%d nameless horrors"
 msgstr[0] "einen namenlosen Horror"
 msgstr[1] "%d namenlose Horror"
+
+################################
+# allies
+################################
+
+msgctxt "akk"
+msgid  "your program bug"
+msgstr "deinen Programmfehler"
+
+msgctxt "akk"
+msgid  "your formicid"
+msgstr "deinen Formicid"
+
+msgctxt "akk"
+msgid  "your entropy weaver"
+msgstr "deinen Entropieweber"
+
+msgctxt "akk"
+msgid  "your butterfly"
+msgstr "deinen Schmetterling"
+
+msgctxt "akk"
+msgid  "your caustic shrike"
+msgstr "deinen ätzenden Würger"
+
+msgctxt "akk"
+msgid  "your shard shrike"
+msgstr "deinen Scherbenwürger"
+
+msgctxt "akk"
+msgid  "your centaur"
+msgstr "deinen Zentaur"
+
+msgctxt "akk"
+msgid  "your centaur warrior"
+msgstr "deinen Zentaur-Krieger"
+
+msgctxt "akk"
+msgid  "your yaktaur"
+msgstr "deinen Yaktaur"
+
+msgctxt "akk"
+msgid  "your yaktaur captain"
+msgstr "deinen Yaktaur-Kapitän"
+
+msgctxt "akk"
+msgid  "your faun"
+msgstr "deinen Faun"
+
+msgctxt "akk"
+msgid  "your satyr"
+msgstr "deinen Satyr"
+
+msgctxt "akk"
+msgid  "your draconian"
+msgstr "deinen Drakonier"
+
+msgctxt "akk"
+msgid  "your black draconian"
+msgstr "deinen schwarzen Drakonier"
+
+msgctxt "akk"
+msgid  "your yellow draconian"
+msgstr "deinen gelben Drakonier"
+
+msgctxt "akk"
+msgid  "your pale draconian"
+msgstr "deinen blassen Drakonier"
+
+msgctxt "akk"
+msgid  "your green draconian"
+msgstr "deinen grünen Drakonier"
+
+msgctxt "akk"
+msgid  "your purple draconian"
+msgstr "deinen purpurnen Drakonier"
+
+msgctxt "akk"
+msgid  "your red draconian"
+msgstr "deinen roten Drakonier"
+
+msgctxt "akk"
+msgid  "your white draconian"
+msgstr "deinen weißen Drakonier"
+
+msgctxt "akk"
+msgid  "your grey draconian"
+msgstr "deinen grauen Drakonier"
+
+msgctxt "akk"
+msgid  "your draconian stormcaller"
+msgstr "deinen Drakonier-Sturmrufer"
+
+msgctxt "akk"
+msgid  "your draconian monk"
+msgstr "deinen Drakonier-Mönch"
+
+msgctxt "akk"
+msgid  "your draconian shifter"
+msgstr "deinen Drakonier-Verschieber"
+
+msgctxt "akk"
+msgid  "your draconian annihilator"
+msgstr "deinen Drakonier-Vernichter"
+
+msgctxt "akk"
+msgid  "your draconian knight"
+msgstr "deinen Drakonier-Ritter"
+
+msgctxt "akk"
+msgid  "your draconian scorcher"
+msgstr "deinen Drakonier-Verschmorer"
+
+msgctxt "akk"
+msgid  "your elf"
+msgstr "deinen Elf"
+
+msgctxt "akk"
+msgid  "your deep elf knight"
+msgstr "deinen Tiefenelf-Ritter"
+
+msgctxt "akk"
+msgid  "your deep elf archer"
+msgstr "deinen Tiefenelf-Bogenschützen"
+
+msgctxt "akk"
+msgid  "your deep elf blademaster"
+msgstr "deinen Tiefenelf-Klingenmeister"
+
+msgctxt "akk"
+msgid  "your deep elf master archer"
+msgstr "deinen Tiefenelf-Bogenmeister"
+
+msgctxt "akk"
+msgid  "your deep elf mage"
+msgstr "deinen Tiefenelf-Magier"
+
+msgctxt "akk"
+msgid  "your deep elf high priest"
+msgstr "deinen Tiefenelf-Hohepriester"
+
+msgctxt "akk"
+msgid  "your deep elf demonologist"
+msgstr "deinen Tiefenelf-Dämonologen"
+
+msgctxt "akk"
+msgid  "your deep elf annihilator"
+msgstr "deinen Tiefenelf-Vernichter"
+
+msgctxt "akk"
+msgid  "your deep elf sorcerer"
+msgstr "deinen Tiefenelf-Zauberer"
+
+msgctxt "akk"
+msgid  "your deep elf death mage"
+msgstr "deinen Tiefenelf-Todesmagier"
+
+msgctxt "akk"
+msgid  "your deep elf elementalist"
+msgstr "deinen Tiefenelf-Elementalisten"
+
+msgctxt "akk"
+msgid  "your wandering mushroom"
+msgstr "deinen wandernden Pilz"
+
+msgctxt "akk"
+msgid  "your thorn hunter"
+msgstr "deinen Dornenjäger"
+
+msgctxt "akk"
+msgid  "your vine stalker"
+msgstr "deinen Rebjäger"
+
+msgctxt "akk"
+msgid  "your goblin"
+msgstr "deinen Goblin"
+
+msgctxt "akk"
+msgid  "your hobgoblin"
+msgstr "deinen Hobgoblin"
+
+msgctxt "akk"
+msgid  "your gnoll"
+msgstr "deinen Gnoll"
+
+msgctxt "akk"
+msgid  "your gnoll shaman"
+msgstr "deinen Gnoll-Schamanen"
+
+msgctxt "akk"
+msgid  "your gnoll sergeant"
+msgstr "deinen Gnoll-Wachtmeister"
+
+msgctxt "akk"
+msgid  "your boggart"
+msgstr "deinen Boggart"
+
+msgctxt "akk"
+msgid  "your dwarf"
+msgstr "deinen Zwerg"
+
+msgctxt "akk"
+msgid  "your deep dwarf"
+msgstr "deinen Tiefenzwerg"
+
+msgctxt "akk"
+msgid  "your jackal"
+msgstr "deinen Schakal"
+
+msgctxt "akk"
+msgid  "your hound"
+msgstr "deinen Hund"
+
+msgctxt "akk"
+msgid  "your howler monkey"
+msgstr "deinen Brüllaffen"
+
+msgctxt "akk"
+msgid  "your warg"
+msgstr "deinen Warg"
+
+msgctxt "akk"
+msgid  "your wolf"
+msgstr "deinen Wolf"
+
+msgctxt "akk"
+msgid  "your hell hound"
+msgstr "deinen Höllenhund"
+
+msgctxt "akk"
+msgid  "your doom hound"
+msgstr "deinen Untergangshund"
+
+msgctxt "akk"
+msgid  "your raiju"
+msgstr "deinen Raiju"
+
+msgctxt "akk"
+msgid  "your bear"
+msgstr "deinen Bären"
+
+msgctxt "akk"
+msgid  "your polar bear"
+msgstr "deinen Eisbären"
+
+msgctxt "akk"
+msgid  "your black bear"
+msgstr "deinen Schwarzbären"
+
+msgctxt "akk"
+msgid  "your spriggan"
+msgstr "deinen Spriggan"
+
+msgctxt "akk"
+msgid  "your spriggan rider"
+msgstr "deinen Spriggan-Reiter"
+
+msgctxt "akk"
+msgid  "your spriggan druid"
+msgstr "deinen Spriggan-Druiden"
+
+msgctxt "akk"
+msgid  "your spriggan berserker"
+msgstr "deinen Spriggan-Berserker"
+
+msgctxt "akk"
+msgid  "your spriggan air mage"
+msgstr "deinen Spriggan-Luftmagier"
+
+msgctxt "akk"
+msgid  "your spriggan defender"
+msgstr "deinen Spriggan-Verteidiger"
+
+msgctxt "akk"
+msgid  "your drake"
+msgstr "deinen Drachling"
+
+msgctxt "akk"
+msgid  "your swamp drake"
+msgstr "deinen Sumpfdrachling"
+
+msgctxt "akk"
+msgid  "your rime drake"
+msgstr "deinen Reifsdrachling"
+
+msgctxt "akk"
+msgid  "your wind drake"
+msgstr "deinen Winddrachling"
+
+msgctxt "akk"
+msgid  "your lindwurm"
+msgstr "deinen Lindwurm"
+
+msgctxt "akk"
+msgid  "your death drake"
+msgstr "deinen Todesdrachen"
+
+msgctxt "akk"
+msgid  "your leopard gecko"
+msgstr "deinen Leopardgecko"
+
+msgctxt "akk"
+msgid  "your iguana"
+msgstr "deinen Leguan"
+
+msgctxt "akk"
+msgid  "your basilisk"
+msgstr "deinen Basilisk"
+
+msgctxt "akk"
+msgid  "your wyvern"
+msgstr "deinen Wyvern"
+
+msgctxt "akk"
+msgid  "your komodo dragon"
+msgstr "deinen Komododrachen"
+
+msgctxt "akk"
+msgid  "your merfolk impaler"
+msgstr "deinen Meervolk-Impaler"
+
+msgctxt "akk"
+msgid  "your merfolk javelineer"
+msgstr "deinen Meervolk-Speerführer"
+
+msgctxt "akk"
+msgid  "your merfolk aquamancer"
+msgstr "deinen Meervolk-Aquamancer"
+
+msgctxt "akk"
+msgid  "your merfolk avatar"
+msgstr "deinen Meervolk-Avatar"
+
+msgctxt "akk"
+msgid  "your necrophage"
+msgstr "deinen Nekrophagen"
+
+msgctxt "akk"
+msgid  "your ghoul"
+msgstr "deinen Ghul"
+
+msgctxt "akk"
+msgid  "your orc"
+msgstr "deinen Ork"
+
+msgctxt "akk"
+msgid  "your orc wizard"
+msgstr "deinen Ork-Zauberer"
+
+msgctxt "akk"
+msgid  "your orc priest"
+msgstr "deinen Ork-Priester"
+
+msgctxt "akk"
+msgid  "your orc warrior"
+msgstr "deinen Ork-Krieger"
+
+msgctxt "akk"
+msgid  "your orc knight"
+msgstr "deinen Ork-Ritter"
+
+msgctxt "akk"
+msgid  "your orc warlord"
+msgstr "deinen Ork-Warlord"
+
+msgctxt "akk"
+msgid  "your orc sorcerer"
+msgstr "deinen Ork-Hexenmeister"
+
+msgctxt "akk"
+msgid  "your orc high priest"
+msgstr "deinen Ork-Hohepriester"
+
+msgctxt "akk"
+msgid  "your lava orc"
+msgstr "deinen Lava-Ork"
+
+msgctxt "akk"
+msgid  "your human"
+msgstr "deinen Menschen"
+
+msgctxt "akk"
+msgid  "your slave"
+msgstr "deinen Sklaven"
+
+msgctxt "akk"
+msgid  "your hell knight"
+msgstr "deinen Höllenritter"
+
+msgctxt "akk"
+msgid  "your death knight"
+msgstr "deinen Todesritter"
+
+msgctxt "akk"
+msgid  "your necromancer"
+msgstr "deinen Nekromanten"
+
+msgctxt "akk"
+msgid  "your wizard"
+msgstr "deinen Zauberer"
+
+msgctxt "akk"
+msgid  "your vault guard"
+msgstr "deinen Tresorwächter"
+
+msgctxt "akk"
+msgid  "your vault warden"
+msgstr "deinen Tresorwärter"
+
+msgctxt "akk"
+msgid  "your ironbrand convoker"
+msgstr "deinen Eisenbrandeinberufer"
+
+msgctxt "akk"
+msgid  "your imperial myrmidon"
+msgstr "deinen kaiserlichen Myrmidon"
+
+msgctxt "akk"
+msgid  "your servant of whispers"
+msgstr "deinen Diener des Flüsterns"
+
+msgctxt "akk"
+msgid  "your ragged hierophant"
+msgstr "deinen zerlumpten Hierophanten"
+
+msgctxt "akk"
+msgid  "your ironheart preserver"
+msgstr "deinen Eisenherzbewahrer"
+
+msgctxt "akk"
+msgid  "your shapeshifter"
+msgstr "deinen Gestaltwandler"
+
+msgctxt "akk"
+msgid  "your glowing shapeshifter"
+msgstr "deinen leuchtenden Gestaltwandler"
+
+msgctxt "akk"
+msgid  "your Killer Klown"
+msgstr "deinen Killer-Klown"
+
+msgctxt "akk"
+msgid  "your demigod"
+msgstr "deinen Halbgott"
+
+msgctxt "akk"
+msgid  "your halfling"
+msgstr "deinen Halbling"
+
+msgctxt "akk"
+msgid  "your scorpion"
+msgstr "deinen Skorpion"
+
+msgctxt "akk"
+msgid  "your emperor scorpion"
+msgstr "deinen Kaiserskorpion"
+
+msgctxt "akk"
+msgid  "your death scarab"
+msgstr "deinen Todesskarabäus"
+
+msgctxt "akk"
+msgid  "your demonic crawler"
+msgstr "deinen dämonischen Kriecher"
+
+msgctxt "akk"
+msgid  "your alligator"
+msgstr "deinen Alligator"
+
+msgctxt "akk"
+msgid  "your fire vortex"
+msgstr "deinen Feuerwirbel"
+
+msgctxt "akk"
+msgid  "your spatial vortex"
+msgstr "deinen räumlichen Wirbel"
+
+msgctxt "akk"
+msgid  "your spatial maelstrom"
+msgstr "deinen räumlichen Mahlstrom"
+
+msgctxt "akk"
+msgid  "your twister"
+msgstr "deinen Twister"
+
+msgctxt "akk"
+msgid  "your worm"
+msgstr "deinen Wurm"
+
+msgctxt "akk"
+msgid  "your swamp worm"
+msgstr "deinen Sumpfwurm"
+
+msgctxt "akk"
+msgid  "your tyrant leech"
+msgstr "deinen Tyrannblutegel"
+
+msgctxt "akk"
+msgid  "your small abomination"
+msgstr "deinen kleinen Greuel"
+
+msgctxt "akk"
+msgid  "your ancient zyme"
+msgstr "deinen alten Zymen"
+
+msgctxt "akk"
+msgid  "your worldbinder"
+msgstr "deinen Weltbinder"
+
+msgctxt "akk"
+msgid  "your wight"
+msgstr "deinen Wight"
+
+msgctxt "akk"
+msgid  "your skeletal warrior"
+msgstr "deinen Skelettkrieger"
+
+msgctxt "akk"
+msgid  "your ancient champion"
+msgstr "deinen alten Champion"
+
+msgctxt "akk"
+msgid  "your flying skull"
+msgstr "deinen fliegenden Schädel"
+
+msgctxt "akk"
+msgid  "your curse skull"
+msgstr "deinen Fluchschädel"
+
+msgctxt "akk"
+msgid  "your curse toe"
+msgstr "deinen Fluchzehen"
+
+msgctxt "akk"
+msgid  "your angel"
+msgstr "deinen Engel"
+
+msgctxt "akk"
+msgid  "your cherub"
+msgstr "deinen Cherub"
+
+msgctxt "akk"
+msgid  "your seraph"
+msgstr "deinen Seraph"
+
+msgctxt "akk"
+msgid  "your daeva"
+msgstr "deinen Daeva"
+
+msgctxt "akk"
+msgid  "your profane servitor"
+msgstr "deinen profanen Diener"
+
+msgctxt "akk"
+msgid  "your giant"
+msgstr "deinen Riesen"
+
+msgctxt "akk"
+msgid  "your cyclops"
+msgstr "deinen Zyklop"
+
+msgctxt "akk"
+msgid  "your ettin"
+msgstr "deinen Ettin"
+
+msgctxt "akk"
+msgid  "your fire giant"
+msgstr "deinen Feuerriesen"
+
+msgctxt "akk"
+msgid  "your frost giant"
+msgstr "deinen Frostriesen"
+
+msgctxt "akk"
+msgid  "your stone giant"
+msgstr "deinen Steinriesen"
+
+msgctxt "akk"
+msgid  "your titan"
+msgstr "deinen Titan"
+
+msgctxt "akk"
+msgid  "your juggernaut"
+msgstr "deinen Juggernaut"
+
+msgctxt "akk"
+msgid  "your iron giant"
+msgstr "deinen Eisenriesen"
+
+msgctxt "akk"
+msgid  "your dragon"
+msgstr "deinen Drachen"
+
+msgctxt "akk"
+msgid  "your fire dragon"
+msgstr "deinen Feuerdrachen"
+
+msgctxt "akk"
+msgid  "your ice dragon"
+msgstr "deinen Eisdrachen"
+
+msgctxt "akk"
+msgid  "your steam dragon"
+msgstr "deinen Dampfdrachen"
+
+msgctxt "akk"
+msgid  "your swamp dragon"
+msgstr "deinen Sumpfdrachen"
+
+msgctxt "akk"
+msgid  "your acid dragon"
+msgstr "deinen Säuredrachen"
+
+msgctxt "akk"
+msgid  "your quicksilver dragon"
+msgstr "deinen Quecksilberdrachen"
+
+msgctxt "akk"
+msgid  "your iron dragon"
+msgstr "deinen Eisendrachen"
+
+msgctxt "akk"
+msgid  "your storm dragon"
+msgstr "deinen Sturmdrachen"
+
+msgctxt "akk"
+msgid  "your golden dragon"
+msgstr "deinen Golddrachen"
+
+msgctxt "akk"
+msgid  "your shadow dragon"
+msgstr "deinen Schattendrachen"
+
+msgctxt "akk"
+msgid  "your bone dragon"
+msgstr "deinen Knochendrachen"
+
+msgctxt "akk"
+msgid  "your pearl dragon"
+msgstr "deinen Perlendrachen"
+
+msgctxt "akk"
+msgid  "your giant frog"
+msgstr "deinen Riesenfrosch"
+
+msgctxt "akk"
+msgid  "your bullfrog"
+msgstr "deinen Ochsenfrosch"
+
+msgctxt "akk"
+msgid  "your spiny frog"
+msgstr "deinen Stachelfrosch"
+
+msgctxt "akk"
+msgid  "your blink frog"
+msgstr "deinen Blinzelfrosch"
+
+msgctxt "akk"
+msgid  "your great orb of eyes"
+msgstr "deinen großen Augenkugel"
+
+msgctxt "akk"
+msgid  "your ophan"
+msgstr "deinen Ophan"
+
+msgctxt "akk"
+msgid  "your hippogriff"
+msgstr "deinen Hippogriff"
+
+msgctxt "akk"
+msgid  "your manticore"
+msgstr "deinen Mantikor"
+
+msgctxt "akk"
+msgid  "your minotaur"
+msgstr "deinen Minotaurus"
+
+msgctxt "akk"
+msgid  "your ancestor"
+msgstr "deinen Ahnen"
+
+msgctxt "akk"
+msgid  "your knight"
+msgstr "deinen Ritter"
+
+msgctxt "akk"
+msgid  "your battlemage"
+msgstr "deinen Kampfmagier"
+
+msgctxt "akk"
+msgid  "your hexer"
+msgstr "deinen Hexer"
+
+msgctxt "akk"
+msgid  "your ooze"
+msgstr "deinen Schlamm"
+
+msgctxt "akk"
+msgid  "your death ooze"
+msgstr "deinen Todesschlamm"
+
+msgctxt "akk"
+msgid  "your acid blob"
+msgstr "deinen Säureklumpen"
+
+msgctxt "akk"
+msgid  "your kobold"
+msgstr "deinen Kobold"
+
+msgctxt "akk"
+msgid  "your big kobold"
+msgstr "deinen großen Kobold"
+
+msgctxt "akk"
+msgid  "your kobold demonologist"
+msgstr "deinen Kobold-Dämonologen"
+
+msgctxt "akk"
+msgid  "your lich"
+msgstr "deinen Lich"
+
+msgctxt "akk"
+msgid  "your ancient lich"
+msgstr "deinen alten Lich"
+
+msgctxt "akk"
+msgid  "your revenant"
+msgstr "deinen Wiedergänger"
+
+msgctxt "akk"
+msgid  "your halazid warlock"
+msgstr "deinen halazidischen Hexenmeister"
+
+msgctxt "akk"
+msgid  "your mummy priest"
+msgstr "deinen Mumie-Priester"
+
+msgctxt "akk"
+msgid  "your naga"
+msgstr "deinen Naga"
+
+msgctxt "akk"
+msgid  "your naga mage"
+msgstr "deinen Naga-Magier"
+
+msgctxt "akk"
+msgid  "your naga sharpshooter"
+msgstr "deinen Naga-Scharfschützen"
+
+msgctxt "akk"
+msgid  "your naga ritualist"
+msgstr "deinen Naga-Ritualisten"
+
+msgctxt "akk"
+msgid  "your naga warrior"
+msgstr "deinen Naga-Krieger"
+
+msgctxt "akk"
+msgid  "your nagaraja"
+msgstr "deinen Nagaraja"
+
+msgctxt "akk"
+msgid  "your ogre"
+msgstr "deinen Oger"
+
+msgctxt "akk"
+msgid  "your two-headed ogre"
+msgstr "deinen zweiköpfigen Oger"
+
+msgctxt "akk"
+msgid  "your ogre mage"
+msgstr "deinen Oger-Magier"
+
+msgctxt "akk"
+msgid  "your oklob sapling"
+msgstr "deinen Oklob-Setzling"
+
+msgctxt "akk"
+msgid  "your bush"
+msgstr "deinen Busch"
+
+msgctxt "akk"
+msgid  "your burning bush"
+msgstr "deinen brennenden Busch"
+
+msgctxt "akk"
+msgid  "your toadstool"
+msgstr "deinen Giftpilz"
+
+msgctxt "akk"
+msgid  "your fungus"
+msgstr "deinen Pilz"
+
+msgctxt "akk"
+msgid  "your ballistomycete"
+msgstr "deinen Ballistomyceten"
+
+msgctxt "akk"
+msgid  "your hyperactive ballistomycete"
+msgstr "deinen hyperaktiven Ballistomyceten"
+
+msgctxt "akk"
+msgid  "your briar patch"
+msgstr "deinen Dornstrauch"
+
+msgctxt "akk"
+msgid  "your tengu"
+msgstr "deinen Tengu"
+
+msgctxt "akk"
+msgid  "your tengu conjurer"
+msgstr "deinen Tengu-Zauberer"
+
+msgctxt "akk"
+msgid  "your tengu warrior"
+msgstr "deinen Tengu-Krieger"
+
+msgctxt "akk"
+msgid  "your tengu reaver"
+msgstr "deinen Tengu-Häscher"
+
+msgctxt "akk"
+msgid  "your rakshasa"
+msgstr "deinen Rakshasa"
+
+msgctxt "akk"
+msgid  "your water moccasin"
+msgstr "deinen Wassermokassin"
+
+msgctxt "akk"
+msgid  "your troll"
+msgstr "deinen Troll"
+
+msgctxt "akk"
+msgid  "your iron troll"
+msgstr "deinen Eisentroll"
+
+msgctxt "akk"
+msgid  "your deep troll"
+msgstr "deinen Tiefentroll"
+
+msgctxt "akk"
+msgid  "your deep troll earth mage"
+msgstr "deinen Tiefentroll-Erdmagier"
+
+msgctxt "akk"
+msgid  "your deep troll shaman"
+msgstr "deinen Tiefentroll-Schamanen"
+
+msgctxt "akk"
+msgid  "your vampire"
+msgstr "deinen Vampir"
+
+msgctxt "akk"
+msgid  "your vampire knight"
+msgstr "deinen Vampir-Ritter"
+
+msgctxt "akk"
+msgid  "your vampire mage"
+msgstr "deinen Vampir-Magier"
+
+msgctxt "akk"
+msgid  "your hungry ghost"
+msgstr "deinen hungrigen Geisten"
+
+msgctxt "akk"
+msgid  "your flayed ghost"
+msgstr "deinen enthäuteten Geisten"
+
+msgctxt "akk"
+msgid  "your player ghost"
+msgstr "deinen Spielergeisten"
+
+msgctxt "akk"
+msgid  "your shadow"
+msgstr "deinen Schatten"
+
+msgctxt "akk"
+msgid  "your wraith"
+msgstr "deinen Geisten"
+
+msgctxt "akk"
+msgid  "your shadow wraith"
+msgstr "deinen Schattengeisten"
+
+msgctxt "akk"
+msgid  "your freezing wraith"
+msgstr "deinen Frostgeisten"
+
+msgctxt "akk"
+msgid  "your eidolon"
+msgstr "deinen Eidolon"
+
+msgctxt "akk"
+msgid  "your phantasmal warrior"
+msgstr "deinen phantastischen Krieger"
+
+msgctxt "akk"
+msgid  "your large abomination"
+msgstr "deinen großen Greuel"
+
+msgctxt "akk"
+msgid  "your Orb Guardian"
+msgstr "deinen Kugelwächter"
+
+msgctxt "akk"
+msgid  "your tentacled starspawn"
+msgstr "deinen Tentakelsternbrut"
+
+msgctxt "akk"
+msgid  "your starspawn tentacle"
+msgstr "deinen Sternbruttentakel"
+
+msgctxt "akk"
+msgid  "your elephant"
+msgstr "deinen Elefanten"
+
+msgctxt "akk"
+msgid  "your dire elephant"
+msgstr "deinen Schreckenselefanten"
+
+msgctxt "akk"
+msgid  "your hellephant"
+msgstr "deinen Höllefanten"
+
+msgctxt "akk"
+msgid  "your zombie"
+msgstr "deinen Zombie"
+
+msgctxt "akk"
+msgid  "your small zombie"
+msgstr "deinen kleinen Zombie"
+
+msgctxt "akk"
+msgid  "your large zombie"
+msgstr "deinen großen Zombie"
+
+msgctxt "akk"
+msgid  "your electric eel"
+msgstr "deinen Zitteraal"
+
+msgctxt "akk"
+msgid  "your kraken"
+msgstr "deinen Kraken"
+
+msgctxt "akk"
+msgid  "your tentacle"
+msgstr "deinen Tentakel"
+
+msgctxt "akk"
+msgid  "your octopode"
+msgstr "deinen Oktopod"
+
+msgctxt "akk"
+msgid  "your salamander"
+msgstr "deinen Salamander"
+
+msgctxt "akk"
+msgid  "your salamander mystic"
+msgstr "deinen Salamander-Mystiker"
+
+msgctxt "akk"
+msgid  "your Hellbinder"
+msgstr "deinen Höllenbinder"
+
+msgctxt "akk"
+msgid  "your Cloud Mage"
+msgstr "deinen Wolkenmagier"
+
+msgctxt "akk"
+msgid  "your player"
+msgstr "deinen Spieler"
+
+msgctxt "akk"
+msgid  "your eldritch tentacle"
+msgstr "deinen unheimlichen Tentakel"
+
+msgctxt "akk"
+msgid  "your gelid demonspawn"
+msgstr "deinen geliden Dämonenbrut"
+
+msgctxt "akk"
+msgid  "your blood saint"
+msgstr "deinen Blutheiligen"
+
+msgctxt "akk"
+msgid  "your warmonger"
+msgstr "deinen Kriegstreiber"
+
+msgctxt "akk"
+msgid  "your corrupter"
+msgstr "deinen Korruptor"
+
+msgctxt "akk"
+msgid  "your ufetubus"
+msgstr "deinen Ufetubus"
+
+msgctxt "akk"
+msgid  "your rust devil"
+msgstr "deinen Rostteufel"
+
+msgctxt "akk"
+msgid  "your orange demon"
+msgstr "deinen orangen Dämon"
+
+msgctxt "akk"
+msgid  "your red devil"
+msgstr "deinen roten Teufel"
+
+msgctxt "akk"
+msgid  "your hellwing"
+msgstr "deinen Höllenflügel"
+
+msgctxt "akk"
+msgid  "your ice devil"
+msgstr "deinen Eisteufel"
+
+msgctxt "akk"
+msgid  "your sun demon"
+msgstr "deinen Sonnendämon"
+
+msgctxt "akk"
+msgid  "your soul eater"
+msgstr "deinen Seelenfresser"
+
+msgctxt "akk"
+msgid  "your smoke demon"
+msgstr "deinen Rauchdämon"
+
+msgctxt "akk"
+msgid  "your sixfirhy"
+msgstr "deinen Sixfirhy"
+
+msgctxt "akk"
+msgid  "your shadow demon"
+msgstr "deinen Schattendämon"
+
+msgctxt "akk"
+msgid  "your green death"
+msgstr "deinen grünen Tod"
+
+msgctxt "akk"
+msgid  "your blizzard demon"
+msgstr "deinen Blizzarddämon"
+
+msgctxt "akk"
+msgid  "your balrug"
+msgstr "deinen Balrug"
+
+msgctxt "akk"
+msgid  "your cacodemon"
+msgstr "deinen Cacodaemon"
+
+msgctxt "akk"
+msgid  "your hellion"
+msgstr "deinen Teufelsbraten"
+
+msgctxt "akk"
+msgid  "your reaper"
+msgstr "deinen Schnitter"
+
+msgctxt "akk"
+msgid  "your tormentor"
+msgstr "deinen Peiniger"
+
+msgctxt "akk"
+msgid  "your Brimstone Fiend"
+msgstr "deinen Schwefelunterweltler"
+
+msgctxt "akk"
+msgid  "your Ice Fiend"
+msgstr "deinen Eisunterweltler"
+
+msgctxt "akk"
+msgid  "your Hell Sentinel"
+msgstr "deinen Höllenwächter"
+
+msgctxt "akk"
+msgid  "your Executioner"
+msgstr "deinen Scharfrichter"
+
+msgctxt "akk"
+msgid  "your animated tree"
+msgstr "deinen animierten Baum"
+
+msgctxt "akk"
+msgid  "your golem"
+msgstr "deinen Golem"
+
+msgctxt "akk"
+msgid  "your saltling"
+msgstr "deinen Salzling"
+
+msgctxt "akk"
+msgid  "your peacekeeper"
+msgstr "deinen Friedenshüter"
+
+msgctxt "akk"
+msgid  "your iron golem"
+msgstr "deinen Eisengolem"
+
+msgctxt "akk"
+msgid  "your crystal guardian"
+msgstr "deinen Kristallwächter"
+
+msgctxt "akk"
+msgid  "your toenail golem"
+msgstr "deinen Zehennagelgolem"
+
+msgctxt "akk"
+msgid  "your electric golem"
+msgstr "deinen Blitzgolem"
+
+msgctxt "akk"
+msgid  "your guardian golem"
+msgstr "deinen Wächtergolem"
+
+msgctxt "akk"
+msgid  "your spellforged servitor"
+msgstr "deinen zaubergeschmeideten Diener"
+
+msgctxt "akk"
+msgid  "your block of ice"
+msgstr "deinen Eisblock"
+
+msgctxt "akk"
+msgid  "your diamond obelisk"
+msgstr "deinen Diamantobelisk"
+
+msgctxt "akk"
+msgid  "your lightning spire"
+msgstr "deinen Blitzturm"
+
+msgctxt "akk"
+msgid  "your gargoyle"
+msgstr "deinen Gargoyle"
+
+msgctxt "akk"
+msgid  "your war gargoyle"
+msgstr "deinen Kriegsgargoyle"
+
+msgctxt "akk"
+msgid  "your molten gargoyle"
+msgstr "deinen geschmolzenen Gargoyle"
+
+msgctxt "akk"
+msgid  "your pandemonium lord"
+msgstr "deinen Pandemoniumsherrn"
+
+msgctxt "akk"
+msgid  "your hell lord"
+msgstr "deinen Höllenherrn"
+
+msgctxt "akk"
+msgid  "your ball lightning"
+msgstr "deinen Kugelblitz"
+
+msgctxt "akk"
+msgid  "your wretched star"
+msgstr "deinen elenden Stern"
+
+msgctxt "akk"
+msgid  "your death cob"
+msgstr "deinen Todeskolben"
+
+msgctxt "akk"
+msgid  "your moon troll"
+msgstr "deinen Mondtroll"
+
+msgctxt "akk"
+msgid  "your nameless horror"
+msgstr "deinen namenlosen Horror"
+
+################################
+# no determiner
+################################
+
+msgctxt "akk"
+msgid  "program bug"
+msgstr "Programmfehler"
+
+msgctxt "akk"
+msgid  "formicid"
+msgstr "Formicid"
+
+msgctxt "akk"
+msgid  "entropy weaver"
+msgstr "Entropieweber"
+
+msgctxt "akk"
+msgid  "butterfly"
+msgstr "Schmetterling"
+
+msgctxt "akk"
+msgid  "caustic shrike"
+msgstr "ätzenden Würger"
+
+msgctxt "akk"
+msgid  "shard shrike"
+msgstr "Scherbenwürger"
+
+msgctxt "akk"
+msgid  "centaur"
+msgstr "Zentaur"
+
+msgctxt "akk"
+msgid  "centaur warrior"
+msgstr "Zentaur-Krieger"
+
+msgctxt "akk"
+msgid  "yaktaur"
+msgstr "Yaktaur"
+
+msgctxt "akk"
+msgid  "yaktaur captain"
+msgstr "Yaktaur-Kapitän"
+
+msgctxt "akk"
+msgid  "faun"
+msgstr "Faun"
+
+msgctxt "akk"
+msgid  "satyr"
+msgstr "Satyr"
+
+msgctxt "akk"
+msgid  "draconian"
+msgstr "Drakonier"
+
+msgctxt "akk"
+msgid  "black draconian"
+msgstr "schwarzen Drakonier"
+
+msgctxt "akk"
+msgid  "yellow draconian"
+msgstr "gelben Drakonier"
+
+msgctxt "akk"
+msgid  "pale draconian"
+msgstr "blassen Drakonier"
+
+msgctxt "akk"
+msgid  "green draconian"
+msgstr "grünen Drakonier"
+
+msgctxt "akk"
+msgid  "purple draconian"
+msgstr "purpurnen Drakonier"
+
+msgctxt "akk"
+msgid  "red draconian"
+msgstr "roten Drakonier"
+
+msgctxt "akk"
+msgid  "white draconian"
+msgstr "weißen Drakonier"
+
+msgctxt "akk"
+msgid  "grey draconian"
+msgstr "grauen Drakonier"
+
+msgctxt "akk"
+msgid  "draconian stormcaller"
+msgstr "Drakonier-Sturmrufer"
+
+msgctxt "akk"
+msgid  "draconian monk"
+msgstr "Drakonier-Mönch"
+
+msgctxt "akk"
+msgid  "draconian shifter"
+msgstr "Drakonier-Verschieber"
+
+msgctxt "akk"
+msgid  "draconian annihilator"
+msgstr "Drakonier-Vernichter"
+
+msgctxt "akk"
+msgid  "draconian knight"
+msgstr "Drakonier-Ritter"
+
+msgctxt "akk"
+msgid  "draconian scorcher"
+msgstr "Drakonier-Verschmorer"
+
+msgctxt "akk"
+msgid  "elf"
+msgstr "Elf"
+
+msgctxt "akk"
+msgid  "deep elf knight"
+msgstr "Tiefenelf-Ritter"
+
+msgctxt "akk"
+msgid  "deep elf archer"
+msgstr "Tiefenelf-Bogenschützen"
+
+msgctxt "akk"
+msgid  "deep elf blademaster"
+msgstr "Tiefenelf-Klingenmeister"
+
+msgctxt "akk"
+msgid  "deep elf master archer"
+msgstr "Tiefenelf-Bogenmeister"
+
+msgctxt "akk"
+msgid  "deep elf mage"
+msgstr "Tiefenelf-Magier"
+
+msgctxt "akk"
+msgid  "deep elf high priest"
+msgstr "Tiefenelf-Hohepriester"
+
+msgctxt "akk"
+msgid  "deep elf demonologist"
+msgstr "Tiefenelf-Dämonologen"
+
+msgctxt "akk"
+msgid  "deep elf annihilator"
+msgstr "Tiefenelf-Vernichter"
+
+msgctxt "akk"
+msgid  "deep elf sorcerer"
+msgstr "Tiefenelf-Zauberer"
+
+msgctxt "akk"
+msgid  "deep elf death mage"
+msgstr "Tiefenelf-Todesmagier"
+
+msgctxt "akk"
+msgid  "deep elf elementalist"
+msgstr "Tiefenelf-Elementalisten"
+
+msgctxt "akk"
+msgid  "wandering mushroom"
+msgstr "wandernden Pilz"
+
+msgctxt "akk"
+msgid  "thorn hunter"
+msgstr "Dornenjäger"
+
+msgctxt "akk"
+msgid  "vine stalker"
+msgstr "Rebjäger"
+
+msgctxt "akk"
+msgid  "goblin"
+msgstr "Goblin"
+
+msgctxt "akk"
+msgid  "hobgoblin"
+msgstr "Hobgoblin"
+
+msgctxt "akk"
+msgid  "gnoll"
+msgstr "Gnoll"
+
+msgctxt "akk"
+msgid  "gnoll shaman"
+msgstr "Gnoll-Schamanen"
+
+msgctxt "akk"
+msgid  "gnoll sergeant"
+msgstr "Gnoll-Wachtmeister"
+
+msgctxt "akk"
+msgid  "boggart"
+msgstr "Boggart"
+
+msgctxt "akk"
+msgid  "dwarf"
+msgstr "Zwerg"
+
+msgctxt "akk"
+msgid  "deep dwarf"
+msgstr "Tiefenzwerg"
+
+msgctxt "akk"
+msgid  "jackal"
+msgstr "Schakal"
+
+msgctxt "akk"
+msgid  "hound"
+msgstr "Hund"
+
+msgctxt "akk"
+msgid  "howler monkey"
+msgstr "Brüllaffen"
+
+msgctxt "akk"
+msgid  "warg"
+msgstr "Warg"
+
+msgctxt "akk"
+msgid  "wolf"
+msgstr "Wolf"
+
+msgctxt "akk"
+msgid  "hell hound"
+msgstr "Höllenhund"
+
+msgctxt "akk"
+msgid  "doom hound"
+msgstr "Untergangshund"
+
+msgctxt "akk"
+msgid  "raiju"
+msgstr "Raiju"
+
+msgctxt "akk"
+msgid  "bear"
+msgstr "Bären"
+
+msgctxt "akk"
+msgid  "polar bear"
+msgstr "Eisbären"
+
+msgctxt "akk"
+msgid  "black bear"
+msgstr "Schwarzbären"
+
+msgctxt "akk"
+msgid  "spriggan"
+msgstr "Spriggan"
+
+msgctxt "akk"
+msgid  "spriggan rider"
+msgstr "Spriggan-Reiter"
+
+msgctxt "akk"
+msgid  "spriggan druid"
+msgstr "Spriggan-Druiden"
+
+msgctxt "akk"
+msgid  "spriggan berserker"
+msgstr "Spriggan-Berserker"
+
+msgctxt "akk"
+msgid  "spriggan air mage"
+msgstr "Spriggan-Luftmagier"
+
+msgctxt "akk"
+msgid  "spriggan defender"
+msgstr "Spriggan-Verteidiger"
+
+msgctxt "akk"
+msgid  "drake"
+msgstr "Drachling"
+
+msgctxt "akk"
+msgid  "swamp drake"
+msgstr "Sumpfdrachling"
+
+msgctxt "akk"
+msgid  "rime drake"
+msgstr "Reifsdrachling"
+
+msgctxt "akk"
+msgid  "wind drake"
+msgstr "Winddrachling"
+
+msgctxt "akk"
+msgid  "lindwurm"
+msgstr "Lindwurm"
+
+msgctxt "akk"
+msgid  "death drake"
+msgstr "Todesdrachen"
+
+msgctxt "akk"
+msgid  "leopard gecko"
+msgstr "Leopardgecko"
+
+msgctxt "akk"
+msgid  "iguana"
+msgstr "Leguan"
+
+msgctxt "akk"
+msgid  "basilisk"
+msgstr "Basilisk"
+
+msgctxt "akk"
+msgid  "wyvern"
+msgstr "Wyvern"
+
+msgctxt "akk"
+msgid  "komodo dragon"
+msgstr "Komododrachen"
+
+msgctxt "akk"
+msgid  "merfolk impaler"
+msgstr "Meervolk-Impaler"
+
+msgctxt "akk"
+msgid  "merfolk javelineer"
+msgstr "Meervolk-Speerführer"
+
+msgctxt "akk"
+msgid  "merfolk aquamancer"
+msgstr "Meervolk-Aquamancer"
+
+msgctxt "akk"
+msgid  "merfolk avatar"
+msgstr "Meervolk-Avatar"
+
+msgctxt "akk"
+msgid  "necrophage"
+msgstr "Nekrophagen"
+
+msgctxt "akk"
+msgid  "ghoul"
+msgstr "Ghul"
+
+msgctxt "akk"
+msgid  "orc"
+msgstr "Ork"
+
+msgctxt "akk"
+msgid  "orc wizard"
+msgstr "Ork-Zauberer"
+
+msgctxt "akk"
+msgid  "orc priest"
+msgstr "Ork-Priester"
+
+msgctxt "akk"
+msgid  "orc warrior"
+msgstr "Ork-Krieger"
+
+msgctxt "akk"
+msgid  "orc knight"
+msgstr "Ork-Ritter"
+
+msgctxt "akk"
+msgid  "orc warlord"
+msgstr "Ork-Warlord"
+
+msgctxt "akk"
+msgid  "orc sorcerer"
+msgstr "Ork-Hexenmeister"
+
+msgctxt "akk"
+msgid  "orc high priest"
+msgstr "Ork-Hohepriester"
+
+msgctxt "akk"
+msgid  "lava orc"
+msgstr "Lava-Ork"
+
+msgctxt "akk"
+msgid  "human"
+msgstr "Menschen"
+
+msgctxt "akk"
+msgid  "slave"
+msgstr "Sklaven"
+
+msgctxt "akk"
+msgid  "hell knight"
+msgstr "Höllenritter"
+
+msgctxt "akk"
+msgid  "death knight"
+msgstr "Todesritter"
+
+msgctxt "akk"
+msgid  "necromancer"
+msgstr "Nekromanten"
+
+msgctxt "akk"
+msgid  "wizard"
+msgstr "Zauberer"
+
+msgctxt "akk"
+msgid  "vault guard"
+msgstr "Tresorwächter"
+
+msgctxt "akk"
+msgid  "vault warden"
+msgstr "Tresorwärter"
+
+msgctxt "akk"
+msgid  "ironbrand convoker"
+msgstr "Eisenbrandeinberufer"
+
+msgctxt "akk"
+msgid  "imperial myrmidon"
+msgstr "kaiserlichen Myrmidon"
+
+msgctxt "akk"
+msgid  "servant of whispers"
+msgstr "Diener des Flüsterns"
+
+msgctxt "akk"
+msgid  "ragged hierophant"
+msgstr "zerlumpten Hierophanten"
+
+msgctxt "akk"
+msgid  "ironheart preserver"
+msgstr "Eisenherzbewahrer"
+
+msgctxt "akk"
+msgid  "shapeshifter"
+msgstr "Gestaltwandler"
+
+msgctxt "akk"
+msgid  "glowing shapeshifter"
+msgstr "leuchtenden Gestaltwandler"
+
+msgctxt "akk"
+msgid  "Killer Klown"
+msgstr "Killer-Klown"
+
+msgctxt "akk"
+msgid  "demigod"
+msgstr "Halbgott"
+
+msgctxt "akk"
+msgid  "halfling"
+msgstr "Halbling"
+
+msgctxt "akk"
+msgid  "scorpion"
+msgstr "Skorpion"
+
+msgctxt "akk"
+msgid  "emperor scorpion"
+msgstr "Kaiserskorpion"
+
+msgctxt "akk"
+msgid  "death scarab"
+msgstr "Todesskarabäus"
+
+msgctxt "akk"
+msgid  "demonic crawler"
+msgstr "dämonischen Kriecher"
+
+msgctxt "akk"
+msgid  "alligator"
+msgstr "Alligator"
+
+msgctxt "akk"
+msgid  "fire vortex"
+msgstr "Feuerwirbel"
+
+msgctxt "akk"
+msgid  "spatial vortex"
+msgstr "räumlichen Wirbel"
+
+msgctxt "akk"
+msgid  "spatial maelstrom"
+msgstr "räumlichen Mahlstrom"
+
+msgctxt "akk"
+msgid  "twister"
+msgstr "Twister"
+
+msgctxt "akk"
+msgid  "worm"
+msgstr "Wurm"
+
+msgctxt "akk"
+msgid  "swamp worm"
+msgstr "Sumpfwurm"
+
+msgctxt "akk"
+msgid  "tyrant leech"
+msgstr "Tyrannblutegel"
+
+msgctxt "akk"
+msgid  "small abomination"
+msgstr "kleinen Greuel"
+
+msgctxt "akk"
+msgid  "ancient zyme"
+msgstr "alten Zymen"
+
+msgctxt "akk"
+msgid  "worldbinder"
+msgstr "Weltbinder"
+
+msgctxt "akk"
+msgid  "wight"
+msgstr "Wight"
+
+msgctxt "akk"
+msgid  "skeletal warrior"
+msgstr "Skelettkrieger"
+
+msgctxt "akk"
+msgid  "ancient champion"
+msgstr "alten Champion"
+
+msgctxt "akk"
+msgid  "flying skull"
+msgstr "fliegenden Schädel"
+
+msgctxt "akk"
+msgid  "curse skull"
+msgstr "Fluchschädel"
+
+msgctxt "akk"
+msgid  "curse toe"
+msgstr "Fluchzehen"
+
+msgctxt "akk"
+msgid  "angel"
+msgstr "Engel"
+
+msgctxt "akk"
+msgid  "cherub"
+msgstr "Cherub"
+
+msgctxt "akk"
+msgid  "seraph"
+msgstr "Seraph"
+
+msgctxt "akk"
+msgid  "daeva"
+msgstr "Daeva"
+
+msgctxt "akk"
+msgid  "profane servitor"
+msgstr "profanen Diener"
+
+msgctxt "akk"
+msgid  "giant"
+msgstr "Riesen"
+
+msgctxt "akk"
+msgid  "cyclops"
+msgstr "Zyklop"
+
+msgctxt "akk"
+msgid  "ettin"
+msgstr "Ettin"
+
+msgctxt "akk"
+msgid  "fire giant"
+msgstr "Feuerriesen"
+
+msgctxt "akk"
+msgid  "frost giant"
+msgstr "Frostriesen"
+
+msgctxt "akk"
+msgid  "stone giant"
+msgstr "Steinriesen"
+
+msgctxt "akk"
+msgid  "titan"
+msgstr "Titan"
+
+msgctxt "akk"
+msgid  "juggernaut"
+msgstr "Juggernaut"
+
+msgctxt "akk"
+msgid  "iron giant"
+msgstr "Eisenriesen"
+
+msgctxt "akk"
+msgid  "dragon"
+msgstr "Drachen"
+
+msgctxt "akk"
+msgid  "fire dragon"
+msgstr "Feuerdrachen"
+
+msgctxt "akk"
+msgid  "ice dragon"
+msgstr "Eisdrachen"
+
+msgctxt "akk"
+msgid  "steam dragon"
+msgstr "Dampfdrachen"
+
+msgctxt "akk"
+msgid  "swamp dragon"
+msgstr "Sumpfdrachen"
+
+msgctxt "akk"
+msgid  "acid dragon"
+msgstr "Säuredrachen"
+
+msgctxt "akk"
+msgid  "quicksilver dragon"
+msgstr "Quecksilberdrachen"
+
+msgctxt "akk"
+msgid  "iron dragon"
+msgstr "Eisendrachen"
+
+msgctxt "akk"
+msgid  "storm dragon"
+msgstr "Sturmdrachen"
+
+msgctxt "akk"
+msgid  "golden dragon"
+msgstr "Golddrachen"
+
+msgctxt "akk"
+msgid  "shadow dragon"
+msgstr "Schattendrachen"
+
+msgctxt "akk"
+msgid  "bone dragon"
+msgstr "Knochendrachen"
+
+msgctxt "akk"
+msgid  "pearl dragon"
+msgstr "Perlendrachen"
+
+msgctxt "akk"
+msgid  "giant frog"
+msgstr "Riesenfrosch"
+
+msgctxt "akk"
+msgid  "bullfrog"
+msgstr "Ochsenfrosch"
+
+msgctxt "akk"
+msgid  "spiny frog"
+msgstr "Stachelfrosch"
+
+msgctxt "akk"
+msgid  "blink frog"
+msgstr "Blinzelfrosch"
+
+msgctxt "akk"
+msgid  "great orb of eyes"
+msgstr "großen Augenkugel"
+
+msgctxt "akk"
+msgid  "ophan"
+msgstr "Ophan"
+
+msgctxt "akk"
+msgid  "hippogriff"
+msgstr "Hippogriff"
+
+msgctxt "akk"
+msgid  "manticore"
+msgstr "Mantikor"
+
+msgctxt "akk"
+msgid  "minotaur"
+msgstr "Minotaurus"
+
+msgctxt "akk"
+msgid  "ancestor"
+msgstr "Ahnen"
+
+msgctxt "akk"
+msgid  "knight"
+msgstr "Ritter"
+
+msgctxt "akk"
+msgid  "battlemage"
+msgstr "Kampfmagier"
+
+msgctxt "akk"
+msgid  "hexer"
+msgstr "Hexer"
+
+msgctxt "akk"
+msgid  "ooze"
+msgstr "Schlamm"
+
+msgctxt "akk"
+msgid  "death ooze"
+msgstr "Todesschlamm"
+
+msgctxt "akk"
+msgid  "acid blob"
+msgstr "Säureklumpen"
+
+msgctxt "akk"
+msgid  "kobold"
+msgstr "Kobold"
+
+msgctxt "akk"
+msgid  "big kobold"
+msgstr "großen Kobold"
+
+msgctxt "akk"
+msgid  "kobold demonologist"
+msgstr "Kobold-Dämonologen"
+
+msgctxt "akk"
+msgid  "lich"
+msgstr "Lich"
+
+msgctxt "akk"
+msgid  "ancient lich"
+msgstr "alten Lich"
+
+msgctxt "akk"
+msgid  "revenant"
+msgstr "Wiedergänger"
+
+msgctxt "akk"
+msgid  "halazid warlock"
+msgstr "halazidischen Hexenmeister"
+
+msgctxt "akk"
+msgid  "mummy priest"
+msgstr "Mumie-Priester"
+
+msgctxt "akk"
+msgid  "naga"
+msgstr "Naga"
+
+msgctxt "akk"
+msgid  "naga mage"
+msgstr "Naga-Magier"
+
+msgctxt "akk"
+msgid  "naga sharpshooter"
+msgstr "Naga-Scharfschützen"
+
+msgctxt "akk"
+msgid  "naga ritualist"
+msgstr "Naga-Ritualisten"
+
+msgctxt "akk"
+msgid  "naga warrior"
+msgstr "Naga-Krieger"
+
+msgctxt "akk"
+msgid  "nagaraja"
+msgstr "Nagaraja"
+
+msgctxt "akk"
+msgid  "ogre"
+msgstr "Oger"
+
+msgctxt "akk"
+msgid  "two-headed ogre"
+msgstr "zweiköpfigen Oger"
+
+msgctxt "akk"
+msgid  "ogre mage"
+msgstr "Oger-Magier"
+
+msgctxt "akk"
+msgid  "oklob sapling"
+msgstr "Oklob-Setzling"
+
+msgctxt "akk"
+msgid  "bush"
+msgstr "Busch"
+
+msgctxt "akk"
+msgid  "burning bush"
+msgstr "brennenden Busch"
+
+msgctxt "akk"
+msgid  "toadstool"
+msgstr "Giftpilz"
+
+msgctxt "akk"
+msgid  "fungus"
+msgstr "Pilz"
+
+msgctxt "akk"
+msgid  "ballistomycete"
+msgstr "Ballistomyceten"
+
+msgctxt "akk"
+msgid  "hyperactive ballistomycete"
+msgstr "hyperaktiven Ballistomyceten"
+
+msgctxt "akk"
+msgid  "briar patch"
+msgstr "Dornstrauch"
+
+msgctxt "akk"
+msgid  "tengu"
+msgstr "Tengu"
+
+msgctxt "akk"
+msgid  "tengu conjurer"
+msgstr "Tengu-Zauberer"
+
+msgctxt "akk"
+msgid  "tengu warrior"
+msgstr "Tengu-Krieger"
+
+msgctxt "akk"
+msgid  "tengu reaver"
+msgstr "Tengu-Häscher"
+
+msgctxt "akk"
+msgid  "rakshasa"
+msgstr "Rakshasa"
+
+msgctxt "akk"
+msgid  "water moccasin"
+msgstr "Wassermokassin"
+
+msgctxt "akk"
+msgid  "troll"
+msgstr "Troll"
+
+msgctxt "akk"
+msgid  "iron troll"
+msgstr "Eisentroll"
+
+msgctxt "akk"
+msgid  "deep troll"
+msgstr "Tiefentroll"
+
+msgctxt "akk"
+msgid  "deep troll earth mage"
+msgstr "Tiefentroll-Erdmagier"
+
+msgctxt "akk"
+msgid  "deep troll shaman"
+msgstr "Tiefentroll-Schamanen"
+
+msgctxt "akk"
+msgid  "vampire"
+msgstr "Vampir"
+
+msgctxt "akk"
+msgid  "vampire knight"
+msgstr "Vampir-Ritter"
+
+msgctxt "akk"
+msgid  "vampire mage"
+msgstr "Vampir-Magier"
+
+msgctxt "akk"
+msgid  "hungry ghost"
+msgstr "hungrigen Geisten"
+
+msgctxt "akk"
+msgid  "flayed ghost"
+msgstr "enthäuteten Geisten"
+
+msgctxt "akk"
+msgid  "player ghost"
+msgstr "Spielergeisten"
+
+msgctxt "akk"
+msgid  "shadow"
+msgstr "Schatten"
+
+msgctxt "akk"
+msgid  "wraith"
+msgstr "Geisten"
+
+msgctxt "akk"
+msgid  "shadow wraith"
+msgstr "Schattengeisten"
+
+msgctxt "akk"
+msgid  "freezing wraith"
+msgstr "Frostgeisten"
+
+msgctxt "akk"
+msgid  "eidolon"
+msgstr "Eidolon"
+
+msgctxt "akk"
+msgid  "phantasmal warrior"
+msgstr "phantastischen Krieger"
+
+msgctxt "akk"
+msgid  "large abomination"
+msgstr "großen Greuel"
+
+msgctxt "akk"
+msgid  "Orb Guardian"
+msgstr "Kugelwächter"
+
+msgctxt "akk"
+msgid  "tentacled starspawn"
+msgstr "Tentakelsternbrut"
+
+msgctxt "akk"
+msgid  "starspawn tentacle"
+msgstr "Sternbruttentakel"
+
+msgctxt "akk"
+msgid  "elephant"
+msgstr "Elefanten"
+
+msgctxt "akk"
+msgid  "dire elephant"
+msgstr "Schreckenselefanten"
+
+msgctxt "akk"
+msgid  "hellephant"
+msgstr "Höllefanten"
+
+msgctxt "akk"
+msgid  "zombie"
+msgstr "Zombie"
+
+msgctxt "akk"
+msgid  "small zombie"
+msgstr "kleinen Zombie"
+
+msgctxt "akk"
+msgid  "large zombie"
+msgstr "großen Zombie"
+
+msgctxt "akk"
+msgid  "electric eel"
+msgstr "Zitteraal"
+
+msgctxt "akk"
+msgid  "kraken"
+msgstr "Kraken"
+
+msgctxt "akk"
+msgid  "tentacle"
+msgstr "Tentakel"
+
+msgctxt "akk"
+msgid  "octopode"
+msgstr "Oktopod"
+
+msgctxt "akk"
+msgid  "salamander"
+msgstr "Salamander"
+
+msgctxt "akk"
+msgid  "salamander mystic"
+msgstr "Salamander-Mystiker"
+
+msgctxt "akk"
+msgid  "Hellbinder"
+msgstr "Höllenbinder"
+
+msgctxt "akk"
+msgid  "Cloud Mage"
+msgstr "Wolkenmagier"
+
+msgctxt "akk"
+msgid  "player"
+msgstr "Spieler"
+
+msgctxt "akk"
+msgid  "eldritch tentacle"
+msgstr "unheimlichen Tentakel"
+
+msgctxt "akk"
+msgid  "gelid demonspawn"
+msgstr "geliden Dämonenbrut"
+
+msgctxt "akk"
+msgid  "blood saint"
+msgstr "Blutheiligen"
+
+msgctxt "akk"
+msgid  "warmonger"
+msgstr "Kriegstreiber"
+
+msgctxt "akk"
+msgid  "corrupter"
+msgstr "Korruptor"
+
+msgctxt "akk"
+msgid  "ufetubus"
+msgstr "Ufetubus"
+
+msgctxt "akk"
+msgid  "rust devil"
+msgstr "Rostteufel"
+
+msgctxt "akk"
+msgid  "orange demon"
+msgstr "orangen Dämon"
+
+msgctxt "akk"
+msgid  "red devil"
+msgstr "roten Teufel"
+
+msgctxt "akk"
+msgid  "hellwing"
+msgstr "Höllenflügel"
+
+msgctxt "akk"
+msgid  "ice devil"
+msgstr "Eisteufel"
+
+msgctxt "akk"
+msgid  "sun demon"
+msgstr "Sonnendämon"
+
+msgctxt "akk"
+msgid  "soul eater"
+msgstr "Seelenfresser"
+
+msgctxt "akk"
+msgid  "smoke demon"
+msgstr "Rauchdämon"
+
+msgctxt "akk"
+msgid  "sixfirhy"
+msgstr "Sixfirhy"
+
+msgctxt "akk"
+msgid  "shadow demon"
+msgstr "Schattendämon"
+
+msgctxt "akk"
+msgid  "green death"
+msgstr "grünen Tod"
+
+msgctxt "akk"
+msgid  "blizzard demon"
+msgstr "Blizzarddämon"
+
+msgctxt "akk"
+msgid  "balrug"
+msgstr "Balrug"
+
+msgctxt "akk"
+msgid  "cacodemon"
+msgstr "Cacodaemon"
+
+msgctxt "akk"
+msgid  "hellion"
+msgstr "Teufelsbraten"
+
+msgctxt "akk"
+msgid  "reaper"
+msgstr "Schnitter"
+
+msgctxt "akk"
+msgid  "tormentor"
+msgstr "Peiniger"
+
+msgctxt "akk"
+msgid  "Brimstone Fiend"
+msgstr "Schwefelunterweltler"
+
+msgctxt "akk"
+msgid  "Ice Fiend"
+msgstr "Eisunterweltler"
+
+msgctxt "akk"
+msgid  "Hell Sentinel"
+msgstr "Höllenwächter"
+
+msgctxt "akk"
+msgid  "Executioner"
+msgstr "Scharfrichter"
+
+msgctxt "akk"
+msgid  "animated tree"
+msgstr "animierten Baum"
+
+msgctxt "akk"
+msgid  "golem"
+msgstr "Golem"
+
+msgctxt "akk"
+msgid  "saltling"
+msgstr "Salzling"
+
+msgctxt "akk"
+msgid  "peacekeeper"
+msgstr "Friedenshüter"
+
+msgctxt "akk"
+msgid  "iron golem"
+msgstr "Eisengolem"
+
+msgctxt "akk"
+msgid  "crystal guardian"
+msgstr "Kristallwächter"
+
+msgctxt "akk"
+msgid  "toenail golem"
+msgstr "Zehennagelgolem"
+
+msgctxt "akk"
+msgid  "electric golem"
+msgstr "Blitzgolem"
+
+msgctxt "akk"
+msgid  "guardian golem"
+msgstr "Wächtergolem"
+
+msgctxt "akk"
+msgid  "spellforged servitor"
+msgstr "zaubergeschmeideten Diener"
+
+msgctxt "akk"
+msgid  "block of ice"
+msgstr "Eisblock"
+
+msgctxt "akk"
+msgid  "diamond obelisk"
+msgstr "Diamantobelisk"
+
+msgctxt "akk"
+msgid  "lightning spire"
+msgstr "Blitzturm"
+
+msgctxt "akk"
+msgid  "gargoyle"
+msgstr "Gargoyle"
+
+msgctxt "akk"
+msgid  "war gargoyle"
+msgstr "Kriegsgargoyle"
+
+msgctxt "akk"
+msgid  "molten gargoyle"
+msgstr "geschmolzenen Gargoyle"
+
+msgctxt "akk"
+msgid  "pandemonium lord"
+msgstr "Pandemoniumsherrn"
+
+msgctxt "akk"
+msgid  "hell lord"
+msgstr "Höllenherrn"
+
+msgctxt "akk"
+msgid  "ball lightning"
+msgstr "Kugelblitz"
+
+msgctxt "akk"
+msgid  "wretched star"
+msgstr "elenden Stern"
+
+msgctxt "akk"
+msgid  "death cob"
+msgstr "Todeskolben"
+
+msgctxt "akk"
+msgid  "moon troll"
+msgstr "Mondtroll"
+
+msgctxt "akk"
+msgid  "nameless horror"
+msgstr "namenlosen Horror"
 

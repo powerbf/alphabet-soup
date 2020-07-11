@@ -35,3 +35,16 @@ msgctxt "dat"
 msgid "you"
 msgstr "dir"
 
+####################
+# List construction
+####################
+
+msgid "%s, %s"
+msgstr "%s, %s"
+
+msgid "%s and %s"
+msgstr "%s und %s"
+
+msgid "%s or %s"
+msgstr "%s oder %s"
+
