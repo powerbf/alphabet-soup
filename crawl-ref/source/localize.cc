@@ -16,6 +16,7 @@ using namespace std;
 #include "localize.h"
 #include "xlate.h"
 #include "stringutil.h"
+#include "unicode.h"
 
 // check if string contains the char
 static inline bool _contains(const std::string& s, char c)
@@ -657,3 +658,29 @@ string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const 
     args.push_back(arg4);
     return localize(args);
 }
+
+/**
+ * Get the localized equivalent of a single-character
+ * (Mostly for prompt answers like Y/N)
+ */
+int localize_char(char ch)
+{
+    char en[2];
+    en[0] = ch;
+    en[2] = '\0';
+
+    string loc = xlate(en);
+
+    char32_t res;
+    if (utf8towc(&res, loc.c_str()))
+    {
+        return (int)res;
+    }
+    else
+    {
+        // failed
+        return (int)ch;
+    }
+}
+
+
