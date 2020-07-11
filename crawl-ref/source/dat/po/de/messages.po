@@ -969,9 +969,9 @@ msgstr "%s wird abgesprengt!"
 msgid "%s is destroyed!"
 msgstr "%s wird vernichtet!"
 
-###########################################################################
+##############################
 # Attack confirmation prompts
-###########################################################################
+##############################
 
 msgid "Really attack while wielding %s?"
 msgstr "Greife wirklich an, während du %s schwingst?"
@@ -1034,6 +1034,13 @@ msgstr "Wirklich Schlangen beschwöre, während du eine giftige Aura ausstrahlst
 
 msgid "Really summon a forest while emitting a toxic aura?"
 msgstr "Wirklich einien Forst beschwöre, während du eine giftige Aura ausstrahlst?"
+
+##############################
+# Monster attacks
+##############################
+
+msgid "%s hops backward while attacking."
+msgstr "%s springt rückwarts während des Angriffs."
 
 ###################
 # Other
