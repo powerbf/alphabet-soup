@@ -1120,7 +1120,7 @@ msgid  "the spiny frog"
 msgstr "der Stachelfrosch"
 
 msgid  "the blink frog"
-msgstr "der Blinzelfrosch"
+msgstr "der Flimmerfrosch"
 
 msgid  "the barachi"
 msgstr "die Barachi"
@@ -3124,8 +3124,8 @@ msgstr[1] "%d Stachelfrosche"
 
 msgid "a blink frog"
 msgid_plural "%d blink frogs"
-msgstr[0] "ein Blinzelfrosch"
-msgstr[1] "%d Blinzelfrosche"
+msgstr[0] "ein Flimmerfrosch"
+msgstr[1] "%d Flimmerfrosche"
 # check plural above
 
 msgid "a barachi"
@@ -5124,7 +5124,7 @@ msgid  "your spiny frog"
 msgstr "dein Stachelfrosch"
 
 msgid  "your blink frog"
-msgstr "dein Blinzelfrosch"
+msgstr "dein Flimmerfrosch"
 
 msgid  "your barachi"
 msgstr "deine Barachi"
@@ -6502,7 +6502,7 @@ msgid  "spiny frog"
 msgstr "Stachelfrosch"
 
 msgid  "blink frog"
-msgstr "Blinzelfrosch"
+msgstr "Flimmerfrosch"
 
 msgid  "barachi"
 msgstr "Barachi"

@@ -950,7 +950,7 @@ msgid  "the spiny frog's"
 msgstr "des Stachelfroschs"
 
 msgid  "the blink frog's"
-msgstr "des Blinzelfroschs"
+msgstr "des Flimmerfroschs"
 
 msgid  "the barachi's"
 msgstr "der Barachi"
@@ -2328,7 +2328,7 @@ msgid "a spiny frog's"
 msgstr "eines Stachelfroschs"
 
 msgid "a blink frog's"
-msgstr "eines Blinzelfroschs"
+msgstr "eines Flimmerfroschs"
 
 msgid "a barachi's"
 msgstr "einer Barachi"
@@ -3706,7 +3706,7 @@ msgid "your spiny frog's"
 msgstr "deines Stachelfroschs"
 
 msgid "your blink frog's"
-msgstr "deines Blinzelfroschs"
+msgstr "deines Flimmerfroschs"
 
 msgid "your barachi's"
 msgstr "deiner Barachi"

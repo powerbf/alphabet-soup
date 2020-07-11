@@ -1255,7 +1255,7 @@ msgstr "des Stachelfroschs"
 
 msgctxt "gen"
 msgid  "the blink frog"
-msgstr "des Blinzelfroschs"
+msgstr "des Flimmerfroschs"
 
 msgctxt "gen"
 msgid  "the barachi"
@@ -3091,7 +3091,7 @@ msgstr "eines Stachelfroschs"
 
 msgctxt "gen"
 msgid "a blink frog"
-msgstr "eines Blinzelfroschs"
+msgstr "eines Flimmerfroschs"
 
 msgctxt "gen"
 msgid "a barachi"
@@ -4927,7 +4927,7 @@ msgstr "deines Stachelfroschs"
 
 msgctxt "gen"
 msgid "your blink frog"
-msgstr "deines Blinzelfroschs"
+msgstr "deines Flimmerfroschs"
 
 msgctxt "gen"
 msgid "your barachi"
