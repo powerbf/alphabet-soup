@@ -26,6 +26,7 @@
 #include "invent.h"
 #include "item-prop.h"
 #include "item-use.h"
+#include "localize.h"
 #include "melee-attack.h"
 #include "message.h"
 #include "misc.h"
@@ -629,11 +630,11 @@ bool wielded_weapon_check(item_def *weapon)
 
     string prompt;
     if (weapon)
-        prompt = "Really attack while wielding " + weapon->name(DESC_YOUR) + "?";
+        prompt = localize("Really attack while wielding %s?", weapon->name(DESC_YOUR));
     else
-        prompt = "Really attack unarmed?";
+        prompt = localize("Really attack unarmed?");
     if (penance)
-        prompt += " This could place you under penance!";
+        prompt += " " + localize("This could place you under penance!");
 
     const bool result = yesno(prompt.c_str(), true, 'n');
 
@@ -905,25 +906,11 @@ bool bad_attack(const monster *mon, string& adj, string& suffix,
 
     if (mon->friendly())
     {
-        if (god_hates_attacking_friend(you.religion, *mon))
-        {
-            adj = "your ally ";
+        would_cause_penance = (god_hates_attacking_friend(you.religion, *mon));
 
-            monster_info mi(mon, MILEV_NAME);
-            if (!mi.is(MB_NAME_UNQUALIFIED))
-                adj += "the ";
-
-            would_cause_penance = true;
-
-        }
-        else
-        {
+        monster_info mi(mon, MILEV_NAME);
+        if (!mi.is(MB_NAME_UNQUALIFIED))
             adj = "your ";
-
-            monster_info mi(mon, MILEV_NAME);
-            if (mi.is(MB_NAME_UNQUALIFIED))
-                adj += "ally ";
-        }
 
         return true;
     }
@@ -971,24 +958,37 @@ bool stop_attack_prompt(const monster* mon, bool beam_attack,
     if (!starts_with(adj, "your"))
         adj = "the " + adj;
     mon_name = adj + mon_name;
-    string verb;
+
+    string fmt;
     if (beam_attack)
     {
-        verb = "fire ";
         if (beam_target == mon->pos())
-            verb += "at ";
+        {
+            fmt = "Really fire at %s";
+        }
         else
         {
-            verb += "in " + apostrophise(mon_name) + " direction";
-            mon_name = "";
+            fmt = "Really fire in %s direction";
+            mon_name = apostrophise(mon_name);
         }
     }
     else
-        verb = "attack ";
+    {
+        fmt = "Really attack %s";
+    }
 
-    const string prompt = make_stringf("Really %s%s%s?%s",
-             verb.c_str(), mon_name.c_str(), suffix.c_str(),
-             penance ? " This attack would place you under penance!" : "");
+    if (!suffix.empty())
+    {
+        fmt += suffix;
+    }
+    fmt += "?";
+
+    string prompt = localize(fmt, mon_name);
+
+    if (penance)
+    {
+        prompt += " " + localize("This attack would place you under penance!");
+    }
 
     if (prompted)
         *prompted = true;
@@ -1015,10 +1015,11 @@ bool stop_attack_prompt(targeter &hitfunc, const char* verb,
     if (you.confused())
         return false;
 
-    string adj, suffix;
+    string suffix;
     bool penance = false;
     bool defender_ok = true;
     counted_monster_list victims;
+    vector<string> victim_names;
     for (distance_iterator di(hitfunc.origin, false, true, LOS_RADIUS); di; ++di)
     {
         if (hitfunc.is_affected(*di) <= AFF_NO)
@@ -1038,9 +1039,26 @@ bool stop_attack_prompt(targeter &hitfunc, const char* verb,
             // record the adjectives for the first listed, or
             // first that would cause penance
             if (victims.empty() || penancen && !penance)
-                adj = adjn, suffix = suffixn, penance = penancen;
+                suffix = suffixn, penance = penancen;
 
             victims.add(mon);
+
+            // Note: DESC_THE will prepend "your" for friendly monsters
+            string mon_name = mon->name(DESC_THE, false, false);
+            if (!adjn.empty() && !starts_with(adjn, "your "))
+            {
+                if (starts_with(mon_name, "the "))
+                {
+                    // "the peaceful orc"
+                    mon_name = mon_name.replace(0, 4, "the " + adjn);
+                }
+                else
+                {
+                    mon_name = adjn + mon_name;
+                }
+            }
+
+            victim_names.push_back(mon_name);
 
             if (defender && defender == mon)
                 defender_ok = false;
@@ -1051,17 +1069,36 @@ bool stop_attack_prompt(targeter &hitfunc, const char* verb,
         return false;
 
     // Listed in the form: "your rat", "Blork the orc".
-    string mon_name = victims.describe(DESC_PLAIN);
-    if (starts_with(mon_name, "the ")) // no "your the Royal Jelly" nor "the the RJ"
-        mon_name = mon_name.substr(4); // strlen("the ")
-    if (!starts_with(adj, "your"))
-        adj = "the " + adj;
-    mon_name = adj + mon_name;
+    string mon_names;
+    for (size_t i = 0; i < victim_names.size(); i++)
+    {
+        mon_names += (i == 0 ? "" : (i == victim_names.size()-1 ? " and " : ", "));
+        mon_names += victim_names[i];
+    }
 
-    const string prompt = make_stringf("Really %s%s %s%s?%s",
-             verb, defender_ok ? " near" : "", mon_name.c_str(),
-             suffix.c_str(),
-             penance ? " This attack would place you under penance!" : "");
+    string fmt;
+    string prompt;
+    if (!suffix.empty())
+    {
+        fmt = "Really attack %s" + suffix + "?";
+    }
+    else
+    {
+        if (!defender_ok)
+        {
+            fmt = "Really attack %s?";
+        }
+        else
+        {
+            fmt = "Really do that near %s?";
+        }
+    }
+    prompt = localize(fmt, mon_names);
+
+    if (penance)
+    {
+        prompt += " " + localize("This attack would place you under penance!");
+    }
 
     if (prompted)
         *prompted = true;
@@ -1083,9 +1120,10 @@ bool stop_attack_prompt(targeter &hitfunc, const char* verb,
  * sight when OTR is active, regardless of how they entered LOS.
  *
  * @param verb    The verb to be used in the prompt. Defaults to "summon".
+ * @param target  The object of the verb
  * @return        True if the player wants to abort.
  */
-bool otr_stop_summoning_prompt(string verb)
+bool otr_stop_summoning_prompt(const string& verb, const string& target)
 {
     if (!you.duration[DUR_TOXIC_RADIANCE])
         return false;
@@ -1096,8 +1134,15 @@ bool otr_stop_summoning_prompt(string verb)
     if (crawl_state.which_god_acting() == GOD_XOM)
         return false;
 
-    string prompt = make_stringf("Really %s while emitting a toxic aura?",
-                                 verb.c_str());
+    string prompt;
+    if (target.empty())
+    {
+        prompt = localize("Really " + verb + " while emitting a toxic aura?");
+    }
+    else
+    {
+        prompt = localize("Really " + verb + " %s while emitting a toxic aura?", target);
+    }
 
     if (yesno(prompt.c_str(), false, 'n'))
         return false;

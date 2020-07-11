@@ -4008,3 +4008,1840 @@ msgstr "eines harten gespürten Monsters"
 msgctxt "gen"
 msgid "a nasty sensed monster"
 msgstr "eines furchtbaren gespürten Monsters"
+
+################################
+# allies
+################################
+
+msgctxt "gen"
+msgid "your program bug"
+msgstr "deines Programmfehlers"
+
+msgctxt "gen"
+msgid "your worker ant"
+msgstr "deiner Ameisenarbeiterin"
+
+msgctxt "gen"
+msgid "your queen ant"
+msgstr "deiner Ameisenkönigin"
+
+msgctxt "gen"
+msgid "your soldier ant"
+msgstr "deiner Ameisensoldatin"
+
+msgctxt "gen"
+msgid "your formicid"
+msgstr "deines Formicids"
+
+msgctxt "gen"
+msgid "your entropy weaver"
+msgstr "deines Entropiewebers"
+
+msgctxt "gen"
+msgid "your bat"
+msgstr "deiner Fledermaus"
+
+msgctxt "gen"
+msgid "your butterfly"
+msgstr "deines Schmetterlings"
+
+msgctxt "gen"
+msgid "your vampire bat"
+msgstr "deiner Vampirfledermaus"
+
+msgctxt "gen"
+msgid "your fire bat"
+msgstr "deiner Feuerfledermaus"
+
+msgctxt "gen"
+msgid "your bennu"
+msgstr "deines Bennus"
+
+msgctxt "gen"
+msgid "your caustic shrike"
+msgstr "deines ätzenden Würgers"
+
+msgctxt "gen"
+msgid "your shard shrike"
+msgstr "deines Scherbenwürgers"
+
+msgctxt "gen"
+msgid "your centaur"
+msgstr "deines Zentaurs"
+
+msgctxt "gen"
+msgid "your centaur warrior"
+msgstr "deines Zentaur-Kriegers"
+
+msgctxt "gen"
+msgid "your yaktaur"
+msgstr "deines Yaktaurs"
+
+msgctxt "gen"
+msgid "your yaktaur captain"
+msgstr "deines Yaktaur-Kapitäns"
+
+msgctxt "gen"
+msgid "your faun"
+msgstr "deines Fauns"
+
+msgctxt "gen"
+msgid "your satyr"
+msgstr "deines Satyrs"
+
+msgctxt "gen"
+msgid "your draconian"
+msgstr "deines Drakoniers"
+
+msgctxt "gen"
+msgid "your black draconian"
+msgstr "deines schwarzen Drakoniers"
+
+msgctxt "gen"
+msgid "your yellow draconian"
+msgstr "deines gelben Drakoniers"
+
+msgctxt "gen"
+msgid "your pale draconian"
+msgstr "deines blassen Drakoniers"
+
+msgctxt "gen"
+msgid "your green draconian"
+msgstr "deines grünen Drakoniers"
+
+msgctxt "gen"
+msgid "your purple draconian"
+msgstr "deines purpurnen Drakoniers"
+
+msgctxt "gen"
+msgid "your red draconian"
+msgstr "deines roten Drakoniers"
+
+msgctxt "gen"
+msgid "your white draconian"
+msgstr "deines weißen Drakoniers"
+
+msgctxt "gen"
+msgid "your grey draconian"
+msgstr "deines grauen Drakoniers"
+
+msgctxt "gen"
+msgid "your draconian stormcaller"
+msgstr "deines Drakonier-Sturmrufers"
+
+msgctxt "gen"
+msgid "your draconian monk"
+msgstr "deines Drakonier-Mönchs"
+
+msgctxt "gen"
+msgid "your draconian shifter"
+msgstr "deines Drakonier-Verwandlers"
+
+msgctxt "gen"
+msgid "your draconian annihilator"
+msgstr "deines Drakonier-Vernichters"
+
+msgctxt "gen"
+msgid "your draconian knight"
+msgstr "deines Drakonier-Ritters"
+
+msgctxt "gen"
+msgid "your draconian scorcher"
+msgstr "deines Drakonier-Verschmorers"
+
+msgctxt "gen"
+msgid "your elf"
+msgstr "deines Elfs"
+
+msgctxt "gen"
+msgid "your deep elf knight"
+msgstr "deines Tiefenelf-Ritters"
+
+msgctxt "gen"
+msgid "your deep elf archer"
+msgstr "deines Tiefenelf-Bogenschützens"
+
+msgctxt "gen"
+msgid "your deep elf blademaster"
+msgstr "deines Tiefenelf-Klingenmeisters"
+
+msgctxt "gen"
+msgid "your deep elf master archer"
+msgstr "deines Tiefenelf-Bogenmeisters"
+
+msgctxt "gen"
+msgid "your deep elf mage"
+msgstr "deines Tiefenelf-Magiers"
+
+msgctxt "gen"
+msgid "your deep elf high priest"
+msgstr "deines Tiefenelf-Hohepriesters"
+
+msgctxt "gen"
+msgid "your deep elf demonologist"
+msgstr "deines Tiefenelf-Dämonologens"
+
+msgctxt "gen"
+msgid "your deep elf annihilator"
+msgstr "deines Tiefenelf-Vernichters"
+
+msgctxt "gen"
+msgid "your deep elf sorcerer"
+msgstr "deines Tiefenelf-Zauberers"
+
+msgctxt "gen"
+msgid "your deep elf death mage"
+msgstr "deines Tiefenelf-Todesmagiers"
+
+msgctxt "gen"
+msgid "your deep elf elementalist"
+msgstr "deines Tiefenelf-Elementalistens"
+
+msgctxt "gen"
+msgid "your wandering mushroom"
+msgstr "deines wandernden Pilzs"
+
+msgctxt "gen"
+msgid "your deathcap"
+msgstr "deiner Todesmütze"
+
+msgctxt "gen"
+msgid "your thorn hunter"
+msgstr "deines Dornenjägers"
+
+msgctxt "gen"
+msgid "your shambling mangrove"
+msgstr "deiner watschelnden Mangrove"
+
+msgctxt "gen"
+msgid "your vine stalker"
+msgstr "deines Rebjägers"
+
+msgctxt "gen"
+msgid "your goblin"
+msgstr "deines Goblins"
+
+msgctxt "gen"
+msgid "your hobgoblin"
+msgstr "deines Hobgoblins"
+
+msgctxt "gen"
+msgid "your gnoll"
+msgstr "deines Gnolls"
+
+msgctxt "gen"
+msgid "your gnoll shaman"
+msgstr "deines Gnoll-Schamanens"
+
+msgctxt "gen"
+msgid "your gnoll sergeant"
+msgstr "deines Gnoll-Wachtmeisters"
+
+msgctxt "gen"
+msgid "your boggart"
+msgstr "deines Boggarts"
+
+msgctxt "gen"
+msgid "your dwarf"
+msgstr "deines Zwergs"
+
+msgctxt "gen"
+msgid "your deep dwarf"
+msgstr "deines Tiefenzwergs"
+
+msgctxt "gen"
+msgid "your jackal"
+msgstr "deines Schakals"
+
+msgctxt "gen"
+msgid "your hound"
+msgstr "deines Hunds"
+
+msgctxt "gen"
+msgid "your howler monkey"
+msgstr "deines Brüllaffens"
+
+msgctxt "gen"
+msgid "your warg"
+msgstr "deines Wargs"
+
+msgctxt "gen"
+msgid "your wolf"
+msgstr "deines Wolfs"
+
+msgctxt "gen"
+msgid "your hog"
+msgstr "deines Schweins"
+
+msgctxt "gen"
+msgid "your hell hound"
+msgstr "deines Höllenhunds"
+
+msgctxt "gen"
+msgid "your doom hound"
+msgstr "deines Untergangshunds"
+
+msgctxt "gen"
+msgid "your raiju"
+msgstr "deines Raijus"
+
+msgctxt "gen"
+msgid "your hell hog"
+msgstr "deines höllischen Schweins"
+
+msgctxt "gen"
+msgid "your holy swine"
+msgstr "deines heiligen Schweins"
+
+msgctxt "gen"
+msgid "your felid"
+msgstr "deines Felids"
+
+msgctxt "gen"
+msgid "your bear"
+msgstr "deines Bärens"
+
+msgctxt "gen"
+msgid "your polar bear"
+msgstr "deines Eisbärens"
+
+msgctxt "gen"
+msgid "your black bear"
+msgstr "deines Schwarzbärens"
+
+msgctxt "gen"
+msgid "your spriggan"
+msgstr "deines Spriggans"
+
+msgctxt "gen"
+msgid "your spriggan rider"
+msgstr "deines Spriggan-Reiters"
+
+msgctxt "gen"
+msgid "your spriggan druid"
+msgstr "deines Spriggan-Druidens"
+
+msgctxt "gen"
+msgid "your spriggan berserker"
+msgstr "deines Spriggan-Berserkers"
+
+msgctxt "gen"
+msgid "your spriggan air mage"
+msgstr "deines Spriggan-Luftmagiers"
+
+msgctxt "gen"
+msgid "your spriggan defender"
+msgstr "deines Spriggan-Verteidigers"
+
+msgctxt "gen"
+msgid "your drake"
+msgstr "deines Drachlings"
+
+msgctxt "gen"
+msgid "your swamp drake"
+msgstr "deines Sumpfdrachlings"
+
+msgctxt "gen"
+msgid "your rime drake"
+msgstr "deines Reifsdrachlings"
+
+msgctxt "gen"
+msgid "your wind drake"
+msgstr "deines Winddrachlings"
+
+msgctxt "gen"
+msgid "your lindwurm"
+msgstr "deines Lindwurms"
+
+msgctxt "gen"
+msgid "your death drake"
+msgstr "deines Todesdrachens"
+
+msgctxt "gen"
+msgid "your giant lizard"
+msgstr "deiner Rieseneidechse"
+
+msgctxt "gen"
+msgid "your frilled lizard"
+msgstr "deiner gekräuselten Eidechse"
+
+msgctxt "gen"
+msgid "your leopard gecko"
+msgstr "deines Leopardgeckos"
+
+msgctxt "gen"
+msgid "your iguana"
+msgstr "deines Leguans"
+
+msgctxt "gen"
+msgid "your basilisk"
+msgstr "deines Basilisks"
+
+msgctxt "gen"
+msgid "your wyvern"
+msgstr "deines Wyverns"
+
+msgctxt "gen"
+msgid "your komodo dragon"
+msgstr "deines Komododrachens"
+
+msgctxt "gen"
+msgid "your merfolk"
+msgstr "deines Meervolks"
+
+msgctxt "gen"
+msgid "your merfolk impaler"
+msgstr "deines Meervolk-Impalers"
+
+msgctxt "gen"
+msgid "your merfolk javelineer"
+msgstr "deines Meervolk-Speerführers"
+
+msgctxt "gen"
+msgid "your merfolk aquamancer"
+msgstr "deines Meervolk-Aquamancers"
+
+msgctxt "gen"
+msgid "your merfolk siren"
+msgstr "deiner Meervolk-Sirene"
+
+msgctxt "gen"
+msgid "your merfolk avatar"
+msgstr "deines Meervolk-Avatars"
+
+msgctxt "gen"
+msgid "your water nymph"
+msgstr "deiner Wassernymphe"
+
+msgctxt "gen"
+msgid "your bog body"
+msgstr "deiner Moorleiche"
+
+msgctxt "gen"
+msgid "your necrophage"
+msgstr "deines Nekrophagens"
+
+msgctxt "gen"
+msgid "your ghoul"
+msgstr "deines Ghuls"
+
+msgctxt "gen"
+msgid "your orc"
+msgstr "deines Orks"
+
+msgctxt "gen"
+msgid "your orc wizard"
+msgstr "deines Ork-Zauberers"
+
+msgctxt "gen"
+msgid "your orc priest"
+msgstr "deines Ork-Priesters"
+
+msgctxt "gen"
+msgid "your orc warrior"
+msgstr "deines Ork-Kriegers"
+
+msgctxt "gen"
+msgid "your orc knight"
+msgstr "deines Ork-Ritters"
+
+msgctxt "gen"
+msgid "your orc warlord"
+msgstr "deines Ork-Warlords"
+
+msgctxt "gen"
+msgid "your orc sorcerer"
+msgstr "deines Ork-Hexenmeisters"
+
+msgctxt "gen"
+msgid "your orc high priest"
+msgstr "deines Ork-Hohepriesters"
+
+msgctxt "gen"
+msgid "your lava orc"
+msgstr "deines Lava-Orks"
+
+msgctxt "gen"
+msgid "your human"
+msgstr "deines Menschens"
+
+msgctxt "gen"
+msgid "your slave"
+msgstr "deines Sklavens"
+
+msgctxt "gen"
+msgid "your hell knight"
+msgstr "deines Höllenritters"
+
+msgctxt "gen"
+msgid "your death knight"
+msgstr "deines Todesritters"
+
+msgctxt "gen"
+msgid "your necromancer"
+msgstr "deines Nekromantens"
+
+msgctxt "gen"
+msgid "your wizard"
+msgstr "deines Zauberers"
+
+msgctxt "gen"
+msgid "your vault guard"
+msgstr "deines Tresorwächters"
+
+msgctxt "gen"
+msgid "your vault sentinel"
+msgstr "deiner Tresorwache"
+
+msgctxt "gen"
+msgid "your vault warden"
+msgstr "deines Tresorwärters"
+
+msgctxt "gen"
+msgid "your ironbrand convoker"
+msgstr "deines Eisenbrandeinberufers"
+
+msgctxt "gen"
+msgid "your imperial myrmidon"
+msgstr "deines kaiserlichen Myrmidons"
+
+msgctxt "gen"
+msgid "your servant of whispers"
+msgstr "deines Dieners des Flüsterns"
+
+msgctxt "gen"
+msgid "your ragged hierophant"
+msgstr "deines zerlumpten Hierophantens"
+
+msgctxt "gen"
+msgid "your ironheart preserver"
+msgstr "deines Eisenherzbewahrers"
+
+msgctxt "gen"
+msgid "your shapeshifter"
+msgstr "deines Gestaltwandlers"
+
+msgctxt "gen"
+msgid "your glowing shapeshifter"
+msgstr "deines leuchtenden Gestaltwandlers"
+
+msgctxt "gen"
+msgid "your Killer Klown"
+msgstr "deines Killer-Klowns"
+
+msgctxt "gen"
+msgid "your demigod"
+msgstr "deines Halbgotts"
+
+msgctxt "gen"
+msgid "your halfling"
+msgstr "deines Halblings"
+
+msgctxt "gen"
+msgid "your rat"
+msgstr "deiner Ratte"
+
+msgctxt "gen"
+msgid "your quokka"
+msgstr "deines Quokkas"
+
+msgctxt "gen"
+msgid "your river rat"
+msgstr "deiner Flussratte"
+
+msgctxt "gen"
+msgid "your hell rat"
+msgstr "deiner Höllenratte"
+
+msgctxt "gen"
+msgid "your porcupine"
+msgstr "deines Stachelschweins"
+
+msgctxt "gen"
+msgid "your giant cockroach"
+msgstr "deiner Riesenkakerlake"
+
+msgctxt "gen"
+msgid "your scorpion"
+msgstr "deines Skorpions"
+
+msgctxt "gen"
+msgid "your emperor scorpion"
+msgstr "deines Kaiserskorpions"
+
+msgctxt "gen"
+msgid "your death scarab"
+msgstr "deines Todesskarabäus"
+
+msgctxt "gen"
+msgid "your spider"
+msgstr "deiner Spinne"
+
+msgctxt "gen"
+msgid "your tarantella"
+msgstr "deiner Tarantella"
+
+msgctxt "gen"
+msgid "your jumping spider"
+msgstr "deiner springenden Spinne"
+
+msgctxt "gen"
+msgid "your wolf spider"
+msgstr "deiner Wolfsspinne"
+
+msgctxt "gen"
+msgid "your redback"
+msgstr "deiner Rotrückenspinne"
+
+msgctxt "gen"
+msgid "your demonic crawler"
+msgstr "deines dämonischen Kriechers"
+
+msgctxt "gen"
+msgid "your orb spider"
+msgstr "deiner Kugelspinne"
+
+msgctxt "gen"
+msgid "your crocodile"
+msgstr "deines Krokodils"
+
+msgctxt "gen"
+msgid "your alligator"
+msgstr "deines Alligators"
+
+msgctxt "gen"
+msgid "your snapping turtle"
+msgstr "deiner Schnappschildkröte"
+
+msgctxt "gen"
+msgid "your alligator snapping turtle"
+msgstr "deiner Alligatorschnappschildkröte"
+
+msgctxt "gen"
+msgid "your crab"
+msgstr "deiner Krabbe"
+
+msgctxt "gen"
+msgid "your fire crab"
+msgstr "deiner Feuerkrabbe"
+
+msgctxt "gen"
+msgid "your ghost crab"
+msgstr "deiner Geisterkrabbe"
+
+msgctxt "gen"
+msgid "your apocalypse crab"
+msgstr "deiner Apokalypse-Krabbe"
+
+msgctxt "gen"
+msgid "your ugly thing"
+msgstr "deines hässlichen Dings"
+
+msgctxt "gen"
+msgid "your very ugly thing"
+msgstr "deines sehr hässlichen Dings"
+
+msgctxt "gen"
+msgid "your fire vortex"
+msgstr "deines Feuerwirbels"
+
+msgctxt "gen"
+msgid "your spatial vortex"
+msgstr "deines räumlichen Wirbels"
+
+msgctxt "gen"
+msgid "your spatial maelstrom"
+msgstr "deines räumlichen Mahlstroms"
+
+msgctxt "gen"
+msgid "your insubstantial wisp"
+msgstr "deines unwesentlichen Irrlichts"
+
+msgctxt "gen"
+msgid "your twister"
+msgstr "deines Twisters"
+
+msgctxt "gen"
+msgid "your worm"
+msgstr "deines Wurms"
+
+msgctxt "gen"
+msgid "your swamp worm"
+msgstr "deines Sumpfwurms"
+
+msgctxt "gen"
+msgid "your tyrant leech"
+msgstr "deines Tyrannblutegels"
+
+msgctxt "gen"
+msgid "your dart slug"
+msgstr "deiner Pfeilschnecke"
+
+msgctxt "gen"
+msgid "your torpor snail"
+msgstr "deiner Erstarrungsschnecke"
+
+msgctxt "gen"
+msgid "your elephant slug"
+msgstr "deiner Elefantenschnecke"
+
+msgctxt "gen"
+msgid "your unseen horror"
+msgstr "deines unsichtbaren Grauens"
+
+msgctxt "gen"
+msgid "your small abomination"
+msgstr "deines kleinen Greuels"
+
+msgctxt "gen"
+msgid "your crawling corpse"
+msgstr "deiner kriechenden Leiche"
+
+msgctxt "gen"
+msgid "your macabre mass"
+msgstr "deiner makaberen Masse"
+
+msgctxt "gen"
+msgid "your ancient zyme"
+msgstr "deines alten Zymens"
+
+msgctxt "gen"
+msgid "your worldbinder"
+msgstr "deines Weltbinders"
+
+msgctxt "gen"
+msgid "your killer bee"
+msgstr "deiner Killerbiene"
+
+msgctxt "gen"
+msgid "your queen bee"
+msgstr "deiner Bienenkönigin"
+
+msgctxt "gen"
+msgid "your vampire mosquito"
+msgstr "deiner Vampir-Mücke"
+
+msgctxt "gen"
+msgid "your hornet"
+msgstr "deiner Hornisse"
+
+msgctxt "gen"
+msgid "your meliai"
+msgstr "deiner Meliai"
+
+msgctxt "gen"
+msgid "your spark wasp"
+msgstr "deiner Funkenwespe"
+
+msgctxt "gen"
+msgid "your moth"
+msgstr "deiner Motte"
+
+msgctxt "gen"
+msgid "your ghost moth"
+msgstr "deiner Geistermotte"
+
+msgctxt "gen"
+msgid "your moth of wrath"
+msgstr "deiner Motte des Zorns"
+
+msgctxt "gen"
+msgid "your wight"
+msgstr "deines Wights"
+
+msgctxt "gen"
+msgid "your skeletal warrior"
+msgstr "deines Skelettkriegers"
+
+msgctxt "gen"
+msgid "your ancient champion"
+msgstr "deines alten Champions"
+
+msgctxt "gen"
+msgid "your flying skull"
+msgstr "deines fliegenden Schädels"
+
+msgctxt "gen"
+msgid "your curse skull"
+msgstr "deines Fluchschädels"
+
+msgctxt "gen"
+msgid "your curse toe"
+msgstr "deines Fluchzehens"
+
+msgctxt "gen"
+msgid "your angel"
+msgstr "deines Engels"
+
+msgctxt "gen"
+msgid "your cherub"
+msgstr "deines Cherubs"
+
+msgctxt "gen"
+msgid "your seraph"
+msgstr "deines Seraphs"
+
+msgctxt "gen"
+msgid "your daeva"
+msgstr "deines Daevas"
+
+msgctxt "gen"
+msgid "your profane servitor"
+msgstr "deines profanen Dieners"
+
+msgctxt "gen"
+msgid "your giant"
+msgstr "deines Riesens"
+
+msgctxt "gen"
+msgid "your cyclops"
+msgstr "deines Zyklops"
+
+msgctxt "gen"
+msgid "your ettin"
+msgstr "deines Ettins"
+
+msgctxt "gen"
+msgid "your fire giant"
+msgstr "deines Feuerriesens"
+
+msgctxt "gen"
+msgid "your frost giant"
+msgstr "deines Frostriesens"
+
+msgctxt "gen"
+msgid "your stone giant"
+msgstr "deines Steinriesens"
+
+msgctxt "gen"
+msgid "your titan"
+msgstr "deines Titans"
+
+msgctxt "gen"
+msgid "your juggernaut"
+msgstr "deines Juggernauts"
+
+msgctxt "gen"
+msgid "your iron giant"
+msgstr "deines Eisenriesens"
+
+msgctxt "gen"
+msgid "your dragon"
+msgstr "deines Drachens"
+
+msgctxt "gen"
+msgid "your fire dragon"
+msgstr "deines Feuerdrachens"
+
+msgctxt "gen"
+msgid "your hydra"
+msgstr "deiner Hydra"
+
+msgctxt "gen"
+msgid "your %d-headed hydra"
+msgstr "deiner %d-köpfigen Hydra"
+
+msgctxt "gen"
+msgid "your ice dragon"
+msgstr "deines Eisdrachens"
+
+msgctxt "gen"
+msgid "your steam dragon"
+msgstr "deines Dampfdrachens"
+
+msgctxt "gen"
+msgid "your swamp dragon"
+msgstr "deines Sumpfdrachens"
+
+msgctxt "gen"
+msgid "your acid dragon"
+msgstr "deines Säuredrachens"
+
+msgctxt "gen"
+msgid "your quicksilver dragon"
+msgstr "deines Quecksilberdrachens"
+
+msgctxt "gen"
+msgid "your iron dragon"
+msgstr "deines Eisendrachens"
+
+msgctxt "gen"
+msgid "your storm dragon"
+msgstr "deines Sturmdrachens"
+
+msgctxt "gen"
+msgid "your golden dragon"
+msgstr "deines Golddrachens"
+
+msgctxt "gen"
+msgid "your shadow dragon"
+msgstr "deines Schattendrachens"
+
+msgctxt "gen"
+msgid "your bone dragon"
+msgstr "deines Knochendrachens"
+
+msgctxt "gen"
+msgid "your pearl dragon"
+msgstr "deines Perlendrachens"
+
+msgctxt "gen"
+msgid "your elemental"
+msgstr "deines Elementars"
+
+msgctxt "gen"
+msgid "your earth elemental"
+msgstr "deines Erdelementars"
+
+msgctxt "gen"
+msgid "your fire elemental"
+msgstr "deines Feuerelementars"
+
+msgctxt "gen"
+msgid "your water elemental"
+msgstr "deines Wasserelementars"
+
+msgctxt "gen"
+msgid "your air elemental"
+msgstr "deines Luftelementars"
+
+msgctxt "gen"
+msgid "your iron elemental"
+msgstr "deines Eisenelementars"
+
+msgctxt "gen"
+msgid "your elemental wellspring"
+msgstr "deiner elementaren Quelle"
+
+msgctxt "gen"
+msgid "your giant frog"
+msgstr "deines Riesenfroschs"
+
+msgctxt "gen"
+msgid "your bullfrog"
+msgstr "deines Ochsenfroschs"
+
+msgctxt "gen"
+msgid "your spiny frog"
+msgstr "deines Stachelfroschs"
+
+msgctxt "gen"
+msgid "your blink frog"
+msgstr "deines Blinzelfroschs"
+
+msgctxt "gen"
+msgid "your barachi"
+msgstr "deiner Barachi"
+
+msgctxt "gen"
+msgid "your floating eye"
+msgstr "deines schwebenden Auges"
+
+msgctxt "gen"
+msgid "your eye of draining"
+msgstr "deines Auges des Schwächens"
+
+msgctxt "gen"
+msgid "your glowing orange brain"
+msgstr "deines orangen leuchtenden Gehirns"
+
+msgctxt "gen"
+msgid "your great orb of eyes"
+msgstr "deines großen Augenkugels"
+
+msgctxt "gen"
+msgid "your shining eye"
+msgstr "deines leuchtenden Auges"
+
+msgctxt "gen"
+msgid "your eye of devastation"
+msgstr "deines Auge der Verwüstungs"
+
+msgctxt "gen"
+msgid "your golden eye"
+msgstr "deines goldenen Auges"
+
+msgctxt "gen"
+msgid "your ophan"
+msgstr "deines Ophans"
+
+msgctxt "gen"
+msgid "your hippogriff"
+msgstr "deines Hippogriffs"
+
+msgctxt "gen"
+msgid "your manticore"
+msgstr "deines Mantikors"
+
+msgctxt "gen"
+msgid "your minotaur"
+msgstr "deines Minotaurus"
+
+msgctxt "gen"
+msgid "your sphinx"
+msgstr "deiner Sphinx"
+
+msgctxt "gen"
+msgid "your harpy"
+msgstr "deiner Harpyie"
+
+msgctxt "gen"
+msgid "your mutant beast"
+msgstr "deiner mutierten Bestie"
+
+msgctxt "gen"
+msgid "your ancestor"
+msgstr "deines Ahnens"
+
+msgctxt "gen"
+msgid "your knight"
+msgstr "deines Ritters"
+
+msgctxt "gen"
+msgid "your battlemage"
+msgstr "deines Kampfmagiers"
+
+msgctxt "gen"
+msgid "your hexer"
+msgstr "deines Hexers"
+
+msgctxt "gen"
+msgid "your ooze"
+msgstr "deines Schlamms"
+
+msgctxt "gen"
+msgid "your jelly"
+msgstr "deines Gelees"
+
+msgctxt "gen"
+msgid "your slime creature"
+msgstr "deines Schleimwesens"
+
+msgctxt "gen"
+msgid "your merged slime creature"
+msgstr "deiner verschmolzenen Schleimkreatur"
+
+msgctxt "gen"
+msgid "your azure jelly"
+msgstr "deines azurblauen Gelees"
+
+msgctxt "gen"
+msgid "your death ooze"
+msgstr "deines Todesschlamms"
+
+msgctxt "gen"
+msgid "your acid blob"
+msgstr "deines Säureklumpens"
+
+msgctxt "gen"
+msgid "your kobold"
+msgstr "deines Kobolds"
+
+msgctxt "gen"
+msgid "your big kobold"
+msgstr "deines großen Kobolds"
+
+msgctxt "gen"
+msgid "your kobold demonologist"
+msgstr "deines Kobold-Dämonologens"
+
+msgctxt "gen"
+msgid "your lich"
+msgstr "deines Lichs"
+
+msgctxt "gen"
+msgid "your ancient lich"
+msgstr "deines alten Lichs"
+
+msgctxt "gen"
+msgid "your revenant"
+msgstr "deines Wiedergängers"
+
+msgctxt "gen"
+msgid "your halazid warlock"
+msgstr "deines halazidischen Hexenmeisters"
+
+msgctxt "gen"
+msgid "your mummy"
+msgstr "deiner Mumie"
+
+msgctxt "gen"
+msgid "your guardian mummy"
+msgstr "deiner Wächtermumie"
+
+msgctxt "gen"
+msgid "your greater mummy"
+msgstr "deiner größeren Mumie"
+
+msgctxt "gen"
+msgid "your mummy priest"
+msgstr "deines Mumie-Priesters"
+
+msgctxt "gen"
+msgid "your naga"
+msgstr "deines Nagas"
+
+msgctxt "gen"
+msgid "your naga mage"
+msgstr "deines Naga-Magiers"
+
+msgctxt "gen"
+msgid "your naga sharpshooter"
+msgstr "deines Naga-Scharfschützens"
+
+msgctxt "gen"
+msgid "your naga ritualist"
+msgstr "deines Naga-Ritualistens"
+
+msgctxt "gen"
+msgid "your naga warrior"
+msgstr "deines Naga-Kriegers"
+
+msgctxt "gen"
+msgid "your nagaraja"
+msgstr "deines Nagarajas"
+
+msgctxt "gen"
+msgid "your ogre"
+msgstr "deines Ogers"
+
+msgctxt "gen"
+msgid "your two-headed ogre"
+msgstr "deines zweiköpfigen Ogers"
+
+msgctxt "gen"
+msgid "your ogre mage"
+msgstr "deines Oger-Magiers"
+
+msgctxt "gen"
+msgid "your plant"
+msgstr "deiner Pflanze"
+
+msgctxt "gen"
+msgid "your demonic plant"
+msgstr "deiner dämonischen Pflanze"
+
+msgctxt "gen"
+msgid "your withered plant"
+msgstr "deiner verwelkten Pflanze"
+
+msgctxt "gen"
+msgid "your oklob sapling"
+msgstr "deines Oklob-Setzlings"
+
+msgctxt "gen"
+msgid "your oklob plant"
+msgstr "deiner Oklob-Pflanze"
+
+msgctxt "gen"
+msgid "your bush"
+msgstr "deines Buschs"
+
+msgctxt "gen"
+msgid "your burning bush"
+msgstr "deines brennenden Buschs"
+
+msgctxt "gen"
+msgid "your toadstool"
+msgstr "deines Giftpilzs"
+
+msgctxt "gen"
+msgid "your fungus"
+msgstr "deines Pilzs"
+
+msgctxt "gen"
+msgid "your ballistomycete"
+msgstr "deines Ballistomycetens"
+
+msgctxt "gen"
+msgid "your hyperactive ballistomycete"
+msgstr "deines hyperaktiven Ballistomycetens"
+
+msgctxt "gen"
+msgid "your briar patch"
+msgstr "deines Dornstrauchs"
+
+msgctxt "gen"
+msgid "your tengu"
+msgstr "deines Tengus"
+
+msgctxt "gen"
+msgid "your tengu conjurer"
+msgstr "deines Tengu-Zauberers"
+
+msgctxt "gen"
+msgid "your tengu warrior"
+msgstr "deines Tengu-Kriegers"
+
+msgctxt "gen"
+msgid "your tengu reaver"
+msgstr "deines Tengu-Häschers"
+
+msgctxt "gen"
+msgid "your efreet"
+msgstr "deines Efreets"
+
+msgctxt "gen"
+msgid "your rakshasa"
+msgstr "deines Rakshasas"
+
+msgctxt "gen"
+msgid "your dryad"
+msgstr "deiner Dryade"
+
+msgctxt "gen"
+msgid "your snaplasher vine"
+msgstr "deiner Peitscherrebe"
+
+msgctxt "gen"
+msgid "your snaplasher vine segment"
+msgstr "deines Peitscherrebesegments"
+
+msgctxt "gen"
+msgid "your snake"
+msgstr "deiner Schlange"
+
+msgctxt "gen"
+msgid "your ball python"
+msgstr "deiner Kugelpython"
+
+msgctxt "gen"
+msgid "your adder"
+msgstr "deiner Kreuzotter"
+
+msgctxt "gen"
+msgid "your water moccasin"
+msgstr "deines Wassermokassins"
+
+msgctxt "gen"
+msgid "your black mamba"
+msgstr "deiner schwarzen Mamba"
+
+msgctxt "gen"
+msgid "your sea snake"
+msgstr "deiner Seeschlange"
+
+msgctxt "gen"
+msgid "your anaconda"
+msgstr "deiner Anakonda"
+
+msgctxt "gen"
+msgid "your guardian serpent"
+msgstr "deiner Wächter-Schlange"
+
+msgctxt "gen"
+msgid "your shock serpent"
+msgstr "deiner Schockschlange"
+
+msgctxt "gen"
+msgid "your mana viper"
+msgstr "deiner Manaviper"
+
+msgctxt "gen"
+msgid "your troll"
+msgstr "deines Trolls"
+
+msgctxt "gen"
+msgid "your iron troll"
+msgstr "deines Eisentrolls"
+
+msgctxt "gen"
+msgid "your deep troll"
+msgstr "deines Tiefentrolls"
+
+msgctxt "gen"
+msgid "your deep troll earth mage"
+msgstr "deines Tiefentroll-Erdmagiers"
+
+msgctxt "gen"
+msgid "your deep troll shaman"
+msgstr "deines Tiefentroll-Schamanens"
+
+msgctxt "gen"
+msgid "your vampire"
+msgstr "deines Vampirs"
+
+msgctxt "gen"
+msgid "your vampire knight"
+msgstr "deines Vampir-Ritters"
+
+msgctxt "gen"
+msgid "your vampire mage"
+msgstr "deines Vampir-Magiers"
+
+msgctxt "gen"
+msgid "your jiangshi"
+msgstr "deines Jiangshis"
+
+msgctxt "gen"
+msgid "your ghost"
+msgstr "deines Gespensts"
+
+msgctxt "gen"
+msgid "your phantom"
+msgstr "deines Phantoms"
+
+msgctxt "gen"
+msgid "your hungry ghost"
+msgstr "deines hungrigen Geistens"
+
+msgctxt "gen"
+msgid "your flayed ghost"
+msgstr "deines enthäuteten Geistens"
+
+msgctxt "gen"
+msgid "your player ghost"
+msgstr "deines Spielergeistens"
+
+msgctxt "gen"
+msgid "your shadow"
+msgstr "deines Schattens"
+
+msgctxt "gen"
+msgid "your silent spectre"
+msgstr "deines stillen Gespensts"
+
+msgctxt "gen"
+msgid "your drowned soul"
+msgstr "deiner ertrunkenen Seele"
+
+msgctxt "gen"
+msgid "your wraith"
+msgstr "deines Geistens"
+
+msgctxt "gen"
+msgid "your shadow wraith"
+msgstr "deines Schattengeistens"
+
+msgctxt "gen"
+msgid "your freezing wraith"
+msgstr "deines Frostgeistens"
+
+msgctxt "gen"
+msgid "your eidolon"
+msgstr "deines Eidolons"
+
+msgctxt "gen"
+msgid "your phantasmal warrior"
+msgstr "deines phantastischen Kriegers"
+
+msgctxt "gen"
+msgid "your large abomination"
+msgstr "deines großen Greuels"
+
+msgctxt "gen"
+msgid "your thrashing horror"
+msgstr "deines verprügelnden Grauens"
+
+msgctxt "gen"
+msgid "your tentacled monstrosity"
+msgstr "deiner Tentakel-Monstrosität"
+
+msgctxt "gen"
+msgid "your Orb Guardian"
+msgstr "deines Kugelwächters"
+
+msgctxt "gen"
+msgid "your tentacled starspawn"
+msgstr "deines Tentakelsternbruts"
+
+msgctxt "gen"
+msgid "your starspawn tentacle"
+msgstr "deines Sternbruttentakels"
+
+msgctxt "gen"
+msgid "your starspawn tentacle segment"
+msgstr "deines Sternbruttentakelsegments"
+
+msgctxt "gen"
+msgid "your starcursed mass"
+msgstr "deiner sternverfluchten Masse"
+
+msgctxt "gen"
+msgid "your dream sheep"
+msgstr "deines Traumschafs"
+
+msgctxt "gen"
+msgid "your yak"
+msgstr "deines Yaks"
+
+msgctxt "gen"
+msgid "your death yak"
+msgstr "deines Todesyaks"
+
+msgctxt "gen"
+msgid "your catoblepas"
+msgstr "deiner Catoblepas"
+
+msgctxt "gen"
+msgid "your elephant"
+msgstr "deines Elefantens"
+
+msgctxt "gen"
+msgid "your dire elephant"
+msgstr "deines Schreckenselefantens"
+
+msgctxt "gen"
+msgid "your hellephant"
+msgstr "deines Höllefantens"
+
+msgctxt "gen"
+msgid "your apis"
+msgstr "deiner Apis"
+
+msgctxt "gen"
+msgid "your ice beast"
+msgstr "deiner Eisbestie"
+
+msgctxt "gen"
+msgid "your sky beast"
+msgstr "deines Himmelstiers"
+
+msgctxt "gen"
+msgid "your zombie"
+msgstr "deines Zombies"
+
+msgctxt "gen"
+msgid "your skeleton"
+msgstr "deines Skeletts"
+
+msgctxt "gen"
+msgid "your simulacrum"
+msgstr "deines Simulacrums"
+
+msgctxt "gen"
+msgid "your small zombie"
+msgstr "deines kleinen Zombies"
+
+msgctxt "gen"
+msgid "your small skeleton"
+msgstr "deines kleinen Skeletts"
+
+msgctxt "gen"
+msgid "your small simulacrum"
+msgstr "deines kleinen Simulacrums"
+
+msgctxt "gen"
+msgid "your large zombie"
+msgstr "deines großen Zombies"
+
+msgctxt "gen"
+msgid "your large skeleton"
+msgstr "deines großen Skeletts"
+
+msgctxt "gen"
+msgid "your large simulacrum"
+msgstr "deines großen Simulacrums"
+
+msgctxt "gen"
+msgid "your spectral thing"
+msgstr "deiner spektralen Sache"
+
+msgctxt "gen"
+msgid "your electric eel"
+msgstr "deines Zitteraals"
+
+msgctxt "gen"
+msgid "your kraken"
+msgstr "deines Krakens"
+
+msgctxt "gen"
+msgid "your tentacle"
+msgstr "deines Tentakels"
+
+msgctxt "gen"
+msgid "your tentacle segment"
+msgstr "deines Tentakelsegments"
+
+msgctxt "gen"
+msgid "your octopode"
+msgstr "deines Oktopods"
+
+msgctxt "gen"
+msgid "your lava snake"
+msgstr "deiner Lavaschlange"
+
+msgctxt "gen"
+msgid "your salamander"
+msgstr "deines Salamanders"
+
+msgctxt "gen"
+msgid "your salamander mystic"
+msgstr "deines Salamander-Mystikers"
+
+msgctxt "gen"
+msgid "your Hellbinder"
+msgstr "deines Höllenbinders"
+
+msgctxt "gen"
+msgid "your Cloud Mage"
+msgstr "deines Wolkenmagiers"
+
+msgctxt "gen"
+msgid "your player"
+msgstr "deines Spielers"
+
+msgctxt "gen"
+msgid "your player illusion"
+msgstr "deiner Spieler-Illusion"
+
+msgctxt "gen"
+msgid "your dancing weapon"
+msgstr "deiner tanzenden Waffe"
+
+msgctxt "gen"
+msgid "your spectral weapon"
+msgstr "deiner Spektralwaffe"
+
+msgctxt "gen"
+msgid "your eldritch tentacle"
+msgstr "deines unheimlichen Tentakels"
+
+msgctxt "gen"
+msgid "your eldritch tentacle segment"
+msgstr "deines unheimlichen Tentakelsegments"
+
+msgctxt "gen"
+msgid "your demonspawn"
+msgstr "deiner Dämonenbrut"
+
+msgctxt "gen"
+msgid "your monstrous demonspawn"
+msgstr "deiner monströsen Dämonenbrut"
+
+msgctxt "gen"
+msgid "your gelid demonspawn"
+msgstr "deines geliden Dämonenbruts"
+
+msgctxt "gen"
+msgid "your infernal demonspawn"
+msgstr "deiner höllischen Dämonenbrut"
+
+msgctxt "gen"
+msgid "your torturous demonspawn"
+msgstr "deiner quälenden Dämonenbrut"
+
+msgctxt "gen"
+msgid "your blood saint"
+msgstr "deines Blutheiligens"
+
+msgctxt "gen"
+msgid "your warmonger"
+msgstr "deines Kriegstreibers"
+
+msgctxt "gen"
+msgid "your corrupter"
+msgstr "deines Korruptors"
+
+msgctxt "gen"
+msgid "your black sun"
+msgstr "deiner schwarzen Sonne"
+
+msgctxt "gen"
+msgid "your crimson imp"
+msgstr "deines karminroten Teufelchens"
+
+msgctxt "gen"
+msgid "your quasit"
+msgstr "deines Quasits"
+
+msgctxt "gen"
+msgid "your white imp"
+msgstr "deines weißen Teufelchens"
+
+msgctxt "gen"
+msgid "your ufetubus"
+msgstr "deines Ufetubus"
+
+msgctxt "gen"
+msgid "your iron imp"
+msgstr "deines Eisenteufelchens"
+
+msgctxt "gen"
+msgid "your shadow imp"
+msgstr "deines Schattenteufelchens"
+
+msgctxt "gen"
+msgid "your rust devil"
+msgstr "deines Rostteufels"
+
+msgctxt "gen"
+msgid "your orange demon"
+msgstr "deines orangen Dämons"
+
+msgctxt "gen"
+msgid "your red devil"
+msgstr "deines roten Teufels"
+
+msgctxt "gen"
+msgid "your hellwing"
+msgstr "deines Höllenflügels"
+
+msgctxt "gen"
+msgid "your ice devil"
+msgstr "deines Eisteufels"
+
+msgctxt "gen"
+msgid "your chaos spawn"
+msgstr "deiner Chaosbrut"
+
+msgctxt "gen"
+msgid "your sun demon"
+msgstr "deines Sonnendämons"
+
+msgctxt "gen"
+msgid "your soul eater"
+msgstr "deines Seelenfressers"
+
+msgctxt "gen"
+msgid "your smoke demon"
+msgstr "deines Rauchdämons"
+
+msgctxt "gen"
+msgid "your neqoxec"
+msgstr "deiner Neqoxec"
+
+msgctxt "gen"
+msgid "your ynoxinul"
+msgstr "deines Ynoxinuls"
+
+msgctxt "gen"
+msgid "your sixfirhy"
+msgstr "deines Sixfirhys"
+
+msgctxt "gen"
+msgid "your shadow demon"
+msgstr "deines Schattendämons"
+
+msgctxt "gen"
+msgid "your green death"
+msgstr "deines grünen Tods"
+
+msgctxt "gen"
+msgid "your blizzard demon"
+msgstr "deines Blizzarddämons"
+
+msgctxt "gen"
+msgid "your balrug"
+msgstr "deines Balrugs"
+
+msgctxt "gen"
+msgid "your cacodemon"
+msgstr "deines Cacodaemons"
+
+msgctxt "gen"
+msgid "your hell beast"
+msgstr "deines Höllentiers"
+
+msgctxt "gen"
+msgid "your hellion"
+msgstr "deines Teufelsbratens"
+
+msgctxt "gen"
+msgid "your reaper"
+msgstr "deines Schnitters"
+
+msgctxt "gen"
+msgid "your lorocyproca"
+msgstr "deiner Lorocyproca"
+
+msgctxt "gen"
+msgid "your tormentor"
+msgstr "deines Peinigers"
+
+msgctxt "gen"
+msgid "your Brimstone Fiend"
+msgstr "deines Schwefelunterweltlers"
+
+msgctxt "gen"
+msgid "your Ice Fiend"
+msgstr "deines Eisunterweltlers"
+
+msgctxt "gen"
+msgid "your Tzitzimitl"
+msgstr "deines Tzitzimitls"
+
+msgctxt "gen"
+msgid "your Hell Sentinel"
+msgstr "deines Höllenwächters"
+
+msgctxt "gen"
+msgid "your Executioner"
+msgstr "deines Scharfrichters"
+
+msgctxt "gen"
+msgid "your animated tree"
+msgstr "deines animierten Baums"
+
+msgctxt "gen"
+msgid "your golem"
+msgstr "deines Golems"
+
+msgctxt "gen"
+msgid "your saltling"
+msgstr "deines Salzlings"
+
+msgctxt "gen"
+msgid "your peacekeeper"
+msgstr "deines Friedenshüters"
+
+msgctxt "gen"
+msgid "your iron golem"
+msgstr "deines Eisengolems"
+
+msgctxt "gen"
+msgid "your crystal guardian"
+msgstr "deines Kristallwächters"
+
+msgctxt "gen"
+msgid "your toenail golem"
+msgstr "deines Zehennagelgolems"
+
+msgctxt "gen"
+msgid "your electric golem"
+msgstr "deines Blitzgolems"
+
+msgctxt "gen"
+msgid "your ushabti"
+msgstr "deiner Uschabti"
+
+msgctxt "gen"
+msgid "your guardian golem"
+msgstr "deines Wächtergolems"
+
+msgctxt "gen"
+msgid "your spellforged servitor"
+msgstr "deines zaubergeschmeideten Dieners"
+
+msgctxt "gen"
+msgid "your ice statue"
+msgstr "deiner Eisstatue"
+
+msgctxt "gen"
+msgid "your obsidian statue"
+msgstr "deiner Obsidianstatue"
+
+msgctxt "gen"
+msgid "your orange crystal statue"
+msgstr "deiner orangen Kristallstatue"
+
+msgctxt "gen"
+msgid "your statue"
+msgstr "deiner Statue"
+
+msgctxt "gen"
+msgid "your training dummy"
+msgstr "deiner Trainingspuppe"
+
+msgctxt "gen"
+msgid "your pillar of salt"
+msgstr "deiner Säule des Salzes"
+
+msgctxt "gen"
+msgid "your block of ice"
+msgstr "deines Eisblocks"
+
+msgctxt "gen"
+msgid "your diamond obelisk"
+msgstr "deines Diamantobelisks"
+
+msgctxt "gen"
+msgid "your lightning spire"
+msgstr "deines Blitzturms"
+
+msgctxt "gen"
+msgid "your gargoyle"
+msgstr "deines Gargoyles"
+
+msgctxt "gen"
+msgid "your war gargoyle"
+msgstr "deines Kriegsgargoyles"
+
+msgctxt "gen"
+msgid "your molten gargoyle"
+msgstr "deines geschmolzenen Gargoyles"
+
+msgctxt "gen"
+msgid "your pandemonium lord"
+msgstr "deines Pandemoniumsherrns"
+
+msgctxt "gen"
+msgid "your hell lord"
+msgstr "deines Höllenherrns"
+
+msgctxt "gen"
+msgid "your ball lightning"
+msgstr "deines Kugelblitzs"
+
+msgctxt "gen"
+msgid "your ballistomycete spore"
+msgstr "deiner Ballistomycetenspore"
+
+msgctxt "gen"
+msgid "your lost soul"
+msgstr "deiner verlorenen Seele"
+
+msgctxt "gen"
+msgid "your lurking horror"
+msgstr "deines lauernden Grauens"
+
+msgctxt "gen"
+msgid "your orb of fire"
+msgstr "deiner Feuerkugel"
+
+msgctxt "gen"
+msgid "your orb of destruction"
+msgstr "deiner Kugel der Zerstörung"
+
+msgctxt "gen"
+msgid "your fulminant prism"
+msgstr "deines fulminanten Prismas"
+
+msgctxt "gen"
+msgid "your wretched star"
+msgstr "deines elenden Sterns"
+
+msgctxt "gen"
+msgid "your battlesphere"
+msgstr "deiner Kampfsphäre"
+
+msgctxt "gen"
+msgid "your death cob"
+msgstr "deines Todeskolbens"
+
+msgctxt "gen"
+msgid "your moon troll"
+msgstr "deines Mondtrolls"
+
+msgctxt "gen"
+msgid "your foxfire"
+msgstr "deines Fuchsfeuers"
+
+msgctxt "gen"
+msgid "your nameless horror"
+msgstr "deines namenlosen Horrors"
+
+msgctxt "gen"
+msgid "your sensed monster"
+msgstr "deines gespürten Monsters"
+
+msgctxt "gen"
+msgid "your friendly sensed monster"
+msgstr "deines freundlichen gespürten Monsters"
+
+msgctxt "gen"
+msgid "your trivial sensed monster"
+msgstr "deines trivialen gespürten Monsters"
+
+msgctxt "gen"
+msgid "your easy sensed monster"
+msgstr "deines leichten gespürten Monsters"
+
+msgctxt "gen"
+msgid "your tough sensed monster"
+msgstr "deines harten gespürten Monsters"
+
+msgctxt "gen"
+msgid "your nasty sensed monster"
+msgstr "deines furchtbaren gespürten Monsters"
+

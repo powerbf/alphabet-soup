@@ -292,20 +292,44 @@ static void _resolve_escapes(string& str)
     _replace_all(str, "\\}", "}");
 }
 
-
 // localize a single string
-static string _localize_string(const string& context, const string& value, const string& plural_val, const int count)
+static string _localize_string(const string& context, const string& value, const string& plural_val = "", const int count = 1)
 {
+    string result;
     if (plural_val.empty())
     {
-        return cxlate(context, value);
+        result = cxlate(context, value);
+        if (result == value)
+        {
+            // check if this is a list, and if so, try to localize each individual element
+            static vector<string> separators = {",", " or ", " and "};
+
+            std::vector<string>::iterator it;
+            for (it = separators.begin(); it != separators.end(); ++it)
+            {
+                string sep = *it;
+                vector<string> tokens = split_string(sep, value, true, true, 1);
+                // there should only ever be 1 or 2 tokens
+                if (tokens.size() == 2)
+                {
+                    string fmt = "%s" + sep + (sep == "," ? " " : "") + "%s";
+                    fmt = cxlate(context, fmt);
+                    // the tokens could be lists themselves
+                    string tok0 = _localize_string(context, tokens[0]);
+                    string tok1 = _localize_string(context, tokens[1]);
+                    result = make_stringf(fmt.c_str(), tok0.c_str(), tok1.c_str());
+                    break;
+                }
+            }
+        }
     }
     else
     {
-        string result = cnxlate(context, value, plural_val, count);
+        result = cnxlate(context, value, plural_val, count);
         result = make_stringf(result.c_str(), count);
-        return result;
     }
+
+    return result;
 }
 
 void LocalizationArg::init()
