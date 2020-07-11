@@ -967,7 +967,7 @@ msgstr "dem Stachelfrosch"
 
 msgctxt "dat"
 msgid  "the blink frog"
-msgstr "dem Blinzelfrosch"
+msgstr "dem Flimmerfrosch"
 
 msgctxt "dat"
 msgid  "the barachi"
@@ -3428,8 +3428,8 @@ msgstr[1] "%d Stachelfroschen"
 msgctxt "dat"
 msgid "a blink frog"
 msgid_plural "%d blink frogs"
-msgstr[0] "einem Blinzelfrosch"
-msgstr[1] "%d Blinzelfroschen"
+msgstr[0] "einem Flimmerfrosch"
+msgstr[1] "%d Flimmerfroschen"
 # check plural above
 
 msgctxt "dat"

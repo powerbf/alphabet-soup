@@ -691,7 +691,7 @@ msgstr "den Stachelfrosch"
 
 msgctxt "akk"
 msgid  "the blink frog"
-msgstr "den Blinzelfrosch"
+msgstr "den Flimmerfrosch"
 
 msgctxt "akk"
 msgid  "the great orb of eyes"
@@ -2333,8 +2333,8 @@ msgstr[1] "%d Stachelfrosche"
 msgctxt "akk"
 msgid "a blink frog"
 msgid_plural "%d blink frogs"
-msgstr[0] "einen Blinzelfrosch"
-msgstr[1] "%d Blinzelfrosche"
+msgstr[0] "einen Flimmerfrosch"
+msgstr[1] "%d Flimmerfrosche"
 # check plural above
 
 msgctxt "akk"
@@ -3869,7 +3869,7 @@ msgstr "deinen Stachelfrosch"
 
 msgctxt "akk"
 msgid  "your blink frog"
-msgstr "deinen Blinzelfrosch"
+msgstr "deinen Flimmerfrosch"
 
 msgctxt "akk"
 msgid  "your great orb of eyes"
@@ -5041,7 +5041,7 @@ msgstr "Stachelfrosch"
 
 msgctxt "akk"
 msgid  "blink frog"
-msgstr "Blinzelfrosch"
+msgstr "Flimmerfrosch"
 
 msgctxt "akk"
 msgid  "great orb of eyes"
