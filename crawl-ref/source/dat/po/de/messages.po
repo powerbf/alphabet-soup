@@ -1043,6 +1043,43 @@ msgid "%s hops backward while attacking."
 msgstr "%s springt rückwarts während des Angriffs."
 
 ###################
+# Generic prompts
+###################
+
+msgid "%s (Confirm with \"yes\".) "
+msgstr "%s (Bestätige mit \"ja\".) "
+
+msgid "[Y]es or [N]o only, please."
+msgstr "Nur [J]a oder [N]ein, bitte."
+
+msgid "Uppercase [Y]es or [N]o only, please."
+msgstr "Nur [J]a oder [N]ein in Großbuchstaben, bitte."
+
+msgid "[(y)es/(n)o/(q)uit]"
+msgstr "[(j)a/(n)ein/(b)eenden]"
+
+msgid "[(Y)es/(N)o/(Q)uit]"
+msgstr "[(J)a/(N)ein/(B)eenden]"
+
+msgid "[(y)es/(a)ll/(n)o/(q)uit]"
+msgstr "[(j)a/(a)lle/(n)ein/(b)eenden]"
+
+msgid "[(Y)es/(A)ll/(N)o/(Q)uit]"
+msgstr "[(J)a/(A)lle/(N)ein/(B)eenden]"
+
+msgid "Choose [Y]es%s, [N]o, [Q]uit, or [A]ll!"
+msgstr "Wähle [J]a%s, [N]ein, [B]eenden, oder [A]lle!"
+
+msgid "Choose uppercase [Y]es%s, [N]o, [Q]uit, or [A]ll!"
+msgstr "Wähle [J]a%s, [N]ein, [B]eenden, oder [A]lle in Großbuchstaben!"
+
+msgid "[Y]es%s, [N]o or [Q]uit only, please."
+msgstr "Nur [J]a%s, [N]ein oder [B]eenden, bitte."
+
+msgid "Uppercase [Y]es%s, [N]o or [Q]uit only, please."
+msgstr "Nur [J]a%s, [N]ein oder [B]eenden in Großbuchstaben, bitte."
+
+###################
 # Other
 ###################
 

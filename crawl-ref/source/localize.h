@@ -72,4 +72,11 @@ string localize(const LocalizationArg& arg1, const LocalizationArg& arg2);
 string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3);
 string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const LocalizationArg& arg4);
 
+/**
+ * Get the localized equivalent of a single-character
+ * (Mostly for prompt answers like Y/N)
+ */
+int localize_char(char ch);
+
+
 

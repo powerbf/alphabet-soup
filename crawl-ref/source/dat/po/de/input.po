@@ -1,0 +1,79 @@
+###############################################################################
+#
+# German translations for user inputs
+#
+###############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Alphabet Soup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "yes"
+msgstr "ja"
+
+# Y for Yes
+msgid "Y"
+msgstr "J"
+
+# y for yes
+msgid "y"
+msgstr "j"
+
+
+msgid "No"
+msgstr "Nein"
+
+msgid "no"
+msgstr "nein"
+
+# N for No
+msgid "N"
+msgstr "N"
+
+# n for no
+msgid "n"
+msgstr "n"
+
+
+# Q for Quit (beenden)
+msgid "Q"
+msgstr "B"
+
+# q for quit (beenden)
+msgid "q"
+msgstr "b"
+
+
+# A for All
+msgid "A"
+msgstr "A"
+
+# a for all
+msgid "a"
+msgstr "a"
+
+
+# strength
+msgid "S"
+msgstr "S"
+
+# dexterity (Geschicklichkeit)
+msgid "D"
+msgstr "G"
+
+# intelligence
+msgid "I"
+msgstr "I"
+
