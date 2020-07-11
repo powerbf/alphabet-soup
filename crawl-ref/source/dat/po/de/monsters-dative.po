@@ -22,10 +22,6 @@ msgstr ""
 ##############################################
 
 msgctxt "dat"
-msgid "you"
-msgstr "dir"
-
-msgctxt "dat"
 msgid  "Prince Ribbit"
 msgstr "Prinzen Ribbit"
 
