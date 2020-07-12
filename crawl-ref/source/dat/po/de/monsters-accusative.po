@@ -25,15 +25,15 @@ msgstr ""
 # Uniques
 ##############################################
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Prince Ribbit"
 msgstr "Prinzen Ribbit"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Crazy Yiuf"
 msgstr "Verrückten Yiuf"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Blork the Orc"
 msgstr "Blork den Ork"
 
@@ -41,1171 +41,1171 @@ msgstr "Blork den Ork"
 # definite
 ################################
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the program bug"
 msgstr "den Programmfehler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the formicid"
 msgstr "den Formicid"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the entropy weaver"
 msgstr "den Entropieweber"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the butterfly"
 msgstr "den Schmetterling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the caustic shrike"
 msgstr "den ätzenden Würger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the shard shrike"
 msgstr "den Scherbenwürger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the centaur"
 msgstr "den Zentaur"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the centaur warrior"
 msgstr "den Zentaur-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the yaktaur"
 msgstr "den Yaktaur"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the yaktaur captain"
 msgstr "den Yaktaur-Kapitän"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the faun"
 msgstr "den Faun"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the satyr"
 msgstr "den Satyr"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the draconian"
 msgstr "den Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the black draconian"
 msgstr "den schwarzen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the yellow draconian"
 msgstr "den gelben Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the pale draconian"
 msgstr "den blassen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the green draconian"
 msgstr "den grünen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the purple draconian"
 msgstr "den purpurnen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the red draconian"
 msgstr "den roten Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the white draconian"
 msgstr "den weißen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the grey draconian"
 msgstr "den grauen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the draconian stormcaller"
 msgstr "den Drakonier-Sturmrufer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the draconian monk"
 msgstr "den Drakonier-Mönch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the draconian shifter"
 msgstr "den Drakonier-Verschieber"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the draconian annihilator"
 msgstr "den Drakonier-Vernichter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the draconian knight"
 msgstr "den Drakonier-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the draconian scorcher"
 msgstr "den Drakonier-Verschmorer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the elf"
 msgstr "den Elf"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf knight"
 msgstr "den Tiefenelf-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf archer"
 msgstr "den Tiefenelf-Bogenschützen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf blademaster"
 msgstr "den Tiefenelf-Klingenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf master archer"
 msgstr "den Tiefenelf-Bogenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf mage"
 msgstr "den Tiefenelf-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf high priest"
 msgstr "den Tiefenelf-Hohepriester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf demonologist"
 msgstr "den Tiefenelf-Dämonologen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf annihilator"
 msgstr "den Tiefenelf-Vernichter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf sorcerer"
 msgstr "den Tiefenelf-Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf death mage"
 msgstr "den Tiefenelf-Todesmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep elf elementalist"
 msgstr "den Tiefenelf-Elementalisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the wandering mushroom"
 msgstr "den wandernden Pilz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the thorn hunter"
 msgstr "den Dornenjäger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the vine stalker"
 msgstr "den Rebjäger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the goblin"
 msgstr "den Goblin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hobgoblin"
 msgstr "den Hobgoblin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the gnoll"
 msgstr "den Gnoll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the gnoll shaman"
 msgstr "den Gnoll-Schamanen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the gnoll sergeant"
 msgstr "den Gnoll-Wachtmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the boggart"
 msgstr "den Boggart"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the dwarf"
 msgstr "den Zwerg"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep dwarf"
 msgstr "den Tiefenzwerg"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the jackal"
 msgstr "den Schakal"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hound"
 msgstr "den Hund"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the howler monkey"
 msgstr "den Brüllaffen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the warg"
 msgstr "den Warg"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the wolf"
 msgstr "den Wolf"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hell hound"
 msgstr "den Höllenhund"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the doom hound"
 msgstr "den Untergangshund"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the raiju"
 msgstr "den Raiju"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the bear"
 msgstr "den Bären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the polar bear"
 msgstr "den Eisbären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the black bear"
 msgstr "den Schwarzbären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spriggan"
 msgstr "den Spriggan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spriggan rider"
 msgstr "den Spriggan-Reiter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spriggan druid"
 msgstr "den Spriggan-Druiden"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spriggan berserker"
 msgstr "den Spriggan-Berserker"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spriggan air mage"
 msgstr "den Spriggan-Luftmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spriggan defender"
 msgstr "den Spriggan-Verteidiger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the drake"
 msgstr "den Drachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the swamp drake"
 msgstr "den Sumpfdrachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the rime drake"
 msgstr "den Reifsdrachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the wind drake"
 msgstr "den Winddrachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the lindwurm"
 msgstr "den Lindwurm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the death drake"
 msgstr "den Todesdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the leopard gecko"
 msgstr "den Leopardgecko"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the iguana"
 msgstr "den Leguan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the basilisk"
 msgstr "den Basilisk"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the wyvern"
 msgstr "den Wyvern"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the komodo dragon"
 msgstr "den Komododrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the merfolk impaler"
 msgstr "den Meervolk-Impaler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the merfolk javelineer"
 msgstr "den Meervolk-Speerführer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the merfolk aquamancer"
 msgstr "den Meervolk-Aquamancer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the merfolk avatar"
 msgstr "den Meervolk-Avatar"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the necrophage"
 msgstr "den Nekrophagen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ghoul"
 msgstr "den Ghul"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the orc"
 msgstr "den Ork"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the orc wizard"
 msgstr "den Ork-Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the orc priest"
 msgstr "den Ork-Priester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the orc warrior"
 msgstr "den Ork-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the orc knight"
 msgstr "den Ork-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the orc warlord"
 msgstr "den Ork-Warlord"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the orc sorcerer"
 msgstr "den Ork-Hexenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the orc high priest"
 msgstr "den Ork-Hohepriester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the lava orc"
 msgstr "den Lava-Ork"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the human"
 msgstr "den Menschen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the slave"
 msgstr "den Sklaven"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hell knight"
 msgstr "den Höllenritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the death knight"
 msgstr "den Todesritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the necromancer"
 msgstr "den Nekromanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the wizard"
 msgstr "den Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the vault guard"
 msgstr "den Tresorwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the vault warden"
 msgstr "den Tresorwärter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ironbrand convoker"
 msgstr "den Eisenbrandeinberufer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the imperial myrmidon"
 msgstr "den kaiserlichen Myrmidon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the servant of whispers"
 msgstr "den Diener des Flüsterns"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ragged hierophant"
 msgstr "den zerlumpten Hierophanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ironheart preserver"
 msgstr "den Eisenherzbewahrer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the shapeshifter"
 msgstr "den Gestaltwandler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the glowing shapeshifter"
 msgstr "den leuchtenden Gestaltwandler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the Killer Klown"
 msgstr "den Killer-Klown"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the demigod"
 msgstr "den Halbgott"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the halfling"
 msgstr "den Halbling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the scorpion"
 msgstr "den Skorpion"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the emperor scorpion"
 msgstr "den Kaiserskorpion"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the death scarab"
 msgstr "den Todesskarabäus"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the demonic crawler"
 msgstr "den dämonischen Kriecher"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the alligator"
 msgstr "den Alligator"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the fire vortex"
 msgstr "den Feuerwirbel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spatial vortex"
 msgstr "den räumlichen Wirbel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spatial maelstrom"
 msgstr "den räumlichen Mahlstrom"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the twister"
 msgstr "den Twister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the worm"
 msgstr "den Wurm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the swamp worm"
 msgstr "den Sumpfwurm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the tyrant leech"
 msgstr "den Tyrannblutegel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the small abomination"
 msgstr "den kleinen Greuel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ancient zyme"
 msgstr "den alten Zymen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the worldbinder"
 msgstr "den Weltbinder"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the wight"
 msgstr "den Wight"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the skeletal warrior"
 msgstr "den Skelettkrieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ancient champion"
 msgstr "den alten Champion"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the flying skull"
 msgstr "den fliegenden Schädel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the curse skull"
 msgstr "den Fluchschädel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the curse toe"
 msgstr "den Fluchzehen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the angel"
 msgstr "den Engel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the cherub"
 msgstr "den Cherub"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the seraph"
 msgstr "den Seraph"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the daeva"
 msgstr "den Daeva"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the profane servitor"
 msgstr "den profanen Diener"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the giant"
 msgstr "den Riesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the cyclops"
 msgstr "den Zyklop"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ettin"
 msgstr "den Ettin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the fire giant"
 msgstr "den Feuerriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the frost giant"
 msgstr "den Frostriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the stone giant"
 msgstr "den Steinriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the titan"
 msgstr "den Titan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the juggernaut"
 msgstr "den Juggernaut"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the iron giant"
 msgstr "den Eisenriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the dragon"
 msgstr "den Drachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the fire dragon"
 msgstr "den Feuerdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ice dragon"
 msgstr "den Eisdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the steam dragon"
 msgstr "den Dampfdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the swamp dragon"
 msgstr "den Sumpfdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the acid dragon"
 msgstr "den Säuredrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the quicksilver dragon"
 msgstr "den Quecksilberdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the iron dragon"
 msgstr "den Eisendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the storm dragon"
 msgstr "den Sturmdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the golden dragon"
 msgstr "den Golddrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the shadow dragon"
 msgstr "den Schattendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the bone dragon"
 msgstr "den Knochendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the pearl dragon"
 msgstr "den Perlendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the giant frog"
 msgstr "den Riesenfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the bullfrog"
 msgstr "den Ochsenfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spiny frog"
 msgstr "den Stachelfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the blink frog"
 msgstr "den Flimmerfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the great orb of eyes"
 msgstr "den großen Augenkugel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ophan"
 msgstr "den Ophan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hippogriff"
 msgstr "den Hippogriff"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the manticore"
 msgstr "den Mantikor"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the minotaur"
 msgstr "den Minotaurus"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ancestor"
 msgstr "den Ahnen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the knight"
 msgstr "den Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the battlemage"
 msgstr "den Kampfmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hexer"
 msgstr "den Hexer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ooze"
 msgstr "den Schlamm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the death ooze"
 msgstr "den Todesschlamm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the acid blob"
 msgstr "den Säureklumpen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the kobold"
 msgstr "den Kobold"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the big kobold"
 msgstr "den großen Kobold"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the kobold demonologist"
 msgstr "den Kobold-Dämonologen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the lich"
 msgstr "den Lich"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ancient lich"
 msgstr "den alten Lich"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the revenant"
 msgstr "den Wiedergänger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the halazid warlock"
 msgstr "den halazidischen Hexenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the mummy priest"
 msgstr "den Mumie-Priester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the naga"
 msgstr "den Naga"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the naga mage"
 msgstr "den Naga-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the naga sharpshooter"
 msgstr "den Naga-Scharfschützen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the naga ritualist"
 msgstr "den Naga-Ritualisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the naga warrior"
 msgstr "den Naga-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the nagaraja"
 msgstr "den Nagaraja"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ogre"
 msgstr "den Oger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the two-headed ogre"
 msgstr "den zweiköpfigen Oger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ogre mage"
 msgstr "den Oger-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the oklob sapling"
 msgstr "den Oklob-Setzling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the bush"
 msgstr "den Busch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the burning bush"
 msgstr "den brennenden Busch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the toadstool"
 msgstr "den Giftpilz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the fungus"
 msgstr "den Pilz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ballistomycete"
 msgstr "den Ballistomyceten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hyperactive ballistomycete"
 msgstr "den hyperaktiven Ballistomyceten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the briar patch"
 msgstr "den Dornstrauch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the tengu"
 msgstr "den Tengu"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the tengu conjurer"
 msgstr "den Tengu-Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the tengu warrior"
 msgstr "den Tengu-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the tengu reaver"
 msgstr "den Tengu-Häscher"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the rakshasa"
 msgstr "den Rakshasa"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the water moccasin"
 msgstr "den Wassermokassin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the troll"
 msgstr "den Troll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the iron troll"
 msgstr "den Eisentroll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep troll"
 msgstr "den Tiefentroll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep troll earth mage"
 msgstr "den Tiefentroll-Erdmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the deep troll shaman"
 msgstr "den Tiefentroll-Schamanen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the vampire"
 msgstr "den Vampir"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the vampire knight"
 msgstr "den Vampir-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the vampire mage"
 msgstr "den Vampir-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hungry ghost"
 msgstr "den hungrigen Geisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the flayed ghost"
 msgstr "den enthäuteten Geisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the player ghost"
 msgstr "den Spielergeisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the shadow"
 msgstr "den Schatten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the wraith"
 msgstr "den Geisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the shadow wraith"
 msgstr "den Schattengeisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the freezing wraith"
 msgstr "den Frostgeisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the eidolon"
 msgstr "den Eidolon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the phantasmal warrior"
 msgstr "den phantastischen Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the large abomination"
 msgstr "den großen Greuel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the Orb Guardian"
 msgstr "den Kugelwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the tentacled starspawn"
 msgstr "den Tentakelsternbrut"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the starspawn tentacle"
 msgstr "den Sternbruttentakel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the elephant"
 msgstr "den Elefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the dire elephant"
 msgstr "den Schreckenselefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hellephant"
 msgstr "den Höllefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the zombie"
 msgstr "den Zombie"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the small zombie"
 msgstr "den kleinen Zombie"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the large zombie"
 msgstr "den großen Zombie"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the electric eel"
 msgstr "den Zitteraal"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the kraken"
 msgstr "den Kraken"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the tentacle"
 msgstr "den Tentakel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the octopode"
 msgstr "den Oktopod"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the salamander"
 msgstr "den Salamander"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the salamander mystic"
 msgstr "den Salamander-Mystiker"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the Hellbinder"
 msgstr "den Höllenbinder"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the Cloud Mage"
 msgstr "den Wolkenmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the player"
 msgstr "den Spieler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the eldritch tentacle"
 msgstr "den unheimlichen Tentakel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the gelid demonspawn"
 msgstr "den geliden Dämonenbrut"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the blood saint"
 msgstr "den Blutheiligen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the warmonger"
 msgstr "den Kriegstreiber"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the corrupter"
 msgstr "den Korruptor"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ufetubus"
 msgstr "den Ufetubus"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the rust devil"
 msgstr "den Rostteufel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the orange demon"
 msgstr "den orangen Dämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the red devil"
 msgstr "den roten Teufel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hellwing"
 msgstr "den Höllenflügel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ice devil"
 msgstr "den Eisteufel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the sun demon"
 msgstr "den Sonnendämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the soul eater"
 msgstr "den Seelenfresser"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the smoke demon"
 msgstr "den Rauchdämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the sixfirhy"
 msgstr "den Sixfirhy"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the shadow demon"
 msgstr "den Schattendämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the green death"
 msgstr "den grünen Tod"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the blizzard demon"
 msgstr "den Blizzarddämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the balrug"
 msgstr "den Balrug"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the cacodemon"
 msgstr "den Cacodaemon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hellion"
 msgstr "den Teufelsbraten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the reaper"
 msgstr "den Schnitter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the tormentor"
 msgstr "den Peiniger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the Brimstone Fiend"
 msgstr "den Schwefelunterweltler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the Ice Fiend"
 msgstr "den Eisunterweltler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the Hell Sentinel"
 msgstr "den Höllenwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the Executioner"
 msgstr "den Scharfrichter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the animated tree"
 msgstr "den animierten Baum"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the golem"
 msgstr "den Golem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the saltling"
 msgstr "den Salzling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the peacekeeper"
 msgstr "den Friedenshüter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the iron golem"
 msgstr "den Eisengolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the crystal guardian"
 msgstr "den Kristallwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the toenail golem"
 msgstr "den Zehennagelgolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the electric golem"
 msgstr "den Blitzgolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the guardian golem"
 msgstr "den Wächtergolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the spellforged servitor"
 msgstr "den zaubergeschmeideten Diener"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the block of ice"
 msgstr "den Eisblock"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the diamond obelisk"
 msgstr "den Diamantobelisk"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the lightning spire"
 msgstr "den Blitzturm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the gargoyle"
 msgstr "den Gargoyle"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the war gargoyle"
 msgstr "den Kriegsgargoyle"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the molten gargoyle"
 msgstr "den geschmolzenen Gargoyle"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the pandemonium lord"
 msgstr "den Pandemoniumsherrn"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the hell lord"
 msgstr "den Höllenherrn"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the ball lightning"
 msgstr "den Kugelblitz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the wretched star"
 msgstr "den elenden Stern"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the death cob"
 msgstr "den Todeskolben"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the moon troll"
 msgstr "den Mondtroll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "the nameless horror"
 msgstr "den namenlosen Horror"
 
@@ -1213,2003 +1213,2003 @@ msgstr "den namenlosen Horror"
 # indefinite
 ################################
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a program bug"
 msgid_plural "%d program bugs"
 msgstr[0] "einen Programmfehler"
 msgstr[1] "%d Programmfehler"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a formicid"
 msgid_plural "%d formicids"
 msgstr[0] "einen Formicid"
 msgstr[1] "%d Formicide"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an entropy weaver"
 msgid_plural "%d entropy weavers"
 msgstr[0] "einen Entropieweber"
 msgstr[1] "%d Entropieweber"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a butterfly"
 msgid_plural "%d butterflies"
 msgstr[0] "einen Schmetterling"
 msgstr[1] "%d Schmetterlinge"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a caustic shrike"
 msgid_plural "%d caustic shrikes"
 msgstr[0] "einen ätzenden Würger"
 msgstr[1] "%d ätzende Würger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a shard shrike"
 msgid_plural "%d shard shrikes"
 msgstr[0] "einen Scherbenwürger"
 msgstr[1] "%d Scherbenwürger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a centaur"
 msgid_plural "%d centaurs"
 msgstr[0] "einen Zentaur"
 msgstr[1] "%d Zentaure"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a centaur warrior"
 msgid_plural "%d centaur warriors"
 msgstr[0] "einen Zentaur-Krieger"
 msgstr[1] "%d Zentaur-Krieger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a yaktaur"
 msgid_plural "%d yaktaurs"
 msgstr[0] "einen Yaktaur"
 msgstr[1] "%d Yaktaure"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a yaktaur captain"
 msgid_plural "%d yaktaur captains"
 msgstr[0] "einen Yaktaur-Kapitän"
 msgstr[1] "%d Yaktaur-Kapitäne"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a faun"
 msgid_plural "%d fauns"
 msgstr[0] "einen Faun"
 msgstr[1] "%d Faune"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a satyr"
 msgid_plural "%d satyrs"
 msgstr[0] "einen Satyr"
 msgstr[1] "%d Satyre"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a draconian"
 msgid_plural "%d draconians"
 msgstr[0] "einen Drakonier"
 msgstr[1] "%d Drakonier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a black draconian"
 msgid_plural "%d black draconians"
 msgstr[0] "einen schwarzen Drakonier"
 msgstr[1] "%d schwarze Drakonier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a yellow draconian"
 msgid_plural "%d yellow draconians"
 msgstr[0] "einen gelben Drakonier"
 msgstr[1] "%d gelbe Drakonier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a pale draconian"
 msgid_plural "%d pale draconians"
 msgstr[0] "einen blassen Drakonier"
 msgstr[1] "%d blasse Drakonier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a green draconian"
 msgid_plural "%d green draconians"
 msgstr[0] "einen grünen Drakonier"
 msgstr[1] "%d grüne Drakonier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a purple draconian"
 msgid_plural "%d purple draconians"
 msgstr[0] "einen purpurnen Drakonier"
 msgstr[1] "%d purpurne Drakonier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a red draconian"
 msgid_plural "%d red draconians"
 msgstr[0] "einen roten Drakonier"
 msgstr[1] "%d rote Drakonier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a white draconian"
 msgid_plural "%d white draconians"
 msgstr[0] "einen weißen Drakonier"
 msgstr[1] "%d weiße Drakonier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a grey draconian"
 msgid_plural "%d grey draconians"
 msgstr[0] "einen grauen Drakonier"
 msgstr[1] "%d graue Drakonier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a draconian stormcaller"
 msgid_plural "%d draconian stormcallers"
 msgstr[0] "einen Drakonier-Sturmrufer"
 msgstr[1] "%d Drakonier-Sturmrufer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a draconian monk"
 msgid_plural "%d draconian monks"
 msgstr[0] "einen Drakonier-Mönch"
 msgstr[1] "%d Drakonier-Mönche"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a draconian shifter"
 msgid_plural "%d draconian shifters"
 msgstr[0] "einen Drakonier-Verwandler"
 msgstr[1] "%d Drakonier-Verwandler"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a draconian annihilator"
 msgid_plural "%d draconian annihilators"
 msgstr[0] "einen Drakonier-Vernichter"
 msgstr[1] "%d Drakonier-Vernichter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a draconian knight"
 msgid_plural "%d draconian knights"
 msgstr[0] "einen Drakonier-Ritter"
 msgstr[1] "%d Drakonier-Ritter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a draconian scorcher"
 msgid_plural "%d draconian scorchers"
 msgstr[0] "einen Drakonier-Verschmorer"
 msgstr[1] "%d Drakonier-Verschmorer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an elf"
 msgid_plural "%d elves"
 msgstr[0] "einen Elf"
 msgstr[1] "%d Elfe"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf knight"
 msgid_plural "%d deep elf knights"
 msgstr[0] "einen Tiefenelf-Ritter"
 msgstr[1] "%d Tiefenelf-Ritter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf archer"
 msgid_plural "%d deep elf archers"
 msgstr[0] "einen Tiefenelf-Bogenschützen"
 msgstr[1] "%d Tiefenelf-Bogenschützen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf blademaster"
 msgid_plural "%d deep elf blademasters"
 msgstr[0] "einen Tiefenelf-Klingenmeister"
 msgstr[1] "%d Tiefenelf-Klingenmeister"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf master archer"
 msgid_plural "%d deep elf master archers"
 msgstr[0] "einen Tiefenelf-Bogenmeister"
 msgstr[1] "%d Tiefenelf-Bogenmeister"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf mage"
 msgid_plural "%d deep elf magi"
 msgstr[0] "einen Tiefenelf-Magier"
 msgstr[1] "%d Tiefenelf-Magier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf high priest"
 msgid_plural "%d deep elf high priests"
 msgstr[0] "einen Tiefenelf-Hohepriester"
 msgstr[1] "%d Tiefenelf-Hohepriester"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf demonologist"
 msgid_plural "%d deep elf demonologists"
 msgstr[0] "einen Tiefenelf-Dämonologen"
 msgstr[1] "%d Tiefenelf-Dämonologen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf annihilator"
 msgid_plural "%d deep elf annihilators"
 msgstr[0] "einen Tiefenelf-Vernichter"
 msgstr[1] "%d Tiefenelf-Vernichter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf sorcerer"
 msgid_plural "%d deep elf sorcerers"
 msgstr[0] "einen Tiefenelf-Zauberer"
 msgstr[1] "%d Tiefenelf-Zauberer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf death mage"
 msgid_plural "%d deep elf death magi"
 msgstr[0] "einen Tiefenelf-Todesmagier"
 msgstr[1] "%d Tiefenelf-Todesmagier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep elf elementalist"
 msgid_plural "%d deep elf elementalists"
 msgstr[0] "einen Tiefenelf-Elementalisten"
 msgstr[1] "%d Tiefenelf-Elementalisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a wandering mushroom"
 msgid_plural "%d wandering mushrooms"
 msgstr[0] "einen wandernden Pilz"
 msgstr[1] "%d wandernde Pilze"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a thorn hunter"
 msgid_plural "%d thorn hunters"
 msgstr[0] "einen Dornenjäger"
 msgstr[1] "%d Dornenjäger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a vine stalker"
 msgid_plural "%d vine stalkers"
 msgstr[0] "einen Rebjäger"
 msgstr[1] "%d Rebjäger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a goblin"
 msgid_plural "%d goblins"
 msgstr[0] "einen Goblin"
 msgstr[1] "%d Goblins"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hobgoblin"
 msgid_plural "%d hobgoblins"
 msgstr[0] "einen Hobgoblin"
 msgstr[1] "%d Hobgoblins"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a gnoll"
 msgid_plural "%d gnolls"
 msgstr[0] "einen Gnoll"
 msgstr[1] "%d Gnolle"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a gnoll shaman"
 msgid_plural "%d gnoll shamans"
 msgstr[0] "einen Gnoll-Schamanen"
 msgstr[1] "%d Gnoll-Schamanen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a gnoll sergeant"
 msgid_plural "%d gnoll sergeants"
 msgstr[0] "einen Gnoll-Wachtmeister"
 msgstr[1] "%d Gnoll-Wachtmeister"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a boggart"
 msgid_plural "%d boggarts"
 msgstr[0] "einen Boggart"
 msgstr[1] "%d Boggarte"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a dwarf"
 msgid_plural "%d dwarves"
 msgstr[0] "einen Zwerg"
 msgstr[1] "%d Zwerge"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep dwarf"
 msgid_plural "%d deep dwarves"
 msgstr[0] "einen Tiefenzwerg"
 msgstr[1] "%d Tiefenzwerge"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a jackal"
 msgid_plural "%d jackals"
 msgstr[0] "einen Schakal"
 msgstr[1] "%d Schakale"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hound"
 msgid_plural "%d hounds"
 msgstr[0] "einen Hund"
 msgstr[1] "%d Hunde"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a howler monkey"
 msgid_plural "%d howler monkeys"
 msgstr[0] "einen Brüllaffen"
 msgstr[1] "%d Brüllaffen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a warg"
 msgid_plural "%d wargs"
 msgstr[0] "einen Warg"
 msgstr[1] "%d Warge"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a wolf"
 msgid_plural "%d wolves"
 msgstr[0] "einen Wolf"
 msgstr[1] "%d Wolfe"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hell hound"
 msgid_plural "%d hell hounds"
 msgstr[0] "einen Höllenhund"
 msgstr[1] "%d Höllenhunde"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a doom hound"
 msgid_plural "%d doom hounds"
 msgstr[0] "einen Untergangshund"
 msgstr[1] "%d Untergangshunde"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a raiju"
 msgid_plural "%d raiju"
 msgstr[0] "einen Raiju"
 msgstr[1] "%d Raijus"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a bear"
 msgid_plural "%d bears"
 msgstr[0] "einen Bären"
 msgstr[1] "%d Bären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a polar bear"
 msgid_plural "%d polar bears"
 msgstr[0] "einen Eisbären"
 msgstr[1] "%d Eisbären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a black bear"
 msgid_plural "%d black bears"
 msgstr[0] "einen Schwarzbären"
 msgstr[1] "%d Schwarzbären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spriggan"
 msgid_plural "%d spriggans"
 msgstr[0] "einen Spriggan"
 msgstr[1] "%d Spriggans"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spriggan rider"
 msgid_plural "%d spriggan riders"
 msgstr[0] "einen Spriggan-Reiter"
 msgstr[1] "%d Spriggan-Reiter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spriggan druid"
 msgid_plural "%d spriggan druids"
 msgstr[0] "einen Spriggan-Druiden"
 msgstr[1] "%d Spriggan-Druiden"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spriggan berserker"
 msgid_plural "%d spriggan berserkers"
 msgstr[0] "einen Spriggan-Berserker"
 msgstr[1] "%d Spriggan-Berserker"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spriggan air mage"
 msgid_plural "%d spriggan air magi"
 msgstr[0] "einen Spriggan-Luftmagier"
 msgstr[1] "%d Spriggan-Luftmagier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spriggan defender"
 msgid_plural "%d spriggan defenders"
 msgstr[0] "einen Spriggan-Verteidiger"
 msgstr[1] "%d Spriggan-Verteidiger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a drake"
 msgid_plural "%d drakes"
 msgstr[0] "einen Drachling"
 msgstr[1] "%d Drachlinge"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a swamp drake"
 msgid_plural "%d swamp drakes"
 msgstr[0] "einen Sumpfdrachling"
 msgstr[1] "%d Sumpfdrachlinge"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a rime drake"
 msgid_plural "%d rime drakes"
 msgstr[0] "einen Reifsdrachling"
 msgstr[1] "%d Reifsdrachlinge"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a wind drake"
 msgid_plural "%d wind drakes"
 msgstr[0] "einen Winddrachling"
 msgstr[1] "%d Winddrachlinge"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a lindwurm"
 msgid_plural "%d lindwurms"
 msgstr[0] "einen Lindwurm"
 msgstr[1] "%d Lindwurme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a death drake"
 msgid_plural "%d death drakes"
 msgstr[0] "einen Todesdrachen"
 msgstr[1] "%d Todesdrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a leopard gecko"
 msgid_plural "%d leopard geckos"
 msgstr[0] "einen Leopardgecko"
 msgstr[1] "%d Leopardgeckos"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an iguana"
 msgid_plural "%d iguanas"
 msgstr[0] "einen Leguan"
 msgstr[1] "%d Leguane"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a basilisk"
 msgid_plural "%d basilisks"
 msgstr[0] "einen Basilisk"
 msgstr[1] "%d Basiliske"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a wyvern"
 msgid_plural "%d wyverns"
 msgstr[0] "einen Wyvern"
 msgstr[1] "%d Wyverns"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a komodo dragon"
 msgid_plural "%d komodo dragons"
 msgstr[0] "einen Komododrachen"
 msgstr[1] "%d Komododrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a merfolk impaler"
 msgid_plural "%d merfolk impalers"
 msgstr[0] "einen Meervolk-Impaler"
 msgstr[1] "%d Meervolk-Impaler"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a merfolk javelineer"
 msgid_plural "%d merfolk javelineers"
 msgstr[0] "einen Meervolk-Speerführer"
 msgstr[1] "%d Meervolk-Speerführer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a merfolk aquamancer"
 msgid_plural "%d merfolk aquamancers"
 msgstr[0] "einen Meervolk-Aquamancer"
 msgstr[1] "%d Meervolk-Aquamancer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a merfolk avatar"
 msgid_plural "%d merfolk avatars"
 msgstr[0] "einen Meervolk-Avatar"
 msgstr[1] "%d Meervolk-Avatare"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a necrophage"
 msgid_plural "%d necrophages"
 msgstr[0] "einen Nekrophagen"
 msgstr[1] "%d Nekrophagene"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a ghoul"
 msgid_plural "%d ghouls"
 msgstr[0] "einen Ghul"
 msgstr[1] "%d Ghule"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an orc"
 msgid_plural "%d orcs"
 msgstr[0] "einen Ork"
 msgstr[1] "%d Orke"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an orc wizard"
 msgid_plural "%d orc wizards"
 msgstr[0] "einen Ork-Zauberer"
 msgstr[1] "%d Ork-Zauberer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an orc priest"
 msgid_plural "%d orc priests"
 msgstr[0] "einen Ork-Priester"
 msgstr[1] "%d Ork-Priester"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an orc warrior"
 msgid_plural "%d orc warriors"
 msgstr[0] "einen Ork-Krieger"
 msgstr[1] "%d Ork-Krieger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an orc knight"
 msgid_plural "%d orc knights"
 msgstr[0] "einen Ork-Ritter"
 msgstr[1] "%d Ork-Ritter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an orc warlord"
 msgid_plural "%d orc warlords"
 msgstr[0] "einen Ork-Warlord"
 msgstr[1] "%d Ork-Warlorde"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an orc sorcerer"
 msgid_plural "%d orc sorcerers"
 msgstr[0] "einen Ork-Hexenmeister"
 msgstr[1] "%d Ork-Hexenmeister"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an orc high priest"
 msgid_plural "%d orc high priests"
 msgstr[0] "einen Ork-Hohepriester"
 msgstr[1] "%d Ork-Hohepriester"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a lava orc"
 msgid_plural "%d lava orcs"
 msgstr[0] "einen Lava-Ork"
 msgstr[1] "%d Lava-Orke"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a human"
 msgid_plural "%d humans"
 msgstr[0] "einen Menschen"
 msgstr[1] "%d Mensche"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a slave"
 msgid_plural "%d slaves"
 msgstr[0] "einen Sklaven"
 msgstr[1] "%d Sklaven"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hell knight"
 msgid_plural "%d hell knights"
 msgstr[0] "einen Höllenritter"
 msgstr[1] "%d Höllenritter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a death knight"
 msgid_plural "%d death knights"
 msgstr[0] "einen Todesritter"
 msgstr[1] "%d Todesritter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a necromancer"
 msgid_plural "%d necromancers"
 msgstr[0] "einen Nekromanten"
 msgstr[1] "%d Nekromanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a wizard"
 msgid_plural "%d wizards"
 msgstr[0] "einen Zauberer"
 msgstr[1] "%d Zauberer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a vault guard"
 msgid_plural "%d vault guards"
 msgstr[0] "einen Tresorwächter"
 msgstr[1] "%d Tresorwächter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a vault warden"
 msgid_plural "%d vault wardens"
 msgstr[0] "einen Tresorwärter"
 msgstr[1] "%d Tresorwärter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ironbrand convoker"
 msgid_plural "%d ironbrand convokers"
 msgstr[0] "einen Eisenbrandeinberufer"
 msgstr[1] "%d Eisenbrandeinberufer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an imperial myrmidon"
 msgid_plural "%d imperial myrmidons"
 msgstr[0] "einen kaiserlichen Myrmidon"
 msgstr[1] "%d kaiserliche Myrmidone"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a servant of whispers"
 msgid_plural "%d servants of whispers"
 msgstr[0] "einen Diener des Flüsterns"
 msgstr[1] "%d Diener des Flüsterns"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a ragged hierophant"
 msgid_plural "%d ragged hierophants"
 msgstr[0] "einen zerlumpten Hierophanten"
 msgstr[1] "%d zerlumpte Hierophanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ironheart preserver"
 msgid_plural "%d ironheart preservers"
 msgstr[0] "einen Eisenherzbewahrer"
 msgstr[1] "%d Eisenherzbewahrer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a shapeshifter"
 msgid_plural "%d shapeshifters"
 msgstr[0] "einen Gestaltwandler"
 msgstr[1] "%d Gestaltwandler"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a glowing shapeshifter"
 msgid_plural "%d glowing shapeshifters"
 msgstr[0] "einen leuchtenden Gestaltwandler"
 msgstr[1] "%d leuchtende Gestaltwandler"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a Killer Klown"
 msgid_plural "%d Killer Klowns"
 msgstr[0] "einen Killer-Klown"
 msgstr[1] "%d Killer-Klowns"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a demigod"
 msgid_plural "%d demigods"
 msgstr[0] "einen Halbgott"
 msgstr[1] "%d Halbgotte"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a halfling"
 msgid_plural "%d halflings"
 msgstr[0] "einen Halbling"
 msgstr[1] "%d Halblinge"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a scorpion"
 msgid_plural "%d scorpions"
 msgstr[0] "einen Skorpion"
 msgstr[1] "%d Skorpione"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an emperor scorpion"
 msgid_plural "%d emperor scorpions"
 msgstr[0] "einen Kaiserskorpion"
 msgstr[1] "%d Kaiserskorpione"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a death scarab"
 msgid_plural "%d death scarabs"
 msgstr[0] "einen Todesskarabäus"
 msgstr[1] "%d Todesskarabäen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a demonic crawler"
 msgid_plural "%d demonic crawlers"
 msgstr[0] "einen dämonischen Kriecher"
 msgstr[1] "%d dämonische Kriecher"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an alligator"
 msgid_plural "%d alligators"
 msgstr[0] "einen Alligator"
 msgstr[1] "%d Alligatore"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a fire vortex"
 msgid_plural "%d fire vortices"
 msgstr[0] "einen Feuerwirbel"
 msgstr[1] "%d Feuerwirbel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spatial vortex"
 msgid_plural "%d spatial vortices"
 msgstr[0] "einen räumlichen Wirbel"
 msgstr[1] "%d räumliche Wirbel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spatial maelstrom"
 msgid_plural "%d spatial maelstroms"
 msgstr[0] "einen räumlichen Mahlstrom"
 msgstr[1] "%d räumliche Mahlstrome"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a twister"
 msgid_plural "%d twisters"
 msgstr[0] "einen Twister"
 msgstr[1] "%d Twister"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a worm"
 msgid_plural "%d worms"
 msgstr[0] "einen Wurm"
 msgstr[1] "%d Wurme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a swamp worm"
 msgid_plural "%d swamp worms"
 msgstr[0] "einen Sumpfwurm"
 msgstr[1] "%d Sumpfwurme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a tyrant leech"
 msgid_plural "%d tyrant leeches"
 msgstr[0] "einen Tyrannblutegel"
 msgstr[1] "%d Tyrannblutegel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a small abomination"
 msgid_plural "%d small abominations"
 msgstr[0] "einen kleinen Greuel"
 msgstr[1] "%d kleine Greuel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ancient zyme"
 msgid_plural "%d ancient zymes"
 msgstr[0] "einen alten Zymen"
 msgstr[1] "%d alte Zymen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a worldbinder"
 msgid_plural "%d worldbinders"
 msgstr[0] "einen Weltbinder"
 msgstr[1] "%d Weltbinder"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a wight"
 msgid_plural "%d wights"
 msgstr[0] "einen Wight"
 msgstr[1] "%d Wighte"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a skeletal warrior"
 msgid_plural "%d skeletal warriors"
 msgstr[0] "einen Skelettkrieger"
 msgstr[1] "%d Skelettkrieger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ancient champion"
 msgid_plural "%d ancient champions"
 msgstr[0] "einen alten Champion"
 msgstr[1] "%d alte Champione"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a flying skull"
 msgid_plural "%d flying skulls"
 msgstr[0] "einen fliegenden Schädel"
 msgstr[1] "%d fliegende Schädel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a curse skull"
 msgid_plural "%d curse skulls"
 msgstr[0] "einen Fluchschädel"
 msgstr[1] "%d Fluchschädel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a curse toe"
 msgid_plural "%d curse toes"
 msgstr[0] "einen Fluchzehen"
 msgstr[1] "%d Fluchzehen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an angel"
 msgid_plural "%d angels"
 msgstr[0] "einen Engel"
 msgstr[1] "%d Engel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a cherub"
 msgid_plural "%d cherubim"
 msgstr[0] "einen Cherub"
 msgstr[1] "%d Cherube"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a seraph"
 msgid_plural "%d seraphim"
 msgstr[0] "einen Seraph"
 msgstr[1] "%d Seraphe"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a daeva"
 msgid_plural "%d daevas"
 msgstr[0] "einen Daeva"
 msgstr[1] "%d Daevas"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a profane servitor"
 msgid_plural "%d profane servitors"
 msgstr[0] "einen profanen Diener"
 msgstr[1] "%d profane Diener"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a giant"
 msgid_plural "%d giants"
 msgstr[0] "einen Riesen"
 msgstr[1] "%d Riesen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a cyclops"
 msgid_plural "%d cyclopes"
 msgstr[0] "einen Zyklop"
 msgstr[1] "%d Zyklope"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ettin"
 msgid_plural "%d ettins"
 msgstr[0] "einen Ettin"
 msgstr[1] "%d Ettine"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a fire giant"
 msgid_plural "%d fire giants"
 msgstr[0] "einen Feuerriesen"
 msgstr[1] "%d Feuerriesen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a frost giant"
 msgid_plural "%d frost giants"
 msgstr[0] "einen Frostriesen"
 msgstr[1] "%d Frostriesen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a stone giant"
 msgid_plural "%d stone giants"
 msgstr[0] "einen Steinriesen"
 msgstr[1] "%d Steinriesen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a titan"
 msgid_plural "%d titans"
 msgstr[0] "einen Titan"
 msgstr[1] "%d Titane"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a juggernaut"
 msgid_plural "%d juggernauts"
 msgstr[0] "einen Juggernaut"
 msgstr[1] "%d Juggernaute"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an iron giant"
 msgid_plural "%d iron giants"
 msgstr[0] "einen Eisenriesen"
 msgstr[1] "%d Eisenriesen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a dragon"
 msgid_plural "%d dragons"
 msgstr[0] "einen Drachen"
 msgstr[1] "%d Drachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a fire dragon"
 msgid_plural "%d fire dragons"
 msgstr[0] "einen Feuerdrachen"
 msgstr[1] "%d Feuerdrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ice dragon"
 msgid_plural "%d ice dragons"
 msgstr[0] "einen Eisdrachen"
 msgstr[1] "%d Eisdrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a steam dragon"
 msgid_plural "%d steam dragons"
 msgstr[0] "einen Dampfdrachen"
 msgstr[1] "%d Dampfdrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a swamp dragon"
 msgid_plural "%d swamp dragons"
 msgstr[0] "einen Sumpfdrachen"
 msgstr[1] "%d Sumpfdrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an acid dragon"
 msgid_plural "%d acid dragons"
 msgstr[0] "einen Säuredrachen"
 msgstr[1] "%d Säuredrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a quicksilver dragon"
 msgid_plural "%d quicksilver dragons"
 msgstr[0] "einen Quecksilberdrachen"
 msgstr[1] "%d Quecksilberdrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an iron dragon"
 msgid_plural "%d iron dragons"
 msgstr[0] "einen Eisendrachen"
 msgstr[1] "%d Eisendrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a storm dragon"
 msgid_plural "%d storm dragons"
 msgstr[0] "einen Sturmdrachen"
 msgstr[1] "%d Sturmdrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a golden dragon"
 msgid_plural "%d golden dragons"
 msgstr[0] "einen Golddrachen"
 msgstr[1] "%d Golddrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a shadow dragon"
 msgid_plural "%d shadow dragons"
 msgstr[0] "einen Schattendrachen"
 msgstr[1] "%d Schattendrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a bone dragon"
 msgid_plural "%d bone dragons"
 msgstr[0] "einen Knochendrachen"
 msgstr[1] "%d Knochendrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a pearl dragon"
 msgid_plural "%d pearl dragons"
 msgstr[0] "einen Perlendrachen"
 msgstr[1] "%d Perlendrachen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a giant frog"
 msgid_plural "%d giant frogs"
 msgstr[0] "einen Riesenfrosch"
 msgstr[1] "%d Riesenfrosche"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a bullfrog"
 msgid_plural "%d bullfrogs"
 msgstr[0] "einen Ochsenfrosch"
 msgstr[1] "%d Ochsenfrosche"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spiny frog"
 msgid_plural "%d spiny frogs"
 msgstr[0] "einen Stachelfrosch"
 msgstr[1] "%d Stachelfrosche"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a blink frog"
 msgid_plural "%d blink frogs"
 msgstr[0] "einen Flimmerfrosch"
 msgstr[1] "%d Flimmerfrosche"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a great orb of eyes"
 msgid_plural "%d great orbs of eyes"
 msgstr[0] "einen großen Augenkugel"
 msgstr[1] "%d große Augenkugel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ophan"
 msgid_plural "%d ophanim"
 msgstr[0] "einen Ophan"
 msgstr[1] "%d Ophane"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hippogriff"
 msgid_plural "%d hippogriffs"
 msgstr[0] "einen Hippogriff"
 msgstr[1] "%d Hippogriffe"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a manticore"
 msgid_plural "%d manticores"
 msgstr[0] "einen Mantikor"
 msgstr[1] "%d Mantikore"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a minotaur"
 msgid_plural "%d minotaurs"
 msgstr[0] "einen Minotaurus"
 msgstr[1] "%d Minotauren"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ancestor"
 msgid_plural "%d ancestors"
 msgstr[0] "einen Ahnen"
 msgstr[1] "%d Ahnen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a knight"
 msgid_plural "%d knights"
 msgstr[0] "einen Ritter"
 msgstr[1] "%d Ritter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a battlemage"
 msgid_plural "%d battlemagi"
 msgstr[0] "einen Kampfmagier"
 msgstr[1] "%d Kampfmagier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hexer"
 msgid_plural "%d hexers"
 msgstr[0] "einen Hexer"
 msgstr[1] "%d Hexer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ooze"
 msgid_plural "%d oozes"
 msgstr[0] "einen Schlamm"
 msgstr[1] "%d Schlamme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a death ooze"
 msgid_plural "%d death oozes"
 msgstr[0] "einen Todesschlamm"
 msgstr[1] "%d Todesschlamme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an acid blob"
 msgid_plural "%d acid blobs"
 msgstr[0] "einen Säureklumpen"
 msgstr[1] "%d Säureklumpene"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a kobold"
 msgid_plural "%d kobolds"
 msgstr[0] "einen Kobold"
 msgstr[1] "%d Kobolde"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a big kobold"
 msgid_plural "%d big kobolds"
 msgstr[0] "einen großen Kobold"
 msgstr[1] "%d große Kobolde"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a kobold demonologist"
 msgid_plural "%d kobold demonologists"
 msgstr[0] "einen Kobold-Dämonologen"
 msgstr[1] "%d Kobold-Dämonologen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a lich"
 msgid_plural "%d liches"
 msgstr[0] "einen Lich"
 msgstr[1] "%d Lichs"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ancient lich"
 msgid_plural "%d ancient liches"
 msgstr[0] "einen alten Lich"
 msgstr[1] "%d alte Lichs"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a revenant"
 msgid_plural "%d revenants"
 msgstr[0] "einen Wiedergänger"
 msgstr[1] "%d Wiedergänger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a halazid warlock"
 msgid_plural "%d halazid warlocks"
 msgstr[0] "einen halazidischen Hexenmeister"
 msgstr[1] "%d halazidische Hexenmeister"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a mummy priest"
 msgid_plural "%d mummy priests"
 msgstr[0] "einen Mumie-Priester"
 msgstr[1] "%d Mumie-Priester"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a naga"
 msgid_plural "%d nagas"
 msgstr[0] "einen Naga"
 msgstr[1] "%d Nagas"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a naga mage"
 msgid_plural "%d naga magi"
 msgstr[0] "einen Naga-Magier"
 msgstr[1] "%d Naga-Magier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a naga sharpshooter"
 msgid_plural "%d naga sharpshooters"
 msgstr[0] "einen Naga-Scharfschützen"
 msgstr[1] "%d Naga-Scharfschützen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a naga ritualist"
 msgid_plural "%d naga ritualists"
 msgstr[0] "einen Naga-Ritualisten"
 msgstr[1] "%d Naga-Ritualisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a naga warrior"
 msgid_plural "%d naga warriors"
 msgstr[0] "einen Naga-Krieger"
 msgstr[1] "%d Naga-Krieger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a nagaraja"
 msgid_plural "%d nagarajas"
 msgstr[0] "einen Nagaraja"
 msgstr[1] "%d Nagarajas"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ogre"
 msgid_plural "%d ogres"
 msgstr[0] "einen Oger"
 msgstr[1] "%d Oger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a two-headed ogre"
 msgid_plural "%d two-headed ogres"
 msgstr[0] "einen zweiköpfigen Oger"
 msgstr[1] "%d zweiköpfige Oger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ogre mage"
 msgid_plural "%d ogre magi"
 msgstr[0] "einen Oger-Magier"
 msgstr[1] "%d Oger-Magier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an oklob sapling"
 msgid_plural "%d oklob saplings"
 msgstr[0] "einen Oklob-Setzling"
 msgstr[1] "%d Oklob-Setzlinge"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a bush"
 msgid_plural "%d bushes"
 msgstr[0] "einen Busch"
 msgstr[1] "%d Busche"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a burning bush"
 msgid_plural "%d burning bushes"
 msgstr[0] "einen brennenden Busch"
 msgstr[1] "%d brennende Busche"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a toadstool"
 msgid_plural "%d toadstools"
 msgstr[0] "einen Giftpilz"
 msgstr[1] "%d Giftpilze"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a fungus"
 msgid_plural "%d fungi"
 msgstr[0] "einen Pilz"
 msgstr[1] "%d Pilze"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a ballistomycete"
 msgid_plural "%d ballistomycetes"
 msgstr[0] "einen Ballistomyceten"
 msgstr[1] "%d Ballistomyceten"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hyperactive ballistomycete"
 msgid_plural "%d hyperactive ballistomycetes"
 msgstr[0] "einen hyperaktiven Ballistomyceten"
 msgstr[1] "%d hyperaktive Ballistomyceten"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a briar patch"
 msgid_plural "%d briar patches"
 msgstr[0] "einen Dornstrauch"
 msgstr[1] "%d Dornstrauche"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a tengu"
 msgid_plural "%d tengu"
 msgstr[0] "einen Tengu"
 msgstr[1] "%d Tengus"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a tengu conjurer"
 msgid_plural "%d tengu conjurers"
 msgstr[0] "einen Tengu-Zauberer"
 msgstr[1] "%d Tengu-Zauberer"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a tengu warrior"
 msgid_plural "%d tengu warriors"
 msgstr[0] "einen Tengu-Krieger"
 msgstr[1] "%d Tengu-Krieger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a tengu reaver"
 msgid_plural "%d tengu reavers"
 msgstr[0] "einen Tengu-Häscher"
 msgstr[1] "%d Tengu-Häscher"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a rakshasa"
 msgid_plural "%d rakshasas"
 msgstr[0] "einen Rakshasa"
 msgstr[1] "%d Rakshasas"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a water moccasin"
 msgid_plural "%d water moccasins"
 msgstr[0] "einen Wassermokassin"
 msgstr[1] "%d Wassermokassine"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a troll"
 msgid_plural "%d trolls"
 msgstr[0] "einen Troll"
 msgstr[1] "%d Trolle"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an iron troll"
 msgid_plural "%d iron trolls"
 msgstr[0] "einen Eisentroll"
 msgstr[1] "%d Eisentrolle"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep troll"
 msgid_plural "%d deep trolls"
 msgstr[0] "einen Tiefentroll"
 msgstr[1] "%d Tiefentrolle"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep troll earth mage"
 msgid_plural "%d deep troll earth magi"
 msgstr[0] "einen Tiefentroll-Erdmagier"
 msgstr[1] "%d Tiefentroll-Erdmagier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a deep troll shaman"
 msgid_plural "%d deep troll shamans"
 msgstr[0] "einen Tiefentroll-Schamanen"
 msgstr[1] "%d Tiefentroll-Schamanen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a vampire"
 msgid_plural "%d vampires"
 msgstr[0] "einen Vampir"
 msgstr[1] "%d Vampire"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a vampire knight"
 msgid_plural "%d vampire knights"
 msgstr[0] "einen Vampir-Ritter"
 msgstr[1] "%d Vampir-Ritter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a vampire mage"
 msgid_plural "%d vampire magi"
 msgstr[0] "einen Vampir-Magier"
 msgstr[1] "%d Vampir-Magier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hungry ghost"
 msgid_plural "%d hungry ghosts"
 msgstr[0] "einen hungrigen Geisten"
 msgstr[1] "%d hungrige Geister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a flayed ghost"
 msgid_plural "%d flayed ghosts"
 msgstr[0] "einen enthäuteten Geisten"
 msgstr[1] "%d enthäutete Geister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a player ghost"
 msgid_plural "%d player ghosts"
 msgstr[0] "einen Spielergeisten"
 msgstr[1] "%d Spielergeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a shadow"
 msgid_plural "%d shadows"
 msgstr[0] "einen Schatten"
 msgstr[1] "%d Schatten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a wraith"
 msgid_plural "%d wraiths"
 msgstr[0] "einen Geisten"
 msgstr[1] "%d Geister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a shadow wraith"
 msgid_plural "%d shadow wraiths"
 msgstr[0] "einen Schattengeisten"
 msgstr[1] "%d Schattengeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a freezing wraith"
 msgid_plural "%d freezing wraiths"
 msgstr[0] "einen Frostgeisten"
 msgstr[1] "%d Frostgeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an eidolon"
 msgid_plural "%d eidola"
 msgstr[0] "einen Eidolon"
 msgstr[1] "%d Eidolone"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a phantasmal warrior"
 msgid_plural "%d phantasmal warriors"
 msgstr[0] "einen phantastischen Krieger"
 msgstr[1] "%d phantastische Krieger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a large abomination"
 msgid_plural "%d large abominations"
 msgstr[0] "einen großen Greuel"
 msgstr[1] "%d große Greuel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an Orb Guardian"
 msgid_plural "%d Orb Guardians"
 msgstr[0] "einen Kugelwächter"
 msgstr[1] "%d Kugelwächter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a tentacled starspawn"
 msgid_plural "%d tentacled starspawn"
 msgstr[0] "einen Tentakelsternbrut"
 msgstr[1] "%d Tentakelsternbrute"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a starspawn tentacle"
 msgid_plural "%d starspawn tentacles"
 msgstr[0] "einen Sternbruttentakel"
 msgstr[1] "%d Sternbruttentakel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an elephant"
 msgid_plural "%d elephants"
 msgstr[0] "einen Elefanten"
 msgstr[1] "%d Elefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a dire elephant"
 msgid_plural "%d dire elephants"
 msgstr[0] "einen Schreckenselefanten"
 msgstr[1] "%d Schreckenselefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hellephant"
 msgid_plural "%d hellephants"
 msgstr[0] "einen Höllefanten"
 msgstr[1] "%d Höllefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a zombie"
 msgid_plural "%d zombies"
 msgstr[0] "einen Zombie"
 msgstr[1] "%d Zombies"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a small zombie"
 msgid_plural "%d small zombies"
 msgstr[0] "einen kleinen Zombie"
 msgstr[1] "%d kleine Zombies"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a large zombie"
 msgid_plural "%d large zombies"
 msgstr[0] "einen großen Zombie"
 msgstr[1] "%d große Zombies"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an electric eel"
 msgid_plural "%d electric eels"
 msgstr[0] "einen Zitteraal"
 msgstr[1] "%d Zitteraale"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a kraken"
 msgid_plural "%d krakens"
 msgstr[0] "einen Kraken"
 msgstr[1] "%d Krakene"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a tentacle"
 msgid_plural "%d tentacles"
 msgstr[0] "einen Tentakel"
 msgstr[1] "%d Tentakel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an octopode"
 msgid_plural "%d octopodes"
 msgstr[0] "einen Oktopod"
 msgstr[1] "%d Oktopode"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a salamander"
 msgid_plural "%d salamanders"
 msgstr[0] "einen Salamander"
 msgstr[1] "%d Salamander"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a salamander mystic"
 msgid_plural "%d salamander mystics"
 msgstr[0] "einen Salamander-Mystiker"
 msgstr[1] "%d Salamander-Mystiker"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a Hellbinder"
 msgid_plural "%d Hellbinders"
 msgstr[0] "einen Höllenbinder"
 msgstr[1] "%d Höllenbinder"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a Cloud Mage"
 msgid_plural "%d Cloud Mages"
 msgstr[0] "einen Wolkenmagier"
 msgstr[1] "%d Wolkenmagier"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a player"
 msgid_plural "%d players"
 msgstr[0] "einen Spieler"
 msgstr[1] "%d Spieler"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an eldritch tentacle"
 msgid_plural "%d eldritch tentacles"
 msgstr[0] "einen unheimlichen Tentakel"
 msgstr[1] "%d unheimliche Tentakel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a gelid demonspawn"
 msgid_plural "%d gelid demonspawn"
 msgstr[0] "einen geliden Dämonenbrut"
 msgstr[1] "%d gelide Dämonenbrute"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a blood saint"
 msgid_plural "%d blood saints"
 msgstr[0] "einen Blutheiligen"
 msgstr[1] "%d Blutheiligen"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a warmonger"
 msgid_plural "%d warmongers"
 msgstr[0] "einen Kriegstreiber"
 msgstr[1] "%d Kriegstreiber"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a corrupter"
 msgid_plural "%d corrupters"
 msgstr[0] "einen Korruptor"
 msgstr[1] "%d Korruptore"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ufetubus"
 msgid_plural "%d ufetubi"
 msgstr[0] "einen Ufetubus"
 msgstr[1] "%d Ufetubi"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a rust devil"
 msgid_plural "%d rust devils"
 msgstr[0] "einen Rostteufel"
 msgstr[1] "%d Rostteufel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an orange demon"
 msgid_plural "%d orange demons"
 msgstr[0] "einen orangen Dämon"
 msgstr[1] "%d orange Dämone"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a red devil"
 msgid_plural "%d red devils"
 msgstr[0] "einen roten Teufel"
 msgstr[1] "%d rote Teufel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hellwing"
 msgid_plural "%d hellwings"
 msgstr[0] "einen Höllenflügel"
 msgstr[1] "%d Höllenflügel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an ice devil"
 msgid_plural "%d ice devils"
 msgstr[0] "einen Eisteufel"
 msgstr[1] "%d Eisteufel"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a sun demon"
 msgid_plural "%d sun demons"
 msgstr[0] "einen Sonnendämon"
 msgstr[1] "%d Sonnendämone"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a soul eater"
 msgid_plural "%d soul eaters"
 msgstr[0] "einen Seelenfresser"
 msgstr[1] "%d Seelenfresser"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a smoke demon"
 msgid_plural "%d smoke demons"
 msgstr[0] "einen Rauchdämon"
 msgstr[1] "%d Rauchdämone"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a sixfirhy"
 msgid_plural "%d sixfirhies"
 msgstr[0] "einen Sixfirhy"
 msgstr[1] "%d Sixfirhys"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a shadow demon"
 msgid_plural "%d shadow demons"
 msgstr[0] "einen Schattendämon"
 msgstr[1] "%d Schattendämone"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a green death"
 msgid_plural "%d green deaths"
 msgstr[0] "einen grünen Tod"
 msgstr[1] "%d grüne Tode"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a blizzard demon"
 msgid_plural "%d blizzard demons"
 msgstr[0] "einen Blizzarddämon"
 msgstr[1] "%d Blizzarddämone"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a balrug"
 msgid_plural "%d balrugs"
 msgstr[0] "einen Balrug"
 msgstr[1] "%d Balruge"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a cacodemon"
 msgid_plural "%d cacodemons"
 msgstr[0] "einen Cacodaemon"
 msgstr[1] "%d Cacodaemone"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hellion"
 msgid_plural "%d hellions"
 msgstr[0] "einen Teufelsbraten"
 msgstr[1] "%d Teufelsbratene"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a reaper"
 msgid_plural "%d reapers"
 msgstr[0] "einen Schnitter"
 msgstr[1] "%d Schnitter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a tormentor"
 msgid_plural "%d tormentors"
 msgstr[0] "einen Peiniger"
 msgstr[1] "%d Peiniger"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a Brimstone Fiend"
 msgid_plural "%d Brimstone Fiends"
 msgstr[0] "einen Schwefelunterweltler"
 msgstr[1] "%d Schwefelunterweltler"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an Ice Fiend"
 msgid_plural "%d Ice Fiends"
 msgstr[0] "einen Eisunterweltler"
 msgstr[1] "%d Eisunterweltler"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a Hell Sentinel"
 msgid_plural "%d Hell Sentinels"
 msgstr[0] "einen Höllenwächter"
 msgstr[1] "%d Höllenwächter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an Executioner"
 msgid_plural "%d Executioners"
 msgstr[0] "einen Scharfrichter"
 msgstr[1] "%d Scharfrichter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an animated tree"
 msgid_plural "%d animated trees"
 msgstr[0] "einen animierten Baum"
 msgstr[1] "%d animierte Bäume"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a golem"
 msgid_plural "%d golems"
 msgstr[0] "einen Golem"
 msgstr[1] "%d Goleme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a saltling"
 msgid_plural "%d saltlings"
 msgstr[0] "einen Salzling"
 msgstr[1] "%d Salzlinge"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a peacekeeper"
 msgid_plural "%d peacekeepers"
 msgstr[0] "einen Friedenshüter"
 msgstr[1] "%d Friedenshüter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an iron golem"
 msgid_plural "%d iron golems"
 msgstr[0] "einen Eisengolem"
 msgstr[1] "%d Eisengoleme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a crystal guardian"
 msgid_plural "%d crystal guardians"
 msgstr[0] "einen Kristallwächter"
 msgstr[1] "%d Kristallwächter"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a toenail golem"
 msgid_plural "%d toenail golems"
 msgstr[0] "einen Zehennagelgolem"
 msgstr[1] "%d Zehennagelgoleme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "an electric golem"
 msgid_plural "%d electric golems"
 msgstr[0] "einen Blitzgolem"
 msgstr[1] "%d Blitzgoleme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a guardian golem"
 msgid_plural "%d guardian golems"
 msgstr[0] "einen Wächtergolem"
 msgstr[1] "%d Wächtergoleme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a spellforged servitor"
 msgid_plural "%d spellforged servitors"
 msgstr[0] "einen zaubergeschmeideten Diener"
 msgstr[1] "%d zaubergeschmeidete Diener"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a block of ice"
 msgid_plural "%d blocks of ice"
 msgstr[0] "einen Eisblock"
 msgstr[1] "%d Eisblocke"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a diamond obelisk"
 msgid_plural "%d diamond obelisks"
 msgstr[0] "einen Diamantobelisk"
 msgstr[1] "%d Diamantobeliske"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a lightning spire"
 msgid_plural "%d lightning spires"
 msgstr[0] "einen Blitzturm"
 msgstr[1] "%d Blitzturme"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a gargoyle"
 msgid_plural "%d gargoyles"
 msgstr[0] "einen Gargoyle"
 msgstr[1] "%d Gargoyles"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a war gargoyle"
 msgid_plural "%d war gargoyles"
 msgstr[0] "einen Kriegsgargoyle"
 msgstr[1] "%d Kriegsgargoyles"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a molten gargoyle"
 msgid_plural "%d molten gargoyles"
 msgstr[0] "einen geschmolzenen Gargoyle"
 msgstr[1] "%d geschmolzene Gargoyles"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a pandemonium lord"
 msgid_plural "%d pandemonium lords"
 msgstr[0] "einen Pandemoniumsherrn"
 msgstr[1] "%d Pandemoniumsherre"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a hell lord"
 msgid_plural "%d hell lords"
 msgstr[0] "einen Höllenherrn"
 msgstr[1] "%d Höllenherre"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a ball lightning"
 msgid_plural "%d ball lightnings"
 msgstr[0] "einen Kugelblitz"
 msgstr[1] "%d Kugelblitze"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a wretched star"
 msgid_plural "%d wretched stars"
 msgstr[0] "einen elenden Stern"
 msgstr[1] "%d elende Sterne"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a death cob"
 msgid_plural "%d death cobs"
 msgstr[0] "einen Todeskolben"
 msgstr[1] "%d Todeskolben"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a moon troll"
 msgid_plural "%d moon trolls"
 msgstr[0] "einen Mondtroll"
 msgstr[1] "%d Mondtrolle"
 # check plural above
 
-msgctxt "akk"
+msgctxt "acc"
 msgid "a nameless horror"
 msgid_plural "%d nameless horrors"
 msgstr[0] "einen namenlosen Horror"
@@ -3219,1171 +3219,1171 @@ msgstr[1] "%d namenlose Horror"
 # allies
 ################################
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your program bug"
 msgstr "deinen Programmfehler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your formicid"
 msgstr "deinen Formicid"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your entropy weaver"
 msgstr "deinen Entropieweber"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your butterfly"
 msgstr "deinen Schmetterling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your caustic shrike"
 msgstr "deinen ätzenden Würger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your shard shrike"
 msgstr "deinen Scherbenwürger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your centaur"
 msgstr "deinen Zentaur"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your centaur warrior"
 msgstr "deinen Zentaur-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your yaktaur"
 msgstr "deinen Yaktaur"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your yaktaur captain"
 msgstr "deinen Yaktaur-Kapitän"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your faun"
 msgstr "deinen Faun"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your satyr"
 msgstr "deinen Satyr"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your draconian"
 msgstr "deinen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your black draconian"
 msgstr "deinen schwarzen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your yellow draconian"
 msgstr "deinen gelben Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your pale draconian"
 msgstr "deinen blassen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your green draconian"
 msgstr "deinen grünen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your purple draconian"
 msgstr "deinen purpurnen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your red draconian"
 msgstr "deinen roten Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your white draconian"
 msgstr "deinen weißen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your grey draconian"
 msgstr "deinen grauen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your draconian stormcaller"
 msgstr "deinen Drakonier-Sturmrufer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your draconian monk"
 msgstr "deinen Drakonier-Mönch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your draconian shifter"
 msgstr "deinen Drakonier-Verschieber"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your draconian annihilator"
 msgstr "deinen Drakonier-Vernichter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your draconian knight"
 msgstr "deinen Drakonier-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your draconian scorcher"
 msgstr "deinen Drakonier-Verschmorer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your elf"
 msgstr "deinen Elf"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf knight"
 msgstr "deinen Tiefenelf-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf archer"
 msgstr "deinen Tiefenelf-Bogenschützen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf blademaster"
 msgstr "deinen Tiefenelf-Klingenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf master archer"
 msgstr "deinen Tiefenelf-Bogenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf mage"
 msgstr "deinen Tiefenelf-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf high priest"
 msgstr "deinen Tiefenelf-Hohepriester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf demonologist"
 msgstr "deinen Tiefenelf-Dämonologen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf annihilator"
 msgstr "deinen Tiefenelf-Vernichter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf sorcerer"
 msgstr "deinen Tiefenelf-Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf death mage"
 msgstr "deinen Tiefenelf-Todesmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep elf elementalist"
 msgstr "deinen Tiefenelf-Elementalisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your wandering mushroom"
 msgstr "deinen wandernden Pilz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your thorn hunter"
 msgstr "deinen Dornenjäger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your vine stalker"
 msgstr "deinen Rebjäger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your goblin"
 msgstr "deinen Goblin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hobgoblin"
 msgstr "deinen Hobgoblin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your gnoll"
 msgstr "deinen Gnoll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your gnoll shaman"
 msgstr "deinen Gnoll-Schamanen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your gnoll sergeant"
 msgstr "deinen Gnoll-Wachtmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your boggart"
 msgstr "deinen Boggart"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your dwarf"
 msgstr "deinen Zwerg"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep dwarf"
 msgstr "deinen Tiefenzwerg"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your jackal"
 msgstr "deinen Schakal"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hound"
 msgstr "deinen Hund"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your howler monkey"
 msgstr "deinen Brüllaffen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your warg"
 msgstr "deinen Warg"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your wolf"
 msgstr "deinen Wolf"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hell hound"
 msgstr "deinen Höllenhund"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your doom hound"
 msgstr "deinen Untergangshund"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your raiju"
 msgstr "deinen Raiju"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your bear"
 msgstr "deinen Bären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your polar bear"
 msgstr "deinen Eisbären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your black bear"
 msgstr "deinen Schwarzbären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spriggan"
 msgstr "deinen Spriggan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spriggan rider"
 msgstr "deinen Spriggan-Reiter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spriggan druid"
 msgstr "deinen Spriggan-Druiden"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spriggan berserker"
 msgstr "deinen Spriggan-Berserker"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spriggan air mage"
 msgstr "deinen Spriggan-Luftmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spriggan defender"
 msgstr "deinen Spriggan-Verteidiger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your drake"
 msgstr "deinen Drachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your swamp drake"
 msgstr "deinen Sumpfdrachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your rime drake"
 msgstr "deinen Reifsdrachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your wind drake"
 msgstr "deinen Winddrachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your lindwurm"
 msgstr "deinen Lindwurm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your death drake"
 msgstr "deinen Todesdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your leopard gecko"
 msgstr "deinen Leopardgecko"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your iguana"
 msgstr "deinen Leguan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your basilisk"
 msgstr "deinen Basilisk"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your wyvern"
 msgstr "deinen Wyvern"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your komodo dragon"
 msgstr "deinen Komododrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your merfolk impaler"
 msgstr "deinen Meervolk-Impaler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your merfolk javelineer"
 msgstr "deinen Meervolk-Speerführer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your merfolk aquamancer"
 msgstr "deinen Meervolk-Aquamancer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your merfolk avatar"
 msgstr "deinen Meervolk-Avatar"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your necrophage"
 msgstr "deinen Nekrophagen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ghoul"
 msgstr "deinen Ghul"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your orc"
 msgstr "deinen Ork"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your orc wizard"
 msgstr "deinen Ork-Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your orc priest"
 msgstr "deinen Ork-Priester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your orc warrior"
 msgstr "deinen Ork-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your orc knight"
 msgstr "deinen Ork-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your orc warlord"
 msgstr "deinen Ork-Warlord"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your orc sorcerer"
 msgstr "deinen Ork-Hexenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your orc high priest"
 msgstr "deinen Ork-Hohepriester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your lava orc"
 msgstr "deinen Lava-Ork"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your human"
 msgstr "deinen Menschen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your slave"
 msgstr "deinen Sklaven"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hell knight"
 msgstr "deinen Höllenritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your death knight"
 msgstr "deinen Todesritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your necromancer"
 msgstr "deinen Nekromanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your wizard"
 msgstr "deinen Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your vault guard"
 msgstr "deinen Tresorwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your vault warden"
 msgstr "deinen Tresorwärter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ironbrand convoker"
 msgstr "deinen Eisenbrandeinberufer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your imperial myrmidon"
 msgstr "deinen kaiserlichen Myrmidon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your servant of whispers"
 msgstr "deinen Diener des Flüsterns"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ragged hierophant"
 msgstr "deinen zerlumpten Hierophanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ironheart preserver"
 msgstr "deinen Eisenherzbewahrer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your shapeshifter"
 msgstr "deinen Gestaltwandler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your glowing shapeshifter"
 msgstr "deinen leuchtenden Gestaltwandler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your Killer Klown"
 msgstr "deinen Killer-Klown"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your demigod"
 msgstr "deinen Halbgott"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your halfling"
 msgstr "deinen Halbling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your scorpion"
 msgstr "deinen Skorpion"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your emperor scorpion"
 msgstr "deinen Kaiserskorpion"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your death scarab"
 msgstr "deinen Todesskarabäus"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your demonic crawler"
 msgstr "deinen dämonischen Kriecher"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your alligator"
 msgstr "deinen Alligator"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your fire vortex"
 msgstr "deinen Feuerwirbel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spatial vortex"
 msgstr "deinen räumlichen Wirbel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spatial maelstrom"
 msgstr "deinen räumlichen Mahlstrom"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your twister"
 msgstr "deinen Twister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your worm"
 msgstr "deinen Wurm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your swamp worm"
 msgstr "deinen Sumpfwurm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your tyrant leech"
 msgstr "deinen Tyrannblutegel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your small abomination"
 msgstr "deinen kleinen Greuel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ancient zyme"
 msgstr "deinen alten Zymen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your worldbinder"
 msgstr "deinen Weltbinder"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your wight"
 msgstr "deinen Wight"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your skeletal warrior"
 msgstr "deinen Skelettkrieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ancient champion"
 msgstr "deinen alten Champion"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your flying skull"
 msgstr "deinen fliegenden Schädel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your curse skull"
 msgstr "deinen Fluchschädel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your curse toe"
 msgstr "deinen Fluchzehen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your angel"
 msgstr "deinen Engel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your cherub"
 msgstr "deinen Cherub"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your seraph"
 msgstr "deinen Seraph"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your daeva"
 msgstr "deinen Daeva"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your profane servitor"
 msgstr "deinen profanen Diener"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your giant"
 msgstr "deinen Riesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your cyclops"
 msgstr "deinen Zyklop"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ettin"
 msgstr "deinen Ettin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your fire giant"
 msgstr "deinen Feuerriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your frost giant"
 msgstr "deinen Frostriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your stone giant"
 msgstr "deinen Steinriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your titan"
 msgstr "deinen Titan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your juggernaut"
 msgstr "deinen Juggernaut"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your iron giant"
 msgstr "deinen Eisenriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your dragon"
 msgstr "deinen Drachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your fire dragon"
 msgstr "deinen Feuerdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ice dragon"
 msgstr "deinen Eisdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your steam dragon"
 msgstr "deinen Dampfdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your swamp dragon"
 msgstr "deinen Sumpfdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your acid dragon"
 msgstr "deinen Säuredrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your quicksilver dragon"
 msgstr "deinen Quecksilberdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your iron dragon"
 msgstr "deinen Eisendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your storm dragon"
 msgstr "deinen Sturmdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your golden dragon"
 msgstr "deinen Golddrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your shadow dragon"
 msgstr "deinen Schattendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your bone dragon"
 msgstr "deinen Knochendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your pearl dragon"
 msgstr "deinen Perlendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your giant frog"
 msgstr "deinen Riesenfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your bullfrog"
 msgstr "deinen Ochsenfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spiny frog"
 msgstr "deinen Stachelfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your blink frog"
 msgstr "deinen Flimmerfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your great orb of eyes"
 msgstr "deinen großen Augenkugel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ophan"
 msgstr "deinen Ophan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hippogriff"
 msgstr "deinen Hippogriff"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your manticore"
 msgstr "deinen Mantikor"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your minotaur"
 msgstr "deinen Minotaurus"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ancestor"
 msgstr "deinen Ahnen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your knight"
 msgstr "deinen Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your battlemage"
 msgstr "deinen Kampfmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hexer"
 msgstr "deinen Hexer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ooze"
 msgstr "deinen Schlamm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your death ooze"
 msgstr "deinen Todesschlamm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your acid blob"
 msgstr "deinen Säureklumpen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your kobold"
 msgstr "deinen Kobold"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your big kobold"
 msgstr "deinen großen Kobold"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your kobold demonologist"
 msgstr "deinen Kobold-Dämonologen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your lich"
 msgstr "deinen Lich"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ancient lich"
 msgstr "deinen alten Lich"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your revenant"
 msgstr "deinen Wiedergänger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your halazid warlock"
 msgstr "deinen halazidischen Hexenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your mummy priest"
 msgstr "deinen Mumie-Priester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your naga"
 msgstr "deinen Naga"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your naga mage"
 msgstr "deinen Naga-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your naga sharpshooter"
 msgstr "deinen Naga-Scharfschützen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your naga ritualist"
 msgstr "deinen Naga-Ritualisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your naga warrior"
 msgstr "deinen Naga-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your nagaraja"
 msgstr "deinen Nagaraja"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ogre"
 msgstr "deinen Oger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your two-headed ogre"
 msgstr "deinen zweiköpfigen Oger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ogre mage"
 msgstr "deinen Oger-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your oklob sapling"
 msgstr "deinen Oklob-Setzling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your bush"
 msgstr "deinen Busch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your burning bush"
 msgstr "deinen brennenden Busch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your toadstool"
 msgstr "deinen Giftpilz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your fungus"
 msgstr "deinen Pilz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ballistomycete"
 msgstr "deinen Ballistomyceten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hyperactive ballistomycete"
 msgstr "deinen hyperaktiven Ballistomyceten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your briar patch"
 msgstr "deinen Dornstrauch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your tengu"
 msgstr "deinen Tengu"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your tengu conjurer"
 msgstr "deinen Tengu-Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your tengu warrior"
 msgstr "deinen Tengu-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your tengu reaver"
 msgstr "deinen Tengu-Häscher"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your rakshasa"
 msgstr "deinen Rakshasa"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your water moccasin"
 msgstr "deinen Wassermokassin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your troll"
 msgstr "deinen Troll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your iron troll"
 msgstr "deinen Eisentroll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep troll"
 msgstr "deinen Tiefentroll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep troll earth mage"
 msgstr "deinen Tiefentroll-Erdmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your deep troll shaman"
 msgstr "deinen Tiefentroll-Schamanen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your vampire"
 msgstr "deinen Vampir"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your vampire knight"
 msgstr "deinen Vampir-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your vampire mage"
 msgstr "deinen Vampir-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hungry ghost"
 msgstr "deinen hungrigen Geisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your flayed ghost"
 msgstr "deinen enthäuteten Geisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your player ghost"
 msgstr "deinen Spielergeisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your shadow"
 msgstr "deinen Schatten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your wraith"
 msgstr "deinen Geisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your shadow wraith"
 msgstr "deinen Schattengeisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your freezing wraith"
 msgstr "deinen Frostgeisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your eidolon"
 msgstr "deinen Eidolon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your phantasmal warrior"
 msgstr "deinen phantastischen Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your large abomination"
 msgstr "deinen großen Greuel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your Orb Guardian"
 msgstr "deinen Kugelwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your tentacled starspawn"
 msgstr "deinen Tentakelsternbrut"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your starspawn tentacle"
 msgstr "deinen Sternbruttentakel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your elephant"
 msgstr "deinen Elefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your dire elephant"
 msgstr "deinen Schreckenselefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hellephant"
 msgstr "deinen Höllefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your zombie"
 msgstr "deinen Zombie"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your small zombie"
 msgstr "deinen kleinen Zombie"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your large zombie"
 msgstr "deinen großen Zombie"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your electric eel"
 msgstr "deinen Zitteraal"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your kraken"
 msgstr "deinen Kraken"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your tentacle"
 msgstr "deinen Tentakel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your octopode"
 msgstr "deinen Oktopod"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your salamander"
 msgstr "deinen Salamander"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your salamander mystic"
 msgstr "deinen Salamander-Mystiker"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your Hellbinder"
 msgstr "deinen Höllenbinder"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your Cloud Mage"
 msgstr "deinen Wolkenmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your player"
 msgstr "deinen Spieler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your eldritch tentacle"
 msgstr "deinen unheimlichen Tentakel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your gelid demonspawn"
 msgstr "deinen geliden Dämonenbrut"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your blood saint"
 msgstr "deinen Blutheiligen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your warmonger"
 msgstr "deinen Kriegstreiber"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your corrupter"
 msgstr "deinen Korruptor"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ufetubus"
 msgstr "deinen Ufetubus"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your rust devil"
 msgstr "deinen Rostteufel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your orange demon"
 msgstr "deinen orangen Dämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your red devil"
 msgstr "deinen roten Teufel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hellwing"
 msgstr "deinen Höllenflügel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ice devil"
 msgstr "deinen Eisteufel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your sun demon"
 msgstr "deinen Sonnendämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your soul eater"
 msgstr "deinen Seelenfresser"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your smoke demon"
 msgstr "deinen Rauchdämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your sixfirhy"
 msgstr "deinen Sixfirhy"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your shadow demon"
 msgstr "deinen Schattendämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your green death"
 msgstr "deinen grünen Tod"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your blizzard demon"
 msgstr "deinen Blizzarddämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your balrug"
 msgstr "deinen Balrug"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your cacodemon"
 msgstr "deinen Cacodaemon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hellion"
 msgstr "deinen Teufelsbraten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your reaper"
 msgstr "deinen Schnitter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your tormentor"
 msgstr "deinen Peiniger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your Brimstone Fiend"
 msgstr "deinen Schwefelunterweltler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your Ice Fiend"
 msgstr "deinen Eisunterweltler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your Hell Sentinel"
 msgstr "deinen Höllenwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your Executioner"
 msgstr "deinen Scharfrichter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your animated tree"
 msgstr "deinen animierten Baum"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your golem"
 msgstr "deinen Golem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your saltling"
 msgstr "deinen Salzling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your peacekeeper"
 msgstr "deinen Friedenshüter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your iron golem"
 msgstr "deinen Eisengolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your crystal guardian"
 msgstr "deinen Kristallwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your toenail golem"
 msgstr "deinen Zehennagelgolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your electric golem"
 msgstr "deinen Blitzgolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your guardian golem"
 msgstr "deinen Wächtergolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your spellforged servitor"
 msgstr "deinen zaubergeschmeideten Diener"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your block of ice"
 msgstr "deinen Eisblock"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your diamond obelisk"
 msgstr "deinen Diamantobelisk"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your lightning spire"
 msgstr "deinen Blitzturm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your gargoyle"
 msgstr "deinen Gargoyle"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your war gargoyle"
 msgstr "deinen Kriegsgargoyle"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your molten gargoyle"
 msgstr "deinen geschmolzenen Gargoyle"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your pandemonium lord"
 msgstr "deinen Pandemoniumsherrn"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your hell lord"
 msgstr "deinen Höllenherrn"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your ball lightning"
 msgstr "deinen Kugelblitz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your wretched star"
 msgstr "deinen elenden Stern"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your death cob"
 msgstr "deinen Todeskolben"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your moon troll"
 msgstr "deinen Mondtroll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "your nameless horror"
 msgstr "deinen namenlosen Horror"
 
@@ -4391,1171 +4391,1171 @@ msgstr "deinen namenlosen Horror"
 # no determiner
 ################################
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "program bug"
 msgstr "Programmfehler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "formicid"
 msgstr "Formicid"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "entropy weaver"
 msgstr "Entropieweber"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "butterfly"
 msgstr "Schmetterling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "caustic shrike"
 msgstr "ätzenden Würger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "shard shrike"
 msgstr "Scherbenwürger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "centaur"
 msgstr "Zentaur"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "centaur warrior"
 msgstr "Zentaur-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "yaktaur"
 msgstr "Yaktaur"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "yaktaur captain"
 msgstr "Yaktaur-Kapitän"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "faun"
 msgstr "Faun"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "satyr"
 msgstr "Satyr"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "draconian"
 msgstr "Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "black draconian"
 msgstr "schwarzen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "yellow draconian"
 msgstr "gelben Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "pale draconian"
 msgstr "blassen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "green draconian"
 msgstr "grünen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "purple draconian"
 msgstr "purpurnen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "red draconian"
 msgstr "roten Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "white draconian"
 msgstr "weißen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "grey draconian"
 msgstr "grauen Drakonier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "draconian stormcaller"
 msgstr "Drakonier-Sturmrufer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "draconian monk"
 msgstr "Drakonier-Mönch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "draconian shifter"
 msgstr "Drakonier-Verschieber"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "draconian annihilator"
 msgstr "Drakonier-Vernichter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "draconian knight"
 msgstr "Drakonier-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "draconian scorcher"
 msgstr "Drakonier-Verschmorer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "elf"
 msgstr "Elf"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf knight"
 msgstr "Tiefenelf-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf archer"
 msgstr "Tiefenelf-Bogenschützen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf blademaster"
 msgstr "Tiefenelf-Klingenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf master archer"
 msgstr "Tiefenelf-Bogenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf mage"
 msgstr "Tiefenelf-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf high priest"
 msgstr "Tiefenelf-Hohepriester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf demonologist"
 msgstr "Tiefenelf-Dämonologen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf annihilator"
 msgstr "Tiefenelf-Vernichter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf sorcerer"
 msgstr "Tiefenelf-Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf death mage"
 msgstr "Tiefenelf-Todesmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep elf elementalist"
 msgstr "Tiefenelf-Elementalisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "wandering mushroom"
 msgstr "wandernden Pilz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "thorn hunter"
 msgstr "Dornenjäger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "vine stalker"
 msgstr "Rebjäger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "goblin"
 msgstr "Goblin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hobgoblin"
 msgstr "Hobgoblin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "gnoll"
 msgstr "Gnoll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "gnoll shaman"
 msgstr "Gnoll-Schamanen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "gnoll sergeant"
 msgstr "Gnoll-Wachtmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "boggart"
 msgstr "Boggart"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "dwarf"
 msgstr "Zwerg"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep dwarf"
 msgstr "Tiefenzwerg"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "jackal"
 msgstr "Schakal"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hound"
 msgstr "Hund"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "howler monkey"
 msgstr "Brüllaffen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "warg"
 msgstr "Warg"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "wolf"
 msgstr "Wolf"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hell hound"
 msgstr "Höllenhund"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "doom hound"
 msgstr "Untergangshund"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "raiju"
 msgstr "Raiju"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "bear"
 msgstr "Bären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "polar bear"
 msgstr "Eisbären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "black bear"
 msgstr "Schwarzbären"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spriggan"
 msgstr "Spriggan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spriggan rider"
 msgstr "Spriggan-Reiter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spriggan druid"
 msgstr "Spriggan-Druiden"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spriggan berserker"
 msgstr "Spriggan-Berserker"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spriggan air mage"
 msgstr "Spriggan-Luftmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spriggan defender"
 msgstr "Spriggan-Verteidiger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "drake"
 msgstr "Drachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "swamp drake"
 msgstr "Sumpfdrachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "rime drake"
 msgstr "Reifsdrachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "wind drake"
 msgstr "Winddrachling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "lindwurm"
 msgstr "Lindwurm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "death drake"
 msgstr "Todesdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "leopard gecko"
 msgstr "Leopardgecko"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "iguana"
 msgstr "Leguan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "basilisk"
 msgstr "Basilisk"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "wyvern"
 msgstr "Wyvern"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "komodo dragon"
 msgstr "Komododrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "merfolk impaler"
 msgstr "Meervolk-Impaler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "merfolk javelineer"
 msgstr "Meervolk-Speerführer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "merfolk aquamancer"
 msgstr "Meervolk-Aquamancer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "merfolk avatar"
 msgstr "Meervolk-Avatar"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "necrophage"
 msgstr "Nekrophagen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ghoul"
 msgstr "Ghul"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "orc"
 msgstr "Ork"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "orc wizard"
 msgstr "Ork-Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "orc priest"
 msgstr "Ork-Priester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "orc warrior"
 msgstr "Ork-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "orc knight"
 msgstr "Ork-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "orc warlord"
 msgstr "Ork-Warlord"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "orc sorcerer"
 msgstr "Ork-Hexenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "orc high priest"
 msgstr "Ork-Hohepriester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "lava orc"
 msgstr "Lava-Ork"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "human"
 msgstr "Menschen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "slave"
 msgstr "Sklaven"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hell knight"
 msgstr "Höllenritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "death knight"
 msgstr "Todesritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "necromancer"
 msgstr "Nekromanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "wizard"
 msgstr "Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "vault guard"
 msgstr "Tresorwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "vault warden"
 msgstr "Tresorwärter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ironbrand convoker"
 msgstr "Eisenbrandeinberufer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "imperial myrmidon"
 msgstr "kaiserlichen Myrmidon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "servant of whispers"
 msgstr "Diener des Flüsterns"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ragged hierophant"
 msgstr "zerlumpten Hierophanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ironheart preserver"
 msgstr "Eisenherzbewahrer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "shapeshifter"
 msgstr "Gestaltwandler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "glowing shapeshifter"
 msgstr "leuchtenden Gestaltwandler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Killer Klown"
 msgstr "Killer-Klown"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "demigod"
 msgstr "Halbgott"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "halfling"
 msgstr "Halbling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "scorpion"
 msgstr "Skorpion"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "emperor scorpion"
 msgstr "Kaiserskorpion"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "death scarab"
 msgstr "Todesskarabäus"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "demonic crawler"
 msgstr "dämonischen Kriecher"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "alligator"
 msgstr "Alligator"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "fire vortex"
 msgstr "Feuerwirbel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spatial vortex"
 msgstr "räumlichen Wirbel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spatial maelstrom"
 msgstr "räumlichen Mahlstrom"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "twister"
 msgstr "Twister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "worm"
 msgstr "Wurm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "swamp worm"
 msgstr "Sumpfwurm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "tyrant leech"
 msgstr "Tyrannblutegel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "small abomination"
 msgstr "kleinen Greuel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ancient zyme"
 msgstr "alten Zymen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "worldbinder"
 msgstr "Weltbinder"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "wight"
 msgstr "Wight"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "skeletal warrior"
 msgstr "Skelettkrieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ancient champion"
 msgstr "alten Champion"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "flying skull"
 msgstr "fliegenden Schädel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "curse skull"
 msgstr "Fluchschädel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "curse toe"
 msgstr "Fluchzehen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "angel"
 msgstr "Engel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "cherub"
 msgstr "Cherub"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "seraph"
 msgstr "Seraph"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "daeva"
 msgstr "Daeva"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "profane servitor"
 msgstr "profanen Diener"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "giant"
 msgstr "Riesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "cyclops"
 msgstr "Zyklop"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ettin"
 msgstr "Ettin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "fire giant"
 msgstr "Feuerriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "frost giant"
 msgstr "Frostriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "stone giant"
 msgstr "Steinriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "titan"
 msgstr "Titan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "juggernaut"
 msgstr "Juggernaut"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "iron giant"
 msgstr "Eisenriesen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "dragon"
 msgstr "Drachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "fire dragon"
 msgstr "Feuerdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ice dragon"
 msgstr "Eisdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "steam dragon"
 msgstr "Dampfdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "swamp dragon"
 msgstr "Sumpfdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "acid dragon"
 msgstr "Säuredrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "quicksilver dragon"
 msgstr "Quecksilberdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "iron dragon"
 msgstr "Eisendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "storm dragon"
 msgstr "Sturmdrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "golden dragon"
 msgstr "Golddrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "shadow dragon"
 msgstr "Schattendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "bone dragon"
 msgstr "Knochendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "pearl dragon"
 msgstr "Perlendrachen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "giant frog"
 msgstr "Riesenfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "bullfrog"
 msgstr "Ochsenfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spiny frog"
 msgstr "Stachelfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "blink frog"
 msgstr "Flimmerfrosch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "great orb of eyes"
 msgstr "großen Augenkugel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ophan"
 msgstr "Ophan"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hippogriff"
 msgstr "Hippogriff"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "manticore"
 msgstr "Mantikor"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "minotaur"
 msgstr "Minotaurus"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ancestor"
 msgstr "Ahnen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "knight"
 msgstr "Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "battlemage"
 msgstr "Kampfmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hexer"
 msgstr "Hexer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ooze"
 msgstr "Schlamm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "death ooze"
 msgstr "Todesschlamm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "acid blob"
 msgstr "Säureklumpen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "kobold"
 msgstr "Kobold"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "big kobold"
 msgstr "großen Kobold"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "kobold demonologist"
 msgstr "Kobold-Dämonologen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "lich"
 msgstr "Lich"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ancient lich"
 msgstr "alten Lich"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "revenant"
 msgstr "Wiedergänger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "halazid warlock"
 msgstr "halazidischen Hexenmeister"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "mummy priest"
 msgstr "Mumie-Priester"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "naga"
 msgstr "Naga"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "naga mage"
 msgstr "Naga-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "naga sharpshooter"
 msgstr "Naga-Scharfschützen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "naga ritualist"
 msgstr "Naga-Ritualisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "naga warrior"
 msgstr "Naga-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "nagaraja"
 msgstr "Nagaraja"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ogre"
 msgstr "Oger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "two-headed ogre"
 msgstr "zweiköpfigen Oger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ogre mage"
 msgstr "Oger-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "oklob sapling"
 msgstr "Oklob-Setzling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "bush"
 msgstr "Busch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "burning bush"
 msgstr "brennenden Busch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "toadstool"
 msgstr "Giftpilz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "fungus"
 msgstr "Pilz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ballistomycete"
 msgstr "Ballistomyceten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hyperactive ballistomycete"
 msgstr "hyperaktiven Ballistomyceten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "briar patch"
 msgstr "Dornstrauch"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "tengu"
 msgstr "Tengu"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "tengu conjurer"
 msgstr "Tengu-Zauberer"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "tengu warrior"
 msgstr "Tengu-Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "tengu reaver"
 msgstr "Tengu-Häscher"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "rakshasa"
 msgstr "Rakshasa"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "water moccasin"
 msgstr "Wassermokassin"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "troll"
 msgstr "Troll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "iron troll"
 msgstr "Eisentroll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep troll"
 msgstr "Tiefentroll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep troll earth mage"
 msgstr "Tiefentroll-Erdmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "deep troll shaman"
 msgstr "Tiefentroll-Schamanen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "vampire"
 msgstr "Vampir"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "vampire knight"
 msgstr "Vampir-Ritter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "vampire mage"
 msgstr "Vampir-Magier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hungry ghost"
 msgstr "hungrigen Geisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "flayed ghost"
 msgstr "enthäuteten Geisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "player ghost"
 msgstr "Spielergeisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "shadow"
 msgstr "Schatten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "wraith"
 msgstr "Geisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "shadow wraith"
 msgstr "Schattengeisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "freezing wraith"
 msgstr "Frostgeisten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "eidolon"
 msgstr "Eidolon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "phantasmal warrior"
 msgstr "phantastischen Krieger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "large abomination"
 msgstr "großen Greuel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Orb Guardian"
 msgstr "Kugelwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "tentacled starspawn"
 msgstr "Tentakelsternbrut"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "starspawn tentacle"
 msgstr "Sternbruttentakel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "elephant"
 msgstr "Elefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "dire elephant"
 msgstr "Schreckenselefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hellephant"
 msgstr "Höllefanten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "zombie"
 msgstr "Zombie"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "small zombie"
 msgstr "kleinen Zombie"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "large zombie"
 msgstr "großen Zombie"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "electric eel"
 msgstr "Zitteraal"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "kraken"
 msgstr "Kraken"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "tentacle"
 msgstr "Tentakel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "octopode"
 msgstr "Oktopod"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "salamander"
 msgstr "Salamander"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "salamander mystic"
 msgstr "Salamander-Mystiker"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Hellbinder"
 msgstr "Höllenbinder"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Cloud Mage"
 msgstr "Wolkenmagier"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "player"
 msgstr "Spieler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "eldritch tentacle"
 msgstr "unheimlichen Tentakel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "gelid demonspawn"
 msgstr "geliden Dämonenbrut"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "blood saint"
 msgstr "Blutheiligen"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "warmonger"
 msgstr "Kriegstreiber"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "corrupter"
 msgstr "Korruptor"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ufetubus"
 msgstr "Ufetubus"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "rust devil"
 msgstr "Rostteufel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "orange demon"
 msgstr "orangen Dämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "red devil"
 msgstr "roten Teufel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hellwing"
 msgstr "Höllenflügel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ice devil"
 msgstr "Eisteufel"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "sun demon"
 msgstr "Sonnendämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "soul eater"
 msgstr "Seelenfresser"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "smoke demon"
 msgstr "Rauchdämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "sixfirhy"
 msgstr "Sixfirhy"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "shadow demon"
 msgstr "Schattendämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "green death"
 msgstr "grünen Tod"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "blizzard demon"
 msgstr "Blizzarddämon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "balrug"
 msgstr "Balrug"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "cacodemon"
 msgstr "Cacodaemon"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hellion"
 msgstr "Teufelsbraten"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "reaper"
 msgstr "Schnitter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "tormentor"
 msgstr "Peiniger"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Brimstone Fiend"
 msgstr "Schwefelunterweltler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Ice Fiend"
 msgstr "Eisunterweltler"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Hell Sentinel"
 msgstr "Höllenwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "Executioner"
 msgstr "Scharfrichter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "animated tree"
 msgstr "animierten Baum"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "golem"
 msgstr "Golem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "saltling"
 msgstr "Salzling"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "peacekeeper"
 msgstr "Friedenshüter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "iron golem"
 msgstr "Eisengolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "crystal guardian"
 msgstr "Kristallwächter"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "toenail golem"
 msgstr "Zehennagelgolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "electric golem"
 msgstr "Blitzgolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "guardian golem"
 msgstr "Wächtergolem"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "spellforged servitor"
 msgstr "zaubergeschmeideten Diener"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "block of ice"
 msgstr "Eisblock"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "diamond obelisk"
 msgstr "Diamantobelisk"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "lightning spire"
 msgstr "Blitzturm"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "gargoyle"
 msgstr "Gargoyle"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "war gargoyle"
 msgstr "Kriegsgargoyle"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "molten gargoyle"
 msgstr "geschmolzenen Gargoyle"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "pandemonium lord"
 msgstr "Pandemoniumsherrn"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "hell lord"
 msgstr "Höllenherrn"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "ball lightning"
 msgstr "Kugelblitz"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "wretched star"
 msgstr "elenden Stern"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "death cob"
 msgstr "Todeskolben"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "moon troll"
 msgstr "Mondtroll"
 
-msgctxt "akk"
+msgctxt "acc"
 msgid  "nameless horror"
 msgstr "namenlosen Horror"
 
