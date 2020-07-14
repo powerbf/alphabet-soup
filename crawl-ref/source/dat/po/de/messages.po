@@ -633,48 +633,59 @@ msgid "--more-- Press Space or click to continue. You can later reread messages 
 msgstr "--mehr-- Drücke Leertaste oder klicke weiterzumachen. Mit Ctrl-P kannst du Nachrichten später nochmal lesen."
 
 ###############################
-# Player attacks
+# Player hits
+# NOTE: These do not have a fullstop at the end because a number of 
+#       exclamation marks are added based on the strength of the hit.
 ###############################
-
-#, c-format
-msgid "You miss %s."
-msgstr "Du verfehlst {acc}%s."
-
-#, c-format
-msgid "You completely miss %s."
-msgstr "Du verfehlst {acc}%s völlig."
-
-#, c-format
-msgid "You closely miss %s."
-msgstr "Du verfehlst {acc}%s nur knapp."
-
-#, c-format
-msgid "You barely miss %s."
-msgstr "Du verfehlst {acc}%s sehr knapp."
-
-#, c-format
-msgid "Your armour prevents you from hitting %s."
-msgstr "Deine Rüstung hindert dich daran, {acc}%s zu treffen."
-
-#, c-format
-msgid "Your shield prevents you from hitting %s."
-msgstr "Dein Schild hindert dich daran, {acc}%s zu treffen."
-
-#, c-format
-msgid "Your shield and armour prevent you from hitting %s."
-msgstr "Dein Schild und deine Rüstung hindert dich daran, {acc}%s zu treffen."
 
 #, c-format
 msgid "You hit %s"
 msgstr "Du schlägst {acc}%s"
 
 #, c-format
+msgid "%s kick %s"
+msgstr "Du trittst {acc}%s"
+
+#, c-format
+msgid "You peck %s"
+msgstr "Du pickst {acc}%s"
+
+#, c-format
+msgid "You headbutt %s"
+msgstr "Du versetzt {dat}%s einen Kopfstoß"
+
+#, c-format
+msgid "You gore %s"
+msgstr "Du spießt {acc}%s auf"
+
+#, c-format
+msgid "You constrict %s"
+msgstr "Du verengst {acc}%s"
+
+# constriction
+#, c-format
+msgid "You grab %s"
+msgstr "Du  umschlingst {acc}%s"
+
+#, c-format
+msgid "You sting %s"
+msgstr "Du stichst {acc}%s"
+
+#, c-format
+msgid "You tail-slap %s"
+msgstr "Du schlägst {acc}%s mit dem Schwanz"
+
+#, c-format
 msgid "You clumsily bash %s"
 msgstr "Du schlägst {acc}%s ungeschickt"
 
 #, c-format
+msgid "You pierce %s"
+msgstr "Du stichst {acc}%s durch"
+
+#, c-format
 msgid "You puncture %s"
-msgstr "Du durchstichst {acc}%s"
+msgstr "Du stichst {acc}%s durch"
 
 #, c-format
 msgid "You impale %s"
@@ -941,6 +952,115 @@ msgstr "%s!!!!!!!!!"
 msgid "%s!!!!!!!!!!"
 msgstr "%s!!!!!!!!!!"
 
+# "<You hit in some way>, but do no damage."
+#, c-format
+msgid "%s, but do no damage."
+msgstr "%s, fügst aber keinen Schaden zu."
+
+###############################
+# Other player attack messages
+###############################
+
+#, c-format
+msgid "You miss %s."
+msgstr "Du verfehlst {acc}%s."
+
+#, c-format
+msgid "You completely miss %s."
+msgstr "Du verfehlst {acc}%s völlig."
+
+#, c-format
+msgid "You closely miss %s."
+msgstr "Du verfehlst {acc}%s nur knapp."
+
+#, c-format
+msgid "You barely miss %s."
+msgstr "Du verfehlst {acc}%s sehr knapp."
+
+#, c-format
+msgid "Your armour prevents you from hitting %s."
+msgstr "Deine Rüstung hindert dich daran, {acc}%s zu treffen."
+
+#, c-format
+msgid "Your shield prevents you from hitting %s."
+msgstr "Dein Schild hindert dich daran, {acc}%s zu treffen."
+
+#, c-format
+msgid "Your shield and armour prevent you from hitting %s."
+msgstr "Dein Schild und deine Rüstung hindert dich daran, {acc}%s zu treffen."
+
+#, c-format
+msgid "You attempt to attack %s, but flinch away in fear!"
+msgstr "Du versuchst {acc}%d anzugreifen, zuckst aber vor Angst zurück!"
+
+# antimagic attacks
+
+#, c-format
+msgid "You disrupt %s magic."
+msgstr "Du störst die Magie {gen}%s."
+
+#, c-format
+msgid "You drain %s magic."
+msgstr "Du entleerst die Magie {gen}%s."
+
+#, c-format
+msgid "You drain %s power."
+msgstr "Du entleerst die Energie {gen}%s."
+
+msgid "You feel invigorated."
+msgstr "Du fühlst dich gestärkt."
+
+
+# auxilliary attacks
+
+msgid "your bludgeon"
+msgstr "dein Schlag"
+
+msgid "your bite"
+msgstr "dein Biss"
+
+msgid "your claw"
+msgstr "deine Kralle"
+
+msgid "your grab"
+msgstr "dein Griff"
+
+msgid "your kick"
+msgstr "dein Tritt"
+
+msgid "your headbutt"
+msgstr "dein Kopfstoß"
+
+msgid "your peck"
+msgstr "dein Picken"
+
+msgid "your punch"
+msgstr "dein Faustschlag"
+
+msgid "your slash"
+msgstr "dein Hieb"
+
+msgid "your squeeze"
+msgstr "dein Verengen"
+
+msgid "your tail-slap"
+msgstr "dein Schwanzschlag"
+
+msgid "your tentacle-slap"
+msgstr "dein Tentakelschlag"
+
+msgid "your tentacle spike"
+msgstr "deine Tentakelstachel"
+
+#, c-format
+msgid "The eyeballs on your body gaze at %s."
+msgstr "Die Augäpfel auf deinem Körper blicken auf {acc}%s."
+
+# "Your tendrils lash around <monster's> <weapon> ..."
+#, c-format
+msgid "Your tendrils lash around %s %s and pull it to the ground!"
+msgstr "Deine Ranken ziehen {acc}%2$s {gen}%1$s zu Boden!"
+
 ##############################
 # Player kills monster
 ##############################
@@ -968,6 +1088,24 @@ msgstr "%s wird abgesprengt!"
 #, c-format
 msgid "%s is destroyed!"
 msgstr "%s wird vernichtet!"
+
+#, c-format
+msgid "You devour %s!"
+msgstr "Du frisst {acc}%s auf!"
+
+#, c-format
+msgid "You hungrily devour %s!"
+msgstr "Du frisst {acc}%s hungrig auf!"
+
+msgid "It tastes like %s."
+msgstr "Es schmeckt wie %s."
+
+msgid "Spicy!"
+msgstr "Scharf!"
+
+#, c-format
+msgid "You spit out the corpse of %s as it twists & deforms in your mouth!"
+msgstr "Du spuckst die Leiche {gen}%s aus als sie sich in deinem Mund verdreht & verändert."
 
 ##############################
 # Attack confirmation prompts
@@ -1035,12 +1173,504 @@ msgstr "Wirklich Schlangen beschwöre, während du eine giftige Aura ausstrahlst
 msgid "Really summon a forest while emitting a toxic aura?"
 msgstr "Wirklich einien Forst beschwöre, während du eine giftige Aura ausstrahlst?"
 
-##############################
-# Monster attacks
-##############################
+##############################################################################
+# Monster hits
+# NOTE: These do not have a fullstop at the end because a number of 
+#       exclamation marks are added based on the strength of the hit.
+##############################################################################
 
+#, c-format
+msgid "%s hits %s"
+msgstr "%s schlägt {acc}%s"
+
+#, c-format
+msgid "%s bites %s"
+msgstr "%s beißt {acc}%s"
+
+#, c-format
+msgid "%s stings %s"
+msgstr "%s sticht {acc}%s"
+
+#, c-format
+msgid "%s releases spores at %s"
+msgstr "%s setzt Sporen auf {acc}%s frei"
+
+#, c-format
+msgid "%s touches %s"
+msgstr "%s fasst {acc}%s an"
+
+#, c-format
+msgid "%s engulfs %s"
+msgstr "%s hüllt {acc}%s ein"
+
+#, c-format
+msgid "%s claws %s"
+msgstr "%s zerkratzt {acc}%s"
+
+#, c-format
+msgid "%s pecks %s"
+msgstr "%s pickt {acc}%s"
+
+#, c-format
+msgid "%s headbutts %s"
+msgstr "%s versetzt {dat}%s einen Kopfstoß"
+
+#, c-format
+msgid "%s punches %s"
+msgstr "%s schlägt {acc}%s mit der Faust"
+
+#, c-format
+msgid "%s kicks %s"
+msgstr "%s tritt {acc}%s"
+
+#, c-format
+msgid "%s tentacle-slaps %s"
+msgstr "%s schlägt {acc}%s mit dem Tentakel"
+
+#, c-format
+msgid "%s tail-slaps %s"
+msgstr "%s schlägt {acc}%s mit dem Schwanz"
+
+#, c-format
+msgid "%s gores %s"
+msgstr "%s spießt {acc}%s auf"
+
+#, c-format
+msgid "%s constricts %s"
+msgstr "%s verengt {acc}%s"
+
+#, c-format
+msgid "%s tramples %s"
+msgstr "%s trampelt {acc}%s"
+
+#, c-format
+msgid "%s trunk-slaps %s"
+msgstr "%s schlägt {acc}%s mit dem Rüssel"
+
+#, c-format
+msgid "%s pounces on %s"
+msgstr "%s stürzt sich auf {acc}%s"
+
+# klown attacks
+# It's not super important to translate these accurately. They're just for flavour.
+
+msgid "%s pokes %s"
+msgstr "%s stößt {acc}%s an"
+
+#, c-format
+msgid "%s prods %s"
+msgstr "%s stößt {acc}%s an"
+
+#, c-format
+msgid "%s flogs %s"
+msgstr "%s peitscht {acc}%s"
+
+#, c-format
+msgid "%s pounds %s"
+msgstr "%s schlägt {acc}%s"
+
+#, c-format
+msgid "%s slaps %s"
+msgstr "%s schlägt {acc}%s"
+
+#, c-format
+msgid "%s tickles %s"
+msgstr "%s kitzelt {acc}%s"
+
+# This makes no sense, but it's a possible message
+#, c-format
+msgid "%s defenestrates %s"
+msgstr "%s wirft {acc}%s aus dem Fenster"
+
+#, c-format
+msgid "%s sucker-punches %s"
+msgstr "%s versetz {acc}%s einen Tiefschlag"
+
+#, c-format
+msgid "%s elbows %s"
+msgstr "%s schlägt {acc}%s mit dem Ellbogen"
+
+#, c-format
+msgid "%s pinches %s"
+msgstr "%s kneift {acc}%s"
+
+#, c-format
+msgid "%s strangle-hugs %s"
+msgstr "%s presst {acc}%s aus"
+
+#, c-format
+msgid "%s squeezes %s"
+msgstr "%s presst {acc}%s aus"
+
+#, c-format
+msgid "%s teases %s"
+msgstr "%s stichelt {acc}%s"
+
+#, c-format
+msgid "%s eye-gouges %s"
+msgstr "%s drückt {dat}%s den Finger ins Auge"
+
+#, c-format
+msgid "%s karate-kicks %s"
+msgstr "%s tritt {acc}%s"
+
+#, c-format
+msgid "%s headlocks %s"
+msgstr "%s nimmt {acc}%s in den Schwitzkasten"
+
+#, c-format
+msgid "%s wrestles %s"
+msgstr "%s ringt {acc}%s nieder"
+
+#, c-format
+msgid "%s trip-wires %s"
+msgstr "%s stellt {dat}%s ein Bein"
+
+#, c-format
+msgid "%s kneecaps %s"
+msgstr "%s zerschmettert {dat}%s die Kniescheibe"
+
+# attacks with extra clauses
+
+msgid "%s, but does no damage."
+msgstr "%s, fügt aber keinen Schaden zu."
+
+msgid " with %s"
+msgstr " mit {dat}%s"
+
+msgid  "%s hits %s from afar"
+msgstr "%s schlägt {acc}%s von weitem"
+
+msgid  "%s hits %s from afar with %s"
+msgstr "%s schlägt {acc}%s von weitem mit {dat}%s"
+
+################################
+# Other monster attack messages
+################################
+
+#, c-format
 msgid "%s hops backward while attacking."
 msgstr "%s springt rückwarts während des Angriffs."
+
+#, c-format
+msgid "%s strikes at %s from the darkness!"
+msgstr "%s schlägt aus der Dunkelheit auf {acc}%s an!"
+
+#, c-format
+msgid "%s misses %s."
+msgstr "%s verfehlt {acc}%s."
+
+#, c-format
+msgid "%s completely misses %s."
+msgstr "%s verfehlt {acc}%s völlig."
+
+#, c-format
+msgid "%s closely misses %s."
+msgstr "%s verfehlt {acc}%s nur knapp."
+
+#, c-format
+msgid "%s barely misses %s."
+msgstr "%s verfehlt {acc}%s sehr knapp."
+
+################################
+# Cutting off hydra heads
+################################
+
+#, c-format
+msgid "You chop one of %s heads off!"
+msgstr "Du schneidest einen der Köpfe {gen}%s ab!"
+
+#, c-format
+msgid "You rip one of %s heads off!"
+msgstr "Du reißt einen der Köpfe {gen}%s ab!"
+
+#, c-format
+msgid "You chop %s last head off!"
+msgstr "Du schneidest den letzten Kopf {gen}%s ab!"
+
+#, c-format
+msgid "You rip %s last head off!"
+msgstr "Du reißt den letzten Kopf {gen}%s ab!"
+
+#, c-format
+msgid "%s chops one of %s heads off!"
+msgstr "%s schneidet einen der Köpfe {gen}%s ab!"
+
+#, c-format
+msgid "%s rips one of %s heads off!"
+msgstr "%s reißt einen der Köpfe {gen}%s ab!"
+
+#, c-format
+msgid "%s chops %s last head off!"
+msgstr "%s schneidet den letzten Kopf {gen}%s ab!"
+
+#, c-format
+msgid "%s rips %s last head off!"
+msgstr "%s reißt den letzten Kopf {gen}%s ab!"
+
+
+msgid "The flame cauterises the wound!"
+msgstr "Die Flamme kauterisiert die Wunde!"
+
+#, c-format
+msgid "%s grows two more!"
+msgstr "%s wächst noch zwei!"
+
+############################################################
+# Special damage - no punctuation because will have
+# exclamation marks added based on attack strength
+############################################################
+
+# Technically, if you're electrocuted, you die.
+# But here, it means "You receive an electric shock".
+msgid "You are electrocuted"
+msgstr "Du bekommst einen elektrischen Schlag"
+
+# as above
+#, c-format
+msgid "%s is electrocuted"
+msgstr "%s bekommt einen elektrischen Schlag"
+
+#, c-format
+msgid "You freeze %s"
+msgstr "Du frierst %s ein"
+
+#, c-format
+msgid "%s freezes %s"
+msgstr "%s friert %s ein"
+
+# attack with staff of earth
+#, c-format
+msgid "You crush %s"
+msgstr "Du zerdrückst %s"
+
+#, c-format
+msgid "%s crushes %s"
+msgstr "%s zerdrückt %s"
+
+#, c-format
+msgid "You burn %s"
+msgstr "Du brennst %s"
+
+#, c-format
+msgid "%s burns %s"
+msgstr "%s brennt %s"
+
+#, c-format
+msgid "You sear %s"
+msgstr "Du versengst %s"
+
+#, c-format
+msgid "%s sears %s"
+msgstr "%s versengt %s"
+
+#, c-format
+msgid "You envenom %s"
+msgstr "Du vergiftest %s"
+
+#, c-format
+msgid "%s envenoms %s"
+msgstr "%s vergiftet %s"
+
+msgid "You writhe in agony"
+msgstr "Du krümmst dich vor Qual"
+
+#, c-format
+msgid "%s writhes in agony"
+msgstr "%s krümmt sich vor Qual"
+
+msgid "You are covered in liquid flames"
+msgstr "Du bist in flüssigen Flammen bedeckt"
+
+#, c-format
+msgid "%s is covered in liquid flames"
+msgstr "%s ist in flüssigen Flammen bedeckt"
+
+msgid "You are engulfed flames"
+msgstr "Du bist in Flammen versunken"
+
+#, c-format
+msgid "%s is engulfed flames"
+msgstr "%s ist in Flammen versunken"
+
+#, c-format
+msgid "You shock %s"
+msgstr "Du gibst %s einen elektrischen Schlag"
+
+#, c-format
+msgid "%s shocks %s"
+msgstr "%s gibt %s einen elektrischen Schlag"
+
+#, c-format
+msgid "You draw strength from %s injuries"
+msgstr "Du nimmst Kraft von den Verletzungen {gen}%s"
+
+#, c-format
+msgid "%s draws strength from %s injuries"
+msgstr "%s nimmt Kraft von den Verletzungen {gen}%s"
+
+#, c-format
+msgid "%s drowns %s"
+msgstr "%s ertränkt {acc}%s"
+
+############################################################
+# Special damage - with punctuation because will NOT have
+# exclamation marks added based on attack strength
+############################################################
+
+#, c-format
+msgid "%s poisons %s!"
+msgstr "%s vergiftet %s!"
+
+msgid "You are engulfed in a cloud of spores!"
+msgstr "Du bist in einer Sporenwolke eingehüllt!"
+
+#, c-format
+msgid "%s is engulfed in a cloud of spores!"
+msgstr "%s ist in einer Sporenwolke eingehüllt!"
+
+msgid "Your divine stamina protects you from poison!"
+msgstr "Deine göttliche Ausdauer schützt dich vor Gift!"
+
+#, c-format
+msgid "%s drains %s magic."
+msgstr "%s entleert die Magie {gen}%s."
+
+#, c-format
+msgid "%s drains %s power."
+msgstr "%s entleert die Energie {gen}%s."
+
+#, c-format
+msgid "%s looks invigorated."
+msgstr "%s sieht gestärkt aus"
+
+#, c-format
+msgid "%s looks very invigorated."
+msgstr "%s sieht sehr gestärkt aus"
+
+#, c-format
+msgid "%s grabs %s."
+msgstr "%s umschlingt {acc}%s."
+
+#, c-format
+msgid "%s engulfs %s in water!"
+msgstr "%s überflutet {acc}%s!"
+
+# This looks like a duplicate, but it's not!
+#, c-format
+msgid "%s burns %s!"
+msgstr "%s brennt {acc}%s!"
+
+#, c-format
+msgid "Your magical defences are stripped away!"
+msgstr "Deine magischen Verteidigungen werden abgestreift!"
+
+#, c-format
+msgid "%s magical defences are stripped away!"
+msgstr "Die magischen Verteidigungen {gen}%s werden abgestreift"
+
+#, c-format
+msgid "%s is very cold."
+msgstr "%s ist völlig durchgefroren."
+
+
+#, c-format
+msgid "%s is struck by your spines."
+msgstr "%s wird von deinen Stacheln getroffen."
+
+#, c-format
+msgid "You are struck by %s spines."
+msgstr "Du wirst von den Stacheln {gen}%s getroffen."
+
+#, c-format
+msgid "%s is struck by %s spines."
+msgstr "%s wird von den Stacheln {gen}%s getroffen."
+
+
+#, c-format
+msgid "You are struck by %s thorns."
+msgstr "Du wirst von den Dornen {gen}%s getroffen."
+
+#, c-format
+msgid "%s is struck by %s thorns."
+msgstr "%s wird von den Dornen {gen}%s getroffen."
+
+msgid "You emit a cloud of foul miasma!"
+msgstr "Du stößt eine Wolke stinkenden Miasmas aus!"
+
+msgid "You furiously retaliate!"
+msgstr "Du rächst dich wütend!"
+
+msgid "%s furiously retaliates!"
+msgstr "%s rächst sich wütend!"
+
+msgid "%s headbutts %s, but does no damage."
+msgstr "%s versetzt {dat}%s einen Kopfstoß, fügt aber keinen Schaden zu."
+
+msgid "You headbutt %s, but do no damage."
+msgstr "Du versetzt {dat}%s einen Kopfstoß, fügt aber keinen Schaden zu."
+
+msgid "You riposte."
+msgstr "Du holst zum Gegenschlag aus."
+
+msgid "%s ripostes."
+msgstr "%s holt zum Gegenschlag aus."
+
+
+msgid "You stumble backwards!"
+msgstr "Du stolperst rückwärts!"
+
+#, c-format
+msgid "%s stumbles backwards!"
+msgstr "%s stolpert rückwärts!"
+
+msgid "You are shoved backwards!"
+msgstr "Du wirst rückwärts geschoben!"
+
+#, c-format
+msgid "%s is shoved backwards!"
+msgstr "%s wird rückwärts geschoben!"
+
+msgid "You hold your ground!"
+msgstr "Du bleibst fest!"
+
+#, c-format
+msgid "%s stands fast!"
+msgstr "%s bleibt fest!"
+
+
+#, c-format
+msgid "You bite %s, and draw blood!"
+msgstr "Du beißt {acc}%s und ziehst Blut!"
+
+# you draw <monster's> blood
+#, c-format
+msgid "You draw %s blood!"
+msgstr "Du ziehst das Blut {gen}%s!"
+
+################################
+# Other combat
+################################
+
+#, c-format
+msgid "Your shroud bends %s attack away"
+msgstr "Deine Umhüllung biegt den Angriff {gen}%s ab"
+
+#, c-format
+msgid "%s shroud bends your attack away"
+msgstr "Die Umhüllung {gen}%s biegt deinen Angriff ab"
+
+#, c-format
+msgid "%s shroud bends %s attack away"
+msgstr "Die Umhüllung {gen}%s biegt den Angriff {gen}%s ab"
+
+#, c-format
+msgid "You infuriate %s!"
+msgstr "Du machst {acc}%s wütend"
+
+#, c-format
+msgid "%s infuriates %s!"
+msgstr "%s macht {acc}%s wütend"
 
 ###################
 # Generic prompts
@@ -1083,6 +1713,15 @@ msgstr "Nur [J]a%s, [N]ein oder [B]eenden in Großbuchstaben, bitte."
 # Other
 ###################
 
+# player rots
+msgid "You feel your flesh rotting away!"
+msgstr "Du fühlst, wie dein Fleisch verrottet!"
+
+# monster rots
+#, c-format
+msgid "%s looks less resilient!"
+msgstr "%s sieht weniger belastbar aus!"
+
 #, c-format
 msgid "%s come into view."
 msgstr "{nom}%s kommen in Sicht."
@@ -1096,36 +1735,11 @@ msgid "%s shouts."
 msgstr "{nom}%s schreit."
 
 #, c-format
-msgid "%s attacks you."
-msgstr "{nom}%s greift dich an."
-
-#, c-format
-msgid "%s misses you."
-msgstr "{nom}%s verfehlt dich."
-
-#, c-format
-msgid "%s closely misses you."
-msgstr "{nom}%s verfehlt dich eng."
-
-#, c-format
-msgid "%s barely misses you."
-msgstr "{nom}%s verfehlt dich ganz eng."
-
-#, c-format
-msgid "%s hits you."
-msgstr "{nom}%s schlägt dich."
-
-#, c-format
-msgid "%s slashes you."
-msgstr "{nom}%s schlitzt dich auf."
-
-#, c-format
-msgid "%s kills you."
-msgstr "{nom}%s tötet dich."
-
-#, c-format
 msgid "You command %s to wait here."
 msgstr "Du befiehlst {dat}%s hier zu warten."
 
-
+# add full-stop
+#, c-format
+msgid "%s."
+msgstr "%s."
 

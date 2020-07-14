@@ -29,6 +29,7 @@
 #include "god-passive.h" // passive_t::no_haste
 #include "item-name.h"
 #include "item-prop.h"
+#include "localize.h"
 #include "message.h"
 #include "mon-behv.h"
 #include "mon-clone.h"
@@ -885,13 +886,33 @@ int attack::inflict_damage(int dam, beam_type flavour, bool clean)
 /* If debug, return formatted damage done
  *
  */
-string attack::debug_damage_number()
+string attack::debug_damage_number(bool special)
 {
 #ifdef DEBUG_DIAGNOSTICS
-    return make_stringf(" for %d", damage_done);
+    if (special)
+        return make_stringf(" for %d", special_damage);
+    else
+        return make_stringf(" for %d", damage_done);
 #else
     return "";
 #endif
+}
+
+/**
+ * Add attack strength punctuation
+ * If debug, also add attack damage number
+ *
+ * @param msg The attack message - this can be in English or the target language
+ *            (If it's already in the target language, this will attempt to
+ *             translate it again, which wastes a bit of time, but so what?)
+ * @param special  Use special damage?
+ */
+string attack::add_attack_strength(string msg, bool special)
+{
+    // add attack strength punctuation
+    // has to be done this way because some langauges, e.g. Spanish, might do more than just append punctuation
+    return localize("%s" + attack_strength_punctuation(special ? special_damage : damage_done),
+                    msg + debug_damage_number(special));
 }
 
 /* Returns standard attack punctuation

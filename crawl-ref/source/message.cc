@@ -12,6 +12,7 @@
 #include "areas.h"
 #include "colour.h"
 #include "delay.h"
+#include "english.h"
 #include "hints.h"
 #include "initfile.h"
 #include "libutil.h"
@@ -2075,17 +2076,62 @@ bool simple_monster_message(const monster& mons, const char *event,
         && (channel == MSGCH_MONSTER_SPELL || channel == MSGCH_FRIEND_SPELL
             || mons.visible_to(&you)))
     {
-        string msg = mons.name(descrip);
-        msg += event;
+        string msg = string("%s") + event;
 
         if (channel == MSGCH_PLAIN && mons.wont_attack())
             channel = MSGCH_FRIEND_ACTION;
 
-        mprf(channel, param, "%s", msg.c_str());
+        mprf(channel, param, msg.c_str(), mons.name(descrip));
         return true;
     }
 
     return false;
+}
+
+/*
+ * Output simple sentence in a way that can be easily localized
+ * Subject will be parameterized in format string unless it's "you".
+ * Object will be parameterized in format string.
+ * Everything else will be hardcoded in the format string.
+ * Verb will be conjugated if subject is not "you".
+ * @param subject (mandatory)
+ * @param verb (mandatory) verb in 2nd person form
+ * @param object (optional)
+ * @param rest (optional) stuff that comes after the object (or after the verb if no object)
+ */
+void simple_message(const string& subject, const string& verb, const string& object,
+                    const string &rest)
+{
+    if (subject == "you" || subject == "You")
+    {
+        string fmt = "You " + (verb == "be" ? "are" : verb);
+        fmt += (object.empty() ? "" : " %s");
+        fmt += (!rest.empty() && isalpha(rest[0])) ? " " : "";
+        fmt += rest;
+        if (object.empty())
+        {
+            mpr(fmt.c_str());
+        }
+        else
+        {
+            mprf(fmt.c_str(), object.c_str());
+        }
+    }
+    else
+    {
+        string fmt = "%s " + conjugate_verb(verb, false);
+        fmt += (object.empty() ? "" : " %s");
+        fmt += (!rest.empty() && isalpha(rest[0])) ? " " : "";
+        fmt += rest;
+        if (object.empty())
+        {
+            mprf(fmt.c_str(), subject.c_str());
+        }
+        else
+        {
+            mprf(fmt.c_str(), subject.c_str(), object.c_str());
+        }
+    }
 }
 
 string god_speaker(god_type which_deity)
