@@ -29,6 +29,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 ##############################################
+# Misc
+##############################################
+
+# unseen monster
+msgid "something"
+msgstr "etwas"
+
+##############################################
 # Player species
 ##############################################
 
@@ -7190,5 +7198,4 @@ msgstr "hartes gespürtes Monster"
 
 msgid  "nasty sensed monster"
 msgstr "furchtbares gespürtes Monster"
-
 
