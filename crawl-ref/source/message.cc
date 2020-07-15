@@ -2081,7 +2081,7 @@ bool simple_monster_message(const monster& mons, const char *event,
         if (channel == MSGCH_PLAIN && mons.wont_attack())
             channel = MSGCH_FRIEND_ACTION;
 
-        mprf(channel, param, msg.c_str(), mons.name(descrip));
+        mprf(channel, param, msg.c_str(), mons.name(descrip).c_str());
         return true;
     }
 
