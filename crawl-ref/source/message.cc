@@ -2089,7 +2089,7 @@ bool simple_monster_message(const monster& mons, const char *event,
 }
 
 /*
- * Output simple sentence in a way that can be easily localized
+ * Build simple sentence in a way that can be easily localized
  * Subject will be parameterized in format string unless it's "you".
  * Object will be parameterized in format string.
  * Everything else will be hardcoded in the format string.
@@ -2099,9 +2099,10 @@ bool simple_monster_message(const monster& mons, const char *event,
  * @param object (optional)
  * @param rest (optional) stuff that comes after the object (or after the verb if no object)
  */
-void simple_message(const string& subject, const string& verb, const string& object,
-                    const string &rest)
+string get_simple_message(const string& subject, const string& verb,
+                        const string& object, const string &rest)
 {
+    string msg;
     if (subject == "you" || subject == "You")
     {
         string fmt = "You " + (verb == "be" ? "are" : verb);
@@ -2110,11 +2111,11 @@ void simple_message(const string& subject, const string& verb, const string& obj
         fmt += rest;
         if (object.empty())
         {
-            mpr(fmt.c_str());
+            msg = localize(fmt);
         }
         else
         {
-            mprf(fmt.c_str(), object.c_str());
+            msg = localize(fmt, object);
         }
     }
     else
@@ -2125,13 +2126,31 @@ void simple_message(const string& subject, const string& verb, const string& obj
         fmt += rest;
         if (object.empty())
         {
-            mprf(fmt.c_str(), subject.c_str());
+            msg = localize(fmt, subject);
         }
         else
         {
-            mprf(fmt.c_str(), subject.c_str(), object.c_str());
+            msg = localize(fmt, subject, object);
         }
     }
+    return msg;
+}
+
+/*
+ * Output simple sentence in a way that can be easily localized
+ * Subject will be parameterized in format string unless it's "you".
+ * Object will be parameterized in format string.
+ * Everything else will be hardcoded in the format string.
+ * Verb will be conjugated if subject is not "you".
+ * @param subject (mandatory)
+ * @param verb (mandatory) verb in 2nd person form
+ * @param object (optional)
+ * @param rest (optional) stuff that comes after the object (or after the verb if no object)
+ */
+void print_simple_message(const string& subject, const string& verb,
+                          const string& object, const string &rest)
+{
+    mpr_nolocalize(get_simple_message(subject, verb, object, rest));
 }
 
 string god_speaker(god_type which_deity)

@@ -479,15 +479,15 @@ bool attack::distortion_affects_defender()
         special_damage += 1 + random2avg(7, 2);
         // No need to call attack_strength_punctuation here,
         // since special damage < 7, so it will always return "."
-        special_damage_message = make_stringf("Space bends around %s.",
-                                              defender_name(false).c_str());
+        special_damage_message = localize("Space bends around %s.",
+                                              defender_name(false));
         break;
     case BIG_DMG:
         special_damage += 3 + random2avg(24, 2);
         special_damage_message =
-            make_stringf("Space warps horribly around %s%s",
-                         defender_name(false).c_str(),
-                         attack_strength_punctuation(special_damage).c_str());
+            localize("Space warps horribly around %s",
+                         defender_name(false));
+        special_damage_message = add_attack_strength(special_damage_message, true);
         break;
     case BLINK:
         if (defender_visible)
@@ -541,11 +541,16 @@ void attack::pain_affects_defender()
 
         if (special_damage && defender_visible)
         {
-            special_damage_message =
-                make_stringf("%s %s in agony%s",
-                             defender->name(DESC_THE).c_str(),
-                             defender->conj_verb("writhe").c_str(),
-                           attack_strength_punctuation(special_damage).c_str());
+            if (defender->is_player())
+            {
+                special_damage_message = localize("You writhe in agony");
+            }
+            else
+            {
+                special_damage_message =
+                    localize("%s writhes in agony", defender->name(DESC_THE));
+            }
+            special_damage_message = add_attack_strength(special_damage_message, true);
         }
     }
 }
@@ -844,12 +849,8 @@ void attack::drain_defender()
         else if (defender_visible)
         {
             special_damage_message =
-                make_stringf(
-                    "%s %s %s%s",
-                    atk_name(DESC_THE).c_str(),
-                    attacker->conj_verb("drain").c_str(),
-                    defender_name(true).c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+                get_simple_message(atk_name(DESC_THE), "drain", defender_name(true));
+            special_damage_message = add_attack_strength(special_damage_message, true);
         }
     }
 }
@@ -858,10 +859,8 @@ void attack::drain_defender_speed()
 {
     if (needs_message)
     {
-        mprf("%s %s %s vigour!",
-             atk_name(DESC_THE).c_str(),
-             attacker->conj_verb("drain").c_str(),
-             def_name(DESC_ITS).c_str());
+        print_simple_message(atk_name(DESC_THE), "drain",
+                             def_name(DESC_THE), "vigour!");
     }
     defender->slow_down(attacker, 5 + random2(7));
 }
@@ -894,7 +893,8 @@ string attack::debug_damage_number(bool special)
     else
         return make_stringf(" for %d", damage_done);
 #else
-    return "";
+    // use param to avoid compiler warning
+    return (special ? "" : "");
 #endif
 }
 
@@ -907,7 +907,7 @@ string attack::debug_damage_number(bool special)
  *             translate it again, which wastes a bit of time, but so what?)
  * @param special  Use special damage?
  */
-string attack::add_attack_strength(string msg, bool special)
+string attack::add_attack_strength(const string& msg, bool special)
 {
     // add attack strength punctuation
     // has to be done this way because some langauges, e.g. Spanish, might do more than just append punctuation
@@ -951,9 +951,9 @@ void attack::stab_message()
     case 6:     // big melee, monster surrounded/not paying attention
         if (coinflip())
         {
-            mprf("You %s %s from a blind spot!",
-                  (you.species == SP_FELID) ? "pounce on" : "strike",
-                  defender->name(DESC_THE).c_str());
+            mprf(you.species == SP_FELID ? "You pounce on %s from a blind spot!"
+                                         : "You strike %s from a blind spot!",
+                 defender->name(DESC_THE).c_str());
         }
         else
         {
@@ -969,22 +969,21 @@ void attack::stab_message()
         }
         else
         {
-            mprf("You %s %s from behind!",
-                  (you.species == SP_FELID) ? "pounce on" : "strike",
-                  defender->name(DESC_THE).c_str());
+            mprf(you.species == SP_FELID ? "You pounce on %s from behind!"
+                                         : "You strike %s from behind!",
+                 defender->name(DESC_THE).c_str());
         }
         break;
     case 2:
     case 1:
         if (you.species == SP_FELID && coinflip())
         {
-            mprf("You pounce on the unaware %s!",
-                 defender->name(DESC_PLAIN).c_str());
+            mprf("You pounce on %s unawares!",
+                 defender->name(DESC_THE).c_str());
             break;
         }
-        mprf("%s fails to defend %s.",
-              defender->name(DESC_THE).c_str(),
-              defender->pronoun(PRONOUN_REFLEXIVE).c_str());
+        mprf("%s fails to defend against your attack.",
+              defender->name(DESC_THE).c_str());
         break;
     }
 
@@ -1327,11 +1326,20 @@ bool attack::attack_shield_blocked(bool verbose)
 
         if (needs_message && verbose)
         {
-            mprf("%s %s %s attack.",
-                 defender_name(false).c_str(),
-                 defender->conj_verb("block").c_str(),
-                 attacker == defender ? "its own"
-                                      : atk_name(DESC_ITS).c_str());
+            if (defender->is_player())
+            {
+                mprf("You block %s attack.", atk_name(DESC_ITS).c_str());
+            }
+            else if (attacker->is_player())
+            {
+                mprf("%s blocks your attack.", defender_name(false).c_str());
+            }
+            else
+            {
+                mprf("%s blocks %s attack.",
+                     defender_name(false).c_str(),
+                     atk_name(DESC_ITS).c_str());
+            }
         }
 
         defender->shield_block_succeeded(attacker);
@@ -1433,11 +1441,10 @@ bool attack::apply_damage_brand(const char *what)
         if (special_damage && defender_visible)
         {
             special_damage_message =
-                make_stringf(
-                    "%s %s%s",
-                    defender_name(false).c_str(),
-                    defender->conj_verb("convulse").c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+                    defender->is_player()
+                    ? localize("You convulse")
+                    : localize("%s convulses", defender_name(false));
+            special_damage_message = add_attack_strength(special_damage_message, true);
         }
         break;
 
@@ -1447,14 +1454,13 @@ bool attack::apply_damage_brand(const char *what)
         else if (one_chance_in(3))
         {
             special_damage = 8 + random2(13);
-            const string punctuation =
-                    attack_strength_punctuation(special_damage);
+
             special_damage_message =
                 defender->is_player()
-                ? make_stringf("You are electrocuted%s", punctuation.c_str())
-                : make_stringf("Lightning courses through %s%s",
-                               defender->name(DESC_THE).c_str(),
-                               punctuation.c_str());
+                ? localize("You are electrocuted")
+                : localize("Lightning courses through %s", defender->name(DESC_THE));
+            special_damage_message = add_attack_strength(special_damage_message, true);
+
             special_damage_flavour = BEAM_ELECTRICITY;
             defender->expose_to_element(BEAM_ELECTRICITY, 2);
         }
@@ -1648,14 +1654,10 @@ void attack::calc_elemental_brand_damage(beam_type flavour,
     if (needs_message && special_damage > 0 && verb)
     {
         // XXX: assumes "what" is singular
-        special_damage_message = make_stringf(
-            "%s %s %s%s",
-            what ? what : atk_name(DESC_THE).c_str(),
-            what ? conjugate_verb(verb, false).c_str()
-                 : attacker->conj_verb(verb).c_str(),
-            // Don't allow reflexive if the subject wasn't the attacker.
-            defender_name(!what).c_str(),
-            attack_strength_punctuation(special_damage).c_str());
+        string subject = what ? what : atk_name(DESC_THE).c_str();
+        special_damage_message =
+            get_simple_message(subject, verb, defender_name(false), "");
+        special_damage_message = add_attack_strength(special_damage_message, true);
     }
 }
 
