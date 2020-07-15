@@ -1648,6 +1648,78 @@ msgstr "Du beißt {acc}%s und ziehst Blut!"
 msgid "You draw %s blood!"
 msgstr "Du ziehst das Blut {gen}%s!"
 
+
+msgid "Space bends around %s."
+msgstr "Der Raum biegt sich um {acc}%s herum."
+
+# don't add punctuation
+#, c-format
+msgid "Space warps horribly around %s"
+msgstr "Der Raum verzieht sich schrecklich um {acc}%s herum"
+
+#, c-format
+msgid "You pounce on %s from a blind spot!"
+msgstr "Du stürzt dich von einem blinden Fleck auf {acc}%s!"
+
+#, c-format
+msgid "You strike %s from a blind spot!"
+msgstr "Du schlägst {acc}%s aus einem blinden Fleck!"
+
+#, c-format
+msgid "You catch %s momentarily off-guard."
+msgstr "Du erwischst {acc}%s für einen Moment unachtsam."
+
+#, c-format
+msgid "You catch %s completely off-guard!"
+msgstr "Du erwischst {acc}%s völlig unachtsam!"
+
+#, c-format
+msgid "You pounce on %s from behind!"
+msgstr "Du stürzt dich von hinten auf {acc}%s!"
+
+#, c-format
+msgid "You strike %s from behind!"
+msgstr "Du schlägst {acc}%s von hinten!"
+
+#, c-format
+msgid "You pounce on %s unawares!"
+msgstr "Du stürzt dich unversehens auf {acc}%s!"
+
+#, c-format
+msgid "%s fails to defend against your attack."
+msgstr "%s versagt bei der Verteidigung gegen dein Angriff."
+
+#, c-format
+msgid "You block %s attack."
+msgstr "Du blockierst den Angriff {gen}%s."
+
+#, c-format
+msgid "%s blocks your attack."
+msgstr "%s blockiert deinen Angriff."
+
+#, c-format
+msgid "%s blocks %s attack."
+msgstr "%s blockiert den Angriff {gen}%s."
+
+msgid "You convulse"
+msgstr "Du krümmst dich"
+
+#, c-format
+msgid "%s convulses"
+msgstr "%s krümmt sich"
+
+#, c-format
+msgid "Lightning courses through %s"
+msgstr "Blitzen fließt durch %s"
+
+#, c-format
+msgid "%s draws strength from your wounds!"
+msgstr "%s schöpft Kraft aus deinen Wunden!"
+
+#, c-format
+msgid "%s is healed."
+msgstr "%s ist geheilt."
+
 ################################
 # Other combat
 ################################

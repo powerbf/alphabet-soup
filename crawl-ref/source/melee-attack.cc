@@ -572,7 +572,7 @@ bool melee_attack::handle_phase_damaged()
                 {
                     msg = localize("%s shroud bends %s attack away", def_name(DESC_ITS), atk_name(DESC_ITS));
                 }
-                msg = add_attack_strength(msg);
+                msg = add_attack_strength(msg, false);
                 mpr(msg);
             }
             did_hit = false;
@@ -1479,7 +1479,7 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
 void melee_attack::player_announce_aux_hit()
 {
     string msg = localize("You " + aux_verb + " %s", defender->name(DESC_THE));
-    add_attack_strength(msg);
+    add_attack_strength(msg, false);
     mpr_nolocalize(msg);
 }
 
@@ -2435,7 +2435,7 @@ string melee_attack::mons_attack_desc()
         }
     }
 
-    msg = add_attack_strength(msg);
+    msg = add_attack_strength(msg, false);
 
     return msg;
 }
@@ -2459,7 +2459,7 @@ void melee_attack::announce_hit()
 
         string fmt = string("You ") + attack_verb + " %s" + verb_degree;
         string msg = localize(fmt, defender->name(DESC_THE));
-        msg = add_attack_strength(msg);
+        msg = add_attack_strength(msg, false);
 
         mpr_nolocalize(msg);
     }
@@ -2530,7 +2530,7 @@ void melee_attack::mons_do_napalm()
             {
                 msg = localize("%s is covered in liquid flames", defender_name(false));
             }
-            msg = add_attack_strength(msg);
+            msg = add_attack_strength(msg, true);
             mpr_nolocalize(msg);
         }
 
@@ -2947,7 +2947,7 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (you.can_see(*attacker) || you.can_see(*defender))
             {
-                simple_message(attacker->name(DESC_THE),
+                print_simple_message(attacker->name(DESC_THE),
                                "drain",
                                apostrophise(defender_name(true)),
                                spell_user ? "magic." : "power.");
@@ -2981,7 +2981,7 @@ void melee_attack::mons_apply_attack_flavour()
     case AF_CRUSH:
         if (needs_message)
         {
-            simple_message(atk_name(DESC_THE), "grab", defender_name(true));
+            print_simple_message(atk_name(DESC_THE), "grab", defender_name(true));
         }
         attacker->start_constricting(*defender);
         // if you got grabbed, interrupt stair climb and passwall
@@ -3008,7 +3008,7 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (needs_message)
             {
-                simple_message(atk_name(DESC_THE), "engulf",
+                print_simple_message(atk_name(DESC_THE), "engulf",
                                defender_name(true), "in water!");
             }
         }
@@ -3027,7 +3027,7 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && special_damage)
         {
-            simple_message(atk_name(DESC_THE), "burn", defender_name(true), "!");
+            print_simple_message(atk_name(DESC_THE), "burn", defender_name(true), "!");
             _print_resist_messages(defender, special_damage, BEAM_FIRE);
         }
 
@@ -3229,7 +3229,7 @@ void melee_attack::do_spines()
                 return;
             if (you.can_see(*defender) || attacker->is_player())
             {
-                simple_message(attacker->name(DESC_THE),
+                print_simple_message(attacker->name(DESC_THE),
                                "are struck by",
                                apostrophise(defender->name(DESC_THE)),
                                defender->type == MONS_BRIAR_PATCH ? "thorns."
@@ -3347,7 +3347,7 @@ void melee_attack::riposte()
 {
     if (you.see_cell(defender->pos()))
     {
-        simple_message(defender->name(DESC_THE), "riposte");
+        print_simple_message(defender->name(DESC_THE), "riposte");
     }
     melee_attack attck(defender, attacker, 0, effective_attack_number + 1);
     attck.is_riposte = true;
@@ -3397,7 +3397,7 @@ bool melee_attack::do_knockback(bool trample)
         const bool can_stumble = !defender->airborne()
                                   && !defender->incapacitated();
         const string verb = can_stumble ? "stumble" : "are shoved";
-        simple_message(defender_name(false), verb, "", "backwards!");
+        print_simple_message(defender_name(false), verb, "", "backwards!");
     }
 
     // Schedule following _before_ actually trampling -- if the defender

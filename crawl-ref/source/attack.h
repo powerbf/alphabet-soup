@@ -166,7 +166,7 @@ protected:
     /* Output */
     string debug_damage_number(bool special = false);
     string evasion_margin_adverb();
-    string add_attack_strength(string msg, bool special = false);
+    string add_attack_strength(const string& msg, bool special);
 
     virtual void set_attack_verb(int damage) = 0;
     virtual void announce_hit() = 0;
