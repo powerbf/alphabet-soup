@@ -40,10 +40,10 @@ msgstr ""
 # to push stuff off the screen.
 ###############################################################
 
-# "of <god>"
+# "<species> of <god>"
 #, c-format
-msgid " of %s"
-msgstr " von {dat}%s"
+msgid "%s of %s"
+msgstr "%s von {dat}%s"
 
 msgid  "Health: "
 msgstr "Gesund: "
