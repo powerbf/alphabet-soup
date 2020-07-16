@@ -1,0 +1,228 @@
+###############################################################################
+#
+# German translations - miscellaneous
+#
+###############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Alphabet Soup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+########################
+# God names - nominative
+########################
+
+msgid "Ashenzari"
+msgstr "Aschenzari"
+
+msgid "Beogh"
+msgstr "Beogh"
+
+msgid "Cheibriados"
+msgstr "Cheibriados"
+
+msgid "Dithmenos"
+msgstr "Dithmenos"
+
+msgid "Elyvilon"
+msgstr "Elyvilon"
+
+msgid "Fedhas"
+msgstr "Fedhas"
+
+msgid "Fedhas Madash"
+msgstr "Fedhas Madash"
+
+msgid "Gozag"
+msgstr "Gozag"
+
+msgid "Hepliaklqana"
+msgstr "Hepliaklqana"
+
+msgid "Jiyva"
+msgstr "Jiyva"
+
+msgid "Kikubaaqudgha"
+msgstr "Kikubaaqudgha"
+
+msgid "Lugonu"
+msgstr "Lugonu"
+
+msgid "Makhleb"
+msgstr "Makhleb"
+
+msgid "Nemelex"
+msgstr "Nemelex"
+
+msgid "Nemelex Xobeh"
+msgstr "Nemelex Xobeh"
+
+msgid "Okawaru"
+msgstr "Okawaru"
+
+msgid "Qazlal"
+msgstr "Qazlal"
+
+msgid "Ru"
+msgstr "Ru"
+
+msgid "Sif Muna"
+msgstr "Sif Muna"
+
+msgid "Trog"
+msgstr "Trog"
+
+msgid "Uskayaw"
+msgstr "Uskayaw"
+
+msgid "Vehumet"
+msgstr "Vehumet"
+
+msgid "Xom"
+msgstr "Xom"
+
+msgid "Yredelemnul"
+msgstr "Yredelemnul"
+
+msgid "Zin"
+msgstr "Zin"
+
+msgid "the Shining One"
+msgstr "der Glänzende"
+
+msgid "the Wu Jian Council"
+msgstr "das Wu Jian Konzil"
+
+########################
+# God names - genitive
+########################
+
+msgctxt "gen"
+msgid "Ashenzari"
+msgstr "Aschenzaris"
+
+msgctxt "gen"
+msgid "Beogh"
+msgstr "Beoghs"
+
+msgctxt "gen"
+msgid "Cheibriados"
+msgstr "Cheibriados'"
+
+msgctxt "gen"
+msgid "Dithmenos"
+msgstr "Dithmenos'"
+
+msgctxt "gen"
+msgid "Elyvilon"
+msgstr "Elyvilons"
+
+msgctxt "gen"
+msgid "Fedhas"
+msgstr "Fedhas'"
+
+msgctxt "gen"
+msgid "Gozag"
+msgstr "Gozags"
+
+msgctxt "gen"
+msgid "Hepliaklqana"
+msgstr "Hepliaklqanas"
+
+msgctxt "gen"
+msgid "Jiyva"
+msgstr "Jiyvas"
+
+msgctxt "gen"
+msgid "Kikubaaqudgha"
+msgstr "Kikubaaqudghas"
+
+msgctxt "gen"
+msgid "Lugonu"
+msgstr "Lugonus"
+
+msgctxt "gen"
+msgid "Makhleb"
+msgstr "Makhlebs"
+
+msgctxt "gen"
+msgid "Nemelex Xobeh"
+msgstr "Nemelex Xobehs"
+
+msgctxt "gen"
+msgid "Okawaru"
+msgstr "Okawarus"
+
+msgctxt "gen"
+msgid "Qazlal"
+msgstr "Qazlals"
+
+msgctxt "gen"
+msgid "Ru"
+msgstr "Rus"
+
+msgctxt "gen"
+msgid "Sif Muna"
+msgstr "Sif Munas"
+
+msgctxt "gen"
+msgid "Trog"
+msgstr "Trogs"
+
+msgctxt "gen"
+msgid "Uskayaw"
+msgstr "Uskayaws"
+
+msgctxt "gen"
+msgid "Vehumet"
+msgstr "Vehumets"
+
+msgctxt "gen"
+msgid "Xom"
+msgstr "Xoms"
+
+msgctxt "gen"
+msgid "Yredelemnul"
+msgstr "Yredelemnuls"
+
+msgctxt "gen"
+msgid "Zin"
+msgstr "Zins"
+
+msgctxt "gen"
+msgid "the Shining One"
+msgstr "des Glänzenden"
+
+msgctxt "gen"
+msgid "the Wu Jian Council"
+msgstr "des Wu Jian Konzils"
+
+########################
+# God names - accusative
+########################
+
+msgctxt "acc"
+msgid "the Shining One"
+msgstr "den Glänzenden"
+
+########################
+# God names - dative
+########################
+
+msgctxt "dat"
+msgid "the Shining One"
+msgstr "dem Glänzenden"
+
+msgctxt "dat"
+msgid "the Wu Jian Council"
+msgstr "dem Wu Jian Konzil"
+

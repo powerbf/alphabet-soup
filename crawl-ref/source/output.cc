@@ -1232,10 +1232,10 @@ static void _redraw_title()
     // Minotaur [of God] [Piety]
     textcolour(YELLOW);
     CGOTOXY(1, 2, GOTO_STAT);
-    string species = localize(species_name(you.species));
-    NOWRAP_EOL_CPRINTF("%s", species.c_str());
+    string species = species_name(you.species);
     if (you_worship(GOD_NO_GOD))
     {
+        NOWRAP_EOL_CPRINTF("%s", localize(species).c_str());
         if (you.char_class == JOB_MONK && you.species != SP_DEMIGOD
             && !had_gods())
         {
@@ -1255,7 +1255,7 @@ static void _redraw_title()
     {
         string god = you_worship(GOD_JIYVA) ? god_name_jiyva(true)
                                             : god_name(you.religion);
-        NOWRAP_EOL_CPRINTF(localize(" of %s", god).c_str());
+        NOWRAP_EOL_CPRINTF(localize("%s of %s", species, god).c_str());
 
         string piety = _god_asterisks();
         textcolour(_god_status_colour(YELLOW));
