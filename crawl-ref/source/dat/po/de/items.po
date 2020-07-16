@@ -649,9 +649,6 @@ msgstr "rF+"
 msgid "rC+"
 msgstr "rC+"
 
-msgid "rPois"
-msgstr "rPois"
-
 msgid "SInv"
 msgstr ""
 
@@ -690,9 +687,6 @@ msgstr "rN+"
 
 msgid "Archmagi"
 msgstr ""
-
-msgid "rCorr"
-msgstr "rCorr"
 
 msgid "reflect"
 msgstr ""
