@@ -1,0 +1,484 @@
+###############################################################################
+#
+# German translations for user interfaces
+#
+###############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Alphabet Soup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+###############################################################
+# Player HUD
+# 
+# --------------------------------------------
+# Bob the Chopper                            |
+# Minotaur of Okawaru *.....                 |
+# Health: 120/200   ======================== |
+# Magic:  20/20                              |
+# AC: 27            Str: 31                  |
+# EV: 12            Int: 4                   |
+# SH: 14            Dex: 10                  |
+# XL: 11 Next: 83%  Place: Dungeon:15        |
+# Noise: ---------  Time: 72030.9 (0.0)      |
+# a) +0 hand axe                             |
+# -) Nothing quivered                        |
+# Hungry                                     |
+# --------------------------------------------
+#
+# The labels on the left need to be the same length in order to preserve alignment.
+# There's a bit more freedom with the ones on the right, but they mustn't be so long as
+# to push stuff off the screen.
+###############################################################
+
+# "of <god>"
+#, c-format
+msgid " of %s"
+msgstr " von {dat}%s"
+
+msgid  "Health: "
+msgstr "Gesund: "
+
+# Health changes to HP when a 3rd number has to be shown (player rotted)
+# Hit points = Trefferpünkte
+msgid  "HP: "
+msgstr "TP: "
+
+msgid  "Magic:  "
+msgstr "Mana:   "
+
+# Magic changes to MP when a 3rd number has to be shown (MP drained)
+# Magic points = Manapunkte(?)
+msgid  "MP: "
+msgstr "MP: "
+
+# Armour Class = Rüstingsklasse
+msgid  "AC:"
+msgstr "RK:"
+
+# Evasion = Ausweichen
+msgid  "EV:"
+msgstr "AW:"
+
+# Shields = Schilde
+msgid  "SH:"
+msgstr "Sch:"
+
+# eXperience Level = Erfahrungsstufe(?)
+msgid  "XL: "
+msgstr "St: "
+
+# percentage of next XL achieved
+# Next = Nächste, but that's too long, so I used kommende
+msgid  "Next: "
+msgstr "Komm:"
+
+msgid  "Noise: "
+msgstr "Lärm:  "
+
+# If silenced, this shows instead of noise bar
+msgid  "Silenced  "
+msgstr "Stumm     "
+
+# There is an option to show equipment instaed of noise
+# equipment = Ausrüstung
+msgid  "Equip: "
+msgstr "Ausr:  "
+
+# Equipment abbreviated for octopodes
+msgid  "Eq: "
+msgstr "Ar: "
+
+# Strength = Stärke
+msgid  "Str:"
+msgstr "Stä:"
+
+# Intelligence = Intelligenz
+msgid  "Int:"
+msgstr "Int:"
+
+# Dexterity = Geschicklichkeit
+msgid  "Dex:"
+msgstr "Ges:"
+
+msgid  "Place: "
+msgstr "Ort: "
+
+msgid  "Time:"
+msgstr "Zeit:"
+
+# this shows if god is Gozag
+msgid  "Gold:"
+msgstr "Gold:"
+
+###############################################################
+# Character overview screen. Contrived example:
+#
+# Kitty the Vexing (Felid Enchanter)                     Turns: 0, Time: 00:00:02
+# Health: 7/7        AC:  1    Str:  4    XL:     1   Next: 0%
+# Magic:  4/4        EV: 18    Int: 16    God:    
+# Gold:   0          SH:  0    Dex: 16    Spells: 3/4 levels left
+#                                         Lives:  0   Deaths: 0
+# 
+# rFire    . . .     SeeInvis +     - Unarmed
+# rCold    . . .     Gourm    .   (shield unavailable)
+# rNeg     . . .     Faith    .   (armour unavailable)
+# rPois    .         Spirit   .   (helmet unavailable)
+# rElec    .         Reflect  .   (cloak unavailable)
+# rCorr    .         Harm     .   (gloves unavailable)
+# MR       .....                  (boots unavailable)
+# Stlth    +++.......             (no amulet)
+# HPRegen  0.02/turn              (no ring)
+# MPRegen  0.09/turn              (no ring)
+# 
+# @: quick
+# A: very small, no armour, no weapons or thrown items, stealth, claws 1, fangs 3,
+# see invisible, carnivore, speed 1, shaggy fur 1, slow metabolism 1, sharp paws
+# }: 2/15 runes: decaying, gossamer
+#
+###############################################################
+
+#, c-format
+msgid  " Turns: %d, Time: "
+msgstr " Wend: %d, Zeit: "
+
+# Health changes to HP if player rotted
+msgid  "HP:   "
+msgstr "TP:   "
+
+# Magic changes to MP if player rotted
+msgid  "MP:   "
+msgstr "MP:   "
+
+msgid  "Gold:   "
+msgstr "Gold:   "
+
+# Align Gold with HP/MP if playerrotted
+msgid  "Gold: "
+msgstr "Gold: "
+
+# Armour Class = Rüstingsklasse
+msgid  "AC: "
+msgstr "RK:  "
+
+# Evasion = Ausweichen
+msgid  "EV: "
+msgstr "AW:  "
+
+# Shields = Schilde
+msgid  "SH: "
+msgstr "Sch: "
+
+# Strength = Stärke
+msgid  "Str: "
+msgstr "Stä: "
+
+# Intelligence = Intelligenz
+msgid  "Int: "
+msgstr "Int: "
+
+# Dexterity = Geschicklichkeit
+msgid  "Dex: "
+msgstr "Ges: "
+
+# eXperience Level = Erfahrungsstufe
+msgid  "XL:     "
+msgstr "Stufe:  "
+
+msgid  "   Next: "
+msgstr " Nächste: "
+
+msgid  "God:    "
+msgstr "Gott:   "
+
+msgid  "Spells: "
+msgstr "Zauber: "
+
+#, c-format
+msgid  "%d/%d levels left"
+msgstr "%d/%d Stufen übrig"
+
+# Felids have multiple lives (and deaths)
+msgid  "Lives:  "
+msgstr "Leben:  "
+
+msgid  "   Deaths: "
+msgstr "   Tode: "
+
+# fire resistance
+msgid  "rFire"
+msgstr "rFeuer"
+
+# cold resistance
+msgid  "rCold"
+msgstr "rKalt"
+
+# negative energy resistance
+msgid  "rNeg"
+msgstr "rNeg"
+
+# poison resistance
+msgid  "rPois"
+msgstr "rGift"
+
+# electricty resistance
+msgid  "rElec"
+msgstr "rElek"
+
+# corrosion resistance
+msgid  "rCorr"
+msgstr "rKorr"
+
+# mutation resistance
+msgid  "rMut"
+msgstr "rMut"
+
+# magic resistance
+msgid  "MR"
+msgstr "ZR"
+
+# Stealth = Heimlichkeit
+msgid  "Stlth    "
+msgstr "Heiml    "
+
+# HP regeneration rate
+#, c-format
+msgid  "HPRegen  %03.2f/turn"
+msgstr "TPRegen  %03.2f/Wendung"
+
+# MP regeneration rate
+#, c-format
+msgid  "MPRegen  %03.2f/turn"
+msgstr "MPRegen  %03.2f/Wendung"
+
+msgid  "SeeInvis"
+msgstr "SeheUns"
+
+# Gourmand
+msgid  "Gourm"
+msgstr "Gourm"
+
+msgid  "Faith"
+msgstr "Glaube"
+
+# spirit shield
+msgid  "Spirit"
+msgstr "Geist"
+
+# reflection
+msgid  "Reflect"
+msgstr "Reflex"
+
+msgid  "Harm"
+msgstr "Leid"
+
+# the following ones show up only if applicable
+
+msgid  "Rnd*Rage"
+msgstr "Zfg*Wut"
+
+msgid  "Clarity"
+msgstr "Klarheit"
+
+msgid  "NoTele"
+msgstr "KeinTele"
+
+msgid  "Rnd*Tele"
+msgstr "Zfg*Tele"
+
+msgid  "NoCast"
+msgstr "KeinZauber"
+
+
+#######################
+# Mutations
+#######################
+
+msgid  "unfitting armour"
+msgstr "unpassende Rüstung"
+
+msgid  "amphibious"
+msgstr "amphibisch"
+
+# The number here will only ever be 7 or 8
+#, c-format
+msgid "%d rings"
+msgstr "%d Ringe"
+
+#, c-format
+msgid "constrict %d"
+msgstr "verengen %d"
+
+msgid "walk on water"
+msgstr "auf dem Wasser gehen"
+
+msgid "reduced essence"
+msgstr "reduzierte Essenz"
+
+#, c-format
+msgid "AC +%d"
+msgstr "RK +%d"
+
+msgid "no striking features"
+msgstr "keine auffälligen Merkmale"
+
+msgid "very quick"
+msgstr "sehr schnell"
+
+msgid "quick"
+msgstr "schnell"
+
+msgid "slow"
+msgstr "langsam"
+
+msgid "very slow"
+msgstr "sehr langsam"
+
+msgid "no status effects"
+msgstr "keine Statuseffekte"
+
+msgid "Orb of Zot"
+msgstr "Kugel von Zot"
+
+#, c-format
+msgid "%d runes"
+msgstr "%d Runen"
+
+# wizard (cheat) mode flags
+
+msgid "WIZARD"
+msgstr "WIZARD"
+
+msgid "EX-WIZARD"
+msgstr "EX-WIZARD"
+
+msgid "EXPLORE"
+msgstr "ERKUNDEN"
+
+#, c-format
+msgid "Your terminal window is too small; please resize to at least %d,%d"
+msgstr "Dein Terminalfenster ist zu klein; Bitte ändere die Größe auf mindestens %d,%d"
+
+msgid "There were no monsters in sight!"
+msgstr "Es gab keine Monster im Sicht!"
+
+msgid "There are no monsters in sight!"
+msgstr "Es gibt keine Monster im Sicht!"
+
+#, c-format
+msgid "You could see %s."
+msgstr "Du sahst %s."
+
+#, c-format
+msgid "You can see %s."
+msgstr "Du siehst %s."
+
+# some items become "melded" when you change form
+msgid "melded "
+msgstr "vereint"
+
+msgid "Unarmed"
+msgstr "Unbewaffnet"
+
+msgid "Blade Hand"
+msgstr "Klingenhand"
+
+# Note: The maximum is 2, even for an octopode
+msgid "Blade Hands"
+msgstr "Klingenhände"
+
+##############################################
+# Equipment Slots
+##############################################
+
+msgid "Quiver unavailable"
+msgstr "Köcher nicht verfügbar"
+
+msgid "Nothing quivered"
+msgstr "Nichts im Köcher"
+
+#, c-format
+msgid "%s unavailable"
+msgstr "%s nicht verfügbar"
+
+#, c-format
+msgid "%s currently unavailable"
+msgstr "%s aktuell nicht verfügbar"
+
+#, c-format
+msgid "%s restricted"
+msgstr "%s beschränkt"
+
+msgid "weapon"
+msgstr "Waffe"
+
+msgid "cloak"
+msgstr "Umhang"
+
+msgid "helmet"
+msgstr "Helm"
+
+msgid "gloves"
+msgstr "Handschuhe"
+
+msgid "boots"
+msgstr "Stiefel"
+
+# Centaurs and Nagas have barding instead of boots
+msgid "barding"
+msgstr "Gelieger"
+
+msgid "shield"
+msgstr "Schild"
+
+msgid "armour"
+msgstr "Rüstung"
+
+msgid "amulet"
+msgstr "Amulett"
+
+msgid "ring"
+msgstr "Ring"
+
+
+msgid "no weapon"
+msgstr "keine Waffe"
+
+msgid "no cloak"
+msgstr "kein Umhang"
+
+msgid "no helmet"
+msgstr "kein Helm"
+
+msgid "no gloves"
+msgstr "keine Handschuhe"
+
+msgid "no boots"
+msgstr "keine Stiefel"
+
+# Centaurs and Nagas have barding instead of boots
+msgid "no barding"
+msgstr "kein Gelieger"
+
+msgid "no shield"
+msgstr "kein Schild"
+
+msgid "no armour"
+msgstr "keine Rüstung"
+
+msgid "no amulet"
+msgstr "kein Amulett"
+
+msgid "no ring"
+msgstr "kein Ring"
+
+
