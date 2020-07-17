@@ -211,26 +211,6 @@ msgstr "Wurfnetz"
 msgid "boomerang"
 msgstr "Bumerang"
 
-# the new game menu lists these combinations:
-
-msgid "large rocks and throwing nets"
-msgstr "Felsblöcke und Wurfnetze"
-
-msgid "boomerangs and throwing nets"
-msgstr "Bumerangs und Wurfnetze"
-
-msgid "javelins and throwing nets"
-msgstr "Wurfspeer und Wurfnetze"
-
-msgid "hunting sling and sling bullets"
-msgstr "Schleuder und Schleuderkugeln"
-
-msgid "shortbow and arrows"
-msgstr "Kurzbogen und Pfeile"
-
-msgid "hand crossbow and bolts"
-msgstr "Handarmbrust und Bolzen"
-
 #################################
 # Food
 #################################
