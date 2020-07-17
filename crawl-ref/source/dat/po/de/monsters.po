@@ -538,7 +538,7 @@ msgid  "the lindwurm"
 msgstr "der Lindwurm"
 
 msgid  "the death drake"
-msgstr "der Todesdrache"
+msgstr "der Todesdrachling"
 
 msgid  "the giant lizard"
 msgstr "die Rieseneidechse"
@@ -2153,8 +2153,8 @@ msgstr[1] "%d Lindwurme"
 
 msgid "a death drake"
 msgid_plural "%d death drakes"
-msgstr[0] "ein Todesdrache"
-msgstr[1] "%d Todesdrachen"
+msgstr[0] "ein Todesdrachling"
+msgstr[1] "%d Todesdrachlinge"
 # check plural above
 
 msgid "a giant lizard"
@@ -4542,7 +4542,7 @@ msgid  "your lindwurm"
 msgstr "dein Lindwurm"
 
 msgid  "your death drake"
-msgstr "dein Todesdrache"
+msgstr "dein Todesdrachling"
 
 msgid  "your giant lizard"
 msgstr "deine Rieseneidechse"
@@ -5920,7 +5920,7 @@ msgid  "lindwurm"
 msgstr "Lindwurm"
 
 msgid  "death drake"
-msgstr "Todesdrache"
+msgstr "Todesdrachling"
 
 msgid  "giant lizard"
 msgstr "Rieseneidechse"

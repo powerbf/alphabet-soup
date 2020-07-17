@@ -395,7 +395,7 @@ msgstr "dem Lindwurm"
 
 msgctxt "dat"
 msgid  "the death drake"
-msgstr "dem Todesdrachen"
+msgstr "dem Todesdrachling"
 
 msgctxt "dat"
 msgid  "the giant lizard"
@@ -2467,8 +2467,8 @@ msgstr[1] "%d Lindwurmen"
 msgctxt "dat"
 msgid "a death drake"
 msgid_plural "%d death drakes"
-msgstr[0] "einem Todesdrachen"
-msgstr[1] "%d Todesdrachen"
+msgstr[0] "einem Todesdrachling"
+msgstr[1] "%d Todesdrachlingen"
 # check plural above
 
 msgctxt "dat"
