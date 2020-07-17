@@ -38,16 +38,124 @@ msgid  "Blork the Orc"
 msgstr "Blork dem Ork"
 
 msgctxt "dat"
-msgid  "the Lernaean hydra"
-msgstr "der Lernäischen Hydra"
-
-msgctxt "dat"
 msgid  "the Royal Jelly"
 msgstr "dem Gelée Royale"
 
 msgctxt "dat"
 msgid  "the Serpent of Hell"
 msgstr "der Höllenschlange"
+
+msgctxt "dat"
+msgid  "the Lernaean hydra"
+msgstr "der Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the one-headed Lernaean hydra"
+msgstr "der einköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the two-headed Lernaean hydra"
+msgstr "der zweiköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the three-headed Lernaean hydra"
+msgstr "der dreiköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the four-headed Lernaean hydra"
+msgstr "der vierköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the five-headed Lernaean hydra"
+msgstr "der fünfköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the six-headed Lernaean hydra"
+msgstr "der sechsköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the seven-headed Lernaean hydra"
+msgstr "der siebenköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the eight-headed Lernaean hydra"
+msgstr "der achtköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the nine-headed Lernaean hydra"
+msgstr "der neunköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the ten-headed Lernaean hydra"
+msgstr "der zehnköpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 11-headed Lernaean hydra"
+msgstr "der 11-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 12-headed Lernaean hydra"
+msgstr "der 12-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 13-headed Lernaean hydra"
+msgstr "der 13-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 14-headed Lernaean hydra"
+msgstr "der 14-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 15-headed Lernaean hydra"
+msgstr "der 15-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 16-headed Lernaean hydra"
+msgstr "der 16-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 17-headed Lernaean hydra"
+msgstr "der 17-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 18-headed Lernaean hydra"
+msgstr "der 18-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 19-headed Lernaean hydra"
+msgstr "der 19-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 20-headed Lernaean hydra"
+msgstr "der 20-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 21-headed Lernaean hydra"
+msgstr "der 21-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 22-headed Lernaean hydra"
+msgstr "der 22-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 23-headed Lernaean hydra"
+msgstr "der 23-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 24-headed Lernaean hydra"
+msgstr "der 24-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 25-headed Lernaean hydra"
+msgstr "der 25-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 26-headed Lernaean hydra"
+msgstr "der 26-köpfigen Lernäischen Hydra"
+
+msgctxt "dat"
+msgid  "the 27-headed Lernaean hydra"
+msgstr "der 27-köpfigen Lernäischen Hydra"
 
 ################################
 # definite
@@ -878,8 +986,84 @@ msgid  "the hydra"
 msgstr "der Hydra"
 
 msgctxt "dat"
-msgid  "the %d-headed hydra"
-msgstr "der %d-köpfigen Hydra"
+msgid  "the one-headed hydra"
+msgstr "der einköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the two-headed hydra"
+msgstr "der zweiköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the three-headed hydra"
+msgstr "der dreiköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the four-headed hydra"
+msgstr "der vierköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the five-headed hydra"
+msgstr "der fünfköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the six-headed hydra"
+msgstr "der sechsköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the seven-headed hydra"
+msgstr "der siebenköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the eight-headed hydra"
+msgstr "der achtköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the nine-headed hydra"
+msgstr "der neunköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the ten-headed hydra"
+msgstr "der zehnköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 11-headed hydra"
+msgstr "der 11-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 12-headed hydra"
+msgstr "der 12-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 13-headed hydra"
+msgstr "der 13-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 14-headed hydra"
+msgstr "der 14-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 15-headed hydra"
+msgstr "der 15-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 16-headed hydra"
+msgstr "der 16-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 17-headed hydra"
+msgstr "der 17-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 18-headed hydra"
+msgstr "der 18-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 19-headed hydra"
+msgstr "der 19-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "the 20-headed hydra"
+msgstr "der 20-köpfigen Hydra"
 
 msgctxt "dat"
 msgid  "the ice dragon"
@@ -3270,13 +3454,6 @@ msgid "a hydra"
 msgid_plural "%d hydras"
 msgstr[0] "einer Hydra"
 msgstr[1] "%d Hydren"
-# check plural above
-
-msgctxt "dat"
-msgid "a %d-headed hydra"
-msgid_plural "%d %d-headed hydras"
-msgstr[0] "einer %d-köpfigen Hydra"
-msgstr[1] "%d %d-köpfigen Hydren"
 # check plural above
 
 msgctxt "dat"
