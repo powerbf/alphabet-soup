@@ -260,14 +260,95 @@ msgstr "der Hexenmeisterin"
 msgid  "Blork the Orc's"
 msgstr "des Blorks des Orks"
 
-msgid  "the Lernaean hydra's"
-msgstr "der Lernäischen Hydra"
-
 msgid  "the Royal Jelly's"
 msgstr "des Gelée Royales"
 
 msgid  "the Serpent of Hell's"
 msgstr "der Höllenschlange"
+
+msgid  "the Lernaean hydra's"
+msgstr "der Lernäischen Hydra"
+
+msgid  "the one-headed Lernaean hydra's"
+msgstr "der einköpfigen Lernäischen Hydra"
+
+msgid  "the two-headed Lernaean hydra's"
+msgstr "der zweiköpfigen Lernäischen Hydra"
+
+msgid  "the three-headed Lernaean hydra's"
+msgstr "der dreiköpfigen Lernäischen Hydra"
+
+msgid  "the four-headed Lernaean hydra's"
+msgstr "der vierköpfigen Lernäischen Hydra"
+
+msgid  "the five-headed Lernaean hydra's"
+msgstr "der fünfköpfigen Lernäischen Hydra"
+
+msgid  "the six-headed Lernaean hydra's"
+msgstr "der sechsköpfigen Lernäischen Hydra"
+
+msgid  "the seven-headed Lernaean hydra's"
+msgstr "der siebenköpfigen Lernäischen Hydra"
+
+msgid  "the eight-headed Lernaean hydra's"
+msgstr "der achtköpfigen Lernäischen Hydra"
+
+msgid  "the nine-headed Lernaean hydra's"
+msgstr "der neunköpfigen Lernäischen Hydra"
+
+msgid  "the ten-headed Lernaean hydra's"
+msgstr "der zehnköpfigen Lernäischen Hydra"
+
+msgid  "the 11-headed Lernaean hydra's"
+msgstr "der 11-köpfigen Lernäischen Hydra"
+
+msgid  "the 12-headed Lernaean hydra's"
+msgstr "der 12-köpfigen Lernäischen Hydra"
+
+msgid  "the 13-headed Lernaean hydra's"
+msgstr "der 13-köpfigen Lernäischen Hydra"
+
+msgid  "the 14-headed Lernaean hydra's"
+msgstr "der 14-köpfigen Lernäischen Hydra"
+
+msgid  "the 15-headed Lernaean hydra's"
+msgstr "der 15-köpfigen Lernäischen Hydra"
+
+msgid  "the 16-headed Lernaean hydra's"
+msgstr "der 16-köpfigen Lernäischen Hydra"
+
+msgid  "the 17-headed Lernaean hydra's"
+msgstr "der 17-köpfigen Lernäischen Hydra"
+
+msgid  "the 18-headed Lernaean hydra's"
+msgstr "der 18-köpfigen Lernäischen Hydra"
+
+msgid  "the 19-headed Lernaean hydra's"
+msgstr "der 19-köpfigen Lernäischen Hydra"
+
+msgid  "the 20-headed Lernaean hydra's"
+msgstr "der 20-köpfigen Lernäischen Hydra"
+
+msgid  "the 21-headed Lernaean hydra's"
+msgstr "der 21-köpfigen Lernäischen Hydra"
+
+msgid  "the 22-headed Lernaean hydra's"
+msgstr "der 22-köpfigen Lernäischen Hydra"
+
+msgid  "the 23-headed Lernaean hydra's"
+msgstr "der 23-köpfigen Lernäischen Hydra"
+
+msgid  "the 24-headed Lernaean hydra's"
+msgstr "der 24-köpfigen Lernäischen Hydra"
+
+msgid  "the 25-headed Lernaean hydra's"
+msgstr "der 25-köpfigen Lernäischen Hydra"
+
+msgid  "the 26-headed Lernaean hydra's"
+msgstr "der 26-köpfigen Lernäischen Hydra"
+
+msgid  "the 27-headed Lernaean hydra's"
+msgstr "der 27-köpfigen Lernäischen Hydra"
 
 ################################
 # definite
@@ -891,8 +972,65 @@ msgstr "des Feuerdrachens"
 msgid  "the hydra's"
 msgstr "der Hydra"
 
-msgid  "the %d-headed hydra's"
-msgstr "der %d-köpfigen Hydra"
+msgid  "the one-headed hydra's"
+msgstr "der einköpfigen Hydra"
+
+msgid  "the two-headed hydra's"
+msgstr "der zweiköpfigen Hydra"
+
+msgid  "the three-headed hydra's"
+msgstr "der dreiköpfigen Hydra"
+
+msgid  "the four-headed hydra's"
+msgstr "der vierköpfigen Hydra"
+
+msgid  "the five-headed hydra's"
+msgstr "der fünfköpfigen Hydra"
+
+msgid  "the six-headed hydra's"
+msgstr "der sechsköpfigen Hydra"
+
+msgid  "the seven-headed hydra's"
+msgstr "der siebenköpfigen Hydra"
+
+msgid  "the eight-headed hydra's"
+msgstr "der achtköpfigen Hydra"
+
+msgid  "the nine-headed hydra's"
+msgstr "der neunköpfigen Hydra"
+
+msgid  "the ten-headed hydra's"
+msgstr "der zehnköpfigen Hydra"
+
+msgid  "the 11-headed hydra's"
+msgstr "der 11-köpfigen Hydra"
+
+msgid  "the 12-headed hydra's"
+msgstr "der 12-köpfigen Hydra"
+
+msgid  "the 13-headed hydra's"
+msgstr "der 13-köpfigen Hydra"
+
+msgid  "the 14-headed hydra's"
+msgstr "der 14-köpfigen Hydra"
+
+msgid  "the 15-headed hydra's"
+msgstr "der 15-köpfigen Hydra"
+
+msgid  "the 16-headed hydra's"
+msgstr "der 16-köpfigen Hydra"
+
+msgid  "the 17-headed hydra's"
+msgstr "der 17-köpfigen Hydra"
+
+msgid  "the 18-headed hydra's"
+msgstr "der 18-köpfigen Hydra"
+
+msgid  "the 19-headed hydra's"
+msgstr "der 19-köpfigen Hydra"
+
+msgid  "the 20-headed hydra's"
+msgstr "der 20-köpfigen Hydra"
 
 msgid  "the ice dragon's"
 msgstr "des Eisdrachens"
@@ -2269,9 +2407,6 @@ msgstr "eines Feuerdrachens"
 msgid "a hydra's"
 msgstr "einer Hydra"
 
-msgid "a %d-headed hydra's"
-msgstr "einer %d-köpfigen Hydra"
-
 msgid "an ice dragon's"
 msgstr "eines Eisdrachens"
 
@@ -3647,8 +3782,65 @@ msgstr "deines Feuerdrachens"
 msgid "your hydra's"
 msgstr "deiner Hydra"
 
-msgid "your %d-headed hydra's"
-msgstr "deiner %d-köpfigen Hydra"
+msgid  "your one-headed hydra's"
+msgstr "deiner einköpfigen Hydra"
+
+msgid  "your two-headed hydra's"
+msgstr "deiner zweiköpfigen Hydra"
+
+msgid  "your three-headed hydra's"
+msgstr "deiner dreiköpfigen Hydra"
+
+msgid  "your four-headed hydra's"
+msgstr "deiner vierköpfigen Hydra"
+
+msgid  "your five-headed hydra's"
+msgstr "deiner fünfköpfigen Hydra"
+
+msgid  "your six-headed hydra's"
+msgstr "deiner sechsköpfigen Hydra"
+
+msgid  "your seven-headed hydra's"
+msgstr "deiner siebenköpfigen Hydra"
+
+msgid  "your eight-headed hydra's"
+msgstr "deiner achtköpfigen Hydra"
+
+msgid  "your nine-headed hydra's"
+msgstr "deiner neunköpfigen Hydra"
+
+msgid  "your ten-headed hydra's"
+msgstr "deiner zehnköpfigen Hydra"
+
+msgid  "your 11-headed hydra's"
+msgstr "deiner 11-köpfigen Hydra"
+
+msgid  "your 12-headed hydra's"
+msgstr "deiner 12-köpfigen Hydra"
+
+msgid  "your 13-headed hydra's"
+msgstr "deiner 13-köpfigen Hydra"
+
+msgid  "your 14-headed hydra's"
+msgstr "deiner 14-köpfigen Hydra"
+
+msgid  "your 15-headed hydra's"
+msgstr "deiner 15-köpfigen Hydra"
+
+msgid  "your 16-headed hydra's"
+msgstr "deiner 16-köpfigen Hydra"
+
+msgid  "your 17-headed hydra's"
+msgstr "deiner 17-köpfigen Hydra"
+
+msgid  "your 18-headed hydra's"
+msgstr "deiner 18-köpfigen Hydra"
+
+msgid  "your 19-headed hydra's"
+msgstr "deiner 19-köpfigen Hydra"
+
+msgid  "your 20-headed hydra's"
+msgstr "deiner 20-köpfigen Hydra"
 
 msgid "your ice dragon's"
 msgstr "deines Eisdrachens"
