@@ -683,7 +683,7 @@ msgstr "des Lindwurms"
 
 msgctxt "gen"
 msgid  "the death drake"
-msgstr "des Todesdrachens"
+msgstr "des Todesdrachlings"
 
 msgctxt "gen"
 msgid  "the giant lizard"
@@ -2519,7 +2519,7 @@ msgstr "eines Lindwurms"
 
 msgctxt "gen"
 msgid "a death drake"
-msgstr "eines Todesdrachens"
+msgstr "eines Todesdrachlings"
 
 msgctxt "gen"
 msgid "a giant lizard"
@@ -4355,7 +4355,7 @@ msgstr "deines Lindwurms"
 
 msgctxt "gen"
 msgid "your death drake"
-msgstr "deines Todesdrachens"
+msgstr "deines Todesdrachlings"
 
 msgctxt "gen"
 msgid "your giant lizard"

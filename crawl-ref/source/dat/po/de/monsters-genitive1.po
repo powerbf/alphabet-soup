@@ -529,7 +529,7 @@ msgid  "the lindwurm's"
 msgstr "des Lindwurms"
 
 msgid  "the death drake's"
-msgstr "des Todesdrachens"
+msgstr "des Todesdrachlings"
 
 msgid  "the giant lizard's"
 msgstr "der Rieseneidechse"
@@ -1907,7 +1907,7 @@ msgid "a lindwurm's"
 msgstr "eines Lindwurms"
 
 msgid "a death drake's"
-msgstr "eines Todesdrachens"
+msgstr "eines Todesdrachlings"
 
 msgid "a giant lizard's"
 msgstr "einer Rieseneidechse"
@@ -3285,7 +3285,7 @@ msgid "your lindwurm's"
 msgstr "deines Lindwurms"
 
 msgid "your death drake's"
-msgstr "deines Todesdrachens"
+msgstr "deines Todesdrachlings"
 
 msgid "your giant lizard's"
 msgstr "deiner Rieseneidechse"

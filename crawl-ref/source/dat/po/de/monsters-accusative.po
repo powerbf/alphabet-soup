@@ -331,7 +331,7 @@ msgstr "den Lindwurm"
 
 msgctxt "acc"
 msgid  "the death drake"
-msgstr "den Todesdrachen"
+msgstr "den Todesdrachling"
 
 msgctxt "acc"
 msgid  "the leopard gecko"
@@ -1708,8 +1708,8 @@ msgstr[1] "%d Lindwurme"
 msgctxt "acc"
 msgid "a death drake"
 msgid_plural "%d death drakes"
-msgstr[0] "einen Todesdrachen"
-msgstr[1] "%d Todesdrachen"
+msgstr[0] "einen Todesdrachling"
+msgstr[1] "%d Todesdrachlinge"
 # check plural above
 
 msgctxt "acc"
@@ -3509,7 +3509,7 @@ msgstr "deinen Lindwurm"
 
 msgctxt "acc"
 msgid  "your death drake"
-msgstr "deinen Todesdrachen"
+msgstr "deinen Todesdrachling"
 
 msgctxt "acc"
 msgid  "your leopard gecko"
@@ -4681,7 +4681,7 @@ msgstr "Lindwurm"
 
 msgctxt "acc"
 msgid  "death drake"
-msgstr "Todesdrachen"
+msgstr "Todesdrachling"
 
 msgctxt "acc"
 msgid  "leopard gecko"
