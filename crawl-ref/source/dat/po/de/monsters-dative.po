@@ -5144,3 +5144,1916 @@ msgid_plural "%d nasty sensed monsters"
 msgstr[0] "einem furchtbaren gespürten Monster"
 msgstr[1] "%d furchtbaren gespürten Monstern"
 # check plural above
+
+################################
+# allies
+################################
+
+msgctxt "dat"
+msgid  "your program bug"
+msgstr "deinem Programmfehler"
+
+msgctxt "dat"
+msgid  "your worker ant"
+msgstr "deiner Ameisenarbeiterin"
+
+msgctxt "dat"
+msgid  "your queen ant"
+msgstr "deiner Ameisenkönigin"
+
+msgctxt "dat"
+msgid  "your soldier ant"
+msgstr "deiner Ameisensoldatin"
+
+msgctxt "dat"
+msgid  "your formicid"
+msgstr "deinem Formicid"
+
+msgctxt "dat"
+msgid  "your entropy weaver"
+msgstr "deinem Entropieweber"
+
+msgctxt "dat"
+msgid  "your bat"
+msgstr "deiner Fledermaus"
+
+msgctxt "dat"
+msgid  "your butterfly"
+msgstr "deinem Schmetterling"
+
+msgctxt "dat"
+msgid  "your vampire bat"
+msgstr "deiner Vampirfledermaus"
+
+msgctxt "dat"
+msgid  "your fire bat"
+msgstr "deiner Feuerfledermaus"
+
+msgctxt "dat"
+msgid  "your bennu"
+msgstr "deinem Bennu"
+
+msgctxt "dat"
+msgid  "your caustic shrike"
+msgstr "deinem ätzenden Würger"
+
+msgctxt "dat"
+msgid  "your shard shrike"
+msgstr "deinem Scherbenwürger"
+
+msgctxt "dat"
+msgid  "your centaur"
+msgstr "deinem Zentaur"
+
+msgctxt "dat"
+msgid  "your centaur warrior"
+msgstr "deinem Zentaur-Krieger"
+
+msgctxt "dat"
+msgid  "your yaktaur"
+msgstr "deinem Yaktaur"
+
+msgctxt "dat"
+msgid  "your yaktaur captain"
+msgstr "deinem Yaktaur-Kapitän"
+
+msgctxt "dat"
+msgid  "your faun"
+msgstr "deinem Faun"
+
+msgctxt "dat"
+msgid  "your satyr"
+msgstr "deinem Satyr"
+
+msgctxt "dat"
+msgid  "your draconian"
+msgstr "deinem Drakonier"
+
+msgctxt "dat"
+msgid  "your black draconian"
+msgstr "deinem schwarzen Drakonier"
+
+msgctxt "dat"
+msgid  "your yellow draconian"
+msgstr "deinem gelben Drakonier"
+
+msgctxt "dat"
+msgid  "your pale draconian"
+msgstr "deinem blassen Drakonier"
+
+msgctxt "dat"
+msgid  "your green draconian"
+msgstr "deinem grünen Drakonier"
+
+msgctxt "dat"
+msgid  "your purple draconian"
+msgstr "deinem purpurnen Drakonier"
+
+msgctxt "dat"
+msgid  "your red draconian"
+msgstr "deinem roten Drakonier"
+
+msgctxt "dat"
+msgid  "your white draconian"
+msgstr "deinem weißen Drakonier"
+
+msgctxt "dat"
+msgid  "your grey draconian"
+msgstr "deinem grauen Drakonier"
+
+msgctxt "dat"
+msgid  "your draconian stormcaller"
+msgstr "deinem Drakonier-Sturmrufer"
+
+msgctxt "dat"
+msgid  "your draconian monk"
+msgstr "deinem Drakonier-Mönch"
+
+msgctxt "dat"
+msgid  "your draconian shifter"
+msgstr "deinem Drakonier-Verschieber"
+
+msgctxt "dat"
+msgid  "your draconian annihilator"
+msgstr "deinem Drakonier-Vernichter"
+
+msgctxt "dat"
+msgid  "your draconian knight"
+msgstr "deinem Drakonier-Ritter"
+
+msgctxt "dat"
+msgid  "your draconian scorcher"
+msgstr "deinem Drakonier-Verschmorer"
+
+msgctxt "dat"
+msgid  "your elf"
+msgstr "deinem Elf"
+
+msgctxt "dat"
+msgid  "your deep elf knight"
+msgstr "deinem Tiefenelf-Ritter"
+
+msgctxt "dat"
+msgid  "your deep elf archer"
+msgstr "deinem Tiefenelf-Bogenschützen"
+
+msgctxt "dat"
+msgid  "your deep elf blademaster"
+msgstr "deinem Tiefenelf-Klingenmeister"
+
+msgctxt "dat"
+msgid  "your deep elf master archer"
+msgstr "deinem Tiefenelf-Bogenmeister"
+
+msgctxt "dat"
+msgid  "your deep elf mage"
+msgstr "deinem Tiefenelf-Magier"
+
+msgctxt "dat"
+msgid  "your deep elf high priest"
+msgstr "deinem Tiefenelf-Hohepriester"
+
+msgctxt "dat"
+msgid  "your deep elf demonologist"
+msgstr "deinem Tiefenelf-Dämonologen"
+
+msgctxt "dat"
+msgid  "your deep elf annihilator"
+msgstr "deinem Tiefenelf-Vernichter"
+
+msgctxt "dat"
+msgid  "your deep elf sorcerer"
+msgstr "deinem Tiefenelf-Zauberer"
+
+msgctxt "dat"
+msgid  "your deep elf death mage"
+msgstr "deinem Tiefenelf-Todesmagier"
+
+msgctxt "dat"
+msgid  "your deep elf elementalist"
+msgstr "deinem Tiefenelf-Elementalisten"
+
+msgctxt "dat"
+msgid  "your wandering mushroom"
+msgstr "deinem wandernden Pilz"
+
+msgctxt "dat"
+msgid  "your deathcap"
+msgstr "deiner Todesmütze"
+
+msgctxt "dat"
+msgid  "your thorn hunter"
+msgstr "deinem Dornenjäger"
+
+msgctxt "dat"
+msgid  "your shambling mangrove"
+msgstr "deiner watschelnden Mangrove"
+
+msgctxt "dat"
+msgid  "your vine stalker"
+msgstr "deinem Rebjäger"
+
+msgctxt "dat"
+msgid  "your goblin"
+msgstr "deinem Goblin"
+
+msgctxt "dat"
+msgid  "your hobgoblin"
+msgstr "deinem Hobgoblin"
+
+msgctxt "dat"
+msgid  "your gnoll"
+msgstr "deinem Gnoll"
+
+msgctxt "dat"
+msgid  "your gnoll shaman"
+msgstr "deinem Gnoll-Schamanen"
+
+msgctxt "dat"
+msgid  "your gnoll sergeant"
+msgstr "deinem Gnoll-Wachtmeister"
+
+msgctxt "dat"
+msgid  "your boggart"
+msgstr "deinem Boggart"
+
+msgctxt "dat"
+msgid  "your dwarf"
+msgstr "deinem Zwerg"
+
+msgctxt "dat"
+msgid  "your deep dwarf"
+msgstr "deinem Tiefenzwerg"
+
+msgctxt "dat"
+msgid  "your jackal"
+msgstr "deinem Schakal"
+
+msgctxt "dat"
+msgid  "your hound"
+msgstr "deinem Hund"
+
+msgctxt "dat"
+msgid  "your howler monkey"
+msgstr "deinem Brüllaffen"
+
+msgctxt "dat"
+msgid  "your warg"
+msgstr "deinem Warg"
+
+msgctxt "dat"
+msgid  "your wolf"
+msgstr "deinem Wolf"
+
+msgctxt "dat"
+msgid  "your hog"
+msgstr "deinem Schwein"
+
+msgctxt "dat"
+msgid  "your hell hound"
+msgstr "deinem Höllenhund"
+
+msgctxt "dat"
+msgid  "your doom hound"
+msgstr "deinem Untergangshund"
+
+msgctxt "dat"
+msgid  "your raiju"
+msgstr "deinem Raiju"
+
+msgctxt "dat"
+msgid  "your hell hog"
+msgstr "deinem höllischen Schwein"
+
+msgctxt "dat"
+msgid  "your holy swine"
+msgstr "deinem heiligen Schwein"
+
+msgctxt "dat"
+msgid  "your felid"
+msgstr "deinem Felid"
+
+msgctxt "dat"
+msgid  "your bear"
+msgstr "deinem Bären"
+
+msgctxt "dat"
+msgid  "your polar bear"
+msgstr "deinem Eisbären"
+
+msgctxt "dat"
+msgid  "your black bear"
+msgstr "deinem Schwarzbären"
+
+msgctxt "dat"
+msgid  "your spriggan"
+msgstr "deinem Spriggan"
+
+msgctxt "dat"
+msgid  "your spriggan rider"
+msgstr "deinem Spriggan-Reiter"
+
+msgctxt "dat"
+msgid  "your spriggan druid"
+msgstr "deinem Spriggan-Druiden"
+
+msgctxt "dat"
+msgid  "your spriggan berserker"
+msgstr "deinem Spriggan-Berserker"
+
+msgctxt "dat"
+msgid  "your spriggan air mage"
+msgstr "deinem Spriggan-Luftmagier"
+
+msgctxt "dat"
+msgid  "your spriggan defender"
+msgstr "deinem Spriggan-Verteidiger"
+
+msgctxt "dat"
+msgid  "your drake"
+msgstr "deinem Drachling"
+
+msgctxt "dat"
+msgid  "your swamp drake"
+msgstr "deinem Sumpfdrachling"
+
+msgctxt "dat"
+msgid  "your rime drake"
+msgstr "deinem Reifsdrachling"
+
+msgctxt "dat"
+msgid  "your wind drake"
+msgstr "deinem Winddrachling"
+
+msgctxt "dat"
+msgid  "your lindwurm"
+msgstr "deinem Lindwurm"
+
+msgctxt "dat"
+msgid  "your death drake"
+msgstr "deinem Todesdrachling"
+
+msgctxt "dat"
+msgid  "your giant lizard"
+msgstr "deiner Rieseneidechse"
+
+msgctxt "dat"
+msgid  "your frilled lizard"
+msgstr "deiner gekräuselten Eidechse"
+
+msgctxt "dat"
+msgid  "your leopard gecko"
+msgstr "deinem Leopardgecko"
+
+msgctxt "dat"
+msgid  "your iguana"
+msgstr "deinem Leguan"
+
+msgctxt "dat"
+msgid  "your basilisk"
+msgstr "deinem Basilisk"
+
+msgctxt "dat"
+msgid  "your wyvern"
+msgstr "deinem Wyvern"
+
+msgctxt "dat"
+msgid  "your komodo dragon"
+msgstr "deinem Komododrachen"
+
+msgctxt "dat"
+msgid  "your merfolk"
+msgstr "deinem Meervolk"
+
+msgctxt "dat"
+msgid  "your merfolk impaler"
+msgstr "deinem Meervolk-Impaler"
+
+msgctxt "dat"
+msgid  "your merfolk javelineer"
+msgstr "deinem Meervolk-Speerführer"
+
+msgctxt "dat"
+msgid  "your merfolk aquamancer"
+msgstr "deinem Meervolk-Aquamancer"
+
+msgctxt "dat"
+msgid  "your merfolk siren"
+msgstr "deiner Meervolk-Sirene"
+
+msgctxt "dat"
+msgid  "your merfolk avatar"
+msgstr "deinem Meervolk-Avatar"
+
+msgctxt "dat"
+msgid  "your water nymph"
+msgstr "deiner Wassernymphe"
+
+msgctxt "dat"
+msgid  "your bog body"
+msgstr "deiner Moorleiche"
+
+msgctxt "dat"
+msgid  "your necrophage"
+msgstr "deinem Nekrophagen"
+
+msgctxt "dat"
+msgid  "your ghoul"
+msgstr "deinem Ghul"
+
+msgctxt "dat"
+msgid  "your orc"
+msgstr "deinem Ork"
+
+msgctxt "dat"
+msgid  "your orc wizard"
+msgstr "deinem Ork-Zauberer"
+
+msgctxt "dat"
+msgid  "your orc priest"
+msgstr "deinem Ork-Priester"
+
+msgctxt "dat"
+msgid  "your orc warrior"
+msgstr "deinem Ork-Krieger"
+
+msgctxt "dat"
+msgid  "your orc knight"
+msgstr "deinem Ork-Ritter"
+
+msgctxt "dat"
+msgid  "your orc warlord"
+msgstr "deinem Ork-Warlord"
+
+msgctxt "dat"
+msgid  "your orc sorcerer"
+msgstr "deinem Ork-Hexenmeister"
+
+msgctxt "dat"
+msgid  "your orc high priest"
+msgstr "deinem Ork-Hohepriester"
+
+msgctxt "dat"
+msgid  "your lava orc"
+msgstr "deinem Lava-Ork"
+
+msgctxt "dat"
+msgid  "your human"
+msgstr "deinem Menschen"
+
+msgctxt "dat"
+msgid  "your slave"
+msgstr "deinem Sklaven"
+
+msgctxt "dat"
+msgid  "your hell knight"
+msgstr "deinem Höllenritter"
+
+msgctxt "dat"
+msgid  "your death knight"
+msgstr "deinem Todesritter"
+
+msgctxt "dat"
+msgid  "your necromancer"
+msgstr "deinem Nekromanten"
+
+msgctxt "dat"
+msgid  "your wizard"
+msgstr "deinem Zauberer"
+
+msgctxt "dat"
+msgid  "your vault guard"
+msgstr "deinem Tresorwächter"
+
+msgctxt "dat"
+msgid  "your vault sentinel"
+msgstr "deiner Tresorwache"
+
+msgctxt "dat"
+msgid  "your vault warden"
+msgstr "deinem Tresorwärter"
+
+msgctxt "dat"
+msgid  "your ironbrand convoker"
+msgstr "deinem Eisenbrandeinberufer"
+
+msgctxt "dat"
+msgid  "your imperial myrmidon"
+msgstr "deinem kaiserlichen Myrmidon"
+
+msgctxt "dat"
+msgid  "your servant of whispers"
+msgstr "deinem Diener des Flüsterns"
+
+msgctxt "dat"
+msgid  "your ragged hierophant"
+msgstr "deinem zerlumpten Hierophanten"
+
+msgctxt "dat"
+msgid  "your ironheart preserver"
+msgstr "deinem Eisenherzbewahrer"
+
+msgctxt "dat"
+msgid  "your shapeshifter"
+msgstr "deinem Gestaltwandler"
+
+msgctxt "dat"
+msgid  "your glowing shapeshifter"
+msgstr "deinem leuchtenden Gestaltwandler"
+
+msgctxt "dat"
+msgid  "your Killer Klown"
+msgstr "deinem Killer-Klown"
+
+msgctxt "dat"
+msgid  "your demigod"
+msgstr "deinem Halbgott"
+
+msgctxt "dat"
+msgid  "your halfling"
+msgstr "deinem Halbling"
+
+msgctxt "dat"
+msgid  "your rat"
+msgstr "deiner Ratte"
+
+msgctxt "dat"
+msgid  "your quokka"
+msgstr "deinem Quokka"
+
+msgctxt "dat"
+msgid  "your river rat"
+msgstr "deiner Flussratte"
+
+msgctxt "dat"
+msgid  "your hell rat"
+msgstr "deiner Höllenratte"
+
+msgctxt "dat"
+msgid  "your porcupine"
+msgstr "deinem Stachelschwein"
+
+msgctxt "dat"
+msgid  "your giant cockroach"
+msgstr "deiner Riesenkakerlake"
+
+msgctxt "dat"
+msgid  "your scorpion"
+msgstr "deinem Skorpion"
+
+msgctxt "dat"
+msgid  "your emperor scorpion"
+msgstr "deinem Kaiserskorpion"
+
+msgctxt "dat"
+msgid  "your death scarab"
+msgstr "deinem Todesskarabäus"
+
+msgctxt "dat"
+msgid  "your spider"
+msgstr "deiner Spinne"
+
+msgctxt "dat"
+msgid  "your tarantella"
+msgstr "deiner Tarantella"
+
+msgctxt "dat"
+msgid  "your jumping spider"
+msgstr "deiner springenden Spinne"
+
+msgctxt "dat"
+msgid  "your wolf spider"
+msgstr "deiner Wolfsspinne"
+
+msgctxt "dat"
+msgid  "your redback"
+msgstr "deiner Rotrückenspinne"
+
+msgctxt "dat"
+msgid  "your demonic crawler"
+msgstr "deinem dämonischen Kriecher"
+
+msgctxt "dat"
+msgid  "your orb spider"
+msgstr "deiner Kugelspinne"
+
+msgctxt "dat"
+msgid  "your crocodile"
+msgstr "deinem Krokodil"
+
+msgctxt "dat"
+msgid  "your alligator"
+msgstr "deinem Alligator"
+
+msgctxt "dat"
+msgid  "your snapping turtle"
+msgstr "deiner Schnappschildkröte"
+
+msgctxt "dat"
+msgid  "your alligator snapping turtle"
+msgstr "deiner Alligatorschnappschildkröte"
+
+msgctxt "dat"
+msgid  "your crab"
+msgstr "deiner Krabbe"
+
+msgctxt "dat"
+msgid  "your fire crab"
+msgstr "deiner Feuerkrabbe"
+
+msgctxt "dat"
+msgid  "your ghost crab"
+msgstr "deiner Geisterkrabbe"
+
+msgctxt "dat"
+msgid  "your apocalypse crab"
+msgstr "deiner Apokalypse-Krabbe"
+
+msgctxt "dat"
+msgid  "your ugly thing"
+msgstr "deinem hässlichen Ding"
+
+msgctxt "dat"
+msgid  "your very ugly thing"
+msgstr "deinem sehr hässlichen Ding"
+
+msgctxt "dat"
+msgid  "your fire vortex"
+msgstr "deinem Feuerwirbel"
+
+msgctxt "dat"
+msgid  "your spatial vortex"
+msgstr "deinem räumlichen Wirbel"
+
+msgctxt "dat"
+msgid  "your spatial maelstrom"
+msgstr "deinem räumlichen Mahlstrom"
+
+msgctxt "dat"
+msgid  "your insubstantial wisp"
+msgstr "deinem unwesentlichen Irrlicht"
+
+msgctxt "dat"
+msgid  "your twister"
+msgstr "deinem Twister"
+
+msgctxt "dat"
+msgid  "your worm"
+msgstr "deinem Wurm"
+
+msgctxt "dat"
+msgid  "your swamp worm"
+msgstr "deinem Sumpfwurm"
+
+msgctxt "dat"
+msgid  "your tyrant leech"
+msgstr "deinem Tyrannblutegel"
+
+msgctxt "dat"
+msgid  "your dart slug"
+msgstr "deiner Pfeilschnecke"
+
+msgctxt "dat"
+msgid  "your torpor snail"
+msgstr "deiner Erstarrungsschnecke"
+
+msgctxt "dat"
+msgid  "your elephant slug"
+msgstr "deiner Elefantenschnecke"
+
+msgctxt "dat"
+msgid  "your unseen horror"
+msgstr "deinem unsichtbaren Grauen"
+
+msgctxt "dat"
+msgid  "your small abomination"
+msgstr "deinem kleinen Greuel"
+
+msgctxt "dat"
+msgid  "your crawling corpse"
+msgstr "deiner kriechenden Leiche"
+
+msgctxt "dat"
+msgid  "your macabre mass"
+msgstr "deiner makaberen Masse"
+
+msgctxt "dat"
+msgid  "your ancient zyme"
+msgstr "deinem alten Zymen"
+
+msgctxt "dat"
+msgid  "your worldbinder"
+msgstr "deinem Weltbinder"
+
+msgctxt "dat"
+msgid  "your killer bee"
+msgstr "deiner Killerbiene"
+
+msgctxt "dat"
+msgid  "your queen bee"
+msgstr "deiner Bienenkönigin"
+
+msgctxt "dat"
+msgid  "your vampire mosquito"
+msgstr "deiner Vampir-Mücke"
+
+msgctxt "dat"
+msgid  "your hornet"
+msgstr "deiner Hornisse"
+
+msgctxt "dat"
+msgid  "your meliai"
+msgstr "deiner Meliai"
+
+msgctxt "dat"
+msgid  "your spark wasp"
+msgstr "deiner Funkenwespe"
+
+msgctxt "dat"
+msgid  "your moth"
+msgstr "deiner Motte"
+
+msgctxt "dat"
+msgid  "your ghost moth"
+msgstr "deiner Geistermotte"
+
+msgctxt "dat"
+msgid  "your moth of wrath"
+msgstr "deiner Motte des Zorns"
+
+msgctxt "dat"
+msgid  "your wight"
+msgstr "deinem Wight"
+
+msgctxt "dat"
+msgid  "your skeletal warrior"
+msgstr "deinem Skelettkrieger"
+
+msgctxt "dat"
+msgid  "your ancient champion"
+msgstr "deinem alten Champion"
+
+msgctxt "dat"
+msgid  "your flying skull"
+msgstr "deinem fliegenden Schädel"
+
+msgctxt "dat"
+msgid  "your curse skull"
+msgstr "deinem Fluchschädel"
+
+msgctxt "dat"
+msgid  "your curse toe"
+msgstr "deinem Fluchzehen"
+
+msgctxt "dat"
+msgid  "your angel"
+msgstr "deinem Engel"
+
+msgctxt "dat"
+msgid  "your cherub"
+msgstr "deinem Cherub"
+
+msgctxt "dat"
+msgid  "your seraph"
+msgstr "deinem Seraph"
+
+msgctxt "dat"
+msgid  "your daeva"
+msgstr "deinem Daeva"
+
+msgctxt "dat"
+msgid  "your profane servitor"
+msgstr "deinem profanen Diener"
+
+msgctxt "dat"
+msgid  "your giant"
+msgstr "deinem Riesen"
+
+msgctxt "dat"
+msgid  "your cyclops"
+msgstr "deinem Zyklop"
+
+msgctxt "dat"
+msgid  "your ettin"
+msgstr "deinem Ettin"
+
+msgctxt "dat"
+msgid  "your fire giant"
+msgstr "deinem Feuerriesen"
+
+msgctxt "dat"
+msgid  "your frost giant"
+msgstr "deinem Frostriesen"
+
+msgctxt "dat"
+msgid  "your stone giant"
+msgstr "deinem Steinriesen"
+
+msgctxt "dat"
+msgid  "your titan"
+msgstr "deinem Titan"
+
+msgctxt "dat"
+msgid  "your juggernaut"
+msgstr "deinem Juggernaut"
+
+msgctxt "dat"
+msgid  "your iron giant"
+msgstr "deinem Eisenriesen"
+
+msgctxt "dat"
+msgid  "your dragon"
+msgstr "deinem Drachen"
+
+msgctxt "dat"
+msgid  "your fire dragon"
+msgstr "deinem Feuerdrachen"
+
+msgctxt "dat"
+msgid  "your hydra"
+msgstr "deiner Hydra"
+
+msgctxt "dat"
+msgid  "your one-headed hydra"
+msgstr "deiner einköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your two-headed hydra"
+msgstr "deiner zweiköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your three-headed hydra"
+msgstr "deiner dreiköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your four-headed hydra"
+msgstr "deiner vierköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your five-headed hydra"
+msgstr "deiner fünfköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your six-headed hydra"
+msgstr "deiner sechsköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your seven-headed hydra"
+msgstr "deiner siebenköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your eight-headed hydra"
+msgstr "deiner achtköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your nine-headed hydra"
+msgstr "deiner neunköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your ten-headed hydra"
+msgstr "deiner zehnköpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 11-headed hydra"
+msgstr "deiner 11-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 12-headed hydra"
+msgstr "deiner 12-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 13-headed hydra"
+msgstr "deiner 13-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 14-headed hydra"
+msgstr "deiner 14-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 15-headed hydra"
+msgstr "deiner 15-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 16-headed hydra"
+msgstr "deiner 16-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 17-headed hydra"
+msgstr "deiner 17-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 18-headed hydra"
+msgstr "deiner 18-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 19-headed hydra"
+msgstr "deiner 19-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your 20-headed hydra"
+msgstr "deiner 20-köpfigen Hydra"
+
+msgctxt "dat"
+msgid  "your ice dragon"
+msgstr "deinem Eisdrachen"
+
+msgctxt "dat"
+msgid  "your steam dragon"
+msgstr "deinem Dampfdrachen"
+
+msgctxt "dat"
+msgid  "your swamp dragon"
+msgstr "deinem Sumpfdrachen"
+
+msgctxt "dat"
+msgid  "your acid dragon"
+msgstr "deinem Säuredrachen"
+
+msgctxt "dat"
+msgid  "your quicksilver dragon"
+msgstr "deinem Quecksilberdrachen"
+
+msgctxt "dat"
+msgid  "your iron dragon"
+msgstr "deinem Eisendrachen"
+
+msgctxt "dat"
+msgid  "your storm dragon"
+msgstr "deinem Sturmdrachen"
+
+msgctxt "dat"
+msgid  "your golden dragon"
+msgstr "deinem Golddrachen"
+
+msgctxt "dat"
+msgid  "your shadow dragon"
+msgstr "deinem Schattendrachen"
+
+msgctxt "dat"
+msgid  "your bone dragon"
+msgstr "deinem Knochendrachen"
+
+msgctxt "dat"
+msgid  "your pearl dragon"
+msgstr "deinem Perlendrachen"
+
+msgctxt "dat"
+msgid  "your elemental"
+msgstr "deinem Elementar"
+
+msgctxt "dat"
+msgid  "your earth elemental"
+msgstr "deinem Erdelementar"
+
+msgctxt "dat"
+msgid  "your fire elemental"
+msgstr "deinem Feuerelementar"
+
+msgctxt "dat"
+msgid  "your water elemental"
+msgstr "deinem Wasserelementar"
+
+msgctxt "dat"
+msgid  "your air elemental"
+msgstr "deinem Luftelementar"
+
+msgctxt "dat"
+msgid  "your iron elemental"
+msgstr "deinem Eisenelementar"
+
+msgctxt "dat"
+msgid  "your elemental wellspring"
+msgstr "deiner elementaren Quelle"
+
+msgctxt "dat"
+msgid  "your giant frog"
+msgstr "deinem Riesenfrosch"
+
+msgctxt "dat"
+msgid  "your bullfrog"
+msgstr "deinem Ochsenfrosch"
+
+msgctxt "dat"
+msgid  "your spiny frog"
+msgstr "deinem Stachelfrosch"
+
+msgctxt "dat"
+msgid  "your blink frog"
+msgstr "deinem Flimmerfrosch"
+
+msgctxt "dat"
+msgid  "your barachi"
+msgstr "deiner Barachi"
+
+msgctxt "dat"
+msgid  "your floating eye"
+msgstr "deinem schwebenden Auge"
+
+msgctxt "dat"
+msgid  "your eye of draining"
+msgstr "deinem Auge des Schwächens"
+
+msgctxt "dat"
+msgid  "your glowing orange brain"
+msgstr "deinem orangen leuchtenden Gehirn"
+
+msgctxt "dat"
+msgid  "your great orb of eyes"
+msgstr "deinem großen Augenkugel"
+
+msgctxt "dat"
+msgid  "your shining eye"
+msgstr "deinem leuchtenden Auge"
+
+msgctxt "dat"
+msgid  "your eye of devastation"
+msgstr "deinem Auge der Verwüstung"
+
+msgctxt "dat"
+msgid  "your golden eye"
+msgstr "deinem goldenen Auge"
+
+msgctxt "dat"
+msgid  "your ophan"
+msgstr "deinem Ophan"
+
+msgctxt "dat"
+msgid  "your hippogriff"
+msgstr "deinem Hippogriff"
+
+msgctxt "dat"
+msgid  "your manticore"
+msgstr "deinem Mantikor"
+
+msgctxt "dat"
+msgid  "your minotaur"
+msgstr "deinem Minotaurus"
+
+msgctxt "dat"
+msgid  "your sphinx"
+msgstr "deiner Sphinx"
+
+msgctxt "dat"
+msgid  "your harpy"
+msgstr "deiner Harpyie"
+
+msgctxt "dat"
+msgid  "your mutant beast"
+msgstr "deiner mutierten Bestie"
+
+msgctxt "dat"
+msgid  "your ancestor"
+msgstr "deinem Ahnen"
+
+msgctxt "dat"
+msgid  "your knight"
+msgstr "deinem Ritter"
+
+msgctxt "dat"
+msgid  "your battlemage"
+msgstr "deinem Kampfmagier"
+
+msgctxt "dat"
+msgid  "your hexer"
+msgstr "deinem Hexer"
+
+msgctxt "dat"
+msgid  "your ooze"
+msgstr "deinem Schlamm"
+
+msgctxt "dat"
+msgid  "your jelly"
+msgstr "deinem Gelee"
+
+msgctxt "dat"
+msgid  "your slime creature"
+msgstr "deinem Schleimwesen"
+
+msgctxt "dat"
+msgid  "your merged slime creature"
+msgstr "deiner verschmolzenen Schleimkreatur"
+
+msgctxt "dat"
+msgid  "your azure jelly"
+msgstr "deinem azurblauen Gelee"
+
+msgctxt "dat"
+msgid  "your death ooze"
+msgstr "deinem Todesschlamm"
+
+msgctxt "dat"
+msgid  "your acid blob"
+msgstr "deinem Säureklumpen"
+
+msgctxt "dat"
+msgid  "your kobold"
+msgstr "deinem Kobold"
+
+msgctxt "dat"
+msgid  "your big kobold"
+msgstr "deinem großen Kobold"
+
+msgctxt "dat"
+msgid  "your kobold demonologist"
+msgstr "deinem Kobold-Dämonologen"
+
+msgctxt "dat"
+msgid  "your lich"
+msgstr "deinem Lich"
+
+msgctxt "dat"
+msgid  "your ancient lich"
+msgstr "deinem alten Lich"
+
+msgctxt "dat"
+msgid  "your revenant"
+msgstr "deinem Wiedergänger"
+
+msgctxt "dat"
+msgid  "your halazid warlock"
+msgstr "deinem halazidischen Hexenmeister"
+
+msgctxt "dat"
+msgid  "your mummy"
+msgstr "deiner Mumie"
+
+msgctxt "dat"
+msgid  "your guardian mummy"
+msgstr "deiner Wächtermumie"
+
+msgctxt "dat"
+msgid  "your greater mummy"
+msgstr "deiner größeren Mumie"
+
+msgctxt "dat"
+msgid  "your mummy priest"
+msgstr "deinem Mumie-Priester"
+
+msgctxt "dat"
+msgid  "your naga"
+msgstr "deinem Naga"
+
+msgctxt "dat"
+msgid  "your naga mage"
+msgstr "deinem Naga-Magier"
+
+msgctxt "dat"
+msgid  "your naga sharpshooter"
+msgstr "deinem Naga-Scharfschützen"
+
+msgctxt "dat"
+msgid  "your naga ritualist"
+msgstr "deinem Naga-Ritualisten"
+
+msgctxt "dat"
+msgid  "your naga warrior"
+msgstr "deinem Naga-Krieger"
+
+msgctxt "dat"
+msgid  "your nagaraja"
+msgstr "deinem Nagaraja"
+
+msgctxt "dat"
+msgid  "your ogre"
+msgstr "deinem Oger"
+
+msgctxt "dat"
+msgid  "your two-headed ogre"
+msgstr "deinem zweiköpfigen Oger"
+
+msgctxt "dat"
+msgid  "your ogre mage"
+msgstr "deinem Oger-Magier"
+
+msgctxt "dat"
+msgid  "your plant"
+msgstr "deiner Pflanze"
+
+msgctxt "dat"
+msgid  "your demonic plant"
+msgstr "deiner dämonischen Pflanze"
+
+msgctxt "dat"
+msgid  "your withered plant"
+msgstr "deiner verwelkten Pflanze"
+
+msgctxt "dat"
+msgid  "your oklob sapling"
+msgstr "deinem Oklob-Setzling"
+
+msgctxt "dat"
+msgid  "your oklob plant"
+msgstr "deiner Oklob-Pflanze"
+
+msgctxt "dat"
+msgid  "your bush"
+msgstr "deinem Busch"
+
+msgctxt "dat"
+msgid  "your burning bush"
+msgstr "deinem brennenden Busch"
+
+msgctxt "dat"
+msgid  "your toadstool"
+msgstr "deinem Giftpilz"
+
+msgctxt "dat"
+msgid  "your fungus"
+msgstr "deinem Pilz"
+
+msgctxt "dat"
+msgid  "your ballistomycete"
+msgstr "deinem Ballistomyceten"
+
+msgctxt "dat"
+msgid  "your hyperactive ballistomycete"
+msgstr "deinem hyperaktiven Ballistomyceten"
+
+msgctxt "dat"
+msgid  "your briar patch"
+msgstr "deinem Dornstrauch"
+
+msgctxt "dat"
+msgid  "your tengu"
+msgstr "deinem Tengu"
+
+msgctxt "dat"
+msgid  "your tengu conjurer"
+msgstr "deinem Tengu-Zauberer"
+
+msgctxt "dat"
+msgid  "your tengu warrior"
+msgstr "deinem Tengu-Krieger"
+
+msgctxt "dat"
+msgid  "your tengu reaver"
+msgstr "deinem Tengu-Häscher"
+
+msgctxt "dat"
+msgid  "your efreet"
+msgstr "deinem Efreet"
+
+msgctxt "dat"
+msgid  "your rakshasa"
+msgstr "deinem Rakshasa"
+
+msgctxt "dat"
+msgid  "your dryad"
+msgstr "deiner Dryade"
+
+msgctxt "dat"
+msgid  "your snaplasher vine"
+msgstr "deiner Peitscherrebe"
+
+msgctxt "dat"
+msgid  "your snaplasher vine segment"
+msgstr "deinem Peitscherrebesegment"
+
+msgctxt "dat"
+msgid  "your snake"
+msgstr "deiner Schlange"
+
+msgctxt "dat"
+msgid  "your ball python"
+msgstr "deiner Kugelpython"
+
+msgctxt "dat"
+msgid  "your adder"
+msgstr "deiner Kreuzotter"
+
+msgctxt "dat"
+msgid  "your water moccasin"
+msgstr "deinem Wassermokassin"
+
+msgctxt "dat"
+msgid  "your black mamba"
+msgstr "deiner schwarzen Mamba"
+
+msgctxt "dat"
+msgid  "your sea snake"
+msgstr "deiner Seeschlange"
+
+msgctxt "dat"
+msgid  "your anaconda"
+msgstr "deiner Anakonda"
+
+msgctxt "dat"
+msgid  "your guardian serpent"
+msgstr "deiner Wächter-Schlange"
+
+msgctxt "dat"
+msgid  "your shock serpent"
+msgstr "deiner Schockschlange"
+
+msgctxt "dat"
+msgid  "your mana viper"
+msgstr "deiner Manaviper"
+
+msgctxt "dat"
+msgid  "your troll"
+msgstr "deinem Troll"
+
+msgctxt "dat"
+msgid  "your iron troll"
+msgstr "deinem Eisentroll"
+
+msgctxt "dat"
+msgid  "your deep troll"
+msgstr "deinem Tiefentroll"
+
+msgctxt "dat"
+msgid  "your deep troll earth mage"
+msgstr "deinem Tiefentroll-Erdmagier"
+
+msgctxt "dat"
+msgid  "your deep troll shaman"
+msgstr "deinem Tiefentroll-Schamanen"
+
+msgctxt "dat"
+msgid  "your vampire"
+msgstr "deinem Vampir"
+
+msgctxt "dat"
+msgid  "your vampire knight"
+msgstr "deinem Vampir-Ritter"
+
+msgctxt "dat"
+msgid  "your vampire mage"
+msgstr "deinem Vampir-Magier"
+
+msgctxt "dat"
+msgid  "your jiangshi"
+msgstr "deinem Jiangshi"
+
+msgctxt "dat"
+msgid  "your ghost"
+msgstr "deinem Gespenst"
+
+msgctxt "dat"
+msgid  "your phantom"
+msgstr "deinem Phantom"
+
+msgctxt "dat"
+msgid  "your hungry ghost"
+msgstr "deinem hungrigen Geisten"
+
+msgctxt "dat"
+msgid  "your flayed ghost"
+msgstr "deinem enthäuteten Geisten"
+
+msgctxt "dat"
+msgid  "your player ghost"
+msgstr "deinem Spielergeisten"
+
+msgctxt "dat"
+msgid  "your shadow"
+msgstr "deinem Schatten"
+
+msgctxt "dat"
+msgid  "your silent spectre"
+msgstr "deinem stillen Gespenst"
+
+msgctxt "dat"
+msgid  "your drowned soul"
+msgstr "deiner ertrunkenen Seele"
+
+msgctxt "dat"
+msgid  "your wraith"
+msgstr "deinem Geisten"
+
+msgctxt "dat"
+msgid  "your shadow wraith"
+msgstr "deinem Schattengeisten"
+
+msgctxt "dat"
+msgid  "your freezing wraith"
+msgstr "deinem Frostgeisten"
+
+msgctxt "dat"
+msgid  "your eidolon"
+msgstr "deinem Eidolon"
+
+msgctxt "dat"
+msgid  "your phantasmal warrior"
+msgstr "deinem phantastischen Krieger"
+
+msgctxt "dat"
+msgid  "your large abomination"
+msgstr "deinem großen Greuel"
+
+msgctxt "dat"
+msgid  "your thrashing horror"
+msgstr "deinem verprügelnden Grauen"
+
+msgctxt "dat"
+msgid  "your tentacled monstrosity"
+msgstr "deiner Tentakel-Monstrosität"
+
+msgctxt "dat"
+msgid  "your Orb Guardian"
+msgstr "deinem Kugelwächter"
+
+msgctxt "dat"
+msgid  "your tentacled starspawn"
+msgstr "deinem Tentakelsternbrut"
+
+msgctxt "dat"
+msgid  "your starspawn tentacle"
+msgstr "deinem Sternbruttentakel"
+
+msgctxt "dat"
+msgid  "your starspawn tentacle segment"
+msgstr "deinem Sternbruttentakelsegment"
+
+msgctxt "dat"
+msgid  "your starcursed mass"
+msgstr "deiner sternverfluchten Masse"
+
+msgctxt "dat"
+msgid  "your dream sheep"
+msgstr "deinem Traumschaf"
+
+msgctxt "dat"
+msgid  "your yak"
+msgstr "deinem Yak"
+
+msgctxt "dat"
+msgid  "your death yak"
+msgstr "deinem Todesyak"
+
+msgctxt "dat"
+msgid  "your catoblepas"
+msgstr "deiner Catoblepas"
+
+msgctxt "dat"
+msgid  "your elephant"
+msgstr "deinem Elefanten"
+
+msgctxt "dat"
+msgid  "your dire elephant"
+msgstr "deinem Schreckenselefanten"
+
+msgctxt "dat"
+msgid  "your hellephant"
+msgstr "deinem Höllefanten"
+
+msgctxt "dat"
+msgid  "your apis"
+msgstr "deiner Apis"
+
+msgctxt "dat"
+msgid  "your ice beast"
+msgstr "deiner Eisbestie"
+
+msgctxt "dat"
+msgid  "your sky beast"
+msgstr "deinem Himmelstier"
+
+msgctxt "dat"
+msgid  "your zombie"
+msgstr "deinem Zombie"
+
+msgctxt "dat"
+msgid  "your skeleton"
+msgstr "deinem Skelett"
+
+msgctxt "dat"
+msgid  "your simulacrum"
+msgstr "deinem Simulacrum"
+
+msgctxt "dat"
+msgid  "your small zombie"
+msgstr "deinem kleinen Zombie"
+
+msgctxt "dat"
+msgid  "your small skeleton"
+msgstr "deinem kleinen Skelett"
+
+msgctxt "dat"
+msgid  "your small simulacrum"
+msgstr "deinem kleinen Simulacrum"
+
+msgctxt "dat"
+msgid  "your large zombie"
+msgstr "deinem großen Zombie"
+
+msgctxt "dat"
+msgid  "your large skeleton"
+msgstr "deinem großen Skelett"
+
+msgctxt "dat"
+msgid  "your large simulacrum"
+msgstr "deinem großen Simulacrum"
+
+msgctxt "dat"
+msgid  "your spectral thing"
+msgstr "deiner spektralen Sache"
+
+msgctxt "dat"
+msgid  "your electric eel"
+msgstr "deinem Zitteraal"
+
+msgctxt "dat"
+msgid  "your kraken"
+msgstr "deinem Kraken"
+
+msgctxt "dat"
+msgid  "your tentacle"
+msgstr "deinem Tentakel"
+
+msgctxt "dat"
+msgid  "your tentacle segment"
+msgstr "deinem Tentakelsegment"
+
+msgctxt "dat"
+msgid  "your octopode"
+msgstr "deinem Oktopod"
+
+msgctxt "dat"
+msgid  "your lava snake"
+msgstr "deiner Lavaschlange"
+
+msgctxt "dat"
+msgid  "your salamander"
+msgstr "deinem Salamander"
+
+msgctxt "dat"
+msgid  "your salamander mystic"
+msgstr "deinem Salamander-Mystiker"
+
+msgctxt "dat"
+msgid  "your Hellbinder"
+msgstr "deinem Höllenbinder"
+
+msgctxt "dat"
+msgid  "your Cloud Mage"
+msgstr "deinem Wolkenmagier"
+
+msgctxt "dat"
+msgid  "your player"
+msgstr "deinem Spieler"
+
+msgctxt "dat"
+msgid  "your player illusion"
+msgstr "deiner Spieler-Illusion"
+
+msgctxt "dat"
+msgid  "your dancing weapon"
+msgstr "deiner tanzenden Waffe"
+
+msgctxt "dat"
+msgid  "your spectral weapon"
+msgstr "deiner Spektralwaffe"
+
+msgctxt "dat"
+msgid  "your eldritch tentacle"
+msgstr "deinem unheimlichen Tentakel"
+
+msgctxt "dat"
+msgid  "your eldritch tentacle segment"
+msgstr "deinem unheimlichen Tentakelsegment"
+
+msgctxt "dat"
+msgid  "your demonspawn"
+msgstr "deiner Dämonenbrut"
+
+msgctxt "dat"
+msgid  "your monstrous demonspawn"
+msgstr "deiner monströsen Dämonenbrut"
+
+msgctxt "dat"
+msgid  "your gelid demonspawn"
+msgstr "deinem geliden Dämonenbrut"
+
+msgctxt "dat"
+msgid  "your infernal demonspawn"
+msgstr "deiner höllischen Dämonenbrut"
+
+msgctxt "dat"
+msgid  "your torturous demonspawn"
+msgstr "deiner quälenden Dämonenbrut"
+
+msgctxt "dat"
+msgid  "your blood saint"
+msgstr "deinem Blutheiligen"
+
+msgctxt "dat"
+msgid  "your warmonger"
+msgstr "deinem Kriegstreiber"
+
+msgctxt "dat"
+msgid  "your corrupter"
+msgstr "deinem Korruptor"
+
+msgctxt "dat"
+msgid  "your black sun"
+msgstr "deiner schwarzen Sonne"
+
+msgctxt "dat"
+msgid  "your crimson imp"
+msgstr "deinem karminroten Teufelchen"
+
+msgctxt "dat"
+msgid  "your quasit"
+msgstr "deinem Quasit"
+
+msgctxt "dat"
+msgid  "your white imp"
+msgstr "deinem weißen Teufelchen"
+
+msgctxt "dat"
+msgid  "your ufetubus"
+msgstr "deinem Ufetubus"
+
+msgctxt "dat"
+msgid  "your iron imp"
+msgstr "deinem Eisenteufelchen"
+
+msgctxt "dat"
+msgid  "your shadow imp"
+msgstr "deinem Schattenteufelchen"
+
+msgctxt "dat"
+msgid  "your rust devil"
+msgstr "deinem Rostteufel"
+
+msgctxt "dat"
+msgid  "your orange demon"
+msgstr "deinem orangen Dämon"
+
+msgctxt "dat"
+msgid  "your red devil"
+msgstr "deinem roten Teufel"
+
+msgctxt "dat"
+msgid  "your hellwing"
+msgstr "deinem Höllenflügel"
+
+msgctxt "dat"
+msgid  "your ice devil"
+msgstr "deinem Eisteufel"
+
+msgctxt "dat"
+msgid  "your chaos spawn"
+msgstr "deiner Chaosbrut"
+
+msgctxt "dat"
+msgid  "your sun demon"
+msgstr "deinem Sonnendämon"
+
+msgctxt "dat"
+msgid  "your soul eater"
+msgstr "deinem Seelenfresser"
+
+msgctxt "dat"
+msgid  "your smoke demon"
+msgstr "deinem Rauchdämon"
+
+msgctxt "dat"
+msgid  "your neqoxec"
+msgstr "deiner Neqoxec"
+
+msgctxt "dat"
+msgid  "your ynoxinul"
+msgstr "deinem Ynoxinul"
+
+msgctxt "dat"
+msgid  "your sixfirhy"
+msgstr "deinem Sixfirhy"
+
+msgctxt "dat"
+msgid  "your shadow demon"
+msgstr "deinem Schattendämon"
+
+msgctxt "dat"
+msgid  "your green death"
+msgstr "deinem grünen Tod"
+
+msgctxt "dat"
+msgid  "your blizzard demon"
+msgstr "deinem Blizzarddämon"
+
+msgctxt "dat"
+msgid  "your balrug"
+msgstr "deinem Balrug"
+
+msgctxt "dat"
+msgid  "your cacodemon"
+msgstr "deinem Cacodaemon"
+
+msgctxt "dat"
+msgid  "your hell beast"
+msgstr "deinem Höllentier"
+
+msgctxt "dat"
+msgid  "your hellion"
+msgstr "deinem Teufelsbraten"
+
+msgctxt "dat"
+msgid  "your reaper"
+msgstr "deinem Schnitter"
+
+msgctxt "dat"
+msgid  "your lorocyproca"
+msgstr "deiner Lorocyproca"
+
+msgctxt "dat"
+msgid  "your tormentor"
+msgstr "deinem Peiniger"
+
+msgctxt "dat"
+msgid  "your Brimstone Fiend"
+msgstr "deinem Schwefelunterweltler"
+
+msgctxt "dat"
+msgid  "your Ice Fiend"
+msgstr "deinem Eisunterweltler"
+
+msgctxt "dat"
+msgid  "your Tzitzimitl"
+msgstr "deinem Tzitzimitl"
+
+msgctxt "dat"
+msgid  "your Hell Sentinel"
+msgstr "deinem Höllenwächter"
+
+msgctxt "dat"
+msgid  "your Executioner"
+msgstr "deinem Scharfrichter"
+
+msgctxt "dat"
+msgid  "your animated tree"
+msgstr "deinem animierten Baum"
+
+msgctxt "dat"
+msgid  "your golem"
+msgstr "deinem Golem"
+
+msgctxt "dat"
+msgid  "your saltling"
+msgstr "deinem Salzling"
+
+msgctxt "dat"
+msgid  "your peacekeeper"
+msgstr "deinem Friedenshüter"
+
+msgctxt "dat"
+msgid  "your iron golem"
+msgstr "deinem Eisengolem"
+
+msgctxt "dat"
+msgid  "your crystal guardian"
+msgstr "deinem Kristallwächter"
+
+msgctxt "dat"
+msgid  "your toenail golem"
+msgstr "deinem Zehennagelgolem"
+
+msgctxt "dat"
+msgid  "your electric golem"
+msgstr "deinem Blitzgolem"
+
+msgctxt "dat"
+msgid  "your ushabti"
+msgstr "deiner Uschabti"
+
+msgctxt "dat"
+msgid  "your guardian golem"
+msgstr "deinem Wächtergolem"
+
+msgctxt "dat"
+msgid  "your spellforged servitor"
+msgstr "deinem zaubergeschmeideten Diener"
+
+msgctxt "dat"
+msgid  "your ice statue"
+msgstr "deiner Eisstatue"
+
+msgctxt "dat"
+msgid  "your obsidian statue"
+msgstr "deiner Obsidianstatue"
+
+msgctxt "dat"
+msgid  "your orange crystal statue"
+msgstr "deiner orangen Kristallstatue"
+
+msgctxt "dat"
+msgid  "your statue"
+msgstr "deiner Statue"
+
+msgctxt "dat"
+msgid  "your training dummy"
+msgstr "deiner Trainingspuppe"
+
+msgctxt "dat"
+msgid  "your pillar of salt"
+msgstr "deiner Säule des Salzes"
+
+msgctxt "dat"
+msgid  "your block of ice"
+msgstr "deinem Eisblock"
+
+msgctxt "dat"
+msgid  "your diamond obelisk"
+msgstr "deinem Diamantobelisk"
+
+msgctxt "dat"
+msgid  "your lightning spire"
+msgstr "deinem Blitzturm"
+
+msgctxt "dat"
+msgid  "your gargoyle"
+msgstr "deinem Gargoyle"
+
+msgctxt "dat"
+msgid  "your war gargoyle"
+msgstr "deinem Kriegsgargoyle"
+
+msgctxt "dat"
+msgid  "your molten gargoyle"
+msgstr "deinem geschmolzenen Gargoyle"
+
+msgctxt "dat"
+msgid  "your pandemonium lord"
+msgstr "deinem Pandemoniumsherrn"
+
+msgctxt "dat"
+msgid  "your hell lord"
+msgstr "deinem Höllenherrn"
+
+msgctxt "dat"
+msgid  "your ball lightning"
+msgstr "deinem Kugelblitz"
+
+msgctxt "dat"
+msgid  "your ballistomycete spore"
+msgstr "deiner Ballistomycetenspore"
+
+msgctxt "dat"
+msgid  "your lost soul"
+msgstr "deiner verlorenen Seele"
+
+msgctxt "dat"
+msgid  "your lurking horror"
+msgstr "deinem lauernden Grauen"
+
+msgctxt "dat"
+msgid  "your orb of fire"
+msgstr "deiner Feuerkugel"
+
+msgctxt "dat"
+msgid  "your orb of destruction"
+msgstr "deiner Kugel der Zerstörung"
+
+msgctxt "dat"
+msgid  "your fulminant prism"
+msgstr "deinem fulminanten Prisma"
+
+msgctxt "dat"
+msgid  "your wretched star"
+msgstr "deinem elenden Stern"
+
+msgctxt "dat"
+msgid  "your battlesphere"
+msgstr "deiner Kampfsphäre"
+
+msgctxt "dat"
+msgid  "your death cob"
+msgstr "deinem Todeskolben"
+
+msgctxt "dat"
+msgid  "your moon troll"
+msgstr "deinem Mondtroll"
+
+msgctxt "dat"
+msgid  "your foxfire"
+msgstr "deinem Fuchsfeuer"
+
+msgctxt "dat"
+msgid  "your nameless horror"
+msgstr "deinem namenlosen Horror"
+
+msgctxt "dat"
+msgid  "your sensed monster"
+msgstr "deinem gespürten Monster"
+
+msgctxt "dat"
+msgid  "your friendly sensed monster"
+msgstr "deinem freundlichen gespürten Monster"
+
+msgctxt "dat"
+msgid  "your trivial sensed monster"
+msgstr "deinem trivialen gespürten Monster"
+
+msgctxt "dat"
+msgid  "your easy sensed monster"
+msgstr "deinem leichten gespürten Monster"
+
+msgctxt "dat"
+msgid  "your tough sensed monster"
+msgstr "deinem harten gespürten Monster"
+
+msgctxt "dat"
+msgid  "your nasty sensed monster"
+msgstr "deinem furchtbaren gespürten Monster"
+
