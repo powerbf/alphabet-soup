@@ -6288,7 +6288,7 @@ string bolt::get_short_name() const
 
     if (item != nullptr && item->defined())
     {
-        return item->name(DESC_A, false, false, false, false,
+        return item->name(DESC_A, false, false, false,
                           ISFLAG_IDENT_MASK | ISFLAG_COSMETIC_MASK);
     }
 

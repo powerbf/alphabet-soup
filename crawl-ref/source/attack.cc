@@ -1019,7 +1019,7 @@ string attack::wep_name(description_level_type desc, iflags_t ignre_flags)
     ASSERT(weapon != nullptr);
 
     if (attacker->is_player())
-        return weapon->name(desc, false, false, false, false, ignre_flags);
+        return weapon->name(desc, false, false, false, ignre_flags);
 
     string name;
     bool possessive = false;
@@ -1032,7 +1032,7 @@ string attack::wep_name(description_level_type desc, iflags_t ignre_flags)
     if (possessive)
         name = apostrophise(atk_name(desc)) + " ";
 
-    name += weapon->name(DESC_PLAIN, false, false, false, false, ignre_flags);
+    name += weapon->name(DESC_PLAIN, false, false, false, ignre_flags);
 
     return name;
 }

@@ -1687,8 +1687,8 @@ static bool _swap_rings(const item_def& to_puton)
     }
     else if (available == 0)
     {
-        mprf("You're already wearing %s cursed ring%s!%s",
-             number_in_words(cursed).c_str(),
+        mprf("You're already wearing %d cursed ring%s!%s",
+             cursed,
              (cursed == 1 ? "" : "s"),
              (cursed > 2 ? " Isn't that enough for you?" : ""));
         return false;
@@ -1857,8 +1857,8 @@ static bool _can_puton_jewellery(const item_def &item)
         if (melded == (int)slots.size())
             mpr("You can't wear that in your present form.");
         else
-            mprf("You're already wearing %s cursed ring%s!%s",
-                 number_in_words(cursed).c_str(),
+            mprf("You're already wearing %d cursed ring%s!%s",
+                 cursed,
                  (cursed == 1 ? "" : "s"),
                  (cursed > 2 ? " Isn't that enough for you?" : ""));
         return false;

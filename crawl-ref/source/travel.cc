@@ -4688,8 +4688,7 @@ void explore_discoveries::add_item(const item_def &i)
         if (cname == item.thing.name(DESC_PLAIN))
         {
             item.thing.quantity = orig_quantity + i.quantity;
-            item.name = item.thing.name(DESC_A, false, false, true,
-                                        !is_stackable_item(i));
+            item.name = item.thing.name(DESC_A, false, false, true);
             return;
         }
         item.thing.quantity = orig_quantity;
@@ -4775,7 +4774,7 @@ template <class C> void explore_discoveries::say_any(
 
     if (has_duplicates(coll.begin(), coll.end()))
     {
-        mprf("Found %s %s.", number_in_words(size).c_str(), category);
+        mprf("Found %d %s.", size, category);
         return;
     }
 
@@ -4783,7 +4782,7 @@ template <class C> void explore_discoveries::say_any(
                            comma_separated_line(coll.begin(), coll.end()) + ".");
 
     if (message.width() >= get_number_of_cols())
-        mprf("Found %s %s.", number_in_words(size).c_str(), category);
+        mprf("Found %d %s.", size, category);
     else
         mpr(message);
 }
@@ -4804,7 +4803,7 @@ vector<string> explore_discoveries::apply_quantities(
             things.push_back(article_a(nt.name));
         else
         {
-            things.push_back(number_in_words(nt.thing)
+            things.push_back(to_string(nt.thing)
                              + " "
                              + pluralise(nt.name, feature_plural_qualifiers));
         }
