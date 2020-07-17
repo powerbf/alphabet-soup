@@ -2369,9 +2369,9 @@ static void _recharge_xp_evokers(int exp)
             mprf("%s has recharged.", evoker->name(DESC_YOUR).c_str());
         else
         {
-            mprf("%s has regained %s charge%s.",
+            mprf("%s has regained %d charge%s.",
                  evoker->name(DESC_YOUR).c_str(),
-                 number_in_words(gained).c_str(), gained > 1 ? "s" : "");
+                 gained, gained > 1 ? "s" : "");
         }
     }
 }
@@ -6414,8 +6414,8 @@ string player::no_tele_reason(bool calc_unid, bool blinking) const
         if (worn_notele.size() > (problems.empty() ? 3 : 1))
         {
             problems.push_back(
-                make_stringf("wearing %s %s preventing teleportation",
-                             number_in_words(worn_notele.size()).c_str(),
+                make_stringf("wearing %d %s preventing teleportation",
+                             worn_notele.size(),
                              found_nonartefact ? "items": "artefacts"));
         }
         else if (!worn_notele.empty())

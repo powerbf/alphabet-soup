@@ -3111,7 +3111,7 @@ static string _player_spell_desc(spell_type spell)
     const int limit = summons_limit(spell);
     if (limit)
     {
-        description << "You can sustain at most " + number_in_words(limit)
+        description << "You can sustain at most " + limit
                     << " creature" << (limit > 1 ? "s" : "")
                     << " summoned by this spell.\n";
     }
@@ -3750,10 +3750,12 @@ static string _monster_attacks_description(const monster_info& mi)
                         mi.pronoun(PRONOUN_POSSESSIVE), weapon_name.c_str())
             : "";
 
-        const string count_desc =
-              attack_count.second == 1 ? "" :
-              attack_count.second == 2 ? " twice" :
-              " " + number_in_words(attack_count.second) + " times";
+        ostringstream buff;
+        if (attack_count.second == 2)
+            buff << " twice";
+        else if (attack_count.second > 2)
+            buff << " " << attack_count.second << " times";
+        const string count_desc = buff.str();
 
         // XXX: hack alert
         if (attack.flavour == AF_PURE_FIRE)
@@ -3814,7 +3816,7 @@ static string _monster_missiles_description(const monster_info& mi)
     string desc;
     desc += uppercase_first(mi.pronoun(PRONOUN_SUBJECTIVE));
     desc += mi.pronoun_plurality() ? " are quivering " : " is quivering ";
-    desc += missile->name(DESC_A, false, false, true, false, ISFLAG_KNOW_CURSE);
+    desc += missile->name(DESC_A, false, false, true, ISFLAG_KNOW_CURSE);
     desc += ".\n";
     return desc;
 }

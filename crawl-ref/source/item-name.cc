@@ -127,8 +127,7 @@ static string _item_inscription(const item_def &item)
 }
 
 string item_def::name(description_level_type descrip, bool terse, bool ident,
-                      bool with_inscription, bool quantity_in_words,
-                      iflags_t ignore_flags) const
+                      bool with_inscription, iflags_t ignore_flags) const
 {
     if (crawl_state.game_is_arena())
     {
@@ -216,10 +215,7 @@ string item_def::name(description_level_type descrip, bool terse, bool ident,
         if (descrip != DESC_BASENAME && descrip != DESC_QUALNAME
             && descrip != DESC_DBNAME && !always_plural)
         {
-            if (quantity_in_words)
-                buff << number_in_words(quantity) << " ";
-            else
-                buff << quantity << " ";
+            buff << quantity << " ";
         }
     }
     else
