@@ -16,7 +16,7 @@ const string& get_xlate_language();
 
 // translate with domain and context
 //
-// domain = translation file (optional, default="messages")
+// domain = translation file (optional, default="strings")
 // context = the context in which the text is being used (optional, default=none)
 //  (for disambiguating same English text used in different contexts which may require different translations)
 //  if no translation is found in the specified context, will look for translation at global (no) context

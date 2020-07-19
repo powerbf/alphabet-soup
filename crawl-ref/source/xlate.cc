@@ -40,7 +40,7 @@ string dcnxlate(const string &domain, const string &context,
 #include <libintl.h>
 
 static const char GETTEXT_CTXT_GLUE = '\004';
-static const string DEFAULT_DOMAIN = "messages";
+static const string DEFAULT_DOMAIN = "strings";
 
 static string language;
 
@@ -54,7 +54,7 @@ void init_xlate(const string &lang)
     language = lang;
     setenv("LANGUAGE", language.c_str(), 1);
 
-    bindtextdomain("messages", "./dat/locale");
+    bindtextdomain("strings", "./dat/locale");
 
     // set default domain
     textdomain(DEFAULT_DOMAIN.c_str());
@@ -73,7 +73,7 @@ static inline bool skip_translation()
 
 // translate with domain and context
 //
-// domain = translation file (optional, default="messages")
+// domain = translation file (optional, default="strings")
 // context = the context in which the text is being used (optional, default=none)
 //  (for disambiguating same English text used in different contexts which may require different translations)
 //  if no translation is found in the specified context, will look for translation at global (no) context
@@ -121,7 +121,7 @@ string dcxlate(const string &domain, const string &context, const string &msgid)
 // translate with domain, context and number
 // select the plural form corresponding to number
 //
-// domain = translation file (optional, default="messages")
+// domain = translation file (optional, default="strings")
 // context = the context in which the text is being used (optional, default=none)
 //  (for disambiguating same English text used in different contexts which may require different translations)
 //  if no translation is found in the specified context, will look for translation at global (no) context
