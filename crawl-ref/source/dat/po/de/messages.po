@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 ###############################
-# Canned messages
+# Canned messages (message.cc)
 ###############################
 
 msgid "Something appears at your feet!"
@@ -164,7 +164,7 @@ msgid "Your god isn't willing to do this for you now."
 msgstr "Dein Gott ist nicht bereit, das jetzt für dich zu tun."
 
 ###############################
-# Misc
+# More prompt (message.cc)
 ###############################
 
 msgid "--more--"
@@ -175,6 +175,235 @@ msgstr "--mehr-- Drücke Leertaste weiterzumachen. Mit Ctrl-P kannst du Nachrich
 
 msgid "--more-- Press Space or click to continue. You can later reread messages with Ctrl-P."
 msgstr "--mehr-- Drücke Leertaste oder klicke weiterzumachen. Mit Ctrl-P kannst du Nachrichten später nochmal lesen."
+
+###############################
+# attack.cc
+###############################
+# Note: The extra %s at the end of some of these is a placeholder for 
+# attack stength punctuation (see below)
+
+
+# attack::distortion_affects_defender()
+
+msgid "Space bends around you."
+msgstr "Der Raum biegt sich um dich herum."
+
+msgid "Space bends around %s."
+msgstr "Der Raum biegt sich um {acc}%s herum."
+
+#, c-format
+msgid "Space warps horribly around you%s"
+msgstr "Der Raum verzieht sich schrecklich um dich herum%s"
+
+#, c-format
+msgid "Space warps horribly around %s%s"
+msgstr "Der Raum verzieht sich schrecklich um {acc}%s herum%s"
+
+
+# attack::pain_affects_defender()
+
+msgid "You writhe in agony%s"
+msgstr "Du krümmst dich vor Qual%s"
+
+#, c-format
+msgid "%s writhes in agony%s"
+msgstr "%s krümmt sich vor Qual%s"
+
+
+# attack::chaos_affects_defender()
+
+msgid "%s protects you from inadvertent hurry."
+msgstr "%s schützt dich vor versehentlicher Eile."
+
+
+# attack::drain_defender()
+
+#, c-format
+msgid "You drain %s%s"
+msgstr "%s entleerst {acc}%s%s"
+
+#, c-format
+msgid "%s drains you%s"
+msgstr "%s entleerst dich%s"
+
+#, c-format
+msgid "%s drains %s%s"
+msgstr "%s entleerst {acc}%s%s"
+
+
+# attack::drain_defender_speed()
+
+msgid "You drain %s vigour!"
+msgstr "Du erschöpfst die Vitalität {gen}%s!"
+
+msgid "%s drains your vigour!"
+msgstr "%s erschöpft deine Vitalität!"
+
+msgid "%s drains %s vigour!"
+msgstr "%s erschöpft die Vitalität {gen}%s!"
+
+
+# attack_strength_punctuation()
+# Exclamation marks show amount of damage.
+# The %s is a placeholder for the sentence. It's done this way
+# because some languages don't simply append punctuation to the end.
+# For example, in Spanish, you would translate "%s!" as "¡%s!"
+# It may seem odd that the sentences and punctuation both have a placeholder
+# for the other, but trust me, it will work out!
+
+#, c-format
+msgid "%s!"
+msgstr "%s!"
+
+#, c-format
+msgid "%s!!"
+msgstr "%s!!"
+
+#, c-format
+msgid "%s!!!"
+msgstr "%s!!!"
+
+#, c-format
+msgid "%s!!!!"
+msgstr "%s!!!!"
+
+#, c-format
+msgid "%s!!!!!"
+msgstr "%s!!!!!"
+
+#, c-format
+msgid "%s!!!!!!"
+msgstr "%s!!!!!!"
+
+#, c-format
+msgid "%s!!!!!!!"
+msgstr "%s!!!!!!!"
+
+#, c-format
+msgid "%s!!!!!!!!"
+msgstr "%s!!!!!!!!"
+
+#, c-format
+msgid "%s!!!!!!!!!"
+msgstr "%s!!!!!!!!!"
+
+#, c-format
+msgid "%s!!!!!!!!!!"
+msgstr "%s!!!!!!!!!!"
+
+
+# attack::stab_message()
+
+#, c-format
+msgid "You pounce on %s from a blind spot!"
+msgstr "Du stürzt dich von einem blinden Fleck auf {acc}%s!"
+
+#, c-format
+msgid "You strike %s from a blind spot!"
+msgstr "Du schlägst {acc}%s aus einem blinden Fleck!"
+
+#, c-format
+msgid "You catch %s momentarily off-guard."
+msgstr "Du erwischst {acc}%s für einen Moment unachtsam."
+
+#, c-format
+msgid "You catch %s completely off-guard!"
+msgstr "Du erwischst {acc}%s völlig unachtsam!"
+
+#, c-format
+msgid "You pounce on %s from behind!"
+msgstr "Du stürzt dich von hinten auf {acc}%s!"
+
+#, c-format
+msgid "You strike %s from behind!"
+msgstr "Du schlägst {acc}%s von hinten!"
+
+#, c-format
+msgid "You pounce on %s unawares!"
+msgstr "Du stürzt dich unversehens auf {acc}%s!"
+
+#, c-format
+msgid "%s fails to defend against your attack."
+msgstr "%s versagt bei der Verteidigung gegen dein Angriff."
+
+
+# attack::attack_shield_blocked()
+
+#, c-format
+msgid "You block %s attack."
+msgstr "Du blockierst den Angriff {gen}%s."
+
+#, c-format
+msgid "%s blocks your attack."
+msgstr "%s blockiert deinen Angriff."
+
+#, c-format
+msgid "%s blocks %s attack."
+msgstr "%s blockiert den Angriff {gen}%s."
+
+
+# attack::apply_damage_brand()
+
+msgid "You convulse%s"
+msgstr "Du krümmst dich%s"
+
+#, c-format
+msgid "%s convulses%s"
+msgstr "%s krümmt sich%s"
+
+# "You are electrocuted%s" covered elsewhere
+
+#, c-format
+msgid "Lightning courses through %s"
+msgstr "Blitzen fließt durch %s"
+
+#, c-format
+msgid "%s draws strength from your wounds!"
+msgstr "%s schöpft Kraft aus deinen Wunden!"
+
+#, c-format
+msgid "%s is healed."
+msgstr "%s ist geheilt."
+
+
+# attack::calc_elemental_brand_damage()
+
+#, c-format
+msgid "You burn %s%s"
+msgstr "Du brennst {acc}%s%s"
+
+#, c-format
+msgid "%s burns you%s"
+msgstr "%s brennt dich%s"
+
+#, c-format
+msgid "%s burns %s%s"
+msgstr "%s brennt {acc}%s%s"
+
+#, c-format
+msgid "You melt %s%s"
+msgstr "Du schmilzt {acc}%s%s"
+
+#, c-format
+msgid "%s melts you%s"
+msgstr "%s schmilzt dich%s"
+
+#, c-format
+msgid "%s melts %s%s"
+msgstr "%s schmilzt {acc}%s%s"
+
+#, c-format
+msgid "You freeze %s%s"
+msgstr "Du frierst {acc}%s ein%s"
+
+#, c-format
+msgid "%s freezes you%s"
+msgstr "%s friert dich ein%s"
+
+#, c-format
+msgid "%s freezes %s%s"
+msgstr "%s friert {acc}%s ein%s"
+
 
 ###############################################################################
 # Player hits
@@ -453,52 +682,6 @@ msgstr "Du zerquetschst {acc}%s wie die sprichwörtliche Ameise%s"
 msgid "You punish %s, causing immense pain%s"
 msgstr "Du bestrafst {acc}%s und verursachst heftigen Schmerz%s"
 
-# Exclamation marks show amount of damage.
-# The %s is a placeholder for the sentence. It's done this way
-# because some languages don't simply append punctuation to the end.
-# For example, in Spanish, you would translate "%s!" as "¡%s!"
-# It may seem odd that the sentences and punctuation both have a placeholder
-# for the other, but trust me, it will work out!
-
-#, c-format
-msgid "%s!"
-msgstr "%s!"
-
-#, c-format
-msgid "%s!!"
-msgstr "%s!!"
-
-#, c-format
-msgid "%s!!!"
-msgstr "%s!!!"
-
-#, c-format
-msgid "%s!!!!"
-msgstr "%s!!!!"
-
-#, c-format
-msgid "%s!!!!!"
-msgstr "%s!!!!!"
-
-#, c-format
-msgid "%s!!!!!!"
-msgstr "%s!!!!!!"
-
-#, c-format
-msgid "%s!!!!!!!"
-msgstr "%s!!!!!!!"
-
-#, c-format
-msgid "%s!!!!!!!!"
-msgstr "%s!!!!!!!!"
-
-#, c-format
-msgid "%s!!!!!!!!!"
-msgstr "%s!!!!!!!!!"
-
-#, c-format
-msgid "%s!!!!!!!!!!"
-msgstr "%s!!!!!!!!!!"
 
 # (You hit in some way), but do no damage.
 msgid ", but do no damage."
@@ -1335,13 +1518,7 @@ msgstr "Du bekommst einen elektrischen Schlag%s"
 msgid "%s is electrocuted%s"
 msgstr "%s bekommt einen elektrischen Schlag%s"
 
-#, c-format
-msgid "You freeze %s%s"
-msgstr "Du frierst %s ein%s"
-
-#, c-format
-msgid "%s freezes %s%s"
-msgstr "%s friert %s ein%s"
+# burn and freeze already covered under attack.cc
 
 # attack with staff of earth
 #, c-format
@@ -1351,22 +1528,6 @@ msgstr "Du zerdrückst %s"
 #, c-format
 msgid "%s crushes %s"
 msgstr "%s zerdrückt %s"
-
-#, c-format
-msgid "You burn %s%s"
-msgstr "Du brennst %s%s"
-
-#, c-format
-msgid "%s burns %s%s"
-msgstr "%s brennt %s%s"
-
-#, c-format
-msgid "You melt %s%s"
-msgstr "Du schmilzt %s%s"
-
-#, c-format
-msgid "%s melts %s%s"
-msgstr "%s schmilzt %s%s"
 
 #, c-format
 msgid "You sear %s"
@@ -1383,13 +1544,6 @@ msgstr "Du vergiftest %s"
 #, c-format
 msgid "%s envenoms %s"
 msgstr "%s vergiftet %s"
-
-msgid "You writhe in agony%s"
-msgstr "Du krümmst dich vor Qual%s"
-
-#, c-format
-msgid "%s writhes in agony%s"
-msgstr "%s krümmt sich vor Qual%s"
 
 msgid "You are covered in liquid flames%s"
 msgstr "Du bist in flüssigen Flammen bedeckt%s"
@@ -1424,14 +1578,6 @@ msgstr "%s nimmt Kraft von den Verletzungen {gen}%s"
 #, c-format
 msgid "%s drowns %s"
 msgstr "%s ertränkt {acc}%s"
-
-#, c-format
-msgid "You drain %s%s"
-msgstr "%s entleerst {acc}%s%s"
-
-#, c-format
-msgid "%s drains %s%s"
-msgstr "%s entleerst {acc}%s%s"
 
 ############################################################
 # Special damage - with punctuation because will NOT have
@@ -1567,77 +1713,6 @@ msgstr "Du beißt {acc}%s und ziehst Blut!"
 #, c-format
 msgid "You draw %s blood!"
 msgstr "Du ziehst das Blut {gen}%s!"
-
-msgid "Space bends around %s."
-msgstr "Der Raum biegt sich um {acc}%s herum."
-
-# final %s will be replaced with exclamation marks
-#, c-format
-msgid "Space warps horribly around %s%s"
-msgstr "Der Raum verzieht sich schrecklich um {acc}%s herum%s"
-
-#, c-format
-msgid "You pounce on %s from a blind spot!"
-msgstr "Du stürzt dich von einem blinden Fleck auf {acc}%s!"
-
-#, c-format
-msgid "You strike %s from a blind spot!"
-msgstr "Du schlägst {acc}%s aus einem blinden Fleck!"
-
-#, c-format
-msgid "You catch %s momentarily off-guard."
-msgstr "Du erwischst {acc}%s für einen Moment unachtsam."
-
-#, c-format
-msgid "You catch %s completely off-guard!"
-msgstr "Du erwischst {acc}%s völlig unachtsam!"
-
-#, c-format
-msgid "You pounce on %s from behind!"
-msgstr "Du stürzt dich von hinten auf {acc}%s!"
-
-#, c-format
-msgid "You strike %s from behind!"
-msgstr "Du schlägst {acc}%s von hinten!"
-
-#, c-format
-msgid "You pounce on %s unawares!"
-msgstr "Du stürzt dich unversehens auf {acc}%s!"
-
-#, c-format
-msgid "%s fails to defend against your attack."
-msgstr "%s versagt bei der Verteidigung gegen dein Angriff."
-
-#, c-format
-msgid "You block %s attack."
-msgstr "Du blockierst den Angriff {gen}%s."
-
-#, c-format
-msgid "%s blocks your attack."
-msgstr "%s blockiert deinen Angriff."
-
-#, c-format
-msgid "%s blocks %s attack."
-msgstr "%s blockiert den Angriff {gen}%s."
-
-msgid "You convulse%s"
-msgstr "Du krümmst dich%s"
-
-#, c-format
-msgid "%s convulses%s"
-msgstr "%s krümmt sich%s"
-
-#, c-format
-msgid "Lightning courses through %s"
-msgstr "Blitzen fließt durch %s"
-
-#, c-format
-msgid "%s draws strength from your wounds!"
-msgstr "%s schöpft Kraft aus deinen Wunden!"
-
-#, c-format
-msgid "%s is healed."
-msgstr "%s ist geheilt."
 
 ################################
 # Other combat

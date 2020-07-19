@@ -479,15 +479,20 @@ bool attack::distortion_affects_defender()
         special_damage += 1 + random2avg(7, 2);
         // No need to call attack_strength_punctuation here,
         // since special damage < 7, so it will always return "."
-        special_damage_message = localize("Space bends around %s.",
-                                              defender_name(false));
+        special_damage_message =
+            defender->is_player()
+            ? localize("Space bends around you.")
+            : localize("Space bends around %s.", defender_name(false));
         break;
     case BIG_DMG:
         special_damage += 3 + random2avg(24, 2);
         special_damage_message =
-            localize("Space warps horribly around %s%s",
-                         defender_name(false),
-                         attack_strength_punctuation(special_damage));
+            defender->is_player()
+            ? localize("Space warps horribly around you%s",
+                       attack_strength_punctuation(special_damage).c_str())
+            : localize("Space warps horribly around %s%s",
+                       defender_name(false).c_str(),
+                       attack_strength_punctuation(special_damage).c_str());
         break;
     case BLINK:
         if (defender_visible)
@@ -856,6 +861,11 @@ void attack::drain_defender()
                 mprf("You drain %s%s", defender_name(true).c_str(),
                      punctuation.c_str());
             }
+            else if (defender->is_player())
+            {
+                mprf("%s drains you%s", atk_name(DESC_THE).c_str(),
+                     punctuation.c_str());
+            }
             else
             {
                 mprf("%s drains %s%s", atk_name(DESC_THE).c_str(),
@@ -869,8 +879,16 @@ void attack::drain_defender_speed()
 {
     if (needs_message)
     {
-        print_simple_message(atk_name(DESC_THE), "drain",
-                             def_name(DESC_THE), "vigour!");
+        // attacker should never be player here, but just in case something changes...
+        if (attacker->is_player())
+            mprf("You drain %s vigour!", def_name(DESC_ITS).c_str());
+        else if (defender->is_player())
+            mprf("%s drains your vigour!", atk_name(DESC_THE).c_str());
+        else
+        {
+            mprf("%s drains %s vigour!",
+                 atk_name(DESC_THE).c_str(), def_name(DESC_ITS).c_str());
+        }
     }
     defender->slow_down(attacker, 5 + random2(7));
 }
