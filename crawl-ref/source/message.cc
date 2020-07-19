@@ -2164,6 +2164,7 @@ string god_speaker(god_type which_deity)
 // yet another wrapper for mpr() {dlb}:
 void simple_god_message(const char *event, god_type which_deity)
 {
+    // TODO: (i18n) Make this translatable
     string msg = god_speaker(which_deity) + event;
 
     god_speaks(which_deity, msg.c_str());
