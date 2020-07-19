@@ -478,7 +478,6 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
                 const type_info* type = _format_spec_to_type(fmt_spec);
                 const type_info* expected_type = type_entry->second;
 
-                string s = fmt_spec;
                 if (expected_type == NULL || type == NULL || *type != *expected_type)
                 {
                     // something's wrong - skip this arg
@@ -489,35 +488,51 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
                     string argx;
                     if (arg.translate)
                     {
-                        argx = _localize_string(context, arg.stringVal, arg.plural, arg.count);
+                        if (!arg.stringVal.empty()
+                            && arg.stringVal.find_first_not_of("!") == string::npos)
+                        {
+                            // Special handling for attack strength exclamation marks:
+                            // Some languages (e.g. Spanish) may not simply append exclamation marks at the end,
+                            // so we switch it around and make the sentence the argument for a format string containing the punctuation.
+                            string excl_fmt = cxlate(context, "%s" + arg.stringVal);
+                            string sentence = ss.str();
+                            ss.str("");
+                            ss << make_stringf(excl_fmt.c_str(), sentence.c_str());
+                        }
+                        else
+                        {
+                            argx = _localize_string(context, arg.stringVal, arg.plural, arg.count);
+                            ss << make_stringf(fmt_spec.c_str(), argx.c_str());
+                        }
                     }
                     else
                     {
                         argx = arg.stringVal;
+                        ss << make_stringf(fmt_spec.c_str(), argx.c_str());
                     }
-                    s = make_stringf(fmt_spec.c_str(), argx.c_str());
                 }
-                else if (*type == typeid(long double))
-                {
-                    s = make_stringf(fmt_spec.c_str(), arg.longDoubleVal);
+                else {
+                    if (*type == typeid(long double))
+                    {
+                        ss << make_stringf(fmt_spec.c_str(), arg.longDoubleVal);
+                    }
+                    else if (*type == typeid(double))
+                    {
+                        ss << make_stringf(fmt_spec.c_str(), arg.doubleVal);
+                    }
+                    else if (*type == typeid(long long) || *type == typeid(unsigned long long))
+                    {
+                        ss << make_stringf(fmt_spec.c_str(), arg.longLongVal);
+                    }
+                    else if (*type == typeid(long) || *type == typeid(unsigned long))
+                    {
+                        ss << make_stringf(fmt_spec.c_str(), arg.longVal);
+                    }
+                    else if (*type == typeid(int) || *type == typeid(unsigned int))
+                    {
+                        ss << make_stringf(fmt_spec.c_str(), arg.intVal);
+                    }
                 }
-                else if (*type == typeid(double))
-                {
-                    s = make_stringf(fmt_spec.c_str(), arg.doubleVal);
-                }
-                else if (*type == typeid(long long) || *type == typeid(unsigned long long))
-                {
-                    s = make_stringf(fmt_spec.c_str(), arg.longLongVal);
-                }
-                else if (*type == typeid(long) || *type == typeid(unsigned long))
-                {
-                    s = make_stringf(fmt_spec.c_str(), arg.longVal);
-                }
-                else if (*type == typeid(int) || *type == typeid(unsigned int))
-                {
-                    s = make_stringf(fmt_spec.c_str(), arg.intVal);
-                }
-                ss << s;
             }
          }
         else

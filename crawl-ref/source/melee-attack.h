@@ -114,7 +114,7 @@ private:
     void mons_apply_attack_flavour();
     bool is_reach_attack();
     string mons_attack_verb();
-    string mons_attack_desc();
+    void announce_mons_hit();
     // TODO: Unify do_poison and poison_monster
     bool mons_do_poison();
     void mons_do_napalm();
