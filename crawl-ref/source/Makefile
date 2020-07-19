@@ -1933,7 +1933,7 @@ define GEN_MO_RULE
 dat/locale/$(lang)/LC_MESSAGES/messages.mo: dat/po/$(lang)/*.po
 	@echo "    LOCALIZE $(lang)"
 	@msgcat --no-wrap -o dat/locale/$(lang)/LC_MESSAGES/messages.po $$^
-	@msgfmt --output-file=$$@ dat/locale/$(lang)/LC_MESSAGES/messages.po
+	@msgfmt -c --output-file=$$@ dat/locale/$(lang)/LC_MESSAGES/messages.po
 endef
 
 $(foreach lang,$(LANGS),$(eval $(LOCALE_DIR_RULE)))
