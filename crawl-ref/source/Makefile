@@ -1463,7 +1463,7 @@ endif
 	done
 	for LANG in $(LANGS); \
 		do mkdir -p $(datadir_fp)/dat/locale/$$LANG/LC_MESSAGES; \
-		$(COPY) dat/locale/$$LANG/LC_MESSAGES/messages.mo $(datadir_fp)/dat/locale/$$LANG/LC_MESSAGES; \
+		$(COPY) dat/locale/$$LANG/LC_MESSAGES/strings.mo $(datadir_fp)/dat/locale/$$LANG/LC_MESSAGES; \
 	done
 	mkdir -p $(datadir_fp)/dat/dist_bones
 	$(COPY) dat/dist_bones/* $(datadir_fp)/dat/dist_bones/
@@ -1922,7 +1922,7 @@ builddb: $(GAME)
 
 LANGS:=$(patsubst %/,%,$(patsubst dat/po/%,%,$(sort $(dir $(wildcard dat/po/*/)))))
 LOCALE_DIRS:=$(patsubst %,dat/locale/%/LC_MESSAGES,$(LANGS))
-MOFILES:=$(patsubst %,dat/locale/%/LC_MESSAGES/messages.mo,$(LANGS))
+MOFILES:=$(patsubst %,dat/locale/%/LC_MESSAGES/strings.mo,$(LANGS))
 
 define LOCALE_DIR_RULE
 dat/locale/$(lang)/LC_MESSAGES:
@@ -1930,10 +1930,10 @@ dat/locale/$(lang)/LC_MESSAGES:
 endef
 
 define GEN_MO_RULE
-dat/locale/$(lang)/LC_MESSAGES/messages.mo: dat/po/$(lang)/*.po
+dat/locale/$(lang)/LC_MESSAGES/strings.mo: dat/po/$(lang)/*.po
 	@echo "    LOCALIZE $(lang)"
-	@msgcat --no-wrap -o dat/locale/$(lang)/LC_MESSAGES/messages.po $$^
-	@msgfmt -c --output-file=$$@ dat/locale/$(lang)/LC_MESSAGES/messages.po
+	@msgcat --no-wrap -o dat/locale/$(lang)/LC_MESSAGES/strings.po $$^
+	@msgfmt -c --output-file=$$@ dat/locale/$(lang)/LC_MESSAGES/strings.po
 endef
 
 $(foreach lang,$(LANGS),$(eval $(LOCALE_DIR_RULE)))
