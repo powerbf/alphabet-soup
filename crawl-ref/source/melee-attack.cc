@@ -589,9 +589,11 @@ bool melee_attack::handle_phase_damaged()
 
     if (shroud_broken && needs_message)
     {
-        mprf(defender->is_player() ? MSGCH_WARN : MSGCH_PLAIN,
-             "%s shroud falls apart!",
-             def_name(DESC_ITS).c_str());
+        if (defender->is_player())
+            mprf(MSGCH_WARN, "Your shroud falls apart!");
+        else
+            mprf(MSGCH_PLAIN, "%s shroud falls apart!",
+                 def_name(DESC_ITS).c_str());
     }
 
     return true;
@@ -2507,6 +2509,11 @@ string melee_attack::get_special_hit_message(const string& verb)
         msg = localize("You " + conj_verb + " %s%s",
                        defender_name(true), punctuation);
     }
+    else if (defender->is_player())
+    {
+        msg = localize("%s " + conj_verb + " you%s",
+                       attacker->name(DESC_THE), punctuation);
+    }
     else
     {
         msg = localize("%s " + conj_verb + " %s%s", attacker->name(DESC_THE),
@@ -2536,9 +2543,15 @@ bool melee_attack::mons_do_poison()
 
     if (needs_message)
     {
-        mprf("%s poisons %s!",
-                atk_name(DESC_THE).c_str(),
-                defender_name(true).c_str());
+        if (defender->is_player())
+        {
+            mprf("%s poisons you!", atk_name(DESC_THE).c_str());
+        }
+        else
+        {
+            mprf("%s poisons %s!", atk_name(DESC_THE).c_str(),
+                 defender_name(true).c_str());
+        }
     }
 
     return true;
@@ -2797,11 +2810,6 @@ void melee_attack::mons_apply_attack_flavour()
                              attacker->name(DESC_THE).c_str(),
                              punctuation.c_str());
                     }
-                    else if (attacker->is_player())
-                    {
-                        mprf("You draw strength from %s injuries%s",
-                             def_name(DESC_ITS).c_str(), punctuation.c_str());
-                    }
                     else
                     {
                         mprf("%s draws strength from %s injuries%s",
@@ -2928,9 +2936,9 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message)
         {
-            if (attacker->is_player())
+            if (defender->is_player())
             {
-                string fmt = "You infuriate %s!";
+                string fmt = "%s infuriates you!";
                 mprf(fmt.c_str(),
                      defender_name(true).c_str());
             }
@@ -2983,10 +2991,28 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (you.can_see(*attacker) || you.can_see(*defender))
             {
-                print_simple_message(attacker->name(DESC_THE),
-                               "drain",
-                               apostrophise(defender_name(true)),
-                               spell_user ? "magic." : "power.");
+                if (defender->is_player() && spell_user)
+                {
+                    mprf("%s drains your magic.",
+                         attacker->name(DESC_THE).c_str());
+                }
+                else if (defender->is_player())
+                {
+                    mprf("%s drains your power.",
+                         attacker->name(DESC_THE).c_str());
+                }
+                else if (spell_user)
+                {
+                    mprf("%s drains %s magic.",
+                         attacker->name(DESC_THE).c_str(),
+                         defender->name(DESC_ITS).c_str());
+                }
+                else
+                {
+                    mprf("%s drains %s power.",
+                         attacker->name(DESC_THE).c_str(),
+                         defender->name(DESC_ITS).c_str());
+                }
             }
 
             monster* vine = attacker->as_monster();
@@ -3313,14 +3339,32 @@ void melee_attack::do_minotaur_retaliation()
                 mprf("%s furiously retaliates!", defname.c_str());
                 if (hurt <= 0)
                 {
-                    mprf("%s headbutts %s, but does no damage.", defname.c_str(),
-                         attacker->name(DESC_THE).c_str());
+                    if (attacker->is_player())
+                    {
+                        mprf("%s headbutts you, but does no damage.",
+                             defname.c_str());
+                    }
+                    else
+                    {
+                        mprf("%s headbutts %s, but does no damage.",
+                             defname.c_str(),
+                             attacker->name(DESC_THE).c_str());
+                    }
                 }
                 else
                 {
-                    mprf("%s headbutts %s%s", defname.c_str(),
-                         attacker->name(DESC_THE).c_str(),
-                         attack_strength_punctuation(hurt).c_str());
+                    if (attacker->is_player())
+                    {
+                        mprf("%s headbutts you%s",
+                             attacker->name(DESC_THE).c_str(),
+                             attack_strength_punctuation(hurt).c_str());
+                    }
+                    else
+                    {
+                        mprf("%s headbutts %s%s", defname.c_str(),
+                             attacker->name(DESC_THE).c_str(),
+                             attack_strength_punctuation(hurt).c_str());
+                    }
                 }
             }
             if (hurt > 0)
@@ -3362,7 +3406,6 @@ void melee_attack::do_minotaur_retaliation()
         }
         else
         {
-            // TODO: modify get_special_attack_message to handle this case
             mprf("You headbutt %s%s", attacker->name(DESC_THE).c_str(),
                  attack_strength_punctuation(hurt).c_str());
 
