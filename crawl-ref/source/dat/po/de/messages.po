@@ -2590,7 +2590,7 @@ msgstr "Als du %s vergisst, fühlst du dich bereit, %s zu verstehen."
 
 #, c-format
 msgid "You are currently transferring knowledge from %s to %s."
-msgstr "Sie übertragen derzeit Wissen von %s auf %s."
+msgstr "Du übertragst derzeit Wissen von %s auf %s."
 
 #, c-format
 msgid "You %s forgetting about %s and learning about %s."
@@ -3060,7 +3060,7 @@ msgid "You don't have any such object."
 msgstr "Du hast kein solches Objekt."
 
 msgid "That's the wrong kind of item! (Use * to select it.)"
-msgstr "Das ist die falsche Art von Gegenstand! (Verwenden Sie *, um ihn auszuwählen.)"
+msgstr "Das ist die falsche Art von Gegenstand! (Verwende *, um ihn auszuwählen.)"
 
 msgid "That item cannot be used by those hated by all!"
 msgstr "Dieser Gegenstand kann nicht von denen benutzt werden, die von allen gehasst werden!"
@@ -3584,7 +3584,7 @@ msgid "You feel forgetful for a moment."
 msgstr "Du fühlst dich für einen Moment vergesslich."
 
 msgid "Read a buggy scroll, please report this."
-msgstr "Lesen Sie eine Buggy-Schriftrolle, bitte melden Sie dies."
+msgstr "Du hast eine fehlerhafte Schriftrolle gelesen, bitte melde das."
 
 #, c-format
 msgid "It %s a %s."
@@ -3659,7 +3659,7 @@ msgstr "Beschreibe %s? "
 ##################
 
 msgid "[Hit ESC to exit interpreter.]"
-msgstr "[Drücken Sie ESC, um den Interpreter zu beenden.]"
+msgstr "[Drücke ESC, um den Interpreter zu beenden.]"
 
 #, c-format
 msgid "error calling __echo (%s)"
@@ -3746,7 +3746,7 @@ msgstr "Synthetische Schlüssel können nicht an einen Befehl gebunden werden."
 ##################
 
 msgid "Press <w>?</w> for a list of commands and other information."
-msgstr "Drücken Sie <w>?</w>, um eine Liste der Befehle und anderer Informationen anzuzeigen."
+msgstr "Drücke <w>?</w>, um eine Liste der Befehle und anderer Informationen anzuzeigen."
 
 #, c-format
 msgid "You begin with %s%s%s."
@@ -3760,7 +3760,7 @@ msgid "You're about to run into a slime covered wall!"
 msgstr "Du bist dabei, gegen eine mit Schleim bedeckte Wand zu rennen!"
 
 msgid "You can't repeat informational commands."
-msgstr "Sie können Informationsbefehle nicht wiederholen."
+msgstr "Informationsbefehle kann nicht wiederholen werden."
 
 msgid "You can't repeat multi-turn commands."
 msgstr "Du kannst Multi-Turn-Befehle nicht wiederholen."
@@ -3882,7 +3882,7 @@ msgid "You start resting."
 msgstr "Du fängst an dich auszuruhen."
 
 msgid "Move the cursor to view the level map, or type <w>?</w> for "
-msgstr "Bewegen Sie den Cursor, um die Ebenenübersicht anzuzeigen, oder geben Sie <w>?</w> für"
+msgstr "Bewege den Cursor, um die Ebenenübersicht anzuzeigen, oder drücke <w>?</w> für "
 
 msgid "Returning to the game..."
 msgstr "Zurück zum Spiel ..."
@@ -3925,7 +3925,7 @@ msgstr "Spiel speichern ... bitte warten."
 
 # causes error
 #msgid "Unknown command. (For a list of commands type <w>?\?</w>.)"
-#msgstr "Unbekannter Befehl. (Für eine Liste von Befehlen geben Sie <w>?\?</w> ein.)"
+#msgstr "Unbekannter Befehl. (Für eine Liste von Befehlen, drücke <w>?\?</w>.)"
 
 msgid "Unknown command."
 msgstr "Unbekannter Befehl."
@@ -3979,7 +3979,7 @@ msgid "(Key replay stole keys)"
 msgstr "(Schlüsselwiederholung hat Schlüssel gestohlen)"
 
 msgid "You must enter the number of times for the command to repeat."
-msgstr "Sie müssen eingeben, wie oft der Befehl wiederholt werden soll."
+msgstr "Du müsst eingeben, wie oft der Befehl wiederholt werden soll."
 
 msgid "Enter command to be repeated: "
 msgstr "Befehl eingeben, der wiederholt werden soll:"
@@ -5805,7 +5805,7 @@ msgstr "%s Angriff löst%s aus%s Angst."
 
 #, c-format
 msgid "(press <w>%c</w> on the <w>%s</w>bility menu to convert to Beogh)"
-msgstr "(Drücken Sie <w>%c</w> im Menü <w>%s</w>, um nach Beogh zu konvertieren.)"
+msgstr "(Drücke <w>%c</w> im Menü <w>%s</w>, um nach Beogh zu konvertieren.)"
 
 
 ##################
@@ -6281,7 +6281,7 @@ msgstr "Entfernung zu groß, versuche keine Wegfindung! (%s)"
 
 #, c-format
 msgid "Need a path for %s from (%d, %d) to (%d, %d), max. dist = %d"
-msgstr "Benötigen Sie einen Pfad für%s von (%d,%d) nach (%d,%d), max. Dist =%d"
+msgstr "Benötige einen Pfad für%s von (%d,%d) nach (%d,%d), max. Dist =%d"
 
 #, c-format
 msgid "merfolk avatar target is (%d, %d), dist = %d"
@@ -7023,7 +7023,7 @@ msgid "...and don't expect to remain undetected."
 msgstr "... und erwarte nicht, unentdeckt zu bleiben."
 
 msgid "Don't expect to remain undetected while in the water."
-msgstr "Erwarten Sie nicht, im Wasser unentdeckt zu bleiben."
+msgstr "Erwarte nicht, im Wasser unentdeckt zu bleiben."
 
 #, c-format
 msgid "%s has recharged."
@@ -8189,7 +8189,7 @@ msgid "Thank you for shopping at %s!"
 msgstr "Danke, dass du bei%s eingekauft hast!"
 
 msgid "You can access your shopping list by pressing '$'."
-msgstr "Sie können auf Ihre Einkaufsliste zugreifen, indem Sie '$' drücken."
+msgstr "Du kannst auf Ihre Einkaufsliste zugreifen, indem du '$' drückst."
 
 #, c-format
 msgid "%s is already on the shopping list."
@@ -8202,10 +8202,6 @@ msgstr "%s ist nicht auf der Einkaufsliste, kann nicht gelöscht werden."
 #, c-format
 msgid "Shopping list: removing %s"
 msgstr "Einkaufsliste:%s entfernen"
-
-# duplicate
-#msgid "You can access your shopping list by pressing '$'."
-#msgstr "Sie können auf Ihre Einkaufsliste zugreifen, indem Sie '$' drücken."
 
 msgid "ERROR: Unable to delete thing from shopping list!"
 msgstr "FEHLER: Sache kann nicht von Einkaufsliste gelöscht werden!"
@@ -8782,7 +8778,7 @@ msgstr "Du fühlst dich für einen Moment gesegnet."
 
 #, c-format
 msgid "Choose an uncursed equipped piece of %s, or Esc to abort."
-msgstr "Wählen Sie ein nicht verfluchtes ausgerüstetes Stück von%s oder Esc zum Abbrechen."
+msgstr "Wähle ein nicht verfluchtes ausgerüstetes Stück von %s oder Esc zum Abbrechen."
 
 #, c-format
 msgid "You aren't wearing any piece of uncursed %s."
@@ -9280,7 +9276,7 @@ msgid "You can't %s onto %s!"
 msgstr "Du kannst nicht%s auf%s setzen!"
 
 msgid "Please don't blink into the map border."
-msgstr "Bitte blinzeln Sie nicht in den Kartenrand."
+msgstr "Bitte nicht in den Kartenrand flimmern."
 
 msgid "Please don't try to blink into monsters."
 msgstr "Bitte versuche nicht, in Monster zu blinzeln."
@@ -9574,7 +9570,7 @@ msgid "Can't find anything matching that."
 msgstr "Kann nichts passendes finden."
 
 msgid "Too many matches; use a more specific search."
-msgstr "Zu viele Übereinstimmungen; verwenden Sie eine spezifischere Suche."
+msgstr "Zu viele Übereinstimmungen; verwende eine spezifischere Suche."
 
 
 ##################
@@ -9624,7 +9620,7 @@ msgstr "Marshalled Monster #%d%s"
 
 #, c-format
 msgid "Writing '%s' into save."
-msgstr "Schreiben Sie '%s' in save."
+msgstr "'%s' wird gespeichert."
 
 #, c-format
 msgid "elsewhere companion has duplicate mid %d: %s"
@@ -10197,10 +10193,10 @@ msgid "You feel aware of your surroundings."
 msgstr "Du fühlst dich deiner Umgebung bewusst."
 
 msgid "Select layers to display:\n"
-msgstr "Wählen Sie die anzuzeigenden Ebenen aus:\n"
+msgstr "Wähle die anzuzeigenden Ebenen aus:\n"
 
 msgid "Press escape to toggle all layers. "
-msgstr "Drücken Sie die Esc-Taste, um alle Ebenen umzuschalten."
+msgstr "Drücke die Esc-Taste, um alle Ebenen umzuschalten."
 
 msgid "Restoring view layers."
 msgstr "Wiederherstellen von Ansichtsebenen."
@@ -10266,7 +10262,7 @@ msgid "If you continue, your game will not be scored!"
 msgstr "Wenn du weitermachst, wird dein Spiel nicht gewertet!"
 
 msgid "Enter Wizard Command (? - help): "
-msgstr "Geben Sie den Assistentenbefehl ein (? - Hilfe):"
+msgstr "Gib den Assistentenbefehl ein (? - Hilfe):"
 
 msgid "WARNING: ABOUT TO ENTER EXPLORE MODE!"
 msgstr "WARNUNG: ÜBER DEN EXPLORE-MODUS!"
@@ -10336,7 +10332,7 @@ msgid "%s decides where it goes, can't place where you are."
 msgstr "%s entscheidet, wohin es geht, kann nicht platzieren, wo du bist."
 
 msgid "Ok; try placing with &L or go to the relevant location to "
-msgstr "Ok; versuchen Sie es mit &L oder gehen Sie zum entsprechenden Ort zu "
+msgstr "Ok; versuche es mit &L oder gehe zum entsprechenden Ort zu "
 
 #, c-format
 msgid "Successfully placed %s."
@@ -10396,7 +10392,7 @@ msgstr "unbekannter Gegenstand:%s"
 ##################
 
 msgid "Enter monster name (or MONS spec): "
-msgstr "Geben Sie den Monsternamen (oder die MONS-Spezifikation) ein:"
+msgstr "Gib den Monsternamen (oder die MONS-Spezifikation) ein:"
 
 msgid "Failed to create monster."
 msgstr "Monster konnte nicht erstellt werden."
@@ -10582,7 +10578,7 @@ msgid "[e] Staves  [f] Evocables [g] Food"
 msgstr "[e] Dauben [f] Evocables [g] Essen"
 
 msgid "What kind of item would you like to get acquirement stats on? "
-msgstr "Auf was für einen Gegenstand möchten Sie Erwerbsstatistiken setzen?"
+msgstr "Auf was für einen Gegenstand möchtest du Erwerbsstatistiken setzen?"
 
 msgid "Stopping early due to keyboard input."
 msgstr "Aufgrund von Tastatureingaben vorzeitig anhalten."
@@ -10627,7 +10623,7 @@ msgstr "Evokers aufgeladen."
 
 # duplicate
 #msgid "Enter monster name (or MONS spec): "
-#msgstr "Geben Sie den Monsternamen (oder die MONS-Spezifikation) ein:"
+#msgstr "Gib den Monsternamen (oder die MONS-Spezifikation) ein:"
 
 msgid "Couldn't find player ghost, probably going to crash."
 msgstr "Spielergeist konnte nicht gefunden werden und wird wahrscheinlich abstürzen."
@@ -10683,7 +10679,7 @@ msgid "Dismissed %i monster%s."
 msgstr "%i Monster%s entlassen."
 
 msgid "Make the monster (S)hout or (T)alk? "
-msgstr "Machen Sie das Monster (S) hout oder (T) alk?"
+msgstr "Mache das Monster (S) hout oder (T) alk?"
 
 msgid "The monster is invisible and likely won't speak."
 msgstr "Das Monster ist unsichtbar und wird wahrscheinlich nicht sprechen."
@@ -10765,7 +10761,7 @@ msgid "Monster turned into something other than the desired type."
 msgstr "Monster hat sich in etwas anderes als den gewünschten Typ verwandelt."
 
 msgid "Choose a destination!"
-msgstr "Wählen Sie eine Destination!"
+msgstr "Wähle eine Destination!"
 
 #, c-format
 msgid "Attempting to calculate a path from (%d, %d) to (%d, %d)..."
@@ -10844,7 +10840,7 @@ msgid "Cannot find that spell."
 msgstr "Kann diesen Zauber nicht finden."
 
 msgid "Memorise which spell? "
-msgstr "Merken Sie sich welchen Zauber?"
+msgstr "Merke sich welchen Zauber?"
 
 msgid "Spell is monster-only - unpredictable behaviour may result."
 msgstr "Zauber sind nur Monster - unvorhersehbares Verhalten kann die Folge sein."
@@ -10895,7 +10891,7 @@ msgstr "Aktueller Fortschritt bis zum nächsten Opfer:%d Erforderlicher Fortschr
 
 #, c-format
 msgid "Enter new piety value (current = %d, Enter for 0): "
-msgstr "Geben Sie einen neuen Frömmigkeitswert ein (aktuell =%d, geben Sie für 0 ein):"
+msgstr "Gib einen neuen Frömmigkeitswert ein (aktuell = %d, Enter-Taste für 0):"
 
 msgid "That skill doesn't seem to exist."
 msgstr "Diese Fruchtbarkeit scheint nicht zu existieren."
@@ -10918,17 +10914,17 @@ msgid "Found #%d: %s (\"%s\")"
 msgstr "Gefunden #%d: %s (\"%s\")"
 
 msgid "Enter values for X, Y, Z (space separated) or return: "
-msgstr "Geben Sie Werte für X, Y, Z (durch Leerzeichen getrennt) ein oder geben Sie Folgendes zurück:"
+msgstr "Gib Werte für X, Y, Z (durch Leerzeichen getrennt) oder Entertaste ein:"
 
 msgid "Enter values for Str, Int, Dex (space separated): "
-msgstr "Geben Sie Werte für Str, Int, Dex (durch Leerzeichen getrennt) ein:"
+msgstr "Gib Werte für Str, Int, Dex (durch Leerzeichen getrennt) ein:"
 
 #, c-format
 msgid "Setting attributes (Str, Int, Dex) to: %i, %i, %i"
 msgstr "Setzen von Attributen (Str, Int, Dex) auf: %i,%i,%i"
 
 msgid "\nEdit which duration (letter or name)? "
-msgstr "\nBearbeiten Sie welche Dauer (Buchstabe oder Name)?"
+msgstr "\nBearbeiten welche Dauer (Buchstabe oder Name)?"
 
 msgid "Edit which duration (name)? "
 msgstr "Welche Dauer (Name) bearbeiten?"
