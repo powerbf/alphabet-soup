@@ -405,6 +405,86 @@ msgid "%s freezes %s%s"
 msgstr "%s friert {acc}%s ein%s"
 
 
+###############################
+# fight.cc
+###############################
+
+# fight_melee()
+
+#, c-format
+msgid "%s hops backward while attacking."
+msgstr "%s springt rückwarts während des Angriffs."
+
+
+# wielded_weapon_check()
+
+msgid "Really attack while wielding %s?"
+msgstr "Greife wirklich an, während du %s schwingst?"
+
+msgid "Really attack unarmed?"
+msgstr "Wirklich unbewaffnet angreife?"
+
+msgid "This could place you under penance!"
+msgstr "Dies könnte dich unter Buße stellen!"
+
+
+# stop_attack_prompt()
+
+msgid "Really fire at %s?"
+msgstr "Wirklich auf {acc}%s schießen?"
+
+msgid "Really fire at %s, despite your sanctuary?"
+msgstr "Schieße wirklich auf {acc}%s, trotz deines Asyls?"
+
+msgid "Really fire at %s while asking for your life to be spared?"
+msgstr "Schieße wirklich auf {acc}%s, während du um Erlösung bittest?"
+
+
+msgid "Really fire in the direction of %s?"
+msgstr "Wirklich in Richtung {gen}%s schießen?"
+
+msgid "Really fire in the direction of %s, despite your sanctuary?"
+msgstr "Schieße wirklich in Richtung {gen}%s, trotz deines Asyls?"
+
+msgid "Really fire in the direction of %s while asking for your life to be spared?"
+msgstr "Schieße wirklich in Richtung {gen}%s, während du um Erlösung bittest?"
+
+
+msgid "Really attack %s?"
+msgstr "Wirklich %s angreife?"
+
+msgid "Really attack %s, despite your sanctuary?"
+msgstr "Greife {acc}%s wirklich an, trotz deines Asyls?"
+
+msgid "Really attack %s while asking for your life to be spared?"
+msgstr "Greife {acc}%s wirklich an, während du um Erlösung bittest?"
+
+
+msgid "Really do that near %s?"
+msgstr "Mach das wirklich in der Nähe {gen}%s?"
+
+msgid "This attack would place you under penance!"
+msgstr "Dieser Angriff würde dich unter Buße stellen!"
+
+
+# otr_stop_summoning_prompt()
+
+msgid "Really summon while emitting a toxic aura?"
+msgstr "Wirklich beschwöre, während du eine giftige Aura ausstrahlst?"
+
+msgid "Really enslave %s while emitting a toxic aura?"
+msgstr "Wirklich versklave {acc}%s, während du eine giftige Aura ausstrahlst?"
+
+msgid "Really call dragons while emitting a toxic aura?"
+msgstr "Wirklich Drachen rufe, während du eine giftige Aura ausstrahlst?"
+
+msgid "Really create snakes while emitting a toxic aura?"
+msgstr "Wirklich Schlangen beschwöre, während du eine giftige Aura ausstrahlst?"
+
+msgid "Really summon a forest while emitting a toxic aura?"
+msgstr "Wirklich einien Forst beschwöre, während du eine giftige Aura ausstrahlst?"
+
+
 ###############################################################################
 # Player hits
 # NOTE: The last %s is a placeholder for a number of exclamation marks that 
@@ -836,72 +916,6 @@ msgstr "Scharf!"
 #, c-format
 msgid "You spit out the corpse of %s as it twists & deforms in your mouth!"
 msgstr "Du spuckst die Leiche {gen}%s aus als sie sich in deinem Mund verdreht & verändert."
-
-##############################
-# Attack confirmation prompts
-##############################
-
-msgid "Really attack while wielding %s?"
-msgstr "Greife wirklich an, während du %s schwingst?"
-
-msgid "Really attack unarmed?"
-msgstr "Wirklich unbewaffnet angreife?"
-
-msgid "This could place you under penance!"
-msgstr "Dies könnte dich unter Buße stellen!"
-
-msgid "This attack would place you under penance!"
-msgstr "Dieser Angriff würde dich unter Buße stellen!"
-
-
-msgid "Really attack %s?"
-msgstr "Wirklich %s angreife?"
-
-msgid "Really attack %s, despite your sanctuary?"
-msgstr "Greife {acc}%s wirklich an, trotz deines Asyls?"
-
-msgid "Really attack %s while asking for your life to be spared?"
-msgstr "Greife {acc}%s wirklich an, während du um Erlösung bittest?"
-
-
-msgid "Really fire at %s?"
-msgstr "Wirklich auf {acc}%s schießen?"
-
-msgid "Really fire at %s, despite your sanctuary?"
-msgstr "Schieße wirklich auf {acc}%s, trotz deines Asyls?"
-
-msgid "Really fire at %s while asking for your life to be spared?"
-msgstr "Schieße wirklich auf {acc}%s, während du um Erlösung bittest?"
-
-
-msgid "Really fire in the direction of %s?"
-msgstr "Wirklich in Richtung {gen}%s schießen?"
-
-msgid "Really fire in the direction of %s, despite your sanctuary?"
-msgstr "Schieße wirklich in Richtung {gen}%s, trotz deines Asyls?"
-
-msgid "Really fire in the direction of %s while asking for your life to be spared?"
-msgstr "Schieße wirklich in Richtung {gen}%s, während du um Erlösung bittest?"
-
-
-msgid "Really do that near %s?"
-msgstr "Mach das wirklich in der Nähe {gen}%s?"
-
-
-msgid "Really summon while emitting a toxic aura?"
-msgstr "Wirklich beschwöre, während du eine giftige Aura ausstrahlst?"
-
-msgid "Really enslave %s while emitting a toxic aura?"
-msgstr "Wirklich versklave {acc}%s, während du eine giftige Aura ausstrahlst?"
-
-msgid "Really call dragons while emitting a toxic aura?"
-msgstr "Wirklich Drachen rufe, während du eine giftige Aura ausstrahlst?"
-
-msgid "Really create snakes while emitting a toxic aura?"
-msgstr "Wirklich Schlangen beschwöre, während du eine giftige Aura ausstrahlst?"
-
-msgid "Really summon a forest while emitting a toxic aura?"
-msgstr "Wirklich einien Forst beschwöre, während du eine giftige Aura ausstrahlst?"
 
 ##############################################################################
 # Monster hits
@@ -1433,10 +1447,6 @@ msgstr "%s schlägt {acc}%s von weitem mit {dat}%s%s"
 ################################
 
 #, c-format
-msgid "%s hops backward while attacking."
-msgstr "%s springt rückwarts während des Angriffs."
-
-#, c-format
 msgid "%s strikes at %s from the darkness!"
 msgstr "%s schlägt aus der Dunkelheit auf {acc}%s an!"
 
@@ -1739,7 +1749,7 @@ msgid "%s infuriates %s!"
 msgstr "%s macht {acc}%s wütend"
 
 ###################
-# Generic prompts
+# prompt.cc
 ###################
 
 msgid "%s (Confirm with \"yes\".) "
