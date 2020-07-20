@@ -21,6 +21,10 @@ string pluralise(const string &name,
                      = standard_plural_qualifiers,
                  const char * const no_of[] = nullptr);
 string pluralise_monster(const string &name);
+
+// get singular from plural
+string singularise(const string& plural);
+
 string apostrophise(const string &name);
 string conjugate_verb(const string &verb, bool plural);
 const char *decline_pronoun(gender_type gender, pronoun_type variant);
