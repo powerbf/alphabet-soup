@@ -181,20 +181,21 @@ msgstr "Kurzbogen"
 msgid "longbow"
 msgstr "Langbogen"
 
-msgid "dart"
-msgstr "Wurfpfeil"
-
-msgid "needle"
-msgstr "Blasrohrpfeil"
-
-msgid "stone"
-msgstr "Stein"
+#################################
+# Missiles
+#################################
 
 msgid "arrow"
 msgstr "Pfeil"
 
 msgid "bolt"
 msgstr "Bolzen"
+
+msgid "dart"
+msgstr "Wurfpfeil"
+
+msgid "stone"
+msgstr "Stein"
 
 msgid "large rock"
 msgstr "Felsblock"
@@ -210,6 +211,81 @@ msgstr "Wurfnetz"
 
 msgid "boomerang"
 msgstr "Bumerang"
+
+
+msgid "the arrow"
+msgstr "der Pfeil"
+
+msgid "the bolt"
+msgstr "der Bolzen"
+
+msgid "the dart"
+msgstr "der Wurfpfeil"
+
+msgid "the stone"
+msgstr "der Stein"
+
+msgid "the large rock"
+msgstr "der Felsblock"
+
+msgid "the sling bullet"
+msgstr "die Schleuderkugel"
+
+msgid "the javelin"
+msgstr "der Wurfspeer"
+
+msgid "the throwing net"
+msgstr "das Wurfnetz"
+
+msgid "the boomerang"
+msgstr "der Bumerang"
+
+
+msgid "an arrow"
+msgid_plural "%d arrows"
+msgstr[0] "ein Pfeil"
+msgstr[1] "%d Pfeile"
+
+msgid "a bolt"
+msgid_plural "%d bolts"
+msgstr[0] "ein Bolzen"
+msgstr[1] "%d Bolzen"
+
+msgid "a dart"
+msgid_plural "%d darts"
+msgstr[0] "ein Wurfpfeil"
+msgstr[1] "%d Wurfpfeile"
+
+msgid "a stone"
+msgid_plural "%d stones"
+msgstr[0] "ein Stein"
+msgstr[1] "%d Steine"
+
+msgid "a large rock"
+msgid_plural "%d large rocks"
+msgstr[0] "ein Felsblock"
+msgstr[1] "%d Felsblöcke"
+
+msgid "a sling bullet"
+msgid_plural "%d sling bullets"
+msgstr[0] "eine Schleuderkugel"
+msgstr[1] "%d Schleuderkugeln"
+
+msgid "a javelin"
+msgid_plural "%s javelins"
+msgstr[0] "ein Wurfspeer"
+msgstr[1] "%d Wurfspeere"
+
+msgid "a throwing net"
+msgid_plural "%d throwing nets"
+msgstr[0] "ein Wurfnetz"
+msgstr[1] "%d Wurfnetze"
+
+msgid "a boomerang"
+msgid_plural "%s boomerangs"
+msgstr[0] "ein Bumerang"
+msgstr[1] "%d Bumerangs"
+
 
 #################################
 # Food

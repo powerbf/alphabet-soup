@@ -17,6 +17,7 @@ using namespace std;
 #include "xlate.h"
 #include "stringutil.h"
 #include "unicode.h"
+#include "english.h"
 
 // check if string contains the char
 static inline bool _contains(const std::string& s, char c)
@@ -293,44 +294,81 @@ static void _resolve_escapes(string& str)
     _replace_all(str, "\\}", "}");
 }
 
-// localize a single string
-static string _localize_string(const string& context, const string& value, const string& plural_val = "", const int count = 1)
+// localize a string with count
+static string _localize_string(const string& context, const string& singular,
+		                       const string& plural, const int count)
 {
     string result;
-    if (plural_val.empty())
-    {
-        result = cxlate(context, value);
-        if (result == value)
-        {
-            // check if this is a list, and if so, try to localize each individual element
-            static vector<string> separators = {",", " or ", " and "};
+    result = cnxlate(context, singular, plural, count);
+    if (contains(result, "%"))
+        result = make_stringf(result.c_str(), count);
+    return result;
+}
 
-            std::vector<string>::iterator it;
-            for (it = separators.begin(); it != separators.end(); ++it)
-            {
-                string sep = *it;
-                vector<string> tokens = split_string(sep, value, true, true, 1);
-                // there should only ever be 1 or 2 tokens
-                if (tokens.size() == 2)
-                {
-                    string fmt = "%s" + sep + (sep == "," ? " " : "") + "%s";
-                    fmt = cxlate(context, fmt);
-                    // the tokens could be lists themselves
-                    string tok0 = _localize_string(context, tokens[0]);
-                    string tok1 = _localize_string(context, tokens[1]);
-                    result = make_stringf(fmt.c_str(), tok0.c_str(), tok1.c_str());
-                    break;
-                }
-            }
+// localize a singlular string
+static string _localize_string(const string& context, const string& value)
+{
+    if (value.empty())
+    {
+        return value;
+    }
+
+    string result = cxlate(context, value);
+    if (result != value)
+    {
+        // got a hit
+        return result;
+    }
+
+    // check if this is a list, and if so, try to localize each individual element
+    static vector<string> separators = {",", " or ", " and "};
+
+    std::vector<string>::iterator it;
+    for (it = separators.begin(); it != separators.end(); ++it)
+    {
+        string sep = *it;
+        vector<string> tokens = split_string(sep, value, true, true, 1);
+        // there should only ever be 1 or 2 tokens
+        if (tokens.size() == 2)
+        {
+            string fmt = "%s" + sep + (sep == "," ? " " : "") + "%s";
+            fmt = cxlate(context, fmt);
+            // the tokens could be lists themselves
+            string tok0 = _localize_string(context, tokens[0]);
+            string tok1 = _localize_string(context, tokens[1]);
+            result = make_stringf(fmt.c_str(), tok0.c_str(), tok1.c_str());
+            break;
         }
     }
-    else
+    if (result != value)
     {
-        result = cnxlate(context, value, plural_val, count);
-        result = make_stringf(result.c_str(), count);
+        return result;
+    }
+
+    if (isdigit(value[0]))
+    {
+        // probably a plural
+        size_t pos;
+        int count = stoi(value, &pos);
+
+        string plural = value.substr(pos);
+        trim_string_left(plural);
+
+        string singular = article_a(singularise(plural));
+        plural = "%d " + plural;
+
+        result = _localize_string(context, singular, plural, count);
     }
 
     return result;
+}
+
+static string _localize_string(const string& context, const LocalizationArg& arg)
+{
+    if (arg.plural.empty())
+        return _localize_string(context, arg.stringVal);
+    else
+        return _localize_string(context, arg.stringVal, arg.plural, arg.count);
 }
 
 void LocalizationArg::init()
@@ -425,7 +463,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
     string fmt_xlated;
     if (fmt_arg.translate)
     {
-        fmt_xlated = _localize_string("", fmt_arg.stringVal, fmt_arg.plural, fmt_arg.count);
+        fmt_xlated = _localize_string("", fmt_arg);
     }
     else
     {
@@ -501,7 +539,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
                         }
                         else
                         {
-                            argx = _localize_string(context, arg.stringVal, arg.plural, arg.count);
+                            argx = _localize_string(context, arg);
                             ss << make_stringf(fmt_spec.c_str(), argx.c_str());
                         }
                     }

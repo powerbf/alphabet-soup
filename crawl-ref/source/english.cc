@@ -182,6 +182,150 @@ string pluralise_monster(const string &name)
     return pluralise(name, standard_plural_qualifiers, _monster_suffixes);
 }
 
+string singularise(const string& str)
+{
+    if (str.length() < 2)
+        return str;
+
+    string plural = str;
+    string singular;
+    string suffix;
+
+    size_t pos = plural.find(" of ");
+    if (pos != string::npos)
+    {
+        suffix = plural.substr(pos);
+        plural = plural.substr(0, pos);
+    }
+
+    if (ends_with(plural, "s"))
+    {
+        if (ends_with(plural,"ices"))
+        {
+            // vortices -> vortex
+            singular = plural.substr(0, plural.length()-4) + "ex";
+        }
+        else if (ends_with(plural, "oes"))
+        {
+            // mosquitoes -> mosquito
+            singular = plural.substr(0, plural.length()-2);
+        }
+        else if (ends_with(plural, "cyclopes"))
+        {
+            // cyclopes -> cyclops
+            singular = plural.substr(0, plural.length()-2) + "s";
+        }
+        else if (ends_with(plural, "zombies"))
+        {
+            singular = plural.substr(0, plural.length()-1);
+        }
+        else if (ends_with(plural, "ies"))
+        {
+            singular = plural.substr(0, plural.length()-3) +"y";
+        }
+        else if (ends_with(plural, "staves"))
+        {
+            // staves -> staff
+            singular = plural.substr(0, plural.length()-3) +"ff";
+        }
+        else if (ends_with(plural, "ives"))
+        {
+            // knives -> knife
+            singular = plural.substr(0, plural.length()-3) +"fe";
+        }
+        else if (ends_with(plural, "ves"))
+        {
+            // elves -> elf
+            singular = plural.substr(0, plural.length()-3) +"f";
+        }
+        else if (ends_with(plural, "ses") || ends_with(plural, "xes")
+                 || ends_with(plural, "ches") || ends_with(plural, "shes"))
+        {
+            // remove "es"
+            singular = plural.substr(0, plural.length()-2);
+        }
+        else
+        {
+            // remove "s"
+            singular = plural.substr(0, plural.length()-1);
+        }
+    }
+    else if (ends_with(plural,"i"))
+    {
+        if(ends_with(plural, "jiangshi") || ends_with(plural, "meliai"))
+        {
+            singular = plural;
+        }
+        else if (ends_with(plural, "magi"))
+        {
+            // magi -> mage
+            singular = plural.substr(0, plural.length()-1) + "e";
+        }
+        else
+        {
+            // Latin words
+            singular = plural.substr(0, plural.length()-1) + "us";
+        }
+    }
+    else if (ends_with(plural, "catoblepae"))
+    {
+        // catoblepae -> catoblepas
+        singular = plural.substr(0, plural.length()-1) + "s";
+    }
+    else if (ends_with(plural,"ae"))
+    {
+        // hydrae -> hydra
+        singular = plural.substr(0, plural.length()-1);
+    }
+    else if (ends_with(plural, "simulacra"))
+    {
+        // simulacra -> simulacrum
+        singular = plural.substr(0, plural.length()-1) + "um";
+    }
+    else if (ends_with(plural, "eidola"))
+    {
+        // eidola -> eidolon
+        singular = plural.substr(0, plural.length()-1) + "on";
+    }
+    else if (ends_with(plural, "djinn"))
+    {
+        // djinn -> djinni.
+        singular = plural + "i";
+    }
+    else if (ends_with(plural, "feet"))
+    {
+        // feet -> foot
+        singular = plural.substr(0, plural.length()-3) + "oot";
+    }
+    else if (ends_with(plural, "arachim"))
+    {
+        // Barachim -> Barachi
+        singular = plural.substr(0, plural.length()-1);
+    }
+    else if (ends_with(plural, "im"))
+    {
+        // seraphim -> seraph
+        singular = plural.substr(0, plural.length()-1);
+    }
+    else if (ends_with(plural, "ushabtiu"))
+    {
+        // ushabtiu -> ushabti
+        singular = plural.substr(0, plural.length()-1);
+    }
+    else if (ends_with(plural, "mimeh"))
+    {
+        // Tzitzimimeh -> Tzitzimitl
+        singular = plural.substr(0, plural.length() - 3) + "tl";
+    }
+    else
+    {
+        singular = plural;
+    }
+
+    return singular + suffix;
+}
+
+
 string apostrophise(const string &name)
 {
     if (name.empty())

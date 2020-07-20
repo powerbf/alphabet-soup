@@ -37,6 +37,9 @@ string make_stringf(PRINTF(0, ));
 
 bool strip_suffix(string &s, const string &suffix);
 
+// Replace first occurrence of string
+string replace_first(const string &s, const string &tofind, const string &replacement);
+
 string replace_all(string s, const string &tofind, const string &replacement);
 
 string replace_all_of(string s, const string &tofind, const string &replacement);
@@ -48,7 +51,11 @@ string maybe_pick_random_substring(string s);
 
 int count_occurrences(const string &text, const string &searchfor);
 
+// check if text contains the string in searchfor
+bool contains(const string &text, const string &searchfor);
+
 string &trim_string(string &str);
+string &trim_string_left(string &str);
 string &trim_string_right(string &str);
 string trimmed_string(string s);
 

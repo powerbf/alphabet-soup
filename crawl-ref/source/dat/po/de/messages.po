@@ -3182,7 +3182,7 @@ msgstr "Zu viele Gegenstände auf dieser Ebene, ohne den Gegenstand fallen zu la
 
 #, c-format
 msgid "You drop %s."
-msgstr "Du lässt%s fallen."
+msgstr "Du lässt %s fallen."
 
 msgid "No item to drop."
 msgstr "Kein Gegenstand zum Ablegen."
