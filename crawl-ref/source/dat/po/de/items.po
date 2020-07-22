@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #################################
-# Weapons
+# Melee Weapons
 #################################
 
 msgid "unarmed"
@@ -31,17 +31,13 @@ msgstr "unbewaffnet"
 msgid "claws"
 msgstr "Krallen"
 
+# without determiner (used in start menu)
+
 msgid "club"
 msgstr "Keule"
 
-msgid "spiked flail"
-msgstr "Stachelflegel"
-
 msgid "whip"
 msgstr "Peitsche"
-
-msgid "hammer"
-msgstr "Hammer"
 
 msgid "mace"
 msgstr "Streitkolben"
@@ -71,7 +67,7 @@ msgid "giant club"
 msgstr "Riesenkeule"
 
 msgid "giant spiked club"
-msgstr "riesiger Stachelkeule"
+msgstr "riesige Stachelkeule"
 
 msgid "dagger"
 msgstr "Dolch"
@@ -84,9 +80,6 @@ msgstr "Kurzschwert"
 
 msgid "rapier"
 msgstr "Rapier"
-
-msgid "cutlass"
-msgstr "Entersäbel"
 
 msgid "falchion"
 msgstr "Falchion"
@@ -157,9 +150,6 @@ msgstr "Kampfstab"
 msgid "lajatang"
 msgstr "Lajatang"
 
-msgid "blowgun"
-msgstr "Blasrohr"
-
 msgid "hunting sling"
 msgstr "Schleuder"
 
@@ -180,6 +170,282 @@ msgstr "Kurzbogen"
 
 msgid "longbow"
 msgstr "Langbogen"
+
+# with indefinite article
+
+msgid "a club"
+msgstr "eine Keule"
+
+msgid "a whip"
+msgstr "eine Peitsche"
+
+msgid "a mace"
+msgstr "ein Streitkolben"
+
+msgid "a flail"
+msgstr "ein Flegel"
+
+msgid "a morningstar"
+msgstr "ein Morgenstern"
+
+msgid "a demon whip"
+msgstr "eine Dämonenpeitsche"
+
+msgid "a sacred scourge"
+msgstr "eine geistliche Geißel"
+
+msgid "a dire flail"
+msgstr "ein Schreckensflegel"
+
+msgid "an eveningstar"
+msgstr "ein Abendstern"
+
+msgid "a great mace"
+msgstr "ein großer Streitkolben"
+
+msgid "a giant club"
+msgstr "eine Riesenkeule"
+
+msgid "a giant spiked club"
+msgstr "eine riesige Stachelkeule"
+
+msgid "a dagger"
+msgstr "ein Dolch"
+
+msgid "a quick blade"
+msgstr "eine Schnellklinge"
+
+# neut
+msgid "a short sword"
+msgstr "ein Kurzschwert"
+
+# neut
+msgid "a rapier"
+msgstr "ein Rapier"
+
+# neut
+msgid "a falchion"
+msgstr "ein Falchion"
+
+# neut
+msgid "a long sword"
+msgstr "ein Langschwert"
+
+msgid "a scimitar"
+msgstr "ein Krummsäbel"
+
+msgid "a demon blade"
+msgstr "eine Dämonenklinge"
+
+msgid "a eudemon blade"
+msgstr "eine Eudämonenklinge"
+
+#neut
+msgid "a double sword"
+msgstr "ein Doppelschwert"
+
+# neut
+msgid "a great sword"
+msgstr "ein Großschwert"
+
+# neut
+msgid "a triple sword"
+msgstr "ein Dreifach-Schwert"
+
+# neut
+msgid "a hand axe"
+msgstr "ein Handbeil"
+
+msgid "a war axe"
+msgstr "eine Kriegsaxt"
+
+msgid "a broad axe"
+msgstr "eine Breitaxt"
+
+msgid "a battleaxe"
+msgstr "eine Streitaxt"
+
+msgid "a executioner's axe"
+msgstr "eine Henkersaxt"
+
+msgid "a spear"
+msgstr "ein Speer"
+
+msgid "a trident"
+msgstr "ein Dreizack"
+
+msgid "a halberd"
+msgstr "eine Hellebarde"
+
+msgid "a scythe"
+msgstr "eine Sense"
+
+msgid "a demon trident"
+msgstr "ein Dämonendreizack"
+
+msgid "a trishula"
+msgstr "ein Trishula"
+
+msgid "a glaive"
+msgstr "eine Gleve"
+
+msgid "a bardiche"
+msgstr "eine Bardiche"
+
+msgid "a quarterstaff"
+msgstr "ein Kampfstab"
+
+msgid "a lajatang"
+msgstr "ein Lajatang"
+
+# with indefinite article and enchantment
+
+msgid "a %+d club"
+msgstr "eine %+d Keule"
+
+msgid "a %+d whip"
+msgstr "eine %+d Peitsche"
+
+msgid "a %+d mace"
+msgstr "ein %+d Streitkolben"
+
+msgid "a %+d flail"
+msgstr "ein %+d Flegel"
+
+msgid "a %+d morningstar"
+msgstr "ein %+d Morgenstern"
+
+msgid "a %+d demon whip"
+msgstr "eine %+d Dämonenpeitsche"
+
+msgid "a %+d sacred scourge"
+msgstr "eine %+d geistliche Geißel"
+
+msgid "a %+d dire flail"
+msgstr "ein %+d Schreckensflegel"
+
+msgid "an %+d eveningstar"
+msgstr "ein %+d Abendstern"
+
+msgid "a %+d great mace"
+msgstr "ein %+d großer Streitkolben"
+
+msgid "a %+d giant club"
+msgstr "eine %+d Riesenkeule"
+
+msgid "a %+d giant spiked club"
+msgstr "eine %+d riesige Stachelkeule"
+
+msgid "a %+d dagger"
+msgstr "ein %+d Dolch"
+
+msgid "a %+d quick blade"
+msgstr "eine %+d Schnellklinge"
+
+msgid "a %+d short sword"
+msgstr "ein %+d Kurzschwert"
+
+# neut
+msgid "a %+d rapier"
+msgstr "ein %+d Rapier"
+
+# neut
+msgid "a %+d falchion"
+msgstr "ein %+d Falchion"
+
+msgid "a %+d long sword"
+msgstr "ein %+d Langschwert"
+
+msgid "a %+d scimitar"
+msgstr "ein %+d Krummsäbel"
+
+msgid "a %+d demon blade"
+msgstr "eine %+d Dämonenklinge"
+
+msgid "a %+d eudemon blade"
+msgstr "eine %+d Eudämonenklinge"
+
+msgid "a %+d double sword"
+msgstr "ein %+d Doppelschwert"
+
+msgid "a %+d great sword"
+msgstr "ein %+d Großschwert"
+
+msgid "a %+d triple sword"
+msgstr "ein %+d Dreifach-Schwert"
+
+# neut
+msgid "a %+d hand axe"
+msgstr "ein %+d Beil"
+
+msgid "a %+d war axe"
+msgstr "eine %+d Kriegsaxt"
+
+msgid "a %+d broad axe"
+msgstr "eine %+d Breitaxt"
+
+msgid "a %+d battleaxe"
+msgstr "eine %+d Streitaxt"
+
+msgid "a %+d executioner's axe"
+msgstr "eine %+d Henkersaxt"
+
+msgid "a %+d spear"
+msgstr "ein %+d Speer"
+
+msgid "a %+d trident"
+msgstr "ein %+d Dreizack"
+
+msgid "a %+d halberd"
+msgstr "eine %+d Hellebarde"
+
+msgid "a %+d scythe"
+msgstr "eine %+d Sense"
+
+msgid "a %+d demon trident"
+msgstr "ein %+d Dämonendreizack"
+
+msgid "a %+d trishula"
+msgstr "ein %+d Trishula"
+
+msgid "a %+d glaive"
+msgstr "eine %+d Gleve"
+
+msgid "a %+d bardiche"
+msgstr "eine %+d Bardiche"
+
+msgid "a %+d quarterstaff"
+msgstr "ein %+d Kampfstab"
+
+msgid "a %+d lajatang"
+msgstr "ein %+d Lajatang"
+
+
+#################################
+# Launchers
+#################################
+
+msgid "a hunting sling"
+msgstr "eine Schleuder"
+
+msgid "a fustibalus"
+msgstr "ein Fustibalus"
+
+msgid "a hand crossbow"
+msgstr "eine Handarmbrust"
+
+msgid "an arbalest"
+msgstr "eine Armbrust"
+
+msgid "a triple crossbow"
+msgstr "eine Dreifach-Armbrust"
+
+msgid "a shortbow"
+msgstr "ein Kurzbogen"
+
+msgid "a longbow"
+msgstr "ein Langbogen"
+
 
 #################################
 # Missiles
@@ -256,6 +522,26 @@ msgid_plural "%d darts"
 msgstr[0] "ein Wurfpfeil"
 msgstr[1] "%d Wurfpfeile"
 
+msgid "a poisoned dart"
+msgid_plural "%d poisoned darts"
+msgstr[0] "ein Giftwurfpfeil"
+msgstr[1] "%d Giftwurfpfeile"
+
+msgid "a curare dart"
+msgid_plural "%d curare darts"
+msgstr[0] "ein Kurare-Wurfpfeil"
+msgstr[1] "%d Kurare-Wurfpfeile"
+
+msgid "an atropa dart"
+msgid_plural "%d atropa darts"
+msgstr[0] "ein Atropa-Wurfpfeil"
+msgstr[1] "%d Atropa-Wurfpfeile"
+
+msgid "a datura dart"
+msgid_plural "%d datura darts"
+msgstr[0] "ein Datura-Wurfpfeil"
+msgstr[1] "%d Datura-Wurfpfeile"
+
 msgid "a stone"
 msgid_plural "%d stones"
 msgstr[0] "ein Stein"
@@ -272,9 +558,14 @@ msgstr[0] "eine Schleuderkugel"
 msgstr[1] "%d Schleuderkugeln"
 
 msgid "a javelin"
-msgid_plural "%s javelins"
+msgid_plural "%d javelins"
 msgstr[0] "ein Wurfspeer"
 msgstr[1] "%d Wurfspeere"
+
+msgid "a silver javelin"
+msgid_plural "%d silver javelins"
+msgstr[0] "ein Silberwurfspeer"
+msgstr[1] "%d Silberwurfspeere"
 
 msgid "a throwing net"
 msgid_plural "%d throwing nets"
@@ -282,36 +573,917 @@ msgstr[0] "ein Wurfnetz"
 msgstr[1] "%d Wurfnetze"
 
 msgid "a boomerang"
-msgid_plural "%s boomerangs"
+msgid_plural "%d boomerangs"
 msgstr[0] "ein Bumerang"
 msgstr[1] "%d Bumerangs"
+
+msgid "a silver boomerang"
+msgid_plural "%d silver boomerangs"
+msgstr[0] "ein Silberbumerang"
+msgstr[1] "%d Silberbumerangs"
+
+
+#################################
+# Weapon Brands
+#################################
+
+# the first 3 are applied as adjectives
+
+msgid "antimagic "
+msgstr "antimagische "
+
+msgctxt "adj-er"
+msgid "antimagic "
+msgstr "antimagischer "
+
+msgctxt "adj-es"
+msgid "antimagic "
+msgstr "antimagisches "
+
+msgid "vampiric "
+msgstr "vampirische "
+
+msgctxt "adj-er"
+msgid "vampiric "
+msgstr "vampirischer "
+
+msgctxt "adj-es"
+msgid "vampiric "
+msgstr "vampirisches "
+
+msgid "vorpal "
+msgstr "Vorpal-"
+
+# don't think this is used, but it's in the code
+msgid " of acid"
+msgstr " der Säure"
+
+msgid " of chaos"
+msgstr " des Chaos"
+
+msgid " of disruption"
+msgstr " der Störung"
+
+msgid " of distortion"
+msgstr " der Verwindung"
+
+# only on artefact "Wyrmbane"
+msgid " of dragon slaying"
+msgstr " der Drachentötung"
+
+msgid " of draining"
+msgstr " des Entleerens"
+
+msgid " of electrocution"
+msgstr " des Stromschlags"
+
+msgid " of flaming"
+msgstr " des Flammens"
+
+msgid " of freezing"
+msgstr " des Einfrierens"
+
+msgid " of holy wrath"
+msgstr " des heiligen Zorns"
+
+msgid " of pain"
+msgstr " des Schmerzes"
+
+msgid " of protection"
+msgstr " der Verteidigung"
+
+msgid " of penetration"
+msgstr " des Eindringens"
+
+# only on artefact "Sword of Zonguldrok"
+msgid " of reaping"
+msgstr " des Erntens"
+
+msgid " of speed"
+msgstr " der Geschwindigkeit"
+
+msgid " of venom"
+msgstr " des Giftes"
+
+
+#################################
+# Armour
+#################################
+
+msgid "an animal skin"
+msgstr "eine Tierhaut"
+
+msgid "a robe"
+msgstr "eine Robe"
+
+msgid "a leather armour"
+msgstr "eine Lederrüstung"
+
+msgid "a ring mail"
+msgstr "ein Ringpanzer"
+
+msgid "a scale mail"
+msgstr "ein Schuppenpanzer"
+
+msgid "a chain mail"
+msgstr "ein Kettenpanzer"
+
+msgid "a plate armour"
+msgstr "ein Plattenpanzer"
+
+msgid "a crystal plate armour"
+msgstr "ein Kristallplattenpanzer"
+
+msgid "a troll leather armour"
+msgstr "eine Trolllederrüstung"
+
+msgid "a cloak"
+msgstr "ein Umhang"
+
+msgid "a scarf"
+msgstr "ein Schal"
+
+msgid "a pair of gloves"
+msgstr "ein Paar Handschuhe"
+
+msgid "a helmet"
+msgstr "ein Helm"
+
+msgid "a hat"
+msgstr "ein Hut"
+
+msgid "a pair of boots"
+msgstr "ein Paar Stiefel"
+
+msgid "a centaur barding"
+msgstr "ein Zentaurenharnisch"
+
+msgid "a naga barding"
+msgstr "ein Nagaharnisch"
+
+msgid "a buckler"
+msgstr "ein Buckler"
+
+msgid "a kite shield"
+msgstr "ein Kiteschild"
+
+msgid "a tower shield"
+msgstr "ein Turmschild"
+
+msgid "steam dragon scales"
+msgstr "Dampfdrachenschuppen"
+
+msgid "acid dragon scales"
+msgstr "Sauredrachenschuppen"
+
+msgid "quicksilver dragon scales"
+msgstr "Quecksilberdrachenschuppen"
+
+msgid "swamp dragon scales"
+msgstr "Sumpfdrachenschuppen"
+
+msgid "fire dragon scales"
+msgstr "Feuerdrachenschuppen"
+
+msgid "ice dragon scales"
+msgstr "Eisdrachenschuppen"
+
+msgid "pearl dragon scales"
+msgstr "Perlendrachenschuppen"
+
+msgid "storm dragon scales"
+msgstr "Sturmdrachenschuppen"
+
+msgid "shadow dragon scales"
+msgstr "Schattendrachenschuppen"
+
+msgid "gold dragon scales"
+msgstr "Golddrachenschuppen"
+
+# with adjective
+
+msgid "a %sanimal skin"
+msgstr "eine %sTierhaut"
+
+msgid "a %srobe"
+msgstr "eine %sRobe"
+
+msgid "a %sleather armour"
+msgstr "eine {adj-er}%sLederrüstung"
+
+msgid "a %sring mail"
+msgstr "ein {adj-er}%sRingpanzer"
+
+msgid "a %sscale mail"
+msgstr "ein {adj-er}%sSchuppenpanzer"
+
+msgid "a %schain mail"
+msgstr "ein {adj-er}%sKettenpanzer"
+
+msgid "a %splate armour"
+msgstr "ein {adj-er}%sPlattenpanzer"
+
+msgid "a %scrystal plate armour"
+msgstr "eie {adj-er}%sKristallplattenpanzer"
+
+msgid "a %stroll leather armour"
+msgstr "eine %sTrolllederrüstung"
+
+msgid "a %scloak"
+msgstr "ein {adj-er}%sUmhang"
+
+msgid "a %sscarf"
+msgstr "ein {adj-er}%sSchal"
+
+msgid "a %spair of gloves"
+msgstr "ein {adj-es}%sPaar Handschuhe"
+
+msgid "a pair of %sgloves"
+msgstr "ein Paar %sHandschuhe"
+
+msgid "a %spair of %sgloves"
+msgstr "ein {adj-es}%sPaar {adj-e}%sHandschuhe"
+
+msgid "a %shelmet"
+msgstr "ein {adj-er}%sHelm"
+
+msgid "a %shat"
+msgstr "ein {adj-er}%sHut"
+
+msgid "a %spair of boots"
+msgstr "ein {adj-es}%sPaar Stiefel"
+
+msgid "a pair of %sboots"
+msgstr "ein Paar %sStiefel"
+
+msgid "a %spair of %sboots"
+msgstr "ein {adj-es}%sPaar {adj-e}%sStiefel"
+
+msgid "a %scentaur barding"
+msgstr "ein {adj-er}%sZentaurenharnisch"
+
+msgid "a %snaga barding"
+msgstr "ein {adj-er}%sNagaharnisch"
+
+msgid "a %sbuckler"
+msgstr "ein {adj-er}%sBuckler"
+
+msgid "a %skite shield"
+msgstr "ein {adj-es}%sKiteschild"
+
+msgid "a %stower shield"
+msgstr "ein {adj-es}%sTurmschild"
+
+msgid "%ssteam dragon scales"
+msgstr "%sDampfdrachenschuppen"
+
+msgid "%sacid dragon scales"
+msgstr "%sSauredrachenschuppen"
+
+msgid "%squicksilver dragon scales"
+msgstr "%sQuecksilberdrachenschuppen"
+
+msgid "%sswamp dragon scales"
+msgstr "%sSumpfdrachenschuppen"
+
+msgid "%sfire dragon scales"
+msgstr "%sFeuerdrachenschuppen"
+
+msgid "%sice dragon scales"
+msgstr "%sEisdrachenschuppen"
+
+msgid "%spearl dragon scales"
+msgstr "%sPerlendrachenschuppen"
+
+msgid "%sstorm dragon scales"
+msgstr "%sSturmdrachenschuppen"
+
+msgid "%sshadow dragon scales"
+msgstr "%sSchattendrachenschuppen"
+
+msgid "%sgold dragon scales"
+msgstr "%sGolddrachenschuppen"
+
+#################################
+# Weapon/armour adjectives
+#################################
+
+msgid "cursed "
+msgstr "verfluchte "
+
+msgid "uncursed "
+msgstr "unverfluchte "
+
+msgid "enchanted "
+msgstr "verzauberte "
+
+msgid "runed "
+msgstr "gravierte "
+
+msgid "glowing "
+msgstr "glühende "
+
+msgid "embroidered "
+msgstr "bestickte "
+
+msgid "shiny "
+msgstr "glänzende "
+
+msgid "dyed "
+msgstr "gefärbte "
+
+
+msgctxt "adj-er"
+msgid "cursed "
+msgstr "verfluchter "
+
+msgctxt "adj-er"
+msgid "uncursed "
+msgstr "unverfluchter "
+
+msgctxt "adj-er"
+msgid "enchanted "
+msgstr "verzauberter "
+
+msgctxt "adj-er"
+msgid "runed "
+msgstr "gravierter "
+
+msgctxt "adj-er"
+msgid "glowing "
+msgstr "glühender "
+
+msgctxt "adj-er"
+msgid "embroidered "
+msgstr "bestickter "
+
+msgctxt "adj-er"
+msgid "shiny "
+msgstr "glänzender "
+
+msgctxt "adj-er"
+msgid "dyed "
+msgstr "gefärbter "
+
+
+msgctxt "adj-es"
+msgid "cursed "
+msgstr "verfluchtes "
+
+msgctxt "adj-es"
+msgid "uncursed "
+msgstr "unverfluchtes "
+
+msgctxt "adj-es"
+msgid "enchanted "
+msgstr "verzaubertes "
+
+msgctxt "adj-es"
+msgid "runed "
+msgstr "graviertes "
+
+msgctxt "adj-es"
+msgid "glowing "
+msgstr "glühendes "
+
+msgctxt "adj-es"
+msgid "embroidered "
+msgstr "besticktes "
+
+msgctxt "adj-es"
+msgid "shiny "
+msgstr "glänzendes "
+
+msgctxt "adj-es"
+msgid "dyed "
+msgstr "gefärbtes "
+
+
+#################################
+# Scrolls
+#################################
+
+msgid "a scroll labeled %s"
+msgid_plural "%d scrolls labeled %s"
+msgstr[0] "eine Schriftrolle beschriftet mit %s"
+msgstr[1] "%d Schriftrollen beschriftet mit %s"
+
+msgid "a scroll of acquirement"
+msgid_plural "%d scrolls of acquirement"
+msgstr[0] "eine Schriftrolle des Erwerbs"
+msgstr[1] "%d Schriftrollen des Erwerbs"
+
+msgid "a scroll of amnesia"
+msgid_plural "%d scrolls of amnesia"
+msgstr[0] "eine Schriftrolle der Amnesie"
+msgstr[1] "%d Schriftrollen der Amnesie"
+
+msgid "a scroll of blinking"
+msgid_plural "%d scrolls of blinking"
+msgstr[0] "eine Schriftrolle von Flimmern"
+msgstr[1] "%d Schriftrollen von Flimmern"
+
+msgid "a scroll of brand weapon"
+msgid_plural "%d scrolls of brand weapon"
+msgstr[0] "eine Schriftrolle der Waffenmark"
+msgstr[1] "%d Schriftrollen der Waffenmark"
+
+msgid "a scroll of enchant armour"
+msgid_plural "%d scrolls of enchant armour"
+msgstr[0] "eine Schriftrolle der Rüstungsverzauberung"
+msgstr[1] "%d Schriftrollen der Rüstungsverzauberung"
+
+msgid "a scroll of enchant weapon"
+msgid_plural "%d scrolls of enchant weapon"
+msgstr[0] "eine Schriftrolle der Waffenverzauberung"
+msgstr[1] "%d Schriftrollen der Waffenverzauberung"
+
+msgid "a scroll of fear"
+msgid_plural "%d scrolls of fear"
+msgstr[0] "eine Schriftrolle der Angst"
+msgstr[1] "%d Schriftrollen der Angst"
+
+msgid "a scroll of fog"
+msgid_plural "%d scrolls of fog"
+msgstr[0] "eine Schriftrolle des Nebels"
+msgstr[1] "%d Schriftrollen des Nebels"
+
+msgid "a scroll of holy word"
+msgid_plural "%d scrolls of holy word"
+msgstr[0] "eine Schriftrolle des heiligen Wortes"
+msgstr[1] "%d Schriftrollen des heiligen Wortes"
+
+msgid "a scroll of identification"
+msgid_plural "%d scrolls of identification"
+msgstr[0] "eine Schriftrolle der Identifizierung"
+msgstr[1] "%d Schriftrollen der Identifizierung"
+
+msgid "a scroll of immolation"
+msgid_plural "%d scrolls of immolation"
+msgstr[0] "eine Schriftrolle der Verbrennug"
+msgstr[1] "%d Schriftrollen der Verbrennung"
+
+msgid "a scroll of magic mapping"
+msgid_plural "%d scrolls of magic mapping"
+msgstr[0] "eine Schriftrolle der magische Kartierens"
+msgstr[1] "%d Schriftrollen der magische Kartierens"
+
+msgid "a scroll of noise"
+msgid_plural "%d scrolls of noise"
+msgstr[0] "eine Schriftrolle des Lärms"
+msgstr[1] "%d Schriftrollen des Lärms"
+
+msgid "a scroll of random uselessness"
+msgid_plural "%d scrolls of random uselessness"
+msgstr[0] "eine Schriftrolle der zufälligen Nutzlosigkeit"
+msgstr[1] "%d Schriftrollen der zufälligen Nutzlosigkeit"
+
+msgid "a scroll of remove curse"
+msgid_plural "%d scrolls of remove curse"
+msgstr[0] "eine Schriftrolle des Segnens"
+msgstr[1] "%d Schriftrollen des Segnens"
+
+msgid "a scroll of silence"
+msgid_plural "%d scrolls of silence"
+msgstr[0] "eine Schriftrolle der Stille"
+msgstr[1] "%d Schriftrollen der Stille"
+
+msgid "a scroll of summoning"
+msgid_plural "%d scrolls of summoning"
+msgstr[0] "eine Schriftrolle der Beschwörung"
+msgstr[1] "%d Schriftrollen der Beschwörung"
+
+msgid "a scroll of teleportation"
+msgid_plural "%d scrolls of teleportation"
+msgstr[0] "eine Schriftrolle der Teleportation"
+msgstr[1] "%d Schriftrollen der Teleportation"
+
+msgid "a scroll of torment"
+msgid_plural "%d scrolls of torment"
+msgstr[0] "eine Schriftrolle der Qual"
+msgstr[1] "%d Schriftrollen der Qual"
+
+msgid "a scroll of vulnerability"
+msgid_plural "%d scrolls of vulnerability"
+msgstr[0] "eine Schriftrolle der Vulnerabilität"
+msgstr[1] "%d Schriftrollen der Vulnerabilität"
+
+
+#################################
+# Potions
+#################################
+
+msgid "a potion of ambrosia"
+msgid_plural "%d potions of ambrosia"
+msgstr[0] "ein Trank der Ambrosia"
+msgstr[1] "%d Tränke der Ambrosia"
+
+msgid "a potion of berserk rage"
+msgid_plural "%d potions of berserk rage"
+msgstr[0] "ein Trank des Berserkers"
+msgstr[1] "%d Tränke des Berserkers"
+
+msgid "a potion of brilliance"
+msgid_plural "%d potions of brilliance"
+msgstr[0] "ein Trank der Brillanz"
+msgstr[1] "%d Tränke der Brillanz"
+
+msgid "a potion of cancellation"
+msgid_plural "%d potions of cancellation"
+msgstr[0] "ein Trank der Aufhebung"
+msgstr[1] "%d Tränke der Aufhebung"
+
+msgid "a potion of curing"
+msgid_plural "%d potions of curing"
+msgstr[0] "ein Trank des Ausheilens"
+msgstr[1] "%d Tränke des Ausheilens"
+
+msgid "a potion of degeneration"
+msgid_plural "%d potions of degeneration"
+msgstr[0] "ein Trank der Degeneration"
+msgstr[1] "%d Tränke der Degeneration"
+
+msgid "a potion of experience"
+msgid_plural "%d potions of experience"
+msgstr[0] "ein Trank der Erfahrung"
+msgstr[1] "%d Tränke der Erfahrung"
+
+msgid "a potion of flight"
+msgid_plural "%d potions of flight"
+msgstr[0] "ein Trank des Fliegens"
+msgstr[1] "%d Tränke des Fliegens"
+
+msgid "a potion of haste"
+msgid_plural "%d potions of haste"
+msgstr[0] "ein Trank der Geschwindigkeit"
+msgstr[1] "%d Tränke der Geschwindigkeit"
+
+msgid "a potion of heal wounds"
+msgid_plural "%d potions of heal wounds"
+msgstr[0] "ein Heiltrank"
+msgstr[1] "%d Heilränke"
+
+msgid "a potion of invisibility"
+msgid_plural "%d potions of invisibility"
+msgstr[0] "ein Trank der Unsichtbarkeit"
+msgstr[1] "%d Tränke der Unsichtbarkeit"
+
+msgid "a potion of lignification"
+msgid_plural "%d potions of lignification"
+msgstr[0] "ein Trank der Verholzung"
+msgstr[1] "%d Tränke der Verholzung"
+
+msgid "a potion of magic"
+msgid_plural "%d potions of magic"
+msgstr[0] "ein Trank der Magie"
+msgstr[1] "%d Tränke der Magie"
+
+msgid "a potion of might"
+msgid_plural "%d potions of might"
+msgstr[0] "ein Trank der Macht"
+msgstr[1] "%d Tränke der Macht"
+
+msgid "a potion of mutation"
+msgid_plural "%d potions of mutation"
+msgstr[0] "ein Trank der Mutation"
+msgstr[1] "%d Tränke der Mutation"
+
+msgid "a potion of resistance"
+msgid_plural "%d potions of resistance"
+msgstr[0] "ein Trank des Widerstands"
+msgstr[1] "%d Tränke des Widerstands"
+
+msgid "a potion of stabbing"
+msgid_plural "%d potions of stabbing"
+msgstr[0] "ein Trank der Stecherei"
+msgstr[1] "%d Tränke der Stecherei"
+
+# unidentified potions are named "<colour> <potion>"
+# or "<qualifier> <colour> potion"
+
+msgid "a %spotion"
+msgid_plural "%d %spotions"
+msgstr[0] "ein {adj-er}%sZaubertrank"
+msgstr[1] "%d %sZaubertränke"
+
+# potion colours
+
+msgctxt "adj-er"
+msgid "blue "
+msgstr "blauer "
+
+msgctxt "adj-er"
+msgid "black "
+msgstr "schwarzer "
+
+msgctxt "adj-er"
+msgid "silvery "
+msgstr "silberner "
+
+msgctxt "adj-er"
+msgid "cyan "
+msgstr "blaugrüner "
+
+msgctxt "adj-er"
+msgid "purple "
+msgstr "purpurroter "
+
+msgctxt "adj-er"
+msgid "inky "
+msgstr "tintiger "
+
+msgctxt "adj-er"
+msgid "red "
+msgstr "roter "
+
+msgctxt "adj-er"
+msgid "yellow "
+msgstr "gelber "
+
+msgctxt "adj-er"
+msgid "green "
+msgstr "grüner "
+
+msgctxt "adj-er"
+msgid "brown "
+msgstr "brauner "
+
+msgctxt "adj-er"
+msgid "ruby "
+msgstr "rubinroter "
+
+msgctxt "adj-er"
+msgid "white "
+msgstr "weißer "
+
+msgctxt "adj-er"
+msgid "emerald "
+msgstr "smaragdgrüner "
+
+msgctxt "adj-er"
+msgid "grey "
+msgstr "grauer "
+
+msgctxt "adj-er"
+msgid "coppery "
+msgstr "kupferfarbener "
+
+msgctxt "adj-er"
+msgid "golden "
+msgstr "goldener "
+
+msgctxt "adj-er"
+msgid "dark "
+msgstr "dunkler "
+
+msgctxt "adj-er"
+msgid "puce "
+msgstr "braunroter "
+
+msgctxt "adj-er"
+msgid "amethyst "
+msgstr "amethystfarbener "
+
+msgctxt "adj-er"
+msgid "sapphire "
+msgstr "saphirblauer "
+
+# potion colours - plural
+# no context because in German, the -e ending is most common, so treat as default
+
+msgid "blue "
+msgstr "blaue "
+
+msgid "black "
+msgstr "schwarze "
+
+msgid "silvery "
+msgstr "silberne "
+
+msgid "cyan "
+msgstr "blaugrüne "
+
+msgid "purple "
+msgstr "purpurrote "
+
+# undeclined
+msgid "orange "
+msgstr "orange "
+
+msgid "inky "
+msgstr "tintige "
+
+msgid "red "
+msgstr "rote "
+
+msgid "yellow "
+msgstr "gelbe "
+
+msgid "green "
+msgstr "grüne "
+
+msgid "brown "
+msgstr "braune "
+
+msgid "ruby "
+msgstr "rubinrote "
+
+msgid "white "
+msgstr "weiße "
+
+msgid "emerald "
+msgstr "smaragdgrüne "
+
+msgid "grey "
+msgstr "graue "
+
+# undeclined
+msgid "pink "
+msgstr "rosa "
+
+msgid "coppery "
+msgstr "kupferfarbene "
+
+msgid "golden "
+msgstr "goldene "
+
+msgid "dark "
+msgstr "dunkler "
+
+msgid "puce "
+msgstr "braunroter "
+
+msgid "amethyst "
+msgstr "amethystfarbener "
+
+msgid "sapphire "
+msgstr "saphirblauer "
+
+# potion qualifiers
+
+msgctxt "adj-er"
+msgid "bubbling "
+msgstr "sprudelnder "
+
+msgctxt "adj-er"
+msgid "fizzy "
+msgstr "zischender "
+
+msgctxt "adj-er"
+msgid "fuming "
+msgstr "rauchender "
+
+msgctxt "adj-er"
+msgid "smoky "
+msgstr "rauchiger "
+
+msgctxt "adj-er"
+msgid "viscous "
+msgstr "dickflüssiger "
+
+msgctxt "adj-er"
+msgid "lumpy "
+msgstr "klumpiger "
+
+# coverd under weapons/armour
+#msgctxt "adj-er"
+#msgid "glowing "
+#msgstr "glühender "
+
+msgctxt "adj-er"
+msgid "sedimented "
+msgstr "sedimentierter "
+
+msgctxt "adj-er"
+msgid "metallic "
+msgstr "metallischer "
+
+msgctxt "adj-er"
+msgid "murky "
+msgstr "trüber "
+
+msgctxt "adj-er"
+msgid "gluggy "
+msgstr "klebriger "
+
+msgctxt "adj-er"
+msgid "oily "
+msgstr "öliger "
+
+msgctxt "adj-er"
+msgid "slimy "
+msgstr "schleimiger "
+
+msgctxt "adj-er"
+msgid "emulsified "
+msgstr "emulgierter "
+
+# potion qualifiers - plural
+# no context because in German, the -e ending is most common, so treat as default
+
+msgid "bubbling "
+msgstr "sprudelnde "
+
+msgid "fizzy "
+msgstr "zischende "
+
+msgid "fuming "
+msgstr "rauchende "
+
+msgid "smoky "
+msgstr "rauchige "
+
+msgid "viscous "
+msgstr "dickflüssige "
+
+msgid "lumpy "
+msgstr "klumpige "
+
+# covered under weapons/armour
+#msgid "glowing "
+#msgstr "glühende "
+
+msgid "sedimented "
+msgstr "sedimentierte "
+
+msgid "metallic "
+msgstr "metallische "
+
+msgid "murky "
+msgstr "trübe "
+
+msgid "gluggy "
+msgstr "klebrige "
+
+msgid "oily "
+msgstr "ölige "
+
+msgid "slimy "
+msgstr "schleimige "
+
+msgid "emulsified "
+msgstr "emulgierte "
 
 
 #################################
 # Food
 #################################
 
-msgid "ration"
-msgstr ""
+msgid "a ration"
+msgid_plural "%d rations"
+msgstr[0] "eine Ration"
+msgstr[1] "%d Rationen"
 
-msgid "chunk"
-msgstr "Stück"
+msgid "a chunk of flesh"
+msgid_plural "%d chunks of flesh"
+msgstr[0] "ein Fleischstück"
+msgstr[1] "%d Fleischstücke"
 
-msgid "chunk of flesh"
-msgstr "Fleischstück"
+msgid "an inedible chunk of flesh"
+msgid_plural "%d inedible chunks of flesh"
+msgstr[0] "ein ungenießbares Fleischstück"
+msgstr[1] "%d ungenießbare Fleischstücke"
 
-msgid "inedible chunk of flesh"
-msgstr "ungenießbares Fleischstück"
 
-msgid "eggplant"
-msgstr "Aubergine"
+#################################
+# Miscellaneous Items
+#################################
+
+msgid "a box of beasts"
+msgid_plural "%d boxes of beasts"
+msgstr[0] "eine Kiste der Bestien"
+msgstr[1] "%d Kisten der Bestien"
+
+msgid "a lightning rod"
+msgid_plural "%d lightning rods"
+msgstr[0] "eine Blitzstange"
+msgstr[1] "%d Blitzstange"
+
+msgid "a phial of floods"
+msgid_plural "%d phials of floods"
+msgstr[0] "eine Phiole der Überschwemmungen"
+msgstr[1] "%d Phiolen der Überschwemmungen"
+
+msgid "a phantom mirror"
+msgid_plural "%d phantom mirrors"
+msgstr[0] "ein Phantomspiegel"
+msgstr[1] "%d Phantomspiegel"
+
+msgid "a figurine of a ziggurat"
+msgid_plural "%d figurines of a ziggurat"
+msgstr[0] "eine Figur einer Zikkurat"
+msgstr[1] "%d Figuren einer Zikkurat"
+
+msgid "the horn of Geryon"
+msgstr "das Horn von Geryon"
+
 
 #################################
 # Item slots
 #################################
 
 msgid " (melded)"
-msgstr " (integriert)"
+msgstr " (verschmelzt)"
 
 msgid " (weapon)"
 msgstr " (Waffe)"
@@ -340,10 +1512,10 @@ msgstr " (rechte Pfote)"
 # Claw -> die Kralle oder die Klaue?
 
 msgid " (left claw)"
-msgstr " (linke Pfote)"
+msgstr " (linke Kralle)"
 
 msgid " (right claw)"
-msgstr " (rechte Pfote)"
+msgstr " (rechte Kralle)"
 
 # NOTE: This is mantle in the zoological sense (octopode)
 msgid " (around mantle)"
@@ -355,6 +1527,7 @@ msgstr " (um den Hals)"
 msgid " (on tentacle)"
 msgstr " (am Tentakel)"
 
+# finger amulet can wear a ring
 msgid " (on amulet)"
 msgstr " (am Amulett)"
 
@@ -377,11 +1550,6 @@ msgstr "Gottesgeschenk"
 #################################
 # TODO
 #################################
-
-# this is used to show item properties
-#, c-format
-msgid " {%s}"
-msgstr " {%s}"
 
 msgid "shaped "
 msgstr ""
@@ -507,16 +1675,10 @@ msgstr ""
 msgid "speed"
 msgstr ""
 
-msgid "vorpal"
-msgstr ""
-
 msgid "vamp"
 msgstr ""
 
 msgid "pain"
-msgstr ""
-
-msgid "antimagic"
 msgstr ""
 
 msgid "distort"
@@ -580,42 +1742,6 @@ msgid "reaping"
 msgstr ""
 
 msgid "electric"
-msgstr ""
-
-msgid "orc-killing"
-msgstr ""
-
-msgid "dragon-slaying"
-msgstr ""
-
-msgid "venomous"
-msgstr ""
-
-msgid "protective"
-msgstr ""
-
-msgid "fast"
-msgstr ""
-
-msgid "vampiric"
-msgstr ""
-
-msgid "painful"
-msgstr ""
-
-msgid "distorting"
-msgstr ""
-
-msgid "chaotic"
-msgstr ""
-
-msgid "evasive"
-msgstr ""
-
-msgid "confusing"
-msgstr ""
-
-msgid "penetrating"
 msgstr ""
 
 msgid "acidic"
@@ -771,8 +1897,6 @@ msgstr ""
 msgid "clouds"
 msgstr ""
 
-msgid "removedness"
-msgstr ""
 
 msgid "jewelled "
 msgstr ""
@@ -795,8 +1919,8 @@ msgstr ""
 msgid "forked "
 msgstr ""
 
-msgid "shiny "
-msgstr ""
+#msgid "shiny "
+#msgstr ""
 
 msgid "blackened "
 msgstr ""
@@ -804,8 +1928,8 @@ msgstr ""
 msgid "tapered "
 msgstr ""
 
-msgid "glowing "
-msgstr ""
+#msgid "glowing "
+#msgstr ""
 
 msgid "worn "
 msgstr ""
@@ -813,8 +1937,8 @@ msgstr ""
 msgid "encrusted "
 msgstr ""
 
-msgid "runed "
-msgstr ""
+#msgid "runed "
+#msgstr ""
 
 msgid "sharpened "
 msgstr ""
@@ -850,123 +1974,6 @@ msgid "lead"
 msgstr ""
 
 msgid "fluorescent"
-msgstr ""
-
-msgid "curing"
-msgstr ""
-
-msgid "heal wounds"
-msgstr ""
-
-msgid "haste"
-msgstr ""
-
-msgid "might"
-msgstr ""
-
-msgid "stabbing"
-msgstr ""
-
-msgid "brilliance"
-msgstr ""
-
-msgid "flight"
-msgstr ""
-
-msgid "cancellation"
-msgstr ""
-
-msgid "ambrosia"
-msgstr ""
-
-msgid "degeneration"
-msgstr ""
-
-msgid "experience"
-msgstr ""
-
-msgid "magic"
-msgstr ""
-
-msgid "berserk rage"
-msgstr ""
-
-msgid "mutation"
-msgstr ""
-
-msgid "lignification"
-msgstr ""
-
-msgid "identify"
-msgstr ""
-
-msgid "teleportation"
-msgstr ""
-
-msgid "fear"
-msgstr ""
-
-msgid "noise"
-msgstr ""
-
-msgid "remove curse"
-msgstr ""
-
-msgid "summoning"
-msgstr ""
-
-msgid "enchant weapon"
-msgstr ""
-
-msgid "enchant armour"
-msgstr ""
-
-msgid "torment"
-msgstr ""
-
-msgid "random uselessness"
-msgstr ""
-
-msgid "immolation"
-msgstr ""
-
-msgid "blinking"
-msgstr ""
-
-msgid "magic mapping"
-msgstr ""
-
-msgid "fog"
-msgstr ""
-
-msgid "acquirement"
-msgstr ""
-
-msgid "brand weapon"
-msgstr ""
-
-msgid "holy word"
-msgstr ""
-
-msgid "vulnerability"
-msgstr ""
-
-msgid "silence"
-msgstr ""
-
-msgid "amnesia"
-msgstr ""
-
-msgid "curse weapon"
-msgstr ""
-
-msgid "curse armour"
-msgstr ""
-
-msgid "curse jewellery"
-msgstr ""
-
-msgid "obsoleteness"
 msgstr ""
 
 msgid "protection from fire"
@@ -1086,9 +2093,6 @@ msgstr ""
 msgid "amulet of"
 msgstr ""
 
-#, c-format
-msgid "%s %s"
-msgstr ""
 
 msgid "tubular "
 msgstr ""
@@ -1108,17 +2112,14 @@ msgstr ""
 msgid "knobbly "
 msgstr ""
 
-msgid "golden"
-msgstr ""
-
 msgid "tourmaline"
 msgstr ""
 
 msgid "granite"
 msgstr ""
 
-msgid "ruby"
-msgstr ""
+#msgid "ruby"
+#msgstr ""
 
 msgid "marble"
 msgstr ""
@@ -1132,8 +2133,8 @@ msgstr ""
 msgid "diamond"
 msgstr ""
 
-msgid "emerald"
-msgstr ""
+#msgid "emerald"
+#msgstr ""
 
 msgid "peridot"
 msgstr ""
@@ -1150,8 +2151,8 @@ msgstr ""
 msgid "coral"
 msgstr ""
 
-msgid "sapphire"
-msgstr ""
+#msgid "sapphire"
+#msgstr ""
 
 msgid "cabochon"
 msgstr ""
@@ -1183,8 +2184,8 @@ msgstr ""
 msgid "triangular "
 msgstr ""
 
-msgid "lumpy "
-msgstr ""
+#msgid "lumpy "
+#msgstr ""
 
 msgid "zirconium"
 msgstr ""
@@ -1195,14 +2196,14 @@ msgstr ""
 msgid "platinum"
 msgstr ""
 
-msgid "amethyst"
-msgstr ""
+#msgid "amethyst"
+#msgstr ""
 
 msgid "cameo"
 msgstr ""
 
-msgid "blue"
-msgstr ""
+#msgid "blue"
+#msgstr ""
 
 msgid "jasper"
 msgstr ""
@@ -1228,8 +2229,8 @@ msgstr ""
 msgid "icy"
 msgstr ""
 
-msgid "slimy"
-msgstr ""
+#msgid "slimy"
+#msgstr ""
 
 msgid "serpentine"
 msgstr ""
@@ -1255,8 +2256,8 @@ msgstr ""
 msgid "abyssal"
 msgstr ""
 
-msgid "glowing"
-msgstr ""
+#msgid "glowing"
+#msgstr ""
 
 msgid "magical"
 msgstr ""
@@ -1264,8 +2265,8 @@ msgstr ""
 msgid "fiery"
 msgstr ""
 
-msgid "dark"
-msgstr ""
+#msgid "dark"
+#msgstr ""
 
 msgid "horn of Geryon"
 msgstr ""
@@ -1570,41 +2571,7 @@ msgstr ""
 msgid "damnation"
 msgstr ""
 
-msgid "cursed "
-msgstr ""
-
-msgid "uncursed "
-msgstr ""
-
 msgid "+∞ "
-msgstr ""
-
-#, c-format
-msgid "%+d "
-msgstr ""
-
-#, c-format
-msgid "%s (%s)"
-msgstr ""
-
-#, c-format
-msgid "vampiric %s"
-msgstr ""
-
-#, c-format
-msgid "antimagic %s"
-msgstr ""
-
-#, c-format
-msgid "vorpal %s"
-msgstr ""
-
-#, c-format
-msgid "enchanted %s"
-msgstr ""
-
-#, c-format
-msgid "%s of %s"
 msgstr ""
 
 msgid "x) "
@@ -1619,124 +2586,13 @@ msgstr ""
 msgid " of "
 msgstr ""
 
-msgid "enchanted "
-msgstr ""
-
 msgid "pair of "
-msgstr ""
-
-msgid "embroidered "
-msgstr ""
-
-msgid "dyed "
 msgstr ""
 
 msgid "wand of "
 msgstr ""
 
 msgid " wand"
-msgstr ""
-
-msgid "potion of "
-msgstr ""
-
-msgid "bubbling "
-msgstr ""
-
-msgid "fuming "
-msgstr ""
-
-msgid "fizzy "
-msgstr ""
-
-msgid "viscous "
-msgstr ""
-
-msgid "smoky "
-msgstr ""
-
-msgid "sedimented "
-msgstr ""
-
-msgid "metallic "
-msgstr ""
-
-msgid "murky "
-msgstr ""
-
-msgid "gluggy "
-msgstr ""
-
-msgid "oily "
-msgstr ""
-
-msgid "slimy "
-msgstr ""
-
-msgid "emulsified "
-msgstr ""
-
-msgid "clear"
-msgstr ""
-
-msgid "black"
-msgstr ""
-
-msgid "silvery"
-msgstr ""
-
-msgid "cyan"
-msgstr ""
-
-msgid "purple"
-msgstr ""
-
-msgid "orange"
-msgstr ""
-
-msgid "inky"
-msgstr ""
-
-msgid "red"
-msgstr ""
-
-msgid "yellow"
-msgstr ""
-
-msgid "green"
-msgstr ""
-
-msgid "brown"
-msgstr ""
-
-msgid "white"
-msgstr ""
-
-msgid "grey"
-msgstr ""
-
-msgid "pink"
-msgstr ""
-
-msgid "coppery"
-msgstr ""
-
-msgid "puce"
-msgstr ""
-
-msgid "bug-filled "
-msgstr ""
-
-msgid "bogus"
-msgstr ""
-
-msgid " potion"
-msgstr ""
-
-msgid "of "
-msgstr ""
-
-msgid "labeled "
 msgstr ""
 
 msgid "amulet"
@@ -1833,237 +2689,6 @@ msgid ""
 "white>"
 msgstr ""
 
-msgid "plog"
-msgstr ""
-
-msgid "aeiouaeiouaeiouy  "
-msgstr ""
-
-msgid "bcdfghjklmnpqrstvwxzcdfghlmnrstlmnrst"
-msgstr ""
-
-msgid "kl"
-msgstr ""
-
-msgid "gr"
-msgstr ""
-
-msgid "cl"
-msgstr ""
-
-msgid "cr"
-msgstr ""
-
-msgid "fr"
-msgstr ""
-
-msgid "pr"
-msgstr ""
-
-msgid "tr"
-msgstr ""
-
-msgid "tw"
-msgstr ""
-
-msgid "br"
-msgstr ""
-
-msgid "pl"
-msgstr ""
-
-msgid "bl"
-msgstr ""
-
-msgid "str"
-msgstr ""
-
-msgid "shr"
-msgstr ""
-
-msgid "thr"
-msgstr ""
-
-msgid "sm"
-msgstr ""
-
-msgid "sh"
-msgstr ""
-
-msgid "ch"
-msgstr ""
-
-msgid "th"
-msgstr ""
-
-msgid "ph"
-msgstr ""
-
-msgid "pn"
-msgstr ""
-
-msgid "kh"
-msgstr ""
-
-msgid "gh"
-msgstr ""
-
-msgid "mn"
-msgstr ""
-
-msgid "ps"
-msgstr ""
-
-msgid "st"
-msgstr ""
-
-msgid "sk"
-msgstr ""
-
-msgid "sch"
-msgstr ""
-
-msgid "ts"
-msgstr ""
-
-msgid "cs"
-msgstr ""
-
-msgid "xt"
-msgstr ""
-
-msgid "nt"
-msgstr ""
-
-msgid "ll"
-msgstr ""
-
-msgid "rr"
-msgstr ""
-
-msgid "ss"
-msgstr ""
-
-msgid "wk"
-msgstr ""
-
-msgid "wn"
-msgstr ""
-
-msgid "ng"
-msgstr ""
-
-msgid "cw"
-msgstr ""
-
-msgid "mp"
-msgstr ""
-
-msgid "ck"
-msgstr ""
-
-msgid "nk"
-msgstr ""
-
-msgid "dd"
-msgstr ""
-
-msgid "tt"
-msgstr ""
-
-msgid "bb"
-msgstr ""
-
-msgid "pp"
-msgstr ""
-
-msgid "nn"
-msgstr ""
-
-msgid "mm"
-msgstr ""
-
-msgid "kk"
-msgstr ""
-
-msgid "gg"
-msgstr ""
-
-msgid "ff"
-msgstr ""
-
-msgid "pt"
-msgstr ""
-
-msgid "tz"
-msgstr ""
-
-msgid "dgh"
-msgstr ""
-
-msgid "rgh"
-msgstr ""
-
-msgid "rph"
-msgstr ""
-
-msgid "rch"
-msgstr ""
-
-msgid "cz"
-msgstr ""
-
-msgid "xk"
-msgstr ""
-
-msgid "zx"
-msgstr ""
-
-msgid "xz"
-msgstr ""
-
-msgid "cv"
-msgstr ""
-
-msgid "vv"
-msgstr ""
-
-msgid "nl"
-msgstr ""
-
-msgid "rh"
-msgstr ""
-
-msgid "dw"
-msgstr ""
-
-msgid "nw"
-msgstr ""
-
-msgid "khl"
-msgstr ""
-
-msgid "w"
-msgstr ""
-
-msgid "can't write test output"
-msgstr ""
-
-#, c-format
-msgid "%s\n"
-msgstr ""
-
-#, c-format
-msgid ""
-"\n"
-"Longest: %s (%d)\n"
-msgstr ""
-
-msgid "jiyva_names.out"
-msgstr ""
-
-msgid "scroll_names.out"
-msgstr ""
 
 msgid "identified"
 msgstr ""

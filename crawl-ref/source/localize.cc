@@ -10,6 +10,7 @@
 #include <vector>
 #include <cstdarg>
 #include <cstdlib>
+#include <regex>
 #include <typeinfo>
 using namespace std;
 
@@ -294,18 +295,378 @@ static void _resolve_escapes(string& str)
     _replace_all(str, "\\}", "}");
 }
 
-// localize a string with count
-static string _localize_string(const string& context, const string& singular,
-		                       const string& plural, const int count)
+
+static string _localize_annotation(const string& s)
 {
-    string result;
-    result = cnxlate(context, singular, plural, count);
-    if (contains(result, "%"))
-        result = make_stringf(result.c_str(), count);
+    string result = xlate(s);
+    if (result != s)
+        return result;
+
+    // TODO: break it down
+
+    return s;
+}
+
+static list<string> _localize_annotations(const list<string>& input)
+{
+    list<string> output;
+
+    list<string>::const_iterator iter;
+    for (iter = input.begin(); iter != input.end(); ++iter)
+    {
+        output.push_back(_localize_annotation(*iter));
+    }
+
+    return output;
+}
+
+
+/**
+ * strip annotations in curly or round brackets from end of string
+ *
+ * @param  s            the string
+ * @param  annotations  stripped annotations will be returned in this list
+ * @return the string with the annotations stripped off
+ */
+static string _strip_annotations(const string& s, list<string>& annotations)
+{
+    string rest = s;
+    size_t pos;
+
+    while ((pos = rest.find_last_of("{(")) != string::npos)
+    {
+        // get the leading whitespace as well
+        while(pos > 0 && rest[pos-1] == ' ')
+            pos--;
+
+        annotations.push_front(rest.substr(pos));
+        rest = rest.substr(0, pos);
+    }
+    return rest;
+}
+
+/*
+ * Add annotations to the end of a string
+ * No brackets or whitespace are added because it's expected that the
+ * annotations contain those already
+ */
+static string _add_annotations(const string& s, const list<string>& annotations)
+{
+    string result = s;
+
+    list<string>::const_iterator iter;
+    for (iter = annotations.begin(); iter != annotations.end(); ++iter)
+    {
+        result += *iter;
+    }
+
     return result;
 }
 
-// localize a singlular string
+/*
+ * Strip count from a string like "27 arrows"
+ *
+ * @param  s      the string
+ * @param  count  the count will be returned here
+ * @return the string with the count and following spaces removed
+ */
+static string _strip_count(const string& s, int& count)
+{
+    if (s.empty() || !isdigit(s[0]))
+    {
+        return s;
+    }
+
+    size_t pos;
+    count = stoi(s, &pos);
+
+    string rest = s.substr(pos);
+    return trim_string_left(rest);
+}
+
+// forward declarations
+static string _localize_string(const string& context, const string& value);
+static string _localize_counted_string(const string& context, const string& singular,
+                                       const string& plural, const int count);
+// localize counted string when you only have the plural
+static string _localize_counted_string(const string& context, const string& value);
+static string _localize_list(const string& context, const string& value);
+
+static string _localize_labeled_scroll(const string& context, const string& name)
+{
+    static const string pattern = " labeled ";
+
+    size_t pos = name.find(pattern);
+    if (pos == string::npos)
+    {
+        // not a labeled scroll
+        return name;
+    }
+
+    // separate the label from the rest
+    pos += pattern.length();
+    string label = name.substr(pos);
+    label = cxlate(context, label);
+
+    string rest = name.substr(0, pos);
+    rest += "%s";
+
+    string result;
+    if (isdigit(rest[0]))
+    {
+        // plural
+        int count;
+        string plural = _strip_count(rest, count);
+        string singular = replace_first(plural, "scrolls", "scroll");
+        singular = article_a(singular);
+        plural = "%d " + plural;
+        result = cnxlate(context, singular, plural, count);
+        return make_stringf(result.c_str(), count, label.c_str());
+    }
+    else
+    {
+        // singular
+        result = cxlate(context, rest);
+        return make_stringf(result.c_str(), label.c_str());
+    }
+}
+
+// try to localize complex item name
+//
+// Some examples:
+//   a +0 broad axe
+//   a +7 broad axe of flaming
+//   the +11 broad axe "Jetioplo" (weapon) {vorpal, Str+4}
+//   the +18 shield of the Gong (worn) {rElec rN+ MR+ EV-5}
+//   the +2 pair of boots of Boqauskewui (worn) {*Contam rN+++ rCorr SInv}
+//
+//
+static string _localize_complex_item_name(const string& context, const string& item)
+{
+    if (item.empty())
+    {
+        return item;
+    }
+
+    // break it up
+    string determiner, count, base, name_or_brand;
+    bool named_owner = false;
+
+    vector<string> tokens = split_string(" ", item, true);
+    for (size_t i = 0; i < tokens.size(); i++)
+    {
+        const string& token = tokens[i];
+        if (i == 0)
+        {
+            string tok_lower = lowercase_string(token);
+            if (tok_lower == "a" || tok_lower == "an" || tok_lower == "the"
+                     || tok_lower == "his" || tok_lower == "her" || tok_lower == "its"
+                     || tok_lower == "their" || tok_lower == "your")
+            {
+                determiner = tok_lower;
+                continue;
+            }
+            else if (ends_with(token,"'s"))
+            {
+                // determiner is a possessive like "the orc's" or "Sigmund's"
+                determiner = token;
+                named_owner = true;
+                continue;
+            }
+        }
+
+        if (!name_or_brand.empty())
+        {
+            // add to the brand or artefact name
+            name_or_brand += " " + token;
+        }
+        else if (token[0] == '"' || (token == "of" && i > 0 && tokens[i-1] != "pair"))
+        {
+            // start of brand or artefact name
+            name_or_brand = " " + token;
+        }
+        else if (regex_match(token, regex("^[0-9]+$")))
+        {
+            count = token;
+        }
+        else if (!base.empty())
+        {
+            base += " " + token;
+        }
+        else
+        {
+            base = token;
+        }
+    }
+
+    string result;
+    bool success = false;
+
+    // change his/her/its/their to a/an for ease of translation
+    // (owner may not have the same gender in other languages)
+    if (determiner == "his" || determiner == "her" || determiner == "its" || determiner == "their")
+    {
+        determiner = base.find_first_of("aeiou") == 0 ? "an" : "a";
+    }
+
+    // try to construct a string that can be translated
+
+    vector<string> words = split_string(" ", base, true);
+    for (size_t i = 0; i < words.size() && !success; i++)
+    {
+        string noun;
+
+        if (!determiner.empty())
+        {
+            noun = named_owner ? "%s" : determiner;
+            noun += " ";
+        }
+        if (!count.empty())
+        {
+            noun += count + " ";
+        }
+        // placeholder for adjectives
+        noun += i > 0 ? "%s" : "";
+
+        for (size_t j = i; j < words.size(); j++)
+        {
+            noun += j == i ? "" : " ";
+            noun += words[j];
+        }
+
+        string branded_noun = noun + name_or_brand;
+
+        // first, try with brand attached
+        result = count.empty()
+                 ? cxlate(context, branded_noun)
+                 : _localize_counted_string(context, branded_noun);
+        success = (result != branded_noun);
+
+
+        if (!success)
+        {
+            // now try without brand attached
+            result = count.empty()
+                     ? cxlate(context, noun)
+                     : _localize_counted_string(context, noun);
+            success = (result != noun);
+
+            if (success)
+            {
+                // TODO: make this better
+                result += cxlate(context, name_or_brand);
+            }
+        }
+
+        if (success)
+        {
+            if (named_owner)
+            {
+                string owner = cxlate(context, determiner);
+                result = replace_first(result, "%s", owner);
+            }
+
+            if (i != 0)
+            {
+                size_t pos = result.find("%s");
+                if (pos != string:: npos)
+                {
+                    // find the context for the adjectives
+                    string new_context = context;
+                    size_t ctx_pos = result.rfind("{", pos);
+                    if (ctx_pos != string::npos)
+                    {
+                        size_t ctx_end = result.find("}", ctx_pos);
+                        if (ctx_end != string::npos)
+                        {
+                            new_context = result.substr(ctx_pos + 1, ctx_end - ctx_pos - 1);
+                            result.erase(ctx_pos, ctx_end - ctx_pos +1);
+                        }
+                    }
+                    // localize adjectives
+                    string adjectives;
+                    for (size_t k = 0; k < i; k++)
+                    {
+                        adjectives += cxlate(new_context, words[k] + " ");
+                    }
+                    result = replace_first(result, "%s", adjectives);
+                }
+            }
+
+            return result;
+        }
+
+    }
+
+    // failed
+    return item;
+}
+
+// localize a string containing a list of things (joined by commas, "and", "or")
+// does nothing if input is not a list
+static string _localize_list(const string& context, const string& s)
+{
+    static vector<string> separators = {",", " or ", " and "};
+
+    // annotations can contain commas, so remove them for the moment
+    list<string> annotations;
+    string value = _strip_annotations(s, annotations);
+
+    std::vector<string>::iterator it;
+    for (it = separators.begin(); it != separators.end(); ++it)
+    {
+        string sep = *it;
+        // split on the first separator only
+        vector<string> tokens = split_string(sep, value, true, true, 1);
+        // there should only ever be 1 or 2 tokens
+        if (tokens.size() == 2)
+        {
+            // restore annotations
+            tokens[1] = _add_annotations(tokens[1], annotations);
+
+            string fmt = "%s" + sep + (sep == "," ? " " : "") + "%s";
+            fmt = cxlate(context, fmt);
+            // the tokens could be lists themselves
+            string tok0 = _localize_string(context, tokens[0]);
+            string tok1 = _localize_string(context, tokens[1]);
+            return make_stringf(fmt.c_str(), tok0.c_str(), tok1.c_str());
+        }
+    }
+
+    // not a list
+    return s;
+}
+
+
+// localize a string with count
+static string _localize_counted_string(const string& context, const string& singular,
+                                       const string& plural, const int count)
+{
+    string result;
+    result = cnxlate(context, singular, plural, count);
+    ostringstream cnt;
+    cnt << count;
+    result = replace_first(result, "%d", cnt.str());
+    return result;
+}
+
+// localize counted string when you only have the plural
+static string _localize_counted_string(const string& context, const string& value)
+{
+    if (value.empty() || !isdigit(value[0]))
+    {
+        return value;
+    }
+
+    int count;
+    string plural = _strip_count(value, count);
+    string singular = article_a(singularise(plural));
+    plural = "%d " + plural;
+
+    return _localize_counted_string(context, singular, plural, count);
+}
+
+// localize a singular string
 static string _localize_string(const string& context, const string& value)
 {
     if (value.empty())
@@ -320,47 +681,68 @@ static string _localize_string(const string& context, const string& value)
         return result;
     }
 
-    // check if this is a list, and if so, try to localize each individual element
-    static vector<string> separators = {",", " or ", " and "};
-
-    std::vector<string>::iterator it;
-    for (it = separators.begin(); it != separators.end(); ++it)
+    string trimmed = trimmed_string(value);
+    if (trimmed.length() < 8 || count_occurrences(trimmed, " ") < 2)
     {
-        string sep = *it;
-        vector<string> tokens = split_string(sep, value, true, true, 1);
-        // there should only ever be 1 or 2 tokens
-        if (tokens.size() == 2)
+        // There's no point trying anything further
+        return value;
+    }
+
+    // remove annotations
+    list<string> annotations;
+    string rest = _strip_annotations(value, annotations);
+
+    if (!annotations.empty())
+    {
+        annotations = _localize_annotations(annotations);
+
+        if (rest.empty())
         {
-            string fmt = "%s" + sep + (sep == "," ? " " : "") + "%s";
-            fmt = cxlate(context, fmt);
-            // the tokens could be lists themselves
-            string tok0 = _localize_string(context, tokens[0]);
-            string tok1 = _localize_string(context, tokens[1]);
-            result = make_stringf(fmt.c_str(), tok0.c_str(), tok1.c_str());
-            break;
+            return _add_annotations(rest, annotations);
+        }
+
+        result = cxlate(context, rest);
+        if (result != rest)
+        {
+            return _add_annotations(result, annotations);
         }
     }
-    if (result != value)
+
+    if (contains(rest, "labeled") && contains(rest, "scroll"))
     {
-        return result;
+        result = _localize_labeled_scroll(context, rest);
+        return _add_annotations(result, annotations);
     }
 
-    if (isdigit(value[0]))
+    if (isdigit(rest[0]))
     {
         // probably a plural
-        size_t pos;
-        int count = stoi(value, &pos);
-
-        string plural = value.substr(pos);
-        trim_string_left(plural);
-
+        int count;
+        string plural = _strip_count(rest, count);
         string singular = article_a(singularise(plural));
         plural = "%d " + plural;
 
-        result = _localize_string(context, singular, plural, count);
+        result = _localize_counted_string(context, singular, plural, count);
+        if (result != rest)
+        {
+            return _add_annotations(result, annotations);
+        }
     }
 
-    return result;
+    // try treating it as a complex item name
+    result = _localize_complex_item_name(context, rest);
+    if (result != rest)
+    {
+        return _add_annotations(result, annotations);
+    }
+
+    if (contains(value, ",") || contains(value, " and ") or contains(value, " or "))
+    {
+        // try treating it as a list
+        return _localize_list(context, value);
+    }
+
+    return value;
 }
 
 static string _localize_string(const string& context, const LocalizationArg& arg)
@@ -368,7 +750,8 @@ static string _localize_string(const string& context, const LocalizationArg& arg
     if (arg.plural.empty())
         return _localize_string(context, arg.stringVal);
     else
-        return _localize_string(context, arg.stringVal, arg.plural, arg.count);
+        return _localize_counted_string(context, arg.stringVal,
+                                        arg.plural, arg.count);
 }
 
 void LocalizationArg::init()
@@ -456,6 +839,8 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
         return "";
     }
 
+    bool success = false;
+
     // first argument is the format string
     LocalizationArg fmt_arg = args.at(0);
 
@@ -464,6 +849,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
     if (fmt_arg.translate)
     {
         fmt_xlated = _localize_string("", fmt_arg);
+        success = (fmt_xlated != fmt_arg.stringVal);
     }
     else
     {
@@ -541,6 +927,8 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
                         {
                             argx = _localize_string(context, arg);
                             ss << make_stringf(fmt_spec.c_str(), argx.c_str());
+                            if (argx != arg.stringVal)
+                                success = true;
                         }
                     }
                     else
@@ -584,10 +972,9 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
 
     string result = ss.str();
 
-    if (fmt_arg.translate && fmt_xlated == fmt_arg.stringVal)
+    if (args.size() > 1 && fmt_arg.translate && !success)
     {
-        // there was no translation for the format string,
-        // but there may be a translation for the completed string
+        // there may be a translation for the completed string
         result = localize(result);
     }
 
