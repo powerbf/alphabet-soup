@@ -15,6 +15,7 @@ Fantasy:
 [9]https://harrypotter.fandom.com/de
 [10]https://rorschachhamster.wordpress.com/2017/12/14/vollstaendige-waffenliste-fuer-swords-wizardry-und-regelideen-dazu/
 [11]https://elderscrolls.fandom.com/de/wiki
+[12]http://splitterwiki.de/wiki
 
 Notes
 -----
@@ -22,5 +23,17 @@ Notes
 The German word Stab means both staff and wand. One can distinguish Zauberstab (magic wand/staff) from Kampfstab (fighting staff), but how do you distinguish a magical staff from a magic wand. Seems like Harry Potter's wand is ein Zauberstab, but so is Gandalf's staff.
 Also, there doesn't seem to be a specific German word for Quarterstaff. It's just called Kampfstab in [5].
 
+[5] has might = Stärke, but that means strength, so I went for Macht.
 
+heroism = Heldenmut [5]
+transmutation = Verwandlung [5]
+experience points = Erfahrungspubkte [5]
+rage = Kampfrausch (lit. battle frenzy) [5]
+abjuration = Bannmagie [5]
+banishment = Verbannung [5]
+
+conjure = beschwören [5]
+but also: summon = beschwören [5]
+
+melee = Nahkampf [12]
 
