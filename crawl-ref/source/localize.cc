@@ -277,6 +277,22 @@ static map<int, const type_info*> _get_arg_types(const string& fmt)
     return results;
 }
 
+static bool is_determiner(const string& word)
+{
+    if (ends_with(word, "'s"))
+        return true;
+
+    string lower = lowercase_string(word);
+    if (lower == "a" || lower == "an" || lower == "the"
+             || lower == "his" || lower == "her" || lower == "its"
+             || lower == "their" || lower == "your")
+    {
+        return true;
+    }
+
+    return false;
+}
+
 // replace all instances of given substring
 // std::regex_replace would do this, but not sure if available on all platforms
 static void _replace_all(std::string& str, const std::string& patt, const std::string& replace)
@@ -335,6 +351,13 @@ static string _strip_annotations(const string& s, list<string>& annotations)
 
     while ((pos = rest.find_last_of("{(")) != string::npos)
     {
+        // check for matching bracket
+        char last_char = rest[rest.length()-1];
+        if (rest[pos] == '{' && last_char != '}')
+            break;
+        if (rest[pos] == '(' && last_char != ')')
+            break;
+
         // get the leading whitespace as well
         while(pos > 0 && rest[pos-1] == ' ')
             pos--;
@@ -384,6 +407,77 @@ static string _strip_count(const string& s, int& count)
     return trim_string_left(rest);
 }
 
+// searcj for context in curly braces before pos and strip it out
+static string _strip_context(const string& s, size_t pos, string& context)
+{
+    size_t ctx_start, ctx_end;
+
+    ctx_end = s.rfind("}", pos);
+    if (ctx_end == string::npos || ctx_end == 0)
+        return s;
+
+    ctx_start = s.rfind("{", ctx_end-1);
+    if (ctx_start == string::npos)
+        return s;
+
+    // get context, excluding curlies
+    context = s.substr(ctx_start+1, ctx_end - ctx_start - 1);
+
+    string result = s;
+    // erase context, including curlies
+    result.erase(ctx_start, ctx_end - ctx_start + 1);
+
+    return result;
+}
+
+static string _insert_adjectives(const string& context, const string& s, const vector<string>& adjs)
+{
+    // translate and join adjectives
+    string adj;
+    for (size_t i = 0; i < adjs.size(); i++)
+        adj += cxlate(context, adjs[i] + " ");
+
+    // insert
+    return replace_first(s, "%s", adj);
+}
+
+// insert adjectives at first %s, automatically extracting any context
+static string _insert_adjectives(const string& s, const vector<string>& adjs)
+{
+    size_t pos = s.find("%s");
+    if (pos == string::npos)
+        return s;
+
+    // get context
+    string context;
+    string result = _strip_context(s, pos, context);
+
+    return _insert_adjectives(context, result, adjs);
+}
+
+// check if string is actually a list of things
+static bool is_list(const string& s)
+{
+    if (contains(s, ",") || contains(s, " and ") || contains(s, " or "))
+    {
+        // probably a list, but annotations can contain these elements
+        // and so can artefact names
+
+        // this is a specific artefact name
+        if (contains(s, "Dice, Bag, and Bottle"))
+            return false;
+
+        list<string> annotations;
+        string rest = _strip_annotations(s, annotations);
+
+        if (contains(s, ",") || contains(s, " and ") || contains(s, " or "))
+            return true;
+    }
+
+    return false;
+}
+
+
 // forward declarations
 static string _localize_string(const string& context, const string& value);
 static string _localize_counted_string(const string& context, const string& singular,
@@ -392,14 +486,14 @@ static string _localize_counted_string(const string& context, const string& sing
 static string _localize_counted_string(const string& context, const string& value);
 static string _localize_list(const string& context, const string& value);
 
-static string _localize_labeled_scroll(const string& context, const string& name)
+static string _localize_unidentified_scroll(const string& context, const string& name)
 {
     static const string pattern = " labeled ";
 
     size_t pos = name.find(pattern);
     if (pos == string::npos)
     {
-        // not a labeled scroll
+        // not an unidentified scroll
         return name;
     }
 
@@ -414,23 +508,97 @@ static string _localize_labeled_scroll(const string& context, const string& name
     string result;
     if (isdigit(rest[0]))
     {
-        // plural
         int count;
         string plural = _strip_count(rest, count);
-        string singular = replace_first(plural, "scrolls", "scroll");
-        singular = article_a(singular);
+        string singular = article_a(replace_first(plural, "scrolls", "scroll"));
         plural = "%d " + plural;
-        result = cnxlate(context, singular, plural, count);
-        return make_stringf(result.c_str(), count, label.c_str());
+        result = _localize_counted_string(context, singular, plural, count);
     }
     else
     {
         // singular
         result = cxlate(context, rest);
-        return make_stringf(result.c_str(), label.c_str());
     }
+
+    return replace_last(result, "%s", label);
 }
 
+// localize a pair of boots/gloves
+// they can have adjectives in 2 places (e.g. "an uncursed pair of glowing boots")
+static string _localize_pair(const string& context, const string& name)
+{
+    if (!contains(name, "pair of "))
+        return name;
+
+    if (!contains(name, " boots") && !contains(name, " gloves"))
+        return name;
+
+    // break it up
+    vector<string> adj_group1, adj_group2;
+    string base, suffix;
+    vector<string> words = split_string(" ", name, true);
+    for (size_t i = 0; i < words.size(); i++)
+    {
+        const string& word = words[i];
+        if (i == 0)
+        {
+            string det = lowercase_string(word);
+            if (is_determiner(det))
+            {
+                base = det == "an" ? "a" : det;
+                base += " ";
+                continue;
+            }
+        }
+
+        if (word == "pair")
+            base += "%s" + word;
+        else if (word == "of" && i > 0 && words[i-1] == "pair")
+            base += " " + word;
+        else if (word == "boots" || word == "gloves")
+            base += (adj_group2.empty() ? " " : " %s") + word;
+        else if (word == "of")
+            suffix = " " + word;
+        else if (!suffix.empty())
+            suffix += " " + word;
+        else if (contains(base, "pair"))
+            adj_group2.push_back(word);
+        else
+            adj_group1.push_back(word);
+    }
+
+    string result;
+    if (suffix.empty())
+        result = cxlate(context, base);
+    else
+    {
+        result = cxlate(context, base + suffix);
+        if (result == base + suffix)
+        {
+            result = cxlate(context, base) + cxlate(context, suffix);
+        }
+    }
+
+    // first set of adjectives (before the word "pair")
+    string ctx1;
+    size_t pos = result.find("%s");
+    if (pos != string::npos)
+    {
+        result = _strip_context(result, pos, ctx1);
+        result = _insert_adjectives(ctx1, result, adj_group1);
+    }
+
+    // second set of adjectives (before the word "boots"/"gloves")
+    string ctx2 = ctx1;
+    size_t pos2 = result.find("%s");
+    if (pos2 != string::npos)
+    {
+        result = _strip_context(result, pos2, ctx2);
+        result = _insert_adjectives(ctx2, result, adj_group2);
+    }
+
+    return result;
+}
 // try to localize complex item name
 //
 // Some examples:
@@ -497,6 +665,12 @@ static string _localize_complex_item_name(const string& context, const string& i
         {
             base = token;
         }
+    }
+
+    if (determiner.empty() && !isdigit(item[0]))
+    {
+        // this is not an item name
+        return item;
     }
 
     string result;
@@ -666,7 +840,7 @@ static string _localize_counted_string(const string& context, const string& valu
     return _localize_counted_string(context, singular, plural, count);
 }
 
-// localize a singular string
+// localize a string
 static string _localize_string(const string& context, const string& value)
 {
     if (value.empty())
@@ -674,17 +848,32 @@ static string _localize_string(const string& context, const string& value)
         return value;
     }
 
+    // try simple translation
     string result = cxlate(context, value);
     if (result != value)
-    {
-        // got a hit
         return result;
-    }
+
+    // try treating as a plural
+    result = _localize_counted_string(context, value);
+    if (result != value)
+        return result;
+
 
     string trimmed = trimmed_string(value);
-    if (trimmed.length() < 8 || count_occurrences(trimmed, " ") < 2)
+    if (trimmed.length() < 6)
     {
         // There's no point trying anything further
+        return value;
+    }
+
+    if (is_list(value))
+    {
+        return _localize_list(context, value);
+    }
+
+    if (count_occurrences(trimmed, " ") < 2)
+    {
+        // Too simple. There's no point trying anything further
         return value;
     }
 
@@ -701,32 +890,27 @@ static string _localize_string(const string& context, const string& value)
             return _add_annotations(rest, annotations);
         }
 
+        // try simple translation again
         result = cxlate(context, rest);
         if (result != rest)
-        {
             return _add_annotations(result, annotations);
-        }
+
+        // try treating as a plural again
+        result = _localize_counted_string(context, rest);
+        if (result != rest)
+            return _add_annotations(result, annotations);
     }
 
-    if (contains(rest, "labeled") && contains(rest, "scroll"))
+    if (contains(rest, "scroll"))
     {
-        result = _localize_labeled_scroll(context, rest);
+        result = _localize_unidentified_scroll(context, rest);
         return _add_annotations(result, annotations);
     }
-
-    if (isdigit(rest[0]))
+    else if (contains(rest, "pair of "))
     {
-        // probably a plural
-        int count;
-        string plural = _strip_count(rest, count);
-        string singular = article_a(singularise(plural));
-        plural = "%d " + plural;
-
-        result = _localize_counted_string(context, singular, plural, count);
-        if (result != rest)
-        {
-            return _add_annotations(result, annotations);
-        }
+        // pair of boots/gloves
+        result = _localize_pair(context, rest);
+        return _add_annotations(result, annotations);
     }
 
     // try treating it as a complex item name
@@ -734,12 +918,6 @@ static string _localize_string(const string& context, const string& value)
     if (result != rest)
     {
         return _add_annotations(result, annotations);
-    }
-
-    if (contains(value, ",") || contains(value, " and ") or contains(value, " or "))
-    {
-        // try treating it as a list
-        return _localize_list(context, value);
     }
 
     return value;
@@ -975,7 +1153,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
     if (args.size() > 1 && fmt_arg.translate && !success)
     {
         // there may be a translation for the completed string
-        result = localize(result);
+        result = _localize_string("", result);
     }
 
     if (capitalize)
