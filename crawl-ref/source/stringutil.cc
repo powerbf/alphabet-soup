@@ -300,6 +300,18 @@ string replace_first(const string &s, const string &tofind, const string &replac
     return result;
 }
 
+// Replace last occurrence of <tofind> with <replacement>
+string replace_last(const string &s, const string &tofind, const string &replacement)
+{
+    string result = s;
+    size_t pos = s.rfind(tofind);
+    if (pos != string::npos)
+    {
+        result.replace(pos, tofind.length(), replacement);
+    }
+    return result;
+}
+
 string replace_all(string s, const string &find, const string &repl)
 {
     ASSERT(!find.empty());

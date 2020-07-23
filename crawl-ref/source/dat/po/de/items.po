@@ -298,127 +298,127 @@ msgstr "ein Kampfstab"
 msgid "a lajatang"
 msgstr "ein Lajatang"
 
-# with indefinite article and enchantment
+# with indefinite article and adjective
 
-msgid "a %+d club"
-msgstr "eine %+d Keule"
+msgid "a %sclub"
+msgstr "eine %sKeule"
 
-msgid "a %+d whip"
-msgstr "eine %+d Peitsche"
+msgid "a %swhip"
+msgstr "eine %sPeitsche"
 
-msgid "a %+d mace"
-msgstr "ein %+d Streitkolben"
+msgid "a %smace"
+msgstr "ein {adj-er}%sStreitkolben"
 
-msgid "a %+d flail"
-msgstr "ein %+d Flegel"
+msgid "a %sflail"
+msgstr "ein {adj-er}%sFlegel"
 
-msgid "a %+d morningstar"
-msgstr "ein %+d Morgenstern"
+msgid "a %smorningstar"
+msgstr "ein {adj-er}%sMorgenstern"
 
-msgid "a %+d demon whip"
-msgstr "eine %+d Dämonenpeitsche"
+msgid "a %sdemon whip"
+msgstr "eine %sDämonenpeitsche"
 
-msgid "a %+d sacred scourge"
-msgstr "eine %+d geistliche Geißel"
+msgid "a %ssacred scourge"
+msgstr "eine %sgeistliche Geißel"
 
-msgid "a %+d dire flail"
-msgstr "ein %+d Schreckensflegel"
+msgid "a %sdire flail"
+msgstr "ein {adj-er}%sSchreckensflegel"
 
-msgid "an %+d eveningstar"
-msgstr "ein %+d Abendstern"
+msgid "a %seveningstar"
+msgstr "ein {adj-er}%sAbendstern"
 
-msgid "a %+d great mace"
-msgstr "ein %+d großer Streitkolben"
+msgid "a %sgreat mace"
+msgstr "ein {adj-er}%sgroßer Streitkolben"
 
-msgid "a %+d giant club"
-msgstr "eine %+d Riesenkeule"
+msgid "a %sgiant club"
+msgstr "eine %sRiesenkeule"
 
-msgid "a %+d giant spiked club"
-msgstr "eine %+d riesige Stachelkeule"
+msgid "a %sgiant spiked club"
+msgstr "eine %sriesige Stachelkeule"
 
-msgid "a %+d dagger"
-msgstr "ein %+d Dolch"
+msgid "a %sdagger"
+msgstr "ein {adj-er}%sDolch"
 
-msgid "a %+d quick blade"
-msgstr "eine %+d Schnellklinge"
+msgid "a %squick blade"
+msgstr "eine %sSchnellklinge"
 
-msgid "a %+d short sword"
-msgstr "ein %+d Kurzschwert"
-
-# neut
-msgid "a %+d rapier"
-msgstr "ein %+d Rapier"
+msgid "a %sshort sword"
+msgstr "ein {adj-es}%sKurzschwert"
 
 # neut
-msgid "a %+d falchion"
-msgstr "ein %+d Falchion"
-
-msgid "a %+d long sword"
-msgstr "ein %+d Langschwert"
-
-msgid "a %+d scimitar"
-msgstr "ein %+d Krummsäbel"
-
-msgid "a %+d demon blade"
-msgstr "eine %+d Dämonenklinge"
-
-msgid "a %+d eudemon blade"
-msgstr "eine %+d Eudämonenklinge"
-
-msgid "a %+d double sword"
-msgstr "ein %+d Doppelschwert"
-
-msgid "a %+d great sword"
-msgstr "ein %+d Großschwert"
-
-msgid "a %+d triple sword"
-msgstr "ein %+d Dreifach-Schwert"
+msgid "a %srapier"
+msgstr "ein {adj-es}%sRapier"
 
 # neut
-msgid "a %+d hand axe"
-msgstr "ein %+d Beil"
+msgid "a %sfalchion"
+msgstr "ein {adj-es}%sFalchion"
 
-msgid "a %+d war axe"
-msgstr "eine %+d Kriegsaxt"
+msgid "a %slong sword"
+msgstr "ein {adj-es}%sLangschwert"
 
-msgid "a %+d broad axe"
-msgstr "eine %+d Breitaxt"
+msgid "a %sscimitar"
+msgstr "ein {adj-er}%sKrummsäbel"
 
-msgid "a %+d battleaxe"
-msgstr "eine %+d Streitaxt"
+msgid "a %sdemon blade"
+msgstr "eine %sDämonenklinge"
 
-msgid "a %+d executioner's axe"
-msgstr "eine %+d Henkersaxt"
+msgid "a %seudemon blade"
+msgstr "eine %sEudämonenklinge"
 
-msgid "a %+d spear"
-msgstr "ein %+d Speer"
+msgid "a %sdouble sword"
+msgstr "ein {adj-es}%sDoppelschwert"
 
-msgid "a %+d trident"
-msgstr "ein %+d Dreizack"
+msgid "a %sgreat sword"
+msgstr "ein {adj-es}%sGroßschwert"
 
-msgid "a %+d halberd"
-msgstr "eine %+d Hellebarde"
+msgid "a %striple sword"
+msgstr "ein {adj-es}%sDreifach-Schwert"
 
-msgid "a %+d scythe"
-msgstr "eine %+d Sense"
+# neut
+msgid "a %shand axe"
+msgstr "ein {adj-es}%sBeil"
 
-msgid "a %+d demon trident"
-msgstr "ein %+d Dämonendreizack"
+msgid "a %swar axe"
+msgstr "eine %sKriegsaxt"
 
-msgid "a %+d trishula"
-msgstr "ein %+d Trishula"
+msgid "a %sbroad axe"
+msgstr "eine %sBreitaxt"
 
-msgid "a %+d glaive"
-msgstr "eine %+d Gleve"
+msgid "a %sbattleaxe"
+msgstr "eine %sStreitaxt"
 
-msgid "a %+d bardiche"
-msgstr "eine %+d Bardiche"
+msgid "a %sexecutioner's axe"
+msgstr "eine %sHenkersaxt"
 
-msgid "a %+d quarterstaff"
-msgstr "ein %+d Kampfstab"
+msgid "a %sspear"
+msgstr "ein {adj-er}%sSpeer"
 
-msgid "a %+d lajatang"
-msgstr "ein %+d Lajatang"
+msgid "a %strident"
+msgstr "ein {adj-er}%sDreizack"
+
+msgid "a %shalberd"
+msgstr "eine %sHellebarde"
+
+msgid "a %sscythe"
+msgstr "eine %sSense"
+
+msgid "a %sdemon trident"
+msgstr "ein {adj-er}%sDämonendreizack"
+
+msgid "a %strishula"
+msgstr "ein {adj-er}%sTrishula"
+
+msgid "a %sglaive"
+msgstr "eine %sGleve"
+
+msgid "a %sbardiche"
+msgstr "eine %sBardiche"
+
+msgid "a %squarterstaff"
+msgstr "ein {adj-er}%sKampfstab"
+
+msgid "a %slajatang"
+msgstr "ein {adj-er}%sLajatang"
 
 
 #################################
@@ -445,6 +445,29 @@ msgstr "ein Kurzbogen"
 
 msgid "a longbow"
 msgstr "ein Langbogen"
+
+# with adjective
+
+msgid "a %shunting sling"
+msgstr "eine %sSchleuder"
+
+msgid "a %sfustibalus"
+msgstr "ein {adj-er}%sFustibalus"
+
+msgid "a %shand crossbow"
+msgstr "eine %sHandarmbrust"
+
+msgid "an %sarbalest"
+msgstr "eine %sArmbrust"
+
+msgid "a %striple crossbow"
+msgstr "eine %sDreifach-Armbrust"
+
+msgid "a %sshortbow"
+msgstr "ein {adj-er}%sKurzbogen"
+
+msgid "a %slongbow"
+msgstr "ein {adj-er}%sLangbogen"
 
 
 #################################
@@ -650,7 +673,7 @@ msgid " of pain"
 msgstr " des Schmerzes"
 
 msgid " of protection"
-msgstr " der Verteidigung"
+msgstr " de Schutzes"
 
 msgid " of penetration"
 msgstr " des Eindringens"
@@ -798,9 +821,6 @@ msgstr "ein {adj-er}%sSchal"
 msgid "a %spair of gloves"
 msgstr "ein {adj-es}%sPaar Handschuhe"
 
-msgid "a pair of %sgloves"
-msgstr "ein Paar %sHandschuhe"
-
 msgid "a %spair of %sgloves"
 msgstr "ein {adj-es}%sPaar {adj-e}%sHandschuhe"
 
@@ -812,9 +832,6 @@ msgstr "ein {adj-er}%sHut"
 
 msgid "a %spair of boots"
 msgstr "ein {adj-es}%sPaar Stiefel"
-
-msgid "a pair of %sboots"
-msgstr "ein Paar %sStiefel"
 
 msgid "a %spair of %sboots"
 msgstr "ein {adj-es}%sPaar {adj-e}%sStiefel"
@@ -957,6 +974,84 @@ msgstr "glänzendes "
 msgctxt "adj-es"
 msgid "dyed "
 msgstr "gefärbtes "
+
+
+#################################
+# Armour Egos
+#################################
+
+msgid " of speedy slithering"
+msgstr " des schnellen Rutschens"
+
+msgid " of running"
+msgstr " des Laufens"
+
+msgid " of fire resistance"
+msgstr " der Feuerresistenz"
+
+msgid " of cold resistance"
+msgstr " der Kälteresistenz"
+
+msgid " of poison resistance"
+msgstr " der Giftresistenz"
+
+msgid " of see invisible"
+msgstr " von Unsichtbares sehen"
+
+msgid " of invisibility"
+msgstr " der Unsichtbarkeit"
+
+msgid " of strength"
+msgstr " der Stärke"
+
+msgid " of dexterity"
+msgstr " der Geschicklichkeit"
+
+msgid " of intelligence"
+msgstr " der Intelligenz"
+
+msgid " of ponderousness"
+msgstr " der Schwerfälligkeit"
+
+msgid " of flying"
+msgstr " des Fliegens"
+
+msgid " of magic resistance"
+msgstr " der Magieresistanz"
+
+# covered under weapon brands
+#msgid " of protection"
+#msgstr " des Schutzes"
+
+msgid " of stealth"
+msgstr " der Heimlichkeit"
+
+msgid " of resistance"
+msgstr " der Resistanz"
+
+msgid " of positive energy"
+msgstr " der positiven Energie"
+
+msgid " of the Archmagi"
+msgstr " der Erzmagier"
+
+msgid " of preservation"
+msgstr " der Erhaltung"
+
+msgid " of reflection"
+msgstr " der Reflexion"
+
+msgid " of spirit shield"
+msgstr " des Geistschildes"
+
+msgid " of archery"
+msgstr " des Bogenschießens"
+
+msgid " of repulsion"
+msgstr " der Abstoßung"
+
+msgid " of harm"
+msgstr " des Schadens"
 
 
 #################################

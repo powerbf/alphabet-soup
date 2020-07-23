@@ -40,6 +40,9 @@ bool strip_suffix(string &s, const string &suffix);
 // Replace first occurrence of string
 string replace_first(const string &s, const string &tofind, const string &replacement);
 
+// Replace last occurrence of string
+string replace_last(const string &s, const string &tofind, const string &replacement);
+
 string replace_all(string s, const string &tofind, const string &replacement);
 
 string replace_all_of(string s, const string &tofind, const string &replacement);
