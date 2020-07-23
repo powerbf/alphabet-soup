@@ -824,8 +824,8 @@ msgid "Orb of Zot"
 msgstr "Kugel von Zot"
 
 #, c-format
-msgid "%d runes"
-msgstr "%d Runen"
+msgid "%d/%d runes: "
+msgstr "%d/%d Runen: "
 
 # wizard (cheat) mode flags
 

@@ -2781,11 +2781,9 @@ string _status_mut_rune_list(int sw)
             runes.emplace_back(rune_type_name(i));
     if (!runes.empty())
     {
-        text += make_stringf("\n<w>%s:</w> %d/",
-                    stringize_glyph(get_item_symbol(SHOW_ITEM_MISCELLANY)).c_str(),
-                    (int)runes.size());
-        text += localize("%d runes", you.obtainable_runes);
-        text += " ";
+        text += make_stringf("\n<w>%s:</w> ",
+                    stringize_glyph(get_item_symbol(SHOW_ITEM_MISCELLANY)).c_str());
+        text += localize("%d/%d runes: ", (int)runes.size(), you.obtainable_runes);
         text += localize(comma_separated_line(runes.begin(), runes.end(), ", ", ", "));
 
 
