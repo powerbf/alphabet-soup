@@ -300,123 +300,162 @@ msgstr "ein Lajatang"
 
 # with indefinite article and adjective
 
+#, c-format
 msgid "a %sclub"
 msgstr "eine %sKeule"
 
+#, c-format
 msgid "a %swhip"
 msgstr "eine %sPeitsche"
 
+#, c-format
 msgid "a %smace"
 msgstr "ein {adj-er}%sStreitkolben"
 
+#, c-format
 msgid "a %sflail"
 msgstr "ein {adj-er}%sFlegel"
 
+#, c-format
 msgid "a %smorningstar"
 msgstr "ein {adj-er}%sMorgenstern"
 
+#, c-format
 msgid "a %sdemon whip"
 msgstr "eine %sDämonenpeitsche"
 
+#, c-format
 msgid "a %ssacred scourge"
 msgstr "eine %sgeistliche Geißel"
 
+#, c-format
 msgid "a %sdire flail"
 msgstr "ein {adj-er}%sSchreckensflegel"
 
+#, c-format
 msgid "a %seveningstar"
 msgstr "ein {adj-er}%sAbendstern"
 
+#, c-format
 msgid "a %sgreat mace"
 msgstr "ein {adj-er}%sgroßer Streitkolben"
 
+#, c-format
 msgid "a %sgiant club"
 msgstr "eine %sRiesenkeule"
 
+#, c-format
 msgid "a %sgiant spiked club"
 msgstr "eine %sriesige Stachelkeule"
 
+#, c-format
 msgid "a %sdagger"
 msgstr "ein {adj-er}%sDolch"
 
+#, c-format
 msgid "a %squick blade"
 msgstr "eine %sSchnellklinge"
 
+#, c-format
 msgid "a %sshort sword"
 msgstr "ein {adj-es}%sKurzschwert"
 
 # neut
+#, c-format
 msgid "a %srapier"
 msgstr "ein {adj-es}%sRapier"
 
 # neut
+#, c-format
 msgid "a %sfalchion"
 msgstr "ein {adj-es}%sFalchion"
 
+#, c-format
 msgid "a %slong sword"
 msgstr "ein {adj-es}%sLangschwert"
 
+#, c-format
 msgid "a %sscimitar"
 msgstr "ein {adj-er}%sKrummsäbel"
 
+#, c-format
 msgid "a %sdemon blade"
 msgstr "eine %sDämonenklinge"
 
+#, c-format
 msgid "a %seudemon blade"
 msgstr "eine %sEudämonenklinge"
 
+#, c-format
 msgid "a %sdouble sword"
 msgstr "ein {adj-es}%sDoppelschwert"
 
+#, c-format
 msgid "a %sgreat sword"
 msgstr "ein {adj-es}%sGroßschwert"
 
+#, c-format
 msgid "a %striple sword"
 msgstr "ein {adj-es}%sDreifach-Schwert"
 
 # neut
+#, c-format
 msgid "a %shand axe"
 msgstr "ein {adj-es}%sBeil"
 
+#, c-format
 msgid "a %swar axe"
 msgstr "eine %sKriegsaxt"
 
+#, c-format
 msgid "a %sbroad axe"
 msgstr "eine %sBreitaxt"
 
+#, c-format
 msgid "a %sbattleaxe"
 msgstr "eine %sStreitaxt"
 
+#, c-format
 msgid "a %sexecutioner's axe"
 msgstr "eine %sHenkersaxt"
 
+#, c-format
 msgid "a %sspear"
 msgstr "ein {adj-er}%sSpeer"
 
+#, c-format
 msgid "a %strident"
 msgstr "ein {adj-er}%sDreizack"
 
+#, c-format
 msgid "a %shalberd"
 msgstr "eine %sHellebarde"
 
+#, c-format
 msgid "a %sscythe"
 msgstr "eine %sSense"
 
+#, c-format
 msgid "a %sdemon trident"
 msgstr "ein {adj-er}%sDämonendreizack"
 
+#, c-format
 msgid "a %strishula"
 msgstr "ein {adj-er}%sTrishula"
 
+#, c-format
 msgid "a %sglaive"
 msgstr "eine %sGleve"
 
+#, c-format
 msgid "a %sbardiche"
 msgstr "eine %sBardiche"
 
+#, c-format
 msgid "a %squarterstaff"
 msgstr "ein {adj-er}%sKampfstab"
 
+#, c-format
 msgid "a %slajatang"
 msgstr "ein {adj-er}%sLajatang"
 
@@ -448,24 +487,31 @@ msgstr "ein Langbogen"
 
 # with adjective
 
+#, c-format
 msgid "a %shunting sling"
 msgstr "eine %sSchleuder"
 
+#, c-format
 msgid "a %sfustibalus"
 msgstr "ein {adj-er}%sFustibalus"
 
+#, c-format
 msgid "a %shand crossbow"
 msgstr "eine %sHandarmbrust"
 
+#, c-format
 msgid "an %sarbalest"
 msgstr "eine %sArmbrust"
 
+#, c-format
 msgid "a %striple crossbow"
 msgstr "eine %sDreifach-Armbrust"
 
+#, c-format
 msgid "a %sshortbow"
 msgstr "ein {adj-er}%sKurzbogen"
 
+#, c-format
 msgid "a %slongbow"
 msgstr "ein {adj-er}%sLangbogen"
 
@@ -529,77 +575,91 @@ msgstr "das Wurfnetz"
 msgid "the boomerang"
 msgstr "der Bumerang"
 
-
+#, c-format
 msgid "an arrow"
 msgid_plural "%d arrows"
 msgstr[0] "ein Pfeil"
 msgstr[1] "%d Pfeile"
 
+#, c-format
 msgid "a bolt"
 msgid_plural "%d bolts"
 msgstr[0] "ein Bolzen"
 msgstr[1] "%d Bolzen"
 
+#, c-format
 msgid "a dart"
 msgid_plural "%d darts"
 msgstr[0] "ein Wurfpfeil"
 msgstr[1] "%d Wurfpfeile"
 
+#, c-format
 msgid "a poisoned dart"
 msgid_plural "%d poisoned darts"
 msgstr[0] "ein Giftwurfpfeil"
 msgstr[1] "%d Giftwurfpfeile"
 
+#, c-format
 msgid "a curare dart"
 msgid_plural "%d curare darts"
 msgstr[0] "ein Kurare-Wurfpfeil"
 msgstr[1] "%d Kurare-Wurfpfeile"
 
+#, c-format
 msgid "an atropa dart"
 msgid_plural "%d atropa darts"
 msgstr[0] "ein Atropa-Wurfpfeil"
 msgstr[1] "%d Atropa-Wurfpfeile"
 
+#, c-format
 msgid "a datura dart"
 msgid_plural "%d datura darts"
 msgstr[0] "ein Datura-Wurfpfeil"
 msgstr[1] "%d Datura-Wurfpfeile"
 
+#, c-format
 msgid "a stone"
 msgid_plural "%d stones"
 msgstr[0] "ein Stein"
 msgstr[1] "%d Steine"
 
+#, c-format
 msgid "a large rock"
 msgid_plural "%d large rocks"
 msgstr[0] "ein Felsblock"
 msgstr[1] "%d Felsblöcke"
 
+#, c-format
 msgid "a sling bullet"
 msgid_plural "%d sling bullets"
 msgstr[0] "eine Schleuderkugel"
 msgstr[1] "%d Schleuderkugeln"
 
+#, c-format
 msgid "a javelin"
 msgid_plural "%d javelins"
 msgstr[0] "ein Wurfspeer"
 msgstr[1] "%d Wurfspeere"
 
+#, c-format
 msgid "a silver javelin"
 msgid_plural "%d silver javelins"
 msgstr[0] "ein Silberwurfspeer"
 msgstr[1] "%d Silberwurfspeere"
 
+#, c-format
 msgid "a throwing net"
 msgid_plural "%d throwing nets"
 msgstr[0] "ein Wurfnetz"
 msgstr[1] "%d Wurfnetze"
 
+#, c-format
 msgid "a boomerang"
 msgid_plural "%d boomerangs"
 msgstr[0] "ein Bumerang"
 msgstr[1] "%d Bumerangs"
 
+#, c-format
 msgid "a silver boomerang"
 msgid_plural "%d silver boomerangs"
 msgstr[0] "ein Silberbumerang"
@@ -688,6 +748,8 @@ msgstr " der Geschwindigkeit"
 msgid " of venom"
 msgstr " des Giftes"
 
+msgid " of dispersal"
+msgstr " der Zerstreuung"
 
 #################################
 # Armour
@@ -785,101 +847,134 @@ msgstr "Golddrachenschuppen"
 
 # with adjective
 
+#, c-format
 msgid "a %sanimal skin"
 msgstr "eine %sTierhaut"
 
+#, c-format
 msgid "a %srobe"
 msgstr "eine %sRobe"
 
+#, c-format
 msgid "a %sleather armour"
 msgstr "eine {adj-er}%sLederrüstung"
 
+#, c-format
 msgid "a %sring mail"
 msgstr "ein {adj-er}%sRingpanzer"
 
+#, c-format
 msgid "a %sscale mail"
 msgstr "ein {adj-er}%sSchuppenpanzer"
 
+#, c-format
 msgid "a %schain mail"
 msgstr "ein {adj-er}%sKettenpanzer"
 
+#, c-format
 msgid "a %splate armour"
 msgstr "ein {adj-er}%sPlattenpanzer"
 
+#, c-format
 msgid "a %scrystal plate armour"
 msgstr "eie {adj-er}%sKristallplattenpanzer"
 
+#, c-format
 msgid "a %stroll leather armour"
 msgstr "eine %sTrolllederrüstung"
 
+#, c-format
 msgid "a %scloak"
 msgstr "ein {adj-er}%sUmhang"
 
+#, c-format
 msgid "a %sscarf"
 msgstr "ein {adj-er}%sSchal"
 
+#, c-format
 msgid "a %spair of gloves"
 msgstr "ein {adj-es}%sPaar Handschuhe"
 
+#, c-format
 msgid "a %spair of %sgloves"
 msgstr "ein {adj-es}%sPaar {adj-e}%sHandschuhe"
 
+#, c-format
 msgid "a %shelmet"
 msgstr "ein {adj-er}%sHelm"
 
+#, c-format
 msgid "a %shat"
 msgstr "ein {adj-er}%sHut"
 
+#, c-format
 msgid "a %spair of boots"
 msgstr "ein {adj-es}%sPaar Stiefel"
 
+#, c-format
 msgid "a %spair of %sboots"
 msgstr "ein {adj-es}%sPaar {adj-e}%sStiefel"
 
+#, c-format
 msgid "a %scentaur barding"
 msgstr "ein {adj-er}%sZentaurenharnisch"
 
+#, c-format
 msgid "a %snaga barding"
 msgstr "ein {adj-er}%sNagaharnisch"
 
+#, c-format
 msgid "a %sbuckler"
 msgstr "ein {adj-er}%sBuckler"
 
+#, c-format
 msgid "a %skite shield"
 msgstr "ein {adj-es}%sKiteschild"
 
+#, c-format
 msgid "a %stower shield"
 msgstr "ein {adj-es}%sTurmschild"
 
+#, c-format
 msgid "%ssteam dragon scales"
 msgstr "%sDampfdrachenschuppen"
 
+#, c-format
 msgid "%sacid dragon scales"
 msgstr "%sSauredrachenschuppen"
 
+#, c-format
 msgid "%squicksilver dragon scales"
 msgstr "%sQuecksilberdrachenschuppen"
 
+#, c-format
 msgid "%sswamp dragon scales"
 msgstr "%sSumpfdrachenschuppen"
 
+#, c-format
 msgid "%sfire dragon scales"
 msgstr "%sFeuerdrachenschuppen"
 
+#, c-format
 msgid "%sice dragon scales"
 msgstr "%sEisdrachenschuppen"
 
+#, c-format
 msgid "%spearl dragon scales"
 msgstr "%sPerlendrachenschuppen"
 
+#, c-format
 msgid "%sstorm dragon scales"
 msgstr "%sSturmdrachenschuppen"
 
+#, c-format
 msgid "%sshadow dragon scales"
 msgstr "%sSchattendrachenschuppen"
 
+#, c-format
 msgid "%sgold dragon scales"
 msgstr "%sGolddrachenschuppen"
+
 
 #################################
 # Weapon/armour adjectives
@@ -996,7 +1091,7 @@ msgid " of poison resistance"
 msgstr " der Giftresistenz"
 
 msgid " of see invisible"
-msgstr " von Unsichtbares sehen"
+msgstr " der Unsichtbares-Sehens"
 
 msgid " of invisibility"
 msgstr " der Unsichtbarkeit"
@@ -1058,86 +1153,103 @@ msgstr " des Schadens"
 # Scrolls
 #################################
 
+##, c-format - throws spurious error
 msgid "a scroll labeled %s"
 msgid_plural "%d scrolls labeled %s"
 msgstr[0] "eine Schriftrolle beschriftet mit %s"
 msgstr[1] "%d Schriftrollen beschriftet mit %s"
 
+#, c-format
 msgid "a scroll of acquirement"
 msgid_plural "%d scrolls of acquirement"
 msgstr[0] "eine Schriftrolle des Erwerbs"
 msgstr[1] "%d Schriftrollen des Erwerbs"
 
+#, c-format
 msgid "a scroll of amnesia"
 msgid_plural "%d scrolls of amnesia"
 msgstr[0] "eine Schriftrolle der Amnesie"
 msgstr[1] "%d Schriftrollen der Amnesie"
 
+#, c-format
 msgid "a scroll of blinking"
 msgid_plural "%d scrolls of blinking"
-msgstr[0] "eine Schriftrolle von Flimmern"
-msgstr[1] "%d Schriftrollen von Flimmern"
+msgstr[0] "eine Schriftrolle des Flimmerns"
+msgstr[1] "%d Schriftrollen des Flimmerns"
 
+#, c-format
 msgid "a scroll of brand weapon"
 msgid_plural "%d scrolls of brand weapon"
 msgstr[0] "eine Schriftrolle der Waffenmark"
 msgstr[1] "%d Schriftrollen der Waffenmark"
 
+#, c-format
 msgid "a scroll of enchant armour"
 msgid_plural "%d scrolls of enchant armour"
 msgstr[0] "eine Schriftrolle der Rüstungsverzauberung"
 msgstr[1] "%d Schriftrollen der Rüstungsverzauberung"
 
+#, c-format
 msgid "a scroll of enchant weapon"
 msgid_plural "%d scrolls of enchant weapon"
 msgstr[0] "eine Schriftrolle der Waffenverzauberung"
 msgstr[1] "%d Schriftrollen der Waffenverzauberung"
 
+#, c-format
 msgid "a scroll of fear"
 msgid_plural "%d scrolls of fear"
 msgstr[0] "eine Schriftrolle der Angst"
 msgstr[1] "%d Schriftrollen der Angst"
 
+#, c-format
 msgid "a scroll of fog"
 msgid_plural "%d scrolls of fog"
 msgstr[0] "eine Schriftrolle des Nebels"
 msgstr[1] "%d Schriftrollen des Nebels"
 
+#, c-format
 msgid "a scroll of holy word"
 msgid_plural "%d scrolls of holy word"
 msgstr[0] "eine Schriftrolle des heiligen Wortes"
 msgstr[1] "%d Schriftrollen des heiligen Wortes"
 
-msgid "a scroll of identification"
-msgid_plural "%d scrolls of identification"
+#, c-format
+msgid "a scroll of identify"
+msgid_plural "%d scrolls of identify"
 msgstr[0] "eine Schriftrolle der Identifizierung"
 msgstr[1] "%d Schriftrollen der Identifizierung"
 
+#, c-format
 msgid "a scroll of immolation"
 msgid_plural "%d scrolls of immolation"
 msgstr[0] "eine Schriftrolle der Verbrennug"
 msgstr[1] "%d Schriftrollen der Verbrennung"
 
+#, c-format
 msgid "a scroll of magic mapping"
 msgid_plural "%d scrolls of magic mapping"
-msgstr[0] "eine Schriftrolle der magische Kartierens"
-msgstr[1] "%d Schriftrollen der magische Kartierens"
+msgstr[0] "eine Schriftrolle des magischen Kartierens"
+msgstr[1] "%d Schriftrollen des magischen Kartierens"
 
+#, c-format
 msgid "a scroll of noise"
 msgid_plural "%d scrolls of noise"
 msgstr[0] "eine Schriftrolle des Lärms"
 msgstr[1] "%d Schriftrollen des Lärms"
 
+#, c-format
 msgid "a scroll of random uselessness"
 msgid_plural "%d scrolls of random uselessness"
 msgstr[0] "eine Schriftrolle der zufälligen Nutzlosigkeit"
 msgstr[1] "%d Schriftrollen der zufälligen Nutzlosigkeit"
 
+#, c-format
 msgid "a scroll of remove curse"
 msgid_plural "%d scrolls of remove curse"
 msgstr[0] "eine Schriftrolle des Segnens"
 msgstr[1] "%d Schriftrollen des Segnens"
 
+#, c-format
 msgid "a scroll of silence"
 msgid_plural "%d scrolls of silence"
 msgstr[0] "eine Schriftrolle der Stille"
@@ -1148,16 +1260,19 @@ msgid_plural "%d scrolls of summoning"
 msgstr[0] "eine Schriftrolle der Beschwörung"
 msgstr[1] "%d Schriftrollen der Beschwörung"
 
+#, c-format
 msgid "a scroll of teleportation"
 msgid_plural "%d scrolls of teleportation"
 msgstr[0] "eine Schriftrolle der Teleportation"
 msgstr[1] "%d Schriftrollen der Teleportation"
 
+#, c-format
 msgid "a scroll of torment"
 msgid_plural "%d scrolls of torment"
 msgstr[0] "eine Schriftrolle der Qual"
 msgstr[1] "%d Schriftrollen der Qual"
 
+#, c-format
 msgid "a scroll of vulnerability"
 msgid_plural "%d scrolls of vulnerability"
 msgstr[0] "eine Schriftrolle der Vulnerabilität"
@@ -1168,86 +1283,103 @@ msgstr[1] "%d Schriftrollen der Vulnerabilität"
 # Potions
 #################################
 
+#, c-format
 msgid "a potion of ambrosia"
 msgid_plural "%d potions of ambrosia"
 msgstr[0] "ein Trank der Ambrosia"
 msgstr[1] "%d Tränke der Ambrosia"
 
+#, c-format
 msgid "a potion of berserk rage"
 msgid_plural "%d potions of berserk rage"
 msgstr[0] "ein Trank des Berserkers"
 msgstr[1] "%d Tränke des Berserkers"
 
+#, c-format
 msgid "a potion of brilliance"
 msgid_plural "%d potions of brilliance"
 msgstr[0] "ein Trank der Brillanz"
 msgstr[1] "%d Tränke der Brillanz"
 
+#, c-format
 msgid "a potion of cancellation"
 msgid_plural "%d potions of cancellation"
 msgstr[0] "ein Trank der Aufhebung"
 msgstr[1] "%d Tränke der Aufhebung"
 
+#, c-format
 msgid "a potion of curing"
 msgid_plural "%d potions of curing"
-msgstr[0] "ein Trank des Ausheilens"
-msgstr[1] "%d Tränke des Ausheilens"
+msgstr[0] "ein Trank des Gegenmittels"
+msgstr[1] "%d Tränke des Gegenmittels"
 
+#, c-format
 msgid "a potion of degeneration"
 msgid_plural "%d potions of degeneration"
 msgstr[0] "ein Trank der Degeneration"
 msgstr[1] "%d Tränke der Degeneration"
 
+#, c-format
 msgid "a potion of experience"
 msgid_plural "%d potions of experience"
 msgstr[0] "ein Trank der Erfahrung"
 msgstr[1] "%d Tränke der Erfahrung"
 
+#, c-format
 msgid "a potion of flight"
 msgid_plural "%d potions of flight"
 msgstr[0] "ein Trank des Fliegens"
 msgstr[1] "%d Tränke des Fliegens"
 
+#, c-format
 msgid "a potion of haste"
 msgid_plural "%d potions of haste"
 msgstr[0] "ein Trank der Geschwindigkeit"
 msgstr[1] "%d Tränke der Geschwindigkeit"
 
+#, c-format
 msgid "a potion of heal wounds"
 msgid_plural "%d potions of heal wounds"
 msgstr[0] "ein Heiltrank"
 msgstr[1] "%d Heilränke"
 
+#, c-format
 msgid "a potion of invisibility"
 msgid_plural "%d potions of invisibility"
 msgstr[0] "ein Trank der Unsichtbarkeit"
 msgstr[1] "%d Tränke der Unsichtbarkeit"
 
+#, c-format
 msgid "a potion of lignification"
 msgid_plural "%d potions of lignification"
 msgstr[0] "ein Trank der Verholzung"
 msgstr[1] "%d Tränke der Verholzung"
 
+#, c-format
 msgid "a potion of magic"
 msgid_plural "%d potions of magic"
 msgstr[0] "ein Trank der Magie"
 msgstr[1] "%d Tränke der Magie"
 
+#, c-format
 msgid "a potion of might"
 msgid_plural "%d potions of might"
 msgstr[0] "ein Trank der Macht"
 msgstr[1] "%d Tränke der Macht"
 
+#, c-format
 msgid "a potion of mutation"
 msgid_plural "%d potions of mutation"
 msgstr[0] "ein Trank der Mutation"
 msgstr[1] "%d Tränke der Mutation"
 
+#, c-format
 msgid "a potion of resistance"
 msgid_plural "%d potions of resistance"
 msgstr[0] "ein Trank des Widerstands"
 msgstr[1] "%d Tränke des Widerstands"
 
+#, c-format
 msgid "a potion of stabbing"
 msgid_plural "%d potions of stabbing"
 msgstr[0] "ein Trank der Stecherei"
@@ -1256,6 +1388,7 @@ msgstr[1] "%d Tränke der Stecherei"
 # unidentified potions are named "<colour> <potion>"
 # or "<qualifier> <colour> potion"
 
+##, c-format - throws spurious error
 msgid "a %spotion"
 msgid_plural "%d %spotions"
 msgstr[0] "ein {adj-er}%sZaubertrank"
@@ -1524,16 +1657,19 @@ msgstr "emulgierte "
 # Food
 #################################
 
+#, c-format
 msgid "a ration"
 msgid_plural "%d rations"
 msgstr[0] "eine Ration"
 msgstr[1] "%d Rationen"
 
+#, c-format
 msgid "a chunk of flesh"
 msgid_plural "%d chunks of flesh"
 msgstr[0] "ein Fleischstück"
 msgstr[1] "%d Fleischstücke"
 
+#, c-format
 msgid "an inedible chunk of flesh"
 msgid_plural "%d inedible chunks of flesh"
 msgstr[0] "ein ungenießbares Fleischstück"
@@ -1544,26 +1680,31 @@ msgstr[1] "%d ungenießbare Fleischstücke"
 # Miscellaneous Items
 #################################
 
+#, c-format
 msgid "a box of beasts"
 msgid_plural "%d boxes of beasts"
 msgstr[0] "eine Kiste der Bestien"
 msgstr[1] "%d Kisten der Bestien"
 
+#, c-format
 msgid "a lightning rod"
 msgid_plural "%d lightning rods"
 msgstr[0] "eine Blitzstange"
 msgstr[1] "%d Blitzstange"
 
+#, c-format
 msgid "a phial of floods"
 msgid_plural "%d phials of floods"
-msgstr[0] "eine Phiole der Überschwemmungen"
-msgstr[1] "%d Phiolen der Überschwemmungen"
+msgstr[0] "eine Phiole der Fluten"
+msgstr[1] "%d Phiolen der Fluten"
 
+#, c-format
 msgid "a phantom mirror"
 msgid_plural "%d phantom mirrors"
 msgstr[0] "ein Phantomspiegel"
 msgstr[1] "%d Phantomspiegel"
 
+#, c-format
 msgid "a figurine of a ziggurat"
 msgid_plural "%d figurines of a ziggurat"
 msgstr[0] "eine Figur einer Zikkurat"
