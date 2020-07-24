@@ -20,6 +20,7 @@ using namespace std;
 #include "unicode.h"
 #include "english.h"
 
+
 // check if string contains the char
 static inline bool _contains(const std::string& s, char c)
 {
@@ -407,7 +408,7 @@ static string _strip_count(const string& s, int& count)
     return trim_string_left(rest);
 }
 
-// searcj for context in curly braces before pos and strip it out
+// search for context in curly braces before pos and strip it out
 static string _strip_context(const string& s, size_t pos, string& context)
 {
     size_t ctx_start, ctx_end;
@@ -428,6 +429,56 @@ static string _strip_context(const string& s, size_t pos, string& context)
     result.erase(ctx_start, ctx_end - ctx_start + 1);
 
     return result;
+}
+
+static string _strip_determiner(const string& s, string& determiner)
+{
+    vector<string> tokens = split_string(" ", s, true, false, 1);
+
+    if (tokens.size() == 2 && is_determiner(tokens[0]))
+    {
+        determiner = tokens[0];
+        return tokens[1];
+    }
+
+    return s;
+}
+
+// strip a suffix of the form " of <whatever>" or a quoted artefact name
+// don't match on "pair of " though
+static string _strip_suffix(const string& s, string& suffix)
+{
+    // find closing quote
+    size_t quote_pos = s.rfind("\"");
+    // find opening quote
+    if (quote_pos != string::npos && quote_pos > 0)
+        quote_pos = s.rfind(" \"", quote_pos -1);
+
+    // find " of  "
+    size_t of_pos = s.rfind(" of ");
+    if (of_pos != string::npos && of_pos > 0)
+    {
+        // don't match on "pair of "
+        size_t pair_pos = s.rfind("pair", of_pos-1);
+        if (pair_pos == of_pos - 4)
+            of_pos = string::npos;
+    }
+
+    if (quote_pos == string::npos && of_pos == string::npos)
+    {
+        return s;
+    }
+    else if (of_pos != string::npos
+             && (quote_pos == string::npos || of_pos > quote_pos))
+    {
+        suffix = s.substr(of_pos);
+        return s.substr(0, of_pos);
+    }
+    else
+    {
+        suffix = s.substr(quote_pos);
+        return s.substr(0, quote_pos);
+    }
 }
 
 static string _insert_adjectives(const string& context, const string& s, const vector<string>& adjs)
@@ -470,7 +521,7 @@ static bool is_list(const string& s)
         list<string> annotations;
         string rest = _strip_annotations(s, annotations);
 
-        if (contains(s, ",") || contains(s, " and ") || contains(s, " or "))
+        if (contains(rest, ",") || contains(rest, " and ") || contains(rest, " or "))
             return true;
     }
 
@@ -485,6 +536,38 @@ static string _localize_counted_string(const string& context, const string& sing
 // localize counted string when you only have the plural
 static string _localize_counted_string(const string& context, const string& value);
 static string _localize_list(const string& context, const string& value);
+
+
+static string _localize_artefact_suffix(const string& s)
+{
+    if (s.empty())
+        return s;
+
+    // check if there's a specific translation for it
+    string loc = xlate(s);
+    if (loc != s)
+        return loc;
+
+    // otherwise translate "of" if present and quote the rest
+    string fmt, arg;
+    if (starts_with(s, " of "))
+    {
+        fmt = " of \"%s\"";
+        arg = s.substr(4);
+    }
+    else
+    {
+        fmt = " \"%s\"";
+        arg = s;
+        if (s.length() > 3 && starts_with(s, " \"") && ends_with(s, "\""))
+        {
+            arg = s.substr(2, s.length()-3);
+        }
+    }
+
+    fmt = xlate(fmt);
+    return make_stringf(fmt.c_str(), arg.c_str());
+}
 
 static string _localize_unidentified_scroll(const string& context, const string& name)
 {
@@ -616,62 +699,21 @@ static string _localize_complex_item_name(const string& context, const string& i
         return item;
     }
 
-    // break it up
-    string determiner, count, base, name_or_brand;
+    string suffix;
+    string base = _strip_suffix(item, suffix);
+
+    string determiner;
+    base = _strip_determiner(base, determiner);
+
     bool named_owner = false;
-
-    vector<string> tokens = split_string(" ", item, true);
-    for (size_t i = 0; i < tokens.size(); i++)
+    if (ends_with(determiner,"'s"))
     {
-        const string& token = tokens[i];
-        if (i == 0)
-        {
-            string tok_lower = lowercase_string(token);
-            if (tok_lower == "a" || tok_lower == "an" || tok_lower == "the"
-                     || tok_lower == "his" || tok_lower == "her" || tok_lower == "its"
-                     || tok_lower == "their" || tok_lower == "your")
-            {
-                determiner = tok_lower;
-                continue;
-            }
-            else if (ends_with(token,"'s"))
-            {
-                // determiner is a possessive like "the orc's" or "Sigmund's"
-                determiner = token;
-                named_owner = true;
-                continue;
-            }
-        }
-
-        if (!name_or_brand.empty())
-        {
-            // add to the brand or artefact name
-            name_or_brand += " " + token;
-        }
-        else if (token[0] == '"' || (token == "of" && i > 0 && tokens[i-1] != "pair"))
-        {
-            // start of brand or artefact name
-            name_or_brand = " " + token;
-        }
-        else if (regex_match(token, regex("^[0-9]+$")))
-        {
-            count = token;
-        }
-        else if (!base.empty())
-        {
-            base += " " + token;
-        }
-        else
-        {
-            base = token;
-        }
+        // determiner is a possessive like "the orc's" or "Sigmund's"
+        named_owner = true;
     }
 
-    if (determiner.empty() && !isdigit(item[0]))
-    {
-        // this is not an item name
-        return item;
-    }
+    int count = 0;
+    base = _strip_count(base, count);
 
     string result;
     bool success = false;
@@ -695,9 +737,9 @@ static string _localize_complex_item_name(const string& context, const string& i
             noun = named_owner ? "%s" : determiner;
             noun += " ";
         }
-        if (!count.empty())
+        if (count > 0)
         {
-            noun += count + " ";
+            noun += to_string(count) + " ";
         }
         // placeholder for adjectives
         noun += i > 0 ? "%s" : "";
@@ -708,27 +750,36 @@ static string _localize_complex_item_name(const string& context, const string& i
             noun += words[j];
         }
 
-        string branded_noun = noun + name_or_brand;
+        // first, try with suffix attached
+        if (!suffix.empty())
+        {
+            string branded_noun = noun + suffix;
 
-        // first, try with brand attached
-        result = count.empty()
-                 ? cxlate(context, branded_noun)
-                 : _localize_counted_string(context, branded_noun);
-        success = (result != branded_noun);
-
+            result = count > 0
+                     ? _localize_counted_string(context, branded_noun)
+                     :cxlate(context, branded_noun);
+            success = (result != branded_noun);
+        }
 
         if (!success)
         {
-            // now try without brand attached
-            result = count.empty()
-                     ? cxlate(context, noun)
-                     : _localize_counted_string(context, noun);
+            // now try without suffix attached
+            result = count > 0
+                     ? _localize_counted_string(context, noun)
+                     : cxlate(context, noun);
+
             success = (result != noun);
 
-            if (success)
+            if (success && !suffix.empty())
             {
-                // TODO: make this better
-                result += cxlate(context, name_or_brand);
+                string loc_brand = cxlate(context, suffix);
+                if (loc_brand != suffix)
+                    result += loc_brand;
+                else
+                {
+                    // assume it's an artefact name
+                    result += _localize_artefact_suffix(suffix);
+                }
             }
         }
 
@@ -875,6 +926,13 @@ static string _localize_string(const string& context, const string& value)
     {
         // Too simple. There's no point trying anything further
         return value;
+    }
+
+    if (regex_search(value, regex("^[a-zA-Z] - ")))
+    {
+        // has an inventory letter at the front
+        string inv_letter = value.substr(0, 4);
+        return inv_letter + _localize_string(context, value.substr(4));
     }
 
     // remove annotations

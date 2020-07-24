@@ -31,6 +31,244 @@ msgstr "unbewaffnet"
 msgid "claws"
 msgstr "Krallen"
 
+# with definite article
+
+msgid "the club"
+msgstr "die Keule"
+
+msgid "the whip"
+msgstr "die Peitsche"
+
+msgid "the mace"
+msgstr "der Streitkolben"
+
+msgid "the flail"
+msgstr "der Flegel"
+
+msgid "the morningstar"
+msgstr "der Morgenstern"
+
+msgid "the demon whip"
+msgstr "die Dämonenpeitsche"
+
+msgid "the sacred scourge"
+msgstr "die geistliche Geißel"
+
+msgid "the dire flail"
+msgstr "der Schreckensflegel"
+
+msgid "the eveningstar"
+msgstr "der Abendstern"
+
+msgid "the great mace"
+msgstr "der großer Streitkolben"
+
+msgid "the giant club"
+msgstr "die Riesenkeule"
+
+msgid "the giant spiked club"
+msgstr "die riesige Stachelkeule"
+
+msgid "the dagger"
+msgstr "der Dolch"
+
+msgid "the quick blade"
+msgstr "die Schnellklinge"
+
+msgid "the short sword"
+msgstr "das Kurzschwert"
+
+msgid "the rapier"
+msgstr "das Rapier"
+
+msgid "the falchion"
+msgstr "das Falchion"
+
+msgid "the long sword"
+msgstr "das Langschwert"
+
+msgid "the scimitar"
+msgstr "der Krummsäbel"
+
+msgid "the demon blade"
+msgstr "die Dämonenklinge"
+
+msgid "the eudemon blade"
+msgstr "die Eudämonenklinge"
+
+msgid "the double sword"
+msgstr "das Doppelschwert"
+
+msgid "the great sword"
+msgstr "das Großschwert"
+
+msgid "the triple sword"
+msgstr "das Dreifach-Schwert"
+
+msgid "the hand axe"
+msgstr "das Handbeil"
+
+msgid "the war axe"
+msgstr "die Kriegsaxt"
+
+msgid "the broad axe"
+msgstr "die Breitaxt"
+
+msgid "the battleaxe"
+msgstr "die Streitaxt"
+
+msgid "the executioner's axe"
+msgstr "die Henkersaxt"
+
+msgid "the spear"
+msgstr "der Speer"
+
+msgid "the trident"
+msgstr "der Dreizack"
+
+msgid "the halberd"
+msgstr "die Hellebarde"
+
+msgid "the scythe"
+msgstr "die Sense"
+
+msgid "the demon trident"
+msgstr "der Dämonendreizack"
+
+msgid "the trishula"
+msgstr "der Trishula"
+
+msgid "the glaive"
+msgstr "die Gleve"
+
+msgid "the bardiche"
+msgstr "die Bardiche"
+
+msgid "the quarterstaff"
+msgstr "der Kampfstab"
+
+msgid "the lajatang"
+msgstr "der Lajatang"
+
+# with definite article and adjective
+
+msgid "the %sclub"
+msgstr "die %sKeule"
+
+msgid "the %swhip"
+msgstr "die %sPeitsche"
+
+msgid "the %smace"
+msgstr "der %sStreitkolben"
+
+msgid "the %sflail"
+msgstr "der %sFlegel"
+
+msgid "the %smorningstar"
+msgstr "der %sMorgenstern"
+
+msgid "the %sdemon whip"
+msgstr "die %sDämonenpeitsche"
+
+msgid "the %ssacred scourge"
+msgstr "die %sgeistliche Geißel"
+
+msgid "the %sdire flail"
+msgstr "der %sSchreckensflegel"
+
+msgid "the %seveningstar"
+msgstr "der %sAbendstern"
+
+msgid "the %sgreat mace"
+msgstr "der %sgroßer Streitkolben"
+
+msgid "the %sgiant club"
+msgstr "die %sRiesenkeule"
+
+msgid "the %sgiant spiked club"
+msgstr "die %sriesige Stachelkeule"
+
+msgid "the %sdagger"
+msgstr "der %sDolch"
+
+msgid "the %squick blade"
+msgstr "die %sSchnellklinge"
+
+msgid "the %sshort sword"
+msgstr "das %sKurzschwert"
+
+msgid "the %srapier"
+msgstr "das %sRapier"
+
+msgid "the %sfalchion"
+msgstr "das %sFalchion"
+
+msgid "the %slong sword"
+msgstr "das %sLangschwert"
+
+msgid "the %sscimitar"
+msgstr "der %sKrummsäbel"
+
+msgid "the %sdemon blade"
+msgstr "die %sDämonenklinge"
+
+msgid "the %seudemon blade"
+msgstr "die %sEudämonenklinge"
+
+msgid "the %sdouble sword"
+msgstr "das %sDoppelschwert"
+
+msgid "the %sgreat sword"
+msgstr "das %sGroßschwert"
+
+msgid "the %striple sword"
+msgstr "das %sDreifach-Schwert"
+
+msgid "the %shand axe"
+msgstr "das %sHandbeil"
+
+msgid "the %swar axe"
+msgstr "die %sKriegsaxt"
+
+msgid "the %sbroad axe"
+msgstr "die %sBreitaxt"
+
+msgid "the %sbattleaxe"
+msgstr "die %sStreitaxt"
+
+msgid "the %sexecutioner's axe"
+msgstr "die %sHenkersaxt"
+
+msgid "the %sspear"
+msgstr "der %sSpeer"
+
+msgid "the %strident"
+msgstr "der %sDreizack"
+
+msgid "the %shalberd"
+msgstr "die %sHellebarde"
+
+msgid "the %sscythe"
+msgstr "die %sSense"
+
+msgid "the %sdemon trident"
+msgstr "der %sDämonendreizack"
+
+msgid "the %strishula"
+msgstr "der %sTrishula"
+
+msgid "the %sglaive"
+msgstr "die %sGleve"
+
+msgid "the %sbardiche"
+msgstr "die %sBardiche"
+
+msgid "the %squarterstaff"
+msgstr "der %sKampfstab"
+
+msgid "the %slajatang"
+msgstr "der %sLajatang"
+
 # without determiner (used in start menu)
 
 msgid "club"
@@ -464,6 +702,61 @@ msgstr "ein {adj-er}%sLajatang"
 # Launchers
 #################################
 
+# definite articel
+
+msgid "the hunting sling"
+msgstr "die Schleuder"
+
+msgid "the fustibalus"
+msgstr "der Fustibalus"
+
+msgid "the hand crossbow"
+msgstr "die Handarmbrust"
+
+msgid "the arbalest"
+msgstr "die Armbrust"
+
+msgid "the triple crossbow"
+msgstr "die Dreifach-Armbrust"
+
+msgid "the shortbow"
+msgstr "der Kurzbogen"
+
+msgid "the longbow"
+msgstr "der Langbogen"
+
+# with adjective
+
+#, c-format
+msgid "the %shunting sling"
+msgstr "die %sSchleuder"
+
+#, c-format
+msgid "the %sfustibalus"
+msgstr "der %sFustibalus"
+
+#, c-format
+msgid "the %shand crossbow"
+msgstr "die %sHandarmbrust"
+
+#, c-format
+msgid "the %sarbalest"
+msgstr "die %sArmbrust"
+
+#, c-format
+msgid "the %striple crossbow"
+msgstr "die %sDreifach-Armbrust"
+
+#, c-format
+msgid "the %sshortbow"
+msgstr "der %sKurzbogen"
+
+#, c-format
+msgid "the %slongbow"
+msgstr "der %sLangbogen"
+
+# indefinite article
+
 msgid "a hunting sling"
 msgstr "eine Schleuder"
 
@@ -755,6 +1048,230 @@ msgstr " der Zerstreuung"
 # Armour
 #################################
 
+# definite article
+
+msgid "the animal skin"
+msgstr "die Tierhaut"
+
+msgid "the robe"
+msgstr "die Robe"
+
+msgid "the leather armour"
+msgstr "die Lederrüstung"
+
+msgid "the ring mail"
+msgstr "der Ringpanzer"
+
+msgid "the scale mail"
+msgstr "der Schuppenpanzer"
+
+msgid "the chain mail"
+msgstr "der Kettenpanzer"
+
+msgid "the plate armour"
+msgstr "der Plattenpanzer"
+
+msgid "the crystal plate armour"
+msgstr "der Kristallplattenpanzer"
+
+msgid "the troll leather armour"
+msgstr "die Trolllederrüstung"
+
+msgid "the cloak"
+msgstr "der Umhang"
+
+msgid "the scarf"
+msgstr "der Schal"
+
+msgid "the pair of gloves"
+msgstr "das Paar Handschuhe"
+
+msgid "the helmet"
+msgstr "der Helm"
+
+msgid "the hat"
+msgstr "der Hut"
+
+msgid "the pair of boots"
+msgstr "das Paar Stiefel"
+
+msgid "the centaur barding"
+msgstr "der Zentaurenharnisch"
+
+msgid "the naga barding"
+msgstr "der Nagaharnisch"
+
+msgid "the buckler"
+msgstr "der Buckler"
+
+msgid "the kite shield"
+msgstr "das Kiteschild"
+
+msgid "the tower shield"
+msgstr "das Turmschild"
+
+msgid "the steam dragon scales"
+msgstr "die Dampfdrachenschuppen"
+
+msgid "the acid dragon scales"
+msgstr "die Sauredrachenschuppen"
+
+msgid "the quicksilver dragon scales"
+msgstr "die Quecksilberdrachenschuppen"
+
+msgid "the swamp dragon scales"
+msgstr "die Sumpfdrachenschuppen"
+
+msgid "the fire dragon scales"
+msgstr "die Feuerdrachenschuppen"
+
+msgid "the ice dragon scales"
+msgstr "die Eisdrachenschuppen"
+
+msgid "the pearl dragon scales"
+msgstr "die Perlendrachenschuppen"
+
+msgid "the storm dragon scales"
+msgstr "die Sturmdrachenschuppen"
+
+msgid "the shadow dragon scales"
+msgstr "die Schattendrachenschuppen"
+
+msgid "the gold dragon scales"
+msgstr "die Golddrachenschuppen"
+
+# definite article with adjective
+
+#, c-format
+msgid "the %sanimal skin"
+msgstr "die %sTierhaut"
+
+#, c-format
+msgid "the %srobe"
+msgstr "die %sRobe"
+
+#, c-format
+msgid "the %sleather armour"
+msgstr "die %sLederrüstung"
+
+#, c-format
+msgid "the %sring mail"
+msgstr "der %sRingpanzer"
+
+#, c-format
+msgid "the %sscale mail"
+msgstr "der %sSchuppenpanzer"
+
+#, c-format
+msgid "the %schain mail"
+msgstr "der %sKettenpanzer"
+
+#, c-format
+msgid "the %splate armour"
+msgstr "der %sPlattenpanzer"
+
+#, c-format
+msgid "the %scrystal plate armour"
+msgstr "eie %sKristallplattenpanzer"
+
+#, c-format
+msgid "the %stroll leather armour"
+msgstr "die %sTrolllederrüstung"
+
+#, c-format
+msgid "the %scloak"
+msgstr "der %sUmhang"
+
+#, c-format
+msgid "the %sscarf"
+msgstr "der %sSchal"
+
+#, c-format
+msgid "the %spair of gloves"
+msgstr "das %sPaar Handschuhe"
+
+#, c-format
+msgid "the %spair of %sgloves"
+msgstr "das %sPaar {adj-e}%sHandschuhe"
+
+#, c-format
+msgid "the %shelmet"
+msgstr "der %sHelm"
+
+#, c-format
+msgid "the %shat"
+msgstr "der %sHut"
+
+#, c-format
+msgid "the %spair of boots"
+msgstr "das %sPaar Stiefel"
+
+#, c-format
+msgid "the %spair of %sboots"
+msgstr "das %sPaar {adj-e}%sStiefel"
+
+#, c-format
+msgid "the %scentaur barding"
+msgstr "der %sZentaurenharnisch"
+
+#, c-format
+msgid "the %snaga barding"
+msgstr "der %sNagaharnisch"
+
+#, c-format
+msgid "the %sbuckler"
+msgstr "der %sBuckler"
+
+#, c-format
+msgid "the %skite shield"
+msgstr "das %sKiteschild"
+
+#, c-format
+msgid "the %stower shield"
+msgstr "das %sTurmschild"
+
+#, c-format
+msgid "the %ssteam dragon scales"
+msgstr "die %sDampfdrachenschuppen"
+
+#, c-format
+msgid "the %sacid dragon scales"
+msgstr "die %sSauredrachenschuppen"
+
+#, c-format
+msgid "the %squicksilver dragon scales"
+msgstr "die %sQuecksilberdrachenschuppen"
+
+#, c-format
+msgid "the %sswamp dragon scales"
+msgstr "die %sSumpfdrachenschuppen"
+
+#, c-format
+msgid "the %sfire dragon scales"
+msgstr "die %sFeuerdrachenschuppen"
+
+#, c-format
+msgid "the %sice dragon scales"
+msgstr "die %sEisdrachenschuppen"
+
+#, c-format
+msgid "the %spearl dragon scales"
+msgstr "die %sPerlendrachenschuppen"
+
+#, c-format
+msgid "the %sstorm dragon scales"
+msgstr "die %sSturmdrachenschuppen"
+
+#, c-format
+msgid "the %sshadow dragon scales"
+msgstr "die %sSchattendrachenschuppen"
+
+#, c-format
+msgid "the %sgold dragon scales"
+msgstr "die %sGolddrachenschuppen"
+
+# indefinite article
+
 msgid "an animal skin"
 msgstr "eine Tierhaut"
 
@@ -845,7 +1362,7 @@ msgstr "Schattendrachenschuppen"
 msgid "gold dragon scales"
 msgstr "Golddrachenschuppen"
 
-# with adjective
+# indefinite article with adjective
 
 #, c-format
 msgid "a %sanimal skin"
@@ -857,7 +1374,7 @@ msgstr "eine %sRobe"
 
 #, c-format
 msgid "a %sleather armour"
-msgstr "eine {adj-er}%sLederrüstung"
+msgstr "eine %sLederrüstung"
 
 #, c-format
 msgid "a %sring mail"
@@ -1140,13 +1657,35 @@ msgid " of spirit shield"
 msgstr " des Geistschildes"
 
 msgid " of archery"
-msgstr " des Bogenschießens"
+msgstr " der Schießkunst"
 
 msgid " of repulsion"
 msgstr " der Abstoßung"
 
 msgid " of harm"
 msgstr " des Schadens"
+
+
+#################################
+# Artefact suffixes
+#################################
+
+# generic
+msgid " of \"%s\""
+msgstr " von \"%s\""
+
+# generic
+msgid " \"%s\""
+msgstr " \"%s\""
+
+# specific artefacts don't necessarily need to be translated
+# if there's no specific translation, the English text will put in quotes.
+
+msgid " of the Moon"
+msgstr " des Mondes"
+
+msgid " of Dice, Bag, and Bottle"
+msgstr " von Würfel, Beutel, und Flasche"
 
 
 #################################
