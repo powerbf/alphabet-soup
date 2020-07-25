@@ -706,7 +706,7 @@ static string _localize_pair(const string& context, const string& name)
 //   the +2 pair of boots of Boqauskewui (worn) {*Contam rN+++ rCorr SInv}
 //
 //
-static string _localize_complex_item_name(const string& context, const string& item)
+static string _localize_item_name(const string& context, const string& item)
 {
     if (item.empty())
     {
@@ -925,23 +925,9 @@ static string _localize_string(const string& context, const string& value)
     if (result != value)
         return result;
 
-
-    string trimmed = trimmed_string(value);
-    if (trimmed.length() < 6)
-    {
-        // There's no point trying anything further
-        return value;
-    }
-
     if (is_list(value))
     {
         return _localize_list(context, value);
-    }
-
-    if (count_occurrences(trimmed, " ") < 2)
-    {
-        // Too simple. There's no point trying anything further
-        return value;
     }
 
     if (regex_search(value, regex("^[a-zA-Z] - ")))
@@ -954,47 +940,27 @@ static string _localize_string(const string& context, const string& value)
     // remove annotations
     list<string> annotations;
     string rest = _strip_annotations(value, annotations);
-
     if (!annotations.empty())
     {
+        result = _localize_string(context, rest);
         annotations = _localize_annotations(annotations);
-
-        if (rest.empty())
-        {
-            return _add_annotations(rest, annotations);
-        }
-
-        // try simple translation again
-        result = cxlate(context, rest);
-        if (result != rest)
-            return _add_annotations(result, annotations);
-
-        // try treating as a plural again
-        result = _localize_counted_string(context, rest);
-        if (result != rest)
-            return _add_annotations(result, annotations);
-    }
-
-    if (contains(rest, "scroll"))
-    {
-        result = _localize_unidentified_scroll(context, rest);
         return _add_annotations(result, annotations);
     }
-    else if (contains(rest, "pair of "))
+
+    if (contains(value, "scroll labeled"))
+    {
+        return _localize_unidentified_scroll(context, value);
+    }
+    else if (contains(value, "pair of "))
     {
         // pair of boots/gloves
-        result = _localize_pair(context, rest);
-        return _add_annotations(result, annotations);
+        return _localize_pair(context, value);
     }
 
-    // try treating it as a complex item name
-    result = _localize_complex_item_name(context, rest);
-    if (result != rest)
-    {
-        return _add_annotations(result, annotations);
-    }
+    // try treating it as an item name
+    result = _localize_item_name(context, value);
 
-    return value;
+    return result;
 }
 
 static string _localize_string(const string& context, const LocalizationArg& arg)

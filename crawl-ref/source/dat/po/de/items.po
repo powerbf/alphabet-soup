@@ -151,145 +151,146 @@ msgstr "der %sKampfstab"
 msgid "the %slajatang"
 msgstr "der %sLajatang"
 
-# without determiner (used in start menu)
+# without determiner (used in start menu and HUD)
+# Note: The %s is a placeholder for any adjectives
 
-msgid "club"
-msgstr "Keule"
+msgid "%sclub"
+msgstr "%sKeule"
 
-msgid "whip"
-msgstr "Peitsche"
+msgid "%swhip"
+msgstr "%sPeitsche"
 
-msgid "mace"
-msgstr "Streitkolben"
+msgid "%smace"
+msgstr "%sStreitkolben"
 
-msgid "flail"
-msgstr "Flegel"
+msgid "%sflail"
+msgstr "%sFlegel"
 
-msgid "morningstar"
-msgstr "Morgenstern"
+msgid "%smorningstar"
+msgstr "%sMorgenstern"
 
-msgid "demon whip"
-msgstr "Dämonenpeitsche"
+msgid "%sdemon whip"
+msgstr "%sDämonenpeitsche"
 
-msgid "sacred scourge"
-msgstr "geistliche Geißel"
+msgid "%ssacred scourge"
+msgstr "%sgeistliche Geißel"
 
-msgid "dire flail"
-msgstr "Schreckensflegel"
+msgid "%sdire flail"
+msgstr "%sSchreckensflegel"
 
-msgid "eveningstar"
-msgstr "Abendstern"
+msgid "%seveningstar"
+msgstr "%sAbendstern"
 
-msgid "great mace"
-msgstr "großer Streitkolben"
+msgid "%sgreat mace"
+msgstr "%sgroßer Streitkolben"
 
-msgid "giant club"
-msgstr "Riesenkeule"
+msgid "%sgiant club"
+msgstr "%sRiesenkeule"
 
-msgid "giant spiked club"
-msgstr "riesige Stachelkeule"
+msgid "%sgiant spiked club"
+msgstr "%sriesige Stachelkeule"
 
-msgid "dagger"
-msgstr "Dolch"
+msgid "%sdagger"
+msgstr "%sDolch"
 
-msgid "quick blade"
-msgstr "Schnellklinge"
+msgid "%squick blade"
+msgstr "%sSchnellklinge"
 
-msgid "short sword"
-msgstr "Kurzschwert"
+msgid "%sshort sword"
+msgstr "%sKurzschwert"
 
-msgid "rapier"
-msgstr "Rapier"
+msgid "%srapier"
+msgstr "%sRapier"
 
-msgid "falchion"
-msgstr "Falchion"
+msgid "%sfalchion"
+msgstr "%sFalchion"
 
-msgid "long sword"
-msgstr "Langschwert"
+msgid "%slong sword"
+msgstr "%sLangschwert"
 
-msgid "scimitar"
-msgstr "Krummsäbel"
+msgid "%sscimitar"
+msgstr "%sKrummsäbel"
 
-msgid "demon blade"
-msgstr "Dämonenklinge"
+msgid "%sdemon blade"
+msgstr "%sDämonenklinge"
 
-msgid "eudemon blade"
-msgstr "Eudämonenklinge"
+msgid "%seudemon blade"
+msgstr "%sEudämonenklinge"
 
-msgid "double sword"
-msgstr "Doppelschwert"
+msgid "%sdouble sword"
+msgstr "%sDoppelschwert"
 
-msgid "great sword"
-msgstr "Großschwert"
+msgid "%sgreat sword"
+msgstr "%sGroßschwert"
 
-msgid "triple sword"
-msgstr "Dreifach-Schwert"
+msgid "%striple sword"
+msgstr "%sDreifach-Schwert"
 
-msgid "hand axe"
-msgstr "Beil"
+msgid "%shand axe"
+msgstr "%sHandbeil"
 
-msgid "war axe"
-msgstr "Kriegsaxt"
+msgid "%swar axe"
+msgstr "%sKriegsaxt"
 
-msgid "broad axe"
-msgstr "Breitaxt"
+msgid "%sbroad axe"
+msgstr "%sBreitaxt"
 
-msgid "battleaxe"
-msgstr "Streitaxt"
+msgid "%sbattleaxe"
+msgstr "%sStreitaxt"
 
-msgid "executioner's axe"
-msgstr "Henkersaxt"
+msgid "%sexecutioner's axe"
+msgstr "%sHenkersaxt"
 
-msgid "spear"
-msgstr "Speer"
+msgid "%sspear"
+msgstr "%sSpeer"
 
-msgid "trident"
-msgstr "Dreizack"
+msgid "%strident"
+msgstr "%sDreizack"
 
-msgid "halberd"
-msgstr "Hellebarde"
+msgid "%shalberd"
+msgstr "%sHellebarde"
 
-msgid "scythe"
-msgstr "Sense"
+msgid "%sscythe"
+msgstr "%sSense"
 
-msgid "demon trident"
-msgstr "Dämonendreizack"
+msgid "%sdemon trident"
+msgstr "%sDämonendreizack"
 
-msgid "trishula"
-msgstr "Trishula"
+msgid "%strishula"
+msgstr "%sTrishula"
 
-msgid "glaive"
-msgstr "Gleve"
+msgid "%sglaive"
+msgstr "%sGleve"
 
-msgid "bardiche"
-msgstr "Bardiche"
+msgid "%sbardiche"
+msgstr "%sBardiche"
 
-msgid "quarterstaff"
-msgstr "Kampfstab"
+msgid "%squarterstaff"
+msgstr "%sKampfstab"
 
-msgid "lajatang"
-msgstr "Lajatang"
+msgid "%slajatang"
+msgstr "%sLajatang"
 
-msgid "hunting sling"
-msgstr "Schleuder"
+msgid "%shunting sling"
+msgstr "%sSchleuder"
 
-msgid "fustibalus"
-msgstr "Fustibalus"
+msgid "%sfustibalus"
+msgstr "%sFustibalus"
 
-msgid "hand crossbow"
-msgstr "Handarmbrust"
+msgid "%shand crossbow"
+msgstr "%sHandarmbrust"
 
-msgid "arbalest"
-msgstr "Armbrust"
+msgid "%sarbalest"
+msgstr "%sArmbrust"
 
-msgid "triple crossbow"
-msgstr "Dreifach-armbrust"
+msgid "%striple crossbow"
+msgstr "%sDreifach-armbrust"
 
-msgid "shortbow"
-msgstr "Kurzbogen"
+msgid "%sshortbow"
+msgstr "%sKurzbogen"
 
-msgid "longbow"
-msgstr "Langbogen"
+msgid "%slongbow"
+msgstr "%sLangbogen"
 
 # with indefinite article
 # Note that %s is a placeholder for any adjectives

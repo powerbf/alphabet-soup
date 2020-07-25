@@ -926,6 +926,8 @@ static void _print_stats_wp(int y)
     else
         text = you.unarmed_attack_name();
 
+    text = localize(text);
+
     CGOTOXY(1, y, GOTO_STAT);
     textcolour(HUD_CAPTION_COLOUR);
     const char slot_letter = you.weapon() ? index_to_letter(you.weapon()->link)
