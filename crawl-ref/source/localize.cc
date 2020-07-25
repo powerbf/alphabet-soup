@@ -947,7 +947,7 @@ static string _localize_string(const string& context, const string& value)
         return _add_annotations(result, annotations);
     }
 
-    if (contains(value, "scroll labeled"))
+    if (contains(value, "scroll") && contains(value, "labeled"))
     {
         return _localize_unidentified_scroll(context, value);
     }

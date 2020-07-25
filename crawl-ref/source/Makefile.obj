@@ -331,8 +331,11 @@ YACC_OBJECTS = \
 util/levcomp.tab.o \
 util/levcomp.lex.o
 
+I18N_TEST_OBJECTS = \
+test/i18n/de/item-test.o
+
 ALL_OBJECTS = $(OBJECTS) $(TEST_OBJECTS) $(TILES_OBJECTS) $(GLTILES_OBJECTS) \
-$(WEBTILES_OBJECTS) $(YACC_OBJECTS) $(TILEDEFOBJS) \
+$(WEBTILES_OBJECTS) $(YACC_OBJECTS) $(TILEDEFOBJS) $(I18N_TEST_OBJECTS) \
 libw32c.o \
 libunix.o \
 catch2-tests/test_plug_and_play.o \

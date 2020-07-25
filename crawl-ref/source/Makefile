@@ -84,10 +84,10 @@ MAKEFLAGS += -rR # This only works for recursive makes, i.e. contribs ...
 
 .PHONY: all test install clean clean-contrib clean-rltiles clean-android \
         clean-catch2 clean-plug-and-play-tests \
-		clean-coverage clean-coverage-full \
+		clean-coverage clean-coverage-full clean-i18n-tests \
         distclean debug debug-lite profile package-source source \
         build-windows package-windows-installer docs greet api api-dev android FORCE \
-        monster catch2-tests plug-and-play-tests
+        monster catch2-tests plug-and-play-tests i18n-tests
 
 include Makefile.obj
 
@@ -1590,6 +1590,12 @@ plug-and-play-tests: $(CATCH2_PNP_OBJECTS) $(CONTRIB_LIBS) dat/dlua/tags.lua
 catch2-tests: catch2-tests-executable
 	./catch2-tests-executable
 
+de-item-test: test/i18n/de/item-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS)
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+i18n-tests: de-item-test
+	./de-item-test
+
 clean-coverage-full: clean-coverage
 	find . -type f -name '*.gcno' -delete
 
@@ -1603,6 +1609,9 @@ clean-catch2:
 
 clean-plug-and-play-tests:
 	$(RM) plug-and-play-tests plug-and-play-tests.exe
+
+clean-i18n-tests:
+	$(RM) de-item-test test/i18n/*/*.o
 
 debug: all
 debug-lite: all
