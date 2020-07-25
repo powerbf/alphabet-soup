@@ -741,7 +741,7 @@ msgid " of protection"
 msgstr " de Schutzes"
 
 msgid " of penetration"
-msgstr " des Eindringens"
+msgstr " der Penetration"
 
 # only on artefact "Sword of Zonguldrok"
 msgid " of reaping"
@@ -1122,7 +1122,7 @@ msgid " of poison resistance"
 msgstr " der Giftresistenz"
 
 msgid " of see invisible"
-msgstr " der Unsichtbares-Sehens"
+msgstr " von Unsichtbares sehen"
 
 msgid " of invisibility"
 msgstr " der Unsichtbarkeit"
@@ -1827,7 +1827,7 @@ msgid "Item in an invalid slot"
 msgstr "Gegenstand in falscher Position"
 
 #################################
-# Other
+# Annotations
 #################################
 
 msgid " (curse)"
@@ -1836,1286 +1836,165 @@ msgstr " (verflucht)"
 msgid "god gift"
 msgstr "Gottesgeschenk"
 
-#################################
-# TODO
-#################################
-
-msgid "shaped "
-msgstr ""
-
-
-msgid "flame"
-msgstr ""
-
-msgid "frost"
-msgstr ""
-
-msgid "poisoned"
-msgstr ""
-
-msgid "poison"
-msgstr ""
-
-msgid "curare-tipped"
-msgstr ""
-
-msgid "curare"
-msgstr ""
-
-msgid "explode"
-msgstr ""
-
-msgid "exploding"
-msgstr ""
-
-msgid "steel"
-msgstr ""
-
-msgid "return"
-msgstr ""
-
-msgid "returning"
-msgstr ""
-
-msgid "penet"
-msgstr ""
-
-msgid "penetration"
-msgstr ""
-
-msgid "silver"
-msgstr ""
-
-msgid "paralysis"
-msgstr ""
-
-msgid "slow"
-msgstr ""
-
-msgid "slowing"
-msgstr ""
-
-msgid "sleep"
-msgstr ""
-
-msgid "sleeping"
-msgstr ""
-
-msgid "conf"
-msgstr ""
-
-msgid "confusion"
-msgstr ""
-
-msgid "sick"
-msgstr ""
-
-msgid "sickness"
-msgstr ""
-
-msgid "datura-tipped"
-msgstr ""
-
-msgid "datura"
-msgstr ""
-
-msgid "chaos"
-msgstr ""
-
-msgid "disperse"
-msgstr ""
-
-msgid "dispersal"
-msgstr ""
-
-msgid "atropa-tipped"
-msgstr ""
-
-msgid "atropa"
-msgstr ""
-
-msgid "buggy"
-msgstr ""
-
-msgid "bugginess"
-msgstr ""
-
-msgid "freeze"
-msgstr ""
-
-msgid "holy"
-msgstr ""
-
-msgid "elec"
-msgstr ""
-
-msgid "obsolete"
-msgstr ""
-
-msgid "venom"
-msgstr ""
-
-msgid "protect"
-msgstr ""
-
-msgid "drain"
-msgstr ""
-
-msgid "speed"
-msgstr ""
-
-msgid "vamp"
-msgstr ""
-
-msgid "pain"
-msgstr ""
-
-msgid "distort"
-msgstr ""
-
-msgid "evade"
-msgstr ""
-
-msgid "confuse"
-msgstr ""
-
-msgid "reap"
-msgstr ""
-
-msgid "acid"
-msgstr ""
-
-msgid "debug"
-msgstr ""
-
-msgid "flaming"
-msgstr ""
-
-msgid "freezing"
-msgstr ""
-
-msgid "holy wrath"
-msgstr ""
-
-msgid "electrocution"
-msgstr ""
-
-msgid "orc slaying"
-msgstr ""
-
-msgid "dragon slaying"
-msgstr ""
-
-msgid "protection"
-msgstr ""
-
-msgid "draining"
-msgstr ""
-
-msgid "vorpality"
-msgstr ""
-
-msgid "vampirism"
-msgstr ""
-
-msgid "distortion"
-msgstr ""
-
-msgid "reaching"
-msgstr ""
-
-msgid "evasion"
-msgstr ""
-
-msgid "reaping"
-msgstr ""
-
-msgid "electric"
-msgstr ""
-
-msgid "acidic"
-msgstr ""
-
-msgid "speedy slithering"
-msgstr ""
-
-msgid "running"
-msgstr ""
-
-msgid "fire resistance"
-msgstr ""
-
-msgid "cold resistance"
-msgstr ""
-
-msgid "poison resistance"
-msgstr ""
-
-msgid "see invisible"
-msgstr ""
-
-msgid "invisibility"
-msgstr ""
-
-msgid "strength"
-msgstr ""
-
-msgid "dexterity"
-msgstr ""
-
-msgid "intelligence"
-msgstr ""
-
-msgid "ponderousness"
-msgstr ""
-
-msgid "flying"
-msgstr ""
-
-msgid "magic resistance"
-msgstr ""
-
-msgid "stealth"
-msgstr ""
-
-msgid "resistance"
-msgstr ""
-
-msgid "positive energy"
-msgstr ""
-
-msgid "the Archmagi"
-msgstr ""
-
-msgid "jumping"
-msgstr ""
-
-msgid "preservation"
-msgstr ""
-
-msgid "reflection"
-msgstr ""
-
-msgid "spirit shield"
-msgstr ""
-
-msgid "archery"
-msgstr ""
-
-msgid "repulsion"
-msgstr ""
-
-msgid "cloud immunity"
-msgstr ""
-
-msgid "harm"
-msgstr ""
-
-msgid "run"
-msgstr ""
-
-msgid "rF+"
-msgstr "rF+"
-
-msgid "rC+"
-msgstr "rC+"
-
-msgid "SInv"
-msgstr ""
-
-msgid "+Inv"
-msgstr ""
-
-msgid "Str+3"
-msgstr ""
-
-msgid "Dex+3"
-msgstr ""
-
-msgid "Int+3"
-msgstr ""
-
-msgid "ponderous"
-msgstr ""
-
-msgid "Fly"
-msgstr ""
-
-msgid "MR+"
-msgstr "MR+"
-
-msgid "AC+3"
-msgstr "AC+3"
-
-msgid "Stlth+"
-msgstr "Stlth+"
-
-msgid "rC+ rF+"
-msgstr "rC+ rF+"
-
-msgid "rN+"
-msgstr "rN+"
-
-msgid "Archmagi"
-msgstr ""
-
-msgid "reflect"
-msgstr ""
-
-msgid "Spirit"
-msgstr ""
-
-msgid "digging"
-msgstr ""
-
-msgid "iceblast"
-msgstr ""
-
-msgid "polymorph"
-msgstr ""
-
-msgid "enslavement"
-msgstr ""
-
-msgid "random effects"
-msgstr ""
-
-msgid "disintegration"
-msgstr ""
-
-msgid "clouds"
-msgstr ""
-
-
-msgid "jewelled "
-msgstr ""
-
-msgid "curved "
-msgstr ""
-
-msgid "long "
-msgstr ""
-
-msgid "short "
-msgstr ""
-
-msgid "twisted "
-msgstr ""
-
-msgid "crooked "
-msgstr ""
-
-msgid "forked "
-msgstr ""
-
-#msgid "shiny "
-#msgstr ""
-
-msgid "blackened "
-msgstr ""
-
-msgid "tapered "
-msgstr ""
-
-#msgid "glowing "
-#msgstr ""
-
-msgid "worn "
-msgstr ""
-
-msgid "encrusted "
-msgstr ""
-
-#msgid "runed "
-#msgstr ""
-
-msgid "sharpened "
-msgstr ""
-
-msgid "iron"
-msgstr ""
-
-msgid "brass"
-msgstr ""
-
-msgid "bone"
-msgstr ""
-
-msgid "wooden"
-msgstr ""
-
-msgid "copper"
-msgstr ""
-
 msgid "gold"
-msgstr ""
-
-msgid "bronze"
-msgstr ""
-
-msgid "ivory"
-msgstr ""
-
-msgid "glass"
-msgstr ""
-
-msgid "lead"
-msgstr ""
-
-msgid "fluorescent"
-msgstr ""
-
-msgid "protection from fire"
-msgstr ""
-
-msgid "protection from cold"
-msgstr ""
-
-msgid "slaying"
-msgstr ""
-
-msgid "resist corrosion"
-msgstr ""
-
-msgid "attention"
-msgstr ""
-
-msgid "sustain attributes"
-msgstr ""
-
-msgid "wizardry"
-msgstr ""
-
-msgid "magical power"
-msgstr ""
-
-msgid "protection from magic"
-msgstr ""
-
-msgid "fire"
-msgstr ""
-
-msgid "ice"
-msgstr ""
-
-msgid "teleport control"
-msgstr ""
-
-msgid "magic regeneration"
-msgstr ""
-
-msgid "the acrobat"
-msgstr ""
-
-msgid "rage"
-msgstr ""
-
-msgid "gourmand"
-msgstr ""
-
-msgid "conservation"
-msgstr ""
-
-msgid "controlled flight"
-msgstr ""
-
-msgid "inaccuracy"
-msgstr ""
-
-msgid "nothing"
-msgstr ""
-
-msgid "guardian spirit"
-msgstr ""
-
-msgid "faith"
-msgstr ""
-
-msgid "regeneration"
-msgstr ""
-
-msgid "buggy jewellery"
-msgstr ""
-
-msgid "AC"
-msgstr ""
+msgstr "Gold"
 
 msgid "Str"
-msgstr ""
-
-msgid "Slay"
-msgstr ""
-
-msgid "sInv"
-msgstr ""
-
-msgid "Stlth-"
-msgstr ""
-
-msgid "EV"
-msgstr ""
+msgstr "Stä"
 
 msgid "Dex"
-msgstr ""
+msgstr "Ges"
 
 msgid "Int"
-msgstr ""
+msgstr "Int"
 
-msgid "MP+9"
-msgstr ""
+# armour class
+msgid "AC"
+msgstr "RK"
 
-msgid "+Fly"
-msgstr ""
+# evasion
+msgid "EV"
+msgstr "EV"
+
+msgid "rF"
+msgstr "rF"
+
+msgid "rC"
+msgstr "rK"
+
+msgid "rN"
+msgstr "rN"
+
+msgid "MR"
+msgstr "MR"
+
+msgid "Stlth"
+msgstr "Heiml"
+
+msgid "rPois"
+msgstr "rGift"
+
+msgid "rCorr"
+msgstr "rKorr"
+
+msgid "SInv"
+msgstr "UnsS"
+
+msgid "Inv"
+msgstr "Uns"
 
 msgid "Regen"
-msgstr ""
+msgstr "Regen"
 
-msgid "+Rage"
-msgstr ""
+msgid "Rage"
+msgstr "Wut"
 
 msgid "Acrobat"
-msgstr ""
+msgstr "Akrobat"
 
-msgid "ring of"
-msgstr ""
+# weapon brands
 
-msgid "amulet of"
-msgstr ""
+msgid "flame"
+msgstr "Flamme"
 
+msgid "freeze"
+msgstr "Frieren"
 
-msgid "tubular "
-msgstr ""
+msgid "holy"
+msgstr "heilig"
 
-msgid "scratched "
-msgstr ""
+msgid "elec"
+msgstr "elek"
 
-msgid "small "
-msgstr ""
+msgid "venom"
+msgstr "Gift"
 
-msgid "large "
-msgstr ""
+msgid "protect"
+msgstr "Schutz"
 
-msgid "notched "
-msgstr ""
+msgid "drain"
+msgstr "entleer"
 
-msgid "knobbly "
-msgstr ""
+msgid "speed"
+msgstr "Geschw"
 
-msgid "tourmaline"
-msgstr ""
+msgid "vorpal"
+msgstr "Vorpal"
 
-msgid "granite"
-msgstr ""
+msgid "vamp"
+msgstr "vamp"
 
-#msgid "ruby"
-#msgstr ""
+msgid "pain"
+msgstr "Schmerz"
 
-msgid "marble"
-msgstr ""
+msgid "antimagic"
+msgstr "antimagie"
 
-msgid "jade"
-msgstr ""
+msgid "distort"
+msgstr "verwind"
 
-msgid "agate"
-msgstr ""
+msgid "chaos"
+msgstr "Chaos"
 
-msgid "diamond"
-msgstr ""
+msgid "penet"
+msgstr "penet"
 
-#msgid "emerald"
-#msgstr ""
+msgid "reap"
+msgstr "ernten"
 
-msgid "peridot"
-msgstr ""
+msgid "acid"
+msgstr "Säure"
 
-msgid "garnet"
-msgstr ""
+# missile brands
 
-msgid "opal"
-msgstr ""
+msgid "poison"
+msgstr "Gift"
 
-msgid "pearl"
-msgstr ""
+msgid "curare"
+msgstr "Kurare"
 
-msgid "coral"
-msgstr ""
+msgid "datura"
+msgstr "Datura"
 
-#msgid "sapphire"
-#msgstr ""
+msgid "atropa"
+msgstr "Atropa"
 
-msgid "cabochon"
-msgstr ""
+msgid "silver"
+msgstr "Silber"
 
-msgid "gilded"
-msgstr ""
+msgid "disperse"
+msgstr "streuen"
 
-msgid "onyx"
-msgstr ""
+# armour egos
 
-msgid "moonstone"
-msgstr ""
+msgid "run"
+msgstr "laufen"
 
-msgid "dented "
-msgstr ""
+msgid "ponderous"
+msgstr "Schwerfäll"
 
-msgid "square "
-msgstr ""
+msgid "Fly"
+msgstr "fliegen"
 
-msgid "thick "
-msgstr ""
+msgid "Archmagi"
+msgstr "Erzmagier"
 
-msgid "thin "
-msgstr ""
+msgid "reflect"
+msgstr "Reflex"
 
-msgid "tiny "
-msgstr ""
+msgid "Spirit"
+msgstr "Geist"
 
-msgid "triangular "
-msgstr ""
+msgid "archery"
+msgstr "Schieß"
 
-#msgid "lumpy "
-#msgstr ""
+msgid "repulsion"
+msgstr "Abstoßung"
 
-msgid "zirconium"
-msgstr ""
+msgid "harm"
+msgstr "Schaden"
 
-msgid "citrine"
-msgstr ""
 
-msgid "platinum"
-msgstr ""
 
-#msgid "amethyst"
-#msgstr ""
 
-msgid "cameo"
-msgstr ""
-
-#msgid "blue"
-#msgstr ""
-
-msgid "jasper"
-msgstr ""
-
-msgid "malachite"
-msgstr ""
-
-msgid "soapstone"
-msgstr ""
-
-msgid "lapis lazuli"
-msgstr ""
-
-msgid "filigree"
-msgstr ""
-
-msgid "beryl"
-msgstr ""
-
-msgid "obsidian"
-msgstr ""
-
-msgid "icy"
-msgstr ""
-
-#msgid "slimy"
-#msgstr ""
-
-msgid "serpentine"
-msgstr ""
-
-msgid "elven"
-msgstr ""
-
-msgid "decaying"
-msgstr ""
-
-msgid "barnacled"
-msgstr ""
-
-msgid "gossamer"
-msgstr ""
-
-msgid "mossy"
-msgstr ""
-
-msgid "demonic"
-msgstr ""
-
-msgid "abyssal"
-msgstr ""
-
-#msgid "glowing"
-#msgstr ""
-
-msgid "magical"
-msgstr ""
-
-msgid "fiery"
-msgstr ""
-
-#msgid "dark"
-#msgstr ""
-
-msgid "horn of Geryon"
-msgstr ""
-
-msgid "lightning rod"
-msgstr ""
-
-msgid "empty flask"
-msgstr ""
-
-msgid "quad damage"
-msgstr ""
-
-msgid "phial of floods"
-msgstr ""
-
-msgid "phantom mirror"
-msgstr ""
-
-msgid "figurine of a ziggurat"
-msgstr ""
-
-msgid "tin of tremorstones"
-msgstr ""
-
-msgid "buggy miscellaneous item"
-msgstr ""
-
-msgid "chunky "
-msgstr ""
-
-msgid "wide "
-msgstr ""
-
-msgid "dog-eared "
-msgstr ""
-
-msgid "oblong "
-msgstr ""
-
-msgid "paperback"
-msgstr ""
-
-msgid "hardcover"
-msgstr ""
-
-msgid "leatherbound"
-msgstr ""
-
-msgid "metal-bound"
-msgstr ""
-
-msgid "papyrus"
-msgstr ""
-
-msgid "Minor Magic"
-msgstr ""
-
-msgid "Conjurations"
-msgstr ""
-
-msgid "Flames"
-msgstr ""
-
-msgid "Frost"
-msgstr ""
-
-msgid "Summonings"
-msgstr ""
-
-msgid "Fire"
-msgstr ""
-
-msgid "Ice"
-msgstr ""
-
-msgid "Spatial Translocations"
-msgstr ""
-
-msgid "Hexes"
-msgstr ""
-
-msgid "the Tempests"
-msgstr ""
-
-msgid "Death"
-msgstr ""
-
-msgid "Misfortune"
-msgstr ""
-
-msgid "Changes"
-msgstr ""
-
-msgid "Transfigurations"
-msgstr ""
-
-msgid "Battle"
-msgstr ""
-
-msgid "Clouds"
-msgstr ""
-
-msgid "Necromancy"
-msgstr ""
-
-msgid "Callings"
-msgstr ""
-
-msgid "Maledictions"
-msgstr ""
-
-msgid "Air"
-msgstr ""
-
-msgid "the Sky"
-msgstr ""
-
-msgid "the Warp"
-msgstr ""
-
-msgid "Envenomations"
-msgstr ""
-
-msgid "Annihilations"
-msgstr ""
-
-msgid "Unlife"
-msgstr ""
-
-msgid "Control"
-msgstr ""
-
-msgid "Geomancy"
-msgstr ""
-
-msgid "the Earth"
-msgstr ""
-
-msgid "Wizardry"
-msgstr ""
-
-msgid "Power"
-msgstr ""
-
-msgid "Cantrips"
-msgstr ""
-
-msgid "Party Tricks"
-msgstr ""
-
-msgid "Debilitation"
-msgstr ""
-
-msgid "the Dragon"
-msgstr ""
-
-msgid "Burglary"
-msgstr ""
-
-msgid "Dreams"
-msgstr ""
-
-msgid "Alchemy"
-msgstr ""
-
-msgid "Beasts"
-msgstr ""
-
-msgid "Fixed Level"
-msgstr ""
-
-msgid "Fixed Theme"
-msgstr ""
-
-msgid "Bugginess"
-msgstr ""
-
-msgid "weird "
-msgstr ""
-
-msgid "gnarled "
-msgstr ""
-
-msgid "smoking "
-msgstr ""
-
-msgid "power"
-msgstr ""
-
-msgid "cold"
-msgstr ""
-
-msgid "energy"
-msgstr ""
-
-msgid "death"
-msgstr ""
-
-msgid "conjuration"
-msgstr ""
-
-msgid "enchantment"
-msgstr ""
-
-msgid "air"
-msgstr ""
-
-msgid "earth"
-msgstr ""
-
-msgid "weapon"
-msgstr ""
-
-msgid "missile"
-msgstr ""
-
-msgid "armour"
-msgstr ""
-
-msgid "wand"
-msgstr ""
-
-msgid "food"
-msgstr ""
-
-msgid "scroll"
-msgstr ""
-
-msgid "jewellery"
-msgstr ""
-
-msgid "potion"
-msgstr ""
-
-msgid "book"
-msgstr ""
-
-msgid "staff"
-msgstr ""
-
-msgid "removed rod"
-msgstr ""
-
-msgid "orb"
-msgstr ""
-
-msgid "miscellaneous"
-msgstr ""
-
-msgid "corpse"
-msgstr ""
-
-msgid "rune"
-msgstr ""
-
-msgid "manual"
-msgstr ""
-
-msgid "manual of "
-msgstr ""
-
-msgid "Necronomicon"
-msgstr ""
-
-msgid "Grand Grimoire"
-msgstr ""
-
-msgid "tome of obsoleteness"
-msgstr ""
-
-msgid "Young Poisoner's Handbook"
-msgstr ""
-
-msgid "Fen Folio"
-msgstr ""
-
-msgid "Akashic Record"
-msgstr ""
-
-msgid "book of "
-msgstr ""
-
-msgid "orb of Zot"
-msgstr ""
-
-msgid "rune of Zot"
-msgstr ""
-
-#, c-format
-msgid "%s weapon"
-msgstr ""
-
-#, c-format
-msgid "weapon of %s"
-msgstr ""
-
-#, c-format
-msgid "%s touch"
-msgstr ""
-
-msgid "damnation"
-msgstr ""
-
-msgid "+∞ "
-msgstr ""
-
-msgid "x) "
-msgstr ""
-
-msgid "damnation "
-msgstr ""
-
-msgid " (damnation)"
-msgstr ""
-
-msgid " of "
-msgstr ""
-
-msgid "pair of "
-msgstr ""
-
-msgid "wand of "
-msgstr ""
-
-msgid " wand"
-msgstr ""
-
-msgid "amulet"
-msgstr ""
-
-msgid "ring"
-msgstr ""
-
-msgid " amulet"
-msgstr ""
-
-msgid " ring"
-msgstr ""
-
-msgid "+"
-msgstr ""
-
-msgid " (inert)"
-msgstr ""
-
-msgid "/"
-msgstr ""
-
-msgid "staff of "
-msgstr ""
-
-msgid "Orb of Zot"
-msgstr ""
-
-msgid "gold piece"
-msgstr ""
-
-msgid "decaying skeleton"
-msgstr ""
-
-msgid "skeleton"
-msgstr ""
-
-msgid "corpse bug"
-msgstr ""
-
-msgid "!"
-msgstr ""
-
-msgid "bad item (cl:"
-msgstr ""
-
-msgid ",ty:"
-msgstr ""
-
-msgid ",pl:"
-msgstr ""
-
-msgid ",pl2:"
-msgstr ""
-
-msgid ",sp:"
-msgstr ""
-
-msgid ",qu:"
-msgstr ""
-
-#, c-format
-msgid "%s"
-msgstr ""
-
-msgid "<"
-msgstr ""
-
-msgid ">"
-msgstr ""
-
-msgid " rune of Zot"
-msgstr ""
-
-msgid "</"
-msgstr ""
-
-msgid "<magenta>The Orb of Zot</magenta>"
-msgstr ""
-
-msgid "<darkgrey>The Orb of Zot (the Realm of Zot)</darkgrey>"
-msgstr ""
-
-msgid "lightgrey"
-msgstr ""
-
-msgid "lightgreen"
-msgstr ""
-
-#, c-format
-msgid ""
-"<white>Runes of Zot (</white><%s>%d</%s><white> collected) & Orbs of Power</"
-"white>"
-msgstr ""
-
-
-msgid "identified"
-msgstr ""
-
-msgid "known"
-msgstr ""
-
-msgid "unidentified"
-msgstr ""
-
-msgid "uncursed"
-msgstr ""
-
-msgid "forbidden"
-msgstr ""
-
-msgid "stationary"
-msgstr ""
-
-msgid "inedible"
-msgstr ""
-
-msgid "preferred"
-msgstr ""
-
-msgid "ranged"
-msgstr ""
-
-msgid "melee"
-msgstr ""
-
-msgid "artefact"
-msgstr ""
-
-msgid "equipped"
-msgstr ""
-
-msgid "spellbook"
-msgstr ""
-
-msgid "pickup"
-msgstr ""
-
-#, c-format
-msgid "<%s>%s</%s>"
-msgstr ""
-
-#, c-format
-msgid "Bad name for item name cache: %s"
-msgstr ""
-
-msgid "removed "
-msgstr ""
-
-msgid " dragon hide"
-msgstr ""
-
-msgid " dragon scales"
-msgstr ""
-
-msgid "animal skin"
-msgstr ""
-
-msgid "robe"
-msgstr ""
-
-msgid "leather armour"
-msgstr ""
-
-msgid "ring mail"
-msgstr ""
-
-msgid "scale mail"
-msgstr ""
-
-msgid "chain mail"
-msgstr ""
-
-msgid "plate armour"
-msgstr ""
-
-msgid "crystal plate armour"
-msgstr ""
-
-msgid "removed troll hide"
-msgstr ""
-
-msgid "troll leather armour"
-msgstr ""
-
-msgid "cloak"
-msgstr ""
-
-msgid "scarf"
-msgstr ""
-
-msgid "gloves"
-msgstr ""
-
-msgid "helmet"
-msgstr ""
-
-msgid "cap"
-msgstr ""
-
-msgid "hat"
-msgstr ""
-
-msgid "boots"
-msgstr ""
-
-msgid "centaur barding"
-msgstr ""
-
-msgid "naga barding"
-msgstr ""
-
-msgid "buckler"
-msgstr ""
-
-msgid "kite shield"
-msgstr ""
-
-msgid "tower shield"
-msgstr ""
-
-msgid "steam"
-msgstr ""
-
-msgid "quicksilver"
-msgstr ""
-
-msgid "swamp"
-msgstr ""
-
-msgid "storm"
-msgstr ""
-
-msgid "shadow"
-msgstr ""
 

@@ -319,9 +319,23 @@ static string _localize_annotation(const string& s)
     if (result != s)
         return result;
 
-    // TODO: break it down
+    result = "";
 
-    return s;
+    // separate into tokens of either all-alpha or all non-alpha characters
+    // should be able to do this with regex, but I couldn't make it work
+    size_t i = 0;
+    while (i < s.length())
+    {
+        int alpha = isalpha(s[i]);
+        size_t len = 1;
+        while (i + len < s.length() - 1 && isalpha(s[i+len]) == alpha)
+            len++;
+        string token = s.substr(i, len);
+        result += alpha ? xlate(token) : token;
+        i += len;
+    }
+
+    return result;
 }
 
 static list<string> _localize_annotations(const list<string>& input)
