@@ -746,8 +746,9 @@ static string _localize_item_name(const string& context, const string& item)
 
     // try to construct a string that can be translated
 
+    const size_t max_adjectives = 3;
     vector<string> words = split_string(" ", base, true);
-    for (size_t i = 0; i < words.size() && !success; i++)
+    for (size_t adjs = 0; adjs < words.size() && adjs <= max_adjectives; adjs++)
     {
         string item_en;
 
@@ -762,9 +763,10 @@ static string _localize_item_name(const string& context, const string& item)
         // placeholder for adjectives
         item_en += "%s";
 
-        for (size_t j = i; j < words.size(); j++)
+        // concatenate all the non-adjectives
+        for (size_t j = adjs; j < words.size(); j++)
         {
-            item_en += j == i ? "" : " ";
+            item_en += j == adjs ? "" : " ";
             item_en += words[j];
         }
 
@@ -827,7 +829,7 @@ static string _localize_item_name(const string& context, const string& item)
                 }
                 // localize adjectives
                 string adjectives;
-                for (size_t k = 0; k < i; k++)
+                for (size_t k = 0; k < adjs; k++)
                 {
                     adjectives += cxlate(new_context, words[k] + " ");
                 }
