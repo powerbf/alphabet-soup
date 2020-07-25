@@ -639,7 +639,7 @@ static string _localize_pair(const string& context, const string& name)
         else if (word == "of" && i > 0 && words[i-1] == "pair")
             base += " " + word;
         else if (word == "boots" || word == "gloves")
-            base += (adj_group2.empty() ? " " : " %s") + word;
+            base += " %s" + word;
         else if (word == "of")
             suffix = " " + word;
         else if (!suffix.empty())
@@ -672,7 +672,7 @@ static string _localize_pair(const string& context, const string& name)
     }
 
     // second set of adjectives (before the word "boots"/"gloves")
-    string ctx2 = ctx1;
+    string ctx2;
     size_t pos2 = result.find("%s");
     if (pos2 != string::npos)
     {
@@ -703,13 +703,14 @@ static string _localize_complex_item_name(const string& context, const string& i
     string base = _strip_suffix(item, suffix);
 
     string determiner;
+    string owner;
     base = _strip_determiner(base, determiner);
 
-    bool named_owner = false;
     if (ends_with(determiner,"'s"))
     {
         // determiner is a possessive like "the orc's" or "Sigmund's"
-        named_owner = true;
+        owner = determiner;
+        determiner = "%s";
     }
 
     int count = 0;
@@ -722,7 +723,11 @@ static string _localize_complex_item_name(const string& context, const string& i
     // (owner may not have the same gender in other languages)
     if (determiner == "his" || determiner == "her" || determiner == "its" || determiner == "their")
     {
-        determiner = base.find_first_of("aeiou") == 0 ? "an" : "a";
+        determiner = "a";
+    }
+    else if (determiner == "an")
+    {
+        determiner = "a";
     }
 
     // try to construct a string that can be translated
@@ -730,45 +735,44 @@ static string _localize_complex_item_name(const string& context, const string& i
     vector<string> words = split_string(" ", base, true);
     for (size_t i = 0; i < words.size() && !success; i++)
     {
-        string noun;
+        string item_en;
 
         if (!determiner.empty())
         {
-            noun = named_owner ? "%s" : determiner;
-            noun += " ";
+            item_en = determiner + " ";
         }
         if (count > 0)
         {
-            noun += to_string(count) + " ";
+            item_en += to_string(count) + " ";
         }
         // placeholder for adjectives
-        noun += i > 0 ? "%s" : "";
+        item_en += "%s";
 
         for (size_t j = i; j < words.size(); j++)
         {
-            noun += j == i ? "" : " ";
-            noun += words[j];
+            item_en += j == i ? "" : " ";
+            item_en += words[j];
         }
 
         // first, try with suffix attached
         if (!suffix.empty())
         {
-            string branded_noun = noun + suffix;
+            string branded_item = item_en + suffix;
 
             result = count > 0
-                     ? _localize_counted_string(context, branded_noun)
-                     :cxlate(context, branded_noun);
-            success = (result != branded_noun);
+                     ? _localize_counted_string(context, branded_item)
+                     :cxlate(context, branded_item);
+            success = (result != branded_item);
         }
 
         if (!success)
         {
             // now try without suffix attached
             result = count > 0
-                     ? _localize_counted_string(context, noun)
-                     : cxlate(context, noun);
+                     ? _localize_counted_string(context, item_en)
+                     : cxlate(context, item_en);
 
-            success = (result != noun);
+            success = (result != item_en);
 
             if (success && !suffix.empty())
             {
@@ -785,37 +789,35 @@ static string _localize_complex_item_name(const string& context, const string& i
 
         if (success)
         {
-            if (named_owner)
+            if (!owner.empty())
             {
-                string owner = cxlate(context, determiner);
+                owner = cxlate(context, owner);
                 result = replace_first(result, "%s", owner);
             }
 
-            if (i != 0)
+            // insert adjectives
+            size_t pos = result.find("%s");
+            if (pos != string:: npos)
             {
-                size_t pos = result.find("%s");
-                if (pos != string:: npos)
+                // find the context for the adjectives
+                string new_context = context;
+                size_t ctx_pos = result.rfind("{", pos);
+                if (ctx_pos != string::npos)
                 {
-                    // find the context for the adjectives
-                    string new_context = context;
-                    size_t ctx_pos = result.rfind("{", pos);
-                    if (ctx_pos != string::npos)
+                    size_t ctx_end = result.find("}", ctx_pos);
+                    if (ctx_end != string::npos)
                     {
-                        size_t ctx_end = result.find("}", ctx_pos);
-                        if (ctx_end != string::npos)
-                        {
-                            new_context = result.substr(ctx_pos + 1, ctx_end - ctx_pos - 1);
-                            result.erase(ctx_pos, ctx_end - ctx_pos +1);
-                        }
+                        new_context = result.substr(ctx_pos + 1, ctx_end - ctx_pos - 1);
+                        result.erase(ctx_pos, ctx_end - ctx_pos +1);
                     }
-                    // localize adjectives
-                    string adjectives;
-                    for (size_t k = 0; k < i; k++)
-                    {
-                        adjectives += cxlate(new_context, words[k] + " ");
-                    }
-                    result = replace_first(result, "%s", adjectives);
                 }
+                // localize adjectives
+                string adjectives;
+                for (size_t k = 0; k < i; k++)
+                {
+                    adjectives += cxlate(new_context, words[k] + " ");
+                }
+                result = replace_first(result, "%s", adjectives);
             }
 
             return result;
