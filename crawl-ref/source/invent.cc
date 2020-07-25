@@ -30,6 +30,7 @@
 #include "item-status-flag-type.h"
 #include "known-items.h"
 #include "libutil.h"
+#include "localize.h"
 #include "macro.h"
 #include "message.h"
 #include "options.h"
@@ -79,6 +80,8 @@ InvEntry::InvEntry(const item_def &i)
     }
     else
         text = i.name(DESC_A, false);
+
+    text = localize(text);
 
     if (item_is_stationary_net(i))
     {
