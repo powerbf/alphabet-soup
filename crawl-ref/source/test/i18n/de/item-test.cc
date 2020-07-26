@@ -41,6 +41,8 @@ const vector<string> test_items = {
 
     "a knobbly runed staff",
 
+    "club",
+    "+9 mace",
     "an arrow",
     "27 arrows",
     "a broad axe",
@@ -89,11 +91,13 @@ const vector<string> expected = {
 
     "??? a knobbly runed staff ???",
 
+    "Keule",
+    "+9 Streitkolben",
     "ein Pfeil",
     "27 Pfeile",
     "eine Breitaxt",
     "eine glühende Breitaxt",
-    "eine gravierte Peitsche",
+    "eine runenbesetzte Peitsche",
     "a - eine +9 Breitaxt des heiligen Zorns",
     "eine +0 riesige Stachelkeule",
     "eine verfluchte -1 Riesenkeule",
@@ -101,12 +105,59 @@ const vector<string> expected = {
     "eine +0 Breitaxt des Flammens",
     "eine -1 Breitaxt des Einfrierens",
     "eine verfluchte -2 Breitaxt des Entleerens",
-    "die +11 Breitaxt \"Jetioplo\" (weapon) {vorpal, Stä+4}",
+    "die +11 Breitaxt \"Jetioplo\" (Waffe) {Vorpal, Stä+4}",
     "der +9 Dreizack von \"the Crushed Allies\" {vorpal, zerbrechlich +Uns Stä+3 Int+3}",
 
 
     "ein Langschwert, 30 Bolzen und eine Armbrust"
 };
+
+const vector<string> armour_en =
+{
+    "a leather armour",
+    "a +1 scale mail",
+    "an uncursed robe",
+    "a cursed -1 chain mail",
+    "a pair of gloves",
+    "an enchanted pair of boots",
+    "a pair of runed gloves",
+    "a cursed pair of runed gloves",
+    "an uncursed +0 pair of boots",
+    "a cursed +2 pair of glowing boots",
+    "an uncursed +2 pair of gloves of archery",
+    "the +1 plate armour of Dice, Bag, and Bottle {Str+6 Int-3 Dex+4 SInv} (5390 gold)"
+};
+
+const vector<string> armour_de =
+{
+    "eine Lederrüstung",
+    "ein +1 Schuppenpanzer",
+    "eine unverfluchte Robe",
+    "ein verfluchter -1 Kettenpanzer",
+    "ein Paar Handschuhe",
+    "ein verzaubertes Paar Stiefel",
+    "ein Paar runenbesetzte Handschuhe",
+    "ein verfluchtes Paar runenbesetzte Handschuhe",
+    "ein unverfluchtes +0 Paar Stiefel",
+    "ein verfluchtes +2 Paar glühende Stiefel",
+    "ein unverfluchtes +2 Paar Handschuhe der Schießkunst",
+    "der +1 Plattenpanzer von Würfel, Beutel, und Flasche {Stä+6 Int-3 Ges+4 UnsS} (5390 Gold)"
+};
+
+const vector<string> wands_en =
+{
+        "an ivory wand",
+        "a cursed iron wand",
+        "a wand of flame (13)"
+};
+
+const vector<string> wands_de =
+{
+        "ein Elfenbeinzauberstab",
+        "ein verfluchter Eisenzauberstab",
+        "ein Zauberstab des Flammens (13)"
+};
+
 
 int num_passes = 0;
 int num_fails = 0;
@@ -149,77 +200,17 @@ int main()
             test(cse, test_items[j], expected[j]);
         }
 
-        test(cse,
-            "club",
-            "Keule"
-        );
-
-        test(cse,
-            "+9 mace",
-            "+9 Streitkolben"
-        );
-
         cout << endl << "ARMOUR:" << endl;
+        for (size_t j = 0; j < armour_en.size(); j++)
+        {
+            test(cse, armour_en[j], armour_de[j]);
+        }
 
-        test(cse,
-            "a leather armour",
-            "eine Lederrüstung"
-        );
-
-        test(cse,
-            "a +1 scale mail",
-            "ein +1 Schuppenpanzer"
-        );
-
-        test(cse,
-            "an uncursed robe",
-            "eine unverfluchte Robe"
-        );
-
-        test(cse,
-             "a cursed -1 chain mail",
-             "ein verfluchter -1 Kettenpanzer"
-        );
-
-        test(cse,
-             "a pair of gloves",
-             "ein Paar Handschuhe"
-        );
-
-        test(cse,
-             "an enchanted pair of boots",
-             "ein verzaubertes Paar Stiefel"
-        );
-
-        test(cse,
-             "a pair of runed gloves",
-             "ein Paar gravierte Handschuhe"
-        );
-
-        test(cse,
-             "a cursed pair of runed gloves",
-             "ein verfluchtes Paar gravierte Handschuhe"
-        );
-
-        test(cse,
-             "an uncursed +0 pair of boots",
-             "ein unverfluchtes +0 Paar Stiefel"
-        );
-
-        test(cse,
-             "a cursed +2 pair of glowing boots",
-             "ein verfluchtes +2 Paar glühende Stiefel"
-        );
-
-        test(cse,
-             "an uncursed +2 pair of gloves of archery",
-             "ein unverfluchtes +2 Paar Handschuhe der Schießkunst"
-        );
-
-        test(cse,
-            "the +1 plate armour of Dice, Bag, and Bottle {Str+6 Int-3 Dex+4 SInv} (5390 gold)",
-            "der +1 Plattenpanzer von Würfel, Beutel, und Flasche {Stä+6 Int-3 Ges+4 UnsS} (5390 Gold)"
-        );
+        cout << endl << "WANDS:" << endl;
+        for (size_t j = 0; j < wands_en.size(); j++)
+        {
+            test(cse, wands_en[j], wands_de[j]);
+        }
     }
 
     cout << endl << num_passes << " passed, "<< num_fails << " failed" << endl;
