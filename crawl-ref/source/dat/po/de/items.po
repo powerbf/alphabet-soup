@@ -21,6 +21,80 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #################################
+# Generic Adjectives
+#################################
+# These can be applied to various classes of items
+
+msgid "cursed "
+msgstr "verfluchte "
+
+msgid "uncursed "
+msgstr "unverfluchte "
+
+msgid "enchanted "
+msgstr "verzauberte "
+
+msgid "runed "
+msgstr "runenbesetzte "
+
+msgid "glowing "
+msgstr "glühende "
+
+msgid "shiny "
+msgstr "glänzende "
+
+
+msgctxt "adj-er"
+msgid "cursed "
+msgstr "verfluchter "
+
+msgctxt "adj-er"
+msgid "uncursed "
+msgstr "unverfluchter "
+
+msgctxt "adj-er"
+msgid "enchanted "
+msgstr "verzauberter "
+
+msgctxt "adj-er"
+msgid "runed "
+msgstr "runenbesetzter "
+
+msgctxt "adj-er"
+msgid "glowing "
+msgstr "glühender "
+
+msgctxt "adj-er"
+msgid "shiny "
+msgstr "glänzender "
+
+
+msgctxt "adj-es"
+msgid "cursed "
+msgstr "verfluchtes "
+
+msgctxt "adj-es"
+msgid "uncursed "
+msgstr "unverfluchtes "
+
+msgctxt "adj-es"
+msgid "enchanted "
+msgstr "verzaubertes "
+
+msgctxt "adj-es"
+msgid "runed "
+msgstr "runenbesetztes "
+
+msgctxt "adj-es"
+msgid "glowing "
+msgstr "glühendes "
+
+msgctxt "adj-es"
+msgid "shiny "
+msgstr "glänzendes "
+
+
+#################################
 # Melee Weapons
 #################################
 
@@ -1009,61 +1083,19 @@ msgstr "%sGolddrachenschuppen"
 
 
 #################################
-# Weapon/armour adjectives
+# Armour adjectives
 #################################
-
-msgid "cursed "
-msgstr "verfluchte "
-
-msgid "uncursed "
-msgstr "unverfluchte "
-
-msgid "enchanted "
-msgstr "verzauberte "
-
-msgid "runed "
-msgstr "runenbesetzte "
-
-msgid "glowing "
-msgstr "glühende "
 
 msgid "embroidered "
 msgstr "bestickte "
-
-msgid "shiny "
-msgstr "glänzende "
 
 msgid "dyed "
 msgstr "gefärbte "
 
 
 msgctxt "adj-er"
-msgid "cursed "
-msgstr "verfluchter "
-
-msgctxt "adj-er"
-msgid "uncursed "
-msgstr "unverfluchter "
-
-msgctxt "adj-er"
-msgid "enchanted "
-msgstr "verzauberter "
-
-msgctxt "adj-er"
-msgid "runed "
-msgstr "runenbesetzter "
-
-msgctxt "adj-er"
-msgid "glowing "
-msgstr "glühender "
-
-msgctxt "adj-er"
 msgid "embroidered "
 msgstr "bestickter "
-
-msgctxt "adj-er"
-msgid "shiny "
-msgstr "glänzender "
 
 msgctxt "adj-er"
 msgid "dyed "
@@ -1071,32 +1103,8 @@ msgstr "gefärbter "
 
 
 msgctxt "adj-es"
-msgid "cursed "
-msgstr "verfluchtes "
-
-msgctxt "adj-es"
-msgid "uncursed "
-msgstr "unverfluchtes "
-
-msgctxt "adj-es"
-msgid "enchanted "
-msgstr "verzaubertes "
-
-msgctxt "adj-es"
-msgid "runed "
-msgstr "runenbesetztes "
-
-msgctxt "adj-es"
-msgid "glowing "
-msgstr "glühendes "
-
-msgctxt "adj-es"
 msgid "embroidered "
 msgstr "besticktes "
-
-msgctxt "adj-es"
-msgid "shiny "
-msgstr "glänzendes "
 
 msgctxt "adj-es"
 msgid "dyed "
@@ -1179,6 +1187,409 @@ msgstr " der Abstoßung"
 
 msgid " of harm"
 msgstr " des Schadens"
+
+
+#################################
+# Rings
+#################################
+
+msgid "the %sring"
+msgstr "der %sRing"
+
+msgid "a %sring"
+msgstr "ein {adj-er}%sRing"
+
+msgid "a %sring of protection"
+msgstr "ein {adj-er}%sRing des Schutzes"
+
+msgid "a %sring of protection from fire"
+msgstr "ein {adj-er}%sRing der Feuerresistenz"
+
+msgid "a %sring of poison resistance"
+msgstr "ein {adj-er}%sRing der Giftresistenz"
+
+msgid "a %sring of protection from cold"
+msgstr "ein {adj-er}%sRing dee Kälteresistenz"
+
+msgid "a %sring of strength"
+msgstr "ein {adj-er}%sRing der Stärke"
+
+msgid "a %sring of slaying"
+msgstr "ein {adj-er}%sRing des Tötens"
+
+msgid "a %sring of see invisible"
+msgstr "ein {adj-er}%sRing von Unsichtbares sehen"
+
+msgid "a %sring of resist corrosion"
+msgstr "ein {adj-er}%sRing der Korrosionresistenz"
+
+msgid "a %sring of attention"
+msgstr "ein {adj-er}%sRing der Aufmerksamkeit"
+
+msgid "a %sring of teleportation"
+msgstr "ein {adj-er}%sRing der Teleportation"
+
+msgid "a %sring of evasion"
+msgstr "ein {adj-er}%sRing der Umgehung"
+
+msgid "a %sring of stealth"
+msgstr "ein {adj-er}%sRing der Heimlichkeit"
+
+msgid "a %sring of dexterity"
+msgstr "ein {adj-er}%sRing der Geschicklichkeit"
+
+msgid "a %sring of intelligence"
+msgstr "ein {adj-er}%sRing der Intelligenz"
+
+msgid "a %sring of wizardry"
+msgstr "ein {adj-er}%sRing der Zauberei"
+
+msgid "a %sring of magical power"
+msgstr "ein {adj-er}%sRing magischer Kraft"
+
+msgid "a %sring of flight"
+msgstr "ein {adj-er}%sRing des Fliegens"
+
+msgid "a %sring of positive energy"
+msgstr "ein {adj-er}%sRing positiver Energie"
+
+msgid "a %sring of protection from magic"
+msgstr "ein {adj-er}%sRing der Magieresistenz"
+
+msgid "a %sring of fire"
+msgstr "ein {adj-er}%sRing des Feuers"
+
+msgid "a %sring of ice"
+msgstr "ein {adj-er}%sRing des Eises"
+
+msgid "a %sring of obsoleteness"
+msgstr "ein {adj-er}%sobsoleter Ring"
+
+# unidentified
+
+#, c-format
+msgid "a %swooden ring"
+msgstr "ein {adj-er}%sHolzring"
+
+#, c-format
+msgid "a %ssilver ring"
+msgstr "ein {adj-er}%sSilberring"
+
+#, c-format
+msgid "a %sgolden ring"
+msgstr "ein {adj-er}%sGoldring"
+
+#, c-format
+msgid "a %siron ring"
+msgstr "ein {adj-er}%sEisenring"
+
+#, c-format
+msgid "a %ssteel ring"
+msgstr "ein {adj-er}%sStahlring"
+
+#, c-format
+msgid "a %stourmaline ring"
+msgstr "ein {adj-er}%sTurmalinring"
+
+#, c-format
+msgid "a %sbrass ring"
+msgstr "ein {adj-er}%sMessingring"
+
+#, c-format
+msgid "a %scopper ring"
+msgstr "ein {adj-er}%sKupferring"
+
+#, c-format
+msgid "a %sgranite ring"
+msgstr "ein {adj-er}%sGranitring"
+
+#, c-format
+msgid "a %sivory ring"
+msgstr "ein {adj-er}%sElfenbeinring"
+
+#, c-format
+msgid "a %sruby ring"
+msgstr "ein {adj-er}%sRubinring"
+
+#, c-format
+msgid "a %smarble ring"
+msgstr "ein {adj-er}%sMarmorring"
+
+#, c-format
+msgid "a %sjade ring"
+msgstr "ein {adj-er}%sJadering"
+
+#, c-format
+msgid "a %sglass ring"
+msgstr "ein {adj-er}%sGlasring"
+
+#, c-format
+msgid "a %sagate ring"
+msgstr "ein {adj-er}%sAchatring"
+
+#, c-format
+msgid "a %sbone ring"
+msgstr "ein {adj-er}%sKnochenring"
+
+#, c-format
+msgid "a %sdiamond ring"
+msgstr "ein {adj-er}%sDiamantring"
+
+#, c-format
+msgid "a %semerald ring"
+msgstr "ein {adj-er}%sSmaragdring"
+
+#, c-format
+msgid "a %speridot ring"
+msgstr "ein {adj-er}%sPeridotring"
+
+#, c-format
+msgid "a %sgarnet ring"
+msgstr "ein {adj-er}%sGranatring"
+
+#, c-format
+msgid "a %sopal ring"
+msgstr "ein {adj-er}%sOpalring"
+
+#, c-format
+msgid "a %spearl ring"
+msgstr "ein {adj-er}%sPerlenring"
+
+#, c-format
+msgid "a %scoral ring"
+msgstr "ein {adj-er}%sKorallenring"
+
+#, c-format
+msgid "a %ssapphire ring"
+msgstr "ein {adj-er}%sSaphirring"
+
+#, c-format
+msgid "a %scabochon ring"
+msgstr "ein {adj-er}%sCabochonring"
+
+#, c-format
+msgid "a %sgilded ring"
+msgstr "ein {adj-er}%svergoldeter Ring"
+
+#, c-format
+msgid "a %sonyx ring"
+msgstr "ein {adj-er}%sOnyxring"
+
+#, c-format
+msgid "a %sbronze ring"
+msgstr "ein {adj-er}%sBronzering"
+
+#, c-format
+msgid "a %smoonstone ring"
+msgstr "ein {adj-er}%sMondsteinring"
+
+# adjectives
+
+msgctxt "adj-er"
+msgid "encrusted "
+msgstr "verkrusteter "
+
+msgctxt "adj-er"
+msgid "tubular "
+msgstr "röhrenförmiger "
+
+msgctxt "adj-er"
+msgid "blackened "
+msgstr "geschwärzter "
+
+msgctxt "adj-er"
+msgid "scratched "
+msgstr "zerkratzter "
+
+msgctxt "adj-er"
+msgid "small "
+msgstr "kleiner "
+
+msgctxt "adj-er"
+msgid "large "
+msgstr "großer "
+
+msgctxt "adj-er"
+msgid "twisted "
+msgstr "verdrehter "
+
+msgctxt "adj-er"
+msgid "notched "
+msgstr "gekerbter "
+
+msgctxt "adj-er"
+msgid "knobbly "
+msgstr "knorriger "
+
+
+#################################
+# Amulets
+#################################
+
+msgid "the %samulet"
+msgstr "das %sAmulett"
+
+msgid "a %samulet"
+msgstr "ein {adj-es}%sAmulett"
+
+msgid "a %samulet of magic regeneration"
+msgstr "ein {adj-es}%sAmulett der magischen Regeneration"
+
+msgid "a %samulet of the acrobat"
+msgstr "ein {adj-es}%sAmulett des Akrobaten"
+
+msgid "a %samulet of inaccuracy"
+msgstr "ein {adj-es}%sAmulett der Ungenauigkeit"
+
+msgid "a %samulet of nothing"
+msgstr "ein {adj-es}%sAmulett von nichts"
+
+msgid "a %samulet of guardian spirit"
+msgstr "ein {adj-es}%sAmulett des Geistschildes"
+
+msgid "a %samulet of faith"
+msgstr "ein {adj-es}%sAmulett des Glaubens"
+
+msgid "a %samulet of reflection"
+msgstr "ein {adj-es}%sAmulett der Reflexion"
+
+msgid "a %samulet of regeneration"
+msgstr "ein {adj-es}%sAmulett der Regeneration"
+
+# unidentified
+
+msgid "a %ssapphire amulet"
+msgstr "ein {adj-es}%sSaphiramulett"
+
+msgid "a %szirconium amulet"
+msgstr "ein {adj-es}%sZirkoniumamulett"
+
+msgid "a %sgolden amulet"
+msgstr "ein {adj-es}%sGoldamulett"
+
+msgid "a %semerald amulet"
+msgstr "ein {adj-es}%sSmaragdamulett"
+
+msgid "a %sgarnet amulet"
+msgstr "ein {adj-es}%sGranatamulett"
+
+msgid "a %sbronze amulet"
+msgstr "ein {adj-es}%sBronzeamulett"
+
+msgid "a %sbrass amulet"
+msgstr "ein {adj-es}%sMessingamulett"
+
+msgid "a %scopper amulet"
+msgstr "ein {adj-es}%sKupferamulett"
+
+msgid "a %sruby amulet"
+msgstr "ein {adj-es}%sRubinamulett"
+
+msgid "a %scitrine amulet"
+msgstr "ein {adj-es}%sCitrinamulett"
+
+msgid "a %sbone amulet"
+msgstr "ein {adj-es}%sKnochenamulett"
+
+msgid "a %splatinum amulet"
+msgstr "ein {adj-es}%sPlatinamulett"
+
+msgid "a %sjade amulet"
+msgstr "ein {adj-es}%sJade-Amulett"
+
+msgid "a %sfluorescent amulet"
+msgstr "ein {adj-es}%sfluoreszierendes Amulett"
+
+msgid "a %samethyst amulet"
+msgstr "ein {adj-es}%sAmethystamulett"
+
+msgid "a %scameo amulet"
+msgstr "ein {adj-es}%sCameo-Amulett"
+
+msgid "a %spearl amulet"
+msgstr "ein {adj-es}%sPerlenamulett"
+
+msgid "a %sblue amulet"
+msgstr "ein {adj-es}%sblaues Amulett"
+
+msgid "a %speridot amulet"
+msgstr "ein {adj-es}%sPeridot-Amulett"
+
+msgid "a %sjasper amulet"
+msgstr "ein {adj-es}%sJaspisamulett"
+
+msgid "a %sdiamond amulet"
+msgstr "ein {adj-es}%sDiamantamulett"
+
+msgid "a %smalachite amulet"
+msgstr "ein {adj-es}%sMalachitamulett"
+
+msgid "a %ssteel amulet"
+msgstr "ein {adj-es}%sStahlamulett"
+
+msgid "a %scabochon amulet"
+msgstr "ein {adj-es}%sCabochon-Amulett"
+
+msgid "a %ssilver amulet"
+msgstr "ein {adj-es}%sSilberamulett"
+
+msgid "a %ssoapstone amulet"
+msgstr "ein {adj-es}%sSpecksteinamulett"
+
+msgid "a %slapis lazuli amulet"
+msgstr "ein {adj-es}%sLapislazuli-Amulett"
+
+msgid "a %sfiligree amulet"
+msgstr "ein {adj-es}%sFiligranamulett"
+
+msgid "a %sberyl amulet"
+msgstr "ein {adj-es}%sBeryllamulett"
+
+# adjectives
+
+msgctxt "adj-es"
+msgid "dented "
+msgstr "verbeultes "
+
+msgctxt "adj-es"
+msgid "square "
+msgstr "quadratisches "
+
+msgctxt "adj-es"
+msgid "thick "
+msgstr "dickes "
+
+msgctxt "adj-es"
+msgid "thin "
+msgstr "dünnes "
+
+msgctxt "adj-es"
+msgid "blackened "
+msgstr "geschwärztes "
+
+msgctxt "adj-es"
+msgid "small "
+msgstr "kleines "
+
+msgctxt "adj-es"
+msgid "large "
+msgstr "großes "
+
+msgctxt "adj-es"
+msgid "twisted "
+msgstr "verdrehtes "
+
+msgctxt "adj-es"
+msgid "tiny "
+msgstr "sehr kleines "
+
+msgctxt "adj-es"
+msgid "triangular "
+msgstr "dreieckiges "
+
+msgctxt "adj-es"
+msgid "lumpy "
+msgstr "klumpiges "
 
 
 #################################
@@ -1296,9 +1707,9 @@ msgctxt "adj-er"
 msgid "short "
 msgstr "kurzer "
 
-msgctxt "adj-er"
-msgid "twisted "
-msgstr "verdrehter "
+#msgctxt "adj-er"
+#msgid "twisted "
+#msgstr "verdrehter "
 
 msgctxt "adj-er"
 msgid "crooked "
@@ -1309,32 +1720,20 @@ msgid "forked "
 msgstr "gegabelter "
 
 #msgctxt "adj-er"
-#msgid "shiny "
-#msgstr "glänzender "
-
-msgctxt "adj-er"
-msgid "blackened "
-msgstr "geschwärzter "
+#msgid "blackened "
+#msgstr "geschwärzter "
 
 msgctxt "adj-er"
 msgid "tapered "
 msgstr "verjüngter "
 
-#msgctxt "adj-er"
-#msgid "glowing "
-#msgstr "glühender "
-
 msgctxt "adj-er"
 msgid "worn "
 msgstr "abgenutzter "
 
-msgctxt "adj-er"
-msgid "encrusted "
-msgstr "verkrusteter "
-
 #msgctxt "adj-er"
-#msgid "runed "
-#msgstr "runenbesitzter "
+#msgid "encrusted "
+#msgstr "verkrusteter "
 
 msgctxt "adj-er"
 msgid "sharpened "
@@ -1765,11 +2164,6 @@ msgctxt "adj-er"
 msgid "lumpy "
 msgstr "klumpiger "
 
-# coverd under weapons/armour
-#msgctxt "adj-er"
-#msgid "glowing "
-#msgstr "glühender "
-
 msgctxt "adj-er"
 msgid "sedimented "
 msgstr "sedimentierter "
@@ -1818,10 +2212,6 @@ msgstr "dickflüssige "
 
 msgid "lumpy "
 msgstr "klumpige "
-
-# covered under weapons/armour
-#msgid "glowing "
-#msgstr "glühende "
 
 msgid "sedimented "
 msgstr "sedimentierte "

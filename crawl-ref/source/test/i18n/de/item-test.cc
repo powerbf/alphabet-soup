@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <map>
 using namespace std;
 
 
@@ -158,6 +159,78 @@ const vector<string> wands_de =
         "ein Zauberstab des Flammens (13)"
 };
 
+vector<map<string, string>> rings =
+{
+    {
+        {"en", "a diamond ring"},
+        {"nom", "ein Diamantring"},
+        {"acc", "einen Diamantring"}
+    },
+    {
+        {"en", "an ivory ring"},
+        {"nom", "ein Elfenbeinring"},
+        {"acc", "einen Elfenbeinring"}
+    },
+    {
+        {"en", "an cursed ivory ring"},
+        {"nom", "ein verfluchter Elfenbeinring"},
+        {"acc", "einen verfluchten Elfenbeinring"}
+    },
+    {
+        {"en", "a small silver ring"},
+        {"nom", "ein kleiner Silberring"},
+        {"acc", "einen kleinen Silberring"}
+    },
+    {
+        {"en", "a ring of wizardry"},
+        {"nom", "ein Ring der Zauberei"},
+        {"acc", "einen Ring der Zauberei"}
+    },
+    {
+        {"en", "an uncursed ring of protection from fire"},
+        {"nom", "ein unverfluchter Ring der Feuerresistenz"},
+        {"acc", "einen unverfluchten Ring der Feuerresistenz"}
+    },
+    {
+        {"en", "an uncursed +4 ring of protection"},
+        {"nom", "ein unverfluchter +4 Ring des Schutzes"},
+        {"acc", "einen unverfluchten +4 Ring des Schutzes"}
+    },
+    {
+        {"en", "the ring \"Cuti\" {rF+ MR+ Dex+2}"},
+        {"nom", "der Ring \"Cuti\" {rF+ MR+ Ges+2}"},
+        {"acc", "der Ring \"Cuti\" {rF+ MR+ Ges+2}"}
+    },
+};
+
+vector<map<string, string>> amulets =
+{
+    {
+        {"en", "a filigree amulet"},
+        {"nom", "ein Filigranamulett"},
+        {"acc", "ein Filigranamulett"}
+    },
+    {
+        {"en", "a dented ruby amulet"},
+        {"nom", "ein verbeultes Rubinamulett"},
+        {"acc", "ein verbeultes Rubinamulett"}
+    },
+    {
+        {"en", "a cursed thin beryl amulet"},
+        {"nom", "ein verfluchtes dünnes Beryllamulett"},
+        {"acc", "ein verfluchtes dünnes Beryllamulett"}
+    },
+    {
+        {"en", "an amulet of the acrobat"},
+        {"nom", "ein Amulett des Akrobaten"},
+        {"acc", "ein Amulett des Akrobaten"}
+    },
+    {
+        {"en", "a cursed amulet of inaccuracy"},
+        {"nom", "ein verfluchtes Amulett der Ungenauigkeit"},
+        {"acc", "ein verfluchtes Amulett der Ungenauigkeit"}
+    },
+};
 
 int num_passes = 0;
 int num_fails = 0;
@@ -204,6 +277,22 @@ int main()
         for (size_t j = 0; j < armour_en.size(); j++)
         {
             test(cse, armour_en[j], armour_de[j]);
+        }
+
+        cout << endl << "RINGS:" << endl;
+        for (size_t j = 0; j < rings.size(); j++)
+        {
+            map<string, string>& ring = rings[j];
+            if (ring.count(cse) != 0)
+                test(cse, ring["en"], ring[cse]);
+        }
+
+        cout << endl << "AMULETS:" << endl;
+        for (size_t j = 0; j < amulets.size(); j++)
+        {
+            map<string, string>& amulet = amulets[j];
+            if (amulet.count(cse) != 0)
+                test(cse, amulet["en"], amulet[cse]);
         }
 
         cout << endl << "WANDS:" << endl;
