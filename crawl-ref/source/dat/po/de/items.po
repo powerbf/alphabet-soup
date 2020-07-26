@@ -506,7 +506,7 @@ msgid "a %shand crossbow"
 msgstr "eine %sHandarmbrust"
 
 #, c-format
-msgid "an %sarbalest"
+msgid "a %sarbalest"
 msgstr "eine %sArmbrust"
 
 #, c-format
@@ -1022,7 +1022,7 @@ msgid "enchanted "
 msgstr "verzauberte "
 
 msgid "runed "
-msgstr "gravierte "
+msgstr "runenbesetzte "
 
 msgid "glowing "
 msgstr "glühende "
@@ -1051,7 +1051,7 @@ msgstr "verzauberter "
 
 msgctxt "adj-er"
 msgid "runed "
-msgstr "gravierter "
+msgstr "runenbesetzter "
 
 msgctxt "adj-er"
 msgid "glowing "
@@ -1084,7 +1084,7 @@ msgstr "verzaubertes "
 
 msgctxt "adj-es"
 msgid "runed "
-msgstr "graviertes "
+msgstr "runenbesetztes "
 
 msgctxt "adj-es"
 msgid "glowing "
@@ -1201,6 +1201,144 @@ msgstr " des Mondes"
 
 msgid " of Dice, Bag, and Bottle"
 msgstr " von Würfel, Beutel, und Flasche"
+
+
+#################################
+# Wands
+#################################
+
+msgid "a wand of flame"
+msgstr "ein Zauberstab des Flammens"
+
+msgid "a wand of paralysis"
+msgstr "ein Zauberstab der Paralyse"
+
+msgid "a wand of digging"
+msgstr "ein Zauberstab des Grabens"
+
+msgid "a wand of iceblast"
+msgstr "ein Zauberstab des Eisstrahls"
+
+msgid "a wand of polymorph"
+msgstr "ein Zauberstab der Verwandlung"
+
+msgid "a wand of enslavement"
+msgstr "ein Zauberstab der Versklavung"
+
+msgid "a wand of acid"
+msgstr "ein Zauberstab der Säure"
+
+msgid "a wand of random effects"
+msgstr "ein Zauberstab der zufälligen Effekten"
+
+msgid "a wand of disintegration"
+msgstr "ein Zauberstab der Auflösung"
+
+msgid "a wand of clouds"
+msgstr "ein Zauberstab der Wolken"
+
+msgid "a wand of removedness"
+msgstr "ein beseitigter Zauberstab"
+
+# unidentified
+
+msgid "a %siron wand"
+msgstr "ein {adj-er}%sEisenzauberstab"
+
+msgid "a %sbrass wand"
+msgstr "ein {adj-er}%sMessingzauberstab"
+
+msgid "a %sbone wand"
+msgstr "ein {adj-er}%sZauberstab aus Knochen"
+
+msgid "a %swooden wand"
+msgstr "ein {adj-er}%sHolzzauberstab"
+
+msgid "a %scopper wand"
+msgstr "ein {adj-er}%sKupferzauberstab"
+
+msgid "a %sgold wand"
+msgstr "ein {adj-er}%sGoldzauberstab"
+
+msgid "a %ssilver wand"
+msgstr "ein {adj-er}%sSilberzauberstab"
+
+msgid "a %sbronze wand"
+msgstr "ein {adj-er}%sZauberstab aus Bronze"
+
+msgid "a %sivory wand"
+msgstr "ein {adj-er}%sElfenbeinzauberstab"
+
+msgid "a %sglass wand"
+msgstr "ein {adj-er}%sgläserner Zauberstab"
+
+msgid "a %slead wand"
+msgstr "ein {adj-er}%sZauberstab aus Blei"
+
+msgid "a %sfluorescent wand"
+msgstr "ein {adj-er}%sfluoreszierender Zauberstab"
+
+# adjectives
+
+msgctxt "adj-er"
+msgid "jewelled "
+msgstr "juwelenbesetzter "
+
+msgctxt "adj-er"
+msgid "curved "
+msgstr "gebogener "
+
+msgctxt "adj-er"
+msgid "long "
+msgstr "langer "
+
+msgctxt "adj-er"
+msgid "short "
+msgstr "kurzer "
+
+msgctxt "adj-er"
+msgid "twisted "
+msgstr "verdrehter "
+
+msgctxt "adj-er"
+msgid "crooked "
+msgstr "krummer "
+
+msgctxt "adj-er"
+msgid "forked "
+msgstr "gegabelter "
+
+#msgctxt "adj-er"
+#msgid "shiny "
+#msgstr "glänzender "
+
+msgctxt "adj-er"
+msgid "blackened "
+msgstr "geschwärzter "
+
+msgctxt "adj-er"
+msgid "tapered "
+msgstr "verjüngter "
+
+#msgctxt "adj-er"
+#msgid "glowing "
+#msgstr "glühender "
+
+msgctxt "adj-er"
+msgid "worn "
+msgstr "abgenutzter "
+
+msgctxt "adj-er"
+msgid "encrusted "
+msgstr "verkrusteter "
+
+#msgctxt "adj-er"
+#msgid "runed "
+#msgstr "runenbesitzter "
+
+msgctxt "adj-er"
+msgid "sharpened "
+msgstr "geschärfter "
 
 
 #################################
