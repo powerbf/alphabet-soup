@@ -1846,10 +1846,12 @@ msgid_plural "%d scrolls of silence"
 msgstr[0] "eine Schriftrolle der Stille"
 msgstr[1] "%d Schriftrollen der Stille"
 
+# Note: In DCSS, there is a distinction between summoning and conjuration
+# The usual German word for summoning is Beschwörung, but that also means conjuration
 msgid "a scroll of summoning"
 msgid_plural "%d scrolls of summoning"
-msgstr[0] "eine Schriftrolle der Beschwörung"
-msgstr[1] "%d Schriftrollen der Beschwörung"
+msgstr[0] "eine Schriftrolle des Herbeirufs"
+msgstr[1] "%d Schriftrollen des Herbeirufs"
 
 #, c-format
 msgid "a scroll of teleportation"
@@ -1883,8 +1885,8 @@ msgstr[1] "%d Tränke der Ambrosia"
 #, c-format
 msgid "a potion of berserk rage"
 msgid_plural "%d potions of berserk rage"
-msgstr[0] "ein Trank des Berserkers"
-msgstr[1] "%d Tränke des Berserkers"
+msgstr[0] "ein Trank der Berserker-Wut"
+msgstr[1] "%d Tränke der Berserker-Wut"
 
 #, c-format
 msgid "a potion of brilliance"
@@ -1932,7 +1934,7 @@ msgstr[1] "%d Tränke der Geschwindigkeit"
 msgid "a potion of heal wounds"
 msgid_plural "%d potions of heal wounds"
 msgstr[0] "ein Heiltrank"
-msgstr[1] "%d Heilränke"
+msgstr[1] "%d Heiltränke"
 
 #, c-format
 msgid "a potion of invisibility"
@@ -1979,7 +1981,7 @@ msgstr[1] "%d Tränke der Stecherei"
 # unidentified potions are named "<colour> <potion>"
 # or "<qualifier> <colour> potion"
 
-##, c-format - throws spurious error
+## can't use c-format - throws spurious error
 msgid "a %spotion"
 msgid_plural "%d %spotions"
 msgstr[0] "ein {adj-er}%sZaubertrank"
