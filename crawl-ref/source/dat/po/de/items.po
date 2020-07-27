@@ -2299,6 +2299,163 @@ msgstr "das Horn von Geryon"
 
 
 #################################
+# Runes
+#################################
+
+
+# "This branch contains the <whatever> rune of Zot."
+msgid "the %srune of Zot"
+msgstr "die %sRune von Zot"
+
+# "found a <whatever> rune of Zot"
+msgid "a %srune of Zot"
+msgstr "eine %sRune von Zot"
+
+# Used in the list of collected runes
+msgid "%srune of Zot"
+msgstr "%sRune von Zot"
+
+# "You pick up the <whatever> rune and feel its power."
+msgid "the %srune"
+msgstr "die %sRune"
+
+# adjectives
+
+msgid "iron "
+msgstr "eiserne "
+
+msgid "icy "
+msgstr "eisige "
+
+msgid "bone "
+msgstr "Knochen-"
+
+#msgid "slimy "
+#msgstr "schleimige "
+
+msgid "silver "
+msgstr "silberne "
+
+msgid "serpentine "
+msgstr "Schlangen-"
+
+#msgid "golden "
+#msgstr "goldene "
+
+msgid "decaying "
+msgstr "verfallende "
+
+msgid "barnacled "
+msgstr "Kletten-"
+
+msgid "gossamer "
+msgstr "Spinnfäden-"
+
+msgid "demonic "
+msgstr "dämonische "
+
+#msgid "glowing "
+#msgstr "leuchtende "
+
+msgid "magical "
+msgstr "magische "
+
+msgid "fiery "
+msgstr "feurige "
+
+#msgid "dark "
+#msgstr "dunkle "
+
+# terse version for character overview screen
+
+msgid "iron"
+msgstr "eiserne"
+
+msgid "obsidian"
+msgstr "Obsidian-"
+
+msgid "icy"
+msgstr "eisige"
+
+msgid "bone"
+msgstr "Knochen-"
+
+msgid "slimy"
+msgstr "schleimige"
+
+#msgid "silver"
+#msgstr "silberne"
+
+msgid "serpentine"
+msgstr "Schlangen-"
+
+msgid "golden"
+msgstr "goldene"
+
+msgid "decaying"
+msgstr "verfallende"
+
+msgid "barnacled"
+msgstr "Kletten-"
+
+msgid "gossamer"
+msgstr "Spinnfäden-"
+
+msgid "demonic"
+msgstr "dämonische"
+
+msgid "abyssal"
+msgstr "Abgrunds-"
+
+msgid "glowing"
+msgstr "leuchtende"
+
+msgid "magical"
+msgstr "magische"
+
+msgid "fiery"
+msgstr "feurige"
+
+msgid "dark"
+msgstr "dunkle"
+
+# these ones are constructed differently
+
+msgid "the obsidian rune of Zot"
+msgstr "die Obsidianrune von Zot"
+
+msgid "an obsidian rune of Zot"
+msgstr "eine Obsidianrune von Zot"
+
+msgid "obsidian rune of Zot"
+msgstr "Obsidianrune von Zot"
+
+msgid "the obsidian rune"
+msgstr "die Obsidianrune"
+
+
+msgid "the abyssal rune of Zot"
+msgstr "die Abgrundsrune von Zot"
+
+msgid "an abyssal rune of Zot"
+msgstr "eine Abgrundsrune von Zot"
+
+msgid "abyssal rune of Zot"
+msgstr "Abgrundsrune von Zot"
+
+msgid "the abyssal rune"
+msgstr "die Abgrundsrune"
+
+
+#################################
+# The Orb
+#################################
+
+msgid "The Orb of Zot"
+msgstr "Die Kugel von Zot"
+
+
+#################################
 # Item slots
 #################################
 
@@ -2526,6 +2683,16 @@ msgid "harm"
 msgstr "Schaden"
 
 
+#################################
+# Unrand Artefacts
+#################################
+
+# this one must be matched exactly
+msgid "the +7 pair of quick blades \"Gyre\" and \"Gimble\""
+msgstr "das +7 Paar Schnellklingen \"Gyre\" und \"Gimble\""
+
+msgid "the %ssword of the Doom Knight"
+msgstr "das %sSchwert des Verhängnis-Ritters"
 
 
 

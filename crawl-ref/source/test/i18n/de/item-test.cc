@@ -58,9 +58,10 @@ const vector<string> test_items = {
     "a cursed -2 broad axe of draining",
     "the +11 broad axe \"Jetioplo\" (weapon) {vorpal, Str+4}",
     "the +9 trident of the Crushed Allies {vorpal, Fragile +Inv Str+3 Int+3}",
+    "the +7 pair of quick blades \"Gyre\" and \"Gimble\"",
 
 
-    "a long sword, 30 bolts and an arbalest"
+    "a long sword, 30 bolts and an arbalest",
 };
 
 const vector<string> expected = {
@@ -108,6 +109,7 @@ const vector<string> expected = {
     "eine verfluchte -2 Breitaxt des Entleerens",
     "die +11 Breitaxt \"Jetioplo\" (Waffe) {Vorpal, Stä+4}",
     "der +9 Dreizack von \"the Crushed Allies\" {vorpal, zerbrechlich +Uns Stä+3 Int+3}",
+    "das +7 Paar Schnellklingen \"Gyre\" und \"Gimble\"",
 
 
     "ein Langschwert, 30 Bolzen und eine Armbrust"
@@ -145,18 +147,23 @@ const vector<string> armour_de =
     "der +1 Plattenpanzer von Würfel, Beutel, und Flasche {Stä+6 Int-3 Ges+4 UnsS} (5390 Gold)"
 };
 
-const vector<string> wands_en =
+vector<map<string, string>> wands =
 {
-        "an ivory wand",
-        "a cursed iron wand",
-        "a wand of flame (13)"
-};
-
-const vector<string> wands_de =
-{
-        "ein Elfenbeinzauberstab",
-        "ein verfluchter Eisenzauberstab",
-        "ein Zauberstab des Flammens (13)"
+    {
+        {"en", "an ivory wand"},
+        {"nom", "ein Elfenbeinzauberstab"},
+        {"acc", "einen Elfenbeinzauberstab"}
+    },
+    {
+        {"en", "a cursed iron wand"},
+        {"nom", "ein verfluchter Eisenzauberstab"},
+        {"acc", "einen verfluchten Eisenzauberstab"}
+    },
+    {
+        {"en", "a wand of flame (13)"},
+        {"nom", "ein Zauberstab des Flammens (13)"},
+        {"acc", "einen Zauberstab des Flammens (13)"}
+    },
 };
 
 vector<map<string, string>> rings =
@@ -232,6 +239,30 @@ vector<map<string, string>> amulets =
     },
 };
 
+vector<map<string, string>> runes =
+{
+    {
+        {"en", "the demonic rune"},
+        {"nom", "die dämonische Rune"},
+        {"acc", "die dämonische Rune"}
+    },
+    {
+        {"en", "the golden rune of Zot"},
+        {"nom", "die goldene Rune von Zot"},
+        {"acc", "die goldene Rune von Zot"}
+    },
+    {
+        {"en", "an obsidian rune of Zot"},
+        {"nom", "eine Obsidianrune von Zot"},
+        {"acc", "eine Obsidianrune von Zot"}
+    },
+    {
+        {"en", "silver rune of Zot"},
+        {"nom", "silberne Rune von Zot"},
+        {"acc", "silberne Rune von Zot"}
+    }
+};
+
 int num_passes = 0;
 int num_fails = 0;
 
@@ -255,7 +286,17 @@ static void test(const string& context, const string& item, const string& expect
     }
 
     cout << status << ": \"" << item << "\" (" << context << ")" << " -> \"" << actual << "\"" << endl;
+}
 
+static void test_group(const string& casus, const string& group_name, vector<map<string, string>>& items)
+{
+    cout << endl << group_name << ":" << endl;
+    for (size_t i = 0; i < items.size(); i++)
+    {
+        map<string, string>& item = items.at(i);
+        if (item.count(casus) != 0)
+            test(casus, item["en"], item[casus]);
+    }
 }
 
 int main()
@@ -279,27 +320,11 @@ int main()
             test(cse, armour_en[j], armour_de[j]);
         }
 
-        cout << endl << "RINGS:" << endl;
-        for (size_t j = 0; j < rings.size(); j++)
-        {
-            map<string, string>& ring = rings[j];
-            if (ring.count(cse) != 0)
-                test(cse, ring["en"], ring[cse]);
-        }
+        test_group(cse, "RINGS", rings);
+        test_group(cse, "AMULETS", amulets);
+        test_group(cse, "WANDS", wands);
+        test_group(cse, "RUNES", runes);
 
-        cout << endl << "AMULETS:" << endl;
-        for (size_t j = 0; j < amulets.size(); j++)
-        {
-            map<string, string>& amulet = amulets[j];
-            if (amulet.count(cse) != 0)
-                test(cse, amulet["en"], amulet[cse]);
-        }
-
-        cout << endl << "WANDS:" << endl;
-        for (size_t j = 0; j < wands_en.size(); j++)
-        {
-            test(cse, wands_en[j], wands_de[j]);
-        }
     }
 
     cout << endl << num_passes << " passed, "<< num_fails << " failed" << endl;

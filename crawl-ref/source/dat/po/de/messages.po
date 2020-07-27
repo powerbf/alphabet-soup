@@ -3143,8 +3143,8 @@ msgid "Unfortunately, it added no spells to the library."
 msgstr "Leider wurden der Bibliothek keine Zauber hinzugefügt."
 
 #, c-format
-msgid "You pick up the %s rune and feel its power."
-msgstr "Du nimmst die Rune von%s und fühlst ihre Kraft."
+msgid "You pick up %s and feel its power."
+msgstr "Du nimmst {acc}%s und fühlst ihre Kraft."
 
 msgid "You have collected all the runes! Now go and win!"
 msgstr "Du hast alle Runen gesammelt! Jetzt geh und gewinne!"
@@ -3155,10 +3155,10 @@ msgstr "%d Runen! Das reicht aus, um das Reich von Zot zu betreten."
 
 #, c-format
 msgid "You now have %d runes."
-msgstr "Du hast jetzt%d Runen."
+msgstr "Du hast jetzt %d Runen."
 
 msgid "Press } to see all the runes you have collected."
-msgstr "Drücke}, um alle Runen zu sehen, die du gesammelt hast."
+msgstr "} drücken, um alle Runen zu sehen, die du gesammelt hast."
 
 msgid "You feel the abyssal rune guiding you out of this place."
 msgstr "Du fühlst die abgrundtiefe Rune, die dich aus diesem Ort herausführt."
@@ -9472,8 +9472,8 @@ msgid "In your confused state, you trip and fall %s%s."
 msgstr "In deinem verwirrten Zustand stolperst du und fällst%s%s."
 
 #, c-format
-msgid "You insert the %s rune into the lock."
-msgstr "Du steckst die %s Rune in das Schloss."
+msgid "You insert %s into the lock."
+msgstr "Du steckst {acc}%s in das Schloss."
 
 msgid "The lock glows eerily!"
 msgstr "Das Schloss leuchtet unheimlich!"
