@@ -483,7 +483,7 @@ static string _strip_suffix(const string& s, string& suffix)
         return s;
     }
     else if (of_pos != string::npos
-             && (quote_pos == string::npos || of_pos > quote_pos))
+             && (quote_pos == string::npos || of_pos < quote_pos))
     {
         suffix = s.substr(of_pos);
         return s.substr(0, of_pos);
@@ -938,6 +938,16 @@ static string _localize_string(const string& context, const string& value)
         string inv_letter = value.substr(0, 4);
         return inv_letter + _localize_string(context, value.substr(4));
     }
+    else if (value[0] == '[')
+    {
+        // has an annotation at the front
+        size_t pos = value.find("] ");
+        if (pos != string::npos)
+        {
+            string annotation = value.substr(0, pos+2);
+            return annotation + _localize_string(context, value.substr(pos+2));
+        }
+    }
 
     // remove annotations
     list<string> annotations;
@@ -953,7 +963,8 @@ static string _localize_string(const string& context, const string& value)
     {
         return _localize_unidentified_scroll(context, value);
     }
-    else if (contains(value, "pair of "))
+    else if (contains(value, "pair of ")
+             && contains(value, " boots") || contains(value, " gloves"))
     {
         // pair of boots/gloves
         return _localize_pair(context, value);
