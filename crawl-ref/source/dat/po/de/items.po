@@ -1419,7 +1419,7 @@ msgstr "gekerbter "
 
 msgctxt "adj-er"
 msgid "knobbly "
-msgstr "knorriger "
+msgstr "knubbeliger "
 
 
 #################################
@@ -2235,6 +2235,101 @@ msgstr "schleimige "
 
 msgid "emulsified "
 msgstr "emulgierte "
+
+
+#################################
+# Magical Staves
+#################################
+
+msgid "a %sstaff of wizardry"
+msgstr "ein {adj-er}%sStecken der Zauberei"
+
+msgid "a %sstaff of fire"
+msgstr "ein {adj-er}%sStecken des Feuers"
+
+msgid "a %sstaff of cold"
+msgstr "ein {adj-er}%sStecken der Kälte"
+
+msgid "a %sstaff of poison"
+msgstr "ein {adj-er}%sStecken des Giftes"
+
+msgid "a %sstaff of energy"
+msgstr "ein {adj-er}%sStecken der Energie"
+
+msgid "a %sstaff of death"
+msgstr "ein {adj-er}%sStecken des Todes"
+
+msgid "a %sstaff of conjuration"
+msgstr "ein {adj-er}%sStecken der Hervorrufung"
+
+msgid "a %sstaff of air"
+msgstr "ein {adj-er}%sStecken der Luft"
+
+msgid "a %sstaff of earth"
+msgstr "ein {adj-er}%sStecken der Erde"
+
+msgid "a %sstaff of summoning"
+msgstr "ein {adj-er}%sStecken der Herbeirufung"
+
+msgid "a %sstaff"
+msgstr "ein {adj-er}%sStecken"
+
+# adjectives
+
+# covered elsewhere
+#msgctxt "adj-er"
+#msgid "crooked "
+#msgstr "krummer "
+
+# covered elsewhere
+#msgctxt "adj-er"
+#msgid "knobbly "
+#msgstr "knubbeliger "
+
+msgctxt "adj-er"
+msgid "weird "
+msgstr "seltsamer "
+
+msgctxt "adj-er"
+msgid "gnarled "
+msgstr "knorriger "
+
+msgctxt "adj-er"
+msgid "thin "
+msgstr "dünner "
+
+# covered elsewhere
+#msgctxt "adj-er"
+#msgid "curved "
+#msgstr "gebogener "
+
+# covered elsewhere
+#msgctxt "adj-er"
+#msgid "twisted "
+#msgstr "verdrehter "
+
+msgctxt "adj-er"
+msgid "thick "
+msgstr "dicker "
+
+# covered elsewhere
+#msgctxt "adj-er"
+#msgid "long "
+#msgstr "langer "
+
+# covered elsewhere
+#msgctxt "adj-er"
+#msgid "short "
+#msgstr "kurzer "
+
+msgctxt "adj-er"
+msgid "smoking "
+msgstr "rauchiger "
+
+# covered elsewhere
+#msgctxt "adj-er"
+#msgid "jewelled "
+#msgstr "juwelenbesetzter "
 
 
 #################################
