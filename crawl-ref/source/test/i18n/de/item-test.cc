@@ -263,6 +263,30 @@ vector<map<string, string>> runes =
     }
 };
 
+vector<map<string, string>> staves =
+{
+    {
+        {"en", "a weird smoking staff"},
+        {"nom", "ein seltsamer rauchiger Stecken"},
+        {"acc", "einen seltsamen rauchigen Stecken"}
+    },
+    {
+        {"en", "a cursed weird smoking staff"},
+        {"nom", "ein verfluchter seltsamer rauchiger Stecken"},
+        {"acc", "einen verfluchten seltsamen rauchigen Stecken"}
+    },
+    {
+        {"en", "a staff of earth"},
+        {"nom", "ein Stecken der Erde"},
+        {"acc", "einen Stecken der Erde"}
+    },
+    {
+        {"en", "an uncursed staff of fire"},
+        {"nom", "ein unverfluchter Stecken des Feuers"},
+        {"acc", "einen unverfluchten Stecken des Feuers"}
+    },
+};
+
 int num_passes = 0;
 int num_fails = 0;
 
@@ -323,6 +347,7 @@ int main()
         test_group(cse, "RINGS", rings);
         test_group(cse, "AMULETS", amulets);
         test_group(cse, "WANDS", wands);
+        test_group(cse, "STAVES", staves);
         test_group(cse, "RUNES", runes);
 
     }
