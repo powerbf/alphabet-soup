@@ -523,20 +523,25 @@ static string _insert_adjectives(const string& s, const vector<string>& adjs)
 // check if string is actually a list of things
 static bool is_list(const string& s)
 {
-    if (contains(s, ",") || contains(s, " and ") || contains(s, " or "))
+    // this is a specific artefact name
+    if (contains(s, "Dice, Bag, and Bottle"))
+        return false;
+
+    int bracket_depth = 0;
+    for (size_t i = 0; i < s.length(); i++)
     {
-        // probably a list, but annotations can contain these elements
-        // and so can artefact names
-
-        // this is a specific artefact name
-        if (contains(s, "Dice, Bag, and Bottle"))
-            return false;
-
-        list<string> annotations;
-        string rest = _strip_annotations(s, annotations);
-
-        if (contains(rest, ",") || contains(rest, " and ") || contains(rest, " or "))
-            return true;
+        if (s[i] == '(' || s[i] == '{' || s[i] == '[')
+            bracket_depth++;
+        else if (s[i] == ')' || s[i] == '}' || s[i] == ']')
+            bracket_depth--;
+        else if (bracket_depth == 0)
+        {
+            if (s[i] == ',')
+                return true;
+            else if (strncmp(&s.c_str()[i], " and ", 5) == 0
+                     || strncmp(&s.c_str()[i], " or ", 4) == 0)
+                return true;
+        }
     }
 
     return false;
