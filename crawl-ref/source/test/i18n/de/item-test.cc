@@ -287,6 +287,25 @@ vector<map<string, string>> staves =
     },
 };
 
+vector<map<string, string>> books =
+{
+    {
+        {"en", "a hardcover book"},
+        {"nom", "ein gebundenes Buch"},
+        {"acc", "ein gebundenes Buch"}
+    },
+    {
+        {"en", "a dog-eared paperback book"},
+        {"nom", "ein schäbiges Taschenbuch"},
+        {"acc", "ein schäbiges Taschenbuch"}
+    },
+    {
+        {"en", "a book of Clouds"},
+        {"nom", "ein Buch der Wolken"},
+        {"acc", "ein Buch der Wolken"}
+    },
+};
+
 int num_passes = 0;
 int num_fails = 0;
 
@@ -348,6 +367,7 @@ int main()
         test_group(cse, "AMULETS", amulets);
         test_group(cse, "WANDS", wands);
         test_group(cse, "STAVES", staves);
+        test_group(cse, "BOOKS", books);
         test_group(cse, "RUNES", runes);
 
     }
