@@ -2775,6 +2775,15 @@ msgstr "Gegenstand in falscher Position"
 # Annotations
 #################################
 
+msgid " (carried) "
+msgstr " (getragen) "
+
+msgid " (gone by now)"
+msgstr " (inzwischen weg)"
+
+msgid " (skeletalised by now)"
+msgstr " (inzwischen skelettiert)"
+
 msgid " (curse)"
 msgstr " (verflucht)"
 
