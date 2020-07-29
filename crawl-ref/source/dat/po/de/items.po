@@ -2333,6 +2333,168 @@ msgstr "rauchiger "
 
 
 #################################
+# Spellbooks
+#################################
+
+msgid "a book of Minor Magic"
+msgstr "ein Buch der kleinen Magie"
+
+msgid "a book of Conjurations"
+msgstr "ein Buch der Hervorrufung"
+
+msgid "a book of Flames"
+msgstr "ein Buch der Flammen"
+
+msgid "a book of Frost"
+msgstr "ein Buch des Frosts"
+
+msgid "a book of Summonings"
+msgstr "ein Buch der Herbeirufung"
+
+msgid "a book of Fire"
+msgstr "ein Buch des Feuers"
+
+msgid "a book of Ice"
+msgstr "ein Buch des Eises"
+
+msgid "a book of Spatial Translocations"
+msgstr "ein Buch der räumlichen Translokationen"
+
+msgid "a book of Hexes"
+msgstr "ein Buch der Verhexungen"
+
+msgid "a book of the Tempests"
+msgstr "ein Buch der Stürme"
+
+msgid "a book of Death"
+msgstr "ein Buch des Todes"
+
+msgid "a book of Misfortune"
+msgstr "ein Buch des Unglücks"
+
+msgid "a book of Changes"
+msgstr "ein Buch der Veränderungen"
+
+msgid "a book of Transfigurations"
+msgstr "ein Buch der Verklärungen"
+
+msgid "a book of Battle"
+msgstr "ein Buch der Schlacht"
+
+msgid "a book of Clouds"
+msgstr "ein Buch der Wolken"
+
+msgid "a book of Necromancy"
+msgstr "ein Buch der Nekromantie"
+
+msgid "a book of Callings"
+msgstr "ein Buch der Rufe"
+
+msgid "a book of Maledictions"
+msgstr "ein Buch der Flüche"
+
+msgid "a book of Air"
+msgstr "ein Buch der Luft"
+
+msgid "a book of the Sky"
+msgstr "ein Buch des Himmels"
+
+msgid "a book of the Warp"
+msgstr "ein Buch des Warps"
+
+msgid "a book of Annihilations"
+msgstr "ein Buch der Vernichtung"
+
+msgid "a book of Unlife"
+msgstr "ein Buch des Unlebens"
+
+msgid "a book of Geomancy"
+msgstr "ein Buch der Geomantie"
+
+msgid "a book of the Earth"
+msgstr "ein Buch der Erde"
+
+msgid "a book of Power"
+msgstr "ein Buch der Macht"
+
+msgid "a book of Cantrips"
+msgstr "ein Buch der Schelmenstreiche"
+
+msgid "a book of Party Tricks"
+msgstr "ein Buch mit Partytricks"
+
+msgid "a book of Debilitation"
+msgstr "ein Buch der Entkräftung"
+
+msgid "a book of the Dragon"
+msgstr "ein Buch des Drachen"
+
+msgid "a book of Burglary"
+msgstr "ein Buch des Diebstahls"
+
+msgid "a book of Dreams"
+msgstr "ein Buch der Träume"
+
+msgid "a book of Alchemy"
+msgstr "ein Buch der Alchemie"
+
+msgid "a book of Beasts"
+msgstr "ein Buch der Bestien"
+
+
+#, c-format
+msgid "a %sbook"
+msgstr "ein %sBuch"
+
+#, c-format
+msgid "a %spaperback book"
+msgstr "ein {adj-es}%sTaschenbuch"
+
+#, c-format
+msgid "a %shardcover book"
+msgstr "ein {adj-es}%sgebundenes Buch"
+
+#, c-format
+msgid "a %sleatherbound book"
+msgstr "ein {adj-es}%sledergebundenes Buch"
+
+#, c-format
+msgid "a %smetal-bound book"
+msgstr "ein {adj-es}%smetallgebundenes Buch"
+
+#, c-format
+msgid "a %spapyrus book"
+msgstr "ein {adj-es}%sPapyrusbuch"
+
+msgctxt "adj-es"
+msgid "chunky "
+msgstr "klobiges "
+
+# covered under amulets
+#msgctxt "adj-es"
+#msgid "thick "
+#msgstr "dickes "
+
+# covered under amulets
+#msgctxt "adj-es"
+#msgid "thin "
+#msgstr "dünnes "
+
+msgctxt "adj-es"
+msgid "wide "
+msgstr "breites "
+
+# Note: the German for "dog-eared" is "mit/voller Eselsohren", but that can't be used as an adjective
+msgctxt "adj-es"
+msgid "dog-eared "
+msgstr "schäbiges "
+
+msgctxt "adj-es"
+msgid "oblong "
+msgstr "längliches "
+
+
+#################################
 # Food
 #################################
 
