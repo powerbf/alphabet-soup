@@ -21,6 +21,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #################################
+# Item Types
+#################################
+
+msgid "weapon"
+msgstr "Waffe"
+
+msgid "missile"
+msgstr "Geschoss"
+
+msgid "armour"
+msgstr "Rüstung"
+
+msgid "wand"
+msgstr "Zauberstab"
+
+msgid "food"
+msgstr "Lebensmittel"
+
+msgid "scroll"
+msgstr "Schriftrolle"
+
+msgid "jewellery"
+msgstr "Schmuck"
+
+msgid "potion"
+msgstr "Trank"
+
+msgid "book"
+msgstr "Buch"
+
+msgid "staff"
+msgstr "Stecken"
+
+msgid "orb"
+msgstr "Kugel"
+
+msgid "miscellaneous"
+msgstr "Verschiedenes"
+
+msgid "corpse"
+msgstr "Leiche"
+
+msgid "gold"
+msgstr "Gold"
+
+msgid "rune"
+msgstr "Rune"
+
+
+#################################
 # Generic Adjectives
 #################################
 # These can be applied to various classes of items
