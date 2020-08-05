@@ -3000,12 +3000,8 @@ msgstr "Schaden"
 # Unrand Artefacts
 #################################
 
-# this one must be matched exactly
-msgid "the +7 pair of quick blades \"Gyre\" and \"Gimble\""
-msgstr "das +7 Paar Schnellklingen \"Gyre\" und \"Gimble\""
-
-msgid "the cursed +7 pair of quick blades \"Gyre\" and \"Gimble\""
-msgstr "das verfluchte +7 Paar Schnellklingen \"Gyre\" und \"Gimble\""
+msgid "the %spair of quick blades \"Gyre\" and \"Gimble\""
+msgstr "das %sPaar Schnellklingen \"Gyre\" und \"Gimble\""
 
 msgid "the %sSinging Sword"
 msgstr "das %ssingende Schwert"
