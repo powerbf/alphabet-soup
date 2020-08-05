@@ -44,7 +44,7 @@ msgstr "Den Flug jetzt zu stoppen wäre tödlich!"
 
 #, c-format
 msgid "Turning back right now would cause you to %s!"
-msgstr "Wenn du jetzt zurück drehst, wirst du zu %s!"
+msgstr "Wenn du jetzt zurück drehst, wirst du %s!"
 
 #, c-format
 msgid "Becoming %s right now would cause you to %s!"
@@ -55,7 +55,7 @@ msgid "You cannot call out to %s while %s."
 msgstr "Du kannst %s nicht anrufen, während %s."
 
 msgid "That deck is empty!"
-msgstr "Das Deck ist leer!"
+msgstr "Der Stapel ist leer!"
 
 msgid "There's no appreciative audience!"
 msgstr "Es gibt kein dankbares Publikum!"
@@ -88,27 +88,27 @@ msgid "It's too cloudy to do that here."
 msgstr "Es ist zu bewölkt, um das hier zu tun."
 
 msgid "The air is too still for clouds to form."
-msgstr "Die Luft ist zu still, als dass sich Wolken bilden könnten."
+msgstr "Die Luft ist zu still, un Wolken zu schaffen."
 
 msgid "You don't have enough experience to sacrifice."
-msgstr "Du hast nicht genug Erfahrung, um zu opfern."
+msgstr "Du hast nicht genügend Erfahrung, um zu opfern."
 
 msgid "You have no magic power."
-msgstr "Du hast keine magische Kraft."
+msgstr "Du hast keine magische Energie."
 
 #, c-format
 msgid "%s is still trapped in memory!"
 msgstr "%s ist immer noch im Gedächtnis gefangen!"
 
 msgid "You are too terrified to wall jump!"
-msgstr "Du hast zu viel Angst, um an die Wand zu springen!"
+msgstr "Du hast zu viel Angst, gegen die Wand zu springen!"
 
 #, c-format
 msgid "You cannot wall jump while caught in a %s."
-msgstr "Du kannst nicht an der Wand springen, während du in%s gefangen bist."
+msgstr "Du kannst nicht gegen die Wand springen, während du in %s gefangen bist."
 
 msgid "There is nothing to wall jump against here."
-msgstr "Hier gibt es nichts, gegen das die Wand springen könnte."
+msgstr "Hier gibt es nichts, gegen das du springen kann."
 
 msgid "You fail to use your ability."
 msgstr "Du kannst deine Fähigkeit nicht einsetzen."
@@ -150,7 +150,7 @@ msgid "You clear your throat and prepare to recite."
 msgstr "Du räusperst dich und bereitest dich auf das Rezitieren vor."
 
 msgid "You cannot imprison yourself!"
-msgstr "Du kannst dich nicht einsperren!"
+msgstr "Du kannst dich selbst nicht einsperren!"
 
 msgid "There is no monster there to imprison!"
 msgstr "Es gibt kein Monster, das eingesperrt werden könnte!"
@@ -165,11 +165,11 @@ msgid "There are no corpses to sacrifice!"
 msgstr "Es gibt keine Leichen zu opfern!"
 
 msgid "Another wave of unholy energy enters you."
-msgstr "Eine weitere Welle unheiliger Energie tritt in dich ein."
+msgstr "Noch eine Welle unheiliger Energie tritt in dich ein."
 
 #, c-format
 msgid "You offer yourself to %s, and are filled with unholy energy."
-msgstr "Du bietest dich%s an und bist voller unheiliger Energie."
+msgstr "Du bietest dich {dat}%s an und bist voller unheiliger Energie."
 
 msgid "There are no remains here to animate!"
 msgstr "Es gibt hier keine Überreste zum Animieren!"
@@ -191,23 +191,23 @@ msgstr "Du erneuerst deinen Hilferuf."
 
 #, c-format
 msgid "You beseech %s to protect your life."
-msgstr "Du bittest %s, dein Leben zu beschützen."
+msgstr "Du bittest {acc}%s, dein Leben zu beschützen."
 
 msgid "You are healed."
 msgstr "Du bist geheilt."
 
 msgid "You cannot banish yourself!"
-msgstr "Du kannst dich nicht verbannen!"
+msgstr "Du kannst dich selbst nicht verbannen!"
 
 msgid "You stop recalling your allies."
-msgstr "Du hörst auf, dich an deine Verbündeten zu erinnern."
+msgstr "Du hörst auf, dich an deine Verbündeten rückzurufen."
 
 #, c-format
 msgid "A thick mucus forms on %s."
-msgstr "Auf %s bildet sich ein dicker Schleim."
+msgstr "Auf {dat}%s bildet sich ein dicker Schleim."
 
 msgid "You need a scroll of remove curse to do this."
-msgstr "Du brauchst eine Schriftrolle mit Fluch entfernen, um das zu tun."
+msgstr "Du brauchst eine Schriftrolle des Unverfluchtens, um das zu tun."
 
 msgid "You extend your astral sight."
 msgstr "Du erweitern deine astrale Sicht."
@@ -219,7 +219,7 @@ msgid "You're too exhausted to draw out your power."
 msgstr "Du bist zu erschöpft, um deine Kraft herauszuholen."
 
 msgid "You have no need to draw out power."
-msgstr "Du musst keine Energie verbrauchen."
+msgstr "Es gibt keinen Bedarf deine Kraft herauszuholen."
 
 msgid "You're too exhausted to power leap."
 msgstr "Du bist zu erschöpft, um einen Kraftsprung zu machen."
@@ -231,13 +231,13 @@ msgid "You feel a buildup of energy."
 msgstr "Du fühlst einen Energieaufbau."
 
 msgid "You are already lashing out."
-msgstr "Du peitschst schon."
+msgstr "Du schlägst schon aus."
 
 msgid "You are too exhausted to lash out."
-msgstr "Du bist zu erschöpft, um dich zu schlagen."
+msgstr "Du bist zu erschöpft, auszuschlagen."
 
 msgid "Your muscles tense, ready for explosive movement..."
-msgstr "Deine Muskeln sind angespannt, bereit für explosive Bewegungen ..."
+msgstr "Deine Muskeln sind angespannt, bereit für explosive Bewegungen..."
 
 msgid "You are already engulfed in a heavenly storm!"
 msgstr "Du bist schon in einen himmlischen Sturm versunken!"
@@ -269,7 +269,7 @@ msgstr "Der Dämon der unendlichen Leere lächelt dir zu."
 
 #, c-format
 msgid "Lua error: %s"
-msgstr "Lua Fehler:%s"
+msgstr "Lua Fehler: %s"
 
 
 ##################
@@ -278,23 +278,23 @@ msgstr "Lua Fehler:%s"
 
 #, c-format
 msgid "%s %s %s grip on %s."
-msgstr "%s%s%s Griff auf%s."
+msgstr "%s %s %s Griff auf%s."
 
 #, c-format
 msgid "%s %s %s%s%s"
-msgstr "%s%s%s%s%s"
+msgstr "%s %s %s%s%s"
 
 #, c-format
 msgid "%s %s constricted%s%s"
-msgstr "%s%s verengt%s%s"
+msgstr "%s %s verengt%s%s"
 
 #, c-format
 msgid "%s %s with %s!"
-msgstr "%s%s mit%s!"
+msgstr "%s %s mit {dat}%s!"
 
 #, c-format
 msgid "%s %s into %s!"
-msgstr "%s%s in%s!"
+msgstr "%s %s in %s!"
 
 #, c-format
 msgid "%s violently %s moving!"
@@ -306,28 +306,28 @@ msgstr "%s bewegt sich heftig%s!"
 ##################
 
 msgid "Adjust (i)tems, (s)pells, or (a)bilities? "
-msgstr "(I) Tems, (s) Pells oder (a) Fähigkeiten anpassen?"
+msgstr "(i)Gegenstände, (s)Zauber oder (a)Fähigkeiten wechseln?"
 
 msgid "Adjust which spell? "
-msgstr "Welchen Zauber anpassen?"
+msgstr "Welchen Zauber wechseln?"
 
 msgid "You don't know that spell."
 msgstr "Du kennst diesen Zauber nicht."
 
 msgid "Adjust to which letter? "
-msgstr "An welchen Buchstaben anpassen?"
+msgstr "An welchen Buchstaben wechseln?"
 
 msgid "You don't currently have any abilities."
 msgstr "Du hast momentan keine Fähigkeiten."
 
 msgid "Adjust which ability? "
-msgstr "Welche Fähigkeit anpassen?"
+msgstr "Welche Fähigkeit wechseln?"
 
 msgid "No such ability."
 msgstr "Keine solche Fähigkeit."
 
 msgid "Adjust to which letter?"
-msgstr "An welchen Buchstaben anpassen?"
+msgstr "An welchen Buchstaben wechseln?"
 
 
 ##################
@@ -341,10 +341,10 @@ msgid "The sanctuary disappears."
 msgstr "Das Heiligtum verschwindet."
 
 msgid "By Zin's power, the foul cloud within the sanctuary "
-msgstr "Durch Zins Kraft die schmutzige Wolke im Heiligtum"
+msgstr "Durch Zins Kraft die schmutzige Wolke im Heiligtum "
 
 msgid "By Zin's power, all foul fumes within the sanctuary "
-msgstr "Durch Zins Macht sind alle üblen Dämpfe im Heiligtum"
+msgstr "Durch Zins Macht sind alle üblen Dämpfe im Heiligtum "
 
 msgid "By Zin's power, all blood is cleared from the sanctuary."
 msgstr "Durch Zins Kraft wird alles Blut aus dem Heiligtum entfernt."
@@ -399,7 +399,7 @@ msgstr "Beide Seiten tot."
 
 #, c-format
 msgid "%s %s!"
-msgstr "%s%s!"
+msgstr "%s %s!"
 
 msgid "Last arena monster was dismissed."
 msgstr "Das letzte Arena-Monster wurde entlassen."
@@ -423,7 +423,7 @@ msgstr "Das Schwert von Cerebov verbrennt deinen Feuerwiderstand."
 
 #, c-format
 msgid "The sword of Cerebov burns away %s fire resistance."
-msgstr "Das Schwert von Cerebov verbrennt%s Feuerwiderstand."
+msgstr "Das Schwert von Cerebov verbrennt %s Feuerwiderstand."
 
 msgid "A shiver runs down your spine."
 msgstr "Ein Schauer läuft dir über den Rücken."
@@ -432,25 +432,25 @@ msgid "You're too close to death to use this item."
 msgstr "Du bist dem Tod zu nahe, um diesen Gegenstand zu benutzen."
 
 msgid "You feel the staff feeding on your energy!"
-msgstr "Du fühlst, wie der Stab sich von deiner Energie ernährt!"
+msgstr "Du fühlst, wie der Stecken sich von deiner Energie ernährt!"
 
 msgid "You smell chlorine."
 msgstr "Du riechst Chlor."
 
 msgid "The staff glows a sickly green."
-msgstr "Das Personal leuchtet kränklich grün."
+msgstr "Der Stecken leuchtet kränklich grün."
 
 msgid "The smell of chlorine vanishes."
 msgstr "Der Geruch von Chlor verschwindet."
 
 msgid "The staff's sickly green glow vanishes."
-msgstr "Das kränklich grüne Leuchten des Personals verschwindet."
+msgstr "Das kränklich grüne Leuchten des Steckens verschwindet."
 
 msgid "You sense an aura of extreme power."
 msgstr "Du spürst eine Aura extremer Kraft."
 
 msgid "The sword says, \"Hi! I'm the Singing Sword!\""
-msgstr "Das Schwert sagt: \"Hallo! Ich bin das singende Schwert! \""
+msgstr "Das Schwert sagt: \"Hallo! Ich bin das singende Schwert!\""
 
 msgid "The Singing Sword hums in delight!"
 msgstr "Das singende Schwert summt vor Freude!"
@@ -459,7 +459,7 @@ msgid "The Singing Sword sighs."
 msgstr "Das singende Schwert seufzt."
 
 msgid "You feel pruney."
-msgstr "Du fühlst dich beschnitten."
+msgstr "Du fühlst dich geschrumpft."
 
 msgid "A terribly searing pain shoots up your arm!"
 msgstr "Ein schrecklich brennender Schmerz schießt deinen Arm hoch!"
@@ -499,7 +499,7 @@ msgstr "Du spürst eine extrem unheilige Aura."
 
 #, c-format
 msgid "Visions of slaying %s flood into your mind."
-msgstr "Visionen,%s zu töten, kommen dir in den Sinn."
+msgstr "Visionen, %s zu töten, kommen dir in den Sinn."
 
 msgid "Your confusion fades away as the thirst for blood takes over your mind."
 msgstr "Deine Verwirrung verschwindet, als der Durst nach Blut deinen Geist übernimmt."
@@ -513,11 +513,11 @@ msgstr "<white>Die Lanze leuchtet hell, als sie %s aufspießt. Du fühlst "
 
 #, c-format
 msgid "<green>The lance glows as it skewers %s.</green>"
-msgstr "<green> Die Lanze leuchtet, wenn sie %s aufspießt. </green>"
+msgstr "<green>Die Lanze leuchtet, wenn sie %s aufspießt.</green>"
 
 #, c-format
 msgid "%s %s blasted by disruptive energy%s"
-msgstr "%s%s durch störende Energie%s gesprengt"
+msgstr "%s %s durch störende Energie gesprengt%s"
 
 msgid "Time to lay down the shillelagh law."
 msgstr "Zeit, das Shillelagh-Gesetz festzulegen."
@@ -526,7 +526,7 @@ msgid "You feel oddly protected from the elements."
 msgstr "Du fühlst dich seltsamerweise vor den Elementen geschützt."
 
 msgid "You no longer feel protected from the elements."
-msgstr "Du fühlst dich nicht länger vor den Elementen geschützt."
+msgstr "Du fühlst dich nicht mehr vor den Elementen geschützt."
 
 msgid "The light fades from your surroundings."
 msgstr "Das Licht verschwindet aus deiner Umgebung."
@@ -563,7 +563,7 @@ msgid "The dagger glows with an icy blue light!"
 msgstr "Der Dolch leuchtet mit einem eisblauen Licht!"
 
 msgid "The dagger stops glowing."
-msgstr "Der Dolch hört auf zu glühen."
+msgstr "Der Dolch hört auf zu leuchten."
 
 #, c-format
 msgid "%s is flash-frozen."
@@ -589,11 +589,11 @@ msgstr "Du fühlst dich königlich."
 
 #, c-format
 msgid "The captain's cutlass flashes! You lacerate %s!!"
-msgstr "Das Entermesser des Kapitäns blinkt! Du zerreißt%s !!"
+msgstr "Das Entermesser des Kapitäns blinkt! Du zerreißt {acc}%s!!"
 
 #, c-format
 msgid "%s %s falls to the floor!"
-msgstr "%s%s fällt zu Boden!"
+msgstr "%s %s fällt zu Boden!"
 
 msgid "En garde!"
 msgstr "En garde!"
@@ -873,7 +873,7 @@ msgstr "%s friert {acc}%s ein%s"
 
 #, c-format
 msgid "%s stares at you suspiciously for a moment, "
-msgstr "%s starrt dich einen Moment misstrauisch an"
+msgstr "%s starrt dich einen Moment misstrauisch an, "
 
 #, c-format
 msgid "%s trembles before you."
@@ -896,11 +896,11 @@ msgstr "Der beschädigte Rost fällt auseinander."
 
 #, c-format
 msgid "%s %s shatters into small pieces."
-msgstr "%s%s zerbricht in kleine Stücke."
+msgstr "%s %s zerbricht in kleine Stücke."
 
 #, c-format
 msgid "%s appears from out of your range of vision."
-msgstr "%s erscheint außerhalb Ihrer Sichtweite."
+msgstr "%s erscheint außerhalb deiner Sichtweite."
 
 msgid "You have difficulty breathing."
 msgstr "Du hast Schwierigkeiten beim Atmen."
@@ -911,7 +911,7 @@ msgstr "%s Lebenskraft wird angeboten."
 
 #, c-format
 msgid "%s %s healed."
-msgstr "%s%s geheilt."
+msgstr "%s %s geheilt."
 
 msgid "The wave splashes down."
 msgstr "Die Welle spritzt runter."
@@ -921,27 +921,27 @@ msgstr "Du hörst ein zischendes Geräusch!"
 
 #, c-format
 msgid "Your %s reflects the %s!"
-msgstr "Deine%s spiegeln die%s wider!"
+msgstr "Deine %s spiegeln die %s wider!"
 
 #, c-format
 msgid "The %s reflects off an invisible shield around you!"
-msgstr "Das%s reflektiert sich von einem unsichtbaren Schild um dich herum!"
+msgstr "Das %s reflektiert sich von einem unsichtbaren Schild um dich herum!"
 
 #, c-format
 msgid "You block the %s."
-msgstr "Du blockierst die%s."
+msgstr "Du blockierst die %s."
 
 #, c-format
 msgid "The %s misses you."
-msgstr "Die%s vermissen dich."
+msgstr "Die %s vermissen dich."
 
 #, c-format
 msgid "The %s is repelled."
-msgstr "Das%s wird abgestoßen."
+msgstr "Das %s wird abgestoßen."
 
 #, c-format
 msgid "Something tries to affect you, but you %s."
-msgstr "Etwas versucht dich zu beeinflussen, aber dich%s."
+msgstr "Etwas versucht dich zu beeinflussen, aber du %s."
 
 #, c-format
 msgid "You%s"
@@ -966,7 +966,7 @@ msgid "You are blasted!"
 msgstr "Du bist gesprengt!"
 
 msgid "You feel a momentary urge to oink."
-msgstr "Du fühlst einen momentanen Drang zu zwinkern."
+msgstr "Du fühlst einen momentanen Drang zu grunzen."
 
 #, c-format
 msgid "You feel %sfirmly anchored in space."
@@ -979,7 +979,7 @@ msgid "Your magical defenses are stripped away!"
 msgstr "Deine magischen Verteidigungen werden entfernt!"
 
 msgid "You feel yourself grow more vulnerable to poison."
-msgstr "Du fühlst dich anfälliger für Gift."
+msgstr "Du fühlst dich anfälliger für Gift werden."
 
 #, c-format
 msgid "Your magic feels %stainted."
@@ -989,7 +989,7 @@ msgid "You feel your power leaking away."
 msgstr "Du fühlst, wie deine Kraft nachlässt."
 
 msgid "Software bugs nibble your toes!"
-msgstr "Software-Fehler knabbern an deinen Zehen!"
+msgstr "Software-Bugs knabbern an deinen Zehen!"
 
 msgid "You feel your light-headedness will last longer."
 msgstr "Du fühlst, dass deine Benommenheit länger anhält."
@@ -1013,19 +1013,19 @@ msgid "You feel your vulnerability to fire will last "
 msgstr "Du fühlst, dass deine Anfälligkeit für Feuer anhalten wird"
 
 msgid "Cherry-coloured flames burn away your fire "
-msgstr "Kirschfarbene Flammen verbrennen dein Feuer"
+msgstr "Kirschfarbene Flammen brennen dein Feuer ab "
 
 #, c-format
 msgid "The %s %s you!"
-msgstr "Die%s%s dich!"
+msgstr "Die %s %s dich!"
 
 #, c-format
 msgid "The %s %s you%s%s"
-msgstr "Die%s%s dich%s%s"
+msgstr "Die %s %s dich%s%s"
 
 #, c-format
 msgid "Your attached jelly eats %s!"
-msgstr "Dein anhaftendes Gelee isst%s!"
+msgstr "Dein anhaftendes Gelee isst %s!"
 
 msgid "The barbed spikes become lodged in your body."
 msgstr "Die Stacheldornen stecken in deinem Körper."
