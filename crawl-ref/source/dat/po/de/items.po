@@ -2840,9 +2840,6 @@ msgstr " (verflucht)"
 msgid "god gift"
 msgstr "Gottesgeschenk"
 
-msgid "gold"
-msgstr "Gold"
-
 msgid "Str"
 msgstr "Stä"
 
@@ -3007,8 +3004,346 @@ msgstr "Schaden"
 msgid "the +7 pair of quick blades \"Gyre\" and \"Gimble\""
 msgstr "das +7 Paar Schnellklingen \"Gyre\" und \"Gimble\""
 
-msgid "the %ssword of the Doom Knight"
-msgstr "das %sSchwert des Verhängnis-Ritters"
+msgid "the cursed +7 pair of quick blades \"Gyre\" and \"Gimble\""
+msgstr "das verfluchte +7 Paar Schnellklingen \"Gyre\" und \"Gimble\""
 
+msgid "the %sSinging Sword"
+msgstr "das %ssingende Schwert"
+
+msgid "the %sWrath of Trog"
+msgstr "der %sZorn von Trog"
+
+msgid "the %smace of Variability"
+msgstr "der %sStreitkolben der Variabilität"
+
+msgid "the %sglaive of Prune"
+msgstr "die %sGleve der Prünelle"
+
+msgid "the %ssword of Power"
+msgstr "das %sSchwert der Macht"
+
+msgid "the %sstaff of Olgreb"
+msgstr "der %sStecken von Olgreb"
+
+msgid "the %sstaff of Wucad Mu"
+msgstr "der %sStecken von Wucad Mu"
+
+msgid "the %sVampire's Tooth"
+msgstr "der %sZahn des Vampirs"
+
+msgid "the %sscythe of Curses"
+msgstr "die %sSense der Flüche"
+
+msgid "the %ssceptre of Torment"
+msgstr "das %sZepter der Qual"
+
+msgid "the %ssword of Zonguldrok"
+msgstr "das %sSchwert von Zonguldrok"
+
+msgid "the %ssword of Cerebov"
+msgstr "das %sSchwert von Cerebov"
+
+msgid "the %sstaff of Dispater"
+msgstr "der %sStecken von Dispater"
+
+msgid "the %ssceptre of Asmodeus"
+msgstr "das %sZepter von Asmodeus"
+
+msgid "the %sfaerie dragon scales"
+msgstr "die %sFeen-Drachenschuppen"
+
+msgid "the %sdemon blade \"Bloodbane\""
+msgstr "die %sDämonenklinge \"Blutfluch\""
+
+msgid "the %sscimitar of Flaming Death"
+msgstr "der %sKrummsäbel des flammenden Todes"
+
+msgid "the %seveningstar \"Brilliance\""
+msgstr "der %sAbendstar \"Brillanz\""
+
+msgid "the %sdemon blade \"Leech\""
+msgstr "die %sDämonenklinge \"Egel\""
+
+msgid "the %sdagger of Chilly Death"
+msgstr "der %sDolch des kühlen Todes"
+
+msgid "the %sdagger \"Morg\""
+msgstr "der %sDolch \"Morg\""
+
+msgid "the %sscythe \"Finisher\""
+msgstr "die %sSense \"Beender\""
+
+msgid "the %ssling \"Punk\""
+msgstr "die %sSchleuder \"Punk\""
+
+msgid "the %slongbow \"Zephyr\""
+msgstr "der %sLangbogen \"Zephyr\""
+
+msgid "the %sgiant club \"Skullcrusher\""
+msgstr "die %sRiesenkeule \"Schädelbrecher\""
+
+msgid "the %sglaive of the Guard"
+msgstr "die %sGleve der Wache"
+
+msgid "the %szealot's sword"
+msgstr "das %sSchwert des Zeloten"
+
+msgid "the %sarbalest \"Damnation\""
+msgstr "die %sArmbrust \"Verdammnis\""
+
+msgid "the %ssword of the Doom Knight"
+msgstr "das %sSchwert des Schicksal-Ritters"
+
+msgid "the %smorningstar \"Eos\""
+msgstr "der %sMorgenstern \"Eos\""
+
+msgid "the %sspear of the Botono"
+msgstr "der %sSpeer des Botonos"
+
+msgid "the %strident of the Octopus King"
+msgstr "der %sDreizack des Krakenkönigs"
+
+msgid "the %smithril axe \"Arga\""
+msgstr "die %sMithrilaxt \"Arga\""
+
+msgid "the %sElemental Staff"
+msgstr "der %sElementarstecken"
+
+msgid "the %sheavy crossbow \"Sniper\""
+msgstr "die %sschwere Armbrust \"Scharfschütze\""
+
+msgid "the %slongbow \"Piercer\""
+msgstr "der %sLangbogen \"Stecher\""
+
+msgid "the %sblowgun of the Assassin"
+msgstr "das %sBlasrohr des Assassinen"
+
+msgid "the %slance \"Wyrmbane\""
+msgstr "die %sLanze \"Wyrmbane\""
+
+msgid "the %sSpriggan's Knife"
+msgstr "das %sMesser des Spriggans"
+
+msgid "the %splutonium sword"
+msgstr "das %sPlutoniumschwert"
+
+msgid "the %sgreat mace \"Undeadhunter\""
+msgstr "der %sgroße Streitkolben \"Untotenjäger\""
+
+msgid "the %swhip \"Snakebite\""
+msgstr "die %sPeitsche \"Schlangenbiss\""
+
+msgid "the %sknife of Accuracy"
+msgstr "das %sMesser der Genauigkeit"
+
+msgid "the %sLehudib's crystal spear"
+msgstr "der %sKristallspeer Lehudibs"
+
+msgid "the %scaptain's cutlass"
+msgstr "das %sEntermesser des Kapitäns"
+
+msgid "the %sstorm bow"
+msgstr "der %sSturmbogen"
+
+msgid "the %stower shield of Ignorance"
+msgstr "der %sTurmschild des Nichtwissens"
+
+msgid "the %srobe of Augmentation"
+msgstr "das %sGewand der Augmentation"
+
+msgid "the %scloak of the Thief"
+msgstr "der %sUmhang des Diebes"
+
+msgid "the %stower shield \"Bullseye\""
+msgstr "der %sTurmschild \"Volltreffer\""
+
+msgid "the %scrown of Dyrovepreva"
+msgstr "die %sKrone von Dyrovepreva"
+
+msgid "the %shat of the Bear Spirit"
+msgstr "der %sHut des Bärengeistes"
+
+msgid "the %srobe of Misfortune"
+msgstr "das %sRobe des Unglücks"
+
+msgid "the %scloak of Flash"
+msgstr "der %sUmhang von Flash"
+
+msgid "the %shood of the Assassin"
+msgstr "die %sKapuze des Assassinen"
+
+msgid "the %sLear's hauberk"
+msgstr "die %sHalsberge Lears"
+
+msgid "the %sskin of Zhor"
+msgstr "die %sHaut von Zhor"
+
+msgid "the %ssalamander hide armour"
+msgstr "die %sSalamanderhaut-Rüstung"
+
+msgid "the %spair of gauntlets of War"
+msgstr "das %sPaar Gantelets des Krieges"
+
+msgid "the %sshield of Resistance"
+msgstr "der %sSchild der Resistenz"
+
+msgid "the %srobe of Folly"
+msgstr "das %sGewand der Torheit"
+
+msgid "the %sMaxwell's patent armour"
+msgstr "die %spatentierte Rüstung Maxwells"
+
+msgid "the %smask of the Dragon"
+msgstr "die %sMaske des Drachens"
+
+msgid "the %srobe of Night"
+msgstr "die %sRobe der Nacht"
+
+msgid "the %sscales of the Dragon King"
+msgstr "die %sSchuppen des Drachenkönigs"
+
+msgid "the %shat of the Alchemist"
+msgstr "der %sHut des Alchemisten"
+
+msgid "the %spair of fencer's gloves"
+msgstr "das %sPaar Handschuhe des Fechters"
+
+msgid "the %scloak of Starlight"
+msgstr "der %sUmhang des Sternenlichts"
+
+msgid "the %sratskin cloak"
+msgstr "der %sRattenfellumhang"
+
+msgid "the %sshield of the Gong"
+msgstr "der %sSchild des Gongs"
+
+msgid "the %samulet of the Air"
+msgstr "das %sAmulett der Luft"
+
+msgid "the %sring of Shadows"
+msgstr "der %sRing der Schatten"
+
+msgid "the %samulet of Cekugob"
+msgstr "das %sAmulett von Cekugob"
+
+msgid "the %samulet of the Four Winds"
+msgstr "das %sAmulett der vier Winde"
+
+msgid "the %snecklace of Bloodlust"
+msgstr "die %sKette des Blutrausches"
+
+msgid "the %sring of Phasing"
+msgstr "der %sRing der Phase"
+
+msgid "the %sring of Robustness"
+msgstr "der %sRing der Robustheit"
+
+msgid "the %sring of the Mage"
+msgstr "der %sRing des Magiers"
+
+msgid "the %sbrooch of Shielding"
+msgstr "die %sBrosche der Abschirmung"
+
+msgid "the %srobe of Clouds"
+msgstr "die %sRobe der Wolken"
+
+msgid "the %shat of Pondering"
+msgstr "der %sHut der Schwerfälligkeit"
+
+msgid "the %sobsidian axe"
+msgstr "die %sObsidianaxt"
+
+msgid "the %slightning scales"
+msgstr "die %sBlitzschuppen"
+
+msgid "the %sBlack Knight's horse barding"
+msgstr "der %sRossharnisch des schwarzen Ritters"
+
+msgid "the %samulet of Vitality"
+msgstr "das %sAmulett der Vitalität"
+
+msgid "the %sautumn katana"
+msgstr "das %sHerbstkatana"
+
+msgid "the %sshillelagh \"Devastator\""
+msgstr "der %sShillelagh \"Verwüster\""
+
+msgid "the %sdragonskin cloak"
+msgstr "der %sDrachenhautumhang"
+
+msgid "a %sring of the Octopus King"
+msgstr "ein {adj-er}%sRing des Krakenkönigs"
+
+msgid "the %sAxe of Woe"
+msgstr "die %sAxt des Wehs"
+
+msgid "the %smoon troll leather armour"
+msgstr "die %sMondtroll-lederrüstung"
+
+msgid "the %smacabre finger necklace"
+msgstr "die %smakabere Fingerhalskette"
+
+msgid "the %spair of boots of the spider"
+msgstr "das %sPaar Stiefel der Spinne"
+
+msgid "the %sdark maul"
+msgstr "der %sdunkle Kriegshammer"
+
+msgid "the %shat of the High Council"
+msgstr "der %sHut des Hohen Rates"
+
+msgid "the %sarc blade"
+msgstr "die %sLichtbogenklinge"
+
+msgid "the %sdemon whip \"Spellbinder\""
+msgstr "die %sDämonenpeitsche \"Verzauberer\""
+
+msgid "the %slajatang of Order"
+msgstr "der %sLajatang der Ordnung"
+
+msgid "the %sgreat mace \"Firestarter\""
+msgstr "der %sgroße Streitkolben \"Brandstifter\""
+
+msgid "the %sorange crystal plate armour"
+msgstr "der %sorange Kristallplattenpanzer"
+
+msgid "the %sMajin-Bo"
+msgstr "der %sMajin-Bo"
+
+msgid "the %sMaxwell's etheric cage"
+msgstr "der %sÄtherkäfig von Maxwell"
+
+msgid "the %scrown of Eternal Torment"
+msgstr "die %sKrone der ewigen Qual"
+
+msgid "the %srobe of Vines"
+msgstr "das %sGewand der Reben"
+
+msgid "the %sKryia's mail coat"
+msgstr "der %sSchuppenpanzer von Kryia"
+
+msgid "the %sfrozen axe \"Frostbite\""
+msgstr "die %sgefrorene Axt \"Erfrierungen\""
+
+msgid "the %sarmour of Talos"
+msgstr "die %sRüstung von Talos"
+
+msgid "the %swarlock's mirror"
+msgstr "der %sSpiegel des Hexenmeisters"
+
+msgid "the %samulet of invisibility"
+msgstr "das %sAmulett der Unsichtbarkeit"
+
+msgid "the %sMaxwell's thermic engine"
+msgstr "das %sthermische Gerät von Maxwell"
+
+msgid "the %sdemon trident \"Rift\""
+msgstr "der %sDämonendreizack \"Riss\""
+
+msgid "the %sstaff of Battle"
+msgstr "der %sStecken der Schlacht"
+
+msgid "the %sCigotuvi's embrace"
+msgstr "die %sUmarmung von Cigotuvi"
 
 
