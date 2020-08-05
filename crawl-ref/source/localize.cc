@@ -523,8 +523,8 @@ static string _insert_adjectives(const string& s, const vector<string>& adjs)
 // check if string is actually a list of things
 static bool is_list(const string& s)
 {
-    // this is a specific artefact name
-    if (contains(s, "Dice, Bag, and Bottle"))
+    // specific artefacts names
+    if (contains(s, "Dice, Bag, and Bottle") || contains(s, "Gyre"))
         return false;
 
     int bracket_depth = 0;
@@ -629,33 +629,53 @@ static string _localize_unidentified_scroll(const string& context, const string&
 // they can have adjectives in 2 places (e.g. "an uncursed pair of glowing boots")
 static string _localize_pair(const string& context, const string& name)
 {
-    if (!contains(name, "pair of "))
+    size_t pos = name.find("pair of ");
+    if (pos == string::npos)
         return name;
 
-    if (!contains(name, " boots") && !contains(name, " gloves"))
-        return name;
+    string prefix = name.substr(0, pos);
+    string rest = name.substr(pos);
 
-    // break it up
-    vector<string> adj_group1, adj_group2;
-    string base, suffix;
-    vector<string> words = split_string(" ", name, true);
+    // break the prefix up into determiner and adjectives
+    string determiner;
+    vector<string> adj_group1;
+    vector<string> words = split_string(" ", prefix, true, false);
     for (size_t i = 0; i < words.size(); i++)
     {
-        const string& word = words[i];
         if (i == 0)
         {
-            string det = lowercase_string(word);
-            if (is_determiner(det))
+            const string word = lowercase_string(words[i]);
+            if (is_determiner(word))
             {
-                base = det == "an" ? "a" : det;
-                base += " ";
+                determiner = word == "an" ? "a" : word;
                 continue;
             }
         }
+        adj_group1.push_back(words[i]);
+    }
 
+    // check for unrand artefact
+    string candidate = determiner + " %s" + rest;
+    trim_string(candidate);
+    string result = cxlate(context, candidate);
+    if (result != candidate)
+    {
+        result = _insert_adjectives(result, adj_group1);
+        return result;
+    }
+
+    // break it up further
+    vector<string> adj_group2;
+    string base = determiner + " %s";
+    trim_string(base);
+    string suffix;
+    vector<string> words2 = split_string(" ", rest, true);
+    for (size_t i = 0; i < words2.size(); i++)
+    {
+        const string& word = words2[i];
         if (word == "pair")
-            base += "%s" + word;
-        else if (word == "of" && i > 0 && words[i-1] == "pair")
+            base += word;
+        else if (word == "of" && i > 0 && words2[i-1] == "pair")
             base += " " + word;
         else if (word == "boots" || word == "gloves")
             base += " %s" + word;
@@ -663,13 +683,10 @@ static string _localize_pair(const string& context, const string& name)
             suffix = " " + word;
         else if (!suffix.empty())
             suffix += " " + word;
-        else if (contains(base, "pair"))
-            adj_group2.push_back(word);
         else
-            adj_group1.push_back(word);
+            adj_group2.push_back(word);
     }
 
-    string result;
     if (suffix.empty())
         result = cxlate(context, base);
     else
@@ -682,25 +699,14 @@ static string _localize_pair(const string& context, const string& name)
     }
 
     // first set of adjectives (before the word "pair")
-    string ctx1;
-    size_t pos = result.find("%s");
-    if (pos != string::npos)
-    {
-        result = _strip_context(result, pos, ctx1);
-        result = _insert_adjectives(ctx1, result, adj_group1);
-    }
+    result = _insert_adjectives(result, adj_group1);
 
     // second set of adjectives (before the word "boots"/"gloves")
-    string ctx2;
-    size_t pos2 = result.find("%s");
-    if (pos2 != string::npos)
-    {
-        result = _strip_context(result, pos2, ctx2);
-        result = _insert_adjectives(ctx2, result, adj_group2);
-    }
+    result = _insert_adjectives(result, adj_group2);
 
     return result;
 }
+
 // try to localize complex item name
 //
 // Some examples:
@@ -968,8 +974,7 @@ static string _localize_string(const string& context, const string& value)
     {
         return _localize_unidentified_scroll(context, value);
     }
-    else if (contains(value, "pair of ")
-             && contains(value, " boots") || contains(value, " gloves"))
+    else if (contains(value, "pair of "))
     {
         // pair of boots/gloves
         return _localize_pair(context, value);
