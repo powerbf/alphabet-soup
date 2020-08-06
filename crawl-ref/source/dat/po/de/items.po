@@ -918,7 +918,7 @@ msgstr "der %sPlattenpanzer"
 
 #, c-format
 msgid "the %scrystal plate armour"
-msgstr "eie %sKristallplattenpanzer"
+msgstr "der %sKristallplattenpanzer"
 
 #, c-format
 msgid "the %stroll leather armour"
@@ -1041,7 +1041,7 @@ msgstr "ein {adj-er}%sPlattenpanzer"
 
 #, c-format
 msgid "a %scrystal plate armour"
-msgstr "eie {adj-er}%sKristallplattenpanzer"
+msgstr "ein {adj-er}%sKristallplattenpanzer"
 
 #, c-format
 msgid "a %stroll leather armour"
@@ -2179,16 +2179,16 @@ msgid "golden "
 msgstr "goldene "
 
 msgid "dark "
-msgstr "dunkler "
+msgstr "dunkle "
 
 msgid "puce "
-msgstr "braunroter "
+msgstr "braunrote "
 
 msgid "amethyst "
-msgstr "amethystfarbener "
+msgstr "amethystfarbene "
 
 msgid "sapphire "
-msgstr "saphirblauer "
+msgstr "saphirblaue "
 
 # potion qualifiers
 
@@ -3088,7 +3088,7 @@ msgid "the %sarbalest \"Damnation\""
 msgstr "die %sArmbrust \"Verdammnis\""
 
 msgid "the %ssword of the Doom Knight"
-msgstr "das %sSchwert des Schicksal-Ritters"
+msgstr "das %sSchwert des Verhängnis-Ritters"
 
 msgid "the %smorningstar \"Eos\""
 msgstr "der %sMorgenstern \"Eos\""
