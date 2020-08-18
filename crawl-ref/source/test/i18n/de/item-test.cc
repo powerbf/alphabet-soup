@@ -79,7 +79,7 @@ const vector<string> expected = {
     "5 Tränke des Gegenmittels",
 
     "ein +4 Ring des Schutzes (468 Gold)",
-    "ein +6 Eing der Intelligenz (760 Gold)",
+    "ein +6 Ring der Intelligenz (760 Gold)",
     "ein verfluchter -4 Ring der Geschicklichkeit (26 Gold)",
 
     "eine Leiche eines Orkes (inzwischen skelettiert)",
