@@ -1,0 +1,736 @@
+###############################################################################
+#
+# German translations for item names
+# Dative case
+#
+###############################################################################
+msgctxt "dat"
+msgid ""
+msgstr ""
+"Project-Id-Version: Alphabet Soup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+#################################
+# Melee Weapons
+#################################
+
+# with indefinite article
+# used in message "<monster> hits you (from afar) with <weapon>" (melee-attack.cc)
+# Note that %s is a placeholder for any adjectives
+
+#, c-format
+msgctxt "dat"
+msgid "a %sclub"
+msgstr "einer {adj-en}%s Keule"
+
+#, c-format
+msgctxt "dat"
+msgid "a %swhip"
+msgstr "einer {adj-en}%s Peitsche"
+
+#, c-format
+msgctxt "dat"
+msgid "a %smace"
+msgstr "einem {adj-en}%sStreitkolben"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sflail"
+msgstr "einem {adj-en}%sFlegel"
+
+#, c-format
+msgctxt "dat"
+msgid "a %smorningstar"
+msgstr "einem {adj-en}%sMorgenstern"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sdemon whip"
+msgstr "einer {adj-en}%s Dämonenpeitsche"
+
+#, c-format
+msgctxt "dat"
+msgid "a %ssacred scourge"
+msgstr "einer {adj-en}%s geistliche Geißel"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sdire flail"
+msgstr "einem {adj-en}%sSchreckensflegel"
+
+#, c-format
+msgctxt "dat"
+msgid "a %seveningstar"
+msgstr "einem {adj-en}%sAbendstern"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sgreat mace"
+msgstr "einem {adj-en}%sgroßer Streitkolben"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sgiant club"
+msgstr "einer {adj-en}%s Riesenkeule"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sgiant spiked club"
+msgstr "einer {adj-en}%s riesige Stachelkeule"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sdagger"
+msgstr "einem {adj-en}%sDolch"
+
+#, c-format
+msgctxt "dat"
+msgid "a %squick blade"
+msgstr "einer {adj-en}%s Schnellklinge"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sshort sword"
+msgstr "einem {adj-en}%sKurzschwert"
+
+# neut
+#, c-format
+msgctxt "dat"
+msgid "a %srapier"
+msgstr "einem {adj-en}%sRapier"
+
+# neut
+#, c-format
+msgctxt "dat"
+msgid "a %sfalchion"
+msgstr "einem {adj-en}%sFalchion"
+
+#, c-format
+msgctxt "dat"
+msgid "a %slong sword"
+msgstr "einem {adj-en}%sLangschwert"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sscimitar"
+msgstr "einem {adj-en}%sKrummsäbel"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sdemon blade"
+msgstr "einer {adj-en}%s Dämonenklinge"
+
+#, c-format
+msgctxt "dat"
+msgid "a %seudemon blade"
+msgstr "einer {adj-en}%s Eudämonenklinge"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sdouble sword"
+msgstr "einem {adj-en}%sDoppelschwert"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sgreat sword"
+msgstr "einem {adj-en}%sGroßschwert"
+
+#, c-format
+msgctxt "dat"
+msgid "a %striple sword"
+msgstr "einem {adj-en}%sDreifach-Schwert"
+
+# neut
+#, c-format
+msgctxt "dat"
+msgid "a %shand axe"
+msgstr "einem {adj-en}%sBeil"
+
+#, c-format
+msgctxt "dat"
+msgid "a %swar axe"
+msgstr "einer {adj-en}%s Kriegsaxt"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sbroad axe"
+msgstr "einer {adj-en}%s Breitaxt"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sbattleaxe"
+msgstr "einer {adj-en}%s Streitaxt"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sexecutioner's axe"
+msgstr "einer {adj-en}%s Henkersaxt"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sspear"
+msgstr "einem {adj-en}%sSpeer"
+
+#, c-format
+msgctxt "dat"
+msgid "a %strident"
+msgstr "einem {adj-en}%sDreizack"
+
+#, c-format
+msgctxt "dat"
+msgid "a %shalberd"
+msgstr "einer {adj-en}%s Hellebarde"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sscythe"
+msgstr "einer {adj-en}%s Sense"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sdemon trident"
+msgstr "einem {adj-en}%sDämonendreizack"
+
+#, c-format
+msgctxt "dat"
+msgid "a %strishula"
+msgstr "einem {adj-en}%sTrishula"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sglaive"
+msgstr "einer {adj-en}%s Gleve"
+
+#, c-format
+msgctxt "dat"
+msgid "a %sbardiche"
+msgstr "einer {adj-en}%s Bardiche"
+
+#, c-format
+msgctxt "dat"
+msgid "a %squarterstaff"
+msgstr "einem {adj-en}%sKampfstab"
+
+#, c-format
+msgctxt "dat"
+msgid "a %slajatang"
+msgstr "einem {adj-en}%sLajatang"
+
+
+#################################
+# Launchers
+#################################
+
+# your...
+# used in the message "You cannot shoot with your <launcher> while held in a net/caught in a web."
+# Note that %s is a placeholder for any adjectives
+
+#, c-format
+msgctxt "dat"
+msgid "your %shunting sling"
+msgstr "deiner {adj-en}%s Schleuder"
+
+#, c-format
+msgctxt "dat"
+msgid "your %sfustibalus"
+msgstr "deinem {adj-en}%sFustibalus"
+
+#, c-format
+msgctxt "dat"
+msgid "your %shand crossbow"
+msgstr "deiner {adj-en}%s Handarmbrust"
+
+#, c-format
+msgctxt "dat"
+msgid "your %sarbalest"
+msgstr "deiner {adj-en}%s Armbrust"
+
+#, c-format
+msgctxt "dat"
+msgid "your %striple crossbow"
+msgstr "deiner {adj-en}%s Dreifach-Armbrust"
+
+#, c-format
+msgctxt "dat"
+msgid "your %sshortbow"
+msgstr "deinem {adj-en}%sKurzbogen"
+
+#, c-format
+msgctxt "dat"
+msgid "your %slongbow"
+msgstr "deinem {adj-en}%sLangbogen"
+
+
+#################################
+# Unrand Artefacts
+#################################
+
+# probably only the ones that are weapons need dative, but it's easy enough to list them all
+
+msgctxt "dat"
+msgid "the %spair of quick blades \"Gyre\" and \"Gimble\""
+msgstr "dem {adj-en}%sPaar Schnellklingen \"Gyre\" und \"Gimble\""
+
+msgctxt "dat"
+msgid "the %sSinging Sword"
+msgstr "dem {adj-en}%ssingende Schwert"
+
+msgctxt "dat"
+msgid "the %sWrath of Trog"
+msgstr "dem {adj-en}%sZorn von Trog"
+
+msgctxt "dat"
+msgid "the %smace of Variability"
+msgstr "dem {adj-en}%sStreitkolben der Variabilität"
+
+msgctxt "dat"
+msgid "the %sglaive of Prune"
+msgstr "der {adj-en}%sGleve der Prünelle"
+
+msgctxt "dat"
+msgid "the %ssword of Power"
+msgstr "dem {adj-en}%sSchwert der Macht"
+
+msgctxt "dat"
+msgid "the %sstaff of Olgreb"
+msgstr "dem {adj-en}%sStecken von Olgreb"
+
+msgctxt "dat"
+msgid "the %sstaff of Wucad Mu"
+msgstr "dem {adj-en}%sStecken von Wucad Mu"
+
+msgctxt "dat"
+msgid "the %sVampire's Tooth"
+msgstr "dem {adj-en}%sZahn des Vampirs"
+
+msgctxt "dat"
+msgid "the %sscythe of Curses"
+msgstr "der {adj-en}%sSense der Flüche"
+
+msgctxt "dat"
+msgid "the %ssceptre of Torment"
+msgstr "dem {adj-en}%sZepter der Qual"
+
+msgctxt "dat"
+msgid "the %ssword of Zonguldrok"
+msgstr "dem {adj-en}%sSchwert von Zonguldrok"
+
+msgctxt "dat"
+msgid "the %ssword of Cerebov"
+msgstr "dem {adj-en}%sSchwert von Cerebov"
+
+msgctxt "dat"
+msgid "the %sstaff of Dispater"
+msgstr "dem {adj-en}%sStecken von Dispater"
+
+msgctxt "dat"
+msgid "the %ssceptre of Asmodeus"
+msgstr "dem {adj-en}%sZepter von Asmodeus"
+
+msgctxt "dat"
+msgid "the %sfaerie dragon scales"
+msgstr "der {adj-en}%sFeen-Drachenschuppen"
+
+msgctxt "dat"
+msgid "the %sdemon blade \"Bloodbane\""
+msgstr "der {adj-en}%sDämonenklinge \"Blutfluch\""
+
+msgctxt "dat"
+msgid "the %sscimitar of Flaming Death"
+msgstr "dem {adj-en}%sKrummsäbel des flammenden Todes"
+
+msgctxt "dat"
+msgid "the %seveningstar \"Brilliance\""
+msgstr "dem {adj-en}%sAbendstar \"Brillanz\""
+
+msgctxt "dat"
+msgid "the %sdemon blade \"Leech\""
+msgstr "der {adj-en}%sDämonenklinge \"Egel\""
+
+msgctxt "dat"
+msgid "the %sdagger of Chilly Death"
+msgstr "dem {adj-en}%sDolch des kühlen Todes"
+
+msgctxt "dat"
+msgid "the %sdagger \"Morg\""
+msgstr "dem {adj-en}%sDolch \"Morg\""
+
+msgctxt "dat"
+msgid "the %sscythe \"Finisher\""
+msgstr "der {adj-en}%sSense \"Beender\""
+
+msgctxt "dat"
+msgid "the %ssling \"Punk\""
+msgstr "der {adj-en}%sSchleuder \"Punk\""
+
+msgctxt "dat"
+msgid "the %slongbow \"Zephyr\""
+msgstr "dem {adj-en}%sLangbogen \"Zephyr\""
+
+msgctxt "dat"
+msgid "the %sgiant club \"Skullcrusher\""
+msgstr "der {adj-en}%sRiesenkeule \"Schädelbrecher\""
+
+msgctxt "dat"
+msgid "the %sglaive of the Guard"
+msgstr "der {adj-en}%sGleve der Wache"
+
+msgctxt "dat"
+msgid "the %szealot's sword"
+msgstr "dem {adj-en}%sSchwert des Zeloten"
+
+msgctxt "dat"
+msgid "the %sarbalest \"Damnation\""
+msgstr "der {adj-en}%sArmbrust \"Verdammnis\""
+
+msgctxt "dat"
+msgid "the %ssword of the Doom Knight"
+msgstr "dem {adj-en}%sSchwert des Verhängnis-Ritters"
+
+msgctxt "dat"
+msgid "the %smorningstar \"Eos\""
+msgstr "dem {adj-en}%sMorgenstern \"Eos\""
+
+msgctxt "dat"
+msgid "the %sspear of the Botono"
+msgstr "dem {adj-en}%sSpeer des Botonos"
+
+msgctxt "dat"
+msgid "the %strident of the Octopus King"
+msgstr "dem {adj-en}%sDreizack des Krakenkönigs"
+
+msgctxt "dat"
+msgid "the %smithril axe \"Arga\""
+msgstr "der {adj-en}%sMithrilaxt \"Arga\""
+
+msgctxt "dat"
+msgid "the %sElemental Staff"
+msgstr "dem {adj-en}%sElementarstecken"
+
+msgctxt "dat"
+msgid "the %sheavy crossbow \"Sniper\""
+msgstr "der {adj-en}%sschwere Armbrust \"Scharfschütze\""
+
+msgctxt "dat"
+msgid "the %slongbow \"Piercer\""
+msgstr "dem {adj-en}%sLangbogen \"Stecher\""
+
+msgctxt "dat"
+msgid "the %sblowgun of the Assassin"
+msgstr "dem {adj-en}%sBlasrohr des Assassinen"
+
+msgctxt "dat"
+msgid "the %slance \"Wyrmbane\""
+msgstr "der {adj-en}%sLanze \"Wyrmbane\""
+
+msgctxt "dat"
+msgid "the %sSpriggan's Knife"
+msgstr "dem {adj-en}%sMesser des Spriggans"
+
+msgctxt "dat"
+msgid "the %splutonium sword"
+msgstr "dem {adj-en}%sPlutoniumschwert"
+
+msgctxt "dat"
+msgid "the %sgreat mace \"Undeadhunter\""
+msgstr "dem {adj-en}%sgroße Streitkolben \"Untotenjäger\""
+
+msgctxt "dat"
+msgid "the %swhip \"Snakebite\""
+msgstr "der {adj-en}%sPeitsche \"Schlangenbiss\""
+
+msgctxt "dat"
+msgid "the %sknife of Accuracy"
+msgstr "dem {adj-en}%sMesser der Genauigkeit"
+
+msgctxt "dat"
+msgid "the %sLehudib's crystal spear"
+msgstr "dem {adj-en}%sKristallspeer Lehudibs"
+
+msgctxt "dat"
+msgid "the %scaptain's cutlass"
+msgstr "dem {adj-en}%sEntermesser des Kapitäns"
+
+msgctxt "dat"
+msgid "the %sstorm bow"
+msgstr "dem {adj-en}%sSturmbogen"
+
+msgctxt "dat"
+msgid "the %stower shield of Ignorance"
+msgstr "dem {adj-en}%sTurmschild des Nichtwissens"
+
+msgctxt "dat"
+msgid "the %srobe of Augmentation"
+msgstr "dem {adj-en}%sGewand der Augmentation"
+
+msgctxt "dat"
+msgid "the %scloak of the Thief"
+msgstr "dem {adj-en}%sUmhang des Diebes"
+
+msgctxt "dat"
+msgid "the %stower shield \"Bullseye\""
+msgstr "dem {adj-en}%sTurmschild \"Volltreffer\""
+
+msgctxt "dat"
+msgid "the %scrown of Dyrovepreva"
+msgstr "der {adj-en}%sKrone von Dyrovepreva"
+
+msgctxt "dat"
+msgid "the %shat of the Bear Spirit"
+msgstr "dem {adj-en}%sHut des Bärengeistes"
+
+msgctxt "dat"
+msgid "the %srobe of Misfortune"
+msgstr "dem {adj-en}%sRobe des Unglücks"
+
+msgctxt "dat"
+msgid "the %scloak of Flash"
+msgstr "dem {adj-en}%sUmhang von Flash"
+
+msgctxt "dat"
+msgid "the %shood of the Assassin"
+msgstr "der {adj-en}%sKapuze des Assassinen"
+
+msgctxt "dat"
+msgid "the %sLear's hauberk"
+msgstr "der {adj-en}%sHalsberge Lears"
+
+msgctxt "dat"
+msgid "the %sskin of Zhor"
+msgstr "der {adj-en}%sHaut von Zhor"
+
+msgctxt "dat"
+msgid "the %ssalamander hide armour"
+msgstr "der {adj-en}%sSalamanderhaut-Rüstung"
+
+msgctxt "dat"
+msgid "the %spair of gauntlets of War"
+msgstr "dem {adj-en}%sPaar Gantelets des Krieges"
+
+msgctxt "dat"
+msgid "the %sshield of Resistance"
+msgstr "dem {adj-en}%sSchild der Resistenz"
+
+msgctxt "dat"
+msgid "the %srobe of Folly"
+msgstr "dem {adj-en}%sGewand der Torheit"
+
+msgctxt "dat"
+msgid "the %sMaxwell's patent armour"
+msgstr "der {adj-en}%spatentierte Rüstung Maxwells"
+
+msgctxt "dat"
+msgid "the %smask of the Dragon"
+msgstr "der {adj-en}%sMaske des Drachens"
+
+msgctxt "dat"
+msgid "the %srobe of Night"
+msgstr "der {adj-en}%sRobe der Nacht"
+
+msgctxt "dat"
+msgid "the %sscales of the Dragon King"
+msgstr "der {adj-en}%sSchuppen des Drachenkönigs"
+
+msgctxt "dat"
+msgid "the %shat of the Alchemist"
+msgstr "dem {adj-en}%sHut des Alchemisten"
+
+msgctxt "dat"
+msgid "the %spair of fencer's gloves"
+msgstr "dem {adj-en}%sPaar Handschuhe des Fechters"
+
+msgctxt "dat"
+msgid "the %scloak of Starlight"
+msgstr "dem {adj-en}%sUmhang des Sternenlichts"
+
+msgctxt "dat"
+msgid "the %sratskin cloak"
+msgstr "dem {adj-en}%sRattenfellumhang"
+
+msgctxt "dat"
+msgid "the %sshield of the Gong"
+msgstr "dem {adj-en}%sSchild des Gongs"
+
+msgctxt "dat"
+msgid "the %samulet of the Air"
+msgstr "dem {adj-en}%sAmulett der Luft"
+
+msgctxt "dat"
+msgid "the %sring of Shadows"
+msgstr "dem {adj-en}%sRing der Schatten"
+
+msgctxt "dat"
+msgid "the %samulet of Cekugob"
+msgstr "dem {adj-en}%sAmulett von Cekugob"
+
+msgctxt "dat"
+msgid "the %samulet of the Four Winds"
+msgstr "dem {adj-en}%sAmulett der vier Winde"
+
+msgctxt "dat"
+msgid "the %snecklace of Bloodlust"
+msgstr "der {adj-en}%sKette des Blutrausches"
+
+msgctxt "dat"
+msgid "the %sring of Phasing"
+msgstr "dem {adj-en}%sRing der Phase"
+
+msgctxt "dat"
+msgid "the %sring of Robustness"
+msgstr "dem {adj-en}%sRing der Robustheit"
+
+msgctxt "dat"
+msgid "the %sring of the Mage"
+msgstr "dem {adj-en}%sRing des Magiers"
+
+msgctxt "dat"
+msgid "the %sbrooch of Shielding"
+msgstr "der {adj-en}%sBrosche der Abschirmung"
+
+msgctxt "dat"
+msgid "the %srobe of Clouds"
+msgstr "der {adj-en}%sRobe der Wolken"
+
+msgctxt "dat"
+msgid "the %shat of Pondering"
+msgstr "dem {adj-en}%sHut der Schwerfälligkeit"
+
+msgctxt "dat"
+msgid "the %sobsidian axe"
+msgstr "der {adj-en}%sObsidianaxt"
+
+msgctxt "dat"
+msgid "the %slightning scales"
+msgstr "der {adj-en}%sBlitzschuppen"
+
+msgctxt "dat"
+msgid "the %sBlack Knight's horse barding"
+msgstr "dem {adj-en}%sRossharnisch des schwarzen Ritters"
+
+msgctxt "dat"
+msgid "the %samulet of Vitality"
+msgstr "dem {adj-en}%sAmulett der Vitalität"
+
+msgctxt "dat"
+msgid "the %sautumn katana"
+msgstr "dem {adj-en}%sHerbstkatana"
+
+msgctxt "dat"
+msgid "the %sshillelagh \"Devastator\""
+msgstr "dem {adj-en}%sShillelagh \"Verwüster\""
+
+msgctxt "dat"
+msgid "the %sdragonskin cloak"
+msgstr "dem {adj-en}%sDrachenhautumhang"
+
+msgctxt "dat"
+msgid "a %sring of the Octopus King"
+msgstr "einem {adj-en}%sRing des Krakenkönigs"
+
+msgctxt "dat"
+msgid "the %sAxe of Woe"
+msgstr "der {adj-en}%sAxt des Wehs"
+
+msgctxt "dat"
+msgid "the %smoon troll leather armour"
+msgstr "der {adj-en}%sMondtroll-lederrüstung"
+
+msgctxt "dat"
+msgid "the %smacabre finger necklace"
+msgstr "der {adj-en}%smakabere Fingerhalskette"
+
+msgctxt "dat"
+msgid "the %spair of boots of the spider"
+msgstr "dem {adj-en}%sPaar Stiefel der Spinne"
+
+msgctxt "dat"
+msgid "the %sdark maul"
+msgstr "dem {adj-en}%sdunkle Kriegshammer"
+
+msgctxt "dat"
+msgid "the %shat of the High Council"
+msgstr "dem {adj-en}%sHut des Hohen Rates"
+
+msgctxt "dat"
+msgid "the %sarc blade"
+msgstr "der {adj-en}%sLichtbogenklinge"
+
+msgctxt "dat"
+msgid "the %sdemon whip \"Spellbinder\""
+msgstr "der {adj-en}%sDämonenpeitsche \"Verzauberer\""
+
+msgctxt "dat"
+msgid "the %slajatang of Order"
+msgstr "dem {adj-en}%sLajatang der Ordnung"
+
+msgctxt "dat"
+msgid "the %sgreat mace \"Firestarter\""
+msgstr "dem {adj-en}%sgroße Streitkolben \"Brandstifter\""
+
+msgctxt "dat"
+msgid "the %sorange crystal plate armour"
+msgstr "dem {adj-en}%sorange Kristallplattenpanzer"
+
+msgctxt "dat"
+msgid "the %sMajin-Bo"
+msgstr "dem {adj-en}%sMajin-Bo"
+
+msgctxt "dat"
+msgid "the %sMaxwell's etheric cage"
+msgstr "dem {adj-en}%sÄtherkäfig von Maxwell"
+
+msgctxt "dat"
+msgid "the %scrown of Eternal Torment"
+msgstr "der {adj-en}%sKrone der ewigen Qual"
+
+msgctxt "dat"
+msgid "the %srobe of Vines"
+msgstr "dem {adj-en}%sGewand der Reben"
+
+msgctxt "dat"
+msgid "the %sKryia's mail coat"
+msgstr "dem {adj-en}%sSchuppenpanzer von Kryia"
+
+msgctxt "dat"
+msgid "the %sfrozen axe \"Frostbite\""
+msgstr "der {adj-en}%sgefrorene Axt \"Erfrierungen\""
+
+msgctxt "dat"
+msgid "the %sarmour of Talos"
+msgstr "der {adj-en}%sRüstung von Talos"
+
+msgctxt "dat"
+msgid "the %swarlock's mirror"
+msgstr "dem {adj-en}%sSpiegel des Hexenmeisters"
+
+msgctxt "dat"
+msgid "the %samulet of invisibility"
+msgstr "dem {adj-en}%sAmulett der Unsichtbarkeit"
+
+msgctxt "dat"
+msgid "the %sMaxwell's thermic engine"
+msgstr "dem {adj-en}%sthermische Gerät von Maxwell"
+
+msgctxt "dat"
+msgid "the %sdemon trident \"Rift\""
+msgstr "dem {adj-en}%sDämonendreizack \"Riss\""
+
+msgctxt "dat"
+msgid "the %sstaff of Battle"
+msgstr "dem {adj-en}%sStecken der Schlacht"
+
+msgctxt "dat"
+msgid "the %sCigotuvi's embrace"
+msgstr "der {adj-en}%sUmarmung von Cigotuvi"
+
+

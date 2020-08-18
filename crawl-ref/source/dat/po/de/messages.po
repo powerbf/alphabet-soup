@@ -3750,7 +3750,7 @@ msgstr "Drücke <w>?</w>, um eine Liste der Befehle und anderer Informationen an
 
 #, c-format
 msgid "You begin with %s%s%s."
-msgstr "Du beginnst mit %s%s%s."
+msgstr "Du beginnst mit {dat}%s%s%s."
 
 #, c-format
 msgid "<yellow>%s</yellow>"
@@ -4386,7 +4386,7 @@ msgstr "%s schlägt dich%s"
 
 #, c-format
 msgid "%s hits you with %s%s"
-msgstr "%s schlägt sich mit {dat}%s%s"
+msgstr "%s schlägt dich mit {dat}%s%s"
 
 #, c-format
 msgid "%s hits %s%s"
