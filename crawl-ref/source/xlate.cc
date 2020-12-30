@@ -5,7 +5,9 @@
  * within this file to allow easy change to a different implementation.
  **/
 
+#include "AppHdr.h"
 #include "xlate.h"
+#include "database.h"
 
 #include <cstring>
 using namespace std;
@@ -39,25 +41,12 @@ string dcnxlate(const string &domain, const string &context,
 #include <clocale>
 #include <libintl.h>
 
-static const char GETTEXT_CTXT_GLUE = '\004';
-static const string DEFAULT_DOMAIN = "strings";
-
 static string language;
 
 // initialize
 void init_xlate(const string &lang)
 {
-    // must do this to apply user's locale because C++ sets locale to "C" by default, which won't handle unicode
-    // this also probably won't work if the user's locale is not unicode (TODO: test that)
-    setlocale(LC_ALL, "");
-
     language = lang;
-    setenv("LANGUAGE", language.c_str(), 1);
-
-    bindtextdomain("strings", "./dat/locale");
-
-    // set default domain
-    textdomain(DEFAULT_DOMAIN.c_str());
 }
 
 const string& get_xlate_language()
@@ -89,33 +78,25 @@ string dcxlate(const string &domain, const string &context, const string &msgid)
         return msgid;
     }
 
-    // if domain not specified then fall back to default by passing NULL
-    const char *dom = (domain.empty() ? NULL : domain.c_str());
-
     string translation;
 
     if (!context.empty())
     {
         // check for translation in specific context
-        string ctx_msgid = context + GETTEXT_CTXT_GLUE + msgid;
-        const char *xlation = dgettext(dom, ctx_msgid.c_str());
-        if (xlation != NULL && ctx_msgid != xlation)
-        {
-            translation = xlation;
-        }
+        string ctx_msgid = string("{") + context + "}" + msgid;
+        translation = getTranslatedString(ctx_msgid);
     }
 
     if (translation.empty())
     {
         // check for translation in global context
-        const char *xlation = dgettext(dom, msgid.c_str());
-        if (xlation != NULL)
-        {
-            translation = xlation;
-        }
+        translation = getTranslatedString(msgid);
     }
 
-    return translation;
+    if (translation.empty())
+        return msgid;
+    else
+        return translation;
 }
 
 // translate with domain, context and number
@@ -141,40 +122,15 @@ string dcnxlate(const string &domain, const string &context,
         return (n == 1 ? msgid1 : msgid2);
     }
 
-    // if domain not specified then fall back to default by passing NULL
-    const char *dom = (domain.empty() ? NULL : domain.c_str());
-
-    string translation;
-
-    if (!context.empty())
+    if (n == 1)
     {
-        // check for translation in specific context
-        string ctx_msgid1 = context + GETTEXT_CTXT_GLUE + msgid1;
-        string ctx_msgid2 = context + GETTEXT_CTXT_GLUE + msgid2;
-        const char *xlation = dngettext(dom, ctx_msgid1.c_str(), ctx_msgid2.c_str(), n);
-        if (xlation != NULL && ctx_msgid1 != xlation && ctx_msgid2 != xlation)
-        {
-            translation = xlation;
-        }
+        return dcxlate(domain, context, msgid1);
     }
-
-    if (translation.empty())
+    else
     {
-        // look in global context
-        const char *xlation = dngettext(dom, msgid1.c_str(), msgid2.c_str(), n);
-        if (xlation != NULL)
-        {
-            translation = xlation;
-        }
+        // TODO: Make this work for languages with more than one plural form
+        return dcxlate(domain, context, msgid2);
     }
-
-    if (translation.empty())
-    {
-        // still no joy - fall back on English
-        translation = (n == 1 ? msgid1 : msgid2);
-    }
-
-    return translation;
 }
 
 #endif

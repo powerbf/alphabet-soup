@@ -295,7 +295,7 @@ ifdef BUILD_ALL
 endif
 
 # Should be the first rule, but must come after $(GAME) is set.
-all: greet check-fonts $(GAME) docs webserver translations
+all: greet check-fonts $(GAME) docs webserver
 
 LIBPCRE := contrib/install/$(ARCH)/lib/libpcre.a
 LIBSDL2 := contrib/install/$(ARCH)/lib/libSDL2.a
@@ -1180,6 +1180,7 @@ GENERATED_FILES := $(GENERATED_HEADERS) art-data.h mi-enum.h \
                    cmd-name.h species-data.h aptitudes.h species-groups.h
 
 LANGUAGES = $(filter-out en, $(notdir $(wildcard dat/descript/??)))
+LANGS = $(filter-out en, $(notdir $(wildcard dat/translate/??)))
 SRC_PKG_BASE  := stone_soup
 SRC_VERSION   := $(shell git describe --tags $(MERGE_BASE) 2>/dev/null || cat util/release_ver)
 MAJOR_VERSION = $(shell echo "$(SRC_VERSION)"|$(SED) -r 's/-.*//;s/^([^.]+\.[^.]+).*/\1/')
@@ -1442,6 +1443,9 @@ endif
 	for LANG in $(LANGUAGES); \
 		do mkdir -p $(datadir_fp)/dat/descript/$$LANG; \
 	done
+	for LANG in $(LANGS); \
+		do mkdir -p $(datadir_fp)/dat/translate/$$LANG; \
+	done
 	mkdir -p $(datadir_fp)/docs/develop
 	mkdir -p $(datadir_fp)/docs/develop/levels
 	mkdir -p $(datadir_fp)/docs/license
@@ -1462,8 +1466,7 @@ endif
 		do $(COPY) dat/descript/$$LANG/*.txt $(datadir_fp)/dat/descript/$$LANG; \
 	done
 	for LANG in $(LANGS); \
-		do mkdir -p $(datadir_fp)/dat/locale/$$LANG/LC_MESSAGES; \
-		$(COPY) dat/locale/$$LANG/LC_MESSAGES/strings.mo $(datadir_fp)/dat/locale/$$LANG/LC_MESSAGES; \
+		$(COPY) dat/translate/$$LANG/*.txt $(datadir_fp)/dat/translate/$$LANG; \
 	done
 	mkdir -p $(datadir_fp)/dat/dist_bones
 	$(COPY) dat/dist_bones/* $(datadir_fp)/dat/dist_bones/
@@ -1929,27 +1932,3 @@ builddb: $(GAME)
 # Translations
 #
 
-LANGS:=$(patsubst %/,%,$(patsubst dat/po/%,%,$(sort $(dir $(wildcard dat/po/*/)))))
-LOCALE_DIRS:=$(patsubst %,dat/locale/%/LC_MESSAGES,$(LANGS))
-MOFILES:=$(patsubst %,dat/locale/%/LC_MESSAGES/strings.mo,$(LANGS))
-
-define LOCALE_DIR_RULE
-dat/locale/$(lang)/LC_MESSAGES:
-	@mkdir -p $$@
-endef
-
-define GEN_MO_RULE
-dat/locale/$(lang)/LC_MESSAGES/strings.mo: dat/po/$(lang)/*.po
-	@echo "    LOCALIZE $(lang)"
-	@msgcat --no-wrap -o dat/locale/$(lang)/LC_MESSAGES/strings.po $$^
-	@msgfmt -c --output-file=$$@ dat/locale/$(lang)/LC_MESSAGES/strings.po
-endef
-
-$(foreach lang,$(LANGS),$(eval $(LOCALE_DIR_RULE)))
-
-$(foreach lang,$(LANGS),$(eval $(GEN_MO_RULE)))
-
-translations: $(LOCALE_DIRS) $(MOFILES)
-
-.PHONY: translations
-	

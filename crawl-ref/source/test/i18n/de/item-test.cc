@@ -1,6 +1,9 @@
 #include "AppHdr.h"
 #include "fake-main.hpp"
 #include "localize.h"
+#include "database.h"
+#include "initfile.h"
+#include "options.h"
 
 #include <iostream>
 #include <string>
@@ -344,6 +347,9 @@ static void test_group(const string& casus, const string& group_name, vector<map
 
 int main()
 {
+    Options.lang_name = "de";
+    SysEnv.crawl_dir = ".";
+    databaseSystemInit();
     init_localization("de");
 
     const int num_cases = cases.size();

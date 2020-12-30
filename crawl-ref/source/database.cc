@@ -136,6 +136,17 @@ static TextDB AllDBs[] =
           { "hints.txt",    // hints mode
             "tutorial.txt", // tutorial mode
             }),
+
+    TextDB("translate", "translate/",
+          { "gods.txt",
+            "input.txt",
+            "items.txt",
+            "messages.txt",
+            "misc.txt",
+            "monsters.txt",
+            "player.txt",
+            "ui.txt"
+            }),
 };
 
 static TextDB& DescriptionDB = AllDBs[0];
@@ -148,6 +159,7 @@ static TextDB& QuotesDB      = AllDBs[6];
 static TextDB& HelpDB        = AllDBs[7];
 static TextDB& FAQDB         = AllDBs[8];
 static TextDB& HintsDB       = AllDBs[9];
+static TextDB& TranslateDB   = AllDBs[10];
 
 static string _db_cache_path(string db, const char *lang)
 {
@@ -197,6 +209,12 @@ void TextDB::init()
     {
         translation = new TextDB(this);
         translation->init();
+    }
+
+    if (string(_db_name) == "translate" && !_parent)
+    {
+        // this db has no english version
+        return;
     }
 
     open_db();
@@ -910,4 +928,13 @@ string getMiscString(const string &misc, const string &suffix)
 string getHintString(const string &key)
 {
     return unwrap_desc(_query_database(HintsDB, key, true, true));
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// Translate DB specific functions.
+
+string getTranslatedString(const string &key)
+{
+    string s = _query_database(TranslateDB, key, true, false);
+    return trim_string_left(trim_string_right(s));
 }
