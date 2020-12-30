@@ -4,7 +4,6 @@
 # Dative case
 #
 ###############################################################################
-msgctxt "dat"
 msgid ""
 msgstr ""
 "Project-Id-Version: Alphabet Soup\n"
