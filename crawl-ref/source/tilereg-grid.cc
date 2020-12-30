@@ -6,6 +6,7 @@
 
 #include "format.h"
 #include "libutil.h"
+#include "localize.h"
 #include "random.h"
 #include "tile-inventory-flags.h"
 #include "rltiles/tiledef-icons.h"
@@ -88,7 +89,7 @@ void GridRegion::draw_desc(const char *desc)
     if (tiles.is_using_small_layout())
         y = wy;
 
-    m_tag_font->render_string(x, y, formatted_string(desc, WHITE));
+    m_tag_font->render_string(x, y, formatted_string(localize(desc), WHITE));
 }
 
 bool GridRegion::place_cursor(wm_mouse_event &event, unsigned int &item_idx)
