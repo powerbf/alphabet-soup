@@ -955,4 +955,37 @@ msgstr "kein Amulett"
 msgid "no ring"
 msgstr "kein Ring"
 
+##############################################
+# Local Tiles - Tabs
+##############################################
+
+msgid "Abilities"
+msgstr "Fähigkeiten"
+
+msgid "Inventory"
+msgstr "Inventar"
+
+msgid "Memorisation"
+msgstr "Memorieren"
+
+msgid "Monsters"
+msgstr "Monster"
+
+msgid "Skills"
+msgstr "Fertigkeiten"
+
+msgid "Spells"
+msgstr "Zaubersprüche"
+
+msgid "System Commands"
+msgstr "Systembefehle"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "Commands"
+msgstr "Befehle"
+
+msgid "Execute commands"
+msgstr "Befehle ausführen"
 
