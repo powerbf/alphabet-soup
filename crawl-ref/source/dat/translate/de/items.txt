@@ -6,6 +6,7 @@
 #
 #
 ###############################################################################
+%%%%
 
 #################################
 # Item Types
@@ -732,75 +733,120 @@ der Bumerang
 an arrow
 ein Pfeil
 %%%%
+%d arrows
+%d Pfeile
+%%%%
 #, c-format
 %%%%
 a bolt
 ein Bolzen
+%%%%
+%d bolts
+%d Bolzen
 %%%%
 #, c-format
 %%%%
 a dart
 ein Wurfpfeil
 %%%%
+%d darts
+%d Wurfpfeile
+%%%%
 #, c-format
 %%%%
 a poisoned dart
 ein Giftwurfpfeil
+%%%%
+%d poisoned darts
+%d Giftwurfpfeile
 %%%%
 #, c-format
 %%%%
 a curare dart
 ein Kurare-Wurfpfeil
 %%%%
+%d curare darts
+%d Kurare-Wurfpfeile
+%%%%
 #, c-format
 %%%%
 an atropa dart
 ein Atropa-Wurfpfeil
+%%%%
+%d atropa darts
+%d Atropa-Wurfpfeile
 %%%%
 #, c-format
 %%%%
 a datura dart
 ein Datura-Wurfpfeil
 %%%%
+%d datura darts
+%d Datura-Wurfpfeile
+%%%%
 #, c-format
 %%%%
 a stone
 ein Stein
+%%%%
+%d stones
+%d Steine
 %%%%
 #, c-format
 %%%%
 a large rock
 ein Felsblock
 %%%%
+%d large rocks
+%d Felsblöcke
+%%%%
 #, c-format
 %%%%
 a sling bullet
 eine Schleuderkugel
+%%%%
+%d sling bullets
+%d Schleuderkugeln
 %%%%
 #, c-format
 %%%%
 a javelin
 ein Wurfspeer
 %%%%
+%d javelins
+%d Wurfspeere
+%%%%
 #, c-format
 %%%%
 a silver javelin
 ein Silberwurfspeer
+%%%%
+%d silver javelins
+%d Silberwurfspeere
 %%%%
 #, c-format
 %%%%
 a throwing net
 ein Wurfnetz
 %%%%
+%d throwing nets
+%d Wurfnetze
+%%%%
 #, c-format
 %%%%
 a boomerang
 ein Bumerang
 %%%%
+%d boomerangs
+%d Bumerangs
+%%%%
 #, c-format
 %%%%
 a silver boomerang
 ein Silberbumerang
+%%%%
+%d silver boomerangs
+%d Silberbumerangs
 %%%%
 
 #################################
@@ -1855,85 +1901,136 @@ geschärfter
 a scroll labeled %s
 eine Schriftrolle beschriftet mit %s
 %%%%
+%d scrolls labeled %s
+%d Schriftrollen beschriftet mit %s
+%%%%
 #, c-format
 %%%%
 a scroll of acquirement
 eine Schriftrolle des Erwerbs
+%%%%
+%d scrolls of acquirement
+%d Schriftrollen des Erwerbs
 %%%%
 #, c-format
 %%%%
 a scroll of amnesia
 eine Schriftrolle der Amnesie
 %%%%
+%d scrolls of amnesia
+%d Schriftrollen der Amnesie
+%%%%
 #, c-format
 %%%%
 a scroll of blinking
 eine Schriftrolle des Flimmerns
+%%%%
+%d scrolls of blinking
+%d Schriftrollen des Flimmerns
 %%%%
 #, c-format
 %%%%
 a scroll of brand weapon
 eine Schriftrolle der Waffenmark
 %%%%
+%d scrolls of brand weapon
+%d Schriftrollen der Waffenmark
+%%%%
 #, c-format
 %%%%
 a scroll of enchant armour
 eine Schriftrolle der Rüstungsverzauberung
+%%%%
+%d scrolls of enchant armour
+%d Schriftrollen der Rüstungsverzauberung
 %%%%
 #, c-format
 %%%%
 a scroll of enchant weapon
 eine Schriftrolle der Waffenverzauberung
 %%%%
+%d scrolls of enchant weapon
+%d Schriftrollen der Waffenverzauberung
+%%%%
 #, c-format
 %%%%
 a scroll of fear
 eine Schriftrolle der Angst
+%%%%
+%d scrolls of fear
+%d Schriftrollen der Angst
 %%%%
 #, c-format
 %%%%
 a scroll of fog
 eine Schriftrolle des Nebels
 %%%%
+%d scrolls of fog
+%d Schriftrollen des Nebels
+%%%%
 #, c-format
 %%%%
 a scroll of holy word
 eine Schriftrolle des heiligen Wortes
+%%%%
+%d scrolls of holy word
+%d Schriftrollen des heiligen Wortes
 %%%%
 #, c-format
 %%%%
 a scroll of identify
 eine Schriftrolle der Identifizierung
 %%%%
+%d scrolls of identify
+%d Schriftrollen der Identifizierung
+%%%%
 #, c-format
 %%%%
 a scroll of immolation
 eine Schriftrolle der Verbrennug
+%%%%
+%d scrolls of immolation
+%d Schriftrollen der Verbrennung
 %%%%
 #, c-format
 %%%%
 a scroll of magic mapping
 eine Schriftrolle des magischen Kartierens
 %%%%
+%d scrolls of magic mapping
+%d Schriftrollen des magischen Kartierens
+%%%%
 #, c-format
 %%%%
 a scroll of noise
 eine Schriftrolle des Lärms
+%%%%
+%d scrolls of noise
+%d Schriftrollen des Lärms
 %%%%
 #, c-format
 %%%%
 a scroll of random uselessness
 eine Schriftrolle der zufälligen Nutzlosigkeit
 %%%%
+%d scrolls of random uselessness
+%d Schriftrollen der zufälligen Nutzlosigkeit
+%%%%
 #, c-format
 %%%%
 a scroll of remove curse
 eine Schriftrolle des Segnens
 %%%%
+%d scrolls of remove curse
+%d Schriftrollen des Segnens
+%%%%
 #, c-format
 %%%%
 a scroll of silence
 eine Schriftrolle der Stille
+%%%%
+%d scrolls of silence
+%d Schriftrollen der Stille
 %%%%
 # Note: In DCSS, there is a distinction between summoning and conjuration
 # The usual German word for summoning is Beschwörung, but that also means conjuration
@@ -1941,20 +2038,32 @@ eine Schriftrolle der Stille
 a scroll of summoning
 eine Schriftrolle des Herbeirufs
 %%%%
+%d scrolls of summoning
+%d Schriftrollen des Herbeirufs
+%%%%
 #, c-format
 %%%%
 a scroll of teleportation
 eine Schriftrolle der Teleportation
+%%%%
+%d scrolls of teleportation
+%d Schriftrollen der Teleportation
 %%%%
 #, c-format
 %%%%
 a scroll of torment
 eine Schriftrolle der Qual
 %%%%
+%d scrolls of torment
+%d Schriftrollen der Qual
+%%%%
 #, c-format
 %%%%
 a scroll of vulnerability
 eine Schriftrolle der Vulnerabilität
+%%%%
+%d scrolls of vulnerability
+%d Schriftrollen der Vulnerabilität
 %%%%
 
 #################################
@@ -1965,85 +2074,136 @@ eine Schriftrolle der Vulnerabilität
 a potion of ambrosia
 ein Trank der Ambrosia
 %%%%
+%d potions of ambrosia
+%d Tränke der Ambrosia
+%%%%
 #, c-format
 %%%%
 a potion of berserk rage
 ein Trank der Berserker-Wut
+%%%%
+%d potions of berserk rage
+%d Tränke der Berserker-Wut
 %%%%
 #, c-format
 %%%%
 a potion of brilliance
 ein Trank der Brillanz
 %%%%
+%d potions of brilliance
+%d Tränke der Brillanz
+%%%%
 #, c-format
 %%%%
 a potion of cancellation
 ein Trank der Aufhebung
+%%%%
+%d potions of cancellation
+%d Tränke der Aufhebung
 %%%%
 #, c-format
 %%%%
 a potion of curing
 ein Trank des Gegenmittels
 %%%%
+%d potions of curing
+%d Tränke des Gegenmittels
+%%%%
 #, c-format
 %%%%
 a potion of degeneration
 ein Trank der Degeneration
+%%%%
+%d potions of degeneration
+%d Tränke der Degeneration
 %%%%
 #, c-format
 %%%%
 a potion of experience
 ein Trank der Erfahrung
 %%%%
+%d potions of experience
+%d Tränke der Erfahrung
+%%%%
 #, c-format
 %%%%
 a potion of flight
 ein Trank des Fliegens
+%%%%
+%d potions of flight
+%d Tränke des Fliegens
 %%%%
 #, c-format
 %%%%
 a potion of haste
 ein Trank der Geschwindigkeit
 %%%%
+%d potions of haste
+%d Tränke der Geschwindigkeit
+%%%%
 #, c-format
 %%%%
 a potion of heal wounds
 ein Heiltrank
+%%%%
+%d potions of heal wounds
+%d Heiltränke
 %%%%
 #, c-format
 %%%%
 a potion of invisibility
 ein Trank der Unsichtbarkeit
 %%%%
+%d potions of invisibility
+%d Tränke der Unsichtbarkeit
+%%%%
 #, c-format
 %%%%
 a potion of lignification
 ein Trank der Verholzung
+%%%%
+%d potions of lignification
+%d Tränke der Verholzung
 %%%%
 #, c-format
 %%%%
 a potion of magic
 ein Trank der Magie
 %%%%
+%d potions of magic
+%d Tränke der Magie
+%%%%
 #, c-format
 %%%%
 a potion of might
 ein Trank der Macht
+%%%%
+%d potions of might
+%d Tränke der Macht
 %%%%
 #, c-format
 %%%%
 a potion of mutation
 ein Trank der Mutation
 %%%%
+%d potions of mutation
+%d Tränke der Mutation
+%%%%
 #, c-format
 %%%%
 a potion of resistance
 ein Trank des Widerstands
 %%%%
+%d potions of resistance
+%d Tränke des Widerstands
+%%%%
 #, c-format
 %%%%
 a potion of stabbing
 ein Trank der Stecherei
+%%%%
+%d potions of stabbing
+%d Tränke der Stecherei
 %%%%
 # unidentified potions are named "<colour> <potion>"
 # or "<qualifier> <colour> potion"
@@ -2051,6 +2211,9 @@ ein Trank der Stecherei
 %%%%
 a %spotion
 ein {adj-er}%sZaubertrank
+%%%%
+%d %spotions
+%d %sZaubertränke
 %%%%
 # potion colours
 %%%%
@@ -2526,15 +2689,24 @@ längliches
 a ration
 eine Ration
 %%%%
+%d rations
+%d Rationen
+%%%%
 #, c-format
 %%%%
 a chunk of flesh
 ein Fleischstück
 %%%%
+%d chunks of flesh
+%d Fleischstücke
+%%%%
 #, c-format
 %%%%
 an inedible chunk of flesh
 ein ungenießbares Fleischstück
+%%%%
+%d inedible chunks of flesh
+%d ungenießbare Fleischstücke
 %%%%
 
 #################################
@@ -2545,25 +2717,40 @@ ein ungenießbares Fleischstück
 a box of beasts
 eine Kiste der Bestien
 %%%%
+%d boxes of beasts
+%d Kisten der Bestien
+%%%%
 #, c-format
 %%%%
 a lightning rod
 eine Blitzstange
+%%%%
+%d lightning rods
+%d Blitzstange
 %%%%
 #, c-format
 %%%%
 a phial of floods
 eine Phiole der Fluten
 %%%%
+%d phials of floods
+%d Phiolen der Fluten
+%%%%
 #, c-format
 %%%%
 a phantom mirror
 ein Phantomspiegel
 %%%%
+%d phantom mirrors
+%d Phantomspiegel
+%%%%
 #, c-format
 %%%%
 a figurine of a ziggurat
 eine Figur einer Zikkurat
+%%%%
+%d figurines of a ziggurat
+%d Figuren einer Zikkurat
 %%%%
 the horn of Geryon
 das Horn von Geryon
@@ -3318,6 +3505,7 @@ die %sUmarmung von Cigotuvi
 # Accustive case where it differs from nominative (i.e. masculine nouns)
 #
 ###############################################################################
+%%%%
 
 #################################
 # Generic Adjectives
@@ -3532,65 +3720,104 @@ den Bumerang
 {acc}an arrow
 einen Pfeil
 %%%%
+{acc}%d arrows
+%d Pfeile
+%%%%
 #, c-format
 %%%%
 {acc}a bolt
 einen Bolzen
+%%%%
+{acc}%d bolts
+%d Bolzen
 %%%%
 #, c-format
 %%%%
 {acc}a dart
 einen Wurfpfeil
 %%%%
+{acc}%d darts
+%d Wurfpfeile
+%%%%
 #, c-format
 %%%%
 {acc}a poisoned dart
 einen Giftwurfpfeil
+%%%%
+{acc}%d poisoned darts
+%d Giftwurfpfeile
 %%%%
 #, c-format
 %%%%
 {acc}a curare dart
 einen Kurare-Wurfpfeil
 %%%%
+{acc}%d curare darts
+%d Kurare-Wurfpfeile
+%%%%
 #, c-format
 %%%%
 {acc}an atropa dart
 einen Atropa-Wurfpfeil
+%%%%
+{acc}%d atropa darts
+%d Atropa-Wurfpfeile
 %%%%
 #, c-format
 %%%%
 {acc}a datura dart
 einen Datura-Wurfpfeil
 %%%%
+{acc}%d datura darts
+%d Datura-Wurfpfeile
+%%%%
 #, c-format
 %%%%
 {acc}a stone
 einen Stein
+%%%%
+{acc}%d stones
+%d Steine
 %%%%
 #, c-format
 %%%%
 {acc}a large rock
 einen Felsblock
 %%%%
+{acc}%d large rocks
+%d Felsblöcke
+%%%%
 #, c-format
 %%%%
 {acc}a javelin
 einen Wurfspeer
+%%%%
+{acc}%d javelins
+%d Wurfspeere
 %%%%
 #, c-format
 %%%%
 {acc}a silver javelin
 einen Silberwurfspeer
 %%%%
+{acc}%d silver javelins
+%d Silberwurfspeere
+%%%%
 #, c-format
 %%%%
 {acc}a boomerang
 einen Bumerang
 %%%%
+{acc}%d boomerangs
+%d Bumerangs
+%%%%
 #, c-format
 %%%%
 {acc}a silver boomerang
 einen Silberbumerang
+%%%%
+{acc}%d silver boomerangs
+%d Silberbumerangs
 %%%%
 
 #################################
@@ -4124,85 +4351,136 @@ geschärften
 {acc}a potion of ambrosia
 einen Trank der Ambrosia
 %%%%
+{acc}%d potions of ambrosia
+%d Tränke der Ambrosia
+%%%%
 #, c-format
 %%%%
 {acc}a potion of berserk rage
 einen Trank der Berserker-Wut
+%%%%
+{acc}%d potions of berserk rage
+%d Tränke der Berserker-Wut
 %%%%
 #, c-format
 %%%%
 {acc}a potion of brilliance
 einen Trank der Brillanz
 %%%%
+{acc}%d potions of brilliance
+%d Tränke der Brillanz
+%%%%
 #, c-format
 %%%%
 {acc}a potion of cancellation
 einen Trank der Aufhebung
+%%%%
+{acc}%d potions of cancellation
+%d Tränke der Aufhebung
 %%%%
 #, c-format
 %%%%
 {acc}a potion of curing
 einen Trank des Gegenmittels
 %%%%
+{acc}%d potions of curing
+%d Tränke des Gegenmittels
+%%%%
 #, c-format
 %%%%
 {acc}a potion of degeneration
 einen Trank der Degeneration
+%%%%
+{acc}%d potions of degeneration
+%d Tränke der Degeneration
 %%%%
 #, c-format
 %%%%
 {acc}a potion of experience
 einen Trank der Erfahrung
 %%%%
+{acc}%d potions of experience
+%d Tränke der Erfahrung
+%%%%
 #, c-format
 %%%%
 {acc}a potion of flight
 einen Trank des Fliegens
+%%%%
+{acc}%d potions of flight
+%d Tränke des Fliegens
 %%%%
 #, c-format
 %%%%
 {acc}a potion of haste
 einen Trank der Geschwindigkeit
 %%%%
+{acc}%d potions of haste
+%d Tränke der Geschwindigkeit
+%%%%
 #, c-format
 %%%%
 {acc}a potion of heal wounds
 einen Heiltrank
+%%%%
+{acc}%d potions of heal wounds
+%d Heiltränke
 %%%%
 #, c-format
 %%%%
 {acc}a potion of invisibility
 einen Trank der Unsichtbarkeit
 %%%%
+{acc}%d potions of invisibility
+%d Tränke der Unsichtbarkeit
+%%%%
 #, c-format
 %%%%
 {acc}a potion of lignification
 einen Trank der Verholzung
+%%%%
+{acc}%d potions of lignification
+%d Tränke der Verholzung
 %%%%
 #, c-format
 %%%%
 {acc}a potion of magic
 einen Trank der Magie
 %%%%
+{acc}%d potions of magic
+%d Tränke der Magie
+%%%%
 #, c-format
 %%%%
 {acc}a potion of might
 einen Trank der Macht
+%%%%
+{acc}%d potions of might
+%d Tränke der Macht
 %%%%
 #, c-format
 %%%%
 {acc}a potion of mutation
 einen Trank der Mutation
 %%%%
+{acc}%d potions of mutation
+%d Tränke der Mutation
+%%%%
 #, c-format
 %%%%
 {acc}a potion of resistance
 einen Trank des Widerstands
 %%%%
+{acc}%d potions of resistance
+%d Tränke des Widerstands
+%%%%
 #, c-format
 %%%%
 {acc}a potion of stabbing
 einen Trank der Stecherei
+%%%%
+{acc}%d potions of stabbing
+%d Tränke der Stecherei
 %%%%
 # unidentified potions are named "<colour> <potion>"
 # or "<qualifier> <colour> potion"
@@ -4210,6 +4488,9 @@ einen Trank der Stecherei
 %%%%
 {acc}a %spotion
 einen {adj-en}%sZaubertrank
+%%%%
+{acc}%d %spotions
+%d %sZaubertränke
 %%%%
 # potion colours
 %%%%
@@ -4414,6 +4695,9 @@ rauchigen
 {acc}a phantom mirror
 einen Phantomspiegel
 %%%%
+{acc}%d phantom mirrors
+%d Phantomspiegel
+%%%%
 
 #################################
 # Unrand Artefacts
@@ -4573,6 +4857,7 @@ den {adj-en}%sStecken der Schlacht
 # Dative case
 #
 ###############################################################################
+%%%%
 
 #################################
 # Melee Weapons

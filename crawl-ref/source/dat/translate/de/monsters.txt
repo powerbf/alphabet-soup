@@ -14,6 +14,7 @@
 #      Shifter -> Verschieber (because verschieben means to move, displace)
 #
 ###############################################################################
+%%%%
 
 ##############################################
 # Misc
@@ -1792,2031 +1793,3402 @@ das furchtbare gespürte Monster
 a program bug
 ein Programmfehler
 %%%%
+%d program bugs
+%d Programmfehler
+%%%%
 # check plural above
 %%%%
 a worker ant
 eine Ameisenarbeiterin
 %%%%
+%d worker ants
+%d Ameisenarbeiterinnen
+%%%%
 a queen ant
 eine Ameisenkönigin
+%%%%
+%d queen ants
+%d Ameisenköniginnen
 %%%%
 a soldier ant
 eine Ameisensoldatin
 %%%%
+%d soldier ants
+%d Ameisensoldatinnen
+%%%%
 a formicid
 ein Formicid
+%%%%
+%d formicids
+%d Formicide
 %%%%
 # check plural above
 %%%%
 an entropy weaver
 ein Entropieweber
 %%%%
+%d entropy weavers
+%d Entropieweber
+%%%%
 # check plural above
 %%%%
 a bat
 eine Fledermaus
 %%%%
+%d bats
+%d Fledermäuse
+%%%%
 a butterfly
 ein Schmetterling
+%%%%
+%d butterflies
+%d Schmetterlinge
 %%%%
 a vampire bat
 eine Vampirfledermaus
 %%%%
+%d vampire bats
+%d Vampirfledermäuse
+%%%%
 a fire bat
 eine Feuerfledermaus
 %%%%
+%d fire bats
+%d Feuerfledermäuse
+%%%%
 a bennu
 ein Bennu
+%%%%
+%d bennus
+%d Bennus
 %%%%
 # check plural above
 %%%%
 a caustic shrike
 ein ätzender Würger
 %%%%
+%d caustic shrikes
+%d ätzende Würger
+%%%%
 # check plural above
 %%%%
 a shard shrike
 ein Scherbenwürger
+%%%%
+%d shard shrikes
+%d Scherbenwürger
 %%%%
 # check plural above
 %%%%
 a centaur
 ein Zentaur
 %%%%
+%d centaurs
+%d Zentaure
+%%%%
 # check plural above
 %%%%
 a centaur warrior
 ein Zentaur-Krieger
+%%%%
+%d centaur warriors
+%d Zentaur-Krieger
 %%%%
 # check plural above
 %%%%
 a yaktaur
 ein Yaktaur
 %%%%
+%d yaktaurs
+%d Yaktaure
+%%%%
 # check plural above
 %%%%
 a yaktaur captain
 ein Yaktaur-Kapitän
+%%%%
+%d yaktaur captains
+%d Yaktaur-Kapitäne
 %%%%
 # check plural above
 %%%%
 a faun
 ein Faun
 %%%%
+%d fauns
+%d Faune
+%%%%
 # check plural above
 %%%%
 a satyr
 ein Satyr
+%%%%
+%d satyrs
+%d Satyre
 %%%%
 # check plural above
 %%%%
 a draconian
 ein Drakonier
 %%%%
+%d draconians
+%d Drakonier
+%%%%
 # check plural above
 %%%%
 a black draconian
 ein schwarzer Drakonier
+%%%%
+%d black draconians
+%d schwarze Drakonier
 %%%%
 # check plural above
 %%%%
 a yellow draconian
 ein gelber Drakonier
 %%%%
+%d yellow draconians
+%d gelbe Drakonier
+%%%%
 # check plural above
 %%%%
 a pale draconian
 ein blasser Drakonier
+%%%%
+%d pale draconians
+%d blasse Drakonier
 %%%%
 # check plural above
 %%%%
 a green draconian
 ein grüner Drakonier
 %%%%
+%d green draconians
+%d grüne Drakonier
+%%%%
 # check plural above
 %%%%
 a purple draconian
 ein purpurner Drakonier
+%%%%
+%d purple draconians
+%d purpurne Drakonier
 %%%%
 # check plural above
 %%%%
 a red draconian
 ein roter Drakonier
 %%%%
+%d red draconians
+%d rote Drakonier
+%%%%
 # check plural above
 %%%%
 a white draconian
 ein weißer Drakonier
+%%%%
+%d white draconians
+%d weiße Drakonier
 %%%%
 # check plural above
 %%%%
 a grey draconian
 ein grauer Drakonier
 %%%%
+%d grey draconians
+%d graue Drakonier
+%%%%
 # check plural above
 %%%%
 a draconian stormcaller
 ein Drakonier-Sturmrufer
+%%%%
+%d draconian stormcallers
+%d Drakonier-Sturmrufer
 %%%%
 # check plural above
 %%%%
 a draconian monk
 ein Drakonier-Mönch
 %%%%
+%d draconian monks
+%d Drakonier-Mönche
+%%%%
 # check plural above
 %%%%
 a draconian shifter
 ein Drakonier-Verwandler
+%%%%
+%d draconian shifters
+%d Drakonier-Verwandler
 %%%%
 # check plural above
 %%%%
 a draconian annihilator
 ein Drakonier-Vernichter
 %%%%
+%d draconian annihilators
+%d Drakonier-Vernichter
+%%%%
 # check plural above
 %%%%
 a draconian knight
 ein Drakonier-Ritter
+%%%%
+%d draconian knights
+%d Drakonier-Ritter
 %%%%
 # check plural above
 %%%%
 a draconian scorcher
 ein Drakonier-Verschmorer
 %%%%
+%d draconian scorchers
+%d Drakonier-Verschmorer
+%%%%
 # check plural above
 %%%%
 an elf
 ein Elf
+%%%%
+%d elves
+%d Elfe
 %%%%
 # check plural above
 %%%%
 a deep elf knight
 ein Tiefenelf-Ritter
 %%%%
+%d deep elf knights
+%d Tiefenelf-Ritter
+%%%%
 # check plural above
 %%%%
 a deep elf archer
 ein Tiefenelf-Bogenschütze
+%%%%
+%d deep elf archers
+%d Tiefenelf-Bogenschützen
 %%%%
 # check plural above
 %%%%
 a deep elf blademaster
 ein Tiefenelf-Klingenmeister
 %%%%
+%d deep elf blademasters
+%d Tiefenelf-Klingenmeister
+%%%%
 # check plural above
 %%%%
 a deep elf master archer
 ein Tiefenelf-Bogenmeister
+%%%%
+%d deep elf master archers
+%d Tiefenelf-Bogenmeister
 %%%%
 # check plural above
 %%%%
 a deep elf mage
 ein Tiefenelf-Magier
 %%%%
+%d deep elf magi
+%d Tiefenelf-Magier
+%%%%
 # check plural above
 %%%%
 a deep elf high priest
 ein Tiefenelf-Hohepriester
+%%%%
+%d deep elf high priests
+%d Tiefenelf-Hohepriester
 %%%%
 # check plural above
 %%%%
 a deep elf demonologist
 ein Tiefenelf-Dämonologe
 %%%%
+%d deep elf demonologists
+%d Tiefenelf-Dämonologen
+%%%%
 # check plural above
 %%%%
 a deep elf annihilator
 ein Tiefenelf-Vernichter
+%%%%
+%d deep elf annihilators
+%d Tiefenelf-Vernichter
 %%%%
 # check plural above
 %%%%
 a deep elf sorcerer
 ein Tiefenelf-Zauberer
 %%%%
+%d deep elf sorcerers
+%d Tiefenelf-Zauberer
+%%%%
 # check plural above
 %%%%
 a deep elf death mage
 ein Tiefenelf-Todesmagier
+%%%%
+%d deep elf death magi
+%d Tiefenelf-Todesmagier
 %%%%
 # check plural above
 %%%%
 a deep elf elementalist
 ein Tiefenelf-Elementalist
 %%%%
+%d deep elf elementalists
+%d Tiefenelf-Elementalisten
+%%%%
 a wandering mushroom
 ein wandernder Pilz
+%%%%
+%d wandering mushrooms
+%d wandernde Pilze
 %%%%
 # check plural above
 %%%%
 a deathcap
 eine Todesmütze
 %%%%
+%d deathcaps
+%d Todesmützen
+%%%%
 a thorn hunter
 ein Dornenjäger
+%%%%
+%d thorn hunters
+%d Dornenjäger
 %%%%
 # check plural above
 %%%%
 a shambling mangrove
 eine watschelnde Mangrove
 %%%%
+%d shambling mangroves
+%d watschelnde Mangroven
+%%%%
 a vine stalker
 ein Rebjäger
+%%%%
+%d vine stalkers
+%d Rebjäger
 %%%%
 # check plural above
 %%%%
 a goblin
 ein Goblin
 %%%%
+%d goblins
+%d Goblins
+%%%%
 a hobgoblin
 ein Hobgoblin
 %%%%
+%d hobgoblins
+%d Hobgoblins
+%%%%
 a gnoll
 ein Gnoll
+%%%%
+%d gnolls
+%d Gnolle
 %%%%
 # check plural above
 %%%%
 a gnoll shaman
 ein Gnoll-Schamane
 %%%%
+%d gnoll shamans
+%d Gnoll-Schamanen
+%%%%
 # check plural above
 %%%%
 a gnoll sergeant
 ein Gnoll-Wachtmeister
+%%%%
+%d gnoll sergeants
+%d Gnoll-Wachtmeister
 %%%%
 # check plural above
 %%%%
 a boggart
 ein Boggart
 %%%%
+%d boggarts
+%d Boggarte
+%%%%
 # check plural above
 %%%%
 a dwarf
 ein Zwerg
+%%%%
+%d dwarves
+%d Zwerge
 %%%%
 # check plural above
 %%%%
 a deep dwarf
 ein Tiefenzwerg
 %%%%
+%d deep dwarves
+%d Tiefenzwerge
+%%%%
 # check plural above
 %%%%
 a jackal
 ein Schakal
+%%%%
+%d jackals
+%d Schakale
 %%%%
 # check plural above
 %%%%
 a hound
 ein Hund
 %%%%
+%d hounds
+%d Hunde
+%%%%
 # check plural above
 %%%%
 a howler monkey
 ein Brüllaffe
+%%%%
+%d howler monkeys
+%d Brüllaffen
 %%%%
 # check plural above
 %%%%
 a warg
 ein Warg
 %%%%
+%d wargs
+%d Warge
+%%%%
 # check plural above
 %%%%
 a wolf
 ein Wolf
+%%%%
+%d wolves
+%d Wolfe
 %%%%
 # check plural above
 %%%%
 a hog
 ein Schwein
 %%%%
+%d hogs
+%d Schweine
+%%%%
 # check plural above
 %%%%
 a hell hound
 ein Höllenhund
+%%%%
+%d hell hounds
+%d Höllenhunde
 %%%%
 # check plural above
 %%%%
 a doom hound
 ein Untergangshund
 %%%%
+%d doom hounds
+%d Untergangshunde
+%%%%
 # check plural above
 %%%%
 a raiju
 ein Raiju
+%%%%
+%d raiju
+%d Raijus
 %%%%
 # check plural above
 %%%%
 a hell hog
 ein höllisches Schwein
 %%%%
+%d hell hogs
+%d höllische Schweine
+%%%%
 # check plural above
 %%%%
 a holy swine
 ein heiliges Schwein
+%%%%
+%d holy swine
+%d heilige Schweine
 %%%%
 # check plural above
 %%%%
 a felid
 ein Felid
 %%%%
+%d felids
+%d Felide
+%%%%
 # check plural above
 %%%%
 a bear
 ein Bär
 %%%%
+%d bears
+%d Bären
+%%%%
 a polar bear
 ein Eisbär
+%%%%
+%d polar bears
+%d Eisbären
 %%%%
 a black bear
 ein Schwarzbär
 %%%%
+%d black bears
+%d Schwarzbären
+%%%%
 a spriggan
 ein Spriggan
 %%%%
+%d spriggans
+%d Spriggans
+%%%%
 a spriggan rider
 ein Spriggan-Reiter
+%%%%
+%d spriggan riders
+%d Spriggan-Reiter
 %%%%
 # check plural above
 %%%%
 a spriggan druid
 ein Spriggan-Druide
 %%%%
+%d spriggan druids
+%d Spriggan-Druiden
+%%%%
 # check plural above
 %%%%
 a spriggan berserker
 ein Spriggan-Berserker
+%%%%
+%d spriggan berserkers
+%d Spriggan-Berserker
 %%%%
 # check plural above
 %%%%
 a spriggan air mage
 ein Spriggan-Luftmagier
 %%%%
+%d spriggan air magi
+%d Spriggan-Luftmagier
+%%%%
 # check plural above
 %%%%
 a spriggan defender
 ein Spriggan-Verteidiger
+%%%%
+%d spriggan defenders
+%d Spriggan-Verteidiger
 %%%%
 # check plural above
 %%%%
 a drake
 ein Drachling
 %%%%
+%d drakes
+%d Drachlinge
+%%%%
 a swamp drake
 ein Sumpfdrachling
+%%%%
+%d swamp drakes
+%d Sumpfdrachlinge
 %%%%
 a rime drake
 ein Reifsdrachling
 %%%%
+%d rime drakes
+%d Reifsdrachlinge
+%%%%
 a wind drake
 ein Winddrachling
 %%%%
+%d wind drakes
+%d Winddrachlinge
+%%%%
 a lindwurm
 ein Lindwurm
+%%%%
+%d lindwurms
+%d Lindwurme
 %%%%
 # check plural above
 %%%%
 a death drake
 ein Todesdrachling
 %%%%
+%d death drakes
+%d Todesdrachlinge
+%%%%
 # check plural above
 %%%%
 a giant lizard
 eine Rieseneidechse
 %%%%
+%d giant lizards
+%d Rieseneidechsen
+%%%%
 a frilled lizard
 eine gekräuselte Eidechse
 %%%%
+%d frilled lizards
+%d gekräuselte Eidechsen
+%%%%
 a leopard gecko
 ein Leopardgecko
+%%%%
+%d leopard geckos
+%d Leopardgeckos
 %%%%
 # check plural above
 %%%%
 an iguana
 ein Leguan
 %%%%
+%d iguanas
+%d Leguane
+%%%%
 # check plural above
 %%%%
 a basilisk
 ein Basilisk
+%%%%
+%d basilisks
+%d Basiliske
 %%%%
 # check plural above
 %%%%
 a wyvern
 ein Wyvern
 %%%%
+%d wyverns
+%d Wyverns
+%%%%
 a komodo dragon
 ein Komododrache
+%%%%
+%d komodo dragons
+%d Komododrachen
 %%%%
 # check plural above
 %%%%
 a merfolk
 ein Meervolk
 %%%%
+%d merfolk
+%d Meervolke
+%%%%
 # check plural above
 %%%%
 a merfolk impaler
 ein Meervolk-Impaler
+%%%%
+%d merfolk impalers
+%d Meervolk-Impaler
 %%%%
 # check plural above
 %%%%
 a merfolk javelineer
 ein Meervolk-Speerführer
 %%%%
+%d merfolk javelineers
+%d Meervolk-Speerführer
+%%%%
 # check plural above
 %%%%
 a merfolk aquamancer
 ein Meervolk-Aquamancer
+%%%%
+%d merfolk aquamancers
+%d Meervolk-Aquamancer
 %%%%
 # check plural above
 %%%%
 a merfolk siren
 eine Meervolk-Sirene
 %%%%
+%d merfolk sirens
+%d Meervolk-Sirenen
+%%%%
 a merfolk avatar
 ein Meervolk-Avatar
+%%%%
+%d merfolk avatars
+%d Meervolk-Avatare
 %%%%
 # check plural above
 %%%%
 a water nymph
 eine Wassernymphe
 %%%%
+%d water nymphs
+%d Wassernymphen
+%%%%
 a bog body
 eine Moorleiche
 %%%%
+%d bog bodies
+%d Moorleichen
+%%%%
 a necrophage
 ein Nekrophagen
+%%%%
+%d necrophages
+%d Nekrophagene
 %%%%
 # check plural above
 %%%%
 a ghoul
 ein Ghul
 %%%%
+%d ghouls
+%d Ghule
+%%%%
 # check plural above
 %%%%
 an orc
 ein Ork
+%%%%
+%d orcs
+%d Orke
 %%%%
 # check plural above
 %%%%
 an orc wizard
 ein Ork-Zauberer
 %%%%
+%d orc wizards
+%d Ork-Zauberer
+%%%%
 # check plural above
 %%%%
 an orc priest
 ein Ork-Priester
+%%%%
+%d orc priests
+%d Ork-Priester
 %%%%
 # check plural above
 %%%%
 an orc warrior
 ein Ork-Krieger
 %%%%
+%d orc warriors
+%d Ork-Krieger
+%%%%
 # check plural above
 %%%%
 an orc knight
 ein Ork-Ritter
+%%%%
+%d orc knights
+%d Ork-Ritter
 %%%%
 # check plural above
 %%%%
 an orc warlord
 ein Ork-Warlord
 %%%%
+%d orc warlords
+%d Ork-Warlorde
+%%%%
 # check plural above
 %%%%
 an orc sorcerer
 ein Ork-Hexenmeister
+%%%%
+%d orc sorcerers
+%d Ork-Hexenmeister
 %%%%
 # check plural above
 %%%%
 an orc high priest
 ein Ork-Hohepriester
 %%%%
+%d orc high priests
+%d Ork-Hohepriester
+%%%%
 # check plural above
 %%%%
 a lava orc
 ein Lava-Ork
+%%%%
+%d lava orcs
+%d Lava-Orke
 %%%%
 # check plural above
 %%%%
 a human
 ein Mensch
 %%%%
+%d humans
+%d Mensche
+%%%%
 # check plural above
 %%%%
 a slave
 ein Sklave
+%%%%
+%d slaves
+%d Sklaven
 %%%%
 # check plural above
 %%%%
 a hell knight
 ein Höllenritter
 %%%%
+%d hell knights
+%d Höllenritter
+%%%%
 # check plural above
 %%%%
 a death knight
 ein Todesritter
+%%%%
+%d death knights
+%d Todesritter
 %%%%
 # check plural above
 %%%%
 a necromancer
 ein Nekromant
 %%%%
+%d necromancers
+%d Nekromanten
+%%%%
 a wizard
 ein Zauberer
+%%%%
+%d wizards
+%d Zauberer
 %%%%
 # check plural above
 %%%%
 a vault guard
 ein Tresorwächter
 %%%%
+%d vault guards
+%d Tresorwächter
+%%%%
 # check plural above
 %%%%
 a vault sentinel
 eine Tresorwache
 %%%%
+%d vault sentinels
+%d Tresorwachen
+%%%%
 a vault warden
 ein Tresorwärter
+%%%%
+%d vault wardens
+%d Tresorwärter
 %%%%
 # check plural above
 %%%%
 an ironbrand convoker
 ein Eisenbrandeinberufer
 %%%%
+%d ironbrand convokers
+%d Eisenbrandeinberufer
+%%%%
 # check plural above
 %%%%
 an imperial myrmidon
 ein kaiserlicher Myrmidon
+%%%%
+%d imperial myrmidons
+%d kaiserliche Myrmidone
 %%%%
 # check plural above
 %%%%
 a servant of whispers
 ein Diener des Flüsterns
 %%%%
+%d servants of whispers
+%d Diener des Flüsterns
+%%%%
 # check plural above
 %%%%
 a ragged hierophant
 ein zerlumpter Hierophant
 %%%%
+%d ragged hierophants
+%d zerlumpte Hierophanten
+%%%%
 an ironheart preserver
 ein Eisenherzbewahrer
+%%%%
+%d ironheart preservers
+%d Eisenherzbewahrer
 %%%%
 # check plural above
 %%%%
 a shapeshifter
 ein Gestaltwandler
 %%%%
+%d shapeshifters
+%d Gestaltwandler
+%%%%
 # check plural above
 %%%%
 a glowing shapeshifter
 ein leuchtender Gestaltwandler
+%%%%
+%d glowing shapeshifters
+%d leuchtende Gestaltwandler
 %%%%
 # check plural above
 %%%%
 a Killer Klown
 ein Killer-Klown
 %%%%
+%d Killer Klowns
+%d Killer-Klowns
+%%%%
 a demigod
 ein Halbgott
+%%%%
+%d demigods
+%d Halbgotte
 %%%%
 # check plural above
 %%%%
 a halfling
 ein Halbling
 %%%%
+%d halflings
+%d Halblinge
+%%%%
 a rat
 eine Ratte
 %%%%
+%d rats
+%d Ratten
+%%%%
 a quokka
 ein Quokka
+%%%%
+%d quokkas
+%d Quokkas
 %%%%
 # check plural above
 %%%%
 a river rat
 eine Flussratte
 %%%%
+%d river rats
+%d Flussratten
+%%%%
 a hell rat
 eine Höllenratte
 %%%%
+%d hell rats
+%d Höllenratten
+%%%%
 a porcupine
 ein Stachelschwein
+%%%%
+%d porcupines
+%d Stachelschweine
 %%%%
 # check plural above
 %%%%
 a giant cockroach
 eine Riesenkakerlake
 %%%%
+%d giant cockroaches
+%d Riesenkakerlaken
+%%%%
 a scorpion
 ein Skorpion
+%%%%
+%d scorpions
+%d Skorpione
 %%%%
 # check plural above
 %%%%
 an emperor scorpion
 ein Kaiserskorpion
 %%%%
+%d emperor scorpions
+%d Kaiserskorpione
+%%%%
 # check plural above
 %%%%
 a death scarab
 ein Todesskarabäus
+%%%%
+%d death scarabs
+%d Todesskarabäen
 %%%%
 # check plural above
 %%%%
 a spider
 eine Spinne
 %%%%
+%d spiders
+%d Spinnen
+%%%%
 a tarantella
 eine Tarantella
+%%%%
+%d tarantellas
+%d Tarantellen
 %%%%
 # check plural above
 %%%%
 a jumping spider
 eine springende Spinne
 %%%%
+%d jumping spiders
+%d springende Spinnen
+%%%%
 a wolf spider
 eine Wolfsspinne
+%%%%
+%d wolf spiders
+%d Wolfsspinnen
 %%%%
 a redback
 eine Rotrückenspinne
 %%%%
+%d redbacks
+%d Rotrückenspinnen
+%%%%
 a demonic crawler
 ein dämonischer Kriecher
+%%%%
+%d demonic crawlers
+%d dämonische Kriecher
 %%%%
 # check plural above
 %%%%
 an orb spider
 eine Kugelspinne
 %%%%
+%d orb spiders
+%d Kugelspinnen
+%%%%
 a crocodile
 ein Krokodil
+%%%%
+%d crocodiles
+%d Krokodile
 %%%%
 # check plural above
 %%%%
 an alligator
 ein Alligator
 %%%%
+%d alligators
+%d Alligatore
+%%%%
 # check plural above
 %%%%
 a snapping turtle
 eine Schnappschildkröte
 %%%%
+%d snapping turtles
+%d Schnappschildkröten
+%%%%
 an alligator snapping turtle
 eine Alligatorschnappschildkröte
+%%%%
+%d alligator snapping turtles
+%d Alligatorschnappschildkröten
 %%%%
 a crab
 eine Krabbe
 %%%%
+%d crabs
+%d Krabben
+%%%%
 a fire crab
 eine Feuerkrabbe
+%%%%
+%d fire crabs
+%d Feuerkrabben
 %%%%
 a ghost crab
 eine Geisterkrabbe
 %%%%
+%d ghost crabs
+%d Geisterkrabben
+%%%%
 an apocalypse crab
 eine Apokalypse-Krabbe
 %%%%
+%d apocalypse crabs
+%d Apokalypse-Krabben
+%%%%
 an ugly thing
 ein hässliches Ding
+%%%%
+%d ugly things
+%d hässliche Dinge
 %%%%
 # check plural above
 %%%%
 a very ugly thing
 ein sehr hässliches Ding
 %%%%
+%d very ugly things
+%d sehr hässliche Dinge
+%%%%
 # check plural above
 %%%%
 a fire vortex
 ein Feuerwirbel
+%%%%
+%d fire vortices
+%d Feuerwirbel
 %%%%
 # check plural above
 %%%%
 a spatial vortex
 ein räumlicher Wirbel
 %%%%
+%d spatial vortices
+%d räumliche Wirbel
+%%%%
 # check plural above
 %%%%
 a spatial maelstrom
 ein räumlicher Mahlstrom
+%%%%
+%d spatial maelstroms
+%d räumliche Mahlstrome
 %%%%
 # check plural above
 %%%%
 an insubstantial wisp
 ein unwesentliches Irrlicht
 %%%%
+%d insubstantial wisps
+%d unwesentliche Irrlichte
+%%%%
 # check plural above
 %%%%
 a twister
 ein Twister
+%%%%
+%d twisters
+%d Twister
 %%%%
 # check plural above
 %%%%
 a worm
 ein Wurm
 %%%%
+%d worms
+%d Wurme
+%%%%
 # check plural above
 %%%%
 a swamp worm
 ein Sumpfwurm
+%%%%
+%d swamp worms
+%d Sumpfwurme
 %%%%
 # check plural above
 %%%%
 a tyrant leech
 ein Tyrannblutegel
 %%%%
+%d tyrant leeches
+%d Tyrannblutegel
+%%%%
 # check plural above
 %%%%
 a dart slug
 eine Pfeilschnecke
 %%%%
+%d dart slugs
+%d Pfeilschnecken
+%%%%
 a torpor snail
 eine Erstarrungsschnecke
+%%%%
+%d torpor snails
+%d Erstarrungsschnecken
 %%%%
 an elephant slug
 eine Elefantenschnecke
 %%%%
+%d elephant slugs
+%d Elefantenschnecken
+%%%%
 an unseen horror
 ein unsichtbares Grauen
+%%%%
+%d unseen horrors
+%d unsichtbare Grauene
 %%%%
 # check plural above
 %%%%
 a small abomination
 ein kleiner Greuel
 %%%%
+%d small abominations
+%d kleine Greuel
+%%%%
 # check plural above
 %%%%
 a crawling corpse
 eine kriechende Leiche
 %%%%
+%d crawling corpses
+%d kriechende Leichen
+%%%%
 a macabre mass
 eine makabere Masse
 %%%%
+%d macabre masses
+%d makabere Massen
+%%%%
 an ancient zyme
 ein alter Zyme
+%%%%
+%d ancient zymes
+%d alte Zymen
 %%%%
 # check plural above
 %%%%
 a worldbinder
 ein Weltbinder
 %%%%
+%d worldbinders
+%d Weltbinder
+%%%%
 # check plural above
 %%%%
 a killer bee
 eine Killerbiene
 %%%%
+%d killer bees
+%d Killerbienen
+%%%%
 a queen bee
 eine Bienenkönigin
+%%%%
+%d queen bees
+%d Bienenköniginnen
 %%%%
 a vampire mosquito
 eine Vampir-Mücke
 %%%%
+%d vampire mosquitoes
+%d Vampir-Mücken
+%%%%
 a hornet
 eine Hornisse
 %%%%
+%d hornets
+%d Hornissen
+%%%%
 a meliai
 eine Meliai
+%%%%
+%d meliai
+%d Meliais
 %%%%
 # check plural above
 %%%%
 a spark wasp
 eine Funkenwespe
 %%%%
+%d spark wasps
+%d Funkenwespen
+%%%%
 a moth
 eine Motte
+%%%%
+%d moths
+%d Motten
 %%%%
 a ghost moth
 eine Geistermotte
 %%%%
+%d ghost moths
+%d Geistermotten
+%%%%
 a moth of wrath
 eine Motte des Zorns
 %%%%
+%d moths of wrath
+%d Motten des Zorns
+%%%%
 a wight
 ein Wight
+%%%%
+%d wights
+%d Wighte
 %%%%
 # check plural above
 %%%%
 a skeletal warrior
 ein Skelettkrieger
 %%%%
+%d skeletal warriors
+%d Skelettkrieger
+%%%%
 # check plural above
 %%%%
 an ancient champion
 ein alter Champion
+%%%%
+%d ancient champions
+%d alte Champione
 %%%%
 # check plural above
 %%%%
 a flying skull
 ein fliegender Schädel
 %%%%
+%d flying skulls
+%d fliegende Schädel
+%%%%
 # check plural above
 %%%%
 a curse skull
 ein Fluchschädel
+%%%%
+%d curse skulls
+%d Fluchschädel
 %%%%
 # check plural above
 %%%%
 a curse toe
 ein Fluchzehe
 %%%%
+%d curse toes
+%d Fluchzehen
+%%%%
 # check plural above
 %%%%
 an angel
 ein Engel
+%%%%
+%d angels
+%d Engel
 %%%%
 # check plural above
 %%%%
 a cherub
 ein Cherub
 %%%%
+%d cherubim
+%d Cherube
+%%%%
 # check plural above
 %%%%
 a seraph
 ein Seraph
+%%%%
+%d seraphim
+%d Seraphe
 %%%%
 # check plural above
 %%%%
 a daeva
 ein Daeva
 %%%%
+%d daevas
+%d Daevas
+%%%%
 # check plural above
 %%%%
 a profane servitor
 ein profaner Diener
+%%%%
+%d profane servitors
+%d profane Diener
 %%%%
 # check plural above
 %%%%
 a giant
 ein Riese
 %%%%
+%d giants
+%d Riesen
+%%%%
 # check plural above
 %%%%
 a cyclops
 ein Zyklop
+%%%%
+%d cyclopes
+%d Zyklope
 %%%%
 # check plural above
 %%%%
 an ettin
 ein Ettin
 %%%%
+%d ettins
+%d Ettine
+%%%%
 # check plural above
 %%%%
 a fire giant
 ein Feuerriese
+%%%%
+%d fire giants
+%d Feuerriesen
 %%%%
 # check plural above
 %%%%
 a frost giant
 ein Frostriese
 %%%%
+%d frost giants
+%d Frostriesen
+%%%%
 # check plural above
 %%%%
 a stone giant
 ein Steinriese
+%%%%
+%d stone giants
+%d Steinriesen
 %%%%
 # check plural above
 %%%%
 a titan
 ein Titan
 %%%%
+%d titans
+%d Titane
+%%%%
 # check plural above
 %%%%
 a juggernaut
 ein Juggernaut
+%%%%
+%d juggernauts
+%d Juggernaute
 %%%%
 # check plural above
 %%%%
 an iron giant
 ein Eisenriese
 %%%%
+%d iron giants
+%d Eisenriesen
+%%%%
 # check plural above
 %%%%
 a dragon
 ein Drache
+%%%%
+%d dragons
+%d Drachen
 %%%%
 # check plural above
 %%%%
 a fire dragon
 ein Feuerdrache
 %%%%
+%d fire dragons
+%d Feuerdrachen
+%%%%
 # check plural above
 %%%%
 a hydra
 eine Hydra
+%%%%
+%d hydras
+%d Hydren
 %%%%
 # check plural above
 %%%%
 an ice dragon
 ein Eisdrache
 %%%%
+%d ice dragons
+%d Eisdrachen
+%%%%
 # check plural above
 %%%%
 a steam dragon
 ein Dampfdrache
+%%%%
+%d steam dragons
+%d Dampfdrachen
 %%%%
 # check plural above
 %%%%
 a swamp dragon
 ein Sumpfdrache
 %%%%
+%d swamp dragons
+%d Sumpfdrachen
+%%%%
 # check plural above
 %%%%
 an acid dragon
 ein Säuredrache
+%%%%
+%d acid dragons
+%d Säuredrachen
 %%%%
 # check plural above
 %%%%
 a quicksilver dragon
 ein Quecksilberdrache
 %%%%
+%d quicksilver dragons
+%d Quecksilberdrachen
+%%%%
 # check plural above
 %%%%
 an iron dragon
 ein Eisendrache
+%%%%
+%d iron dragons
+%d Eisendrachen
 %%%%
 # check plural above
 %%%%
 a storm dragon
 ein Sturmdrache
 %%%%
+%d storm dragons
+%d Sturmdrachen
+%%%%
 # check plural above
 %%%%
 a golden dragon
 ein Golddrache
+%%%%
+%d golden dragons
+%d Golddrachen
 %%%%
 # check plural above
 %%%%
 a shadow dragon
 ein Schattendrache
 %%%%
+%d shadow dragons
+%d Schattendrachen
+%%%%
 # check plural above
 %%%%
 a bone dragon
 ein Knochendrache
+%%%%
+%d bone dragons
+%d Knochendrachen
 %%%%
 # check plural above
 %%%%
 a pearl dragon
 ein Perlendrache
 %%%%
+%d pearl dragons
+%d Perlendrachen
+%%%%
 # check plural above
 %%%%
 an elemental
 ein Elementar
+%%%%
+%d elementals
+%d Elementare
 %%%%
 # check plural above
 %%%%
 an earth elemental
 ein Erdelementar
 %%%%
+%d earth elementals
+%d Erdelementare
+%%%%
 # check plural above
 %%%%
 a fire elemental
 ein Feuerelementar
+%%%%
+%d fire elementals
+%d Feuerelementare
 %%%%
 # check plural above
 %%%%
 a water elemental
 ein Wasserelementar
 %%%%
+%d water elementals
+%d Wasserelementare
+%%%%
 # check plural above
 %%%%
 an air elemental
 ein Luftelementar
+%%%%
+%d air elementals
+%d Luftelementare
 %%%%
 # check plural above
 %%%%
 an iron elemental
 ein Eisenelementar
 %%%%
+%d iron elementals
+%d Eisenelementare
+%%%%
 # check plural above
 %%%%
 an elemental wellspring
 eine elementare Quelle
 %%%%
+%d elemental wellsprings
+%d elementare Quellen
+%%%%
 a giant frog
 ein Riesenfrosch
+%%%%
+%d giant frogs
+%d Riesenfrosche
 %%%%
 # check plural above
 %%%%
 a bullfrog
 ein Ochsenfrosch
 %%%%
+%d bullfrogs
+%d Ochsenfrosche
+%%%%
 # check plural above
 %%%%
 a spiny frog
 ein Stachelfrosch
+%%%%
+%d spiny frogs
+%d Stachelfrosche
 %%%%
 # check plural above
 %%%%
 a blink frog
 ein Flimmerfrosch
 %%%%
+%d blink frogs
+%d Flimmerfrosche
+%%%%
 # check plural above
 %%%%
 a barachi
 eine Barachi
+%%%%
+%d barachim
+%d Barachis
 %%%%
 # check plural above
 %%%%
 a floating eye
 ein schwebendes Auge
 %%%%
+%d floating eyes
+%d schwebende Augen
+%%%%
 # check plural above
 %%%%
 an eye of draining
 ein Auge des Schwächens
+%%%%
+%d eyes of draining
+%d Augen des Schwächens
 %%%%
 # check plural above
 %%%%
 a glowing orange brain
 ein oranges leuchtendes Gehirn
 %%%%
+%d glowing orange brains
+%d orange leuchtende Gehirne
+%%%%
 # check plural above
 %%%%
 a great orb of eyes
 ein großer Augenkugel
+%%%%
+%d great orbs of eyes
+%d große Augenkugel
 %%%%
 # check plural above
 %%%%
 a shining eye
 ein leuchtendes Auge
 %%%%
+%d shining eyes
+%d leuchtende Augen
+%%%%
 # check plural above
 %%%%
 an eye of devastation
 ein Auge der Verwüstung
+%%%%
+%d eyes of devastation
+%d Augen der Verwüstung
 %%%%
 # check plural above
 %%%%
 a golden eye
 ein goldenes Auge
 %%%%
+%d golden eyes
+%d goldene Augen
+%%%%
 # check plural above
 %%%%
 an ophan
 ein Ophan
+%%%%
+%d ophanim
+%d Ophane
 %%%%
 # check plural above
 %%%%
 a hippogriff
 ein Hippogriff
 %%%%
+%d hippogriffs
+%d Hippogriffe
+%%%%
 # check plural above
 %%%%
 a manticore
 ein Mantikor
+%%%%
+%d manticores
+%d Mantikore
 %%%%
 # check plural above
 %%%%
 a minotaur
 ein Minotaurus
 %%%%
+%d minotaurs
+%d Minotauren
+%%%%
 # check plural above
 %%%%
 a sphinx
 eine Sphinx
+%%%%
+%d sphinxes
+%d Sphinxen
 %%%%
 # check plural above
 %%%%
 a harpy
 eine Harpyie
 %%%%
+%d harpies
+%d Harpyien
+%%%%
 a mutant beast
 eine mutierte Bestie
 %%%%
+%d mutant beasts
+%d mutierte Bestien
+%%%%
 an ancestor
 ein Ahne
+%%%%
+%d ancestors
+%d Ahnen
 %%%%
 # check plural above
 %%%%
 a knight
 ein Ritter
 %%%%
+%d knights
+%d Ritter
+%%%%
 # check plural above
 %%%%
 a battlemage
 ein Kampfmagier
+%%%%
+%d battlemagi
+%d Kampfmagier
 %%%%
 # check plural above
 %%%%
 a hexer
 ein Hexer
 %%%%
+%d hexers
+%d Hexer
+%%%%
 # check plural above
 %%%%
 an ooze
 ein Schlamm
+%%%%
+%d oozes
+%d Schlamme
 %%%%
 # check plural above
 %%%%
 a jelly
 ein Gelee
 %%%%
+%d jellies
+%d Geleen
+%%%%
 # check plural above
 %%%%
 a slime creature
 ein Schleimwesen
+%%%%
+%d slime creatures
+%d Schleimwesene
 %%%%
 # check plural above
 %%%%
 a merged slime creature
 eine verschmolzene Schleimkreatur
 %%%%
+%d merged slime creatures
+%d verschmolzene Schleimkreaturen
+%%%%
 # check plural above
 %%%%
 an azure jelly
 ein azurblaues Gelee
+%%%%
+%d azure jellies
+%d azurblaue Geleen
 %%%%
 # check plural above
 %%%%
 a death ooze
 ein Todesschlamm
 %%%%
+%d death oozes
+%d Todesschlamme
+%%%%
 # check plural above
 %%%%
 an acid blob
 ein Säureklumpen
+%%%%
+%d acid blobs
+%d Säureklumpene
 %%%%
 # check plural above
 %%%%
 a kobold
 ein Kobold
 %%%%
+%d kobolds
+%d Kobolde
+%%%%
 # check plural above
 %%%%
 a big kobold
 ein großer Kobold
+%%%%
+%d big kobolds
+%d große Kobolde
 %%%%
 # check plural above
 %%%%
 a kobold demonologist
 ein Kobold-Dämonologe
 %%%%
+%d kobold demonologists
+%d Kobold-Dämonologen
+%%%%
 # check plural above
 %%%%
 a lich
 ein Lich
 %%%%
+%d liches
+%d Lichs
+%%%%
 an ancient lich
 ein alter Lich
 %%%%
+%d ancient liches
+%d alte Lichs
+%%%%
 a revenant
 ein Wiedergänger
+%%%%
+%d revenants
+%d Wiedergänger
 %%%%
 # check plural above
 %%%%
 a halazid warlock
 ein halazidischer Hexenmeister
 %%%%
+%d halazid warlocks
+%d halazidische Hexenmeister
+%%%%
 # check plural above
 %%%%
 a mummy
 eine Mumie
 %%%%
+%d mummies
+%d Mumien
+%%%%
 a guardian mummy
 eine Wächtermumie
+%%%%
+%d guardian mummies
+%d Wächtermumien
 %%%%
 a greater mummy
 eine größere Mumie
 %%%%
+%d greater mummies
+%d größere Mumien
+%%%%
 a mummy priest
 ein Mumie-Priester
+%%%%
+%d mummy priests
+%d Mumie-Priester
 %%%%
 # check plural above
 %%%%
 a naga
 ein Naga
 %%%%
+%d nagas
+%d Nagas
+%%%%
 # check plural above
 %%%%
 a naga mage
 ein Naga-Magier
+%%%%
+%d naga magi
+%d Naga-Magier
 %%%%
 # check plural above
 %%%%
 a naga sharpshooter
 ein Naga-Scharfschütze
 %%%%
+%d naga sharpshooters
+%d Naga-Scharfschützen
+%%%%
 # check plural above
 %%%%
 a naga ritualist
 ein Naga-Ritualist
 %%%%
+%d naga ritualists
+%d Naga-Ritualisten
+%%%%
 a naga warrior
 ein Naga-Krieger
+%%%%
+%d naga warriors
+%d Naga-Krieger
 %%%%
 # check plural above
 %%%%
 a nagaraja
 ein Nagaraja
 %%%%
+%d nagarajas
+%d Nagarajas
+%%%%
 # check plural above
 %%%%
 an ogre
 ein Oger
+%%%%
+%d ogres
+%d Oger
 %%%%
 # check plural above
 %%%%
 a two-headed ogre
 ein zweiköpfiger Oger
 %%%%
+%d two-headed ogres
+%d zweiköpfige Oger
+%%%%
 # check plural above
 %%%%
 an ogre mage
 ein Oger-Magier
+%%%%
+%d ogre magi
+%d Oger-Magier
 %%%%
 # check plural above
 %%%%
 a plant
 eine Pflanze
 %%%%
+%d plants
+%d Pflanzen
+%%%%
 a demonic plant
 eine dämonische Pflanze
+%%%%
+%d demonic plants
+%d dämonische Pflanzen
 %%%%
 a withered plant
 eine verwelkte Pflanze
 %%%%
+%d withered plants
+%d verwelkte Pflanzen
+%%%%
 an oklob sapling
 ein Oklob-Setzling
+%%%%
+%d oklob saplings
+%d Oklob-Setzlinge
 %%%%
 an oklob plant
 eine Oklob-Pflanze
 %%%%
+%d oklob plants
+%d Oklob-Pflanzen
+%%%%
 a bush
 ein Busch
+%%%%
+%d bushes
+%d Busche
 %%%%
 # check plural above
 %%%%
 a burning bush
 ein brennender Busch
 %%%%
+%d burning bushes
+%d brennende Busche
+%%%%
 # check plural above
 %%%%
 a toadstool
 ein Giftpilz
+%%%%
+%d toadstools
+%d Giftpilze
 %%%%
 # check plural above
 %%%%
 a fungus
 ein Pilz
 %%%%
+%d fungi
+%d Pilze
+%%%%
 # check plural above
 %%%%
 a ballistomycete
 ein Ballistomycete
+%%%%
+%d ballistomycetes
+%d Ballistomyceten
 %%%%
 # check plural above
 %%%%
 a hyperactive ballistomycete
 ein hyperaktiver Ballistomycete
 %%%%
+%d hyperactive ballistomycetes
+%d hyperaktive Ballistomyceten
+%%%%
 # check plural above
 %%%%
 a briar patch
 ein Dornstrauch
+%%%%
+%d briar patches
+%d Dornstrauche
 %%%%
 # check plural above
 %%%%
 a tengu
 ein Tengu
 %%%%
+%d tengu
+%d Tengus
+%%%%
 # check plural above
 %%%%
 a tengu conjurer
 ein Tengu-Zauberer
+%%%%
+%d tengu conjurers
+%d Tengu-Zauberer
 %%%%
 # check plural above
 %%%%
 a tengu warrior
 ein Tengu-Krieger
 %%%%
+%d tengu warriors
+%d Tengu-Krieger
+%%%%
 # check plural above
 %%%%
 a tengu reaver
 ein Tengu-Häscher
+%%%%
+%d tengu reavers
+%d Tengu-Häscher
 %%%%
 # check plural above
 %%%%
 an efreet
 ein Efreet
 %%%%
+%d efreet
+%d Efreete
+%%%%
 # check plural above
 %%%%
 a rakshasa
 ein Rakshasa
+%%%%
+%d rakshasas
+%d Rakshasas
 %%%%
 # check plural above
 %%%%
 a dryad
 eine Dryade
 %%%%
+%d dryads
+%d Dryaden
+%%%%
 a snaplasher vine
 eine Peitscherrebe
+%%%%
+%d snaplasher vines
+%d Peitscherreben
 %%%%
 a snaplasher vine segment
 ein Peitscherrebesegment
 %%%%
+%d snaplasher vine segments
+%d Peitscherrebesegmente
+%%%%
 a snake
 eine Schlange
 %%%%
+%d snakes
+%d Schlangen
+%%%%
 a ball python
 eine Kugelpython
+%%%%
+%d ball pythons
+%d Kugelpythonen
 %%%%
 # check plural above
 %%%%
 an adder
 eine Kreuzotter
 %%%%
+%d adders
+%d Kreuzottern
+%%%%
 # check plural above
 %%%%
 a water moccasin
 ein Wassermokassin
+%%%%
+%d water moccasins
+%d Wassermokassine
 %%%%
 # check plural above
 %%%%
 a black mamba
 eine schwarze Mamba
 %%%%
+%d black mambas
+%d schwarze Mambas
+%%%%
 # check plural above
 %%%%
 a sea snake
 eine Seeschlange
 %%%%
+%d sea snakes
+%d Seeschlangen
+%%%%
 an anaconda
 eine Anakonda
+%%%%
+%d anacondas
+%d Anakondas
 %%%%
 # check plural above
 %%%%
 a guardian serpent
 eine Wächter-Schlange
 %%%%
+%d guardian serpents
+%d Wächter-Schlangen
+%%%%
 a shock serpent
 eine Schockschlange
 %%%%
+%d shock serpents
+%d Schockschlangen
+%%%%
 a mana viper
 eine Manaviper
+%%%%
+%d mana vipers
+%d Manavipern
 %%%%
 # check plural above
 %%%%
 a troll
 ein Troll
 %%%%
+%d trolls
+%d Trolle
+%%%%
 # check plural above
 %%%%
 an iron troll
 ein Eisentroll
+%%%%
+%d iron trolls
+%d Eisentrolle
 %%%%
 # check plural above
 %%%%
 a deep troll
 ein Tiefentroll
 %%%%
+%d deep trolls
+%d Tiefentrolle
+%%%%
 # check plural above
 %%%%
 a deep troll earth mage
 ein Tiefentroll-Erdmagier
+%%%%
+%d deep troll earth magi
+%d Tiefentroll-Erdmagier
 %%%%
 # check plural above
 %%%%
 a deep troll shaman
 ein Tiefentroll-Schamane
 %%%%
+%d deep troll shamans
+%d Tiefentroll-Schamanen
+%%%%
 # check plural above
 %%%%
 a vampire
 ein Vampir
+%%%%
+%d vampires
+%d Vampire
 %%%%
 # check plural above
 %%%%
 a vampire knight
 ein Vampir-Ritter
 %%%%
+%d vampire knights
+%d Vampir-Ritter
+%%%%
 # check plural above
 %%%%
 a vampire mage
 ein Vampir-Magier
+%%%%
+%d vampire magi
+%d Vampir-Magier
 %%%%
 # check plural above
 %%%%
 a jiangshi
 ein Jiangshi
 %%%%
+%d jiangshi
+%d Jiangshis
+%%%%
 # check plural above
 %%%%
 a ghost
 ein Gespenst
+%%%%
+%d ghosts
+%d Gespenste
 %%%%
 # check plural above
 %%%%
 a phantom
 ein Phantom
 %%%%
+%d phantoms
+%d Phantome
+%%%%
 # check plural above
 %%%%
 a hungry ghost
 ein hungriger Geist
 %%%%
+%d hungry ghosts
+%d hungrige Geister
+%%%%
 a flayed ghost
 ein enthäuteter Geist
+%%%%
+%d flayed ghosts
+%d enthäutete Geister
 %%%%
 a player ghost
 ein Spielergeist
 %%%%
+%d player ghosts
+%d Spielergeister
+%%%%
 a shadow
 ein Schatten
 %%%%
+%d shadows
+%d Schatten
+%%%%
 a silent spectre
 ein stilles Gespenst
+%%%%
+%d silent spectres
+%d stille Gespenste
 %%%%
 # check plural above
 %%%%
 a drowned soul
 eine ertrunkene Seele
 %%%%
+%d drowned souls
+%d ertrunkene Seelen
+%%%%
 a wraith
 ein Geist
+%%%%
+%d wraiths
+%d Geister
 %%%%
 a shadow wraith
 ein Schattengeist
 %%%%
+%d shadow wraiths
+%d Schattengeister
+%%%%
 a freezing wraith
 ein Frostgeist
 %%%%
+%d freezing wraiths
+%d Frostgeister
+%%%%
 an eidolon
 ein Eidolon
+%%%%
+%d eidola
+%d Eidolone
 %%%%
 # check plural above
 %%%%
 a phantasmal warrior
 ein phantastischer Krieger
 %%%%
+%d phantasmal warriors
+%d phantastische Krieger
+%%%%
 # check plural above
 %%%%
 a large abomination
 ein großer Greuel
+%%%%
+%d large abominations
+%d große Greuel
 %%%%
 # check plural above
 %%%%
 a thrashing horror
 ein verprügelndes Grauen
 %%%%
+%d thrashing horrors
+%d verprügelnde Grauene
+%%%%
 # check plural above
 %%%%
 a tentacled monstrosity
 eine Tentakel-Monstrosität
 %%%%
+%d tentacled monstrosities
+%d Tentakel-Monstrositäten
+%%%%
 an Orb Guardian
 ein Kugelwächter
+%%%%
+%d Orb Guardians
+%d Kugelwächter
 %%%%
 # check plural above
 %%%%
 a tentacled starspawn
 ein Tentakelsternbrut
 %%%%
+%d tentacled starspawn
+%d Tentakelsternbrute
+%%%%
 # check plural above
 %%%%
 a starspawn tentacle
 ein Sternbruttentakel
+%%%%
+%d starspawn tentacles
+%d Sternbruttentakel
 %%%%
 # check plural above
 %%%%
 a starspawn tentacle segment
 ein Sternbruttentakelsegment
 %%%%
+%d starspawn tentacle segments
+%d Sternbruttentakelsegmente
+%%%%
 a starcursed mass
 eine sternverfluchte Masse
 %%%%
+%d starcursed masses
+%d sternverfluchte Massen
+%%%%
 a dream sheep
 ein Traumschaf
+%%%%
+%d dream sheep
+%d Traumschafe
 %%%%
 # check plural above
 %%%%
 a yak
 ein Yak
 %%%%
+%d yaks
+%d Yake
+%%%%
 # check plural above
 %%%%
 a death yak
 ein Todesyak
+%%%%
+%d death yaks
+%d Todesyake
 %%%%
 # check plural above
 %%%%
 a catoblepas
 eine Catoblepas
 %%%%
+%d catoblepae
+%d Catoblepasen
+%%%%
 # check plural above
 %%%%
 an elephant
 ein Elefant
 %%%%
+%d elephants
+%d Elefanten
+%%%%
 a dire elephant
 ein Schreckenselefant
+%%%%
+%d dire elephants
+%d Schreckenselefanten
 %%%%
 a hellephant
 ein Höllefant
 %%%%
+%d hellephants
+%d Höllefanten
+%%%%
 an apis
 eine Apis
+%%%%
+%d apises
+%d Apisen
 %%%%
 # check plural above
 %%%%
 an ice beast
 eine Eisbestie
 %%%%
+%d ice beasts
+%d Eisbestien
+%%%%
 a sky beast
 ein Himmelstier
+%%%%
+%d sky beasts
+%d Himmelstiere
 %%%%
 # check plural above
 %%%%
 a zombie
 ein Zombie
 %%%%
+%d zombies
+%d Zombies
+%%%%
 a skeleton
 ein Skelett
+%%%%
+%d skeletons
+%d Skelette
 %%%%
 # check plural above
 %%%%
 a simulacrum
 ein Simulacrum
 %%%%
+%d simulacra
+%d Simulacren
+%%%%
 # check plural above
 %%%%
 a small zombie
 ein kleiner Zombie
 %%%%
+%d small zombies
+%d kleine Zombies
+%%%%
 a small skeleton
 ein kleines Skelett
+%%%%
+%d small skeletons
+%d kleine Skelette
 %%%%
 # check plural above
 %%%%
 a small simulacrum
 ein kleines Simulacrum
 %%%%
+%d small simulacra
+%d kleine Simulacren
+%%%%
 # check plural above
 %%%%
 a large zombie
 ein großer Zombie
 %%%%
+%d large zombies
+%d große Zombies
+%%%%
 a large skeleton
 ein großes Skelett
+%%%%
+%d large skeletons
+%d große Skelette
 %%%%
 # check plural above
 %%%%
 a large simulacrum
 ein großes Simulacrum
 %%%%
+%d large simulacra
+%d große Simulacren
+%%%%
 # check plural above
 %%%%
 a spectral thing
 eine spektrale Sache
 %%%%
+%d spectral things
+%d spektrale Sachen
+%%%%
 an electric eel
 ein Zitteraal
+%%%%
+%d electric eels
+%d Zitteraale
 %%%%
 # check plural above
 %%%%
 a kraken
 ein Kraken
 %%%%
+%d krakens
+%d Krakene
+%%%%
 # check plural above
 %%%%
 a tentacle
 ein Tentakel
+%%%%
+%d tentacles
+%d Tentakel
 %%%%
 # check plural above
 %%%%
 a tentacle segment
 ein Tentakelsegment
 %%%%
+%d tentacle segments
+%d Tentakelsegmente
+%%%%
 an octopode
 ein Oktopod
+%%%%
+%d octopodes
+%d Oktopode
 %%%%
 # check plural above
 %%%%
 a lava snake
 eine Lavaschlange
 %%%%
+%d lava snakes
+%d Lavaschlangen
+%%%%
 a salamander
 ein Salamander
+%%%%
+%d salamanders
+%d Salamander
 %%%%
 # check plural above
 %%%%
 a salamander mystic
 ein Salamander-Mystiker
 %%%%
+%d salamander mystics
+%d Salamander-Mystiker
+%%%%
 # check plural above
 %%%%
 a Hellbinder
 ein Höllenbinder
+%%%%
+%d Hellbinders
+%d Höllenbinder
 %%%%
 # check plural above
 %%%%
 a Cloud Mage
 ein Wolkenmagier
 %%%%
+%d Cloud Mages
+%d Wolkenmagier
+%%%%
 # check plural above
 %%%%
 a player
 ein Spieler
+%%%%
+%d players
+%d Spieler
 %%%%
 # check plural above
 %%%%
 a player illusion
 eine Spieler-Illusion
 %%%%
+%d player illusions
+%d Spieler-Illusionen
+%%%%
 # check plural above
 %%%%
 a dancing weapon
 eine tanzende Waffe
 %%%%
+%d dancing weapons
+%d tanzende Waffen
+%%%%
 a spectral weapon
 eine Spektralwaffe
 %%%%
+%d spectral weapons
+%d Spektralwaffen
+%%%%
 an eldritch tentacle
 ein unheimlicher Tentakel
+%%%%
+%d eldritch tentacles
+%d unheimliche Tentakel
 %%%%
 # check plural above
 %%%%
 an eldritch tentacle segment
 ein unheimliches Tentakelsegment
 %%%%
+%d eldritch tentacle segments
+%d unheimliche Tentakelsegmente
+%%%%
 a demonspawn
 eine Dämonenbrut
+%%%%
+%d demonspawn
+%d Dämonenbruten
 %%%%
 # check plural above
 %%%%
 a monstrous demonspawn
 eine monströse Dämonenbrut
 %%%%
+%d monstrous demonspawn
+%d monströse Dämonenbruten
+%%%%
 # check plural above
 %%%%
 a gelid demonspawn
 ein gelider Dämonenbrut
+%%%%
+%d gelid demonspawn
+%d gelide Dämonenbrute
 %%%%
 # check plural above
 %%%%
 an infernal demonspawn
 eine höllische Dämonenbrut
 %%%%
+%d infernal demonspawn
+%d höllische Dämonenbruten
+%%%%
 # check plural above
 %%%%
 a torturous demonspawn
 eine quälende Dämonenbrut
+%%%%
+%d torturous demonspawn
+%d quälende Dämonenbruten
 %%%%
 # check plural above
 %%%%
 a blood saint
 ein Blutheilige
 %%%%
+%d blood saints
+%d Blutheiligen
+%%%%
 # check plural above
 %%%%
 a warmonger
 ein Kriegstreiber
+%%%%
+%d warmongers
+%d Kriegstreiber
 %%%%
 # check plural above
 %%%%
 a corrupter
 ein Korruptor
 %%%%
+%d corrupters
+%d Korruptore
+%%%%
 # check plural above
 %%%%
 a black sun
 eine schwarze Sonne
 %%%%
+%d black suns
+%d schwarze Sonnen
+%%%%
 a crimson imp
 ein karminrotes Teufelchen
 %%%%
+%d crimson imps
+%d karminrote Teufelchen
+%%%%
 a quasit
 ein Quasit
+%%%%
+%d quasits
+%d Quasite
 %%%%
 # check plural above
 %%%%
 a white imp
 ein weißes Teufelchen
 %%%%
+%d white imps
+%d weiße Teufelchen
+%%%%
 an ufetubus
 ein Ufetubus
+%%%%
+%d ufetubi
+%d Ufetubi
 %%%%
 an iron imp
 ein Eisenteufelchen
 %%%%
+%d iron imps
+%d Eisenteufelchen
+%%%%
 a shadow imp
 ein Schattenteufelchen
 %%%%
+%d shadow imps
+%d Schattenteufelchen
+%%%%
 a rust devil
 ein Rostteufel
+%%%%
+%d rust devils
+%d Rostteufel
 %%%%
 # check plural above
 %%%%
 an orange demon
 ein oranger Dämon
 %%%%
+%d orange demons
+%d orange Dämone
+%%%%
 # check plural above
 %%%%
 a red devil
 ein roter Teufel
+%%%%
+%d red devils
+%d rote Teufel
 %%%%
 # check plural above
 %%%%
 a hellwing
 ein Höllenflügel
 %%%%
+%d hellwings
+%d Höllenflügel
+%%%%
 # check plural above
 %%%%
 an ice devil
 ein Eisteufel
+%%%%
+%d ice devils
+%d Eisteufel
 %%%%
 # check plural above
 %%%%
 a chaos spawn
 eine Chaosbrut
 %%%%
+%d chaos spawn
+%d Chaosbruten
+%%%%
 # check plural above
 %%%%
 a sun demon
 ein Sonnendämon
+%%%%
+%d sun demons
+%d Sonnendämone
 %%%%
 # check plural above
 %%%%
 a soul eater
 ein Seelenfresser
 %%%%
+%d soul eaters
+%d Seelenfresser
+%%%%
 # check plural above
 %%%%
 a smoke demon
 ein Rauchdämon
+%%%%
+%d smoke demons
+%d Rauchdämone
 %%%%
 # check plural above
 %%%%
 a neqoxec
 eine Neqoxec
 %%%%
+%d neqoxecs
+%d Neqoxecen
+%%%%
 # check plural above
 %%%%
 a ynoxinul
 ein Ynoxinul
+%%%%
+%d ynoxinuls
+%d Ynoxinule
 %%%%
 # check plural above
 %%%%
 a sixfirhy
 ein Sixfirhy
 %%%%
+%d sixfirhies
+%d Sixfirhys
+%%%%
 # check plural above
 %%%%
 a shadow demon
 ein Schattendämon
+%%%%
+%d shadow demons
+%d Schattendämone
 %%%%
 # check plural above
 %%%%
 a green death
 ein grüner Tod
 %%%%
+%d green deaths
+%d grüne Tode
+%%%%
 # check plural above
 %%%%
 a blizzard demon
 ein Blizzarddämon
+%%%%
+%d blizzard demons
+%d Blizzarddämone
 %%%%
 # check plural above
 %%%%
 a balrug
 ein Balrug
 %%%%
+%d balrugs
+%d Balruge
+%%%%
 # check plural above
 %%%%
 a cacodemon
 ein Cacodaemon
+%%%%
+%d cacodemons
+%d Cacodaemone
 %%%%
 # check plural above
 %%%%
 a hell beast
 ein Höllentier
 %%%%
+%d hell beasts
+%d Höllentiere
+%%%%
 # check plural above
 %%%%
 a hellion
 ein Teufelsbraten
+%%%%
+%d hellions
+%d Teufelsbratene
 %%%%
 # check plural above
 %%%%
 a reaper
 ein Schnitter
 %%%%
+%d reapers
+%d Schnitter
+%%%%
 # check plural above
 %%%%
 a lorocyproca
 eine Lorocyproca
+%%%%
+%d lorocyprocas
+%d Lorocyprocas
 %%%%
 # check plural above
 %%%%
 a tormentor
 ein Peiniger
 %%%%
+%d tormentors
+%d Peiniger
+%%%%
 # check plural above
 %%%%
 a Brimstone Fiend
 ein Schwefelunterweltler
+%%%%
+%d Brimstone Fiends
+%d Schwefelunterweltler
 %%%%
 # check plural above
 %%%%
 an Ice Fiend
 ein Eisunterweltler
 %%%%
+%d Ice Fiends
+%d Eisunterweltler
+%%%%
 # check plural above
 %%%%
 a Tzitzimitl
 ein Tzitzimitl
+%%%%
+%d Tzitzimimeh
+%d Tzitzimitle
 %%%%
 # check plural above
 %%%%
 a Hell Sentinel
 ein Höllenwächter
 %%%%
+%d Hell Sentinels
+%d Höllenwächter
+%%%%
 # check plural above
 %%%%
 an Executioner
 ein Scharfrichter
+%%%%
+%d Executioners
+%d Scharfrichter
 %%%%
 # check plural above
 %%%%
 an animated tree
 ein animierter Baum
 %%%%
+%d animated trees
+%d animierte Bäume
+%%%%
 a golem
 ein Golem
+%%%%
+%d golems
+%d Goleme
 %%%%
 # check plural above
 %%%%
 a saltling
 ein Salzling
 %%%%
+%d saltlings
+%d Salzlinge
+%%%%
 a peacekeeper
 ein Friedenshüter
+%%%%
+%d peacekeepers
+%d Friedenshüter
 %%%%
 # check plural above
 %%%%
 an iron golem
 ein Eisengolem
 %%%%
+%d iron golems
+%d Eisengoleme
+%%%%
 # check plural above
 %%%%
 a crystal guardian
 ein Kristallwächter
+%%%%
+%d crystal guardians
+%d Kristallwächter
 %%%%
 # check plural above
 %%%%
 a toenail golem
 ein Zehennagelgolem
 %%%%
+%d toenail golems
+%d Zehennagelgoleme
+%%%%
 # check plural above
 %%%%
 an electric golem
 ein Blitzgolem
+%%%%
+%d electric golems
+%d Blitzgoleme
 %%%%
 # check plural above
 %%%%
 an ushabti
 eine Uschabti
 %%%%
+%d ushabtiu
+%d Uschabtis
+%%%%
 # check plural above
 %%%%
 a guardian golem
 ein Wächtergolem
+%%%%
+%d guardian golems
+%d Wächtergoleme
 %%%%
 # check plural above
 %%%%
 a spellforged servitor
 ein zaubergeschmeideter Diener
 %%%%
+%d spellforged servitors
+%d zaubergeschmeidete Diener
+%%%%
 # check plural above
 %%%%
 an ice statue
 eine Eisstatue
 %%%%
+%d ice statues
+%d Eisstatuen
+%%%%
 an obsidian statue
 eine Obsidianstatue
+%%%%
+%d obsidian statues
+%d Obsidianstatuen
 %%%%
 an orange crystal statue
 eine orange Kristallstatue
 %%%%
+%d orange crystal statues
+%d orange Kristallstatuen
+%%%%
 a statue
 eine Statue
+%%%%
+%d statues
+%d Statuen
 %%%%
 a training dummy
 eine Trainingspuppe
 %%%%
+%d training dummies
+%d Trainingspuppen
+%%%%
 a pillar of salt
 eine Säule des Salzes
 %%%%
+%d pillars of salt
+%d Säulen des Salzes
+%%%%
 a block of ice
 ein Eisblock
+%%%%
+%d blocks of ice
+%d Eisblocke
 %%%%
 # check plural above
 %%%%
 a diamond obelisk
 ein Diamantobelisk
 %%%%
+%d diamond obelisks
+%d Diamantobeliske
+%%%%
 # check plural above
 %%%%
 a lightning spire
 ein Blitzturm
+%%%%
+%d lightning spires
+%d Blitzturme
 %%%%
 # check plural above
 %%%%
 a gargoyle
 ein Gargoyle
 %%%%
+%d gargoyles
+%d Gargoyles
+%%%%
 a war gargoyle
 ein Kriegsgargoyle
+%%%%
+%d war gargoyles
+%d Kriegsgargoyles
 %%%%
 a molten gargoyle
 ein geschmolzener Gargoyle
 %%%%
+%d molten gargoyles
+%d geschmolzene Gargoyles
+%%%%
 a pandemonium lord
 ein Pandemoniumsherr
+%%%%
+%d pandemonium lords
+%d Pandemoniumsherre
 %%%%
 # check plural above
 %%%%
 a hell lord
 ein Höllenherr
 %%%%
+%d hell lords
+%d Höllenherre
+%%%%
 # check plural above
 %%%%
 a ball lightning
 ein Kugelblitz
+%%%%
+%d ball lightnings
+%d Kugelblitze
 %%%%
 # check plural above
 %%%%
 a ballistomycete spore
 eine Ballistomycetenspore
 %%%%
+%d ballistomycete spores
+%d Ballistomycetensporen
+%%%%
 a lost soul
 eine verlorene Seele
 %%%%
+%d lost souls
+%d verlorene Seelen
+%%%%
 a lurking horror
 ein lauerndes Grauen
+%%%%
+%d lurking horrors
+%d lauernde Grauene
 %%%%
 # check plural above
 %%%%
 an orb of fire
 eine Feuerkugel
 %%%%
+%d orbs of fire
+%d Feuerkugeln
+%%%%
 # check plural above
 %%%%
 an orb of destruction
 eine Kugel der Zerstörung
+%%%%
+%d orbs of destruction
+%d Kugeln der Zerstörung
 %%%%
 # check plural above
 %%%%
 a fulminant prism
 ein fulminantes Prisma
 %%%%
+%d fulminant prisms
+%d fulminante Prismen
+%%%%
 # check plural above
 %%%%
 a wretched star
 ein elender Stern
+%%%%
+%d wretched stars
+%d elende Sterne
 %%%%
 # check plural above
 %%%%
 a battlesphere
 eine Kampfsphäre
 %%%%
+%d battlespheres
+%d Kampfsphären
+%%%%
 a death cob
 ein Todeskolben
 %%%%
+%d death cobs
+%d Todeskolben
+%%%%
 a moon troll
 ein Mondtroll
+%%%%
+%d moon trolls
+%d Mondtrolle
 %%%%
 # check plural above
 %%%%
 a foxfire
 ein Fuchsfeuer
 %%%%
+%d foxfires
+%d Fuchsfeuer
+%%%%
 a nameless horror
 ein namenloser Horror
 %%%%
+%d nameless horrors
+%d namenlose Horror
+%%%%
 a sensed monster
 ein gespürtes Monster
+%%%%
+%d sensed monsters
+%d gespürte Monster
 %%%%
 # check plural above
 %%%%
 a friendly sensed monster
 ein freundliches gespürtes Monster
 %%%%
+%d friendly sensed monsters
+%d freundliche gespürte Monster
+%%%%
 # check plural above
 %%%%
 a trivial sensed monster
 ein triviales gespürtes Monster
+%%%%
+%d trivial sensed monsters
+%d triviale gespürte Monster
 %%%%
 # check plural above
 %%%%
 an easy sensed monster
 ein leichtes gespürtes Monster
 %%%%
+%d easy sensed monsters
+%d leichte gespürte Monster
+%%%%
 # check plural above
 %%%%
 a tough sensed monster
 ein hartes gespürtes Monster
 %%%%
+%d tough sensed monsters
+%d harte gespürte Monster
+%%%%
 # check plural above
 %%%%
 a nasty sensed monster
 ein furchtbares gespürtes Monster
+%%%%
+%d nasty sensed monsters
+%d furchtbare gespürte Monster
 %%%%
 # check plural above
 ################################
@@ -6700,6 +8072,7 @@ furchtbares gespürtes Monster
 #   so no need to repeat (i.e. we only need to handle masculine nouns here)
 #
 ###############################################################################
+%%%%
 
 ##############################################
 # Uniques
@@ -7603,1378 +8976,2254 @@ den namenlosen Horror
 {acc}a program bug
 einen Programmfehler
 %%%%
+{acc}%d program bugs
+%d Programmfehler
+%%%%
 # check plural above
 %%%%
 {acc}a formicid
 einen Formicid
+%%%%
+{acc}%d formicids
+%d Formicide
 %%%%
 # check plural above
 %%%%
 {acc}an entropy weaver
 einen Entropieweber
 %%%%
+{acc}%d entropy weavers
+%d Entropieweber
+%%%%
 # check plural above
 %%%%
 {acc}a butterfly
 einen Schmetterling
 %%%%
+{acc}%d butterflies
+%d Schmetterlinge
+%%%%
 {acc}a caustic shrike
 einen ätzenden Würger
+%%%%
+{acc}%d caustic shrikes
+%d ätzende Würger
 %%%%
 # check plural above
 %%%%
 {acc}a shard shrike
 einen Scherbenwürger
 %%%%
+{acc}%d shard shrikes
+%d Scherbenwürger
+%%%%
 # check plural above
 %%%%
 {acc}a centaur
 einen Zentaur
+%%%%
+{acc}%d centaurs
+%d Zentaure
 %%%%
 # check plural above
 %%%%
 {acc}a centaur warrior
 einen Zentaur-Krieger
 %%%%
+{acc}%d centaur warriors
+%d Zentaur-Krieger
+%%%%
 # check plural above
 %%%%
 {acc}a yaktaur
 einen Yaktaur
+%%%%
+{acc}%d yaktaurs
+%d Yaktaure
 %%%%
 # check plural above
 %%%%
 {acc}a yaktaur captain
 einen Yaktaur-Kapitän
 %%%%
+{acc}%d yaktaur captains
+%d Yaktaur-Kapitäne
+%%%%
 # check plural above
 %%%%
 {acc}a faun
 einen Faun
+%%%%
+{acc}%d fauns
+%d Faune
 %%%%
 # check plural above
 %%%%
 {acc}a satyr
 einen Satyr
 %%%%
+{acc}%d satyrs
+%d Satyre
+%%%%
 # check plural above
 %%%%
 {acc}a draconian
 einen Drakonier
+%%%%
+{acc}%d draconians
+%d Drakonier
 %%%%
 # check plural above
 %%%%
 {acc}a black draconian
 einen schwarzen Drakonier
 %%%%
+{acc}%d black draconians
+%d schwarze Drakonier
+%%%%
 # check plural above
 %%%%
 {acc}a yellow draconian
 einen gelben Drakonier
+%%%%
+{acc}%d yellow draconians
+%d gelbe Drakonier
 %%%%
 # check plural above
 %%%%
 {acc}a pale draconian
 einen blassen Drakonier
 %%%%
+{acc}%d pale draconians
+%d blasse Drakonier
+%%%%
 # check plural above
 %%%%
 {acc}a green draconian
 einen grünen Drakonier
+%%%%
+{acc}%d green draconians
+%d grüne Drakonier
 %%%%
 # check plural above
 %%%%
 {acc}a purple draconian
 einen purpurnen Drakonier
 %%%%
+{acc}%d purple draconians
+%d purpurne Drakonier
+%%%%
 # check plural above
 %%%%
 {acc}a red draconian
 einen roten Drakonier
+%%%%
+{acc}%d red draconians
+%d rote Drakonier
 %%%%
 # check plural above
 %%%%
 {acc}a white draconian
 einen weißen Drakonier
 %%%%
+{acc}%d white draconians
+%d weiße Drakonier
+%%%%
 # check plural above
 %%%%
 {acc}a grey draconian
 einen grauen Drakonier
+%%%%
+{acc}%d grey draconians
+%d graue Drakonier
 %%%%
 # check plural above
 %%%%
 {acc}a draconian stormcaller
 einen Drakonier-Sturmrufer
 %%%%
+{acc}%d draconian stormcallers
+%d Drakonier-Sturmrufer
+%%%%
 # check plural above
 %%%%
 {acc}a draconian monk
 einen Drakonier-Mönch
+%%%%
+{acc}%d draconian monks
+%d Drakonier-Mönche
 %%%%
 # check plural above
 %%%%
 {acc}a draconian shifter
 einen Drakonier-Verwandler
 %%%%
+{acc}%d draconian shifters
+%d Drakonier-Verwandler
+%%%%
 # check plural above
 %%%%
 {acc}a draconian annihilator
 einen Drakonier-Vernichter
+%%%%
+{acc}%d draconian annihilators
+%d Drakonier-Vernichter
 %%%%
 # check plural above
 %%%%
 {acc}a draconian knight
 einen Drakonier-Ritter
 %%%%
+{acc}%d draconian knights
+%d Drakonier-Ritter
+%%%%
 # check plural above
 %%%%
 {acc}a draconian scorcher
 einen Drakonier-Verschmorer
+%%%%
+{acc}%d draconian scorchers
+%d Drakonier-Verschmorer
 %%%%
 # check plural above
 %%%%
 {acc}an elf
 einen Elf
 %%%%
+{acc}%d elves
+%d Elfe
+%%%%
 # check plural above
 %%%%
 {acc}a deep elf knight
 einen Tiefenelf-Ritter
+%%%%
+{acc}%d deep elf knights
+%d Tiefenelf-Ritter
 %%%%
 # check plural above
 %%%%
 {acc}a deep elf archer
 einen Tiefenelf-Bogenschützen
 %%%%
+{acc}%d deep elf archers
+%d Tiefenelf-Bogenschützen
+%%%%
 # check plural above
 %%%%
 {acc}a deep elf blademaster
 einen Tiefenelf-Klingenmeister
+%%%%
+{acc}%d deep elf blademasters
+%d Tiefenelf-Klingenmeister
 %%%%
 # check plural above
 %%%%
 {acc}a deep elf master archer
 einen Tiefenelf-Bogenmeister
 %%%%
+{acc}%d deep elf master archers
+%d Tiefenelf-Bogenmeister
+%%%%
 # check plural above
 %%%%
 {acc}a deep elf mage
 einen Tiefenelf-Magier
+%%%%
+{acc}%d deep elf magi
+%d Tiefenelf-Magier
 %%%%
 # check plural above
 %%%%
 {acc}a deep elf high priest
 einen Tiefenelf-Hohepriester
 %%%%
+{acc}%d deep elf high priests
+%d Tiefenelf-Hohepriester
+%%%%
 # check plural above
 %%%%
 {acc}a deep elf demonologist
 einen Tiefenelf-Dämonologen
+%%%%
+{acc}%d deep elf demonologists
+%d Tiefenelf-Dämonologen
 %%%%
 # check plural above
 %%%%
 {acc}a deep elf annihilator
 einen Tiefenelf-Vernichter
 %%%%
+{acc}%d deep elf annihilators
+%d Tiefenelf-Vernichter
+%%%%
 # check plural above
 %%%%
 {acc}a deep elf sorcerer
 einen Tiefenelf-Zauberer
+%%%%
+{acc}%d deep elf sorcerers
+%d Tiefenelf-Zauberer
 %%%%
 # check plural above
 %%%%
 {acc}a deep elf death mage
 einen Tiefenelf-Todesmagier
 %%%%
+{acc}%d deep elf death magi
+%d Tiefenelf-Todesmagier
+%%%%
 # check plural above
 %%%%
 {acc}a deep elf elementalist
 einen Tiefenelf-Elementalisten
 %%%%
+{acc}%d deep elf elementalists
+%d Tiefenelf-Elementalisten
+%%%%
 {acc}a wandering mushroom
 einen wandernden Pilz
+%%%%
+{acc}%d wandering mushrooms
+%d wandernde Pilze
 %%%%
 # check plural above
 %%%%
 {acc}a thorn hunter
 einen Dornenjäger
 %%%%
+{acc}%d thorn hunters
+%d Dornenjäger
+%%%%
 # check plural above
 %%%%
 {acc}a vine stalker
 einen Rebjäger
+%%%%
+{acc}%d vine stalkers
+%d Rebjäger
 %%%%
 # check plural above
 %%%%
 {acc}a goblin
 einen Goblin
 %%%%
+{acc}%d goblins
+%d Goblins
+%%%%
 {acc}a hobgoblin
 einen Hobgoblin
 %%%%
+{acc}%d hobgoblins
+%d Hobgoblins
+%%%%
 {acc}a gnoll
 einen Gnoll
+%%%%
+{acc}%d gnolls
+%d Gnolle
 %%%%
 # check plural above
 %%%%
 {acc}a gnoll shaman
 einen Gnoll-Schamanen
 %%%%
+{acc}%d gnoll shamans
+%d Gnoll-Schamanen
+%%%%
 # check plural above
 %%%%
 {acc}a gnoll sergeant
 einen Gnoll-Wachtmeister
+%%%%
+{acc}%d gnoll sergeants
+%d Gnoll-Wachtmeister
 %%%%
 # check plural above
 %%%%
 {acc}a boggart
 einen Boggart
 %%%%
+{acc}%d boggarts
+%d Boggarte
+%%%%
 # check plural above
 %%%%
 {acc}a dwarf
 einen Zwerg
+%%%%
+{acc}%d dwarves
+%d Zwerge
 %%%%
 # check plural above
 %%%%
 {acc}a deep dwarf
 einen Tiefenzwerg
 %%%%
+{acc}%d deep dwarves
+%d Tiefenzwerge
+%%%%
 # check plural above
 %%%%
 {acc}a jackal
 einen Schakal
+%%%%
+{acc}%d jackals
+%d Schakale
 %%%%
 # check plural above
 %%%%
 {acc}a hound
 einen Hund
 %%%%
+{acc}%d hounds
+%d Hunde
+%%%%
 # check plural above
 %%%%
 {acc}a howler monkey
 einen Brüllaffen
+%%%%
+{acc}%d howler monkeys
+%d Brüllaffen
 %%%%
 # check plural above
 %%%%
 {acc}a warg
 einen Warg
 %%%%
+{acc}%d wargs
+%d Warge
+%%%%
 # check plural above
 %%%%
 {acc}a wolf
 einen Wolf
+%%%%
+{acc}%d wolves
+%d Wolfe
 %%%%
 # check plural above
 %%%%
 {acc}a hell hound
 einen Höllenhund
 %%%%
+{acc}%d hell hounds
+%d Höllenhunde
+%%%%
 # check plural above
 %%%%
 {acc}a doom hound
 einen Untergangshund
+%%%%
+{acc}%d doom hounds
+%d Untergangshunde
 %%%%
 # check plural above
 %%%%
 {acc}a raiju
 einen Raiju
 %%%%
+{acc}%d raiju
+%d Raijus
+%%%%
 # check plural above
 %%%%
 {acc}a bear
 einen Bären
 %%%%
+{acc}%d bears
+%d Bären
+%%%%
 {acc}a polar bear
 einen Eisbären
+%%%%
+{acc}%d polar bears
+%d Eisbären
 %%%%
 {acc}a black bear
 einen Schwarzbären
 %%%%
+{acc}%d black bears
+%d Schwarzbären
+%%%%
 {acc}a spriggan
 einen Spriggan
 %%%%
+{acc}%d spriggans
+%d Spriggans
+%%%%
 {acc}a spriggan rider
 einen Spriggan-Reiter
+%%%%
+{acc}%d spriggan riders
+%d Spriggan-Reiter
 %%%%
 # check plural above
 %%%%
 {acc}a spriggan druid
 einen Spriggan-Druiden
 %%%%
+{acc}%d spriggan druids
+%d Spriggan-Druiden
+%%%%
 # check plural above
 %%%%
 {acc}a spriggan berserker
 einen Spriggan-Berserker
+%%%%
+{acc}%d spriggan berserkers
+%d Spriggan-Berserker
 %%%%
 # check plural above
 %%%%
 {acc}a spriggan air mage
 einen Spriggan-Luftmagier
 %%%%
+{acc}%d spriggan air magi
+%d Spriggan-Luftmagier
+%%%%
 # check plural above
 %%%%
 {acc}a spriggan defender
 einen Spriggan-Verteidiger
+%%%%
+{acc}%d spriggan defenders
+%d Spriggan-Verteidiger
 %%%%
 # check plural above
 %%%%
 {acc}a drake
 einen Drachling
 %%%%
+{acc}%d drakes
+%d Drachlinge
+%%%%
 {acc}a swamp drake
 einen Sumpfdrachling
+%%%%
+{acc}%d swamp drakes
+%d Sumpfdrachlinge
 %%%%
 {acc}a rime drake
 einen Reifsdrachling
 %%%%
+{acc}%d rime drakes
+%d Reifsdrachlinge
+%%%%
 {acc}a wind drake
 einen Winddrachling
 %%%%
+{acc}%d wind drakes
+%d Winddrachlinge
+%%%%
 {acc}a lindwurm
 einen Lindwurm
+%%%%
+{acc}%d lindwurms
+%d Lindwurme
 %%%%
 # check plural above
 %%%%
 {acc}a death drake
 einen Todesdrachling
 %%%%
+{acc}%d death drakes
+%d Todesdrachlinge
+%%%%
 # check plural above
 %%%%
 {acc}a leopard gecko
 einen Leopardgecko
+%%%%
+{acc}%d leopard geckos
+%d Leopardgeckos
 %%%%
 # check plural above
 %%%%
 {acc}an iguana
 einen Leguan
 %%%%
+{acc}%d iguanas
+%d Leguane
+%%%%
 # check plural above
 %%%%
 {acc}a basilisk
 einen Basilisk
+%%%%
+{acc}%d basilisks
+%d Basiliske
 %%%%
 # check plural above
 %%%%
 {acc}a wyvern
 einen Wyvern
 %%%%
+{acc}%d wyverns
+%d Wyverns
+%%%%
 {acc}a komodo dragon
 einen Komododrachen
+%%%%
+{acc}%d komodo dragons
+%d Komododrachen
 %%%%
 # check plural above
 %%%%
 {acc}a merfolk impaler
 einen Meervolk-Impaler
 %%%%
+{acc}%d merfolk impalers
+%d Meervolk-Impaler
+%%%%
 # check plural above
 %%%%
 {acc}a merfolk javelineer
 einen Meervolk-Speerführer
+%%%%
+{acc}%d merfolk javelineers
+%d Meervolk-Speerführer
 %%%%
 # check plural above
 %%%%
 {acc}a merfolk aquamancer
 einen Meervolk-Aquamancer
 %%%%
+{acc}%d merfolk aquamancers
+%d Meervolk-Aquamancer
+%%%%
 # check plural above
 %%%%
 {acc}a merfolk avatar
 einen Meervolk-Avatar
+%%%%
+{acc}%d merfolk avatars
+%d Meervolk-Avatare
 %%%%
 # check plural above
 %%%%
 {acc}a necrophage
 einen Nekrophagen
 %%%%
+{acc}%d necrophages
+%d Nekrophagene
+%%%%
 # check plural above
 %%%%
 {acc}a ghoul
 einen Ghul
+%%%%
+{acc}%d ghouls
+%d Ghule
 %%%%
 # check plural above
 %%%%
 {acc}an orc
 einen Ork
 %%%%
+{acc}%d orcs
+%d Orke
+%%%%
 # check plural above
 %%%%
 {acc}an orc wizard
 einen Ork-Zauberer
+%%%%
+{acc}%d orc wizards
+%d Ork-Zauberer
 %%%%
 # check plural above
 %%%%
 {acc}an orc priest
 einen Ork-Priester
 %%%%
+{acc}%d orc priests
+%d Ork-Priester
+%%%%
 # check plural above
 %%%%
 {acc}an orc warrior
 einen Ork-Krieger
+%%%%
+{acc}%d orc warriors
+%d Ork-Krieger
 %%%%
 # check plural above
 %%%%
 {acc}an orc knight
 einen Ork-Ritter
 %%%%
+{acc}%d orc knights
+%d Ork-Ritter
+%%%%
 # check plural above
 %%%%
 {acc}an orc warlord
 einen Ork-Warlord
+%%%%
+{acc}%d orc warlords
+%d Ork-Warlorde
 %%%%
 # check plural above
 %%%%
 {acc}an orc sorcerer
 einen Ork-Hexenmeister
 %%%%
+{acc}%d orc sorcerers
+%d Ork-Hexenmeister
+%%%%
 # check plural above
 %%%%
 {acc}an orc high priest
 einen Ork-Hohepriester
+%%%%
+{acc}%d orc high priests
+%d Ork-Hohepriester
 %%%%
 # check plural above
 %%%%
 {acc}a lava orc
 einen Lava-Ork
 %%%%
+{acc}%d lava orcs
+%d Lava-Orke
+%%%%
 # check plural above
 %%%%
 {acc}a human
 einen Menschen
+%%%%
+{acc}%d humans
+%d Mensche
 %%%%
 # check plural above
 %%%%
 {acc}a slave
 einen Sklaven
 %%%%
+{acc}%d slaves
+%d Sklaven
+%%%%
 # check plural above
 %%%%
 {acc}a hell knight
 einen Höllenritter
+%%%%
+{acc}%d hell knights
+%d Höllenritter
 %%%%
 # check plural above
 %%%%
 {acc}a death knight
 einen Todesritter
 %%%%
+{acc}%d death knights
+%d Todesritter
+%%%%
 # check plural above
 %%%%
 {acc}a necromancer
 einen Nekromanten
 %%%%
+{acc}%d necromancers
+%d Nekromanten
+%%%%
 {acc}a wizard
 einen Zauberer
+%%%%
+{acc}%d wizards
+%d Zauberer
 %%%%
 # check plural above
 %%%%
 {acc}a vault guard
 einen Tresorwächter
 %%%%
+{acc}%d vault guards
+%d Tresorwächter
+%%%%
 # check plural above
 %%%%
 {acc}a vault warden
 einen Tresorwärter
+%%%%
+{acc}%d vault wardens
+%d Tresorwärter
 %%%%
 # check plural above
 %%%%
 {acc}an ironbrand convoker
 einen Eisenbrandeinberufer
 %%%%
+{acc}%d ironbrand convokers
+%d Eisenbrandeinberufer
+%%%%
 # check plural above
 %%%%
 {acc}an imperial myrmidon
 einen kaiserlichen Myrmidon
+%%%%
+{acc}%d imperial myrmidons
+%d kaiserliche Myrmidone
 %%%%
 # check plural above
 %%%%
 {acc}a servant of whispers
 einen Diener des Flüsterns
 %%%%
+{acc}%d servants of whispers
+%d Diener des Flüsterns
+%%%%
 # check plural above
 %%%%
 {acc}a ragged hierophant
 einen zerlumpten Hierophanten
 %%%%
+{acc}%d ragged hierophants
+%d zerlumpte Hierophanten
+%%%%
 {acc}an ironheart preserver
 einen Eisenherzbewahrer
+%%%%
+{acc}%d ironheart preservers
+%d Eisenherzbewahrer
 %%%%
 # check plural above
 %%%%
 {acc}a shapeshifter
 einen Gestaltwandler
 %%%%
+{acc}%d shapeshifters
+%d Gestaltwandler
+%%%%
 # check plural above
 %%%%
 {acc}a glowing shapeshifter
 einen leuchtenden Gestaltwandler
+%%%%
+{acc}%d glowing shapeshifters
+%d leuchtende Gestaltwandler
 %%%%
 # check plural above
 %%%%
 {acc}a Killer Klown
 einen Killer-Klown
 %%%%
+{acc}%d Killer Klowns
+%d Killer-Klowns
+%%%%
 {acc}a demigod
 einen Halbgott
+%%%%
+{acc}%d demigods
+%d Halbgotte
 %%%%
 # check plural above
 %%%%
 {acc}a halfling
 einen Halbling
 %%%%
+{acc}%d halflings
+%d Halblinge
+%%%%
 {acc}a scorpion
 einen Skorpion
+%%%%
+{acc}%d scorpions
+%d Skorpione
 %%%%
 # check plural above
 %%%%
 {acc}an emperor scorpion
 einen Kaiserskorpion
 %%%%
+{acc}%d emperor scorpions
+%d Kaiserskorpione
+%%%%
 # check plural above
 %%%%
 {acc}a death scarab
 einen Todesskarabäus
+%%%%
+{acc}%d death scarabs
+%d Todesskarabäen
 %%%%
 # check plural above
 %%%%
 {acc}a demonic crawler
 einen dämonischen Kriecher
 %%%%
+{acc}%d demonic crawlers
+%d dämonische Kriecher
+%%%%
 # check plural above
 %%%%
 {acc}an alligator
 einen Alligator
+%%%%
+{acc}%d alligators
+%d Alligatore
 %%%%
 # check plural above
 %%%%
 {acc}a fire vortex
 einen Feuerwirbel
 %%%%
+{acc}%d fire vortices
+%d Feuerwirbel
+%%%%
 # check plural above
 %%%%
 {acc}a spatial vortex
 einen räumlichen Wirbel
+%%%%
+{acc}%d spatial vortices
+%d räumliche Wirbel
 %%%%
 # check plural above
 %%%%
 {acc}a spatial maelstrom
 einen räumlichen Mahlstrom
 %%%%
+{acc}%d spatial maelstroms
+%d räumliche Mahlstrome
+%%%%
 # check plural above
 %%%%
 {acc}a twister
 einen Twister
+%%%%
+{acc}%d twisters
+%d Twister
 %%%%
 # check plural above
 %%%%
 {acc}a worm
 einen Wurm
 %%%%
+{acc}%d worms
+%d Wurme
+%%%%
 # check plural above
 %%%%
 {acc}a swamp worm
 einen Sumpfwurm
+%%%%
+{acc}%d swamp worms
+%d Sumpfwurme
 %%%%
 # check plural above
 %%%%
 {acc}a tyrant leech
 einen Tyrannblutegel
 %%%%
+{acc}%d tyrant leeches
+%d Tyrannblutegel
+%%%%
 # check plural above
 %%%%
 {acc}a small abomination
 einen kleinen Greuel
+%%%%
+{acc}%d small abominations
+%d kleine Greuel
 %%%%
 # check plural above
 %%%%
 {acc}an ancient zyme
 einen alten Zymen
 %%%%
+{acc}%d ancient zymes
+%d alte Zymen
+%%%%
 # check plural above
 %%%%
 {acc}a worldbinder
 einen Weltbinder
+%%%%
+{acc}%d worldbinders
+%d Weltbinder
 %%%%
 # check plural above
 %%%%
 {acc}a wight
 einen Wight
 %%%%
+{acc}%d wights
+%d Wighte
+%%%%
 # check plural above
 %%%%
 {acc}a skeletal warrior
 einen Skelettkrieger
+%%%%
+{acc}%d skeletal warriors
+%d Skelettkrieger
 %%%%
 # check plural above
 %%%%
 {acc}an ancient champion
 einen alten Champion
 %%%%
+{acc}%d ancient champions
+%d alte Champione
+%%%%
 # check plural above
 %%%%
 {acc}a flying skull
 einen fliegenden Schädel
+%%%%
+{acc}%d flying skulls
+%d fliegende Schädel
 %%%%
 # check plural above
 %%%%
 {acc}a curse skull
 einen Fluchschädel
 %%%%
+{acc}%d curse skulls
+%d Fluchschädel
+%%%%
 # check plural above
 %%%%
 {acc}a curse toe
 einen Fluchzehen
+%%%%
+{acc}%d curse toes
+%d Fluchzehen
 %%%%
 # check plural above
 %%%%
 {acc}an angel
 einen Engel
 %%%%
+{acc}%d angels
+%d Engel
+%%%%
 # check plural above
 %%%%
 {acc}a cherub
 einen Cherub
+%%%%
+{acc}%d cherubim
+%d Cherube
 %%%%
 # check plural above
 %%%%
 {acc}a seraph
 einen Seraph
 %%%%
+{acc}%d seraphim
+%d Seraphe
+%%%%
 # check plural above
 %%%%
 {acc}a daeva
 einen Daeva
+%%%%
+{acc}%d daevas
+%d Daevas
 %%%%
 # check plural above
 %%%%
 {acc}a profane servitor
 einen profanen Diener
 %%%%
+{acc}%d profane servitors
+%d profane Diener
+%%%%
 # check plural above
 %%%%
 {acc}a giant
 einen Riesen
+%%%%
+{acc}%d giants
+%d Riesen
 %%%%
 # check plural above
 %%%%
 {acc}a cyclops
 einen Zyklop
 %%%%
+{acc}%d cyclopes
+%d Zyklope
+%%%%
 # check plural above
 %%%%
 {acc}an ettin
 einen Ettin
+%%%%
+{acc}%d ettins
+%d Ettine
 %%%%
 # check plural above
 %%%%
 {acc}a fire giant
 einen Feuerriesen
 %%%%
+{acc}%d fire giants
+%d Feuerriesen
+%%%%
 # check plural above
 %%%%
 {acc}a frost giant
 einen Frostriesen
+%%%%
+{acc}%d frost giants
+%d Frostriesen
 %%%%
 # check plural above
 %%%%
 {acc}a stone giant
 einen Steinriesen
 %%%%
+{acc}%d stone giants
+%d Steinriesen
+%%%%
 # check plural above
 %%%%
 {acc}a titan
 einen Titan
+%%%%
+{acc}%d titans
+%d Titane
 %%%%
 # check plural above
 %%%%
 {acc}a juggernaut
 einen Juggernaut
 %%%%
+{acc}%d juggernauts
+%d Juggernaute
+%%%%
 # check plural above
 %%%%
 {acc}an iron giant
 einen Eisenriesen
+%%%%
+{acc}%d iron giants
+%d Eisenriesen
 %%%%
 # check plural above
 %%%%
 {acc}a dragon
 einen Drachen
 %%%%
+{acc}%d dragons
+%d Drachen
+%%%%
 # check plural above
 %%%%
 {acc}a fire dragon
 einen Feuerdrachen
+%%%%
+{acc}%d fire dragons
+%d Feuerdrachen
 %%%%
 # check plural above
 %%%%
 {acc}an ice dragon
 einen Eisdrachen
 %%%%
+{acc}%d ice dragons
+%d Eisdrachen
+%%%%
 # check plural above
 %%%%
 {acc}a steam dragon
 einen Dampfdrachen
+%%%%
+{acc}%d steam dragons
+%d Dampfdrachen
 %%%%
 # check plural above
 %%%%
 {acc}a swamp dragon
 einen Sumpfdrachen
 %%%%
+{acc}%d swamp dragons
+%d Sumpfdrachen
+%%%%
 # check plural above
 %%%%
 {acc}an acid dragon
 einen Säuredrachen
+%%%%
+{acc}%d acid dragons
+%d Säuredrachen
 %%%%
 # check plural above
 %%%%
 {acc}a quicksilver dragon
 einen Quecksilberdrachen
 %%%%
+{acc}%d quicksilver dragons
+%d Quecksilberdrachen
+%%%%
 # check plural above
 %%%%
 {acc}an iron dragon
 einen Eisendrachen
+%%%%
+{acc}%d iron dragons
+%d Eisendrachen
 %%%%
 # check plural above
 %%%%
 {acc}a storm dragon
 einen Sturmdrachen
 %%%%
+{acc}%d storm dragons
+%d Sturmdrachen
+%%%%
 # check plural above
 %%%%
 {acc}a golden dragon
 einen Golddrachen
+%%%%
+{acc}%d golden dragons
+%d Golddrachen
 %%%%
 # check plural above
 %%%%
 {acc}a shadow dragon
 einen Schattendrachen
 %%%%
+{acc}%d shadow dragons
+%d Schattendrachen
+%%%%
 # check plural above
 %%%%
 {acc}a bone dragon
 einen Knochendrachen
+%%%%
+{acc}%d bone dragons
+%d Knochendrachen
 %%%%
 # check plural above
 %%%%
 {acc}a pearl dragon
 einen Perlendrachen
 %%%%
+{acc}%d pearl dragons
+%d Perlendrachen
+%%%%
 # check plural above
 %%%%
 {acc}a giant frog
 einen Riesenfrosch
+%%%%
+{acc}%d giant frogs
+%d Riesenfrosche
 %%%%
 # check plural above
 %%%%
 {acc}a bullfrog
 einen Ochsenfrosch
 %%%%
+{acc}%d bullfrogs
+%d Ochsenfrosche
+%%%%
 # check plural above
 %%%%
 {acc}a spiny frog
 einen Stachelfrosch
+%%%%
+{acc}%d spiny frogs
+%d Stachelfrosche
 %%%%
 # check plural above
 %%%%
 {acc}a blink frog
 einen Flimmerfrosch
 %%%%
+{acc}%d blink frogs
+%d Flimmerfrosche
+%%%%
 # check plural above
 %%%%
 {acc}a great orb of eyes
 einen großen Augenkugel
+%%%%
+{acc}%d great orbs of eyes
+%d große Augenkugel
 %%%%
 # check plural above
 %%%%
 {acc}an ophan
 einen Ophan
 %%%%
+{acc}%d ophanim
+%d Ophane
+%%%%
 # check plural above
 %%%%
 {acc}a hippogriff
 einen Hippogriff
+%%%%
+{acc}%d hippogriffs
+%d Hippogriffe
 %%%%
 # check plural above
 %%%%
 {acc}a manticore
 einen Mantikor
 %%%%
+{acc}%d manticores
+%d Mantikore
+%%%%
 # check plural above
 %%%%
 {acc}a minotaur
 einen Minotaurus
+%%%%
+{acc}%d minotaurs
+%d Minotauren
 %%%%
 # check plural above
 %%%%
 {acc}an ancestor
 einen Ahnen
 %%%%
+{acc}%d ancestors
+%d Ahnen
+%%%%
 # check plural above
 %%%%
 {acc}a knight
 einen Ritter
+%%%%
+{acc}%d knights
+%d Ritter
 %%%%
 # check plural above
 %%%%
 {acc}a battlemage
 einen Kampfmagier
 %%%%
+{acc}%d battlemagi
+%d Kampfmagier
+%%%%
 # check plural above
 %%%%
 {acc}a hexer
 einen Hexer
+%%%%
+{acc}%d hexers
+%d Hexer
 %%%%
 # check plural above
 %%%%
 {acc}an ooze
 einen Schlamm
 %%%%
+{acc}%d oozes
+%d Schlamme
+%%%%
 # check plural above
 %%%%
 {acc}a death ooze
 einen Todesschlamm
+%%%%
+{acc}%d death oozes
+%d Todesschlamme
 %%%%
 # check plural above
 %%%%
 {acc}an acid blob
 einen Säureklumpen
 %%%%
+{acc}%d acid blobs
+%d Säureklumpene
+%%%%
 # check plural above
 %%%%
 {acc}a kobold
 einen Kobold
+%%%%
+{acc}%d kobolds
+%d Kobolde
 %%%%
 # check plural above
 %%%%
 {acc}a big kobold
 einen großen Kobold
 %%%%
+{acc}%d big kobolds
+%d große Kobolde
+%%%%
 # check plural above
 %%%%
 {acc}a kobold demonologist
 einen Kobold-Dämonologen
+%%%%
+{acc}%d kobold demonologists
+%d Kobold-Dämonologen
 %%%%
 # check plural above
 %%%%
 {acc}a lich
 einen Lich
 %%%%
+{acc}%d liches
+%d Lichs
+%%%%
 {acc}an ancient lich
 einen alten Lich
 %%%%
+{acc}%d ancient liches
+%d alte Lichs
+%%%%
 {acc}a revenant
 einen Wiedergänger
+%%%%
+{acc}%d revenants
+%d Wiedergänger
 %%%%
 # check plural above
 %%%%
 {acc}a halazid warlock
 einen halazidischen Hexenmeister
 %%%%
+{acc}%d halazid warlocks
+%d halazidische Hexenmeister
+%%%%
 # check plural above
 %%%%
 {acc}a mummy priest
 einen Mumie-Priester
+%%%%
+{acc}%d mummy priests
+%d Mumie-Priester
 %%%%
 # check plural above
 %%%%
 {acc}a naga
 einen Naga
 %%%%
+{acc}%d nagas
+%d Nagas
+%%%%
 # check plural above
 %%%%
 {acc}a naga mage
 einen Naga-Magier
+%%%%
+{acc}%d naga magi
+%d Naga-Magier
 %%%%
 # check plural above
 %%%%
 {acc}a naga sharpshooter
 einen Naga-Scharfschützen
 %%%%
+{acc}%d naga sharpshooters
+%d Naga-Scharfschützen
+%%%%
 # check plural above
 %%%%
 {acc}a naga ritualist
 einen Naga-Ritualisten
 %%%%
+{acc}%d naga ritualists
+%d Naga-Ritualisten
+%%%%
 {acc}a naga warrior
 einen Naga-Krieger
+%%%%
+{acc}%d naga warriors
+%d Naga-Krieger
 %%%%
 # check plural above
 %%%%
 {acc}a nagaraja
 einen Nagaraja
 %%%%
+{acc}%d nagarajas
+%d Nagarajas
+%%%%
 # check plural above
 %%%%
 {acc}an ogre
 einen Oger
+%%%%
+{acc}%d ogres
+%d Oger
 %%%%
 # check plural above
 %%%%
 {acc}a two-headed ogre
 einen zweiköpfigen Oger
 %%%%
+{acc}%d two-headed ogres
+%d zweiköpfige Oger
+%%%%
 # check plural above
 %%%%
 {acc}an ogre mage
 einen Oger-Magier
+%%%%
+{acc}%d ogre magi
+%d Oger-Magier
 %%%%
 # check plural above
 %%%%
 {acc}an oklob sapling
 einen Oklob-Setzling
 %%%%
+{acc}%d oklob saplings
+%d Oklob-Setzlinge
+%%%%
 {acc}a bush
 einen Busch
+%%%%
+{acc}%d bushes
+%d Busche
 %%%%
 # check plural above
 %%%%
 {acc}a burning bush
 einen brennenden Busch
 %%%%
+{acc}%d burning bushes
+%d brennende Busche
+%%%%
 # check plural above
 %%%%
 {acc}a toadstool
 einen Giftpilz
+%%%%
+{acc}%d toadstools
+%d Giftpilze
 %%%%
 # check plural above
 %%%%
 {acc}a fungus
 einen Pilz
 %%%%
+{acc}%d fungi
+%d Pilze
+%%%%
 # check plural above
 %%%%
 {acc}a ballistomycete
 einen Ballistomyceten
+%%%%
+{acc}%d ballistomycetes
+%d Ballistomyceten
 %%%%
 # check plural above
 %%%%
 {acc}a hyperactive ballistomycete
 einen hyperaktiven Ballistomyceten
 %%%%
+{acc}%d hyperactive ballistomycetes
+%d hyperaktive Ballistomyceten
+%%%%
 # check plural above
 %%%%
 {acc}a briar patch
 einen Dornstrauch
+%%%%
+{acc}%d briar patches
+%d Dornstrauche
 %%%%
 # check plural above
 %%%%
 {acc}a tengu
 einen Tengu
 %%%%
+{acc}%d tengu
+%d Tengus
+%%%%
 # check plural above
 %%%%
 {acc}a tengu conjurer
 einen Tengu-Zauberer
+%%%%
+{acc}%d tengu conjurers
+%d Tengu-Zauberer
 %%%%
 # check plural above
 %%%%
 {acc}a tengu warrior
 einen Tengu-Krieger
 %%%%
+{acc}%d tengu warriors
+%d Tengu-Krieger
+%%%%
 # check plural above
 %%%%
 {acc}a tengu reaver
 einen Tengu-Häscher
+%%%%
+{acc}%d tengu reavers
+%d Tengu-Häscher
 %%%%
 # check plural above
 %%%%
 {acc}a rakshasa
 einen Rakshasa
 %%%%
+{acc}%d rakshasas
+%d Rakshasas
+%%%%
 # check plural above
 %%%%
 {acc}a water moccasin
 einen Wassermokassin
+%%%%
+{acc}%d water moccasins
+%d Wassermokassine
 %%%%
 # check plural above
 %%%%
 {acc}a troll
 einen Troll
 %%%%
+{acc}%d trolls
+%d Trolle
+%%%%
 # check plural above
 %%%%
 {acc}an iron troll
 einen Eisentroll
+%%%%
+{acc}%d iron trolls
+%d Eisentrolle
 %%%%
 # check plural above
 %%%%
 {acc}a deep troll
 einen Tiefentroll
 %%%%
+{acc}%d deep trolls
+%d Tiefentrolle
+%%%%
 # check plural above
 %%%%
 {acc}a deep troll earth mage
 einen Tiefentroll-Erdmagier
+%%%%
+{acc}%d deep troll earth magi
+%d Tiefentroll-Erdmagier
 %%%%
 # check plural above
 %%%%
 {acc}a deep troll shaman
 einen Tiefentroll-Schamanen
 %%%%
+{acc}%d deep troll shamans
+%d Tiefentroll-Schamanen
+%%%%
 # check plural above
 %%%%
 {acc}a vampire
 einen Vampir
+%%%%
+{acc}%d vampires
+%d Vampire
 %%%%
 # check plural above
 %%%%
 {acc}a vampire knight
 einen Vampir-Ritter
 %%%%
+{acc}%d vampire knights
+%d Vampir-Ritter
+%%%%
 # check plural above
 %%%%
 {acc}a vampire mage
 einen Vampir-Magier
+%%%%
+{acc}%d vampire magi
+%d Vampir-Magier
 %%%%
 # check plural above
 %%%%
 {acc}a hungry ghost
 einen hungrigen Geisten
 %%%%
+{acc}%d hungry ghosts
+%d hungrige Geister
+%%%%
 {acc}a flayed ghost
 einen enthäuteten Geisten
+%%%%
+{acc}%d flayed ghosts
+%d enthäutete Geister
 %%%%
 {acc}a player ghost
 einen Spielergeisten
 %%%%
+{acc}%d player ghosts
+%d Spielergeister
+%%%%
 {acc}a shadow
 einen Schatten
+%%%%
+{acc}%d shadows
+%d Schatten
 %%%%
 {acc}a wraith
 einen Geisten
 %%%%
+{acc}%d wraiths
+%d Geister
+%%%%
 {acc}a shadow wraith
 einen Schattengeisten
+%%%%
+{acc}%d shadow wraiths
+%d Schattengeister
 %%%%
 {acc}a freezing wraith
 einen Frostgeisten
 %%%%
+{acc}%d freezing wraiths
+%d Frostgeister
+%%%%
 {acc}an eidolon
 einen Eidolon
+%%%%
+{acc}%d eidola
+%d Eidolone
 %%%%
 # check plural above
 %%%%
 {acc}a phantasmal warrior
 einen phantastischen Krieger
 %%%%
+{acc}%d phantasmal warriors
+%d phantastische Krieger
+%%%%
 # check plural above
 %%%%
 {acc}a large abomination
 einen großen Greuel
+%%%%
+{acc}%d large abominations
+%d große Greuel
 %%%%
 # check plural above
 %%%%
 {acc}an Orb Guardian
 einen Kugelwächter
 %%%%
+{acc}%d Orb Guardians
+%d Kugelwächter
+%%%%
 # check plural above
 %%%%
 {acc}a tentacled starspawn
 einen Tentakelsternbrut
+%%%%
+{acc}%d tentacled starspawn
+%d Tentakelsternbrute
 %%%%
 # check plural above
 %%%%
 {acc}a starspawn tentacle
 einen Sternbruttentakel
 %%%%
+{acc}%d starspawn tentacles
+%d Sternbruttentakel
+%%%%
 # check plural above
 %%%%
 {acc}an elephant
 einen Elefanten
 %%%%
+{acc}%d elephants
+%d Elefanten
+%%%%
 {acc}a dire elephant
 einen Schreckenselefanten
+%%%%
+{acc}%d dire elephants
+%d Schreckenselefanten
 %%%%
 {acc}a hellephant
 einen Höllefanten
 %%%%
+{acc}%d hellephants
+%d Höllefanten
+%%%%
 {acc}a zombie
 einen Zombie
+%%%%
+{acc}%d zombies
+%d Zombies
 %%%%
 {acc}a small zombie
 einen kleinen Zombie
 %%%%
+{acc}%d small zombies
+%d kleine Zombies
+%%%%
 {acc}a large zombie
 einen großen Zombie
 %%%%
+{acc}%d large zombies
+%d große Zombies
+%%%%
 {acc}an electric eel
 einen Zitteraal
+%%%%
+{acc}%d electric eels
+%d Zitteraale
 %%%%
 # check plural above
 %%%%
 {acc}a kraken
 einen Kraken
 %%%%
+{acc}%d krakens
+%d Krakene
+%%%%
 # check plural above
 %%%%
 {acc}a tentacle
 einen Tentakel
+%%%%
+{acc}%d tentacles
+%d Tentakel
 %%%%
 # check plural above
 %%%%
 {acc}an octopode
 einen Oktopod
 %%%%
+{acc}%d octopodes
+%d Oktopode
+%%%%
 # check plural above
 %%%%
 {acc}a salamander
 einen Salamander
+%%%%
+{acc}%d salamanders
+%d Salamander
 %%%%
 # check plural above
 %%%%
 {acc}a salamander mystic
 einen Salamander-Mystiker
 %%%%
+{acc}%d salamander mystics
+%d Salamander-Mystiker
+%%%%
 # check plural above
 %%%%
 {acc}a Hellbinder
 einen Höllenbinder
+%%%%
+{acc}%d Hellbinders
+%d Höllenbinder
 %%%%
 # check plural above
 %%%%
 {acc}a Cloud Mage
 einen Wolkenmagier
 %%%%
+{acc}%d Cloud Mages
+%d Wolkenmagier
+%%%%
 # check plural above
 %%%%
 {acc}a player
 einen Spieler
+%%%%
+{acc}%d players
+%d Spieler
 %%%%
 # check plural above
 %%%%
 {acc}an eldritch tentacle
 einen unheimlichen Tentakel
 %%%%
+{acc}%d eldritch tentacles
+%d unheimliche Tentakel
+%%%%
 # check plural above
 %%%%
 {acc}a gelid demonspawn
 einen geliden Dämonenbrut
+%%%%
+{acc}%d gelid demonspawn
+%d gelide Dämonenbrute
 %%%%
 # check plural above
 %%%%
 {acc}a blood saint
 einen Blutheiligen
 %%%%
+{acc}%d blood saints
+%d Blutheiligen
+%%%%
 # check plural above
 %%%%
 {acc}a warmonger
 einen Kriegstreiber
+%%%%
+{acc}%d warmongers
+%d Kriegstreiber
 %%%%
 # check plural above
 %%%%
 {acc}a corrupter
 einen Korruptor
 %%%%
+{acc}%d corrupters
+%d Korruptore
+%%%%
 # check plural above
 %%%%
 {acc}an ufetubus
 einen Ufetubus
 %%%%
+{acc}%d ufetubi
+%d Ufetubi
+%%%%
 {acc}a rust devil
 einen Rostteufel
+%%%%
+{acc}%d rust devils
+%d Rostteufel
 %%%%
 # check plural above
 %%%%
 {acc}an orange demon
 einen orangen Dämon
 %%%%
+{acc}%d orange demons
+%d orange Dämone
+%%%%
 # check plural above
 %%%%
 {acc}a red devil
 einen roten Teufel
+%%%%
+{acc}%d red devils
+%d rote Teufel
 %%%%
 # check plural above
 %%%%
 {acc}a hellwing
 einen Höllenflügel
 %%%%
+{acc}%d hellwings
+%d Höllenflügel
+%%%%
 # check plural above
 %%%%
 {acc}an ice devil
 einen Eisteufel
+%%%%
+{acc}%d ice devils
+%d Eisteufel
 %%%%
 # check plural above
 %%%%
 {acc}a sun demon
 einen Sonnendämon
 %%%%
+{acc}%d sun demons
+%d Sonnendämone
+%%%%
 # check plural above
 %%%%
 {acc}a soul eater
 einen Seelenfresser
+%%%%
+{acc}%d soul eaters
+%d Seelenfresser
 %%%%
 # check plural above
 %%%%
 {acc}a smoke demon
 einen Rauchdämon
 %%%%
+{acc}%d smoke demons
+%d Rauchdämone
+%%%%
 # check plural above
 %%%%
 {acc}a sixfirhy
 einen Sixfirhy
+%%%%
+{acc}%d sixfirhies
+%d Sixfirhys
 %%%%
 # check plural above
 %%%%
 {acc}a shadow demon
 einen Schattendämon
 %%%%
+{acc}%d shadow demons
+%d Schattendämone
+%%%%
 # check plural above
 %%%%
 {acc}a green death
 einen grünen Tod
+%%%%
+{acc}%d green deaths
+%d grüne Tode
 %%%%
 # check plural above
 %%%%
 {acc}a blizzard demon
 einen Blizzarddämon
 %%%%
+{acc}%d blizzard demons
+%d Blizzarddämone
+%%%%
 # check plural above
 %%%%
 {acc}a balrug
 einen Balrug
+%%%%
+{acc}%d balrugs
+%d Balruge
 %%%%
 # check plural above
 %%%%
 {acc}a cacodemon
 einen Cacodaemon
 %%%%
+{acc}%d cacodemons
+%d Cacodaemone
+%%%%
 # check plural above
 %%%%
 {acc}a hellion
 einen Teufelsbraten
+%%%%
+{acc}%d hellions
+%d Teufelsbratene
 %%%%
 # check plural above
 %%%%
 {acc}a reaper
 einen Schnitter
 %%%%
+{acc}%d reapers
+%d Schnitter
+%%%%
 # check plural above
 %%%%
 {acc}a tormentor
 einen Peiniger
+%%%%
+{acc}%d tormentors
+%d Peiniger
 %%%%
 # check plural above
 %%%%
 {acc}a Brimstone Fiend
 einen Schwefelunterweltler
 %%%%
+{acc}%d Brimstone Fiends
+%d Schwefelunterweltler
+%%%%
 # check plural above
 %%%%
 {acc}an Ice Fiend
 einen Eisunterweltler
+%%%%
+{acc}%d Ice Fiends
+%d Eisunterweltler
 %%%%
 # check plural above
 %%%%
 {acc}a Hell Sentinel
 einen Höllenwächter
 %%%%
+{acc}%d Hell Sentinels
+%d Höllenwächter
+%%%%
 # check plural above
 %%%%
 {acc}an Executioner
 einen Scharfrichter
+%%%%
+{acc}%d Executioners
+%d Scharfrichter
 %%%%
 # check plural above
 %%%%
 {acc}an animated tree
 einen animierten Baum
 %%%%
+{acc}%d animated trees
+%d animierte Bäume
+%%%%
 {acc}a golem
 einen Golem
+%%%%
+{acc}%d golems
+%d Goleme
 %%%%
 # check plural above
 %%%%
 {acc}a saltling
 einen Salzling
 %%%%
+{acc}%d saltlings
+%d Salzlinge
+%%%%
 {acc}a peacekeeper
 einen Friedenshüter
+%%%%
+{acc}%d peacekeepers
+%d Friedenshüter
 %%%%
 # check plural above
 %%%%
 {acc}an iron golem
 einen Eisengolem
 %%%%
+{acc}%d iron golems
+%d Eisengoleme
+%%%%
 # check plural above
 %%%%
 {acc}a crystal guardian
 einen Kristallwächter
+%%%%
+{acc}%d crystal guardians
+%d Kristallwächter
 %%%%
 # check plural above
 %%%%
 {acc}a toenail golem
 einen Zehennagelgolem
 %%%%
+{acc}%d toenail golems
+%d Zehennagelgoleme
+%%%%
 # check plural above
 %%%%
 {acc}an electric golem
 einen Blitzgolem
+%%%%
+{acc}%d electric golems
+%d Blitzgoleme
 %%%%
 # check plural above
 %%%%
 {acc}a guardian golem
 einen Wächtergolem
 %%%%
+{acc}%d guardian golems
+%d Wächtergoleme
+%%%%
 # check plural above
 %%%%
 {acc}a spellforged servitor
 einen zaubergeschmeideten Diener
+%%%%
+{acc}%d spellforged servitors
+%d zaubergeschmeidete Diener
 %%%%
 # check plural above
 %%%%
 {acc}a block of ice
 einen Eisblock
 %%%%
+{acc}%d blocks of ice
+%d Eisblocke
+%%%%
 # check plural above
 %%%%
 {acc}a diamond obelisk
 einen Diamantobelisk
+%%%%
+{acc}%d diamond obelisks
+%d Diamantobeliske
 %%%%
 # check plural above
 %%%%
 {acc}a lightning spire
 einen Blitzturm
 %%%%
+{acc}%d lightning spires
+%d Blitzturme
+%%%%
 # check plural above
 %%%%
 {acc}a gargoyle
 einen Gargoyle
 %%%%
+{acc}%d gargoyles
+%d Gargoyles
+%%%%
 {acc}a war gargoyle
 einen Kriegsgargoyle
+%%%%
+{acc}%d war gargoyles
+%d Kriegsgargoyles
 %%%%
 {acc}a molten gargoyle
 einen geschmolzenen Gargoyle
 %%%%
+{acc}%d molten gargoyles
+%d geschmolzene Gargoyles
+%%%%
 {acc}a pandemonium lord
 einen Pandemoniumsherrn
+%%%%
+{acc}%d pandemonium lords
+%d Pandemoniumsherre
 %%%%
 # check plural above
 %%%%
 {acc}a hell lord
 einen Höllenherrn
 %%%%
+{acc}%d hell lords
+%d Höllenherre
+%%%%
 # check plural above
 %%%%
 {acc}a ball lightning
 einen Kugelblitz
+%%%%
+{acc}%d ball lightnings
+%d Kugelblitze
 %%%%
 # check plural above
 %%%%
 {acc}a wretched star
 einen elenden Stern
 %%%%
+{acc}%d wretched stars
+%d elende Sterne
+%%%%
 # check plural above
 %%%%
 {acc}a death cob
 einen Todeskolben
 %%%%
+{acc}%d death cobs
+%d Todeskolben
+%%%%
 {acc}a moon troll
 einen Mondtroll
+%%%%
+{acc}%d moon trolls
+%d Mondtrolle
 %%%%
 # check plural above
 %%%%
 {acc}a nameless horror
 einen namenlosen Horror
+%%%%
+{acc}%d nameless horrors
+%d namenlose Horror
 %%%%
 
 ################################
@@ -10744,6 +12993,7 @@ namenlosen Horror
 # German translations for monster names (dative case)
 #
 ###############################################################################
+%%%%
 
 ##############################################
 # Uniques
@@ -12295,2031 +14545,3402 @@ dem furchtbaren gespürten Monster
 {dat}a program bug
 einem Programmfehler
 %%%%
+{dat}%d program bugs
+%d Programmfehlern
+%%%%
 # check plural above
 %%%%
 {dat}a worker ant
 einer Ameisenarbeiterin
 %%%%
+{dat}%d worker ants
+%d Ameisenarbeiterinnen
+%%%%
 {dat}a queen ant
 einer Ameisenkönigin
+%%%%
+{dat}%d queen ants
+%d Ameisenköniginnen
 %%%%
 {dat}a soldier ant
 einer Ameisensoldatin
 %%%%
+{dat}%d soldier ants
+%d Ameisensoldatinnen
+%%%%
 {dat}a formicid
 einem Formicid
+%%%%
+{dat}%d formicids
+%d Formiciden
 %%%%
 # check plural above
 %%%%
 {dat}an entropy weaver
 einem Entropieweber
 %%%%
+{dat}%d entropy weavers
+%d Entropiewebern
+%%%%
 # check plural above
 %%%%
 {dat}a bat
 einer Fledermaus
 %%%%
+{dat}%d bats
+%d Fledermäusen
+%%%%
 {dat}a butterfly
 einem Schmetterling
+%%%%
+{dat}%d butterflies
+%d Schmetterlingen
 %%%%
 {dat}a vampire bat
 einer Vampirfledermaus
 %%%%
+{dat}%d vampire bats
+%d Vampirfledermäusen
+%%%%
 {dat}a fire bat
 einer Feuerfledermaus
 %%%%
+{dat}%d fire bats
+%d Feuerfledermäusen
+%%%%
 {dat}a bennu
 einem Bennu
+%%%%
+{dat}%d bennus
+%d Bennus
 %%%%
 # check plural above
 %%%%
 {dat}a caustic shrike
 einem ätzenden Würger
 %%%%
+{dat}%d caustic shrikes
+%d ätzenden Würgern
+%%%%
 # check plural above
 %%%%
 {dat}a shard shrike
 einem Scherbenwürger
+%%%%
+{dat}%d shard shrikes
+%d Scherbenwürgern
 %%%%
 # check plural above
 %%%%
 {dat}a centaur
 einem Zentaur
 %%%%
+{dat}%d centaurs
+%d Zentauren
+%%%%
 # check plural above
 %%%%
 {dat}a centaur warrior
 einem Zentaur-Krieger
+%%%%
+{dat}%d centaur warriors
+%d Zentaur-Kriegern
 %%%%
 # check plural above
 %%%%
 {dat}a yaktaur
 einem Yaktaur
 %%%%
+{dat}%d yaktaurs
+%d Yaktauren
+%%%%
 # check plural above
 %%%%
 {dat}a yaktaur captain
 einem Yaktaur-Kapitän
+%%%%
+{dat}%d yaktaur captains
+%d Yaktaur-Kapitänen
 %%%%
 # check plural above
 %%%%
 {dat}a faun
 einem Faun
 %%%%
+{dat}%d fauns
+%d Faunen
+%%%%
 # check plural above
 %%%%
 {dat}a satyr
 einem Satyr
+%%%%
+{dat}%d satyrs
+%d Satyren
 %%%%
 # check plural above
 %%%%
 {dat}a draconian
 einem Drakonier
 %%%%
+{dat}%d draconians
+%d Drakoniern
+%%%%
 # check plural above
 %%%%
 {dat}a black draconian
 einem schwarzen Drakonier
+%%%%
+{dat}%d black draconians
+%d schwarzen Drakoniern
 %%%%
 # check plural above
 %%%%
 {dat}a yellow draconian
 einem gelben Drakonier
 %%%%
+{dat}%d yellow draconians
+%d gelben Drakoniern
+%%%%
 # check plural above
 %%%%
 {dat}a pale draconian
 einem blassen Drakonier
+%%%%
+{dat}%d pale draconians
+%d blassen Drakoniern
 %%%%
 # check plural above
 %%%%
 {dat}a green draconian
 einem grünen Drakonier
 %%%%
+{dat}%d green draconians
+%d grünen Drakoniern
+%%%%
 # check plural above
 %%%%
 {dat}a purple draconian
 einem purpurnen Drakonier
+%%%%
+{dat}%d purple draconians
+%d purpurnen Drakoniern
 %%%%
 # check plural above
 %%%%
 {dat}a red draconian
 einem roten Drakonier
 %%%%
+{dat}%d red draconians
+%d roten Drakoniern
+%%%%
 # check plural above
 %%%%
 {dat}a white draconian
 einem weißen Drakonier
+%%%%
+{dat}%d white draconians
+%d weißen Drakoniern
 %%%%
 # check plural above
 %%%%
 {dat}a grey draconian
 einem grauen Drakonier
 %%%%
+{dat}%d grey draconians
+%d grauen Drakoniern
+%%%%
 # check plural above
 %%%%
 {dat}a draconian stormcaller
 einem Drakonier-Sturmrufer
+%%%%
+{dat}%d draconian stormcallers
+%d Drakonier-Sturmrufern
 %%%%
 # check plural above
 %%%%
 {dat}a draconian monk
 einem Drakonier-Mönch
 %%%%
+{dat}%d draconian monks
+%d Drakonier-Mönchen
+%%%%
 # check plural above
 %%%%
 {dat}a draconian shifter
 einem Drakonier-Verwandler
+%%%%
+{dat}%d draconian shifters
+%d Drakonier-Verwandlern
 %%%%
 # check plural above
 %%%%
 {dat}a draconian annihilator
 einem Drakonier-Vernichter
 %%%%
+{dat}%d draconian annihilators
+%d Drakonier-Vernichtern
+%%%%
 # check plural above
 %%%%
 {dat}a draconian knight
 einem Drakonier-Ritter
+%%%%
+{dat}%d draconian knights
+%d Drakonier-Rittern
 %%%%
 # check plural above
 %%%%
 {dat}a draconian scorcher
 einem Drakonier-Verschmorer
 %%%%
+{dat}%d draconian scorchers
+%d Drakonier-Verschmorern
+%%%%
 # check plural above
 %%%%
 {dat}an elf
 einem Elf
+%%%%
+{dat}%d elves
+%d Elfen
 %%%%
 # check plural above
 %%%%
 {dat}a deep elf knight
 einem Tiefenelf-Ritter
 %%%%
+{dat}%d deep elf knights
+%d Tiefenelf-Rittern
+%%%%
 # check plural above
 %%%%
 {dat}a deep elf archer
 einem Tiefenelf-Bogenschützen
+%%%%
+{dat}%d deep elf archers
+%d Tiefenelf-Bogenschützen
 %%%%
 # check plural above
 %%%%
 {dat}a deep elf blademaster
 einem Tiefenelf-Klingenmeister
 %%%%
+{dat}%d deep elf blademasters
+%d Tiefenelf-Klingenmeistern
+%%%%
 # check plural above
 %%%%
 {dat}a deep elf master archer
 einem Tiefenelf-Bogenmeister
+%%%%
+{dat}%d deep elf master archers
+%d Tiefenelf-Bogenmeistern
 %%%%
 # check plural above
 %%%%
 {dat}a deep elf mage
 einem Tiefenelf-Magier
 %%%%
+{dat}%d deep elf magi
+%d Tiefenelf-Magiern
+%%%%
 # check plural above
 %%%%
 {dat}a deep elf high priest
 einem Tiefenelf-Hohepriester
+%%%%
+{dat}%d deep elf high priests
+%d Tiefenelf-Hohepriestern
 %%%%
 # check plural above
 %%%%
 {dat}a deep elf demonologist
 einem Tiefenelf-Dämonologen
 %%%%
+{dat}%d deep elf demonologists
+%d Tiefenelf-Dämonologen
+%%%%
 # check plural above
 %%%%
 {dat}a deep elf annihilator
 einem Tiefenelf-Vernichter
+%%%%
+{dat}%d deep elf annihilators
+%d Tiefenelf-Vernichtern
 %%%%
 # check plural above
 %%%%
 {dat}a deep elf sorcerer
 einem Tiefenelf-Zauberer
 %%%%
+{dat}%d deep elf sorcerers
+%d Tiefenelf-Zauberern
+%%%%
 # check plural above
 %%%%
 {dat}a deep elf death mage
 einem Tiefenelf-Todesmagier
+%%%%
+{dat}%d deep elf death magi
+%d Tiefenelf-Todesmagiern
 %%%%
 # check plural above
 %%%%
 {dat}a deep elf elementalist
 einem Tiefenelf-Elementalisten
 %%%%
+{dat}%d deep elf elementalists
+%d Tiefenelf-Elementalisten
+%%%%
 {dat}a wandering mushroom
 einem wandernden Pilz
+%%%%
+{dat}%d wandering mushrooms
+%d wandernden Pilzen
 %%%%
 # check plural above
 %%%%
 {dat}a deathcap
 einer Todesmütze
 %%%%
+{dat}%d deathcaps
+%d Todesmützen
+%%%%
 {dat}a thorn hunter
 einem Dornenjäger
+%%%%
+{dat}%d thorn hunters
+%d Dornenjägern
 %%%%
 # check plural above
 %%%%
 {dat}a shambling mangrove
 einer watschelnden Mangrove
 %%%%
+{dat}%d shambling mangroves
+%d watschelnden Mangroven
+%%%%
 {dat}a vine stalker
 einem Rebjäger
+%%%%
+{dat}%d vine stalkers
+%d Rebjägern
 %%%%
 # check plural above
 %%%%
 {dat}a goblin
 einem Goblin
 %%%%
+{dat}%d goblins
+%d Goblins
+%%%%
 {dat}a hobgoblin
 einem Hobgoblin
 %%%%
+{dat}%d hobgoblins
+%d Hobgoblins
+%%%%
 {dat}a gnoll
 einem Gnoll
+%%%%
+{dat}%d gnolls
+%d Gnollen
 %%%%
 # check plural above
 %%%%
 {dat}a gnoll shaman
 einem Gnoll-Schamanen
 %%%%
+{dat}%d gnoll shamans
+%d Gnoll-Schamanen
+%%%%
 # check plural above
 %%%%
 {dat}a gnoll sergeant
 einem Gnoll-Wachtmeister
+%%%%
+{dat}%d gnoll sergeants
+%d Gnoll-Wachtmeistern
 %%%%
 # check plural above
 %%%%
 {dat}a boggart
 einem Boggart
 %%%%
+{dat}%d boggarts
+%d Boggarten
+%%%%
 # check plural above
 %%%%
 {dat}a dwarf
 einem Zwerg
+%%%%
+{dat}%d dwarves
+%d Zwergen
 %%%%
 # check plural above
 %%%%
 {dat}a deep dwarf
 einem Tiefenzwerg
 %%%%
+{dat}%d deep dwarves
+%d Tiefenzwergen
+%%%%
 # check plural above
 %%%%
 {dat}a jackal
 einem Schakal
+%%%%
+{dat}%d jackals
+%d Schakalen
 %%%%
 # check plural above
 %%%%
 {dat}a hound
 einem Hund
 %%%%
+{dat}%d hounds
+%d Hunden
+%%%%
 # check plural above
 %%%%
 {dat}a howler monkey
 einem Brüllaffen
+%%%%
+{dat}%d howler monkeys
+%d Brüllaffen
 %%%%
 # check plural above
 %%%%
 {dat}a warg
 einem Warg
 %%%%
+{dat}%d wargs
+%d Wargen
+%%%%
 # check plural above
 %%%%
 {dat}a wolf
 einem Wolf
+%%%%
+{dat}%d wolves
+%d Wolfen
 %%%%
 # check plural above
 %%%%
 {dat}a hog
 einem Schwein
 %%%%
+{dat}%d hogs
+%d Schweinen
+%%%%
 # check plural above
 %%%%
 {dat}a hell hound
 einem Höllenhund
+%%%%
+{dat}%d hell hounds
+%d Höllenhunden
 %%%%
 # check plural above
 %%%%
 {dat}a doom hound
 einem Untergangshund
 %%%%
+{dat}%d doom hounds
+%d Untergangshunden
+%%%%
 # check plural above
 %%%%
 {dat}a raiju
 einem Raiju
+%%%%
+{dat}%d raiju
+%d Raijus
 %%%%
 # check plural above
 %%%%
 {dat}a hell hog
 einem höllischen Schwein
 %%%%
+{dat}%d hell hogs
+%d höllischen Schweinen
+%%%%
 # check plural above
 %%%%
 {dat}a holy swine
 einem heiligen Schwein
+%%%%
+{dat}%d holy swine
+%d heiligen Schweinen
 %%%%
 # check plural above
 %%%%
 {dat}a felid
 einem Felid
 %%%%
+{dat}%d felids
+%d Feliden
+%%%%
 # check plural above
 %%%%
 {dat}a bear
 einem Bären
 %%%%
+{dat}%d bears
+%d Bären
+%%%%
 {dat}a polar bear
 einem Eisbären
+%%%%
+{dat}%d polar bears
+%d Eisbären
 %%%%
 {dat}a black bear
 einem Schwarzbären
 %%%%
+{dat}%d black bears
+%d Schwarzbären
+%%%%
 {dat}a spriggan
 einem Spriggan
 %%%%
+{dat}%d spriggans
+%d Spriggans
+%%%%
 {dat}a spriggan rider
 einem Spriggan-Reiter
+%%%%
+{dat}%d spriggan riders
+%d Spriggan-Reitern
 %%%%
 # check plural above
 %%%%
 {dat}a spriggan druid
 einem Spriggan-Druiden
 %%%%
+{dat}%d spriggan druids
+%d Spriggan-Druiden
+%%%%
 # check plural above
 %%%%
 {dat}a spriggan berserker
 einem Spriggan-Berserker
+%%%%
+{dat}%d spriggan berserkers
+%d Spriggan-Berserkern
 %%%%
 # check plural above
 %%%%
 {dat}a spriggan air mage
 einem Spriggan-Luftmagier
 %%%%
+{dat}%d spriggan air magi
+%d Spriggan-Luftmagiern
+%%%%
 # check plural above
 %%%%
 {dat}a spriggan defender
 einem Spriggan-Verteidiger
+%%%%
+{dat}%d spriggan defenders
+%d Spriggan-Verteidigern
 %%%%
 # check plural above
 %%%%
 {dat}a drake
 einem Drachling
 %%%%
+{dat}%d drakes
+%d Drachlingen
+%%%%
 {dat}a swamp drake
 einem Sumpfdrachling
+%%%%
+{dat}%d swamp drakes
+%d Sumpfdrachlingen
 %%%%
 {dat}a rime drake
 einem Reifsdrachling
 %%%%
+{dat}%d rime drakes
+%d Reifsdrachlingen
+%%%%
 {dat}a wind drake
 einem Winddrachling
 %%%%
+{dat}%d wind drakes
+%d Winddrachlingen
+%%%%
 {dat}a lindwurm
 einem Lindwurm
+%%%%
+{dat}%d lindwurms
+%d Lindwurmen
 %%%%
 # check plural above
 %%%%
 {dat}a death drake
 einem Todesdrachling
 %%%%
+{dat}%d death drakes
+%d Todesdrachlingen
+%%%%
 # check plural above
 %%%%
 {dat}a giant lizard
 einer Rieseneidechse
 %%%%
+{dat}%d giant lizards
+%d Rieseneidechsen
+%%%%
 {dat}a frilled lizard
 einer gekräuselten Eidechse
 %%%%
+{dat}%d frilled lizards
+%d gekräuselten Eidechsen
+%%%%
 {dat}a leopard gecko
 einem Leopardgecko
+%%%%
+{dat}%d leopard geckos
+%d Leopardgeckos
 %%%%
 # check plural above
 %%%%
 {dat}an iguana
 einem Leguan
 %%%%
+{dat}%d iguanas
+%d Leguanen
+%%%%
 # check plural above
 %%%%
 {dat}a basilisk
 einem Basilisk
+%%%%
+{dat}%d basilisks
+%d Basilisken
 %%%%
 # check plural above
 %%%%
 {dat}a wyvern
 einem Wyvern
 %%%%
+{dat}%d wyverns
+%d Wyverns
+%%%%
 {dat}a komodo dragon
 einem Komododrachen
+%%%%
+{dat}%d komodo dragons
+%d Komododrachen
 %%%%
 # check plural above
 %%%%
 {dat}a merfolk
 einem Meervolk
 %%%%
+{dat}%d merfolk
+%d Meervolken
+%%%%
 # check plural above
 %%%%
 {dat}a merfolk impaler
 einem Meervolk-Impaler
+%%%%
+{dat}%d merfolk impalers
+%d Meervolk-Impalern
 %%%%
 # check plural above
 %%%%
 {dat}a merfolk javelineer
 einem Meervolk-Speerführer
 %%%%
+{dat}%d merfolk javelineers
+%d Meervolk-Speerführern
+%%%%
 # check plural above
 %%%%
 {dat}a merfolk aquamancer
 einem Meervolk-Aquamancer
+%%%%
+{dat}%d merfolk aquamancers
+%d Meervolk-Aquamancern
 %%%%
 # check plural above
 %%%%
 {dat}a merfolk siren
 einer Meervolk-Sirene
 %%%%
+{dat}%d merfolk sirens
+%d Meervolk-Sirenen
+%%%%
 {dat}a merfolk avatar
 einem Meervolk-Avatar
+%%%%
+{dat}%d merfolk avatars
+%d Meervolk-Avataren
 %%%%
 # check plural above
 %%%%
 {dat}a water nymph
 einer Wassernymphe
 %%%%
+{dat}%d water nymphs
+%d Wassernymphen
+%%%%
 {dat}a bog body
 einer Moorleiche
 %%%%
+{dat}%d bog bodies
+%d Moorleichen
+%%%%
 {dat}a necrophage
 einem Nekrophagen
+%%%%
+{dat}%d necrophages
+%d Nekrophagenen
 %%%%
 # check plural above
 %%%%
 {dat}a ghoul
 einem Ghul
 %%%%
+{dat}%d ghouls
+%d Ghulen
+%%%%
 # check plural above
 %%%%
 {dat}an orc
 einem Ork
+%%%%
+{dat}%d orcs
+%d Orken
 %%%%
 # check plural above
 %%%%
 {dat}an orc wizard
 einem Ork-Zauberer
 %%%%
+{dat}%d orc wizards
+%d Ork-Zauberern
+%%%%
 # check plural above
 %%%%
 {dat}an orc priest
 einem Ork-Priester
+%%%%
+{dat}%d orc priests
+%d Ork-Priestern
 %%%%
 # check plural above
 %%%%
 {dat}an orc warrior
 einem Ork-Krieger
 %%%%
+{dat}%d orc warriors
+%d Ork-Kriegern
+%%%%
 # check plural above
 %%%%
 {dat}an orc knight
 einem Ork-Ritter
+%%%%
+{dat}%d orc knights
+%d Ork-Rittern
 %%%%
 # check plural above
 %%%%
 {dat}an orc warlord
 einem Ork-Warlord
 %%%%
+{dat}%d orc warlords
+%d Ork-Warlorden
+%%%%
 # check plural above
 %%%%
 {dat}an orc sorcerer
 einem Ork-Hexenmeister
+%%%%
+{dat}%d orc sorcerers
+%d Ork-Hexenmeistern
 %%%%
 # check plural above
 %%%%
 {dat}an orc high priest
 einem Ork-Hohepriester
 %%%%
+{dat}%d orc high priests
+%d Ork-Hohepriestern
+%%%%
 # check plural above
 %%%%
 {dat}a lava orc
 einem Lava-Ork
+%%%%
+{dat}%d lava orcs
+%d Lava-Orken
 %%%%
 # check plural above
 %%%%
 {dat}a human
 einem Menschen
 %%%%
+{dat}%d humans
+%d Menschen
+%%%%
 # check plural above
 %%%%
 {dat}a slave
 einem Sklaven
+%%%%
+{dat}%d slaves
+%d Sklaven
 %%%%
 # check plural above
 %%%%
 {dat}a hell knight
 einem Höllenritter
 %%%%
+{dat}%d hell knights
+%d Höllenrittern
+%%%%
 # check plural above
 %%%%
 {dat}a death knight
 einem Todesritter
+%%%%
+{dat}%d death knights
+%d Todesrittern
 %%%%
 # check plural above
 %%%%
 {dat}a necromancer
 einem Nekromanten
 %%%%
+{dat}%d necromancers
+%d Nekromanten
+%%%%
 {dat}a wizard
 einem Zauberer
+%%%%
+{dat}%d wizards
+%d Zauberern
 %%%%
 # check plural above
 %%%%
 {dat}a vault guard
 einem Tresorwächter
 %%%%
+{dat}%d vault guards
+%d Tresorwächtern
+%%%%
 # check plural above
 %%%%
 {dat}a vault sentinel
 einer Tresorwache
 %%%%
+{dat}%d vault sentinels
+%d Tresorwachen
+%%%%
 {dat}a vault warden
 einem Tresorwärter
+%%%%
+{dat}%d vault wardens
+%d Tresorwärtern
 %%%%
 # check plural above
 %%%%
 {dat}an ironbrand convoker
 einem Eisenbrandeinberufer
 %%%%
+{dat}%d ironbrand convokers
+%d Eisenbrandeinberufern
+%%%%
 # check plural above
 %%%%
 {dat}an imperial myrmidon
 einem kaiserlichen Myrmidon
+%%%%
+{dat}%d imperial myrmidons
+%d kaiserlichen Myrmidonen
 %%%%
 # check plural above
 %%%%
 {dat}a servant of whispers
 einem Diener des Flüsterns
 %%%%
+{dat}%d servants of whispers
+%d Dienern des Flüsterns
+%%%%
 # check plural above
 %%%%
 {dat}a ragged hierophant
 einem zerlumpten Hierophanten
 %%%%
+{dat}%d ragged hierophants
+%d zerlumpten Hierophanten
+%%%%
 {dat}an ironheart preserver
 einem Eisenherzbewahrer
+%%%%
+{dat}%d ironheart preservers
+%d Eisenherzbewahrern
 %%%%
 # check plural above
 %%%%
 {dat}a shapeshifter
 einem Gestaltwandler
 %%%%
+{dat}%d shapeshifters
+%d Gestaltwandlern
+%%%%
 # check plural above
 %%%%
 {dat}a glowing shapeshifter
 einem leuchtenden Gestaltwandler
+%%%%
+{dat}%d glowing shapeshifters
+%d leuchtenden Gestaltwandlern
 %%%%
 # check plural above
 %%%%
 {dat}a Killer Klown
 einem Killer-Klown
 %%%%
+{dat}%d Killer Klowns
+%d Killer-Klowns
+%%%%
 {dat}a demigod
 einem Halbgott
+%%%%
+{dat}%d demigods
+%d Halbgotten
 %%%%
 # check plural above
 %%%%
 {dat}a halfling
 einem Halbling
 %%%%
+{dat}%d halflings
+%d Halblingen
+%%%%
 {dat}a rat
 einer Ratte
 %%%%
+{dat}%d rats
+%d Ratten
+%%%%
 {dat}a quokka
 einem Quokka
+%%%%
+{dat}%d quokkas
+%d Quokkas
 %%%%
 # check plural above
 %%%%
 {dat}a river rat
 einer Flussratte
 %%%%
+{dat}%d river rats
+%d Flussratten
+%%%%
 {dat}a hell rat
 einer Höllenratte
 %%%%
+{dat}%d hell rats
+%d Höllenratten
+%%%%
 {dat}a porcupine
 einem Stachelschwein
+%%%%
+{dat}%d porcupines
+%d Stachelschweinen
 %%%%
 # check plural above
 %%%%
 {dat}a giant cockroach
 einer Riesenkakerlake
 %%%%
+{dat}%d giant cockroaches
+%d Riesenkakerlaken
+%%%%
 {dat}a scorpion
 einem Skorpion
+%%%%
+{dat}%d scorpions
+%d Skorpionen
 %%%%
 # check plural above
 %%%%
 {dat}an emperor scorpion
 einem Kaiserskorpion
 %%%%
+{dat}%d emperor scorpions
+%d Kaiserskorpionen
+%%%%
 # check plural above
 %%%%
 {dat}a death scarab
 einem Todesskarabäus
+%%%%
+{dat}%d death scarabs
+%d Todesskarabäen
 %%%%
 # check plural above
 %%%%
 {dat}a spider
 einer Spinne
 %%%%
+{dat}%d spiders
+%d Spinnen
+%%%%
 {dat}a tarantella
 einer Tarantella
+%%%%
+{dat}%d tarantellas
+%d Tarantellen
 %%%%
 # check plural above
 %%%%
 {dat}a jumping spider
 einer springenden Spinne
 %%%%
+{dat}%d jumping spiders
+%d springenden Spinnen
+%%%%
 {dat}a wolf spider
 einer Wolfsspinne
+%%%%
+{dat}%d wolf spiders
+%d Wolfsspinnen
 %%%%
 {dat}a redback
 einer Rotrückenspinne
 %%%%
+{dat}%d redbacks
+%d Rotrückenspinnen
+%%%%
 {dat}a demonic crawler
 einem dämonischen Kriecher
+%%%%
+{dat}%d demonic crawlers
+%d dämonischen Kriechern
 %%%%
 # check plural above
 %%%%
 {dat}an orb spider
 einer Kugelspinne
 %%%%
+{dat}%d orb spiders
+%d Kugelspinnen
+%%%%
 {dat}a crocodile
 einem Krokodil
+%%%%
+{dat}%d crocodiles
+%d Krokodilen
 %%%%
 # check plural above
 %%%%
 {dat}an alligator
 einem Alligator
 %%%%
+{dat}%d alligators
+%d Alligatoren
+%%%%
 # check plural above
 %%%%
 {dat}a snapping turtle
 einer Schnappschildkröte
 %%%%
+{dat}%d snapping turtles
+%d Schnappschildkröten
+%%%%
 {dat}an alligator snapping turtle
 einer Alligatorschnappschildkröte
+%%%%
+{dat}%d alligator snapping turtles
+%d Alligatorschnappschildkröten
 %%%%
 {dat}a crab
 einer Krabbe
 %%%%
+{dat}%d crabs
+%d Krabben
+%%%%
 {dat}a fire crab
 einer Feuerkrabbe
+%%%%
+{dat}%d fire crabs
+%d Feuerkrabben
 %%%%
 {dat}a ghost crab
 einer Geisterkrabbe
 %%%%
+{dat}%d ghost crabs
+%d Geisterkrabben
+%%%%
 {dat}an apocalypse crab
 einer Apokalypse-Krabbe
 %%%%
+{dat}%d apocalypse crabs
+%d Apokalypse-Krabben
+%%%%
 {dat}an ugly thing
 einem hässlichen Ding
+%%%%
+{dat}%d ugly things
+%d hässlichen Dingen
 %%%%
 # check plural above
 %%%%
 {dat}a very ugly thing
 einem sehr hässlichen Ding
 %%%%
+{dat}%d very ugly things
+%d sehr hässlichen Dingen
+%%%%
 # check plural above
 %%%%
 {dat}a fire vortex
 einem Feuerwirbel
+%%%%
+{dat}%d fire vortices
+%d Feuerwirbeln
 %%%%
 # check plural above
 %%%%
 {dat}a spatial vortex
 einem räumlichen Wirbel
 %%%%
+{dat}%d spatial vortices
+%d räumlichen Wirbeln
+%%%%
 # check plural above
 %%%%
 {dat}a spatial maelstrom
 einem räumlichen Mahlstrom
+%%%%
+{dat}%d spatial maelstroms
+%d räumlichen Mahlstromen
 %%%%
 # check plural above
 %%%%
 {dat}an insubstantial wisp
 einem unwesentlichen Irrlicht
 %%%%
+{dat}%d insubstantial wisps
+%d unwesentlichen Irrlichten
+%%%%
 # check plural above
 %%%%
 {dat}a twister
 einem Twister
+%%%%
+{dat}%d twisters
+%d Twistern
 %%%%
 # check plural above
 %%%%
 {dat}a worm
 einem Wurm
 %%%%
+{dat}%d worms
+%d Wurmen
+%%%%
 # check plural above
 %%%%
 {dat}a swamp worm
 einem Sumpfwurm
+%%%%
+{dat}%d swamp worms
+%d Sumpfwurmen
 %%%%
 # check plural above
 %%%%
 {dat}a tyrant leech
 einem Tyrannblutegel
 %%%%
+{dat}%d tyrant leeches
+%d Tyrannblutegeln
+%%%%
 # check plural above
 %%%%
 {dat}a dart slug
 einer Pfeilschnecke
 %%%%
+{dat}%d dart slugs
+%d Pfeilschnecken
+%%%%
 {dat}a torpor snail
 einer Erstarrungsschnecke
+%%%%
+{dat}%d torpor snails
+%d Erstarrungsschnecken
 %%%%
 {dat}an elephant slug
 einer Elefantenschnecke
 %%%%
+{dat}%d elephant slugs
+%d Elefantenschnecken
+%%%%
 {dat}an unseen horror
 einem unsichtbaren Grauen
+%%%%
+{dat}%d unseen horrors
+%d unsichtbaren Grauenen
 %%%%
 # check plural above
 %%%%
 {dat}a small abomination
 einem kleinen Greuel
 %%%%
+{dat}%d small abominations
+%d kleinen Greueln
+%%%%
 # check plural above
 %%%%
 {dat}a crawling corpse
 einer kriechenden Leiche
 %%%%
+{dat}%d crawling corpses
+%d kriechenden Leichen
+%%%%
 {dat}a macabre mass
 einer makaberen Masse
 %%%%
+{dat}%d macabre masses
+%d makaberen Massen
+%%%%
 {dat}an ancient zyme
 einem alten Zymen
+%%%%
+{dat}%d ancient zymes
+%d alten Zymen
 %%%%
 # check plural above
 %%%%
 {dat}a worldbinder
 einem Weltbinder
 %%%%
+{dat}%d worldbinders
+%d Weltbindern
+%%%%
 # check plural above
 %%%%
 {dat}a killer bee
 einer Killerbiene
 %%%%
+{dat}%d killer bees
+%d Killerbienen
+%%%%
 {dat}a queen bee
 einer Bienenkönigin
+%%%%
+{dat}%d queen bees
+%d Bienenköniginnen
 %%%%
 {dat}a vampire mosquito
 einer Vampir-Mücke
 %%%%
+{dat}%d vampire mosquitoes
+%d Vampir-Mücken
+%%%%
 {dat}a hornet
 einer Hornisse
 %%%%
+{dat}%d hornets
+%d Hornissen
+%%%%
 {dat}a meliai
 einer Meliai
+%%%%
+{dat}%d meliai
+%d Meliais
 %%%%
 # check plural above
 %%%%
 {dat}a spark wasp
 einer Funkenwespe
 %%%%
+{dat}%d spark wasps
+%d Funkenwespen
+%%%%
 {dat}a moth
 einer Motte
+%%%%
+{dat}%d moths
+%d Motten
 %%%%
 {dat}a ghost moth
 einer Geistermotte
 %%%%
+{dat}%d ghost moths
+%d Geistermotten
+%%%%
 {dat}a moth of wrath
 einer Motte des Zorns
 %%%%
+{dat}%d moths of wrath
+%d Motten des Zorns
+%%%%
 {dat}a wight
 einem Wight
+%%%%
+{dat}%d wights
+%d Wighten
 %%%%
 # check plural above
 %%%%
 {dat}a skeletal warrior
 einem Skelettkrieger
 %%%%
+{dat}%d skeletal warriors
+%d Skelettkriegern
+%%%%
 # check plural above
 %%%%
 {dat}an ancient champion
 einem alten Champion
+%%%%
+{dat}%d ancient champions
+%d alten Championen
 %%%%
 # check plural above
 %%%%
 {dat}a flying skull
 einem fliegenden Schädel
 %%%%
+{dat}%d flying skulls
+%d fliegenden Schädeln
+%%%%
 # check plural above
 %%%%
 {dat}a curse skull
 einem Fluchschädel
+%%%%
+{dat}%d curse skulls
+%d Fluchschädeln
 %%%%
 # check plural above
 %%%%
 {dat}a curse toe
 einem Fluchzehen
 %%%%
+{dat}%d curse toes
+%d Fluchzehen
+%%%%
 # check plural above
 %%%%
 {dat}an angel
 einem Engel
+%%%%
+{dat}%d angels
+%d Engeln
 %%%%
 # check plural above
 %%%%
 {dat}a cherub
 einem Cherub
 %%%%
+{dat}%d cherubim
+%d Cheruben
+%%%%
 # check plural above
 %%%%
 {dat}a seraph
 einem Seraph
+%%%%
+{dat}%d seraphim
+%d Seraphen
 %%%%
 # check plural above
 %%%%
 {dat}a daeva
 einem Daeva
 %%%%
+{dat}%d daevas
+%d Daevas
+%%%%
 # check plural above
 %%%%
 {dat}a profane servitor
 einem profanen Diener
+%%%%
+{dat}%d profane servitors
+%d profanen Dienern
 %%%%
 # check plural above
 %%%%
 {dat}a giant
 einem Riesen
 %%%%
+{dat}%d giants
+%d Riesen
+%%%%
 # check plural above
 %%%%
 {dat}a cyclops
 einem Zyklop
+%%%%
+{dat}%d cyclopes
+%d Zyklopen
 %%%%
 # check plural above
 %%%%
 {dat}an ettin
 einem Ettin
 %%%%
+{dat}%d ettins
+%d Ettinen
+%%%%
 # check plural above
 %%%%
 {dat}a fire giant
 einem Feuerriesen
+%%%%
+{dat}%d fire giants
+%d Feuerriesen
 %%%%
 # check plural above
 %%%%
 {dat}a frost giant
 einem Frostriesen
 %%%%
+{dat}%d frost giants
+%d Frostriesen
+%%%%
 # check plural above
 %%%%
 {dat}a stone giant
 einem Steinriesen
+%%%%
+{dat}%d stone giants
+%d Steinriesen
 %%%%
 # check plural above
 %%%%
 {dat}a titan
 einem Titan
 %%%%
+{dat}%d titans
+%d Titanen
+%%%%
 # check plural above
 %%%%
 {dat}a juggernaut
 einem Juggernaut
+%%%%
+{dat}%d juggernauts
+%d Juggernauten
 %%%%
 # check plural above
 %%%%
 {dat}an iron giant
 einem Eisenriesen
 %%%%
+{dat}%d iron giants
+%d Eisenriesen
+%%%%
 # check plural above
 %%%%
 {dat}a dragon
 einem Drachen
+%%%%
+{dat}%d dragons
+%d Drachen
 %%%%
 # check plural above
 %%%%
 {dat}a fire dragon
 einem Feuerdrachen
 %%%%
+{dat}%d fire dragons
+%d Feuerdrachen
+%%%%
 # check plural above
 %%%%
 {dat}a hydra
 einer Hydra
+%%%%
+{dat}%d hydras
+%d Hydren
 %%%%
 # check plural above
 %%%%
 {dat}an ice dragon
 einem Eisdrachen
 %%%%
+{dat}%d ice dragons
+%d Eisdrachen
+%%%%
 # check plural above
 %%%%
 {dat}a steam dragon
 einem Dampfdrachen
+%%%%
+{dat}%d steam dragons
+%d Dampfdrachen
 %%%%
 # check plural above
 %%%%
 {dat}a swamp dragon
 einem Sumpfdrachen
 %%%%
+{dat}%d swamp dragons
+%d Sumpfdrachen
+%%%%
 # check plural above
 %%%%
 {dat}an acid dragon
 einem Säuredrachen
+%%%%
+{dat}%d acid dragons
+%d Säuredrachen
 %%%%
 # check plural above
 %%%%
 {dat}a quicksilver dragon
 einem Quecksilberdrachen
 %%%%
+{dat}%d quicksilver dragons
+%d Quecksilberdrachen
+%%%%
 # check plural above
 %%%%
 {dat}an iron dragon
 einem Eisendrachen
+%%%%
+{dat}%d iron dragons
+%d Eisendrachen
 %%%%
 # check plural above
 %%%%
 {dat}a storm dragon
 einem Sturmdrachen
 %%%%
+{dat}%d storm dragons
+%d Sturmdrachen
+%%%%
 # check plural above
 %%%%
 {dat}a golden dragon
 einem Golddrachen
+%%%%
+{dat}%d golden dragons
+%d Golddrachen
 %%%%
 # check plural above
 %%%%
 {dat}a shadow dragon
 einem Schattendrachen
 %%%%
+{dat}%d shadow dragons
+%d Schattendrachen
+%%%%
 # check plural above
 %%%%
 {dat}a bone dragon
 einem Knochendrachen
+%%%%
+{dat}%d bone dragons
+%d Knochendrachen
 %%%%
 # check plural above
 %%%%
 {dat}a pearl dragon
 einem Perlendrachen
 %%%%
+{dat}%d pearl dragons
+%d Perlendrachen
+%%%%
 # check plural above
 %%%%
 {dat}an elemental
 einem Elementar
+%%%%
+{dat}%d elementals
+%d Elementaren
 %%%%
 # check plural above
 %%%%
 {dat}an earth elemental
 einem Erdelementar
 %%%%
+{dat}%d earth elementals
+%d Erdelementaren
+%%%%
 # check plural above
 %%%%
 {dat}a fire elemental
 einem Feuerelementar
+%%%%
+{dat}%d fire elementals
+%d Feuerelementaren
 %%%%
 # check plural above
 %%%%
 {dat}a water elemental
 einem Wasserelementar
 %%%%
+{dat}%d water elementals
+%d Wasserelementaren
+%%%%
 # check plural above
 %%%%
 {dat}an air elemental
 einem Luftelementar
+%%%%
+{dat}%d air elementals
+%d Luftelementaren
 %%%%
 # check plural above
 %%%%
 {dat}an iron elemental
 einem Eisenelementar
 %%%%
+{dat}%d iron elementals
+%d Eisenelementaren
+%%%%
 # check plural above
 %%%%
 {dat}an elemental wellspring
 einer elementaren Quelle
 %%%%
+{dat}%d elemental wellsprings
+%d elementaren Quellen
+%%%%
 {dat}a giant frog
 einem Riesenfrosch
+%%%%
+{dat}%d giant frogs
+%d Riesenfroschen
 %%%%
 # check plural above
 %%%%
 {dat}a bullfrog
 einem Ochsenfrosch
 %%%%
+{dat}%d bullfrogs
+%d Ochsenfroschen
+%%%%
 # check plural above
 %%%%
 {dat}a spiny frog
 einem Stachelfrosch
+%%%%
+{dat}%d spiny frogs
+%d Stachelfroschen
 %%%%
 # check plural above
 %%%%
 {dat}a blink frog
 einem Flimmerfrosch
 %%%%
+{dat}%d blink frogs
+%d Flimmerfroschen
+%%%%
 # check plural above
 %%%%
 {dat}a barachi
 einer Barachi
+%%%%
+{dat}%d barachim
+%d Barachis
 %%%%
 # check plural above
 %%%%
 {dat}a floating eye
 einem schwebenden Auge
 %%%%
+{dat}%d floating eyes
+%d schwebenden Augen
+%%%%
 # check plural above
 %%%%
 {dat}an eye of draining
 einem Auge des Schwächens
+%%%%
+{dat}%d eyes of draining
+%d Augen des Schwächens
 %%%%
 # check plural above
 %%%%
 {dat}a glowing orange brain
 einem orangen leuchtenden Gehirn
 %%%%
+{dat}%d glowing orange brains
+%d orangen leuchtenden Gehirnen
+%%%%
 # check plural above
 %%%%
 {dat}a great orb of eyes
 einem großen Augenkugel
+%%%%
+{dat}%d great orbs of eyes
+%d großen Augenkugeln
 %%%%
 # check plural above
 %%%%
 {dat}a shining eye
 einem leuchtenden Auge
 %%%%
+{dat}%d shining eyes
+%d leuchtenden Augen
+%%%%
 # check plural above
 %%%%
 {dat}an eye of devastation
 einem Auge der Verwüstung
+%%%%
+{dat}%d eyes of devastation
+%d Augen der Verwüstung
 %%%%
 # check plural above
 %%%%
 {dat}a golden eye
 einem goldenen Auge
 %%%%
+{dat}%d golden eyes
+%d goldenen Augen
+%%%%
 # check plural above
 %%%%
 {dat}an ophan
 einem Ophan
+%%%%
+{dat}%d ophanim
+%d Ophanen
 %%%%
 # check plural above
 %%%%
 {dat}a hippogriff
 einem Hippogriff
 %%%%
+{dat}%d hippogriffs
+%d Hippogriffen
+%%%%
 # check plural above
 %%%%
 {dat}a manticore
 einem Mantikor
+%%%%
+{dat}%d manticores
+%d Mantikoren
 %%%%
 # check plural above
 %%%%
 {dat}a minotaur
 einem Minotaurus
 %%%%
+{dat}%d minotaurs
+%d Minotauren
+%%%%
 # check plural above
 %%%%
 {dat}a sphinx
 einer Sphinx
+%%%%
+{dat}%d sphinxes
+%d Sphinxen
 %%%%
 # check plural above
 %%%%
 {dat}a harpy
 einer Harpyie
 %%%%
+{dat}%d harpies
+%d Harpyien
+%%%%
 {dat}a mutant beast
 einer mutierten Bestie
 %%%%
+{dat}%d mutant beasts
+%d mutierten Bestien
+%%%%
 {dat}an ancestor
 einem Ahnen
+%%%%
+{dat}%d ancestors
+%d Ahnen
 %%%%
 # check plural above
 %%%%
 {dat}a knight
 einem Ritter
 %%%%
+{dat}%d knights
+%d Rittern
+%%%%
 # check plural above
 %%%%
 {dat}a battlemage
 einem Kampfmagier
+%%%%
+{dat}%d battlemagi
+%d Kampfmagiern
 %%%%
 # check plural above
 %%%%
 {dat}a hexer
 einem Hexer
 %%%%
+{dat}%d hexers
+%d Hexern
+%%%%
 # check plural above
 %%%%
 {dat}an ooze
 einem Schlamm
+%%%%
+{dat}%d oozes
+%d Schlammen
 %%%%
 # check plural above
 %%%%
 {dat}a jelly
 einem Gelee
 %%%%
+{dat}%d jellies
+%d Geleen
+%%%%
 # check plural above
 %%%%
 {dat}a slime creature
 einem Schleimwesen
+%%%%
+{dat}%d slime creatures
+%d Schleimwesenen
 %%%%
 # check plural above
 %%%%
 {dat}a merged slime creature
 einer verschmolzenen Schleimkreatur
 %%%%
+{dat}%d merged slime creatures
+%d verschmolzenen Schleimkreaturen
+%%%%
 # check plural above
 %%%%
 {dat}an azure jelly
 einem azurblauen Gelee
+%%%%
+{dat}%d azure jellies
+%d azurblauen Geleen
 %%%%
 # check plural above
 %%%%
 {dat}a death ooze
 einem Todesschlamm
 %%%%
+{dat}%d death oozes
+%d Todesschlammen
+%%%%
 # check plural above
 %%%%
 {dat}an acid blob
 einem Säureklumpen
+%%%%
+{dat}%d acid blobs
+%d Säureklumpenen
 %%%%
 # check plural above
 %%%%
 {dat}a kobold
 einem Kobold
 %%%%
+{dat}%d kobolds
+%d Kobolden
+%%%%
 # check plural above
 %%%%
 {dat}a big kobold
 einem großen Kobold
+%%%%
+{dat}%d big kobolds
+%d großen Kobolden
 %%%%
 # check plural above
 %%%%
 {dat}a kobold demonologist
 einem Kobold-Dämonologen
 %%%%
+{dat}%d kobold demonologists
+%d Kobold-Dämonologen
+%%%%
 # check plural above
 %%%%
 {dat}a lich
 einem Lich
 %%%%
+{dat}%d liches
+%d Lichs
+%%%%
 {dat}an ancient lich
 einem alten Lich
 %%%%
+{dat}%d ancient liches
+%d alten Lichs
+%%%%
 {dat}a revenant
 einem Wiedergänger
+%%%%
+{dat}%d revenants
+%d Wiedergängern
 %%%%
 # check plural above
 %%%%
 {dat}a halazid warlock
 einem halazidischen Hexenmeister
 %%%%
+{dat}%d halazid warlocks
+%d halazidischen Hexenmeistern
+%%%%
 # check plural above
 %%%%
 {dat}a mummy
 einer Mumie
 %%%%
+{dat}%d mummies
+%d Mumien
+%%%%
 {dat}a guardian mummy
 einer Wächtermumie
+%%%%
+{dat}%d guardian mummies
+%d Wächtermumien
 %%%%
 {dat}a greater mummy
 einer größeren Mumie
 %%%%
+{dat}%d greater mummies
+%d größeren Mumien
+%%%%
 {dat}a mummy priest
 einem Mumie-Priester
+%%%%
+{dat}%d mummy priests
+%d Mumie-Priestern
 %%%%
 # check plural above
 %%%%
 {dat}a naga
 einem Naga
 %%%%
+{dat}%d nagas
+%d Nagas
+%%%%
 # check plural above
 %%%%
 {dat}a naga mage
 einem Naga-Magier
+%%%%
+{dat}%d naga magi
+%d Naga-Magiern
 %%%%
 # check plural above
 %%%%
 {dat}a naga sharpshooter
 einem Naga-Scharfschützen
 %%%%
+{dat}%d naga sharpshooters
+%d Naga-Scharfschützen
+%%%%
 # check plural above
 %%%%
 {dat}a naga ritualist
 einem Naga-Ritualisten
 %%%%
+{dat}%d naga ritualists
+%d Naga-Ritualisten
+%%%%
 {dat}a naga warrior
 einem Naga-Krieger
+%%%%
+{dat}%d naga warriors
+%d Naga-Kriegern
 %%%%
 # check plural above
 %%%%
 {dat}a nagaraja
 einem Nagaraja
 %%%%
+{dat}%d nagarajas
+%d Nagarajas
+%%%%
 # check plural above
 %%%%
 {dat}an ogre
 einem Oger
+%%%%
+{dat}%d ogres
+%d Ogern
 %%%%
 # check plural above
 %%%%
 {dat}a two-headed ogre
 einem zweiköpfigen Oger
 %%%%
+{dat}%d two-headed ogres
+%d zweiköpfigen Ogern
+%%%%
 # check plural above
 %%%%
 {dat}an ogre mage
 einem Oger-Magier
+%%%%
+{dat}%d ogre magi
+%d Oger-Magiern
 %%%%
 # check plural above
 %%%%
 {dat}a plant
 einer Pflanze
 %%%%
+{dat}%d plants
+%d Pflanzen
+%%%%
 {dat}a demonic plant
 einer dämonischen Pflanze
+%%%%
+{dat}%d demonic plants
+%d dämonischen Pflanzen
 %%%%
 {dat}a withered plant
 einer verwelkten Pflanze
 %%%%
+{dat}%d withered plants
+%d verwelkten Pflanzen
+%%%%
 {dat}an oklob sapling
 einem Oklob-Setzling
+%%%%
+{dat}%d oklob saplings
+%d Oklob-Setzlingen
 %%%%
 {dat}an oklob plant
 einer Oklob-Pflanze
 %%%%
+{dat}%d oklob plants
+%d Oklob-Pflanzen
+%%%%
 {dat}a bush
 einem Busch
+%%%%
+{dat}%d bushes
+%d Buschen
 %%%%
 # check plural above
 %%%%
 {dat}a burning bush
 einem brennenden Busch
 %%%%
+{dat}%d burning bushes
+%d brennenden Buschen
+%%%%
 # check plural above
 %%%%
 {dat}a toadstool
 einem Giftpilz
+%%%%
+{dat}%d toadstools
+%d Giftpilzen
 %%%%
 # check plural above
 %%%%
 {dat}a fungus
 einem Pilz
 %%%%
+{dat}%d fungi
+%d Pilzen
+%%%%
 # check plural above
 %%%%
 {dat}a ballistomycete
 einem Ballistomyceten
+%%%%
+{dat}%d ballistomycetes
+%d Ballistomyceten
 %%%%
 # check plural above
 %%%%
 {dat}a hyperactive ballistomycete
 einem hyperaktiven Ballistomyceten
 %%%%
+{dat}%d hyperactive ballistomycetes
+%d hyperaktiven Ballistomyceten
+%%%%
 # check plural above
 %%%%
 {dat}a briar patch
 einem Dornstrauch
+%%%%
+{dat}%d briar patches
+%d Dornstrauchen
 %%%%
 # check plural above
 %%%%
 {dat}a tengu
 einem Tengu
 %%%%
+{dat}%d tengu
+%d Tengus
+%%%%
 # check plural above
 %%%%
 {dat}a tengu conjurer
 einem Tengu-Zauberer
+%%%%
+{dat}%d tengu conjurers
+%d Tengu-Zauberern
 %%%%
 # check plural above
 %%%%
 {dat}a tengu warrior
 einem Tengu-Krieger
 %%%%
+{dat}%d tengu warriors
+%d Tengu-Kriegern
+%%%%
 # check plural above
 %%%%
 {dat}a tengu reaver
 einem Tengu-Häscher
+%%%%
+{dat}%d tengu reavers
+%d Tengu-Häschern
 %%%%
 # check plural above
 %%%%
 {dat}an efreet
 einem Efreet
 %%%%
+{dat}%d efreet
+%d Efreeten
+%%%%
 # check plural above
 %%%%
 {dat}a rakshasa
 einem Rakshasa
+%%%%
+{dat}%d rakshasas
+%d Rakshasas
 %%%%
 # check plural above
 %%%%
 {dat}a dryad
 einer Dryade
 %%%%
+{dat}%d dryads
+%d Dryaden
+%%%%
 {dat}a snaplasher vine
 einer Peitscherrebe
+%%%%
+{dat}%d snaplasher vines
+%d Peitscherreben
 %%%%
 {dat}a snaplasher vine segment
 einem Peitscherrebesegment
 %%%%
+{dat}%d snaplasher vine segments
+%d Peitscherrebesegmenten
+%%%%
 {dat}a snake
 einer Schlange
 %%%%
+{dat}%d snakes
+%d Schlangen
+%%%%
 {dat}a ball python
 einer Kugelpython
+%%%%
+{dat}%d ball pythons
+%d Kugelpythonen
 %%%%
 # check plural above
 %%%%
 {dat}an adder
 einer Kreuzotter
 %%%%
+{dat}%d adders
+%d Kreuzottern
+%%%%
 # check plural above
 %%%%
 {dat}a water moccasin
 einem Wassermokassin
+%%%%
+{dat}%d water moccasins
+%d Wassermokassinen
 %%%%
 # check plural above
 %%%%
 {dat}a black mamba
 einer schwarzen Mamba
 %%%%
+{dat}%d black mambas
+%d schwarzen Mambas
+%%%%
 # check plural above
 %%%%
 {dat}a sea snake
 einer Seeschlange
 %%%%
+{dat}%d sea snakes
+%d Seeschlangen
+%%%%
 {dat}an anaconda
 einer Anakonda
+%%%%
+{dat}%d anacondas
+%d Anakondas
 %%%%
 # check plural above
 %%%%
 {dat}a guardian serpent
 einer Wächter-Schlange
 %%%%
+{dat}%d guardian serpents
+%d Wächter-Schlangen
+%%%%
 {dat}a shock serpent
 einer Schockschlange
 %%%%
+{dat}%d shock serpents
+%d Schockschlangen
+%%%%
 {dat}a mana viper
 einer Manaviper
+%%%%
+{dat}%d mana vipers
+%d Manavipern
 %%%%
 # check plural above
 %%%%
 {dat}a troll
 einem Troll
 %%%%
+{dat}%d trolls
+%d Trollen
+%%%%
 # check plural above
 %%%%
 {dat}an iron troll
 einem Eisentroll
+%%%%
+{dat}%d iron trolls
+%d Eisentrollen
 %%%%
 # check plural above
 %%%%
 {dat}a deep troll
 einem Tiefentroll
 %%%%
+{dat}%d deep trolls
+%d Tiefentrollen
+%%%%
 # check plural above
 %%%%
 {dat}a deep troll earth mage
 einem Tiefentroll-Erdmagier
+%%%%
+{dat}%d deep troll earth magi
+%d Tiefentroll-Erdmagiern
 %%%%
 # check plural above
 %%%%
 {dat}a deep troll shaman
 einem Tiefentroll-Schamanen
 %%%%
+{dat}%d deep troll shamans
+%d Tiefentroll-Schamanen
+%%%%
 # check plural above
 %%%%
 {dat}a vampire
 einem Vampir
+%%%%
+{dat}%d vampires
+%d Vampiren
 %%%%
 # check plural above
 %%%%
 {dat}a vampire knight
 einem Vampir-Ritter
 %%%%
+{dat}%d vampire knights
+%d Vampir-Rittern
+%%%%
 # check plural above
 %%%%
 {dat}a vampire mage
 einem Vampir-Magier
+%%%%
+{dat}%d vampire magi
+%d Vampir-Magiern
 %%%%
 # check plural above
 %%%%
 {dat}a jiangshi
 einem Jiangshi
 %%%%
+{dat}%d jiangshi
+%d Jiangshis
+%%%%
 # check plural above
 %%%%
 {dat}a ghost
 einem Gespenst
+%%%%
+{dat}%d ghosts
+%d Gespensten
 %%%%
 # check plural above
 %%%%
 {dat}a phantom
 einem Phantom
 %%%%
+{dat}%d phantoms
+%d Phantomen
+%%%%
 # check plural above
 %%%%
 {dat}a hungry ghost
 einem hungrigen Geisten
 %%%%
+{dat}%d hungry ghosts
+%d hungrigen Geistern
+%%%%
 {dat}a flayed ghost
 einem enthäuteten Geisten
+%%%%
+{dat}%d flayed ghosts
+%d enthäuteten Geistern
 %%%%
 {dat}a player ghost
 einem Spielergeisten
 %%%%
+{dat}%d player ghosts
+%d Spielergeistern
+%%%%
 {dat}a shadow
 einem Schatten
 %%%%
+{dat}%d shadows
+%d Schatten
+%%%%
 {dat}a silent spectre
 einem stillen Gespenst
+%%%%
+{dat}%d silent spectres
+%d stillen Gespensten
 %%%%
 # check plural above
 %%%%
 {dat}a drowned soul
 einer ertrunkenen Seele
 %%%%
+{dat}%d drowned souls
+%d ertrunkenen Seelen
+%%%%
 {dat}a wraith
 einem Geisten
+%%%%
+{dat}%d wraiths
+%d Geistern
 %%%%
 {dat}a shadow wraith
 einem Schattengeisten
 %%%%
+{dat}%d shadow wraiths
+%d Schattengeistern
+%%%%
 {dat}a freezing wraith
 einem Frostgeisten
 %%%%
+{dat}%d freezing wraiths
+%d Frostgeistern
+%%%%
 {dat}an eidolon
 einem Eidolon
+%%%%
+{dat}%d eidola
+%d Eidolonen
 %%%%
 # check plural above
 %%%%
 {dat}a phantasmal warrior
 einem phantastischen Krieger
 %%%%
+{dat}%d phantasmal warriors
+%d phantastischen Kriegern
+%%%%
 # check plural above
 %%%%
 {dat}a large abomination
 einem großen Greuel
+%%%%
+{dat}%d large abominations
+%d großen Greueln
 %%%%
 # check plural above
 %%%%
 {dat}a thrashing horror
 einem verprügelnden Grauen
 %%%%
+{dat}%d thrashing horrors
+%d verprügelnden Grauenen
+%%%%
 # check plural above
 %%%%
 {dat}a tentacled monstrosity
 einer Tentakel-Monstrosität
 %%%%
+{dat}%d tentacled monstrosities
+%d Tentakel-Monstrositäten
+%%%%
 {dat}an Orb Guardian
 einem Kugelwächter
+%%%%
+{dat}%d Orb Guardians
+%d Kugelwächtern
 %%%%
 # check plural above
 %%%%
 {dat}a tentacled starspawn
 einem Tentakelsternbrut
 %%%%
+{dat}%d tentacled starspawn
+%d Tentakelsternbruten
+%%%%
 # check plural above
 %%%%
 {dat}a starspawn tentacle
 einem Sternbruttentakel
+%%%%
+{dat}%d starspawn tentacles
+%d Sternbruttentakeln
 %%%%
 # check plural above
 %%%%
 {dat}a starspawn tentacle segment
 einem Sternbruttentakelsegment
 %%%%
+{dat}%d starspawn tentacle segments
+%d Sternbruttentakelsegmenten
+%%%%
 {dat}a starcursed mass
 einer sternverfluchten Masse
 %%%%
+{dat}%d starcursed masses
+%d sternverfluchten Massen
+%%%%
 {dat}a dream sheep
 einem Traumschaf
+%%%%
+{dat}%d dream sheep
+%d Traumschafen
 %%%%
 # check plural above
 %%%%
 {dat}a yak
 einem Yak
 %%%%
+{dat}%d yaks
+%d Yaken
+%%%%
 # check plural above
 %%%%
 {dat}a death yak
 einem Todesyak
+%%%%
+{dat}%d death yaks
+%d Todesyaken
 %%%%
 # check plural above
 %%%%
 {dat}a catoblepas
 einer Catoblepas
 %%%%
+{dat}%d catoblepae
+%d Catoblepasen
+%%%%
 # check plural above
 %%%%
 {dat}an elephant
 einem Elefanten
 %%%%
+{dat}%d elephants
+%d Elefanten
+%%%%
 {dat}a dire elephant
 einem Schreckenselefanten
+%%%%
+{dat}%d dire elephants
+%d Schreckenselefanten
 %%%%
 {dat}a hellephant
 einem Höllefanten
 %%%%
+{dat}%d hellephants
+%d Höllefanten
+%%%%
 {dat}an apis
 einer Apis
+%%%%
+{dat}%d apises
+%d Apisen
 %%%%
 # check plural above
 %%%%
 {dat}an ice beast
 einer Eisbestie
 %%%%
+{dat}%d ice beasts
+%d Eisbestien
+%%%%
 {dat}a sky beast
 einem Himmelstier
+%%%%
+{dat}%d sky beasts
+%d Himmelstieren
 %%%%
 # check plural above
 %%%%
 {dat}a zombie
 einem Zombie
 %%%%
+{dat}%d zombies
+%d Zombies
+%%%%
 {dat}a skeleton
 einem Skelett
+%%%%
+{dat}%d skeletons
+%d Skeletten
 %%%%
 # check plural above
 %%%%
 {dat}a simulacrum
 einem Simulacrum
 %%%%
+{dat}%d simulacra
+%d Simulacren
+%%%%
 # check plural above
 %%%%
 {dat}a small zombie
 einem kleinen Zombie
 %%%%
+{dat}%d small zombies
+%d kleinen Zombies
+%%%%
 {dat}a small skeleton
 einem kleinen Skelett
+%%%%
+{dat}%d small skeletons
+%d kleinen Skeletten
 %%%%
 # check plural above
 %%%%
 {dat}a small simulacrum
 einem kleinen Simulacrum
 %%%%
+{dat}%d small simulacra
+%d kleinen Simulacren
+%%%%
 # check plural above
 %%%%
 {dat}a large zombie
 einem großen Zombie
 %%%%
+{dat}%d large zombies
+%d großen Zombies
+%%%%
 {dat}a large skeleton
 einem großen Skelett
+%%%%
+{dat}%d large skeletons
+%d großen Skeletten
 %%%%
 # check plural above
 %%%%
 {dat}a large simulacrum
 einem großen Simulacrum
 %%%%
+{dat}%d large simulacra
+%d großen Simulacren
+%%%%
 # check plural above
 %%%%
 {dat}a spectral thing
 einer spektralen Sache
 %%%%
+{dat}%d spectral things
+%d spektralen Sachen
+%%%%
 {dat}an electric eel
 einem Zitteraal
+%%%%
+{dat}%d electric eels
+%d Zitteraalen
 %%%%
 # check plural above
 %%%%
 {dat}a kraken
 einem Kraken
 %%%%
+{dat}%d krakens
+%d Krakenen
+%%%%
 # check plural above
 %%%%
 {dat}a tentacle
 einem Tentakel
+%%%%
+{dat}%d tentacles
+%d Tentakeln
 %%%%
 # check plural above
 %%%%
 {dat}a tentacle segment
 einem Tentakelsegment
 %%%%
+{dat}%d tentacle segments
+%d Tentakelsegmenten
+%%%%
 {dat}an octopode
 einem Oktopod
+%%%%
+{dat}%d octopodes
+%d Oktopoden
 %%%%
 # check plural above
 %%%%
 {dat}a lava snake
 einer Lavaschlange
 %%%%
+{dat}%d lava snakes
+%d Lavaschlangen
+%%%%
 {dat}a salamander
 einem Salamander
+%%%%
+{dat}%d salamanders
+%d Salamandern
 %%%%
 # check plural above
 %%%%
 {dat}a salamander mystic
 einem Salamander-Mystiker
 %%%%
+{dat}%d salamander mystics
+%d Salamander-Mystikern
+%%%%
 # check plural above
 %%%%
 {dat}a Hellbinder
 einem Höllenbinder
+%%%%
+{dat}%d Hellbinders
+%d Höllenbindern
 %%%%
 # check plural above
 %%%%
 {dat}a Cloud Mage
 einem Wolkenmagier
 %%%%
+{dat}%d Cloud Mages
+%d Wolkenmagiern
+%%%%
 # check plural above
 %%%%
 {dat}a player
 einem Spieler
+%%%%
+{dat}%d players
+%d Spielern
 %%%%
 # check plural above
 %%%%
 {dat}a player illusion
 einer Spieler-Illusion
 %%%%
+{dat}%d player illusions
+%d Spieler-Illusionen
+%%%%
 # check plural above
 %%%%
 {dat}a dancing weapon
 einer tanzenden Waffe
 %%%%
+{dat}%d dancing weapons
+%d tanzenden Waffen
+%%%%
 {dat}a spectral weapon
 einer Spektralwaffe
 %%%%
+{dat}%d spectral weapons
+%d Spektralwaffen
+%%%%
 {dat}an eldritch tentacle
 einem unheimlichen Tentakel
+%%%%
+{dat}%d eldritch tentacles
+%d unheimlichen Tentakeln
 %%%%
 # check plural above
 %%%%
 {dat}an eldritch tentacle segment
 einem unheimlichen Tentakelsegment
 %%%%
+{dat}%d eldritch tentacle segments
+%d unheimlichen Tentakelsegmenten
+%%%%
 {dat}a demonspawn
 einer Dämonenbrut
+%%%%
+{dat}%d demonspawn
+%d Dämonenbruten
 %%%%
 # check plural above
 %%%%
 {dat}a monstrous demonspawn
 einer monströsen Dämonenbrut
 %%%%
+{dat}%d monstrous demonspawn
+%d monströsen Dämonenbruten
+%%%%
 # check plural above
 %%%%
 {dat}a gelid demonspawn
 einem geliden Dämonenbrut
+%%%%
+{dat}%d gelid demonspawn
+%d geliden Dämonenbruten
 %%%%
 # check plural above
 %%%%
 {dat}an infernal demonspawn
 einer höllischen Dämonenbrut
 %%%%
+{dat}%d infernal demonspawn
+%d höllischen Dämonenbruten
+%%%%
 # check plural above
 %%%%
 {dat}a torturous demonspawn
 einer quälenden Dämonenbrut
+%%%%
+{dat}%d torturous demonspawn
+%d quälenden Dämonenbruten
 %%%%
 # check plural above
 %%%%
 {dat}a blood saint
 einem Blutheiligen
 %%%%
+{dat}%d blood saints
+%d Blutheiligen
+%%%%
 # check plural above
 %%%%
 {dat}a warmonger
 einem Kriegstreiber
+%%%%
+{dat}%d warmongers
+%d Kriegstreibern
 %%%%
 # check plural above
 %%%%
 {dat}a corrupter
 einem Korruptor
 %%%%
+{dat}%d corrupters
+%d Korruptoren
+%%%%
 # check plural above
 %%%%
 {dat}a black sun
 einer schwarzen Sonne
 %%%%
+{dat}%d black suns
+%d schwarzen Sonnen
+%%%%
 {dat}a crimson imp
 einem karminroten Teufelchen
 %%%%
+{dat}%d crimson imps
+%d karminroten Teufelchen
+%%%%
 {dat}a quasit
 einem Quasit
+%%%%
+{dat}%d quasits
+%d Quasiten
 %%%%
 # check plural above
 %%%%
 {dat}a white imp
 einem weißen Teufelchen
 %%%%
+{dat}%d white imps
+%d weißen Teufelchen
+%%%%
 {dat}an ufetubus
 einem Ufetubus
+%%%%
+{dat}%d ufetubi
+%d Ufetubi
 %%%%
 {dat}an iron imp
 einem Eisenteufelchen
 %%%%
+{dat}%d iron imps
+%d Eisenteufelchen
+%%%%
 {dat}a shadow imp
 einem Schattenteufelchen
 %%%%
+{dat}%d shadow imps
+%d Schattenteufelchen
+%%%%
 {dat}a rust devil
 einem Rostteufel
+%%%%
+{dat}%d rust devils
+%d Rostteufeln
 %%%%
 # check plural above
 %%%%
 {dat}an orange demon
 einem orangen Dämon
 %%%%
+{dat}%d orange demons
+%d orangen Dämonen
+%%%%
 # check plural above
 %%%%
 {dat}a red devil
 einem roten Teufel
+%%%%
+{dat}%d red devils
+%d roten Teufeln
 %%%%
 # check plural above
 %%%%
 {dat}a hellwing
 einem Höllenflügel
 %%%%
+{dat}%d hellwings
+%d Höllenflügeln
+%%%%
 # check plural above
 %%%%
 {dat}an ice devil
 einem Eisteufel
+%%%%
+{dat}%d ice devils
+%d Eisteufeln
 %%%%
 # check plural above
 %%%%
 {dat}a chaos spawn
 einer Chaosbrut
 %%%%
+{dat}%d chaos spawn
+%d Chaosbruten
+%%%%
 # check plural above
 %%%%
 {dat}a sun demon
 einem Sonnendämon
+%%%%
+{dat}%d sun demons
+%d Sonnendämonen
 %%%%
 # check plural above
 %%%%
 {dat}a soul eater
 einem Seelenfresser
 %%%%
+{dat}%d soul eaters
+%d Seelenfressern
+%%%%
 # check plural above
 %%%%
 {dat}a smoke demon
 einem Rauchdämon
+%%%%
+{dat}%d smoke demons
+%d Rauchdämonen
 %%%%
 # check plural above
 %%%%
 {dat}a neqoxec
 einer Neqoxec
 %%%%
+{dat}%d neqoxecs
+%d Neqoxecen
+%%%%
 # check plural above
 %%%%
 {dat}a ynoxinul
 einem Ynoxinul
+%%%%
+{dat}%d ynoxinuls
+%d Ynoxinulen
 %%%%
 # check plural above
 %%%%
 {dat}a sixfirhy
 einem Sixfirhy
 %%%%
+{dat}%d sixfirhies
+%d Sixfirhys
+%%%%
 # check plural above
 %%%%
 {dat}a shadow demon
 einem Schattendämon
+%%%%
+{dat}%d shadow demons
+%d Schattendämonen
 %%%%
 # check plural above
 %%%%
 {dat}a green death
 einem grünen Tod
 %%%%
+{dat}%d green deaths
+%d grünen Toden
+%%%%
 # check plural above
 %%%%
 {dat}a blizzard demon
 einem Blizzarddämon
+%%%%
+{dat}%d blizzard demons
+%d Blizzarddämonen
 %%%%
 # check plural above
 %%%%
 {dat}a balrug
 einem Balrug
 %%%%
+{dat}%d balrugs
+%d Balrugen
+%%%%
 # check plural above
 %%%%
 {dat}a cacodemon
 einem Cacodaemon
+%%%%
+{dat}%d cacodemons
+%d Cacodaemonen
 %%%%
 # check plural above
 %%%%
 {dat}a hell beast
 einem Höllentier
 %%%%
+{dat}%d hell beasts
+%d Höllentieren
+%%%%
 # check plural above
 %%%%
 {dat}a hellion
 einem Teufelsbraten
+%%%%
+{dat}%d hellions
+%d Teufelsbratenen
 %%%%
 # check plural above
 %%%%
 {dat}a reaper
 einem Schnitter
 %%%%
+{dat}%d reapers
+%d Schnittern
+%%%%
 # check plural above
 %%%%
 {dat}a lorocyproca
 einer Lorocyproca
+%%%%
+{dat}%d lorocyprocas
+%d Lorocyprocas
 %%%%
 # check plural above
 %%%%
 {dat}a tormentor
 einem Peiniger
 %%%%
+{dat}%d tormentors
+%d Peinigern
+%%%%
 # check plural above
 %%%%
 {dat}a Brimstone Fiend
 einem Schwefelunterweltler
+%%%%
+{dat}%d Brimstone Fiends
+%d Schwefelunterweltlern
 %%%%
 # check plural above
 %%%%
 {dat}an Ice Fiend
 einem Eisunterweltler
 %%%%
+{dat}%d Ice Fiends
+%d Eisunterweltlern
+%%%%
 # check plural above
 %%%%
 {dat}a Tzitzimitl
 einem Tzitzimitl
+%%%%
+{dat}%d Tzitzimimeh
+%d Tzitzimitlen
 %%%%
 # check plural above
 %%%%
 {dat}a Hell Sentinel
 einem Höllenwächter
 %%%%
+{dat}%d Hell Sentinels
+%d Höllenwächtern
+%%%%
 # check plural above
 %%%%
 {dat}an Executioner
 einem Scharfrichter
+%%%%
+{dat}%d Executioners
+%d Scharfrichtern
 %%%%
 # check plural above
 %%%%
 {dat}an animated tree
 einem animierten Baum
 %%%%
+{dat}%d animated trees
+%d animierten Bäumen
+%%%%
 {dat}a golem
 einem Golem
+%%%%
+{dat}%d golems
+%d Golemen
 %%%%
 # check plural above
 %%%%
 {dat}a saltling
 einem Salzling
 %%%%
+{dat}%d saltlings
+%d Salzlingen
+%%%%
 {dat}a peacekeeper
 einem Friedenshüter
+%%%%
+{dat}%d peacekeepers
+%d Friedenshütern
 %%%%
 # check plural above
 %%%%
 {dat}an iron golem
 einem Eisengolem
 %%%%
+{dat}%d iron golems
+%d Eisengolemen
+%%%%
 # check plural above
 %%%%
 {dat}a crystal guardian
 einem Kristallwächter
+%%%%
+{dat}%d crystal guardians
+%d Kristallwächtern
 %%%%
 # check plural above
 %%%%
 {dat}a toenail golem
 einem Zehennagelgolem
 %%%%
+{dat}%d toenail golems
+%d Zehennagelgolemen
+%%%%
 # check plural above
 %%%%
 {dat}an electric golem
 einem Blitzgolem
+%%%%
+{dat}%d electric golems
+%d Blitzgolemen
 %%%%
 # check plural above
 %%%%
 {dat}an ushabti
 einer Uschabti
 %%%%
+{dat}%d ushabtiu
+%d Uschabtis
+%%%%
 # check plural above
 %%%%
 {dat}a guardian golem
 einem Wächtergolem
+%%%%
+{dat}%d guardian golems
+%d Wächtergolemen
 %%%%
 # check plural above
 %%%%
 {dat}a spellforged servitor
 einem zaubergeschmeideten Diener
 %%%%
+{dat}%d spellforged servitors
+%d zaubergeschmeideten Dienern
+%%%%
 # check plural above
 %%%%
 {dat}an ice statue
 einer Eisstatue
 %%%%
+{dat}%d ice statues
+%d Eisstatuen
+%%%%
 {dat}an obsidian statue
 einer Obsidianstatue
+%%%%
+{dat}%d obsidian statues
+%d Obsidianstatuen
 %%%%
 {dat}an orange crystal statue
 einer orangen Kristallstatue
 %%%%
+{dat}%d orange crystal statues
+%d orangen Kristallstatuen
+%%%%
 {dat}a statue
 einer Statue
+%%%%
+{dat}%d statues
+%d Statuen
 %%%%
 {dat}a training dummy
 einer Trainingspuppe
 %%%%
+{dat}%d training dummies
+%d Trainingspuppen
+%%%%
 {dat}a pillar of salt
 einer Säule des Salzes
 %%%%
+{dat}%d pillars of salt
+%d Säulen des Salzes
+%%%%
 {dat}a block of ice
 einem Eisblock
+%%%%
+{dat}%d blocks of ice
+%d Eisblocken
 %%%%
 # check plural above
 %%%%
 {dat}a diamond obelisk
 einem Diamantobelisk
 %%%%
+{dat}%d diamond obelisks
+%d Diamantobelisken
+%%%%
 # check plural above
 %%%%
 {dat}a lightning spire
 einem Blitzturm
+%%%%
+{dat}%d lightning spires
+%d Blitzturmen
 %%%%
 # check plural above
 %%%%
 {dat}a gargoyle
 einem Gargoyle
 %%%%
+{dat}%d gargoyles
+%d Gargoyles
+%%%%
 {dat}a war gargoyle
 einem Kriegsgargoyle
+%%%%
+{dat}%d war gargoyles
+%d Kriegsgargoyles
 %%%%
 {dat}a molten gargoyle
 einem geschmolzenen Gargoyle
 %%%%
+{dat}%d molten gargoyles
+%d geschmolzenen Gargoyles
+%%%%
 {dat}a pandemonium lord
 einem Pandemoniumsherrn
+%%%%
+{dat}%d pandemonium lords
+%d Pandemoniumsherren
 %%%%
 # check plural above
 %%%%
 {dat}a hell lord
 einem Höllenherrn
 %%%%
+{dat}%d hell lords
+%d Höllenherren
+%%%%
 # check plural above
 %%%%
 {dat}a ball lightning
 einem Kugelblitz
+%%%%
+{dat}%d ball lightnings
+%d Kugelblitzen
 %%%%
 # check plural above
 %%%%
 {dat}a ballistomycete spore
 einer Ballistomycetenspore
 %%%%
+{dat}%d ballistomycete spores
+%d Ballistomycetensporen
+%%%%
 {dat}a lost soul
 einer verlorenen Seele
 %%%%
+{dat}%d lost souls
+%d verlorenen Seelen
+%%%%
 {dat}a lurking horror
 einem lauernden Grauen
+%%%%
+{dat}%d lurking horrors
+%d lauernden Grauenen
 %%%%
 # check plural above
 %%%%
 {dat}an orb of fire
 einer Feuerkugel
 %%%%
+{dat}%d orbs of fire
+%d Feuerkugeln
+%%%%
 # check plural above
 %%%%
 {dat}an orb of destruction
 einer Kugel der Zerstörung
+%%%%
+{dat}%d orbs of destruction
+%d Kugeln der Zerstörung
 %%%%
 # check plural above
 %%%%
 {dat}a fulminant prism
 einem fulminanten Prisma
 %%%%
+{dat}%d fulminant prisms
+%d fulminanten Prismen
+%%%%
 # check plural above
 %%%%
 {dat}a wretched star
 einem elenden Stern
+%%%%
+{dat}%d wretched stars
+%d elenden Sternen
 %%%%
 # check plural above
 %%%%
 {dat}a battlesphere
 einer Kampfsphäre
 %%%%
+{dat}%d battlespheres
+%d Kampfsphären
+%%%%
 {dat}a death cob
 einem Todeskolben
 %%%%
+{dat}%d death cobs
+%d Todeskolben
+%%%%
 {dat}a moon troll
 einem Mondtroll
+%%%%
+{dat}%d moon trolls
+%d Mondtrollen
 %%%%
 # check plural above
 %%%%
 {dat}a foxfire
 einem Fuchsfeuer
 %%%%
+{dat}%d foxfires
+%d Fuchsfeuern
+%%%%
 {dat}a nameless horror
 einem namenlosen Horror
 %%%%
+{dat}%d nameless horrors
+%d namenlosen Horror
+%%%%
 {dat}a sensed monster
 einem gespürten Monster
+%%%%
+{dat}%d sensed monsters
+%d gespürten Monstern
 %%%%
 # check plural above
 %%%%
 {dat}a friendly sensed monster
 einem freundlichen gespürten Monster
 %%%%
+{dat}%d friendly sensed monsters
+%d freundlichen gespürten Monstern
+%%%%
 # check plural above
 %%%%
 {dat}a trivial sensed monster
 einem trivialen gespürten Monster
+%%%%
+{dat}%d trivial sensed monsters
+%d trivialen gespürten Monstern
 %%%%
 # check plural above
 %%%%
 {dat}an easy sensed monster
 einem leichten gespürten Monster
 %%%%
+{dat}%d easy sensed monsters
+%d leichten gespürten Monstern
+%%%%
 # check plural above
 %%%%
 {dat}a tough sensed monster
 einem harten gespürten Monster
 %%%%
+{dat}%d tough sensed monsters
+%d harten gespürten Monstern
+%%%%
 # check plural above
 %%%%
 {dat}a nasty sensed monster
 einem furchtbaren gespürten Monster
+%%%%
+{dat}%d nasty sensed monsters
+%d furchtbaren gespürten Monstern
 %%%%
 # check plural above
 ################################
@@ -15766,6 +19387,7 @@ deinem furchtbaren gespürten Monster
 # Note that DCSS always adds 's in English, even if the Noun alread ends in s.
 #
 ###############################################################################
+%%%%
 
 ##############################################
 # Misc
@@ -20354,6 +23976,7 @@ deines furchtbaren gespürten Monsters
 # These are used when the English is NOT genitive, but the German is.
 #
 ###############################################################################
+%%%%
 
 ##############################################
 # Uniques
