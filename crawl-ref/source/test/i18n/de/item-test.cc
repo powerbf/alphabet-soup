@@ -89,9 +89,9 @@ const vector<string> expected = {
     "eine Blitzstange (3/4)",
     "2 Kisten der Bestien",
 
-    "der Ring von \"Fedhas's Hope\"  {MP+9 Int+4 Ges+2}",
+    "der Ring von \"Fedhas's Hope\" {MP+9 Int+4 Ges+2}",
 
-    "??? a knobbly runed staff ???",
+    "ein knubbeliger runenbesetzter Stecken",
 
     "Keule",
     "+9 Streitkolben",
