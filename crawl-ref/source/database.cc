@@ -44,9 +44,9 @@ public:
     operator DBM*() const { return _db; }
 
  private:
+    vector<string> _expand_file_list() const;
     bool _needs_update() const;
     void _regenerate_db();
-
  private:
     bool open_db();
     const char* const _db_name;
@@ -139,16 +139,8 @@ static TextDB AllDBs[] =
             }),
 
     TextDB("translate", "translate/",
-          { "gods.txt",
-            "input.txt",
-            "items.txt",
-            "messages.txt",
-            "misc.txt",
-            "monsters.txt",
-            "player.txt",
-            "ui.txt"
-            },
-            false),
+          { "*.txt" },
+          false),
 };
 
 static TextDB& DescriptionDB = AllDBs[0];
@@ -245,12 +237,33 @@ void TextDB::shutdown(bool recursive)
         translation->shutdown(recursive);
 }
 
+vector<string> TextDB::_expand_file_list() const
+{
+    vector<string> input_files;
+    for (const string &file : _input_files)
+    {
+        if (file.length() > 1 && file[0] == '*')
+        {
+            string dir = _directory.substr(0,_directory.length()-1);
+            dir = datafile_path(dir, false, true, dir_exists);
+            vector<string> matched = get_dir_files_ext(dir, file.substr(1));
+            input_files.insert(input_files.end(), matched.begin(), matched.end());
+        }
+        else
+        {
+            input_files.push_back(file);
+        }
+    }
+    return input_files;
+}
+
+
 bool TextDB::_needs_update() const
 {
     string ts;
     bool no_files = true;
 
-    for (const string &file : _input_files)
+    for (const string &file : _expand_file_list())
     {
         string full_input_path = _directory + file;
         full_input_path = datafile_path(full_input_path, !_parent);
@@ -315,7 +328,7 @@ void TextDB::_regenerate_db()
     string ts;
     if (!(_db = dbm_open(db_path.c_str(), O_RDWR | O_CREAT, 0660)))
         end(1, true, "Unable to open DB: %s", db_path.c_str());
-    for (const string &file : _input_files)
+    for (const string &file : _expand_file_list())
     {
         string full_input_path = _directory + file;
         full_input_path = datafile_path(full_input_path, !_parent);
