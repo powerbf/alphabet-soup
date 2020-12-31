@@ -63,59 +63,59 @@ Rune
 #################################
 # These can be applied to various classes of items
 %%%%
-cursed 
-verfluchte 
+"cursed "
+"verfluchte "
 %%%%
-uncursed 
-unverfluchte 
+"uncursed "
+"unverfluchte "
 %%%%
-enchanted 
-verzauberte 
+"enchanted "
+"verzauberte "
 %%%%
-runed 
-runenbesetzte 
+"runed "
+"runenbesetzte "
 %%%%
-glowing 
-glühende 
+"glowing "
+"glühende "
 %%%%
-shiny 
-glänzende 
+"shiny "
+"glänzende "
 %%%%
-{adj-er}cursed 
-verfluchter 
+"{adj-er}cursed "
+"verfluchter "
 %%%%
-{adj-er}uncursed 
-unverfluchter 
+"{adj-er}uncursed "
+"unverfluchter "
 %%%%
-{adj-er}enchanted 
-verzauberter 
+"{adj-er}enchanted "
+"verzauberter "
 %%%%
-{adj-er}runed 
-runenbesetzter 
+"{adj-er}runed "
+"runenbesetzter "
 %%%%
-{adj-er}glowing 
-glühender 
+"{adj-er}glowing "
+"glühender "
 %%%%
-{adj-er}shiny 
-glänzender 
+"{adj-er}shiny "
+"glänzender "
 %%%%
-{adj-es}cursed 
-verfluchtes 
+"{adj-es}cursed "
+"verfluchtes "
 %%%%
-{adj-es}uncursed 
-unverfluchtes 
+"{adj-es}uncursed "
+"unverfluchtes "
 %%%%
-{adj-es}enchanted 
-verzaubertes 
+"{adj-es}enchanted "
+"verzaubertes "
 %%%%
-{adj-es}runed 
-runenbesetztes 
+"{adj-es}runed "
+"runenbesetztes "
 %%%%
-{adj-es}glowing 
-glühendes 
+"{adj-es}glowing "
+"glühendes "
 %%%%
-{adj-es}shiny 
-glänzendes 
+"{adj-es}shiny "
+"glänzendes "
 %%%%
 
 #################################
@@ -854,83 +854,83 @@ ein Silberbumerang
 #################################
 # the first 3 are applied as adjectives
 %%%%
-antimagic 
-antimagische 
+"antimagic "
+"antimagische "
 %%%%
-{adj-er}antimagic 
-antimagischer 
+"{adj-er}antimagic "
+"antimagischer "
 %%%%
-{adj-es}antimagic 
-antimagisches 
+"{adj-es}antimagic "
+"antimagisches "
 %%%%
-vampiric 
-vampirische 
+"vampiric "
+"vampirische "
 %%%%
-{adj-er}vampiric 
-vampirischer 
+"{adj-er}vampiric "
+"vampirischer "
 %%%%
-{adj-es}vampiric 
-vampirisches 
+"{adj-es}vampiric "
+"vampirisches "
 %%%%
-vorpal 
+"vorpal "
 Vorpal-
 %%%%
 # don't think this is used, but it's in the code
 %%%%
- of acid
- der Säure
+" of acid"
+" der Säure"
 %%%%
- of chaos
- des Chaos
+" of chaos"
+" des Chaos"
 %%%%
- of disruption
- der Störung
+" of disruption"
+" der Störung"
 %%%%
- of distortion
- der Verwindung
+" of distortion"
+" der Verwindung"
 %%%%
 # only on artefact "Wyrmbane"
 %%%%
- of dragon slaying
- der Drachentötung
+" of dragon slaying"
+" der Drachentötung"
 %%%%
- of draining
- des Entleerens
+" of draining"
+" des Entleerens"
 %%%%
- of electrocution
- des Stromschlags
+" of electrocution"
+" des Stromschlags"
 %%%%
- of flaming
- des Flammens
+" of flaming"
+" des Flammens"
 %%%%
- of freezing
- des Einfrierens
+" of freezing"
+" des Einfrierens"
 %%%%
- of holy wrath
- des heiligen Zorns
+" of holy wrath"
+" des heiligen Zorns"
 %%%%
- of pain
- des Schmerzes
+" of pain"
+" des Schmerzes"
 %%%%
- of protection
- de Schutzes
+" of protection"
+" de Schutzes"
 %%%%
- of penetration
- der Penetration
+" of penetration"
+" der Penetration"
 %%%%
 # only on artefact "Sword of Zonguldrok"
 %%%%
- of reaping
- des Erntens
+" of reaping"
+" des Erntens"
 %%%%
- of speed
- der Geschwindigkeit
+" of speed"
+" der Geschwindigkeit"
 %%%%
- of venom
- des Giftes
+" of venom"
+" des Giftes"
 %%%%
- of dispersal
- der Zerstreuung
+" of dispersal"
+" der Zerstreuung"
 %%%%
 
 #################################
@@ -1245,101 +1245,101 @@ ein {adj-es}%sTurmschild
 # Armour adjectives
 #################################
 %%%%
-embroidered 
-bestickte 
+"embroidered "
+"bestickte "
 %%%%
-dyed 
-gefärbte 
+"dyed "
+"gefärbte "
 %%%%
-{adj-er}embroidered 
-bestickter 
+"{adj-er}embroidered "
+"bestickter "
 %%%%
-{adj-er}dyed 
-gefärbter 
+"{adj-er}dyed "
+"gefärbter "
 %%%%
-{adj-es}embroidered 
-besticktes 
+"{adj-es}embroidered "
+"besticktes "
 %%%%
-{adj-es}dyed 
-gefärbtes 
+"{adj-es}dyed "
+"gefärbtes "
 %%%%
 
 #################################
 # Armour Egos
 #################################
 %%%%
- of speedy slithering
- des schnellen Rutschens
+" of speedy slithering"
+" des schnellen Rutschens"
 %%%%
- of running
- des Laufens
+" of running"
+" des Laufens"
 %%%%
- of fire resistance
- der Feuerresistenz
+" of fire resistance"
+" der Feuerresistenz"
 %%%%
- of cold resistance
- der Kälteresistenz
+" of cold resistance"
+" der Kälteresistenz"
 %%%%
- of poison resistance
- der Giftresistenz
+" of poison resistance"
+" der Giftresistenz"
 %%%%
- of see invisible
- von Unsichtbares sehen
+" of see invisible"
+" von Unsichtbares sehen"
 %%%%
- of invisibility
- der Unsichtbarkeit
+" of invisibility"
+" der Unsichtbarkeit"
 %%%%
- of strength
- der Stärke
+" of strength"
+" der Stärke"
 %%%%
- of dexterity
- der Geschicklichkeit
+" of dexterity"
+" der Geschicklichkeit"
 %%%%
- of intelligence
- der Intelligenz
+" of intelligence"
+" der Intelligenz"
 %%%%
- of ponderousness
- der Schwerfälligkeit
+" of ponderousness"
+" der Schwerfälligkeit"
 %%%%
- of flying
- des Fliegens
+" of flying"
+" des Fliegens"
 %%%%
- of magic resistance
- der Magieresistanz
+" of magic resistance"
+" der Magieresistanz"
 %%%%
 # covered under weapon brands
 #msgid " of protection"
 #msgstr " des Schutzes"
 %%%%
- of stealth
- der Heimlichkeit
+" of stealth"
+" der Heimlichkeit"
 %%%%
- of resistance
- der Resistanz
+" of resistance"
+" der Resistanz"
 %%%%
- of positive energy
- der positiven Energie
+" of positive energy"
+" der positiven Energie"
 %%%%
- of the Archmagi
- der Erzmagier
+" of the Archmagi"
+" der Erzmagier"
 %%%%
- of preservation
- der Erhaltung
+" of preservation"
+" der Erhaltung"
 %%%%
- of reflection
- der Reflexion
+" of reflection"
+" der Reflexion"
 %%%%
- of spirit shield
- des Geistschildes
+" of spirit shield"
+" des Geistschildes"
 %%%%
- of archery
- der Schießkunst
+" of archery"
+" der Schießkunst"
 %%%%
- of repulsion
- der Abstoßung
+" of repulsion"
+" der Abstoßung"
 %%%%
- of harm
- des Schadens
+" of harm"
+" des Schadens"
 %%%%
 
 #################################
@@ -1566,32 +1566,32 @@ ein {adj-er}%sMondsteinring
 %%%%
 # adjectives
 %%%%
-{adj-er}encrusted 
-verkrusteter 
+"{adj-er}encrusted "
+"verkrusteter "
 %%%%
-{adj-er}tubular 
-röhrenförmiger 
+"{adj-er}tubular "
+"röhrenförmiger "
 %%%%
-{adj-er}blackened 
-geschwärzter 
+"{adj-er}blackened "
+"geschwärzter "
 %%%%
-{adj-er}scratched 
-zerkratzter 
+"{adj-er}scratched "
+"zerkratzter "
 %%%%
-{adj-er}small 
-kleiner 
+"{adj-er}small "
+"kleiner "
 %%%%
-{adj-er}large 
-großer 
+"{adj-er}large "
+"großer "
 %%%%
-{adj-er}twisted 
-verdrehter 
+"{adj-er}twisted "
+"verdrehter "
 %%%%
-{adj-er}notched 
-gekerbter 
+"{adj-er}notched "
+"gekerbter "
 %%%%
-{adj-er}knobbly 
-knubbeliger 
+"{adj-er}knobbly "
+"knubbeliger "
 %%%%
 
 #################################
@@ -1719,38 +1719,38 @@ ein {adj-es}%sBeryllamulett
 %%%%
 # adjectives
 %%%%
-{adj-es}dented 
-verbeultes 
+"{adj-es}dented "
+"verbeultes "
 %%%%
-{adj-es}square 
-quadratisches 
+"{adj-es}square "
+"quadratisches "
 %%%%
-{adj-es}thick 
-dickes 
+"{adj-es}thick "
+"dickes "
 %%%%
-{adj-es}thin 
-dünnes 
+"{adj-es}thin "
+"dünnes "
 %%%%
-{adj-es}blackened 
-geschwärztes 
+"{adj-es}blackened "
+"geschwärztes "
 %%%%
-{adj-es}small 
-kleines 
+"{adj-es}small "
+"kleines "
 %%%%
-{adj-es}large 
-großes 
+"{adj-es}large "
+"großes "
 %%%%
-{adj-es}twisted 
-verdrehtes 
+"{adj-es}twisted "
+"verdrehtes "
 %%%%
-{adj-es}tiny 
-sehr kleines 
+"{adj-es}tiny "
+"sehr kleines "
 %%%%
-{adj-es}triangular 
-dreieckiges 
+"{adj-es}triangular "
+"dreieckiges "
 %%%%
-{adj-es}lumpy 
-klumpiges 
+"{adj-es}lumpy "
+"klumpiges "
 %%%%
 
 #################################
@@ -1758,22 +1758,22 @@ klumpiges
 #################################
 # generic
 %%%%
- of \"%s\"
- von \"%s\"
+" of \"%s\""
+" von \"%s\""
 %%%%
 # generic
 %%%%
- \"%s\"
- \"%s\"
+" \"%s\""
+" \"%s\""
 %%%%
 # specific artefacts don't necessarily need to be translated
 # if there's no specific translation, the English text will put in quotes.
 %%%%
- of the Moon
- des Mondes
+" of the Moon"
+" des Mondes"
 %%%%
- of Dice, Bag, and Bottle
- von Würfel, Beutel, und Flasche
+" of Dice, Bag, and Bottle"
+" von Würfel, Beutel, und Flasche"
 %%%%
 
 #################################
@@ -1853,44 +1853,44 @@ ein {adj-er}%sfluoreszierender Zauberstab
 %%%%
 # adjectives
 %%%%
-{adj-er}jewelled 
-juwelenbesetzter 
+"{adj-er}jewelled "
+"juwelenbesetzter "
 %%%%
-{adj-er}curved 
-gebogener 
+"{adj-er}curved "
+"gebogener "
 %%%%
-{adj-er}long 
-langer 
+"{adj-er}long "
+"langer "
 %%%%
-{adj-er}short 
-kurzer 
+"{adj-er}short "
+"kurzer "
 %%%%
 #msgctxt "adj-er"
 #msgid "twisted "
 #msgstr "verdrehter "
 %%%%
-{adj-er}crooked 
-krummer 
+"{adj-er}crooked "
+"krummer "
 %%%%
-{adj-er}forked 
-gegabelter 
+"{adj-er}forked "
+"gegabelter "
 %%%%
 #msgctxt "adj-er"
 #msgid "blackened "
 #msgstr "geschwärzter "
 %%%%
-{adj-er}tapered 
-verjüngter 
+"{adj-er}tapered "
+"verjüngter "
 %%%%
-{adj-er}worn 
-abgenutzter 
+"{adj-er}worn "
+"abgenutzter "
 %%%%
 #msgctxt "adj-er"
 #msgid "encrusted "
 #msgstr "verkrusteter "
 %%%%
-{adj-er}sharpened 
-geschärfter 
+"{adj-er}sharpened "
+"geschärfter "
 %%%%
 
 #################################
@@ -2217,221 +2217,221 @@ ein {adj-er}%sZaubertrank
 %%%%
 # potion colours
 %%%%
-{adj-er}blue 
-blauer 
+"{adj-er}blue "
+"blauer "
 %%%%
-{adj-er}black 
-schwarzer 
+"{adj-er}black "
+"schwarzer "
 %%%%
-{adj-er}silvery 
-silberner 
+"{adj-er}silvery "
+"silberner "
 %%%%
-{adj-er}cyan 
-blaugrüner 
+"{adj-er}cyan "
+"blaugrüner "
 %%%%
-{adj-er}purple 
-purpurroter 
+"{adj-er}purple "
+"purpurroter "
 %%%%
-{adj-er}inky 
-tintiger 
+"{adj-er}inky "
+"tintiger "
 %%%%
-{adj-er}red 
-roter 
+"{adj-er}red "
+"roter "
 %%%%
-{adj-er}yellow 
-gelber 
+"{adj-er}yellow "
+"gelber "
 %%%%
-{adj-er}green 
-grüner 
+"{adj-er}green "
+"grüner "
 %%%%
-{adj-er}brown 
-brauner 
+"{adj-er}brown "
+"brauner "
 %%%%
-{adj-er}ruby 
-rubinroter 
+"{adj-er}ruby "
+"rubinroter "
 %%%%
-{adj-er}white 
-weißer 
+"{adj-er}white "
+"weißer "
 %%%%
-{adj-er}emerald 
-smaragdgrüner 
+"{adj-er}emerald "
+"smaragdgrüner "
 %%%%
-{adj-er}grey 
-grauer 
+"{adj-er}grey "
+"grauer "
 %%%%
-{adj-er}coppery 
-kupferfarbener 
+"{adj-er}coppery "
+"kupferfarbener "
 %%%%
-{adj-er}golden 
-goldener 
+"{adj-er}golden "
+"goldener "
 %%%%
-{adj-er}dark 
-dunkler 
+"{adj-er}dark "
+"dunkler "
 %%%%
-{adj-er}puce 
-braunroter 
+"{adj-er}puce "
+"braunroter "
 %%%%
-{adj-er}amethyst 
-amethystfarbener 
+"{adj-er}amethyst "
+"amethystfarbener "
 %%%%
-{adj-er}sapphire 
-saphirblauer 
+"{adj-er}sapphire "
+"saphirblauer "
 %%%%
 # potion colours - plural
 # no context because in German, the -e ending is most common, so treat as default
 %%%%
-blue 
-blaue 
+"blue "
+"blaue "
 %%%%
-black 
-schwarze 
+"black "
+"schwarze "
 %%%%
-silvery 
-silberne 
+"silvery "
+"silberne "
 %%%%
-cyan 
-blaugrüne 
+"cyan "
+"blaugrüne "
 %%%%
-purple 
-purpurrote 
-%%%%
-# undeclined
-%%%%
-orange 
-orange 
-%%%%
-inky 
-tintige 
-%%%%
-red 
-rote 
-%%%%
-yellow 
-gelbe 
-%%%%
-green 
-grüne 
-%%%%
-brown 
-braune 
-%%%%
-ruby 
-rubinrote 
-%%%%
-white 
-weiße 
-%%%%
-emerald 
-smaragdgrüne 
-%%%%
-grey 
-graue 
+"purple "
+"purpurrote "
 %%%%
 # undeclined
 %%%%
-pink 
-rosa 
+"orange "
+"orange "
 %%%%
-coppery 
-kupferfarbene 
+"inky "
+"tintige "
 %%%%
-golden 
-goldene 
+"red "
+"rote "
 %%%%
-dark 
-dunkle 
+"yellow "
+"gelbe "
 %%%%
-puce 
-braunrote 
+"green "
+"grüne "
 %%%%
-amethyst 
-amethystfarbene 
+"brown "
+"braune "
 %%%%
-sapphire 
-saphirblaue 
+"ruby "
+"rubinrote "
+%%%%
+"white "
+"weiße "
+%%%%
+"emerald "
+"smaragdgrüne "
+%%%%
+"grey "
+"graue "
+%%%%
+# undeclined
+%%%%
+"pink "
+"rosa "
+%%%%
+"coppery "
+"kupferfarbene "
+%%%%
+"golden "
+"goldene "
+%%%%
+"dark "
+"dunkle "
+%%%%
+"puce "
+"braunrote "
+%%%%
+"amethyst "
+"amethystfarbene "
+%%%%
+"sapphire "
+"saphirblaue "
 %%%%
 # potion qualifiers
 %%%%
-{adj-er}bubbling 
-sprudelnder 
+"{adj-er}bubbling "
+"sprudelnder "
 %%%%
-{adj-er}fizzy 
-zischender 
+"{adj-er}fizzy "
+"zischender "
 %%%%
-{adj-er}fuming 
-rauchender 
+"{adj-er}fuming "
+"rauchender "
 %%%%
-{adj-er}smoky 
-rauchiger 
+"{adj-er}smoky "
+"rauchiger "
 %%%%
-{adj-er}viscous 
-dickflüssiger 
+"{adj-er}viscous "
+"dickflüssiger "
 %%%%
-{adj-er}lumpy 
-klumpiger 
+"{adj-er}lumpy "
+"klumpiger "
 %%%%
-{adj-er}sedimented 
-sedimentierter 
+"{adj-er}sedimented "
+"sedimentierter "
 %%%%
-{adj-er}metallic 
-metallischer 
+"{adj-er}metallic "
+"metallischer "
 %%%%
-{adj-er}murky 
-trüber 
+"{adj-er}murky "
+"trüber "
 %%%%
-{adj-er}gluggy 
-klebriger 
+"{adj-er}gluggy "
+"klebriger "
 %%%%
-{adj-er}oily 
-öliger 
+"{adj-er}oily "
+"öliger "
 %%%%
-{adj-er}slimy 
-schleimiger 
+"{adj-er}slimy "
+"schleimiger "
 %%%%
-{adj-er}emulsified 
-emulgierter 
+"{adj-er}emulsified "
+"emulgierter "
 %%%%
 # potion qualifiers - plural
 # no context because in German, the -e ending is most common, so treat as default
 %%%%
-bubbling 
-sprudelnde 
+"bubbling "
+"sprudelnde "
 %%%%
-fizzy 
-zischende 
+"fizzy "
+"zischende "
 %%%%
-fuming 
-rauchende 
+"fuming "
+"rauchende "
 %%%%
-smoky 
-rauchige 
+"smoky "
+"rauchige "
 %%%%
-viscous 
-dickflüssige 
+"viscous "
+"dickflüssige "
 %%%%
-lumpy 
-klumpige 
+"lumpy "
+"klumpige "
 %%%%
-sedimented 
-sedimentierte 
+"sedimented "
+"sedimentierte "
 %%%%
-metallic 
-metallische 
+"metallic "
+"metallische "
 %%%%
-murky 
-trübe 
+"murky "
+"trübe "
 %%%%
-gluggy 
-klebrige 
+"gluggy "
+"klebrige "
 %%%%
-oily 
-ölige 
+"oily "
+"ölige "
 %%%%
-slimy 
-schleimige 
+"slimy "
+"schleimige "
 %%%%
-emulsified 
-emulgierte 
+"emulsified "
+"emulgierte "
 %%%%
 
 #################################
@@ -2481,14 +2481,17 @@ ein {adj-er}%sStecken
 #msgid "knobbly "
 #msgstr "knubbeliger "
 %%%%
-{adj-er}weird 
-seltsamer 
+"weird "
+"seltsame "
 %%%%
-{adj-er}gnarled 
-knorriger 
+"{adj-er}weird "
+"seltsamer "
 %%%%
-{adj-er}thin 
-dünner 
+"{adj-er}gnarled "
+"knorriger "
+%%%%
+"{adj-er}thin "
+"dünner "
 %%%%
 # covered elsewhere
 #msgctxt "adj-er"
@@ -2499,8 +2502,8 @@ dünner
 #msgid "twisted "
 #msgstr "verdrehter "
 %%%%
-{adj-er}thick 
-dicker 
+"{adj-er}thick "
+"dicker "
 %%%%
 # covered elsewhere
 #msgctxt "adj-er"
@@ -2511,8 +2514,8 @@ dicker
 #msgid "short "
 #msgstr "kurzer "
 %%%%
-{adj-er}smoking 
-rauchiger 
+"{adj-er}smoking "
+"rauchiger "
 %%%%
 # covered elsewhere
 #msgctxt "adj-er"
@@ -2657,8 +2660,8 @@ ein {adj-es}%smetallgebundenes Buch
 a %spapyrus book
 ein {adj-es}%sPapyrusbuch
 %%%%
-{adj-es}chunky 
-klobiges 
+"{adj-es}chunky "
+"klobiges "
 %%%%
 # covered under amulets
 #msgctxt "adj-es"
@@ -2669,16 +2672,16 @@ klobiges
 #msgid "thin "
 #msgstr "dünnes "
 %%%%
-{adj-es}wide 
-breites 
+"{adj-es}wide "
+"breites "
 %%%%
 # Note: the German for "dog-eared" is "mit/voller Eselsohren", but that can't be used as an adjective
 %%%%
-{adj-es}dog-eared 
-schäbiges 
+"{adj-es}dog-eared "
+"schäbiges "
 %%%%
-{adj-es}oblong 
-längliches 
+"{adj-es}oblong "
+"längliches "
 %%%%
 
 #################################
@@ -2781,47 +2784,47 @@ die %sRune
 %%%%
 # adjectives
 %%%%
-iron 
-eiserne 
+"iron "
+"eiserne "
 %%%%
-icy 
-eisige 
+"icy "
+"eisige "
 %%%%
-bone 
+"bone "
 Knochen-
 %%%%
 #msgid "slimy "
 #msgstr "schleimige "
 %%%%
-silver 
-silberne 
+"silver "
+"silberne "
 %%%%
-serpentine 
+"serpentine "
 Schlangen-
 %%%%
 #msgid "golden "
 #msgstr "goldene "
 %%%%
-decaying 
-verfallende 
+"decaying "
+"verfallende "
 %%%%
-barnacled 
+"barnacled "
 Kletten-
 %%%%
-gossamer 
+"gossamer "
 Spinnfäden-
 %%%%
-demonic 
-dämonische 
+"demonic "
+"dämonische "
 %%%%
 #msgid "glowing "
 #msgstr "leuchtende "
 %%%%
-magical 
-magische 
+"magical "
+"magische "
 %%%%
-fiery 
-feurige 
+"fiery "
+"feurige "
 %%%%
 #msgid "dark "
 #msgstr "dunkle "
@@ -2917,59 +2920,59 @@ Die Kugel von Zot
 # Item slots
 #################################
 %%%%
- (melded)
- (verschmelzt)
+" (melded)"
+" (verschmelzt)"
 %%%%
- (weapon)
- (Waffe)
+" (weapon)"
+" (Waffe)"
 %%%%
- (in mouth)
- (im Mund)
+" (in mouth)"
+" (im Mund)"
 %%%%
- (worn)
- (getragen)
+" (worn)"
+" (getragen)"
 %%%%
- (left hand)
- (linke Hand)
+" (left hand)"
+" (linke Hand)"
 %%%%
- (right hand)
- (rechte Hand)
+" (right hand)"
+" (rechte Hand)"
 %%%%
 # NOTE: German has different words for the paw of a cat/dog/etc.(die Pfote) vs. the paw of a lion/bear/etc. (die Pranke)
 # This refers to a felid's paw, which I guess it's the same as a cat's paw...
 %%%%
- (left paw)
- (linke Pfote)
+" (left paw)"
+" (linke Pfote)"
 %%%%
- (right paw)
- (rechte Pfote)
+" (right paw)"
+" (rechte Pfote)"
 %%%%
 # Claw -> die Kralle oder die Klaue?
 %%%%
- (left claw)
- (linke Kralle)
+" (left claw)"
+" (linke Kralle)"
 %%%%
- (right claw)
- (rechte Kralle)
+" (right claw)"
+" (rechte Kralle)"
 %%%%
 # NOTE: This is mantle in the zoological sense (octopode)
 %%%%
- (around mantle)
- (um den Mantel)
+" (around mantle)"
+" (um den Mantel)"
 %%%%
- (around neck)
- (um den Hals)
+" (around neck)"
+" (um den Hals)"
 %%%%
- (on tentacle)
- (am Tentakel)
+" (on tentacle)"
+" (am Tentakel)"
 %%%%
 # finger amulet can wear a ring
 %%%%
- (on amulet)
- (am Amulett)
+" (on amulet)"
+" (am Amulett)"
 %%%%
- (quivered)
- (im Köcher)
+" (quivered)"
+" (im Köcher)"
 %%%%
 Item in an invalid slot
 Gegenstand in falscher Position
@@ -2979,17 +2982,17 @@ Gegenstand in falscher Position
 # Annotations
 #################################
 %%%%
- (carried) 
- (getragen) 
+" (carried) "
+" (getragen) "
 %%%%
- (gone by now)
- (inzwischen weg)
+" (gone by now)"
+" (inzwischen weg)"
 %%%%
- (skeletalised by now)
- (inzwischen skelettiert)
+" (skeletalised by now)"
+" (inzwischen skelettiert)"
 %%%%
- (curse)
- (verflucht)
+" (curse)"
+" (verflucht)"
 %%%%
 god gift
 Gottesgeschenk
@@ -3512,23 +3515,23 @@ die %sUmarmung von Cigotuvi
 #################################
 # These can be applied to various classes of items
 %%%%
-{adj-en}cursed 
-verfluchten 
+"{adj-en}cursed "
+"verfluchten "
 %%%%
-{adj-en}uncursed 
-unverfluchten 
+"{adj-en}uncursed "
+"unverfluchten "
 %%%%
-{adj-en}enchanted 
-verzauberten 
+"{adj-en}enchanted "
+"verzauberten "
 %%%%
-{adj-en}runed 
-runenbesetzten 
+"{adj-en}runed "
+"runenbesetzten "
 %%%%
-{adj-en}glowing 
-glühenden 
+"{adj-en}glowing "
+"glühenden "
 %%%%
-{adj-en}shiny 
-glänzenden 
+"{adj-en}shiny "
+"glänzenden "
 %%%%
 
 #################################
@@ -3825,11 +3828,11 @@ einen Silberbumerang
 #################################
 # the first 3 are applied as adjectives
 %%%%
-{adj-en}antimagic 
-antimagischer 
+"{adj-en}antimagic "
+"antimagischer "
 %%%%
-{adj-en}vampiric 
-vampirischer 
+"{adj-en}vampiric "
+"vampirischer "
 %%%%
 
 #################################
@@ -3964,11 +3967,11 @@ einen {adj-en}%sBuckler
 # Armour adjectives
 #################################
 %%%%
-{adj-en}embroidered 
-bestickter 
+"{adj-en}embroidered "
+"bestickter "
 %%%%
-{adj-en}dyed 
-gefärbter 
+"{adj-en}dyed "
+"gefärbter "
 %%%%
 
 #################################
@@ -4195,32 +4198,32 @@ einen {adj-en}%sMondsteinring
 %%%%
 # adjectives
 %%%%
-{adj-en}encrusted 
-verkrusteten 
+"{adj-en}encrusted "
+"verkrusteten "
 %%%%
-{adj-en}tubular 
-röhrenförmigen 
+"{adj-en}tubular "
+"röhrenförmigen "
 %%%%
-{adj-en}blackened 
-geschwärzten 
+"{adj-en}blackened "
+"geschwärzten "
 %%%%
-{adj-en}scratched 
-zerkratzten 
+"{adj-en}scratched "
+"zerkratzten "
 %%%%
-{adj-en}small 
-kleinen 
+"{adj-en}small "
+"kleinen "
 %%%%
-{adj-en}large 
-großen 
+"{adj-en}large "
+"großen "
 %%%%
-{adj-en}twisted 
-verdrehten 
+"{adj-en}twisted "
+"verdrehten "
 %%%%
-{adj-en}notched 
-gekerbten 
+"{adj-en}notched "
+"gekerbten "
 %%%%
-{adj-en}knobbly 
-knubbeligen 
+"{adj-en}knobbly "
+"knubbeligen "
 %%%%
 
 #################################
@@ -4300,47 +4303,47 @@ einen {adj-en}%sfluoreszierender Zauberstab
 %%%%
 # adjectives
 %%%%
-{adj-en}jewelled 
-juwelenbesetzten 
+"{adj-en}jewelled "
+"juwelenbesetzten "
 %%%%
-{adj-en}curved 
-gebogenen 
+"{adj-en}curved "
+"gebogenen "
 %%%%
-{adj-en}long 
-langen 
+"{adj-en}long "
+"langen "
 %%%%
-{adj-en}short 
-kurzen 
+"{adj-en}short "
+"kurzen "
 %%%%
 #msgctxt "adj-en"
 #msgctxt "acc"
 #msgid "twisted "
 #msgstr "verdrehten "
 %%%%
-{adj-en}crooked 
-krummen 
+"{adj-en}crooked "
+"krummen "
 %%%%
-{adj-en}forked 
-gegabelten 
+"{adj-en}forked "
+"gegabelten "
 %%%%
 #msgctxt "adj-en"
 #msgctxt "acc"
 #msgid "blackened "
 #msgstr "geschwärzten "
 %%%%
-{adj-en}tapered 
-verjüngten 
+"{adj-en}tapered "
+"verjüngten "
 %%%%
-{adj-en}worn 
-abgenutzten 
+"{adj-en}worn "
+"abgenutzten "
 %%%%
 #msgctxt "adj-en"
 #msgctxt "acc"
 #msgid "encrusted "
 #msgstr "verkrusteten "
 %%%%
-{adj-en}sharpened 
-geschärften 
+"{adj-en}sharpened "
+"geschärften "
 %%%%
 
 #################################
@@ -4494,106 +4497,106 @@ einen {adj-en}%sZaubertrank
 %%%%
 # potion colours
 %%%%
-{adj-en}blue 
-blauen 
+"{adj-en}blue "
+"blauen "
 %%%%
-{adj-en}black 
-schwarzen 
+"{adj-en}black "
+"schwarzen "
 %%%%
-{adj-en}silvery 
-silbernen 
+"{adj-en}silvery "
+"silbernen "
 %%%%
-{adj-en}cyan 
-blaugrünen 
+"{adj-en}cyan "
+"blaugrünen "
 %%%%
-{adj-en}purple 
-purpurroten 
+"{adj-en}purple "
+"purpurroten "
 %%%%
-{adj-en}inky 
-tintigen 
+"{adj-en}inky "
+"tintigen "
 %%%%
-{adj-en}red 
-roten 
+"{adj-en}red "
+"roten "
 %%%%
-{adj-en}yellow 
-gelben 
+"{adj-en}yellow "
+"gelben "
 %%%%
-{adj-en}green 
-grünen 
+"{adj-en}green "
+"grünen "
 %%%%
-{adj-en}brown 
-braunen 
+"{adj-en}brown "
+"braunen "
 %%%%
-{adj-en}ruby 
-rubinroten 
+"{adj-en}ruby "
+"rubinroten "
 %%%%
-{adj-en}white 
-weißen 
+"{adj-en}white "
+"weißen "
 %%%%
-{adj-en}emerald 
-smaragdgrünen 
+"{adj-en}emerald "
+"smaragdgrünen "
 %%%%
-{adj-en}grey 
-grauen 
+"{adj-en}grey "
+"grauen "
 %%%%
-{adj-en}coppery 
-kupferfarbenen 
+"{adj-en}coppery "
+"kupferfarbenen "
 %%%%
-{adj-en}golden 
-goldenen 
+"{adj-en}golden "
+"goldenen "
 %%%%
-{adj-en}dark 
-dunklen 
+"{adj-en}dark "
+"dunklen "
 %%%%
-{adj-en}puce 
-braunroten 
+"{adj-en}puce "
+"braunroten "
 %%%%
-{adj-en}amethyst 
-amethystfarbenen 
+"{adj-en}amethyst "
+"amethystfarbenen "
 %%%%
-{adj-en}sapphire 
-saphirblauen 
+"{adj-en}sapphire "
+"saphirblauen "
 %%%%
 # potion qualifiers
 %%%%
-{adj-en}bubbling 
-sprudelnden 
+"{adj-en}bubbling "
+"sprudelnden "
 %%%%
-{adj-en}fizzy 
-zischenden 
+"{adj-en}fizzy "
+"zischenden "
 %%%%
-{adj-en}fuming 
-rauchenden 
+"{adj-en}fuming "
+"rauchenden "
 %%%%
-{adj-en}smoky 
-rauchigen 
+"{adj-en}smoky "
+"rauchigen "
 %%%%
-{adj-en}viscous 
-dickflüssigen 
+"{adj-en}viscous "
+"dickflüssigen "
 %%%%
-{adj-en}lumpy 
-klumpigen 
+"{adj-en}lumpy "
+"klumpigen "
 %%%%
-{adj-en}sedimented 
-sedimentierten 
+"{adj-en}sedimented "
+"sedimentierten "
 %%%%
-{adj-en}metallic 
-metallischen 
+"{adj-en}metallic "
+"metallischen "
 %%%%
-{adj-en}murky 
-trüben 
+"{adj-en}murky "
+"trüben "
 %%%%
-{adj-en}gluggy 
-klebrigen 
+"{adj-en}gluggy "
+"klebrigen "
 %%%%
-{adj-en}oily 
-öligen 
+"{adj-en}oily "
+"öligen "
 %%%%
-{adj-en}slimy 
-schleimigen 
+"{adj-en}slimy "
+"schleimigen "
 %%%%
-{adj-en}emulsified 
-emulgierten 
+"{adj-en}emulsified "
+"emulgierten "
 %%%%
 
 #################################
@@ -4645,14 +4648,14 @@ einen {adj-en}%sStecken
 #msgid "knobbly "
 #msgstr "knubbeligen "
 %%%%
-{adj-en}weird 
-seltsamen 
+"{adj-en}weird "
+"seltsamen "
 %%%%
-{adj-en}gnarled 
-knorrigen 
+"{adj-en}gnarled "
+"knorrigen "
 %%%%
-{adj-en}thin 
-dünnen 
+"{adj-en}thin "
+"dünnen "
 %%%%
 # covered elsewhere
 #msgctxt "adj-en"
@@ -4665,8 +4668,8 @@ dünnen
 #msgid "twisted "
 #msgstr "verdrehten "
 %%%%
-{adj-en}thick 
-dicken 
+"{adj-en}thick "
+"dicken "
 %%%%
 # covered elsewhere
 #msgctxt "adj-en"
@@ -4679,8 +4682,8 @@ dicken
 #msgid "short "
 #msgstr "kurzen "
 %%%%
-{adj-en}smoking 
-rauchigen 
+"{adj-en}smoking "
+"rauchigen "
 %%%%
 # covered elsewhere
 #msgctxt "adj-en"

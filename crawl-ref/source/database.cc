@@ -32,7 +32,7 @@ class TextDB
 public:
     // db_name is the savedir-relative name of the db file,
     // minus the "db" extension.
-    TextDB(const char* db_name, const char* dir, vector<string> files);
+    TextDB(const char* db_name, const char* dir, vector<string> files, bool canonicalise_key = true);
     TextDB(TextDB *parent);
     ~TextDB() { shutdown(true); delete translation; }
     void init();
@@ -52,6 +52,7 @@ public:
     const char* const _db_name;
     string _directory;
     vector<string> _input_files;
+    bool _canonicalise_key;
     DBM* _db;
     string timestamp;
     TextDB *_parent;
@@ -62,7 +63,7 @@ public:
 
 // Convenience functions for (read-only) access to generic
 // berkeley DB databases.
-static void _store_text_db(const string &in, DBM *db);
+static void _store_text_db(const string &in, DBM *db, bool canonicalise_key, bool trim_value);
 
 static string _query_database(TextDB &db, string key, bool canonicalise_key,
                               bool run_lua, bool untranslated = false);
@@ -146,7 +147,8 @@ static TextDB AllDBs[] =
             "monsters.txt",
             "player.txt",
             "ui.txt"
-            }),
+            },
+            false),
 };
 
 static TextDB& DescriptionDB = AllDBs[0];
@@ -172,8 +174,9 @@ static string _db_cache_path(string db, const char *lang)
 // TextDB
 // ----------------------------------------------------------------------
 
-TextDB::TextDB(const char* db_name, const char* dir, vector<string> files)
+TextDB::TextDB(const char* db_name, const char* dir, vector<string> files, bool canonicalise_key)
     : _db_name(db_name), _directory(dir), _input_files(files),
+      _canonicalise_key(canonicalise_key),
       _db(nullptr), timestamp(""), _parent(0), translation(0)
 {
 }
@@ -182,6 +185,7 @@ TextDB::TextDB(TextDB *parent)
     : _db_name(parent->_db_name),
       _directory(parent->_directory + Options.lang_name + "/"),
       _input_files(parent->_input_files), // FIXME: pointless copy
+      _canonicalise_key(parent->_canonicalise_key),
       _db(nullptr), timestamp(""), _parent(parent), translation(nullptr)
 {
 }
@@ -327,7 +331,7 @@ void TextDB::_regenerate_db()
 #endif
             || !_parent) // english is mandatory
         {
-            _store_text_db(full_input_path, _db);
+            _store_text_db(full_input_path, _db, _canonicalise_key, !_canonicalise_key);
         }
     }
     _add_entry(_db, "TIMESTAMP", ts);
@@ -497,9 +501,18 @@ static void _trim_leading_newlines(string &s)
     s.erase(0, s.find_first_not_of("\n"));
 }
 
+static void _trim_quotes(string &s)
+{
+    if (s.length() >= 2 && s[0] == '"' && s[s.length()-1] == '"')
+    {
+        s = s.substr(1, s.length()-2);
+    }
+}
+
 static void _add_entry(DBM *db, const string &k, string &v)
 {
     _trim_leading_newlines(v);
+
     datum key, value;
     key.dptr = (char *) k.c_str();
     key.dsize = k.length();
@@ -511,7 +524,7 @@ static void _add_entry(DBM *db, const string &k, string &v)
         end(1, true, "Error storing %s", k.c_str());
 }
 
-static void _parse_text_db(LineInput &inf, DBM *db)
+static void _parse_text_db(LineInput &inf, DBM *db, bool canonicalise_key, bool trim_value)
 {
     string key;
     string value;
@@ -527,7 +540,15 @@ static void _parse_text_db(LineInput &inf, DBM *db)
         if (!line.compare(0, 4, "%%%%"))
         {
             if (!key.empty())
+            {
+                if (trim_value)
+                {
+                    // only preserve whitespace if it's inside quotes
+                    trim_string(value);
+                    _trim_quotes(value);
+                }
                 _add_entry(db, key, value);
+            }
             key.clear();
             value.clear();
             in_entry = true;
@@ -541,7 +562,13 @@ static void _parse_text_db(LineInput &inf, DBM *db)
         {
             key = line;
             trim_string(key);
-            lowercase(key);
+            if (canonicalise_key)
+                lowercase(key);
+            else
+            {
+                // key may be surrounded by quotes to preserve whitespace
+                _trim_quotes(key);
+            }
         }
         else
         {
@@ -551,16 +578,24 @@ static void _parse_text_db(LineInput &inf, DBM *db)
     }
 
     if (!key.empty())
+    {
+        if (trim_value)
+        {
+            // only preserve whitespace if it's inside quotes
+            trim_string(value);
+            _trim_quotes(value);
+        }
         _add_entry(db, key, value);
+    }
 }
 
-static void _store_text_db(const string &in, DBM *db)
+static void _store_text_db(const string &in, DBM *db, bool canonicalise_key, bool trim_value)
 {
     UTF8FileLineInput inf(in.c_str());
     if (inf.error())
         end(1, true, "Unable to open input file: %s", in.c_str());
 
-    _parse_text_db(inf, db);
+    _parse_text_db(inf, db, canonicalise_key, trim_value);
 }
 
 static string _chooseStrByWeight(string entry, int fixed_weight = -1)
@@ -935,6 +970,5 @@ string getHintString(const string &key)
 
 string getTranslatedString(const string &key)
 {
-    string s = _query_database(TranslateDB, key, true, false);
-    return trim_string_left(trim_string_right(s));
+    return _query_database(TranslateDB, key, false, false);
 }

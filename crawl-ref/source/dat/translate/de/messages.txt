@@ -307,22 +307,22 @@ Lua Fehler: %s
 # adjust.cc
 ##################
 %%%%
-Adjust (i)tems, (s)pells, or (a)bilities? 
+"Adjust (i)tems, (s)pells, or (a)bilities? "
 (i)Gegenstände, (s)Zauber oder (a)Fähigkeiten wechseln?
 %%%%
-Adjust which spell? 
+"Adjust which spell? "
 Welchen Zauber wechseln?
 %%%%
 You don't know that spell.
 Du kennst diesen Zauber nicht.
 %%%%
-Adjust to which letter? 
+"Adjust to which letter? "
 An welchen Buchstaben wechseln?
 %%%%
 You don't currently have any abilities.
 Du hast momentan keine Fähigkeiten.
 %%%%
-Adjust which ability? 
+"Adjust which ability? "
 Welche Fähigkeit wechseln?
 %%%%
 No such ability.
@@ -342,11 +342,11 @@ Das Heiligtum beginnt zu schrumpfen.
 The sanctuary disappears.
 Das Heiligtum verschwindet.
 %%%%
-By Zin's power, the foul cloud within the sanctuary 
-Durch Zins Kraft die schmutzige Wolke im Heiligtum 
+"By Zin's power, the foul cloud within the sanctuary "
+"Durch Zins Kraft die schmutzige Wolke im Heiligtum "
 %%%%
-By Zin's power, all foul fumes within the sanctuary 
-Durch Zins Macht sind alle üblen Dämpfe im Heiligtum 
+"By Zin's power, all foul fumes within the sanctuary "
+"Durch Zins Macht sind alle üblen Dämpfe im Heiligtum "
 %%%%
 By Zin's power, all blood is cleared from the sanctuary.
 Durch Zins Kraft wird alles Blut aus dem Heiligtum entfernt.
@@ -365,13 +365,13 @@ Buchhaltung sagt, dass fraktion_a negative aktive Mitglieder hat.
 Book-keeping says faction_b has negative active members.
 Buchhaltung sagt, dass fraktion_b negative aktive Mitglieder hat.
 %%%%
-Book-keeping error in faction member count: 
+"Book-keeping error in faction member count: "
 Buchhaltungsfehler bei der Anzahl der Fraktionsmitglieder:
 %%%%
 Both factions alive but one declared the winner.
 Beide Fraktionen leben, aber eine hat den Sieger erklärt.
 %%%%
-ERROR: Both sides have spawners, but the active 
+"ERROR: Both sides have spawners, but the active "
 FEHLER: Beide Seiten haben Spawner, aber die aktiven
 %%%%
 #, c-format
@@ -515,8 +515,8 @@ Dein Blutdurst verschwindet.
 %%%%
 #, c-format
 %%%%
-<white>The lance glows brightly as it skewers %s. You feel 
-<white>Die Lanze leuchtet hell, als sie %s aufspießt. Du fühlst 
+"<white>The lance glows brightly as it skewers %s. You feel "
+"<white>Die Lanze leuchtet hell, als sie %s aufspießt. Du fühlst "
 %%%%
 #, c-format
 %%%%
@@ -908,8 +908,8 @@ Du frierst {acc}%s ein%s
 ##################
 #, c-format
 %%%%
-%s stares at you suspiciously for a moment, 
-%s starrt dich einen Moment misstrauisch an, 
+"%s stares at you suspiciously for a moment, "
+"%s starrt dich einen Moment misstrauisch an, "
 %%%%
 #, c-format
 %%%%
@@ -1059,11 +1059,11 @@ Du fühlst, dass deine Stille länger dauern wird.
 An unnatural silence engulfs you.
 Eine unnatürliche Stille verschlingt dich.
 %%%%
-You feel your vulnerability to fire will last 
+"You feel your vulnerability to fire will last "
 Du fühlst, dass deine Anfälligkeit für Feuer anhalten wird
 %%%%
-Cherry-coloured flames burn away your fire 
-Kirschfarbene Flammen brennen dein Feuer ab 
+"Cherry-coloured flames burn away your fire "
+"Kirschfarbene Flammen brennen dein Feuer ab "
 %%%%
 #, c-format
 %%%%
@@ -1350,7 +1350,7 @@ Die mutagene Energie fließt in dich.
 You are struck by lightning!
 Du bist vom Blitz getroffen!
 %%%%
-Lightning from the thunderstorm strikes something you cannot 
+"Lightning from the thunderstorm strikes something you cannot "
 Ein Blitz vom Gewitter trifft etwas, was du nicht kannst.
 %%%%
 #, c-format
@@ -1433,7 +1433,7 @@ Regenerierende Datenbank:%s
 ##################
 #, c-format
 %%%%
-On %s; %d g, %d fail, %u err%s, %u uniq, 
+"On %s; %d g, %d fail, %u err%s, %u uniq, "
 Auf%s;%d g,%d scheitern,%u err%s,%u uniq,
 %%%%
 User requested cancel
@@ -1441,7 +1441,7 @@ Vom Benutzer angeforderter Abbruch
 %%%%
 #, c-format
 %%%%
-On %d of %d; %d g, %d fail, %u err%s, %u uniq, 
+"On %d of %d; %d g, %d fail, %u err%s, %u uniq, "
 Auf%d von%d;%d g,%d scheitern,%u err%s,%u uniq,
 %%%%
 #, c-format
@@ -1458,12 +1458,12 @@ Generieren von Dungeon-Kartenstatistiken
 ##################
 #, c-format
 %%%%
-Igrd has invalid item index %d 
+"Igrd has invalid item index %d "
 Igrd hat ungültigen Artikelindex%d
 %%%%
 #, c-format
 %%%%
-Item in stack at (%d, %d) has 
+"Item in stack at (%d, %d) has "
 Gegenstand im Stapel bei (%d,%d) hat
 %%%%
 #, c-format
@@ -1484,7 +1484,7 @@ Während der Level-Generierung ist ein MgD-Problem aufgetreten.
 %%%%
 #, c-format
 %%%%
-mgrd at (%d, %d) has invalid monster 
+"mgrd at (%d, %d) has invalid monster "
 mgrd bei (%d,%d) hat ein ungültiges Monster
 %%%%
 Additionally, it isn't alive.
@@ -1497,7 +1497,7 @@ Scheinmonstertyp%d bei (%d,%d), midx =%d
 %%%%
 #, c-format
 %%%%
-Out of bounds monster: %s at (%d, %d), 
+"Out of bounds monster: %s at (%d, %d), "
 Monster außerhalb der Grenzen:%s bei (%d,%d)
 %%%%
 #, c-format
@@ -1522,17 +1522,17 @@ Monster%s in%s bei (%d,%d)%s
 %%%%
 #, c-format
 %%%%
-Monster %s (%d, %d) has invalid item 
+"Monster %s (%d, %d) has invalid item "
 Monster%s (%d,%d) hat einen ungültigen Gegenstand
 %%%%
 #, c-format
 %%%%
-Monster %s (%d, %d) holding invalid item in 
+"Monster %s (%d, %d) holding invalid item in "
 Monster%s (%d,%d) mit ungültigem Gegenstand in
 %%%%
 #, c-format
 %%%%
-Monster %s (%d, %d) [midx = %d] holding 
+"Monster %s (%d, %d) [midx = %d] holding "
 Monster%s (%d,%d) [midx =%d] halten
 %%%%
 Other monster thinks it's holding the item, too.
@@ -1553,7 +1553,7 @@ Fehler: Constrictor fehlt für Monster%s (%d)
 %%%%
 #, c-format
 %%%%
-Error: constricting[%s(mindex=%d mid=%d)] 
+"Error: constricting[%s(mindex=%d mid=%d)] "
 Fehler: Einschnüren [%s (mindex =%d mid =%d)]
 %%%%
 #, c-format
@@ -1571,7 +1571,7 @@ Fehler: Spieler an derselben Stelle wie Monster:%s (%d)
 # dbg-util.cc
 ##################
 %%%%
-Which monster by name? 
+"Which monster by name? "
 Welches Monster mit Namen?
 %%%%
 Currently generating level.
@@ -1605,18 +1605,18 @@ Für %s werden keine Builder-Protokolle gespeichert.
 %%%%
 #, c-format
 %%%%
-    item #%d:  base: %d; sub: %d; plus: %d; plus2: %d; special: %d
-    Artikel #%d: Basis:%d; Unter:%d; Plus:%d; Plus2:%d; Spezial:%d
+"    item #%d:  base: %d; sub: %d; plus: %d; plus2: %d; special: %d"
+"    Artikel #%d: Basis:%d; Unter:%d; Plus:%d; Plus2:%d; Spezial:%d"
 %%%%
 #, c-format
 %%%%
-    quant: %d; ident: 0x%08lX; ident_type: %d
-    quant: %d; ident: 0x%08lX; ident_type: %d
+"    quant: %d; ident: 0x%08lX; ident_type: %d"
+"    quant: %d; ident: 0x%08lX; ident_type: %d"
 %%%%
 Diagnostic messages are available only in debug builds.
 Diagnosemeldungen sind nur in Debug-Builds verfügbar.
 %%%%
-Toggle which debug class (ESC to exit)? 
+"Toggle which debug class (ESC to exit)? "
 Welche Debug-Klasse umschalten (ESC zum Beenden)?
 %%%%
 #, c-format
@@ -1772,7 +1772,7 @@ Du fängst an Blut zu lassen.
 You begin the revivification ritual.
 Du beginnst das Wiederbelebungsritual.
 %%%%
-The corpse has rotted away into a skeleton before 
+"The corpse has rotted away into a skeleton before "
 Die Leiche ist schon einmal in ein Skelett verfault
 %%%%
 #, c-format
@@ -1791,7 +1791,7 @@ Du bist mit dem Auswendiglernen fertig.
 You finish merging with the rock.
 Du bist mit dem Felsen fertig.
 %%%%
-...yet there is something new on the other side. 
+"...yet there is something new on the other side. "
 ... doch auf der anderen Seite gibt es etwas Neues.
 %%%%
 ...and sense your way blocked. You quickly turn back.
@@ -2067,12 +2067,12 @@ Fehler beim Laden der Karte, erneutes Laden aller Karten (%s).
 branch epilogue for %s failed: %s
 Zweig-Epilog für%s fehlgeschlagen:%s
 %%%%
-Multiple locations with transporter 
+"Multiple locations with transporter "
 Mehrere Standorte mit Transporter
 %%%%
 #, c-format
 %%%%
-Transporter with name %s has no corresponding 
+"Transporter with name %s has no corresponding "
 Transporter mit dem Namen%s hat keine entsprechenden
 %%%%
 #, c-format
@@ -2110,7 +2110,7 @@ Ausgang von%s konnte nicht gefunden werden
 %%%%
 #, c-format
 %%%%
-ERROR: %s already generated somewhere 
+"ERROR: %s already generated somewhere "
 FEHLER:%s wurde bereits irgendwo generiert
 %%%%
 Ran out of altars for temple!
@@ -2143,7 +2143,7 @@ Du kannst wieder Tränke trinken.
 # end.cc
 ##################
 %%%%
-Your body rises from the dead as a mindless 
+"Your body rises from the dead as a mindless "
 Dein Körper erhebt sich als Geistloser von den Toten
 %%%%
 Your body crumbles into a pile of gold.
@@ -2413,7 +2413,7 @@ Deine herbeigerufenen%s sind zurückgeblieben.
 Your mindless thrall%s behind.
 Dein gedankenloser Thrall%s zurück.
 %%%%
-Error: you smelly wizard, how dare you enter 
+"Error: you smelly wizard, how dare you enter "
 Fehler: Du stinkender Zauberer, wie kannst du es wagen einzutreten?
 %%%%
 #, c-format
@@ -2421,7 +2421,7 @@ Fehler: Du stinkender Zauberer, wie kannst du es wagen einzutreten?
 Second portal entrance for %s!
 Zweiter Portaleingang für %s!
 %%%%
-Emergency fixup: removing player from wall 
+"Emergency fixup: removing player from wall "
 Notfallkorrektur: Spieler von der Wand entfernen
 %%%%
 #, c-format
@@ -2472,7 +2472,7 @@ Bones-Sicherungsdatei%s kann nicht zum Schreiben geöffnet werden
 Error backing up bones file to %s
 Fehler beim Sichern der Bones-Datei auf%s
 %%%%
-Mismatch between bones backup 
+"Mismatch between bones backup "
 Nichtübereinstimmung zwischen Bones Backup
 %%%%
 #, c-format
@@ -2805,7 +2805,7 @@ Dafür hast du nicht genug Gold!
 %%%%
 #, c-format
 %%%%
-You currently need %d gold to open negotiations with a 
+"You currently need %d gold to open negotiations with a "
 Du brauchst derzeit%d Gold, um Verhandlungen mit a zu eröffnen.
 %%%%
 No merchants are willing to come to this location.
@@ -2887,7 +2887,7 @@ Du hast%s wieder auf%s%s gesetzt!
 %%%%
 #, c-format
 %%%%
-You focus your will and drain %s's magic in 
+"You focus your will and drain %s's magic in "
 Du fokussierst deinen Willen und lässt%s Magie hinein.
 %%%%
 #, c-format
@@ -2953,7 +2953,7 @@ Du offenbarst deinen Feinden die große vernichtende Wahrheit!
 The surge fizzles.
 Die Welle sprudelt.
 %%%%
-You stomp with the beat, sending a shockwave through the revelers 
+"You stomp with the beat, sending a shockwave through the revelers "
 Du stampfst mit dem Beat und sendest eine Schockwelle durch die Nachtschwärmer.
 %%%%
 Cancelling line pass due to HUP.
@@ -3119,7 +3119,7 @@ Der himmlische Sturm lässt nach.
 %%%%
 #, c-format
 %%%%
-You lunge at %s, but your attack speed is too slow for a blow 
+"You lunge at %s, but your attack speed is too slow for a blow "
 Du stürzt bei %s ab, aber deine Angriffsgeschwindigkeit ist zu langsam für einen Schlag.
 %%%%
 #, c-format
@@ -3129,7 +3129,7 @@ Du stürzst%s auf %s%s.
 %%%%
 #, c-format
 %%%%
-You spin to attack %s, but your attack speed is too slow for 
+"You spin to attack %s, but your attack speed is too slow for "
 Du drehst dich, um%s anzugreifen, aber deine Angriffsgeschwindigkeit ist zu langsam für
 %%%%
 #, c-format
@@ -3325,7 +3325,7 @@ Zu viele Gegenstände auf Level, einige entfernen.
 %%%%
 #, c-format
 %%%%
-Item %s claims to be held by monster %s, but 
+"Item %s claims to be held by monster %s, but "
 Item%s behauptet, von Monster%s gehalten zu werden, aber
 %%%%
 #, c-format
@@ -3438,7 +3438,7 @@ Autopickup für%d-Elemente deaktiviert.
 ch_force_autopickup failed: %s
 ch_force_autopickup fehlgeschlagen:%s
 %%%%
-Which rune (ESC to exit)? 
+"Which rune (ESC to exit)? "
 Welche Rune (ESC zum Verlassen)?
 %%%%
 #, c-format
@@ -3886,10 +3886,10 @@ call_dlua: kann noch keine Nicht-Skalare übergeben (TODO)
 # l-dgnmon.cc
 ##################
 %%%%
-dgn.set_random_mon_list() : colour for 
+"dgn.set_random_mon_list() : colour for "
 dgn.set_random_mon_list (): Farbe für
 %%%%
-dgn.set_random_mon_list() : items for 
+"dgn.set_random_mon_list() : items for "
 dgn.set_random_mon_list (): Elemente für
 %%%%
 
@@ -3912,8 +3912,8 @@ Gegenstand ist nicht ausgerüstet
 ##################
 #, c-format
 %%%%
-Describe a %s? 
-Beschreibe %s? 
+"Describe a %s? "
+"Beschreibe %s? "
 %%%%
 # duplicate
 #msgid "Okay, then."
@@ -3961,7 +3961,7 @@ Kann nicht zu ungültigem xl%d geändert werden
 Flushing non-empty key buffer
 Leeren des nicht leeren Schlüsselpuffers
 %%%%
-(m)acro, (M)acro raw, keymap 
+"(m)acro, (M)acro raw, keymap "
 (m) acro, (M) acro raw, Keymap
 %%%%
 Saving macros.
@@ -3975,7 +3975,7 @@ Abbruch.
 Current Action: %s
 Aktuelle Aktion:%s
 %%%%
-Do you wish to (r)edefine, (c)lear, or (a)bort? 
+"Do you wish to (r)edefine, (c)lear, or (a)bort? "
 Möchtest du (r) neu definieren, (c) lernen oder (a) bortieren?
 %%%%
 #, c-format
@@ -4157,8 +4157,8 @@ Du fängst an zu warten.
 You start resting.
 Du fängst an dich auszuruhen.
 %%%%
-Move the cursor to view the level map, or type <w>?</w> for 
-Bewege den Cursor, um die Ebenenübersicht anzuzeigen, oder drücke <w>?</w> für 
+"Move the cursor to view the level map, or type <w>?</w> for "
+"Bewege den Cursor, um die Ebenenübersicht anzuzeigen, oder drücke <w>?</w> für "
 %%%%
 Returning to the game...
 Zurück zum Spiel ...
@@ -4232,7 +4232,7 @@ Du hörst ein Knacken.
 Outside, the world ends.
 Draußen endet die Welt.
 %%%%
-Sorry, but your quest for the Orb is now rather pointless. 
+"Sorry, but your quest for the Orb is now rather pointless. "
 Entschuldigung, aber deine Suche nach der Kugel ist jetzt ziemlich sinnlos.
 %%%%
 You're too confused to attack without stumbling around!
@@ -4259,7 +4259,7 @@ Deine Blutwut verlässt dich schnell.
 You must enter the number of times for the command to repeat.
 Du müsst eingeben, wie oft der Befehl wiederholt werden soll.
 %%%%
-Enter command to be repeated: 
+"Enter command to be repeated: "
 Befehl eingeben, der wiederholt werden soll:
 %%%%
 Can't re-do previous command from within a macro.
@@ -6195,8 +6195,8 @@ Du lenkst den Angriff von%s um!
 %%%%
 #, c-format
 %%%%
-Monster %s became detached from mgrd 
-Monster %s hat sich von mgrd gelöst 
+"Monster %s became detached from mgrd "
+"Monster %s hat sich von mgrd gelöst "
 %%%%
 You hear a loud crackle.
 Du hörst ein lautes Knistern.
@@ -6220,7 +6220,7 @@ Das Netz zerreißt und%s kommt frei!
 All of a sudden the net rips apart!
 Plötzlich zerreißt das Netz!
 %%%%
-You feel yourself growing ill in the 
+"You feel yourself growing ill in the "
 Du fühlst dich krank in der
 %%%%
 #, c-format
@@ -6562,8 +6562,8 @@ Ein %s Nebel sammelt sich für einen Moment und verblasst dann.
 %%%%
 #, c-format
 %%%%
-With its final breath, %s offers up its power 
-Mit seinem letzten Atemzug bietet %s seine Kraft 
+"With its final breath, %s offers up its power "
+"Mit seinem letzten Atemzug bietet %s seine Kraft "
 %%%%
 # duplicate
 #, c-format
@@ -6666,13 +6666,13 @@ Ein heftiger Sturm beginnt um %s zu wüten.
 %%%%
 #, c-format
 %%%%
-mgrd(%d,%d) points to %s monster, even 
+"mgrd(%d,%d) points to %s monster, even "
 mgrd (%d,%d) zeigt sogar auf%s Monster
 %%%%
 #, c-format
 %%%%
-%s tried to unsubmerge while on same square as 
-%s hat versucht, auf demselben Feld wie zu tauchen 
+"%s tried to unsubmerge while on same square as "
+"%s hat versucht, auf demselben Feld wie zu tauchen "
 %%%%
 #, c-format
 %%%%
@@ -6745,7 +6745,7 @@ Die%s lassen%s los.
 The pull of its song draws you forwards.
 Der Zug seines Liedes zieht dich nach vorne.
 %%%%
-Something prevents you from swapping places 
+"Something prevents you from swapping places "
 Etwas hindert dich daran, Plätze zu tauschen
 %%%%
 # duplicate
@@ -7074,12 +7074,12 @@ Du spürst eine unheilige Aura.
 Its appearance distorts for a moment.
 Sein Aussehen verzerrt für einen Moment.
 %%%%
-It is briefly surrounded by a scintillating aura of 
+"It is briefly surrounded by a scintillating aura of "
 Es ist kurz von einer funkelnden Aura von
 %%%%
 #, c-format
 %%%%
-%s %s briefly %s through it before %s %s to get a 
+"%s %s briefly %s through it before %s %s to get a "
 %s%s kurz%s durch, bevor%s%s ein
 %%%%
 It is briefly surrounded by shifting shadows.
@@ -7291,10 +7291,10 @@ Du tauschst Plätze.
 %s %s twisted violently and ejected from the portal!
 %s%s hat sich heftig verdreht und aus dem Portal ausgeworfen!
 %%%%
-The barbed spikes dig painfully into your body 
+"The barbed spikes dig painfully into your body "
 Die Stacheldrahtstacheln graben sich schmerzhaft in deinen Körper ein.
 %%%%
-Your icy armour cracks and falls away as 
+"Your icy armour cracks and falls away as "
 Deine eisige Rüstung knackt und fällt ab als
 %%%%
 There's nothing to open nearby.
@@ -7326,7 +7326,7 @@ Es ist schon geschlossen!
 There isn't anything that you can close there!
 Es gibt nichts, was du dort schließen kannst!
 %%%%
-You cannot move. (Use ctrl+direction or * direction to 
+"You cannot move. (Use ctrl+direction or * direction to "
 Du kannst dich nicht bewegen. (Benutze Strg + Richtung oder * Richtung um
 %%%%
 You're too confused to move!
@@ -7667,7 +7667,7 @@ Du hast Level%d erreicht, das höchste, das du jemals erreichen wirst!
 You have reached level %d!
 Du hast Level%d erreicht!
 %%%%
-If you were bloodless 
+"If you were bloodless "
 Wenn du unblutig wärst
 %%%%
 Your skin feels tougher.
@@ -7678,7 +7678,7 @@ Deine Haut fühlt sich härter an.
 You learn %s %s%s.
 Du lernst%s%s%s.
 %%%%
-You feel monstrous as 
+"You feel monstrous as "
 Du fühlst dich monströs wie
 %%%%
 Your scales feel tougher.
@@ -7719,7 +7719,7 @@ Du hast im Moment nicht genug Magie.
 Your magical contamination has completely faded away.
 Deine magische Verunreinigung ist vollständig verschwunden.
 %%%%
-You fade completely from view now that you are no longer 
+"You fade completely from view now that you are no longer "
 Du verblasst jetzt, wo du nicht mehr bist, vollständig aus dem Blickfeld.
 %%%%
 You feel momentarily confused.
@@ -7825,8 +7825,8 @@ Du fühlst dich %s lebhaft.
 %%%%
 #, c-format
 %%%%
-You can't survive in this terrain! You fly above the %s, but the 
-Du kannst in diesem Terrain nicht überleben! Du fliegst über die %s, aber die 
+"You can't survive in this terrain! You fly above the %s, but the "
+"Du kannst in diesem Terrain nicht überleben! Du fliegst über die %s, aber die "
 %%%%
 You float gracefully downwards.
 Du schwebst anmutig nach unten.
@@ -8046,7 +8046,7 @@ Du fühlst dich plötzlich %sschlaff.
 You feel a build-up of mutagenic energy.
 Du fühlst einen Aufbau mutagener Energie.
 %%%%
-You absorb a burst of magical contamination as your invisibility 
+"You absorb a burst of magical contamination as your invisibility "
 Du absorbierst einen Ausbruch magischer Kontamination als deine Unsichtbarkeit.
 %%%%
 #, c-format
@@ -8134,12 +8134,12 @@ Ein brennender Schmerz schießt deine%s hoch!
 %%%%
 #, c-format
 %%%%
-%s is briefly surrounded by a scintillating aura of 
+"%s is briefly surrounded by a scintillating aura of "
 %s ist kurz von einer funkelnden Aura von
 %%%%
 #, c-format
 %%%%
-Your %s briefly %s through it before you manage 
+"Your %s briefly %s through it before you manage "
 Deine%s kurz%s durch, bevor du es schaffst
 %%%%
 #, c-format
@@ -8474,18 +8474,18 @@ Du fühlst, wie dein Fleisch verrottet.
 #msgid "You float gracefully downwards."
 #msgstr "Du schwebst anmutig nach unten."
 %%%%
-Your amulet attunes itself to your body. You feel like doing 
+"Your amulet attunes itself to your body. You feel like doing "
 Dein Amulett stimmt sich auf deinen Körper ein. Du hast Lust zu tun
 %%%%
-Your amulet attunes itself to your body. You feel a shielding 
+"Your amulet attunes itself to your body. You feel a shielding "
 Dein Amulett stimmt sich auf deinen Körper ein. Du fühlst eine Abschirmung.
 %%%%
 #, c-format
 %%%%
-Your %s attune%s to your body as you begin to regenerate 
+"Your %s attune%s to your body as you begin to regenerate "
 Deine%s stimmen%s auf deinen Körper ab, wenn du anfängst, dich zu regenerieren.
 %%%%
-Your amulet attunes itself to your body and you begin to 
+"Your amulet attunes itself to your body and you begin to "
 Dein Amulett stimmt sich auf deinen Körper ein und du fängst an zu
 %%%%
 The silence causes your song to end.
@@ -8607,8 +8607,8 @@ Es war ein%s.
 # prompt.cc
 ##################
 %%%%
-%s (Confirm with \"yes\".) 
-%s (Bestätige mit \"ja\".) 
+"%s (Confirm with \"yes\".) "
+"%s (Bestätige mit \"ja\".) "
 %%%%
 [Y]es or [N]o only, please.
 Nur [J]a oder [N]ein, bitte.
@@ -8667,17 +8667,17 @@ Du kannst abgenutzte Gegenstände nicht zittern lassen.
 #, c-format
 %%%%
 Could not create fixed level randart spellbook: %s
-Randart-Zauberbuch mit festem Level konnte nicht erstellt werden: %s 
+"Randart-Zauberbuch mit festem Level konnte nicht erstellt werden: %s "
 %%%%
 #, c-format
 %%%%
-More spells requested for fixed level (%d) 
-Weitere Zauber für festes Level angefordert (%d) 
+"More spells requested for fixed level (%d) "
+"Weitere Zauber für festes Level angefordert (%d) "
 %%%%
 #, c-format
 %%%%
-Discarded %d spells due to being uncastable and 
-%d Zauber verworfen, weil sie nicht gießbar sind und 
+"Discarded %d spells due to being uncastable and "
+"%d Zauber verworfen, weil sie nicht gießbar sind und "
 %%%%
 
 ##################
@@ -8805,7 +8805,7 @@ Alle deine Mitschleime machen dich an.
 The plants of the dungeon turn on you.
 Die Pflanzen des Verlieses machen dich an.
 %%%%
-Your funded stores close, unable to pay 
+"Your funded stores close, unable to pay "
 Deine finanzierten Geschäfte schließen und können nicht bezahlen
 %%%%
 Your storm instantly dissipates.
@@ -8840,7 +8840,7 @@ Deine unreinen und chaotischen Verbündeten verlassen dich.
 You stop regenerating magic.
 Du hörst auf, Magie zu regenerieren.
 %%%%
-The plants of the dungeon cease their 
+"The plants of the dungeon cease their "
 Die Pflanzen des Kerkers hören auf, ihre
 %%%%
 Your unholy and evil allies forsake you.
@@ -8916,7 +8916,7 @@ Was sind deine Befehle?
 %%%%
 #, c-format
 %%%%
- t - %s!
+" t - %s!"
 t -%s!
 %%%%
 #, c-format
@@ -8924,13 +8924,13 @@ t -%s!
 Orders for allies: a - Attack new target.%s
 Befehle für Verbündete: a - Neues Ziel angreifen.%s
 %%%%
-                   r - Retreat!             s - Stop attacking.
+"                   r - Retreat!             s - Stop attacking."
 r - Rückzug! s - Hör auf anzugreifen.
 %%%%
-                   g - Guard the area.      f - Follow me.
+"                   g - Guard the area.      f - Follow me."
 g - Bewache den Bereich. f - Folge mir.
 %%%%
- Anything else - Cancel.
+" Anything else - Cancel."
 Alles andere - Abbrechen.
 %%%%
 Follow me!
@@ -8953,12 +8953,12 @@ Attacke!
 %%%%
 #, c-format
 %%%%
-You feel a strong urge to %s, but 
+"You feel a strong urge to %s, but "
 Du fühlst einen starken Drang nach%s, aber
 %%%%
 #, c-format
 %%%%
-You feel a %s rip itself from your throat, 
+"You feel a %s rip itself from your throat, "
 Du fühlst, wie sich ein%s aus deiner Kehle reißt.
 %%%%
 You are unable to make a sound!
@@ -8985,7 +8985,7 @@ Schreiben eines Rauschgitters mit%d Rauschquellen
 ##################
 #, c-format
 %%%%
-monster %s (%d) at (%d, %d) was 
+"monster %s (%d) at (%d, %d) was "
 Monster%s (%d) bei (%d,%d) war
 %%%%
 
@@ -9012,7 +9012,7 @@ Deine%s%s Fertigkeit%s auf Level%d!
 %%%%
 #, c-format
 %%%%
-Your %s%s skill %s %d levels and is now 
+"Your %s%s skill %s %d levels and is now "
 Deine%s%s Fertigkeit%s%d-Werte und ist jetzt
 %%%%
 #, c-format
@@ -9124,16 +9124,16 @@ Du bist zu verwirrt, um Zauber zu wirken.
 You cannot cast spells when silenced!
 Du kannst keine Zauber wirken, wenn du zum Schweigen gebracht wirst!
 %%%%
-Cast which spell? (? or * to list) 
-Welchen Zauber wirken? (? oder * auflisten) 
+"Cast which spell? (? or * to list) "
+"Welchen Zauber wirken? (? oder * auflisten) "
 %%%%
 #, c-format
 %%%%
 Casting: <w>%s</w> <lightgrey>(%s)</lightgrey>
 Casting: <w>%s</w> <lightgrey>(%s)</lightgrey>
 %%%%
-Confirm with . or Enter, or press 
-Bestätigen mit . oder Enter, oder drücke 
+"Confirm with . or Enter, or press "
+"Bestätigen mit . oder Enter, oder drücke "
 %%%%
 # duplicate
 #msgid "You don't know that spell."
@@ -9142,22 +9142,22 @@ Bestätigen mit . oder Enter, oder drücke
 You don't have enough magic to cast that spell.
 Du hast nicht genug Magie, um diesen Zauber zu wirken.
 %%%%
-You can't see any susceptible monsters within range! 
+"You can't see any susceptible monsters within range! "
 Du kannst keine anfälligen Monster in Reichweite sehen!
 %%%%
 Your control over your magic is sapped.
 Deine Kontrolle über deine Magie ist geschwächt.
 %%%%
-Couldn't try casting monster spell because you're 
+"Couldn't try casting monster spell because you're "
 Ich konnte nicht versuchen, einen Monsterzauber zu wirken, weil du es bist.
 %%%%
-Couldn't try casting monster spell because there is 
+"Couldn't try casting monster spell because there is "
 Ich konnte nicht versuchen, einen Monsterzauber zu wirken, weil es ihn gibt.
 %%%%
 Invalid player spell, attempting to cast it as monster spell.
 Ungültiger Spielerzauber, der versucht, ihn als Monsterzauber zu wirken.
 %%%%
-It is impossible to cast this spell 
+"It is impossible to cast this spell "
 Es ist unmöglich, diesen Zauber zu wirken
 %%%%
 Sorry, this spell works on others only.
@@ -9722,7 +9722,7 @@ Ein kalter Wind weht um dich herum.
 You call out to the draconic realm, and the dragon horde roars back!
 Du rufst in das drakonische Reich und die Drachenhorde brüllt zurück!
 %%%%
-A dragon tries to answer your call, but you don't have enough 
+"A dragon tries to answer your call, but you don't have enough "
 Ein Drache versucht, deinen Ruf zu beantworten, aber du hast nicht genug.
 %%%%
 A dragon arrives to answer your call!
@@ -9783,7 +9783,7 @@ Schattenfetzen wirbeln um dich herum ...
 The shadows disperse without effect.
 Die Schatten zerstreuen sich ohne Wirkung.
 %%%%
-The dungeon shakes, a horrible noise fills the air, 
+"The dungeon shakes, a horrible noise fills the air, "
 Der Kerker zittert, ein schreckliches Geräusch liegt in der Luft.
 %%%%
 A gateway cannot be opened in this cramped space!
@@ -9806,8 +9806,8 @@ Die Toten sind auferstanden!
 The dead are %s!
 Die Toten %s!
 %%%%
-The flesh is too rotten for a proper zombie; 
-Das Fleisch ist zu faul für einen richtigen Zombie; 
+"The flesh is too rotten for a proper zombie; "
+"Das Fleisch ist zu faul für einen richtigen Zombie; "
 %%%%
 #, c-format
 %%%%
@@ -10080,7 +10080,7 @@ Du fühlst die Kraft des Abgrunds, die deine Translokation verzögert!
 You feel the Orb delaying your translocation!
 Du fühlst, wie die Kugel deine Translokation verzögert!
 %%%%
-Controlled teleport interrupted by HUP signal, 
+"Controlled teleport interrupted by HUP signal, "
 Kontrollierter Teleport durch HUP-Signal unterbrochen
 %%%%
 Even you can't go there right now. Sorry!
@@ -10123,7 +10123,7 @@ Yoink! Du ziehst den Gegenstand%s zu dir.
 The Orb prevents you from opening a passage!
 Die Kugel hindert dich daran, einen Durchgang zu öffnen!
 %%%%
-A magic seal in the Gauntlet prevents you from 
+"A magic seal in the Gauntlet prevents you from "
 Ein magisches Siegel im Handschuh hindert dich daran
 %%%%
 You cannot create a passage on the other side of the transparent wall.
@@ -10279,7 +10279,7 @@ Die Welle verschwindet in einem Hauch von Logik!
 Strange, the shaft seems to lead back to this level.
 Seltsam, der Schaft scheint auf dieses Niveau zurück zu führen.
 %%%%
-The strain on the space-time continuum destroys the 
+"The strain on the space-time continuum destroys the "
 Die Belastung des Raum-Zeit-Kontinuums zerstört das
 %%%%
 #, c-format
@@ -10330,10 +10330,10 @@ Willkommen bei%s!
 Beware, you cannot shaft yourself on this level.
 Vorsicht, du kannst dich auf dieser Ebene nicht bewegen.
 %%%%
-Error: no Hell exit level, how in the 
+"Error: no Hell exit level, how in the "
 Fehler: kein Höllenausgang, wie in der
 %%%%
-Error: no return path. You did create 
+"Error: no return path. You did create "
 Fehler: kein Rückweg. Du hast erstellt
 %%%%
 
@@ -10574,10 +10574,10 @@ Die Schriftart '%s' konnte nicht gefunden werden, da auf '%s' zurückgegriffen w
 # timed-effects.cc
 ##################
 %%%%
-Your body shudders with the violent release 
+"Your body shudders with the violent release "
 Dein Körper zittert bei der gewaltsamen Befreiung
 %%%%
-Your body momentarily shudders from a surge of wild 
+"Your body momentarily shudders from a surge of wild "
 Dein Körper zittert für einen Moment vor einer Welle wilder Tiere.
 %%%%
 #, c-format
@@ -10932,12 +10932,12 @@ Du bist in einem von Reisen ausgeschlossenen Gebiet und hältst%s an.
 Where to? %s
 Wohin? %s
 %%%%
-Go to which altar? (? - help) 
-Zu welchem ​​Altar gehen? (? - Hilfe) 
+"Go to which altar? (? - help) "
+"Zu welchem ​​Altar gehen? (? - Hilfe) "
 %%%%
 #, c-format
 %%%%
-What level of %s? 
+"What level of %s? "
 Welche Stufe von %s?
 %%%%
 You're already at the bottom of this branch!
@@ -10968,7 +10968,7 @@ Beruhige dich bitte zuerst.
 Existing waypoints:
 Bestehende Wegpunkte:
 %%%%
-Delete which waypoint? (* - delete all, Esc - exit) 
+"Delete which waypoint? (* - delete all, Esc - exit) "
 Welchen Wegpunkt löschen? (* - Alle löschen, Esc - Beenden)
 %%%%
 All waypoints deleted. Have a nice day!
@@ -10979,7 +10979,7 @@ Entschuldigung, du kannst hier keinen Wegpunkt setzen.
 %%%%
 #, c-format
 %%%%
-Assign waypoint to what number? (0-9%s) 
+"Assign waypoint to what number? (0-9%s) "
 Welcher Zahl einen Wegpunkt zuweisen? (0-9%s)
 %%%%
 #, c-format
@@ -11027,7 +11027,7 @@ Du fühlst dich deiner Umgebung bewusst.
 Select layers to display:\n
 Wähle die anzuzeigenden Ebenen aus:\n
 %%%%
-Press escape to toggle all layers. 
+"Press escape to toggle all layers. "
 Drücke die Esc-Taste, um alle Ebenen umzuschalten.
 %%%%
 Restoring view layers.
@@ -11095,7 +11095,7 @@ WARNUNG: ÜBER DEN WIZARD-MODUS!
 If you continue, your game will not be scored!
 Wenn du weitermachst, wird dein Spiel nicht gewertet!
 %%%%
-Enter Wizard Command (? - help): 
+"Enter Wizard Command (? - help): "
 Gib den Assistentenbefehl ein (? - Hilfe):
 %%%%
 WARNING: ABOUT TO ENTER EXPLORE MODE!
@@ -11117,10 +11117,10 @@ Fehler beim Bestimmen des Level-Exits.
 Creating %sstairs.
 %streppen erstellen.
 %%%%
-Create what kind of feature mimic? 
+"Create what kind of feature mimic? "
 Welche Art von Feature-Mimik erstellen?
 %%%%
-Create which feature? 
+"Create which feature? "
 Welche Funktion erstellen?
 %%%%
 #, c-format
@@ -11165,7 +11165,7 @@ Karte mit dem Namen '%s' nicht gefunden.
 %%%%
 #, c-format
 %%%%
-Placing %s on top of you would put part of the 
+"Placing %s on top of you would put part of the "
 Wenn du %s auf dich legst, wird ein Teil von
 %%%%
 #, c-format
@@ -11173,8 +11173,8 @@ Wenn du %s auf dich legst, wird ein Teil von
 %s decides where it goes, can't place where you are.
 %s entscheidet, wohin es geht, kann nicht platzieren, wo du bist.
 %%%%
-Ok; try placing with &L or go to the relevant location to 
-Ok; versuche es mit &L oder gehe zum entsprechenden Ort zu 
+"Ok; try placing with &L or go to the relevant location to "
+"Ok; versuche es mit &L oder gehe zum entsprechenden Ort zu "
 %%%%
 #, c-format
 %%%%
@@ -11186,7 +11186,7 @@ Successfully placed %s.
 Failed to place %s.
 %s konnte nicht platziert werden.
 %%%%
-Enter map name: 
+"Enter map name: "
 Kartennamen eingeben:
 %%%%
 #, c-format
@@ -11208,7 +11208,7 @@ Alle Tresore können jetzt [wieder] verwendet werden.
 %%%%
 #, c-format
 %%%%
-Set Abyss speed to what? (now %d, higher value = 
+"Set Abyss speed to what? (now %d, higher value = "
 Abyss-Geschwindigkeit auf was einstellen? (Jetzt%d, höherer Wert =
 %%%%
 #, c-format
@@ -11240,7 +11240,7 @@ unbekannter Gegenstand:%s
 # wiz-fsim.cc
 ##################
 %%%%
-Enter monster name (or MONS spec): 
+"Enter monster name (or MONS spec): "
 Gib den Monsternamen (oder die MONS-Spezifikation) ein:
 %%%%
 Failed to create monster.
@@ -11249,10 +11249,10 @@ Monster konnte nicht erstellt werden.
 Could not put monster adjacent to player.
 Das Monster konnte nicht neben den Spieler gestellt werden.
 %%%%
-Attack: 
-Attacke: 
+"Attack: "
+"Attacke: "
 %%%%
-Defend: 
+"Defend: "
 Verteidigen:
 %%%%
 Cancelling simulation.\n
@@ -11278,7 +11278,7 @@ Sim auf %s abbrechen
 # wiz-item.cc
 ##################
 %%%%
-Enter name of item (or ITEM spec): 
+"Enter name of item (or ITEM spec): "
 Namen des Artikels (oder die ITEM-Spezifikation):
 %%%%
 # duplicate
@@ -11321,7 +11321,7 @@ Kein solcher Gegenstand.
 You can't tweak the randart properties of an equipped item.
 Du kannst die Randart-Eigenschaften eines ausgerüsteten Gegenstands nicht optimieren.
 %%%%
-Change which field? 
+"Change which field? "
 Welches Feld ändern?
 %%%%
 #, c-format
@@ -11354,8 +11354,8 @@ Kein Ego wie: %s
 Ego '%s' is invalid for %s.
 Ego '%s' ist für %s ungültig.
 %%%%
-Which field? 
-Welches Feld? 
+"Which field? "
+"Welches Feld? "
 %%%%
 #, c-format
 %%%%
@@ -11370,7 +11370,7 @@ Alter Wert: 0x%08
 You can't set this flag on a non-artefact.
 Du kannst dieses Flag nicht auf ein Nicht-Artefakt setzen.
 %%%%
-Make book fixed [t]heme or fixed [l]evel? 
+"Make book fixed [t]heme or fixed [l]evel? "
 Buch fest [t] heme oder fest [l] evel machen?
 %%%%
 #, c-format
@@ -11394,7 +11394,7 @@ Dieser Gegenstand ist bereits ein zufälliges Artefakt.
 That item cannot be turned into an artefact.
 Dieser Gegenstand kann nicht in ein Artefakt verwandelt werden.
 %%%%
-Fake item as gift from which god (ENTER to leave alone): 
+"Fake item as gift from which god (ENTER to leave alone): "
 Gefälschter Gegenstand als Geschenk von welchem ​​Gott (ENTER, um in Ruhe zu lassen):
 %%%%
 No such god, leaving item origin alone.
@@ -11440,7 +11440,7 @@ Zu viele Gegenstände auf Stufe.
 [e] Staves  [f] Evocables [g] Food
 [e] Dauben [f] Evocables [g] Essen
 %%%%
-What kind of item would you like to get acquirement stats on? 
+"What kind of item would you like to get acquirement stats on? "
 Auf was für einen Gegenstand möchtest du Erwerbsstatistiken setzen?
 %%%%
 Stopping early due to keyboard input.
@@ -11509,12 +11509,12 @@ Kein solcher Hintergrund, was es zu einem Kämpfer macht.
 %d monsters, %d total exp value (%d non-uniq, %d adjusted)
 %d Monster,%d Gesamt-Exp-Wert (%d nicht eindeutig,%d angepasst)
 %%%%
-(c)hange spawn rate or (s)pawn monsters? 
+"(c)hange spawn rate or (s)pawn monsters? "
 (c) Hange Spawn Rate oder (s) Bauernmonster?
 %%%%
 #, c-format
 %%%%
-Set monster spawn rate to what? (now %d, lower value = higher rate) 
+"Set monster spawn rate to what? (now %d, lower value = higher rate) "
 Monster-Spawn-Rate auf was setzen? (Jetzt%d, niedrigerer Wert = höhere Rate)
 %%%%
 #, c-format
@@ -11522,12 +11522,12 @@ Monster-Spawn-Rate auf was setzen? (Jetzt%d, niedrigerer Wert = höhere Rate)
 Setting monster spawn rate to %i.
 Monster-Spawn-Rate auf%i setzen.
 %%%%
-Level already filled with monsters, 
+"Level already filled with monsters, "
 Level bereits mit Monstern gefüllt
 %%%%
 #, c-format
 %%%%
-Spawn how many random monsters (max %d)? 
+"Spawn how many random monsters (max %d)? "
 Spawn wie viele zufällige Monster (max%d)?
 %%%%
 #, c-format
@@ -11543,7 +11543,7 @@ Welches Monster?
 Detected %i monster%s.
 %i Monster%s erkannt.
 %%%%
-What monsters to dismiss (ENTER for all, 
+"What monsters to dismiss (ENTER for all, "
 Welche Monster zu entlassen (ENTER für alle
 %%%%
 #, c-format
@@ -11551,25 +11551,25 @@ Welche Monster zu entlassen (ENTER für alle
 Dismissed %i monster%s.
 %i Monster%s entlassen.
 %%%%
-Make the monster (S)hout or (T)alk? 
+"Make the monster (S)hout or (T)alk? "
 Mache das Monster (S) hout oder (T) alk?
 %%%%
 The monster is invisible and likely won't speak.
 Das Monster ist unsichtbar und wird wahrscheinlich nicht sprechen.
 %%%%
-You are silenced but the monster isn't; you will 
+"You are silenced but the monster isn't; you will "
 Du bist zum Schweigen gebracht, aber das Monster nicht; du wirst
 %%%%
 The monster is silenced and likely won't say anything.
 Das Monster wird zum Schweigen gebracht und wird wahrscheinlich nichts sagen.
 %%%%
-Both you and the monster are silenced, so you likely 
+"Both you and the monster are silenced, so you likely "
 Sowohl du als auch das Monster werden zum Schweigen gebracht, also wahrscheinlich
 %%%%
 == Done ==
 == Fertig ==
 %%%%
-Apply blessing of (B)eogh, The (S)hining One, or (R)andomly? 
+"Apply blessing of (B)eogh, The (S)hining One, or (R)andomly? "
 Segen von (B) eogh, The (S) hining One oder (R) andomly anwenden?
 %%%%
 #, c-format
@@ -11604,7 +11604,7 @@ Monster ist bereits gerufen.
 [f] wrath [h] aid   [m] misc    [s] spell
 [f] Zorn [h] hilft [m] verschiedenen Zaubersprüchen
 %%%%
-Which summon type? 
+"Which summon type? "
 Welcher Beschwörungstyp?
 %%%%
 No such spell.
@@ -11642,7 +11642,7 @@ Wähle eine Destination!
 Attempting to calculate a path from (%d, %d) to (%d, %d)...
 Versuch, einen Pfad von (%d,%d) nach (%d,%d) zu berechnen ...
 %%%%
-Here's the shortest path: 
+"Here's the shortest path: "
 Hier ist der kürzeste Weg:
 %%%%
 #, c-format
@@ -11650,7 +11650,7 @@ Hier ist der kürzeste Weg:
 -> path length: %u
 -> Pfadlänge: %u
 %%%%
-And here are the needed waypoints: 
+"And here are the needed waypoints: "
 Und hier sind die benötigten Wegpunkte:
 %%%%
 #, c-format
@@ -11661,7 +11661,7 @@ Und hier sind die benötigten Wegpunkte:
 Can't make already dead target miscast.
 Kann nicht schon tote Zielfehlbesetzung machen.
 %%%%
-Miscast which school or spell, by name? 
+"Miscast which school or spell, by name? "
 Welche Schule oder welchen Spruch namentlich falsch?
 %%%%
 No matching spell or spell school.
@@ -11687,10 +11687,10 @@ Fehlzauber%s.
 Miscasting school %s.
 Fehlbesetzung der Schule%s.
 %%%%
-Enter fail: 
+"Enter fail: "
 Enter fail:
 %%%%
-Enter level, fail: 
+"Enter level, fail: "
 Level eingeben, fehlschlagen:
 %%%%
 Can only enter spell level for schools, not spells.
@@ -11713,13 +11713,13 @@ Taste gedrückt, um Fehlbesetzungstests zu unterbrechen.
 #msgid "That species isn't available."
 #msgstr "Diese Art ist nicht verfügbar."
 %%%%
-Cast which spell? 
+"Cast which spell? "
 Welchen Zauber wirken?
 %%%%
 Cannot find that spell.
 Kann diesen Zauber nicht finden.
 %%%%
-Memorise which spell? 
+"Memorise which spell? "
 Merke sich welchen Zauber?
 %%%%
 Spell is monster-only - unpredictable behaviour may result.
@@ -11759,7 +11759,7 @@ Frömmigkeit auf %d setzen.
 %%%%
 #, c-format
 %%%%
-Enter new gold value (current = %d, Enter for %d): 
+"Enter new gold value (current = %d, Enter for %d): "
 Neuen Goldwert eingeben (aktuell =%d, Eingabe für%d):
 %%%%
 # duplicate
@@ -11777,7 +11777,7 @@ Aktueller Fortschritt bis zum nächsten Opfer:%d Erforderlicher Fortschritt:%d
 %%%%
 #, c-format
 %%%%
-Enter new piety value (current = %d, Enter for 0): 
+"Enter new piety value (current = %d, Enter for 0): "
 Gib einen neuen Frömmigkeitswert ein (aktuell = %d, Enter-Taste für 0):
 %%%%
 That skill doesn't seem to exist.
@@ -11802,10 +11802,10 @@ Keine passenden Mutationsnamen.
 Found #%d: %s (\"%s\")
 Gefunden #%d: %s (\"%s\")
 %%%%
-Enter values for X, Y, Z (space separated) or return: 
+"Enter values for X, Y, Z (space separated) or return: "
 Gib Werte für X, Y, Z (durch Leerzeichen getrennt) oder Entertaste ein:
 %%%%
-Enter values for Str, Int, Dex (space separated): 
+"Enter values for Str, Int, Dex (space separated): "
 Gib Werte für Str, Int, Dex (durch Leerzeichen getrennt) ein:
 %%%%
 #, c-format
@@ -11813,10 +11813,10 @@ Gib Werte für Str, Int, Dex (durch Leerzeichen getrennt) ein:
 Setting attributes (Str, Int, Dex) to: %i, %i, %i
 Setzen von Attributen (Str, Int, Dex) auf: %i,%i,%i
 %%%%
-\nEdit which duration (letter or name)? 
+"\nEdit which duration (letter or name)? "
 \nBearbeiten welche Dauer (Buchstabe oder Name)?
 %%%%
-Edit which duration (name)? 
+"Edit which duration (name)? "
 Welche Dauer (Name) bearbeiten?
 %%%%
 No existing durations to choose from.
@@ -11833,7 +11833,7 @@ Keine Dauer, die mit '%s' übereinstimmt.
 Can't set duration directly to 0, setting it to 1 instead.
 Die Dauer kann nicht direkt auf 0 gesetzt werden, sondern auf 1.
 %%%%
-Enter new experience level: 
+"Enter new experience level: "
 Neue Erfahrungsstufe eingeben:
 %%%%
 #, c-format
@@ -11873,7 +11873,7 @@ Du leidest den schrecklichen Zorn von No God.
 You are not under penance.
 Du bist nicht unter Buße.
 %%%%
-Which form (ESC to exit)? 
+"Which form (ESC to exit)? "
 Welches Formular (ESC zum Beenden)?
 %%%%
 Transformation failed.

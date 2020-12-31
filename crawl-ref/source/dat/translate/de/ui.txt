@@ -82,8 +82,8 @@ Die Highscore-Liste anschauen.
 New Game
 Neues Spiel
 %%%%
- (WIZ)
- (WIZ)
+" (WIZ)"
+" (WIZ)"
 %%%%
 Enter your name:
 Gib deinen Namen ein:
@@ -94,11 +94,11 @@ Optionen:
 Saved games:
 Gespeicherte Spiele:
 %%%%
-quick-load last game: 
-letztes Spiel schnell laden: 
+"quick-load last game: "
+"letztes Spiel schnell laden: "
 %%%%
-quick-start last combo: 
-letzte Kombination schnell starten: 
+"quick-start last combo: "
+"letzte Kombination schnell starten: "
 %%%%
 view rc file information and log
 Log und Informationen zur Startup-Datei anschauen
@@ -140,11 +140,11 @@ ctrl-p
 # New Game Menu
 ##############################
 %%%%
-Welcome. 
-Willkommen. 
+"Welcome. "
+"Willkommen. "
 %%%%
-Welcome, %s. 
-Willkommen, %s. 
+"Welcome, %s. "
+"Willkommen, %s. "
 %%%%
 # "You are a <species>." or "You are a <background>."
 %%%%
@@ -233,14 +233,14 @@ Opens the help screen.
 # species/background options - second column entries
 # prefix with spaces where needed to make the hyphens line up
 %%%%
-    * - Random species
-        * - Zufällige Spezies
+"    * - Random species"
+"        * - Zufällige Spezies"
 %%%%
-    * - Random background
-        * - Zufälliger Hintergrund
+"    * - Random background"
+"        * - Zufälliger Hintergrund"
 %%%%
-    ! - Random character
-        ! - Zufälliger Charakter
+"    ! - Random character"
+"        ! - Zufälliger Charakter"
 %%%%
 Space - Change species
 Leertaste - Spezies ändern
@@ -256,8 +256,8 @@ Leertaste - Spezies zuerst wählen
 %%%%
 # this one will have the last species + background appended
 %%%%
-  Tab - 
-      Tab - 
+"  Tab - "
+"      Tab - "
 %%%%
 # species/background options - second column descriptions
 %%%%
@@ -331,8 +331,8 @@ Handarmbrust und Bolzen
 %%%%
 # "Tab - <last combo>"
 %%%%
-Tab - 
-Tab - 
+"Tab - "
+"Tab - "
 %%%%
 Bksp - Return to character menu
 Bksp - Zurück zu Charakter-Menü
@@ -378,8 +378,8 @@ Spiel ein Spiel mit einem spezifischen Samen für version %s.
 Choose 0 for a random seed. [Tab]/[Shift-Tab] to cycle input focus.
 Wähle 0 für einen zufälligen Samen. [Tab]/[Shift-Tab] um Fokus zu verwechseln.
 %%%%
-Seed: 
-Samen: 
+"Seed: "
+"Samen: "
 %%%%
 [-] Clear
 [-] Löschen
@@ -491,23 +491,23 @@ Trunk-Spiele gelten nicht für das Turnier. Du willst veilleicht %s. Trunk trotz
 %s of %s
 %s von {dat}%s
 %%%%
-Health: 
-Gesund: 
+"Health: "
+"Gesund: "
 %%%%
 # Health changes to HP when a 3rd number has to be shown (player rotted)
 # Hit points = Trefferpünkte
 %%%%
-HP: 
-TP: 
+"HP: "
+"TP: "
 %%%%
-Magic:  
-Mana:   
+"Magic:  "
+"Mana:   "
 %%%%
 # Magic changes to MP when a 3rd number has to be shown (MP drained)
 # Magic points = Manapunkte(?)
 %%%%
-MP: 
-MP: 
+"MP: "
+"MP: "
 %%%%
 # Armour Class = Rüstingsklasse
 %%%%
@@ -526,33 +526,33 @@ Sch:
 %%%%
 # eXperience Level = Erfahrungsstufe(?)
 %%%%
-XL: 
-St: 
+"XL: "
+"St: "
 %%%%
 # percentage of next XL achieved
 # Next = Nächste, but that's too long, so I used kommende
 %%%%
-Next: 
+"Next: "
 Komm:
 %%%%
-Noise: 
-Lärm:  
+"Noise: "
+"Lärm:  "
 %%%%
 # If silenced, this shows instead of noise bar
 %%%%
-Silenced  
-Stumm     
+"Silenced  "
+"Stumm     "
 %%%%
 # There is an option to show equipment instaed of noise
 # equipment = Ausrüstung
 %%%%
-Equip: 
-Ausr:  
+"Equip: "
+"Ausr:  "
 %%%%
 # Equipment abbreviated for octopodes
 %%%%
-Eq: 
-Ar: 
+"Eq: "
+"Ar: "
 %%%%
 # Strength = Stärke
 %%%%
@@ -569,8 +569,8 @@ Int:
 Dex:
 Ges:
 %%%%
-Place: 
-Ort: 
+"Place: "
+"Ort: "
 %%%%
 Time:
 Zeit:
@@ -609,70 +609,70 @@ Gold:
 ###############################################################
 #, c-format
 %%%%
- Turns: %d, Time: 
- Wend: %d, Zeit: 
+" Turns: %d, Time: "
+" Wend: %d, Zeit: "
 %%%%
 # Health changes to HP if player rotted
 %%%%
-HP:   
-TP:   
+"HP:   "
+"TP:   "
 %%%%
 # Magic changes to MP if player rotted
 %%%%
-MP:   
-MP:   
+"MP:   "
+"MP:   "
 %%%%
-Gold:   
-Gold:   
+"Gold:   "
+"Gold:   "
 %%%%
 # Align Gold with HP/MP if playerrotted
 %%%%
-Gold: 
-Gold: 
+"Gold: "
+"Gold: "
 %%%%
 # Armour Class = Rüstingsklasse
 %%%%
-AC: 
-RK:  
+"AC: "
+"RK:  "
 %%%%
 # Evasion = Ausweichen
 %%%%
-EV: 
-AW:  
+"EV: "
+"AW:  "
 %%%%
 # Shields = Schilde
 %%%%
-SH: 
-Sch: 
+"SH: "
+"Sch: "
 %%%%
 # Strength = Stärke
 %%%%
-Str: 
-Stä: 
+"Str: "
+"Stä: "
 %%%%
 # Intelligence = Intelligenz
 %%%%
-Int: 
-Int: 
+"Int: "
+"Int: "
 %%%%
 # Dexterity = Geschicklichkeit
 %%%%
-Dex: 
-Ges: 
+"Dex: "
+"Ges: "
 %%%%
 # eXperience Level = Erfahrungsstufe
 %%%%
-XL:     
-Stufe:  
+"XL:     "
+"Stufe:  "
 %%%%
-   Next: 
- Nächste: 
+"   Next: "
+" Nächste: "
 %%%%
-God:    
-Gott:   
+"God:    "
+"Gott:   "
 %%%%
-Spells: 
-Zauber: 
+"Spells: "
+"Zauber: "
 %%%%
 #, c-format
 %%%%
@@ -681,11 +681,11 @@ Zauber:
 %%%%
 # Felids have multiple lives (and deaths)
 %%%%
-Lives:  
-Leben:  
+"Lives:  "
+"Leben:  "
 %%%%
-   Deaths: 
-   Tode: 
+"   Deaths: "
+"   Tode: "
 %%%%
 # fire resistance
 %%%%
@@ -729,8 +729,8 @@ ZR
 %%%%
 # Stealth = Heimlichkeit
 %%%%
-Stlth    
-Heiml    
+"Stlth    "
+"Heiml    "
 %%%%
 # HP regeneration rate
 #, c-format
@@ -841,8 +841,8 @@ Kugel von Zot
 %%%%
 #, c-format
 %%%%
-%d/%d runes: 
-%d/%d Runen: 
+"%d/%d runes: "
+"%d/%d Runen: "
 %%%%
 # wizard (cheat) mode flags
 %%%%
@@ -878,7 +878,7 @@ Du siehst %s.
 %%%%
 # some items become "melded" when you change form
 %%%%
-melded 
+"melded "
 vereint
 %%%%
 Unarmed
