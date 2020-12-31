@@ -395,32 +395,32 @@ Ganzes Dungeon am Anfang bauen
 %%%%
 # Dungeon Sprints
 %%%%
-Sprint I: \"Red Sonja\"
-Sprint I: \"Rote Sonja\"
+Sprint I: "Red Sonja"
+Sprint I: "Rote Sonja"
 %%%%
-Sprint II: \"The Violet Keep of Menkaure\"
-Sprint II: \"Der Violette Bergfried von Menkaure\"
+Sprint II: "The Violet Keep of Menkaure"
+Sprint II: "Der Violette Bergfried von Menkaure"
 %%%%
-Sprint III: \"The Ten Rune Challenge\"
-Sprint III: \"Die Zehn-Rune-Aufgabe\"
+Sprint III: "The Ten Rune Challenge"
+Sprint III: "Die Zehn-Rune-Aufgabe"
 %%%%
-Sprint IV: \"Fedhas' Mad Dash\"
-Sprint IV: \"Fedhas' Verrücktes Rennen\"
+Sprint IV: "Fedhas' Mad Dash"
+Sprint IV: "Fedhas' Verrücktes Rennen"
 %%%%
-Sprint V: \"Ziggurat Sprint\"
-Sprint V: \"Zikkurat-Sprint\"
+Sprint V: "Ziggurat Sprint"
+Sprint V: "Zikkurat-Sprint"
 %%%%
-Sprint VI: \"Thunderdome\"
-Sprint VI: \"Donnerkuppel\"
+Sprint VI: "Thunderdome"
+Sprint VI: "Donnerkuppel"
 %%%%
-Sprint VII: \"The Pits\"
-Sprint VII: \"Die Gruben\"
+Sprint VII: "The Pits"
+Sprint VII: "Die Gruben"
 %%%%
-Sprint VIII: \"Arena of Blood\"
-Sprint VIII: \"Arena des Blutes\"
+Sprint VIII: "Arena of Blood"
+Sprint VIII: "Arena des Blutes"
 %%%%
-Sprint IX: \"|||||||||||||||||||||||||||||\"
-Sprint IX: \"|||||||||||||||||||||||||||||\"
+Sprint IX: "|||||||||||||||||||||||||||||"
+Sprint IX: "|||||||||||||||||||||||||||||"
 %%%%
 * - Random map
 * - zufälliger Plan

@@ -454,8 +454,8 @@ Das kränklich grüne Leuchten des Steckens verschwindet.
 You sense an aura of extreme power.
 Du spürst eine Aura extremer Kraft.
 %%%%
-The sword says, \"Hi! I'm the Singing Sword!\"
-Das Schwert sagt: \"Hallo! Ich bin das singende Schwert!\"
+The sword says, "Hi! I'm the Singing Sword!"
+Das Schwert sagt: "Hallo! Ich bin das singende Schwert!"
 %%%%
 The Singing Sword hums in delight!
 Das singende Schwert summt vor Freude!
@@ -8442,7 +8442,7 @@ Deine Rezitation wird unterbrochen.
 %%%%
 #, c-format
 %%%%
-\"%s\"
+"%s"
 %s
 %%%%
 #, c-format
@@ -8607,8 +8607,8 @@ Es war ein%s.
 # prompt.cc
 ##################
 %%%%
-"%s (Confirm with \"yes\".) "
-"%s (Bestätige mit \"ja\".) "
+"%s (Confirm with "yes".) "
+"%s (Bestätige mit "ja".) "
 %%%%
 [Y]es or [N]o only, please.
 Nur [J]a oder [N]ein, bitte.
@@ -10812,8 +10812,8 @@ Ein Web bewegt sich rasend schnell, während sich etwas darin verfängt!
 You enter the Zot trap.
 Du betrittst die Zot-Falle.
 %%%%
-You hear a loud \"Zot\"!
-Du hörst ein lautes \"Zot\"!
+You hear a loud "Zot"!
+Du hörst ein lautes "Zot"!
 %%%%
 #, c-format
 %%%%
@@ -11125,8 +11125,8 @@ Welche Funktion erstellen?
 %%%%
 #, c-format
 %%%%
-Set fprops \"%s\" at (%d,%d)
-Setzen fprops \"%s\" auf (%d,%d)
+Set fprops "%s" at (%d,%d)
+Setzen fprops "%s" auf (%d,%d)
 %%%%
 Mapping level.
 Mapping Level.
@@ -11136,8 +11136,8 @@ Du musst auf einem Boden sein, um eine Falle zu stellen.
 %%%%
 #, c-format
 %%%%
-I know no traps named \"%s\".
-Ich kenne keine Fallen mit dem Namen \"%s\".
+I know no traps named "%s".
+Ich kenne keine Fallen mit dem Namen "%s".
 %%%%
 #, c-format
 %%%%
@@ -11152,8 +11152,8 @@ Unzureichende Stellfläche für den neuen Wal-Mart.
 %%%%
 #, c-format
 %%%%
-Bad shop type: \"%s\"
-Schlechter Shop-Art: \"%s\"
+Bad shop type: "%s"
+Schlechter Shop-Art: "%s"
 %%%%
 Done.
 Getan.
@@ -11799,8 +11799,8 @@ Keine passenden Mutationsnamen.
 %%%%
 #, c-format
 %%%%
-Found #%d: %s (\"%s\")
-Gefunden #%d: %s (\"%s\")
+Found #%d: %s ("%s")
+Gefunden #%d: %s ("%s")
 %%%%
 "Enter values for X, Y, Z (space separated) or return: "
 Gib Werte für X, Y, Z (durch Leerzeichen getrennt) oder Entertaste ein:

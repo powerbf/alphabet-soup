@@ -1758,13 +1758,13 @@ ein {adj-es}%sBeryllamulett
 #################################
 # generic
 %%%%
-" of \"%s\""
-" von \"%s\""
+" of "%s""
+" von "%s""
 %%%%
 # generic
 %%%%
-" \"%s\""
-" \"%s\""
+" "%s""
+" "%s""
 %%%%
 # specific artefacts don't necessarily need to be translated
 # if there's no specific translation, the English text will put in quotes.
@@ -2481,9 +2481,6 @@ ein {adj-er}%sStecken
 #msgid "knobbly "
 #msgstr "knubbeliger "
 %%%%
-"weird "
-"seltsame "
-%%%%
 "{adj-er}weird "
 "seltsamer "
 %%%%
@@ -3159,8 +3156,8 @@ Schaden
 # Unrand Artefacts
 #################################
 %%%%
-the %spair of quick blades \"Gyre\" and \"Gimble\"
-das %sPaar Schnellklingen \"Gyre\" und \"Gimble\"
+the %spair of quick blades "Gyre" and "Gimble"
+das %sPaar Schnellklingen "Gyre" und "Gimble"
 %%%%
 the %sSinging Sword
 das %ssingende Schwert
@@ -3207,35 +3204,35 @@ das %sZepter von Asmodeus
 the %sfaerie dragon scales
 die %sFeen-Drachenschuppen
 %%%%
-the %sdemon blade \"Bloodbane\"
-die %sDämonenklinge \"Blutfluch\"
+the %sdemon blade "Bloodbane"
+die %sDämonenklinge "Blutfluch"
 %%%%
 the %sscimitar of Flaming Death
 der %sKrummsäbel des flammenden Todes
 %%%%
-the %seveningstar \"Brilliance\"
-der %sAbendstar \"Brillanz\"
+the %seveningstar "Brilliance"
+der %sAbendstar "Brillanz"
 %%%%
-the %sdemon blade \"Leech\"
-die %sDämonenklinge \"Egel\"
+the %sdemon blade "Leech"
+die %sDämonenklinge "Egel"
 %%%%
 the %sdagger of Chilly Death
 der %sDolch des kühlen Todes
 %%%%
-the %sdagger \"Morg\"
-der %sDolch \"Morg\"
+the %sdagger "Morg"
+der %sDolch "Morg"
 %%%%
-the %sscythe \"Finisher\"
-die %sSense \"Beender\"
+the %sscythe "Finisher"
+die %sSense "Beender"
 %%%%
-the %ssling \"Punk\"
-die %sSchleuder \"Punk\"
+the %ssling "Punk"
+die %sSchleuder "Punk"
 %%%%
-the %slongbow \"Zephyr\"
-der %sLangbogen \"Zephyr\"
+the %slongbow "Zephyr"
+der %sLangbogen "Zephyr"
 %%%%
-the %sgiant club \"Skullcrusher\"
-die %sRiesenkeule \"Schädelbrecher\"
+the %sgiant club "Skullcrusher"
+die %sRiesenkeule "Schädelbrecher"
 %%%%
 the %sglaive of the Guard
 die %sGleve der Wache
@@ -3243,14 +3240,14 @@ die %sGleve der Wache
 the %szealot's sword
 das %sSchwert des Zeloten
 %%%%
-the %sarbalest \"Damnation\"
-die %sArmbrust \"Verdammnis\"
+the %sarbalest "Damnation"
+die %sArmbrust "Verdammnis"
 %%%%
 the %ssword of the Doom Knight
 das %sSchwert des Verhängnis-Ritters
 %%%%
-the %smorningstar \"Eos\"
-der %sMorgenstern \"Eos\"
+the %smorningstar "Eos"
+der %sMorgenstern "Eos"
 %%%%
 the %sspear of the Botono
 der %sSpeer des Botonos
@@ -3258,23 +3255,23 @@ der %sSpeer des Botonos
 the %strident of the Octopus King
 der %sDreizack des Krakenkönigs
 %%%%
-the %smithril axe \"Arga\"
-die %sMithrilaxt \"Arga\"
+the %smithril axe "Arga"
+die %sMithrilaxt "Arga"
 %%%%
 the %sElemental Staff
 der %sElementarstecken
 %%%%
-the %sheavy crossbow \"Sniper\"
-die %sschwere Armbrust \"Scharfschütze\"
+the %sheavy crossbow "Sniper"
+die %sschwere Armbrust "Scharfschütze"
 %%%%
-the %slongbow \"Piercer\"
-der %sLangbogen \"Stecher\"
+the %slongbow "Piercer"
+der %sLangbogen "Stecher"
 %%%%
 the %sblowgun of the Assassin
 das %sBlasrohr des Assassinen
 %%%%
-the %slance \"Wyrmbane\"
-die %sLanze \"Wyrmbane\"
+the %slance "Wyrmbane"
+die %sLanze "Wyrmbane"
 %%%%
 the %sSpriggan's Knife
 das %sMesser des Spriggans
@@ -3282,11 +3279,11 @@ das %sMesser des Spriggans
 the %splutonium sword
 das %sPlutoniumschwert
 %%%%
-the %sgreat mace \"Undeadhunter\"
-der %sgroße Streitkolben \"Untotenjäger\"
+the %sgreat mace "Undeadhunter"
+der %sgroße Streitkolben "Untotenjäger"
 %%%%
-the %swhip \"Snakebite\"
-die %sPeitsche \"Schlangenbiss\"
+the %swhip "Snakebite"
+die %sPeitsche "Schlangenbiss"
 %%%%
 the %sknife of Accuracy
 das %sMesser der Genauigkeit
@@ -3309,8 +3306,8 @@ das %sGewand der Augmentation
 the %scloak of the Thief
 der %sUmhang des Diebes
 %%%%
-the %stower shield \"Bullseye\"
-der %sTurmschild \"Volltreffer\"
+the %stower shield "Bullseye"
+der %sTurmschild "Volltreffer"
 %%%%
 the %scrown of Dyrovepreva
 die %sKrone von Dyrovepreva
@@ -3420,8 +3417,8 @@ das %sAmulett der Vitalität
 the %sautumn katana
 das %sHerbstkatana
 %%%%
-the %sshillelagh \"Devastator\"
-der %sShillelagh \"Verwüster\"
+the %sshillelagh "Devastator"
+der %sShillelagh "Verwüster"
 %%%%
 the %sdragonskin cloak
 der %sDrachenhautumhang
@@ -3450,14 +3447,14 @@ der %sHut des Hohen Rates
 the %sarc blade
 die %sLichtbogenklinge
 %%%%
-the %sdemon whip \"Spellbinder\"
-die %sDämonenpeitsche \"Verzauberer\"
+the %sdemon whip "Spellbinder"
+die %sDämonenpeitsche "Verzauberer"
 %%%%
 the %slajatang of Order
 der %sLajatang der Ordnung
 %%%%
-the %sgreat mace \"Firestarter\"
-der %sgroße Streitkolben \"Brandstifter\"
+the %sgreat mace "Firestarter"
+der %sgroße Streitkolben "Brandstifter"
 %%%%
 the %sorange crystal plate armour
 der %sorange Kristallplattenpanzer
@@ -3477,8 +3474,8 @@ das %sGewand der Reben
 the %sKryia's mail coat
 der %sSchuppenpanzer von Kryia
 %%%%
-the %sfrozen axe \"Frostbite\"
-die %sgefrorene Axt \"Erfrierungen\"
+the %sfrozen axe "Frostbite"
+die %sgefrorene Axt "Erfrierungen"
 %%%%
 the %sarmour of Talos
 die %sRüstung von Talos
@@ -3492,8 +3489,8 @@ das %sAmulett der Unsichtbarkeit
 the %sMaxwell's thermic engine
 das %sthermische Gerät von Maxwell
 %%%%
-the %sdemon trident \"Rift\"
-der %sDämonendreizack \"Riss\"
+the %sdemon trident "Rift"
+der %sDämonendreizack "Riss"
 %%%%
 the %sstaff of Battle
 der %sStecken der Schlacht
@@ -4727,20 +4724,20 @@ den {adj-en}%sStecken von Dispater
 {acc}the %sscimitar of Flaming Death
 den {adj-en}%sKrummsäbel des flammenden Todes
 %%%%
-{acc}the %seveningstar \"Brilliance\"
-den {adj-en}%sAbendstar \"Brillanz\"
+{acc}the %seveningstar "Brilliance"
+den {adj-en}%sAbendstar "Brillanz"
 %%%%
 {acc}the %sdagger of Chilly Death
 den {adj-en}%sDolch des kühlen Todes
 %%%%
-{acc}the %sdagger \"Morg\"
-den {adj-en}%sDolch \"Morg\"
+{acc}the %sdagger "Morg"
+den {adj-en}%sDolch "Morg"
 %%%%
-{acc}the %slongbow \"Zephyr\"
-den {adj-en}%sLangbogen \"Zephyr\"
+{acc}the %slongbow "Zephyr"
+den {adj-en}%sLangbogen "Zephyr"
 %%%%
-{acc}the %smorningstar \"Eos\"
-den {adj-en}%sMorgenstern \"Eos\"
+{acc}the %smorningstar "Eos"
+den {adj-en}%sMorgenstern "Eos"
 %%%%
 {acc}the %sspear of the Botono
 den {adj-en}%sSpeer des Botonos
@@ -4751,11 +4748,11 @@ den {adj-en}%sDreizack des Krakenkönigs
 {acc}the %sElemental Staff
 den {adj-en}%sElementarstecken
 %%%%
-{acc}the %slongbow \"Piercer\"
-den {adj-en}%sLangbogen \"Stecher\"
+{acc}the %slongbow "Piercer"
+den {adj-en}%sLangbogen "Stecher"
 %%%%
-{acc}the %sgreat mace \"Undeadhunter\"
-den {adj-en}%sgroße Streitkolben \"Untotenjäger\"
+{acc}the %sgreat mace "Undeadhunter"
+den {adj-en}%sgroße Streitkolben "Untotenjäger"
 %%%%
 {acc}the %sLehudib's crystal spear
 den {adj-en}%sKristallspeer Lehudibs
@@ -4769,8 +4766,8 @@ den {adj-en}%sTurmschild des Nichtwissens
 {acc}the %scloak of the Thief
 den {adj-en}%sUmhang des Diebes
 %%%%
-{acc}the %stower shield \"Bullseye\"
-den {adj-en}%sTurmschild \"Volltreffer\"
+{acc}the %stower shield "Bullseye"
+den {adj-en}%sTurmschild "Volltreffer"
 %%%%
 {acc}the %shat of the Bear Spirit
 den {adj-en}%sHut des Bärengeistes
@@ -4811,8 +4808,8 @@ den {adj-en}%sHut der Schwerfälligkeit
 {acc}the %sBlack Knight's horse barding
 den {adj-en}%sRossharnisch des schwarzen Ritters
 %%%%
-{acc}the %sshillelagh \"Devastator\"
-den {adj-en}%sShillelagh \"Verwüster\"
+{acc}the %sshillelagh "Devastator"
+den {adj-en}%sShillelagh "Verwüster"
 %%%%
 {acc}the %sdragonskin cloak
 den {adj-en}%sDrachenhautumhang
@@ -4829,8 +4826,8 @@ den {adj-en}%sHut des Hohen Rates
 {acc}the %slajatang of Order
 den {adj-en}%sLajatang der Ordnung
 %%%%
-{acc}the %sgreat mace \"Firestarter\"
-den {adj-en}%sgroße Streitkolben \"Brandstifter\"
+{acc}the %sgreat mace "Firestarter"
+den {adj-en}%sgroße Streitkolben "Brandstifter"
 %%%%
 {acc}the %sorange crystal plate armour
 den {adj-en}%sorange Kristallplattenpanzer
@@ -4847,8 +4844,8 @@ den {adj-en}%sSchuppenpanzer von Kryia
 {acc}the %swarlock's mirror
 den {adj-en}%sSpiegel des Hexenmeisters
 %%%%
-{acc}the %sdemon trident \"Rift\"
-den {adj-en}%sDämonendreizack \"Riss\"
+{acc}the %sdemon trident "Rift"
+den {adj-en}%sDämonendreizack "Riss"
 %%%%
 {acc}the %sstaff of Battle
 den {adj-en}%sStecken der Schlacht
@@ -5114,8 +5111,8 @@ deinem {adj-en}%sLangbogen
 #################################
 # probably only the ones that are weapons need dative, but it's easy enough to list them all
 %%%%
-{dat}the %spair of quick blades \"Gyre\" and \"Gimble\"
-dem {adj-en}%sPaar Schnellklingen \"Gyre\" und \"Gimble\"
+{dat}the %spair of quick blades "Gyre" and "Gimble"
+dem {adj-en}%sPaar Schnellklingen "Gyre" und "Gimble"
 %%%%
 {dat}the %sSinging Sword
 dem {adj-en}%ssingende Schwert
@@ -5162,35 +5159,35 @@ dem {adj-en}%sZepter von Asmodeus
 {dat}the %sfaerie dragon scales
 der {adj-en}%sFeen-Drachenschuppen
 %%%%
-{dat}the %sdemon blade \"Bloodbane\"
-der {adj-en}%sDämonenklinge \"Blutfluch\"
+{dat}the %sdemon blade "Bloodbane"
+der {adj-en}%sDämonenklinge "Blutfluch"
 %%%%
 {dat}the %sscimitar of Flaming Death
 dem {adj-en}%sKrummsäbel des flammenden Todes
 %%%%
-{dat}the %seveningstar \"Brilliance\"
-dem {adj-en}%sAbendstar \"Brillanz\"
+{dat}the %seveningstar "Brilliance"
+dem {adj-en}%sAbendstar "Brillanz"
 %%%%
-{dat}the %sdemon blade \"Leech\"
-der {adj-en}%sDämonenklinge \"Egel\"
+{dat}the %sdemon blade "Leech"
+der {adj-en}%sDämonenklinge "Egel"
 %%%%
 {dat}the %sdagger of Chilly Death
 dem {adj-en}%sDolch des kühlen Todes
 %%%%
-{dat}the %sdagger \"Morg\"
-dem {adj-en}%sDolch \"Morg\"
+{dat}the %sdagger "Morg"
+dem {adj-en}%sDolch "Morg"
 %%%%
-{dat}the %sscythe \"Finisher\"
-der {adj-en}%sSense \"Beender\"
+{dat}the %sscythe "Finisher"
+der {adj-en}%sSense "Beender"
 %%%%
-{dat}the %ssling \"Punk\"
-der {adj-en}%sSchleuder \"Punk\"
+{dat}the %ssling "Punk"
+der {adj-en}%sSchleuder "Punk"
 %%%%
-{dat}the %slongbow \"Zephyr\"
-dem {adj-en}%sLangbogen \"Zephyr\"
+{dat}the %slongbow "Zephyr"
+dem {adj-en}%sLangbogen "Zephyr"
 %%%%
-{dat}the %sgiant club \"Skullcrusher\"
-der {adj-en}%sRiesenkeule \"Schädelbrecher\"
+{dat}the %sgiant club "Skullcrusher"
+der {adj-en}%sRiesenkeule "Schädelbrecher"
 %%%%
 {dat}the %sglaive of the Guard
 der {adj-en}%sGleve der Wache
@@ -5198,14 +5195,14 @@ der {adj-en}%sGleve der Wache
 {dat}the %szealot's sword
 dem {adj-en}%sSchwert des Zeloten
 %%%%
-{dat}the %sarbalest \"Damnation\"
-der {adj-en}%sArmbrust \"Verdammnis\"
+{dat}the %sarbalest "Damnation"
+der {adj-en}%sArmbrust "Verdammnis"
 %%%%
 {dat}the %ssword of the Doom Knight
 dem {adj-en}%sSchwert des Verhängnis-Ritters
 %%%%
-{dat}the %smorningstar \"Eos\"
-dem {adj-en}%sMorgenstern \"Eos\"
+{dat}the %smorningstar "Eos"
+dem {adj-en}%sMorgenstern "Eos"
 %%%%
 {dat}the %sspear of the Botono
 dem {adj-en}%sSpeer des Botonos
@@ -5213,23 +5210,23 @@ dem {adj-en}%sSpeer des Botonos
 {dat}the %strident of the Octopus King
 dem {adj-en}%sDreizack des Krakenkönigs
 %%%%
-{dat}the %smithril axe \"Arga\"
-der {adj-en}%sMithrilaxt \"Arga\"
+{dat}the %smithril axe "Arga"
+der {adj-en}%sMithrilaxt "Arga"
 %%%%
 {dat}the %sElemental Staff
 dem {adj-en}%sElementarstecken
 %%%%
-{dat}the %sheavy crossbow \"Sniper\"
-der {adj-en}%sschwere Armbrust \"Scharfschütze\"
+{dat}the %sheavy crossbow "Sniper"
+der {adj-en}%sschwere Armbrust "Scharfschütze"
 %%%%
-{dat}the %slongbow \"Piercer\"
-dem {adj-en}%sLangbogen \"Stecher\"
+{dat}the %slongbow "Piercer"
+dem {adj-en}%sLangbogen "Stecher"
 %%%%
 {dat}the %sblowgun of the Assassin
 dem {adj-en}%sBlasrohr des Assassinen
 %%%%
-{dat}the %slance \"Wyrmbane\"
-der {adj-en}%sLanze \"Wyrmbane\"
+{dat}the %slance "Wyrmbane"
+der {adj-en}%sLanze "Wyrmbane"
 %%%%
 {dat}the %sSpriggan's Knife
 dem {adj-en}%sMesser des Spriggans
@@ -5237,11 +5234,11 @@ dem {adj-en}%sMesser des Spriggans
 {dat}the %splutonium sword
 dem {adj-en}%sPlutoniumschwert
 %%%%
-{dat}the %sgreat mace \"Undeadhunter\"
-dem {adj-en}%sgroße Streitkolben \"Untotenjäger\"
+{dat}the %sgreat mace "Undeadhunter"
+dem {adj-en}%sgroße Streitkolben "Untotenjäger"
 %%%%
-{dat}the %swhip \"Snakebite\"
-der {adj-en}%sPeitsche \"Schlangenbiss\"
+{dat}the %swhip "Snakebite"
+der {adj-en}%sPeitsche "Schlangenbiss"
 %%%%
 {dat}the %sknife of Accuracy
 dem {adj-en}%sMesser der Genauigkeit
@@ -5264,8 +5261,8 @@ dem {adj-en}%sGewand der Augmentation
 {dat}the %scloak of the Thief
 dem {adj-en}%sUmhang des Diebes
 %%%%
-{dat}the %stower shield \"Bullseye\"
-dem {adj-en}%sTurmschild \"Volltreffer\"
+{dat}the %stower shield "Bullseye"
+dem {adj-en}%sTurmschild "Volltreffer"
 %%%%
 {dat}the %scrown of Dyrovepreva
 der {adj-en}%sKrone von Dyrovepreva
@@ -5375,8 +5372,8 @@ dem {adj-en}%sAmulett der Vitalität
 {dat}the %sautumn katana
 dem {adj-en}%sHerbstkatana
 %%%%
-{dat}the %sshillelagh \"Devastator\"
-dem {adj-en}%sShillelagh \"Verwüster\"
+{dat}the %sshillelagh "Devastator"
+dem {adj-en}%sShillelagh "Verwüster"
 %%%%
 {dat}the %sdragonskin cloak
 dem {adj-en}%sDrachenhautumhang
@@ -5405,14 +5402,14 @@ dem {adj-en}%sHut des Hohen Rates
 {dat}the %sarc blade
 der {adj-en}%sLichtbogenklinge
 %%%%
-{dat}the %sdemon whip \"Spellbinder\"
-der {adj-en}%sDämonenpeitsche \"Verzauberer\"
+{dat}the %sdemon whip "Spellbinder"
+der {adj-en}%sDämonenpeitsche "Verzauberer"
 %%%%
 {dat}the %slajatang of Order
 dem {adj-en}%sLajatang der Ordnung
 %%%%
-{dat}the %sgreat mace \"Firestarter\"
-dem {adj-en}%sgroße Streitkolben \"Brandstifter\"
+{dat}the %sgreat mace "Firestarter"
+dem {adj-en}%sgroße Streitkolben "Brandstifter"
 %%%%
 {dat}the %sorange crystal plate armour
 dem {adj-en}%sorange Kristallplattenpanzer
@@ -5432,8 +5429,8 @@ dem {adj-en}%sGewand der Reben
 {dat}the %sKryia's mail coat
 dem {adj-en}%sSchuppenpanzer von Kryia
 %%%%
-{dat}the %sfrozen axe \"Frostbite\"
-der {adj-en}%sgefrorene Axt \"Erfrierungen\"
+{dat}the %sfrozen axe "Frostbite"
+der {adj-en}%sgefrorene Axt "Erfrierungen"
 %%%%
 {dat}the %sarmour of Talos
 der {adj-en}%sRüstung von Talos
@@ -5447,8 +5444,8 @@ dem {adj-en}%sAmulett der Unsichtbarkeit
 {dat}the %sMaxwell's thermic engine
 dem {adj-en}%sthermische Gerät von Maxwell
 %%%%
-{dat}the %sdemon trident \"Rift\"
-dem {adj-en}%sDämonendreizack \"Riss\"
+{dat}the %sdemon trident "Rift"
+dem {adj-en}%sDämonendreizack "Riss"
 %%%%
 {dat}the %sstaff of Battle
 dem {adj-en}%sStecken der Schlacht
