@@ -393,200 +393,126 @@ der %sLajatang
 %%%%
 # with indefinite article
 # Note that %s is a placeholder for any adjectives
-#, c-format
 %%%%
 a %sclub
 eine %sKeule
 %%%%
-#, c-format
-%%%%
 a %swhip
 eine %sPeitsche
-%%%%
-#, c-format
 %%%%
 a %smace
 ein {adj-er}%sStreitkolben
 %%%%
-#, c-format
-%%%%
 a %sflail
 ein {adj-er}%sFlegel
-%%%%
-#, c-format
 %%%%
 a %smorningstar
 ein {adj-er}%sMorgenstern
 %%%%
-#, c-format
-%%%%
 a %sdemon whip
 eine %sDämonenpeitsche
-%%%%
-#, c-format
 %%%%
 a %ssacred scourge
 eine %sgeistliche Geißel
 %%%%
-#, c-format
-%%%%
 a %sdire flail
 ein {adj-er}%sSchreckensflegel
-%%%%
-#, c-format
 %%%%
 a %seveningstar
 ein {adj-er}%sAbendstern
 %%%%
-#, c-format
-%%%%
 a %sgreat mace
 ein {adj-er}%sgroßer Streitkolben
-%%%%
-#, c-format
 %%%%
 a %sgiant club
 eine %sRiesenkeule
 %%%%
-#, c-format
-%%%%
 a %sgiant spiked club
 eine %sriesige Stachelkeule
-%%%%
-#, c-format
 %%%%
 a %sdagger
 ein {adj-er}%sDolch
 %%%%
-#, c-format
-%%%%
 a %squick blade
 eine %sSchnellklinge
-%%%%
-#, c-format
 %%%%
 a %sshort sword
 ein {adj-es}%sKurzschwert
 %%%%
 # neut
-#, c-format
 %%%%
 a %srapier
 ein {adj-es}%sRapier
 %%%%
 # neut
-#, c-format
 %%%%
 a %sfalchion
 ein {adj-es}%sFalchion
 %%%%
-#, c-format
-%%%%
 a %slong sword
 ein {adj-es}%sLangschwert
-%%%%
-#, c-format
 %%%%
 a %sscimitar
 ein {adj-er}%sKrummsäbel
 %%%%
-#, c-format
-%%%%
 a %sdemon blade
 eine %sDämonenklinge
-%%%%
-#, c-format
 %%%%
 a %seudemon blade
 eine %sEudämonenklinge
 %%%%
-#, c-format
-%%%%
 a %sdouble sword
 ein {adj-es}%sDoppelschwert
 %%%%
-#, c-format
-%%%%
 a %sgreat sword
 ein {adj-es}%sGroßschwert
-%%%%
-#, c-format
 %%%%
 a %striple sword
 ein {adj-es}%sDreifach-Schwert
 %%%%
 # neut
-#, c-format
 %%%%
 a %shand axe
 ein {adj-es}%sBeil
 %%%%
-#, c-format
-%%%%
 a %swar axe
 eine %sKriegsaxt
-%%%%
-#, c-format
 %%%%
 a %sbroad axe
 eine %sBreitaxt
 %%%%
-#, c-format
-%%%%
 a %sbattleaxe
 eine %sStreitaxt
-%%%%
-#, c-format
 %%%%
 a %sexecutioner's axe
 eine %sHenkersaxt
 %%%%
-#, c-format
-%%%%
 a %sspear
 ein {adj-er}%sSpeer
-%%%%
-#, c-format
 %%%%
 a %strident
 ein {adj-er}%sDreizack
 %%%%
-#, c-format
-%%%%
 a %shalberd
 eine %sHellebarde
-%%%%
-#, c-format
 %%%%
 a %sscythe
 eine %sSense
 %%%%
-#, c-format
-%%%%
 a %sdemon trident
 ein {adj-er}%sDämonendreizack
-%%%%
-#, c-format
 %%%%
 a %strishula
 ein {adj-er}%sTrishula
 %%%%
-#, c-format
-%%%%
 a %sglaive
 eine %sGleve
-%%%%
-#, c-format
 %%%%
 a %sbardiche
 eine %sBardiche
 %%%%
-#, c-format
-%%%%
 a %squarterstaff
 ein {adj-er}%sKampfstab
-%%%%
-#, c-format
 %%%%
 a %slajatang
 ein {adj-er}%sLajatang
@@ -597,74 +523,48 @@ ein {adj-er}%sLajatang
 #################################
 # definite article
 # Note that %s is a placeholder for any adjectives
-#, c-format
 %%%%
 the %shunting sling
 die %sSchleuder
 %%%%
-#, c-format
-%%%%
 the %sfustibalus
 der %sFustibalus
-%%%%
-#, c-format
 %%%%
 the %shand crossbow
 die %sHandarmbrust
 %%%%
-#, c-format
-%%%%
 the %sarbalest
 die %sArmbrust
-%%%%
-#, c-format
 %%%%
 the %striple crossbow
 die %sDreifach-Armbrust
 %%%%
-#, c-format
-%%%%
 the %sshortbow
 der %sKurzbogen
-%%%%
-#, c-format
 %%%%
 the %slongbow
 der %sLangbogen
 %%%%
 # indefinite article
 # Note that %s is a placeholder for any adjectives
-#, c-format
 %%%%
 a %shunting sling
 eine %sSchleuder
 %%%%
-#, c-format
-%%%%
 a %sfustibalus
 ein {adj-er}%sFustibalus
-%%%%
-#, c-format
 %%%%
 a %shand crossbow
 eine %sHandarmbrust
 %%%%
-#, c-format
-%%%%
 a %sarbalest
 eine %sArmbrust
-%%%%
-#, c-format
 %%%%
 a %striple crossbow
 eine %sDreifach-Armbrust
 %%%%
-#, c-format
-%%%%
 a %sshortbow
 ein {adj-er}%sKurzbogen
-%%%%
-#, c-format
 %%%%
 a %slongbow
 ein {adj-er}%sLangbogen
@@ -728,15 +628,11 @@ das Wurfnetz
 the boomerang
 der Bumerang
 %%%%
-#, c-format
-%%%%
 an arrow
 ein Pfeil
 %%%%
 %d arrows
 %d Pfeile
-%%%%
-#, c-format
 %%%%
 a bolt
 ein Bolzen
@@ -744,15 +640,11 @@ ein Bolzen
 %d bolts
 %d Bolzen
 %%%%
-#, c-format
-%%%%
 a dart
 ein Wurfpfeil
 %%%%
 %d darts
 %d Wurfpfeile
-%%%%
-#, c-format
 %%%%
 a poisoned dart
 ein Giftwurfpfeil
@@ -760,15 +652,11 @@ ein Giftwurfpfeil
 %d poisoned darts
 %d Giftwurfpfeile
 %%%%
-#, c-format
-%%%%
 a curare dart
 ein Kurare-Wurfpfeil
 %%%%
 %d curare darts
 %d Kurare-Wurfpfeile
-%%%%
-#, c-format
 %%%%
 an atropa dart
 ein Atropa-Wurfpfeil
@@ -776,15 +664,11 @@ ein Atropa-Wurfpfeil
 %d atropa darts
 %d Atropa-Wurfpfeile
 %%%%
-#, c-format
-%%%%
 a datura dart
 ein Datura-Wurfpfeil
 %%%%
 %d datura darts
 %d Datura-Wurfpfeile
-%%%%
-#, c-format
 %%%%
 a stone
 ein Stein
@@ -792,15 +676,11 @@ ein Stein
 %d stones
 %d Steine
 %%%%
-#, c-format
-%%%%
 a large rock
 ein Felsblock
 %%%%
 %d large rocks
 %d Felsblöcke
-%%%%
-#, c-format
 %%%%
 a sling bullet
 eine Schleuderkugel
@@ -808,15 +688,11 @@ eine Schleuderkugel
 %d sling bullets
 %d Schleuderkugeln
 %%%%
-#, c-format
-%%%%
 a javelin
 ein Wurfspeer
 %%%%
 %d javelins
 %d Wurfspeere
-%%%%
-#, c-format
 %%%%
 a silver javelin
 ein Silberwurfspeer
@@ -824,23 +700,17 @@ ein Silberwurfspeer
 %d silver javelins
 %d Silberwurfspeere
 %%%%
-#, c-format
-%%%%
 a throwing net
 ein Wurfnetz
 %%%%
 %d throwing nets
 %d Wurfnetze
 %%%%
-#, c-format
-%%%%
 a boomerang
 ein Bumerang
 %%%%
 %d boomerangs
 %d Bumerangs
-%%%%
-#, c-format
 %%%%
 a silver boomerang
 ein Silberbumerang
@@ -938,304 +808,186 @@ Vorpal-
 #################################
 # definite article
 # Note that the %s is a placeholder for any adjectives
-#, c-format
 %%%%
 the %sanimal skin
 die %sTierhaut
 %%%%
-#, c-format
-%%%%
 the %srobe
 die %sRobe
-%%%%
-#, c-format
 %%%%
 the %sleather armour
 die %sLederrüstung
 %%%%
-#, c-format
-%%%%
 the %sring mail
 der %sRingpanzer
-%%%%
-#, c-format
 %%%%
 the %sscale mail
 der %sSchuppenpanzer
 %%%%
-#, c-format
-%%%%
 the %schain mail
 der %sKettenpanzer
-%%%%
-#, c-format
 %%%%
 the %splate armour
 der %sPlattenpanzer
 %%%%
-#, c-format
-%%%%
 the %scrystal plate armour
 der %sKristallplattenpanzer
-%%%%
-#, c-format
 %%%%
 the %stroll leather armour
 die %sTrolllederrüstung
 %%%%
-#, c-format
-%%%%
 the %scloak
 der %sUmhang
-%%%%
-#, c-format
 %%%%
 the %sscarf
 der %sSchal
 %%%%
-#, c-format
-%%%%
 the %spair of %sgloves
 das %sPaar {adj-e}%sHandschuhe
-%%%%
-#, c-format
 %%%%
 the %shelmet
 der %sHelm
 %%%%
-#, c-format
-%%%%
 the %shat
 der %sHut
-%%%%
-#, c-format
 %%%%
 the %spair of %sboots
 das %sPaar {adj-e}%sStiefel
 %%%%
-#, c-format
-%%%%
 the %scentaur barding
 der %sZentaurenharnisch
-%%%%
-#, c-format
 %%%%
 the %snaga barding
 der %sNagaharnisch
 %%%%
-#, c-format
-%%%%
 the %sbuckler
 der %sBuckler
-%%%%
-#, c-format
 %%%%
 the %skite shield
 das %sKiteschild
 %%%%
-#, c-format
-%%%%
 the %stower shield
 das %sTurmschild
-%%%%
-#, c-format
 %%%%
 the %ssteam dragon scales
 die %sDampfdrachenschuppen
 %%%%
-#, c-format
-%%%%
 the %sacid dragon scales
 die %sSauredrachenschuppen
-%%%%
-#, c-format
 %%%%
 the %squicksilver dragon scales
 die %sQuecksilberdrachenschuppen
 %%%%
-#, c-format
-%%%%
 the %sswamp dragon scales
 die %sSumpfdrachenschuppen
-%%%%
-#, c-format
 %%%%
 the %sfire dragon scales
 die %sFeuerdrachenschuppen
 %%%%
-#, c-format
-%%%%
 the %sice dragon scales
 die %sEisdrachenschuppen
-%%%%
-#, c-format
 %%%%
 the %spearl dragon scales
 die %sPerlendrachenschuppen
 %%%%
-#, c-format
-%%%%
 the %sstorm dragon scales
 die %sSturmdrachenschuppen
 %%%%
-#, c-format
-%%%%
 the %sshadow dragon scales
 die %sSchattendrachenschuppen
-%%%%
-#, c-format
 %%%%
 the %sgold dragon scales
 die %sGolddrachenschuppen
 %%%%
 # indefinite article
 # Note that the %s is a placeholder for any adjectives
-#, c-format
 %%%%
 a %sanimal skin
 eine %sTierhaut
 %%%%
-#, c-format
-%%%%
 a %srobe
 eine %sRobe
-%%%%
-#, c-format
 %%%%
 a %sleather armour
 eine %sLederrüstung
 %%%%
-#, c-format
-%%%%
 a %sring mail
 ein {adj-er}%sRingpanzer
-%%%%
-#, c-format
 %%%%
 a %sscale mail
 ein {adj-er}%sSchuppenpanzer
 %%%%
-#, c-format
-%%%%
 a %schain mail
 ein {adj-er}%sKettenpanzer
-%%%%
-#, c-format
 %%%%
 a %splate armour
 ein {adj-er}%sPlattenpanzer
 %%%%
-#, c-format
-%%%%
 a %scrystal plate armour
 ein {adj-er}%sKristallplattenpanzer
-%%%%
-#, c-format
 %%%%
 a %stroll leather armour
 eine %sTrolllederrüstung
 %%%%
-#, c-format
-%%%%
 a %scloak
 ein {adj-er}%sUmhang
-%%%%
-#, c-format
 %%%%
 a %sscarf
 ein {adj-er}%sSchal
 %%%%
-#, c-format
-%%%%
 a %spair of %sgloves
 ein {adj-es}%sPaar %sHandschuhe
-%%%%
-#, c-format
 %%%%
 a %shelmet
 ein {adj-er}%sHelm
 %%%%
-#, c-format
-%%%%
 a %shat
 ein {adj-er}%sHut
-%%%%
-#, c-format
 %%%%
 a %spair of %sboots
 ein {adj-es}%sPaar %sStiefel
 %%%%
-#, c-format
-%%%%
 a %scentaur barding
 ein {adj-er}%sZentaurenharnisch
-%%%%
-#, c-format
 %%%%
 a %snaga barding
 ein {adj-er}%sNagaharnisch
 %%%%
-#, c-format
-%%%%
 a %sbuckler
 ein {adj-er}%sBuckler
-%%%%
-#, c-format
 %%%%
 a %skite shield
 ein {adj-es}%sKiteschild
 %%%%
-#, c-format
-%%%%
 a %stower shield
 ein {adj-es}%sTurmschild
-%%%%
-#, c-format
 %%%%
 %ssteam dragon scales
 %sDampfdrachenschuppen
 %%%%
-#, c-format
-%%%%
 %sacid dragon scales
 %sSauredrachenschuppen
-%%%%
-#, c-format
 %%%%
 %squicksilver dragon scales
 %sQuecksilberdrachenschuppen
 %%%%
-#, c-format
-%%%%
 %sswamp dragon scales
 %sSumpfdrachenschuppen
-%%%%
-#, c-format
 %%%%
 %sfire dragon scales
 %sFeuerdrachenschuppen
 %%%%
-#, c-format
-%%%%
 %sice dragon scales
 %sEisdrachenschuppen
-%%%%
-#, c-format
 %%%%
 %spearl dragon scales
 %sPerlendrachenschuppen
 %%%%
-#, c-format
-%%%%
 %sstorm dragon scales
 %sSturmdrachenschuppen
 %%%%
-#, c-format
-%%%%
 %sshadow dragon scales
 %sSchattendrachenschuppen
-%%%%
-#, c-format
 %%%%
 %sgold dragon scales
 %sGolddrachenschuppen
@@ -1419,147 +1171,90 @@ a %sring of obsoleteness
 ein {adj-er}%sobsoleter Ring
 %%%%
 # unidentified
-#, c-format
 %%%%
 a %swooden ring
 ein {adj-er}%sHolzring
 %%%%
-#, c-format
-%%%%
 a %ssilver ring
 ein {adj-er}%sSilberring
-%%%%
-#, c-format
 %%%%
 a %sgolden ring
 ein {adj-er}%sGoldring
 %%%%
-#, c-format
-%%%%
 a %siron ring
 ein {adj-er}%sEisenring
-%%%%
-#, c-format
 %%%%
 a %ssteel ring
 ein {adj-er}%sStahlring
 %%%%
-#, c-format
-%%%%
 a %stourmaline ring
 ein {adj-er}%sTurmalinring
-%%%%
-#, c-format
 %%%%
 a %sbrass ring
 ein {adj-er}%sMessingring
 %%%%
-#, c-format
-%%%%
 a %scopper ring
 ein {adj-er}%sKupferring
-%%%%
-#, c-format
 %%%%
 a %sgranite ring
 ein {adj-er}%sGranitring
 %%%%
-#, c-format
-%%%%
 a %sivory ring
 ein {adj-er}%sElfenbeinring
-%%%%
-#, c-format
 %%%%
 a %sruby ring
 ein {adj-er}%sRubinring
 %%%%
-#, c-format
-%%%%
 a %smarble ring
 ein {adj-er}%sMarmorring
-%%%%
-#, c-format
 %%%%
 a %sjade ring
 ein {adj-er}%sJadering
 %%%%
-#, c-format
-%%%%
 a %sglass ring
 ein {adj-er}%sGlasring
-%%%%
-#, c-format
 %%%%
 a %sagate ring
 ein {adj-er}%sAchatring
 %%%%
-#, c-format
-%%%%
 a %sbone ring
 ein {adj-er}%sKnochenring
-%%%%
-#, c-format
 %%%%
 a %sdiamond ring
 ein {adj-er}%sDiamantring
 %%%%
-#, c-format
-%%%%
 a %semerald ring
 ein {adj-er}%sSmaragdring
-%%%%
-#, c-format
 %%%%
 a %speridot ring
 ein {adj-er}%sPeridotring
 %%%%
-#, c-format
-%%%%
 a %sgarnet ring
 ein {adj-er}%sGranatring
-%%%%
-#, c-format
 %%%%
 a %sopal ring
 ein {adj-er}%sOpalring
 %%%%
-#, c-format
-%%%%
 a %spearl ring
 ein {adj-er}%sPerlenring
-%%%%
-#, c-format
 %%%%
 a %scoral ring
 ein {adj-er}%sKorallenring
 %%%%
-#, c-format
-%%%%
 a %ssapphire ring
 ein {adj-er}%sSaphirring
-%%%%
-#, c-format
 %%%%
 a %scabochon ring
 ein {adj-er}%sCabochonring
 %%%%
-#, c-format
-%%%%
 a %sgilded ring
 ein {adj-er}%svergoldeter Ring
-%%%%
-#, c-format
 %%%%
 a %sonyx ring
 ein {adj-er}%sOnyxring
 %%%%
-#, c-format
-%%%%
 a %sbronze ring
 ein {adj-er}%sBronzering
-%%%%
-#, c-format
 %%%%
 a %smoonstone ring
 ein {adj-er}%sMondsteinring
@@ -1896,7 +1591,6 @@ ein {adj-er}%sfluoreszierender Zauberstab
 #################################
 # Scrolls
 #################################
-##, c-format - throws spurious error
 %%%%
 a scroll labeled %s
 eine Schriftrolle beschriftet mit %s
@@ -1904,15 +1598,11 @@ eine Schriftrolle beschriftet mit %s
 %d scrolls labeled %s
 %d Schriftrollen beschriftet mit %s
 %%%%
-#, c-format
-%%%%
 a scroll of acquirement
 eine Schriftrolle des Erwerbs
 %%%%
 %d scrolls of acquirement
 %d Schriftrollen des Erwerbs
-%%%%
-#, c-format
 %%%%
 a scroll of amnesia
 eine Schriftrolle der Amnesie
@@ -1920,15 +1610,11 @@ eine Schriftrolle der Amnesie
 %d scrolls of amnesia
 %d Schriftrollen der Amnesie
 %%%%
-#, c-format
-%%%%
 a scroll of blinking
 eine Schriftrolle des Flimmerns
 %%%%
 %d scrolls of blinking
 %d Schriftrollen des Flimmerns
-%%%%
-#, c-format
 %%%%
 a scroll of brand weapon
 eine Schriftrolle der Waffenmark
@@ -1936,15 +1622,11 @@ eine Schriftrolle der Waffenmark
 %d scrolls of brand weapon
 %d Schriftrollen der Waffenmark
 %%%%
-#, c-format
-%%%%
 a scroll of enchant armour
 eine Schriftrolle der Rüstungsverzauberung
 %%%%
 %d scrolls of enchant armour
 %d Schriftrollen der Rüstungsverzauberung
-%%%%
-#, c-format
 %%%%
 a scroll of enchant weapon
 eine Schriftrolle der Waffenverzauberung
@@ -1952,15 +1634,11 @@ eine Schriftrolle der Waffenverzauberung
 %d scrolls of enchant weapon
 %d Schriftrollen der Waffenverzauberung
 %%%%
-#, c-format
-%%%%
 a scroll of fear
 eine Schriftrolle der Angst
 %%%%
 %d scrolls of fear
 %d Schriftrollen der Angst
-%%%%
-#, c-format
 %%%%
 a scroll of fog
 eine Schriftrolle des Nebels
@@ -1968,15 +1646,11 @@ eine Schriftrolle des Nebels
 %d scrolls of fog
 %d Schriftrollen des Nebels
 %%%%
-#, c-format
-%%%%
 a scroll of holy word
 eine Schriftrolle des heiligen Wortes
 %%%%
 %d scrolls of holy word
 %d Schriftrollen des heiligen Wortes
-%%%%
-#, c-format
 %%%%
 a scroll of identify
 eine Schriftrolle der Identifizierung
@@ -1984,15 +1658,11 @@ eine Schriftrolle der Identifizierung
 %d scrolls of identify
 %d Schriftrollen der Identifizierung
 %%%%
-#, c-format
-%%%%
 a scroll of immolation
 eine Schriftrolle der Verbrennug
 %%%%
 %d scrolls of immolation
 %d Schriftrollen der Verbrennung
-%%%%
-#, c-format
 %%%%
 a scroll of magic mapping
 eine Schriftrolle des magischen Kartierens
@@ -2000,15 +1670,11 @@ eine Schriftrolle des magischen Kartierens
 %d scrolls of magic mapping
 %d Schriftrollen des magischen Kartierens
 %%%%
-#, c-format
-%%%%
 a scroll of noise
 eine Schriftrolle des Lärms
 %%%%
 %d scrolls of noise
 %d Schriftrollen des Lärms
-%%%%
-#, c-format
 %%%%
 a scroll of random uselessness
 eine Schriftrolle der zufälligen Nutzlosigkeit
@@ -2016,15 +1682,11 @@ eine Schriftrolle der zufälligen Nutzlosigkeit
 %d scrolls of random uselessness
 %d Schriftrollen der zufälligen Nutzlosigkeit
 %%%%
-#, c-format
-%%%%
 a scroll of remove curse
 eine Schriftrolle des Segnens
 %%%%
 %d scrolls of remove curse
 %d Schriftrollen des Segnens
-%%%%
-#, c-format
 %%%%
 a scroll of silence
 eine Schriftrolle der Stille
@@ -2041,23 +1703,17 @@ eine Schriftrolle des Herbeirufs
 %d scrolls of summoning
 %d Schriftrollen des Herbeirufs
 %%%%
-#, c-format
-%%%%
 a scroll of teleportation
 eine Schriftrolle der Teleportation
 %%%%
 %d scrolls of teleportation
 %d Schriftrollen der Teleportation
 %%%%
-#, c-format
-%%%%
 a scroll of torment
 eine Schriftrolle der Qual
 %%%%
 %d scrolls of torment
 %d Schriftrollen der Qual
-%%%%
-#, c-format
 %%%%
 a scroll of vulnerability
 eine Schriftrolle der Vulnerabilität
@@ -2069,7 +1725,6 @@ eine Schriftrolle der Vulnerabilität
 #################################
 # Potions
 #################################
-#, c-format
 %%%%
 a potion of ambrosia
 ein Trank der Ambrosia
@@ -2077,15 +1732,11 @@ ein Trank der Ambrosia
 %d potions of ambrosia
 %d Tränke der Ambrosia
 %%%%
-#, c-format
-%%%%
 a potion of berserk rage
 ein Trank der Berserker-Wut
 %%%%
 %d potions of berserk rage
 %d Tränke der Berserker-Wut
-%%%%
-#, c-format
 %%%%
 a potion of brilliance
 ein Trank der Brillanz
@@ -2093,15 +1744,11 @@ ein Trank der Brillanz
 %d potions of brilliance
 %d Tränke der Brillanz
 %%%%
-#, c-format
-%%%%
 a potion of cancellation
 ein Trank der Aufhebung
 %%%%
 %d potions of cancellation
 %d Tränke der Aufhebung
-%%%%
-#, c-format
 %%%%
 a potion of curing
 ein Trank des Gegenmittels
@@ -2109,15 +1756,11 @@ ein Trank des Gegenmittels
 %d potions of curing
 %d Tränke des Gegenmittels
 %%%%
-#, c-format
-%%%%
 a potion of degeneration
 ein Trank der Degeneration
 %%%%
 %d potions of degeneration
 %d Tränke der Degeneration
-%%%%
-#, c-format
 %%%%
 a potion of experience
 ein Trank der Erfahrung
@@ -2125,15 +1768,11 @@ ein Trank der Erfahrung
 %d potions of experience
 %d Tränke der Erfahrung
 %%%%
-#, c-format
-%%%%
 a potion of flight
 ein Trank des Fliegens
 %%%%
 %d potions of flight
 %d Tränke des Fliegens
-%%%%
-#, c-format
 %%%%
 a potion of haste
 ein Trank der Geschwindigkeit
@@ -2141,15 +1780,11 @@ ein Trank der Geschwindigkeit
 %d potions of haste
 %d Tränke der Geschwindigkeit
 %%%%
-#, c-format
-%%%%
 a potion of heal wounds
 ein Heiltrank
 %%%%
 %d potions of heal wounds
 %d Heiltränke
-%%%%
-#, c-format
 %%%%
 a potion of invisibility
 ein Trank der Unsichtbarkeit
@@ -2157,15 +1792,11 @@ ein Trank der Unsichtbarkeit
 %d potions of invisibility
 %d Tränke der Unsichtbarkeit
 %%%%
-#, c-format
-%%%%
 a potion of lignification
 ein Trank der Verholzung
 %%%%
 %d potions of lignification
 %d Tränke der Verholzung
-%%%%
-#, c-format
 %%%%
 a potion of magic
 ein Trank der Magie
@@ -2173,15 +1804,11 @@ ein Trank der Magie
 %d potions of magic
 %d Tränke der Magie
 %%%%
-#, c-format
-%%%%
 a potion of might
 ein Trank der Macht
 %%%%
 %d potions of might
 %d Tränke der Macht
-%%%%
-#, c-format
 %%%%
 a potion of mutation
 ein Trank der Mutation
@@ -2189,15 +1816,11 @@ ein Trank der Mutation
 %d potions of mutation
 %d Tränke der Mutation
 %%%%
-#, c-format
-%%%%
 a potion of resistance
 ein Trank des Widerstands
 %%%%
 %d potions of resistance
 %d Tränke des Widerstands
-%%%%
-#, c-format
 %%%%
 a potion of stabbing
 ein Trank der Stecherei
@@ -2207,7 +1830,6 @@ ein Trank der Stecherei
 %%%%
 # unidentified potions are named "<colour> <potion>"
 # or "<qualifier> <colour> potion"
-## can't use c-format - throws spurious error
 %%%%
 a %spotion
 ein {adj-er}%sZaubertrank
@@ -2627,32 +2249,20 @@ ein Buch der Alchemie
 a book of Beasts
 ein Buch der Bestien
 %%%%
-#, c-format
-%%%%
 a %sbook
 ein %sBuch
-%%%%
-#, c-format
 %%%%
 a %spaperback book
 ein {adj-es}%sTaschenbuch
 %%%%
-#, c-format
-%%%%
 a %shardcover book
 ein {adj-es}%sgebundenes Buch
-%%%%
-#, c-format
 %%%%
 a %sleatherbound book
 ein {adj-es}%sledergebundenes Buch
 %%%%
-#, c-format
-%%%%
 a %smetal-bound book
 ein {adj-es}%smetallgebundenes Buch
-%%%%
-#, c-format
 %%%%
 a %spapyrus book
 ein {adj-es}%sPapyrusbuch
@@ -2684,7 +2294,6 @@ ein {adj-es}%sPapyrusbuch
 #################################
 # Food
 #################################
-#, c-format
 %%%%
 a ration
 eine Ration
@@ -2692,15 +2301,11 @@ eine Ration
 %d rations
 %d Rationen
 %%%%
-#, c-format
-%%%%
 a chunk of flesh
 ein Fleischstück
 %%%%
 %d chunks of flesh
 %d Fleischstücke
-%%%%
-#, c-format
 %%%%
 an inedible chunk of flesh
 ein ungenießbares Fleischstück
@@ -2712,7 +2317,6 @@ ein ungenießbares Fleischstück
 #################################
 # Miscellaneous Items
 #################################
-#, c-format
 %%%%
 a box of beasts
 eine Kiste der Bestien
@@ -2720,15 +2324,11 @@ eine Kiste der Bestien
 %d boxes of beasts
 %d Kisten der Bestien
 %%%%
-#, c-format
-%%%%
 a lightning rod
 eine Blitzstange
 %%%%
 %d lightning rods
 %d Blitzstange
-%%%%
-#, c-format
 %%%%
 a phial of floods
 eine Phiole der Fluten
@@ -2736,15 +2336,11 @@ eine Phiole der Fluten
 %d phials of floods
 %d Phiolen der Fluten
 %%%%
-#, c-format
-%%%%
 a phantom mirror
 ein Phantomspiegel
 %%%%
 %d phantom mirrors
 %d Phantomspiegel
-%%%%
-#, c-format
 %%%%
 a figurine of a ziggurat
 eine Figur einer Zikkurat
@@ -3581,72 +3177,45 @@ den {adj-en}%sLajatang
 %%%%
 # with indefinite article
 # Note that %s is a placeholder for any adjectives
-#, c-format
 %%%%
 {acc}a %smace
 einen {adj-en}%sStreitkolben
 %%%%
-#, c-format
-%%%%
 {acc}a %sflail
 einen {adj-en}%sFlegel
-%%%%
-#, c-format
 %%%%
 {acc}a %smorningstar
 einen {adj-en}%sMorgenstern
 %%%%
-#, c-format
-%%%%
 {acc}a %sdire flail
 einen {adj-en}%sSchreckensflegel
-%%%%
-#, c-format
 %%%%
 {acc}a %seveningstar
 einen {adj-en}%sAbendstern
 %%%%
-#, c-format
-%%%%
 {acc}a %sgreat mace
 einen {adj-en}%sgroßer Streitkolben
-%%%%
-#, c-format
 %%%%
 {acc}a %sdagger
 einen {adj-en}%sDolch
 %%%%
-#, c-format
-%%%%
 {acc}a %sscimitar
 einen {adj-en}%sKrummsäbel
-%%%%
-#, c-format
 %%%%
 {acc}a %sspear
 einen {adj-en}%sSpeer
 %%%%
-#, c-format
-%%%%
 {acc}a %strident
 einen {adj-en}%sDreizack
-%%%%
-#, c-format
 %%%%
 {acc}a %sdemon trident
 einen {adj-en}%sDämonendreizack
 %%%%
-#, c-format
-%%%%
 {acc}a %strishula
 einen {adj-en}%sTrishula
 %%%%
-#, c-format
-%%%%
 {acc}a %squarterstaff
 einen {adj-en}%sKampfstab
-%%%%
-#, c-format
 %%%%
 {acc}a %slajatang
 einen {adj-en}%sLajatang
@@ -3657,34 +3226,24 @@ einen {adj-en}%sLajatang
 #################################
 # definite article
 # Note that %s is a placeholder for any adjectives
-#, c-format
 %%%%
 {acc}the %sfustibalus
 den {adj-en}%sFustibalus
 %%%%
-#, c-format
-%%%%
 {acc}the %sshortbow
 den {adj-en}%sKurzbogen
-%%%%
-#, c-format
 %%%%
 {acc}the %slongbow
 den {adj-en}%sLangbogen
 %%%%
 # indefinite article
 # Note that %s is a placeholder for any adjectives
-#, c-format
 %%%%
 {acc}a %sfustibalus
 einen {adj-en}%sFustibalus
 %%%%
-#, c-format
-%%%%
 {acc}a %sshortbow
 einen {adj-en}%sKurzbogen
-%%%%
-#, c-format
 %%%%
 {acc}a %slongbow
 einen {adj-en}%sLangbogen
@@ -3715,15 +3274,11 @@ den Wurfspeer
 {acc}the boomerang
 den Bumerang
 %%%%
-#, c-format
-%%%%
 {acc}an arrow
 einen Pfeil
 %%%%
 {acc}%d arrows
 %d Pfeile
-%%%%
-#, c-format
 %%%%
 {acc}a bolt
 einen Bolzen
@@ -3731,15 +3286,11 @@ einen Bolzen
 {acc}%d bolts
 %d Bolzen
 %%%%
-#, c-format
-%%%%
 {acc}a dart
 einen Wurfpfeil
 %%%%
 {acc}%d darts
 %d Wurfpfeile
-%%%%
-#, c-format
 %%%%
 {acc}a poisoned dart
 einen Giftwurfpfeil
@@ -3747,15 +3298,11 @@ einen Giftwurfpfeil
 {acc}%d poisoned darts
 %d Giftwurfpfeile
 %%%%
-#, c-format
-%%%%
 {acc}a curare dart
 einen Kurare-Wurfpfeil
 %%%%
 {acc}%d curare darts
 %d Kurare-Wurfpfeile
-%%%%
-#, c-format
 %%%%
 {acc}an atropa dart
 einen Atropa-Wurfpfeil
@@ -3763,15 +3310,11 @@ einen Atropa-Wurfpfeil
 {acc}%d atropa darts
 %d Atropa-Wurfpfeile
 %%%%
-#, c-format
-%%%%
 {acc}a datura dart
 einen Datura-Wurfpfeil
 %%%%
 {acc}%d datura darts
 %d Datura-Wurfpfeile
-%%%%
-#, c-format
 %%%%
 {acc}a stone
 einen Stein
@@ -3779,15 +3322,11 @@ einen Stein
 {acc}%d stones
 %d Steine
 %%%%
-#, c-format
-%%%%
 {acc}a large rock
 einen Felsblock
 %%%%
 {acc}%d large rocks
 %d Felsblöcke
-%%%%
-#, c-format
 %%%%
 {acc}a javelin
 einen Wurfspeer
@@ -3795,23 +3334,17 @@ einen Wurfspeer
 {acc}%d javelins
 %d Wurfspeere
 %%%%
-#, c-format
-%%%%
 {acc}a silver javelin
 einen Silberwurfspeer
 %%%%
 {acc}%d silver javelins
 %d Silberwurfspeere
 %%%%
-#, c-format
-%%%%
 {acc}a boomerang
 einen Bumerang
 %%%%
 {acc}%d boomerangs
 %d Bumerangs
-%%%%
-#, c-format
 %%%%
 {acc}a silver boomerang
 einen Silberbumerang
@@ -3837,124 +3370,78 @@ einen Silberbumerang
 #################################
 # definite article
 # Note that the %s is a placeholder for any adjectives
-#, c-format
 %%%%
 {acc}the %sring mail
 den {adj-en}%sRingpanzer
 %%%%
-#, c-format
-%%%%
 {acc}the %sscale mail
 den {adj-en}%sSchuppenpanzer
-%%%%
-#, c-format
 %%%%
 {acc}the %schain mail
 den {adj-en}%sKettenpanzer
 %%%%
-#, c-format
-%%%%
 {acc}the %splate armour
 den {adj-en}%sPlattenpanzer
-%%%%
-#, c-format
 %%%%
 {acc}the %scrystal plate armour
 den {adj-en}%sKristallplattenpanzer
 %%%%
-#, c-format
-%%%%
 {acc}the %scloak
 den {adj-en}%sUmhang
-%%%%
-#, c-format
 %%%%
 {acc}the %sscarf
 den {adj-en}%sSchal
 %%%%
-#, c-format
-%%%%
 {acc}the %shelmet
 den {adj-en}%sHelm
-%%%%
-#, c-format
 %%%%
 {acc}the %shat
 den {adj-en}%sHut
 %%%%
-#, c-format
-%%%%
 {acc}the %scentaur barding
 den {adj-en}%sZentaurenharnisch
 %%%%
-#, c-format
-%%%%
 {acc}the %snaga barding
 den {adj-en}%sNagaharnisch
-%%%%
-#, c-format
 %%%%
 {acc}the %sbuckler
 den {adj-en}%sBuckler
 %%%%
 # indefinite article
 # Note that the %s is a placeholder for any adjectives
-#, c-format
 %%%%
 {acc}a %sring mail
 einen {adj-en}%sRingpanzer
 %%%%
-#, c-format
-%%%%
 {acc}a %sscale mail
 einen {adj-en}%sSchuppenpanzer
-%%%%
-#, c-format
 %%%%
 {acc}a %schain mail
 einen {adj-en}%sKettenpanzer
 %%%%
-#, c-format
-%%%%
 {acc}a %splate armour
 einen {adj-en}%sPlattenpanzer
-%%%%
-#, c-format
 %%%%
 {acc}a %scrystal plate armour
 einen {adj-en}%sKristallplattenpanzer
 %%%%
-#, c-format
-%%%%
 {acc}a %scloak
 einen {adj-en}%sUmhang
-%%%%
-#, c-format
 %%%%
 {acc}a %sscarf
 einen {adj-en}%sSchal
 %%%%
-#, c-format
-%%%%
 {acc}a %shelmet
 einen {adj-en}%sHelm
-%%%%
-#, c-format
 %%%%
 {acc}a %shat
 einen {adj-en}%sHut
 %%%%
-#, c-format
-%%%%
 {acc}a %scentaur barding
 einen {adj-en}%sZentaurenharnisch
 %%%%
-#, c-format
-%%%%
 {acc}a %snaga barding
 einen {adj-en}%sNagaharnisch
-%%%%
-#, c-format
 %%%%
 {acc}a %sbuckler
 einen {adj-en}%sBuckler
@@ -4048,147 +3535,90 @@ einen {adj-en}%sRing des Eises
 einen {adj-en}%sobsoleter Ring
 %%%%
 # unidentified
-#, c-format
 %%%%
 {acc}a %swooden ring
 einen {adj-en}%sHolzring
 %%%%
-#, c-format
-%%%%
 {acc}a %ssilver ring
 einen {adj-en}%sSilberring
-%%%%
-#, c-format
 %%%%
 {acc}a %sgolden ring
 einen {adj-en}%sGoldring
 %%%%
-#, c-format
-%%%%
 {acc}a %siron ring
 einen {adj-en}%sEisenring
-%%%%
-#, c-format
 %%%%
 {acc}a %ssteel ring
 einen {adj-en}%sStahlring
 %%%%
-#, c-format
-%%%%
 {acc}a %stourmaline ring
 einen {adj-en}%sTurmalinring
-%%%%
-#, c-format
 %%%%
 {acc}a %sbrass ring
 einen {adj-en}%sMessingring
 %%%%
-#, c-format
-%%%%
 {acc}a %scopper ring
 einen {adj-en}%sKupferring
-%%%%
-#, c-format
 %%%%
 {acc}a %sgranite ring
 einen {adj-en}%sGranitring
 %%%%
-#, c-format
-%%%%
 {acc}a %sivory ring
 einen {adj-en}%sElfenbeinring
-%%%%
-#, c-format
 %%%%
 {acc}a %sruby ring
 einen {adj-en}%sRubinring
 %%%%
-#, c-format
-%%%%
 {acc}a %smarble ring
 einen {adj-en}%sMarmorring
-%%%%
-#, c-format
 %%%%
 {acc}a %sjade ring
 einen {adj-en}%sJadering
 %%%%
-#, c-format
-%%%%
 {acc}a %sglass ring
 einen {adj-en}%sGlasring
-%%%%
-#, c-format
 %%%%
 {acc}a %sagate ring
 einen {adj-en}%sAchatring
 %%%%
-#, c-format
-%%%%
 {acc}a %sbone ring
 einen {adj-en}%sKnochenring
-%%%%
-#, c-format
 %%%%
 {acc}a %sdiamond ring
 einen {adj-en}%sDiamantring
 %%%%
-#, c-format
-%%%%
 {acc}a %semerald ring
 einen {adj-en}%sSmaragdring
-%%%%
-#, c-format
 %%%%
 {acc}a %speridot ring
 einen {adj-en}%sPeridotring
 %%%%
-#, c-format
-%%%%
 {acc}a %sgarnet ring
 einen {adj-en}%sGranatring
-%%%%
-#, c-format
 %%%%
 {acc}a %sopal ring
 einen {adj-en}%sOpalring
 %%%%
-#, c-format
-%%%%
 {acc}a %spearl ring
 einen {adj-en}%sPerlenring
-%%%%
-#, c-format
 %%%%
 {acc}a %scoral ring
 einen {adj-en}%sKorallenring
 %%%%
-#, c-format
-%%%%
 {acc}a %ssapphire ring
 einen {adj-en}%sSaphirring
-%%%%
-#, c-format
 %%%%
 {acc}a %scabochon ring
 einen {adj-en}%sCabochonring
 %%%%
-#, c-format
-%%%%
 {acc}a %sgilded ring
 einen {adj-en}%svergoldeter Ring
-%%%%
-#, c-format
 %%%%
 {acc}a %sonyx ring
 einen {adj-en}%sOnyxring
 %%%%
-#, c-format
-%%%%
 {acc}a %sbronze ring
 einen {adj-en}%sBronzering
-%%%%
-#, c-format
 %%%%
 {acc}a %smoonstone ring
 einen {adj-en}%sMondsteinring
@@ -4346,7 +3776,6 @@ einen {adj-en}%sfluoreszierender Zauberstab
 #################################
 # Potions
 #################################
-#, c-format
 %%%%
 {acc}a potion of ambrosia
 einen Trank der Ambrosia
@@ -4354,15 +3783,11 @@ einen Trank der Ambrosia
 {acc}%d potions of ambrosia
 %d Tränke der Ambrosia
 %%%%
-#, c-format
-%%%%
 {acc}a potion of berserk rage
 einen Trank der Berserker-Wut
 %%%%
 {acc}%d potions of berserk rage
 %d Tränke der Berserker-Wut
-%%%%
-#, c-format
 %%%%
 {acc}a potion of brilliance
 einen Trank der Brillanz
@@ -4370,15 +3795,11 @@ einen Trank der Brillanz
 {acc}%d potions of brilliance
 %d Tränke der Brillanz
 %%%%
-#, c-format
-%%%%
 {acc}a potion of cancellation
 einen Trank der Aufhebung
 %%%%
 {acc}%d potions of cancellation
 %d Tränke der Aufhebung
-%%%%
-#, c-format
 %%%%
 {acc}a potion of curing
 einen Trank des Gegenmittels
@@ -4386,15 +3807,11 @@ einen Trank des Gegenmittels
 {acc}%d potions of curing
 %d Tränke des Gegenmittels
 %%%%
-#, c-format
-%%%%
 {acc}a potion of degeneration
 einen Trank der Degeneration
 %%%%
 {acc}%d potions of degeneration
 %d Tränke der Degeneration
-%%%%
-#, c-format
 %%%%
 {acc}a potion of experience
 einen Trank der Erfahrung
@@ -4402,15 +3819,11 @@ einen Trank der Erfahrung
 {acc}%d potions of experience
 %d Tränke der Erfahrung
 %%%%
-#, c-format
-%%%%
 {acc}a potion of flight
 einen Trank des Fliegens
 %%%%
 {acc}%d potions of flight
 %d Tränke des Fliegens
-%%%%
-#, c-format
 %%%%
 {acc}a potion of haste
 einen Trank der Geschwindigkeit
@@ -4418,15 +3831,11 @@ einen Trank der Geschwindigkeit
 {acc}%d potions of haste
 %d Tränke der Geschwindigkeit
 %%%%
-#, c-format
-%%%%
 {acc}a potion of heal wounds
 einen Heiltrank
 %%%%
 {acc}%d potions of heal wounds
 %d Heiltränke
-%%%%
-#, c-format
 %%%%
 {acc}a potion of invisibility
 einen Trank der Unsichtbarkeit
@@ -4434,15 +3843,11 @@ einen Trank der Unsichtbarkeit
 {acc}%d potions of invisibility
 %d Tränke der Unsichtbarkeit
 %%%%
-#, c-format
-%%%%
 {acc}a potion of lignification
 einen Trank der Verholzung
 %%%%
 {acc}%d potions of lignification
 %d Tränke der Verholzung
-%%%%
-#, c-format
 %%%%
 {acc}a potion of magic
 einen Trank der Magie
@@ -4450,15 +3855,11 @@ einen Trank der Magie
 {acc}%d potions of magic
 %d Tränke der Magie
 %%%%
-#, c-format
-%%%%
 {acc}a potion of might
 einen Trank der Macht
 %%%%
 {acc}%d potions of might
 %d Tränke der Macht
-%%%%
-#, c-format
 %%%%
 {acc}a potion of mutation
 einen Trank der Mutation
@@ -4466,15 +3867,11 @@ einen Trank der Mutation
 {acc}%d potions of mutation
 %d Tränke der Mutation
 %%%%
-#, c-format
-%%%%
 {acc}a potion of resistance
 einen Trank des Widerstands
 %%%%
 {acc}%d potions of resistance
 %d Tränke des Widerstands
-%%%%
-#, c-format
 %%%%
 {acc}a potion of stabbing
 einen Trank der Stecherei
@@ -4484,7 +3881,6 @@ einen Trank der Stecherei
 %%%%
 # unidentified potions are named "<colour> <potion>"
 # or "<qualifier> <colour> potion"
-## can't use c-format - throws spurious error
 %%%%
 {acc}a %spotion
 einen {adj-en}%sZaubertrank
@@ -4690,7 +4086,6 @@ einen {adj-en}%sStecken
 #################################
 # Miscellaneous Items
 #################################
-#, c-format
 %%%%
 {acc}a phantom mirror
 einen Phantomspiegel
@@ -4865,200 +4260,126 @@ den {adj-en}%sStecken der Schlacht
 # with indefinite article
 # used in message "<monster> hits you (from afar) with <weapon>" (melee-attack.cc)
 # Note that %s is a placeholder for any adjectives
-#, c-format
 %%%%
 {dat}a %sclub
 einer {adj-en}%s Keule
 %%%%
-#, c-format
-%%%%
 {dat}a %swhip
 einer {adj-en}%s Peitsche
-%%%%
-#, c-format
 %%%%
 {dat}a %smace
 einem {adj-en}%sStreitkolben
 %%%%
-#, c-format
-%%%%
 {dat}a %sflail
 einem {adj-en}%sFlegel
-%%%%
-#, c-format
 %%%%
 {dat}a %smorningstar
 einem {adj-en}%sMorgenstern
 %%%%
-#, c-format
-%%%%
 {dat}a %sdemon whip
 einer {adj-en}%s Dämonenpeitsche
-%%%%
-#, c-format
 %%%%
 {dat}a %ssacred scourge
 einer {adj-en}%s geistliche Geißel
 %%%%
-#, c-format
-%%%%
 {dat}a %sdire flail
 einem {adj-en}%sSchreckensflegel
-%%%%
-#, c-format
 %%%%
 {dat}a %seveningstar
 einem {adj-en}%sAbendstern
 %%%%
-#, c-format
-%%%%
 {dat}a %sgreat mace
 einem {adj-en}%sgroßer Streitkolben
-%%%%
-#, c-format
 %%%%
 {dat}a %sgiant club
 einer {adj-en}%s Riesenkeule
 %%%%
-#, c-format
-%%%%
 {dat}a %sgiant spiked club
 einer {adj-en}%s riesige Stachelkeule
-%%%%
-#, c-format
 %%%%
 {dat}a %sdagger
 einem {adj-en}%sDolch
 %%%%
-#, c-format
-%%%%
 {dat}a %squick blade
 einer {adj-en}%s Schnellklinge
-%%%%
-#, c-format
 %%%%
 {dat}a %sshort sword
 einem {adj-en}%sKurzschwert
 %%%%
 # neut
-#, c-format
 %%%%
 {dat}a %srapier
 einem {adj-en}%sRapier
 %%%%
 # neut
-#, c-format
 %%%%
 {dat}a %sfalchion
 einem {adj-en}%sFalchion
 %%%%
-#, c-format
-%%%%
 {dat}a %slong sword
 einem {adj-en}%sLangschwert
-%%%%
-#, c-format
 %%%%
 {dat}a %sscimitar
 einem {adj-en}%sKrummsäbel
 %%%%
-#, c-format
-%%%%
 {dat}a %sdemon blade
 einer {adj-en}%s Dämonenklinge
-%%%%
-#, c-format
 %%%%
 {dat}a %seudemon blade
 einer {adj-en}%s Eudämonenklinge
 %%%%
-#, c-format
-%%%%
 {dat}a %sdouble sword
 einem {adj-en}%sDoppelschwert
 %%%%
-#, c-format
-%%%%
 {dat}a %sgreat sword
 einem {adj-en}%sGroßschwert
-%%%%
-#, c-format
 %%%%
 {dat}a %striple sword
 einem {adj-en}%sDreifach-Schwert
 %%%%
 # neut
-#, c-format
 %%%%
 {dat}a %shand axe
 einem {adj-en}%sBeil
 %%%%
-#, c-format
-%%%%
 {dat}a %swar axe
 einer {adj-en}%s Kriegsaxt
-%%%%
-#, c-format
 %%%%
 {dat}a %sbroad axe
 einer {adj-en}%s Breitaxt
 %%%%
-#, c-format
-%%%%
 {dat}a %sbattleaxe
 einer {adj-en}%s Streitaxt
-%%%%
-#, c-format
 %%%%
 {dat}a %sexecutioner's axe
 einer {adj-en}%s Henkersaxt
 %%%%
-#, c-format
-%%%%
 {dat}a %sspear
 einem {adj-en}%sSpeer
-%%%%
-#, c-format
 %%%%
 {dat}a %strident
 einem {adj-en}%sDreizack
 %%%%
-#, c-format
-%%%%
 {dat}a %shalberd
 einer {adj-en}%s Hellebarde
-%%%%
-#, c-format
 %%%%
 {dat}a %sscythe
 einer {adj-en}%s Sense
 %%%%
-#, c-format
-%%%%
 {dat}a %sdemon trident
 einem {adj-en}%sDämonendreizack
-%%%%
-#, c-format
 %%%%
 {dat}a %strishula
 einem {adj-en}%sTrishula
 %%%%
-#, c-format
-%%%%
 {dat}a %sglaive
 einer {adj-en}%s Gleve
-%%%%
-#, c-format
 %%%%
 {dat}a %sbardiche
 einer {adj-en}%s Bardiche
 %%%%
-#, c-format
-%%%%
 {dat}a %squarterstaff
 einem {adj-en}%sKampfstab
-%%%%
-#, c-format
 %%%%
 {dat}a %slajatang
 einem {adj-en}%sLajatang
@@ -5070,37 +4391,24 @@ einem {adj-en}%sLajatang
 # your...
 # used in the message "You cannot shoot with your <launcher> while held in a net/caught in a web."
 # Note that %s is a placeholder for any adjectives
-#, c-format
 %%%%
 {dat}your %shunting sling
 deiner {adj-en}%s Schleuder
 %%%%
-#, c-format
-%%%%
 {dat}your %sfustibalus
 deinem {adj-en}%sFustibalus
-%%%%
-#, c-format
 %%%%
 {dat}your %shand crossbow
 deiner {adj-en}%s Handarmbrust
 %%%%
-#, c-format
-%%%%
 {dat}your %sarbalest
 deiner {adj-en}%s Armbrust
-%%%%
-#, c-format
 %%%%
 {dat}your %striple crossbow
 deiner {adj-en}%s Dreifach-Armbrust
 %%%%
-#, c-format
-%%%%
 {dat}your %sshortbow
 deinem {adj-en}%sKurzbogen
-%%%%
-#, c-format
 %%%%
 {dat}your %slongbow
 deinem {adj-en}%sLangbogen

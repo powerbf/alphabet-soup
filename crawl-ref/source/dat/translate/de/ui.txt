@@ -21,12 +21,8 @@ Karten wird geladen...
 Loading complete, press any key to start.
 Laden fertig, drücke eine Taste um zu starten.
 %%%%
-#, c-format
-%%%%
 Hello, welcome to %s %s!
 Hallo, willkommen bei %s %s!
-%%%%
-#, c-format
 %%%%
 Dismissing %s
 %s wird entlassen
@@ -124,13 +120,11 @@ ctrl-p
 ctrl-p
 %%%%
 # "<player name> the <species> <background>"
-#, c-format
 %%%%
 %s the %s %s
 %s der %s %s
 %%%%
 # "<player name> the <combo>"
-#, c-format
 %%%%
 %s the %s
 %s der %s
@@ -286,7 +280,6 @@ Play a new game with your previous choice.
 Ein spiel mit deiner letzten Auswahl spielen.
 %%%%
 # species/background - other messages
-#, c-format
 %%%%
 Incompatible species and background (%s) selected.
 Inkompatible Spezies und Hintergrund (%s) ausgewählt.
@@ -300,7 +293,6 @@ You have a choice of weapons.
 Bitte wähle eine Waffe.
 %%%%
 # apt = aptitude
-#, c-format
 %%%%
 (%+d apt)
 (%+d Beg)
@@ -370,7 +362,6 @@ You have an existing game under this name; really overwrite? [Y/n]
 Du hast schon ein Spiel mit dieser Name; Wirklich überschreiben? [Y/n]
 %%%%
 # seeded games
-#, c-format
 %%%%
 Play a game with a custom seed for version %s.
 Spiel ein Spiel mit einem spezifischen Samen für version %s.
@@ -486,7 +477,6 @@ Trunk-Spiele gelten nicht für das Turnier. Du willst veilleicht %s. Trunk trotz
 # to push stuff off the screen.
 ###############################################################
 # "<species> of <god>"
-#, c-format
 %%%%
 %s of %s
 %s von {dat}%s
@@ -607,7 +597,6 @@ Gold:
 # }: 2/15 runes: decaying, gossamer
 #
 ###############################################################
-#, c-format
 %%%%
 " Turns: %d, Time: "
 " Wend: %d, Zeit: "
@@ -674,8 +663,6 @@ Gold:
 "Spells: "
 "Zauber: "
 %%%%
-#, c-format
-%%%%
 %d/%d levels left
 %d/%d Stufen übrig
 %%%%
@@ -733,13 +720,11 @@ ZR
 "Heiml    "
 %%%%
 # HP regeneration rate
-#, c-format
 %%%%
 HPRegen  %03.2f/turn
 TPRegen  %03.2f/Wendung
 %%%%
 # MP regeneration rate
-#, c-format
 %%%%
 MPRegen  %03.2f/turn
 MPRegen  %03.2f/Wendung
@@ -797,12 +782,9 @@ amphibious
 amphibisch
 %%%%
 # The number here will only ever be 7 or 8
-#, c-format
 %%%%
 %d rings
 %d Ringe
-%%%%
-#, c-format
 %%%%
 constrict %d
 verengen %d
@@ -812,8 +794,6 @@ auf dem Wasser gehen
 %%%%
 reduced essence
 reduzierte Essenz
-%%%%
-#, c-format
 %%%%
 AC +%d
 RK +%d
@@ -839,8 +819,6 @@ keine Statuseffekte
 Orb of Zot
 Kugel von Zot
 %%%%
-#, c-format
-%%%%
 "%d/%d runes: "
 "%d/%d Runen: "
 %%%%
@@ -855,8 +833,6 @@ EX-WIZARD
 EXPLORE
 ERKUNDEN
 %%%%
-#, c-format
-%%%%
 Your terminal window is too small; please resize to at least %d,%d
 Dein Terminalfenster ist zu klein; Bitte ändere die Größe auf mindestens %d,%d
 %%%%
@@ -866,12 +842,8 @@ Es gab keine Monster im Sicht!
 There are no monsters in sight!
 Es gibt keine Monster im Sicht!
 %%%%
-#, c-format
-%%%%
 You could see %s.
 Du sahst %s.
-%%%%
-#, c-format
 %%%%
 You can see %s.
 Du siehst %s.
@@ -903,17 +875,11 @@ Köcher nicht verfügbar
 Nothing quivered
 Nichts im Köcher
 %%%%
-#, c-format
-%%%%
 %s unavailable
 %s nicht verfügbar
 %%%%
-#, c-format
-%%%%
 %s currently unavailable
 %s aktuell nicht verfügbar
-%%%%
-#, c-format
 %%%%
 %s restricted
 %s beschränkt
