@@ -23,7 +23,7 @@
 
 ## Specific Terms
 
-The German word Stab means both staff and wand. One can distinguish Zauberstab (magic wand/staff) from Ring (fighting staff), but how do you distinguish a magical staff from a magic wand? Seems like Harry Potter's wand is a Zauberstab, but so is Gandalf's staff. [5] uses Stecken for magical staves.
+The German word Stab means both staff and wand. One can distinguish Zauberstab (magic wand/staff) from Kampfstab (fighting staff), but how do you distinguish a magical staff from a magic wand? Seems like Harry Potter's wand is a Zauberstab, but so is Gandalf's staff. [5] uses Stecken for magical staves.
 
 [5] has might = Stärke, but that means strength, so I went for Macht.  
 
@@ -109,7 +109,7 @@ CASE          |MASC                |FEM               |NEUT                   |P
 --------------|--------------------|------------------|-----------------------|------------------
 Nominative    |feiner Ring         |feine Axt         |feines Schwert         |2 feine Pfeile
 Accusative    |feinen Ring         |feine Axt         |feines Schwert         |2 feine Pfeile
-Dative        |feinen Ring         |feiner Axt        |feinem Schwert         |2 feinen Pfeilen
+Dative        |feinem Ring         |feiner Axt        |feinem Schwert         |2 feinen Pfeilen
 Genitive      |feinen Rings        |feiner Axt        |feinen Schwerts        |2 feiner Pfeile
 
 In practice, in DCSS, we see:
