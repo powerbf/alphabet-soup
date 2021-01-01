@@ -1317,7 +1317,7 @@ protected:
         string text;
         text += letter;
         text += " - ";
-        text += item_name;
+        text += localize(item_name);
         label->set_text(formatted_string(text, fg));
 
         string desc = unwrap_desc(getGameStartDescription(item_name));
@@ -1574,7 +1574,7 @@ void job_group::attach(const newgame_def& ng, const newgame_def& defaults,
             letter,
             job,
             item_status,
-            localize(get_job_name(job)),
+            get_job_name(job),
 #ifdef USE_TILE
             tile_def(tileidx_player_job(job,
                     item_status != ITEM_STATUS_RESTRICTED), TEX_GUI),
@@ -1624,7 +1624,7 @@ void species_group::attach(const newgame_def& ng, const newgame_def& defaults,
             letter,
             this_species,
             item_status,
-            localize(species_name(this_species)),
+            species_name(this_species),
 #ifdef USE_TILE
             tile_def(tileidx_player_species(this_species,
                     item_status != ITEM_STATUS_RESTRICTED), TEX_GUI),
