@@ -33,13 +33,22 @@ experience points = Erfahrungspunkte [5]
 rage = Kampfrausch (lit. battle frenzy) [5]  
 abjuration = Bannmagie [5]  
 banishment = Verbannung [5]  
-
-conjure = beschwören but also summon = beschwören [3][5]  
-In this context we need to distinguish summoning from conjuration.  
-For thet reason, I've used summon = herbeirufen.  
-
 melee = Nahkampf [12]  
 
+Conjuration/Summoning/Evocation are problematic. They can be used interchangably in English, and there are also overalapping meanings of the corresponding words in German.  
+[5] has:
+- Evocation -> Hervorrufung (Seems to correspond to DCSS Conjuration)
+- Conjuration -> Beschwörung (Seems to be a combination DCSS Conjuration and Summoning)
+
+Comparing http://www.baldurs-gate.ch/bg2/ to https://baldursgate.fandom.com/wiki/Spells_(Baldur%27s_Gate_II)#Schools_of_magic:  
+- Conjuration/Summoning -> Herbeirufung/Beschwörung
+- Evocation/Invocation -> Anrufung/Hervorrufung
+
+Herbeirufen clearly means summon: https://de.thefreedictionary.com/herbeirufen  
+Beschwören seems to also mean summon: https://de.thefreedictionary.com/beschw%c3%b6ren
+Anrufen means to call someone, including a god, for help (i.e. invoke): https://de.thefreedictionary.com/anrufen  
+Hervorrufen seems to mean evoke: https://de.thefreedictionary.com/hervorrufen  
+Hervorzaubern seems to unambiguously mean conjure: https://de.pons.com/%C3%BCbersetzung/deutsch-englisch/hervorzaubern
 
 ## Adjectives
 
