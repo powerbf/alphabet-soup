@@ -461,39 +461,39 @@ tutorial3 exit
 %%%%
 tutorial4 start
 
-In dieser Lehre sind Sie dabei zu erfahren, wie man erlernt und Zauber wirft.
+In dieser Lehre bist du dabei zu erfahren, wie man erlernt und Zauber wirft.
 %%%%
 tutorial4 spellcasting
 
-Sie können Zauber mit <input>$cmd[CMD_CAST_SPELL]</input><localtiles> oder
+Du kannst Zauber mit <input>$cmd[CMD_CAST_SPELL]</input><localtiles> oder
 durch Anklicken <input>klicken</input> auf den Zauber Fliesen </localtiles>
 gegossen. Drücke <input>$cmd[CMD_CAST_SPELL]?</input>, um eine Liste Eurer
 Zauber erhalten.
 
-Sobald Sie von Magie Punkte sind, um Rückzug und Ruhe sie mit
+Wenn du kein mehr MP hast, rückziehe und raste um sie zurückzubekommen mit
 <input>$cmd[CMD_REST]</input><localtiles> oder durch Anklicken
 <input>klicken</input> der Rest Icon in der Kommando-Panel </localtiles>.
 %%%%
 tutorial4 ring_power
 
-Setzen Sie diesen Ring auf, mit <input>$cmd[CMD_WEAR_JEWELLERY]</input>
-<localtiles> oder durch <input>Anklicken</input> es in der Bestandsliste
-aus</localtiles>, und ruhen Sie sich anschließend bis zu Ihrem neuen volles
-Potenzial auszuschöpfen.
+Setze diesen Ring auf, mit <input>$cmd[CMD_WEAR_JEWELLERY]</input>
+<localtiles> oder durch <input>Anklicken</input> in der Bestandsliste
+</localtiles>, und raste dann bis deinem neuen volles Potenzial.
 %%%%
 tutorial4 undead
 
-Anders als die meisten Monster, Untote nicht regenerieren Gesundheit und es ist
-unmöglich zu sagen, wie sie sind verwundet.<localtiles> Sie können übrigens
-auch zaubern, indem Sie <input>Strg + Linksklick</input> auf das
-Monster.</localtiles>
+Im Gegensatz zu den meisten Monstern regenerieren Zombies und Skelette keine Gesundheit.
+<localtiles> Du kansst auch versuchen, den zuletzt verwendeten Zauberspruch 
+erneut zu wirken, indem du <input>Strg + Linksklick</input> auf das
+Monster drückst.</localtiles>
 %%%%
 tutorial4 spell_success
 
-Um Ihre Kenntnisse von Zauber zu überprüfen, drücken Sie
+Um deine Kenntnisse von Zauber zu überprüfen, drücke
 <input>$cmd[CMD_DISPLAY_SPELLS]</input><localtiles> oder
-<input>mouseover</input> über Ihre gespeicherten Zauber</localtiles>.
-Vergleichen Sie Ihre Zauber Erfolgsraten vor und nach schwingt dieses Personal.
+<input>mouseover</input> über deine gespeicherten Zauber</localtiles>.
+Vergleiche die Erfolgsraten deiner Zauber vor und nach dem Einsatz
+diesem Stab.
 %%%%
 tutorial4 mephitic_cloud
 

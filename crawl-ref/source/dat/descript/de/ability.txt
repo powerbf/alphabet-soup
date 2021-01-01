@@ -13,8 +13,9 @@ Teleportiere über eine zufällige, kurze Distanz.
 %%%%
 Breathe Dispelling Energy ability
 
-Atmen Sie eine Druckwelle der Macht an einem ins Visier genommenen Ungeheuer,
-vielleicht etwas von seinem Entzücken entfernend.
+Haucht einen Bolzen aus vertreibender Energie auf ein anvisiertes Wesen, 
+wodurch möglicherweise einige seiner Verzauberungen entfernt werden.
+Die Reichweite des Bolzens wird für jedes getroffene Wesen um eins verringert.
 %%%%
 Breathe Frost ability
 
@@ -124,7 +125,7 @@ Geschicklichkeit.
 %%%%
 Imprison ability
 
-Sperren Sie provisorisch ein Ungeheuer in Wänden von Silber ein. Die Dauer des
+Sperre provisorisch ein Ungeheuer in Wänden von Silber ein. Die Dauer des
 Gefängnisses wird durch die Beschwörungssachkenntnis vergrößert.
 %%%%
 Sanctuary ability
@@ -177,7 +178,7 @@ wurden, nicht verlassen können.
 %%%%
 Recall Undead Slaves ability
 
-Rufen Sie Ihre untoten Anhänger von überall her im Kerker zu Ihren
+Rufe deine untoten Anhänger von überall her im Kerker zu deinen
 unmittelbaren Umgebungen zurück.
 %%%%
 Animate Dead ability
@@ -349,12 +350,12 @@ sondern es reicht den Gegner zu sehen.
 %%%%
 Recall Orcish Followers ability
 
-Rufen Sie Ihre orkischen Anhänger von überall her im Kerker zu Ihren
+Rufe deine orkischen Anhänger von überall her im Kerker zu deinen
 unmittelbaren Umgebungen zurück.
 %%%%
 Stop Recall ability
 
-Hören Sie auf, Ihre Anhänger zurückzurufen.
+Hör auf, deine Anhänger zurückzurufen.
 %%%%
 Sunlight ability
 
@@ -377,7 +378,7 @@ werden explodieren und dir oder deinen Feinden Schaden zufügen.
 %%%%
 Evolution ability
 
-Verwandeln Sie Pflanzen und Pilze in stärkere Arten. Aufrüstung von Pilzen
+Verwandle Pflanzen und Pilze in stärkere Arten. Aufrüstung von Pilzen
 verlangt Gläubigkeit, während die Aufrüstung von Werken Frucht verlangt.
 Beförderte Werke gewinnen einen Bonus, um Genauigkeit anzugreifen, die zur
 Beschwörungssachkenntnis des Benutzers proportional ist, und Pflanzen werden
@@ -438,10 +439,10 @@ Convert to Beogh ability
 Schwöre Beogh deine Treue, dem Gott der Höhlen Orks. Dieser Gott verlangt, dass
 alle Nicht-Gläubigen sterben müssen, aber neue Gläubige müssen geschont und in
 die Gemeinschaft aufgenommen werden. Vorsicht! Für Orks, die nicht gesehen
-haben dass Sie konvertierten, sind sie eventuell noch feindlich bis Sie Ihren
-Ruf aufgebaut haben!
+haben dass du konvertiertest, sind sie eventuell noch feindlich bis du deinen 
+Ruf aufgebaut hast!
 
-Alle anderen Götter hassen Beogh, und nehmen Sie Fahnenfluch nicht auf die
+Alle anderen Götter hassen Beogh, und nehmen Fahnenfluch nicht auf die
 leichte Schulter.
 %%%%
 Make oklob sapling ability
