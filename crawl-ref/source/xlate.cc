@@ -26,12 +26,12 @@ string get_xlate_language()
     return "";
 }
 
-string dcxlate(const string &domain, const string &context, const string &msgid)
+string cxlate(const string &context, const string &msgid)
 {
     return msgid;
 }
 
-string dcnxlate(const string &domain, const string &context,
+string cnxlate(const string &context,
         const string &msgid1, const string &msgid2, unsigned long n)
 {
     return (n == 1 ? msgid1 : msgid2);
@@ -66,18 +66,13 @@ static inline bool skip_translation()
     return (language.empty() || language == "en");
 }
 
-// translate with domain and context
+// translate with context
 //
-// domain = translation file (optional, default="strings")
 // context = the context in which the text is being used (optional, default=none)
 //  (for disambiguating same English text used in different contexts which may require different translations)
 //  if no translation is found in the specified context, will look for translation at global (no) context
 // msgid = English text to be translated
-//
-// NOTE: this is different to dpgettext in two ways:
-//  1) dpgettext can only handles string literals (not variables). This can handle either.
-//  2) if context is NULL or empty then this falls back to contextless gettext
-string dcxlate(const string &domain, const string &context, const string &msgid)
+string cxlate(const string &context, const string &msgid)
 {
     if (skip_translation() || msgid.empty())
     {
@@ -105,21 +100,16 @@ string dcxlate(const string &domain, const string &context, const string &msgid)
         return translation;
 }
 
-// translate with domain, context and number
+// translate with context and number
 // select the plural form corresponding to number
 //
-// domain = translation file (optional, default="strings")
 // context = the context in which the text is being used (optional, default=none)
 //  (for disambiguating same English text used in different contexts which may require different translations)
 //  if no translation is found in the specified context, will look for translation at global (no) context
 // msgid1 = English singular text
 // msgid2 = English plural text
 // n = the count of whatever it is
-//
-// NOTE: this is different to dpngettext in two ways:
-//  1) dpngettext can only handles string literals (not variables). This can handle either.
-//  2) if context is NULL or empty then this falls back to contextless ngettext
-string dcnxlate(const string &domain, const string &context,
+string cnxlate(const string &context,
         const string &msgid1, const string &msgid2, unsigned long n)
 {
     if (skip_translation() || msgid1.empty() || msgid2.empty())
@@ -130,11 +120,11 @@ string dcnxlate(const string &domain, const string &context,
 
     if (n == 1)
     {
-        return dcxlate(domain, context, msgid1);
+        return cxlate(context, msgid1);
     }
     else
     {
-        string result = dcxlate(domain, context, msgid2);
+        string result = cxlate(context, msgid2);
 
         if (result.substr(0, exp_start.length()) != exp_start)
             // single plural form
