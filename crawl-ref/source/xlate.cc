@@ -7,7 +7,9 @@
 
 #include "AppHdr.h"
 #include "xlate.h"
+#include "clua.h"
 #include "database.h"
+#include "stringutil.h"
 
 #include <cstring>
 using namespace std;
@@ -40,6 +42,10 @@ string dcnxlate(const string &domain, const string &context,
 
 #include <clocale>
 #include <libintl.h>
+
+// markers for embedded expressions
+const string exp_start = "((";
+const string exp_end = "))";
 
 static string language;
 
@@ -128,8 +134,45 @@ string dcnxlate(const string &domain, const string &context,
     }
     else
     {
-        // TODO: Make this work for languages with more than one plural form
-        return dcxlate(domain, context, msgid2);
+        string result = dcxlate(domain, context, msgid2);
+
+        if (result.substr(0, exp_start.length()) != exp_start)
+            // single plural form
+           return result;
+
+        // pass in the value of n. Surely there's a better way to do this.
+        string lua_prefix = make_stringf("n=%ld\nreturn ", n);
+
+        vector<string> lines = split_string("\n", result, false, false);
+        for (const string& line: lines)
+        {
+            size_t pos1 = line.find(exp_start);
+            size_t pos2 = line.rfind(exp_end);
+            if (pos1 != string::npos && pos2 != string::npos)
+            {
+                string condition = line.substr(pos1 + exp_start.length(), pos2 - pos1 - exp_start.length());
+                if (condition == "")
+                {
+                    // unconditional
+                    return line.substr(pos2 + exp_end.length());
+                }
+
+                // evaluate the condition
+                string lua = lua_prefix + condition;
+                if (clua.execstring(lua.c_str(), "plural_lua", 1))
+                {
+                    // error
+                    continue;
+                }
+
+                bool res;
+                clua.fnreturns(">b", &res);
+                if (res)
+                    return line.substr(pos2 + exp_end.length());
+            }
+        }
+
+        return msgid2;
     }
 }
 
