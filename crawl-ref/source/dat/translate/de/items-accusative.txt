@@ -647,8 +647,8 @@ einen {adj-en}%sfluoreszierender Zauberstab
 %%%%
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "twisted "
-#msgstr "verdrehten "
+#"twisted "
+#"verdrehten "
 %%%%
 "{adj-en}crooked "
 "krummen "
@@ -658,8 +658,8 @@ einen {adj-en}%sfluoreszierender Zauberstab
 %%%%
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "blackened "
-#msgstr "geschwärzten "
+#"blackened "
+#"geschwärzten "
 %%%%
 "{adj-en}tapered "
 "verjüngten "
@@ -669,8 +669,8 @@ einen {adj-en}%sfluoreszierender Zauberstab
 %%%%
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "encrusted "
-#msgstr "verkrusteten "
+#"encrusted "
+#"verkrusteten "
 %%%%
 "{adj-en}sharpened "
 "geschärften "
@@ -936,13 +936,13 @@ einen {adj-en}%sStecken
 # covered elsewhere
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "crooked "
-#msgstr "krummen "
+#"crooked "
+#"krummen "
 # covered elsewhere
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "knobbly "
-#msgstr "knubbeligen "
+#"knobbly "
+#"knubbeligen "
 %%%%
 "{adj-en}weird "
 "seltsamen "
@@ -956,13 +956,13 @@ einen {adj-en}%sStecken
 # covered elsewhere
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "curved "
-#msgstr "gebogenen "
+#"curved "
+#"gebogenen "
 # covered elsewhere
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "twisted "
-#msgstr "verdrehten "
+#"twisted "
+#"verdrehten "
 %%%%
 "{adj-en}thick "
 "dicken "
@@ -970,13 +970,13 @@ einen {adj-en}%sStecken
 # covered elsewhere
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "long "
-#msgstr "langen "
+#"long "
+#"langen "
 # covered elsewhere
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "short "
-#msgstr "kurzen "
+#"short "
+#"kurzen "
 %%%%
 "{adj-en}smoking "
 "rauchigen "
@@ -984,8 +984,8 @@ einen {adj-en}%sStecken
 # covered elsewhere
 #msgctxt "adj-en"
 #msgctxt "acc"
-#msgid "jewelled "
-#msgstr "juwelenbesetzten "
+#"jewelled "
+#"juwelenbesetzten "
 #################################
 # Miscellaneous Items
 #################################

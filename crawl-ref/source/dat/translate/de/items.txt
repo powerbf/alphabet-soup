@@ -1060,8 +1060,8 @@ ein {adj-es}%sTurmschild
 " der Magieresistanz"
 %%%%
 # covered under weapon brands
-#msgid " of protection"
-#msgstr " des Schutzes"
+#" of protection"
+#" des Schutzes"
 %%%%
 " of stealth"
 " der Heimlichkeit"
@@ -1561,8 +1561,8 @@ ein {adj-er}%sfluoreszierender Zauberstab
 "kurzer "
 %%%%
 #msgctxt "adj-er"
-#msgid "twisted "
-#msgstr "verdrehter "
+#"twisted "
+#"verdrehter "
 %%%%
 "{adj-er}crooked "
 "krummer "
@@ -1571,8 +1571,8 @@ ein {adj-er}%sfluoreszierender Zauberstab
 "gegabelter "
 %%%%
 #msgctxt "adj-er"
-#msgid "blackened "
-#msgstr "geschwärzter "
+#"blackened "
+#"geschwärzter "
 %%%%
 "{adj-er}tapered "
 "verjüngter "
@@ -1581,8 +1581,8 @@ ein {adj-er}%sfluoreszierender Zauberstab
 "abgenutzter "
 %%%%
 #msgctxt "adj-er"
-#msgid "encrusted "
-#msgstr "verkrusteter "
+#"encrusted "
+#"verkrusteter "
 %%%%
 "{adj-er}sharpened "
 "geschärfter "
@@ -2096,12 +2096,12 @@ ein {adj-er}%sStecken
 # adjectives
 # covered elsewhere
 #msgctxt "adj-er"
-#msgid "crooked "
-#msgstr "krummer "
+#"crooked "
+#"krummer "
 # covered elsewhere
 #msgctxt "adj-er"
-#msgid "knobbly "
-#msgstr "knubbeliger "
+#"knobbly "
+#"knubbeliger "
 %%%%
 "{adj-er}weird "
 "seltsamer "
@@ -2114,32 +2114,32 @@ ein {adj-er}%sStecken
 %%%%
 # covered elsewhere
 #msgctxt "adj-er"
-#msgid "curved "
-#msgstr "gebogener "
+#"curved "
+#"gebogener "
 # covered elsewhere
 #msgctxt "adj-er"
-#msgid "twisted "
-#msgstr "verdrehter "
+#"twisted "
+#"verdrehter "
 %%%%
 "{adj-er}thick "
 "dicker "
 %%%%
 # covered elsewhere
 #msgctxt "adj-er"
-#msgid "long "
-#msgstr "langer "
+#"long "
+#"langer "
 # covered elsewhere
 #msgctxt "adj-er"
-#msgid "short "
-#msgstr "kurzer "
+#"short "
+#"kurzer "
 %%%%
 "{adj-er}smoking "
 "rauchiger "
 %%%%
 # covered elsewhere
 #msgctxt "adj-er"
-#msgid "jewelled "
-#msgstr "juwelenbesetzter "
+#"jewelled "
+#"juwelenbesetzter "
 #################################
 # Spellbooks
 #################################
@@ -2272,12 +2272,12 @@ ein {adj-es}%sPapyrusbuch
 %%%%
 # covered under amulets
 #msgctxt "adj-es"
-#msgid "thick "
-#msgstr "dickes "
+#"thick "
+#"dickes "
 # covered under amulets
 #msgctxt "adj-es"
-#msgid "thin "
-#msgstr "dünnes "
+#"thin "
+#"dünnes "
 %%%%
 "{adj-es}wide "
 "breites "
@@ -2386,8 +2386,8 @@ die %sRune
 "bone "
 Knochen-
 %%%%
-#msgid "slimy "
-#msgstr "schleimige "
+#"slimy "
+#"schleimige "
 %%%%
 "silver "
 "silberne "
@@ -2395,8 +2395,8 @@ Knochen-
 "serpentine "
 Schlangen-
 %%%%
-#msgid "golden "
-#msgstr "goldene "
+#"golden "
+#"goldene "
 %%%%
 "decaying "
 "verfallende "
@@ -2410,8 +2410,8 @@ Spinnfäden-
 "demonic "
 "dämonische "
 %%%%
-#msgid "glowing "
-#msgstr "leuchtende "
+#"glowing "
+#"leuchtende "
 %%%%
 "magical "
 "magische "
@@ -2419,8 +2419,8 @@ Spinnfäden-
 "fiery "
 "feurige "
 %%%%
-#msgid "dark "
-#msgstr "dunkle "
+#"dark "
+#"dunkle "
 # terse version for character overview screen
 %%%%
 iron
@@ -2438,8 +2438,8 @@ Knochen-
 slimy
 schleimige
 %%%%
-#msgid "silver"
-#msgstr "silberne"
+#"silver"
+#"silberne"
 %%%%
 serpentine
 Schlangen-

@@ -923,8 +923,8 @@ The barbed spikes become lodged in your body.
 Die Stacheldornen stecken in deinem Körper.
 %%%%
 # duplicate
-#msgid "You are encased in ice."
-#msgstr "Du bist in Eis gehüllt."
+#"You are encased in ice."
+#"Du bist in Eis gehüllt."
 %%%%
 The acid splashes onto %s!
 Die Säure spritzt auf%s!
@@ -969,8 +969,8 @@ Das %s trifft etwas.
 %s wird%s zerstreut
 %%%%
 #duplicate
-#msgid "%s writhes in agony%s"
-#msgstr "%s krümmt sich in Qual%s"
+#"%s writhes in agony%s"
+#"%s krümmt sich in Qual%s"
 %%%%
 %s is blasted%s
 %s ist gesprengt%s
@@ -1014,11 +1014,11 @@ Something's singing becomes strangely muted.
 Etwas singt wird seltsam gedämpft.
 %%%%
 # duplicate
-#msgid "%s's is no longer quite as mesmerising!"
-#msgstr "%s ist nicht mehr ganz so faszinierend!"
+#"%s's is no longer quite as mesmerising!"
+#"%s ist nicht mehr ganz so faszinierend!"
 # duplicate
-#msgid "Your mesmeriser suddenly seems less interesting!"
-#msgstr "Dein Mesmeriser scheint plötzlich weniger interessant!"
+#"Your mesmeriser suddenly seems less interesting!"
+#"Dein Mesmeriser scheint plötzlich weniger interessant!"
 %%%%
 You can no longer hear %s's singing!
 Du kannst%s nicht mehr singen hören!
@@ -1176,8 +1176,8 @@ The hog vanishes!
 Das Schwein verschwindet!
 %%%%
 # duplicate
-#msgid "%s appears from out of thin air!"
-#msgstr "%s erscheint aus der Luft!"
+#"%s appears from out of thin air!"
+#"%s erscheint aus der Luft!"
 ##################
 # database.cc
 ##################
@@ -1338,8 +1338,8 @@ You %s a card...
 Du %s eine Karte...
 %%%%
 # duplicate
-#msgid "That deck is empty!"
-#msgstr "Das Deck ist leer!"
+#"That deck is empty!"
+#"Das Deck ist leer!"
 %%%%
 You are out of cards!
 Du hast keine Karten mehr!
@@ -1396,8 +1396,8 @@ You feel rather smug.
 Du fühlst dich ziemlich selbstgefällig.
 %%%%
 # duplicate
-#msgid "You feel a momentary urge to oink."
-#msgstr "Du fühlst einen momentanen Drang zu zwinkern."
+#"You feel a momentary urge to oink."
+#"Du fühlst einen momentanen Drang zu zwinkern."
 %%%%
 You have %s a buggy card!
 Du hast%s eine Buggy-Karte!
@@ -1498,8 +1498,8 @@ Now alive.
 Jetzt lebt.
 %%%%
 # duplicate
-#msgid "Lua error: %s"
-#msgstr "Lua Fehler:%s"
+#"Lua error: %s"
+#"Lua Fehler:%s"
 %%%%
 You sense a monster nearby.
 Du spürst ein Monster in der Nähe.
@@ -1622,11 +1622,11 @@ No monsters, items or features are visible.
 Es sind keine Monster, Gegenstände oder Features sichtbar.
 %%%%
 # duplicate
-#msgid "There's something in the way."
-#msgstr "Da ist etwas im Weg."
+#"There's something in the way."
+#"Da ist etwas im Weg."
 # duplicate
-#msgid "You can't see that place."
-#msgstr "Du kannst diesen Ort nicht sehen."
+#"You can't see that place."
+#"Du kannst diesen Ort nicht sehen."
 %%%%
 That would be overly suicidal.
 Das wäre übermäßig selbstmörderisch.
@@ -1677,8 +1677,8 @@ Reduced exclusion size to a single square.
 Ausschlussgröße auf ein einzelnes Quadrat reduziert.
 %%%%
 # duplicate
-#msgid "You can't see that place."
-#msgstr "Du kannst diesen Ort nicht sehen."
+#"You can't see that place."
+#"Du kannst diesen Ort nicht sehen."
 %%%%
 [%s]
 [%s]
@@ -1699,8 +1699,8 @@ You see %s here.
 Du siehst%s hier.
 %%%%
 # duplicate
-#msgid "There is something else lying underneath."
-#msgstr "Da liegt noch etwas darunter."
+#"There is something else lying underneath."
+#"Da liegt noch etwas darunter."
 %%%%
 You.
 Du.
@@ -1897,8 +1897,8 @@ You channel some magical energy.
 Du kanalisierst magische Energie.
 %%%%
 # duplicate
-#msgid "You cannot evoke magical items."
-#msgstr "Du kannst keine magischen Gegenstände hervorrufen."
+#"You cannot evoke magical items."
+#"Du kannst keine magischen Gegenstände hervorrufen."
 %%%%
 That is presently inert.
 Das ist momentan träge.
@@ -2045,8 +2045,8 @@ Ebenenanmerkung: %s
 %s beruhigt sich.
 %%%%
 # duplicate
-#msgid "Char dump unsuccessful! Sorry about that."
-#msgstr "Char Dump erfolglos! Tut mir leid."
+#"Char dump unsuccessful! Sorry about that."
+#"Char Dump erfolglos! Tut mir leid."
 %%%%
 Bones file exists but can't be opened: %s
 Bones-Datei existiert, kann aber nicht geöffnet werden: %s
@@ -2127,8 +2127,8 @@ Eine bösartige Aura umgibt%s.
 # food.cc
 ##################
 # duplicate
-#msgid "You can't eat."
-#msgstr "Du kannst nicht essen."
+#"You can't eat."
+#"Du kannst nicht essen."
 %%%%
 You're too full to eat anything.
 Du bist zu voll, um etwas zu essen.
@@ -2519,17 +2519,17 @@ You slip free of the water engulfing you.
 Du rutschst frei von dem Wasser, das dich verschlingt.
 %%%%
 # duplicate
-#msgid "You retract your mandibles."
-#msgstr "Du ziehst deine Mandibeln zurück."
+#"You retract your mandibles."
+#"Du ziehst deine Mandibeln zurück."
 # duplicate
-#msgid "There is nothing to wall jump against here."
-#msgstr "Hier gibt es nichts, gegen das die Wand springen könnte."
+#"There is nothing to wall jump against here."
+#"Hier gibt es nichts, gegen das die Wand springen könnte."
 # duplicate
-#msgid "You are too terrified to wall jump!"
-#msgstr "Du hast zu viel Angst, um an die Wand zu springen!"
+#"You are too terrified to wall jump!"
+#"Du hast zu viel Angst, um an die Wand zu springen!"
 # duplicate
-#msgid "You cannot wall jump while caught in a %s."
-#msgstr "Du kannst nicht an der Wand springen, während du in %s gefangen bist."
+#"You cannot wall jump while caught in a %s."
+#"Du kannst nicht an der Wand springen, während du in %s gefangen bist."
 %%%%
 Cancelling wall jump due to HUP.
 Wandsprung wegen HUP abbrechen.
@@ -2678,8 +2678,8 @@ Invalid glyph override: %X
 Ungültige Glyphenüberschreibung:%X
 %%%%
 # duplicate
-#msgid "Lua error: %s"
-#msgstr "Lua Fehler:%s"
+#"Lua error: %s"
+#"Lua Fehler:%s"
 %%%%
 Bad bindkey bracketing in '%s'
 Schlechte Bindkey-Belichtungsreihe in '%s'
@@ -2875,8 +2875,8 @@ This weapon is holy and will not allow you to wield it.
 Diese Waffe ist heilig und wird dir nicht erlauben, sie zu benutzen.
 %%%%
 # duplicate
-#msgid "You can't carry that many items."
-#msgstr "Du kannst nicht so viele Gegenstände tragen."
+#"You can't carry that many items."
+#"Du kannst nicht so viele Gegenstände tragen."
 %%%%
 You are already wielding that!
 Das machst du schon!
@@ -2963,8 +2963,8 @@ You can't wear anything in your present form.
 Du kannst nichts in deiner gegenwärtigen Form tragen.
 %%%%
 # duplicate
-#msgid "You don't have any such object."
-#msgstr "Du hast kein solches Objekt."
+#"You don't have any such object."
+#"Du hast kein solches Objekt."
 %%%%
 You are wielding that object!
 Du schwingst dieses Objekt!
@@ -2985,8 +2985,8 @@ Du trägst das Objekt nicht!
 %s klebt an deinem Körper!
 %%%%
 # duplicate
-#msgid "You aren't wearing that!"
-#msgstr "Das trägst du nicht!"
+#"You aren't wearing that!"
+#"Das trägst du nicht!"
 %%%%
 (<w>?</w> for menu, <w>Esc</w> to cancel)
 (<w>?</w> für Menü, <w>Esc</w> zum Abbrechen)
@@ -3004,14 +3004,14 @@ You can only put on jewellery.
 Du kannst nur Schmuck anziehen.
 %%%%
 # duplicate
-#msgid "%s is stuck to you!"
-#msgstr "%s klebt an dir!"
+#"%s is stuck to you!"
+#"%s klebt an dir!"
 # duplicate
-#msgid "You're already wearing %d cursed ring%s!%s"
-#msgstr "Du trägst schon%d verfluchten Ring%s!%s"
+#"You're already wearing %d cursed ring%s!%s"
+#"Du trägst schon%d verfluchten Ring%s!%s"
 # duplicate
-#msgid "You don't have any such object."
-#msgstr "Du hast kein solches Objekt."
+#"You don't have any such object."
+#"Du hast kein solches Objekt."
 %%%%
 You aren't wearing any unmelded rings or amulets.
 Du trägst keine ungeschmolzenen Ringe oder Amulette.
@@ -3035,8 +3035,8 @@ The amulet cannot be taken off without first removing the ring!
 Das Amulett kann nicht abgenommen werden, ohne vorher den Ring zu entfernen!
 %%%%
 # duplicate
-#msgid "%s is stuck to you!"
-#msgstr "%s klebt an dir!"
+#"%s is stuck to you!"
+#"%s klebt an dir!"
 %%%%
 It's stuck to you!
 Es hängt an dir!
@@ -3144,8 +3144,8 @@ You assume a fearsome visage.
 Du nimmst ein furchterregendes Gesicht an.
 %%%%
 # duplicate
-#msgid "The air is too still for clouds to form."
-#msgstr "Die Luft ist zu still, als dass sich Wolken bilden könnten."
+#"The air is too still for clouds to form."
+#"Die Luft ist zu still, als dass sich Wolken bilden könnten."
 %%%%
 The scroll dissolves into smoke.
 Die Schriftrolle löst sich in Rauch auf.
@@ -3175,8 +3175,8 @@ It is a scroll of enchant armour.
 Es ist eine Schriftrolle mit verzauberter Rüstung.
 %%%%
 # duplicate
-#msgid "This item has been removed, sorry!"
-#msgstr "Dieser Artikel wurde entfernt, sorry!"
+#"This item has been removed, sorry!"
+#"Dieser Artikel wurde entfernt, sorry!"
 %%%%
 It is a scroll of amnesia.
 Es ist eine Schriftrolle der Amnesie.
@@ -3191,8 +3191,8 @@ It %s a %s.
 Es %s ein %s.
 %%%%
 # duplicate
-#msgid "You can't pick that up."
-#msgstr "Das kannst du nicht aufheben."
+#"You can't pick that up."
+#"Das kannst du nicht aufheben."
 %%%%
 You can't wear or remove anything in your present form.
 Du kannst nichts in deiner gegenwärtigen Form tragen oder entfernen.
@@ -3210,8 +3210,8 @@ call_dlua: kann noch keine Nicht-Skalare übergeben (TODO)
 # l-dgn.cc
 ##################
 # duplicate
-#msgid "Lua error: %s"
-#msgstr "Lua Fehler:%s"
+#"Lua error: %s"
+#"Lua Fehler:%s"
 ##################
 # l-dgnmon.cc
 ##################
@@ -3245,8 +3245,8 @@ Gegenstand ist nicht ausgerüstet
 "Beschreibe %s? "
 %%%%
 # duplicate
-#msgid "Okay, then."
-#msgstr "Alles klar."
+#"Okay, then."
+#"Alles klar."
 ##################
 # luaterp.cc
 ##################
@@ -3258,8 +3258,8 @@ error calling __echo (%s)
 Fehler beim Aufrufen von __echo (%s)
 %%%%
 # duplicate
-#msgid "Lua error: %s"
-#msgstr "Lua Fehler:%s"
+#"Lua error: %s"
+#"Lua Fehler:%s"
 ##################
 # l-you.cc
 ##################
@@ -3275,8 +3275,8 @@ Kann nicht zu ungültigem xl%d geändert werden
 # macro.cc
 ##################
 # duplicate
-#msgid "Couldn't open %s for writing!"
-#msgstr "%s konnte nicht zum Schreiben geöffnet werden!"
+#"Couldn't open %s for writing!"
+#"%s konnte nicht zum Schreiben geöffnet werden!"
 %%%%
 (Key replay ran out of keys)
 (Die Schlüsselwiedergabe hat keine Schlüssel mehr)
@@ -3368,8 +3368,8 @@ Infinite lua loop detected, aborting.
 Endlose Lua-Schleife erkannt, abgebrochen.
 %%%%
 # duplicate
-#msgid "Lua error: %s"
-#msgstr "Lua Fehler:%s"
+#"Lua error: %s"
+#"Lua Fehler:%s"
 %%%%
 You can't repeat %s actions.
 Du kannst%s Aktionen nicht wiederholen.
@@ -3378,8 +3378,8 @@ You can't do that while %s.
 Das kannst du nicht machen, solange%s.
 %%%%
 # duplicate
-#msgid "You cannot move away from %s!"
-#msgstr "Du kannst dich nicht von%s entfernen!"
+#"You cannot move away from %s!"
+#"Du kannst dich nicht von%s entfernen!"
 %%%%
 There is nothing on the other side of the stone arch.
 Auf der anderen Seite des Steinbogens ist nichts.
@@ -3433,8 +3433,8 @@ You can't remove your fur, sorry.
 Du kannst dein Fell nicht entfernen, sorry.
 %%%%
 # duplicate
-#msgid "You can't wear or remove anything in your present form."
-#msgstr "Du kannst nichts in deiner gegenwärtigen Form tragen oder entfernen."
+#"You can't wear or remove anything in your present form."
+#"Du kannst nichts in deiner gegenwärtigen Form tragen oder entfernen."
 %%%%
 You pace your travel speed to your slowest ally.
 Du beschleunigst deine Reisegeschwindigkeit zu deinem langsamsten Verbündeten.
@@ -3473,8 +3473,8 @@ You should not fight recklessly!
 Du solltest nicht rücksichtslos kämpfen!
 %%%%
 # duplicate
-#msgid "Lua error: %s"
-#msgstr "Lua Fehler:%s"
+#"Lua error: %s"
+#"Lua Fehler:%s"
 %%%%
 Autopickup is now %s.
 Autopickup ist jetzt %s.
@@ -3483,15 +3483,15 @@ Sound effects are now %s.
 Soundeffekte sind jetzt %s.
 %%%%
 # duplicate
-#msgid "Char dump unsuccessful! Sorry about that."
-#msgstr "Char Dump erfolglos! Tut mir leid."
+#"Char dump unsuccessful! Sorry about that."
+#"Char Dump erfolglos! Tut mir leid."
 %%%%
 Saving game... please wait.
 Spiel speichern ... bitte warten.
 %%%%
 # causes error
-#msgid "Unknown command. (For a list of commands type <w>?\?</w>.)"
-#msgstr "Unbekannter Befehl. (Für eine Liste von Befehlen, drücke <w>?\?</w>.)"
+#"Unknown command. (For a list of commands type <w>?\?</w>.)"
+#"Unbekannter Befehl. (Für eine Liste von Befehlen, drücke <w>?\?</w>.)"
 %%%%
 Unknown command.
 Unbekannter Befehl.
@@ -3591,8 +3591,8 @@ Lua error running hook '%s' on map '%s': %s
 Lua-Fehler beim Ausführen des Hooks '%s' auf der Karte '%s':%s
 %%%%
 # duplicate
-#msgid "Lua error: %s"
-#msgstr "Lua Fehler:%s"
+#"Lua error: %s"
+#"Lua Fehler:%s"
 ##################
 # map-knowledge.cc
 ##################
@@ -3637,8 +3637,8 @@ Fehler der Lua-Markereigenschaft (%s):%s
 # maps.cc
 ##################
 # duplicate
-#msgid "Lua error: %s"
-#msgstr "Lua Fehler:%s"
+#"Lua error: %s"
+#"Lua Fehler:%s"
 %%%%
 Error: %s
 Fehler:%s
@@ -4914,8 +4914,8 @@ You hear a zap.
 Du hörst einen Zap.
 %%%%
 # duplicate
-#msgid "The now-empty wand crumbles to dust."
-#msgstr "Der jetzt leere Zauberstab zerfällt zu Staub."
+#"The now-empty wand crumbles to dust."
+#"Der jetzt leere Zauberstab zerfällt zu Staub."
 %%%%
 You redirect %s's attack!
 Du lenkst den Angriff von%s um!
@@ -4927,8 +4927,8 @@ You hear a loud crackle.
 Du hörst ein lautes Knistern.
 %%%%
 # duplicate
-#msgid "You redirect %s's attack!"
-#msgstr "Du lenkst den Angriff von%s um!"
+#"You redirect %s's attack!"
+#"Du lenkst den Angriff von%s um!"
 %%%%
 Something you can't see is thrashing in a web.
 Etwas, das du nicht sehen kannst, schlägt in einem Netz um sich.
@@ -4964,8 +4964,8 @@ Something unseen %s
 Etwas Unsichtbares %s
 %%%%
 # duplicate
-#msgid "You hear a%s slurping noise."
-#msgstr "Du hörst ein schlürfendes Geräusch."
+#"You hear a%s slurping noise."
+#"Du hörst ein schlürfendes Geräusch."
 %%%%
 The door bursts into shrapnel!
 Die Tür platzt in Splitter!
@@ -5053,8 +5053,8 @@ Dornige Briars tauchen aus dem Boden auf!
 %s animierende Energie bricht in gespenstisches Feuer aus!
 %%%%
 # duplicate
-#msgid "You redirect %s's attack!"
-#msgstr "Du lenkst den Angriff von %s um!"
+#"You redirect %s's attack!"
+#"Du lenkst den Angriff von %s um!"
 %%%%
 Zin's power protects your fellow warrior from evil magic!
 Zins Macht schützt deinen Mitkrieger vor böser Magie!
@@ -5072,8 +5072,8 @@ Unheilige Energie erfüllt die Luft.
 %s zieht dich weiter in%s Thrall.
 %%%%
 # duplicate
-#msgid "You%s"
-#msgstr "Du%s"
+#"You%s"
+#"Du%s"
 %%%%
 An aura of fear fills the air!
 Eine Aura der Angst erfüllt die Luft!
@@ -5148,11 +5148,11 @@ Some walls %s!
 Einige Wände%s!
 %%%%
 # duplicate
-#msgid "You hear %s."
-#msgstr "Du hörst%s."
+#"You hear %s."
+#"Du hörst%s."
 # duplicate
-#msgid "You%s"
-#msgstr "Du%s"
+#"You%s"
+#"Du%s"
 ##################
 # mon-clone.cc
 ##################
@@ -5170,8 +5170,8 @@ There is a horrible, sudden wrenching feeling in your soul!
 Es gibt ein schreckliches, plötzliches Gefühl in deiner Seele!
 %%%%
 # duplicate
-#msgid "You see a puff of smoke."
-#msgstr "Du siehst eine Rauchwolke."
+#"You see a puff of smoke."
+#"Du siehst eine Rauchwolke."
 ##################
 # mon-death.cc
 ##################
@@ -5198,8 +5198,8 @@ Ein %s Nebel sammelt sich für einen Moment und verblasst dann.
 "Mit seinem letzten Atemzug bietet %s seine Kraft "
 %%%%
 # duplicate
-#msgid "%s %s healed."
-#msgstr "%s%s geheilt."
+#"%s %s healed."
+#"%s%s geheilt."
 %%%%
 %s turns into a zombie!
 %s verwandelt sich in einen Zombie!
@@ -5323,8 +5323,8 @@ Der Zug seines Liedes zieht dich nach vorne.
 Etwas hindert dich daran, Plätze zu tauschen
 %%%%
 # duplicate
-#msgid "You swap places with %s."
-#msgstr "Du tauschst Plätze mit%s."
+#"You swap places with %s."
+#"Du tauschst Plätze mit%s."
 %%%%
 The shadowy forms in the deep grow still as others approach.
 Die Schattenformen in der Tiefe wachsen immer noch, wenn sich andere nähern.
@@ -5407,8 +5407,8 @@ Need to erase %d of %d waypoints.
 %d von %d Wegpunkten müssen gelöscht werden.
 %%%%
 # duplicate
-#msgid "Next waypoint: (%d, %d)"
-#msgstr "Nächster Wegpunkt: (%d,%d)"
+#"Next waypoint: (%d, %d)"
+#"Nächster Wegpunkt: (%d,%d)"
 %%%%
 Monster %s (pp: %d, %d) is now patrolling to (%d, %d)
 Monster %s (pp:%d,%d) patrouilliert jetzt zu (%d,%d)
@@ -5487,14 +5487,14 @@ Warnung: Monster '%s' ist noch nicht vollständig codiert.
 %s%s wütend auf eine fehlerhafte Sache über dich!
 %%%%
 # duplicate
-#msgid "You see a puff of smoke."
-#msgstr "Du siehst eine Rauchwolke."
+#"You see a puff of smoke."
+#"Du siehst eine Rauchwolke."
 ##################
 # mon-poly.cc
 ##################
 # duplicate
-#msgid "%s appears out of thin air!"
-#msgstr "%s erscheint aus der Luft!"
+#"%s appears out of thin air!"
+#"%s erscheint aus der Luft!"
 ##################
 # mon-project.cc
 ##################
@@ -5547,8 +5547,8 @@ It softly glows with a divine radiance!
 Es leuchtet sanft mit einer göttlichen Ausstrahlung!
 %%%%
 # duplicate
-#msgid "You hear the crackle of electricity."
-#msgstr "Du hörst das Knistern der Elektrizität."
+#"You hear the crackle of electricity."
+#"Du hörst das Knistern der Elektrizität."
 %%%%
 It begins to drip with poison!
 Es beginnt vor Gift zu tropfen!
@@ -5584,8 +5584,8 @@ It stops dripping with poison.
 Es hört auf, von Gift zu tropfen.
 %%%%
 # duplicate
-#msgid "Its appearance distorts for a moment."
-#msgstr "Sein Aussehen verzerrt für einen Moment."
+#"Its appearance distorts for a moment."
+#"Sein Aussehen verzerrt für einen Moment."
 %%%%
 %s picks up %s.
 %s nimmt %s auf.
@@ -5606,8 +5606,8 @@ Die Hitze schmilzt%s eisige Rüstung.
 %s ist entleert!
 %%%%
 # duplicate
-#msgid "%s looks less resilient!"
-#msgstr "%s sieht weniger belastbar aus!"
+#"%s looks less resilient!"
+#"%s sieht weniger belastbar aus!"
 %%%%
 %s corrodes %s!
 %s korrodiert%s!
@@ -5775,8 +5775,8 @@ You can't dig through that.
 Das kannst du nicht durchgraben.
 %%%%
 # duplicate
-#msgid "You retract your mandibles."
-#msgstr "Du ziehst deine Mandibeln zurück."
+#"You retract your mandibles."
+#"Du ziehst deine Mandibeln zurück."
 %%%%
 You're too terrified to move while being watched!
 Du bist zu verängstigt, um dich zu bewegen, während du beobachtet wirst!
@@ -5785,8 +5785,8 @@ You nearly stumble into %s!
 Du stolperst fast in%s!
 %%%%
 # duplicate
-#msgid "You slip free of the water engulfing you."
-#msgstr "Du rutschst frei von dem Wasser, das dich verschlingt."
+#"You slip free of the water engulfing you."
+#"Du rutschst frei von dem Wasser, das dich verschlingt."
 %%%%
 You dig through %s.
 Du gräbst durch%s.
@@ -5801,11 +5801,11 @@ You cannot walk through the dense trees.
 Du kannst nicht durch die dichten Bäume gehen.
 %%%%
 # duplicate
-#msgid "You cannot move away from %s!"
-#msgstr "Du kannst dich nicht von%s entfernen!"
+#"You cannot move away from %s!"
+#"Du kannst dich nicht von%s entfernen!"
 # duplicate
-#msgid "You cannot move closer to %s!"
-#msgstr "Du kannst nicht näher an%s heranrücken!"
+#"You cannot move closer to %s!"
+#"Du kannst nicht näher an%s heranrücken!"
 ##################
 # mutation.cc
 ##################
@@ -5982,8 +5982,8 @@ That's too large for you to wield.
 Das ist zu groß für dich.
 %%%%
 # duplicate
-#msgid "This weapon is holy and will not allow you to wield it."
-#msgstr "Diese Waffe ist heilig und wird dir nicht erlauben, sie zu benutzen."
+#"This weapon is holy and will not allow you to wield it."
+#"Diese Waffe ist heilig und wird dir nicht erlauben, sie zu benutzen."
 %%%%
 Your unstable footing causes you to fumble your attack.
 Dein instabiler Stand lässt dich deinen Angriff fummeln.
@@ -6117,8 +6117,8 @@ You are %sconfused.
 Du bist %sconfused.
 %%%%
 # duplicate
-#msgid "Your divine stamina protects you from poison!"
-#msgstr "Deine göttliche Ausdauer schützt dich vor Gift!"
+#"Your divine stamina protects you from poison!"
+#"Deine göttliche Ausdauer schützt dich vor Gift!"
 %%%%
 You are lethally poisoned!
 Du bist tödlich vergiftet!
@@ -6139,8 +6139,8 @@ You are covered in liquid flames!
 Du bist in flüssigen Flammen bedeckt!
 %%%%
 # duplicate
-#msgid "The flames go out!"
-#msgstr "Die Flammen gehen aus!"
+#"The flames go out!"
+#"Die Flammen gehen aus!"
 %%%%
 You dip into the water, and the flames go out!
 Du tauchst ins Wasser und die Flammen gehen aus!
@@ -6176,8 +6176,8 @@ Your extra speed is starting to run out.
 Deine zusätzliche Geschwindigkeit geht langsam zur Neige.
 %%%%
 # duplicate
-#msgid "You feel yourself slow down."
-#msgstr "Du fühlst dich langsamer."
+#"You feel yourself slow down."
+#"Du fühlst dich langsamer."
 %%%%
 You feel your health improve.
 Du fühlst, wie sich deine Gesundheit verbessert.
@@ -6228,8 +6228,8 @@ Your divine stamina protects you from decay!
 Deine göttliche Ausdauer schützt dich vor dem Verfall!
 %%%%
 # duplicate
-#msgid "You feel your flesh rotting away!"
-#msgstr "Du fühlst, wie dein Fleisch verrottet!"
+#"You feel your flesh rotting away!"
+#"Du fühlst, wie dein Fleisch verrottet!"
 %%%%
 You are splashed with acid%s%s
 Du bist mit Säure%s%s bespritzt
@@ -6435,8 +6435,8 @@ Du siehst Funken fliegen.
 %s summt vor Potenzial!
 %%%%
 # duplicate
-#msgid "You sense an unholy aura."
-#msgstr "Du spürst eine unheilige Aura."
+#"You sense an unholy aura."
+#"Du spürst eine unheilige Aura."
 %%%%
 tingle
 kribbeln
@@ -6547,8 +6547,8 @@ Zieh deine %s aus, um nicht mehr zu fliegen.
 (Verwende das Fähigkeitsmenü <w>%s</w>, um %s zu fliegen)
 %%%%
 # duplicate
-#msgid "You feel resistant to hostile enchantments."
-#msgstr "Du fühlst dich resistent gegen feindliche Verzauberungen."
+#"You feel resistant to hostile enchantments."
+#"Du fühlst dich resistent gegen feindliche Verzauberungen."
 %%%%
 You feel protected.
 Du fühlst dich beschützt.
@@ -6596,8 +6596,8 @@ That put a bit of spring back into your step.
 Das hat ein bisschen Frühling in deinen Schritt zurückgebracht.
 %%%%
 # duplicate
-#msgid "You feel less resistant to hostile enchantments."
-#msgstr "Du fühlst dich weniger widerstandsfähig gegen feindliche Verzauberungen."
+#"You feel less resistant to hostile enchantments."
+#"Du fühlst dich weniger widerstandsfähig gegen feindliche Verzauberungen."
 %%%%
 You feel less protected.
 Du fühlst dich weniger beschützt.
@@ -6657,8 +6657,8 @@ You feel a shielding aura gather around you.
 Du fühlst, wie sich eine schützende Aura um dich sammelt.
 %%%%
 # duplicate
-#msgid "Your injuries prevent the amulet from attuning itself."
-#msgstr "Deine Verletzungen verhindern, dass sich das Amulett abstimmt."
+#"Your injuries prevent the amulet from attuning itself."
+#"Deine Verletzungen verhindern, dass sich das Amulett abstimmt."
 %%%%
 You feel more attuned to fire.
 Du fühlst dich mehr auf Feuer eingestellt.
@@ -6682,8 +6682,8 @@ Oops, that %s feels deathly cold.
 Ups, das%s fühlt sich tödlich kalt an.
 %%%%
 # duplicate
-#msgid "Your magic begins regenerating once more."
-#msgstr "Deine Magie beginnt sich wieder zu regenerieren."
+#"Your magic begins regenerating once more."
+#"Deine Magie beginnt sich wieder zu regenerieren."
 %%%%
 Space warps into you!
 Der Weltraum verzieht sich in dich!
@@ -6736,8 +6736,8 @@ Your %s has recovered.
 Deine%s haben sich erholt.
 %%%%
 # duplicate
-#msgid "You feel yourself speed up."
-#msgstr "Du fühlst dich schneller."
+#"You feel yourself speed up."
+#"Du fühlst dich schneller."
 %%%%
 The divine light dispels your darkness!
 Das göttliche Licht zerstreut deine Dunkelheit!
@@ -6746,8 +6746,8 @@ You feel your flesh rotting away.
 Du fühlst, wie dein Fleisch verrottet.
 %%%%
 # duplicate
-#msgid "You float gracefully downwards."
-#msgstr "Du schwebst anmutig nach unten."
+#"You float gracefully downwards."
+#"Du schwebst anmutig nach unten."
 %%%%
 "Your amulet attunes itself to your body. You feel like doing "
 Dein Amulett stimmt sich auf deinen Körper ein. Du hast Lust zu tun
@@ -6769,8 +6769,8 @@ Die Stille lässt dein Lied enden.
 # player-stats.cc
 ##################
 # duplicate
-#msgid "Your base attributes are Str %d, Int %d, Dex %d."
-#msgstr "Deine Basisattribute sind Str%d, Int%d, Dex%d."
+#"Your base attributes are Str %d, Int %d, Dex %d."
+#"Deine Basisattribute sind Str%d, Int%d, Dex%d."
 %%%%
 Uppercase letters only, please.
 Bitte nur Großbuchstaben.
@@ -6782,8 +6782,8 @@ Your divine stamina protects you from %s loss.
 Deine göttliche Ausdauer schützt dich vor dem Verlust von %s.
 %%%%
 # duplicate
-#msgid "You feel %s."
-#msgstr "Du fühlst%s."
+#"You feel %s."
+#"Du fühlst%s."
 %%%%
 You have lost your %s.
 Du hast deine%s verloren.
@@ -6800,8 +6800,8 @@ That felt strangely inert.
 Das fühlte sich seltsam träge an.
 %%%%
 # duplicate
-#msgid "You feel queasy."
-#msgstr "Du fühlst dich mulmig."
+#"You feel queasy."
+#"Du fühlst dich mulmig."
 %%%%
 That seemed strangely inert.
 Das schien seltsam träge.
@@ -6843,8 +6843,8 @@ You feel slightly irritated.
 Du fühlst dich leicht irritiert.
 %%%%
 # duplicate
-#msgid "You feel protected."
-#msgstr "Du fühlst dich beschützt."
+#"You feel protected."
+#"Du fühlst dich beschützt."
 %%%%
 You feel woody for a moment.
 Du fühlst dich für einen Moment holzig.
@@ -6905,8 +6905,8 @@ Quivering %s for %s.
 %s für%s zittern.
 %%%%
 # duplicate
-#msgid "You can't grasp things well enough to throw them."
-#msgstr "Du kannst die Dinge nicht gut genug erfassen, um sie zu werfen."
+#"You can't grasp things well enough to throw them."
+#"Du kannst die Dinge nicht gut genug erfassen, um sie zu werfen."
 %%%%
 Reset %s quiver to default.
 %s Köcher auf Standard zurücksetzen.
@@ -6981,11 +6981,11 @@ The storm surrounding you dissipates.
 Der Sturm, der dich umgibt, löst sich auf.
 %%%%
 # duplicate
-#msgid "Your resistance to fire fades away."
-#msgstr "Dein Widerstand gegen Feuer schwindet."
+#"Your resistance to fire fades away."
+#"Dein Widerstand gegen Feuer schwindet."
 # duplicate
-#msgid "Your resistance to cold fades away."
-#msgstr "Dein Widerstand gegen Kälte lässt nach."
+#"Your resistance to cold fades away."
+#"Dein Widerstand gegen Kälte lässt nach."
 %%%%
 You now have %s.
 Du hast jetzt%s.
@@ -7015,11 +7015,11 @@ You have lost your religion!
 Du hast deine Religion verloren!
 %%%%
 # duplicate
-#msgid "Your divine halo fades away."
-#msgstr "Dein göttlicher Heiligenschein verschwindet."
+#"Your divine halo fades away."
+#"Dein göttlicher Heiligenschein verschwindet."
 # duplicate
-#msgid "Your aura of darkness fades away."
-#msgstr "Deine Aura der Dunkelheit verschwindet."
+#"Your aura of darkness fades away."
+#"Deine Aura der Dunkelheit verschwindet."
 %%%%
 You sense decay.
 Du spürst den Verfall.
@@ -7043,11 +7043,11 @@ Your storm instantly dissipates.
 Dein Sturm löst sich sofort auf.
 %%%%
 # duplicate
-#msgid "Your resistance to fire fades away."
-#msgstr "Dein Widerstand gegen Feuer schwindet."
+#"Your resistance to fire fades away."
+#"Dein Widerstand gegen Feuer schwindet."
 # duplicate
-#msgid "Your resistance to cold fades away."
-#msgstr "Dein Widerstand gegen Kälte lässt nach."
+#"Your resistance to cold fades away."
+#"Dein Widerstand gegen Kälte lässt nach."
 %%%%
 Your amulet flashes!
 Dein Amulett blinkt!
@@ -7309,8 +7309,8 @@ Casting: <w>%s</w> <lightgrey>(%s)</lightgrey>
 "Bestätigen mit . oder Enter, oder drücke "
 %%%%
 # duplicate
-#msgid "You don't know that spell."
-#msgstr "Du kennst diesen Zauber nicht."
+#"You don't know that spell."
+#"Du kennst diesen Zauber nicht."
 %%%%
 You don't have enough magic to cast that spell.
 Du hast nicht genug Magie, um diesen Zauber zu wirken.
@@ -7349,8 +7349,8 @@ Invalid spell!
 Ungültiger Zauber!
 %%%%
 # duplicate
-#msgid "Sorry, this spell is gone!"
-#msgstr "Entschuldigung, dieser Zauber ist weg!"
+#"Sorry, this spell is gone!"
+#"Entschuldigung, dieser Zauber ist weg!"
 ##################
 # spl-clouds.cc
 ##################
@@ -7362,8 +7362,8 @@ The fire blazes with new energy!
 Das Feuer lodert mit neuer Energie!
 %%%%
 # duplicate
-#msgid "The fire ignites!"
-#msgstr "Das Feuer entzündet sich!"
+#"The fire ignites!"
+#"Das Feuer entzündet sich!"
 %%%%
 The fire begins to smolder!
 Das Feuer beginnt zu schwelen!
@@ -7406,8 +7406,8 @@ Die Luft ist zu still, um Wolken zu bilden.
 # spl-damage.cc
 ##################
 # duplicate
-#msgid "That is beyond the maximum range."
-#msgstr "Das ist jenseits der maximalen Reichweite."
+#"That is beyond the maximum range."
+#"Das ist jenseits der maximalen Reichweite."
 %%%%
 You can't place the storm on %s.
 Du kannst den Sturm nicht auf %s setzen.
@@ -7443,8 +7443,8 @@ You freeze %s%s%s
 Du frierst%s%s%s ein
 %%%%
 # duplicate
-#msgid "The air twists around and %sstrikes %s%s%s"
-#msgstr "Die Luft dreht sich und%s schlägt%s%s%s"
+#"The air twists around and %sstrikes %s%s%s"
+#"Die Luft dreht sich und%s schlägt%s%s%s"
 %%%%
 A door shatters!
 Eine Tür zerbricht!
@@ -7459,8 +7459,8 @@ The dungeon rumbles!
 Der Kerker rumpelt!
 %%%%
 # duplicate
-#msgid "Ka-crash!"
-#msgstr "Ka-Crash!"
+#"Ka-crash!"
+#"Ka-Crash!"
 %%%%
 You shudder from the earth-shattering force%s
 Du schauderst vor der erderschütternden Kraft%s
@@ -7493,8 +7493,8 @@ The poison in your system burns!
 Das Gift in deinem System brennt!
 %%%%
 # duplicate
-#msgid "You are no longer poisoned."
-#msgstr "Du bist nicht länger vergiftet."
+#"You are no longer poisoned."
+#"Du bist nicht länger vergiftet."
 %%%%
 %s %s the poison in %s surroundings!
 %s%s das Gift in%s Umgebung!
@@ -7637,8 +7637,8 @@ Zin imprisons %s with walls of pure silver!
 Zin sperrt%s mit Wänden aus reinem Silber ein!
 %%%%
 # duplicate
-#msgid "Walls emerge from the floor!"
-#msgstr "Wände tauchen aus dem Boden auf!"
+#"Walls emerge from the floor!"
+#"Wände tauchen aus dem Boden auf!"
 %%%%
 You smite %s!
 Du schlägst%s!
@@ -7850,8 +7850,8 @@ A demon appears!
 Ein Dämon erscheint!
 %%%%
 # duplicate
-#msgid "You don't feel so good about this..."
-#msgstr "Du fühlst dich nicht so gut dabei ..."
+#"You don't feel so good about this..."
+#"Du fühlst dich nicht so gut dabei ..."
 %%%%
 You open a gate to Pandemonium!
 Du öffnest ein Tor zu Pandemonium!
@@ -7914,8 +7914,8 @@ An icy apparition appears!
 Eine eisige Erscheinung erscheint!
 %%%%
 # duplicate
-#msgid "%s %s into %s!"
-#msgstr "%s %s in %s!"
+#"%s %s into %s!"
+#"%s %s in %s!"
 %%%%
 %s %s to drag %s along the ground!
 %s%s, um%s über den Boden zu ziehen!
@@ -7981,11 +7981,11 @@ A prism of explosive energy appears from nowhere!
 Ein Prisma explosiver Energie erscheint aus dem Nichts!
 %%%%
 # duplicate
-#msgid "%s vibrate%s crazily for a second."
-#msgstr "%s vibrieren%s für eine Sekunde verrückt."
+#"%s vibrate%s crazily for a second."
+#"%s vibrieren%s für eine Sekunde verrückt."
 # duplicate
-#msgid "twitch"
-#msgstr "zucken"
+#"twitch"
+#"zucken"
 %%%%
 You draw out your weapon's spirit!
 Du ziehst den Geist deiner Waffe heraus!
@@ -8012,8 +8012,8 @@ Etwas Unsichtbares blockiert das Wachstum in%s.
 %s fällt auseinander, aber nichts wächst.
 %%%%
 # duplicate
-#msgid "That's too far away."
-#msgstr "Das ist zu weit weg."
+#"That's too far away."
+#"Das ist zu weit weg."
 %%%%
 You can't grow a ballistomycete there.
 Du kannst dort keinen Ballistomyceten züchten.
@@ -8028,15 +8028,15 @@ A ballistomycete grows from the ground.
 Ein Ballistomycet wächst aus dem Boden.
 %%%%
 # duplicate
-#msgid "That's too far away."
-#msgstr "Das ist zu weit weg."
+#"That's too far away."
+#"Das ist zu weit weg."
 %%%%
 You can't grow an oklob plant there.
 Du kannst dort keine Oklob-Pflanze anbauen.
 %%%%
 # duplicate
-#msgid "That space is already occupied."
-#msgstr "Dieser Raum ist bereits belegt."
+#"That space is already occupied."
+#"Dieser Raum ist bereits belegt."
 %%%%
 Something you can't see is occupying that space!
 Etwas, das du nicht sehen kannst, besetzt diesen Raum!
@@ -8106,11 +8106,11 @@ Oops! There was something there already!
 Ups! Da war schon etwas!
 %%%%
 # duplicate
-#msgid "The Orb prevents control of your translocation!"
-#msgstr "Die Kugel verhindert die Kontrolle über deine Translokation!"
+#"The Orb prevents control of your translocation!"
+#"Die Kugel verhindert die Kontrolle über deine Translokation!"
 # duplicate
-#msgid "You feel strangely stable."
-#msgstr "Du fühlst dich seltsam stabil."
+#"You feel strangely stable."
+#"Du fühlst dich seltsam stabil."
 %%%%
 You feel strangely unstable.
 Du fühlst dich seltsam instabil.
@@ -8176,8 +8176,8 @@ The air shimmers briefly around you.
 Die Luft schimmert kurz um dich herum.
 %%%%
 # duplicate
-#msgid "%s violently %s moving!"
-#msgstr "%s bewegt sich heftig %s!"
+#"%s violently %s moving!"
+#"%s bewegt sich heftig %s!"
 %%%%
 Gravity reorients around %s.
 Die Schwerkraft richtet sich um%s aus.
@@ -8249,18 +8249,18 @@ You %s %swards.
 Du %s %swards.
 %%%%
 # duplicate
-#msgid "There is nothing on the other side of the stone arch."
-#msgstr "Auf der anderen Seite des Steinbogens ist nichts."
+#"There is nothing on the other side of the stone arch."
+#"Auf der anderen Seite des Steinbogens ist nichts."
 %%%%
 This shop has been abandoned, nothing of value remains.
 Dieser Laden wurde aufgegeben, nichts von Wert bleibt übrig.
 %%%%
 # duplicate
-#msgid "You can't go up here!"
-#msgstr "Du kannst hier nicht hoch gehen!"
+#"You can't go up here!"
+#"Du kannst hier nicht hoch gehen!"
 # duplicate
-#msgid "You can't go down here!"
-#msgstr "Du kannst hier nicht runter gehen!"
+#"You can't go down here!"
+#"Du kannst hier nicht runter gehen!"
 %%%%
 In your confused state, you trip and fall %s%s.
 In deinem verwirrten Zustand stolperst du und fällst%s%s.
@@ -8348,8 +8348,8 @@ Fehler: kein Rückweg. Du hast erstellt
 # stash.cc
 ##################
 # duplicate
-#msgid "Lua error: %s"
-#msgstr "Lua Fehler:%s"
+#"Lua error: %s"
+#"Lua Fehler:%s"
 %%%%
 Your search expression is invalid.
 Dein Suchausdruck ist ungültig.
@@ -8430,8 +8430,8 @@ Which direction?
 Welche Richtung?
 %%%%
 # duplicate
-#msgid "Targeting interrupted by HUP signal."
-#msgstr "Targeting durch HUP-Signal unterbrochen."
+#"Targeting interrupted by HUP signal."
+#"Targeting durch HUP-Signal unterbrochen."
 ##################
 # terrain.cc
 ##################
@@ -8477,11 +8477,11 @@ Die Wand friert %s%s%s ein
 # throw.cc
 ##################
 # duplicate
-#msgid "There is %s there."
-#msgstr "Da sind %s."
+#"There is %s there."
+#"Da sind %s."
 # duplicate
-#msgid "You can't grasp things well enough to throw them."
-#msgstr "Du kannst die Dinge nicht gut genug erfassen, um sie zu werfen."
+#"You can't grasp things well enough to throw them."
+#"Du kannst die Dinge nicht gut genug erfassen, um sie zu werfen."
 %%%%
 You cannot throw anything while %s.
 Du kannst nichts werfen, solange%s.
@@ -8504,8 +8504,8 @@ Dieser Zauberstab ist leer.
 %s ist für diesen Zauber außerhalb der Reichweite.
 %%%%
 # duplicate
-#msgid "You don't have enough magic to cast that spell."
-#msgstr "Du hast nicht genug Magie, um diesen Zauber zu wirken."
+#"You don't have enough magic to cast that spell."
+#"Du hast nicht genug Magie, um diesen Zauber zu wirken."
 ##################
 # tilereg-skl.cc
 ##################
@@ -8604,15 +8604,15 @@ Your roots penetrate the ground.
 Deine Wurzeln dringen in den Boden ein.
 %%%%
 # duplicate
-#msgid "You feel strangely stable."
-#msgstr "Du fühlst dich seltsam stabil."
+#"You feel strangely stable."
+#"Du fühlst dich seltsam stabil."
 %%%%
 You shred the web into pieces!
 Du zerreißt das Netz in Stücke!
 %%%%
 # duplicate
-#msgid "The net rips apart!"
-#msgstr "Das Netz zerreißt!"
+#"The net rips apart!"
+#"Das Netz zerreißt!"
 %%%%
 You fade into the shadows.
 Du verschwindest in den Schatten.
@@ -8659,14 +8659,14 @@ Something gets caught in the net!
 Etwas bleibt im Netz hängen!
 %%%%
 # duplicate
-#msgid "You become entangled in the net!"
-#msgstr "Du wirst in das Netz verwickelt!"
+#"You become entangled in the net!"
+#"Du wirst in das Netz verwickelt!"
 # duplicate
-#msgid "The net rips apart, and %s comes free!"
-#msgstr "Das Netz zerreißt und%s kommt frei!"
+#"The net rips apart, and %s comes free!"
+#"Das Netz zerreißt und%s kommt frei!"
 # duplicate
-#msgid "All of a sudden the net rips apart!"
-#msgstr "Plötzlich zerreißt das Netz!"
+#"All of a sudden the net rips apart!"
+#"Plötzlich zerreißt das Netz!"
 %%%%
 You sense a hostile presence.
 Du spürst eine feindliche Präsenz.
@@ -8789,8 +8789,8 @@ Du vermeidest es,%s auszulösen.
 %s trifft%s%s!
 %%%%
 # duplicate
-#msgid "You set off the alarm!"
-#msgstr "Du hast den Alarm ausgelöst!"
+#"You set off the alarm!"
+#"Du hast den Alarm ausgelöst!"
 %%%%
 You are even more entangled.
 Du bist noch mehr verwickelt.
@@ -8834,8 +8834,8 @@ You're already at the bottom of this branch!
 Du bist schon am Ende dieses Zweigs!
 %%%%
 # duplicate
-#msgid "You're already here!"
-#msgstr "Du bist schon hier!"
+#"You're already here!"
+#"Du bist schon hier!"
 %%%%
 Sorry, you can't auto-travel out of here.
 Entschuldigung, du kannst nicht automatisch hier raus fahren.
@@ -8889,8 +8889,8 @@ Found %s
 %s gefunden
 %%%%
 # duplicate
-#msgid "Sorry, you can't auto-travel out of here."
-#msgstr "Entschuldigung, du kannst nicht automatisch hier raus fahren."
+#"Sorry, you can't auto-travel out of here."
+#"Entschuldigung, du kannst nicht automatisch hier raus fahren."
 ##################
 # view.cc
 ##################
@@ -9109,8 +9109,8 @@ Aborting sim on %s
 Sim auf %s abbrechen
 %%%%
 # duplicate
-#msgid "Done."
-#msgstr "Getan."
+#"Done."
+#"Getan."
 ##################
 # wiz-item.cc
 ##################
@@ -9119,8 +9119,8 @@ Sim auf %s abbrechen
 Namen des Artikels (oder die ITEM-Spezifikation):
 %%%%
 # duplicate
-#msgid "Error: %s"
-#msgstr "Fehler: %s"
+#"Error: %s"
+#"Fehler: %s"
 %%%%
 ) - weapons     ( - missiles  [ - armour  / - wands    ?  - scrolls
 ) - Waffen (- Raketen [- Rüstungen / - Zauberstäbe? - Schriftrollen
@@ -9289,8 +9289,8 @@ Evokers aufgeladen.
 # wiz-mon.cc
 ##################
 # duplicate
-#msgid "Enter monster name (or MONS spec): "
-#msgstr "Gib den Monsternamen (oder die MONS-Spezifikation) ein:"
+#"Enter monster name (or MONS spec): "
+#"Gib den Monsternamen (oder die MONS-Spezifikation) ein:"
 %%%%
 Couldn't find player ghost, probably going to crash.
 Spielergeist konnte nicht gefunden werden und wird wahrscheinlich abstürzen.
@@ -9480,8 +9480,8 @@ Taste gedrückt, um Fehlbesetzungstests zu unterbrechen.
 # wiz-you.cc
 ##################
 # duplicate
-#msgid "That species isn't available."
-#msgstr "Diese Art ist nicht verfügbar."
+#"That species isn't available."
+#"Diese Art ist nicht verfügbar."
 %%%%
 "Cast which spell? "
 Welchen Zauber wirken?
@@ -9523,8 +9523,8 @@ Frömmigkeit auf %d setzen.
 Neuen Goldwert eingeben (aktuell =%d, Eingabe für%d):
 %%%%
 # duplicate
-#msgid "You now have %d gold piece%s."
-#msgstr "Du hast jetzt %d Goldstück%s."
+#"You now have %d gold piece%s."
+#"Du hast jetzt %d Goldstück%s."
 %%%%
 You are not religious!
 Du bist nicht religiös!
@@ -9587,8 +9587,8 @@ Experience level set to %d.
 Erfahrungsstufe auf %d eingestellt.
 %%%%
 # duplicate
-#msgid "You are not religious!"
-#msgstr "Du bist nicht religiös!"
+#"You are not religious!"
+#"Du bist nicht religiös!"
 %%%%
 Nothing happens.
 Nichts passiert.
@@ -9624,8 +9624,8 @@ Not even in wizmode may Demigods worship a god!
 Nicht einmal im Zaubermodus dürfen Halbgötter einen Gott verehren!
 %%%%
 # duplicate
-#msgid "That god doesn't seem to exist!"
-#msgstr "Dieser Gott scheint nicht zu existieren!"
+#"That god doesn't seem to exist!"
+#"Dieser Gott scheint nicht zu existieren!"
 %%%%
 You already have no god!
 Du hast schon keinen Gott!
@@ -9660,8 +9660,8 @@ Your body is suffused with distortional energy.
 Dein Körper ist voller Verzerrungsenergie.
 %%%%
 # duplicate
-#msgid "You are %sconfused."
-#msgstr "Du bist %sconfused."
+#"You are %sconfused."
+#"Du bist %sconfused."
 %%%%
 Couldn't find ray between player and stairs.
 Ich konnte keinen Strahl zwischen Spieler und Treppe finden.
