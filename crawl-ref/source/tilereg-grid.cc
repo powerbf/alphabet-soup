@@ -76,10 +76,9 @@ void GridRegion::place_cursor(const coord_def &cursor)
     m_dirty = true;
 }
 
-void GridRegion::draw_desc(const char *desc)
+void GridRegion::draw_desc(const string& desc)
 {
     ASSERT(m_tag_font);
-    ASSERT(desc);
 
     // Always draw the description in the inventory header. (jpeg)
     int x = sx + ox;
@@ -89,7 +88,7 @@ void GridRegion::draw_desc(const char *desc)
     if (tiles.is_using_small_layout())
         y = wy;
 
-    m_tag_font->render_string(x, y, formatted_string(localize(desc), WHITE));
+    m_tag_font->render_string(x, y, formatted_string(desc, WHITE));
 }
 
 bool GridRegion::place_cursor(wm_mouse_event &event, unsigned int &item_idx)

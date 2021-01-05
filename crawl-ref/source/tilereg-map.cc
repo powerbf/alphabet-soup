@@ -8,6 +8,7 @@
 #include "command.h"
 #include "food.h"
 #include "libutil.h"
+#include "localize.h"
 #include "nearby-danger.h"
 #include "player.h"
 #include "options.h"
@@ -299,13 +300,13 @@ bool MapRegion::update_tip_text(string& tip)
         return false;
 
 #ifdef TOUCH_UI
-    tip = "[L-Click] Enable map mode";
+    tip = localize("%s %s", "[L-Click]", "Enable map mode");
 #else
-    tip = "[L-Click] Travel / [R-Click] View";
+    tip = localize("%s %s / %s %s", "[L-Click]", "Travel", "[R-Click]", "View");
     if ((you.hunger_state > HS_STARVING || you_min_hunger())
         && i_feel_safe())
     {
-        tip += "\n[Shift + L-Click] Autoexplore";
+        tip += localize("\n%s %s", "[Shift + L-Click]", "Autoexplore");
     }
 #endif
     return true;

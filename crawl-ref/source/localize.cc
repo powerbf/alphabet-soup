@@ -14,6 +14,11 @@
 #include <typeinfo>
 using namespace std;
 
+#ifdef UNIX
+# include <langinfo.h>
+#endif
+
+
 #include "localize.h"
 #include "xlate.h"
 #include "stringutil.h"
@@ -25,6 +30,34 @@ using namespace std;
 static inline bool _contains(const std::string& s, char c)
 {
     return (s.find(c) != string::npos);
+}
+
+// format UTF-8 string using printf-style format specifier
+static string _format_utf8_string(const string& fmt, const string& arg)
+{
+    if (fmt == "%s")
+    {
+        // trivial case
+        return arg;
+    }
+
+    // if there are width/precision args, then make_stringf won't handle it correctly
+    // (it will count bytes), so we have to use an ASCII placeholder
+    const char c = '\01';
+    string placeholder = string(strwidth(arg), c);
+    string result = make_stringf(fmt.c_str(), placeholder.c_str());
+
+    // find placeholder in result
+    // (may have been truncated, so can't assume length is same as original)
+    size_t pos1 = result.find(c);
+    size_t pos2 = result.rfind(c);
+    if (pos1 == string::npos || pos2 == string::npos)
+        return result;
+
+    // replace placeholder with arg, truncating if necessary
+    size_t len = pos2 - pos1 + 1;
+    result.replace(pos1, len, chop_string(arg, len, false));
+    return result;
 }
 
 // is this char a printf typespec (i.e. the end of %<something><char>)?
@@ -1066,6 +1099,16 @@ LocalizationArg::LocalizationArg(const long double value)
 void init_localization(const string& lang)
 {
     init_xlate(lang);
+#ifdef UNIX
+    if (lang != "" && lang != "en")
+    {
+        if (strcasecmp(nl_langinfo(CODESET), "UTF-8"))
+        {
+            fprintf(stderr, "Languages other than English require a UTF-8 locale.\n");
+            exit(1);
+        }
+    }
+#endif
 }
 
 const string& get_localization_language()
@@ -1167,7 +1210,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
                         else
                         {
                             argx = _localize_string(context, arg);
-                            ss << make_stringf(fmt_spec.c_str(), argx.c_str());
+                            ss << _format_utf8_string(fmt_spec, argx);
                             if (argx != arg.stringVal)
                                 success = true;
                         }
@@ -1337,6 +1380,18 @@ string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const 
     args.push_back(arg2);
     args.push_back(arg3);
     args.push_back(arg4);
+    return localize(args);
+}
+
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
+                const LocalizationArg& arg4, const LocalizationArg& arg5)
+{
+    vector<LocalizationArg> args;
+    args.push_back(arg1);
+    args.push_back(arg2);
+    args.push_back(arg3);
+    args.push_back(arg4);
+    args.push_back(arg5);
     return localize(args);
 }
 

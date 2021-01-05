@@ -71,6 +71,8 @@ string localize(const LocalizationArg& arg);
 string localize(const LocalizationArg& arg1, const LocalizationArg& arg2);
 string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3);
 string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const LocalizationArg& arg4);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const LocalizationArg& arg4,
+                const LocalizationArg& arg5);
 
 /**
  * Get the localized equivalent of a single-character

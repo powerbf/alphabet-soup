@@ -1649,9 +1649,6 @@ Targeting durch HUP-Signal unterbrochen.
 %s: <lightgrey>%s</lightgrey>
 %s: <lightgrey>%s</lightgrey>
 %%%%
-%s: %s
-%s:%s
-%%%%
 There is something else lying underneath.
 Da liegt noch etwas darunter.
 %%%%

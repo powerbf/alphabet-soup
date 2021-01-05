@@ -950,7 +950,7 @@ kein Ring
 %%%%
 
 ##############################################
-# Local Tiles - Tabs
+# Local Tiles - Tab titles/tooltips
 ##############################################
 %%%%
 Abilities
@@ -982,4 +982,419 @@ Befehle
 %%%%
 Execute commands
 Befehle ausführen
+%%%%
+Navigate around map
+Auf der Karte navigieren
+%%%%
+
+##############################################
+# Local Tiles - Commands and  tooltips
+##############################################
+
+%%%%
+# format string for "<mouse button> <command name> (<key>)"
+# Example "[L-Click] Fire (f)"
+# The annotation {cmd} is used to disambiguate from other meanings of the same word
+# (e.g. fire meaning shoot vs. fire meaning flames)
+"%s %s (%%)"
+"%s {cmd}%s (%%)"
+%%%%
+# format string for "<command name> (<key>)"
+# Example "Fire (f)"
+# {cmd} annotation as per above entry
+"%s (%%)"
+"{cmd}%s (%%)"
+%%%%
+[L-Click]
+[L-Klick]
+%%%%
+[R-Click]
+[R-Klick]
+%%%%
+[Shift + L-Click]
+[Shift + L-Klick]
+%%%%
+[Shift + R-Click]
+[Shift + R-Klick]
+%%%%
+[Ctrl + L-Click]
+[Strg + L-Klick]
+%%%%
+[Alt + L-Click]
+[Alt + L-Klick]
+%%%%
+[Ctrl-Shift + L-Click]
+[Strg-Shift + L-Klick]
+%%%%
+Display abilities
+Fähigkeiten zeigen
+%%%%
+Use abilities
+Fähigkeiten anwenden
+%%%%
+You cannot use this ability right now.
+Diese Fähigkeit ist im Moment nicht verfügbar.
+%%%%
+Use
+Anwenden
+%%%%
+Describe
+Beschreiben
+%%%%
+Wand to zap?
+Zauberstab zu benutzen?
+%%%%
+Your Spells
+Deine Zaubersprüche
+%%%%
+Cast spell
+Zauberspruch wirken
+%%%%
+Zap wand
+Zauberstab benutzen
+%%%%
+# move one square
+Move
+Bewegen
+%%%%
+# move a longer distance
+Travel
+Reisen
+%%%%
+Attack
+Angreifen
+%%%%
+# fire - shoot a bow/crossbow/sling, or throw a boomerang, etc.
+# the {cmd} annotation is needed to disambiguate from fire meaning flames
+{cmd}Fire
+Schießen
+%%%%
+Open door
+Tür öffnen
+%%%%
+Pick up items
+Gegenstände aufheben
+%%%%
+Enter shop
+Laden eintreten
+%%%%
+Pray at altar
+An Altar beten
+%%%%
+Enter gate
+Tor eintreten
+%%%%
+Use stairs
+Treppen benutzen
+%%%%
+Wait one turn
+Eine Runde warten
+%%%%
+Overview
+Überblick
+%%%%
+Religion
+Religion
+%%%%
+out of sight
+außer Sichtweite
+%%%%
+floor
+Boden
+%%%%
+wall
+Wand
+%%%%
+feat
+feat
+%%%%
+special
+speziell
+%%%%
+# wield weapon (i.e. put it in your hand)
+Wield
+Waffe führen
+%%%%
+# unwield weapon (i.e. put it back in your backpack)
+Unwield
+Wegstecken
+%%%%
+Display inventory
+Inventar anzeigen
+%%%%
+Use items
+Gegenstände benutzen
+%%%%
+Next page
+Nächste Seite
+%%%%
+Show next page of items
+Nächste Seite der Gegenstände anzeigen
+%%%%
+Previous page
+Vorige Seite
+%%%%
+Show previous page of items
+Vorige Seite der Gegenstände anzeigen
+%%%%
+%%%%
+# suffix used when net is holding monster
+" (holding %s)"
+" (haltet {acc}%s)"
+%%%%
+# used by above entry (in unlikely edge case)
+nobody
+niemanden
+%%%%
+Pick up
+Aufheben
+%%%%
+# Pick up some
+Partial pick up
+Einige aufheben
+%%%%
+Chop up
+Zerhacken
+%%%%
+Eat
+Essen
+%%%%
+# evoke a wand, magical item or polearm
+Evoke
+Aktivieren
+%%%%
+# wear armour, helm, gloves, boots
+Wear
+Anziehen
+%%%%
+# take off armour, helm, gloves, boots
+Take off
+Ausziehen
+%%%%
+# put on ring or amulet
+Put on
+Anlegen
+%%%%
+# remove ring or amulet
+Remove
+Abnehmen
+%%%%
+# memorise (learn) a spell
+Memorise
+Erlernen
+%%%%
+Read
+Lesen
+%%%%
+# quaff (drink) a potion
+Quaff
+Trinken
+%%%%
+Drop
+Hinlegen
+%%%%
+Drop quantity
+Anzahl hinlegen
+%%%%
+Enable map mode
+Kartenmodus aktivieren
+%%%%
+View
+Ansehen
+%%%%
+Autoexplore
+Automatisch erkunden 
+%%%%
+1 spell slot
+1 Zauberstelle
+%%%%
+%d spell slots
+%d Zauberstellen
+%%%%
+Display spells in carried books
+Zaubersprüche in getragene Bücher anzeigen
+%%%%
+Memorise spells
+Zaubersprüche erlernen
+%%%%
+You cannot memorise this spell now.
+Du kannst diesen Zauber jetzt nicht erlernen.
+%%%%
+Browse message history
+Nachrichtenverlauf sehen
+%%%%
+# format string for skill training entry
+"%-14s Skill %4.1f Aptitude %c%d"
+"{skill}%-14s Fertigkeit %4.1f Begabung %c%d"
+%%%%
+Manage skills
+Fertigkeiten verwalten
+%%%%
+You cannot train this skill now.
+Diese Fertigkeit ist jetzt nicht trainierbar.
+%%%%
+Disable training
+Training ausschalten
+%%%%
+Enable training
+Training anschalten
+%%%%
+Change skill level (wizmode)
+Stufe ändern (wizmodus)
+%%%%
+Display memorised spells
+Erlernte Zaubersprüche anzeigen
+%%%%
+Cast spells
+Zaubersprüche wirken
+%%%%
+You cannot cast this spell right now.
+Du kannst diesen Zauber im Moment nich wirken.
+%%%%
+Cast
+Wirken
+%%%%
+Show player information
+Spielerinformationen anzeigen
+%%%%
+
+##############################################
+# Local Tiles - doll editor
+##############################################
+%%%%
+Doll Editor
+Puppenarbeiter
+%%%%
+Custom
+Speziell
+%%%%
+Default
+Standard
+%%%%
+Equip
+Ausrüstung
+%%%%
+none
+nichts
+%%%%
+show equip
+Ausrüstung
+%%%%
+Doll index
+Puppenindex
+%%%%
+Doll Mode
+Puppenmodus
+%%%%
+Current Equipment
+Aktuelle Ausrüstung
+%%%%
+Custom Doll
+Spezielle Puppe
+%%%%
+# job = background
+Job Defaults
+Nach Hintergrund
+%%%%
+Base
+Basis
+%%%%
+Shadow
+Schatte
+%%%%
+Halo
+%%%%
+Ench
+%%%%
+Cloak
+Umhang
+%%%%
+Boots
+Stiefeln
+%%%%
+Legs
+Beine
+%%%%
+Body
+Leib
+%%%%
+Gloves
+Stulpen
+%%%%
+LHand
+LHand
+%%%%
+RHand
+RHand
+%%%%
+Hair
+Haar
+%%%%
+Beard
+Bart
+%%%%
+Helm
+Helm
+%%%%
+DrcWing
+DrkFlügel
+%%%%
+DrcHead
+DrkKopf
+%%%%
+Change parts
+Teile ändern
+%%%%
+left/right
+links/rechts
+%%%%
+Confirm choice
+Bestätigen
+%%%%
+Enter
+Enter
+%%%%
+Change category
+Klasse ändern
+%%%%
+up/down
+oben/unter
+%%%%
+Copy doll
+Puppe kopieren
+%%%%
+Change doll
+Puppe ändern
+%%%%
+Shift + arrows
+Shift + Pfeile
+%%%%
+Paste copied doll
+Einfügen
+%%%%
+Change doll mode
+Modus ändern
+%%%%
+Randomise doll
+Randomisieren
+%%%%
+Save menu
+Speichern
+%%%%
+Toggle equipment
+Ausrüstung umschalten
+%%%%
+Quit menu
+Abbrechen
+%%%%
+
+##############################################
+# Inventory list
+##############################################
+%%%%
+Inventory:
+Inventar:
+%%%%
+"%d/%d slots"
+"%d/%d Plätze"
 %%%%

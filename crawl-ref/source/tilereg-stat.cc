@@ -5,6 +5,7 @@
 #include "tilereg-stat.h"
 
 #include "libutil.h"
+#include "localize.h"
 #include "macro.h"
 #include "tiles-build-specific.h"
 
@@ -32,7 +33,7 @@ bool StatRegion::update_tip_text(string& tip)
     if (mouse_control::current_mode() != MOUSE_MODE_COMMAND)
         return false;
 
-    tip = "[L-Click] Show player information";
+    tip = localize("%s %s", "[L-Click]", "Show player information");
     return true;
 }
 

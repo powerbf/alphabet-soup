@@ -358,14 +358,18 @@ void InvMenu::set_preselect(const vector<SelItem> *pre)
 
 string slot_description()
 {
-    return make_stringf("%d/%d slots", inv_count(), ENDOFPACK);
+    return localize("%d/%d slots", inv_count(), ENDOFPACK);
 }
 
 void InvMenu::set_title(const string &s)
 {
-    set_title(new InvTitle(this, s.empty() ? "Inventory: " + slot_description()
-                                           : s,
-                           title_annotate));
+    string t;
+    if (s.empty())
+        t = localize("Inventory:") + " " + slot_description();
+    else
+        t = localize(s);
+
+    set_title(new InvTitle(this, t, title_annotate));
 }
 
 int InvMenu::pre_process(int key)

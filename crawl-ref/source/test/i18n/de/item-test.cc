@@ -361,6 +361,7 @@ int main()
 {
     Options.lang_name = "de";
     SysEnv.crawl_dir = ".";
+    setlocale(LC_ALL, "");
     databaseSystemInit();
     init_localization("de");
 
