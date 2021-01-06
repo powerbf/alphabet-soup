@@ -1348,53 +1348,6 @@ string vlocalize(const string& fmt_str, va_list argp, const bool capitalize)
     return localize(niceArgs, capitalize);
 }
 
-string localize(const LocalizationArg& arg)
-{
-    vector<LocalizationArg> args;
-    args.push_back(arg);
-    return localize(args);
-}
-
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2)
-{
-    vector<LocalizationArg> args;
-    args.push_back(arg1);
-    args.push_back(arg2);
-    return localize(args);
-}
-
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3)
-{
-    vector<LocalizationArg> args;
-    args.push_back(arg1);
-    args.push_back(arg2);
-    args.push_back(arg3);
-    return localize(args);
-}
-
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
-                const LocalizationArg& arg4)
-{
-    vector<LocalizationArg> args;
-    args.push_back(arg1);
-    args.push_back(arg2);
-    args.push_back(arg3);
-    args.push_back(arg4);
-    return localize(args);
-}
-
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3,
-                const LocalizationArg& arg4, const LocalizationArg& arg5)
-{
-    vector<LocalizationArg> args;
-    args.push_back(arg1);
-    args.push_back(arg2);
-    args.push_back(arg3);
-    args.push_back(arg4);
-    args.push_back(arg5);
-    return localize(args);
-}
-
 /**
  * Get the localized equivalent of a single-character
  * (Mostly for prompt answers like Y/N)

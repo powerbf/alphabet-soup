@@ -66,13 +66,12 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize = fal
 string vlocalize(const string& fmt_str, va_list args, const bool capitalize = false);
 
 // convenience functions
-// TODO: Rewrite using variadic template
-string localize(const LocalizationArg& arg);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const LocalizationArg& arg4);
-string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3, const LocalizationArg& arg4,
-                const LocalizationArg& arg5);
+template<typename... Ts>
+static string localize(const string& first, Ts const &... rest)
+{
+    vector<LocalizationArg> v {first, rest...};
+    return localize(v);
+}
 
 /**
  * Get the localized equivalent of a single-character
