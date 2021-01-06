@@ -1270,7 +1270,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
 
 }
 
-string localize(const string& fmt_str, va_list argp, const bool capitalize)
+string vlocalize(const string& fmt_str, va_list argp, const bool capitalize)
 {
     va_list args;
     va_copy(args, argp);
@@ -1401,9 +1401,7 @@ string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const 
  */
 int localize_char(char ch)
 {
-    char en[2];
-    en[0] = ch;
-    en[2] = '\0';
+    string en(1, ch);
 
     string loc = xlate(en);
 

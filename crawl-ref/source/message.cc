@@ -1213,7 +1213,7 @@ int channel_to_colour(msg_channel_type channel, int param)
 void do_message_print(msg_channel_type channel, int param, bool cap,
                              bool nojoin, const char *format, va_list argp, bool loclz)
 {
-    string text = loclz ? localize(format, argp) : vmake_stringf(format, argp);
+    string text = loclz ? vlocalize(format, argp) : vmake_stringf(format, argp);
     _mpr(text, channel, param, nojoin, cap, false);
 }
 

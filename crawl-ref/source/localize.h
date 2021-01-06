@@ -63,7 +63,7 @@ const string& get_localization_language();
 string localize(const vector<LocalizationArg>& args, const bool capitalize = false);
 
 // localize using va_list (yuk!)
-string localize(const string& fmt_str, va_list args, const bool capitalize = false);
+string vlocalize(const string& fmt_str, va_list args, const bool capitalize = false);
 
 // convenience functions
 // TODO: Rewrite using variadic template
