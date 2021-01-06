@@ -50,6 +50,15 @@ private:
  */
 void init_localization(const string& lang);
 
+/**
+ * Temporarily stop translating
+ */
+void pause_localization();
+
+/**
+ * Resume translating
+ */
+void unpause_localization();
 
 // Get the current localization language
 const string& get_localization_language();

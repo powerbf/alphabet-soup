@@ -192,15 +192,12 @@ bool dump_char(const string &fname, bool quiet, bool full_id,
                const scorefile_entry *se)
 {
     // switch to English
-    string saved_lang = get_localization_language();
-    if (saved_lang != "")
-        init_localization("");
+    pause_localization();
 
     dump_params dp = _get_dump(full_id, se);
 
     // switch back to previous language
-    if (saved_lang != "")
-        init_localization(saved_lang);
+    unpause_localization();
 
     return _write_dump(fname, dp, quiet);
 }

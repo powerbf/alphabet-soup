@@ -26,6 +26,9 @@ using namespace std;
 #include "english.h"
 
 
+static string _language;
+static bool _paused;
+
 // check if string contains the char
 static inline bool _contains(const std::string& s, char c)
 {
@@ -1098,7 +1101,7 @@ LocalizationArg::LocalizationArg(const long double value)
 
 void init_localization(const string& lang)
 {
-    init_xlate(lang);
+    _language = lang;
 #ifdef UNIX
     if (lang != "" && lang != "en")
     {
@@ -1111,9 +1114,24 @@ void init_localization(const string& lang)
 #endif
 }
 
+void pause_localization()
+{
+    _paused = true;
+}
+
+void unpause_localization()
+{
+    _paused = false;
+}
+
 const string& get_localization_language()
 {
-    return get_xlate_language();
+    return _language;
+}
+
+static bool _skip_translation()
+{
+    return (_paused || _language.empty() || _language == "en");
 }
 
 string localize(const vector<LocalizationArg>& args, const bool capitalize)
@@ -1130,7 +1148,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
 
     // translate format string
     string fmt_xlated;
-    if (fmt_arg.translate)
+    if (fmt_arg.translate && !_skip_translation())
     {
         fmt_xlated = _localize_string("", fmt_arg);
         success = (fmt_xlated != fmt_arg.stringVal);
@@ -1193,9 +1211,9 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
                 else if (*type == typeid(char*))
                 {
                     // arg is string
-                    string argx;
-                    if (arg.translate)
+                    if (arg.translate && !_skip_translation())
                     {
+                        string argx;
                         if (!arg.stringVal.empty()
                             && arg.stringVal.find_first_not_of("!") == string::npos)
                         {
@@ -1217,8 +1235,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
                     }
                     else
                     {
-                        argx = arg.stringVal;
-                        ss << make_stringf(fmt_spec.c_str(), argx.c_str());
+                        ss << make_stringf(fmt_spec.c_str(), arg.stringVal.c_str());
                     }
                 }
                 else {
@@ -1256,7 +1273,7 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
 
     string result = ss.str();
 
-    if (args.size() > 1 && fmt_arg.translate && !success)
+    if (!_skip_translation() && args.size() > 1 && fmt_arg.translate && !success)
     {
         // there may be a translation for the completed string
         result = _localize_string("", result);
@@ -1272,6 +1289,11 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
 
 string vlocalize(const string& fmt_str, va_list argp, const bool capitalize)
 {
+    if (_skip_translation())
+    {
+        return vmake_stringf(fmt_str.c_str(), argp);
+    }
+
     va_list args;
     va_copy(args, argp);
 
@@ -1354,6 +1376,9 @@ string vlocalize(const string& fmt_str, va_list argp, const bool capitalize)
  */
 int localize_char(char ch)
 {
+    if (_skip_translation())
+        return (int)ch;
+
     string en(1, ch);
 
     string loc = xlate(en);
