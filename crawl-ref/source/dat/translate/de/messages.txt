@@ -3,14 +3,13 @@
 # German translations for general messages
 #
 ###############################################################################
-%%%%
 
 ###################
 # ability.cc
 ##################
 %%%%
 You can't untransform!
-Ihr könnt Euch nicht auflösen!
+Ihr könnt Euch nicht unverwandeln!
 %%%%
 Sorry, you cannot become a bat while alive.
 Sorry, Ihr könnt nicht eine Fledermaus werden wenn Ihr lebendig seid.
@@ -25,20 +24,38 @@ You can't do that.
 Das könnt Ihr nicht.
 %%%%
 Your legs are too worn out to hop.
-Ihre Beine sind zu abgenutzt, um zu hüpfen.
+Ihre Beine sind zu abgenutzt, zu hüpfen.
 %%%%
 Stopping flight right now would be fatal!
-Fliegen jetzt zu halten wäre tödlich!
+Fliegen jetzt halten wäre tödlich!
 %%%%
-Turning back right now would cause you to %s!
-Wenn Ihr jetzt zurück dreht, werdet Ihr %s!
+# NOTE: "Turning back" here means untransform
+Turning back right now would cause you to burn!
+Wenn Ihr jetzt unverwandeln würdet, würdet Ihr brennen!
 %%%%
-Becoming %s right now would cause you to %s!
-Wenn Ihr jetzt %s werdet, werdet Ihr %s!
+# NOTE: "Turning back" here means untransform
+Turning back right now would cause you to drown!
+Wenn Ihr jetzt unverwandeln würdet, würdet Ihr ertrinken!
 %%%%
-You cannot call out to %s while %s.
-Ihr könnt %s nicht anrufen, während %s.
+Becoming bloodless right now would cause you to burn!
+Wenn Ihr jetzt blutlos werden würdet, würdet Ihr brenned!
 %%%%
+Becoming bloodless right now would cause you to drown!
+Wenn Ihr jetzt blutlos werden würdet, würdet Ihr ertrinken!
+%%%%
+Becoming alive right now would cause you to burn!
+Wenn Ihr jetzt lebendig werden würdet, würdet Ihr brennen!
+%%%%
+Becoming alive right now would cause you to drown!
+Wenn Ihr jetzt lebendig werden würdet, würdet Ihr ertrinken!
+%%%%
+You cannot call out to %s while unable to breath.
+Ihr könnt {acc}%s nicht anrufen, während Ihr nicht atmen könnt.
+%%%%
+You cannot call out to %s while silenced.
+Ihr könnt {acc}%s nicht anrufen, während Ihr schweigend seid.
+%%%%
+# Deck of cards
 That deck is empty!
 Der Stapel ist leer!
 %%%%
@@ -55,7 +72,7 @@ You have nothing to donate!
 Ihr habt nichts zu spenden!
 %%%%
 Nothing ails you!
-Nichts schmerzt Euch !
+Ihr seid mit nichts geplagt!
 %%%%
 You aren't in the Abyss!
 Ihr seid nicht im Abgrund!
@@ -70,25 +87,28 @@ You don't have enough innate magic capacity.
 Ihr habt nicht genug angeborene magische Kapazität.
 %%%%
 It's too cloudy to do that here.
-Es ist zu bewölkt, um das hier zu tun.
+Es ist zu bewölkt, das hier zu tun.
 %%%%
 The air is too still for clouds to form.
-Die Luft ist zu still, un Wolken zu schaffen.
+Die Luft ist zu still, Wolken zu schaffen.
 %%%%
 You don't have enough experience to sacrifice.
-Ihr habt nicht genügend Erfahrung, um zu opfern.
+Ihr habt nicht genügend Erfahrung, zu opfern.
 %%%%
 You have no magic power.
 Ihr habt keine magische Energie.
 %%%%
 %s is still trapped in memory!
-%s ist immer noch im Gedächtnis gefangen!
+%s wird immer noch im Gedächtnis gefangen!
 %%%%
 You are too terrified to wall jump!
 Ihr habt zu viel Angst, gegen die Wand zu springen!
 %%%%
-You cannot wall jump while caught in a %s.
-Ihr könnt nicht gegen die Wand springen, während Ihr in %s gefangen seid.
+You cannot wall jump while caught in a web.
+Ihr könnt nicht gegen die Wand springen, während Ihr in einem Gewebe gefangen seid.
+%%%%
+You cannot wall jump while caught in a net.
+Ihr könnt nicht gegen die Wand springen, während Ihr in einem Netz gefangen seid.
 %%%%
 There is nothing to wall jump against here.
 Hier gibt es nichts, entgegen zu springen.
@@ -130,7 +150,7 @@ You are no longer teleporting projectiles to their destination.
 Ihr teleportiert keine Projektile mehr an ihr Ziel.
 %%%%
 You clear your throat and prepare to recite.
-Ihr räuspert Euch und bereitest Euch auf das Rezitieren vor.
+Ihr räuspert Euch und bereitet Euch auf das Rezitieren vor.
 %%%%
 You cannot imprison yourself!
 Ihr könnt Euch selbst nicht einsperren!
@@ -151,7 +171,7 @@ Another wave of unholy energy enters you.
 Noch eine Welle unheiliger Energie tritt in Euch ein.
 %%%%
 You offer yourself to %s, and are filled with unholy energy.
-Ihr bietet Euch {dat}%s an und wirst voller unheiliger Energie gefüllt.
+Ihr bietet Euch {dat}%s an, und wirst voller unheiliger Energie gefüllt.
 %%%%
 There are no remains here to animate!
 Es gibt hier keine Überreste zum Animieren!
@@ -196,16 +216,16 @@ You gain astral sight.
 Ihr erlangt astrale Sicht.
 %%%%
 You're too exhausted to draw out your power.
-Ihr seid zu erschöpft, um Eure Kraft herauszuholen.
+Ihr seid zu erschöpft, Eure Kraft herauszuholen.
 %%%%
 You have no need to draw out power.
 Es gibt keinen Bedarf Eure Kraft herauszuholen.
 %%%%
 You're too exhausted to power leap.
-Ihr seid zu erschöpft, um einen Kraftsprung zu machen.
+Ihr seid zu erschöpft, einen Kraftsprung zu machen.
 %%%%
 You're too exhausted to unleash your apocalyptic power.
-Ihr seid zu erschöpft, um Eure apokalyptische Kraft freizusetzen.
+Ihr seid zu erschöpft, Eure apokalyptische Kraft freizusetzen.
 %%%%
 You feel a buildup of energy.
 Ihr fühlt einen Energieaufbau.
@@ -214,7 +234,7 @@ You are already lashing out.
 Ihr schlagt schon aus.
 %%%%
 You are too exhausted to lash out.
-Ihr seid zu erschöpft, auszuschlagen.
+Ihr seid zu erschöpft auszuschlagen.
 %%%%
 Your muscles tense, ready for explosive movement...
 Eure Muskeln wird angespannt, bereit für explosive Bewegungen...
