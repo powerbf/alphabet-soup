@@ -3147,1433 +3147,1433 @@ eines furchtbaren gespürten Monsters
 ################################
 %%%%
 {gen}your program bug
-deines Programmfehlers
+Eures Programmfehlers
 %%%%
 {gen}your worker ant
-deiner Ameisenarbeiterin
+Eurer Ameisenarbeiterin
 %%%%
 {gen}your queen ant
-deiner Ameisenkönigin
+Eurer Ameisenkönigin
 %%%%
 {gen}your soldier ant
-deiner Ameisensoldatin
+Eurer Ameisensoldatin
 %%%%
 {gen}your formicid
-deines Formicids
+Eures Formicids
 %%%%
 {gen}your entropy weaver
-deines Entropiewebers
+Eures Entropiewebers
 %%%%
 {gen}your bat
-deiner Fledermaus
+Eurer Fledermaus
 %%%%
 {gen}your butterfly
-deines Schmetterlings
+Eures Schmetterlings
 %%%%
 {gen}your vampire bat
-deiner Vampirfledermaus
+Eurer Vampirfledermaus
 %%%%
 {gen}your fire bat
-deiner Feuerfledermaus
+Eurer Feuerfledermaus
 %%%%
 {gen}your bennu
-deines Bennus
+Eures Bennus
 %%%%
 {gen}your caustic shrike
-deines ätzenden Würgers
+Eures ätzenden Würgers
 %%%%
 {gen}your shard shrike
-deines Scherbenwürgers
+Eures Scherbenwürgers
 %%%%
 {gen}your centaur
-deines Zentaurs
+Eures Zentaurs
 %%%%
 {gen}your centaur warrior
-deines Zentaur-Kriegers
+Eures Zentaur-Kriegers
 %%%%
 {gen}your yaktaur
-deines Yaktaurs
+Eures Yaktaurs
 %%%%
 {gen}your yaktaur captain
-deines Yaktaur-Kapitäns
+Eures Yaktaur-Kapitäns
 %%%%
 {gen}your faun
-deines Fauns
+Eures Fauns
 %%%%
 {gen}your satyr
-deines Satyrs
+Eures Satyrs
 %%%%
 {gen}your draconian
-deines Drakoniers
+Eures Drakoniers
 %%%%
 {gen}your black draconian
-deines schwarzen Drakoniers
+Eures schwarzen Drakoniers
 %%%%
 {gen}your yellow draconian
-deines gelben Drakoniers
+Eures gelben Drakoniers
 %%%%
 {gen}your pale draconian
-deines blassen Drakoniers
+Eures blassen Drakoniers
 %%%%
 {gen}your green draconian
-deines grünen Drakoniers
+Eures grünen Drakoniers
 %%%%
 {gen}your purple draconian
-deines purpurnen Drakoniers
+Eures purpurnen Drakoniers
 %%%%
 {gen}your red draconian
-deines roten Drakoniers
+Eures roten Drakoniers
 %%%%
 {gen}your white draconian
-deines weißen Drakoniers
+Eures weißen Drakoniers
 %%%%
 {gen}your grey draconian
-deines grauen Drakoniers
+Eures grauen Drakoniers
 %%%%
 {gen}your draconian stormcaller
-deines Drakonier-Sturmrufers
+Eures Drakonier-Sturmrufers
 %%%%
 {gen}your draconian monk
-deines Drakonier-Mönchs
+Eures Drakonier-Mönchs
 %%%%
 {gen}your draconian shifter
-deines Drakonier-Verwandlers
+Eures Drakonier-Verwandlers
 %%%%
 {gen}your draconian annihilator
-deines Drakonier-Vernichters
+Eures Drakonier-Vernichters
 %%%%
 {gen}your draconian knight
-deines Drakonier-Ritters
+Eures Drakonier-Ritters
 %%%%
 {gen}your draconian scorcher
-deines Drakonier-Verschmorers
+Eures Drakonier-Verschmorers
 %%%%
 {gen}your elf
-deines Elfs
+Eures Elfs
 %%%%
 {gen}your deep elf knight
-deines Tiefenelf-Ritters
+Eures Tiefenelf-Ritters
 %%%%
 {gen}your deep elf archer
-deines Tiefenelf-Bogenschützens
+Eures Tiefenelf-Bogenschützens
 %%%%
 {gen}your deep elf blademaster
-deines Tiefenelf-Klingenmeisters
+Eures Tiefenelf-Klingenmeisters
 %%%%
 {gen}your deep elf master archer
-deines Tiefenelf-Bogenmeisters
+Eures Tiefenelf-Bogenmeisters
 %%%%
 {gen}your deep elf mage
-deines Tiefenelf-Magiers
+Eures Tiefenelf-Magiers
 %%%%
 {gen}your deep elf high priest
-deines Tiefenelf-Hohepriesters
+Eures Tiefenelf-Hohepriesters
 %%%%
 {gen}your deep elf demonologist
-deines Tiefenelf-Dämonologens
+Eures Tiefenelf-Dämonologens
 %%%%
 {gen}your deep elf annihilator
-deines Tiefenelf-Vernichters
+Eures Tiefenelf-Vernichters
 %%%%
 {gen}your deep elf sorcerer
-deines Tiefenelf-Zauberers
+Eures Tiefenelf-Zauberers
 %%%%
 {gen}your deep elf death mage
-deines Tiefenelf-Todesmagiers
+Eures Tiefenelf-Todesmagiers
 %%%%
 {gen}your deep elf elementalist
-deines Tiefenelf-Elementalistens
+Eures Tiefenelf-Elementalistens
 %%%%
 {gen}your wandering mushroom
-deines wandernden Pilzs
+Eures wandernden Pilzs
 %%%%
 {gen}your deathcap
-deiner Todesmütze
+Eurer Todesmütze
 %%%%
 {gen}your thorn hunter
-deines Dornenjägers
+Eures Dornenjägers
 %%%%
 {gen}your shambling mangrove
-deiner watschelnden Mangrove
+Eurer watschelnden Mangrove
 %%%%
 {gen}your vine stalker
-deines Rebjägers
+Eures Rebjägers
 %%%%
 {gen}your goblin
-deines Goblins
+Eures Goblins
 %%%%
 {gen}your hobgoblin
-deines Hobgoblins
+Eures Hobgoblins
 %%%%
 {gen}your gnoll
-deines Gnolls
+Eures Gnolls
 %%%%
 {gen}your gnoll shaman
-deines Gnoll-Schamanens
+Eures Gnoll-Schamanens
 %%%%
 {gen}your gnoll sergeant
-deines Gnoll-Wachtmeisters
+Eures Gnoll-Wachtmeisters
 %%%%
 {gen}your boggart
-deines Boggarts
+Eures Boggarts
 %%%%
 {gen}your dwarf
-deines Zwergs
+Eures Zwergs
 %%%%
 {gen}your deep dwarf
-deines Tiefenzwergs
+Eures Tiefenzwergs
 %%%%
 {gen}your jackal
-deines Schakals
+Eures Schakals
 %%%%
 {gen}your hound
-deines Hunds
+Eures Hunds
 %%%%
 {gen}your howler monkey
-deines Brüllaffens
+Eures Brüllaffens
 %%%%
 {gen}your warg
-deines Wargs
+Eures Wargs
 %%%%
 {gen}your wolf
-deines Wolfs
+Eures Wolfs
 %%%%
 {gen}your hog
-deines Schweins
+Eures Schweins
 %%%%
 {gen}your hell hound
-deines Höllenhunds
+Eures Höllenhunds
 %%%%
 {gen}your doom hound
-deines Untergangshunds
+Eures Untergangshunds
 %%%%
 {gen}your raiju
-deines Raijus
+Eures Raijus
 %%%%
 {gen}your hell hog
-deines höllischen Schweins
+Eures höllischen Schweins
 %%%%
 {gen}your holy swine
-deines heiligen Schweins
+Eures heiligen Schweins
 %%%%
 {gen}your felid
-deines Felids
+Eures Felids
 %%%%
 {gen}your bear
-deines Bärens
+Eures Bärens
 %%%%
 {gen}your polar bear
-deines Eisbärens
+Eures Eisbärens
 %%%%
 {gen}your black bear
-deines Schwarzbärens
+Eures Schwarzbärens
 %%%%
 {gen}your spriggan
-deines Spriggans
+Eures Spriggans
 %%%%
 {gen}your spriggan rider
-deines Spriggan-Reiters
+Eures Spriggan-Reiters
 %%%%
 {gen}your spriggan druid
-deines Spriggan-Druidens
+Eures Spriggan-Druidens
 %%%%
 {gen}your spriggan berserker
-deines Spriggan-Berserkers
+Eures Spriggan-Berserkers
 %%%%
 {gen}your spriggan air mage
-deines Spriggan-Luftmagiers
+Eures Spriggan-Luftmagiers
 %%%%
 {gen}your spriggan defender
-deines Spriggan-Verteidigers
+Eures Spriggan-Verteidigers
 %%%%
 {gen}your drake
-deines Drachlings
+Eures Drachlings
 %%%%
 {gen}your swamp drake
-deines Sumpfdrachlings
+Eures Sumpfdrachlings
 %%%%
 {gen}your rime drake
-deines Reifsdrachlings
+Eures Reifsdrachlings
 %%%%
 {gen}your wind drake
-deines Winddrachlings
+Eures Winddrachlings
 %%%%
 {gen}your lindwurm
-deines Lindwurms
+Eures Lindwurms
 %%%%
 {gen}your death drake
-deines Todesdrachlings
+Eures Todesdrachlings
 %%%%
 {gen}your giant lizard
-deiner Rieseneidechse
+Eurer Rieseneidechse
 %%%%
 {gen}your frilled lizard
-deiner gekräuselten Eidechse
+Eurer gekräuselten Eidechse
 %%%%
 {gen}your leopard gecko
-deines Leopardgeckos
+Eures Leopardgeckos
 %%%%
 {gen}your iguana
-deines Leguans
+Eures Leguans
 %%%%
 {gen}your basilisk
-deines Basilisks
+Eures Basilisks
 %%%%
 {gen}your wyvern
-deines Wyverns
+Eures Wyverns
 %%%%
 {gen}your komodo dragon
-deines Komododrachens
+Eures Komododrachens
 %%%%
 {gen}your merfolk
-deines Meervolks
+Eures Meervolks
 %%%%
 {gen}your merfolk impaler
-deines Meervolk-Impalers
+Eures Meervolk-Impalers
 %%%%
 {gen}your merfolk javelineer
-deines Meervolk-Speerführers
+Eures Meervolk-Speerführers
 %%%%
 {gen}your merfolk aquamancer
-deines Meervolk-Aquamancers
+Eures Meervolk-Aquamancers
 %%%%
 {gen}your merfolk siren
-deiner Meervolk-Sirene
+Eurer Meervolk-Sirene
 %%%%
 {gen}your merfolk avatar
-deines Meervolk-Avatars
+Eures Meervolk-Avatars
 %%%%
 {gen}your water nymph
-deiner Wassernymphe
+Eurer Wassernymphe
 %%%%
 {gen}your bog body
-deiner Moorleiche
+Eurer Moorleiche
 %%%%
 {gen}your necrophage
-deines Nekrophagens
+Eures Nekrophagens
 %%%%
 {gen}your ghoul
-deines Ghuls
+Eures Ghuls
 %%%%
 {gen}your orc
-deines Orks
+Eures Orks
 %%%%
 {gen}your orc wizard
-deines Ork-Zauberers
+Eures Ork-Zauberers
 %%%%
 {gen}your orc priest
-deines Ork-Priesters
+Eures Ork-Priesters
 %%%%
 {gen}your orc warrior
-deines Ork-Kriegers
+Eures Ork-Kriegers
 %%%%
 {gen}your orc knight
-deines Ork-Ritters
+Eures Ork-Ritters
 %%%%
 {gen}your orc warlord
-deines Ork-Warlords
+Eures Ork-Warlords
 %%%%
 {gen}your orc sorcerer
-deines Ork-Hexenmeisters
+Eures Ork-Hexenmeisters
 %%%%
 {gen}your orc high priest
-deines Ork-Hohepriesters
+Eures Ork-Hohepriesters
 %%%%
 {gen}your lava orc
-deines Lava-Orks
+Eures Lava-Orks
 %%%%
 {gen}your human
-deines Menschens
+Eures Menschens
 %%%%
 {gen}your slave
-deines Sklavens
+Eures Sklavens
 %%%%
 {gen}your hell knight
-deines Höllenritters
+Eures Höllenritters
 %%%%
 {gen}your death knight
-deines Todesritters
+Eures Todesritters
 %%%%
 {gen}your necromancer
-deines Nekromantens
+Eures Nekromantens
 %%%%
 {gen}your wizard
-deines Zauberers
+Eures Zauberers
 %%%%
 {gen}your vault guard
-deines Tresorwächters
+Eures Tresorwächters
 %%%%
 {gen}your vault sentinel
-deiner Tresorwache
+Eurer Tresorwache
 %%%%
 {gen}your vault warden
-deines Tresorwärters
+Eures Tresorwärters
 %%%%
 {gen}your ironbrand convoker
-deines Eisenbrandeinberufers
+Eures Eisenbrandeinberufers
 %%%%
 {gen}your imperial myrmidon
-deines kaiserlichen Myrmidons
+Eures kaiserlichen Myrmidons
 %%%%
 {gen}your servant of whispers
-deines Dieners des Flüsterns
+Eures Dieners des Flüsterns
 %%%%
 {gen}your ragged hierophant
-deines zerlumpten Hierophantens
+Eures zerlumpten Hierophantens
 %%%%
 {gen}your ironheart preserver
-deines Eisenherzbewahrers
+Eures Eisenherzbewahrers
 %%%%
 {gen}your shapeshifter
-deines Gestaltwandlers
+Eures Gestaltwandlers
 %%%%
 {gen}your glowing shapeshifter
-deines leuchtenden Gestaltwandlers
+Eures leuchtenden Gestaltwandlers
 %%%%
 {gen}your Killer Klown
-deines Killer-Klowns
+Eures Killer-Klowns
 %%%%
 {gen}your demigod
-deines Halbgotts
+Eures Halbgotts
 %%%%
 {gen}your halfling
-deines Halblings
+Eures Halblings
 %%%%
 {gen}your rat
-deiner Ratte
+Eurer Ratte
 %%%%
 {gen}your quokka
-deines Quokkas
+Eures Quokkas
 %%%%
 {gen}your river rat
-deiner Flussratte
+Eurer Flussratte
 %%%%
 {gen}your hell rat
-deiner Höllenratte
+Eurer Höllenratte
 %%%%
 {gen}your porcupine
-deines Stachelschweins
+Eures Stachelschweins
 %%%%
 {gen}your giant cockroach
-deiner Riesenkakerlake
+Eurer Riesenkakerlake
 %%%%
 {gen}your scorpion
-deines Skorpions
+Eures Skorpions
 %%%%
 {gen}your emperor scorpion
-deines Kaiserskorpions
+Eures Kaiserskorpions
 %%%%
 {gen}your death scarab
-deines Todesskarabäus
+Eures Todesskarabäus
 %%%%
 {gen}your spider
-deiner Spinne
+Eurer Spinne
 %%%%
 {gen}your tarantella
-deiner Tarantella
+Eurer Tarantella
 %%%%
 {gen}your jumping spider
-deiner springenden Spinne
+Eurer springenden Spinne
 %%%%
 {gen}your wolf spider
-deiner Wolfsspinne
+Eurer Wolfsspinne
 %%%%
 {gen}your redback
-deiner Rotrückenspinne
+Eurer Rotrückenspinne
 %%%%
 {gen}your demonic crawler
-deines dämonischen Kriechers
+Eures dämonischen Kriechers
 %%%%
 {gen}your orb spider
-deiner Kugelspinne
+Eurer Kugelspinne
 %%%%
 {gen}your crocodile
-deines Krokodils
+Eures Krokodils
 %%%%
 {gen}your alligator
-deines Alligators
+Eures Alligators
 %%%%
 {gen}your snapping turtle
-deiner Schnappschildkröte
+Eurer Schnappschildkröte
 %%%%
 {gen}your alligator snapping turtle
-deiner Alligatorschnappschildkröte
+Eurer Alligatorschnappschildkröte
 %%%%
 {gen}your crab
-deiner Krabbe
+Eurer Krabbe
 %%%%
 {gen}your fire crab
-deiner Feuerkrabbe
+Eurer Feuerkrabbe
 %%%%
 {gen}your ghost crab
-deiner Geisterkrabbe
+Eurer Geisterkrabbe
 %%%%
 {gen}your apocalypse crab
-deiner Apokalypse-Krabbe
+Eurer Apokalypse-Krabbe
 %%%%
 {gen}your ugly thing
-deines hässlichen Dings
+Eures hässlichen Dings
 %%%%
 {gen}your very ugly thing
-deines sehr hässlichen Dings
+Eures sehr hässlichen Dings
 %%%%
 {gen}your fire vortex
-deines Feuerwirbels
+Eures Feuerwirbels
 %%%%
 {gen}your spatial vortex
-deines räumlichen Wirbels
+Eures räumlichen Wirbels
 %%%%
 {gen}your spatial maelstrom
-deines räumlichen Mahlstroms
+Eures räumlichen Mahlstroms
 %%%%
 {gen}your insubstantial wisp
-deines unwesentlichen Irrlichts
+Eures unwesentlichen Irrlichts
 %%%%
 {gen}your twister
-deines Twisters
+Eures Twisters
 %%%%
 {gen}your worm
-deines Wurms
+Eures Wurms
 %%%%
 {gen}your swamp worm
-deines Sumpfwurms
+Eures Sumpfwurms
 %%%%
 {gen}your tyrant leech
-deines Tyrannblutegels
+Eures Tyrannblutegels
 %%%%
 {gen}your dart slug
-deiner Pfeilschnecke
+Eurer Pfeilschnecke
 %%%%
 {gen}your torpor snail
-deiner Erstarrungsschnecke
+Eurer Erstarrungsschnecke
 %%%%
 {gen}your elephant slug
-deiner Elefantenschnecke
+Eurer Elefantenschnecke
 %%%%
 {gen}your unseen horror
-deines unsichtbaren Grauens
+Eures unsichtbaren Grauens
 %%%%
 {gen}your small abomination
-deines kleinen Greuels
+Eures kleinen Greuels
 %%%%
 {gen}your crawling corpse
-deiner kriechenden Leiche
+Eurer kriechenden Leiche
 %%%%
 {gen}your macabre mass
-deiner makaberen Masse
+Eurer makaberen Masse
 %%%%
 {gen}your ancient zyme
-deines alten Zymens
+Eures alten Zymens
 %%%%
 {gen}your worldbinder
-deines Weltbinders
+Eures Weltbinders
 %%%%
 {gen}your killer bee
-deiner Killerbiene
+Eurer Killerbiene
 %%%%
 {gen}your queen bee
-deiner Bienenkönigin
+Eurer Bienenkönigin
 %%%%
 {gen}your vampire mosquito
-deiner Vampir-Mücke
+Eurer Vampir-Mücke
 %%%%
 {gen}your hornet
-deiner Hornisse
+Eurer Hornisse
 %%%%
 {gen}your meliai
-deiner Meliai
+Eurer Meliai
 %%%%
 {gen}your spark wasp
-deiner Funkenwespe
+Eurer Funkenwespe
 %%%%
 {gen}your moth
-deiner Motte
+Eurer Motte
 %%%%
 {gen}your ghost moth
-deiner Geistermotte
+Eurer Geistermotte
 %%%%
 {gen}your moth of wrath
-deiner Motte des Zorns
+Eurer Motte des Zorns
 %%%%
 {gen}your wight
-deines Wights
+Eures Wights
 %%%%
 {gen}your skeletal warrior
-deines Skelettkriegers
+Eures Skelettkriegers
 %%%%
 {gen}your ancient champion
-deines alten Champions
+Eures alten Champions
 %%%%
 {gen}your flying skull
-deines fliegenden Schädels
+Eures fliegenden Schädels
 %%%%
 {gen}your curse skull
-deines Fluchschädels
+Eures Fluchschädels
 %%%%
 {gen}your curse toe
-deines Fluchzehens
+Eures Fluchzehens
 %%%%
 {gen}your angel
-deines Engels
+Eures Engels
 %%%%
 {gen}your cherub
-deines Cherubs
+Eures Cherubs
 %%%%
 {gen}your seraph
-deines Seraphs
+Eures Seraphs
 %%%%
 {gen}your daeva
-deines Daevas
+Eures Daevas
 %%%%
 {gen}your profane servitor
-deines profanen Dieners
+Eures profanen Dieners
 %%%%
 {gen}your giant
-deines Riesens
+Eures Riesens
 %%%%
 {gen}your cyclops
-deines Zyklops
+Eures Zyklops
 %%%%
 {gen}your ettin
-deines Ettins
+Eures Ettins
 %%%%
 {gen}your fire giant
-deines Feuerriesens
+Eures Feuerriesens
 %%%%
 {gen}your frost giant
-deines Frostriesens
+Eures Frostriesens
 %%%%
 {gen}your stone giant
-deines Steinriesens
+Eures Steinriesens
 %%%%
 {gen}your titan
-deines Titans
+Eures Titans
 %%%%
 {gen}your juggernaut
-deines Juggernauts
+Eures Juggernauts
 %%%%
 {gen}your iron giant
-deines Eisenriesens
+Eures Eisenriesens
 %%%%
 {gen}your dragon
-deines Drachens
+Eures Drachens
 %%%%
 {gen}your fire dragon
-deines Feuerdrachens
+Eures Feuerdrachens
 %%%%
 {gen}your hydra
-deiner Hydra
+Eurer Hydra
 %%%%
 {gen}your one-headed hydra
-deiner einköpfigen Hydra
+Eurer einköpfigen Hydra
 %%%%
 {gen}your two-headed hydra
-deiner zweiköpfigen Hydra
+Eurer zweiköpfigen Hydra
 %%%%
 {gen}your three-headed hydra
-deiner dreiköpfigen Hydra
+Eurer dreiköpfigen Hydra
 %%%%
 {gen}your four-headed hydra
-deiner vierköpfigen Hydra
+Eurer vierköpfigen Hydra
 %%%%
 {gen}your five-headed hydra
-deiner fünfköpfigen Hydra
+Eurer fünfköpfigen Hydra
 %%%%
 {gen}your six-headed hydra
-deiner sechsköpfigen Hydra
+Eurer sechsköpfigen Hydra
 %%%%
 {gen}your seven-headed hydra
-deiner siebenköpfigen Hydra
+Eurer siebenköpfigen Hydra
 %%%%
 {gen}your eight-headed hydra
-deiner achtköpfigen Hydra
+Eurer achtköpfigen Hydra
 %%%%
 {gen}your nine-headed hydra
-deiner neunköpfigen Hydra
+Eurer neunköpfigen Hydra
 %%%%
 {gen}your ten-headed hydra
-deiner zehnköpfigen Hydra
+Eurer zehnköpfigen Hydra
 %%%%
 {gen}your 11-headed hydra
-deiner 11-köpfigen Hydra
+Eurer 11-köpfigen Hydra
 %%%%
 {gen}your 12-headed hydra
-deiner 12-köpfigen Hydra
+Eurer 12-köpfigen Hydra
 %%%%
 {gen}your 13-headed hydra
-deiner 13-köpfigen Hydra
+Eurer 13-köpfigen Hydra
 %%%%
 {gen}your 14-headed hydra
-deiner 14-köpfigen Hydra
+Eurer 14-köpfigen Hydra
 %%%%
 {gen}your 15-headed hydra
-deiner 15-köpfigen Hydra
+Eurer 15-köpfigen Hydra
 %%%%
 {gen}your 16-headed hydra
-deiner 16-köpfigen Hydra
+Eurer 16-köpfigen Hydra
 %%%%
 {gen}your 17-headed hydra
-deiner 17-köpfigen Hydra
+Eurer 17-köpfigen Hydra
 %%%%
 {gen}your 18-headed hydra
-deiner 18-köpfigen Hydra
+Eurer 18-köpfigen Hydra
 %%%%
 {gen}your 19-headed hydra
-deiner 19-köpfigen Hydra
+Eurer 19-köpfigen Hydra
 %%%%
 {gen}your 20-headed hydra
-deiner 20-köpfigen Hydra
+Eurer 20-köpfigen Hydra
 %%%%
 {gen}your ice dragon
-deines Eisdrachens
+Eures Eisdrachens
 %%%%
 {gen}your steam dragon
-deines Dampfdrachens
+Eures Dampfdrachens
 %%%%
 {gen}your swamp dragon
-deines Sumpfdrachens
+Eures Sumpfdrachens
 %%%%
 {gen}your acid dragon
-deines Säuredrachens
+Eures Säuredrachens
 %%%%
 {gen}your quicksilver dragon
-deines Quecksilberdrachens
+Eures Quecksilberdrachens
 %%%%
 {gen}your iron dragon
-deines Eisendrachens
+Eures Eisendrachens
 %%%%
 {gen}your storm dragon
-deines Sturmdrachens
+Eures Sturmdrachens
 %%%%
 {gen}your golden dragon
-deines Golddrachens
+Eures Golddrachens
 %%%%
 {gen}your shadow dragon
-deines Schattendrachens
+Eures Schattendrachens
 %%%%
 {gen}your bone dragon
-deines Knochendrachens
+Eures Knochendrachens
 %%%%
 {gen}your pearl dragon
-deines Perlendrachens
+Eures Perlendrachens
 %%%%
 {gen}your elemental
-deines Elementars
+Eures Elementars
 %%%%
 {gen}your earth elemental
-deines Erdelementars
+Eures Erdelementars
 %%%%
 {gen}your fire elemental
-deines Feuerelementars
+Eures Feuerelementars
 %%%%
 {gen}your water elemental
-deines Wasserelementars
+Eures Wasserelementars
 %%%%
 {gen}your air elemental
-deines Luftelementars
+Eures Luftelementars
 %%%%
 {gen}your iron elemental
-deines Eisenelementars
+Eures Eisenelementars
 %%%%
 {gen}your elemental wellspring
-deiner elementaren Quelle
+Eurer elementaren Quelle
 %%%%
 {gen}your giant frog
-deines Riesenfroschs
+Eures Riesenfroschs
 %%%%
 {gen}your bullfrog
-deines Ochsenfroschs
+Eures Ochsenfroschs
 %%%%
 {gen}your spiny frog
-deines Stachelfroschs
+Eures Stachelfroschs
 %%%%
 {gen}your blink frog
-deines Flimmerfroschs
+Eures Flimmerfroschs
 %%%%
 {gen}your barachi
-deiner Barachi
+Eurer Barachi
 %%%%
 {gen}your floating eye
-deines schwebenden Auges
+Eures schwebenden Auges
 %%%%
 {gen}your eye of draining
-deines Auges des Schwächens
+Eures Auges des Schwächens
 %%%%
 {gen}your glowing orange brain
-deines orangen leuchtenden Gehirns
+Eures orangen leuchtenden Gehirns
 %%%%
 {gen}your great orb of eyes
-deines großen Augenkugels
+Eures großen Augenkugels
 %%%%
 {gen}your shining eye
-deines leuchtenden Auges
+Eures leuchtenden Auges
 %%%%
 {gen}your eye of devastation
-deines Auge der Verwüstungs
+Eures Auge der Verwüstungs
 %%%%
 {gen}your golden eye
-deines goldenen Auges
+Eures goldenen Auges
 %%%%
 {gen}your ophan
-deines Ophans
+Eures Ophans
 %%%%
 {gen}your hippogriff
-deines Hippogriffs
+Eures Hippogriffs
 %%%%
 {gen}your manticore
-deines Mantikors
+Eures Mantikors
 %%%%
 {gen}your minotaur
-deines Minotaurus
+Eures Minotaurus
 %%%%
 {gen}your sphinx
-deiner Sphinx
+Eurer Sphinx
 %%%%
 {gen}your harpy
-deiner Harpyie
+Eurer Harpyie
 %%%%
 {gen}your mutant beast
-deiner mutierten Bestie
+Eurer mutierten Bestie
 %%%%
 {gen}your ancestor
-deines Ahnens
+Eures Ahnens
 %%%%
 {gen}your knight
-deines Ritters
+Eures Ritters
 %%%%
 {gen}your battlemage
-deines Kampfmagiers
+Eures Kampfmagiers
 %%%%
 {gen}your hexer
-deines Hexers
+Eures Hexers
 %%%%
 {gen}your ooze
-deines Schlamms
+Eures Schlamms
 %%%%
 {gen}your jelly
-deines Gelees
+Eures Gelees
 %%%%
 {gen}your slime creature
-deines Schleimwesens
+Eures Schleimwesens
 %%%%
 {gen}your merged slime creature
-deiner verschmolzenen Schleimkreatur
+Eurer verschmolzenen Schleimkreatur
 %%%%
 {gen}your azure jelly
-deines azurblauen Gelees
+Eures azurblauen Gelees
 %%%%
 {gen}your death ooze
-deines Todesschlamms
+Eures Todesschlamms
 %%%%
 {gen}your acid blob
-deines Säureklumpens
+Eures Säureklumpens
 %%%%
 {gen}your kobold
-deines Kobolds
+Eures Kobolds
 %%%%
 {gen}your big kobold
-deines großen Kobolds
+Eures großen Kobolds
 %%%%
 {gen}your kobold demonologist
-deines Kobold-Dämonologens
+Eures Kobold-Dämonologens
 %%%%
 {gen}your lich
-deines Lichs
+Eures Lichs
 %%%%
 {gen}your ancient lich
-deines alten Lichs
+Eures alten Lichs
 %%%%
 {gen}your revenant
-deines Wiedergängers
+Eures Wiedergängers
 %%%%
 {gen}your halazid warlock
-deines halazidischen Hexenmeisters
+Eures halazidischen Hexenmeisters
 %%%%
 {gen}your mummy
-deiner Mumie
+Eurer Mumie
 %%%%
 {gen}your guardian mummy
-deiner Wächtermumie
+Eurer Wächtermumie
 %%%%
 {gen}your greater mummy
-deiner größeren Mumie
+Eurer größeren Mumie
 %%%%
 {gen}your mummy priest
-deines Mumie-Priesters
+Eures Mumie-Priesters
 %%%%
 {gen}your naga
-deines Nagas
+Eures Nagas
 %%%%
 {gen}your naga mage
-deines Naga-Magiers
+Eures Naga-Magiers
 %%%%
 {gen}your naga sharpshooter
-deines Naga-Scharfschützens
+Eures Naga-Scharfschützens
 %%%%
 {gen}your naga ritualist
-deines Naga-Ritualistens
+Eures Naga-Ritualistens
 %%%%
 {gen}your naga warrior
-deines Naga-Kriegers
+Eures Naga-Kriegers
 %%%%
 {gen}your nagaraja
-deines Nagarajas
+Eures Nagarajas
 %%%%
 {gen}your ogre
-deines Ogers
+Eures Ogers
 %%%%
 {gen}your two-headed ogre
-deines zweiköpfigen Ogers
+Eures zweiköpfigen Ogers
 %%%%
 {gen}your ogre mage
-deines Oger-Magiers
+Eures Oger-Magiers
 %%%%
 {gen}your plant
-deiner Pflanze
+Eurer Pflanze
 %%%%
 {gen}your demonic plant
-deiner dämonischen Pflanze
+Eurer dämonischen Pflanze
 %%%%
 {gen}your withered plant
-deiner verwelkten Pflanze
+Eurer verwelkten Pflanze
 %%%%
 {gen}your oklob sapling
-deines Oklob-Setzlings
+Eures Oklob-Setzlings
 %%%%
 {gen}your oklob plant
-deiner Oklob-Pflanze
+Eurer Oklob-Pflanze
 %%%%
 {gen}your bush
-deines Buschs
+Eures Buschs
 %%%%
 {gen}your burning bush
-deines brennenden Buschs
+Eures brennenden Buschs
 %%%%
 {gen}your toadstool
-deines Giftpilzs
+Eures Giftpilzs
 %%%%
 {gen}your fungus
-deines Pilzs
+Eures Pilzs
 %%%%
 {gen}your ballistomycete
-deines Ballistomycetens
+Eures Ballistomycetens
 %%%%
 {gen}your hyperactive ballistomycete
-deines hyperaktiven Ballistomycetens
+Eures hyperaktiven Ballistomycetens
 %%%%
 {gen}your briar patch
-deines Dornstrauchs
+Eures Dornstrauchs
 %%%%
 {gen}your tengu
-deines Tengus
+Eures Tengus
 %%%%
 {gen}your tengu conjurer
-deines Tengu-Zauberers
+Eures Tengu-Zauberers
 %%%%
 {gen}your tengu warrior
-deines Tengu-Kriegers
+Eures Tengu-Kriegers
 %%%%
 {gen}your tengu reaver
-deines Tengu-Häschers
+Eures Tengu-Häschers
 %%%%
 {gen}your efreet
-deines Efreets
+Eures Efreets
 %%%%
 {gen}your rakshasa
-deines Rakshasas
+Eures Rakshasas
 %%%%
 {gen}your dryad
-deiner Dryade
+Eurer Dryade
 %%%%
 {gen}your snaplasher vine
-deiner Peitscherrebe
+Eurer Peitscherrebe
 %%%%
 {gen}your snaplasher vine segment
-deines Peitscherrebesegments
+Eures Peitscherrebesegments
 %%%%
 {gen}your snake
-deiner Schlange
+Eurer Schlange
 %%%%
 {gen}your ball python
-deiner Kugelpython
+Eurer Kugelpython
 %%%%
 {gen}your adder
-deiner Kreuzotter
+Eurer Kreuzotter
 %%%%
 {gen}your water moccasin
-deines Wassermokassins
+Eures Wassermokassins
 %%%%
 {gen}your black mamba
-deiner schwarzen Mamba
+Eurer schwarzen Mamba
 %%%%
 {gen}your sea snake
-deiner Seeschlange
+Eurer Seeschlange
 %%%%
 {gen}your anaconda
-deiner Anakonda
+Eurer Anakonda
 %%%%
 {gen}your guardian serpent
-deiner Wächter-Schlange
+Eurer Wächter-Schlange
 %%%%
 {gen}your shock serpent
-deiner Schockschlange
+Eurer Schockschlange
 %%%%
 {gen}your mana viper
-deiner Manaviper
+Eurer Manaviper
 %%%%
 {gen}your troll
-deines Trolls
+Eures Trolls
 %%%%
 {gen}your iron troll
-deines Eisentrolls
+Eures Eisentrolls
 %%%%
 {gen}your deep troll
-deines Tiefentrolls
+Eures Tiefentrolls
 %%%%
 {gen}your deep troll earth mage
-deines Tiefentroll-Erdmagiers
+Eures Tiefentroll-Erdmagiers
 %%%%
 {gen}your deep troll shaman
-deines Tiefentroll-Schamanens
+Eures Tiefentroll-Schamanens
 %%%%
 {gen}your vampire
-deines Vampirs
+Eures Vampirs
 %%%%
 {gen}your vampire knight
-deines Vampir-Ritters
+Eures Vampir-Ritters
 %%%%
 {gen}your vampire mage
-deines Vampir-Magiers
+Eures Vampir-Magiers
 %%%%
 {gen}your jiangshi
-deines Jiangshis
+Eures Jiangshis
 %%%%
 {gen}your ghost
-deines Gespensts
+Eures Gespensts
 %%%%
 {gen}your phantom
-deines Phantoms
+Eures Phantoms
 %%%%
 {gen}your hungry ghost
-deines hungrigen Geistens
+Eures hungrigen Geistens
 %%%%
 {gen}your flayed ghost
-deines enthäuteten Geistens
+Eures enthäuteten Geistens
 %%%%
 {gen}your player ghost
-deines Spielergeistens
+Eures Spielergeistens
 %%%%
 {gen}your shadow
-deines Schattens
+Eures Schattens
 %%%%
 {gen}your silent spectre
-deines stillen Gespensts
+Eures stillen Gespensts
 %%%%
 {gen}your drowned soul
-deiner ertrunkenen Seele
+Eurer ertrunkenen Seele
 %%%%
 {gen}your wraith
-deines Geistens
+Eures Geistens
 %%%%
 {gen}your shadow wraith
-deines Schattengeistens
+Eures Schattengeistens
 %%%%
 {gen}your freezing wraith
-deines Frostgeistens
+Eures Frostgeistens
 %%%%
 {gen}your eidolon
-deines Eidolons
+Eures Eidolons
 %%%%
 {gen}your phantasmal warrior
-deines phantastischen Kriegers
+Eures phantastischen Kriegers
 %%%%
 {gen}your large abomination
-deines großen Greuels
+Eures großen Greuels
 %%%%
 {gen}your thrashing horror
-deines verprügelnden Grauens
+Eures verprügelnden Grauens
 %%%%
 {gen}your tentacled monstrosity
-deiner Tentakel-Monstrosität
+Eurer Tentakel-Monstrosität
 %%%%
 {gen}your Orb Guardian
-deines Kugelwächters
+Eures Kugelwächters
 %%%%
 {gen}your tentacled starspawn
-deines Tentakelsternbruts
+Eures Tentakelsternbruts
 %%%%
 {gen}your starspawn tentacle
-deines Sternbruttentakels
+Eures Sternbruttentakels
 %%%%
 {gen}your starspawn tentacle segment
-deines Sternbruttentakelsegments
+Eures Sternbruttentakelsegments
 %%%%
 {gen}your starcursed mass
-deiner sternverfluchten Masse
+Eurer sternverfluchten Masse
 %%%%
 {gen}your dream sheep
-deines Traumschafs
+Eures Traumschafs
 %%%%
 {gen}your yak
-deines Yaks
+Eures Yaks
 %%%%
 {gen}your death yak
-deines Todesyaks
+Eures Todesyaks
 %%%%
 {gen}your catoblepas
-deiner Catoblepas
+Eurer Catoblepas
 %%%%
 {gen}your elephant
-deines Elefantens
+Eures Elefantens
 %%%%
 {gen}your dire elephant
-deines Schreckenselefantens
+Eures Schreckenselefantens
 %%%%
 {gen}your hellephant
-deines Höllefantens
+Eures Höllefantens
 %%%%
 {gen}your apis
-deiner Apis
+Eurer Apis
 %%%%
 {gen}your ice beast
-deiner Eisbestie
+Eurer Eisbestie
 %%%%
 {gen}your sky beast
-deines Himmelstiers
+Eures Himmelstiers
 %%%%
 {gen}your zombie
-deines Zombies
+Eures Zombies
 %%%%
 {gen}your skeleton
-deines Skeletts
+Eures Skeletts
 %%%%
 {gen}your simulacrum
-deines Simulacrums
+Eures Simulacrums
 %%%%
 {gen}your small zombie
-deines kleinen Zombies
+Eures kleinen Zombies
 %%%%
 {gen}your small skeleton
-deines kleinen Skeletts
+Eures kleinen Skeletts
 %%%%
 {gen}your small simulacrum
-deines kleinen Simulacrums
+Eures kleinen Simulacrums
 %%%%
 {gen}your large zombie
-deines großen Zombies
+Eures großen Zombies
 %%%%
 {gen}your large skeleton
-deines großen Skeletts
+Eures großen Skeletts
 %%%%
 {gen}your large simulacrum
-deines großen Simulacrums
+Eures großen Simulacrums
 %%%%
 {gen}your spectral thing
-deiner spektralen Sache
+Eurer spektralen Sache
 %%%%
 {gen}your electric eel
-deines Zitteraals
+Eures Zitteraals
 %%%%
 {gen}your kraken
-deines Krakens
+Eures Krakens
 %%%%
 {gen}your tentacle
-deines Tentakels
+Eures Tentakels
 %%%%
 {gen}your tentacle segment
-deines Tentakelsegments
+Eures Tentakelsegments
 %%%%
 {gen}your octopode
-deines Oktopods
+Eures Oktopods
 %%%%
 {gen}your lava snake
-deiner Lavaschlange
+Eurer Lavaschlange
 %%%%
 {gen}your salamander
-deines Salamanders
+Eures Salamanders
 %%%%
 {gen}your salamander mystic
-deines Salamander-Mystikers
+Eures Salamander-Mystikers
 %%%%
 {gen}your Hellbinder
-deines Höllenbinders
+Eures Höllenbinders
 %%%%
 {gen}your Cloud Mage
-deines Wolkenmagiers
+Eures Wolkenmagiers
 %%%%
 {gen}your player
-deines Spielers
+Eures Spielers
 %%%%
 {gen}your player illusion
-deiner Spieler-Illusion
+Eurer Spieler-Illusion
 %%%%
 {gen}your dancing weapon
-deiner tanzenden Waffe
+Eurer tanzenden Waffe
 %%%%
 {gen}your spectral weapon
-deiner Spektralwaffe
+Eurer Spektralwaffe
 %%%%
 {gen}your eldritch tentacle
-deines unheimlichen Tentakels
+Eures unheimlichen Tentakels
 %%%%
 {gen}your eldritch tentacle segment
-deines unheimlichen Tentakelsegments
+Eures unheimlichen Tentakelsegments
 %%%%
 {gen}your demonspawn
-deiner Dämonenbrut
+Eurer Dämonenbrut
 %%%%
 {gen}your monstrous demonspawn
-deiner monströsen Dämonenbrut
+Eurer monströsen Dämonenbrut
 %%%%
 {gen}your gelid demonspawn
-deines geliden Dämonenbruts
+Eures geliden Dämonenbruts
 %%%%
 {gen}your infernal demonspawn
-deiner höllischen Dämonenbrut
+Eurer höllischen Dämonenbrut
 %%%%
 {gen}your torturous demonspawn
-deiner quälenden Dämonenbrut
+Eurer quälenden Dämonenbrut
 %%%%
 {gen}your blood saint
-deines Blutheiligens
+Eures Blutheiligens
 %%%%
 {gen}your warmonger
-deines Kriegstreibers
+Eures Kriegstreibers
 %%%%
 {gen}your corrupter
-deines Korruptors
+Eures Korruptors
 %%%%
 {gen}your black sun
-deiner schwarzen Sonne
+Eurer schwarzen Sonne
 %%%%
 {gen}your crimson imp
-deines karminroten Teufelchens
+Eures karminroten Teufelchens
 %%%%
 {gen}your quasit
-deines Quasits
+Eures Quasits
 %%%%
 {gen}your white imp
-deines weißen Teufelchens
+Eures weißen Teufelchens
 %%%%
 {gen}your ufetubus
-deines Ufetubus
+Eures Ufetubus
 %%%%
 {gen}your iron imp
-deines Eisenteufelchens
+Eures Eisenteufelchens
 %%%%
 {gen}your shadow imp
-deines Schattenteufelchens
+Eures Schattenteufelchens
 %%%%
 {gen}your rust devil
-deines Rostteufels
+Eures Rostteufels
 %%%%
 {gen}your orange demon
-deines orangen Dämons
+Eures orangen Dämons
 %%%%
 {gen}your red devil
-deines roten Teufels
+Eures roten Teufels
 %%%%
 {gen}your hellwing
-deines Höllenflügels
+Eures Höllenflügels
 %%%%
 {gen}your ice devil
-deines Eisteufels
+Eures Eisteufels
 %%%%
 {gen}your chaos spawn
-deiner Chaosbrut
+Eurer Chaosbrut
 %%%%
 {gen}your sun demon
-deines Sonnendämons
+Eures Sonnendämons
 %%%%
 {gen}your soul eater
-deines Seelenfressers
+Eures Seelenfressers
 %%%%
 {gen}your smoke demon
-deines Rauchdämons
+Eures Rauchdämons
 %%%%
 {gen}your neqoxec
-deiner Neqoxec
+Eurer Neqoxec
 %%%%
 {gen}your ynoxinul
-deines Ynoxinuls
+Eures Ynoxinuls
 %%%%
 {gen}your sixfirhy
-deines Sixfirhys
+Eures Sixfirhys
 %%%%
 {gen}your shadow demon
-deines Schattendämons
+Eures Schattendämons
 %%%%
 {gen}your green death
-deines grünen Tods
+Eures grünen Tods
 %%%%
 {gen}your blizzard demon
-deines Blizzarddämons
+Eures Blizzarddämons
 %%%%
 {gen}your balrug
-deines Balrugs
+Eures Balrugs
 %%%%
 {gen}your cacodemon
-deines Cacodaemons
+Eures Cacodaemons
 %%%%
 {gen}your hell beast
-deines Höllentiers
+Eures Höllentiers
 %%%%
 {gen}your hellion
-deines Teufelsbratens
+Eures Teufelsbratens
 %%%%
 {gen}your reaper
-deines Schnitters
+Eures Schnitters
 %%%%
 {gen}your lorocyproca
-deiner Lorocyproca
+Eurer Lorocyproca
 %%%%
 {gen}your tormentor
-deines Peinigers
+Eures Peinigers
 %%%%
 {gen}your Brimstone Fiend
-deines Schwefelunterweltlers
+Eures Schwefelunterweltlers
 %%%%
 {gen}your Ice Fiend
-deines Eisunterweltlers
+Eures Eisunterweltlers
 %%%%
 {gen}your Tzitzimitl
-deines Tzitzimitls
+Eures Tzitzimitls
 %%%%
 {gen}your Hell Sentinel
-deines Höllenwächters
+Eures Höllenwächters
 %%%%
 {gen}your Executioner
-deines Scharfrichters
+Eures Scharfrichters
 %%%%
 {gen}your animated tree
-deines animierten Baums
+Eures animierten Baums
 %%%%
 {gen}your golem
-deines Golems
+Eures Golems
 %%%%
 {gen}your saltling
-deines Salzlings
+Eures Salzlings
 %%%%
 {gen}your peacekeeper
-deines Friedenshüters
+Eures Friedenshüters
 %%%%
 {gen}your iron golem
-deines Eisengolems
+Eures Eisengolems
 %%%%
 {gen}your crystal guardian
-deines Kristallwächters
+Eures Kristallwächters
 %%%%
 {gen}your toenail golem
-deines Zehennagelgolems
+Eures Zehennagelgolems
 %%%%
 {gen}your electric golem
-deines Blitzgolems
+Eures Blitzgolems
 %%%%
 {gen}your ushabti
-deiner Uschabti
+Eurer Uschabti
 %%%%
 {gen}your guardian golem
-deines Wächtergolems
+Eures Wächtergolems
 %%%%
 {gen}your spellforged servitor
-deines zaubergeschmeideten Dieners
+Eures zaubergeschmeideten Dieners
 %%%%
 {gen}your ice statue
-deiner Eisstatue
+Eurer Eisstatue
 %%%%
 {gen}your obsidian statue
-deiner Obsidianstatue
+Eurer Obsidianstatue
 %%%%
 {gen}your orange crystal statue
-deiner orangen Kristallstatue
+Eurer orangen Kristallstatue
 %%%%
 {gen}your statue
-deiner Statue
+Eurer Statue
 %%%%
 {gen}your training dummy
-deiner Trainingspuppe
+Eurer Trainingspuppe
 %%%%
 {gen}your pillar of salt
-deiner Säule des Salzes
+Eurer Säule des Salzes
 %%%%
 {gen}your block of ice
-deines Eisblocks
+Eures Eisblocks
 %%%%
 {gen}your diamond obelisk
-deines Diamantobelisks
+Eures Diamantobelisks
 %%%%
 {gen}your lightning spire
-deines Blitzturms
+Eures Blitzturms
 %%%%
 {gen}your gargoyle
-deines Gargoyles
+Eures Gargoyles
 %%%%
 {gen}your war gargoyle
-deines Kriegsgargoyles
+Eures Kriegsgargoyles
 %%%%
 {gen}your molten gargoyle
-deines geschmolzenen Gargoyles
+Eures geschmolzenen Gargoyles
 %%%%
 {gen}your pandemonium lord
-deines Pandemoniumsherrns
+Eures Pandemoniumsherrns
 %%%%
 {gen}your hell lord
-deines Höllenherrns
+Eures Höllenherrns
 %%%%
 {gen}your ball lightning
-deines Kugelblitzs
+Eures Kugelblitzs
 %%%%
 {gen}your ballistomycete spore
-deiner Ballistomycetenspore
+Eurer Ballistomycetenspore
 %%%%
 {gen}your lost soul
-deiner verlorenen Seele
+Eurer verlorenen Seele
 %%%%
 {gen}your lurking horror
-deines lauernden Grauens
+Eures lauernden Grauens
 %%%%
 {gen}your orb of fire
-deiner Feuerkugel
+Eurer Feuerkugel
 %%%%
 {gen}your orb of destruction
-deiner Kugel der Zerstörung
+Eurer Kugel der Zerstörung
 %%%%
 {gen}your fulminant prism
-deines fulminanten Prismas
+Eures fulminanten Prismas
 %%%%
 {gen}your wretched star
-deines elenden Sterns
+Eures elenden Sterns
 %%%%
 {gen}your battlesphere
-deiner Kampfsphäre
+Eurer Kampfsphäre
 %%%%
 {gen}your death cob
-deines Todeskolbens
+Eures Todeskolbens
 %%%%
 {gen}your moon troll
-deines Mondtrolls
+Eures Mondtrolls
 %%%%
 {gen}your foxfire
-deines Fuchsfeuers
+Eures Fuchsfeuers
 %%%%
 {gen}your nameless horror
-deines namenlosen Horrors
+Eures namenlosen Horrors
 %%%%
 {gen}your sensed monster
-deines gespürten Monsters
+Eures gespürten Monsters
 %%%%
 {gen}your friendly sensed monster
-deines freundlichen gespürten Monsters
+Eures freundlichen gespürten Monsters
 %%%%
 {gen}your trivial sensed monster
-deines trivialen gespürten Monsters
+Eures trivialen gespürten Monsters
 %%%%
 {gen}your easy sensed monster
-deines leichten gespürten Monsters
+Eures leichten gespürten Monsters
 %%%%
 {gen}your tough sensed monster
-deines harten gespürten Monsters
+Eures harten gespürten Monsters
 %%%%
 {gen}your nasty sensed monster
-deines furchtbaren gespürten Monsters
+Eures furchtbaren gespürten Monsters
 %%%%

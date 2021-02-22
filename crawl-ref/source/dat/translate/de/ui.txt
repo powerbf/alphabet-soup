@@ -82,7 +82,7 @@ Neues Spiel
 " (WIZ)"
 %%%%
 Enter your name:
-Gib deinen Namen ein:
+Gebt Euren Namen ein:
 %%%%
 Choices:
 Optionen:
@@ -143,24 +143,24 @@ ctrl-p
 # "You are a <species>." or "You are a <background>."
 %%%%
 You are a %s.
-Du bist %s.
+Ihr seid %s.
 %%%%
 You are an %s.
-Du bist %s.
+Ihr seid %s.
 %%%%
 # "You are a <species> <background>."
 %%%%
 You are a %s %s.
-Du bist %s %s.
+Ihr seid %s %s.
 %%%%
 You are an %s %s.
-Du bist %s %s.
+Ihr seid %s %s.
 %%%%
 Please select your species.
-Bitte wähle deine Spezies.
+Bitte wählt Eure Spezies.
 %%%%
 Please select your background.
-Bitte wähle deinen Hintergrund.
+Bitte wählt Euren Hintergrund.
 %%%%
 # species groupings
 %%%%
@@ -210,10 +210,10 @@ Abenteurer
 # species/background options - first column desciptions
 %%%%
 Picks a random recommended species based on your current background choice.
-Wählt eine zufällige vorgeschlagene Spezies für deinen Hintergrund.
+Wählt eine zufällige vorgeschlagene Spezies für Euren Hintergrund.
 %%%%
 Picks a random recommended background based on your current species choice.
-Wählt einen zufälligen vorgeschlagenen Hintergrund für deine Spezies.
+Wählt einen zufälligen vorgeschlagenen Hintergrund für Eure Spezies.
 %%%%
 Shuffles through random recommended character combinations until you accept one.
 Stellt zufällige vorgeschlagene Charaktere vor
@@ -265,19 +265,19 @@ Shuffles through random character combinations until you accept one.
 Stellt zufällige Charaktere vor.
 %%%%
 Lets you change your species choice.
-Deine Spezies-Auswahl ändern.
+Eure Spezies-Auswahl ändern.
 %%%%
 Lets you change your background choice.
-Deine Hintergrund-Auswahl ändern.
+Eure Hintergrund-Auswahl ändern.
 %%%%
 Lets you pick your background first.
-Wähle zuerst deinen Hintergrund.
+Wählt zuerst Euren Hintergrund.
 %%%%
 Lets you pick your species first.
-Wähle zuerst deine Spezies.
+Wähle zuerst Eure Spezies.
 %%%%
 Play a new game with your previous choice.
-Ein spiel mit deiner letzten Auswahl spielen.
+Ein spiel mit Eurer letzten Auswahl spielen.
 %%%%
 # species/background - other messages
 %%%%
@@ -336,15 +336,15 @@ Picks a random weapon
 Wählt eine zufällige Waffe
 %%%%
 Lets you return back to Character choice menu
-Nimmt du zurück zu Charakter-Auswahl-Menü
+Führt zurück zu Charakter-Auswahl-Menü
 %%%%
 Select your old weapon
-Wähle deine letzte Waffe
+Wähle Eure letzte Waffe
 %%%%
 # name entry
 %%%%
 What is your name today?
-Wie heißt du heute?
+Wie heißt Ihr heute?
 %%%%
 Esc - Quit
 Esc - Beenden
@@ -359,7 +359,7 @@ That's a silly name!
 Das ist ein alberner Name!
 %%%%
 You have an existing game under this name; really overwrite? [Y/n]
-Du hast schon ein Spiel mit dieser Name; Wirklich überschreiben? [Y/n]
+Ihr habt schon ein Spiel mit dieser Name; Wirklich überschreiben? [Y/n]
 %%%%
 # seeded games
 %%%%
@@ -420,7 +420,7 @@ Picks a random sprint map
 Wählt einen zufälligen Dungeon-Sprint-Plan
 %%%%
 Select your previous sprint map and character
-Wähle deine letzte Dungeon-Pan and Charakter
+Wähle Eure letzte Dungeon-Pan and Charakter
 %%%%
 Custom seed:
 Benutzerdefinierter Samen:
@@ -451,7 +451,7 @@ Lektion 5: Götter und Göttliche Fähigkeiten
 # other
 %%%%
 Trunk games don't count for the tournament, you want %s. Play trunk anyway? (Y/N)
-Trunk-Spiele gelten nicht für das Turnier. Du willst veilleicht %s. Trunk trotzdem spielen? (Y/N)
+Trunk-Spiele gelten nicht für das Turnier. Ihr wollt veilleicht %s. Trunk trotzdem spielen? (Y/N)
 %%%%
 
 ###############################################################
@@ -834,7 +834,7 @@ EXPLORE
 ERKUNDEN
 %%%%
 Your terminal window is too small; please resize to at least %d,%d
-Dein Terminalfenster ist zu klein; Bitte ändere die Größe auf mindestens %d,%d
+Euer Terminalfenster ist zu klein; Bitte ändere die Größe auf mindestens %d,%d
 %%%%
 There were no monsters in sight!
 Es gab keine Monster im Sicht!
@@ -843,10 +843,10 @@ There are no monsters in sight!
 Es gibt keine Monster im Sicht!
 %%%%
 You could see %s.
-Du sahst %s.
+Ihr saht %s.
 %%%%
 You can see %s.
-Du siehst %s.
+Ihr seht %s.
 %%%%
 # some items become "melded" when you change form
 %%%%
@@ -1045,7 +1045,7 @@ Wand to zap?
 Zauberstab zu benutzen?
 %%%%
 Your Spells
-Deine Zaubersprüche
+Eure Zaubersprüche
 %%%%
 Cast spell
 Zauberspruch wirken
@@ -1218,7 +1218,7 @@ Memorise spells
 Zaubersprüche erlernen
 %%%%
 You cannot memorise this spell now.
-Du kannst diesen Zauber jetzt nicht erlernen.
+Ihr könnt diesen Zauber jetzt nicht erlernen.
 %%%%
 Browse message history
 Nachrichtenverlauf sehen
@@ -1249,7 +1249,7 @@ Cast spells
 Zaubersprüche wirken
 %%%%
 You cannot cast this spell right now.
-Du kannst diesen Zauber im Moment nich wirken.
+Ihr könnt diesen Zauber im Moment nich wirken.
 %%%%
 Cast
 Wirken
