@@ -145,25 +145,25 @@ einem {adj-en}%sLajatang
 # Note that %s is a placeholder for any adjectives
 %%%%
 {dat}your %shunting sling
-deiner {adj-en}%s Schleuder
+Eurer {adj-en}%s Schleuder
 %%%%
 {dat}your %sfustibalus
-deinem {adj-en}%sFustibalus
+Eurem {adj-en}%sFustibalus
 %%%%
 {dat}your %shand crossbow
-deiner {adj-en}%s Handarmbrust
+Eurer {adj-en}%s Handarmbrust
 %%%%
 {dat}your %sarbalest
-deiner {adj-en}%s Armbrust
+Eurer {adj-en}%s Armbrust
 %%%%
 {dat}your %striple crossbow
-deiner {adj-en}%s Dreifach-Armbrust
+Eurer {adj-en}%s Dreifach-Armbrust
 %%%%
 {dat}your %sshortbow
-deinem {adj-en}%sKurzbogen
+Eurem {adj-en}%sKurzbogen
 %%%%
 {dat}your %slongbow
-deinem {adj-en}%sLangbogen
+Eurem {adj-en}%sLangbogen
 %%%%
 
 #################################
