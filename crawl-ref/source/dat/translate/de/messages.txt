@@ -55,7 +55,7 @@ Ihr könnt {acc}%s nicht anrufen, während Ihr nicht atmen könnt.
 You cannot call out to %s while silenced.
 Ihr könnt {acc}%s nicht anrufen, während Ihr schweigend seid.
 %%%%
-# Deck of cards
+# NOTE: Deck of cards
 That deck is empty!
 Der Stapel ist leer!
 %%%%
