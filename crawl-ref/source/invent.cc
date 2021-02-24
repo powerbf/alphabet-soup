@@ -30,6 +30,7 @@
 #include "item-status-flag-type.h"
 #include "known-items.h"
 #include "libutil.h"
+#include "localize.h"
 #include "macro.h"
 #include "message.h"
 #include "options.h"
@@ -79,6 +80,8 @@ InvEntry::InvEntry(const item_def &i)
     }
     else
         text = i.name(DESC_A, false);
+
+    text = localize(text);
 
     if (item_is_stationary_net(i))
     {
@@ -355,14 +358,18 @@ void InvMenu::set_preselect(const vector<SelItem> *pre)
 
 string slot_description()
 {
-    return make_stringf("%d/%d slots", inv_count(), ENDOFPACK);
+    return localize("%d/%d slots", inv_count(), ENDOFPACK);
 }
 
 void InvMenu::set_title(const string &s)
 {
-    set_title(new InvTitle(this, s.empty() ? "Inventory: " + slot_description()
-                                           : s,
-                           title_annotate));
+    string t;
+    if (s.empty())
+        t = localize("Inventory:") + " " + slot_description();
+    else
+        t = localize(s);
+
+    set_title(new InvTitle(this, t, title_annotate));
 }
 
 int InvMenu::pre_process(int key)
