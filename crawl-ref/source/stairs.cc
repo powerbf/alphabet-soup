@@ -408,7 +408,7 @@ static void _rune_effect(dungeon_feature_type ftype)
         {
             ASSERT(runes.size() >= 3);
 
-            mprf("You insert the %s rune into the lock.", rune_type_name(runes[2]));
+            mprf("You insert %s into the lock.", rune_short_name(runes[2]).c_str());
 #ifdef USE_TILE_LOCAL
             view_add_tile_overlay(you.pos(), tileidx_zap(rune_colour(runes[2])));
             viewwindow(false);
@@ -419,7 +419,7 @@ static void _rune_effect(dungeon_feature_type ftype)
             mpr("The lock glows eerily!");
             // included in default force_more_message
 
-            mprf("You insert the %s rune into the lock.", rune_type_name(runes[1]));
+            mprf("You insert %s into the lock.", rune_short_name(runes[1]).c_str());
             big_cloud(CLOUD_BLUE_SMOKE, &you, you.pos(), 20, 7 + random2(7));
             viewwindow();
             update_screen();
@@ -427,7 +427,7 @@ static void _rune_effect(dungeon_feature_type ftype)
             // included in default force_more_message
         }
 
-        mprf("You insert the %s rune into the lock.", rune_type_name(runes[0]));
+        mprf("You insert %s into the lock.", rune_short_name(runes[0]).c_str());
 
         if (silenced(you.pos()))
             mpr("The gate opens wide!");

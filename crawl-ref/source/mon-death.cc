@@ -40,6 +40,7 @@
 #include "items.h"
 #include "kills.h"
 #include "libutil.h"
+#include "localize.h"
 #include "mapdef.h"
 #include "mapmark.h"
 #include "message.h"
@@ -1813,23 +1814,27 @@ item_def* monster_die(monster& mons, killer_type killer,
         {
             if (death_message)
             {
+                string msg;
                 if (killer == KILL_YOU_CONF
                     && (anon || !invalid_monster_index(killer_index)))
                 {
-                    mprf(MSGCH_MONSTER_DAMAGE, MDAM_DEAD, "%s is %s!",
-                         mons.name(DESC_THE).c_str(),
-                         exploded                        ? "blown up" :
-                         wounded_damaged(targ_holy)      ? "destroyed"
-                                                         : "killed");
+                    msg = "%s is ";
+                    msg += (exploded                        ? "blown up" :
+                            wounded_damaged(targ_holy)      ? "destroyed"
+                                                            : "killed");
+                    msg += "!";
                 }
                 else
                 {
-                    mprf(MSGCH_MONSTER_DAMAGE, MDAM_DEAD, "You %s %s!",
-                         exploded                        ? "blow up" :
-                         wounded_damaged(targ_holy)      ? "destroy"
-                                                         : "kill",
-                         mons.name(DESC_THE).c_str());
+                    msg = "You ";
+                    msg += (exploded                        ? "blow up" :
+                            wounded_damaged(targ_holy)      ? "destroy"
+                                                            : "kill");
+                    msg += " %s!";
                 }
+
+                mprf(MSGCH_MONSTER_DAMAGE, MDAM_DEAD, msg.c_str(), mons.name(DESC_THE).c_str());
+
                 // If this monster would otherwise give xp but didn't because
                 // it grants no reward or was neutral, give a message.
                 if (!gives_player_xp

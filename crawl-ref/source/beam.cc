@@ -4129,8 +4129,7 @@ void bolt::handle_stop_attack_prompt(monster* mon)
     else if (flavour == BEAM_ENSLAVE && you.duration[DUR_TOXIC_RADIANCE]
              && mon->res_poison() <= 0)
     {
-        string verb = make_stringf("enslave %s", mon->name(DESC_THE).c_str());
-        if (otr_stop_summoning_prompt(verb))
+        if (otr_stop_summoning_prompt("enslave", mon->name(DESC_THE)))
         {
             beam_cancelled = true;
             finish_beam();
@@ -6335,7 +6334,7 @@ string bolt::get_short_name() const
 
     if (item != nullptr && item->defined())
     {
-        return item->name(DESC_A, false, false, false, false,
+        return item->name(DESC_A, false, false, false,
                           ISFLAG_IDENT_MASK | ISFLAG_COSMETIC_MASK);
     }
 

@@ -1,0 +1,169 @@
+###############################################################################
+#
+# German translations for player-related stuff
+#
+###############################################################################
+%%%%
+
+##############################################
+# Player species
+##############################################
+%%%%
+Barachi
+Barachi
+%%%%
+Centaur
+Zentaur
+%%%%
+Deep Dwarf
+Tiefenzwerg
+%%%%
+Deep Elf
+Tiefenelfe
+%%%%
+Demigod
+Halbgott
+%%%%
+Demonspawn
+Dämonenbrut
+%%%%
+Draconian
+Drakonier
+%%%%
+Felid
+Felid
+%%%%
+Formicid
+Formicid
+%%%%
+Gargoyle
+Gargoyle
+%%%%
+Ghoul
+Ghul
+%%%%
+Gnoll
+Gnoll
+%%%%
+Halfling
+Halbling
+%%%%
+Hill Orc
+Hügelork
+%%%%
+Human
+Mensch
+%%%%
+Kobold
+Kobold
+%%%%
+Merfolk
+Meervolk
+%%%%
+Minotaur
+Minotaurus
+%%%%
+Mummy
+Mumie
+%%%%
+Naga
+Naga
+%%%%
+Octopode
+Oktopode
+%%%%
+Ogre
+Oger
+%%%%
+Spriggan
+Spriggan
+%%%%
+Tengu
+Tengu
+%%%%
+Troll
+Troll
+%%%%
+Vampire
+Vampir
+%%%%
+Vine Stalker
+Rebjäger
+%%%%
+
+##############################################
+# Player Backgrounds
+##############################################
+%%%%
+Fighter
+Kämpfer
+%%%%
+Gladiator
+Gladiator
+%%%%
+Monk
+Mönch
+%%%%
+Hunter
+Jäger
+%%%%
+Assassin
+Assassine
+%%%%
+Berserker
+Berserker
+%%%%
+Abyssal Knight
+Abgrundritter
+%%%%
+Chaos Knight
+Chaosritter
+%%%%
+Skald
+Skalde
+%%%%
+Enchanter
+Verzauberer
+%%%%
+Transmuter
+Verwandler
+%%%%
+Arcane Marksman
+Arkaner Scharfschütze
+%%%%
+Warper
+Warper
+%%%%
+Wizard
+Zauberer
+%%%%
+Conjurer
+Beschwörer
+%%%%
+Summoner
+Herbeirufer
+%%%%
+Necromancer
+Nekromant
+%%%%
+Fire Elementalist
+Feuermagier
+%%%%
+Ice Elementalist
+Eismagier
+%%%%
+Air Elementalist
+Luftmagier
+%%%%
+Earth Elementalist
+Erdmagier
+%%%%
+Venom Mage
+Giftmagier
+%%%%
+Artificer
+Artificer
+%%%%
+Wanderer
+Wanderer
+%%%%

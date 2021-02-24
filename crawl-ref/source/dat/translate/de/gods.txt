@@ -1,0 +1,191 @@
+###############################################################################
+#
+# German translations - miscellaneous
+#
+###############################################################################
+%%%%
+
+########################
+# God names - nominative
+########################
+%%%%
+Ashenzari
+Aschenzari
+%%%%
+Beogh
+Beogh
+%%%%
+Cheibriados
+Cheibriados
+%%%%
+Dithmenos
+Dithmenos
+%%%%
+Elyvilon
+Elyvilon
+%%%%
+Fedhas
+Fedhas
+%%%%
+Fedhas Madash
+Fedhas Madash
+%%%%
+Gozag
+Gozag
+%%%%
+Hepliaklqana
+Hepliaklqana
+%%%%
+Jiyva
+Jiyva
+%%%%
+Kikubaaqudgha
+Kikubaaqudgha
+%%%%
+Lugonu
+Lugonu
+%%%%
+Makhleb
+Makhleb
+%%%%
+Nemelex
+Nemelex
+%%%%
+Nemelex Xobeh
+Nemelex Xobeh
+%%%%
+Okawaru
+Okawaru
+%%%%
+Qazlal
+Qazlal
+%%%%
+Ru
+Ru
+%%%%
+Sif Muna
+Sif Muna
+%%%%
+Trog
+Trog
+%%%%
+Uskayaw
+Uskayaw
+%%%%
+Vehumet
+Vehumet
+%%%%
+Xom
+Xom
+%%%%
+Yredelemnul
+Yredelemnul
+%%%%
+Zin
+Zin
+%%%%
+the Shining One
+der Glänzende
+%%%%
+the Wu Jian Council
+das Wu Jian Konzil
+%%%%
+
+########################
+# God names - genitive
+########################
+%%%%
+{gen}Ashenzari
+Aschenzaris
+%%%%
+{gen}Beogh
+Beoghs
+%%%%
+{gen}Cheibriados
+Cheibriados'
+%%%%
+{gen}Dithmenos
+Dithmenos'
+%%%%
+{gen}Elyvilon
+Elyvilons
+%%%%
+{gen}Fedhas
+Fedhas'
+%%%%
+{gen}Gozag
+Gozags
+%%%%
+{gen}Hepliaklqana
+Hepliaklqanas
+%%%%
+{gen}Jiyva
+Jiyvas
+%%%%
+{gen}Kikubaaqudgha
+Kikubaaqudghas
+%%%%
+{gen}Lugonu
+Lugonus
+%%%%
+{gen}Makhleb
+Makhlebs
+%%%%
+{gen}Nemelex Xobeh
+Nemelex Xobehs
+%%%%
+{gen}Okawaru
+Okawarus
+%%%%
+{gen}Qazlal
+Qazlals
+%%%%
+{gen}Ru
+Rus
+%%%%
+{gen}Sif Muna
+Sif Munas
+%%%%
+{gen}Trog
+Trogs
+%%%%
+{gen}Uskayaw
+Uskayaws
+%%%%
+{gen}Vehumet
+Vehumets
+%%%%
+{gen}Xom
+Xoms
+%%%%
+{gen}Yredelemnul
+Yredelemnuls
+%%%%
+{gen}Zin
+Zins
+%%%%
+{gen}the Shining One
+des Glänzenden
+%%%%
+{gen}the Wu Jian Council
+des Wu Jian Konzils
+%%%%
+
+########################
+# God names - accusative
+########################
+%%%%
+{acc}the Shining One
+den Glänzenden
+%%%%
+
+########################
+# God names - dative
+########################
+%%%%
+{dat}the Shining One
+dem Glänzenden
+%%%%
+{dat}the Wu Jian Council
+dem Wu Jian Konzil
+%%%%

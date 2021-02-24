@@ -2471,6 +2471,6 @@ string ShoppingList::describe_thing(const CrawlHashTable& thing,
 // Item name without curse-status or inscription.
 string ShoppingList::item_name_simple(const item_def& item, bool ident)
 {
-    return item.name(DESC_PLAIN, false, ident, false, false,
+    return item.name(DESC_PLAIN, false, ident, false,
                      ISFLAG_KNOW_CURSE);
 }

@@ -33,6 +33,7 @@
 #include "item-use.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localize.h"
 #include "makeitem.h"
 #include "notes.h"
 #include "options.h"
@@ -127,8 +128,7 @@ static string _item_inscription(const item_def &item)
 }
 
 string item_def::name(description_level_type descrip, bool terse, bool ident,
-                      bool with_inscription, bool quantity_in_words,
-                      iflags_t ignore_flags) const
+                      bool with_inscription, iflags_t ignore_flags) const
 {
     if (crawl_state.game_is_arena())
     {
@@ -216,10 +216,7 @@ string item_def::name(description_level_type descrip, bool terse, bool ident,
         if (descrip != DESC_BASENAME && descrip != DESC_QUALNAME
             && descrip != DESC_DBNAME && !always_plural)
         {
-            if (quantity_in_words)
-                buff << number_in_words(quantity) << " ";
-            else
-                buff << quantity << " ";
+            buff << quantity << " ";
         }
     }
     else
@@ -932,6 +929,18 @@ const char* rune_type_name(short p)
     case RUNE_GLOORX_VLOQ: return "dark";
     default:               return "buggy";
     }
+}
+
+// Get rune short name ( e.g. "the abyssal rune")
+const string rune_short_name(short p)
+{
+    return string("the ") + rune_type_name(p) + " rune";
+}
+
+// Get rune long name ( e.g. "the abyssal rune of Zot")
+const string rune_long_name(short p)
+{
+    return rune_short_name(p) + " of Zot";
 }
 
 static string misc_type_name(int type)
@@ -2119,9 +2128,7 @@ static MenuEntry* _fixup_runeorb_entry(MenuEntry* me)
         else
             colour = DARKGREY;
 
-        string text = "<";
-        text += colour_to_str(colour);
-        text += ">";
+        string text;
         text += rune_type_name(rune);
         text += " rune of Zot";
         if (!you.runes[rune])
@@ -2130,19 +2137,31 @@ static MenuEntry* _fixup_runeorb_entry(MenuEntry* me)
             text += branches[rune_location(rune)].longname;
             text += ")";
         }
-        text += "</";
-        text += colour_to_str(colour);
-        text += ">";
-        entry->text = text;
+        text = localize(text);
+
+        string formatted_text;
+        formatted_text = "<";
+        formatted_text += colour_to_str(colour);
+        formatted_text += ">";
+        formatted_text += text;
+        formatted_text += "</";
+        formatted_text += colour_to_str(colour);
+        formatted_text += ">";
+        entry->text = formatted_text;
     }
     else if (entry->item->is_type(OBJ_ORBS, ORB_ZOT))
     {
+        string text = "The Orb of Zot";
         if (player_has_orb())
-            entry->text = "<magenta>The Orb of Zot</magenta>";
+        {
+            text = localize(text);
+            entry->text = "<magenta>" + text + "</magenta>";
+        }
         else
         {
-            entry->text = "<darkgrey>The Orb of Zot"
-                          " (the Realm of Zot)</darkgrey>";
+            text += " (the Realm of Zot)";
+            text = localize(text);
+            entry->text = "<darkgrey>" + text + "</darkgrey>";
         }
     }
 

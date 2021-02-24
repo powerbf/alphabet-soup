@@ -111,9 +111,8 @@ chunk
 
 # Makefile-generated junk
 makefile.dep
-/source/*.d
+*.d
 /source/*.ilk
-/source/rltiles/*.d
 /source/.cflags
 /source/.ver
 /source/rltiles/.cflags
@@ -134,7 +133,6 @@ makefile.dep
 
 # Level-compiler generated files.
 /source/util/*.cc
-/source/util/*.d
 /source/util/*.h
 
 # Temporaries during configuration.
@@ -246,3 +244,6 @@ icon.png
 
 # generated files for catch2-tests
 /source/catch2-tests/*.d
+
+# generated translation files
+/source/dat/locale

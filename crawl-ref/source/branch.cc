@@ -348,15 +348,10 @@ string branch_rune_desc(branch_type br, bool remaining_only)
 
     for (rune_type rune : branches[br].runes)
         if (!(remaining_only && you.runes[rune]))
-            rune_names.push_back(rune_type_name(rune));
-
-    if (!rune_names.empty())
-    {
-        desc = make_stringf("This branch contains the %s rune%s of Zot.",
-                            comma_separated_line(begin(rune_names),
-                                                 end(rune_names)).c_str(),
-                            rune_names.size() > 1 ? "s" : "");
-    }
+        {
+            desc += desc.empty() ? "" : " ";
+            desc += make_stringf("This branch contains %s.", rune_long_name(rune).c_str());
+        }
 
     return desc;
 }

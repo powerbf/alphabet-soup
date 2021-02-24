@@ -3344,12 +3344,12 @@ static string _describe_monster_weapon(const monster_info& mi, bool ident)
     if (weap && (!ident || item_type_known(*weap)))
     {
         name1 = weap->name(DESC_A, false, false, true,
-                           false, ISFLAG_KNOW_CURSE);
+                           ISFLAG_KNOW_CURSE);
     }
     if (alt && (!ident || item_type_known(*alt)) && mi.wields_two_weapons())
     {
         name2 = alt->name(DESC_A, false, false, true,
-                          false, ISFLAG_KNOW_CURSE);
+                          ISFLAG_KNOW_CURSE);
     }
 
     if (name1.empty() && !name2.empty())
@@ -3359,7 +3359,7 @@ static string _describe_monster_weapon(const monster_info& mi, bool ident)
     {
         item_def dup = *weap;
         ++dup.quantity;
-        name1 = dup.name(DESC_A, false, false, true, true,
+        name1 = dup.name(DESC_A, false, false, true,
                          ISFLAG_KNOW_CURSE);
         name2.clear();
     }

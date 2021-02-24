@@ -326,17 +326,16 @@ void trj_spawn_fineff::fire()
             mprf("%s spits out another jelly.", monnam.c_str());
         else
         {
-            mprf("%s spits out %s more jellies.",
-                 monnam.c_str(),
-                 number_in_words(spawned).c_str());
+            mprf("%s spits out %d more jellies.",
+                 monnam.c_str(), spawned);
         }
     }
     else if (spawned == 1)
         mpr("One of the Royal Jelly's fragments survives.");
     else
     {
-        mprf("The dying Royal Jelly spits out %s more jellies.",
-             number_in_words(spawned).c_str());
+        mprf("The dying Royal Jelly spits out %d more jellies.",
+             spawned);
     }
 }
 
