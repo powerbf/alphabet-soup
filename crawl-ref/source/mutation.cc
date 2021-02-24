@@ -676,15 +676,14 @@ string describe_mutations(bool drop_title)
         result += _annotate_form_based("You are amphibious.",
                                        !form_likes_water());
 
-        const string num_tentacles =
-               number_in_words(you.has_usable_tentacles(false));
+        const int num_tentacles = you.has_usable_tentacles(false);
         result += _annotate_form_based(
-            make_stringf("You can wear up to %s rings at the same time.",
-                         num_tentacles.c_str()),
+            make_stringf("You can wear up to %d rings at the same time.",
+                         num_tentacles),
             !get_form()->slot_available(EQ_RING_EIGHT));
         result += _annotate_form_based(
-            make_stringf("You can use your tentacles to constrict %s enemies at once.",
-                         num_tentacles.c_str()),
+            make_stringf("You can use your tentacles to constrict %d enemies at once.",
+                         num_tentacles),
             !form_keeps_mutations());
     }
 

@@ -11,6 +11,7 @@
 #include "clua.h"
 #include "delay.h"
 #include "libutil.h"
+#include "localize.h"
 #include "menu.h"
 #include "message.h"
 #include "options.h"
@@ -38,7 +39,7 @@ bool yes_or_no(const char* fmt, ...)
 
     if (cancellable_get_line(buf, sizeof buf))
         return false;
-    if (strcasecmp(buf, "yes") != 0)
+    if (strcasecmp(buf, "yes") != 0 && strcasecmp(buf, localize("yes").c_str()) != 0)
         return false;
 
     return true;
@@ -75,8 +76,8 @@ bool yesno(const char *str, bool allow_lowercase, int default_answer, bool clear
     if (use_popup)
     {
         status = new MenuEntry("", MEL_SUBTITLE);
-        MenuEntry * const y_me = new MenuEntry("Yes", MEL_ITEM, 1, 'Y');
-        MenuEntry * const n_me = new MenuEntry("No", MEL_ITEM, 1, 'N');
+        MenuEntry * const y_me = new MenuEntry(localize("Yes"), MEL_ITEM, 1, localize_char('Y'));
+        MenuEntry * const n_me = new MenuEntry(localize("No"), MEL_ITEM, 1, localize_char('N'));
         y_me->add_tile(tile_def(TILEG_PROMPT_YES));
         n_me->add_tile(tile_def(TILEG_PROMPT_NO));
 
@@ -133,17 +134,17 @@ bool yesno(const char *str, bool allow_lowercase, int default_answer, bool clear
         if (clear_after)
             clear_messages();
 
-        if (tmp == 'N')
+        if (tmp == localize_char('N'))
             return false;
-        else if (tmp == 'Y')
+        else if (tmp == localize_char('Y'))
             return true;
         else if (!noprompt)
         {
             bool upper = !allow_lowercase
-                         && (tmp == 'n' || tmp == 'y'
+                         && (tmp == localize_char('n') || tmp == localize_char('y')
                              || crawl_state.game_is_hints_tutorial());
-            const string pr = make_stringf("%s[Y]es or [N]o only, please.",
-                                           upper ? "Uppercase " : "");
+            const string pr = localize((upper ? "Uppercase " : "")
+                                       + string("[Y]es or [N]o only, please."));
             if (use_popup && status) // redundant, but will quiet a warning
                 status->text = pr;
             else
@@ -157,7 +158,7 @@ static string _list_alternative_yes(char yes1, char yes2, bool lowered = false,
 {
     string help = "";
     bool print_yes = false;
-    if (yes1 != 'Y')
+    if (yes1 != localize_char('Y'))
     {
         if (lowered)
             help += toalower(yes1);
@@ -166,7 +167,7 @@ static string _list_alternative_yes(char yes1, char yes2, bool lowered = false,
         print_yes = true;
     }
 
-    if (yes2 != 'Y' && yes2 != yes1)
+    if (yes2 != localize_char('Y') && yes2 != yes1)
     {
         if (print_yes)
             help += "/";
@@ -200,7 +201,7 @@ static string _list_allowed_keys(char yes1, char yes2, bool lowered = false,
     result += (lowered ? "/(n)o/(q)uit" : "/(N)o/(Q)uit");
     result += "]";
 
-    return result;
+    return localize(result);
 }
 
 // Like yesno(), but returns 0 for no, 1 for yes, and -1 for quit.
@@ -244,31 +245,32 @@ int yesnoquit(const char* str, bool allow_lowercase, int default_answer, bool al
         if (clear_after)
             clear_messages();
 
-        if (tmp == 'N')
+        if (tmp == localize_char('N'))
             return 0;
-        else if (tmp == 'Y' || tmp == alt_yes || tmp == alt_yes2)
+        else if (tmp == localize_char('Y') || tmp == localize_char(alt_yes) || tmp == localize_char(alt_yes2))
             return 1;
         else if (allow_all)
         {
-            if (tmp == 'A')
+            if (tmp == localize_char('A'))
                 return 2;
             else
             {
                 bool upper = !allow_lowercase
-                             && (tmp == 'n' || tmp == 'y' || tmp == 'a'
+                             && (tmp == localize_char('n') || tmp == localize_char('y')
+                                 || tmp == localize_char('a')
                                  || crawl_state.game_is_hints_tutorial());
-                mprf("Choose %s[Y]es%s, [N]o, [Q]uit, or [A]ll!",
-                     upper ? "uppercase " : "",
+                mprf(upper ? "Choose uppercase [Y]es%s, [N]o, [Q]uit, or [A]ll!" :
+                             "Choose [Y]es%s, [N]o, [Q]uit, or [A]ll!",
                      _list_alternative_yes(alt_yes, alt_yes2, false, true).c_str());
             }
         }
         else
         {
             bool upper = !allow_lowercase
-                         && (tmp == 'n' || tmp == 'y'
+                         && (tmp == localize_char('n') || tmp == localize_char('y')
                              || crawl_state.game_is_hints_tutorial());
-            mprf("%s[Y]es%s, [N]o or [Q]uit only, please.",
-                 upper ? "Uppercase " : "",
+            mprf(upper ? "Uppercase [Y]es%s, [N]o or [Q]uit only, please." :
+                         "[Y]es%s, [N]o or [Q]uit only, please.",
                  _list_alternative_yes(alt_yes, alt_yes2, false, true).c_str());
         }
     }

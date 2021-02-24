@@ -28,6 +28,7 @@
 #include "god-passive.h" // passive_t::convert_orcs
 #include "hints.h"
 #include "item-prop.h"
+#include "localize.h"
 #include "mapdef.h"
 #include "message.h"
 #include "mon-behv.h"
@@ -314,11 +315,9 @@ bool melee_attack::handle_phase_dodged()
             player_warn_miss();
         else
         {
-            mprf("%s%s misses %s%s",
-                 atk_name(DESC_THE).c_str(),
-                 evasion_margin_adverb().c_str(),
-                 defender_name(true).c_str(),
-                 attack_strength_punctuation(damage_done).c_str());
+            string fmt = "%s" + evasion_margin_adverb() + " misses %s.";
+            string msg = localize(fmt, atk_name(DESC_THE), defender_name(true));
+            mpr(msg);
         }
     }
 
@@ -482,16 +481,18 @@ bool melee_attack::handle_phase_hit()
     }
     else if (needs_message)
     {
-        attack_verb = attacker->is_player()
-                      ? attack_verb
-                      : attacker->conj_verb(mons_attack_verb());
-
-        // TODO: Clean this up if possible, checking atype for do / does is ugly
-        mprf("%s %s %s but %s no damage.",
-             attacker->name(DESC_THE).c_str(),
-             attack_verb.c_str(),
-             defender_name(true).c_str(),
-             attacker->is_player() ? "do" : "does");
+        if (attacker->is_player())
+        {
+            mprf(("You " + attack_verb + " %s%s").c_str(),
+                 defender_name(true).c_str(), ", but do no damage.");
+        }
+        else
+        {
+            string verb  = attacker->conj_verb(mons_attack_verb());
+            mprf(("%s " + verb + " %s%s").c_str(),
+                 attacker->name(DESC_THE).c_str(),
+                 defender_name(true).c_str(), ", but does no damage.");
+        }
     }
 
     // Check for weapon brand & inflict that damage too
@@ -623,12 +624,8 @@ static void _hydra_consider_devouring(monster &defender)
     // shapeshifters are mutagenic
     if (defender.is_shapeshifter())
     {
-        // handle this carefully, so the player knows what's going on
-        mprf("You spit out %s as %s %s & %s in your mouth!",
-             defender.name(DESC_THE).c_str(),
-             defender.pronoun(PRONOUN_SUBJECTIVE).c_str(),
-             conjugate_verb("twist", defender.pronoun_plurality()).c_str(),
-             conjugate_verb("change", defender.pronoun_plurality()).c_str());
+        mprf("You spit out the corpse of %s as it twists & changes in your mouth!",
+             defender.name(DESC_THE).c_str());
         return;
     }
 
@@ -1225,7 +1222,8 @@ bool melee_attack::player_aux_test_hit()
     if (to_hit >= evasion || auto_hit)
         return true;
 
-    mprf("Your %s misses %s.", aux_attack.c_str(),
+    string your_attack = "your " + aux_attack;
+    mprf("%s misses %s.", your_attack.c_str(),
          defender->name(DESC_THE).c_str());
 
     return false;
@@ -1346,13 +1344,24 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
 
                 antimagic_affects_defender(damage_done * 32);
 
-                // MP drain suppressed under Pakellas, but antimagic still applies.
-                if (!have_passive(passive_t::no_mp_regen) || spell_user)
+                string mon_name = defender->as_monster()->name(DESC_THE);
+
+                if (!have_passive(passive_t::no_mp_regen))
                 {
-                    mprf("You %s %s %s.",
-                         have_passive(passive_t::no_mp_regen) ? "disrupt" : "drain",
-                         defender->as_monster()->pronoun(PRONOUN_POSSESSIVE).c_str(),
-                         spell_user ? "magic" : "power");
+                    if (spell_user)
+                    {
+                        mprf("You drain %s magic.", apostrophise(mon_name).c_str());
+                    }
+                    else
+                    {
+                        mprf("You drain %s power.", apostrophise(mon_name).c_str());
+                    }
+                }
+                else if (spell_user)
+                {
+                    // You can't drain MP, but antimagic still applies
+                    mprf("You disrupt %s magic.", apostrophise(mon_name).c_str());
+
                 }
 
                 if (!have_passive(passive_t::no_mp_regen)
@@ -1375,10 +1384,9 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
         }
         else // no damage was done
         {
-            mprf("You %s %s%s.",
-                 aux_verb.c_str(),
+            mprf(("You " + aux_verb + " %s%s").c_str(),
                  defender->name(DESC_THE).c_str(),
-                 you.can_see(*defender) ? ", but do no damage" : "");
+                 you.can_see(*defender)? ", but do no damage." : ".");
         }
     }
     else // defender was just alive, so this call should be ok?
@@ -1395,10 +1403,8 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
 
 void melee_attack::player_announce_aux_hit()
 {
-    mprf("You %s %s%s%s",
-         aux_verb.c_str(),
+    mprf(("You " + aux_verb + " %s" + debug_damage_number() + "%s").c_str(),
          defender->name(DESC_THE).c_str(),
-         debug_damage_number().c_str(),
          attack_strength_punctuation(damage_done).c_str());
 }
 
@@ -1421,12 +1427,11 @@ string melee_attack::player_why_missed()
                                           : string("armour");
 
         if (armour_miss && !shield_miss)
-            return "Your " + armour_name + " prevents you from hitting ";
+            return "Your armour prevents you from hitting ";
         else if (shield_miss && !armour_miss)
             return "Your shield prevents you from hitting ";
         else
-            return "Your shield and " + armour_name
-                   + " prevent you from hitting ";
+            return "Your shield and armour prevent you from hitting ";
     }
 
     return "You" + evasion_margin_adverb() + " miss ";
@@ -1436,9 +1441,8 @@ void melee_attack::player_warn_miss()
 {
     did_hit = false;
 
-    mprf("%s%s.",
-         player_why_missed().c_str(),
-         defender->name(DESC_THE).c_str());
+    string msg = player_why_missed() + "%s.";
+    mprf(msg.c_str(), defender->name(DESC_THE).c_str());
 }
 
 // A couple additive modifiers that should be applied to both unarmed and
@@ -1954,31 +1958,24 @@ void melee_attack::decapitate(int dam_type)
     // Player hydras don't gain or lose heads.
     ASSERT(defender->is_monster());
 
-    const char *verb = nullptr;
-
-    if (dam_type == DVORP_CLAWING)
-    {
-        static const char *claw_verbs[] = { "rip", "tear", "claw" };
-        verb = RANDOM_ELEMENT(claw_verbs);
-    }
-    else
-    {
-        static const char *slice_verbs[] =
-        {
-            "slice", "lop", "chop", "hack"
-        };
-        verb = RANDOM_ELEMENT(slice_verbs);
-    }
+    string verb = (dam_type == DVORP_CLAWING ? "rip" : "chop");
 
     int heads = defender->heads();
     if (heads == 1) // will be zero afterwards
     {
         if (defender_visible)
         {
-            mprf("%s %s %s last head off!",
-                 atk_name(DESC_THE).c_str(),
-                 attacker->conj_verb(verb).c_str(),
-                 apostrophise(defender_name(true)).c_str());
+            if (attacker->is_player())
+            {
+                string fmt = "You " + verb + " %s last head off!";
+                mprf(fmt.c_str(), apostrophise(defender_name(true)).c_str());
+            }
+            else
+            {
+                string fmt = "%s " + attacker->conj_verb(verb) + " %s last head off!";
+                mprf(fmt.c_str(), atk_name(DESC_THE).c_str(),
+                                  apostrophise(defender_name(true)).c_str());
+            }
         }
 
         if (!defender->is_summoned())
@@ -1994,10 +1991,17 @@ void melee_attack::decapitate(int dam_type)
 
     if (defender_visible)
     {
-        mprf("%s %s one of %s heads off!",
-             atk_name(DESC_THE).c_str(),
-             attacker->conj_verb(verb).c_str(),
-             apostrophise(defender_name(true)).c_str());
+        if (attacker->is_player())
+        {
+            string fmt = "You " + verb + " one of %s heads off!";
+            mprf(fmt.c_str(), apostrophise(defender_name(true)).c_str());
+        }
+        else
+        {
+            string fmt = "%s " + attacker->conj_verb(verb) + " one of %s heads off!";
+            mprf(fmt.c_str(), atk_name(DESC_THE).c_str(),
+                              apostrophise(defender_name(true)).c_str());
+        }
     }
 
     defender->as_monster()->num_heads--;
@@ -2076,12 +2080,18 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            special_damage_message =
-                make_stringf(
-                    "%s %s electrocuted%s",
-                    defender->name(DESC_THE).c_str(),
-                    defender->conj_verb("are").c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+            string punctuation = attack_strength_punctuation(special_damage);
+            if (defender->is_player())
+            {
+                special_damage_message = localize("You are electrocuted%s",
+                                                  punctuation);
+            }
+            else
+            {
+                special_damage_message = localize("%s is electrocuted%s",
+                                                  defender->name(DESC_THE),
+                                                  punctuation);
+            }
             special_damage_flavour = BEAM_ELECTRICITY;
         }
 
@@ -2095,13 +2105,7 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            special_damage_message =
-                make_stringf(
-                    "%s freeze%s %s%s",
-                    attacker->name(DESC_THE).c_str(),
-                    attacker->is_player() ? "" : "s",
-                    defender->name(DESC_THE).c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+            special_damage_message = get_special_hit_message("freeze");
             special_damage_flavour = BEAM_COLD;
         }
         break;
@@ -2112,13 +2116,23 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage > 0)
         {
-            special_damage_message =
-                make_stringf(
-                    "%s %s %s%s",
-                    attacker->name(DESC_THE).c_str(),
-                    attacker->conj_verb("shatter").c_str(),
-                    defender->name(DESC_THE).c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+            string punctuation = attack_strength_punctuation(special_damage);
+            if (attacker->is_player())
+            {
+                special_damage_message =
+                    localize("You shatter %s%s", defender_name(true), punctuation);
+            }
+            else if (defender->is_player())
+            {
+                special_damage_message =
+                    localize("%s shatters you%s", attacker->name(DESC_THE), punctuation);
+            }
+            else
+            {
+                special_damage_message =
+                    localize("%s shatters %s%s", attacker->name(DESC_THE),
+                             defender_name(true), punctuation);
+            }
         }
         break;
 
@@ -2130,13 +2144,7 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            special_damage_message =
-                make_stringf(
-                    "%s burn%s %s%s",
-                    attacker->name(DESC_THE).c_str(),
-                    attacker->is_player() ? "" : "s",
-                    defender->name(DESC_THE).c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+            special_damage_message = get_special_hit_message("burn");
             special_damage_flavour = BEAM_FIRE;
 
             if (defender->is_player())
@@ -2152,13 +2160,7 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            special_damage_message =
-                make_stringf(
-                    "%s envenom%s %s%s",
-                    attacker->name(DESC_THE).c_str(),
-                    attacker->is_player() ? "" : "s",
-                    defender->name(DESC_THE).c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+            special_damage_message = get_special_hit_message("envenom");
             special_damage_flavour = BEAM_POISON;
         }
         break;
@@ -2171,12 +2173,18 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            special_damage_message =
-                make_stringf(
-                    "%s %s in agony%s",
-                    defender->name(DESC_THE).c_str(),
-                    defender->conj_verb("writhe").c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+            string punctuation = attack_strength_punctuation(special_damage);
+            if (defender->is_player())
+            {
+                special_damage_message = localize("You writhe in agony%s",
+                                                  punctuation);
+            }
+            else
+            {
+                special_damage_message = localize("%s writhes in agony%s",
+                                                  defender->name(DESC_THE),
+                                                  punctuation);
+            }
 
             attacker->god_conduct(DID_EVIL, 4);
         }
@@ -2218,7 +2226,7 @@ bool melee_attack::apply_staff_damage()
              special_damage, special_damage_flavour);
 
         if (needs_message && !special_damage_message.empty())
-            mpr(special_damage_message);
+            mpr_nolocalize(special_damage_message);
 
         inflict_damage(special_damage, special_damage_flavour);
         if (special_damage > 0)
@@ -2281,6 +2289,21 @@ bool melee_attack::player_good_stab()
               && (!weapon || is_melee_weapon(*weapon));
 }
 
+bool melee_attack::is_reach_attack()
+{
+    if (!you.can_see(*attacker))
+        return false;
+
+    int dist = (attack_position - defender->pos()).rdist();
+    if (dist > 1)
+    {
+        ASSERT(can_reach());
+        return true;
+    }
+
+    return false;
+}
+
 /* Select the attack verb for attacker
  *
  * If klown, select randomly from klown_attack, otherwise check for any special
@@ -2325,23 +2348,80 @@ string melee_attack::mons_attack_verb()
     return mon_attack_name(attk_type);
 }
 
-string melee_attack::mons_attack_desc()
+void melee_attack::announce_mons_hit()
 {
     if (!you.can_see(*attacker))
-        return "";
+        return;
 
-    string ret;
-    int dist = (attack_position - defender->pos()).rdist();
-    if (dist > 1)
+    string verb, msg;
+    bool with_weapon = (weapon && attacker->type != MONS_DANCING_WEAPON
+                        && attacker->type != MONS_SPECTRAL_WEAPON);
+
+    string punctuation = attack_strength_punctuation(damage_done);
+
+    if (is_reach_attack())
     {
         ASSERT(can_reach());
-        ret = " from afar";
+
+        // use generic verb for ease of translation
+        verb = attacker->conj_verb("hit");
+        if (with_weapon && defender->is_player())
+        {
+            mprf(("%s " + verb + " you from afar with %s%s").c_str(),
+                 atk_name(DESC_THE).c_str(), weapon->name(DESC_A).c_str(),
+                 punctuation.c_str());
+        }
+        else if (with_weapon)
+        {
+            mprf(("%s " + verb + " %s from afar with %s%s").c_str(),
+                 atk_name(DESC_THE).c_str(), defender_name(true).c_str(),
+                 weapon->name(DESC_A).c_str(), punctuation.c_str());
+        }
+        else if (defender->is_player())
+        {
+            mprf(("%s " + verb + " you from afar%s").c_str(),
+                 atk_name(DESC_THE).c_str(), punctuation.c_str());
+        }
+        else
+        {
+            mprf(("%s " + verb + " %s from afar%s").c_str(),
+                 atk_name(DESC_THE).c_str(), defender_name(true).c_str(),
+                 punctuation.c_str());
+        }
     }
+    else
+    {
+        verb = attacker->conj_verb(mons_attack_verb());
 
-    if (weapon && attacker->type != MONS_DANCING_WEAPON && attacker->type != MONS_SPECTRAL_WEAPON)
-        ret += " with " + weapon->name(DESC_A);
-
-    return ret;
+        if (with_weapon && defender->is_player())
+        {
+            mprf(("%s " + verb + " you with %s%s").c_str(),
+                 atk_name(DESC_THE).c_str(),
+                 weapon->name(DESC_A).c_str(),
+                 punctuation.c_str());
+        }
+        else if (defender->is_player())
+        {
+            mprf(("%s " + verb + " you%s").c_str(),
+                 atk_name(DESC_THE).c_str(),
+                 punctuation.c_str());
+        }
+        else if (with_weapon)
+        {
+            mprf(("%s " + verb + " %s with %s%s").c_str(),
+                 atk_name(DESC_THE).c_str(),
+                 defender_name(true).c_str(),
+                 weapon->name(DESC_A).c_str(),
+                 punctuation.c_str());
+        }
+        else
+        {
+            mprf(("%s " + verb + " %s%s").c_str(),
+                 atk_name(DESC_THE).c_str(),
+                 defender_name(true).c_str(),
+                 punctuation.c_str());
+        }
+    }
 }
 
 void melee_attack::announce_hit()
@@ -2351,13 +2431,7 @@ void melee_attack::announce_hit()
 
     if (attacker->is_monster())
     {
-        mprf("%s %s %s%s%s%s",
-             atk_name(DESC_THE).c_str(),
-             attacker->conj_verb(mons_attack_verb()).c_str(),
-             defender_name(true).c_str(),
-             debug_damage_number().c_str(),
-             mons_attack_desc().c_str(),
-             attack_strength_punctuation(damage_done).c_str());
+        announce_mons_hit();
     }
     else
     {
@@ -2367,12 +2441,33 @@ void melee_attack::announce_hit()
             verb_degree = " " + verb_degree;
         }
 
-        mprf("You %s %s%s%s%s",
-             attack_verb.c_str(),
+        mprf(("You " + attack_verb + " %s" + verb_degree + debug_damage_number() + "%s").c_str(),
              defender->name(DESC_THE).c_str(),
-             verb_degree.c_str(), debug_damage_number().c_str(),
              attack_strength_punctuation(damage_done).c_str());
     }
+}
+
+string melee_attack::get_special_hit_message(const string& verb)
+{
+    string msg;
+    string conj_verb = attacker->conj_verb(verb);
+    string punctuation = attack_strength_punctuation(special_damage);
+    if (attacker->is_player())
+    {
+        msg = localize("You " + conj_verb + " %s%s",
+                       defender_name(true), punctuation);
+    }
+    else if (defender->is_player())
+    {
+        msg = localize("%s " + conj_verb + " you%s",
+                       attacker->name(DESC_THE), punctuation);
+    }
+    else
+    {
+        msg = localize("%s " + conj_verb + " %s%s", attacker->name(DESC_THE),
+                       defender_name(true), punctuation);
+    }
+    return msg;
 }
 
 // Returns if the target was actually poisoned by this attack
@@ -2396,9 +2491,15 @@ bool melee_attack::mons_do_poison()
 
     if (needs_message)
     {
-        mprf("%s poisons %s!",
-                atk_name(DESC_THE).c_str(),
-                defender_name(true).c_str());
+        if (defender->is_player())
+        {
+            mprf("%s poisons you!", atk_name(DESC_THE).c_str());
+        }
+        else
+        {
+            mprf("%s poisons %s!", atk_name(DESC_THE).c_str(),
+                 defender_name(true).c_str());
+        }
     }
 
     return true;
@@ -2413,10 +2514,16 @@ void melee_attack::mons_do_napalm()
     {
         if (needs_message)
         {
-            mprf("%s %s covered in liquid flames%s",
-                 defender_name(false).c_str(),
-                 defender->conj_verb("are").c_str(),
-                 attack_strength_punctuation(special_damage).c_str());
+            string punctuation = attack_strength_punctuation(special_damage);
+            if (defender->is_player())
+            {
+                mprf("You are covered in liquid flames%s", punctuation.c_str());
+            }
+            else
+            {
+                mprf("%s is covered in liquid flames%s",
+                     defender_name(false).c_str(), punctuation.c_str());
+            }
         }
 
         if (defender->is_player())
@@ -2566,10 +2673,16 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && base_damage)
         {
-            mprf("%s %s engulfed in flames%s",
-                 defender_name(false).c_str(),
-                 defender->conj_verb("are").c_str(),
-                 attack_strength_punctuation(special_damage).c_str());
+            string punctuation = attack_strength_punctuation(special_damage);
+            if (defender->is_player())
+            {
+                mprf("You are engulfed in flames%s", punctuation.c_str());
+            }
+            else
+            {
+                mprf("%s is engulfed in flames%s",
+                     defender_name(false).c_str(), punctuation.c_str());
+            }
 
             _print_resist_messages(defender, base_damage, BEAM_FIRE);
         }
@@ -2586,11 +2699,8 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && base_damage)
         {
-            mprf("%s %s %s%s",
-                 atk_name(DESC_THE).c_str(),
-                 attacker->conj_verb("freeze").c_str(),
-                 defender_name(true).c_str(),
-                 attack_strength_punctuation(special_damage).c_str());
+            string msg = get_special_hit_message("freeze");
+            mpr_nolocalize(msg);
 
             _print_resist_messages(defender, base_damage, BEAM_COLD);
         }
@@ -2607,11 +2717,8 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && base_damage)
         {
-            mprf("%s %s %s%s",
-                 atk_name(DESC_THE).c_str(),
-                 attacker->conj_verb("shock").c_str(),
-                 defender_name(true).c_str(),
-                 attack_strength_punctuation(special_damage).c_str());
+            string msg = get_special_hit_message("shock");
+            mpr_nolocalize(msg);
 
             _print_resist_messages(defender, base_damage, BEAM_ELECTRICITY);
         }
@@ -2639,10 +2746,20 @@ void melee_attack::mons_apply_attack_flavour()
                 attacker->heal(healed);
                 if (needs_message)
                 {
-                    mprf("%s %s strength from %s injuries!",
-                         atk_name(DESC_THE).c_str(),
-                         attacker->conj_verb("draw").c_str(),
-                         def_name(DESC_ITS).c_str());
+                    string punctuation = attack_strength_punctuation(special_damage);
+                    if (defender->is_player())
+                    {
+                        mprf("%s draws strength from your injuries%s",
+                             attacker->name(DESC_THE).c_str(),
+                             punctuation.c_str());
+                    }
+                    else
+                    {
+                        mprf("%s draws strength from %s injuries%s",
+                             attacker->name(DESC_THE).c_str(),
+                             def_name(DESC_ITS).c_str(),
+                             punctuation.c_str());
+                    }
                 }
             }
         }
@@ -2679,9 +2796,17 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (defender_visible)
             {
-                mprf("%s %s engulfed in a cloud of spores!",
-                     defender->name(DESC_THE).c_str(),
-                     defender->conj_verb("are").c_str());
+                string msg;
+                if (defender->is_player())
+                {
+                    msg = localize("You are engulfed in a cloud of spores!");
+                }
+                else
+                {
+                    msg = localize("%s is engulfed in a cloud of spores!",
+                                   defender->name(DESC_THE));
+                }
+                mpr_nolocalize(msg);
             }
         }
 
@@ -2748,10 +2873,19 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message)
         {
-            mprf("%s %s %s!",
-                 atk_name(DESC_THE).c_str(),
-                 attacker->conj_verb("infuriate").c_str(),
-                 defender_name(true).c_str());
+            if (defender->is_player())
+            {
+                string fmt = "%s infuriates you!";
+                mprf(fmt.c_str(),
+                     defender_name(true).c_str());
+            }
+            else
+            {
+                string fmt = "%s infuriates %s!";
+                mprf(fmt.c_str(),
+                     atk_name(DESC_THE).c_str(),
+                     defender_name(true).c_str());
+            }
         }
 
         defender->go_berserk(false);
@@ -2779,12 +2913,8 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && special_damage)
         {
-            mprf("%s %s %s%s",
-                 atk_name(DESC_THE).c_str(),
-                 attacker->conj_verb("sear").c_str(),
-                 defender_name(true).c_str(),
-                 attack_strength_punctuation(special_damage).c_str());
-
+            string msg = get_special_hit_message("sear");
+            mpr_nolocalize(msg);
         }
         break;
 
@@ -2798,10 +2928,28 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (you.can_see(*attacker) || you.can_see(*defender))
             {
-                mprf("%s drains %s %s.",
-                     attacker->name(DESC_THE).c_str(),
-                     defender->pronoun(PRONOUN_POSSESSIVE).c_str(),
-                     spell_user ? "magic" : "power");
+                if (defender->is_player() && spell_user)
+                {
+                    mprf("%s drains your magic.",
+                         attacker->name(DESC_THE).c_str());
+                }
+                else if (defender->is_player())
+                {
+                    mprf("%s drains your power.",
+                         attacker->name(DESC_THE).c_str());
+                }
+                else if (spell_user)
+                {
+                    mprf("%s drains %s magic.",
+                         attacker->name(DESC_THE).c_str(),
+                         defender->name(DESC_ITS).c_str());
+                }
+                else
+                {
+                    mprf("%s drains %s power.",
+                         attacker->name(DESC_THE).c_str(),
+                         defender->name(DESC_ITS).c_str());
+                }
             }
 
             monster* vine = attacker->as_monster();
@@ -2832,10 +2980,7 @@ void melee_attack::mons_apply_attack_flavour()
     case AF_CRUSH:
         if (needs_message)
         {
-            mprf("%s %s %s.",
-                 atk_name(DESC_THE).c_str(),
-                 attacker->conj_verb("grab").c_str(),
-                 defender_name(true).c_str());
+            print_simple_message(atk_name(DESC_THE), "grab", defender_name(true));
         }
         attacker->start_constricting(*defender);
         // if you got grabbed, interrupt stair climb and passwall
@@ -2862,10 +3007,8 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (needs_message)
             {
-                mprf("%s %s %s in water!",
-                     atk_name(DESC_THE).c_str(),
-                     attacker->conj_verb("engulf").c_str(),
-                     defender_name(true).c_str());
+                print_simple_message(atk_name(DESC_THE), "engulf",
+                               defender_name(true), "in water!");
             }
         }
 
@@ -2883,11 +3026,7 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && special_damage)
         {
-            mprf("%s %s %s!",
-                    atk_name(DESC_THE).c_str(),
-                    attacker->conj_verb("burn").c_str(),
-                    defender_name(true).c_str());
-
+            print_simple_message(atk_name(DESC_THE), "burn", defender_name(true), "!");
             _print_resist_messages(defender, special_damage, BEAM_FIRE);
         }
 
@@ -2946,11 +3085,8 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (needs_message)
             {
-                mprf("%s %s %s%s",
-                    atk_name(DESC_THE).c_str(),
-                    attacker->conj_verb("drown").c_str(),
-                    defender_name(true).c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+                string msg = get_special_hit_message("drown");
+                mpr_nolocalize(msg);
             }
         }
         break;
@@ -3085,11 +3221,11 @@ void melee_attack::do_spines()
                 return;
             if (you.can_see(*defender) || attacker->is_player())
             {
-                mprf("%s %s struck by %s %s.", attacker->name(DESC_THE).c_str(),
-                     attacker->conj_verb("are").c_str(),
-                     defender->name(DESC_ITS).c_str(),
-                     defender->type == MONS_BRIAR_PATCH ? "thorns"
-                                                        : "spines");
+                print_simple_message(attacker->name(DESC_THE),
+                               "are struck by",
+                               apostrophise(defender->name(DESC_THE)),
+                               defender->type == MONS_BRIAR_PATCH ? "thorns."
+                                                                  : "spines.");
             }
             attacker->hurt(defender, hurt, BEAM_MISSILE, KILLED_BY_SPINES);
         }
@@ -3133,14 +3269,32 @@ void melee_attack::do_minotaur_retaliation()
                 mprf("%s furiously retaliates!", defname.c_str());
                 if (hurt <= 0)
                 {
-                    mprf("%s headbutts %s, but does no damage.", defname.c_str(),
-                         attacker->name(DESC_THE).c_str());
+                    if (attacker->is_player())
+                    {
+                        mprf("%s headbutts you, but does no damage.",
+                             defname.c_str());
+                    }
+                    else
+                    {
+                        mprf("%s headbutts %s, but does no damage.",
+                             defname.c_str(),
+                             attacker->name(DESC_THE).c_str());
+                    }
                 }
                 else
                 {
-                    mprf("%s headbutts %s%s", defname.c_str(),
-                         attacker->name(DESC_THE).c_str(),
-                         attack_strength_punctuation(hurt).c_str());
+                    if (attacker->is_player())
+                    {
+                        mprf("%s headbutts you%s",
+                             attacker->name(DESC_THE).c_str(),
+                             attack_strength_punctuation(hurt).c_str());
+                    }
+                    else
+                    {
+                        mprf("%s headbutts %s%s", defname.c_str(),
+                             attacker->name(DESC_THE).c_str(),
+                             attack_strength_punctuation(hurt).c_str());
+                    }
                 }
             }
             if (hurt > 0)
@@ -3182,9 +3336,9 @@ void melee_attack::do_minotaur_retaliation()
         }
         else
         {
-            mprf("You headbutt %s%s",
-                 attacker->name(DESC_THE).c_str(),
+            mprf("You headbutt %s%s", attacker->name(DESC_THE).c_str(),
                  attack_strength_punctuation(hurt).c_str());
+
             attacker->hurt(&you, hurt);
         }
     }
@@ -3221,8 +3375,7 @@ void melee_attack::riposte()
 {
     if (you.see_cell(defender->pos()))
     {
-        mprf("%s riposte%s.", defender->name(DESC_THE).c_str(),
-             defender->is_player() ? "" : "s");
+        print_simple_message(defender->name(DESC_THE), "riposte");
     }
     melee_attack attck(defender, attacker, 0, effective_attack_number + 1);
     attck.is_riposte = true;
@@ -3258,16 +3411,22 @@ bool melee_attack::do_knockback(bool trample)
         {
             if (defender->is_constricted())
             {
-                mprf("%s %s held in place!",
-                     defender_name(false).c_str(),
-                     defender->conj_verb("are").c_str());
+                if (defender->is_player())
+                    mpr("You are held in place!");
+                else
+                    mprf("%s is held in place!",
+                         defender_name(false).c_str());;
             }
             else
             {
-                mprf("%s %s %s ground!",
-                     defender_name(false).c_str(),
-                     defender->conj_verb("hold").c_str(),
-                     defender->pronoun(PRONOUN_POSSESSIVE).c_str());
+                if (defender->is_player())
+                    mpr("You hold your ground!");
+                else
+                {
+                    // "hold his/her/its ground" is difficult to translate
+                    // because grammatical gender can vary between languages
+                    mprf("%s stands fast!", defender_name(false).c_str());
+                }
             }
         }
 
@@ -3279,9 +3438,7 @@ bool melee_attack::do_knockback(bool trample)
         const bool can_stumble = !defender->airborne()
                                   && !defender->incapacitated();
         const string verb = can_stumble ? "stumble" : "are shoved";
-        mprf("%s %s backwards!",
-             defender_name(false).c_str(),
-             defender->conj_verb(verb).c_str());
+        print_simple_message(defender_name(false), verb, "", "backwards!");
     }
 
     // Schedule following _before_ actually trampling -- if the defender
@@ -3540,9 +3697,8 @@ bool melee_attack::_player_vampire_draws_blood(const monster* mon, const int dam
     // Now print message, need biting unless already done (never for bat form!)
     if (needs_bite_msg && you.form != transformation::bat)
     {
-        mprf("You bite %s, and draw %s blood!",
-             mon->name(DESC_THE, true).c_str(),
-             mon->pronoun(PRONOUN_POSSESSIVE).c_str());
+        mprf("You bite %s, and draw blood!",
+             mon->name(DESC_THE, true).c_str());
     }
     else
     {

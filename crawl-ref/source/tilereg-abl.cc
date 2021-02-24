@@ -8,6 +8,7 @@
 #include "cio.h"
 #include "describe.h"
 #include "libutil.h"
+#include "localize.h"
 #include "macro.h"
 #include "message.h"
 #include "output.h"
@@ -16,6 +17,7 @@
 #include "rltiles/tiledef-icons.h"
 #include "tilepick.h"
 #include "tiles-build-specific.h"
+#include "unicode.h"
 
 AbilityRegion::AbilityRegion(const TileRegionInit &init) : GridRegion(init)
 {
@@ -45,9 +47,8 @@ void AbilityRegion::draw_tag()
     const ability_type ability = (ability_type) idx;
     const string failure = failure_rate_to_string(get_talent(ability,
                                                              false).fail);
-    string desc = make_stringf("%s    (%s)",
-                               ability_name(ability), failure.c_str());
-    draw_desc(desc.c_str());
+    string desc = localize("%s    (%s)", ability_name(ability), failure);
+    draw_desc(desc);
 }
 
 int AbilityRegion::handle_mouse(wm_mouse_event &event)
@@ -85,12 +86,11 @@ int AbilityRegion::handle_mouse(wm_mouse_event &event)
 
 bool AbilityRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const char *prefix1 = active ? "" : "[L-Click] ";
-    const char *prefix2 = active ? "" : "          ";
+    const string prefix1 = active ? "" : localize("[L-Click]") + " ";
+    const string prefix2 = string(strwidth(prefix1), ' ');
 
-    tip = make_stringf("%s%s\n%s%s",
-                       prefix1, "Display abilities",
-                       prefix2, "Use abilities");
+    tip = prefix1 + localize("Display abilities") + "\n"
+          + prefix2 + localize("Use abilities");
 
     return true;
 }
@@ -107,14 +107,14 @@ bool AbilityRegion::update_tip_text(string& tip)
     int flag = m_items[item_idx].flag;
     vector<command_type> cmd;
     if (flag & TILEI_FLAG_INVALID)
-        tip = "You cannot use this ability right now.";
+        tip = localize("You cannot use this ability right now.");
     else
     {
-        tip = "[L-Click] Use (%)";
+        tip = localize("%s %s (%%)", "[L-Click]", "Use");
         cmd.push_back(CMD_USE_ABILITY);
     }
 
-    tip += "\n[R-Click] Describe";
+    tip += localize("\n%s %s", "[R-Click]", "Describe");
     insert_commands(tip, cmd);
 
     return true;

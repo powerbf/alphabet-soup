@@ -1343,8 +1343,10 @@ static bool _check_ability_possible(const ability_def& abil, bool quiet = false)
         {
             if (!quiet)
             {
-                mprf("Turning back right now would cause you to %s!",
-                    env.grid(you.pos()) == DNGN_LAVA ? "burn" : "drown");
+                if (env.grid(you.pos()) == DNGN_LAVA)
+                    mpr("Turning back right now would cause you to burn!");
+                else
+                    mpr("Turning back right now would cause you to drown!");
             }
 
             return false;
@@ -1358,9 +1360,20 @@ static bool _check_ability_possible(const ability_def& abil, bool quiet = false)
         {
             if (!quiet)
             {
-                mprf("Becoming %s right now would cause you to %s!",
-                    abil.ability == ABIL_EXSANGUINATE ? "bloodless" : "alive",
-                    env.grid(you.pos()) == DNGN_LAVA ? "burn" : "drown");
+                if (abil.ability == ABIL_EXSANGUINATE)
+                {
+                    if (env.grid(you.pos()) == DNGN_LAVA)
+                        mpr("Becoming bloodless right now would cause you to burn!");
+                    else
+                        mpr("Becoming bloodless right now would cause you to drown!");
+                }
+                else
+                {
+                    if (env.grid(you.pos()) == DNGN_LAVA)
+                        mpr("Becoming alive right now would cause you to burn!");
+                    else
+                        mpr("Becoming alive right now would cause you to drown!");
+                }
             }
 
             return false;
@@ -1399,10 +1412,12 @@ static bool _check_ability_possible(const ability_def& abil, bool quiet = false)
         {
             if (!quiet)
             {
-                mprf("You cannot call out to %s while %s.",
-                     god_name(you.religion).c_str(),
-                     you.duration[DUR_WATER_HOLD] ? "unable to breathe"
-                                                  : "silenced");
+                if (you.duration[DUR_WATER_HOLD])
+                    mprf("You cannot call out to %s while unable to breath.",
+                         god_name(you.religion).c_str());
+                else
+                    mprf("You cannot call out to %s while silenced.",
+                         god_name(you.religion).c_str());
             }
             return false;
         }
@@ -1678,8 +1693,10 @@ static bool _check_ability_possible(const ability_def& abil, bool quiet = false)
         {
             if (!quiet)
             {
-                mprf("You cannot wall jump while caught in a %s.",
-                     get_trapping_net(you.pos()) == NON_ITEM ? "web" : "net");
+                if (get_trapping_net(you.pos()) == NON_ITEM)
+                    mpr("You cannot wall jump while caught in a web.");
+                else
+                    mpr("You cannot wall jump while caught in a net.");
             }
             return false;
         }

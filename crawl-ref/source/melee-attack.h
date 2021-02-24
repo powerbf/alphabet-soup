@@ -110,6 +110,7 @@ private:
     /* Output methods */
     void set_attack_verb(int damage) override;
     void announce_hit() override;
+    string get_special_hit_message(const string& verb);
 
     /* Misc methods */
     void handle_noise(const coord_def & pos);
@@ -117,8 +118,9 @@ private:
     // Monster-attack specific stuff
     bool mons_attack_effects() override;
     void mons_apply_attack_flavour();
+    bool is_reach_attack();
     string mons_attack_verb();
-    string mons_attack_desc();
+    void announce_mons_hit();
     // TODO: Unify do_poison and poison_monster
     bool mons_do_poison();
     void mons_do_napalm();

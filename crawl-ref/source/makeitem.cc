@@ -2026,7 +2026,7 @@ int items(bool allow_uniques,
           && !is_missile_brand_ok(item.sub_type, item.brand, false))
     {
         mprf(MSGCH_ERROR, "Invalid brand on item %s, annulling.",
-            item.name(DESC_PLAIN, false, true, false, false, ISFLAG_KNOW_PLUSES
+            item.name(DESC_PLAIN, false, true, false, ISFLAG_KNOW_PLUSES
                       | ISFLAG_KNOW_CURSE).c_str());
         item.brand = 0;
     }

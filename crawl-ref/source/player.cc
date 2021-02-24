@@ -49,6 +49,7 @@
 #include "kills.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localize.h"
 #include "macro.h"
 #include "melee-attack.h"
 #include "message.h"
@@ -2320,9 +2321,9 @@ static void _recharge_xp_evokers(int exp)
             mprf("%s has recharged.", evoker->name(DESC_YOUR).c_str());
         else
         {
-            mprf("%s has regained %s charge%s.",
+            mprf("%s has regained %d charge%s.",
                  evoker->name(DESC_YOUR).c_str(),
-                 number_in_words(gained).c_str(), gained > 1 ? "s" : "");
+                 gained, gained > 1 ? "s" : "");
         }
     }
 }
@@ -5159,10 +5160,17 @@ bool player_save_info::operator<(const player_save_info& rhs) const
 
 string player_save_info::really_short_desc() const
 {
-    ostringstream desc;
-    desc << name << " the " << species_name << ' ' << class_name;
+    vector<LocalizationArg> args;
+    args.push_back(LocalizationArg("%s the %s %s"));
 
-    return desc.str();
+    LocalizationArg nameArg(name);
+    nameArg.translate = false;
+    args.push_back(nameArg);
+
+    args.push_back(LocalizationArg(species_name));
+    args.push_back(LocalizationArg(class_name));
+
+    return localize(args, false);
 }
 
 string player_save_info::short_desc(bool use_qualifier) const
@@ -6350,8 +6358,8 @@ string player::no_tele_reason(bool calc_unid, bool blinking) const
         if (worn_notele.size() > (problems.empty() ? 3 : 1))
         {
             problems.push_back(
-                make_stringf("wearing %s %s preventing teleportation",
-                             number_in_words(worn_notele.size()).c_str(),
+                make_stringf("wearing %d %s preventing teleportation",
+                             worn_notele.size(),
                              found_nonartefact ? "items": "artefacts"));
         }
         else if (!worn_notele.empty())

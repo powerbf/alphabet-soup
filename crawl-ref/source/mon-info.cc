@@ -859,7 +859,7 @@ string monster_info::db_name() const
     {
         iflags_t ignore_flags = ISFLAG_KNOW_CURSE | ISFLAG_KNOW_PLUSES;
         bool     use_inscrip  = false;
-        return inv[MSLOT_WEAPON]->name(DESC_DBNAME, false, false, use_inscrip, false,
+        return inv[MSLOT_WEAPON]->name(DESC_DBNAME, false, false, use_inscrip,
                          ignore_flags);
     }
 
@@ -927,7 +927,7 @@ string monster_info::_core_name() const
             {
                 const item_def& item = *inv[MSLOT_WEAPON];
 
-                s = item.name(DESC_PLAIN, false, false, true, false,
+                s = item.name(DESC_PLAIN, false, false, true,
                                ISFLAG_KNOW_CURSE);
             }
             break;

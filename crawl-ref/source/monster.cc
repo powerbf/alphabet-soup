@@ -809,7 +809,7 @@ bool monster::likes_wand(const item_def &item) const
 void monster::equip_weapon_message(item_def &item)
 {
     const string str = " wields " +
-                       item.name(DESC_A, false, false, true, false,
+                       item.name(DESC_A, false, false, true,
                                  ISFLAG_CURSED) + ".";
     simple_monster_message(*this, str.c_str());
 
@@ -946,7 +946,7 @@ void monster::unequip_weapon(item_def &item, bool msg)
     if (msg)
     {
         const string str = " unwields " +
-                           item.name(DESC_A, false, false, true, false,
+                           item.name(DESC_A, false, false, true,
                                      ISFLAG_CURSED) + ".";
         msg = simple_monster_message(*this, str.c_str());
     }

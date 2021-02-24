@@ -1148,7 +1148,7 @@ void discover_mimic(const coord_def& pos)
 
     const string name = feature_mimic ? "the " + string(feat_type_name(feat))
                                       : item->name(DESC_THE, false, false,
-                                                             false, true);
+                                                             false);
     const bool plural = feature_mimic ? false : item->quantity > 1;
 
 #ifdef USE_TILE

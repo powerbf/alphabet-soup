@@ -35,6 +35,7 @@
 #include "item-prop.h"
 #include "item-use.h"
 #include "libutil.h"
+#include "localize.h"
 #include "macro.h"
 #include "menu.h"
 #include "message.h"
@@ -176,12 +177,12 @@ int list_spells(bool toggle_with_I, bool viewing, bool allow_preselect,
 
     ToggleableMenu spell_menu(MF_SINGLESELECT | MF_ANYPRINTABLE
             | MF_NO_WRAP_ROWS | MF_ALWAYS_SHOW_MORE | MF_ALLOW_FORMATTING);
-    string titlestring = make_stringf("%-25.25s", title.c_str());
+    string titlestring = localize("%-34.34s", title);
     {
         ToggleableMenuEntry* me =
             new ToggleableMenuEntry(
-                titlestring + "         Type                          Failure  Level",
-                titlestring + "         Power        Range    Noise         ",
+                titlestring + "Type                          Failure  Level",
+                titlestring + "Power        Range    Hunger  Noise         ",
                 MEL_TITLE);
         spell_menu.set_title(me, true, true);
     }

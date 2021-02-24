@@ -7,6 +7,7 @@
 #include "cio.h"
 #include "describe.h"
 #include "libutil.h"
+#include "localize.h"
 #include "options.h"
 #include "output.h"
 #include "skills.h"
@@ -44,13 +45,13 @@ void SkillRegion::draw_tag()
 
     string progress = "";
 
-    string desc = make_stringf("%-14s Skill %4.1f Aptitude %c%d",
-                               skill_name(skill),
-                               you.skill(skill, 10) / 10.0,
-                               apt > 0 ? '+' : ' ',
-                               apt);
+    string desc = localize("%-14s Skill %4.1f Aptitude %c%d",
+                           skill_name(skill),
+                           you.skill(skill, 10) / 10.0,
+                           apt > 0 ? '+' : ' ',
+                           apt);
 
-    draw_desc(desc.c_str());
+    draw_desc(desc);
 }
 
 int SkillRegion::handle_mouse(wm_mouse_event &event)
@@ -103,9 +104,9 @@ int SkillRegion::handle_mouse(wm_mouse_event &event)
 
 bool SkillRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const char *prefix = active ? "" : "[L-Click] ";
+    const string prefix = active ? "" : localize("[L-Click]") + " ";
 
-    tip = make_stringf("%s%s", prefix, "Manage skills");
+    tip = prefix + localize("Manage skills");
 
     return true;
 }
@@ -121,23 +122,23 @@ bool SkillRegion::update_tip_text(string& tip)
 
     const int flag = m_items[item_idx].flag;
     if (flag & TILEI_FLAG_INVALID)
-        tip = "You cannot train this skill now.";
+        tip = localize("You cannot train this skill now.");
     else if (you.species != SP_GNOLL)
     {
         const skill_type skill = (skill_type) m_items[item_idx].idx;
 
-        tip = "[L-Click] ";
+        tip = localize("[L-Click]") + " ";
         if (you.train[skill])
-            tip += "Disable training";
+            tip += localize("Disable training");
         else
-            tip += "Enable training";
+            tip += localize("Enable training");
     }
 #ifdef WIZARD
     if (you.wizard)
-        tip += "\n[Ctrl + L-Click] Change skill level (wizmode)";
+        tip += localize("\n%s %s", "[Ctrl + L-Click]", "Change skill level (wizmode)");
 #endif
 
-    tip += "\n[R-Click] Describe";
+    tip += localize("\n%s %s", "[R-Click]", "Describe");
 
     return true;
 }
