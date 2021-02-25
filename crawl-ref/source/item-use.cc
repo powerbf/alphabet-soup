@@ -2725,8 +2725,15 @@ void random_uselessness()
         }
         else
         {
-            mpr(you.hands_act("glow", weird_glowing_colour()
-                                      + " for a moment."));
+            bool plural;
+            string hand = "Your " + you.hand_name(true, &plural); // noloc
+
+            if (plural)
+                mprf("%s glow %s for a moment.", hand.c_str(),
+                        weird_glowing_colour(). c_str());
+            else
+                mprf("%s glows %s for a moment.", hand.c_str(),
+                        weird_glowing_colour().c_str());
         }
         break;
 

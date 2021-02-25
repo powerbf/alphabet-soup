@@ -55,13 +55,13 @@ bool yesno(const char *str, bool allow_lowercase, int default_answer, bool clear
         interrupt_activity(activity_interrupt::force);
 
     // Allow players to answer prompts via clua.
-    maybe_bool res = clua.callmaybefn("c_answer_prompt", "s", str);
+    maybe_bool res = clua.callmaybefn("c_answer_prompt", "s", str); // noloc
     if (res == MB_TRUE)
         return true;
     if (res == MB_FALSE)
         return false;
 
-    string prompt = make_stringf("%s ", str ? str : "Buggy prompt?");
+    string prompt = localize("%s ", str ? str : "Buggy prompt?");
 
 #ifdef TOUCH_UI
     bool use_popup = true;
@@ -115,6 +115,9 @@ bool yesno(const char *str, bool allow_lowercase, int default_answer, bool clear
 
         if (map && map->find(tmp) != map->end())
             tmp = map->find(tmp)->second;
+
+        if (default_answer)
+            default_answer = localize_char(default_answer);
 
         if (default_answer
             && (tmp == ' ' || key_is_escape(tmp)
