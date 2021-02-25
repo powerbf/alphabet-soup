@@ -373,7 +373,7 @@ static int _abyss_create_items(const map_bitmask &abyss_genlevel_mask,
 
 static string _who_banished(const string &who)
 {
-    return who.empty() ? who : " (" + who + ")";
+    return who.empty() ? who : " (" + who + ")"; // noextract
 }
 
 static int _banished_depth(const int power)
@@ -413,7 +413,7 @@ void banished(const string &who, const int power)
     }
 
     const int depth = _banished_depth(power);
-    const string what = make_stringf("Cast into level %d of the Abyss", depth)
+    const string what = make_stringf("Cast into level %d of the Abyss", depth) // noextract (note)
                       + _who_banished(who);
     take_note(Note(NOTE_MESSAGE, 0, 0, what), true);
 
@@ -427,8 +427,8 @@ void banished(const string &who, const int power)
         "was cast into the Abyss!" + _who_banished(who), "parent");
 
     // Xom just might decide to interfere.
-    if (you_worship(GOD_XOM) && who != "Xom" && who != "wizard command"
-        && who != "a distortion unwield")
+    if (you_worship(GOD_XOM) && who != "Xom" && who != "wizard command" //noextract
+        && who != "a distortion unwield") // noextract
     {
         xom_maybe_reverts_banishment(false, false);
     }
@@ -592,7 +592,7 @@ static void _abyss_lose_monster(monster& mons)
     // make sure we don't end up with an invalid hep ancestor
     else if (hepliaklqana_ancestor() == mons.mid)
     {
-        simple_monster_message(mons, " is pulled into the Abyss.",
+        simple_monster_message(mons, "%s is pulled into the Abyss.",
                 MSGCH_BANISHMENT);
         remove_companion(&mons);
         you.duration[DUR_ANCESTOR_DELAY] = random_range(50, 150); //~5-15 turns
@@ -635,7 +635,7 @@ static void _place_displaced_monsters()
             // hep messaging is done in _abyss_lose_monster
             if (you.can_see(*mon) && hepliaklqana_ancestor() != mon->mid)
             {
-                simple_monster_message(*mon, " is pulled into the Abyss.",
+                simple_monster_message(*mon, "%s is pulled into the Abyss.",
                         MSGCH_BANISHMENT);
             }
             _abyss_lose_monster(*mon);
@@ -1155,7 +1155,7 @@ static ProceduralSample _abyss_grid(const coord_def &p)
         if (is_existing_level(lid))
         {
             auto &vault_list =  you.vault_list[level_id::current()];
-            vault_list.push_back("base: " + lid.describe(false));
+            vault_list.push_back("base: " + lid.describe(false)); // noextract
         }
     }
 
@@ -1627,8 +1627,8 @@ static bool _abyss_has_path(const coord_def &to)
 // _generate_area generates all other Abyss areas.
 void generate_abyss()
 {
-    env.level_build_method += " abyss";
-    env.level_layout_types.insert("abyss");
+    env.level_build_method += " abyss"; // noextract
+    env.level_layout_types.insert("abyss"); // noextract
     destroy_abyss();
 
 retry:
@@ -2158,7 +2158,7 @@ bool lugonu_corrupt_level(int power)
     if (is_level_incorruptible())
         return false;
 
-    simple_god_message("'s Hand of Corruption reaches out!");
+    god_speaks(you.religion, "Lugonu's Hand of Corruption reaches out!");
     take_note(Note(NOTE_MESSAGE, 0, 0, make_stringf("Corrupted %s",
               level_id::current().describe().c_str()).c_str()));
     mark_corrupted_level(level_id::current());
@@ -2201,9 +2201,14 @@ void abyss_maybe_spawn_xp_exit()
     big_cloud(CLOUD_TLOC_ENERGY, &you, you.pos(), 3 + random2(3), 3, 3);
     redraw_screen(); // before the force-more
     update_screen();
-    mprf(MSGCH_BANISHMENT,
-         "The substance of the Abyss twists violently,"
-         " and a gateway leading %s appears!", stairs ? "down" : "out");
+    if (stairs)
+        mprf(MSGCH_BANISHMENT,
+             "The substance of the Abyss twists violently,"
+             " and a gateway leading down appears!");
+    else
+        mprf(MSGCH_BANISHMENT,
+             "The substance of the Abyss twists violently,"
+             " and a gateway leading out appears!");
 
     you.props[ABYSS_STAIR_XP_KEY] = EXIT_XP_COST;
     you.props[ABYSS_SPAWNED_XP_EXIT_KEY] = true;
