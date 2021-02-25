@@ -2726,7 +2726,7 @@ void random_uselessness()
         else
         {
             bool plural;
-            string hand = "Your " + you.hand_name(true, &plural); // noloc
+            string hand = "Your " + you.hand_name(true, &plural); // noextract
 
             if (plural)
                 mprf("%s glow %s for a moment.", hand.c_str(),
