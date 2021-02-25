@@ -5170,7 +5170,7 @@ string player_save_info::really_short_desc() const
     args.push_back(LocalizationArg(species_name));
     args.push_back(LocalizationArg(class_name));
 
-    return localize(args, false);
+    return localize(args);
 }
 
 string player_save_info::short_desc(bool use_qualifier) const

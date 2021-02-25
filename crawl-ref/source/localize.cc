@@ -1135,7 +1135,7 @@ static bool _skip_translation()
     return (_paused || _language.empty() || _language == "en");
 }
 
-string localize(const vector<LocalizationArg>& args, const bool capitalize)
+string localize(const vector<LocalizationArg>& args)
 {
     if (args.empty())
     {
@@ -1280,15 +1280,11 @@ string localize(const vector<LocalizationArg>& args, const bool capitalize)
         result = _localize_string("", result);
     }
 
-    if (capitalize)
-    {
-        result = uppercase_first(result);
-    }
     return result;
 
 }
 
-string vlocalize(const string& fmt_str, va_list argp, const bool capitalize)
+string vlocalize(const string& fmt_str, va_list argp)
 {
     if (_skip_translation())
     {
@@ -1368,7 +1364,7 @@ string vlocalize(const string& fmt_str, va_list argp, const bool capitalize)
 
     va_end(args);
 
-    return localize(niceArgs, capitalize);
+    return localize(niceArgs);
 }
 
 /**
