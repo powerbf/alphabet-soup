@@ -245,6 +245,9 @@ Ihr seid schon in einen himmlischen Sturm versunken!
 Sorry, you can't do that.
 Sorry, das könnt Ihr nicht.
 %%%%
+Lua error: %s
+Lua Fehler: %s
+%%%%
 
 ##################
 # abyss.cc
@@ -267,8 +270,32 @@ Dieser Ort ist bereits voller Übel und Korruption.
 The demon of the infinite void smiles upon you.
 Der Dämon der unendlichen Leere lächelt Euch zu.
 %%%%
-Lua error: %s
-Lua Fehler: %s
+Xom snickers.
+Xom kichert.
+%%%%
+" (you have %d gold)"
+" (Ihr habt %d Gold)"
+%%%%
+Choose an item to acquire.
+Wählt einen Gegenstand zu erwerben.
+%%%%
+[<w>!</w>] <w>acquire</w>|examine items
+[<w>!</w>] Gegenstände <w>erwerben</w>|examinieren
+%%%%
+[<w>!</w>] acquire|<w>examine</w> items
+[<w>!</w>] Gegenstände erwerben|<w>examinieren</w>
+%%%%
+select item for acquirement
+Gegenstand erwerben
+%%%%
+examine item
+Gegenstand examinieren
+%%%%
+[Esc/R-Click] exit
+[Esc/R-Click] abbrechen
+%%%%
+Acquire %s? (%s/%s)
+%s erwerben? (%s/%s)
 %%%%
 
 ##################
