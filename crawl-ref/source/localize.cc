@@ -974,10 +974,11 @@ static string _localize_string(const string& context, const string& value)
     if (result != value)
         return result;
 
-    if (is_list(value))
+    // We are now localizing the list as it's built, so this should not be necessary
+    /*if (is_list(value))
     {
         return _localize_list(context, value);
-    }
+    }*/
 
     if (regex_search(value, regex("^[a-zA-Z] - ")))
     {
