@@ -630,10 +630,10 @@ static bool _check_tukima_validity(const actor *target)
             return _fail_tukimas();
 
         if (target_is_player)
-            mpr(you.hands_act("twitch", "."));
+            mpr(you.hand_act("%s twitches.", "%s twitch."));
         else
         {
-            // FIXME: maybe move hands_act to class actor?
+            // FIXME: maybe move hand_act to class actor?
             bool plural = true;
             const string hand = target->hand_name(true, &plural);
 

@@ -709,10 +709,11 @@ string ash_describe_bondage(int flags, bool level)
     {
         if (you.bondage[ET_WEAPON] == you.bondage[ET_SHIELD])
         {
-            const string verb = make_stringf("are%s",
-                                             you.bondage[ET_WEAPON] ? ""
-                                                                    : " not");
-            desc = you.hands_act(verb, "bound.\n");
+            if (you.bondage[ET_WEAPON])
+                desc = you.hand_act("%s is bound.", "%s are bound.");
+            else
+                desc = you.hand_act("%s is not bound.", "%s are not bound.");
+            desc += "\n";
         }
         else
         {

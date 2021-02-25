@@ -5835,6 +5835,6 @@ void okawaru_remove_heroism()
 
 void okawaru_remove_finesse()
 {
-    mprf(MSGCH_DURATION, "%s", you.hands_act("slow", "down.").c_str());
+    mprf(MSGCH_DURATION, "%s", you.hand_act("%s slows down.", "%s slow down.").c_str());
     you.duration[DUR_FINESSE] = 0;
 }

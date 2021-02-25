@@ -8039,20 +8039,6 @@ void player_close_door(coord_def doorpos)
     you.turn_is_over = true;
 }
 
-/**
- * Return a string describing the player's hand(s) taking a given verb.
- *
- * @param plural_verb    A plural-agreeing verb. ("Smoulders", "are", etc.)
- * @return               A string describing the action.
- *                       E.g. "tentacles smoulder", "paw is", etc.
- */
-string player::hands_verb(const string &plural_verb) const
-{
-    bool plural;
-    const string hand = hand_name(true, &plural);
-    return hand + " " + conjugate_verb(plural_verb, plural);
-}
-
 // Is this a character that would not normally have a preceding space when
 // it follows a word?
 static bool _is_end_punct(char c)
@@ -8078,11 +8064,19 @@ static bool _is_end_punct(char c)
  * @return              A string describing the player's hands taking the
  *                      given action. E.g. "Your tentacle gains new energy."
  */
-string player::hands_act(const string &plural_verb,
-                         const string &object) const
+string player::hand_act(const string &singular_msg,
+                        const string &plural_msg) const
 {
-    const bool space = !object.empty() && !_is_end_punct(object[0]);
-    return "Your " + hands_verb(plural_verb) + (space ? " " : "") + object;
+    bool plural;
+    string hand = "your " + hand_name(true, &plural); // noloc
+
+    string msg;
+    if (plural)
+        msg = localize(plural_msg, hand);
+    else
+        msg = localize(singular_msg, hand);
+
+    return uppercase_first(msg);
 }
 
 int player::inaccuracy() const

@@ -1,6 +1,7 @@
 ###############################################################################
 #
 # German translations - abilities
+# NOTE: The abilities menu will truncate these to 32 characters if they are longer than that
 #
 ###############################################################################
 %%%%
@@ -128,7 +129,7 @@ Summon Divine Warrior
 Göttlichen Krieger herbeirufen
 %%%%
 Brand Weapon With Holy Wrath
-Waffe mit heiligem Zorn brandmarken
+Waffe mit heiligem Zorn segnen
 %%%%
 Receive Corpses
 Leichen empfangen
