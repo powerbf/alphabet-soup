@@ -67,12 +67,11 @@ const string& get_localization_language();
  *  Localize a list of args.
  *  @param args The list of arguments.
  *              If there's more than one, the first one is expected to be a printf-style format string.
- *  @capitalize Capitalize the first letter of the result? (true by default)
  */
-string localize(const vector<LocalizationArg>& args, const bool capitalize = false);
+string localize(const vector<LocalizationArg>& args);
 
 // localize using va_list (yuk!)
-string vlocalize(const string& fmt_str, va_list args, const bool capitalize = false);
+string vlocalize(const string& fmt_str, va_list args);
 
 // convenience functions
 template<typename... Ts>
