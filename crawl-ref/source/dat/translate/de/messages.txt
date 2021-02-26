@@ -407,6 +407,39 @@ Die Monster zerstreuen sich in alle Richtungen!
 # arena.cc
 ##################
 %%%%
+Arena error:
+Arena-Fehler:
+%%%%
+Arena results:
+Arena-Ergebnisse:
+%%%%
+Hit any key to continue, ctrl-p for the full log.
+Beliebige Taste drücken, um fortzufahren, ctrl-p fürs Log.
+%%%%
+No arena maps named "%s"
+Kein Arena-Plan namens "%s"
+%%%%
+Failed to create arena named "%s"
+Konnte nicht Arena namens "%s" erschaffen
+%%%%
+Can't set real_summons and respawn at same time.
+Optionen real_summons und respawn können nicht gleichzeitig gesetzt werden.
+%%%%
+Bad place '%s': %s
+Falsche Ort '%s': %s
+%%%%
+Expected arena monster spec "xxx v yyy", but got "%s"
+Eingabe wie "xxx v yyy" erwartet, aber "%s" wurde bekommen
+%%%%
+Bad monster spec "%s": %s
+Falsche Monster-Eingabe "%s": %s
+%%%%
+vs
+vs
+%%%%
+Round %d of %d
+Runde %d von %d
+%%%%
 Book-keeping says faction_a has negative active members.
 Buchhaltung sagt, dass fraktion_a negative aktive Mitglieder hat.
 %%%%
@@ -429,13 +462,13 @@ Canceled contest at user request
 Wettbewerb auf Benutzerwunsch abgesagt
 %%%%
 Tie declared, but faction_a won.
-Krawatte erklärt, aber Fraktion_a hat gewonnen.
+Gleichstand erklärt, aber fraktion_a hat gewonnen.
 %%%%
 Tie declared, but faction_b won.
-Krawatte erklärt, aber Fraktion_b hat gewonnen.
+Gleichstand erklärt, aber fraktion_b hat gewonnen.
 %%%%
 *BOTH* factions won?!
-* BEIDE * Fraktionen haben gewonnen?!
+*BEIDE* Fraktionen haben gewonnen?!
 %%%%
 Faction_a real winner.
 Faction_a echter Gewinner.
@@ -444,13 +477,16 @@ Faction_b real winner.
 Faction_b echter Gewinner.
 %%%%
 Both sides dead.
-Beide Seiten tot.
-%%%%
-%s %s!
-%s %s!
+Beide Teams tot.
 %%%%
 Last arena monster was dismissed.
 Das letzte Arena-Monster wurde entlassen.
+%%%%
+Enter your choice of teams:
+Gebt Eure Wahl von Teams ein (Englisch):
+%%%%
+Examples:
+Beispiele:
 %%%%
 
 ##################
