@@ -4336,7 +4336,7 @@ static int _mons_mesmerise(monster* mons, bool actual)
             else if (you.duration[DUR_MESMERISE_IMMUNE] && !already_mesmerised)
                 canned_msg(MSG_YOU_RESIST);
             else
-                mprf("You%s", you.resist_margin_phrase(will_check).c_str());
+                mpr(you.resist_margin_phrase(will_check).c_str());
         }
 
         return 0;
@@ -4383,7 +4383,7 @@ static int _mons_cause_fear(monster* mons, bool actual)
             if (you.clarity())
                 canned_msg(MSG_YOU_UNAFFECTED);
             else if (res_margin > 0)
-                mprf("You%s", you.resist_margin_phrase(res_margin).c_str());
+                mpr(you.resist_margin_phrase(res_margin).c_str());
             else if (you.add_fearmonger(mons))
             {
                 retval = 1;
@@ -4465,7 +4465,7 @@ static int _mons_mass_confuse(monster* mons, bool actual)
         {
             const int willpower = you.check_willpower(pow);
             if (willpower > 0)
-                mprf("You%s", you.resist_margin_phrase(willpower).c_str());
+                mpr(you.resist_margin_phrase(willpower).c_str());
             else
             {
                 you.confuse(mons, 5 + random2(3));
@@ -5559,9 +5559,8 @@ void mons_cast(monster* mons, bolt pbolt, spell_type spell_cast,
         {
             if (you.can_see(*foe))
             {
-                mprf("%s%s",
-                     foe->name(DESC_THE).c_str(),
-                     foe->resist_margin_phrase(res_margin).c_str());
+                mprf(foe->resist_margin_phrase(res_margin).c_str(),
+                     foe->name(DESC_THE).c_str());
             }
             return;
         }
@@ -7272,7 +7271,7 @@ static void _siren_sing(monster* mons, bool avatar)
         else if (you.duration[DUR_MESMERISE_IMMUNE] && !already_mesmerised)
             canned_msg(MSG_YOU_RESIST);
         else
-            mprf("You%s", you.resist_margin_phrase(willpower).c_str());
+            mpr(you.resist_margin_phrase(willpower).c_str());
         return;
     }
 
