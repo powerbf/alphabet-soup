@@ -804,11 +804,7 @@ void actor::constriction_damage_defender(actor &defender, int duration)
         if (!but.empty())
             msg += localize(but);
         else
-        {
-            LocalizationArg arg(msg);
-            arg.translate = false; // already translated
-            msg = localize(exclamations, arg);
-        }
+            msg = localize(exclamations, LocalizationArg(msg, false));
 
         mpr_nolocalize(msg);
     }
@@ -827,11 +823,7 @@ void actor::constriction_damage_defender(actor &defender, int duration)
         if (!but.empty())
             msg += localize(but);
         else
-        {
-            LocalizationArg arg(msg);
-            arg.translate = false; // already translated
-            msg = localize(exclamations, arg);
-        }
+            msg = localize(exclamations, LocalizationArg(msg, false));
 
         mpr_nolocalize(msg);
     }

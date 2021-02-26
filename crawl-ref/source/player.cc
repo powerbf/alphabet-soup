@@ -5160,17 +5160,10 @@ bool player_save_info::operator<(const player_save_info& rhs) const
 
 string player_save_info::really_short_desc() const
 {
-    vector<LocalizationArg> args;
-    args.push_back(LocalizationArg("%s the %s %s"));
-
-    LocalizationArg nameArg(name);
-    nameArg.translate = false;
-    args.push_back(nameArg);
-
-    args.push_back(LocalizationArg(species_name));
-    args.push_back(LocalizationArg(class_name));
-
-    return localize(args);
+    return localize("%s the %s %s",
+                    LocalizationArg(name, false),
+                    species_name,
+                    class_name);
 }
 
 string player_save_info::short_desc(bool use_qualifier) const
