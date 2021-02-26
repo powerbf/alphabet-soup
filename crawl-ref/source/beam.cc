@@ -1724,7 +1724,7 @@ static bool _monster_resists_mass_enchantment(monster* mons,
         return true;
     else  // trying to enchant an unnatural creature doesn't work
     {
-        if (simple_monster_message(*mons, " is unaffected."))
+        if (simple_monster_message(*mons, "%s is unaffected."))
             *did_msg = true;
         return true;
     }
@@ -3169,7 +3169,7 @@ void bolt::affect_player_enchantment(bool resistible)
             {
                 // the message reflects the level of difficulty resisting.
                 const int margin = you.willpower() - ench_power;
-                mprf("You%s", you.resist_margin_phrase(margin).c_str());
+                mpr(you.resist_margin_phrase(margin).c_str());
             }
         }
         // You *could* have gotten a free teleportation in the Abyss,

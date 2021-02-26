@@ -302,11 +302,41 @@ Acquire %s? (%s/%s)
 # actor.cc
 ##################
 %%%%
-%s %s %s grip on %s.
-%s %s %s Griff auf%s.
+The zombie hands
+Die Zombiehände
 %%%%
-%s %s %s%s%s
-%s %s %s%s%s
+The roots
+Die Wurzeln
+%%%%
+You release %s.
+Ihr lasst {acc}%s los.
+%%%%
+%s release you.
+%s lassen Euch los.
+%%%%
+%s releases you.
+%s lässt Euch los.
+%%%%
+%s release %s.
+%s lassen {acc}%s los.
+%%%%
+%s releases %s.
+%s lässt {acc}%s los.
+%%%%
+You lose hold of %s.
+Ihr verliert den Halt auf {dat}%s.
+%%%%
+%s lose hold of you.
+%s verlieren den Halt auf Euch.
+%%%%
+%s loses hold of you.
+%s verliert den Halt auf Euch.
+%%%%
+%s lose hold of %s.
+%s verlieren den Halt auf {dat}%s.
+%%%%
+%s loses hold of %s.
+%s verliert den Halt auf {dat}%s.
 %%%%
 %s %s constricted%s%s
 %s %s verengt%s%s

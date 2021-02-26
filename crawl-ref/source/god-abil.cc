@@ -2024,9 +2024,8 @@ void cheibriados_time_bend(int pow)
             res_margin -= random2avg(pow, 2);
             if (res_margin > 0)
             {
-                mprf("%s%s",
-                     mon->name(DESC_THE).c_str(),
-                     mon->resist_margin_phrase(res_margin).c_str());
+                mprf(mon->resist_margin_phrase(res_margin).c_str(),
+                     mon->name(DESC_THE).c_str());
                 continue;
             }
 
