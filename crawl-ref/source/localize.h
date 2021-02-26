@@ -32,14 +32,14 @@ public:
     bool translate;
 
     LocalizationArg();
-    LocalizationArg(const string& value);
-    LocalizationArg(const char* value);
-    LocalizationArg(const string& value, const string& plural_val, const int count);
-    LocalizationArg(const int value);
-    LocalizationArg(const long value);
-    LocalizationArg(const long long value);
-    LocalizationArg(const double value);
-    LocalizationArg(const long double value);
+    LocalizationArg(const string& value, bool translate = true);
+    LocalizationArg(const char* value, bool translate = true);
+    LocalizationArg(const string& value, const string& plural_val, const int count, bool translate = true);
+    LocalizationArg(const int value, bool translate = true);
+    LocalizationArg(const long value, bool translate = true);
+    LocalizationArg(const long long value, bool translate = true);
+    LocalizationArg(const double value, bool translate = true);
+    LocalizationArg(const long double value, bool translate = true);
 
 private:
     void init();

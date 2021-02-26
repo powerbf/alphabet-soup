@@ -17,13 +17,9 @@
 // Eventually, this should be something more grand. {dlb}
 formatted_string opening_screen()
 {
-    LocalizationArg version = LocalizationArg(Version::Long);
-    version.translate = false;
-
-    LocalizationArg title = LocalizationArg(CRAWL);
-    title.translate = false;
-
-    string greeting = localize("Hello, welcome to %s %s!", title, version);
+    string greeting = localize("Hello, welcome to %s %s!",
+                               LocalizationArg(CRAWL, false),
+                               LocalizationArg(Version::Long, false));
 
     string msg = "<yellow>" + greeting + "</yellow>\n"
     "<brown>(c) Copyright 1997-2002 Linley Henzell, 2002-2021 Crawl DevTeam";

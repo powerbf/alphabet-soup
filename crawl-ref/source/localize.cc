@@ -1040,28 +1040,29 @@ void LocalizationArg::init()
     doubleVal = 0.0;
     longDoubleVal = 0.0;
     count = 1;
-    translate = true;
 }
 
 LocalizationArg::LocalizationArg()
 {
     init();
+    translate = true;
 }
 
-LocalizationArg::LocalizationArg(const string& value)
-    : stringVal(value)
+LocalizationArg::LocalizationArg(const string& value, bool translat)
+    : stringVal(value), translate(translat)
 {
     init();
 }
 
-LocalizationArg::LocalizationArg(const string& value, const string& plural_val, const int num)
-    : stringVal(value), plural(plural_val)
+LocalizationArg::LocalizationArg(const string& value, const string& plural_val, const int num, bool translat)
+    : stringVal(value), plural(plural_val), translate(translat)
 {
     init();
     count = num;
 }
 
-LocalizationArg::LocalizationArg(const char* value)
+LocalizationArg::LocalizationArg(const char* value, bool translat)
+    : translate(translat)
 {
     init();
     if (value != nullptr)
@@ -1070,31 +1071,36 @@ LocalizationArg::LocalizationArg(const char* value)
     }
 }
 
-LocalizationArg::LocalizationArg(const int value)
+LocalizationArg::LocalizationArg(const int value, bool translat)
+    : translate(translat)
 {
     init();
     intVal = value;
 }
 
-LocalizationArg::LocalizationArg(const long value)
+LocalizationArg::LocalizationArg(const long value, bool translat)
+    : translate(translat)
 {
     init();
     longVal = value;
 }
 
-LocalizationArg::LocalizationArg(const long long value)
+LocalizationArg::LocalizationArg(const long long value, bool translat)
+    : translate(translat)
 {
     init();
     longLongVal = value;
 }
 
-LocalizationArg::LocalizationArg(const double value)
+LocalizationArg::LocalizationArg(const double value, bool translat)
+    : translate(translat)
 {
     init();
     doubleVal = value;
 }
 
-LocalizationArg::LocalizationArg(const long double value)
+LocalizationArg::LocalizationArg(const long double value, bool translat)
+    : translate(translat)
 {
     init();
     longDoubleVal = value;
