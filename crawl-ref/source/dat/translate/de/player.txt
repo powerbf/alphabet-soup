@@ -75,6 +75,9 @@ Oktopode
 Ogre
 Oger
 %%%%
+Palentonga
+Palentonga
+%%%%
 Spriggan
 Spriggan
 %%%%
@@ -113,6 +116,9 @@ Assassine
 Berserker
 Berserker
 %%%%
+Brigand
+Brigant
+%%%%
 Abyssal Knight
 Abgrundritter
 %%%%
@@ -134,8 +140,8 @@ Arkaner Scharfschütze
 Warper
 Warper
 %%%%
-Wizard
-Zauberer
+Hedge Wizard
+Heckenzauberer
 %%%%
 Conjurer
 Beschwörer
@@ -163,6 +169,9 @@ Giftmagier
 %%%%
 Artificer
 Artificer
+%%%%
+Delver
+Gräber
 %%%%
 Wanderer
 Wanderer
