@@ -775,6 +775,9 @@ Ihr erschöpft die Vitalität {gen}%s!
 # It may seem odd that the sentences and punctuation both have a placeholder
 # for the other, but trust me, it will work out!
 %%%%
+%s.
+%s.
+%%%%
 %s!
 %s!
 %%%%
