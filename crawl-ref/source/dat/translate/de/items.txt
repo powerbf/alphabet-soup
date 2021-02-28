@@ -2752,11 +2752,19 @@ Schaden
 # Unrand Artefacts
 #################################
 %%%%
-the %spair of quick blades "Gyre" and "Gimble"
-das %sPaar Schnellklingen "Gyre" und "Gimble"
-%%%%
 the %sSinging Sword
 das %ssingende Schwert
+%%%%
+# alternative name for the Singing Sword
+the %sScreaming Sword
+das %sschreiende Schwert
+%%%%
+# alternative name for the Singing Sword
+the %sSulking Sword
+das %sschmollende Schwert
+%%%%
+the %spair of quick blades "Gyre" and "Gimble"
+das %sPaar Schnellklingen "Gyre" und "Gimble"
 %%%%
 the %sWrath of Trog
 der %sZorn von Trog
