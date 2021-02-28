@@ -171,11 +171,19 @@ Eurem {adj-en}%sLangbogen
 #################################
 # probably only the ones that are weapons need dative, but it's easy enough to list them all
 %%%%
+{dat}the %sSinging Sword
+dem {adj-en}%ssingenden Schwert
+%%%%
+# alternative name for the Singing Sword
+{dat}the %sScreaming Sword
+dem {adj-en}%sschreienden Schwert
+%%%%
+# alternative name for the Singing Sword
+{dat}the %sSulking Sword
+dem {adj-en}%sschmollenden Schwert
+%%%%
 {dat}the %spair of quick blades "Gyre" and "Gimble"
 dem {adj-en}%sPaar Schnellklingen "Gyre" und "Gimble"
-%%%%
-{dat}the %sSinging Sword
-dem {adj-en}%ssingende Schwert
 %%%%
 {dat}the %sWrath of Trog
 dem {adj-en}%sZorn von Trog

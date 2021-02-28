@@ -35,6 +35,7 @@
 #include "ghost.h"         // For is_dragonkind ghost_demon datas
 #include "god-conduct.h"   // did_god_conduct
 #include "god-passive.h"   // passive_t::want_curses
+#include "localize.h"
 #include "mgen-data.h"     // For Sceptre of Asmodeus evoke
 #include "message.h"
 #include "monster.h"
@@ -325,11 +326,18 @@ static void _OLGREB_melee_effects(item_def* /*weapon*/, actor* attacker,
 
     if (!mondied && bonus_dam)
     {
-        mprf("%s %s %s%s",
-             attacker->name(DESC_THE).c_str(),
-             attacker->conj_verb("envenom").c_str(),
-             defender->name(DESC_THE).c_str(),
-             attack_strength_punctuation(bonus_dam).c_str());
+        string msg;
+        if (attacker->is_player())
+            msg = localize("You envenom %s", defender->name(DESC_THE));
+        else if (defender->is_player())
+            msg = localize("%s envenoms you", attacker->name(DESC_THE));
+        else
+            msg = localize("%s envenoms %s", attacker->name(DESC_THE),
+                                             defender->name(DESC_THE));
+
+        msg = localize("%s" + attack_strength_punctuation(bonus_dam),
+                       LocalizationArg(msg, false));
+        mprf_nolocalize("%s", msg.c_str());
 
         defender->hurt(attacker, bonus_dam);
         if (defender->alive())
@@ -436,8 +444,8 @@ static void _SINGING_SWORD_melee_effects(item_def* weapon, actor* attacker,
     if (!x_chance_in_y(6, (tier == 1) ? 24: (tier == 2) ? 16: 12))
         return;
 
-    const char *tenname[] =  {"silenced", "no_tension", "low_tension",
-                              "high_tension", "SCREAM"};
+    const char *tenname[] =  {"silenced", "no_tension", "low_tension", // noextract
+                              "high_tension", "SCREAM"}; // noextract
     const string key = tenname[tier];
     string msg = getSpeakString("singing sword " + key);
 
@@ -693,10 +701,14 @@ static void _WYRMBANE_melee_effects(item_def* weapon, actor* attacker,
     if (!mondied)
     {
         int bonus_dam = 1 + random2(3 * dam / 2);
-        mprf("%s %s%s",
-            defender->name(DESC_THE).c_str(),
-            defender->conj_verb("convulse").c_str(),
-            attack_strength_punctuation(bonus_dam).c_str());
+        string format = "%s" + attack_strength_punctuation(bonus_dam);
+        if (defender->is_player())
+            mprf(format.c_str(), "You convulse");
+        else
+        {
+            string msg = localize("%s convulses", defender->name(DESC_THE));
+            mprf(format.c_str(), msg.c_str());
+        }
 
         defender->hurt(attacker, bonus_dam);
 
@@ -727,14 +739,15 @@ static void _WYRMBANE_melee_effects(item_def* weapon, actor* attacker,
         // Including you, if you were a dragonform felid with lives left.
         if (weapon->plus == 18)
         {
-            mprf("<white>The lance glows brightly as it skewers %s. You feel "
-                 "that it has reached its full power.</white>",
-                 name.c_str());
+            string msg = localize("The lance glows brightly as it skewers %s. "
+                                  "You feel that it has reached its full power.",
+                                  name);
+            mprf_nolocalize("<white>%s</white>", msg.c_str());
         }
         else
         {
-            mprf("<green>The lance glows as it skewers %s.</green>",
-                 name.c_str());
+            string msg = localize("The lance glows as it skewers %s.", name);
+            mprf_nolocalize("<green>%s</green>", msg.c_str());
         }
 
         you.wield_change = true;
@@ -750,10 +763,16 @@ static void _UNDEADHUNTER_melee_effects(item_def* /*item*/, actor* attacker,
         && !mondied && dam)
     {
         int bonus_dam = random2avg((1 + (dam * 3)), 3);
-        mprf("%s %s blasted by disruptive energy%s",
-              defender->name(DESC_THE).c_str(),
-              defender->conj_verb("be").c_str(),
-              attack_strength_punctuation(bonus_dam).c_str());
+
+        string msg;
+        if (defender->is_player())
+            msg = localize("You are blasted by disruptive energy");
+        else
+            msg = localize("%s is blasted by disruptive energy",
+                           defender->name(DESC_THE));
+        string format = "%s" + attack_strength_punctuation(bonus_dam);
+        mprf(format.c_str(), msg.c_str());
+
         defender->hurt(attacker, bonus_dam);
     }
 }
@@ -867,25 +886,95 @@ static void _SNAKEBITE_melee_effects(item_def* /*weapon*/, actor* attacker,
 static void _WOE_melee_effects(item_def* /*weapon*/, actor* attacker,
                                actor* defender, bool mondied, int /*dam*/)
 {
-    const char *verb = "bugger", *adv = "";
-    switch (random2(8))
-    {
-    case 0: verb = "cleave", adv = " in twain"; break;
-    case 1: verb = "pulverise", adv = " into a thin bloody mist"; break;
-    case 2: verb = "hew", adv = " savagely"; break;
-    case 3: verb = "fatally mangle", adv = ""; break;
-    case 4: verb = "dissect", adv = " like a pig carcass"; break;
-    case 5: verb = "chop", adv = " into pieces"; break;
-    case 6: verb = "butcher", adv = " messily"; break;
-    case 7: verb = "slaughter", adv = " joyfully"; break;
-    }
     if (you.see_cell(attacker->pos()) || you.see_cell(defender->pos()))
     {
-        mprf("%s %s %s%s.", attacker->name(DESC_THE).c_str(),
-             attacker->conj_verb(verb).c_str(),
-             (attacker == defender ? defender->pronoun(PRONOUN_REFLEXIVE)
-                                   : defender->name(DESC_THE)).c_str(),
-             adv);
+        string msg;
+        int choice = random2(8);
+        if (attacker != defender)
+        {
+            if (attacker->is_player())
+            {
+                switch (choice)
+                {
+                case 0: msg = "You cleave %s in twain."; break;
+                case 1: msg = "You pulverise %s into a thin bloody mist."; break;
+                case 2: msg = "You hew %s savagely."; break;
+                case 3: msg = "You fatally mangle %s."; break;
+                case 4: msg = "You dissect %s like a pig carcass."; break;
+                case 5: msg = "You chop %s into pieces."; break;
+                case 6: msg = "You butcher %s messily."; break;
+                default: msg = "You slaughter %s joyfully.";
+                }
+                msg = localize(msg, defender->name(DESC_THE));
+
+            }
+            else if (defender->is_player())
+            {
+                switch (choice)
+                {
+                case 0: msg = "%s cleaves you in twain."; break;
+                case 1: msg = "%s pulverises you into a thin bloody mist."; break;
+                case 2: msg = "%s hews you savagely."; break;
+                case 3: msg = "%s fatally mangles you."; break;
+                case 4: msg = "%s dissects you like a pig carcass."; break;
+                case 5: msg = "%s chops you into pieces."; break;
+                case 6: msg = "%s butchers you messily."; break;
+                default: msg = "%s slaughters you joyfully.";
+                }
+                msg = localize(msg, attacker->name(DESC_THE));
+            }
+            else
+            {
+                switch (choice)
+                {
+                case 0: msg = "%s cleaves %s in twain."; break;
+                case 1: msg = "%s pulverises %s into a thin bloody mist."; break;
+                case 2: msg = "%s hews %s savagely."; break;
+                case 3: msg = "%s fatally mangles %s."; break;
+                case 4: msg = "%s dissects %s like a pig carcass."; break;
+                case 5: msg = "%s chops %s into pieces."; break;
+                case 6: msg = "%s butchers %s messily."; break;
+                default: msg = "%s slaughters %s joyfully.";
+                }
+                msg = localize(msg, attacker->name(DESC_THE), defender->name(DESC_THE));
+            }
+        }
+        else
+        {
+            // something is melee attacking itself (can this really happen?)
+            if (attacker->is_player())
+            {
+                switch (choice)
+                {
+                case 0: msg = "You cleave yourself in twain."; break;
+                case 1: msg = "You pulverise yourself into a thin bloody mist."; break;
+                case 2: msg = "You hew yourself savagely."; break;
+                case 3: msg = "You fatally mangle yourself."; break;
+                case 4: msg = "You dissect yourself like a pig carcass."; break;
+                case 5: msg = "You chop yourself into pieces."; break;
+                case 6: msg = "You butcher yourself messily."; break;
+                default: msg = "You slaughter yourself joyfully.";
+                }
+                msg = localize(msg);
+            }
+            else
+            {
+                // i18n: avoid himself/herself/itself - they're difficult to translate
+                // (reduced list because some options don't work without a reflexive pronoun)
+                switch (choice)
+                {
+                case 1: msg = "%s is pulverised into a thin bloody mist."; break;
+                case 2: msg = "%s is hewed savagely."; break;
+                case 3: msg = "%s is fatally mangled."; break;
+                case 4: msg = "%s is dissected like a pig carcass."; break;
+                case 5: msg = "%s is chopped into pieces."; break;
+                case 6: msg = "%s is butchered messily."; break;
+                default: msg = "%s is cloven in twain.";
+                }
+                msg = localize(msg, attacker->name(DESC_THE));
+            }
+        }
+        mpr_nolocalize(msg);
     }
 
     if (!mondied)
@@ -949,28 +1038,23 @@ static void _ELEMENTAL_STAFF_melee_effects(item_def*, actor* attacker,
     if (mondied || !(x_chance_in_y(evoc, 27*27) || x_chance_in_y(evoc, 27*27)))
         return;
 
-    const char *verb = nullptr;
     beam_type flavour = BEAM_NONE;
 
     switch (random2(4))
     {
     case 0:
-        verb = "burn";
         flavour = BEAM_FIRE;
         break;
     case 1:
-        verb = "freeze";
         flavour = BEAM_COLD;
         break;
     case 2:
-        verb = "electrocute";
         flavour = BEAM_ELECTRICITY;
         break;
     default:
         dprf("Bad damage type for elemental staff; defaulting to earth");
         // fallthrough to earth
     case 3:
-        verb = "crush";
         break;
     }
 
@@ -979,12 +1063,75 @@ static void _ELEMENTAL_STAFF_melee_effects(item_def*, actor* attacker,
     if (bonus_dam <= 0)
         return;
 
-    mprf("%s %s %s%s",
-         attacker->name(DESC_THE).c_str(),
-         attacker->conj_verb(verb).c_str(),
-         (attacker == defender ? defender->pronoun(PRONOUN_REFLEXIVE)
-                               : defender->name(DESC_THE)).c_str(),
-         attack_strength_punctuation(bonus_dam).c_str());
+    string msg;
+    if (attacker != defender)
+    {
+        if (attacker->is_player())
+        {
+            switch(flavour)
+            {
+            case BEAM_FIRE: msg = "You burn %s"; break;
+            case BEAM_COLD: msg = "You freeze %s"; break;
+            case BEAM_ELECTRICITY: msg = "You electrocute %s"; break;
+            default: msg = "You crush %s";
+            }
+            msg = localize(msg, defender->name(DESC_THE));
+        }
+        else if (defender->is_player())
+        {
+            switch(flavour)
+            {
+            case BEAM_FIRE: msg = "%s burns you"; break;
+            case BEAM_COLD: msg = "%s freezes you"; break;
+            case BEAM_ELECTRICITY: msg = "%s electrocutes you"; break;
+            default: msg = "%s crushes you";
+            }
+            msg = localize(msg, attacker->name(DESC_THE));
+        }
+        else
+        {
+            switch(flavour)
+            {
+            case BEAM_FIRE: msg = "%s burns %s"; break;
+            case BEAM_COLD: msg = "%s freezes %s"; break;
+            case BEAM_ELECTRICITY: msg = "%s electrocutes %s"; break;
+            default: msg = "%s crushes %s";
+            }
+            msg = localize(msg, attacker->name(DESC_THE), defender->name(DESC_THE));
+        }
+    }
+    else
+    {
+        // something is melee attacking itself (can this really happen?)
+        if (attacker->is_player())
+        {
+            switch(flavour)
+            {
+            case BEAM_FIRE: msg = "You burn yourself"; break;
+            case BEAM_COLD: msg = "You freeze yourself"; break;
+            case BEAM_ELECTRICITY: msg = "You electrocute yourself"; break;
+            default: msg = "You crush yourself";
+            }
+            msg = localize(msg);
+        }
+        else
+        {
+            // i18n: avoid himself/herself/itself - they're difficult to translate
+            switch(flavour)
+            {
+            case BEAM_FIRE: msg = "%s is burned"; break;
+            case BEAM_COLD: msg = "%s is frozen"; break;
+            case BEAM_ELECTRICITY: msg = "%s is electrocuted"; break;
+            default: msg = "%s is crushed";
+            }
+            msg = localize(msg, attacker->name(DESC_THE));
+        }
+    }
+
+    msg = localize("%s" + attack_strength_punctuation(bonus_dam),
+                   LocalizationArg(msg, false));
+
+    mprf_nolocalize("%s", msg.c_str());
 
     defender->hurt(attacker, bonus_dam, flavour);
 
@@ -1171,9 +1318,8 @@ static void _MAJIN_equip(item_def *item, bool *show_msgs, bool /*unmeld*/)
 
     if (!item->props.exists(MB_WELCOME_KEY) && should_msg)
     {
-        const string msg = "A voice whispers, \"" +
-                           getSpeakString("majin-bo greeting") + "\"";
-        mprf(MSGCH_TALK, "%s", msg.c_str());
+        mprf(MSGCH_TALK, "A voice whispers, \"%s\"",
+                         getSpeakString("majin-bo greeting").c_str());
         item->props[MB_WELCOME_KEY].get_bool() = true;
     }
 }
@@ -1358,7 +1504,7 @@ static void _LEECH_melee_effects(item_def* /*item*/, actor* attacker,
         && mondied && x_chance_in_y(dam, 729))
     {
         simple_monster_message(*(defender->as_monster()),
-                               " liquefies into a cloud of blood!");
+                               "%s liquefies into a cloud of blood!");
         blood_spray(defender->pos(), defender->type, 50);
     }
 }
@@ -1399,11 +1545,37 @@ static void _THERMIC_ENGINE_melee_effects(item_def* weapon, actor* attacker,
                                                random2(dam) / 2 + 1);
     if (bonus_dam > 0)
     {
-        mprf("%s %s %s.",
-            attacker->name(DESC_THE).c_str(),
-            attacker->conj_verb("freeze").c_str(),
-            (attacker == defender ? defender->pronoun(PRONOUN_REFLEXIVE)
-                                : defender->name(DESC_THE)).c_str());
+        string msg;
+        if (attacker != defender)
+        {
+            if (attacker->is_player())
+            {
+                msg = localize("You freeze %s.", defender->name(DESC_THE));
+            }
+            else if (defender->is_player())
+            {
+                msg = localize("%s freezes you.", attacker->name(DESC_THE));
+            }
+            else
+            {
+                msg = localize("%s freezes %s.", attacker->name(DESC_THE), defender->name(DESC_THE));
+            }
+        }
+        else
+        {
+            // something is melee attacking itself (can this really happen?)
+            if (attacker->is_player())
+            {
+                msg = localize("You freeze yourself.");
+            }
+            else
+            {
+                // i18n: avoid himself/herself/itself - they're difficult to translate
+                msg = localize("%s is frozen.", attacker->name(DESC_THE));
+            }
+        }
+
+        mprf_nolocalize("%s", msg.c_str());
 
         defender->hurt(attacker, bonus_dam, BEAM_COLD);
         if (defender->alive())
