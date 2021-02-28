@@ -1507,7 +1507,7 @@ static void _choose_arena_teams(newgame_def& choice,
     vbox->add_child(teams_input);
     formatted_string prompt;
     prompt.cprintf("\n");
-    prompt.cprintf(localize("Examples:").c_str());
+    prompt.cprintf("%s", localize("Examples:").c_str());
     prompt.cprintf("\n");
     prompt.cprintf("  Sigmund v Jessica\n"); // noextract
     prompt.cprintf("  99 orc v the Royal Jelly\n"); // noextract
