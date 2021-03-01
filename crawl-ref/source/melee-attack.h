@@ -110,7 +110,6 @@ private:
     /* Output methods */
     void set_attack_verb(int damage) override;
     void announce_hit() override;
-    string get_special_hit_message(const string& verb);
 
     /* Misc methods */
     void handle_noise(const coord_def & pos);

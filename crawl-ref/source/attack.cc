@@ -16,7 +16,6 @@
 #include <cstring>
 #include <functional>
 
-#include "actor-util.h"
 #include "art-enum.h"
 #include "chardump.h"
 #include "delay.h"
@@ -31,6 +30,7 @@
 #include "item-prop.h"
 #include "localize.h"
 #include "message.h"
+#include "message-util.h"
 #include "mon-behv.h"
 #include "mon-clone.h"
 #include "mon-death.h"
@@ -846,14 +846,11 @@ void attack::drain_defender()
             obvious_effect = true;
         else if (defender_visible)
         {
-            string msg;
-            if (attacker->is_player())
-                msg = localize("You drain %s", defender_name(true));
-            else if (defender->is_player())
-                msg = localize("%s drains you", atk_name(DESC_THE));
-            else
-                msg = localize("%s drains %s", atk_name(DESC_THE),
-                               defender_name(true));
+            string msg = get_actor_message(attacker, attacker_visible,
+                                             defender, defender_visible,
+                                             "You drain %s",
+                                             "%s drains you",
+                                             "%s drains %s");
 
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);

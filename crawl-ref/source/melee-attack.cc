@@ -31,6 +31,7 @@
 #include "localize.h"
 #include "mapdef.h"
 #include "message.h"
+#include "message-util.h"
 #include "mon-behv.h"
 #include "mon-poly.h"
 #include "mon-tentacle.h"
@@ -2102,7 +2103,13 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            special_damage_message = get_special_hit_message("freeze");
+            string msg = get_actor_message(attacker, attacker_visible,
+                                           defender, defender_visible,
+                                           "You freeze %s",
+                                           "%s freezes you",
+                                           "%s freezes %s");
+            special_damage_message =
+                add_attack_strength_punct(msg, special_damage, false);
             special_damage_flavour = BEAM_COLD;
         }
         break;
@@ -2113,21 +2120,11 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage > 0)
         {
-            string msg;
-            if (attacker->is_player())
-            {
-                msg = localize("You shatter %s", defender_name(true));
-            }
-            else if (defender->is_player())
-            {
-                msg = localize("%s shatters you", attacker->name(DESC_THE));
-            }
-            else
-            {
-                msg = localize("%s shatters %s", attacker->name(DESC_THE),
-                               defender_name(true));
-            }
-
+            string msg = get_actor_message(attacker, attacker_visible,
+                                           defender, defender_visible,
+                                           "You shatter %s",
+                                           "%s shatters you",
+                                           "%s shatters %s");
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
         }
@@ -2141,7 +2138,13 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            special_damage_message = get_special_hit_message("burn");
+            string msg = get_actor_message(attacker, attacker_visible,
+                                           defender, defender_visible,
+                                           "You burn %s",
+                                           "%s burns you",
+                                           "%s burns %s");
+            special_damage_message =
+                add_attack_strength_punct(msg, special_damage, false);
             special_damage_flavour = BEAM_FIRE;
 
             if (defender->is_player())
@@ -2157,7 +2160,13 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            special_damage_message = get_special_hit_message("envenom");
+            string msg = get_actor_message(attacker, attacker_visible,
+                                           defender, defender_visible,
+                                           "You envenom %s",
+                                           "%s envenoms you",
+                                           "%s envenoms %s");
+            special_damage_message =
+                add_attack_strength_punct(msg, special_damage, false);
             special_damage_flavour = BEAM_POISON;
         }
         break;
@@ -2189,15 +2198,11 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage > 0)
         {
-            string msg;
-            if (attacker->is_player())
-                msg = localize("You blast %s", defender_name(true));
-            else if (defender->is_player())
-                msg = localize("%s blasts you", attacker->name(DESC_THE));
-            else
-                msg = localize("%s blasts %s", attacker->name(DESC_THE),
-                               defender_name(true));
-
+            string msg = get_actor_message(attacker, attacker_visible,
+                                           defender, defender_visible,
+                                           "You blast %s",
+                                           "%s blasts you",
+                                           "%s blasts %s");
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
         }
@@ -2439,29 +2444,6 @@ void melee_attack::announce_hit()
     }
 }
 
-string melee_attack::get_special_hit_message(const string& verb)
-{
-    string msg;
-    string conj_verb = attacker->conj_verb(verb);
-    if (attacker->is_player())
-    {
-        msg = localize("You " + conj_verb + " %s",
-                       defender_name(true));
-    }
-    else if (defender->is_player())
-    {
-        msg = localize("%s " + conj_verb + " you",
-                       attacker->name(DESC_THE));
-    }
-    else
-    {
-        msg = localize("%s " + conj_verb + " %s", attacker->name(DESC_THE),
-                       defender_name(true));
-    }
-    msg = add_attack_strength_punct(msg, special_damage, false);
-    return msg;
-}
-
 // Returns if the target was actually poisoned by this attack
 bool melee_attack::mons_do_poison()
 {
@@ -2694,7 +2676,11 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && base_damage)
         {
-            string msg = get_special_hit_message("freeze");
+            string msg = get_monster_message(attacker, attacker_visible,
+                                             defender, defender_visible,
+                                             "%s freezes you",
+                                             "%s freezes %s");
+            msg = add_attack_strength_punct(msg, special_damage, false);
             mpr_nolocalize(msg);
 
             _print_resist_messages(defender, base_damage, BEAM_COLD);
@@ -2712,8 +2698,11 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && base_damage)
         {
-            string msg = get_special_hit_message("shock");
-            mpr_nolocalize(msg);
+            string msg = get_monster_message(attacker, attacker_visible,
+                                             defender, defender_visible,
+                                             "%s shocks you",
+                                             "%s shocks %s");
+            attack_strength_message(msg, special_damage, false);
 
             _print_resist_messages(defender, base_damage, BEAM_ELECTRICITY);
         }
@@ -2907,8 +2896,11 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && special_damage)
         {
-            string msg = get_special_hit_message("sear");
-            mpr_nolocalize(msg);
+            string msg = get_monster_message(attacker, attacker_visible,
+                                             defender, defender_visible,
+                                             "%s sears you",
+                                             "%s sears %s");
+            attack_strength_message(msg, special_damage, false);
         }
         break;
 
@@ -3079,7 +3071,13 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (needs_message)
             {
-                string msg = get_special_hit_message("drown");
+                string msg;
+                if (defender->is_player())
+                    msg = localize("%s drowns you", attacker->name(DESC_THE));
+                else
+                    msg = localize("%s drowns %s", attacker->name(DESC_THE),
+                                                   defender->name(DESC_THE));
+                msg = add_attack_strength_punct(msg, special_damage, false);
                 mpr_nolocalize(msg);
             }
         }

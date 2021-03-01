@@ -38,6 +38,7 @@
 #include "localize.h"
 #include "mgen-data.h"     // For Sceptre of Asmodeus evoke
 #include "message.h"
+#include "message-util.h"
 #include "monster.h"
 #include "mon-death.h"     // For demon axe's SAME_ATTITUDE
 #include "mon-place.h"     // For Sceptre of Asmodeus evoke
@@ -326,14 +327,9 @@ static void _OLGREB_melee_effects(item_def* /*weapon*/, actor* attacker,
 
     if (!mondied && bonus_dam)
     {
-        string msg;
-        if (attacker->is_player())
-            msg = localize("You envenom %s", defender->name(DESC_THE));
-        else if (defender->is_player())
-            msg = localize("%s envenoms you", attacker->name(DESC_THE));
-        else
-            msg = localize("%s envenoms %s", attacker->name(DESC_THE),
-                                             defender->name(DESC_THE));
+        string msg = get_actor_message(attacker, true, defender, true,
+                                       "You envenom %s", "%s envenoms you",
+                                       "%s envenoms %s");
 
         attack_strength_message(msg, bonus_dam, false);
 
@@ -1061,69 +1057,36 @@ static void _ELEMENTAL_STAFF_melee_effects(item_def*, actor* attacker,
     if (bonus_dam <= 0)
         return;
 
+    // i18n: not sure if self melee attack is really possible,
+    // but old code catered for that case
     string msg;
-    if (attacker != defender)
+    if (flavour == BEAM_FIRE)
     {
-        if (attacker->is_player())
-        {
-            switch(flavour)
-            {
-            case BEAM_FIRE: msg = "You burn %s"; break;
-            case BEAM_COLD: msg = "You freeze %s"; break;
-            case BEAM_ELECTRICITY: msg = "You electrocute %s"; break;
-            default: msg = "You crush %s";
-            }
-            msg = localize(msg, defender->name(DESC_THE));
-        }
-        else if (defender->is_player())
-        {
-            switch(flavour)
-            {
-            case BEAM_FIRE: msg = "%s burns you"; break;
-            case BEAM_COLD: msg = "%s freezes you"; break;
-            case BEAM_ELECTRICITY: msg = "%s electrocutes you"; break;
-            default: msg = "%s crushes you";
-            }
-            msg = localize(msg, attacker->name(DESC_THE));
-        }
-        else
-        {
-            switch(flavour)
-            {
-            case BEAM_FIRE: msg = "%s burns %s"; break;
-            case BEAM_COLD: msg = "%s freezes %s"; break;
-            case BEAM_ELECTRICITY: msg = "%s electrocutes %s"; break;
-            default: msg = "%s crushes %s";
-            }
-            msg = localize(msg, attacker->name(DESC_THE), defender->name(DESC_THE));
-        }
+        msg = get_actor_message(attacker, true, defender, true,
+                                "You burn %s", "%s burns you", "%s burns %s",
+                                "You burn yourself", "%s is burned");
+    }
+    else if (flavour == BEAM_COLD)
+    {
+        msg = get_actor_message(attacker, true, defender, true,
+                                "You freeze %s", "%s freezes you",
+                                "%s freezes %s",
+                                "You freeze yourself", "%s is frozen");
+    }
+    else if (flavour == BEAM_ELECTRICITY)
+    {
+        msg = get_actor_message(attacker, true, defender, true,
+                                "You electrocute %s", "%s electrocutes you",
+                                "%s electrocutes %s",
+                                "You electrocute yourself",
+                                "%s is electrocuted");
     }
     else
     {
-        // something is melee attacking itself (can this really happen?)
-        if (attacker->is_player())
-        {
-            switch(flavour)
-            {
-            case BEAM_FIRE: msg = "You burn yourself"; break;
-            case BEAM_COLD: msg = "You freeze yourself"; break;
-            case BEAM_ELECTRICITY: msg = "You electrocute yourself"; break;
-            default: msg = "You crush yourself";
-            }
-            msg = localize(msg);
-        }
-        else
-        {
-            // i18n: avoid himself/herself/itself - they're difficult to translate
-            switch(flavour)
-            {
-            case BEAM_FIRE: msg = "%s is burned"; break;
-            case BEAM_COLD: msg = "%s is frozen"; break;
-            case BEAM_ELECTRICITY: msg = "%s is electrocuted"; break;
-            default: msg = "%s is crushed";
-            }
-            msg = localize(msg, attacker->name(DESC_THE));
-        }
+        msg = get_actor_message(attacker, true, defender, true,
+                                "You crush %s", "%s crushes you",
+                                "%s crushes %s",
+                                "You crush yourself", "%s is crushed");
     }
 
     attack_strength_message(msg, bonus_dam, false);
@@ -1541,35 +1504,13 @@ static void _THERMIC_ENGINE_melee_effects(item_def* weapon, actor* attacker,
     if (bonus_dam > 0)
     {
         string msg;
-        if (attacker != defender)
-        {
-            if (attacker->is_player())
-            {
-                msg = localize("You freeze %s.", defender->name(DESC_THE));
-            }
-            else if (defender->is_player())
-            {
-                msg = localize("%s freezes you.", attacker->name(DESC_THE));
-            }
-            else
-            {
-                msg = localize("%s freezes %s.", attacker->name(DESC_THE), defender->name(DESC_THE));
-            }
-        }
-        else
-        {
-            // something is melee attacking itself (can this really happen?)
-            if (attacker->is_player())
-            {
-                msg = localize("You freeze yourself.");
-            }
-            else
-            {
-                // i18n: avoid himself/herself/itself - they're difficult to translate
-                msg = localize("%s is frozen.", attacker->name(DESC_THE));
-            }
-        }
-
+        // i18n: not sure if self melee attack is really possible,
+        // but old code catered for that case
+        msg = get_actor_message(attacker, true, defender, true,
+                                "You freeze %s", "%s freezes you",
+                                "%s freezes %s",
+                                "You freeze yourself", "%s is frozen");
+        msg = localize("%s.", LocalizationArg(msg, false));
         mprf_nolocalize("%s", msg.c_str());
 
         defender->hurt(attacker, bonus_dam, BEAM_COLD);
