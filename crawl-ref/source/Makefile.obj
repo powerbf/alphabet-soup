@@ -5,7 +5,6 @@ acquire.o \
 act-iter.o \
 actor-los.o \
 actor.o \
-actor-util.o \
 adjust.o \
 areas.o \
 arena.o \
@@ -143,6 +142,7 @@ maps.o \
 melee-attack.o \
 menu.o \
 message-stream.o \
+message-util.o \
 message.o \
 misc.o \
 mon-abil.o \

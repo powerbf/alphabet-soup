@@ -1,6 +1,6 @@
 #pragma once
 /*
- * Actor utility functions
+ * Message utility functions
  */
 
 #include "actor.h"
