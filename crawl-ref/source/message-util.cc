@@ -1,12 +1,12 @@
 /*
- * Actor utility functions
+ * Message utility functions
  */
 
 #include "AppHdr.h"
-#include "actor-util.h"
 #include "english.h"
 #include "gender-type.h"
 #include "localize.h"
+#include "message-util.h"
 #include "mpr.h"
 
 /*
