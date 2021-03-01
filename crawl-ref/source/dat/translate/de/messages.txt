@@ -716,29 +716,67 @@ Eure Schale aus Aas und Knochen wird dicker.
 ###############################
 # attack.cc
 ###############################
-# Note: The extra %s at the end of some of these is a placeholder for
-# attack stength punctuation (see below)
+%%%%
+# attack_strength_punctuation()
+# Exclamation marks show amount of damage.
+# The %s is a placeholder for the sentence. It's done this way
+# because some languages don't simply append punctuation to the end.
+# For example, in Spanish, you would translate "%s!" as "¡%s!"
+%%%%
+%s.
+%s.
+%%%%
+%s!
+%s!
+%%%%
+%s!!
+%s!!
+%%%%
+%s!!!
+%s!!!
+%%%%
+%s!!!!
+%s!!!!
+%%%%
+%s!!!!!
+%s!!!!!
+%%%%
+%s!!!!!!
+%s!!!!!!
+%%%%
+%s!!!!!!!
+%s!!!!!!!
+%%%%
+%s!!!!!!!!
+%s!!!!!!!!
+%%%%
+%s!!!!!!!!!
+%s!!!!!!!!!
+%%%%
+%s!!!!!!!!!!
+%s!!!!!!!!!!
+# NOTE: many of the following sentencesare deliberately missing punctuation because it's variable.
 # attack::distortion_affects_defender()
 %%%%
-Space bends around you.
-Der Raum biegt sich um Euch herum.
+Space bends around you
+Der Raum biegt sich um Euch herum
 %%%%
-Space bends around %s.
-Der Raum biegt sich um {acc}%s herum.
+Space bends around %s
+Der Raum biegt sich um {acc}%s herum
 %%%%
-Space warps horribly around you%s
-Der Raum verzieht sich schrecklich um Euch herum%s
+Space warps horribly around you
+Der Raum verzieht sich schrecklich um Euch herum
 %%%%
-Space warps horribly around %s%s
-Der Raum verzieht sich schrecklich um {acc}%s herum%s
+Space warps horribly around %s
+Der Raum verzieht sich schrecklich um {acc}%s herum
 %%%%
 # attack::pain_affects_defender()
 %%%%
-You writhe in agony%s
-Ihr krümmt Euch vor Qual%s
+You writhe in agony
+Ihr krümmt Euch vor Qual
 %%%%
-%s writhes in agony%s
-%s krümmt sich vor Qual%s
+%s writhes in agony
+%s krümmt sich vor Qual
 %%%%
 # attack::chaos_affects_defender()
 %%%%
@@ -747,14 +785,14 @@ Ihr krümmt Euch vor Qual%s
 %%%%
 # attack::drain_defender()
 %%%%
-You drain %s%s
-Ihr entleert {acc}%s%s
+You drain %s
+Ihr entleert {acc}%s
 %%%%
-%s drains you%s
-%s entleerst Euch %s
+%s drains you
+%s entleerst Euch
 %%%%
-%s drains %s%s
-%s entleerst {acc}%s%s
+%s drains %s
+%s entleerst {acc}%s
 %%%%
 # attack::drain_defender_speed()
 %%%%
@@ -766,47 +804,6 @@ Ihr erschöpft die Vitalität {gen}%s!
 %%%%
 %s drains %s vigour!
 %s erschöpft die Vitalität {gen}%s!
-%%%%
-# attack_strength_punctuation()
-# Exclamation marks show amount of damage.
-# The %s is a placeholder for the sentence. It's done this way
-# because some languages don't simply append punctuation to the end.
-# For example, in Spanish, you would translate "%s!" as "¡%s!"
-# It may seem odd that the sentences and punctuation both have a placeholder
-# for the other, but trust me, it will work out!
-%%%%
-%s.
-%s.
-%%%%
-%s!
-%s!
-%%%%
-%s!!
-%s!!
-%%%%
-%s!!!
-%s!!!
-%%%%
-%s!!!!
-%s!!!!
-%%%%
-%s!!!!!
-%s!!!!!
-%%%%
-%s!!!!!!
-%s!!!!!!
-%%%%
-%s!!!!!!!
-%s!!!!!!!
-%%%%
-%s!!!!!!!!
-%s!!!!!!!!
-%%%%
-%s!!!!!!!!!
-%s!!!!!!!!!
-%%%%
-%s!!!!!!!!!!
-%s!!!!!!!!!!
 %%%%
 # attack::stab_message()
 %%%%
@@ -847,13 +844,13 @@ Ihr blockiert den Angriff {gen}%s.
 %%%%
 # attack::apply_damage_brand()
 %%%%
-You convulse%s
-Ihr krümmt Euch %s
+You convulse
+Ihr krümmt Euch
 %%%%
-%s convulses%s
-%s krümmt sich%s
+%s convulses
+%s krümmt sich
 %%%%
-# "You are electrocuted%s" covered elsewhere
+# "You are electrocuted" covered elsewhere
 %%%%
 Lightning courses through %s
 Blitzen fließt durch %s
@@ -866,32 +863,32 @@ Blitzen fließt durch %s
 %%%%
 # attack::calc_elemental_brand_damage()
 %%%%
-You burn %s%s
-Ihr brennt {acc}%s%s
+You burn %s
+Ihr brennt {acc}%s
 %%%%
-%s burns you%s
-%s brennt Euch %s
+%s burns you
+%s brennt Euch
 %%%%
-%s burns %s%s
-%s brennt {acc}%s%s
+%s burns %s
+%s brennt {acc}%s
 %%%%
-You melt %s%s
-Ihr schmilzt {acc}%s%s
+You melt %s
+Ihr schmilzt {acc}%s
 %%%%
-%s melts you%s
-%s schmilzt Euch%s
+%s melts you
+%s schmilzt Euch
 %%%%
-%s melts %s%s
-%s schmilzt {acc}%s%s
+%s melts %s
+%s schmilzt {acc}%s
 %%%%
-You freeze %s%s
-Ihr friert {acc}%s ein%s
+You freeze %s
+Ihr friert {acc}%s ein
 %%%%
-%s freezes you%s
-%s friert Euch ein%s
+%s freezes you
+%s friert Euch ein
 %%%%
-%s freezes %s%s
-%s friert {acc}%s ein%s
+%s freezes %s
+%s friert {acc}%s ein
 %%%%
 
 ##################
@@ -3795,23 +3792,6 @@ Ihr versucht {acc}%s anzugreifen, zuckst aber vor Angst zurück!
 , but does no damage.
 , fügt aber keinen Schaden zu.
 %%%%
-# melee_attack::handle_phase_damaged()
-%%%%
-Your shroud bends %s attack away%s
-Eure Umhüllung biegt den Angriff {gen}%s ab%s
-%%%%
-%s shroud bends your attack away%s
-Die Umhüllung {gen}%s biegt Euren Angriff ab%s
-%%%%
-%s shroud bends %s attack away%s
-Die Umhüllung {gen}%s biegt den Angriff {gen}%s ab%s
-%%%%
-Your shroud falls apart!
-Eure Umhüllung fällt auseinander!
-%%%%
-%s shroud falls apart!
-Die Umhüllung {gen}%s fällt auseinander!
-%%%%
 # _hydra_devour()
 # (when you're in hydra form, you can eat monsters)
 %%%%
@@ -3960,630 +3940,630 @@ Die Flamme kauterisiert die Wunde!
 # But here, it means "You receive an electric shock".
 # This message appears in both attack.cc and melee-attack.cc
 %%%%
-You are electrocuted%s
-Ihr bekommt einen elektrischen Schlag%s
+You are electrocuted
+Ihr bekommt einen elektrischen Schlag
 %%%%
 # as above
 %%%%
-%s is electrocuted%s
-%s bekommt einen elektrischen Schlag%s
+%s is electrocuted
+%s bekommt einen elektrischen Schlag
 %%%%
 # "writhe in agony" already covered under attack.cc
 # melee_attack::announce_mons_hit()
 # (monster hits player or other monster)
 # monster reaching attacks
 %%%%
-%s hits you from afar%s
-%s schlägt Euch von weitem%s
+%s hits you from afar
+%s schlägt Euch von weitem
 %%%%
-%s hits %s from afar%s
-%s schlägt {acc}%s von weitem%s
+%s hits %s from afar
+%s schlägt {acc}%s von weitem
 %%%%
-%s hits you from afar with %s%s
-%s schlägt Euch von weitem mit {dat}%s%s
+%s hits you from afar with %s
+%s schlägt Euch von weitem mit {dat}%s
 %%%%
-%s hits %s from afar with %s%s
-%s schlägt {acc}%s von weitem mit {dat}%s%s
+%s hits %s from afar with %s
+%s schlägt {acc}%s von weitem mit {dat}%s
 %%%%
 # normal monster melee attacks
 %%%%
-%s hits you%s
-%s schlägt Euch %s
+%s hits you
+%s schlägt Euch
 %%%%
-%s hits you with %s%s
-%s schlägt Euch mit {dat}%s%s
+%s hits you with %s
+%s schlägt Euch mit {dat}%s
 %%%%
-%s hits %s%s
-%s schlägt {acc}%s%s
+%s hits %s
+%s schlägt {acc}%s
 %%%%
-%s hits %s with %s%s
-%s schlägt {acc}%s mit {dat}%s%s
+%s hits %s with %s
+%s schlägt {acc}%s mit {dat}%s
 %%%%
-%s bites you%s
-%s beißt Euch %s
+%s bites you
+%s beißt Euch
 %%%%
 %s bites %s%s
 %s beißt {acc}%s%s
 %%%%
-%s stings you%s
-%s sticht Euch %s
+%s stings you
+%s sticht Euch
 %%%%
-%s stings %s%s
-%s sticht {acc}%s%s
+%s stings %s
+%s sticht {acc}%s
 %%%%
-%s releases spores at you%s
-%s setzt Sporen auf Euch frei%s
+%s releases spores at you
+%s setzt Sporen auf Euch frei
 %%%%
-%s releases spores at %s%s
-%s setzt Sporen auf {acc}%s frei%s
+%s releases spores at %s
+%s setzt Sporen auf {acc}%s frei
 %%%%
-%s touches you%s
-%s fasst Euch an%s
+%s touches you
+%s fasst Euch an
 %%%%
-%s touches %s%s
-%s fasst {acc}%s an%s
+%s touches %s
+%s fasst {acc}%s an
 %%%%
-%s engulfs you%s
-%s hüllt Euch ein%s
+%s engulfs you
+%s hüllt Euch ein
 %%%%
-%s engulfs %s%s
-%s hüllt {acc}%s ein%s
+%s engulfs %s
+%s hüllt {acc}%s ein
 %%%%
-%s claws you%s
-%s zerkratzt Euch %s
+%s claws you
+%s zerkratzt Euch
 %%%%
-%s claws %s%s
-%s zerkratzt {acc}%s%s
+%s claws %s
+%s zerkratzt {acc}%s
 %%%%
-%s pecks you%s
-%s pickt Euch %s
+%s pecks you
+%s pickt Euch
 %%%%
-%s pecks %s%s
-%s pickt {acc}%s%s
+%s pecks %s
+%s pickt {acc}%s
 %%%%
-%s headbutts you%s
-%s versetzt Euch einen Kopfstoß%s
+%s headbutts you
+%s versetzt Euch einen Kopfstoß
 %%%%
-%s headbutts %s%s
-%s versetzt {dat}%s einen Kopfstoß%s
+%s headbutts %s
+%s versetzt {dat}%s einen Kopfstoß
 %%%%
-%s punches you%s
-%s schlägt Euch mit der Faust%s
+%s punches you
+%s schlägt Euch mit der Faust
 %%%%
-%s punches %s%s
-%s schlägt {acc}%s mit der Faust%s
+%s punches %s
+%s schlägt {acc}%s mit der Faust
 %%%%
-%s kicks you%s
-%s tritt Euch %s
+%s kicks you
+%s tritt Euch
 %%%%
-%s kicks %s%s
-%s tritt {acc}%s%s
+%s kicks %s
+%s tritt {acc}%s
 %%%%
-%s tentacle-slaps you%s
-%s schlägt Euch mit dem Tentakel%s
+%s tentacle-slaps you
+%s schlägt Euch mit dem Tentakel
 %%%%
-%s tentacle-slaps %s%s
-%s schlägt {acc}%s mit dem Tentakel%s
+%s tentacle-slaps %s
+%s schlägt {acc}%s mit dem Tentakel
 %%%%
-%s tail-slaps you%s
-%s schlägt Euch mit dem Schwanz%s
+%s tail-slaps you
+%s schlägt Euch mit dem Schwanz
 %%%%
-%s tail-slaps %s%s
-%s schlägt {acc}%s mit dem Schwanz%s
+%s tail-slaps %s
+%s schlägt {acc}%s mit dem Schwanz
 %%%%
-%s trunk-slaps you%s
-%s schlägt Euch mit dem Rüssel%s
+%s trunk-slaps you
+%s schlägt Euch mit dem Rüssel
 %%%%
-%s trunk-slaps %s%s
-%s schlägt {acc}%s mit dem Rüssel%s
+%s trunk-slaps %s
+%s schlägt {acc}%s mit dem Rüssel
 %%%%
-%s gores you%s
-%s spießt Euch auf%s
+%s gores you
+%s spießt Euch auf
 %%%%
-%s gores %s%s
-%s spießt {acc}%s auf%s
+%s gores %s
+%s spießt {acc}%s auf
 %%%%
-%s constricts you%s
-%s verengt Euch %s
+%s constricts you
+%s verengt Euch
 %%%%
-%s constricts %s%s
-%s verengt {acc}%s%s
+%s constricts %s
+%s verengt {acc}%s
 %%%%
-%s tramples you%s
-%s trampelt Euch %s
+%s tramples you
+%s trampelt Euch
 %%%%
-%s tramples %s%s
-%s trampelt {acc}%s%s
+%s tramples %s
+%s trampelt {acc}%s
 %%%%
-%s pounces on you%s
-%s stürzt sich auf Euch %s
+%s pounces on you
+%s stürzt sich auf Euch
 %%%%
-%s pounces on %s%s
-%s stürzt sich auf {acc}%s%s
+%s pounces on %s
+%s stürzt sich auf {acc}%s
 %%%%
 # Killer klown attacks. Some of these make no sense whatsoever.
 # It's not super important to translate these accurately. They're just for flavour.
 %%%%
-%s pokes you%s
-%s stößt Euch an%s
+%s pokes you
+%s stößt Euch an
 %%%%
-%s pokes %s%s
-%s stößt {acc}%s an%s
+%s pokes %s
+%s stößt {acc}%s an
 %%%%
-%s pokes you with %s%s
-%s stößt Euch mit {dat}%s an%s
+%s pokes you with %s
+%s stößt Euch mit {dat}%s an
 %%%%
-%s pokes %s with %s%s
-%s stößt {acc}%s mit {dat}%s an%s
+%s pokes %s with %s
+%s stößt {acc}%s mit {dat}%s an
 %%%%
-%s prods you%s
-%s stößt Euch an%s
+%s prods you
+%s stößt Euch an
 %%%%
-%s prods %s%s
-%s stößt {acc}%s an%s
+%s prods %s
+%s stößt {acc}%s an
 %%%%
-%s prods you with %s%s
-%s stößt Euch mit {dat}%s an%s
+%s prods you with %s
+%s stößt Euch mit {dat}%s an
 %%%%
-%s prods %s with %s%s
-%s stößt {acc}%s mist {dat}%s an%s
+%s prods %s with %s
+%s stößt {acc}%s mist {dat}%s an
 %%%%
-%s flogs you%s
-%s peitscht Euch %s
+%s flogs you
+%s peitscht Euch
 %%%%
-%s flogs %s%s
-%s peitscht {acc}%s%s
+%s flogs %s
+%s peitscht {acc}%s
 %%%%
-%s flogs you with %s%s
-%s peitscht Euch mit {dat}%s%s
+%s flogs you with %s
+%s peitscht Euch mit {dat}%s
 %%%%
-%s flogs %s with %s%s
-%s peitscht {acc}%s mit {dat}%s%s
+%s flogs %s with %s
+%s peitscht {acc}%s mit {dat}%s
 %%%%
-%s pounds you%s
-%s schlägt Euch %s
+%s pounds you
+%s schlägt Euch
 %%%%
-%s pounds %s%s
-%s schlägt {acc}%s%s
+%s pounds %s
+%s schlägt {acc}%s
 %%%%
-%s pounds you with %s%s
-%s schlägt Euch mit {dat}%s%s
+%s pounds you with %s
+%s schlägt Euch mit {dat}%s
 %%%%
-%s pounds %s with %s%s
-%s schlägt {acc}%s mit {dat}%s%s
+%s pounds %s with %s
+%s schlägt {acc}%s mit {dat}%s
 %%%%
-%s slaps you%s
-%s ohrfeigt Euch %s
+%s slaps you
+%s ohrfeigt Euch
 %%%%
-%s slaps %s%s
-%s ohrfeigt {acc}%s%s
+%s slaps %s
+%s ohrfeigt {acc}%s
 %%%%
-%s slaps you with %s%s
-%s ohrfeigt Euch mit {dat}%s%s
+%s slaps you with %s
+%s ohrfeigt Euch mit {dat}%s
 %%%%
-%s slaps %s with %s%s
-%s ohrfeigt {acc}%s mit {dat}%s%s
+%s slaps %s with %s
+%s ohrfeigt {acc}%s mit {dat}%s
 %%%%
-%s tickles you%s
-%s kitzelt Euch %s
+%s tickles you
+%s kitzelt Euch
 %%%%
-%s tickles %s%s
-%s kitzelt {acc}%s%s
+%s tickles %s
+%s kitzelt {acc}%s
 %%%%
-%s tickles you with %s%s
-%s kitzelt Euch mit {dat}%s%s
+%s tickles you with %s
+%s kitzelt Euch mit {dat}%s
 %%%%
-%s tickles %s with %s%s
-%s kitzelt {acc}%s mit {dat}%s%s
+%s tickles %s with %s
+%s kitzelt {acc}%s mit {dat}%s
 %%%%
 # Defenestrate = throw someone out the window
 # Really, really, makes no sense, but it's a possible message
 %%%%
-%s defenestrates you%s
-%s wirft Euch aus dem Fenster%s
+%s defenestrates you
+%s wirft Euch aus dem Fenster
 %%%%
-%s defenestrates %s%s
-%s wirft {acc}%s aus dem Fenster%s
+%s defenestrates %s
+%s wirft {acc}%s aus dem Fenster
 %%%%
-%s defenestrates you with %s%s
-%s wirft Euch aus dem Fenster mit {dat}%s%s
+%s defenestrates you with %s
+%s wirft Euch aus dem Fenster mit {dat}%s
 %%%%
-%s defenestrates %s with %s%s
-%s wirft {acc}%s aus dem Fenster mit {dat}%s%s
+%s defenestrates %s with %s
+%s wirft {acc}%s aus dem Fenster mit {dat}%s
 %%%%
-%s sucker-punches you%s
-%s versetz Euch einen Tiefschlag%s
+%s sucker-punches you
+%s versetz Euch einen Tiefschlag
 %%%%
-%s sucker-punches %s%s
-%s versetz {acc}%s einen Tiefschlag%s
+%s sucker-punches %s
+%s versetz {acc}%s einen Tiefschlag
 %%%%
-%s sucker-punches you with %s%s
-%s versetz Euch mit {dat}%s einen Tiefschlag%s
+%s sucker-punches you with %s
+%s versetz Euch mit {dat}%s einen Tiefschlag
 %%%%
-%s sucker-punches %s with %s%s
-%s versetz {acc}%s mit {dat}%s einen Tiefschlag%s
+%s sucker-punches %s with %s
+%s versetz {acc}%s mit {dat}%s einen Tiefschlag
 %%%%
-%s elbows you%s
-%s schlägt Euch mit dem Ellbogen%s
+%s elbows you
+%s schlägt Euch mit dem Ellbogen
 %%%%
-%s elbows %s%s
-%s schlägt {acc}%s mit dem Ellbogen%s
+%s elbows %s
+%s schlägt {acc}%s mit dem Ellbogen
 %%%%
-%s elbows you with %s%s
-%s schlägt Euch mit dem Ellbogen und {dat}%s%s
+%s elbows you with %s
+%s schlägt Euch mit dem Ellbogen und {dat}%s
 %%%%
-%s elbows %s with %s%s
-%s schlägt {acc}%s mit dem Ellbogen und {dat}%s%s
+%s elbows %s with %s
+%s schlägt {acc}%s mit dem Ellbogen und {dat}%s
 %%%%
-%s pinches you%s
-%s kneift Euch %s
+%s pinches you
+%s kneift Euch
 %%%%
-%s pinches %s%s
-%s kneift {acc}%s%s
+%s pinches %s
+%s kneift {acc}%s
 %%%%
-%s pinches you with %s%s
-%s kneift Euch mit {dat}%s%s
+%s pinches you with %s
+%s kneift Euch mit {dat}%s
 %%%%
-%s pinches %s with %s%s
-%s kneift {acc}%s mit {dat}%s%s
+%s pinches %s with %s
+%s kneift {acc}%s mit {dat}%s
 %%%%
-%s strangle-hugs you%s
-%s presst Euch aus%s
+%s strangle-hugs you
+%s presst Euch aus
 %%%%
-%s strangle-hugs %s%s
-%s presst {acc}%s aus%s
+%s strangle-hugs %s
+%s presst {acc}%s aus
 %%%%
-%s strangle-hugs you with %s%s
-%s presst Euch mit {dat}%s aus%s
+%s strangle-hugs you with %s
+%s presst Euch mit {dat}%s aus
 %%%%
-%s strangle-hugs %s with %s%s
-%s presst {acc}%s mit {dat}%s aus%s
+%s strangle-hugs %s with %s
+%s presst {acc}%s mit {dat}%s aus
 %%%%
-%s squeezes you%s
-%s presst Euch aus%s
+%s squeezes you
+%s presst Euch aus
 %%%%
-%s squeezes %s%s
-%s presst {acc}%s aus%s
+%s squeezes %s
+%s presst {acc}%s aus
 %%%%
-%s squeezes you with %s%s
-%s presst Euch mit {dat}%s aus%s
+%s squeezes you with %s
+%s presst Euch mit {dat}%s aus
 %%%%
-%s squeezes %s with %s%s
-%s presst {acc}%s mit {dat}%s aus%s
+%s squeezes %s with %s
+%s presst {acc}%s mit {dat}%s aus
 %%%%
-%s teases you%s
-%s stichelt Euch %s
+%s teases you
+%s stichelt Euch
 %%%%
-%s teases %s%s
-%s stichelt {acc}%s%s
+%s teases %s
+%s stichelt {acc}%s
 %%%%
-%s teases you with %s%s
-%s stichelt Euch mit {dat}%s%s
+%s teases you with %s
+%s stichelt Euch mit {dat}%s
 %%%%
-%s teases %s with %s%s
-%s stichelt {acc}%s mit {dat}%s%s
+%s teases %s with %s
+%s stichelt {acc}%s mit {dat}%s
 %%%%
-%s eye-gouges you%s
-%s drückt Euch den Finger ins Auge%s
+%s eye-gouges you
+%s drückt Euch den Finger ins Auge
 %%%%
-%s eye-gouges %s%s
-%s drückt {dat}%s den Finger ins Auge%s
+%s eye-gouges %s
+%s drückt {dat}%s den Finger ins Auge
 %%%%
-%s eye-gouges you with %s%s
-%s drückt Euch mit {dat}%s ins Auge%s
+%s eye-gouges you with %s
+%s drückt Euch mit {dat}%s ins Auge
 %%%%
-%s eye-gouges %s with %s%s
-%s drückt {dat}%s mit {dat}%s ins Auge%s
+%s eye-gouges %s with %s
+%s drückt {dat}%s mit {dat}%s ins Auge
 %%%%
-%s karate-kicks you%s
-%s tritt Euch %s
+%s karate-kicks you
+%s tritt Euch
 %%%%
-%s karate-kicks %s%s
-%s tritt {acc}%s%s
+%s karate-kicks %s
+%s tritt {acc}%s
 %%%%
 # Karate-kick with a weapon? Yes, it's a possible message.
 %%%%
-%s karate-kicks you with %s%s
-%s tritt Euch mit {dat}%s%s
+%s karate-kicks you with %s
+%s tritt Euch mit {dat}%s
 %%%%
-%s karate-kicks %s with %s%s
-%s tritt {acc}%s mit {dat}%s%s
+%s karate-kicks %s with %s
+%s tritt {acc}%s mit {dat}%s
 %%%%
-%s headlocks you%s
-%s nimmt Euch in den Schwitzkasten%s
+%s headlocks you
+%s nimmt Euch in den Schwitzkasten
 %%%%
-%s headlocks %s%s
-%s nimmt {acc}%s in den Schwitzkasten%s
+%s headlocks %s
+%s nimmt {acc}%s in den Schwitzkasten
 %%%%
-%s headlocks you with %s%s
-%s nimmt Euch mit {dat}%s in den Schwitzkasten%s
+%s headlocks you with %s
+%s nimmt Euch mit {dat}%s in den Schwitzkasten
 %%%%
-%s headlocks %s with %s%s
-%s nimmt {acc}%s mit {dat}%s in den Schwitzkasten%s
+%s headlocks %s with %s
+%s nimmt {acc}%s mit {dat}%s in den Schwitzkasten
 %%%%
-%s wrestles you%s
-%s ringt Euch nieder%s
+%s wrestles you
+%s ringt Euch nieder
 %%%%
-%s wrestles %s%s
-%s ringt {acc}%s nieder%s
+%s wrestles %s
+%s ringt {acc}%s nieder
 %%%%
-%s wrestles you with %s%s
-%s ringt Euch mit {dat}%s nieder%s
+%s wrestles you with %s
+%s ringt Euch mit {dat}%s nieder
 %%%%
-%s wrestles %s with %s%s
-%s ringt {acc}%s mit {dat}%s nieder%s
+%s wrestles %s with %s
+%s ringt {acc}%s mit {dat}%s nieder
 %%%%
-%s trip-wires you%s
-%s stellt Euch ein Bein%s
+%s trip-wires you
+%s stellt Euch ein Bein
 %%%%
-%s trip-wires %s%s
-%s stellt {dat}%s ein Bein%s
+%s trip-wires %s
+%s stellt {dat}%s ein Bein
 %%%%
-%s trip-wires you with %s%s
-%s kippt Euch mit {dat}%s%s
+%s trip-wires you with %s
+%s kippt Euch mit {dat}%s
 %%%%
-%s trip-wires %s with %s%s
-%s kippt {dat}%s mit {dat}%s%s
+%s trip-wires %s with %s
+%s kippt {dat}%s mit {dat}%s
 %%%%
-%s kneecaps you%s
-%s zerschmettert Euch die Kniescheibe%s
+%s kneecaps you
+%s zerschmettert Euch die Kniescheibe
 %%%%
-%s kneecaps %s%s
-%s zerschmettert {dat}%s die Kniescheibe%s
+%s kneecaps %s
+%s zerschmettert {dat}%s die Kniescheibe
 %%%%
-%s kneecaps you with %s%s
-%s zerschmettert Euch die Kniescheibe mit {dat}%s%s
+%s kneecaps you with %s
+%s zerschmettert Euch die Kniescheibe mit {dat}%s
 %%%%
-%s kneecaps %s with %s%s
-%s zerschmettert {dat}%s die Kniescheibe mit {dat}%s%s
+%s kneecaps %s with %s
+%s zerschmettert {dat}%s die Kniescheibe mit {dat}%s
 %%%%
 # melee_attack::announce_hit()
 # (player hits monster)
 %%%%
-You hit %s%s
-Ihr schlagt {acc}%s%s
+You hit %s
+Ihr schlagt {acc}%s
 %%%%
-You kick %s%s
-Ihr tritt {acc}%s%s
+You kick %s
+Ihr tritt {acc}%s
 %%%%
-You peck %s%s
-Ihr pickt {acc}%s%s
+You peck %s
+Ihr pickt {acc}%s
 %%%%
-You headbutt %s%s
-Ihr versetzt {dat}%s einen Kopfstoß%s
+You headbutt %s
+Ihr versetzt {dat}%s einen Kopfstoß
 %%%%
-You gore %s%s
-Ihr spießt {acc}%s auf%s
+You gore %s
+Ihr spießt {acc}%s auf
 %%%%
-You constrict %s%s
-Ihr verengt {acc}%s%s
+You constrict %s
+Ihr verengt {acc}%s
+%%%%
 %%%%
 # constriction
+You grab %s
+Ihr umschlingt {acc}%s
 %%%%
-You grab %s%s
-Ihr umschlingt {acc}%s%s
+You sting %s
+Ihr sticht {acc}%s
 %%%%
-You sting %s%s
-Ihr sticht {acc}%s%s
+You tail-slap %s
+Ihr schlagt {acc}%s mit dem Schwanz
 %%%%
-You tail-slap %s%s
-Ihr schlagt {acc}%s mit dem Schwanz%s
+You clumsily bash %s
+Ihr schlagt {acc}%s ungeschickt
 %%%%
-You clumsily bash %s%s
-Ihr schlagt {acc}%s ungeschickt%s
+You pierce %s
+Ihr sticht {acc}%s durch
 %%%%
-You pierce %s%s
-Ihr sticht {acc}%s durch%s
+You puncture %s
+Ihr sticht {acc}%s durch
 %%%%
-You puncture %s%s
-Ihr sticht {acc}%s durch%s
+You impale %s
+Ihr spießt {acc}%s auf
 %%%%
-You impale %s%s
-Ihr spießt {acc}%s auf%s
+You slash %s
+Ihr schlitzt {acc}%s
 %%%%
-You slash %s%s
-Ihr schlitzt {acc}%s%s
+You slice %s
+Ihr schneidet {acc}%s
 %%%%
-You slice %s%s
-Ihr schneidet {acc}%s%s
+You shave %s
+Ihr schneidet {acc}%s ab
 %%%%
-You shave %s%s
-Ihr schneidet {acc}%s ab%s
+You thump %s
+Ihr prügelt {acc}%s durch
 %%%%
-You thump %s%s
-Ihr prügelt {acc}%s durch%s
+You sock %s
+Ihr verhaut {acc}%s
 %%%%
-You sock %s%s
-Ihr verhaut {acc}%s%s
+You bludgeon %s
+Ihr knüppelt {acc}%s
 %%%%
-You bludgeon %s%s
-Ihr knüppelt {acc}%s%s
+You whack %s
+Ihr verhaut {acc}%s
 %%%%
-You whack %s%s
-Ihr verhaut {acc}%s%s
+You thrash %s
+Ihr bläut {acc}%s durch
 %%%%
-You thrash %s%s
-Ihr bläut {acc}%s durch%s
+You devastate %s
+Ihr schmettert {acc}%s nieder
 %%%%
-You devastate %s%s
-Ihr schmettert {acc}%s nieder%s
+You scratch %s
+Ihr kratzt {acc}%s
 %%%%
-You scratch %s%s
-Ihr kratzt {acc}%s%s
+You claw %s
+Ihr zerkratzt {acc}%s
 %%%%
-You claw %s%s
-Ihr zerkratzt {acc}%s%s
+You mangle %s
+Ihr mangelt {acc}%s
 %%%%
-You mangle %s%s
-Ihr mangelt {acc}%s%s
+You eviscerate %s
+Ihr ausweidet {acc}%s
 %%%%
-You eviscerate %s%s
-Ihr ausweidet {acc}%s%s
+You tentacle-slap %s
+Ihr schlagt {acc}%s mit Eurem Tentakel
 %%%%
-You tentacle-slap %s%s
-Ihr schlagt {acc}%s mit Eurem Tentakel%s
+You batter %s
+Iht verprügelt {acc}%s
 %%%%
-You batter %s%s
-Iht verprügelt {acc}%s%s
+You punch %s
+Ihr schlagt {acc}%s mit Eurer Faust
 %%%%
-You punch %s%s
-Ihr schlagt {acc}%s mit Eurer Faust%s
+You pummel %s
+Ihr verprügelt {acc}%s
 %%%%
-You pummel %s%s
-Ihr verprügelt {acc}%s%s
+You pulverise %s
+Ihr pulverisiert {acc}%s
 %%%%
-You pulverise %s%s
-Ihr pulverisiert {acc}%s%s
+You bite %s
+Ihr beißt {acc}%s
 %%%%
-You bite %s%s
-Ihr beißt {acc}%s%s
+You chomp %s
+Ihr kaut {acc}%s
 %%%%
-You chomp %s%s
-Ihr kaut {acc}%s%s
+You gouge %s
+Ihr zockt {acc}%s ab
 %%%%
-You gouge %s%s
-Ihr zockt {acc}%s ab%s
+You maul %s
+Ihr zurichtet {acc}%s übel
 %%%%
-You maul %s%s
-Ihr zurichtet {acc}%s übel%s
+You shred %s
+Ihr zerreißt {acc}%s
 %%%%
-You shred %s%s
-Ihr zerreißt {acc}%s%s
+You engulf %s
+Ihr verschlingt {acc}%s
 %%%%
-You engulf %s%s
-Ihr verschlingt {acc}%s%s
+You touch %s
+Ihr fasst {acc}%s an
 %%%%
-You touch %s%s
-Ihr fast {acc}%s an%s
-%%%%
-You release spores at %s%s
-Ihr setzt auf {dat}%s Sporen frei%s
+You release spores at %s
+Ihr setzt auf {dat}%s Sporen frei
 %%%%
 # ones with adverbial phrases
 %%%%
-You attack %s's weak point%s
-Ihr greift {acc}%s an der Swachstelle an%s
+You attack %s's weak point
+Ihr greift {acc}%s an der Swachstelle an
 %%%%
-You carve %s like a ham%s
-Ihr tranchiert {acc}%s wie einen Schinken%s
+You carve %s like a ham
+Ihr tranchiert {acc}%s wie einen Schinken
 %%%%
-You carve %s like the proverbial ham%s
-Ihr tranchiert {acc}%s wie den sprichwörtlichen Schinken%s
+You carve %s like the proverbial ham
+Ihr tranchiert {acc}%s wie den sprichwörtlichen Schinken
 %%%%
-You carve %s like a turkey%s
-Ihr tranchiert {acc}%s wie einen Truthahn%s
+You carve %s like a turkey
+Ihr tranchiert {acc}%s wie einen Truthahn
 %%%%
-You dice %s like an onion%s
-Ihr würfelt {acc}%s wie eine Zwiebel%s
+You dice %s like an onion
+Ihr würfelt {acc}%s wie eine Zwiebel
 %%%%
-You spit %s like a pig%s
-Ihr spießt {acc}%s auf wie ein Schwein%s
+You spit %s like a pig
+Ihr spießt {acc}%s auf wie ein Schwein
 %%%%
-You spit %s like the proverbial pig%s
-Ihr spießt {acc}%s auf wie das sprichwörtliche Schwein%s
+You spit %s like the proverbial pig
+Ihr spießt {acc}%s auf wie das sprichwörtliche Schwein
 %%%%
-You skewer %s like a kebab%s
-Ihr spießt {acc}%s wie einen Kebab%s
+You skewer %s like a kebab
+Ihr spießt {acc}%s wie einen Kebab
 %%%%
-You stick %s like a pincushion%s
-Ihr steckt {acc}%s wie ein Nadelkissen%s
+You stick %s like a pincushion
+Ihr steckt {acc}%s wie ein Nadelkissen
 %%%%
-You perforate %s like a sieve%s
-Ihr durchlöchert {acc}%s wie ein Sieb%s
+You perforate %s like a sieve
+Ihr durchlöchert {acc}%s wie ein Sieb
 %%%%
-You shatter %s into splinters%s
-Ihr zerschmettert {acc}%s in Splitter%s
+You shatter %s into splinters
+Ihr zerschmettert {acc}%s in Splitter
 %%%%
-You fracture %s into splinters%s
-Ihr zerbrecht {acc}%s in Splitter%s
+You fracture %s into splinters
+Ihr zerbrecht {acc}%s in Splitter
 %%%%
-You open %s like a pillowcase%s
-Ihr öffnet {acc}%s wie einen Kissenbezug%s
+You open %s like a pillowcase
+Ihr öffnet {acc}%s wie einen Kissenbezug
 %%%%
-You slice %s like a ripe choko%s
-Ihr schneidet {acc}%s wie eine reife Chayote%s
+You slice %s like a ripe choko
+Ihr schneidet {acc}%s wie eine reife Chayote
 %%%%
-You cut %s into ribbons%s
-Ihr schneidet {acc}%s in Bänder%s
+You cut %s into ribbons
+Ihr schneidet {acc}%s in Bänder
 %%%%
-You chop %s into pieces%s
-Ihr zerhackt {acc}%s in Stücke%s
+You chop %s into pieces
+Ihr zerhackt {acc}%s in Stücke
 %%%%
-You splatter %s into a gooey mess%s
-Ihr zerstampft {acc}%s zu einem klebrigen Brei%s
+You splatter %s into a gooey mess
+Ihr zerstampft {acc}%s zu einem klebrigen Brei
 %%%%
-You beat %s into a bloody pulp%s
-Ihr schlagt {acc}%s zu einem blutigen Brei%s
+You beat %s into a bloody pulp
+Ihr schlagt {acc}%s zu einem blutigen Brei
 %%%%
-You zerquetschst %s like a grape%s
-Ihr schlagt {acc}%s wie eine Traube%s
+You zerquetschst %s like a grape
+Ihr schlagt {acc}%s wie eine Traube
 %%%%
-You beat %s like a drum%s
-Ihr schlagt {acc}%s wie eine Trommel%s
+You beat %s like a drum
+Ihr schlagt {acc}%s wie eine Trommel
 %%%%
-You hammer %s like a gong%s
-Ihr hämmert {acc}%s wie einen Gong%s
+You hammer %s like a gong
+Ihr hämmert {acc}%s wie einen Gong
 %%%%
-You pound %s like an anvil%s
-Ihr hämmert {acc}%s wie einen Amboss%s
+You pound %s like an anvil
+Ihr hämmert {acc}%s wie einen Amboss
 %%%%
-You flatten %s like a pancake%s
-Ihr macht {acc}%s platt wie ein Brett%s
+You flatten %s like a pancake
+Ihr macht {acc}%s platt wie ein Brett
 %%%%
-You pound %s into fine dust%s
-Ihr zerstampft {acc}%s zu feinem Staub%s
+You pound %s into fine dust
+Ihr zerstampft {acc}%s zu feinem Staub
 %%%%
-You pummel %s like a punching bag%s
-Ihr prügelt auf {dat}%s wie einem Boxsack ein%s
+You pummel %s like a punching bag
+Ihr prügelt auf {dat}%s wie einem Boxsack ein
 %%%%
-You squash %s like an ant%s
-Ihr zerquetscht {acc}%s wie eine Ameise%s
+You squash %s like an ant
+Ihr zerquetscht {acc}%s wie eine Ameise
 %%%%
-You squash %s like the proverbial ant%s
-Ihr zerquetscht {acc}%s wie die sprichwörtliche Ameise%s
+You squash %s like the proverbial ant
+Ihr zerquetscht {acc}%s wie die sprichwörtliche Ameise
 %%%%
-You punish %s, causing immense pain%s
-Ihr bestraft {acc}%s und verursachst heftigen Schmerz%s
+You punish %s, causing immense pain
+Ihr bestraft {acc}%s und verursachst heftigen Schmerz
 %%%%
 # melee_attack::get_special_hit_message()
 # burn and freeze already covered under attack.cc
 # attack with staff of earth
 %%%%
-You crush %s%s
-Ihr zerdrückt %s%s
+You crush %s
+Ihr zerdrückt %s
 %%%%
-%s crushes you%s
-%s zerdrückt Euch %s
+%s crushes you
+%s zerdrückt Euch
 %%%%
-%s crushes %s%s
-%s zerdrückt {acc}%s%s
+%s crushes %s
+%s zerdrückt {acc}%s
 %%%%
-You envenom %s%s
-Ihr vergiftet {acc}%s%s
+You envenom %s
+Ihr vergiftet {acc}%s
 %%%%
-%s envenoms you%s
-%s vergiftet Euch %s
+%s envenoms you
+%s vergiftet Euch
 %%%%
-%s envenoms %s%s
-%s vergiftet {acc}%s%s
+%s envenoms %s
+%s vergiftet {acc}%s
 %%%%
-You shock %s%s
-Ihr gibt {dat}%s einen elektrischen Schlag%s
+You shock %s
+Ihr gibt {dat}%s einen elektrischen Schlag
 %%%%
-%s shocks you%s
-%s gibt Euch einen elektrischen Schlag%s
+%s shocks you
+%s gibt Euch einen elektrischen Schlag
 %%%%
-%s shocks %s%s
-%s gibt {dat}%s einen elektrischen Schlag%s
+%s shocks %s
+%s gibt {dat}%s einen elektrischen Schlag
 %%%%
-You sear %s%s
-Ihr versengt {acc}%s%s
+You sear %s
+Ihr versengt {acc}%s
 %%%%
-%s sears you%s
-%s versengt Euch %s
+%s sears you
+%s versengt Euch
 %%%%
-%s sears %s%s
-%s versengt {acc}%s%s
+%s sears %s
+%s versengt {acc}%s
 %%%%
 %s drowns %s
 %s ertränkt {acc}%s
@@ -4598,25 +4578,25 @@ Ihr versengt {acc}%s%s
 %%%%
 # melee_attack::mons_do_napalm()
 %%%%
-You are covered in liquid flames%s
-Ihr seid in flüssigen Flammen bedeckt%s
+You are covered in liquid flames
+Ihr seid in flüssigen Flammen bedeckt
 %%%%
-%s is covered in liquid flames%s
-%s ist in flüssigen Flammen bedeckt%s
+%s is covered in liquid flames
+%s ist in flüssigen Flammen bedeckt
 %%%%
 # melee_attack::mons_apply_attack_flavour()
 %%%%
-You are engulfed in flames%s
-Ihr seid in Flammen versunken%s
+You are engulfed in flames
+Ihr seid in Flammen versunken
 %%%%
-%s is engulfed in flames%s
-%s ist in Flammen versunken%s
+%s is engulfed in flames
+%s ist in Flammen versunken
 %%%%
-%s draws strength from your injuries%s
-%s nimmt Kraft von Euren Verletzungen%s
+%s draws strength from your injuries!
+%s nimmt Kraft von Euren Verletzungen!
 %%%%
-%s draws strength from %s injuries%s
-%s nimmt Kraft von den Verletzungen {gen}%s%s
+%s draws strength from %s injuries!
+%s nimmt Kraft von den Verletzungen {gen}%s!
 %%%%
 You are engulfed in a cloud of spores!
 Ihr seid in einer Sporenwolke eingehüllt!
@@ -4628,10 +4608,10 @@ Your divine stamina protects you from poison!
 Eure göttliche Ausdauer schützt Euch vor Gift!
 %%%%
 %s infuriates you!
-%s macht Euch wütend
+%s macht Euch wütend!
 %%%%
 %s infuriates %s!
-%s macht {acc}%s wütend
+%s macht {acc}%s wütend!
 %%%%
 %s drains your magic.
 %s entleert Eure Magie.
@@ -4646,10 +4626,10 @@ Eure göttliche Ausdauer schützt Euch vor Gift!
 %s entleert die Energie {gen}%s.
 %%%%
 %s looks invigorated.
-%s sieht gestärkt aus
+%s sieht gestärkt aus.
 %%%%
 %s looks very invigorated.
-%s sieht sehr gestärkt aus
+%s sieht sehr gestärkt aus.
 %%%%
 %s grabs you.
 %s umschlingt Euch.

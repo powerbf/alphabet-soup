@@ -23,7 +23,7 @@
 #define ART_FUNC_H
 
 #include "areas.h"         // For silenced() and invalidate_agrid()
-#include "attack.h"        // For attack_strength_punctuation()
+#include "attack.h"        // For attack_strength_message()
 #include "beam.h"          // For Lajatang of Order's silver damage
 #include "bloodspatter.h"  // For Leech
 #include "cloud.h"         // For robe of clouds' thunder and salamander's flame
@@ -335,9 +335,7 @@ static void _OLGREB_melee_effects(item_def* /*weapon*/, actor* attacker,
             msg = localize("%s envenoms %s", attacker->name(DESC_THE),
                                              defender->name(DESC_THE));
 
-        msg = localize("%s" + attack_strength_punctuation(bonus_dam),
-                       LocalizationArg(msg, false));
-        mprf_nolocalize("%s", msg.c_str());
+        attack_strength_message(msg, bonus_dam, false);
 
         defender->hurt(attacker, bonus_dam);
         if (defender->alive())
@@ -701,14 +699,15 @@ static void _WYRMBANE_melee_effects(item_def* weapon, actor* attacker,
     if (!mondied)
     {
         int bonus_dam = 1 + random2(3 * dam / 2);
-        string format = "%s" + attack_strength_punctuation(bonus_dam);
+
+        string msg;
         if (defender->is_player())
-            mprf(format.c_str(), "You convulse");
+            msg = localize("You convulse");
         else
         {
-            string msg = localize("%s convulses", defender->name(DESC_THE));
-            mprf(format.c_str(), msg.c_str());
+            msg = localize("%s convulses", defender->name(DESC_THE));
         }
+        attack_strength_message(msg, bonus_dam, false);
 
         defender->hurt(attacker, bonus_dam);
 
@@ -770,8 +769,7 @@ static void _UNDEADHUNTER_melee_effects(item_def* /*item*/, actor* attacker,
         else
             msg = localize("%s is blasted by disruptive energy",
                            defender->name(DESC_THE));
-        string format = "%s" + attack_strength_punctuation(bonus_dam);
-        mprf(format.c_str(), msg.c_str());
+        attack_strength_message(msg, bonus_dam, false);
 
         defender->hurt(attacker, bonus_dam);
     }
@@ -1128,10 +1126,7 @@ static void _ELEMENTAL_STAFF_melee_effects(item_def*, actor* attacker,
         }
     }
 
-    msg = localize("%s" + attack_strength_punctuation(bonus_dam),
-                   LocalizationArg(msg, false));
-
-    mprf_nolocalize("%s", msg.c_str());
+    attack_strength_message(msg, bonus_dam, false);
 
     defender->hurt(attacker, bonus_dam, flavour);
 

@@ -516,25 +516,31 @@ bool attack::distortion_affects_defender()
         special_damage += 1 + random2avg(7, 2);
         if (defender->is_player())
         {
-            special_damage_message = localize("Space bends around you%s",
-                                              attack_strength_punctuation(special_damage));
+            special_damage_message =
+                add_attack_strength_punct("Space bends around you", special_damage, true);
         }
         else
         {
-            special_damage_message = localize("Space bends around %s%s",
-                                              defender_name(false),
-                                              attack_strength_punctuation(special_damage));
+            special_damage_message =
+                add_attack_strength_punct(
+                    localize("Space bends around %s", defender_name(false)),
+                    special_damage,
+                    false);
+
         }
         break;
     case BIG_DMG:
         special_damage += 3 + random2avg(24, 2);
+
         special_damage_message =
-            defender->is_player()
-            ? localize("Space warps horribly around you%s",
-                       attack_strength_punctuation(special_damage).c_str())
-            : localize("Space warps horribly around %s%s",
-                       defender_name(false).c_str(),
-                       attack_strength_punctuation(special_damage).c_str());
+            defender->is_player() ?
+            localize("Space warps horribly around you") :
+            localize("Space warps horribly around %s", defender_name(false));
+
+        special_damage_message =
+            add_attack_strength_punct(special_damage_message,
+                                      special_damage,
+                                      false);
         break;
     case BLINK:
         if (defender_visible)
@@ -588,18 +594,14 @@ void attack::pain_affects_defender()
 
         if (special_damage && defender_visible)
         {
-            string punct = attack_strength_punctuation(special_damage);
+            string msg;
             if (defender->is_player())
-            {
-                special_damage_message = localize("You writhe in agony%s",
-                                                  punct.c_str());
-            }
+                msg = localize("You writhe in agony");
             else
-            {
-                special_damage_message = localize("%s writhes in agony%s",
-                                                  defender->name(DESC_THE),
-                                                  punct.c_str());
-            }
+                msg = localize("%s writhes in agony", defender->name(DESC_THE));
+
+            special_damage_message =
+                add_attack_strength_punct(msg, special_damage, false);
         }
     }
 }
@@ -896,22 +898,17 @@ void attack::drain_defender()
             obvious_effect = true;
         else if (defender_visible)
         {
-            string punctuation = attack_strength_punctuation(special_damage);
+            string msg;
             if (attacker->is_player())
-            {
-                mprf("You drain %s%s", defender_name(true).c_str(),
-                     punctuation.c_str());
-            }
+                msg = localize("You drain %s", defender_name(true));
             else if (defender->is_player())
-            {
-                mprf("%s drains you%s", atk_name(DESC_THE).c_str(),
-                     punctuation.c_str());
-            }
+                msg = localize("%s drains you", atk_name(DESC_THE));
             else
-            {
-                mprf("%s drains %s%s", atk_name(DESC_THE).c_str(),
-                     defender_name(true).c_str(), punctuation.c_str());
-            }
+                msg = localize("%s drains %s", atk_name(DESC_THE),
+                               defender_name(true));
+
+            special_damage_message =
+                add_attack_strength_punct(msg, special_damage, false);
         }
     }
 }
@@ -981,6 +978,30 @@ string attack_strength_punctuation(int dmg)
         return "!!";
     else
         return string(3 + (int) log2(dmg / HIT_STRONG), '!');
+}
+
+/* Add localized attack strength punctuation to a message
+ *
+ * If msg itself has already been localized, set localize_msg to false, otherwise set it to true.
+ *
+ * Note that simply appending punctuation to the end is not good enough
+ * because some languages (e.g. Spanish) don't work that way.
+ * For example, English "%s!" becomes "¡%s!" in Spanish.
+ */
+string add_attack_strength_punct(const string& msg, int dmg, bool localize_msg)
+{
+    string format = "%s" + attack_strength_punctuation(dmg);
+    return localize(format, LocalizationArg(msg, localize_msg));
+}
+
+/* Output message with localize attack strength punctuation
+ *
+ * If msg itself has already been localized, set localize_msg to false, otherwise set it to true.
+ */
+void attack_strength_message(const string& msg, int dmg, bool localize_msg)
+{
+    string text = add_attack_strength_punct(msg, dmg, localize_msg);
+    mpr_nolocalize(text); // don't localize the message a 2nd time
 }
 
 /* Returns evasion adverb
@@ -1491,14 +1512,14 @@ bool attack::apply_damage_brand(const char *what)
 
         if (special_damage && defender_visible)
         {
-            const string punctuation =
-                    attack_strength_punctuation(special_damage);
+            string msg;
+            if (defender->is_player())
+                msg = localize("You convulse");
+            else
+                msg = localize("%s convulses", defender_name(false));
 
             special_damage_message =
-                    defender->is_player()
-                    ? localize("You convulse%s", punctuation.c_str())
-                    : localize("%s convulses%s%s", defender_name(false),
-                               punctuation.c_str());
+                add_attack_strength_punct(msg, special_damage, false);
         }
         break;
 
@@ -1509,14 +1530,15 @@ bool attack::apply_damage_brand(const char *what)
         {
             special_damage = 8 + random2(13);
 
-            const string punctuation =
-                    attack_strength_punctuation(special_damage);
+            string msg;
+            if (defender->is_player())
+                msg = localize("You are electrocuted");
+            else
+                msg = localize("Lightning courses through %s",
+                               defender->name(DESC_THE));
 
             special_damage_message =
-                defender->is_player()
-                ? localize("You are electrocuted%s", punctuation.c_str())
-                : localize("Lightning courses through %s%s",
-                           defender->name(DESC_THE), punctuation.c_str());
+                add_attack_strength_punct(msg, special_damage, false);
 
             special_damage_flavour = BEAM_ELECTRICITY;
             defender->expose_to_element(BEAM_ELECTRICITY, 2);
@@ -1728,28 +1750,29 @@ void attack::calc_elemental_brand_damage(beam_type flavour,
 
     if (needs_message && special_damage > 0 && verb)
     {
-        const string punctuation = attack_strength_punctuation(special_damage);
-
         // XXX: assumes "what" is singular
         string subject = what ? what : atk_name(DESC_THE);
         string conj_verb = subject == "you" ? verb
                                             : conjugate_verb(verb, false);
 
+        string msg;
         if (subject == "you")
         {
-            special_damage_message = localize("You " + conj_verb + " %s%s",
-                                              defender_name(false), punctuation);
+            msg = localize("You " + conj_verb + " %s", defender_name(false));
         }
         else if (defender->is_player())
         {
-            special_damage_message = localize("%s " + conj_verb + " you%s",
-                                              subject, punctuation);
+            msg = localize("%s " + conj_verb + " you", subject);
         }
         else
         {
-            special_damage_message = localize("%s " + conj_verb + " %s%s", subject,
-                                              defender_name(false), punctuation);
+            msg = localize("%s " + conj_verb + " %s",
+                           subject,
+                           defender_name(false));
         }
+
+        special_damage_message =
+            add_attack_strength_punct(msg, special_damage, false);
     }
 }
 

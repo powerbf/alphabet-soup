@@ -1403,9 +1403,9 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
 
 void melee_attack::player_announce_aux_hit()
 {
-    mprf(("You " + aux_verb + " %s" + debug_damage_number() + "%s").c_str(),
-         defender->name(DESC_THE).c_str(),
-         attack_strength_punctuation(damage_done).c_str());
+    string msg = localize("You " + aux_verb + " %s", defender->name(DESC_THE));
+    msg += debug_damage_number();
+    attack_strength_message(msg, damage_done, false);
 }
 
 string melee_attack::player_why_missed()
@@ -2080,18 +2080,15 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            string punctuation = attack_strength_punctuation(special_damage);
+
+            string msg;
             if (defender->is_player())
-            {
-                special_damage_message = localize("You are electrocuted%s",
-                                                  punctuation);
-            }
+                msg = localize("You are electrocuted");
             else
-            {
-                special_damage_message = localize("%s is electrocuted%s",
-                                                  defender->name(DESC_THE),
-                                                  punctuation);
-            }
+                msg = localize("%s is electrocuted", defender->name(DESC_THE));
+
+            special_damage_message =
+                add_attack_strength_punct(msg, special_damage, false);
             special_damage_flavour = BEAM_ELECTRICITY;
         }
 
@@ -2116,23 +2113,23 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage > 0)
         {
-            string punctuation = attack_strength_punctuation(special_damage);
+            string msg;
             if (attacker->is_player())
             {
-                special_damage_message =
-                    localize("You shatter %s%s", defender_name(true), punctuation);
+                msg = localize("You shatter %s", defender_name(true));
             }
             else if (defender->is_player())
             {
-                special_damage_message =
-                    localize("%s shatters you%s", attacker->name(DESC_THE), punctuation);
+                msg = localize("%s shatters you", attacker->name(DESC_THE));
             }
             else
             {
-                special_damage_message =
-                    localize("%s shatters %s%s", attacker->name(DESC_THE),
-                             defender_name(true), punctuation);
+                msg = localize("%s shatters %s", attacker->name(DESC_THE),
+                               defender_name(true));
             }
+
+            special_damage_message =
+                add_attack_strength_punct(msg, special_damage, false);
         }
         break;
 
@@ -2173,18 +2170,14 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            string punctuation = attack_strength_punctuation(special_damage);
+            string msg;
             if (defender->is_player())
-            {
-                special_damage_message = localize("You writhe in agony%s",
-                                                  punctuation);
-            }
+                msg = localize("You writhe in agony");
             else
-            {
-                special_damage_message = localize("%s writhes in agony%s",
-                                                  defender->name(DESC_THE),
-                                                  punctuation);
-            }
+                msg = localize("%s writhes in agony", defender->name(DESC_THE));
+
+            special_damage_message =
+                add_attack_strength_punct(msg, special_damage, false);
 
             attacker->god_conduct(DID_EVIL, 4);
         }
@@ -2196,13 +2189,17 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage > 0)
         {
+            string msg;
+            if (attacker->is_player())
+                msg = localize("You blast %s", defender_name(true));
+            else if (defender->is_player())
+                msg = localize("%s blasts you", attacker->name(DESC_THE));
+            else
+                msg = localize("%s blasts %s", attacker->name(DESC_THE),
+                               defender_name(true));
+
             special_damage_message =
-                make_stringf(
-                    "%s %s %s%s",
-                    attacker->name(DESC_THE).c_str(),
-                    attacker->conj_verb("blast").c_str(),
-                    defender->name(DESC_THE).c_str(),
-                    attack_strength_punctuation(special_damage).c_str());
+                add_attack_strength_punct(msg, special_damage, false);
         }
         break;
 
@@ -2357,36 +2354,33 @@ void melee_attack::announce_mons_hit()
     bool with_weapon = (weapon && attacker->type != MONS_DANCING_WEAPON
                         && attacker->type != MONS_SPECTRAL_WEAPON);
 
-    string punctuation = attack_strength_punctuation(damage_done);
-
     if (is_reach_attack())
     {
         ASSERT(can_reach());
 
-        // use generic verb for ease of translation
+        // i18n: use generic verb for ease of translation
         verb = attacker->conj_verb("hit");
+
         if (with_weapon && defender->is_player())
         {
-            mprf(("%s " + verb + " you from afar with %s%s").c_str(),
-                 atk_name(DESC_THE).c_str(), weapon->name(DESC_A).c_str(),
-                 punctuation.c_str());
+            msg = localize("%s " + verb + " you from afar with %s",
+                           atk_name(DESC_THE), weapon->name(DESC_A));
         }
         else if (with_weapon)
         {
-            mprf(("%s " + verb + " %s from afar with %s%s").c_str(),
-                 atk_name(DESC_THE).c_str(), defender_name(true).c_str(),
-                 weapon->name(DESC_A).c_str(), punctuation.c_str());
+            msg = localize("%s " + verb + " %s from afar with %s",
+                           atk_name(DESC_THE).c_str(), defender_name(true),
+                           weapon->name(DESC_A).c_str());
         }
         else if (defender->is_player())
         {
-            mprf(("%s " + verb + " you from afar%s").c_str(),
-                 atk_name(DESC_THE).c_str(), punctuation.c_str());
+            msg = localize("%s " + verb + " you from afar",
+                            atk_name(DESC_THE));
         }
         else
         {
-            mprf(("%s " + verb + " %s from afar%s").c_str(),
-                 atk_name(DESC_THE).c_str(), defender_name(true).c_str(),
-                 punctuation.c_str());
+            msg = localize("%s " + verb + " %s from afar",
+                           atk_name(DESC_THE), defender_name(true));
         }
     }
     else
@@ -2395,33 +2389,31 @@ void melee_attack::announce_mons_hit()
 
         if (with_weapon && defender->is_player())
         {
-            mprf(("%s " + verb + " you with %s%s").c_str(),
-                 atk_name(DESC_THE).c_str(),
-                 weapon->name(DESC_A).c_str(),
-                 punctuation.c_str());
+            msg = localize("%s " + verb + " you with %s",
+                           atk_name(DESC_THE),
+                           weapon->name(DESC_A));
         }
         else if (defender->is_player())
         {
-            mprf(("%s " + verb + " you%s").c_str(),
-                 atk_name(DESC_THE).c_str(),
-                 punctuation.c_str());
+            msg = localize("%s " + verb + " you",
+                           atk_name(DESC_THE));
         }
         else if (with_weapon)
         {
-            mprf(("%s " + verb + " %s with %s%s").c_str(),
-                 atk_name(DESC_THE).c_str(),
-                 defender_name(true).c_str(),
-                 weapon->name(DESC_A).c_str(),
-                 punctuation.c_str());
+            msg = localize("%s " + verb + " %s with %s",
+                           atk_name(DESC_THE),
+                           defender_name(true),
+                           weapon->name(DESC_A));
         }
         else
         {
-            mprf(("%s " + verb + " %s%s").c_str(),
-                 atk_name(DESC_THE).c_str(),
-                 defender_name(true).c_str(),
-                 punctuation.c_str());
+            msg = localize("%s " + verb + " %s",
+                           atk_name(DESC_THE),
+                           defender_name(true));
         }
     }
+
+    attack_strength_message(msg, damage_done, false);
 }
 
 void melee_attack::announce_hit()
@@ -2441,9 +2433,9 @@ void melee_attack::announce_hit()
             verb_degree = " " + verb_degree;
         }
 
-        mprf(("You " + attack_verb + " %s" + verb_degree + debug_damage_number() + "%s").c_str(),
-             defender->name(DESC_THE).c_str(),
-             attack_strength_punctuation(damage_done).c_str());
+        string msg = "You " + attack_verb + " %s" + verb_degree + debug_damage_number();
+        msg = localize(msg, defender->name(DESC_THE));
+        attack_strength_message(msg, damage_done, false);
     }
 }
 
@@ -2451,22 +2443,22 @@ string melee_attack::get_special_hit_message(const string& verb)
 {
     string msg;
     string conj_verb = attacker->conj_verb(verb);
-    string punctuation = attack_strength_punctuation(special_damage);
     if (attacker->is_player())
     {
-        msg = localize("You " + conj_verb + " %s%s",
-                       defender_name(true), punctuation);
+        msg = localize("You " + conj_verb + " %s",
+                       defender_name(true));
     }
     else if (defender->is_player())
     {
-        msg = localize("%s " + conj_verb + " you%s",
-                       attacker->name(DESC_THE), punctuation);
+        msg = localize("%s " + conj_verb + " you",
+                       attacker->name(DESC_THE));
     }
     else
     {
-        msg = localize("%s " + conj_verb + " %s%s", attacker->name(DESC_THE),
-                       defender_name(true), punctuation);
+        msg = localize("%s " + conj_verb + " %s", attacker->name(DESC_THE),
+                       defender_name(true));
     }
+    msg = add_attack_strength_punct(msg, special_damage, false);
     return msg;
 }
 
@@ -2514,16 +2506,17 @@ void melee_attack::mons_do_napalm()
     {
         if (needs_message)
         {
-            string punctuation = attack_strength_punctuation(special_damage);
+            string msg;
             if (defender->is_player())
             {
-                mprf("You are covered in liquid flames%s", punctuation.c_str());
+                msg = localize("You are covered in liquid flames");
             }
             else
             {
-                mprf("%s is covered in liquid flames%s",
-                     defender_name(false).c_str(), punctuation.c_str());
+                msg = localize("%s is covered in liquid flames",
+                               defender_name(false));
             }
+            attack_strength_message(msg, special_damage, false);
         }
 
         if (defender->is_player())
@@ -2673,16 +2666,18 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && base_damage)
         {
-            string punctuation = attack_strength_punctuation(special_damage);
+            string msg;
             if (defender->is_player())
             {
-                mprf("You are engulfed in flames%s", punctuation.c_str());
+                msg = localize("You are engulfed in flames");
             }
             else
             {
-                mprf("%s is engulfed in flames%s",
-                     defender_name(false).c_str(), punctuation.c_str());
+                msg = localize("%s is engulfed in flames",
+                               defender_name(false));
             }
+
+            attack_strength_message(msg, special_damage, false);
 
             _print_resist_messages(defender, base_damage, BEAM_FIRE);
         }
@@ -2746,20 +2741,19 @@ void melee_attack::mons_apply_attack_flavour()
                 attacker->heal(healed);
                 if (needs_message)
                 {
-                    string punctuation = attack_strength_punctuation(special_damage);
+                    string msg;
                     if (defender->is_player())
                     {
-                        mprf("%s draws strength from your injuries%s",
-                             attacker->name(DESC_THE).c_str(),
-                             punctuation.c_str());
+                        mprf("%s draws strength from your injuries!",
+                             attacker->name(DESC_THE).c_str());
                     }
                     else
                     {
-                        mprf("%s draws strength from %s injuries%s",
+                        mprf("%s draws strength from %s injuries!",
                              attacker->name(DESC_THE).c_str(),
-                             def_name(DESC_ITS).c_str(),
-                             punctuation.c_str());
+                             def_name(DESC_ITS).c_str());
                     }
+
                 }
             }
         }
@@ -3283,18 +3277,18 @@ void melee_attack::do_minotaur_retaliation()
                 }
                 else
                 {
+                    string msg;
                     if (attacker->is_player())
                     {
-                        mprf("%s headbutts you%s",
-                             attacker->name(DESC_THE).c_str(),
-                             attack_strength_punctuation(hurt).c_str());
+                        msg = localize("%s headbutts you",
+                                       attacker->name(DESC_THE));
                     }
                     else
                     {
-                        mprf("%s headbutts %s%s", defname.c_str(),
-                             attacker->name(DESC_THE).c_str(),
-                             attack_strength_punctuation(hurt).c_str());
+                        msg = localize("%s headbutts %s", defname,
+                                       attacker->name(DESC_THE));
                     }
+                    attack_strength_message(msg, hurt, false);
                 }
             }
             if (hurt > 0)
@@ -3336,8 +3330,8 @@ void melee_attack::do_minotaur_retaliation()
         }
         else
         {
-            mprf("You headbutt %s%s", attacker->name(DESC_THE).c_str(),
-                 attack_strength_punctuation(hurt).c_str());
+            string msg = localize("You headbutt %s", attacker->name(DESC_THE));
+            attack_strength_message(msg, hurt, false);
 
             attacker->hurt(&you, hurt);
         }
