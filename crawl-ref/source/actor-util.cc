@@ -217,3 +217,35 @@ void do_actor_message(const actor* subject, bool subject_seen,
                                    yourself_msg, itself_msg);
     mpr_nolocalize(msg);
 }
+
+/*
+ * Like get_actor_message, except subject must be a monster
+ */
+string get_monster_message(const actor* subject, bool subject_seen,
+                           const actor* object, bool object_seen,
+                           const string& you_obj_msg,
+                           const string& other_msg)
+{
+    if (subject && subject->is_player())
+        return "";
+
+    return get_actor_message(subject, subject_seen,
+                             object, object_seen,
+                             "", you_obj_msg, other_msg);
+}
+
+/*
+ * Like do_actor_message, except subject must be a monster
+ */
+void do_monster_message(const actor* subject, bool subject_seen,
+                        const actor* object, bool object_seen,
+                        const string& you_obj_msg,
+                        const string& other_msg)
+{
+    string msg = get_monster_message(subject, subject_seen,
+                                     object, object_seen,
+                                     you_obj_msg, other_msg);
+
+    if (!msg.empty())
+        mpr_nolocalize(msg);
+}
