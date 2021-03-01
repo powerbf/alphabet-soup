@@ -177,10 +177,13 @@ static const vector<curse_effect> curse_effects = {
             else
             {
                 int dmg = 5 + random2avg(2*severity,2);
-                string punct = attack_strength_punctuation(dmg);
-                _do_msg(target, "Pain shoots through your body" + punct,
-                        "@The_monster@ convulses with pain" + punct,
-                        "Something is bathed in an unholy light" + punct);
+                string msg_player = add_attack_strength_punct(
+                    "Pain shoots through your body", dmg, true);
+                string msg_seen = add_attack_strength_punct(
+                    "@The_monster@ convulses with pain", dmg, true);
+                string msg_unseen = add_attack_strength_punct(
+                    "Something is bathed in an unholy light", dmg, true);
+                _do_msg(target, msg_player, msg_seen, msg_unseen);
                 _ouch(target, source, dmg, cause);
             }
         },

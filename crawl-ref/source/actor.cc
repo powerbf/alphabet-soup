@@ -753,14 +753,11 @@ void actor::constriction_damage_defender(actor &defender, int duration)
     DIAG_ONLY(const int infdam = damage);
 
     string but;
-    string exclamations;
     if (damage <= 0 && is_player()
         && you.can_see(defender))
     {
         but = ", but do no damage.";
     }
-    else
-        exclamations = "%s" + attack_strength_punctuation(damage);
 
     if (is_player() || you.can_see(*this))
     {
@@ -804,7 +801,7 @@ void actor::constriction_damage_defender(actor &defender, int duration)
         if (!but.empty())
             msg += localize(but);
         else
-            msg = localize(exclamations, LocalizationArg(msg, false));
+            msg = add_attack_strength_punct(msg, damage, false);
 
         mpr_nolocalize(msg);
     }
@@ -823,7 +820,7 @@ void actor::constriction_damage_defender(actor &defender, int duration)
         if (!but.empty())
             msg += localize(but);
         else
-            msg = localize(exclamations, LocalizationArg(msg, false));
+            msg = add_attack_strength_punct(msg, damage, false);
 
         mpr_nolocalize(msg);
     }
