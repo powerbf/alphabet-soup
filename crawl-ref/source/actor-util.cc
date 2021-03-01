@@ -76,9 +76,9 @@ string actor_pronoun(const actor *a, pronoun_type pron,
  * you_msg = msg to be used if actor is player (expect no %s)
  * other_msg = msg to be used otherwise (expect one %s)
  */
-string actor_action_string(const actor* subject, bool seen,
-                           const string& you_msg,
-                           const string& other_msg)
+string get_actor_message(const actor* subject, bool seen,
+                         const string& you_msg,
+                         const string& other_msg)
 {
     if (subject && subject->is_player())
         return localize(you_msg);
@@ -101,11 +101,11 @@ string actor_action_string(const actor* subject, bool seen,
  * you_obj_msg = msg to be used if object is player (expect one %s)
  * other_msg = msg to be used otherwise (expect two %s)
  */
-string actor_action_string(const actor* subject, bool subject_seen,
-                           const actor* object, bool object_seen,
-                           const string& you_subj_msg,
-                           const string& you_obj_msg,
-                           const string& other_msg)
+string get_actor_message(const actor* subject, bool subject_seen,
+                         const actor* object, bool object_seen,
+                         const string& you_subj_msg,
+                         const string& you_obj_msg,
+                         const string& other_msg)
 
 {
     string msg;
@@ -152,13 +152,13 @@ string actor_action_string(const actor* subject, bool subject_seen,
  *               but you should avoid this because it's hard to translate with the right gender.
  *               It's preferable to rephrase without reflexive pronoun (e.g. passive voice)))
  */
-string actor_action_string(const actor* subject, bool subject_seen,
-                           const actor* object, bool object_seen,
-                           const string& you_subj_msg,
-                           const string& you_obj_msg,
-                           const string& other_msg,
-                           const string& yourself_msg,
-                           const string& itself_msg)
+string get_actor_message(const actor* subject, bool subject_seen,
+                         const actor* object, bool object_seen,
+                         const string& you_subj_msg,
+                         const string& you_obj_msg,
+                         const string& other_msg,
+                         const string& yourself_msg,
+                         const string& itself_msg)
 {
     if (subject && subject == object)
     {
@@ -176,45 +176,44 @@ string actor_action_string(const actor* subject, bool subject_seen,
     }
     else
     {
-        return actor_action_string(subject, subject_seen,
-                                   object, object_seen,
-                                   you_subj_msg, you_obj_msg, other_msg);
+        return get_actor_message(subject, subject_seen,
+                                 object, object_seen,
+                                 you_subj_msg, you_obj_msg, other_msg);
     }
 }
 
 
-void actor_action_message(const actor* subject, bool seen,
-                          const string& you_msg,
-                          const string& other_msg)
+void do_actor_message(const actor* subject, bool seen,
+                      const string& you_msg,
+                      const string& other_msg)
 {
-    string msg = actor_action_string(subject, seen, you_msg, other_msg);
+    string msg = get_actor_message(subject, seen, you_msg, other_msg);
     mpr_nolocalize(msg);
 }
 
-void actor_action_message(const actor* subject, bool subject_seen,
-                          const actor* object, bool object_seen,
-                          const string& you_subj_msg,
-                          const string& you_obj_msg,
-                          const string& other_msg)
+void do_actor_message(const actor* subject, bool subject_seen,
+                      const actor* object, bool object_seen,
+                      const string& you_subj_msg,
+                      const string& you_obj_msg,
+                      const string& other_msg)
 {
-    string msg = actor_action_string(subject, subject_seen,
-                                     object, object_seen,
-                                     you_subj_msg, you_obj_msg, other_msg);
+    string msg = get_actor_message(subject, subject_seen,
+                                   object, object_seen,
+                                   you_subj_msg, you_obj_msg, other_msg);
     mpr_nolocalize(msg);
 }
 
-void actor_action_message(const actor* subject, bool subject_seen,
-                          const actor* object, bool object_seen,
-                          const string& you_subj_msg,
-                          const string& you_obj_msg,
-                          const string& other_msg,
-                          const string& yourself_msg,
-                          const string& itself_msg)
+void do_actor_message(const actor* subject, bool subject_seen,
+                      const actor* object, bool object_seen,
+                      const string& you_subj_msg,
+                      const string& you_obj_msg,
+                      const string& other_msg,
+                      const string& yourself_msg,
+                      const string& itself_msg)
 {
-    string msg = actor_action_string(subject, subject_seen,
-                                     object, object_seen,
-                                     you_subj_msg, you_obj_msg, other_msg,
-                                     yourself_msg, itself_msg);
+    string msg = get_actor_message(subject, subject_seen,
+                                   object, object_seen,
+                                   you_subj_msg, you_obj_msg, other_msg,
+                                   yourself_msg, itself_msg);
     mpr_nolocalize(msg);
 }
-
