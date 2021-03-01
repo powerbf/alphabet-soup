@@ -2994,7 +2994,9 @@ void melee_attack::mons_apply_attack_flavour()
     case AF_CRUSH:
         if (needs_message)
         {
-            print_simple_message(atk_name(DESC_THE), "grab", defender_name(true));
+            do_monster_message(attacker, attacker_visible,
+                               defender, defender_visible,
+                               "%s grabs you.", "%s grabs %s.");
         }
         attacker->start_constricting(*defender);
         // if you got grabbed, interrupt stair climb and passwall
@@ -3021,8 +3023,10 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (needs_message)
             {
-                print_simple_message(atk_name(DESC_THE), "engulf",
-                               defender_name(true), "in water!");
+                do_monster_message(attacker, attacker_visible,
+                                   defender, defender_visible,
+                                   "%s engulfs you in water!",
+                                   "%s engulfs %s in water!");
             }
         }
 
@@ -3040,7 +3044,9 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && special_damage)
         {
-            print_simple_message(atk_name(DESC_THE), "burn", defender_name(true), "!");
+            do_monster_message(attacker, attacker_visible,
+                               defender, defender_visible,
+                               "%s burns you!", "%s burns %s!");
             _print_resist_messages(defender, special_damage, BEAM_FIRE);
         }
 
@@ -3241,11 +3247,23 @@ void melee_attack::do_spines()
                 return;
             if (you.can_see(*defender) || attacker->is_player())
             {
-                print_simple_message(attacker->name(DESC_THE),
-                               "are struck by",
-                               apostrophise(defender->name(DESC_THE)),
-                               defender->type == MONS_BRIAR_PATCH ? "thorns."
-                                                                  : "spines.");
+                string owner = apostrophise(defender->name(DESC_THE));
+                if (attacker->is_player())
+                {
+                    if (defender->type == MONS_BRIAR_PATCH)
+                        mprf("You are struck by %s thorns.", owner.c_str());
+                    else
+                        mprf("You are struck by %s spines.", owner.c_str());
+                }
+                else
+                {
+                    if (defender->type == MONS_BRIAR_PATCH)
+                        mprf("%s is struck by %s thorns.",
+                             attacker->name(DESC_THE).c_str(), owner.c_str());
+                    else
+                        mprf("%s is struck by %s spines.",
+                             attacker->name(DESC_THE).c_str(), owner.c_str());
+                }
             }
             attacker->hurt(defender, hurt, BEAM_MISSILE, KILLED_BY_SPINES);
         }
@@ -3395,7 +3413,7 @@ void melee_attack::riposte()
 {
     if (you.see_cell(defender->pos()))
     {
-        print_simple_message(defender->name(DESC_THE), "riposte");
+        do_actor_message(defender, true, "You riposte.", "%s ripostes.");
     }
     melee_attack attck(defender, attacker, 0, effective_attack_number + 1);
     attck.is_riposte = true;
@@ -3455,10 +3473,18 @@ bool melee_attack::do_knockback(bool trample)
 
     if (needs_message)
     {
-        const bool can_stumble = !defender->airborne()
-                                  && !defender->incapacitated();
-        const string verb = can_stumble ? "stumble" : "are shoved";
-        print_simple_message(defender_name(false), verb, "", "backwards!");
+        if (defender->airborne() || defender->incapacitated())
+        {
+            do_actor_message(defender, defender_visible,
+                             "You are shoved backwards!",
+                             "%s is shoved backwards!");
+        }
+        else
+        {
+            do_actor_message(defender, defender_visible,
+                             "You stumble backwards!",
+                             "%s stumbles backwards!");
+        }
     }
 
     // Schedule following _before_ actually trampling -- if the defender
