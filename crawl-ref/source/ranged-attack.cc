@@ -593,7 +593,6 @@ bool ranged_attack::apply_missile_brand()
         break;
     case SPMSL_FLAME:
         calc_elemental_brand_damage(BEAM_FIRE,
-                                    defender->is_icy() ? "melt" : "burn",
                                     projectile->name(DESC_THE).c_str());
 
         defender->expose_to_element(BEAM_FIRE, 2);
@@ -601,7 +600,7 @@ bool ranged_attack::apply_missile_brand()
             maybe_melt_player_enchantments(BEAM_FIRE, special_damage);
         break;
     case SPMSL_FROST:
-        calc_elemental_brand_damage(BEAM_COLD, "freeze",
+        calc_elemental_brand_damage(BEAM_COLD,
                                     projectile->name(DESC_THE).c_str());
         defender->expose_to_element(BEAM_COLD, 2);
         break;

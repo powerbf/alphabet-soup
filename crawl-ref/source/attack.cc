@@ -586,7 +586,7 @@ struct chaos_effect
 
 static const vector<chaos_effect> chaos_effects = {
     {
-        "clone", 1, [](const actor &d) {
+        "clone", 1, [](const actor &d) { // noextract
             return d.is_monster() && mons_clonable(d.as_monster(), true);
         },
         BEAM_NONE, [](attack &attack) {
@@ -611,10 +611,10 @@ static const vector<chaos_effect> chaos_effects = {
         },
     },
     {
-        "polymorph", 2, _is_chaos_polyable, BEAM_POLYMORPH,
+        "polymorph", 2, _is_chaos_polyable, BEAM_POLYMORPH, // noextract
     },
     {
-        "shifter", 1, [](const actor &defender)
+        "shifter", 1, [](const actor &defender) // noextract
         {
             const monster *mon = defender.as_monster();
             return _is_chaos_polyable(defender)
@@ -642,26 +642,26 @@ static const vector<chaos_effect> chaos_effects = {
         },
     },
     {
-        "rage", 5, [](const actor &defender) {
+        "rage", 5, [](const actor &defender) { // noextract
             return defender.can_go_berserk();
         }, BEAM_NONE, [](attack &attack) {
             attack.defender->go_berserk(false);
             return you.can_see(*attack.defender);
         },
     },
-    { "hasting", 10, _is_chaos_slowable, BEAM_HASTE },
-    { "mighting", 10, nullptr, BEAM_MIGHT },
-    { "agilitying", 10, nullptr, BEAM_AGILITY },
-    { "invisible", 10, nullptr, BEAM_INVISIBILITY, },
-    { "slowing", 10, _is_chaos_slowable, BEAM_SLOW },
+    { "hasting", 10, _is_chaos_slowable, BEAM_HASTE }, // noextract
+    { "mighting", 10, nullptr, BEAM_MIGHT }, // noextract
+    { "agilitying", 10, nullptr, BEAM_AGILITY }, // noextract
+    { "invisible", 10, nullptr, BEAM_INVISIBILITY, }, // noextract
+    { "slowing", 10, _is_chaos_slowable, BEAM_SLOW }, // noextract
     {
-        "paralysis", 5, [](const actor &defender) {
+        "paralysis", 5, [](const actor &defender) { // noextract
             return !defender.is_monster()
                     || !mons_is_firewood(*defender.as_monster());
         }, BEAM_PARALYSIS,
     },
     {
-        "petrify", 5, [](const actor &defender) {
+        "petrify", 5, [](const actor &defender) { // noextract
             return _is_chaos_slowable(defender) && !defender.res_petrify();
         }, BEAM_PETRIFY,
     },
@@ -692,7 +692,7 @@ void attack::chaos_affects_defender()
         if (defender->is_player() && have_passive(passive_t::no_haste)
             && beam.flavour == BEAM_HASTE)
         {
-            simple_god_message(" protects you from inadvertent hurry.");
+            simple_god_message("%s protects you from inadvertent hurry.");
             obvious_effect = true;
             return;
         }
@@ -847,10 +847,10 @@ void attack::drain_defender()
         else if (defender_visible)
         {
             string msg = get_actor_message(attacker, attacker_visible,
-                                             defender, defender_visible,
-                                             "You drain %s",
-                                             "%s drains you",
-                                             "%s drains %s");
+                                           defender, defender_visible,
+                                           "You drain %s",
+                                           "%s drains you",
+                                           "%s drains %s");
 
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
@@ -1438,16 +1438,14 @@ bool attack::apply_damage_brand(const char *what)
         break;
 
     case SPWPN_FLAMING:
-        calc_elemental_brand_damage(BEAM_FIRE,
-                                    defender->is_icy() ? "melt" : "burn",
-                                    what);
+        calc_elemental_brand_damage(BEAM_FIRE, what);
         defender->expose_to_element(BEAM_FIRE, 2);
         if (defender->is_player())
             maybe_melt_player_enchantments(BEAM_FIRE, special_damage);
         break;
 
     case SPWPN_FREEZING:
-        calc_elemental_brand_damage(BEAM_COLD, "freeze", what);
+        calc_elemental_brand_damage(BEAM_COLD, what);
         defender->expose_to_element(BEAM_COLD, 2);
         break;
 
@@ -1686,34 +1684,36 @@ bool attack::apply_damage_brand(const char *what)
  * calculation of base damage and other effects varies based on the type
  * of attack, but the calculation of elemental damage should be consistent.
  */
-void attack::calc_elemental_brand_damage(beam_type flavour,
-                                         const char *verb,
-                                         const char *what)
+void attack::calc_elemental_brand_damage(beam_type flavour, const char *what)
 {
     special_damage = resist_adjust_damage(defender, flavour,
                                           random2(damage_done) / 2 + 1);
 
-    if (needs_message && special_damage > 0 && verb)
+    if (needs_message && special_damage > 0)
     {
         // XXX: assumes "what" is singular
         string subject = what ? what : atk_name(DESC_THE);
-        string conj_verb = subject == "you" ? verb
-                                            : conjugate_verb(verb, false);
+        string object = defender_name(false);
 
         string msg;
-        if (subject == "you")
+        if (flavour == BEAM_FIRE && defender->is_icy())
         {
-            msg = localize("You " + conj_verb + " %s", defender_name(false));
+            msg = get_simple_message(subject, object, "You melt %s",
+                                     "%s melts you", "%s melts %s");
         }
-        else if (defender->is_player())
+        else if (flavour == BEAM_FIRE)
         {
-            msg = localize("%s " + conj_verb + " you", subject);
+            msg = get_simple_message(subject, object, "You burn %s",
+                                     "%s burns you", "%s burns %s");
+        }
+        else if (flavour == BEAM_COLD)
+        {
+            msg = get_simple_message(subject, object, "You freeze %s",
+                                     "%s freezes you", "%s freezes %s");
         }
         else
         {
-            msg = localize("%s " + conj_verb + " %s",
-                           subject,
-                           defender_name(false));
+            return;
         }
 
         special_damage_message =

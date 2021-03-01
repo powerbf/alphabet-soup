@@ -144,7 +144,6 @@ protected:
     }
     virtual bool apply_damage_brand(const char *what = nullptr);
     void calc_elemental_brand_damage(beam_type flavour,
-                                     const char *verb,
                                      const char *what = nullptr);
 
     /* Weapon Effects */

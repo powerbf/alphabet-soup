@@ -14,7 +14,6 @@ string actor_name(const actor *a, description_level_type desc,
 
 string actor_pronoun(const actor *a, pronoun_type ptyp, bool actor_visible);
 
-
 string get_actor_message(const actor* subject, bool seen,
                          const string& you_msg,
                          const string& other_msg);
@@ -62,4 +61,14 @@ void do_monster_message(const actor* subject, bool subject_seen,
                         const actor* object, bool object_seen,
                         const string& you_obj_msg,
                         const string& other_msg);
+
+string get_simple_message(const string& subject, const string& object,
+                          const string& you_subj_msg,
+                          const string& you_obj_msg,
+                          const string& other_msg);
+
+void do_simple_message(const string& subject, const string& object,
+                       const string& you_subj_msg,
+                       const string& you_obj_msg,
+                       const string& other_msg);
 

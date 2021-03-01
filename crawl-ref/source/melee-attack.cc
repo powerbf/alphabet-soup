@@ -316,9 +316,34 @@ bool melee_attack::handle_phase_dodged()
             player_warn_miss();
         else
         {
-            string fmt = "%s" + evasion_margin_adverb() + " misses %s.";
-            string msg = localize(fmt, atk_name(DESC_THE), defender_name(true));
-            mpr(msg);
+            if (ev_margin <= -20)
+            {
+                do_monster_message(attacker, attacker_visible,
+                                   defender, defender_visible,
+                                   "%s completely misses you.",
+                                   "%s completely misses %s.");
+            }
+            else if (ev_margin <= -12)
+            {
+                do_monster_message(attacker, attacker_visible,
+                                   defender, defender_visible,
+                                   "%s misses you.",
+                                   "%s misses %s.");
+            }
+            else if (ev_margin <= -6)
+            {
+                do_monster_message(attacker, attacker_visible,
+                                   defender, defender_visible,
+                                   "%s closely misses you.",
+                                   "%s closely misses %s.");
+            }
+            else
+            {
+                do_monster_message(attacker, attacker_visible,
+                                   defender, defender_visible,
+                                   "%s barely misses you.",
+                                   "%s barely misses %s.");
+            }
         }
     }
 
@@ -1435,7 +1460,10 @@ string melee_attack::player_why_missed()
             return "Your shield and armour prevent you from hitting ";
     }
 
-    return "You" + evasion_margin_adverb() + " miss ";
+    return (ev_margin <= -20) ? "You completely miss " :
+           (ev_margin <= -12) ? "You miss " :
+           (ev_margin <= -6)  ? "You closely miss "
+                              : "You barely miss ";
 }
 
 void melee_attack::player_warn_miss()
