@@ -37,13 +37,6 @@ bool simple_monster_message(const monster& mons, const char *event,
                             int param = 0,
                             description_level_type descrip = DESC_THE);
 
-string get_simple_message(const string& subject, const string& verb,
-                          const string& object = "", const string& rest = ".");
-
-void print_simple_message(const string& subject, const string& verb,
-                          const string& object = "", const string& rest = ".");
-
-
 string god_speaker(god_type which_deity = you.religion);
 void simple_god_message(const char *event, god_type which_deity = you.religion);
 void wu_jian_sifu_message(const char *event);
