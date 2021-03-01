@@ -8,6 +8,7 @@
 #include "localize.h"
 #include "message-util.h"
 #include "mpr.h"
+#include "stringutil.h"
 
 /*
  * Returns an anonymous actor's name
@@ -248,4 +249,45 @@ void do_monster_message(const actor* subject, bool subject_seen,
 
     if (!msg.empty())
         mpr_nolocalize(msg);
+}
+
+/*
+ * Get localized string for a message containing subject and object
+ *
+ * subject = the subject of the sentence
+ * object = the object of the sentence
+ * you_subj_msg = msg to be used if subject is "you" (expect one %s)
+ * you_obj_msg = msg to be used if object is "you" (expect one %s)
+ * other_msg = msg to be used otherwise (expect two %s)
+ */
+string get_simple_message(const string& subject, const string& object,
+                          const string& you_subj_msg,
+                          const string& you_obj_msg,
+                          const string& other_msg)
+{
+    string msg;
+    if (lowercase_string(subject) == "you")
+        return localize(you_subj_msg, object);
+    else if (lowercase_string(object) == "you")
+        return localize(you_obj_msg, subject);
+    else
+        return localize(other_msg, subject, object);
+}
+
+/*
+ * Show localized message containing subject and object
+ *
+ * subject = the subject of the sentence
+ * object = the object of the sentence
+ * you_subj_msg = msg to be used if subject is "you" (expect one %s)
+ * you_obj_msg = msg to be used if object is "you" (expect one %s)
+ * other_msg = msg to be used otherwise (expect two %s)
+ */
+void do_simple_message(const string& subject, const string& object,
+                       const string& you_subj_msg,
+                       const string& you_obj_msg,
+                       const string& other_msg)
+{
+    mpr_nolocalize(get_simple_message(subject, object, you_subj_msg,
+                                      you_obj_msg, other_msg));
 }
