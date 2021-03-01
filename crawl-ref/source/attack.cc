@@ -16,6 +16,7 @@
 #include <cstring>
 #include <functional>
 
+#include "actor-util.h"
 #include "art-enum.h"
 #include "chardump.h"
 #include "delay.h"
@@ -326,59 +327,6 @@ int attack::calc_to_hit(bool random)
          attacker->name(DESC_PLAIN).c_str(), mhit);
 
     return mhit;
-}
-
-/* Returns an actor's name
- *
- * Takes into account actor visibility/invisibility and the type of description
- * to be used (capitalization, possessiveness, etc.)
- */
-string attack::actor_name(const actor *a, description_level_type desc,
-                          bool actor_visible)
-{
-    return actor_visible ? a->name(desc) : anon_name(desc);
-}
-
-/* Returns an actor's pronoun
- *
- * Takes into account actor visibility
- */
-string attack::actor_pronoun(const actor *a, pronoun_type pron,
-                             bool actor_visible)
-{
-    return actor_visible ? a->pronoun(pron) : anon_pronoun(pron);
-}
-
-/* Returns an anonymous actor's name
- *
- * Given the actor visible or invisible, returns the
- * appropriate possessive pronoun.
- */
-string attack::anon_name(description_level_type desc)
-{
-    switch (desc)
-    {
-    case DESC_NONE:
-        return "";
-    case DESC_YOUR:
-    case DESC_ITS:
-        return "something's";
-    case DESC_THE:
-    case DESC_A:
-    case DESC_PLAIN:
-    default:
-        return "something";
-    }
-}
-
-/* Returns an anonymous actor's pronoun
- *
- * Given invisibility (whether out of LOS or just invisible), returns the
- * appropriate possessive, inflexive, capitalised pronoun.
- */
-string attack::anon_pronoun(pronoun_type pron)
-{
-    return decline_pronoun(GENDER_NEUTER, pron);
 }
 
 /* Initializes an attack, setting up base variables and values

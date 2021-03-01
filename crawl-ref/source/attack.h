@@ -100,13 +100,6 @@ public:
     int calc_pre_roll_to_hit(bool random);
     virtual int post_roll_to_hit_modifiers(int mhit, bool random);
 
-    // Exact copies of their melee_attack predecessors
-    string actor_name(const actor *a, description_level_type desc,
-                      bool actor_visible);
-    string actor_pronoun(const actor *a, pronoun_type ptyp, bool actor_visible);
-    string anon_name(description_level_type desc);
-    string anon_pronoun(pronoun_type ptyp);
-
     // TODO: Definitely want to get rid of this, which we can't really do
     // until we refactor the whole pronoun / desc usage from these lowly
     // classes all the way up to monster/player (and actor) classes.
