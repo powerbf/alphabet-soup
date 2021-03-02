@@ -11,6 +11,7 @@
 #include "chardump.h"
 #include "directn.h"
 #include "env.h"
+#include "english.h"
 #include "fight.h" // apply_chunked_ac
 #include "fprop.h"
 #include "god-passive.h"
@@ -1134,4 +1135,63 @@ bool actor::evil() const
     // Defer to the other function. Since it returns only act, nullptr, or you,
     // none of which points to a const object, the const_cast here is safe.
     return const_cast<actor *>(ensure_valid_actor(static_cast<const actor *>(act)));
+}
+
+/* Returns an actor's name
+ *
+ * Takes into account actor visibility/invisibility and the type of description
+ * to be used (definite, indefinite, possessive, etc.)
+ */
+string actor_name(const actor *a, description_level_type desc,
+                  bool actor_visible)
+{
+    if (!a)
+        return "null"; // bug, noextract
+    return actor_visible ? a->name(desc) : anon_name(desc);
+}
+
+/* Returns an actor's pronoun
+ *
+ * Takes into account actor visibility
+ */
+string actor_pronoun(const actor *a, pronoun_type pron,
+                     bool actor_visible)
+{
+    if (!a)
+        return "null"; // bug, noextract
+    return actor_visible ? a->pronoun(pron) : anon_pronoun(pron);
+}
+
+/*
+ * Returns an anonymous actor's name
+ *
+ * Given invisibility (whether out of LOS or just invisible),
+ * returns the appropriate noun.
+ */
+string anon_name(description_level_type desc)
+{
+    switch (desc)
+    {
+    case DESC_NONE:
+        return "";
+    case DESC_YOUR:
+    case DESC_ITS:
+        return "something's";
+    case DESC_THE:
+    case DESC_A:
+    case DESC_PLAIN:
+    default:
+        return "something";
+    }
+}
+
+/*
+ * Returns an anonymous actor's pronoun
+ *
+ * Given invisibility (whether out of LOS or just invisible),
+ * returns the appropriate pronoun.
+ */
+string anon_pronoun(pronoun_type pron)
+{
+    return decline_pronoun(GENDER_NEUTER, pron);
 }

@@ -455,3 +455,10 @@ private:
 };
 
 bool actor_slime_wall_immune(const actor *actor);
+
+string actor_name(const actor *a, description_level_type desc,
+                  bool actor_visible);
+string actor_pronoun(const actor *a, pronoun_type ptyp, bool actor_visible);
+string anon_name(description_level_type desc);
+string anon_pronoun(pronoun_type ptyp);
+

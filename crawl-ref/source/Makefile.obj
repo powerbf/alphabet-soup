@@ -254,6 +254,7 @@ tutorial.o \
 ui.o \
 uncancel.o \
 unicode.o \
+variant-msg.o \
 view.o \
 viewchar.o \
 viewgeom.o \
