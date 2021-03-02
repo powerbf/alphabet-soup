@@ -1154,7 +1154,7 @@ static void _ORDER_melee_effects(item_def* /*item*/, actor* attacker,
         if (silver_dam)
         {
             if (you.can_see(*defender))
-                mpr(msg);
+                mpr_nolocalize(msg);
             defender->hurt(attacker, silver_dam);
         }
         else if (dam > 0)

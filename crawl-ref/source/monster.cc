@@ -1216,11 +1216,11 @@ bool monster::drop_item(mon_inv_type eslot, bool msg)
     {
         if (msg)
         {
-            mprf("%s %s as %s drops %s!",
-                 pitem.name(DESC_THE).c_str(),
-                 summoned_poof_msg(this, pitem).c_str(),
-                 name(DESC_THE).c_str(),
-                 pitem.quantity > 1 ? "them" : "it");
+            mprf("%s drops %s.", name(DESC_THE).c_str(),
+                 pitem.name(DESC_THE).c_str());
+
+            mprf(summoned_poof_msg(this, pitem).c_str(),
+                 pitem.name(DESC_THE).c_str());
         }
 
         item_was_destroyed(pitem);

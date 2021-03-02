@@ -2669,33 +2669,38 @@ string summoned_poof_msg(const monster* mons, bool plural)
         valid_mon = true;
     }
 
-    string msg      = "disappear%s in a puff of smoke";
+    string msg = plural ? "%s disappear in a puff of smoke!"
+                        : "%s disappears in a puff of smoke!";
     bool   no_chaos = false;
 
     switch (summon_type)
     {
     case SPELL_SHADOW_CREATURES:
     case MON_SUMM_SCROLL:
-        msg      = "dissolve%s into shadows";
+        msg = plural ? "%s dissolve into shadows!"
+                     : "%s dissolves into shadows!";
         no_chaos = true;
         break;
 
     case MON_SUMM_CHAOS:
-        msg = "degenerate%s into a cloud of primal chaos";
+        msg = plural ? "%s degenerate into a cloud of primal chaos!"
+                     : "%s degenerates into a cloud of primal chaos!";
         break;
 
     case MON_SUMM_WRATH:
     case MON_SUMM_AID:
         if (valid_mon && is_good_god(mons->god))
         {
-            msg      = "dissolve%s into sparkling lights";
+            msg = plural ? "%s dissolve into sparkling lights!"
+                         : "%s dissolves into sparkling lights!";
             no_chaos = true;
         }
         break;
 
     case SPELL_SPECTRAL_CLOUD:
     case SPELL_CALL_LOST_SOUL:
-        msg = "fade%s away";
+        msg = plural ? "%s fade away!"
+                     : "%s fades away!";
         break;
     }
 
@@ -2704,31 +2709,37 @@ string summoned_poof_msg(const monster* mons, bool plural)
         if (mons->god == GOD_XOM && !no_chaos && one_chance_in(10)
             || mons->type == MONS_CHAOS_SPAWN)
         {
-            msg = "degenerate%s into a cloud of primal chaos";
+            msg = plural ? "%s degenerate into a cloud of primal chaos!"
+                         : "%s degenerates into a cloud of primal chaos!";
         }
 
         if (mons->is_holy()
             && summon_type != SPELL_SHADOW_CREATURES
             && summon_type != MON_SUMM_CHAOS)
         {
-            msg = "dissolve%s into sparkling lights";
+            msg = plural ? "%s dissolve into sparkling lights!"
+                         : "%s dissolves into sparkling lights!";
         }
 
         if (mons_is_slime(*mons)
             && mons->god == GOD_JIYVA)
         {
-            msg = "dissolve%s into a puddle of slime";
+            msg = plural ? "%s dissolve into a puddle of slime!"
+                         : "%s dissolves into a puddle of slime!";
         }
 
         if (mons->type == MONS_DROWNED_SOUL)
-            msg = "return%s to the deep";
+        {
+            msg = plural ? "%s return to the deep!"
+                         : "%s returns to the deep!";
+        }
 
         if (mons->has_ench(ENCH_PHANTOM_MIRROR))
-            msg = "shimmer%s and vanish" + string(plural ? "" : "es"); // Ugh
+        {
+            msg = plural ? "%s shimmer and vanish!"
+                         : "%s shimmers and vanishes!";
+        }
     }
-
-    // Conjugate.
-    msg = make_stringf(msg.c_str(), plural ? "" : "s");
 
     return msg;
 }
