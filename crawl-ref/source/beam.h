@@ -182,6 +182,8 @@ public:
 
     void fire();
 
+    // name with "the" in front of it
+    string get_the_name() const;
     // Returns member short_name if set, otherwise some reasonable string
     // for a short name, most likely the name of the beam's flavour.
     string get_short_name() const;
@@ -314,7 +316,7 @@ int mons_adjust_flavoured(monster* mons, bolt &pbolt, int hurted,
 bool enchant_actor_with_flavour(actor* victim, const actor *atk,
                                 beam_type flavour, int powc = 0);
 
-bool enchant_monster_invisible(monster* mon, const string &how);
+bool enchant_monster_invisible(monster* mon, bool invis_beam);
 
 bool ench_flavour_affects_monster(beam_type flavour, const monster* mon,
                                                   bool intrinsic_only = false);

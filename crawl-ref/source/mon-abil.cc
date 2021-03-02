@@ -1101,7 +1101,7 @@ bool mon_special_ability(monster* mons)
             }
             // Otherwise, go invisible.
             else
-                enchant_monster_invisible(mons, "flickers out of sight");
+                enchant_monster_invisible(mons, false);
         }
         break;
 
