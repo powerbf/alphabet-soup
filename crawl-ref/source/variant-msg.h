@@ -13,16 +13,31 @@ using namespace std;
 
 const string& get_variant_template(variant_msg_type msg_id, msg_variant_type variant);
 
-string get_variant_message(variant_msg_type msg_id,
-                           const string& subject, const string& object = "");
 
-void do_variant_message(variant_msg_type msg_id,
-                        const string& subject, const string& object = "");
+string get_variant_message(variant_msg_type msg_id,
+                           const string& subject, const string& object = "",
+                           const string& punctuation = "");
 
 string get_variant_message(variant_msg_type msg_id,
                            const actor* subject, const actor* object = nullptr,
-                           bool subject_visible = true, bool object_visible = true);
+                           const string& punctuation = "");
+
+string get_variant_message(variant_msg_type msg_id,
+                           const actor* subject, const actor* object,
+                           bool subject_visible, bool object_visible,
+                           const string& punctuation = "");
+
+
+void do_variant_message(variant_msg_type msg_id,
+                        const string& subject, const string& object = "",
+                        const string& punctuation = "");
+
 
 void do_variant_message(variant_msg_type msg_id,
                         const actor* subject, const actor* object = nullptr,
-                        bool subject_visible = true, bool object_visible = true);
+                        const string& punctuation = "");
+
+void do_variant_message(variant_msg_type msg_id,
+                        const actor* subject, const actor* object,
+                        bool subject_visible, bool object_visible,
+                        const string& punctuation = "");

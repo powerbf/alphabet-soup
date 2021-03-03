@@ -327,8 +327,8 @@ static void _OLGREB_melee_effects(item_def* /*weapon*/, actor* attacker,
 
     if (!mondied && bonus_dam)
     {
-        string msg = get_variant_message(VMSG_ENVENOM, attacker, defender);
-        attack_strength_message(msg, bonus_dam, false);
+        string punct = attack_strength_punctuation(bonus_dam);
+        do_variant_message(VMSG_ENVENOM, attacker, defender, punct);
 
         defender->hurt(attacker, bonus_dam);
         if (defender->alive())
@@ -1054,27 +1054,25 @@ static void _ELEMENTAL_STAFF_melee_effects(item_def*, actor* attacker,
     if (bonus_dam <= 0)
         return;
 
-    // i18n: not sure if self melee attack is really possible,
-    // but old code catered for that case
+    string punct = attack_strength_punctuation(bonus_dam);
+
     string msg;
     if (flavour == BEAM_FIRE)
     {
-        msg = get_variant_message(VMSG_BURN, attacker, defender);
+        do_variant_message(VMSG_BURN, attacker, defender, punct);
     }
     else if (flavour == BEAM_COLD)
     {
-        msg = get_variant_message(VMSG_FREEZE, attacker, defender);
+        do_variant_message(VMSG_FREEZE, attacker, defender, punct);
     }
     else if (flavour == BEAM_ELECTRICITY)
     {
-        msg = get_variant_message(VMSG_ELECTROCUTE, attacker, defender);
+        do_variant_message(VMSG_ELECTROCUTE, attacker, defender, punct);
     }
     else
     {
-        msg = get_variant_message(VMSG_CRUSH, attacker, defender);
+        do_variant_message(VMSG_CRUSH, attacker, defender, punct);
     }
-
-    attack_strength_message(msg, bonus_dam, false);
 
     defender->hurt(attacker, bonus_dam, flavour);
 
@@ -1488,9 +1486,7 @@ static void _THERMIC_ENGINE_melee_effects(item_def* weapon, actor* attacker,
                                                random2(dam) / 2 + 1);
     if (bonus_dam > 0)
     {
-        string msg = get_variant_message(VMSG_FREEZE, attacker, defender);
-        msg = localize("%s.", LocalizationArg(msg, false));
-        mpr_nolocalize(msg);
+        do_variant_message(VMSG_FREEZE, attacker, defender, ".");
 
         defender->hurt(attacker, bonus_dam, BEAM_COLD);
         if (defender->alive())

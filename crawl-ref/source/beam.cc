@@ -3768,9 +3768,7 @@ void bolt::affect_player()
                 hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
 
             string obj = you.hp > 0 ? "you" : "your lifeless body";
-            string msg = get_variant_message(hit_msg_id, get_the_name(), obj);
-            msg = localize("%s.", LocalizationArg(msg, false));
-            mpr_nolocalize(msg);
+            do_variant_message(hit_msg_id, get_the_name(), obj, ".");
         }
 
         affect_player_enchantment();
@@ -3821,12 +3819,17 @@ void bolt::affect_player()
     if (flavour != BEAM_VISUAL && !is_enchantment())
     {
         string obj = you.hp > 0 ? "you" : "your lifeless body";
-        string msg = get_variant_message(hit_msg_id, get_the_name(), obj);
         if (final_dam)
-            msg = add_attack_strength_punct(msg, final_dam, false);
+        {
+            do_variant_message(hit_msg_id, get_the_name(), obj,
+                               attack_strength_punctuation(final_dam));
+        }
         else
+        {
+            string msg = get_variant_message(hit_msg_id, get_the_name(), obj);
             msg += localize(", but does no damage.");
-        mpr_nolocalize(msg);
+            mpr_nolocalize(msg);
+        }
     }
 
     // Now print the messages associated with checking resistances, so that
@@ -4794,10 +4797,8 @@ void bolt::affect_monster(monster* mon)
                 hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
             if (you.see_cell(mon->pos()))
             {
-                string msg = get_variant_message(hit_msg_id, get_the_name(),
-                                                 mon->name(DESC_THE));
-                msg = localize("%s.", LocalizationArg(msg, false));
-                mpr_nolocalize(msg);
+                do_variant_message(hit_msg_id, get_the_name(),
+                                   mon->name(DESC_THE), ".");
             }
             else if (heard && !hit_noise_msg.empty())
                 mprf(MSGCH_SOUND, "%s", hit_noise_msg.c_str());
@@ -4924,13 +4925,18 @@ void bolt::affect_monster(monster* mon)
         // If the beam did no damage because of resistances,
         // mons_adjust_flavoured below will print "%s completely resists", so
         // no need to also say "does no damage" here.
-        string msg = get_variant_message(hit_msg_id, get_the_name(),
-                                         mon->name(DESC_THE));
         if (postac)
+        {
+            string msg = get_variant_message(hit_msg_id, get_the_name(),
+                                             mon->name(DESC_THE));
             msg += localize(", but does no damage.");
+            mpr_nolocalize(msg);
+        }
         else
-            msg = add_attack_strength_punct(msg, final, false);
-        mpr_nolocalize(msg);
+        {
+            do_variant_message(hit_msg_id, get_the_name(), mon->name(DESC_THE),
+                               attack_strength_punctuation(final));
+        }
     }
     else if (heard && !hit_noise_msg.empty())
         mprf(MSGCH_SOUND, "%s", hit_noise_msg.c_str());
