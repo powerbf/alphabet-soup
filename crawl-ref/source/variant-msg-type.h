@@ -17,6 +17,8 @@ enum msg_variant_type
 
 enum variant_msg_type
 {
+    VMSG_NONE,
+
     // attack messages - simple
     VMSG_HIT,
     VMSG_BATTER,
@@ -33,6 +35,7 @@ enum variant_msg_type
     VMSG_MANGLE,
     VMSG_MAUL,
     VMSG_NIP_AT,
+    VMSG_PULVERISE,
     VMSG_PUMMEL,
     VMSG_PUNCH,
     VMSG_PUNCTURE,
@@ -40,6 +43,7 @@ enum variant_msg_type
     VMSG_SCRATCH,
     VMSG_SHAVE,
     VMSG_SHRED,
+    VMSG_SKEWER,
     VMSG_SLASH,
     VMSG_SLICE,
     VMSG_SMACK,
@@ -48,10 +52,8 @@ enum variant_msg_type
     VMSG_THRASH,
     VMSG_THUMP,
     VMSG_TOUCH,
+    VMSG_WEAKLY_HIT,
     VMSG_WHACK,
-
-    // for projectile only
-    VMSG_PIERCE_THROUGH,
 
     // attack messages - colourful
     VMSG_SPIT_LIKE_PIG,
@@ -69,6 +71,7 @@ enum variant_msg_type
     VMSG_OPEN_LIKE_PILLOWCASE,
     VMSG_SLICE_LIKE_RIPE_CHOKO,
     VMSG_CUT_INTO_RIBBONS,
+    VMSG_CHOP_INTO_PIECES,
     VMSG_SPLATTER_INTO_GOOEY_MESS,
     VMSG_CRUSH_LIKE_GRAPE,
     VMSG_BEAT_LIKE_DRUM,
@@ -81,4 +84,16 @@ enum variant_msg_type
     VMSG_POUND_INTO_FINE_DUST,
     VMSG_PUMMEL_LIKE_PUNCHING_BAG,
     VMSG_BEAT_INTO_BLOODY_PULP,
+
+    // elemental effects
+    VMSG_BURN,
+    VMSG_FREEZE,
+    VMSG_ELECTROCUTE,
+    VMSG_CRUSH,
+
+    // for projectile only
+    VMSG_PIERCE_THROUGH,
+
+    // for hailstorm spell
+    VMSG_PELT,
 };

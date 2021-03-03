@@ -48,6 +48,8 @@ static map<variant_msg_type, vector<string> > _messages =
         {"You maul %s", "%s mauls you", "%s mauls %s"}},
     {VMSG_NIP_AT,
         {"You nip at %s", "%s nips at you", "%s nips at %s"}},
+    {VMSG_PULVERISE,
+        {"You pulverise %s", "%s pulverises you", "%s pulverises %s"}},
     {VMSG_PUMMEL,
         {"You pummel %s", "%s pummels you", "%s pummels %s"}},
     {VMSG_PUNCH,
@@ -64,6 +66,8 @@ static map<variant_msg_type, vector<string> > _messages =
         {"You shave %s", "%s shaves you", "%s shaves %s"}},
     {VMSG_SHRED,
         {"You shred %s", "%s shreds you", "%s shreds %s"}},
+    {VMSG_SKEWER,
+        {"You skewer %s", "%s skewers you", "%s skewers %s"}},
     {VMSG_SLASH,
         {"You slash %s", "%s slashes you", "%s slashes %s"}},
     {VMSG_SLICE,
@@ -82,12 +86,10 @@ static map<variant_msg_type, vector<string> > _messages =
         {"You thump %s", "%s thumps you", "%s thumps %s"}},
     {VMSG_TOUCH,
         {"You touch %s", "%s touches you", "%s touches %s"}},
+    {VMSG_WEAKLY_HIT,
+        {"You weakly hit %s", "%s weakly hits you", "%s weakly hits %s"}},
     {VMSG_WHACK,
         {"You whack %s", "%s whacks you", "%s whacks %s"}},
-
-    // for projectile only
-    {VMSG_PIERCE_THROUGH,
-        {"", "%s pierces through you", "%s pierces through %s"}},
 
     // attack messsages - colourful
     {VMSG_SPIT_LIKE_PIG,
@@ -150,6 +152,10 @@ static map<variant_msg_type, vector<string> > _messages =
         {"You cut %s into ribbons",
          "%s cuts you into ribbons",
          "%s cuts %s into ribbons"}},
+    {VMSG_CHOP_INTO_PIECES,
+        {"You chop %s into pieces",
+         "%s chops you into pieces",
+         "%s chops %s into pieces"}},
     {VMSG_SPLATTER_INTO_GOOEY_MESS,
         {"You splatter %s into a gooey mess",
          "%s splatters you into a gooey mess",
@@ -198,6 +204,24 @@ static map<variant_msg_type, vector<string> > _messages =
         {"You beat %s into a bloody pulp",
          "%s beats you into a bloody pulp",
          "%s beats %s into a bloody pulp"}},
+
+    {VMSG_BURN,
+        {"You burn %s", "%s burns you", "%s burns %s"}},
+    {VMSG_FREEZE,
+        {"You freeze %s", "%s freezes you", "%s freezes %s"}},
+    {VMSG_ELECTROCUTE,
+        {"You electrocute %s", "%s electrocutes you", "%s electrocutes %s"}},
+    {VMSG_CRUSH,
+        {"You crush %s", "%s crushes you", "%s crushes %s"}},
+
+    // for projectile only
+    {VMSG_PIERCE_THROUGH,
+        {"", "%s pierces through you", "%s pierces through %s"}},
+
+    // for hailstorm spell
+    {VMSG_PELT,
+        {"", "%s pelts you", "%s pelts %s"}},
+
 };
 
 static string _error;
@@ -236,14 +260,18 @@ string get_variant_message(variant_msg_type msg_id,
 {
     string subj = lowercase_string(subject);
     string obj = lowercase_string(object);
-
     msg_variant_type variant;
+
     if (subj == "you") // noextract
     {
         if (obj == "you" || obj == "yourself") // noextract
+        {
             variant = MV_YOURSELF;
+        }
         else
+        {
             variant = MV_YOU_SUBJECT;
+        }
     }
     else if (obj == "you") // noextract
     {
@@ -259,7 +287,22 @@ string get_variant_message(variant_msg_type msg_id,
     }
 
     const string& temp = get_variant_template(msg_id, variant);
-    return localize(temp, subject, object);
+
+    string msg;
+    if (starts_with(temp, "ERROR"))
+        msg = temp + ", subj=\"" + subj + "\", obj=\"" + obj + "\""; // noextract
+    else if (variant == MV_YOU_SUBJECT)
+        msg = localize(temp, obj);
+    else if (variant == MV_YOU_OBJECT)
+        msg = localize(temp, subj);
+    else if (variant == MV_THIRD_PERSON)
+        msg = localize(temp, subj, obj);
+    else if (variant == MV_YOURSELF)
+        msg = localize(temp);
+    else if (variant == MV_ITSELF)
+        msg = localize(temp, subj, obj);
+
+    return msg;
 }
 
 /*
