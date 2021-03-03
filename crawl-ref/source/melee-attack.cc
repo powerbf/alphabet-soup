@@ -512,8 +512,8 @@ bool melee_attack::handle_phase_hit()
                                          attacker_visible, defender_visible);
         // i18n: I hope this will work in all langauges.
         // If not, we will have to rewrite
-        msg += localize(attacker->is_player() ? ", but do no damage."
-                                              : ", but does no damage.");
+        msg += localize(attacker->is_player() ? " but do no damage."
+                                              : " but does no damage.");
         mpr_nolocalize(msg);
     }
 
@@ -1408,7 +1408,7 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
         {
             mprf(("You " + aux_verb + " %s%s").c_str(),
                  defender->name(DESC_THE).c_str(),
-                 you.can_see(*defender)? ", but do no damage." : ".");
+                 you.can_see(*defender)? " but do no damage." : ".");
         }
     }
     else // defender was just alive, so this call should be ok?
@@ -3265,12 +3265,12 @@ void melee_attack::do_minotaur_retaliation()
                 {
                     if (attacker->is_player())
                     {
-                        mprf("%s headbutts you, but does no damage.",
+                        mprf("%s headbutts you but does no damage.",
                              defname.c_str());
                     }
                     else
                     {
-                        mprf("%s headbutts %s, but does no damage.",
+                        mprf("%s headbutts %s but does no damage.",
                              defname.c_str(),
                              attacker->name(DESC_THE).c_str());
                     }
@@ -3324,7 +3324,7 @@ void melee_attack::do_minotaur_retaliation()
         dprf(DIAG_COMBAT, "Retaliation: dmg = %d hurt = %d", dmg, hurt);
         if (hurt <= 0)
         {
-            mprf("You headbutt %s, but do no damage.",
+            mprf("You headbutt %s but do no damage.",
                  attacker->name(DESC_THE).c_str());
             return;
         }

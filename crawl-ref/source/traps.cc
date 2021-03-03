@@ -1242,7 +1242,7 @@ void trap_def::shoot_ammo(actor& act, bool trig_smart)
                      shot.name(DESC_A).c_str(),
                      act.name(DESC_THE).c_str(),
                      (damage_taken == 0 && !poison) ?
-                         ", but does no damage" : "");
+                         " but does no damage" : "");
             }
 
             if (poison)

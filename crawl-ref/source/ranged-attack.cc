@@ -285,7 +285,7 @@ bool ranged_attack::handle_phase_hit()
             string msg = get_variant_message(attack_msg_id,
                                              projectile->name(DESC_THE),
                                              defender->name(DESC_THE));
-            msg += localize(", but does no damage.");
+            msg += localize(" but does no damage.");
             mpr_nolocalize(msg);
         }
     }
