@@ -67,10 +67,9 @@ static const int EQF_AMULETS = SLOTF(EQ_AMULET) | SLOTF(EQ_RING_AMULET);
 // everything
 static const int EQF_ALL = EQF_PHYSICAL | EQF_RINGS | EQF_AMULETS;
 
-static const FormAttackVerbs DEFAULT_VERBS = FormAttackVerbs(nullptr, nullptr,
-                                                             nullptr, nullptr);
-static const FormAttackVerbs ANIMAL_VERBS = FormAttackVerbs("hit", "bite",
-                                                            "maul", "maul");
+static const FormAttackMessages DEFAULT_VERBS = FormAttackMessages(VMSG_NONE);
+static const FormAttackMessages ANIMAL_VERBS = FormAttackMessages(VMSG_HIT, VMSG_BITE,
+                                                                   VMSG_MAUL, VMSG_MAUL);
 
 static const FormDuration DEFAULT_DURATION = FormDuration(20, PS_DOUBLE, 100);
 static const FormDuration BAD_DURATION = FormDuration(15, PS_ONE_AND_A_HALF,
@@ -94,7 +93,7 @@ Form::Form(const form_entry &fe)
       blocked_slots(fe.blocked_slots), size(fe.size), hp_mod(fe.hp_mod),
       can_cast(fe.can_cast), spellcasting_penalty(fe.spellcasting_penalty),
       unarmed_hit_bonus(fe.unarmed_hit_bonus), uc_colour(fe.uc_colour),
-      uc_attack_verbs(fe.uc_attack_verbs),
+      uc_attack_msgs(fe.uc_attack_msgs),
       can_bleed(fe.can_bleed), breathes(fe.breathes),
       keeps_mutations(fe.keeps_mutations),
       shout_verb(fe.shout_verb),

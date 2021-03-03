@@ -3796,10 +3796,10 @@ Ihr versucht {acc}%s anzugreifen, zuckst aber vor Angst zurück!
 # (when you're in hydra form, you can eat monsters)
 %%%%
 You devour %s!
-Ihr frist {acc}%s auf!
+Ihr fresst {acc}%s auf!
 %%%%
 You hungrily devour %s!
-Ihr frist {acc}%s hungrig auf!
+Ihr fresst {acc}%s hungrig auf!
 %%%%
 It tastes like %s.
 Es schmeckt wie %s.

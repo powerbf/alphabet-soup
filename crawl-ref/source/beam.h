@@ -16,6 +16,7 @@
 #include "random.h"
 #include "ray.h"
 #include "spl-cast.h"
+#include "variant-msg-type.h"
 #include "zap-type.h"
 
 using std::vector;
@@ -82,7 +83,7 @@ struct bolt
                                   // or if the actor dies prematurely.
     string name = "";
     string short_name = "";
-    string hit_verb = "";         // The verb to use when this beam hits
+    variant_msg_type hit_msg_id;  // The message to use when this beam hits
                                   // something. If not set, will use
                                   // "engulfs" if an explosion or cloud
                                   // and "hits" otherwise.

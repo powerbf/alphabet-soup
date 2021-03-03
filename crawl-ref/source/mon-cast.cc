@@ -1540,7 +1540,7 @@ bolt mons_spell_beam(const monster* mons, spell_type spell_cast, int power,
 
     case SPELL_THROW_BARBS:
         zappy(spell_to_zap(real_spell), power, true, beam);
-        beam.hit_verb    = "skewers";
+        beam.hit_msg_id = VMSG_SKEWER;
         break;
 
     case SPELL_DEATH_RATTLE:
@@ -5221,7 +5221,7 @@ static void _mons_upheaval(monster& mons, actor& /*foe*/)
             beam.name     = "blast of magma";
             beam.flavour  = BEAM_LAVA;
             beam.colour   = RED;
-            beam.hit_verb = "engulfs";
+            beam.hit_msg_id = VMSG_ENGULF;
             message       = "Magma suddenly erupts from the ground!";
             break;
         case 1:

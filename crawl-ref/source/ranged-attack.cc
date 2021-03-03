@@ -24,6 +24,7 @@
 #include "teleport.h"
 #include "throw.h"
 #include "traps.h"
+#include "variant-msg.h"
 
 ranged_attack::ranged_attack(actor *attk, actor *defn, item_def *proj,
                              bool tele, actor *blame)
@@ -281,10 +282,11 @@ bool ranged_attack::handle_phase_hit()
         }
         else if (needs_message)
         {
-            mprf("%s %s %s but does no damage.",
-                 projectile->name(DESC_THE).c_str(),
-                 attack_verb.c_str(),
-                 defender->name(DESC_THE).c_str());
+            string msg = get_variant_message(attack_msg_id,
+                                             projectile->name(DESC_THE),
+                                             defender->name(DESC_THE));
+            msg += localize(", but does no damage.");
+            mpr_nolocalize(msg);
         }
     }
 
@@ -744,7 +746,10 @@ bool ranged_attack::player_good_stab()
 
 void ranged_attack::set_attack_verb(int/* damage*/)
 {
-    attack_verb = is_penetrating_attack(*attacker, weapon, *projectile) ? "pierces through" : "hits";
+    if (is_penetrating_attack(*attacker, weapon, *projectile))
+        attack_msg_id = VMSG_PIERCE_THROUGH;
+    else
+        attack_msg_id = VMSG_HIT;
 }
 
 void ranged_attack::announce_hit()
@@ -752,10 +757,8 @@ void ranged_attack::announce_hit()
     if (!needs_message)
         return;
 
-    mprf("%s %s %s%s%s",
-         projectile->name(DESC_THE).c_str(),
-         attack_verb.c_str(),
-         defender_name(false).c_str(),
-         debug_damage_number().c_str(),
-         attack_strength_punctuation(damage_done).c_str());
+    string msg = get_variant_message(attack_msg_id, projectile->name(DESC_THE),
+                                     defender_name(false));
+    msg += debug_damage_number();
+    attack_strength_message(msg, damage_done, false);
 }

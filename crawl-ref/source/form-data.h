@@ -38,7 +38,7 @@ struct form_entry
     brand_type uc_brand;
     int uc_colour;
     const char *uc_attack;
-    FormAttackVerbs uc_attack_verbs;
+    FormAttackMessages uc_attack_msgs;
 
     // Row 7
     form_capability can_fly;
@@ -83,7 +83,7 @@ static const form_entry formdata[] =
     EQF_HANDS, MR_NO_FLAGS,
     FormDuration(10, PS_SINGLE, 100), 0, 0, SIZE_CHARACTER, 10,
     0, 0, 0, true, 20, true, 22,
-    SPWPN_NORMAL, RED, "", { "hit", "slash", "slice", "shred" },
+    SPWPN_NORMAL, RED, "", { VMSG_HIT, VMSG_SLASH, VMSG_SLICE, VMSG_SHRED },
     FC_DEFAULT, FC_DEFAULT, FC_DEFAULT, true, true,
     "", 0, "scythe-like blade", "", "", ""
 },
@@ -114,7 +114,7 @@ static const form_entry formdata[] =
     EQF_PHYSICAL, MR_RES_POISON,
     DEFAULT_DURATION, 10, 0, SIZE_GIANT, 15,
     16, 0, 0, true, 0, true, 32,
-    SPWPN_NORMAL, GREEN, "Teeth and claws", { "hit", "claw", "bite", "maul" },
+    SPWPN_NORMAL, GREEN, "Teeth and claws", { VMSG_HIT, VMSG_CLAW, VMSG_BITE, VMSG_MAUL },
     FC_ENABLE, FC_FORBID, FC_ENABLE, true, false,
     "roar", 6, "foreclaw", "", "bow your head before", "flesh"
 },
@@ -169,7 +169,8 @@ static const form_entry formdata[] =
     EQF_LEAR | SLOTF(EQ_CLOAK), MR_RES_POISON | mrd(MR_RES_NEG, 3),
     BAD_DURATION, 0, 0, SIZE_CHARACTER, 15,
     20, 0, 50, true, 0, true, 12,
-    SPWPN_NORMAL, BROWN, "Branches", { "hit", "smack", "pummel", "thrash" },
+    SPWPN_NORMAL, BROWN, "Branches", { VMSG_HIT, VMSG_SMACK,
+                                       VMSG_PUMMEL, VMSG_THRASH },
     FC_FORBID, FC_FORBID, FC_FORBID, false, false,
     "creak", 0, "branch", "root", "sway towards", "wood"
 },
@@ -195,8 +196,8 @@ static const form_entry formdata[] =
              | MR_RES_PETRIFY,
     BAD_DURATION, 0, 0, SIZE_TINY, 10,
     5, 0, 50, false, 0, true, 5,
-    SPWPN_NORMAL, LIGHTGREY, "Misty tendrils", { "touch", "touch",
-                                                 "engulf", "engulf" },
+    SPWPN_NORMAL, LIGHTGREY, "Misty tendrils", { VMSG_TOUCH, VMSG_TOUCH,
+                                                 VMSG_ENGULF, VMSG_ENGULF },
     FC_ENABLE, FC_FORBID, FC_FORBID, false, false,
     "whoosh", -8, "misty tendril", "strand", "swirl around", "vapour"
 },
@@ -220,7 +221,7 @@ static const form_entry formdata[] =
     EQF_PHYSICAL, MR_RES_POISON | mrd(MR_RES_NEG, 3),
     BAD_DURATION, 0, 0, SIZE_TINY, 10,
     12, 0, 0, false, 0, true, 12,
-    SPWPN_CONFUSE, BROWN, "Spores", FormAttackVerbs("release spores at"),
+    SPWPN_CONFUSE, BROWN, "Spores", FormAttackMessages(VMSG_RELEASE_SPORES_AT),
     FC_DEFAULT, FC_FORBID, FC_FORBID, false, false,
     "sporulate", -8, "hypha", "", "release spores on", "flesh"
 },
@@ -243,7 +244,7 @@ static const form_entry formdata[] =
     EQF_PHYSICAL, MR_RES_POISON,
     DEFAULT_DURATION, 0, 0, SIZE_BIG, 13,
     6, 5, 0, true, 0, true, -1,
-    SPWPN_NORMAL, GREEN, "", { "nip at", "bite", "gouge", "chomp" },
+    SPWPN_NORMAL, GREEN, "", { VMSG_NIP_AT, VMSG_BITE, VMSG_GOUGE, VMSG_CHOMP },
     FC_DEFAULT, FC_ENABLE, FC_ENABLE, true, false,
     "roar", 4, "foreclaw", "", "bow your heads before", "flesh"
 }

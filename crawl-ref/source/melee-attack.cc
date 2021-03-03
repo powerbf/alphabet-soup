@@ -47,6 +47,7 @@
 #include "transform.h"
 #include "traps.h"
 #include "unwind.h"
+#include "variant-msg.h"
 #include "view.h"
 #include "xom.h"
 
@@ -507,18 +508,12 @@ bool melee_attack::handle_phase_hit()
     }
     else if (needs_message)
     {
-        if (attacker->is_player())
-        {
-            mprf(("You " + attack_verb + " %s%s").c_str(),
-                 defender_name(true).c_str(), ", but do no damage.");
-        }
-        else
-        {
-            string verb  = attacker->conj_verb(mons_attack_verb());
-            mprf(("%s " + verb + " %s%s").c_str(),
-                 attacker->name(DESC_THE).c_str(),
-                 defender_name(true).c_str(), ", but does no damage.");
-        }
+        string msg = get_variant_message(attack_msg_id, attacker, defender,
+                                         attacker_visible, defender_visible);
+        // i18n: I hope this will work in all langauges.
+        // If not, we will have to rewrite
+        msg += localize(", but do no damage.");
+        mpr_nolocalize(msg);
     }
 
     // Check for weapon brand & inflict that damage too
@@ -1548,9 +1543,9 @@ void melee_attack::set_attack_verb(int damage)
         && weap_type != WPN_UNARMED)
     {
         if (weap_type != WPN_UNKNOWN)
-            attack_verb = "hit";
+            attack_msg_id = VMSG_HIT;
         else
-            attack_verb = "clumsily bash";
+            attack_msg_id = VMSG_CLUMSILY_BASH;
         return;
     }
 
@@ -1562,212 +1557,190 @@ void melee_attack::set_attack_verb(int damage)
     {
     case DAM_PIERCE:
         if (damage < HIT_MED)
-            attack_verb = "puncture";
+            attack_msg_id = VMSG_PUNCTURE;
         else if (damage < HIT_STRONG)
-            attack_verb = "impale";
+            attack_msg_id = VMSG_IMPALE;
         else
         {
             if (defender->is_monster()
                 && defender_visible
                 && defender_genus == MONS_HOG)
             {
-                attack_verb = "spit";
-                verb_degree = "like the proverbial pig";
+                attack_msg_id = VMSG_SPIT_LIKE_PROVERBIAL_PIG;
             }
             else if (defender_genus == MONS_CRAB
                      && Options.has_fake_lang(flang_t::grunt))
             {
-                attack_verb = "attack";
-                verb_degree = "'s weak point";
+                attack_msg_id = VMSG_ATTACK_WEAK_POINT;
             }
             else
             {
-                static const char * const pierce_desc[][2] =
+                switch(random2(4))
                 {
-                    {"spit", "like a pig"},
-                    {"skewer", "like a kebab"},
-                    {"stick", "like a pincushion"},
-                    {"perforate", "like a sieve"}
-                };
-                const int choice = random2(ARRAYSZ(pierce_desc));
-                attack_verb = pierce_desc[choice][0];
-                verb_degree = pierce_desc[choice][1];
+                    case 0: attack_msg_id = VMSG_SPIT_LIKE_PIG; break;
+                    case 1: attack_msg_id = VMSG_SKEWER_LIKE_KEBAB; break;
+                    case 2: attack_msg_id = VMSG_STICK_LIKE_PINCUSHION; break;
+                    default: attack_msg_id = VMSG_PERFORATE_LIKE_SIEVE; break;
+                }
             }
         }
         break;
 
     case DAM_SLICE:
         if (damage < HIT_MED)
-            attack_verb = "slash";
+            attack_msg_id = VMSG_SLASH;
         else if (damage < HIT_STRONG)
-            attack_verb = "slice";
+            attack_msg_id = VMSG_SLICE;
         else if (defender_genus == MONS_OGRE)
         {
-            attack_verb = "dice";
-            verb_degree = "like an onion";
+            attack_msg_id = VMSG_DICE_LIKE_ONION;
         }
         else if (defender_genus == MONS_SKELETON)
         {
-            attack_verb = "fracture";
-            verb_degree = "into splinters";
+            attack_msg_id = VMSG_FRACTURE_INTO_SPLINTERS;
         }
         else if (defender_genus == MONS_HOG)
         {
-            attack_verb = "carve";
-            verb_degree = "like the proverbial ham";
+            attack_msg_id = VMSG_CARVE_LIKE_PROVERBIAL_HAM;
         }
         else if ((defender_genus == MONS_TENGU
                   || get_mon_shape(defender_genus) == MON_SHAPE_BIRD)
                  && one_chance_in(3))
         {
-            attack_verb = "carve";
-            verb_degree = "like a turkey";
+            attack_msg_id = VMSG_CARVE_LIKE_TURKEY;
         }
         else if ((defender_genus == MONS_YAK || defender_genus == MONS_YAKTAUR)
                  && Options.has_fake_lang(flang_t::grunt))
         {
-            attack_verb = "shave";
+            attack_msg_id = VMSG_SHAVE;
         }
         else
         {
-            static const char * const slice_desc[][2] =
+            switch(random2(5))
             {
-                {"open",    "like a pillowcase"},
-                {"slice",   "like a ripe choko"},
-                {"cut",     "into ribbons"},
-                {"carve",   "like a ham"},
-                {"chop",    "into pieces"}
-            };
-            const int choice = random2(ARRAYSZ(slice_desc));
-            attack_verb = slice_desc[choice][0];
-            verb_degree = slice_desc[choice][1];
+                case 0: attack_msg_id = VMSG_OPEN_LIKE_PILLOWCASE; break;
+                case 1: attack_msg_id = VMSG_SLICE_LIKE_RIPE_CHOKO; break;
+                case 2: attack_msg_id = VMSG_CUT_INTO_RIBBONS; break;
+                case 3: attack_msg_id = VMSG_CARVE_LIKE_HAM; break;
+                default: attack_msg_id = VMSG_CHOP_INTO_PIECES; break;
+            }
         }
         break;
 
     case DAM_BLUDGEON:
         if (damage < HIT_MED)
-            attack_verb = one_chance_in(4) ? "thump" : "sock";
+            attack_msg_id = one_chance_in(4) ? VMSG_THUMP : VMSG_SOCK;
         else if (damage < HIT_STRONG)
-            attack_verb = "bludgeon";
+            attack_msg_id = VMSG_BLUDGEON;
         else if (defender_genus == MONS_SKELETON)
         {
-            attack_verb = "shatter";
-            verb_degree = "into splinters";
+            attack_msg_id = VMSG_SHATTER_INTO_SPLINTERS;
         }
         else if (defender->type == MONS_GREAT_ORB_OF_EYES)
         {
-            attack_verb = "splatter";
-            verb_degree = "into a gooey mess";
+            attack_msg_id = VMSG_SPLATTER_INTO_GOOEY_MESS;
         }
         else
         {
-            static const char * const bludgeon_desc[][2] =
+            switch(random2(5))
             {
-                {"crush",   "like a grape"},
-                {"beat",    "like a drum"},
-                {"hammer",  "like a gong"},
-                {"pound",   "like an anvil"},
-                {"flatten", "like a pancake"}
-            };
-            const int choice = random2(ARRAYSZ(bludgeon_desc));
-            attack_verb = bludgeon_desc[choice][0];
-            verb_degree = bludgeon_desc[choice][1];
+                case 0: attack_msg_id = VMSG_CRUSH_LIKE_GRAPE; break;
+                case 1: attack_msg_id = VMSG_BEAT_LIKE_DRUM; break;
+                case 2: attack_msg_id = VMSG_HAMMER_LIKE_GONG; break;
+                case 3: attack_msg_id = VMSG_POUND_LIKE_ANVIL; break;
+                default: attack_msg_id = VMSG_FLATTEN_LIKE_PANCAKE; break;
+            }
         }
         break;
 
     case DAM_WHIP:
         if (damage < HIT_MED)
-            attack_verb = "whack";
+            attack_msg_id = VMSG_WHACK;
         else if (damage < HIT_STRONG)
-            attack_verb = "thrash";
+            attack_msg_id = VMSG_THRASH;
         else
         {
             if (defender->holiness() & (MH_HOLY | MH_NATURAL | MH_DEMONIC))
             {
-                attack_verb = "punish";
-                verb_degree = ", causing immense pain";
+                attack_msg_id = VMSG_PUNISH_CAUSING_IMMENSE_PAIN;
                 break;
             }
             else
-                attack_verb = "devastate";
+                attack_msg_id = VMSG_DEVASTATE;
         }
         break;
 
     case -1: // unarmed
     {
-        const FormAttackVerbs verbs = get_form(you.form)->uc_attack_verbs;
-        if (verbs.weak != nullptr)
+        const FormAttackMessages msgs = get_form(you.form)->uc_attack_msgs;
+        if (msgs.weak != VMSG_NONE)
         {
             if (damage < HIT_WEAK)
-                attack_verb = verbs.weak;
+                attack_msg_id = msgs.weak;
             else if (damage < HIT_MED)
-                attack_verb = verbs.medium;
+                attack_msg_id = msgs.medium;
             else if (damage < HIT_STRONG)
-                attack_verb = verbs.strong;
+                attack_msg_id = msgs.strong;
             else
-                attack_verb = verbs.devastating;
+                attack_msg_id = msgs.devastating;
             break;
         }
 
         if (you.damage_type() == DVORP_CLAWING)
         {
             if (damage < HIT_WEAK)
-                attack_verb = "scratch";
+                attack_msg_id = VMSG_SCRATCH;
             else if (damage < HIT_MED)
-                attack_verb = "claw";
+                attack_msg_id = VMSG_CLAW;
             else if (damage < HIT_STRONG)
-                attack_verb = "mangle";
+                attack_msg_id = VMSG_MANGLE;
             else
-                attack_verb = "eviscerate";
+                attack_msg_id = VMSG_EVISCERATE;
         }
         else if (you.damage_type() == DVORP_TENTACLE)
         {
             if (damage < HIT_WEAK)
-                attack_verb = "tentacle-slap";
+                attack_msg_id = VMSG_TENTACLE_SLAP;
             else if (damage < HIT_MED)
-                attack_verb = "bludgeon";
+                attack_msg_id = VMSG_BLUDGEON;
             else if (damage < HIT_STRONG)
-                attack_verb = "batter";
+                attack_msg_id = VMSG_BATTER;
             else
-                attack_verb = "thrash";
+                attack_msg_id = VMSG_THRASH;
         }
         else
         {
             if (damage < HIT_WEAK)
-                attack_verb = "hit";
+                attack_msg_id = VMSG_HIT;
             else if (damage < HIT_MED)
-                attack_verb = "punch";
+                attack_msg_id = VMSG_PUNCH;
             else if (damage < HIT_STRONG)
-                attack_verb = "pummel";
+                attack_msg_id = VMSG_PUMMEL;
             else if (defender->is_monster()
                      && (mons_genus(defender->type) == MONS_WORKER_ANT
                          || mons_genus(defender->type) == MONS_FORMICID))
             {
-                attack_verb = "squash";
-                verb_degree = "like the proverbial ant";
+                attack_msg_id = VMSG_SQUASH_LIKE_PROVERBIAL_ANT;
             }
             else
             {
-                static const char * const punch_desc[][2] =
-                {
-                    {"pound",     "into fine dust"},
-                    {"pummel",    "like a punching bag"},
-                    {"pulverise", ""},
-                    {"squash",    "like an ant"}
-                };
-                const int choice = random2(ARRAYSZ(punch_desc));
+                const int choice = random2(4);
                 // XXX: could this distinction work better?
                 if (choice == 0
                     && defender->is_monster()
                     && mons_has_blood(defender->type))
                 {
-                    attack_verb = "beat";
-                    verb_degree = "into a bloody pulp";
+                    attack_msg_id = VMSG_BEAT_INTO_BLOODY_PULP;
                 }
                 else
                 {
-                    attack_verb = punch_desc[choice][0];
-                    verb_degree = punch_desc[choice][1];
+                    switch(choice)
+                    {
+                        case 0: attack_msg_id = VMSG_POUND_INTO_FINE_DUST; break;
+                        case 1: attack_msg_id = VMSG_PUMMEL_LIKE_PUNCHING_BAG; break;
+                        case 2: attack_msg_id = VMSG_PULVERISE; break;
+                        default: attack_msg_id = VMSG_SQUASH_LIKE_ANT; break;
+                    }
                 }
             }
         }
@@ -1776,7 +1749,7 @@ void melee_attack::set_attack_verb(int damage)
 
     case WPN_UNKNOWN:
     default:
-        attack_verb = "hit";
+        attack_msg_id = VMSG_HIT;
         break;
     }
 }
@@ -2460,13 +2433,10 @@ void melee_attack::announce_hit()
     }
     else
     {
-        if (!verb_degree.empty() && verb_degree[0] != ' '
-            && verb_degree[0] != ',' && verb_degree[0] != '\'')
-        {
-            verb_degree = " " + verb_degree;
-        }
 
-        string msg = "You " + attack_verb + " %s" + verb_degree + debug_damage_number();
+        string msg = get_variant_message(attack_msg_id, attacker, defender,
+                                         attacker_visible, defender_visible);
+        msg += debug_damage_number();
         msg = localize(msg, defender->name(DESC_THE));
         attack_strength_message(msg, damage_done, false);
     }
