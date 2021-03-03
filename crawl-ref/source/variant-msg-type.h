@@ -91,6 +91,11 @@ enum variant_msg_type
     VMSG_ELECTROCUTE,
     VMSG_CRUSH,
 
+    VMSG_SHATTER,
+    VMSG_ENVENOM,
+    VMSG_DRAIN,
+    VMSG_BLAST,
+
     // for projectile only
     VMSG_PIERCE_THROUGH,
 

@@ -205,15 +205,6 @@ static map<variant_msg_type, vector<string> > _messages =
          "%s beats you into a bloody pulp",
          "%s beats %s into a bloody pulp"}},
 
-    {VMSG_BURN,
-        {"You burn %s", "%s burns you", "%s burns %s"}},
-    {VMSG_FREEZE,
-        {"You freeze %s", "%s freezes you", "%s freezes %s"}},
-    {VMSG_ELECTROCUTE,
-        {"You electrocute %s", "%s electrocutes you", "%s electrocutes %s"}},
-    {VMSG_CRUSH,
-        {"You crush %s", "%s crushes you", "%s crushes %s"}},
-
     // for projectile only
     {VMSG_PIERCE_THROUGH,
         {"", "%s pierces through you", "%s pierces through %s"}},
@@ -221,6 +212,29 @@ static map<variant_msg_type, vector<string> > _messages =
     // for hailstorm spell
     {VMSG_PELT,
         {"", "%s pelts you", "%s pelts %s"}},
+
+    // elemental damage - reflexive needed because of beams/spells
+    {VMSG_BURN,
+        {"You burn %s", "%s burns you", "%s burns %s",
+         "You burn yourself", "%s is burnt"}},
+    {VMSG_FREEZE,
+        {"You freeze %s", "%s freezes you", "%s freezes %s",
+         "You freeze yourself", "%s is frozen"}},
+    {VMSG_ELECTROCUTE,
+        {"You electrocute %s", "%s electrocutes you", "%s electrocutes %s",
+         "You electrocute yourself", "%s is electrocuted"}},
+    {VMSG_CRUSH,
+        {"You crush %s", "%s crushes you", "%s crushes %s",
+         "You crush yourself", "%s is crushed"}},
+
+    {VMSG_SHATTER,
+        {"You shatter %s", "%s shatters you", "%s shatters %s"}},
+    {VMSG_ENVENOM,
+        {"You envenom %s", "%s envenoms you", "%s envenoms %s"}},
+    {VMSG_DRAIN,
+        {"You drain %s", "%s drains you", "%s drains %s"}},
+    {VMSG_BLAST,
+        {"You blast %s", "%s blasts you", "%s blasts %s"}},
 
 };
 

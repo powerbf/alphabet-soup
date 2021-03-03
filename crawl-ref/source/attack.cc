@@ -43,6 +43,7 @@
 #include "stringutil.h"
 #include "tag-version.h"
 #include "transform.h"
+#include "variant-msg.h"
 #include "xom.h"
 
 /*
@@ -846,12 +847,8 @@ void attack::drain_defender()
             obvious_effect = true;
         else if (defender_visible)
         {
-            string msg = get_actor_message(attacker, attacker_visible,
-                                           defender, defender_visible,
-                                           "You drain %s",
-                                           "%s drains you",
-                                           "%s drains %s");
-
+            string msg = get_variant_message(VMSG_DRAIN, attacker, defender,
+                                             attacker_visible, defender_visible);
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
         }
