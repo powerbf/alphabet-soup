@@ -3784,13 +3784,13 @@ Ihr versucht {acc}%s anzugreifen, zuckst aber vor Angst zurück!
 %%%%
 # melee_attack::handle_phase_hit()
 # (most hit messages handled under attack_phase_damaged())
-# (You hit in some way), but do no damage.
+# (You hit in some way) but do no damage.
 %%%%
-, but do no damage.
-, fügst aber keinen Schaden zu.
+" but do no damage."
+", fügt aber keinen Schaden zu."
 %%%%
-, but does no damage.
-, fügt aber keinen Schaden zu.
+" but does no damage."
+", fügt aber keinen Schaden zu."
 %%%%
 # _hydra_devour()
 # (when you're in hydra form, you can eat monsters)
@@ -4698,10 +4698,10 @@ Ihr stößt eine Wolke stinkenden Miasmas aus!
 %s furiously retaliates!
 %s rächst sich wütend!
 %%%%
-%s headbutts you, but does no damage.
+%s headbutts you but does no damage.
 %s versetzt Euch einen Kopfstoß, fügt aber keinen Schaden zu.
 %%%%
-%s headbutts %s, but does no damage.
+%s headbutts %s but does no damage.
 %s versetzt {dat}%s einen Kopfstoß, fügt aber keinen Schaden zu.
 %%%%
 # "%s headbutts..." covered elsewhere
@@ -4709,7 +4709,7 @@ Ihr stößt eine Wolke stinkenden Miasmas aus!
 You furiously retaliate!
 Ihr rächt Euch wütend!
 %%%%
-You headbutt %s, but do no damage.
+You headbutt %s but do no damage.
 Ihr versetzt {dat}%s einen Kopfstoß, fügt aber keinen Schaden zu.
 %%%%
 # "You headbutt %s%s" covered elsewhere

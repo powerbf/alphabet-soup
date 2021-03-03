@@ -3827,7 +3827,7 @@ void bolt::affect_player()
         else
         {
             string msg = get_variant_message(hit_msg_id, get_the_name(), obj);
-            msg += localize(", but does no damage.");
+            msg += localize(" but does no damage.");
             mpr_nolocalize(msg);
         }
     }
@@ -4929,7 +4929,7 @@ void bolt::affect_monster(monster* mon)
         {
             string msg = get_variant_message(hit_msg_id, get_the_name(),
                                              mon->name(DESC_THE));
-            msg += localize(", but does no damage.");
+            msg += localize(" but does no damage.");
             mpr_nolocalize(msg);
         }
         else

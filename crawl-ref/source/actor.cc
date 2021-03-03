@@ -757,7 +757,7 @@ void actor::constriction_damage_defender(actor &defender, int duration)
     if (damage <= 0 && is_player()
         && you.can_see(defender))
     {
-        but = ", but do no damage.";
+        but = " but do no damage.";
     }
 
     if (is_player() || you.can_see(*this))
