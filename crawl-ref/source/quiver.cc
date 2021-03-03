@@ -337,9 +337,21 @@ namespace quiver
 
             if (!weapon)
             {
-                const auto form_verbs = get_form(you.form)->uc_attack_verbs;
-                if (form_verbs.medium) // we use med because it mostly has better flavor
-                    return form_verbs.medium;
+                const auto form_msgs = get_form(you.form)->uc_attack_msgs;
+                if (form_msgs.medium != VMSG_NONE) // we use med because it mostly has better flavor
+                {
+                    switch (form_msgs.medium)
+                    {
+                        case VMSG_BITE: return "bite";
+                        case VMSG_CLAW: return "claw";
+                        case VMSG_TOUCH: return "touch";
+                        case VMSG_ENGULF: return "engulf";
+                        case VMSG_RELEASE_SPORES_AT: return "release spores";
+                        case VMSG_SLASH: return "slash";
+                        case VMSG_SMACK: return "smack";
+                        default: return "hit";
+                    }
+                }
                 else
                 {
                     // this is actually a bitmask, but we will simplify quite a

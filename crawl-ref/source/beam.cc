@@ -80,6 +80,7 @@
 #include "tiles-build-specific.h"
 #include "transform.h"
 #include "traps.h"
+#include "variant-msg.h"
 #include "viewchar.h"
 #include "view.h"
 #include "xom.h"
@@ -855,9 +856,9 @@ void bolt::fake_flavour()
     else if (real_flavour == BEAM_CRYSTAL && flavour == BEAM_CRYSTAL)
     {
         flavour = random_choose(BEAM_FIRE, BEAM_COLD);
-        hit_verb = (flavour == BEAM_FIRE) ? "burns" :
-                   (flavour == BEAM_COLD) ? "freezes"
-                                          : "bugs";
+        hit_msg_id = (flavour == BEAM_FIRE) ? VMSG_BURN :
+                     (flavour == BEAM_COLD) ? VMSG_FREEZE
+                                          : VMSG_NONE;
     }
 }
 
@@ -3740,9 +3741,9 @@ void bolt::affect_player()
         ranged_attack attk(agent(true), &you, item, use_target_as_pos, agent());
         attk.attack();
         // fsim purposes - throw_it detects if an attack connected through
-        // hit_verb
-        if (attk.ev_margin >= 0 && hit_verb.empty())
-            hit_verb = attk.attack_verb;
+        // hit message
+        if (attk.ev_margin >= 0 && hit_msg_id == VMSG_NONE)
+            hit_msg_id = attk.attack_msg_id;
         if (attk.reflected)
             reflect();
         extra_range_used += attk.range_used;
@@ -3763,10 +3764,13 @@ void bolt::affect_player()
     {
         if (real_flavour == BEAM_CHAOS || real_flavour == BEAM_RANDOM)
         {
-            if (hit_verb.empty())
-                hit_verb = engulfs ? "engulfs" : "hits";
-            mprf("The %s %s %s!", name.c_str(), hit_verb.c_str(),
-                you.hp > 0 ? "you" : "your lifeless body");
+            if (hit_msg_id == VMSG_NONE)
+                hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
+
+            string obj = you.hp > 0 ? "you" : "your lifeless body";
+            string msg = get_variant_message(hit_msg_id, get_the_name(), obj);
+            msg = localize("%s.", LocalizationArg(msg, false));
+            mpr_nolocalize(msg);
         }
 
         affect_player_enchantment();
@@ -3811,15 +3815,18 @@ void bolt::affect_player()
     int final_dam = check_your_resists(pre_res_dam, flavour, "", this, false);
 
     // Tell the player the beam hit
-    if (hit_verb.empty())
-        hit_verb = engulfs ? "engulfs" : "hits";
+    if (hit_msg_id == VMSG_NONE)
+        hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
 
     if (flavour != BEAM_VISUAL && !is_enchantment())
     {
-        mprf("The %s %s %s%s%s", name.c_str(), hit_verb.c_str(),
-             you.hp > 0 ? "you" : "your lifeless body",
-             final_dam ? "" : " but does no damage",
-             attack_strength_punctuation(final_dam).c_str());
+        string obj = you.hp > 0 ? "you" : "your lifeless body";
+        string msg = get_variant_message(hit_msg_id, get_the_name(), obj);
+        if (final_dam)
+            msg = add_attack_strength_punct(msg, final_dam, false);
+        else
+            msg += localize(", but does no damage.");
+        mpr_nolocalize(msg);
     }
 
     // Now print the messages associated with checking resistances, so that
@@ -4767,9 +4774,9 @@ void bolt::affect_monster(monster* mon)
         ranged_attack attk(ag, mon, item, use_target_as_pos, agent());
         attk.attack();
         // fsim purposes - throw_it detects if an attack connected through
-        // hit_verb
-        if (attk.ev_margin >= 0 && hit_verb.empty())
-            hit_verb = attk.attack_verb;
+        // hit message
+        if (attk.ev_margin >= 0 && hit_msg_id == VMSG_NONE)
+            hit_msg_id = attk.attack_msg_id;
         if (attk.reflected)
             reflect();
         extra_range_used += attk.range_used;
@@ -4783,12 +4790,14 @@ void bolt::affect_monster(monster* mon)
     {
         if (real_flavour == BEAM_CHAOS || real_flavour == BEAM_RANDOM)
         {
-            if (hit_verb.empty())
-                hit_verb = engulfs ? "engulfs" : "hits";
+            if (hit_msg_id == VMSG_NONE)
+                hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
             if (you.see_cell(mon->pos()))
             {
-                mprf("The %s %s %s.", name.c_str(), hit_verb.c_str(),
-                     mon->name(DESC_THE).c_str());
+                string msg = get_variant_message(hit_msg_id, get_the_name(),
+                                                 mon->name(DESC_THE));
+                msg = localize("%s.", LocalizationArg(msg, false));
+                mpr_nolocalize(msg);
             }
             else if (heard && !hit_noise_msg.empty())
                 mprf(MSGCH_SOUND, "%s", hit_noise_msg.c_str());
@@ -4909,19 +4918,19 @@ void bolt::affect_monster(monster* mon)
     if (you.see_cell(mon->pos()))
     {
         // Monsters are never currently helpless in ranged combat.
-        if (hit_verb.empty())
-            hit_verb = engulfs ? "engulfs" : "hits";
+        if (hit_msg_id == VMSG_NONE)
+            hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
 
         // If the beam did no damage because of resistances,
         // mons_adjust_flavoured below will print "%s completely resists", so
         // no need to also say "does no damage" here.
-        mprf("The %s %s %s%s%s",
-             name.c_str(),
-             hit_verb.c_str(),
-             mon->name(DESC_THE).c_str(),
-             postac ? "" : " but does no damage",
-             attack_strength_punctuation(final).c_str());
-
+        string msg = get_variant_message(hit_msg_id, get_the_name(),
+                                         mon->name(DESC_THE));
+        if (postac)
+            msg += localize(", but does no damage.");
+        else
+            msg = add_attack_strength_punct(msg, final, false);
+        mpr_nolocalize(msg);
     }
     else if (heard && !hit_noise_msg.empty())
         mprf(MSGCH_SOUND, "%s", hit_noise_msg.c_str());

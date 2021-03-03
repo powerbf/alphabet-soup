@@ -9,6 +9,7 @@
 
 #include "enum.h"
 #include "player.h"
+#include "variant-msg-type.h"
 
 #define HYDRA_FORM_HEADS_KEY "hydra_form_heads"
 #define MAX_HYDRA_HEADS 20
@@ -23,24 +24,28 @@ enum form_capability
     FC_FORBID
 };
 
-class FormAttackVerbs
+class FormAttackMessages
 {
 public:
-    FormAttackVerbs(const char *_weak, const char *_medium,
-                    const char *_strong, const char *_devastating)
+    FormAttackMessages(
+        variant_msg_type _weak,
+        variant_msg_type _medium,
+        variant_msg_type _strong,
+        variant_msg_type _devastating
+    )
         : weak(_weak), medium(_medium), strong(_strong),
           devastating(_devastating)
     { }
 
-    FormAttackVerbs(const char *msg)
+    FormAttackMessages(variant_msg_type msg)
         : weak(msg), medium(msg), strong(msg), devastating(msg)
     { }
 
 public:
-    const char * const weak;
-    const char * const medium;
-    const char * const strong;
-    const char * const devastating;
+    const variant_msg_type weak;
+    const variant_msg_type medium;
+    const variant_msg_type strong;
+    const variant_msg_type devastating;
 };
 
 enum duration_power_scaling
@@ -186,7 +191,7 @@ public:
     /// colour of 'weapon' in UI
     const int uc_colour;
     /// a set of verbs to use based on damage done, when using UC in this form
-    const FormAttackVerbs uc_attack_verbs;
+    const FormAttackMessages uc_attack_msgs;
 
     /// has blood (used for sublimation and bloodsplatters)
     const form_capability can_bleed;
