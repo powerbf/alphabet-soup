@@ -38,7 +38,6 @@
 #include "localize.h"
 #include "mgen-data.h"     // For Sceptre of Asmodeus evoke
 #include "message.h"
-#include "message-util.h"
 #include "monster.h"
 #include "mon-death.h"     // For demon axe's SAME_ATTITUDE
 #include "mon-place.h"     // For Sceptre of Asmodeus evoke
@@ -55,6 +54,7 @@
 #include "spl-summoning.h" // For Zonguldrok animating dead
 #include "tag-version.h"
 #include "terrain.h"       // For storm bow
+#include "variant-msg.h"
 #include "view.h"          // For arc blade's discharge effect
 
 // prop recording whether the singing sword has said hello yet
@@ -327,10 +327,7 @@ static void _OLGREB_melee_effects(item_def* /*weapon*/, actor* attacker,
 
     if (!mondied && bonus_dam)
     {
-        string msg = get_actor_message(attacker, true, defender, true,
-                                       "You envenom %s", "%s envenoms you",
-                                       "%s envenoms %s");
-
+        string msg = get_variant_message(VMSG_ENVENOM, attacker, defender);
         attack_strength_message(msg, bonus_dam, false);
 
         defender->hurt(attacker, bonus_dam);
@@ -1062,31 +1059,19 @@ static void _ELEMENTAL_STAFF_melee_effects(item_def*, actor* attacker,
     string msg;
     if (flavour == BEAM_FIRE)
     {
-        msg = get_actor_message(attacker, true, defender, true,
-                                "You burn %s", "%s burns you", "%s burns %s",
-                                "You burn yourself", "%s is burned");
+        msg = get_variant_message(VMSG_BURN, attacker, defender);
     }
     else if (flavour == BEAM_COLD)
     {
-        msg = get_actor_message(attacker, true, defender, true,
-                                "You freeze %s", "%s freezes you",
-                                "%s freezes %s",
-                                "You freeze yourself", "%s is frozen");
+        msg = get_variant_message(VMSG_FREEZE, attacker, defender);
     }
     else if (flavour == BEAM_ELECTRICITY)
     {
-        msg = get_actor_message(attacker, true, defender, true,
-                                "You electrocute %s", "%s electrocutes you",
-                                "%s electrocutes %s",
-                                "You electrocute yourself",
-                                "%s is electrocuted");
+        msg = get_variant_message(VMSG_ELECTROCUTE, attacker, defender);
     }
     else
     {
-        msg = get_actor_message(attacker, true, defender, true,
-                                "You crush %s", "%s crushes you",
-                                "%s crushes %s",
-                                "You crush yourself", "%s is crushed");
+        msg = get_variant_message(VMSG_CRUSH, attacker, defender);
     }
 
     attack_strength_message(msg, bonus_dam, false);
@@ -1503,15 +1488,9 @@ static void _THERMIC_ENGINE_melee_effects(item_def* weapon, actor* attacker,
                                                random2(dam) / 2 + 1);
     if (bonus_dam > 0)
     {
-        string msg;
-        // i18n: not sure if self melee attack is really possible,
-        // but old code catered for that case
-        msg = get_actor_message(attacker, true, defender, true,
-                                "You freeze %s", "%s freezes you",
-                                "%s freezes %s",
-                                "You freeze yourself", "%s is frozen");
+        string msg = get_variant_message(VMSG_FREEZE, attacker, defender);
         msg = localize("%s.", LocalizationArg(msg, false));
-        mprf_nolocalize("%s", msg.c_str());
+        mpr_nolocalize(msg);
 
         defender->hurt(attacker, bonus_dam, BEAM_COLD);
         if (defender->alive())

@@ -2104,11 +2104,8 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            string msg = get_actor_message(attacker, attacker_visible,
-                                           defender, defender_visible,
-                                           "You freeze %s",
-                                           "%s freezes you",
-                                           "%s freezes %s");
+            string msg = get_variant_message(VMSG_FREEZE, attacker, defender,
+                                             attacker_visible, defender_visible);
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
             special_damage_flavour = BEAM_COLD;
@@ -2121,11 +2118,8 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage > 0)
         {
-            string msg = get_actor_message(attacker, attacker_visible,
-                                           defender, defender_visible,
-                                           "You shatter %s",
-                                           "%s shatters you",
-                                           "%s shatters %s");
+            string msg = get_variant_message(VMSG_SHATTER, attacker, defender,
+                                             attacker_visible, defender_visible);
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
         }
@@ -2139,11 +2133,8 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            string msg = get_actor_message(attacker, attacker_visible,
-                                           defender, defender_visible,
-                                           "You burn %s",
-                                           "%s burns you",
-                                           "%s burns %s");
+            string msg = get_variant_message(VMSG_BURN, attacker, defender,
+                                             attacker_visible, defender_visible);
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
             special_damage_flavour = BEAM_FIRE;
@@ -2161,11 +2152,8 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            string msg = get_actor_message(attacker, attacker_visible,
-                                           defender, defender_visible,
-                                           "You envenom %s",
-                                           "%s envenoms you",
-                                           "%s envenoms %s");
+            string msg = get_variant_message(VMSG_ENVENOM, attacker, defender,
+                                             attacker_visible, defender_visible);
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
             special_damage_flavour = BEAM_POISON;
@@ -2199,11 +2187,8 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage > 0)
         {
-            string msg = get_actor_message(attacker, attacker_visible,
-                                           defender, defender_visible,
-                                           "You blast %s",
-                                           "%s blasts you",
-                                           "%s blasts %s");
+            string msg = get_variant_message(VMSG_BLAST, attacker, defender,
+                                             attacker_visible, defender_visible);
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
         }
@@ -3014,9 +2999,10 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && special_damage)
         {
-            do_monster_message(attacker, attacker_visible,
-                               defender, defender_visible,
-                               "%s burns you!", "%s burns %s!");
+            string msg = get_variant_message(VMSG_BURN, attacker, defender,
+                                             attacker_visible, defender_visible);
+            msg = localize("%s!", LocalizationArg(msg, false));
+            mpr_nolocalize(msg);
             _print_resist_messages(defender, special_damage, BEAM_FIRE);
         }
 
@@ -3383,7 +3369,10 @@ void melee_attack::riposte()
 {
     if (you.see_cell(defender->pos()))
     {
-        do_actor_message(defender, true, "You riposte.", "%s ripostes.");
+        if (defender->is_player())
+            mpr("You riposte.");
+        else
+            mprf("%s ripostes.", defender->name(DESC_THE).c_str());
     }
     melee_attack attck(defender, attacker, 0, effective_attack_number + 1);
     attck.is_riposte = true;
@@ -3443,17 +3432,21 @@ bool melee_attack::do_knockback(bool trample)
 
     if (needs_message)
     {
-        if (defender->airborne() || defender->incapacitated())
+        const bool can_stumble = !defender->airborne()
+                                  && !defender->incapacitated();
+        if (can_stumble)
         {
-            do_actor_message(defender, defender_visible,
-                             "You are shoved backwards!",
-                             "%s is shoved backwards!");
+            if (defender->is_player())
+                mpr("You stumble backwards!");
+            else
+                mprf("%s stumbles backwards!", defender->name(DESC_THE).c_str());
         }
         else
         {
-            do_actor_message(defender, defender_visible,
-                             "You stumble backwards!",
-                             "%s stumbles backwards!");
+            if (defender->is_player())
+                mpr("You are shoved backwards!");
+            else
+                mprf("%s is shoved backwards!", defender->name(DESC_THE).c_str());
         }
     }
 
