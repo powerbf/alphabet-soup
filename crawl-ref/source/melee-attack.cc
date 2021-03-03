@@ -512,7 +512,8 @@ bool melee_attack::handle_phase_hit()
                                          attacker_visible, defender_visible);
         // i18n: I hope this will work in all langauges.
         // If not, we will have to rewrite
-        msg += localize(", but do no damage.");
+        msg += localize(attacker->is_player() ? ", but do no damage."
+                                              : ", but does no damage.");
         mpr_nolocalize(msg);
     }
 
