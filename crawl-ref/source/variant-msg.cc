@@ -270,7 +270,8 @@ const string& get_variant_template(variant_msg_type msg_id, msg_variant_type var
  * Return localized message, with subject/object placeholders replaced with their values
  */
 string get_variant_message(variant_msg_type msg_id,
-                           const string& subject, const string& object)
+                           const string& subject, const string& object,
+                           const string& punctuation)
 {
     string subj = lowercase_string(subject);
     string obj = lowercase_string(object);
@@ -316,16 +317,19 @@ string get_variant_message(variant_msg_type msg_id,
     else if (variant == MV_ITSELF)
         msg = localize(temp, subj, obj);
 
-    return msg;
-}
+    if (!punctuation.empty())
+    {
+        string punct;
+        if (contains(punctuation, "%s"))
+            punct = punctuation;
+        else
+            punct = "%s" + punctuation;
 
-/*
- * Output localized message, with subject/object placeholders replaced with their values
- */
-void do_variant_message(variant_msg_type msg_id,
-                        const string& subject, const string& object)
-{
-    mpr_nolocalize(get_variant_message(msg_id, subject, object));
+        // translate the punctuation, but don't translate the message again
+        msg = localize(punct, LocalizationArg(msg, false));
+    }
+
+    return msg;
 }
 
 /*
@@ -333,7 +337,18 @@ void do_variant_message(variant_msg_type msg_id,
  */
 string get_variant_message(variant_msg_type msg_id,
                            const actor* subject, const actor* object,
-                           bool subject_seen, bool object_seen)
+                           const string& punctuation)
+{
+    return get_variant_message(msg_id, subject, object, true, true, punctuation);
+}
+
+/*
+ * Return localized message, with subject/object placeholders replaced with their values
+ */
+string get_variant_message(variant_msg_type msg_id,
+                           const actor* subject, const actor* object,
+                           bool subject_seen, bool object_seen,
+                           const string& punctuation)
 {
     string subj = actor_name(subject, DESC_THE, subject_seen);
     string obj;
@@ -341,7 +356,17 @@ string get_variant_message(variant_msg_type msg_id,
         obj = actor_pronoun(object, PRONOUN_REFLEXIVE, object_seen);
     else
         obj = actor_name(object, DESC_THE, object_seen);
-    return get_variant_message(msg_id, subj, obj);
+    return get_variant_message(msg_id, subj, obj, punctuation);
+}
+
+/*
+ * Output localized message, with subject/object placeholders replaced with their values
+ */
+void do_variant_message(variant_msg_type msg_id,
+                        const string& subject, const string& object,
+                        const string& punctuation)
+{
+    mpr_nolocalize(get_variant_message(msg_id, subject, object, punctuation));
 }
 
 /*
@@ -349,8 +374,20 @@ string get_variant_message(variant_msg_type msg_id,
  */
 void do_variant_message(variant_msg_type msg_id,
                         const actor* subject, const actor* object,
-                        bool subject_seen, bool object_seen)
+                        const string& punctuation)
+{
+    mpr_nolocalize(get_variant_message(msg_id, subject, object, punctuation));
+}
+
+/*
+ * Output localized message, with subject/object placeholders replaced with their values
+ */
+void do_variant_message(variant_msg_type msg_id,
+                        const actor* subject, const actor* object,
+                        bool subject_seen, bool object_seen,
+                        const string& punctuation)
 {
     mpr_nolocalize(get_variant_message(msg_id, subject, object,
-                                       subject_seen, object_seen));
+                                       subject_seen, object_seen,
+                                       punctuation));
 }

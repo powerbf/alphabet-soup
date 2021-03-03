@@ -847,10 +847,10 @@ void attack::drain_defender()
             obvious_effect = true;
         else if (defender_visible)
         {
-            string msg = get_variant_message(VMSG_DRAIN, attacker, defender,
-                                             attacker_visible, defender_visible);
             special_damage_message =
-                add_attack_strength_punct(msg, special_damage, false);
+                get_variant_message(VMSG_DRAIN, attacker, defender,
+                                    attacker_visible, defender_visible,
+                                    attack_strength_punctuation(special_damage));
         }
     }
 }

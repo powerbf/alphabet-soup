@@ -2104,10 +2104,10 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            string msg = get_variant_message(VMSG_FREEZE, attacker, defender,
-                                             attacker_visible, defender_visible);
             special_damage_message =
-                add_attack_strength_punct(msg, special_damage, false);
+                get_variant_message(VMSG_FREEZE, attacker, defender,
+                                    attacker_visible, defender_visible,
+                                    attack_strength_punctuation(special_damage));
             special_damage_flavour = BEAM_COLD;
         }
         break;
@@ -2118,10 +2118,10 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage > 0)
         {
-            string msg = get_variant_message(VMSG_SHATTER, attacker, defender,
-                                             attacker_visible, defender_visible);
             special_damage_message =
-                add_attack_strength_punct(msg, special_damage, false);
+                get_variant_message(VMSG_SHATTER, attacker, defender,
+                                    attacker_visible, defender_visible,
+                                    attack_strength_punctuation(special_damage));
         }
         break;
 
@@ -2133,10 +2133,11 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            string msg = get_variant_message(VMSG_BURN, attacker, defender,
-                                             attacker_visible, defender_visible);
             special_damage_message =
-                add_attack_strength_punct(msg, special_damage, false);
+                get_variant_message(VMSG_BURN, attacker, defender,
+                                    attacker_visible, defender_visible,
+                                    attack_strength_punctuation(special_damage));
+
             special_damage_flavour = BEAM_FIRE;
 
             if (defender->is_player())
@@ -2152,10 +2153,11 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage)
         {
-            string msg = get_variant_message(VMSG_ENVENOM, attacker, defender,
-                                             attacker_visible, defender_visible);
             special_damage_message =
-                add_attack_strength_punct(msg, special_damage, false);
+                get_variant_message(VMSG_ENVENOM, attacker, defender,
+                                    attacker_visible, defender_visible,
+                                    attack_strength_punctuation(special_damage));
+
             special_damage_flavour = BEAM_POISON;
         }
         break;
@@ -2187,10 +2189,10 @@ bool melee_attack::apply_staff_damage()
 
         if (special_damage > 0)
         {
-            string msg = get_variant_message(VMSG_BLAST, attacker, defender,
-                                             attacker_visible, defender_visible);
             special_damage_message =
-                add_attack_strength_punct(msg, special_damage, false);
+                get_variant_message(VMSG_BLAST, attacker, defender,
+                                    attacker_visible, defender_visible,
+                                    attack_strength_punctuation(special_damage));
         }
         break;
 
@@ -2418,12 +2420,11 @@ void melee_attack::announce_hit()
     }
     else
     {
+        string punct = debug_damage_number(); // empty in non-debug build
+        punct += attack_strength_punctuation(damage_done);
 
-        string msg = get_variant_message(attack_msg_id, attacker, defender,
-                                         attacker_visible, defender_visible);
-        msg += debug_damage_number();
-        msg = localize(msg, defender->name(DESC_THE));
-        attack_strength_message(msg, damage_done, false);
+        do_variant_message(attack_msg_id, attacker, defender,
+                           attacker_visible, defender_visible, punct);
     }
 }
 
@@ -2999,10 +3000,8 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && special_damage)
         {
-            string msg = get_variant_message(VMSG_BURN, attacker, defender,
-                                             attacker_visible, defender_visible);
-            msg = localize("%s!", LocalizationArg(msg, false));
-            mpr_nolocalize(msg);
+            do_variant_message(VMSG_BURN, attacker, defender,
+                               attacker_visible, defender_visible, "!");
             _print_resist_messages(defender, special_damage, BEAM_FIRE);
         }
 

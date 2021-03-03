@@ -757,8 +757,9 @@ void ranged_attack::announce_hit()
     if (!needs_message)
         return;
 
-    string msg = get_variant_message(attack_msg_id, projectile->name(DESC_THE),
-                                     defender_name(false));
-    msg += debug_damage_number();
-    attack_strength_message(msg, damage_done, false);
+    string punct = debug_damage_number(); // empty in non-debug build
+    punct += attack_strength_punctuation(damage_done);
+
+    do_variant_message(attack_msg_id, projectile->name(DESC_THE),
+                       defender_name(false), punct);
 }
