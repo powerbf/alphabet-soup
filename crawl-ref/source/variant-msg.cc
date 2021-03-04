@@ -223,10 +223,9 @@ static map<variant_msg_type, vector<string> > _messages =
     {VMSG_ELECTROCUTE,
         {"You electrocute %s", "%s electrocutes you", "%s electrocutes %s",
          "You electrocute yourself", "%s is electrocuted"}},
-    {VMSG_CRUSH,
-        {"You crush %s", "%s crushes you", "%s crushes %s",
-         "You crush yourself", "%s is crushed"}},
 
+    {VMSG_CRUSH,
+        {"You crush %s", "%s crushes you", "%s crushes %s"}},
     {VMSG_SHATTER,
         {"You shatter %s", "%s shatters you", "%s shatters %s"}},
     {VMSG_ENVENOM,
