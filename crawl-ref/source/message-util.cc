@@ -87,6 +87,7 @@ string anon_pronoun(pronoun_type pron)
 /*
  * Get message where subject and object can be any combination of 2nd or 3rd person
  * (1st person doesn't exist in this game)
+ * Note: subject must be singular
  */
 string get_any_person_message(variant_msg_type msg_id,
                               const string& subject, const string& object,
@@ -178,6 +179,7 @@ string get_any_person_message(variant_msg_type msg_id,
 /*
  * Output message where subject and object can be any combination of 2nd or 3rd person
  * (1st person doesn't exist in this game)
+ * Note: subject must be singular
  */
 void do_any_person_message(variant_msg_type msg_id,
                            const string& subject, const string& object,
@@ -214,6 +216,7 @@ void do_any_person_message(variant_msg_type msg_id,
 /*
  * Get message where subject is guaranteed to be 3rd person
  * (Object can be 2nd or 3rd person)
+ * Note: supplied messages must match subject number (singular or plural)
  */
 string get_3rd_person_message(const actor* subject, bool subject_seen,
                               const actor* object, bool object_seen,
