@@ -924,15 +924,11 @@ string attack_strength_punctuation(int dmg)
 /* Add localized attack strength punctuation to a message
  *
  * If msg itself has already been localized, set localize_msg to false, otherwise set it to true.
- *
- * Note that simply appending punctuation to the end is not good enough
- * because some languages (e.g. Spanish) don't work that way.
- * For example, English "%s!" becomes "¡%s!" in Spanish.
  */
 string add_attack_strength_punct(const string& msg, int dmg, bool localize_msg)
 {
-    string format = "%s" + attack_strength_punctuation(dmg);
-    return localize(format, LocalizationArg(msg, localize_msg));
+    string punct = attack_strength_punctuation(dmg);
+    return add_punctuation(msg, punct, localize_msg);
 }
 
 /* Output message with localize attack strength punctuation

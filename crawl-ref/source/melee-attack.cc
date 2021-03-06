@@ -3056,14 +3056,10 @@ void melee_attack::mons_apply_attack_flavour()
 
             if (needs_message)
             {
-                string msg;
-                if (defender->is_player())
-                    msg = localize("%s drowns you", attacker->name(DESC_THE));
-                else
-                    msg = localize("%s drowns %s", attacker->name(DESC_THE),
-                                                   defender->name(DESC_THE));
-                msg = add_attack_strength_punct(msg, special_damage, false);
-                mpr_nolocalize(msg);
+                do_3rd_person_message(attacker, attacker_visible,
+                                      defender, defender_visible,
+                                      "%s drowns you", "%s drowns %s",
+                                      attack_strength_punctuation(special_damage));
             }
         }
         break;
