@@ -578,6 +578,21 @@ Ihr schlagt {acc}%s zu blutigem Brei
 %s pelts %s
 %s bewirft {acc}%s
 %%%%
+You melt %s
+Ihr schmelzt {acc}%s
+%%%%
+%s melts you
+%s schmilzt Euch
+%%%%
+%s melts %s
+%s schmilzt {acc}%s
+%%%%
+You melt yourself
+Ihr schmelzt Euch
+%%%%
+%s is melted
+%s wird geschmolzen
+%%%%
 You burn %s
 Ihr brennt {acc}%s
 %%%%
@@ -1516,15 +1531,6 @@ Blitzen fließt durch %s
 %%%%
 %s is healed.
 %s ist geheilt.
-%%%%
-You melt %s
-Ihr schmilzt {acc}%s
-%%%%
-%s melts you
-%s schmilzt Euch
-%%%%
-%s melts %s
-%s schmilzt {acc}%s
 %%%%
 
 ##################

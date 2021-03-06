@@ -86,6 +86,7 @@ enum variant_msg_type
     VMSG_BEAT_INTO_BLOODY_PULP,
 
     // elemental effects
+    VMSG_MELT,
     VMSG_BURN,
     VMSG_FREEZE,
     VMSG_ELECTROCUTE,

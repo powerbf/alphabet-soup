@@ -1688,33 +1688,23 @@ void attack::calc_elemental_brand_damage(beam_type flavour, const char *what)
 
     if (needs_message && special_damage > 0)
     {
-        // XXX: assumes "what" is singular
-        string subject = what ? what : atk_name(DESC_THE);
-        string object = defender_name(false);
-
-        string msg;
+        variant_msg_type msg_id;
         if (flavour == BEAM_FIRE && defender->is_icy())
-        {
-            msg = get_simple_message(subject, object, "You melt %s",
-                                     "%s melts you", "%s melts %s");
-        }
+            msg_id = VMSG_MELT;
         else if (flavour == BEAM_FIRE)
-        {
-            msg = get_simple_message(subject, object, "You burn %s",
-                                     "%s burns you", "%s burns %s");
-        }
+            msg_id = VMSG_BURN;
         else if (flavour == BEAM_COLD)
-        {
-            msg = get_simple_message(subject, object, "You freeze %s",
-                                     "%s freezes you", "%s freezes %s");
-        }
+            msg_id = VMSG_FREEZE;
         else
-        {
             return;
-        }
 
-        special_damage_message =
-            add_attack_strength_punct(msg, special_damage, false);
+        // XXX: assumes "what" is singular
+        special_damage_message = get_variant_message(
+            msg_id,
+            what ? what : atk_name(DESC_THE),
+            // Don't allow reflexive if the subject wasn't the attacker.
+            defender_name(!what),
+            attack_strength_punctuation(special_damage));
     }
 }
 
