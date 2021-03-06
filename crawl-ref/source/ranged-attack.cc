@@ -260,12 +260,10 @@ bool ranged_attack::handle_phase_hit()
     if (projectile->is_type(OBJ_MISSILES, MI_DART))
     {
         damage_done = dart_duration_roll(get_ammo_brand(*projectile));
-        set_attack_verb(0);
         announce_hit();
     }
     else if (projectile->is_type(OBJ_MISSILES, MI_THROWING_NET))
     {
-        set_attack_verb(0);
         announce_hit();
         if (defender->is_player())
             player_caught_in_net();
@@ -282,9 +280,7 @@ bool ranged_attack::handle_phase_hit()
         }
         else if (needs_message)
         {
-            string msg = get_any_person_message(attack_msg_id,
-                                                projectile->name(DESC_THE),
-                                                defender->name(DESC_THE));
+            string msg = get_hit_message();
             msg += localize(" but does no damage.");
             mpr_nolocalize(msg);
         }
@@ -746,20 +742,31 @@ bool ranged_attack::player_good_stab()
 
 void ranged_attack::set_attack_verb(int/* damage*/)
 {
-    if (is_penetrating_attack(*attacker, weapon, *projectile))
-        attack_msg_id = VMSG_PIERCE_THROUGH;
-    else
-        attack_msg_id = VMSG_HIT;
 }
 
+string ranged_attack::get_hit_message()
+{
+    if (is_penetrating_attack(*attacker, weapon, *projectile))
+    {
+        return get_3rd_person_message(projectile->name(DESC_THE),
+                                      defender_name(false),
+                                      "%s pierces through you",
+                                      "$s pierces through %s");
+    }
+    else
+    {
+        return get_3rd_person_message(projectile->name(DESC_THE),
+                                      defender_name(false),
+                                      "%s hits you",
+                                      "%s hits %s");
+    }
+}
 void ranged_attack::announce_hit()
 {
     if (!needs_message)
         return;
 
-    string punct = debug_damage_number(); // empty in non-debug build
-    punct += attack_strength_punctuation(damage_done);
-
-    do_any_person_message(attack_msg_id, projectile->name(DESC_THE),
-                          defender_name(false), punct);
+    string msg = get_hit_message();
+    msg += debug_damage_number(); // empty in non-debug build
+    attack_strength_message(msg, damage_done, false);
 }

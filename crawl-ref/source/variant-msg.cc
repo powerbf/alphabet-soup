@@ -202,10 +202,6 @@ static map<variant_msg_type, vector<string> > _messages =
          "%s beats you into a bloody pulp",
          "%s beats %s into a bloody pulp"}},
 
-    // for projectile only
-    {VMSG_PIERCE_THROUGH,
-        {"", "%s pierces through you", "%s pierces through %s"}},
-
     // for hailstorm spell
     {VMSG_PELT,
         {"", "%s pelts you", "%s pelts %s"}},

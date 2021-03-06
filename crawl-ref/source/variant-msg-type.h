@@ -97,9 +97,6 @@ enum variant_msg_type
     VMSG_DRAIN,
     VMSG_BLAST,
 
-    // for projectile only
-    VMSG_PIERCE_THROUGH,
-
     // for hailstorm spell
     VMSG_PELT,
 };
