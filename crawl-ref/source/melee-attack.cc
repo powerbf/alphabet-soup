@@ -47,7 +47,6 @@
 #include "transform.h"
 #include "traps.h"
 #include "unwind.h"
-#include "variant-msg.h"
 #include "view.h"
 #include "xom.h"
 
@@ -508,8 +507,8 @@ bool melee_attack::handle_phase_hit()
     }
     else if (needs_message)
     {
-        string msg = get_variant_message(attack_msg_id, attacker, defender,
-                                         attacker_visible, defender_visible);
+        string msg = get_any_person_message(attack_msg_id, attacker, defender,
+                                            attacker_visible, defender_visible);
         // i18n: I hope this will work in all langauges.
         // If not, we will have to rewrite
         msg += localize(attacker->is_player() ? " but do no damage."
@@ -2106,9 +2105,9 @@ bool melee_attack::apply_staff_damage()
         if (special_damage)
         {
             special_damage_message =
-                get_variant_message(VMSG_FREEZE, attacker, defender,
-                                    attacker_visible, defender_visible,
-                                    attack_strength_punctuation(special_damage));
+                get_any_person_message(VMSG_FREEZE, attacker, defender,
+                                       attacker_visible, defender_visible,
+                                       attack_strength_punctuation(special_damage));
             special_damage_flavour = BEAM_COLD;
         }
         break;
@@ -2120,9 +2119,9 @@ bool melee_attack::apply_staff_damage()
         if (special_damage > 0)
         {
             special_damage_message =
-                get_variant_message(VMSG_SHATTER, attacker, defender,
-                                    attacker_visible, defender_visible,
-                                    attack_strength_punctuation(special_damage));
+                get_any_person_message(VMSG_SHATTER, attacker, defender,
+                                       attacker_visible, defender_visible,
+                                       attack_strength_punctuation(special_damage));
         }
         break;
 
@@ -2135,9 +2134,9 @@ bool melee_attack::apply_staff_damage()
         if (special_damage)
         {
             special_damage_message =
-                get_variant_message(VMSG_BURN, attacker, defender,
-                                    attacker_visible, defender_visible,
-                                    attack_strength_punctuation(special_damage));
+                get_any_person_message(VMSG_BURN, attacker, defender,
+                                       attacker_visible, defender_visible,
+                                       attack_strength_punctuation(special_damage));
 
             special_damage_flavour = BEAM_FIRE;
 
@@ -2155,9 +2154,9 @@ bool melee_attack::apply_staff_damage()
         if (special_damage)
         {
             special_damage_message =
-                get_variant_message(VMSG_ENVENOM, attacker, defender,
-                                    attacker_visible, defender_visible,
-                                    attack_strength_punctuation(special_damage));
+                get_any_person_message(VMSG_ENVENOM, attacker, defender,
+                                       attacker_visible, defender_visible,
+                                       attack_strength_punctuation(special_damage));
 
             special_damage_flavour = BEAM_POISON;
         }
@@ -2191,9 +2190,9 @@ bool melee_attack::apply_staff_damage()
         if (special_damage > 0)
         {
             special_damage_message =
-                get_variant_message(VMSG_BLAST, attacker, defender,
-                                    attacker_visible, defender_visible,
-                                    attack_strength_punctuation(special_damage));
+                get_any_person_message(VMSG_BLAST, attacker, defender,
+                                       attacker_visible, defender_visible,
+                                       attack_strength_punctuation(special_damage));
         }
         break;
 
@@ -2424,8 +2423,8 @@ void melee_attack::announce_hit()
         string punct = debug_damage_number(); // empty in non-debug build
         punct += attack_strength_punctuation(damage_done);
 
-        do_variant_message(attack_msg_id, attacker, defender,
-                           attacker_visible, defender_visible, punct);
+        do_any_person_message(attack_msg_id, attacker, defender,
+                              attacker_visible, defender_visible, punct);
     }
 }
 
@@ -2997,8 +2996,8 @@ void melee_attack::mons_apply_attack_flavour()
 
         if (needs_message && special_damage)
         {
-            do_variant_message(VMSG_BURN, attacker, defender,
-                               attacker_visible, defender_visible, "!");
+            do_any_person_message(VMSG_BURN, attacker, defender,
+                                  attacker_visible, defender_visible, "!");
             _print_resist_messages(defender, special_damage, BEAM_FIRE);
         }
 

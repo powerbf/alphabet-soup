@@ -43,7 +43,6 @@
 #include "stringutil.h"
 #include "tag-version.h"
 #include "transform.h"
-#include "variant-msg.h"
 #include "xom.h"
 
 /*
@@ -848,9 +847,9 @@ void attack::drain_defender()
         else if (defender_visible)
         {
             special_damage_message =
-                get_variant_message(VMSG_DRAIN, attacker, defender,
-                                    attacker_visible, defender_visible,
-                                    attack_strength_punctuation(special_damage));
+                get_any_person_message(VMSG_DRAIN, attacker, defender,
+                                       attacker_visible, defender_visible,
+                                       attack_strength_punctuation(special_damage));
         }
     }
 }
@@ -1699,7 +1698,7 @@ void attack::calc_elemental_brand_damage(beam_type flavour, const char *what)
             return;
 
         // XXX: assumes "what" is singular
-        special_damage_message = get_variant_message(
+        special_damage_message = get_any_person_message(
             msg_id,
             what ? what : atk_name(DESC_THE),
             // Don't allow reflexive if the subject wasn't the attacker.
