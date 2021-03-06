@@ -109,6 +109,7 @@ private:
 
     /* Output methods */
     void set_attack_verb(int damage) override;
+    string player_attack_message(int damage);
     void announce_hit() override;
 
     /* Misc methods */
