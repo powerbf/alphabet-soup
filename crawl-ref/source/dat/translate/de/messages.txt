@@ -314,258 +314,6 @@ Ihr verhaut {acc}%s
 %s whacks %s
 %s verhaut {acc}%s
 %%%%
-You spit %s like a pig
-Ihr spießt {acc}%s auf wie ein Schwein
-%%%%
-%s spits you like a pig
-%s spießt Euch auf wie ein Schwein
-%%%%
-%s spits %s like a pig
-%s spießt {acc}%s auf wie ein Schwein
-%%%%
-You spit %s like the proverbial pig
-Ihr spießt {acc}%s auf wie das sprichwörtliche Schwein
-%%%%
-%s spits you like the proverbial pig
-%s spießt Euch auf wie das sprichwörtliche Schwein
-%%%%
-%s spits %s like the proverbial pig
-%s spießt {acc}%s auf wie das sprichwörtliche Schwein
-%%%%
-You attack %s's weak point
-Ihr greift {acc}%s an der Swachstelle an
-%%%%
-%s attacks your weak point
-%s greift Euch an der Swachstelle an
-%%%%
-%s attacks %s's weak point
-%s greift {acc}%s an der Swachstelle an
-%%%%
-You skewer %s like a kebab
-Ihr spießt {acc}%s wie einen Kebab
-%%%%
-%s skewers you like a kebab
-%s spießt Euch auf wie einen Kebab
-%%%%
-%s skewers %s like a kebab
-%s spießt {acc}%s wie einen Kebab
-%%%%
-You stick %s like a pincushion
-Ihr steckt {acc}%s wie ein Nadelkissen
-%%%%
-%s sticks you like a pincushion
-%s sticht Euch wie ein Nadelkissen
-%%%%
-%s sticks %s like a pincushion
-%s sticht {acc}%s wie ein Nadelkissen
-%%%%
-You perforate %s like a sieve
-Ihr durchlöchert {acc}%s wie ein Sieb
-%%%%
-%s perforates you like a sieve
-%s durchlöchert Euch wie ein Sieb
-%%%%
-%s perforates %s like a sieve
-%s durchlöchert {acc}%s wie ein Sieb
-%%%%
-You dice %s like an onion
-Ihr würfelt {acc}%s wie eine Zwiebel
-%%%%
-%s dices you like an onion
-%s würfelt Euch wie eine Zwiebel
-%%%%
-%s dices %s like an onion
-%s würfelt {acc}%s wie eine Zwiebel
-%%%%
-You fracture %s into splinters
-Ihr zerbrecht {acc}%s in Splitter
-%%%%
-%s fractures you into splinters
-%s zerbrecht Euch in Splitter
-%%%%
-%s fractures %s into splinters
-%s zerbrecht {acc}%s in Splitter
-%%%%
-You shatter %s into splinters
-Ihr zerschmettert {acc}%s in Splitter
-%%%%
-%s shatters you into splinters
-%s zerschmettert Euch in Splitter
-%%%%
-%s shatters %s into splinters
-%s zerschmettert {acc}%s in Splitter
-%%%%
-You carve %s like a ham
-Ihr tranchiert {acc}%s wie einen Schinken
-%%%%
-%s carves you like a ham
-%s tranchiert Euch wie einen Schinken
-%%%%
-%s carves %s like a ham
-%s tranchiert {acc}%s wie einen Schinken
-%%%%
-You carve %s like the proverbial ham
-Ihr tranchiert {acc}%s wie den sprichwörtlichen Schinken
-%%%%
-%s carves you like the proverbial ham
-%s tranchiert Euch wie den sprichwörtlichen Schinken
-%%%%
-%s carves %s like the proverbial ham
-%s tranchiert {acc}%s wie den sprichwörtlichen Schinken
-%%%%
-You carve %s like a turkey
-Ihr tranchiert {acc}%s wie einen Truthahn
-%%%%
-%s carves you like a turkey
-%s tranchiert Euch wie einen Truthahn
-%%%%
-%s carves %s like a turkey
-%s tranchiert {acc}%s wie einen Truthahn
-%%%%
-You open %s like a pillowcase
-Ihr öffnet {acc}%s wie einen Kissenbezug
-%%%%
-%s opens you like a pillowcase
-%s öffnet Euch wie einen Kopfkissenbezug
-%%%%
-%s opens %s like a pillowcase
-%s öffnet {acc}%s wie einen Kissenbezug
-%%%%
-You slice %s like a ripe choko
-Ihr schneidet {acc}%s wie eine reife Chayote
-%%%%
-%s slices you like a ripe choko
-%s schneidet Euch wie eine reife Chayote
-%%%%
-%s slices %s like a ripe choko
-%s schneidet {acc}%s wie eine reife Chayote
-%%%%
-You cut %s into ribbons
-Ihr schneidet {acc}%s in Bänder
-%%%%
-%s cuts you into ribbons
-%s schneidet Euch in Bänder
-%%%%
-%s cuts %s into ribbons
-%s schneidet {acc}%s in Bänder
-%%%%
-You chop %s into pieces
-Ihr zerhackt {acc}%s in Stücke
-%%%%
-%s chops you into pieces
-%s zerhackt Euch in Stücke
-%%%%
-%s chops %s into pieces
-%s zerhackt {acc}%s in Stücke
-%%%%
-You splatter %s into a gooey mess
-Ihr zerstampft {acc}%s zu einem klebrigen Brei
-%%%%
-%s splatters you into a gooey mess
-%s zerstampft Euch zu einem klebrigen Brei
-%%%%
-%s splatters %s into a gooey mess
-%s zerstampft {acc}%s zu einem klebrigen Brei
-%%%%
-You crush %s like a grape
-Ihr zerquetschst {acc}%s wie eine Traube
-%%%%
-%s crushes you like a grape
-%s zerquetschst Euch wie eine Traube
-%%%%
-%s crushes %s like a grape
-%s zerquetscht {acc}%s wie eine Weintraube
-%%%%
-You beat %s like a drum
-Ihr schlagt {acc}%s wie eine Trommel
-%%%%
-%s beats you like a drum
-%s schlägt Euch wie eine Trommel
-%%%%
-%s beats %s like a drum
-%s schlägt {acc}%s wie eine Trommel
-%%%%
-You hammer %s like a gong
-Ihr hämmert {acc}%s wie einen Gong
-%%%%
-%s hammers you like a gong
-%s hämmert Euch wie einen Gong
-%%%%
-%s hammers %s like a gong
-%s hämmert {acc}%s wie einen Gong
-%%%%
-You pound %s like an anvil
-Ihr hämmert {acc}%s wie einen Amboss
-%%%%
-%s pounds you like an anvil
-%s hämmert Euch wie einen Amboss
-%%%%
-%s pounds %s like an anvil
-%s hämmert {acc}%s wie einen Amboss
-%%%%
-You flatten %s like a pancake
-Ihr macht {acc}%s platt wie ein Brett
-%%%%
-%s flattens you like a pancake
-%s macht Euch platt wie ein Brett
-%%%%
-%s flattens %s like a pancake
-%s macht {acc}%s platt wie ein Brett
-%%%%
-You punish %s, causing immense pain
-Ihr bestraft {acc}%s und verursacht immensen Schmerz
-%%%%
-%s punishes you, causing immense pain
-%s bestraft Euch und verursacht immensen Schmerz
-%%%%
-%s punishes %s, causing immense pain
-%s bestraft {acc}%s und verursacht immensen Schmerz
-%%%%
-You squash %s like an ant
-Ihr zerquetscht {acc}%s wie eine Ameise
-%%%%
-%s squashes you like an ant
-%s zerquetscht Euch wie eine Ameise
-%%%%
-%s squashes %s like an ant
-%s zerquetscht {acc}%s wie eine Ameise
-%%%%
-You squash %s like the proverbial ant
-Ihr zerquetscht {acc}%s wie die sprichwörtliche Ameise
-%%%%
-%s squashes you like the proverbial ant
-%s zerquetscht Euch wie die sprichwörtliche Ameise
-%%%%
-%s squashes %s like the proverbial ant
-%s zerquetscht {acc}%s wie die sprichwörtliche Ameise
-%%%%
-You pound %s into fine dust
-Ihr zerstampft {acc}%s zu feinem Staub
-%%%%
-%s pounds you into fine dust
-%s zerstampft Euch zu feinem Staub
-%%%%
-%s pounds %s into fine dust
-%s zerstampft {acc}%s zu feinen Staub
-%%%%
-You pummel %s like a punching bag
-Ihr prügelt auf {dat}%s wie einem Boxsack ein
-%%%%
-%s pummels you like a punching bag
-%s prügelt auf Euch wie einem Boxsack ein
-%%%%
-%s pummels %s like a punching bag
-%s prügelt auf {dat}%s wie einem Boxsack ein
-%%%%
-You beat %s into a bloody pulp
-Ihr schlagt {acc}%s zu blutigem Brei
-%%%%
-%s beats you into a bloody pulp
-%s schlägt Euch zu blutigem Brei
-%%%%
-%s beats %s into a bloody pulp
-%s schlägt {acc}%s zu blutigem Brei
-%%%%
 %s pelts you
 %s bewirft Euch
 %%%%
@@ -4525,6 +4273,91 @@ Ihr verfehlt {acc}%s nur knapp.
 %%%%
 You barely miss %s.
 Ihr verfehlt {acc}%s sehr knapp.
+%%%%
+# melee_attack:player_attack_message()
+You spit %s like a pig
+Ihr spießt {acc}%s auf wie ein Schwein
+%%%%
+You spit %s like the proverbial pig
+Ihr spießt {acc}%s auf wie das sprichwörtliche Schwein
+%%%%
+You attack %s's weak point
+Ihr greift {acc}%s an der Swachstelle an
+%%%%
+You skewer %s like a kebab
+Ihr spießt {acc}%s wie einen Kebab
+%%%%
+You stick %s like a pincushion
+Ihr steckt {acc}%s wie ein Nadelkissen
+%%%%
+You perforate %s like a sieve
+Ihr durchlöchert {acc}%s wie ein Sieb
+%%%%
+You dice %s like an onion
+Ihr würfelt {acc}%s wie eine Zwiebel
+%%%%
+You fracture %s into splinters
+Ihr zerbrecht {acc}%s in Splitter
+%%%%
+You shatter %s into splinters
+Ihr zerschmettert {acc}%s in Splitter
+%%%%
+You carve %s like a ham
+Ihr tranchiert {acc}%s wie einen Schinken
+%%%%
+You carve %s like the proverbial ham
+Ihr tranchiert {acc}%s wie den sprichwörtlichen Schinken
+%%%%
+You carve %s like a turkey
+Ihr tranchiert {acc}%s wie einen Truthahn
+%%%%
+You open %s like a pillowcase
+Ihr öffnet {acc}%s wie einen Kissenbezug
+%%%%
+You slice %s like a ripe choko
+Ihr schneidet {acc}%s wie eine reife Chayote
+%%%%
+You cut %s into ribbons
+Ihr schneidet {acc}%s in Bänder
+%%%%
+You chop %s into pieces
+Ihr zerhackt {acc}%s in Stücke
+%%%%
+You splatter %s into a gooey mess
+Ihr zerstampft {acc}%s zu einem klebrigen Brei
+%%%%
+You crush %s like a grape
+Ihr zerquetschst {acc}%s wie eine Traube
+%%%%
+You beat %s like a drum
+Ihr schlagt {acc}%s wie eine Trommel
+%%%%
+You hammer %s like a gong
+Ihr hämmert {acc}%s wie einen Gong
+%%%%
+You pound %s like an anvil
+Ihr hämmert {acc}%s wie einen Amboss
+%%%%
+You flatten %s like a pancake
+Ihr macht {acc}%s platt wie ein Brett
+%%%%
+You punish %s, causing immense pain
+Ihr bestraft {acc}%s und verursacht immensen Schmerz
+%%%%
+You squash %s like an ant
+Ihr zerquetscht {acc}%s wie eine Ameise
+%%%%
+You squash %s like the proverbial ant
+Ihr zerquetscht {acc}%s wie die sprichwörtliche Ameise
+%%%%
+You pound %s into fine dust
+Ihr zerstampft {acc}%s zu feinem Staub
+%%%%
+You pummel %s like a punching bag
+Ihr prügelt auf {dat}%s wie einem Boxsack ein
+%%%%
+You beat %s into a bloody pulp
+Ihr schlagt {acc}%s zu blutigem Brei
 %%%%
 # melee_attack::rot_defender()
 # player rots

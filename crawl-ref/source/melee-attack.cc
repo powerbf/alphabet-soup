@@ -516,8 +516,7 @@ bool melee_attack::handle_phase_hit()
         }
         else
         {
-            msg = get_any_person_message(attack_msg_id, attacker, defender,
-                                         attacker_visible, defender_visible);
+            msg = localize(player_attack_message(0), defender_name(false));
             msg += localize(" but do no damage.");
         }
         mpr_nolocalize(msg);
@@ -1527,9 +1526,10 @@ int melee_attack::player_apply_final_multipliers(int damage)
 
 void melee_attack::set_attack_verb(int damage)
 {
-    if (!attacker->is_player())
-        return;
+}
 
+string melee_attack::player_attack_message(int damage)
+{
     int weap_type = WPN_UNKNOWN;
 
     if (Options.has_fake_lang(flang_t::grunt))
@@ -1550,10 +1550,9 @@ void melee_attack::set_attack_verb(int damage)
         && weap_type != WPN_UNARMED)
     {
         if (weap_type != WPN_UNKNOWN)
-            attack_msg_id = VMSG_HIT;
+            return "You hit %s";
         else
-            attack_msg_id = VMSG_CLUMSILY_BASH;
-        return;
+            return "You clumsily bash %s";
     }
 
     // Take normal hits into account. If the hit is from a weapon with
@@ -1564,201 +1563,221 @@ void melee_attack::set_attack_verb(int damage)
     {
     case DAM_PIERCE:
         if (damage < HIT_MED)
-            attack_msg_id = VMSG_PUNCTURE;
+            return "You puncture %s";
         else if (damage < HIT_STRONG)
-            attack_msg_id = VMSG_IMPALE;
+            return "You impale %s";
         else
         {
             if (defender->is_monster()
                 && defender_visible
                 && defender_genus == MONS_HOG)
             {
-                attack_msg_id = VMSG_SPIT_LIKE_PROVERBIAL_PIG;
+                return "You spit %s like the proverbial pig";
             }
             else if (defender_genus == MONS_CRAB
                      && Options.has_fake_lang(flang_t::grunt))
             {
-                attack_msg_id = VMSG_ATTACK_WEAK_POINT;
+                return "You attack %s's weak point";
             }
             else
             {
-                switch(random2(4))
+                static const char * const pierce_desc[] =
                 {
-                    case 0: attack_msg_id = VMSG_SPIT_LIKE_PIG; break;
-                    case 1: attack_msg_id = VMSG_SKEWER_LIKE_KEBAB; break;
-                    case 2: attack_msg_id = VMSG_STICK_LIKE_PINCUSHION; break;
-                    default: attack_msg_id = VMSG_PERFORATE_LIKE_SIEVE; break;
-                }
+                    "You spit %s like a pig",
+                    "You skewer %s like a kebab",
+                    "You stick %s like a pincushion",
+                    "You perforate %s like a sieve"
+                };
+                const int choice = random2(ARRAYSZ(pierce_desc));
+                return pierce_desc[choice];
             }
         }
-        break;
 
     case DAM_SLICE:
         if (damage < HIT_MED)
-            attack_msg_id = VMSG_SLASH;
+            return "You slash %s";
         else if (damage < HIT_STRONG)
-            attack_msg_id = VMSG_SLICE;
+            return "You slice %s";
         else if (defender_genus == MONS_OGRE)
         {
-            attack_msg_id = VMSG_DICE_LIKE_ONION;
+            return "You dice %s like an onion";
         }
         else if (defender_genus == MONS_SKELETON)
         {
-            attack_msg_id = VMSG_FRACTURE_INTO_SPLINTERS;
+            return "You fracture %s into splinters";
         }
         else if (defender_genus == MONS_HOG)
         {
-            attack_msg_id = VMSG_CARVE_LIKE_PROVERBIAL_HAM;
+            return "You carve %s like the proverbial ham";
         }
         else if ((defender_genus == MONS_TENGU
                   || get_mon_shape(defender_genus) == MON_SHAPE_BIRD)
                  && one_chance_in(3))
         {
-            attack_msg_id = VMSG_CARVE_LIKE_TURKEY;
+            return "You carve %s like a turkey";
         }
         else if ((defender_genus == MONS_YAK || defender_genus == MONS_YAKTAUR)
                  && Options.has_fake_lang(flang_t::grunt))
         {
-            attack_msg_id = VMSG_SHAVE;
+            return "You shave %s";
         }
         else
         {
-            switch(random2(5))
+            static const char * const slice_desc[] =
             {
-                case 0: attack_msg_id = VMSG_OPEN_LIKE_PILLOWCASE; break;
-                case 1: attack_msg_id = VMSG_SLICE_LIKE_RIPE_CHOKO; break;
-                case 2: attack_msg_id = VMSG_CUT_INTO_RIBBONS; break;
-                case 3: attack_msg_id = VMSG_CARVE_LIKE_HAM; break;
-                default: attack_msg_id = VMSG_CHOP_INTO_PIECES; break;
-            }
+                "You open %s like a pillowcase",
+                "You slice %s like a ripe choko",
+                "You cut %s into ribbons",
+                "You carve %s like a ham",
+                "You chop %s into pieces"
+            };
+            const int choice = random2(ARRAYSZ(slice_desc));
+            return slice_desc[choice];
         }
-        break;
 
     case DAM_BLUDGEON:
         if (damage < HIT_MED)
-            attack_msg_id = one_chance_in(4) ? VMSG_THUMP : VMSG_SOCK;
+            return one_chance_in(4) ? "You thump %s" : "You sock %s";
         else if (damage < HIT_STRONG)
-            attack_msg_id = VMSG_BLUDGEON;
+            return "You bludgeon %s";
         else if (defender_genus == MONS_SKELETON)
         {
-            attack_msg_id = VMSG_SHATTER_INTO_SPLINTERS;
+            return "You shatter %s into splinters";
         }
         else if (defender->type == MONS_GREAT_ORB_OF_EYES)
         {
-            attack_msg_id = VMSG_SPLATTER_INTO_GOOEY_MESS;
+            return "You splatter %s into a gooey mess";
         }
         else
         {
-            switch(random2(5))
+            static const char * const bludgeon_desc[] =
             {
-                case 0: attack_msg_id = VMSG_CRUSH_LIKE_GRAPE; break;
-                case 1: attack_msg_id = VMSG_BEAT_LIKE_DRUM; break;
-                case 2: attack_msg_id = VMSG_HAMMER_LIKE_GONG; break;
-                case 3: attack_msg_id = VMSG_POUND_LIKE_ANVIL; break;
-                default: attack_msg_id = VMSG_FLATTEN_LIKE_PANCAKE; break;
-            }
+                "You crush %s like a grape",
+                "You beat %s like a drum",
+                "You hammer %s like a gong",
+                "You pound %s like an anvil",
+                "You flatten %s like a pancake"
+            };
+            const int choice = random2(ARRAYSZ(bludgeon_desc));
+            return bludgeon_desc[choice];
         }
-        break;
 
     case DAM_WHIP:
         if (damage < HIT_MED)
-            attack_msg_id = VMSG_WHACK;
+            return "You whack %s";
         else if (damage < HIT_STRONG)
-            attack_msg_id = VMSG_THRASH;
+            return "You thrash %s";
         else
         {
             if (defender->holiness() & (MH_HOLY | MH_NATURAL | MH_DEMONIC))
             {
-                attack_msg_id = VMSG_PUNISH_CAUSING_IMMENSE_PAIN;
-                break;
+                return "You punish %s, causing immense pain";
             }
             else
-                attack_msg_id = VMSG_DEVASTATE;
+                return "You devastate %s";
         }
-        break;
-
     case -1: // unarmed
     {
         const FormAttackMessages msgs = get_form(you.form)->uc_attack_msgs;
         if (msgs.weak != VMSG_NONE)
         {
+            variant_msg_type msg_id;
             if (damage < HIT_WEAK)
-                attack_msg_id = msgs.weak;
+                msg_id = msgs.weak;
             else if (damage < HIT_MED)
-                attack_msg_id = msgs.medium;
+                msg_id = msgs.medium;
             else if (damage < HIT_STRONG)
-                attack_msg_id = msgs.strong;
+                msg_id = msgs.strong;
             else
-                attack_msg_id = msgs.devastating;
-            break;
+                msg_id = msgs.devastating;
+
+            switch (msg_id)
+            {
+                case VMSG_SLASH: return "You slash %s";
+                case VMSG_SLICE: return "You slice %s";
+                case VMSG_SHRED: return "You shred %s";
+                case VMSG_CLAW: return "You claw %s";
+                case VMSG_BITE: return "You bite %s";
+                case VMSG_MAUL: return "You maul %s";
+                case VMSG_SMACK: return "You smack %s";
+                case VMSG_PUMMEL: return "You pummel %s";
+                case VMSG_THRASH: return "You thrash %s";
+                case VMSG_TOUCH: return "You touch %s";
+                case VMSG_RELEASE_SPORES_AT: return "You release spores at %s";
+                case VMSG_NIP_AT: return "You nip at %s";
+                case VMSG_GOUGE: return "You gouge %s";
+                case VMSG_CHOMP: return "You chomp %s";
+                default: return "You hit %s";
+            }
         }
 
         if (you.damage_type() == DVORP_CLAWING)
         {
             if (damage < HIT_WEAK)
-                attack_msg_id = VMSG_SCRATCH;
+                return "You scratch %s";
             else if (damage < HIT_MED)
-                attack_msg_id = VMSG_CLAW;
+                return "You claw %s";
             else if (damage < HIT_STRONG)
-                attack_msg_id = VMSG_MANGLE;
+                return "You mangle %s";
             else
-                attack_msg_id = VMSG_EVISCERATE;
+                return "You eviscerate %s";
         }
         else if (you.damage_type() == DVORP_TENTACLE)
         {
             if (damage < HIT_WEAK)
-                attack_msg_id = VMSG_TENTACLE_SLAP;
+                return "You tentacle-slap %s";
             else if (damage < HIT_MED)
-                attack_msg_id = VMSG_BLUDGEON;
+                return "You bludgeon %s";
             else if (damage < HIT_STRONG)
-                attack_msg_id = VMSG_BATTER;
+                return "You batter %s";
             else
-                attack_msg_id = VMSG_THRASH;
+                return "You thrash %s";
         }
         else
         {
             if (damage < HIT_WEAK)
-                attack_msg_id = VMSG_HIT;
+                return "You hit %s";
             else if (damage < HIT_MED)
-                attack_msg_id = VMSG_PUNCH;
+                return "You punch %s";
             else if (damage < HIT_STRONG)
-                attack_msg_id = VMSG_PUMMEL;
+                return "You pummel %s";
             else if (defender->is_monster()
                      && (mons_genus(defender->type) == MONS_WORKER_ANT
                          || mons_genus(defender->type) == MONS_FORMICID))
             {
-                attack_msg_id = VMSG_SQUASH_LIKE_PROVERBIAL_ANT;
+                return "You squash %s like the proverbial ant";
             }
             else
             {
-                const int choice = random2(4);
+                static const char * const punch_desc[] =
+                {
+                    "You pound %s into fine dust",
+                    "You pummel %s like a punching bag",
+                    "You pulverise %s",
+                    "You squash %s like an ant"
+                };
+                const int choice = random2(ARRAYSZ(punch_desc));
                 // XXX: could this distinction work better?
                 if (choice == 0
                     && defender->is_monster()
                     && mons_has_blood(defender->type))
                 {
-                    attack_msg_id = VMSG_BEAT_INTO_BLOODY_PULP;
+                    return "You beat %s into a bloody pulp";
                 }
                 else
                 {
-                    switch(choice)
-                    {
-                        case 0: attack_msg_id = VMSG_POUND_INTO_FINE_DUST; break;
-                        case 1: attack_msg_id = VMSG_PUMMEL_LIKE_PUNCHING_BAG; break;
-                        case 2: attack_msg_id = VMSG_PULVERISE; break;
-                        default: attack_msg_id = VMSG_SQUASH_LIKE_ANT; break;
-                    }
+                    return punch_desc[choice];
                 }
             }
         }
-        break;
     }
 
     case WPN_UNKNOWN:
     default:
-        attack_msg_id = VMSG_HIT;
         break;
     }
+
+    return "You hit %s";
 }
 
 void melee_attack::player_exercise_combat_skills()
@@ -2302,7 +2321,7 @@ bool melee_attack::is_reach_attack()
  */
 string melee_attack::mons_attack_message()
 {
-    static const char *klown_attack[21][2] =
+    static const char *klown_attack[][2] =
     {
         {"%s hits you", "%s hits %s"},
         {"%s pokes you", "%s pokes %s"},
@@ -2422,11 +2441,10 @@ void melee_attack::announce_hit()
     }
     else
     {
-        string punct = debug_damage_number(); // empty in non-debug build
-        punct += attack_strength_punctuation(damage_done);
-
-        do_any_person_message(attack_msg_id, attacker, defender,
-                              attacker_visible, defender_visible, punct);
+        string msg = localize(player_attack_message(damage_done),
+                              defender_name(false));
+        msg += debug_damage_number(); // empty in non-debug build
+        attack_strength_message(msg, damage_done, false);
     }
 }
 
