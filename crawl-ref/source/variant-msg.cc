@@ -214,6 +214,9 @@ static map<variant_msg_type, vector<string> > _messages =
         {"", "%s pelts you", "%s pelts %s"}},
 
     // elemental damage - reflexive needed because of beams/spells
+    {VMSG_MELT,
+        {"You melt %s", "%s melts you", "%s melts %s",
+         "You melt yourself", "%s is melted"}},
     {VMSG_BURN,
         {"You burn %s", "%s burns you", "%s burns %s",
          "You burn yourself", "%s is burnt"}},
