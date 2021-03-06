@@ -260,8 +260,15 @@ const string& get_variant_template(variant_msg_type msg_id, msg_variant_type var
 
     // something went wrong
     ostringstream os;
-    os << "ERROR: Undefined variant message (" // noextract
-       << msg_id << ", " << variant << ")";   // noextract
+    if (msg_id == VMSG_NONE)
+    {
+        os << "ERROR: Attempt to use VMSG_NONE"; // noextract
+    }
+    else
+    {
+        os << "ERROR: Undefined variant message (" // noextract
+           << msg_id << ", " << variant << ")";   // noextract
+    }
 
     // return value is reference, so object referred to must be persistent
     _error = os.str();
@@ -279,9 +286,9 @@ string get_variant_message(variant_msg_type msg_id,
     string obj = lowercase_string(object);
     msg_variant_type variant;
 
-    if (subj == "you") // noextract
+    if (subj == "you")
     {
-        if (obj == "you" || obj == "yourself") // noextract
+        if (obj == "you" || obj == "yourself")
         {
             variant = MV_YOURSELF;
         }
@@ -290,17 +297,17 @@ string get_variant_message(variant_msg_type msg_id,
             variant = MV_YOU_SUBJECT;
         }
     }
-    else if (obj == "you") // noextract
+    else if (obj == "you")
     {
         variant = MV_YOU_OBJECT;
     }
-    else if (obj == "itself" || obj == "himself" || obj == "herself") // noextract
+    else if (obj == "itself" || obj == "himself" || obj == "herself")
     {
         variant = MV_ITSELF;
     }
     else
     {
-        variant = MV_THIRD_PERSON;
+        variant = MV_THIRD_PARTIES;
     }
 
     const string& temp = get_variant_template(msg_id, variant);
@@ -312,7 +319,7 @@ string get_variant_message(variant_msg_type msg_id,
         msg = localize(temp, obj);
     else if (variant == MV_YOU_OBJECT)
         msg = localize(temp, subj);
-    else if (variant == MV_THIRD_PERSON)
+    else if (variant == MV_THIRD_PARTIES)
         msg = localize(temp, subj, obj);
     else if (variant == MV_YOURSELF)
         msg = localize(temp);

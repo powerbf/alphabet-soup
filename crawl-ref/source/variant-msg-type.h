@@ -9,7 +9,7 @@ enum msg_variant_type
 {
     MV_YOU_SUBJECT, // you are the subject (and the object, if there is one, is 3rd person)
     MV_YOU_OBJECT, // you are the object (and the subject is 3rd person)
-    MV_THIRD_PERSON, // you are not involved (e.g. monster vs. monster)
+    MV_THIRD_PARTIES, // you are not involved (e.g. monster vs. monster)
     MV_YOURSELF, // you do something to yourself
     MV_ITSELF, // 3rd person does something to itself (avoid using itself/himself/herself
                // in the message- it's hard to translate)
