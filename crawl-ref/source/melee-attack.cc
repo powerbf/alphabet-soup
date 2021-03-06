@@ -507,12 +507,19 @@ bool melee_attack::handle_phase_hit()
     }
     else if (needs_message)
     {
-        string msg = get_any_person_message(attack_msg_id, attacker, defender,
-                                            attacker_visible, defender_visible);
-        // i18n: I hope this will work in all langauges.
-        // If not, we will have to rewrite
-        msg += localize(attacker->is_player() ? " but do no damage."
-                                              : " but does no damage.");
+        string msg;
+        if (attacker->is_monster())
+        {
+            msg = localize(mons_attack_message(), atk_name(DESC_THE),
+                           defender_name(true));
+            msg += localize(" but does no damage.");
+        }
+        else
+        {
+            msg = get_any_person_message(attack_msg_id, attacker, defender,
+                                         attacker_visible, defender_visible);
+            msg += localize(" but do no damage.");
+        }
         mpr_nolocalize(msg);
     }
 
@@ -2281,17 +2288,8 @@ bool melee_attack::player_good_stab()
 
 bool melee_attack::is_reach_attack()
 {
-    if (!you.can_see(*attacker))
-        return false;
-
     int dist = (attack_position - defender->pos()).rdist();
-    if (dist > 1)
-    {
-        ASSERT(can_reach());
-        return true;
-    }
-
-    return false;
+    return dist > 1;
 }
 
 /* Select the attack verb for attacker
@@ -2302,111 +2300,115 @@ bool melee_attack::is_reach_attack()
  *
  * Returns (attack_verb)
  */
-string melee_attack::mons_attack_verb()
+string melee_attack::mons_attack_message()
 {
-    static const char *klown_attack[] =
+    static const char *klown_attack[21][2] =
     {
-        "hit",
-        "poke",
-        "prod",
-        "flog",
-        "pound",
-        "slap",
-        "tickle",
-        "defenestrate",
-        "sucker-punch",
-        "elbow",
-        "pinch",
-        "strangle-hug",
-        "squeeze",
-        "tease",
-        "eye-gouge",
-        "karate-kick",
-        "headlock",
-        "wrestle",
-        "trip-wire",
-        "kneecap"
+        {"%s hits you", "%s hits %s"},
+        {"%s pokes you", "%s pokes %s"},
+        {"%s prods you", "%s prods %s"},
+        {"%s flogs you", "%s flogs %s"},
+        {"%s pounds you", "%s pounds %s"},
+        {"%s slaps you", "%s slaps %s"},
+        {"%s tickles you", "%s tickles %s"},
+        {"%s defenestrates you", "%s defenestrates %s"},
+        {"%s sucker-punches you", "%s sucker-punches %s"},
+        {"%s elbows you", "%s elbows %s"},
+        {"%s pinches you", "%s pinches %s"},
+        {"%s strangle-hugs you", "%s strangle-hugs %s"},
+        {"%s squeezes you", "%s squeezes %s"},
+        {"%s teases you", "%s teases %s"},
+        {"%s eye-gouges you", "%s eye-gouges %s"},
+        {"%s karate-kicks you", "%s karate-kicks %s"},
+        {"%s headlocks you", "%s headlocks %s"},
+        {"%s wrestles you", "%s wrestles %s"},
+        {"%s trip-wires you", "%s trip-wires %s"},
+        {"%s kneecaps you", "%s kneecaps %s"},
+        {"%s flogs you", "%s flogs %s"},
     };
 
+    bool on_you = defender->is_player();
+
     if (attacker->type == MONS_KILLER_KLOWN && attk_type == AT_HIT)
-        return RANDOM_ELEMENT(klown_attack);
+        return RANDOM_ELEMENT(klown_attack)[on_you ? 0 : 1];
 
     //XXX: then why give them it in the first place?
     if (attk_type == AT_TENTACLE_SLAP && mons_is_tentacle(attacker->type))
-        return "slap";
+        return on_you ? "%s slaps you" : "%s slaps %s";
 
-    return mon_attack_name(attk_type);
+    switch (attk_type)
+    {
+        case AT_BITE: return on_you ? "%s bites you" : "%s bites %s";
+#if TAG_MAJOR_VERSION == 34
+        case AT_REACH_STING: // deliberate fall-through
+#endif
+        case AT_STING: return on_you ? "%s stings you" : "%s stings %s";
+        case AT_SPORE: return on_you ? "%s releases spores at you"
+                                     : "%s releases spores at %s";
+        case AT_TOUCH: return on_you ? "%s touches you" : "%s touches %s";
+        case AT_ENGULF: return on_you ? "%s engulfs you" : "%s engulfs %s";
+        case AT_CLAW: return on_you ? "%s claws you" : "%s claws %s";
+        case AT_PECK: return on_you ? "%s pecks you" : "%s pecks %s";
+        case AT_HEADBUTT: return on_you ? "%s headbutts you" : "%s headbutts %s";
+        case AT_PUNCH: return on_you ? "%s punches you" : "%s punches %s";
+        case AT_KICK: return on_you ? "%s kicks you" : "%s kicks %s";
+        case AT_TENTACLE_SLAP: return on_you ? "%s tentacle-slaps you"
+                                             : "%s tentacle-slaps %s";
+        case AT_TAIL_SLAP: return on_you ? "%s tail-slaps you" : "%s tail-slaps %s";
+        case AT_GORE: return on_you ? "%s gores you" : "%s gores %s";
+        case AT_CONSTRICT: return on_you ? "%s constricts you" : "%s constricts %s";
+        case AT_TRAMPLE: return on_you ? "%s tramples you" : "%s tramples %s";
+        case AT_TRUNK_SLAP: return on_you ? "%s trunk-slaps you"
+                                          : "%s trunk-slaps %s";
+#if TAG_MAJOR_VERSION == 34
+        case AT_SNAP: return on_you ? "%s snaps at you" : "%s snaps at %s";
+        case AT_SPLASH: return on_you ? "%s splashes you" : "%s splashes %s";
+#endif
+        case AT_POUNCE: return on_you ? "%s pounces on you" : "%s pounces on %s";
+        default: return on_you ? "%s hits you" : "%s hits %s";
+    }
 }
 
-void melee_attack::announce_mons_hit()
+string melee_attack::mons_attack_desc()
 {
-    if (!you.can_see(*attacker))
-        return;
+    bool seen = you.can_see(*attacker);
+    bool on_you = defender->is_player();
 
-    string verb, msg;
-    bool with_weapon = (weapon && attacker->type != MONS_DANCING_WEAPON
-                        && attacker->type != MONS_SPECTRAL_WEAPON);
-
-    if (is_reach_attack())
+    string ret;
+    if (seen && is_reach_attack())
     {
         ASSERT(can_reach());
-
-        // i18n: use generic verb for ease of translation
-        verb = attacker->conj_verb("hit");
-
-        if (with_weapon && defender->is_player())
+#if TAG_MAJOR_VERSION == 34
+        if (attk_type == AT_REACH_STING)
         {
-            msg = localize("%s " + verb + " you from afar with %s",
-                           atk_name(DESC_THE), weapon->name(DESC_A));
-        }
-        else if (with_weapon)
-        {
-            msg = localize("%s " + verb + " %s from afar with %s",
-                           atk_name(DESC_THE).c_str(), defender_name(true),
-                           weapon->name(DESC_A).c_str());
-        }
-        else if (defender->is_player())
-        {
-            msg = localize("%s " + verb + " you from afar",
-                            atk_name(DESC_THE));
+            ret = on_you ? "%s stings you from afar"
+                         : "%s stings %s from afar";
         }
         else
+#endif
         {
-            msg = localize("%s " + verb + " %s from afar",
-                           atk_name(DESC_THE), defender_name(true));
+            ret = on_you ? "%s hits you from afar"
+                         : "%s hits %s from afar";
         }
     }
     else
     {
-        verb = attacker->conj_verb(mons_attack_verb());
-
-        if (with_weapon && defender->is_player())
-        {
-            msg = localize("%s " + verb + " you with %s",
-                           atk_name(DESC_THE),
-                           weapon->name(DESC_A));
-        }
-        else if (defender->is_player())
-        {
-            msg = localize("%s " + verb + " you",
-                           atk_name(DESC_THE));
-        }
-        else if (with_weapon)
-        {
-            msg = localize("%s " + verb + " %s with %s",
-                           atk_name(DESC_THE),
-                           defender_name(true),
-                           weapon->name(DESC_A));
-        }
-        else
-        {
-            msg = localize("%s " + verb + " %s",
-                           atk_name(DESC_THE),
-                           defender_name(true));
-        }
+        ret = mons_attack_message();
     }
 
-    attack_strength_message(msg, damage_done, false);
+    ret = localize(ret, atk_name(DESC_THE), defender_name(false));
+
+
+    if (seen && weapon && attacker->type != MONS_DANCING_WEAPON
+        && attacker->type != MONS_SPECTRAL_WEAPON)
+    {
+        ret += localize(" with %s", weapon->name(DESC_A));
+    }
+
+    ret += debug_damage_number(); // empty in non-debug build
+    ret = add_attack_strength_punct(ret, damage_done, false);
+
+    return ret;
 }
 
 void melee_attack::announce_hit()
@@ -2416,7 +2418,7 @@ void melee_attack::announce_hit()
 
     if (attacker->is_monster())
     {
-        announce_mons_hit();
+        mpr_nolocalize(mons_attack_desc());
     }
     else
     {
