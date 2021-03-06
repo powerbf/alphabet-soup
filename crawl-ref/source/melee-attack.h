@@ -118,8 +118,8 @@ private:
     bool mons_attack_effects() override;
     void mons_apply_attack_flavour();
     bool is_reach_attack();
-    string mons_attack_verb();
-    void announce_mons_hit();
+    string mons_attack_message();
+    string mons_attack_desc();
     // TODO: Unify do_poison and poison_monster
     bool mons_do_poison();
     void mons_do_napalm();
