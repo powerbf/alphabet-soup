@@ -43,6 +43,7 @@
 #include "losglobal.h"
 #include "los.h"
 #include "message.h"
+#include "message-util.h"
 #include "mon-behv.h"
 #include "mon-death.h"
 #include "mon-explode.h"
@@ -80,7 +81,6 @@
 #include "tiles-build-specific.h"
 #include "transform.h"
 #include "traps.h"
-#include "variant-msg.h"
 #include "viewchar.h"
 #include "view.h"
 #include "xom.h"
@@ -3768,7 +3768,7 @@ void bolt::affect_player()
                 hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
 
             string obj = you.hp > 0 ? "you" : "your lifeless body";
-            do_variant_message(hit_msg_id, get_the_name(), obj, ".");
+            do_any_person_message(hit_msg_id, get_the_name(), obj, ".");
         }
 
         affect_player_enchantment();
@@ -3821,12 +3821,12 @@ void bolt::affect_player()
         string obj = you.hp > 0 ? "you" : "your lifeless body";
         if (final_dam)
         {
-            do_variant_message(hit_msg_id, get_the_name(), obj,
-                               attack_strength_punctuation(final_dam));
+            do_any_person_message(hit_msg_id, get_the_name(), obj,
+                                  attack_strength_punctuation(final_dam));
         }
         else
         {
-            string msg = get_variant_message(hit_msg_id, get_the_name(), obj);
+            string msg = get_any_person_message(hit_msg_id, get_the_name(), obj);
             msg += localize(" but does no damage.");
             mpr_nolocalize(msg);
         }
@@ -4797,8 +4797,8 @@ void bolt::affect_monster(monster* mon)
                 hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
             if (you.see_cell(mon->pos()))
             {
-                do_variant_message(hit_msg_id, get_the_name(),
-                                   mon->name(DESC_THE), ".");
+                do_any_person_message(hit_msg_id, get_the_name(),
+                                      mon->name(DESC_THE), ".");
             }
             else if (heard && !hit_noise_msg.empty())
                 mprf(MSGCH_SOUND, "%s", hit_noise_msg.c_str());
@@ -4927,15 +4927,16 @@ void bolt::affect_monster(monster* mon)
         // no need to also say "does no damage" here.
         if (postac)
         {
-            string msg = get_variant_message(hit_msg_id, get_the_name(),
-                                             mon->name(DESC_THE));
+            string msg = get_any_person_message(hit_msg_id, get_the_name(),
+                                                mon->name(DESC_THE));
             msg += localize(" but does no damage.");
             mpr_nolocalize(msg);
         }
         else
         {
-            do_variant_message(hit_msg_id, get_the_name(), mon->name(DESC_THE),
-                               attack_strength_punctuation(final));
+            do_any_person_message(hit_msg_id, get_the_name(),
+                                  mon->name(DESC_THE),
+                                  attack_strength_punctuation(final));
         }
     }
     else if (heard && !hit_noise_msg.empty())

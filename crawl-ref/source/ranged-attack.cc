@@ -16,6 +16,7 @@
 #include "god-conduct.h"
 #include "item-prop.h"
 #include "message.h"
+#include "message-util.h"
 #include "mon-behv.h"
 #include "mon-util.h"
 #include "monster.h"
@@ -24,7 +25,6 @@
 #include "teleport.h"
 #include "throw.h"
 #include "traps.h"
-#include "variant-msg.h"
 
 ranged_attack::ranged_attack(actor *attk, actor *defn, item_def *proj,
                              bool tele, actor *blame)
@@ -282,9 +282,9 @@ bool ranged_attack::handle_phase_hit()
         }
         else if (needs_message)
         {
-            string msg = get_variant_message(attack_msg_id,
-                                             projectile->name(DESC_THE),
-                                             defender->name(DESC_THE));
+            string msg = get_any_person_message(attack_msg_id,
+                                                projectile->name(DESC_THE),
+                                                defender->name(DESC_THE));
             msg += localize(" but does no damage.");
             mpr_nolocalize(msg);
         }
@@ -760,6 +760,6 @@ void ranged_attack::announce_hit()
     string punct = debug_damage_number(); // empty in non-debug build
     punct += attack_strength_punctuation(damage_done);
 
-    do_variant_message(attack_msg_id, projectile->name(DESC_THE),
-                       defender_name(false), punct);
+    do_any_person_message(attack_msg_id, projectile->name(DESC_THE),
+                          defender_name(false), punct);
 }
