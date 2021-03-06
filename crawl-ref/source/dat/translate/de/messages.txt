@@ -566,12 +566,6 @@ Ihr schlagt {acc}%s zu blutigem Brei
 %s beats %s into a bloody pulp
 %s schlägt {acc}%s zu blutigem Brei
 %%%%
-%s pierces through you
-%s durchbohrt Euch
-%%%%
-%s pierces through %s
-%s durchbohrt {acc}%s
-%%%%
 %s pelts you
 %s bewirft Euch
 %%%%
@@ -7433,8 +7427,12 @@ Could not create fixed level randart spellbook: %s
 %s %s %s but does no damage.
 %s %s %s verursacht aber keinen Schaden.
 %%%%
-%s pierces through %s %s!
-%s durchbohrt %s %s!
+%%%%
+%s pierces through you
+%s durchbohrt Euch
+%%%%
+%s pierces through %s
+%s durchbohrt {acc}%s
 %%%%
 
 ##################
