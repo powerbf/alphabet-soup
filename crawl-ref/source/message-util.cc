@@ -11,78 +11,66 @@
 #include "stringutil.h"
 
 /*
- * Get localized string for an actor doing something to another actor
- * (Must be two different actors)
- *
- * subject = the actor doing the action
- * subject_seen = is the subject seen?
- * object = the other actor
- * subject_seen = is the object seen?
- * you_subj_msg = msg to be used if subject is player (expect one %s)
- * you_obj_msg = msg to be used if object is player (expect one %s)
- * other_msg = msg to be used otherwise (expect two %s)
+ * Get message where subject is guaranteed to be 3rd person
+ * (Object can be 2nd or 3rd person)
  */
-static string get_actor_message(const actor* subject, bool subject_seen,
-                         const actor* object, bool object_seen,
-                         const string& you_subj_msg,
-                         const string& you_obj_msg,
-                         const string& other_msg)
-
+string get_3rd_person_message(const actor* subject, bool subject_seen,
+                              const actor* object, bool object_seen,
+                              const string& you_obj_msg,
+                              const string& other_msg,
+                              const string& punctuation)
 {
+    string subj = actor_name(subject, DESC_THE, subject_seen);
+
     string msg;
-    if (subject && subject->is_player())
+    if (object && object->is_player())
     {
-        string obj = actor_name(object, DESC_THE, object_seen);
-        msg = localize(you_subj_msg, obj);
-    }
-    else if (object && object->is_player())
-    {
-        string subj = actor_name(subject, DESC_THE, subject_seen);
         msg = localize(you_obj_msg, subj);
     }
     else
     {
-        string subj = actor_name(subject, DESC_THE, subject_seen);
         string obj = actor_name(object, DESC_THE, object_seen);
         msg = localize(other_msg, subj, obj);
+    }
+
+    if (!punctuation.empty())
+    {
+        // We need to insert message into punctuation rather than merely append
+        // because, for example, English "%s!" becomes "¡%s!" in Spanish.
+        // Note: The message is already localized, so we don't localize again.
+        if (contains(punctuation, "%s"))
+            msg = localize(punctuation, LocalizationArg(msg, false));
+        else
+            msg = localize("%s" + punctuation, LocalizationArg(msg, false));
+    }
+
+    if (subject && subject->is_player())
+    {
+        msg += " (bug: 2nd person subject unexpected here)"; // noextract
     }
 
     if (subject && subject == object)
     {
         // reflexive (acting on self) - we didn't expect that here
-        msg += " (bug: reflexive not expected here)"; // noextract
+        msg += " (bug: reflexive unexpected here)"; // noextract
     }
 
     return msg;
 }
 
 /*
- * Like get_actor_message, except subject must be a monster
+ * Output message where subject is guaranteed to be 3rd person
+ * (Object can be 2nd or 3rd person)
  */
-string get_monster_message(const actor* subject, bool subject_seen,
+void do_3rd_person_message(const actor* subject, bool subject_seen,
                            const actor* object, bool object_seen,
                            const string& you_obj_msg,
-                           const string& other_msg)
+                           const string& other_msg,
+                           const string& punctuation)
 {
-    if (subject && subject->is_player())
-        return "";
-
-    return get_actor_message(subject, subject_seen,
-                             object, object_seen,
-                             "", you_obj_msg, other_msg);
-}
-
-/*
- * Like do_actor_message, except subject must be a monster
- */
-void do_monster_message(const actor* subject, bool subject_seen,
-                        const actor* object, bool object_seen,
-                        const string& you_obj_msg,
-                        const string& other_msg)
-{
-    string msg = get_monster_message(subject, subject_seen,
-                                     object, object_seen,
-                                     you_obj_msg, other_msg);
+    string msg = get_3rd_person_message(subject, subject_seen,
+                                        object, object_seen,
+                                        you_obj_msg, other_msg, punctuation);
 
     if (!msg.empty())
         mpr_nolocalize(msg);
