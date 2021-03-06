@@ -124,8 +124,12 @@ string get_any_person_message(variant_msg_type msg_id,
 
     string msg;
     if (starts_with(temp, "ERROR"))
+    {
         msg = temp + ", subj=\"" + subj + "\", obj=\"" + obj + "\""; // noextract
-    else if (variant == MV_YOU_SUBJECT)
+        return msg;
+    }
+
+    if (variant == MV_YOU_SUBJECT)
         msg = localize(temp, obj);
     else if (variant == MV_YOU_OBJECT)
         msg = localize(temp, subj);
