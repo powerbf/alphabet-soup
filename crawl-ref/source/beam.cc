@@ -2695,16 +2695,16 @@ void bolt::affect_place_clouds()
         place_cloud(CLOUD_MIASMA, p, random2(5) + 2, agent());
 
     //XXX: these use the name for a gameplay effect.
-    if (name == "ball of steam") // noextract
+    if (name == "ball of steam")
         place_cloud(CLOUD_STEAM, p, random2(5) + 2, agent());
 
-    if (name == "poison gas") // noextract
+    if (name == "poison gas")
         place_cloud(CLOUD_POISON, p, random2(4) + 3, agent());
 
-    if (name == "blast of choking fumes") // noextract
+    if (name == "blast of choking fumes")
         place_cloud(CLOUD_MEPHITIC, p, random2(4) + 3, agent());
 
-    if (name == "trail of fire") // noextract
+    if (name == "trail of fire")
         place_cloud(CLOUD_FIRE, p, random2(ench_power) + ench_power, agent());
 
     if (origin_spell == SPELL_PETRIFYING_CLOUD)
@@ -5818,7 +5818,7 @@ int bolt::range_used_on_hit() const
         return 0;
     }
     // explosions/clouds and enchants that aren't Line Pass stop.
-    if (is_enchantment() && name != "line pass" // noextract
+    if (is_enchantment() && name != "line pass"
         || is_explosion
         || is_big_cloud())
     {

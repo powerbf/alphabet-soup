@@ -439,9 +439,9 @@ void actor::end_constriction(mid_t whom, bool intentional, bool quiet)
         //   b) we have to list all possibilities longform
         if (intentional)
         {
-            if (attacker_desc == "you") // noextract
+            if (attacker_desc == "you")
                 mprf("You release %s.", target.c_str());
-            else if (target == "you") // noextract
+            else if (target == "you")
                 if (force_plural)
                     mprf("%s release you.", attacker_desc.c_str());
                 else
@@ -454,9 +454,9 @@ void actor::end_constriction(mid_t whom, bool intentional, bool quiet)
         }
         else
         {
-            if (attacker_desc == "you") // noextract
+            if (attacker_desc == "you")
                 mprf("You lose hold of %s.", target.c_str());
-            else if (target == "you") // noextract
+            else if (target == "you")
                 if (force_plural)
                     mprf("%s lose hold of you.", attacker_desc.c_str());
                 else
@@ -781,7 +781,7 @@ void actor::constriction_damage_defender(actor &defender, int duration)
         string target = defender.name(DESC_THE);
 
         string msg;
-        if (attacker_desc == "You") // noextract
+        if (attacker_desc == "You")
             msg = localize("You constrict %s", target);
         else if (defender.is_player())
             if (force_plural)
@@ -808,7 +808,7 @@ void actor::constriction_damage_defender(actor &defender, int duration)
     else if (you.can_see(defender) || defender.is_player())
     {
         string msg;
-        if (defender.is_player()) // noextract
+        if (defender.is_player())
             msg = localize("You are constricted");
         else
             msg = localize("%s is constricted", defender.name(DESC_THE));
