@@ -4214,7 +4214,7 @@ void bolt::handle_stop_attack_prompt(monster* mon)
     else if (flavour == BEAM_ENSLAVE && you.duration[DUR_TOXIC_RADIANCE]
              && mon->res_poison() <= 0)
     {
-        if (otr_stop_summoning_prompt("enslave", mon->name(DESC_THE)))
+        if (otr_stop_summoning_prompt(OTR_STOP_ENSLAVE, mon->name(DESC_THE)))
         {
             beam_cancelled = true;
             finish_beam();
