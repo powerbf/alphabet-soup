@@ -1229,7 +1229,7 @@ string get_ability_desc(const ability_type ability, bool need_title)
         res << name << "\n\n";
     res << lookup << "\n" << _detailed_cost_description(ability);
 
-    const string quote = getQuoteString(name + " ability"); // noextract
+    const string quote = getQuoteString(name + " ability");
     if (!quote.empty())
         res << "\n\n" << quote;
 

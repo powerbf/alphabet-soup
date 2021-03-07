@@ -292,12 +292,12 @@ namespace arena
         if (items.empty())
             return;
 
-        fprintf(file, "%s:\n", mon->name(DESC_PLAIN, true).c_str()); // noextract
+        fprintf(file, "%s:\n", mon->name(DESC_PLAIN, true).c_str());
 
         for (int iidx : items)
         {
             item_def &item = env.item[iidx];
-            fprintf(file, "        %s\n", // noextract
+            fprintf(file, "        %s\n",
                     item.name(DESC_PLAIN, false, true).c_str());
         }
     }
