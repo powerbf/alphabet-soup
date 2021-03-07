@@ -337,18 +337,18 @@ namespace quiver
 
             if (!weapon)
             {
-                const auto form_msgs = get_form(you.form)->uc_attack_msgs;
-                if (form_msgs.medium != VMSG_NONE) // we use med because it mostly has better flavor
+                const auto form_verbs = get_form(you.form)->uc_attack_verbs;
+                if (form_verbs.medium != FAV_DEFAULT) // we use med because it mostly has better flavor
                 {
-                    switch (form_msgs.medium)
+                    switch (form_verbs.medium)
                     {
-                        case VMSG_BITE: return "bite";
-                        case VMSG_CLAW: return "claw";
-                        case VMSG_TOUCH: return "touch";
-                        case VMSG_ENGULF: return "engulf";
-                        case VMSG_RELEASE_SPORES_AT: return "release spores";
-                        case VMSG_SLASH: return "slash";
-                        case VMSG_SMACK: return "smack";
+                        case FAV_BITE: return "bite";
+                        case FAV_CLAW: return "claw";
+                        case FAV_TOUCH: return "touch";
+                        case FAV_ENGULF: return "engulf";
+                        case FAV_RELEASE_SPORES_AT: return "release spores";
+                        case FAV_SLASH: return "slash";
+                        case FAV_SMACK: return "smack";
                         default: return "hit";
                     }
                 }

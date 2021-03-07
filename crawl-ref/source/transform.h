@@ -9,7 +9,6 @@
 
 #include "enum.h"
 #include "player.h"
-#include "variant-msg-type.h"
 
 #define HYDRA_FORM_HEADS_KEY "hydra_form_heads"
 #define MAX_HYDRA_HEADS 20
@@ -24,28 +23,50 @@ enum form_capability
     FC_FORBID
 };
 
-class FormAttackMessages
+// attack verb (NOTE: not the same thing as attack type)
+enum form_attack_verb
+{
+    FAV_DEFAULT,
+    FAV_HIT,
+    FAV_SLASH,
+    FAV_SLICE,
+    FAV_SHRED,
+    FAV_CLAW,
+    FAV_BITE,
+    FAV_MAUL,
+    FAV_SMACK,
+    FAV_PUMMEL,
+    FAV_THRASH,
+    FAV_TOUCH,
+    FAV_ENGULF,
+    FAV_RELEASE_SPORES_AT,
+    FAV_NIP_AT,
+    FAV_GOUGE,
+    FAV_CHOMP
+};
+
+class FormAttackVerbs
 {
 public:
-    FormAttackMessages(
-        variant_msg_type _weak,
-        variant_msg_type _medium,
-        variant_msg_type _strong,
-        variant_msg_type _devastating
+    FormAttackVerbs(
+        form_attack_verb _weak,
+        form_attack_verb _medium,
+        form_attack_verb _strong,
+        form_attack_verb _devastating
     )
         : weak(_weak), medium(_medium), strong(_strong),
           devastating(_devastating)
     { }
 
-    FormAttackMessages(variant_msg_type msg)
-        : weak(msg), medium(msg), strong(msg), devastating(msg)
+    FormAttackVerbs(form_attack_verb verb)
+        : weak(verb), medium(verb), strong(verb), devastating(verb)
     { }
 
 public:
-    const variant_msg_type weak;
-    const variant_msg_type medium;
-    const variant_msg_type strong;
-    const variant_msg_type devastating;
+    const form_attack_verb weak;
+    const form_attack_verb medium;
+    const form_attack_verb strong;
+    const form_attack_verb devastating;
 };
 
 enum duration_power_scaling
@@ -191,7 +212,7 @@ public:
     /// colour of 'weapon' in UI
     const int uc_colour;
     /// a set of verbs to use based on damage done, when using UC in this form
-    const FormAttackMessages uc_attack_msgs;
+    const FormAttackVerbs uc_attack_verbs;
 
     /// has blood (used for sublimation and bloodsplatters)
     const form_capability can_bleed;

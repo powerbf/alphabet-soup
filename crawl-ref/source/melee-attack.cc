@@ -1678,35 +1678,36 @@ string melee_attack::player_attack_message(int damage)
         }
     case -1: // unarmed
     {
-        const FormAttackMessages msgs = get_form(you.form)->uc_attack_msgs;
-        if (msgs.weak != VMSG_NONE)
+        const FormAttackVerbs verbs = get_form(you.form)->uc_attack_verbs;
+        if (verbs.weak != FAV_DEFAULT)
         {
-            variant_msg_type msg_id;
+            form_attack_verb verb;
             if (damage < HIT_WEAK)
-                msg_id = msgs.weak;
+                verb = verbs.weak;
             else if (damage < HIT_MED)
-                msg_id = msgs.medium;
+                verb = verbs.medium;
             else if (damage < HIT_STRONG)
-                msg_id = msgs.strong;
+                verb = verbs.strong;
             else
-                msg_id = msgs.devastating;
+                verb = verbs.devastating;
 
-            switch (msg_id)
+            switch (verb)
             {
-                case VMSG_SLASH: return "You slash %s";
-                case VMSG_SLICE: return "You slice %s";
-                case VMSG_SHRED: return "You shred %s";
-                case VMSG_CLAW: return "You claw %s";
-                case VMSG_BITE: return "You bite %s";
-                case VMSG_MAUL: return "You maul %s";
-                case VMSG_SMACK: return "You smack %s";
-                case VMSG_PUMMEL: return "You pummel %s";
-                case VMSG_THRASH: return "You thrash %s";
-                case VMSG_TOUCH: return "You touch %s";
-                case VMSG_RELEASE_SPORES_AT: return "You release spores at %s";
-                case VMSG_NIP_AT: return "You nip at %s";
-                case VMSG_GOUGE: return "You gouge %s";
-                case VMSG_CHOMP: return "You chomp %s";
+                case FAV_SLASH: return "You slash %s";
+                case FAV_SLICE: return "You slice %s";
+                case FAV_SHRED: return "You shred %s";
+                case FAV_CLAW: return "You claw %s";
+                case FAV_BITE: return "You bite %s";
+                case FAV_MAUL: return "You maul %s";
+                case FAV_SMACK: return "You smack %s";
+                case FAV_PUMMEL: return "You pummel %s";
+                case FAV_THRASH: return "You thrash %s";
+                case FAV_TOUCH: return "You touch %s";
+                case FAV_ENGULF: return "You engulf %s";
+                case FAV_RELEASE_SPORES_AT: return "You release spores at %s";
+                case FAV_NIP_AT: return "You nip at %s";
+                case FAV_GOUGE: return "You gouge %s";
+                case FAV_CHOMP: return "You chomp %s";
                 default: return "You hit %s";
             }
         }
