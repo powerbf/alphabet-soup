@@ -3621,7 +3621,7 @@ struct pie_effect
 
 static const vector<pie_effect> pie_effects = {
     {
-        "plum", // noextract
+        "plum",
         [](const actor &defender) {
             return defender.is_player();
         },
@@ -3636,7 +3636,7 @@ static const vector<pie_effect> pie_effects = {
         10
     },
     {
-        "lemon", // noextract
+        "lemon",
         [](const actor &defender) {
             return defender.is_player() && !you_drinkless();
         },
@@ -3651,7 +3651,7 @@ static const vector<pie_effect> pie_effects = {
         10
     },
     {
-        "blueberry", // noextract
+        "blueberry",
         nullptr,
         [](actor &defender, const bolt &beam) {
             if (defender.is_monster())
@@ -3678,7 +3678,7 @@ static const vector<pie_effect> pie_effects = {
         10
     },
     {
-        "raspberry", // noextract
+        "raspberry",
         [](const actor &defender) {
             return defender.is_player();
         },
@@ -3689,7 +3689,7 @@ static const vector<pie_effect> pie_effects = {
         10
     },
     {
-        "cherry", // noextract
+        "cherry",
         [](const actor &defender) {
             return defender.is_player() || defender.res_fire() < 3;
         },
@@ -3720,7 +3720,7 @@ static const vector<pie_effect> pie_effects = {
         6
     },
     {
-        "moon pie",  // noextract
+        "moon pie",
         [](const actor &defender) {
             return defender.can_polymorph();
         },
