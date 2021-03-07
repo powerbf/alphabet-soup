@@ -19,23 +19,15 @@ enum variant_msg_type
 {
     VMSG_NONE,
 
-    VMSG_HIT,
-    VMSG_ENGULF,
-    VMSG_SKEWER,
-    VMSG_WEAKLY_HIT,
-
     // elemental effects
     VMSG_MELT,
     VMSG_BURN,
     VMSG_FREEZE,
     VMSG_ELECTROCUTE,
-    VMSG_CRUSH,
 
+    VMSG_CRUSH,
     VMSG_SHATTER,
     VMSG_ENVENOM,
     VMSG_DRAIN,
     VMSG_BLAST,
-
-    // for hailstorm spell
-    VMSG_PELT,
 };

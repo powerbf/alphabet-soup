@@ -3179,7 +3179,7 @@ spret qazlal_upheaval(coord_def target, bool quiet, bool fail, dist *player_targ
             beam.name     = "blast of magma";
             beam.flavour  = BEAM_LAVA;
             beam.colour   = RED;
-            beam.hit_msg_id = VMSG_ENGULF;
+            beam.hit_verb = BHV_ENGULF;
             message       = "Magma suddenly erupts from the ground!";
             break;
         case 1:

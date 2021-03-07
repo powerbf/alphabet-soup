@@ -330,7 +330,7 @@ static bool _iood_hit(monster& mon, const coord_def &pos, bool big_boom = false)
     if (dist < 3)
         beam.name = "wavering " + beam.name;
     if (dist < 2)
-        beam.hit_msg_id = VMSG_WEAKLY_HIT;
+        beam.hit_verb = BHV_WEAKLY_HIT;
     beam.ex_size = 1;
     beam.loudness = 7;
 

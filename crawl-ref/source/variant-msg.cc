@@ -12,20 +12,7 @@ using namespace std;
 
 static map<variant_msg_type, vector<string> > _messages =
 {
-    {VMSG_HIT,
-        {"You hit %s", "%s hits you", "%s hits %s"}},
-    {VMSG_ENGULF,
-        {"You engulf %s", "%s engulfs you", "%s engulfs %s"}},
-    {VMSG_SKEWER,
-        {"You skewer %s", "%s skewers you", "%s skewers %s"}},
-    {VMSG_WEAKLY_HIT,
-        {"You weakly hit %s", "%s weakly hits you", "%s weakly hits %s"}},
-
-    // for hailstorm spell
-    {VMSG_PELT,
-        {"", "%s pelts you", "%s pelts %s"}},
-
-    // elemental damage - reflexive needed because of beams/spells
+    // elemental damage - reflexive needed?
     {VMSG_MELT,
         {"You melt %s", "%s melts you", "%s melts %s",
          "You melt yourself", "%s is melted"}},
@@ -49,7 +36,6 @@ static map<variant_msg_type, vector<string> > _messages =
         {"You drain %s", "%s drains you", "%s drains %s"}},
     {VMSG_BLAST,
         {"You blast %s", "%s blasts you", "%s blasts %s"}},
-
 };
 
 static string _error;

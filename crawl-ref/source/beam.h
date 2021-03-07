@@ -16,13 +16,25 @@
 #include "random.h"
 #include "ray.h"
 #include "spl-cast.h"
-#include "variant-msg-type.h"
 #include "zap-type.h"
 
 using std::vector;
 
 #define BEAM_STOP       1000        // all beams stopped by subtracting this
                                     // from remaining range
+
+enum beam_hit_verb
+{
+    BHV_NONE,
+    BHV_HIT,
+    BHV_BURN,
+    BHV_FREEZE,
+    BHV_PELT,
+    BHV_ENGULF,
+    BHV_SKEWER,
+    BHV_PIERCE_THROUGH,
+    BHV_WEAKLY_HIT
+};
 
 class monster;
 
@@ -83,10 +95,10 @@ struct bolt
                                   // or if the actor dies prematurely.
     string name = "";
     string short_name = "";
-    variant_msg_type hit_msg_id;  // The message to use when this beam hits
-                                  // something. If not set, will use
-                                  // "engulfs" if an explosion or cloud
-                                  // and "hits" otherwise.
+    beam_hit_verb hit_verb = BHV_NONE; // The verb to use when this beam hits
+                                       // something. If not set, will use
+                                       // "engulfs" if an explosion or cloud
+                                       // and "hits" otherwise.
     int    loudness = 0;          // Noise level on hitting or exploding.
     string hit_noise_msg = "";    // Message to give player for each hit
                                   // monster that isn't in view.
@@ -241,6 +253,8 @@ private:
     int range_used_on_hit() const;
     bool bush_immune(const monster &mons) const;
     int apply_lighting(int base_hit, const actor &target) const;
+    string get_hit_message(const string& object) const;
+    void do_hit_message(const string& object, const string& punctuation) const;
 
     set<string> message_cache;
     void emit_message(const char* msg);
