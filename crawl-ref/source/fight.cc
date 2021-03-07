@@ -1193,11 +1193,11 @@ bool stop_attack_prompt(targeter &hitfunc, const char* verb,
  * penance prompt, because we don't cause penance when monsters enter line of
  * sight when OTR is active, regardless of how they entered LOS.
  *
- * @param verb    The verb to be used in the prompt. Defaults to "summon".
+ * @param prompt  The prompt to be used. Defaults to "summon".
  * @param target  The object of the verb
  * @return        True if the player wants to abort.
  */
-bool otr_stop_summoning_prompt(const string& verb, const string& target)
+bool otr_stop_summoning_prompt(otr_stop_prompt prompt_id, const string& target)
 {
     if (!you.duration[DUR_TOXIC_RADIANCE])
         return false;
@@ -1209,10 +1209,14 @@ bool otr_stop_summoning_prompt(const string& verb, const string& target)
         return false;
 
     string prompt;
-    if (target.empty())
-        prompt = localize("Really " + verb + " while emitting a toxic aura?");
+    if (prompt_id == OTR_STOP_SUMMON_FOREST)
+        prompt = localize("Really summon a forest while emitting a toxic aura?");
+    else if (prompt_id == OTR_STOP_CALL_DRAGONS)
+        prompt = localize("Really call dragons while emitting a toxic aura?");
+    else if (prompt_id == OTR_STOP_ENSLAVE)
+        prompt = localize("Really enslave while emitting a toxic aura?");
     else
-        prompt = localize("Really " + verb + " %s while emitting a toxic aura?", target);
+        prompt = localize("Really summon while emitting a toxic aura?");
 
     if (yesno(prompt.c_str(), false, 'n'))
         return false;
