@@ -95,6 +95,11 @@ int ranged_attack::post_roll_to_hit_modifiers(int mhit, bool random)
     return modifiers;
 }
 
+bool ranged_attack::is_penetrating_attack() const
+{
+    return ::is_penetrating_attack(*attacker, weapon, *projectile);
+}
+
 bool ranged_attack::attack()
 {
     if (!handle_phase_attempted())
@@ -254,7 +259,7 @@ bool ranged_attack::handle_phase_dodged()
 bool ranged_attack::handle_phase_hit()
 {
     // XXX: this kind of hijacks the shield block check
-    if (!is_penetrating_attack(*attacker, weapon, *projectile))
+    if (!is_penetrating_attack())
         range_used = BEAM_STOP;
 
     if (projectile->is_type(OBJ_MISSILES, MI_DART))
@@ -373,7 +378,7 @@ bool ranged_attack::ignores_shield(bool verbose)
     if (defender->is_player() && player_omnireflects())
         return false;
 
-    if (is_penetrating_attack(*attacker, weapon, *projectile))
+    if (is_penetrating_attack())
     {
         if (verbose)
         {
@@ -746,7 +751,7 @@ void ranged_attack::set_attack_verb(int/* damage*/)
 
 string ranged_attack::get_hit_message()
 {
-    if (is_penetrating_attack(*attacker, weapon, *projectile))
+    if (is_penetrating_attack())
     {
         return get_3rd_person_message(projectile->name(DESC_THE),
                                       defender_name(false),

@@ -135,6 +135,49 @@ bool bolt::is_omnireflectable() const
             && origin_spell != SPELL_GLACIATE;
 }
 
+string bolt::get_hit_message(const string& object) const
+{
+    string msg;
+    if (object == "you")
+    {
+        switch (hit_verb)
+        {
+        case BHV_BURN: msg = "%s burns you"; break;
+        case BHV_FREEZE: msg = "%s freezes you"; break;
+        case BHV_PELT: msg = "%s pelts you"; break;
+        case BHV_ENGULF: msg = "%s engulfs you"; break;
+        case BHV_SKEWER: msg = "%s skewers you"; break;
+        case BHV_PIERCE_THROUGH: msg = "%s pierces through you"; break;
+        case BHV_WEAKLY_HIT: msg = "%s weakly hits you"; break;
+        default: msg = "%s hits you";
+        }
+        return localize(msg, get_the_name());
+    }
+    else
+    {
+        switch (hit_verb)
+        {
+        case BHV_BURN: msg = "%s burns %s"; break;
+        case BHV_FREEZE: msg = "%s freezes %s"; break;
+        case BHV_PELT: msg = "%s pelts %s"; break;
+        case BHV_ENGULF: msg = "%s engulfs %s"; break;
+        case BHV_SKEWER: msg = "%s skewers %s"; break;
+        case BHV_PIERCE_THROUGH: msg = "%s pierces through %s"; break;
+        case BHV_WEAKLY_HIT: msg = "%s weakly hits %s"; break;
+        default: msg = "%s hits %s";
+        }
+        return localize(msg, get_the_name(), object);
+    }
+}
+
+void bolt::do_hit_message(const string& object, const string& punctuation) const
+{
+    string msg = get_hit_message(object);
+    if (!punctuation.empty())
+        msg = add_punctuation(msg, punctuation, false);
+    mpr_nolocalize(msg);
+}
+
 void bolt::emit_message(const char* m)
 {
     const string message = m;
@@ -856,9 +899,9 @@ void bolt::fake_flavour()
     else if (real_flavour == BEAM_CRYSTAL && flavour == BEAM_CRYSTAL)
     {
         flavour = random_choose(BEAM_FIRE, BEAM_COLD);
-        hit_msg_id = (flavour == BEAM_FIRE) ? VMSG_BURN :
-                     (flavour == BEAM_COLD) ? VMSG_FREEZE
-                                          : VMSG_NONE;
+        hit_verb = (flavour == BEAM_FIRE) ? BHV_BURN :
+                     (flavour == BEAM_COLD) ? BHV_FREEZE
+                                          : BHV_NONE;
     }
 }
 
@@ -3741,9 +3784,12 @@ void bolt::affect_player()
         ranged_attack attk(agent(true), &you, item, use_target_as_pos, agent());
         attk.attack();
         // fsim purposes - throw_it detects if an attack connected through
-        // hit message
-        if (attk.ev_margin >= 0 && hit_msg_id == VMSG_NONE)
-            hit_msg_id = attk.attack_msg_id;
+        // hit_verb
+        if (attk.ev_margin >= 0 && hit_verb == BHV_NONE)
+        {
+            hit_verb = attk.is_penetrating_attack() ? BHV_PIERCE_THROUGH
+                                                    : BHV_HIT;
+        }
         if (attk.reflected)
             reflect();
         extra_range_used += attk.range_used;
@@ -3764,11 +3810,11 @@ void bolt::affect_player()
     {
         if (real_flavour == BEAM_CHAOS || real_flavour == BEAM_RANDOM)
         {
-            if (hit_msg_id == VMSG_NONE)
-                hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
+            if (hit_verb == BHV_NONE)
+                hit_verb = engulfs ? BHV_ENGULF : BHV_HIT;
 
             string obj = you.hp > 0 ? "you" : "your lifeless body";
-            do_any_person_message(hit_msg_id, get_the_name(), obj, ".");
+            do_hit_message(obj, ".");
         }
 
         affect_player_enchantment();
@@ -3813,20 +3859,19 @@ void bolt::affect_player()
     int final_dam = check_your_resists(pre_res_dam, flavour, "", this, false);
 
     // Tell the player the beam hit
-    if (hit_msg_id == VMSG_NONE)
-        hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
+    if (hit_verb == BHV_NONE)
+        hit_verb = engulfs ? BHV_ENGULF : BHV_HIT;
 
     if (flavour != BEAM_VISUAL && !is_enchantment())
     {
         string obj = you.hp > 0 ? "you" : "your lifeless body";
         if (final_dam)
         {
-            do_any_person_message(hit_msg_id, get_the_name(), obj,
-                                  attack_strength_punctuation(final_dam));
+            do_hit_message(obj, attack_strength_punctuation(final_dam));
         }
         else
         {
-            string msg = get_any_person_message(hit_msg_id, get_the_name(), obj);
+            string msg = get_hit_message(obj);
             msg += localize(" but does no damage.");
             mpr_nolocalize(msg);
         }
@@ -4777,9 +4822,12 @@ void bolt::affect_monster(monster* mon)
         ranged_attack attk(ag, mon, item, use_target_as_pos, agent());
         attk.attack();
         // fsim purposes - throw_it detects if an attack connected through
-        // hit message
-        if (attk.ev_margin >= 0 && hit_msg_id == VMSG_NONE)
-            hit_msg_id = attk.attack_msg_id;
+        // hit_verb
+        if (attk.ev_margin >= 0 && hit_verb == BHV_NONE)
+        {
+            hit_verb = attk.is_penetrating_attack() ? BHV_PIERCE_THROUGH
+                                                    : BHV_HIT;
+        }
         if (attk.reflected)
             reflect();
         extra_range_used += attk.range_used;
@@ -4793,12 +4841,11 @@ void bolt::affect_monster(monster* mon)
     {
         if (real_flavour == BEAM_CHAOS || real_flavour == BEAM_RANDOM)
         {
-            if (hit_msg_id == VMSG_NONE)
-                hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
+            if (hit_verb == BHV_NONE)
+                hit_verb = engulfs ? BHV_ENGULF : BHV_HIT;
             if (you.see_cell(mon->pos()))
             {
-                do_any_person_message(hit_msg_id, get_the_name(),
-                                      mon->name(DESC_THE), ".");
+                do_hit_message(mon->name(DESC_THE), ".");
             }
             else if (heard && !hit_noise_msg.empty())
                 mprf(MSGCH_SOUND, "%s", hit_noise_msg.c_str());
@@ -4919,24 +4966,22 @@ void bolt::affect_monster(monster* mon)
     if (you.see_cell(mon->pos()))
     {
         // Monsters are never currently helpless in ranged combat.
-        if (hit_msg_id == VMSG_NONE)
-            hit_msg_id = engulfs ? VMSG_ENGULF : VMSG_HIT;
+        if (hit_verb == BHV_NONE)
+            hit_verb = engulfs ? BHV_ENGULF : BHV_HIT;
 
         // If the beam did no damage because of resistances,
         // mons_adjust_flavoured below will print "%s completely resists", so
         // no need to also say "does no damage" here.
         if (postac)
         {
-            string msg = get_any_person_message(hit_msg_id, get_the_name(),
-                                                mon->name(DESC_THE));
+            string msg = get_hit_message(mon->name(DESC_THE));
             msg += localize(" but does no damage.");
             mpr_nolocalize(msg);
         }
         else
         {
-            do_any_person_message(hit_msg_id, get_the_name(),
-                                  mon->name(DESC_THE),
-                                  attack_strength_punctuation(final));
+            do_hit_message(mon->name(DESC_THE),
+                           attack_strength_punctuation(final));
         }
     }
     else if (heard && !hit_noise_msg.empty())

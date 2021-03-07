@@ -2973,7 +2973,7 @@ spret cast_glaciate(actor *caster, int pow, coord_def aim, bool fail)
     beam.range             = 1;
     beam.hit               = AUTOMATIC_HIT;
     beam.source_id         = caster->mid;
-    beam.hit_msg_id        = VMSG_ENGULF;
+    beam.hit_verb          = BHV_ENGULF;
     beam.origin_spell      = SPELL_GLACIATE;
     beam.set_agent(caster);
 #ifdef USE_TILE
@@ -3169,7 +3169,7 @@ static void _hailstorm_cell(coord_def where, int pow, actor *agent)
     beam.draw_delay = 10;
     beam.source     = where;
     beam.target     = where;
-    beam.hit_msg_id = VMSG_PELT;
+    beam.hit_verb = BHV_PELT;
 
     monster *mons = monster_at(where);
     if (mons && mons->is_icy())

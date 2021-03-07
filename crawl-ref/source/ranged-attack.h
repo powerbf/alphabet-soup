@@ -20,6 +20,7 @@ public:
     bool attack();
     int calc_to_hit(bool random) override;
     int post_roll_to_hit_modifiers(int mhit, bool random) override;
+    bool is_penetrating_attack() const;
 
 private:
     /* Attack Phases */
