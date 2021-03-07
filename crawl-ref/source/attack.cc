@@ -60,7 +60,7 @@ attack::attack(actor *attk, actor *defn, actor *blame)
       stab_attempt(false), stab_bonus(0), ev_margin(0), weapon(nullptr),
       damage_brand(SPWPN_NORMAL), wpn_skill(SK_UNARMED_COMBAT),
       shield(nullptr), art_props(0), unrand_entry(nullptr),
-      attacker_to_hit_penalty(0), attack_msg_id(VMSG_NONE),
+      attacker_to_hit_penalty(0),
       no_damage_message(), special_damage_message(), aux_attack(), aux_verb(),
       attacker_armour_tohit_penalty(0), attacker_shield_tohit_penalty(0),
       defender_shield(nullptr), fake_chaos_attack(false), simu(false),
@@ -1219,7 +1219,6 @@ int attack::calc_damage()
 
         damage = apply_damage_modifiers(damage);
 
-        set_attack_verb(damage);
         return apply_defender_ac(damage, damage_max);
     }
     else
@@ -1250,7 +1249,6 @@ int attack::calc_damage()
         damage = apply_defender_ac(damage);
 
         damage = max(0, damage);
-        set_attack_verb(damage);
 
         return damage;
     }

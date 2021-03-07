@@ -1524,10 +1524,6 @@ int melee_attack::player_apply_final_multipliers(int damage)
     return damage;
 }
 
-void melee_attack::set_attack_verb(int damage)
-{
-}
-
 string melee_attack::player_attack_message(int damage)
 {
     int weap_type = WPN_UNKNOWN;
@@ -2312,13 +2308,13 @@ bool melee_attack::is_reach_attack()
     return dist > 1;
 }
 
-/* Select the attack verb for attacker
+/* Select the attack message for attacker
  *
  * If klown, select randomly from klown_attack, otherwise check for any special
  * case attack verbs (tentacles or door/fountain-mimics) and if all else fails,
  * select an attack verb from attack_types based on the ENUM value of attk_type.
  *
- * Returns (attack_verb)
+ * Returns (attack message)
  */
 string melee_attack::mons_attack_message()
 {

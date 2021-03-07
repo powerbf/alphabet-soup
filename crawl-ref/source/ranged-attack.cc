@@ -745,10 +745,6 @@ bool ranged_attack::player_good_stab()
     return false;
 }
 
-void ranged_attack::set_attack_verb(int/* damage*/)
-{
-}
-
 string ranged_attack::get_hit_message()
 {
     if (is_penetrating_attack())
