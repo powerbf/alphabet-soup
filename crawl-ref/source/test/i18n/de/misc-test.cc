@@ -41,11 +41,11 @@ int main()
     databaseSystemInit();
     init_localization("de");
 
-    string s = "Deine Zaubersprüche";
+    string s = "Eure Zaubersprüche";
     cout << "strwidth(\"" << s << "\") = " << strwidth(s) << endl;
     /*char32_t c;
     utf8towc(&c, "ü");
     printf("%02X\n", c);*/
     string result = localize("%-34.34s", "Your Spells");
-    show_result(result, "Deine Zaubersprüche               ");
+    show_result(result, "Eure Zaubersprüche                ");
 }
