@@ -62,6 +62,7 @@ const vector<string> test_items = {
     "the +11 broad axe \"Jetioplo\" (weapon) {vorpal, Str+4}",
     "the +9 trident of the Crushed Allies {vorpal, Fragile +Inv Str+3 Int+3}",
     "the +7 pair of quick blades \"Gyre\" and \"Gimble\"",
+    "+7 pair of quick blades",
 
 
     "a long sword, 30 bolts and an arbalest",
@@ -113,6 +114,7 @@ const vector<string> expected = {
     "die +11 Breitaxt \"Jetioplo\" (Waffe) {Vorpal, Stä+4}",
     "der +9 Dreizack von \"the Crushed Allies\" {vorpal, zerbrechlich +Uns Stä+3 Int+3}",
     "das +7 Paar Schnellklingen \"Gyre\" und \"Gimble\"",
+    "+7 Paar Schnellklingen",
 
 
     "ein Langschwert, 30 Bolzen und eine Armbrust"
@@ -327,9 +329,8 @@ int num_fails = 0;
 static void test(const string& context, const string& item, const string& expect)
 {
     string fmt = "{" + context + "}%s";
-    LocalizationArg f = LocalizationArg(fmt);
     LocalizationArg it = LocalizationArg(item);
-    string actual = localize(f, it);
+    string actual = localize(fmt, it);
 
     string status;
     if (actual == expect)
