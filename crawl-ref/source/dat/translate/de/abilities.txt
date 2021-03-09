@@ -68,6 +68,9 @@ Selbst schächten
 Hop
 Hüpfen
 %%%%
+Rolling Charge
+Rollender Ansturm
+%%%%
 # NOTE: "Evoke" abilities come from items and use the Evocations skill,
 # so we need to distinguish between these and similar god-given or intrinsic abilities
 # Example: "Evoke Berserk Rage" (item ability) vs "Berserk" (god-given ability)
