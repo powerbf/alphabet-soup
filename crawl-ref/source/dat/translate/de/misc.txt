@@ -8,15 +8,56 @@
 # List construction
 ####################
 %%%%
-%s, %s
-%s, %s
+", "
+", "
 %%%%
-%s and %s
-%s und %s
+" and "
+" und "
 %%%%
-%s or %s
-%s oder %s
+" or "
+" oder "
 %%%%
+
+##############################
+# Attack strength punctuation
+##############################
+# Exclamation marks show amount of damage.
+# The %s is a placeholder for the sentence. It's done this way
+# because some languages don't simply append punctuation to the end.
+# For example, in Spanish, you would translate "%s!" as "¡%s!"
+%%%%
+%s.
+%s.
+%%%%
+%s!
+%s!
+%%%%
+%s!!
+%s!!
+%%%%
+%s!!!
+%s!!!
+%%%%
+%s!!!!
+%s!!!!
+%%%%
+%s!!!!!
+%s!!!!!
+%%%%
+%s!!!!!!
+%s!!!!!!
+%%%%
+%s!!!!!!!
+%s!!!!!!!
+%%%%
+%s!!!!!!!!
+%s!!!!!!!!
+%%%%
+%s!!!!!!!!!
+%s!!!!!!!!!
+%%%%
+%s!!!!!!!!!!
+%s!!!!!!!!!!
 
 ####################
 # Keys and key combos
@@ -107,3 +148,4 @@ Strg-Y
 Ctrl-Z
 Strg-Z
 %%%%
+
