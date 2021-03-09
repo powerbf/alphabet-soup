@@ -941,17 +941,6 @@ void attack_strength_message(const string& msg, int dmg, bool localise_msg)
     mpr_nolocalise(text); // don't localise the message a 2nd time
 }
 
-/* Returns evasion adverb
- *
- */
-string attack::evasion_margin_adverb()
-{
-    return (ev_margin <= -20) ? " completely" :
-           (ev_margin <= -12) ? "" :
-           (ev_margin <= -6)  ? " closely"
-                              : " barely";
-}
-
 void attack::stab_message()
 {
     defender->props["helpless"] = true;

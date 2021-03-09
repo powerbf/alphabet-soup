@@ -5466,12 +5466,26 @@ void mons_cast(monster* mons, bolt pbolt, spell_type spell_cast,
         damage_taken = foe->beam_resists(pbolt, damage_taken, false);
         damage_taken = foe->apply_ac(damage_taken);
 
-        if (you.can_see(*foe))
+        if (foe->is_player())
         {
-                mprf("The water %s and strikes %s%s",
-                        foe->airborne() ? "rises up" : "swirls",
-                        foe->name(DESC_THE).c_str(),
-                        attack_strength_punctuation(damage_taken).c_str());
+            string msg;
+            if (foe->airborne())
+                msg = "The water rises up and strikes you";
+            else
+                msg = "The water swirls and strikes you";
+
+            attack_strength_message(msg, damage_taken, true);
+        }
+        else if (you.can_see(*foe))
+        {
+            string msg;
+            if (foe->airborne())
+                msg = "The water rises up and strikes %s";
+            else
+                msg = "The water swirls and strikes %s";
+
+            msg = localise(msg, foe->name(DESC_THE));
+            attack_strength_message(msg, damage_taken, false);
         }
 
         foe->hurt(mons, damage_taken, BEAM_MISSILE, KILLED_BY_BEAM,
@@ -5498,13 +5512,21 @@ void mons_cast(monster* mons, bolt pbolt, spell_type spell_cast,
 
         damage_taken = foe->apply_ac(damage_taken);
 
-        if (you.can_see(*foe))
+        if (foe->is_player())
         {
-                mprf("The air twists around and %sstrikes %s%s%s",
-                        foe->airborne() ? "violently " : "",
-                        foe->name(DESC_THE).c_str(),
-                        foe->airborne() ? " in flight" : "",
-                        attack_strength_punctuation(damage_taken).c_str());
+            string msg = foe->airborne()
+                ? "The air twists around and violently strikes you in flight"
+                : "The air twists around and strikes you";
+            attack_strength_message(msg, damage_taken, true);
+        }
+        else if (you.can_see(*foe))
+        {
+            string msg = foe->airborne()
+                ? "The air twists around and violently strikes %s in flight"
+                : "The air twists around and strikes %s";
+
+            msg = localise(msg, foe->name(DESC_THE));
+            attack_strength_message(msg, damage_taken, false);
         }
 
         foe->hurt(mons, damage_taken, BEAM_MISSILE, KILLED_BY_BEAM,
