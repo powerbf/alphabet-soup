@@ -25,6 +25,42 @@ string add_punctuation(const string& msg, const string& punctuation, bool locali
         return localize("%s" + punctuation, LocalizationArg(msg, localize_msg));
 }
 
+/*
+ * Replace all instances of given @foo@ parameter with localized value
+ * If first letter of tag is uppercase then value will be capitalised also
+ */
+string replace_tag(const string& msg, const string& tag, const string& value,
+                   bool localize_msg)
+{
+    string ret = localize_msg ? localize(msg) : msg;
+
+    size_t tag_pos;
+    while ((tag_pos = ret.find(tag)) != string::npos)
+    {
+        size_t replace_pos = tag_pos;
+        size_t replace_len = tag.length();
+
+        // check for context qualifier
+        string context;
+        if (tag_pos > 2 && ret[tag_pos-1] == '}')
+        {
+            size_t ctxt_pos = ret.rfind('{', tag_pos-1);
+            if (ctxt_pos != string::npos)
+            {
+                context = ret.substr(ctxt_pos, tag_pos - ctxt_pos);
+                replace_pos = ctxt_pos;
+                replace_len += context.length();
+            }
+        }
+
+        string val = localize(context + "%s", value);
+        if (tag.length() > 1 && isupper(tag[1]))
+            val = uppercase_first(val);
+        ret.replace(replace_pos, replace_len, val);
+    }
+    return ret;
+}
+
 /* Returns an actor's name
  *
  * Takes into account actor visibility/invisibility and the type of description

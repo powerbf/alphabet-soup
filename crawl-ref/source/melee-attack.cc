@@ -817,7 +817,7 @@ bool melee_attack::attack()
             && ev_margin >= 0
             && one_chance_in(20))
         {
-            simple_god_message(" blocks your attack.", GOD_ELYVILON);
+            simple_god_message("%s blocks your attack.", GOD_ELYVILON);
             handle_phase_end();
             return false;
         }
@@ -961,30 +961,31 @@ bool melee_attack::check_unrand_effects()
 class AuxAttackType
 {
 public:
-    AuxAttackType(int _damage, string _name) :
-    damage(_damage), name(_name) { };
+    AuxAttackType(int _damage, string _name, string _message) :
+    damage(_damage), name(_name), message(_message) { };
 public:
     virtual int get_damage() const { return damage; };
     virtual int get_brand() const { return SPWPN_NORMAL; };
     virtual string get_name() const { return name; };
-    virtual string get_verb() const { return get_name(); };
+    virtual string get_message() const { return message; };
 protected:
     const int damage;
     const string name;
+    const string message;
 };
 
 class AuxConstrict: public AuxAttackType
 {
 public:
     AuxConstrict()
-    : AuxAttackType(0, "grab") { };
+    : AuxAttackType(0, "grab", "You grab %s") { };
 };
 
 class AuxKick: public AuxAttackType
 {
 public:
     AuxKick()
-    : AuxAttackType(5, "kick") { };
+    : AuxAttackType(5, "kick", "You kick %s") { };
 
     int get_damage() const override
     {
@@ -1005,13 +1006,13 @@ public:
         return damage + you.get_mutation_level(MUT_TENTACLE_SPIKE);
     }
 
-    string get_verb() const override
+    string get_message() const override
     {
         if (you.has_usable_talons())
-            return "claw";
+            return "You claw %s.";
         if (you.get_mutation_level(MUT_TENTACLE_SPIKE))
-            return "pierce";
-        return name;
+            return "You pierce %s.";
+        return message;
     }
 
     string get_name() const override
@@ -1026,7 +1027,7 @@ class AuxHeadbutt: public AuxAttackType
 {
 public:
     AuxHeadbutt()
-    : AuxAttackType(5, "headbutt") { };
+    : AuxAttackType(5, "headbutt", "You headbutt %s") { };
 
     int get_damage() const override
     {
@@ -1038,14 +1039,14 @@ class AuxPeck: public AuxAttackType
 {
 public:
     AuxPeck()
-    : AuxAttackType(6, "peck") { };
+    : AuxAttackType(6, "peck", "You peck %s") { };
 };
 
 class AuxTailslap: public AuxAttackType
 {
 public:
     AuxTailslap()
-    : AuxAttackType(6, "tail-slap") { };
+    : AuxAttackType(6, "tail-slap", "You tail-slap %s") { };
 
     int get_damage() const override
     {
@@ -1063,7 +1064,7 @@ class AuxPunch: public AuxAttackType
 {
 public:
     AuxPunch()
-    : AuxAttackType(5, "punch") { };
+    : AuxAttackType(5, "punch", "You punch %s") { };
 
     int get_damage() const override
     {
@@ -1092,13 +1093,27 @@ public:
         return name;
     }
 
+    string get_message() const override
+    {
+        if (you.form == transformation::blade_hands)
+            return "You slash %s";
+
+        if (you.has_usable_claws())
+            return "You claw %s";
+
+        if (you.has_usable_tentacles())
+            return "You tentacle-slap %s";
+
+        return message;
+    }
+
 };
 
 class AuxBite: public AuxAttackType
 {
 public:
     AuxBite()
-    : AuxAttackType(0, "bite") { };
+    : AuxAttackType(0, "bite", "You bite %s") { };
 
     int get_damage() const override
     {
@@ -1130,7 +1145,7 @@ class AuxPseudopods: public AuxAttackType
 {
 public:
     AuxPseudopods()
-    : AuxAttackType(4, "bludgeon") { };
+    : AuxAttackType(4, "bludgeon", "You bludgeon %s") { };
 
     int get_damage() const override
     {
@@ -1142,7 +1157,7 @@ class AuxTentacles: public AuxAttackType
 {
 public:
     AuxTentacles()
-    : AuxAttackType(12, "squeeze") { };
+    : AuxAttackType(12, "squeeze", "You squeeze %s") { };
 };
 
 static const AuxConstrict   AUX_CONSTRICT = AuxConstrict();
@@ -1187,7 +1202,7 @@ void melee_attack::player_aux_setup(unarmed_attack_type atk)
     aux_damage = aux->get_damage();
     damage_brand = (brand_type)aux->get_brand();
     aux_attack = aux->get_name();
-    aux_verb = aux->get_verb();
+    aux_message = aux->get_message();
 
     if (wu_jian_attack != WU_JIAN_ATTACK_NONE)
         wu_jian_attack = WU_JIAN_ATTACK_TRIGGERED_AUX;
@@ -1240,7 +1255,7 @@ bool melee_attack::player_aux_test_hit()
         && to_hit >= evasion
         && one_chance_in(20))
     {
-        simple_god_message(" blocks your attack.", GOD_ELYVILON);
+        simple_god_message("%s blocks your attack.", GOD_ELYVILON);
         return false;
     }
 
@@ -1411,9 +1426,12 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
         }
         else // no damage was done
         {
-            mprf(("You " + aux_verb + " %s%s").c_str(),
-                 defender->name(DESC_THE).c_str(),
-                 you.can_see(*defender)? " but do no damage." : ".");
+            string msg = localize(aux_message, defender->name(DESC_THE));
+            if (you.can_see(*defender))
+                msg += localize(" but do no damage.");
+            else
+                msg = add_punctuation(msg, ".", false);
+            mpr_nolocalize(msg);
         }
     }
     else // defender was just alive, so this call should be ok?
@@ -1430,7 +1448,7 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
 
 void melee_attack::player_announce_aux_hit()
 {
-    string msg = localize("You " + aux_verb + " %s", defender->name(DESC_THE));
+    string msg = localize(aux_message, defender->name(DESC_THE));
     msg += debug_damage_number();
     attack_strength_message(msg, damage_done, false);
 }
@@ -1449,30 +1467,26 @@ string melee_attack::player_why_missed()
             (attacker_shield_tohit_penalty
              && to_hit + attacker_shield_tohit_penalty >= ev);
 
-        const item_def *armour = you.slot_item(EQ_BODY_ARMOUR, false);
-        const string armour_name = armour ? armour->name(DESC_BASENAME)
-                                          : string("armour");
-
         if (armour_miss && !shield_miss)
-            return "Your armour prevents you from hitting ";
+            return "Your armour prevents you from hitting %s.";
         else if (shield_miss && !armour_miss)
-            return "Your shield prevents you from hitting ";
+            return "Your shield prevents you from hitting %s.";
         else
-            return "Your shield and armour prevent you from hitting ";
+            return "Your shield and armour prevent you from hitting %s.";
     }
 
-    return (ev_margin <= -20) ? "You completely miss " :
-           (ev_margin <= -12) ? "You miss " :
-           (ev_margin <= -6)  ? "You closely miss "
-                              : "You barely miss ";
+    return (ev_margin <= -20) ? "You completely miss %s." :
+           (ev_margin <= -12) ? "You miss %s." :
+           (ev_margin <= -6)  ? "You closely miss %s."
+                              : "You barely miss %s.";
 }
 
 void melee_attack::player_warn_miss()
 {
     did_hit = false;
 
-    string msg = player_why_missed() + "%s.";
-    mprf(msg.c_str(), defender->name(DESC_THE).c_str());
+    mprf(player_why_missed().c_str(),
+         defender->name(DESC_THE).c_str());
 }
 
 // A couple additive modifiers that should be applied to both unarmed and
@@ -1896,7 +1910,7 @@ bool melee_attack::consider_decapitation(int dam, int damage_type)
     if (heads >= limit - 1)
         return false; // don't overshoot the head limit!
 
-    simple_monster_message(*defender->as_monster(), " grows two more!");
+    simple_monster_message(*defender->as_monster(), "%s grows two more!");
     defender->as_monster()->num_heads += 2;
     defender->heal(8 + random2(8));
 
@@ -1983,7 +1997,7 @@ void melee_attack::decapitate(int dam_type)
     // Player hydras don't gain or lose heads.
     ASSERT(defender->is_monster());
 
-    string verb = (dam_type == DVORP_CLAWING ? "rip" : "chop");
+    string the_hydras = apostrophise(defender_name(false));
 
     int heads = defender->heads();
     if (heads == 1) // will be zero afterwards
@@ -1992,14 +2006,18 @@ void melee_attack::decapitate(int dam_type)
         {
             if (attacker->is_player())
             {
-                string fmt = "You " + verb + " %s last head off!";
-                mprf(fmt.c_str(), apostrophise(defender_name(true)).c_str());
+                mprf(dam_type == DVORP_CLAWING
+                         ? "You rip %s last head off!"
+                         : "You chop %s last head off!",
+                     the_hydras.c_str());
             }
             else
             {
-                string fmt = "%s " + attacker->conj_verb(verb) + " %s last head off!";
-                mprf(fmt.c_str(), atk_name(DESC_THE).c_str(),
-                                  apostrophise(defender_name(true)).c_str());
+                mprf(dam_type == DVORP_CLAWING
+                         ? "%s rips %s last head off!"
+                         : "%s chops %s last head off!",
+                     atk_name(DESC_THE).c_str(),
+                     the_hydras.c_str());
             }
         }
 
@@ -2018,14 +2036,18 @@ void melee_attack::decapitate(int dam_type)
     {
         if (attacker->is_player())
         {
-            string fmt = "You " + verb + " one of %s heads off!";
-            mprf(fmt.c_str(), apostrophise(defender_name(true)).c_str());
+            mprf(dam_type == DVORP_CLAWING
+                     ? "You rip one of %s heads off!"
+                     : "You chop one of %s heads off!",
+                 the_hydras.c_str());
         }
         else
         {
-            string fmt = "%s " + attacker->conj_verb(verb) + " one of %s heads off!";
-            mprf(fmt.c_str(), atk_name(DESC_THE).c_str(),
-                              apostrophise(defender_name(true)).c_str());
+            mprf(dam_type == DVORP_CLAWING
+                     ? "%s rips one of %s heads off!"
+                     : "%s chops one of %s heads off!",
+                 atk_name(DESC_THE).c_str(),
+                 the_hydras.c_str());
         }
     }
 
@@ -2067,7 +2089,7 @@ void melee_attack::attacker_sustain_passive_damage()
     else
     {
         simple_monster_message(*attacker->as_monster(),
-                               " is burned by acid!");
+                               "%s is burned by acid!");
     }
     attacker->hurt(defender, roll_dice(1, acid_strength), BEAM_ACID,
                    KILLED_BY_ACID, "", "", false);
@@ -2945,8 +2967,8 @@ void melee_attack::mons_apply_attack_flavour()
                 vine->lose_ench_duration(me, random2(damage_done) + 1);
                 simple_monster_message(*attacker->as_monster(),
                                        spell_user
-                                       ? " looks very invigorated."
-                                       : " looks invigorated.");
+                                       ? "%s looks very invigorated."
+                                       : "%s looks invigorated.");
             }
         }
         break;
@@ -3106,7 +3128,7 @@ void melee_attack::do_passive_freeze()
         if (!hurted)
             return;
 
-        simple_monster_message(*mon, " is very cold.");
+        simple_monster_message(*mon, "%s is very cold.");
 
         mon->hurt(&you, hurted);
 
@@ -3185,7 +3207,7 @@ void melee_attack::do_spines()
                 return;
 
             simple_monster_message(*attacker->as_monster(),
-                                   " is struck by your spines.");
+                                   "%s is struck by your spines.");
 
             attacker->hurt(&you, hurt);
         }
