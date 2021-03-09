@@ -11,8 +11,8 @@
 The curse is absorbed by %s.
 Der Fluch wird von {dat}%s absorbiert.
 %%%%
-Your %s glows black for a moment.
-Eure %s leuchtet für einen Moment schwarz.
+%s glows black for a moment.
+%s leuchtet für einen Moment schwarz.
 %%%%
 
 ##################
@@ -172,7 +172,7 @@ Piety
 
 %%%%
 Breath
-
+Atem
 %%%%
 Delay
 
@@ -621,7 +621,7 @@ Cost
 
 %%%%
 Failure
-
+Versagen
 %%%%
 Ability - describe what?
 
@@ -633,7 +633,7 @@ Invocations
 
 %%%%
 %d%% hostile
-
+%d%% feindlich
 %%%%
 
 ##################
