@@ -254,7 +254,7 @@ Verrückter Yiuf
 the Enchantress
 die Hexenmeisterin
 %%%%
-Blork the Orc
+Blork the orc
 Blork der Ork
 %%%%
 the Royal Jelly
@@ -658,6 +658,9 @@ die Moorleiche
 %%%%
 the necrophage
 der Nekrophagen
+%%%%
+the bloated husk
+die aufgeblähte Hülle
 %%%%
 the ghoul
 der Ghul
@@ -2553,6 +2556,12 @@ ein Nekrophagen
 %d Nekrophagene
 %%%%
 # check plural above
+%%%%
+a bloated husk
+eine aufgeblähte Hülle
+%%%%
+%d bloated husks
+%d aufgeblähte Hülle
 %%%%
 a ghoul
 ein Ghul
@@ -5501,6 +5510,9 @@ Eure Moorleiche
 your necrophage
 Euer Nekrophagen
 %%%%
+your bloated husk
+Eure aufgeblähte Hülle
+%%%%
 your ghoul
 Euer Ghul
 %%%%
@@ -6936,6 +6948,9 @@ Moorleiche
 %%%%
 necrophage
 Nekrophagen
+%%%%
+bloated husk
+aufgeblähte Hülle
 %%%%
 ghoul
 Ghul
