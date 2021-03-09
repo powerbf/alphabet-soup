@@ -6,10 +6,10 @@
 #include "actor.h"
 #include "variant-msg-type.h"
 
-string add_punctuation(const string& msg, const string& punctuation, bool localize_msg);
+string add_punctuation(const string& msg, const string& punctuation, bool localise_msg);
 
 string replace_tag(const string& msg, const string& tag, const string& value,
-                   bool localize_msg = false);
+                   bool localise_msg = false);
 
 string actor_name(const actor *a, description_level_type desc,
                   bool actor_visible);

@@ -1,6 +1,6 @@
 #include "AppHdr.h"
 #include "fake-main.hpp"
-#include "localize.h"
+#include "localise.h"
 #include "database.h"
 #include "initfile.h"
 #include "options.h"
@@ -329,8 +329,8 @@ int num_fails = 0;
 static void test(const string& context, const string& item, const string& expect)
 {
     string fmt = "{" + context + "}%s";
-    LocalizationArg it = LocalizationArg(item);
-    string actual = localize(fmt, it);
+    LocalisationArg it = LocalisationArg(item);
+    string actual = localise(fmt, it);
 
     string status;
     if (actual == expect)
@@ -364,7 +364,7 @@ int main()
     SysEnv.crawl_dir = ".";
     setlocale(LC_ALL, "");
     databaseSystemInit();
-    init_localization("de");
+    init_localisation("de");
 
     const int num_cases = cases.size();
     const int num_items = test_items.size();

@@ -49,7 +49,7 @@
 #include "kills.h"
 #include "level-state-type.h"
 #include "libutil.h"
-#include "localize.h"
+#include "localise.h"
 #include "macro.h"
 #include "melee-attack.h"
 #include "message.h"
@@ -5160,8 +5160,8 @@ bool player_save_info::operator<(const player_save_info& rhs) const
 
 string player_save_info::really_short_desc() const
 {
-    return localize("%s the %s %s",
-                    LocalizationArg(name, false),
+    return localise("%s the %s %s",
+                    LocalisationArg(name, false),
                     species_name,
                     class_name);
 }
@@ -8065,9 +8065,9 @@ string player::hand_act(const string &singular_msg,
 
     string msg;
     if (plural)
-        msg = localize(plural_msg, hand);
+        msg = localise(plural_msg, hand);
     else
-        msg = localize(singular_msg, hand);
+        msg = localise(singular_msg, hand);
 
     return uppercase_first(msg);
 }

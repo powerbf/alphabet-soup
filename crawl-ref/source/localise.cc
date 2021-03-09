@@ -1,6 +1,6 @@
 /*
- * localize.h
- * High-level localization functions
+ * localise.h
+ * High-level localisation functions
  */
 
 // don't need this, but forced to include because of stuff included by stringutil.h
@@ -19,7 +19,7 @@ using namespace std;
 #endif
 
 
-#include "localize.h"
+#include "localise.h"
 #include "xlate.h"
 #include "stringutil.h"
 #include "unicode.h"
@@ -349,7 +349,7 @@ static void _resolve_escapes(string& str)
 }
 
 
-static string _localize_annotation(const string& s)
+static string _localise_annotation(const string& s)
 {
     string result = xlate(s);
     if (result != s)
@@ -374,14 +374,14 @@ static string _localize_annotation(const string& s)
     return result;
 }
 
-static list<string> _localize_annotations(const list<string>& input)
+static list<string> _localise_annotations(const list<string>& input)
 {
     list<string> output;
 
     list<string>::const_iterator iter;
     for (iter = input.begin(); iter != input.end(); ++iter)
     {
-        output.push_back(_localize_annotation(*iter));
+        output.push_back(_localise_annotation(*iter));
     }
 
     return output;
@@ -585,15 +585,15 @@ static bool is_list(const string& s)
 
 
 // forward declarations
-static string _localize_string(const string& context, const string& value);
-static string _localize_counted_string(const string& context, const string& singular,
+static string _localise_string(const string& context, const string& value);
+static string _localise_counted_string(const string& context, const string& singular,
                                        const string& plural, const int count);
-// localize counted string when you only have the plural
-static string _localize_counted_string(const string& context, const string& value);
-static string _localize_list(const string& context, const string& value);
+// localise counted string when you only have the plural
+static string _localise_counted_string(const string& context, const string& value);
+static string _localise_list(const string& context, const string& value);
 
 
-static string _localize_artefact_suffix(const string& s)
+static string _localise_artefact_suffix(const string& s)
 {
     if (s.empty())
         return s;
@@ -624,7 +624,7 @@ static string _localize_artefact_suffix(const string& s)
     return make_stringf(fmt.c_str(), arg.c_str());
 }
 
-static string _localize_unidentified_scroll(const string& context, const string& name)
+static string _localise_unidentified_scroll(const string& context, const string& name)
 {
     static const string pattern = " labeled ";
 
@@ -650,7 +650,7 @@ static string _localize_unidentified_scroll(const string& context, const string&
         string plural = _strip_count(rest, count);
         string singular = article_a(replace_first(plural, "scrolls", "scroll"));
         plural = "%d " + plural;
-        result = _localize_counted_string(context, singular, plural, count);
+        result = _localise_counted_string(context, singular, plural, count);
     }
     else
     {
@@ -661,9 +661,9 @@ static string _localize_unidentified_scroll(const string& context, const string&
     return replace_last(result, "%s", label);
 }
 
-// localize a pair of boots/gloves
+// localise a pair of boots/gloves
 // they can have adjectives in 2 places (e.g. "an uncursed pair of glowing boots")
-static string _localize_pair(const string& context, const string& name)
+static string _localise_pair(const string& context, const string& name)
 {
     size_t pos = name.find("pair of ");
     if (pos == string::npos)
@@ -743,7 +743,7 @@ static string _localize_pair(const string& context, const string& name)
     return result;
 }
 
-// try to localize complex item name
+// try to localise complex item name
 //
 // Some examples:
 //   a +0 broad axe
@@ -753,7 +753,7 @@ static string _localize_pair(const string& context, const string& name)
 //   the +2 pair of boots of Boqauskewui (worn) {*Contam rN+++ rCorr SInv}
 //
 //
-static string _localize_item_name(const string& context, const string& item)
+static string _localise_item_name(const string& context, const string& item)
 {
     if (item.empty())
     {
@@ -823,7 +823,7 @@ static string _localize_item_name(const string& context, const string& item)
             string branded_item = item_en + suffix;
 
             result = count > 0
-                     ? _localize_counted_string(context, branded_item)
+                     ? _localise_counted_string(context, branded_item)
                      :cxlate(context, branded_item);
             success = (result != branded_item);
         }
@@ -832,7 +832,7 @@ static string _localize_item_name(const string& context, const string& item)
         {
             // now try without suffix attached
             result = count > 0
-                     ? _localize_counted_string(context, item_en)
+                     ? _localise_counted_string(context, item_en)
                      : cxlate(context, item_en);
 
             success = (result != item_en);
@@ -845,7 +845,7 @@ static string _localize_item_name(const string& context, const string& item)
                 else
                 {
                     // assume it's an artefact name
-                    result += _localize_artefact_suffix(suffix);
+                    result += _localise_artefact_suffix(suffix);
                 }
             }
         }
@@ -874,7 +874,7 @@ static string _localize_item_name(const string& context, const string& item)
                         result.erase(ctx_pos, ctx_end - ctx_pos +1);
                     }
                 }
-                // localize adjectives
+                // localise adjectives
                 string adjectives;
                 for (size_t k = 0; k < adjs; k++)
                 {
@@ -892,9 +892,9 @@ static string _localize_item_name(const string& context, const string& item)
     return item;
 }
 
-// localize a string containing a list of things (joined by commas, "and", "or")
+// localise a string containing a list of things (joined by commas, "and", "or")
 // does nothing if input is not a list
-static string _localize_list(const string& context, const string& s)
+static string _localise_list(const string& context, const string& s)
 {
     static vector<string> separators = {",", " or ", " and "};
 
@@ -917,8 +917,8 @@ static string _localize_list(const string& context, const string& s)
             string fmt = "%s" + sep + (sep == "," ? " " : "") + "%s";
             fmt = cxlate(context, fmt);
             // the tokens could be lists themselves
-            string tok0 = _localize_string(context, tokens[0]);
-            string tok1 = _localize_string(context, tokens[1]);
+            string tok0 = _localise_string(context, tokens[0]);
+            string tok1 = _localise_string(context, tokens[1]);
             return make_stringf(fmt.c_str(), tok0.c_str(), tok1.c_str());
         }
     }
@@ -928,8 +928,8 @@ static string _localize_list(const string& context, const string& s)
 }
 
 
-// localize a string with count
-static string _localize_counted_string(const string& context, const string& singular,
+// localise a string with count
+static string _localise_counted_string(const string& context, const string& singular,
                                        const string& plural, const int count)
 {
     string result;
@@ -940,8 +940,8 @@ static string _localize_counted_string(const string& context, const string& sing
     return result;
 }
 
-// localize counted string when you only have the plural
-static string _localize_counted_string(const string& context, const string& value)
+// localise counted string when you only have the plural
+static string _localise_counted_string(const string& context, const string& value)
 {
     if (value.empty() || !isdigit(value[0]))
     {
@@ -953,11 +953,11 @@ static string _localize_counted_string(const string& context, const string& valu
     string singular = article_a(singularise(plural));
     plural = "%d " + plural;
 
-    return _localize_counted_string(context, singular, plural, count);
+    return _localise_counted_string(context, singular, plural, count);
 }
 
-// localize a string
-static string _localize_string(const string& context, const string& value)
+// localise a string
+static string _localise_string(const string& context, const string& value)
 {
     if (value.empty())
     {
@@ -970,21 +970,21 @@ static string _localize_string(const string& context, const string& value)
         return result;
 
     // try treating as a plural
-    result = _localize_counted_string(context, value);
+    result = _localise_counted_string(context, value);
     if (result != value)
         return result;
 
-    // We are now localizing the list as it's built, so this should not be necessary
+    // We are now localising the list as it's built, so this should not be necessary
     /*if (is_list(value))
     {
-        return _localize_list(context, value);
+        return _localise_list(context, value);
     }*/
 
     if (regex_search(value, regex("^[a-zA-Z] - ")))
     {
         // has an inventory letter at the front
         string inv_letter = value.substr(0, 4);
-        return inv_letter + _localize_string(context, value.substr(4));
+        return inv_letter + _localise_string(context, value.substr(4));
     }
     else if (value[0] == '[')
     {
@@ -993,7 +993,7 @@ static string _localize_string(const string& context, const string& value)
         if (pos != string::npos)
         {
             string annotation = value.substr(0, pos+2);
-            return annotation + _localize_string(context, value.substr(pos+2));
+            return annotation + _localise_string(context, value.substr(pos+2));
         }
     }
 
@@ -1002,37 +1002,37 @@ static string _localize_string(const string& context, const string& value)
     string rest = _strip_annotations(value, annotations);
     if (!annotations.empty())
     {
-        result = _localize_string(context, rest);
-        annotations = _localize_annotations(annotations);
+        result = _localise_string(context, rest);
+        annotations = _localise_annotations(annotations);
         return _add_annotations(result, annotations);
     }
 
     if (contains(value, "scroll") && contains(value, "labeled"))
     {
-        return _localize_unidentified_scroll(context, value);
+        return _localise_unidentified_scroll(context, value);
     }
     else if (contains(value, "pair of "))
     {
         // pair of boots/gloves
-        return _localize_pair(context, value);
+        return _localise_pair(context, value);
     }
 
     // try treating it as an item name
-    result = _localize_item_name(context, value);
+    result = _localise_item_name(context, value);
 
     return result;
 }
 
-static string _localize_string(const string& context, const LocalizationArg& arg)
+static string _localise_string(const string& context, const LocalisationArg& arg)
 {
     if (arg.plural.empty())
-        return _localize_string(context, arg.stringVal);
+        return _localise_string(context, arg.stringVal);
     else
-        return _localize_counted_string(context, arg.stringVal,
+        return _localise_counted_string(context, arg.stringVal,
                                         arg.plural, arg.count);
 }
 
-void LocalizationArg::init()
+void LocalisationArg::init()
 {
     intVal = 0;
     longVal = 0L;
@@ -1042,26 +1042,26 @@ void LocalizationArg::init()
     count = 1;
 }
 
-LocalizationArg::LocalizationArg()
+LocalisationArg::LocalisationArg()
 {
     init();
     translate = true;
 }
 
-LocalizationArg::LocalizationArg(const string& value, bool translat)
+LocalisationArg::LocalisationArg(const string& value, bool translat)
     : stringVal(value), translate(translat)
 {
     init();
 }
 
-LocalizationArg::LocalizationArg(const string& value, const string& plural_val, const int num, bool translat)
+LocalisationArg::LocalisationArg(const string& value, const string& plural_val, const int num, bool translat)
     : stringVal(value), plural(plural_val), translate(translat)
 {
     init();
     count = num;
 }
 
-LocalizationArg::LocalizationArg(const char* value, bool translat)
+LocalisationArg::LocalisationArg(const char* value, bool translat)
     : translate(translat)
 {
     init();
@@ -1071,42 +1071,42 @@ LocalizationArg::LocalizationArg(const char* value, bool translat)
     }
 }
 
-LocalizationArg::LocalizationArg(const int value, bool translat)
+LocalisationArg::LocalisationArg(const int value, bool translat)
     : translate(translat)
 {
     init();
     intVal = value;
 }
 
-LocalizationArg::LocalizationArg(const long value, bool translat)
+LocalisationArg::LocalisationArg(const long value, bool translat)
     : translate(translat)
 {
     init();
     longVal = value;
 }
 
-LocalizationArg::LocalizationArg(const long long value, bool translat)
+LocalisationArg::LocalisationArg(const long long value, bool translat)
     : translate(translat)
 {
     init();
     longLongVal = value;
 }
 
-LocalizationArg::LocalizationArg(const double value, bool translat)
+LocalisationArg::LocalisationArg(const double value, bool translat)
     : translate(translat)
 {
     init();
     doubleVal = value;
 }
 
-LocalizationArg::LocalizationArg(const long double value, bool translat)
+LocalisationArg::LocalisationArg(const long double value, bool translat)
     : translate(translat)
 {
     init();
     longDoubleVal = value;
 }
 
-void init_localization(const string& lang)
+void init_localisation(const string& lang)
 {
     _language = lang;
 #ifdef UNIX
@@ -1121,17 +1121,17 @@ void init_localization(const string& lang)
 #endif
 }
 
-void pause_localization()
+void pause_localisation()
 {
     _paused = true;
 }
 
-void unpause_localization()
+void unpause_localisation()
 {
     _paused = false;
 }
 
-const string& get_localization_language()
+const string& get_localisation_language()
 {
     return _language;
 }
@@ -1141,7 +1141,7 @@ static bool _skip_translation()
     return (_paused || _language.empty() || _language == "en");
 }
 
-string localize(const vector<LocalizationArg>& args)
+string localise(const vector<LocalisationArg>& args)
 {
     if (args.empty())
     {
@@ -1151,13 +1151,13 @@ string localize(const vector<LocalizationArg>& args)
     bool success = false;
 
     // first argument is the format string
-    LocalizationArg fmt_arg = args.at(0);
+    LocalisationArg fmt_arg = args.at(0);
 
     // translate format string
     string fmt_xlated;
     if (fmt_arg.translate && !_skip_translation())
     {
-        fmt_xlated = _localize_string("", fmt_arg);
+        fmt_xlated = _localise_string("", fmt_arg);
         success = (fmt_xlated != fmt_arg.stringVal);
     }
     else
@@ -1205,7 +1205,7 @@ string localize(const vector<LocalizationArg>& args)
             }
             else
             {
-                const LocalizationArg& arg = args.at(arg_id);
+                const LocalisationArg& arg = args.at(arg_id);
 
                 string fmt_spec = _remove_arg_id(*it);
                 const type_info* type = _format_spec_to_type(fmt_spec);
@@ -1234,7 +1234,7 @@ string localize(const vector<LocalizationArg>& args)
                         }
                         else
                         {
-                            argx = _localize_string(context, arg);
+                            argx = _localise_string(context, arg);
                             ss << _format_utf8_string(fmt_spec, argx);
                             if (argx != arg.stringVal)
                                 success = true;
@@ -1283,14 +1283,14 @@ string localize(const vector<LocalizationArg>& args)
     if (!_skip_translation() && args.size() > 1 && fmt_arg.translate && !success)
     {
         // there may be a translation for the completed string
-        result = _localize_string("", result);
+        result = _localise_string("", result);
     }
 
     return result;
 
 }
 
-string vlocalize(const string& fmt_str, va_list argp)
+string vlocalise(const string& fmt_str, va_list argp)
 {
     if (_skip_translation())
     {
@@ -1300,9 +1300,9 @@ string vlocalize(const string& fmt_str, va_list argp)
     va_list args;
     va_copy(args, argp);
 
-    vector<LocalizationArg> niceArgs;
+    vector<LocalisationArg> niceArgs;
 
-    niceArgs.push_back(LocalizationArg(fmt_str));
+    niceArgs.push_back(LocalisationArg(fmt_str));
 
     // get arg types for original English string
     map<int, const type_info*> arg_types = _get_arg_types(fmt_str);
@@ -1322,47 +1322,47 @@ string vlocalize(const string& fmt_str, va_list argp)
 
         if (arg_type == typeid(char*))
         {
-            niceArgs.push_back(LocalizationArg(va_arg(args, char*)));
+            niceArgs.push_back(LocalisationArg(va_arg(args, char*)));
         }
         else if (arg_type == typeid(long double))
         {
-            niceArgs.push_back(LocalizationArg(va_arg(args, long double)));
+            niceArgs.push_back(LocalisationArg(va_arg(args, long double)));
         }
         else if (arg_type == typeid(double))
         {
-            niceArgs.push_back(LocalizationArg(va_arg(args, double)));
+            niceArgs.push_back(LocalisationArg(va_arg(args, double)));
         }
         else if (arg_type == typeid(long long) || arg_type == typeid(unsigned long long))
         {
-            niceArgs.push_back(LocalizationArg(va_arg(args, long long)));
+            niceArgs.push_back(LocalisationArg(va_arg(args, long long)));
         }
         else if (arg_type == typeid(long) || arg_type == typeid(unsigned long))
         {
-            niceArgs.push_back(LocalizationArg(va_arg(args, long)));
+            niceArgs.push_back(LocalisationArg(va_arg(args, long)));
         }
         else if (arg_type == typeid(int) || arg_type == typeid(unsigned int))
         {
-            niceArgs.push_back(LocalizationArg(va_arg(args, int)));
+            niceArgs.push_back(LocalisationArg(va_arg(args, int)));
         }
         else if (arg_type == typeid(ptrdiff_t))
         {
             va_arg(args, ptrdiff_t);
-            niceArgs.push_back(LocalizationArg());
+            niceArgs.push_back(LocalisationArg());
         }
         else if (arg_type == typeid(size_t))
         {
             va_arg(args, size_t);
-            niceArgs.push_back(LocalizationArg());
+            niceArgs.push_back(LocalisationArg());
         }
         else if (arg_type == typeid(intmax_t) || arg_type == typeid(uintmax_t))
         {
             va_arg(args, intmax_t);
-            niceArgs.push_back(LocalizationArg());
+            niceArgs.push_back(LocalisationArg());
         }
         else
         {
             va_arg(args, void*);
-            niceArgs.push_back(LocalizationArg());
+            niceArgs.push_back(LocalisationArg());
         }
 
         last_arg_id = arg_id;
@@ -1370,14 +1370,14 @@ string vlocalize(const string& fmt_str, va_list argp)
 
     va_end(args);
 
-    return localize(niceArgs);
+    return localise(niceArgs);
 }
 
 /**
- * Get the localized equivalent of a single-character
+ * Get the localised equivalent of a single-character
  * (Mostly for prompt answers like Y/N)
  */
-int localize_char(char ch)
+int localise_char(char ch)
 {
     if (_skip_translation())
         return (int)ch;

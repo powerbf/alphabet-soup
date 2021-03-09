@@ -28,7 +28,7 @@
 #include "god-passive.h" // passive_t::convert_orcs
 #include "hints.h"
 #include "item-prop.h"
-#include "localize.h"
+#include "localise.h"
 #include "mapdef.h"
 #include "message.h"
 #include "message-util.h"
@@ -510,16 +510,16 @@ bool melee_attack::handle_phase_hit()
         string msg;
         if (attacker->is_monster())
         {
-            msg = localize(mons_attack_message(), atk_name(DESC_THE),
+            msg = localise(mons_attack_message(), atk_name(DESC_THE),
                            defender_name(true));
-            msg += localize(" but does no damage.");
+            msg += localise(" but does no damage.");
         }
         else
         {
-            msg = localize(player_attack_message(0), defender_name(false));
-            msg += localize(" but do no damage.");
+            msg = localise(player_attack_message(0), defender_name(false));
+            msg += localise(" but do no damage.");
         }
-        mpr_nolocalize(msg);
+        mpr_nolocalise(msg);
     }
 
     // Check for weapon brand & inflict that damage too
@@ -1426,12 +1426,12 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
         }
         else // no damage was done
         {
-            string msg = localize(aux_message, defender->name(DESC_THE));
+            string msg = localise(aux_message, defender->name(DESC_THE));
             if (you.can_see(*defender))
-                msg += localize(" but do no damage.");
+                msg += localise(" but do no damage.");
             else
                 msg = add_punctuation(msg, ".", false);
-            mpr_nolocalize(msg);
+            mpr_nolocalise(msg);
         }
     }
     else // defender was just alive, so this call should be ok?
@@ -1448,7 +1448,7 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
 
 void melee_attack::player_announce_aux_hit()
 {
-    string msg = localize(aux_message, defender->name(DESC_THE));
+    string msg = localise(aux_message, defender->name(DESC_THE));
     msg += debug_damage_number();
     attack_strength_message(msg, damage_done, false);
 }
@@ -2130,9 +2130,9 @@ bool melee_attack::apply_staff_damage()
 
             string msg;
             if (defender->is_player())
-                msg = localize("You are electrocuted");
+                msg = localise("You are electrocuted");
             else
-                msg = localize("%s is electrocuted", defender->name(DESC_THE));
+                msg = localise("%s is electrocuted", defender->name(DESC_THE));
 
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
@@ -2217,9 +2217,9 @@ bool melee_attack::apply_staff_damage()
         {
             string msg;
             if (defender->is_player())
-                msg = localize("You writhe in agony");
+                msg = localise("You writhe in agony");
             else
-                msg = localize("%s writhes in agony", defender->name(DESC_THE));
+                msg = localise("%s writhes in agony", defender->name(DESC_THE));
 
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
@@ -2261,7 +2261,7 @@ bool melee_attack::apply_staff_damage()
              special_damage, special_damage_flavour);
 
         if (needs_message && !special_damage_message.empty())
-            mpr_nolocalize(special_damage_message);
+            mpr_nolocalise(special_damage_message);
 
         inflict_damage(special_damage, special_damage_flavour);
         if (special_damage > 0)
@@ -2434,13 +2434,13 @@ string melee_attack::mons_attack_desc()
         ret = mons_attack_message();
     }
 
-    ret = localize(ret, atk_name(DESC_THE), defender_name(false));
+    ret = localise(ret, atk_name(DESC_THE), defender_name(false));
 
 
     if (seen && weapon && attacker->type != MONS_DANCING_WEAPON
         && attacker->type != MONS_SPECTRAL_WEAPON)
     {
-        ret += localize(" with %s", weapon->name(DESC_A));
+        ret += localise(" with %s", weapon->name(DESC_A));
     }
 
     ret += debug_damage_number(); // empty in non-debug build
@@ -2456,11 +2456,11 @@ void melee_attack::announce_hit()
 
     if (attacker->is_monster())
     {
-        mpr_nolocalize(mons_attack_desc());
+        mpr_nolocalise(mons_attack_desc());
     }
     else
     {
-        string msg = localize(player_attack_message(damage_done),
+        string msg = localise(player_attack_message(damage_done),
                               defender_name(false));
         msg += debug_damage_number(); // empty in non-debug build
         attack_strength_message(msg, damage_done, false);
@@ -2514,11 +2514,11 @@ void melee_attack::mons_do_napalm()
             string msg;
             if (defender->is_player())
             {
-                msg = localize("You are covered in liquid flames");
+                msg = localise("You are covered in liquid flames");
             }
             else
             {
-                msg = localize("%s is covered in liquid flames",
+                msg = localise("%s is covered in liquid flames",
                                defender_name(false));
             }
             attack_strength_message(msg, special_damage, false);
@@ -2674,11 +2674,11 @@ void melee_attack::mons_apply_attack_flavour()
             string msg;
             if (defender->is_player())
             {
-                msg = localize("You are engulfed in flames");
+                msg = localise("You are engulfed in flames");
             }
             else
             {
-                msg = localize("%s is engulfed in flames",
+                msg = localise("%s is engulfed in flames",
                                defender_name(false));
             }
 
@@ -2802,14 +2802,14 @@ void melee_attack::mons_apply_attack_flavour()
                 string msg;
                 if (defender->is_player())
                 {
-                    msg = localize("You are engulfed in a cloud of spores!");
+                    msg = localise("You are engulfed in a cloud of spores!");
                 }
                 else
                 {
-                    msg = localize("%s is engulfed in a cloud of spores!",
+                    msg = localise("%s is engulfed in a cloud of spores!",
                                    defender->name(DESC_THE));
                 }
-                mpr_nolocalize(msg);
+                mpr_nolocalise(msg);
             }
         }
 
@@ -3310,12 +3310,12 @@ void melee_attack::do_minotaur_retaliation()
                     string msg;
                     if (attacker->is_player())
                     {
-                        msg = localize("%s headbutts you",
+                        msg = localise("%s headbutts you",
                                        attacker->name(DESC_THE));
                     }
                     else
                     {
-                        msg = localize("%s headbutts %s", defname,
+                        msg = localise("%s headbutts %s", defname,
                                        attacker->name(DESC_THE));
                     }
                     attack_strength_message(msg, hurt, false);
@@ -3360,7 +3360,7 @@ void melee_attack::do_minotaur_retaliation()
         }
         else
         {
-            string msg = localize("You headbutt %s", attacker->name(DESC_THE));
+            string msg = localise("You headbutt %s", attacker->name(DESC_THE));
             attack_strength_message(msg, hurt, false);
 
             attacker->hurt(&you, hurt);

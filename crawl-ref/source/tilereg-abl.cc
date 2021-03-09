@@ -8,7 +8,7 @@
 #include "cio.h"
 #include "describe.h"
 #include "libutil.h"
-#include "localize.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "output.h"
@@ -47,7 +47,7 @@ void AbilityRegion::draw_tag()
     const ability_type ability = (ability_type) idx;
     const string failure = failure_rate_to_string(get_talent(ability,
                                                              false).fail);
-    string desc = localize("%s    (%s)", ability_name(ability), failure);
+    string desc = localise("%s    (%s)", ability_name(ability), failure);
     draw_desc(desc);
 }
 
@@ -86,11 +86,11 @@ int AbilityRegion::handle_mouse(wm_mouse_event &event)
 
 bool AbilityRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const string prefix1 = active ? "" : localize("[L-Click]") + " ";
+    const string prefix1 = active ? "" : localise("[L-Click]") + " ";
     const string prefix2 = string(strwidth(prefix1), ' ');
 
-    tip = prefix1 + localize("Display abilities") + "\n"
-          + prefix2 + localize("Use abilities");
+    tip = prefix1 + localise("Display abilities") + "\n"
+          + prefix2 + localise("Use abilities");
 
     return true;
 }
@@ -107,14 +107,14 @@ bool AbilityRegion::update_tip_text(string& tip)
     int flag = m_items[item_idx].flag;
     vector<command_type> cmd;
     if (flag & TILEI_FLAG_INVALID)
-        tip = localize("You cannot use this ability right now.");
+        tip = localise("You cannot use this ability right now.");
     else
     {
-        tip = localize("%s %s (%%)", "[L-Click]", "Use");
+        tip = localise("%s %s (%%)", "[L-Click]", "Use");
         cmd.push_back(CMD_USE_ABILITY);
     }
 
-    tip += localize("\n%s %s", "[R-Click]", "Describe");
+    tip += localise("\n%s %s", "[R-Click]", "Describe");
     insert_commands(tip, cmd);
 
     return true;

@@ -5,7 +5,7 @@
 #include "AppHdr.h"
 #include "english.h"
 #include "gender-type.h"
-#include "localize.h"
+#include "localise.h"
 #include "message-util.h"
 #include "mpr.h"
 #include "stringutil.h"
@@ -14,25 +14,25 @@
 /*
  * Add punctuation to a message
  */
-string add_punctuation(const string& msg, const string& punctuation, bool localize_msg)
+string add_punctuation(const string& msg, const string& punctuation, bool localise_msg)
 {
     // We need to insert message into punctuation rather than merely append
     // because, for example, English "%s!" becomes "¡%s!" in Spanish.
-    // Note: If message is already localized, we don't localize again.
+    // Note: If message is already localised, we don't localise again.
     if (contains(punctuation, "%s"))
-        return localize(punctuation, LocalizationArg(msg, localize_msg));
+        return localise(punctuation, LocalisationArg(msg, localise_msg));
     else
-        return localize("%s" + punctuation, LocalizationArg(msg, localize_msg));
+        return localise("%s" + punctuation, LocalisationArg(msg, localise_msg));
 }
 
 /*
- * Replace all instances of given @foo@ parameter with localized value
+ * Replace all instances of given @foo@ parameter with localised value
  * If first letter of tag is uppercase then value will be capitalised also
  */
 string replace_tag(const string& msg, const string& tag, const string& value,
-                   bool localize_msg)
+                   bool localise_msg)
 {
-    string ret = localize_msg ? localize(msg) : msg;
+    string ret = localise_msg ? localise(msg) : msg;
 
     size_t tag_pos;
     while ((tag_pos = ret.find(tag)) != string::npos)
@@ -53,7 +53,7 @@ string replace_tag(const string& msg, const string& tag, const string& value,
             }
         }
 
-        string val = localize(context + "%s", value);
+        string val = localise(context + "%s", value);
         if (tag.length() > 1 && isupper(tag[1]))
             val = uppercase_first(val);
         ret.replace(replace_pos, replace_len, val);
@@ -167,15 +167,15 @@ string get_any_person_message(variant_msg_type msg_id,
     }
 
     if (variant == MV_YOU_SUBJECT)
-        msg = localize(temp, obj);
+        msg = localise(temp, obj);
     else if (variant == MV_YOU_OBJECT)
-        msg = localize(temp, subj);
+        msg = localise(temp, subj);
     else if (variant == MV_THIRD_PARTIES)
-        msg = localize(temp, subj, obj);
+        msg = localise(temp, subj, obj);
     else if (variant == MV_YOURSELF)
-        msg = localize(temp);
+        msg = localise(temp);
     else if (variant == MV_ITSELF)
-        msg = localize(temp, subj, obj);
+        msg = localise(temp, subj, obj);
 
     if (!punctuation.empty())
         msg = add_punctuation(msg, punctuation, false);
@@ -221,7 +221,7 @@ void do_any_person_message(variant_msg_type msg_id,
                            const string& subject, const string& object,
                            const string& punctuation)
 {
-    mpr_nolocalize(get_any_person_message(msg_id, subject, object, punctuation));
+    mpr_nolocalise(get_any_person_message(msg_id, subject, object, punctuation));
 }
 
 /*
@@ -232,7 +232,7 @@ void do_any_person_message(variant_msg_type msg_id,
                            const actor* subject, const actor* object,
                            const string& punctuation)
 {
-    mpr_nolocalize(get_any_person_message(msg_id, subject, object, punctuation));
+    mpr_nolocalise(get_any_person_message(msg_id, subject, object, punctuation));
 }
 
 /*
@@ -244,7 +244,7 @@ void do_any_person_message(variant_msg_type msg_id,
                            bool subject_seen, bool object_seen,
                            const string& punctuation)
 {
-    mpr_nolocalize(get_any_person_message(msg_id, subject, object,
+    mpr_nolocalise(get_any_person_message(msg_id, subject, object,
                                        subject_seen, object_seen,
                                        punctuation));
 }
@@ -262,11 +262,11 @@ string get_3rd_person_message(const string& subject, const string& object,
     string msg;
     if (object == "you")
     {
-        msg = localize(you_obj_msg, subject);
+        msg = localise(you_obj_msg, subject);
     }
     else
     {
-        msg = localize(other_msg, subject, object);
+        msg = localise(other_msg, subject, object);
     }
 
     if (!punctuation.empty())
@@ -315,7 +315,7 @@ void do_3rd_person_message(const string& subject, const string& object,
                                         punctuation);
 
     if (!msg.empty())
-        mpr_nolocalize(msg);
+        mpr_nolocalise(msg);
 }
 
 /*
@@ -333,5 +333,5 @@ void do_3rd_person_message(const actor* subject, bool subject_seen,
                                         you_obj_msg, other_msg, punctuation);
 
     if (!msg.empty())
-        mpr_nolocalize(msg);
+        mpr_nolocalise(msg);
 }

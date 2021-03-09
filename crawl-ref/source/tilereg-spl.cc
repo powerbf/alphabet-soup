@@ -7,7 +7,7 @@
 #include "cio.h"
 #include "describe.h"
 #include "libutil.h"
-#include "localize.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "output.h"
@@ -50,7 +50,7 @@ void SpellRegion::draw_tag()
     const spell_type spell = (spell_type) idx;
     const string failure = failure_rate_to_string(raw_spell_fail(spell));
     string desc = make_stringf("%d ", spell_mana(spell))
-                  + localize("MP") + "    " + localize(spell_title(spell))
+                  + localise("MP") + "    " + localise(spell_title(spell))
                   + "    (" + failure + ")";
 
     draw_desc(desc);
@@ -87,11 +87,11 @@ int SpellRegion::handle_mouse(wm_mouse_event &event)
 
 bool SpellRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const string prefix1 = active ? "" : localize("[L-Click]") + " ";
+    const string prefix1 = active ? "" : localise("[L-Click]") + " ";
     const string prefix2 = string(strwidth(prefix1), ' ');
 
-    tip = prefix1 + localize("Display memorised spells") + "\n";
-    tip += prefix2 + localize("Cast spells");
+    tip = prefix1 + localise("Display memorised spells") + "\n";
+    tip += prefix2 + localise("Cast spells");
 
     return true;
 }
@@ -108,14 +108,14 @@ bool SpellRegion::update_tip_text(string& tip)
     int flag = m_items[item_idx].flag;
     vector<command_type> cmd;
     if (flag & TILEI_FLAG_INVALID)
-        tip = localize("You cannot cast this spell right now.");
+        tip = localise("You cannot cast this spell right now.");
     else
     {
-        tip = localize("%s %s (%%)", "[L-Click]", "Cast");
+        tip = localise("%s %s (%%)", "[L-Click]", "Cast");
         cmd.push_back(CMD_CAST_SPELL);
     }
 
-    tip += localize("\n%s %s (%%)", "[R-Click]", "Describe");
+    tip += localise("\n%s %s (%%)", "[R-Click]", "Describe");
     cmd.push_back(CMD_DISPLAY_SPELLS);
     insert_commands(tip, cmd);
 

@@ -33,7 +33,7 @@
 #include "item-use.h"
 #include "level-state-type.h"
 #include "libutil.h"
-#include "localize.h"
+#include "localise.h"
 #include "makeitem.h"
 #include "notes.h"
 #include "options.h"
@@ -2137,7 +2137,7 @@ static MenuEntry* _fixup_runeorb_entry(MenuEntry* me)
             text += branches[rune_location(rune)].longname;
             text += ")";
         }
-        text = localize(text);
+        text = localise(text);
 
         string formatted_text;
         formatted_text = "<";
@@ -2154,13 +2154,13 @@ static MenuEntry* _fixup_runeorb_entry(MenuEntry* me)
         string text = "The Orb of Zot";
         if (player_has_orb())
         {
-            text = localize(text);
+            text = localise(text);
             entry->text = "<magenta>" + text + "</magenta>";
         }
         else
         {
             text += " (the Realm of Zot)";
-            text = localize(text);
+            text = localise(text);
             entry->text = "<darkgrey>" + text + "</darkgrey>";
         }
     }

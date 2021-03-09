@@ -129,17 +129,17 @@ static void _results_popup(string msg, bool error=false)
 
     if (error)
     {
-        msg = localize("Arena error:")
+        msg = localise("Arena error:")
             + "\n\n<lightred>"
             + replace_all(msg, "<", "<<"); // noextract
         msg += "</lightred>";
     }
     else
-        msg = localize("Arena results:")
+        msg = localise("Arena results:")
             + "\n\n" + msg;
 
     msg += "\n\n<cyan>"
-        + localize("Hit any key to continue, ctrl-p for the full log.")
+        + localise("Hit any key to continue, ctrl-p for the full log.")
         + "</cyan>";
 
     auto prompt_ui = make_shared<Text>(
@@ -378,8 +378,8 @@ namespace arena
         if (!map)
         {
             throw arena_error_f(
-                localize("No arena maps named \"%s\"",
-                         LocalizationArg(arena_type, false)));
+                localise("No arena maps named \"%s\"",
+                         LocalisationArg(arena_type, false)));
         }
 
 #ifdef USE_TILE
@@ -393,8 +393,8 @@ namespace arena
         if (!success)
         {
             throw arena_error_f(
-                localize("Failed to create arena named \"%s\"",
-                         LocalizationArg(arena_type, false)));
+                localise("Failed to create arena named \"%s\"",
+                         LocalisationArg(arena_type, false)));
         }
         link_items();
 
@@ -454,7 +454,7 @@ namespace arena
         if (real_summons && respawn)
         {
             throw arena_error(
-                localize("Can't set real_summons and respawn at same time."),
+                localise("Can't set real_summons and respawn at same time."),
                 false);
         }
 
@@ -491,8 +491,8 @@ namespace arena
             catch (const bad_level_id &err)
             {
                 throw arena_error_nonfatal_f(
-                    localize("Bad place '%s': %s",
-                             LocalizationArg(arena_place, false),
+                    localise("Bad place '%s': %s",
+                             LocalisationArg(arena_place, false),
                              err.what()));
             }
         }
@@ -508,9 +508,9 @@ namespace arena
 
         if (factions.size() != 2)
         {
-            string msg = localize(
+            string msg = localise(
                 "Expected arena monster spec \"xxx v yyy\", but got \"%s\"",
-                LocalizationArg(spec, false));
+                LocalisationArg(spec, false));
             throw arena_error_nonfatal_f(msg);
 
         }
@@ -523,8 +523,8 @@ namespace arena
         catch (const arena_error &err)
         {
             throw arena_error_nonfatal_f(
-                localize("Bad monster spec \"%s\": %s",
-                         LocalizationArg(spec, false),
+                localise("Bad monster spec \"%s\": %s",
+                         LocalisationArg(spec, false),
                          err.what()));
         }
 
@@ -581,7 +581,7 @@ namespace arena
                      total_trials ? team_a_wins : -1);
         cgotoxy(1, line++, GOTO_STAT);
         textcolour(LIGHTGREY);
-        center_print(crawl_view.hudsz.x, localize("vs"));
+        center_print(crawl_view.hudsz.x, localise("vs"));
         cgotoxy(1, line++, GOTO_STAT);
         textcolour(YELLOW);
         center_print(crawl_view.hudsz.x, faction_b.desc,
@@ -592,7 +592,7 @@ namespace arena
             cgotoxy(1, line++, GOTO_STAT);
             textcolour(BROWN);
             center_print(crawl_view.hudsz.x,
-                         localize("Round %d of %d",
+                         localise("Round %d of %d",
                                       after_fight ? trials_done
                                                   : trials_done + 1,
                                       total_trials));
@@ -1498,7 +1498,7 @@ static void _choose_arena_teams(newgame_def& choice,
     clear_message_store();
 
     auto vbox = make_shared<Box>(ui::Widget::VERT);
-    string text = localize("Enter your choice of teams:") + "\n ";
+    string text = localise("Enter your choice of teams:") + "\n ";
     vbox->add_child(make_shared<Text>(text));
     vbox->set_cross_alignment(Widget::Align::STRETCH);
     auto teams_input = make_shared<ui::TextEntry>();
@@ -1507,7 +1507,7 @@ static void _choose_arena_teams(newgame_def& choice,
     vbox->add_child(teams_input);
     formatted_string prompt;
     prompt.cprintf("\n");
-    prompt.cprintf("%s", localize("Examples:").c_str());
+    prompt.cprintf("%s", localise("Examples:").c_str());
     prompt.cprintf("\n");
     prompt.cprintf("  Sigmund v Jessica\n"); // noextract
     prompt.cprintf("  99 orc v the Royal Jelly\n"); // noextract

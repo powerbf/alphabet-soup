@@ -40,7 +40,7 @@
 #include "items.h"
 #include "kills.h"
 #include "libutil.h"
-#include "localize.h"
+#include "localise.h"
 #include "mapdef.h"
 #include "mapmark.h"
 #include "message.h"

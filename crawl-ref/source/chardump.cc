@@ -35,7 +35,7 @@
 #include "items.h"
 #include "kills.h"
 #include "libutil.h"
-#include "localize.h"
+#include "localise.h"
 #include "melee-attack.h"
 #include "message.h"
 #include "mutation.h"
@@ -185,12 +185,12 @@ bool dump_char(const string &fname, bool quiet, bool full_id,
                const scorefile_entry *se)
 {
     // switch to English
-    pause_localization();
+    pause_localisation();
 
     dump_params dp = _get_dump(full_id, se);
 
     // switch back to previous language
-    unpause_localization();
+    unpause_localisation();
 
     return _write_dump(fname, dp, quiet);
 }

@@ -1468,7 +1468,7 @@ class AcquireEntry : public InvEntry
         const string itemstr =
             colour_to_str(menu_colour(text, item_prefix(*item), tag));
         const string gold_text = item->base_type == OBJ_GOLD
-            ? localize(" (you have %d gold)", you.gold) : "";
+            ? localise(" (you have %d gold)", you.gold) : "";
         return make_stringf(" <%s>%c%c%c%c</%s><%s>%s%s</%s>",
                             keystr.c_str(),
                             hotkeys[0],
@@ -1503,7 +1503,7 @@ AcquireMenu::AcquireMenu(CrawlVector &aitems)
 
     update_help();
 
-    set_title(localize("Choose an item to acquire."));
+    set_title(localise("Choose an item to acquire."));
 }
 
 void AcquireMenu::init_entries()
@@ -1536,7 +1536,7 @@ void AcquireMenu::update_help()
 {
     string top_line = string(80, ' ') + '\n';
 
-    set_more(formatted_string::parse_string(top_line + localize(
+    set_more(formatted_string::parse_string(top_line + localise(
         //[!] acquire|examine item  [a-i] select item to acquire
         //[Esc/R-Click] exit
         "%s  [%s] %s\n%s", // noextract
@@ -1589,7 +1589,7 @@ bool AcquireMenu::acquire_selected()
     const string col = colour_to_str(channel_to_colour(MSGCH_PROMPT));
     update_help();
     const formatted_string old_more = more;
-    string text = localize("Acquire %s? (%s/%s)",
+    string text = localise("Acquire %s? (%s/%s)",
                            entry.text,
                            Options.easy_confirm == easy_confirm_type::none ? "Y" : "y",
                            "N");
