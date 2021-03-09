@@ -9,7 +9,7 @@
 
 #include "config.h"
 #include "libutil.h" // always_true
-#include "localize.h"
+#include "localise.h"
 
 #ifdef CRAWL_HAVE_STRLCPY
 #include <cstring>
@@ -201,12 +201,12 @@ string comma_separated_fn(Z start, Z end, F stringify,
             while (tmp != end && !filter(*tmp));
 
             if (tmp != end)
-                text += localize(comma);
+                text += localise(comma);
             else
-                text += localize(andc);
+                text += localise(andc);
         }
 
-        text += localize(stringify(*i));
+        text += localise(stringify(*i));
     }
     return text;
 }

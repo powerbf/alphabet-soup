@@ -151,7 +151,7 @@ string bolt::get_hit_message(const string& object) const
         case BHV_WEAKLY_HIT: msg = "%s weakly hits you"; break;
         default: msg = "%s hits you";
         }
-        return localize(msg, get_the_name());
+        return localise(msg, get_the_name());
     }
     else
     {
@@ -166,7 +166,7 @@ string bolt::get_hit_message(const string& object) const
         case BHV_WEAKLY_HIT: msg = "%s weakly hits %s"; break;
         default: msg = "%s hits %s";
         }
-        return localize(msg, get_the_name(), object);
+        return localise(msg, get_the_name(), object);
     }
 }
 
@@ -175,7 +175,7 @@ void bolt::do_hit_message(const string& object, const string& punctuation) const
     string msg = get_hit_message(object);
     if (!punctuation.empty())
         msg = add_punctuation(msg, punctuation, false);
-    mpr_nolocalize(msg);
+    mpr_nolocalise(msg);
 }
 
 void bolt::emit_message(const char* m)
@@ -1033,7 +1033,7 @@ void bolt::affect_wall()
             && !is_targeting && YOU_KILL(thrower) && !dont_stop_trees)
         {
             const string prompt =
-                localize("Are you sure you want to burn %s?",
+                localise("Are you sure you want to burn %s?",
                              feature_description_at(pos(), false, DESC_THE).c_str());
 
             if (yesno(prompt.c_str(), false, 'n'))
@@ -1268,14 +1268,14 @@ void bolt::do_fire()
 
             if (mon && mon->observable())
             {
-                prompt = localize("Your line of fire to %s is blocked by %s. "
+                prompt = localise("Your line of fire to %s is blocked by %s. "
                                   "Continue anyway?",
                                   mon->name(DESC_THE),
                                   blocker);
             }
             else
             {
-                prompt = localize("Your line of fire to the targeted %s "
+                prompt = localise("Your line of fire to the targeted %s "
                                   "is blocked by %s. Continue anyway?",
                                   feature_description_at(target, false, DESC_PLAIN),
                                   blocker);
@@ -2111,7 +2111,7 @@ int silver_damages_victim(actor* victim, int damage, string &dmg_msg)
     else
         return 0;
 
-    dmg_msg = localize("The silver sears %s!", victim->name(DESC_THE));
+    dmg_msg = localise("The silver sears %s!", victim->name(DESC_THE));
     return ret;
 }
 
@@ -3051,7 +3051,7 @@ void bolt::tracer_affect_player()
             string prompt;
             if (item)
             {
-                prompt = localize("%s is likely to hit you. Continue anyway?",
+                prompt = localise("%s is likely to hit you. Continue anyway?",
                                   item->name(DESC_THE).c_str());
             }
             else
@@ -3872,8 +3872,8 @@ void bolt::affect_player()
         else
         {
             string msg = get_hit_message(obj);
-            msg += localize(" but does no damage.");
-            mpr_nolocalize(msg);
+            msg += localise(" but does no damage.");
+            mpr_nolocalise(msg);
         }
     }
 
@@ -4929,11 +4929,11 @@ void bolt::affect_monster(monster* mon)
             string message;
             if (_test_beam_hit(beam_hit, rand_ev, pierce, 0, r))
             {
-                message = localize("%s repels %s!", mon->name(DESC_THE), get_the_name());
+                message = localise("%s repels %s!", mon->name(DESC_THE), get_the_name());
             }
             else
             {
-                message = localize("%s misses %s!", get_the_name(), mon->name(DESC_THE));
+                message = localise("%s misses %s!", get_the_name(), mon->name(DESC_THE));
             }
 
             msg::stream << message << endl;
@@ -4975,8 +4975,8 @@ void bolt::affect_monster(monster* mon)
         if (postac)
         {
             string msg = get_hit_message(mon->name(DESC_THE));
-            msg += localize(" but does no damage.");
-            mpr_nolocalize(msg);
+            msg += localise(" but does no damage.");
+            mpr_nolocalise(msg);
         }
         else
         {
@@ -5382,7 +5382,7 @@ mon_resist_type bolt::apply_enchantment_to_monster(monster* mon)
         const int dam = damage.roll();
         if (you.see_cell(mon->pos()))
         {
-            string msg = localize("%s is dispelled", mon->name(DESC_THE));
+            string msg = localise("%s is dispelled", mon->name(DESC_THE));
             attack_strength_message(msg, dam, false);
             obvious_effect = true;
         }
@@ -5397,7 +5397,7 @@ mon_resist_type bolt::apply_enchantment_to_monster(monster* mon)
         {
             if (you.see_cell(mon->pos()))
             {
-                string msg = localize("%s writhes in agony", mon->name(DESC_THE));
+                string msg = localise("%s writhes in agony", mon->name(DESC_THE));
                 attack_strength_message(msg, dam, false);
                 obvious_effect = true;
             }
@@ -5417,7 +5417,7 @@ mon_resist_type bolt::apply_enchantment_to_monster(monster* mon)
         const int dam = damage.roll();
         if (you.see_cell(mon->pos()))
         {
-            string msg = localize("%s is blasted", mon->name(DESC_THE));
+            string msg = localise("%s is blasted", mon->name(DESC_THE));
             attack_strength_message(msg, dam, false);
             obvious_effect = true;
         }

@@ -782,47 +782,47 @@ void actor::constriction_damage_defender(actor &defender, int duration)
 
         string msg;
         if (attacker_desc == "You")
-            msg = localize("You constrict %s", target);
+            msg = localise("You constrict %s", target);
         else if (defender.is_player())
             if (force_plural)
-                msg = localize("%s constrict you", attacker_desc);
+                msg = localise("%s constrict you", attacker_desc);
             else
-                msg = localize("%s constricts you", attacker_desc);
+                msg = localise("%s constricts you", attacker_desc);
         else
             if (force_plural)
-                msg = localize("%s constrict %s", attacker_desc, target);
+                msg = localise("%s constrict %s", attacker_desc, target);
             else
-                msg = localize("%s constricts %s", attacker_desc, target);
+                msg = localise("%s constricts %s", attacker_desc, target);
 
 #ifdef DEBUG_DIAGNOSTICS
         msg += make_stringf(" for %d", damage);
 #endif
 
         if (!but.empty())
-            msg += localize(but);
+            msg += localise(but);
         else
             msg = add_attack_strength_punct(msg, damage, false);
 
-        mpr_nolocalize(msg);
+        mpr_nolocalise(msg);
     }
     else if (you.can_see(defender) || defender.is_player())
     {
         string msg;
         if (defender.is_player())
-            msg = localize("You are constricted");
+            msg = localise("You are constricted");
         else
-            msg = localize("%s is constricted", defender.name(DESC_THE));
+            msg = localise("%s is constricted", defender.name(DESC_THE));
 
 #ifdef DEBUG_DIAGNOSTICS
         msg += make_stringf(" for %d", damage);
 #endif
 
         if (!but.empty())
-            msg += localize(but);
+            msg += localise(but);
         else
             msg = add_attack_strength_punct(msg, damage, false);
 
-        mpr_nolocalize(msg);
+        mpr_nolocalise(msg);
     }
 
     dprf("constrict at: %s df: %s base %d dur %d ac %d tsc %d inf %d",

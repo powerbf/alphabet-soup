@@ -286,8 +286,8 @@ bool ranged_attack::handle_phase_hit()
         else if (needs_message)
         {
             string msg = get_hit_message();
-            msg += localize(" but does no damage.");
-            mpr_nolocalize(msg);
+            msg += localise(" but does no damage.");
+            mpr_nolocalise(msg);
         }
     }
 

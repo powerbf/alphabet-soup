@@ -126,7 +126,7 @@ lang-fake.o \
 lev-pand.o \
 libutil.o \
 loading-screen.o \
-localize.o \
+localise.o \
 lookup-help.o \
 los.o \
 los-def.o \

@@ -42,7 +42,7 @@
 #include "item-use.h"
 #include "level-state-type.h"
 #include "libutil.h"
-#include "localize.h"
+#include "localise.h"
 #include "macro.h"
 #include "maps.h"
 #include "menu.h"
@@ -741,9 +741,9 @@ static string _nemelex_card_text(ability_type ability)
     int cards = deck_cards(ability_deck(ability));
 
     if (ability == ABIL_NEMELEX_DRAW_STACK)
-        return localize("(next: %s)", stack_top());
+        return localise("(next: %s)", stack_top());
     else
-        return localize("(%d in deck)", cards);
+        return localise("(%d in deck)", cards);
 }
 
 static const int VAMPIRE_BAT_FORM_STAT_DRAIN = 2;
@@ -754,88 +754,88 @@ const string make_cost_description(ability_type ability)
     string ret;
     if (abil.mp_cost)
     {
-        ret += localize(", ");
-        ret += localize("%d MP", (int)abil.mp_cost);
+        ret += localise(", ");
+        ret += localise("%d MP", (int)abil.mp_cost);
     }
 
     if (abil.flags & abflag::variable_mp)
     {
-        ret += localize(", ");
-        ret += localize("MP");
+        ret += localise(", ");
+        ret += localise("MP");
     }
 
     if (ability == ABIL_HEAL_WOUNDS)
     {
-        ret += localize(", ");
-        ret += localize("Permanent MP (%d left)", get_real_mp(false));
+        ret += localise(", ");
+        ret += localise("Permanent MP (%d left)", get_real_mp(false));
     }
 
     if (ability == ABIL_TRAN_BAT)
     {
-        ret += localize(", ");
-        ret += localize("Stat Drain (%d each)",
+        ret += localise(", ");
+        ret += localise("Stat Drain (%d each)",
                             VAMPIRE_BAT_FORM_STAT_DRAIN);
     }
 
     if (ability == ABIL_REVIVIFY)
     {
-        ret += localize(", ");
-        ret += localize("Frailty");
+        ret += localise(", ");
+        ret += localise("Frailty");
     }
 
     if (abil.hp_cost)
     {
-        ret += localize(", ");
-        ret += localize("%d HP", abil.hp_cost.cost(you.hp_max));
+        ret += localise(", ");
+        ret += localise("%d HP", abil.hp_cost.cost(you.hp_max));
     }
 
     if (abil.piety_cost || abil.flags & abflag::piety)
     {
-        ret += localize(", ");
-        ret += localize("Piety"); // randomised and exact amount hidden from player
+        ret += localise(", ");
+        ret += localise("Piety"); // randomised and exact amount hidden from player
     }
 
     if (abil.flags & abflag::breath)
     {
-        ret += localize(", ");
-        ret += localize("Breath");
+        ret += localise(", ");
+        ret += localise("Breath");
     }
 
     if (abil.flags & abflag::delay)
     {
-        ret += localize(", ");
-        ret += localize("Delay");
+        ret += localise(", ");
+        ret += localise("Delay");
     }
 
     if (abil.flags & abflag::pain)
     {
-        ret += localize(", ");
-        ret += localize("Pain");
+        ret += localise(", ");
+        ret += localise("Pain");
     }
 
     if (abil.flags & abflag::exhaustion)
     {
-        ret += localize(", ");
-        ret += localize("Exhaustion");
+        ret += localise(", ");
+        ret += localise("Exhaustion");
     }
 
     if (abil.flags & abflag::instant)
     {
-        ret += localize(", ");
-        ret += localize("Instant"); // not really a cost, more of a bonus - bwr
+        ret += localise(", ");
+        ret += localise("Instant"); // not really a cost, more of a bonus - bwr
     }
 
     if (abil.flags & abflag::max_hp_drain
         && (ability != ABIL_EVOKE_TURN_INVISIBLE || _invis_causes_drain()))
     {
-        ret += localize(", ");
-        ret += localize("Max HP drain");
+        ret += localise(", ");
+        ret += localise("Max HP drain");
     }
 
     if (abil.flags & abflag::remove_curse_scroll)
     {
-        ret += localize(", ");
-        ret += localize("Scroll of remove curse");
+        ret += localise(", ");
+        ret += localise("Scroll of remove curse");
     }
 
     if (abil.flags & abflag::gold)
@@ -843,24 +843,24 @@ const string make_cost_description(ability_type ability)
         const int amount = get_gold_cost(ability);
         if (amount)
         {
-            ret += localize(", ");
-            ret += localize("%d Gold", amount);
+            ret += localise(", ");
+            ret += localise("%d Gold", amount);
         }
         else if (ability == ABIL_GOZAG_POTION_PETITION)
         {
-            ret += localize(", ");
-            ret += localize("Free");
+            ret += localise(", ");
+            ret += localise("Free");
         }
         else
         {
-            ret += localize(", ");
-            ret += localize("Gold");
+            ret += localise(", ");
+            ret += localise("Gold");
         }
     }
 
     if (abil.flags & abflag::sacrifice)
     {
-        ret += localize(", ");
+        ret += localise(", ");
         const string prefix = "Sacrifice "; // noextract
         ret += string(ability_name(ability)).substr(prefix.size());
         ret += ru_sac_text(ability);
@@ -868,14 +868,14 @@ const string make_cost_description(ability_type ability)
 
     if (abil.flags & abflag::card)
     {
-        ret += localize(", ");
-        ret += localize("A Card") + " ";
+        ret += localise(", ");
+        ret += localise("A Card") + " ";
         ret += _nemelex_card_text(ability);
     }
 
     // If we haven't output anything so far, then the effect has no cost
     if (ret.empty())
-        return localize("None");
+        return localise("None");
 
     ret.erase(0, 2);
     return ret;
@@ -895,13 +895,13 @@ static const string _detailed_cost_description(ability_type ability)
     ostringstream ret;
 
     bool have_cost = false;
-    ret << localize("This ability costs: ");
+    ret << localise("This ability costs: ");
 
     if (abil.mp_cost > 0)
     {
         have_cost = true;
         ret << "\n";
-        ret << left << setw(7) << localize("MP");
+        ret << left << setw(7) << localise("MP");
         ret << ": ";
         ret << abil.mp_cost;
     }
@@ -909,7 +909,7 @@ static const string _detailed_cost_description(ability_type ability)
     {
         have_cost = true;
         ret << "\n";
-        ret << left << setw(7) << localize("HP");
+        ret << left << setw(7) << localise("HP");
         ret << ": ";
         ret << abil.hp_cost.cost(you.hp_max);
     }
@@ -918,14 +918,14 @@ static const string _detailed_cost_description(ability_type ability)
     {
         have_cost = true;
         ret << "\n";
-        ret << left << setw(7) << localize("Piety");
+        ret << left << setw(7) << localise("Piety");
         ret << ": ";
         if (abil.flags & abflag::piety)
-            ret << localize("variable");
+            ret << localise("variable");
         else
         {
             int avgcost = abil.piety_cost.base + abil.piety_cost.add / 2;
-            ret << localize(_get_piety_amount_str(avgcost));
+            ret << localise(_get_piety_amount_str(avgcost));
         }
     }
 
@@ -933,37 +933,37 @@ static const string _detailed_cost_description(ability_type ability)
     {
         have_cost = true;
         ret << "\n";
-        ret << left << setw(7) << localize("Gold");
+        ret << left << setw(7) << localise("Gold");
         ret << ": ";
         int gold_amount = get_gold_cost(ability);
         if (gold_amount)
             ret << gold_amount;
         else if (ability == ABIL_GOZAG_POTION_PETITION)
-            ret << localize("free");
+            ret << localise("free");
         else
-            ret << localize("variable");
+            ret << localise("variable");
     }
 
     if (abil.flags & abflag::remove_curse_scroll)
     {
         have_cost = true;
         ret << "\n";
-        ret << localize("One scroll of remove curse");
+        ret << localise("One scroll of remove curse");
     }
 
     if (!have_cost)
-        ret << localize("nothing.");
+        ret << localise("nothing.");
 
     if (abil.flags & abflag::breath)
     {
         ret << "\n";
-        ret << localize("You must catch your breath between uses of this ability.");
+        ret << localise("You must catch your breath between uses of this ability.");
     }
 
     if (abil.flags & abflag::delay)
     {
         ret << "\n";
-        ret << localize("This ability takes some time before being effective.");
+        ret << localise("This ability takes some time before being effective.");
     }
 
     if (abil.flags & abflag::pain)
@@ -972,19 +972,19 @@ static const string _detailed_cost_description(ability_type ability)
     if (abil.flags & abflag::exhaustion)
     {
         ret << "\n";
-        ret << localize("This ability causes exhaustion, and cannot be used when exhausted.");
+        ret << localise("This ability causes exhaustion, and cannot be used when exhausted.");
     }
 
     if (abil.flags & abflag::instant)
     {
         ret << "\n";
-        ret << localize("This ability is instantaneous.");
+        ret << localise("This ability is instantaneous.");
     }
 
     if (abil.flags & abflag::conf_ok)
     {
         ret << "\n";
-        ret << localize("You can use this ability even if confused.");
+        ret << localise("You can use this ability even if confused.");
     }
 
     if (abil.flags & abflag::max_hp_drain
@@ -992,16 +992,16 @@ static const string _detailed_cost_description(ability_type ability)
     {
         ret << "\n";
         if (ability == ABIL_EVOKE_TURN_INVISIBLE)
-            ret << localize("This ability will temporarily drain your maximum hit points when used, even unsuccessfully.");
+            ret << localise("This ability will temporarily drain your maximum hit points when used, even unsuccessfully.");
         else
-            ret << localize("This ability will temporarily drain your maximum hit points when used.");
+            ret << localise("This ability will temporarily drain your maximum hit points when used.");
 
     }
 
     if (abil.ability == ABIL_HEAL_WOUNDS)
     {
         ASSERT(!have_cost); // validate just in case this ever changes
-        return localize("This ability has a chance of reducing your maximum magic capacity when used.");
+        return localise("This ability has a chance of reducing your maximum magic capacity when used.");
     }
 
     return ret.str();
@@ -1159,11 +1159,11 @@ static string _desc_sac_mut(const CrawlStoreValue &mut_store)
 static string _sacrifice_desc(const ability_type ability)
 {
     const string boilerplate = "\n"
-        + localize("If you make this sacrifice, your powers granted by Ru "
+        + localise("If you make this sacrifice, your powers granted by Ru "
                    "will become stronger in proportion to the value of the "
                    "sacrifice, and you may gain new powers as well.")
         + "\n\n"
-        + localize("Sacrifices cannot be taken back.")
+        + localise("Sacrifices cannot be taken back.")
         + "\n";
     const string piety_info = ru_sacrifice_description(ability);
     const string desc = boilerplate + piety_info;
@@ -1178,10 +1178,10 @@ static string _sacrifice_desc(const ability_type ability)
     ASSERT(you.props.exists(sac_vec_key));
     const CrawlVector &sacrifice_muts = you.props[sac_vec_key].get_vector();
     return "\n"
-            + localize("After this sacrifice, you will find that ")
+            + localise("After this sacrifice, you will find that ")
             + comma_separated_fn(sacrifice_muts.begin(), sacrifice_muts.end(),
                                  _desc_sac_mut)
-            + localize(".") + "\n" + desc;
+            + localise(".") + "\n" + desc;
 }
 
 static string _nemelex_desc(ability_type ability)
@@ -1192,8 +1192,8 @@ static string _nemelex_desc(ability_type ability)
     string name = (deck == DECK_STACK ? "your " : "the "); // noextract
     name += deck_name(deck);
 
-    desc << localize("Draw a card from %s", name);
-    desc << localize("; ");
+    desc << localise("Draw a card from %s", name);
+    desc << localise("; ");
     desc << lowercase_first(deck_description(deck));
 
     return desc.str();
@@ -1212,14 +1212,14 @@ string get_ability_desc(const ability_type ability, bool need_title)
         lookup = getLongDescription(name + " ability");
 
     if (lookup.empty()) // Nothing found?
-        lookup = localize("No description found.") + "\n";
+        lookup = localise("No description found.") + "\n";
 
     if (testbits(get_ability_def(ability).flags, abflag::sacrifice))
         lookup += _sacrifice_desc(ability);
 
     if (god_hates_ability(ability, you.religion))
     {
-        lookup += localize("%s frowns upon the use of this ability.",
+        lookup += localise("%s frowns upon the use of this ability.",
                            uppercase_first(god_name(you.religion)));
         lookup += "\n";
     }
@@ -1327,7 +1327,7 @@ bool activate_ability()
         while (selected < 0)
         {
             msg::streams(MSGCH_PROMPT)
-                << localize("Use which ability? (? or * to list) ")
+                << localise("Use which ability? (? or * to list) ")
                 << endl;
 
             const int keyin = get_ch();
@@ -1530,7 +1530,7 @@ static bool _check_ability_possible(const ability_def& abil, bool quiet = false)
             {
                 if (action.matches(name))
                 {
-                    string prompt = localize("Really use %s?", name);
+                    string prompt = localise("Really use %s?", name);
                     if (!yesno(prompt.c_str(), false, 'n'))
                     {
                         canned_msg(MSG_OK);
@@ -1938,18 +1938,18 @@ static string _vampire_bat_transform_prompt(bool str_affected, bool dex_affected
     string prompt = "";
 
     if (str_affected && intel_affected)
-        prompt += localize("This will reduce your strength and intelligence to zero. ");
+        prompt += localise("This will reduce your strength and intelligence to zero. ");
     else if (str_affected)
-        prompt += localize("This will reduce your strength to zero. ");
+        prompt += localise("This will reduce your strength to zero. ");
     else if (intel_affected)
-        prompt += localize("This will reduce your intelligence to zero. ");
+        prompt += localise("This will reduce your intelligence to zero. ");
 
     // Bat form's dexterity boost will keep a vampire's dexterity above zero until
     // they untransform.
     if (dex_affected)
-        prompt += localize("This will reduce your dexterity to zero once you untransform. ");
+        prompt += localise("This will reduce your dexterity to zero once you untransform. ");
 
-    prompt += localize("Continue?");
+    prompt += localise("Continue?");
 
     return prompt;
 }
@@ -3380,10 +3380,10 @@ int choose_ability_menu(const vector<talent>& talents)
     abil_menu.set_highlighter(nullptr);
 
     {
-        string txt = chop_string(localize("Ability - do what?"), 36)
-                   + chop_string(localize("Cost"), 32) + localize("Failure");
-        string alt_txt = chop_string(localize("Ability - describe what?"), 36)
-                       + chop_string(localize("Cost"), 32) + localize("Failure");
+        string txt = chop_string(localise("Ability - do what?"), 36)
+                   + chop_string(localise("Cost"), 32) + localise("Failure");
+        string alt_txt = chop_string(localise("Ability - describe what?"), 36)
+                       + chop_string(localise("Cost"), 32) + localise("Failure");
 
         ToggleableMenuEntry* me;
 #ifdef USE_TILE_LOCAL
@@ -3408,7 +3408,7 @@ int choose_ability_menu(const vector<talent>& talents)
     }
     else
     {
-        string txt = localize("Press '<w>!</w>' or '<w>?</w>' to toggle "
+        string txt = localise("Press '<w>!</w>' or '<w>?</w>' to toggle "
                               "between ability selection and description.");
         abil_menu.set_more(formatted_string::parse_string(txt));
     }
@@ -3450,7 +3450,7 @@ int choose_ability_menu(const vector<talent>& talents)
     {
         // I don't understand the purpose of the trailing spaces here
         // Is it to overwrite something?
-        string txt = localize(" %s -    ", "Invocations");
+        string txt = localise(" %s -    ", "Invocations");
 #ifdef USE_TILE_LOCAL
         MenuEntry* subtitle = new MenuEntry(txt, MEL_ITEM);
         subtitle->colour = BLUE;
@@ -3507,14 +3507,14 @@ string describe_talent(const talent& tal)
 
     string failure;
     if (testbits(get_ability_def(tal.which).flags, abflag::hostile))
-        failure = localize("%d%% hostile", failure_rate_to_int(tal.fail));
+        failure = localise("%d%% hostile", failure_rate_to_int(tal.fail));
     else
         failure = failure_rate_to_string(tal.fail);
 
     ostringstream desc;
     desc << left
-         << chop_string(localize(ability_name(tal.which)), 32)
-         << chop_string(localize(make_cost_description(tal.which)), 32)
+         << chop_string(localise(ability_name(tal.which)), 32)
+         << chop_string(localise(make_cost_description(tal.which)), 32)
          << chop_string(failure, 12);
     return trimmed_string(desc.str());
 }

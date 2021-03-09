@@ -35,7 +35,7 @@
 #include "ghost.h"         // For is_dragonkind ghost_demon datas
 #include "god-conduct.h"   // did_god_conduct
 #include "god-passive.h"   // passive_t::want_curses
-#include "localize.h"
+#include "localise.h"
 #include "mgen-data.h"     // For Sceptre of Asmodeus evoke
 #include "message.h"
 #include "message-util.h"
@@ -695,10 +695,10 @@ static void _WYRMBANE_melee_effects(item_def* weapon, actor* attacker,
 
         string msg;
         if (defender->is_player())
-            msg = localize("You convulse");
+            msg = localise("You convulse");
         else
         {
-            msg = localize("%s convulses", defender->name(DESC_THE));
+            msg = localise("%s convulses", defender->name(DESC_THE));
         }
         attack_strength_message(msg, bonus_dam, false);
 
@@ -731,15 +731,15 @@ static void _WYRMBANE_melee_effects(item_def* weapon, actor* attacker,
         // Including you, if you were a dragonform felid with lives left.
         if (weapon->plus == 18)
         {
-            string msg = localize("The lance glows brightly as it skewers %s. "
+            string msg = localise("The lance glows brightly as it skewers %s. "
                                   "You feel that it has reached its full power.",
                                   name);
-            mprf_nolocalize("<white>%s</white>", msg.c_str());
+            mprf_nolocalise("<white>%s</white>", msg.c_str());
         }
         else
         {
-            string msg = localize("The lance glows as it skewers %s.", name);
-            mprf_nolocalize("<green>%s</green>", msg.c_str());
+            string msg = localise("The lance glows as it skewers %s.", name);
+            mprf_nolocalise("<green>%s</green>", msg.c_str());
         }
 
         you.wield_change = true;
@@ -758,9 +758,9 @@ static void _UNDEADHUNTER_melee_effects(item_def* /*item*/, actor* attacker,
 
         string msg;
         if (defender->is_player())
-            msg = localize("You are blasted by disruptive energy");
+            msg = localise("You are blasted by disruptive energy");
         else
-            msg = localize("%s is blasted by disruptive energy",
+            msg = localise("%s is blasted by disruptive energy",
                            defender->name(DESC_THE));
         attack_strength_message(msg, bonus_dam, false);
 
@@ -896,7 +896,7 @@ static void _WOE_melee_effects(item_def* /*weapon*/, actor* attacker,
                 case 6: msg = "You butcher %s messily."; break;
                 default: msg = "You slaughter %s joyfully.";
                 }
-                msg = localize(msg, defender->name(DESC_THE));
+                msg = localise(msg, defender->name(DESC_THE));
 
             }
             else if (defender->is_player())
@@ -912,7 +912,7 @@ static void _WOE_melee_effects(item_def* /*weapon*/, actor* attacker,
                 case 6: msg = "%s butchers you messily."; break;
                 default: msg = "%s slaughters you joyfully.";
                 }
-                msg = localize(msg, attacker->name(DESC_THE));
+                msg = localise(msg, attacker->name(DESC_THE));
             }
             else
             {
@@ -927,7 +927,7 @@ static void _WOE_melee_effects(item_def* /*weapon*/, actor* attacker,
                 case 6: msg = "%s butchers %s messily."; break;
                 default: msg = "%s slaughters %s joyfully.";
                 }
-                msg = localize(msg, attacker->name(DESC_THE), defender->name(DESC_THE));
+                msg = localise(msg, attacker->name(DESC_THE), defender->name(DESC_THE));
             }
         }
         else
@@ -946,7 +946,7 @@ static void _WOE_melee_effects(item_def* /*weapon*/, actor* attacker,
                 case 6: msg = "You butcher yourself messily."; break;
                 default: msg = "You slaughter yourself joyfully.";
                 }
-                msg = localize(msg);
+                msg = localise(msg);
             }
             else
             {
@@ -962,10 +962,10 @@ static void _WOE_melee_effects(item_def* /*weapon*/, actor* attacker,
                 case 6: msg = "%s is butchered messily."; break;
                 default: msg = "%s is cloven in twain.";
                 }
-                msg = localize(msg, attacker->name(DESC_THE));
+                msg = localise(msg, attacker->name(DESC_THE));
             }
         }
-        mpr_nolocalize(msg);
+        mpr_nolocalise(msg);
     }
 
     if (!mondied)
@@ -1137,7 +1137,7 @@ static void _ORDER_melee_effects(item_def* /*item*/, actor* attacker,
         if (silver_dam)
         {
             if (you.can_see(*defender))
-                mpr_nolocalize(msg);
+                mpr_nolocalise(msg);
             defender->hurt(attacker, silver_dam);
         }
         else if (dam > 0)

@@ -6,7 +6,7 @@
 
 #include "cio.h"
 #include "describe.h"
-#include "localize.h"
+#include "localise.h"
 #include "macro.h"
 #include "output.h"
 #include "religion.h"
@@ -47,14 +47,14 @@ void MemoriseRegion::draw_tag()
 
     const spell_type spell = (spell_type) idx;
     const string failure = failure_rate_to_string(raw_spell_fail(spell));
-    string desc = localize("%s    (%s)    %d/",
+    string desc = localise("%s    (%s)    %d/",
                            spell_title(spell),
                            failure,
                            spell_levels_required(spell));
     if (player_spell_levels() == 1)
-        desc += localize("1 spell slot");
+        desc += localise("1 spell slot");
     else
-        desc += localize("%d spell slots", player_spell_levels());
+        desc += localise("%d spell slots", player_spell_levels());
     draw_desc(desc);
 }
 
@@ -87,11 +87,11 @@ int MemoriseRegion::handle_mouse(wm_mouse_event &event)
 
 bool MemoriseRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const string prefix1 = active ? "" : localize("[L-Click]") + " ";
+    const string prefix1 = active ? "" : localise("[L-Click]") + " ";
     const string prefix2 = string(strwidth(prefix1), ' ');
 
-    tip = prefix1 + localize("Display spells in carried books") + "\n";
-    tip += prefix2 + localize("Memorise spells");
+    tip = prefix1 + localise("Display spells in carried books") + "\n";
+    tip += prefix2 + localise("Memorise spells");
 
     return true;
 }
@@ -108,14 +108,14 @@ bool MemoriseRegion::update_tip_text(string& tip)
     int flag = m_items[item_idx].flag;
     vector<command_type> cmd;
     if (flag & TILEI_FLAG_INVALID)
-        tip = localize("You cannot memorise this spell now.");
+        tip = localise("You cannot memorise this spell now.");
     else
     {
-        tip = localize("%s %s (%%)", "[L-Click]", "Memorise");
+        tip = localise("%s %s (%%)", "[L-Click]", "Memorise");
         cmd.push_back(CMD_MEMORISE_SPELL);
     }
 
-    tip += localize("\n%s %s", "[R-Click]", "Describe");
+    tip += localise("\n%s %s", "[R-Click]", "Describe");
 
     insert_commands(tip, cmd);
     return true;

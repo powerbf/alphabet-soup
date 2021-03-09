@@ -196,5 +196,5 @@ protected:
 };
 
 string attack_strength_punctuation(int dmg);
-string add_attack_strength_punct(const string& msg, int dmg, bool localize_msg);
-void attack_strength_message(const string& msg, int dmg, bool localize_msg);
+string add_attack_strength_punct(const string& msg, int dmg, bool localise_msg);
+void attack_strength_message(const string& msg, int dmg, bool localise_msg);

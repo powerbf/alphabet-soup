@@ -26,7 +26,7 @@
 #include "invent.h"
 #include "item-prop.h"
 #include "item-use.h"
-#include "localize.h"
+#include "localise.h"
 #include "melee-attack.h"
 #include "message.h"
 #include "misc.h"
@@ -670,11 +670,11 @@ bool wielded_weapon_check(const item_def *weapon, string attack_verb)
 
     string prompt;
     if (weapon)
-        prompt = localize("Really attack while wielding %s?", weapon->name(DESC_YOUR));
+        prompt = localise("Really attack while wielding %s?", weapon->name(DESC_YOUR));
     else
-        prompt = localize("Really attack while wielding nothing?");
+        prompt = localise("Really attack while wielding nothing?");
     if (penance)
-        prompt += " " + localize("This could place you under penance!");
+        prompt += " " + localise("This could place you under penance!");
 
     const bool result = yesno(prompt.c_str(), true, 'n');
 
@@ -1057,11 +1057,11 @@ bool stop_attack_prompt(const monster* mon, bool beam_attack,
     }
     fmt += "?";
 
-    string prompt = localize(fmt, mon_name);
+    string prompt = localise(fmt, mon_name);
 
     if (penance)
     {
-        prompt += " " + localize("This attack would place you under penance!");
+        prompt += " " + localise("This attack would place you under penance!");
     }
 
     if (prompted)
@@ -1167,11 +1167,11 @@ bool stop_attack_prompt(targeter &hitfunc, const char* verb,
             fmt = "Really do that near %s?";
         }
     }
-    prompt = localize(fmt, mon_names);
+    prompt = localise(fmt, mon_names);
 
     if (penance)
     {
-        prompt += " " + localize("This attack would place you under penance!");
+        prompt += " " + localise("This attack would place you under penance!");
     }
 
     if (prompted)
@@ -1210,13 +1210,13 @@ bool otr_stop_summoning_prompt(otr_stop_prompt prompt_id, const string& target)
 
     string prompt;
     if (prompt_id == OTR_STOP_SUMMON_FOREST)
-        prompt = localize("Really summon a forest while emitting a toxic aura?");
+        prompt = localise("Really summon a forest while emitting a toxic aura?");
     else if (prompt_id == OTR_STOP_CALL_DRAGONS)
-        prompt = localize("Really call dragons while emitting a toxic aura?");
+        prompt = localise("Really call dragons while emitting a toxic aura?");
     else if (prompt_id == OTR_STOP_ENSLAVE)
-        prompt = localize("Really enslave while emitting a toxic aura?");
+        prompt = localise("Really enslave while emitting a toxic aura?");
     else
-        prompt = localize("Really summon while emitting a toxic aura?");
+        prompt = localise("Really summon while emitting a toxic aura?");
 
     if (yesno(prompt.c_str(), false, 'n'))
         return false;

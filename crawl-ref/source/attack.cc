@@ -28,7 +28,7 @@
 #include "god-passive.h" // passive_t::no_haste
 #include "item-name.h"
 #include "item-prop.h"
-#include "localize.h"
+#include "localise.h"
 #include "message.h"
 #include "message-util.h"
 #include "mon-behv.h"
@@ -471,7 +471,7 @@ bool attack::distortion_affects_defender()
         {
             special_damage_message =
                 add_attack_strength_punct(
-                    localize("Space bends around %s", defender_name(false)),
+                    localise("Space bends around %s", defender_name(false)),
                     special_damage,
                     false);
 
@@ -482,8 +482,8 @@ bool attack::distortion_affects_defender()
 
         special_damage_message =
             defender->is_player() ?
-            localize("Space warps horribly around you") :
-            localize("Space warps horribly around %s", defender_name(false));
+            localise("Space warps horribly around you") :
+            localise("Space warps horribly around %s", defender_name(false));
 
         special_damage_message =
             add_attack_strength_punct(special_damage_message,
@@ -544,9 +544,9 @@ void attack::pain_affects_defender()
         {
             string msg;
             if (defender->is_player())
-                msg = localize("You writhe in agony");
+                msg = localise("You writhe in agony");
             else
-                msg = localize("%s writhes in agony", defender->name(DESC_THE));
+                msg = localise("%s writhes in agony", defender->name(DESC_THE));
 
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
@@ -921,24 +921,24 @@ string attack_strength_punctuation(int dmg)
         return string(3 + (int) log2(dmg / HIT_STRONG), '!');
 }
 
-/* Add localized attack strength punctuation to a message
+/* Add localised attack strength punctuation to a message
  *
- * If msg itself has already been localized, set localize_msg to false, otherwise set it to true.
+ * If msg itself has already been localised, set localise_msg to false, otherwise set it to true.
  */
-string add_attack_strength_punct(const string& msg, int dmg, bool localize_msg)
+string add_attack_strength_punct(const string& msg, int dmg, bool localise_msg)
 {
     string punct = attack_strength_punctuation(dmg);
-    return add_punctuation(msg, punct, localize_msg);
+    return add_punctuation(msg, punct, localise_msg);
 }
 
-/* Output message with localize attack strength punctuation
+/* Output message with localise attack strength punctuation
  *
- * If msg itself has already been localized, set localize_msg to false, otherwise set it to true.
+ * If msg itself has already been localised, set localise_msg to false, otherwise set it to true.
  */
-void attack_strength_message(const string& msg, int dmg, bool localize_msg)
+void attack_strength_message(const string& msg, int dmg, bool localise_msg)
 {
-    string text = add_attack_strength_punct(msg, dmg, localize_msg);
-    mpr_nolocalize(text); // don't localize the message a 2nd time
+    string text = add_attack_strength_punct(msg, dmg, localise_msg);
+    mpr_nolocalise(text); // don't localise the message a 2nd time
 }
 
 /* Returns evasion adverb
@@ -1447,9 +1447,9 @@ bool attack::apply_damage_brand(const char *what)
         {
             string msg;
             if (defender->is_player())
-                msg = localize("You convulse");
+                msg = localise("You convulse");
             else
-                msg = localize("%s convulses", defender_name(false));
+                msg = localise("%s convulses", defender_name(false));
 
             special_damage_message =
                 add_attack_strength_punct(msg, special_damage, false);
@@ -1465,9 +1465,9 @@ bool attack::apply_damage_brand(const char *what)
 
             string msg;
             if (defender->is_player())
-                msg = localize("You are electrocuted");
+                msg = localise("You are electrocuted");
             else
-                msg = localize("Lightning courses through %s",
+                msg = localise("Lightning courses through %s",
                                defender->name(DESC_THE));
 
             special_damage_message =

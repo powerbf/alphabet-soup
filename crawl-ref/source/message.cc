@@ -16,7 +16,7 @@
 #include "hints.h"
 #include "initfile.h"
 #include "libutil.h"
-#include "localize.h"
+#include "localise.h"
 #ifdef WIZARD
  #include "luaterp.h"
 #endif
@@ -36,7 +36,7 @@
 #include "view.h"
 
 static void _mpr(string text, msg_channel_type channel=MSGCH_PLAIN, int param=0,
-                 bool nojoin=false, bool cap=true, bool localize=true);
+                 bool nojoin=false, bool cap=true, bool localise=true);
 
 void mpr(const string &text)
 {
@@ -58,12 +58,12 @@ void mpr_nojoin(msg_channel_type channel, string text)
     _mpr(text, channel, 0, true);
 }
 
-void mpr_nolocalize(string text)
+void mpr_nolocalise(string text)
 {
     _mpr(text, MSGCH_PLAIN, 0, false, true, false);
 }
 
-void mpr_nolocalize(msg_channel_type channel, string text)
+void mpr_nolocalise(msg_channel_type channel, string text)
 {
     _mpr(text, channel, 0, false, true, false);
 }
@@ -740,10 +740,10 @@ public:
                     more_str += "or click ";
                 more_str += "to continue. You can later reread messages with "
                             "Ctrl-P.";
-                cprintf(localize(more_str).c_str());
+                cprintf(localise(more_str).c_str());
             }
             else
-                cprintf(localize("--more--").c_str());
+                cprintf(localise("--more--").c_str());
 
             readkey_more(user);
         }
@@ -1255,9 +1255,9 @@ int channel_to_colour(msg_channel_type channel, int param)
 }
 
 void do_message_print(msg_channel_type channel, int param, bool cap,
-                             bool nojoin, const char *format, va_list argp, bool loclz)
+                             bool nojoin, const char *format, va_list argp, bool locls)
 {
-    string text = loclz ? vlocalize(format, argp) : vmake_stringf(format, argp);
+    string text = locls ? vlocalise(format, argp) : vmake_stringf(format, argp);
     _mpr(text, channel, param, nojoin, cap, false);
 }
 
@@ -1286,7 +1286,7 @@ void mprf_nocap(const char *format, ...)
     va_end(argp);
 }
 
-void mprf_nolocalize(msg_channel_type channel, int param, const char *format, ...)
+void mprf_nolocalise(msg_channel_type channel, int param, const char *format, ...)
 {
     va_list argp;
     va_start(argp, format);
@@ -1294,7 +1294,7 @@ void mprf_nolocalize(msg_channel_type channel, int param, const char *format, ..
     va_end(argp);
 }
 
-void mprf_nolocalize(msg_channel_type channel, const char *format, ...)
+void mprf_nolocalise(msg_channel_type channel, const char *format, ...)
 {
     va_list argp;
     va_start(argp, format);
@@ -1303,7 +1303,7 @@ void mprf_nolocalize(msg_channel_type channel, const char *format, ...)
     va_end(argp);
 }
 
-void mprf_nolocalize(const char *format, ...)
+void mprf_nolocalise(const char *format, ...)
 {
     va_list argp;
     va_start(argp, format);
@@ -1522,11 +1522,11 @@ void msgwin_clear_temporary()
 static int _last_msg_turn = -1; // Turn of last message.
 
 static void _mpr(string txt, msg_channel_type channel, int param, bool nojoin,
-                 bool cap, bool loclz)
+                 bool cap, bool locls)
 {
     rng::generator rng(rng::UI);
 
-    string text = (loclz ? localize(txt) : txt);
+    string text = (locls ? localise(txt) : txt);
 
     if (_msg_dump_file != nullptr)
         fprintf(_msg_dump_file, "%s\n", text.c_str()); // should this strip color tags?
@@ -1754,18 +1754,18 @@ void mpr_comma_separated_list(const string &prefix,
                               const msg_channel_type channel,
                               const int param)
 {
-    string out = localize(prefix);
+    string out = localise(prefix);
 
     for (int i = 0, size = list.size(); i < size; i++)
     {
         out += list[i];
 
         if (size > 0 && i < (size - 2))
-            out += localize(comma);
+            out += localise(comma);
         else if (i == (size - 2))
-            out += localize(andc);
+            out += localise(andc);
         else if (i == (size - 1))
-            out += localize(".");
+            out += localise(".");
     }
     _mpr(out, channel, param, false, true, false);
 }
@@ -2147,7 +2147,7 @@ void simple_god_message(const char *event, god_type which_deity)
     if (!contains(msg, "%s"))
         msg = "%s" + msg;
 
-    msg = localize(msg, god_speaker(which_deity));
+    msg = localise(msg, god_speaker(which_deity));
 
     god_speaks(which_deity, msg.c_str());
 }
@@ -2331,9 +2331,9 @@ void replay_messages_during_startup()
 {
     formatted_scroller hist(FS_PREWRAPPED_TEXT);
     hist.set_more();
-    string more_msg = localize("Press Esc to close, arrows/pgup/pgdn to scroll.");
+    string more_msg = localise("Press Esc to close, arrows/pgup/pgdn to scroll.");
     hist.set_more(formatted_string::parse_string(string("<cyan>") + more_msg + "</cyan>"));
-    string title = localize(
+    string title = localise(
             recent_error_messages()
             ? "Crawl encountered errors during initialization:"
             : "Initialization log:");

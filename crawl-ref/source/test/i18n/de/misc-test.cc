@@ -1,6 +1,6 @@
 #include "AppHdr.h"
 #include "fake-main.hpp"
-#include "localize.h"
+#include "localise.h"
 #include "database.h"
 #include "initfile.h"
 #include "options.h"
@@ -39,13 +39,13 @@ int main()
     SysEnv.crawl_dir = ".";
     setlocale(LC_ALL, "");
     databaseSystemInit();
-    init_localization("de");
+    init_localisation("de");
 
     string s = "Eure Zaubersprüche";
     cout << "strwidth(\"" << s << "\") = " << strwidth(s) << endl;
     /*char32_t c;
     utf8towc(&c, "ü");
     printf("%02X\n", c);*/
-    string result = localize("%-34.34s", "Your Spells");
+    string result = localise("%-34.34s", "Your Spells");
     show_result(result, "Eure Zaubersprüche                ");
 }
