@@ -4315,8 +4315,8 @@ void monster::splash_with_acid(const actor* evildoer, int /*acid_strength*/,
 
     if (this->observable())
     {
-        mprf("%s is splashed with acid%s", this->name(DESC_THE).c_str(),
-             attack_strength_punctuation(post_res_dam).c_str());
+        string msg = localise("%s is splashed with acid", this->name(DESC_THE));
+        attack_strength_message(msg, post_res_dam, false);
     }
 
     if (!one_chance_in(3))

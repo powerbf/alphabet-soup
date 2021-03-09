@@ -1220,25 +1220,10 @@ string localise(const vector<LocalisationArg>& args)
                     // arg is string
                     if (arg.translate && !_skip_translation())
                     {
-                        string argx;
-                        if (!arg.stringVal.empty()
-                            && arg.stringVal.find_first_not_of("!") == string::npos)
-                        {
-                            // Special handling for attack strength exclamation marks:
-                            // Some languages (e.g. Spanish) may not simply append exclamation marks at the end,
-                            // so we switch it around and make the sentence the argument for a format string containing the punctuation.
-                            string excl_fmt = cxlate(context, "%s" + arg.stringVal);
-                            string sentence = ss.str();
-                            ss.str("");
-                            ss << make_stringf(excl_fmt.c_str(), sentence.c_str());
-                        }
-                        else
-                        {
-                            argx = _localise_string(context, arg);
-                            ss << _format_utf8_string(fmt_spec, argx);
-                            if (argx != arg.stringVal)
-                                success = true;
-                        }
+                        string argx = _localise_string(context, arg);
+                        ss << _format_utf8_string(fmt_spec, argx);
+                        if (argx != arg.stringVal)
+                            success = true;
                     }
                     else
                     {

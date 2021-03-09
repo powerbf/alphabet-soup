@@ -165,7 +165,6 @@ protected:
 
     /* Output */
     string debug_damage_number(bool special = false);
-    string evasion_margin_adverb();
 
     virtual void announce_hit() = 0;
 

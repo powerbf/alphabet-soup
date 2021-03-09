@@ -246,11 +246,33 @@ bool ranged_attack::handle_phase_dodged()
 
     if (needs_message)
     {
-        mprf("%s%s misses %s%s",
-             projectile->name(DESC_THE).c_str(),
-             evasion_margin_adverb().c_str(),
-             defender_name(false).c_str(),
-             attack_strength_punctuation(damage_done).c_str());
+        string proj = projectile->name(DESC_THE);
+        string dfndr = defender_name(false);
+
+        if (ev_margin <= -20)
+        {
+            do_3rd_person_message(proj, dfndr,
+                                  "%s completely misses you.",
+                                  "%s completely misses %s.");
+        }
+        else if (ev_margin <= -12)
+        {
+            do_3rd_person_message(proj, dfndr,
+                                  "%s misses you.",
+                                  "%s misses %s.");
+        }
+        else if (ev_margin <= -6)
+        {
+            do_3rd_person_message(proj, dfndr,
+                                  "%s closely misses you.",
+                                  "%s closely misses %s.");
+        }
+        else
+        {
+            do_3rd_person_message(proj, dfndr,
+                                  "%s barely misses you.",
+                                  "%s barely misses %s.");
+        }
     }
 
     return true;
