@@ -290,7 +290,7 @@ No description found.
 
 %%%%
 %s frowns upon the use of this ability.
-
+%s missbilligt den Gebrauch dieser Fähigkeit.
 %%%%
 You can't untransform!
 Ihr könnt Euch nicht unverwandeln!
@@ -350,7 +350,7 @@ That deck is empty!
 Der Stapel ist leer!
 %%%%
 Really use %s?
-
+Wirklich {acc}%s benutzen?
 %%%%
 There's no appreciative audience!
 Es gibt kein anerkennendes Publikum!
@@ -380,7 +380,7 @@ You don't have enough innate magic capacity.
 Ihr habt nicht genug angeborene magische Kapazität.
 %%%%
 You are already invisible!
-
+Ihr seid bereits unsichtbar!
 %%%%
 You don't have enough experience to sacrifice.
 Ihr habt nicht genügend Erfahrung, zu opfern.
@@ -708,7 +708,7 @@ Acquire %s? (%s/%s)
 ##################
 %%%%
 the acid
-
+die Säure
 %%%%
 
 ##################
@@ -900,10 +900,10 @@ The sanctuary disappears.
 Das Heiligtum verschwindet.
 %%%%
 By Zin's power, the foul cloud within the sanctuary is swept away.
-
+Durch Zins Kraft wird die schädliche Wolke aus dem Heiligtum entfernt.
 %%%%
 By Zin's power, all foul fumes within the sanctuary are swept away.
-
+Durch Zins Kraft wird alle schädliche Dämpfe aus dem Heiligtum entfernt.
 %%%%
 By Zin's power, all blood is cleared from the sanctuary.
 Durch Zins Kraft wird alles Blut aus dem Heiligtum entfernt.
