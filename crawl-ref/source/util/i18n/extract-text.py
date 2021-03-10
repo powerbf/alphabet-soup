@@ -8,7 +8,7 @@ SKIP_FILES = [
     'build.h', 'compflag.h',
     'version.h', 'version.cc',
     # debug/test stuff
-    'debug.h', 'ctest.h', 'ctest.cc',
+    'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc',
     # files related to the translation process itself
     'xlate.h', 'xlate.cc', 
     'localize.h', 'localize.cc', 
@@ -17,7 +17,7 @@ SKIP_FILES = [
     # (because if we run this on a server, we want all the morgues in English)
     'chardump.cc', 'notes.h', 'notes.cc',
     # nonsense
-    'lang-fake.h' 'lang-fake.cc'
+    'lang-fake.h', 'lang-fake.cc'
 ]
 
 files = []

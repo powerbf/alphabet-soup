@@ -20018,1085 +20018,6 @@ mutate
 %%%%
 
 ##################
-# lang-fake.cc
-##################
-%%%%
-^yes$
-
-%%%%
-aye
-
-%%%%
-there
-
-%%%%
-thar
-
-%%%%
-eir$
-
-%%%%
-ar
-
-%%%%
-%%%%
-aboot
-
-%%%%
-^he$
-
-%%%%
-'e
-
-%%%%
-%%%%
-'em
-
-%%%%
-^him
-
-%%%%
-'im
-
-%%%%
-out of$
-
-%%%%
-outta
-
-%%%%
-of course
-
-%%%%
-'course
-
-%%%%
-^of$
-
-%%%%
-o'
-
-%%%%
-^and$
-
-%%%%
-an'
-
-%%%%
-to$
-
-%%%%
-ta
-
-%%%%
-tog
-
-%%%%
-%%%%
-that
-
-%%%%
-tha
-
-%%%%
-the
-
-%%%%
-wouldn't
-
-%%%%
-wouldn'ta
-
-%%%%
-cannot
-
-%%%%
-cannae
-
-%%%%
-can't
-
-%%%%
-don't
-
-%%%%
-dinnae
-
-%%%%
-'re$
-
-%%%%
-%%%%
-for$
-
-%%%%
-fer
-
-%%%%
-ver$
-
-%%%%
-'er
-
-%%%%
-ber$
-
-%%%%
-b'r
-
-%%%%
-every$
-
-%%%%
-ev'ry
-
-%%%%
-^is$
-
-%%%%
-%%%%
-en$
-
-%%%%
-'n
-
-%%%%
-^if$
-
-%%%%
-if'n
-
-%%%%
-enl
-
-%%%%
-'nl
-
-%%%%
-eng
-
-%%%%
-'ng
-
-%%%%
-%%%%
-in'
-
-%%%%
-ment
-
-%%%%
-mn't
-
-%%%%
-^es
-
-%%%%
-%%%%
-^ex
-
-%%%%
-^not$
-
-%%%%
-na
-
-%%%%
-^no$
-
-%%%%
-nay
-
-%%%%
-n't have
-
-%%%%
-n'tve
-
-%%%%
-^are$
-
-%%%%
-%%%%
-haf
-
-%%%%
-abl
-
-%%%%
-'bl
-
-%%%%
-^you$
-
-%%%%
-ye
-
-%%%%
-^your
-
-%%%%
-yer
-
-%%%%
-^you'
-
-%%%%
-ye'
-
-%%%%
-noth
-
-%%%%
-nuth
-
-%%%%
-^this$
-
-%%%%
-'tis
-
-%%%%
-^here
-
-%%%%
-'ere
-
-%%%%
-doesn't
-
-%%%%
-at a$
-
-%%%%
-atta
-
-%%%%
-ith$
-
-%%%%
-it'
-
-%%%%
-ered$
-
-%%%%
-'red
-
-%%%%
-into$
-
-%%%%
-inta
-
-%%%%
-^before
-
-%%%%
-'fore
-
-%%%%
-wit' '
-
-%%%%
-wit '
-
-%%%%
-wit' t
-
-%%%%
-wit t
-
-%%%%
-wit' w
-
-%%%%
-wit w
-
-%%%%
-wit' y
-
-%%%%
-wit y
-
-%%%%
-get a
-
-%%%%
-git a
-
-%%%%
-ally$
-
-%%%%
-'lly
-
-%%%%
-^my
-
-%%%%
-me
-
-%%%%
-^i think$
-
-%%%%
-methinks
-
-%%%%
-nay w
-
-%%%%
-na w
-
-%%%%
-^one$
-
-%%%%
-'un
-
-%%%%
-^'un a
-
-%%%%
-one a
-
-%%%%
-at ta$
-
-%%%%
-ot ta$
-
-%%%%
-otta
-
-%%%%
-^isn't$
-
-%%%%
-ain't
-
-%%%%
-^so th
-
-%%%%
-s'th
-
-%%%%
-ned$
-
-%%%%
-n'd
-
-%%%%
-^because
-
-%%%%
-'cause
-
-%%%%
-%%%%
-dis
-
-%%%%
-%%%%
-dey
-
-%%%%
-%%%%
-der
-
-%%%%
-dere
-
-%%%%
-%%%%
-dese
-
-%%%%
-those
-
-%%%%
-doze
-
-%%%%
-the$
-
-%%%%
-%%%%
-then
-
-%%%%
-den
-
-%%%%
-dem
-
-%%%%
-yah
-
-%%%%
-hyu
-
-%%%%
-hyur
-
-%%%%
-hef
-
-%%%%
-wh
-
-%%%%
-%%%%
-^w
-
-%%%%
-" -"
-
-%%%%
-%%%%
-o
-
-%%%%
-^ha
-
-%%%%
-%%%%
-ha
-
-%%%%
-%%%%
-henny
-
-%%%%
-smart
-
-%%%%
-schmot
-
-%%%%
-n't
-
-%%%%
-n'
-
-%%%%
-ain'
-
-%%%%
-hain't
-
-%%%%
-am not
-
-%%%%
-isn'
-
-%%%%
-is not
-
-%%%%
-aren'
-
-%%%%
-are not
-
-%%%%
-haint't
-
-%%%%
-good
-
-%%%%
-goot
-
-%%%%
-dad
-
-%%%%
-papa
-
-%%%%
-stuff
-
-%%%%
-stoff
-
-%%%%
-going to
-
-%%%%
-gunna
-
-%%%%
-going
-
-%%%%
-gun
-
-%%%%
-people
-
-%%%%
-pipple
-
-%%%%
-little
-
-%%%%
-liddle
-
-%%%%
-love
-
-%%%%
-luv
-
-%%%%
-%%%%
-nize
-
-%%%%
-bug
-
-%%%%
-bog
-
-%%%%
-let me
-
-%%%%
-lemme
-
-%%%%
-give me
-
-%%%%
-gimmee
-
-%%%%
-castle
-
-%%%%
-kestle
-
-%%%%
-clank
-
-%%%%
-klenk
-
-%%%%
-better
-
-%%%%
-betta
-
-%%%%
-darling
-
-%%%%
-dollink
-
-%%%%
-some
-
-%%%%
-zum
-
-%%%%
-ouble
-
-%%%%
-ubbel
-
-%%%%
-bble
-
-%%%%
-bbel
-
-%%%%
-hex
-
-%%%%
-exc
-
-%%%%
-eks
-
-%%%%
-%%%%
-accident
-
-%%%%
-exident
-
-%%%%
-once
-
-%%%%
-vunce
-
-%%%%
-id$
-
-%%%%
-eed
-
-%%%%
-^one
-
-%%%%
-vun
-
-%%%%
-kiss
-
-%%%%
-kees
-
-%%%%
-^c
-
-%%%%
-k
-
-%%%%
-h
-
-%%%%
-am$
-
-%%%%
-em
-
-%%%%
-^th
-
-%%%%
-%%%%
-unix
-
-%%%%
-yoonix
-
-%%%%
-^un
-
-%%%%
-%%%%
-^sh
-
-%%%%
-%%%%
-^sl
-
-%%%%
-schl
-
-%%%%
-^sm
-
-%%%%
-schm
-
-%%%%
-^sn
-
-%%%%
-schn
-
-%%%%
-^sp
-
-%%%%
-schp
-
-%%%%
-^st
-
-%%%%
-scht
-
-%%%%
-of
-
-%%%%
-uf
-
-%%%%
-qu
-
-%%%%
-qv
-
-%%%%
-ink
-
-%%%%
-irl
-
-%%%%
-url
-
-%%%%
-ish
-
-%%%%
-eesh
-
-%%%%
-^i
-
-%%%%
-hy
-
-%%%%
-%%%%
-ve$
-
-%%%%
-%%%%
-ect$
-
-%%%%
-eck
-
-%%%%
-%%%%
-und
-
-%%%%
-^all
-
-%%%%
-hall
-
-%%%%
-mister
-
-%%%%
-herr
-
-%%%%
-mr.
-
-%%%%
-iz
-
-%%%%
-god damn it
-
-%%%%
-gotterdammerung
-
-%%%%
-goddammit
-
-%%%%
-goddamnit
-
-%%%%
-damn it
-
-%%%%
-goddam
-
-%%%%
-god damn
-
-%%%%
-damn
-
-%%%%
-%%%%
-gott
-
-%%%%
-okay
-
-%%%%
-hokay
-
-%%%%
-^ok$
-
-%%%%
-just
-
-%%%%
-chust
-
-%%%%
-%%%%
-ᛇ
-
-%%%%
-%%%%
-ᚨ
-
-%%%%
-%%%%
-ᛒ
-
-%%%%
-ᚲ
-
-%%%%
-d
-
-%%%%
-ᛞ
-
-%%%%
-ᛖ
-
-%%%%
-%%%%
-ᚠ
-
-%%%%
-%%%%
-ᚷ
-
-%%%%
-ᚺ
-
-%%%%
-%%%%
-ᛁ
-
-%%%%
-j
-
-%%%%
-ᛃ
-
-%%%%
-l
-
-%%%%
-ᛚ
-
-%%%%
-%%%%
-ᛗ
-
-%%%%
-%%%%
-ᛜ
-
-%%%%
-%%%%
-ᚾ
-
-%%%%
-ᛟ
-
-%%%%
-%%%%
-p
-
-%%%%
-ᛈ
-
-%%%%
-ᛩ
-
-%%%%
-ᚱ
-
-%%%%
-%%%%
-ᛊ
-
-%%%%
-ᚦ
-
-%%%%
-ᛏ
-
-%%%%
-%%%%
-ᚢ
-
-%%%%
-ᚡ
-
-%%%%
-ᚹ
-
-%%%%
-%%%%
-ᚲᛊ
-
-%%%%
-%%%%
-ᚤ
-
-%%%%
-z
-
-%%%%
-ᛉ
-
-%%%%
-^killed$
-
-%%%%
-annihilated
-
-%%%%
-^kill$
-
-%%%%
-annihilate
-
-%%%%
-%%%%
-0123456789
-
-%%%%
-ou
-
-%%%%
-%%%%
-ist
-
-%%%%
-an$
-
-%%%%
-ann
-
-%%%%
-ein
-
-%%%%
-%%%%
-BATTLESPHERE
-
-%%%%
-Battlesphere
-
-%%%%
-%%%%
-BATTLEMAGE
-
-%%%%
-%%%%
-Battle Magician
-
-%%%%
-%%%%
-BATTLEAXE
-
-%%%%
-book of Battle
-
-%%%%
-BATTLEBOOK
-
-%%%%
-Battlelust
-
-%%%%
-BATTLELUST
-
-%%%%
-Kill them all
-
-%%%%
-RIP AND TEAR
-
-%%%%
-accepts your kill
-
-%%%%
-roars: ANNIHILATED
-
-%%%%
-appreciates your killing of a heretic priest
-
-%%%%
-smash puny heretic
-
-%%%%
-appreciates your killing of a magic user
-
-%%%%
-smash puny caster
-
-%%%%
-appreciates your killing of a holy being
-
-%%%%
-smash puny angel
-
-%%%%
-is honoured by your kill
-
-%%%%
-screams: ANNIHILATED
-
-%%%%
-You pass out from exhaustion.
-Ihr werdet ohnmächtig vor Erschöpfung.
-%%%%
-POWER NAP!!!
-
-%%%%
-You die...
-Ihr sterbt...
-%%%%
-rip
-
-%%%%
-LOW HITPOINT WARNING
-
-%%%%
-don't die
-
-%%%%
-Ouch! That really hurt!
-Autsch! Das hat wirklich wehgetan!
-%%%%
-DANG
-
-%%%%
-an
-
-%%%%
-%%%%
-at
-
-%%%%
-in
-
-%%%%
-if
-
-%%%%
-into
-
-%%%%
-to
-
-%%%%
-%%%%
--ly
-
-%%%%
--LY
-
-%%%%
-s'
-
-%%%%
-
-##################
 # libunix.cc
 ##################
 %%%%
@@ -21187,6 +20108,9 @@ kbs
 ##################
 %%%%
 The
+
+%%%%
+the
 
 %%%%
 %%%%
@@ -22581,6 +21505,8 @@ Too many semi-colons for '%s' spec.
 More items than monster item slots for '%s'.
 
 %%%%
+0123456789
+
 %%%%
 bad monster summon type: "%s"
 
@@ -23933,6 +22859,8 @@ Ihr versucht, den Toten Leben zu geben...
 You cannot move.
 Ihr könnt Euch nicht bewegen.
 %%%%
+You die...
+Ihr sterbt...
 %%%%
 You see a ghostly outline there, and the spell fizzles.
 Ihr seht dort einen gespenstischen Umriss und der Zauber scheitert.
@@ -24839,6 +23767,9 @@ the entropic weave
 %%%%
 %%%%
 "unseen "
+
+%%%%
+at
 
 %%%%
 %%%%
@@ -26477,6 +25408,9 @@ Tentakel platzen aus dem Körper der Sternbrut!
 evil
 
 %%%%
+bug
+
+%%%%
 %%%%
 " in a puff of smoke"
 
@@ -26610,6 +25544,9 @@ your god
 " @foe,@"
 
 %%%%
+%%%%
+to
+
 %%%%
 @says@ @to_foe@
 
@@ -29954,6 +28891,9 @@ You feel less resistant to acid.
 
 %%%%
 %%%%
+good
+
+%%%%
 bad
 
 %%%%
@@ -30607,6 +29547,8 @@ Ihr fühlt Euch bedroht und verlierst die Fähigkeit, Tränke zu trinken!
 " protects you from harm!"
 
 %%%%
+Ouch! That really hurt!
+Autsch! Das hat wirklich wehgetan!
 %%%%
 * * * LOW HITPOINT WARNING * * *
 * * * LOW HITPOINT WARNING * * *
@@ -30743,9 +29685,6 @@ Ring
 ∞
 
 %%%%
-%%%%
-Will
-
 %%%%
 *\n
 
@@ -31618,6 +30557,8 @@ Really %s %s that %s?
 onto
 
 %%%%
+into
+
 %%%%
 You cannot enter water in your current form.
 Ihr könnt in Eurer jetzigen Form nicht in Wasser eintreten.
@@ -32279,6 +31220,9 @@ Ihr schließt die %s%s%s.
 Trog's vigour flows through your veins.
 Trogs Kraft fließt durch Eure Adern.
 %%%%
+You pass out from exhaustion.
+Ihr werdet ohnmächtig vor Erschöpfung.
+%%%%
 %%%%
 Your blood congeals into armour.
 Euer Blut erstarrt zu einer Rüstung.
@@ -32445,7 +31389,6 @@ unnamed object
 %%%%
 "%s (Confirm with \"yes\".) "
 
-%%%%
 %%%%
 Buggy prompt?
 
@@ -36772,6 +35715,10 @@ A chill wind blows around you.
 Ein kalter Wind weht um Euch herum.
 %%%%
 %%%%
+some
+
+%%%%
+%%%%
 %s appears.
 %s erscheint.
 %%%%
@@ -39779,6 +38726,8 @@ Ihr %s das Netz und befreist Euch!
 shred
 
 %%%%
+rip
+
 %%%%
 You tear a large gash into the net.
 Ihr reißt einen großen Schnitt ins Netz.
@@ -40883,6 +39832,8 @@ P
 ns
 
 %%%%
+in
+
 %%%%
 noi
 
