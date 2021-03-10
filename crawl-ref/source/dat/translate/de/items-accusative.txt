@@ -180,80 +180,41 @@ den Bumerang
 {acc}an arrow
 einen Pfeil
 %%%%
-{acc}%d arrows
-%d Pfeile
-%%%%
 {acc}a bolt
 einen Bolzen
-%%%%
-{acc}%d bolts
-%d Bolzen
 %%%%
 {acc}a dart
 einen Wurfpfeil
 %%%%
-{acc}%d darts
-%d Wurfpfeile
-%%%%
 {acc}a poisoned dart
 einen Giftwurfpfeil
-%%%%
-{acc}%d poisoned darts
-%d Giftwurfpfeile
 %%%%
 {acc}a curare dart
 einen Kurare-Wurfpfeil
 %%%%
-{acc}%d curare darts
-%d Kurare-Wurfpfeile
-%%%%
 {acc}an atropa dart
 einen Atropa-Wurfpfeil
-%%%%
-{acc}%d atropa darts
-%d Atropa-Wurfpfeile
 %%%%
 {acc}a datura dart
 einen Datura-Wurfpfeil
 %%%%
-{acc}%d datura darts
-%d Datura-Wurfpfeile
-%%%%
 {acc}a stone
 einen Stein
-%%%%
-{acc}%d stones
-%d Steine
 %%%%
 {acc}a large rock
 einen Felsblock
 %%%%
-{acc}%d large rocks
-%d Felsblöcke
-%%%%
 {acc}a javelin
 einen Wurfspeer
-%%%%
-{acc}%d javelins
-%d Wurfspeere
 %%%%
 {acc}a silver javelin
 einen Silberwurfspeer
 %%%%
-{acc}%d silver javelins
-%d Silberwurfspeere
-%%%%
 {acc}a boomerang
 einen Bumerang
 %%%%
-{acc}%d boomerangs
-%d Bumerangs
-%%%%
 {acc}a silver boomerang
 einen Silberbumerang
-%%%%
-{acc}%d silver boomerangs
-%d Silberbumerangs
 %%%%
 
 #################################
@@ -683,113 +644,59 @@ einen {adj-en}%sfluoreszierender Zauberstab
 {acc}a potion of ambrosia
 einen Trank der Ambrosia
 %%%%
-{acc}%d potions of ambrosia
-%d Tränke der Ambrosia
-%%%%
 {acc}a potion of berserk rage
 einen Trank der Berserker-Wut
-%%%%
-{acc}%d potions of berserk rage
-%d Tränke der Berserker-Wut
 %%%%
 {acc}a potion of brilliance
 einen Trank der Brillanz
 %%%%
-{acc}%d potions of brilliance
-%d Tränke der Brillanz
-%%%%
 {acc}a potion of cancellation
 einen Trank der Aufhebung
-%%%%
-{acc}%d potions of cancellation
-%d Tränke der Aufhebung
 %%%%
 {acc}a potion of curing
 einen Trank des Gegenmittels
 %%%%
-{acc}%d potions of curing
-%d Tränke des Gegenmittels
-%%%%
 {acc}a potion of degeneration
 einen Trank der Degeneration
-%%%%
-{acc}%d potions of degeneration
-%d Tränke der Degeneration
 %%%%
 {acc}a potion of experience
 einen Trank der Erfahrung
 %%%%
-{acc}%d potions of experience
-%d Tränke der Erfahrung
-%%%%
 {acc}a potion of flight
 einen Trank des Fliegens
-%%%%
-{acc}%d potions of flight
-%d Tränke des Fliegens
 %%%%
 {acc}a potion of haste
 einen Trank der Geschwindigkeit
 %%%%
-{acc}%d potions of haste
-%d Tränke der Geschwindigkeit
-%%%%
 {acc}a potion of heal wounds
 einen Heiltrank
-%%%%
-{acc}%d potions of heal wounds
-%d Heiltränke
 %%%%
 {acc}a potion of invisibility
 einen Trank der Unsichtbarkeit
 %%%%
-{acc}%d potions of invisibility
-%d Tränke der Unsichtbarkeit
-%%%%
 {acc}a potion of lignification
 einen Trank der Verholzung
-%%%%
-{acc}%d potions of lignification
-%d Tränke der Verholzung
 %%%%
 {acc}a potion of magic
 einen Trank der Magie
 %%%%
-{acc}%d potions of magic
-%d Tränke der Magie
-%%%%
 {acc}a potion of might
 einen Trank der Macht
-%%%%
-{acc}%d potions of might
-%d Tränke der Macht
 %%%%
 {acc}a potion of mutation
 einen Trank der Mutation
 %%%%
-{acc}%d potions of mutation
-%d Tränke der Mutation
-%%%%
 {acc}a potion of resistance
 einen Trank des Widerstands
 %%%%
-{acc}%d potions of resistance
-%d Tränke des Widerstands
-%%%%
 {acc}a potion of stabbing
 einen Trank der Stecherei
-%%%%
-{acc}%d potions of stabbing
-%d Tränke der Stecherei
 %%%%
 # unidentified potions are named "<colour> <potion>"
 # or "<qualifier> <colour> potion"
 %%%%
 {acc}a %spotion
 einen {adj-en}%sZaubertrank
-%%%%
-{acc}%d %spotions
-%d %sZaubertränke
 %%%%
 # potion colours
 %%%%
@@ -992,9 +899,6 @@ einen {adj-en}%sStecken
 %%%%
 {acc}a phantom mirror
 einen Phantomspiegel
-%%%%
-{acc}%d phantom mirrors
-%d Phantomspiegel
 %%%%
 
 #################################
