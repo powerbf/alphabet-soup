@@ -586,7 +586,7 @@ Gold:
 # rPois    .         Spirit   .   (helmet unavailable)
 # rElec    .         Reflect  .   (cloak unavailable)
 # rCorr    .         Harm     .   (gloves unavailable)
-# MR       .....                  (boots unavailable)
+# Will     .....                  (boots unavailable)
 # Stlth    +++.......             (no amulet)
 # HPRegen  0.02/turn              (no ring)
 # MPRegen  0.09/turn              (no ring)
@@ -711,8 +711,8 @@ rMut
 %%%%
 # magic resistance
 %%%%
-MR
-ZR
+Will
+Wille
 %%%%
 # Stealth = Heimlichkeit
 %%%%
