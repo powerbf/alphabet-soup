@@ -650,6 +650,9 @@ der Moorleiche
 the necrophage's
 des Nekrophagens
 %%%%
+the bloated husk's
+der aufgeblähten Hülle
+%%%%
 the ghoul's
 des Ghuls
 %%%%
@@ -2127,6 +2130,9 @@ einer Moorleiche
 a necrophage's
 eines Nekrophagens
 %%%%
+a bloated husk's
+einer aufgeblähten Hülle
+%%%%
 a ghoul's
 eines Ghuls
 %%%%
@@ -3543,6 +3549,9 @@ Eurer Moorleiche
 %%%%
 your necrophage's
 Eures Nekrophagens
+%%%%
+your bloated husk's
+Eurer aufgeblähten Hülle
 %%%%
 your ghoul's
 Eures Ghuls

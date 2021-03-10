@@ -640,6 +640,9 @@ der Moorleiche
 {gen}the necrophage
 des Nekrophagens
 %%%%
+{gen}the bloated husk
+der aufgeblähten Hülle
+%%%%
 {gen}the ghoul
 des Ghuls
 %%%%
@@ -2117,6 +2120,9 @@ einer Moorleiche
 {gen}a necrophage
 eines Nekrophagens
 %%%%
+{gen}a bloated husk
+einer aufgeblähten Hülle
+%%%%
 {gen}a ghoul
 eines Ghuls
 %%%%
@@ -3533,6 +3539,9 @@ Eurer Moorleiche
 %%%%
 {gen}your necrophage
 Eures Nekrophagens
+%%%%
+{gen}your bloated husk
+Eurer aufgeblähten Hülle
 %%%%
 {gen}your ghoul
 Eures Ghuls
