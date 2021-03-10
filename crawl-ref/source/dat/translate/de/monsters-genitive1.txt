@@ -1757,6 +1757,47 @@ des Fuchsfeuers
 the nameless horror's
 des namenlosen Horrors
 %%%%
+the will-o-the-wisp's
+des Irrlichts
+%%%%
+the bunyip's
+des Bunyips
+%%%%
+the boulder beetle's
+des Rollsteinkäfers
+%%%%
+the cane toad's
+der Aga-Kröte
+%%%%
+the goliath frog's
+des Goliathfrosches
+%%%%
+the fenstrider witch's
+der Fennläuferhexe
+%%%%
+the palentonga's
+des Palentongas
+%%%%
+the royal mummy's
+der königlichen Mumie
+%%%%
+the eleionoma's
+der Eleionoma
+%%%%
+the lemure's
+der Lemure
+%%%%
+# Test monsters can be created in Arena
+%%%%
+the test spawner's
+des Test-Erzeugers
+%%%%
+the test statue's
+der Test-Statue
+%%%%
+the test blob's
+des Test-Klumpens
+%%%%
 the sensed monster's
 des gespürten Monsters
 %%%%
@@ -3132,6 +3173,47 @@ eines Fuchsfeuers
 %%%%
 a nameless horror's
 eines namenlosen Horrors
+%%%%
+a will-o-the-wisp's
+eines Irrlichts
+%%%%
+a bunyip's
+eines Bunyips
+%%%%
+a boulder beetle's
+eines Rollsteinkäfers
+%%%%
+a cane toad's
+einer Aga-Kröte
+%%%%
+a goliath frog's
+eines Goliathfrosches
+%%%%
+a fenstrider witch's
+einer Fennläuferhexe
+%%%%
+a palentonga's
+eines Palentongas
+%%%%
+a royal mummy's
+einer königlichen Mumie
+%%%%
+a eleionoma's
+einer Eleionoma
+%%%%
+a lemure's
+einer Lemure
+%%%%
+# Test monsters can be created in Arena
+%%%%
+a test spawner's
+eines Test-Erzeugers
+%%%%
+a test statue's
+einer Test-Statue
+%%%%
+a test blob's
+eines Test-Klumpens
 %%%%
 a sensed monster's
 eines gespürten Monsters
@@ -4568,6 +4650,47 @@ Eures Fuchsfeuers
 %%%%
 your nameless horror's
 Eures namenlosen Horrors
+%%%%
+your will-o-the-wisp's
+Eures Irrlichts
+%%%%
+your bunyip's
+Eures Bunyips
+%%%%
+your boulder beetle's
+Eures Rollsteinkäfers
+%%%%
+your cane toad's
+Eurer Aga-Kröte
+%%%%
+your goliath frog's
+Eures Goliathfrosches
+%%%%
+your fenstrider witch's
+Eurer Fennläuferhexe
+%%%%
+your palentonga's
+Eures Palentongas
+%%%%
+your royal mummy's
+Eurer königlichen Mumie
+%%%%
+your eleionoma's
+Eurer Eleionoma
+%%%%
+your lemure's
+Eurer Lemure
+%%%%
+# Test monsters can be created in Arena
+%%%%
+your test spawner's
+Eures Test-Erzeugers
+%%%%
+your test statue's
+Eurer Test-Statue
+%%%%
+your test blob's
+Eures Test-Klumpens
 %%%%
 your sensed monster's
 Eures gespürten Monsters

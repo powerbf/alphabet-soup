@@ -1747,6 +1747,47 @@ des Fuchsfeuers
 {gen}the nameless horror
 des namenlosen Horrors
 %%%%
+{gen}the will-o-the-wisp
+des Irrlichts
+%%%%
+{gen}the bunyip
+des Bunyips
+%%%%
+{gen}the boulder beetle
+des Rollsteinkäfers
+%%%%
+{gen}the cane toad
+der Aga-Kröte
+%%%%
+{gen}the goliath frog
+des Goliathfrosches
+%%%%
+{gen}the fenstrider witch
+der Fennläuferhexe
+%%%%
+{gen}the palentonga
+des Palentongas
+%%%%
+{gen}the royal mummy
+der königlichen Mumie
+%%%%
+{gen}the eleionoma
+der Eleionoma
+%%%%
+{gen}the lemure
+der Lemure
+%%%%
+# Test monsters can be created in Arena
+%%%%
+{gen}the test spawner
+des Test-Erzeugers
+%%%%
+{gen}the test statue
+der Test-Statue
+%%%%
+{gen}the test blob
+des Test-Klumpens
+%%%%
 {gen}the sensed monster
 des gespürten Monsters
 %%%%
@@ -3122,6 +3163,47 @@ eines Fuchsfeuers
 %%%%
 {gen}a nameless horror
 eines namenlosen Horrors
+%%%%
+{gen}a will-o-the-wisp
+eines Irrlichts
+%%%%
+{gen}a bunyip
+eines Bunyips
+%%%%
+{gen}a boulder beetle
+eines Rollsteinkäfers
+%%%%
+{gen}a cane toad
+einer Aga-Kröte
+%%%%
+{gen}a goliath frog
+eines Goliathfrosches
+%%%%
+{gen}a fenstrider witch
+einer Fennläuferhexe
+%%%%
+{gen}a palentonga
+eines Palentongas
+%%%%
+{gen}a royal mummy
+einer königlichen Mumie
+%%%%
+{gen}a eleionoma
+einer Eleionoma
+%%%%
+{gen}a lemure
+einer Lemure
+%%%%
+# Test monsters can be created in Arena
+%%%%
+{gen}a test spawner
+eines Test-Erzeugers
+%%%%
+{gen}a test statue
+einer Test-Statue
+%%%%
+{gen}a test blob
+eines Test-Klumpens
 %%%%
 {gen}a sensed monster
 eines gespürten Monsters
@@ -4558,6 +4640,47 @@ Eures Fuchsfeuers
 %%%%
 {gen}your nameless horror
 Eures namenlosen Horrors
+%%%%
+{gen}your will-o-the-wisp
+Eures Irrlichts
+%%%%
+{gen}your bunyip
+Eures Bunyips
+%%%%
+{gen}your boulder beetle
+Eures Rollsteinkäfers
+%%%%
+{gen}your cane toad
+Eurer Aga-Kröte
+%%%%
+{gen}your goliath frog
+Eures Goliathfrosches
+%%%%
+{gen}your fenstrider witch
+Eurer Fennläuferhexe
+%%%%
+{gen}your palentonga
+Eures Palentongas
+%%%%
+{gen}your royal mummy
+Eurer königlichen Mumie
+%%%%
+{gen}your eleionoma
+Eurer Eleionoma
+%%%%
+{gen}your lemure
+Eurer Lemure
+%%%%
+# Test monsters can be created in Arena
+%%%%
+{gen}your test spawner
+Eures Test-Erzeugers
+%%%%
+{gen}your test statue
+Eurer Test-Statue
+%%%%
+{gen}your test blob
+Eures Test-Klumpens
 %%%%
 {gen}your sensed monster
 Eures gespürten Monsters
