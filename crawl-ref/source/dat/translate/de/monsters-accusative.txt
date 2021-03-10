@@ -903,6 +903,26 @@ den Mondtroll
 {acc}the nameless horror
 den namenlosen Horror
 %%%%
+{acc}the bunyip
+den Bunyip
+%%%%
+{acc}the boulder beetle
+den Rollsteinkäfer
+%%%%
+{acc}the goliath frog
+den Goliathfrosch
+%%%%
+{acc}the palentonga
+den Palentonga
+%%%%
+# Test monsters can be created in Arena
+%%%%
+{acc}the test spawner
+den Test-Erzeuger
+%%%%
+{acc}the test blob
+den Test-Klumpen
+%%%%
 
 ################################
 # indefinite
@@ -3160,6 +3180,26 @@ einen namenlosen Horror
 {acc}%d nameless horrors
 %d namenlose Horror
 %%%%
+{acc}a bunyip
+einen Bunyip
+%%%%
+{acc}a boulder beetle
+einen Rollsteinkäfer
+%%%%
+{acc}a goliath frog
+einen Goliathfrosch
+%%%%
+{acc}a palentonga
+einen Palentonga
+%%%%
+# Test monsters can be created in Arena
+%%%%
+{acc}a test spawner
+einen Test-Erzeuger
+%%%%
+{acc}a test blob
+einen Test-Klumpen
+%%%%
 
 ################################
 # allies
@@ -4040,6 +4080,26 @@ Euren Mondtroll
 %%%%
 {acc}your nameless horror
 Euren namenlosen Horror
+%%%%
+{acc}your bunyip
+Euren Bunyip
+%%%%
+{acc}your boulder beetle
+Euren Rollsteinkäfer
+%%%%
+{acc}your goliath frog
+Euren Goliathfrosch
+%%%%
+{acc}your palentonga
+Euren Palentonga
+%%%%
+# Test monsters can be created in Arena
+%%%%
+{acc}your test spawner
+Euren Test-Erzeuger
+%%%%
+{acc}your test blob
+Euren Test-Klumpen
 %%%%
 
 ################################

@@ -1769,6 +1769,47 @@ das Fuchsfeuer
 the nameless horror
 der namenlose Horror
 %%%%
+the will-o-the-wisp
+das Irrlicht
+%%%%
+the bunyip
+der Bunyip
+%%%%
+the boulder beetle
+der Rollsteinkäfer
+%%%%
+the cane toad
+Die Aga-Kröte
+%%%%
+the goliath frog
+Der Goliathfrosch
+%%%%
+the fenstrider witch
+die Fennläuferhexe
+%%%%
+the palentonga
+der Palentonga
+%%%%
+the royal mummy
+die königliche Mumie
+%%%%
+the eleionoma
+die Eleionoma
+%%%%
+the lemure
+die Lemure
+%%%%
+# Test monsters can be created in Arena
+%%%%
+the test spawner
+der Test-Erzeuger
+%%%%
+the test statue
+die Test-Statue
+%%%%
+the test blob
+der Test-Klumpen
+%%%%
 the sensed monster
 das gespürte Monster
 %%%%
@@ -5153,6 +5194,87 @@ ein namenloser Horror
 %d nameless horrors
 %d namenlose Horror
 %%%%
+a will-o-the-wisp
+ein Irrlicht
+%%%%
+%d will-o-the-wisps
+%d Irrlichter
+%%%%
+a bunyip
+ein Bunyip
+%%%%
+%d bunyips
+%d Bunyips
+%%%%
+a boulder beetle
+ein Rollsteinkäfer
+%%%%
+%d boulder beetles
+%d Rollsteinkäfer
+%%%%
+a cane toad
+ein Aga-Kröte
+%%%%
+%d cane toads
+%d Aga-Kröten
+%%%%
+a goliath frog
+ein Goliathfrosch
+%%%%
+%d goliath frogs
+%d Goliathfrösche
+%%%%
+a fenstrider witch
+eine Fennläuferhexe
+%%%%
+%d fenstrider witches
+%d Fennläuferhexen
+%%%%
+a palentonga
+ein Palentonga
+%%%%
+%d palentongas
+%d Palentongas
+%%%%
+a royal mummy
+eine königliche Mumie
+%%%%
+%d royal mummies
+%d königliche Mumien
+%%%%
+a eleionoma
+eine Eleionoma
+%%%%
+# Ref: https://de.wikipedia.org/wiki/Eleionomai
+%d eleionomas
+%d Eleionomai
+%%%%
+a lemure
+eine Lemure
+%%%%
+%d lemures
+%d Lemuren
+%%%%
+# Test monsters can be created in Arena
+%%%%
+a test spawner
+ein Test-Erzeuger
+%%%%
+%d test spawners
+%d Test-Erzeuger
+%%%%
+a test statue
+ein Test-Statue
+%%%%
+%d test statues
+%d Test-Statuen
+%%%%
+a test blob
+ein Test-Klumpen
+%%%%
+%d test blobs
+%d Test-Klumpen
+%%%%
 a sensed monster
 ein gespürtes Monster
 %%%%
@@ -5200,6 +5322,7 @@ ein furchtbares gespürtes Monster
 %d furchtbare gespürte Monster
 %%%%
 # check plural above
+
 ################################
 # allies
 ################################
@@ -6619,6 +6742,47 @@ Euer Fuchsfeuer
 %%%%
 your nameless horror
 Euer namenloser Horror
+%%%%
+your will-o-the-wisp
+Euer Irrlicht
+%%%%
+your bunyip
+Euer Bunyip
+%%%%
+your boulder beetle
+Euer Rollsteinkäfer
+%%%%
+your cane toad
+Eure Aga-Kröte
+%%%%
+your goliath frog
+Euer Goliathfrosch
+%%%%
+your fenstrider witch
+Eure Fennläuferhexe
+%%%%
+your palentonga
+Euer Palentonga
+%%%%
+your royal mummy
+Eure königliche Mumie
+%%%%
+your eleionoma
+Eure Eleionoma
+%%%%
+your lemure
+Eure Lemure
+%%%%
+# Test monsters can be created in Arena
+%%%%
+your test spawner
+Euer Test-Erzeuger
+%%%%
+your test statue
+Eure Test-Statue
+%%%%
+your test blob
+Euer Test-Klumpen
 %%%%
 your sensed monster
 Euer gespürtes Monster
@@ -8058,6 +8222,47 @@ Fuchsfeuer
 %%%%
 nameless horror
 namenloser Horror
+%%%%
+will-o-the-wisp
+Irrlicht
+%%%%
+bunyip
+Bunyip
+%%%%
+boulder beetle
+Rollsteinkäfer
+%%%%
+cane toad
+Aga-Kröte
+%%%%
+goliath frog
+Goliathfrosch
+%%%%
+fenstrider witch
+Fennläuferhexe
+%%%%
+palentonga
+Palentonga
+%%%%
+royal mummy
+königliche Mumie
+%%%%
+the eleionoma
+die Eleionoma
+%%%%
+lemure
+Lemure
+%%%%
+# Test monsters can be created in Arena
+%%%%
+test spawner
+Test-Erzeuger
+%%%%
+test statue
+Test-Statue
+%%%%
+test blob
+Test-Klumpen
 %%%%
 sensed monster
 gespürtes Monster
