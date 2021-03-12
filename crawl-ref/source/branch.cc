@@ -316,21 +316,20 @@ string branch_noise_desc(branch_type br)
     const int noise = ambient_noise(br);
     if (noise != 0)
     {
-        desc = "This branch is ";
         if (noise > 0)
         {
-            desc += make_stringf("very noisy, and so sound travels much less "
-                                 "far.");
+            desc = "This branch is very noisy, and so sound travels much less "
+                   "far.";
         }
         else
         {
-            desc += make_stringf("unnaturally silent, and so sound travels "
-                                 "much further.");
+            desc = "This branch is unnaturally silent, and so sound travels "
+                   "much further.";
 
         }
     }
 
-    return desc;
+    return localise(desc);
 }
 
 /**
@@ -350,7 +349,7 @@ string branch_rune_desc(branch_type br, bool remaining_only)
         if (!(remaining_only && you.runes[rune]))
         {
             desc += desc.empty() ? "" : " ";
-            desc += make_stringf("This branch contains %s.", rune_long_name(rune).c_str());
+            desc += localise("This branch contains %s.", rune_long_name(rune));
         }
 
     return desc;
