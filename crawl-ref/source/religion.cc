@@ -595,10 +595,10 @@ void dec_penance(god_type god, int val)
 
         const bool dead_jiyva = (god == GOD_JIYVA && jiyva_is_dead());
 
-        simple_god_message(
-            make_stringf(" seems mollified%s.",
-                         dead_jiyva ? ", and vanishes" : "").c_str(),
-            god);
+        if (dead_jiyva)
+            simple_god_message("%s seems mollified and vanishes.", god);
+        else
+            simple_god_message("%s seems mollified.", god);
 
         if (dead_jiyva)
             add_daction(DACT_REMOVE_JIYVA_ALTARS);
@@ -629,7 +629,7 @@ void dec_penance(god_type god, int val)
             }
             if (have_passive(passive_t::stat_boost))
             {
-                simple_god_message(" restores the support of your attributes.");
+                simple_god_message("%s restores the support of your attributes.");
                 redraw_screen();
                 update_screen();
                 notify_stat_change();
@@ -1029,11 +1029,11 @@ static bool _give_nemelex_gift(bool forced = false)
 
     if (gift_cards())
     {
-        simple_god_message(" deals you some cards!");
+        simple_god_message("%s deals you some cards!");
         mprf(MSGCH_GOD, "You now have %s.", deck_summary().c_str());
     }
     else
-        simple_god_message(" goes to deal, but finds you have enough cards.");
+        simple_god_message("%s goes to deal, but finds you have enough cards.");
     _inc_gift_timeout(5 + random2avg(9, 2));
     you.num_current_gifts[you.religion]++;
     you.num_total_gifts[you.religion]++;
@@ -1096,7 +1096,7 @@ static void _delayed_gift_callback(const mgen_data &/*mg*/, monster *&mon,
 
 static bool _jiyva_mutate()
 {
-    simple_god_message(" alters your body.");
+    simple_god_message("%s alters your body.");
 
     const int rand = random2(100);
 
@@ -1352,7 +1352,7 @@ static bool _give_pakellas_gift()
 
     if (success)
     {
-        simple_god_message(" grants you a gift!");
+        simple_god_message("%s grants you a gift!");
         // included in default force_more_message
 
         you.num_current_gifts[you.religion]++;
@@ -1407,15 +1407,15 @@ static bool _give_trog_oka_gift(bool forced)
     {
         if (gift_type == OBJ_MISSILES)
         {
-            simple_god_message(" grants you ammunition!");
+            simple_god_message("%s grants you ammunition!");
             _inc_gift_timeout(4 + roll_dice(2, 4));
         }
         else
         {
             if (gift_type == OBJ_WEAPONS)
-                simple_god_message(" grants you a weapon!");
+                simple_god_message("%s grants you a weapon!");
             else
-                simple_god_message(" grants you armour!");
+                simple_god_message("%s grants you armour!");
             // Okawaru charges extra for armour acquirements.
             if (you_worship(GOD_OKAWARU) && gift_type == OBJ_ARMOUR)
                 _inc_gift_timeout(30 + random2avg(15, 2));
@@ -1550,7 +1550,7 @@ static bool _gift_sif_kiku_gift(bool forced)
 
     if (success)
     {
-        simple_god_message(" grants you a gift!");
+        simple_god_message("%s grants you a gift!");
         // included in default force_more_message
 
         you.num_current_gifts[you.religion]++;
@@ -1578,28 +1578,29 @@ static bool _handle_veh_gift(bool forced)
         if (!offers.empty())
         {
             you.vehumet_gifts = offers;
-            string prompt = " offers you knowledge of ";
+            string list;
             for (auto it = offers.begin(); it != offers.end(); ++it)
             {
                 if (it != offers.begin())
                 {
-                    if (offers.size() > 2)
-                        prompt += ",";
-                    prompt += " ";
                     auto next = it;
                     next++;
                     if (next == offers.end())
-                        prompt += "and ";
+                        list += localise(" and ");
+                    else
+                        list += localise(", ");
                 }
-                prompt += spell_title(*it);
+                list += localise(spell_title(*it));
                 _add_to_old_gifts(*it);
                 take_note(Note(NOTE_OFFERED_SPELL, *it));
             }
-            prompt += ".";
+
+            string prompt = localise("Vehumet offers you knowledge of %s.",
+                                     LocalisationArg(list, false));
             if (gifts >= NUM_VEHUMET_GIFTS - 1)
             {
-                prompt += " These spells will remain available"
-                          " as long as you worship Vehumet.";
+                prompt += localise(" These spells will remain available"
+                                   " as long as you worship Vehumet.");
             }
 
             you.duration[DUR_VEHUMET_GIFT] = (100 + random2avg(100, 2)) * BASELINE_DELAY;
@@ -1608,7 +1609,7 @@ static bool _handle_veh_gift(bool forced)
             you.num_current_gifts[you.religion]++;
             you.num_total_gifts[you.religion]++;
 
-            simple_god_message(prompt.c_str());
+            god_speaks(you.religion, prompt.c_str());
             // included in default force_more_message
 
             success = true;
@@ -2432,7 +2433,7 @@ static void _gain_piety_point()
         // TODO: add one-time ability check in have_passive
         if (have_passive(passive_t::unlock_slime_vaults) && can_do_capstone_ability(you.religion))
         {
-            simple_god_message(" will now unseal the treasures of the "
+            simple_god_message("%s will now unseal the treasures of the "
                                "Slime Pits.");
             dlua.callfn("dgn_set_persistent_var", "sb",
                         "fix_slime_vaults", true);
@@ -2458,10 +2459,16 @@ static void _gain_piety_point()
     if (have_passive(passive_t::stat_boost)
         && chei_stat_boost(old_piety) < chei_stat_boost())
     {
-        string msg = " raises the support of your attributes";
+        string msg;
         if (have_passive(passive_t::slowed))
-            msg += " as your movement slows";
-        msg += ".";
+        {
+            msg = "%s raises the support of your attributes "
+                  "as your movement slows.";
+        }
+        else
+        {
+            msg = "%s raises the support of your attributes.";
+        }
         simple_god_message(msg.c_str());
         notify_stat_change();
     }
@@ -2607,10 +2614,16 @@ void lose_piety(int pgn)
     if (will_have_passive(passive_t::stat_boost)
         && chei_stat_boost(old_piety) > chei_stat_boost())
     {
-        string msg = " lowers the support of your attributes";
-        if (will_have_passive(passive_t::slowed))
-            msg += " as your movement quickens";
-        msg += ".";
+        string msg;
+        if (have_passive(passive_t::slowed))
+        {
+            msg = "%s lowers the support of your attributes "
+                  "as your movement quickens.";
+        }
+        else
+        {
+            msg = "%s lowers the support of your attributes.";
+        }
         simple_god_message(msg.c_str());
         notify_stat_change();
     }
@@ -2654,25 +2667,6 @@ bool fedhas_neutralises(const monster& target)
            && target.holiness() & MH_PLANT
            && target.type != MONS_SNAPLASHER_VINE
            && target.type != MONS_SNAPLASHER_VINE_SEGMENT;
-}
-
-static string _god_hates_your_god_reaction(god_type god, god_type your_god)
-{
-    if (god_hates_your_god(god, your_god))
-    {
-        // Non-good gods always hate your current god.
-        if (!is_good_god(god))
-            return "";
-
-        // Zin hates chaotic gods.
-        if (god == GOD_ZIN && is_chaotic_god(your_god))
-            return " for chaos";
-
-        if (is_evil_god(your_god))
-            return " for evil";
-    }
-
-    return "";
 }
 
 /**
@@ -2783,10 +2777,15 @@ void excommunication(bool voluntary, god_type new_god)
 
     if (god_hates_your_god(old_god, new_god))
     {
-        simple_god_message(
-            make_stringf(" does not appreciate desertion%s!",
-                         _god_hates_your_god_reaction(old_god, new_god).c_str()).c_str(),
-            old_god);
+        string msg;
+        if (old_god == GOD_ZIN && is_chaotic_god(new_god))
+            msg = "%s does not appreciate desertion for chaos!";
+        else if (is_good_god(old_god) && is_evil_god(new_god))
+            msg = "%s does not appreciate desertion for evil!";
+        else
+            msg = "%s does not appreciate desertion!";
+
+        simple_god_message(msg.c_str(), old_god);
     }
 
     if (had_halo)
@@ -2820,7 +2819,7 @@ void excommunication(bool voluntary, god_type new_god)
         you.duration[DUR_MIRROR_DAMAGE] = 0;
         if (query_daction_counter(DACT_ALLY_YRED_SLAVE))
         {
-            simple_god_message(" reclaims all of your granted undead slaves!",
+            simple_god_message("%s reclaims all of your granted undead slaves!",
                                old_god);
             add_daction(DACT_ALLY_YRED_SLAVE);
             remove_all_companions(GOD_YREDELEMNUL);
@@ -2845,7 +2844,7 @@ void excommunication(bool voluntary, god_type new_god)
     case GOD_BEOGH:
         if (query_daction_counter(DACT_ALLY_BEOGH))
         {
-            simple_god_message("'s voice booms out, \"Who do you think you "
+            simple_god_message("%s's voice booms out, \"Who do you think you "
                                "are?\"", old_god);
             mprf(MSGCH_MONSTER_ENCHANT, "All of your followers decide to abandon you.");
             add_daction(DACT_ALLY_BEOGH);
@@ -2979,7 +2978,7 @@ void excommunication(bool voluntary, god_type new_god)
 
 #if TAG_MAJOR_VERSION == 34
     case GOD_PAKELLAS:
-        simple_god_message(" continues to block your magic from regenerating.",
+        simple_god_message("%s continues to block your magic from regenerating.",
                            old_god);
         if (you.duration[DUR_DEVICE_SURGE])
             you.duration[DUR_DEVICE_SURGE] = 0;
@@ -2990,7 +2989,7 @@ void excommunication(bool voluntary, god_type new_god)
 #endif
 
     case GOD_CHEIBRIADOS:
-        simple_god_message(" continues to slow your movements.", old_god);
+        simple_god_message("%s continues to slow your movements.", old_god);
         break;
 
     case GOD_HEPLIAKLQANA:
@@ -3328,19 +3327,19 @@ static void _transfer_good_god_piety()
 
     if (you.religion != old_god)
     {
-        static const map<god_type, const char*> farewell_messages = {
-            { GOD_ELYVILON, "aid the meek" },
-            { GOD_SHINING_ONE, "vanquish evil" },
-            { GOD_ZIN, "enforce order" },
-        };
+        string msg;
+        if (old_god == GOD_ELYVILON)
+            msg = "%s says: Farewell. Go and aid the meek with %s.";
+        else if (old_god == GOD_SHINING_ONE)
+            msg = "%s says: Farewell. Go and vanquish evil with %s.";
+        else if (old_god == GOD_ZIN)
+            msg = "%s says: Farewell. Go and enforce order with %s.";
+        else
+            msg = "%s says: Farewell. Go and become a bug with %s.";
 
         // Some feedback that piety moved over.
-        simple_god_message(make_stringf(" says: Farewell. Go and %s with %s.",
-                                        lookup(farewell_messages, you.religion,
-                                               "become a bug"),
-                                        god_name(you.religion).c_str()).c_str(),
-
-                           old_god);
+        msg = localise(msg, god_speaker(old_god), god_name(you.religion));
+        god_speaks(old_god, msg.c_str());
     }
 
     // Give a piety bonus when switching between good gods, or back to the
@@ -3361,15 +3360,16 @@ static string _good_god_wrath_message(god_type good_god)
     switch (good_god)
     {
         case GOD_ELYVILON:
-            return "Your evil deeds will not go unpunished";
+            return "Your evil deeds will not go unpunished!";
         case GOD_SHINING_ONE:
-            return "You will pay for your evil ways, mortal";
+            return "You will pay for your evil ways, mortal!";
         case GOD_ZIN:
-            return make_stringf("You will suffer for embracing such %s",
-                                is_chaotic_god(you.religion) ? "chaos"
-                                                             : "evil");
+            if (is_chaotic_god(you.religion))
+                return "You will suffer for embracing such chaos!";
+            else
+                return "You will suffer for embracing such evil!";
         default:
-            return "You will be buggily punished for this";
+            return "You will be buggily punished for this!"; // noextract
     }
 }
 
@@ -3389,10 +3389,9 @@ static void _check_good_god_wrath(god_type old_god)
             continue;
         }
 
-        const string wrath_message
-            = make_stringf(" says: %s!",
-                           _good_god_wrath_message(good_god).c_str());
-        simple_god_message(wrath_message.c_str(), good_god);
+        string msg = localise("%s says: %s", god_speaker(good_god),
+                              _good_god_wrath_message(good_god));
+        god_speaks(good_god, msg.c_str());
         set_penance_xp_timeout();
     }
 }
@@ -3460,7 +3459,7 @@ static void _join_gozag()
         you.attribute[ATTR_GOZAG_GOLD_USED] += fee;
     }
     else
-        simple_god_message(" waives the service fee.");
+        simple_god_message("%s waives the service fee.");
 
     // Note relevant powers.
     bool needs_redraw = false;
@@ -3519,9 +3518,10 @@ static void _join_hepliaklqana()
     // Complimentary ancestor upon joining.
     const mgen_data mg = hepliaklqana_ancestor_gen_data();
     delayed_monster(mg);
-    simple_god_message(make_stringf(" forms a fragment of your life essence"
-                                    " into the memory of your ancestor, %s!",
-                                    mg.mname.c_str()).c_str());
+    string msg = localise("%s forms a fragment of your life essence"
+                          " into the memory of your ancestor, %s!",
+                          god_speaker(you.religion), mg.mname);
+    god_speaks(you.religion, msg.c_str());
 }
 
 /// Setup when joining the gelatinous groupies of Jiyva.
@@ -3535,7 +3535,7 @@ static void _join_jiyva()
     mg.set_summoned(&you, 0, 0, GOD_JIYVA);
 
     delayed_monster(mg);
-    simple_god_message(" grants you a jelly!");
+    simple_god_message("%s grants you a jelly!");
 }
 
 /// Setup when joining the sacred cult of Ru.
@@ -3587,7 +3587,7 @@ static void _join_pakellas()
 // Setup for joining the easygoing followers of Cheibriados.
 static void _join_cheibriados()
 {
-    simple_god_message(" begins to support your attributes as your "
+    simple_god_message("%s begins to support your attributes as your "
                        "movement slows.");
     notify_stat_change();
 }
@@ -3649,9 +3649,11 @@ void join_religion(god_type which_god)
                    + god_name(you.religion) + ".");
     take_note(Note(NOTE_GET_GOD, you.religion));
 
-    simple_god_message(make_stringf(" welcomes you%s!",
-                                    you.worshipped[which_god] ? " back"
-                                                              : "").c_str());
+    if (you.worshipped[which_god])
+        simple_god_message("%s welcomes you back!");
+    else
+        simple_god_message("%s welcomes you!");
+
     // included in default force_more_message
 #ifdef DGL_WHEREIS
     whereis_record();
@@ -3723,7 +3725,7 @@ void god_pitch(god_type which_god)
         you.turn_is_over = false;
         if (which_god == GOD_GOZAG)
         {
-            simple_god_message(" does not accept service from beggars like you!",
+            simple_god_message("%s does not accept service from beggars like you!",
                                which_god);
             if (you.gold == 0)
             {
@@ -3739,26 +3741,26 @@ void god_pitch(god_type which_god)
         else if (you.get_mutation_level(MUT_NO_LOVE)
                  && _god_rejects_loveless(which_god))
         {
-            simple_god_message(" does not accept worship from the loveless!",
+            simple_god_message("%s does not accept worship from the loveless!",
                                which_god);
         }
 #if TAG_MAJOR_VERSION == 34
         else if (you.get_mutation_level(MUT_NO_ARTIFICE)
                  && which_god == GOD_PAKELLAS)
         {
-            simple_god_message(" does not accept worship from those who are "
+            simple_god_message("%s does not accept worship from those who are "
                                "unable to use magical devices!", which_god);
         }
 #endif
         else if (!_transformed_player_can_join_god(which_god))
         {
-            simple_god_message(" says: How dare you approach in such a "
+            simple_god_message("%s says: How dare you approach in such a "
                                "loathsome form!",
                                which_god);
         }
         else
         {
-            simple_god_message(" does not accept worship from those such as"
+            simple_god_message("%s does not accept worship from those such as"
                                " you!",
                                which_god);
         }
@@ -3768,7 +3770,7 @@ void god_pitch(god_type which_god)
     if (which_god == GOD_LUGONU && you.penance[GOD_LUGONU])
     {
         you.turn_is_over = false;
-        simple_god_message(" refuses to forgive you so easily!", which_god);
+        simple_god_message("%s refuses to forgive you so easily!", which_god);
         return;
     }
 

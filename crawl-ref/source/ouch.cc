@@ -955,7 +955,7 @@ void ouch(int dam, kill_method_type death_type, mid_t source, const char *aux,
 
         if (dam >= you.hp && you.hp_max > 0 && god_protects_from_harm())
         {
-            simple_god_message(" protects you from harm!");
+            simple_god_message("%s protects you from harm!");
             // Ensure divine intervention wakes sleeping players. Necessary
             // because we otherwise don't wake players who take fatal damage.
             you.check_awaken(500);

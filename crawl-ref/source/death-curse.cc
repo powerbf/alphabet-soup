@@ -232,12 +232,12 @@ void death_curse(actor& target, actor* source, string cause, int severity)
     {
         if (coinflip())
         {
-            simple_god_message(" averts the curse.");
+            simple_god_message("%s averts the curse.");
             return;
         }
         else
         {
-            simple_god_message(" partially averts the curse.");
+            simple_god_message("%s partially averts the curse.");
             severity = severity / 2;
         }
     }

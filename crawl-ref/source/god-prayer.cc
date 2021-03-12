@@ -171,7 +171,7 @@ int zin_tithe(const item_def& item, int quant, bool converting)
         if (item.tithe_state == TS_NO_PIETY) // seen before worshipping Zin
         {
             tithe = 0;
-            simple_god_message(" ignores your late donation.");
+            simple_god_message("%s ignores your late donation.");
         }
         // A single scroll can give you more than D:1-18, Lair and Orc
         // together, limit the gains. You're still required to pay from
@@ -283,7 +283,7 @@ void jiyva_slurp_item_stack(const item_def& item, int quantity)
     }
 
     if (gain.piety_gain > PIETY_NONE)
-        simple_god_message(" appreciates your sacrifice.");
+        simple_god_message("%s appreciates your sacrifice.");
     if (gain.jiyva_bonus & jiyva_slurp_result::mp)
         canned_msg(MSG_GAIN_MAGIC);
     if (gain.jiyva_bonus & jiyva_slurp_result::hp)

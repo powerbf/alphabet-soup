@@ -3928,7 +3928,7 @@ static int _monster_abjure_target(monster* target, int pow, bool actual)
         pow = pow * (30 - target->get_hit_dice()) / 30;
         if (pow < duration)
         {
-            simple_god_message(" protects your fellow warrior from evil "
+            simple_god_message("%s protects your fellow warrior from evil "
                                "magic!");
             shielded = true;
         }
@@ -3938,7 +3938,7 @@ static int _monster_abjure_target(monster* target, int pow, bool actual)
         pow = pow / 2;
         if (pow < duration)
         {
-            simple_god_message(" shields your ally from puny magic!");
+            simple_god_message("%s shields your ally from puny magic!");
             shielded = true;
         }
     }

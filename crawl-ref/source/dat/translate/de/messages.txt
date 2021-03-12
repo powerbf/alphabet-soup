@@ -497,7 +497,7 @@ Ihr könnt keine gesetzestreue Kreatur einsperren!
 There are no corpses to sacrifice!
 Es gibt keine Leichen zu opfern!
 %%%%
-" torments the living!"
+%s torments the living!
 
 %%%%
 %s will bloody one of your weapons with pain.
@@ -3841,10 +3841,10 @@ You are engulfed in negative energy!
 Something is engulfed in negative energy!
 
 %%%%
-" averts the curse."
+%s averts the curse.
 
 %%%%
-" partially averts the curse."
+%s partially averts the curse.
 
 %%%%
 
@@ -4284,7 +4284,7 @@ You start putting on your %s.
 You start removing your %s.
 
 %%%%
-" grants you knowledge of %s."
+%s grants you knowledge of %s.
 
 %%%%
 You start memorising the spell.
@@ -9641,25 +9641,22 @@ crash
 BUGGY EXIT TYPE
 
 %%%%
-" appreciates your contribution to the ecosystem."
+%s appreciates your contribution to the ecosystem.
 
 %%%%
-" rasps: \"You have failed me! Welcome... oblivion!\""
+%s rasps: "You have failed me! Welcome... oblivion!"
 
 %%%%
-" rasps: \"You have failed me! Welcome... death!\""
+%s rasps: "You have failed me! Welcome... death!"
 
 %%%%
-" claims you as an undead slave."
+%s claims you as an undead slave.
 
 %%%%
 Your body rises from the dead as a mindless zombie.
 
 %%%%
-" appreciates "
-
-%%%%
-" killing of a heretic priest."
+%s appreciates the killing of a heretic priest.
 
 %%%%
 Your body crumbles into a pile of gold.
@@ -10192,7 +10189,7 @@ Sorry, this item was removed!
 You do not have any ammo quivered for %s.
 
 %%%%
-'s wrath prevents you from evoking devices!
+%s's wrath prevents you from evoking devices!
 
 %%%%
 You cannot evoke magical items.
@@ -11179,7 +11176,7 @@ w
 Your damage is reflected back at you!
 Euer Schaden spiegelt sich bei Euch wider!
 %%%%
-" mirrors your injury!"
+%s mirrors your injury!
 
 %%%%
 %s suffers a backlash!
@@ -11653,7 +11650,7 @@ blessed with holy wrath
 Your %s shines brightly!
 Eure %s leuchten hell!
 %%%%
-" booms: Use this gift wisely!"
+%s booms: Use this gift wisely!
 
 %%%%
 You don't have anything to sacrifice.
@@ -11662,7 +11659,7 @@ Ihr habt nichts zu opfern.
 Do you wish to donate half of your money?
 
 %%%%
-" finds your generosity lacking."
+%s finds your generosity lacking.
 
 %%%%
 You feel that you will soon be absolved of all your sins.
@@ -12262,7 +12259,7 @@ Ihr seid noch nicht bereit, noch einmal zu rezitieren.
 %s is turned into a pillar of salt by the wrath of Zin!
 
 %%%%
-" grants you divine stamina."
+%s grants you divine stamina.
 
 %%%%
 Your divine stamina fades away.
@@ -12271,7 +12268,7 @@ Eure göttliche Ausdauer schwindet.
 Do you wish to cure all of your mutations?
 
 %%%%
-" draws all chaos from your body!"
+%s draws all chaos from your body!
 
 %%%%
 Zin's power
@@ -12376,20 +12373,20 @@ is now yours
 fights you
 
 %%%%
-" delivers you corpses!"
+%s delivers you corpses!
 
 %%%%
-" delivers you a corpse!"
+%s delivers you a corpse!
 
 %%%%
-" can find no cadavers for you!"
+%s can find no cadavers for you!
 
 %%%%
 Do you wish to receive a Necronomicon?
 
 %%%%
-" grants you a gift!"
-
+%s grants you a gift!
+%s gewährt Euch ein Geschenk!
 %%%%
 Space bends %saround you!
 
@@ -12400,7 +12397,7 @@ Space bends %saround you!
 The flow of time bends around you.
 Der Fluss der Zeit biegt sich um Euch.
 %%%%
-" rebukes %s."
+Cheibriados rebukes %s.
 
 %%%%
 There's no one hasty visible. Invoke Slouch anyway?
@@ -12532,7 +12529,7 @@ Do you want to bribe the denizens of %s?
 the Hells
 
 %%%%
-" spreads your bribe to %s!"
+Gozag spreads your bribe to %s!
 
 %%%%
 ****
@@ -12586,7 +12583,7 @@ There are friendlies around; are you sure you want to hurt them?
 Nature churns violently around you!
 Die Natur wirbelt heftig um Euch herum!
 %%%%
-" believes you are ready to make a new sacrifice."
+%s believes you are ready to make a new sacrifice.
 
 %%%%
 an incredible
@@ -12634,13 +12631,13 @@ This is %s sacrifice. Piety after sacrifice: %s
 %sand %s
 
 %%%%
-" indicates that your awakening is complete."
+%s indicates that your awakening is complete.
 
 %%%%
 Do you really want to reject the sacrifices Ru is offering?
 
 %%%%
-" will take longer to evaluate your readiness."
+%s will take longer to evaluate your readiness.
 
 %%%%
 You focus your inner power and drain %s's magic in retribution!
@@ -12802,7 +12799,7 @@ Ihr habt keinen Vorfahren zu bewahren!
 %s is not nearby!
 %s ist nicht in der Nähe!
 %%%%
-" grants %s healing and protection!"
+%s grants %s healing and protection!
 
 %%%%
 %s is fully restored!
@@ -12939,7 +12936,7 @@ divine balms
 a follower
 
 %%%%
-" blesses %s with %s."
+%s blesses %s with %s.
 
 %%%%
 Beogh blesses you with reinforcements.
@@ -13075,16 +13072,16 @@ Hurt Foe
 Use Wizardly Item
 
 %%%%
-" is not enthusiastic about the mutagenic glow surrounding you."
+%s is not enthusiastic about the mutagenic glow surrounding you.
 
 %%%%
-" does not appreciate the extra mutagenic glow surrounding you!"
+%s does not appreciate the extra mutagenic glow surrounding you!
 
 %%%%
 you use evil magic or items
 
 %%%%
-" forgives your inadvertent evil act, just this once."
+%s forgives your inadvertent evil act, just this once.
 
 %%%%
 you attack non-hostile holy beings
@@ -13096,13 +13093,16 @@ you kill non-hostile holy beings
 you attack neutral beings
 
 %%%%
-" forgives your inadvertent attack on a neutral, just this once."
+%s forgives your inadvertent attack on a neutral, just this once.
 
 %%%%
-" forgives your inadvertent attack on an ally, just this once."
+%s forgives your inadvertent attack on an ally, just this once.
 
 %%%%
 you attack allies
+
+%%%%
+" forgives your inadvertent attack on a neutral, just this once."
 
 %%%%
 you attack monsters in a sanctuary
@@ -13121,6 +13121,9 @@ you polymorph monsters
 
 %%%%
 you deliberately mutate or transform yourself
+
+%%%%
+" forgives your inadvertent evil act, just this once."
 
 %%%%
 you use holy magic or items
@@ -13189,7 +13192,7 @@ use unnaturally quick items
 " strongly dislikes it when "
 
 %%%%
-" accepts your kill."
+%s accepts your kill.
 
 %%%%
 you kill living beings
@@ -13225,7 +13228,10 @@ you kill evil beings
 you encounter other hostile creatures
 
 %%%%
-" appreciates your killing of a holy being."
+%s appreciates your killing of a holy being.
+
+%%%%
+" accepts your kill."
 
 %%%%
 you kill wizards and other users of magic
@@ -13249,10 +13255,10 @@ you kill the priests of other religions
 you kill fast things, relative to your speed
 
 %%%%
-" thoroughly appreciates the change of pace."
+%s thoroughly appreciates the change of pace.
 
 %%%%
-" appreciates the change of pace."
+%s appreciates the change of pace.
 
 %%%%
 you explore the world (preferably while bound by curses)
@@ -13671,10 +13677,10 @@ Ihr %sgreift {acc}%s von oben an%s.
 "repeatedly "
 
 %%%%
-" prepares the audience for your solo!"
+%s prepares the audience for your solo!
 
 %%%%
-" links your audience in an emotional bond!"
+%s links your audience in an emotional bond!
 
 %%%%
 
@@ -13706,10 +13712,10 @@ Ihr bietet ein %sGebet an %s.
 You pay a tithe of %d gold.
 Ihr zahlt einen Zehnten von %d Gold.
 %%%%
-" ignores your late donation."
+%s ignores your late donation.
 
 %%%%
-" appreciates your sacrifice."
+%s appreciates your sacrifice.
 
 %%%%
 
@@ -13777,31 +13783,31 @@ rancor
 the %s of %s
 
 %%%%
-" sends the divine host to punish you for your evil ways!"
+%s sends the divine host to punish you for your evil ways!
 
 %%%%
-'s divine host fails to appear.
+%s's divine host fails to appear.
 
 %%%%
-" booms out: \"Take the path of righteousness! REPENT!\""
+%s booms out: "Take the path of righteousness! REPENT!"
 
 %%%%
 You feel the Shining One's silent rage upon you!
 
 %%%%
-" draws some chaos from your body!"
+%s draws some chaos from your body!
 
 %%%%
-" rids your body of chaos!"
+%s rids your body of chaos!
 
 %%%%
-" recites the Axioms of Law to you!"
+%s recites the Axioms of Law to you!
 
 %%%%
-" booms out: \"Turn to the light! REPENT!\""
+%s booms out: "Turn to the light! REPENT!"
 
 %%%%
-" strikes the hour."
+%s strikes the hour.
 
 %%%%
 You lose track of time.
@@ -13813,19 +13819,19 @@ Ihr fühlt, wie die Welt Euch zurücklässt!
 Time shudders.
 Die Zeit zittert.
 %%%%
-" rains destruction down upon you!"
+%s rains destruction down upon you!
 
 %%%%
-" has no time to deal with you just now."
+%s has no time to deal with you just now.
 
 %%%%
-" sends minions to punish you."
+%s sends minions to punish you.
 
 %%%%
-" sends a minion to punish you."
+%s sends a minion to punish you.
 
 %%%%
-'s minions fail to arrive.
+%s's minions fail to arrive.
 
 %%%%
 You hear Kikubaaqudgha cackling.
@@ -13834,28 +13840,28 @@ You hear Kikubaaqudgha cackling.
 Kikubaaqudgha's malice focuses upon you.
 
 %%%%
-" sends servants to punish you."
+%s sends servants to punish you.
 
 %%%%
-" sends a servant to punish you."
+%s sends a servant to punish you.
 
 %%%%
-'s servants fail to arrive.
+%s's servants fail to arrive.
 
 %%%%
-'s anger turns toward you for a moment.
+%s's anger turns toward you for a moment.
 
 %%%%
-" sends monsters to punish you."
+%s sends monsters to punish you.
 
 %%%%
-" sends a monster to punish you."
+%s sends a monster to punish you.
 
 %%%%
-" has no time to punish you... now."
+%s has no time to punish you... now.
 
 %%%%
-'s voice booms out, "Feel my wrath!"
+%s's voice booms out, "Feel my wrath!"
 
 %%%%
 You suddenly pass out!
@@ -13864,25 +13870,19 @@ Ihr werdet plötzlich ohnmächtig!
 You suddenly feel lethargic!
 Ihr fühlt Euch plötzlich träge!
 %%%%
-" hurls firey rage upon you!"
+%s hurls firey rage upon you!
 
 %%%%
-" throws "
+%s throws an implement of electrocution at you.
 
 %%%%
-an implement
+%s throws implements of electrocution at you.
 
 %%%%
-implements
+%s sends forth an army of orcs.
 
 %%%%
-" of electrocution at you."
-
-%%%%
-" sends forth an army of orcs."
-
-%%%%
-" is still gathering forces against you."
+%s is still gathering forces against you.
 
 %%%%
 " sends forces against you!"
@@ -13891,28 +13891,28 @@ implements
 's forces are busy with other wars.
 
 %%%%
-'s wrath finds you.
+%s's wrath finds you.
 
 %%%%
-'s wrath scatters you!
+%s's wrath scatters you!
 
 %%%%
 Space warps around you!
 
 %%%%
-" draws you home!"
+%s draws you home!
 
 %%%%
 Lugonu's touch
 
 %%%%
-" makes you draw from the deck of Punishment."
+%s makes you draw from the deck of Punishment.
 
 %%%%
 You feel Jiyva alter your body.
 
 %%%%
-'s gift of slime is revoked.
+%s's gift of slime is revoked.
 
 %%%%
 Mutagenic energy floods into your body!
@@ -13924,46 +13924,46 @@ Some slimes ooze up out of the ground!
 The ground quivers slightly.
 
 %%%%
-" invokes nature against you."
+%s invokes nature against you.
 
 %%%%
 Plants grow around you in an ominous manner.
 
 %%%%
-" produces spores."
+%s produces spores.
 
 %%%%
-" calls forth shadows to punish you."
+%s calls forth shadows to punish you.
 
 %%%%
-" fails to incite the shadows against you."
+%s fails to incite the shadows against you.
 
 %%%%
-" weaves monsters from the shadows."
+%s weaves monsters from the shadows.
 
 %%%%
-" fails to weave monsters from the shadows."
+%s fails to weave monsters from the shadows.
 
 %%%%
 You feel overwhelmed by the shadows around you.
 
 %%%%
-" tears the shadows away from you."
+%s tears the shadows away from you.
 
 %%%%
-" incites the elements against you!"
+%s incites the elements against you!
 
 %%%%
-" fails to incite the elements against you."
+%s fails to incite the elements against you.
 
 %%%%
-" strips away your elemental protection."
+%s strips away your elemental protection.
 
 %%%%
-" fails to strip away your elemental protection."
+%s fails to strip away your elemental protection.
 
 %%%%
-" causes a mighty clap of thunder!"
+%s causes a mighty clap of thunder!
 
 %%%%
 " says: Die by a thousand cuts!"
@@ -13978,16 +13978,16 @@ You feel overwhelmed by the shadows around you.
 " says: Suffer, mortal!"
 
 %%%%
-'s divine weapons fail to arrive.
+%s's divine weapons fail to arrive.
 
 %%%%
-" drives %s into a dance frenzy!"
+%s drives %s into a dance frenzy!
 
 %%%%
-" booms out, \"Time for someone else to take a solo\""
+%s booms out, "Time for someone else to take a solo"
 
 %%%%
-" booms out: \"Revellers, it's time to dance!\""
+%s booms out: "Revellers, it's time to dance!"
 
 %%%%
 The divine experience confuses you!
@@ -13996,14 +13996,14 @@ Die göttliche Erfahrung verwirrt Euch!
 The divine experience drains your vigour!
 Die göttliche Erfahrung erschöpft Eure Kraft!
 %%%%
-" blasts you with cleansing flame!"
+%s blasts you with cleansing flame!
 
 %%%%
 "smitten by "
 
 %%%%
-" smites you!"
-
+%s smites you!
+%s schlägt Euch!
 %%%%
 
 ##################
@@ -17813,7 +17813,7 @@ Really quaff the %s?%s
 " This action would place you under penance!"
 
 %%%%
-" petitions for your drink to fail."
+%s petitions for your drink to fail.
 
 %%%%
 %s emits a brilliant flash of light!
@@ -22755,9 +22755,6 @@ legs
 %s prays to %s, and fills with unholy energy.
 
 %%%%
-%s smites you!
-%s schlägt Euch!
-%%%%
 %s is smitten.
 
 %%%%
@@ -22866,10 +22863,10 @@ Dornige Briars tauchen aus dem Boden auf!
 %s begins to attack, but is stunned by your conviction!
 
 %%%%
-" protects your fellow warrior from evil magic!"
+%s protects your fellow warrior from evil magic!
 
 %%%%
-" shields your ally from puny magic!"
+%s shields your ally from puny magic!
 
 %%%%
 Zin's power protects your fellow warrior from evil magic!
@@ -23316,9 +23313,6 @@ Das fühlte sich seltsam undankbar an.
 %%%%
 %s collects the excess magic power.
 %s sammelt die überschüssige Zauberkraft ein.
-%%%%
-%s grants you a gift!
-%s gewährt Euch ein Geschenk!
 %%%%
 %s dies!
 %s stirbt!
@@ -28192,7 +28186,7 @@ mutations
 You feel odd for a moment.
 Ihr fühlt Euch für einen Moment seltsam.
 %%%%
-" protects your body from mutation!"
+%s protects your body from mutation!
 
 %%%%
 Your body decomposes!
@@ -28528,7 +28522,7 @@ Die Kugel stößt einen wütenden Lichtblitz aus!
 The lords of Pandemonium are not amused. Beware!
 Die Herren von Pandemonium sind nicht amüsiert. Vorsicht!
 %%%%
-" tells them not to hurry."
+%s tells them not to hurry.
 
 %%%%
 
@@ -28623,7 +28617,7 @@ Ihr fühlt Euch bedroht und verlierst die Fähigkeit, Schriftrollen zu lesen!
 You feel threatened and lose the ability to drink potions!
 Ihr fühlt Euch bedroht und verlierst die Fähigkeit, Tränke zu trinken!
 %%%%
-" protects you from harm!"
+%s protects you from harm!
 
 %%%%
 Ouch! That really hurt!
@@ -29004,10 +28998,7 @@ Tentacles
 Your unstable footing causes you to fumble your attack.
 Euer instabiler Stand lässt Euch Euren Angriff fummeln.
 %%%%
-" protects you from inadvertent hurry."
-
-%%%%
-" forces you to slow down."
+%s forces you to slow down.
 
 %%%%
 A red film seems to cover your vision as you go berserk!
@@ -29312,7 +29303,7 @@ Der Dunst des Abstoßungsfeldes verschwindet.
 The dungeon's light returns to normal.
 
 %%%%
-" seems less interested in you."
+%s seems less interested in you.
 
 %%%%
 You feel less pious.
@@ -29360,10 +29351,10 @@ Ihr fühlt Euch leicht %snervös.
 You feel a surge of self-confidence.
 Ihr fühlt eine Welle des Selbstbewusstseins.
 %%%%
-" says: An ascetic of your devotion has no use for such trinkets."
+%s says: An ascetic of your devotion has no use for such trinkets.
 
 %%%%
-" cares for nothing but gold!"
+%s cares for nothing but gold!
 
 %%%%
 You feel a %ssurge of divine interest.
@@ -29378,16 +29369,19 @@ Ihr fühlt Euch bereit zu stürzen und aus dem Weg zu rollen.
 Oops, that %s feels deathly cold.
 Ups, das%s fühlt sich tödlich kalt an.
 %%%%
-" absorbs the residual spatial distortion as you %s your weapon."
+%s absorbs the residual spatial distortion as you rebrand your weapon.
+
+%%%%
+%s absorbs the residual spatial distortion as you unwield your weapon.
+
+%%%%
+%sing a weapon of distortion
 
 %%%%
 rebrand
 
 %%%%
 unwield
-
-%%%%
-%sing a weapon of distortion
 
 %%%%
 Space warps into you!
@@ -29544,7 +29538,7 @@ Bitte nur Großbuchstaben.
 Please choose an option below
 
 %%%%
-'s power touches on your attributes.
+%s's power touches on your attributes.
 
 %%%%
 weaker
@@ -30320,7 +30314,7 @@ You fade into invisibility!
 You fade further into invisibility.
 
 %%%%
-" appreciates the memories."
+%s appreciates the memories.
 
 %%%%
 You feel more experienced!
@@ -30350,7 +30344,7 @@ Really become a tree while standing in a cloud of %s?
 You feel woody for a moment.
 Ihr fühlt Euch für einen Moment holzig.
 %%%%
-" cleanses your potion of mutation!"
+%s cleanses your potion of mutation!
 
 %%%%
 You feel extremely strange.
@@ -31205,10 +31199,10 @@ summon a storm of heavenly clouds to empower your attacks
 summon a storm of heavenly clouds
 
 %%%%
-" seems mollified%s."
+%s seems mollified and vanishes.
 
 %%%%
-, and vanishes
+%s seems mollified.
 
 %%%%
 Your divine halo returns!
@@ -31220,7 +31214,7 @@ Eure Aura der Dunkelheit kehrt zurück!
 Your vision regains its divine sight.
 Eure Vision gewinnt ihr göttliches Sehvermögen zurück.
 %%%%
-" restores the support of your attributes."
+%s restores the support of your attributes.
 
 %%%%
 A storm instantly forms around you!
@@ -31247,28 +31241,28 @@ Der Sturm, der Euch umgibt, löst sich auf.
 the anger of Yredelemnul
 
 %%%%
-" deals you some cards!"
+%s deals you some cards!
 
 %%%%
 You now have %s.
 Ihr habt jetzt%s.
 %%%%
-" goes to deal, but finds you have enough cards."
+%s goes to deal, but finds you have enough cards.
 
 %%%%
-" alters your body."
+%s alters your body.
 
 %%%%
 Jiyva's grace
 
 %%%%
-" grants you ammunition!"
+%s grants you ammunition!
 
 %%%%
-" grants you a weapon!"
+%s grants you a weapon!
 
 %%%%
-" grants you armour!"
+%s grants you armour!
 
 %%%%
 " grants you @servant@!"
@@ -31277,7 +31271,7 @@ Jiyva's grace
 You feel as though nothing has changed.
 Ihr habt das Gefühl, als hätte sich nichts geändert.
 %%%%
-" offers you knowledge of "
+Vehumet offers you knowledge of %s.
 
 %%%%
 " These spells will remain available as long as you worship Vehumet."
@@ -31358,46 +31352,46 @@ Ein göttlicher Heiligenschein umgibt Euch!
 You are shrouded in an aura of darkness!
 Ihr seid in eine Aura der Dunkelheit gehüllt!
 %%%%
-" will now unseal the treasures of the Slime Pits."
+%s will now unseal the treasures of the Slime Pits.
 
 %%%%
 You may now remember your ancestor's life.
 
 %%%%
-" raises the support of your attributes"
+%s raises the support of your attributes as your movement slows.
 
 %%%%
-" as your movement slows"
+%s raises the support of your attributes.
 
 %%%%
 You can no longer %s.
 
 %%%%
-" lowers the support of your attributes"
+%s lowers the support of your attributes as your movement quickens.
 
 %%%%
-" as your movement quickens"
-
-%%%%
-" for chaos"
-
-%%%%
-" for evil"
+%s lowers the support of your attributes.
 
 %%%%
 You have lost your religion!
 Ihr habt Eure Religion verloren!
 %%%%
-" does not appreciate desertion%s!"
+%s does not appreciate desertion for chaos!
+
+%%%%
+%s does not appreciate desertion for evil!
+
+%%%%
+%s does not appreciate desertion!
 
 %%%%
 You sense decay.
 Ihr spürt den Verfall.
 %%%%
-" reclaims all of your granted undead slaves!"
+%s reclaims all of your granted undead slaves!
 
 %%%%
-'s voice booms out, "Who do you think you are?"
+%s's voice booms out, "Who do you think you are?"
 
 %%%%
 All of your followers decide to abandon you.
@@ -31418,10 +31412,10 @@ Your funded stores close, unable to pay their debts without your funds.
 Your storm instantly dissipates.
 Euer Sturm löst sich sofort auf.
 %%%%
-" continues to block your magic from regenerating."
+%s continues to block your magic from regenerating.
 
 %%%%
-" continues to slow your movements."
+%s continues to slow your movements.
 
 %%%%
 <lightgrey>Your body disappears without a glow.</lightgrey>
@@ -31445,40 +31439,37 @@ Euer Amulett blinkt!
 %s warns you to remove %s.
 %s warnt Euch, %s zu entfernen.
 %%%%
-aid the meek
+%s says: Farewell. Go and aid the meek with %s.
 
 %%%%
-vanquish evil
+%s says: Farewell. Go and vanquish evil with %s.
 
 %%%%
-enforce order
+%s says: Farewell. Go and enforce order with %s.
 
 %%%%
-" says: Farewell. Go and %s with %s."
+%s says: Farewell. Go and become a bug with %s.
 
 %%%%
-become a bug
+Your evil deeds will not go unpunished!
 
 %%%%
-Your evil deeds will not go unpunished
+You will pay for your evil ways, mortal!
 
 %%%%
-You will pay for your evil ways, mortal
+You will suffer for embracing such chaos!
 
 %%%%
-You will suffer for embracing such %s
+You will suffer for embracing such evil!
 
 %%%%
-You will be buggily punished for this
-
-%%%%
-" says: %s!"
+%s says: %s
 
 %%%%
 You pay a service fee of %d gold.
 Ihr bezahlt eine Servicegebühr von%d Gold.
 %%%%
-" waives the service fee."
+%s waives the service fee.
 
 %%%%
 You have enough gold to %s.
@@ -31487,22 +31478,25 @@ You have enough gold to %s.
 " name"
 
 %%%%
-" forms a fragment of your life essence into the memory of your ancestor, %s!"
+%s forms a fragment of your life essence into the memory of your ancestor, %s!
 
 %%%%
-" grants you a jelly!"
+%s grants you a jelly!
 
 %%%%
 You stop regenerating magic.
 Ihr hört auf, Magie zu regenerieren.
 %%%%
-" begins to support your attributes as your movement slows."
+%s begins to support your attributes as your movement slows.
 
 %%%%
 The plants of the dungeon cease their hostilities.
 
 %%%%
-" welcomes you%s!"
+%s welcomes you back!
+
+%%%%
+%s welcomes you!
 
 %%%%
 You bow before the missionary of Beogh.
@@ -31511,7 +31505,7 @@ Ihr verneigt Euch vor dem Missionar von Beogh.
 You %s the altar of %s.
 Ihr %s den Altar von {dat}%s.
 %%%%
-" does not accept service from beggars like you!"
+%s does not accept service from beggars like you!
 
 %%%%
 The service fee for joining is currently %d gold; you have none.
@@ -31520,19 +31514,19 @@ The service fee for joining is currently %d gold; you have none.
 The service fee for joining is currently %d gold; you only have %d.
 
 %%%%
-" does not accept worship from the loveless!"
+%s does not accept worship from the loveless!
 
 %%%%
-" does not accept worship from those who are unable to use magical devices!"
+%s does not accept worship from those who are unable to use magical devices!
 
 %%%%
-" says: How dare you approach in such a loathsome form!"
+%s says: How dare you approach in such a loathsome form!
 
 %%%%
-" does not accept worship from those such as you!"
+%s does not accept worship from those such as you!
 
 %%%%
-" refuses to forgive you so easily!"
+%s refuses to forgive you so easily!
 
 %%%%
 by name
@@ -33220,13 +33214,13 @@ Ihr habt keinen Zugang zu Eurer Magie.
 You feel a surge of divine spite.
 
 %%%%
-" does not allow the disloyal to dabble in death!"
+%s does not allow the disloyal to dabble in death!
 
 %%%%
 the malice of Kikubaaqudgha
 
 %%%%
-" does not allow the disloyal to dabble in destruction!"
+%s does not allow the disloyal to dabble in destruction!
 
 %%%%
 the malice of Vehumet
@@ -33377,7 +33371,7 @@ Die %s-Bögen befinden sich außerhalb Ihrer Sichtlinie!
 The %s suddenly appears!
 Das%s erscheint plötzlich!
 %%%%
-" protects your plant from harm."
+%s protects your plant from harm.
 
 %%%%
 The monsters around %s are %s!
@@ -33470,7 +33464,7 @@ Es gibt einen erschütternden Aufprall!
 %s is blasted with magical radiation
 %s wird mit magischer Strahlung%s gestrah
 %%%%
-" protects %s plant from harm."
+%s protects a plant from harm.
 
 %%%%
 irradiate
@@ -33832,10 +33826,10 @@ the Torment card
 %s %s a Word of immense power!
 %s%s ein Wort von immenser Kraft!
 %%%%
-" shields you from torment!"
+%s shields you from torment!
 
 %%%%
-" partially shields you from torment!"
+%s partially shields you from torment!
 
 %%%%
 You feel a surge of unholy energy.
@@ -34407,7 +34401,7 @@ You feel incredibly sick
 The air has a green tinge for a moment
 
 %%%%
-" protects you from your miscast necromantic spell!"
+%s protects you from your miscast necromantic spell!
 
 %%%%
 "miscasting "
@@ -34613,7 +34607,7 @@ zucken
 %s dances into the air!
 %s tanzt in die Luft!
 %%%%
-" booms: How dare you animate that foul thing!"
+%s booms: How dare you animate that foul thing!
 
 %%%%
 You create some ball lightning!
@@ -35057,9 +35051,6 @@ Die Luft schimmert kurz um Euch herum.
 %%%%
 %s violently %s moving!
 %s bewegt sich heftig%s!
-%%%%
-" protects %s from harm."
-
 %%%%
 Gravity reorients around %s.
 Die Schwerkraft richtet sich um%s aus.
@@ -36449,6 +36440,9 @@ toss away
 " shoots "
 
 %%%%
+" throws "
+
+%%%%
 "The weapon returns "
 
 %%%%
@@ -36906,7 +36900,7 @@ Something hellishly buggy happens.
 the effects of Hell
 
 %%%%
-'s power protects you from the chaos of Hell!
+%s's power protects you from the chaos of Hell!
 
 %%%%
 Your body shudders with the violent release of wild energies!
@@ -36924,7 +36918,7 @@ mutagenic glow
 Your body momentarily shudders from a surge of wild energies until Zin's power calms it.
 
 %%%%
-" gurgles merrily."
+%s gurgles merrily.
 
 %%%%
 You hear %s splatter%s.
@@ -36933,7 +36927,7 @@ Ihr hört%s Splatter%s.
 a series of
 
 %%%%
-" says: Divide and consume!"
+%s says: Divide and consume!
 
 %%%%
 You feel a genetic drift.
@@ -37184,7 +37178,7 @@ Einer Eurer Köpfe schrumpft weg.
 A new head grows.
 Ein neuer Kopf wächst.
 %%%%
-" protects your body from unnatural transformation!"
+%s protects your body from unnatural transformation!
 
 %%%%
 You are stuck in your current form!
@@ -37763,6 +37757,9 @@ progress-bar
 ##################
 %%%%
 There
+
+%%%%
+%s warns you: %s
 
 %%%%
 %s come into view.
@@ -39015,13 +39012,13 @@ a BORING thing.
 Xom makes something happen.
 
 %%%%
-" is getting BORED."
+%s is getting BORED.
 
 %%%%
-" is interested."
+%s is interested.
 
 %%%%
-" is intrigued."
+%s is intrigued.
 
 %%%%
 spell effect
@@ -39048,7 +39045,7 @@ Ihr entdeckt Kreaturen!
 god gift: %s
 
 %%%%
-" snickers."
+%s snickers.
 
 %%%%
 general gift

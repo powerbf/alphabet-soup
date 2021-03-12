@@ -745,7 +745,7 @@ static void _animate_weapon(int pow, actor* target)
 
     if (why)
     {
-        simple_god_message(" booms: How dare you animate that foul thing!");
+        simple_god_message("%s booms: How dare you animate that foul thing!");
         did_god_conduct(why, 10, true, mons);
     }
 }

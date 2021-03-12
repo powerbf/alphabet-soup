@@ -91,7 +91,7 @@ void start_orb_run(game_chapter chapter, const char* message)
     {
         mprf(MSGCH_WARN, "The lords of Pandemonium are not amused. Beware!");
         if (have_passive(passive_t::slow_orb_run))
-            simple_god_message(" tells them not to hurry.");
+            simple_god_message("%s tells them not to hurry.");
     }
 
     mprf(MSGCH_ORB, "%s", message);

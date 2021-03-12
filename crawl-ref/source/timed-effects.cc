@@ -200,7 +200,7 @@ static void _hell_effects(int /*time_delta*/)
     if (have_passive(passive_t::resist_hell_effects)
         && x_chance_in_y(you.piety, MAX_PIETY * 2) || is_sanctuary(you.pos()))
     {
-        simple_god_message("'s power protects you from the chaos of Hell!");
+        simple_god_message("%s's power protects you from the chaos of Hell!");
         return;
     }
 
@@ -352,7 +352,7 @@ static void _jiyva_effects(int /*time_delta*/)
             switch (random2(3))
             {
                 case 0:
-                    simple_god_message(" gurgles merrily.");
+                    simple_god_message("%s gurgles merrily.");
                     break;
                 case 1:
                     mprf(MSGCH_SOUND, "You hear %s splatter%s.",
@@ -360,7 +360,7 @@ static void _jiyva_effects(int /*time_delta*/)
                          total_jellies > 1 ? "s" : "");
                     break;
                 case 2:
-                    simple_god_message(" says: Divide and consume!");
+                    simple_god_message("%s says: Divide and consume!");
                     break;
             }
         }
