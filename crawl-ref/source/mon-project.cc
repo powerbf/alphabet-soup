@@ -234,7 +234,7 @@ static void _iood_stop(monster& mon, bool msg = true)
         return;
 
     if (msg)
-        simple_monster_message(mon, " dissipates.");
+        simple_monster_message(mon, "%s dissipates.");
     dprf("iood: dissipating");
     monster_die(mon, KILL_DISMISSED, NON_MONSTER);
 }
