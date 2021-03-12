@@ -2047,7 +2047,7 @@ item_def* monster_die(monster& mons, killer_type killer,
                     }
                     else
                     {
-                        string msg = " " + summoned_poof_msg(&mons) + "!";
+                        string msg = summoned_poof_msg(&mons);
                         simple_monster_message(mons, msg.c_str());
                     }
                 }

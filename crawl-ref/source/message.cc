@@ -2117,14 +2117,10 @@ bool simple_monster_message(const monster& mons, const char *event,
         && (channel == MSGCH_MONSTER_SPELL || channel == MSGCH_FRIEND_SPELL
             || mons.visible_to(&you)))
     {
-        string msg = event;
-        if (!contains(msg, "%s"))
-            msg = "%s" + msg;
-
         if (channel == MSGCH_PLAIN && mons.wont_attack())
             channel = MSGCH_FRIEND_ACTION;
 
-        mprf(channel, param, msg.c_str(), mons.name(descrip).c_str());
+        mprf(channel, param, event, mons.name(descrip).c_str());
         return true;
     }
 

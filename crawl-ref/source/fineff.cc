@@ -223,7 +223,7 @@ void mirror_damage_fineff::fire()
     }
     else
     {
-        simple_monster_message(*monster_by_mid(att), " suffers a backlash!");
+        simple_monster_message(*monster_by_mid(att), "%s suffers a backlash!");
         attack->hurt(defender(), damage);
     }
 }
@@ -404,7 +404,7 @@ void starcursed_merge_fineff::fire()
         if (mergee && mergee->alive() && mergee->type == MONS_STARCURSED_MASS)
         {
             simple_monster_message(*mon,
-                    " shudders and is absorbed by its neighbour.");
+                    "%s shudders and is absorbed by its neighbour.");
             _do_merge_masses(mon, mergee);
             return;
         }
@@ -447,7 +447,7 @@ void starcursed_merge_fineff::fire()
 
             if (moved)
             {
-                simple_monster_message(*mon, " shudders and withdraws towards its neighbour.");
+                simple_monster_message(*mon, "%s shudders and withdraws towards its neighbour.");
                 mon->speed_increment -= 10;
             }
         }

@@ -577,7 +577,7 @@ static spret _cast_los_attack_spell(spell_type spell, int pow,
         case SPELL_OZOCUBUS_REFRIGERATION:
             player_msg = "The heat is drained from your surroundings.";
             global_msg = "Something drains the heat from around you.";
-            mons_vis_msg = " drains the heat from the surrounding"
+            mons_vis_msg = "%s drains the heat from the surrounding"
                            " environment!";
             mons_invis_msg = "The ambient heat is drained!";
             verb = "frozen";
@@ -593,7 +593,7 @@ static spret _cast_los_attack_spell(spell_type spell, int pow,
             player_msg = "You draw life from your surroundings.";
             global_msg = "Something draws the life force from your"
                          " surroundings.";
-            mons_vis_msg = " draws from the surrounding life force!";
+            mons_vis_msg = "%s draws from the surrounding life force!";
             mons_invis_msg = "The surrounding life force dissipates!";
             verb = "drained of life";
             prompt_verb = "drain life";
@@ -603,7 +603,7 @@ static spret _cast_los_attack_spell(spell_type spell, int pow,
         case SPELL_SONIC_WAVE:
             player_msg = "You send a blast of sound all around you.";
             global_msg = "Something sends a blast of sound all around you.";
-            mons_vis_msg = " sends a blast of sound all around you!";
+            mons_vis_msg = "%s sends a blast of sound all around you!";
             mons_invis_msg = "Sound blasts the surrounding area!";
             verb = "blasted";
             // prompt_verb = "sing" The singing sword prompts in melee-attack
@@ -1354,7 +1354,7 @@ spret cast_irradiate(int powc, actor* who, bool fail)
     else
     {
         simple_monster_message(*who->as_monster(),
-                               " erupts in a fountain of uncontrolled magic!");
+                               "%s erupts in a fountain of uncontrolled magic!");
     }
 
     bolt beam;
@@ -2705,7 +2705,7 @@ spret cast_dazzling_flash(int pow, bool fail, bool tracer)
     {
         monster* mons = monster_at(*ri);
         if (mons && dazzle_monster(mons, pow))
-            simple_monster_message(*mons, " is dazzled.");
+            simple_monster_message(*mons, "%s is dazzled.");
     }
 
     return spret::success;
@@ -2759,7 +2759,7 @@ spret cast_toxic_radiance(actor *agent, int pow, bool fail, bool mon_tracer)
     {
         monster* mon_agent = agent->as_monster();
         simple_monster_message(*mon_agent,
-                               " begins to radiate toxic energy.");
+                               "%s begins to radiate toxic energy.");
 
         mon_agent->add_ench(mon_enchant(ENCH_TOXIC_RADIANCE, 1, mon_agent,
                                         (4 + random2avg(pow/15, 2)) * BASELINE_DELAY));

@@ -994,9 +994,9 @@ static void _confuse_monster(monster* mons, int sever)
           &env.mons[ANON_FRIENDLY_MONSTER], random2(sever) * 10)))
     {
         if (was_confused)
-            simple_monster_message(*mons, " looks rather more confused.");
+            simple_monster_message(*mons, "%s looks rather more confused.");
         else
-            simple_monster_message(*mons, " looks rather confused.");
+            simple_monster_message(*mons, "%s looks rather confused.");
     }
 }
 

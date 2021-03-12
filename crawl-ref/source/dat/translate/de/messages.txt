@@ -2698,7 +2698,7 @@ Die mutagene Energie fließt in Euch.
 You are struck by lightning!
 Ihr seid vom Blitz getroffen!
 %%%%
-" is struck by lightning."
+%s is struck by lightning.
 
 %%%%
 Lightning from the thunderstorm strikes something you cannot see.
@@ -3749,16 +3749,16 @@ Failed to start gdb: %s\n
 # dactions.cc
 ##################
 %%%%
-" crumbles into dust!"
+%s crumbles into dust!
+%s zerbröckelt zu Staub!
+%%%%
+%s returns to the mists of memory.
 
 %%%%
-" returns to the mists of memory."
+%s is freed.
 
 %%%%
-" is freed."
-
-%%%%
-" departs this earthly plane."
+%s departs this earthly plane.
 
 %%%%
 The hog vanishes!
@@ -4062,9 +4062,6 @@ Es ist nur noch eine Karte übrig!
 You draw... (choose one card, ? for their descriptions)
 Ihr zieht ... (wähle eine Karte? Für ihre Beschreibungen)
 %%%%
-" seems to speed up."
-
-%%%%
 No stairs available to move.
 Keine Treppen zum Bewegen verfügbar.
 %%%%
@@ -4097,9 +4094,6 @@ Ihr beginnt Euch schnell zu regenerieren.
 %%%%
 You begin rapidly regenerating magic.
 Ihr fangt an, Magie schnell zu regenerieren.
-%%%%
-" is healed."
-
 %%%%
 You somehow manage to escape divine attention...
 Ihr schafft es irgendwie, der göttlichen Aufmerksamkeit zu entkommen ...
@@ -4137,7 +4131,7 @@ hear
 feel
 
 %%%%
-" is dazed by the mutagenic energy."
+%s is dazed by the mutagenic energy.
 
 %%%%
 a card of wild magic
@@ -11188,7 +11182,7 @@ Euer Schaden spiegelt sich bei Euch wider!
 " mirrors your injury!"
 
 %%%%
-" suffers a backlash!"
+%s suffers a backlash!
 
 %%%%
 %s shudders%s.
@@ -11215,10 +11209,10 @@ Eines der Fragmente des Gelée Royale ist erhalten.
 The dying Royal Jelly spits out %d more jellies.
 Das sterbende Gelée Royale spuckt%d mehr Gelees aus.
 %%%%
-" shudders and is absorbed by its neighbour."
+%s shudders and is absorbed by its neighbour.
 
 %%%%
-" shudders and withdraws towards its neighbour."
+%s shudders and withdraws towards its neighbour.
 
 %%%%
 %s electric aura discharges%s, shocking %s!
@@ -12205,67 +12199,67 @@ Beende bitte zuerst Eure aktuelle Predigt.
 You're not ready to recite again yet.
 Ihr seid noch nicht bereit, noch einmal zu rezitieren.
 %%%%
-" guffaws at your puny god."
+%s guffaws at your puny god.
 
 %%%%
-" sneers at your recitation."
+%s sneers at your recitation.
 
 %%%%
-" is dazed by your recitation."
+%s is dazed by your recitation.
 
 %%%%
-" is confused by your recitation."
+%s is confused by your recitation.
 
 %%%%
-" stumbles about in disarray."
+%s stumbles about in disarray.
 
 %%%%
-" is awed by your recitation."
+%s is awed by your recitation.
 
 %%%%
-" is aghast at the heresy of your recitation."
+%s is aghast at the heresy of your recitation.
 
 %%%%
-" is smitten by the wrath of Zin."
+%s is smitten by the wrath of Zin.
 
 %%%%
-" is blasted by the fury of Zin!"
+%s is blasted by the fury of Zin!
 
 %%%%
-" is struck blind by the wrath of Zin!"
+%s is struck blind by the wrath of Zin!
 
 %%%%
-" is limned with silver light."
+%s is limned with silver light.
 
 %%%%
-" quails at your recitation."
+%s quails at your recitation.
 
 %%%%
-" looks feeble and powerless before your recitation."
+%s looks feeble and powerless before your recitation.
 
 %%%%
-" is struck mute by the wrath of Zin!"
+%s is struck mute by the wrath of Zin!
 
 %%%%
-" is driven mad by the wrath of Zin!"
+%s is driven mad by the wrath of Zin!
 
 %%%%
-" is left stupefied by the wrath of Zin!"
+%s is left stupefied by the wrath of Zin!
 
 %%%%
-'s chaotic flesh sizzles and spatters!
+%s's chaotic flesh sizzles and spatters!
 
 %%%%
-'s chaotic flesh bubbles and boils.
+%s's chaotic flesh bubbles and boils.
 
 %%%%
-'s chaotic flesh runs like molten wax.
+%s's chaotic flesh runs like molten wax.
 
 %%%%
-" melts away into a sizzling puddle of chaotic flesh."
+%s melts away into a sizzling puddle of chaotic flesh.
 
 %%%%
-" is turned into a pillar of salt by the wrath of Zin!"
+%s is turned into a pillar of salt by the wrath of Zin!
 
 %%%%
 " grants you divine stamina."
@@ -12709,16 +12703,13 @@ Etwas hat Euch unerwartet blockiert und Euch daran gehindert zu springen!
 power leap
 
 %%%%
-" doubts "
+%s doubts the power of magic when faced with ultimate truth!
 
 %%%%
-" magic when faced with ultimate truth!"
+%s is paralysed by terrible understanding!
 
 %%%%
-" is paralysed by terrible understanding!"
-
-%%%%
-" slows down under the weight of truth!"
+%s slows down under the weight of truth!
 
 %%%%
 There are no visible enemies. Unleash your apocalypse anyway?
@@ -12814,16 +12805,13 @@ Ihr habt keinen Vorfahren zu bewahren!
 " grants %s healing and protection!"
 
 %%%%
-" is fully restored!"
-
-%%%%
-" is healed somewhat."
+%s is fully restored!
 
 %%%%
 Select a target.
 
 %%%%
-" is drained by nostalgia."
+%s is drained by nostalgia.
 
 %%%%
 You can't see anything there. Try transferring anyway?
@@ -12971,7 +12959,7 @@ more time in this world
 # god-companions.cc
 ##################
 %%%%
-" is recalled."
+%s is recalled.
 
 %%%%
 You have no companions.
@@ -22440,13 +22428,13 @@ maybe
 # mon-abil.cc
 ##################
 %%%%
-" basks in your mutagenic energy and changes!"
+%s basks in your mutagenic energy and changes!
 
 %%%%
-" basks in the mutagenic energy from its kin and changes!"
+%s basks in the mutagenic energy from its kin and changes!
 
 %%%%
-" basks in the mutagenic energy and changes!"
+%s basks in the mutagenic energy and changes!
 
 %%%%
 %s splits.
@@ -22509,13 +22497,13 @@ accursed screaming
 Angry insects surge out from beneath %s foliage!
 Wütende Insekten schießen unter%s Laub hervor!
 %%%%
-" flows with the water."
+%s flows with the water.
 
 %%%%
-" melds with the trees."
+%s melds with the trees.
 
 %%%%
-" overheats!"
+%s overheats!
 
 %%%%
 
@@ -22523,7 +22511,7 @@ Wütende Insekten schießen unter%s Laub hervor!
 # mon-act.cc
 ##################
 %%%%
-" slips free of the water."
+%s slips free of the water.
 
 %%%%
 %s and %s swap places.
@@ -22535,46 +22523,46 @@ Durch Zins Kraft ist das Fuchsfeuer enthalten!
 %s swoops through the air toward %s!
 %s fliegt durch die Luft in Richtung%s!
 %%%%
-" reads a scroll."
+%s reads a scroll.
 
 %%%%
 Wisps of shadow swirl around %s.
 Schattenfetzen wirbeln um%s.
 %%%%
-" zaps a wand."
+%s zaps a wand.
 
 %%%%
 You hear a zap.
 Ihr hört einen Zap.
 %%%%
-" is stunned by your conviction and fails to attack."
+%s is stunned by your conviction and fails to attack.
 
 %%%%
 You redirect %s's attack!
 Ihr lenkt den Angriff von%s um!
 %%%%
-" falls limply to the ground."
+%s falls limply to the ground.
 
 %%%%
-" hums quietly as it recharges."
+%s hums quietly as it recharges.
 
 %%%%
-" crackles loudly."
+%s crackles loudly.
 
 %%%%
 You hear a loud crackle.
 Ihr hört ein lautes Knistern.
 %%%%
-" is lost in a daze."
+%s is lost in a daze.
 
 %%%%
-" becomes distracted by the nearby gold, dreaming of imaginary riches."
+%s becomes distracted by the nearby gold, dreaming of imaginary riches.
 
 %%%%
-" becomes distracted by your gold, dreaming of imaginary riches."
+%s becomes distracted by your gold, dreaming of imaginary riches.
 
 %%%%
-" is distracted by dreams of imaginary riches."
+%s is distracted by dreams of imaginary riches.
 
 %%%%
 handle_pickup()
@@ -22613,13 +22601,13 @@ outwards
 Something you can't see is thrashing in a web.
 Etwas, das Ihr nicht sehen könnt, schlägt in einem Netz um sich.
 %%%%
-" struggles to get unstuck from the web."
+%s struggles to get unstuck from the web.
 
 %%%%
 Something wriggles in the net.
 Etwas zappelt im Netz.
 %%%%
-" struggles against the net."
+%s struggles against the net.
 
 %%%%
 The net rips apart, and %s comes free!
@@ -22640,7 +22628,7 @@ In der Nähe von {dat}%s, fühlt Ihr Euch träge.
 %s moves out of view.
 %s geriet aus dem Blickfeld.
 %%%%
-" splits in two!"
+%s splits in two!
 
 %%%%
 You hear a squelching noise.
@@ -22658,31 +22646,31 @@ Ihr hört ein%s schlürfendes Geräusch.
 Something unseen %s
 Etwas Unsichtbares %s
 %%%%
-" escapes!"
+%s escapes!
 
 %%%%
-" struggles to escape constriction."
+%s struggles to escape constriction.
 
 %%%%
 The door bursts into shrapnel!
 Die Tür platzt in Splitter!
 %%%%
-" bursts through the door, destroying it!"
+%s bursts through the door, destroying it!
 
 %%%%
 The door mysteriously vanishes.
 Die Tür verschwindet auf mysteriöse Weise.
 %%%%
-" eats the door!"
+%s eats the door!
 
 %%%%
 %s rages.
 %s tobt.
 %%%%
-" flops around on dry land!"
+%s flops around on dry land!
 
 %%%%
-" falters for a moment."
+%s falters for a moment.
 
 %%%%
 %s knocks down a tree!
@@ -22714,31 +22702,22 @@ PLAIN:Cornered, @The_monster@ turns to fight!
 (press <w>%c</w> on the <w>%s</w>bility menu to convert to Beogh)
 (Drücke <w>%c</w> im Menü <w>%s</w>, um nach Beogh zu konvertieren.)
 %%%%
-" passes through the gate."
+%s passes through the gate.
 
 %%%%
-" %s the %s."
+%s goes up the stairs.
 
 %%%%
-goes up
+%s goes down the stairs.
 
 %%%%
-goes down
+%s takes the escape hatch.
 
 %%%%
-takes
+%s goes down the shaft.
 
 %%%%
-escape hatch
-
-%%%%
-stairs
-
-%%%%
-" %s the shaft."
-
-%%%%
-jumps into
+%s jumps into the shaft.
 
 %%%%
 
@@ -22746,40 +22725,40 @@ jumps into
 # mon-cast.cc
 ##################
 %%%%
-" invokes %s protection!"
+%s invokes %s protection!
 
 %%%%
 %s liquefies the ground around %s!
 %s verflüssigt den Boden um%s!
 %%%%
-" casts a cantrip, but nothing happens."
+%s casts a cantrip, but nothing happens.
 
 %%%%
-" begins to cast a cantrip, but forgets the words!"
+%s begins to cast a cantrip, but forgets the words!
 
 %%%%
-" miscasts a cantrip."
+%s miscasts a cantrip.
 
 %%%%
-" looks braver for a moment."
+%s looks braver for a moment.
 
 %%%%
-" looks encouraged for a moment."
+%s looks encouraged for a moment.
 
 %%%%
-" looks satisfied for a moment."
+%s looks satisfied for a moment.
 
 %%%%
 legs
 
 %%%%
-" offers %s to %s, and fills with unholy energy."
+%s prays to %s, and fills with unholy energy.
 
 %%%%
 %s smites you!
 %s schlägt Euch!
 %%%%
-" is smitten."
+%s is smitten.
 
 %%%%
 Roots burst forth from the earth!
@@ -22869,7 +22848,7 @@ Weinreben fliegen von den Bäumen hervor!
 Thorny briars emerge from the ground!
 Dornige Briars tauchen aus dem Boden auf!
 %%%%
-" begins absorbing vital energies!"
+%s begins absorbing vital energies!
 
 %%%%
 %s is empowered by %s aura!
@@ -22878,13 +22857,13 @@ Dornige Briars tauchen aus dem Boden auf!
 %s animating energy erupts into ghostly fire!
 %s animierende Energie bricht in gespenstisches Feuer aus!
 %%%%
-cast a spell
+%s begins to cast a spell, but is stunned by your conviction!
 
 %%%%
-pray
+%s begins to pray, but is stunned by your conviction!
 
 %%%%
-" begins to %s, but is stunned by your conviction!"
+%s begins to attack, but is stunned by your conviction!
 
 %%%%
 " protects your fellow warrior from evil magic!"
@@ -22896,49 +22875,46 @@ pray
 Zin's power protects your fellow warrior from evil magic!
 Zins Macht schützt Euren Mitkrieger vor böser Magie!
 %%%%
-" shudders."
+%s shudders.
 
 %%%%
 Send 'em back where they came from!
 Schick sie zurück, wo sie herkommen!
 %%%%
-" is infused with unholy energy, but nothing happens."
+%s is infused with unholy energy, but nothing happens.
 
 %%%%
-" is infused with unholy energy."
+%s is infused with unholy energy.
 
 %%%%
 Unholy energy fills the air.
 Unheilige Energie erfüllt die Luft.
 %%%%
-" draws life force from you and is healed!"
+%s draws life force from you and is healed!
 
 %%%%
-" draws life force from %s!"
+%s draws life force from %s!
 
 %%%%
-" draws life force from %s and is healed!"
+%s draws life force from %s and is healed!
 
 %%%%
 %s %s frozen.
 %s%s eingefroren.
 %%%%
-" attempts to bespell you!"
+%s attempts to bespell you!
 
 %%%%
 %s draws you further into %s thrall.
 %s zieht Euch weiter in%s Thrall.
 %%%%
-" radiates an aura of fear!"
+%s radiates an aura of fear!
 
 %%%%
 An aura of fear fills the air!
 Eine Aura der Angst erfüllt die Luft!
 %%%%
-" looks frightened!"
-
-%%%%
-" blinks into view!"
+%s blinks into view!
 
 %%%%
 Terrible wounds spread across more of %s body!
@@ -23037,7 +23013,7 @@ Etwas versucht sich von Eurem Intellekt zu ernähren!
 Orcish apparitions take form around you.
 Orkische Erscheinungen nehmen um Euch herum Gestalt an.
 %%%%
-" is surrounded by Orcish apparitions."
+%s is surrounded by Orcish apparitions.
 
 %%%%
 You feel haunted.
@@ -23046,16 +23022,16 @@ Ihr fühlt Euch verfolgt.
 You sense an evil presence.
 Ihr spürt eine böse Präsenz.
 %%%%
-" puts on a burst of speed!"
+%s puts on a burst of speed!
 
 %%%%
-'s surroundings become eerily quiet.
+%s's surroundings become eerily quiet.
 
 %%%%
-" sings a water chant to call the tide!"
+%s sings a water chant to call the tide!
 
 %%%%
-" squirts a massive cloud of ink into the water!"
+%s squirts a massive cloud of ink into the water!
 
 %%%%
 %s shimmers and seems to become %s!
@@ -23076,34 +23052,34 @@ The forest starts to sway and rumble!
 A film of ice covers %s body!
 Ein Eisfilm bedeckt%s Körper!
 %%%%
-" begins to accept %s allies' injuries."
+%s begins to accept the injuries of allies.
 
 %%%%
-" radiates an aura of cold."
+%s radiates an aura of cold.
 
 %%%%
 A wave of cold passes over you.
 Eine Kältewelle zieht über Euch.
 %%%%
-" shimmers and seems to become two!"
+%s shimmers and seems to become two!
 
 %%%%
-" begins repelling missiles!"
+%s begins repelling missiles!
 
 %%%%
-" channels a blast of cleansing flame!"
+%s channels a blast of cleansing flame!
 
 %%%%
 the entropic weave
 
 %%%%
-" begins emitting a brilliant aura!"
+%s begins emitting a brilliant aura!
 
 %%%%
-" binds the souls of nearby monsters."
+%s binds the souls of nearby monsters.
 
 %%%%
-" curls into a ball and begins rolling!"
+%s curls into a ball and begins rolling!
 
 %%%%
 " cast"
@@ -23184,22 +23160,19 @@ crumble away
 You hear rumbling.
 
 %%%%
-its luring
+%s chants its luring song.
 
 %%%%
-a haunting
+%s chants a haunting song.
 
 %%%%
-" chants %s song."
+You hear a luring song.
 
 %%%%
-a luring song
+You hear a haunting song.
 
 %%%%
-a haunting song
-
-%%%%
-an eerie melody
+You hear an eerie melody.
 
 %%%%
 
@@ -23222,7 +23195,7 @@ Plötzlich steht Ihr neben Euch.
 There is a horrible, sudden wrenching feeling in your soul!
 Es gibt ein schreckliches, plötzliches Gefühl in Eurer Seele!
 %%%%
-" is duplicated!"
+%s is duplicated!
 
 %%%%
 
@@ -23358,9 +23331,6 @@ Das fühlte sich seltsam undankbar an.
 %%%%
 %s fades into mist!
 %s verblasst zu Nebel!
-%%%%
-%s crumbles into dust!
-%s zerbröckelt zu Staub!
 %%%%
 The dead kraken's tentacles slide back into the water.
 Die Tentakel des toten Kraken gleiten zurück ins Wasser.
@@ -23511,13 +23481,10 @@ env.mgrid(%d,%d) points to %s monster, even though it contains submerged monster
 %s tried to unsubmerge while on same square as %s (see bug 2293518)
 
 %%%%
-" is no longer moving quickly."
+%s is no longer moving quickly.
 
 %%%%
-" slows down."
-
-%%%%
-" becomes audible again."
+%s becomes audible again.
 
 %%%%
 As %s %s, the sound returns.
@@ -23529,31 +23496,28 @@ is destroyed
 dies
 
 %%%%
-" no longer looks unusually strong."
+%s no longer looks unusually strong.
 
 %%%%
-" is no longer moving slowly."
+%s is no longer moving slowly.
 
 %%%%
 %s icy armour evaporates.
 %s eisige Rüstung verdunstet.
 %%%%
-" is no longer paralysed."
+%s is no longer paralysed.
 
 %%%%
-" is no longer petrified."
+%s is no longer petrified.
 
 %%%%
-" stops retreating."
+%s stops retreating.
 
 %%%%
-" seems to regain "
+%s seems to regain courage.
 
 %%%%
-" courage."
-
-%%%%
-" seems less confused."
+%s seems less confused.
 
 %%%%
 %s appears from thin air!
@@ -23574,34 +23538,28 @@ once again
 no longer
 
 %%%%
-" breaks free of your control!"
+%s is no longer charmed.
 
 %%%%
-" is no longer charmed."
+%s is no longer hexed.
 
 %%%%
-" is no longer hexed."
-
-%%%%
-" is no longer bribed."
-
-%%%%
-" stops glowing."
+%s is no longer bribed.
 
 %%%%
 %s stops glowing and disappears.
 %s hört auf zu leuchten und verschwindet.
 %%%%
-" stops burning."
+%s stops burning.
 
 %%%%
-" looks more healthy."
+%s looks more healthy.
 
 %%%%
-" breaks free."
+%s breaks free.
 
 %%%%
-" is no longer berserk."
+%s is no longer berserk.
 
 %%%%
 %s is on the same square as you!
@@ -23613,100 +23571,97 @@ no longer
 Something invisible bursts forth from the water.
 Etwas Unsichtbares platzt aus dem Wasser.
 %%%%
-'s soul is no longer ripe for the taking.
+%s's soul is no longer ripe for the taking.
 
 %%%%
 The forest calms down.
 
 %%%%
-" is no longer liquefying the ground."
+%s is no longer liquefying the ground.
 
 %%%%
-" is no longer dazed."
+%s is no longer dazed.
 
 %%%%
-'s inner flame fades away.
+%s's inner flame fades away.
 
 %%%%
-" is no longer mute."
+%s is no longer mute.
 
 %%%%
-" is no longer blind."
+%s is no longer blind.
 
 %%%%
-" is no longer stupefied."
+%s is no longer stupefied.
 
 %%%%
-" is no longer mad."
+%s is no longer mad.
 
 %%%%
-" is no longer regenerating."
+%s is no longer regenerating.
 
 %%%%
-" is no longer strong-willed."
+%s is no longer strong-willed.
 
 %%%%
-" seems to return to "
+%s seems to return to a normal shape.
 
 %%%%
-" normal shape."
-
-%%%%
-" is no longer weakened."
+%s is no longer weakened.
 
 %%%%
 %s toxic aura wanes.
 %s giftige Aura schwindet.
 %%%%
-" is no longer more vulnerable to fire."
+%s is no longer more vulnerable to fire.
 
 %%%%
-" is no longer more vulnerable to poison."
+%s is no longer more vulnerable to poison.
 
 %%%%
 %s icy envelope dissipates!
 %s eisiger Umschlag löst sich auf!
 %%%%
-" is no longer unusually agile."
+%s is no longer unusually agile.
 
 %%%%
-" is no longer encased in ice."
+%s is no longer encased in ice.
 
 %%%%
-" is no longer absorbing vital energies."
+%s is no longer absorbing vital energies.
 
 %%%%
-" is no longer being sapped."
+%s is no longer being sapped.
 
 %%%%
-" is no longer covered in acid."
+%s is no longer covered in acid.
 
 %%%%
-" is no longer distracted by gold."
+%s is no longer distracted by gold.
 
 %%%%
-" seems less drained."
+%s seems less drained.
 
 %%%%
-" is no longer repelling missiles."
+%s is no longer repelling missiles.
 
 %%%%
-" is no longer unusually resistant."
+%s is no longer unusually resistant.
 
 %%%%
-" is no longer giving off an aura."
+%s is no longer giving off an aura.
 
 %%%%
-" seems less brilliant."
+%s seems less brilliant.
 
 %%%%
-" loses the glow of perfection."
+%s loses the glow of perfection.
 
 %%%%
 %s soul is no longer bound.
 %s Seele ist nicht mehr gebunden.
 %%%%
-" is no longer infested."
+%s is no longer infested.
 
 %%%%
 zombie hands
@@ -23718,10 +23673,10 @@ roots
 The %s release their grip on %s.
 Die%s lassen%s los.
 %%%%
-" is no longer waterlogged."
+%s is no longer waterlogged.
 
 %%%%
-" stops rolling and uncurls."
+%s stops rolling and uncurls.
 
 %%%%
 The pull of its song draws you forwards.
@@ -23736,20 +23691,17 @@ Die Schattenformen in der Tiefe wachsen immer noch, wenn sich andere nähern.
 Shadowy forms rise from the deep at %s song!
 Schattenhafte Formen erheben sich aus der Tiefe bei%s Lied!
 %%%%
-" is no longer in an insane frenzy."
+%s is no longer in an insane frenzy.
 
 %%%%
-" looks more energetic."
+%s looks more energetic.
 
 %%%%
-'s dark mirror aura disappears.
+%s's dark mirror aura disappears.
 
 %%%%
 The flames covering %s go out.
 Die Flammen, die%s bedecken, gehen aus.
-%%%%
-" burns!"
-
 %%%%
 %s melts away.
 %s schmilzt weg.
@@ -23760,19 +23712,19 @@ Ein nahe gelegener%s verdorrt und stirbt.
 The portal closes; %s is severed.
 Das Portal wird geschlossen;%s wird getrennt.
 %%%%
-" suddenly becomes enraged!"
+%s suddenly becomes enraged!
 
 %%%%
 You hear a distant and violent thrashing sound.
 Ihr hört ein fernes und heftiges Dröhnen.
 %%%%
-" writhes!"
+%s writhes!
 
 %%%%
 The winds around %s start to calm down.
 Die Winde um%s beginnen sich zu beruhigen.
 %%%%
-" is seared!"
+%s is seared!
 
 %%%%
 %s chant is interrupted.
@@ -23784,10 +23736,7 @@ Die Winde um%s beruhigen sich.
 %s song is interrupted.
 %s Lied ist unterbrochen.
 %%%%
-" is no longer sharing "
-
-%%%%
-" pain."
+%s is no longer sharing pain.
 
 %%%%
 fatigue
@@ -23967,10 +23916,10 @@ tower shield_louise
 # mon-grow.cc
 ##################
 %%%%
-" looks more experienced."
+%s looks more experienced.
 
 %%%%
-" looks stronger."
+%s looks stronger.
 
 %%%%
 
@@ -24432,7 +24381,7 @@ mon-bands
 autoinscribe
 
 %%%%
-'s form twists and warps, and jellies spill out!
+%s's form twists and warps, and jellies spill out!
 
 %%%%
 shaped Royal Jelly
@@ -24444,10 +24393,10 @@ shaped Lernaean hydra
 shaped Serpent of Hell
 
 %%%%
-'s appearance momentarily alters.
+%s's appearance momentarily alters.
 
 %%%%
-" looks momentarily different."
+%s looks momentarily different.
 
 %%%%
 something you cannot see
@@ -24468,7 +24417,7 @@ grows a second head
 something unseen
 
 %%%%
-" quivers momentarily."
+%s quivers momentarily.
 
 %%%%
 
@@ -24496,9 +24445,6 @@ Die Kugeln kollidieren in einer blendenden Explosion!
 %%%%
 You hear a loud magical explosion!
 Ihr hört eine laute magische Explosion!
-%%%%
-" blocks "
-
 %%%%
 Your %s reflects %s!
 Eure %s spiegelt %s!
@@ -24722,7 +24668,7 @@ wandering monster
 invalid monster_type %d
 
 %%%%
-" discards %s horn."
+Geryon discards his horn.
 
 %%%%
 you are
@@ -24950,28 +24896,43 @@ Spellbook %s has spell %s with no category\n
 mon-spell
 
 %%%%
-almost
+almost destroyed
 
 %%%%
-" destroyed"
+almost dead
 
 %%%%
-" dead"
+severely damaged
 
 %%%%
-severely
+severely wounded
 
 %%%%
-heavily
+heavily damaged
 
 %%%%
-lightly
+heavily wounded
 
 %%%%
-" damaged"
+moderately damaged
 
 %%%%
-" wounded"
+moderately wounded
+
+%%%%
+lightly damaged
+
+%%%%
+lightly wounded
+
+%%%%
+not damaged
+
+%%%%
+not wounded
+
+%%%%
+%s is %s.
 
 %%%%
 %s is hit by a flying piece of %s!
@@ -24992,7 +24953,7 @@ a flying bit
 # monster.cc
 ##################
 %%%%
-" wields "
+%s wields %s.
 
 %%%%
 It bursts into flame!
@@ -25034,13 +24995,13 @@ Es ist kurz von wechselnden Schatten umgeben.
 It begins to drip corrosive slime!
 Es beginnt ätzenden Schleim zu tropfen!
 %%%%
-" wears "
+%s wears %s.
 
 %%%%
-" puts on "
+%s puts on %s.
 
 %%%%
-" unwields "
+%s unwields %s.
 
 %%%%
 It stops flaming.
@@ -25055,7 +25016,7 @@ Es hört auf zu knistern.
 It stops dripping with poison.
 Es hört auf, von Gift zu tropfen.
 %%%%
-" takes off "
+%s takes off %s.
 
 %%%%
 %s picks up %s.
@@ -25163,22 +25124,22 @@ splashes around in the water.
 You hear a splashing noise.
 Ihr hört ein plätscherndes Geräusch.
 %%%%
-" shakes off %s lethargy."
+%s seems less lethargic.
 
 %%%%
-" flies into a frenzy!"
+%s flies into a frenzy!
 
 %%%%
-" goes berserk!"
+%s goes berserk!
 
 %%%%
 The heat melts %s icy armour.
 Die Hitze schmilzt%s eisige Rüstung.
 %%%%
-" wobbles for a moment."
+%s wobbles for a moment.
 
 %%%%
-" is devoured by a tear in reality."
+%s is devoured by a tear in reality.
 
 %%%%
 %s is drained!
@@ -25199,16 +25160,16 @@ Die Hitze schmilzt%s eisige Rüstung.
 %s begins to die.
 
 %%%%
-" turns to stone!"
+%s turns to stone!
 
 %%%%
-" stops moving altogether!"
+%s stops moving altogether!
 
 %%%%
 %s looks sick.
 %s sieht krank aus.
 %%%%
-" twists and deforms."
+%s twists and deforms.
 
 %%%%
 %s dives back into the %s!
@@ -25217,31 +25178,25 @@ Die Hitze schmilzt%s eisige Rüstung.
 The bloodstain on %s disappears!
 Der Blutfleck auf%s verschwindet!
 %%%%
-" %s a shaft!"
+%s falls through a shaft!
 
 %%%%
-is sucked into
+%s is sucked into a shaft!
 
 %%%%
-falls through
+%s looks weaker.
 
 %%%%
-" looks weaker."
+%s drinks a potion.
 
 %%%%
-" drinks a potion."
-
-%%%%
-" is healed!"
+%s is healed!
 
 %%%%
 Your spectral weapon shares its damage with you!
 Eure Spektralwaffe teilt ihren Schaden mit Euch!
 %%%%
-" shares "
-
-%%%%
-" spectral weapon's damage!"
+%s shares the spectral weapon's damage!
 
 %%%%
 Flame seeps out of %s.
@@ -25274,7 +25229,7 @@ Ihr habt jetzt%d Goldstück%s.
 %s steals %s!
 %s stiehlt%s!
 %%%%
-" is pushed out of the %s."
+%s is pushed out of the way.
 
 %%%%
 
@@ -25414,7 +25369,7 @@ Ihr %s sorgfältig durch die {acc}%s.
 You can't dig through that.
 Das könnt Ihr nicht durchgraben.
 %%%%
-" refuses to make way for you. (Use ctrl+direction or * direction to attack.)"
+%s refuses to make way for you. (Use ctrl+direction or * direction to attack.)
 
 %%%%
 You're too terrified to move while being watched!
@@ -29664,19 +29619,22 @@ You might %s into a travel-excluded area, are you sure?
 It's unwise to walk into this.
 Es ist unklug, darauf einzugehen.
 %%%%
-" is %s!"
+%s is held in a net!
 
 %%%%
-" is being constricted!"
+%s is caught in a web!
 
 %%%%
-" cannot move out of your way!"
+%s is being constricted!
+
+%%%%
+%s cannot move out of your way!
 
 %%%%
 Do you really want to swap %s into the Zot trap?
 
 %%%%
-" cannot make way for you."
+%s cannot make way for you.
 
 %%%%
 Floosh!
@@ -30685,12 +30643,6 @@ block
 
 %%%%
 shielding
-
-%%%%
-" is unaffected."
-
-%%%%
-" resists."
 
 %%%%
 $s pierces through %s
@@ -33387,7 +33339,7 @@ sense
 Blessed fire suddenly surrounds you!
 Gesegnetes Feuer umgibt Euch plötzlich!
 %%%%
-" is surrounded by blessed fire!"
+%s is surrounded by blessed fire!
 
 %%%%
 
@@ -33440,7 +33392,7 @@ The heat is drained from your surroundings.
 Something drains the heat from around you.
 
 %%%%
-" drains the heat from the surrounding environment!"
+%s drains the heat from the surrounding environment!
 
 %%%%
 The ambient heat is drained!
@@ -33455,7 +33407,7 @@ You draw life from your surroundings.
 Something draws the life force from your surroundings.
 
 %%%%
-" draws from the surrounding life force!"
+%s draws from the surrounding life force!
 
 %%%%
 The surrounding life force dissipates!
@@ -33470,7 +33422,7 @@ You send a blast of sound all around you.
 Something sends a blast of sound all around you.
 
 %%%%
-" sends a blast of sound all around you!"
+%s sends a blast of sound all around you!
 
 %%%%
 Sound blasts the surrounding area!
@@ -33527,7 +33479,7 @@ irradiate
 You erupt in a fountain of uncontrolled magic!
 Ihr bricht in einem Brunnen unkontrollierter Magie aus!
 %%%%
-" erupts in a fountain of uncontrolled magic!"
+%s erupts in a fountain of uncontrolled magic!
 
 %%%%
 %s seems to burn from within
@@ -33695,7 +33647,7 @@ A root smacks @foe@ from below
 dazzle
 
 %%%%
-" is dazzled."
+%s is dazzled.
 
 %%%%
 You begin to radiate toxic energy.
@@ -33704,7 +33656,7 @@ Ihr fangt an, giftige Energie auszustrahlen.
 Your toxic radiance grows in intensity.
 Eure giftige Ausstrahlung nimmt an Intensität zu.
 %%%%
-" begins to radiate toxic energy."
+%s begins to radiate toxic energy.
 
 %%%%
 (Press <w>%</w> to maintain the ray.)
@@ -33787,13 +33739,13 @@ Das Licht von Elyvilon erreicht%s nicht.
 The light of Elyvilon almost touches upon %s.
 Das Licht von Elyvilon berührt fast%s.
 %%%%
-" turns neutral."
+%s turns neutral.
 
 %%%%
 You heal %s.
 Ihr heilt %s.
 %%%%
-" is completely healed."
+%s is completely healed.
 
 %%%%
 mindless
@@ -33820,7 +33772,7 @@ Ihr fühlt Euch geschmeidig!
 Your magical effects are unravelling.
 Eure magischen Effekte lösen sich auf.
 %%%%
-'s magical effects unravel!
+%s's magical effects unravel!
 
 %%%%
 You have uncursed all your worn items.
@@ -33871,10 +33823,10 @@ the Shining One's holy word
 the Torment card
 
 %%%%
-" is blasted by Zin's holy word!"
+%s is blasted by Zin's holy word!
 
 %%%%
-" convulses!"
+%s convulses!
 
 %%%%
 %s %s a Word of immense power!
@@ -34469,16 +34421,13 @@ The air has a green tinge for a moment
 You radiate an aura of cold.
 Ihr strahlt eine Aura der Kälte aus.
 %%%%
-" is outlined in light."
+%s is outlined in light.
 
 %%%%
-" glows brighter for a moment."
+%s glows brighter for a moment.
 
 %%%%
-" glows brighter."
-
-%%%%
-" seems to slow down."
+%s glows brighter.
 
 %%%%
 
@@ -34534,7 +34483,7 @@ You sense a deep body of water on the other side of the rock.
 You sense an intense heat on the other side of the rock.
 
 %%%%
-" looks rather confused."
+%s looks rather confused.
 
 %%%%
 You attempt to intoxicate your foes!
@@ -34652,7 +34601,7 @@ Ihr könnt dort kein Ziel sehen!
 twitch
 zucken
 %%%%
-" is already dancing."
+%s is already dancing.
 
 %%%%
 %s vibrate%s crazily for a second.
@@ -34802,7 +34751,7 @@ Ihr spürt eine feindliche Präsenz.
 %s %s a servant imbued with %s destructive magic!
 %s%s ein Diener, der von%s zerstörerischer Magie durchdrungen ist!
 %%%%
-" appears!"
+%s appears!
 
 %%%%
 You recall your battlesphere and imbue it with additional charge.
@@ -34814,7 +34763,7 @@ Ihr erfüllt Eure Kampfsphäre mit zusätzliche Energie.
 You conjure a globe of magical energy.
 Ihr beschwört einen Globus magischer Energie.
 %%%%
-" conjures a globe of magical energy!"
+%s conjures a globe of magical energy!
 
 %%%%
 Your battlesphere expends the last of its energy and dissipates.
@@ -34844,7 +34793,7 @@ Battlesphere zielt auf sich selbst? Reparieren.
 barrage of energy
 
 %%%%
-" fires!"
+%s fires!
 
 %%%%
 That's too far away.
@@ -34865,13 +34814,10 @@ Ein Prisma explosiver Energie erscheint aus dem Nichts!
 You draw out your weapon's spirit!
 Ihr zieht den Geist Eurer Waffe heraus!
 %%%%
-" draws out "
+%s draws out a weapon's spirit!
 
 %%%%
-" weapon's spirit!"
-
-%%%%
-" fades away."
+%s fades away.
 
 %%%%
 You feel your bond with your spectral weapon wane.
@@ -36286,31 +36232,37 @@ You cannot grow anything here.
 # teleport.cc
 ##################
 %%%%
-" struggles to "
+%s struggles to leap free from constriction.
 
 %%%%
-" free from constriction."
+%s struggles to blink free from constriction.
 
 %%%%
-" free!"
+%s jumps free!
 
 %%%%
-" seems more stable."
+%s blinks free!
 
 %%%%
-" looks slightly unstable."
+%s jumps!
 
 %%%%
-" flickers for a moment."
+%s blinks!
 
 %%%%
-" disappears!"
+%s seems more stable.
 
 %%%%
-" reappears nearby!"
+%s looks slightly unstable.
 
 %%%%
-" appears out of thin air!"
+%s flickers for a moment.
+
+%%%%
+%s disappears!
+
+%%%%
+%s reappears nearby!
 
 %%%%
 
@@ -36394,6 +36346,9 @@ pass through
 
 %%%%
 grate
+
+%%%%
+escape hatch
 
 %%%%
 staircase
@@ -37315,7 +37270,7 @@ caught in a web
 The net bounces off something gigantic!
 Das Netz prallt von etwas Gigantischem ab!
 %%%%
-" is too large for the net to hold!"
+%s is too large for the net to hold!
 
 %%%%
 The net is caught on %s!
@@ -37330,10 +37285,10 @@ Das Netz geht durch%s!
 Something gets caught in the net!
 Etwas bleibt im Netz hängen!
 %%%%
-" is caught in the net!"
+%s is caught in the net!
 
 %%%%
-" drifts right through the net!"
+%s drifts right through the net!
 
 %%%%
 a Zot trap
@@ -37348,7 +37303,7 @@ Die Macht von Zot wird gegen Euch angerufen!
 You enter the passage of Golubria.
 Ihr betrittt den Durchgang von Golubria.
 %%%%
-" enters the passage of Golubria."
+%s enters the passage of Golubria.
 
 %%%%
 This passage %s!
@@ -37396,10 +37351,10 @@ Eine riesige Klinge schwingt direkt an Euch vorbei!
 A huge blade swings out and slices into you!
 Eine riesige Klinge schwingt heraus und schneidet in Euch!
 %%%%
-" fails to trigger a blade trap."
+%s fails to trigger a blade trap.
 
 %%%%
-" avoids a huge, swinging blade."
+%s avoids a huge, swinging blade.
 
 %%%%
 A huge blade swings out!
@@ -37411,10 +37366,10 @@ A huge blade swings out
 " and slices into "
 
 %%%%
-" fails to trigger a net trap."
+%s fails to trigger a net trap.
 
 %%%%
-" drops a net on you."
+%s drops a net on you.
 
 %%%%
 Something launches a net on you.
@@ -37426,10 +37381,10 @@ You avoid being caught in a net.
 The net is torn apart by your bulk.
 
 %%%%
-" passes through a web."
+%s passes through a web.
 
 %%%%
-" oozes through a web."
+%s oozes through a web.
 
 %%%%
 You pick your way through the web.
@@ -37438,10 +37393,7 @@ Ihr sucht Euch Euren Weg durch das Netz.
 You are caught in the web!
 Ihr seid im Netz gefangen!
 %%%%
-" evades a web."
-
-%%%%
-" is caught in a web!"
+%s evades a web.
 
 %%%%
 A web moves frantically as something is caught in it!
@@ -37483,10 +37435,10 @@ Ihr reißt einen großen Schnitt ins Netz.
 You struggle against the net.
 Ihr kämpft gegen das Netz.
 %%%%
-" tears the web."
+%s tears the web.
 
 %%%%
-" pulls away from the web."
+%s pulls away from the web.
 
 %%%%
 The trap is out of ammunition!
@@ -38571,7 +38523,7 @@ Both you and the monster are silenced, so you likely won't hear anything.
 == Done ==
 == Fertig ==
 %%%%
-" seems unable to mature further."
+%s seems unable to mature further.
 
 %%%%
 "Apply blessing of (B)eogh, The (S)hining One, or (R)andomly? "
@@ -39111,7 +39063,7 @@ general gift
 potion effect
 
 %%%%
-" looks rather more confused."
+%s looks rather more confused.
 
 %%%%
 multiple summons

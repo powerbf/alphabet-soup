@@ -989,7 +989,7 @@ static void _velocity_card(int power)
                   }
 
                   if (did_haste)
-                      simple_monster_message(mon, " seems to speed up.");
+                      simple_monster_message(mon, "%s seems to speed up.");
               }
               return affected;
           })
@@ -1202,7 +1202,7 @@ static void _elixir_card(int power)
         {
             const int hp = mon.max_hit_points / (4 - power_level);
             if (mon.heal(hp + random2avg(hp, 2)))
-               simple_monster_message(mon, " is healed.");
+               simple_monster_message(mon, "%s is healed.");
         }
         return true;
     });
@@ -1576,7 +1576,7 @@ static void _degeneration_card(int power)
                    const int daze_time = (5 + 5 * power_level) * BASELINE_DELAY;
                    mons.add_ench(mon_enchant(ENCH_DAZED, 0, &you, daze_time));
                    simple_monster_message(mons,
-                                          " is dazed by the mutagenic energy.");
+                                          "%s is dazed by the mutagenic energy.");
                }
                return true;
            }))

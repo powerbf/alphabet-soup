@@ -95,10 +95,10 @@ bool ugly_thing_mutate(monster& ugly, bool force)
             continue;
 
         if (act->is_player() && get_contamination_level())
-            msg = " basks in your mutagenic energy and changes!";
+            msg = "%s basks in your mutagenic energy and changes!";
         else if (mons_genus(act->type) == MONS_UGLY_THING)
         {
-            msg = " basks in the mutagenic energy from its kin and changes!";
+            msg = "%s basks in the mutagenic energy from its kin and changes!";
             const colour_t other_colour =
                 make_low_colour(act->as_monster()->colour);
             if (make_low_colour(ugly.colour) != other_colour)
@@ -107,7 +107,7 @@ bool ugly_thing_mutate(monster& ugly, bool force)
     }
 
     if (force)
-        msg = " basks in the mutagenic energy and changes!";
+        msg = "%s basks in the mutagenic energy and changes!";
 
     if (!msg) // didn't find anything to mutate off of
         return false;
@@ -1186,7 +1186,7 @@ bool mon_special_ability(monster* mons)
                 {
                     if (mons->move_to_pos(spot))
                     {
-                        simple_monster_message(*mons, " flows with the water.");
+                        simple_monster_message(*mons, "%s flows with the water.");
                         used = true;
                     }
                 }
@@ -1214,7 +1214,7 @@ bool mon_special_ability(monster* mons)
 
         env.grid(target) = DNGN_FLOOR;
         set_terrain_changed(target);
-        simple_monster_message(*mons, " melds with the trees.");
+        simple_monster_message(*mons, "%s melds with the trees.");
         used = true;
     }
     break;
@@ -1235,7 +1235,7 @@ bool mon_special_ability(monster* mons)
         if (mons->hit_points * 2 < mons->max_hit_points && one_chance_in(4)
              && !mons->has_ench(ENCH_INNER_FLAME))
         {
-            simple_monster_message(*mons, " overheats!");
+            simple_monster_message(*mons, "%s overheats!");
             mid_t act = mons->summoner == MID_PLAYER ? MID_YOU_FAULTLESS :
                         mons->summoner;
             mons->add_ench(mon_enchant(ENCH_INNER_FLAME, 0, actor_by_mid(act),
