@@ -2599,36 +2599,6 @@ SHIFT
 %*s
 
 %%%%
-msg
-
-%%%%
-type
-
-%%%%
-generic
-
-%%%%
-messages
-
-%%%%
-tag
-
-%%%%
-historyId
-
-%%%%
-prefill
-
-%%%%
-prompt
-
-%%%%
-maxlen
-
-%%%%
-size
-
-%%%%
 %s%*s
 
 %%%%
@@ -3041,15 +3011,6 @@ For earlier changes, see changelog.txt in the docs/ directory.
 
 %%%%
 For a list of changes, see changelog.txt in the docs/ directory.
-
-%%%%
-information
-
-%%%%
-features
-
-%%%%
-changes
 
 %%%%
 version
@@ -3939,12 +3900,6 @@ cards
 
 %%%%
 No description found.\n
-
-%%%%
-name
-
-%%%%
-desc
 
 %%%%
 describe-cards
@@ -5503,44 +5458,11 @@ join today
 tile
 
 %%%%
-t
-
-%%%%
-tex
-
-%%%%
-colour
-
-%%%%
-description
-
-%%%%
-title
-
-%%%%
-bondage
-
-%%%%
-favour
-
-%%%%
-powers
-
-%%%%
-wrath
-
-%%%%
-extra
-
-%%%%
 describe-god
 
 %%%%
 You are not religious.
 Ihr seid nicht religiös.
-%%%%
-pane
-
 %%%%
 "  [<w>J</w>/<w>Enter</w>]: join"
 
@@ -5649,21 +5571,6 @@ Evocations
 %s%d%s\n
 
 %%%%
-label
-
-%%%%
-letter
-
-%%%%
-effect
-
-%%%%
-schools
-
-%%%%
-level
-
-%%%%
 spellset
 
 %%%%
@@ -5676,24 +5583,6 @@ spellset
 
 %%%%
 Description|<w>Quote</w>
-
-%%%%
-ymax
-
-%%%%
-prefix
-
-%%%%
-suffix
-
-%%%%
-footer
-
-%%%%
-quote
-
-%%%%
-body
 
 %%%%
 describe-generic
@@ -6950,9 +6839,6 @@ e(v)oke
 "Select a spell, or "
 
 %%%%
-actions
-
-%%%%
 tiles
 
 %%%%
@@ -7604,13 +7490,7 @@ no experience or items
 describe-monster
 
 %%%%
-flag
-
-%%%%
 "doll":[[%d,%d]]
-
-%%%%
-mcache
 
 %%%%
 "doll":[[%u,%d]]
@@ -7933,6 +7813,9 @@ Features
 
 %%%%
 " (not visited)"
+
+%%%%
+description
 
 %%%%
 stair
@@ -10849,6 +10732,9 @@ tdl
 loadable
 
 %%%%
+name
+
+%%%%
 Save in use
 
 %%%%
@@ -10946,6 +10832,12 @@ tut
 
 %%%%
 tutorial
+
+%%%%
+msg
+
+%%%%
+messages
 
 %%%%
 chr
@@ -13698,6 +13590,9 @@ Ihr zahlt einen Zehnten von %d Gold.
 # god-wrath.cc
 ##################
 %%%%
+wrath
+
+%%%%
 malice
 
 %%%%
@@ -15457,6 +15352,9 @@ char
 sklev
 
 %%%%
+title
+
+%%%%
 ktyp
 
 %%%%
@@ -16075,6 +15973,9 @@ oplace
 time
 
 %%%%
+type
+
+%%%%
 milestone
 
 %%%%
@@ -16186,6 +16087,9 @@ monospace
 
 %%%%
 plain
+
+%%%%
+prompt
 
 %%%%
 duration
@@ -17154,15 +17058,6 @@ Bones file '%s' is from the future (%d.%d), this instance of crawl needs %d.%d.\
 Error: %s\n
 
 %%%%
-value
-
-%%%%
-g
-
-%%%%
-b
-
-%%%%
 mapstat and objstat are available only in DEBUG_STATISTICS builds.\n
 
 %%%%
@@ -17394,6 +17289,9 @@ Carrion
 
 %%%%
 Runes of Zot
+
+%%%%
+body
 
 %%%%
 " (%u%s turn%s)"
@@ -18202,83 +18100,6 @@ job-data
 %%%%
 
 ##################
-# json.cc
-##################
-%%%%
-null
-
-%%%%
-[]
-
-%%%%
-[\n
-
-%%%%
-,\n
-
-%%%%
-{}
-
-%%%%
-{\n
-
-%%%%
-\uFFFD
-
-%%%%
-0123456789ABCDEF
-
-%%%%
-key contains invalid UTF-8
-
-%%%%
-tag is invalid (%d)
-
-%%%%
-bool_ is neither false (%d) nor true (%d)
-
-%%%%
-string_ is nullptr
-
-%%%%
-string_ contains invalid UTF-8
-
-%%%%
-tail is nullptr, but head is not
-
-%%%%
-head is nullptr, but tail is not
-
-%%%%
-First child's prev pointer is not nullptr
-
-%%%%
-node is its own child
-
-%%%%
-child->next == child (cycle)
-
-%%%%
-child->next == head (cycle)
-
-%%%%
-child does not point back to parent
-
-%%%%
-child->next does not point back to child
-
-%%%%
-Array element's key is not nullptr
-
-%%%%
-Object member's key is nullptr
-
-%%%%
-tail does not match pointer found by starting at head and following next links
-
-%%%%
-
-##################
 # kills.cc
 ##################
 %%%%
@@ -18354,6 +18175,9 @@ nkills
 exp
 
 %%%%
+desc
+
+%%%%
 monnum
 
 %%%%
@@ -18425,6 +18249,9 @@ Expected colour generation function.
 
 %%%%
 "Unknown colour: "
+
+%%%%
+colour
 
 %%%%
 
@@ -18803,6 +18630,9 @@ noisy
 
 %%%%
 pos
+
+%%%%
+size
 
 %%%%
 exits
@@ -19316,7 +19146,13 @@ options
 memorised
 
 %%%%
+letter
+
+%%%%
 path
+
+%%%%
+level
 
 %%%%
 range
@@ -22037,28 +21873,7 @@ nasty
 Select what? (regex) %s
 
 %%%%
-menu
-
-%%%%
-ui-centred
-
-%%%%
-flags
-
-%%%%
-replace
-
-%%%%
-text
-
-%%%%
-first
-
-%%%%
 hotkeys
-
-%%%%
-preselected
 
 %%%%
 %-*s
@@ -22102,12 +21917,6 @@ to continue. You can later reread messages with Ctrl-P.
 %%%%
 --more--
 --mehr--
-%%%%
-rollback
-
-%%%%
-msgs
-
 %%%%
 %s<lightgrey>%s</lightgrey>
 
@@ -24201,6 +24010,9 @@ priest
 ##################
 %%%%
 inwards
+
+%%%%
+quote
 
 %%%%
 "constricted by "
@@ -28618,9 +28430,6 @@ morgue-
 # outer-menu.cc
 ##################
 %%%%
-hotkey
-
-%%%%
 labels
 
 %%%%
@@ -30398,6 +30207,9 @@ Nur [J]a%s, [N]ein oder [B]eenden in Großbuchstaben, bitte.
 [Y]es%s, [N]o or [Q]uit only, please.
 Nur [J]a%s, [N]ein oder [B]eenden, bitte.
 %%%%
+null
+
+%%%%
 
 ##################
 # quiver.cc
@@ -31626,9 +31438,6 @@ sacrificed resistance
 ##################
 %%%%
 formatted-scroller
-
-%%%%
-highlight
 
 %%%%
 
@@ -35487,6 +35296,9 @@ Error: no return path. You did create the exit manually, didn't you? Let's go to
 Non-debug Crawl cannot run tests. Please use a debug build (defined FULLDEBUG, DEBUG_DIAGNOSTIC or DEBUG_TESTS)
 
 %%%%
+b
+
+%%%%
 <white>[
 
 %%%%
@@ -36682,190 +36494,6 @@ Failed to find a valid window layout: screen too small or game_scale too large?
 %%%%
 
 ##################
-# tileweb-text.cc
-##################
-%%%%
-"': html += "
-
-%%%%
-{"msg":"txt","id":"%s"
-
-%%%%
-,"clear":true
-
-%%%%
-,"lines":{
-
-%%%%
-}}
-
-%%%%
-
-##################
-# tileweb.cc
-##################
-%%%%
-No bytes sent
-
-%%%%
-*{"msg":"flush_messages"}
-
-%%%%
-primary
-
-%%%%
-content
-
-%%%%
-"<red>Serverwide announcement:</red> "
-
-%%%%
-{"msg":"exit_reason","type":"
-
-%%%%
-\",\"message\":\"
-
-%%%%
-"}
-
-%%%%
-{"msg":"dump","type":"
-
-%%%%
-\",\"filename\":\"
-
-%%%%
-*{"msg":"client_path","path":"%s","version":"%s"}
-
-%%%%
-{"msg":"version","text":"%s"}
-
-%%%%
-crt
-
-%%%%
-{"msg":"close_menu"}
-
-%%%%
-{"msg":"ui-pop"}
-
-%%%%
-{"msg":"close_all_menus"}
-
-%%%%
-ui-push
-
-%%%%
-ui-state
-
-%%%%
-{"msg":"ui_cutoff","cutoff":%d}
-
-%%%%
-{"msg":"text_cursor","enabled":%s}
-
-%%%%
-state
-
-%%%%
-penance
-
-%%%%
-form
-
-%%%%
-light
-
-%%%%
-Zot count
-
-%%%%
-No description found
-
-%%%%
-col
-
-%%%%
-doll
-
-%%%%
-trans
-
-%%%%
-"doll":[]
-
-%%%%
-mf
-
-%%%%
-fg
-
-%%%%
-bg
-
-%%%%
-bloody
-
-%%%%
-disjunct
-
-%%%%
-flv
-
-%%%%
-ov
-
-%%%%
-{"msg":"cursor","id":%d}
-
-%%%%
-{"msg":"cursor","id":%d,"loc":{"x":%d,"y":%d}}
-
-%%%%
-vgrdc
-
-%%%%
-cells
-
-%%%%
-id
-
-%%%%
-plural
-
-%%%%
-typedata
-
-%%%%
-avghp
-
-%%%%
-att
-
-%%%%
-btype
-
-%%%%
-threat
-
-%%%%
-clientid
-
-%%%%
-{"msg":"flash","col":%d}
-
-%%%%
-ui-stack
-
-%%%%
-\u%04x
-
-%%%%
-":
-
-%%%%
-
-##################
 # timed-effects.cc
 ##################
 %%%%
@@ -37679,12 +37307,6 @@ w=
 # ui.cc
 ##################
 %%%%
-ui-state-sync
-
-%%%%
-ui-scroller-scroll
-
-%%%%
 [ ]
 
 %%%%
@@ -37694,7 +37316,7 @@ X
 checked
 
 %%%%
-cursor
+text
 
 %%%%
 progress-bar
