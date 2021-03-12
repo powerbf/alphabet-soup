@@ -80,10 +80,10 @@ in_entry = False
 for line in keyfile:
     if re.match(r'^\s*$', line) or re.match(r'^\s*#', line):
         # blank line or comment
-        if in_entry:
-            outfile.write("%%%%\n");
-            in_entry = False
         if not re.match('^# duplicate', line):
+            if in_entry:
+                outfile.write("%%%%\n");
+                in_entry = False
             outfile.write(line)
     else:
         key = strip_quotes_if_allowed(line.strip())
