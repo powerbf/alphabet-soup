@@ -179,7 +179,7 @@ void apply_daction_to_mons(monster* mon, daction_type act, bool local,
         case DACT_ALLY_YRED_SLAVE:
             if (mon->type == MONS_ZOMBIE)
             {
-                simple_monster_message(*mon, " crumbles into dust!");
+                simple_monster_message(*mon, "%s crumbles into dust!");
                 monster_die(*mon, KILL_DISMISSED, NON_MONSTER);
                 break;
             }
@@ -201,7 +201,7 @@ void apply_daction_to_mons(monster* mon, daction_type act, bool local,
             break;
 
         case DACT_ALLY_HEPLIAKLQANA:
-            simple_monster_message(*mon, " returns to the mists of memory.");
+            simple_monster_message(*mon, "%s returns to the mists of memory.");
             monster_die(*mon, KILL_DISMISSED, NON_MONSTER);
             break;
 
@@ -211,7 +211,7 @@ void apply_daction_to_mons(monster* mon, daction_type act, bool local,
             break;
 
         case DACT_OLD_ENSLAVED_SOULS_POOF:
-            simple_monster_message(*mon, " is freed.");
+            simple_monster_message(*mon, "%s is freed.");
             // The monster disappears.
             monster_die(*mon, KILL_DISMISSED, NON_MONSTER);
             break;
@@ -222,7 +222,7 @@ void apply_daction_to_mons(monster* mon, daction_type act, bool local,
 
         case DACT_PIKEL_MINIONS:
         {
-            simple_monster_message(*mon, " departs this earthly plane.");
+            simple_monster_message(*mon, "%s departs this earthly plane.");
             if (!in_transit)
             {
                 check_place_cloud(CLOUD_BLACK_SMOKE, mon->pos(),

@@ -18,6 +18,7 @@
 #include "directn.h"
 #include "env.h"
 #include "item-prop.h"
+#include "localise.h"
 #include "message.h"
 #include "mgen-data.h"
 #include "mon-death.h"
@@ -524,8 +525,9 @@ move_again:
                     mprf("You block %s.", mon.name(DESC_THE, true).c_str());
                 else
                 {
-                    simple_monster_message(*mons, (" blocks "
-                        + mon.name(DESC_THE, true) + ".").c_str());
+                    string msg = localise("%s blocks %s.", mons->name(DESC_THE),
+                                          mon.name(DESC_THE, true));
+                    simple_monster_message(*mons, msg.c_str());
                 }
                 victim->shield_block_succeeded();
                 _iood_stop(mon);

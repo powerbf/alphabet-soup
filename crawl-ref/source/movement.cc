@@ -979,7 +979,7 @@ void move_player_action(coord_def move)
         else if (targ_monst->temp_attitude() == ATT_NEUTRAL && !you.confused()
                  && targ_monst->visible_to(&you))
         {
-            simple_monster_message(*targ_monst, " refuses to make way for you. "
+            simple_monster_message(*targ_monst, "%s refuses to make way for you. "
                               "(Use ctrl+direction or * direction to attack.)");
             you.turn_is_over = false;
             return;

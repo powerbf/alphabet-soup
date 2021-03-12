@@ -652,7 +652,7 @@ static bool _check_tukima_validity(const actor *target)
         if (mons_class_is_animated_weapon(target->type))
         {
             simple_monster_message(*(monster*)target,
-                                   " is already dancing.");
+                                   "%s is already dancing.");
         }
         else
         {
@@ -2166,7 +2166,7 @@ void init_servitor(monster* servitor, actor* caster)
              caster->pronoun(PRONOUN_POSSESSIVE).c_str());
     }
     else
-        simple_monster_message(*servitor, " appears!");
+        simple_monster_message(*servitor, "%s appears!");
 
     int shortest_range = LOS_RADIUS + 1;
     for (const mon_spell_slot &slot : servitor->spells)
@@ -2280,10 +2280,10 @@ spret cast_battlesphere(actor* agent, int pow, god_type god, bool fail)
                 if (you.can_see(*agent) && you.can_see(*battlesphere))
                 {
                     simple_monster_message(*agent->as_monster(),
-                                           " conjures a globe of magical energy!");
+                                           "%s conjures a globe of magical energy!");
                 }
                 else if (you.can_see(*battlesphere))
-                    simple_monster_message(*battlesphere, " appears!");
+                    simple_monster_message(*battlesphere, "%s appears!");
                 battlesphere->props["band_leader"].get_int() = agent->mid;
             }
             battlesphere->battlecharge = 4 + random2(pow + 10) / 10;
@@ -2509,7 +2509,7 @@ bool fire_battlesphere(monster* mons)
         if (beam.friend_info.count == 0 && beam.foe_info.count > 0)
         {
             beam.thrower = (agent->is_player()) ? KILL_YOU : KILL_MON;
-            simple_monster_message(*mons, " fires!");
+            simple_monster_message(*mons, "%s fires!");
             beam.fire();
 
             used = true;
@@ -2707,13 +2707,11 @@ void cast_spectral_weapon(actor *agent, int pow, god_type god)
     {
         if (you.can_see(*agent) && you.can_see(*mons))
         {
-            string buf = " draws out ";
-            buf += agent->pronoun(PRONOUN_POSSESSIVE);
-            buf += " weapon's spirit!";
+            string buf = "%s draws out a weapon's spirit!";
             simple_monster_message(*agent->as_monster(), buf.c_str());
         }
         else if (you.can_see(*mons))
-            simple_monster_message(*mons, " appears!");
+            simple_monster_message(*mons, "%s appears!");
 
         mons->props["band_leader"].get_int() = agent->mid;
         mons->foe = agent->mindex();
@@ -2739,7 +2737,7 @@ void end_spectral_weapon(monster* mons, bool killed, bool quiet)
     {
         if (you.can_see(*mons))
         {
-            simple_monster_message(*mons, " fades away.",
+            simple_monster_message(*mons, "%s fades away.",
                                    MSGCH_MONSTER_DAMAGE, MDAM_DEAD);
         }
         else if (owner && owner->is_player())

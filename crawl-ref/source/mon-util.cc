@@ -3653,9 +3653,7 @@ void mons_pacify(monster& mon, mon_attitude_type att, bool no_xp)
 
     if (mon.type == MONS_GERYON)
     {
-        simple_monster_message(mon,
-            make_stringf(" discards %s horn.",
-                         mon.pronoun(PRONOUN_POSSESSIVE).c_str()).c_str());
+        simple_monster_message(mon, "Geryon discards his horn.");
         monster_drop_things(&mon, false, item_is_horn_of_geryon);
     }
 
@@ -5444,33 +5442,24 @@ mon_dam_level_type mons_get_damage_level(const monster& mons)
 
 string get_damage_level_string(mon_holy_type holi, mon_dam_level_type mdam)
 {
-    ostringstream ss;
     switch (mdam)
     {
     case MDAM_ALMOST_DEAD:
-        ss << "almost";
-        ss << (wounded_damaged(holi) ? " destroyed" : " dead");
-        return ss.str();
+        return (wounded_damaged(holi) ? "almost destroyed" : "almost dead");
     case MDAM_SEVERELY_DAMAGED:
-        ss << "severely";
-        break;
+        return (wounded_damaged(holi) ? "severely damaged" : "severely wounded");
     case MDAM_HEAVILY_DAMAGED:
-        ss << "heavily";
-        break;
+        return (wounded_damaged(holi) ? "heavily damaged" : "heavily wounded");
     case MDAM_MODERATELY_DAMAGED:
-        ss << "moderately";
-        break;
+        return (wounded_damaged(holi) ? "moderately damaged" : "moderately wounded");
     case MDAM_LIGHTLY_DAMAGED:
-        ss << "lightly";
-        break;
+        return (wounded_damaged(holi) ? "lightly damaged" : "lightly wounded");
     case MDAM_OKAY:
     default:
-        ss << "not";
-        break;
+        return (wounded_damaged(holi) ? "not damaged" : "not wounded");
     }
-    ss << (wounded_damaged(holi) ? " damaged" : " wounded");
-    return ss.str();
 }
+
 
 void print_wounds(const monster& mons)
 {
@@ -5479,9 +5468,7 @@ void print_wounds(const monster& mons)
 
     mon_dam_level_type dam_level = mons_get_damage_level(mons);
     string desc = get_damage_level_string(mons.holiness(), dam_level);
-
-    desc.insert(0, " is ");
-    desc += ".";
+    desc = localise("%s is %s.", mons.name(DESC_THE), desc);
     simple_monster_message(mons, desc.c_str(), MSGCH_MONSTER_DAMAGE,
                            dam_level);
 }

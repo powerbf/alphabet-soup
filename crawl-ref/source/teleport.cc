@@ -67,7 +67,6 @@ bool monster::blink_to(const coord_def& dest, bool quiet, bool jump)
         return false;
 
     bool was_constricted = false;
-    const string verb = (jump ? "leap" : "blink");
 
     if (is_constricted())
     {
@@ -77,8 +76,11 @@ bool monster::blink_to(const coord_def& dest, bool quiet, bool jump)
         {
             if (!quiet)
             {
-                string message = " struggles to " + verb
-                                 + " free from constriction.";
+                string message;
+                if (jump)
+                    message = "%s struggles to leap free from constriction.";
+                else
+                    message = "%s struggles to blink free from constriction.";
                 simple_monster_message(*this, message.c_str());
             }
             return false;
@@ -87,9 +89,15 @@ bool monster::blink_to(const coord_def& dest, bool quiet, bool jump)
 
     if (!quiet)
     {
-        string message = " " + conj_verb(verb)
-                         + (was_constricted ? " free!" : "!");
-        simple_monster_message(*this, message.c_str());
+        string message;
+        if (was_constricted && jump)
+            simple_monster_message(*this, "%s jumps free!");
+        else if (was_constricted)
+            simple_monster_message(*this, "%s blinks free!");
+        else if (jump)
+            simple_monster_message(*this, "%s jumps!");
+        else
+            simple_monster_message(*this, "%s blinks!");
     }
 
     if (!(flags & MF_WAS_IN_VIEW))
@@ -233,12 +241,12 @@ void monster_teleport(monster* mons, bool instan, bool silent)
         if (mons->del_ench(ENCH_TP))
         {
             if (!silent)
-                simple_monster_message(*mons, " seems more stable.");
+                simple_monster_message(*mons, "%s seems more stable.");
         }
         else
         {
             if (!silent)
-                simple_monster_message(*mons, " looks slightly unstable.");
+                simple_monster_message(*mons, "%s looks slightly unstable.");
 
             mons->add_ench(mon_enchant(ENCH_TP, 0, 0,
                                        random_range(20, 30)));
@@ -251,12 +259,12 @@ void monster_teleport(monster* mons, bool instan, bool silent)
 
     if (!_monster_random_space(mons, newpos, !mons->wont_attack()))
     {
-        simple_monster_message(*mons, " flickers for a moment.");
+        simple_monster_message(*mons, "%s flickers for a moment.");
         return;
     }
 
     if (!silent)
-        simple_monster_message(*mons, " disappears!");
+        simple_monster_message(*mons, "%s disappears!");
 
     const coord_def oldplace = mons->pos();
 
@@ -267,7 +275,7 @@ void monster_teleport(monster* mons, bool instan, bool silent)
     if (!silent && now_visible)
     {
         if (was_seen)
-            simple_monster_message(*mons, " reappears nearby!");
+            simple_monster_message(*mons, "%s reappears nearby!");
         else
         {
             // Even if it doesn't interrupt an activity (the player isn't
@@ -275,7 +283,7 @@ void monster_teleport(monster* mons, bool instan, bool silent)
             // a message.
             activity_interrupt_data ai(mons, SC_TELEPORT_IN);
             if (!interrupt_activity(activity_interrupt::see_monster, ai))
-                simple_monster_message(*mons, " appears out of thin air!");
+                simple_monster_message(*mons, "%s appears out of thin air!");
         }
     }
 

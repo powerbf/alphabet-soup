@@ -338,7 +338,7 @@ monster* clone_mons(const monster* orig, bool quiet, bool* obvious,
     if (you.can_see(*orig) && you.can_see(*mons))
     {
         if (!quiet)
-            simple_monster_message(*orig, " is duplicated!");
+            simple_monster_message(*orig, "%s is duplicated!");
         *obvious = true;
     }
 

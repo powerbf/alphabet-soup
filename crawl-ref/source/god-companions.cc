@@ -144,7 +144,7 @@ bool recall_offlevel_ally(mid_t mid)
     // The monster is now on this level
     remove_monster_from_transit(comp->level, mid);
     comp->level = level_id::current();
-    simple_monster_message(*mons, " is recalled.");
+    simple_monster_message(*mons, "%s is recalled.");
 
     // Now that the monster is onlevel, we can safely apply traps to it.
     // old location isn't very meaningful, so use current loc
