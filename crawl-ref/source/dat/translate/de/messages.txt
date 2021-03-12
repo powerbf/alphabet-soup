@@ -2596,12 +2596,6 @@ CTRL
 SHIFT
 
 %%%%
-%*s
-
-%%%%
-%s%*s
-
-%%%%
 
 ##################
 # cloud.cc
@@ -31804,9 +31798,6 @@ Points
 > New
 
 %%%%
-%4.*f
-
-%%%%
 In automatic mode, skills are trained as you use them.
 
 %%%%
@@ -32644,9 +32635,6 @@ Weight
 
 %%%%
 " %c Level %.*f%s %s\n"
-
-%%%%
-(%.*f)
 
 %%%%
 
