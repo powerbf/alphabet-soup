@@ -260,7 +260,7 @@ for filename in files:
             continue
 
         # ignore format strings without any actual text
-        if re.match(r'^([^a-zA-Z]*%[0-9\.]*l{0,2}[a-zA-Z][^a-zA-Z]*)*$', string):
+        if re.match(r'^([^a-zA-Z]*%[0-9\.\*]*l{0,2}[a-zA-Z][^a-zA-Z]*)*$', string):
             continue
 
         filtered_strings.append(string)
