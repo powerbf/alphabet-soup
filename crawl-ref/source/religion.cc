@@ -3335,7 +3335,7 @@ static void _transfer_good_god_piety()
         else if (old_god == GOD_ZIN)
             msg = "%s says: Farewell. Go and enforce order with %s.";
         else
-            msg = "%s says: Farewell. Go and become a bug with %s.";
+            msg = "%s says: Farewell. Go and become a bug with %s."; // noextract (bug)
 
         // Some feedback that piety moved over.
         msg = localise(msg, god_speaker(old_god), god_name(you.religion));
