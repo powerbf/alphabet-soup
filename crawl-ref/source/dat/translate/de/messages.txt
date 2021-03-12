@@ -23892,78 +23892,48 @@ Fehler, Exp für Monster ohne Schaden: %s
 You feel a bit more experienced.
 Ihr fühlt Euch ein bisschen erfahrener.
 %%%%
-%s %s intact enough to wear.
-%s %s intakt genug zum Tragen.
+%s are intact enough to wear.
+%s sind intakt genug zum Tragen.
+%%%%
+%s is intact enough to wear.
+%s ist intakt genug zum Tragen.
 %%%%
 %%%%
-banished
-
-%%%%
-pacified
-
+%s protects %s from harm!
+%s schützt {acc}%s vor Schaden!
 %%%%
 %%%%
-slimified
-
-%%%%
-killed
-
-%%%%
-" the ghost of "
-
-%%%%
-%%%%
-" protects "
-
-%%%%
-" from harm!"
-
-%%%%
-%s heals %s%s
-
-%%%%
+%s heals %s
+%s heilt {acc}%s
 %%%%
 With an infernal shudder, the power ruling this place vanishes!
-
+Mit einem infernalischen Schauder verschwindet die Macht, die diesen Ort beherrscht!
 %%%%
 With an infernal noise, the power ruling this place vanishes!
-
+Mit einem infernalischen Geräusch verschwindet die Macht, die diesen Ort beherrscht!
 %%%%
-"'s corpse "
-
-%%%%
-%%%%
-miscast
-
+%s's corpse
+die Leiche {gen}%s
 %%%%
 %%%%
-reset
-
+A freezing mist gathers momentarily, then fades.
+Ein eisiger Nebel sammelt sich kurz, dann vergeht er.
 %%%%
-dismissed
-
+A glowing mist gathers momentarily, then fades.
+Ein glühender Nebel sammelt sich kurz, dann vergeht er.
 %%%%
-timeout
-
+A freezing mist starts to gather...
+Ein eisiger Nebel beginnt sich zu sammeln...
 %%%%
-unsummoned
-
+A glowing mist starts to gather...
+Ein glühender Nebel beginnt sich zu sammeln...
 %%%%
-A %s mist gathers momentarily, then fades.
-Ein %s Nebel sammelt sich für einen Moment und verblasst dann.
+With its final breath, the spriggan druid offers up its power to the beasts of the wild!
+Mit seinem letzten Atemzug opfert der Spriggan-Druide seine Kraft den Bestien der Wildnis!
 %%%%
 %%%%
-A %s mist starts to gather...
-
-%%%%
-With its final breath, %s offers up its power to the beasts of the wild!
-
-%%%%
-%s %s healed.
-%s %s geheilt.
-%%%%
-" seems to grow more fierce."
-
+%s seems to grow more fierce.
+%s scheint immer grimmiger zu werden.
 %%%%
 %s turns into a zombie!
 %s verwandelt sich in einen Zombie!
@@ -23971,219 +23941,206 @@ With its final breath, %s offers up its power to the beasts of the wild!
 %s appears out of thin air!
 %s erscheint aus der Luft!
 %%%%
-"'s shape twists and changes as "
-
+%s's shape twists and changes in death.
+{gen}%s Gestalt verdreht und verändert sich im Tod.
 %%%%
-%%%%
-" returns to "
-
-%%%%
-" original shape as "
-
+%s's body returns to its original shape.
+{gen}%s Leiche verwandlt sich in ihre ursprüngliche Form.
 %%%%
 Lua death function for monster '%s' didn't load: %s
-
+Die Lua-Todesfunktion für das Monster '%s' wurde nicht geladen: %s
 %%%%
 You feel the power of %s in you as your rage grows.
-
+Ihr spürt {gen}%s Macht in Euch, als Eure Wut wächst.
 %%%%
 The necklace of Bloodlust glows a violent red.
 Die Kette von Bloodlust leuchtet heftig rot.
 %%%%
-" detonates feebly."
-
+%s detonates feebly.
+%s detoniert kraftlos.
 %%%%
-" dissipates!"
-
+%s dissipates!
+%s verflüchtigt sich!
 %%%%
-" vapourises!"
-
+%s vapourises!
+%s verdampft!
 %%%%
-" falls from the air."
-
+%s falls from the air.
+%s fällt aus der Luft.
 %%%%
 The tentacle is hauled back through the portal!
-
+Der Tentakel wird durch das Portal zurückgeschleppt!
 %%%%
 With a roar, the tentacle is hauled back through the portal!
-
+Mit einem Gebrüll wird die Tentakel zurück durch das Portal gezogen!
 %%%%
-" crumbles away."
-
+%s crumbles away.
+%s bröckelt weg.
 %%%%
-" exhausts itself and dries up."
-
+%s exhausts itself and dries up.
+%s erschöpft sich und trocknet aus.
 %%%%
-"%s is "
-
+%s is blown up!
+%s wird gesprengt!
 %%%%
-blown up
-
+%s is destroyed!
+%s wird zerstört!
 %%%%
-destroyed
-
+%s is killed!
+%s wird getötet!
 %%%%
-"You "
-
+You blow up %s!
+Ihr sprengt {acc}%s in die Luft!
 %%%%
-blow up
-
+You destroy %s!
+Ihr zerstört {acc}%s!
 %%%%
-%%%%
-kill
-
+You kill %s!
+Ihr tötet {acc}%s!
 %%%%
 That felt strangely unrewarding.
-Das fühlte sich seltsam unbelohnt an.
+Das fühlte sich seltsam undankbar an.
 %%%%
-" collects the excess magic power."
-
+%s collects the excess magic power.
+%s sammelt die überschüssige Zauberkraft ein.
 %%%%
+%s grants you a gift!
+%s gewährt Euch ein Geschenk!
 %%%%
-" is blown up!"
-
+%s dies!
+%s stirbt!
 %%%%
-" is destroyed!"
-
+%s withers and dies!
+%s verwelkt und stirbt!
 %%%%
-" dies!"
-
+%s returns to the shadows of the Dungeon!
+%s kehrt zurück in die Schatten des Verlieses!
 %%%%
-" withers and dies!"
-
+%s fades into mist!
+%s verblasst zu Nebel!
 %%%%
-" returns to the shadows of the Dungeon!"
-
-%%%%
-" fades into mist!"
-
-%%%%
+%s crumbles into dust!
+%s zerbröckelt zu Staub!
 %%%%
 The dead kraken's tentacles slide back into the water.
-Die Tentakel des toten Kraken rutschen zurück ins Wasser.
+Die Tentakel des toten Kraken gleiten zurück ins Wasser.
 %%%%
 The starspawn's tentacles wither and die.
-Die Tentakel der Sternbrut verdorren und sterben.
+Die Tentakel der Sternenbrut verwelken und sterben.
 %%%%
 %s has departed this plane of existence.
 %s hat diese Ebene der Existenz verlassen.
 %%%%
-The vine%s fall%s limply to the ground.
-Die Rebe%s fällt%s schlaff zu Boden.
+The vine falls limply to the ground.
+Die Ranke fällt schlaff zu Boden.
 %%%%
+The vines fall limply to the ground.
+Die Ranken fallen schlaff zu Boden.
+%%%%
+The terrible wounds on your body vanish.
+Die schrecklichen Wunden an Eurem Körper verschwinden.
 %%%%
 The terrible wounds on %s body vanish.
-Die schrecklichen Wunden an %s Körper verschwinden.
+Die schrecklichen Wunden an {gen}%s Körper verschwinden.
 %%%%
 The forest abruptly stops moving.
-
+Der Wald hört abrupt auf, sich zu bewegen.
 %%%%
-%s falls into the %s!
-%s fällt in die %s!
+%s falls into the lava!
+%s fällt in die Lava!
 %%%%
+%s falls into the water!
+%s fällt ins Wasser!
 %%%%
-" is incinerated."
-
+%s is incinerated.
+%s wird verbrannt.
 %%%%
-" drowns."
-
+%s drowns.
+%s ertrinkt.
 %%%%
-" falls apart."
-
+%s falls apart.
+%s fällt auseinander.
 %%%%
 %s disappear in a puff of smoke!
-
+%s verschwinden in einer Rauchwolke!
 %%%%
 %s disappears in a puff of smoke!
-
+%s verschwindet in einer Rauchwolke!
 %%%%
 %s dissolve into shadows!
-
+%s lösen sich in Schatten auf!
 %%%%
 %s dissolves into shadows!
-
+%s löst sich in Schatten auf!
 %%%%
 %s degenerate into a cloud of primal chaos!
-
+%s entarten in eine Wolke aus Urchaos!
 %%%%
 %s degenerates into a cloud of primal chaos!
-
+%s entartet in eine Wolke aus Ur-Chaos!
 %%%%
 %s dissolve into sparkling lights!
-
+%s lösen sich in funkelnde Lichter auf!
 %%%%
 %s dissolves into sparkling lights!
-
+%s löst sich in funkelnde Lichter auf!
 %%%%
 %s fade away!
-
+%s verblassen!
 %%%%
 %s fades away!
-
+%s verblasst!
 %%%%
 %s dissolve into a puddle of slime!
-
+%s lösen sich in eine Pfütze aus Schleim auf!
 %%%%
 %s dissolves into a puddle of slime!
-
+%s löst sich in eine Pfütze aus Schleim auf!
 %%%%
 %s return to the deep!
-
+%s kehren in die Tiefe zurück!
 %%%%
 %s returns to the deep!
-
+%s kehrt in die Tiefe zurück!
 %%%%
 %s shimmer and vanish!
-
+%s schimmern und verschwinden!
 %%%%
 %s shimmers and vanishes!
-
+%s schimmert und verschwindet!
 %%%%
-minions
-
+Pikel's spell is broken, but his former minion can only feel hate for you!
+Pikels Bann ist gebrochen, aber sein ehemaliger Sklave kann nur noch Hass für Euch empfinden!
 %%%%
-minion
-
+Pikel's spell is broken, but his former minions can only feel hate for you!
+Pikels Bann ist gebrochen, aber seine ehemaligen Sklaven können nur noch Hass für Euch empfinden!
 %%%%
-Pikel's spell is broken, but his former %s can only feel hate for you!
-
+With Pikel's spell broken, his former minion thanks you for its freedom.
+Da Pikels Bann gebrochen ist, dankt Euch sein ehemaliger Sklave für seine Freiheit.
 %%%%
-minions thank you for their
-
+With Pikel's spell broken, his former minions thank you for their freedom.
+Da Pikels Bann gebrochen ist, danken Euch seine ehemaligen Sklaven für ihre Freiheit.
 %%%%
-minion thanks you for its
-
+No longer under Kirke's spell, the hog returns to its human form!
+Nicht länger unter Kirkes Bann, das Schwein nimmt wieder sieine menschliche Gestalt an!
 %%%%
-With Pikel's spell broken, his former %s freedom.
-
+No longer under Kirke's spell, the hogs return to their human form!
+Nicht länger unter Kirkes Bann, die Schweine nehmen wieder ihre menschliche Gestalt an!
 %%%%
-No longer under Kirke's spell, the %s %s %s!
-
+No longer under Kirke's spell, the hog returns to its original form!
+Nicht länger unter Kirkes Bann, das Schwein nimmt seine ursprüngliche Form wieder an!
 %%%%
-hogs return to their
-
+No longer under Kirke's spell, the hogs return to their original form!
+Nicht mehr unter Kirkes Bann, die Schweine nehmen wieder ihre ursprüngliche Form an!
 %%%%
-hog returns to its
-
+%s seems to find hidden reserves of power!
+%s scheint versteckte Kraftreserven zu finden!
 %%%%
+%s likewise turns neutral.
+%s wird ebenfalls neutral!
 %%%%
-original
-
-%%%%
-forms
-
-%%%%
-form
-
-%%%%
-" seems to find hidden reserves of power!"
-
-%%%%
-" likewise turns neutral."
-
-%%%%
-" gets angry again!"
-
+%s gets angry again!
+%s wird wieder wütend!
 %%%%
 
 ##################
@@ -24458,8 +24415,6 @@ Die Flammen, die%s bedecken, gehen aus.
 " burns!"
 
 %%%%
-%s crumbles away.
-%s bröckelt weg.
 %%%%
 %s melts away.
 %s schmilzt weg.
@@ -25260,7 +25215,7 @@ something unseen
 Failed to spawn projectile.
 Projektil konnte nicht erzeugt werden.
 %%%%
-" dissipates."
+%s dissipates.
 
 %%%%
 %%%%
@@ -36997,6 +36952,9 @@ Slay (%u)
 
 %%%%
 %%%%
+Recall
+
+%%%%
 recalling
 
 %%%%
@@ -38071,6 +38029,9 @@ state
 penance
 
 %%%%
+form
+
+%%%%
 %%%%
 light
 
@@ -38395,6 +38356,8 @@ a %sbat.
 " a temporary spike. "
 
 %%%%
+"You "
+
 %%%%
 " grown temporary "
 

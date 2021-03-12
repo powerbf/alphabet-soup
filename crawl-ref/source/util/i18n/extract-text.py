@@ -111,8 +111,8 @@ for filename in files:
                re.search(r'fprintf *\(', line):
                 continue
 
-            # ignore exed monsters
-            if 'AXED_MON' in line:
+            # ignore axed stuff
+            if 'AXED' in line:
                 continue
 
             # ignore file open (will have file name and mode as strings)

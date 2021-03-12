@@ -2325,7 +2325,7 @@ void end_battlesphere(monster* mons, bool killed)
                 mpr("You feel your bond with your battlesphere wane.");
         }
         else if (you.can_see(*mons))
-            simple_monster_message(*mons, " dissipates.");
+            simple_monster_message(*mons, "%s dissipates.");
 
         if (!cell_is_solid(mons->pos()))
             place_cloud(CLOUD_MAGIC_TRAIL, mons->pos(), 3 + random2(3), mons);
