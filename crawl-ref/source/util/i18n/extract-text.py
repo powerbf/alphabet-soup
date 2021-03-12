@@ -7,6 +7,8 @@ SKIP_FILES = [
     'AppHdr.h', 'AppHdr.cc',
     'build.h', 'compflag.h',
     'version.h', 'version.cc',
+    # json tags should not be translated
+    'branch-data-json.h', 'branch-data-json.cc',
     # debug/test stuff
     'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc',
     # files related to the translation process itself
@@ -15,7 +17,7 @@ SKIP_FILES = [
     'database.h', 'database.cc',
     # stuff related to morgue file is not translated
     # (because if we run this on a server, we want all the morgues in English)
-    'chardump.cc', 'notes.h', 'notes.cc',
+    'chardump.h', 'chardump.cc', 'notes.h', 'notes.cc',
     # nonsense
     'lang-fake.h', 'lang-fake.cc'
 ]
