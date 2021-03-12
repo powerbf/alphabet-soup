@@ -857,11 +857,11 @@ void floor_transition(dungeon_feature_type how,
         {
             const string noise_desc = branch_noise_desc(branch);
             if (!noise_desc.empty())
-                mpr(noise_desc);
+                mpr_nolocalise(noise_desc);
 
             const string rune_msg = branch_rune_desc(branch, true);
             if (!rune_msg.empty())
-                mpr(rune_msg);
+                mpr_nolocalise(rune_msg);
         }
 
         // Entered a branch from its parent.

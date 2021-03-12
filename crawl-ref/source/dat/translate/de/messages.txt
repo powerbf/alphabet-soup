@@ -2590,13 +2590,10 @@ You enter a great desolation of salt!
 # branch.cc
 ##################
 %%%%
-"This branch is "
+This branch is very noisy, and so sound travels much less far.
 
 %%%%
-very noisy, and so sound travels much less far.
-
-%%%%
-unnaturally silent, and so sound travels much further.
+This branch is unnaturally silent, and so sound travels much further.
 
 %%%%
 This branch contains %s.
