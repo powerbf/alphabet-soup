@@ -2239,7 +2239,7 @@ vile clutch
 The melody is strangely muted, and has no effect on you.
 Die Melodie ist seltsam gedämpft und hat keinen Einfluss auf Euch.
 %%%%
-%s's is no longer quite as mesmerising!
+%s is no longer quite as mesmerising!
 %s ist nicht mehr ganz so faszinierend!
 %%%%
 Your mesmeriser suddenly seems less interesting!
@@ -2262,9 +2262,6 @@ Die Stille klärt Euren Geist.
 %%%%
 %s stops singing.
 %s hört auf zu singen.
-%%%%
-%s is no longer quite as mesmerising!
-%s ist nicht mehr ganz so faszinierend!
 %%%%
 Something stops singing.
 Etwas hört auf zu singen.
