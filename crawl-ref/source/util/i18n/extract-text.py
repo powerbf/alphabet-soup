@@ -9,6 +9,8 @@ SKIP_FILES = [
     'version.h', 'version.cc',
     # json tags should not be translated
     'branch-data-json.h', 'branch-data-json.cc',
+    'json.h', 'json.cc', 'json-wrapper.h',
+    'tileweb.h', 'tileweb.cc', 'tileweb-text.h', 'tileweb-text.cc',
     # debug/test stuff
     'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc',
     # files related to the translation process itself
@@ -139,6 +141,8 @@ for filename in files:
             if re.search(r'^[^"]*_tag\(', line) and not re.search('text_tag', line):
                 continue
             if re.search(r'strip_tag_prefix *\(', line):
+                continue
+            if re.search(r'json_write', line):
                 continue
             if re.search(r'\bgetRandNameString *\(', line):
                 continue
