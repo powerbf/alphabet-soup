@@ -1300,9 +1300,10 @@ static void _attract_actor(const actor* agent, actor* victim,
         }
         if (fedhas_prot)
         {
-            simple_god_message(
-                make_stringf(" protects %s from harm.",
-                    agent->is_player() ? "your" : "a").c_str(), GOD_FEDHAS);
+            simple_god_message(agent->is_player()
+                               ? "%s protects your plant from harm."
+                               : "%s protects a plant from harm.",
+                               GOD_FEDHAS);
         }
         else
         {

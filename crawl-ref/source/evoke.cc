@@ -1151,7 +1151,7 @@ bool evoke_check(int slot, bool quiet)
     {
         if (!quiet)
         {
-            simple_god_message("'s wrath prevents you from evoking devices!",
+            simple_god_message("%s's wrath prevents you from evoking devices!",
                            GOD_PAKELLAS);
         }
         return false;

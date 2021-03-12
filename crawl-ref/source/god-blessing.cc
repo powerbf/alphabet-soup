@@ -673,9 +673,9 @@ static void _display_god_blessing(monster* follower, god_type god,
     string whom = you.can_see(*follower) ? follower->name(DESC_THE)
     : "a follower";
 
-    simple_god_message(make_stringf(" blesses %s with %s.",
-                                    whom.c_str(), blessing.c_str()).c_str(),
-                       god);
+    string msg = localise("%s blesses %s with %s.", god_speaker(god),
+                          whom, blessing);
+    god_speaks(god, msg.c_str());
 }
 
 /**

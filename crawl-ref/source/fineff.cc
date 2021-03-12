@@ -212,7 +212,7 @@ void mirror_damage_fineff::fire()
     }
     else if (def == MID_PLAYER)
     {
-        simple_god_message(" mirrors your injury!");
+        simple_god_message("%s mirrors your injury!");
 
         attack->hurt(&you, damage);
 

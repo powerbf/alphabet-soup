@@ -197,7 +197,7 @@ bool bless_weapon(god_type god, brand_type brand, colour_t colour)
 
     mprf(MSGCH_GOD, "Your %s shines brightly!", wpn.name(DESC_QUALNAME).c_str());
     flash_view(UA_PLAYER, colour);
-    simple_god_message(" booms: Use this gift wisely!");
+    simple_god_message("%s booms: Use this gift wisely!");
     you.one_time_ability_used.set(you.religion);
     take_note(Note(NOTE_GOD_GIFT, you.religion));
 
@@ -263,7 +263,7 @@ bool zin_donate_gold()
 
     if (donation < 1)
     {
-        simple_god_message(" finds your generosity lacking.");
+        simple_god_message("%s finds your generosity lacking.");
         return false;
     }
 
@@ -1208,7 +1208,7 @@ static void _zin_saltify(monster* mon)
 
 bool zin_vitalisation()
 {
-    simple_god_message(" grants you divine stamina.");
+    simple_god_message("%s grants you divine stamina.");
 
     // Add divine stamina.
     const int stamina_amt =
@@ -1251,7 +1251,7 @@ bool zin_remove_all_mutations()
 
     you.one_time_ability_used.set(GOD_ZIN);
     take_note(Note(NOTE_GOD_GIFT, you.religion));
-    simple_god_message(" draws all chaos from your body!");
+    simple_god_message("%s draws all chaos from your body!");
     delete_all_mutations("Zin's power");
     return true;
 }
@@ -1884,8 +1884,8 @@ bool kiku_receive_corpses(int pow)
     {
         if (you_worship(GOD_KIKUBAAQUDGHA))
         {
-            simple_god_message(corpses_created > 1 ? " delivers you corpses!"
-                                                   : " delivers you a corpse!");
+            simple_god_message(corpses_created > 1 ? "%s delivers you corpses!"
+                                                   : "%s delivers you a corpse!");
         }
         maybe_update_stashes();
         return true;
@@ -1893,7 +1893,7 @@ bool kiku_receive_corpses(int pow)
     else
     {
         if (you_worship(GOD_KIKUBAAQUDGHA))
-            simple_god_message(" can find no cadavers for you!");
+            simple_god_message("%s can find no cadavers for you!");
         return false;
     }
 }
@@ -1936,7 +1936,7 @@ bool kiku_gift_necronomicon()
         return false;
     }
     set_ident_type(env.item[thing_created], true);
-    simple_god_message(" grants you a gift!");
+    simple_god_message("%s grants you a gift!");
     flash_view(UA_PLAYER, RED);
 #ifndef USE_TILE_LOCAL
     // Allow extra time for the flash to linger.
@@ -2029,10 +2029,8 @@ void cheibriados_time_bend(int pow)
                 continue;
             }
 
-            simple_god_message(
-                make_stringf(" rebukes %s.",
-                             mon->name(DESC_THE).c_str()).c_str(),
-                             GOD_CHEIBRIADOS);
+            string msg = localise("Cheibriados rebukes %s.", mon->name(DESC_THE));
+            god_speaks(GOD_CHEIBRIADOS, msg.c_str());
             do_slow_monster(*mon, &you);
         }
     }
@@ -3093,10 +3091,10 @@ bool gozag_bribe_branch()
         you.del_gold(bribe_amount);
         you.attribute[ATTR_GOZAG_GOLD_USED] += bribe_amount;
         branch_bribe[branch] += bribe_amount;
-        string msg = make_stringf(" spreads your bribe to %s!",
-                                  branch == BRANCH_VESTIBULE ? "the Hells" :
-                                  branches[branch].longname);
-        simple_god_message(msg.c_str());
+        string msg = localise("Gozag spreads your bribe to %s!",
+                              branch == BRANCH_VESTIBULE ? "the Hells" :
+                              branches[branch].longname);
+        god_speaks(GOD_GOZAG, msg.c_str());
         add_daction(DACT_SET_BRIBES);
         return true;
     }
@@ -4095,7 +4093,7 @@ void ru_offer_new_sacrifices()
                                   possible_sacrifices.end());
     }
 
-    simple_god_message(" believes you are ready to make a new sacrifice.");
+    simple_god_message("%s believes you are ready to make a new sacrifice.");
     // included in default force_more_message
 }
 
@@ -4446,7 +4444,7 @@ bool ru_do_sacrifice(ability_type sac)
     set_piety(min(piety_breakpoint(5), you.piety + piety_gain));
 
     if (you.piety == piety_breakpoint(5))
-        simple_god_message(" indicates that your awakening is complete.");
+        simple_god_message("%s indicates that your awakening is complete.");
 
     // Clean up.
     _ru_expire_sacrifices();
@@ -4479,7 +4477,7 @@ bool ru_reject_sacrifices(bool forced_rejection)
 
     ru_reset_sacrifice_timer(false, true);
     _ru_expire_sacrifices();
-    simple_god_message(" will take longer to evaluate your readiness.");
+    simple_god_message("%s will take longer to evaluate your readiness.");
     return true;
 }
 
@@ -5331,8 +5329,9 @@ spret hepliaklqana_idealise(bool fail)
 
     fail_check();
 
-    simple_god_message(make_stringf(" grants %s healing and protection!",
-                                    ancestor->name(DESC_YOUR).c_str()).c_str());
+    string msg = localise("%s grants %s healing and protection!",
+                          god_speaker(you.religion), ancestor->name(DESC_YOUR));
+    god_speaks(you.religion, msg.c_str());
 
     // 1/3 mhp healed at 0 skill, full at 27 invo
     const int healing = ancestor->max_hit_points

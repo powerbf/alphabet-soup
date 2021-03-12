@@ -197,14 +197,14 @@ struct dislike_response
             static int last_glowing_lecture = -1;
             if (!level)
             {
-                simple_god_message(" is not enthusiastic about the "
+                simple_god_message("%s is not enthusiastic about the "
                                    "mutagenic glow surrounding you.");
             }
             else if (last_glowing_lecture != you.num_turns)
             {
                 last_glowing_lecture = you.num_turns;
                 // Increase contamination within yellow glow.
-                simple_god_message(" does not appreciate the extra "
+                simple_god_message("%s does not appreciate the extra "
                                    "mutagenic glow surrounding you!");
             }
         }
@@ -224,7 +224,7 @@ struct dislike_response
 /// Zin and Ely's responses to evil actions. TODO: parameterize & merge w/TSO
 static const dislike_response GOOD_EVIL_RESPONSE = {
     "you use evil magic or items", true,
-    1, 1, " forgives your inadvertent evil act, just this once."
+    1, 1, "%s forgives your inadvertent evil act, just this once."
 };
 
 /// Zin and Ely's responses to the player attacking holy creatures.
@@ -242,7 +242,7 @@ static const dislike_response GOOD_KILL_HOLY_RESPONSE = {
 /// TSO and Ely's response to the player attacking neutral monsters.
 static const dislike_response GOOD_ATTACK_NEUTRAL_RESPONSE = {
     "you attack neutral beings", true,
-    1, 1, " forgives your inadvertent attack on a neutral, just this once."
+    1, 1, "%s forgives your inadvertent attack on a neutral, just this once."
 };
 
 /// Various gods' response to attacking a pal.
@@ -251,7 +251,7 @@ static dislike_response _on_attack_friend(const char* desc)
     return
     {
         desc, true,
-        1, 3, " forgives your inadvertent attack on an ally, just this once.",
+        1, 3, "%s forgives your inadvertent attack on an ally, just this once.",
         nullptr, [] (const monster* victim) -> bool {
             dprf("hates friend : %d", god_hates_attacking_friend(you.religion, *victim));
             return god_hates_attacking_friend(you.religion, *victim);
@@ -596,7 +596,7 @@ static like_response _on_kill(const char* desc, mon_holy_type holiness,
         _piety_bonus_for_holiness(holiness),
         18,
         god_is_good ? 0 : 2,
-        " accepts your kill.",
+        "%s accepts your kill.",
         special
     };
 }
@@ -642,7 +642,7 @@ static like_response okawaru_kill(const char* desc)
                      uppercase_first(god_name(you.religion)).c_str());
             }
             else if (piety > 9) // might still be miniscule
-                simple_god_message(" accepts your kill.");
+                simple_god_message("%s accepts your kill.");
         }
     };
 }
@@ -707,7 +707,7 @@ static like_map divine_likes[] =
                                      const monster* /*victim*/)
             {
                 piety *= 2;
-                simple_god_message(" appreciates your killing of a holy being.");
+                simple_god_message("%s appreciates your killing of a holy being.");
             },
             true
         ) },
@@ -826,11 +826,11 @@ static like_map divine_likes[] =
 
                 if (speed_delta > 0 && x_chance_in_y(speed_delta, 12))
                 {
-                    simple_god_message(" thoroughly appreciates the change of pace.");
+                    simple_god_message("%s thoroughly appreciates the change of pace.");
                     piety *= 2;
                 }
                 else
-                    simple_god_message(" appreciates the change of pace.");
+                    simple_god_message("%s appreciates the change of pace.");
             }
         } }
     },

@@ -374,8 +374,10 @@ static void _divine_headsup(const vector<monster*> &monsters,
     if (!warnings.size())
         return;
 
-    const string warning_msg = " warns you: " + warnings;
-    simple_god_message(warning_msg.c_str());
+    string msg = localise("%s warns you: %s", god_speaker(you.religion),
+                          warnings);
+    god_speaks(you.religion, msg.c_str());
+
 #ifndef USE_TILE_LOCAL
     // XXX: should this really be here...?
     if (you_worship(GOD_ZIN))

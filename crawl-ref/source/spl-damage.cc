@@ -396,7 +396,7 @@ static void _player_hurt_monster(monster &mon, int damage, beam_type flavour,
 
     if (god_conducts && you.deity() == GOD_FEDHAS && fedhas_neutralises(mon))
     {
-        simple_god_message(" protects your plant from harm.", GOD_FEDHAS);
+        simple_god_message("%s protects your plant from harm.", GOD_FEDHAS);
         return;
     }
 
@@ -1304,10 +1304,10 @@ static int _irradiate_cell(coord_def where, int pow, actor *agent)
 
     if (agent->deity() == GOD_FEDHAS && fedhas_protects(mons))
     {
-        simple_god_message(
-                    make_stringf(" protects %s plant from harm.",
-                        agent->is_player() ? "your" : "a").c_str(),
-                    GOD_FEDHAS);
+        simple_god_message(agent->is_player()
+                           ? "%s protects your plant from harm."
+                           : "%s protects a plant from harm.",
+                           GOD_FEDHAS);
         return 0;
     }
 
@@ -1530,10 +1530,10 @@ static int _ignite_poison_monsters(coord_def where, int pow, actor *agent)
     {
         if (!tracer)
         {
-            simple_god_message(
-                        make_stringf(" protects %s plant from harm.",
-                            agent->is_player() ? "your" : "a").c_str(),
-                        GOD_FEDHAS);
+            simple_god_message(agent->is_player()
+                               ? "%s protects your plant from harm."
+                               : "%s protects a plant from harm.",
+                               GOD_FEDHAS);
         }
         return 0;
     }
@@ -1946,10 +1946,10 @@ static int _discharge_monsters(const coord_def &where, int pow,
     else if (agent.deity() == GOD_FEDHAS
              && fedhas_protects(victim->as_monster()))
     {
-        simple_god_message(
-                    make_stringf(" protects %s plant from harm.",
-                        agent.is_player() ? "your" : "a").c_str(),
-                    GOD_FEDHAS);
+        simple_god_message(agent.is_player()
+                           ? "%s protects your plant from harm."
+                           : "%s protects a plant from harm.",
+                           GOD_FEDHAS);
         return 0;
     }
     else

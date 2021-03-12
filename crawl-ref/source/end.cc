@@ -350,7 +350,7 @@ NORETURN void end_game(scorefile_entry &se)
         switch (you.religion)
         {
         case GOD_FEDHAS:
-            simple_god_message(" appreciates your contribution to the "
+            simple_god_message("%s appreciates your contribution to the "
                                "ecosystem.");
             break;
 
@@ -364,12 +364,12 @@ NORETURN void end_game(scorefile_entry &se)
 
             if (holi & (MH_NONLIVING | MH_UNDEAD))
             {
-                simple_god_message(" rasps: \"You have failed me! "
+                simple_god_message("%s rasps: \"You have failed me! "
                                    "Welcome... oblivion!\"");
             }
             else
             {
-                simple_god_message(" rasps: \"You have failed me! "
+                simple_god_message("%s rasps: \"You have failed me! "
                                    "Welcome... death!\"");
             }
             break;
@@ -377,7 +377,7 @@ NORETURN void end_game(scorefile_entry &se)
 
         case GOD_YREDELEMNUL:
             if (you.undead_state() != US_ALIVE)
-                simple_god_message(" claims you as an undead slave.");
+                simple_god_message("%s claims you as an undead slave.");
             else if (death_type != KILLED_BY_DISINT
                   && death_type != KILLED_BY_LAVA)
             {
@@ -392,10 +392,8 @@ NORETURN void end_game(scorefile_entry &se)
             {
                 if (killer->is_monster() && killer->deity() == GOD_BEOGH)
                 {
-                    const string msg = " appreciates "
-                        + killer->name(DESC_ITS)
-                        + " killing of a heretic priest.";
-                    simple_god_message(msg.c_str());
+                    simple_god_message("%s appreciates the killing of "
+                                       "a heretic priest.");
                 }
             }
             break;

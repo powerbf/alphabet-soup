@@ -2466,7 +2466,7 @@ static spret _do_ability(const ability_def& abil, bool fail, dist *target)
             mpr("There are no corpses to sacrifice!");
             return spret::abort;
         }
-        simple_god_message(" torments the living!");
+        simple_god_message("%s torments the living!");
         torment(&you, TORMENT_KIKUBAAQUDGHA, you.pos());
         break;
 

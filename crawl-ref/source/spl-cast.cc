@@ -1875,7 +1875,7 @@ spret your_spells(spell_type spell, int powc, bool allow_fail,
                  && one_chance_in(20))
         {
             // And you thought you'd Necromutate your way out of penance...
-            simple_god_message(" does not allow the disloyal to dabble in "
+            simple_god_message("%s does not allow the disloyal to dabble in "
                                "death!", GOD_KIKUBAAQUDGHA);
 
             // The spell still goes through, but you get a miscast anyway.
@@ -1892,7 +1892,7 @@ spret your_spells(spell_type spell, int powc, bool allow_fail,
                  && one_chance_in(20))
         {
             // And you thought you'd Fire Storm your way out of penance...
-            simple_god_message(" does not allow the disloyal to dabble in "
+            simple_god_message("%s does not allow the disloyal to dabble in "
                                "destruction!", GOD_VEHUMET);
 
             // The spell still goes through, but you get a miscast anyway.

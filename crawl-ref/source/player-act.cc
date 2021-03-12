@@ -684,7 +684,7 @@ static bool _god_prevents_berserk_haste(bool intentional)
     // a part of your penance.
     if (!intentional)
     {
-        simple_god_message(" protects you from inadvertent hurry.");
+        simple_god_message("%s protects you from inadvertent hurry.");
         return true;
     }
 
@@ -693,7 +693,7 @@ static bool _god_prevents_berserk_haste(bool intentional)
     if (!you_worship(old_religion))
         return false;
 
-    simple_god_message(" forces you to slow down.");
+    simple_god_message("%s forces you to slow down.");
     return true;
 }
 
