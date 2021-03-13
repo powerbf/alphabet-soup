@@ -594,7 +594,8 @@ zap-type.h.o \
 
 I18N_TEST_OBJECTS = \
 test/i18n/de/item-test.o \
-test/i18n/de/misc-test.o
+test/i18n/de/misc-test.o \
+test/i18n/fr/misc-test.o
 
 ALL_OBJECTS = $(OBJECTS) $(TEST_OBJECTS) $(TILES_OBJECTS) $(GLTILES_OBJECTS) \
 $(WEBTILES_OBJECTS) $(YACC_OBJECTS) $(TILEDEFOBJS) $(HEADER_OBJECTS) \

@@ -1611,9 +1611,13 @@ de-item-test: test/i18n/de/item-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIB
 de-misc-test: test/i18n/de/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
 	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
 
-i18n-tests: $(GAME) de-item-test de-misc-test
+fr-misc-test: test/i18n/fr/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+i18n-tests: $(GAME) de-item-test de-misc-test fr-misc-test
 	./de-item-test
 	./de-misc-test
+	./fr-misc-test
 
 clean-coverage-full: clean-coverage
 	find . -type f -name '*.gcno' -delete
@@ -1630,7 +1634,7 @@ clean-plug-and-play-tests:
 	$(RM) plug-and-play-tests plug-and-play-tests.exe
 
 clean-i18n-tests:
-	$(RM) de-item-test de-misc-test test/i18n/*/*.o
+	$(RM) de-item-test de-misc-test fr-misc-test test/i18n/*/*.o
 
 debug: all
 debug-lite: all
