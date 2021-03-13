@@ -28,6 +28,7 @@ using namespace std;
 
 static string _language;
 static bool _paused;
+static string _context;
 
 // check if string contains the char
 static inline bool _contains(const std::string& s, char c)
@@ -872,6 +873,9 @@ static string _localise_item_name(const string& context, const string& item)
                     {
                         new_context = result.substr(ctx_pos + 1, ctx_end - ctx_pos - 1);
                         result.erase(ctx_pos, ctx_end - ctx_pos +1);
+                        // remember the context because it can affect later grammar
+                        // (e.g. in romance languages, gender of subject affects predicate adjectives)
+                        _context = new_context;
                     }
                 }
                 // localise adjectives
@@ -1149,6 +1153,7 @@ string localise(const vector<LocalisationArg>& args)
     }
 
     bool success = false;
+    _context = "";
 
     // first argument is the format string
     LocalisationArg fmt_arg = args.at(0);
@@ -1179,13 +1184,12 @@ string localise(const vector<LocalisationArg>& args)
 
     ostringstream ss;
 
-    string context;
     int arg_count = 0;
     for (vector<string>::iterator it = strings.begin() ; it != strings.end(); ++it)
     {
         if (it->at(0) == '{' && it->length() > 1)
         {
-            context = it->substr(1, it->length() - 2); // strip curly brackets
+            _context = it->substr(1, it->length() - 2); // strip curly brackets
         }
         else if (it->length() > 1 && it->at(0) == '%' && it->at(1) != '%')
         {
@@ -1220,7 +1224,7 @@ string localise(const vector<LocalisationArg>& args)
                     // arg is string
                     if (arg.translate && !_skip_translation())
                     {
-                        string argx = _localise_string(context, arg);
+                        string argx = _localise_string(_context, arg);
                         ss << _format_utf8_string(fmt_spec, argx);
                         if (argx != arg.stringVal)
                             success = true;

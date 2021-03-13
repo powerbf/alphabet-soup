@@ -35,28 +35,20 @@ static void show_result(const string& actual, const string& expected)
 
 int main()
 {
-    Options.lang_name = "de";
+    Options.lang_name = "fr";
     SysEnv.crawl_dir = ".";
     setlocale(LC_ALL, "");
     databaseSystemInit();
-    init_localisation("de");
-
-    string s = "Eure Zaubersprüche";
-    cout << "strwidth(\"" << s << "\") = " << strwidth(s) << endl;
-    /*char32_t c;
-    utf8towc(&c, "ü");
-    printf("%02X\n", c);*/
-    string result = localise("%-34.34s", "Your Spells");
-    show_result(result, "Eure Zaubersprüche                ");
+    init_localisation("fr");
 
     string msg;
 
-    msg = localise("%s is %s.", "a gray horse", "happy");
+    msg = localise("%s is %s.", "the gray horse", "happy");
     msg = uppercase_first(msg);
-    show_result(msg, "Ein graues Pferd ist glücklich.");
+    show_result(msg, "Le cheval gris est heureux.");
 
-    msg = localise("%s is %s.", "a gray cow", "happy");
+    msg = localise("%s is %s.", "the gray cow", "happy");
     msg = uppercase_first(msg);
-    show_result(msg, "Eine graue Kuh ist glücklich.");
+    show_result(msg, "La vache grise est heureuse.");
 
 }
