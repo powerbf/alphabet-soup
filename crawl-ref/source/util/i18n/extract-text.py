@@ -98,7 +98,8 @@ for filename in files:
                 continue
 
             # remove comment
-            line = strip_comment(line)
+            if '//' in line:
+                line = strip_comment(line)
 
             line = line.strip()
             if line == '':
@@ -108,14 +109,14 @@ for filename in files:
                 last = lines[-1]
 
                 # join strings distributed over several lines
-                if re.match(r'^"', line) and re.search(r'"$', last):
+                if line[0] == '"' and last[-1] == '"':
                     lines[-1] = last[0:-1] + line[1:]
                     continue
 
                 # join function calls split over multiple lines (because we want to filter out some function calls)
-                if re.search(r',$', last) or re.search(r':$', last) or re.search(r'\?$', last) or \
-                     re.match(r'^:', line) or re.match(r'^\?', line):
-                    lines[-1] += line
+                if last[-1] == ',' or last[-1] == ':' or last[-1] == '?' or \
+                     line[0] == ',' or line[0] == ':' or line[0] == '?':
+                    lines[-1] = last + line
                     continue
 
             lines.append(line)
@@ -124,23 +125,23 @@ for filename in files:
         skip = False
         for line in lines:
 
-            # skip parts that are only included in DEBUG build
-            if not skip:
+            if skip:
+                if re.match(r'#\s*endif', line) or re.match(r'#\s*else', line):
+                    skip = False
+                continue
+            elif line[0] == '#':
+                # skip parts that are only included in DEBUG build
                 if re.match(r'#\s*ifdef .*DEBUG', line) or \
                    re.match(r'#\s*ifdef .*VERBOSE', line) or \
                    re.match(r'#\s*if +defined *\(DEBUG', line):
                     skip = True
                     continue
-            else:
-                if re.match(r'#\s*endif', line) or re.match(r'#\s*else', line):
-                    skip = False
-                continue
 
             if '"' not in line:
                 continue
 
             # ignore precompiler directives, except #define
-            if line.startswith('#') and not re.match(r'^#\s*define', line):
+            if line[0] == '#' and not re.match(r'^#\s*define', line):
                 continue
 
             if re.search('extern +"C"', line):
@@ -183,7 +184,7 @@ for filename in files:
                 continue
             if re.search(r'strip_tag_prefix *\(', line):
                 continue
-            if re.search(r'json_write', line):
+            if 'json_write' in line:
                 continue
             if re.search(r'\bgetRandNameString *\(', line):
                 continue
@@ -193,7 +194,7 @@ for filename in files:
                 continue;
             if re.search(r'\bprops\.erase *\(', line):
                 continue
-            if re.search(r'_print_converted_orc_speech *\(', line):
+            if '_print_converted_orc_speech' in line:
                 continue
             if re.search('^[^"]*property[A-Za-z_]* *\(', line):
                 continue
