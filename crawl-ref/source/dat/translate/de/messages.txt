@@ -272,9 +272,6 @@ Sacrifices cannot be taken back.
 "After this sacrifice, you will find that "
 
 %%%%
-.
-
-%%%%
 Draw a card from %s
 
 %%%%
@@ -1409,6 +1406,24 @@ Your spectral weapon disappears as you unwield.
 Brand
 
 %%%%
++Blink
+
+%%%%
+*Noise
+
+%%%%
+-Cast
+
+%%%%
+*Tele
+
+%%%%
+-Tele
+
+%%%%
+*Rage
+
+%%%%
 Hungry
 
 %%%%
@@ -1416,6 +1431,21 @@ Hungry
 
 %%%%
 Acc
+
+%%%%
+*Curse
+
+%%%%
+Clar
+
+%%%%
+BAcc
+
+%%%%
+BDam
+
+%%%%
+RMsl
 
 %%%%
 +Fog
@@ -1431,6 +1461,21 @@ nupgr
 
 %%%%
 *Corrode
+
+%%%%
+*Drain
+
+%%%%
+*Slow
+
+%%%%
+Fragile
+
+%%%%
+SH
+
+%%%%
+Rampage
 
 %%%%
 body armour
@@ -1485,9 +1530,6 @@ Ihr erschöpft die Vitalität {gen}%s!
 %%%%
 %s drains %s vigour!
 %s erschöpft die Vitalität {gen}%s!
-%%%%
-!!
-
 %%%%
 You pounce on %s from a blind spot!
 Ihr stürzt Euch von einem blinden Fleck auf {acc}%s!
@@ -1611,9 +1653,6 @@ You hear a mighty clap of thunder!
 
 %%%%
 Animating this weapon would place you under penance. Really cast this spell?
-
-%%%%
-unknown
 
 %%%%
 %s appears from out of thin air!
@@ -2601,6 +2640,111 @@ SHIFT
 # cloud.cc
 ##################
 %%%%
+blazing flames
+
+%%%%
+freezing vapour
+
+%%%%
+freezing vapours
+
+%%%%
+black smoke
+
+%%%%
+grey smoke
+
+%%%%
+blue smoke
+
+%%%%
+purple smoke
+
+%%%%
+translocational energy
+
+%%%%
+spreading flames
+
+%%%%
+a forest fire
+
+%%%%
+a cloud of scalding steam
+
+%%%%
+gloom
+
+%%%%
+thick gloom
+
+%%%%
+ink
+
+%%%%
+blessed fire
+
+%%%%
+foul pestilence
+
+%%%%
+dark miasma
+
+%%%%
+thin mist
+
+%%%%
+seething chaos
+
+%%%%
+rain
+
+%%%%
+the rain
+
+%%%%
+mutagenic fog
+
+%%%%
+magical condensation
+
+%%%%
+raging winds
+
+%%%%
+sparse dust
+
+%%%%
+spectral mist
+
+%%%%
+acidic fog
+
+%%%%
+thunder
+
+%%%%
+a thunderstorm
+
+%%%%
+white fluffiness
+
+%%%%
+salt
+
+%%%%
+golden dust
+
+%%%%
+smoldering embers
+
+%%%%
+embers
+
+%%%%
+wisps of flame
+
+%%%%
 The forest fire spreads!
 Der Waldbrand breitet sich aus!
 %%%%
@@ -2640,9 +2784,6 @@ Ihr seid vom Blitz getroffen!
 Lightning from the thunderstorm strikes something you cannot see.
 Ein Blitz vom Gewitter trifft etwas, was Ihr nicht sehen könnt.
 %%%%
-buggy goodness
-
-%%%%
 %s %s in %s.
 %s %s in %s.
 %%%%
@@ -2658,12 +2799,6 @@ are
 %s %s standing in %s.
 %s%s steht in %s.
 %%%%
-a thunderstorm
-
-%%%%
-the rain
-
-%%%%
 The air becomes perfectly still.
 Die Luft wird vollkommen still.
 %%%%
@@ -2675,6 +2810,12 @@ Die Luft nimmt ihre normalen Bewegungen wieder auf.
 # clua.cc
 ##################
 %%%%
+667: Malformed response to guarded pcall.
+
+%%%%
+666: Killing badly-behaved Lua script.
+
+%%%%
 __cru%u
 
 %%%%
@@ -2685,9 +2826,6 @@ Couldn't open %s for writing!
 %s konnte nicht zum Schreiben geöffnet werden!
 %%%%
 Expected filehandle at arg 1
-
-%%%%
-..
 
 %%%%
 dlua
@@ -3029,6 +3167,9 @@ Barding
 
 %%%%
 "Boots  "
+
+%%%%
+unknown
 
 %%%%
 " : "
@@ -5413,6 +5554,15 @@ None.\n
 \n%s
 
 %%%%
+[<w>!</w>/<w>^</w>
+
+%%%%
+|<w>Right-click</w>
+
+%%%%
+"]: "
+
+%%%%
 <w>Overview</w>|Powers|Wrath
 
 %%%%
@@ -5573,6 +5723,9 @@ spellset
 # describe.cc
 ##################
 %%%%
+[<w>!</w>
+
+%%%%
 <w>Description</w>|Quote
 
 %%%%
@@ -5583,9 +5736,6 @@ describe-generic
 
 %%%%
 Wiz
-
-%%%%
-*Tele
 
 %%%%
 +cTele
@@ -6756,9 +6906,6 @@ a shop
 
 %%%%
 " (summoned)"
-
-%%%%
-?
 
 %%%%
 \n(Pray here with '%s' to learn more.)\n
@@ -8811,9 +8958,6 @@ Your attacks are enfeebled.
 
 %%%%
 Your attacks no longer feel as feeble.
-
-%%%%
--Tele
 
 %%%%
 cannot translocate
@@ -11457,6 +11601,18 @@ OpenGL-Fehler %s
 ##################
 # god-abil.h
 ##################
+%%%%
+given beogh range weapon
+
+%%%%
+given beogh melee weapon
+
+%%%%
+given beogh armour
+
+%%%%
+given beogh shield
+
 %%%%
 gozag_potions%d
 
@@ -15115,6 +15271,9 @@ Fehler, keine Nachricht für '%s'.
 # hiscores.cc
 ##################
 %%%%
+0.1
+
+%%%%
 scores
 
 %%%%
@@ -15562,9 +15721,6 @@ Annihilated
 " thrown by "
 
 %%%%
-???
-
-%%%%
 W
 
 %%%%
@@ -15625,9 +15781,6 @@ an Initiate
 " (penitent)."
 
 %%%%
-...
-
-%%%%
 "slain by "
 
 %%%%
@@ -15668,6 +15821,9 @@ Engulfed by %s%s %s
 
 %%%%
 " cloud of"
+
+%%%%
+"%s by "
 
 %%%%
 Killed by their own %s
@@ -16531,9 +16687,6 @@ grunt
 
 %%%%
 sgrunt
-
-%%%%
-!!!
 
 %%%%
 butt
@@ -18775,6 +18928,9 @@ distance
 # l-dgnit.cc
 ##################
 %%%%
+crawldgn.item_list
+
+%%%%
 Expected item list object or string
 
 %%%%
@@ -18799,6 +18955,9 @@ Expected level_id
 ##################
 # l-dgnmon.cc
 ##################
+%%%%
+crawldgn.monster_list
+
 %%%%
 Expected monster list object or string
 
@@ -19382,6 +19541,12 @@ kbs
 
 %%%%
 \010
+
+%%%%
+\033[?1051l\033[?1052l\033[?1060l\033[?1061h
+
+%%%%
+\033[?1051l\033[?1052l\033[?1060l\033[?1061l
 
 %%%%
 {"msg":"delay","t":%d}
@@ -20455,6 +20620,17 @@ Levelkarte löschen.
 %%%%
 
 ##################
+# mapdef.h
+##################
+%%%%
+randbook_disc1
+
+%%%%
+randbook_disc2
+
+%%%%
+
+##################
 # mapdef.cc
 ##################
 %%%%
@@ -21006,6 +21182,9 @@ Error: %s
 Fehler:%s
 %%%%
 Lua validation for map %s failed.
+
+%%%%
+entry
 
 %%%%
 Data file cache
@@ -21646,12 +21825,6 @@ Ihr seid in flüssigen Flammen bedeckt
 %s is covered in liquid flames
 %s ist in flüssigen Flammen bedeckt
 %%%%
-" mutagenic touch"
-
-%%%%
-mutagenic touch
-
-%%%%
 You are engulfed in flames
 Ihr seid in Flammen versunken
 %%%%
@@ -22045,6 +22218,17 @@ The Council
 
 %%%%
 "Sifu "
+
+%%%%
+
+##################
+# mgen-data.h
+##################
+%%%%
+tukima-weapon
+
+%%%%
+tukima-power
 
 %%%%
 
@@ -22572,9 +22756,6 @@ blast of chilling breath
 stream of webbing
 
 %%%%
-spectral mist
-
-%%%%
 shadow bolt
 
 %%%%
@@ -22860,9 +23041,6 @@ the entropic weave
 " cast"
 
 %%%%
-"non-humanoid "
-
-%%%%
 " targeted"
 
 %%%%
@@ -22948,6 +23126,17 @@ You hear a haunting song.
 
 %%%%
 You hear an eerie melody.
+
+%%%%
+
+##################
+# mon-clone.h
+##################
+%%%%
+mcloneorig
+
+%%%%
+mclonedupe
 
 %%%%
 
@@ -24392,6 +24581,9 @@ pounce on
 hit, bite, peck, or gore
 
 %%%%
+hit or gore
+
+%%%%
 " at"
 
 %%%%
@@ -24723,6 +24915,10 @@ a flying bit
 ##################
 # monster.h
 ##################
+%%%%
+tide-call-turn
+
+%%%%
 
 ##################
 # monster.cc
@@ -27865,12 +28061,6 @@ You are rather mundane.\n
 Mutations|<w>Blood properties</w>
 
 %%%%
-[<w>!</w>/<w>^</w>
-
-%%%%
-|<w>Right-click</w>
-
-%%%%
 "<green>Alive</green>      "
 
 %%%%
@@ -28523,9 +28713,6 @@ Ring
 
 %%%%
 *\n
-
-%%%%
-Rampage
 
 %%%%
 [+
@@ -29341,6 +29528,10 @@ Ihr habt Eure %s verloren.
 ##################
 # player.h
 ##################
+%%%%
+ozocubu's_armour_pow
+
+%%%%
 
 ##################
 # player.cc
@@ -29527,6 +29718,12 @@ heal quickly.
 
 %%%%
 Your %s speed is %s%s%s
+
+%%%%
+swimming
+
+%%%%
+wading
 
 %%%%
 movement
@@ -30128,9 +30325,6 @@ Ihr fühlt Euch für einen Moment holzig.
 You feel extremely strange.
 Ihr fühlt Euch extrem seltsam.
 %%%%
-potion of mutation
-
-%%%%
 Really drink that potion of mutation
 
 %%%%
@@ -30200,9 +30394,6 @@ Nur [J]a%s, [N]ein oder [B]eenden in Großbuchstaben, bitte.
 %%%%
 [Y]es%s, [N]o or [Q]uit only, please.
 Nur [J]a%s, [N]ein oder [B]eenden, bitte.
-%%%%
-null
-
 %%%%
 
 ##################
@@ -30421,6 +30612,14 @@ shielding
 
 %%%%
 $s pierces through %s
+
+%%%%
+
+##################
+# religion-enum.h
+##################
+%%%%
+acquired
 
 %%%%
 
@@ -31118,6 +31317,15 @@ Bug
 FAKE GOD MONSTER
 
 %%%%
+You feel%sguilty.
+
+%%%%
+" a little "
+
+%%%%
+" very "
+
+%%%%
 " extremely "
 
 %%%%
@@ -31467,6 +31675,9 @@ price
 
 %%%%
 "[<w>Esc</w>/<w>R-Click</w>] exit  "
+
+%%%%
+"[<w>Esc</w>] exit          "
 
 %%%%
 %s  [%s] %s\n[<w>/</w>] sort (%s)%s  %s  [%s] put item on shopping list
@@ -32639,6 +32850,9 @@ Weight
 # sound.h
 ##################
 %%%%
+PICKUP
+
+%%%%
 Sound support (Windows Multimedia API)
 
 %%%%
@@ -32700,6 +32914,9 @@ plain brown
 ##################
 # spl-book.cc
 ##################
+%%%%
+theme
+
 %%%%
 Your library has no spells.
 Eure Bibliothek hat keine Zauber.
@@ -34433,9 +34650,6 @@ walking
 hopping
 
 %%%%
-swimming
-
-%%%%
 crawling
 
 %%%%
@@ -34818,6 +35032,9 @@ The Orb disrupts the stability of your passage!
 The air shimmers briefly around you.
 Die Luft schimmert kurz um Euch herum.
 %%%%
+by gravitational forces
+
+%%%%
 %s violently %s moving!
 %s bewegt sich heftig%s!
 %%%%
@@ -35025,6 +35242,14 @@ you cannot sustain more bogs right now.
 
 %%%%
 you cannot coerce anything to answer your summons.
+
+%%%%
+
+##################
+# spl-wpnench.h
+##################
+%%%%
+orig brand
 
 %%%%
 
@@ -35785,9 +36010,6 @@ Water
 Lava
 
 %%%%
-RMsl
-
-%%%%
 You repel missiles.
 
 %%%%
@@ -35905,16 +36127,7 @@ dragon scales
 +Lev
 
 %%%%
-given beogh shield
-
-%%%%
-given beogh armour
-
-%%%%
 given beogh weapon
-
-%%%%
-given beogh range weapon
 
 %%%%
 elsewhere companion has duplicate mid %d: %s
@@ -36236,9 +36449,6 @@ TILEP_SHOW_EQUIP must be distinct from all player tile enums
 ##################
 # tiledoll.cc
 ##################
-%%%%
-DEFAULT
-
 %%%%
 MODE=DEFAULT
 
@@ -37402,6 +37612,9 @@ explosion
 # viewgeom.cc
 ##################
 %%%%
+-Wstrict-overflow
+
+%%%%
 Terminal too small (%d,%d); need at least (%d,%d)
 
 %%%%
@@ -37593,9 +37806,6 @@ Explore hat%d Runden gebraucht.
 %%%%
 Level stack:
 Level Stack:
-%%%%
-%-10s (%d,%d)
-
 %%%%
 Known levels:
 Bekannte Level:
@@ -37917,9 +38127,6 @@ Die Akquisition ist fehlgeschlagen und hat vorzeitig aufgehört.
 No items generated.
 Keine Elemente generiert.
 %%%%
-buggy items
-
-%%%%
 \nSkills:\n
 
 %%%%
@@ -38041,15 +38248,6 @@ land
 %%%%
 Which monster?
 Welches Monster?
-%%%%
-unknown alignment
-
-%%%%
-unassigned monster
-
-%%%%
-" summoner=%s(%d)"
-
 %%%%
 buggy spell
 
