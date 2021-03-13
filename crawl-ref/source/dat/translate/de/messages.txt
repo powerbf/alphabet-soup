@@ -2922,7 +2922,7 @@ waves
 
 %%%%
 tree
-
+Baum
 %%%%
 tornado
 
@@ -10132,64 +10132,64 @@ Ihr habt keine Angst mehr.
 ##################
 %%%%
 unseen
-
+ungesehen
 %%%%
 explore horizon
-
+Horizont erkunden
 %%%%
 travel trail
-
+Reiseroute
 %%%%
 closed door
-
+geschlossene Tür
 %%%%
 runed door
-
+runenbesetzte Tür
 %%%%
 sealed door
-
+versiegelte Tür
 %%%%
 sealed translucent door
-
+versiegelte transluzente Tür
 %%%%
 closed translucent door
-
+geschlossene transluzente Tür
 %%%%
 runed translucent door
-
+runenbesetzte transluzente Tür
 %%%%
 metal wall
-
+Metallwand
 %%%%
 crystal wall
-
+Kristallwand
 %%%%
 rock wall
-
+Felswand
 %%%%
 slime covered rock wall
-
+Schleim-bedeckte Felswand
 %%%%
 stone wall
-
+Steinwand
 %%%%
 unnaturally hard rock wall
-
+unnatürlich harte Felswand
 %%%%
 translucent rock wall
-
+transluzente Felswand
 %%%%
 translucent stone wall
-
+transluzente Steinwand
 %%%%
 translucent unnaturally hard rock wall
-
+transluzente unnatürlich harte Felswand
 %%%%
 iron grate
 
 %%%%
 the open sea
-
+die offene See
 %%%%
 the endless lava
 

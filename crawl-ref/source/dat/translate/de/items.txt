@@ -250,6 +250,7 @@ der %sKampfstab
 the %slajatang
 der %sLajatang
 %%%%
+
 # without determiner (used in start menu and HUD)
 # Note: The %s is a placeholder for any adjectives
 %%%%
@@ -260,13 +261,13 @@ der %sLajatang
 %sPeitsche
 %%%%
 %smace
-%sStreitkolben
+{adj-er}%sStreitkolben
 %%%%
 %sflail
-%sFlegel
+{adj-er}%sFlegel
 %%%%
 %smorningstar
-%sMorgenstern
+{adj-er}%sMorgenstern
 %%%%
 %sdemon whip
 %sDämonenpeitsche
@@ -275,13 +276,13 @@ der %sLajatang
 %sgeistliche Geißel
 %%%%
 %sdire flail
-%sSchreckensflegel
+{adj-er}%sSchreckensflegel
 %%%%
 %seveningstar
-%sAbendstern
+{adj-er}%sAbendstern
 %%%%
 %sgreat mace
-%sgroßer Streitkolben
+{adj-er}%sgroßer Streitkolben
 %%%%
 %sgiant club
 %sRiesenkeule
@@ -290,25 +291,25 @@ der %sLajatang
 %sriesige Stachelkeule
 %%%%
 %sdagger
-%sDolch
+{adj-er}%sDolch
 %%%%
 %squick blade
 %sSchnellklinge
 %%%%
 %sshort sword
-%sKurzschwert
+{adj-es}%sKurzschwert
 %%%%
 %srapier
-%sRapier
+{adj-es}%sRapier
 %%%%
 %sfalchion
-%sFalchion
+{adj-es}%sFalchion
 %%%%
 %slong sword
-%sLangschwert
+{adj-es}%sLangschwert
 %%%%
 %sscimitar
-%sKrummsäbel
+{adj-er}%sKrummsäbel
 %%%%
 %sdemon blade
 %sDämonenklinge
@@ -317,16 +318,16 @@ der %sLajatang
 %sEudämonenklinge
 %%%%
 %sdouble sword
-%sDoppelschwert
+{adj-es}%sDoppelschwert
 %%%%
 %sgreat sword
-%sGroßschwert
+{adj-es}%sGroßschwert
 %%%%
 %striple sword
-%sDreifach-Schwert
+{adj-es}%sDreifach-Schwert
 %%%%
 %shand axe
-%sHandbeil
+{adj-er}%sHandbeil
 %%%%
 %swar axe
 %sKriegsaxt
@@ -341,10 +342,10 @@ der %sLajatang
 %sHenkersaxt
 %%%%
 %sspear
-%sSpeer
+{adj-er}%sSpeer
 %%%%
 %strident
-%sDreizack
+{adj-er}%sDreizack
 %%%%
 %shalberd
 %sHellebarde
@@ -353,10 +354,10 @@ der %sLajatang
 %sSense
 %%%%
 %sdemon trident
-%sDämonendreizack
+{adj-er}%sDämonendreizack
 %%%%
 %strishula
-%sTrishula
+{adj-er}%sTrishula
 %%%%
 %sglaive
 %sGleve
@@ -365,32 +366,12 @@ der %sLajatang
 %sBardiche
 %%%%
 %squarterstaff
-%sKampfstab
+{adj-er}%sKampfstab
 %%%%
 %slajatang
-%sLajatang
+{adj-er}%sLajatang
 %%%%
-%shunting sling
-%sSchleuder
-%%%%
-%sfustibalus
-%sFustibalus
-%%%%
-%shand crossbow
-%sHandarmbrust
-%%%%
-%sarbalest
-%sArmbrust
-%%%%
-%striple crossbow
-%sDreifach-armbrust
-%%%%
-%sshortbow
-%sKurzbogen
-%%%%
-%slongbow
-%sLangbogen
-%%%%
+
 # with indefinite article
 # Note that %s is a placeholder for any adjectives
 %%%%
@@ -545,6 +526,7 @@ der %sKurzbogen
 the %slongbow
 der %sLangbogen
 %%%%
+
 # indefinite article
 # Note that %s is a placeholder for any adjectives
 %%%%
@@ -570,9 +552,35 @@ a %slongbow
 ein {adj-er}%sLangbogen
 %%%%
 
+# no article
+# Note that %s is a placeholder for any adjectives
+%%%%
+%shunting sling
+%sSchleuder
+%%%%
+%sfustibalus
+{adj-er}%sFustibalus
+%%%%
+%shand crossbow
+%sHandarmbrust
+%%%%
+%sarbalest
+%sArmbrust
+%%%%
+%striple crossbow
+%sDreifach-Armbrust
+%%%%
+%sshortbow
+{adj-er}%sKurzbogen
+%%%%
+%slongbow
+{adj-er}%sLangbogen
+%%%%
+
 #################################
 # Missiles
 #################################
+# without article
 %%%%
 arrow
 Pfeil
@@ -601,6 +609,9 @@ Wurfnetz
 boomerang
 Bumerang
 %%%%
+
+# definite article
+%%%%
 the arrow
 der Pfeil
 %%%%
@@ -627,6 +638,9 @@ das Wurfnetz
 %%%%
 the boomerang
 der Bumerang
+%%%%
+
+# indefinite article/plural
 %%%%
 an arrow
 ein Pfeil
@@ -899,6 +913,7 @@ die %sSchattendrachenschuppen
 the %sgold dragon scales
 die %sGolddrachenschuppen
 %%%%
+
 # indefinite article
 # Note that the %s is a placeholder for any adjectives
 %%%%
@@ -961,6 +976,70 @@ ein {adj-es}%sKiteschild
 %%%%
 a %stower shield
 ein {adj-es}%sTurmschild
+%%%%
+
+# no article
+# Note that the %s is a placeholder for any adjectives
+%%%%
+%sanimal skin
+%sTierhaut
+%%%%
+%srobe
+%sRobe
+%%%%
+%sleather armour
+%sLederrüstung
+%%%%
+%sring mail
+{adj-er}%sRingpanzer
+%%%%
+%sscale mail
+{adj-er}%sSchuppenpanzer
+%%%%
+%schain mail
+{adj-er}%sKettenpanzer
+%%%%
+%splate armour
+{adj-er}%sPlattenpanzer
+%%%%
+%scrystal plate armour
+{adj-er}%sKristallplattenpanzer
+%%%%
+%stroll leather armour
+%sTrolllederrüstung
+%%%%
+%scloak
+{adj-er}%sUmhang
+%%%%
+%sscarf
+{adj-er}%sSchal
+%%%%
+%spair of %sgloves
+{adj-es}%sPaar %sHandschuhe
+%%%%
+%shelmet
+{adj-er}%sHelm
+%%%%
+%shat
+{adj-er}%sHut
+%%%%
+%spair of %sboots
+{adj-es}%sPaar %sStiefel
+%%%%
+%scentaur barding
+{adj-er}%sZentaurenharnisch
+%%%%
+%snaga barding
+{adj-er}%sNagaharnisch
+%%%%
+%sbuckler
+{adj-er}%sBuckler
+%%%%
+%skite shield
+{adj-es}%sKiteschild
+%%%%
+%stower shield
+{adj-es}%sTurmschild
 %%%%
 %ssteam dragon scales
 %sDampfdrachenschuppen
@@ -1259,6 +1338,168 @@ ein {adj-er}%sBronzering
 a %smoonstone ring
 ein {adj-er}%sMondsteinring
 %%%%
+
+# without article
+%%%%
+%sring
+{adj-er}%sRing
+%%%%
+%sring of protection
+{adj-er}%sRing des Schutzes
+%%%%
+%sring of protection from fire
+{adj-er}%sRing der Feuerresistenz
+%%%%
+%sring of poison resistance
+{adj-er}%sRing der Giftresistenz
+%%%%
+%sring of protection from cold
+{adj-er}%sRing dee Kälteresistenz
+%%%%
+%sring of strength
+{adj-er}%sRing der Stärke
+%%%%
+%sring of slaying
+{adj-er}%sRing des Tötens
+%%%%
+%sring of see invisible
+{adj-er}%sRing von Unsichtbares sehen
+%%%%
+%sring of resist corrosion
+{adj-er}%sRing der Korrosionresistenz
+%%%%
+%sring of attention
+{adj-er}%sRing der Aufmerksamkeit
+%%%%
+%sring of teleportation
+{adj-er}%sRing der Teleportation
+%%%%
+%sring of evasion
+{adj-er}%sRing der Umgehung
+%%%%
+%sring of stealth
+{adj-er}%sRing der Heimlichkeit
+%%%%
+%sring of dexterity
+{adj-er}%sRing der Geschicklichkeit
+%%%%
+%sring of intelligence
+{adj-er}%sRing der Intelligenz
+%%%%
+%sring of wizardry
+{adj-er}%sRing der Zauberei
+%%%%
+%sring of magical power
+{adj-er}%sRing magischer Kraft
+%%%%
+%sring of flight
+{adj-er}%sRing des Fliegens
+%%%%
+%sring of positive energy
+{adj-er}%sRing positiver Energie
+%%%%
+%sring of protection from magic
+{adj-er}%sRing der Magieresistenz
+%%%%
+%sring of fire
+{adj-er}%sRing des Feuers
+%%%%
+%sring of ice
+{adj-er}%sRing des Eises
+%%%%
+%sring of obsoleteness
+{adj-er}%sobsoleter Ring
+%%%%
+# unidentified
+%%%%
+%swooden ring
+{adj-er}%sHolzring
+%%%%
+%ssilver ring
+{adj-er}%sSilberring
+%%%%
+%sgolden ring
+{adj-er}%sGoldring
+%%%%
+%siron ring
+{adj-er}%sEisenring
+%%%%
+%ssteel ring
+{adj-er}%sStahlring
+%%%%
+%stourmaline ring
+{adj-er}%sTurmalinring
+%%%%
+%sbrass ring
+{adj-er}%sMessingring
+%%%%
+%scopper ring
+{adj-er}%sKupferring
+%%%%
+%sgranite ring
+{adj-er}%sGranitring
+%%%%
+%sivory ring
+{adj-er}%sElfenbeinring
+%%%%
+%sruby ring
+{adj-er}%sRubinring
+%%%%
+%smarble ring
+{adj-er}%sMarmorring
+%%%%
+%sjade ring
+{adj-er}%sJadering
+%%%%
+%sglass ring
+{adj-er}%sGlasring
+%%%%
+%sagate ring
+{adj-er}%sAchatring
+%%%%
+%sbone ring
+{adj-er}%sKnochenring
+%%%%
+%sdiamond ring
+{adj-er}%sDiamantring
+%%%%
+%semerald ring
+{adj-er}%sSmaragdring
+%%%%
+%speridot ring
+{adj-er}%sPeridotring
+%%%%
+%sgarnet ring
+{adj-er}%sGranatring
+%%%%
+%sopal ring
+{adj-er}%sOpalring
+%%%%
+%spearl ring
+{adj-er}%sPerlenring
+%%%%
+%scoral ring
+{adj-er}%sKorallenring
+%%%%
+%ssapphire ring
+{adj-er}%sSaphirring
+%%%%
+%scabochon ring
+{adj-er}%sCabochonring
+%%%%
+%sgilded ring
+{adj-er}%svergoldeter Ring
+%%%%
+%sonyx ring
+{adj-er}%sOnyxring
+%%%%
+%sbronze ring
+{adj-er}%sBronzering
+%%%%
+%smoonstone ring
+{adj-er}%sMondsteinring
+%%%%
+
 # adjectives
 %%%%
 "{adj-er}encrusted "
@@ -1412,6 +1653,126 @@ ein {adj-es}%sFiligranamulett
 a %sberyl amulet
 ein {adj-es}%sBeryllamulett
 %%%%
+
+# no articlae
+%%%%
+%samulet
+{adj-es}%sAmulett
+%%%%
+%samulet of magic regeneration
+{adj-es}%sAmulett der magischen Regeneration
+%%%%
+%samulet of the acrobat
+{adj-es}%sAmulett des Akrobaten
+%%%%
+%samulet of inaccuracy
+{adj-es}%sAmulett der Ungenauigkeit
+%%%%
+%samulet of nothing
+{adj-es}%sAmulett von nichts
+%%%%
+%samulet of guardian spirit
+{adj-es}%sAmulett des Geistschildes
+%%%%
+%samulet of faith
+{adj-es}%sAmulett des Glaubens
+%%%%
+%samulet of reflection
+{adj-es}%sAmulett der Reflexion
+%%%%
+%samulet of regeneration
+{adj-es}%sAmulett der Regeneration
+%%%%
+# unidentified
+%%%%
+%ssapphire amulet
+{adj-es}%sSaphiramulett
+%%%%
+%szirconium amulet
+{adj-es}%sZirkoniumamulett
+%%%%
+%sgolden amulet
+{adj-es}%sGoldamulett
+%%%%
+%semerald amulet
+{adj-es}%sSmaragdamulett
+%%%%
+%sgarnet amulet
+{adj-es}%sGranatamulett
+%%%%
+%sbronze amulet
+{adj-es}%sBronzeamulett
+%%%%
+%sbrass amulet
+{adj-es}%sMessingamulett
+%%%%
+%scopper amulet
+{adj-es}%sKupferamulett
+%%%%
+%sruby amulet
+{adj-es}%sRubinamulett
+%%%%
+%scitrine amulet
+{adj-es}%sCitrinamulett
+%%%%
+%sbone amulet
+{adj-es}%sKnochenamulett
+%%%%
+%splatinum amulet
+{adj-es}%sPlatinamulett
+%%%%
+%sjade amulet
+{adj-es}%sJade-Amulett
+%%%%
+%sfluorescent amulet
+{adj-es}%sfluoreszierendes Amulett
+%%%%
+%samethyst amulet
+{adj-es}%sAmethystamulett
+%%%%
+%scameo amulet
+{adj-es}%sCameo-Amulett
+%%%%
+%spearl amulet
+{adj-es}%sPerlenamulett
+%%%%
+%sblue amulet
+{adj-es}%sblaues Amulett
+%%%%
+%speridot amulet
+{adj-es}%sPeridot-Amulett
+%%%%
+%sjasper amulet
+{adj-es}%sJaspisamulett
+%%%%
+%sdiamond amulet
+{adj-es}%sDiamantamulett
+%%%%
+%smalachite amulet
+{adj-es}%sMalachitamulett
+%%%%
+%ssteel amulet
+{adj-es}%sStahlamulett
+%%%%
+%scabochon amulet
+{adj-es}%sCabochon-Amulett
+%%%%
+%ssilver amulet
+{adj-es}%sSilberamulett
+%%%%
+%ssoapstone amulet
+{adj-es}%sSpecksteinamulett
+%%%%
+%slapis lazuli amulet
+{adj-es}%sLapislazuli-Amulett
+%%%%
+%sfiligree amulet
+{adj-es}%sFiligranamulett
+%%%%
+%sberyl amulet
+{adj-es}%sBeryllamulett
+%%%%
+
 # adjectives
 %%%%
 "{adj-es}dented "
@@ -1546,6 +1907,81 @@ ein {adj-er}%sZauberstab aus Blei
 a %sfluorescent wand
 ein {adj-er}%sfluoreszierender Zauberstab
 %%%%
+
+# no article
+%%%%
+wand of flame
+Zauberstab des Flammens
+%%%%
+wand of paralysis
+Zauberstab der Paralyse
+%%%%
+wand of digging
+Zauberstab des Grabens
+%%%%
+wand of iceblast
+Zauberstab des Eisstrahls
+%%%%
+wand of polymorph
+Zauberstab der Verwandlung
+%%%%
+wand of enslavement
+Zauberstab der Versklavung
+%%%%
+wand of acid
+Zauberstab der Säure
+%%%%
+wand of random effects
+Zauberstab der zufälligen Effekten
+%%%%
+wand of disintegration
+Zauberstab der Auflösung
+%%%%
+wand of clouds
+Zauberstab der Wolken
+%%%%
+wand of removedness
+beseitigter Zauberstab
+%%%%
+# unidentified
+%%%%
+%siron wand
+{adj-er}%sEisenzauberstab
+%%%%
+%sbrass wand
+{adj-er}%sMessingzauberstab
+%%%%
+%sbone wand
+{adj-er}%sZauberstab aus Knochen
+%%%%
+%swooden wand
+{adj-er}%sHolzzauberstab
+%%%%
+%scopper wand
+{adj-er}%sKupferzauberstab
+%%%%
+%sgold wand
+{adj-er}%sGoldzauberstab
+%%%%
+%ssilver wand
+{adj-er}%sSilberzauberstab
+%%%%
+%sbronze wand
+{adj-er}%sZauberstab aus Bronze
+%%%%
+%sivory wand
+{adj-er}%sElfenbeinzauberstab
+%%%%
+%sglass wand
+{adj-er}%sgläserner Zauberstab
+%%%%
+%slead wand
+{adj-er}%sZauberstab aus Blei
+%%%%
+%sfluorescent wand
+{adj-er}%sfluoreszierender Zauberstab
+%%%%
+
 # adjectives
 %%%%
 "{adj-er}jewelled "
@@ -1591,108 +2027,125 @@ ein {adj-er}%sfluoreszierender Zauberstab
 #################################
 # Scrolls
 #################################
+
+# no article (for mouse hover)
+%%%%
+scroll labeled %s
+Schriftrolle beschriftet mit %s
+%%%%
+scroll of acquirement
+Schriftrolle des Erwerbs
+%%%%
+scroll of amnesia
+Schriftrolle der Amnesie
+%%%%
+scroll of blinking
+Schriftrolle des Flimmerns
+%%%%
+scroll of brand weapon
+Schriftrolle der Waffenmark
+%%%%
+scroll of enchant armour
+Schriftrolle der Rüstungsverzauberung
+%%%%
+scroll of enchant weapon
+Schriftrolle der Waffenverzauberung
+%%%%
+scroll of fear
+Schriftrolle der Angst
+%%%%
+scroll of fog
+Schriftrolle des Nebels
+%%%%
+scroll of holy word
+Schriftrolle des heiligen Wortes
+%%%%
+scroll of identify
+Schriftrolle der Identifizierung
+%%%%
+scroll of immolation
+Schriftrolle der Verbrennug
+%%%%
+scroll of magic mapping
+Schriftrolle des magischen Kartierens
+%%%%
+scroll of noise
+Schriftrolle des Lärms
+%%%%
+scroll of random uselessness
+Schriftrolle der zufälligen Nutzlosigkeit
+%%%%
+scroll of remove curse
+Schriftrolle des Segnens
+%%%%
+scroll of silence
+Schriftrolle der Stille
+%%%%
+scroll of summoning
+Schriftrolle des Herbeirufs
+%%%%
+scroll of teleportation
+Schriftrolle der Teleportation
+%%%%
+scroll of torment
+Schriftrolle der Qual
+%%%%
+scroll of vulnerability
+Schriftrolle der Vulnerabilität
+%%%%
+
+# indefinite article
 %%%%
 a scroll labeled %s
 eine Schriftrolle beschriftet mit %s
 %%%%
-%d scrolls labeled %s
-%d Schriftrollen beschriftet mit %s
-%%%%
 a scroll of acquirement
 eine Schriftrolle des Erwerbs
-%%%%
-%d scrolls of acquirement
-%d Schriftrollen des Erwerbs
 %%%%
 a scroll of amnesia
 eine Schriftrolle der Amnesie
 %%%%
-%d scrolls of amnesia
-%d Schriftrollen der Amnesie
-%%%%
 a scroll of blinking
 eine Schriftrolle des Flimmerns
-%%%%
-%d scrolls of blinking
-%d Schriftrollen des Flimmerns
 %%%%
 a scroll of brand weapon
 eine Schriftrolle der Waffenmark
 %%%%
-%d scrolls of brand weapon
-%d Schriftrollen der Waffenmark
-%%%%
 a scroll of enchant armour
 eine Schriftrolle der Rüstungsverzauberung
-%%%%
-%d scrolls of enchant armour
-%d Schriftrollen der Rüstungsverzauberung
 %%%%
 a scroll of enchant weapon
 eine Schriftrolle der Waffenverzauberung
 %%%%
-%d scrolls of enchant weapon
-%d Schriftrollen der Waffenverzauberung
-%%%%
 a scroll of fear
 eine Schriftrolle der Angst
-%%%%
-%d scrolls of fear
-%d Schriftrollen der Angst
 %%%%
 a scroll of fog
 eine Schriftrolle des Nebels
 %%%%
-%d scrolls of fog
-%d Schriftrollen des Nebels
-%%%%
 a scroll of holy word
 eine Schriftrolle des heiligen Wortes
-%%%%
-%d scrolls of holy word
-%d Schriftrollen des heiligen Wortes
 %%%%
 a scroll of identify
 eine Schriftrolle der Identifizierung
 %%%%
-%d scrolls of identify
-%d Schriftrollen der Identifizierung
-%%%%
 a scroll of immolation
 eine Schriftrolle der Verbrennug
-%%%%
-%d scrolls of immolation
-%d Schriftrollen der Verbrennung
 %%%%
 a scroll of magic mapping
 eine Schriftrolle des magischen Kartierens
 %%%%
-%d scrolls of magic mapping
-%d Schriftrollen des magischen Kartierens
-%%%%
 a scroll of noise
 eine Schriftrolle des Lärms
-%%%%
-%d scrolls of noise
-%d Schriftrollen des Lärms
 %%%%
 a scroll of random uselessness
 eine Schriftrolle der zufälligen Nutzlosigkeit
 %%%%
-%d scrolls of random uselessness
-%d Schriftrollen der zufälligen Nutzlosigkeit
-%%%%
 a scroll of remove curse
 eine Schriftrolle des Segnens
 %%%%
-%d scrolls of remove curse
-%d Schriftrollen des Segnens
-%%%%
 a scroll of silence
 eine Schriftrolle der Stille
-%%%%
-%d scrolls of silence
-%d Schriftrollen der Stille
 %%%%
 # Note: In DCSS, there is a distinction between summoning and conjuration
 # The usual German word for summoning is Beschwörung, but that also means conjuration
@@ -1700,23 +2153,77 @@ eine Schriftrolle der Stille
 a scroll of summoning
 eine Schriftrolle des Herbeirufs
 %%%%
-%d scrolls of summoning
-%d Schriftrollen des Herbeirufs
-%%%%
 a scroll of teleportation
 eine Schriftrolle der Teleportation
-%%%%
-%d scrolls of teleportation
-%d Schriftrollen der Teleportation
 %%%%
 a scroll of torment
 eine Schriftrolle der Qual
 %%%%
-%d scrolls of torment
-%d Schriftrollen der Qual
-%%%%
 a scroll of vulnerability
 eine Schriftrolle der Vulnerabilität
+%%%%
+
+# plural
+%%%%
+%d scrolls labeled %s
+%d Schriftrollen beschriftet mit %s
+%%%%
+%d scrolls of acquirement
+%d Schriftrollen des Erwerbs
+%%%%
+%d scrolls of amnesia
+%d Schriftrollen der Amnesie
+%%%%
+%d scrolls of blinking
+%d Schriftrollen des Flimmerns
+%%%%
+%d scrolls of brand weapon
+%d Schriftrollen der Waffenmark
+%%%%
+%d scrolls of enchant armour
+%d Schriftrollen der Rüstungsverzauberung
+%%%%
+%d scrolls of enchant weapon
+%d Schriftrollen der Waffenverzauberung
+%%%%
+%d scrolls of fear
+%d Schriftrollen der Angst
+%%%%
+%d scrolls of fog
+%d Schriftrollen des Nebels
+%%%%
+%d scrolls of holy word
+%d Schriftrollen des heiligen Wortes
+%%%%
+%d scrolls of identify
+%d Schriftrollen der Identifizierung
+%%%%
+%d scrolls of immolation
+%d Schriftrollen der Verbrennung
+%%%%
+%d scrolls of magic mapping
+%d Schriftrollen des magischen Kartierens
+%%%%
+%d scrolls of noise
+%d Schriftrollen des Lärms
+%%%%
+%d scrolls of random uselessness
+%d Schriftrollen der zufälligen Nutzlosigkeit
+%%%%
+%d scrolls of remove curse
+%d Schriftrollen des Segnens
+%%%%
+%d scrolls of silence
+%d Schriftrollen der Stille
+%%%%
+%d scrolls of summoning
+%d Schriftrollen des Herbeirufs
+%%%%
+%d scrolls of teleportation
+%d Schriftrollen der Teleportation
+%%%%
+%d scrolls of torment
+%d Schriftrollen der Qual
 %%%%
 %d scrolls of vulnerability
 %d Schriftrollen der Vulnerabilität
@@ -1725,111 +2232,173 @@ eine Schriftrolle der Vulnerabilität
 #################################
 # Potions
 #################################
+# no article
+%%%%
+potion of ambrosia
+Trank der Ambrosia
+%%%%
+potion of berserk rage
+Trank der Berserker-Wut
+%%%%
+potion of brilliance
+Trank der Brillanz
+%%%%
+potion of cancellation
+Trank der Aufhebung
+%%%%
+potion of curing
+Trank des Gegenmittels
+%%%%
+potion of degeneration
+Trank der Degeneration
+%%%%
+potion of experience
+Trank der Erfahrung
+%%%%
+potion of flight
+Trank des Fliegens
+%%%%
+potion of haste
+Trank der Geschwindigkeit
+%%%%
+potion of heal wounds
+Heiltrank
+%%%%
+potion of invisibility
+Trank der Unsichtbarkeit
+%%%%
+potion of lignification
+Trank der Verholzung
+%%%%
+potion of magic
+Trank der Magie
+%%%%
+potion of might
+Trank der Macht
+%%%%
+potion of mutation
+Trank der Mutation
+%%%%
+potion of resistance
+Trank des Widerstands
+%%%%
+potion of stabbing
+Trank der Stecherei
+%%%%
+
+#indefinite article
 %%%%
 a potion of ambrosia
 ein Trank der Ambrosia
 %%%%
-%d potions of ambrosia
-%d Tränke der Ambrosia
-%%%%
 a potion of berserk rage
 ein Trank der Berserker-Wut
-%%%%
-%d potions of berserk rage
-%d Tränke der Berserker-Wut
 %%%%
 a potion of brilliance
 ein Trank der Brillanz
 %%%%
-%d potions of brilliance
-%d Tränke der Brillanz
-%%%%
 a potion of cancellation
 ein Trank der Aufhebung
-%%%%
-%d potions of cancellation
-%d Tränke der Aufhebung
 %%%%
 a potion of curing
 ein Trank des Gegenmittels
 %%%%
-%d potions of curing
-%d Tränke des Gegenmittels
-%%%%
 a potion of degeneration
 ein Trank der Degeneration
-%%%%
-%d potions of degeneration
-%d Tränke der Degeneration
 %%%%
 a potion of experience
 ein Trank der Erfahrung
 %%%%
-%d potions of experience
-%d Tränke der Erfahrung
-%%%%
 a potion of flight
 ein Trank des Fliegens
-%%%%
-%d potions of flight
-%d Tränke des Fliegens
 %%%%
 a potion of haste
 ein Trank der Geschwindigkeit
 %%%%
-%d potions of haste
-%d Tränke der Geschwindigkeit
-%%%%
 a potion of heal wounds
 ein Heiltrank
-%%%%
-%d potions of heal wounds
-%d Heiltränke
 %%%%
 a potion of invisibility
 ein Trank der Unsichtbarkeit
 %%%%
-%d potions of invisibility
-%d Tränke der Unsichtbarkeit
-%%%%
 a potion of lignification
 ein Trank der Verholzung
-%%%%
-%d potions of lignification
-%d Tränke der Verholzung
 %%%%
 a potion of magic
 ein Trank der Magie
 %%%%
-%d potions of magic
-%d Tränke der Magie
-%%%%
 a potion of might
 ein Trank der Macht
-%%%%
-%d potions of might
-%d Tränke der Macht
 %%%%
 a potion of mutation
 ein Trank der Mutation
 %%%%
-%d potions of mutation
-%d Tränke der Mutation
-%%%%
 a potion of resistance
 ein Trank des Widerstands
-%%%%
-%d potions of resistance
-%d Tränke des Widerstands
 %%%%
 a potion of stabbing
 ein Trank der Stecherei
 %%%%
+
+# plural
+%%%%
+%d potions of ambrosia
+%d Tränke der Ambrosia
+%%%%
+%d potions of berserk rage
+%d Tränke der Berserker-Wut
+%%%%
+%d potions of brilliance
+%d Tränke der Brillanz
+%%%%
+%d potions of cancellation
+%d Tränke der Aufhebung
+%%%%
+%d potions of curing
+%d Tränke des Gegenmittels
+%%%%
+%d potions of degeneration
+%d Tränke der Degeneration
+%%%%
+%d potions of experience
+%d Tränke der Erfahrung
+%%%%
+%d potions of flight
+%d Tränke des Fliegens
+%%%%
+%d potions of haste
+%d Tränke der Geschwindigkeit
+%%%%
+%d potions of heal wounds
+%d Heiltränke
+%%%%
+%d potions of invisibility
+%d Tränke der Unsichtbarkeit
+%%%%
+%d potions of lignification
+%d Tränke der Verholzung
+%%%%
+%d potions of magic
+%d Tränke der Magie
+%%%%
+%d potions of might
+%d Tränke der Macht
+%%%%
+%d potions of mutation
+%d Tränke der Mutation
+%%%%
+%d potions of resistance
+%d Tränke des Widerstands
+%%%%
 %d potions of stabbing
 %d Tränke der Stecherei
 %%%%
+
 # unidentified potions are named "<colour> <potion>"
 # or "<qualifier> <colour> potion"
+%%%%
+%spotion
+{adj-er}%sZaubertrank
 %%%%
 a %spotion
 ein {adj-er}%sZaubertrank
@@ -2059,6 +2628,44 @@ ein {adj-er}%sZaubertrank
 #################################
 # Magical Staves
 #################################
+
+# no article
+%%%%
+%sstaff of wizardry
+{adj-er}%sStecken der Zauberei
+%%%%
+%sstaff of fire
+{adj-er}%sStecken des Feuers
+%%%%
+%sstaff of cold
+{adj-er}%sStecken der Kälte
+%%%%
+%sstaff of poison
+{adj-er}%sStecken des Giftes
+%%%%
+%sstaff of energy
+{adj-er}%sStecken der Energie
+%%%%
+%sstaff of death
+{adj-er}%sStecken des Todes
+%%%%
+%sstaff of conjuration
+{adj-er}%sStecken der Hervorrufung
+%%%%
+%sstaff of air
+{adj-er}%sStecken der Luft
+%%%%
+%sstaff of earth
+{adj-er}%sStecken der Erde
+%%%%
+%sstaff of summoning
+{adj-er}%sStecken der Herbeirufung
+%%%%
+%sstaff
+{adj-er}%sStecken
+%%%%
+
+# indefinite article
 %%%%
 a %sstaff of wizardry
 ein {adj-er}%sStecken der Zauberei
@@ -2093,6 +2700,7 @@ ein {adj-er}%sStecken der Herbeirufung
 a %sstaff
 ein {adj-er}%sStecken
 %%%%
+
 # adjectives
 # covered elsewhere
 #msgctxt "adj-er"
@@ -2140,9 +2748,137 @@ ein {adj-er}%sStecken
 #msgctxt "adj-er"
 #"jewelled "
 #"juwelenbesetzter "
+
 #################################
 # Spellbooks
 #################################
+
+# no article
+%%%%
+book of Minor Magic
+Buch der kleinen Magie
+%%%%
+book of Conjurations
+Buch der Hervorrufung
+%%%%
+book of Flames
+Buch der Flammen
+%%%%
+book of Frost
+Buch des Frosts
+%%%%
+book of Summonings
+Buch der Herbeirufung
+%%%%
+book of Fire
+Buch des Feuers
+%%%%
+book of Ice
+Buch des Eises
+%%%%
+book of Spatial Translocations
+Buch der räumlichen Translokationen
+%%%%
+book of Hexes
+Buch der Verhexungen
+%%%%
+book of the Tempests
+Buch der Stürme
+%%%%
+book of Death
+Buch des Todes
+%%%%
+book of Misfortune
+Buch des Unglücks
+%%%%
+book of Changes
+Buch der Veränderungen
+%%%%
+book of Transfigurations
+Buch der Verklärungen
+%%%%
+book of Battle
+Buch der Schlacht
+%%%%
+book of Clouds
+Buch der Wolken
+%%%%
+book of Necromancy
+Buch der Nekromantie
+%%%%
+book of Callings
+Buch der Rufe
+%%%%
+book of Maledictions
+Buch der Flüche
+%%%%
+book of Air
+Buch der Luft
+%%%%
+book of the Sky
+Buch des Himmels
+%%%%
+book of the Warp
+Buch des Warps
+%%%%
+book of Annihilations
+Buch der Vernichtung
+%%%%
+book of Unlife
+Buch des Unlebens
+%%%%
+book of Geomancy
+Buch der Geomantie
+%%%%
+book of the Earth
+Buch der Erde
+%%%%
+book of Power
+Buch der Macht
+%%%%
+book of Cantrips
+Buch der Schelmenstreiche
+%%%%
+book of Party Tricks
+Buch mit Partytricks
+%%%%
+book of Debilitation
+Buch der Entkräftung
+%%%%
+book of the Dragon
+Buch des Drachen
+%%%%
+book of Burglary
+Buch des Diebstahls
+%%%%
+book of Dreams
+Buch der Träume
+%%%%
+book of Alchemy
+Buch der Alchemie
+%%%%
+book of Beasts
+Buch der Bestien
+%%%%
+%sbook
+{adj-es}%sBuch
+%%%%
+%spaperback book
+{adj-es}%sTaschenbuch
+%%%%
+%shardcover book
+{adj-es}%sgebundenes Buch
+%%%%
+%sleatherbound book
+{adj-es}%sledergebundenes Buch
+%%%%
+%smetal-bound book
+{adj-es}%smetallgebundenes Buch
+%%%%
+%spapyrus book
+{adj-es}%sPapyrusbuch
+
+# indefinite article
 %%%%
 a book of Minor Magic
 ein Buch der kleinen Magie
@@ -2250,7 +2986,7 @@ a book of Beasts
 ein Buch der Bestien
 %%%%
 a %sbook
-ein %sBuch
+ein {adj-es}%sBuch
 %%%%
 a %spaperback book
 ein {adj-es}%sTaschenbuch
@@ -2266,6 +3002,9 @@ ein {adj-es}%smetallgebundenes Buch
 %%%%
 a %spapyrus book
 ein {adj-es}%sPapyrusbuch
+%%%%
+
+# adjectives
 %%%%
 "{adj-es}chunky "
 "klobiges "
@@ -2317,36 +3056,61 @@ ein ungenießbares Fleischstück
 #################################
 # Miscellaneous Items
 #################################
+
+# no article
+%%%%
+box of beasts
+Kiste der Bestien
+%%%%
+lightning rod
+Blitzstange
+%%%%
+phial of floods
+Phiole der Fluten
+%%%%
+phantom mirror
+Phantomspiegel
+%%%%
+figurine of a ziggurat
+Figur einer Zikkurat
+%%%%
+
+# indefinite article
 %%%%
 a box of beasts
 eine Kiste der Bestien
 %%%%
-%d boxes of beasts
-%d Kisten der Bestien
-%%%%
 a lightning rod
 eine Blitzstange
-%%%%
-%d lightning rods
-%d Blitzstange
 %%%%
 a phial of floods
 eine Phiole der Fluten
 %%%%
-%d phials of floods
-%d Phiolen der Fluten
-%%%%
 a phantom mirror
 ein Phantomspiegel
-%%%%
-%d phantom mirrors
-%d Phantomspiegel
 %%%%
 a figurine of a ziggurat
 eine Figur einer Zikkurat
 %%%%
+
+# plural
+%%%%
+%d boxes of beasts
+%d Kisten der Bestien
+%%%%
+%d lightning rods
+%d Blitzstange
+%%%%
+%d phials of floods
+%d Phiolen der Fluten
+%%%%
+%d phantom mirrors
+%d Phantomspiegel
+%%%%
 %d figurines of a ziggurat
 %d Figuren einer Zikkurat
+%%%%
+
 %%%%
 the horn of Geryon
 das Horn von Geryon
