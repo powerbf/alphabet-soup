@@ -2,6 +2,27 @@ import glob
 import re
 import sys
 
+def strip_comment(line):
+    escaped = False
+    in_string = False
+    for i in range(len(line)):
+        ch = line[i]
+
+        if ch == '\\' and not escaped:
+            escaped = True
+        else:
+            escaped = False
+
+        if ch == '"' and not escaped:
+            in_string = not in_string
+        elif ch == '/' and not in_string:
+            if i > 0 and line[i-1] == '/':
+                # comment
+                return line[0:i-1]
+    # no comment - return while line
+    return line
+
+
 SKIP_FILES = [ 
     # these just contain a bunch of compile flags, etc.
     'AppHdr.h', 'AppHdr.cc',
@@ -68,26 +89,50 @@ for filename in files:
         # NOTE: *? is a non-greedy match, and DOTALL allows dot to match newlines
         data = re.sub(r'/\*.*?\*/', '', data, 0, re.DOTALL)
 
-        # join strings distributed over several lines
-        data = re.sub(r'"\s*\n\s*"', '', data)
+        # join split lines and remove comments
+        lines = []
+        for line in data.splitlines():
 
-        # join function calls distributed over several lines
-        # (because we are going to filter out certain function calls)
-        data = re.sub(r',\s*\n\s*', ', ', data)
-        data = re.sub(r':\s*\n\s*', ': ', data)
+            # ignore strings explicitly marked as not to be extracted
+            if "noextract" in line:
+                continue
+
+            # remove comment
+            line = strip_comment(line)
+
+            line = line.strip()
+            if line == '':
+                continue
+
+            if len(lines) > 0:        
+                last = lines[-1]
+
+                # join strings distributed over several lines
+                if re.match(r'^"', line) and re.search(r'"$', last):
+                    lines[-1] = last[0:-1] + line[1:]
+                    continue
+
+                # join function calls split over multiple lines (because we want to filter out some function calls)
+                if re.search(r',$', last) or re.search(r':$', last) or re.search(r'\?$', last) or \
+                     re.match(r'^:', line) or re.match(r'^\?', line):
+                    lines[-1] += line
+                    continue
+
+            lines.append(line)
+
         
         skip = False
-        for line in data.splitlines():
+        for line in lines:
 
             # skip parts that are only included in DEBUG build
             if not skip:
-                if re.match(r'\s*#\s*ifdef .*DEBUG', line) or \
-                   re.match(r'\s*#\s*ifdef .*VERBOSE', line) or \
-                   re.match(r'\s*#\s*if +defined *\(DEBUG', line):
+                if re.match(r'#\s*ifdef .*DEBUG', line) or \
+                   re.match(r'#\s*ifdef .*VERBOSE', line) or \
+                   re.match(r'#\s*if +defined *\(DEBUG', line):
                     skip = True
                     continue
             else:
-                if re.match(r'\s*#\s*endif', line) or re.match(r'\s*#\s*else', line):
+                if re.match(r'#\s*endif', line) or re.match(r'#\s*else', line):
                     skip = False
                 continue
 
@@ -95,14 +140,10 @@ for filename in files:
                 continue
 
             # ignore precompiler directives, except #define
-            if re.match(r'^\s*#', line) and not re.match(r'^\s#\s*define', line):
+            if line.startswith('#') and not re.match(r'^#\s*define', line):
                 continue
 
             if re.search('extern +"C"', line):
-                continue
-
-            # ignore strings explicitly marked as not to be extracted
-            if "noextract" in line:
                 continue
 
             # ignore debug messages
@@ -184,11 +225,6 @@ for filename in files:
                 else:
                     escaped = False
                 
-                if ch == '/' and i != 0 and line[i-1] == '/' and not in_string:
-                    # comment
-                    token = token[0:-1]
-                    break;
-    
                 token += ch
 
             if token != "":
@@ -261,6 +297,10 @@ for filename in files:
 
         # ignore format strings without any actual text
         if re.match(r'^([^a-zA-Z]*%[0-9\.\*]*l{0,2}[a-zA-Z][^a-zA-Z]*)*$', string):
+            continue
+
+        # ignore punctuation
+        if re.match(r'^[!\.\?]+$', string):
             continue
 
         filtered_strings.append(string)
