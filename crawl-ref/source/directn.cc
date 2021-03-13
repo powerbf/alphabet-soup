@@ -2422,26 +2422,49 @@ string get_terse_square_desc(const coord_def &gc)
     if (gc == you.pos())
         desc = you.your_name;
     else if (!map_bounds(gc))
-        desc = unseen_desc;
+        desc = localise(unseen_desc);
     else if (!you.see_cell(gc))
     {
         if (env.map_knowledge(gc).seen())
         {
-            desc = "[" + feature_description_at(gc, false, DESC_PLAIN)
-                       + "]";
+            desc = feature_description_at(gc, false, DESC_PLAIN);
+            // Suppress floor description
+            if (desc == "floor")
+                desc = "";
+            else
+            {
+                // i18n: TODO: Fix this
+                desc = "[" + localise(desc) + "]"; // noextract
+            }
         }
         else
-            desc = unseen_desc;
+            desc = localise(unseen_desc);
     }
     else if (monster_at(gc) && you.can_see(*monster_at(gc)))
+    {
             desc = monster_at(gc)->full_name(DESC_PLAIN);
+            desc = localise(desc);
+    }
     else if (you.visible_igrd(gc) != NON_ITEM)
     {
         if (env.item[you.visible_igrd(gc)].defined())
+        {
             desc = env.item[you.visible_igrd(gc)].name(DESC_PLAIN);
+            desc = localise(desc);
+        }
     }
     else
+    {
         desc = feature_description_at(gc, false, DESC_PLAIN);
+        // Suppress floor description
+        if (desc == "floor")
+            desc = "";
+        else
+        {
+            // i18n: TODO: Fix this
+            desc = localise(desc);
+        }
+    }
 
     return desc;
 }
