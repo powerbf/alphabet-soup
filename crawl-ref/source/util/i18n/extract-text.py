@@ -32,6 +32,8 @@ SKIP_FILES = [
     'branch-data-json.h', 'branch-data-json.cc',
     'json.h', 'json.cc', 'json-wrapper.h',
     'tileweb.h', 'tileweb.cc', 'tileweb-text.h', 'tileweb-text.cc',
+    # nor other tags
+    'colour.h', 'colour.cc',
     # debug/test stuff
     'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc',
     # files related to the translation process itself
