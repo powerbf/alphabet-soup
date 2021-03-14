@@ -106,8 +106,9 @@ void mpr(msg_channel_type channel, int param, const string &text);
 void mpr_nojoin(msg_channel_type channel, string text);
 
 // message print without localisation (translation)
-void mpr_nolocalise(string text);
-void mpr_nolocalise(msg_channel_type channel, string text);
+void mpr_nolocalise(const string& text);
+void mpr_nolocalise(msg_channel_type channel, const string& text);
+void mpr_nolocalise(msg_channel_type channel, int param, const string &text);
 
 static inline void mpr(const formatted_string &text)
 {
