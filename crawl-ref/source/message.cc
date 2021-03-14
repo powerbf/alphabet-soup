@@ -35,7 +35,7 @@
 #include "unwind.h"
 #include "view.h"
 
-static void _mpr(string text, msg_channel_type channel=MSGCH_PLAIN, int param=0,
+static void _mpr(const string& text, msg_channel_type channel=MSGCH_PLAIN,int param=0,
                  bool nojoin=false, bool cap=true, bool localise=true);
 
 void mpr(const string &text)
@@ -58,14 +58,19 @@ void mpr_nojoin(msg_channel_type channel, string text)
     _mpr(text, channel, 0, true);
 }
 
-void mpr_nolocalise(string text)
+void mpr_nolocalise(const string& text)
 {
     _mpr(text, MSGCH_PLAIN, 0, false, true, false);
 }
 
-void mpr_nolocalise(msg_channel_type channel, string text)
+void mpr_nolocalise(msg_channel_type channel, const string& text)
 {
     _mpr(text, channel, 0, false, true, false);
+}
+
+void mpr_nolocalise(msg_channel_type channel, int param, const string& text)
+{
+    _mpr(text, channel, param, false, true, false);
 }
 
 static bool _ends_in_punctuation(const string& text)
@@ -1521,8 +1526,8 @@ void msgwin_clear_temporary()
 
 static int _last_msg_turn = -1; // Turn of last message.
 
-static void _mpr(string txt, msg_channel_type channel, int param, bool nojoin,
-                 bool cap, bool locls)
+static void _mpr(const string& txt, msg_channel_type channel, int param,
+                 bool nojoin, bool cap, bool locls)
 {
     rng::generator rng(rng::UI);
 
