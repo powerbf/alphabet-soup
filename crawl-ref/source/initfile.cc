@@ -3734,7 +3734,7 @@ bool game_options::set_lang(const char *lc)
         {
             language = ldef.lang;
             lang_name = ldef.code;
-            init_localisation(ldef.code);
+            init_localisation(ldef.code? ldef.code : "");
             return true;
         }
     }
