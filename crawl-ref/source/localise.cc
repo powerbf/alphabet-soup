@@ -439,6 +439,23 @@ static string _add_annotations(const string& s, const list<string>& annotations)
 }
 
 /*
+ * Does it start with a count (number followed by space)
+ */
+static bool _starts_with_count(const string& s)
+{
+    for (size_t i = 0; i < s.length(); i++)
+    {
+        char ch = s[i];
+        if (ch == ' ' && i > 0)
+            return true;
+        else if (!isdigit(ch))
+            return false;
+    }
+
+    return false;
+}
+
+/*
  * Strip count from a string like "27 arrows"
  *
  * @param  s      the string
@@ -447,13 +464,16 @@ static string _add_annotations(const string& s, const list<string>& annotations)
  */
 static string _strip_count(const string& s, int& count)
 {
-    if (s.empty() || !isdigit(s[0]))
+    if (s.empty() || !_starts_with_count(s))
     {
         return s;
     }
 
     size_t pos;
     count = stoi(s, &pos);
+
+    if (s[pos] != ' ')
+        return s;
 
     string rest = s.substr(pos);
     return trim_string_left(rest);
@@ -947,7 +967,7 @@ static string _localise_counted_string(const string& context, const string& sing
 // localise counted string when you only have the plural
 static string _localise_counted_string(const string& context, const string& value)
 {
-    if (value.empty() || !isdigit(value[0]))
+    if (value.empty() || !_starts_with_count(value))
     {
         return value;
     }
