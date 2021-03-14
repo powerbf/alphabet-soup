@@ -2816,198 +2816,6 @@ Die Luft nimmt ihre normalen Bewegungen wieder auf.
 %%%%
 
 ##################
-# clua.cc
-##################
-%%%%
-667: Malformed response to guarded pcall.
-
-%%%%
-666: Killing badly-behaved Lua script.
-
-%%%%
-__cru%u
-
-%%%%
-dlua/persist.lua
-
-%%%%
-Couldn't open %s for writing!
-%s konnte nicht zum Schreiben geöffnet werden!
-%%%%
-Expected filehandle at arg 1
-
-%%%%
-dlua
-
-%%%%
-invalid filename: %s
-
-%%%%
-Can't find "%s"
-
-%%%%
-@
-
-%%%%
-Lua execfile error (%s): %s
-
-%%%%
-Unable to create Lua state.
-
-%%%%
-loadstring
-
-%%%%
-load
-
-%%%%
-dlua/macro.lua
-
-%%%%
-chk_startgame = { }
-
-%%%%
-base
-
-%%%%
-loadfile
-
-%%%%
-dofile
-
-%%%%
-dlua/util.lua
-
-%%%%
-dlua/iter.lua
-
-%%%%
-dlua/tags.lua
-
-%%%%
-dlua/init.lua
-
-%%%%
-pcall
-
-%%%%
-dlua/userbase.lua
-
-%%%%
-Could not find matching clua for lua state
-
-%%%%
-lnuS
-
-%%%%
-<<
-
-%%%%
-" ( "
-
-%%%%
->>
-
-%%%%
-" ) "
-
-%%%%
-" not "
-
-%%%%
-==
-
-%%%%
-" == "
-
-%%%%
-^^
-
-%%%%
-" ~= "
-
-%%%%
-&&
-
-%%%%
-||
-
-%%%%
-s
-
-%%%%
-" \t\n\r"
-
-%%%%
-" pmatch([["
-
-%%%%
-"]], text, false) "
-
-%%%%
-__ch_stash_search_%u
-
-%%%%
-]]
-
-%%%%
-[[
-
-%%%%
-" \r\n\t"
-
-%%%%
-"function "
-
-%%%%
-"(text) return "
-
-%%%%
-" end"
-
-%%%%
-stash-search
-
-%%%%
-\
-
-%%%%
-\\
-
-%%%%
-\"
-
-%%%%
-\"
-
-%%%%
-.persist
-
-%%%%
-
-##################
-# cluautil.h
-##################
-%%%%
-Operation forbidden in end-user script
-
-%%%%
-Point (%d,%d) is out of bounds
-
-%%%%
-Expected branch name
-
-%%%%
-
-##################
-# cluautil.cc
-##################
-%%%%
-dgn.point(%d,%d) failed: %s
-
-%%%%
-
-##################
 # colour.cc
 ##################
 %%%%
@@ -4023,6 +3831,9 @@ set aside for later.
 
 %%%%
 %d %s card%s
+
+%%%%
+s
 
 %%%%
 "It is found in decks of "
@@ -7962,6 +7773,9 @@ Features
 (<
 
 %%%%
+<<
+
+%%%%
 ">) "
 
 %%%%
@@ -10819,6 +10633,9 @@ Empty file name.
 "%s" contains ".." sequences.
 
 %%%%
+\
+
+%%%%
 ../Resources/
 
 %%%%
@@ -10850,6 +10667,9 @@ des
 
 %%%%
 descript
+
+%%%%
+dlua
 
 %%%%
 Data directory '%s' found.
@@ -18957,6 +18777,9 @@ Unknown type: '%s'
 # l-dgnlvl.cc
 ##################
 %%%%
+Expected branch name
+
+%%%%
 No such branch
 
 %%%%
@@ -19581,6 +19404,9 @@ Your
 inv
 
 %%%%
+base
+
+%%%%
 qual
 
 %%%%
@@ -19656,6 +19482,9 @@ cid
 
 %%%%
 {(
+
+%%%%
+\"
 
 %%%%
 " \""
@@ -19817,8 +19646,17 @@ Macro directory
 -macro.txt
 
 %%%%
+==
+
+%%%%
 \{!more}
 
+%%%%
+\\
+
+%%%%
+Couldn't open %s for writing!
+%s konnte nicht zum Schreiben geöffnet werden!
 %%%%
 K:
 
@@ -36040,6 +35878,9 @@ Invis
 
 %%%%
 " .&`\"\'|;{}()[]<>*%$#@!~?"
+
+%%%%
+" \t\n\r"
 
 %%%%
 days
