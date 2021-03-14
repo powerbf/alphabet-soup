@@ -2816,110 +2816,6 @@ Die Luft nimmt ihre normalen Bewegungen wieder auf.
 %%%%
 
 ##################
-# colour.cc
-##################
-%%%%
-mutagenic
-
-%%%%
-warp
-
-%%%%
-enchant
-
-%%%%
-heal
-
-%%%%
-unholy
-
-%%%%
-vehumet
-
-%%%%
-beogh
-
-%%%%
-crystal
-
-%%%%
-blood
-
-%%%%
-smoke
-
-%%%%
-slime
-
-%%%%
-jewel
-
-%%%%
-dwarven
-
-%%%%
-orcish
-
-%%%%
-flash
-
-%%%%
-rock
-
-%%%%
-mist
-
-%%%%
-decay
-
-%%%%
-waves
-
-%%%%
-tree
-Baum
-%%%%
-tornado
-
-%%%%
-liquefied
-
-%%%%
-disjunction
-
-%%%%
-dithmenos
-
-%%%%
-incarnadine
-
-%%%%
-pakellas
-
-%%%%
-disco
-
-%%%%
-darkgrey
-
-%%%%
-magenta
-
-%%%%
-lightblue
-
-%%%%
-lightcyan
-
-%%%%
-lightred
-
-%%%%
-lightmagenta
-
-%%%%
-
-##################
 # command.cc
 ##################
 %%%%
@@ -5508,6 +5404,9 @@ Set
 \n%s %d:
 
 %%%%
+lightred
+
+%%%%
 lightgray
 
 %%%%
@@ -6719,6 +6618,9 @@ umbraed
 Liquefied ground.
 
 %%%%
+liquefied
+
+%%%%
 Translocational energy.
 
 %%%%
@@ -7617,6 +7519,12 @@ any
 
 %%%%
 " (press <white>_</white> to reach them and <white>?/G</white> for information about gods)"
+
+%%%%
+darkgrey
+
+%%%%
+magenta
 
 %%%%
 \n<green>Shops:</green>
@@ -8675,6 +8583,9 @@ Your astral vision lets you see through walls.
 Your astral sight fades away.
 
 %%%%
+tornado
+
+%%%%
 You are in the eye of a mighty hurricane.
 
 %%%%
@@ -8730,6 +8641,9 @@ Disjoin
 
 %%%%
 disjoining
+
+%%%%
+disjunction
 
 %%%%
 You are disjoining your surroundings.
@@ -10127,6 +10041,9 @@ geschlossene transluzente Tür
 %%%%
 runed translucent door
 runenbesetzte transluzente Tür
+%%%%
+tree
+Baum
 %%%%
 metal wall
 Metallwand
@@ -16462,6 +16379,9 @@ Expected a decimal value for tile_map_scale, but got '%s'.
 
 %%%%
 ssd
+
+%%%%
+dwarven
 
 %%%%
 jäger
@@ -23044,6 +22964,9 @@ Mit einem infernalischen Geräusch verschwindet die Macht, die diesen Ort beherr
 %s's corpse
 die Leiche {gen}%s
 %%%%
+smoke
+
+%%%%
 A freezing mist gathers momentarily, then fades.
 Ein eisiger Nebel sammelt sich kurz, dann vergeht er.
 %%%%
@@ -27816,6 +27739,9 @@ good
 bad
 
 %%%%
+slime
+
+%%%%
 nonslime
 
 %%%%
@@ -28047,6 +27973,15 @@ Your bite disrupts the magic of your enemies.
 
 %%%%
 ))
+
+%%%%
+lightcyan
+
+%%%%
+lightblue
+
+%%%%
+lightmagenta
 
 %%%%
 You feel the corruption within you wane %s.
