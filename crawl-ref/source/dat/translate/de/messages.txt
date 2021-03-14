@@ -2763,10 +2763,16 @@ Blitzbögen von einer Gewitterwolke!
 The rain has left you waist-deep in water!
 Der Regen hat Euch hüfthoch im Wasser gelassen!
 %%%%
-%s %s in the rain.
-%s%s im Regen.
+You steam in the rain.
+
 %%%%
-sizzle
+You sizzle in the rain.
+
+%%%%
+%s steams in the rain.
+
+%%%%
+%s sizzles in the rain.
 
 %%%%
 You choke on the stench!
@@ -2784,20 +2790,23 @@ Ihr seid vom Blitz getroffen!
 Lightning from the thunderstorm strikes something you cannot see.
 Ein Blitz vom Gewitter trifft etwas, was Ihr nicht sehen könnt.
 %%%%
-%s %s in %s.
-%s %s in %s.
-%%%%
-bask
+You bask in %s.
 
 %%%%
-are
+You are engulfed in %s.
 
 %%%%
-" engulfed"
+%s basks in %s.
 
 %%%%
-%s %s standing in %s.
-%s%s steht in %s.
+%s is engulfed in %s.
+
+%%%%
+You are standing in a thunderstorm.
+
+%%%%
+You are standing in the rain.
+
 %%%%
 The air becomes perfectly still.
 Die Luft wird vollkommen still.
@@ -4512,6 +4521,9 @@ realm of bugdom
 
 %%%%
 " warns you: "
+
+%%%%
+are
 
 %%%%
 " a foul "
