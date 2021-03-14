@@ -311,18 +311,6 @@ vector<map<string, string>> books =
     },
 };
 
-vector<map<string, string>> misc_tests =
-{
-    {
-        {"en", "2 bananas"},
-        {"nom", "2 Bananen (das ist ein Paar)"},
-    },
-    {
-        {"en", "3 bananas"},
-        {"nom", "3 Bananen"},
-    },
-};
-
 int num_passes = 0;
 int num_fails = 0;
 
@@ -389,7 +377,6 @@ int main()
         test_group(cse, "STAVES", staves);
         test_group(cse, "BOOKS", books);
         test_group(cse, "RUNES", runes);
-        test_group(cse, "MISC TESTS", misc_tests);
     }
 
     cout << endl << num_passes << " passed, "<< num_fails << " failed" << endl;

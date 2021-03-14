@@ -4,16 +4,6 @@
 #
 ###############################################################################
 
-####################
-# Test multiple plural forms
-####################
-%%%%
-%d bananas
-((n==2))%d Bananen (das ist ein Paar)
-(())%d Bananen
-%%%%
-
-
 %%%%
 a %shorse
 ein {adj-es}%sPferd
