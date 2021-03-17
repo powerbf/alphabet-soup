@@ -2819,149 +2819,65 @@ Die Luft nimmt ihre normalen Bewegungen wieder auf.
 # command.cc
 ##################
 %%%%
-Lua user scripts
-
+Helmet
+Helm
 %%%%
-Tile support
-
+Shield
+Schild
 %%%%
-Web Tile support
-
-%%%%
-Wizard mode
-
-%%%%
-" (seed may be affected by game upgrades)"
-
-%%%%
-Game is not seeded.
-
-%%%%
-Version history for your current game:\n
-
-%%%%
-<w>Features</w>\n--------\n
-
-%%%%
-" * "
-
-%%%%
-"Stone Soup "
-
-%%%%
-Highlights
-
-%%%%
-For earlier changes, see changelog.txt in the docs/ directory.
-
-%%%%
-For a list of changes, see changelog.txt in the docs/ directory.
-
-%%%%
-version
-
-%%%%
-"Cloak  "
-
-%%%%
-"Helmet "
-
-%%%%
-"Gloves "
-
-%%%%
-"Shield "
-
-%%%%
-"Armour "
-
+Armour
+Rüstung
 %%%%
 Barding
-
-%%%%
-"Boots  "
-
+Gelieger
 %%%%
 unknown
+unbekannt
+%%%%
+(unavailable)
 
 %%%%
-" : "
+(currently unavailable)
 
 %%%%
-"    (unavailable)"
-
-%%%%
-"    (currently unavailable)"
-
-%%%%
-equip
-
-%%%%
-"    (restricted)"
-
-%%%%
-"    none"
+(restricted)
 
 %%%%
 Left ring
-
+Linker Ring
 %%%%
 Right ring
-
+Rechter Ring
 %%%%
 Amulet
-
+Amulett
 %%%%
 1st ring
-
+1. Ring
 %%%%
 2nd ring
-
+2. Ring
 %%%%
 3rd ring
-
+3. Ring
 %%%%
 4th ring
-
+4. Ring
 %%%%
 5th ring
-
+5. Ring
 %%%%
 6th ring
-
+6. Ring
 %%%%
 7th ring
-
+7. Ring
 %%%%
 8th ring
-
+8. Ring
 %%%%
 Amulet ring
-
-%%%%
-%-*s: %s
-
-%%%%
-<h>Examine surroundings ('<w>x</w><h>' in main):\n<w>Esc</w> : cancel (also <w>Space</w>, <w>x</w>)\n<w>Ctrl-X</w> : list all things in view\n<w>Dir.</w>: move cursor in that direction\n<w>.</w> : move to cursor (also <w>Enter</w>, <w>Del</w>)\n<w>g</w> : pick up item at cursor\n<w>v</w> : describe monster under cursor\n<w>+</w> : cycle monsters forward (also <w>=</w>)\n<w>-</w> : cycle monsters backward\n<w>*</w> : cycle objects forward (also <w>'</w>)\n<w>/</w> : cycle objects backward (also <w>;</w>)\n<w>^</w> : cycle through traps\n<w>_</w> : cycle through altars\n<w><<</w>/<w>></w> : cycle through up/down stairs\n<w>Tab</w> : cycle through shops and portals\n<w>r</w> : move cursor to you\n<w>e</w> : create/remove travel exclusion\n<w>Ctrl-P</w> : repeat prompt\n
-
-%%%%
-<h>Wizard targeting commands:</h>\n<w>Ctrl-C</w> : cycle through beam paths\n<w>D</w>: get debugging information about the monster\n<w>o</w>: give item to monster\n<w>F</w>: cycle monster friendly/good neutral/neutral/hostile\n<w>G</w>: make monster gain experience\n<w>Ctrl-H</w>: heal the monster fully\n<w>P</w>: apply divine blessing to monster\n<w>m</w>: move monster or player\n<w>M</w>: cause spell miscast for monster or player\n<w>s</w>: force monster to shout or speak\n<w>S</w>: make monster a summoned monster\n<w>w</w>: calculate shortest path to any point on the map\n<w>"</w>: get debugging information about a portal\n<w>~</w>: polymorph monster to specific type\n<w>,</w>: bring down the monster to 1 hp\n<w>Ctrl-(</w>: place a mimic\n<w>Ctrl-B</w>: banish monster\n<w>Ctrl-K</w>: kill monster\n
-
-%%%%
-<h>Targeting (zap wands, cast spells, etc.):\nMost keys from examine surroundings work.\nSome keys fire at the target. <w>Ctrl-X</w> only\nlists eligible targets. By default,\nrange is respected and beams don't stop.\n<w>Enter</w> : fire (<w>Space</w>, <w>Del</w>)\n<w>.</w> : fire, stop at target\n<w>@</w> : fire, stop at target, ignore range\n<w>!</w> : fire, don't stop, ignore range\n<w>p</w> : fire at Previous target (also <w>f</w>)\n<w>:</w> : show/hide beam path\n<w>Shift-Dir.</w> : fire straight-line beam\n\n<h>Firing mode ('<w>f</w><h>' in main):\n<w>Q</w> : choose fire action.\n<w>(</w> : cycle to previous suitable action\n<w>)</w> : cycle to next suitable action.\n
-
-%%%%
-crawl_manual.txt
-
-%%%%
-macros_guide.txt
-
-%%%%
-options_guide.txt
-
-%%%%
-tiles_help.txt
-
+Amulett-Ring
 %%%%
 No questions found in FAQ! Please submit a bug report!
 Keine Fragen in den FAQ gefunden! Bitte einen Fehlerbericht senden!
@@ -2973,498 +2889,6 @@ No answer found in the FAQ! Please submit a bug report!
 
 %%%%
 "Q: "
-
-%%%%
-level-map
-
-%%%%
-interlevel-travel.branch.prompt
-
-%%%%
-interlevel-travel.depth.prompt
-
-%%%%
-interlevel-travel.altar.prompt
-
-%%%%
-stash-search.prompt
-
-%%%%
-skill-menu
-
-%%%%
-spell-library
-
-%%%%
-<h>Dungeon Crawl Help\n\nPress one of the following keys to\nobtain more information on a certain\naspect of Dungeon Crawl.\n<w>?</w>: List of commands\n<w>^</w>: Quickstart Guide\n<w>:</w>: Browse character notes\n<w>#</w>: Browse character dump\n<w>~</w>: Macros help\n<w>&</w>: Options help\n<w>%</w>: Table of aptitudes\n<w>/</w>: Lookup description\n<w>Q</w>: FAQ\n
-
-%%%%
-<w>T</w>: Tiles key help\n
-
-%%%%
-<w>V</w>: Version information\n<w>Home</w>: This screen\n
-
-%%%%
-<h>Manual Contents\n\n<w>*</w>       Table of contents\n<w>A</w>.      Overview\n<w>B</w>.      Starting Screen\n<w>C</w>.      Attributes and Stats\n<w>D</w>.      Exploring the Dungeon\n<w>E</w>.      Experience and Skills\n<w>F</w>.      Monsters\n<w>G</w>.      Items\n<w>H</w>.      Spellcasting\n<w>I</w>.      Targeting\n<w>J</w>.      Religion\n<w>K</w>.      Mutations\n<w>L</w>.      Licence, Contact, History\n<w>M</w>.      Macros, Options, Performance\n<w>N</w>.      Philosophy\n<w>1</w>.      List of Character Species\n<w>2</w>.      List of Character Backgrounds\n<w>3</w>.      List of Skills\n<w>4</w>.      List of Keys and Commands\n<w>5</w>.      Inscriptions\n<w>6</w>.      Dungeon sprint modes\n
-
-%%%%
-<h>Movement:\nTo move in a direction or to attack, \nuse the numpad (try Numlock off and \non) or vi keys:\n
-
-%%%%
-"                 <w>7 8 9      % % %"
-
-%%%%
-"                  \|/        \|/"
-
-%%%%
-"                 <w>4</w>-<w>5</w>-<w>6</w>      <w>%</w>-<w>%</w>-<w>%</w>"
-
-%%%%
-"                  /|\        /|\"
-
-%%%%
-"                 <w>1 2 3      % % %"
-
-%%%%
-<h>Rest:\n
-
-%%%%
-wait a turn (also <w>s</w>, <w>Del</w>)
-
-%%%%
-rest and long wait; stops when
-
-%%%%
-"    Health or Magic become full or\n    something is detected. If Health\n    and Magic are already full, stops\n    when 100 turns over (<w>numpad-5</w>)\n"
-
-%%%%
-<h>Extended Movement:\n
-
-%%%%
-auto-explore
-
-%%%%
-interlevel travel
-
-%%%%
-Find items
-
-%%%%
-set Waypoint
-
-%%%%
-<w>/ Dir.</w>, <w>Shift-Dir.</w>: long walk\n<w>* Dir.</w>, <w>Ctrl-Dir.</w> : attack without move \n
-
-%%%%
-<h>Autofight:\n<w>Tab</w>          : attack nearest monster,\n               moving if necessary\n<w>Shift-Tab</w>, <w>p</w> : trigger quivered action;\n               if targeted, aims at\n               nearest monster\n
-
-%%%%
-<h>Item types (and common commands)\n
-
-%%%%
-<cyan>)</cyan> : hand weapons (<w>%</w>ield)
-
-%%%%
-<brown>(</brown> : missiles (<w>%</w>uiver, <w>%</w>ire, <w>%</w>/<w>%</w> cycle)
-
-%%%%
-<cyan>[</cyan> : armour (<w>%</w>ear and <w>%</w>ake off)
-
-%%%%
-<w>?</w> : scrolls (<w>%</w>ead)
-
-%%%%
-<magenta>!</magenta> : potions (<w>%</w>uaff)
-
-%%%%
-<blue>=</blue> : rings (<w>%</w>ut on and <w>%</w>emove)
-
-%%%%
-<red>"</red> : amulets (<w>%</w>ut on and <w>%</w>emove)
-
-%%%%
-<lightgrey>/</lightgrey> : wands (e<w>%</w>oke)
-
-%%%%
-</lightcyan> : books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,\n    pick up to add to library)
-
-%%%%
-<brown>\</brown> : staves (<w>%</w>ield and e<w>%</w>oke)
-
-%%%%
-<lightgreen>}</lightgreen> : miscellaneous items (e<w>%</w>oke)
-
-%%%%
-<yellow>$</yellow> : gold (<w>%</w> counts gold)
-
-%%%%
-<lightmagenta>0</lightmagenta> : the Orb of Zot\n    Carry it to the surface and win!\n
-
-%%%%
-<h>Other Gameplay Actions:\n
-
-%%%%
-use special Ability (<w>%!</w> for help)
-
-%%%%
-cast spell, abort without targets
-
-%%%%
-cast spell, no matter what
-
-%%%%
-list all memorised spells
-
-%%%%
-Memorise a spell from your library
-
-%%%%
-tell allies (<w>%t</w> to shout)
-
-%%%%
-re-do previous command
-
-%%%%
-repeat next command # of times
-
-%%%%
-<h>Non-Gameplay Commands / Info\n
-
-%%%%
-show Previous messages
-
-%%%%
-Redraw screen
-
-%%%%
-Clear main and level maps
-
-%%%%
-annotate the dungeon level
-
-%%%%
-dump character to file
-
-%%%%
-add note (use <w>%:</w> to read notes)
-
-%%%%
-add macro (also <w>Ctrl-D</w>)
-
-%%%%
-reassign inventory/spell letters
-
-%%%%
-edit player doll
-
-%%%%
-<w>F12</w> : read messages (online play only)
-
-%%%%
-read messages (online play only)
-
-%%%%
-<h>Game Saving and Quitting:\n
-
-%%%%
-Save game and exit
-
-%%%%
-Save and exit without query
-
-%%%%
-Abandon the current character
-
-%%%%
-"         and quit the game\n"
-
-%%%%
-<h>Player Character Information:\n
-
-%%%%
-display character status
-
-%%%%
-show skill screen
-
-%%%%
-character overview
-
-%%%%
-show religion screen
-
-%%%%
-show Abilities/mutations
-
-%%%%
-show item knowledge
-
-%%%%
-show your spell library
-
-%%%%
-show runes collected
-
-%%%%
-display worn armour
-
-%%%%
-display worn jewellery
-
-%%%%
-display gold in possession
-
-%%%%
-display experience info
-
-%%%%
-<h>Dungeon Interaction and Information:\n
-
-%%%%
-<w>%</w>/<w>%</w>    : Open/Close door
-
-%%%%
-<w>%</w>/<w>%</w>    : use staircase
-
-%%%%
-examine occupied tile and
-
-%%%%
-"         pickup part of a single stack\n"
-
-%%%%
-eXamine surroundings/targets
-
-%%%%
-eXamine level map (<w>%?</w> for help)
-
-%%%%
-list monsters, items, features
-
-%%%%
-"         in view\n"
-
-%%%%
-toggle view layers
-
-%%%%
-show dungeon Overview
-
-%%%%
-toggle auto-pickup
-
-%%%%
-mute/unmute sound effects
-
-%%%%
-set your travel speed to your
-
-%%%%
-"         slowest ally\n"
-
-%%%%
-<w>%</w>/<w>%</w> : zoom out/in
-
-%%%%
-<h>Inventory management:\n
-
-%%%%
-show Inventory list
-
-%%%%
-pick up items (also <w>g</w>)
-
-%%%%
-"    (press twice for pick up menu)\n"
-
-%%%%
-Drop an item
-
-%%%%
-<w>%#</w>: Drop exact number of items
-
-%%%%
-Drop the last item(s) you picked up
-
-%%%%
-<h>Item Interaction:\n
-
-%%%%
-inscribe item
-
-%%%%
-Fire the currently quivered action
-
-%%%%
-select an item and Fire it
-
-%%%%
-select action to be Quivered
-
-%%%%
-swap between most recent quiver actions
-
-%%%%
-Quaff a potion
-
-%%%%
-Read a scroll (or book on floor)
-
-%%%%
-Wield an item (<w>-</w> for none)
-
-%%%%
-wield item a, or switch to b
-
-%%%%
-"    (use <w>%</w> to assign slots)"
-
-%%%%
-attack with wielded item
-
-%%%%
-eVoke wand and miscellaneous item
-
-%%%%
-<w>%</w>/<w>%</w> : Wear or Take off armour
-
-%%%%
-<w>%</w>/<w>%</w> : Put on or Remove jewellery
-
-%%%%
-<h>Additional help:\n
-
-%%%%
-Many commands have context sensitive help, among them <w>%</w>, <w>%</w>, <w>%</w> (or any form of targeting), <w>%</w>, and <w>%</w>.\nYou can read descriptions of your current spells (<w>%</w>), skills (<w>%?</w>) and abilities (<w>%!</w>).
-
-%%%%
-<w>Shift-Dir.</w> runs into one direction
-
-%%%%
-<w>%</w> or <w>%</w> : ascend/descend the stairs
-
-%%%%
-autoexplore
-
-%%%%
-\n<h>Attacking monsters\nWalking into a monster will attack it\nwith the wielded weapon or barehanded.
-
-%%%%
-\n<h>Ranged combat and magic\n
-
-%%%%
-<w>%</w> to throw/fire missiles
-
-%%%%
-<w>%</w>/<w>%</w> to cast spells (<w>%?/%</w> lists spells)
-
-%%%%
-Memorise spells and view spell\n    library (get books to add to it)
-
-%%%%
-<h>Item types and inventory management\n
-
-%%%%
-<console><cyan>)</cyan> : </console>hand weapons (<w>%</w>ield)
-
-%%%%
-<console><brown>(</brown> : </console>missiles (<w>%</w>uiver, <w>%</w>ire, <w>%</w>/<w>%</w> cycle)
-
-%%%%
-<console><cyan>[</cyan> : </console>armour (<w>%</w>ear and <w>%</w>ake off)
-
-%%%%
-<console><w>?</w> : </console>scrolls (<w>%</w>ead)
-
-%%%%
-<console><magenta>!</magenta> : </console>potions (<w>%</w>uaff)
-
-%%%%
-<console><blue>=</blue> : </console>rings (<w>%</w>ut on and <w>%</w>emove)
-
-%%%%
-<console><red>"</red> : </console>amulets (<w>%</w>ut on and <w>%</w>emove)
-
-%%%%
-<console><lightgrey>/</lightgrey> : </console>wands (e<w>%</w>oke)
-
-%%%%
-<console><lightcyan>
-
-%%%%
-</lightcyan> : </console>books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,\n    pick up to add to spell library)
-
-%%%%
-<console><brown>
-
-%%%%
-</brown> : </console>staves (<w>%</w>ield and e<w>%</w>oke)
-
-%%%%
-inventory (select item to view)
-
-%%%%
-pick up item from ground (also <w>g</w>)
-
-%%%%
-drop item
-
-%%%%
-drop the last item(s) you picked up
-
-%%%%
-<h>Additional important commands\n
-
-%%%%
-Save the game and exit
-
-%%%%
-show previous messages
-
-%%%%
-use an ability
-
-%%%%
-show character overview
-
-%%%%
-show religion overview
-
-%%%%
-show map of the whole level
-
-%%%%
-show dungeon overview
-
-%%%%
-\n<h>Targeting\n<w>Enter</w> or <w>.</w> or <w>Del</w> : confirm target\n<w>+</w> and <w>-</w> : cycle between targets\n<w>f</w> or <w>p</w> : shoot at previous target\n         if still alive and in sight\n
-
-%%%%
-Manual
-
-%%%%
-Aptitudes
-
-%%%%
-Quickstart
-
-%%%%
-Macros
-
-%%%%
-Options
-
-%%%%
-Tiles
-
-%%%%
-Key help
-
-%%%%
-------------------------------------------------------------------------
-
-%%%%
-<yellow>Dungeon Crawl Help
 
 %%%%
 
@@ -3751,9 +3175,6 @@ cards
 
 %%%%
 No description found.\n
-
-%%%%
-describe-cards
 
 %%%%
 "A deck of magical cards, "
@@ -4184,9 +3605,6 @@ Ihr spürt ein Monster in der Nähe.
 %%%%
 %s is too close now for your liking.
 %s ist jetzt zu nah für Euren Geschmack.
-%%%%
-" title"
-
 %%%%
 " opens the door."
 
@@ -4964,9 +4382,6 @@ Weapon hand
 Shield hand
 
 %%%%
-Armour
-
-%%%%
 Jewellery
 
 %%%%
@@ -4995,9 +4410,6 @@ Magic schools
 
 %%%%
 Flail
-
-%%%%
-Shield
 
 %%%%
 Chain mail (+AC)
@@ -5321,11 +4733,11 @@ join today
 tile
 
 %%%%
-describe-god
-
-%%%%
 You are not religious.
 Ihr seid nicht religiös.
+%%%%
+describe-god
+
 %%%%
 "  [<w>J</w>/<w>Enter</w>]: join"
 
@@ -5452,9 +4864,6 @@ spellset
 
 %%%%
 Description|<w>Quote</w>
-
-%%%%
-describe-generic
 
 %%%%
 Wiz
@@ -6651,9 +6060,6 @@ Hints.
 feats
 
 %%%%
-describe-feature-wide
-
-%%%%
 i
 
 %%%%
@@ -6706,9 +6112,6 @@ e(v)oke
 
 %%%%
 tiles
-
-%%%%
-describe-item
 
 %%%%
 "Replace inscription with what? "
@@ -6853,9 +6256,6 @@ Chance to defeat your Will: %d%%%s\n
 
 %%%%
 ":\n "
-
-%%%%
-describe-spell
 
 %%%%
 A stacked deck
@@ -7406,9 +6806,6 @@ almost instantly
 # dgl-message.cc
 ##################
 %%%%
-:
-
-%%%%
 <white>%s:</white> %s
 
 %%%%
@@ -7492,6 +6889,9 @@ any
 
 %%%%
 <w>x</w>
+
+%%%%
+:
 
 %%%%
 "                    <white>Dungeon Overview and Level Annotations</white>\n"
@@ -9413,9 +8813,6 @@ Goodbye, %s.
 \nYou can find your morgue file in the '%s' directory.
 
 %%%%
-game-over
-
-%%%%
 %s\n
 
 %%%%
@@ -10531,9 +9928,6 @@ Wirklich beschwöre, während Ihr eine giftige Aura ausstrahlt?
 ##################
 # files.cc
 ##################
-%%%%
-/des
-
 %%%%
 " /\:"
 
@@ -13797,13 +13191,7 @@ Die göttliche Erfahrung erschöpft Eure Kraft!
 "  * - Random hints mode character"
 
 %%%%
-$cmd[
-
-%%%%
 <lightred>ERROR: unterminated $cmd</lightred>
-
-%%%%
-$item[
 
 %%%%
 <lightred>ERROR: unterminated $item</lightred>
@@ -13816,9 +13204,6 @@ $item[
 
 %%%%
 ]</w>
-
-%%%%
-welcome
 
 %%%%
 Error, no hint for '%s'.
@@ -13996,9 +13381,6 @@ Ah, a corpse!
 
 %%%%
 That <console>
-
-%%%%
-%
 
 %%%%
 percent
@@ -15443,6 +14825,9 @@ dgn.persist.calc_score
 >db
 
 %%%%
+%
+
+%%%%
 The game lasted %s (%d turns).
 
 %%%%
@@ -16213,9 +15598,6 @@ extra opts first
 ~/.crawlrc
 
 %%%%
-c_persist.options
-
-%%%%
 extra opts last
 
 %%%%
@@ -16287,9 +15669,6 @@ Kein Befehlsname für die Bindkey-Direktive '%s'
 %%%%
 No command named '%s'
 Kein Befehl mit dem Namen '%s'
-%%%%
-font
-
 %%%%
 Bad object type '%*s' for autopickup.\n
 
@@ -16723,6 +16102,9 @@ builddb
 help
 
 %%%%
+version
+
+%%%%
 pregen
 
 %%%%
@@ -17095,12 +16477,6 @@ You don't have any quiverable items.
 
 %%%%
 You aren't carrying any such object.
-
-%%%%
-!*
-
-%%%%
-!d
 
 %%%%
 basename
@@ -18827,12 +18203,6 @@ Gegenstand ist nicht ausgerüstet
 Can't drop worn items
 
 %%%%
-pluses
-
-%%%%
-properties
-
-%%%%
 Invalid item slot: %d
 
 %%%%
@@ -18879,6 +18249,9 @@ encumbrance
 
 %%%%
 inscription
+
+%%%%
+pluses
 
 %%%%
 hands
@@ -18941,12 +18314,6 @@ no such moninf flag: '
 
 %%%%
 mb:is() out of bounds
-
-%%%%
-constricted by
-
-%%%%
-held by
 
 %%%%
 constricting you
@@ -19429,9 +18796,6 @@ scrolls
 
 %%%%
 "^[a-zA-Z] - "
-
-%%%%
-"] "
 
 %%%%
 labeled
@@ -20566,9 +19930,6 @@ Map %s: can't write index - cache offset not set!
 Lua error copying hook (%s) from '%s' to '%s': %s
 Lua Fehler beim Kopieren des Hooks (%s) von '%s' nach '%s':%s
 %%%%
-Failed to place map
-
-%%%%
 Lua error running hook '%s' on map '%s': %s
 Lua-Fehler beim Ausführen des Hooks '%s' auf der Karte '%s':%s
 %%%%
@@ -20719,22 +20080,13 @@ Index out of range: %d
 " spectre"
 
 %%%%
+-headed hydra
+
+%%%%
 " slime creature"
 
 %%%%
 -shaped pillar of salt
-
-%%%%
--headed hydra
-
-%%%%
-" mutant beast"
-
-%%%%
-" ugly thing"
-
-%%%%
-"serpent of hell "
 
 %%%%
 archmagi
@@ -20777,9 +20129,6 @@ Bad slevels: %d.
 
 %%%%
 Bad spell: %s
-
-%%%%
-deck
 
 %%%%
 removed deck: "%s".
@@ -21798,15 +21147,6 @@ XXX
 fake
 
 %%%%
-trivial
-
-%%%%
-tough
-
-%%%%
-nasty
-
-%%%%
 Select what? (regex) %s
 
 %%%%
@@ -21859,9 +21199,6 @@ to continue. You can later reread messages with Ctrl-P.
 
 %%%%
 input
-
-%%%%
-msgwin-get-line
 
 %%%%
 Something appears %s!
@@ -22481,9 +21818,6 @@ PLAIN:Cornered, @The_monster@ turns to fight!
 %s looks satisfied for a moment.
 
 %%%%
-legs
-
-%%%%
 %s prays to %s, and fills with unholy energy.
 
 %%%%
@@ -22835,18 +22169,6 @@ thin air
 past
 
 %%%%
-Gesture
-
-%%%%
-" gesture"
-
-%%%%
-Point
-
-%%%%
-" point"
-
-%%%%
 NON TARGETED BEAM
 
 %%%%
@@ -22963,9 +22285,6 @@ Mit einem infernalischen Geräusch verschwindet die Macht, die diesen Ort beherr
 %%%%
 %s's corpse
 die Leiche {gen}%s
-%%%%
-smoke
-
 %%%%
 A freezing mist gathers momentarily, then fades.
 Ein eisiger Nebel sammelt sich kurz, dann vergeht er.
@@ -24040,6 +23359,15 @@ shaped block of ice
 " shaped shifter"
 
 %%%%
+trivial
+
+%%%%
+tough
+
+%%%%
+nasty
+
+%%%%
 " (fellow slime)"
 
 %%%%
@@ -24194,37 +23522,7 @@ Eure %s spiegelt %s!
 # mon-speak.cc
 ##################
 %%%%
-@player
-
-%%%%
-@Player
-
-%%%%
-:You
-
-%%%%
 you.
-
-%%%%
-@foe
-
-%%%%
-@Foe
-
-%%%%
-foe@
-
-%%%%
-@species
-
-%%%%
-_god@
-
-%%%%
-@god_
-
-%%%%
-VISUAL
 
 %%%%
 " banished"
@@ -24432,6 +23730,18 @@ your god
 " @foe,@"
 
 %%%%
+@player
+
+%%%%
+@foe
+
+%%%%
+@Player
+
+%%%%
+@Foe
+
+%%%%
 to
 
 %%%%
@@ -24445,9 +23755,6 @@ to
 
 %%%%
 " god"
-
-%%%%
-@species_insult_
 
 %%%%
 says
@@ -27945,6 +27252,9 @@ Eure Mutationen fühlen sich dauerhafter an.
 You feel %s.
 Ihr fühlt %s.
 %%%%
+legs
+
+%%%%
 tentacles
 
 %%%%
@@ -28045,9 +27355,6 @@ Random character
 "  |"
 
 %%%%
-newgame-random-combo
-
-%%%%
 Trunk games don't count for the tournament, you want %s.
 
 %%%%
@@ -28076,9 +27383,6 @@ btn-begin
 
 %%%%
 Seeded play
-
-%%%%
-seed-selection
 
 %%%%
 No player name specified.
@@ -28139,9 +27443,6 @@ main-items
 
 %%%%
 sub-items
-
-%%%%
-newgame-choice
 
 %%%%
 large rocks
@@ -28257,9 +27558,6 @@ LPT
 ##################
 # ng-setup.cc
 ##################
-%%%%
-tutorial_lesson4
-
 %%%%
 adjusted
 
@@ -28402,6 +27700,9 @@ morgue-
 labels
 
 %%%%
+newgame-choice
+
+%%%%
 buttons
 
 %%%%
@@ -28435,9 +27736,6 @@ Turn:
 
 %%%%
 Weapon
-
-%%%%
-Helmet
 
 %%%%
 Left Ring
@@ -29735,6 +29033,9 @@ Ihr schnappt erleichtert nach Luft, als Luft wieder Eure Lunge erreicht.
 %%%%
 Your lungs strain for air!
 Eure Lungen belasten die Luft!
+%%%%
+"] "
+
 %%%%
 ", a level "
 
@@ -31052,9 +30353,6 @@ Vehumet offers you knowledge of %s.
 %s erinnert sich an%s%s%s.
 %%%%
 " the Shapeless"
-
-%%%%
-" lastname"
 
 %%%%
 No God
@@ -37080,9 +36378,6 @@ unopened runed door
 unopened door
 
 %%%%
-shallow water
-
-%%%%
 Done exploring.
 Fertig erforscht.
 %%%%
@@ -37703,12 +36998,6 @@ Simulation abbrechen.\n
 Can't write %s: %s
 %s kann nicht geschrieben werden: %s
 %%%%
-defen
-
-%%%%
-offen
-
-%%%%
 (A)ttack or (D)efense?
 (A)ttack oder (D)efense?
 %%%%
@@ -38108,9 +37397,6 @@ Kann einem Monster keine ausgerüsteten Gegenstände geben.
 %%%%
 You can't give that type of item to a monster.
 Ihr könnt einem Monster diese Art von Gegenständen nicht geben.
-%%%%
-alt
-
 %%%%
 Error: monster failed to take item.
 Fehler: Monster konnte keinen Gegenstand nehmen.

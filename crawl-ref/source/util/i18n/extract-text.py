@@ -190,19 +190,23 @@ for filename in files:
                 continue
             if 'json_write' in line:
                 continue
-            if re.search(r'\bgetRandNameString *\(', line):
+            if 'push_ui_layout' in line:
                 continue
-            if re.search(r'\bgetQuoteString *\(', line):
-                continue;
-            if re.search(r'\bgetSpeakString *\(', line):
+            if re.search(r'\bget[a-zA-Z]*String *\(', line):
                 continue;
             if re.search(r'\bprops\.erase *\(', line):
                 continue
             if '_print_converted_orc_speech' in line:
                 continue
+            if 'show_specific_help' in line:
+                continue
             if re.search('^[^"]*property[A-Za-z_]* *\(', line):
                 continue
             if re.match(r'^\s*key[A-Za-z_]*\.[A-Za-z_]*\(', line):
+                continue
+
+            # just a find
+            if re.match(r'\bstrstr\s*\(', line):
                 continue
 
             # tokenize line into string and non-string
@@ -259,6 +263,8 @@ for filename in files:
                         # another type of equality test
                         if re.search(r'\bstarts_with\s*\([^,"]+,\s*$', last):
                             continue
+                        if re.search(r'\bfind\s*\(\s*(string\()?$', last):
+                            continue
 
                 strings.append(string)
             
@@ -297,7 +303,7 @@ for filename in files:
             continue
 
         # ignore filenames
-        if re.match(r'^[A-Za-z]+\.[A-Za-z]+$', string):
+        if re.match(r'^[A-Za-z_]+\.[A-Za-z]+$', string):
             continue
 
         # ignore format strings without any actual text
