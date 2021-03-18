@@ -2893,64 +2893,6 @@ No answer found in the FAQ! Please submit a bug report!
 %%%%
 
 ##################
-# coord-def.h
-##################
-%%%%
-coord_def(
-
-%%%%
-
-##################
-# crash.cc
-##################
-%%%%
-%scrash-recursive-%s-%s.txt
-
-%%%%
-Stuck game with 100%% CPU use\n
-
-%%%%
-INVALID
-
-%%%%
-Crash caused by signal #%d: %s
-
-%%%%
-backtrace
-
-%%%%
-0x
-
-%%%%
-Unable to get stack trace on this platform.\n
-
-%%%%
-attach %d
-
-%%%%
-nice
-
-%%%%
--batch
-
-%%%%
--ex
-
-%%%%
-show version
-
-%%%%
-bt full
-
-%%%%
-/usr/bin/nice
-
-%%%%
-Failed to start gdb: %s\n
-
-%%%%
-
-##################
 # dactions.cc
 ##################
 %%%%
@@ -23860,6 +23802,9 @@ snail
 
 %%%%
 blob
+
+%%%%
+INVALID
 
 %%%%
 Monster %d has no name\n
