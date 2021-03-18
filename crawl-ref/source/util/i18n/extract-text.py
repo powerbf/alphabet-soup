@@ -35,7 +35,8 @@ SKIP_FILES = [
     # nor other tags
     'colour.h', 'colour.cc',
     # debug/test stuff
-    'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc',
+    'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc', 'coord-def.h',
+    'crash.h', 'crash.cc',
     # files related to the translation process itself
     'xlate.h', 'xlate.cc', 
     'localize.h', 'localize.cc', 
@@ -140,7 +141,6 @@ for filename in files:
                    re.match(r'#\s*if +defined *\(DEBUG', line):
                     skip = True
                     continue
-
             if '"' not in line:
                 continue
 
