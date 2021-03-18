@@ -272,10 +272,7 @@ Sacrifices cannot be taken back.
 "After this sacrifice, you will find that "
 
 %%%%
-Draw a card from %s
-
-%%%%
-"; "
+"Draw a card from %s; "
 
 %%%%
 " ability"
@@ -2999,22 +2996,22 @@ Something is engulfed in negative energy!
 escape
 
 %%%%
-mainly dealing with various forms of escape.
+A deck of cards, mainly dealing with various forms of escape.
 
 %%%%
 destruction
 
 %%%%
-most of which hurl death and destruction at one's foes (or, if unlucky, at oneself).
+A deck of cards, most of which hurl death and destruction at one's foes (or, if unlucky, at oneself).
 
 %%%%
-depicting a range of weird and wonderful creatures.
+A deck of cards, depicting a range of weird and wonderful creatures.
 
 %%%%
 punishment
 
 %%%%
-which wreak havoc on the user.
+A deck of cards, which wreak havoc on the user.
 
 %%%%
 Velocity
@@ -3074,31 +3071,25 @@ the Illusion
 Degeneration
 
 %%%%
-a buggy card
-
-%%%%
-a very buggy card
-
-%%%%
 "Remaining cards: "
 
 %%%%
 "It may contain the following cards: "
 
 %%%%
-set aside for later.
+A deck of cards, set aside for later.
 
 %%%%
-%d %s card%s
+1 %s card
 
 %%%%
-s
+%d %s cards
 
 %%%%
-"It is found in decks of "
+It is found in decks of %s, or in Nemelex Xobeh's deck of punishment.
 
 %%%%
-, or in Nemelex Xobeh's deck of punishment
+It is found in decks of %s.
 
 %%%%
 It is only found in Nemelex Xobeh's deck of punishment.
@@ -3113,12 +3104,6 @@ cards
 " card"
 
 %%%%
-No description found.\n
-
-%%%%
-"A deck of magical cards, "
-
-%%%%
 "It currently has %d cards "
 
 %%%%
@@ -3131,37 +3116,34 @@ No description found.\n
 and can contain up to %d cards.
 
 %%%%
-Draw
+Deal which deck?
 
 %%%%
-%s which deck?        Cards available
+Draw which deck?
 
 %%%%
-Describe which deck?    Cards available
+Cards available
+
+%%%%
+Describe which deck?
 
 %%%%
 Press '<w>!</w>' or '<w>?</w>' to toggle between deck selection and description.
 
 %%%%
-disappears without a trace.
+The deck of cards disappears without a trace.
 
 %%%%
-glows slightly and disappears.
+The deck of cards glows slightly and disappears.
 
 %%%%
-glows with a rainbow of weird colours and disappears.
+The deck of cards glows with a rainbow of weird colours and disappears.
 
 %%%%
-"The deck of cards "
+You deal a card...
 
 %%%%
-You %s a card...
-Ihr %s eine Karte...
-%%%%
-deal
-
-%%%%
-draw
+You draw a card...
 
 %%%%
 Replace your current stack?
@@ -3176,22 +3158,13 @@ You have fewer than five cards, stack them anyway?
 Are you done? (press y or Y to confirm)
 
 %%%%
-Draw which deck?        Cards available
-
-%%%%
 "Drawn so far: "
-
-%%%%
-"<lightred>That deck is empty!</lightred> "
 
 %%%%
 Select two cards to swap them:
 
 %%%%
-<lightgrey>Press <w>?</w> for the card descriptions or <w>Enter</w> to accept.
-
-%%%%
-Deal
+Press <w>?</w> for the card descriptions or <w>Enter</w> to accept.
 
 %%%%
 There's fewer than three cards, still triple draw?
@@ -3206,14 +3179,11 @@ Ihr zieht ... (wähle eine Karte? Für ihre Beschreibungen)
 No stairs available to move.
 Keine Treppen zum Bewegen verfügbar.
 %%%%
-dealt
+You have dealt %s.
 
 %%%%
-drawn
+You have drawn %s.
 
-%%%%
-You have %s %s.
-Ihr habt %s %s.
 %%%%
 You radiate a wave of entropy!
 Ihr strahlt eine Entropiewelle aus!
@@ -3254,35 +3224,47 @@ electrical discharge
 the storm
 
 %%%%
-mighty
+You hear a mighty peal of thunder!
 
 %%%%
-violent
+You hear a violent peal of thunder!
 
 %%%%
-cataclysmic
+You hear a cataclysmic peal of thunder!
 
 %%%%
-You %s %s%s peal%s of thunder!
-Ihr %s %s%s schallst%s Donner!
-%%%%
-hear
+You feel a mighty peal of thunder!
 
 %%%%
-feel
+You feel a violent peal of thunder!
+
+%%%%
+You feel a cataclysmic peal of thunder!
+
+%%%%
+You hear mighty peals of thunder!
+
+%%%%
+You hear violent peals of thunder!
+
+%%%%
+You hear cataclysmic peals of thunder!
+
+%%%%
+You feel mighty peals of thunder!
+
+%%%%
+You feel violent peals of thunder!
+
+%%%%
+You feel cataclysmic peals of thunder!
 
 %%%%
 %s is dazed by the mutagenic energy.
 
 %%%%
-a card of wild magic
-
-%%%%
 You feel a surge of magic.
 Ihr fühlt eine Welle von Magie.
-%%%%
-You have %s a buggy card!
-Ihr habt %s eine Buggy-Karte!
 %%%%
 stacked deck
 
@@ -3477,6 +3459,9 @@ Now alive.
 Jetzt lebt.
 %%%%
 vampire revification
+
+%%%%
+s
 
 %%%%
 CLua bindings not available on this build!
@@ -6128,6 +6113,9 @@ deals up to %d %s damage
 "either "
 
 %%%%
+"; "
+
+%%%%
 Miscasting this spell causes magic contamination
 
 %%%%
@@ -7749,6 +7737,9 @@ lowered wp
 
 %%%%
 You feel your willpower return.
+
+%%%%
+mighty
 
 %%%%
 You are mighty.

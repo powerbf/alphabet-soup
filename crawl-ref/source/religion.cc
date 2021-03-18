@@ -1030,7 +1030,9 @@ static bool _give_nemelex_gift(bool forced = false)
     if (gift_cards())
     {
         simple_god_message("%s deals you some cards!");
-        mprf(MSGCH_GOD, "You now have %s.", deck_summary().c_str());
+        string msg = localise("You now have %s.",
+                              LocalisationArg(deck_summary(), false));
+        mpr(MSGCH_GOD, msg.c_str());
     }
     else
         simple_god_message("%s goes to deal, but finds you have enough cards.");

@@ -1192,8 +1192,7 @@ static string _nemelex_desc(ability_type ability)
     string name = (deck == DECK_STACK ? "your " : "the "); // noextract
     name += deck_name(deck);
 
-    desc << localise("Draw a card from %s", name);
-    desc << localise("; ");
+    desc << localise("Draw a card from %s; ", name);
     desc << lowercase_first(deck_description(deck));
 
     return desc.str();
