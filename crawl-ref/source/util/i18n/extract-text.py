@@ -22,6 +22,40 @@ def strip_comment(line):
     # no comment - return while line
     return line
 
+def is_debug_if(line):
+    return re.match(r'\s*#\s*ifdef .*DEBUG', line) or \
+       re.match(r'\s*#\s*ifdef .*VERBOSE', line) or \
+       re.match(r'\s*#\s*if +defined *\(DEBUG', line)
+
+# strip out stuff that is excluded by #ifdef's, etc.
+def strip_uncompiled(lines):
+    skip = False
+    result = []
+    ifs = []
+
+    for line in lines:
+
+        if re.match('^\s*#', line):
+            if re.match('^\s*#\s*if', line):
+                ifs.append(line)
+                # skip parts that are only included in DEBUG build
+                if is_debug_if(line):
+                    skip = True
+                    continue
+            elif re.match(r'\s*#\s*else', line):
+                if is_debug_if(ifs[-1]):
+                    skip = False
+                    continue
+            elif re.match(r'\s*#\s*endif', line):
+                if_line = ifs.pop()
+                if is_debug_if(if_line):
+                    skip = False
+                    continue
+
+        if not skip:
+            result.append(line)
+
+    return result
 
 SKIP_FILES = [ 
     # these just contain a bunch of compile flags, etc.
@@ -94,9 +128,11 @@ for filename in files:
         # NOTE: *? is a non-greedy match, and DOTALL allows dot to match newlines
         data = re.sub(r'/\*.*?\*/', '', data, 0, re.DOTALL)
 
-        # join split lines and remove comments
+        lines_raw = strip_uncompiled(data.splitlines())
         lines = []
-        for line in data.splitlines():
+
+        # join split lines and remove comments
+        for line in lines_raw:
 
             # ignore strings explicitly marked as not to be extracted
             if "noextract" in line:
@@ -127,20 +163,8 @@ for filename in files:
             lines.append(line)
 
         
-        skip = False
         for line in lines:
 
-            if skip:
-                if re.match(r'#\s*endif', line) or re.match(r'#\s*else', line):
-                    skip = False
-                continue
-            elif line[0] == '#':
-                # skip parts that are only included in DEBUG build
-                if re.match(r'#\s*ifdef .*DEBUG', line) or \
-                   re.match(r'#\s*ifdef .*VERBOSE', line) or \
-                   re.match(r'#\s*if +defined *\(DEBUG', line):
-                    skip = True
-                    continue
             if '"' not in line:
                 continue
 

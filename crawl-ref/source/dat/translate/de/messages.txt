@@ -6173,10 +6173,7 @@ You'd be excommunicated if you dared to cast it!\n
 " spell"
 
 %%%%
-"This spell has no description. Casting it may therefore be unwise. "
-
-%%%%
-Please file a bug report.
+This spell has no description. Casting it may therefore be unwise. Please file a bug report.
 
 %%%%
 "\nRange : "
@@ -7459,9 +7456,6 @@ Item buggily placed out of bounds at (%d, %d).
 Gegenstand fehlerhaft außerhalb der Grenzen bei (%d,%d) platziert.
 %%%%
 Had %d zones, now has %d%s%s.
-
-%%%%
-"; broken by "
 
 %%%%
 Isolated areas with no stairs.
@@ -16284,15 +16278,6 @@ Error: %s\n
 mapstat and objstat are available only in DEBUG_STATISTICS builds.\n
 
 %%%%
-Error parsing depths: %s\n
-
-%%%%
-Integer argument required for -%s\n
-
-%%%%
-String argument required for -%s\n
-
-%%%%
 list
 
 %%%%
@@ -19285,33 +19270,6 @@ Arena options: (Stage a tournament between various monsters.)
 "  -arena \"<monster list> v <monster list> arena:<arena map>\""
 
 %%%%
-"  -mapstat [<levels>] run map stats on the given range of levels"
-
-%%%%
-"      Defaults to entire dungeon; level ranges follow des DEPTH syntax."
-
-%%%%
-"      Examples: '-mapstat D,Depths' and '-mapstat Snake:1-4,Spider:1-4,Orc'"
-
-%%%%
-"  -dump-disconnect    In mapstat when a disconnected level is generated, dump"
-
-%%%%
-"      map to map.dump and exit"
-
-%%%%
-"  -objstat [<levels>] run monster and item stats on the given range of levels"
-
-%%%%
-"      Defaults to entire dungeon; same level syntax as -mapstat."
-
-%%%%
-"  -iters <num>        For -mapstat and -objstat, set the number of iterations"
-
-%%%%
-"  -force-map <map>    For -mapstat and -objstat, alway choose the       given map on every level."
-
-%%%%
 Miscellaneous options:
 
 %%%%
@@ -19679,9 +19637,6 @@ Failed to create item '
 %%%%
 Invalid brand on item %s, annulling.
 Ungültige Marke auf Artikel%s, annulliert.
-%%%%
-Running generate_armour_item tests.
-Ausführen von generate_armour_item-Tests.
 %%%%
 
 ##################
@@ -37728,19 +37683,10 @@ Do you really want to enter explore mode?
 Can't repeat entering explore mode
 
 %%%%
-<yellow>Player stats</yellow>\n<w>A</w>      set all skills to level\n<w>Ctrl-D</w> change enchantments/durations\n<w>g</w>      exercise a skill\n<w>k</w>      change experience level and skills\n<w>l</w>      change experience level\n<w>Ctrl-P</w> list props\n<w>r</w>      change character's species\n<w>s</w>      set skill to level\n<w>x</w>      gain an experience level\n<w>$</w>      set gold to a specified value\n<w>]</w>      get a mutation\n<w>_</w>      gain religion\n<w>^</w>      set piety to a value\n<w>@</w>      set Str Int Dex\n<w>#</w>      load character from a dump file\n<w>&</w>      list all divine followers\n<w>=</w>      show info about skill points\n<w>n</w>      set Zot clock to a value\n\n<yellow>Create level features</yellow>\n<w>L</w>      place a vault by name\n<w>T</w>      make a trap\n<w>,</w>/<w>.</w>    create up/down staircase\n<w>(</w>      turn cell into feature\n<w>\</w>      make a shop\n<w>K</w>      mark all vaults as unused\n\n<yellow>Other level related commands</yellow>\n<w>Ctrl-A</w> generate new Abyss area\n<w>b</w>      controlled blink\n<w>B</w>      controlled teleport\n<w>Ctrl-B</w> banish yourself to the Abyss\n<w>R</w>      change monster spawn rate\n<w>Ctrl-S</w> change Abyss speed\n<w>u</w>/<w>d</w>    shift up/down one level\n<w>~</w>      go to a specific level\n<w>:</w>      find branches and overflow\n       temples in the dungeon\n<w>;</w>      list known levels and counters\n<w>{</w>      magic mapping\n<w>Ctrl-W</w> change Shoals' tide speed\n<w>Ctrl-E</w> dump level builder information\n
+<yellow>Player stats</yellow>\n<w>A</w>      set all skills to level\n<w>Ctrl-D</w> change enchantments/durations\n<w>g</w>      exercise a skill\n<w>k</w>      change experience level and skills\n<w>l</w>      change experience level\n<w>Ctrl-P</w> list props\n<w>r</w>      change character's species\n<w>s</w>      set skill to level\n<w>x</w>      gain an experience level\n<w>$</w>      set gold to a specified value\n<w>]</w>      get a mutation\n<w>_</w>      gain religion\n<w>^</w>      set piety to a value\n<w>@</w>      set Str Int Dex\n<w>#</w>      load character from a dump file\n<w>&</w>      list all divine followers\n<w>=</w>      show info about skill points\n<w>n</w>      set Zot clock to a value\n\n<yellow>Create level features</yellow>\n<w>L</w>      place a vault by name\n<w>T</w>      make a trap\n<w>,</w>/<w>.</w>    create up/down staircase\n<w>(</w>      turn cell into feature\n<w>\</w>      make a shop\n<w>K</w>      mark all vaults as unused\n\n<yellow>Other level related commands</yellow>\n<w>Ctrl-A</w> generate new Abyss area\n<w>b</w>      controlled blink\n<w>B</w>      controlled teleport\n<w>Ctrl-B</w> banish yourself to the Abyss\n<w>R</w>      change monster spawn rate\n<w>Ctrl-S</w> change Abyss speed\n<w>u</w>/<w>d</w>    shift up/down one level\n<w>~</w>      go to a specific level\n<w>:</w>      find branches and overflow\n       temples in the dungeon\n<w>;</w>      list known levels and counters\n<w>{</w>      magic mapping\n<w>Ctrl-W</w> change Shoals' tide speed\n<w>Ctrl-E</w> dump level builder information\n<w>Ctrl-R</w> regenerate current level\n<w>P</w>      create a level based on a vault\n
 
 %%%%
-<w>Ctrl-R</w> regenerate current level\n<w>P</w>      create a level based on a vault\n
-
-%%%%
-<yellow>Other player related effects</yellow>\n<w>c</w>      card effect\n
-
-%%%%
-<w>h</w>/<w>H</w>    heal yourself (super-Heal)\n<w>X</w>      make Xom do something now\n<w>z</w>      cast spell by number/name\n<w>!</w>      memorise spell\n<w>W</w>      god wrath\n<w>w</w>      god mollification\n<w>p</w>      polymorph into a form\n<w>V</w>      toggle xray vision\n<w>E</w>      (un)freeze time\n\n<yellow>Monster related commands</yellow>\n<w>m</w>/<w>M</w>    create specified monster\n<w>D</w>      detect all monsters\n<w>G</w>      dismiss all monsters\n<w>"</w>      list monsters\n\n<yellow>Item related commands</yellow>\n<w>a</w>      acquirement\n<w>C</w>      (un)curse item\n<w>i</w>/<w>I</w>    identify/unidentify inventory\n<w>y</w>/<w>Y</w>    id/unid item types+level items\n<w>o</w>/<w>%</w>    create an object\n<w>t</w>      tweak object properties\n<w>v</w>      recharge all XP evokers\n<w>Ctrl-V</w> show gold value of an item\n<w>-</w>      get a god gift\n<w>|</w>      create all unrand artefacts\n<w>Ctrl-\</w> create all unrands / fallbacks\n<w>+</w>      make randart from item\n<w>'</w>      list items\n<w>J</w>      Jiyva off-level sacrifice\n\n<yellow>Debugging commands</yellow>\n<w>f</w>      quick fight simulation\n<w>F</w>      single scale fsim\n<w>Ctrl-F</w> double scale fsim\n<w>Ctrl-I</w> item generation stats\n<w>O</w>      measure exploration time\n<w>Ctrl-T</w> dungeon (D)Lua interpreter\n<w>Ctrl-U</w> client (C)Lua interpreter\n<w>Ctrl-X</w> Xom effect stats\n
-
-%%%%
-<w>Ctrl-Y</w> temporarily suppress wizmode\n<w>Ctrl-C</w> force a crash\n<w>`</w>      list unassigned command keys\n\n<yellow>Other wizard commands</yellow>\n(not prefixed with <w>&</w>!)\n<w>x?</w>     list targeted commands\n<w>X?</w>     list map-mode commands\n
+<yellow>Other player related effects</yellow>\n<w>c</w>      card effect\n<w>h</w>/<w>H</w>    heal yourself (super-Heal)\n<w>X</w>      make Xom do something now\n<w>z</w>      cast spell by number/name\n<w>!</w>      memorise spell\n<w>W</w>      god wrath\n<w>w</w>      god mollification\n<w>p</w>      polymorph into a form\n<w>V</w>      toggle xray vision\n<w>E</w>      (un)freeze time\n\n<yellow>Monster related commands</yellow>\n<w>m</w>/<w>M</w>    create specified monster\n<w>D</w>      detect all monsters\n<w>G</w>      dismiss all monsters\n<w>"</w>      list monsters\n\n<yellow>Item related commands</yellow>\n<w>a</w>      acquirement\n<w>C</w>      (un)curse item\n<w>i</w>/<w>I</w>    identify/unidentify inventory\n<w>y</w>/<w>Y</w>    id/unid item types+level items\n<w>o</w>/<w>%</w>    create an object\n<w>t</w>      tweak object properties\n<w>v</w>      recharge all XP evokers\n<w>Ctrl-V</w> show gold value of an item\n<w>-</w>      get a god gift\n<w>|</w>      create all unrand artefacts\n<w>Ctrl-\</w> create all unrands / fallbacks\n<w>+</w>      make randart from item\n<w>'</w>      list items\n<w>J</w>      Jiyva off-level sacrifice\n\n<yellow>Debugging commands</yellow>\n<w>f</w>      quick fight simulation\n<w>F</w>      single scale fsim\n<w>Ctrl-F</w> double scale fsim\n<w>Ctrl-I</w> item generation stats\n<w>O</w>      measure exploration time\n<w>Ctrl-T</w> dungeon (D)Lua interpreter\n<w>Ctrl-U</w> client (C)Lua interpreter\n<w>Ctrl-X</w> Xom effect stats\n<w>Ctrl-Y</w> temporarily suppress wizmode\n<w>Ctrl-C</w> force a crash\n<w>`</w>      list unassigned command keys\n\n<yellow>Other wizard commands</yellow>\n(not prefixed with <w>&</w>!)\n<w>x?</w>     list targeted commands\n<w>X?</w>     list map-mode commands\n
 
 %%%%
 
@@ -37908,12 +37854,6 @@ random mutations
 
 %%%%
 give %smutation%s
-
-%%%%
-"good "
-
-%%%%
-"random "
 
 %%%%
 Your body is suffused with distortional energy.
@@ -38256,9 +38196,6 @@ teleportation journey
 
 %%%%
 %d-stop teleportation journey%s
-
-%%%%
-" (dangerous)"
 
 %%%%
 detect creatures
