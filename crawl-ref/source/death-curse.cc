@@ -98,7 +98,6 @@ static void _ouch(actor& target, const actor * source, int dam,
 
 struct  curse_effect
 {
-    string name;
     function<void (actor& target, actor* source,
              string cause, int severity)> effect;
     int trivial_weight; // Weight at severity 0
@@ -160,12 +159,12 @@ static void _curse_message(actor& target, actor* /*source*/,
  */
 static const vector<curse_effect> curse_effects = {
     {
-        "message",
+        // message
         _curse_message,
         80, 0,
     },
     {
-        "pain",
+        // pain
         [](actor& target, actor* source, string cause, int severity) {
             if (target.res_torment())
             {
@@ -190,7 +189,7 @@ static const vector<curse_effect> curse_effects = {
         20, 40,
     },
     {
-        "slow",
+        // slow
         [](actor& target, actor* source, string /*cause*/, int severity) {
             _do_msg(target,
                     "You feel horribly lethargic.",
@@ -201,7 +200,7 @@ static const vector<curse_effect> curse_effects = {
         0, 40,
     },
     {
-        "drain",
+        // drain
         [](actor& target, actor* source, string /*cause*/, int severity) {
             _do_msg(target,
                     "You are engulfed in negative energy!",
@@ -215,7 +214,7 @@ static const vector<curse_effect> curse_effects = {
         0, 40,
     },
     {
-        "torment",
+        // torment
         [](actor& target, actor* source,
            string /*cause*/, int /*severity*/) {
             torment_cell(target.pos(), source, TORMENT_MISCAST);

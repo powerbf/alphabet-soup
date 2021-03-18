@@ -2952,9 +2952,6 @@ You hear strange and distant voices.
 Your bones ache.
 
 %%%%
-message
-
-%%%%
 You feel weird for a moment.
 
 %%%%
@@ -3624,6 +3621,9 @@ keypress
 
 %%%%
 hungry
+
+%%%%
+message
 
 %%%%
 stat
