@@ -3475,9 +3475,10 @@ void describe_deck(deck_type deck)
     describe_info inf;
 
     if (deck == DECK_STACK)
-        inf.title = "A stacked deck";
+        inf.title = "a stacked deck";
     else
-        inf.title = "The " + deck_name(deck);
+        inf.title = "the " + deck_name(deck);
+    inf.title = uppercase_first(localise(inf.title));
 
     inf.body << deck_description(deck);
 

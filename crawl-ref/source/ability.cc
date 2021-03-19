@@ -1189,8 +1189,11 @@ static string _nemelex_desc(ability_type ability)
     ostringstream desc;
     deck_type deck = ability_deck(ability);
 
-    string name = (deck == DECK_STACK ? "your " : "the "); // noextract
-    name += deck_name(deck);
+    string name;
+    if (deck == DECK_STACK)
+        name = "your stacked deck";
+    else
+        name = "the " + deck_name(deck); // noextract
 
     desc << localise("Draw a card from %s; ", name);
     desc << lowercase_first(deck_description(deck));

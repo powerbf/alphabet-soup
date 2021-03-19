@@ -1805,7 +1805,7 @@ string deck_name(deck_type deck)
     if (deck == DECK_STACK)
         return "stacked deck";
     const deck_type_data *deck_data = map_find(all_decks, deck);
-    const string name = deck_data ? deck_data->name : "bugginess";
+    const string name = deck_data ? deck_data->name : "bugginess"; // noextract
     return "deck of " + name;
 }
 

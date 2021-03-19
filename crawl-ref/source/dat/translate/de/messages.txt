@@ -273,7 +273,7 @@ Sacrifices cannot be taken back.
 
 %%%%
 "Draw a card from %s; "
-
+"Eine Karte aus {dat}%s ziehen; "
 %%%%
 " ability"
 
@@ -2993,22 +2993,13 @@ Something is engulfed in negative energy!
 # decks.cc
 ##################
 %%%%
-escape
-
-%%%%
 A deck of cards, mainly dealing with various forms of escape.
-
-%%%%
-destruction
 
 %%%%
 A deck of cards, most of which hurl death and destruction at one's foes (or, if unlucky, at oneself).
 
 %%%%
 A deck of cards, depicting a range of weird and wonderful creatures.
-
-%%%%
-punishment
 
 %%%%
 A deck of cards, which wreak havoc on the user.
@@ -3265,9 +3256,6 @@ You feel cataclysmic peals of thunder!
 %%%%
 You feel a surge of magic.
 Ihr fühlt eine Welle von Magie.
-%%%%
-stacked deck
-
 %%%%
 "deck of "
 
@@ -6183,12 +6171,6 @@ Chance to defeat your Will: %d%%%s\n
 
 %%%%
 ":\n "
-
-%%%%
-A stacked deck
-
-%%%%
-"The "
 
 %%%%
 "It has "
@@ -14235,6 +14217,9 @@ Beware, sometimes these can be deadly!
 
 %%%%
 Many forms of combat will spatter the surroundings with blood (if the victim has any, that is). Some monsters, like jackals or vampires, can smell blood from a distance and may come looking.
+
+%%%%
+"The "
 
 %%%%
 "are "
