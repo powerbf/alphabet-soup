@@ -3461,7 +3461,7 @@ void describe_spell(spell_type spell, const monster_info *mon_owner,
 void describe_ability(ability_type ability)
 {
     describe_info inf;
-    inf.title = ability_name(ability);
+    inf.title = localise(ability_name(ability));
     inf.body << get_ability_desc(ability, false);
     tile_def tile = tile_def(tileidx_ability(ability));
     show_description(inf, &tile);
