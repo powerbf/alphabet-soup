@@ -3262,23 +3262,6 @@ Ihr fühlt eine Welle von Magie.
 %%%%
 
 ##################
-# defines.h
-##################
-%%%%
-monster-hit-dice
-
-%%%%
-monster-number
-
-%%%%
-corpse-no-decay
-
-%%%%
-monster-mid
-
-%%%%
-
-##################
 # delay.h
 ##################
 %%%%
