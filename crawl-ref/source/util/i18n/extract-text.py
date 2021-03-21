@@ -196,13 +196,13 @@ for filename in files:
                 continue
 
             # ignore lua function calls
-            if re.search(r'callfn *\(', line):
+            if re.search(r'call[a-zA-Z]*fn *\(', line):
                 continue
 
             # Leave notes/milsones in English
             if re.search('take_note', line) or re.search('mark_milestone', line):
                 continue
-            if re.search(r'\bmalmutate\s*\(', line):
+            if re.search(r'mutate\s*\(', line):
                 continue
 
             # ouch and hurt strings just go to score file

@@ -3277,26 +3277,8 @@ Ihr zieht%s weiter aus.
 You continue memorising.
 Ihr lernt weiter.
 %%%%
-memorise
-
-%%%%
 You continue meditating on the rock.
 Ihr meditiert weiter auf dem Felsen.
-%%%%
-passwall
-
-%%%%
-multidrop
-
-%%%%
-rest
-
-%%%%
-travel
-
-%%%%
-macro
-
 %%%%
 You continue digging a shaft.
 Ihr grabt weiter einen Schacht.
@@ -3307,14 +3289,8 @@ Ihr liet weiter die Schriftrolle.
 You continue bloodletting.
 Ihr macht weiter Blutvergießen.
 %%%%
-exsanguinate
-
-%%%%
 You continue your ritual.
 Ihr setzt Euer Ritual fort.
-%%%%
-revivify
-
 %%%%
 
 ##################
@@ -3330,13 +3306,19 @@ Ihr hört auf Sachen fallen zu lassen.
 Keep equipping yourself?
 
 %%%%
-You stop putting on your %s.
+You stop putting on your amulet.
+
+%%%%
+You stop putting on your armour.
 
 %%%%
 Keep disrobing?
 
 %%%%
-You stop removing your %s.
+You stop removing your amulet.
+
+%%%%
+You stop removing your armour.
 
 %%%%
 Keep reading the scroll?
@@ -3372,10 +3354,16 @@ Ihr hört auf zu beleben.
 Done waiting.
 Fertig warten.
 %%%%
-You start putting on your %s.
+You start putting on your amulet.
 
 %%%%
-You start removing your %s.
+You start putting on your armour.
+
+%%%%
+You start removing your amulet.
+
+%%%%
+You start removing your armour.
 
 %%%%
 %s grants you knowledge of %s.
@@ -3399,10 +3387,7 @@ Ihr fangt an Blut zu lassen.
 You begin the revivification ritual.
 Ihr beginnt das Wiederbelebungsritual.
 %%%%
-"Really put on "
-
-%%%%
-" while about to teleport?"
+Really put on %s while about to teleport?
 
 %%%%
 You finish putting on %s.
@@ -3429,70 +3414,61 @@ Jetzt unblutig.
 Now alive.
 Jetzt lebt.
 %%%%
-vampire revification
-
-%%%%
-s
-
-%%%%
 CLua bindings not available on this build!
 
 %%%%
-sA
+%s appears in a burst of microwaves!
 
 %%%%
-" appears in a burst of microwaves!"
+%s pops from nullspace!
 
 %%%%
-" pops from nullspace!"
+%s appears in a shower of translocational energy.
 
 %%%%
-" appears in a shower of translocational energy."
+%s appears in a shower of sparks.
 
 %%%%
-" appears in a shower of sparks."
+%s materialises.
 
 %%%%
-" materialises."
+%s emerges from chaos.
 
 %%%%
-" emerges from chaos."
+%s emerges from the beyond.
 
 %%%%
-" emerges from the beyond."
+%s coalesces!
 
 %%%%
-" assembles %s!"
+%s erupts from nowhere.
 
 %%%%
-" erupts from nowhere."
+%s bursts from nowhere.
 
 %%%%
-" bursts from nowhere."
+%s is cast out of space.
 
 %%%%
-" is cast out of space."
+%s is cast out of reality.
 
 %%%%
-" is cast out of reality."
+%s coalesces out of pure chaos.
 
 %%%%
-" coalesces out of pure chaos."
+%s coalesces out of seething chaos.
 
 %%%%
-" coalesces out of seething chaos."
+%s punctures the fabric of time!
 
 %%%%
-" punctures the fabric of time!"
+%s punctures the fabric of the universe.
 
 %%%%
-" punctures the fabric of the universe."
+%s manifests!
 
 %%%%
-" manifests%s!"
-
-%%%%
-" with a bang"
+%s manifests with a bang!
 
 %%%%
 You sense a monster nearby.
@@ -3501,65 +3477,59 @@ Ihr spürt ein Monster in der Nähe.
 %s is too close now for your liking.
 %s ist jetzt zu nah für Euren Geschmack.
 %%%%
-" opens the door."
+%s opens the door.
 
 %%%%
-" opens the gate."
+%s opens the gate.
 
 %%%%
-" appears from thin air!"
+%s appears from thin air!
+%s erscheint aus der Luft!
+%%%%
+%s leaps into view!
 
 %%%%
-" leaps into view!"
+%s bursts forth from the lava.
 
 %%%%
-" bursts forth from the "
+%s bursts forth from the water.
+%s platzt aus dem Wasser.
+%%%%
+%s emerges from the water.
 
 %%%%
-lava
+%s comes up the stairs.
 
 %%%%
-realm of bugdom
+%s comes down the stairs.
 
 %%%%
-" emerges from the water."
+%s comes through the gate.
 
 %%%%
-" comes up the stairs."
+%s is thrown into view!
 
 %%%%
-" comes down the stairs."
+%s comes into view.
+%s kommt in Sicht.
+%%%%
+%s warns you: It is a foul glowing shapeshifter.
 
 %%%%
-" comes through the gate."
-
-%%%%
-" is thrown into view!"
-
-%%%%
-" comes into view."
-
-%%%%
-" warns you: "
+%s warns you: It is a foul shapeshifter.
 
 %%%%
 are
 
 %%%%
-" a foul "
-
-%%%%
-shapeshifter.
-
-%%%%
 Gozag incites %s against you.
-Gozag stiftet%s gegen Euch an.
+Gozag verhetzt %s gegen Euch.
 %%%%
 Deactivating autopickup; reactivate with <w>%s</w>.
-
+Autopickup deaktiviert. Reaktivieren mit <w>%s</w>.
 %%%%
 Reactivating autopickup.
-Autopickup reaktivieren.
+Autopickup reaktiviert.
 %%%%
 HP restored.
 HP wiederhergestellt.
@@ -3569,30 +3539,6 @@ Magie wiederhergestellt.
 %%%%
 Ancestor HP restored.
 Ahnen HP wiederhergestellt.
-%%%%
-force
-
-%%%%
-keypress
-
-%%%%
-hungry
-
-%%%%
-message
-
-%%%%
-stat
-
-%%%%
-monster
-
-%%%%
-teleport
-
-%%%%
-mimic
-
 %%%%
 
 ##################
@@ -4962,6 +4908,9 @@ less
 more
 
 %%%%
+teleport
+
+%%%%
 permanent teleport
 
 %%%%
@@ -5958,9 +5907,6 @@ Hints.
 feats
 
 %%%%
-i
-
-%%%%
 (w)ield
 
 %%%%
@@ -6022,6 +5968,9 @@ tiles
 
 %%%%
 "        School%s: %s"
+
+%%%%
+s
 
 %%%%
 0%
@@ -6121,6 +6070,9 @@ You'd be excommunicated if you dared to cast it!\n
 
 %%%%
 "\nYou cannot "
+
+%%%%
+memorise
 
 %%%%
 " this spell because "
@@ -7036,6 +6988,9 @@ Targeting durch HUP-Signal unterbrochen.
 Out of range.
 
 %%%%
+lava
+
+%%%%
 sanctuary
 
 %%%%
@@ -7517,6 +7472,9 @@ ident
 
 %%%%
 unobtainable
+
+%%%%
+mimic
 
 %%%%
 ERROR: %s already generated somewhere else; please file a bug report.
@@ -8740,6 +8698,9 @@ status
 
 %%%%
 es
+
+%%%%
+i
 
 %%%%
 larva
@@ -11651,9 +11612,6 @@ a modest
 
 %%%%
 a trivial
-
-%%%%
-Ru sacrifice
 
 %%%%
 Ru asks you to %s.
@@ -15652,9 +15610,6 @@ Expected a decimal value for tile_viewport_scale, but got '%s'.
 Expected a decimal value for tile_map_scale, but got '%s'.
 
 %%%%
-ssd
-
-%%%%
 dwarven
 
 %%%%
@@ -15965,6 +15920,9 @@ vscores
 
 %%%%
 scorefile
+
+%%%%
+macro
 
 %%%%
 mapstat
@@ -18208,6 +18166,9 @@ constricting you
 holding you
 
 %%%%
+monster
+
+%%%%
 
 ##################
 # l-mons.cc
@@ -18337,6 +18298,9 @@ Bad branch name: '%s'
 
 %%%%
 Bad waypoint number: %d
+
+%%%%
+travel
 
 %%%%
 
@@ -22429,9 +22393,6 @@ dies
 %s seems less confused.
 
 %%%%
-%s appears from thin air!
-%s erscheint aus der Luft!
-%%%%
 %s breaks free of your control!
 %s befreit sich von Eurer Kontrolle!
 %%%%
@@ -22473,9 +22434,6 @@ no longer
 %%%%
 %s is on the same square as you!
 %s ist auf dem gleichen Feld wie Ihr!
-%%%%
-%s bursts forth from the water.
-%s platzt aus dem Wasser.
 %%%%
 Something invisible bursts forth from the water.
 Etwas Unsichtbares platzt aus dem Wasser.
@@ -28632,9 +28590,6 @@ You feel monstrous as your demonic heritage exerts itself.
 Your demonic ancestry asserts itself...
 
 %%%%
-demonic ancestry
-
-%%%%
 Your scales feel tougher.
 Eure Schuppen fühlen sich härter an.
 %%%%
@@ -29251,12 +29206,6 @@ Magie fließt durch Euren Körper.
 %%%%
 You feel slightly irritated.
 Ihr fühlt Euch leicht irritiert.
-%%%%
-You cannot mutate%s.
-
-%%%%
-" at present"
-
 %%%%
 Really become a tree while standing in a cloud of %s?
 
@@ -31846,9 +31795,6 @@ pale cyan-grey
 plain brown
 
 %%%%
-" growth"
-
-%%%%
 %s fall%s away.
 %s fallen%s weg.
 %%%%
@@ -33405,6 +33351,9 @@ You sense a deep body of water on the other side of the rock.
 You sense an intense heat on the other side of the rock.
 
 %%%%
+passwall
+
+%%%%
 %s looks rather confused.
 
 %%%%
@@ -34557,9 +34506,6 @@ Can't redo that command.
 Command repetition interrupted.
 
 %%%%
-%s comes into view.
-%s kommt in Sicht.
-%%%%
 ) in view: (%d,%d), see_cell: %s
 
 %%%%
@@ -35655,9 +35601,6 @@ magical storm
 a magical explosion
 
 %%%%
-mutagenic glow
-
-%%%%
 Your body momentarily shudders from a surge of wild energies until Zin's power calms it.
 
 %%%%
@@ -36378,6 +36321,9 @@ Wegpunkt %d %s zugewiesen.
 Stopped running for exclusion.
 Zum Ausschluss nicht mehr ausgeführt.
 %%%%
+rest
+
+%%%%
 " (under bush)"
 
 %%%%
@@ -36491,6 +36437,9 @@ progress-bar
 ##################
 %%%%
 There
+
+%%%%
+" a foul "
 
 %%%%
 %s warns you: %s
@@ -37472,9 +37421,6 @@ Mut-Resistenz ignorieren, um Mutation anzuwenden.
 "Which mutation (name, 'good', 'bad', 'any', 'xom', 'slime', 'qazlal')? "
 
 %%%%
-wizard power
-
-%%%%
 No matching mutation names.
 Keine passenden Mutationsnamen.
 %%%%
@@ -37485,6 +37431,9 @@ Found #%d: %s ("%s")
 Gefunden #%d: %s ("%s")
 %%%%
 "How many levels to increase or decrease? "
+
+%%%%
+wizard power
 
 %%%%
 "Enter values for X, Y, Z (space separated) or return: "
@@ -37817,12 +37766,6 @@ give %smutation%s
 %%%%
 Your body is suffused with distortional energy.
 Euer Körper ist voller Verzerrungsenergie.
-%%%%
-Xom's grace
-
-%%%%
-Xom's mischief
-
 %%%%
 The area is suffused with divine lightning!
 

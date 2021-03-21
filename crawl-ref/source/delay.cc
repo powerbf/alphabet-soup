@@ -72,11 +72,6 @@ int interrupt_block::interrupts_blocked = 0;
 
 static const char *_activity_interrupt_name(activity_interrupt ai);
 
-static string _eq_category(const item_def &equip)
-{
-    return equip.base_type == OBJ_JEWELLERY ? "amulet" : "armour";
-}
-
 void push_delay(shared_ptr<Delay> delay)
 {
     if (delay->is_run())
@@ -159,7 +154,10 @@ bool EquipOnDelay::try_interrupt()
         if (!crawl_state.disables[DIS_CONFIRMATIONS]
             && !yesno("Keep equipping yourself?", false, 0, false))
         {
-            mprf("You stop putting on your %s.", _eq_category(equip).c_str());
+            if (equip.base_type == OBJ_JEWELLERY)
+                mprf(MSGCH_MULTITURN_ACTION, "You stop putting on your amulet.");
+            else
+                mprf(MSGCH_MULTITURN_ACTION, "You stop putting on your armour.");
             return true;
         }
         else
@@ -175,7 +173,10 @@ bool EquipOffDelay::try_interrupt()
         if (!crawl_state.disables[DIS_CONFIRMATIONS]
             && !yesno("Keep disrobing?", false, 0, false))
         {
-            mprf("You stop removing your %s.", _eq_category(equip).c_str());
+            if (equip.base_type == OBJ_JEWELLERY)
+                mprf(MSGCH_MULTITURN_ACTION, "You stop removing your amulet.");
+            else
+                mprf(MSGCH_MULTITURN_ACTION, "You stop removing your armour.");
             return true;
         }
         else
@@ -391,14 +392,18 @@ void clear_macro_process_key_delay()
 
 void EquipOnDelay::start()
 {
-    mprf(MSGCH_MULTITURN_ACTION, "You start putting on your %s.",
-         _eq_category(equip).c_str());
+    if (equip.base_type == OBJ_JEWELLERY)
+        mprf(MSGCH_MULTITURN_ACTION, "You start putting on your amulet.");
+    else
+        mprf(MSGCH_MULTITURN_ACTION, "You start putting on your armour.");
 }
 
 void EquipOffDelay::start()
 {
-    mprf(MSGCH_MULTITURN_ACTION, "You start removing your %s.",
-         _eq_category(equip).c_str());
+    if (equip.base_type == OBJ_JEWELLERY)
+        mprf(MSGCH_MULTITURN_ACTION, "You start removing your amulet.");
+    else
+        mprf(MSGCH_MULTITURN_ACTION, "You start removing your armour.");
 }
 
 void MemoriseDelay::start()
@@ -641,9 +646,8 @@ void JewelleryOnDelay::finish()
         && needs_notele_warning(jewellery, OPER_PUTON)
         && item_ident(jewellery, ISFLAG_KNOW_TYPE))
     {
-        string prompt = "Really put on ";
-        prompt += jewellery.name(DESC_INVENTORY);
-        prompt += " while about to teleport?";
+        string prompt = localise("Really put on %s while about to teleport?",
+                                 jewellery.name(DESC_INVENTORY));
         if (!yesno(prompt.c_str(), false, 'n'))
             return;
     }
@@ -977,29 +981,28 @@ static string _abyss_monster_creation_message(const monster* mon)
 {
     if (mon->type == MONS_DEATH_COB)
     {
-        return coinflip() ? " appears in a burst of microwaves!"
-                          : " pops from nullspace!";
+        return coinflip() ? "%s appears in a burst of microwaves!"
+                          : "%s pops from nullspace!";
     }
 
     // You may ask: "Why these weights?" So would I!
     const vector<pair<string, int>> messages = {
-        { " appears in a shower of translocational energy.", 17 },
-        { " appears in a shower of sparks.", 34 },
-        { " materialises.", 45 },
-        { " emerges from chaos.", 13 },
-        { " emerges from the beyond.", 26 },
-        { make_stringf(" assembles %s!",
-                       mon->pronoun(PRONOUN_REFLEXIVE).c_str()), 33 },
-        { " erupts from nowhere.", 9 },
-        { " bursts from nowhere.", 18 },
-        { " is cast out of space.", 7 },
-        { " is cast out of reality.", 14 },
-        { " coalesces out of pure chaos.", 5 },
-        { " coalesces out of seething chaos.", 10 },
-        { " punctures the fabric of time!", 2 },
-        { " punctures the fabric of the universe.", 7 },
-        { make_stringf(" manifests%s!",
-                       silenced(you.pos()) ? "" : " with a bang"), 3 },
+        { "%s appears in a shower of translocational energy.", 17 },
+        { "%s appears in a shower of sparks.", 34 },
+        { "%s materialises.", 45 },
+        { "%s emerges from chaos.", 13 },
+        { "%s emerges from the beyond.", 26 },
+        { "%s coalesces!", 33 },
+        { "%s erupts from nowhere.", 9 },
+        { "%s bursts from nowhere.", 18 },
+        { "%s is cast out of space.", 7 },
+        { "%s is cast out of reality.", 14 },
+        { "%s coalesces out of pure chaos.", 5 },
+        { "%s coalesces out of seething chaos.", 10 },
+        { "%s punctures the fabric of time!", 2 },
+        { "%s punctures the fabric of the universe.", 7 },
+        { silenced(you.pos()) ? "%s manifests!"
+                              : "%s manifests with a bang!", 3 },
 
 
     };
@@ -1053,48 +1056,49 @@ static inline bool _monster_warning(activity_interrupt ai,
         // seen_monster
         view_monster_equipment(mon);
 
-        string text = getMiscString(mon->name(DESC_DBNAME) + " title");
-        if (text.empty())
-            text = mon->full_name(DESC_A);
+        string name = getMiscString(mon->name(DESC_DBNAME) + " title");
+        if (name.empty())
+            name = mon->full_name(DESC_A);
         if (mon->type == MONS_PLAYER_GHOST)
         {
-            text += make_stringf(" (%s)",
+            name += make_stringf(" (%s)",
                                  short_ghost_description(mon).c_str());
         }
 
+        string text;
         if (at.context == SC_DOOR)
-            text += " opens the door.";
+            text = "%s opens the door.";
         else if (at.context == SC_GATE)
-            text += " opens the gate.";
+            text = "%s opens the gate.";
         else if (at.context == SC_TELEPORT_IN)
-            text += " appears from thin air!";
+            text = "%s appears from thin air!";
         else if (at.context == SC_LEAP_IN)
-            text += " leaps into view!";
+            text = "%s leaps into view!";
         else if (at.context == SC_FISH_SURFACES)
         {
-            text += " bursts forth from the ";
             if (mons_primary_habitat(*mon) == HT_LAVA)
-                text += "lava";
+                text = "%s bursts forth from the lava.";
             else if (mons_primary_habitat(*mon) == HT_WATER)
-                text += "water";
+                text = "%s bursts forth from the water.";
             else
-                text += "realm of bugdom";
-            text += ".";
+                text = "%s bursts forth from the realm of bugdom."; // noextract
         }
         else if (at.context == SC_NONSWIMMER_SURFACES_FROM_DEEP)
-            text += " emerges from the water.";
+            text = "%s emerges from the water.";
         else if (at.context == SC_UPSTAIRS)
-            text += " comes up the stairs.";
+            text = "%s comes up the stairs.";
         else if (at.context == SC_DOWNSTAIRS)
-            text += " comes down the stairs.";
+            text = "%s comes down the stairs.";
         else if (at.context == SC_ARCH)
-            text += " comes through the gate.";
+            text = "%s comes through the gate.";
         else if (at.context == SC_ABYSS)
-            text += _abyss_monster_creation_message(mon);
+            text = _abyss_monster_creation_message(mon);
         else if (at.context == SC_THROWN_IN)
-            text += " is thrown into view!";
+            text = "%s is thrown into view!";
         else
-            text += " comes into view.";
+            text = "%s comes into view.";
+
+        text = localise(text, name);
 
         bool zin_id = false;
         string god_warning;
@@ -1106,15 +1110,10 @@ static inline bool _monster_warning(activity_interrupt ai,
             zin_id = true;
             mon->props["zin_id"] = true;
             discover_shifter(*mon);
-            god_warning = uppercase_first(god_name(you.religion))
-                          + " warns you: "
-                          + uppercase_first(mon->pronoun(PRONOUN_SUBJECTIVE))
-                          + " "
-                          + conjugate_verb("are", mon->pronoun_plurality())
-                          + " a foul ";
             if (mon->has_ench(ENCH_GLOWING_SHAPESHIFTER))
-                god_warning += "glowing ";
-            god_warning += "shapeshifter.";
+                god_warning = "%s warns you: It is a foul glowing shapeshifter.";
+            else
+                god_warning = "%s warns you: It is a foul shapeshifter.";
         }
 
         monster_info mi(mon);
@@ -1124,7 +1123,8 @@ static inline bool _monster_warning(activity_interrupt ai,
 
         if (!mweap.empty())
         {
-            text += " " + uppercase_first(mon->pronoun(PRONOUN_SUBJECTIVE))
+            // i18n: TODO: Fix this
+            text += " "+ uppercase_first(mon->pronoun(PRONOUN_SUBJECTIVE))
                 + " " + conjugate_verb("are", mi.pronoun_plurality())
                 + (mweap[0] != ' ' ? " " : "")
                 + mweap + ".";
@@ -1134,9 +1134,12 @@ static inline bool _monster_warning(activity_interrupt ai,
             msgs_buf->push_back(text);
         else
         {
-            mprf(MSGCH_MONSTER_WARNING, "%s", text.c_str());
+            mpr_nolocalise(MSGCH_MONSTER_WARNING, text);
             if (zin_id)
-                mprf(MSGCH_GOD, "%s", god_warning.c_str());
+            {
+                mprf(MSGCH_GOD, god_warning.c_str(),
+                     god_name(you.religion).c_str());
+            }
 #ifndef USE_TILE_LOCAL
             if (zin_id)
                 update_monster_pane();
@@ -1297,9 +1300,10 @@ bool interrupt_activity(activity_interrupt ai,
 // Must match the order of activity_interrupt.h!
 static const char *activity_interrupt_names[] =
 {
-    "force", "keypress", "full_hp", "full_mp", "ancestor_hp", "hungry", "message",
-    "hp_loss", "stat", "monster", "monster_attack", "teleport", "hit_monster",
-    "sense_monster", "mimic"
+    "force", "keypress", "full_hp", "full_mp", "ancestor_hp",  // noextract
+    "hungry", "message", "hp_loss", "stat", "monster", // noextract
+    "monster_attack", "teleport", "hit_monster", "sense_monster", // noextract
+    "mimic" // noextract
 };
 
 static const char *_activity_interrupt_name(activity_interrupt ai)
