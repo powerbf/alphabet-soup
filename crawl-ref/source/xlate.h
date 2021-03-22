@@ -15,7 +15,8 @@ using std::string;
 //  (for disambiguating same English text used in different contexts which may require different translations)
 //  if no translation is found in the specified context, will look for translation at global (no) context
 // msgid = English text to be translated
-string cxlate(const string &context, const string &msgid);
+// fallback_en = fall back to English if no translation is found?
+string cxlate(const string &context, const string &msgid, bool fallback_en = true);
 
 // translate with context and number
 // returns the plural form corresponding to number
@@ -30,9 +31,9 @@ string cnxlate(const string &context,
         const string &msgid1, const string &msgid2, unsigned long n);
 
 // translate with no context
-static inline string xlate(const string &msgid)
+static inline string xlate(const string &msgid, bool fallback_en = true)
 {
-    return cxlate("", msgid);
+    return cxlate("", msgid, fallback_en);
 }
 
 // translate with number (no context)

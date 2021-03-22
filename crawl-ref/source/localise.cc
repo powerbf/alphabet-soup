@@ -1407,4 +1407,70 @@ int localise_char(char ch)
     }
 }
 
+/**
+ * Localise a string with embedded @foo@ style parameters
+ */
+string localise(const string& text_en, const map<string, string>& params)
+{
+    if (text_en.empty())
+        return "";
+    else if (_skip_translation())
+        return replace_keys(text_en, params);
 
+    _context = "";
+    string text = xlate(text_en, false);
+    if (text.empty())
+    {
+        // try to translate completed English string
+        return xlate(replace_keys(text_en, params));
+    }
+
+    size_t at = 0;
+    size_t last = 0;
+    ostringstream res;
+    while ((at = text.find_first_of("@{", last)) != string::npos)
+    {
+        res << text.substr(last, at - last);
+        size_t end;
+        if (text[at] == '{')
+        {
+            // context specifier
+            end = text.find('}', at + 1);
+            if (end == string::npos)
+                break;
+
+            _context = text.substr(at + 1, end - at - 1);
+        }
+        else
+        {
+            // parameter
+            end = text.find('@', at + 1);
+            if (end == string::npos)
+                break;
+
+            const string key = text.substr(at + 1, end - at - 1);
+            const string* value_en = map_find(params, key);
+            if (value_en)
+            {
+                // translate value and insert
+                string value = _localise_string(_context, *value_en);
+                if (!key.empty() && isupper(key[0]))
+                    value = uppercase_first(value);
+                res << value;
+            }
+            else
+            {
+                // no value - leave the @foo@ tag
+                res << '@' << key << '@';
+            }
+        }
+
+        last = end + 1;
+    }
+
+    if (!last)
+        return text;
+
+    res << text.substr(last);
+    return res.str();
+}

@@ -59,4 +59,15 @@ int main()
     msg = uppercase_first(msg);
     show_result(msg, "Eine graue Kuh ist glücklich.");
 
+    // test with @foo@ style placeholders
+
+    map<string, string> params;
+    params["The_monster"] = "the orc";
+    msg = localise("@The_monster@ hits you.", params);
+    show_result(msg, "Der Ork schlägt Euch.");
+
+    params.clear();
+    params["the_monster"] = "the orc";
+    msg = localise("You hit @the_monster@.", params);
+    show_result(msg, "Ihr schlagt den Ork.");
 }
