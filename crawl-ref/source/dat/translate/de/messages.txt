@@ -3557,55 +3557,31 @@ You are under penance.
 You should show more discipline.
 
 %%%%
-"A prized avatar of "
+A prized avatar of %s.
 
 %%%%
-"A favoured servant of "
+A favoured servant of %s.
 
 %%%%
-"A glorious shadow in the eyes of "
+A glorious shadow in the eyes of %s.
 
 %%%%
-"A shining star in the eyes of "
+A shining star in the eyes of %s.
 
 %%%%
-"A rising shadow in the eyes of "
+A rising shadow in the eyes of %s.
 
 %%%%
-"A rising star in the eyes of "
+A rising star in the eyes of %s.
 
 %%%%
-" is pleased with you."
+%s is pleased with you.
 
 %%%%
-" is aware of your devotion."
+%s is aware of your devotion.
 
 %%%%
-" is noncommittal."
-
-%%%%
-Buglet
-
-%%%%
-Firebug
-
-%%%%
-Bogeybug
-
-%%%%
-Bugger
-
-%%%%
-Bugbear
-
-%%%%
-Bugged One
-
-%%%%
-Giant Bug
-
-%%%%
-Lord of the Bugs
+%s is noncommittal.
 
 %%%%
 Blasphemer
@@ -4208,13 +4184,7 @@ Genus
 Walking
 
 %%%%
-ing
-
-%%%%
 Walker
-
-%%%%
-er
 
 %%%%
 Ashenzari won't support your skills until you bind yourself with cursed items.
@@ -31502,6 +31472,9 @@ Shapeless @Genus@
 Fire Magic
 
 %%%%
+Firebug
+
+%%%%
 Arsonist
 
 %%%%
@@ -31761,9 +31734,6 @@ Sound support (SDL_mixer)
 ##################
 # species.cc
 ##################
-%%%%
-Walk
-
 %%%%
 kneel at
 

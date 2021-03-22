@@ -91,38 +91,40 @@ static string _describe_favour(god_type which_god)
     if (player_under_penance())
     {
         const int penance = you.penance[which_god];
-        return (penance >= 50) ? "Godly wrath is upon you!" :
+        string msg =
+               (penance >= 50) ? "Godly wrath is upon you!" :
                (penance >= 20) ? "You've transgressed heavily! Be penitent!" :
                (penance >=  5) ? "You are under penance."
                                : "You should show more discipline.";
+        return localise(msg);
     }
 
     if (which_god == GOD_XOM)
-        return uppercase_first(describe_xom_favour());
+        return uppercase_first(localise(describe_xom_favour()));
 
 
     const string godname = god_name(which_god);
     switch (god_favour_rank(which_god))
     {
-        case 7:  return "A prized avatar of " + godname;
-        case 6:  return "A favoured servant of " + godname + ".";
+        case 7:  return localise("A prized avatar of %s.", godname);
+        case 6:  return localise("A favoured servant of %s.", godname);
         case 5:
 
             if (you_worship(GOD_DITHMENOS))
-                return "A glorious shadow in the eyes of " + godname + ".";
+                return localise("A glorious shadow in the eyes of %s.", godname);
             else
-                return "A shining star in the eyes of " + godname + ".";
+                return localise("A shining star in the eyes of %s.", godname);
 
         case 4:
 
             if (you_worship(GOD_DITHMENOS))
-                return "A rising shadow in the eyes of " + godname + ".";
+                return localise("A rising shadow in the eyes of %s.", godname);
             else
-                return "A rising star in the eyes of " + godname + ".";
+                return localise("A rising star in the eyes of %s.", godname);
 
-        case 3:  return uppercase_first(godname) + " is pleased with you.";
-        case 2:  return uppercase_first(godname) + " is aware of your devotion.";
-        default: return uppercase_first(godname) + " is noncommittal.";
+        case 3:  return uppercase_first(localise("%s is pleased with you.", godname));
+        case 2:  return uppercase_first(localise("%s is aware of your devotion.", godname));
+        default: return uppercase_first(localise("%s is noncommittal.", godname));
     }
 }
 
@@ -132,8 +134,8 @@ static string _describe_favour(god_type which_god)
 static const char *divine_title[][8] =
 {
     // No god.
-    {"Buglet",             "Firebug",               "Bogeybug",                 "Bugger",
-        "Bugbear",            "Bugged One",            "Giant Bug",                "Lord of the Bugs"},
+    {"Buglet",             "Firebug",               "Bogeybug",                 "Bugger", // noextract
+        "Bugbear",            "Bugged One",            "Giant Bug",                "Lord of the Bugs"}, // noextract
 
     // Zin.
     {"Blasphemer",         "Anchorite",             "Apologist",                "Pious",
@@ -259,8 +261,8 @@ string god_title(god_type which_god, species_type which_species, int piety)
     {
         { "Adj", species_name(which_species, SPNAME_ADJ) },
         { "Genus", species_name(which_species, SPNAME_GENUS) },
-        { "Walking", species_walking_verb(which_species) + "ing" },
-        { "Walker", species_walking_verb(which_species) + "er" },
+        { "Walking", species_walking_verb(which_species) },
+        { "Walker", species_walker_noun(which_species) },
     };
 
     return replace_keys(title, replacements);
