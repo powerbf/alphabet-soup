@@ -88,4 +88,7 @@ static string localise(const string& first, Ts const &... rest)
 int localise_char(char ch);
 
 
-
+/**
+ * Localise a string with embedded @foo@ style parameters
+ */
+string localise(const string& text_en, const map<string, string>& params);

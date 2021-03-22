@@ -31,3 +31,11 @@ glücklich
 gray
 grau
 %%%%
+
+%%%%
+@The_monster@ hits you.
+@The_monster@ schlägt Euch.
+%%%%
+You hit @the_monster@.
+Ihr schlagt {acc}@the_monster@.
+%%%%

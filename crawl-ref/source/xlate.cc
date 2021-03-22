@@ -45,7 +45,8 @@ const string exp_end = "))";
 //  (for disambiguating same English text used in different contexts which may require different translations)
 //  if no translation is found in the specified context, will look for translation at global (no) context
 // msgid = English text to be translated
-string cxlate(const string &context, const string &msgid)
+// fallback_en = fall back to English if no translation is found?
+string cxlate(const string &context, const string &msgid, bool fallback_en)
 {
     if (msgid.empty())
     {
@@ -67,7 +68,7 @@ string cxlate(const string &context, const string &msgid)
         translation = getTranslatedString(msgid);
     }
 
-    if (translation.empty())
+    if (translation.empty() && fallback_en)
         return msgid;
     else
         return translation;
