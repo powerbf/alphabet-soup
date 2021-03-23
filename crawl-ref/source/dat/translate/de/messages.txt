@@ -30458,565 +30458,76 @@ Ihr fühlt Euch allmächtig.
 Fighting
 
 %%%%
-Skirmisher
-
-%%%%
-Slayer
-
-%%%%
-Conqueror
-
-%%%%
 Short Blades
-
-%%%%
-Cutter
-
-%%%%
-Slicer
-
-%%%%
-Swashbuckler
-
-%%%%
-Cutthroat
-
-%%%%
-Politician
 
 %%%%
 Long Blades
 
 %%%%
-Slasher
-
-%%%%
-Carver
-
-%%%%
-Fencer
-
-%%%%
-@Adj@ Blade
-
-%%%%
-Swordmaster
-
-%%%%
 Axes
-
-%%%%
-Chopper
-
-%%%%
-Cleaver
-
-%%%%
-Severer
-
-%%%%
-Axe Maniac
 
 %%%%
 Maces & Flails
 
 %%%%
-Cudgeller
-
-%%%%
-Basher
-
-%%%%
-Bludgeoner
-
-%%%%
-Shatterer
-
-%%%%
-Skullcrusher
-
-%%%%
 Polearms
-
-%%%%
-Poker
-
-%%%%
-Spear-Bearer
-
-%%%%
-Impaler
-
-%%%%
-Phalangite
-
-%%%%
-@Adj@ Porcupine
 
 %%%%
 Staves
 
 %%%%
-Twirler
-
-%%%%
-Cruncher
-
-%%%%
-Stickfighter
-
-%%%%
-Pulveriser
-
-%%%%
-Chief of Staff
-
-%%%%
 Slings
-
-%%%%
-Vandal
-
-%%%%
-Slinger
-
-%%%%
-Whirler
-
-%%%%
-Slingshot
-
-%%%%
-@Adj@ Catapult
 
 %%%%
 Bows
 
 %%%%
-Shooter
-
-%%%%
-Archer
-
-%%%%
-Marks@genus@
-
-%%%%
-Crack Shot
-
-%%%%
-Merry @Genus@
-
-%%%%
 Crossbows
-
-%%%%
-Bolt Thrower
-
-%%%%
-Quickloader
-
-%%%%
-Sharpshooter
-
-%%%%
-Sniper
-
-%%%%
-@Adj@ Arbalest
 
 %%%%
 Throwing
 
 %%%%
-Chucker
-
-%%%%
-Thrower
-
-%%%%
-Deadly Accurate
-
-%%%%
-Hawkeye
-
-%%%%
-@Adj@ Ballista
-
-%%%%
-Covered
-
-%%%%
-Protected
-
-%%%%
-Tortoise
-
-%%%%
-Impregnable
-
-%%%%
-Invulnerable
-
-%%%%
 Dodging
-
-%%%%
-Ducker
-
-%%%%
-Nimble
-
-%%%%
-Spry
-
-%%%%
-Intangible
-
-%%%%
-Sneak
-
-%%%%
-Covert
-
-%%%%
-Unseen
-
-%%%%
-Imperceptible
-
-%%%%
-Ninja
 
 %%%%
 Stabbing
 
 %%%%
-Miscreant
-
-%%%%
-Blackguard
-
-%%%%
-Backstabber
-
-%%%%
 Shields
-
-%%%%
-Shield-Bearer
-
-%%%%
-Blocker
-
-%%%%
-Peltast
-
-%%%%
-Hoplite
-
-%%%%
-@Adj@ Barricade
 
 %%%%
 Traps
 
 %%%%
-Scout
-
-%%%%
-Disarmer
-
-%%%%
-Vigilant
-
-%%%%
-Perceptive
-
-%%%%
-Dungeon Master
-
-%%%%
 Unarmed Combat
-
-%%%%
-Ruffian
-
-%%%%
-Grappler
-
-%%%%
-Brawler
-
-%%%%
-Wrestler
-
-%%%%
-@Weight@ Champion
 
 %%%%
 Spellcasting
 
 %%%%
-Magician
-
-%%%%
-Thaumaturge
-
-%%%%
-Eclecticist
-
-%%%%
-Sorcerer
-
-%%%%
-Archmage
-
-%%%%
-Destroyer
-
-%%%%
-Devastator
-
-%%%%
-Ruinous
-
-%%%%
-Annihilator
-
-%%%%
-Vexing
-
-%%%%
-Jinx
-
-%%%%
-Bewitcher
-
-%%%%
-Maledictor
-
-%%%%
-Spellbinder
-
-%%%%
 Charms
-
-%%%%
-Charmwright
-
-%%%%
-Infuser
-
-%%%%
-Anointer
-
-%%%%
-Gracecrafter
-
-%%%%
-Miracle Worker
-
-%%%%
-Caller
-
-%%%%
-Convoker
-
-%%%%
-Demonologist
-
-%%%%
-Grave Robber
-
-%%%%
-Reanimator
-
-%%%%
-Thanatomancer
-
-%%%%
-@Genus_Short@ of Death
 
 %%%%
 Translocations
 
 %%%%
-Grasshopper
-
-%%%%
-Placeless @Genus@
-
-%%%%
-Blinker
-
-%%%%
-Portalist
-
-%%%%
-Plane @Walker@
-
-%%%%
 Transmutations
-
-%%%%
-Changer
-
-%%%%
-Transmogrifier
-
-%%%%
-Alchemist
-
-%%%%
-Malleable
-
-%%%%
-Shapeless @Genus@
 
 %%%%
 Fire Magic
 
 %%%%
-Firebug
-
-%%%%
-Arsonist
-
-%%%%
-Scorcher
-
-%%%%
-Pyromancer
-
-%%%%
-Infernalist
-
-%%%%
 Ice Magic
-
-%%%%
-Chiller
-
-%%%%
-Frost Mage
-
-%%%%
-Gelid
-
-%%%%
-Cryomancer
-
-%%%%
-Englaciator
 
 %%%%
 Air Magic
 
 %%%%
-Gusty
-
-%%%%
-Zephyrmancer
-
-%%%%
-Stormcaller
-
-%%%%
-Meteorologist
-
-%%%%
 Earth Magic
 
 %%%%
-Digger
-
-%%%%
-Geomancer
-
-%%%%
-Earth Mage
-
-%%%%
-Metallomancer
-
-%%%%
-Petrodigitator
-
-%%%%
 Poison Magic
-
-%%%%
-Stinger
-
-%%%%
-Tainter
-
-%%%%
-Polluter
-
-%%%%
-Contaminator
-
-%%%%
-Envenomancer
-
-%%%%
-Unbeliever
-
-%%%%
-Agnostic
-
-%%%%
-Dissident
-
-%%%%
-Heretic
-
-%%%%
-Charlatan
-
-%%%%
-Prestidigitator
-
-%%%%
-Fetichist
-
-%%%%
-Evocator
-
-%%%%
-Talismancer
-
-%%%%
-Insei
-
-%%%%
-Martial Artist
-
-%%%%
-Black Belt
-
-%%%%
-Sensei
-
-%%%%
-Grand Master
-
-%%%%
-Scratcher
-
-%%%%
-Gouger
-
-%%%%
-Ripper
-
-%%%%
-Eviscerator
-
-%%%%
-Sabretooth
 
 %%%%
 You have mastered %s!
@@ -31066,51 +30577,6 @@ Löschen des Fertigkeit-Trainingsziels für %s.
 %%%%
 Setting a skill training target for %s at %d.%d.
 Festlegen eines Fertigkeitstrainingsziels für %s bei %d,%d.
-%%%%
-Heavyweight
-
-%%%%
-Cruiserweight
-
-%%%%
-Featherweight
-
-%%%%
-Flyweight
-
-%%%%
-Lightweight
-
-%%%%
-Middleweight
-
-%%%%
-the Adventurer
-
-%%%%
-Worldbinder
-
-%%%%
-Planerender
-
-%%%%
-Blademaster
-
-%%%%
-Blood Saint
-
-%%%%
-Master Archer
-
-%%%%
-Ogre Mage
-
-%%%%
-Petite Mort
-
-%%%%
-la Petite Mort
-
 %%%%
 Weight
 
