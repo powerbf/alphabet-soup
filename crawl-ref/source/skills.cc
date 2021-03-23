@@ -88,7 +88,7 @@ static const char *skill_titles[NUM_SKILLS][6] =
     {"Traps",          "Scout",         "Disarmer",        "Vigilant",        "Perceptive",     "Dungeon Master"},
 #endif
     // STR based fighters, for DEX/martial arts titles see below. Felids get their own category, too.
-    {"Unarmed Combat", "Ruffian",       "Grappler",        "Brawler",         "Wrestler",       "@Weight@weight Champion"},
+    {"Unarmed Combat", "Ruffian",       "Grappler",        "Brawler",         "Wrestler",       "@Weight@ Champion"},
 
     {"Spellcasting",   "Magician",      "Thaumaturge",     "Eclecticist",     "Sorcerer",       "Archmage"},
     {"Conjurations",   "Conjurer",      "Destroyer",       "Devastator",      "Ruinous",        "Annihilator"},
@@ -1619,17 +1619,17 @@ skill_type str_to_skill_safe(const string &skill)
 static string _stk_weight(species_type species)
 {
     if (species_size(species) == SIZE_LARGE)
-        return "Heavy";
+        return "Heavyweight";
     else if (species_size(species, PSIZE_BODY) == SIZE_LARGE)
-        return "Cruiser";
+        return "Cruiserweight";
     else if (species_size(species) == SIZE_SMALL || species == SP_TENGU)
-        return "Feather";
+        return "Featherweight";
     else if (species_size(species) == SIZE_LITTLE)
-        return "Fly";
+        return "Flyweight";
     else if (species_is_elven(species))
-        return "Light";
+        return "Lightweight";
     else
-        return "Middle";
+        return "Middleweight";
 }
 
 unsigned get_skill_rank(unsigned skill_lev)

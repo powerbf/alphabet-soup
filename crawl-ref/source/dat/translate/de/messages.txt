@@ -30752,7 +30752,7 @@ Brawler
 Wrestler
 
 %%%%
-@Weight@weight Champion
+@Weight@ Champion
 
 %%%%
 Spellcasting
@@ -31067,19 +31067,22 @@ Löschen des Fertigkeit-Trainingsziels für %s.
 Setting a skill training target for %s at %d.%d.
 Festlegen eines Fertigkeitstrainingsziels für %s bei %d,%d.
 %%%%
-Heavy
+Heavyweight
 
 %%%%
-Cruiser
+Cruiserweight
 
 %%%%
-Feather
+Featherweight
 
 %%%%
-Light
+Flyweight
 
 %%%%
-Middle
+Lightweight
+
+%%%%
+Middleweight
 
 %%%%
 the Adventurer
