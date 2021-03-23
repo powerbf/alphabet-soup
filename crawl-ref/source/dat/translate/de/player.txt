@@ -94,9 +94,6 @@ Wanderer
 Barachi
 Barachi
 %%%%
-Centaur
-Zentaur
-%%%%
 Deep Dwarf
 Tiefenzwerg
 %%%%
@@ -175,9 +172,22 @@ Vampir
 Vine Stalker
 Rebpirscher
 %%%%
+
+%%%%
+Centaur
 # obsolete
+%%%%
+Sludge Elf
+# obsolete
+%%%%
+High Elf
+# obsolete
+%%%%
+Lava Orc
+# obsolete
+%%%%
 Djinni
-Djinni
+# obsolete
 %%%%
 
 ##############################################
@@ -185,7 +195,7 @@ Djinni
 ##############################################
 %%%%
 Mottled Draconian
-Feckiger Drakonier
+Fleckiger Drakonier
 %%%%
 Black Draconian
 Schwarzer Drakonier
@@ -288,9 +298,8 @@ Vampirhafte
 Orcish
 Orkische
 %%%%
-# obsolete
 Djinn
-Dschinn
+# obsolete
 %%%%
 
 %%%%
@@ -3035,48 +3044,48 @@ Petite Mort
 # Charms (obsolete)
 %%%%
 Charmwright
-
+# obsolete
 %%%%
 Infuser
-
+# obsolete
 %%%%
 Anointer
-
+# obsolete
 %%%%
 Gracecrafter
-
+# obsolete
 %%%%
 Miracle Worker
-
+# obsolete
 %%%%
 
 # Stabbing (obsolete)
 %%%%
 Miscreant
-
+# obsolete
 %%%%
 Blackguard
-
+# obsolete
 %%%%
 Backstabber
-
+# obsolete
 %%%%
 
 # Traps (obsolete)
 %%%%
 Scout
-
+# obsolete
 %%%%
 Disarmer
-
+# obsolete
 %%%%
 Vigilant
-
+# obsolete
 %%%%
 Perceptive
-
+# obsolete
 %%%%
 Dungeon Master
-
+# obsolete
 %%%%
 
