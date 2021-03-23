@@ -1,8 +1,90 @@
 ###############################################################################
 #
-# German translations for player-related stuff
+# Translations for player-related stuff
 #
 ###############################################################################
+
+##############################################
+# Player Backgrounds (aka Jobs)
+##############################################
+%%%%
+Fighter
+Kämpfer
+%%%%
+Gladiator
+Gladiator
+%%%%
+Monk
+Mönch
+%%%%
+Hunter
+Jäger
+%%%%
+Assassin
+Assassine
+%%%%
+Berserker
+Berserker
+%%%%
+Brigand
+Brigant
+%%%%
+Abyssal Knight
+Abgrundritter
+%%%%
+Chaos Knight
+Chaosritter
+%%%%
+Skald
+Skalde
+%%%%
+Enchanter
+Verzauberer
+%%%%
+Transmuter
+Verwandler
+%%%%
+Arcane Marksman
+Arkaner Scharfschütze
+%%%%
+Warper
+Warper
+%%%%
+Hedge Wizard
+Heckenzauberer
+%%%%
+Conjurer
+Beschwörer
+%%%%
+Summoner
+Herbeirufer
+%%%%
+Necromancer
+Nekromant
+%%%%
+Fire Elementalist
+Feuermagier
+%%%%
+Ice Elementalist
+Eismagier
+%%%%
+Air Elementalist
+Luftmagier
+%%%%
+Earth Elementalist
+Erdmagier
+%%%%
+Venom Mage
+Giftmagier
+%%%%
+Artificer
+Artificer
+%%%%
+Delver
+Gräber
+%%%%
+Wanderer
+Wanderer
 %%%%
 
 ##############################################
@@ -91,88 +173,1606 @@ Vampire
 Vampir
 %%%%
 Vine Stalker
-Rebjäger
+Rebpirscher
+%%%%
+# obsolete
+Djinni
+Djinni
 %%%%
 
 ##############################################
-# Player Backgrounds
+# Draconian subspecies
 ##############################################
 %%%%
-Fighter
+Mottled Draconian
+Feckiger Drakonier
+%%%%
+Black Draconian
+Schwarzer Drakonier
+%%%%
+Green Draconian
+Grüner Drakonier
+%%%%
+Grey Draconian
+Grauer Drakonier
+%%%%
+Pale Draconian
+Heller Drakonier
+%%%%
+Purple Draconian
+Purpurner Drakonier
+%%%%
+Red Draconian
+Roter Drakonier
+%%%%
+White Draconian
+Weißer Drakonier
+%%%%
+Yellow Draconian
+Gelber Drakonier
+%%%%
+
+##############################################
+# Player genus
+##############################################
+%%%%
+Frog
+Frosch
+%%%%
+Dwarf
+Zwerg
+%%%%
+Elf
+Elfe
+%%%%
+God
+Gott
+%%%%
+Cat
+Katze
+%%%%
+Ant
+Ameise
+%%%%
+Octopus
+Oktopus
+%%%%
+Orc
+Ork
+%%%%
+
+##############################################
+# Species adjectives
+##############################################
+%%%%
+Barachian
+Amphibische
+%%%%
+Dwarven
+Zwergische
+%%%%
+Elven
+Elfische
+%%%%
+Divine
+Göttliche
+%%%%
+Demonic
+Dämonische
+%%%%
+# English word is same as the noun, so context required
+{adj-e}Draconian
+Drakonische
+%%%%
+Feline
+Katzenartige
+%%%%
+Ghoulish
+Ghulische
+%%%%
+Merfolkian
+Meervölkische
+%%%%
+Octopoid
+Achtfüßige
+%%%%
+Ogreish
+Ogerische
+%%%%
+Trollish
+Trollische
+%%%%
+Vampiric
+Vampirhafte
+%%%%
+Orcish
+Orkische
+%%%%
+# obsolete
+Djinn
+Dschinn
+%%%%
+
+%%%%
+{adj-er}Barachian
+Amphibischer
+%%%%
+{adj-er}Dwarven
+Zwergischer
+%%%%
+{adj-er}Elven
+Elfischer
+%%%%
+{adj-er}Divine
+Göttlicher
+%%%%
+{adj-er}Demonic
+Dämonischer
+%%%%
+{adj-er}Draconian
+Drakonischer
+%%%%
+{adj-er}Feline
+Katzenartiger
+%%%%
+{adj-er}Ghoulish
+Ghulischer
+%%%%
+{adj-er}Merfolkian
+Meervölkischer
+%%%%
+{adj-er}Octopoid
+Achtfüßiger
+%%%%
+{adj-er}Ogreish
+Ogerischer
+%%%%
+{adj-er}Trollish
+Trollischer
+%%%%
+{adj-er}Vampiric
+Vampirhafter
+%%%%
+{adj-er}Orcish
+Orkischer
+%%%%
+
+##############################################
+# Species walking type (used in titles below)
+##############################################
+%%%%
+# Default
+Walker
+Wanderer
+%%%%
+# Naga (snake-like)
+Slider
+Kriecher
+%%%%
+# Tengu (bird-like)
+Glider
+Gleiter
+%%%%
+# Vine Stalker
+Stalker
+Pirscher
+%%%%
+
+%%%%
+Walking
+Wandernde
+%%%%
+Sliding
+Kriechende
+%%%%
+Gliding
+Gleitende
+%%%%
+Stalking
+Pirschende
+%%%%
+
+%%%%
+{adj-er}Walking
+Wandernder
+%%%%
+{adj-er}Sliding
+Kriechender
+%%%%
+{adj-er}Gliding
+Gleitender
+%%%%
+{adj-er}Stalking
+Pirschender
+%%%%
+
+%%%%
+{adj-es}Walking
+Wanderndes
+%%%%
+{adj-es}Sliding
+Kriechendes
+%%%%
+{adj-es}Gliding
+Gleitendes
+%%%%
+{adj-es}Stalking
+Pirschendes
+%%%%
+
+##############################################
+# God-given titles
+# (with article - used in HUD)
+##############################################
+
+# Zin
+%%%%
+the Blasphemer
+der Blasphemist
+%%%%
+the Anchorite
+der Anachoret
+%%%%
+the Apologist
+der Verfechter
+%%%%
+the Pious
+der Fromme
+%%%%
+the Devout
+der Tiefgläubige
+%%%%
+the Orthodox
+der Orthodoxe
+%%%%
+the Immaculate
+der Unbefleckte
+%%%%
+the Bringer of Law
+der Rechtsbringer
+%%%%
+
+# Shining One
+%%%%
+the Honourless
+der Ehrenlose
+%%%%
+the Acolyte
+der Akolyth
+%%%%
+the Righteous
+der Gerechte
+%%%%
+the Unflinching
+der Unbeugsame
+%%%%
+the Holy Warrior
+der Heilige Krieger
+%%%%
+the Exorcist
+der Exorzist
+%%%%
+the Demon Slayer
+der Dämonentöter
+%%%%
+the Bringer of Light
+der Bringer des Lichtes
+%%%%
+
+# Kiku
+%%%%
+the Tormented
+der Gepeinigte
+%%%%
+the Purveyor of Pain
+der Schmerzensbringer
+%%%%
+the Scholar of Death
+der Gelehrte des Todes
+%%%%
+the Merchant of Misery
+der Händler des Elends
+%%%%
+the Artisan of Death
+der Künstler des Todes
+%%%%
+the Dealer of Despair
+der Händler der Verzweiflung
+%%%%
+the Black Sun
+die Schwarze Sonne
+%%%%
+the Lord of Darkness
+der Herr der Finsternis
+%%%%
+
+# Yred
+%%%%
+the Traitor
+der Verräter
+%%%%
+the Tainted
+der Verdorbene
+%%%%
+the Torchbearer
+der Fackelträger
+%%%%
+the Fey @Genus@
+# discard @Genus@ to avoid having to handle genders
+der Todgeweihte
+%%%%
+the Black Crusader
+der Schwarze Kreuzritter
+%%%%
+the Sculptor of Flesh
+der Bildhauer des Fleisches
+%%%%
+the Harbinger of Death
+der Vorbote des Todes
+%%%%
+the Grim Reaper
+der Sensenmann
+%%%%
+
+# Xom
+%%%%
+the Toy
+das Spielzeug
+%%%%
+
+# Vehumet
+%%%%
+the Meek
+der Sanftmütige
+%%%%
+the Sorcerer's Apprentice
+der Zauberlehrling
+%%%%
+the Scholar of Destruction
+der Gelehrte der Zerstörung
+%%%%
+the Caster of Ruination
+der Zauberer des Verderbens
+%%%%
+the Traumaturge
+der Traumaturg
+%%%%
+the Battlemage
+der Kampfmagier
+%%%%
+the Warlock
+der Hexenmeister
+%%%%
+the Luminary of Lethal Lore
+der Beleuchter der tödlichen Kunde
+%%%%
+
+# Okawaru
+%%%%
+the Coward
+der Feigling
+%%%%
+the Struggler
+der Kämpfer
+%%%%
+the Combatant
+der Kombattant
+%%%%
+the Warrior
+der Krieger
+%%%%
+the Knight
+der Ritter
+%%%%
+the Warmonger
+der Kriegstreiber
+%%%%
+the Commander
+der Kommandant
+%%%%
+the Victor of a Thousand Battles
+der Sieger von Tausenden Schlachten
+%%%%
+
+# Makhleb
+%%%%
+the Orderly
+der Ordnungsliebende
+%%%%
+the Spawn of Chaos
+die Ausgeburt des Chaos
+%%%%
+the Disciple of Destruction
+der Jünger der Zerstörung
+%%%%
+the Fanfare of Bloodshed
+die Fanfare des Blutvergießens
+%%%%
+the Fiendish
+der Teuflische
+%%%%
+the Demolition @Genus@
+# discard genus to avoid gender issues
+der Zerstörer
+%%%%
+the Pandemonic
+der Pandämonische
+%%%%
+the Champion of Chaos
+der Champion des Chaos
+%%%%
+
+# Sif Muna
+%%%%
+the Ignorant
+der Unwissende
+%%%%
+the Disciple
+der Jünger
+%%%%
+the Student
+der Schüler
+%%%%
+the Adept
+der Adept
+%%%%
+the Scribe
+der Schreiber
+%%%%
+the Scholar
+der Gelehrte
+%%%%
+the Sage
+der Weiser
+%%%%
+the Genius of the Arcane
+das Genie der Arkana
+%%%%
+
+# Trog
+%%%%
+the Puny
+der Mickrige
+%%%%
+the Troglodyte
+der Troglodyt
+%%%%
+the Angry Troglodyte
+der Wütende Troglodyt
+%%%%
+the Frenzied
+der Rasende
+%%%%
+the @Genus@ of Prey
+# discard genus to avoid gender issues
+der Prädator
+%%%%
+the Rampant
+der Zügellose
+%%%%
+the Wild @Genus@
+# discard genus to avoid gender issues
+der Wilde
+%%%%
+the Bane of Scribes
+der Fluch der Schreiber
+%%%%
+
+# Nemelex
+%%%%
+the Unlucky @Genus@
+# discard genus to avoid gender issues
+der Unglückliche
+%%%%
+the Pannier
+der Gepäckträger
+%%%%
+the Jester
+der Narr
+%%%%
+the Fortune-Teller
+der Kartenleger
+%%%%
+the Soothsayer
+der Wahrsager
+%%%%
+the Magus
+der Magier
+%%%%
+the Cardsharp
+der Falschspieler
+%%%%
+the Hand of Fortune
+die Hand des Glücks
+%%%%
+
+# Elyvilon
+%%%%
+the Sinner
+der Sünder
+%%%%
+the Practitioner
+der Praktiker
+%%%%
+the Comforter
+der Tröster
+%%%%
+the Caregiver
+der Pflegende
+%%%%
+the Mender
+der Barmherzige
+%%%%
+the Pacifist
+der Pazifist
+%%%%
+the Purifying @Genus@
+# discard genus to avoid gender issues
+der Reiniger
+%%%%
+the Bringer of Life
+der Bringer des Lebens
+%%%%
+
+# Lugonu
+%%%%
+the Pure
+der Reine
+%%%%
+the Abyss-Baptised
+der Abgründstäufling
+%%%%
+the Unweaver
+der Unweber
+%%%%
+the Distorting @Genus@
+# discard genus to avoid gender issues
+der Entstellende
+%%%%
+the Agent of Entropy
+der Agent der Entropie
+%%%%
+the Schismatic
+der Schismatiker
+%%%%
+the Envoy of Void
+der Abgesandte der Leere
+%%%%
+the Corrupter of Planes
+der Korrumpierer der Ebenen
+%%%%
+
+# Beogh
+%%%%
+the Apostate
+der Apostat
+%%%%
+the Messenger
+der Bote
+%%%%
+the Proselytiser
+der Proselytist
+%%%%
+the Priest
+der Priester
+%%%%
+the Missionary
+der Missionar
+%%%%
+the Evangelist
+der Evangelist
+%%%%
+the Apostle
+der Apostel
+%%%%
+the Messiah
+der Messias
+%%%%
+
+# Jiyva
+%%%%
+the Scum
+der Abschaum
+%%%%
+the Squelcher
+der Quetscher
+%%%%
+the Ooze
+der Schlick
+%%%%
+the Jelly
+die Gallerte
+%%%%
+the Slime Creature
+die Schleimkreatur
+%%%%
+the Dissolving @Genus@
+# discard genus to avoid gender issues
+der Auflösende
+%%%%
+the Blob
+der Blob
+%%%%
+the Royal Jelly
+das Gelee Royale
+%%%%
+
+# Fedhas
+%%%%
+the @Walking@ Fertiliser
+der {adj-e}@Walking@ Dünger
+%%%%
+the Fungal
+der Pilz
+%%%%
+the Green @Genus@
+# discard genus to avoid gender issues
+der Grüne
+%%%%
+the Cultivator
+der Kultivator
+%%%%
+the Fruitful
+der Fruchtbare
+%%%%
+the Photosynthesist
+der Photosynthetiker
+%%%%
+the Green Death
+der Grüne Tod
+%%%%
+the Force of Nature
+die Kraftnatur
+%%%%
+
+# Cheibriados
+%%%%
+the Hasty
+der Hastige
+%%%%
+the Sluggish @Genus@
+# discard genus to avoid gender issues
+der Träge
+%%%%
+the Deliberate
+der Bedächtige
+%%%%
+the Unhurried
+der Gemütliche
+%%%%
+the Contemplative
+der Kontemplative
+%%%%
+the Epochal
+der Epochale
+%%%%
+the Timeless
+der Zeitlose
+%%%%
+the @Adj@ Aeon
+der {adj-e}@Adj@ Äon
+%%%%
+
+# Ashenzari
+%%%%
+the Star-crossed
+die Sterngekreuzten
+%%%%
+the Cursed
+der Verfluchte
+%%%%
+the Initiated
+der Eingeweihte
+%%%%
+the Seer
+der Seher
+%%%%
+the Oracle
+das Orakel
+%%%%
+the Illuminatus
+der Illuminat
+%%%%
+the Omniscient
+der Allwissende
+%%%%
+
+# Dithmenos
+%%%%
+the Ember
+der Glühende
+%%%%
+the Gloomy
+der Düstere
+%%%%
+the Darkened
+der Verdunkelte
+%%%%
+the Extinguished
+der Ausgelöschte
+%%%%
+the Caliginous
+der Kaliginöse
+%%%%
+the Umbral
+der Umbrale
+%%%%
+the Hand of Shadow
+die Hand des Schattens
+%%%%
+the Eternal Night
+die Ewige Nacht
+%%%%
+
+# Gozag
+%%%%
+the Profligate
+der Wüstling
+%%%%
+the Pauper
+der Bettler
+%%%%
+the Entrepreneur
+der Entrepreneur
+%%%%
+the Capitalist
+der Kapitalist
+%%%%
+the Rich
+der Reiche
+%%%%
+the Opulent
+der Opulente
+%%%%
+the Tycoon
+der Tycoon
+%%%%
+the Plutocrat
+der Plutokrat
+%%%%
+
+# Qazlal
+%%%%
+the Unspoiled
+der Unverwöhnte
+%%%%
+the @Adj@ Mishap
+das {adj-e}@Adj@ Missgeschick
+%%%%
+the Lightning Rod
+der Blitzableiter
+%%%%
+the @Adj@ Disaster
+das {adj-e}@Adj@ Desaster
+%%%%
+the Eye of the Storm
+das Auge des Sturms
+%%%%
+the @Adj@ Catastrophe
+die {adj-e}@Adj@ Katastrophe
+%%%%
+the @Adj@ Cataclysm
+der {adj-e}@Adj@ Kataklysmus
+%%%%
+the End of an Era
+das Ende einer Ära
+%%%%
+
+# Ru
+%%%%
+the Sleeper
+der Schläfer
+%%%%
+the Questioner
+der Fragesteller
+%%%%
+the Initiate
+der Eingeweihte
+%%%%
+the Seeker of Truth
+der Wahrheitssuchende
+%%%%
+the @Walker@ of the Path
+der @Walker@ des Pfades
+%%%%
+the Lifter of the Veil
+der Heber des Schleiers
+%%%%
+the Transcendent
+der Transzendente
+%%%%
+the Drop of Water
+der Wassertropfen
+%%%%
+
+# Pakellas (obsolete)
+%%%%
+the Reactionary
+der Reaktionär
+%%%%
+the Apprentice
+der Lehrling
+%%%%
+the Inquisitive
+der Wissbegierige
+%%%%
+the Experimenter
+der Experimentator
+%%%%
+the Inventor
+der Erfinder
+%%%%
+the Pioneer
+der Pionier
+%%%%
+the Brilliant
+der Brillante
+%%%%
+the Grand Gadgeteer
+der Große Tüftler
+%%%%
+
+# Uskayaw
+%%%%
+the Prude
+der Prüde
+%%%%
+the Wallflower
+das Mauerblümchen
+%%%%
+the Party-goer
+der Partygänger
+%%%%
+the Dancer
+der Tänzer
+%%%%
+the Impassioned
+der Leidenschaftliche
+%%%%
+the Rapturous
+der Entzückte
+%%%%
+the Ecstatic
+der Ekstatische
+%%%%
+the Rhythm of Life and Death
+der Rhythmus von Leben und Tod
+%%%%
+
+# Hepliaklqana
+%%%%
+the Damnatio Memoriae
+das Damnatio Memoriae
+%%%%
+the Hazy
+der Verschwommene
+%%%%
+the @Adj@ Child
+das {adj-e}@Adj@ Kind
+%%%%
+the Storyteller
+der Geschichtenerzähler
+%%%%
+the Brooding
+der Grübler
+%%%%
+the Anamnesiscian
+der Anamnestiker
+%%%%
+the Grand Scion
+der Große Nachkomme
+%%%%
+the Unforgettable
+der Unvergessliche
+%%%%
+
+# Wu Jian
+%%%%
+the Wooden Rat
+die Hölzerne Ratte
+%%%%
+the Young Dog
+der Junge Hund
+%%%%
+the Young Crane
+der Junge Kranich
+%%%%
+the Young Tiger
+der Junge Tiger
+%%%%
+the Young Dragon
+der Junge Drache
+%%%%
+the Red Sash
+die Rote Schärpe
+%%%%
+the Golden Sash
+die Goldene Schärpe
+%%%%
+the Sifu
+der Sifu
+%%%%
+
+##############################################
+# God-given titles
+# (without article - used in religion screen)
+##############################################
+# Zin
+%%%%
+Blasphemer
+Blasphemist
+%%%%
+Anchorite
+Anachoret
+%%%%
+Apologist
+Verfechter
+%%%%
+Pious
+Frommer
+%%%%
+Devout
+Tiefgläubiger
+%%%%
+Orthodox
+Orthodoxer
+%%%%
+Immaculate
+Unbefleckter
+%%%%
+Bringer of Law
+Rechtsbringer
+%%%%
+
+# Shining One
+%%%%
+Honourless
+Ehrenloser
+%%%%
+Acolyte
+Akolyth
+%%%%
+Righteous
+Gerechter
+%%%%
+Unflinching
+Unbeugsamer
+%%%%
+Holy Warrior
+Heiliger Krieger
+%%%%
+Exorcist
+Exorzist
+%%%%
+Demon Slayer
+Dämonentöter
+%%%%
+Bringer of Light
+Bringer des Lichtes
+%%%%
+
+# Kiku
+%%%%
+Tormented
+Gepeinigter
+%%%%
+Purveyor of Pain
+Schmerzensbringer
+%%%%
+Scholar of Death
+Gelehrte des Todes
+%%%%
+Merchant of Misery
+Händler des Elends
+%%%%
+Artisan of Death
+Künstler des Todes
+%%%%
+Dealer of Despair
+Händler der Verzweiflung
+%%%%
+Black Sun
+Schwarze Sonne
+%%%%
+Lord of Darkness
+Herr der Finsternis
+%%%%
+
+# Yred
+%%%%
+Traitor
+Verräter
+%%%%
+Tainted
+Verdorbener
+%%%%
+Torchbearer
+Fackelträger
+%%%%
+Fey @Genus@
+# @Genus@ can have different genders in German, so for simplicity...
+Todgeweihter
+%%%%
+Black Crusader
+Schwarzer Kreuzritter
+%%%%
+Sculptor of Flesh
+Bildhauer des Fleisches
+%%%%
+Harbinger of Death
+Vorbote des Todes
+%%%%
+Grim Reaper
+Sensenmann
+%%%%
+
+# Xom
+%%%%
+Toy
+Spielzeug
+%%%%
+
+# Vehumet
+%%%%
+Meek
+Sanftmütiger
+%%%%
+Sorcerer's Apprentice
+Zauberlehrling
+%%%%
+Scholar of Destruction
+Gelehrte der Zerstörung
+%%%%
+Caster of Ruination
+Zauberer des Verderbens
+%%%%
+Traumaturge
+Traumaturg
+%%%%
+Battlemage
+Kampfmagier
+%%%%
+Warlock
+Hexenmeister
+%%%%
+Luminary of Lethal Lore
+Beleuchter der tödlichen Kunde
+%%%%
+
+# Okawaru
+%%%%
+Coward
+Feigling
+%%%%
+Struggler
 Kämpfer
 %%%%
-Gladiator
-Gladiator
+Combatant
+Kombattant
 %%%%
-Monk
-Mönch
+Warrior
+Krieger
 %%%%
-Hunter
-Jäger
+Knight
+Ritter
 %%%%
-Assassin
-Assassine
+Warmonger
+Kriegstreiber
 %%%%
-Berserker
-Berserker
+Commander
+Kommandant
 %%%%
-Brigand
-Brigant
+Victor of a Thousand Battles
+Sieger von Tausenden Schlachten
 %%%%
-Abyssal Knight
-Abgrundritter
+
+# Makhleb
 %%%%
-Chaos Knight
-Chaosritter
+Orderly
+Ordnungsliebender
 %%%%
-Skald
-Skalde
+Spawn of Chaos
+Ausgeburt des Chaos
 %%%%
-Enchanter
-Verzauberer
+Disciple of Destruction
+Jünger der Zerstörung
 %%%%
-Transmuter
-Verwandler
+Fanfare of Bloodshed
+Fanfare des Blutvergießens
 %%%%
-Arcane Marksman
-Arkaner Scharfschütze
+Fiendish
+Teuflischer
 %%%%
-Warper
-Warper
+Demolition @Genus@
+# workaround genus gender issue
+Zerstörer
 %%%%
-Hedge Wizard
-Heckenzauberer
+Pandemonic
+Pandämonischer
 %%%%
-Conjurer
-Beschwörer
+Champion of Chaos
+Champion des Chaos
 %%%%
-Summoner
-Herbeirufer
+
+# Sif Muna
 %%%%
-Necromancer
-Nekromant
+Ignorant
+Unwissender
 %%%%
-Fire Elementalist
-Feuermagier
+Disciple
+Jünger
 %%%%
-Ice Elementalist
-Eismagier
+Student
+Schüler
 %%%%
-Air Elementalist
-Luftmagier
+Adept
+Adept
 %%%%
-Earth Elementalist
-Erdmagier
+Scribe
+Schreiber
 %%%%
-Venom Mage
-Giftmagier
+Scholar
+Gelehrter
 %%%%
-Artificer
-Artificer
+Sage
+Weiser
 %%%%
-Delver
-Gräber
+Genius of the Arcane
+Genie der Arkana
 %%%%
-Wanderer
-Wanderer
+
+# Trog
+%%%%
+Puny
+Mickriger
+%%%%
+Troglodyte
+Troglodyt
+%%%%
+Angry Troglodyte
+Wütende Troglodyt
+%%%%
+Frenzied
+Rasender
+%%%%
+@Genus@ of Prey
+Prädator
+%%%%
+Rampant
+Zügelloser
+%%%%
+Wild @Genus@
+Wilder
+%%%%
+Bane of Scribes
+Fluch der Schreiber
+%%%%
+
+# Nemelex
+%%%%
+Unlucky @Genus@
+Unglücklicher
+%%%%
+Pannier
+Gepäckträger
+%%%%
+Jester
+Narr
+%%%%
+Fortune-Teller
+Kartenleger
+%%%%
+Soothsayer
+Wahrsager
+%%%%
+Magus
+Magier
+%%%%
+Cardsharp
+Falschspieler
+%%%%
+Hand of Fortune
+Hand des Glücks
+%%%%
+
+# Elyvilon
+%%%%
+Sinner
+Sünder
+%%%%
+Practitioner
+Praktiker
+%%%%
+Comforter
+Tröster
+%%%%
+Caregiver
+Pflegender
+%%%%
+Mender
+Barmherziger
+%%%%
+Pacifist
+Pazifist
+%%%%
+Purifying @Genus@
+Reiniger
+%%%%
+Bringer of Life
+Bringer des Lebens
+%%%%
+
+# Lugonu
+%%%%
+Pure
+Reiner
+%%%%
+Abyss-Baptised
+Abgründstäufling
+%%%%
+Unweaver
+Unweber
+%%%%
+Distorting @Genus@
+Entstellender
+%%%%
+Agent of Entropy
+Agent der Entropie
+%%%%
+Schismatic
+Schismatiker
+%%%%
+Envoy of Void
+Abgesandter der Leere
+%%%%
+Corrupter of Planes
+Korrumpierer der Ebenen
+%%%%
+
+# Beogh
+%%%%
+Apostate
+Apostat
+%%%%
+Messenger
+Bote
+%%%%
+Proselytiser
+Proselytist
+%%%%
+Priest
+Priester
+%%%%
+Missionary
+Missionar
+%%%%
+Evangelist
+Evangelist
+%%%%
+Apostle
+Apostel
+%%%%
+Messiah
+Messias
+%%%%
+
+# Jiyva
+%%%%
+Scum
+Abschaum
+%%%%
+Squelcher
+Quetscher
+%%%%
+Ooze
+Schlick
+%%%%
+Jelly
+Gallerte
+%%%%
+Slime Creature
+Schleimkreatur
+%%%%
+Dissolving @Genus@
+Auflösender
+%%%%
+Blob
+Blob
+%%%%
+Royal Jelly
+Gelee Royale
+%%%%
+
+# Fedhas
+%%%%
+@Walking@ Fertiliser
+{adj-er}@Walking@ Dünger
+%%%%
+Fungal
+Pilz
+%%%%
+Green @Genus@
+Grüner
+%%%%
+Cultivator
+Kultivator
+%%%%
+Fruitful
+Fruchtbarer
+%%%%
+Photosynthesist
+Photosynthetiker
+%%%%
+Green Death
+Grüner Tod
+%%%%
+Force of Nature
+Kraftnatur
+%%%%
+
+# Cheibriados
+%%%%
+Hasty
+Hastiger
+%%%%
+Sluggish @Genus@
+Träger
+%%%%
+Deliberate
+Bedächtiger
+%%%%
+Unhurried
+Gemütlicher
+%%%%
+Contemplative
+Kontemplativer
+%%%%
+Epochal
+Epochaler
+%%%%
+Timeless
+Zeitloser
+%%%%
+@Adj@ Aeon
+{adj-er}@Adj@ Äon
+%%%%
+
+# Ashenzari
+%%%%
+Star-crossed
+Sterngekreuzter
+%%%%
+Cursed
+Verfluchter
+%%%%
+Initiated
+Eingeweihter
+%%%%
+Seer
+Seher
+%%%%
+Oracle
+Orakel
+%%%%
+Illuminatus
+Illuminat
+%%%%
+Omniscient
+Allwissender
+%%%%
+
+# Dithmenos
+%%%%
+Ember
+Glühender
+%%%%
+Gloomy
+Düsterer
+%%%%
+Darkened
+Verdunkelter
+%%%%
+Extinguished
+Ausgelöschter
+%%%%
+Caliginous
+Kaliginöser
+%%%%
+Umbral
+Umbraler
+%%%%
+Hand of Shadow
+Hand des Schattens
+%%%%
+Eternal Night
+Ewige Nacht
+%%%%
+
+# Gozag
+%%%%
+Profligate
+Wüstling
+%%%%
+Pauper
+Bettler
+%%%%
+Entrepreneur
+Entrepreneur
+%%%%
+Capitalist
+Kapitalist
+%%%%
+Rich
+Reiche
+%%%%
+Opulent
+Opulente
+%%%%
+Tycoon
+Tycoon
+%%%%
+Plutocrat
+Plutokrat
+%%%%
+
+# Qazlal
+%%%%
+Unspoiled
+Unverwöhnter
+%%%%
+@Adj@ Mishap
+{adj-es}@Adj@ Missgeschick
+%%%%
+Lightning Rod
+Blitzableiter
+%%%%
+@Adj@ Disaster
+{adj-es}@Adj@ Desaster
+%%%%
+Eye of the Storm
+Auge des Sturms
+%%%%
+@Adj@ Catastrophe
+{adj-e}@Adj@ Katastrophe
+%%%%
+@Adj@ Cataclysm
+{adj-er}@Adj@ Kataklysmus
+%%%%
+End of an Era
+Ende einer Ära
+%%%%
+
+# Ru
+%%%%
+Sleeper
+Schläfer
+%%%%
+Questioner
+Fragesteller
+%%%%
+Initiate
+Eingeweihter
+%%%%
+Seeker of Truth
+Wahrheitssuchender
+%%%%
+@Walker@ of the Path
+@Walker@ des Pfades
+%%%%
+Lifter of the Veil
+Heber des Schleiers
+%%%%
+Transcendent
+Transzendente
+%%%%
+Drop of Water
+Wassertropfen
+%%%%
+
+# Pakellas (obsolete)
+%%%%
+Reactionary
+Reaktionär
+%%%%
+Apprentice
+Lehrling
+%%%%
+Inquisitive
+Wissbegieriger
+%%%%
+Experimenter
+Experimentator
+%%%%
+Inventor
+Erfinder
+%%%%
+Pioneer
+Pionier
+%%%%
+Brilliant
+Brillante
+%%%%
+Grand Gadgeteer
+Großer Tüftler
+%%%%
+
+# Uskayaw
+%%%%
+Prude
+Prüde
+%%%%
+Wallflower
+Mauerblümchen
+%%%%
+Party-goer
+Partygänger
+%%%%
+Dancer
+Tänzer
+%%%%
+Impassioned
+Leidenschaftlicher
+%%%%
+Rapturous
+Entzückter
+%%%%
+Ecstatic
+Ekstatischer
+%%%%
+Rhythm of Life and Death
+Rhythmus von Leben und Tod
+%%%%
+
+# Hepliaklqana
+%%%%
+Damnatio Memoriae
+Damnatio Memoriae
+%%%%
+Hazy
+Verschwommener
+%%%%
+@Adj@ Child
+{adj-es}@Adj@ Kind
+%%%%
+Storyteller
+Geschichtenerzähler
+%%%%
+Brooding
+Grübler
+%%%%
+Anamnesiscian
+Anamnestiker
+%%%%
+Grand Scion
+Großer Nachkomme
+%%%%
+Unforgettable
+Unvergesslicher
+%%%%
+
+# Wu Jian
+%%%%
+Wooden Rat
+Hölzerne Ratte
+%%%%
+Young Dog
+Junger Hund
+%%%%
+Young Crane
+Junger Kranich
+%%%%
+Young Tiger
+Junger Tiger
+%%%%
+Young Dragon
+Junger Drache
+%%%%
+Red Sash
+Rote Schärpe
+%%%%
+Golden Sash
+Goldene Schärpe
+%%%%
+Sifu
+Sifu
 %%%%
