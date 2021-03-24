@@ -224,35 +224,45 @@ Gelber Drakonier
 
 ##############################################
 # Player genus
+# NOTE: If not listed then species is used
 ##############################################
 %%%%
+# Barachi
 Frog
 Frosch
 %%%%
+# Deep Dwarf
 Dwarf
 Zwerg
 %%%%
+# Deep Elf
 Elf
 Elfe
 %%%%
+# Demigod
 God
 Gott
 %%%%
+# Felid
 Cat
 Katze
 %%%%
+# Formicid
 Ant
 Ameise
 %%%%
+# Octopode
 Octopus
 Oktopus
 %%%%
+# Hill Orc
 Orc
 Ork
 %%%%
 
 ##############################################
 # Species adjectives
+# NOTE: If not listed then species noun is used
 ##############################################
 %%%%
 Barachian
