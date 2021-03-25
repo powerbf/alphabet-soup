@@ -7359,9 +7359,9 @@ void player::set_gold(int amount)
             {
                 const int cost = get_gold_cost(power.abil);
                 if (gold >= cost && old_gold < cost)
-                    power.display(true, "You now have enough gold to %s.");
+                    power.display(true);
                 else if (old_gold >= cost && gold < cost)
-                    power.display(false, "You no longer have enough gold to %s.");
+                    power.display(false);
             }
             you.redraw_title = true;
         }
