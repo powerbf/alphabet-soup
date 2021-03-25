@@ -90,37 +90,67 @@ const vector<god_power> god_powers[NUM_GODS] =
     { },
 
     // Zin
-    {   { 1, ABIL_ZIN_RECITE, "recite Zin's Axioms of Law" },
-        { 2, ABIL_ZIN_VITALISATION, "call upon Zin for vitalisation" },
-        { 3, ABIL_ZIN_IMPRISON, "call upon Zin to imprison the lawless" },
-        { 5, ABIL_ZIN_SANCTUARY, "call upon Zin to create a sanctuary" },
+    {   { 1, ABIL_ZIN_RECITE,
+            "You can now recite Zin's Axioms of Law.",
+            "You can no longer recite Zin's Axioms of Law.",
+            "You can recite Zin's Axioms of Law." },
+        { 2, ABIL_ZIN_VITALISATION,
+             "You can now call upon Zin for vitalisation.",
+             "You can no longer call upon Zin for vitalisation.",
+             "You can call upon Zin for vitalisation." },
+        { 3, ABIL_ZIN_IMPRISON,
+             "You can now call upon Zin to imprison the lawless.",
+             "You can no longer call upon Zin to imprison the lawless.",
+             "You can call upon Zin to imprison the lawless." },
+        { 5, ABIL_ZIN_SANCTUARY,
+             "You can now call upon Zin to create a sanctuary.",
+             "You can no longer call upon Zin to create a sanctuary.",
+             "You can call upon Zin to create a sanctuary." },
         { 6, "Zin will now cleanse your potions of mutation.",
              "Zin will no longer cleanse your potions of mutation.",
              "Zin will cleanse your potions of mutation." },
-        {-1, ABIL_ZIN_DONATE_GOLD, "donate money to Zin" },
+        {-1, ABIL_ZIN_DONATE_GOLD,
+             "You can now donate money to Zin.",
+             "You can no longer donate money to Zin.",
+             "You can donate money to Zin." },
     },
 
     // TSO
     {   { 1, "You and your allies can now gain power from killing the unholy and evil.",
              "You and your allies can no longer gain power from killing the unholy and evil.",
              "You and your allies can gain power from killing the unholy and evil." },
-        { 2, ABIL_TSO_DIVINE_SHIELD, "call upon the Shining One for a divine shield" },
-        { 4, ABIL_TSO_CLEANSING_FLAME, "channel blasts of cleansing flame", },
-        { 5, ABIL_TSO_SUMMON_DIVINE_WARRIOR, "summon a divine warrior" },
+        { 2, ABIL_TSO_DIVINE_SHIELD,
+             "You can now call upon the Shining One for a divine shield.",
+             "You can no longer call upon the Shining One for a divine shield.",
+             "You can call upon the Shining One for a divine shield." },
+        { 4, ABIL_TSO_CLEANSING_FLAME,
+             "You can now channel blasts of cleansing flame.",
+             "You can no longer channel blasts of cleansing flame.",
+             "You can channel blasts of cleansing flame." },
+        { 5, ABIL_TSO_SUMMON_DIVINE_WARRIOR,
+             "You can now summon a divine warrior.",
+             "You can no longer summon a divine warrior.",
+             "You can summon a divine warrior." },
         { 7, ABIL_TSO_BLESS_WEAPON,
              "The Shining One will bless your weapon with holy wrath... once.",
              "The Shining One is no longer ready to bless your weapon." },
     },
 
     // Kikubaaqudgha
-    {   { 1, ABIL_KIKU_RECEIVE_CORPSES, "receive cadavers from Kikubaaqudgha" },
+    {   { 1, ABIL_KIKU_RECEIVE_CORPSES,
+             "You can now receive cadavers from Kikubaaqudgha.",
+             "You can no longer receive cadavers from Kikubaaqudgha.",
+             "You can receive cadavers from Kikubaaqudgha." },
         { 2, "Kikubaaqudgha is now protecting you from necromantic miscasts and death curses.",
              "Kikubaaqudgha will no longer protect you from necromantic miscasts or death curses.",
              "Kikubaaqudgha protects you from necromantic miscasts and death curses." },
         { 4, "Kikubaaqudgha is now protecting you from unholy torment.",
              "Kikubaaqudgha will no longer protect you from unholy torment.",
              "Kikubaaqudgha protects you from unholy torment." },
-        { 5, ABIL_KIKU_TORMENT, "invoke torment by sacrificing a corpse" },
+        { 5, ABIL_KIKU_TORMENT,
+             "You can now invoke torment by sacrificing a corpse.",
+             "You can no longer invoke torment by sacrificing a corpse.",
+             "You can invoke torment by sacrificing a corpse." },
         { 7, ABIL_KIKU_BLESS_WEAPON,
              "Kikubaaqudgha will grant you a Necronomicon or bloody your weapon with pain... once.",
              "Kikubaaqudgha is no longer ready to enhance your necromancy." },
@@ -130,22 +160,42 @@ const vector<god_power> god_powers[NUM_GODS] =
     },
 
     // Yredelemnul
-    {   { 1, ABIL_YRED_ANIMATE_REMAINS, "animate remains" },
-        { 2, ABIL_YRED_RECALL_UNDEAD_SLAVES, "recall your undead slaves" },
-        { 2, ABIL_YRED_INJURY_MIRROR, "mirror injuries on your foes" },
-        { 3, ABIL_YRED_ANIMATE_DEAD, "animate legions of the dead" },
+    {   { 1, ABIL_YRED_ANIMATE_REMAINS,
+             "You can now animate remains.",
+             "You can no longer animate remains.",
+             "You can animate remains." },
+        { 2, ABIL_YRED_RECALL_UNDEAD_SLAVES,
+             "You can now recall your undead slaves.",
+             "You can no longer recall your undead slaves.",
+             "You can recall your undead slaves." },
+        { 2, ABIL_YRED_INJURY_MIRROR,
+             "You can now mirror injuries on your foes.",
+             "You can no longer mirror injuries on your foes.",
+             "You can mirror injuries on your foes." },
+        { 3, ABIL_YRED_ANIMATE_DEAD,
+             "You can now animate legions of the dead.",
+             "You can no longer animate legions of the dead.",
+             "You can animate legions of the dead." },
         { 3, "Yredelemnul will now gift you servants as you gain piety.",
              "Yredelemnul will no longer gift you servants.",
              "Yredelemnul will gift you servants as you gain piety." },
-        { 4, ABIL_YRED_DRAIN_LIFE, "drain ambient life force" },
-        { 5, ABIL_YRED_ENSLAVE_SOUL, "enslave living souls" },
+        { 4, ABIL_YRED_DRAIN_LIFE,
+             "You can now drain ambient life force.",
+             "You can no longer drain ambient life force.",
+             "You can drain ambient life force." },
+        { 5, ABIL_YRED_ENSLAVE_SOUL,
+             "You can now enslave living souls.",
+             "You can no longer enslave living souls.",
+             "You can enslave living souls." },
     },
 
     // Xom
     { },
 
     // Vehumet
-    {   { 1, "gain magical power from killing" },
+    {   { 1, "You can now gain magical power from killing.",
+             "You can no longer gain magical power from killing.",
+             "You can gain magical power from killing." },
         { 3, "Vehumet is now aiding your destructive spells.",
              "Vehumet will no longer aid your destructive spells.",
              "Vehumet aids your destructive spells." },
@@ -155,36 +205,57 @@ const vector<god_power> god_powers[NUM_GODS] =
     },
 
     // Okawaru
-    {   { 1, ABIL_OKAWARU_HEROISM, "gain great but temporary skills" },
+    {   { 1, ABIL_OKAWARU_HEROISM,
+             "You can now gain great but temporary skills.",
+             "You can no longer gain great but temporary skills.",
+             "You can gain great but temporary skills." },
         { 3, "Okawaru will now gift you ammunition as you gain piety.",
              "Okawaru will no longer gift you ammunition.",
              "Okawaru will gift you ammunition as you gain piety." },
-        { 5, ABIL_OKAWARU_FINESSE, "speed up your combat" },
+        { 5, ABIL_OKAWARU_FINESSE,
+             "You can now speed up your combat.",
+             "You can no longer speed up your combat.",
+             "You can speed up your combat." },
         { 5, "Okawaru will now gift you equipment as you gain piety.",
              "Okawaru will no longer gift you equipment.",
              "Okawaru will gift you equipment as you gain piety." },
     },
 
     // Makhleb
-    {   { 1, "gain health from killing" },
+    {   { 1, "You can now gain health from killing.",
+             "You can no longer gain health from killing.",
+             "You can gain health from killing." },
         { 2, ABIL_MAKHLEB_MINOR_DESTRUCTION,
-             "harness Makhleb's destructive might" },
+             "You can now harness Makhleb's destructive might.",
+             "You can no longer harness Makhleb's destructive might.",
+             "You can harness Makhleb's destructive might." },
         { 3, ABIL_MAKHLEB_LESSER_SERVANT_OF_MAKHLEB,
-             "summon a lesser servant of Makhleb" },
+             "You can now summon a lesser servant of Makhleb.",
+             "You can no longer summon a lesser servant of Makhleb.",
+             "You can summon a lesser servant of Makhleb." },
         { 4, ABIL_MAKHLEB_MAJOR_DESTRUCTION,
-             "hurl Makhleb's greater destruction" },
+             "You can now hurl Makhleb's greater destruction.",
+             "You can no longer hurl Makhleb's greater destruction.",
+             "You can hurl Makhleb's greater destruction." },
         { 5, ABIL_MAKHLEB_GREATER_SERVANT_OF_MAKHLEB,
-             "summon a greater servant of Makhleb" },
+             "You can now summon a greater servant of Makhleb.",
+             "You can no longer summon a greater servant of Makhleb.",
+             "You can summon a greater servant of Makhleb." },
     },
 
     // Sif Muna
     {   { 1, ABIL_SIF_MUNA_CHANNEL_ENERGY,
-             "call upon Sif Muna for magical energy" },
+             "You can now call upon Sif Muna for magical energy.",
+             "You can no longer call upon Sif Muna for magical energy.",
+             "You can call upon Sif Muna for magical energy." },
         { 3, ABIL_SIF_MUNA_FORGET_SPELL,
-             "freely open your mind to new spells",
-             "forget spells at will" },
+             "You can now freely open your mind to new spells.",
+             "You can no longer forget spells at will.",
+             "You can freely open your mind to new spells." },
         { 4, ABIL_SIF_MUNA_DIVINE_EXEGESIS,
-             "call upon Sif Muna to cast any spell from your library" },
+             "You can now call upon Sif Muna to cast any spell from your library.",
+             "You can no longer call upon Sif Muna to cast any spell from your library.",
+             "You can call upon Sif Muna to cast any spell from your library." },
         { 5, "Sif Muna will now gift you books as you gain piety.",
              "Sif Muna will no longer gift you books.",
              "Sif Muna will gift you books as you gain piety." },
@@ -192,10 +263,18 @@ const vector<god_power> god_powers[NUM_GODS] =
 
     // Trog
     {
-        { 1, ABIL_TROG_BERSERK, "go berserk at will" },
+        { 1, ABIL_TROG_BERSERK,
+             "You can now go berserk at will.",
+             "You can no longer go berserk at will.",
+             "You can go berserk at will." },
         { 2, ABIL_TROG_HAND,
-             "call upon Trog for regeneration and willpower" },
-        { 4, ABIL_TROG_BROTHERS_IN_ARMS, "call in reinforcements" },
+             "You can now call upon Trog for regeneration and willpower.",
+             "You can no longer call upon Trog for regeneration and willpower.",
+             "You can call upon Trog for regeneration and willpower." },
+        { 4, ABIL_TROG_BROTHERS_IN_ARMS,
+             "You can now call in reinforcements.",
+             "You can no longer call in reinforcements.",
+             "You can call in reinforcements." },
         { 5, "Trog will now gift you melee weapons as you gain piety.",
              "Trog will no longer gift you weapons.",
              "Trog will gift you melee weapons as you gain piety." },
@@ -203,14 +282,24 @@ const vector<god_power> god_powers[NUM_GODS] =
 
     // Nemelex
     {
-        { 0, "draw from decks of power" },
+        { 0, "You can now draw from decks of power.",
+             "You can no longer draw from decks of power.",
+             "You can draw from decks of power." },
         { 1, "Nemelex will now gift you decks of power as you gain piety.",
              "Nemelex will no longer gift you decks.",
              "Nemelex will gift you decks of power as you gain piety." },
-        { 3, ABIL_NEMELEX_TRIPLE_DRAW, "choose one out of three cards" },
-        { 4, ABIL_NEMELEX_DEAL_FOUR, "deal four cards at a time" },
-        { 5, ABIL_NEMELEX_STACK_FIVE, "stack five cards from your decks",
-                                    "stack cards" },
+        { 3, ABIL_NEMELEX_TRIPLE_DRAW,
+             "You can now choose one out of three cards.",
+             "You can no longer choose one out of three cards.",
+             "You can choose one out of three cards." },
+        { 4, ABIL_NEMELEX_DEAL_FOUR,
+             "You can now deal four cards at a time.",
+             "You can no longer deal four cards at a time.",
+             "You can deal four cards at a time." },
+        { 5, ABIL_NEMELEX_STACK_FIVE,
+             "You can now stack five cards from your decks.",
+             "You can no longer stack cards.",
+             "You can stack five cards from your decks." }
     },
 
     // Elyvilon
@@ -224,63 +313,130 @@ const vector<god_power> god_powers[NUM_GODS] =
 
     // Lugonu
     {   { 1, ABIL_LUGONU_ABYSS_EXIT,
-             "depart the Abyss",
-             "depart the Abyss at will" },
-        { 2, ABIL_LUGONU_BEND_SPACE, "bend space around yourself" },
-        { 3, ABIL_LUGONU_BANISH, "banish your foes" },
-        { 4, ABIL_LUGONU_CORRUPT, "corrupt the fabric of space" },
-        { 5, ABIL_LUGONU_ABYSS_ENTER, "gate yourself to the Abyss" },
+             "You can now depart the Abyss.",
+             "You can no longer depart the Abyss at will.",
+             "You can depart the Abyss." },
+        { 2, ABIL_LUGONU_BEND_SPACE,
+             "You can now bend space around yourself.",
+             "You can no longer bend space around yourself.",
+             "You can bend space around yourself." },
+        { 3, ABIL_LUGONU_BANISH,
+             "You can now banish your foes.",
+             "You can no longer banish your foes.",
+             "You can banish your foes." },
+        { 4, ABIL_LUGONU_CORRUPT,
+             "You can now corrupt the fabric of space.",
+             "You can no longer corrupt the fabric of space.",
+             "You can corrupt the fabric of space." },
+        { 5, ABIL_LUGONU_ABYSS_ENTER,
+             "You can now gate yourself to the Abyss.",
+             "You can no longer gate yourself to the Abyss.",
+             "You can gate yourself to the Abyss." },
         { 7, ABIL_LUGONU_BLESS_WEAPON,
              "Lugonu will corrupt your weapon with distortion... once.",
              "Lugonu is no longer ready to corrupt your weapon." },
     },
 
     // Beogh
-    {   { 2, ABIL_BEOGH_SMITING, "smite your foes" },
-        { 3, "gain orcish followers" },
-        { 4, ABIL_BEOGH_RECALL_ORCISH_FOLLOWERS, "recall your orcish followers" },
-        { 5, "walk on water" },
-        { 5, ABIL_BEOGH_GIFT_ITEM, "give items to your followers" },
-        { 6, ABIL_BEOGH_RESURRECTION, "revive fallen orcs" },
+    {   { 2, ABIL_BEOGH_SMITING,
+            "You can now smite your foes.",
+            "You can no longer smite your foes.",
+            "You can smite your foes." },
+        { 3, "You can now gain orcish followers.",
+             "You can no longer gain orcish followers.",
+             "You can gain orcish followers." },
+        { 4, ABIL_BEOGH_RECALL_ORCISH_FOLLOWERS,
+             "You can now recall your orcish followers.",
+             "You can no longer recall your orcish followers.",
+             "You can recall your orcish followers." },
+        { 5, "You can now walk on water.",
+             "You can no longer walk on water.",
+             "You can walk on water." },
+        { 5, ABIL_BEOGH_GIFT_ITEM,
+             "You can now give items to your followers.",
+             "You can no longer give items to your followers.",
+             "You can give items to your followers." },
+        { 6, ABIL_BEOGH_RESURRECTION,
+             "You can now revive fallen orcs.",
+             "You can no longer revive fallen orcs.",
+             "You can revive fallen orcs." },
     },
 
     // Jiyva
-    {   { 1, ABIL_JIYVA_CALL_JELLY, "request a jelly" },
+    {   { 1, ABIL_JIYVA_CALL_JELLY,
+             "You can now request a jelly.",
+             "You can no longer request a jelly.",
+             "You can request a jelly." },
         { 3, "Jiyva will now mutate your body and modify your attributes as you gain piety.",
              "Jiyva will no longer mutate your body and modify your attributes.",
              "Jiyva will mutate your body and modify your attributes as you gain piety." },
         { 3, "Jiyva is now protecting you from corrosive effects.",
              "Jiyva will no longer protect you from corrosive effects.",
              "Jiyva protects you from corrosive effects." },
-        { 4, ABIL_JIYVA_SLIMIFY, "turn your foes to slime" },
+        { 4, ABIL_JIYVA_SLIMIFY,
+             "You can now turn your foes to slime.",
+             "You can no longer turn your foes to slime.",
+             "You can turn your foes to slime." },
         { 5, "You may now expel jellies when seriously injured.",
              "You will no longer expel jellies when injured.",
              "You may expel jellies when seriously injured." },
         { 5, ABIL_JIYVA_CURE_BAD_MUTATION,
-             "call upon Jiyva to remove your harmful mutations" },
+             "You can now call upon Jiyva to remove your harmful mutations.",
+             "You can no longer call upon Jiyva to remove your harmful mutations.",
+             "You can call upon Jiyva to remove your harmful mutations." },
     },
 
     // Fedhas
     {
-        { 2, ABIL_FEDHAS_WALL_OF_BRIARS, "encircle yourself with summoned briar patches"},
-        { 3, ABIL_FEDHAS_GROW_BALLISTOMYCETE, "grow a ballistomycete" },
-        { 4, ABIL_FEDHAS_OVERGROW, "transform dungeon walls and trees into plant allies"},
-        { 5, ABIL_FEDHAS_GROW_OKLOB, "grow an oklob plant" },
+        { 2, ABIL_FEDHAS_WALL_OF_BRIARS,
+             "You can now encircle yourself with summoned briar patches.",
+             "You can no longer encircle yourself with summoned briar patches.",
+             "You can encircle yourself with summoned briar patches." },
+        { 3, ABIL_FEDHAS_GROW_BALLISTOMYCETE,
+             "You can now grow a ballistomycete.",
+             "You can no longer grow a ballistomycete.",
+             "You can grow a ballistomycete." },
+        { 4, ABIL_FEDHAS_OVERGROW,
+             "You can now transform dungeon walls and trees into plant allies.",
+             "You can no longer transform dungeon walls and trees into plant allies.",
+             "You can transform dungeon walls and trees into plant allies." },
+        { 5, ABIL_FEDHAS_GROW_OKLOB,
+             "You can now grow an oklob plant.",
+             "You can no longer grow an oklob plant.",
+             "You can grow an oklob plant." },
     },
 
     // Cheibriados
-    {   { 0, ABIL_CHEIBRIADOS_TIME_BEND, "bend time to slow others" },
+    {   { 0, ABIL_CHEIBRIADOS_TIME_BEND,
+             "You can now bend time to slow others.",
+             "You can no longer bend time to slow others.",
+             "You can bend time to slow others." },
         { 1, "Cheibriados is now slowing the effects of poison on you.",
              "Cheibriados will no longer slow the effects of poison on you.",
              "Cheibriados slows the effects of poison on you." },
-        { 3, ABIL_CHEIBRIADOS_DISTORTION, "warp the flow of time around you" },
-        { 4, ABIL_CHEIBRIADOS_SLOUCH, "inflict damage on those overly hasty" },
-        { 5, ABIL_CHEIBRIADOS_TIME_STEP, "step out of the flow of time" },
+        { 3, ABIL_CHEIBRIADOS_DISTORTION,
+             "You can now warp the flow of time around you.",
+             "You can no longer warp the flow of time around you.",
+             "You can warp the flow of time around you." },
+        { 4, ABIL_CHEIBRIADOS_SLOUCH,
+             "You can now inflict damage on those overly hasty.",
+             "You can no longer inflict damage on those overly hasty.",
+             "You can inflict damage on those overly hasty." },
+        { 5, ABIL_CHEIBRIADOS_TIME_STEP,
+             "You can now step out of the flow of time.",
+             "You can no longer step out of the flow of time.",
+             "You can step out of the flow of time." },
     },
 
     // Ashenzari
-    {   { 0, ABIL_ASHENZARI_CURSE, "curse your items" },
-        { 1, ABIL_ASHENZARI_SCRYING, "scry through walls" },
+    {   { 0, ABIL_ASHENZARI_CURSE,
+             "You can now curse your items.",
+             "You can no longer curse your items.",
+             "You can curse your items." },
+        { 1, ABIL_ASHENZARI_SCRYING,
+             "You can now scry through walls.",
+             "You can no longer scry through walls.",
+             "You can scry through walls." },
         { 2, "The more cursed you are, the more Ashenzari will now support your skills.",
              "Ashenzari will no longer support your skills.",
              "The more cursed you are, the more Ashenzari supports your skills." },
@@ -297,7 +453,9 @@ const vector<god_power> god_powers[NUM_GODS] =
 
     // Dithmenos
     {   { 2, ABIL_DITHMENOS_SHADOW_STEP,
-             "step into the shadows of nearby creatures" },
+             "You can now step into the shadows of nearby creatures.",
+             "You can no longer step into the shadows of nearby creatures.",
+             "You can step into the shadows of nearby creatures." },
         { 3, "You will now sometimes bleed smoke when heavily injured by enemies.",
              "You will no longer bleed smoke.",
              "You sometimes bleed smoke when heavily injured by enemies." },
@@ -305,15 +463,24 @@ const vector<god_power> god_powers[NUM_GODS] =
              "Your shadow no longer tangibly mimics your actions.",
              "Your shadow sometimes tangibly mimics your actions." },
         { 5, ABIL_DITHMENOS_SHADOW_FORM,
-             "transform into a swirling mass of shadows" },
+             "You can now transform into a swirling mass of shadows.",
+             "You can no longer transform into a swirling mass of shadows.",
+             "You can transform into a swirling mass of shadows." },
     },
 
     // Gozag
-    {   { 0, ABIL_GOZAG_POTION_PETITION, "petition Gozag for potion effects" },
+    {   { 0, ABIL_GOZAG_POTION_PETITION,
+             "You have enough gold to petition Gozag for potion effects.",
+             "You no longer have enough gold to petition Gozag for potion effects.",
+             "You can petition Gozag for potion effects." },
         { 0, ABIL_GOZAG_CALL_MERCHANT,
-             "fund merchants seeking to open stores in the dungeon" },
+             "You have enough gold to fund merchants seeking to open stores in the dungeon.",
+             "You no longer have enough gold to fund merchants seeking to open stores in the dungeon.",
+             "You can fund merchants seeking to open stores in the dungeon." },
         { 0, ABIL_GOZAG_BRIBE_BRANCH,
-             "bribe branches to halt enemies' attacks and recruit allies" },
+             "You have enough gold to bribe branches to halt enemies' attacks and recruit allies.",
+             "You no longer have enough gold to bribe branches to halt enemies' attacks and recruit allies.",
+             "You can bribe branches to halt enemies' attacks and recruit allies." },
     },
 
     // Qazlal
@@ -322,8 +489,14 @@ const vector<god_power> god_powers[NUM_GODS] =
         { 1, "You are now surrounded by a storm.",
              "Your storm dissipates completely.",
              "You are surrounded by a storm." },
-        { 2, ABIL_QAZLAL_UPHEAVAL, "call upon nature to destroy your foes" },
-        { 3, ABIL_QAZLAL_ELEMENTAL_FORCE, "give life to nearby clouds" },
+        { 2, ABIL_QAZLAL_UPHEAVAL,
+             "You can now call upon nature to destroy your foes.",
+             "You can no longer call upon nature to destroy your foes.",
+             "You can call upon nature to destroy your foes." },
+        { 3, ABIL_QAZLAL_ELEMENTAL_FORCE,
+             "You can now give life to nearby clouds.",
+             "You can no longer give life to nearby clouds.",
+             "You can give life to nearby clouds." },
         { 4, "The storm surrounding you is now powerful enough to repel missiles.",
              "The storm surrounding you is now too weak to repel missiles.",
              "The storm surrounding you is powerful enough to repel missiles." },
@@ -331,7 +504,9 @@ const vector<god_power> god_powers[NUM_GODS] =
              "You will no longer adapt resistances upon receiving elemental damage.",
              "You adapt resistances upon receiving elemental damage." },
         { 5, ABIL_QAZLAL_DISASTER_AREA,
-             "call upon nature's wrath in a wide area around you" },
+             "You can now call upon nature's wrath in a wide area around you.",
+             "You can no longer call upon nature's wrath in a wide area around you.",
+             "You can call upon nature's wrath in a wide area around you." },
     },
 
     // Ru
@@ -341,51 +516,94 @@ const vector<god_power> god_powers[NUM_GODS] =
         { 2, "Your aura of power can now strike those that harm you.",
              "Your aura of power no longer strikes those that harm you.",
              "Your aura of power can strike those that harm you." },
-        { 3, ABIL_RU_DRAW_OUT_POWER, "heal your body and restore your magic" },
-        { 4, ABIL_RU_POWER_LEAP, "gather your power into a mighty leap" },
-        { 5, ABIL_RU_APOCALYPSE, "wreak a terrible wrath on your foes" },
+        { 3, ABIL_RU_DRAW_OUT_POWER,
+             "You can now heal your body and restore your magic.",
+             "You can no longer heal your body and restore your magic.",
+             "You can heal your body and restore your magic." },
+        { 4, ABIL_RU_POWER_LEAP,
+             "You can now gather your power into a mighty leap.",
+             "You can no longer gather your power into a mighty leap.",
+             "You can gather your power into a mighty leap." },
+        { 5, ABIL_RU_APOCALYPSE,
+             "You can now wreak a terrible wrath on your foes.",
+             "You can no longer wreak a terrible wrath on your foes.",
+             "You can wreak a terrible wrath on your foes." },
     },
 
 #if TAG_MAJOR_VERSION == 34
     // Pakellas
     {
-        { 0, "gain magical power from killing" },
+        { 0, "You can now gain magical power from killing.",
+             "You can no longer gain magical power from killing.",
+             "You can gain magical power from killing." },
         { 3, ABIL_PAKELLAS_DEVICE_SURGE,
-             "spend magic to empower your devices" },
+             "You can now spend magic to empower your devices.",
+             "You can no longer spend magic to empower your devices.",
+             "You can spend magic to empower your devices." },
     },
 #endif
 
     // Uskayaw
     {
-        { 1, ABIL_USKAYAW_STOMP, "stomp with the beat" },
-        { 2, ABIL_USKAYAW_LINE_PASS, "pass through a line of other dancers" },
+        { 1, ABIL_USKAYAW_STOMP,
+             "You can now stomp with the beat.",
+             "You can no longer stomp with the beat.",
+             "You can stomp with the beat." },
+        { 2, ABIL_USKAYAW_LINE_PASS,
+             "You can now pass through a line of other dancers.",
+             "You can no longer pass through a line of other dancers.",
+             "You can pass through a line of other dancers." },
         { 3, "Uskayaw will force your foes to helplessly watch your dance.",
              "Uskayaw will no longer force your foes to helplessly watch your dance."},
         { 4, "Uskayaw will force your foes to share their pain.",
              "Uskayaw will no longer force your foes to share their pain."},
-        { 5, ABIL_USKAYAW_GRAND_FINALE, "merge with and destroy a victim" },
+        { 5, ABIL_USKAYAW_GRAND_FINALE,
+             "You can now merge with and destroy a victim.",
+             "You can no longer merge with and destroy a victim.",
+             "You can merge with and destroy a victim." },
     },
 
     // Hepliaklqana
-    {   { 0, ABIL_HEPLIAKLQANA_RECALL, "recall your ancestor" },
-        { 0, ABIL_HEPLIAKLQANA_IDENTITY, "remember your ancestor's identity" },
-        { 3, ABIL_HEPLIAKLQANA_TRANSFERENCE, "swap creatures with your ancestor" },
-        { 4, ABIL_HEPLIAKLQANA_IDEALISE, "heal and protect your ancestor" },
-        { 5, "drain nearby creatures when transferring your ancestor"},
+    {   { 0, ABIL_HEPLIAKLQANA_RECALL,
+             "You can now recall your ancestor.",
+             "You can no longer recall your ancestor.",
+             "You can recall your ancestor." },
+        { 0, ABIL_HEPLIAKLQANA_IDENTITY,
+             "You can now remember your ancestor's identity.",
+             "You can no longer remember your ancestor's identity.",
+             "You can remember your ancestor's identity." },
+        { 3, ABIL_HEPLIAKLQANA_TRANSFERENCE,
+             "You can now swap creatures with your ancestor."
+             "You can no longer swap creatures with your ancestor.",
+             "You can swap creatures with your ancestor." },
+        { 4, ABIL_HEPLIAKLQANA_IDEALISE,
+             "You can now heal and protect your ancestor.",
+             "You can no longer heal and protect your ancestor.",
+             "You can heal and protect your ancestor." },
+        { 5, "You can now drain nearby creatures when transferring your ancestor.",
+             "You can no longer drain nearby creatures when transferring your ancestor.",
+             "You can drain nearby creatures when transferring your ancestor." },
     },
 
     // Wu Jian
-    {   { 0, "perform damaging attacks by moving towards foes",
-             "perform lunging strikes" },
-        { 1, "lightly attack monsters by moving around them",
-             "perform spinning attacks" },
+    {   { 0, "You can now perform damaging attacks by moving towards foes.",
+             "You can no longer perform lunging strikes.",
+             "You can perform damaging attacks by moving towards foes." },
+        { 1, "You can now lightly attack monsters by moving around them.",
+             "You can no longer perform spinning attacks.",
+             "You can lightly attack monsters by moving around them." },
         { 2, ABIL_WU_JIAN_WALLJUMP,
-             "perform airborne attacks" },
-        { 3, ABIL_WU_JIAN_SERPENTS_LASH, "briefly move at supernatural speeds",
-             "move at supernatural speeds" },
+             "You can now perform airborne attacks.",
+             "You can no longer perform airborne attacks.",
+             "You can perform airborne attacks." },
+        { 3, ABIL_WU_JIAN_SERPENTS_LASH,
+             "You can now briefly move at supernatural speeds.",
+             "You can no longer move at supernatural speeds.",
+             "You can briefly move at supernatural speeds." },
         { 5, ABIL_WU_JIAN_HEAVENLY_STORM,
-             "summon a storm of heavenly clouds to empower your attacks",
-             "summon a storm of heavenly clouds" },
+             "You can now summon a storm of heavenly clouds to empower your attacks.",
+             "You can no longer summon a storm of heavenly clouds.",
+             "You can summon a storm of heavenly clouds to empower your attacks." },
     },
 };
 
@@ -414,7 +632,7 @@ vector<god_power> get_god_powers(god_type god)
  *             BEHAVIOUR IS UNDEFINED.
  * @return a string suitable for being read by the user.
  */
-void god_power::display(bool gaining, const char* fmt) const
+void god_power::display(bool gaining) const
 {
     // hack: don't mention the necronomicon alone unless it wasn't
     // already mentioned by the other message
@@ -424,10 +642,7 @@ void god_power::display(bool gaining, const char* fmt) const
         return;
     }
     const char* str = gaining ? gain : loss;
-    if (isupper(str[0]))
-        god_speaks(you.religion, str);
-    else
-        god_speaks(you.religion, make_stringf(fmt, str).c_str());
+    god_speaks(you.religion, str);;
 }
 
 static void _place_delayed_monsters();
@@ -2401,7 +2616,7 @@ static void _gain_piety_point()
             if (power.rank == rank
                 || power.rank == 7 && can_do_capstone_ability(you.religion))
             {
-                power.display(true, "You can now %s.");
+                power.display(true);
 #ifdef USE_TILE_LOCAL
                 tiles.layout_statcol();
                 redraw_screen();
@@ -2583,7 +2798,7 @@ void lose_piety(int pgn)
                 || power.rank == 7 && old_rank == 6
                    && !you.one_time_ability_used[you.religion])
             {
-                power.display(false, "You can no longer %s.");
+                power.display(false);
                 // Preserve the old hotkey
                 if (power.abil == ABIL_YRED_ANIMATE_DEAD)
                 {
@@ -3469,7 +3684,7 @@ static void _join_gozag()
     {
         if (you.gold >= get_gold_cost(power.abil))
         {
-            power.display(true, "You have enough gold to %s.");
+            power.display(true);
             needs_redraw = true;
         }
     }
@@ -3681,7 +3896,7 @@ void join_religion(god_type which_god)
     if (!you_worship(GOD_GOZAG))
         for (const auto& power : get_god_powers(you.religion))
             if (power.rank <= 0)
-                power.display(true, "You can now %s.");
+                power.display(true);
 
     // Allow training all divine ability skills immediately.
     vector<ability_type> abilities = get_god_abilities();
