@@ -531,7 +531,7 @@ char *next_glyph(char *s)
     return s_cur;
 }
 
-string chop_string(const char *s, int width, bool spaces)
+string chop_string(const char *s, int width, bool spaces, bool left_justify)
 {
     const char *s0 = s;
     char32_t c;
@@ -549,11 +549,16 @@ string chop_string(const char *s, int width, bool spaces)
     }
 
     if (spaces && width)
-        return string(s0, s - s0) + string(width, ' ');
+    {
+        if (left_justify)
+            return string(s0, s - s0) + string(width, ' ');
+        else
+            return string(width, ' ') + string(s0, s - s0);
+    }
     return string(s0, s - s0);;
 }
 
-string chop_string(const string &s, int width, bool spaces)
+string chop_string(const string &s, int width, bool spaces, bool left_justify)
 {
-    return chop_string(s.c_str(), width, spaces);
+    return chop_string(s.c_str(), width, spaces, left_justify);
 }
