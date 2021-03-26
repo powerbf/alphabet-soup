@@ -3086,9 +3086,6 @@ It is only found in Nemelex Xobeh's deck of punishment.
 It is normally not part of any deck.
 
 %%%%
-cards
-
-%%%%
 " card"
 
 %%%%
@@ -3917,9 +3914,6 @@ no fee if you join today
 %d gold; you have %d
 
 %%%%
-tile
-
-%%%%
 You are not religious.
 Ihr seid nicht religiös.
 %%%%
@@ -4008,12 +4002,6 @@ Bekannt
 %%%%
 Crystal Spear
 Krystalspeer
-%%%%
-spells
-
-%%%%
-spellset
-
 %%%%
 
 ##################
@@ -5223,9 +5211,6 @@ a shop
 Hints.
 
 %%%%
-feats
-
-%%%%
 (w)ield
 
 %%%%
@@ -5272,9 +5257,6 @@ e(v)oke
 
 %%%%
 "Select a spell, or "
-
-%%%%
-tiles
 
 %%%%
 "Replace inscription with what? "
@@ -9204,15 +9186,6 @@ cache.
 
 %%%%
 tdl
-
-%%%%
-loadable
-
-%%%%
-name
-
-%%%%
-Save in use
 
 %%%%
 start-
@@ -13823,7 +13796,13 @@ vsavrv
 vsav
 
 %%%%
+tiles
+
+%%%%
 sc
+
+%%%%
+name
 
 %%%%
 race
@@ -17375,6 +17354,9 @@ rtile
 ftile
 
 %%%%
+tile
+
+%%%%
 
 ##################
 # l-file.cc
@@ -17463,6 +17445,9 @@ puton
 
 %%%%
 dropped
+
+%%%%
+spells
 
 %%%%
 artprops
@@ -20362,9 +20347,6 @@ fake
 
 %%%%
 Select what? (regex) %s
-
-%%%%
-hotkeys
 
 %%%%
 %-*s
@@ -26911,13 +26893,7 @@ morgue-
 # outer-menu.cc
 ##################
 %%%%
-labels
-
-%%%%
 newgame-choice
-
-%%%%
-buttons
 
 %%%%
 
@@ -27194,35 +27170,6 @@ save file decompression failed: %s
 ##################
 %%%%
 "on "
-
-%%%%
-
-##################
-# playable.cc
-##################
-%%%%
-xp
-
-%%%%
-mr
-
-%%%%
-abbr
-
-%%%%
-derives
-
-%%%%
-apts
-
-%%%%
-modifiers
-
-%%%%
-jobs
-
-%%%%
-combos
 
 %%%%
 
@@ -35626,12 +35573,6 @@ w=
 
 %%%%
 X
-
-%%%%
-checked
-
-%%%%
-text
 
 %%%%
 progress-bar

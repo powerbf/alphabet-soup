@@ -214,7 +214,7 @@ for filename in files:
                 continue
             if re.search(r'strip_tag_prefix *\(', line):
                 continue
-            if 'json_write' in line:
+            if 'json_' in line:
                 continue
             if 'push_ui_layout' in line:
                 continue
