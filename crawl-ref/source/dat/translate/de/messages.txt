@@ -620,9 +620,6 @@ Ability - describe what?
 Press '<w>!</w>' or '<w>?</w>' to toggle between ability selection and description.
 
 %%%%
-Invocations
-
-%%%%
 %d%% hostile
 %d%% feindlich
 %%%%
@@ -3949,97 +3946,70 @@ Are you sure you want to abandon %s?
 # describe-spells.cc
 ##################
 %%%%
-natural
-
+, which are affected by silence and antimagic
+, die von Stille und Antimagie betroffen wird
 %%%%
-divine
-
+, which are affected by silence
+, die von Stille betroffen wird
 %%%%
-, which are affected by%s%s%s
-
+, which are affected by antimagic
+, die von Antimagie betroffen wird
 %%%%
-" silence"
-
+" (judging by the spells you have seen cast)"
+" (nach den Zaubersprüchen zu urteilen, die Ihr gewirkt gesehen habt)"
 %%%%
-" and"
-
+" (judging by the abilities you have seen used)"
+" (nach den Fähigkeiten zu urteilen, die Ihr verwendet gesehen habt)"
 %%%%
-" antimagic"
-
+Has mastered one of the following spellbooks%s%s:
+Hat eines der folgenden Zauberbücher beherrscht%s%s:
 %%%%
-" (judging by the %s you have seen %s %s)"
-
+Has mastered the following spells%s%s:
+Hat die folgenden Zaubersprüche beherrscht%s%s:
 %%%%
-spells
-
+Possesses the following natural abilities%s%s:
+Besitzt die folgenden natürlichen Fähigkeiten%s%s:
 %%%%
-abilities
-
+Possesses the following magical abilities%s%s:
+Besitzt die folgenden magischen Fähigkeiten%s%s:
 %%%%
-cast
-
+Possesses the following divine abilities%s%s:
+Besitzt die folgenden göttlichen Fähigkeiten%s%s:
 %%%%
-use
-
+Possesses the following abilities%s%s:
+Besitzt die folgenden Fähigkeiten%s%s:
 %%%%
-%s mastered %s%s%s:
-
+Book %d:
+Buch %d:
 %%%%
-have
-
-%%%%
-one of the following spellbooks
-
-%%%%
-the following spells
-
-%%%%
-%s the following %s abilities%s%s:
-
-%%%%
-possess
-
-%%%%
-Book
-
-%%%%
-Set
-
-%%%%
-\n%s %d:
-
-%%%%
-lightred
-
-%%%%
-lightgray
-
+Set %d:
+Satz %d:
 %%%%
 (immune)
-
+(immun)
 %%%%
 2x
-
+2x
 %%%%
 (%s%dd%d)
-
+(%s%dd%d)
 %%%%
-\n Spells                           Type                      Level       Known
-
+Spell
+Zauber
+%%%%
+Type
+Art
+%%%%
+Level
+Stufe
+%%%%
+Known
+Bekannt
 %%%%
 Crystal Spear
-
+Krystalspeer
 %%%%
-Evocations
-
-%%%%
-"         yes"
-
-%%%%
-"          no"
-
-%%%%
-%s%d%s\n
+spells
 
 %%%%
 spellset
@@ -5331,6 +5301,9 @@ s
 "\n\n%*s: "
 
 %%%%
+Power
+
+%%%%
 "\n%*s: "
 
 %%%%
@@ -5419,6 +5392,9 @@ You'd be excommunicated if you dared to cast it!\n
 
 %%%%
 "\nYou cannot "
+
+%%%%
+cast
 
 %%%%
 memorise
@@ -5811,6 +5787,9 @@ shoot
 " spells"
 
 %%%%
+use
+
+%%%%
 " invocations"
 
 %%%%
@@ -6112,6 +6091,9 @@ any
 
 %%%%
 darkgrey
+
+%%%%
+lightred
 
 %%%%
 magenta
@@ -6500,6 +6482,9 @@ resting
 
 %%%%
 " fleeing.\n"
+
+%%%%
+have
 
 %%%%
 " not noticed you.\n"
@@ -10550,6 +10535,9 @@ Apostates
 
 %%%%
 Anathema
+
+%%%%
+Bugginess
 
 %%%%
 sinners
@@ -16667,6 +16655,9 @@ spectre
 strange
 
 %%%%
+natural
+
+%%%%
 undead
 
 %%%%
@@ -17737,6 +17728,9 @@ Unknown skill name `%s`
 
 %%%%
 turns
+
+%%%%
+abilities
 
 %%%%
 genus
@@ -28879,6 +28873,9 @@ owner
 "Kikubaaqudgha's "
 
 %%%%
+Necromancy
+
+%%%%
 
 ##################
 # ranged-attack.cc
@@ -30493,6 +30490,9 @@ Antique Armour
 Gadget
 
 %%%%
+Book
+
+%%%%
 Removed Food
 
 %%%%
@@ -30741,9 +30741,6 @@ monster %s (%d) at (%d, %d) was improperly placed. Updating env.mgrid.
 "     Skill"
 
 %%%%
-Level
-
-%%%%
 <blue>Apt </blue>
 
 %%%%
@@ -30949,81 +30946,6 @@ Ihr fühlt Euch allmächtig.
 ##################
 # skills.cc
 ##################
-%%%%
-Fighting
-
-%%%%
-Short Blades
-
-%%%%
-Long Blades
-
-%%%%
-Axes
-
-%%%%
-Maces & Flails
-
-%%%%
-Polearms
-
-%%%%
-Staves
-
-%%%%
-Slings
-
-%%%%
-Bows
-
-%%%%
-Crossbows
-
-%%%%
-Throwing
-
-%%%%
-Dodging
-
-%%%%
-Stabbing
-
-%%%%
-Shields
-
-%%%%
-Traps
-
-%%%%
-Unarmed Combat
-
-%%%%
-Spellcasting
-
-%%%%
-Charms
-
-%%%%
-Translocations
-
-%%%%
-Transmutations
-
-%%%%
-Fire Magic
-
-%%%%
-Ice Magic
-
-%%%%
-Air Magic
-
-%%%%
-Earth Magic
-
-%%%%
-Poison Magic
-
 %%%%
 You have mastered %s!
 Ihr habt %s gemeistert!
@@ -33313,46 +33235,7 @@ Smite
 Fragment what (e.g. wall or brittle monster)?
 
 %%%%
-Conj
-
-%%%%
-Tmut
-
-%%%%
-Necr
-
-%%%%
-Summ
-
-%%%%
-Tloc
-
-%%%%
-Pois
-
-%%%%
-Erth
-
-%%%%
 Rndm
-
-%%%%
-Conjuration
-
-%%%%
-Transmutation
-
-%%%%
-Summoning
-
-%%%%
-Translocation
-
-%%%%
-Poison
-
-%%%%
-Earth
 
 %%%%
 you're too confused to cast spells.
