@@ -5607,9 +5607,6 @@ It can can be affected by reciting Zin's laws.
 " (Recite power: %d, Hit Dice: %d)"
 
 %%%%
-dbname
-
-%%%%
 The apparition of %s.
 
 %%%%
@@ -6539,27 +6536,6 @@ central
 
 %%%%
 layout
-
-%%%%
-cursed
-
-%%%%
-useful
-
-%%%%
-charges
-
-%%%%
-plus
-
-%%%%
-ident
-
-%%%%
-unobtainable
-
-%%%%
-mimic
 
 %%%%
 ERROR: %s already generated somewhere else; please file a bug report.
@@ -8989,9 +8965,6 @@ Fixing up corrupted PlaceInfo for %s (levels_seen is %d)
 %%%%
 %s settles down.
 %s beruhigt sich.
-%%%%
-zig-fixup
-
 %%%%
 st
 
@@ -13751,9 +13724,6 @@ their own shadow
 unique
 
 %%%%
-blame
-
-%%%%
 " by "
 
 %%%%
@@ -15448,6 +15418,9 @@ qualname
 
 %%%%
 fullname
+
+%%%%
+dbname
 
 %%%%
 curse
@@ -17183,6 +17156,9 @@ Invalid item slot: %d
 branded
 
 %%%%
+plus
+
+%%%%
 plus2
 
 %%%%
@@ -17190,6 +17166,9 @@ class
 
 %%%%
 subtype
+
+%%%%
+cursed
 
 %%%%
 worn
@@ -20106,9 +20085,6 @@ XXX
 " (%d item%s)"
 
 %%%%
-fake
-
-%%%%
 Select what? (regex) %s
 
 %%%%
@@ -20621,9 +20597,6 @@ _handle_throw()
 
 %%%%
 fight_melee()
-
-%%%%
-outwards
 
 %%%%
 Something you can't see is thrashing in a web.
@@ -22226,21 +22199,13 @@ disembodied soul
 %%%%
 
 ##################
-# mon-info.h
-##################
-%%%%
-priest
-
-%%%%
-
-##################
 # mon-info.cc
 ##################
 %%%%
 inwards
 
 %%%%
-quote
+outwards
 
 %%%%
 "constricted by "
@@ -22277,9 +22242,6 @@ INVALID MONSTER
 
 %%%%
 " illusion"
-
-%%%%
-helpless
 
 %%%%
 "helpless "
@@ -22398,9 +22360,6 @@ mon-bands
 ##################
 # mon-poly.cc
 ##################
-%%%%
-autoinscribe
-
 %%%%
 %s's form twists and warps, and jellies spill out!
 
@@ -26524,14 +26483,6 @@ LPT
 %%%%
 
 ##################
-# ng-setup.cc
-##################
-%%%%
-adjusted
-
-%%%%
-
-##################
 # orb.cc
 ##################
 %%%%
@@ -28516,9 +28467,6 @@ Zap
 
 %%%%
 action
-
-%%%%
-param
 
 %%%%
 Really quiver %s?
@@ -30551,6 +30499,9 @@ train
 
 %%%%
 focus
+
+%%%%
+useful
 
 %%%%
 all
@@ -32654,18 +32605,6 @@ Eure Kampfsphäre schwankt und verliert den Zusammenhalt.
 You feel your bond with your battlesphere wane.
 Ihr fühlt, wie Eure Bindung zu Eurer Kampfsphäre schwindet.
 %%%%
-ready
-
-%%%%
-tracking
-
-%%%%
-foe
-
-%%%%
-firing
-
-%%%%
 Battlesphere targeting itself? Fixing.
 Battlesphere zielt auf sich selbst? Reparieren.
 %%%%
@@ -33966,9 +33905,6 @@ Mutation #%d nicht synchron, repariert.
 Failed to load Lua persist table: %s
 Fehler beim Laden der Lua-Persist-Tabelle:%s
 %%%%
-napalmer
-
-%%%%
 Fixing up incorrect heavenly storm key
 
 %%%%
@@ -33991,9 +33927,6 @@ dragon scales
 
 %%%%
 +Lev
-
-%%%%
-given beogh weapon
 
 %%%%
 elsewhere companion has duplicate mid %d: %s
