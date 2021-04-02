@@ -11,6 +11,9 @@
 ", "
 ", "
 %%%%
+"; "
+"; "
+%%%%
 " and "
 " und "
 %%%%
@@ -26,9 +29,6 @@
 # because some languages don't simply append punctuation to the end.
 # For example, in Spanish, you would translate "%s!" as "¡%s!"
 %%%%
-%s.
-%s.
-%%%%
 %s!
 %s!
 %%%%
@@ -58,6 +58,18 @@
 %%%%
 %s!!!!!!!!!!
 %s!!!!!!!!!!
+
+####################
+# General punctuation
+####################
+
+%%%%
+" "
+" "
+%%%%
+"."
+"."
+%%%%
 
 ####################
 # Keys and key combos

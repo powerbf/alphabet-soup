@@ -2728,7 +2728,7 @@ string spell_range_string(spell_type spell)
 string range_string(int range, int maxrange, char32_t caster_char)
 {
     if (range <= 0)
-        return "N/A";
+        return localise("N/A");
 
     return stringize_glyph(caster_char) + string(range - 1, '-')
            + string(">") + string(maxrange - range, '.');

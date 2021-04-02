@@ -4083,22 +4083,22 @@ It shields you and reflects attacks.
 It reduces the accuracy of all your attacks.
 
 %%%%
-It affects your AC (%d).
+It affects your AC (%+d).
 
 %%%%
-It affects your evasion (%d).
+It affects your evasion (%+d).
 
 %%%%
-It affects your strength (%d).
+It affects your strength (%+d).
 
 %%%%
-It affects your intelligence (%d).
+It affects your intelligence (%+d).
 
 %%%%
-It affects your dexterity (%d).
+It affects your dexterity (%+d).
 
 %%%%
-It affects your accuracy and damage with ranged weapons and melee attacks (%d).
+It affects your accuracy and damage with ranged weapons and melee attacks (%+d).
 
 %%%%
 It insulates you from electricity.
@@ -4107,10 +4107,10 @@ It insulates you from electricity.
 It affects your willpower, your defense against some magical effects.
 
 %%%%
-It affects your health (%d).
+It affects your health (%+d).
 
 %%%%
-It affects your magic capacity (%d).
+It affects your magic capacity (%+d).
 
 %%%%
 It lets you see invisible.
@@ -4173,67 +4173,82 @@ It may slow you when you take damage.
 It will be destroyed if unequipped.
 
 %%%%
-It affects your SH (%d).
+It affects your SH (%+d).
 
 %%%%
 It bestows one free step when moving towards enemies.
 
 %%%%
-%+d
+It makes you extremely vulnerable to %s.
 
 %%%%
-"It makes you extremely vulnerable to "
+It makes you very vulnerable to %s.
 
 %%%%
-"It makes you very vulnerable to "
+It makes you vulnerable to %s.
 
 %%%%
-"It makes you vulnerable to "
+It protects you from %s.
 
 %%%%
-Buggy descriptor!
+It greatly protects you from %s.
 
 %%%%
-"It protects you from "
+It renders you almost immune to %s.
 
 %%%%
-"It greatly protects you from "
+It makes you much less stealthy.
 
 %%%%
-"It renders you almost immune to "
+It makes you much more stealthy.
 
 %%%%
-\nIt makes you %s%s stealthy.
+It makes you less stealthy.
 
 %%%%
-"much "
+It makes you more stealthy.
 
 %%%%
-less
+dart trap
 
 %%%%
-more
+arrow trap
 
 %%%%
-teleport
+spear trap
 
 %%%%
-permanent teleport
+dispersal trap
 
 %%%%
-alarm
+teleport trap
 
 %%%%
-blade
+permanent teleport trap
 
 %%%%
-net
+alarm trap
+
+%%%%
+blade trap
+
+%%%%
+bolt trap
+
+%%%%
+net trap
+
+%%%%
+Zot trap
+
+%%%%
+needle trap
 
 %%%%
 shaft
 
 %%%%
-passage
+passage of Golubria
 
 %%%%
 pressure plate
@@ -4242,190 +4257,190 @@ pressure plate
 web
 
 %%%%
-gas
+gas trap
 
 %%%%
-dormant shadow
+shadow trap
 
 %%%%
-" of Golubria"
+dormant shadow trap
 
 %%%%
-" trap"
+"One of the many lords of Pandemonium, @name@ has "
 
 %%%%
-armoured
+an armoured body
 
 %%%%
-vast, spindly
+a vast, spindly body
 
 %%%%
-fat
+a fat body
 
 %%%%
-obese
+an obese body
 
 %%%%
-muscular
+a muscular body
 
 %%%%
-spiked
+a spiked body
 
 %%%%
-splotchy
+a splotchy body
 
 %%%%
-slender
+a slender body
 
 %%%%
-tentacled
+a tentacled body
 
 %%%%
-emaciated
+an emaciated body
 
 %%%%
-bug-like
+a bug-like body
 
 %%%%
-skeletal
+a skeletal body
 
 %%%%
-mantis
+a mantis body
 
 %%%%
-slithering
+a slithering body
 
 %%%%
-with small, bat-like wings
+" with small, bat-like wings"
 
 %%%%
-with bony wings
+" with bony wings"
 
 %%%%
-with sharp, metallic wings
+" with sharp, metallic wings"
 
 %%%%
-with the wings of a moth
+" with the wings of a moth"
 
 %%%%
-with thin, membranous wings
+" with thin, membranous wings"
 
 %%%%
-with dragonfly wings
+" with dragonfly wings"
 
 %%%%
-with large, powerful wings
+" with large, powerful wings"
 
 %%%%
-with fluttering wings
+" with fluttering wings"
 
 %%%%
-with great, sinister wings
+" with great, sinister wings"
 
 %%%%
-with hideous, tattered wings
+" with hideous, tattered wings"
 
 %%%%
-with sparrow-like wings
+" with sparrow-like wings"
 
 %%%%
-with hooked wings
+" with hooked wings"
 
 %%%%
-with strange knobs attached
+" with strange knobs attached"
 
 %%%%
-which hovers in mid-air
+" which hovers in mid-air"
 
 %%%%
-with sacs of gas hanging from its back
+" with sacs of gas hanging from its back"
 
 %%%%
-a cubic structure in place of a head
+" and a cubic structure in place of a head"
 
 %%%%
-a brain for a head
+" and a brain for a head"
 
 %%%%
-a hideous tangle of tentacles for a mouth
+" and a hideous tangle of tentacles for a mouth"
 
 %%%%
-the head of an elephant
+" and the head of an elephant"
 
 %%%%
-an eyeball for a head
+" and an eyeball for a head"
 
 %%%%
-wears a helmet over its head
+" and wears a helmet over its head"
 
 %%%%
-a horn in place of a head
+" and a horn in place of a head"
 
 %%%%
-a thick, horned head
+" and a thick, horned head"
 
 %%%%
-the head of a horse
+" and the head of a horse"
 
 %%%%
-a vicious glare
+" and a vicious glare"
 
 %%%%
-snakes for hair
+" and snakes for hair"
 
 %%%%
-the face of a baboon
+" and the face of a baboon"
 
 %%%%
-the head of a mouse
+" and the head of a mouse"
 
 %%%%
-a ram's head
+" and a ram's head"
 
 %%%%
-the head of a rhino
+" and the head of a rhino"
 
 %%%%
-eerily human features
+" and eerily human features"
 
 %%%%
-a gigantic mouth
+" and a gigantic mouth"
 
 %%%%
-a mass of tentacles growing from its neck
+" and a mass of tentacles growing from its neck"
 
 %%%%
-a thin, worm-like head
+" and a thin, worm-like head"
 
 %%%%
-huge, compound eyes
+" and huge, compound eyes"
 
 %%%%
-the head of a frog
+" and the head of a frog"
 
 %%%%
-an insectoid head
+" and an insectoid head"
 
 %%%%
-a great mass of hair
+" and a great mass of hair"
 
 %%%%
-a skull for a head
+" and a skull for a head"
 
 %%%%
-a cow's skull for a head
+" and a cow's skull for a head"
 
 %%%%
-the head of a bird
+" and the head of a bird"
 
 %%%%
-a large fungus growing from its neck
+" and a large fungus growing from its neck"
 
 %%%%
-an ominous eye at the end of a thin stalk
+" and an ominous eye at the end of a thin stalk"
 
 %%%%
-a face from nightmares
+" and a face from nightmares"
 
 %%%%
 " It seethes with hatred of the living."
@@ -4566,18 +4581,6 @@ a face from nightmares
 " It smells delicious!"
 
 %%%%
-"One of the many lords of Pandemonium, "
-
-%%%%
-" has "
-
-%%%%
-" body "
-
-%%%%
-"and "
-
-%%%%
 It is of an unusually buggy age.
 
 %%%%
@@ -4596,73 +4599,61 @@ It is an elder, stronger than mature beasts.
 It is a primal beast, the most powerful of its kind.
 
 %%%%
-" seems unusually buggy."
+it seems unusually buggy
 
 %%%%
-" sports a set of venomous tails"
+it sports a set of venomous tails
 
 %%%%
-" flies swiftly and unpredictably"
+it flies swiftly and unpredictably
 
 %%%%
-s breath smoulders ominously
+it's breath smoulders ominously
 
 %%%%
-" is covered with eyes and tentacles"
+it is covered with eyes and tentacles
 
 %%%%
-" flickers and crackles with electricity"
+it flickers and crackles with electricity
 
 %%%%
-" is covered in dense fur and muscle"
+it is covered in dense fur and muscle
 
 %%%%
-It
-
-%%%%
-, and it
-
-%%%%
-, it
+", and "
 
 %%%%
 ; use <white>(s)</white> to set %d.%d as a target for %s.
 
 %%%%
-Your %sskill: %d.%d%s
+Your skill: %d.%d
 
 %%%%
-"(base) "
+Your (base) skill: %d.%d
 
 %%%%
-"At 100% training "
+At %d%% training you would reach %d.%d in the equivalent of %d.%d XLs.
 
 %%%%
-"At current training (%d%%) "
+At %d%% training you would reach %d.%d in about %d.%d XLs.
 
 %%%%
-"At a training level of %d%% "
+At current training (%d%%) you reach %d.%d in the equivalent of %d.%d XLs.
 
 %%%%
-you %sreach %d.%d in %s %d.%d XLs.
+At current training (%d%%) you reach %d.%d in about %d.%d XLs.
 
 %%%%
-"would "
+(%d xp, %d skp)
 
 %%%%
-the equivalent of
+Firing bullets:    Base damage: %d
 
 %%%%
-about
+Base accuracy: %+d  Base damage: %d  Base attack delay: %.1f
 
 %%%%
-\n    (%d xp, %d skp)
-
-%%%%
-\nFiring bullets:    Base damage: %d
-
-%%%%
-\nBase accuracy: %+d  Base damage: %d  Base attack delay: %.1f\nThis weapon's minimum attack delay (%.1f) is reached at skill level %d.
+This weapon's minimum attack delay (%.1f) is reached at skill level %d.
 
 %%%%
 It is a weapon for one hand-pair.
@@ -4674,67 +4665,46 @@ It is a one handed weapon.
 It is a two handed weapon.
 
 %%%%
-\n\nIt can be evoked to extend its reach.
+It can be evoked to extend its reach.
 
 %%%%
-\n\nIt hits all enemies adjacent to the wielder, dealing less damage to those not targeted.
+It hits all enemies adjacent to the wielder, dealing less damage to those not targeted.
 
 %%%%
-\n\nIt can be used to riposte, swiftly retaliating against a missed attack.
+It can be used to riposte, swiftly retaliating against a missed attack.
 
 %%%%
-extremely
+It is extremely good for stabbing unaware enemies.
 
 %%%%
-particularly
+It is particularly good for stabbing unaware enemies.
 
 %%%%
-"\n\nIt is "
+It causes projectiles fired from it to burn those they strike, causing extra injury to most foes and up to half again as much damage against particularly susceptible opponents.
 
 %%%%
-" good for stabbing unaware enemies."
-
-%%%%
-It causes projectiles fired from it to burn those they strike,
-
-%%%%
-It has been specially enchanted to burn those struck by it,
-
-%%%%
-" causing extra injury to most foes and up to half again as much damage against particularly susceptible opponents."
+It has been specially enchanted to burn those struck by it, causing extra injury to most foes and up to half again as much damage against particularly susceptible opponents.
 
 %%%%
 " Big, fiery blades are also staple armaments of hydra-hunters."
 
 %%%%
-It causes projectiles fired from it to freeze those they strike,
+It causes projectiles fired from it to freeze those they strike, causing extra injury to most foes and up to half again as much damage against particularly susceptible opponents.
 
 %%%%
-It has been specially enchanted to freeze those struck by it,
+It has been specially enchanted to freeze those struck by it, causing extra injury to most foes and up to half again as much damage against particularly susceptible opponents.
 
 %%%%
-" They"
+" They can also slow down cold-blooded creatures."
 
 %%%%
-" It"
+" It can also slow down cold-blooded creatures."
 
 %%%%
-" can also slow down cold-blooded creatures."
+It has been blessed by the Shining One, and any projectiles fired from it cause great damage to the undead and demons.
 
 %%%%
-It has been blessed by the Shining One
-
-%%%%
-", and any "
-
-%%%%
-" fired from it"
-
-%%%%
-" to"
-
-%%%%
-" cause great damage to the undead and demons."
+It has been blessed by the Shining One to cause great damage to the undead and demons.
 
 %%%%
 It charges the ammunition it shoots with electricity; occasionally upon a hit, such missiles may discharge and cause terrible harm.
@@ -4758,10 +4728,7 @@ A truly terrible weapon, it drains the life of those it strikes.
 Attacks with this weapon are significantly faster.
 
 %%%%
-"Any "
-
-%%%%
-" fired from it inflicts extra damage."
+Any projectile fired from it inflicts extra damage.
 
 %%%%
 It inflicts extra damage upon your enemies.
@@ -4797,49 +4764,31 @@ It retains the spirit of the tree from which it was made. In the hands of one sk
 It has no special brand (it is not flaming, freezing, etc), but is still enchanted in some way - positive or negative.
 
 %%%%
-\n\nAmmo fired by it passes through the targets it hits, potentially hitting all targets in its path until it reaches maximum range.
+It grants immunity to poison.
 
 %%%%
-\n\nIt has been specially enchanted to freeze those struck by it, causing extra injury to most foes and up to half again as much damage against particularly susceptible opponents.
+It is temporarily rebranded; it is actually an unbranded weapon.
 
 %%%%
-\n\nIt retains the spirit of the tree from which it was made. In the hands of one skilled in evocations this spirit is drawn out to fight along side the wielder.
+It is temporarily rebranded; it is actually %s.
 
 %%%%
-\n\nIt grants immunity to poison.
+This weapon may have some hidden properties.
 
 %%%%
-"\nIt is temporarily rebranded; it is actually "
+"This is %s. "
 
 %%%%
-an unbranded weapon.
+This weapon falls into the '%s' category.
 
 %%%%
-\nThis weapon may have some hidden properties.
+It is too large for you to wield.
 
 %%%%
-"\n\nThis "
+It cannot be enchanted further.
 
 %%%%
-" falls into the"
-
-%%%%
-" '%s' category. "
-
-%%%%
-\nIt is too large for you to wield.
-
-%%%%
-\nIt cannot be enchanted further.
-
-%%%%
-\nIt can be maximally enchanted to +
-
-%%%%
-threw
-
-%%%%
-fired
+It can be maximally enchanted to +%d.
 
 %%%%
 It burns those it strikes, causing extra injury to most foes and up to half again as much damage against particularly susceptible opponents. Compared to normal ammo, it is twice as likely to be destroyed on impact.
@@ -4848,19 +4797,7 @@ It burns those it strikes, causing extra injury to most foes and up to half agai
 It freezes those it strikes, causing extra injury to most foes and up to half again as much damage against particularly susceptible opponents. It can also slow down cold-blooded creatures. Compared to normal ammo, it is twice as likely to be destroyed on impact.
 
 %%%%
-"When "
-
-%%%%
-"thrown, "
-
-%%%%
-"or "
-
-%%%%
-"fired from an appropriate launcher, "
-
-%%%%
-it has a random effect.
+It has a random effect on any target it hits.
 
 %%%%
 It is coated with poison.
@@ -4875,67 +4812,58 @@ It is tipped with a substance that sends those it hits into a mindless rage, att
 It is tipped with a substance that causes blindness and brief confusion.
 
 %%%%
-"It causes any target it hits to blink, with a tendency towards blinking further away from the one who "
-
-%%%%
-" it."
+It causes any target it hits to blink, with a tendency towards blinking further away from the attacker.
 
 %%%%
 It deals increased damage compared to normal ammo and substantially increased damage to chaotic and magically transformed beings. It also inflicts extra damage against mutated beings, according to how mutated they are.
 
 %%%%
-\nBase damage: %d  Base attack delay: %.1f\nThis projectile's minimum attack delay (%.1f) is reached at skill level %d.
+Base damage: %d  Base attack delay: %.1f
 
 %%%%
-\n\nIt is always destroyed on impact.
+This projectile's minimum attack delay (%.1f) is reached at skill level %d.
 
 %%%%
-\n\nIt may be destroyed on impact.
+It is always destroyed on impact.
 
 %%%%
-"\n\nWith your current SH, it has a "
+It may be destroyed on impact.
 
 %%%%
-% chance to reflect enchantments and other normally unblockable effects.
+With your current SH, it has a %d%% chance to reflect enchantments and other normally unblockable effects.
 
 %%%%
-%s by %d
+If you switch to wearing this armour, your AC would increase by %d (%d -> %d).
 
 %%%%
-increase
+If you switch to wearing this armour, your AC would decrease by %d (%d -> %d).
 
 %%%%
-decrease
+If you switch to wearing this armour, your AC would remain unchanged.
 
 %%%%
-remain unchanged.
+If you remove this armour, your AC would increase by %d (%d -> %d).
 
 %%%%
-" -> "
+If you remove this armour, your AC would decrease by %d (%d -> %d).
 
 %%%%
-).
+If you remove this armour, your AC would remain unchanged.
 
 %%%%
-"\n\nIf you switch to wearing this armour, your AC would "
+Base shield rating: %d
 
 %%%%
-"\n\nIf you remove this armour, your AC would "
+Skill to remove penalty: %d.%d
 
 %%%%
-"\nBase shield rating: "
+Base armour rating: %d
 
 %%%%
-"       Skill to remove penalty: "
+Encumbrance rating: %d
 
 %%%%
-"\n\nBase armour rating: "
-
-%%%%
-"       Encumbrance rating: "
-
-%%%%
-"       Evasion: "
+Evasion: %d
 
 %%%%
 It allows its wearer to slither at a great speed.
@@ -5016,148 +4944,85 @@ It reduces the wearer's line of sight and spell power.
 Its wearer takes one free step when moving towards enemies.
 
 %%%%
-\nThis armour may have some hidden properties.
-
-%%%%
-\n\nIt can be maximally enchanted to +
-
-%%%%
-\n\nIt cannot be enchanted further.
+This armour may have some hidden properties.
 
 %%%%
 If you quaff this potion your AC would be %d.
 
 %%%%
-\nIt affects your shielding (%+d).
+It affects your shielding (%+d).
 
 %%%%
-\nIt affects your AC (%+d).
+This amulet may have hidden properties.
 
 %%%%
-\nIt affects your evasion (%+d).
-
-%%%%
-\nIt affects your strength (%+d).
-
-%%%%
-\nIt affects your intelligence (%+d).
-
-%%%%
-\nIt affects your dexterity (%+d).
-
-%%%%
-\nIt affects your accuracy and damage with ranged weapons and melee attacks (%+d).
-
-%%%%
-"\nThis "
-
-%%%%
-" may have hidden properties."
-
-%%%%
-[
-
-%%%%
-]
+This ring may have hidden properties.
 
 %%%%
 It is an ancient artefact.
 
 %%%%
-This item has been removed.\n
+This item has been removed.
 
 %%%%
-[ERROR: no desc for item name '
+[ERROR: no desc for item name '%s']. Perhaps this item has been removed?
 
 %%%%
-']. Perhaps this item has been removed?\n
+"It falls into the 'Staves' category. "
 
 %%%%
-.\n
+It is surrounded by a blinding glow.
 
 %%%%
-"\n\nIt falls into the 'Staves' category. "
+It is surrounded by a dazzling glow.
 
 %%%%
-"\n\nIt is surrounded by a "
+It is surrounded by a bright glow.
 
 %%%%
-"blinding "
+It is surrounded by a gentle glow.
 
 %%%%
-"dazzling "
+Once activated, this device is rendered temporarily inert.
 
 %%%%
-"bright "
+" However, it recharges as you gain experience."
 
 %%%%
-"gentle "
+Once all charges have been used, this device and all other devices of its kind are rendered temporarily inert.
 
 %%%%
-glow.
+Once activated, this device and all other devices of its kind are rendered temporarily inert.
 
 %%%%
-"\n\nOnce "
-
-%%%%
-all charges have been used
-
-%%%%
-activated
-
-%%%%
-", this device "
-
-%%%%
-"and all other devices of its kind "
-
-%%%%
-"are rendered temporarily inert. However, "
-
-%%%%
-"they recharge "
-
-%%%%
-"it recharges "
-
-%%%%
-as you gain experience.
+" However, they recharge as you gain experience."
 
 %%%%
 " The device is presently inert."
 
 %%%%
-"\nDamage: "
+"Damage: "
 
 %%%%
-"\nNoise: "
+It has a curse placed upon it.
 
 %%%%
-\nIt has a curse placed upon it.
+This ancient artefact cannot be changed by magic or mundane means.
 
 %%%%
-\nThis ancient artefact cannot be changed by magic or mundane means.
-
-%%%%
-\nIt is an ancient artefact.
-
-%%%%
-" disapproves of the use of such an item."
+%s disapproves of the use of such an item.
 
 %%%%
 "Stash search prefixes: "
 
 %%%%
-"\nMenu/colouring prefixes: "
+"Menu/colouring prefixes: "
 
 %%%%
 " cloud"
 
 %%%%
-"A cloud of "
-
-%%%%
-.\n\n
+A cloud of %s.
 
 %%%%
 A covering of ice.
@@ -5190,22 +5055,13 @@ Translocational energy.
 disjunction haloed
 
 %%%%
-a shop
+(Pray here with '%s' to learn more.)
 
 %%%%
-" (summoned)"
+It is susceptible to bolts of lightning and to sufficiently intense sources of fire.
 
 %%%%
-\n(Pray here with '%s' to learn more.)\n
-
-%%%%
-\nIt is susceptible to bolts of lightning
-
-%%%%
-" and to sufficiently intense sources of fire."
-
-%%%%
-\nIt can be dug through.
+It can be dug through.
 
 %%%%
 Hints.
@@ -5265,43 +5121,25 @@ e(v)oke
 "Inscribe with what? "
 
 %%%%
-\nLevel: %d
+Level: %d
 
 %%%%
-"        School%s: %s"
+"School: "
 
 %%%%
-s
+"Schools: "
 
 %%%%
-0%
+Fail: %d%%
 
 %%%%
-"        Fail: %s"
+"Power: "
 
 %%%%
-"\n\n%*s: "
+"Accuracy: "
 
 %%%%
-Power
-
-%%%%
-"\n%*s: "
-
-%%%%
-Damage
-
-%%%%
-\n%*s: %s
-
-%%%%
-Accuracy
-
-%%%%
-Range
-
-%%%%
-Noise
+"Range: "
 
 %%%%
 How on earth did you manage to pick this up?
@@ -5334,58 +5172,40 @@ debuffs and slows you
 deals up to %d %s damage
 
 %%%%
-"either "
+Miscasting this spell causes magic contamination.
 
 %%%%
-"; "
+Miscasting this spell causes magic contamination and also %s.
 
 %%%%
-Miscasting this spell causes magic contamination
+Your servitor would be unable to mimic any of your spells.
 
 %%%%
-" and also "
+Your servitor casts %s.
 
 %%%%
-Your servitor
+You can sustain at most 1 creature summoned by this spell.
 
 %%%%
-" would be unable to mimic any of your spells"
+You can sustain at most %d creatures summoned by this spell.
 
 %%%%
-" casts "
+%s frowns upon the use of this spell.
 
 %%%%
-"You can sustain at most "
+You'd be excommunicated if you dared to cast it!
 
 %%%%
-" creature"
+%s supports the use of this spell.
 
 %%%%
-" summoned by this spell.\n"
+You cannot cast this spell because %s
 
 %%%%
-" frowns upon the use of this spell.\n"
+You cannot memorise this spell because %s
 
 %%%%
-You'd be excommunicated if you dared to cast it!\n
-
-%%%%
-" supports the use of this spell.\n"
-
-%%%%
-"\nYou cannot "
-
-%%%%
-cast
-
-%%%%
-memorise
-
-%%%%
-" this spell because "
-
-%%%%
-"\nThis spell would have no effect right now because "
+This spell would have no effect right now because %s
 
 %%%%
 " spell"
@@ -5394,34 +5214,31 @@ memorise
 This spell has no description. Casting it may therefore be unwise. Please file a bug report.
 
 %%%%
-"\nRange : "
+"Range : "
 
 %%%%
 " (pow %d)"
 
 %%%%
-You cannot be affected by this spell right now. %s\n
+You cannot be affected by this spell right now. %s
 
 %%%%
-Chance to defeat your Will: %d%%%s\n
+Chance to defeat your Will: %d%%%s
 
 %%%%
-\nThis spell is not found in any books.
+This spell is not found in any books.
 
 %%%%
-\nThis spell can be found in the following book
+This spell can be found in the following books:
 
 %%%%
-":\n "
-
-%%%%
-"It has "
+This spell can be found in the following book:
 
 %%%%
 "pale "
 
 %%%%
-"scales. "
+"It has %sscales. "
 
 %%%%
 Sparks flare out of its mouth and nostrils.
@@ -5475,22 +5292,16 @@ It oozes dark energies.
 tornadoes
 
 %%%%
-buggy resistance
+This monster looks harmless.
 
 %%%%
-harmless
+This monster looks easy.
 
 %%%%
-easy
+This monster looks dangerous.
 
 %%%%
-dangerous
-
-%%%%
-extremely dangerous
-
-%%%%
-buggily threatening
+This monster looks extremely dangerous.
 
 %%%%
 "retreat from adjacent foes and "
@@ -5499,154 +5310,157 @@ buggily threatening
 "swoop behind its foe and "
 
 %%%%
-" from a distance"
+" and deal extra acid damage if any damage is dealt"
 
 %%%%
-deal extra acid damage
+" and blink itself if any damage is dealt"
 
 %%%%
-blink itself
+" and deal up to %d extra cold damage if any damage is dealt"
 
 %%%%
-deal up to %d extra cold damage
+" and cause confusion if any damage is dealt"
 
 %%%%
-cause confusion
+" and drain strength if any damage is dealt"
 
 %%%%
-drain strength
+" and drain intelligence if any damage is dealt"
 
 %%%%
-drain intelligence
+" and drain dexterity if any damage is dealt"
 
 %%%%
-drain dexterity
+" and drain strength, intelligence or dexterity if any damage is dealt"
 
 %%%%
-drain strength, intelligence or dexterity
+" and drain life if any damage is dealt"
 
 %%%%
-deal up to %d extra electric damage
+" and deal up to %d extra electric damage if any damage is dealt"
 
 %%%%
-deal up to %d extra fire damage
+" and deal up to %d extra fire damage if any damage is dealt"
 
 %%%%
-cause mutations
+" and cause mutations if any damage is dealt"
 
 %%%%
-poison and cause paralysis or slowing
+" and poison and cause paralysis or slowing if any damage is dealt"
 
 %%%%
-cause poisoning
+" and cause poisoning if any damage is dealt"
 
 %%%%
-cause strong poisoning
+" and cause strong poisoning if any damage is dealt"
 
 %%%%
-drain health from the living
+" and drain health from the living if any damage is dealt"
 
 %%%%
-cause wild translocation effects
+" and cause wild translocation effects if any damge is dealt"
 
 %%%%
-cause berserking
+" and cause berserking if any damage is dealt"
 
 %%%%
-apply sticky flame
+" and apply sticky flame if any damage is dealt"
 
 %%%%
-cause unpredictable effects
+" and cause unpredictable effects if any damage is dealt"
 
 %%%%
-steal items
+" and steal items if any damage is dealt"
 
 %%%%
-begin ongoing constriction
+" and begin ongoing constriction"
 
 %%%%
-deal extra damage to undead and demons
+" and deal extra damage to undead and demons if any damage is dealt"
 
 %%%%
-cause pain to the living
+" and drain magic if any dmage is dealt"
 
 %%%%
-ensnare with webbing
+" and cause pain to the living if any damage is dealt"
 
 %%%%
-engulf with water
+" and ensnare with webbing if any damage is dealt"
 
 %%%%
-drain speed
+" and engulf with water"
 
 %%%%
-reduce willpower
+" and drain speed if any damage is dealt"
 
 %%%%
-deal increased damage when unseen
+" and reduce willpower if any damage is dealt"
 
 %%%%
-deal drowning damage
+" and deal increased damage when unseen"
 
 %%%%
-cause corrosion
+" and deal drowning damage"
 
 %%%%
-drain speed and drain health
+" and cause corrosion"
 
 %%%%
-knock back the defender
+" and drain speed and drain health if any damage is dealt"
 
 %%%%
-cause weakness
+" and knock back the defender if any damage is dealt"
 
 %%%%
-" to "
-
-%%%%
-" if any damage is dealt"
-
-%%%%
-" plus %s %s"
-
-%%%%
-" twice"
-
-%%%%
-" times"
+" and cause weakness if any damage is dealt"
 
 %%%%
 %s for up to %d fire damage
 
 %%%%
-%sfor up to %d damage%s%s%s
+%s %d times for up to %d damage each
 
 %%%%
-" each"
+%s for up to %d damage
 
 %%%%
-" can "
+%s %d times for up to %d damage each plus %s
+
+%%%%
+%s for up to %d damage plus %s
+
+%%%%
+%s from a distance %d times for up to %d damage each
+
+%%%%
+%s from a distance for up to %d damage
+
+%%%%
+%s from a distance %d times for up to %d damage each plus %s
+
+%%%%
+%s from a distance for up to %d damage plus %s
+
+%%%%
+It can %s.
 
 %%%%
 "; and "
 
 %%%%
-It will release varied jellies when damaged or killed, with the number of jellies proportional to the amount of damage.\n
+It will release varied jellies when damaged or killed, with the number of jellies proportional to the amount of damage.
 
 %%%%
-It will release all of its jellies when polymorphed.\n
+It will release all of its jellies when polymorphed.
 
 %%%%
-" are quivering "
+It is quivering %s.
 
 %%%%
-" is quivering "
+To read a description, press the key listed above. (AdB) indicates damage (the sum of A B-sided dice), (x%%) indicates the chance to defeat your Will, and (y) indicates the spell range
 
 %%%%
-\nTo read a description, press the key listed above. (AdB) indicates damage (the sum of A B-sided dice), (x%%) indicates the chance to defeat your Will, and (y) indicates the spell range
-
-%%%%
-; shown in red if you are in range.\n
+; shown in red if you are in range
 
 %%%%
 extremely slowly
@@ -5670,34 +5484,25 @@ quickly
 buggily
 
 %%%%
-" (about "
+" (about %d%% to evade %s)"
 
 %%%%
-"% to evade "
+none (normally %s)
 
 %%%%
-"none (normally "
+Max HP: %d
 
 %%%%
-"Max HP: "
+Will:
 
 %%%%
-"    AC:"
+" ∞\n"
 
 %%%%
-"    EV:"
+It can travel through water.
 
 %%%%
-"  Will: ∞\n"
-
-%%%%
-"  Will:"
-
-%%%%
-%s can travel through water.\n
-
-%%%%
-%s can travel through lava.\n
+It can travel through lava.
 
 %%%%
 tiny
@@ -5715,196 +5520,154 @@ very large
 clouds of all kinds
 
 %%%%
-"immune to "
+It is immune to %s.
 
 %%%%
-"very resistant to "
+It is very resistant to %s.
 
 %%%%
-"resistant to "
+It is resistant to %s.
 
 %%%%
-look
+It is susceptible to %s.
 
 %%%%
-" susceptible to "
+It is vulnerable to silver and hated by Zin.
 
 %%%%
-" vulnerable to silver and hated by Zin.\n"
+It cannot move.
 
 %%%%
-" cannot move.\n"
+It is cold-blooded and may be slowed by cold attacks.
 
 %%%%
-" cold-blooded and may be slowed by cold attacks.\n"
+It can see invisible.
 
 %%%%
-" can see invisible.\n"
+It is immune to blinding.
 
 %%%%
-" immune to blinding.\n"
+It is mindless.
 
 %%%%
-" mindless.\n"
+It is intelligent.
 
 %%%%
-" intelligent.\n"
+It is %s.
 
 %%%%
-cover
+It covers ground %s.
 
 %%%%
-" ground"
+It swims %s.
 
 %%%%
-swim
+It attacks %s.
 
 %%%%
-attack
+It shoots %s.
 
 %%%%
-shoot
+It casts spells %s.
 
 %%%%
-" spells"
+It uses invocations %s.
 
 %%%%
-use
+It uses natural abilities %s.
 
 %%%%
-" invocations"
+It uses special abilities %s.
 
 %%%%
-" natural abilities"
+It uses items %s.
 
 %%%%
-" special abilities"
+It covers  ground more quickly when invisible.
 
 %%%%
-" items"
+It can fly.
 
 %%%%
-", but "
+It cannot regenerate.
 
 %%%%
-" ground more quickly when invisible.\n"
+It regenerates quickly.
 
 %%%%
-" can fly.\n"
+It cannot be affected by reciting Zin's laws.
 
 %%%%
-" cannot regenerate.\n"
+It is too strong to be affected by reciting Zin's laws.
 
 %%%%
-regenerate
+It can can be affected by reciting Zin's laws.
 
 %%%%
-" quickly.\n"
-
-%%%%
-" cannot be affected by reciting Zin's laws."
-
-%%%%
-" too strong to be affected by reciting Zin's laws."
-
-%%%%
-" can be affected by reciting Zin's laws."
-
-%%%%
-" (Recite power:"
-
-%%%%
-, Hit dice:
+" (Recite power: %d, Hit Dice: %d)"
 
 %%%%
 dbname
 
 %%%%
-cap-
+The apparition of %s.
 
 %%%%
-"The apparition of "
+It looks just like you...spooky!
 
 %%%%
-It looks just like you...spooky!\n
+An illusion of %s.
 
 %%%%
-"An illusion of "
+It is quickly melting away.
 
 %%%%
-\nIt is quickly melting away.\n
+It is quickly crumbling away.
 
 %%%%
-\nIt is quickly crumbling away.\n
+If this monster is a "program bug", then it's recommended that you save your game and reload. Please report monsters who masquerade as program bugs or run around the dungeon without a proper description to the authorities.
 
 %%%%
-If this monster is a "program bug", then it's recommended that you save your game and reload. Please report monsters who masquerade as program bugs or run around the dungeon without a proper description to the authorities.\n
+It is quickly withering away.
 
 %%%%
-\nIt is quickly withering away.\n
+If struck, it will die soon after.
 
 %%%%
-\nIf struck, it will die soon after.\n
+It will inflict a necromantic curse on its foe when destroyed.
 
 %%%%
-" will inflict a "
+It will inflict a powerful necromantic curse on its foe when destroyed.
 
 %%%%
-"powerful "
+It is incapable of using stairs.
 
 %%%%
-"necromantic curse on "
+This monster has been summoned, and is thus only temporary.
 
 %%%%
-" foe when destroyed.\n"
+This monster has been summoned in a durable way.
 
 %%%%
-" incapable of using stairs.\n"
+If angered it will immediately vanish, yielding no experience or items
 
 %%%%
-\nThis monster has been summoned
+Killing it yields no experience or items
 
 %%%%
-", and is thus only temporary. "
+" and it is incapable of using stairs"
 
 %%%%
-" in a durable way. "
+" and it cannot be abjured"
 
 %%%%
-"If angered "
+Killing this monster yields no experience or items.
 
 %%%%
-" will immediately vanish, yielding "
+If it is slain, it may be possible to recover its hide, which can be used as armour.
 
 %%%%
-"Killing "
-
-%%%%
-" yields "
-
-%%%%
-no experience or items
-
-%%%%
-" incapable of using stairs"
-
-%%%%
-" cannot be abjured"
-
-%%%%
-\nKilling this monster yields no experience or items.
-
-%%%%
-"\nIf "
-
-%%%%
-" slain, it may be possible to recover "
-
-%%%%
-" hide, which can be used as armour.\n"
-
-%%%%
-\nYou have summoned too many monsters of this kind to sustain them all, and thus this one will shortly expire.\n
+You have summoned too many monsters of this kind to sustain them all, and thus this one will shortly expire.
 
 %%%%
 describe-monster
@@ -5940,16 +5703,16 @@ master
 legendary
 
 %%%%
-" verbose"
+" of %s"
 
 %%%%
-\nThis cloud is opaque; one tile will not block vision, but multiple will.
+This cloud is opaque; one tile will not block vision, but multiple will.
 
 %%%%
-\nClouds of this kind an adventurer makes will vanish %s once outside their sight.
+Clouds of this kind an adventurer makes will vanish quickly once outside their sight.
 
 %%%%
-almost instantly
+Clouds of this kind an adventurer makes will vanish almost instantly once outside their sight.
 
 %%%%
 
@@ -6104,6 +5867,9 @@ shop
 %%%%
 Sorry, you haven't seen any shop yet.
 Entschuldigung, Ihr habt noch keinen Laden gesehen.
+%%%%
+s
+
 %%%%
 corrupted
 
@@ -6355,6 +6121,9 @@ Ausschlussgröße auf ein einzelnes Quadrat reduziert.
 [unseen terrain]
 
 %%%%
+.\n
+
+%%%%
 "It is "
 
 %%%%
@@ -6413,6 +6182,9 @@ UNAMED PORTAL VAULT ENTRY
 
 %%%%
 "awoken "
+
+%%%%
+" (summoned)"
 
 %%%%
 " armed with "
@@ -6487,9 +6259,6 @@ seem
 " been summoned"
 
 %%%%
-", and "
-
-%%%%
 " expiring"
 
 %%%%
@@ -6500,6 +6269,9 @@ seem
 
 %%%%
 " wreathed by an umbra.\n"
+
+%%%%
+" mindless.\n"
 
 %%%%
 " chaotic.\n"
@@ -7054,6 +6826,9 @@ Tele
 
 %%%%
 about to teleport
+
+%%%%
+teleport
 
 %%%%
 You are about to teleport.
@@ -8692,48 +8467,6 @@ open translucent door
 mechanical trap
 
 %%%%
-arrow trap
-
-%%%%
-spear trap
-
-%%%%
-blade trap
-
-%%%%
-dart trap
-
-%%%%
-bolt trap
-
-%%%%
-net trap
-
-%%%%
-dispersal trap
-
-%%%%
-teleport trap
-
-%%%%
-permanent teleport trap
-
-%%%%
-shadow trap
-
-%%%%
-dormant shadow trap
-
-%%%%
-alarm trap
-
-%%%%
-Zot trap
-
-%%%%
-passage of Golubria
-
-%%%%
 passage of golubria
 
 %%%%
@@ -9059,6 +8792,9 @@ Really attack while wielding nothing?
 %%%%
 This could place you under penance!
 Dies könnte Euch unter Buße stellen!
+%%%%
+attack
+
 %%%%
 , despite your sanctuary
 
@@ -9617,6 +9353,9 @@ crawl onto
 
 %%%%
 flesh
+
+%%%%
+blade
 
 %%%%
 scythe-like blade
@@ -11213,6 +10952,9 @@ You can't repeat a wall jump.
 
 %%%%
 You cannot wall jump while caught in a %s.
+
+%%%%
+net
 
 %%%%
 Aiming: <white>Wall Jump</white>
@@ -13386,6 +13128,9 @@ Jewellery can be <w>%</w>ut on or <w>%</w>emoved again
 \nA cursed piece of jewellery will stick to its wearer when equipped, and cannot be removed until you read a scroll of remove curse.
 
 %%%%
+"\n\nThis "
+
+%%%%
 " offers its wearer protection from certain sources. For an overview of your resistances (among other things) type <w>%</w>"
 
 %%%%
@@ -13504,6 +13249,9 @@ currently harmless, but that could change at some point. Check the overview scre
 
 %%%%
 \nThis cloud
+
+%%%%
+It
 
 %%%%
 " is opaque. If two or more opaque clouds are between you and a square, you won't be able to see anything in that square."
@@ -14147,6 +13895,9 @@ Succumbed to poison
 self
 
 %%%%
+]
+
+%%%%
 Engulfed by %s%s %s
 
 %%%%
@@ -14399,6 +14150,9 @@ Nibbled to death by software bugs
 "... caused by "
 
 %%%%
+[
+
+%%%%
 ... %s %d rune%s
 
 %%%%
@@ -14645,6 +14399,9 @@ named
 
 %%%%
 enemy
+
+%%%%
+memorise
 
 %%%%
 interrupt_armour_on = hp_loss, monster_attack, monster, mimic
@@ -15524,6 +15281,9 @@ Writing empty bones file
 
 %%%%
 " ghosts"
+
+%%%%
+" to "
 
 %%%%
 Usage: crawl --bones <command> ARGS, where <command> may be:\n  ls <file> [<name>] [--long] List the ghosts in <file>\n                              --long shows full monster descriptions\n  merge <file1> <file2>       Merge two bones files together, rewriting into\n                              <file2>. Capped at %d; read in reverse order.\n  rm <file> <name>            Rewrite a ghost file without <name>\n  rewrite <file> [--dedup]    Rewrite a ghost file, fixing up version etc.\n
@@ -16808,6 +16568,9 @@ dpr
 stderr
 
 %%%%
+more
+
+%%%%
 delay
 
 %%%%
@@ -17656,6 +17419,9 @@ fail
 power
 
 %%%%
+cast
+
+%%%%
 
 ##################
 # l-travel.cc
@@ -18047,15 +17813,6 @@ The Serpent of Hell (
 (CTRL-S to sort by name)
 
 %%%%
-spell
-
-%%%%
-ability
-
-%%%%
-" status"
-
-%%%%
 %s spell
 
 %%%%
@@ -18093,6 +17850,12 @@ portal
 
 %%%%
 \n\nThis branch contains the entrance%s to %s.
+
+%%%%
+spell
+
+%%%%
+ability
 
 %%%%
 feature
@@ -22552,6 +22315,9 @@ shaped block of ice
 trivial
 
 %%%%
+easy
+
+%%%%
 tough
 
 %%%%
@@ -22737,6 +22503,9 @@ unbeliever
 
 %%%%
 good god
+
+%%%%
+cap-
 
 %%%%
 stupid
@@ -23599,6 +23368,9 @@ This wall is too hard to dig through.
 Diese Wand ist zu schwer zum Durchgraben.
 %%%%
 fly
+
+%%%%
+swim
 
 %%%%
 slither
@@ -27922,6 +27694,9 @@ Your scales start taking on %s colour.
 You learn %s %s%s.
 Ihr lernt %s %s%s.
 %%%%
+"much "
+
+%%%%
 slower
 
 %%%%
@@ -28669,6 +28444,9 @@ release spores
 
 %%%%
 smack
+
+%%%%
+shoot
 
 %%%%
 reach
@@ -30676,6 +30454,9 @@ monster %s (%d) at (%d, %d) was improperly placed. Updating env.mgrid.
 %s %-15s
 
 %%%%
+%+d
+
+%%%%
 <lightred>+4</lightred>
 
 %%%%
@@ -31063,6 +30844,9 @@ Ihr fügt den Zauber%s %s in Eure Bibliothek ein.
 Matches: '<w>%.20s</w>'
 
 %%%%
+" spells"
+
+%%%%
 " hidden"
 
 %%%%
@@ -31136,6 +30920,9 @@ Ihr kennt keine Zauber!
 ##################
 %%%%
 extraordinarily
+
+%%%%
+extremely
 
 %%%%
 huge
@@ -31327,7 +31114,13 @@ Ungültiger Zauber!
 mildly dangerous
 
 %%%%
+dangerous
+
+%%%%
 quite dangerous
+
+%%%%
+extremely dangerous
 
 %%%%
 potentially lethal
@@ -32754,6 +32547,9 @@ walking
 
 %%%%
 hopping
+
+%%%%
+slithering
 
 %%%%
 crawling
@@ -34386,6 +34182,9 @@ over
 
 %%%%
 beneath
+
+%%%%
+use
 
 %%%%
 pass through
@@ -37220,6 +37019,9 @@ blink monsters
 
 %%%%
 %s %s sharp%s
+
+%%%%
+look
 
 %%%%
 " (like it always does)."

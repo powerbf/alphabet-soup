@@ -526,7 +526,7 @@ Sch:
 Komm:
 %%%%
 "Noise: "
-"Lärm:  "
+"Lärm: "
 %%%%
 # If silenced, this shows instead of noise bar
 %%%%
