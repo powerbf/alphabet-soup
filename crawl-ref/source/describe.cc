@@ -3115,24 +3115,24 @@ static string _player_spell_stats(const spell_type spell)
     string noise_label = localise("Noise: ");
     width = max(width, strwidth(noise_label));
 
-    description += "\n\n" + chop_string(power_label, width, true, false);
+    description += "\n\n" + chop_string(power_label, width, true, true);
     description += spell_power_string(spell);
 
     if (damage_string != "") {
-        description += "\n" + chop_string(damage_label, width, true, false);
+        description += "\n" + chop_string(damage_label, width, true, true);
         description += damage_string;
     }
     if (acc != -1)
     {
         ostringstream acc_str;
         _print_bar(acc, 3, "", acc_str);
-        description += "\n" + chop_string(acc_label, width, true, false);
+        description += "\n" + chop_string(acc_label, width, true, true);
         description += acc_str.str();
     }
 
-    description += "\n" + chop_string(range_label, width, true, false);
+    description += "\n" + chop_string(range_label, width, true, true);
     description += spell_range_string(spell);
-    description += "\n" + chop_string(noise_label, width, true, false);
+    description += "\n" + chop_string(noise_label, width, true, true);
     description += spell_noise_string(spell);
     description += "\n";
     return description;
@@ -4138,7 +4138,7 @@ static void _print_bar(int value, int scale, string name,
 
     if (name.size())
     {
-        result << chop_string(localise(name), 7, true, false) << " ";
+        result << chop_string(localise(name), 7, true, true) << " ";
     }
 
     const int display_max = value ? value : base_value;
@@ -4218,7 +4218,7 @@ static void _describe_monster_wl(const monster_info& mi, ostringstream &result)
 {
     if (mi.willpower() == WILL_INVULN)
     {
-        result << chop_string(localise("Will:"), 7, true, false) << " ∞\n";
+        result << chop_string(localise("Will:"), 7, true, true) << " ∞\n";
         return;
     }
 

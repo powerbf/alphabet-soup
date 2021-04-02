@@ -605,8 +605,8 @@ static void _describe_book(const spellbook_contents &book,
     {
         string header = "\n " + chop_string(localise("Spell"), 33);
         header += chop_string(localise("Type"), 20);
-        header += chop_string(localise("Level"), 11, true, false);
-        header += chop_string(localise("Known"), 12, true, false);
+        header += chop_string(localise("Level"), 11, true, true);
+        header += chop_string(localise("Known"), 12, true, true);
         description.cprintf(header);
     }
     description.cprintf("\n");
@@ -682,7 +682,7 @@ static void _describe_book(const spellbook_contents &book,
         if (!mon_owner) {
             known = localise(you.spell_library[spell] ? "yes" : "no");
             // right-justify in 12-character width field
-            known = chop_string(known, 12, true, false);
+            known = chop_string(known, 12, true, true);
         }
 
         description.cprintf("%s%d%s\n", // noextract
