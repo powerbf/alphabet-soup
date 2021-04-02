@@ -13,6 +13,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "item-use.h"
+#include "localise.h"
 #include "makeitem.h"
 #include "message.h"
 #include "mon-gear.h"

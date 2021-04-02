@@ -9,7 +9,6 @@
 
 #include "config.h"
 #include "libutil.h" // always_true
-#include "localise.h"
 
 #ifdef CRAWL_HAVE_STRLCPY
 #include <cstring>
@@ -201,12 +200,12 @@ string comma_separated_fn(Z start, Z end, F stringify,
             while (tmp != end && !filter(*tmp));
 
             if (tmp != end)
-                text += localise(comma);
+                text += comma;
             else
-                text += localise(andc);
+                text += andc;
         }
 
-        text += localise(stringify(*i));
+        text += stringify(*i);
     }
     return text;
 }
@@ -226,6 +225,14 @@ string comma_separated_line(Z start, Z end, const string &andc = " and ",
 {
     return comma_separated_fn(start, end, [] (const string &s) { return s; },
                               andc, comma);
+}
+
+template <typename Z>
+string comma_separated_line(const Z& container, const string &andc = " and ",
+                            const string &comma = ", ")
+{
+    return comma_separated_line(container.cbegin(), container.cend(),
+                                andc, comma);
 }
 
 /**

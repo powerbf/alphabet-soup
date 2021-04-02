@@ -48,6 +48,7 @@
 #include "jobs.h"
 #include "lang-fake.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "melee-attack.h" // _describe_to_hit
 #include "message.h"
@@ -917,7 +918,7 @@ static string _describe_mutant_beast_facets(const CrawlVector &facets)
                           return facet_descs[facet];
                       }, ", and ", ", ");
 
-    return uppercase_first(add_punctuation(res, ".", false));
+    return uppercase_first(localise("%s.", res));
 }
 
 /**
@@ -2744,7 +2745,7 @@ static string _actions_desc(const vector<command_type>& actions)
                                     return act_str.at(cmd);
                                 },
                                 ", or ");
-    return add_punctuation(ret, ".", false);
+    return localise("%s.", ret);
 }
 
 // Take a key and a list of commands and return the command from the list
@@ -3250,7 +3251,8 @@ static string _miscast_damage_string(spell_type spell)
                                                          " or ").c_str()));
     }
 
-    return comma_separated_line(descs.begin(), descs.end(), " or ", "; ");
+    return comma_separated_line(descs.begin(), descs.end(),
+                                localise(" or "), localise("; "));
 }
 
 /**
@@ -3462,7 +3464,7 @@ static string _spell_sources(const spell_type spell)
             if (sp == spell)
             {
                 item.sub_type = i;
-                books.push_back(item.name(DESC_PLAIN));
+                books.push_back(localise(item.name(DESC_PLAIN)));
             }
     }
 
@@ -3994,10 +3996,10 @@ static string _monster_attacks_description(const monster_info& mi)
 
     if (!attack_descs.empty())
     {
-        result << localise("It can %s.",
-                           comma_separated_line(attack_descs.begin(),
-                                                attack_descs.end(),
-                                                "; and ", "; "));
+        string list = comma_separated_line(attack_descs.begin(),
+                                           attack_descs.end(),
+                                           localise("; and "), localise("; "));
+        result << localise("It can %s.", LocalisationArg(list, false));
         result << "\n";
     }
 

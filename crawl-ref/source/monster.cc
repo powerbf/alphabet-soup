@@ -40,6 +40,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "makeitem.h"
 #include "message.h"
 #include "misc.h"

@@ -15,6 +15,7 @@
 #include "fprop.h"
 #include "god-passive.h"
 #include "item-prop.h"
+#include "localise.h"
 #include "los.h"
 #include "message.h"
 #include "mon-behv.h"

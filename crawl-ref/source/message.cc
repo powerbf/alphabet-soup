@@ -1763,7 +1763,7 @@ void mpr_comma_separated_list(const string &prefix,
 
     for (int i = 0, size = list.size(); i < size; i++)
     {
-        out += list[i];
+        out += localise(list[i]);
 
         if (size > 0 && i < (size - 2))
             out += localise(comma);

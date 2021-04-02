@@ -224,7 +224,7 @@ const string stack_contents()
                 reverse_iterator<CrawlVector::const_iterator>(stack.begin()),
               [](const CrawlStoreValue& card) { return card_name((card_type)card.get_int()); });
     if (!stack.empty())
-        output += ".";
+        output = localise("%s.", output);
 
     return output;
 }
@@ -254,7 +254,7 @@ const string deck_contents(deck_type deck)
         cards.insert(cww.first);
 
     output += comma_separated_fn(cards.begin(), cards.end(), card_name);
-    output = add_punctuation(output, ".", false);
+    output = localise("%s.", output);
 
     return output;
 }
@@ -323,12 +323,12 @@ string deck_summary()
         if (cards)
         {
             if (cards == 1)
-                stats.push_back(localise("1 %s card", name));
+                stats.push_back(make_stringf("1 %s card", name.c_str()));
             else
-                stats.push_back(localise("%d %s cards", cards, name));
+                stats.push_back(make_stringf("%d %s cards", cards, name.c_str()));
         }
     }
-    return comma_separated_line(stats.begin(), stats.end());
+    return localise(comma_separated_line(stats.begin(), stats.end()));
 }
 
 string which_decks(card_type card)

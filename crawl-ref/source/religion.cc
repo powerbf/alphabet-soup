@@ -48,6 +48,7 @@
 #include "items.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "makeitem.h"
 #include "message.h"
 #include "mon-gear.h" // give_shield

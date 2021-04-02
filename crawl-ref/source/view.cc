@@ -40,6 +40,7 @@
 #include "item-name.h" // item_type_known
 #include "item-prop.h" // get_weapon_brand
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "map-knowledge.h"
 #include "message.h"
@@ -792,7 +793,9 @@ bool magic_mapping(int map_radius, int proportion, bool suppress_msg,
         }
 
         if (!sensed.empty())
-            mpr_comma_separated_list("You sensed ", sensed);
+        {
+            mprf("You sensed %s.", comma_separated_line(sensed).c_str());
+        }
     }
 
     return did_map;

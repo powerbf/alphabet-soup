@@ -26,6 +26,7 @@
 #include "god-type.h"
 #include "item-name.h"
 #include "libutil.h"
+#include "localise.h"
 #include "menu.h"
 #include "message.h"
 #include "potion.h" // you_drinkless for pakellas compat

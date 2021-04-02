@@ -31,6 +31,7 @@
 #include "items.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "mapmark.h"
 #include "message.h"
 #include "mon-behv.h"
