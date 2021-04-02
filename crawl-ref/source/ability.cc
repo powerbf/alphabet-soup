@@ -1178,10 +1178,11 @@ static string _sacrifice_desc(const ability_type ability)
     ASSERT(you.props.exists(sac_vec_key));
     const CrawlVector &sacrifice_muts = you.props[sac_vec_key].get_vector();
     return "\n"
-            + localise("After this sacrifice, you will find that ")
-            + comma_separated_fn(sacrifice_muts.begin(), sacrifice_muts.end(),
-                                 _desc_sac_mut)
-            + localise(".") + "\n" + desc;
+            + localise("After this sacrifice, you will find that %s.",
+                       comma_separated_fn(sacrifice_muts.begin(),
+                                          sacrifice_muts.end(),
+                                          _desc_sac_mut))
+            + "\n" + desc;
 }
 
 static string _nemelex_desc(ability_type ability)

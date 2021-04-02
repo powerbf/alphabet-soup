@@ -24,6 +24,7 @@
 #include "item-prop.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "lookup-help.h"
 #include "macro.h"
 #include "message.h"

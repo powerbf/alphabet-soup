@@ -31,6 +31,7 @@
 #include "invent.h"
 #include "known-items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "notes.h"

@@ -43,6 +43,7 @@
 #include "item-use.h"
 #include "libutil.h"
 #include "losglobal.h"
+#include "localise.h"
 #include "macro.h"
 #include "mapmark.h"
 #include "maps.h"

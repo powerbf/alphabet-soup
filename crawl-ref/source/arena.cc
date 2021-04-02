@@ -19,6 +19,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "los.h"
 #include "macro.h"
 #include "maps.h"

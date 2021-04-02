@@ -35,6 +35,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "losglobal.h"
 #include "macro.h"
 #include "mapmark.h"
@@ -1562,7 +1563,7 @@ void direction_chooser::print_target_monster_description(bool &did_cloud) const
     if (!suffixes.empty())
     {
         text += " ("
-            + comma_separated_line(suffixes.begin(), suffixes.end(), ", ")
+            + localise(comma_separated_line(suffixes.begin(), suffixes.end(), ", "))
             + ")";
     }
 

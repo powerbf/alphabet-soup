@@ -269,7 +269,7 @@ If you make this sacrifice, your powers granted by Ru will become stronger in pr
 Sacrifices cannot be taken back.
 
 %%%%
-"After this sacrifice, you will find that "
+After this sacrifice, you will find that %s.
 
 %%%%
 "Draw a card from %s; "
@@ -4620,9 +4620,6 @@ it flickers and crackles with electricity
 it is covered in dense fur and muscle
 
 %%%%
-", and "
-
-%%%%
 ; use <white>(s)</white> to set %d.%d as a target for %s.
 
 %%%%
@@ -5109,9 +5106,6 @@ e(v)oke
 (s)kill
 
 %%%%
-", or "
-
-%%%%
 "Select a spell, or "
 
 %%%%
@@ -5443,9 +5437,6 @@ This monster looks extremely dangerous.
 
 %%%%
 It can %s.
-
-%%%%
-"; and "
 
 %%%%
 It will release varied jellies when damaged or killed, with the number of jellies proportional to the amount of damage.
@@ -35368,7 +35359,7 @@ Ihr fühlt Euch Eurer Umgebung bewusst.
 %d shop%s/portal%s
 
 %%%%
-"You sensed "
+You sensed %s.
 
 %%%%
 Select layers to display:\n<%s>(m)onsters</%s>|<%s>(p)layer</%s>|<%s>(i)tems</%s>|<%s>(c)louds</%s>

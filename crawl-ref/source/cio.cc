@@ -10,6 +10,7 @@
 #include <queue>
 
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "options.h"

@@ -27,6 +27,7 @@
 #include "item-prop.h"
 #include "item-status-flag-type.h"
 #include "items.h"
+#include "localise.h"
 #include "losglobal.h"
 #include "makeitem.h"
 #include "message.h"

@@ -25,6 +25,7 @@
 #include "hints.h"
 #include "item-prop.h"
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "notes.h"
 #include "output.h"

@@ -14,6 +14,7 @@
 #include "externs.h"
 #include "invent.h"
 #include "libutil.h"
+#include "localise.h"
 #include "menu.h"
 #include "mon-book.h"
 #include "mon-cast.h"

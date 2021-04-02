@@ -29,6 +29,7 @@
 #include "invent.h"
 #include "items.h"
 #include "level-state-type.h"
+#include "localise.h"
 #include "los.h"
 #include "losglobal.h"
 #include "macro.h"

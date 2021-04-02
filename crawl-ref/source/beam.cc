@@ -40,6 +40,7 @@
 #include "items.h"
 #include "killer-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "losglobal.h"
 #include "los.h"
 #include "message.h"

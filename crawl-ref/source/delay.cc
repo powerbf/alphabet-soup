@@ -36,6 +36,7 @@
 #include "item-use.h"
 #include "item-status-flag-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "mon-act.h"

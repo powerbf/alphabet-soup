@@ -4,6 +4,7 @@
 #include "branch-data.h"
 
 #include "item-name.h"
+#include "localise.h"
 #include "player.h"
 #include "stringutil.h"
 #include "tag-version.h"

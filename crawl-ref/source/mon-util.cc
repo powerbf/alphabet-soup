@@ -38,6 +38,7 @@
 #include "item-prop.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "mapmark.h"
 #include "message.h"
 #include "message-util.h"

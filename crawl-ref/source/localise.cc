@@ -593,7 +593,7 @@ static bool is_list(const string& s)
             bracket_depth--;
         else if (bracket_depth == 0)
         {
-            if (s[i] == ',')
+            if (s[i] == ',' or s[i] == ';')
                 return true;
             else if (strncmp(&s.c_str()[i], " and ", 5) == 0
                      || strncmp(&s.c_str()[i], " or ", 4) == 0)
@@ -920,7 +920,10 @@ static string _localise_item_name(const string& context, const string& item)
 // does nothing if input is not a list
 static string _localise_list(const string& context, const string& s)
 {
-    static vector<string> separators = {",", " or ", " and "};
+    static vector<string> separators = {", or ", ", and ",
+                                        "; or ", "; and ",
+                                        ", ", "; ",
+                                        " or ", " and "};
 
     // annotations can contain commas, so remove them for the moment
     list<string> annotations;
@@ -938,12 +941,11 @@ static string _localise_list(const string& context, const string& s)
             // restore annotations
             tokens[1] = _add_annotations(tokens[1], annotations);
 
-            string fmt = "%s" + sep + (sep == "," ? " " : "") + "%s";
-            fmt = cxlate(context, fmt);
+            sep = cxlate(context, sep);
             // the tokens could be lists themselves
             string tok0 = _localise_string(context, tokens[0]);
             string tok1 = _localise_string(context, tokens[1]);
-            return make_stringf(fmt.c_str(), tok0.c_str(), tok1.c_str());
+            return tok0 + sep + tok1;
         }
     }
 
@@ -998,11 +1000,10 @@ static string _localise_string(const string& context, const string& value)
     if (result != value)
         return result;
 
-    // We are now localising the list as it's built, so this should not be necessary
-    /*if (is_list(value))
+    if (is_list(value))
     {
         return _localise_list(context, value);
-    }*/
+    }
 
     if (regex_search(value, regex("^[a-zA-Z] - ")))
     {

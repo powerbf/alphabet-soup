@@ -15,6 +15,7 @@
 #include "fprop.h"
 #include "god-conduct.h"
 #include "item-prop.h"
+#include "localise.h"
 #include "message.h"
 #include "message-util.h"
 #include "mon-behv.h"
