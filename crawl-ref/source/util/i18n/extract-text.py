@@ -291,6 +291,8 @@ for filename in files:
                             continue
                         if re.search(r'\bfind\s*\(\s*(string\()?$', last):
                             continue
+                        if re.search(r'\bexists\s*\(\s*$', last):
+                            continue
                         if re.search(r'\bstrip_suffix\s*\(', last):
                             continue
 
