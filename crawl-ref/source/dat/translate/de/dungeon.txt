@@ -1,0 +1,355 @@
+##################
+# Short branch names
+##################
+%%%%
+Dungeon
+Dungeon
+%%%%
+Temple
+Tempel
+%%%%
+Orcish Mines
+Orkische Minen
+%%%%
+Elven Halls
+Elfenhallen
+%%%%
+Lair
+Versteck
+%%%%
+Swamp
+Sumpf
+%%%%
+Shoals
+Untiefen
+%%%%
+Snake Pit
+Schlangengrube
+%%%%
+Spider Nest
+Spinnennest
+%%%%
+Slime Pits
+Schleimgruben
+%%%%
+Vaults
+Gewölbe
+%%%%
+Crypt
+Krypta
+%%%%
+Tomb
+Gruft
+%%%%
+Depths
+Tiefen
+%%%%
+Hell
+Hölle
+%%%%
+Dis
+Dis
+%%%%
+Gehenna
+Gehenna
+%%%%
+Cocytus
+Kokytus
+%%%%
+Tartarus
+Tartarus
+%%%%
+Pandemonium
+Pandämonium
+%%%%
+Zot
+Zot
+%%%%
+Abyss
+Abgrund
+%%%%
+Ziggurat
+Zikkurat
+%%%%
+Bazaar
+Basar
+%%%%
+Trove
+Fund
+%%%%
+Sewer
+Siel
+%%%%
+Ossuary
+Beinhaus
+%%%%
+Bailey
+Burghof
+%%%%
+Gauntlet
+Spießrute
+%%%%
+Ice Cave
+Eishöhle
+%%%%
+Volcano
+Vulkan
+%%%%
+Wizlab
+Zaublab
+%%%%
+Desolation
+Verwüstung
+%%%%
+
+# obsolete branches
+%%%%
+Dwarven Hall
+Halle der Zwerge
+%%%%
+Hall of Blades
+Halle der Klingen
+%%%%
+Forest
+Wald
+%%%%
+Labyrinth
+Labyrinth
+%%%%
+
+##################
+# Long branch names
+# (where different to short name)
+##################
+%%%%
+the Dungeon
+der Dungeon
+%%%%
+the Ecumenical Temple
+der Ökumenische Tempel
+%%%%
+the Orcish Mines
+die orkischen Minen
+%%%%
+the Elven Halls
+die Elfenhallen
+%%%%
+the Lair of Beasts
+das Versteck der Bestien
+%%%%
+the Swamp
+der Sumpf
+%%%%
+the Shoals
+die Untiefen
+%%%%
+the Snake Pit
+die Schlangengrube
+%%%%
+the Spider Nest
+das Spinnennest
+%%%%
+the Pits of Slime
+die Schleimgruben
+%%%%
+the Vaults
+die Gewölbe
+%%%%
+the Crypt
+die Krypta
+%%%%
+the Tomb of the Ancients
+die Gruft der Antiker
+%%%%
+the Depths
+die Tiefen
+%%%%
+the Vestibule of Hell
+das Vestibül der Hölle
+%%%%
+the Iron City of Dis
+die Eiserne Stadt von Dis
+%%%%
+the Realm of Zot
+das Reich von Zot
+%%%%
+the Abyss
+der Abyss
+%%%%
+a ziggurat
+eine Zikkurat
+%%%%
+a bazaar
+ein Basar
+%%%%
+a treasure trove
+ein Schatzfund
+%%%%
+a sewer
+ein Siel
+%%%%
+an ossuary
+ein Beinhaus
+%%%%
+a bailey
+ein Burghof
+%%%%
+a Gauntlet
+eine Spießrute
+%%%%
+an ice cave
+eine Eishöhle
+%%%%
+a volcano
+ein Vulkan
+%%%%
+a wizard's laboratory
+das Labor eines Zauberers
+%%%%
+the Desolation of Salt
+die Verwüstung des Salzes
+%%%%
+
+# obsolete branches
+%%%%
+the Dwarven Hall
+die Zwergenhalle
+%%%%
+the Hall of Blades
+die Halle der Klingen
+%%%%
+the Enchanted Forest
+der Verzauberte Wald
+%%%%
+a Labyrinth
+ein Labyrinth
+%%%%
+
+##################
+# Branch abbreviations
+# Note that these will be truncated to 8 chars in some places, so try to keep to that length.
+# Some of the English abbreviations are the same as the short names, or monster genus names,
+# so we use the {abbrev} context to get the right translation in those cases.
+##################
+%%%%
+@branch_abbrev@
+{abbrev}@branch_abbrev@
+%%%%
+# This is different to the short name, but do not want to define a global translation for the letter D
+{abbrev}D
+D
+%%%%
+# D is the real English abbreviation, but Dungeon is used in overview screen
+{abbrev}Dungeon
+Dungeon
+%%%%
+{abbrev}Temple
+Tempel
+%%%%
+# also a monster genus
+{abbrev}Orc
+Ork
+%%%%
+# also a monster genus
+{abbrev}Elf
+Elf
+%%%%
+{abbrev}Lair
+Versteck
+%%%%
+{abbrev}Swamp
+Sumpf
+%%%%
+{abbrev}Shoals
+Untiefen
+%%%%
+Snake
+Schlange
+%%%%
+Spider
+Spinne
+%%%%
+Slime
+Schleim
+%%%%
+{abbrev}Vaults
+Gewölbe
+%%%%
+{abbrev}Crypt
+Krypta
+%%%%
+{abbrev}Tomb
+Gruft
+%%%%
+{abbrev}Depths
+Tiefen
+%%%%
+{abbrev}Hell
+Hölle
+%%%%
+{abbrev}Dis
+Dis
+%%%%
+Geh
+Geh
+%%%%
+Coc
+Coc
+%%%%
+Tar
+Tar
+%%%%
+Pan
+Pan
+%%%%
+Zig
+Zik
+%%%%
+{abbrev}Abyss
+Abgrund
+%%%%
+{abbrev}Bazaar
+Basar
+%%%%
+{abbrev}Trove
+Fund
+%%%%
+{abbrev}Sewer
+Siel
+%%%%
+{abbrev}Ossuary
+Beinhaus
+%%%%
+{abbrev}Bailey
+Burghof
+%%%%
+{abbrev}Gauntlet
+Spießrute
+%%%%
+IceCv
+Eishöhle
+%%%%
+{abbrev}Volcano
+Vulkan
+%%%%
+# Note: English short name has small L, but abbreviation has capital L.
+WizLab
+Zaublab
+%%%%
+{abbrev}Desolation
+Verwüst
+%%%%
+
+# obsolete branches
+%%%%
+Dwarf
+Zwerg
+%%%%
+Blade
+Klinge
+%%%%
+# Labyrinth
+Lab
+Lab
+%%%%
+

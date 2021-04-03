@@ -19,6 +19,7 @@
 #include "feature.h"
 #include "files.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "menu.h"
 #include "message.h"
@@ -143,27 +144,27 @@ bool move_notable_thing(const coord_def& orig, const coord_def& dest)
 static string coloured_branch(branch_type br)
 {
     if (br < 0 || br >= NUM_BRANCHES)
-        return "<lightred>Buggy buglands</lightred>";
+        return "<lightred>Buggy buglands</lightred>"; // noextract
 
-    return make_stringf("<yellow>%s</yellow>", branches[br].shortname);
+    return "<yellow>" + localise(branches[br].shortname) + "</yellow>";
 }
 
 static string shoptype_to_string(shop_type s)
 {
     switch (s)
     {
-    case SHOP_WEAPON:          return "<w>(</w>";
-    case SHOP_WEAPON_ANTIQUE:  return "<yellow>(</yellow>";
-    case SHOP_ARMOUR:          return "<w>[</w>";
-    case SHOP_ARMOUR_ANTIQUE:  return "<yellow>[</yellow>";
-    case SHOP_GENERAL:         return "<w>*</w>";
-    case SHOP_GENERAL_ANTIQUE: return "<yellow>*</yellow>";
-    case SHOP_JEWELLERY:       return "<w>=</w>";
-    case SHOP_EVOKABLES:       return "<w>}</w>";
-    case SHOP_BOOK:            return "<w>:</w>";
-    case SHOP_DISTILLERY:      return "<w>!</w>";
-    case SHOP_SCROLL:          return "<w>?</w>";
-    default:                   return "<w>x</w>";
+    case SHOP_WEAPON:          return "<w>(</w>"; // noextract
+    case SHOP_WEAPON_ANTIQUE:  return "<yellow>(</yellow>"; // noextract
+    case SHOP_ARMOUR:          return "<w>[</w>"; // noextract
+    case SHOP_ARMOUR_ANTIQUE:  return "<yellow>[</yellow>"; // noextract
+    case SHOP_GENERAL:         return "<w>*</w>"; // noextract
+    case SHOP_GENERAL_ANTIQUE: return "<yellow>*</yellow>"; // noextract
+    case SHOP_JEWELLERY:       return "<w>=</w>"; // noextract
+    case SHOP_EVOKABLES:       return "<w>}</w>"; // noextract
+    case SHOP_BOOK:            return "<w>:</w>"; // noextract
+    case SHOP_DISTILLERY:      return "<w>!</w>"; // noextract
+    case SHOP_SCROLL:          return "<w>?</w>"; // noextract
+    default:                   return "<w>x</w>"; // noextract
     }
 }
 
@@ -203,21 +204,21 @@ static string _portals_description_string()
             if (entry.second == it->id)
             {
                 if (last_id.depth == 10000)
-                    disp += coloured_branch(entry.second)+ ":";
+                    disp += coloured_branch(entry.second)+ ":"; // noextract
 
                 if (entry.first.id == last_id)
                     disp += '*';
                 else
                 {
                     disp += ' ';
-                    disp += entry.first.id.describe(false, true);
+                    disp += localise(entry.first.id.describe(false, true));
                 }
                 last_id = entry.first.id;
 
                 // Portals notes (Trove price).
                 const string note = portal_notes[entry.first];
                 if (!note.empty())
-                    disp += " (" + note + ")";
+                    disp += " (" + note + ")"; // noextract
             }
         }
         if (last_id.depth != 10000)
@@ -229,9 +230,15 @@ static string _portals_description_string()
 // display: format for in-game display; !display: format for dump
 string overview_description_string(bool display)
 {
+    const int DISPLAY_WIDTH = 78;
     string disp;
 
-    disp += "                    <white>Dungeon Overview and Level Annotations</white>\n" ;
+    // centre the heading
+    string heading = localise("Dungeon Overview and Level Annotations");
+    heading = chop_string(heading, DISPLAY_WIDTH, false);
+    string padding = string((DISPLAY_WIDTH - strwidth(heading)) / 2, ' ');
+    disp += padding + "<white>" + heading + "</white>\n"; // noextract
+
     disp += _get_branches(display);
     disp += _get_altars(display);
     disp += _get_shops(display);
@@ -244,18 +251,17 @@ string overview_description_string(bool display)
 // iterate through every dungeon branch, listing the ones which have been found
 static string _get_seen_branches(bool display)
 {
-    // Each branch entry takes up 26 spaces + 38 for tags.
-    const int width = 64;
+    const int col_width = 26;
 
     int num_printed_branches = 0;
-    char buffer[100];
     string disp;
 
-    disp += "\n<green>Branches:</green>";
+    disp += "\n";
+    disp += "<green>" + localise("Branches:") + "</green>";
     if (display)
     {
-        disp += " (press <white>G</white> to reach them and "
-                "<white>?/B</white> for more information)";
+        disp += localise(" (press <white>G</white> to reach them and "
+                         "<white>?/B</white> for more information)");
     }
     disp += "\n";
 
@@ -276,35 +282,47 @@ static string _get_seen_branches(bool display)
 
             string entry_desc;
             for (auto lvl : stair_level[branch])
-                entry_desc += " " + lvl.describe(false, true);
+                entry_desc += " " + localise(lvl.describe(false, true));
 
             // "D" is a little too short here.
-            const char *brname = (branch == BRANCH_DUNGEON
+            string branch_name = (branch == BRANCH_DUNGEON
                                   ? it->shortname
                                   : it->abbrevname);
+            // i18n: The short names and abbreviations are the same if the
+            // former is short enough, but the set of short names that are
+            // short enough will not be the same in all langauges, so we
+            // have to force the abbreviation in the localisation
+            map<string, string> params = {{ "branch_abbrev", branch_name }};
+            branch_name = localise("@branch_abbrev@", params);
+            branch_name = chop_string(branch_name, 8, true, true);
+            branch_name += " ";
 
+            int remaining = col_width - strwidth(branch_name);
+
+            string visited;
             if (entry_desc.size() == 0 && branch != BRANCH_DUNGEON
                 && you.where_are_you != branch)
             {
                 // previously visited portal branches
-                snprintf(buffer, sizeof buffer,
-                    "<yellow>%7s</yellow> <darkgrey>(visited)</darkgrey>",
-                    brname);
+                visited = chop_string(localise("(visited)"), remaining, true);
+                remaining -= strwidth(visited);
+                disp += make_stringf("<yellow>%s</yellow><darkgrey>%s</darkgrey>",
+                                     branch_name.c_str(), visited.c_str());
             }
             else
             {
-                snprintf(buffer, sizeof buffer,
-                    "<yellow>%*s</yellow> <darkgrey>(%d/%d)</darkgrey>%s",
-                    branch == root_branch ? -7 : 7,
-                    brname, lid.depth, brdepth[branch], entry_desc.c_str());
+                visited = make_stringf("(%d/%d)", lid.depth, brdepth[branch]); // noextract
+                remaining -= strwidth(visited);
+                entry_desc = chop_string(entry_desc, remaining, true);
+                disp += make_stringf("<yellow>%s</yellow><darkgrey>%s</darkgrey>%s",
+                                     branch_name.c_str(), visited.c_str(),
+                                     entry_desc.c_str());
             }
 
-            disp += buffer;
             num_printed_branches++;
 
-            disp += (num_printed_branches % 3) == 0
-                    ? "\n"
-                    : string(max<int>(width - strlen(buffer), 0), ' ');
+            if (num_printed_branches % 3 == 0)
+                disp += "\n";
         }
     }
 
