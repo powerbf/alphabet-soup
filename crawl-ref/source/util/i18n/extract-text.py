@@ -68,8 +68,8 @@ SKIP_FILES = [
     'tileweb.h', 'tileweb.cc', 'tileweb-text.h', 'tileweb-text.cc',
     # nor other tags
     'colour.h', 'colour.cc',
-    # keys
-    'defines.h',
+    # keys/properties
+    'defines.h', 'dgn-layouts.h', 'dgn-layouts.cc',
     # debug/test stuff
     'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc', 'coord-def.h',
     'crash.h', 'crash.cc',

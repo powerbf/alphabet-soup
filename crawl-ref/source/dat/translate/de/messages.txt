@@ -5728,26 +5728,6 @@ Beep! Euer Pager geht aus! Benutze _, um Eure Nachrichten zu überprüfen.
 %%%%
 
 ##################
-# dgn-layouts.cc
-##################
-%%%%
-any
-
-%%%%
-" octa_room [oblique %d, %s]"
-
-%%%%
-" many_pools [%s %d]"
-
-%%%%
-" river [%s]"
-
-%%%%
-" lake [%s]"
-
-%%%%
-
-##################
 # dgn-overview.cc
 ##################
 %%%%
@@ -18755,6 +18735,9 @@ Unknown branch: '%s'
 
 %%%%
 Level-range %s:%d-%d is malformed
+
+%%%%
+any
 
 %%%%
 "Bad depth: "
