@@ -2313,292 +2313,46 @@ You are no longer entranced.
 # branch-data.h
 ##################
 %%%%
-Dungeon
-
-%%%%
-the Dungeon
-
-%%%%
-Temple
-
-%%%%
-the Ecumenical Temple
-
-%%%%
-Orcish Mines
-
-%%%%
-the Orcish Mines
-
-%%%%
-Elven Halls
-
-%%%%
-the Elven Halls
-
-%%%%
-Dwarven Hall
-
-%%%%
-the Dwarven Hall
-
-%%%%
-Lair
-
-%%%%
-the Lair of Beasts
-
-%%%%
-Swamp
-
-%%%%
-the Swamp
-
-%%%%
-Shoals
-
-%%%%
-the Shoals
-
-%%%%
-Snake Pit
-
-%%%%
-the Snake Pit
-
-%%%%
-Snake
-
-%%%%
-Spider Nest
-
-%%%%
-the Spider Nest
-
-%%%%
-Spider
-
-%%%%
-Slime Pits
-
-%%%%
-the Pits of Slime
-
-%%%%
-Slime
-
-%%%%
-Vaults
-
-%%%%
-the Vaults
-
-%%%%
-Hall of Blades
-
-%%%%
-the Hall of Blades
-
-%%%%
-Blade
-
-%%%%
-Crypt
-
-%%%%
-the Crypt
-
-%%%%
-Tomb
-
-%%%%
-the Tomb of the Ancients
-
-%%%%
-Depths
-
-%%%%
-the Depths
-
-%%%%
-Hell
-
-%%%%
-the Vestibule of Hell
-
-%%%%
 Welcome to Hell!\nPlease enjoy your stay.
-
-%%%%
-Dis
-
-%%%%
-the Iron City of Dis
-
-%%%%
-Gehenna
-
-%%%%
-Geh
-
-%%%%
-Cocytus
-
-%%%%
-Coc
-
-%%%%
-Tartarus
-
-%%%%
-Tar
-
-%%%%
-Zot
-
-%%%%
-the Realm of Zot
 
 %%%%
 Welcome to the Realm of Zot!\nYou feel the power of the Orb interfering with translocations here.
 
 %%%%
-Forest
-
-%%%%
-the Enchanted Forest
-
-%%%%
-Abyss
-
-%%%%
-the Abyss
-
-%%%%
-Pandemonium
-
-%%%%
-Pan
-
-%%%%
 You enter the halls of Pandemonium!\nTo return, you must find a gate leading back.
-
-%%%%
-Ziggurat
-
-%%%%
-a ziggurat
-
-%%%%
-Zig
 
 %%%%
 You land on top of a ziggurat so tall you cannot make out the ground.
 
 %%%%
-Labyrinth
-
-%%%%
-a Labyrinth
-
-%%%%
-Lab
-
-%%%%
 You enter a labyrinth!
-
-%%%%
-Bazaar
-
-%%%%
-a bazaar
 
 %%%%
 You enter an inter-dimensional bazaar!
 
 %%%%
-Trove
-
-%%%%
-a treasure trove
-
-%%%%
 You enter a treasure trove!
-
-%%%%
-Sewer
-
-%%%%
-a sewer
 
 %%%%
 You enter a sewer!
 
 %%%%
-Ossuary
-
-%%%%
-an ossuary
-
-%%%%
 You enter an ossuary!
-
-%%%%
-Bailey
-
-%%%%
-a bailey
 
 %%%%
 You enter a bailey!
 
 %%%%
-Gauntlet
-
-%%%%
-a Gauntlet
-
-%%%%
 You enter a gauntlet!
-
-%%%%
-Ice Cave
-
-%%%%
-an ice cave
-
-%%%%
-IceCv
 
 %%%%
 You enter an ice cave!
 
 %%%%
-Volcano
-
-%%%%
-a volcano
-
-%%%%
 You enter a volcano!
 
 %%%%
-Wizlab
-
-%%%%
-a wizard's laboratory
-
-%%%%
-WizLab
-
-%%%%
 You enter a wizard's laboratory!
-
-%%%%
-Desolation
-
-%%%%
-the Desolation of Salt
 
 %%%%
 You enter a great desolation of salt!
@@ -5731,64 +5485,22 @@ Beep! Euer Pager geht aus! Benutze _, um Eure Nachrichten zu überprüfen.
 # dgn-overview.cc
 ##################
 %%%%
-<lightred>Buggy buglands</lightred>
+Dungeon Overview and Level Annotations
 
 %%%%
-<yellow>%s</yellow>
-<yellow>%s</yellow>
-%%%%
-<w>(</w>
-
-%%%%
-<yellow>(</yellow>
-
-%%%%
-<w>[</w>
-
-%%%%
-<yellow>[</yellow>
-
-%%%%
-<w>*</w>
-
-%%%%
-<yellow>*</yellow>
-
-%%%%
-<w>=</w>
-
-%%%%
-<w>}</w>
-
-%%%%
-<w>:</w>
-
-%%%%
-<w>!</w>
-
-%%%%
-<w>?</w>
-
-%%%%
-<w>x</w>
-
-%%%%
-:
-
-%%%%
-"                    <white>Dungeon Overview and Level Annotations</white>\n"
-
-%%%%
-\n<green>Branches:</green>
+Branches:
 
 %%%%
 " (press <white>G</white> to reach them and <white>?/B</white> for more information)"
 
 %%%%
-<yellow>%7s</yellow> <darkgrey>(visited)</darkgrey>
+(visited)
+(besucht)
+%%%%
+<yellow>%s</yellow><darkgrey>%s</darkgrey>
 
 %%%%
-<yellow>%*s</yellow> <darkgrey>(%d/%d)</darkgrey>%s
+<yellow>%s</yellow><darkgrey>%s</darkgrey>%s
 
 %%%%
 <darkgrey>%6s: %s:%d-%d</darkgrey>
@@ -6356,6 +6068,9 @@ function %s()\n%s\nend\n
 
 %%%%
 "]:
+
+%%%%
+:
 
 %%%%
 los
