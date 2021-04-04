@@ -1,6 +1,12 @@
-##################
+###############################################################################
+#
+# Translations for dungeon-related stuff
+#
+###############################################################################
+
+##############################################
 # Short branch names
-##################
+##############################################
 %%%%
 Dungeon
 Dungeon
@@ -117,10 +123,10 @@ Labyrinth
 Labyrinth
 %%%%
 
-##################
+##############################################
 # Long branch names
 # (where different to short name)
-##################
+##############################################
 %%%%
 the Dungeon
 der Dungeon
@@ -225,12 +231,12 @@ a Labyrinth
 ein Labyrinth
 %%%%
 
-##################
+##############################################
 # Branch abbreviations
 # Note that these will be truncated to 8 chars in some places, so try to keep to that length.
 # Some of the English abbreviations are the same as the short names, or monster genus names,
 # so we use the {abbrev} context to get the right translation in those cases.
-##################
+##############################################
 %%%%
 @branch_abbrev@
 {abbrev}@branch_abbrev@
