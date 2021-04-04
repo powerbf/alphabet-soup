@@ -40,6 +40,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "mapmark.h"
 #include "message.h"
@@ -3298,10 +3299,18 @@ level_id level_id::get_next_level_id(const coord_def &pos)
     return id;
 }
 
-string level_id::describe(bool long_name, bool with_number) const
+string level_id::describe(bool long_name, bool with_number, bool localize) const
 {
-    string result = (long_name ? branches[branch].longname
-                               : branches[branch].abbrevname);
+    string result;
+
+    // localise abbreviation now, but delay localisation of long name until
+    // depth is added, because that might change the translation (grammatical case)
+    if (long_name)
+        result = branches[branch].longname;
+    else if (localize)
+        result = branch_abbrev_local(branch);
+    else
+        result = branches[branch].abbrevname;
 
     if (with_number && brdepth[branch] != 1)
     {
@@ -3310,14 +3319,19 @@ string level_id::describe(bool long_name, bool with_number) const
             // decapitalise 'the'
             if (starts_with(result, "The"))
                 result[0] = 't';
-            result = make_stringf("Level %d of %s",
-                      depth, result.c_str());
+            if (localize)
+                result = localise("Level %d of %s", depth, result);
+            else
+                result = make_stringf("Level %d of %s", depth, result.c_str());
         }
         else if (depth)
             result = make_stringf("%s:%d", result.c_str(), depth);
         else
             result = make_stringf("%s:$", result.c_str());
     }
+    else if (localize && long_name)
+       result = localise(result);
+
     return result;
 }
 

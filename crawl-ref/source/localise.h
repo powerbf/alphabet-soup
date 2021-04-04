@@ -92,3 +92,10 @@ int localise_char(char ch);
  * Localise a string with embedded @foo@ style parameters
  */
 string localise(const string& text_en, const map<string, string>& params);
+
+
+/**
+ * Localise a string with a specific context
+ */
+string localise_contextual(const string& context, const string& text_en);
+

@@ -992,8 +992,8 @@ static string _localise_string(const string& context, const string& value)
     }
 
     // try simple translation
-    string result = cxlate(context, value);
-    if (result != value)
+    string result = cxlate(context, value, false);
+    if (!result.empty())
         return result;
 
     // try treating as a plural
@@ -1475,4 +1475,15 @@ string localise(const string& text_en, const map<string, string>& params)
 
     res << text.substr(last);
     return res.str();
+}
+
+/**
+ * Localise a string with a specific context
+ */
+string localise_contextual(const string& context, const string& text_en)
+{
+    if (_skip_translation())
+        return text_en;
+    else
+        return _localise_string(context, text_en);
 }

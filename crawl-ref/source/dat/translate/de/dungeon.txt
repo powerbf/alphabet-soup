@@ -233,40 +233,38 @@ ein Labyrinth
 
 ##############################################
 # Branch abbreviations
-# Note that these will be truncated to 8 chars in some places, so try to keep to that length.
-# Some of the English abbreviations are the same as the short names, or monster genus names,
-# so we use the {abbrev} context to get the right translation in those cases.
+# These should be 8 characters or less.
+#
+# Note: Some of the English abbreviations are the same as the short names (or player genus).
+# To force specific translation for abbreviation in that case, use {branch_abbrev} annotation.
 ##############################################
 %%%%
-@branch_abbrev@
-{abbrev}@branch_abbrev@
-%%%%
 # This is different to the short name, but do not want to define a global translation for the letter D
-{abbrev}D
+{branch_abbrev}D
 D
 %%%%
 # D is the real English abbreviation, but Dungeon is used in overview screen
-{abbrev}Dungeon
+{branch_abbrev}Dungeon
 Dungeon
 %%%%
-{abbrev}Temple
+{branch_abbrev}Temple
 Tempel
 %%%%
-# also a monster genus
-{abbrev}Orc
+# also a player genus
+{branch_abbrev}Orc
 Ork
 %%%%
-# also a monster genus
-{abbrev}Elf
+# also a player genus
+{branch_abbrev}Elf
 Elf
 %%%%
-{abbrev}Lair
+{branch_abbrev}Lair
 Versteck
 %%%%
-{abbrev}Swamp
+{branch_abbrev}Swamp
 Sumpf
 %%%%
-{abbrev}Shoals
+{branch_abbrev}Shoals
 Untiefen
 %%%%
 Snake
@@ -278,22 +276,22 @@ Spinne
 Slime
 Schleim
 %%%%
-{abbrev}Vaults
+{branch_abbrev}Vaults
 Gewölbe
 %%%%
-{abbrev}Crypt
+{branch_abbrev}Crypt
 Krypta
 %%%%
-{abbrev}Tomb
+{branch_abbrev}Tomb
 Gruft
 %%%%
-{abbrev}Depths
+{branch_abbrev}Depths
 Tiefen
 %%%%
-{abbrev}Hell
+{branch_abbrev}Hell
 Hölle
 %%%%
-{abbrev}Dis
+{branch_abbrev}Dis
 Dis
 %%%%
 Geh
@@ -311,38 +309,38 @@ Pan
 Zig
 Zik
 %%%%
-{abbrev}Abyss
+{branch_abbrev}Abyss
 Abgrund
 %%%%
-{abbrev}Bazaar
+{branch_abbrev}Bazaar
 Basar
 %%%%
-{abbrev}Trove
+{branch_abbrev}Trove
 Fund
 %%%%
-{abbrev}Sewer
+{branch_abbrev}Sewer
 Siel
 %%%%
-{abbrev}Ossuary
+{branch_abbrev}Ossuary
 Beinhaus
 %%%%
-{abbrev}Bailey
+{branch_abbrev}Bailey
 Burghof
 %%%%
-{abbrev}Gauntlet
+{branch_abbrev}Gauntlet
 Spießrute
 %%%%
 IceCv
 Eishöhle
 %%%%
-{abbrev}Volcano
+{branch_abbrev}Volcano
 Vulkan
 %%%%
 # Note: English short name has small L, but abbreviation has capital L.
 WizLab
 Zaublab
 %%%%
-{abbrev}Desolation
+{branch_abbrev}Desolation
 Verwüst
 %%%%
 

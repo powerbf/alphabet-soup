@@ -5497,46 +5497,28 @@ Branches:
 (visited)
 (besucht)
 %%%%
-<yellow>%s</yellow><darkgrey>%s</darkgrey>
+-
 
 %%%%
-<yellow>%s</yellow><darkgrey>%s</darkgrey>%s
-
-%%%%
-<darkgrey>%6s: %s:%d-%d</darkgrey>
-
-%%%%
-<darkgrey>%6s: %s:%d</darkgrey>
-
-%%%%
-\n<green>Altars:</green>
+Altars:
 
 %%%%
 " (press <white>_</white> to reach them and <white>?/G</white> for information about gods)"
 
 %%%%
-darkgrey
-
-%%%%
-lightred
-
-%%%%
-magenta
-
-%%%%
-\n<green>Shops:</green>
+Shops:
 
 %%%%
 " (press <white>$</white> to reach them - yellow denotes antique shop)"
 
 %%%%
-\n<green>Portals:</green>\n
+Portals:
 
 %%%%
-\n<green>Annotations:</green> (press <white>!</white> to add a new annotation)\n
+Annotations:
 
 %%%%
-\n<green>Annotations:</green>\n
+" (press <white>!</white> to add a new annotation)"
 
 %%%%
 Sorry, you haven't seen any altar yet.
@@ -5547,9 +5529,6 @@ shop
 %%%%
 Sorry, you haven't seen any shop yet.
 Entschuldigung, Ihr habt noch keinen Laden gesehen.
-%%%%
-s
-
 %%%%
 corrupted
 
@@ -7483,6 +7462,9 @@ ss
 catoblepae
 
 %%%%
+s
+
+%%%%
 ys
 
 %%%%
@@ -7763,9 +7745,6 @@ eighty
 
 %%%%
 ninety
-
-%%%%
--
 
 %%%%
 " hundred"
@@ -15792,6 +15771,9 @@ Too many items on level, removing some.
 Zu viele Gegenstände auf Level, einige entfernen.
 %%%%
 Item %s claims to be held by monster %s, but it isn't in the monster's inventory.
+
+%%%%
+darkgrey
 
 %%%%
 "You see here "
@@ -25898,6 +25880,9 @@ Your bite disrupts the magic of your enemies.
 ))
 
 %%%%
+lightred
+
+%%%%
 lightcyan
 
 %%%%
@@ -25905,6 +25890,9 @@ lightblue
 
 %%%%
 lightmagenta
+
+%%%%
+magenta
 
 %%%%
 You feel the corruption within you wane %s.
