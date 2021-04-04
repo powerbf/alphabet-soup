@@ -9,6 +9,7 @@
 #include "stringutil.h"
 #include "tag-version.h"
 #include "travel.h"
+#include "unicode.h"
 
 FixedVector<level_id, NUM_BRANCHES> brentry;
 FixedVector<int, NUM_BRANCHES> brdepth;
@@ -354,6 +355,18 @@ string branch_rune_desc(branch_type br, bool remaining_only)
         }
 
     return desc;
+}
+
+/**
+ * Get localised branch abbrev
+ */
+string branch_abbrev_local(branch_type br)
+{
+    // We have to disambiguate abbreviation from short name because sometimes
+    // they are the same in English, but may not be in the target language
+    string result = localise_contextual("branch_abbrev", branches[br].abbrevname);
+    // guard against translator making the abbreviation too long
+    return chop_string(result, 8, false);
 }
 
 branch_type rune_location(rune_type rune)
