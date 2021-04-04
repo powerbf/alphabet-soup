@@ -46,22 +46,23 @@ static string _format_utf8_string(const string& fmt, const string& arg)
     }
 
     // if there are width/precision args, then make_stringf won't handle it correctly
-    // (it will count bytes), so we have to use an ASCII placeholder
-    const char c = '\01';
-    string placeholder = string(strwidth(arg), c);
-    string result = make_stringf(fmt.c_str(), placeholder.c_str());
+    // (it will count bytes), so we have to handle it in a unicode-aware way
+    int width = 0;
+    bool right_justify = true; // default for %s
 
-    // find placeholder in result
-    // (may have been truncated, so can't assume length is same as original)
-    size_t pos1 = result.find(c);
-    size_t pos2 = result.rfind(c);
-    if (pos1 == string::npos || pos2 == string::npos)
-        return result;
+    for (size_t i = 1; i < fmt.length(); i++)
+    {
+        char ch = fmt[i];
+        if (ch == '-')
+            right_justify = false;
+        else if (ch >= '0' && ch <= '9')
+            width = (width * 10) + (int)(ch - '0');
+    }
 
-    // replace placeholder with arg, truncating if necessary
-    size_t len = pos2 - pos1 + 1;
-    result.replace(pos1, len, chop_string(arg, len, false));
-    return result;
+    if (width == 0)
+        return arg;
+    else
+        return chop_string(arg, width, true, right_justify);
 }
 
 // is this char a printf typespec (i.e. the end of %<something><char>)?
