@@ -5486,64 +5486,46 @@ Beep! Euer Pager geht aus! Benutze _, um Eure Nachrichten zu überprüfen.
 ##################
 %%%%
 Dungeon Overview and Level Annotations
-
+Dungeon-Überblick und Ebenen-Anmerkungen
 %%%%
 Branches:
-
+Äste:
 %%%%
 " (press <white>G</white> to reach them and <white>?/B</white> for more information)"
-
+" (<white>G</white> drücken um sie zu erreichen und <white>?/B</white> für wietere Informationen)"
 %%%%
 (visited)
 (besucht)
 %%%%
--
-
-%%%%
 Altars:
-
+Altäre:
 %%%%
 " (press <white>_</white> to reach them and <white>?/G</white> for information about gods)"
-
+" (<white>G</white> drücken um sie zu erreichen und <white>?/G</white> für wietere Informationen über die Götter)"
 %%%%
 Shops:
-
+Läden:
 %%%%
 " (press <white>$</white> to reach them - yellow denotes antique shop)"
-
+" (<white>G</white> drücken um sie zu erreichen - Gelb zeigt Antiquitätenläden)"
 %%%%
 Portals:
-
+Portale:
 %%%%
 Annotations:
-
+Anmerkungen:
 %%%%
 " (press <white>!</white> to add a new annotation)"
-
+" (<white>!</white> drücken um eine neue Anmerkung zu hinzufügen)"
 %%%%
 Sorry, you haven't seen any altar yet.
 Entschuldigung, Ihr habt noch keinen Altar gesehen.
-%%%%
-shop
-
 %%%%
 Sorry, you haven't seen any shop yet.
 Entschuldigung, Ihr habt noch keinen Laden gesehen.
 %%%%
 corrupted
-
-%%%%
-Lernaean hydra
-
-%%%%
-Serpent of Hell
-
-%%%%
-Blork
-
-%%%%
-"(%c) %-14s "
-
+verdorben
 %%%%
 Annotate which branch? (. - %s, ? - help, ! - show branch list)
 
@@ -5560,13 +5542,10 @@ Welche Stufe von %s?
 That's not a valid depth.
 
 %%%%
-Current level annotation: <lightgrey>%s</lightgrey>
-Annotation der aktuellen Ebene: <lightgrey>%s</lightgrey>
-%%%%
-"New annotation for "
+"Current level annotation: "
 
 %%%%
-" (include '!' for warning): "
+"New annotation for %s (include '!' for warning): "
 
 %%%%
 Cleared annotation.
@@ -7747,6 +7726,9 @@ eighty
 ninety
 
 %%%%
+-
+
+%%%%
 " hundred"
 
 %%%%
@@ -7982,7 +7964,7 @@ cloud
 
 %%%%
 exclusion
-
+Sperrgebiet
 %%%%
 
 ##################
@@ -8110,6 +8092,9 @@ mechanical trap
 %%%%
 passage of golubria
 
+%%%%
+shop
+Laden
 %%%%
 abandoned shop
 
@@ -17431,6 +17416,9 @@ Gyre
 scrolls
 
 %%%%
+'s ghost
+
+%%%%
 "^[a-zA-Z] - "
 
 %%%%
@@ -22203,9 +22191,6 @@ Die%s-Nachahmung%svanishes%s!
 %s %s a mimic!
 %%%%
 Lernaean
-
-%%%%
-Enchantress
 
 %%%%
 hit
@@ -34807,6 +34792,9 @@ Ihr seid in einem von Reisen ausgeschlossenen Gebiet und hältst%s an.
 " @ (x,y)"
 
 %%%%
+"(%c) %-14s "
+
+%%%%
 * - list branches
 
 %%%%
@@ -34835,7 +34823,7 @@ TSO
 
 %%%%
 "Go to which altar? (? - help) "
-"Zu welchem ​​Altar gehen? (? - Hilfe) "
+"Zu welchem Altar gehen? (? - Hilfe) "
 %%%%
 "What level of %s? (default %s, ? - help) "
 
