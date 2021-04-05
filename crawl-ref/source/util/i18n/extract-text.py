@@ -234,6 +234,8 @@ for filename in files:
             # just a find
             if re.match(r'\bstrstr\s*\(', line):
                 continue
+            if 'search_stashes' in line:
+                continue
 
             # tokenize line into string and non-string
             tokens = []

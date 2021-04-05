@@ -254,14 +254,29 @@ Verrückter Yiuf
 the Enchantress
 die Hexenmeisterin
 %%%%
+Enchantress
+Hexenmeisterin
+%%%%
 Blork the orc
 Blork der Ork
+%%%%
+Blork
+Blork
 %%%%
 the Royal Jelly
 das Gelée Royale
 %%%%
+Royal Jelly
+Gelée Royale
+%%%%
 the Serpent of Hell
 die Höllenschlange
+%%%%
+Serpent of Hell
+Höllenschlange
+%%%%
+Lernaean hydra
+Lernäische Hydra
 %%%%
 the Lernaean hydra
 die Lernäische Hydra
@@ -346,6 +361,9 @@ die 26-köpfige Lernäische Hydra
 %%%%
 the 27-headed Lernaean hydra
 die 27-köpfige Lernäische Hydra
+%%%%
+%s's ghost
+%ss Geist
 %%%%
 
 ################################

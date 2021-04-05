@@ -368,7 +368,7 @@ static string _get_unseen_branches()
                 desc += to_string(it->mindepth);
 
                 if (it->mindepth != it->maxdepth)
-                    desc += "-" + to_string(it->maxdepth);
+                    desc += '-' + to_string(it->maxdepth);
 
                 num_printed_branches++;
                 right_col = (num_printed_branches % 3 == 0);
@@ -918,7 +918,7 @@ static string unique_name(monster* mons)
         if (strstr(name.c_str(), "Blork"))
             name = "Blork the orc";
     }
-    return localise(name);
+    return name;
 }
 
 void set_unique_annotation(monster* mons, const level_id level)
@@ -989,22 +989,25 @@ string get_level_annotation(level_id li, bool skip_excl, bool skip_uniq,
     string note = "";
 
     if (string *ann = map_find(level_annotations, li))
-        note += use_colour ? colour_string(*ann, colour) : *ann;
+    {
+        string ann_loc = localise(*ann);
+        note += use_colour ? colour_string(ann_loc, colour) : ann_loc;
+    }
 
     if (!skip_excl)
         if (string *excl = map_find(level_exclusions, li))
         {
             if (note.length() > 0)
-                note += ", ";
-            note += *excl;
+                note += localise(", ");
+            note += localise(*excl);
         }
 
     if (!skip_uniq)
         if (string *uniq = map_find(level_uniques, li))
         {
             if (note.length() > 0)
-                note += ", ";
-            note += *uniq;
+                note += localise(", ");
+            note += localise(*uniq);
         }
 
     return note;
@@ -1100,16 +1103,16 @@ static void _show_dungeon_overview(vector<branch_type> brs)
         if (linec == 4)
         {
             linec = 0;
-            mpr(line);
+            mpr_nolocalise(line);
             line = "";
         }
-        line += make_stringf("(%c) %-14s ",
-                             branches[br].travel_shortcut,
-                             branches[br].shortname);
+        line += localise("(%c) %-14s ", // noextract
+                         branches[br].travel_shortcut,
+                         branches[br].shortname);
         ++linec;
     }
     if (!line.empty())
-        mpr(line);
+        mpr_nolocalise(line);
     flush_prev_message();
     return;
 }
@@ -1206,7 +1209,7 @@ void do_annotate()
     else
     {
         clear_messages();
-        const string prompt = make_stringf ("What level of %s? ",
+        const string prompt = localise("What level of %s? ",
                     branches[branch].longname);
         depth = prompt_for_int(prompt.c_str(), true);
     }
@@ -1225,12 +1228,14 @@ void annotate_level(level_id li)
     const string old = get_level_annotation(li, true, true);
     if (!old.empty())
     {
-        mprf(MSGCH_PROMPT, "Current level annotation: <lightgrey>%s</lightgrey>",
-             old.c_str());
+        string msg = localise("Current level annotation: ");
+        msg += "<lightgrey>" + old + "</lightgrey>";
+        mpr_nolocalise(MSGCH_PROMPT, msg);
     }
 
-    const string prompt = "New annotation for " + li.describe()
-                          + " (include '!' for warning): ";
+    const string level = li.describe(false, true, true);
+    const string prompt = localise("New annotation for %s (include '!' for warning): ",
+                                   LocalisationArg(level, false));
 
     char buf[77];
     if (msgwin_get_line_autohist(prompt, buf, sizeof(buf), old))

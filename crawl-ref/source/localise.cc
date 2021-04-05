@@ -594,7 +594,7 @@ static bool is_list(const string& s)
             bracket_depth--;
         else if (bracket_depth == 0)
         {
-            if (s[i] == ',' or s[i] == ';')
+            if (s[i] == ',' or s[i] == ';' or s[i] == ':')
                 return true;
             else if (strncmp(&s.c_str()[i], " and ", 5) == 0
                      || strncmp(&s.c_str()[i], " or ", 4) == 0)
@@ -923,7 +923,7 @@ static string _localise_list(const string& context, const string& s)
 {
     static vector<string> separators = {", or ", ", and ",
                                         "; or ", "; and ",
-                                        ", ", "; ",
+                                        ", ", "; ", ": ",
                                         " or ", " and "};
 
     // annotations can contain commas, so remove them for the moment
@@ -983,6 +983,18 @@ static string _localise_counted_string(const string& context, const string& valu
     return _localise_counted_string(context, singular, plural, count);
 }
 
+// localise counted string when you only have the plural
+static string _localise_ghost_name(const string& context, const string& value)
+{
+    const string suffix = "'s ghost";
+    if (!ends_with(value, {suffix.c_str()}))
+        return value;
+
+    string name = value.substr(0, value.length() - suffix.length());
+    string fmt = cxlate(context, "%s's ghost");
+    return make_stringf(fmt.c_str(), name.c_str());
+}
+
 // localise a string
 static string _localise_string(const string& context, const string& value)
 {
@@ -1005,6 +1017,11 @@ static string _localise_string(const string& context, const string& value)
     {
         return _localise_list(context, value);
     }
+
+    // try treating as ghost name
+    result = _localise_ghost_name(context, value);
+    if (result != value)
+        return result;
 
     if (regex_search(value, regex("^[a-zA-Z] - ")))
     {
