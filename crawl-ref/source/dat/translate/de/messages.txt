@@ -17365,74 +17365,6 @@ Error in ReadConsoleInputW()!
 ##################
 
 ##################
-# localise.cc
-##################
-%%%%
-diufFeEgGxXoscpaAn
-
-%%%%
-aAeEfFgG
-
-%%%%
-uoxX
-
-%%%%
-cid
-
-%%%%
-%%
-
-%%%%
-\{
-
-%%%%
-\}
-
-%%%%
-{(
-
-%%%%
-\"
-
-%%%%
-" \""
-
-%%%%
-pair
-
-%%%%
-Dice, Bag, and Bottle
-
-%%%%
-Gyre
-
-%%%%
-" of \"%s\""
-
-%%%%
-" labeled "
-
-%%%%
-scrolls
-
-%%%%
-'s ghost
-
-%%%%
-"^[a-zA-Z] - "
-
-%%%%
-labeled
-
-%%%%
-UTF-8
-
-%%%%
-@{
-
-%%%%
-
-##################
 # lookup-help.cc
 ##################
 %%%%
@@ -17852,6 +17784,9 @@ Ctrl-%c
 ##################
 # main.cc
 ##################
+%%%%
+UTF-8
+
 %%%%
 Error: truncation inside the save file.\n
 
@@ -18447,6 +18382,9 @@ no glyphs specified for clearing
 
 %%%%
 Invalid weight specifier in "
+
+%%%%
+\"
 
 %%%%
 bad spec: '%s' in '%s'
