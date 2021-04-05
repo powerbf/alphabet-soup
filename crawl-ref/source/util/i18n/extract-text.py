@@ -75,7 +75,7 @@ SKIP_FILES = [
     'crash.h', 'crash.cc',
     # files related to the translation process itself
     'xlate.h', 'xlate.cc', 
-    'localize.h', 'localize.cc', 
+    'localise.h', 'localise.cc',
     'database.h', 'database.cc',
     # stuff related to morgue file is not translated
     # (because if we run this on a server, we want all the morgues in English)
