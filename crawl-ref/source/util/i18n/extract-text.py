@@ -106,7 +106,7 @@ else:
     # put some important files first
     # (because if there are duplicate strings, we want them put under these files)
     files = [ 'stringutil.h', 'mon-data.h',
-              'spl-data.h', 'zap-data.h',
+              'spl-data.h', 'zap-data.h', 'feature-data.h',
               'item-prop.cc', 'item-name.cc', 'art-data.h', 
               'species-data.h', 'job-data.h', 'variant-msg.cc' ]
 
@@ -329,7 +329,7 @@ for filename in files:
             continue
 
         # ignore identifiers
-        if '_' in string and re.match(r'^[A-Za-z_]+$', string):
+        if '_' in string and re.match(r'^[A-Za-z_-]+$', string):
             continue
         if 'Gozag bribe' in string or 'Gozag permabribe' in string:
             continue
