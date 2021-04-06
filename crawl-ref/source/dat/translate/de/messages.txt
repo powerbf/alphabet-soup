@@ -3963,61 +3963,10 @@ It makes you less stealthy.
 It makes you more stealthy.
 
 %%%%
-dart trap
-
-%%%%
-arrow trap
-
-%%%%
-spear trap
-
-%%%%
-dispersal trap
-
-%%%%
-teleport trap
-
-%%%%
-permanent teleport trap
-
-%%%%
-alarm trap
-
-%%%%
-blade trap
-
-%%%%
-bolt trap
-
-%%%%
-net trap
-
-%%%%
-Zot trap
-
-%%%%
 needle trap
 
 %%%%
-shaft
-
-%%%%
-passage of Golubria
-
-%%%%
-pressure plate
-
-%%%%
-web
-
-%%%%
 gas trap
-
-%%%%
-shadow trap
-
-%%%%
-dormant shadow trap
 
 %%%%
 "One of the many lords of Pandemonium, @name@ has "
@@ -5702,9 +5651,6 @@ Targeting durch HUP-Signal unterbrochen.
 Out of range.
 
 %%%%
-lava
-
-%%%%
 sanctuary
 
 %%%%
@@ -5811,9 +5757,6 @@ spattered with blood
 
 %%%%
 "closed "
-
-%%%%
-an abandoned shop
 
 %%%%
 UNAMED PORTAL VAULT ENTRY
@@ -7964,7 +7907,7 @@ cloud
 
 %%%%
 exclusion
-Sperrgebiet
+Begrenzung
 %%%%
 
 ##################
@@ -7982,425 +7925,6 @@ Ihr habt Angst vor%s!
 %%%%
 You are no longer terrified.
 Ihr habt keine Angst mehr.
-%%%%
-
-##################
-# feature-data.h
-##################
-%%%%
-unseen
-ungesehen
-%%%%
-explore horizon
-Horizont erkunden
-%%%%
-travel trail
-Reiseroute
-%%%%
-closed door
-geschlossene Tür
-%%%%
-runed door
-runenbesetzte Tür
-%%%%
-sealed door
-versiegelte Tür
-%%%%
-sealed translucent door
-versiegelte transluzente Tür
-%%%%
-closed translucent door
-geschlossene transluzente Tür
-%%%%
-runed translucent door
-runenbesetzte transluzente Tür
-%%%%
-tree
-Baum
-%%%%
-metal wall
-Metallwand
-%%%%
-crystal wall
-Kristallwand
-%%%%
-rock wall
-Felswand
-%%%%
-slime covered rock wall
-Schleim-bedeckte Felswand
-%%%%
-stone wall
-Steinwand
-%%%%
-unnaturally hard rock wall
-unnatürlich harte Felswand
-%%%%
-translucent rock wall
-transluzente Felswand
-%%%%
-translucent stone wall
-transluzente Steinwand
-%%%%
-translucent unnaturally hard rock wall
-transluzente unnatürlich harte Felswand
-%%%%
-iron grate
-
-%%%%
-the open sea
-die offene See
-%%%%
-the endless lava
-
-%%%%
-endless expanse of salt
-
-%%%%
-orcish idol
-
-%%%%
-granite statue
-
-%%%%
-portal to somewhere
-
-%%%%
-some lava
-
-%%%%
-some deep water
-
-%%%%
-some shallow water
-
-%%%%
-a toxic bog
-
-%%%%
-collapsed entrance
-
-%%%%
-open door
-
-%%%%
-open translucent door
-
-%%%%
-mechanical trap
-
-%%%%
-passage of golubria
-
-%%%%
-shop
-Laden
-%%%%
-abandoned shop
-
-%%%%
-empty arch of ancient stone
-
-%%%%
-detected shop or portal
-
-%%%%
-stone staircase leading down
-
-%%%%
-stone staircase leading up
-
-%%%%
-escape hatch in the floor
-
-%%%%
-escape hatch in the ceiling
-
-%%%%
-labyrinth entrance
-
-%%%%
-gateway to the Iron City of Dis
-
-%%%%
-gateway to the ashen valley of Gehenna
-
-%%%%
-gateway to the freezing wastes of Cocytus
-
-%%%%
-gateway to the decaying netherworld of Tartarus
-
-%%%%
-gateway to Hell
-
-%%%%
-gateway back into the Dungeon
-
-%%%%
-one-way gate to the infinite horrors of the Abyss
-
-%%%%
-exit through the horrors of the Abyss
-
-%%%%
-gateway leading out of the Abyss
-
-%%%%
-one-way gate leading to the halls of Pandemonium
-
-%%%%
-gate leading to another region of Pandemonium
-
-%%%%
-gate leading out of Pandemonium
-
-%%%%
-gate to the Vaults
-
-%%%%
-gate leading back out of this place
-
-%%%%
-gate to the Realm of Zot
-
-%%%%
-gate leading to a distant place
-
-%%%%
-gateway to a ziggurat
-
-%%%%
-gateway to a bazaar
-
-%%%%
-portal to a secret trove of treasure
-
-%%%%
-glowing drain
-
-%%%%
-sand-covered staircase
-
-%%%%
-flagged portal
-
-%%%%
-gate leading to a gauntlet
-
-%%%%
-frozen archway
-
-%%%%
-dark tunnel
-
-%%%%
-magical portal
-
-%%%%
-ruined gateway
-
-%%%%
-ice covered gate leading back out of this place
-
-%%%%
-rocky tunnel leading out of this place
-
-%%%%
-portal leading out of this place
-
-%%%%
-staircase leading out of the dungeon
-
-%%%%
-staircase to the Slime Pits
-
-%%%%
-staircase back to the Lair
-
-%%%%
-staircase to the Orcish Mines
-
-%%%%
-staircase back to the Dungeon
-
-%%%%
-staircase to the Dwarven Hall
-
-%%%%
-staircase to the Enchanted Forest
-
-%%%%
-staircase to the Hall of Blades
-
-%%%%
-staircase back to the Vaults
-
-%%%%
-staircase to the Lair
-
-%%%%
-staircase to the Crypt
-
-%%%%
-staircase to the Ecumenical Temple
-
-%%%%
-staircase to the Snake Pit
-
-%%%%
-staircase to the Elven Halls
-
-%%%%
-staircase back to the Mines
-
-%%%%
-staircase to the Tomb
-
-%%%%
-staircase back to the Crypt
-
-%%%%
-staircase to the Swamp
-
-%%%%
-staircase to the Shoals
-
-%%%%
-hole to the Spider Nest
-
-%%%%
-crawl-hole back to the Lair
-
-%%%%
-staircase to the Depths
-
-%%%%
-detected altar
-
-%%%%
-glowing silver altar of Zin
-
-%%%%
-glowing golden altar of the Shining One
-
-%%%%
-ancient bone altar of Kikubaaqudgha
-
-%%%%
-basalt altar of Yredelemnul
-
-%%%%
-shimmering altar of Xom
-
-%%%%
-radiant altar of Vehumet
-
-%%%%
-iron altar of Okawaru
-
-%%%%
-burning altar of Makhleb
-
-%%%%
-shimmering blue altar of Sif Muna
-
-%%%%
-bloodstained altar of Trog
-
-%%%%
-sparkling altar of Nemelex Xobeh
-
-%%%%
-white marble altar of Elyvilon
-
-%%%%
-corrupted altar of Lugonu
-
-%%%%
-roughly hewn altar of Beogh
-
-%%%%
-viscous altar of Jiyva
-
-%%%%
-blossoming altar of Fedhas
-
-%%%%
-snail-covered altar of Cheibriados
-
-%%%%
-broken altar of Ashenzari
-
-%%%%
-shadowy altar of Dithmenos
-
-%%%%
-opulent altar of Gozag
-
-%%%%
-stormy altar of Qazlal
-
-%%%%
-sacrificial altar of Ru
-
-%%%%
-faded altar of an unknown god
-
-%%%%
-oddly glowing altar of Pakellas
-
-%%%%
-hide-covered altar of Uskayaw
-
-%%%%
-hazy altar of Hepliaklqana
-
-%%%%
-ornate altar of the Wu Jian Council
-
-%%%%
-fountain of clear blue water
-
-%%%%
-fountain of sparkling water
-
-%%%%
-fountain of blood
-
-%%%%
-dry fountain
-
-%%%%
-non-fountain_blue
-
-%%%%
-non-fountain_sparkling
-
-%%%%
-non-fountain_blood
-
-%%%%
-short-range portal
-
-%%%%
-teleporter
-
-%%%%
-transporter
-
-%%%%
-transporter landing site
-
-%%%%
-sealed passage leading up
-
-%%%%
-sealed passage leading down
-
-%%%%
-gateway leading deeper into the Abyss
-
 %%%%
 
 ##################
@@ -22848,9 +22372,6 @@ swing wildly
 " while confused and next to "
 
 %%%%
-deep water
-
-%%%%
 " while you are losing your buoyancy"
 
 %%%%
@@ -34480,9 +34001,6 @@ Etwas bleibt im Netz hängen!
 
 %%%%
 %s drifts right through the net!
-
-%%%%
-a Zot trap
 
 %%%%
 A huge vortex of air appears!
