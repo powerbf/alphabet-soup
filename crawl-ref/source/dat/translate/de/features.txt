@@ -539,7 +539,7 @@ the granite statue
 die Granitstatue
 %%%%
 the portal to somewhere
-das portal nach irgendwo
+das Portal nach irgendwo
 %%%%
 the lava
 die lava
@@ -988,7 +988,16 @@ a granite statue
 eine Granitstatue
 %%%%
 a portal to somewhere
-ein portal nach irgendwo
+ein Portal nach irgendwo
+%%%%
+some lava
+etwas Lava
+%%%%
+some deep water
+etwas tiefes Wasser
+%%%%
+some shallow water
+etwas seichtes Wasser
 %%%%
 a toxic bog
 ein giftiges Moor
@@ -1355,20 +1364,6 @@ ein versiegelter Gang, der nach unten führt
 %%%%
 a gateway leading deeper into the Abyss
 ein Tor, das tiefer in den Abgrund führt
-%%%%
-
-################################
-# Some
-################################
-%%%%
-some lava
-etwas Lava
-%%%%
-some deep water
-etwas tiefes Wasser
-%%%%
-some shallow water
-etwas flaches Wasser
 %%%%
 
 ################################
