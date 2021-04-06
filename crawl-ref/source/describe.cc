@@ -2436,7 +2436,7 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
     if (!ends_with(desc, ".") && !ends_with(desc, "!")
         && !ends_with(desc, "?"))
     {
-        inf.title += add_punctuation(inf.title, ".", false);
+        inf.title = add_punctuation(inf.title, ".", false);
     }
 
     const string marker_desc =
