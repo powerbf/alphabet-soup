@@ -21,7 +21,7 @@ closed door
 geschlossene Tür
 %%%%
 runed door
-verschlossene Tür
+runenverzierte Tür
 %%%%
 sealed door
 versiegelte Tür
@@ -57,13 +57,13 @@ unnaturally hard rock wall
 unnatürlich harte Felswand
 %%%%
 translucent rock wall
-durchscheinende Felswand
+durchsichtige Felswand
 %%%%
 translucent stone wall
-durchscheinende Steinwand
+durchsichtige Steinwand
 %%%%
 translucent unnaturally hard rock wall
-durchscheinende unnatürlich harte Felswand
+durchsichtige unnatürlich harte Felswand
 %%%%
 iron grate
 Eisengitter
@@ -114,16 +114,16 @@ mechanical trap
 mechanische Falle
 %%%%
 arrow trap
-Pfeil-Falle
+Pfeilfalle
 %%%%
 spear trap
 Speerfalle
 %%%%
 blade trap
-Messerfalle
+Klingenfalle
 %%%%
 dart trap
-Pfeilfalle
+Wurfpfeilfalle
 %%%%
 bolt trap
 Bolzenfalle
@@ -135,7 +135,7 @@ pressure plate
 Druckplatte
 %%%%
 dispersal trap
-Verteilfalle
+Zerstreuungsfalle
 %%%%
 teleport trap
 Teleportfalle
@@ -147,7 +147,7 @@ shadow trap
 Schattenfalle
 %%%%
 dormant shadow trap
-schlafende Schattenfalle
+ruhende Schattenfalle
 %%%%
 alarm trap
 Alarmfalle
@@ -156,22 +156,22 @@ Zot trap
 Zot-Falle
 %%%%
 passage of Golubria
-Durchgang von Golubria
+Passage von Golubria
 %%%%
 shaft
 Schacht
 %%%%
 web
-Web
+Spinnwebe
 %%%%
 shop
-Geschäft
+Laden
 %%%%
 abandoned shop
 verlassener Laden
 %%%%
 empty arch of ancient stone
-leeres Gewölbe aus uraltem Stein
+leerer Bogen aus uraltem Stein
 %%%%
 detected shop or portal
 entdeckter Laden oder Portal
@@ -210,7 +210,7 @@ gateway back into the Dungeon
 Tor zurück in den Dungeon
 %%%%
 one-way gate to the infinite horrors of the Abyss
-Einweg-Tor zu den unendlichen Schrecken des Abgrunds
+Einwegtor zu den unendlichen Schrecken des Abgrunds
 %%%%
 exit through the horrors of the Abyss
 Ausgang durch die Schrecken des Abgrunds
@@ -219,7 +219,7 @@ gateway leading out of the Abyss
 Tor, das aus dem Abgrund herausführt
 %%%%
 one-way gate leading to the halls of Pandemonium
-Einweg-Tor, das zu den Hallen von Pandemonium führt
+Einwegtor, das in die Hallen des Pandämoniums führt
 %%%%
 gate leading to another region of Pandemonium
 Tor, das in eine andere Region von Pandemonium führt
@@ -237,7 +237,7 @@ gate to the Realm of Zot
 Tor zum Reich von Zot
 %%%%
 gate leading to a distant place
-Tor, das zu einem entfernten Ort führt
+Tor, das zu einem weit entfernten Ort führt
 %%%%
 gateway to a ziggurat
 Tor zu einer Zikkurat
@@ -246,7 +246,7 @@ gateway to a bazaar
 Tor zu einem Basar
 %%%%
 portal to a secret trove of treasure
-Tor zu einer geheimen Schatzkammer
+Tor zu einer geheimen Fundgrube von Schätzen
 %%%%
 glowing drain
 glühender Abfluss
@@ -255,10 +255,10 @@ sand-covered staircase
 sandbedeckte Treppe
 %%%%
 flagged portal
-geflaggtes Portal
+beflaggtes Portal
 %%%%
 gate leading to a gauntlet
-Tor, das zu einem Spießrutenlauf führt
+Tor, das zu einem Spießrute führt
 %%%%
 frozen archway
 gefrorener Torbogen
@@ -291,10 +291,10 @@ staircase back to the Lair
 Treppe zurück zum Versteck
 %%%%
 staircase to the Orcish Mines
-Treppe zu den Orcish Mines
+Treppe zu den Orkischen Minen
 %%%%
 staircase back to the Dungeon
-Treppe zurück in den Kerker
+Treppe zurück in den Dungeon
 %%%%
 staircase to the Dwarven Hall
 Treppe zur Zwergenhalle
@@ -330,7 +330,7 @@ staircase to the Tomb
 Treppe zur Gruft
 %%%%
 staircase back to the Crypt
-Treppe zurück in die Krypta
+Treppe zurück zur Krypta
 %%%%
 staircase to the Swamp
 Treppe zum Sumpf
@@ -342,10 +342,10 @@ hole to the Spider Nest
 Loch zum Spinnennest
 %%%%
 crawl-hole back to the Lair
-Krabbel-Loch zurück zum Versteck
+Krabbelloch zurück zum Versteck
 %%%%
 staircase to the Depths
-Treppe in die Tiefe
+Treppe zu den Tiefen
 %%%%
 detected altar
 entdeckter Altar
@@ -360,7 +360,7 @@ ancient bone altar of Kikubaaqudgha
 uralter Knochenaltar von Kikubaaqudgha
 %%%%
 basalt altar of Yredelemnul
-Basalt-Altar von Yredelemnul
+Basaltaltar von Yredelemnul
 %%%%
 shimmering altar of Xom
 schimmernder Altar von Xom
@@ -375,10 +375,10 @@ burning altar of Makhleb
 brennender Altar von Makhleb
 %%%%
 shimmering blue altar of Sif Muna
-blau schimmernder Altar von Sif Muna
+schimmernder blauer Altar von Sif Muna
 %%%%
 bloodstained altar of Trog
-blutbefleckter Altar von Trog
+blutverschmierter Altar von Trog
 %%%%
 sparkling altar of Nemelex Xobeh
 funkelnder Altar von Nemelex Xobeh
@@ -387,7 +387,7 @@ white marble altar of Elyvilon
 weißer Marmoraltar von Elyvilon
 %%%%
 corrupted altar of Lugonu
-Verderbter Altar von Lugonu
+verdorbener Altar von Lugonu
 %%%%
 roughly hewn altar of Beogh
 grob behauener Altar von Beogh
@@ -411,7 +411,7 @@ opulent altar of Gozag
 opulenter Altar von Gozag
 %%%%
 stormy altar of Qazlal
-Stürmischer Altar von Qazlal
+stürmischer Altar von Qazlal
 %%%%
 sacrificial altar of Ru
 Opferaltar von Ru
@@ -423,7 +423,7 @@ oddly glowing altar of Pakellas
 seltsam leuchtender Altar von Pakellas
 %%%%
 hide-covered altar of Uskayaw
-versteckter Altar von Uskayaw
+fellbedeckter Altar von Uskayaw
 %%%%
 hazy altar of Hepliaklqana
 dunstiger Altar von Hepliaklqana
@@ -432,19 +432,19 @@ ornate altar of the Wu Jian Council
 verschnörkelter Altar des Wu-Jian-Rates
 %%%%
 fountain of clear blue water
-Brunnen mit klarem, blauem Wasser
+Brunnen klaren blauen Wassers
 %%%%
 fountain of sparkling water
-Fontäne aus sprudelndem Wasser
+Brunnen sprudelnden Wassers
 %%%%
 fountain of blood
 Brunnen des Blutes
 %%%%
 dry fountain
-trockener Springbrunnen
+trockener Brunnen
 %%%%
 short-range portal
-Kurzstrecken-Portal
+Kurzstreckenportal
 %%%%
 teleporter
 Teleporter
@@ -456,10 +456,10 @@ transporter landing site
 Transporterlandeplatz
 %%%%
 sealed passage leading up
-versiegelter Durchgang nach oben
+versiegelter Gang, der nach oben führt
 %%%%
 sealed passage leading down
-versiegelte Passage, die nach unten führt
+versiegelter Gang, der nach unten führt
 %%%%
 gateway leading deeper into the Abyss
 Tor, das tiefer in den Abgrund führt
@@ -470,7 +470,7 @@ Tor, das tiefer in den Abgrund führt
 ################################
 %%%%
 the travel trail
-der Reiseweg
+die Reiseroute
 %%%%
 the closed door
 die geschlossene Tür
@@ -479,7 +479,7 @@ the runed door
 die runenverzierte Tür
 %%%%
 the sealed door
-die versiegelte tür
+die versiegelte Tür
 %%%%
 the sealed translucent door
 die versiegelte durchsichtige Tür
@@ -521,7 +521,7 @@ the translucent unnaturally hard rock wall
 die durchsichtige unnatürlich harte Felswand
 %%%%
 the iron grate
-das eiserne Gitter
+das Eisengitter
 %%%%
 the open sea
 das offene Meer
@@ -617,7 +617,7 @@ the shaft
 der Schacht
 %%%%
 the web
-das Netz
+die Spinnwebe
 %%%%
 the shop
 der Laden
@@ -665,7 +665,7 @@ the gateway back into the Dungeon
 das Tor zurück in den Dungeon
 %%%%
 the one-way gate to the infinite horrors of the Abyss
-das Einbahntor zu den unendlichen Schrecken des Abgrunds
+das Einwegtor zu den unendlichen Schrecken des Abgrunds
 %%%%
 the exit through the horrors of the Abyss
 der Ausgang durch die Schrecken des Abgrunds
@@ -698,7 +698,7 @@ the gateway to a ziggurat
 das Tor zu einer Zikkurat
 %%%%
 the gateway to a bazaar
-das Tor zu einem Bazar
+das Tor zu einem Basar
 %%%%
 the portal to a secret trove of treasure
 das Tor zu einer geheimen Fundgrube von Schätzen
@@ -806,7 +806,7 @@ the detected altar
 der entdeckte Altar
 %%%%
 the glowing silver altar of Zin
-der leuchtende silberne Altar von Zin
+der glühende silberne Altar von Zin
 %%%%
 the glowing golden altar of the Shining One
 der glühende goldene Altar des Glänzenden
@@ -931,7 +931,7 @@ a closed door
 eine geschlossene Tür
 %%%%
 a runed door
-eine verlaufene Tür
+eine runenverzierte Tür
 %%%%
 a sealed door
 eine versiegelte Tür
@@ -967,22 +967,22 @@ an unnaturally hard rock wall
 eine unnatürlich harte Felswand
 %%%%
 a translucent rock wall
-eine durchscheinende Felswand
+eine durchsichtige Felswand
 %%%%
 a translucent stone wall
-eine durchscheinende Steinwand
+eine durchsichtige Steinwand
 %%%%
 a translucent unnaturally hard rock wall
-eine durchscheinende, unnatürlich harte Felswand
+eine durchsichtige unnatürlich harte Felswand
 %%%%
 an iron grate
 ein Eisengitter
 %%%%
 an endless expanse of salt
-eine endlose weite salzfläche
+eine endlose Weite des Salzes
 %%%%
 an orcish idol
-ein orkisches Götzenbild
+ein orkisches Idol
 %%%%
 a granite statue
 eine Granitstatue
@@ -1006,7 +1006,7 @@ a mechanical trap
 eine mechanische Falle
 %%%%
 an arrow trap
-eine Pfeil-Falle
+eine Pfeilfalle
 %%%%
 a spear trap
 eine Speerfalle
@@ -1015,10 +1015,10 @@ a blade trap
 eine Klingenfalle
 %%%%
 a dart trap
-Pfeilfalle
+eine Wurfpfeilfalle
 %%%%
 a bolt trap
-Bolzenfalle
+eine Bolzenfalle
 %%%%
 a net trap
 eine Netzfalle
@@ -1027,7 +1027,7 @@ a pressure plate
 eine Druckplatte
 %%%%
 a dispersal trap
-Verteilungsfalle
+eine Zerstreuungsfalle
 %%%%
 a teleport trap
 eine Teleportfalle
@@ -1039,7 +1039,7 @@ a shadow trap
 eine Schattenfalle
 %%%%
 a dormant shadow trap
-eine schlafende Schattenfalle
+eine ruhende Schattenfalle
 %%%%
 an alarm trap
 eine Alarmfalle
@@ -1048,13 +1048,13 @@ a Zot trap
 eine Zot-Falle
 %%%%
 a passage of Golubria
-ein Durchgang von Golubria
+eine Passage von Golubria
 %%%%
 a shaft
 ein Schacht
 %%%%
 a web
-ein Netz
+eine Spinnwebe
 %%%%
 a shop
 ein Laden
@@ -1063,7 +1063,7 @@ an abandoned shop
 ein verlassener Laden
 %%%%
 an empty arch of ancient stone
-ein leeres Gewölbe aus uraltem Stein
+ein leerer Bogen aus uraltem Stein
 %%%%
 a detected shop or portal
 ein entdeckter Laden oder ein Portal
@@ -1081,7 +1081,7 @@ an escape hatch in the ceiling
 eine Fluchtluke in der Decke
 %%%%
 a labyrinth entrance
-ein Labyrinth-Eingang
+ein Eingang zum Labyrinth
 %%%%
 a gateway to the Iron City of Dis
 ein Tor zur Eisernen Stadt Dis
@@ -1099,10 +1099,10 @@ a gateway to Hell
 ein Tor zur Hölle
 %%%%
 a gateway back into the Dungeon
-ein Tor zurück in den Kerker
+ein Tor zurück in den Dungeon
 %%%%
 a one-way gate to the infinite horrors of the Abyss
-ein Einfahrtstor zu den unendlichen Schrecken des Abgrunds
+ein Einwegtor zu den unendlichen Schrecken des Abgrunds
 %%%%
 an exit through the horrors of the Abyss
 ein Ausgang durch die Schrecken des Abgrunds
@@ -1111,7 +1111,7 @@ a gateway leading out of the Abyss
 ein Tor, das aus dem Abgrund herausführt
 %%%%
 a one-way gate leading to the halls of Pandemonium
-ein Einwegtor, das zu den Hallen von Pandemonium führt
+ein Einwegtor, das in die Hallen des Pandämoniums führt
 %%%%
 a gate leading to another region of Pandemonium
 ein Tor, das in eine andere Region von Pandemonium führt
@@ -1132,13 +1132,13 @@ a gate leading to a distant place
 ein Tor, das zu einem weit entfernten Ort führt
 %%%%
 a gateway to a ziggurat
-ein Tor zu einer Ziggurat
+ein Tor zu einer Zikkurat
 %%%%
 a gateway to a bazaar
-ein Tor zu einem Bazar
+ein Tor zu einem Basar
 %%%%
 a portal to a secret trove of treasure
-ein Tor zu einer geheimen Fundgrube für Schätze
+ein Tor zu einer geheimen Fundgrube von Schätzen
 %%%%
 a glowing drain
 ein glühender Abfluss
@@ -1147,10 +1147,10 @@ a sand-covered staircase
 eine sandbedeckte Treppe
 %%%%
 a flagged portal
-ein geflaggtes Portal
+ein beflaggtes Portal
 %%%%
 a gate leading to a gauntlet
-ein tor, das zu einem spießrutenlauf führt
+ein Tor, das zu einem Spießrute führt
 %%%%
 a frozen archway
 ein gefrorener Torbogen
@@ -1183,16 +1183,16 @@ a staircase back to the Lair
 eine Treppe zurück zum Versteck
 %%%%
 a staircase to the Orcish Mines
-eine Treppe zu den Orcish Mines
+eine Treppe zu den Orkischen Minen
 %%%%
 a staircase back to the Dungeon
-eine Treppe zurück in den Kerker
+eine Treppe zurück in den Dungeon
 %%%%
 a staircase to the Dwarven Hall
 eine Treppe zur Zwergenhalle
 %%%%
 a staircase to the Enchanted Forest
-eine Treppe zum verzauberten Wald
+eine Treppe zum Verwunschenen Wald
 %%%%
 a staircase to the Hall of Blades
 eine Treppe zur Halle der Klingen
@@ -1201,10 +1201,10 @@ a staircase back to the Vaults
 eine Treppe zurück zu den Gewölben
 %%%%
 a staircase to the Lair
-eine Treppe in die Höhle
+eine Treppe zum Versteck
 %%%%
 a staircase to the Crypt
-eine Treppe in die Krypta
+eine Treppe zur Krypta
 %%%%
 a staircase to the Ecumenical Temple
 eine Treppe zum Ökumenischen Tempel
@@ -1222,10 +1222,10 @@ a staircase to the Tomb
 eine Treppe zur Gruft
 %%%%
 a staircase back to the Crypt
-eine Treppe zurück in die Krypta
+eine Treppe zurück zur Krypta
 %%%%
 a staircase to the Swamp
-eine Treppe in den Sumpf
+eine Treppe zum Sumpf
 %%%%
 a staircase to the Shoals
 eine Treppe zu den Untiefen
@@ -1234,7 +1234,7 @@ a hole to the Spider Nest
 ein Loch zum Spinnennest
 %%%%
 a crawl-hole back to the Lair
-ein Kriech-Loch zurück zum Versteck
+ein Krabbelloch zurück zum Versteck
 %%%%
 a staircase to the Depths
 eine Treppe zu den Tiefen
@@ -1252,7 +1252,7 @@ an ancient bone altar of Kikubaaqudgha
 ein uralter Knochenaltar von Kikubaaqudgha
 %%%%
 a basalt altar of Yredelemnul
-ein Basalt-Altar von Yredelemnul
+ein Basaltaltar von Yredelemnul
 %%%%
 a shimmering altar of Xom
 ein schimmernder Altar von Xom
@@ -1267,10 +1267,10 @@ a burning altar of Makhleb
 ein brennender Altar von Makhleb
 %%%%
 a shimmering blue altar of Sif Muna
-ein blau schimmernder Altar von Sif Muna
+ein schimmernder blauer Altar von Sif Muna
 %%%%
 a bloodstained altar of Trog
-ein blutbefleckter Altar von Trog
+ein blutverschmierter Altar von Trog
 %%%%
 a sparkling altar of Nemelex Xobeh
 ein funkelnder Altar von Nemelex Xobeh
@@ -1279,7 +1279,7 @@ a white marble altar of Elyvilon
 ein weißer Marmoraltar von Elyvilon
 %%%%
 a corrupted altar of Lugonu
-ein korrumpierter Altar von Lugonu
+ein verdorbener Altar von Lugonu
 %%%%
 a roughly hewn altar of Beogh
 ein grob behauener Altar von Beogh
@@ -1300,7 +1300,7 @@ a shadowy altar of Dithmenos
 ein schattenhafter Altar von Dithmenos
 %%%%
 an opulent altar of Gozag
-ein üppiger Altar von Gozag
+ein opulenter Altar von Gozag
 %%%%
 a stormy altar of Qazlal
 ein stürmischer Altar von Qazlal
@@ -1315,7 +1315,7 @@ an oddly glowing altar of Pakellas
 ein seltsam leuchtender Altar von Pakellas
 %%%%
 a hide-covered altar of Uskayaw
-ein versteckter Altar von Uskayaw
+ein fellbedeckter Altar von Uskayaw
 %%%%
 a hazy altar of Hepliaklqana
 ein dunstiger Altar von Hepliaklqana
@@ -1324,19 +1324,19 @@ an ornate altar of the Wu Jian Council
 ein verschnörkelter Altar des Wu-Jian-Rates
 %%%%
 a fountain of clear blue water
-ein Springbrunnen mit klarem, blauem Wasser
+ein Brunnen klaren blauen Wassers
 %%%%
 a fountain of sparkling water
-ein Springbrunnen mit sprudelndem Wasser
+ein Brunnen sprudelnden Wassers
 %%%%
 a fountain of blood
-eine Fontäne aus Blut
+ein Brunnen des Blutes
 %%%%
 a dry fountain
-ein trockener Springbrunnen
+ein trockener Brunnen
 %%%%
 a short-range portal
-ein Kurzstrecken-Portal
+ein Kurzstreckenportal
 %%%%
 a teleporter
 ein Teleporter
@@ -1348,10 +1348,10 @@ a transporter landing site
 ein Transporterlandeplatz
 %%%%
 a sealed passage leading up
-eine versiegelte Passage, die nach oben führt
+ein versiegelter Gang, der nach oben führt
 %%%%
 a sealed passage leading down
-ein versiegelter Durchgang, der nach unten führt
+ein versiegelter Gang, der nach unten führt
 %%%%
 a gateway leading deeper into the Abyss
 ein Tor, das tiefer in den Abgrund führt
