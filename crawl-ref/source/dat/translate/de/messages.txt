@@ -5486,7 +5486,7 @@ There is no level below you in this branch.
 
 %%%%
 "What level of %s? "
-Welche Stufe von %s?
+Welche Ebene von %s?
 %%%%
 That's not a valid depth.
 
@@ -5498,27 +5498,15 @@ That's not a valid depth.
 
 %%%%
 Cleared annotation.
-Annotation gelöscht.
+Bemerkung gelöscht.
 %%%%
 
 ##################
 # dgn-shoals.cc
 ##################
 %%%%
-shoals-tide-height
-
-%%%%
-shoals-tide-velocity
-
-%%%%
-shoals-tide-update-time
-
-%%%%
-" [depth %d]"
-
-%%%%
 The tide is released from %s call.
-Die Flut wird von%s Anruf befreit.
+Die Flut wird von {gen}%s Anruf befreit.
 %%%%
 Not in Shoals or no heightmap; tide not available.
 Nicht in Shoals oder ohne Höhenkarte; Gezeiten nicht verfügbar.
