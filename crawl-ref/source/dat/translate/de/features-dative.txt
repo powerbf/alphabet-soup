@@ -13,22 +13,22 @@
 der Reiseroute
 %%%%
 {dat}the closed door
-der geschlossene Tür
+der geschlossenen Tür
 %%%%
 {dat}the runed door
-der runenverzierte Tür
+der runenverzierten Tür
 %%%%
 {dat}the sealed door
-der versiegelte Tür
+der versiegelten Tür
 %%%%
 {dat}the sealed translucent door
-der versiegelte durchsichtige Tür
+der versiegelten durchsichtigen Tür
 %%%%
 {dat}the closed translucent door
-der geschlossene durchsichtige Tür
+der geschlossenen durchsichtigen Tür
 %%%%
 {dat}the runed translucent door
-der runenverzierte durchsichtige Tür
+der runenverzierten durchsichtigen Tür
 %%%%
 {dat}the tree
 dem Baum
@@ -43,37 +43,37 @@ der Kristallwand
 der Felswand
 %%%%
 {dat}the slime covered rock wall
-der schleimbedeckte Felswand
+der schleimbedeckten Felswand
 %%%%
 {dat}the stone wall
 der Steinwand
 %%%%
 {dat}the unnaturally hard rock wall
-der unnatürlich harte Felswand
+der unnatürlich harten Felswand
 %%%%
 {dat}the translucent rock wall
-der durchsichtige Felswand
+der durchsichtigen Felswand
 %%%%
 {dat}the translucent stone wall
-der durchsichtige Steinwand
+der durchsichtigen Steinwand
 %%%%
 {dat}the translucent unnaturally hard rock wall
-der durchsichtige unnatürlich harte Felswand
+der durchsichtigen unnatürlich harten Felswand
 %%%%
 {dat}the iron grate
 dem Eisengitter
 %%%%
 {dat}the open sea
-dem offene Meer
+dem offenen Meer
 %%%%
 {dat}the endless lava
-der endlose Lava
+der endlosen Lava
 %%%%
 {dat}the endless expanse of salt
-der endlose Weite des Salzes
+der endlosen Weite des Salzes
 %%%%
 {dat}the orcish idol
-dem orkische Idol
+dem orkischen Idol
 %%%%
 {dat}the granite statue
 der Granitstatue
@@ -85,28 +85,28 @@ dem Portal nach irgendwo
 der lava
 %%%%
 {dat}the deep water
-dem tiefe Wasser
+dem tiefen Wasser
 %%%%
 {dat}the shallow water
-dem seichte Wasser
+dem seichten Wasser
 %%%%
 {dat}the toxic bog
-dem giftige Moor
+dem giftigen Moor
 %%%%
 {dat}the floor
 dem Boden
 %%%%
 {dat}the collapsed entrance
-dem eingestürzte Eingang
+dem eingestürzten Eingang
 %%%%
 {dat}the open door
-der offene Tür
+der offenen Tür
 %%%%
 {dat}the open translucent door
-der offene durchsichtige Tür
+der offenen durchsichtigen Tür
 %%%%
 {dat}the mechanical trap
-der mechanische Falle
+der mechanischen Falle
 %%%%
 {dat}the arrow trap
 der Pfeilfalle
@@ -136,13 +136,13 @@ der Zerstreuungsfalle
 der Teleportfalle
 %%%%
 {dat}the permanent teleport trap
-der permanente Teleportfalle
+der permanenten Teleportfalle
 %%%%
 {dat}the shadow trap
 der Schattenfalle
 %%%%
 {dat}the dormant shadow trap
-der ruhende Schattenfalle
+der ruhenden Schattenfalle
 %%%%
 {dat}the alarm trap
 der Alarmfalle
@@ -163,13 +163,13 @@ der Spinnwebe
 dem Laden
 %%%%
 {dat}the abandoned shop
-dem verlassene Laden
+dem verlassenen Laden
 %%%%
 {dat}the empty arch of ancient stone
-dem leere Bogen aus uraltem Stein
+dem leeren Bogen aus uraltem Stein
 %%%%
 {dat}the detected shop or portal
-dem entdeckte Laden oder das Portal
+dem entdeckten Laden oder das Portal
 %%%%
 {dat}the stone staircase leading down
 der Steintreppe, die nach unten führt
@@ -244,34 +244,34 @@ dem Tor zu einem Basar
 dem Tor zu einer geheimen Fundgrube von Schätzen
 %%%%
 {dat}the glowing drain
-dem glühende Abfluss
+dem glühenden Abfluss
 %%%%
 {dat}the sand-covered staircase
-der sandbedeckte Treppe
+der sandbedeckten Treppe
 %%%%
 {dat}the flagged portal
-dem beflaggte Portal
+dem beflaggten Portal
 %%%%
 {dat}the gate leading to a gauntlet
 dem Tor, das zu einem Spießrute führt
 %%%%
 {dat}the frozen archway
-dem gefrorene Torbogen
+dem gefrorenen Torbogen
 %%%%
 {dat}the dark tunnel
-dem dunkle Tunnel
+dem dunklen Tunnel
 %%%%
 {dat}the magical portal
-dem magische Portal
+dem magischen Portal
 %%%%
 {dat}the ruined gateway
-dem zerstörte Tor
+dem zerstörten Tor
 %%%%
 {dat}the ice covered gate leading back out of this place
-dem eisbedeckte Tor, das wieder aus diesem Ort herausführt
+dem eisbedeckten Tor, das wieder aus diesem Ort herausführt
 %%%%
 {dat}the rocky tunnel leading out of this place
-dem felsige Tunnel, der aus diesem Ort herausführt
+dem felsigen Tunnel, der aus diesem Ort herausführt
 %%%%
 {dat}the portal leading out of this place
 dem Portal, das aus diesem Ort herausführt
@@ -349,82 +349,82 @@ dem entdeckte Altar
 dem glühende silberne Altar von Zin
 %%%%
 {dat}the glowing golden altar of the Shining One
-dem glühende goldene Altar des Glänzenden
+dem glühenden goldenen Altar des Glänzenden
 %%%%
 {dat}the ancient bone altar of Kikubaaqudgha
-dem uralte Knochenaltar von Kikubaaqudgha
+dem uralten Knochenaltar von Kikubaaqudgha
 %%%%
 {dat}the basalt altar of Yredelemnul
 dem Basaltaltar von Yredelemnul
 %%%%
 {dat}the shimmering altar of Xom
-dem schimmernde Altar von Xom
+dem schimmernden Altar von Xom
 %%%%
 {dat}the radiant altar of Vehumet
-dem strahlende Altar von Vehumet
+dem strahlenden Altar von Vehumet
 %%%%
 {dat}the iron altar of Okawaru
 dem Eisenaltar von Okawaru
 %%%%
 {dat}the burning altar of Makhleb
-dem brennende Altar von Makhleb
+dem brennenden Altar von Makhleb
 %%%%
 {dat}the shimmering blue altar of Sif Muna
-dem schimmernde blaue Altar von Sif Muna
+dem schimmernden blauen Altar von Sif Muna
 %%%%
 {dat}the bloodstained altar of Trog
-dem blutverschmierte Altar von Trog
+dem blutverschmierten Altar von Trog
 %%%%
 {dat}the sparkling altar of Nemelex Xobeh
-dem funkelnde Altar von Nemelex Xobeh
+dem funkelnden Altar von Nemelex Xobeh
 %%%%
 {dat}the white marble altar of Elyvilon
-dem weiße Marmoraltar von Elyvilon
+dem weißen Marmoraltar von Elyvilon
 %%%%
 {dat}the corrupted altar of Lugonu
-dem verdorbene Altar von Lugonu
+dem verdorbenen Altar von Lugonu
 %%%%
 {dat}the roughly hewn altar of Beogh
-dem grob behauene Altar von Beogh
+dem grob behauenen Altar von Beogh
 %%%%
 {dat}the viscous altar of Jiyva
-dem zähflüssige Altar von Jiyva
+dem zähflüssigen Altar von Jiyva
 %%%%
 {dat}the blossoming altar of Fedhas
-dem blühende Altar von Fedhas
+dem blühenden Altar von Fedhas
 %%%%
 {dat}the snail-covered altar of Cheibriados
-dem schneckenbedeckte Altar von Cheibriados
+dem schneckenbedeckten Altar von Cheibriados
 %%%%
 {dat}the broken altar of Ashenzari
-dem zerbrochene Altar von Ashenzari
+dem zerbrochenen Altar von Ashenzari
 %%%%
 {dat}the shadowy altar of Dithmenos
-dem schattenhafte Altar von Dithmenos
+dem schattenhaften Altar von Dithmenos
 %%%%
 {dat}the opulent altar of Gozag
-dem opulente Altar von Gozag
+dem opulenten Altar von Gozag
 %%%%
 {dat}the stormy altar of Qazlal
-dem stürmische Altar von Qazlal
+dem stürmischen Altar von Qazlal
 %%%%
 {dat}the sacrificial altar of Ru
 dem Opferaltar von Ru
 %%%%
 {dat}the faded altar of an unknown god
-dem verblichene Altar eines unbekannten Gottes
+dem verblichenen Altar eines unbekannten Gottes
 %%%%
 {dat}the oddly glowing altar of Pakellas
-dem seltsam leuchtende Altar von Pakellas
+dem seltsam leuchtenden Altar von Pakellas
 %%%%
 {dat}the hide-covered altar of Uskayaw
-dem fellbedeckte Altar von Uskayaw
+dem fellbedeckten Altar von Uskayaw
 %%%%
 {dat}the hazy altar of Hepliaklqana
-dem dunstige Altar von Hepliaklqana
+dem dunstigen Altar von Hepliaklqana
 %%%%
 {dat}the ornate altar of the Wu Jian Council
-dem verschnörkelte Altar des Wu-Jian-Rates
+dem verschnörkelten Altar des Wu-Jian-Rates
 %%%%
 {dat}the fountain of clear blue water
 dem Brunnen klaren blauen Wassers
@@ -451,10 +451,10 @@ dem Transporter
 dem Transporterlandeplatz
 %%%%
 {dat}the sealed passage leading up
-dem versiegelte Gang, der nach oben führt
+dem versiegelten Gang, der nach oben führt
 %%%%
 {dat}the sealed passage leading down
-dem versiegelte Gang, der nach unten führt
+dem versiegelten Gang, der nach unten führt
 %%%%
 {dat}the gateway leading deeper into the Abyss
 dem Tor, das tiefer in den Abgrund führt
@@ -468,22 +468,22 @@ dem Tor, das tiefer in den Abgrund führt
 einer Reiseroute
 %%%%
 {dat}a closed door
-einer geschlossene Tür
+einer geschlossenen Tür
 %%%%
 {dat}a runed door
-einer runenverzierte Tür
+einer runenverzierten Tür
 %%%%
 {dat}a sealed door
-einer versiegelte Tür
+einer versiegelten Tür
 %%%%
 {dat}a sealed translucent door
-einer versiegelte durchsichtige Tür
+einer versiegelten durchsichtigen Tür
 %%%%
 {dat}a closed translucent door
-einer geschlossene durchsichtige Tür
+einer geschlossenen durchsichtigen Tür
 %%%%
 {dat}a runed translucent door
-einer runenverzierte durchsichtige Tür
+einer runenverzierten durchsichtigen Tür
 %%%%
 {dat}a tree
 einem Baum
@@ -498,31 +498,31 @@ einer Kristallwand
 einer Felswand
 %%%%
 {dat}a slime covered rock wall
-einer schleimbedeckte Felswand
+einer schleimbedeckten Felswand
 %%%%
 {dat}a stone wall
 einer Steinwand
 %%%%
 {dat}an unnaturally hard rock wall
-einer unnatürlich harte Felswand
+einer unnatürlich harten Felswand
 %%%%
 {dat}a translucent rock wall
-einer durchsichtige Felswand
+einer durchsichtigen Felswand
 %%%%
 {dat}a translucent stone wall
-einer durchsichtige Steinwand
+einer durchsichtigen Steinwand
 %%%%
 {dat}a translucent unnaturally hard rock wall
-einer durchsichtige unnatürlich harte Felswand
+einer durchsichtigen unnatürlich harten Felswand
 %%%%
 {dat}an iron grate
 einem Eisengitter
 %%%%
 {dat}an endless expanse of salt
-einer endlose Weite des Salzes
+einer endlosen Weite des Salzes
 %%%%
 {dat}an orcish idol
-einem orkisches Idol
+einem orkischen Idol
 %%%%
 {dat}a granite statue
 einer Granitstatue
@@ -531,19 +531,19 @@ einer Granitstatue
 einem Portal nach irgendwo
 %%%%
 {dat}a toxic bog
-einem giftiges Moor
+einem giftigen Moor
 %%%%
 {dat}a collapsed entrance
-einem eingestürzter Eingang
+einem eingestürzten Eingang
 %%%%
 {dat}an open door
-einer offene Tür
+einer offenen Tür
 %%%%
 {dat}an open translucent door
-einer offene durchsichtige Tür
+einer offenen durchsichtigen Tür
 %%%%
 {dat}a mechanical trap
-einer mechanische Falle
+einer mechanischen Falle
 %%%%
 {dat}an arrow trap
 einer Pfeilfalle
@@ -573,13 +573,13 @@ einer Zerstreuungsfalle
 einer Teleportfalle
 %%%%
 {dat}a permanent teleport trap
-einer permanente Teleportfalle
+einer permanenten Teleportfalle
 %%%%
 {dat}a shadow trap
 einer Schattenfalle
 %%%%
 {dat}a dormant shadow trap
-einer ruhende Schattenfalle
+einer ruhenden Schattenfalle
 %%%%
 {dat}an alarm trap
 einer Alarmfalle
@@ -587,7 +587,7 @@ einer Alarmfalle
 {dat}a Zot trap
 einer Zot-Falle
 %%%%
-{dat}a passage of Golubria
+{dat}a Passage of Golubria
 einer Passage von Golubria
 %%%%
 {dat}a shaft
@@ -600,13 +600,13 @@ einer Spinnwebe
 einem Laden
 %%%%
 {dat}an abandoned shop
-einem verlassener Laden
+einem verlassenen Laden
 %%%%
 {dat}an empty arch of ancient stone
-einem leerer Bogen aus uraltem Stein
+einem leeren Bogen aus uraltem Stein
 %%%%
 {dat}a detected shop or portal
-einem entdeckter Laden oder ein Portal
+einem entdeckten Laden oder einem Portal
 %%%%
 {dat}a stone staircase leading down
 einer Steintreppe, die nach unten führt
@@ -681,34 +681,34 @@ einem Tor zu einem Basar
 einem Tor zu einer geheimen Fundgrube von Schätzen
 %%%%
 {dat}a glowing drain
-einem glühender Abfluss
+einem glühenden Abfluss
 %%%%
 {dat}a sand-covered staircase
-einer sandbedeckte Treppe
+einer sandbedeckten Treppe
 %%%%
 {dat}a flagged portal
-einem beflaggtes Portal
+einem beflaggten Portal
 %%%%
 {dat}a gate leading to a gauntlet
 einem Tor, das zu einem Spießrute führt
 %%%%
 {dat}a frozen archway
-einem gefrorener Torbogen
+einem gefrorenen Torbogen
 %%%%
 {dat}a dark tunnel
-einem dunkler Tunnel
+einem dunklen Tunnel
 %%%%
 {dat}a magical portal
-einem magisches Portal
+einem magischen Portal
 %%%%
 {dat}a ruined gateway
-einem zerstörtes Tor
+einem zerstörten Tor
 %%%%
 {dat}an ice covered gate leading back out of this place
-einem eisbedecktes Tor, das wieder aus diesem Ort herausführt
+einem eisbedeckten Tor, das wieder aus diesem Ort herausführt
 %%%%
 {dat}a rocky tunnel leading out of this place
-einem felsiger Tunnel, der aus diesem Ort herausführt
+einem felsigen Tunnel, der aus diesem Ort herausführt
 %%%%
 {dat}a portal leading out of this place
 einem Portal, das aus diesem Ort herausführt
@@ -780,88 +780,88 @@ einem Krabbelloch zurück zum Versteck
 einer Treppe zu den Tiefen
 %%%%
 {dat}a detected altar
-einem entdeckter Altar
+einem entdeckten Altar
 %%%%
 {dat}a glowing silver altar of Zin
-einem glühender silberner Altar von Zin
+einem glühenden silbernen Altar von Zin
 %%%%
 {dat}a glowing golden altar of the Shining One
-einem glühender goldener Altar des Glänzenden
+einem glühenden goldenen Altar des Glänzenden
 %%%%
 {dat}an ancient bone altar of Kikubaaqudgha
-einem uralter Knochenaltar von Kikubaaqudgha
+einem uralten Knochenaltar von Kikubaaqudgha
 %%%%
 {dat}a basalt altar of Yredelemnul
 einem Basaltaltar von Yredelemnul
 %%%%
 {dat}a shimmering altar of Xom
-einem schimmernder Altar von Xom
+einem schimmernden Altar von Xom
 %%%%
 {dat}a radiant altar of Vehumet
-einem strahlender Altar von Vehumet
+einem strahlenden Altar von Vehumet
 %%%%
 {dat}an iron altar of Okawaru
 einem Eisenaltar von Okawaru
 %%%%
 {dat}a burning altar of Makhleb
-einem brennender Altar von Makhleb
+einem brennenden Altar von Makhleb
 %%%%
 {dat}a shimmering blue altar of Sif Muna
-einem schimmernder blauer Altar von Sif Muna
+einem schimmernden blauen Altar von Sif Muna
 %%%%
 {dat}a bloodstained altar of Trog
-einem blutverschmierter Altar von Trog
+einem blutverschmierten Altar von Trog
 %%%%
 {dat}a sparkling altar of Nemelex Xobeh
-einem funkelnder Altar von Nemelex Xobeh
+einem funkelnden Altar von Nemelex Xobeh
 %%%%
 {dat}a white marble altar of Elyvilon
-einem weißer Marmoraltar von Elyvilon
+einem weißen Marmoraltar von Elyvilon
 %%%%
 {dat}a corrupted altar of Lugonu
-einem verdorbener Altar von Lugonu
+einem verdorbenen Altar von Lugonu
 %%%%
 {dat}a roughly hewn altar of Beogh
-einem grob behauener Altar von Beogh
+einem grob behauenen Altar von Beogh
 %%%%
 {dat}a viscous altar of Jiyva
-einem zähflüssiger Altar von Jiyva
+einem zähflüssigen Altar von Jiyva
 %%%%
 {dat}a blossoming altar of Fedhas
-einem blühender Altar von Fedhas
+einem blühenden Altar von Fedhas
 %%%%
 {dat}a snail-covered altar of Cheibriados
-einem schneckenbedeckter Altar von Cheibriados
+einem schneckenbedeckten Altar von Cheibriados
 %%%%
 {dat}a broken altar of Ashenzari
-einem zerbrochener Altar von Ashenzari
+einem zerbrochenen Altar von Ashenzari
 %%%%
 {dat}a shadowy altar of Dithmenos
-einem schattenhafter Altar von Dithmenos
+einem schattenhaften Altar von Dithmenos
 %%%%
 {dat}an opulent altar of Gozag
-einem opulenter Altar von Gozag
+einem opulenten Altar von Gozag
 %%%%
 {dat}a stormy altar of Qazlal
-einem stürmischer Altar von Qazlal
+einem stürmischen Altar von Qazlal
 %%%%
 {dat}a sacrificial altar of Ru
 einem Opferaltar von Ru
 %%%%
 {dat}a faded altar of an unknown god
-einem verblichener Altar eines unbekannten Gottes
+einem verblichenen Altar eines unbekannten Gottes
 %%%%
 {dat}an oddly glowing altar of Pakellas
-einem seltsam leuchtender Altar von Pakellas
+einem seltsam leuchtenden Altar von Pakellas
 %%%%
 {dat}a hide-covered altar of Uskayaw
-einem fellbedeckter Altar von Uskayaw
+einem fellbedeckten Altar von Uskayaw
 %%%%
 {dat}a hazy altar of Hepliaklqana
-einem dunstiger Altar von Hepliaklqana
+einem dunstigen Altar von Hepliaklqana
 %%%%
 {dat}an ornate altar of the Wu Jian Council
-einem verschnörkelter Altar des Wu-Jian-Rates
+einem verschnörkelten Altar des Wu-Jian-Rates
 %%%%
 {dat}a fountain of clear blue water
 einem Brunnen klaren blauen Wassers
@@ -873,7 +873,7 @@ einem Brunnen sprudelnden Wassers
 einem Brunnen des Blutes
 %%%%
 {dat}a dry fountain
-einem trockener Brunnen
+einem trockenen Brunnen
 %%%%
 {dat}a short-range portal
 einem Kurzstreckenportal
@@ -888,10 +888,10 @@ einem Transporter
 einem Transporterlandeplatz
 %%%%
 {dat}a sealed passage leading up
-einem versiegelter Gang, der nach oben führt
+einem versiegelten Gang, der nach oben führt
 %%%%
 {dat}a sealed passage leading down
-einem versiegelter Gang, der nach unten führt
+einem versiegelten Gang, der nach unten führt
 %%%%
 {dat}a gateway leading deeper into the Abyss
 einem Tor, das tiefer in den Abgrund führt
