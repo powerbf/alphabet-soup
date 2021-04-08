@@ -47,7 +47,8 @@ static string _format_utf8_string(const string& fmt, const string& arg)
 
     // if there are width/precision args, then make_stringf won't handle it correctly
     // (it will count bytes), so we have to handle it in a unicode-aware way
-    int width = 0;
+    int width = -1;
+    int precision = -1;
     bool right_justify = true; // default for %s
 
     for (size_t i = 1; i < fmt.length(); i++)
@@ -55,14 +56,28 @@ static string _format_utf8_string(const string& fmt, const string& arg)
         char ch = fmt[i];
         if (ch == '-')
             right_justify = false;
+        else if (ch == '.')
+            precision = 0;
         else if (ch >= '0' && ch <= '9')
-            width = (width * 10) + (int)(ch - '0');
+            if (precision >= 0)
+                precision = (precision * 10) + (int)(ch - '0');
+            else
+            {
+                if (width < 0)
+                    width = (int)(ch - '0');
+                else
+                    width = (width * 10) + (int)(ch - '0');
+            }
     }
 
-    if (width == 0)
-        return arg;
-    else
-        return chop_string(arg, width, true, right_justify);
+    string result = arg;
+    if (precision >= 0)
+        result = chop_string(result, precision, false);
+
+    if (width >= 0)
+        result = chop_string(result, width, true, right_justify);
+
+    return result;
 }
 
 // is this char a printf typespec (i.e. the end of %<something><char>)?
