@@ -694,7 +694,7 @@ static coord_def _full_describe_menu(vector<monster_info> const &list_mons,
                 desc << "(" << relpos.x << ", " << -relpos.y << ") "; // noextract
             }
 
-            desc << feature_description_at(c, false, DESC_A);
+            desc << localise(feature_description_at(c, false, DESC_A));
             if (is_unknown_stair(c) || is_unknown_transporter(c))
                 desc << localise(" (not visited)");
             FeatureMenuEntry *me = new FeatureMenuEntry(desc.str(), c, hotkey);
@@ -3142,7 +3142,7 @@ void describe_floor()
 {
     dungeon_feature_type grid = env.map_knowledge(you.pos()).feat();
 
-    const char* prefix = "There is ";
+    string msg = "There is %s here.";
     string feat;
 
     switch (grid)
@@ -3151,7 +3151,7 @@ void describe_floor()
         return;
 
     case DNGN_ENTER_SHOP:
-        prefix = "There is an entrance to ";
+        msg = "There is an entrance to %s here.";
         break;
 
     default:
@@ -3168,7 +3168,7 @@ void describe_floor()
     if (feat_is_water(grid) || feat_is_lava(grid))
         return;
 
-    mprf(channel, "%s%s here.", prefix, feat.c_str());
+    mprf(channel, msg.c_str(), feat.c_str());
     if (grid == DNGN_ENTER_GAUNTLET)
         mprf(MSGCH_EXAMINE, "Beware, the minotaur awaits!");
 }
@@ -3288,17 +3288,17 @@ string feature_description_at(const coord_def& where, bool covering,
             if (grid == DNGN_OPEN_DOOR)
                 desc += "open ";
             else if (grid == DNGN_CLOSED_CLEAR_DOOR)
-                desc += "closed translucent ";
+                desc += "closed translucent "; // noextract
             else if (grid == DNGN_OPEN_CLEAR_DOOR)
-                desc += "open translucent ";
+                desc += "open translucent "; // noextract
             else if (grid == DNGN_RUNED_DOOR)
                 desc += "runed ";
             else if (grid == DNGN_RUNED_CLEAR_DOOR)
-                desc += "runed translucent ";
+                desc += "runed translucent "; // noextract
             else if (grid == DNGN_SEALED_DOOR)
                 desc += "sealed ";
             else if (grid == DNGN_SEALED_CLEAR_DOOR)
-                desc += "sealed translucent ";
+                desc += "sealed translucent "; // noextract
             else
                 desc += "closed ";
         }
@@ -3977,7 +3977,7 @@ static void _describe_cell(const coord_def& where, bool in_range)
     bool cloud_described = _print_cloud_desc(where);
     bool item_described = _print_item_desc(where);
 
-    string feature_desc = feature_description_at(where, true);
+    string feature_desc = localise(feature_description_at(where, true));
     const bool bloody = is_bloodcovered(where);
     if (crawl_state.game_is_hints() && hints_pos_interesting(where.x, where.y))
     {
@@ -3986,7 +3986,7 @@ static void _describe_cell(const coord_def& where, bool in_range)
 #else
         feature_desc += localise(" (Press <w>v</w> for more information.)");
 #endif
-        mpr(feature_desc);
+        mpr_nolocalise(feature_desc);
     }
     else
     {
@@ -4013,7 +4013,7 @@ static void _describe_cell(const coord_def& where, bool in_range)
         if (feat == DNGN_FLOOR || feat_is_water(feat))
             channel = MSGCH_EXAMINE_FILTER;
 
-        mprf(channel, "%s", feature_desc.c_str());
+        mpr_nolocalise(channel, feature_desc);
     }
 #endif
 }

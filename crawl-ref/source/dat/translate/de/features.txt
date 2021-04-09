@@ -17,23 +17,17 @@ Erkundungshorizont
 travel trail
 Reiseroute
 %%%%
-closed door
-geschlossene Tür
+door
+Tür
 %%%%
-runed door
-runenverzierte Tür
+%sdoor
+%sTür
 %%%%
-sealed door
-versiegelte Tür
+gate
+Tor
 %%%%
-sealed translucent door
-versiegelte durchsichtige Tür
-%%%%
-closed translucent door
-geschlossene durchsichtige Tür
-%%%%
-runed translucent door
-runenverzierte durchsichtige Tür
+%sgate
+{adj-es}%sTor
 %%%%
 tree
 Baum
@@ -103,12 +97,6 @@ Boden
 %%%%
 collapsed entrance
 eingestürzter Eingang
-%%%%
-open door
-offene Tür
-%%%%
-open translucent door
-offene durchsichtige Tür
 %%%%
 mechanical trap
 mechanische Falle
@@ -472,23 +460,17 @@ Tor, das tiefer in den Abgrund führt
 the travel trail
 die Reiseroute
 %%%%
-the closed door
-die geschlossene Tür
+the door
+die Tür
 %%%%
-the runed door
-die runenverzierte Tür
+the %sdoor
+die %sTür
 %%%%
-the sealed door
-die versiegelte Tür
+the gate
+das Tor
 %%%%
-the sealed translucent door
-die versiegelte durchsichtige Tür
-%%%%
-the closed translucent door
-die geschlossene durchsichtige Tür
-%%%%
-the runed translucent door
-die runenverzierte durchsichtige Tür
+the %sgate
+das %sTor
 %%%%
 the tree
 der Baum
@@ -558,12 +540,6 @@ der Boden
 %%%%
 the collapsed entrance
 der eingestürzte Eingang
-%%%%
-the open door
-die offene Tür
-%%%%
-the open translucent door
-die offene durchsichtige Tür
 %%%%
 the mechanical trap
 die mechanische Falle
@@ -927,23 +903,17 @@ das Tor, das tiefer in den Abgrund führt
 a travel trail
 eine Reiseroute
 %%%%
-a closed door
-eine geschlossene Tür
+a door
+eine Tür
 %%%%
-a runed door
-eine runenverzierte Tür
+a %sdoor
+eine %sTür
 %%%%
-a sealed door
-eine versiegelte Tür
+a gate
+ein Tor
 %%%%
-a sealed translucent door
-eine versiegelte durchsichtige Tür
-%%%%
-a closed translucent door
-eine geschlossene durchsichtige Tür
-%%%%
-a runed translucent door
-eine runenverzierte durchsichtige Tür
+a %sgate
+ein {adj-es}%sTor
 %%%%
 a tree
 ein Baum
@@ -1004,12 +974,6 @@ ein giftiges Moor
 %%%%
 a collapsed entrance
 ein eingestürzter Eingang
-%%%%
-an open door
-eine offene Tür
-%%%%
-an open translucent door
-eine offene durchsichtige Tür
 %%%%
 a mechanical trap
 eine mechanische Falle

@@ -12,23 +12,17 @@
 {dat}the travel trail
 der Reiseroute
 %%%%
-{dat}the closed door
-der geschlossenen Tür
+{dat}the door
+der Tür
 %%%%
-{dat}the runed door
-der runenverzierten Tür
+{dat}the %sdoor
+der {adj-en}%sTür
 %%%%
-{dat}the sealed door
-der versiegelten Tür
+{dat}the gate
+dem Tor
 %%%%
-{dat}the sealed translucent door
-der versiegelten durchsichtigen Tür
-%%%%
-{dat}the closed translucent door
-der geschlossenen durchsichtigen Tür
-%%%%
-{dat}the runed translucent door
-der runenverzierten durchsichtigen Tür
+{dat}the %sgate
+dem {adj-en}%sTor
 %%%%
 {dat}the tree
 dem Baum
@@ -98,12 +92,6 @@ dem Boden
 %%%%
 {dat}the collapsed entrance
 dem eingestürzten Eingang
-%%%%
-{dat}the open door
-der offenen Tür
-%%%%
-{dat}the open translucent door
-der offenen durchsichtigen Tür
 %%%%
 {dat}the mechanical trap
 der mechanischen Falle
@@ -467,23 +455,17 @@ dem Tor, das tiefer in den Abgrund führt
 {dat}a travel trail
 einer Reiseroute
 %%%%
-{dat}a closed door
-einer geschlossenen Tür
+{dat}a door
+einer Tür
 %%%%
-{dat}a runed door
-einer runenverzierten Tür
+{dat}a %sdoor
+einer {adj-en}%sTür
 %%%%
-{dat}a sealed door
-einer versiegelten Tür
+{dat}a gate
+einem Tor
 %%%%
-{dat}a sealed translucent door
-einer versiegelten durchsichtigen Tür
-%%%%
-{dat}a closed translucent door
-einer geschlossenen durchsichtigen Tür
-%%%%
-{dat}a runed translucent door
-einer runenverzierten durchsichtigen Tür
+{dat}a %sgate
+einem {adj-en}%sTor
 %%%%
 {dat}a tree
 einem Baum
@@ -535,12 +517,6 @@ einem giftigen Moor
 %%%%
 {dat}a collapsed entrance
 einem eingestürzten Eingang
-%%%%
-{dat}an open door
-einer offenen Tür
-%%%%
-{dat}an open translucent door
-einer offenen durchsichtigen Tür
 %%%%
 {dat}a mechanical trap
 einer mechanischen Falle
