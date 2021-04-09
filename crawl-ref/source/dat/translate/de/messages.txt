@@ -5519,25 +5519,25 @@ Nicht in Shoals oder ohne Höhenkarte; Gezeiten nicht verfügbar.
 # directn.cc
 ##################
 %%%%
-", f/p - "
+, f/p - %s
 
 %%%%
-", f - "
+, f - %s
 
 %%%%
-", p - "
+, p - %s
 
 %%%%
 Press: ? - help
 
 %%%%
-, v - describe
+v - describe
 
 %%%%
-, . - travel
+. - travel
 
 %%%%
-, g - get item
+g - get item
 
 %%%%
 Dir - look around, f - activate
@@ -5549,43 +5549,37 @@ Shift-Dir - straight line
 Dir - move target
 
 %%%%
+Visible Monsters
+
+%%%%
+/Items
+
+%%%%
+Visible Items
+
+%%%%
+/Features
+
+%%%%
+Visible Features
+
+%%%%
+" (select to examine)"
+
+%%%%
+" (select to examine, '!' to %s):"
+
+%%%%
+" (select to %s, '!' to examine):"
+
+%%%%
 Items
 
 %%%%
 Features
 
 %%%%
-"Visible "
-
-%%%%
-" (select to examine)"
-
-%%%%
-" (select to examine, '!' to "
-
-%%%%
-):
-
-%%%%
-" (select to "
-
-%%%%
-, '!' to examine):
-
-%%%%
-(<
-
-%%%%
-<<
-
-%%%%
-">) "
-
-%%%%
 " (not visited)"
-
-%%%%
-description
 
 %%%%
 stair
@@ -5601,7 +5595,7 @@ target/travel
 
 %%%%
 Here
-
+Hier
 %%%%
 There's something in the way.
 Da ist etwas im Weg.
@@ -5613,10 +5607,10 @@ That would be overly suicidal.
 Das wäre übermäßig selbstmörderisch.
 %%%%
 Really target yourself?
-
+Wirklich auf Euch selbst zielen?
 %%%%
 Sorry, you can't target yourself.
-Entschuldigung, Ihr könnt Euch nicht selbst ins Visier nehmen.
+Sorry, Ihr könnt Euch selbst nicht zielen.
 %%%%
 Are you sure you want to fizzle?
 
@@ -5648,20 +5642,17 @@ silenced
 Disturbance
 
 %%%%
-%s: <lightgrey>%s</lightgrey>
-%s: <lightgrey>%s</lightgrey>
-%%%%
 Look
-
+Gucken
 %%%%
 Aim
-
+Zielen
 %%%%
 <cyan>Item here:</cyan> %s.
-
+<cyan>Gegenstand hier:</cyan> %s.
 %%%%
 <cyan>Items here: </cyan> %s.
-
+<cyan>Gegenstände hier: </cyan> %s.
 %%%%
 This spell doesn't need a beam path.
 Dieser Zauber braucht keinen Strahlengang.
@@ -5670,7 +5661,7 @@ Your target is gone.
 Euer Ziel ist weg.
 %%%%
 Brought monster down to 1 HP.
-Monster auf 1 HP gesenkt.
+Monster auf 1 TP gesenkt.
 %%%%
 There are no valid targets to list.
 
@@ -5691,13 +5682,7 @@ Reduced exclusion size to a single square.
 Ausschlussgröße auf ein einzelnes Quadrat reduziert.
 %%%%
 [unseen terrain]
-
-%%%%
-.\n
-
-%%%%
-"It is "
-
+[unsichtbares Terrain]
 %%%%
 What do you want to examine?
 
@@ -5802,6 +5787,9 @@ appear
 
 %%%%
 resting
+
+%%%%
+.\n
 
 %%%%
 " fleeing.\n"
@@ -5921,26 +5909,26 @@ Es gibt hier eine seltsame Störung im Wasser.
 There is a strange disturbance in the cloud here.
 Hier gibt es eine seltsame Störung in der Wolke.
 %%%%
-%s %s out of range.
-%s%s außerhalb des Bereichs.
+This monster is out of range.
+Dieses Monster ist außer Reichweite.
 %%%%
 (<w>Right-click</w> for more information.)
-
+(<w>Recht-Klicken</w> für mehre Informationen.)
 %%%%
 (Press <w>v</w> for more information.)
-
+(<w>v</w> drücken für mehre Informationen.)
 %%%%
 " (<w>Right-click</w> for more information.)"
-
+" (<w>Recht-Klicken</w> für mehre Informationen.)"
 %%%%
 " (Press <w>v</w> for more information.)"
-
+" (<w>v</w> drücken für mehre Informationen.)"
 %%%%
 " (Right-click for more information.)"
-
+" (Recht-Klicken für mehre Informationen.)"
 %%%%
 " (Press 'v' for more information.)"
-
+" ('v' drücken für mehre Informationen.)"
 %%%%
 
 ##################
@@ -7237,6 +7225,9 @@ error
 
 %%%%
 Fatal error:\n\n<lightred>
+
+%%%%
+<<
 
 %%%%
 </lightred>\n\n<cyan>Hit any key to exit, ctrl-p for the full log.</cyan>
@@ -16899,6 +16890,12 @@ The Serpent of Hell (
 
 %%%%
 A shop
+
+%%%%
+(<
+
+%%%%
+">) "
 
 %%%%
 This entry is an exact match for '
