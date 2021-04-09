@@ -5690,14 +5690,11 @@ What do you want to examine?
 What do you want to remember?
 
 %%%%
-"There is "
+There is %s here.
 
 %%%%
-"There is an entrance to "
+There is an entrance to %s here.
 
-%%%%
-%s%s here.
-%s%s hier.
 %%%%
 Beware, the minotaur awaits!
 Vorsicht, der Minotaurus wartet!
@@ -5709,27 +5706,6 @@ wall of the weird stuff which makes up Pandemonium
 
 %%%%
 spattered with blood
-
-%%%%
-"open "
-
-%%%%
-"closed translucent "
-
-%%%%
-"open translucent "
-
-%%%%
-"runed translucent "
-
-%%%%
-"sealed "
-
-%%%%
-"sealed translucent "
-
-%%%%
-"closed "
 
 %%%%
 UNAMED PORTAL VAULT ENTRY
@@ -7865,9 +7841,6 @@ exclusion not up-to-date: e (%d,%d) p (%d,%d)
 Ausschluss nicht aktuell: e (%d,%d) p (%d,%d)
 %%%%
 " (detected)"
-
-%%%%
-door
 
 %%%%
 upstairs
@@ -33054,6 +33027,9 @@ Welche Richtung?
 # target.cc
 ##################
 %%%%
+"There is "
+
+%%%%
 " there."
 
 %%%%
@@ -33155,9 +33131,6 @@ You cannot grow anything here.
 
 %%%%
 buggy door
-
-%%%%
-gate
 
 %%%%
 "huge "

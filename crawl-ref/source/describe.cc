@@ -2432,7 +2432,7 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
     strip_suffix(db_name, " (summoned)");
     string long_desc = getLongDescription(db_name);
 
-    inf.title = uppercase_first(desc);
+    inf.title = uppercase_first(localise(desc));
     if (!ends_with(desc, ".") && !ends_with(desc, "!")
         && !ends_with(desc, "?"))
     {

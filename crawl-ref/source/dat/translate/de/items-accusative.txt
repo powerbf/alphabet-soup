@@ -20,9 +20,6 @@
 "{adj-en}enchanted "
 "verzauberten "
 %%%%
-"{adj-en}runed "
-"runenbesetzten "
-%%%%
 "{adj-en}glowing "
 "glühenden "
 %%%%
@@ -503,9 +500,6 @@ einen {adj-en}%sMondsteinring
 %%%%
 "{adj-en}small "
 "kleinen "
-%%%%
-"{adj-en}large "
-"großen "
 %%%%
 "{adj-en}twisted "
 "verdrehten "

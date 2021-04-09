@@ -72,9 +72,6 @@ Rune
 "enchanted "
 "verzauberte "
 %%%%
-"runed "
-"runenbesetzte "
-%%%%
 "glowing "
 "glühende "
 %%%%
@@ -90,9 +87,6 @@ Rune
 "{adj-er}enchanted "
 "verzauberter "
 %%%%
-"{adj-er}runed "
-"runenbesetzter "
-%%%%
 "{adj-er}glowing "
 "glühender "
 %%%%
@@ -107,9 +101,6 @@ Rune
 %%%%
 "{adj-es}enchanted "
 "verzaubertes "
-%%%%
-"{adj-es}runed "
-"runenbesetztes "
 %%%%
 "{adj-es}glowing "
 "glühendes "
@@ -1517,9 +1508,6 @@ ein {adj-er}%sMondsteinring
 "{adj-er}small "
 "kleiner "
 %%%%
-"{adj-er}large "
-"großer "
-%%%%
 "{adj-er}twisted "
 "verdrehter "
 %%%%
@@ -1792,9 +1780,6 @@ ein {adj-es}%sBeryllamulett
 %%%%
 "{adj-es}small "
 "kleines "
-%%%%
-"{adj-es}large "
-"großes "
 %%%%
 "{adj-es}twisted "
 "verdrehtes "
