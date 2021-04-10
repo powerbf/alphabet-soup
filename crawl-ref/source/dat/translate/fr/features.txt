@@ -9,7 +9,7 @@
 ################################
 %%%%
 unseen
-
+hors de la vue
 %%%%
 explore horizon
 
@@ -17,17 +17,19 @@ explore horizon
 travel trail
 
 %%%%
-door
-{f}porte
-%%%%
 %sdoor
 {f}%sporte%s
 %%%%
-gate
-{m}portail
+# make sure translucide is first postnominal adjective
+%stranslucent door
+{f}%sporte translucide%s
 %%%%
 %sgate
 {m}%sportail%s
+%%%%
+# make sure translucide is first postnominal adjective
+%stranslucent gate
+{m}%sportail translucide%s
 %%%%
 tree
 
@@ -460,17 +462,19 @@ gateway leading deeper into the Abyss
 the travel trail
 
 %%%%
-the door
-
-%%%%
 the %sdoor
-
+{f}la %sporte%s
 %%%%
-the gate
-
+# make sure translucide is first postnominal adjective
+the %stranslucent door
+{f}la %sporte translucide%s
 %%%%
 the %sgate
-
+{m}le %sportail%s
+%%%%
+# make sure translucide is first postnominal adjective
+the %stranslucent gate
+{m}le %sportail translucide%s
 %%%%
 the tree
 
@@ -903,17 +907,19 @@ the gateway leading deeper into the Abyss
 a travel trail
 
 %%%%
-a door
-
-%%%%
 a %sdoor
-
+{f}une %sporte%s
 %%%%
-a gate
-
+# make sure translucide is first postnominal adjective
+a %stranslucent door
+{f}une %sporte translucide%s
 %%%%
 a %sgate
-
+{m}un %sportail%s
+%%%%
+# make sure translucide is first postnominal adjective
+a %stranslucent gate
+{m}un %sportail translucide%s
 %%%%
 a tree
 
