@@ -59,6 +59,9 @@ int main()
     msg = uppercase_first(msg);
     show_result(msg, "Eine graue Kuh ist glücklich.");
 
+    msg = localise("large closed door, spattered with blood");
+    show_result(msg, "große geschlossene Tür, mit Blut bespritzt");
+
     // test with @foo@ style placeholders
 
     map<string, string> params;
