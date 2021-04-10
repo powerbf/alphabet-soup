@@ -587,10 +587,9 @@ static string _insert_adjectives(const string& s, const vector<string>& adjs)
         return s;
 
     // get context
-    string context;
-    string result = _strip_context(s, pos, context);
+    string result = _strip_context(s, pos, _context);
 
-    return _insert_adjectives(context, result, adjs);
+    return _insert_adjectives(_context, result, adjs);
 }
 
 // check if string is actually a list of things
@@ -915,12 +914,25 @@ static string _localise_item_name(const string& context, const string& item)
                     }
                 }
                 // localise adjectives
-                string adjectives;
+                string prefix_adjs;
+                string postfix_adjs;
                 for (size_t k = 0; k < adjs; k++)
                 {
-                    adjectives += cxlate(new_context, words[k] + " ");
+                    string adj = cxlate(new_context, words[k] + " ");
+                    if (!adj.empty() && adj[0] == ' ')
+                        postfix_adjs += adj;
+                    else
+                        prefix_adjs += adj;
                 }
-                result = replace_first(result, "%s", adjectives);
+                if (count_occurrences(result, "%s") == 1)
+                {
+                    result = replace_first(result, "%s", prefix_adjs + postfix_adjs);
+                }
+                else
+                {
+                    result = replace_first(result, "%s", prefix_adjs);
+                    result = replace_first(result, "%s", postfix_adjs);
+                }
             }
 
             return result;
@@ -945,6 +957,8 @@ static string _localise_list(const string& context, const string& s)
     list<string> annotations;
     string value = _strip_annotations(s, annotations);
 
+    _context = context;
+
     std::vector<string>::iterator it;
     for (it = separators.begin(); it != separators.end(); ++it)
     {
@@ -957,10 +971,10 @@ static string _localise_list(const string& context, const string& s)
             // restore annotations
             tokens[1] = _add_annotations(tokens[1], annotations);
 
-            sep = cxlate(context, sep);
+            sep = cxlate(_context, sep);
             // the tokens could be lists themselves
-            string tok0 = _localise_string(context, tokens[0]);
-            string tok1 = _localise_string(context, tokens[1]);
+            string tok0 = _localise_string(_context, tokens[0]);
+            string tok1 = _localise_string(_context, tokens[1]);
             return tok0 + sep + tok1;
         }
     }
