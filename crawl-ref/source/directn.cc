@@ -40,6 +40,7 @@
 #include "macro.h"
 #include "mapmark.h"
 #include "message.h"
+#include "message-util.h"
 #include "misc.h"
 #include "mon-death.h"
 #include "mon-tentacle.h"
@@ -618,11 +619,11 @@ static coord_def _full_describe_menu(vector<monster_info> const &list_mons,
 
             string str = get_monster_equipment_desc(mi, DESC_FULL, DESC_A, true);
             if (mi.dam != MDAM_OKAY)
-                str += localise(", ") + mi.damage_desc();
+                str += localise(", ") + localise(mi.damage_desc());
 
             string consinfo = mi.constriction_description();
             if (!consinfo.empty())
-                str += localise(", ") + consinfo;
+                str += localise(", ") + localise(consinfo);
 
 #ifndef USE_TILE_LOCAL
             // Wraparound if the description is longer than allowed.
@@ -2501,7 +2502,7 @@ void get_square_desc(const coord_def &c, describe_info &inf)
         if (!constrictions.empty())
         {
             // i18n: TODO: Handle this properly
-            desc += localise("It is %s.", constrictions);
+            desc += localise("This monster is %s.", constrictions);
             desc += "\n";
         }
         desc += _get_monster_desc(*mi);
@@ -3350,7 +3351,7 @@ string feature_description_at(const coord_def& where, bool covering,
         desc += grid == env.grid(where) ? raw_feature_description(where)
                                    : _base_feature_desc(grid, trap);
         if (is_temp_terrain(where))
-            desc += " (summoned)";
+            desc += string(" (") + "summoned" + ")";
         desc += covering_description;
         return thing_do_grammar(dtype, desc);
     }
@@ -3407,17 +3408,16 @@ static string _describe_monster_weapon(const monster_info& mi, bool ident)
         return desc;
 
     if (mi.type == MONS_PANDEMONIUM_LORD)
-        desc += " armed with ";
+        desc += localise(" armed with %s", name1);
     else if (mi.type == MONS_DANCING_WEAPON)
-        desc += " ";
+        desc += localise(" ") + localise(name1);
     else
-        desc += " wielding ";
-    desc += name1;
+        desc += localise(" wielding %s", name1);
 
     if (!name2.empty())
     {
-        desc += " and ";
-        desc += name2;
+        desc += localise(" and ");
+        desc += localise(name2);
     }
 
     return desc;
@@ -3444,13 +3444,9 @@ static string _mon_enchantments_string(const monster_info& mi)
 
     if (!enchant_descriptors.empty())
     {
-        return uppercase_first(mi.pronoun(PRONOUN_SUBJECTIVE))
-            + " "
-            + conjugate_verb("are", mi.pronoun_plurality())
-            + " "
-            + comma_separated_line(enchant_descriptors.begin(),
-                                   enchant_descriptors.end())
-            + ".";
+        return localise("This monster is %s.",
+                        comma_separated_line(enchant_descriptors.begin(),
+                                             enchant_descriptors.end()));
     }
     else
         return "";
@@ -3463,12 +3459,12 @@ static vector<string> _get_monster_behaviour_vector(const monster_info& mi)
     if ((mi.is(MB_SLEEPING) || mi.is(MB_DORMANT)))
     {
         if (mi.is(MB_CONFUSED))
-            descs.emplace_back("sleepwalking");
+            descs.emplace_back(localise("sleepwalking"));
         else if (mons_class_flag(mi.type, M_CONFUSED))
-            descs.emplace_back("drifting");
+            descs.emplace_back(localise("drifting"));
     }
     else if (mi.attitude == ATT_HOSTILE && (mi.is(MB_UNAWARE) || mi.is(MB_WANDERING)))
-        descs.emplace_back("hasn't noticed you");
+        descs.emplace_back(localise("hasn't noticed you"));
 
     return descs;
 }
@@ -3483,38 +3479,38 @@ static vector<string> _get_monster_desc_vector(const monster_info& mi)
     if (you.duration[DUR_CONFUSING_TOUCH])
     {
         const int pow = you.props["confusing touch power"].get_int();
-        descs.emplace_back(make_stringf("chance to confuse on hit: %d%%",
-                                        hex_success_chance(mi.willpower(),
+        descs.emplace_back(localise("chance to confuse on hit: %d%%",
+                                    hex_success_chance(mi.willpower(),
                                                            pow, 100)));
     }
     else if (you.form == transformation::fungus
              && !mons_is_unbreathing(mi.type))
     {
-        descs.emplace_back(make_stringf("chance to confuse on hit: %d%%",
-                                        melee_confuse_chance(mi.hd)));
+        descs.emplace_back(localise("chance to confuse on hit: %d%%",
+                                    melee_confuse_chance(mi.hd)));
     }
 
     if (mi.attitude == ATT_FRIENDLY)
-        descs.emplace_back("friendly");
+        descs.emplace_back(localise("friendly"));
     else if (mi.attitude == ATT_GOOD_NEUTRAL)
-        descs.emplace_back("peaceful");
+        descs.emplace_back(localise("peaceful"));
     else if (mi.attitude != ATT_HOSTILE && !mi.is(MB_INSANE))
     {
         // don't differentiate between permanent or not
-        descs.emplace_back("indifferent");
+        descs.emplace_back(localise("indifferent"));
     }
 
     if (mi.is(MB_HALOED))
-        descs.emplace_back("haloed");
+        descs.emplace_back(localise("haloed"));
 
     if (mi.is(MB_UMBRAED))
-        descs.emplace_back("umbra");
+        descs.emplace_back(localise("umbra"));
 
     if (mi.fire_blocker)
     {
-        descs.push_back("fire blocked by " // FIXME, renamed features
-                        + feature_description(mi.fire_blocker, NUM_TRAPS, "",
-                                              DESC_A));
+        descs.push_back(localise("fire blocked by %s", // FIXME, renamed features
+                                 feature_description(mi.fire_blocker, NUM_TRAPS,
+                                                     "", DESC_A)));
     }
 
     return descs;
@@ -3529,115 +3525,102 @@ static string _get_monster_desc(const monster_info& mi)
 
     if (mi.is(MB_MESMERIZING))
     {
-        text += string("You are mesmerised by ")
-                + mi.pronoun(PRONOUN_POSSESSIVE) + " song.\n";
+        text += localise("You are mesmerised by this monster's song.") + "\n";
     }
 
     if (mi.is(MB_SLEEPING) || mi.is(MB_DORMANT))
     {
-        text += pronoun + " "
-                + conjugate_verb("appear", mi.pronoun_plurality()) + " to be "
-                + (mi.is(MB_CONFUSED) ? "sleepwalking" : "resting") + ".\n";
+        if (mi.is(MB_CONFUSED))
+            text += localise("This monster appears to be sleepwalking.");
+        else
+            text += localise("This monster appears to be resting.");
+        text += "\n";
     }
     // Applies to both friendlies and hostiles
     else if (mi.is(MB_FLEEING))
     {
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " fleeing.\n";
+        text += localise("This monster is fleeing.") + "\n";
     }
     // hostile with target != you
     else if (mi.attitude == ATT_HOSTILE
              && (mi.is(MB_UNAWARE) || mi.is(MB_WANDERING)))
     {
-        text += pronoun + " " + conjugate_verb("have", mi.pronoun_plurality())
-                + " not noticed you.\n";
+        text += localise("This monster has not noticed you.") + "\n";
     }
 
     if (mi.attitude == ATT_FRIENDLY)
     {
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " friendly.\n";
+        text += localise("This monster is friendly.") + "\n";
     }
     else if (mi.attitude == ATT_GOOD_NEUTRAL)
     {
-        text += pronoun + " " + conjugate_verb("seem", mi.pronoun_plurality())
-                + " to be peaceful towards you.\n";
+        text += localise("This monster seems to be peaceful towards you.") + "\n";
     }
     else if (mi.attitude != ATT_HOSTILE && !mi.is(MB_INSANE))
     {
         // don't differentiate between permanent or not
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " indifferent to you.\n";
+        text += localise("This monster is indifferent to you.") + "\n";
     }
 
     if (mi.is(MB_SUMMONED) || mi.is(MB_PERM_SUMMON))
     {
-        text += pronoun + " " + conjugate_verb("have", mi.pronoun_plurality())
-                + " been summoned";
         if (mi.is(MB_SUMMONED_CAPPED))
-        {
-            text += ", and " + conjugate_verb("are", mi.pronoun_plurality())
-                    + " expiring";
-        }
+            text += localise("This monster has been summoned and is expiring.");
         else if (mi.is(MB_PERM_SUMMON))
-            text += " but will not time out";
-        text += ".\n";
+            text += localise("This monster has been summoned but will not time out.");
+        else
+            text += localise("This monster has been summoned.");
+
+        text += "\n";
     }
 
     if (mi.is(MB_HALOED))
     {
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " illuminated by a divine halo.\n";
+        text += localise("This monster is illuminated by a divine halo.") + "\n";
     }
 
     if (mi.is(MB_UMBRAED))
     {
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " wreathed by an umbra.\n";
+        text += localise("This monster is wreathed by an umbra.") + "\n";
     }
 
     if (mi.intel() <= I_BRAINLESS)
     {
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " mindless.\n";
+        text += localise("This monster is mindless.") + "\n";
     }
 
     if (mi.is(MB_CHAOTIC))
     {
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " chaotic.\n";
+        text += localise("This monster is chaotic.") + "\n";
     }
 
     if (mi.is(MB_POSSESSABLE))
     {
-        text += string(mi.pronoun(PRONOUN_POSSESSIVE))
-                + " soul is ripe for the taking.\n";
+        text += localise("This monster's soul is ripe for the taking.") + "\n";
     }
     else if (mi.is(MB_ENSLAVED))
     {
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " a disembodied soul.\n";
+        text += localise("This monster is a disembodied soul.") + "\n";
     }
 
     if (mi.is(MB_MIRROR_DAMAGE))
     {
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " reflecting injuries back at attackers.\n";
+        text += localise("This monster is reflecting injuries back at attackers.");
+        text += "\n";
     }
 
     if (mi.is(MB_INNER_FLAME))
     {
-        text += pronoun + " " + conjugate_verb("are", mi.pronoun_plurality())
-                + " filled with an inner flame.\n";
+        text += localise("This monster is filled with an inner flame.") + "\n";
     }
 
     if (mi.fire_blocker)
     {
-        text += string("Your line of fire to ") + mi.pronoun(PRONOUN_OBJECTIVE)
-                + " is blocked by " // FIXME: renamed features
-                + feature_description(mi.fire_blocker, NUM_TRAPS, "",
-                                      DESC_A)
-                + ".\n";
+        // FIXME: renamed features
+        text += localise("Your line of fire to this monster is blocked by %s.",
+                         feature_description(mi.fire_blocker, NUM_TRAPS, "",
+                                             DESC_A));
+        text += "\n";
     }
 
     text += _mon_enchantments_string(mi);
@@ -3649,14 +3632,15 @@ static string _get_monster_desc(const monster_info& mi)
 static void _describe_monster(const monster_info& mi)
 {
     // First print type and equipment.
-    string text = uppercase_first(get_monster_equipment_desc(mi)) + ".";
+    string text = uppercase_first(get_monster_equipment_desc(mi));
+    text = add_punctuation(text, ".", false);
     const string wounds_desc = mi.wounds_description_sentence();
     if (!wounds_desc.empty())
         text += " " + uppercase_first(wounds_desc);
     const string constriction_desc = mi.constriction_description();
     if (!constriction_desc.empty())
-        text += " It is" + constriction_desc + ".";
-    mprf(MSGCH_EXAMINE, "%s", text.c_str());
+        text += localise(" This monster is %s.", constriction_desc);
+    mpr_nolocalise(MSGCH_EXAMINE, text);
 
     // Print the rest of the description.
     text = _get_monster_desc(mi);
@@ -3709,7 +3693,7 @@ string get_monster_equipment_desc(const monster_info& mi,
                     str += "ghost";
             }
             if (!str.empty())
-                desc += " (" + str + ")";
+                desc += localise(" (") + localise(str) + localise(")");
         }
     }
 
@@ -3762,55 +3746,61 @@ string get_monster_equipment_desc(const monster_info& mi,
 
     if (mon_arm)
     {
-        const string armour_desc = make_stringf("wearing %s",
-                                                mon_arm->name(DESC_A).c_str());
+        const string armour_desc = localise("wearing %s",
+                                            mon_arm->name(DESC_A).c_str());
         item_descriptions.push_back(armour_desc);
     }
 
     if (mon_shd)
     {
-        const string shield_desc = make_stringf("wearing %s",
-                                                mon_shd->name(DESC_A).c_str());
+        const string shield_desc = localise("wearing %s",
+                                            mon_shd->name(DESC_A).c_str());
         item_descriptions.push_back(shield_desc);
     }
 
     if (mon_rng)
     {
-        const string rng_desc = make_stringf("wearing %s",
-                                             mon_rng->name(DESC_A).c_str());
+        const string rng_desc = localise("wearing %s",
+                                          mon_rng->name(DESC_A).c_str());
         item_descriptions.push_back(rng_desc);
     }
 
     if (mon_qvr)
     {
-        const string qvr_desc = make_stringf("quivering %s",
-                                             mon_qvr->name(DESC_A).c_str());
+        const string qvr_desc = localise("quivering %s",
+                                         mon_qvr->name(DESC_A).c_str());
         item_descriptions.push_back(qvr_desc);
     }
 
     if (mon_carry)
     {
-        string carried_desc = "carrying ";
+        string carried_desc;
 
-        if (mon_alt)
+        if (mon_alt && mon_has_wand)
         {
-            carried_desc += mon_alt->name(DESC_A);
-            if (mon_has_wand)
-                carried_desc += " and ";
+            carried_desc = localise("carrying %s and %s", mon_alt->name(DESC_A),
+                                    mon_wnd->name(DESC_A));
         }
-
-        if (mon_has_wand)
-            carried_desc += mon_wnd->name(DESC_A);
+        else if (mon_alt)
+        {
+            carried_desc = localise("carrying %s", mon_alt->name(DESC_A));
+        }
+        else if (mon_has_wand)
+        {
+            carried_desc = localise("carrying %s", mon_wnd->name(DESC_A));
+        }
 
         item_descriptions.push_back(carried_desc);
     }
 
     const string item_description = comma_separated_line(
                                                 item_descriptions.begin(),
-                                                item_descriptions.end());
+                                                item_descriptions.end(),
+                                                localise(" and "),
+                                                localise(", "));
 
     if (!item_description.empty() && !desc.empty())
-        desc += ", ";
+        desc += localise(", ");
     return desc + item_description;
 }
 
@@ -3818,23 +3808,23 @@ static bool _print_cloud_desc(const coord_def where)
 {
     vector<string> areas;
     if (is_sanctuary(where))
-        areas.emplace_back("lies inside a sanctuary");
+        areas.emplace_back("This square lies inside a sanctuary.");
     if (silenced(where))
-        areas.emplace_back("is shrouded in silence");
+        areas.emplace_back("This square is shrouded in silence.");
     if (haloed(where) && !umbraed(where))
-        areas.emplace_back("is lit by a halo");
+        areas.emplace_back("This square is lit by a halo.");
     if (umbraed(where) && !haloed(where))
-        areas.emplace_back("is wreathed by an umbra");
+        areas.emplace_back("This square is wreathed by an umbra.");
     if (liquefied(where))
-        areas.emplace_back("is liquefied");
+        areas.emplace_back("This square is liquefied.");
     if (orb_haloed(where) || quad_haloed(where))
-        areas.emplace_back("is covered in magical glow");
+        areas.emplace_back("This square is covered in a magical glow.");
     if (disjunction_haloed(where))
-        areas.emplace_back("is bathed in translocational energy");
-    if (!areas.empty())
+        areas.emplace_back("This square is bathed in translocational energy.");
+
+    for (string area: areas)
     {
-        mprf("This square %s.",
-             comma_separated_line(areas.begin(), areas.end()).c_str());
+        mpr(area);
     }
 
     if (cloud_struct* cloud = cloud_at(where))

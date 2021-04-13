@@ -12,6 +12,9 @@
 {acc}the tree
 den Baum
 %%%%
+{acc}the awoken tree
+den geweckten Baum
+%%%%
 {acc}the floor
 den Boden
 %%%%
@@ -169,6 +172,9 @@ den versiegelten Gang, der nach unten führt
 %%%%
 {acc}a tree
 einen Baum
+%%%%
+{acc}an awoken tree
+einen geweckten Baum
 %%%%
 {acc}a floor
 einen Boden

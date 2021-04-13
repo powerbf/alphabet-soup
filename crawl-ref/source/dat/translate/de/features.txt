@@ -32,6 +32,9 @@ Tor
 tree
 Baum
 %%%%
+awoken tree
+geweckter Baum
+%%%%
 metal wall
 Metallwand
 %%%%
@@ -475,6 +478,9 @@ das %sTor
 the tree
 der Baum
 %%%%
+the awoken tree
+der geweckte Baum
+%%%%
 the metal wall
 die Metallwand
 %%%%
@@ -917,6 +923,9 @@ ein {adj-es}%sTor
 %%%%
 a tree
 ein Baum
+%%%%
+an awoken tree
+ein geweckter Baum
 %%%%
 a metal wall
 eine Metallwand
