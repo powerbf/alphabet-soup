@@ -2498,12 +2498,10 @@ void get_square_desc(const coord_def &c, describe_info &inf)
         const string wounds = mi->wounds_description_sentence();
         if (!wounds.empty())
             desc += uppercase_first(wounds) + "\n";
-        const string constrictions = mi->constriction_description();
+        const string constrictions = mi->constriction_description(false);
         if (!constrictions.empty())
         {
-            // i18n: TODO: Handle this properly
-            desc += localise("This monster is %s.", constrictions);
-            desc += "\n";
+            desc += constrictions + "\n";
         }
         desc += _get_monster_desc(*mi);
 
@@ -3637,9 +3635,9 @@ static void _describe_monster(const monster_info& mi)
     const string wounds_desc = mi.wounds_description_sentence();
     if (!wounds_desc.empty())
         text += " " + uppercase_first(wounds_desc);
-    const string constriction_desc = mi.constriction_description();
+    const string constriction_desc = mi.constriction_description(false);
     if (!constriction_desc.empty())
-        text += localise(" This monster is %s.", constriction_desc);
+        text += localise(" ") + constriction_desc;
     mpr_nolocalise(MSGCH_EXAMINE, text);
 
     // Print the rest of the description.
