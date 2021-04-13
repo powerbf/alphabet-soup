@@ -27,6 +27,9 @@ dem {adj-en}%sTor
 {dat}the tree
 dem Baum
 %%%%
+{dat}the awoken tree
+dem geweckten Baum
+%%%%
 {dat}the metal wall
 der Metallwand
 %%%%
@@ -469,6 +472,9 @@ einem {adj-en}%sTor
 %%%%
 {dat}a tree
 einem Baum
+%%%%
+{dat}an awoken tree
+einem geweckten Baum
 %%%%
 {dat}a metal wall
 einer Metallwand
