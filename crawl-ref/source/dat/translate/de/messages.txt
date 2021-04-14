@@ -5708,13 +5708,16 @@ UNAMED PORTAL VAULT ENTRY
 "awoken "
 
 %%%%
-" (summoned)"
+summoned
 
 %%%%
-" armed with "
+" armed with %s"
 
 %%%%
-" wielding "
+" wielding %s"
+
+%%%%
+This monster is %s.
 
 %%%%
 sleepwalking
@@ -5741,88 +5744,67 @@ indifferent
 umbra
 
 %%%%
-"fire blocked by "
+fire blocked by %s
 
 %%%%
-"You are mesmerised by "
+You are mesmerised by this monster's song.
 
 %%%%
-" song.\n"
+This monster appears to be sleepwalking.
 
 %%%%
-appear
+This monster appears to be resting.
 
 %%%%
-" to be "
+This monster is fleeing.
 
 %%%%
-resting
+This monster has not noticed you.
 
 %%%%
-.\n
+This monster is friendly.
 
 %%%%
-" fleeing.\n"
+This monster seems to be peaceful towards you.
 
 %%%%
-have
+This monster is indifferent to you.
 
 %%%%
-" not noticed you.\n"
+This monster has been summoned and is expiring.
 
 %%%%
-" friendly.\n"
+This monster has been summoned but will not time out.
 
 %%%%
-seem
+This monster has been summoned.
 
 %%%%
-" to be peaceful towards you.\n"
+This monster is illuminated by a divine halo.
 
 %%%%
-" indifferent to you.\n"
+This monster is wreathed by an umbra.
 
 %%%%
-" been summoned"
+This monster is mindless.
 
 %%%%
-" expiring"
+This monster is chaotic.
 
 %%%%
-" but will not time out"
+This monster's soul is ripe for the taking.
 
 %%%%
-" illuminated by a divine halo.\n"
+This monster is a disembodied soul.
 
 %%%%
-" wreathed by an umbra.\n"
+This monster is reflecting injuries back at attackers.
 
 %%%%
-" mindless.\n"
+This monster is filled with an inner flame.
 
 %%%%
-" chaotic.\n"
-
-%%%%
-" soul is ripe for the taking.\n"
-
-%%%%
-" a disembodied soul.\n"
-
-%%%%
-" reflecting injuries back at attackers.\n"
-
-%%%%
-" filled with an inner flame.\n"
-
-%%%%
-"Your line of fire to "
-
-%%%%
-" is blocked by "
-
-%%%%
-" It is"
+Your line of fire to this monster is blocked by %s.
 
 %%%%
 neutral
@@ -5834,32 +5816,32 @@ wearing %s
 quivering %s
 
 %%%%
-"carrying "
+carrying %s and %s
 
 %%%%
-lies inside a sanctuary
+carrying %s
 
 %%%%
-is shrouded in silence
+This square lies inside a sanctuary.
 
 %%%%
-is lit by a halo
+This square is shrouded in silence.
 
 %%%%
-is wreathed by an umbra
+This square is lit by a halo.
 
 %%%%
-is liquefied
+This square is wreathed by an umbra.
 
 %%%%
-is covered in magical glow
+This square is liquefied.
 
 %%%%
-is bathed in translocational energy
+This square is covered in a magical glow.
 
 %%%%
-This square %s.
-Dieses Quadrat%s.
+This square is bathed in translocational energy.
+
 %%%%
 There is a cloud of %s here.
 Hier ist eine Wolke von%s.
@@ -14337,6 +14319,9 @@ Bones file '
 "No matching ghosts for "
 
 %%%%
+.\n
+
+%%%%
 Empty ghost file.\n
 
 %%%%
@@ -16393,12 +16378,6 @@ no such moninf flag: '
 
 %%%%
 mb:is() out of bounds
-
-%%%%
-constricting you
-
-%%%%
-holding you
 
 %%%%
 monster
@@ -19372,9 +19351,6 @@ strong
 fleeing
 
 %%%%
-summoned
-
-%%%%
 charmed
 
 %%%%
@@ -21281,18 +21257,6 @@ inwards
 outwards
 
 %%%%
-"constricted by "
-
-%%%%
-"held by "
-
-%%%%
-"constricting "
-
-%%%%
-"holding "
-
-%%%%
 about %d
 
 %%%%
@@ -21360,6 +21324,30 @@ nasty
 
 %%%%
 " (fellow slime)"
+
+%%%%
+constricted by you
+
+%%%%
+constricted by %s
+
+%%%%
+held by you
+
+%%%%
+held by %s
+
+%%%%
+constricting you
+
+%%%%
+constricting %s
+
+%%%%
+holding you
+
+%%%%
+holding %s
 
 %%%%
 extremely fast
@@ -33696,6 +33684,9 @@ You %s blades for %s.
 
 %%%%
 had
+
+%%%%
+have
 
 %%%%
 Your %s turn%s into%s razor-sharp scythe blade%s.
