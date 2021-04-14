@@ -1411,83 +1411,43 @@ string monster_info::wounds_description(bool use_colour) const
     return desc;
 }
 
-string monster_info::constriction_description(bool terse) const
+string monster_info::constriction_description() const
 {
     string cinfo = "";
 
-    if (terse)
+    if (constrictor_damage)
     {
-        if (constrictor_damage)
-        {
-            if (constrictor_name == "you")
-                cinfo = localise("constricted by you");
-            else if(!constrictor_name.empty())
-                cinfo = localise("constricted by %s", constrictor_name);
-        }
-        else
-        {
-            if (constrictor_name == "you")
-                cinfo = localise("held by you");
-            else if(!constrictor_name.empty())
-                cinfo = localise("held by %s", constrictor_name);
-        }
-
-        for (string constrictee: constricting_name)
-        {
-            if (!cinfo.empty())
-                cinfo += localise(", ");
-            if (constrictee == "you")
-                cinfo += localise("constricting you", constrictee);
-            else
-                cinfo += localise("constricting %s", constrictee);
-        }
-
-        for (string holdee: holding_name)
-        {
-            if (!cinfo.empty())
-                cinfo += localise(", ");
-            if (holdee == "you")
-                cinfo += localise("holding you");
-            else
-                cinfo += localise("holding %s", holdee);
-        }
+        if (constrictor_name == "you")
+            cinfo = localise("constricted by you");
+        else if(!constrictor_name.empty())
+            cinfo = localise("constricted by %s", constrictor_name);
     }
     else
     {
-        if (constrictor_damage)
-        {
-            if (constrictor_name == "you")
-                cinfo = localise("This monster is constricted by you.");
-            else if(!constrictor_name.empty())
-                cinfo = localise("This monster is constricted by %s.", constrictor_name);
-        }
+        if (constrictor_name == "you")
+            cinfo = localise("held by you");
+        else if(!constrictor_name.empty())
+            cinfo = localise("held by %s", constrictor_name);
+    }
+
+    for (string constrictee: constricting_name)
+    {
+        if (!cinfo.empty())
+            cinfo += localise(", ");
+        if (constrictee == "you")
+            cinfo += localise("constricting you", constrictee);
         else
-        {
-            if (constrictor_name == "you")
-                cinfo = localise("This monster is held by you.");
-            else if(!constrictor_name.empty())
-                cinfo = localise("This monster is held by %s.", constrictor_name);
-        }
+            cinfo += localise("constricting %s", constrictee);
+    }
 
-        for (string constrictee: constricting_name)
-        {
-            if (!cinfo.empty())
-                cinfo += localise(" ");
-            if (constrictee == "you")
-                cinfo += localise("This monster is constricting you.", constrictee);
-            else
-                cinfo += localise("This monster is constricting %s.", constrictee);
-        }
-
-        for (string holdee: holding_name)
-        {
-            if (!cinfo.empty())
-                cinfo += localise(" ");
-            if (holdee == "you")
-                cinfo += localise("This monster is holding you.");
-            else
-                cinfo += localise("This monster is holding %s.", holdee);
-        }
+    for (string holdee: holding_name)
+    {
+        if (!cinfo.empty())
+            cinfo += localise(", ");
+        if (holdee == "you")
+            cinfo += localise("holding you");
+        else
+            cinfo += localise("holding %s", holdee);
     }
 
     return cinfo;

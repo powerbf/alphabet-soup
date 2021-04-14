@@ -623,7 +623,7 @@ static coord_def _full_describe_menu(vector<monster_info> const &list_mons,
 
             string consinfo = mi.constriction_description();
             if (!consinfo.empty())
-                str += localise(", ") + localise(consinfo);
+                str += localise(", ") + consinfo;
 
 #ifndef USE_TILE_LOCAL
             // Wraparound if the description is longer than allowed.
@@ -2498,10 +2498,11 @@ void get_square_desc(const coord_def &c, describe_info &inf)
         const string wounds = mi->wounds_description_sentence();
         if (!wounds.empty())
             desc += uppercase_first(wounds) + "\n";
-        const string constrictions = mi->constriction_description(false);
+        const string constrictions = mi->constriction_description();
         if (!constrictions.empty())
         {
-            desc += constrictions + "\n";
+            desc += add_punctuation(uppercase_first(constrictions), ".", false);
+            desc += "\n";
         }
         desc += _get_monster_desc(*mi);
 
@@ -3635,9 +3636,9 @@ static void _describe_monster(const monster_info& mi)
     const string wounds_desc = mi.wounds_description_sentence();
     if (!wounds_desc.empty())
         text += " " + uppercase_first(wounds_desc);
-    const string constriction_desc = mi.constriction_description(false);
+    const string constriction_desc = mi.constriction_description();
     if (!constriction_desc.empty())
-        text += localise(" ") + constriction_desc;
+        text += localise(" ") + uppercase_first(constriction_desc);
     mpr_nolocalise(MSGCH_EXAMINE, text);
 
     // Print the rest of the description.

@@ -335,7 +335,7 @@ struct monster_info : public monster_info_base
     string wounds_description_sentence() const;
     string wounds_description(bool colour = false) const;
 
-    string constriction_description(bool terse = true) const;
+    string constriction_description() const;
 
     monster_type draco_or_demonspawn_subspecies() const;
 
