@@ -81,7 +81,9 @@ SKIP_FILES = [
     # (because if we run this on a server, we want all the morgues in English)
     'chardump.h', 'chardump.cc', 'notes.h', 'notes.cc',
     # lua scripting stuff
-    'clua.h', 'clua.cc', 'cluautil.h', 'cluautil.cc',
+    'clua.h', 'clua.cc', 'cluautil.h', 'cluautil.cc', 'dlua.h', 'dlua.cc',
+    # internal logic
+    'domino.h', 'domino.cc',
     # nonsense
     'lang-fake.h', 'lang-fake.cc'
 ]
