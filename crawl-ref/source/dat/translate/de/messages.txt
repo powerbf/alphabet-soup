@@ -5884,49 +5884,6 @@ Dieses Monster ist außer Reichweite.
 %%%%
 
 ##################
-# dlua.cc
-##################
-%%%%
-Unknown error compiling chunk
-
-%%%%
-function %s()\n%s\nend\n
-
-%%%%
-[string "
-
-%%%%
-"]:
-
-%%%%
-:
-
-%%%%
-los
-
-%%%%
-dlua/dungeon.lua
-
-%%%%
-dlua/luamark.lua
-
-%%%%
-dlua/mapinit.lua
-
-%%%%
-
-##################
-# domino.cc
-##################
-%%%%
-#
-
-%%%%
-###
-
-%%%%
-
-##################
 # dungeon.cc
 ##################
 %%%%
@@ -8114,6 +8071,9 @@ saved
 
 %%%%
 Hells
+
+%%%%
+:
 
 %%%%
 bones.
@@ -16617,6 +16577,9 @@ constricting
 
 %%%%
 where
+
+%%%%
+los
 
 %%%%
 '%s' matches both branch '%s' and '%s'
@@ -25749,6 +25712,9 @@ Ring
 
 %%%%
 *
+
+%%%%
+#
 
 %%%%
 <w>%c</w> - <%s>%s%s</%s>
