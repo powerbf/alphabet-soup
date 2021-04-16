@@ -5884,152 +5884,6 @@ Dieses Monster ist außer Reichweite.
 %%%%
 
 ##################
-# dungeon.cc
-##################
-%%%%
-Failed to load map, reloading all maps (%s).
-Fehler beim Laden der Karte, erneutes Laden aller Karten (%s).
-%%%%
-Unable to generate level for '%s'!
-
-%%%%
-branch epilogue for %s failed: %s
-Zweig-Epilog für%s fehlgeschlagen:%s
-%%%%
-Multiple locations with transporter destination name %s.
-
-%%%%
-Transporter with name %s has no corresponding destination marker.
-
-%%%%
-Unused transporter destination with name %s.
-Nicht verwendetes Transporterziel mit dem Namen%s.
-%%%%
-luniq
-
-%%%%
-Vault placement failure (%s).
-
-%%%%
-Item %s buggily placed in feature %s at (%d, %d).
-Gegenstand%s wurde fehlerhaft in Feature%s bei (%d,%d) platziert.
-%%%%
-Item buggily placed out of bounds at (%d, %d).
-Gegenstand fehlerhaft außerhalb der Grenzen bei (%d,%d) platziert.
-%%%%
-Had %d zones, now has %d%s%s.
-
-%%%%
-Isolated areas with no stairs.
-
-%%%%
-Failed to fix stone stairs.
-
-%%%%
-A disconnected branch entrance.
-
-%%%%
-Failed to add connecting escape hatches.
-
-%%%%
-Failed to ensure interlevel connectivity.
-
-%%%%
-Couldn't find overflow temple map '%s'!
-
-%%%%
-temple_overflow_%d
-
-%%%%
-" temple_overflow_"
-
-%%%%
-temple_overflow_generic_%d
-
-%%%%
-Couldn't find overflow temple tag '%s'!
-
-%%%%
-Transporter placement failed.
-
-%%%%
-mnoleg
-
-%%%%
-cerebov
-
-%%%%
-Unable to find Temple vault '%s'
-Tempelgewölbe '%s' konnte nicht gefunden werden
-%%%%
-Couldn't find map with tag tomb_stone_stairs for level %s.
-
-%%%%
-Couldn't find selected map '%s'.
-
-%%%%
-Whoops, nicked a vault in slime connectivity fixup
-Whoops, hat einen Tresor in der Schleim-Konnektivitäts-Reparatur geklaut
-%%%%
-temple_altars_%d
-
-%%%%
-" random_map_for_place"
-
-%%%%
-" random_map_in_depth"
-
-%%%%
-Cannot place feature at random floor square.
-
-%%%%
-Cannot place specific feature.
-
-%%%%
-Unable to find exit from %s
-Ausgang von%s konnte nicht gefunden werden
-%%%%
-Failed to load map %s in dgn_safe_place_map, reloading all maps
-
-%%%%
-Pan map with disconnected zones
-
-%%%%
-encompass
-
-%%%%
-"Failed to connect exits for: "
-
-%%%%
-"Post-place hook failed for: "
-
-%%%%
-central
-
-%%%%
-layout
-
-%%%%
-ERROR: %s already generated somewhere else; please file a bug report.
-
-%%%%
-Ran out of altars for temple!
-Die Altäre für den Tempel sind ausgegangen!
-%%%%
-Vault %s tried to place a shaft at a branch end
-Vault%s hat versucht, eine Welle an einem Abzweigende zu platzieren.
-%%%%
-"[-gen]      "
-
-%%%%
-"[+gen,+vis] "
-
-%%%%
-"[+gen,-vis] "
-
-%%%%
-
-##################
 # duration-data.h
 ##################
 %%%%
@@ -17742,6 +17596,9 @@ southwest
 southeast
 
 %%%%
+encompass
+
+%%%%
 float
 
 %%%%
@@ -17947,6 +17804,9 @@ minivault
 
 %%%%
 SUBVAULT does not support '='. Use ':' instead.
+
+%%%%
+luniq
 
 %%%%
 No vault found for tag '%s'
@@ -25452,6 +25312,9 @@ No temples?!
 Temple %s set as variable but has no sizes.
 
 %%%%
+temple_altars_%d
+
+%%%%
 Temple %s: %s
 Tempel %s: %s
 %%%%
@@ -25459,6 +25322,12 @@ No valid temples.
 
 %%%%
 Main temple '%s' has no altars
+
+%%%%
+temple_overflow_generic_%d
+
+%%%%
+temple_overflow_%d
 
 %%%%
 Malformed temple tag '%s' in map %s
