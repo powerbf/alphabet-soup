@@ -7013,17 +7013,6 @@ You can find your morgue file in the '%s' directory.
 %%%%
 
 ##################
-# errors.cc
-##################
-%%%%
-%s.out
-
-%%%%
-%s event errors (dumped to %s)
-
-%%%%
-
-##################
 # evoke.cc
 ##################
 %%%%

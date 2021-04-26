@@ -72,7 +72,7 @@ SKIP_FILES = [
     'defines.h', 'dgn-layouts.h', 'dgn-layouts.cc',
     # debug/test stuff
     'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc', 'coord-def.h',
-    'crash.h', 'crash.cc',
+    'crash.h', 'crash.cc', 'errors.h', 'errors.cc',
     # English grammar
     'english.h', 'english.cc',
     # files related to the translation process itself
