@@ -3491,9 +3491,6 @@ Granted powers:
 (Cost)
 
 %%%%
-\n\n%s%*s%s\n
-
-%%%%
 %s carefully guards your life%s.
 
 %%%%
@@ -3611,9 +3608,6 @@ You are protected from the effects of unwielding distortion weapons.
 (
 
 %%%%
-%s%*s%s\n
-
-%%%%
 None.
 
 %%%%
@@ -3621,9 +3615,6 @@ None.
 
 %%%%
 "Favour - "
-
-%%%%
-\n%s
 
 %%%%
 [<w>!</w>/<w>^</w>
@@ -7020,9 +7011,6 @@ Best Crawlers - %s
 You can find your morgue file in the '%s' directory.
 
 %%%%
-%s\n
-
-%%%%
 
 ##################
 # english.h
@@ -8054,9 +8042,6 @@ This save is from a newer version.\n\n
 
 %%%%
 \n • delete it and start a new game\n\nThis save's version: (%d.%d) (must be <= %d.%d)
-
-%%%%
-\n%s %s\n
 
 %%%%
 truncated save chunk (%s)
@@ -14071,9 +14056,6 @@ Error reading "%s"
 
 %%%%
 Chunks: (size compressed/uncompressed, fragments, name)\n
-
-%%%%
-%7d/%7d %3u %s\n
 
 %%%%
 Fragmentation:    %u/%u (%4.2f)\n
@@ -25690,9 +25672,6 @@ package: reading directory\n
 save file corrupted -- truncated directory
 
 %%%%
-* %s\n
-
-%%%%
 save file (%s) uses an unknown format %u
 
 %%%%
@@ -33150,9 +33129,6 @@ mc:
 " (%s)\n%cBG: %4"
 
 %%%%
-" (%s)\n"
-
-%%%%
 
 ##################
 # tilereg-abl.h
@@ -33161,10 +33137,6 @@ mc:
 ##################
 # tilereg-abl.cc
 ##################
-%%%%
-\n%s %s
-
-%%%%
 
 ##################
 # tilereg-cmd.h
@@ -33254,15 +33226,6 @@ Escape, Ctrl-S
 
 %%%%
 %s\n%s %s
-
-%%%%
-\n%s %s (%%)
-
-%%%%
-"\n%s "
-
-%%%%
-\n%s %s (%%#)
 
 %%%%
 
