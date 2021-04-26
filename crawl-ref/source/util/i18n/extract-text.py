@@ -297,7 +297,12 @@ for filename in files:
                             continue
                         if re.search(r'\bexists\s*\(\s*$', last):
                             continue
+
                         if re.search(r'\bstrip_suffix\s*\(', last):
+                            continue
+                        if re.search(r'\bsend_exit_reason\s*\(', last):
+                            continue
+                        if re.search(r'\bsend_dump_info\s*\(', last):
                             continue
 
                 # simple_god/monster_message may contain an implied %s
