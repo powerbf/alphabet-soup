@@ -7013,394 +7013,6 @@ You can find your morgue file in the '%s' directory.
 %%%%
 
 ##################
-# english.h
-##################
-%%%%
-your
-
-%%%%
-
-##################
-# english.cc
-##################
-%%%%
-" labelled "
-
-%%%%
-" ["
-
-%%%%
-us
-
-%%%%
-lotus
-
-%%%%
-status
-
-%%%%
-es
-
-%%%%
-i
-
-%%%%
-larva
-
-%%%%
-antenna
-
-%%%%
-hypha
-
-%%%%
-noma
-
-%%%%
-e
-
-%%%%
-ex
-
-%%%%
-ices
-
-%%%%
-mosquito
-
-%%%%
-ss
-
-%%%%
-catoblepae
-
-%%%%
-s
-
-%%%%
-ys
-
-%%%%
-ies
-
-%%%%
-fe
-
-%%%%
-ves
-
-%%%%
-f
-
-%%%%
-ff
-
-%%%%
-mage
-
-%%%%
-fish
-
-%%%%
-folk
-
-%%%%
-spawn
-
-%%%%
-sheep
-
-%%%%
-swine
-
-%%%%
-ch
-
-%%%%
-sh
-
-%%%%
-x
-
-%%%%
-djinni
-
-%%%%
-feet
-
-%%%%
-im
-
-%%%%
-arachi
-
-%%%%
-m
-
-%%%%
-u
-
-%%%%
-meh
-
-%%%%
-oes
-
-%%%%
-cyclopes
-
-%%%%
-zombies
-
-%%%%
-staves
-
-%%%%
-ives
-
-%%%%
-ses
-
-%%%%
-xes
-
-%%%%
-ches
-
-%%%%
-shes
-
-%%%%
-magi
-
-%%%%
-ae
-
-%%%%
-simulacra
-
-%%%%
-um
-
-%%%%
-eidola
-
-%%%%
-on
-
-%%%%
-djinn
-
-%%%%
-oot
-
-%%%%
-arachim
-
-%%%%
-ushabtiu
-
-%%%%
-mimeh
-
-%%%%
-tl
-
-%%%%
-r
-
-%%%%
-its own
-
-%%%%
-his own
-
-%%%%
-her own
-
-%%%%
-their own
-
-%%%%
-your own
-
-%%%%
-'s
-
-%%%%
-is
-
-%%%%
-has
-
-%%%%
-it
-
-%%%%
-its
-
-%%%%
-itself
-
-%%%%
-he
-
-%%%%
-his
-
-%%%%
-himself
-
-%%%%
-him
-
-%%%%
-she
-
-%%%%
-her
-
-%%%%
-herself
-
-%%%%
-yourself
-
-%%%%
-they
-
-%%%%
-their
-
-%%%%
-themself
-
-%%%%
-them
-
-%%%%
-one
-
-%%%%
-two
-
-%%%%
-three
-
-%%%%
-four
-
-%%%%
-five
-
-%%%%
-six
-
-%%%%
-seven
-
-%%%%
-eight
-
-%%%%
-nine
-
-%%%%
-ten
-
-%%%%
-eleven
-
-%%%%
-twelve
-
-%%%%
-thirteen
-
-%%%%
-fourteen
-
-%%%%
-fifteen
-
-%%%%
-sixteen
-
-%%%%
-seventeen
-
-%%%%
-eighteen
-
-%%%%
-nineteen
-
-%%%%
-twenty
-
-%%%%
-thirty
-
-%%%%
-forty
-
-%%%%
-fifty
-
-%%%%
-sixty
-
-%%%%
-seventy
-
-%%%%
-eighty
-
-%%%%
-ninety
-
-%%%%
--
-
-%%%%
-" hundred"
-
-%%%%
-" thousand"
-
-%%%%
-" million"
-
-%%%%
-" billion"
-
-%%%%
-" trillion"
-
-%%%%
-zero
-
-%%%%
-"A "
-
-%%%%
-"An "
-
-%%%%
-"One of "
-
-%%%%
-"Two of "
-
-%%%%
-"Most of "
-
-%%%%
-"Some of "
-
-%%%%
-
-##################
 # errors.cc
 ##################
 %%%%
@@ -7592,6 +7204,9 @@ cloud
 
 %%%%
 "more "
+
+%%%%
+s
 
 %%%%
 exclusion
@@ -7877,6 +7492,9 @@ Hells
 
 %%%%
 :
+
+%%%%
+-
 
 %%%%
 bones.
@@ -8380,6 +7998,9 @@ Spores
 
 %%%%
 sporulate
+
+%%%%
+hypha
 
 %%%%
 release spores on
@@ -12184,6 +11805,9 @@ unable to truncate scorefile
 ERROR: failure writing to the logfile.
 FEHLER: Fehler beim Schreiben in die Protokolldatei.
 %%%%
+r
+
+%%%%
 No scores.
 
 %%%%
@@ -12490,6 +12114,9 @@ ac
 ev
 
 %%%%
+sh
+
+%%%%
 god
 
 %%%%
@@ -12527,6 +12154,9 @@ maxskills
 
 %%%%
 fifteenskills
+
+%%%%
+status
 
 %%%%
 goldfound
@@ -12572,6 +12202,9 @@ vmsg
 
 %%%%
 their own shadow
+
+%%%%
+themself
 
 %%%%
 " (shapeshifter)"
@@ -12724,7 +12357,13 @@ Succumbed to poison
 "Succumbed to "
 
 %%%%
+their own
+
+%%%%
 "cloud of "
+
+%%%%
+" ["
 
 %%%%
 self
@@ -13665,6 +13304,9 @@ greek
 ελληνικα
 
 %%%%
+es
+
+%%%%
 spanish
 
 %%%%
@@ -13702,6 +13344,9 @@ hungarian
 
 %%%%
 magyar
+
+%%%%
+it
 
 %%%%
 italian
@@ -14962,6 +14607,9 @@ Es %s ein %s.
 was
 
 %%%%
+is
+
+%%%%
 You can't pick that up.
 Das könnt Ihr nicht aufheben.
 %%%%
@@ -15775,6 +15423,9 @@ Invalid x coordinate: %d
 Invalid y coordinate: %d
 
 %%%%
+x
+
+%%%%
 Primary vault has x_min %d but no x_max
 
 %%%%
@@ -16528,6 +16179,12 @@ the
 
 %%%%
 Your
+
+%%%%
+your
+
+%%%%
+its
 
 %%%%
 inv
@@ -17386,6 +17043,9 @@ Nothing quivered!
 %%%%
 Autopickup is now %s.
 Autopickup ist jetzt %s.
+%%%%
+on
+
 %%%%
 off
 
@@ -19853,6 +19513,12 @@ Ihr spürt eine böse Präsenz.
 %s shimmers and seems to become %s!
 %s schimmert und scheint%s zu werden!
 %%%%
+two
+
+%%%%
+three
+
+%%%%
 " blink_other_close"
 
 %%%%
@@ -21598,6 +21264,9 @@ winged quadruped
 bird
 
 %%%%
+fish
+
+%%%%
 insect
 
 %%%%
@@ -21860,6 +21529,9 @@ pincer
 wing
 
 %%%%
+antenna
+
+%%%%
 eye-stalk
 
 %%%%
@@ -21900,6 +21572,9 @@ underside
 
 %%%%
 footbug
+
+%%%%
+feet
 
 %%%%
 foot
@@ -26104,6 +25779,9 @@ Die%s können%s nicht auf Euren verletzten Körper abstimmen.
 themselves
 
 %%%%
+itself
+
+%%%%
 The amulet feels cold and inert.
 Das Amulett fühlt sich kalt und träge an.
 %%%%
@@ -28984,6 +28662,9 @@ select item for purchase
 <%s>I'll put %s outside for you.</%s>\n
 
 %%%%
+them
+
+%%%%
 some of them
 
 %%%%
@@ -31372,6 +31053,9 @@ Vor Euren Augen wird Fleisch von der Leiche gerissen!
 The headless hydra simulacr%s immediately collapse%s into snow!
 Die kopflose Hydra simulacr%s kollabiert sofort%s in Schnee!
 %%%%
+um
+
+%%%%
 %s %s into %s!
 %s %s in %s!
 %%%%
@@ -33466,6 +33150,9 @@ Your %s turn%s into%s razor-sharp scythe blade%s.
 Your %s revert%s to %s normal proportions.
 
 %%%%
+their
+
+%%%%
 "Blade "
 
 %%%%
@@ -33518,6 +33205,9 @@ a %sbat.
 
 %%%%
 "vampire "
+
+%%%%
+has
 
 %%%%
 "One of your tentacles "
@@ -35628,6 +35318,9 @@ The water briefly recedes away from you.
 
 %%%%
 Something invisible splashes into the water beside you!
+
+%%%%
+"One of "
 
 %%%%
 " falls out of your pack, then immediately jumps back in!"

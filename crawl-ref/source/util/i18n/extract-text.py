@@ -73,6 +73,8 @@ SKIP_FILES = [
     # debug/test stuff
     'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc', 'coord-def.h',
     'crash.h', 'crash.cc',
+    # English grammar
+    'english.h', 'english.cc',
     # files related to the translation process itself
     'xlate.h', 'xlate.cc', 
     'localise.h', 'localise.cc',
