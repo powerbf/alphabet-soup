@@ -25327,9 +25327,6 @@ Main temple '%s' has no altars
 temple_overflow_generic_%d
 
 %%%%
-temple_overflow_%d
-
-%%%%
 Malformed temple tag '%s' in map %s
 Missgebildeter Tempel-Tag '%s' in Karte%s
 %%%%
