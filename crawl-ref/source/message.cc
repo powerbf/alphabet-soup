@@ -2125,7 +2125,16 @@ bool simple_monster_message(const monster& mons, const char *event,
         if (channel == MSGCH_PLAIN && mons.wont_attack())
             channel = MSGCH_FRIEND_ACTION;
 
-        mprf(channel, param, event, mons.name(descrip).c_str());
+        string msg;
+        if (event != nullptr)
+        {
+            if (event[0] == ' ' || event[0] == '\'')
+                msg = string("%s") + event;
+            else
+                msg = event;
+        }
+
+        mprf(channel, param, msg.c_str(), mons.name(descrip).c_str());
         return true;
     }
 
@@ -2143,10 +2152,14 @@ string god_speaker(god_type which_deity)
 // yet another wrapper for mpr() {dlb}:
 void simple_god_message(const char *event, god_type which_deity)
 {
-    string msg = event;
-
-    if (!contains(msg, "%s"))
-        msg = "%s" + msg;
+    string msg;
+    if (event != nullptr)
+    {
+        if (event[0] == ' ' || event[0] == '\'')
+            msg = string("%s") + event;
+        else
+            msg = event;
+    }
 
     msg = localise(msg, god_speaker(which_deity));
 

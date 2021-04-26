@@ -10854,10 +10854,10 @@ Ihr fühlt Euch plötzlich träge!
 %s is still gathering forces against you.
 
 %%%%
-" sends forces against you!"
+%s sends forces against you!
 
 %%%%
-'s forces are busy with other wars.
+%s's forces are busy with other wars.
 
 %%%%
 %s's wrath finds you.
