@@ -306,6 +306,8 @@ for filename in files:
                             continue
                         if re.search(r'\bsend_dump_info\s*\(', last):
                             continue
+                        if re.search(r'\bmons_add_blame\s*\(', last):
+                            continue
 
                 # simple_god/monster_message may contain an implied %s
                 if 'simple_god_message' in line or 'simple_monster_message' in line:

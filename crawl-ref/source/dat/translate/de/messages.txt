@@ -7046,13 +7046,10 @@ Ihr macht den Deckel auf ...
 ...but nothing happens.
 ...aber nichts passiert.
 %%%%
-...and %s %s out!
-... und%s%s raus!
-%%%%
-flies
+...and %s flies out!
 
 %%%%
-leaps
+...and %s leaps out!
 
 %%%%
 You can't place a gateway to a ziggurat here.
@@ -7064,25 +7061,25 @@ Beende zuerst Eure aktuelle Zikkurat!
 You set the figurine down, and a mystic portal to a ziggurat forms.
 Ihr stellt die Figur ab und ein mystisches Portal zu einer Zikkurat bildet sich.
 %%%%
-card
+A mighty gale blasts forth from the card!
 
 %%%%
-fan
+A mighty gale blasts forth from the fan!
 
 %%%%
-A mighty gale blasts forth from the %s!
-Ein mächtiger Sturm schießt aus den%s!
+A fierce wind blows from the card.
+
 %%%%
-A fierce wind blows from the %s.
-Ein heftiger Wind weht von den%s.
+A fierce wind blows from the fan.
+
 %%%%
 You are blown backwards!
 Ihr seid rückwärts geblasen!
 %%%%
-%s %s blown away by the wind.
+%s are blown away by the wind.
 
 %%%%
-be
+%s is blown away by the wind.
 
 %%%%
 The monsters around you are blown away!
@@ -7102,9 +7099,6 @@ Ihr könnt dort nichts zum Klonen sehen.
 %%%%
 The mirror can't reflect that.
 Der Spiegel kann das nicht widerspiegeln.
-%%%%
-mirrored by the player character
-
 %%%%
 You reflect %s with the mirror!
 
@@ -7142,7 +7136,7 @@ Ihr könnt keine magischen Gegenstände hervorrufen.
 This wand has no charges.
 Dieser Zauberstab hat keine Ladungen.
 %%%%
-The %s is presently inert.
+%s is presently inert.
 
 %%%%
 Evoke which item? (* to show all)
@@ -7721,9 +7715,6 @@ The injured %s weaves a defensive illusion!
 %%%%
 %s bursts from %s!
 %s platzt aus%s!
-%%%%
-"animated by "
-
 %%%%
 You feel extremely nervous for a moment...
 Ihr seid für einen Moment extrem nervös ...
@@ -16298,6 +16289,9 @@ spell
 ability
 
 %%%%
+card
+
+%%%%
 feature
 
 %%%%
@@ -19307,9 +19301,6 @@ Sorry, dieser Zauber wird für Dummies nicht unterstützt!
 Vines fly forth from the trees!
 Weinreben fliegen von den Bäumen hervor!
 %%%%
-"called by "
-
-%%%%
 Thorny briars emerge from the ground!
 Dornige Briars tauchen aus dem Boden auf!
 %%%%
@@ -19646,9 +19637,6 @@ mclonedupe
 ##################
 # mon-clone.cc
 ##################
-%%%%
-"woven by "
-
 %%%%
 %s seems to step out of %s!
 %s scheint aus%s herauszutreten!
@@ -20337,12 +20325,6 @@ explosion is contained
 %s blazes out!
 %s geht aus!
 %%%%
-hexed by the player character
-
-%%%%
-"hexed by "
-
-%%%%
 By Zin's power, the fiery explosion is contained.
 
 %%%%
@@ -20829,16 +20811,22 @@ Es konnte kein Pfad von (%d,%d) nach (%d,%d) gefunden werden.
 "summoned by "
 
 %%%%
+"woven by "
+
+%%%%
+"animated by "
+
+%%%%
 "called from beyond by "
+
+%%%%
+"called by "
 
 %%%%
 "attached to "
 
 %%%%
 "created by "
-
-%%%%
-the player character
 
 %%%%
 Warning: monster '%s' is not yet fully coded.
@@ -21717,6 +21705,9 @@ Ihr tauscht Plätze.
 %%%%
 %s %s twisted violently and ejected from the portal!
 %s%s hat sich heftig verdreht und aus dem Portal ausgeworfen!
+%%%%
+be
+
 %%%%
 The barbs in your skin will harm you if you move.
 
@@ -30918,9 +30909,6 @@ A dragon tries to answer your call, but you don't have enough magical power!
 %%%%
 A dragon arrives to answer your call!
 Ein Drache kommt, um Euren Anruf zu beantworten!
-%%%%
-called by a doom hound
-
 %%%%
 A dragon appears.
 Ein Drache erscheint.
