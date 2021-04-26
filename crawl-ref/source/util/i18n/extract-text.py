@@ -300,6 +300,11 @@ for filename in files:
                         if re.search(r'\bstrip_suffix\s*\(', last):
                             continue
 
+                # simple_god/monster_message may contain an implied %s
+                if 'simple_god_message' in line or 'simple_monster_message' in line:
+                    if string != "" and (string[0] == " " or string[0] == "'"):
+                        string = '%s' + string
+
                 strings.append(string)
             
 
