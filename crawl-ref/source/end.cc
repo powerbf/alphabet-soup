@@ -475,7 +475,8 @@ NORETURN void end_game(scorefile_entry &se)
     tile->set_margin_for_sdl(0, 10, 0, 0);
     title_hbox->add_child(move(tile));
 #endif
-    string goodbye_title = make_stringf("Goodbye, %s.", you.your_name.c_str());
+    string goodbye_title = localise("Goodbye, %s.",
+                                    LocalisationArg(you.your_name, false));
     title_hbox->add_child(make_shared<Text>(goodbye_title));
     title_hbox->set_cross_alignment(Widget::CENTER);
     title_hbox->set_margin_for_sdl(0, 0, 20, 0);
