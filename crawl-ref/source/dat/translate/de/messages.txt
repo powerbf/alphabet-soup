@@ -6984,40 +6984,7 @@ old stabbing
 # end.cc
 ##################
 %%%%
-error
-
-%%%%
-Fatal error:\n\n<lightred>
-
-%%%%
-<<
-
-%%%%
-</lightred>\n\n<cyan>Hit any key to exit, ctrl-p for the full log.</cyan>
-
-%%%%
-quit
-
-%%%%
-won
-
-%%%%
-bailed out
-
-%%%%
-dead
-
-%%%%
-save
-
-%%%%
-abort
-
-%%%%
-crash
-
-%%%%
-BUGGY EXIT TYPE
+Hit any key to exit, ctrl-p for the full log.
 
 %%%%
 %s appreciates your contribution to the ecosystem.
@@ -7044,22 +7011,16 @@ Euer Körper zerfällt zu einem Haufen Gold.
 Char dump unsuccessful! Sorry about that.
 Char Dump erfolglos! Tut mir leid.
 %%%%
-morgue
-
-%%%%
 Goodbye, %s.
 
 %%%%
-\nBest Crawlers - %s\n
+Best Crawlers - %s
 
 %%%%
-\nYou can find your morgue file in the '%s' directory.
+You can find your morgue file in the '%s' directory.
 
 %%%%
 %s\n
-
-%%%%
-cancel
 
 %%%%
 
@@ -12244,6 +12205,9 @@ No scores.
 .txt
 
 %%%%
+<<
+
+%%%%
 Dungeon Crawl Stone Soup: High Scores
 
 %%%%
@@ -12865,6 +12829,9 @@ escaped
 Escaped with the Orb
 
 %%%%
+quit
+
+%%%%
 Quit the game
 
 %%%%
@@ -13240,6 +13207,9 @@ examine
 
 %%%%
 diagnostic
+
+%%%%
+error
 
 %%%%
 sling
@@ -13921,6 +13891,9 @@ vscores
 
 %%%%
 scorefile
+
+%%%%
+morgue
 
 %%%%
 macro
@@ -17438,9 +17411,6 @@ off
 Sound effects are now %s.
 Soundeffekte sind jetzt %s.
 %%%%
-command
-
-%%%%
 Save game and return to main menu?
 
 %%%%
@@ -20333,6 +20303,9 @@ Roots
 %s schnapp%s.
 %%%%
 env.mgrid(%d,%d) points to %s monster, even though it contains submerged monster %s (see bug 2293518)
+
+%%%%
+dead
 
 %%%%
 %s tried to unsubmerge while on same square as %s (see bug 2293518)
