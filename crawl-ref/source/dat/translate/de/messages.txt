@@ -7550,22 +7550,8 @@ Eine bösartige Aura umgibt {acc}%s.
 %%%%
 
 ##################
-# fixedvector.h
-##################
-%%%%
-range check error (%ld / %d)
-
-%%%%
-
-##################
 # fontwrapper-ft.cc
 ##################
-%%%%
-Failed to initialise freetype library.\n
-
-%%%%
-Failed to unload freetype library.\n
-
 %%%%
 new font tex %d x %d x 4 = %dpx %d bytes\n
 
@@ -32239,9 +32225,6 @@ getAssets
 ##################
 # tags.cc
 ##################
-%%%%
-short read while reading save
-
 %%%%
 Incomplete read of "%s" - aborting.
 
