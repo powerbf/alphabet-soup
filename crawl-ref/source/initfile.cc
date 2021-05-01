@@ -4773,7 +4773,7 @@ bool parse_args(int argc, char **argv, bool rc_only)
 
 #ifndef DEBUG_STATISTICS
     const char *dbg_stat_err = "mapstat and objstat are available only in "
-                               "DEBUG_STATISTICS builds.\n";
+                               "DEBUG_STATISTICS builds.";
 #endif
 
     if (crawl_state.command_line_arguments.empty())
@@ -4939,7 +4939,7 @@ bool parse_args(int argc, char **argv, bool rc_only)
                 }
                 catch (const bad_level_id &err)
                 {
-                    end(1, false, "Error parsing depths: %s\n", err.what());
+                    end(1, false, "Error parsing depths: %s", err.what());
                 }
                 nextUsed = true;
             }
