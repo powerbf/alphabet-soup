@@ -7497,29 +7497,29 @@ Euer Schaden spiegelt sich bei Euch wider!
 %s suffers a backlash!
 
 %%%%
-%s shudders%s.
-%s schaudert%s.
-%%%%
-" alarmingly"
+%s shudders alarmingly.
 
 %%%%
-" violently"
+%s shudders violently.
 
 %%%%
-" vigorously"
+%s shudders vigorously.
+
+%%%%
+%s shudders.
 
 %%%%
 %s spits out another jelly.
 %s spuckt noch ein Gelee aus.
 %%%%
 %s spits out %d more jellies.
-%s spuckt%d mehr Gelees aus.
+%s spuckt %d mehr Gelees aus.
 %%%%
 One of the Royal Jelly's fragments survives.
 Eines der Fragmente des Gelée Royale ist erhalten.
 %%%%
 The dying Royal Jelly spits out %d more jellies.
-Das sterbende Gelée Royale spuckt%d mehr Gelees aus.
+Das sterbende Gelée Royale spuckt %d mehr Gelees aus.
 %%%%
 %s shudders and is absorbed by its neighbour.
 
@@ -7527,26 +7527,26 @@ Das sterbende Gelée Royale spuckt%d mehr Gelees aus.
 %s shudders and withdraws towards its neighbour.
 
 %%%%
-%s electric aura discharges%s, shocking %s!
-%s elektrische Aura entlädt%s und schockiert%s!
+%s electric aura discharges, shocking %s!
+Die elektrische Aura {gen}%s entlädt sich und schockiert {acc}%s!
+%%%%
+%s electric aura discharges violently, shocking %s!
+Die elektrische Aura {gen}%s entlädt sich heftig und schockiert {acc}%s!
 %%%%
 The air sparks with electricity, shocking %s!
-Die Luft funkelt vor Elektrizität und schockiert%s!
+Die Luft funkelt vor Elektrizität und schockiert %s!
 %%%%
-The injured %s weaves a defensive illusion!
-
+The injured rakshasa weaves a defensive illusion!
+Der verletzte Rakshasa webt eine defensive Illusion!
 %%%%
 %s bursts from %s!
-%s platzt aus%s!
+%s platzt aus {dat}%s!
 %%%%
 You feel extremely nervous for a moment...
-Ihr seid für einen Moment extrem nervös ...
+Ihr fühlt Euch für einen Moment extrem nervös ...
 %%%%
 A malignant aura surrounds %s.
-Eine bösartige Aura umgibt%s.
-%%%%
-%s death curse
-
+Eine bösartige Aura umgibt {acc}%s.
 %%%%
 
 ##################
@@ -19189,9 +19189,6 @@ Dornige Briars tauchen aus dem Boden auf!
 %%%%
 Zin's power protects your fellow warrior from evil magic!
 Zins Macht schützt Euren Mitkrieger vor böser Magie!
-%%%%
-%s shudders.
-
 %%%%
 Send 'em back where they came from!
 Schick sie zurück, wo sie herkommen!

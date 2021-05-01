@@ -93,8 +93,9 @@ SKIP_FILES = [
 # These files are evaluated differently. We ignore all strings unless we have a reason to extract them,
 # as opposed to extracting all strings unless we have a reason to ignore them.
 LAZY_FILES = [
-    # a lot of stuff in here is path/file names and/or stuff that happens before localisation is init'd
-    'files.cc'
+    # a lot of stuff in files.cc is path/file names and/or stuff that happens before localisation is init'd
+    'files.cc',
+    'fineff.cc'
 ]
 
 files = []
@@ -186,6 +187,8 @@ for filename in files:
             extract = False
 
             if 'localise' in line:
+                extract = True
+            elif 'simple_monster_message' in line or 'simple_god_message' in line:
                 extract = True
             elif re.search(r'mpr[a-zA-Z_]* *\(', line):
                 # extract mpr, mprf, etc. messages, unless they are diagnostics
