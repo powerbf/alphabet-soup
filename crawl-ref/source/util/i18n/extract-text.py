@@ -93,7 +93,7 @@ SKIP_FILES = [
 # These files are evaluated differently. We ignore all strings unless we have a reason to extract them,
 # as opposed to extracting all strings unless we have a reason to ignore them.
 LAZY_FILES = [
-    'dgn-overview.cc', 'files.cc','fineff.cc'
+    'dgn-overview.cc', 'end.cc', 'files.cc','fineff.cc'
 ]
 
 files = []

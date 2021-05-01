@@ -130,9 +130,9 @@ bool fatal_error_notification(string error_msg)
     // Escape '<'.
     // NOTE: This assumes that the error message doesn't contain
     //       any formatting!
-    error_msg = string("Fatal error:\n\n<lightred>") // noextract
-                       + replace_all(error_msg, "<", "<<"); // noextract
-    error_msg += "</lightred>\n\n<cyan>"; // noextract
+    error_msg = string("Fatal error:\n\n<lightred>")
+                       + replace_all(error_msg, "<", "<<");
+    error_msg += "</lightred>\n\n<cyan>";
     error_msg += localise("Hit any key to exit, ctrl-p for the full log.");
     error_msg += "</cyan>";
     linebreak_string(error_msg, cgetsize(GOTO_CRT).x - 1);
@@ -279,16 +279,16 @@ static string _exit_type_to_string(game_exit e)
     // some of these may be used by webtiles, check before editing
     switch (e)
     {
-        case game_exit::unknown: return "unknown"; // noextract
-        case game_exit::win:     return "won";  // noextract
-        case game_exit::leave:   return "bailed out"; // noextract
-        case game_exit::quit:    return "quit"; // noextract
-        case game_exit::death:   return "dead"; // noextract
-        case game_exit::save:    return "save"; // noextract
-        case game_exit::abort:   return "abort"; // noextract
-        case game_exit::crash:   return "crash"; // noextract
+        case game_exit::unknown: return "unknown";
+        case game_exit::win:     return "won";
+        case game_exit::leave:   return "bailed out";
+        case game_exit::quit:    return "quit";
+        case game_exit::death:   return "dead";
+        case game_exit::save:    return "save";
+        case game_exit::abort:   return "abort";
+        case game_exit::crash:   return "crash";
     }
-    return "BUGGY EXIT TYPE"; // noextract
+    return "BUGGY EXIT TYPE";
 }
 
 class HiscoreScroller : public Scroller
@@ -336,7 +336,7 @@ NORETURN void end_game(scorefile_entry &se)
 
     for (auto &item : you.inv)
         if (item.defined() && item_type_unknown(item))
-            add_inscription(item, "unknown"); // noextract
+            add_inscription(item, "unknown");
 
     identify_inventory();
 
