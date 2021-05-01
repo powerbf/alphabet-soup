@@ -144,7 +144,7 @@ bool move_notable_thing(const coord_def& orig, const coord_def& dest)
 static string coloured_branch(branch_type br)
 {
     if (br < 0 || br >= NUM_BRANCHES)
-        return "<lightred>Buggy buglands</lightred>"; // noextract
+        return "<lightred>Buggy buglands</lightred>";
 
     return "<yellow>" + localise(branches[br].shortname) + "</yellow>";
 }
@@ -153,18 +153,18 @@ static string shoptype_to_string(shop_type s)
 {
     switch (s)
     {
-    case SHOP_WEAPON:          return "<w>(</w>"; // noextract
-    case SHOP_WEAPON_ANTIQUE:  return "<yellow>(</yellow>"; // noextract
-    case SHOP_ARMOUR:          return "<w>[</w>"; // noextract
-    case SHOP_ARMOUR_ANTIQUE:  return "<yellow>[</yellow>"; // noextract
-    case SHOP_GENERAL:         return "<w>*</w>"; // noextract
-    case SHOP_GENERAL_ANTIQUE: return "<yellow>*</yellow>"; // noextract
-    case SHOP_JEWELLERY:       return "<w>=</w>"; // noextract
-    case SHOP_EVOKABLES:       return "<w>}</w>"; // noextract
-    case SHOP_BOOK:            return "<w>:</w>"; // noextract
-    case SHOP_DISTILLERY:      return "<w>!</w>"; // noextract
-    case SHOP_SCROLL:          return "<w>?</w>"; // noextract
-    default:                   return "<w>x</w>"; // noextract
+    case SHOP_WEAPON:          return "<w>(</w>";
+    case SHOP_WEAPON_ANTIQUE:  return "<yellow>(</yellow>";
+    case SHOP_ARMOUR:          return "<w>[</w>";
+    case SHOP_ARMOUR_ANTIQUE:  return "<yellow>[</yellow>";
+    case SHOP_GENERAL:         return "<w>*</w>";
+    case SHOP_GENERAL_ANTIQUE: return "<yellow>*</yellow>";
+    case SHOP_JEWELLERY:       return "<w>=</w>";
+    case SHOP_EVOKABLES:       return "<w>}</w>";
+    case SHOP_BOOK:            return "<w>:</w>";
+    case SHOP_DISTILLERY:      return "<w>!</w>";
+    case SHOP_SCROLL:          return "<w>?</w>";
+    default:                   return "<w>x</w>";
     }
 }
 
@@ -204,7 +204,7 @@ static string _portals_description_string()
             if (entry.second == it->id)
             {
                 if (last_id.depth == 10000)
-                    disp += coloured_branch(entry.second)+ ":"; // noextract
+                    disp += coloured_branch(entry.second)+ ":";
 
                 if (entry.first.id == last_id)
                     disp += '*';
@@ -218,7 +218,7 @@ static string _portals_description_string()
                 // Portals notes (Trove price).
                 const string note = portal_notes[entry.first];
                 if (!note.empty())
-                    disp += " (" + note + ")"; // noextract
+                    disp += " (" + note + ")";
             }
         }
         if (last_id.depth != 10000)
@@ -237,7 +237,7 @@ string overview_description_string(bool display)
     string heading = localise("Dungeon Overview and Level Annotations");
     heading = chop_string(heading, DISPLAY_WIDTH, false);
     string padding = string((DISPLAY_WIDTH - strwidth(heading)) / 2, ' ');
-    disp += padding + "<white>" + heading + "</white>\n"; // noextract
+    disp += padding + "<white>" + heading + "</white>\n";
 
     disp += _get_branches(display);
     disp += _get_altars(display);
@@ -312,7 +312,7 @@ static string _get_seen_branches(bool display)
             }
             else
             {
-                visited = make_stringf("(%d/%d)", lid.depth, brdepth[branch]); // noextract
+                visited = make_stringf("(%d/%d)", lid.depth, brdepth[branch]);
                 disp += "<darkgrey>" + visited + "</darkgrey>";
                 remaining -= strwidth(visited);
                 disp += chop_string(entry_desc, remaining, !right_col);
@@ -362,9 +362,9 @@ static string _get_unseen_branches()
                 string desc = branch_abbrev_local(it->id);
                 desc = chop_string(desc, 8, true, true);
 
-                desc += ": "; // noextract
+                desc += ": ";
                 desc += branch_abbrev_local(parent);
-                desc += ":"; // noextract
+                desc += ":";
                 desc += to_string(it->mindepth);
 
                 if (it->mindepth != it->maxdepth)
@@ -446,34 +446,34 @@ static string _print_altars_for_gods(const vector<god_type>& gods,
             continue;
         }
 
-        colour = "darkgrey"; // noextract
+        colour = "darkgrey";
         if (has_altar_been_seen)
-            colour = "white"; // noextract
+            colour = "white";
         // Good gods don't inflict penance unless they hate your god.
         if (player_under_penance(god)
             && (xp_penance(god) || active_penance(god)))
         {
-            colour = (you.penance[god] > 10) ? "red" : "lightred"; // noextract
+            colour = (you.penance[god] > 10) ? "red" : "lightred";
         }
         // Indicate good gods that you've abandoned, though.
         else if (player_under_penance(god))
-            colour = "magenta"; // noextract
+            colour = "magenta";
         else if (you_worship(god))
-            colour = "yellow"; // noextract
+            colour = "yellow";
         else if (god_likes_your_god(god) && has_altar_been_seen)
             colour = "brown";
 
-        if (!print_unseen && !strcmp(colour, "darkgrey")) // noextract
+        if (!print_unseen && !strcmp(colour, "darkgrey"))
             continue;
 
         if (is_unavailable_god(god))
-            colour = "darkgrey"; // noextract
+            colour = "darkgrey";
 
         string disp_name = uppercase_first(localise(god_name(god, false)));
         if (god == GOD_GOZAG && !you_worship(GOD_GOZAG))
-            disp_name += make_stringf(" ($%d)", gozag_service_fee()); // noextract
+            disp_name += make_stringf(" ($%d)", gozag_service_fee());
 
-        snprintf(buffer, sizeof buffer, "<%s>%s</%s>", // noextract
+        snprintf(buffer, sizeof buffer, "<%s>%s</%s>",
                  colour, disp_name.c_str(), colour);
         disp += buffer;
         num_printed++;
@@ -791,13 +791,13 @@ static void _update_tracked_feature_annot(dungeon_feature_type feat,
     const int new_num = env.properties[feat_key];
     const char *feat_desc = get_feature_def(feat).name;
 
-    string old_string = string("%d ") + feat_desc; // noextract
+    string old_string = string("%d ") + feat_desc;
     string new_string = old_string;
 
-    old_string += old_num == 1 ? "" : "s"; // noextract
+    old_string += old_num == 1 ? "" : "s";
     old_string = localise(old_string, old_num);
 
-    new_string += new_num == 1 ? "" : "s"; // noextract
+    new_string += new_num == 1 ? "" : "s";
     new_string = localise(new_string, new_num);
 
     //TODO: regexes
@@ -1095,6 +1095,8 @@ bool connected_branch_can_exist(branch_type br)
 */
 static void _show_dungeon_overview(vector<branch_type> brs)
 {
+    const string fmt = "(%c) %-14s ";
+
     clear_messages();
     int linec = 0;
     string line;
@@ -1106,7 +1108,7 @@ static void _show_dungeon_overview(vector<branch_type> brs)
             mpr_nolocalise(line);
             line = "";
         }
-        line += localise("(%c) %-14s ", // noextract
+        line += localise(fmt,
                          branches[br].travel_shortcut,
                          branches[br].shortname);
         ++linec;
