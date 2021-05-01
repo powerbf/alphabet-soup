@@ -1119,13 +1119,7 @@ Ihr krümmt Euch
 The lance glows brightly as it skewers %s. You feel that it has reached its full power.
 
 %%%%
-<white>%s</white>
-
-%%%%
 The lance glows as it skewers %s.
-
-%%%%
-<green>%s</green>
 
 %%%%
 You are blasted by disruptive energy
@@ -1322,6 +1316,9 @@ Der Krummsäbel hört auf zu flammen.
 %%%%
 You feel a darkness envelop your magic.
 Ihr fühlt eine Dunkelheit, die Eure Magie umhüllt.
+%%%%
+A voice whispers, "%s"
+
 %%%%
 The darkness slowly releases its grasp on your magic.
 
@@ -7279,9 +7276,6 @@ Wirklich beschwöre, während Ihr eine giftige Aura ausstrahlt?
 # files.cc
 ##################
 %%%%
-" /\:"
-
-%%%%
 Empty file name.
 
 %%%%
@@ -7294,100 +7288,31 @@ Empty file name.
 "%s" contains ".." sequences.
 
 %%%%
-\
-
-%%%%
-../Resources/
-
-%%%%
-/sdcard/Android/data/org.develz.crawl/files/
-
-%%%%
-dat
-
-%%%%
-dat/tiles
-
-%%%%
-docs
-
-%%%%
-settings
-
-%%%%
-clua
-
-%%%%
-database
-
-%%%%
-defaults
-
-%%%%
-des
-
-%%%%
-descript
-
-%%%%
-dlua
-
-%%%%
 Data directory '%s' found.
 Datenverzeichnis '%s' gefunden.
 %%%%
 Incomplete or corrupted data directory '%s'
 
 %%%%
-Missing DCSS data directory; tried: \n
+Missing DCSS data directory; tried:
 
 %%%%
-Cannot find data file '%s' anywhere, aborting\n
+%s "%s" does not exist and I can't create it.
 
 %%%%
-Save directory
+Could not load '%s'
 
 %%%%
-Bones directory
+Your summoned ally is left behind.
 
 %%%%
-bones
+Your summoned allies are left behind.
 
 %%%%
-cache.
+Your mindless thrall stays behind.
 
 %%%%
-tdl
-
-%%%%
-start-
-
-%%%%
--ns.prf
-
-%%%%
-start-ns.prf
-
-%%%%
-Your summoned %s left behind.
-Eure herbeigerufenen%s sind zurückgeblieben.
-%%%%
-allies are
-
-%%%%
-ally is
-
-%%%%
-Your mindless thrall%s behind.
-Euer gedankenloser Thrall%s zurück.
-%%%%
-s stay
-
-%%%%
-" stays"
-
-%%%%
-Error: you smelly wizard, how dare you enter the same level (%s) twice! It will be trampled upon return.\nThe stack has: %s.
+Your mindless thralls stay behind.
 
 %%%%
 Second portal entrance for %s!
@@ -7396,19 +7321,16 @@ Zweiter Portaleingang für %s!
 Portal %s already exists!
 
 %%%%
-Level file is invalid.
+Generating dungeon...
 
 %%%%
-Generating dungeon...\n\n
+building a lair branch
 
 %%%%
-"\nbuilding "
+building another lair branch
 
 %%%%
-a lair branch
-
-%%%%
-another lair branch
+building %s
 
 %%%%
 Emergency fixup: removing player from wall at %d,%d. Please report this as a bug!
@@ -7417,80 +7339,17 @@ Emergency fixup: removing player from wall at %d,%d. Please report this as a bug
 Level annotation: %s
 Ebenenanmerkung: %s
 %%%%
-Fixing up corrupted PlaceInfo for %s (levels_seen is %d)
-
-%%%%
 %s slides away from you right after you %s it!
 %s rutscht direkt nach Euch von Euch weg %s es!
 %%%%
 %s settles down.
 %s beruhigt sich.
 %%%%
-st
-
-%%%%
-stashes
-
-%%%%
-lua
-
-%%%%
-kil
-
-%%%%
-kills
-
-%%%%
-tc
-
-%%%%
-nts
-
-%%%%
-notes
-
-%%%%
-tut
-
-%%%%
-tutorial
-
-%%%%
-msg
-
-%%%%
-messages
-
-%%%%
-chr
-
-%%%%
-saved
-
-%%%%
-"See you soon, "
-
-%%%%
-Hells
-
-%%%%
-:
-
-%%%%
--
-
-%%%%
-bones.
-
-%%%%
-store.
+See you soon, %s!
 
 %%%%
 Bones file exists but can't be opened: %s
 Bones-Datei existiert, kann aber nicht geöffnet werden: %s
-%%%%
-wb
-
 %%%%
 Unable to open bones file %s for writing
 Bones-Datei %s kann nicht zum Schreiben geöffnet werden
@@ -7499,15 +7358,6 @@ Error installing bones file to %s
 Fehler beim Installieren der Bones-Datei auf %s
 %%%%
 Failed to unlink probably corrupt bones file: %s
-
-%%%%
-.backup
-
-%%%%
-%s-v%d.%d.backup
-
-%%%%
-rb
 
 %%%%
 Bones file to back up doesn't exist: %s
@@ -7522,22 +7372,7 @@ Fehler beim Sichern der Bones-Datei auf%s
 Ghost file "%s" seems to be invalid (short read); deleting it.
 
 %%%%
-"Incompatible bones file: "
-
-%%%%
-"Broken bones file: "
-
-%%%%
-"Bones file is buggy: "
-
-%%%%
 Mismatch between bones backup filename '%s' and version %d.%d!
-
-%%%%
-Failed to unlink bad bones file
-
-%%%%
-Clearing bad bones file
 
 %%%%
 Failed to unlink bones file: %s
@@ -7549,113 +7384,95 @@ Platzierter Geist lebt nicht.
 Placed ghost is not MONS_PLAYER_GHOST, but %s
 Platzierter Geist ist nicht MONS_PLAYER_GHOST, sondern%s
 %%%%
-regular
+There is an existing game for name '%s' from an incompatible version of Crawl (%s).
 
 %%%%
-There is an existing game for name '
+Unless you reinstall that version, you can't load it.
 
 %%%%
-' from an incompatible version of Crawl (
+Do you want to DELETE that game and start a new one?
 
 %%%%
-).\nUnless you reinstall that version, you can't load it.\nDo you want to DELETE that game and start a new one?
+%s is from an incompatible version and can't be loaded.
 
 %%%%
-" is from an incompatible version and can't be loaded."
+You already have a %s game saved under the name '%s';
 
 %%%%
-"You already have a "
+do you want to load that instead?
 
 %%%%
-" game saved under the name '"
+Please use a different name to start a new %s game, then.
 
 %%%%
-';\ndo you want to load that instead?
+This game comes from a previous release of Crawl (%s).
 
 %%%%
-"Please use a different name to start a new "
+If you load it now, you won't be able to go back. Continue?
 
 %%%%
-" game, then."
+Please use version %s to load %s then.
 
 %%%%
-This game comes from a previous release of Crawl (
+There exists a save by that name but it appears to be invalid.
 
 %%%%
-).\n\nIf you load it now, you won't be able to go back. Continue?
+Do you want to delete it?
 
 %%%%
-"Please use version "
+Error: %s
+Fehler:%s
+%%%%
+This Lava Orc save game cannot be loaded as-is.
 
 %%%%
-" to load "
-
-%%%%
-" then."
-
-%%%%
-Save data is invalid.
-
-%%%%
-There exists a save by that name but it appears to be invalid.\nDo you want to delete it?\nError: %s
-
-%%%%
-Aborting; you may try to recover it somehow.
-
-%%%%
-This Lava Orc save game cannot be loaded as-is. If you load it now,\nyour character will be converted to a Hill Orc. Continue?
+If you load it now, your character will be converted to a Hill Orc. Continue?
 
 %%%%
 Please load the save in an earlier version if you want to keep it as a Lava Orc.
 
 %%%%
-This Djinni save game cannot be loaded as-is. If you load it now,\nyour character will be converted to a Vine Stalker. Continue?
+This Djinni save game cannot be loaded as-is.
+
+%%%%
+If you load it now, your character will be converted to a Vine Stalker. Continue?
 
 %%%%
 Please load the save in an earlier version if you want to keep it as a Djinni.
 
 %%%%
-Save file corrupted (info > 1KB)
+File is corrupt (found version %d.%d).
 
 %%%%
-Incompatible character data
+This save is from an older version.
 
 %%%%
-Save file corrupted
+%s %s is not compatible with save files this old. You can:
 
 %%%%
-File is corrupt (found version %d,%d).
+" • continue your game with an older version of %s"
 
 %%%%
-This save is from an older version.\n\n
+" • delete it and start a new game"
 
 %%%%
-" %s is not compatible with save files this old. You can:\n • continue your game with an older version of "
+This save's version: (%d.%d) (must be >= %d.%d)
 
 %%%%
-\n • delete it and start a new game\n\nThis save's version: (%d.%d) (must be >= %d.%d)
+This save is from a newer version.
 
 %%%%
-This save is from a newer version.\n\n
+%s cannot load saves from newer versions. You can:
 
 %%%%
-" cannot load saves from newer versions. You can:\n • continue your game with a newer version of "
+" • continue your game with a newer version of %s"
 
 %%%%
-\n • delete it and start a new game\n\nThis save's version: (%d.%d) (must be <= %d.%d)
-
-%%%%
-truncated save chunk (%s)
+This save's version: (%d.%d) (must be <= %d.%d)
 
 %%%%
 ERROR: Could not lock file %s
 FEHLER: Datei%s konnte nicht gesperrt werden
-%%%%
-Unable to open lock file "%s"
-
-%%%%
-w
-
 %%%%
 
 ##################
@@ -8062,6 +7879,9 @@ Bad %s: %d should be >= %d
 
 %%%%
 Bad %s: %d should be <<= %d
+
+%%%%
+:
 
 %%%%
 Bad %s pair: '%s'
@@ -10598,6 +10418,9 @@ finished stashes
 finished random %d
 
 %%%%
+tut
+
+%%%%
 Remember to rest between fights and to enter unexplored terrain with full health and magic. Ideally you should retreat into areas you've already explored and cleared of monsters; resting on the edge of the explored terrain increases the chances of your rest being interrupted by wandering monsters. For resting, press <w>5</w> or <w>Shift-numpad 5</w><tiles>, or <w>click the rest button</w></tiles>.
 
 %%%%
@@ -11770,6 +11593,9 @@ Fehler, keine Nachricht für '%s'.
 scores
 
 %%%%
+-
+
+%%%%
 logfile
 
 %%%%
@@ -12128,6 +11954,9 @@ urune
 
 %%%%
 nrune
+
+%%%%
+kills
 
 %%%%
 maxskills
@@ -12816,6 +12645,9 @@ diagnostic
 error
 
 %%%%
+tutorial
+
+%%%%
 sling
 
 %%%%
@@ -13024,6 +12856,9 @@ crawl.setopt([==[
 
 %%%%
 User lua is disabled in this build! (file: %s)
+
+%%%%
+Save directory
 
 %%%%
 Cannot create save directory '%s'
@@ -13593,6 +13428,9 @@ save-json
 gametypes-json
 
 %%%%
+bones
+
+%%%%
 webtiles-socket
 
 %%%%
@@ -13609,6 +13447,9 @@ Crawl version %s%s
 
 %%%%
 Save file version %d.%d%s
+
+%%%%
+chr
 
 %%%%
 Save file is invalid.
@@ -16377,6 +16218,9 @@ M:
 (Key replay ran out of keys)
 (Die Schlüsselwiedergabe hat keine Schlüssel mehr)
 %%%%
+\
+
+%%%%
 Flushing non-empty key buffer (Buffer is '%s')
 
 %%%%
@@ -16809,6 +16653,9 @@ Ihr beginnt mit {dat}%s%s%s.
 
 %%%%
 " Halloween"
+
+%%%%
+<yellow>%s</yellow>
 
 %%%%
 " newgame"
@@ -17326,6 +17173,9 @@ epilogue
 .lk
 
 %%%%
+rb
+
+%%%%
 .dsc
 
 %%%%
@@ -17708,13 +17558,13 @@ position (%d,%d)
 # maps.cc
 ##################
 %%%%
-Error: %s
-Fehler:%s
-%%%%
 Lua validation for map %s failed.
 
 %%%%
 entry
+
+%%%%
+des
 
 %%%%
 Data file cache
@@ -17733,6 +17583,9 @@ Unable to read %s
 
 %%%%
 Unable to open %s for writing
+
+%%%%
+wb
 
 %%%%
 Failed to open %s for reading
@@ -20324,6 +20177,9 @@ explosion is contained
 %%%%
 %s blazes out!
 %s geht aus!
+%%%%
+"Unknown spore type: "
+
 %%%%
 By Zin's power, the fiery explosion is contained.
 
@@ -27037,6 +26893,9 @@ No level %d spells?!?!?!
 Could not create fixed level randart spellbook: %s
 "Randart-Zauberbuch mit festem Level konnte nicht erstellt werden: %s "
 %%%%
+%s%s of %s
+
+%%%%
 "highlevel "
 
 %%%%
@@ -29454,6 +29313,9 @@ majin-bo cast weak
 majin-bo cast
 
 %%%%
+A voice whispers, "
+
+%%%%
 "Cast which spell? (? or * to list) "
 "Welchen Zauber wirken? (? oder * auflisten) "
 %%%%
@@ -29527,6 +29389,9 @@ will probably split
 
 %%%%
 chance to affect: %d%%
+
+%%%%
+w
 
 %%%%
 Aiming
@@ -33059,6 +32924,9 @@ Die Runensiegel verschwinden.
 The runic seal fades away.
 Das Runensiegel verschwindet.
 %%%%
+Hells
+
+%%%%
 As you enter the new level, Zot loses track of you.
 
 %%%%
@@ -34331,6 +34199,9 @@ Wert: %d
 %%%%
 Failed to generate item for '%s'
 Fehler beim Generieren des Elements für '%s'
+%%%%
+"Made "
+
 %%%%
 Make an artefact out of which item?
 
