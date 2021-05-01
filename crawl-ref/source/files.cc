@@ -534,11 +534,10 @@ void validate_basedirs()
     // can't proceed if nothing complete was found.
     if (!found)
     {
-        string err = localise("Missing DCSS data directory; tried:");
-        err += "\n";
-        err += comma_separated_line(bases.begin(), bases.end());
+        string err = "Missing DCSS data directory; tried:"; // localise
+        string dirs = comma_separated_line(bases.begin(), bases.end());
 
-        end(1, false, "%s", err.c_str());
+        end(1, false, "%s\n%s", err.c_str(), dirs.c_str()); // noextract
     }
 }
 
@@ -563,7 +562,7 @@ string datafile_path(string basename, bool croak_on_fail, bool test_base_path,
     // Die horribly.
     if (croak_on_fail)
     {
-        end(1, false, "Cannot find data file '%s' anywhere, aborting\n",
+        end(1, false, "Cannot find data file '%s' anywhere, aborting",
             basename.c_str());
     }
 
@@ -3438,7 +3437,7 @@ static bool _restore_tagged_chunk(package *save, const string &name,
             return false;
         }
         else
-            end(-1, false, "\n%s %s\n", complaint, reason.c_str());
+            end(-1, false, "\n%s %s\n", complaint, reason.c_str()); // noextract
     }
 
     crawl_state.minor_version = inf.getMinorVersion();

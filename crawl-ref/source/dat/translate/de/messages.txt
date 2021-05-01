@@ -7297,6 +7297,9 @@ Incomplete or corrupted data directory '%s'
 Missing DCSS data directory; tried:
 
 %%%%
+Cannot find data file '%s' anywhere, aborting
+
+%%%%
 %s "%s" does not exist and I can't create it.
 
 %%%%
@@ -7390,6 +7393,9 @@ Platzierter Geist lebt nicht.
 Placed ghost is not MONS_PLAYER_GHOST, but %s
 Platzierter Geist ist nicht MONS_PLAYER_GHOST, sondern%s
 %%%%
+regular
+
+%%%%
 There is an existing game for name '%s' from an incompatible version of Crawl (%s).
 
 %%%%
@@ -7480,6 +7486,9 @@ This save's version: (%d.%d) (must be <= %d.%d)
 ERROR: Could not lock file %s
 FEHLER: Datei%s konnte nicht gesperrt werden
 %%%%
+Unable to open lock file "%s"
+
+%%%%
 
 ##################
 # fineff.cc
@@ -7556,16 +7565,16 @@ Eine bösartige Aura umgibt {acc}%s.
 Could not find font '%s'
 
 %%%%
-Could not read font '%s'\n
+Could not read font '%s'
 
 %%%%
-Could not read font '%s': %s\n
+Could not read font '%s': %s
 
 %%%%
-Unknown font format for file '%s'\n
+Unknown font format for file '%s'
 
 %%%%
-Invalid font from file '%s' (size %lu): 0x%0x\n
+Invalid font from file '%s' (size %lu): 0x%0x
 
 %%%%
 
@@ -13609,7 +13618,7 @@ Bones file '%s' is from the future (%d.%d), this instance of crawl needs %d.%d.\
 Error: %s\n
 
 %%%%
-mapstat and objstat are available only in DEBUG_STATISTICS builds.\n
+mapstat and objstat are available only in DEBUG_STATISTICS builds.
 
 %%%%
 list
@@ -16488,7 +16497,7 @@ Ctrl-%c
 UTF-8
 
 %%%%
-Error: truncation inside the save file.\n
+Error: truncation inside the save file.
 
 %%%%
 <yellow>Welcome

@@ -155,7 +155,7 @@ for filename in files:
                 continue
 
             # remove comment
-            if '//' in line:
+            if '//' in line and not re.search('// *localise', line):
                 line = strip_comment(line)
 
             line = line.strip()
@@ -198,6 +198,8 @@ for filename in files:
                     extract = True
             elif re.search(r'prompt[a-zA-Z_]* *\(', line) or 'yesno' in line:
                 # extract prompts
+                extract = True
+            elif re.match(r'\s*end *\(', line):
                 extract = True
             elif re.search(r'\bsave_game *\(', line):
                 extract = True

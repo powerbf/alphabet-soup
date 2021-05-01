@@ -105,7 +105,7 @@ bool fatal_error_notification(string error_msg)
         cio_init(); // this, however, should be fairly safe
 #endif
 
-    mprf(MSGCH_ERROR, "%s", error_msg.c_str());
+    mpr_nolocalise(MSGCH_ERROR, error_msg);
 
     if (!ui::is_available() || msg::uses_stderr(MSGCH_ERROR))
         return false;
@@ -178,14 +178,13 @@ NORETURN void end(int exit_code, bool print_error, const char *format, ...)
         {
             va_list arg;
             va_start(arg, format);
-            char buffer[1024];
-            vsnprintf(buffer, sizeof buffer, format, arg);
+            string error2 = vlocalise(format, arg);
             va_end(arg);
 
             if (error.empty())
-                error = string(buffer);
+                error = error2;
             else
-                error = string(buffer) + ": " + error;
+                error = error2 + ": " + error;
 
             if (!error.empty() && error[error.length() - 1] != '\n')
                 error += "\n";
