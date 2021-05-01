@@ -231,6 +231,7 @@ for filename in files:
                 # ignore debug messages
                 if re.search(r'\bdie(_noline)? *\(', line) or \
                    re.search(r'dprf? *\(', line) or \
+                   re.search(r'dprintf *\(', line) or \
                    re.search(r'debug_dump_item *\(', line) or \
                    re.search(r'ASSERTM? *\(', line) or \
                    'log_print' in line or \

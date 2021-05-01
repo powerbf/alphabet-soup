@@ -7553,9 +7553,6 @@ Eine bösartige Aura umgibt {acc}%s.
 # fontwrapper-ft.cc
 ##################
 %%%%
-new font tex %d x %d x 4 = %dpx %d bytes\n
-
-%%%%
 Could not find font '%s'
 
 %%%%
@@ -25079,9 +25076,6 @@ Ring
 # package.cc
 ##################
 %%%%
-package: initializing file="%s" rw=%d\n
-
-%%%%
 can't create save file (%s)
 
 %%%%
@@ -25092,9 +25086,6 @@ can't open save file (%s)
 
 %%%%
 Another game is already in progress using this save!
-
-%%%%
-package: initializing tmp file\n
 
 %%%%
 [tmp]
@@ -25121,9 +25112,6 @@ save file (%s) corrupted -- not a DCSS save file
 save file (%s) is not seekable
 
 %%%%
-package: finalizing\n
-
-%%%%
 failed to update save file
 
 %%%%
@@ -25133,9 +25121,6 @@ write error while saving
 can't close the save I've just read???
 
 %%%%
-package: closed\n
-
-%%%%
 flush error while saving
 
 %%%%
@@ -25143,30 +25128,6 @@ save file corrupted -- invalid offset
 
 %%%%
 failed to seek inside the save file
-
-%%%%
-reusing %u of %u at %u\n
-
-%%%%
-found a block for reuse at %u size %u\n
-
-%%%%
-freeing chunk(%s)\n
-
-%%%%
-writing directory (%u bytes)\n
-
-%%%%
-deleting an in-use chain at %d\n
-
-%%%%
-freeing an unlinked chain at %d\n
-
-%%%%
-+- at %d size=%d+header\n
-
-%%%%
-package: reading directory\n
 
 %%%%
 save file corrupted -- truncated directory
@@ -25181,19 +25142,10 @@ error reading the save file
 save file corrupted -- block past eof
 
 %%%%
-{at %u size %u+header}\n
-
-%%%%
 save file corrupted -- overlapping blocks
 
 %%%%
-chunk_writer(%s): starting\n
-
-%%%%
 save file compression failed during init: %s
-
-%%%%
-chunk_writer(%s): closing\n
 
 %%%%
 save file compression failed: %s
@@ -25208,16 +25160,7 @@ save file corrupted -- zlib header missing
 save file decompression failed during init: %s
 
 %%%%
-chunk_reader[%u]: starting\n
-
-%%%%
 save file corrupted -- chunk "%s" missing
-
-%%%%
-chunk_reader(%s): starting\n
-
-%%%%
-chunk_reader: closing\n
 
 %%%%
 save file decompression failed during clean-up: %s
