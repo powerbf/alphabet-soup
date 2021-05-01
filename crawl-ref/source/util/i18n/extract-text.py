@@ -90,6 +90,13 @@ SKIP_FILES = [
     'lang-fake.h', 'lang-fake.cc'
 ]
 
+# These files are evaluated differently. We ignore all strings unless we have a reason to extract them,
+# as opposed to extracting all strings unless we have a reason to ignore them.
+LAZY_FILES = [
+    # a lot of stuff in here is path/file names and/or stuff that happens before localisation is init'd
+    'files.cc'
+]
+
 files = []
 if len(sys.argv) > 1:
     # use list of files specified on command line
@@ -125,6 +132,8 @@ output = []
 
 for filename in files:
 
+    lazy = (filename in LAZY_FILES)
+
     strings = []
 
     with open(filename) as infile:
@@ -141,7 +150,7 @@ for filename in files:
         for line in lines_raw:
 
             # ignore strings explicitly marked as not to be extracted
-            if "noextract" in line:
+            if 'noextract' in line or 'noloc' in line:
                 continue
 
             # remove comment
@@ -174,72 +183,106 @@ for filename in files:
             if '"' not in line:
                 continue
 
-            # ignore precompiler directives, except #define
-            if line[0] == '#' and not re.match(r'^#\s*define', line):
-                continue
+            extract = False
 
-            if re.search('extern +"C"', line):
-                continue
+            if 'localise' in line:
+                extract = True
+            elif re.search(r'mpr[a-zA-Z_]* *\(', line):
+                # extract mpr, mprf, etc. messages, unless they are diagnostics
+                if 'MSGCH_DIAGNOSTICS' in line:
+                    continue
+                else:
+                    extract = True
+            elif re.search(r'prompt[a-zA-Z_]* *\(', line) or 'yesno' in line:
+                # extract prompts
+                extract = True
+            elif re.search(r'\bsave_game *\(', line):
+                extract = True
+                
+            if lazy:
+                # ignore strings unless we have a specific reason to extract them
+                if not extract:
+                    continue 
 
-            # ignore debug messages
-            if re.search(r'\bdie *\(', line) or \
-               re.search(r'dprf? *\(', line) or \
-               re.search(r'debug_dump_item *\(', line) or \
-               re.search(r'ASSERTM? *\(', line) or \
-               'log_print' in line or \
-               'MSGCH_DIAGNOSTICS' in line or \
-               re.search(r'fprintf *\(', line):
-                continue
+            # we don't want to extract the db key used with getSpeakString(), etc.,
+            # but we don't necessarily want to ignore the whole line because
+            # sometimes there are other strings present that we do want to extract
+            if re.search(r'\bget[a-zA-Z]*String', line):
+                line = re.sub(r'\b(get[a-zA-Z]*String) *\(.*\)', r'\1()', line)
 
-            # ignore axed stuff
-            if 'AXED' in line:
-                continue
+                if '"' not in line:
+                    continue
 
-            # ignore file open (will have file name and mode as strings)
-            if re.search(r'\bfopen(_u)? *\(', line):
-                continue
 
-            # ignore lua function calls
-            if re.search(r'call[a-zA-Z]*fn *\(', line):
-                continue
+            if not extract:
+                # if we get here then we are not in lazy mode
+                # extract strings unless we have reason to ignore them
 
-            # Leave notes/milsones in English
-            if re.search('take_note', line) or re.search('mark_milestone', line):
-                continue
-            if re.search(r'mutate\s*\(', line):
-                continue
+                # ignore precompiler directives, except #define
+                if line[0] == '#' and not re.match(r'^#\s*define', line):
+                    continue
 
-            # ouch and hurt strings just go to score file
-            if re.search(r'\bouch\s*\(', line) or re.search(r'\bhurt\s*\(', line):
-                continue
+                if re.search('extern +"C"', line):
+                    continue
 
-            # skip tags/keys
-            if re.search(r'^[^"]*_tag\(', line) and not re.search('text_tag', line):
-                continue
-            if re.search(r'strip_tag_prefix *\(', line):
-                continue
-            if 'json_' in line:
-                continue
-            if 'push_ui_layout' in line:
-                continue
-            if re.search(r'\bget[a-zA-Z]*String *\(', line):
-                continue;
-            if re.search(r'\bprops\.erase *\(', line):
-                continue
-            if '_print_converted_orc_speech' in line:
-                continue
-            if 'show_specific_help' in line:
-                continue
-            if re.search('^[^"]*property[A-Za-z_]* *\(', line):
-                continue
-            if re.match(r'^\s*key[A-Za-z_]*\.[A-Za-z_]*\(', line):
-                continue
+                # ignore debug messages
+                if re.search(r'\bdie *\(', line) or \
+                   re.search(r'dprf? *\(', line) or \
+                   re.search(r'debug_dump_item *\(', line) or \
+                   re.search(r'ASSERTM? *\(', line) or \
+                   'log_print' in line or \
+                   re.search(r'fprintf *\(', line):
+                    continue
 
-            # just a find
-            if re.match(r'\bstrstr\s*\(', line):
-                continue
-            if 'search_stashes' in line:
-                continue
+                # ignore axed stuff
+                if 'AXED' in line:
+                    continue
+
+                # ignore file open (will have file name and mode as strings)
+                if re.search(r'\bfopen(_u)? *\(', line):
+                    continue
+
+                # ignore lua function calls
+                if re.search(r'call[a-zA-Z]*fn *\(', line):
+                    continue
+
+                # Leave notes/milsones in English
+                if re.search('take_note', line) or re.search('mark_milestone', line):
+                    continue
+                if re.search(r'mutate\s*\(', line):
+                    continue
+
+                # ouch and hurt strings just go to score file
+                if re.search(r'\bouch\s*\(', line) or re.search(r'\bhurt\s*\(', line):
+                    continue
+
+                # skip tags/keys
+                if re.search(r'^[^"]*_tag\(', line) and not re.search('text_tag', line):
+                    continue
+                if re.search(r'strip_tag_prefix *\(', line):
+                    continue
+                if 'json_' in line:
+                    continue
+                if 'push_ui_layout' in line:
+                    continue
+                if re.search(r'\bprops\.erase *\(', line):
+                    continue
+                if '_print_converted_orc_speech' in line:
+                    continue
+                if 'show_specific_help' in line:
+                    continue
+                if re.search('^[^"]*property[A-Za-z_]* *\(', line):
+                    continue
+                if re.match(r'^\s*key[A-Za-z_]*\.[A-Za-z_]*\(', line):
+                    continue
+
+                # just a find
+                if re.match(r'\bstrstr\s*\(', line):
+                    continue
+                if 'search_stashes' in line:
+                    continue
+
+            extract = True
 
             # tokenize line into string and non-string
             tokens = []
