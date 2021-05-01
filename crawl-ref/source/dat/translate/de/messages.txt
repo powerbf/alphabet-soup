@@ -7339,8 +7339,14 @@ Emergency fixup: removing player from wall at %d,%d. Please report this as a bug
 Level annotation: %s
 Ebenenanmerkung: %s
 %%%%
-%s slides away from you right after you %s it!
-%s rutscht direkt nach Euch von Euch weg %s es!
+The staircase slides away right after you climb it!
+
+%%%%
+The hatch slides away right after you use it!
+
+%%%%
+The portal slides away right after you pass through it!
+
 %%%%
 %s settles down.
 %s beruhigt sich.

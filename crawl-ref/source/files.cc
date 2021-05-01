@@ -2236,13 +2236,16 @@ bool load_level(dungeon_feature_type stair_taken, load_mode_type load_mode,
             {
                 string stair_str = feature_description_at(you.pos(), false,
                                                           DESC_THE);
-                string verb = stair_climb_verb(feat);
 
                 if (coinflip()
                     && slide_feature_over(you.pos()))
                 {
-                    mprf("%s slides away from you right after you %s it!",
-                         stair_str.c_str(), verb.c_str());
+                    if (feat_is_staircase(feat))
+                        mpr("The staircase slides away right after you climb it!");
+                    else if (feat_is_escape_hatch(feat))
+                        mpr("The hatch slides away right after you use it!");
+                    else
+                        mpr("The portal slides away right after you pass through it!");
                 }
 
                 if (coinflip())
