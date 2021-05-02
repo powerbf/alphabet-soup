@@ -7168,6 +7168,9 @@ Den Bereich um %s wird als unsicher für Reisen gezeichnet.
 exclusion not up-to-date: e (%d,%d) p (%d,%d)
 Ausschluss nicht aktuell: e (%d,%d) p (%d,%d)
 %%%%
+%s cloud
+
+%%%%
 " (detected)"
 
 %%%%
@@ -7177,20 +7180,23 @@ upstairs
 downstairs
 
 %%%%
-cloud
+1 exclusion
 
 %%%%
-%d %sexclusion%s
+1 more exclusion
 
 %%%%
-"more "
+%d exclusions
 
 %%%%
-s
+%d more exclusions
 
 %%%%
-exclusion
-Begrenzung
+"exclusions: "
+
+%%%%
+"exclusion: "
+
 %%%%
 
 ##################
@@ -8764,6 +8770,9 @@ stop
 Curse which item? (%d remove curse scroll%s left) (Esc to abort)
 
 %%%%
+s
+
+%%%%
 You can't curse that!
 Das könnt Ihr nicht verfluchen!
 %%%%
@@ -9965,6 +9974,9 @@ Euer Widerstand gegen physischen Schaden lässt nach.
 %%%%
 You feel %sprotected from %s.
 Ihr fühlt Euch %svon %s beschützt.
+%%%%
+"more "
+
 %%%%
 %s mimicks your spell!
 %s ahmt Euren Zauber nach!
@@ -11685,6 +11697,9 @@ mon
 
 %%%%
 pois
+
+%%%%
+cloud
 
 %%%%
 beam
@@ -14129,9 +14144,6 @@ Remov
 Losing flight right now would be fatal!
 Jetzt den Flug zu verlieren wäre tödlich!
 %%%%
-=R
-
-%%%%
 You're already wearing one cursed ring!
 
 %%%%
@@ -14606,9 +14618,6 @@ ch_force_autopickup failed: %s
 ch_force_autopickup fehlgeschlagen:%s
 %%%%
 Your pack is full.
-
-%%%%
-rune of zot
 
 %%%%
 " of zot"
@@ -17337,15 +17346,6 @@ Index out of range: %d
 
 %%%%
 " spectre"
-
-%%%%
--headed hydra
-
-%%%%
-" slime creature"
-
-%%%%
--shaped pillar of salt
 
 %%%%
 archmagi
@@ -20769,9 +20769,6 @@ Eure %s spiegelt %s!
 ##################
 # mon-speak.cc
 ##################
-%%%%
-you.
-
 %%%%
 " banished"
 
@@ -26658,21 +26655,6 @@ Nur [J]a%s, [N]ein oder [B]eenden, bitte.
 # quiver.cc
 ##################
 %%%%
-!Q
-
-%%%%
-=F
-
-%%%%
-=f
-
-%%%%
-+F
-
-%%%%
-+f
-
-%%%%
 You are too injured to fight recklessly!
 
 %%%%
@@ -26803,6 +26785,12 @@ You have nothing to quiver.
 
 %%%%
 <lightred>No regular actions available to quiver.</lightred>
+
+%%%%
++F
+
+%%%%
++f
 
 %%%%
 
