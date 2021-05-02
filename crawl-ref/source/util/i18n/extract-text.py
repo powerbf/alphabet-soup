@@ -281,7 +281,7 @@ for filename in files:
                     continue
 
                 # just a find
-                if re.match(r'\bstrstr\s*\(', line):
+                if re.search(r'\bstrstr\s*\(', line):
                     continue
                 if 'search_stashes' in line:
                     continue
@@ -341,6 +341,8 @@ for filename in files:
                     if '(' in last:
                         # another type of equality test
                         if re.search(r'\bstarts_with\s*\([^,"]+,\s*$', last):
+                            continue
+                        if re.search(r'\bends_with\s*\([^,"]+,\s*$', last):
                             continue
                         if re.search(r'\bfind\s*\(\s*(string\()?$', last):
                             continue
