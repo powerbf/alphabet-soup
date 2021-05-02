@@ -90,6 +90,15 @@ SKIP_FILES = [
     'lang-fake.h', 'lang-fake.cc'
 ]
 
+# These files define data structures containing strings (normally names of things)
+# (stringutil.h is an exception - it contains strings related to list building)
+SPECIAL_FILES = [
+    'stringutil.h', 'mon-data.h',
+    'spl-data.h', 'zap-data.h', 'feature-data.h',
+    'item-prop.cc', 'item-name.cc', 'art-data.h', 
+    'species-data.h', 'job-data.h', 'variant-msg.cc'
+]
+
 # These files are evaluated differently. We ignore all strings unless we have a reason to extract them,
 # as opposed to extracting all strings unless we have a reason to ignore them.
 LAZY_FILES = [
@@ -115,10 +124,7 @@ else:
 
     # put some important files first
     # (because if there are duplicate strings, we want them put under these files)
-    files = [ 'stringutil.h', 'mon-data.h',
-              'spl-data.h', 'zap-data.h', 'feature-data.h',
-              'item-prop.cc', 'item-name.cc', 'art-data.h', 
-              'species-data.h', 'job-data.h', 'variant-msg.cc' ]
+    files = SPECIAL_FILES.copy()
 
     # add wanted source files to list to be processed
     for fname in source_files:
