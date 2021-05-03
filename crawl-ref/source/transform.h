@@ -320,7 +320,6 @@ void remove_one_equip(equipment_type eq, bool meld = true,
 void unmeld_one_equip(equipment_type eq);
 
 monster_type transform_mons();
-string blade_parts(bool terse = false);
 void set_hydra_form_heads(int heads);
 const char* transform_name(transformation form = you.form);
 

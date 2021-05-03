@@ -349,8 +349,9 @@ Verwüst
 Dwarf
 Zwerg
 %%%%
-Blade
-Klinge
+# duplicate : also used as HUD abbreviation for blade hands
+#Blade
+#Klinge
 %%%%
 # Labyrinth
 Lab

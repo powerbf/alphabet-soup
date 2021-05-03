@@ -96,7 +96,7 @@ SPECIAL_FILES = [
     'stringutil.h', 'mon-data.h',
     'spl-data.h', 'zap-data.h', 'feature-data.h',
     'item-prop.cc', 'item-name.cc', 'art-data.h', 
-    'species-data.h', 'job-data.h', 'variant-msg.cc'
+    'species-data.h', 'job-data.h', 'form-data.h', 'variant-msg.cc'
 ]
 
 # These files are evaluated differently. We ignore all strings unless we have a reason to extract them,
