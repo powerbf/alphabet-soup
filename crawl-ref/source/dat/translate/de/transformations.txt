@@ -1,0 +1,535 @@
+###############################################################################
+#
+# Translations for transformations
+#
+###############################################################################
+
+
+################################
+# Spider-form
+################################
+%%%%
+# abbreviation for HUD
+# duplicate (also abbreviation for Spider Nest branch)
+#Spider
+%%%%
+# long name
+spider-form
+Spinnen-Form
+%%%%
+# wizmode name
+# duplicate: spider
+%%%%
+# description
+a venomous arachnid creature.
+eine giftige Arachnide.
+%%%%
+# unarmed attack
+Fangs
+Giftzähne
+%%%%
+# shout-equivalent
+hiss
+zischt
+%%%%
+# hand-equivalent
+front leg
+Vorderbein
+%%%%
+# altar action
+crawl onto
+kriecht an
+%%%%
+# flesh type
+flesh
+Fleisch
+%%%%
+
+################################
+# Blade hands
+################################
+%%%%
+# abbreviation for HUD
+Blade
+Klinge
+%%%%
+# long name (default)
+blade hands
+Klingenhände
+%%%%
+# long name (missing hand)
+blade hand
+Klingenhand
+%%%%
+# long name (felid)
+blade paws
+Klingenpfoten
+%%%%
+# long name (felid, missing hand)
+blade paw
+Klingenpfote
+%%%%
+# long name (octopode)
+blade tentacles
+Klingententakeln
+%%%%
+# long name (octopode, missing hand)
+blade tentacle
+Klingententakel
+%%%%
+# wizmode name
+blade
+klinge
+%%%%
+# hand-equivalent
+scythe-like blade
+sensenartige Klinge
+%%%%
+
+################################
+# Statue-form
+################################
+%%%%
+# abbreviation for HUD
+Statue
+Statue
+%%%%
+# long name
+statue-form
+Statue-Form
+%%%%
+# wizmode name
+# duplicate: statue
+%%%%
+# description (@ command)
+a stone statue.
+eine Steinstatue.
+%%%%
+# description (transformation message)
+a living statue of rough stone.
+eine lebende Statue aus rohem Stein.
+%%%%
+# unarmed attack
+Stone fists
+Steinfäuste
+%%%%
+# unarmed attack (missing hand)
+Stone fist
+Steinfaust
+%%%%
+# unarmed attack (felid)
+Stone claws
+Steinkrallen
+%%%%
+# unarmed attack (octopode)
+Stone tentacles
+Steintentakeln
+%%%%
+# altar action
+place yourself before
+stellt Euch vor
+%%%%
+# flesh type
+# duplicate: stone
+%%%%
+
+################################
+# Ice-form
+################################
+%%%%
+# abbreviation for HUD
+# duplicate: Ice
+%%%%
+# long name
+ice-form
+Eis-Form
+%%%%
+# wizmode name
+# duplicate: ice
+%%%%
+# description
+a creature of crystalline ice.
+eine Kreatur aus kristallinem Eis.
+%%%%
+# unarmed attack
+Ice fists
+Eisfäuste
+%%%%
+# unarmed attack (missing hand)
+Ice fist
+Eisfaust
+%%%%
+# hand-equivalent
+front paw
+Vorderpfote
+%%%%
+# foot equivalent
+paw
+Pfote
+%%%%
+# altar action
+bow your head before
+verneigt Euer Kopf vor{dat}
+%%%%
+
+################################
+# Dragon-form
+################################
+%%%%
+# abbreviation for HUD
+Dragon
+Drache
+%%%%
+# long name
+dragon-form
+Drachen-Form
+%%%%
+# wizmode name
+# duplicate: dragon
+%%%%
+# description
+a fearsome dragon!
+ein furchterregender Drache!
+%%%%
+# unarmed attack
+Teeth and claws
+Zähne und Krallen
+%%%%
+# shout-equivalent
+roar
+brüllt
+%%%%
+# hand-equivalent
+foreclaw
+Vorderkralle
+%%%%
+
+################################
+# Lich-form
+################################
+%%%%
+# abbreviation for HUD
+Lich
+Lich
+%%%%
+# long name
+lich-form
+Lich-Form
+%%%%
+# wizmode name
+# duplicate: lich
+%%%%
+# description
+a lich.
+ein Lich.
+%%%%
+# flesh type
+# duplicate: bone
+%%%%
+
+################################
+# Bat-form
+################################
+%%%%
+# abbreviation for HUD
+Bat
+Flmaus
+%%%%
+# long name
+bat-form
+Fledermaus-Form
+%%%%
+# long name (vampire)
+vampire-bat-form
+Vampirfledermaus-Form
+%%%%
+# wizmode name
+# duplicate: bat
+%%%%
+# description
+a bat.
+eine Fledermaus.
+%%%%
+# description (vampire)
+a vampire bat.
+eine Vampirfledermaus.
+%%%%
+# unarmed attack
+Teeth
+Zähne
+%%%%
+# shout-equivalent
+squeak
+quietscht
+%%%%
+# altar action
+perch on
+hockt Euch auf{acc}
+%%%%
+
+################################
+# Pig-form
+################################
+%%%%
+# abbreviation for HUD
+Pig
+Schwein
+%%%%
+# long name
+pig-form
+Schweine-Form
+%%%%
+# wizmode name
+pig
+schwein
+%%%%
+# description
+a filthy swine.
+ein dreckiges Schwein.
+%%%%
+# shout-equivalent
+squeal
+kreischt
+%%%%
+# hand-equivalent
+front trotter
+Vorderfuß
+%%%%
+# foot-equivalent
+trotter
+Fuß
+%%%%
+
+################################
+# Appendages
+################################
+%%%%
+# abbreviation for HUD
+App
+Gliede
+%%%%
+# long name / wizmode name
+appendages
+Körpergliede
+%%%%
+
+################################
+# Tree-form
+################################
+%%%%
+Tree
+Baum
+%%%%
+tree-form
+Baum-Form
+%%%%
+# wizmode name
+# duplicate: tree
+%%%%
+# description
+a tree.
+ein Baum.
+%%%%
+# unarmed attack
+Branches
+Äste
+%%%%
+# shout-equivalent
+creak
+ächzt
+%%%%
+# hand-equivalent
+branch
+Zweig
+%%%%
+# foot-equivalent
+root
+Wurzel
+%%%%
+# altar action
+sway towards
+schwankt zu{dat}
+%%%%
+# flesh type
+wood
+Holz
+%%%%
+
+################################
+# Porcupine-form
+################################
+%%%%
+# abbreviation for HUD
+Porc
+Stach
+%%%%
+# long name
+porcupine-form
+Stachelschwein-Form
+%%%%
+# wizmode name
+porcupine
+stachelschwein
+%%%%
+# description
+a spiny porcupine.
+ein stacheliges Stachelschwein.
+%%%%
+# altar action
+curl into a sanctuary of spikes before
+rollt Euch zu einem Heiligtum aus Stacheln zusammen vor{dat}
+%%%%
+
+################################
+# Wisp-form
+################################
+%%%%
+# abbreviation for HUD
+Wisp
+Irrlicht
+%%%%
+# long name
+wisp-form
+Irrlicht-Form
+%%%%
+# wizmode name
+wisp
+irrlicht
+%%%%
+# description
+an insubstantial wisp.
+ein substanzloses Irrlicht.
+%%%%
+# unarmed attack
+Misty tendrils
+Neblige Ranken
+%%%%
+# shout
+whoosh
+rauscht
+%%%%
+# hand
+misty tendril
+Nebelranke
+%%%%
+# foot
+strand
+Strähne
+%%%%
+# altar action
+swirl around
+wirbelt um{acc}
+%%%%
+# flesh
+vapour
+Dunst
+%%%%
+
+################################
+# Jelly-form
+################################
+%%%%
+# abbreviation for HUD
+# duplicate: Jelly
+%%%%
+# long name
+jelly-form
+Gelee-Form
+%%%%
+# wizmode name
+# duplicate: jelly
+%%%%
+# description
+a lump of jelly.
+ein Klumpen Gelee.
+%%%%
+
+################################
+# Fungus-form
+################################
+%%%%
+# abbreviation for HUD
+Fungus
+Pilz
+%%%%
+# long name
+fungus-form
+Pilz-Form
+%%%%
+# wizmode name
+# duplicate: fungus
+%%%%
+# description
+a sentient fungus.
+ein empfindungsfähiger Pilz.
+%%%%
+# unarmed attack
+Spores
+Sporen
+%%%%
+# shout
+sporulate
+sporuliert
+%%%%
+# hand
+hypha
+Hyphe
+%%%%
+# altar action
+release spores on
+Sporen freisetzt auf{dat}
+%%%%
+
+################################
+# Shadow-form
+################################
+%%%%
+# abbreviation for HUD
+Shadow
+Schatte
+%%%%
+# long name
+shadow-form
+Schatten-Form
+%%%%
+# wizmode name
+# duplicate: shadow
+%%%%
+# description
+a swirling mass of dark shadows.
+eine wirbelnde Masse aus dunklen Schatten.
+%%%%
+
+################################
+# Hydra-form
+################################
+%%%%
+# abbreviation for HUD
+Hydra
+Hydra
+%%%%
+# long name
+hydra-form
+Hydra-Form
+%%%%
+# wizmode name
+# duplicate: hydra
+%%%%
+# unarmed attack
+Bite (x%d)
+Biss (x%d)
+%%%%
+# altar action
+bow your heads before
+verneigt Eure Köpfe vor{dat}
+%%%%
+
+################################
+# Untransform
+################################
+%%%%
+# description
+your old self.
+Euer altes Ich.
+%%%%
+

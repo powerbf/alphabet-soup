@@ -1034,7 +1034,7 @@ static void _add_status_light_to_out(int i, vector<status_light>& out)
 
     if (fill_status_info(i, inf) && !inf.light_text.empty())
     {
-        status_light sl(inf.light_colour, inf.light_text);
+        status_light sl(inf.light_colour, localise(inf.light_text));
         out.push_back(sl);
     }
 }
@@ -2686,7 +2686,7 @@ string _status_mut_rune_list(int sw)
     for (unsigned i = 0; i <= STATUS_LAST_STATUS; ++i)
     {
         if (fill_status_info(i, inf) && !inf.short_text.empty())
-            status.emplace_back(inf.short_text);
+            status.emplace_back(localise(inf.short_text));
     }
 
     int move_cost = (player_speed() * player_movement_speed()) / 10;

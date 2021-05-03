@@ -7585,245 +7585,6 @@ Invalid font from file '%s' (size %lu): 0x%0x
 %%%%
 
 ##################
-# form-data.h
-##################
-%%%%
-spider-form
-
-%%%%
-a venomous arachnid creature.
-
-%%%%
-Fangs
-
-%%%%
-hiss
-
-%%%%
-front leg
-
-%%%%
-crawl onto
-
-%%%%
-flesh
-
-%%%%
-blade
-
-%%%%
-scythe-like blade
-
-%%%%
-Statue
-
-%%%%
-statue-form
-
-%%%%
-a stone statue.
-
-%%%%
-place yourself before
-
-%%%%
-ice-form
-
-%%%%
-a creature of crystalline ice.
-
-%%%%
-front paw
-
-%%%%
-paw
-
-%%%%
-bow your head before
-
-%%%%
-Dragon
-
-%%%%
-dragon-form
-
-%%%%
-a fearsome dragon!
-
-%%%%
-Teeth and claws
-
-%%%%
-roar
-
-%%%%
-foreclaw
-
-%%%%
-Lich
-
-%%%%
-lich-form
-
-%%%%
-a lich.
-
-%%%%
-Bat
-
-%%%%
-bat-form
-
-%%%%
-Teeth
-
-%%%%
-squeak
-
-%%%%
-perch on
-
-%%%%
-Pig
-
-%%%%
-pig-form
-
-%%%%
-pig
-
-%%%%
-a filthy swine.
-
-%%%%
-squeal
-
-%%%%
-front trotter
-
-%%%%
-trotter
-
-%%%%
-App
-
-%%%%
-appendages
-
-%%%%
-Tree
-
-%%%%
-tree-form
-
-%%%%
-a tree.
-
-%%%%
-Branches
-
-%%%%
-creak
-
-%%%%
-branch
-
-%%%%
-root
-
-%%%%
-sway towards
-
-%%%%
-wood
-
-%%%%
-Porc
-
-%%%%
-porcupine-form
-
-%%%%
-a spiny porcupine.
-
-%%%%
-curl into a sanctuary of spikes before
-
-%%%%
-Wisp
-
-%%%%
-wisp-form
-
-%%%%
-wisp
-
-%%%%
-an insubstantial wisp.
-
-%%%%
-Misty tendrils
-
-%%%%
-whoosh
-
-%%%%
-misty tendril
-
-%%%%
-strand
-
-%%%%
-swirl around
-
-%%%%
-vapour
-
-%%%%
-jelly-form
-
-%%%%
-a lump of jelly.
-
-%%%%
-Fungus
-
-%%%%
-fungus-form
-
-%%%%
-a sentient fungus.
-
-%%%%
-Spores
-
-%%%%
-sporulate
-
-%%%%
-hypha
-
-%%%%
-release spores on
-
-%%%%
-shadow-form
-
-%%%%
-a swirling mass of dark shadows.
-
-%%%%
-Hydra
-
-%%%%
-hydra-form
-
-%%%%
-bow your heads before
-
-%%%%
-
-##################
 # format.cc
 ##################
 %%%%
@@ -25521,7 +25282,7 @@ Your magic begins regenerating once more.
 Eure Magie beginnt sich wieder zu regenerieren.
 %%%%
 Your aim is not that steady anymore.
-Euer Ziel ist nicht mehr so ​​fest.
+Euer Zielen ist nicht mehr so genau.
 %%%%
 The haze of the repulsion field disappears.
 Der Dunst des Abstoßungsfeldes verschwindet.
@@ -32873,161 +32634,158 @@ Zot has nearly found you. Death is approaching. Descend or flee this branch!
 # transform.cc
 ##################
 %%%%
-You %s %s
-
+You were %s
+Ihr wart %s
 %%%%
-were
-
+You are %s
+Ihr seid %s
 %%%%
-Buggily, y
-
+You fly out of the water as you turn into %s
+Ihr fliegt aus dem Wasser, als Ihr Euch verwandelt in {akk}%s
 %%%%
-You fly out of the water as y
-
+As you dive into the water, you turn into %s
+Als Ihr ins Wasser eintaucht, Ihr verwandelt Euch in {akk}%s
 %%%%
-As you dive into the water, y
-
-%%%%
-%sou turn into %s
-
+You turn into %s
+Ihr verwandelt Euch in {akk}%s
 %%%%
 Your transformation has ended.
-
+Eure Verwandlung ist beendet.
 %%%%
 hover solemnly before
-
+schwebt feierlich vor
 %%%%
-your old self.
-
+You had blades for front paws.
+Ihr hattet Klingen für Vorderpfoten.
 %%%%
-"blade "
-
+You had blades for tentacles.
+Ihr hattet Klingen für Tentakel.
 %%%%
-You %s blades for %s.
-
+You had blades for hands.
+Ihr hattet Klingen für Hände.
 %%%%
-had
-
+You have blades for front paws.
+Ihr habt Klingen für Vorderpfoten.
 %%%%
-have
-
+You have blades for tentacles.
+Ihr habt Klingen für Tentakel.
 %%%%
-Your %s turn%s into%s razor-sharp scythe blade%s.
-
+You have blades for hands.
+Ihr habt Klingen für Hände.
 %%%%
-" a"
-
+Your front paw turns into a razor-sharp scythe blade.
+Eure Vorderpfote verwandelt sich in eine rasiermesserscharfe Sensenklinge.
 %%%%
-Your %s revert%s to %s normal proportions.
-
+Your tentacle turns into a razor-sharp scythe blade.
+Euer Tentakel verwandelt sich in eine rasiermesserscharfe Sensenklinge.
 %%%%
-their
-
+Your hand turns into a razor-sharp scythe blade.
+Eure Hand verwandelt sich in eine rasiermesserscharfe Sensenklinge.
 %%%%
-"Blade "
-
+Your front paws turn into razor-sharp scythe blades.
+Eure Vorderpfoten verwandeln sich in eine rasiermesserscharfe Sensenklinge.
+%%%%
+Your tentacles turn into razor-sharp scythe blades.
+Eure Tentakel verwandeln sich in rasiermesserscharfe Sensenklingen.
+%%%%
+Your hands turn into razor-sharp scythe blades.
+Eure Hände verwandeln sich in rasiermesserscharfe Sensenklingen.
+%%%%
+Your front paw reverts to its normal proportions.
+Eure Vorderpfote kehrt zu ihren normalen Proportionen zurück.
+%%%%
+Your tentacle reverts to its normal proportions.
+Euer Tentakel kehrt zu seinen normalen Proportionen zurück.
+%%%%
+Your hand reverts to its normal proportions.
+Eure Hand kehrt zu ihren normalen Proportionen zurück.
+%%%%
+Your front paws revert to their normal proportions.
+Eure Vorderpfoten kehren zu ihren normalen Proportionen zurück.
+%%%%
+Your tentacles revert to their normal proportions.
+Eure Tentakel kehren zu ihren normalen Proportionen zurück.
+%%%%
+Your hands revert to their normal proportions.
+Eure Hände kehren zu ihren normalen Proportionen zurück.
 %%%%
 You inwardly fear your resemblance to a lawn ornament.
-
+Ihr fürchtet Euch innerlich vor Eurer Ähnlichkeit mit einem Rasenzierapparat.
 %%%%
 Your body stiffens and grows slower.
-
-%%%%
-a living statue of rough stone.
-
+Euer Körper versteift sich und wird langsamer.
 %%%%
 You revert to a slightly less stony form.
-
+Ihr nehmt eine etwas weniger steinerne Form an.
 %%%%
 You revert to your normal fleshy form.
-
-%%%%
-Stone claws
-
-%%%%
-Stone tentacles
-
-%%%%
-Stone fist%s
-
+Ihr nehmt wieder Eure normale fleischige Form an.
 %%%%
 You warm up again.
-
-%%%%
-Ice fist%s
-
+Ihr wärmt Euch wieder auf.
 %%%%
 Your body is suffused with negative energy!
-
+Euer Körper wird von negativer Energie durchflutet!
 %%%%
 You feel yourself come back to life.
-
+Ihr spürt, wie Ihr wieder zum Leben erwachst.
 %%%%
 You feel your undeath return to normal.
-
+Ihr spürt, wie Euer Untod wieder normal wird.
 %%%%
-You %s in %sbat-form.
-
+You were in vampire-bat-form.
+Ihr wart in Vampir-Fledermaus-Form.
 %%%%
-vampire-
-
+You are in vampire-bat-form.
+Ihr seid in Vampir-Fledermaus-Form.
 %%%%
-a %sbat.
-
+You were in bat-form.
+Ihr wart in Fledermaus-Form.
 %%%%
-"vampire "
-
+You are in bat-form.
+Ihr seid in Fledermaus-Form.
 %%%%
-has
-
+One of your tentacles had a temporary spike.
+Einer Eurer Tentakel hatte einen temporären Stachel.
 %%%%
-"One of your tentacles "
-
+One of your tentacles has a temporary spike.
+Einer Eurer Tentakel hat einen temporären Stachel.
 %%%%
-" a temporary spike. "
-
+You had grown temporary %s.
+Euch waren vorübergehende %s gewachsen.
 %%%%
-"You "
-
+You have grown temporary %s.
+Euch sind vorübergehende %s gewachsen.
 %%%%
-" grown temporary "
-
+You grow a pair of large bovine horns.
+Euch wächst ein Paar großer Rinderhörner.
 %%%%
-"You grow a pair of large bovine horns. "
-
+One of your tentacles grows a vicious spike.
+Einem Eurer Tentakel wächst ein bösartiger Stachel.
 %%%%
-"One of your tentacles grows a vicious spike. "
-
-%%%%
-"Your feet morph into talons. "
-
+Your feet morph into talons.
+Eure Füße verwandeln sich in Krallen.
 %%%%
 You feel less wooden.
-
+Ihr fühlt Euch weniger hölzern.
 %%%%
 You stop sporulating.
-
+Ihr hört auf zu sporulieren.
 %%%%
 You feel less shadowy.
-
+Ihr fühlt Euch weniger schattenhaft.
 %%%%
 You emerge from the shadows.
-
+Ihr tretet aus den Schatten hervor.
 %%%%
--headed hydra.
-
+%s fall away!
+%s fallen weg!
 %%%%
-Bite (x%d)
-
+%s melds into your body.
+%s verschmilzt mit Eurem Körper.
 %%%%
-meld
-
-%%%%
-away!
-
-%%%%
-into your body.
-
+%s meld into your body.
+%s verschmilzt mit Eurem Körper.
 %%%%
 %s is pushed off your body!
 %s wird von Eurem Körper gestoßen!
@@ -33035,23 +32793,23 @@ into your body.
 %s unmelds from your body.
 %s löst sich von Eurem Körper.
 %%%%
-You would %s in your new form.
-
+You would drown in your new form.
+Ihr würdet in Eurer neuen Form ertrinken.
 %%%%
-drown
-
+You would burn in your new form.
+Ihr würdet in Eurer neuen Form verbrennen.
 %%%%
-burn
-
+Transforming will reduce your strength to zero. Continue?
+Die Verwandlung wird Eure Stärke auf Null reduzieren. Fortfahren?
 %%%%
-%s will reduce your %s to zero. Continue?
-
+Transforming will reduce your dexterity to zero. Continue?
+Die Verwandlung wird Eure Geschicklichkeit auf Null reduzieren. Fortfahren?
 %%%%
-Turning back
-
+Turning back will reduce your strength to zero. Continue?
+Zurückverwandeln wird Eure Stärke auf Null reduzieren. Fortfahren?
 %%%%
-Transforming
-
+Turning back will reduce your dexterity to zero. Continue?
+Zurückverwandeln wird Eure Geschicklichkeit auf Null reduzieren. Fortfahren?
 %%%%
 %d of your heads shrink away.
 %d Eurer Köpfe schrumpfen weg.
@@ -33066,10 +32824,10 @@ A new head grows.
 Ein neuer Kopf wächst.
 %%%%
 %s protects your body from unnatural transformation!
-
+%s schützt Euren Körper vor unnatürlicher Verwandlung!
 %%%%
 You are stuck in your current form!
-
+Ihr steckt in Eurer aktuellen Form fest!
 %%%%
 You extend your transformation's duration.
 Ihr verlängert die Dauer Eurer Transformation.
@@ -33078,13 +32836,13 @@ You fail to extend your transformation any further.
 Ihr könnt Eure Verwandlung nicht weiter ausdehnen.
 %%%%
 Your unliving flesh cannot be transformed in this way.
-
+Euer unbelebtes Fleisch kann nicht auf diese Weise transformiert werden.
 %%%%
 You cannot become a lich while in death's door.
-
+Ihr könnt nicht zu einem Lich werden, während Ihr an der Schwelle des Todes steht.
 %%%%
 You have no appropriate body parts free.
-
+Ihr habt keine passenden Körperteile frei.
 %%%%
 Your mandibles meld away.
 Eure Mandibeln verschmelzen.
@@ -33099,7 +32857,7 @@ You shred the web into pieces!
 Ihr zerreißt das Netz in Stücke!
 %%%%
 Your lifeless body cannot sustain the wereblood!
-
+Euer lebloser Körper kann das Werwolfsblut nicht aushalten!
 %%%%
 You fade into the shadows.
 Ihr verschwindet in den Schatten.
@@ -33107,14 +32865,17 @@ Ihr verschwindet in den Schatten.
 You feel less conspicuous.
 Ihr fühlt Euch weniger auffällig.
 %%%%
-shrink
-
+%s shrinks.
+%s schrumpft.
 %%%%
-disappear
-
+%s shrink.
+%s schrumpfen.
 %%%%
-Your %s %s%s.
-Eure %s %s%s.
+%s disappears.
+%s verschwindet.
+%%%%
+%s disappear.
+%s verschwinden.
 %%%%
 You quickly transform back into your natural form.
 Ihr verwandelt Euch schnell wieder in Eure natürliche Form.
@@ -33126,16 +32887,13 @@ Your legs become a tail as you dive into the water.
 Eure Beine werden zu einem Schwanz, als Ihr ins Wasser taucht.
 %%%%
 ...but don't expect to remain undetected.
-... aber erwarte nicht, unentdeckt zu bleiben.
+... aber erwartet nicht, unentdeckt zu bleiben.
 %%%%
-Your blood-%s body can't sustain your transformation.
-
+Your blood-deprived body can't sustain your transformation.
+Euer blutarmer Körper kann Eure Verwandlung nicht durchhalten.
 %%%%
-deprived
-
-%%%%
-filled
-
+Your blood-filled body can't sustain your transformation.
+Euer blutgefüllter Körper kann Eure Verwandlung nicht aufrechterhalten.
 %%%%
 
 ##################
@@ -33198,9 +32956,6 @@ Ihr tretet in {acc}%s ein!
 %%%%
 %s enters %s!
 %s tritt in {acc}%s ein!
-%%%%
-%s disappears.
-%s verschwindet.
 %%%%
 You set off the alarm!
 Ihr habt den Alarm ausgelöst!
