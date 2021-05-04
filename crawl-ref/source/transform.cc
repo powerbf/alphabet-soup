@@ -24,6 +24,7 @@
 #include "items.h"
 #include "localise.h"
 #include "message.h"
+#include "message-util.h"
 #include "mon-death.h"
 #include "mutation.h"
 #include "output.h"
@@ -203,10 +204,14 @@ int Form::get_duration(int pow) const
  */
 string Form::get_description(bool past_tense) const
 {
+    string result;
     if (past_tense)
-        return localise("You were %s", description);
+        result = localise("You were %s", description);
     else
-        return localise("You are %s", description);
+        result = localise("You are %s", description);
+
+    // i18n: TODO: Restore exclamation mark for dragon-form
+    return add_punctuation(result, ".", false);
 }
 
 /**
@@ -218,23 +223,26 @@ string Form::get_description(bool past_tense) const
 string Form::transform_message(transformation previous_trans) const
 {
     // XXX: refactor this into a second function (and also rethink the logic)
+    string msg;
     if (you.in_water() && player_can_fly())
     {
-        return localise("You fly out of the water as you turn into %s",
-                        get_transform_description());
+        msg = localise("You fly out of the water as you turn into %s",
+                       get_transform_description());
     }
     else if (get_form(previous_trans)->player_can_fly()
              && player_can_swim()
              && feat_is_water(env.grid(you.pos())))
     {
-        return localise("As you dive into the water, you turn into %s",
-                        get_transform_description());
+        msg = localise("As you dive into the water, you turn into %s",
+                       get_transform_description());
     }
     else
     {
-        return localise("You turn into %s",
-                        get_transform_description());
+        msg = localise("You turn into %s", get_transform_description());
     }
+
+    // i18n: TODO: Restore exclamation mark for dragon-form
+    return add_punctuation(msg, ".", false);
 }
 
 /**
@@ -475,7 +483,7 @@ public:
      * Get a string describing the form you're turning into. (If not the same
      * as the one used to describe this form in @.
      */
-    string get_transform_description() const override { return "your old self."; }
+    string get_transform_description() const override { return "your old self"; }
 };
 
 class FormSpider : public Form
@@ -631,7 +639,7 @@ public:
      */
     string get_transform_description() const override
     {
-        return "a living statue of rough stone.";
+        return "a living statue of rough stone";
     }
 
     /**
@@ -824,7 +832,7 @@ public:
      */
     string get_transform_description() const override
     {
-        return you.species == SP_VAMPIRE ? "a vampire bat." : "a bat.";
+        return you.species == SP_VAMPIRE ? "a vampire bat" : "a bat";
     }
 };
 
@@ -1036,7 +1044,7 @@ public:
         const auto heads = you.heads();
         const string headstr = (heads < 11 ? number_in_words(heads)
                                            : to_string(heads))
-                             + "-headed hydra."; // noextract
+                             + "-headed hydra"; // noextract
         return article_a(headstr);
     }
 
@@ -1045,8 +1053,9 @@ public:
      */
     string get_description(bool past_tense) const override
     {
-        return localise(past_tense ? "You were %s" : "You are %s",
-                        get_transform_description().c_str());
+        string msg =  localise(past_tense ? "You were %s" : "You are %s",
+                               get_transform_description());
+        return add_punctuation(msg, ".", false);
     }
 
     /**
