@@ -490,6 +490,133 @@ a %slajatang
 ein {adj-er}%sLajatang
 %%%%
 
+# your <item>
+# Note that %s is a placeholder for any adjectives
+%%%%
+your %sclub
+Eure %sKeule
+%%%%
+your %swhip
+Eure %sPeitsche
+%%%%
+your %smace
+Euer {adj-er}%sStreitkolben
+%%%%
+your %sflail
+Euer {adj-er}%sFlegel
+%%%%
+your %smorningstar
+Euer {adj-er}%sMorgenstern
+%%%%
+your %sdemon whip
+Eure %sDämonenpeitsche
+%%%%
+your %ssacred scourge
+Eure %sgeistliche Geißel
+%%%%
+your %sdire flail
+Euer {adj-er}%sSchreckensflegel
+%%%%
+your %seveningstar
+Euer {adj-er}%sAbendstern
+%%%%
+your %sgreat mace
+Euer {adj-er}%sgroßer Streitkolben
+%%%%
+your %sgiant club
+Eure %sRiesenkeule
+%%%%
+your %sgiant spiked club
+Eure %sriesige Stachelkeule
+%%%%
+your %sdagger
+Euer {adj-er}%sDolch
+%%%%
+your %squick blade
+Eure %sSchnellklinge
+%%%%
+your %sshort sword
+Euer {adj-es}%sKurzschwert
+%%%%
+# neut
+%%%%
+your %srapier
+Euer {adj-es}%sRapier
+%%%%
+# neut
+%%%%
+your %sfalchion
+Euer {adj-es}%sFalchion
+%%%%
+your %slong sword
+Euer {adj-es}%sLangschwert
+%%%%
+your %sscimitar
+Euer {adj-er}%sKrummsäbel
+%%%%
+your %sdemon blade
+Eure %sDämonenklinge
+%%%%
+your %seudemon blade
+Eure %sEudämonenklinge
+%%%%
+your %sdouble sword
+Euer {adj-es}%sDoppelschwert
+%%%%
+your %sgreat sword
+Euer {adj-es}%sGroßschwert
+%%%%
+your %striple sword
+Euer {adj-es}%sDreifach-Schwert
+%%%%
+# neut
+%%%%
+your %shand axe
+Euer {adj-es}%sBeil
+%%%%
+your %swar axe
+Eure %sKriegsaxt
+%%%%
+your %sbroad axe
+Eure %sBreitaxt
+%%%%
+your %sbattleaxe
+Eure %sStreitaxt
+%%%%
+your %sexecutioner's axe
+Eure %sHenkersaxt
+%%%%
+your %sspear
+Euer {adj-er}%sSpeer
+%%%%
+your %strident
+Euer {adj-er}%sDreizack
+%%%%
+your %shalberd
+Eure %sHellebarde
+%%%%
+your %sscythe
+Eure %sSense
+%%%%
+your %sdemon trident
+Euer {adj-er}%sDämonendreizack
+%%%%
+your %strishula
+Euer {adj-er}%sTrishula
+%%%%
+your %sglaive
+Eure %sGleve
+%%%%
+your %sbardiche
+Eure %sBardiche
+%%%%
+your %squarterstaff
+Euer {adj-er}%sKampfstab
+%%%%
+your %slajatang
+Euer {adj-er}%sLajatang
+%%%%
+
 #################################
 # Launchers
 #################################
@@ -541,6 +668,31 @@ ein {adj-er}%sKurzbogen
 %%%%
 a %slongbow
 ein {adj-er}%sLangbogen
+%%%%
+
+# your <item>
+# Note that %s is a placeholder for any adjectives
+%%%%
+your %shunting sling
+Eure %sSchleuder
+%%%%
+your %sfustibalus
+Euer {adj-er}%sFustibalus
+%%%%
+your %shand crossbow
+Eure %sHandarmbrust
+%%%%
+your %sarbalest
+Eure %sArmbrust
+%%%%
+your %striple crossbow
+Eure %sDreifach-Armbrust
+%%%%
+your %sshortbow
+Euer {adj-er}%sKurzbogen
+%%%%
+your %slongbow
+Euer {adj-er}%sLangbogen
 %%%%
 
 # no article
@@ -969,7 +1121,101 @@ a %stower shield
 ein {adj-es}%sTurmschild
 %%%%
 
-# no article
+# your <item>
+# Note that the %s is a placeholder for any adjectives
+%%%%
+your %sanimal skin
+Eure %sTierhaut
+%%%%
+your %srobe
+Eure %sRobe
+%%%%
+your %sleather armour
+Eure %sLederrüstung
+%%%%
+your %sring mail
+Euer {adj-er}%sRingpanzer
+%%%%
+your %sscale mail
+Euer {adj-er}%sSchuppenpanzer
+%%%%
+your %schain mail
+Euer {adj-er}%sKettenpanzer
+%%%%
+your %splate armour
+Euer {adj-er}%sPlattenpanzer
+%%%%
+your %scrystal plate armour
+Euer {adj-er}%sKristallplattenpanzer
+%%%%
+your %stroll leather armour
+Eure %sTrolllederrüstung
+%%%%
+your %scloak
+Euer {adj-er}%sUmhang
+%%%%
+your %sscarf
+Euer {adj-er}%sSchal
+%%%%
+your %spair of %sgloves
+Euer {adj-es}%sPaar %sHandschuhe
+%%%%
+your %shelmet
+Euer {adj-er}%sHelm
+%%%%
+your %shat
+Euer {adj-er}%sHut
+%%%%
+your %spair of %sboots
+Euer {adj-es}%sPaar %sStiefel
+%%%%
+your %scentaur barding
+Euer {adj-er}%sZentaurenharnisch
+%%%%
+your %snaga barding
+Euer {adj-er}%sNagaharnisch
+%%%%
+your %sbuckler
+Euer {adj-er}%sBuckler
+%%%%
+your %skite shield
+Euer {adj-es}%sKiteschild
+%%%%
+your %stower shield
+Euer {adj-es}%sTurmschild
+%%%%
+your %ssteam dragon scales
+Eure %sDampfdrachenschuppen
+%%%%
+your %sacid dragon scales
+Eure %sSauredrachenschuppen
+%%%%
+your %squicksilver dragon scales
+Eure %sQuecksilberdrachenschuppen
+%%%%
+your %sswamp dragon scales
+Eure %sSumpfdrachenschuppen
+%%%%
+your %sfire dragon scales
+Eure %sFeuerdrachenschuppen
+%%%%
+your %sice dragon scales
+Eure %sEisdrachenschuppen
+%%%%
+your %spearl dragon scales
+Eure %sPerlendrachenschuppen
+%%%%
+your %sstorm dragon scales
+Eure %sSturmdrachenschuppen
+%%%%
+your %sshadow dragon scales
+Eure %sSchattendrachenschuppen
+%%%%
+your %sgold dragon scales
+Eure %sGolddrachenschuppen
+%%%%
+
+# no determiner
 # Note that the %s is a placeholder for any adjectives
 %%%%
 %sanimal skin
@@ -1171,6 +1417,9 @@ ein {adj-es}%sTurmschild
 the %sring
 der %sRing
 %%%%
+
+# with indefinite article
+%%%%
 a %sring
 ein {adj-er}%sRing
 %%%%
@@ -1240,6 +1489,7 @@ ein {adj-er}%sRing des Eises
 a %sring of obsoleteness
 ein {adj-er}%sobsoleter Ring
 %%%%
+
 # unidentified
 %%%%
 a %swooden ring
@@ -1330,7 +1580,79 @@ a %smoonstone ring
 ein {adj-er}%sMondsteinring
 %%%%
 
-# without article
+# your <item>
+%%%%
+your %sring
+Euer {adj-er}%sRing
+%%%%
+your %sring of protection
+Euer {adj-er}%sRing des Schutzes
+%%%%
+your %sring of protection from fire
+Euer {adj-er}%sRing der Feuerresistenz
+%%%%
+your %sring of poison resistance
+Euer {adj-er}%sRing der Giftresistenz
+%%%%
+your %sring of protection from cold
+Euer {adj-er}%sRing dee Kälteresistenz
+%%%%
+your %sring of strength
+Euer {adj-er}%sRing der Stärke
+%%%%
+your %sring of slaying
+Euer {adj-er}%sRing des Tötens
+%%%%
+your %sring of see invisible
+Euer {adj-er}%sRing von Unsichtbares sehen
+%%%%
+your %sring of resist corrosion
+Euer {adj-er}%sRing der Korrosionresistenz
+%%%%
+your %sring of attention
+Euer {adj-er}%sRing der Aufmerksamkeit
+%%%%
+your %sring of teleportation
+Euer {adj-er}%sRing der Teleportation
+%%%%
+your %sring of evasion
+Euer {adj-er}%sRing der Umgehung
+%%%%
+your %sring of stealth
+Euer {adj-er}%sRing der Heimlichkeit
+%%%%
+your %sring of dexterity
+Euer {adj-er}%sRing der Geschicklichkeit
+%%%%
+your %sring of intelligence
+Euer {adj-er}%sRing der Intelligenz
+%%%%
+your %sring of wizardry
+Euer {adj-er}%sRing der Zauberei
+%%%%
+your %sring of magical power
+Euer {adj-er}%sRing magischer Kraft
+%%%%
+your %sring of flight
+Euer {adj-er}%sRing des Fliegens
+%%%%
+your %sring of positive energy
+Euer {adj-er}%sRing positiver Energie
+%%%%
+your %sring of protection from magic
+Euer {adj-er}%sRing der Magieresistenz
+%%%%
+your %sring of fire
+Euer {adj-er}%sRing des Feuers
+%%%%
+your %sring of ice
+Euer {adj-er}%sRing des Eises
+%%%%
+your %sring of obsoleteness
+Euer {adj-er}%sobsoleter Ring
+%%%%
+
+# without determiner
 %%%%
 %sring
 {adj-er}%sRing
@@ -1552,6 +1874,7 @@ ein {adj-es}%sAmulett der Reflexion
 a %samulet of regeneration
 ein {adj-es}%sAmulett der Regeneration
 %%%%
+
 # unidentified
 %%%%
 a %ssapphire amulet
@@ -1642,7 +1965,37 @@ a %sberyl amulet
 ein {adj-es}%sBeryllamulett
 %%%%
 
-# no articlae
+# your <item>
+%%%%
+your %samulet
+Euer {adj-es}%sAmulett
+%%%%
+your %samulet of magic regeneration
+Euer {adj-es}%sAmulett der magischen Regeneration
+%%%%
+your %samulet of the acrobat
+Euer {adj-es}%sAmulett des Akrobaten
+%%%%
+your %samulet of inaccuracy
+Euer {adj-es}%sAmulett der Ungenauigkeit
+%%%%
+your %samulet of nothing
+Euer {adj-es}%sAmulett von nichts
+%%%%
+your %samulet of guardian spirit
+Euer {adj-es}%sAmulett des Geistschildes
+%%%%
+your %samulet of faith
+Euer {adj-es}%sAmulett des Glaubens
+%%%%
+your %samulet of reflection
+Euer {adj-es}%sAmulett der Reflexion
+%%%%
+your %samulet of regeneration
+Euer {adj-es}%sAmulett der Regeneration
+%%%%
+
+# no determiner
 %%%%
 %samulet
 {adj-es}%sAmulett
