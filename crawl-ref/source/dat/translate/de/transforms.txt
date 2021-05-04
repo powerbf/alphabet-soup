@@ -21,8 +21,8 @@ Spinnen-Form
 # duplicate: spider
 %%%%
 # description
-a venomous arachnid creature.
-eine giftige Arachnide.
+a venomous arachnid creature
+eine giftige Arachnide
 %%%%
 # unarmed attack
 Fangs
@@ -102,12 +102,12 @@ Statue-Form
 # duplicate: statue
 %%%%
 # description (@ command)
-a stone statue.
-eine Steinstatue.
+a stone statue
+eine Steinstatue
 %%%%
 # description (transformation message)
-a living statue of rough stone.
-eine lebende Statue aus rohem Stein.
+a living statue of rough stone
+eine lebende Statue aus rohem Stein
 %%%%
 # unarmed attack
 Stone fists
@@ -148,8 +148,8 @@ Eis-Form
 # duplicate: ice
 %%%%
 # description
-a creature of crystalline ice.
-eine Kreatur aus kristallinem Eis.
+a creature of crystalline ice
+eine Kreatur aus kristallinem Eis
 %%%%
 # unarmed attack
 Ice fists
@@ -188,8 +188,8 @@ Drachen-Form
 # duplicate: dragon
 %%%%
 # description
-a fearsome dragon!
-ein furchterregender Drache!
+a fearsome dragon
+ein furchterregender Drache
 %%%%
 # unarmed attack
 Teeth and claws
@@ -220,8 +220,8 @@ Lich-Form
 # duplicate: lich
 %%%%
 # description
-a lich.
-ein Lich.
+# duplicate of monster name
+#a lich
 %%%%
 # flesh type
 # duplicate: bone
@@ -247,12 +247,12 @@ Vampirfledermaus-Form
 # duplicate: bat
 %%%%
 # description
-a bat.
-eine Fledermaus.
+# duplicate of monster name
+#a bat
 %%%%
 # description (vampire)
-a vampire bat.
-eine Vampirfledermaus.
+# duplicate of monster name
+#a vampire bat
 %%%%
 # unarmed attack
 Teeth
@@ -284,8 +284,8 @@ pig
 schwein
 %%%%
 # description
-a filthy swine.
-ein dreckiges Schwein.
+a filthy swine
+ein dreckiges Schwein
 %%%%
 # shout-equivalent
 squeal
@@ -327,8 +327,8 @@ Baum-Form
 # duplicate: tree
 %%%%
 # description
-a tree.
-ein Baum.
+# duplicate (also a dungeon feature)
+#a tree
 %%%%
 # unarmed attack
 Branches
@@ -368,12 +368,12 @@ porcupine-form
 Stachelschwein-Form
 %%%%
 # wizmode name
-porcupine
-stachelschwein
+# duplicate of monster name
+#porcupine
 %%%%
 # description
-a spiny porcupine.
-ein stacheliges Stachelschwein.
+a spiny porcupine
+ein stacheliges Stachelschwein
 %%%%
 # altar action
 curl into a sanctuary of spikes before
@@ -397,8 +397,8 @@ wisp
 irrlicht
 %%%%
 # description
-an insubstantial wisp.
-ein substanzloses Irrlicht.
+# duplicate of monster
+#an insubstantial wisp
 %%%%
 # unarmed attack
 Misty tendrils
@@ -440,8 +440,8 @@ Gelee-Form
 # duplicate: jelly
 %%%%
 # description
-a lump of jelly.
-ein Klumpen Gelee.
+a lump of jelly
+ein Klumpen Gelee
 %%%%
 
 ################################
@@ -460,8 +460,8 @@ Pilz-Form
 # duplicate: fungus
 %%%%
 # description
-a sentient fungus.
-ein empfindungsfähiger Pilz.
+a sentient fungus
+ein empfindungsfähiger Pilz
 %%%%
 # unarmed attack
 Spores
@@ -496,8 +496,8 @@ Schatten-Form
 # duplicate: shadow
 %%%%
 # description
-a swirling mass of dark shadows.
-eine wirbelnde Masse aus dunklen Schatten.
+a swirling mass of dark shadows
+eine wirbelnde Masse aus dunklen Schatten
 %%%%
 
 ################################
@@ -529,7 +529,7 @@ verneigt Eure Köpfe vor{dat}
 ################################
 %%%%
 # description
-your old self.
-Euer altes Ich.
+your old self
+Euer altes Ich
 %%%%
 

@@ -25231,7 +25231,7 @@ You feel powerful.
 Ihr fühlt Euch mächtig.
 %%%%
 You feel that your aim is more steady.
-Ihr fühlt, dass Euer Ziel stabiler ist.
+Ihr fühlt, dass Euer Zielen genauer ist.
 %%%%
 You are surrounded by a repulsion field.
 Ihr seid von einem Abstoßungsfeld umgeben.
@@ -32641,13 +32641,13 @@ You are %s
 Ihr seid %s
 %%%%
 You fly out of the water as you turn into %s
-Ihr fliegt aus dem Wasser, als Ihr Euch verwandelt in {akk}%s
+Ihr fliegt aus dem Wasser, als Ihr Euch verwandelt in {acc}%s
 %%%%
 As you dive into the water, you turn into %s
-Als Ihr ins Wasser eintaucht, Ihr verwandelt Euch in {akk}%s
+Als Ihr ins Wasser eintaucht, Ihr verwandelt Euch in {acc}%s
 %%%%
 You turn into %s
-Ihr verwandelt Euch in {akk}%s
+Ihr verwandelt Euch in {acc}%s
 %%%%
 Your transformation has ended.
 Eure Verwandlung ist beendet.
