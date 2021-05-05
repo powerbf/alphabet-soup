@@ -141,8 +141,8 @@ public:
     virtual string get_transform_description() const { return description; }
 
     virtual string get_description(bool past_tense = false) const;
-    virtual string transform_message(transformation previous_trans) const;
-    virtual string get_untransform_message() const;
+    virtual void do_transform_message(transformation previous_trans) const;
+    virtual void do_untransform_message() const;
 
     virtual int res_fire() const;
     virtual int res_cold() const;
