@@ -31574,7 +31574,7 @@ Held
 
 %%%%
 You are %s.
-
+Ihr seid %s.
 %%%%
 Bloodless
 
@@ -32634,20 +32634,17 @@ Zot has nearly found you. Death is approaching. Descend or flee this branch!
 # transform.cc
 ##################
 %%%%
-You were %s
-Ihr wart %s
+You were %s.
+Ihr wart %s.
 %%%%
-You are %s
-Ihr seid %s
+You fly out of the water as you turn into %s.
+Ihr fliegt aus dem Wasser, als Ihr Euch verwandelt in {acc}%s.
 %%%%
-You fly out of the water as you turn into %s
-Ihr fliegt aus dem Wasser, als Ihr Euch verwandelt in {acc}%s
+As you dive into the water, you turn into %s.
+Als Ihr ins Wasser eintaucht, Ihr verwandelt Euch in {acc}%s.
 %%%%
-As you dive into the water, you turn into %s
-Als Ihr ins Wasser eintaucht, Ihr verwandelt Euch in {acc}%s
-%%%%
-You turn into %s
-Ihr verwandelt Euch in {acc}%s
+You turn into %s.
+Ihr verwandelt Euch in {acc}%s.
 %%%%
 Your transformation has ended.
 Eure Verwandlung ist beendet.

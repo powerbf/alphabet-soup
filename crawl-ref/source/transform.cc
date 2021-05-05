@@ -204,55 +204,44 @@ int Form::get_duration(int pow) const
  */
 string Form::get_description(bool past_tense) const
 {
-    string result;
     if (past_tense)
-        result = localise("You were %s", description);
+        return localise("You were %s.", description);
     else
-        result = localise("You are %s", description);
-
-    // i18n: TODO: Restore exclamation mark for dragon-form
-    return add_punctuation(result, ".", false);
+        return localise("You are %s.", description);
 }
 
 /**
- * Get a message for transforming into this form, based on your current
+ * Show a message for transforming into this form, based on your current
  * situation (e.g. in water...)
- *
- * @return The message for turning into this form.
  */
-string Form::transform_message(transformation previous_trans) const
+void Form::do_transform_message(transformation previous_trans) const
 {
     // XXX: refactor this into a second function (and also rethink the logic)
     string msg;
     if (you.in_water() && player_can_fly())
     {
-        msg = localise("You fly out of the water as you turn into %s",
-                       get_transform_description());
+        mprf("You fly out of the water as you turn into %s.",
+             get_transform_description().c_str());
     }
     else if (get_form(previous_trans)->player_can_fly()
              && player_can_swim()
              && feat_is_water(env.grid(you.pos())))
     {
-        msg = localise("As you dive into the water, you turn into %s",
-                       get_transform_description());
+        mprf("As you dive into the water, you turn into %s.",
+             get_transform_description().c_str());
     }
     else
     {
-        msg = localise("You turn into %s", get_transform_description());
+        mprf("You turn into %s.", get_transform_description().c_str());
     }
-
-    // i18n: TODO: Restore exclamation mark for dragon-form
-    return add_punctuation(msg, ".", false);
 }
 
 /**
- * Get a message for untransforming from this form.
- *
- * @return "Your transform has ended."
+ * Show a message for untransforming from this form.
  */
-string Form::get_untransform_message() const
+void Form::do_untransform_message() const
 {
-    return localise("Your transformation has ended.");
+    mpr(MSGCH_DURATION, "Your transformation has ended.");
 }
 
 /**
@@ -548,56 +537,56 @@ public:
     }
 
     /**
-     * Get a message for transforming into this form.
+     * Show a message for transforming into this form.
      */
-    string transform_message(transformation /*previous_trans*/) const override
+    void do_transform_message(transformation /*previous_trans*/) const override
     {
         const bool singular = you.get_mutation_level(MUT_MISSING_HAND);
 
         if (singular)
         {
             if (you.species == SP_FELID)
-                return localise("Your front paw turns into a razor-sharp scythe blade.");
+                mpr("Your front paw turns into a razor-sharp scythe blade.");
             else if (you.species == SP_OCTOPODE)
-                return localise("Your tentacle turns into a razor-sharp scythe blade.");
+                mpr("Your tentacle turns into a razor-sharp scythe blade.");
             else
-                return localise("Your hand turns into a razor-sharp scythe blade.");
+                mpr("Your hand turns into a razor-sharp scythe blade.");
         }
         else
         {
             if (you.species == SP_FELID)
-                return localise("Your front paws turn into razor-sharp scythe blades.");
+                mpr("Your front paws turn into razor-sharp scythe blades.");
             else if (you.species == SP_OCTOPODE)
-                return localise("Your tentacles turn into razor-sharp scythe blades.");
+                mpr("Your tentacles turn into razor-sharp scythe blades.");
             else
-                return localise("Your hands turn into razor-sharp scythe blades.");
+                mpr("Your hands turn into razor-sharp scythe blades.");
         }
     }
 
     /**
-     * Get a message for untransforming from this form.
+     * Show a message for untransforming from this form.
      */
-    string get_untransform_message() const override
+    void do_untransform_message() const override
     {
         const bool singular = you.get_mutation_level(MUT_MISSING_HAND);
 
         if (singular)
         {
             if (you.species == SP_FELID)
-                return localise("Your front paw reverts to its normal proportions.");
+                mpr(MSGCH_DURATION, "Your front paw reverts to its normal proportions.");
             else if (you.species == SP_OCTOPODE)
-                return localise("Your tentacle reverts to its normal proportions.");
+                mpr(MSGCH_DURATION, "Your tentacle reverts to its normal proportions.");
             else
-                return localise("Your hand reverts to its normal proportions.");
+                mpr(MSGCH_DURATION, "Your hand reverts to its normal proportions.");
         }
         else
         {
             if (you.species == SP_FELID)
-                return localise("Your front paws revert to their normal proportions.");
+                mpr(MSGCH_DURATION, "Your front paws revert to their normal proportions.");
             else if (you.species == SP_OCTOPODE)
-                return localise("Your tentacles revert to their normal proportions.");
+                mpr(MSGCH_DURATION, "Your tentacles revert to their normal proportions.");
             else
-                return localise("Your hands revert to their normal proportions.");
+                mpr(MSGCH_DURATION, "Your hands revert to their normal proportions.");
         }
     }
 
@@ -621,16 +610,16 @@ public:
     static const FormStatue &instance() { static FormStatue inst; return inst; }
 
     /**
-     * Get a message for transforming into this form.
+     * Show a message for transforming into this form.
      */
-    string transform_message(transformation previous_trans) const override
+    void do_transform_message(transformation previous_trans) const override
     {
         if (you.species == SP_DEEP_DWARF && one_chance_in(10))
-            return localise("You inwardly fear your resemblance to a lawn ornament.");
+            mpr("You inwardly fear your resemblance to a lawn ornament.");
         else if (you.species == SP_GARGOYLE)
-            return localise("Your body stiffens and grows slower.");
+            mpr("Your body stiffens and grows slower.");
         else
-            return Form::transform_message(previous_trans);
+            Form::do_transform_message(previous_trans);
     }
 
     /**
@@ -643,14 +632,15 @@ public:
     }
 
     /**
-     * Get a message for untransforming from this form.
+     * Show a message for untransforming from this form.
      */
-    string get_untransform_message() const override
+    void do_untransform_message() const override
     {
         // This only handles lava orcs going statue -> stoneskin.
         if (you.species == SP_GARGOYLE)
-            return localise("You revert to a slightly less stony form.");
-        return localise("You revert to your normal fleshy form.");
+            mpr(MSGCH_DURATION, "You revert to a slightly less stony form.");
+        else
+            mpr(MSGCH_DURATION, "You revert to your normal fleshy form.");
     }
 
     /**
@@ -677,11 +667,11 @@ public:
     static const FormIce &instance() { static FormIce inst; return inst; }
 
     /**
-     * Get a message for untransforming from this form.
+     * Show a message for untransforming from this form.
      */
-    string get_untransform_message() const override
+    void do_untransform_message() const override
     {
-        return localise("You warm up again.");
+        mpr(MSGCH_DURATION, "You warm up again.");
     }
 
     /**
@@ -769,22 +759,25 @@ public:
     static const FormLich &instance() { static FormLich inst; return inst; }
 
     /**
-     * Get a message for transforming into this form.
+     * Show a message for transforming into this form.
      */
-    string transform_message(transformation /*previous_trans*/) const override
+    void do_transform_message(transformation /*previous_trans*/) const override
     {
-        return localise("Your body is suffused with negative energy!");
+        mpr("Your body is suffused with negative energy!");
     }
 
     /**
-     * Get a message for untransforming from this form.
+     * Show a message for untransforming from this form.
      */
-    string get_untransform_message() const override
+    void do_untransform_message() const override
     {
         if (you.undead_state() == US_ALIVE)
-            return localise("You feel yourself come back to life.");
-        return localise("You feel your undeath return to normal.");
-        // ^^^ vampires only, probably
+            mpr(MSGCH_DURATION, "You feel yourself come back to life.");
+        else
+        {
+            mpr(MSGCH_DURATION, "You feel your undeath return to normal.");
+            // ^^^ vampires only, probably
+        }
     }
 };
 
@@ -892,9 +885,9 @@ public:
     }
 
     /**
-     * Get a message for transforming into this form.
+     * Show a message for transforming into this form.
      */
-    string transform_message(transformation /*previous_trans*/) const override
+    void do_transform_message(transformation /*previous_trans*/) const override
     {
         ostringstream msg;
         for (auto app : you.props[APPENDAGE_KEY].get_vector())
@@ -920,13 +913,13 @@ public:
             }
         }
 
-        return msg.str();
+        mpr_nolocalise(msg.str());
     }
 
     /**
-     * Get a message for untransforming from this form. (Handled elsewhere.)
+     * Show a message for untransforming from this form. (Handled elsewhere.)
      */
-    string get_untransform_message() const override { return ""; }
+    void do_untransform_message() const override { }
 };
 
 class FormTree : public Form
@@ -938,11 +931,11 @@ public:
     static const FormTree &instance() { static FormTree inst; return inst; }
 
     /**
-     * Get a message for untransforming from this form.
+     * Show a message for untransforming from this form.
      */
-    string get_untransform_message() const override
+    void do_untransform_message() const override
     {
-        return localise("You feel less wooden.");
+        mpr(MSGCH_DURATION, "You feel less wooden.");
     }
 };
 
@@ -990,11 +983,11 @@ public:
     static const FormFungus &instance() { static FormFungus inst; return inst; }
 
     /**
-     * Get a message for untransforming from this form.
+     * Show a message for untransforming from this form.
      */
-    string get_untransform_message() const override
+    void do_untransform_message() const override
     {
-        return localise("You stop sporulating.");
+        mpr(MSGCH_DURATION, "You stop sporulating.");
     }
 };
 
@@ -1007,13 +1000,14 @@ public:
     static const FormShadow &instance() { static FormShadow inst; return inst; }
 
     /**
-     * Get a message for untransforming from this form.
+     * Show a message for untransforming from this form.
      */
-    string get_untransform_message() const override
+    void do_untransform_message() const override
     {
         if (you.invisible())
-            return localise("You feel less shadowy.");
-        return localise("You emerge from the shadows.");
+            mpr(MSGCH_DURATION, "You feel less shadowy.");
+        else
+            mpr(MSGCH_DURATION, "You emerge from the shadows.");
     }
 };
 
@@ -1053,9 +1047,8 @@ public:
      */
     string get_description(bool past_tense) const override
     {
-        string msg =  localise(past_tense ? "You were %s" : "You are %s",
-                               get_transform_description());
-        return add_punctuation(msg, ".", false);
+        return localise(past_tense ? "You were %s." : "You are %s.",
+                        get_transform_description());
     }
 
     /**
@@ -1828,7 +1821,7 @@ bool transform(int pow, transformation which_trans, bool involuntary,
         set_hydra_form_heads(div_rand_round(pow, 10));
 
     // Give the transformation message.
-    mpr_nolocalise(get_form(which_trans)->transform_message(previous_trans));
+    get_form(which_trans)->do_transform_message(previous_trans);
 
     // Update your status.
     // Order matters here, take stuff off (and handle attendant HP and stat
@@ -2072,9 +2065,7 @@ void untransform(bool skip_move)
 
     calc_hp(true, false);
 
-    const string message = get_form(old_form)->get_untransform_message();
-    if (!message.empty())
-        mpr_nolocalise(MSGCH_DURATION, message);
+    get_form(old_form)->do_untransform_message();
 
     const int str_mod = get_form(old_form)->str_mod;
     const int dex_mod = get_form(old_form)->dex_mod;
