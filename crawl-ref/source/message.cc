@@ -35,42 +35,47 @@
 #include "unwind.h"
 #include "view.h"
 
-static void _mpr(const string& text, msg_channel_type channel=MSGCH_PLAIN,int param=0,
-                 bool nojoin=false, bool cap=true, bool localise=true);
+static void _mpr(string text, const string& text_orig = "",
+                 msg_channel_type channel=MSGCH_PLAIN,int param=0,
+                 bool nojoin=false, bool cap=true);
 
 void mpr(const string &text)
 {
-    _mpr(text);
+    string text_locl = localise(text);
+    _mpr(text_locl, text);
 }
 
 void mpr(msg_channel_type channel, const string &text)
 {
-    _mpr(text, channel);
+    string text_locl = localise(text);
+    _mpr(text_locl, text, channel);
 }
 
 void mpr(msg_channel_type channel, int param, const string &text)
 {
-    _mpr(text, channel, param);
+    string text_locl = localise(text);
+    _mpr(text_locl, text, channel, param);
 }
 
 void mpr_nojoin(msg_channel_type channel, string text)
 {
-    _mpr(text, channel, 0, true);
+    string text_locl = localise(text);
+    _mpr(text_locl, text, channel, 0, true);
 }
 
 void mpr_nolocalise(const string& text)
 {
-    _mpr(text, MSGCH_PLAIN, 0, false, true, false);
+    _mpr(text, "", MSGCH_PLAIN, 0, false, true);
 }
 
 void mpr_nolocalise(msg_channel_type channel, const string& text)
 {
-    _mpr(text, channel, 0, false, true, false);
+    _mpr(text, "", channel, 0, false, true);
 }
 
 void mpr_nolocalise(msg_channel_type channel, int param, const string& text)
 {
-    _mpr(text, channel, param, false, true, false);
+    _mpr(text, "", channel, param, false, true);
 }
 
 static bool _ends_in_punctuation(const string& text)
@@ -1262,8 +1267,20 @@ int channel_to_colour(msg_channel_type channel, int param)
 void do_message_print(msg_channel_type channel, int param, bool cap,
                              bool nojoin, const char *format, va_list argp, bool locls)
 {
-    string text = locls ? vlocalise(format, argp) : vmake_stringf(format, argp);
-    _mpr(text, channel, param, nojoin, cap, false);
+    string text_orig;
+    string text;
+
+    if (locls)
+    {
+        text_orig = vmake_stringf(format, argp); // english
+        text = vlocalise(format, argp); // target language
+    }
+    else
+    {
+        text = vmake_stringf(format, argp); // english
+    }
+
+    _mpr(text, text_orig, channel, param, nojoin, cap);
 }
 
 void mprf_nocap(msg_channel_type channel, int param, const char *format, ...)
@@ -1526,12 +1543,10 @@ void msgwin_clear_temporary()
 
 static int _last_msg_turn = -1; // Turn of last message.
 
-static void _mpr(const string& txt, msg_channel_type channel, int param,
-                 bool nojoin, bool cap, bool locls)
+static void _mpr(string text, const string& text_orig,
+                 msg_channel_type channel, int param, bool nojoin, bool cap)
 {
     rng::generator rng(rng::UI);
-
-    string text = (locls ? localise(txt) : txt);
 
     if (_msg_dump_file != nullptr)
         fprintf(_msg_dump_file, "%s\n", text.c_str()); // should this strip color tags?
@@ -1584,8 +1599,9 @@ static void _mpr(const string& txt, msg_channel_type channel, int param,
 
     clua.callfn("c_message", "ss", text.c_str(), channel_to_str(channel).c_str());
 
-    bool domore = _check_more(text, channel);
-    bool do_flash_screen = _check_flash_screen(text, channel);
+    bool domore = _check_more(text, channel) || _check_more(text_orig, channel);
+    bool do_flash_screen = _check_flash_screen(text, channel) ||
+                           _check_flash_screen(text_orig, channel);
     bool join = !domore && !nojoin && _check_join(text, channel);
 
     // Must do this before converting to formatted string and back;
@@ -1772,7 +1788,7 @@ void mpr_comma_separated_list(const string &prefix,
         else if (i == (size - 1))
             out += localise(".");
     }
-    _mpr(out, channel, param, false, true, false);
+    _mpr(out, "", channel, param, false, true);
 }
 
 // Checks whether a given message contains patterns relevant for
@@ -2363,5 +2379,5 @@ void set_msg_dump_file(FILE* file)
 void formatted_mpr(const formatted_string& fs,
                    msg_channel_type channel, int param)
 {
-    _mpr(fs.to_colour_string(), channel, param);
+    _mpr(fs.to_colour_string(), "", channel, param);
 }
