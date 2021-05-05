@@ -9807,11 +9807,11 @@ You cannot tell which god this altar belongs to. Convert to them anyway?
 A being of your status worships no god.
 Ein Wesen von Eurem Status verehrt keinen Gott.
 %%%%
-You offer a %sprayer to %s.
-Ihr bietet ein %sGebet an %s.
+You offer a silent prayer to %s.
+Ihr sprecht ein stilles Gebet zu {dat}%s.
 %%%%
-"silent "
-
+You offer a prayer to %s.
+Ihr sprecht ein Gebet zu {dat}%s.
 %%%%
 You pay a tithe of %d gold.
 Ihr zahlt einen Zehnten von %d Gold.
@@ -19159,6 +19159,9 @@ the entropic weave
 " targeted"
 
 %%%%
+"silent "
+
+%%%%
 "unseen "
 
 %%%%
@@ -27972,9 +27975,6 @@ The plants of the dungeon cease their hostilities.
 You bow before the missionary of Beogh.
 Ihr verneigt Euch vor dem Missionar von Beogh.
 %%%%
-You %s the altar of %s.
-Ihr %s den Altar von {dat}%s.
-%%%%
 %s does not accept service from beggars like you!
 
 %%%%
@@ -28767,8 +28767,8 @@ Sound support (SDL_mixer)
 # species.cc
 ##################
 %%%%
-kneel at
-
+You kneel at the altar of %s.
+Ihr kniet vor dem Altar von {dat}%s.
 %%%%
 fiery red
 
@@ -32652,8 +32652,8 @@ Ihr verwandelt Euch in {acc}%s
 Your transformation has ended.
 Eure Verwandlung ist beendet.
 %%%%
-hover solemnly before
-schwebt feierlich vor
+You hover solemnly before the altar of %s.
+Ihr schwebt feierlich vor dem Altar von {dat}%s.
 %%%%
 You had blades for front paws.
 Ihr hattet Klingen für Vorderpfoten.

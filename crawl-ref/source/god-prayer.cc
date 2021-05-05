@@ -136,9 +136,13 @@ void try_god_conversion(god_type god)
     else
     {
         // Already worshipping this god - just print a message.
-        mprf(MSGCH_GOD, "You offer a %sprayer to %s.",
-             you.cannot_speak() ? "silent " : "",
-             god_name(god).c_str());
+        if (you.cannot_speak())
+        {
+            mprf(MSGCH_GOD, "You offer a silent prayer to %s.",
+                 god_name(god).c_str());
+        }
+        else
+            mprf(MSGCH_GOD, "You offer a prayer to %s.", god_name(god).c_str());
     }
 }
 

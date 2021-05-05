@@ -37,8 +37,8 @@ front leg
 Vorderbein
 %%%%
 # altar action
-crawl onto
-kriecht an
+You crawl onto the altar of %s.
+Ihr kriecht auf den Altar von {dat}%s.
 %%%%
 # flesh type
 flesh
@@ -126,8 +126,8 @@ Stone tentacles
 Steintentakeln
 %%%%
 # altar action
-place yourself before
-stellt Euch vor
+You place yourself before the altar of %s.
+Ihr stellt Euch vor dem Altar von {dat}%s.
 %%%%
 # flesh type
 # duplicate: stone
@@ -168,8 +168,8 @@ paw
 Pfote
 %%%%
 # altar action
-bow your head before
-verneigt Euer Kopf vor{dat}
+You bow your head before the altar of %s.
+Ihr verneigt Euer Kopf vor dem Altar von {dat}%s.
 %%%%
 
 ################################
@@ -263,8 +263,8 @@ squeak
 quietscht
 %%%%
 # altar action
-perch on
-hockt Euch auf{acc}
+You perch on the altar of %s.
+Ihr hockt Euch auf dem Altar von {acc}%s.
 %%%%
 
 ################################
@@ -347,8 +347,8 @@ root
 Wurzel
 %%%%
 # altar action
-sway towards
-schwankt zu{dat}
+You sway towards the altar of %s.
+Ihr schwankt zum Altar von {dat}%s.
 %%%%
 # flesh type
 wood
@@ -376,8 +376,8 @@ a spiny porcupine
 ein stacheliges Stachelschwein
 %%%%
 # altar action
-curl into a sanctuary of spikes before
-rollt Euch zu einem Heiligtum aus Stacheln zusammen vor{dat}
+You curl into a sanctuary of spikes before the altar of %s.
+Ihr rollt Euch zu einem Heiligtum aus Stacheln vor dem Altar von {dat}%s zusammen.
 %%%%
 
 ################################
@@ -417,8 +417,8 @@ strand
 Strähne
 %%%%
 # altar action
-swirl around
-wirbelt um{acc}
+You swirl around the altar of %s.
+Ihr wirbelt um den Altar von {dat}%s.
 %%%%
 # flesh
 vapour
@@ -476,8 +476,8 @@ hypha
 Hyphe
 %%%%
 # altar action
-release spores on
-Sporen freisetzt auf{dat}
+You release spores on the altar of %s.
+Ihr setzt Sporen auf dem Altar von {dat}%s frei.
 %%%%
 
 ################################
@@ -520,8 +520,8 @@ Bite (x%d)
 Biss (x%d)
 %%%%
 # altar action
-bow your heads before
-verneigt Eure Köpfe vor{dat}
+You bow your heads before the altar of %s.
+Ihr verneigt Eure Köpfe vor dem Altar von {dat}%s.
 %%%%
 
 ################################

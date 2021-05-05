@@ -47,4 +47,4 @@ create_enum: false
 
 walking_verb: Wriggling
 walker_noun: Wriggler
-altar_action: curl up in front of
+altar_action: You curl up in front of the altar of %s.
