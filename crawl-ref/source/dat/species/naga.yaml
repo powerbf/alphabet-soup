@@ -52,4 +52,4 @@ create_enum: false
 
 walking_verb: Sliding
 walker_noun: Slider
-altar_action: coil in front of
+altar_action: You coil in front of tha altar of %s.

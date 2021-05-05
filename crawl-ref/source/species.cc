@@ -217,7 +217,7 @@ const vector<string>& fake_mutations(species_type species, bool terse)
 string species_prayer_action(species_type species)
 {
   auto action = get_species_def(species).altar_action;
-  return action ? action : "kneel at";
+  return action ? action : "You kneel at the altar of %s.";
 }
 
 const char* scale_type(species_type species)

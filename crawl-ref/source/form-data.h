@@ -75,7 +75,7 @@ static const form_entry formdata[] =
     2, 0, 0, true, 10, true, 5,
     SPWPN_VENOM, LIGHTGREEN, "Fangs", ANIMAL_VERBS,
     FC_DEFAULT, FC_FORBID, FC_FORBID, true, false,
-    "hiss", -4, "front leg", "", "crawl onto", "flesh"
+    "hiss", -4, "front leg", "", "You crawl onto the altar of %s.", "flesh"
 },
 {
     transformation::blade_hands, MONS_PLAYER, "Blade", "", "blade",
@@ -95,7 +95,7 @@ static const form_entry formdata[] =
     20, 12, 0, true, 0, true, 12,
     SPWPN_NORMAL, LIGHTGREY, "", DEFAULT_VERBS,
     FC_DEFAULT, FC_FORBID, FC_FORBID, false, true,
-    "", 0, "", "", "place yourself before", "stone"
+    "", 0, "", "", "You place yourself before the altar of %s.", "stone"
 },
 {
     transformation::ice_beast, MONS_ICE_BEAST, "Ice", "ice-form", "ice",
@@ -105,7 +105,7 @@ static const form_entry formdata[] =
     5, 7, 0, true, 0, true, 12,
     SPWPN_FREEZING, WHITE, "", DEFAULT_VERBS,
     FC_DEFAULT, FC_ENABLE, FC_FORBID, true, false,
-    "", 0, "front paw", "paw", "bow your head before", "ice"
+    "", 0, "front paw", "paw", "You bow your head before the altar of %s.", "ice"
 },
 
 {
@@ -116,7 +116,7 @@ static const form_entry formdata[] =
     16, 0, 0, true, 0, true, 32,
     SPWPN_NORMAL, GREEN, "Teeth and claws", { FAV_HIT, FAV_CLAW, FAV_BITE, FAV_MAUL },
     FC_ENABLE, FC_FORBID, FC_ENABLE, true, false,
-    "roar", 6, "foreclaw", "", "bow your head before", "flesh"
+    "roar", 6, "foreclaw", "", "You bow your head before the altar of %s.", "flesh"
 },
 
 {
@@ -138,7 +138,7 @@ static const form_entry formdata[] =
     0, 0, 0, false, 0, true, 1,
     SPWPN_NORMAL, LIGHTGREY, "Teeth", ANIMAL_VERBS,
     FC_ENABLE, FC_FORBID, FC_ENABLE, true, false,
-    "squeak", -8, "foreclaw", "", "perch on", "flesh"
+    "squeak", -8, "foreclaw", "", "You perch on the altar of %s.", "flesh"
 },
 
 {
@@ -149,7 +149,7 @@ static const form_entry formdata[] =
     0, 0, 0, false, 0, false, 3,
     SPWPN_NORMAL, LIGHTGREY, "Teeth", ANIMAL_VERBS,
     FC_DEFAULT, FC_FORBID, FC_ENABLE, true, false,
-    "squeal", 0, "front trotter", "trotter", "bow your head before", "flesh"
+    "squeal", 0, "front trotter", "trotter", "You bow your head before the altar of %s.", "flesh"
 },
 
 {
@@ -172,7 +172,7 @@ static const form_entry formdata[] =
     SPWPN_NORMAL, BROWN, "Branches", { FAV_HIT, FAV_SMACK,
                                        FAV_PUMMEL, FAV_THRASH },
     FC_FORBID, FC_FORBID, FC_FORBID, false, false,
-    "creak", 0, "branch", "root", "sway towards", "wood"
+    "creak", 0, "branch", "root", "You sway towards the altar of %s.", "wood"
 },
 
 #if TAG_MAJOR_VERSION == 34
@@ -184,7 +184,7 @@ static const form_entry formdata[] =
     0, 0, 0, false, 0, false, 3,
     SPWPN_NORMAL, LIGHTGREY, "Teeth", ANIMAL_VERBS,
     FC_DEFAULT, FC_FORBID, FC_ENABLE, true, false,
-    "squeak", -8, "front leg", "", "curl into a sanctuary of spikes before", "flesh"
+    "squeak", -8, "front leg", "", "You curl into a sanctuary of spikes before the altar of %s.", "flesh"
 },
 #endif
 
@@ -199,7 +199,7 @@ static const form_entry formdata[] =
     SPWPN_NORMAL, LIGHTGREY, "Misty tendrils", { FAV_TOUCH, FAV_TOUCH,
                                                  FAV_ENGULF, FAV_ENGULF },
     FC_ENABLE, FC_FORBID, FC_FORBID, false, false,
-    "whoosh", -8, "misty tendril", "strand", "swirl around", "vapour"
+    "whoosh", -8, "misty tendril", "strand", "You swirl around the altar of %s.", "vapour"
 },
 
 #if TAG_MAJOR_VERSION == 34
@@ -223,7 +223,7 @@ static const form_entry formdata[] =
     12, 0, 0, false, 0, true, 12,
     SPWPN_CONFUSE, BROWN, "Spores", FormAttackVerbs(FAV_RELEASE_SPORES_AT),
     FC_DEFAULT, FC_FORBID, FC_FORBID, false, false,
-    "sporulate", -8, "hypha", "", "release spores on", "flesh"
+    "sporulate", -8, "hypha", "", "You release spores on the altar of %s.", "flesh"
 },
 
 {
@@ -246,7 +246,7 @@ static const form_entry formdata[] =
     6, 5, 0, true, 0, true, -1,
     SPWPN_NORMAL, GREEN, "", { FAV_NIP_AT, FAV_BITE, FAV_GOUGE, FAV_CHOMP },
     FC_DEFAULT, FC_ENABLE, FC_ENABLE, true, false,
-    "roar", 4, "foreclaw", "", "bow your heads before", "flesh"
+    "roar", 4, "foreclaw", "", "You bow your heads before the altar of %s.", "flesh"
 }
 };
 COMPILE_CHECK(ARRAYSZ(formdata) == NUM_TRANSFORMS);
