@@ -301,7 +301,7 @@ Fuß
 %%%%
 
 ################################
-# Appendages
+# Beastly Appendage
 ################################
 %%%%
 # abbreviation for HUD
@@ -311,6 +311,32 @@ Gliede
 # long name / wizmode name
 appendages
 Körpergliede
+%%%%
+
+# untransform messages
+%%%%
+Your horns disappear.
+Eure Hörner verschwinden.
+%%%%
+Your talons disappear.
+Eure Krallen verschwinden.
+%%%%
+# this one is for octopode only
+Your tentacle spike disappears.
+Euer Tentakelstachel verschwindet.
+%%%%
+
+# untransform messages (when player keeps appendage due to mutation)
+%%%%
+Your horns shrink.
+Eure Hörner schrumpfen.
+%%%%
+Your talons shrink.
+Eure Krallen schrumpfen.
+%%%%
+# this one is for octopode only
+Your tentacle spike shrinks.
+Euer Tentakelstachel schrumpft.
 %%%%
 
 ################################

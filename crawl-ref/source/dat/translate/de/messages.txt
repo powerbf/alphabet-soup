@@ -22387,9 +22387,6 @@ Your tentacle spike grows bigger.
 Your tentacle spike grows even bigger.
 
 %%%%
-Your tentacle spike disappears.
-
-%%%%
 Your tentacle spike becomes smaller.
 
 %%%%
@@ -32862,18 +32859,6 @@ Ihr verschwindet in den Schatten.
 You feel less conspicuous.
 Ihr fühlt Euch weniger auffällig.
 %%%%
-%s shrinks.
-%s schrumpft.
-%%%%
-%s shrink.
-%s schrumpfen.
-%%%%
-%s disappears.
-%s verschwindet.
-%%%%
-%s disappear.
-%s verschwinden.
-%%%%
 You quickly transform back into your natural form.
 Ihr verwandelt Euch schnell wieder in Eure natürliche Form.
 %%%%
@@ -32953,6 +32938,9 @@ Ihr tretet in {acc}%s ein!
 %%%%
 %s enters %s!
 %s tritt in {acc}%s ein!
+%%%%
+%s disappears.
+%s verschwindet.
 %%%%
 You set off the alarm!
 Ihr habt den Alarm ausgelöst!
