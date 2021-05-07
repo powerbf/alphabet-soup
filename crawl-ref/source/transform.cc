@@ -893,19 +893,19 @@ public:
         for (auto app : you.props[APPENDAGE_KEY].get_vector())
         {
             if (msg.tellp() != std::streampos(0))
-                msg << localise(" ");
+                msg << " ";
 
             mutation_type mut = static_cast<mutation_type>(app.get_int());
             switch (mut)
             {
                 case MUT_HORNS:
-                    msg << localise("You grow a pair of large bovine horns.");
+                    msg << "You grow a pair of large bovine horns.";
                     break;
                 case MUT_TENTACLE_SPIKE:
-                    msg << localise("One of your tentacles grows a vicious spike.");
+                    msg << "One of your tentacles grows a vicious spike.";
                     break;
                 case MUT_TALONS:
-                    msg << localise("Your feet morph into talons.");
+                    msg << "Your feet morph into talons.";
                     break;
                 default:
                     die("Unknown appendage type");
@@ -913,7 +913,7 @@ public:
             }
         }
 
-        mpr_nolocalise(msg.str());
+        mpr(msg.str());
     }
 
     /**

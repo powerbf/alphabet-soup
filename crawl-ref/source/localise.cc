@@ -983,6 +983,44 @@ static string _localise_list(const string& context, const string& s)
     return s;
 }
 
+static string _localise_multiple_sentences(const string& context, const string& s)
+{
+    vector<string> sentences;
+    size_t pos;
+    size_t last = 0;
+
+    for (pos = 0; pos < s.length(); pos++)
+    {
+        if (pos == s.length() - 1)
+        {
+            sentences.push_back(s.substr(last, pos - last + 1));
+        }
+        else {
+            char c = s[pos];
+            if (c == '.' || c == '?' || c == '!')
+            {
+                if (s[pos+1] == ' ')
+                {
+                    sentences.push_back(s.substr(last, pos - last + 1));
+                    pos++;
+                    last = pos + 1;
+                }
+            }
+        }
+    }
+
+    if (sentences.size() <= 1)
+        return s;
+
+    string result;
+    for (string sentence: sentences)
+    {
+        if (!result.empty())
+            result += _localise_string(context, " ");
+        result += _localise_string(context, sentence);
+    }
+    return result;
+}
 
 // localise a string with count
 static string _localise_counted_string(const string& context, const string& singular,
@@ -1046,6 +1084,11 @@ static string _localise_string(const string& context, const string& value)
     {
         return _localise_list(context, value);
     }
+
+    // try treating as multiple sentences
+    result = _localise_multiple_sentences(context, value);
+    if (result != value)
+        return result;
 
     // try treating as ghost name
     result = _localise_ghost_name(context, value);
