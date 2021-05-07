@@ -2041,23 +2041,29 @@ void untransform(bool skip_move)
             // demonspawn innate mutation; no message then.
             if (levels)
             {
-                string parts = string("your ") + mutation_name(app);
-                bool singular = app == MUT_TENTACLE_SPIKE;
-
-                if (you.has_mutation(app))
+                if (app == MUT_TENTACLE_SPIKE)
                 {
-                    if (singular)
-                        mprf(MSGCH_DURATION, "%s shrinks.", parts.c_str());
+                    if (you.has_mutation(app))
+                        mprf(MSGCH_DURATION, "Your tentacle spike shrinks.");
                     else
-                        mprf(MSGCH_DURATION, "%s shrink.", parts.c_str());
+                        mprf(MSGCH_DURATION, "Your tentacle spike disappears.");
+                }
+                else if (app == MUT_HORNS)
+                {
+                    if (you.has_mutation(app))
+                        mprf(MSGCH_DURATION, "Your horns shrink.");
+                    else
+                        mprf(MSGCH_DURATION, "Your horns disappear.");
+                }
+                else if (app == MUT_TALONS)
+                {
+                    if (you.has_mutation(app))
+                        mprf(MSGCH_DURATION, "Your talons shrink.");
+                    else
+                        mprf(MSGCH_DURATION, "Your talons disappear.");
                 }
                 else
-                {
-                    if (singular)
-                        mprf(MSGCH_DURATION, "%s disappears.", parts.c_str());
-                    else
-                        mprf(MSGCH_DURATION, "%s disappear.", parts.c_str());
-                }
+                    die("Unknown appendage type");
             }
         }
         you.props.erase(APPENDAGE_KEY);
