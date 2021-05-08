@@ -1000,7 +1000,7 @@ the %sscarf
 der %sSchal
 %%%%
 the %spair of %sgloves
-das %sPaar {adj-e}%sHandschuhe
+das {adj-e}%sPaar {adj-e}%sHandschuhe
 %%%%
 the %shelmet
 der %sHelm
@@ -1009,7 +1009,7 @@ the %shat
 der %sHut
 %%%%
 the %spair of %sboots
-das %sPaar {adj-e}%sStiefel
+das {adj-e}%sPaar {adj-e}%sStiefel
 %%%%
 the %scentaur barding
 der %sZentaurenharnisch
@@ -1094,7 +1094,7 @@ a %sscarf
 ein {adj-er}%sSchal
 %%%%
 a %spair of %sgloves
-ein {adj-es}%sPaar %sHandschuhe
+ein {adj-es}%sPaar {adj-e}%sHandschuhe
 %%%%
 a %shelmet
 ein {adj-er}%sHelm
@@ -1103,7 +1103,7 @@ a %shat
 ein {adj-er}%sHut
 %%%%
 a %spair of %sboots
-ein {adj-es}%sPaar %sStiefel
+ein {adj-es}%sPaar {adj-e}%sStiefel
 %%%%
 a %scentaur barding
 ein {adj-er}%sZentaurenharnisch
@@ -1158,7 +1158,7 @@ your %sscarf
 Euer {adj-er}%sSchal
 %%%%
 your %spair of %sgloves
-Euer {adj-es}%sPaar %sHandschuhe
+Euer {adj-es}%sPaar {adj-e}%sHandschuhe
 %%%%
 your %shelmet
 Euer {adj-er}%sHelm
@@ -1167,7 +1167,7 @@ your %shat
 Euer {adj-er}%sHut
 %%%%
 your %spair of %sboots
-Euer {adj-es}%sPaar %sStiefel
+Euer {adj-es}%sPaar {adj-e}%sStiefel
 %%%%
 your %scentaur barding
 Euer {adj-er}%sZentaurenharnisch
@@ -1252,7 +1252,7 @@ Eure %sGolddrachenschuppen
 {adj-er}%sSchal
 %%%%
 %spair of %sgloves
-{adj-es}%sPaar %sHandschuhe
+{adj-es}%sPaar {adj-e}%sHandschuhe
 %%%%
 %shelmet
 {adj-er}%sHelm
@@ -1261,7 +1261,7 @@ Eure %sGolddrachenschuppen
 {adj-er}%sHut
 %%%%
 %spair of %sboots
-{adj-es}%sPaar %sStiefel
+{adj-es}%sPaar {adj-e}%sStiefel
 %%%%
 %scentaur barding
 {adj-er}%sZentaurenharnisch
