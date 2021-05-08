@@ -95,7 +95,7 @@ const vector<string> expected = {
 
     "der Ring von \"Fedhas's Hope\" {MP+9 Int+4 Ges+2}",
 
-    "ein knubbeliger runenbesetzter Stecken",
+    "ein knubbeliger runenverzierter Stecken",
 
     "Keule",
     "+9 Streitkolben",
@@ -103,7 +103,7 @@ const vector<string> expected = {
     "27 Pfeile",
     "eine Breitaxt",
     "eine glühende Breitaxt",
-    "eine runenbesetzte Peitsche",
+    "eine runenverzierte Peitsche",
     "a - eine +9 Breitaxt des heiligen Zorns",
     "eine +0 riesige Stachelkeule",
     "eine verfluchte -1 Riesenkeule",
@@ -144,8 +144,8 @@ const vector<string> armour_de =
     "ein verfluchter -1 Kettenpanzer",
     "ein Paar Handschuhe",
     "ein verzaubertes Paar Stiefel",
-    "ein Paar runenbesetzte Handschuhe",
-    "ein verfluchtes Paar runenbesetzte Handschuhe",
+    "ein Paar runenverzierte Handschuhe",
+    "ein verfluchtes Paar runenverzierte Handschuhe",
     "ein unverfluchtes +0 Paar Stiefel",
     "ein verfluchtes +2 Paar glühende Stiefel",
     "ein unverfluchtes +2 Paar Handschuhe der Schießkunst",
