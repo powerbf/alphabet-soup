@@ -853,6 +853,8 @@ static string _localise_item_name(const string& context, const string& item)
             item_en += words[j];
         }
 
+        bool space_with_adjective = true;
+
         // first, try with suffix attached
         if (!suffix.empty())
         {
@@ -862,6 +864,18 @@ static string _localise_item_name(const string& context, const string& item)
                      ? _localise_counted_string(context, branded_item)
                      :cxlate(context, branded_item);
             success = (result != branded_item);
+
+            if (!success)
+            {
+                // try with space after adjective
+                branded_item = replace_first(branded_item, "%s", "%s ");
+                result = count > 0
+                         ? _localise_counted_string(context, branded_item)
+                         :cxlate(context, branded_item);
+                success = (result != branded_item);
+                if (success)
+                    space_with_adjective = false;
+            }
         }
 
         if (!success)
@@ -870,8 +884,19 @@ static string _localise_item_name(const string& context, const string& item)
             result = count > 0
                      ? _localise_counted_string(context, item_en)
                      : cxlate(context, item_en);
-
             success = (result != item_en);
+
+            if (!success)
+            {
+                // try with space after adjective
+                item_en = replace_first(item_en, "%s", "%s ");
+                result = count > 0
+                         ? _localise_counted_string(context, item_en)
+                         : cxlate(context, item_en);
+                success = (result != item_en);
+                if (success)
+                    space_with_adjective = false;
+            }
 
             if (success && !suffix.empty())
             {
@@ -918,7 +943,8 @@ static string _localise_item_name(const string& context, const string& item)
                 string postfix_adjs;
                 for (size_t k = 0; k < adjs; k++)
                 {
-                    string adj = cxlate(new_context, words[k] + " ");
+                    string adj_en = words[k] + (space_with_adjective ? " " : "");
+                    string adj = cxlate(new_context, adj_en);
                     if (!adj.empty() && adj[0] == ' ')
                         postfix_adjs += adj;
                     else
