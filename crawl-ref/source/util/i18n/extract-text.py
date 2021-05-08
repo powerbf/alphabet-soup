@@ -67,7 +67,7 @@ SKIP_FILES = [
     'json.h', 'json.cc', 'json-wrapper.h',
     'tileweb.h', 'tileweb.cc', 'tileweb-text.h', 'tileweb-text.cc',
     # nor other tags
-    'colour.h', 'colour.cc',
+    'colour.h', 'colour.cc', 'format.h', 'format.cc',
     # keys/properties
     'defines.h', 'dgn-layouts.h', 'dgn-layouts.cc',
     # debug/test stuff
