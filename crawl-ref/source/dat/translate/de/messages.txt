@@ -7565,29 +7565,6 @@ Eine bösartige Aura umgibt {acc}%s.
 %%%%
 
 ##################
-# format.cc
-##################
-%%%%
-&
-
-%%%%
-&amp;
-
-%%%%
-&nbsp;
-
-%%%%
-&lt;
-
-%%%%
-&gt;
-
-%%%%
-<font color=
-
-%%%%
-
-##################
 # game-options.h
 ##################
 %%%%
@@ -17126,6 +17103,9 @@ Bad spellbook size: %d
 
 %%%%
 Bad slevels: %d.
+
+%%%%
+&
 
 %%%%
 Bad spell: %s
