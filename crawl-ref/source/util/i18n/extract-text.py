@@ -85,7 +85,7 @@ SKIP_FILES = [
     # lua scripting stuff
     'clua.h', 'clua.cc', 'cluautil.h', 'cluautil.cc', 'dlua.h', 'dlua.cc',
     # internal logic
-    'domino.h', 'domino.cc', 'dungeon.h', 'dungeon.cc',
+    'domino.h', 'domino.cc', 'dungeon.h', 'dungeon.cc', 'fontwrapper-ft.cc',
     # nonsense
     'lang-fake.h', 'lang-fake.cc'
 ]
