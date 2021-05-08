@@ -3390,6 +3390,9 @@ ein ungenießbares Fleischstück
 %d inedible chunks of flesh
 %d ungenießbare Fleischstücke
 %%%%
+a %s corpse
+eine %s-Leiche
+%%%%
 
 #################################
 # Miscellaneous Items
