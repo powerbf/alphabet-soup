@@ -7565,26 +7565,6 @@ Eine bösartige Aura umgibt {acc}%s.
 %%%%
 
 ##################
-# fontwrapper-ft.cc
-##################
-%%%%
-Could not find font '%s'
-
-%%%%
-Could not read font '%s'
-
-%%%%
-Could not read font '%s': %s
-
-%%%%
-Unknown font format for file '%s'
-
-%%%%
-Invalid font from file '%s' (size %lu): 0x%0x
-
-%%%%
-
-##################
 # format.cc
 ##################
 %%%%
