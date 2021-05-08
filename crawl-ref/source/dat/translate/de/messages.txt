@@ -7565,72 +7565,6 @@ Eine bösartige Aura umgibt {acc}%s.
 %%%%
 
 ##################
-# game-options.h
-##################
-%%%%
-Bad %s value: %s (should be %s)
-
-%%%%
-
-##################
-# game-options.cc
-##################
-%%%%
-Bad highlight string -- %s
-
-%%%%
-Bad colour -- %s
-
-%%%%
-Bad boolean: %s (should be true or false)
-
-%%%%
-Bad %s value: %s (should be true or false)
-
-%%%%
-Bad %s -- %s\n
-
-%%%%
-%s (for %s)
-
-%%%%
-Bad %s: "%s"
-
-%%%%
-Bad %s: %d should be >= %d
-
-%%%%
-Bad %s: %d should be <<= %d
-
-%%%%
-:
-
-%%%%
-Bad %s pair: '%s'
-
-%%%%
-Bad %s: '%s'
-
-%%%%
-
-##################
-# glwrapper-ogl.cc
-##################
-%%%%
-Texture %s is bigger than maximum driver texture size (%d,%d vs. %d). Sprites from this texture will not display properly.
-
-%%%%
-GL_OUT_OF_MEMORY (fatal)
-
-%%%%
-Unknown OpenGL error %d
-
-%%%%
-OpenGL error %s
-OpenGL-Fehler %s
-%%%%
-
-##################
 # god-abil.h
 ##################
 %%%%
@@ -11768,6 +11702,9 @@ unique
 "ed to "
 
 %%%%
+:
+
+%%%%
 unknown source
 
 %%%%
@@ -12665,6 +12602,9 @@ Bad colour -- %s=%d or %s=%d\n
 
 %%%%
 Bad channel -- %s
+
+%%%%
+Bad colour -- %s
 
 %%%%
 ;
