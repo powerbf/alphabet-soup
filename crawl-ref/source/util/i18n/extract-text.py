@@ -69,7 +69,7 @@ SKIP_FILES = [
     # nor other tags
     'colour.h', 'colour.cc', 'format.h', 'format.cc',
     # keys/properties
-    'defines.h', 'dgn-layouts.h', 'dgn-layouts.cc',
+    'defines.h', 'dgn-layouts.h', 'dgn-layouts.cc', 'god-abil.h',
     # debug/test stuff
     'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc', 'coord-def.h',
     'crash.h', 'crash.cc', 'errors.h', 'errors.cc',

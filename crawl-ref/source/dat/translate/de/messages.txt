@@ -7565,73 +7565,23 @@ Eine bösartige Aura umgibt {acc}%s.
 %%%%
 
 ##################
-# god-abil.h
-##################
-%%%%
-given beogh range weapon
-
-%%%%
-given beogh melee weapon
-
-%%%%
-given beogh armour
-
-%%%%
-given beogh shield
-
-%%%%
-gozag_potions%d
-
-%%%%
-gozag_price%d
-
-%%%%
-gozag_shopkeeper_%d
-
-%%%%
-gozag_shop_type_%d
-
-%%%%
-gozag_shop_suffix_%d
-
-%%%%
-gozag_shop_cost_%d
-
-%%%%
-
-##################
 # god-abil.cc
 ##################
-%%%%
-blessed by the Shining One
-
-%%%%
-corrupted by Lugonu
-
-%%%%
-bloodied by Kikubaaqudgha
-
-%%%%
-touched by the gods
-
 %%%%
 Brand which weapon?
 
 %%%%
-"Do you wish to have "
+Do you wish to have %s bloodied with pain?
 
 %%%%
-bloodied with pain
+Do you wish to have %s corrupted with distortion?
 
 %%%%
-corrupted with distortion
+Do you wish to have %s blessed with holy wrath?
 
 %%%%
-blessed with holy wrath
-
-%%%%
-Your %s shines brightly!
-Eure %s leuchten hell!
+%s shines brightly!
+%s leuchtet hell!
 %%%%
 %s booms: Use this gift wisely!
 
@@ -7651,31 +7601,25 @@ Ihr habt das Gefühl, dass Ihr bald von all Euren Sünden befreit sein werdet.
 You feel that your burden of sins will soon be lighter.
 Ihr fühlt, dass Eure Last der Sünden bald leichter sein wird.
 %%%%
-"You feel that "
+You feel that Zin will soon be exalted by your worship.
 
 %%%%
-" will soon be "
+You feel that Zin will soon be extremely pleased with you.
 
 %%%%
-exalted by your worship
+You feel that Zin will soon be greatly pleased with you.
 
 %%%%
-extremely pleased with you
+You feel that Zin will soon be most pleased with you.
 
 %%%%
-greatly pleased with you
+You feel that Zin will soon be pleased with you.
 
 %%%%
-most pleased with you
+You feel that Zin will soon be aware of your devotion.
 
 %%%%
-pleased with you
-
-%%%%
-aware of your devotion
-
-%%%%
-noncommittal
+You feel that Zin will soon be noncommittal.
 
 %%%%
 It was the word of Zin that there would not be @sin_noun@...
@@ -8164,18 +8108,6 @@ Anathema
 Bugginess
 
 %%%%
-sinners
-
-%%%%
-virtuous
-
-%%%%
-virtue
-
-%%%%
-Smitten
-
-%%%%
 Finish your current sermon first, please.
 Beende bitte zuerst Eure aktuelle Predigt.
 %%%%
@@ -8245,7 +8177,7 @@ Ihr seid noch nicht bereit, noch einmal zu rezitieren.
 %s is turned into a pillar of salt by the wrath of Zin!
 
 %%%%
-%s grants you divine stamina.
+Zin grants you divine stamina.
 
 %%%%
 Your divine stamina fades away.
@@ -8254,10 +8186,7 @@ Eure göttliche Ausdauer schwindet.
 Do you wish to cure all of your mutations?
 
 %%%%
-%s draws all chaos from your body!
-
-%%%%
-Zin's power
+Zin draws all chaos from your body!
 
 %%%%
 You hear a choir sing!
@@ -8266,8 +8195,8 @@ Ihr hört einen Chor singen!
 You are suddenly bathed in radiance!
 Ihr seid plötzlich in Strahlen getaucht!
 %%%%
-Your shield is strengthened by %s divine power.
-Euer Schild wird durch%s göttliche Kraft gestärkt.
+Your shield is strengthened by the Shining One's divine power.
+
 %%%%
 A divine shield forms around you!
 Ein göttlicher Schild bildet sich um Euch!
@@ -8281,8 +8210,8 @@ Euer göttlicher Schild verschwindet.
 You feel purified!
 Ihr fühlt Euch gereinigt!
 %%%%
-%s grants you divine vigour.
-%s gewährt Euch göttliche Kraft.
+Elyvilon grants you divine vigour.
+
 %%%%
 Your divine vigour fades away.
 Eure göttliche Kraft schwindet.
@@ -8329,13 +8258,13 @@ Das könnt Ihr%s nicht geben.
 Gift failed: %s is unable to take %s.
 Geschenk fehlgeschlagen:%s kann%s nicht nehmen.
 %%%%
-"Resurrect "
+Resurrect %s?
 
 %%%%
-There's nobody %shere you can resurrect.
-Es gibt niemanden %shier, den Ihr wiederbeleben könnt.
+There's nobody else here you can resurrect.
+
 %%%%
-"else "
+There's nobody here you can resurrect.
 
 %%%%
 There's no room!
@@ -8350,13 +8279,16 @@ Jiyva's power
 You feel cleansed.
 Ihr fühlt Euch gereinigt.
 %%%%
-%s soul %s.
-%s Seele %s.
-%%%%
-is now yours
+%s's soul fights you.
 
 %%%%
-fights you
+%s's soul is now yours.
+
+%%%%
+Its soul fights you.
+
+%%%%
+Its soul is now yours.
 
 %%%%
 %s delivers you corpses!
@@ -8374,10 +8306,10 @@ Do you wish to receive a Necronomicon?
 %s grants you a gift!
 %s gewährt Euch ein Geschenk!
 %%%%
-Space bends %saround you!
+Space bends sharply around you!
 
 %%%%
-"sharply "
+Space bends around you!
 
 %%%%
 The flow of time bends around you.
@@ -8410,19 +8342,22 @@ Ihr übertragt derzeit Wissen von %s auf %s.
 Are you sure you want to cancel the transfer?
 
 %%%%
-You %s forgetting about %s and learning about %s.
-Ihr %s %s vergesst und über %s lernt.
-%%%%
-have finished
+You have finished forgetting about %s and learning about %s.
 
 %%%%
-stop
+You stop forgetting about %s and learning about %s.
 
 %%%%
-Curse which item? (%d remove curse scroll%s left) (Esc to abort)
+Curse which item?
 
 %%%%
-s
+" (1 remove curse scroll left)"
+
+%%%%
+" (%d remove curse scrolls left)"
+
+%%%%
+" (Esc to abort)"
 
 %%%%
 You can't curse that!
@@ -8447,7 +8382,7 @@ You step into %s shadow.
 Ihr trittt in%s Schatten.
 %%%%
 You need at least %d gold to purchase potions right now!
-Ihr braucht mindestens%d Gold, um jetzt Tränke zu kaufen!
+Ihr braucht mindestens %d Gold, um jetzt Tränke zu kaufen!
 %%%%
 "  [%c] - %d gold - "
 
@@ -8488,12 +8423,6 @@ Welchen Händler finanzieren?
 You don't have enough gold to fund that merchant!
 Ihr habt nicht genug Gold, um diesen Händler zu finanzieren!
 %%%%
-" suffix:"
-
-%%%%
-%s shop name:%s%s gozag
-
-%%%%
 %s invites you to visit %s %s%s%s.
 %s lädt Euch ein,%s%s%s%s zu besuchen.
 %%%%
@@ -8501,16 +8430,13 @@ Your bribe of %s has been exhausted.
 Euer Bestechungsgeld von%s ist erschöpft.
 %%%%
 You need at least %d gold to offer a bribe.
-Ihr braucht mindestens%d Gold, um ein Bestechungsgeld anzubieten.
+Ihr braucht mindestens %d Gold, um ein Bestechungsgeld anzubieten.
 %%%%
-the denizens of %s
+You can't bribe the denizens of %s or the denizens of %s.
 
 %%%%
-You can't bribe %s or %s.
-Ihr könnt%s oder%s nicht bestechen.
-%%%%
-You can't bribe %s.
-Ihr könnt%s nicht bestechen.
+You can't bribe the denizens of %s.
+
 %%%%
 Do you want to bribe the denizens of %s?
 
@@ -8525,10 +8451,10 @@ Gozag spreads your bribe to %s!
 
 %%%%
 Aiming: <white>Upheaval</white>
-
+Ziel: <white>Umwälzung</white>
 %%%%
 There is %s there.
-Da sind%s.
+Da ist %s.
 %%%%
 blast of magma
 
@@ -8572,26 +8498,23 @@ There are friendlies around; are you sure you want to hurt them?
 Nature churns violently around you!
 Die Natur wirbelt heftig um Euch herum!
 %%%%
-%s believes you are ready to make a new sacrifice.
+Ru believes you are ready to make a new sacrifice.
 
 %%%%
-an incredible
+This is an incredible sacrifice.
 
 %%%%
-a major
+This is a major sacrifice.
 
 %%%%
-a significant
+This is a significant sacrifice.
 
 %%%%
-a modest
+This is a modest sacrifice.
 
 %%%%
-a trivial
+This is a trivial sacrifice.
 
-%%%%
-Ru asks you to %s.
-Ru bittet Euch um zu %s.
 %%%%
 Do you really want to make this sacrifice?
 
@@ -8602,28 +8525,34 @@ Ihr könnt%s nicht länger halten!
 You can no longer wear %s!
 Ihr könnt%s nicht mehr tragen!
 %%%%
-You put %s back on %s %s!
-Ihr habt %s wieder auf%s%s gesetzt!
-%%%%
-another
+You put %s back on another tentacle!
 
 %%%%
-your other
+You put %s back on your other hand!
 
 %%%%
-This is %s sacrifice. Piety after sacrifice: %s
+You put %s back on your other claw!
+
+%%%%
+You put %s back on your other paw!
+
+%%%%
+You put %s back on the other side!
+
+%%%%
+Piety after sacrifice: %s
 
 %%%%
 %sand %s
 
 %%%%
-%s indicates that your awakening is complete.
+Ru indicates that your awakening is complete.
 
 %%%%
 Do you really want to reject the sacrifices Ru is offering?
 
 %%%%
-%s will take longer to evaluate your readiness.
+Ru will take longer to evaluate your readiness.
 
 %%%%
 You focus your inner power and drain %s's magic in retribution!
@@ -8776,9 +8705,6 @@ Are you sure you want to remember your ancestor as %s?
 It is so.
 
 %%%%
-remembered their ancestor %s as %s.
-
-%%%%
 You have no ancestor to preserve!
 Ihr habt keinen Vorfahren zu bewahren!
 %%%%
@@ -8812,8 +8738,11 @@ transfer
 %s can't be transferred into %s.
 %s kann nicht in%s übertragen werden.
 %%%%
-%s swap%s with %s!
-%s tausche%s mit%s!
+You swap with %s!
+
+%%%%
+%s swaps with %s!
+
 %%%%
 "Remember %s name as what? "
 
@@ -8839,10 +8768,10 @@ Was %s a) male, b) female, or c) neither? (Currently %s.)
 Please select an adjacent position to wall jump against.
 
 %%%%
-"You cannot wall jump against "
+You cannot wall jump against %s.
 
 %%%%
-You cannot move your %s away from %s to wall jump!
+You cannot move away from %s to wall jump!
 
 %%%%
 You are too afraid to wall jump closer to %s!
@@ -8851,7 +8780,7 @@ You are too afraid to wall jump closer to %s!
 You have no room to wall jump there; %s is in the way.
 
 %%%%
-something you can't see
+You have no room to wall jump there; something you can't see is in the way.
 
 %%%%
 You have no room to wall jump there.
@@ -8866,12 +8795,6 @@ Ihr rutscht frei von dem Wasser, das Euch verschlingt.
 You can't repeat a wall jump.
 
 %%%%
-You cannot wall jump while caught in a %s.
-
-%%%%
-net
-
-%%%%
 Aiming: <white>Wall Jump</white>
 
 %%%%
@@ -8881,7 +8804,7 @@ Wandsprung wegen HUP abbrechen.
 The air is filled with shimmering golden clouds!
 Die Luft ist gefüllt mit schimmernden goldenen Wolken!
 %%%%
-" says: The storm will not cease as long as you keep fighting, disciple!"
+The storm will not cease as long as you keep fighting, disciple!
 
 %%%%
 You feel like a meek peon again.
@@ -9689,6 +9612,27 @@ Ihr %sgreift {acc}%s von oben an%s.
 " is "
 
 %%%%
+exalted by your worship
+
+%%%%
+extremely pleased with you
+
+%%%%
+greatly pleased with you
+
+%%%%
+most pleased with you
+
+%%%%
+pleased with you
+
+%%%%
+aware of your devotion
+
+%%%%
+noncommittal
+
+%%%%
 You cannot tell which god this altar belongs to. Convert to them anyway?
 
 %%%%
@@ -9964,16 +9908,16 @@ You feel overwhelmed by the shadows around you.
 %s causes a mighty clap of thunder!
 
 %%%%
-" says: Die by a thousand cuts!"
+Die by a thousand cuts!
 
 %%%%
-" whispers: Nowhere to run..."
+Nowhere to run...
 
 %%%%
-" whispers: These will loosen your tongue!"
+These will loosen your tongue!
 
 %%%%
-" says: Suffer, mortal!"
+Suffer, mortal!
 
 %%%%
 %s's divine weapons fail to arrive.
@@ -10915,6 +10859,9 @@ these
 
 %%%%
 this
+
+%%%%
+s
 
 %%%%
 ". You'll "
@@ -18241,7 +18188,7 @@ Euer Gott ist nicht bereit, das jetzt für Euch zu tun.
 The Council
 
 %%%%
-"Sifu "
+Sifu %s says: %s
 
 %%%%
 
@@ -27916,20 +27863,20 @@ Your god hates this spell!
 # sacrifice-data.h
 ##################
 %%%%
-corrupt yourself such that
-
+Ru asks you to corrupt yourself such that: %s.
+Ru fordert Euch auf, Euch so zu korrumpieren, dass: %s.
 %%%%
 sacrificed purity
 
 %%%%
-sacrifice your ability to read while threatened
-
+Ru asks you to sacrifice your ability to read while threatened.
+Ru fordert Euch auf, Eure Fähigkeit zu lesen während Ihr bedroht werden, zu opfern.
 %%%%
 sacrificed words
 
 %%%%
-sacrifice your ability to drink while threatened
-
+Ru asks you to sacrifice your ability to drink while threatened.
+Ru fordert Euch auf, Eure Fähigkeit zu trinken während Ihr bedroht werden, zu opfern.
 %%%%
 sacrificed drink
 
@@ -27940,74 +27887,74 @@ sacrificed essence
 sacrificed health
 
 %%%%
-sacrifice your ability to go unnoticed
-
+Ru asks you to sacrifice your ability to go unnoticed.
+Ru fordert Euch auf, Eure Fähigkeit unbemerkt zu bleiben, zu opfern.
 %%%%
 sacrificed stealth
 
 %%%%
-sacrifice all use of magical tools
-
+Ru asks you to sacrifice all use of magical tools.
+Ru fordert Euch auf, Eure Fähigkeit magische Gegenstände zu nutzen, zu opfern.
 %%%%
 sacrificed evocations
 
 %%%%
-sacrifice your ability to be loved
-
+Ru asks you to sacrifice your ability to be loved.
+Ru fordert Euch auf, Eure Fähigkeit beliebt zu werden, zu opfern.
 %%%%
 sacrificed love
 
 %%%%
-sacrifice your courage
-
+Ru asks you to sacrifice your courage.
+Ru fordert Euch auf, Euren Mut zu opfern.
 %%%%
 sacrificed courage
 
 %%%%
-sacrifice all use of
-
+Ru asks you to sacrifice all use of: %s.
+Ru fordert Euch auf zu opfern, die Verwendung von: %s.
 %%%%
 sacrificed arcana
 
 %%%%
-sacrifice your Dodging skill
-
+Ru asks you to sacrifice your Dodging skill.
+Ru fordert Euch auf, Eure Ausweichensfähigkeit, zu opfern.
 %%%%
 sacrificed dodging
 
 %%%%
-sacrifice your Armour skill
-
+Ru asks you to sacrifice your Armour skill.
+Ru fordert Euch auf, Eure Rüstungsfähigkeit zu opfern.
 %%%%
 sacrificed armour
 
 %%%%
-"sacrifice one of your "
-
+Ru asks you to sacrifice %s.
+Ru fordert Euch auf, %s zu opfern.
 %%%%
 sacrificed a hand
 
 %%%%
-sacrifice your experiences
-
+Ru asks you to sacrifice your experiences.
+Ru fordert Euch auf, Eure Erfahrungen zu opfern.
 %%%%
 sacrificed experience
 
 %%%%
-sacrifice your skill
-
+Ru asks you to sacrifice your skill.
+Ru fordert Euch auf, Eure Begabungen zu opfern.
 %%%%
 sacrificed skill
 
 %%%%
-sacrifice an eye
-
+Ru asks you to sacrifice an eye.
+Ru fordert Euch auf, ein Auge zu opfern.
 %%%%
 sacrificed an eye
 
 %%%%
-sacrifice your resistance to extreme temperatures
-
+Ru asks you to sacrifice your resistance to extreme temperatures.
+Ru fordert Euch auf, Eure Widerstandsfähigkeit gegen extreme Temperaturen zu opfern.
 %%%%
 sacrificed resistance
 
@@ -29575,9 +29522,6 @@ Ihr habt das Gefühl, als ob Euch etwas hilft.
 You feel blessed for a moment.
 Ihr fühlt Euch für einen Moment gesegnet.
 %%%%
-Curse which item?
-
-%%%%
 Choose an uncursed equipped piece of %s, or Esc to abort.
 Wähle ein nicht verfluchtes ausgerüstetes Stück von %s oder Esc zum Abbrechen.
 %%%%
@@ -30836,6 +30780,9 @@ by gravitational forces
 %%%%
 %s violently %s moving!
 %s bewegt sich heftig%s!
+%%%%
+stop
+
 %%%%
 Gravity reorients around %s.
 Die Schwerkraft richtet sich um%s aus.
