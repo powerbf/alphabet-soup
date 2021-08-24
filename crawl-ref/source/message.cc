@@ -2185,7 +2185,7 @@ void simple_god_message(const char *event, god_type which_deity)
 void wu_jian_sifu_message(const char *event)
 {
     string msg;
-    msg = uppercase_first(string("Sifu ") + wu_jian_random_sifu_name() + event);
+    msg = localise("Sifu %s says: %s", wu_jian_random_sifu_name(), event);
     god_speaks(GOD_WU_JIAN, msg.c_str());
 }
 
