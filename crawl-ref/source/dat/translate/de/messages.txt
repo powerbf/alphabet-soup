@@ -8882,127 +8882,13 @@ Beschädigter Ex-Anhänger wird gelöscht von Ebene: %s.
 # god-conduct.cc
 ##################
 %%%%
-Evil
-
-%%%%
-Holy
-
-%%%%
-Attack Holy
-
-%%%%
-Attack Neutral
-
-%%%%
-Attack Friend
-
-%%%%
-Kill Living
-
-%%%%
-Kill Undead
-
-%%%%
-Kill Demon
-
-%%%%
-Kill Natural Evil
-
-%%%%
-Kill Unclean
-
-%%%%
-Kill Chaotic
-
-%%%%
-Kill Wizard
-
-%%%%
-Kill Priest
-
-%%%%
-Kill Holy
-
-%%%%
-Kill Fast
-
-%%%%
-Spell Memorise
-
-%%%%
-Spell Cast
-
-%%%%
-Spell Practise
-
-%%%%
-Cannibalism
-
-%%%%
-Deliberate Mutation
-
-%%%%
-Cause Glowing
-
-%%%%
-Use Unclean
-
-%%%%
-Use Chaos
-
-%%%%
-Desecrate Orcish Remains
-
-%%%%
-Kill Slime
-
-%%%%
-Kill Plant
-
-%%%%
-Was Hasty
-
-%%%%
-Attack In Sanctuary
-
-%%%%
-Kill Artificial
-
-%%%%
-Exploration
-
-%%%%
-Seen Monster
-
-%%%%
-Sacrificed Love
-
-%%%%
-Hurt Foe
-
-%%%%
-Use Wizardly Item
-
-%%%%
 %s is not enthusiastic about the mutagenic glow surrounding you.
 
 %%%%
 %s does not appreciate the extra mutagenic glow surrounding you!
 
 %%%%
-you use evil magic or items
-
-%%%%
 %s forgives your inadvertent evil act, just this once.
-
-%%%%
-you attack non-hostile holy beings
-
-%%%%
-you kill non-hostile holy beings
-
-%%%%
-you attack neutral beings
 
 %%%%
 %s forgives your inadvertent attack on a neutral, just this once.
@@ -9011,193 +8897,52 @@ you attack neutral beings
 %s forgives your inadvertent attack on an ally, just this once.
 
 %%%%
-you attack allies
+%s forgives your inadvertent unclean act, just this once.
 
 %%%%
-" forgives your inadvertent attack on a neutral, just this once."
+%s forgives your inadvertent chaotic act, just this once.
 
 %%%%
-you attack monsters in a sanctuary
+%s forgives your inadvertent holy act, just this once.
 
 %%%%
-you use unclean or chaotic magic or items
+%s doesn't appreciate your training magic!
 
 %%%%
-" forgives your inadvertent unclean act, just this once."
+%s doesn't appreciate your use of wizardly items!
 
 %%%%
-you polymorph monsters
+%s does not appreciate your shedding blood when asking for salvation!
 
 %%%%
-" forgives your inadvertent chaotic act, just this once."
+%s forgives your accidental hurry, just this once.
 
 %%%%
-you deliberately mutate or transform yourself
-
-%%%%
-" forgives your inadvertent evil act, just this once."
-
-%%%%
-you use holy magic or items
-
-%%%%
-" forgives your inadvertent holy act, just this once."
-
-%%%%
-you memorise spells
-
-%%%%
-you attempt to cast spells
-
-%%%%
-you train magic skills
-
-%%%%
-" doesn't appreciate your training magic!"
-
-%%%%
-you use magical staves or pain-branded weapons
-
-%%%%
-" doesn't appreciate your use of wizardly items!"
-
-%%%%
-you kill living things while asking for your life to be spared
-
-%%%%
-" does not appreciate your shedding blood when asking for salvation!"
-
-%%%%
-you desecrate orcish remains
-
-%%%%
-you attack allied orcs
-
-%%%%
-you kill slimes
-
-%%%%
-you attack fellow slimes
-
-%%%%
-you destroy plants
-
-%%%%
-you hasten yourself or others
-
-%%%%
-" forgives your accidental hurry, just this once."
-
-%%%%
-" thinks you should slow down."
-
-%%%%
-you channel magical energy
-
-%%%%
-use unnaturally quick items
-
-%%%%
-" dislikes it when "
-
-%%%%
-" strongly dislikes it when "
+%s thinks you should slow down.
 
 %%%%
 %s accepts your kill.
 
 %%%%
-you kill living beings
-
-%%%%
-you destroy the undead
-
-%%%%
-you kill demons
-
-%%%%
-you kill holy beings
-
-%%%%
-you destroy nonliving beings
-
-%%%%
 <white>%s is honoured by your kill.</white>
-
-%%%%
-you explore the world
-
-%%%%
-you kill unclean or chaotic beings
-
-%%%%
-you kill the undead
-
-%%%%
-you kill evil beings
-
-%%%%
-you encounter other hostile creatures
 
 %%%%
 %s appreciates your killing of a holy being.
 
 %%%%
-" accepts your kill."
+%s appreciates your killing of a magic user.
 
 %%%%
-you kill wizards and other users of magic
+%s claims a new guest.
 
 %%%%
-" appreciates your killing of a magic user."
-
-%%%%
-you banish creatures to the Abyss
-
-%%%%
-" claims a new guest."
-
-%%%%
-you kill the priests of other religions
-
-%%%%
-" appreciates your killing of a heretic priest."
-
-%%%%
-you kill fast things, relative to your speed
+%s appreciates your killing of a heretic priest.
 
 %%%%
 %s thoroughly appreciates the change of pace.
 
 %%%%
 %s appreciates the change of pace.
-
-%%%%
-you explore the world (preferably while bound by curses)
-
-%%%%
-you hurt your foes; however, effects that cause damage over time do not interest Uskayaw
-
-%%%%
-you sacrifice items by allowing slimes to consume them
-
-%%%%
-you collect gold
-
-%%%%
-you make personal sacrifices
-
-%%%%
-you donate money
-
-%%%%
-" doesn't like anything? This is a bug; please report it."
-
-%%%%
-" likes it when "
-
-%%%%
-" especially likes it when "
 
 %%%%
 
