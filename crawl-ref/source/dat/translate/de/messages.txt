@@ -8869,13 +8869,13 @@ mehr Ziet in dieser Welt
 ##################
 %%%%
 %s is recalled.
-
+%s wird zurückgerufen.
 %%%%
 You have no companions.
 Ihr habt keine Gefährten.
 %%%%
 Removing corrupted ex-follower from level: %s.
-Korrigierten Ex-Follower von Level entfernen:%s.
+Beschädigter Ex-Anhänger wird gelöscht von Ebene: %s.
 %%%%
 
 ##################
