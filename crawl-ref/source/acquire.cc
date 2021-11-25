@@ -1171,18 +1171,18 @@ static string _why_reject(const item_def &item, int agent)
             || item.base_type == OBJ_ARMOUR
                 && !can_wear_armour(item, false, true)))
     {
-        return "Destroying unusable weapon or armour!"; // noextract (debug msg)
+        return "Destroying unusable weapon or armour!"; // noloc (debug msg)
     }
 
     // Trog does not gift the Wrath of Trog.
     if (agent == GOD_TROG && is_unrandom_artefact(item, UNRAND_TROG))
-        return "Destroying Trog-gifted Wrath of Trog!"; // noextract (debug msg)
+        return "Destroying Trog-gifted Wrath of Trog!"; // noloc (debug msg)
 
     // Pain brand is useless if you've sacrificed Necromacy.
     if (you.get_mutation_level(MUT_NO_NECROMANCY_MAGIC)
         && get_weapon_brand(item) == SPWPN_PAIN)
     {
-        return "Destroying pain weapon after Necro sac!"; // noextract (debug msg)
+        return "Destroying pain weapon after Necro sac!"; // noloc (debug msg)
     }
 
     // Sif Muna shouldn't gift special books.
@@ -1191,7 +1191,7 @@ static string _why_reject(const item_def &item, int agent)
         && is_rare_book(static_cast<book_type>(item.sub_type)))
     {
         ASSERT(item.base_type == OBJ_BOOKS);
-        return "Destroying sif-gifted rarebook!"; // noextract (debug msg)
+        return "Destroying sif-gifted rarebook!"; // noloc (debug msg)
     }
 
     return ""; // all OK
@@ -1526,7 +1526,7 @@ static string _hyphenated_letters(int how_many, char first)
     s += "</w>";
     if (how_many > 1)
     {
-        s += "-<w>"; // noextract
+        s += "-<w>"; // noloc
         s += first + how_many - 1;
         s += "</w>";
     }
@@ -1540,7 +1540,7 @@ void AcquireMenu::update_help()
     set_more(formatted_string::parse_string(top_line + localise(
         //[!] acquire|examine item  [a-i] select item to acquire
         //[Esc/R-Click] exit
-        "%s  [%s] %s\n%s", // noextract
+        "%s  [%s] %s\n%s", // noloc
         menu_action == ACT_EXECUTE ? "[<w>!</w>] <w>acquire</w>|examine items" :
                                      "[<w>!</w>] acquire|<w>examine</w> items",
         _hyphenated_letters(item_count(), 'a').c_str(),
@@ -1595,7 +1595,7 @@ bool AcquireMenu::acquire_selected()
                            Options.easy_confirm == easy_confirm_type::none ? "Y" : "y",
                            "N");
     more = formatted_string::parse_string(make_stringf(
-               "<%s>%s</%s>\n", // noextract
+               "<%s>%s</%s>\n", // noloc
                col.c_str(),
                text.c_str(),
                col.c_str()));

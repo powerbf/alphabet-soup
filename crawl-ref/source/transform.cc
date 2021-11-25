@@ -1038,7 +1038,7 @@ public:
         const auto heads = you.heads();
         const string headstr = (heads < 11 ? number_in_words(heads)
                                            : to_string(heads))
-                             + "-headed hydra"; // noextract
+                             + "-headed hydra"; // noloc
         return article_a(headstr);
     }
 

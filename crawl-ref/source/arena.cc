@@ -75,7 +75,7 @@ namespace msg
                 switch (ch)
                 {
                     case MSGCH_DIAGNOSTICS:
-                        prefix = "DIAG: "; // noextract
+                        prefix = "DIAG: "; // noloc
                         if (Options.arena_dump_msgs_all)
                             break;
                         return;
@@ -97,16 +97,16 @@ namespace msg
                             return;
                         break;
 
-                    case MSGCH_ERROR: prefix = "ERROR: "; break; // noextract
-                    case MSGCH_WARN: prefix = "WARN: "; break; // noextract
-                    case MSGCH_SOUND: prefix = "SOUND: "; break; // noextract
+                    case MSGCH_ERROR: prefix = "ERROR: "; break; // noloc
+                    case MSGCH_WARN: prefix = "WARN: "; break; // noloc
+                    case MSGCH_SOUND: prefix = "SOUND: "; break; // noloc
 
                     case MSGCH_TALK_VISUAL:
-                    case MSGCH_TALK: prefix = "TALK: "; break; // noextract
+                    case MSGCH_TALK: prefix = "TALK: "; break; // noloc
                     default: break;
                 }
                 formatted_string fs = formatted_string::parse_string(s);
-                fprintf(*file, "%s%s", prefix.c_str(), fs.tostring().c_str()); // noextract
+                fprintf(*file, "%s%s", prefix.c_str(), fs.tostring().c_str()); // noloc
                 fflush(*file);
             }
         }
@@ -132,7 +132,7 @@ static void _results_popup(string msg, bool error=false)
     {
         msg = localise("Arena error:")
             + "\n\n<lightred>"
-            + replace_all(msg, "<", "<<"); // noextract
+            + replace_all(msg, "<", "<<"); // noloc
         msg += "</lightred>";
     }
     else
@@ -325,7 +325,7 @@ namespace arena
                 {
                     game_ended_with_error(
                         make_stringf(
-                            "Failed to create monster at (%d,%d) env.grid: %s", // noextract
+                            "Failed to create monster at (%d,%d) env.grid: %s", // noloc
                             loc.x, loc.y, dungeon_feature_name(env.grid(loc))));
                 }
                 list_eq(mon);
@@ -337,13 +337,13 @@ namespace arena
     static void center_print(unsigned sz, string text, int number = -1)
     {
         if (number >= 0)
-            text = make_stringf("(%d) %s", number, text.c_str()); // noextract
+            text = make_stringf("(%d) %s", number, text.c_str()); // noloc
 
         unsigned len = strwidth(text);
         if (len > sz)
             text = chop_string(text, len = sz);
 
-        cprintf("%s%s", string((sz - len) / 2, ' ').c_str(), text.c_str()); // noextract
+        cprintf("%s%s", string((sz - len) / 2, ' ').c_str(), text.c_str()); // noloc
     }
 
     static void setup_level()
@@ -416,7 +416,7 @@ namespace arena
         if (!teams.empty())
             return teams;
         else
-            return "random v random"; // noextract
+            return "random v random"; // noloc
     }
 
     /// @throws arena_error if a monster specification is invalid.
@@ -425,7 +425,7 @@ namespace arena
         fact.clear();
         fact.desc = spec;
 
-        for (const string &monster : split_string(",", spec)) // noextract
+        for (const string &monster : split_string(",", spec)) // noloc
         {
             const string err = fact.members.add_mons(monster, false);
             if (!err.empty())
@@ -476,7 +476,7 @@ namespace arena
         arena_type = strip_tag_prefix(spec, "arena:");
 
         if (arena_type.empty())
-            arena_type = "default"; // noextract
+            arena_type = "default"; // noloc
 
         const int arena_delay = strip_number_tag(spec, "delay:");
         if (arena_delay >= 0 && arena_delay < 2000)
@@ -502,10 +502,10 @@ namespace arena
             if (gly < ARRAYSZ(banned_glyphs))
                 banned_glyphs[gly] = true;
 
-        vector<string> factions = split_string(" v ", spec); // noextract
+        vector<string> factions = split_string(" v ", spec); // noloc
 
         if (factions.size() == 1)
-            factions = split_string(" vs ", spec); // noextract
+            factions = split_string(" vs ", spec); // noloc
 
         if (factions.size() != 2)
         {
@@ -531,8 +531,8 @@ namespace arena
 
         if (faction_a.desc == faction_b.desc)
         {
-            faction_a.desc += " (A)"; // noextract
-            faction_b.desc += " (B)"; // noextract
+            faction_a.desc += " (A)"; // noloc
+            faction_b.desc += " (B)"; // noloc
         }
     }
 
@@ -573,7 +573,7 @@ namespace arena
 
         cgotoxy(1, line++, GOTO_STAT);
         textcolour(WHITE);
-        center_print(crawl_view.hudsz.x, string("Crawl ") + Version::Long); // noextract
+        center_print(crawl_view.hudsz.x, string("Crawl ") + Version::Long); // noloc
         line++;
 
         cgotoxy(1, line++, GOTO_STAT);
@@ -618,7 +618,7 @@ namespace arena
 
         you.mutation[MUT_ACUTE_VISION] = 3;
 
-        you.your_name = "Arena"; // noextract
+        you.your_name = "Arena"; // noloc
 
         you.hp = you.hp_max = 99;
 
@@ -973,7 +973,7 @@ namespace arena
             msg = "Winner: %s!";
 
         if (Options.arena_dump_msgs || Options.arena_list_eq)
-            msg = "---------- " + msg + " ----------"; // noextract
+            msg = "---------- " + msg + " ----------"; // noloc
 
         if (was_tied)
             mpr(msg);
@@ -1503,16 +1503,16 @@ static void _choose_arena_teams(newgame_def& choice,
     vbox->add_child(make_shared<Text>(text));
     vbox->set_cross_alignment(Widget::Align::STRETCH);
     auto teams_input = make_shared<ui::TextEntry>();
-    teams_input->set_sync_id("teams"); // noextract
+    teams_input->set_sync_id("teams"); // noloc
     teams_input->set_text(default_arena_teams);
     vbox->add_child(teams_input);
     formatted_string prompt;
     prompt.cprintf("\n");
     prompt.cprintf("%s", localise("Examples:").c_str());
     prompt.cprintf("\n");
-    prompt.cprintf("  Sigmund v Jessica\n"); // noextract
-    prompt.cprintf("  99 orc v the Royal Jelly\n"); // noextract
-    prompt.cprintf("  20-headed hydra v 10 kobold ; scimitar ego:flaming"); // noextract
+    prompt.cprintf("  Sigmund v Jessica\n"); // noloc
+    prompt.cprintf("  99 orc v the Royal Jelly\n"); // noloc
+    prompt.cprintf("  20-headed hydra v 10 kobold ; scimitar ego:flaming"); // noloc
     vbox->add_child(make_shared<Text>(move(prompt)));
 
     auto popup = make_shared<ui::Popup>(move(vbox));

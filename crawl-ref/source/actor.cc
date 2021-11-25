@@ -775,7 +775,7 @@ void actor::constriction_damage_defender(actor &defender, int duration)
             force_plural = true;
         }
         else if (is_player())
-            attacker_desc = "You"; // noextract
+            attacker_desc = "You"; // noloc
         else
             attacker_desc = name(DESC_THE);
 
@@ -873,8 +873,8 @@ string actor::describe_props() const
     for (auto i = props.begin(); i != props.end(); ++i)
     {
         if (i != props.begin())
-            oss <<  ", "; // noextract
-        oss << string(i->first) << ": "; // noextract
+            oss <<  ", "; // noloc
+        oss << string(i->first) << ": "; // noloc
 
         CrawlStoreValue val = i->second;
 
@@ -901,13 +901,13 @@ string actor::describe_props() const
             case SV_COORD:
             {
                 coord_def coord = val.get_coord();
-                oss << "(" << coord.x << ", " << coord.y << ")"; // noextract
+                oss << "(" << coord.x << ", " << coord.y << ")"; // noloc
                 break;
             }
             case SV_MONST:
             {
                 monster mon = val.get_monster();
-                oss << mon.name(DESC_PLAIN) << "(" << mon.mid << ")"; // noextract
+                oss << mon.name(DESC_PLAIN) << "(" << mon.mid << ")"; // noloc
                 break;
             }
             case SV_INT64:
@@ -915,7 +915,7 @@ string actor::describe_props() const
                 break;
 
             default:
-                oss << "???"; // noextract
+                oss << "???"; // noloc
                 break;
         }
     }

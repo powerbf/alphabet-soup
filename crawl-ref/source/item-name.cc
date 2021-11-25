@@ -2484,24 +2484,24 @@ static string _random_consonant_set(size_t c)
 
     static const string consonant_sets[] = {
         // 0-13: start, middle
-        "kl", "gr", "cl", "cr", "fr", // noextract
-        "pr", "tr", "tw", "br", "pl", // noextract
-        "bl", "str", "shr", "thr",    // noextract
+        "kl", "gr", "cl", "cr", "fr", // noloc
+        "pr", "tr", "tw", "br", "pl", // noloc
+        "bl", "str", "shr", "thr",    // noloc
         // 14-26: start, middle, end
-        "sm", "sh", "ch", "th", "ph", // noextract
-        "pn", "kh", "gh", "mn", "ps", // noextract
-        "st", "sk", "sch",            // noextract
+        "sm", "sh", "ch", "th", "ph", // noloc
+        "pn", "kh", "gh", "mn", "ps", // noloc
+        "st", "sk", "sch",            // noloc
         // 27-55: middle, end
-        "ts", "cs", "xt", "nt", "ll", // noextract
-        "rr", "ss", "wk", "wn", "ng", // noextract
-        "cw", "mp", "ck", "nk", "dd", // noextract
-        "tt", "bb", "pp", "nn", "mm", // noextract
-        "kk", "gg", "ff", "pt", "tz", // noextract
-        "dgh", "rgh", "rph", "rch",   // noextract
+        "ts", "cs", "xt", "nt", "ll", // noloc
+        "rr", "ss", "wk", "wn", "ng", // noloc
+        "cw", "mp", "ck", "nk", "dd", // noloc
+        "tt", "bb", "pp", "nn", "mm", // noloc
+        "kk", "gg", "ff", "pt", "tz", // noloc
+        "dgh", "rgh", "rph", "rch",   // noloc
         // 56-66: middle only
-        "cz", "xk", "zx", "xz", "cv", // noextract
-        "vv", "nl", "rh", "dw", "nw", // noextract
-        "khl",                        // noextract
+        "cz", "xk", "zx", "xz", "cv", // noloc
+        "vv", "nl", "rh", "dw", "nw", // noloc
+        "khl",                        // noloc
     };
     COMPILE_CHECK(ARRAYSZ(consonant_sets) == RCS_END);
 

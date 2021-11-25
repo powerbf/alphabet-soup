@@ -4522,7 +4522,7 @@ string do_mon_str_replacements(const string &in_msg, const monster& mons,
     {
         dungeon_feature_type feat = env.grid(mons.pos());
         if (feat_is_solid(feat) || feat >= NUM_FEATURES)
-            msg = replace_all(msg, "@surface@", "buggy surface"); // noextract
+            msg = replace_all(msg, "@surface@", "buggy surface"); // noloc
         else if (feat == DNGN_LAVA)
             msg = replace_tag(msg, "@surface@", "lava");
         else if (feat_is_water(feat))
@@ -4536,8 +4536,8 @@ string do_mon_str_replacements(const string &in_msg, const monster& mons,
     }
     else
     {
-        msg = replace_all(msg, "@surface@", "buggy unseen surface"); // noextract
-        msg = replace_all(msg, "@feature@", "buggy unseen feature"); // noextract
+        msg = replace_all(msg, "@surface@", "buggy unseen surface"); // noloc
+        msg = replace_all(msg, "@feature@", "buggy unseen feature"); // noloc
     }
 
     string something = mons.name(DESC_PLAIN);
@@ -4583,7 +4583,7 @@ string do_mon_str_replacements(const string &in_msg, const monster& mons,
     msg = replace_tag(msg, "@Hand@", uppercase_first(part_str));
 
     if (!can_plural)
-        part_str = "NO PLURAL HANDS"; // noextract
+        part_str = "NO PLURAL HANDS"; // noloc
     else
         part_str = mons.hand_name(true);
 
@@ -4597,7 +4597,7 @@ string do_mon_str_replacements(const string &in_msg, const monster& mons,
     msg = replace_tag(msg, "@Arm@", part_str);
 
     if (!can_plural)
-        part_str = "NO PLURAL ARMS"; // noextract
+        part_str = "NO PLURAL ARMS"; // noloc
     else
         part_str = mons.arm_name(true);
 
@@ -4611,7 +4611,7 @@ string do_mon_str_replacements(const string &in_msg, const monster& mons,
     msg = replace_tag(msg, "@Foot@", part_str);
 
     if (!can_plural)
-        part_str = "NO PLURAL FEET"; // noextract
+        part_str = "NO PLURAL FEET"; // noloc
     else
         part_str = mons.foot_name(true);
 
@@ -4642,13 +4642,13 @@ string do_mon_str_replacements(const string &in_msg, const monster& mons,
     // if it gets one, it should be used for the last two entries.
     if (mons.god == GOD_NO_GOD)
     {
-        msg = replace_all(msg, "@a_God@", "NO GOD"); // noextract
-        msg = replace_all(msg, "@A_God@", "NO GOD"); // noextract
-        msg = replace_all(msg, "@possessive_God@", "NO GOD"); // noextract
-        msg = replace_all(msg, "@Possessive_God@", "NO GOD"); // noextract
+        msg = replace_all(msg, "@a_God@", "NO GOD"); // noloc
+        msg = replace_all(msg, "@A_God@", "NO GOD"); // noloc
+        msg = replace_all(msg, "@possessive_God@", "NO GOD"); // noloc
+        msg = replace_all(msg, "@Possessive_God@", "NO GOD"); // noloc
 
-        msg = replace_all(msg, "@my_God@", "NO GOD"); // noextract
-        msg = replace_all(msg, "@My_God@", "NO GOD"); // noextract
+        msg = replace_all(msg, "@my_God@", "NO GOD"); // noloc
+        msg = replace_all(msg, "@My_God@", "NO GOD"); // noloc
     }
     else if (mons.god == GOD_NAMELESS)
     {

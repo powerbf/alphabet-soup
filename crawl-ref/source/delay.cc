@@ -1082,7 +1082,7 @@ static inline bool _monster_warning(activity_interrupt ai,
             else if (mons_primary_habitat(*mon) == HT_WATER)
                 text = "%s bursts forth from the water.";
             else
-                text = "%s bursts forth from the realm of bugdom."; // noextract
+                text = "%s bursts forth from the realm of bugdom."; // noloc
         }
         else if (at.context == SC_NONSWIMMER_SURFACES_FROM_DEEP)
             text = "%s emerges from the water.";
@@ -1301,10 +1301,10 @@ bool interrupt_activity(activity_interrupt ai,
 // Must match the order of activity_interrupt.h!
 static const char *activity_interrupt_names[] =
 {
-    "force", "keypress", "full_hp", "full_mp", "ancestor_hp",  // noextract
-    "hungry", "message", "hp_loss", "stat", "monster", // noextract
-    "monster_attack", "teleport", "hit_monster", "sense_monster", // noextract
-    "mimic" // noextract
+    "force", "keypress", "full_hp", "full_mp", "ancestor_hp",  // noloc
+    "hungry", "message", "hp_loss", "stat", "monster", // noloc
+    "monster_attack", "teleport", "hit_monster", "sense_monster", // noloc
+    "mimic" // noloc
 };
 
 static const char *_activity_interrupt_name(activity_interrupt ai)

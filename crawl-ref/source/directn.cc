@@ -607,14 +607,14 @@ static coord_def _full_describe_menu(vector<monster_info> const &list_mons,
 #ifndef USE_TILE_LOCAL
             cglyph_t g = get_mons_glyph(mi);
             const string col_string = colour_to_str(g.col);
-            prefix << "(<" << col_string << ">" // noextract
-                     << (g.ch == '<' ? "<<" : stringize_glyph(g.ch)) // noextract
-                     << "</" << col_string << ">) "; // noextract
+            prefix << "(<" << col_string << ">" // noloc
+                     << (g.ch == '<' ? "<<" : stringize_glyph(g.ch)) // noloc
+                     << "</" << col_string << ">) "; // noloc
 #endif
             if (Options.monster_item_view_coordinates)
             {
                 const coord_def relpos = mi.pos - you.pos();
-                prefix << "(" << relpos.x << ", " << -relpos.y << ") "; // noextract
+                prefix << "(" << relpos.x << ", " << -relpos.y << ") "; // noloc
             }
 
             string str = get_monster_equipment_desc(mi, DESC_FULL, DESC_A, true);
@@ -666,7 +666,7 @@ static coord_def _full_describe_menu(vector<monster_info> const &list_mons,
             me->set_show_glyph(true);
 #endif
             me->set_show_coordinates(Options.monster_item_view_coordinates);
-            me->tag = "pickup"; // noextract
+            me->tag = "pickup"; // noloc
             me->hotkeys[0] = hotkey;
             me->quantity = 2; // Hack to make items selectable.
 
@@ -684,22 +684,22 @@ static coord_def _full_describe_menu(vector<monster_info> const &list_mons,
 #ifndef USE_TILE_LOCAL
             cglyph_t g = get_cell_glyph(c, true);
             const string colour_str = colour_to_str(g.col);
-            desc << "(<" << colour_str << ">"; // noextract
-            desc << (g.ch == '<' ? "<<" : stringize_glyph(g.ch)); // noextract
+            desc << "(<" << colour_str << ">"; // noloc
+            desc << (g.ch == '<' ? "<<" : stringize_glyph(g.ch)); // noloc
 
-            desc << "</" << colour_str << ">) "; // noextract
+            desc << "</" << colour_str << ">) "; // noloc
 #endif
             if (Options.monster_item_view_coordinates)
             {
                 const coord_def relpos = c - you.pos();
-                desc << "(" << relpos.x << ", " << -relpos.y << ") "; // noextract
+                desc << "(" << relpos.x << ", " << -relpos.y << ") "; // noloc
             }
 
             desc << localise(feature_description_at(c, false, DESC_A));
             if (is_unknown_stair(c) || is_unknown_transporter(c))
                 desc << localise(" (not visited)");
             FeatureMenuEntry *me = new FeatureMenuEntry(desc.str(), c, hotkey);
-            me->tag        = "description"; // noextract
+            me->tag        = "description"; // noloc
             // Hack to make features selectable.
             me->quantity   = c.x*100 + c.y + 3;
             desc_menu.add_entry(me);
@@ -1573,7 +1573,7 @@ void direction_chooser::print_target_monster_description(bool &did_cloud) const
             + localise(")");
     }
 
-    mprf(MSGCH_PROMPT, "%s: <lightgrey>%s</lightgrey>", // noextract
+    mprf(MSGCH_PROMPT, "%s: <lightgrey>%s</lightgrey>", // noloc
          target_prefix ? target_prefix : !behaviour->targeted() ? "Look" : "Aim",
          text.c_str());
 
@@ -2441,7 +2441,7 @@ string get_terse_square_desc(const coord_def &gc)
             else
             {
                 // i18n: TODO: Fix this
-                desc = "[" + localise(desc) + "]"; // noextract
+                desc = "[" + localise(desc) + "]"; // noloc
             }
         }
         else
@@ -3288,17 +3288,17 @@ string feature_description_at(const coord_def& where, bool covering,
             if (grid == DNGN_OPEN_DOOR)
                 desc += "open ";
             else if (grid == DNGN_CLOSED_CLEAR_DOOR)
-                desc += "closed translucent "; // noextract
+                desc += "closed translucent "; // noloc
             else if (grid == DNGN_OPEN_CLEAR_DOOR)
-                desc += "open translucent "; // noextract
+                desc += "open translucent "; // noloc
             else if (grid == DNGN_RUNED_DOOR)
                 desc += "runed ";
             else if (grid == DNGN_RUNED_CLEAR_DOOR)
-                desc += "runed translucent "; // noextract
+                desc += "runed translucent "; // noloc
             else if (grid == DNGN_SEALED_DOOR)
                 desc += "sealed ";
             else if (grid == DNGN_SEALED_CLEAR_DOOR)
-                desc += "sealed translucent "; // noextract
+                desc += "sealed translucent "; // noloc
             else
                 desc += "closed ";
         }

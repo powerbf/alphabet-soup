@@ -157,7 +157,7 @@ for filename in files:
         for line in lines_raw:
 
             # ignore strings explicitly marked as not to be extracted
-            if 'noextract' in line or 'noloc' in line:
+            if 'noloc' in line:
                 continue
 
             # remove comment
