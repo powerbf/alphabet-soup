@@ -8822,46 +8822,46 @@ You feel like a meek peon again.
 ##################
 %%%%
 uncursed armament
-
+unverfluchter Bewaffnung
 %%%%
 superior armament
-
+überlegener Bewaffnung
 %%%%
 ammunition
-
+Munition
 %%%%
 ranged armament
-
+Fernbewaffnung
 %%%%
 armament
-
+Bewaffnung
 %%%%
 a shield
-
+einem Schild
 %%%%
 improved armour
-
+verbesserter Rüstung
 %%%%
 divine balms
-
+göttlicher Salbe
 %%%%
 a follower
-
+einen Anhänger
 %%%%
 %s blesses %s with %s.
-
+%s segnet {acc}%s mit {dat}%s.
 %%%%
 Beogh blesses you with reinforcements.
-
+Beogh segnet Euch mit Verstärkungen.
 %%%%
 priesthood
-
+Priestertum
 %%%%
 friendliness
-
+Freundlichkeit
 %%%%
 more time in this world
-
+mehr Ziet in dieser Welt
 %%%%
 
 ##################
