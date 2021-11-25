@@ -612,7 +612,7 @@ static string _randart_descrip(const item_def &item)
                     "It makes you extremely vulnerable to %s.",
                     "It makes you very vulnerable to %s.",
                     "It makes you vulnerable to %s.",
-                    "Buggy descriptor!", // noextract
+                    "Buggy descriptor!", // noloc
                     "It protects you from %s.",
                     "It greatly protects you from %s.",
                     "It renders you almost immune to %s."
@@ -671,9 +671,9 @@ static const char *trap_names[] =
 string trap_name(trap_type trap)
 {
     if (trap == TRAP_GOLUBRIA)
-        return "passage"; // noextract
+        return "passage"; // noloc
     else
-        return replace_last(full_trap_name(trap), " trap", ""); // noextract
+        return replace_last(full_trap_name(trap), " trap", ""); // noloc
 }
 
 string full_trap_name(trap_type trap)
@@ -1073,7 +1073,7 @@ static string _skill_target_desc(skill_type skill, int scaled_target,
             level_diff / 10, level_diff % 10);
     if (you.wizard)
     {
-        description += "\n    "; // noextract
+        description += "\n    "; // noloc
         description += localise("(%d xp, %d skp)",
                                 diffs.experience, diffs.skill_points);
     }
@@ -2080,9 +2080,9 @@ string get_item_description(const item_def &item, bool verbose,
 
         if (dump)
         {
-            description << "[" // noextract
+            description << "[" // noloc
                         << localise(item.name(DESC_DBNAME, true, false, false))
-                        << "]"; // noextract
+                        << "]"; // noloc
             need_base_desc = false;
         }
         else if (is_unrandom_artefact(item) && item_type_known(item))
@@ -2428,7 +2428,7 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
     dungeon_feature_type feat = env.map_knowledge(pos).feat();
 
     string desc      = feature_description_at(pos, false, DESC_A);
-    string db_name   = feat == DNGN_ENTER_SHOP ? "a shop" : desc; // noextract
+    string db_name   = feat == DNGN_ENTER_SHOP ? "a shop" : desc; // noloc
     strip_suffix(db_name, " (summoned)");
     string long_desc = getLongDescription(db_name);
 
@@ -3748,7 +3748,7 @@ static const char* _get_resist_name(mon_resist_flags res_type)
     case MR_RES_TORNADO:
         return "tornadoes";
     default:
-        return "buggy resistance"; // noextract
+        return "buggy resistance"; // noloc
     }
 }
 
@@ -3761,7 +3761,7 @@ static const char* _get_threat_desc(mon_threat_level_type threat)
     case MTHRT_TOUGH:   return "This monster looks dangerous.";
     case MTHRT_NASTY:   return "This monster looks extremely dangerous.";
     case MTHRT_UNDEF:
-    default:            return "This montsre looks buggily threatening."; // noextract
+    default:            return "This montsre looks buggily threatening."; // noloc
     }
 }
 
@@ -4600,7 +4600,7 @@ void get_monster_db_desc(const monster_info& mi, describe_info &inf,
     string symbol;
     symbol += get_monster_data(mi.type)->basechar;
     if (isaupper(symbol[0]))
-        symbol = "cap-" + symbol; // noextract
+        symbol = "cap-" + symbol; // noloc
 
     string quote2;
     if (!mons_is_unique(mi.type))
@@ -5172,7 +5172,7 @@ string get_command_description(const command_type cmd, bool terse)
     string lookup = command_to_name(cmd);
 
     if (!terse)
-        lookup += " verbose"; // noextract
+        lookup += " verbose"; // noloc
 
     string result = getLongDescription(lookup);
     if (result.empty())

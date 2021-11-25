@@ -108,13 +108,13 @@ static const char *_god_blessing_description(god_type god)
     switch (god)
     {
     case GOD_SHINING_ONE:
-        return "blessed by the Shining One"; // noextract (milestone)
+        return "blessed by the Shining One"; // noloc (milestone)
     case GOD_LUGONU:
-        return "corrupted by Lugonu"; // noextract (milestone)
+        return "corrupted by Lugonu"; // noloc (milestone)
     case GOD_KIKUBAAQUDGHA:
-        return "bloodied by Kikubaaqudgha"; // noextract (milestone)
+        return "bloodied by Kikubaaqudgha"; // noloc (milestone)
     default:
-        return "touched by the gods"; // noextract (milestone)
+        return "touched by the gods"; // noloc (milestone)
     }
 }
 
@@ -589,17 +589,17 @@ string zin_recite_text(const int seed, const int prayertype, int step)
 
     const map<string, string> replacements =
     {
-        { "sinners", sinner_text[sinner_seed] }, // noextract
+        { "sinners", sinner_text[sinner_seed] }, // noloc
 
         { "sin_adj",  sin_text[sin_seed][0] },
         { "sin_noun", sin_text[sin_seed][1] },
 
-        { "virtuous", virtue_text[virtue_seed][0] }, // noextract
-        { "virtue",   virtue_text[virtue_seed][1] }, // noextract
+        { "virtuous", virtue_text[virtue_seed][0] }, // noloc
+        { "virtue",   virtue_text[virtue_seed][1] }, // noloc
 
-        { "smite",   smite_text[smite_seed][0] }, // noextract
-        { "smitten", smite_text[smite_seed][1] }, // noextract
-        { "Smitten", uppercase_first(smite_text[smite_seed][1]) }, // noextract
+        { "smite",   smite_text[smite_seed][0] }, // noloc
+        { "smitten", smite_text[smite_seed][1] }, // noloc
+        { "Smitten", uppercase_first(smite_text[smite_seed][1]) }, // noloc
     };
 
     return replace_keys(recite, replacements);
@@ -1255,7 +1255,7 @@ bool zin_remove_all_mutations()
     you.one_time_ability_used.set(GOD_ZIN);
     take_note(Note(NOTE_GOD_GIFT, you.religion));
     simple_god_message("Zin draws all chaos from your body!");
-    delete_all_mutations("Zin's power"); // noextract
+    delete_all_mutations("Zin's power"); // noloc
     return true;
 }
 
@@ -2848,13 +2848,13 @@ static string _gozag_shop_spec(int index)
     string suffix = replace_all(
                                 you.props[make_stringf(GOZAG_SHOP_SUFFIX_KEY,
                                                        index)]
-                                .get_string(), " ", "_"); // noextract
+                                .get_string(), " ", "_"); // noloc
     if (!suffix.empty())
-        suffix = " suffix:" + suffix; // noextract
+        suffix = " suffix:" + suffix; // noloc
 
-    return make_stringf("%s shop name:%s%s gozag", // noextract
+    return make_stringf("%s shop name:%s%s gozag", // noloc
                         shoptype_to_str(type),
-                        replace_all(name, " ", "_").c_str(), // noextract
+                        replace_all(name, " ", "_").c_str(), // noloc
                         suffix.c_str());
 
 }
@@ -5361,7 +5361,7 @@ bool hepliaklqana_choose_ancestor_type(int ancestor_choice)
     god_speaks(you.religion, "It is so.");
     take_note(Note(NOTE_ANCESTOR_TYPE, 0, 0, ancestor_type_name));
     const string mile_text
-        = make_stringf("remembered their ancestor %s as %s.", //noextract
+        = make_stringf("remembered their ancestor %s as %s.", //noloc
                        hepliaklqana_ally_name().c_str(),
                        ancestor_type_name.c_str());
     mark_milestone("ancestor.class", mile_text);

@@ -337,7 +337,7 @@ public:
 
     const char* name() const override
     {
-        return "memorise"; // noextract
+        return "memorise"; // noloc
     }
 };
 
@@ -361,7 +361,7 @@ public:
 
     const char* name() const override
     {
-        return "passwall"; // noextract
+        return "passwall"; // noloc
     }
 };
 
@@ -404,7 +404,7 @@ public:
 
     const char* name() const override
     {
-        return "multidrop"; // noextract
+        return "multidrop"; // noloc
     }
 
     bool is_parent() const override
@@ -505,7 +505,7 @@ public:
 
     const char* name() const override
     {
-        return "run"; // noextract
+        return "run"; // noloc
     }
 };
 
@@ -538,7 +538,7 @@ public:
 
     const char* name() const override
     {
-        return "rest"; // noextract
+        return "rest"; // noloc
     }
 };
 
@@ -568,7 +568,7 @@ public:
 
     const char* name() const override
     {
-        return "travel"; // noextract
+        return "travel"; // noloc
     }
 };
 
@@ -597,7 +597,7 @@ public:
     const char* name() const override
     {
         //XXX: this is compared to in _userdef_interrupt_activity
-        return "macro";  // noextract
+        return "macro";  // noloc
     }
 };
 
@@ -698,7 +698,7 @@ public:
 
     const char* name() const override
     {
-        return "exsanguinate"; // noextract
+        return "exsanguinate"; // noloc
     }
 };
 
@@ -722,7 +722,7 @@ public:
 
     const char* name() const override
     {
-        return "revivify"; // noextract
+        return "revivify"; // noloc
     }
 };
 

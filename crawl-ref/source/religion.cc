@@ -3553,7 +3553,7 @@ static void _transfer_good_god_piety()
         else if (old_god == GOD_ZIN)
             msg = "%s says: Farewell. Go and enforce order with %s.";
         else
-            msg = "%s says: Farewell. Go and become a bug with %s."; // noextract (bug)
+            msg = "%s says: Farewell. Go and become a bug with %s."; // noloc (bug)
 
         // Some feedback that piety moved over.
         msg = localise(msg, god_speaker(old_god), god_name(you.religion));
@@ -3587,7 +3587,7 @@ static string _good_god_wrath_message(god_type good_god)
             else
                 return "You will suffer for embracing such evil!";
         default:
-            return "You will be buggily punished for this!"; // noextract
+            return "You will be buggily punished for this!"; // noloc
     }
 }
 

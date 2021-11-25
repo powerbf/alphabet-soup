@@ -586,7 +586,7 @@ struct chaos_effect
 
 static const vector<chaos_effect> chaos_effects = {
     {
-        "clone", 1, [](const actor &d) { // noextract
+        "clone", 1, [](const actor &d) { // noloc
             return d.is_monster() && mons_clonable(d.as_monster(), true);
         },
         BEAM_NONE, [](attack &attack) {
@@ -611,10 +611,10 @@ static const vector<chaos_effect> chaos_effects = {
         },
     },
     {
-        "polymorph", 2, _is_chaos_polyable, BEAM_POLYMORPH, // noextract
+        "polymorph", 2, _is_chaos_polyable, BEAM_POLYMORPH, // noloc
     },
     {
-        "shifter", 1, [](const actor &defender) // noextract
+        "shifter", 1, [](const actor &defender) // noloc
         {
             const monster *mon = defender.as_monster();
             return _is_chaos_polyable(defender)
@@ -642,26 +642,26 @@ static const vector<chaos_effect> chaos_effects = {
         },
     },
     {
-        "rage", 5, [](const actor &defender) { // noextract
+        "rage", 5, [](const actor &defender) { // noloc
             return defender.can_go_berserk();
         }, BEAM_NONE, [](attack &attack) {
             attack.defender->go_berserk(false);
             return you.can_see(*attack.defender);
         },
     },
-    { "hasting", 10, _is_chaos_slowable, BEAM_HASTE }, // noextract
-    { "mighting", 10, nullptr, BEAM_MIGHT }, // noextract
-    { "agilitying", 10, nullptr, BEAM_AGILITY }, // noextract
-    { "invisible", 10, nullptr, BEAM_INVISIBILITY, }, // noextract
-    { "slowing", 10, _is_chaos_slowable, BEAM_SLOW }, // noextract
+    { "hasting", 10, _is_chaos_slowable, BEAM_HASTE }, // noloc
+    { "mighting", 10, nullptr, BEAM_MIGHT }, // noloc
+    { "agilitying", 10, nullptr, BEAM_AGILITY }, // noloc
+    { "invisible", 10, nullptr, BEAM_INVISIBILITY, }, // noloc
+    { "slowing", 10, _is_chaos_slowable, BEAM_SLOW }, // noloc
     {
-        "paralysis", 5, [](const actor &defender) { // noextract
+        "paralysis", 5, [](const actor &defender) { // noloc
             return !defender.is_monster()
                     || !mons_is_firewood(*defender.as_monster());
         }, BEAM_PARALYSIS,
     },
     {
-        "petrify", 5, [](const actor &defender) { // noextract
+        "petrify", 5, [](const actor &defender) { // noloc
             return _is_chaos_slowable(defender) && !defender.res_petrify();
         }, BEAM_PETRIFY,
     },

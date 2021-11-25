@@ -47,31 +47,31 @@ using namespace ui;
 static const char *features[] =
 {
 #ifdef CLUA_BINDINGS
-    "Lua user scripts", // noextract
+    "Lua user scripts", // noloc
 #endif
 
 #ifdef USE_TILE_LOCAL
-    "Tile support", // noextract
+    "Tile support", // noloc
 #endif
 
 #ifdef USE_TILE_WEB
-    "Web Tile support", // noextract
+    "Web Tile support", // noloc
 #endif
 
 #ifdef WIZARD
-    "Wizard mode", // noextract
+    "Wizard mode", // noloc
 #endif
 
 #ifdef DEBUG
-    "Debug mode", // noextract
+    "Debug mode", // noloc
 #endif
 
 #if defined(REGEX_POSIX)
-    "POSIX regexps", // noextract
+    "POSIX regexps", // noloc
 #elif defined(REGEX_PCRE)
-    "PCRE regexps", // noextract
+    "PCRE regexps", // noloc
 #else
-    "Glob patterns", // noextract
+    "Glob patterns", // noloc
 #endif
 
 #if defined(USE_SOUND) && defined(SOUND_BACKEND)
@@ -79,13 +79,13 @@ static const char *features[] =
 #endif
 
 #ifdef DGL_MILESTONES
-    "Milestones", // noextract
+    "Milestones", // noloc
 #endif
 };
 
 static string _get_version_information()
 {
-    string result = string("This is <w>" CRAWL " ") + Version::Long + "</w>"; // noextract
+    string result = string("This is <w>" CRAWL " ") + Version::Long + "</w>"; // noloc
     return result;
 }
 
@@ -102,25 +102,25 @@ static string _get_version_features()
         {
             result += seed_description();
             if (Version::history_size() > 1)
-                result += " (seed may be affected by game upgrades)"; // noextract
+                result += " (seed may be affected by game upgrades)"; // noloc
         }
         else
-            result += "Game is not seeded."; // noextract
+            result += "Game is not seeded."; // noloc
         result += "\n\n";
     }
     if (Version::history_size() > 1)
     {
-        result += "Version history for your current game:\n"; // noextract
+        result += "Version history for your current game:\n"; // noloc
         result += Version::history();
         result += "\n\n";
     }
 
-    result += "<w>Features</w>\n" // noextract
-                 "--------\n"; // noextract
+    result += "<w>Features</w>\n" // noloc
+                 "--------\n"; // noloc
 
     for (const char *feature : features)
     {
-        result += " * "; // noextract
+        result += " * "; // noloc
         result += feature;
         result += "\n";
     }
@@ -165,7 +165,7 @@ static string _get_version_changes()
         {
         highlight:
             // Highlight the Highlights, so to speak.
-            result += "<w>" + help + "</w>\n"; // noextract
+            result += "<w>" + help + "</w>\n"; // noloc
             // And start printing from now on.
             start = true;
         }
@@ -184,13 +184,13 @@ static string _get_version_changes()
     {
         result.erase(1+result.find_last_not_of('\n'));
         result += "\n\n";
-        result += "For earlier changes, see changelog.txt " // noextract
-                  "in the docs/ directory."; // noextract
+        result += "For earlier changes, see changelog.txt " // noloc
+                  "in the docs/ directory."; // noloc
     }
     else
     {
-        result += "For a list of changes, see changelog.txt " // noextract
-                  "in the docs/ directory."; // noextract
+        result += "For a list of changes, see changelog.txt " // noloc
+                  "in the docs/ directory."; // noloc
     }
 
     return result;
@@ -276,7 +276,7 @@ void list_armour()
                                              : "Boots")
                                              : "unknown");
 
-        estr << setw(8) << left << localise(slot) << ": "; // noextract
+        estr << setw(8) << left << localise(slot) << ": "; // noloc
 
         if (you_can_wear(i) == MB_FALSE)
             estr << _indent << localise("(unavailable)");
@@ -286,7 +286,7 @@ void list_armour()
         {
             estr << localise(you.inv[armour_id].name(DESC_INVENTORY));
             colour = menu_colour(estr.str(), item_prefix(you.inv[armour_id]),
-                                 "equip"); // noextract
+                                 "equip"); // noloc
         }
         else if (you_can_wear(i) == MB_MAYBE)
             estr << _indent << localise("(restricted)");
@@ -294,7 +294,7 @@ void list_armour()
             estr << _indent << localise("none");
 
         if (colour == MSGCOL_BLACK)
-            colour = menu_colour(estr.str(), "", "equip"); // noextract
+            colour = menu_colour(estr.str(), "", "equip"); // noloc
 
         mpr_nolocalise(MSGCH_EQUIPMENT, colour, estr.str());
     }
@@ -338,15 +338,15 @@ void list_jewellery()
         {
             item = localise(you.inv[jewellery_id].name(DESC_INVENTORY));
             string prefix = item_prefix(you.inv[jewellery_id]);
-            colour = menu_colour(item, prefix, "equip"); // noextract
+            colour = menu_colour(item, prefix, "equip"); // noloc
         }
         else
             item = _indent + localise("none");
 
         if (colour == MSGCOL_BLACK)
-            colour = menu_colour(item, "", "equip"); // noextract
+            colour = menu_colour(item, "", "equip"); // noloc
 
-        item = chop_string(make_stringf("%-*s: %s", // noextract
+        item = chop_string(make_stringf("%-*s: %s", // noloc
                                         split ? cols > 96 ? 9 : 8 : 11,
                                         slot.c_str(), item.c_str()),
                            split && i > EQ_AMULET ? (cols - 1) / 2 : cols);
@@ -552,14 +552,14 @@ static void _add_formatted_help_menu(column_composer &cols)
 static void _add_movement_diagram(column_composer &cols)
 {
     // i18n: This should be the same regardless of language
-    _add_insert_commands(cols, 0, "                 <w>7 8 9      % % %", // noextract
+    _add_insert_commands(cols, 0, "                 <w>7 8 9      % % %", // noloc
                          { CMD_MOVE_UP_LEFT, CMD_MOVE_UP, CMD_MOVE_UP_RIGHT });
-    _add_insert_commands(cols, 0, "                  \\|/        \\|/", {}); // noextract
-    _add_insert_commands(cols, 0, "                 <w>4</w>-<w>5</w>-<w>6</w>" // noextract
-                                  "      <w>%</w>-<w>%</w>-<w>%</w>", // noextract
+    _add_insert_commands(cols, 0, "                  \\|/        \\|/", {}); // noloc
+    _add_insert_commands(cols, 0, "                 <w>4</w>-<w>5</w>-<w>6</w>" // noloc
+                                  "      <w>%</w>-<w>%</w>-<w>%</w>", // noloc
                          { CMD_MOVE_LEFT, CMD_WAIT, CMD_MOVE_RIGHT });
-    _add_insert_commands(cols, 0, "                  /|\\        /|\\", {}); // noextract
-    _add_insert_commands(cols, 0, "                 <w>1 2 3      % % %", // noextract
+    _add_insert_commands(cols, 0, "                  /|\\        /|\\", {}); // noloc
+    _add_insert_commands(cols, 0, "                 <w>1 2 3      % % %", // noloc
                          { CMD_MOVE_DOWN_LEFT, CMD_MOVE_DOWN,
                            CMD_MOVE_DOWN_RIGHT });
 }
@@ -842,9 +842,9 @@ static int _get_help_section(int section, formatted_string &header_out, formatte
     static map<int, int> hotkeys;
     static map<int, formatted_string> page_text;
     static map<int, string> headers = {
-        {'*', "Manual"}, {'%', "Aptitudes"}, {'^', "Quickstart"}, // noextract
-        {'~', "Macros"}, {'&', "Options"}, {'t', "Tiles"}, // noextract
-        {'?', "Key help"} // noextract
+        {'*', "Manual"}, {'%', "Aptitudes"}, {'^', "Quickstart"}, // noloc
+        {'~', "Macros"}, {'&', "Options"}, {'t', "Tiles"}, // noloc
+        {'?', "Key help"} // noloc
     };
 
     if (!page_text.size())
@@ -880,7 +880,7 @@ static int _get_help_section(int section, formatted_string &header_out, formatte
 
     string header = headers.count(page) ? ": "+headers[page] : "";
     header_out = formatted_string::parse_string(
-                    "<yellow>Dungeon Crawl Help"+header+"</yellow>"); // noextract
+                    "<yellow>Dungeon Crawl Help"+header+"</yellow>"); // noloc
     scroll_out = 0;
     switch (section)
     {

@@ -186,9 +186,9 @@ const char* card_name(card_type card)
     case CARD_FAMINE_REMOVED:
     case CARD_SHAFT_REMOVED:
 #endif
-    case NUM_CARDS:            return "a buggy card"; // noextract
+    case NUM_CARDS:            return "a buggy card"; // noloc
     }
-    return "a very buggy card"; // noextract
+    return "a very buggy card"; // noloc
 }
 
 card_type name_to_card(string name)
@@ -319,7 +319,7 @@ string deck_summary()
     {
         int cards = deck_cards((deck_type) i);
         const deck_type_data *deck_data = map_find(all_decks, (deck_type) i);
-        const string name = deck_data ? deck_data->name : "bugginess"; // noextract
+        const string name = deck_data ? deck_data->name : "bugginess"; // noloc
         if (cards)
         {
             if (cards == 1)
@@ -923,7 +923,7 @@ bool draw_three()
             for (int i = 0; i < draws.size(); ++i)
             {
                 msg::streams(MSGCH_PROMPT)
-                    << msg::nocap << (static_cast<char>(i + 'a')) << " - " // noextract
+                    << msg::nocap << (static_cast<char>(i + 'a')) << " - " // noloc
                     << card_name((card_type)draws[i].get_int()) << endl;
             }
             need_prompt_redraw = false;
@@ -1675,7 +1675,7 @@ static void _wild_magic_card(int power)
             miscast_effect(*mons, &you,
                            {miscast_source::deck}, type,
                            3 * (power_level + 1), random2(70),
-                           "a card of wild magic"); // noextract
+                           "a card of wild magic"); // noloc
 
             num_affected++;
         }
@@ -1788,7 +1788,7 @@ void card_effect(card_type which_card,
 #endif
     case NUM_CARDS:
         // The compiler will complain if any card remains unhandled.
-        mprf("You have drawn a buggy card!"); // noextract
+        mprf("You have drawn a buggy card!"); // noloc
         break;
     }
 }
@@ -1805,7 +1805,7 @@ string deck_name(deck_type deck)
     if (deck == DECK_STACK)
         return "stacked deck";
     const deck_type_data *deck_data = map_find(all_decks, deck);
-    const string name = deck_data ? deck_data->name : "bugginess"; // noextract
+    const string name = deck_data ? deck_data->name : "bugginess"; // noloc
     return "deck of " + name;
 }
 

@@ -602,10 +602,10 @@ static void _hints_inspect_kill()
 
 static string _milestone_kill_verb(killer_type killer)
 {
-    return killer == KILL_BANISHED ? "banished" : // noextract
-           killer == KILL_PACIFIED ? "pacified" : // noextract
-           killer == KILL_ENSLAVED ? "enslaved" : // noextract
-           killer == KILL_SLIMIFIED ? "slimified" : "killed"; // noextract
+    return killer == KILL_BANISHED ? "banished" : // noloc
+           killer == KILL_PACIFIED ? "pacified" : // noloc
+           killer == KILL_ENSLAVED ? "enslaved" : // noloc
+           killer == KILL_SLIMIFIED ? "slimified" : "killed"; // noloc
 }
 
 void record_monster_defeat(const monster* mons, killer_type killer)
@@ -630,7 +630,7 @@ void record_monster_defeat(const monster* mons, killer_type killer)
     if (mons->type == MONS_PLAYER_GHOST)
     {
         monster_info mi(mons);
-        string milestone = _milestone_kill_verb(killer) + " the ghost of "; // noextract
+        string milestone = _milestone_kill_verb(killer) + " the ghost of "; // noloc
         milestone += get_ghost_description(mi, true);
         milestone += ".";
         mark_milestone("ghost", milestone);
@@ -1100,39 +1100,39 @@ static string _killer_type_name(killer_type killer)
     switch (killer)
     {
     case KILL_NONE:
-        return "none"; // noextract
+        return "none"; // noloc
     case KILL_YOU:
-        return "you"; // noextract
+        return "you"; // noloc
     case KILL_MON:
-        return "mon"; // noextract
+        return "mon"; // noloc
     case KILL_YOU_MISSILE:
-        return "you_missile"; // noextract
+        return "you_missile"; // noloc
     case KILL_MON_MISSILE:
-        return "mon_missile"; // noextract
+        return "mon_missile"; // noloc
     case KILL_YOU_CONF:
-        return "you_conf"; // noextract
+        return "you_conf"; // noloc
     case KILL_MISCAST:
-        return "miscast"; // noextract
+        return "miscast"; // noloc
     case KILL_MISC:
-        return "misc"; // noextract
+        return "misc"; // noloc
     case KILL_RESET:
-        return "reset"; // noextract
+        return "reset"; // noloc
     case KILL_DISMISSED:
-        return "dismissed"; // noextract
+        return "dismissed"; // noloc
     case KILL_BANISHED:
-        return "banished"; // noextract
+        return "banished"; // noloc
     case KILL_TIMEOUT:
-        return "timeout"; // noextract
+        return "timeout"; // noloc
 #if TAG_MAJOR_VERSION == 34
     case KILL_UNSUMMONED:
-        return "unsummoned"; // noextract
+        return "unsummoned"; // noloc
 #endif
     case KILL_PACIFIED:
-        return "pacified"; // noextract
+        return "pacified"; // noloc
     case KILL_ENSLAVED:
-        return "enslaved"; // noextract
+        return "enslaved"; // noloc
     case KILL_SLIMIFIED:
-        return "slimified"; // noextract
+        return "slimified"; // noloc
     }
     die("invalid killer type");
 }
