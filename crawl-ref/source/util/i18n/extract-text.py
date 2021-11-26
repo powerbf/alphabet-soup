@@ -104,7 +104,7 @@ SPECIAL_FILES = [
 # These files are evaluated differently. We ignore all strings unless we have a reason to extract them,
 # as opposed to extracting all strings unless we have a reason to ignore them.
 LAZY_FILES = [
-    'dgn-overview.cc', 'end.cc', 'files.cc','fineff.cc'
+    'dgn-overview.cc', 'end.cc', 'files.cc','fineff.cc', 'god-passive.cc'
 ]
 
 files = []
@@ -208,6 +208,8 @@ for filename in files:
             elif re.match(r'\s*end *\(', line):
                 extract = True
             elif re.search(r'\bsave_game *\(', line):
+                extract = True
+            elif re.search(r'\bhand_act *\(', line):
                 extract = True
                 
             if lazy:

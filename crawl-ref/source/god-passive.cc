@@ -27,6 +27,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "map-knowledge.h"
 #include "melee-attack.h"
 #include "message.h"
@@ -697,7 +698,10 @@ void ash_check_bondage(bool msg)
     {
         string desc = ash_describe_bondage(flags, you.bondage_level != old_level);
         if (!desc.empty())
-            mprf(MSGCH_GOD, "%s", desc.c_str());
+        {
+            // description is already localised
+            mprf_nolocalise(MSGCH_GOD, "%s", desc.c_str());
+        }
     }
 }
 
@@ -718,64 +722,87 @@ string ash_describe_bondage(int flags, bool level)
         else
         {
             // FIXME: what if you sacrificed a hand?
-            desc = make_stringf("Your %s %s is bound but not your %s %s.\n",
-                                you.bondage[ET_WEAPON] ? "weapon" : "shield",
-                                you.hand_name(false).c_str(),
-                                you.bondage[ET_WEAPON] ? "shield" : "weapon",
-                                you.hand_name(false).c_str());
+            string weapon_hand = "your weapon " + you.hand_name(false); // noloc
+            string shield_hand = "your shield " + you.hand_name(false); // noloc
+            desc = localise("%s is bound but not %s.",
+                            you.bondage[ET_WEAPON] ? weapon_hand : shield_hand,
+                            you.bondage[ET_WEAPON] ? shield_hand : weapon_hand);
+            desc = uppercase_first(desc);
+            desc += "\n";
         }
     }
     else if (flags & ETF_WEAPON && you.bondage[ET_WEAPON] != -1)
     {
-        desc = make_stringf("Your weapon %s is %sbound.\n",
-                            you.hand_name(false).c_str(),
-                            you.bondage[ET_WEAPON] ? "" : "not ");
+        string weapon_hand = "your weapon " + you.hand_name(false); // noloc
+        if (you.bondage[ET_WEAPON])
+            desc = localise("%s is bound.", weapon_hand);
+        else
+            desc = localise("%s is not bound.", weapon_hand);
+        desc = uppercase_first(desc);
+        desc += "\n";
     }
     else if (flags & ETF_SHIELD && you.bondage[ET_SHIELD] != -1)
     {
-        desc = make_stringf("Your shield %s is %sbound.\n",
-                            you.hand_name(false).c_str(),
-                            you.bondage[ET_SHIELD] ? "" : "not ");
+        string shield_hand = "your shield " + you.hand_name(false); // noloc
+        if (you.bondage[ET_SHIELD])
+            desc = localise("%s is bound.", shield_hand);
+        else
+            desc = localise("%s is not bound.", shield_hand);
+        desc = uppercase_first(desc);
+        desc += "\n";
     }
 
     if (flags & ETF_ARMOUR && flags & ETF_JEWELS
         && you.bondage[ET_ARMOUR] == you.bondage[ET_JEWELS]
         && you.bondage[ET_ARMOUR] != -1)
     {
-        desc += make_stringf("You are %s bound in armour %s jewellery.\n",
-                             you.bondage[ET_ARMOUR] == 0 ? "not" :
-                             you.bondage[ET_ARMOUR] == 1 ? "partially"
-                                                         : "fully",
-                             you.bondage[ET_ARMOUR] == 0 ? "or" : "and");
+        if (you.bondage[ET_ARMOUR] == 0)
+            desc += localise("You are not bound in armour or jewellery.");
+        else if (you.bondage[ET_ARMOUR] == 1)
+            desc += localise("You are partially bound in armour and jewellery.");
+        else
+            desc += localise("You are fully bound in armour and jewellery.");
+        desc += "\n";
     }
     else
     {
         if (flags & ETF_ARMOUR && you.bondage[ET_ARMOUR] != -1)
         {
-            desc += make_stringf("You are %s bound in armour.\n",
-                                 you.bondage[ET_ARMOUR] == 0 ? "not" :
-                                 you.bondage[ET_ARMOUR] == 1 ? "partially"
-                                                             : "fully");
+            if (you.bondage[ET_ARMOUR] == 0)
+                desc += localise("You are not bound in armour.");
+            else if (you.bondage[ET_ARMOUR] == 1)
+                desc += localise("You are partially bound in armour.");
+            else
+                desc += localise("You are fully bound in armour.");
+            desc += "\n";
         }
 
         if (flags & ETF_JEWELS && you.bondage[ET_JEWELS] != -1)
         {
-            desc += make_stringf("You are %s bound in jewellery.\n",
-                                 you.bondage[ET_JEWELS] == 0 ? "not" :
-                                 you.bondage[ET_JEWELS] == 1 ? "partially"
-                                                             : "fully");
+            if (you.bondage[ET_JEWELS] == 0)
+                desc += localise("You are not bound in jewellery.");
+            else if (you.bondage[ET_JEWELS] == 1)
+                desc += localise("You are partially bound in jewellery.");
+            else
+                desc += localise("You are fully bound in jewellery.");
+            desc += "\n";
         }
     }
 
     if (level)
     {
-        desc += make_stringf("You are %s bound.",
-                             you.bondage_level == 0 ? "not" :
-                             you.bondage_level == 1 ? "slightly" :
-                             you.bondage_level == 2 ? "moderately" :
-                             you.bondage_level == 3 ? "seriously" :
-                             you.bondage_level == 4 ? "fully"
-                                                    : "buggily");
+        if (you.bondage_level == 0)
+            desc += localise("You are not bound.");
+        else if (you.bondage_level == 1)
+            desc += localise("You are slightly bound.");
+        else if (you.bondage_level == 2)
+            desc += localise("You are moderately bound.");
+        else if (you.bondage_level == 3)
+            desc += localise("You are seriously bound.");
+        else if (you.bondage_level == 4)
+            desc += localise("You are fully bound.");
+        else
+            desc += localise("You are buggily bound.");
     }
 
     return trim_string(desc);
@@ -1213,7 +1240,6 @@ void qazlal_element_adapt(beam_type flavour, int strength)
 
     beam_type what = BEAM_NONE;
     duration_type dur = NUM_DURATIONS;
-    string descript = "";
     switch (flavour)
     {
         case BEAM_FIRE:
@@ -1222,25 +1248,21 @@ void qazlal_element_adapt(beam_type flavour, int strength)
         case BEAM_STEAM:
             what = BEAM_FIRE;
             dur = DUR_QAZLAL_FIRE_RES;
-            descript = "fire";
             break;
         case BEAM_COLD:
         case BEAM_ICE:
             what = BEAM_COLD;
             dur = DUR_QAZLAL_COLD_RES;
-            descript = "cold";
             break;
         case BEAM_ELECTRICITY:
             what = BEAM_ELECTRICITY;
             dur = DUR_QAZLAL_ELEC_RES;
-            descript = "electricity";
             break;
         case BEAM_MMISSILE: // for LCS, iron shot
         case BEAM_MISSILE:
         case BEAM_FRAG:
             what = BEAM_MISSILE;
             dur = DUR_QAZLAL_AC;
-            descript = "physical attacks";
             break;
         default:
             return;
@@ -1271,8 +1293,34 @@ void qazlal_element_adapt(beam_type flavour, int strength)
         you.redraw_armour_class = true;
     }
 
-    mprf(MSGCH_GOD, "You feel %sprotected from %s.",
-         you.duration[dur] > 0 ? "more " : "", descript.c_str());
+    if (what == BEAM_FIRE)
+    {
+        if (you.duration[dur] <= 0)
+            mprf(MSGCH_GOD, "You feel protected from fire.");
+        else
+            mprf(MSGCH_GOD, "You feel more protected from fire.");
+    }
+    else if (what == BEAM_COLD)
+    {
+        if (you.duration[dur] <= 0)
+            mprf(MSGCH_GOD, "You feel protected from cold.");
+        else
+            mprf(MSGCH_GOD, "You feel more protected from cold.");
+    }
+    else if (what == BEAM_ELECTRICITY)
+    {
+        if (you.duration[dur] <= 0)
+            mprf(MSGCH_GOD, "You feel protected from electricity.");
+        else
+            mprf(MSGCH_GOD, "You feel more protected from electricity.");
+    }
+    else if (what == BEAM_MISSILE)
+    {
+        if (you.duration[dur] <= 0)
+            mprf(MSGCH_GOD, "You feel protected from physical damage.");
+        else
+            mprf(MSGCH_GOD, "You feel more protected from physical damage.");
+    }
 
     // was scaled by 10 * strength. But the strength parameter is used so inconsistently that
     // it seems like a constant would be better, based on the typical value of 2.
@@ -1661,19 +1709,29 @@ static bool _wu_jian_lunge(const coord_def& old_pos)
 
     const int number_of_attacks = _wu_jian_number_of_attacks(false);
 
-    if (number_of_attacks == 0)
+    string mon_name = mons->name(DESC_THE);
+    if (number_of_attacks < 1)
     {
         mprf("You lunge at %s, but your attack speed is too slow for a blow "
-             "to land.", mons->name(DESC_THE).c_str());
+             "to land.", mon_name.c_str());
         return false;
+    }
+    else if (number_of_attacks == 1)
+    {
+        if (!wu_jian_has_momentum(WU_JIAN_ATTACK_LUNGE))
+            mprf("You lunge at %s.", mon_name.c_str());
+        else
+            mprf("You lunge with incredible momentum at %s.", mon_name.c_str());
     }
     else
     {
-        mprf("You lunge%s at %s%s.",
-             wu_jian_has_momentum(WU_JIAN_ATTACK_LUNGE) ?
-                 " with incredible momentum" : "",
-             mons->name(DESC_THE).c_str(),
-             number_of_attacks > 1 ? ", in a flurry of attacks" : "");
+        if (!wu_jian_has_momentum(WU_JIAN_ATTACK_LUNGE))
+            mprf("You lunge at %s, in a flurry of attacks.", mon_name.c_str());
+        else
+        {
+            mprf("You lunge with incredible momentum at %s"
+                 ", in a flurry of attacks.", mon_name.c_str());
+        }
     }
 
     count_action(CACT_INVOKE, ABIL_WU_JIAN_LUNGE);
@@ -1725,20 +1783,33 @@ static bool _wu_jian_whirlwind(const coord_def& old_pos)
 
         you.apply_berserk_penalty = false;
 
+        string mon_name = mons->name(DESC_THE);
         const int number_of_attacks = _wu_jian_number_of_attacks(false);
-        if (number_of_attacks == 0)
+        if (number_of_attacks < 1)
         {
             mprf("You spin to attack %s, but your attack speed is too slow for "
-                 "a blow to land.", mons->name(DESC_THE).c_str());
+                 "a blow to land.", mon_name.c_str());
             continue;
+        }
+        else if (number_of_attacks == 1)
+        {
+            if (!wu_jian_has_momentum(WU_JIAN_ATTACK_LUNGE))
+                mprf("You spin and attack %s.", mon_name.c_str());
+            else
+            {
+                mprf("You spin and attack %s, with incredible momentum.",
+                     mon_name.c_str());
+            }
         }
         else
         {
-            mprf("You spin and attack %s%s%s.",
-                 mons->name(DESC_THE).c_str(),
-                 number_of_attacks > 1 ? " repeatedly" : "",
-                 wu_jian_has_momentum(WU_JIAN_ATTACK_WHIRLWIND) ?
-                     ", with incredible momentum" : "");
+            if (!wu_jian_has_momentum(WU_JIAN_ATTACK_LUNGE))
+                mprf("You spin and attack %s repeatedly.", mon_name.c_str());
+            else
+            {
+                mprf("You spin and attack %s repeatedly"
+                     ", with incredible momentum.", mon_name.c_str());
+            }
         }
 
         count_action(CACT_INVOKE, ABIL_WU_JIAN_WHIRLWIND);
@@ -1800,19 +1871,32 @@ void wu_jian_wall_jump_effects()
 
         // Twice the attacks as Wall Jump spends twice the time
         const int number_of_attacks = _wu_jian_number_of_attacks(true);
-        if (number_of_attacks == 0)
+        string mon_name = target->name(DESC_THE);
+        if (number_of_attacks < 1)
         {
             mprf("You attack %s from above, but your attack speed is too slow"
-                 " for a blow to land.", target->name(DESC_THE).c_str());
+                 " for a blow to land.", mon_name.c_str());
             continue;
+        }
+        else if (number_of_attacks == 1)
+        {
+            if (!wu_jian_has_momentum(WU_JIAN_ATTACK_LUNGE))
+                mprf("You attack %s from above.", mon_name.c_str());
+            else
+            {
+                mprf("You attack %s from above, with incredible momentum.",
+                     mon_name.c_str());
+            }
         }
         else
         {
-            mprf("You %sattack %s from above%s.",
-                 number_of_attacks > 1 ? "repeatedly " : "",
-                 target->name(DESC_THE).c_str(),
-                 wu_jian_has_momentum(WU_JIAN_ATTACK_WALL_JUMP) ?
-                     ", with incredible momentum" : "");
+            if (!wu_jian_has_momentum(WU_JIAN_ATTACK_LUNGE))
+                mprf("You repeatedly attack %s from above.", mon_name.c_str());
+            else
+            {
+                mprf("You repeatedly attack %s from above"
+                     ", with incredible momentum.", mon_name.c_str());
+            }
         }
 
         for (int i = 0; i < number_of_attacks; i++)

@@ -4,6 +4,88 @@
 #
 ###############################################################################
 
+################################
+# Untransformed
+################################
+
+# hand
+%%%%
+hand
+Hand
+%%%%
+hands
+Hände
+%%%%
+your hand
+Eure Hand
+%%%%
+your hands
+Eure Hände
+%%%%
+your weapon hand
+Eure Waffenhand
+%%%%
+your shield hand
+Eure Schildhand
+%%%%
+
+# claw (troll/ghoul)
+%%%%
+claw
+Kralle
+%%%%
+claws
+Krallen
+%%%%
+your claw
+Eure Kralle
+%%%%
+your claws
+Eure Krallen
+%%%%
+your weapon claw
+Eure Waffenkralle
+%%%%
+your shield claw
+Eure Schildkralle
+%%%%
+
+# paw (felid)
+%%%%
+paw
+Pfote
+%%%%
+paws
+Pfoten
+%%%%
+your paw
+Eure Pfote
+%%%%
+your paws
+Eure Pfoten
+%%%%
+
+# tentacle (octopode)
+%%%%
+tentacle
+Tentakel
+%%%%
+tentacles
+Tentakel
+%%%%
+your tentacle
+Euer Tentakel
+%%%%
+your tentacles
+Eure Tentakel
+%%%%
+your weapon tentacle
+Euer Waffententakel
+%%%%
+your shield tentacle
+Euer Schildtentakel
+%%%%
+
 
 ################################
 # Spider-form
@@ -35,6 +117,21 @@ zischt
 # hand-equivalent
 front leg
 Vorderbein
+%%%%
+front legs
+Vorderbeine
+%%%%
+your front leg
+Euer Vorderbein
+%%%%
+your front legs
+Eure Vorderbeine
+%%%%
+your weapon front leg
+Euer Waffenvorderbein
+%%%%
+your shield front leg
+Euer Schildvorderbein
 %%%%
 # altar action
 You crawl onto the altar of %s.
@@ -84,6 +181,21 @@ klinge
 # hand-equivalent
 scythe-like blade
 sensenartige Klinge
+%%%%
+scythe-like blades
+sensenartige Klingen
+%%%%
+your scythe-like blade
+Eure sensenartige Klinge
+%%%%
+your scythe-like blades
+Eure sensenartige Klingen
+%%%%
+your weapon scythe-like blade
+Eure sensenartige Waffenklinge
+%%%%
+your shield scythe-like blade
+Eure sensenartige Schildklinge
 %%%%
 
 ################################
@@ -163,6 +275,21 @@ Eisfaust
 front paw
 Vorderpfote
 %%%%
+front paws
+Vorderpfoten
+%%%%
+your front paw
+Eure Vorderpfote
+%%%%
+front paws
+Eure Vorderpfoten
+%%%%
+your weapon front paw
+Eure Waffenvorderpfote
+%%%%
+your shield front paw
+Eure Schildvorderpfote
+%%%%
 # foot equivalent
 paw
 Pfote
@@ -202,6 +329,21 @@ brüllt
 # hand-equivalent
 foreclaw
 Vorderkralle
+%%%%
+foreclaws
+Vorderkrallen
+%%%%
+your foreclaw
+Eure Vorderkralle
+%%%%
+your foreclaws
+Eure Vorderkrallen
+%%%%
+your weapon foreclaw
+Eure Waffenvorderkralle
+%%%%
+your shield foreclaw
+Eure Schildvorderkralle
 %%%%
 
 ################################
@@ -295,6 +437,21 @@ kreischt
 front trotter
 Vorderfuß
 %%%%
+front trotters
+Vorderfüße
+%%%%
+your front trotter
+Euer Vorderfuß
+%%%%
+your front trotters
+Eure Vorderfüße
+%%%%
+your weapon front trotter
+Euer Waffenvorderfuß
+%%%%
+your shield front trotter
+Euer Schildvorderfuß
+%%%%
 # foot-equivalent
 trotter
 Fuß
@@ -368,6 +525,21 @@ creak
 branch
 Zweig
 %%%%
+branches
+Zweige
+%%%%
+your branch
+Euer Zweig
+%%%%
+your branches
+Eure Zweige
+%%%%
+your weapon branch
+Euer Waffenzweig
+%%%%
+your shield branch
+Euer Schildzweig
+%%%%
 # foot-equivalent
 root
 Wurzel
@@ -438,6 +610,21 @@ rauscht
 misty tendril
 Nebelranke
 %%%%
+misty tendrils
+Nebelranken
+%%%%
+your misty tendril
+Eure Nebelranke
+%%%%
+your misty tendrils
+Eure Nebelranken
+%%%%
+your weapon misty tendril
+Eure Waffennebelranke
+%%%%
+your shield misty tendril
+Eure Schildnebelranke
+%%%%
 # foot
 strand
 Strähne
@@ -500,6 +687,21 @@ sporuliert
 # hand
 hypha
 Hyphe
+%%%%
+hyphae
+Hyphen
+%%%%
+your hypha
+Eure Hyphe
+%%%%
+your hyphae
+Eure Hyphen
+%%%%
+your weapon hypha
+Eure Waffenhyphe
+%%%%
+your shield hypha
+Eure Schildhyphe
 %%%%
 # altar action
 You release spores on the altar of %s.

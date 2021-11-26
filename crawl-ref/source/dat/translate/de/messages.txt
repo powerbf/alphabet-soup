@@ -8907,335 +8907,68 @@ Beschädigter Ex-Anhänger wird gelöscht von Ebene: %s.
 # god-passive.cc
 ##################
 %%%%
-GOD sometimes watches over you
-
-%%%%
-GOD no longer watches over you
-
-%%%%
-GOD can shield you from mutations
-
-%%%%
-GOD NOW shields you from mutations
-
-%%%%
-GOD can protect you from unnatural transformations
-
-%%%%
-GOD NOW protects you from unnatural transformations
-
-%%%%
-GOD can protect you from effects of Hell
-
-%%%%
-GOD NOW protects you from effects of Hell
-
-%%%%
-GOD will NOW warn you about shapeshifters
-
-%%%%
-GOD cleanses your potions of mutation
-
-%%%%
-GOD no longer cleanses your potions of mutation
-
-%%%%
-GOD NOW protects your summons from abjuration
-
-%%%%
-GOD NOW blesses your followers when they kill evil beings
-
-%%%%
-gain health and magic from killing evil beings
-
-%%%%
-are NOW prevented from stabbing unaware creatures
-
-%%%%
-are NOW surrounded by divine halo
-
-%%%%
-GOD NOW protects you from necromancy miscasts and mummy death curses
-
-%%%%
-GOD NOW protects you from torment
-
-%%%%
-can NOW see well in the dark
-
-%%%%
-have a chance to gain magical power from killing
-
-%%%%
-are NOW less likely to miscast destructive spells
-
-%%%%
-can NOW cast destructive spells farther
-
-%%%%
-gain health from killing
-
-%%%%
-GOD NOW protects your allies from abjuration
-
-%%%%
-can NOW maintain berserk longer, and are less likely to pass out
-
-%%%%
-can NOW maintain berserk as long, and are more likely to pass out
-
-%%%%
-GOD can protect the life of your allies
-
-%%%%
-GOD NOW protects the life of your allies
-
-%%%%
-are NOW protected from distortion unwield effects
-
-%%%%
-remember the shape of the Abyss better
-
-%%%%
-GOD will NOW help you find the Abyssal rune
-
-%%%%
-share experience with your followers
-
-%%%%
-inspire orcs to join your side
-
-%%%%
-GOD will bless your followers
-
-%%%%
-GOD will no longer bless your followers
-
-%%%%
-Slimes and eye monsters are NOW neutral towards you
-
-%%%%
-GOD NOW summons jellies to protect you
-
-%%%%
-GOD NOW allows jellies to devour items
-
-%%%%
-GOD NOW adjusts your attributes periodically
-
-%%%%
-are NOW immune to slime covered walls
-
-%%%%
-Your fellow slimes NOW consume items
-
-%%%%
-GOD NOW protects you from corrosion
-
-%%%%
-Items consumed by your fellow slimes NOW restore your magical power
-
-%%%%
-Items consumed by your fellow slimes NOW restore your health
-
-%%%%
-spawn slimes when struck by massive blows
-
-%%%%
-GOD NOW grants you access to the hidden treasures of the Slime Pits
-
-%%%%
-can NOW walk through plants
-
-%%%%
-can NOW safely fire through allied plants
-
-%%%%
-Allied plants are NOW friendly towards you
-
-%%%%
-are NOW protected from inadvertent hurry
-
-%%%%
-move less quickly
-
-%%%%
-GOD will NOW aid your escape with the Orb of Zot
-
-%%%%
-GOD NOW supports your attributes
-
-%%%%
-GOD will NOW slow the Abyss
-
-%%%%
-GOD will NOW slow Zot's hunt for you
-
-%%%%
-process poison slowly
-
-%%%%
-prefer cursed items
-
-%%%%
-sense portals
-
-%%%%
-sense the properties of items
-
-%%%%
-have improved mapping abilities
-
-%%%%
-sense threats
-
-%%%%
-sense items
-
-%%%%
-avoid traps
-
-%%%%
-get a skill boost from cursed items
-
-%%%%
-are NOW clear of vision
-
-%%%%
-are NOW clear of mind
-
-%%%%
-are NOW surrounded by an umbra
-
-%%%%
-emit smoke when hit
-
-%%%%
-Your attacks are NOW mimicked by a shadow
-
-%%%%
-Your attack spells are NOW mimicked by a shadow
-
-%%%%
-detect gold
-
-%%%%
-GOD NOW turns all corpses to gold
-
-%%%%
-have a gold aura
-
-%%%%
-and your divine allies are ADV immune to clouds
-
-%%%%
-generate elemental clouds to protect yourself
-
-%%%%
-Your chances to be struck by projectiles are NOW reduced
-
-%%%%
-Elemental attacks NOW leave you somewhat more resistant to them
-
-%%%%
-Your enemies will sometimes fail their attack or even hit themselves
-
-%%%%
-Your enemies will NOW fail their attack or hit themselves
-
-%%%%
-Enemies that inflict damage upon you will sometimes receive a detrimental status effect
-
-%%%%
-Enemies that inflict damage upon you will NOW receive a detrimental status effect
-
-%%%%
-GOD NOW prevents you from regenerating your magical power
-
-%%%%
-GOD NOW collects and distills excess magic from your kills
-
-%%%%
-GOD NOW siphons a part of your essence into your ancestor
-
-%%%%
-drain nearby creatures when transferring your ancestor
-
-%%%%
-perform damaging attacks by moving towards foes.
-
-%%%%
-lightly attack monsters by moving around them.
-
-%%%%
-perform airborne attacks in an area by jumping off a solid obstacle.
-
-%%%%
 You hear a distant slurping noise.
 Ihr hört ein entferntes Schlürfen.
 %%%%
 %s is bound.
-
+%s ist gebunden.
 %%%%
 %s are bound.
-
+%s sind gebunden.
 %%%%
 %s is not bound.
-
+%s ist nicht gebunden.
 %%%%
 %s are not bound.
-
+%s sind nicht gebunden.
 %%%%
-Your %s %s is bound but not your %s %s.\n
-
+%s is bound but not %s.
+%s ist gebunden, aber %s nicht.
 %%%%
-Your weapon %s is %sbound.\n
-
+You are not bound in armour or jewellery.
+Ihr seid nicht in Rüstung oder Schmuck gebunden.
 %%%%
-"not "
-
+You are partially bound in armour and jewellery.
+Ihr seid teilweise in Rüstung und Schmuck gebunden.
 %%%%
-Your shield %s is %sbound.\n
-
+You are fully bound in armour and jewellery.
+Ihr seid vollständig in Rüstung und Schmuck gebunden.
 %%%%
-You are %s bound in armour %s jewellery.\n
-
+You are not bound in armour.
+Ihr seid nicht in eine Rüstung gebunden.
 %%%%
-not
-
+You are partially bound in armour.
+Ihr seid teilweise in eine Rüstung gebunden.
 %%%%
-partially
-
+You are fully bound in armour.
+Ihr seid vollständig in eine Rüstung gebunden.
 %%%%
-fully
-
+You are not bound in jewellery.
+Ihr seid nicht in Schmuck gebunden.
 %%%%
-or
-
+You are partially bound in jewellery.
+Ihr seid teilweise in Schmuck gebunden.
 %%%%
-and
-
+You are fully bound in jewellery.
+Ihr seid vollständig in Schmuck gebunden.
 %%%%
-You are %s bound in armour.\n
-
+You are not bound.
+Ihr seid nicht gebunden.
 %%%%
-You are %s bound in jewellery.\n
-
+You are slightly bound.
+Ihr seid leicht gebunden.
 %%%%
-You are %s bound.
-
+You are moderately bound.
+Ihr seid mäßig gebunden.
 %%%%
-slightly
-
+You are seriously bound.
+Ihr seid stark gebunden.
 %%%%
-moderately
-
+You are fully bound.
+Ihr seid vollständig gebunden.
 %%%%
-seriously
-
-%%%%
-physical attacks
-
+You are buggily bound.
+Ihr seid verbuggt gebunden.
 %%%%
 Your resistance to fire fades away.
 Euer Widerstand gegen Feuer schwindet.
@@ -9249,11 +8982,29 @@ Euer Widerstand gegen Elektrizität schwindet.
 Your resistance to physical damage fades away.
 Euer Widerstand gegen physischen Schaden lässt nach.
 %%%%
-You feel %sprotected from %s.
-Ihr fühlt Euch %svon %s beschützt.
+You feel protected from fire.
+Ihr fühlt Euch vor Feuer geschützt.
 %%%%
-"more "
-
+You feel more protected from fire.
+Ihr fühlt Euch besser vor Feuer geschützt.
+%%%%
+You feel protected from cold.
+Ihr fühlt Euch vor Kalt geschützt.
+%%%%
+You feel more protected from cold.
+Ihr fühlt Euch besser vor Kalt geschützt.
+%%%%
+You feel protected from electricity.
+Ihr fühlt Euch vor Elektrizität geschützt.
+%%%%
+You feel more protected from electricity.
+Ihr fühlt Euch besser vor Elektrizität geschützt.
+%%%%
+You feel protected from physical damage.
+Ihr fühlt Euch vor physischen Schäden geschützt.
+%%%%
+You feel more protected from physical damage.
+Ihr fühlt Euch besser vor physischen Schäden geschützt.
 %%%%
 %s mimicks your spell!
 %s ahmt Euren Zauber nach!
@@ -9262,46 +9013,58 @@ Your supernatural speed expires.
 Eure übernatürliche Geschwindigkeit läuft ab.
 %%%%
 The heavenly storm settles.
-Der himmlische Sturm lässt nach.
+Das himmlische Gewitter lässt nach.
 %%%%
 You lunge at %s, but your attack speed is too slow for a blow to land.
-
+Ihr stürzt Euch auf {acc}%s, aber Eure Angriffsgeschwindigkeit ist zu langsam, um einen Schlag zu landen.
 %%%%
-You lunge%s at %s%s.
-Ihr stürzt%s auf %s%s.
+You lunge at %s.
+Ihr stürzt Euch auf {acc}%s.
 %%%%
-" with incredible momentum"
-
+You lunge with incredible momentum at %s.
+Ihr stürzt Euch mit unglaublichem Schwung auf {acc}%s.
 %%%%
-, in a flurry of attacks
-
+You lunge at %s, in a flurry of attacks.
+Ihr stürzt Euch auf {acc}%s, in einem Wirbel von Angriffen.
+%%%%
+You lunge with incredible momentum at %s, in a flurry of attacks.
+Ihr stürzt Euch mit unglaublichem Schwung auf {acc}%s, in einem Wirbel aus Angriffen.
 %%%%
 You spin to attack %s, but your attack speed is too slow for a blow to land.
-
+Ihr wirbelt herum, um {acc}%s anzugreifen, aber Eure Angriffsgeschwindigkeit ist zu langsam, um einen Schlag zu landen.
 %%%%
-You spin and attack %s%s%s.
-Ihr dreht und greifst %s%s%s an.
+You spin and attack %s.
+Ihr wirbelt herum und greift {acc}%s an.
 %%%%
-" repeatedly"
-
+You spin and attack %s, with incredible momentum.
+Ihr wirbelt herum und greift {acc}%s an, mit unglaublichem Schwung.
 %%%%
-, with incredible momentum
-
+You spin and attack %s repeatedly.
+Ihr wirbelt herum und greift {acc}%s wiederholt an.
+%%%%
+You spin and attack %s repeatedly, with incredible momentum.
+Ihr wirbelt herum und greift {acc}%s wiederholt an, mit unglaublichem Schwung.
 %%%%
 You attack %s from above, but your attack speed is too slow for a blow to land.
-
+Ihr greift {acc}%s von oben an, aber Eure Angriffsgeschwindigkeit ist zu langsam, um einen Schlag zu landen.
 %%%%
-You %sattack %s from above%s.
-Ihr %sgreift {acc}%s von oben an%s.
+You attack %s from above.
+Ihr greift {acc}%s von oben an.
 %%%%
-"repeatedly "
-
+You attack %s from above, with incredible momentum.
+Ihr greift {acc}%s von oben an, mit unglaublichem Schwung.
+%%%%
+You repeatedly attack %s from above.
+Ihr greift {acc}%s wiederholt von oben an.
+%%%%
+You repeatedly attack %s from above, with incredible momentum.
+Ihr greift {acc}%s wiederholt von oben an, mit unglaublichem Schwung.
 %%%%
 %s prepares the audience for your solo!
-
+%s bereitet das Publikum auf dein Solo vor!
 %%%%
 %s links your audience in an emotional bond!
-
+%s fesselt das Publikum mit einem emotionalen Band!
 %%%%
 
 ##################
@@ -10513,6 +10276,9 @@ This screen shows the spells in your spell library. From here you can memorise s
 
 %%%%
 "\n\nYou cannot memorise any "
+
+%%%%
+"more "
 
 %%%%
 "spells right now. This will change as you grow in levels and Spellcasting proficiency. "
@@ -11757,6 +11523,9 @@ Nibbled to death by software bugs
 
 %%%%
 ... %s %d rune%s
+
+%%%%
+and
 
 %%%%
 with
@@ -14873,9 +14642,6 @@ inscription
 pluses
 
 %%%%
-hands
-
-%%%%
 inslot
 
 %%%%
@@ -17004,9 +16770,6 @@ You punch %s
 Ihr boxt {acc}%s
 %%%%
 slash
-
-%%%%
-claw
 
 %%%%
 tentacle-slap
@@ -20685,9 +20448,6 @@ pupil
 handbug
 
 %%%%
-hand
-
-%%%%
 leg
 
 %%%%
@@ -23825,13 +23585,7 @@ Ihr fühlt %s.
 legs
 
 %%%%
-tentacles
-
-%%%%
 arms
-
-%%%%
-front paws
 
 %%%%
 You feel rather odd for a moment.
@@ -31342,6 +31096,9 @@ You are regenerating.
 
 %%%%
 lethally
+
+%%%%
+seriously
 
 %%%%
 quite
