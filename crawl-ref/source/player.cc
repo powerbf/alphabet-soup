@@ -6555,7 +6555,7 @@ bool player::corrode_equipment(const char* corrosion_source, int degree)
     }
     // always increase duration, but...
     increase_duration(DUR_CORROSION, 10 + roll_dice(2, 4), 50,
-                      make_stringf("%s corrodes you!",
+                      localise("%s corrodes you!",
                                    corrosion_source).c_str());
 
     // the more corrosion you already have, the lower the odds of more
