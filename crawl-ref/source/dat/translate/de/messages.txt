@@ -9100,95 +9100,35 @@ Ihr zahlt einen Zehnten von %d Gold.
 # god-wrath.cc
 ##################
 %%%%
-wrath
-
-%%%%
-malice
-
-%%%%
-anger
-
-%%%%
-capriciousness
-
-%%%%
-fury
-
-%%%%
-will
-
-%%%%
-fiery rage
-
-%%%%
-displeasure
-
-%%%%
-touch
-
-%%%%
-vengeance
-
-%%%%
-enmity
-
-%%%%
-meddling
-
-%%%%
-doom
-
-%%%%
-darkness
-
-%%%%
-greed
-
-%%%%
-adversity
-
-%%%%
-disappointment
-
-%%%%
-progress
-
-%%%%
-memory
-
-%%%%
-rancor
-
-%%%%
-the %s of %s
-
+the rancour of the Wu Jian Council
+die Verbitterung des Wu Jian Konzils
 %%%%
 %s sends the divine host to punish you for your evil ways!
-
+%s schickt die göttliche Heerschar, um Euch für Eure bösen Taten zu bestrafen!
 %%%%
 %s's divine host fails to appear.
-
+Die göttliche Heerschar von {dat}%s erscheint nicht.
 %%%%
 %s booms out: "Take the path of righteousness! REPENT!"
-
+%s dröhnt: "Nimm den Weg der Rechtschaffenheit! TUE BUSSE!"
 %%%%
 You feel the Shining One's silent rage upon you!
-
+Ihr spürt den stillen Zorn des Glänzenden auf Euch!
 %%%%
 %s draws some chaos from your body!
-
+%s zieht etwas Chaos aus Eurem Körper!
 %%%%
 %s rids your body of chaos!
-
+%s befreit Euren Körper vom Chaos!
 %%%%
 %s recites the Axioms of Law to you!
-
+%s trägt Euch die Axiome des Rechts vor!
 %%%%
 %s booms out: "Turn to the light! REPENT!"
-
+%s dröhnt: "Wende dich den Licht zu! TUE BUSSE!"
 %%%%
 %s strikes the hour.
-
+%s schlägt die Stunde.
 %%%%
 You lose track of time.
 Ihr verliert den Überblick über die Zeit.
@@ -9200,49 +9140,49 @@ Time shudders.
 Die Zeit zittert.
 %%%%
 %s rains destruction down upon you!
-
+%s regnet Zerstörung auf Euch herab!
 %%%%
 %s has no time to deal with you just now.
-
+%s hat jetzt keine Zeit, um sich mit Euch zu beschäftigen.
 %%%%
 %s sends minions to punish you.
-
+%s schickt Schergen, um Euch zu bestrafen.
 %%%%
 %s sends a minion to punish you.
-
+%s schickt einen Lakaien, um Euch zu bestrafen.
 %%%%
 %s's minions fail to arrive.
-
+Die Diener {gen}%s kommen nicht an.
 %%%%
 You hear Kikubaaqudgha cackling.
-
+Ihr hört Kikubaaqudgha gackern.
 %%%%
 Kikubaaqudgha's malice focuses upon you.
-
+Kikubaaqudghas Bosheit konzentriert sich auf Euch.
 %%%%
 %s sends servants to punish you.
-
+%s schickt Diener, um Euch zu bestrafen.
 %%%%
 %s sends a servant to punish you.
-
+%s schickt einen Diener, um Euch zu bestrafen.
 %%%%
 %s's servants fail to arrive.
-
+Die Diener von %s kommen nicht an.
 %%%%
 %s's anger turns toward you for a moment.
-
+Der Zorn {gen}%s richtet sich für einen Moment gegen Euch.
 %%%%
 %s sends monsters to punish you.
-
+%s schickt Monster, um Euch zu bestrafen.
 %%%%
 %s sends a monster to punish you.
-
+%s schickt ein Monster, um Euch zu bestrafen.
 %%%%
 %s has no time to punish you... now.
-
+%s hat keine Zeit, Euch zu bestrafen... jetzt.
 %%%%
 %s's voice booms out, "Feel my wrath!"
-
+Die Stimme von %s dröhnt: "Spüre meinen Zorn!"
 %%%%
 You suddenly pass out!
 Ihr werdet plötzlich ohnmächtig!
@@ -9251,124 +9191,121 @@ You suddenly feel lethargic!
 Ihr fühlt Euch plötzlich träge!
 %%%%
 %s hurls firey rage upon you!
-
+%s schleudert feurige Wut auf Euch!
 %%%%
 %s throws an implement of electrocution at you.
-
+%s wirft ein Stromschlagsgerät auf Euch.
 %%%%
 %s throws implements of electrocution at you.
-
+%s wirft Stromschlagsgeräte auf Euch.
 %%%%
 %s sends forth an army of orcs.
-
+%s schickt eine Armee von Orks aus.
 %%%%
 %s is still gathering forces against you.
-
+%s sammelt immer noch Kräfte gegen Euch.
 %%%%
 %s sends forces against you!
-
+%s schickt Truppen gegen Euch!
 %%%%
 %s's forces are busy with other wars.
-
+Die Truppen von %s sind mit anderen Kriegen beschäftigt.
 %%%%
 %s's wrath finds you.
-
+Der Zorn von %s findet Euch.
 %%%%
 %s's wrath scatters you!
-
+Deu Zorn {gen}%s zerstreut Euch!
 %%%%
 Space warps around you!
-
+Der Raum verzieht sich um Euch!
 %%%%
 %s draws you home!
-
-%%%%
-Lugonu's touch
-
+%s zieht Euch nach Hause!
 %%%%
 %s makes you draw from the deck of Punishment.
-
+%s lässt Euch aus dem Deck der Bestrafung ziehen.
 %%%%
 You feel Jiyva alter your body.
-
+Du spürst, wie Jiyva Euren Körper verändert.
 %%%%
 %s's gift of slime is revoked.
-
+{gen}%s Gabe des Schleims ist widerrufen.
 %%%%
 Mutagenic energy floods into your body!
-
+Mutagene Energie strömt in Euren Körper!
 %%%%
 Some slimes ooze up out of the ground!
-
+Einige Schleime quellen aus dem Boden!
 %%%%
 The ground quivers slightly.
-
+Der Boden zittert leicht.
 %%%%
 %s invokes nature against you.
-
+%s beschwört die Natur gegen Euch.
 %%%%
 Plants grow around you in an ominous manner.
-
+Pflanzen wachsen um Euch herum in einer unheilvollen Weise.
 %%%%
 %s produces spores.
-
+%s produziert Sporen.
 %%%%
 %s calls forth shadows to punish you.
-
+%s ruft Schatten hervor, um Euch zu bestrafen.
 %%%%
 %s fails to incite the shadows against you.
-
+%s schafft es nicht, die Schatten gegen Euch aufzubringen.
 %%%%
 %s weaves monsters from the shadows.
-
+%s webt Monster aus den Schatten.
 %%%%
 %s fails to weave monsters from the shadows.
-
+%s schafft es nicht, Monster aus den Schatten zu weben.
 %%%%
 You feel overwhelmed by the shadows around you.
-
+Du fühlst Euch von den Schatten um Euch herum überwältigt.
 %%%%
 %s tears the shadows away from you.
-
+%s reißt die Schatten von Euch weg.
 %%%%
 %s incites the elements against you!
-
+%s hetzt die Elemente gegen Euch auf!
 %%%%
 %s fails to incite the elements against you.
-
+%s schafft es nicht, die Elemente gegen Euch aufzuhetzen.
 %%%%
 %s strips away your elemental protection.
-
+%s entzieht Euch Euren Elementarschutz.
 %%%%
 %s fails to strip away your elemental protection.
-
+%s schafft es nicht, Euren Elementarschutz aufzuheben.
 %%%%
 %s causes a mighty clap of thunder!
-
+%s verursacht einen mächtigen Donnerschlag!
 %%%%
 Die by a thousand cuts!
-
+Stirb durch tausend Schnitte!
 %%%%
 Nowhere to run...
-
+Du kannst nirgendwohin fliehen...
 %%%%
 These will loosen your tongue!
-
+Das wird dir die Zunge lösen!
 %%%%
 Suffer, mortal!
-
+Leide, Sterblicher!
 %%%%
 %s's divine weapons fail to arrive.
-
+Die göttlichen Waffen von %s kommen nicht an.
 %%%%
 %s drives %s into a dance frenzy!
-
+%s treibt {acc}%s in einen Tanzrausch!
 %%%%
 %s booms out, "Time for someone else to take a solo"
-
+%s dröhnt: "Zeit für ein Solo von jemand anderem"
 %%%%
 %s booms out: "Revellers, it's time to dance!"
-
+%s dröhnt: "Feiernde, es ist Zeit zu tanzen!"
 %%%%
 The divine experience confuses you!
 Die göttliche Erfahrung verwirrt Euch!
@@ -9377,10 +9314,7 @@ The divine experience drains your vigour!
 Die göttliche Erfahrung erschöpft Eure Kraft!
 %%%%
 %s blasts you with cleansing flame!
-
-%%%%
-"smitten by "
-
+%s stößt Euch mit reinigenden Flammen an!
 %%%%
 %s smites you!
 %s schlägt Euch!
@@ -19919,6 +19853,9 @@ hit
 release spores at
 
 %%%%
+touch
+
+%%%%
 engulf
 
 %%%%
@@ -24641,15 +24578,6 @@ Ups, das%s fühlt sich tödlich kalt an.
 %s absorbs the residual spatial distortion as you unwield your weapon.
 
 %%%%
-%sing a weapon of distortion
-
-%%%%
-rebrand
-
-%%%%
-unwield
-
-%%%%
 Space warps into you!
 Der Weltraum verzieht sich in Euch!
 %%%%
@@ -27848,6 +27776,9 @@ training
 
 %%%%
 targets
+
+%%%%
+progress
 
 %%%%
 points
