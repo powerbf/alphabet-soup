@@ -29,6 +29,7 @@
 
 string god_prayer_reaction()
 {
+    // i18n: this is only used in chardump, so no need to localise
     string result = uppercase_first(god_name(you.religion));
     const int rank = god_favour_rank(you.religion);
     if (crawl_state.player_is_dead())
