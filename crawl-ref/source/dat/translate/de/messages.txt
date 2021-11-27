@@ -9348,6 +9348,9 @@ Die göttliche Erfahrung erschöpft Eure Kraft!
 <lightred>ERROR: unterminated $item</lightred>
 
 %%%%
+<lightred>ERROR: unterminated $feature</lightred>
+
+%%%%
 <lightred>ERROR: unterminated <input></lightred>
 
 %%%%
@@ -9360,41 +9363,8 @@ Die göttliche Erfahrung erschöpft Eure Kraft!
 Error, no hint for '%s'.
 Fehler, kein Hinweis für '%s'.
 %%%%
-$1
-
-%%%%
-$2
-
-%%%%
-death conjurer melee
-
-%%%%
-death berserker unberserked
-
-%%%%
-death ranger melee
-
-%%%%
-death random %d
-
-%%%%
 See you next game!
 Bis zum nächsten Spiel!
-%%%%
-finished
-
-%%%%
-finished explored
-
-%%%%
-finished travel
-
-%%%%
-finished stashes
-
-%%%%
-finished random %d
-
 %%%%
 tut
 
@@ -9441,226 +9411,19 @@ First <w>w</w>ield it, then follow the instructions.<tiles>\nAs a short-cut you 
 However, as a conjurer you will want to deal with it using magic. If you look at the help entry for the <w>M</w>emorisation screen you'll find an explanation of how to do this.
 
 %%%%
-"is a portal to an inter-dimensional bazaar filled with shops. It will disappear if you don't enter it soon, so hurry. "
-
-%%%%
-"is a portal to an optional level, offering extra loot in exchange for extra danger. There's no penalty for skipping it, but the portal will disappear if you wait, so you have to decide now if you want to risk it. "
-
-%%%%
-You can enter a portal just like a set of stairs, by standing on it and <tiles><w>clicking</w></tiles><console>pressing <w>></w></console>. To return, find <tiles>a similar looking portal.</tiles><console>another <w>
-
-%%%%
-</w> - but NOT the ancient stone arch you'll start out on!</console>
-
-%%%%
-You have picked up your first potion<console> ('<w>
-
-%%%%
-</w>'). Use </console><tiles>. Simply <w>left-click</w> on it, or press </tiles><w>%</w> to quaff it.\nOnce you've identified a potion, either with a scroll of identification or by drinking it, you'll automatically recognize all other potions of the same type; this means it's sometimes useful to drink potions just to identify them.
-
-%%%%
-You have picked up your first scroll<console> ('<w>
-
-%%%%
-</w>'). Type </console><tiles>. Simply <w>left-click</w> on it, or press </tiles><w>%</w> to read it.\nOnce you've identified a scroll, either with a scroll of identification or by reading it, you'll automatically recognize all other scrolls of the same type; this means it's sometimes useful to read scrolls just to identify them.
-
-%%%%
-You have picked up your first wand<console> ('<w>
-
-%%%%
-</w>'). Type </console><tiles>. Simply <w>left-click</w> on it, or press </tiles><w>%</w> to evoke it.\nIf you find more wands of the same type, they'll merge into this wand and add charges to it.
-
-%%%%
-You have picked up a book<console> ('<w>
-
-%%%%
-'</w>) </console>If it's a spellbook, you can pick it up to add its spells to your library. You'll be able to memorise spells from it via <w>%</w>, and cast them with <w>%</w>.</console>
-
-%%%%
-" hates it when you memorise or study magic, though."
-
-%%%%
-This is the first weapon <console>('<w>
-
-%%%%
-</w>') </console>you've picked up. Use <w>%</w> <tiles>or <w>left-click</w> on it </tiles>to wield it, but be aware that this weapon might train a different skill from your current one. You can view the weapon's properties from your <w>%</w>nventory<tiles> or by <w>right-clicking</w> on it</tiles>.
-
-%%%%
-\nYou should probably stick with axes. Checking other axes' enchantments can be worthwhile, but weapons can be cursed and difficult to remove, so unless you have a scroll of remove curse, only wield weapons you're ready to be stuck with!
-
-%%%%
-This is the first stack of missiles <console>('<w>
-
-%%%%
-"</w>') </console>you've picked up. Missiles like boomerangs and throwing nets can be thrown by hand, but other missiles like arrows and bolts require a launcher and training in using it to be really effective. "
-
-%%%%
-"<w>Right-clicking</w> on "
-
-%%%%
-"Selecting "
-
-%%%%
-the item in your <w>%</w>nventory will give more information about both missiles and launcher.
-
-%%%%
-\nAs you're already trained in Bows, you only need to bother collecting arrows.
-
-%%%%
-\nHowever, as a spellslinger, you don't really need another type of ranged attack.
-
-%%%%
-\nFor now you might be best off with sticking to stones for ranged attacks.
-
-%%%%
-This is the first piece of armour <console>('<w>
-
-%%%%
-</w>') </console>you've picked up. <tiles>You can click on it to wear it, and click again to remove it. <w>Right-clicking</w> on it will give more information.</tiles><console>Use <w>%</w> to wear it and <w>%</w> to take it off again. You can view its properties from your <w>%</w>nventory.</console>
-
-%%%%
-"\nNote that as a "
-
-%%%%
-" you will be unable to wear "
-
-%%%%
-helmets
-
-%%%%
-Weapons and armour that have unusual descriptions like this are much more likely to be of higher enchantment or have special properties, good or bad.
-
-%%%%
-Ah, a corpse!
-
-%%%%
-That <console>
-
-%%%%
-percent
-
-%%%%
-</console>is a corpse.
-
-%%%%
-You have picked up a piece of jewellery, either a ring
-
-%%%%
-<console> ('<w>
-
-%%%%
-</w>')</console>
-
-%%%%
-" or an amulet"
-
-%%%%
-</w>')
-
-%%%%
-. Type <w>%</w> to put it on and <w>%</w> to remove it. You can view its properties from your <w>%</w>nventory</console>
-
-%%%%
-<tiles>. You can click on it to put it on, and click again to remove it. By <w>right-clicking</w> on it, you can view its properties</tiles>.
-
-%%%%
-This is a curious object indeed. You can play around with it to find out what it does by <tiles>clicking on it to e<w>%</w>oke </tiles><console>e<w>%</w>oking </console>it. As usual, selecting it from your <w>%</w>nventory might give you more information.
-
-%%%%
-You have picked up a magic staff<console> ('<w>
-
-%%%%
-</w>')</console>. It must be <w>%</w>ielded to be of use. Magicians use staves to increase their power in certain spell schools. It can also be used as a weapon.<tiles> You can wield a staff by <w>left-clicking</w>.</tiles>
-
-%%%%
-You have picked up your first pile of gold<console> ('<yellow>
-
-%%%%
-</yellow>')</console>. Unlike most other objects in Crawl it doesn't show up in your inventory, takes up no space in your inventory, weighs nothing and can't be dropped. Gold can be used to buy items from shops, and is appreciated by certain gods.
-
-%%%%
-"These "
-
-%%%%
 Stairs
-
-%%%%
-are downstairs. You can enter the next (deeper) level by following them down (<w>%</w>). To return to this level, press <w>%</w> while standing on the upstairs.
-
-%%%%
-\nAlternately, you can <w>left-click</w> on stairs you're standing on to use them.
-
-%%%%
-"This "
 
 %%%%
 Escape hatch
 
 %%%%
-is an escape hatch. You can use it to leave a level with <w>%</w> and <w>%</w> respectively
-
-%%%%
-" (or by <w>left-clicking</w>)"
-
-%%%%
-, like stairs; unlike stairs, however, hatches are a one-way  trip, so be careful when descending!
-
-%%%%
 Branch stairs
-
-%%%%
-is the entrance to a different branch of the dungeon, which might have different terrain, level layout and monsters from the current main branch you're in. Some branches contain only a single level, and others are many levels deep. They can also contain entrances to other branches.\n\nThe first three branches you'll encounter are the Temple, the Lair and the Orcish Mines. While the Lairand the Mines can be dangerous for the new adventurer, the Temple is completely safe and contains a number of altars at which you might convert to a new god.
 
 %%%%
 Portal
 
 %%%%
-A small symbol on a stair tile signifies that there are items in that position that you may want to check out.
-
-%%%%
-If any items are covering stairs or an escape hatch, then that will be indicated by highlighting the <w><<</w> or <w>></w> symbol, instead of hiding the stair symbol with an item glyph.
-
-%%%%
-A small symbol on an item tile signifies that there is at least one other item in the same heap that you may want to check out.
-
-%%%%
-If two or more items are on a single square, then the square will be highlighted, and the symbol for the item on the top of the heap will be shown.
-
-%%%%
-If any items are covering a trap, then that will be indicated by highlighting the <w>^</w> symbol, instead of hiding the trap symbol with an item glyph.
-
-%%%%
-"Oops... you just triggered a trap. "
-
-%%%%
-"You just discovered a trap. "
-
-%%%%
-You'll occasionally stumble into these nasty constructions
-
-%%%%
-", depicted by "
-
-%%%%
-. Each type of trap has a different effect when stepped on, like alerting enemies or causing random teleportation.
-
-%%%%
 "An altar to "
-
-%%%%
-"is an altar. "
-
-%%%%
-"By <w>right-clicking</w> on it with your mouse "
-
-%%%%
-"If you target the altar with <w>x</w>, then press <w>v</w> "
-
-%%%%
-you can get a short description.\nPress <w>%</w> or <w>%</w> while standing on the square to join the faith or read some information about the god in question. Before taking up the corresponding faith you'll be asked for confirmation.
-
-%%%%
-\n\nThe simplest god for an unexperienced conjurer is probably Vehumet, though Sif Muna is a good second choice.
 
 %%%%
 is a shop. You can enter it by typing <w>%</w> or <w>%</w>
@@ -9880,15 +9643,6 @@ or <w>click</w> on your equipped amulet to remove it.
 
 %%%%
 to remove your amulet.
-
-%%%%
-HINT_CONVERT Xom
-
-%%%%
-HINT_CONVERT Gozag
-
-%%%%
-HINT_CONVERT Ru
 
 %%%%
 "Uh-oh, "
@@ -13591,9 +13345,6 @@ Autopickup für%s deaktiviert.
 Autopickup disabled for %d items.
 Autopickup für%d-Elemente deaktiviert.
 %%%%
-=g
-
-%%%%
 {gold}
 
 %%%%
@@ -15013,13 +14764,7 @@ qual
 "\n "
 
 %%%%
->\n<
-
-%%%%
 ><
-
-%%%%
-\n
 
 %%%%
 TZ
@@ -15476,6 +15221,9 @@ Numpad %d
 
 %%%%
 Ctrl-%c
+
+%%%%
+percent
 
 %%%%
 
@@ -16070,9 +15818,6 @@ any
 Bad depth range: %d-%d
 
 %%%%
-" \t"
-
-%%%%
 block shuffle segment length mismatch
 
 %%%%
@@ -16080,9 +15825,6 @@ use / for block shuffle, or multiple SHUFFLE: lines
 
 %%%%
 no glyphs specified for clearing
-
-%%%%
-\t
 
 %%%%
 Invalid weight specifier in "
@@ -16283,9 +16025,6 @@ Not enough non-semicolons for '%s' spec.
 Too many semi-colons for '%s' spec.
 
 %%%%
-|
-
-%%%%
 More items than monster item slots for '%s'.
 
 %%%%
@@ -16347,6 +16086,9 @@ Requested corpse '%s' is invalid
 
 %%%%
 Bad item generation weight: '%d'
+
+%%%%
+|
 
 %%%%
 Bad identify status: %s
@@ -17363,9 +17105,6 @@ top
 
 %%%%
 bot
-
-%%%%
-XXX
 
 %%%%
 <w>-</w>|<w><<</w>
@@ -19886,9 +19625,6 @@ hit, bite, peck, or gore
 hit or gore
 
 %%%%
-" at"
-
-%%%%
 " on"
 
 %%%%
@@ -19958,28 +19694,13 @@ your god
 "insult general "
 
 %%%%
-" @foe,@"
-
-%%%%
-@player
-
-%%%%
 @foe
-
-%%%%
-@Player
 
 %%%%
 @Foe
 
 %%%%
 to
-
-%%%%
-@says@ @to_foe@
-
-%%%%
-@foe,@
 
 %%%%
 @foe@,
@@ -23493,9 +23214,6 @@ You feel %s.
 Ihr fühlt %s.
 %%%%
 legs
-
-%%%%
-arms
 
 %%%%
 You feel rather odd for a moment.
@@ -28959,9 +28677,6 @@ the Shining One's cleansing flame
 # spl-miscast.cc
 ##################
 %%%%
-'s body
-
-%%%%
 Sparks fly from your @hands@
 
 %%%%
@@ -31097,9 +30812,6 @@ Invis
 <lightred>ERROR: string above had unterminated tag</lightred>
 
 %%%%
-" .&`\"\'|;{}()[]<>*%$#@!~?"
-
-%%%%
 " \t\n\r"
 
 %%%%
@@ -31182,13 +30894,7 @@ Save file has uninitialized PlaceInfo for branch %s
 "(quantity: 0) "
 
 %%%%
-"god gift, "
-
-%%%%
 dragon armour
-
-%%%%
-dragon scales
 
 %%%%
 +Lev
