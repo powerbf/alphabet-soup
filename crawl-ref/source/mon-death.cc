@@ -40,9 +40,11 @@
 #include "items.h"
 #include "kills.h"
 #include "libutil.h"
+#include "localise.h"
 #include "mapdef.h"
 #include "mapmark.h"
 #include "message.h"
+#include "message-util.h"
 #include "mon-abil.h"
 #include "mon-behv.h"
 #include "mon-explode.h"
@@ -483,11 +485,13 @@ static void _create_monster_hide(const item_def &corpse, bool silent)
     if (you.see_cell(pos) && !silent && !feat_eliminates_items(env.grid(pos)))
     {
         // XXX: tweak for uniques/named monsters, somehow?
-        mprf("%s %s intact enough to wear.",
-             item.name(DESC_THE).c_str(),
-             mons_genus(mtyp) == MONS_DRAGON ? "are"  // scales are
-                                             : "is"); // troll armour is
-                                                      // XXX: refactor
+        if (mons_genus(mtyp) == MONS_DRAGON)
+        {
+            // scales are
+            mprf("%s are intact enough to wear.", item.name(DESC_THE).c_str());
+        }
+        else
+            mprf("%s is intact enough to wear.", item.name(DESC_THE).c_str());
     }
 
     // after messaging, for better results
@@ -598,10 +602,10 @@ static void _hints_inspect_kill()
 
 static string _milestone_kill_verb(killer_type killer)
 {
-    return killer == KILL_BANISHED ? "banished" :
-           killer == KILL_PACIFIED ? "pacified" :
-           killer == KILL_ENSLAVED ? "enslaved" :
-           killer == KILL_SLIMIFIED ? "slimified" : "killed";
+    return killer == KILL_BANISHED ? "banished" : // noloc
+           killer == KILL_PACIFIED ? "pacified" : // noloc
+           killer == KILL_ENSLAVED ? "enslaved" : // noloc
+           killer == KILL_SLIMIFIED ? "slimified" : "killed"; // noloc
 }
 
 void record_monster_defeat(const monster* mons, killer_type killer)
@@ -626,7 +630,7 @@ void record_monster_defeat(const monster* mons, killer_type killer)
     if (mons->type == MONS_PLAYER_GHOST)
     {
         monster_info mi(mons);
-        string milestone = _milestone_kill_verb(killer) + " the ghost of ";
+        string milestone = _milestone_kill_verb(killer) + " the ghost of "; // noloc
         milestone += get_ghost_description(mi, true);
         milestone += ".";
         mark_milestone("ghost", milestone);
@@ -709,8 +713,10 @@ static bool _ely_protect_ally(monster* mons, killer_type killer)
 
     mons->hit_points = 1;
 
-    const string msg = " protects " + mons->name(DESC_THE) + " from harm!";
-    simple_god_message(msg.c_str());
+    const string msg = localise("%s protects %s from harm!",
+                                god_name(you.religion, false),
+                                mons->name(DESC_THE));
+    god_speaks(you.religion, msg.c_str());
 
     return true;
 }
@@ -754,11 +760,11 @@ static bool _ely_heal_monster(monster* mons, killer_type killer, int i)
 
     dprf("new hp: %d", mons->hit_points);
 
-    const string msg = make_stringf("%s heals %s%s",
-             god_name(god, false).c_str(),
-             mons->name(DESC_THE).c_str(),
-             mons->hit_points * 2 <= mons->max_hit_points ? "." : "!");
-
+    const string punct = mons->hit_points * 2 <= mons->max_hit_points ? "." : "!";
+    string msg = localise("%s heals %s",
+                                god_name(god, false),
+                                mons->name(DESC_THE));
+    add_punctuation(msg, punct, false);
     god_speaks(god, msg.c_str());
 
     return true;
@@ -1059,16 +1065,18 @@ static void _monster_die_cloud(const monster* mons, bool corpse, bool silent,
     if (cell_is_solid(mons->pos()))
         return;
 
-    string prefix = " ";
+    string mon_name;
     if (corpse)
     {
         if (!mons_class_can_leave_corpse(mons_species(mons->type)))
             return;
 
-        prefix = "'s corpse ";
+        mon_name = localise("%s's corpse", mons->name(DESC_THE));
     }
+    else
+        mon_name = localise(mons->name(DESC_THE));
 
-    string msg = summoned_poof_msg(mons) + "!";
+    string msg = summoned_poof_msg(mons);
 
     cloud_type cloud = CLOUD_NONE;
     if (msg.find("smoke") != string::npos)
@@ -1076,8 +1084,12 @@ static void _monster_die_cloud(const monster* mons, bool corpse, bool silent,
     else if (msg.find("chaos") != string::npos)
         cloud = CLOUD_CHAOS;
 
-    if (!silent)
-        simple_monster_message(*mons, (prefix + msg).c_str());
+    if (!silent && you.see_cell(mons->pos()) && mons->visible_to(&you))
+    {
+        // i18n: This won't work properly if msg requires non-default case
+        msg = localise(msg, LocalisationArg(mon_name, false));
+        mpr_nolocalise(msg);
+    }
 
     if (cloud != CLOUD_NONE)
         place_cloud(cloud, mons->pos(), 1 + random2(3), mons);
@@ -1088,39 +1100,39 @@ static string _killer_type_name(killer_type killer)
     switch (killer)
     {
     case KILL_NONE:
-        return "none";
+        return "none"; // noloc
     case KILL_YOU:
-        return "you";
+        return "you"; // noloc
     case KILL_MON:
-        return "mon";
+        return "mon"; // noloc
     case KILL_YOU_MISSILE:
-        return "you_missile";
+        return "you_missile"; // noloc
     case KILL_MON_MISSILE:
-        return "mon_missile";
+        return "mon_missile"; // noloc
     case KILL_YOU_CONF:
-        return "you_conf";
+        return "you_conf"; // noloc
     case KILL_MISCAST:
-        return "miscast";
+        return "miscast"; // noloc
     case KILL_MISC:
-        return "misc";
+        return "misc"; // noloc
     case KILL_RESET:
-        return "reset";
+        return "reset"; // noloc
     case KILL_DISMISSED:
-        return "dismissed";
+        return "dismissed"; // noloc
     case KILL_BANISHED:
-        return "banished";
+        return "banished"; // noloc
     case KILL_TIMEOUT:
-        return "timeout";
+        return "timeout"; // noloc
 #if TAG_MAJOR_VERSION == 34
     case KILL_UNSUMMONED:
-        return "unsummoned";
+        return "unsummoned"; // noloc
 #endif
     case KILL_PACIFIED:
-        return "pacified";
+        return "pacified"; // noloc
     case KILL_ENSLAVED:
-        return "enslaved";
+        return "enslaved"; // noloc
     case KILL_SLIMIFIED:
-        return "slimified";
+        return "slimified"; // noloc
     }
     die("invalid killer type");
 }
@@ -1167,8 +1179,10 @@ static void _make_derived_undead(monster* mons, bool quiet, bool bound_soul)
             {
                 if (!quiet)
                 {
-                    mprf("A %s mist gathers momentarily, then fades.",
-                         bound_soul ? "freezing" : "glowing");
+                    if (bound_soul)
+                        mpr("A freezing mist gathers momentarily, then fades.");
+                    else
+                        mpr("A glowing mist gathers momentarily, then fades.");
                 }
                 return;
             }
@@ -1186,9 +1200,14 @@ static void _make_derived_undead(monster* mons, bool quiet, bool bound_soul)
 
         string monster_name = "";
 
-        string message = quiet ? "" :
-            make_stringf("A %s mist starts to gather...",
-                         bound_soul ? "freezing" : "glowing");
+        string message;
+        if (!quiet)
+        {
+            if (bound_soul)
+                message = "A freezing mist starts to gather...";
+            else
+                message = "A glowing mist starts to gather...";
+        }
 
         make_derived_undead_fineff::schedule(mons->pos(), mg,
                 mons->get_experience_level(), agent_name, message);
@@ -1210,9 +1229,9 @@ static void _druid_final_boon(const monster* mons)
 
     if (you.can_see(*mons))
     {
-        mprf(MSGCH_MONSTER_SPELL, "With its final breath, %s offers up its power "
-                                  "to the beasts of the wild!",
-                                  mons->name(DESC_THE).c_str());
+        mpr(MSGCH_MONSTER_SPELL, "With its final breath, the spriggan druid "
+                                 "offers up its power to the beasts of the wild!");
+
     }
 
     shuffle_array(beasts);
@@ -1226,14 +1245,13 @@ static void _druid_final_boon(const monster* mons)
         if (beasts[i]->heal(roll_dice(3, mons->get_hit_dice()))
             && you.can_see(*beasts[i]))
         {
-            mprf("%s %s healed.", beasts[i]->name(DESC_THE).c_str(),
-                                  beasts[i]->conj_verb("are").c_str());
+            mprf("%s is healed.", beasts[i]->name(DESC_THE).c_str());
         }
     }
 
     for (int i = 0; i < num; ++i)
     {
-        simple_monster_message(*beasts[i], " seems to grow more fierce.");
+        simple_monster_message(*beasts[i], "%s seems to grow more fierce.");
         beasts[i]->add_ench(mon_enchant(ENCH_MIGHT, 1, mons,
                                         random_range(100, 160)));
     }
@@ -1427,9 +1445,7 @@ static void _special_corpse_messaging(monster &mons)
         // something else.
         if (!(mons.flags & MF_KNOWN_SHIFTER))
         {
-            const string message = "'s shape twists and changes as "
-                + mons.pronoun(PRONOUN_SUBJECTIVE) + " "
-                + conjugate_verb("die", mons.pronoun_plurality()) + ".";
+            const string message = "%s's shape twists and changes in death.";
             simple_monster_message(mons, message.c_str());
         }
 
@@ -1442,12 +1458,7 @@ static void _special_corpse_messaging(monster &mons)
                     ? mons.props["old_heads"].get_int()
                     : mons.number;
     unwind_var<unsigned int> number(mons.number, num);
-    const string message = " returns to " +
-                            mons.pronoun(PRONOUN_POSSESSIVE) +
-                            " original shape as " +
-                            mons.pronoun(PRONOUN_SUBJECTIVE) + " " +
-                            conjugate_verb("die", mons.pronoun_plurality()) +
-                            ".";
+    const string message = "%s's body returns to its original shape.";
     simple_monster_message(mons, message.c_str());
 }
 
@@ -1643,7 +1654,7 @@ item_def* monster_die(monster& mons, killer_type killer,
     {
         if (!silent && !hard_reset && !was_banished)
         {
-            simple_monster_message(mons, " detonates feebly.",
+            simple_monster_message(mons, "%s detonates feebly.",
                                    MSGCH_MONSTER_DAMAGE, MDAM_DEAD);
             silent = true;
         }
@@ -1655,7 +1666,7 @@ item_def* monster_die(monster& mons, killer_type killer,
     {
         if (!silent && !mons_reset && !was_banished)
         {
-            simple_monster_message(mons, " dissipates!",
+            simple_monster_message(mons, "%s dissipates!",
                                    MSGCH_MONSTER_DAMAGE, MDAM_DEAD);
             silent = true;
         }
@@ -1679,7 +1690,7 @@ item_def* monster_die(monster& mons, killer_type killer,
     {
         if (!silent && !mons_reset && !was_banished)
         {
-            simple_monster_message(mons, " vapourises!",
+            simple_monster_message(mons, "%s vapourises!",
                                    MSGCH_MONSTER_DAMAGE, MDAM_DEAD);
             silent = true;
         }
@@ -1716,7 +1727,7 @@ item_def* monster_die(monster& mons, killer_type killer,
                 && (!have_passive(passive_t::goldify_corpses)
                     || mons.has_ench(ENCH_ABJ)))
             {
-                simple_monster_message(mons, " falls from the air.",
+                simple_monster_message(mons, "%s falls from the air.",
                                        MSGCH_MONSTER_DAMAGE, MDAM_DEAD);
                 silent = true;
             }
@@ -1762,7 +1773,7 @@ item_def* monster_die(monster& mons, killer_type killer,
     else if (mons.type == MONS_BRIAR_PATCH)
     {
         if (timeout && !silent)
-            simple_monster_message(mons, " crumbles away.");
+            simple_monster_message(mons, "%s crumbles away.");
     }
     else if (mons.type == MONS_SPECTRAL_WEAPON)
     {
@@ -1784,7 +1795,7 @@ item_def* monster_die(monster& mons, killer_type killer,
              && mons.mindex() == killer_index)
     {
         if (!silent)
-            simple_monster_message(mons, " exhausts itself and dries up.");
+            simple_monster_message(mons, "%s exhausts itself and dries up.");
         silent = true;
     }
 
@@ -1813,23 +1824,29 @@ item_def* monster_die(monster& mons, killer_type killer,
         {
             if (death_message)
             {
+                string msg;
                 if (killer == KILL_YOU_CONF
                     && (anon || !invalid_monster_index(killer_index)))
                 {
-                    mprf(MSGCH_MONSTER_DAMAGE, MDAM_DEAD, "%s is %s!",
-                         mons.name(DESC_THE).c_str(),
-                         exploded                        ? "blown up" :
-                         wounded_damaged(targ_holy)      ? "destroyed"
-                                                         : "killed");
+                    if (exploded)
+                        msg = "%s is blown up!";
+                    else if (wounded_damaged(targ_holy))
+                        msg = "%s is destroyed!";
+                    else
+                        msg = "%s is killed!";
                 }
                 else
                 {
-                    mprf(MSGCH_MONSTER_DAMAGE, MDAM_DEAD, "You %s %s!",
-                         exploded                        ? "blow up" :
-                         wounded_damaged(targ_holy)      ? "destroy"
-                                                         : "kill",
-                         mons.name(DESC_THE).c_str());
+                    if (exploded)
+                        msg = "You blow up %s!";
+                    else if (wounded_damaged(targ_holy))
+                        msg = "You destroy %s!";
+                    else
+                        msg = "You kill %s!";
                 }
+
+                mprf(MSGCH_MONSTER_DAMAGE, MDAM_DEAD, msg.c_str(), mons.name(DESC_THE).c_str());
+
                 // If this monster would otherwise give xp but didn't because
                 // it grants no reward or was neutral, give a message.
                 if (!gives_player_xp
@@ -1915,7 +1932,7 @@ item_def* monster_die(monster& mons, killer_type killer,
                     && have_passive(passive_t::bottle_mp)
                     && !you_drinkless(false))
                 {
-                    simple_god_message(" collects the excess magic power.");
+                    simple_god_message("%s collects the excess magic power.");
                     you.attribute[ATTR_PAKELLAS_EXTRA_MP] -= mp_heal;
 
                     if (you.attribute[ATTR_PAKELLAS_EXTRA_MP] <= 0
@@ -1933,7 +1950,7 @@ item_def* monster_die(monster& mons, killer_type killer,
                             env.item[thing_created].flags |= ISFLAG_KNOW_TYPE;
                             // not a conventional gift, but use the same
                             // messaging
-                            simple_god_message(" grants you a gift!");
+                            simple_god_message("%s grants you a gift!");
                             you.attribute[ATTR_PAKELLAS_EXTRA_MP]
                                 += POT_MAGIC_MP;
                         }
@@ -1967,9 +1984,9 @@ item_def* monster_die(monster& mons, killer_type killer,
             if (death_message)
             {
                 const char* msg =
-                    exploded                   ? " is blown up!" :
-                    wounded_damaged(targ_holy) ? " is destroyed!"
-                                               : " dies!";
+                    exploded                   ? "%s is blown up!" :
+                    wounded_damaged(targ_holy) ? "%s is destroyed!"
+                                               : "%s dies!";
                 simple_monster_message(mons, msg, MSGCH_MONSTER_DAMAGE,
                                        MDAM_DEAD);
             }
@@ -2011,35 +2028,35 @@ item_def* monster_die(monster& mons, killer_type killer,
                 {
                     // Sticks to Snakes
                     if (mons_genus(mons.type) == MONS_SNAKE)
-                        simple_monster_message(mons, " withers and dies!");
+                        simple_monster_message(mons, "%s withers and dies!");
                     // ratskin cloak
                     else if (mons_genus(mons.type) == MONS_RAT)
                     {
-                        simple_monster_message(mons, " returns to the shadows"
+                        simple_monster_message(mons, "%s returns to the shadows"
                                                       " of the Dungeon!");
                     }
                     // Death Channel
                     else if (mons.type == MONS_SPECTRAL_THING)
-                        simple_monster_message(mons, " fades into mist!");
+                        simple_monster_message(mons, "%s fades into mist!");
                     // Animate Skeleton/Animate Dead/Infestation
                     else if (mons.type == MONS_ZOMBIE
                              || mons.type == MONS_SKELETON
                              || mons.type == MONS_DEATH_SCARAB)
                     {
-                        simple_monster_message(mons, " crumbles into dust!");
+                        simple_monster_message(mons, "%s crumbles into dust!");
                     }
                     else
                     {
-                        string msg = " " + summoned_poof_msg(&mons) + "!";
+                        string msg = summoned_poof_msg(&mons);
                         simple_monster_message(mons, msg.c_str());
                     }
                 }
                 else
                 {
                     const char* msg =
-                        exploded                     ? " is blown up!" :
-                        wounded_damaged(targ_holy)   ? " is destroyed!"
-                                                     : " dies!";
+                        exploded                     ? "%s is blown up!" :
+                        wounded_damaged(targ_holy)   ? "%s is destroyed!"
+                                                     : "%s dies!";
                     simple_monster_message(mons, msg, MSGCH_MONSTER_DAMAGE,
                                            MDAM_DEAD);
                 }
@@ -2423,8 +2440,11 @@ void unawaken_vines(const monster* mons, bool quiet)
 
     if (!quiet && vines_seen)
     {
-        mprf("The vine%s fall%s limply to the ground.",
-              (vines_seen > 1 ? "s" : ""), (vines_seen == 1 ? "s" : ""));
+        // i18n: This won't work properly for languages with more than one plural form.
+        if (vines_seen == 1)
+            mpr("The vine falls limply to the ground.");
+        else
+            mpr("The vines fall limply to the ground.");
     }
 }
 
@@ -2440,8 +2460,13 @@ void heal_flayed_effect(actor* act, bool quiet, bool blood_only)
 
         if (you.can_see(*act) && !quiet)
         {
-            mprf("The terrible wounds on %s body vanish.",
-                 act->name(DESC_ITS).c_str());
+            if (act->is_player())
+                mpr("The terrible wounds on your body vanish.");
+            else
+            {
+                mprf("The terrible wounds on %s body vanish.",
+                     act->name(DESC_ITS).c_str());
+            }
         }
 
         act->heal(act->props["flay_damage"].get_int());
@@ -2571,25 +2596,25 @@ void mons_check_pool(monster* mons, const coord_def &oldpos,
     // something has fallen into the lava.
     if (you.see_cell(mons->pos()) && (oldpos == mons->pos() || env.grid(oldpos) != grid))
     {
-         mprf("%s falls into the %s!",
-             mons->name(DESC_THE).c_str(),
-             grid == DNGN_LAVA ? "lava" : "water");
+         mprf(grid == DNGN_LAVA ? "%s falls into the lava!"
+                                : "%s falls into the water!",
+              mons->name(DESC_THE).c_str());
     }
 
     // Even fire resistant monsters perish in lava.
     if (grid == DNGN_LAVA && mons->res_fire() < 2)
     {
-        simple_monster_message(*mons, " is incinerated.",
+        simple_monster_message(*mons, "%s is incinerated.",
                                MSGCH_MONSTER_DAMAGE, MDAM_DEAD);
     }
     else if (mons->can_drown())
     {
-        simple_monster_message(*mons, " drowns.",
+        simple_monster_message(*mons, "%s drowns.",
                                MSGCH_MONSTER_DAMAGE, MDAM_DEAD);
     }
     else
     {
-        simple_monster_message(*mons, " falls apart.",
+        simple_monster_message(*mons, "%s falls apart.",
                                MSGCH_MONSTER_DAMAGE, MDAM_DEAD);
     }
 
@@ -2656,6 +2681,7 @@ int dismiss_monsters(string pattern)
 
 string summoned_poof_msg(const monster* mons, bool plural)
 {
+    // i18n: TODO: Fix for languages with multiple plural forms
     int  summon_type = 0;
     bool valid_mon   = false;
     if (mons != nullptr && !invalid_monster(mons))
@@ -2664,33 +2690,38 @@ string summoned_poof_msg(const monster* mons, bool plural)
         valid_mon = true;
     }
 
-    string msg      = "disappear%s in a puff of smoke";
+    string msg = plural ? "%s disappear in a puff of smoke!"
+                        : "%s disappears in a puff of smoke!";
     bool   no_chaos = false;
 
     switch (summon_type)
     {
     case SPELL_SHADOW_CREATURES:
     case MON_SUMM_SCROLL:
-        msg      = "dissolve%s into shadows";
+        msg = plural ? "%s dissolve into shadows!"
+                     : "%s dissolves into shadows!";
         no_chaos = true;
         break;
 
     case MON_SUMM_CHAOS:
-        msg = "degenerate%s into a cloud of primal chaos";
+        msg = plural ? "%s degenerate into a cloud of primal chaos!"
+                     : "%s degenerates into a cloud of primal chaos!";
         break;
 
     case MON_SUMM_WRATH:
     case MON_SUMM_AID:
         if (valid_mon && is_good_god(mons->god))
         {
-            msg      = "dissolve%s into sparkling lights";
+            msg = plural ? "%s dissolve into sparkling lights!"
+                         : "%s dissolves into sparkling lights!";
             no_chaos = true;
         }
         break;
 
     case SPELL_SPECTRAL_CLOUD:
     case SPELL_CALL_LOST_SOUL:
-        msg = "fade%s away";
+        msg = plural ? "%s fade away!"
+                     : "%s fades away!";
         break;
     }
 
@@ -2699,31 +2730,37 @@ string summoned_poof_msg(const monster* mons, bool plural)
         if (mons->god == GOD_XOM && !no_chaos && one_chance_in(10)
             || mons->type == MONS_CHAOS_SPAWN)
         {
-            msg = "degenerate%s into a cloud of primal chaos";
+            msg = plural ? "%s degenerate into a cloud of primal chaos!"
+                         : "%s degenerates into a cloud of primal chaos!";
         }
 
         if (mons->is_holy()
             && summon_type != SPELL_SHADOW_CREATURES
             && summon_type != MON_SUMM_CHAOS)
         {
-            msg = "dissolve%s into sparkling lights";
+            msg = plural ? "%s dissolve into sparkling lights!"
+                         : "%s dissolves into sparkling lights!";
         }
 
         if (mons_is_slime(*mons)
             && mons->god == GOD_JIYVA)
         {
-            msg = "dissolve%s into a puddle of slime";
+            msg = plural ? "%s dissolve into a puddle of slime!"
+                         : "%s dissolves into a puddle of slime!";
         }
 
         if (mons->type == MONS_DROWNED_SOUL)
-            msg = "return%s to the deep";
+        {
+            msg = plural ? "%s return to the deep!"
+                         : "%s returns to the deep!";
+        }
 
         if (mons->has_ench(ENCH_PHANTOM_MIRROR))
-            msg = "shimmer%s and vanish" + string(plural ? "" : "es"); // Ugh
+        {
+            msg = plural ? "%s shimmer and vanish!"
+                         : "%s shimmers and vanishes!";
+        }
     }
-
-    // Conjugate.
-    msg = make_stringf(msg.c_str(), plural ? "" : "s");
 
     return msg;
 }
@@ -2777,17 +2814,31 @@ void pikel_band_neutralise()
     {
         if (you.get_mutation_level(MUT_NO_LOVE))
         {
-            const char *substr = visible_minions > 1 ? "minions" : "minion";
-            final_msg = make_stringf("Pikel's spell is broken, but his former "
-                                     "%s can only feel hate for you!", substr);
+            // i18n: TODO: Fix for languages with multiple plural forms
+            if (visible_minions == 1)
+            {
+                final_msg = "Pikel's spell is broken, but his former "
+                            "minion can only feel hate for you!";
+            }
+            else
+            {
+                final_msg = "Pikel's spell is broken, but his former "
+                            "minions can only feel hate for you!";
+            }
         }
         else
         {
-            const char *substr = visible_minions > 1
-                ? "minions thank you for their"
-                : "minion thanks you for its";
-            final_msg = make_stringf("With Pikel's spell broken, his former %s "
-                                     "freedom.", substr);
+            // i18n: TODO: Fix for languages with multiple plural forms
+            if (visible_minions == 1)
+            {
+                final_msg = "With Pikel's spell broken, his former "
+                            "minion thanks you for its freedom.";
+            }
+            else
+            {
+                final_msg = "With Pikel's spell broken, his former "
+                            "minions thank you for their freedom.";
+            }
         }
     }
     delayed_action_fineff::schedule(DACT_PIKEL_MINIONS, final_msg);
@@ -2833,11 +2884,26 @@ void hogs_to_humans()
     string final_msg;
     if (any > 0)
     {
-        final_msg = make_stringf("No longer under Kirke's spell, the %s %s %s!",
-                                 any > 1 ? "hogs return to their"
-                                         : "hog returns to its",
-                                 any == human ? "human" : "original",
-                                 any > 1 ? "forms" : "form");
+        if (any == human && any == 1)
+        {
+            final_msg = "No longer under Kirke's spell, "
+                        "the hog returns to its human form!";
+        }
+        else if (any == human)
+        {
+            final_msg = "No longer under Kirke's spell, "
+                        "the hogs return to their human form!";
+        }
+        else if (any == 1)
+        {
+            final_msg = "No longer under Kirke's spell, "
+                        "the hog returns to its original form!";
+        }
+        else
+        {
+            final_msg = "No longer under Kirke's spell, "
+                        "the hogs return to their original form!";
+        }
     }
     kirke_death_fineff::schedule(final_msg);
 }
@@ -2997,7 +3063,7 @@ void elven_twin_energize(monster* mons)
     {
         ASSERT(mons_is_mons_class(mons, MONS_DOWAN));
         if (mons->observable())
-            simple_monster_message(*mons, " seems to find hidden reserves of power!");
+            simple_monster_message(*mons, "%s seems to find hidden reserves of power!");
 
         mons->add_ench(ENCH_HASTE);
     }
@@ -3023,7 +3089,7 @@ void elven_twins_pacify(monster* twin)
     if (mons->neutral())
         return;
 
-    simple_monster_message(*mons, " likewise turns neutral.");
+    simple_monster_message(*mons, "%s likewise turns neutral.");
 
     record_monster_defeat(mons, KILL_PACIFIED);
     mons_pacify(*mons, ATT_NEUTRAL);
@@ -3048,7 +3114,7 @@ void elven_twins_unpacify(monster* twin)
     // Don't consider already un-neutralised monsters.
     if (!mons->neutral() || mons->has_ench(ENCH_INSANE))
         return;
-    simple_monster_message(*mons, " gets angry again!");
+    simple_monster_message(*mons, "%s gets angry again!");
 
     behaviour_event(mons, ME_WHACK, &you, you.pos(), false);
 }

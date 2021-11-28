@@ -288,7 +288,7 @@ bool monster_caught_in_net(monster* mon)
             if (!mon->visible_to(&you))
                 mpr("The net bounces off something gigantic!");
             else
-                simple_monster_message(*mon, " is too large for the net to hold!");
+                simple_monster_message(*mon, "%s is too large for the net to hold!");
         }
         return false;
     }
@@ -325,7 +325,7 @@ bool monster_caught_in_net(monster* mon)
             if (!mon->visible_to(&you))
                 mpr("Something gets caught in the net!");
             else
-                simple_monster_message(*mon, " is caught in the net!");
+                simple_monster_message(*mon, "%s is caught in the net!");
         }
         return true;
     }
@@ -381,7 +381,7 @@ void check_net_will_hold_monster(monster* mons)
             free_stationary_net(net);
 
         simple_monster_message(*mons,
-                               " drifts right through the net!");
+                               "%s drifts right through the net!");
     }
     else
         mons->add_ench(ENCH_HELD);
@@ -545,7 +545,7 @@ void trap_def::trigger(actor& triggerer)
                 cancel_tornado();
             }
             else
-                simple_monster_message(*m, " enters the passage of Golubria.");
+                simple_monster_message(*m, "%s enters the passage of Golubria.");
 
             // Should always be true.
             bool moved = triggerer.move_to_pos(to);
@@ -643,13 +643,13 @@ void trap_def::trigger(actor& triggerer)
             if (one_chance_in(5) || (trig_smart && coinflip()))
             {
                 // Trap doesn't trigger.
-                simple_monster_message(*m, " fails to trigger a blade trap.");
+                simple_monster_message(*m, "%s fails to trigger a blade trap.");
             }
             else if (random2(m->evasion()) > 8
                      || (trig_smart && random2(m->evasion()) > 8))
             {
                 if (!simple_monster_message(*m,
-                                            " avoids a huge, swinging blade."))
+                                            "%s avoids a huge, swinging blade."))
                 {
                     mpr("A huge blade swings out!");
                 }
@@ -695,7 +695,7 @@ void trap_def::trigger(actor& triggerer)
             if (mons_intel(*m) < I_HUMAN)
             {
                 // Not triggered, trap stays.
-                simple_monster_message(*m, " fails to trigger a net trap.");
+                simple_monster_message(*m, "%s fails to trigger a net trap.");
             }
             else
             {
@@ -703,7 +703,7 @@ void trap_def::trigger(actor& triggerer)
                 triggered = true;
 
                 if (!simple_monster_message(*m,
-                                            " drops a net on you."))
+                                            "%s drops a net on you."))
                 {
                     mpr("Something launches a net on you.");
                 }
@@ -742,9 +742,9 @@ void trap_def::trigger(actor& triggerer)
             if (m)
             {
                 if (m->is_insubstantial())
-                    simple_monster_message(*m, " passes through a web.");
+                    simple_monster_message(*m, "%s passes through a web.");
                 else if (mons_genus(m->type) == MONS_JELLY)
-                    simple_monster_message(*m, " oozes through a web.");
+                    simple_monster_message(*m, "%s oozes through a web.");
                 // too spammy for spiders, and expected
             }
             break;
@@ -765,11 +765,11 @@ void trap_def::trigger(actor& triggerer)
         else if (m)
         {
             if (one_chance_in(3) || (trig_smart && coinflip()))
-                simple_monster_message(*m, " evades a web.");
+                simple_monster_message(*m, "%s evades a web.");
             else
             {
                 if (m->visible_to(&you))
-                    simple_monster_message(*m, " is caught in a web!");
+                    simple_monster_message(*m, "%s is caught in a web!");
                 else
                     mpr("A web moves frantically as something is caught in it!");
 
@@ -1044,11 +1044,11 @@ void monster_web_cleanup(const monster &mons, bool quiet)
         {
             // temp web from e.g. jumpspider/spidersack
             if (!quiet)
-                simple_monster_message(mons, " tears the web.");
+                simple_monster_message(mons, "%s tears the web.");
             destroy_trap(mons.pos());
         }
         else if (!quiet)
-            simple_monster_message(mons, " pulls away from the web.");
+            simple_monster_message(mons, "%s pulls away from the web.");
     }
 }
 
@@ -1242,7 +1242,7 @@ void trap_def::shoot_ammo(actor& act, bool trig_smart)
                      shot.name(DESC_A).c_str(),
                      act.name(DESC_THE).c_str(),
                      (damage_taken == 0 && !poison) ?
-                         ", but does no damage" : "");
+                         " but does no damage" : "");
             }
 
             if (poison)
@@ -1664,7 +1664,7 @@ bool ensnare(actor *fly)
     }
     else
     {
-        simple_monster_message(*fly->as_monster(), " is caught in a web!");
+        simple_monster_message(*fly->as_monster(), "%s is caught in a web!");
         fly->as_monster()->add_ench(ENCH_HELD);
     }
 

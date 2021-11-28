@@ -1683,10 +1683,13 @@ static bool _swap_rings(item_def& to_puton)
     }
     else if (available == 0)
     {
-        mprf("You're already wearing %s cursed ring%s!%s",
-             number_in_words(cursed).c_str(),
-             (cursed == 1 ? "" : "s"),
-             (cursed > 2 ? " Isn't that enough for you?" : ""));
+        if (cursed == 1)
+            mpr("You're already wearing one cursed ring!");
+        else if (cursed == 2)
+            mpr("You're already wearing two cursed rings!");
+        else if (cursed > 2)
+            mprf("You're already wearing %d cursed rings! Isn't that enough for you?",
+                 cursed);
         return false;
     }
     // The simple case - only one available ring.
@@ -2303,7 +2306,7 @@ void drink(item_def* potion)
 
     if (player_under_penance(GOD_GOZAG) && one_chance_in(3))
     {
-        simple_god_message(" petitions for your drink to fail.", GOD_GOZAG);
+        simple_god_message("%s petitions for your drink to fail.", GOD_GOZAG);
         you.turn_is_over = true;
         return;
     }
@@ -2722,8 +2725,15 @@ void random_uselessness()
         }
         else
         {
-            mpr(you.hands_act("glow", weird_glowing_colour()
-                                      + " for a moment."));
+            bool plural;
+            string hand = "Your " + you.hand_name(true, &plural); // noloc
+
+            if (plural)
+                mprf("%s glow %s for a moment.", hand.c_str(),
+                        weird_glowing_colour(). c_str());
+            else
+                mprf("%s glows %s for a moment.", hand.c_str(),
+                        weird_glowing_colour().c_str());
         }
         break;
 

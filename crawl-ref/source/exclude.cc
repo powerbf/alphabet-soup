@@ -480,7 +480,7 @@ void set_exclude(const coord_def &p, int radius, bool autoexcl, bool vaultexcl,
         if (exc->desc.empty() && defer_updates)
         {
             if (cloud_struct* cloud = cloud_at(p))
-                exc->desc = cloud->cloud_name(true) + " cloud";
+                exc->desc = make_stringf("%s cloud", cloud->cloud_name(true).c_str());
         }
         else if (exc->radius == radius)
             return;
@@ -520,7 +520,7 @@ void set_exclude(const coord_def &p, int radius, bool autoexcl, bool vaultexcl,
             }
         }
         else if (cloud_struct* cloud = cloud_at(p))
-            desc = cloud->cloud_name(true) + " cloud";
+            desc = make_stringf("%s cloud", cloud->cloud_name(true).c_str());
 
         curr_excludes.add_exclude(p, radius, autoexcl, desc, vaultexcl);
     }
@@ -621,11 +621,19 @@ string exclude_set::get_exclusion_desc()
         }
     }
 
-    if (count_other > 0)
+    if (count_other == 1)
     {
-        desc.push_back(make_stringf("%d %sexclusion%s",
-                                    count_other, desc.empty() ? "" : "more ",
-                                    count_other > 1 ? "s" : ""));
+        if (desc.empty())
+            desc.push_back("1 exclusion");
+        else
+            desc.push_back("1 more exclusion");
+    }
+    else if (count_other > 1)
+    {
+        if (desc.empty())
+            desc.push_back(make_stringf("%d exclusions", count_other));
+        else
+            desc.push_back(make_stringf("%d more exclusions", count_other));
     }
     else if (desc.empty())
         return "";
@@ -633,10 +641,10 @@ string exclude_set::get_exclusion_desc()
     string desc_str = "";
     if (desc.size() > 1 || count_other == 0)
     {
-        desc_str += "exclusion";
         if (desc.size() > 1)
-            desc_str += "s";
-        desc_str += ": ";
+            desc_str = "exclusions: ";
+        else
+            desc_str = "exclusion: ";
     }
     return desc_str + comma_separated_line(desc.begin(), desc.end(),
                                            " and ", ", ");

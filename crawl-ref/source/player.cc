@@ -49,6 +49,7 @@
 #include "kills.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "melee-attack.h"
 #include "message.h"
@@ -383,8 +384,10 @@ bool swap_check(monster* mons, coord_def &loc, bool quiet)
     {
         if (!quiet)
         {
-            simple_monster_message(*mons,
-                make_stringf(" is %s!", held_status(mons)).c_str());
+            if (string(held_status(mons)) == "held in a net")
+                simple_monster_message(*mons, "%s is held in a net!");
+            else
+                simple_monster_message(*mons, "%s is caught in a web!");
         }
         return false;
     }
@@ -392,14 +395,14 @@ bool swap_check(monster* mons, coord_def &loc, bool quiet)
     if (mons->is_constricted())
     {
         if (!quiet)
-            simple_monster_message(*mons, " is being constricted!");
+            simple_monster_message(*mons, "%s is being constricted!");
         return false;
     }
 
     if (mons->is_stationary() || mons->asleep() || mons->cannot_move())
     {
         if (!quiet)
-            simple_monster_message(*mons, " cannot move out of your way!");
+            simple_monster_message(*mons, "%s cannot move out of your way!");
         return false;
     }
 
@@ -441,7 +444,7 @@ bool swap_check(monster* mons, coord_def &loc, bool quiet)
     {
         // Might not be ideal, but it's better than insta-killing
         // the monster... maybe try for a short blink instead? - bwr
-        simple_monster_message(*mons, " cannot make way for you.");
+        simple_monster_message(*mons, "%s cannot make way for you.");
         // FIXME: activity_interrupt::hit_monster isn't ideal.
         interrupt_activity(activity_interrupt::hit_monster, mons);
     }
@@ -2320,9 +2323,9 @@ static void _recharge_xp_evokers(int exp)
             mprf("%s has recharged.", evoker->name(DESC_YOUR).c_str());
         else
         {
-            mprf("%s has regained %s charge%s.",
+            mprf("%s has regained %d charge%s.",
                  evoker->name(DESC_YOUR).c_str(),
-                 number_in_words(gained).c_str(), gained > 1 ? "s" : "");
+                 gained, gained > 1 ? "s" : "");
         }
     }
 }
@@ -5159,10 +5162,10 @@ bool player_save_info::operator<(const player_save_info& rhs) const
 
 string player_save_info::really_short_desc() const
 {
-    ostringstream desc;
-    desc << name << " the " << species_name << ' ' << class_name;
-
-    return desc.str();
+    return localise("%s the %s %s",
+                    LocalisationArg(name, false),
+                    species_name,
+                    class_name);
 }
 
 string player_save_info::short_desc(bool use_qualifier) const
@@ -6350,8 +6353,8 @@ string player::no_tele_reason(bool calc_unid, bool blinking) const
         if (worn_notele.size() > (problems.empty() ? 3 : 1))
         {
             problems.push_back(
-                make_stringf("wearing %s %s preventing teleportation",
-                             number_in_words(worn_notele.size()).c_str(),
+                make_stringf("wearing %d %s preventing teleportation",
+                             worn_notele.size(),
                              found_nonartefact ? "items": "artefacts"));
         }
         else if (!worn_notele.empty())
@@ -6552,7 +6555,7 @@ bool player::corrode_equipment(const char* corrosion_source, int degree)
     }
     // always increase duration, but...
     increase_duration(DUR_CORROSION, 10 + roll_dice(2, 4), 50,
-                      make_stringf("%s corrodes you!",
+                      localise("%s corrodes you!",
                                    corrosion_source).c_str());
 
     // the more corrosion you already have, the lower the odds of more
@@ -6591,9 +6594,16 @@ void player::splash_with_acid(const actor* evildoer, int acid_strength,
     const int dam = roll_dice(4, acid_strength);
     const int post_res_dam = resist_adjust_damage(&you, BEAM_ACID, dam);
 
-    mprf("You are splashed with acid%s%s",
-         post_res_dam > 0 ? "" : " but take no damage",
-         attack_strength_punctuation(post_res_dam).c_str());
+    if (post_res_dam > 0)
+    {
+        attack_strength_message("You are splashed with acid",
+                                post_res_dam, false);
+    }
+    else
+    {
+        mpr("You are splashed with acid but take no damage.");
+    }
+
     if (post_res_dam > 0)
     {
         if (post_res_dam < dam)
@@ -7349,9 +7359,9 @@ void player::set_gold(int amount)
             {
                 const int cost = get_gold_cost(power.abil);
                 if (gold >= cost && old_gold < cost)
-                    power.display(true, "You now have enough gold to %s.");
+                    power.display(true);
                 else if (old_gold >= cost && gold < cost)
-                    power.display(false, "You no longer have enough gold to %s.");
+                    power.display(false);
             }
             you.redraw_title = true;
         }
@@ -8031,20 +8041,6 @@ void player_close_door(coord_def doorpos)
     you.turn_is_over = true;
 }
 
-/**
- * Return a string describing the player's hand(s) taking a given verb.
- *
- * @param plural_verb    A plural-agreeing verb. ("Smoulders", "are", etc.)
- * @return               A string describing the action.
- *                       E.g. "tentacles smoulder", "paw is", etc.
- */
-string player::hands_verb(const string &plural_verb) const
-{
-    bool plural;
-    const string hand = hand_name(true, &plural);
-    return hand + " " + conjugate_verb(plural_verb, plural);
-}
-
 // Is this a character that would not normally have a preceding space when
 // it follows a word?
 static bool _is_end_punct(char c)
@@ -8070,11 +8066,19 @@ static bool _is_end_punct(char c)
  * @return              A string describing the player's hands taking the
  *                      given action. E.g. "Your tentacle gains new energy."
  */
-string player::hands_act(const string &plural_verb,
-                         const string &object) const
+string player::hand_act(const string &singular_msg,
+                        const string &plural_msg) const
 {
-    const bool space = !object.empty() && !_is_end_punct(object[0]);
-    return "Your " + hands_verb(plural_verb) + (space ? " " : "") + object;
+    bool plural;
+    string hand = "your " + hand_name(true, &plural); // noloc
+
+    string msg;
+    if (plural)
+        msg = localise(plural_msg, hand);
+    else
+        msg = localise(singular_msg, hand);
+
+    return uppercase_first(msg);
 }
 
 int player::inaccuracy() const

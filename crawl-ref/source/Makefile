@@ -84,10 +84,10 @@ MAKEFLAGS += -rR # This only works for recursive makes, i.e. contribs ...
 
 .PHONY: all test install clean clean-contrib clean-rltiles clean-android \
         clean-catch2 clean-plug-and-play-tests \
-		clean-coverage clean-coverage-full \
+		clean-coverage clean-coverage-full clean-i18n-tests \
         distclean debug debug-lite profile package-source source \
         build-windows package-windows-installer docs greet api api-dev android FORCE \
-        monster catch2-tests plug-and-play-tests
+        monster catch2-tests plug-and-play-tests i18n-tests
 
 include Makefile.obj
 
@@ -1186,6 +1186,7 @@ GENERATED_FILES := $(GENERATED_HEADERS) art-data.h mi-enum.h \
                    cmd-name.h species-data.h aptitudes.h species-groups.h
 
 LANGUAGES = $(filter-out en, $(notdir $(wildcard dat/descript/??)))
+LANGS = $(filter-out en, $(notdir $(wildcard dat/translate/??)))
 SRC_PKG_BASE  := stone_soup
 SRC_VERSION   := $(shell git describe --tags $(MERGE_BASE) 2>/dev/null || cat util/release_ver)
 MAJOR_VERSION = $(shell echo "$(SRC_VERSION)"|$(SED) -r 's/-.*//;s/^([^.]+\.[^.]+).*/\1/')
@@ -1453,6 +1454,9 @@ endif
 	for LANG in $(LANGUAGES); \
 		do mkdir -p $(datadir_fp)/dat/descript/$$LANG; \
 	done
+	for LANG in $(LANGS); \
+		do mkdir -p $(datadir_fp)/dat/translate/$$LANG; \
+	done
 	mkdir -p $(datadir_fp)/docs/develop
 	mkdir -p $(datadir_fp)/docs/develop/levels
 	mkdir -p $(datadir_fp)/docs/license
@@ -1471,6 +1475,9 @@ endif
 	$(COPY) dat/descript/*.txt $(datadir_fp)/dat/descript/
 	for LANG in $(LANGUAGES); \
 		do $(COPY) dat/descript/$$LANG/*.txt $(datadir_fp)/dat/descript/$$LANG; \
+	done
+	for LANG in $(LANGS); \
+		$(COPY) dat/translate/$$LANG/*.txt $(datadir_fp)/dat/translate/$$LANG; \
 	done
 	mkdir -p $(datadir_fp)/dat/dist_bones
 	$(COPY) dat/dist_bones/* $(datadir_fp)/dat/dist_bones/
@@ -1541,6 +1548,7 @@ clean: clean-rltiles clean-webserver clean-android clean-monster clean-catch2 \
             rltiles/tiledef-unrand.cc
 	$(RM) -r build-win
 	$(RM) -r build
+	$(RM) -r dat/locale
 
 clean-contrib:
 	+$(MAKE) -C contrib clean
@@ -1597,6 +1605,24 @@ plug-and-play-tests: $(CATCH2_PNP_OBJECTS) $(CONTRIB_LIBS) dat/dlua/tags.lua
 catch2-tests: catch2-tests-executable
 	./catch2-tests-executable
 
+de-item-test: test/i18n/de/item-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+de-misc-test: test/i18n/de/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+fr-misc-test: test/i18n/fr/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+ru-misc-test: test/i18n/ru/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+i18n-tests: $(GAME) de-item-test de-misc-test fr-misc-test ru-misc-test
+	./de-item-test
+	./de-misc-test
+	./fr-misc-test
+	./ru-misc-test
+
 clean-coverage-full: clean-coverage
 	find . -type f -name '*.gcno' -delete
 
@@ -1610,6 +1636,9 @@ clean-catch2:
 
 clean-plug-and-play-tests:
 	$(RM) plug-and-play-tests plug-and-play-tests.exe
+
+clean-i18n-tests:
+	$(RM) de-item-test de-misc-test fr-misc-test test/i18n/*/*.o
 
 debug: all
 debug-lite: all
@@ -1944,3 +1973,8 @@ util/fake_pty: util/fake_pty.c
 builddb: $(GAME)
 	./$(GAME) --builddb
 .PHONY: builddb
+
+#############################################################################
+# Translations
+#
+

@@ -79,4 +79,13 @@ bool stop_attack_prompt(targeter &hitfunc, const char* verb,
 class attack;
 int to_hit_pct(const monster_info& mi, attack &atk, bool melee);
 
-bool otr_stop_summoning_prompt(string verb = "summon");
+enum otr_stop_prompt
+{
+    OTR_STOP_SUMMON,
+    OTR_STOP_SUMMON_FOREST,
+    OTR_STOP_CALL_DRAGONS,
+    OTR_STOP_ENSLAVE
+};
+
+bool otr_stop_summoning_prompt(otr_stop_prompt prompt_id = OTR_STOP_SUMMON,
+                               const string& target = "");

@@ -6,6 +6,7 @@
 
 #include "cio.h"
 #include "describe.h"
+#include "localise.h"
 #include "macro.h"
 #include "output.h"
 #include "religion.h"
@@ -16,6 +17,7 @@
 #include "tile-inventory-flags.h"
 #include "tilepick.h"
 #include "tiles-build-specific.h"
+#include "unicode.h"
 
 MemoriseRegion::MemoriseRegion(const TileRegionInit &init) : SpellRegion(init)
 {
@@ -45,13 +47,15 @@ void MemoriseRegion::draw_tag()
 
     const spell_type spell = (spell_type) idx;
     const string failure = failure_rate_to_string(raw_spell_fail(spell));
-    string desc = make_stringf("%s    (%s)    %d/%d spell slot%s",
-                               spell_title(spell),
-                               failure.c_str(),
-                               spell_levels_required(spell),
-                               player_spell_levels(),
-                               spell_levels_required(spell) > 1 ? "s" : "");
-    draw_desc(desc.c_str());
+    string desc = localise("%s    (%s)    %d/",
+                           spell_title(spell),
+                           failure,
+                           spell_levels_required(spell));
+    if (player_spell_levels() == 1)
+        desc += localise("1 spell slot");
+    else
+        desc += localise("%d spell slots", player_spell_levels());
+    draw_desc(desc);
 }
 
 int MemoriseRegion::handle_mouse(wm_mouse_event &event)
@@ -83,12 +87,11 @@ int MemoriseRegion::handle_mouse(wm_mouse_event &event)
 
 bool MemoriseRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const char *prefix1 = active ? "" : "[L-Click] ";
-    const char *prefix2 = active ? "" : "          ";
+    const string prefix1 = active ? "" : localise("[L-Click]") + " ";
+    const string prefix2 = string(strwidth(prefix1), ' ');
 
-    tip = make_stringf("%s%s\n%s%s",
-                       prefix1, "Display spells in carried books",
-                       prefix2, "Memorise spells");
+    tip = prefix1 + localise("Display spells in carried books") + "\n";
+    tip += prefix2 + localise("Memorise spells");
 
     return true;
 }
@@ -105,14 +108,14 @@ bool MemoriseRegion::update_tip_text(string& tip)
     int flag = m_items[item_idx].flag;
     vector<command_type> cmd;
     if (flag & TILEI_FLAG_INVALID)
-        tip = "You cannot memorise this spell now.";
+        tip = localise("You cannot memorise this spell now.");
     else
     {
-        tip = "[L-Click] Memorise (%)";
+        tip = localise("%s %s (%%)", "[L-Click]", "Memorise");
         cmd.push_back(CMD_MEMORISE_SPELL);
     }
 
-    tip += "\n[R-Click] Describe";
+    tip += localise("\n%s %s", "[R-Click]", "Describe");
 
     insert_commands(tip, cmd);
     return true;

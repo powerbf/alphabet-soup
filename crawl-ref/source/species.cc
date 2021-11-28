@@ -87,12 +87,23 @@ string species_name(species_type speci, species_name_type spname_type)
 /** What walking-like thing does this species do?
  *
  *  @param sp what kind of species to look at
- *  @returns a "word" to which "-er" or "-ing" can be appended.
+ *  @returns movement verb (e.g. Walking, Sliding)
  */
 string species_walking_verb(species_type sp)
 {
     auto verb = get_species_def(sp).walking_verb;
-    return verb ? verb : "Walk";
+    return verb ? verb : "Walking";
+}
+
+/** What kind of "walker" is this species?
+ *
+ *  @param sp what kind of species to look at
+ *  @returns walker noun (e.g. Walker, Slider, etc.)
+ */
+string species_walker_noun(species_type sp)
+{
+    auto noun = get_species_def(sp).walker_noun;
+    return noun ? noun : "Walker";
 }
 
 /**
@@ -206,7 +217,7 @@ const vector<string>& fake_mutations(species_type species, bool terse)
 string species_prayer_action(species_type species)
 {
   auto action = get_species_def(species).altar_action;
-  return action ? action : "kneel at";
+  return action ? action : "You kneel at the altar of %s.";
 }
 
 const char* scale_type(species_type species)

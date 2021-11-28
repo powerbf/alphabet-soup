@@ -14,6 +14,7 @@
 #include "externs.h"
 #include "invent.h"
 #include "libutil.h"
+#include "localise.h"
 #include "menu.h"
 #include "mon-book.h"
 #include "mon-cast.h"
@@ -50,26 +51,6 @@ spellset item_spellset(const item_def &item)
 }
 
 /**
- * What's the appropriate descriptor for a given type of "spell" that's not
- * really a spell?
- *
- * @param type              The type of spell-ability; e.g. MON_SPELL_MAGICAL.
- * @return                  A descriptor of the spell type; e.g. "divine",
- *                          "magical", etc.
- */
-static string _ability_type_descriptor(mon_spell_slot_flag type)
-{
-    static const map<mon_spell_slot_flag, string> descriptors =
-    {
-        { MON_SPELL_NATURAL, "natural" },
-        { MON_SPELL_MAGICAL, "magical" },
-        { MON_SPELL_PRIEST,  "divine" },
-    };
-
-    return lookup(descriptors, type, "buggy");
-}
-
-/**
  * What type of effects is this spell type vulnerable to?
  *
  * @param type              The type of spell-ability; e.g. MON_SPELL_MAGICAL.
@@ -86,10 +67,14 @@ static string _ability_type_vulnerabilities(mon_spell_slot_flag type,
     const bool antimagicable
         = type == MON_SPELL_WIZARD || type == MON_SPELL_MAGICAL;
     ASSERT(silencable || antimagicable);
-    return make_stringf(", which are affected by%s%s%s",
-                        silencable ? " silence" : "",
-                        silencable && antimagicable ? " and" : "",
-                        antimagicable ? " antimagic" : "");
+    if (silencable && antimagicable)
+        return ", which are affected by silence and antimagic";
+    else if (silencable)
+        return ", which are affected by silence";
+    else if (antimagicable)
+        return ", which are affected by antimagic";
+    else
+        return "";
 }
 
 /**
@@ -101,13 +86,12 @@ static string _ability_type_vulnerabilities(mon_spell_slot_flag type,
  * @param pronoun The monster pronoun to use (should be derived from PRONOUN_OBJECTIVE).
  * @return        A string to include in the spellbook description.
  */
-static string _describe_spell_filtering(mon_spell_slot_flag type, const char* pronoun)
+static string _describe_spell_filtering(mon_spell_slot_flag type)
 {
-    const bool is_spell = type = MON_SPELL_WIZARD;
-    return make_stringf(" (judging by the %s you have seen %s %s)",
-                        is_spell ? "spells" : "abilities",
-                        pronoun,
-                        is_spell ? "cast" : "use");
+    if (type == MON_SPELL_WIZARD)
+        return (" (judging by the spells you have seen cast)");
+    else
+        return (" (judging by the abilities you have seen used)");
 }
 
 /**
@@ -127,31 +111,43 @@ static string _describe_spell_filtering(mon_spell_slot_flag type, const char* pr
  *                          "possesses the following natural abilities:"
  */
 static string _booktype_header(mon_spell_slot_flag type, size_t num_books,
-                               bool has_silencable, bool has_filtered,
-                               const char* pronoun, bool pronoun_plural)
+                               bool has_silencable, bool has_filtered)
 {
     const string vulnerabilities =
         _ability_type_vulnerabilities(type, has_silencable);
     const string spell_filter_desc =
-        has_filtered ? _describe_spell_filtering(type, pronoun) : "";
+        has_filtered ? _describe_spell_filtering(type) : "";
 
     if (type == MON_SPELL_WIZARD)
     {
-        return make_stringf("%s mastered %s%s%s:",
-                            conjugate_verb("have", pronoun_plural).c_str(),
-                            num_books > 1 ? "one of the following spellbooks"
-                                          : "the following spells",
-                            spell_filter_desc.c_str(),
-                            vulnerabilities.c_str());
+        if (num_books > 1)
+            return localise("Has mastered one of the following spellbooks%s%s:",
+                            spell_filter_desc, vulnerabilities);
+        else
+            return localise("Has mastered the following spells%s%s:",
+                            spell_filter_desc, vulnerabilities);
     }
 
-    const string descriptor = _ability_type_descriptor(type);
-
-    return make_stringf("%s the following %s abilities%s%s:",
-                        conjugate_verb("possess", pronoun_plural).c_str(),
-                        descriptor.c_str(),
-                        spell_filter_desc.c_str(),
-                        vulnerabilities.c_str());
+    if (type == MON_SPELL_NATURAL)
+    {
+        return localise("Possesses the following natural abilities%s%s:",
+                        spell_filter_desc, vulnerabilities);
+    }
+    else if (type == MON_SPELL_MAGICAL)
+    {
+        return localise("Possesses the following magical abilities%s%s:",
+                        spell_filter_desc, vulnerabilities);
+    }
+    else if (type == MON_SPELL_PRIEST)
+    {
+        return localise("Possesses the following divine abilities%s%s:",
+                        spell_filter_desc, vulnerabilities);
+    }
+    else
+    {
+        return localise("Possesses the following abilities%s%s:",
+                        spell_filter_desc, vulnerabilities);
+    }
 }
 
 static bool _spell_in_book(spell_type spell, const vector<mon_spell_slot> &book)
@@ -235,8 +231,6 @@ static void _monster_spellbooks(const monster_info &mi,
     if (num_books == 0)
         return;
 
-    const string set_name = type == MON_SPELL_WIZARD ? "Book" : "Set";
-
     // filter out books we know this monster can't cast (conflicting books)
     std::vector<size_t> valid_books;
     bool filtered_books = false;
@@ -264,16 +258,16 @@ static void _monster_spellbooks(const monster_info &mi,
         {
             output_book.label +=
                 "\n" +
-                uppercase_first(mi.pronoun(PRONOUN_SUBJECTIVE)) +
-                " " +
                 _booktype_header(type, valid_books.size(), has_silencable,
-                                 filtered_books, mi.pronoun(PRONOUN_OBJECTIVE),
-                                 mi.pronoun_plurality());
+                                 filtered_books);
         }
         else
         {
-            output_book.label += make_stringf("\n%s %d:",
-                                              set_name.c_str(), (int) i + 1);
+            output_book.label += "\n";
+            if (type == MON_SPELL_WIZARD)
+                output_book.label += localise("Book %d:", (int) i + 1);
+            else
+                output_book.label += localise("Set %d:", (int) i + 1);
         }
 
         // Does the monster have a spell that allows them to cast Abjuration?
@@ -417,7 +411,7 @@ static string _spell_schools(spell_type spell)
 
         if (!schools.empty())
             schools += "/";
-        schools += spelltype_long_name(school_flag);
+        schools += localise(spelltype_long_name(school_flag));
     }
 
     return schools;
@@ -482,8 +476,8 @@ static string _range_string(const spell_type &spell, const monster_info *mon_own
                     && crawl_state.need_save
                     && in_bounds(mon_owner->pos)
                     && grid_distance(you.pos(), mon_owner->pos) <= range;
-    const char *range_col = in_range ? "lightred" : "lightgray";
-    return make_stringf("(<%s>%d</%s>)", range_col, range, range_col);
+    const char *range_col = in_range ? "lightred" : "lightgray"; // noloc
+    return make_stringf("(<%s>%d</%s>)", range_col, range, range_col); // noloc
 }
 
 static dice_def _spell_damage(spell_type spell, int hd)
@@ -567,7 +561,7 @@ static string _effect_string(spell_type spell, const monster_info *mon_owner)
         }
         if (you.immune_to_hex(spell))
             return "(immune)";
-        return make_stringf("(%d%%)", hex_chance(spell, hd));
+        return make_stringf("(%d%%)", hex_chance(spell, hd)); // noloc
     }
 
     if (spell == SPELL_CHAIN_LIGHTNING)
@@ -610,8 +604,11 @@ static void _describe_book(const spellbook_contents &book,
     // only display header for book spells
     if (source_item)
     {
-        description.cprintf(
-            "\n Spells                           Type                      Level       Known");
+        string header = "\n " + chop_string(localise("Spell"), 33);
+        header += chop_string(localise("Type"), 20);
+        header += chop_string(localise("Level"), 11, true, true);
+        header += chop_string(localise("Known"), 12, true, true);
+        description.cprintf(header);
     }
     description.cprintf("\n");
 
@@ -654,6 +651,7 @@ static void _describe_book(const spellbook_contents &book,
             // looks nicer than Lehudib's Crystal S
             spell_name = "Crystal Spear";
         }
+        spell_name = localise(spell_name);
 
         description += formatted_string::parse_string(
                 make_stringf("%c - %s%s%s%s", spell_letter,
@@ -676,17 +674,19 @@ static void _describe_book(const spellbook_contents &book,
 
         string schools =
 #if TAG_MAJOR_VERSION == 34
-            source_item->base_type == OBJ_RODS ? "Evocations"
+            source_item->base_type == OBJ_RODS ? localise("Evocations")
                                                :
 #endif
                          _spell_schools(spell);
 
         string known = "";
         if (!mon_owner) {
-            known = you.spell_library[spell] ? "         yes" : "          no";
+            known = localise(you.spell_library[spell] ? "yes" : "no");
+            // right-justify in 12-character width field
+            known = chop_string(known, 12, true, true);
         }
 
-        description.cprintf("%s%d%s\n",
+        description.cprintf("%s%d%s\n", // noloc
                             chop_string(schools, 30).c_str(),
                             spell_difficulty(spell),
                             known.c_str());

@@ -7,6 +7,7 @@
 #include "god-abil.h" // ru sac key
 #include "god-item.h" // is_*_spell
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "monster.h"
 #include "mon-util.h"
@@ -71,15 +72,15 @@ god_conduct_trigger::~god_conduct_trigger()
 static const char *conducts[] =
 {
     "",
-    "Evil", "Holy", "Attack Holy", "Attack Neutral", "Attack Friend",
-    "Kill Living", "Kill Undead", "Kill Demon", "Kill Natural Evil",
-    "Kill Unclean", "Kill Chaotic", "Kill Wizard", "Kill Priest", "Kill Holy",
-    "Kill Fast", "Banishment", "Spell Memorise", "Spell Cast",
-    "Spell Practise", "Cannibalism", "Deliberate Mutation",
-    "Cause Glowing", "Use Unclean", "Use Chaos", "Desecrate Orcish Remains",
-    "Kill Slime", "Kill Plant", "Was Hasty", "Attack In Sanctuary",
-    "Kill Artificial", "Exploration", "Seen Monster",
-    "Sacrificed Love", "Channel", "Hurt Foe", "Use Wizardly Item",
+    "Evil", "Holy", "Attack Holy", "Attack Neutral", "Attack Friend", // noloc
+    "Kill Living", "Kill Undead", "Kill Demon", "Kill Natural Evil", // noloc
+    "Kill Unclean", "Kill Chaotic", "Kill Wizard", "Kill Priest", "Kill Holy", // noloc
+    "Kill Fast", "Banishment", "Spell Memorise", "Spell Cast", // noloc
+    "Spell Practise", "Cannibalism", "Deliberate Mutation", // noloc
+    "Cause Glowing", "Use Unclean", "Use Chaos", "Desecrate Orcish Remains", // noloc
+    "Kill Slime", "Kill Plant", "Was Hasty", "Attack In Sanctuary", // noloc
+    "Kill Artificial", "Exploration", "Seen Monster", // noloc
+    "Sacrificed Love", "Channel", "Hurt Foe", "Use Wizardly Item", // noloc
 };
 COMPILE_CHECK(ARRAYSZ(conducts) == NUM_CONDUCTS);
 
@@ -197,14 +198,14 @@ struct dislike_response
             static int last_glowing_lecture = -1;
             if (!level)
             {
-                simple_god_message(" is not enthusiastic about the "
+                simple_god_message("%s is not enthusiastic about the "
                                    "mutagenic glow surrounding you.");
             }
             else if (last_glowing_lecture != you.num_turns)
             {
                 last_glowing_lecture = you.num_turns;
                 // Increase contamination within yellow glow.
-                simple_god_message(" does not appreciate the extra "
+                simple_god_message("%s does not appreciate the extra "
                                    "mutagenic glow surrounding you!");
             }
         }
@@ -224,7 +225,7 @@ struct dislike_response
 /// Zin and Ely's responses to evil actions. TODO: parameterize & merge w/TSO
 static const dislike_response GOOD_EVIL_RESPONSE = {
     "you use evil magic or items", true,
-    1, 1, " forgives your inadvertent evil act, just this once."
+    1, 1, "%s forgives your inadvertent evil act, just this once."
 };
 
 /// Zin and Ely's responses to the player attacking holy creatures.
@@ -242,7 +243,7 @@ static const dislike_response GOOD_KILL_HOLY_RESPONSE = {
 /// TSO and Ely's response to the player attacking neutral monsters.
 static const dislike_response GOOD_ATTACK_NEUTRAL_RESPONSE = {
     "you attack neutral beings", true,
-    1, 1, " forgives your inadvertent attack on a neutral, just this once."
+    1, 1, "%s forgives your inadvertent attack on a neutral, just this once."
 };
 
 /// Various gods' response to attacking a pal.
@@ -251,7 +252,7 @@ static dislike_response _on_attack_friend(const char* desc)
     return
     {
         desc, true,
-        1, 3, " forgives your inadvertent attack on an ally, just this once.",
+        1, 3, "%s forgives your inadvertent attack on an ally, just this once.",
         nullptr, [] (const monster* victim) -> bool {
             dprf("hates friend : %d", god_hates_attacking_friend(you.religion, *victim));
             return god_hates_attacking_friend(you.religion, *victim);
@@ -275,7 +276,7 @@ static peeve_map divine_peeves[] =
         { DID_ATTACK_NEUTRAL, {
             "you attack neutral beings", false,
             1, 0,
-            " forgives your inadvertent attack on a neutral, just this once."
+            "%s forgives your inadvertent attack on a neutral, just this once."
         } },
         { DID_ATTACK_IN_SANCTUARY, {
             "you attack monsters in a sanctuary", false,
@@ -283,15 +284,15 @@ static peeve_map divine_peeves[] =
         } },
         { DID_UNCLEAN, {
             "you use unclean or chaotic magic or items", true,
-            1, 1, " forgives your inadvertent unclean act, just this once."
+            1, 1, "%s forgives your inadvertent unclean act, just this once."
         } },
         { DID_CHAOS, {
             "you polymorph monsters", true,
-            1, 1, " forgives your inadvertent chaotic act, just this once."
+            1, 1, "%s forgives your inadvertent chaotic act, just this once."
         } },
         { DID_DELIBERATE_MUTATING, {
             "you deliberately mutate or transform yourself", true,
-            1, 0, " forgives your inadvertent chaotic act, just this once."
+            1, 0, "%s forgives your inadvertent chaotic act, just this once."
         } },
         { DID_CAUSE_GLOWING, { nullptr, false, 1 } },
     },
@@ -304,7 +305,7 @@ static peeve_map divine_peeves[] =
         { DID_KILL_HOLY, GOOD_KILL_HOLY_RESPONSE },
         { DID_EVIL, {
             "you use evil magic or items", true,
-            1, 2, " forgives your inadvertent evil act, just this once."
+            1, 2, "%s forgives your inadvertent evil act, just this once."
         } },
         { DID_ATTACK_NEUTRAL, GOOD_ATTACK_NEUTRAL_RESPONSE },
         { DID_ATTACK_FRIEND, _on_attack_friend("you attack allies") },
@@ -315,7 +316,7 @@ static peeve_map divine_peeves[] =
     {
         { DID_HOLY, {
             "you use holy magic or items", true,
-            1, 2, " forgives your inadvertent holy act, just this once."
+            1, 2, "%s forgives your inadvertent holy act, just this once."
         } },
     },
     // GOD_XOM,
@@ -342,11 +343,11 @@ static peeve_map divine_peeves[] =
         } },
         { DID_SPELL_PRACTISE, {
             "you train magic skills", true,
-            1, 0, nullptr, " doesn't appreciate your training magic!"
+            1, 0, nullptr, "%s doesn't appreciate your training magic!"
         } },
         { DID_WIZARDLY_ITEM, {
             "you use magical staves or pain-branded weapons", true,
-            1, 0, nullptr, " doesn't appreciate your use of wizardly items!"
+            1, 0, nullptr, "%s doesn't appreciate your use of wizardly items!"
         } },
     },
     // GOD_NEMELEX_XOBEH,
@@ -361,7 +362,7 @@ static peeve_map divine_peeves[] =
         { DID_KILL_LIVING, {
             "you kill living things while asking for your life to be spared",
             true,
-            1, 2, nullptr, " does not appreciate your shedding blood"
+            1, 2, nullptr, "%s does not appreciate your shedding blood"
                             " when asking for salvation!",
             [] (const monster*) -> bool {
                 // Killing is only disapproved of during prayer.
@@ -405,8 +406,8 @@ static peeve_map divine_peeves[] =
     {
         { DID_HASTY, {
             "you hasten yourself or others", true,
-            1, 1, " forgives your accidental hurry, just this once.",
-            " thinks you should slow down.", nullptr, -5
+            1, 1, "%s forgives your accidental hurry, just this once.",
+            "%s thinks you should slow down.", nullptr, -5
         } },
     },
     // GOD_ASHENZARI,
@@ -443,6 +444,7 @@ string get_god_dislikes(god_type which_god)
         return "";
 
     string text;
+    string god = uppercase_first(god_name(which_god));
     vector<string> dislikes;        // Piety loss
     vector<string> really_dislikes; // Penance
 
@@ -474,24 +476,20 @@ string get_god_dislikes(god_type which_god)
 
     if (!dislikes.empty())
     {
-        text += uppercase_first(god_name(which_god));
-        text += " dislikes it when ";
-        text += comma_separated_line(dislikes.begin(), dislikes.end(),
-                                     " or ", ", ");
-        text += ".";
+        string likes_str = comma_separated_line(dislikes.begin(),
+                                                dislikes.end(), " or ", ", ");
+        text += localise("%s dislikes it when %s.", god, likes_str);
 
         if (!really_dislikes.empty())
-            text += " ";
+            text += localise(" ");
     }
 
     if (!really_dislikes.empty())
     {
-        text += uppercase_first(god_name(which_god));
-        text += " strongly dislikes it when ";
-        text += comma_separated_line(really_dislikes.begin(),
-                                     really_dislikes.end(),
-                                     " or ", ", ");
-        text += ".";
+        string likes_str = comma_separated_line(really_dislikes.begin(),
+                                                really_dislikes.end(),
+                                                " or ", ", ");
+        text += localise("%s strongly dislikes it when %s.", god, likes_str);
     }
 
     return text;
@@ -596,7 +594,7 @@ static like_response _on_kill(const char* desc, mon_holy_type holiness,
         _piety_bonus_for_holiness(holiness),
         18,
         god_is_good ? 0 : 2,
-        " accepts your kill.",
+        "%s accepts your kill.",
         special
     };
 }
@@ -642,7 +640,7 @@ static like_response okawaru_kill(const char* desc)
                      uppercase_first(god_name(you.religion)).c_str());
             }
             else if (piety > 9) // might still be miniscule
-                simple_god_message(" accepts your kill.");
+                simple_god_message("%s accepts your kill.");
         }
     };
 }
@@ -707,12 +705,12 @@ static like_map divine_likes[] =
                                      const monster* /*victim*/)
             {
                 piety *= 2;
-                simple_god_message(" appreciates your killing of a holy being.");
+                simple_god_message("%s appreciates your killing of a holy being.");
             },
             true
         ) },
         { DID_KILL_NONLIVING, {
-            "you destroy nonliving beings", true, 3, 18, 2, " accepts your kill."
+            "you destroy nonliving beings", true, 3, 18, 2, "%s accepts your kill."
         } },
     },
     // GOD_XOM,
@@ -758,7 +756,7 @@ static like_map divine_likes[] =
         { DID_KILL_NONLIVING, KILL_NONLIVING_RESPONSE },
         { DID_KILL_WIZARD, {
             "you kill wizards and other users of magic", true,
-            -6, 10, 0, " appreciates your killing of a magic user."
+            -6, 10, 0, "%s appreciates your killing of a magic user."
         } },
     },
     // GOD_NEMELEX_XOBEH,
@@ -786,7 +784,7 @@ static like_map divine_likes[] =
         { DID_KILL_NONLIVING, KILL_NONLIVING_RESPONSE },
         { DID_BANISH, {
             "you banish creatures to the Abyss", false,
-            -6, 18, 2, " claims a new guest."
+            -6, 18, 2, "%s claims a new guest."
         } },
     },
     // GOD_BEOGH,
@@ -798,7 +796,7 @@ static like_map divine_likes[] =
         { DID_KILL_NONLIVING, KILL_NONLIVING_RESPONSE },
         { DID_KILL_PRIEST, {
             "you kill the priests of other religions", true,
-            -6, 18, 0, " appreciates your killing of a heretic priest."
+            -6, 18, 0, "%s appreciates your killing of a heretic priest."
         } },
     },
     // GOD_JIYVA,
@@ -826,11 +824,11 @@ static like_map divine_likes[] =
 
                 if (speed_delta > 0 && x_chance_in_y(speed_delta, 12))
                 {
-                    simple_god_message(" thoroughly appreciates the change of pace.");
+                    simple_god_message("%s thoroughly appreciates the change of pace.");
                     piety *= 2;
                 }
                 else
-                    simple_god_message(" appreciates the change of pace.");
+                    simple_god_message("%s appreciates the change of pace.");
             }
         } }
     },
@@ -1034,7 +1032,8 @@ string get_god_likes(god_type which_god)
     if (which_god == GOD_NO_GOD || which_god == GOD_XOM)
         return "";
 
-    string text = uppercase_first(god_name(which_god));
+    string god = uppercase_first(god_name(which_god));
+    string text;
     vector<string> likes;
     vector<string> really_likes;
 
@@ -1071,27 +1070,27 @@ string get_god_likes(god_type which_god)
     }
 
     if (likes.empty() && really_likes.empty())
-        text += " doesn't like anything? This is a bug; please report it.";
+    {
+        text = localise("%s doesn't like anything? This is a bug; please report it.",
+                        god);
+    }
     else
     {
         if (!likes.empty())
         {
-            text += " likes it when ";
-            text += comma_separated_line(likes.begin(), likes.end());
-            text += ".";
-            if (!really_likes.empty())
-            {
-                text += " ";
-                text += uppercase_first(god_name(which_god));
-            }
+            string likes_str = comma_separated_line(likes.begin(), likes.end());
+            text = localise("%s likes it when %s.", god, likes_str);
         }
 
         if (!really_likes.empty())
         {
-            text += " especially likes it when ";
-            text += comma_separated_line(really_likes.begin(),
-                                         really_likes.end());
-            text += ".";
+            if (!text.empty())
+            {
+                text += localise(" ");
+            }
+            string likes_str = comma_separated_line(really_likes.begin(),
+                                                    really_likes.end());
+            text += localise("%s especially likes it when %s.", god, likes_str);
         }
     }
 

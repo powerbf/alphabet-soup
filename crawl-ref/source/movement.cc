@@ -85,7 +85,7 @@ static void _swap_places(monster* mons, const coord_def &loc)
     // Friendly foxfire dissipates instead of damaging the player.
     if (mons->type == MONS_FOXFIRE)
     {
-        simple_monster_message(*mons, " dissipates!",
+        simple_monster_message(*mons, "%s dissipates!",
                                MSGCH_MONSTER_DAMAGE, MDAM_DEAD);
         monster_die(*mons, KILL_DISMISSED, NON_MONSTER, true);
         return;
@@ -979,7 +979,7 @@ void move_player_action(coord_def move)
         else if (targ_monst->temp_attitude() == ATT_NEUTRAL && !you.confused()
                  && targ_monst->visible_to(&you))
         {
-            simple_monster_message(*targ_monst, " refuses to make way for you. "
+            simple_monster_message(*targ_monst, "%s refuses to make way for you. "
                               "(Use ctrl+direction or * direction to attack.)");
             you.turn_is_over = false;
             return;

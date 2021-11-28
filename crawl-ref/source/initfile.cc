@@ -46,6 +46,7 @@
 #include "jobs.h"
 #include "kills.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "mapdef.h"
 #include "message.h"
@@ -3733,6 +3734,7 @@ bool game_options::set_lang(const char *lc)
         {
             language = ldef.lang;
             lang_name = ldef.code;
+            init_localisation(ldef.code? ldef.code : "");
             return true;
         }
     }
@@ -4771,7 +4773,7 @@ bool parse_args(int argc, char **argv, bool rc_only)
 
 #ifndef DEBUG_STATISTICS
     const char *dbg_stat_err = "mapstat and objstat are available only in "
-                               "DEBUG_STATISTICS builds.\n";
+                               "DEBUG_STATISTICS builds.";
 #endif
 
     if (crawl_state.command_line_arguments.empty())
@@ -4937,7 +4939,7 @@ bool parse_args(int argc, char **argv, bool rc_only)
                 }
                 catch (const bad_level_id &err)
                 {
-                    end(1, false, "Error parsing depths: %s\n", err.what());
+                    end(1, false, "Error parsing depths: %s", err.what());
                 }
                 nextUsed = true;
             }

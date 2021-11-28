@@ -362,7 +362,7 @@ void xom_tick()
         }
 
         if (you.gift_timeout == 1)
-            simple_god_message(" is getting BORED.");
+            simple_god_message("%s is getting BORED.");
     }
 
     if (x_chance_in_y(2 + you.faith(), 6))
@@ -388,9 +388,9 @@ void xom_tick()
             if (interest > 0)
             {
                 if (interest < 25)
-                    simple_god_message(" is interested.");
+                    simple_god_message("%s is interested.");
                 else
-                    simple_god_message(" is intrigued.");
+                    simple_god_message("%s is intrigued.");
 
                 you.gift_timeout += interest;
                 //updating piety status line
@@ -658,7 +658,7 @@ static void _xom_make_item(object_class_type base, int subtype, int power)
     move_item_to_grid(&thing_created, you.pos());
 
     if (thing_created == NON_ITEM) // if it fell into lava
-        simple_god_message(" snickers.", GOD_XOM);
+        simple_god_message("%s snickers.", GOD_XOM);
 
     stop_running();
 }
@@ -994,9 +994,9 @@ static void _confuse_monster(monster* mons, int sever)
           &env.mons[ANON_FRIENDLY_MONSTER], random2(sever) * 10)))
     {
         if (was_confused)
-            simple_monster_message(*mons, " looks rather more confused.");
+            simple_monster_message(*mons, "%s looks rather more confused.");
         else
-            simple_monster_message(*mons, " looks rather confused.");
+            simple_monster_message(*mons, "%s looks rather confused.");
     }
 }
 
@@ -2708,7 +2708,7 @@ static void _xom_cleaving(int sever)
     else
     {
         mprf(MSGCH_DURATION, "%s",
-             you.hands_act("look", "sharp.").c_str());
+             you.hand_act("%s looks sharp.", "%s look sharp.").c_str());
     }
 
     take_note(Note(NOTE_XOM_EFFECT, you.piety, -1, "cleaving"), true);

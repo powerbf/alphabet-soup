@@ -542,7 +542,7 @@ static void _equip_weapon_effect(item_def& item, bool showMsgs, bool unmeld)
                     break;
 
                 case SPWPN_SPEED:
-                    mpr(you.hands_act("tingle", "!"));
+                    mpr(you.hand_act("%s tingles!", "%s tingle!"));
                     break;
 
                 case SPWPN_VAMPIRISM:
@@ -577,7 +577,7 @@ static void _equip_weapon_effect(item_def& item, bool showMsgs, bool unmeld)
 
                 case SPWPN_PENETRATION:
                 {
-                    // FIXME: make hands_act take a pre-verb adverb so we can
+                    // FIXME: make hand_act take a pre-verb adverb so we can
                     // use it here.
                     bool plural = true;
                     string hand = you.hand_name(true, &plural);
@@ -1133,7 +1133,7 @@ static void _remove_amulet_of_faith(item_def &item)
              && !you_worship(GOD_XOM)
              && !you_worship(GOD_GOZAG))
     {
-        simple_god_message(" seems less interested in you.");
+        simple_god_message("%s seems less interested in you.");
 
         const int piety_loss = div_rand_round(you.piety, 3);
         // Piety penalty for removing the Amulet of Faith.
@@ -1267,11 +1267,11 @@ static void _equip_jewellery_effect(item_def &item, bool unmeld,
             mpr("You feel a surge of self-confidence.");
         else if (you_worship(GOD_RU) && you.piety >= piety_breakpoint(5))
         {
-            simple_god_message(" says: An ascetic of your devotion"
+            simple_god_message("%s says: An ascetic of your devotion"
                                " has no use for such trinkets.");
         }
         else if (you_worship(GOD_GOZAG))
-            simple_god_message(" cares for nothing but gold!");
+            simple_god_message("%s cares for nothing but gold!");
         else
         {
             mprf(MSGCH_GOD, "You feel a %ssurge of divine interest.",
@@ -1485,9 +1485,16 @@ void unwield_distortion(bool brand)
 {
     if (have_passive(passive_t::safe_distortion))
     {
-        simple_god_message(make_stringf(" absorbs the residual spatial "
-                           "distortion as you %s your "
-                           "weapon.", brand ? "rebrand" : "unwield").c_str());
+        if (brand)
+        {
+            simple_god_message("%s absorbs the residual spatial distortion "
+                               "as you rebrand your weapon.");
+        }
+        else
+        {
+            simple_god_message("%s absorbs the residual spatial distortion "
+                               "as you unwield your weapon.");
+        }
         return;
     }
     // Makes no sense to discourage unwielding a temporarily

@@ -682,8 +682,7 @@ public:
     string pronoun(pronoun_type pro, bool force_visible = false) const override;
     string conj_verb(const string &verb) const override;
     string hand_name(bool plural, bool *can_plural = nullptr) const override;
-    string hands_verb(const string &plural_verb) const;
-    string hands_act(const string &plural_verb, const string &object) const;
+    string hand_act(const string &singular_msg, const string &plural_msg) const;
     string foot_name(bool plural, bool *can_plural = nullptr) const override;
     string arm_name(bool plural, bool *can_plural = nullptr) const override;
     string unarmed_attack_name() const;

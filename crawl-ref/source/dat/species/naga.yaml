@@ -50,5 +50,6 @@ recommended_jobs:
 create_enum: false
 # end TAG_MAJOR_VERSION
 
-walking_verb: Slid
-altar_action: coil in front of
+walking_verb: Sliding
+walker_noun: Slider
+altar_action: You coil in front of tha altar of %s.

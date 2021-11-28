@@ -63,7 +63,7 @@ static void _do_msg(actor& target, miscast_datum effect, int dam)
             msg = replace_all(msg, "'s body", "");
     }
 
-    mpr(msg + attack_strength_punctuation(dam));
+    attack_strength_message(msg, dam, true);
 }
 
 static void _ouch(actor& target, actor * source, miscast_source_info mc_info, int dam, beam_type flavour, string cause)
@@ -607,7 +607,7 @@ void miscast_effect(spell_type spell, int fail)
     {
         if (x_chance_in_y(you.piety, piety_breakpoint(5)))
         {
-            simple_god_message(" protects you from your miscast "
+            simple_god_message("%s protects you from your miscast "
                                "necromantic spell!");
             return;
         }

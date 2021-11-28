@@ -29,6 +29,7 @@
 #include "invent.h"
 #include "items.h"
 #include "level-state-type.h"
+#include "localise.h"
 #include "los.h"
 #include "losglobal.h"
 #include "macro.h"
@@ -396,7 +397,7 @@ static void _player_hurt_monster(monster &mon, int damage, beam_type flavour,
 
     if (god_conducts && you.deity() == GOD_FEDHAS && fedhas_neutralises(mon))
     {
-        simple_god_message(" protects your plant from harm.", GOD_FEDHAS);
+        simple_god_message("%s protects your plant from harm.", GOD_FEDHAS);
         return;
     }
 
@@ -577,7 +578,7 @@ static spret _cast_los_attack_spell(spell_type spell, int pow,
         case SPELL_OZOCUBUS_REFRIGERATION:
             player_msg = "The heat is drained from your surroundings.";
             global_msg = "Something drains the heat from around you.";
-            mons_vis_msg = " drains the heat from the surrounding"
+            mons_vis_msg = "%s drains the heat from the surrounding"
                            " environment!";
             mons_invis_msg = "The ambient heat is drained!";
             verb = "frozen";
@@ -593,7 +594,7 @@ static spret _cast_los_attack_spell(spell_type spell, int pow,
             player_msg = "You draw life from your surroundings.";
             global_msg = "Something draws the life force from your"
                          " surroundings.";
-            mons_vis_msg = " draws from the surrounding life force!";
+            mons_vis_msg = "%s draws from the surrounding life force!";
             mons_invis_msg = "The surrounding life force dissipates!";
             verb = "drained of life";
             prompt_verb = "drain life";
@@ -603,7 +604,7 @@ static spret _cast_los_attack_spell(spell_type spell, int pow,
         case SPELL_SONIC_WAVE:
             player_msg = "You send a blast of sound all around you.";
             global_msg = "Something sends a blast of sound all around you.";
-            mons_vis_msg = " sends a blast of sound all around you!";
+            mons_vis_msg = "%s sends a blast of sound all around you!";
             mons_invis_msg = "Sound blasts the surrounding area!";
             verb = "blasted";
             // prompt_verb = "sing" The singing sword prompts in melee-attack
@@ -796,8 +797,8 @@ spret vampiric_drain(int pow, monster* mons, bool fail)
 
     if (hp_gain && !you.duration[DUR_DEATHS_DOOR])
     {
-        mprf("You feel life coursing into your body%s",
-             attack_strength_punctuation(hp_gain).c_str());
+        attack_strength_message("You feel life coursing into your body",
+                                hp_gain, true);
         inc_hp(hp_gain);
     }
 
@@ -841,10 +842,13 @@ spret cast_freeze(int pow, monster* mons, bool fail)
 
     const int orig_hurted = freeze_damage(pow).roll();
     int hurted = mons_adjust_flavoured(mons, beam, orig_hurted);
-    mprf("You freeze %s%s%s",
-         mons->name(DESC_THE).c_str(),
-         hurted ? "" : " but do no damage",
-         attack_strength_punctuation(hurted).c_str());
+
+    string msg = localise("You freeze %s", mons->name(DESC_THE));
+    if (hurted)
+        msg = add_attack_strength_punct(msg, hurted, false);
+    else
+        msg += localise(" but do no damage.");
+    mpr_nolocalise(msg);
 
     _player_hurt_monster(*mons, hurted, beam.flavour, false);
 
@@ -899,11 +903,20 @@ spret cast_airstrike(int pow, const dist &beam, bool fail)
     hurted = mons->apply_ac(mons->beam_resists(pbeam, hurted, false));
     dprf("preac: %d, postac: %d", preac, hurted);
 
-    mprf("The air twists around and %sstrikes %s%s%s",
-         mons->airborne() ? "violently " : "",
-         mons->name(DESC_THE).c_str(),
-         hurted ? "" : " but does no damage",
-         attack_strength_punctuation(hurted).c_str());
+    string msg;
+    if (mons->airborne())
+        msg = "The air twists around and strikes %s";
+    else
+        msg = "The air twists around and violently strikes %s";
+    msg = localise(msg, mons->name(DESC_THE));
+
+    if (hurted)
+        msg = add_attack_strength_punct(msg, hurted, false);
+    else
+        msg += localise(" but do no damage.");
+
+    mpr_nolocalise(msg);
+
     _player_hurt_monster(*mons, hurted, pbeam.flavour);
 
     return spret::success;
@@ -1136,9 +1149,10 @@ static int _shatter_player(int pow, actor *wielder, bool devastator = false)
 
     if (damage > 0)
     {
-        mprf(damage > 15 ? "You shudder from the earth-shattering force%s"
-                        : "You shudder%s",
-             attack_strength_punctuation(damage).c_str());
+        string msg = damage > 15
+                     ? "You shudder from the earth-shattering force"
+                     : "You shudder";
+        attack_strength_message(msg, damage, true);
         if (devastator)
             ouch(damage, KILLED_BY_MONSTER, wielder->mid);
         else
@@ -1284,16 +1298,17 @@ static int _irradiate_cell(coord_def where, int pow, actor *agent)
     const dice_def dam_dice = irradiate_damage(pow);
     const int base_dam = dam_dice.roll();
     const int dam = mons->apply_ac(base_dam);
-    mprf("%s is blasted with magical radiation%s",
-         mons->name(DESC_THE).c_str(),
-         attack_strength_punctuation(dam).c_str());
+
+    string msg = localise("%s is blasted with magical radiation",
+                          mons->name(DESC_THE));
+    attack_strength_message(msg, dam, false);
 
     if (agent->deity() == GOD_FEDHAS && fedhas_protects(mons))
     {
-        simple_god_message(
-                    make_stringf(" protects %s plant from harm.",
-                        agent->is_player() ? "your" : "a").c_str(),
-                    GOD_FEDHAS);
+        simple_god_message(agent->is_player()
+                           ? "%s protects your plant from harm."
+                           : "%s protects a plant from harm.",
+                           GOD_FEDHAS);
         return 0;
     }
 
@@ -1340,7 +1355,7 @@ spret cast_irradiate(int powc, actor* who, bool fail)
     else
     {
         simple_monster_message(*who->as_monster(),
-                               " erupts in a fountain of uncontrolled magic!");
+                               "%s erupts in a fountain of uncontrolled magic!");
     }
 
     bolt beam;
@@ -1516,10 +1531,10 @@ static int _ignite_poison_monsters(coord_def where, int pow, actor *agent)
     {
         if (!tracer)
         {
-            simple_god_message(
-                        make_stringf(" protects %s plant from harm.",
-                            agent->is_player() ? "your" : "a").c_str(),
-                        GOD_FEDHAS);
+            simple_god_message(agent->is_player()
+                               ? "%s protects your plant from harm."
+                               : "%s protects a plant from harm.",
+                               GOD_FEDHAS);
         }
         return 0;
     }
@@ -1536,9 +1551,9 @@ static int _ignite_poison_monsters(coord_def where, int pow, actor *agent)
 
     if (you.see_cell(mon->pos()))
     {
-        mprf("%s seems to burn from within%s",
-             mon->name(DESC_THE).c_str(),
-             attack_strength_punctuation(damage).c_str());
+        string msg = localise("%s seems to burn from within",
+                              mon->name(DESC_THE));
+        attack_strength_message(msg, damage, false);
     }
 
     dprf("Dice: %dd%d; Damage: %d", dam_dice.num, dam_dice.size, damage);
@@ -1919,8 +1934,8 @@ static int _discharge_monsters(const coord_def &where, int pow,
         dprf("You: static discharge damage: %d", damage);
         damage = check_your_resists(damage, BEAM_ELECTRICITY,
                                     "static discharge");
-        mprf("You are struck by an arc of lightning%s",
-             attack_strength_punctuation(damage).c_str());
+        attack_strength_message("You are struck by an arc of lightning",
+                                damage, true);
         ouch(damage, KILLED_BY_BEAM, agent.mid, "by static electricity", true,
              agent.is_player() ? "you" : agent.name(DESC_A).c_str());
         if (damage > 0)
@@ -1932,10 +1947,10 @@ static int _discharge_monsters(const coord_def &where, int pow,
     else if (agent.deity() == GOD_FEDHAS
              && fedhas_protects(victim->as_monster()))
     {
-        simple_god_message(
-                    make_stringf(" protects %s plant from harm.",
-                        agent.is_player() ? "your" : "a").c_str(),
-                    GOD_FEDHAS);
+        simple_god_message(agent.is_player()
+                           ? "%s protects your plant from harm."
+                           : "%s protects a plant from harm.",
+                           GOD_FEDHAS);
         return 0;
     }
     else
@@ -1950,9 +1965,10 @@ static int _discharge_monsters(const coord_def &where, int pow,
         dprf("%s: static discharge damage: %d",
              mons->name(DESC_PLAIN, true).c_str(), damage);
         damage = mons_adjust_flavoured(mons, beam, damage);
-        mprf("%s is struck by an arc of lightning%s",
-                mons->name(DESC_THE).c_str(),
-                attack_strength_punctuation(damage).c_str());
+
+        string msg = localise("%s is struck by an arc of lightning",
+                              mons->name(DESC_THE));
+        attack_strength_message(msg, damage, false);
 
         if (agent.is_player())
             _player_hurt_monster(*mons, damage, beam.flavour, false);
@@ -2322,7 +2338,7 @@ spret cast_fragmentation(int pow, const actor *caster,
     else if (target == you.pos()) // You explode.
     {
         const int dam = beam.damage.roll();
-        mprf("You shatter%s", attack_strength_punctuation(dam).c_str());
+        attack_strength_message("You shatter", dam, true);
 
         ouch(dam, KILLED_BY_BEAM, caster->mid,
              "by Lee's Rapid Deconstruction", true,
@@ -2339,8 +2355,8 @@ spret cast_fragmentation(int pow, const actor *caster,
         const int dam = beam.damage.roll();
         if (you.see_cell(target))
         {
-            mprf("%s shatters%s", mon->name(DESC_THE).c_str(),
-                 attack_strength_punctuation(dam).c_str());
+            string msg = localise("%s shatters", mon->name(DESC_THE));
+            attack_strength_message(msg, dam, false);
         }
 
         if (caster->is_player())
@@ -2600,8 +2616,8 @@ void forest_damage(const actor *mon)
 
                 msg = replace_all(replace_all(msg,
                     "@foe@", foe->name(DESC_THE)),
-                    "@is@", foe->conj_verb("be"))
-                    + attack_strength_punctuation(dmg);
+                    "@is@", foe->conj_verb("be"));
+                msg = add_attack_strength_punct(msg, dmg, false);
                 if (you.see_cell(foe->pos()))
                     mpr(msg);
 
@@ -2690,7 +2706,7 @@ spret cast_dazzling_flash(int pow, bool fail, bool tracer)
     {
         monster* mons = monster_at(*ri);
         if (mons && dazzle_monster(mons, pow))
-            simple_monster_message(*mons, " is dazzled.");
+            simple_monster_message(*mons, "%s is dazzled.");
     }
 
     return spret::success;
@@ -2744,7 +2760,7 @@ spret cast_toxic_radiance(actor *agent, int pow, bool fail, bool mon_tracer)
     {
         monster* mon_agent = agent->as_monster();
         simple_monster_message(*mon_agent,
-                               " begins to radiate toxic energy.");
+                               "%s begins to radiate toxic energy.");
 
         mon_agent->add_ench(mon_enchant(ENCH_TOXIC_RADIANCE, 1, mon_agent,
                                         (4 + random2avg(pow/15, 2)) * BASELINE_DELAY));
@@ -2973,7 +2989,7 @@ spret cast_glaciate(actor *caster, int pow, coord_def aim, bool fail)
     beam.range             = 1;
     beam.hit               = AUTOMATIC_HIT;
     beam.source_id         = caster->mid;
-    beam.hit_verb          = "engulfs";
+    beam.hit_verb          = BHV_ENGULF;
     beam.origin_spell      = SPELL_GLACIATE;
     beam.set_agent(caster);
 #ifdef USE_TILE
@@ -3169,7 +3185,7 @@ static void _hailstorm_cell(coord_def where, int pow, actor *agent)
     beam.draw_delay = 10;
     beam.source     = where;
     beam.target     = where;
-    beam.hit_verb   = "pelts";
+    beam.hit_verb = BHV_PELT;
 
     monster *mons = monster_at(where);
     if (mons && mons->is_icy())
@@ -3356,15 +3372,15 @@ void actor_apply_toxic_bog(actor * act)
 
     if (player && final_damage > 0)
     {
-        mprf("You fester in the toxic bog%s",
-                attack_strength_punctuation(final_damage).c_str());
+        attack_strength_message("You fester in the toxic bog",
+                                final_damage, true);
     }
     else if (final_damage > 0)
     {
         behaviour_event(mons, ME_DISTURB, 0, act->pos());
-        mprf("%s festers in the toxic bog%s",
-                mons->name(DESC_THE).c_str(),
-                attack_strength_punctuation(final_damage).c_str());
+        string msg = localise("%s festers in the toxic bog",
+                              mons->name(DESC_THE));
+        attack_strength_message(msg, final_damage, false);
     }
 
     if (final_damage > 0 && resist > 0)

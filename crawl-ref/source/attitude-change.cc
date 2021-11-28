@@ -18,6 +18,7 @@
 #include "god-companions.h"
 #include "god-passive.h" // passive_t::convert_orcs
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "mon-behv.h"
 #include "mon-death.h"
@@ -178,11 +179,11 @@ bool yred_slaves_abandon_you()
     if (num_reclaim > 0)
     {
         if (num_reclaim == 1 && num_slaves > 1)
-            simple_god_message(" reclaims one of your granted undead slaves!");
+            simple_god_message("%s reclaims one of your granted undead slaves!");
         else if (num_reclaim == num_slaves)
-            simple_god_message(" reclaims your granted undead slaves!");
+            simple_god_message("%s reclaims your granted undead slaves!");
         else
-            simple_god_message(" reclaims some of your granted undead slaves!");
+            simple_god_message("%s reclaims some of your granted undead slaves!");
         return true;
     }
 
@@ -235,19 +236,19 @@ bool beogh_followers_abandon_you()
 
     if (reconvert) // Maybe all of them are invisible.
     {
-        simple_god_message("'s voice booms out, \"Who do you think you "
-                           "are?\"", GOD_BEOGH);
+        god_speaks(GOD_BEOGH, "Beogh's voice booms out, "
+                              "\"Who do you think you are?\"");
 
         ostream& chan = msg::streams(MSGCH_MONSTER_ENCHANT);
 
         if (num_reconvert > 0)
         {
             if (num_reconvert == 1 && num_followers > 1)
-                chan << "One of your followers decides to abandon you.";
+                chan << localise("One of your followers decides to abandon you.");
             else if (num_reconvert == num_followers)
-                chan << "Your followers decide to abandon you.";
+                chan << localise("Your followers decide to abandon you.");
             else
-                chan << "Some of your followers decide to abandon you.";
+                chan << localise("Some of your followers decide to abandon you.");
         }
 
         chan << endl;

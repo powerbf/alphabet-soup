@@ -25,6 +25,7 @@
 #include "hints.h"
 #include "item-prop.h"
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "notes.h"
 #include "output.h"
@@ -88,7 +89,7 @@ static const char *skill_titles[NUM_SKILLS][6] =
     {"Traps",          "Scout",         "Disarmer",        "Vigilant",        "Perceptive",     "Dungeon Master"},
 #endif
     // STR based fighters, for DEX/martial arts titles see below. Felids get their own category, too.
-    {"Unarmed Combat", "Ruffian",       "Grappler",        "Brawler",         "Wrestler",       "@Weight@weight Champion"},
+    {"Unarmed Combat", "Ruffian",       "Grappler",        "Brawler",         "Wrestler",       "@Weight@ Champion"},
 
     {"Spellcasting",   "Magician",      "Thaumaturge",     "Eclecticist",     "Sorcerer",       "Archmage"},
     {"Conjurations",   "Conjurer",      "Destroyer",       "Devastator",      "Ruinous",        "Annihilator"},
@@ -1619,17 +1620,17 @@ skill_type str_to_skill_safe(const string &skill)
 static string _stk_weight(species_type species)
 {
     if (species_size(species) == SIZE_LARGE)
-        return "Heavy";
+        return "Heavyweight";
     else if (species_size(species, PSIZE_BODY) == SIZE_LARGE)
-        return "Cruiser";
+        return "Cruiserweight";
     else if (species_size(species) == SIZE_SMALL || species == SP_TENGU)
-        return "Feather";
+        return "Featherweight";
     else if (species_size(species) == SIZE_LITTLE)
-        return "Fly";
+        return "Flyweight";
     else if (species_is_elven(species))
-        return "Light";
+        return "Lightweight";
     else
-        return "Middle";
+        return "Middleweight";
 }
 
 unsigned get_skill_rank(unsigned skill_lev)
@@ -1647,20 +1648,21 @@ unsigned get_skill_rank(unsigned skill_lev)
  *
  * @param best_skill    The skill used to determine the title.
  * @param skill_rank    The player's rank in the given skill.
+ * @param the           Include the word "the"?
  * @param species       The player's species.
  * @param dex_better    Whether the player's dexterity is higher than strength.
  * @param god           The god_type of the god the player follows.
  * @param piety         The player's piety with the given god.
  * @return              An appropriate and/or humorous title.
  */
-string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank,
+string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank, bool the,
                            species_type species, bool dex_better,
                            god_type god, int piety)
 {
 
     // paranoia
     if (is_invalid_skill(best_skill))
-        return "Adventurer";
+        return the ? "the Adventurer" : "Adventurer";
 
     // Increment rank by one to "skip" skill name in array {dlb}:
     ++skill_rank;
@@ -1710,7 +1712,7 @@ string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank,
                 break;
             }
             else if (god != GOD_NO_GOD)
-                result = god_title(god, species, piety);
+                return god_title(god, species, piety, the);
             break;
 
         case SK_BOWS:
@@ -1730,13 +1732,13 @@ string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank,
             if (species == SP_SPRIGGAN && skill_rank == 5)
                 result = "Petite Mort";
             else if (god == GOD_KIKUBAAQUDGHA)
-                result = god_title(god, species, piety);
+                return god_title(god, species, piety, the);
             break;
 
 #if TAG_MAJOR_VERSION == 34
         case SK_EVOCATIONS:
             if (god == GOD_PAKELLAS)
-                result = god_title(god, species, piety);
+                return god_title(god, species, piety, the);
             break;
 #endif
 
@@ -1747,6 +1749,14 @@ string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank,
             result = skill_titles[best_skill][skill_rank];
     }
 
+    if (the)
+    {
+        if (result == "Petite Mort")
+            result = "la Petite Mort";
+        else
+            result = "the " + result;
+    }
+
     const map<string, string> replacements =
     {
         { "Adj", species_name(species, SPNAME_ADJ) },
@@ -1754,11 +1764,11 @@ string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank,
         { "genus", lowercase_string(species_name(species, SPNAME_GENUS)) },
         { "Genus_Short", species == SP_DEMIGOD ? "God" :
                            species_name(species, SPNAME_GENUS) },
-        { "Walker", species_walking_verb(species) + "er" },
+        { "Walker", species_walker_noun(species) },
         { "Weight", _stk_weight(species) },
     };
 
-    return replace_keys(result, replacements);
+    return localise(result, replacements);
 }
 
 /** What is the player's current title.
@@ -1769,10 +1779,7 @@ string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank,
 string player_title(bool the)
 {
     const skill_type best = best_skill(SK_FIRST_SKILL, SK_LAST_SKILL);
-    const string title =
-            skill_title_by_rank(best, get_skill_rank(you.skills[best]));
-    const string article = !the ? "" : title == "Petite Mort" ? "La " : "the ";
-    return article + title;
+    return skill_title_by_rank(best, get_skill_rank(you.skills[best]), the);
 }
 
 skill_type best_skill(skill_type min_skill, skill_type max_skill,

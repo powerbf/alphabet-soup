@@ -521,8 +521,7 @@ LUAFN(moninf_get_is_caught)
 LUAFN(moninf_get_is_constricted)
 {
     MONINF(ls, 1, mi);
-    lua_pushboolean(ls, (mi->constrictor_name.find("constricted by") == 0)
-                     || (mi->constrictor_name.find("held by") == 0));
+    lua_pushboolean(ls, !mi->constrictor_name.empty());
     return 1;
 }
 
@@ -533,7 +532,10 @@ LUAFN(moninf_get_is_constricted)
 LUAFN(moninf_get_is_constricting)
 {
     MONINF(ls, 1, mi);
-    lua_pushboolean(ls, !mi->constricting_name.empty());
+    if (mi->constricting_name.empty() && mi->holding_name.empty())
+        lua_pushboolean(ls, false);
+    else
+        lua_pushboolean(ls, true);
     return 1;
 }
 
@@ -552,11 +554,11 @@ LUAFN(moninf_get_is_constricting_you)
 
     // yay the interface
     lua_pushboolean(ls, (find(mi->constricting_name.begin(),
-                              mi->constricting_name.end(), "constricting you")
+                              mi->constricting_name.end(), "you")
                          != mi->constricting_name.end())
-                     || (find(mi->constricting_name.begin(),
-                              mi->constricting_name.end(), "holding you")
-                         != mi->constricting_name.end()));
+                     || (find(mi->holding_name.begin(),
+                              mi->holding_name.end(), "you")
+                         != mi->holding_name.end()));
     return 1;
 }
 

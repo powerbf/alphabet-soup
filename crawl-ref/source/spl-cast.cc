@@ -35,6 +35,7 @@
 #include "item-prop.h"
 #include "item-use.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "menu.h"
 #include "message.h"
@@ -176,12 +177,12 @@ int list_spells(bool toggle_with_I, bool viewing, bool allow_preselect,
 
     ToggleableMenu spell_menu(MF_SINGLESELECT | MF_ANYPRINTABLE
             | MF_NO_WRAP_ROWS | MF_ALWAYS_SHOW_MORE | MF_ALLOW_FORMATTING);
-    string titlestring = make_stringf("%-25.25s", title.c_str());
+    string titlestring = localise("%-34.34s", title);
     {
         ToggleableMenuEntry* me =
             new ToggleableMenuEntry(
-                titlestring + "         Type                          Failure  Level",
-                titlestring + "         Power        Range    Noise         ",
+                titlestring + "Type                          Failure  Level",
+                titlestring + "Power        Range    Hunger  Noise         ",
                 MEL_TITLE);
         spell_menu.set_title(me, true, true);
     }
@@ -1874,7 +1875,7 @@ spret your_spells(spell_type spell, int powc, bool allow_fail,
                  && one_chance_in(20))
         {
             // And you thought you'd Necromutate your way out of penance...
-            simple_god_message(" does not allow the disloyal to dabble in "
+            simple_god_message("%s does not allow the disloyal to dabble in "
                                "death!", GOD_KIKUBAAQUDGHA);
 
             // The spell still goes through, but you get a miscast anyway.
@@ -1891,7 +1892,7 @@ spret your_spells(spell_type spell, int powc, bool allow_fail,
                  && one_chance_in(20))
         {
             // And you thought you'd Fire Storm your way out of penance...
-            simple_god_message(" does not allow the disloyal to dabble in "
+            simple_god_message("%s does not allow the disloyal to dabble in "
                                "destruction!", GOD_VEHUMET);
 
             // The spell still goes through, but you get a miscast anyway.
@@ -2727,7 +2728,7 @@ string spell_range_string(spell_type spell)
 string range_string(int range, int maxrange, char32_t caster_char)
 {
     if (range <= 0)
-        return "N/A";
+        return localise("N/A");
 
     return stringize_glyph(caster_char) + string(range - 1, '-')
            + string(">") + string(maxrange - range, '.');

@@ -29,6 +29,7 @@
 
 string god_prayer_reaction()
 {
+    // i18n: this is only used in chardump, so no need to localise
     string result = uppercase_first(god_name(you.religion));
     const int rank = god_favour_rank(you.religion);
     if (crawl_state.player_is_dead())
@@ -136,9 +137,13 @@ void try_god_conversion(god_type god)
     else
     {
         // Already worshipping this god - just print a message.
-        mprf(MSGCH_GOD, "You offer a %sprayer to %s.",
-             you.cannot_speak() ? "silent " : "",
-             god_name(god).c_str());
+        if (you.cannot_speak())
+        {
+            mprf(MSGCH_GOD, "You offer a silent prayer to %s.",
+                 god_name(god).c_str());
+        }
+        else
+            mprf(MSGCH_GOD, "You offer a prayer to %s.", god_name(god).c_str());
     }
 }
 
@@ -171,7 +176,7 @@ int zin_tithe(const item_def& item, int quant, bool converting)
         if (item.tithe_state == TS_NO_PIETY) // seen before worshipping Zin
         {
             tithe = 0;
-            simple_god_message(" ignores your late donation.");
+            simple_god_message("%s ignores your late donation.");
         }
         // A single scroll can give you more than D:1-18, Lair and Orc
         // together, limit the gains. You're still required to pay from
@@ -283,7 +288,7 @@ void jiyva_slurp_item_stack(const item_def& item, int quantity)
     }
 
     if (gain.piety_gain > PIETY_NONE)
-        simple_god_message(" appreciates your sacrifice.");
+        simple_god_message("%s appreciates your sacrifice.");
     if (gain.jiyva_bonus & jiyva_slurp_result::mp)
         canned_msg(MSG_GAIN_MAGIC);
     if (gain.jiyva_bonus & jiyva_slurp_result::hp)
