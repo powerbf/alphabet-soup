@@ -1359,16 +1359,29 @@ string localise(const vector<LocalisationArg>& args)
                 else if (*type == typeid(char*))
                 {
                     // arg is string
-                    if (arg.translate && !_skip_translation())
+                    if (!arg.translate || _skip_translation())
+                    {
+                        ss << make_stringf(fmt_spec.c_str(), arg.stringVal.c_str());
+                    }
+                    else if (!arg.stringVal.empty()
+                             && arg.stringVal.find_first_not_of("!") == string::npos)
+                    {
+                        // Special handling for attack strength exclamation marks:
+                        // Some languages (e.g. Spanish) may not simply append 
+                        // exclamation marks at the end, so we switch it around
+                        // and make the sentence the argument for a format string
+                        // containing the punctuation.
+                        string excl_fmt = cxlate(_context, "%s" + arg.stringVal);
+                        string sentence = ss.str();
+                        ss.str("");
+                        ss << make_stringf(excl_fmt.c_str(), sentence.c_str());
+                    }
+                    else
                     {
                         string argx = _localise_string(_context, arg);
                         ss << _format_utf8_string(fmt_spec, argx);
                         if (argx != arg.stringVal)
                             success = true;
-                    }
-                    else
-                    {
-                        ss << make_stringf(fmt_spec.c_str(), arg.stringVal.c_str());
                     }
                 }
                 else {

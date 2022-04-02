@@ -1658,13 +1658,17 @@ de-misc-test: test/i18n/de/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIB
 fr-misc-test: test/i18n/fr/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
 	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
 
+es-misc-test: test/i18n/es/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
 ru-misc-test: test/i18n/ru/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
 	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
 
-i18n-tests: $(GAME) de-item-test de-misc-test fr-misc-test ru-misc-test
+i18n-tests: $(GAME) de-item-test de-misc-test fr-misc-test ru-misc-test es-misc-test
 	./de-item-test
 	./de-misc-test
 	./fr-misc-test
+	./es-misc-test
 	./ru-misc-test
 
 clean-coverage-full: clean-coverage
