@@ -752,15 +752,32 @@ void actor::constriction_damage_defender(actor &defender, int duration)
     damage = timescale_damage(this, damage);
     DIAG_ONLY(const int timescale_dam = damage);
 
-    string but;
+    string exclamations;
+    bool does_damage = true;
     if (damage <= 0 && is_player()
         && you.can_see(defender))
     {
-        but = " but do no damage.";
+        does_damage = false;
     }
+    else
+        exclamations = attack_strength_punctuation(damage);
+
+#ifdef DEBUG_DIAGNOSTICS
+    string dbg_dmg = make_stringf(" for %d", damage);
+#else
+    string dbg_dmg = "";
+#endif
+
+    string target = defender.name(DESC_THE);
+
+    // to avoid having to type .c_str() a bazillion times
+    const char* ddmg = dbg_dmg.c_str();
+    const char* excl = exclamations.c_str();
+    const char* tgt = target.c_str();
 
     if (is_player() || you.can_see(*this))
     {
+        bool direct_player_attack = false;
         string attacker_desc;
         bool force_plural = false;
         if (vile_clutch)
@@ -774,56 +791,49 @@ void actor::constriction_damage_defender(actor &defender, int duration)
             force_plural = true;
         }
         else if (is_player())
-            attacker_desc = "You"; // noloc
+            direct_player_attack = true;
         else
             attacker_desc = name(DESC_THE);
 
-        string target = defender.name(DESC_THE);
+        // to avoid having to type .c_str() a bazillion times
+        const char* attkr = attacker_desc.c_str();
 
-        string msg;
-        if (attacker_desc == "You")
-            msg = localise("You constrict %s", target);
+        if (direct_player_attack)
+        {
+            if (does_damage)
+                mprf("You constrict %s%s%s", tgt, ddmg, excl);
+            else
+                mprf("You constrict %s but do no damage.", tgt);
+        }
         else if (defender.is_player())
+        {
             if (force_plural)
-                msg = localise("%s constrict you", attacker_desc);
+                mprf("%s constrict you%s%s", attkr, ddmg, excl);
             else
-                msg = localise("%s constricts you", attacker_desc);
+                mprf("%s constricts you%s%s", attkr, ddmg, excl);
+        }
         else
+        {
             if (force_plural)
-                msg = localise("%s constrict %s", attacker_desc, target);
+            {
+                if (does_damage)
+                    mprf("%s constrict %s%s%s", attkr, tgt, ddmg, excl);
+                else
+                    mprf("%s constrict %s but do no damage.", attkr, tgt);
+            }
             else
-                msg = localise("%s constricts %s", attacker_desc, target);
-
-#ifdef DEBUG_DIAGNOSTICS
-        msg += make_stringf(" for %d", damage);
-#endif
-
-        if (!but.empty())
-            msg += localise(but);
-        else
-            msg = add_attack_strength_punct(msg, damage, false);
-
-        mpr_nolocalise(msg);
+            {
+                if (does_damage)
+                    mprf("%s constricts %s%s%s", attkr, tgt, ddmg, excl);
+                else
+                    mprf("%s constricts %s but does no damage.", attkr, tgt);
+            }
+        }
     }
-    else if (you.can_see(defender) || defender.is_player())
-    {
-        string msg;
-        if (defender.is_player())
-            msg = localise("You are constricted");
-        else
-            msg = localise("%s is constricted", defender.name(DESC_THE));
-
-#ifdef DEBUG_DIAGNOSTICS
-        msg += make_stringf(" for %d", damage);
-#endif
-
-        if (!but.empty())
-            msg += localise(but);
-        else
-            msg = add_attack_strength_punct(msg, damage, false);
-
-        mpr_nolocalise(msg);
-    }
+    else if (defender.is_player())
+        mprf("You are constricted%s%s", ddmg, excl);
+    else if (you.can_see(defender))
+        mprf("%s is constricted%s%s", tgt, ddmg, excl);
 
     damage = defender.hurt(this, damage, BEAM_MISSILE, KILLED_BY_CONSTRICTION, "",
                            "", false);

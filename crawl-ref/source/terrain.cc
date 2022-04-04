@@ -2411,12 +2411,11 @@ void ice_wall_damage(monster &mons, int delay)
     int dam = mons_adjust_flavoured(&mons, beam, orig_dam);
 
     string mon_name = you.can_see(mons) ? mons.name(DESC_THE): "something";
-    string msg = localise("The wall freezes %s", mon_name);
+    string punct = attack_strength_punctuation(dam);
     if (dam > 0)
-        msg = add_attack_strength_punct(msg, dam, false);
+        mprf("The wall freezes %s%s", mon_name.c_str(), punct.c_str());
     else
-        msg += localise(" but does no damage.");
-    mpr_nolocalise(msg);
+        mprf("The wall freezes %s but does no damage.", mon_name.c_str());
 
     if (dam > 0)
     {

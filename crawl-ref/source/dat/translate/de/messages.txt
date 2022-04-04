@@ -736,32 +736,38 @@ Ihr verliert den Halt auf {dat}%s.
 %s loses hold of %s.
 %s verliert den Halt auf {dat}%s.
 %%%%
-" but do no damage."
-, fügt aber keinen Schaden zu.
-%%%%
 The grasping roots
-
+Die greifenden Wurzeln
 %%%%
-You constrict %s
-Ihr verengt {acc}%s
+You constrict %s%s%s
+Ihr schnürt {acc}%s ab%s%s
 %%%%
-%s constrict you
-
+You constrict %s but do no damage.
+Ihr schnürt {acc}%s ab, füge aber keinen Schaden zu.
 %%%%
-%s constricts you
-%s verengt Euch
+%s constrict you%s%s
+%s schnüren Euch ab%s%s
 %%%%
-%s constrict %s
-
+%s constricts you%s%s
+%s schnürt Euch ab%s%s
 %%%%
-%s constricts %s
-%s verengt {acc}%s
+%s constrict %s%s%s
+%s schnüren %s ab%s%s
 %%%%
-You are constricted
-
+%s constrict %s but do no damage.
+%s schnüren %s ab, fügen aber keinen Schaden zu.
 %%%%
-%s is constricted
-
+%s constricts %s%s%s
+%s schnürt %s ab%s%s
+%%%%
+%s constricts %s but does no damage.
+%s schnürt %s ab, fügt aber keinen Schaden zu.
+%%%%
+You are constricted%s%s
+Ihr werdet abgeschnürt%s%s
+%%%%
+%s is constricted%s%s
+%s wird abgeschnürt%s%s
 %%%%
 You are unaffected.
 Ihr seid nicht betroffen.
@@ -16115,6 +16121,9 @@ Ihr versucht {acc}%s anzugreifen, zuckst aber vor Angst zurück!
 You engulf %s in ooze!
 
 %%%%
+" but do no damage."
+, fügt aber keinen Schaden zu.
+%%%%
 quick blade "Gimble"
 
 %%%%
@@ -16618,6 +16627,12 @@ schlägt Euch mit dem Tentakel
 %%%%
 %s gores %s
 %s spießt {acc}%s auf
+%%%%
+%s constricts you
+
+%%%%
+%s constricts %s
+%s verengt {acc}%s
 %%%%
 %s tramples you
 %s trampelt Euch
@@ -30779,8 +30794,11 @@ fountain
 unknown terrain
 
 %%%%
-The wall freezes %s
-
+The wall freezes %s%s
+Die Wand friert %s ein%s
+%%%%
+The wall freezes %s but does no damage.
+Die Wand friert %s ein, fügt aber keinen Schaden zu.
 %%%%
 
 ##################
