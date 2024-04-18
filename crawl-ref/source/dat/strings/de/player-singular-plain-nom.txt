@@ -1,0 +1,496 @@
+###############################################################################
+#
+# Player - no article, nominative
+#
+###############################################################################
+
+##############################################
+# Player species
+##############################################
+%%%%
+Barachi
+Barachi
+%%%%
+Deep Dwarf
+Tiefenzwerg
+%%%%
+Deep Elf
+Tiefenelf
+%%%%
+Demigod
+Halbgott
+%%%%
+Demonspawn
+Dämonenbrut
+%%%%
+Djinni
+Dschinn
+%%%%
+Draconian
+Drakonier
+%%%%
+Felid
+Felid
+%%%%
+Formicid
+Formicid
+%%%%
+Gargoyle
+Gargoyle
+%%%%
+Ghoul
+Ghul
+%%%%
+Gnoll
+Gnoll
+%%%%
+Hill Orc
+Hügelork
+%%%%
+Human
+Mensch
+%%%%
+Kobold
+Kobold
+%%%%
+Merfolk
+Meervolk
+%%%%
+Minotaur
+Minotaur
+%%%%
+Mummy
+Mumie
+%%%%
+Naga
+Naga
+%%%%
+Octopode
+Oktopode
+%%%%
+Ogre
+Oger
+%%%%
+Palentonga
+Palentonga
+%%%%
+Spriggan
+Spriggan
+%%%%
+Tengu
+Tengu
+%%%%
+Troll
+Troll
+%%%%
+Vampire
+Vampir
+%%%%
+Vine Stalker
+Rebpirscher
+%%%%
+
+# obsolete (can still appear in highscores list, and maybe as ghosts)
+%%%%
+Halfling
+Halbling
+%%%%
+Centaur
+Zentaur
+%%%%
+Sludge Elf
+Schlammelf
+%%%%
+High Elf
+Hochelf
+%%%%
+Lava Orc
+Lava-Ork
+%%%%
+
+##############################################
+# Player species with adjective
+##############################################
+%%%%
+%sBarachi
+{adj-er}%sBarachi
+%%%%
+%sDeep Dwarf
+{adj-er}%sTiefenzwerg
+%%%%
+%sDeep Elf
+{adj-er}%sTiefenelf
+%%%%
+%sDemigod
+{adj-er}%sHalbgott
+%%%%
+%sDemonspawn
+{adj-e}%sDämonenbrut
+%%%%
+%sDjinni
+{adj-er}%sDschinn
+%%%%
+%sDraconian
+{adj-er}%sDrakonier
+%%%%
+%sFelid
+{adj-er}%sFelid
+%%%%
+%sFormicid
+{adj-er}%sFormicid
+%%%%
+%sGargoyle
+{adj-er}%sGargoyle
+%%%%
+%sGhoul
+{adj-er}%sGhul
+%%%%
+%sGnoll
+{adj-er}%sGnoll
+%%%%
+%sHill Orc
+{adj-er}%sHügelork
+%%%%
+%sHuman
+{adj-er}%sMensch
+%%%%
+%sKobold
+{adj-er}%sKobold
+%%%%
+%sMerfolk
+{adj-es}%sMeervolk
+%%%%
+%sMinotaur
+{adj-er}%sMinotaur
+%%%%
+%sMummy
+{adj-e}%sMumie
+%%%%
+%sNaga
+{adj-er}%sNaga
+%%%%
+%sOctopode
+{adj-er}%sOktopode
+%%%%
+%sOgre
+{adj-er}%sOger
+%%%%
+%sPalentonga
+{adj-er}%sPalentonga
+%%%%
+%sSpriggan
+{adj-er}%sSpriggan
+%%%%
+%sTengu
+{adj-er}%sTengu
+%%%%
+%sTroll
+{adj-er}%sTroll
+%%%%
+%sVampire
+{adj-er}%sVampir
+%%%%
+%sVine Stalker
+{adj-er}%sRebpirscher
+%%%%
+
+# obsolete (can you still get player ghosts of these species?)
+%%%%
+%sHalfling
+{adj-er}%sHalbling
+%%%%
+%sCentaur
+{adj-er}%sZentaur
+%%%%
+%sSludge Elf
+{adj-er}%sSchlammelf
+%%%%
+%sHigh Elf
+{adj-er}%sHochelf
+%%%%
+%sLava Orc
+{adj-er}%sLava-Ork
+%%%%
+
+##############################################
+# Draconian subspecies
+##############################################
+%%%%
+Mottled Draconian
+Fleckiger Drakonier
+%%%%
+Black Draconian
+Schwarzer Drakonier
+%%%%
+Green Draconian
+Grüner Drakonier
+%%%%
+Grey Draconian
+Grauer Drakonier
+%%%%
+Pale Draconian
+Heller Drakonier
+%%%%
+Purple Draconian
+Purpurner Drakonier
+%%%%
+Red Draconian
+Roter Drakonier
+%%%%
+White Draconian
+Weißer Drakonier
+%%%%
+Yellow Draconian
+Gelber Drakonier
+%%%%
+
+##############################################
+# Player genus
+# NOTE: If not listed then species is used
+##############################################
+%%%%
+# Barachi
+Frog
+Frosch
+%%%%
+# Deep Dwarf
+Dwarf
+Zwerg
+%%%%
+# Deep Elf
+Elf
+Elf
+%%%%
+# Demigod
+God
+Gott
+%%%%
+# Felid
+Cat
+Katze
+%%%%
+# Formicid
+Ant
+Ameise
+%%%%
+# Octopode
+Octopus
+Oktopus
+%%%%
+# Hill Orc
+Orc
+Ork
+%%%%
+
+##############################################
+# Player genus uncapitalised
+##############################################
+%%%%
+# Barachi
+frog
+Frosch
+%%%%
+# Deep Dwarf
+# duplicate of monster
+#the dwarf
+#der Zwerg
+%%%%
+# Deep Elf
+# duplicate of monster
+#the elf
+#der Elf
+%%%%
+# Demigod
+god
+Gott
+%%%%
+# Felid
+cat
+Katze
+%%%%
+# Formicid
+ant
+Ameise
+%%%%
+# Octopode
+octopus
+Oktopus
+%%%%
+# Hill Orc
+# duplicate of monster
+#the orc
+#der Ork
+%%%%
+
+##############################################
+# Player Backgrounds (aka Jobs)
+##############################################
+%%%%
+Fighter
+Kämpfer
+%%%%
+Gladiator
+Gladiator
+%%%%
+Monk
+Mönch
+%%%%
+Hunter
+Jäger
+%%%%
+Berserker
+Berserker
+%%%%
+Brigand
+Brigant
+%%%%
+Abyssal Knight
+Abgrundritter
+%%%%
+Chaos Knight
+Chaosritter
+%%%%
+Enchanter
+Verzauberer
+%%%%
+Transmuter
+Verwandler
+%%%%
+Arcane Marksman
+Arkaner Scharfschütze
+%%%%
+Warper
+Warper
+%%%%
+Hedge Wizard
+Heckenzauberer
+%%%%
+Conjurer
+Beschwörer
+%%%%
+Summoner
+Herbeirufer
+%%%%
+Necromancer
+Nekromant
+%%%%
+Fire Elementalist
+Feuermagier
+%%%%
+Ice Elementalist
+Eismagier
+%%%%
+Air Elementalist
+Luftmagier
+%%%%
+Earth Elementalist
+Erdmagier
+%%%%
+Venom Mage
+Giftmagier
+%%%%
+Artificer
+Artificer
+%%%%
+Delver
+Gräber
+%%%%
+Wanderer
+Wanderer
+%%%%
+
+# obsolete (but can still appear in highscores and maybe as ghosts)
+%%%%
+Assassin
+Assassine
+%%%%
+Skald
+Skalde
+%%%%
+
+##############################################
+# "<species> <background>"
+# Used for character selection menu
+##############################################
+%%%%
+%s Fighter
+%s Kämpfer
+%%%%
+%s Gladiator
+%s Gladiator
+%%%%
+%s Monk
+%s Mönch
+%%%%
+%s Hunter
+%s Jäger
+%%%%
+%s Berserker
+%s Berserker
+%%%%
+%s Brigand
+%s Brigant
+%%%%
+%s Abyssal Knight
+%s Abgrundritter
+%%%%
+%s Chaos Knight
+%s Chaosritter
+%%%%
+%s Enchanter
+%s Verzauberer
+%%%%
+%s Transmuter
+%s Verwandler
+%%%%
+%s Arcane Marksman
+%s Arkane Scharfschütze
+%%%%
+%s Warper
+%s Warper
+%%%%
+%s Hedge Wizard
+%s Heckenzauberer
+%%%%
+%s Conjurer
+%s Beschwörer
+%%%%
+%s Summoner
+%s Herbeirufer
+%%%%
+%s Necromancer
+%s Nekromant
+%%%%
+%s Fire Elementalist
+%s Feuermagier
+%%%%
+%s Ice Elementalist
+%s Eismagier
+%%%%
+%s Air Elementalist
+%s Luftmagier
+%%%%
+%s Earth Elementalist
+%s Erdmagier
+%%%%
+%s Venom Mage
+%s Giftmagier
+%%%%
+%s Artificer
+%s Artificer
+%%%%
+%s Delver
+%s Gräber
+%%%%
+%s Wanderer
+%s Wanderer
+%%%%
+
+# obsolete
+%%%%
+%s Assassin
+%s Assassine
+%%%%
+%s Skald
+%s Skalde
+%%%%

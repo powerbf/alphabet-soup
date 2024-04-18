@@ -1,0 +1,420 @@
+###############################################################################
+#
+# Item annotations
+#
+###############################################################################
+
+%%%%
+" (gone by now)"
+" (inzwischen weg)"
+%%%%
+" (skeletalised by now)"
+" (inzwischen skelettiert)"
+%%%%
+" (curse)"
+" (verflucht)"
+%%%%
+" (unknown)"
+" (unbekannt)"
+%%%%
+" (inert)"
+" (inert)"
+%%%%
+" (damnation)"
+" (Verdammnis)"
+%%%%
+" (the Realm of Zot)"
+" (im Reich von Zot)"
+%%%%
+god gift
+Gottesgeschenk
+%%%%
+Fragile
+Fragil
+%%%%
+
+# attribute +/-
+%%%%
+# strength
+Str
+Stä
+%%%%
+# dexterity
+Dex
+Ges
+%%%%
+# intelligence
+Int
+Int
+%%%%
+HP
+TP
+%%%%
+MP
+MP
+%%%%
+# armour class
+AC
+RK
+%%%%
+# evasion
+EV
+EV
+%%%%
+# shields
+SH
+SCH
+%%%%
+# stealth
+Stlth
+Heiml
+%%%%
+
+# resistances +/-
+%%%%
+# fire
+rF
+rF
+%%%%
+# cold
+rC
+rK
+%%%%
+# negative energy
+rN
+rN
+%%%%
+# poison
+rPois
+rGift
+%%%%
+# corrosion
+rCorr
+rKorr
+%%%%
+# will (magic resistance)
+Will
+Wille
+%%%%
+# clarity (immunity to confusion, etc.)
+Clar
+Klar
+%%%%
+# torment
+rTorment
+rQual
+%%%%
+# mutation
+rMut
+rMut
+%%%%
+rMiasma
+rMiasma
+%%%%
+
+# benefits
+%%%%
+# wizardry (reduces spell failure rate)
+Wiz
+Zaub
+%%%%
+# blink ability
++Blink
++Blinzeln
+%%%%
+# invisibility ability
++Inv
++Uns
+%%%%
+# see invisible
+SInv
+UnsS
+%%%%
+# alternative abbreviation for see invisible
+sInv
+UnsS
+%%%%
+# regeneration
+Regen
+Regen
+%%%%
+# Extra move when moving towards enemy
+Rampage
+Randale
+%%%%
+Acrobat
+Akrobat
+%%%%
+# random rat summoning
+*Rats
+*Ratten
+%%%%
+# berserk ability
++Rage
++Wut
+%%%%
+
+# disadvantages
+%%%%
+# random involuntary berserking
+*Rage
+*Wut
+%%%%
+# no casting spells
+-Cast
+-Zauber
+%%%%
+# random noise
+*Noise
+*Lärm
+%%%%
+# random corrosion
+*Corrode
+*Korrod
+%%%%
+# random slowing
+*Slow
+*Träg
+%%%%
+# random teleport
+*Tele
+*Tele
+%%%%
+
+# weapon brands
+%%%%
+flame
+Flamme
+%%%%
+freeze
+Frieren
+%%%%
+holy
+heilig
+%%%%
+elec
+elek
+%%%%
+venom
+Gift
+%%%%
+protect
+Schutz
+%%%%
+drain
+entleer
+%%%%
+speed
+Geschw
+%%%%
+vorpal
+Vorpal
+%%%%
+vamp
+vamp
+%%%%
+pain
+Schmerz
+%%%%
+antimagic
+antimagie
+%%%%
+distort
+Verzerr
+%%%%
+chaos
+Chaos
+%%%%
+penet
+penet
+%%%%
+reap
+ernten
+%%%%
+# spectral
+spect
+geist
+%%%%
+acid
+Säure
+%%%%
+# accuracy
+Acc
+Genau
+%%%%
+
+# missile brands
+%%%%
+poison
+Gift
+%%%%
+curare
+Kurare
+%%%%
+datura
+Datura
+%%%%
+atropa
+Atropa
+%%%%
+silver
+Silber
+%%%%
+disperse
+streuen
+%%%%
+# dragon/draconian slaying (Wyrmbane)
+slay drac
+Drak töten
+%%%%
+
+# armour egos
+%%%%
+ponderous
+schwerfällig
+%%%%
+Fly
+fliegen
+%%%%
+Archmagi
+Erzmagier
+%%%%
+reflect
+Reflex
+%%%%
+Spirit
+Geist
+%%%%
+archery
+Schieß
+%%%%
+repulsion
+Abstoßung
+%%%%
+harm
+Schaden
+%%%%
+shadows
+Schatten
+%%%%
+
+#################################
+# Item slots
+#################################
+%%%%
+" (melded)"
+" (verschmelzt)"
+%%%%
+" (weapon)"
+" (Waffe)"
+%%%%
+" (worn)"
+" (angehabt)"
+%%%%
+# yes, this is supposed to have leading AND trailing space
+" (carried) "
+" (im Gepäck) "
+%%%%
+" (quivered)"
+" (im Köcher)"
+%%%%
+" (quivered ammo)"
+" (Munition im Köcher)"
+%%%%
+Item in an invalid slot
+Gegenstand in falscher Position
+%%%%
+
+# holding something that isn't a weapon
+%%%%
+" (in hand)"
+" (in der Hand)"
+%%%%
+" (in claw)"
+" (in der Kralle)"
+%%%%
+" (in tentacle)"
+" (im Tentakel)"
+%%%%
+# ...and can't grasp things
+# (I don't think it's actually possible to hold something in this situation, but the eventuality is handled in the code)
+" (in mouth)"
+" (im Mund)"
+%%%%
+
+# amulet slots
+%%%%
+" (around neck)"
+" (um den Hals)"
+%%%%
+# octopodes have a mantle rather than a neck
+" (around mantle)"
+" (um den Mantel)"
+%%%%
+
+# ring slots
+%%%%
+" (left hand)"
+" (linke Hand)"
+%%%%
+" (right hand)"
+" (rechte Hand)"
+%%%%
+" (left paw)"
+" (linke Pfote)"
+%%%%
+" (right paw)"
+" (rechte Pfote)"
+%%%%
+" (left claw)"
+" (linke Kralle)"
+%%%%
+" (right claw)"
+" (rechte Kralle)"
+%%%%
+" (left tentacle)"
+" (linker Tentakel)"
+%%%%
+" (right tentacle)"
+" (rechter Tentakel)"
+%%%%
+# octopode rings after the first two
+" (on tentacle)"
+" (am Tentakel)"
+%%%%
+# the macabre finger amulet can wear a ring
+" (on amulet)"
+" (am Amulett)"
+%%%%
+# tree form
+" (left branch)"
+" (linker Zweig)"
+%%%%
+" (right branch)"
+" (rechter Zweig)"
+%%%%
+# spider form
+" (left front leg)"
+" (linkes Vorderbein)"
+%%%%
+" (right front leg)"
+" (rechtes Vorderbein)"
+%%%%
+# blade hands
+" (left blade hand)"
+" (linke Klingenhand)"
+%%%%
+" (right blade hand)"
+" (rechte Klingenhand)"
+%%%%
+
+#################################
+# Other Locations
+#################################
+%%%%
+" (under bush)"
+" (unter Busch)"
+%%%%
+" (under plant)"
+" (unter Pflanze)"
+%%%%

@@ -1,0 +1,30 @@
+###############################################################################
+#
+# Monsters - unique, genitive (exceptions not handled by grammar.txt)
+#
+###############################################################################
+
+%%%%
+{gen}Prince Ribbit
+Prinzen Ribbits
+%%%%
+{gen}Crazy Yiuf
+Verrückten Yiufs
+%%%%
+{gen}Blork the orc
+Blorks des Orks
+%%%%
+
+# not really uniques, but grammatically similar
+
+%%%%
+# unseen monster
+{gen}something
+des Etwas
+%%%%
+{gen}%s's ghost
+%ss Geistes
+%%%%
+{gen}%s's illusion
+%ss Illusions
+%%%%

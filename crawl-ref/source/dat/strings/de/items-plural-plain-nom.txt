@@ -1,0 +1,248 @@
+###############################################################################
+#
+# Items - plural, plain, nominative
+#
+# Note that %s is a placeholder for any adjectives
+#
+###############################################################################
+
+#################################
+# Weapon Types
+#################################
+
+# these are used in monster pane in console version
+
+%%%%
+polearms
+{pl}Stangenwaffen
+%%%%
+launchers
+{pl}Werfer
+%%%%
+missiles
+{pl}Geschosse
+%%%%
+
+#################################
+# Melee Weapons
+#################################
+
+#################################
+# Launchers
+#################################
+
+#################################
+# Missiles
+#################################
+
+%%%%
+arrows
+{pl}Pfeile
+%%%%
+bolts
+{pl}Bolzen
+%%%%
+darts
+{pl}Wurfpfeile
+%%%%
+poisoned darts
+{pl}vergiftete Wurfpfeile
+%%%%
+curare-tipped darts
+{pl}Kurare-Wurfpfeile
+%%%%
+atropa-tipped darts
+{pl}Atropa-Wurfpfeile
+%%%%
+datura-tipped darts
+{pl}Datura-Wurfpfeile
+%%%%
+stones
+{pl}Steine
+%%%%
+large rocks
+{pl}Felsblöcke
+%%%%
+sling bullets
+{pl}Schleuderkugeln
+%%%%
+javelins
+{pl}Wurfspeere
+%%%%
+silver javelins
+{pl}Silberwurfspeere
+%%%%
+throwing nets
+{pl}Wurfnetze
+%%%%
+boomerangs
+{pl}Bumerangs
+%%%%
+silver boomerangs
+{pl}Silberbumerangs
+%%%%
+
+#################################
+# Armour
+#################################
+
+#################################
+# Rings
+#################################
+
+#################################
+# Amulets
+#################################
+
+#################################
+# Wands
+#################################
+
+#################################
+# Scrolls
+#################################
+
+%%%%
+scrolls labelled %s
+Schriftrollen beschriftet mit %s
+%%%%
+scrolls of acquirement
+Schriftrollen des Erwerbs
+%%%%
+scrolls of amnesia
+Schriftrollen der Amnesie
+%%%%
+scrolls of blinking
+Schriftrollen des Blinzelns
+%%%%
+scrolls of brand weapon
+Schriftrollen der Waffenmark
+%%%%
+scrolls of enchant armour
+Schriftrollen der Rüstungsverzauberung
+%%%%
+scrolls of enchant weapon
+Schriftrollen der Waffenverzauberung
+%%%%
+scrolls of fear
+Schriftrollen der Angst
+%%%%
+scrolls of fog
+Schriftrollen des Nebels
+%%%%
+scrolls of holy word
+Schriftrollen des heiligen Wortes
+%%%%
+scrolls of identify
+Schriftrollen der Identifizierung
+%%%%
+scrolls of immolation
+Schriftrollen der Verbrennung
+%%%%
+scrolls of magic mapping
+Schriftrollen des magischen Kartierens
+%%%%
+scrolls of noise
+Schriftrollen des Lärms
+%%%%
+scrolls of remove curse
+Schriftrollen des Segnens
+%%%%
+scrolls of silence
+Schriftrollen der Stille
+%%%%
+scrolls of summoning
+Schriftrollen des Herbeirufs
+%%%%
+scrolls of teleportation
+Schriftrollen der Teleportation
+%%%%
+scrolls of torment
+Schriftrollen der Qual
+%%%%
+scrolls of vulnerability
+Schriftrollen der Vulnerabilität
+%%%%
+scrolls of removedness
+Schriftrollen der Obsoleszenz
+%%%%
+
+#################################
+# Potions
+#################################
+
+%%%%
+potions of ambrosia
+{pl}Tränke der Ambrosia
+%%%%
+potions of attraction
+{pl}Tränke der Anziehung
+%%%%
+potions of berserk rage
+{pl}Tränke der Berserker-Wut
+%%%%
+potions of brilliance
+{pl}Tränke der Brillanz
+%%%%
+potions of cancellation
+{pl}Tränke der Aufhebung
+%%%%
+potions of curing
+{pl}Tränke des Gegenmittels
+%%%%
+potions of degeneration
+{pl}Tränke der Degeneration
+%%%%
+potions of experience
+{pl}Tränke der Erfahrung
+%%%%
+potions of flight
+{pl}Tränke des Fliegens
+%%%%
+potions of haste
+{pl}Tränke der Geschwindigkeit
+%%%%
+potions of heal wounds
+{pl}Heiltränke
+%%%%
+potions of invisibility
+{pl}Tränke der Unsichtbarkeit
+%%%%
+potions of lignification
+{pl}Tränke der Verholzung
+%%%%
+potions of magic
+{pl}Tränke der Magie
+%%%%
+potions of might
+{pl}Tränke der Macht
+%%%%
+potions of mutation
+{pl}Tränke der Mutation
+%%%%
+potions of resistance
+{pl}Tränke des Widerstands
+%%%%
+
+# unidentified potions are named "<colour> <potion>"
+# or "<qualifier> <colour> potion"
+%%%%
+%spotions
+{pl}{adj-e}%sZaubertränke
+%%%%
+
+#################################
+# Magical Staves
+#################################
+
+#################################
+# Spellbooks
+#################################
+
+#################################
+# Corpses
+#################################
+
+#################################
+# Miscellaneous Items
+#################################

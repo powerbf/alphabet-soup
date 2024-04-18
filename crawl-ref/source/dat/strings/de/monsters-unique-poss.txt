@@ -1,0 +1,258 @@
+###############################################################################
+#
+# Monsters - unique, genitive (translating English possessive)
+#
+###############################################################################
+
+%%%%
+Mennas's
+Mennas'
+%%%%
+Nessos's
+Nessos'
+%%%%
+Chuck's
+Chucks
+%%%%
+Polyphemus's
+Polyphems
+%%%%
+Antaeus's
+Antaeus'
+%%%%
+Tiamat's
+Tiamats
+%%%%
+Bai Suzhen's
+Bai Suzhens
+%%%%
+Xtahua's
+Xtahuas
+%%%%
+Ijyb's
+Ijybs
+%%%%
+Robin's
+Robins
+%%%%
+Grum's
+Grums
+%%%%
+Duvessa's
+Duvessas
+%%%%
+Dowan's
+Dowans
+%%%%
+Fannar's
+Fannars
+%%%%
+Jorgrun's
+Jorgruns
+%%%%
+Natasha's
+Nataschas
+%%%%
+Arachne's
+Arachnes
+%%%%
+Asterion's
+Asterions
+%%%%
+Agnes's
+Agnes'
+%%%%
+Dissolution's
+Dissolutions
+%%%%
+Sonja's
+Sonjas
+%%%%
+Pikel's
+Pikels
+%%%%
+Boris's
+Boris'
+%%%%
+Menkaure's
+Menkaures
+%%%%
+Khufu's
+Khufus
+%%%%
+Ilsuiw's
+Ilsuiws
+%%%%
+Vashnia's
+Vashnias
+%%%%
+Erolcha's
+Erolchas
+%%%%
+Urug's
+Urugs
+%%%%
+Nergalle's
+Nergalles
+%%%%
+Saint Roka's
+Sankt Rokas
+%%%%
+Sojobo's
+Sojobos
+%%%%
+Azrael's
+Azraels
+%%%%
+Mara's
+Maras
+%%%%
+Aizul's
+Aizuls
+%%%%
+Snorg's
+Snorgs
+%%%%
+Purgy's
+Purgys
+%%%%
+Jory's
+Jorys
+%%%%
+Gastronok's
+Gastronoks
+%%%%
+Nellie's
+Nellies
+%%%%
+Murray's
+Murrays
+%%%%
+Ignacio's
+Ignacios
+%%%%
+Grinder's
+Grinders
+%%%%
+Roxanne's
+Roxannes
+%%%%
+Terence's
+Terences
+%%%%
+Jessica's
+Jessicas
+%%%%
+Sigmund's
+Sigmunds
+%%%%
+Edmund's
+Edmunds
+%%%%
+Psyche's
+Psyches
+%%%%
+Donald's
+Donalds
+%%%%
+Joseph's
+Josephs
+%%%%
+Erica's
+Ericas
+%%%%
+Josephine's
+Josephines
+%%%%
+Harold's
+Harolds
+%%%%
+Louise's
+Louises
+%%%%
+Frances's
+Frances'
+%%%%
+Rupert's
+Ruperts
+%%%%
+Kirke's
+Kirkes
+%%%%
+Frederick's
+Fredericks
+%%%%
+Margery's
+Margerys
+%%%%
+Maggie's
+Maggies
+%%%%
+Eustachio's
+Eustachios
+%%%%
+Maurice's
+Maurices
+%%%%
+Nikola's
+Nikolas
+%%%%
+Mnoleg's
+Mnolegs
+%%%%
+Lom Lobon's
+Lom Lobons
+%%%%
+Cerebov's
+Cerebovs
+%%%%
+Gloorx Vloq's
+Gloorx Vloqs
+%%%%
+Geryon's
+Geryons
+%%%%
+Dispater's
+Dispaters
+%%%%
+Asmodeus's
+Asmodäus'
+%%%%
+Ereshkigal's
+Ereshkigals
+%%%%
+Prince Ribbit's
+Prinzen Ribbits
+%%%%
+Crazy Yiuf's
+Verrückten Yiufs
+%%%%
+the Enchantress's
+der Hexenmeisterin
+%%%%
+Blork the orc's
+Blork des Orks
+%%%%
+Blork's
+Blorks
+%%%%
+the Royal Jelly's
+des Gelée Royale
+%%%%
+the Serpent of Hell's
+der Höllenschlange
+%%%%
+the %sLernaean hydra's
+der {adj-en}%sLernäischen Hydra
+%%%%
+
+# not really uniques, but gramatically similar
+
+%%%%
+# unseen monster
+something's
+des Etwas
+%%%%
+%s's ghost's
+%ss Geistes
+%%%%
