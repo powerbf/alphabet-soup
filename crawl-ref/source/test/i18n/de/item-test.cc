@@ -345,10 +345,7 @@ static void test(const string& context, const string& item, const string& expect
     if (context == "" || context == "nom")
         actual = localise(item);
     else
-    {
-        string fmt = "{" + context + "}%s";
-        actual = localise(fmt, item);
-    }
+        actual = localise_contextual(context, item);
 
     string status;
     if (actual == expect)
