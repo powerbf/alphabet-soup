@@ -19,6 +19,7 @@
 #include "end.h"
 #include "files.h"
 #include "libutil.h"
+#include "localise.h"
 #include "options.h"
 #include "random.h"
 #include "stringutil.h"
@@ -32,7 +33,7 @@ class TextDB
 public:
     // db_name is the savedir-relative name of the db file,
     // minus the "db" extension.
-    TextDB(const char* db_name, const char* dir, vector<string> files);
+    TextDB(const char* db_name, const char* dir, vector<string> files, bool canonicalise_key = true);
     TextDB(TextDB *parent);
     ~TextDB() { shutdown(true); delete translation; }
     void init();
@@ -44,14 +45,15 @@ public:
     operator DBM*() const { return _db; }
 
  private:
+    vector<string> _expand_file_list() const;
     bool _needs_update() const;
     void _regenerate_db();
-
  private:
     bool open_db();
     const char* const _db_name;
     string _directory;
     vector<string> _input_files;
+    bool _canonicalise_key;
     DBM* _db;
     string timestamp;
     TextDB *_parent;
@@ -62,7 +64,7 @@ public:
 
 // Convenience functions for (read-only) access to generic
 // berkeley DB databases.
-static void _store_text_db(const string &in, DBM *db);
+static void _store_text_db(const string &in, DBM *db, bool canonicalise_key, bool trim_value);
 
 static string _query_database(TextDB &db, string key, bool canonicalise_key,
                               bool run_lua, bool untranslated = false);
@@ -136,6 +138,10 @@ static TextDB AllDBs[] =
           { "hints.txt",    // hints mode
             "tutorial.txt", // tutorial mode
             }),
+
+    TextDB("strings", "strings/",
+          { "*.txt" },
+          false),
 };
 
 static TextDB& DescriptionDB = AllDBs[0];
@@ -148,6 +154,9 @@ static TextDB& QuotesDB      = AllDBs[6];
 static TextDB& HelpDB        = AllDBs[7];
 static TextDB& FAQDB         = AllDBs[8];
 static TextDB& HintsDB       = AllDBs[9];
+static TextDB& TranslateDB   = AllDBs[10];
+
+static bool _test_mode = false;
 
 static string _db_cache_path(string db, const char *lang)
 {
@@ -160,8 +169,9 @@ static string _db_cache_path(string db, const char *lang)
 // TextDB
 // ----------------------------------------------------------------------
 
-TextDB::TextDB(const char* db_name, const char* dir, vector<string> files)
+TextDB::TextDB(const char* db_name, const char* dir, vector<string> files, bool canonicalise_key)
     : _db_name(db_name), _directory(dir), _input_files(files),
+      _canonicalise_key(canonicalise_key),
       _db(nullptr), timestamp(""), _parent(0), translation(0)
 {
 }
@@ -170,6 +180,7 @@ TextDB::TextDB(TextDB *parent)
     : _db_name(parent->_db_name),
       _directory(parent->_directory + Options.lang_name + "/"),
       _input_files(parent->_input_files), // FIXME: pointless copy
+      _canonicalise_key(parent->_canonicalise_key),
       _db(nullptr), timestamp(""), _parent(parent), translation(nullptr)
 {
 }
@@ -199,6 +210,12 @@ void TextDB::init()
         translation->init();
     }
 
+    if (string(_db_name) == "strings" && !_parent)
+    {
+        // this db has no english version
+        return;
+    }
+
     open_db();
 
     if (!_needs_update())
@@ -223,15 +240,46 @@ void TextDB::shutdown(bool recursive)
         translation->shutdown(recursive);
 }
 
+vector<string> TextDB::_expand_file_list() const
+{
+    vector<string> input_files;
+    for (const string &file : _input_files)
+    {
+        if (file.length() > 1 && file[0] == '*')
+        {
+            string dir = _directory.substr(0,_directory.length()-1);
+            dir = datafile_path(dir, false, true, dir_exists);
+            vector<string> matched = get_dir_files_ext(dir, file.substr(1));
+            dir = canonicalise_file_separator(dir + "/");
+            for (const string& file_name: matched)
+                input_files.push_back(dir + file_name);
+        }
+        else
+        {
+            string full_input_path = _directory + file;
+            full_input_path = datafile_path(full_input_path, !_parent);
+            input_files.push_back(full_input_path);
+        }
+    }
+
+    if (_test_mode && string(_db_name) == "strings")
+    {
+        string test_file = string("./test/i18n/") + Options.lang_name + "/test.txt";
+        test_file = canonicalise_file_separator(test_file);
+        input_files.push_back(test_file);
+    }
+
+    return input_files;
+}
+
+
 bool TextDB::_needs_update() const
 {
     string ts;
     bool no_files = true;
 
-    for (const string &file : _input_files)
+    for (const string &full_input_path : _expand_file_list())
     {
-        string full_input_path = _directory + file;
-        full_input_path = datafile_path(full_input_path, !_parent);
         time_t mtime = file_modtime(full_input_path);
 #ifdef __ANDROID__
         if (file_exists(full_input_path))
@@ -293,10 +341,8 @@ void TextDB::_regenerate_db()
     string ts;
     if (!(_db = dbm_open(db_path.c_str(), O_RDWR | O_CREAT, 0660)))
         end(1, true, "Unable to open DB: %s", db_path.c_str());
-    for (const string &file : _input_files)
+    for (const string &full_input_path : _expand_file_list())
     {
-        string full_input_path = _directory + file;
-        full_input_path = datafile_path(full_input_path, !_parent);
         char buf[20];
         time_t mtime = file_modtime(full_input_path);
         snprintf(buf, sizeof(buf), ":%" PRId64, (int64_t)mtime);
@@ -309,7 +355,7 @@ void TextDB::_regenerate_db()
 #endif
             || !_parent) // english is mandatory
         {
-            _store_text_db(full_input_path, _db);
+            _store_text_db(full_input_path, _db, _canonicalise_key, !_canonicalise_key);
         }
     }
     _add_entry(_db, "TIMESTAMP", ts);
@@ -324,8 +370,9 @@ void TextDB::_regenerate_db()
 
 #define NUM_DB ARRAYSZ(AllDBs)
 
-void databaseSystemInit()
+void databaseSystemInit(bool test_mode)
 {
+    _test_mode = test_mode;
     for (unsigned int i = 0; i < NUM_DB; i++)
         AllDBs[i].init();
 }
@@ -356,6 +403,53 @@ static datum _database_fetch(DBM *database, const string &key)
     return result;
 }
 
+// translate key into users language so we can match against their search
+static string _localise_key(const string& key)
+{
+    if (contains(key, "serpent of hell"))
+    {
+        // special case (key has dis/cocytus/etc. as suffix)
+        string soh_key = lowercase_string(localise("the Serpent of Hell"));
+        size_t pos = key.find_last_of(' ');
+        if (pos != string::npos)
+        {
+            // localise the suffix (hell branch)
+            soh_key += " ";
+            string place = uppercase_first(key.substr(pos+1));
+            soh_key += lowercase_string(localise(place));
+        }
+        return soh_key;
+    }
+
+    // try canonicalised (lowercase) key
+    string result = localise(key);
+    if (result != key)
+        return result;
+
+    // try capitalised form
+    string key2 = uppercase_first(key);
+    result = lowercase_string(localise(key2));
+
+    if (result == key && contains(key, " "))
+    {
+        // try capitalising every (important) word
+        vector<string> words = split_string(" ", key);
+        key2 = "";
+        for (string word: words)
+        {
+            if (!key2.empty())
+                key2 += " ";
+            if (word == "the" || word == "of")
+                key2 += word;
+            else
+                key2 += uppercase_first(word);
+        }
+        result = lowercase_string(localise(key2));
+    }
+
+    return result;
+}
+
 static vector<string> _database_find_keys(DBM *database,
                                           const string &regex,
                                           bool ignore_case,
@@ -364,13 +458,20 @@ static vector<string> _database_find_keys(DBM *database,
     text_pattern             tpat(regex, ignore_case);
     vector<string> matches;
 
+    bool localising = localisation_active();
+
     datum dbKey = dbm_firstkey(database);
 
     while (dbKey.dptr != nullptr)
     {
         string key((const char *)dbKey.dptr, dbKey.dsize);
 
-        if (tpat.matches(key)
+        // try to match in both English and the user's language
+        bool matched = tpat.matches(key);
+        if (!matched && localising)
+            matched = tpat.matches(_localise_key(key));
+
+        if (matched
             && key.find("__") == string::npos
             && (filter == nullptr || !(*filter)(key, "")))
         {
@@ -479,9 +580,21 @@ static void _trim_leading_newlines(string &s)
     s.erase(0, s.find_first_not_of("\n"));
 }
 
+static void _trim_quotes(string &s)
+{
+    if (s.length() >= 2 && s[0] == '"' && s[s.length()-1] == '"')
+        s = s.substr(1, s.length()-2);
+}
+
+static void _unescape_quotes(string &s)
+{
+    s = replace_all(s, "\\\"", "\"");
+}
+
 static void _add_entry(DBM *db, const string &k, string &v)
 {
     _trim_leading_newlines(v);
+
     datum key, value;
     key.dptr = (char *) k.c_str();
     key.dsize = k.length();
@@ -493,7 +606,7 @@ static void _add_entry(DBM *db, const string &k, string &v)
         end(1, true, "Error storing %s", k.c_str());
 }
 
-static void _parse_text_db(LineInput &inf, DBM *db)
+static void _parse_text_db(LineInput &inf, DBM *db, bool canonicalise_key, bool trim_value)
 {
     string key;
     string value;
@@ -509,7 +622,17 @@ static void _parse_text_db(LineInput &inf, DBM *db)
         if (!line.compare(0, 4, "%%%%"))
         {
             if (!key.empty())
+            {
+                if (trim_value)
+                {
+                    // only preserve whitespace if it's inside quotes
+                    trim_string(value);
+                    _trim_quotes(value);
+                }
+                _unescape_quotes(key);
+                _unescape_quotes(value);
                 _add_entry(db, key, value);
+            }
             key.clear();
             value.clear();
             in_entry = true;
@@ -523,7 +646,13 @@ static void _parse_text_db(LineInput &inf, DBM *db)
         {
             key = line;
             trim_string(key);
-            lowercase(key);
+            if (canonicalise_key)
+                lowercase(key);
+            else
+            {
+                // key may be surrounded by quotes to preserve whitespace
+                _trim_quotes(key);
+            }
         }
         else
         {
@@ -533,16 +662,26 @@ static void _parse_text_db(LineInput &inf, DBM *db)
     }
 
     if (!key.empty())
+    {
+        if (trim_value)
+        {
+            // only preserve whitespace if it's inside quotes
+            trim_string(value);
+            _trim_quotes(value);
+        }
+        _unescape_quotes(key);
+        _unescape_quotes(value);
         _add_entry(db, key, value);
+    }
 }
 
-static void _store_text_db(const string &in, DBM *db)
+static void _store_text_db(const string &in, DBM *db, bool canonicalise_key, bool trim_value)
 {
     UTF8FileLineInput inf(in.c_str());
     if (inf.error())
         end(1, true, "Unable to open input file: %s", in.c_str());
 
-    _parse_text_db(inf, db);
+    _parse_text_db(inf, db, canonicalise_key, trim_value);
 }
 
 static string _chooseStrByWeight(const string &entry, int fixed_weight = -1)
@@ -784,8 +923,6 @@ vector<string> getLongDescKeysByRegex(const string &regex,
         return empty;
     }
 
-    // FIXME: need to match regex against translated keys, which can't
-    // be done by db only.
     return _database_find_keys(DescriptionDB.get(), regex, true, filter);
 }
 
@@ -910,4 +1047,12 @@ string getMiscString(const string &misc, const string &suffix)
 string getHintString(const string &key)
 {
     return unwrap_desc(_query_database(HintsDB, key, true, true));
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// Translate DB specific functions.
+
+string getTranslatedString(const string &key)
+{
+    return _query_database(TranslateDB, key, false, false);
 }

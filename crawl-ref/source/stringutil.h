@@ -41,6 +41,12 @@ string make_stringf(PRINTF(0, ));
 
 bool strip_suffix(string &s, const string &suffix);
 
+// Replace first occurrence of string
+string replace_first(const string &s, const string &tofind, const string &replacement);
+
+// Replace last occurrence of string
+string replace_last(const string &s, const string &tofind, const string &replacement);
+
 string replace_all(string s, const string &tofind, const string &replacement);
 
 string replace_all_of(string s, const string &tofind, const string &replacement);
@@ -52,7 +58,16 @@ string maybe_pick_random_substring(string s);
 
 int count_occurrences(const string &text, const string &searchfor);
 
+// check if text contains the string in searchfor
+bool contains(const string &text, const string &searchfor);
+bool contains(const string &text, char c);
+bool contains(const char* text, char c);
+
+bool is_all_digits(const string& s);
+bool is_all_alphas(const string& s);
+
 string &trim_string(string &str);
+string &trim_string_left(string &str);
 string &trim_string_right(string &str);
 string trimmed_string(string s);
 
@@ -217,6 +232,14 @@ string comma_separated_line(Z start, Z end, const string &andc = " and ",
                               andc, comma);
 }
 
+template <typename Z>
+string comma_separated_line(const Z& container, const string &andc = " and ",
+                            const string &comma = ", ")
+{
+    return comma_separated_line(container.cbegin(), container.cend(),
+                                andc, comma);
+}
+
 /**
  * For when the above functions are a bit over-elaborate...
  */
@@ -295,3 +318,24 @@ namespace std
     }
 }
 #endif
+
+/*
+ * Funtions for manipulating printf-style format strings
+ */
+
+// split printf-style format string into plain strings and format specifiers
+void split_format_string(const char* s, vector<string>& tokens);
+void split_format_string(const string &s, vector<string>& tokens);
+
+// translate a printf format spec like "%d" to a type like int
+const type_info* format_spec_to_type(const string& fmt);
+
+typedef map<int, const type_info*> arg_type_map_t;
+// get arg types from a tokenised printf-style format string
+void get_arg_types(const vector<string>& tokens, arg_type_map_t &results);
+
+// get arg types from an untokenised printf-style format string
+void get_arg_types(const string& s, arg_type_map_t &results);
+
+// format UTF-8 string using printf-style format specifier
+string format_utf8_string(const string& fmt, const string& arg);

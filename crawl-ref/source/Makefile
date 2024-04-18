@@ -103,10 +103,10 @@ MAKEFLAGS += -rR # This only works for recursive makes, i.e. contribs ...
 
 .PHONY: all test install clean clean-contrib clean-rltiles clean-android \
         clean-catch2 clean-plug-and-play-tests \
-		clean-coverage clean-coverage-full \
+		clean-coverage clean-coverage-full clean-i18n-tests \
         distclean debug debug-lite profile package-source source \
         build-windows package-windows-installer docs greet api api-dev android FORCE \
-        monster catch2-tests plug-and-play-tests \
+        monster catch2-tests plug-and-play-tests i18n-tests \
         crawl-universal crawl-arm64-apple-macos11 crawl-x86_64-apple-macos10.7 clean-mac
 
 include Makefile.obj
@@ -1230,6 +1230,7 @@ GENERATED_FILES := $(GENERATED_HEADERS) art-data.h mi-enum.h \
                    cmd-name.h species-data.h aptitudes.h species-groups.h
 
 LANGUAGES = $(filter-out en, $(notdir $(wildcard dat/descript/??)))
+LANGS = $(filter-out en, $(notdir $(wildcard dat/strings/??)))
 SRC_PKG_BASE  := stone_soup
 SRC_VERSION   := $(shell git describe --tags $(MERGE_BASE) 2>/dev/null || cat util/release_ver)
 MAJOR_VERSION = $(shell echo "$(SRC_VERSION)"|$(SED) -r 's/-.*//;s/^([^.]+\.[^.]+).*/\1/')
@@ -1498,6 +1499,9 @@ endif
 	for LANG in $(LANGUAGES); \
 		do mkdir -p $(datadir_fp)/dat/descript/$$LANG; \
 	done
+	for LANG in $(LANGS); \
+		do mkdir -p $(datadir_fp)/dat/strings/$$LANG; \
+	done
 	mkdir -p $(datadir_fp)/docs/develop
 	mkdir -p $(datadir_fp)/docs/develop/levels
 	mkdir -p $(datadir_fp)/docs/license
@@ -1516,6 +1520,9 @@ endif
 	$(COPY) dat/descript/*.txt $(datadir_fp)/dat/descript/
 	for LANG in $(LANGUAGES); \
 		do $(COPY) dat/descript/$$LANG/*.txt $(datadir_fp)/dat/descript/$$LANG; \
+	done
+	for LANG in $(LANGS); \
+		do $(COPY) dat/strings/$$LANG/*.txt $(datadir_fp)/dat/strings/$$LANG; \
 	done
 	mkdir -p $(datadir_fp)/dat/dist_bones
 	$(COPY) dat/dist_bones/* $(datadir_fp)/dat/dist_bones/
@@ -1578,7 +1585,7 @@ ifeq ($(USE_DGAMELAUNCH),)
 endif
 
 clean: clean-rltiles clean-webserver clean-android clean-monster clean-catch2 \
-       clean-plug-and-play-tests clean-coverage-full clean-mac
+       clean-plug-and-play-tests clean-i18n-tests clean-coverage-full clean-mac
 	+$(MAKE) -C $(UTIL) clean
 	$(RM) $(GAME) $(GAME).exe $(GENERATED_FILES) $(EXTRA_OBJECTS) libw32c.o\
 	    libunix.o $(ALL_OBJECTS) $(ALL_OBJECTS:.o=.d) *.ixx  \
@@ -1636,11 +1643,38 @@ catch2-tests-executable: $(CATCH2_TEST_OBJECTS) $(CONTRIB_LIBS) dat/dlua/tags.lu
 CATCH2_PNP_OBJECTS = $(OBJECTS) catch2-tests/test_plug_and_play.o \
                      catch2-tests/test_main.o $(EXTRA_OBJECTS)
 
+MAKE_STRINGF_TEST_OBJS = test/i18n/make-stringf-test.o stringutil.o unicode.o syscalls.o
+
 plug-and-play-tests: $(CATCH2_PNP_OBJECTS) $(CONTRIB_LIBS) dat/dlua/tags.lua
 	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(CATCH2_PNP_OBJECTS) -o $@ $(LIBS)
 
 catch2-tests: catch2-tests-executable
 	./catch2-tests-executable
+
+make-stringf-test: $(MAKE_STRINGF_TEST_OBJS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(MAKE_STRINGF_TEST_OBJS) -o $@ $(LIBS)
+
+check-regex-rules: test/i18n/check-regex-rules.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+de-item-test: test/i18n/de/item-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+de-misc-test: test/i18n/de/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+fr-misc-test: test/i18n/fr/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+ru-misc-test: test/i18n/ru/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS) all
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+i18n-tests: $(GAME) make-stringf-test check-regex-rules de-item-test de-misc-test fr-misc-test ru-misc-test
+	./make-stringf-test
+	./de-item-test
+	./de-misc-test
+	./fr-misc-test
+	./ru-misc-test
 
 clean-coverage-full: clean-coverage
 	find . -type f -name '*.gcno' -delete
@@ -1655,6 +1689,9 @@ clean-catch2:
 
 clean-plug-and-play-tests:
 	$(RM) plug-and-play-tests plug-and-play-tests.exe
+
+clean-i18n-tests:
+	$(RM) make-stringf-test de-item-test de-misc-test fr-misc-test test/i18n/*/*.o
 
 debug: all
 debug-lite: all
