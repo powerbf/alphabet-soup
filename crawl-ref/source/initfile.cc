@@ -46,6 +46,7 @@
 #include "jobs.h"
 #include "kills.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "mapdef.h"
 #include "maps.h"
@@ -3841,6 +3842,7 @@ bool game_options::set_lang(const char *lc)
         {
             language = ldef.lang;
             lang_name = ldef.code;
+            init_localisation(ldef.code? ldef.code : "");
             return true;
         }
     }
