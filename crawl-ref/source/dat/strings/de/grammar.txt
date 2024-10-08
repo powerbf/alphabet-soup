@@ -32,6 +32,132 @@
 ###############################################################################
 
 #################################
+# Determiners
+#################################
+%%%%
+"the "
+"der {adj-e}"
+%%%%
+"{f}the "
+"die {adj-e}"
+%%%%
+"{n}the "
+"das {adj-e}"
+%%%%
+"{pl}the "
+"die {adj-en}"
+%%%%
+"{m-acc}the "
+"den {adj-en}"
+%%%%
+"{m-dat}the "
+"dem {adj-en}"
+%%%%
+"{f-dat}the "
+"der {adj-en}"
+%%%%
+"{n-dat}the "
+"dem {adj-en}"
+%%%%
+"{pl-dat}the "
+"der {adj-en}"
+%%%%
+"{m-gen}the "
+"des {adj-en}"
+%%%%
+"{f-gen}the "
+"der {adj-en}"
+%%%%
+"{n-gen}the "
+"des {adj-en}"
+%%%%
+"{pl-gen}the "
+"der {adj-en}"
+%%%%
+
+%%%%
+"a "
+"ein {adj-er}"
+%%%%
+"{f}a "
+"eine {adj-e}"
+%%%%
+"{n}a "
+"ein {adj-es}"
+%%%%
+"{pl}a "
+"{adj-e}"
+%%%%
+"{m-acc}a "
+"einen {adj-en}"
+%%%%
+"{m-dat}a "
+"einem {adj-en}"
+%%%%
+"{f-dat}a "
+"einer {adj-en}"
+%%%%
+"{n-dat}a "
+"einem {adj-en}"
+%%%%
+"{pl-dat}a "
+"{adj-er}"
+%%%%
+"{m-gen}a "
+"eines {adj-en}"
+%%%%
+"{f-gen}a "
+"einer {adj-en}"
+%%%%
+"{n-gen}a "
+"eines {adj-en}"
+%%%%
+"{pl-gen}a "
+"{adj-er}"
+%%%%
+
+%%%%
+"your "
+"Euer {adj-er}"
+%%%%
+"{f}your "
+"Eure {adj-e}"
+%%%%
+"{n}your "
+"Euer {adj-es}"
+%%%%
+"{pl}your "
+"Eure {adj-e}"
+%%%%
+"{m-acc}your "
+"Euren {adj-en}"
+%%%%
+"{m-dat}your "
+"Eurem {adj-en}"
+%%%%
+"{f-dat}your "
+"Eurer {adj-en}"
+%%%%
+"{n-dat}your "
+"Eurem {adj-en}"
+%%%%
+"{pl-dat}your "
+"Eurer {adj-en}"
+%%%%
+"{m-gen}your "
+"Eures {adj-en}"
+%%%%
+"{f-gen}your "
+"Eurer {adj-en}"
+%%%%
+"{n-gen}your "
+"Eures {adj-en}"
+%%%%
+"{pl-gen}your "
+"Eurer {adj-en}"
+%%%%
+
+#################################
 # Adjectives
 #################################
 %%%%
@@ -53,19 +179,15 @@ GENERATE:adj-em
 #################################
 %%%%
 GENERATE:acc
-
-# Only masculine is declined in accusative.
-# Masculine and neuter can be difficult to distinguish. Since masculine nouns
-# are more numerous, we assume masculine unless we see proof of neuter.
-
-# Mark any unmarked masculine instances of ein/Euer
-/^(ein|Euer) (?!(\{adj-es\}|[^A-ZÄÖÜ ]+es ))/{m}$1 /
+/\{m\}/{m-acc}/
+%%%%
+GENERATE:m-acc
 
 # determiners
 /^(\{m\})?der /den /
-/^\{m\}ein /einen /
+/^(\{m\})?ein /einen /
 # temporary lowercase placeholder to make it easier to find noun
-/^\{m\}Euer /euren /
+/^(\{m\})?Euer /euren /
 
 # masc adjectives
 /^den [^A-ZÄÖÜ]+/e /en /

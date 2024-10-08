@@ -197,25 +197,29 @@ static void _split_tags(string s, vector<string>& results)
         results.push_back(s);
 }
 
-// if string starts with a context, remove it and set current context to that
+// if string starts or ends with a context, remove it and set current context to that
 // TODO: Come up with a better name for this function
 static string _shift_context(const string& str)
 {
-    // Must keep context for parameters
-    if (!starts_with(str, "{"))
+    size_t start = str.find('{');
+    size_t end = str.find('}');
+    if (start == string::npos || end == string::npos)
         return str;
 
-    bool first = true;
-    string result;
-    for (string s: _split_format(str))
+    if (start == 0)
     {
-        if (first && s.length() >= 2 && s[0] == '{' && s[s.length()-1] == '}')
-            _context = s.substr(1, s.length()-2);
-        else
-            result += s;
-        first = false;
+        // context at start
+        _context = str.substr(1, end - 1);
+        return str.substr(end + 1);
     }
-    return result;
+    else if (end == str.length() - 1)
+    {
+        // context at end
+        _context = str.substr(start + 1, end - start - 1);
+        return str.substr(0, start);
+    }
+
+    return str;
 }
 
 static string _get_context(const string& str)
@@ -765,7 +769,6 @@ static bool _find_base_name(const string& s, string& base_en, string& base_xlate
     _strip_determiner(s, determiner, main);
     if (!determiner.empty())
         determiner = _normalise_determiner(determiner) + " ";
-    string prefix = determiner + "%s";
 
     size_t pos = 0;
     while (pos < main.length())
@@ -779,20 +782,54 @@ static bool _find_base_name(const string& s, string& base_en, string& base_xlate
             break;
         }
 
-        // try with space not in base name (e.g. "the %sbroad axe")
-        base_en = prefix + base;
+        // try with space not in base name (e.g. "%sbroad axe")
+        base_en = determiner + "%s" + base;
         base_xlated = _localise_possibly_counted_string(_context, base_en);
-        if (!base_xlated.empty())
-            return true;
-
-        // try with space in base name (e.g. "the %s broad axe")
-        base_en = prefix + " " + base;
-        base_xlated = _localise_possibly_counted_string(_context, base_en);
+        if (base_xlated.empty())
+        {
+            // try with space in base name (e.g. "%s broad axe")
+            base_en = determiner + "%s " + base;
+            base_xlated = _localise_possibly_counted_string(_context, base_en);
+            if (!base_xlated.empty())
+            {
+                // remove the trailing space from rest
+                if (pos > 0)
+                    rest = main.substr(0, pos - 1);
+            }
+        }
+        if (base_xlated.empty() && rest.empty())
+        {
+            // try without any %s
+            base_en = determiner + base;
+            base_xlated = _localise_possibly_counted_string(_context, base_en);
+        }
         if (!base_xlated.empty())
         {
-            // remove the trailing space from rest
-            if (pos > 0)
-                rest = main.substr(0, pos - 1);
+            // determiner included in translation
+            determiner = "";
+        }
+        if (base_xlated.empty())
+        {
+            // try without determiner
+            base_en = "%s" + base;
+            base_xlated = _localise_possibly_counted_string(_context, base_en);
+        }
+        if (base_xlated.empty() && rest.empty())
+        {
+            // try without determiner or %s
+            base_en = base;
+            base_xlated = _localise_possibly_counted_string(_context, base_en);
+        }
+
+        if (!base_xlated.empty())
+        {
+            base_xlated = _shift_context(base_xlated);
+            if (!determiner.empty())
+            {
+                string det_xlated = cxlate(_context, determiner);
+                det_xlated = _shift_context(det_xlated);
+                base_xlated = det_xlated + base_xlated;
+            }
             return true;
         }
 
@@ -1012,6 +1049,21 @@ static string _localise_unidentified_scroll(const string& context, const string&
     {
         // singular
         result = cxlate(context, rest);
+        if (result.empty())
+        {
+            string determiner, base;
+            _strip_determiner(rest, determiner, base);
+            if (!determiner.empty())
+            {
+                result = cxlate(context, base);
+                if (!result.empty())
+                {
+                    string ctx = _shift_context(result);
+                    determiner += " ";
+                    result = cxlate(ctx, determiner) + result;
+                }
+            }
+        }
     }
 
     return replace_last(result, "%s", label);
