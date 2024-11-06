@@ -1470,6 +1470,15 @@ Eures {adj-en}%sOchsenbiests
 your %sspectre's
 Eurer {adj-en}%sSpukgestalt
 %%%%
+your %scentipede's
+Eures {adj-en}%sHundertfüßers
+%%%%
+your %smad acolyte of Lugonu's
+Eures {adj-en}%sverrückten Akolythen von Lugonu
+%%%%
+your %sbog mummy's
+Eurer {adj-en}%sMoormumie
+%%%%
 
 # derived monsters containing the name of the original monster
 # "elf zombie", "orc skeleton", etc.

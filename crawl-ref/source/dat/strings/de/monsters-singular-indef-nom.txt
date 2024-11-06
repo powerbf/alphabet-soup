@@ -1469,6 +1469,15 @@ ein {adj-es}%sOchsenbiest
 a %sspectre
 eine {adj-e}%sSpukgestalt
 %%%%
+a %scentipede
+ein {adj-er}%sHundertfüßer
+%%%%
+a %smad acolyte of Lugonu
+ein {adj-er}%sverrückter Akolyth von Lugonu
+%%%%
+a %sbog mummy
+eine {adj-e}%sMoormumie
+%%%%
 
 # derived monsters containing the name of the original monster
 # "elf zombie", "orc skeleton", etc.

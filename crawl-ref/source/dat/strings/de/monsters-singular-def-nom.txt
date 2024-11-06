@@ -1471,6 +1471,15 @@ das {adj-e}%sOchsenbiest
 the %sspectre
 die {adj-e}%sSpukgestalt
 %%%%
+the %scentipede
+der {adj-e}%sHundertfüßer
+%%%%
+the %smad acolyte of Lugonu
+der {adj-e}%sverrückte Akolyth von Lugonu
+%%%%
+the %sbog mummy
+die {adj-e}%sMoormumie
+%%%%
 
 # derived monsters containing the name of the original monster
 # "elf zombie", "orc skeleton", etc.

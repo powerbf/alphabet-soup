@@ -1464,6 +1464,15 @@
 %d %sspectres
 %d {adj-e}%sSpukgestalten
 %%%%
+%d centipedes
+%d Hundertfüßer
+%%%%
+%d mad acolytes of Lugonu
+%d verrückte Akolythen von Lugonu
+%%%%
+%d bog mummies
+%d Moormumien
+%%%%
 
 # derived monsters containing the name of the original monster
 # "elf zombie", "orc skeleton", etc.

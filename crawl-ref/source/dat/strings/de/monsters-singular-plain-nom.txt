@@ -1566,6 +1566,15 @@
 %sgrey draconian skeleton
 {adj-es}%sGrauer-Drakonier-Skelett
 %%%%
+%scentipede
+{adj-er}%sHundertfüßer
+%%%%
+%smad acolyte of Lugonu
+{adj-er}%sverrückter Akolyth von Lugonu
+%%%%
+%sbog mummy
+{adj-e}%sMoormumie
+%%%%
 
 %%%%
 %sLernaean hydra simulacrum
