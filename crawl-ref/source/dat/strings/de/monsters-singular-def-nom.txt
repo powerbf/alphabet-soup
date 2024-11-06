@@ -1282,6 +1282,9 @@ die {adj-e}%sUschabti
 the %sguardian golem
 der {adj-e}%sWächtergolem
 %%%%
+the %sflsh golem
+der {adj-e}%sFleischgolem
+%%%%
 the %sspellforged servitor
 der {adj-e}%szaubergeschmeidete Diener
 %%%%

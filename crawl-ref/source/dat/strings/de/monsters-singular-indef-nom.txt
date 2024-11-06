@@ -1281,6 +1281,9 @@ eine {adj-e}%sUschabti
 a %sguardian golem
 ein {adj-er}%sWächtergolem
 %%%%
+a %sflesh golem
+ein {adj-er}%sFleischgolem
+%%%%
 a %sspellforged servitor
 ein {adj-er}%szaubergeschmeideter Diener
 %%%%

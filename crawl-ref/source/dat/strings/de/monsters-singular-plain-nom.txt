@@ -1281,6 +1281,9 @@
 %sguardian golem
 {adj-er}%sWächtergolem
 %%%%
+%sflesh golem
+{adj-er}%sFleischgolem
+%%%%
 %sspellforged servitor
 {adj-er}%szaubergeschmeideter Diener
 %%%%

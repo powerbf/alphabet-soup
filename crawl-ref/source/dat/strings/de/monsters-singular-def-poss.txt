@@ -1281,6 +1281,9 @@ der {adj-en}%sUschabti
 the %sguardian golem's
 des {adj-en}%sWächtergolems
 %%%%
+the %sflesh golem's
+des {adj-en}%sFleischgolems
+%%%%
 the %sspellforged servitor's
 des {adj-en}%szaubergeschmeideten Dieners
 %%%%

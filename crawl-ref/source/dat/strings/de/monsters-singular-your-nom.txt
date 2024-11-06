@@ -1281,6 +1281,9 @@ Eure {adj-e}%sUschabti
 your %sguardian golem
 Euer {adj-er}%sWächtergolem
 %%%%
+your %sflesh golem
+Euer {adj-er}%sFleischgolem
+%%%%
 your %sspellforged servitor
 Euer {adj-er}%szaubergeschmeideter Diener
 %%%%
