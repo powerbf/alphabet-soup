@@ -639,7 +639,7 @@ constriction
 Umschlingung
 %%%%
 Constricted to death by %s
-Von %s zu Tode umschlungen
+Von {dat}%s zu Tode gedrückt
 %%%%
 Nibbled to death by software bugs
 Zu Tode geknabbert durch Software-Bugs
