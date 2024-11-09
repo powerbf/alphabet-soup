@@ -786,6 +786,9 @@
 %sancient lich
 {adj-er}%salter Lich
 %%%%
+%santique lich
+{adj-er}%santiker Lich
+%%%%
 %srevenant
 {adj-er}%sWiedergänger
 %%%%
@@ -1278,6 +1281,9 @@
 %sguardian golem
 {adj-er}%sWächtergolem
 %%%%
+%sflesh golem
+{adj-er}%sFleischgolem
+%%%%
 %sspellforged servitor
 {adj-er}%szaubergeschmeideter Diener
 %%%%
@@ -1566,6 +1572,18 @@
 %sgrey draconian skeleton
 {adj-es}%sGrauer-Drakonier-Skelett
 %%%%
+%scentipede
+{adj-er}%sTausendfüßer
+%%%%
+%smad acolyte of Lugonu
+{adj-er}%sverrückter Akolyth von Lugonu
+%%%%
+%sbog mummy
+{adj-e}%sMoormumie
+%%%%
+%slunar statue
+{adj-e}%sMond-Statue
+%%%%
 
 %%%%
 %sLernaean hydra simulacrum
@@ -1606,4 +1624,112 @@
 %%%%
 %sgrey draconian simulacrum
 {adj-es}%sGrauer-Drakonier-Simulacrum
+%%%%
+
+##################
+# Sprint Monsters
+##################
+
+%%%%
+%skamikaze kobold
+{adj-er}%sKamikaze-Kobold
+%%%%
+%sorb golem
+{adj-er}%sKugelgolem
+%%%%
+%sorb of ice
+{adj-e}%sKugel des Eises
+%%%%
+%sorb of electricity
+{adj-e}%sKugel der Elektrizität
+%%%%
+%snaga warlord
+{adj-er}%sNaga-Kriegsherr
+%%%%
+%switch
+{adj-e}%sHexe
+%%%%
+%sdire wolf spider
+{adj-e}%sSchreckenswolfspinne
+%%%%
+%sphase spider
+{adj-e}%sPhasenspinne
+%%%%
+%sdimme
+{adj-e}%sDimme
+%%%%
+%ssulfuric acid blob
+{adj-er}%sSchwefelsaure-Klumpen
+%%%%
+%svault guard captain
+{adj-er}%sHaupttresorwächter
+%%%%
+%sMaster Blaster
+{adj-er}%sMaster-Blaster
+%%%%
+%soklob sapling priest
+{adj-er}%sOklob-Setzling-Priester
+%%%%
+%soklob sapling wizard
+{adj-er}%sOklob-Setzling-Zauberer
+%%%%
+%soklob plant conjurer
+{adj-er}%sOklob-Pflanze-Hervorrufer
+%%%%
+%soklob plant summoner
+{adj-er}%sOklob-Pflanze-Beschwörer
+%%%%
+%soklob plant shifter
+{adj-er}%sOklob-Pflanze-Wandler
+%%%%
+%soklob plant meteorologist
+{adj-er}%sOklob-Pflanze-Meteorologe
+%%%%
+%soklob plant demonologist
+{adj-er}%sOklob-Pflanze-Dämonologe
+%%%%
+%soklob plant annihilator
+{adj-er}%sOklob-Pflanze-Vernichter
+%%%%
+%sbag of meat
+{adj-er}%sFleischklops
+%%%%
+%smeat berserker
+{adj-er}%sFleischberserker
+%%%%
+%styrant
+{adj-er}%sTyrann
+%%%%
+%smeat hydra
+{adj-e}%sfleischliche Hydra
+%%%%
+%sdread
+{adj-er}%sSchrecken
+%%%%
+%sdestroyer
+{adj-er}%sZerstörer
+%%%%
+%sscourge
+{adj-e}%sGeißel
+%%%%
+%ssculptor of flesh
+{adj-er}%sBildhauer des Fleisches
+%%%%
+%sobserver
+{adj-er}%sBeobachter
+%%%%
+%saccursed
+{adj-er}%sVerfluchte
+%%%%
+%svile
+{adj-er}%sNiederträchtige
+%%%%
+%smeat beast
+{adj-e}%sFleischbestie
+%%%%
+%swretched soul
+{adj-e}%sunglückliche Seele
+%%%%
+%sfleshlord
+{adj-er}%sFleischlord
 %%%%

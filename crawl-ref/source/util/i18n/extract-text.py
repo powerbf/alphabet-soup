@@ -672,57 +672,98 @@ def extract_lua_strings(line):
 
 # where a name is overriden in a .des file, extract the new name and inflections
 def extract_strings_from_des_rebadge_line(line):
-    if re.search(r'\bshop\b', line):
-        # TODO: Handle shop names
-        return []
-
-    # remove any existing quotes
-    line = line.replace('"', '').replace("'", "")
-
-    # remove other property overrides, which can get in the way
-    line = re.sub(r'[^ ]+(?<!\bname):[^ ]+', '', line)
-
-    # remove excess whitespace
-    line = line.strip()
-    line = re.sub('r\s*=\s*', '=', line)
-
-    is_adjective = False
-    # quote the name
-    if 'name_adjective' in line or 'n_adj' in line:
-        if 'name:bog' in line:
-            line = line.replace('name:bog', 'name:"bog mummy"')
-        elif re.search(r'name:(phase|dire|giga|sulfuric)\b', line):
-            line = re.sub(r'\b([A-Za-z ]+?)\s+name:([A-Za-z_]+)', r'name:"\2 \1"', line)
-        else:
-            line = re.sub(r'\bname:([A-Za-z_\-]+)', r'name: "\1 "', line)
-            is_adjective = True
-    elif 'name_suffix' in line or 'n_suf' in line:
-        line = re.sub(r'([^ ]+)\s+name:([A-Za-z_\-]+)', r'name:"\1 \2"', line)
-    else:
-        line = re.sub(r'\bname\s*:\s*([A-Za-z_\-]+)', r'name:"\1"', line)
-
-    if '"' not in line:
-        return []
 
     strings = []
 
-    # extract the quoted string
-    string = re.sub(r'^.*"(.*)".*$', r'\1', line)
+    # multiple monsters can be on the same line separated by slashes
+    # process them separately
+    if '/' in line:
+        lines = line.split('/')
+        for l in lines:
+            if re.search(r'\bname:', l):
+                strings.extend(extract_strings_from_des_rebadge_line(l))
+        return strings
+
+    # remove any existing quotes
+    line = line.replace('"', '')
+
+    if re.search(r'\bshop\b', line):
+        # Handle shop names
+        line = re.sub(r'\s*\.\.\s*([a-zA-Z_]+)\s*\.\.', r'@\1@', line)
+        line = line.replace('@smithy@', '@owner@')
+
+        # extract owner name
+        m = re.search(r'(?<=\bname:)[^ ]+', line)
+        if not m:
+            #print("DEBUG: " + line)
+            return []
+        owner = m.group()
+        owner = owner.replace('_', ' ')
+
+        # extract shop type
+        m = re.search(r'(?<=\btype:)[^ ]+', line)
+        if not m:
+            #print("DEBUG: " + line)
+            return []
+        shop_type = m.group()
+
+        name = owner + "'s " + shop_type
+
+        # extract shop suffix
+        m = re.search(r'(?<=\bsuffix:)[^ ]+', line)
+        if m:
+            name += " " + m.group()
+
+        return [name]
+
+    # extract base (original) name
+    m = re.search(r'[a-z][a-z \-]+[a-z](?=\s)', line)
+    if not m:
+        return []
+    base_name = m.group()
+
+    # extract override
+    m = re.search(r'(?<=\bname:)[^ ]+', line)
+    if not m:
+        return []
+    override = m.group()
+    override = override.replace('_', ' ')
+
+    string = ""
+    is_adjective = False
+    if 'name_adjective' in line or 'n_adj' in line:
+        if override in ["phase", "dire", "giga", "sulfuric", "bog"]:
+            # generate the full name
+            string = override + " " + base_name
+        else:
+            # just take the adjective
+            string = override + " "
+            is_adjective = True
+    elif 'name_suffix' in line or 'n_suf' in line:
+        string = base_name + " " + override
+    else:
+        string = override
+
+    if string == "":
+        return []
 
     # if adjective, just return this single string as is
-    if is_adjective or string == "":
+    if is_adjective:
         strings.append(string)
         return strings
 
-    if '_' in string:
-        string = string.replace('_', ' ')
+    if " " in string:
         for adj in ["rotten ", "ancient ", "large "]:
             if string.startswith(adj):
                 strings.append(adj)
                 string = string.replace(adj, '')
                 break
 
-    if string.startswith('the ') or string.startswith('The '):
+    if 'n_the' in line:
+        string = article_the(string)
+
+    if string.startswith('the ') or string.startswith('The ') or string == "Cigotuvi's Monster":
+        # uniques
         strings.append(string)
         strings.append(string + "'s")
     else:
@@ -752,9 +793,22 @@ def process_lua_file(filename):
 
     raw_lines = data.splitlines()
     lines = []
-    ignore = is_des
+
+    # a line ending in backslash means the statement continues on the next line
     for line in raw_lines:
         line = line.strip()
+        if lines and lines[-1].endswith('\\'):
+            if is_des and line.startswith(":"):
+                line = line[1:].lstrip()
+            lines[-1] = lines[-1][:-1].rstrip() + " " + line
+        else:
+            lines.append(line)
+
+    raw_lines = lines
+    lines = []
+
+    ignore = is_des
+    for line in raw_lines:
         if line.startswith('--') or line.startswith('#'):
             # skip comments
             continue
@@ -1722,6 +1776,8 @@ def pluralise(string):
     for suffix in ["ch", "sh", "ss"]:
         if string.endswith(suffix):
             return string + "es"
+    if string.endswith("y") and not string.endswith("ey"):
+        return string[:-1] + "ies"
     return string + "s"
 
 def is_unique_monster(string):

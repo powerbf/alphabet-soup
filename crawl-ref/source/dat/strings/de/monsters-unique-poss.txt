@@ -228,7 +228,7 @@ Crazy Yiuf's
 Verrückten Yiufs
 %%%%
 the Enchantress's
-der Hexenmeisterin
+der Zauberin
 %%%%
 Blork the orc's
 Blork des Orks
@@ -245,6 +245,11 @@ der Höllenschlange
 the %sLernaean hydra's
 der {adj-en}%sLernäischen Hydra
 %%%%
+Cigotuvi's Monster's
+des Cigotuvis Monsters
+%%%%
+the Statue of Wucad Mu's
+der Statue von Wucad Mu
 
 # not really uniques, but gramatically similar
 
@@ -255,4 +260,26 @@ des Etwas
 %%%%
 %s's ghost's
 %ss Geistes
+%%%%
+
+##################
+# Sprint Monsters
+##################
+
+%%%%
+# note: Must distinguish from fleshlords (in German, flesh and meat are both Fleisch)
+The Meatlord's
+des Schlachtmeisters
+%%%%
+The Servant's
+des Dieners
+%%%%
+The Captor's
+des sFängers
+%%%%
+The Defiler's
+des Schänders
+%%%%
+The Unspeakable's
+des Unsäglichen
 %%%%

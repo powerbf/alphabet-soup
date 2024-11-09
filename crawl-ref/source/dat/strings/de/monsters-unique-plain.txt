@@ -228,7 +228,7 @@ Crazy Yiuf
 Verrückter Yiuf
 %%%%
 Enchantress
-Hexenmeisterin
+Zauberin
 %%%%
 Blork the orc
 Blork der Ork
@@ -245,6 +245,11 @@ Höllenschlange
 %sLernaean hydra
 {adj-e}%sLernäische Hydra
 %%%%
+Cigotuvi's Monster
+Cigotuvis Monster
+%%%%
+Statue of Wucad Mu
+Statue von Wucad Mu
 
 # not really uniques, but gramatically similar
 
@@ -262,4 +267,26 @@ etwas Unsichtbares
 %%%%
 %s's illusion
 %ss Illusion
+%%%%
+
+##################
+# Sprint Monsters
+##################
+
+%%%%
+# note: Must distinguish from fleshlords (in German, flesh and meat are both Fleisch)
+Meatlord
+Schlachtmeister
+%%%%
+Servant
+Diener
+%%%%
+Captor
+Fänger
+%%%%
+Defiler
+Schänder
+%%%%
+Unspeakable
+Unsägliche
 %%%%

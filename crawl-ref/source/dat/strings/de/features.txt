@@ -381,7 +381,7 @@ glowing silver altar of Zin
 glühender silberner Altar von Zin
 %%%%
 glowing golden altar of the Shining One
-glühender goldener Altar des Glänzenden
+glühender goldener Altar des Strahlenden
 %%%%
 ancient bone altar of Kikubaaqudgha
 uralter Knochenaltar von Kikubaaqudgha
@@ -652,6 +652,9 @@ Wand aus weißem Kristall
 %%%%
 weirdly glowing ball
 seltsam leuchtende Kugel
+%%%%
+%sfleshy orifice
+{adj-e}%sfleischige Öffnung
 %%%%
 
 ################################
@@ -1025,7 +1028,7 @@ the glowing silver altar of Zin
 der glühende silberne Altar von Zin
 %%%%
 the glowing golden altar of the Shining One
-der glühende goldene Altar des Glänzenden
+der glühende goldene Altar des Strahlenden
 %%%%
 the ancient bone altar of Kikubaaqudgha
 der uralte Knochenaltar von Kikubaaqudgha
@@ -1143,6 +1146,15 @@ das Tor, das tiefer in den Abgrund führt
 %%%%
 The dimension's edge
 Der Rand der Dimension
+%%%%
+the damp floor
+der feuchte Boden
+%%%%
+the pulsating floor
+der pulsierende Boden
+%%%%
+the rough-hewn floor
+der grob behauene Boden
 %%%%
 
 ################################
@@ -1507,7 +1519,7 @@ a glowing silver altar of Zin
 ein glühender silberner Altar von Zin
 %%%%
 a glowing golden altar of the Shining One
-ein glühender goldener Altar des Glänzenden
+ein glühender goldener Altar des Strahlenden
 %%%%
 an ancient bone altar of Kikubaaqudgha
 ein uralter Knochenaltar von Kikubaaqudgha
@@ -1776,6 +1788,9 @@ eine Wand aus weißem Kristall
 a weirdly glowing ball
 eine seltsam leuchtende Kugel
 %%%%
+a %sfleshy orifice
+eine {adj-e}%sfleischige Öffnung
+%%%%
 
 ################################
 # Counted
@@ -1810,4 +1825,30 @@ mit Eis bedeckt
 %%%%
 spattered with blood
 mit Blut bespritzt
+%%%%
+
+################################
+# Shop names
+################################
+%%%%
+Zin's Purification Station
+Zins Reinigungsstation
+%%%%
+Gozag's Platinum Reserve
+Gozags Platin-Reserve
+%%%%
+The Legendary @owner@'s Legendary Smithy
+Des Legendären @owner@s Legendäre Schmiede
+%%%%
+@owner@'s Merfolk Weapons
+@owner@s Meervolk-Waffen
+%%%%
+@owner@'s Merfolk Armours
+@owner@s Meervolk-Rüstungen
+%%%%
+@owner@'s Merfolk Magic
+@owner@s Meervolk-Magie
+%%%%
+@owner@'s Visitors' Centre
+@owner@s Besucherzentrum
 %%%%

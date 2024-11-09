@@ -769,7 +769,7 @@
 %d azurblaue Geleen
 %%%%
 %d acid blobs
-%d Säureklumpene
+%d Säureklumpen
 %%%%
 %d kobolds
 %d Kobolde
@@ -785,6 +785,9 @@
 %%%%
 %d ancient liches
 %d alte Lichs
+%%%%
+%d antique liches
+%d antike Lichs
 %%%%
 %d revenants
 %d Wiedergänger
@@ -1278,6 +1281,9 @@
 %d guardian golems
 %d Wächtergoleme
 %%%%
+%d flesh golems
+%d Fleischgoleme
+%%%%
 %d spellforged servitors
 %d zaubergeschmeidete Diener
 %%%%
@@ -1464,6 +1470,18 @@
 %d %sspectres
 %d {adj-e}%sSpukgestalten
 %%%%
+%d centipedes
+%d Tausendfüßer
+%%%%
+%d mad acolytes of Lugonu
+%d verrückte Akolythen von Lugonu
+%%%%
+%d bog mummies
+%d Moormumien
+%%%%
+%d lunar statues
+%d Mond-Statuen
+%%%%
 
 # derived monsters containing the name of the original monster
 # "elf zombie", "orc skeleton", etc.
@@ -1592,4 +1610,112 @@
 %%%%
 %d %sgrey draconian simulacrum
 %d {adj-e}%sGrauer-Drakonier-Simulacrum
+%%%%
+
+##################
+# Sprint Monsters
+##################
+
+%%%%
+%d kamikaze kobolds
+%d Kamikaze-Kobolde
+%%%%
+%d orb golems
+%d Kugelgolems
+%%%%
+%d orbs of ice
+%d Kugeln des Eises
+%%%%
+%d orbs of electricity
+%d Kugeln der Elektrizität
+%%%%
+%d naga warlords
+%d Naga-Kriegsherren
+%%%%
+%d witches
+%d Hexen
+%%%%
+%d dire wolf spiders
+%d Schreckenswolfspinnen
+%%%%
+%d phase spiders
+%d Phasenspinnen
+%%%%
+%d dimmes
+%d Dimmes
+%%%%
+%d sulfuric acid blobs
+%d Schwefelsaure-Klumpen
+%%%%
+%d vault guard captains
+%d Haupttresorwächter
+%%%%
+%d Master Blasters
+%d Master-Blasters
+%%%%
+%d oklob sapling priests
+%d Oklob-Setzling-Priester
+%%%%
+%d oklob sapling wizards
+%d Oklob-Setzling-Zauberer
+%%%%
+%d oklob plant conjurers
+%d Oklob-Pflanze-Hervorrufer
+%%%%
+%d oklob plant summoners
+%d Oklob-Pflanze-Beschwörer
+%%%%
+%d oklob plant shifters
+%d Oklob-Pflanze-Wandler
+%%%%
+%d oklob plant meteorologists
+%d Oklob-Pflanze-Meteorologen
+%%%%
+%d oklob plant demonologists
+%d Oklob-Pflanze-Dämonologen
+%%%%
+%d oklob plant annihilators
+%d Oklob-Pflanze-Vernichter
+%%%%
+%d bags of meat
+%d Fleischklopse
+%%%%
+%d meat berserkers
+%d Fleischberserker
+%%%%
+%d tyrants
+%d Tyrannen
+%%%%
+%d meat hydras
+%d fleischliche Hydren
+%%%%
+%d dreads
+%d Schrecken
+%%%%
+%d destroyers
+%d Zerstörer
+%%%%
+%d scourges
+%d Geißeln
+%%%%
+%d sculptors of flesh
+%d Bildhauer des Fleisches
+%%%%
+%d observers
+%d Beobachter
+%%%%
+%d accurseds
+%d Verfluchte
+%%%%
+%d viles
+%d Niederträchtige
+%%%%
+%d meat beasts
+%d Fleischbestien
+%%%%
+%d wretched souls
+%d unglückliche Seelen
+%%%%
+%d fleshlords
+%d Fleischlords
 %%%%

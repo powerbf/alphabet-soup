@@ -231,7 +231,7 @@ the %sCrazy Yiuf
 der {adj-e}%sVerrückte Yiuf
 %%%%
 the %sEnchantress
-die {adj-e}%sHexenmeisterin
+die {adj-e}%sZauberin
 %%%%
 the %sBlork the orc
 der {adj-e}%sBlork der Ork
@@ -248,6 +248,12 @@ die {adj-e}%sHöllenschlange
 the %sLernaean hydra
 die {adj-e}%sLernäische Hydra
 %%%%
+the %sCigotuvi's Monster
+das {adj-e}%sCigotuvis Monster
+%%%%
+the %sStatue of Wucad Mu
+die {adj-e}%sStatue von Wucad Mu
+%%%%
 
 # not really uniques, but gramatically similar
 
@@ -261,4 +267,26 @@ der {adj-e}%s Geist %s's
 %%%%
 the %s%s's illusion
 die {adj-e}%s Illusion %s's
+%%%%
+
+##################
+# Sprint Monsters
+##################
+
+%%%%
+# note: Must distinguish from fleshlords (in German, flesh and meat are both Fleisch)
+The Meatlord
+Der Schlachtmeister
+%%%%
+The Servant
+Der Diener
+%%%%
+The Captor
+Der Fänger
+%%%%
+The Defiler
+Der Schänder
+%%%%
+The Unspeakable
+Der Unsägliche
 %%%%

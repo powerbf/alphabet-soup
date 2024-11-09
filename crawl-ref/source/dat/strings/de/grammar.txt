@@ -70,11 +70,11 @@ GENERATE:acc
 # masc adjectives
 /^den [^A-ZÄÖÜ]+/e /en /
 /^den [^A-ZÄÖÜ]+/\{adj-e\}/{adj-en}/
-/^[^A-ZÄÖÜ]+/er /en /
-/^[^A-ZÄÖÜ]+/\{adj-er\}/{adj-en}/
+/^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/er /en /
+/^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/\{adj-er\}/{adj-en}/
 
 # weak nouns
-/Prinz\b/Prinzen/
+/(Prinz|Akolyth)\b/$1en/
 /[A-ZÄÖÜ][^ ,]+/(Mensch|[Bb]är|[^e]ist|ant|taur|myzet|[Ff]ürst)$/$1en/
 /[A-ZÄÖÜ][^ ,]+/([Ss]chamane|[Ss]chütze|Sklave|[Hh]err|loge|mycete)$/$1n/
 /[A-ZÄÖÜ][^ ,]+/([Rr]iese|[Dd]rache|[Dd]ruide|[Hh]eilige|Ahne)$/$1n/
@@ -109,8 +109,8 @@ GENERATE:dat
 # masc/neut adjectives
 /^(d|ein|Eur)em [^A-ZÄÖÜ]+/e[rs]? /en /
 /^(d|ein|Eur)em [^A-ZÄÖÜ]+/\{adj-e[rs]?\}/{adj-en}/
-/^[^A-ZÄÖÜ]+/e[rs] /em /
-/^[^A-ZÄÖÜ]+/\{adj-e[rs]\}/{adj-em}/
+/^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/e[rs] /em /
+/^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/\{adj-e[rs]\}/{adj-em}/
 
 # mark plurals, if not already marked
 /^(die |Eure )?(%d|[0-9]+) /^/{pl}/
@@ -135,14 +135,14 @@ GENERATE:dat
 # fem adjectives
 /^(\{f\})?(der|einer|bigeurer) [^A-ZÄÖÜ]+/e /en /
 /^(\{f\})?(der|einer|bigeurer) [^A-ZÄÖÜ]+/\{adj-e\}/{adj-en}/
-/^[^A-ZÄÖÜ]+/e /er /
-/^[^A-ZÄÖÜ]+/\{adj-e\}/{adj-er}/
+/^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/e /er /
+/^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/\{adj-e\}/{adj-er}/
 
 # plural nouns
 /^\{pl\}.*?[A-ZÄÖÜ][^ ,]+/([^snai])$/$1n/
 
 # weak nouns
-/Prinz\b/Prinzen/
+/(Prinz|Akolyth)\b/$1en/
 /[A-ZÄÖÜ][^ ,]+/(Mensch|[Bb]är|[^e]ist|ant|taur|myzet|[Ff]ürst|herz)$/$1en/
 /[A-ZÄÖÜ][^ ,]+/([Ss]chamane|[Ss]chütze|Sklave|[Hh]err|loge|mycete)$/$1n/
 /[A-ZÄÖÜ][^ ,]+/([Rr]iese|[Dd]rache|[Dd]ruide|[Hh]eilige|Ahne)$/$1n/
@@ -212,6 +212,7 @@ GENERATE:gen
 
 # fixup weak nouns
 /herzs\b/herzens/
+/(Prinz|Akolyth)\b/$1en/
 /^.*?(?=(#|$))/(Mensch|[Bb]är|[^e]ist|ant|taur|myzet|[Ff]ürst)s$/$1en/
 /^.*?(?=(#|$))/([Ss]chamane|[Ss]chütze|Sklave|[Hh]err|loge|mycete)s$/$1n/
 /^.*?(?=(#|$))/([Rr]iese|[Dd]rache|[Dd]ruide|[Hh]eilige|Ahne)s$/$1n/
