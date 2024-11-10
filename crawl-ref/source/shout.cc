@@ -148,6 +148,7 @@ bool monster_attempt_shout(monster &mon)
  */
 void monster_shout(monster* mons, int shout)
 {
+    return;
     shout_type s_type = static_cast<shout_type>(shout);
     mon_acting mact(mons);
 
