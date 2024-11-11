@@ -4328,6 +4328,7 @@ static string _get_species_insult(const string &species, const string &type)
 static string _resolve_conditional_speech(const string &s,
                                           const map<string, string> &params)
 {
+    fprintf(stderr, "Enter _resolve_conditional_speech\n");
     static const string elem = "([^:\\?\\[\\]]*)"; // anything but "[?:]"
     static const regex rgx("\\[" + elem + "\\?" + elem + ":" + elem  + "\\]");
     string result = s;
@@ -4378,6 +4379,7 @@ static string _resolve_conditional_speech(const string &s,
         start = match.suffix().first;
     }
 
+    fprintf(stderr, "Exit _resolve_conditional_speech: result=%s\n", result.c_str());
     return result;
 }
 
@@ -4466,6 +4468,7 @@ static string _get_sound_string(int s_type, bool verb_only)
 string do_mon_str_replacements(const string &in_msg, const monster& mons,
                                int s_type)
 {
+    fprintf(stderr, "Enter do_mon_str_replacements: msg=%s\n", in_msg.c_str());
     string msg = in_msg;
 
     const actor* foe = (mons.wont_attack()
@@ -4695,6 +4698,7 @@ string do_mon_str_replacements(const string &in_msg, const monster& mons,
 
     msg = maybe_capitalise_substring(msg);
 
+    fprintf(stderr, "Exit do_mon_str_replacements: msg=%s\n", msg.c_str());
     return msg;
 }
 

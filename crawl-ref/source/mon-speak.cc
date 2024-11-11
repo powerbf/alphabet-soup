@@ -211,11 +211,15 @@ static string __get_speak_string(const vector<string> &prefixes,
                                  bool no_foe_name, bool no_god,
                                  bool unseen)
 {
+    fprintf(stderr, "Enter __get_speak_string: key=%s\n", key.c_str());
     string msg = _try_exact_string(prefixes, key, no_player, no_foe,
                                    no_foe_name, no_god, unseen);
 
     if (!msg.empty())
+    {
+        fprintf(stderr, "Exit __get_speak_string (exact string): msg=%s\n", msg.c_str());
         return msg;
+    }
 
     // Combinations of prefixes by threes
     const int size = prefixes.size();
@@ -233,7 +237,10 @@ static string __get_speak_string(const vector<string> &prefixes,
                     msg = getSpeakString("default " + prefix + key);
 
                     if (!msg.empty())
+                    {
+                        fprintf(stderr, "Exit __get_speak_string (prefixes by threes): msg=%s\n", msg.c_str());
                         return msg;
+                    }
                 }
     }
 
@@ -249,7 +256,10 @@ static string __get_speak_string(const vector<string> &prefixes,
                 msg = getSpeakString("default " + prefix + key);
 
                 if (!msg.empty())
+                {
+                    fprintf(stderr, "Exit __get_speak_string (prefixes by twos): msg=%s\n", msg.c_str());
                     return msg;
+                }
             }
     }
 
@@ -263,13 +273,17 @@ static string __get_speak_string(const vector<string> &prefixes,
             msg = getSpeakString("default " + prefix + key);
 
             if (!msg.empty())
+            {
+                fprintf(stderr, "Exit __get_speak_string (prefixes singly): msg=%s\n", msg.c_str());
                 return msg;
+            }
         }
     }
 
     // No prefixes
     msg = getSpeakString("default " + key);
 
+    fprintf(stderr, "Exit __get_speak_string (no prefix): msg=%s\n", msg.c_str());
     return msg;
 }
 
@@ -280,6 +294,7 @@ static string _get_speak_string(const vector<string> &prefixes,
                                 bool no_foe_name, bool no_god,
                                 bool unseen)
 {
+    fprintf(stderr, "Enter _get_speak_string: key=%s\n", key.c_str());
     int duration = 1;
     if ((mons->flags & MF_BANISHED) && !player_in_branch(BRANCH_ABYSS))
         key += " banished";
@@ -328,6 +343,7 @@ static string _get_speak_string(const vector<string> &prefixes,
         break;
     }
 
+    fprintf(stderr, "Exit _get_speak_string: msg=%s\n", msg.c_str());
     return msg;
 }
 
@@ -412,6 +428,8 @@ static actor* _get_foe(const monster &mon)
 // Returns true if something is said.
 bool mons_speaks(monster* mons)
 {
+    fprintf(stderr, "Enter mons_speaks: mons=%s\n", mons ? mons->name(DESC_DBNAME).c_str() : "(null)");
+
     ASSERT(mons); // XXX: change to monster &mons
     ASSERT(!invalid_monster_type(mons->type));
 
@@ -419,6 +437,7 @@ bool mons_speaks(monster* mons)
     if ((mons->asleep() || mons->cannot_act() || mons->flags & MF_EXPLODE_KILL)
         && !(mons->type == MONS_NATASHA && !mons->alive()))
     {
+        fprintf(stderr, "Exit mons_speaks (early exit)\n");
         return false;
     }
 
@@ -440,34 +459,50 @@ bool mons_speaks(monster* mons)
         // to not have to deal with cases of speaking monsters which the
         // player can't see.
         if (unseen && !confused)
+        {
+            fprintf(stderr, "Exit mons_speaks (unseen && !confused)\n");
             return false;
+        }
 
         // Silenced monsters only "speak" 1/3 as often as non-silenced,
         // unless they're normally silent (S_SILENT).
         if (mons->is_silenced() && mons_can_shout(mons->type)
             && !one_chance_in(3))
         {
+            fprintf(stderr, "Exit mons_speaks (silenced)\n");
             return false;
         }
 
         // Berserk monsters just want your hide.
         if (mons->berserk_or_insane())
+        {
+            fprintf(stderr, "Exit mons_speaks (berserk/insane)\n");
             return false;
+        }
 
         // Rolling beetles shouldn't twitch antennae
         if (mons->has_ench(ENCH_ROLLING))
+        {
+            fprintf(stderr, "Exit mons_speaks (rolling)\n");
             return false;
+        }
 
         // Charmed monsters aren't too expressive.
         if (mons->has_ench(ENCH_CHARM) && !one_chance_in(3))
+        {
+            fprintf(stderr, "Exit mons_speaks (charmed)\n");
             return false;
+        }
     }
 
     vector<string> prefixes;
     if (mons->neutral())
     {
         if (!force_speak && coinflip()) // Neutrals speak half as often.
+        {
+            fprintf(stderr, "Exit mons_speaks (neutral 50%% chance to not speak)\n");
             return false;
+        }
 
         prefixes.emplace_back("neutral");
     }
@@ -668,6 +703,7 @@ bool mons_speaks(monster* mons)
 #ifdef DEBUG_MONSPEAK
         dprf(DIAG_SPEECH, "result: \"__NONE\"!");
 #endif
+        fprintf(stderr, "Exit mons_speaks (msg=__NONE)\n");
         return false;
     }
 
@@ -697,6 +733,7 @@ bool mons_speaks(monster* mons)
 #ifdef DEBUG_MONSPEAK
         dprf(DIAG_SPEECH, "result: \"__NONE\"!");
 #endif
+        fprintf(stderr, "Exit mons_speaks (msg=__NONE)\n");
         return false;
     }
 
@@ -716,6 +753,7 @@ bool mons_speaks(monster* mons)
 #ifdef DEBUG_MONSPEAK
         dprf(DIAG_SPEECH, "result: \"__NONE\"!");
 #endif
+        fprintf(stderr, "Exit mons_speaks (msg=__NONE)\n");
         return false;
     }
 
@@ -747,6 +785,7 @@ bool mons_speaks(monster* mons)
 #ifdef DEBUG_MONSPEAK
                     dprf(DIAG_SPEECH, "result: \"__NONE\"!");
 #endif
+                    fprintf(stderr, "Exit mons_speaks (msg=__NONE)\n");
                     return false;
                 }
 
@@ -771,6 +810,7 @@ bool mons_speaks(monster* mons)
         dprf(DIAG_SPEECH, "final result: %s!",
              (msg.empty() ? "empty" : "\"__NONE\""));
 #endif
+        fprintf(stderr, "Exit mons_speaks (msg=__NONE or empty)\n");
         return false;
     }
 
@@ -779,10 +819,13 @@ bool mons_speaks(monster* mons)
         msg::streams(MSGCH_DIAGNOSTICS)
             << "__NEXT used by shape-based speech string for monster '"
             << mons->name(DESC_PLAIN) << "'" << endl;
+        fprintf(stderr, "Exit mons_speaks (msg=__NEXT)\n");
         return false;
     }
 
-    return mons_speaks_msg(mons, msg, MSGCH_TALK, silence);
+    bool result = mons_speaks_msg(mons, msg, MSGCH_TALK, silence);
+    fprintf(stderr, "Exit mons_speaks\n");
+    return result;
 }
 
 bool invalid_msg(const monster &mon, string msg)
@@ -808,8 +851,12 @@ bool invalid_msg(const monster &mon, string msg)
 bool mons_speaks_msg(monster* mons, const string &msg,
                      const msg_channel_type def_chan, bool silence)
 {
+    fprintf(stderr, "Enter mons_speaks_msg: msg=%s\n", msg.c_str());
     if (!you.see_cell(mons->pos()))
+    {
+        fprintf(stderr, "Exit mons_speaks_msg() - player can't see cell\n");
         return false;
+    }
 
     mon_acting mact(mons);
 
@@ -859,5 +906,6 @@ bool mons_speaks_msg(monster* mons, const string &msg,
             mprf(msg_type, "%s", line.c_str());
         }
     }
+    fprintf(stderr, "Exit mons_speaks_msg\n");
     return noticed;
 }

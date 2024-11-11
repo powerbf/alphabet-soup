@@ -148,7 +148,7 @@ bool monster_attempt_shout(monster &mon)
  */
 void monster_shout(monster* mons, int shout)
 {
-    return;
+    fprintf(stderr, "Enter monster_shout: mons=%s\n", mons ? mons->name(DESC_DBNAME).c_str() : "(null)");
     shout_type s_type = static_cast<shout_type>(shout);
     mon_acting mact(mons);
 
@@ -230,6 +230,7 @@ void monster_shout(monster* mons, int shout)
             if (!mons->del_ench(ENCH_SUBMERGED))
             {
                 // Couldn't unsubmerge.
+                fprintf(stderr, "Exit monster_shout - monster can't unsubmerge\n");
                 return;
             }
 
@@ -262,6 +263,8 @@ void monster_shout(monster* mons, int shout)
 
     if (crawl_state.game_is_hints() && (heard || you.can_see(*mons)))
         learned_something_new(HINT_MONSTER_SHOUT, mons->pos());
+
+    fprintf(stderr, "Exit monster_shout\n");
 }
 
 // @noloc section end (lookup keys and diagnotic messages)

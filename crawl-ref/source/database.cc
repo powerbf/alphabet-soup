@@ -960,15 +960,19 @@ string getGameStartDescription(const string &key)
 // Shout DB specific functions.
 string getShoutString(const string &monst, const string &suffix)
 {
+    fprintf(stderr, "Enter getShoutString: monster=%s, suffix=%s\n", monst.c_str(), suffix.c_str());
     int num_replacements = 0;
 
-    return _getRandomisedStr(ShoutDB, monst, suffix, num_replacements);
+    string result = _getRandomisedStr(ShoutDB, monst, suffix, num_replacements);
+    fprintf(stderr, "Exit getShoutString: result=%s\n", result.c_str());
+    return result;
 }
 
 /////////////////////////////////////////////////////////////////////////////
 // Speak DB specific functions.
 string getSpeakString(const string &key)
 {
+    fprintf(stderr, "Enter getSpeakString: key=%s\n", key.c_str());
     int num_replacements = 0;
 
 #ifdef DEBUG_MONSPEAK
@@ -977,6 +981,7 @@ string getSpeakString(const string &key)
     string txt = _getRandomisedStr(SpeakDB, key, "", num_replacements);
     _execute_embedded_lua(txt);
 
+    fprintf(stderr, "Exit getSpeakString: result=%s\n", txt.c_str());
     return txt;
 }
 
