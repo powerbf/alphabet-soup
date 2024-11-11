@@ -256,7 +256,7 @@ jobs:
         run: "/usr/sbin/update-ccache-symlinks"
       - name: "Setup ccache: clear stats"
         run: ccache --zero-stats
-      - run: make -j$(nproc) CROSSHOST=i686-w64-mingw32 package-windows-${{ matrix.build_type }}
+      - run: make -j$(nproc) DEBUG=1 NO_OPTIMIZE=1 CROSSHOST=i686-w64-mingw32 package-windows-${{ matrix.build_type }}
         working-directory: crawl-ref/source
       - name: Print ccache stats
         run: ccache -s
