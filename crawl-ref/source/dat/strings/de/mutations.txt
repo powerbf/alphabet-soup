@@ -46,7 +46,7 @@ heal wounds
 Wunde heilen
 %%%%
 You can heal yourself by infusing magical energy.
-Ihr könnt euch selbst heilen, indem ihr magische Energie zuführt.
+Ihr könnt dich selbst heilen, indem ihr magische Energie zuführt.
 %%%%
 sickness immunity
 Krankheitsimmunität
@@ -297,7 +297,7 @@ Ihr seid unglaublich ausweichend.
 
 %%%%
 You move quickly.
-Ihr bewegt euch schnell.
+Ihr bewegt dich schnell.
 %%%%
 amphibious
 amphibisch
@@ -1401,7 +1401,7 @@ Spells you cast may paralyse adjacent enemies.
 Von dich gewirkte Zauber können benachbarte Feinde lähmen.
 %%%%
 Spells you cast may paralyse nearby enemies.
-Von euch gewirkte Zauber können Feinde in der Nähe lähmen.
+Von dich gewirkte Zauber können Feinde in der Nähe lähmen.
 %%%%
 Spells you cast and wands you use may paralyse nearby enemies.
 Zaubersprüche und Zauberstäbe, die Ihr verwendet, können Feinde in der Nähe lähmen.
@@ -1557,7 +1557,7 @@ The wave of death grows in power.
 Die Todeswelle gewinnt an Kraft.
 %%%%
 Your control of surrounding life forces is gone.
-Ihr habt keine Kontrolle mehr über die euch umgebenden Lebenskräfte.
+Ihr habt keine Kontrolle mehr über die dich umgebenden Lebenskräfte.
 %%%%
 Your control of surrounding life forces weakens.
 Deine Kontrolle über die dich umgebenden Lebenskräfte lässt nach.

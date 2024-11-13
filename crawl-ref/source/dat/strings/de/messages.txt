@@ -2042,7 +2042,7 @@ Your bones ache.
 Deine Knochen schmerzen.
 %%%%
 You feel weird for a moment.
-Ihr fühlt euch einen Moment lang komisch.
+Ihr fühlt dich einen Moment lang komisch.
 %%%%
 @The_monster@ has a weird expression for a moment.
 @The_monster@ hat für einen Moment einen seltsamen Gesichtsausdruck.
@@ -10974,7 +10974,7 @@ Der Raum verzieht sich für einen Moment um dich!
 %s beginnt ätzenden Schleim zu sickern!
 %%%%
 You feel a bond with %s.
-Ihr fühlt euch mit {dat}%s verbunden.
+Ihr fühlt dich mit {dat}%s verbunden.
 %%%%
 %s stops flaming.
 %s hört auf zu flammen.
@@ -11587,7 +11587,7 @@ Your magical contamination has completely faded away.
 Deine magische Verunreinigung ist vollständig verschwunden.
 %%%%
 You feel less contaminated with magical energies.
-Ihr fühlt euch weniger mit magischen Energien kontaminiert.
+Ihr fühlt dich weniger mit magischen Energien kontaminiert.
 %%%%
 You fade completely from view now that you are no longer glowing from magical contamination.
 Ihr verschwindet völlig aus dem Blickfeld, da Ihr nun nicht mehr durch magische Verseuchung glüht.
@@ -12511,10 +12511,10 @@ Yredelemnul will now gift you servants as you gain piety.
 Yredelemnul wird dich jetzt Diener schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 Yredelemnul will no longer gift you servants.
-Yredelemnul wird euch keine Diener mehr schenken.
+Yredelemnul wird dich keine Diener mehr schenken.
 %%%%
 Yredelemnul will gift you servants as you gain piety.
-Yredelemnul wird euch Diener schenken, als Ihr Frömmigkeit erlangt.
+Yredelemnul wird dich Diener schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 drain ambient life force
 Lebenskraft der Umgebung entziehen
@@ -12559,13 +12559,13 @@ speed up your combat
 Deinen Kampf beschleunigen
 %%%%
 Okawaru will now gift you equipment as you gain piety.
-Okawaru schenkt euch nun Ausrüstung, als Ihr Frömmigkeit erlangt.
+Okawaru schenkt dir nun Ausrüstung, als Ihr Frömmigkeit erlangt.
 %%%%
 Okawaru will no longer gift you equipment.
 Okawaru wird dich keine Ausrüstung mehr schenken.
 %%%%
 Okawaru will gift you equipment as you gain piety.
-Okawaru schenkt euch Ausrüstung, als Ihr Frömmigkeit erlangt.
+Okawaru schenkt dir Ausrüstung, als Ihr Frömmigkeit erlangt.
 %%%%
 gain health from killing
 Gesundheit durch Töten erhalten
@@ -12601,7 +12601,7 @@ Sif Muna will no longer gift you books.
 Sif Muna wird dich keine Bücher mehr schenken.
 %%%%
 Sif Muna will gift you books as you gain piety.
-Sif Muna wird euch Bücher schenken, als Ihr Frömmigkeit erlangt.
+Sif Muna wird dich Bücher schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 go berserk at will
 nach Belieben in den Berserker gehen
@@ -12625,10 +12625,10 @@ draw from decks of power
 aus Decks der Macht ziehen
 %%%%
 Nemelex will now gift you decks of power as you gain piety.
-Nemelex wird euch jetzt Decks der Macht schenken, als Ihr Frömmigkeit erlangt.
+Nemelex wird dich jetzt Decks der Macht schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 Nemelex will no longer gift you decks.
-Nemelex wird euch keine Decks mehr schenken.
+Nemelex wird dich keine Decks mehr schenken.
 %%%%
 Nemelex will gift you decks of power as you gain piety.
 Nemelex wird dich Decks der Macht schenken, als Ihr Frömmigkeit erlangst.
@@ -13516,7 +13516,7 @@ You have %d gp
 Ihr habt %d Gold
 %%%%
 You cannot afford %s; travel there anyway? (y/N)
-Ihr könnt euch {acc}%s nicht leisten; trotzdem dorthin reisen? (j/N)
+Ihr könnt dich {acc}%s nicht leisten; trotzdem dorthin reisen? (j/N)
 %%%%
 %s with an entry fee of %d gold pieces.
 %s mit einer Eintrittsgebühr von %d Goldstücken.
@@ -13765,7 +13765,7 @@ You have finished your manual of %s and toss it away.
 Ihr habt dein Handbuch von {dat}%s zu Ende gelesen und wirft es weg.
 %%%%
 You can't set training targets!
-Ihr könnt euch keine Trainingsziele setzen!
+Ihr könnt dich keine Trainingsziele setzen!
 %%%%
 Clearing the skill training target for %s.
 Das Trainingsziels für {acc}%s wird gelöscht.
@@ -16036,7 +16036,7 @@ This staircase leads to a travel-excluded area!
 Diese Treppe führt zu einem ausgeschlossenen Gebiet!
 %%%%
 You have just %d turns in %s to find a new floor before Zot consumes you.
-Ihr habt nur %d Runden in {dat}%s, um eine neue Ebene zu finden, bevor Zot euch verschlingt.
+Ihr habt nur %d Runden in {dat}%s, um eine neue Ebene zu finden, bevor Zot dich verschlingt.
 %%%%
 Enter next level anyway?
 Nächste Eben trotzdem eintreten?
@@ -16648,7 +16648,7 @@ Ihr hört einen Platsch.
 %%%%
 # note: Xom's command to slimes/jellies (they reproduce by dividing)
 %s says: Divide and consume!
-%s sagt: Scheidet euch und fresst!
+%s sagt: Scheidet dich und fresst!
 %%%%
 You feel a genetic drift.
 Ihr fühlt eine genetische Drift.
@@ -17858,7 +17858,7 @@ The monster is silenced and likely won't say anything.
 Das Monster befindet sich in Stille und wird wahrscheinlich nichts sagen.
 %%%%
 Both you and the monster are silenced, so you likely won't hear anything.
-Ihr and das Monster befindet euch in Stille. Also, Ihr werdet wahrscheinlich nichts hören.
+Ihr and das Monster befindet dich in Stille. Also, Ihr werdet wahrscheinlich nichts hören.
 %%%%
 == Done ==
 == Fertig ==
@@ -19450,7 +19450,7 @@ You hear the @adjective@crackling of a melting archway very nearby.
 Ihr hört das @adjective@Knacken eines schmelzenden Torbogens ganz in der Nähe.
 %%%%
 You feel a wave of frost pass over you.
-Ihr spürt, wie eine Welle der Kälte über euch hereinbricht.
+Ihr spürt, wie eine Welle der Kälte über dich hereinbricht.
 %%%%
 There is an entrance to an ice cave on this level. Hurry and find it before the portal melts!
 Auf dieser Ebene gibt es einen Eingang zu einer Eishöhle. Beeilt dich und findet ihn, bevor das Portal schmilzt!

@@ -707,7 +707,7 @@ You are agile.
 Ihr seid agil.
 %%%%
 You feel a little less agile now.
-Ihr fühlt euch jetzt ein bisschen weniger agil.
+Ihr fühlt dich jetzt ein bisschen weniger agil.
 %%%%
 
 # Berserk
@@ -777,7 +777,7 @@ You are brilliant.
 Ihr seid brillant.
 %%%%
 You feel a little less clever now.
-Ihr fühlt euch jetzt ein bisschen weniger clever.
+Ihr fühlt dich jetzt ein bisschen weniger clever.
 %%%%
 
 # Confused
@@ -890,7 +890,7 @@ You are exhausted.
 Ihr seid erschöpft.
 %%%%
 You feel less exhausted.
-Ihr fühlt euch weniger erschöpft.
+Ihr fühlt dich weniger erschöpft.
 %%%%
 
 # Ozocubu's armour
@@ -959,7 +959,7 @@ You are mighty.
 Ihr seid mächtig.
 %%%%
 You feel a little less mighty now.
-Ihr fühlt euch jetzt ein bisschen weniger mächtig.
+Ihr fühlt dich jetzt ein bisschen weniger mächtig.
 %%%%
 
 # Paralysed
@@ -1040,7 +1040,7 @@ slimify
 verschleimen
 %%%%
 You feel less slimy.
-Ihr fühlt euch weniger schleimig.
+Ihr fühlt dich weniger schleimig.
 %%%%
 Your slime is starting to congeal.
 Dein Schleim beginnt zu erstarren.
@@ -1207,7 +1207,7 @@ in einem Wirbel
 #Wirbel
 %%%%
 You are in the eye of a polar vortex.
-Ihr befindet euch im Auge eines Polarwirbels.
+Ihr befindet dich im Auge eines Polarwirbels.
 %%%%
 
 # Leda's Liquefaction spell
@@ -1222,7 +1222,7 @@ You are liquefying the ground beneath you.
 Ihr verflüssigt den Boden unter dir.
 %%%%
 The ground is no longer liquid beneath you.
-Der Boden unter euch ist nicht mehr flüssig.
+Der Boden unter dir ist nicht mehr flüssig.
 %%%%
 
 # Heroism (Okawaru divine ability)
@@ -1288,7 +1288,7 @@ You are unable to create a polar vortex.
 Ihr seid nicht in der Lage, einen Polarwirbel zu erzeugen.
 %%%%
 The winds around you calm down.
-Die Winde um euch herum beruhigen sich.
+Die Winde um dich herum beruhigen sich.
 %%%%
 
 # Disjunction spell
@@ -1303,7 +1303,7 @@ disjunction
 Disjunktion
 %%%%
 You are disjoining your surroundings.
-Ihr trennt euch von eurer Umgebung.
+Ihr trennt dich von eurer Umgebung.
 %%%%
 The translocation energy dissipates.
 Die Translokationsenergie verflüchtigt sich.
@@ -1473,7 +1473,7 @@ You are more vulnerable to fire.
 Ihr seid stärker durch Feuer gefährdet.
 %%%%
 You feel less vulnerable to fire.
-Ihr fühlt euch weniger anfällig für Feuer.
+Ihr fühlt dich weniger anfällig für Feuer.
 %%%%
 
 # Barbs from a Manticore, etc.
@@ -1506,7 +1506,7 @@ You are more vulnerable to poison.
 Ihr seid anfälliger für Gift.
 %%%%
 You feel less vulnerable to poison.
-Ihr fühlt euch weniger anfällig für Gift.
+Ihr fühlt dich weniger anfällig für Gift.
 %%%%
 
 # Let it go, let it go
@@ -1522,7 +1522,7 @@ You are partly encased in ice.
 Ihr seid teilweise in Eis eingeschlossen.
 %%%%
 The ice encasing you melts away.
-Das Eis, das euch umgibt, schmilzt weg.
+Das Eis, das dich umgibt, schmilzt weg.
 %%%%
 
 # Magic sapped
@@ -1665,10 +1665,10 @@ qazlal cold resistance
 qazlal kälteresistenz
 %%%%
 Qazlal is protecting you from cold.
-Qazlal schützt euch vor Kälte.
+Qazlal schützt dich vor Kälte.
 %%%%
 You feel less protected from cold.
-Ihr fühlt euch weniger vor Kälte geschützt.
+Ihr fühlt dich weniger vor Kälte geschützt.
 %%%%
 Your protection from cold is fading.
 Dein Schutz vor Kälte lässt nach.
@@ -1686,10 +1686,10 @@ qazlal elec resistance
 qazlal elec Resistanz
 %%%%
 Qazlal is protecting you from electricity.
-Qazlal schützt euch vor Elektrizität.
+Qazlal schützt dich vor Elektrizität.
 %%%%
 You feel less protected from electricity.
-Ihr fühlt euch weniger vor Elektrizität geschützt.
+Ihr fühlt dich weniger vor Elektrizität geschützt.
 %%%%
 Your protection from electricity is fading.
 Dein Schutz vor Elektrizität lässt nach.
@@ -1704,10 +1704,10 @@ qazlal ac
 qazlal ac
 %%%%
 Qazlal is protecting you from physical damage.
-Qazlal schützt euch vor physischem Schaden.
+Qazlal schützt dich vor physischem Schaden.
 %%%%
 You feel less protected from physical attacks.
-Ihr fühlt euch weniger geschützt vor physischen Angriffen.
+Ihr fühlt dich weniger geschützt vor physischen Angriffen.
 %%%%
 Your protection from physical attacks is fading.
 Dein Schutz vor physischen Angriffen nimmt ab.
@@ -1991,7 +1991,7 @@ Ihr flackert einen Moment lang.
 %%%%
 %%%%
 You feel more conspicuous.
-Ihr fühlt euch auffälliger.
+Ihr fühlt dich auffälliger.
 %%%%
 You flicker back into view.
 Ihr flackert wieder ins Blickfeld.
