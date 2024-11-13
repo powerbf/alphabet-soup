@@ -106,48 +106,48 @@ laufen
 #################################
 
 # Finite verbs conjugated for "you".
-# NOTE: In German, we are using "Ihr" for "you", so we must conjugate accordingly.
+# NOTE: In German, we are using "du" for "you", so we must conjugate accordingly.
 
 %%%%
 {verb-ihr}walk
-geht
+gehst
 %%%%
 {verb-ihr}step
-tretet
+trittst
 %%%%
 {verb-ihr}fly
-fliegt
+fliegst
 %%%%
 {verb-ihr}swim
-schwimmt
+schwimmst
 %%%%
 {verb-ihr}crawl
-kriecht
+kriechst
 %%%%
 # naga
 {verb-ihr}slither
-schlittert
+schlitterst
 %%%%
 # octopode
 {verb-ihr}wriggle
-schlängelt
+schlängelst
 %%%%
 # tengu
 {verb-ihr}glide
-gleitet
+gleitest
 %%%%
 # vine stalker
 {verb-ihr}stalk
-pirschet
+pirschest
 %%%%
 {verb-ihr}passwall
 wandpasst
 %%%%
 {verb-ihr}shadow step
-schattenschreitet
+schattenschreitest
 %%%%
 {verb-ihr}rampage
-randaliert
+randalierst
 %%%%
 
 #################################
