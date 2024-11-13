@@ -3,7 +3,7 @@ welcome
 
 <white>Willkommen bei Dungeon Crawl!</white>
 
-Eure Aufgabe ist es einen <w>{{ return you.race() }} {{ return you.class()
+Deine Aufgabe ist es einen <w>{{ return you.race() }} {{ return you.class()
 }}</w> sicher durch die Tiefen des Dungeons zu leiten und dabei den sagenhaften
 Orb von Zot zurück zur Oberfläche zu bringen. Wie auch immer, bei deinen ersten
 Versuchen sollte entdecken das Hauptziel sein. Versuche so tief wie möglich zu
@@ -50,7 +50,7 @@ Gegner kämpft. Das ist zwar riskant, macht Euch aber schneller und kräftiger.
 %%%%
 death ranger melee
 
-Eure Bogen und Pfeilen sind unheimlich stark gegen entfernte Monster. Denkt
+Deine Bogen und Pfeilen sind unheimlich stark gegen entfernte Monster. Denkt
 daran alle Pfeile, die im Dungeon liegen, mitzunehmen.
 %%%%
 death random 0
@@ -193,7 +193,7 @@ und muss im nächsten Kampf wiedergewonnen werden.
 HINT_CONVERT
 
 Ihr seid gerade zur Anbetung von <w>{{ return you.god() }}</w> konvertiert.
-Eure Frömmigkeit (göttliche Gunst) wird zunehmen, wenn Ihr Dinge tut, die deinem
+Deine Frömmigkeit (göttliche Gunst) wird zunehmen, wenn Ihr Dinge tut, die deinem
 neuen Gott gefallen, und sie wird im Laufe der Zeit abnehmen.
 
 Ihr könnt die Vorlieben und Abneigungen deines Gottes sowie deinen aktuellen
@@ -662,7 +662,7 @@ wiederhergestellt.
 %%%%
 HINT_HEALING_POTIONS
 
-Eure Gesundheit ist gefährlich niedrig. Es könnte eine gute Idee sein, sich
+Deine Gesundheit ist gefährlich niedrig. Es könnte eine gute Idee sein, sich
 zurückzuziehen und/oder einen Trank der Wundheilung oder Heilung zu trinken.
 %%%%
 HINT_NEED_HEALING
@@ -790,7 +790,7 @@ Oh-oh, $1 wird unzufrieden, weil deine Frömmigkeit wird knapp. Möglicherweise
 ist dies der Fall, weil Ihr ketzerische Handlungen begeht, weil $1 deine
 Anbetung als mangelhaft empfindet oder eine Kombination aus beidem. Wenn deine
 Frömmigkeit auf Null sinkt, werdet Ihr exkommuniziert. Fangt also besser an,
-Eure Frömmigkeit zu steigern, und/oder hört auf, deinen Gott zu ärgern. Auf
+deine Frömmigkeit zu steigern, und/oder hört auf, deinen Gott zu ärgern. Auf
 jeden Fall solltet Ihr die Beschreibung der Religion noch einmal lesen. Drückt
 dazu <w>$cmd[CMD_DISPLAY_RELIGION]</w><localtiles> oder drücke <w>Shift</w>
 und <w>Rechtsklick</w> auf deinen Avatar</localtiles>.
@@ -798,7 +798,7 @@ und <w>Rechtsklick</w> auf deinen Avatar</localtiles>.
 HINT_EXCOMMUNICATED
 
 Oh-oh, $1 hat Euch gerade exkommuniziert, weil Ihr nicht mehr fromm genug seid
-(Eure göttliche Gunst ist ins Leere gelaufen). Vielleicht habt Ihr wiederholt
+(deine göttliche Gunst ist ins Leere gelaufen). Vielleicht habt Ihr wiederholt
 gegen die religiösen Regeln verstoßen, oder Ihr habt deine Gottheit nicht oft
 genug zufrieden gestellt, oder eine Kombination aus beidem. Wenn Ihr einen
 Altar findet, der $1 gewidmet ist, könnt Ihr wieder konvertieren, und alles
@@ -1116,7 +1116,7 @@ Fertigkeiten zu werfen und ihr Training zu verwalten.
 HINT_FUMBLING_SHALLOW_WATER
 
 Bei Kämpfen im flachen Wasser kann es vorkommen, dass Ihr ausrutschst und
-Euren Angriff verpatzt. Wenn möglich, versucht, auf festem Boden zu kämpfen.
+deinen Angriff verpatzt. Wenn möglich, versucht, auf festem Boden zu kämpfen.
 %%%%
 HINT_CLOUD_WARNING
 
@@ -1272,7 +1272,7 @@ HINT_WEAPON_HAS_RESIST
 Diese Waffe bietet ihrem Träger Schutz vor bestimmten Quellen. Für eine
 Übersicht über deine Resistenzen (unter anderem) drückt
 <w>$cmd[CMD_RESISTS_SCREEN]</w><tiles> oder <w>rechtsklickt</w></tiles> auf
-Euren Avatar.
+deinen Avatar.
 %%%%
 HINT_WIELD_WEAPON
 
@@ -1420,7 +1420,7 @@ steigt schneller auf, bis Ihr den Inhalt des Handbuchs aufgebraucht habt.
 HINT_DESCRIBE_SPELLBOOK
 
 Ihr könnt ein Zauberbuch in die Hand nehmen, um die darin enthaltenen
-Zaubersprüche zu deiner Zauberbibliothek hinzuzufügen. (Eure Zauberbibliothek
+Zaubersprüche zu deiner Zauberbibliothek hinzuzufügen. (Deine Zauberbibliothek
 könnt Ihr mit <w>$cmd[CMD_MEMORISE_SPELL]</w> anschauen.)
 %%%%
 HINT_DESCRIBE_CORPSE

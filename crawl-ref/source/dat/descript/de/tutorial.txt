@@ -61,7 +61,7 @@ könnt einen näheren Blick auf einen Kartenausschnitt mit einem
 <input>Links-Klick</input> dort hingehen.</localtiles><webtiles> Die
 Übersichtskarte könnt Ihr mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und
 dann den Cursor herumbewegen, um Euch auf der Ebene umzuschauen. Wo auch immer
-Euer Cursor hinzeigt, könnt Ihr Euch mit einem Druck auf <input>.</input> oder
+dein Cursor hinzeigt, könnt Ihr Euch mit einem Druck auf <input>.</input> oder
 <input>Eingabe</input> hinbewegen. Drücke <input>Escape</input> um in den
 normalen Spielmodus zurückzukehren.</webtiles><console>Die Übersichtskarte
 könnt Ihr mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und dann den Cursor
@@ -232,7 +232,7 @@ Darts werfen: mittels <input>$cmd[CMD_FIRE]</input><localtiles> oder
 <input>$cmd[CMD_TARGET_CYCLE_FORWARD]</input> wechseln wenn Ihr im Ziel-Modus
 seid. Der Wurm ist harmlos, denn er befindet sich hinter der Lava, deswegen
 konzentriere Euch auf die Übungspuppe, welche auf Euch schießen kann. Bestätige
-Eure Auswahl dann wieder mit <input>$cmd[CMD_TARGET_SELECT]</input> oder
+deine Auswahl dann wieder mit <input>$cmd[CMD_TARGET_SELECT]</input> oder
 <input>Eingabe</input>.
 %%%%
 tutorial2 travel_reminder
@@ -315,9 +315,9 @@ Inventar</localtiles>), um heraus zu finden was diese sind.
 tutorial3 inventory
 
 Um Euch die Beschreibung deiner neuen Waffe anzusehen, finde und wähle sie in
-Eurem Inventar aus (<input>$cmd[CMD_DISPLAY_INVENTORY]</input>).<localtiles>
+deinem Inventar aus (<input>$cmd[CMD_DISPLAY_INVENTORY]</input>).<localtiles>
 Das kannst auch mit<input>Mausdrüber</input> und <input>Rechts-Klick</input> in
-Eurem Inventar Feld machen.</localtiles> Merke Euch, das alle
+deinem Inventar Feld machen.</localtiles> Merke Euch, das alle
 Gegenstands-Befehle auch in der Gegenstands-Beschreibung funktionieren.
 %%%%
 tutorial3 downstairs

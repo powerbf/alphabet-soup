@@ -49,12 +49,12 @@ Ihr wehrt Geschosse ab und verbessern so deine Chance, ihnen auszuweichen.
 %%%%
 Touch status
 
-Eure Angriffe verursachen keinen Schaden, es besteht jedoch die Chance, dass sie
+Deine Angriffe verursachen keinen Schaden, es besteht jedoch die Chance, dass sie
 die Monster, die sie treffen, verwirren.
 %%%%
 Will++ status
 
-Eure Willenskraft ist viel stärker und schützt vor vielen magischen Effekten.
+Deine Willenskraft ist viel stärker und schützt vor vielen magischen Effekten.
 %%%%
 Berserk status
 
@@ -92,7 +92,7 @@ einer Mutation noch zu einem Verlust der Verstohlenheit.
 %%%%
 Drain status
 
-Eure maximalen Trefferpunkte wurden vorübergehend durch negative Energie
+Deine maximalen Trefferpunkte wurden vorübergehend durch negative Energie
 ausgezehrt. Dieser Status lässt nicht nach, wenn Ihr wartet, sondern erlischt
 allmählich, wenn Ihr Erfahrung sammelt.
 %%%%
@@ -156,7 +156,7 @@ andere Aktionen ausführen.)
 %%%%
 Mark status
 
-Euer Standort wird durch die Wirkung einer Falle oder eines Zaubers markiert,
+Dein Standort wird durch die Wirkung einer Falle oder eines Zaubers markiert,
 und Monster können Euch gezielter jagen und Euch entdecken, auch wenn Ihr Euch
 nicht in ihrem Blickfeld befinden.
 %%%%
@@ -198,7 +198,7 @@ wird die gesamte durch die Häutung verlorene Gesundheit wiederhergestellt.
 %%%%
 Weak status
 
-Eure physischen Angriffe richten weniger Schaden an.
+Deine physischen Angriffe richten weniger Schaden an.
 %%%%
 Frozen status
 
@@ -206,26 +206,26 @@ Ihr seid mit Eis bedeckt und deine Bewegungsgeschwindigkeit ist reduziert.
 %%%%
 Sap status
 
-Eure Magie wird geschwächt. Mit jedem Zauberspruch besteht die Chance, dass sich
+Deine Magie wird geschwächt. Mit jedem Zauberspruch besteht die Chance, dass sich
 die Wirkung verstärkt, was wiederum dazu führt, dass deine Erfolgsquote sinkt.
 %%%%
 Brainless status
 
-Eure Intelligenz ist auf 0 gesunken. Ihr seid verlangsamt, könnt keine Zauber
+Deine Intelligenz ist auf 0 gesunken. Ihr seid verlangsamt, könnt keine Zauber
 wirken oder memorisieren und beim Lesen von Schriftrollen scheitert Ihr
 normalerweise. Der Status bleibt auch nach der Wiederherstellung deiner
 Intelligenz für kurze Zeit bestehen.
 %%%%
 Clumsy status
 
-Eure Geschicklichkeit ist auf 0 gesunken. Ihr seid verlangsamt, könnt nicht
+Deine Geschicklichkeit ist auf 0 gesunken. Ihr seid verlangsamt, könnt nicht
 schleichen oder Schilde verwenden und seid fast völlig unfähig auszuweichen. Der
 Status bleibt auch nach Wiederherstellung deiner Geschicklichkeit noch kurze Zeit
 bestehen.
 %%%%
 Collapse status
 
-Eure Stärke ist auf 0 gesunken. Ihr seid verlangsamt und deine
+Deine Stärke ist auf 0 gesunken. Ihr seid verlangsamt und deine
 Gesundheitsregeneration ist stark reduziert. Der Status bleibt auch nach
 Wiederherstellung deiner Stärke noch kurze Zeit bestehen.
 %%%%
@@ -242,7 +242,7 @@ Geschicklichkeit steigert und erhält.
 %%%%
 Will/2 status
 
-Eure Willenskraft ist schwächer, was Euch anfällig für viele magische Effekte
+Deine Willenskraft ist schwächer, was Euch anfällig für viele magische Effekte
 macht.
 %%%%
 Stone status
@@ -262,7 +262,7 @@ Ihr seid widerstandsfähiger gegen Feuer, Kälte, Elektrizität, Gift und Säure
 %%%%
 Slime status
 
-Eure getragene Waffe oder deine Fäuste sind mit Schleim bedeckt und verwandeln
+Deine getragene Waffe oder deine Fäuste sind mit Schleim bedeckt und verwandeln
 das nächste lebende oder körperlose untote Monster, das ihr trefft, in einen
 neutralen Schleim.
 %%%%
@@ -316,7 +316,7 @@ Engulf status
 %%%%
 Stealth status
 
-Eure Verstohlenheit wird erheblich verbessert.
+Deine Verstohlenheit wird erheblich verbessert.
 %%%%
 Mirror status
 
@@ -340,11 +340,11 @@ Kreaturen in der Umgebung.
 %%%%
 Hero status
 
-Eure Kampffertigkeiten sind vorübergehend verbessert.
+Deine Kampffertigkeiten sind vorübergehend verbessert.
 %%%%
 Finesse status
 
-Eure Kampfgeschwindigkeit ist erheblich erhöht.
+Deine Kampfgeschwindigkeit ist erheblich erhöht.
 %%%%
 Prot status
 
@@ -436,7 +436,7 @@ Ihr könnt keine Schriftrollen lesen.
 %%%%
 Cleave status
 
-Eure Nahkampfangriffe verursachen Spaltungen und treffen alle benachbarten
+Deine Nahkampfangriffe verursachen Spaltungen und treffen alle benachbarten
 Ziele.
 %%%%
 Ambros status
@@ -456,7 +456,7 @@ Kreaturen herbei, die Euch angreifen.
 %%%%
 Blood status
 
-Euer Körper ist mit geronnenem Blut bedeckt, das Euch als Rüstung dient, solange
+Dein Körper ist mit geronnenem Blut bedeckt, das Euch als Rüstung dient, solange
 Ihr schwer verletzt seid.
 %%%%
 -Cast status
@@ -484,7 +484,7 @@ Statue status
 
 Ihr wurdet in eine langsame, aber extrem robuste Steinstatue verwandelt. dein
 Nahkampfschaden, sowohl unbewaffnet als auch mit Waffen, ist erheblich erhöht.
-Euer Steinkörper ist von Elektrizität isoliert und resistent gegen Gift und
+Dein Steinkörper ist von Elektrizität isoliert und resistent gegen Gift und
 negative Energie. Alle ausgerüsteten Körperpanzer, Handschuhe und Stiefel sind
 verschmolzen.
 %%%%
@@ -550,7 +550,7 @@ keine Zauber. {{
     if you.race() ~= "Vampire" then
         return "Die Wirksamkeit deiner Nahkampfangriffe während in dieser " ..
                "Form basiert auf deinem Erfahrungsstufe und nicht auf " ..
-               "Eurer Fertigkeit im waffenlosen Kampf."
+               "deiner Fertigkeit im waffenlosen Kampf."
     end
 }}
 %%%%
@@ -560,7 +560,7 @@ Ihr wurdet in ein Schwein verwandelt. Ihr bewegr Euch schnell, seid aber im
 Nahkampf weniger effektiv. Alle ausgerüsteten Waffen, Rüstungen und Ringe sind
 verschmolzen und Ihr könnt keine Zauber wirken. Die Effektivität deiner
 Nahkampfangriffe in dieser Form basiert auf deinem Erfahrungsstufe und nicht auf
-Eurer Fertigkeit im waffenlosen Kampf.
+deiner Fertigkeit im waffenlosen Kampf.
 %%%%
 App status
 
@@ -606,7 +606,7 @@ sind. Ihr seid resistent gegen Gift und immun gegen negative Energie.
 
 Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen und Ihr könnt keine
 Zauber wirken. Die Wirksamkeit deiner Nahkampfangriffe in dieser Form basiert auf
-Eurer Erfahrungsstufe und nicht auf deiner Fertigkeit im waffenlosen Kampf.
+deiner Erfahrungsstufe und nicht auf deiner Fertigkeit im waffenlosen Kampf.
 %%%%
 Shadow status
 
@@ -627,7 +627,7 @@ positioniert und verfallen schneller.
 %%%%
 -Hop status
 
-Eure Beine sind müde und Ihr könnt nicht hüpfen. Dieser Zustand wird erst
+Deine Beine sind müde und Ihr könnt nicht hüpfen. Dieser Zustand wird erst
 aufgehoben, wenn Ihr mehrere Runden lang nicht in Bewegung seid. (Andere
 Aktionen wie Angreifen oder Zaubern sind in Ordnung.)
 %%%%
@@ -672,8 +672,8 @@ schwören. Drückt dazu im Fähigkeitsmenü die Taste <white>Y</white>.
 %%%%
 Bloodless status
 
-Euer Körper ist völlig blutleer, was deine maximale Gesundheit verringert und
-Eure Gesundheit daran hindert, sich zu regenerieren, wenn Monster sichtbar sind.
+Dein Körper ist völlig blutleer, was deine maximale Gesundheit verringert und
+deine Gesundheit daran hindert, sich zu regenerieren, wenn Monster sichtbar sind.
 Ihr seid immun gegen Gift und negative Energie, widerstehen Kälte erheblich und
 sind resistent gegen Qualen.
 %%%%
@@ -695,7 +695,7 @@ Ihr grabt.
 %%%%
 Elixir status
 
-Eure Gesundheit und/oder Magie sowie die Gesundheit deiner Verbündeten werden
+Deine Gesundheit und/oder Magie sowie die Gesundheit deiner Verbündeten werden
 schnell wiederhergestellt.
 %%%%
 Fast+Slow status

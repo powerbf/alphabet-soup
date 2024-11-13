@@ -65,7 +65,7 @@ Ringe verschmolzen, und der Anwender kann keine Zauber mehr wirken.
 %%%%
 Exsanguinate ability
 
-Euer gesamtes Blut entfernen und in einen blutleeren Zustand übergehen.
+Dein gesamtes Blut entfernen und in einen blutleeren Zustand übergehen.
 %%%%
 Revivify ability
 
@@ -391,7 +391,7 @@ etwas mehr Frömmigkeit.
 Divine Vigour ability
 
 Erhöht die maximalen Treffer- und Magiepunkte, je nach Anrufungsfertigkeit.
-Eure aktuellen Treffer- und Magiepunkte werden ebenfalls proportional erhöht.
+Deine aktuellen Treffer- und Magiepunkte werden ebenfalls proportional erhöht.
 %%%%
 # Lugonu
 Depart the Abyss ability
@@ -569,7 +569,7 @@ Träger von dem Fluch.
 Shadow Step ability
 
 Erlaubt es Euch, in den Schatten einer beliebigen feindlichen Kreatur innerhalb
-Eurer Umbra zu treten und an einem zufälligen Ort in der Nähe des Ziels zu
+deiner Umbra zu treten und an einem zufälligen Ort in der Nähe des Ziels zu
 landen.
 %%%%
 Shadow Form ability
@@ -579,7 +579,7 @@ seid Ihr dauerhaft unsichtbar und immun gegen Gift, Auszehrung und Qual. Der
 gesamte eingehende Schaden wird halbiert, Ihr blutet Rauch bei jedem
 eingehenden Angriff und habt unendlich viel Willenskraft. Allerdings wird deine
 Fähigkeit halbiert, im Nahkampf und mit Fernkampfangriffen Schaden zu verursachen,
-Eure Zauberkraft wird stark beeinträchtigt und deine maximale
+deine Zauberkraft wird stark beeinträchtigt und deine maximale
 Gesundheit wird weiter reduziert, wenn Ihr Schaden nehmt. Die Fertigkeit
 Anrufungen erhöht die Dauer der Verwandlung.
 %%%%
@@ -629,7 +629,7 @@ betroffene Gebiet.
 Draw Out Power ability
 
 Zapft deine innere Kraft an, um Gesundheit und Magie wiederherzustellen und
-Euren Körper und Geist von äußeren Beschränkungen wie Netzen, Spinnweben,
+deinen Körper und Geist von äußeren Beschränkungen wie Netzen, Spinnweben,
 Umschlingung, Versteinerung, Verlangsamung und Verwirrung zu befreien. Die
 Menge der wiederhergestellten Gesundheit und Magie steigt mit der Frömmigkeit.
 %%%%
@@ -848,7 +848,7 @@ Wirkung dieser Fähigkeit ausgeführt werden, richten mehr Schaden an und verfeh
 Heavenly Storm ability
 
 Ruft einen Sturm aus himmlischen Wolken hervor. Während der Sturm wütet, werden
-Euer Ausweichen, deine Treffsicherheit sowie dein Schaden erheblich erhöht und
+dein Ausweichen, deine Treffsicherheit sowie dein Schaden erheblich erhöht und
 wenn ihr Feinde mit martialischen Angriffen trefft, erhöht sich der Bonus. Der
 Sturm wird mit der Zeit schwächer und verschwindet, sobald der Bonus auf Null
 fällt. Die himmlischen Wolken verhindern Unsichtbarkeit und verschleiern die
