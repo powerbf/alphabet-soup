@@ -1007,11 +1007,11 @@ Ihr hockt Euch auf den Altar von {acc}%s.
 %%%%
 # ice/pig/dragon form
 You bow your head before the altar of %s.
-Ihr verneigt Euer Kopf vor dem Altar von {dat}%s.
+Ihr verneigt dein Kopf vor dem Altar von {dat}%s.
 %%%%
 # hydra form
 You bow your heads before the altar of %s.
-Ihr verneigt Eure Köpfe vor dem Altar von {dat}%s.
+Ihr verneigt deine Köpfe vor dem Altar von {dat}%s.
 %%%%
 # statue/storm form
 You place yourself before the altar of %s.

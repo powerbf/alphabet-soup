@@ -15,37 +15,37 @@
 
 %%%%
 It affects your AC (%+d).
-Dieser Gegenstand beeinflusst Eure RK (%+d).
+Dieser Gegenstand beeinflusst deine RK (%+d).
 %%%%
 It affects your SH (%+d).
-Dieser Gegenstand beeinflusst Eure Abschirmung (%+d).
+Dieser Gegenstand beeinflusst deine Abschirmung (%+d).
 %%%%
 It affects your shielding (%+d).
-Dieser Gegenstand beeinflusst Eure Abschirmung (%+d).
+Dieser Gegenstand beeinflusst deine Abschirmung (%+d).
 %%%%
 It affects your evasion (%+d).
-Dieser Gegenstand beeinflusst Euer Ausweichen (%+d).
+Dieser Gegenstand beeinflusst dein Ausweichen (%+d).
 %%%%
 It affects your strength (%+d).
-Dieser Gegenstand beeinflusst Eure Stärke (%+d).
+Dieser Gegenstand beeinflusst deine Stärke (%+d).
 %%%%
 It affects your intelligence (%+d).
-Dieser Gegenstand beeinflusst Eure Intelligenz (%+d).
+Dieser Gegenstand beeinflusst deine Intelligenz (%+d).
 %%%%
 It affects your dexterity (%+d).
-Dieser Gegenstand beeinflusst Eure Geschicklichkeit (%+d).
+Dieser Gegenstand beeinflusst deine Geschicklichkeit (%+d).
 %%%%
 It affects your accuracy and damage with ranged weapons and melee (%+d).
-Dieser Gegenstand beeinflusst Eure Genauigkeit und Schaden mit Fernkampf- und Nahkampfwaffen (%+d).
+Dieser Gegenstand beeinflusst deine Genauigkeit und Schaden mit Fernkampf- und Nahkampfwaffen (%+d).
 %%%%
 It insulates you from electricity.
 Dieser Gegenstand isoliert Euch vor Elektrizität.
 %%%%
 It affects your health (%+d).
-Dieser Gegenstand beeinflusst Eure Gesundheit (%+d).
+Dieser Gegenstand beeinflusst deine Gesundheit (%+d).
 %%%%
 It affects your magic capacity (%+d).
-Dieser Gegenstand beeinflusst Eure magische Kapazität (%+d).
+Dieser Gegenstand beeinflusst deine magische Kapazität (%+d).
 %%%%
 It lets you see invisible.
 Dieser Gegenstand ermöglicht das Sehen des Unsichtbaren.
@@ -87,7 +87,7 @@ It protects you from missiles.
 Dieser Gegenstand schützt Euch vor Geschossen
 %%%%
 It increases your rate of health regeneration.
-Dieser Gegenstand erhöht die Geschwindigkeit Eurer Gesundheitsregeneration.
+Dieser Gegenstand erhöht die Geschwindigkeit deiner Gesundheitsregeneration.
 %%%%
 It protects you from acid and corrosion.
 Dieser Gegenstand schützt Euch vor Säure und Korrosion.
@@ -132,16 +132,16 @@ It renders you almost immune to %s.
 Dieser Gegenstand macht Euch fast immun gegen {acc}%s.
 %%%%
 It greatly decreases your willpower.
-Dieser Gegenstand reduziert Eure Willenskraft erheblich.
+Dieser Gegenstand reduziert deine Willenskraft erheblich.
 %%%%
 It greatly increases your willpower.
-Dieser Gegenstand erhöht Eure Willenskraft erheblich.
+Dieser Gegenstand erhöht deine Willenskraft erheblich.
 %%%%
 It decreases your willpower.
-Dieser Gegenstand reduziert Eure Willenskraft.
+Dieser Gegenstand reduziert deine Willenskraft.
 %%%%
 It increases your willpower.
-Dieser Gegenstand erhöht Eure Willenskraft.
+Dieser Gegenstand erhöht deine Willenskraft.
 %%%%
 It makes you much less stealthy.
 Dieser Gegenstand macht Euch viel weniger heimlich.
@@ -187,25 +187,25 @@ Dieser Gegenstand wurde entfernt.
 # magic enhancement
 %%%%
 It improves your spell success rate.
-Dieser Gegenstand verbessert die Erfolgsquote Eurer Zauber.
+Dieser Gegenstand verbessert die Erfolgsquote deiner Zauber.
 %%%%
 It enhances your fire magic.
-Dieser Gegenstand verstärkt Eure Feuermagie.
+Dieser Gegenstand verstärkt deine Feuermagie.
 %%%%
 It enhances your ice magic.
-Dieser Gegenstand verstärkt Eure Eismagie
+Dieser Gegenstand verstärkt deine Eismagie
 %%%%
 It enhances your earth magic.
-Dieser Gegenstand verstärkt Eure Erdmagie
+Dieser Gegenstand verstärkt deine Erdmagie
 %%%%
 It enhances your air magic.
-Dieser Gegenstand verstärkt Eure Luftmagie
+Dieser Gegenstand verstärkt deine Luftmagie
 %%%%
 It enhances your poison magic.
-Dieser Gegenstand verstärkt Eure Giftmagie
+Dieser Gegenstand verstärkt deine Giftmagie
 %%%%
 It enhances your conjuration magic.
-Dieser Gegenstand verstärkt Eure Hervorrufungsmagie.
+Dieser Gegenstand verstärkt deine Hervorrufungsmagie.
 %%%%
 
 # maximum enchantment - applies to weapons and armour
@@ -296,7 +296,7 @@ Any ammunition fired from it inflicts extra damage upon your enemies.
 Jede Munition, die aus dieser Waffe abgefeuert wird, fügt deinen Feinden zusätzlichen Schaden zu.
 %%%%
 It inflicts extra damage upon your enemies.
-Diese Waffe fügt Euren Feinden zusätzlichen Schaden zu.
+Diese Waffe fügt deinen Feinden zusätzlichen Schaden zu.
 %%%%
 Each projectile launched from it has a different, random effect.
 Jedes von dieser Waffe abgefeuerte Geschoss hat einen anderen, zufälligen Effekt.
@@ -418,22 +418,22 @@ Evasion: %d
 Ausweichen: %d
 %%%%
 If you switch to wearing this armour, your AC would increase by %d (%d -> %d).
-Wenn Ihr zu dieser Rüstung wechselt, würde Eure RK um %d erhöht (%d -> %d).
+Wenn Ihr zu dieser Rüstung wechselt, würde deine RK um %d erhöht (%d -> %d).
 %%%%
 If you switch to wearing this armour, your AC would decrease by %d (%d -> %d).
-Wenn Ihr zu dieser Rüstung wechselt, würde Eure RK um %d reduziert (%d -> %d).
+Wenn Ihr zu dieser Rüstung wechselt, würde deine RK um %d reduziert (%d -> %d).
 %%%%
 If you switch to wearing this armour, your AC would remain unchanged.
-Wenn Ihr zu dieser Rüstung wechselt, bleibt Eure RK unverändert.
+Wenn Ihr zu dieser Rüstung wechselt, bleibt deine RK unverändert.
 %%%%
 If you remove this armour, your AC would increase by %d (%d -> %d).
-Wenn Ihr diese Rüstung ablegt, würde Eure RK um %d erhöht (%d -> %d).
+Wenn Ihr diese Rüstung ablegt, würde deine RK um %d erhöht (%d -> %d).
 %%%%
 If you remove this armour, your AC would decrease by %d (%d -> %d).
-Wenn Ihr diese Rüstung ablegt, würde Eure RK um %d reduziert (%d -> %d).
+Wenn Ihr diese Rüstung ablegt, würde deine RK um %d reduziert (%d -> %d).
 %%%%
 If you remove this armour, your AC would remain unchanged.
-Wenn Ihr diese Rüstung ablegt, bleibt Eure RK unverändert.
+Wenn Ihr diese Rüstung ablegt, bleibt deine RK unverändert.
 %%%%
 it protects its wearer from fire.
 diese Rüstung schützt den Träger vor Feuer.
@@ -509,7 +509,7 @@ der Träger macht einen freien Schritt, wenn er sich auf Feinde zubewegt.
 %%%%
 # Warlock's Mirror
 With your current SH, it has a %d%% chance to reflect attacks against your willpower and other normally unblockable effects.
-Mit Eurer aktuellen SCH hat diese Rüstung eine Chance von %d%%, Angriffe gegen Eure Willenskraft und andere normalerweise unblockbare Effekte zu reflektieren.
+Mit deiner aktuellen SCH hat diese Rüstung eine Chance von %d%%, Angriffe gegen deine Willenskraft und andere normalerweise unblockbare Effekte zu reflektieren.
 %%%%
 
 #################################
@@ -559,13 +559,13 @@ Beim aktuellen Training (%d%%) erreicht Ihr %d,%d in etwa %d,%d XL.
 
 %%%%
 It increases your rate of magic regeneration.
-Dieser Gegenstand erhöht die Geschwindigkeit der Regeneration Eurer Magie.
+Dieser Gegenstand erhöht die Geschwindigkeit der Regeneration deiner Magie.
 %%%%
 It increases your evasion while moving and waiting.
-Dieser Gegenstand erhöht Euer Ausweichvermögen beim Bewegen und Warten.
+Dieser Gegenstand erhöht dein Ausweichvermögen beim Bewegen und Warten.
 %%%%
 It causes incoming damage to be divided between your reserves of health and magic.
-Eingehende Schaden wird zwischen Euren Gesundheits- und Magiereserven aufgeteilt.
+Eingehende Schaden wird zwischen deinen Gesundheits- und Magiereserven aufgeteilt.
 %%%%
 It allows you to gain divine favour quickly.
 Dieser Gegenstand ermöglicht Euch, schnell göttliche Gunst zu erlangen.
@@ -581,7 +581,7 @@ Dieser Gegenstand kann Geschosse reflektieren wenn sie blockiert werden.
 %%%%
 # potion of lignification
 If you quaff this potion your AC would be %d.
-Wenn Ihr diesen Trank trinkt, ist Euer RK %d.
+Wenn Ihr diesen Trank trinkt, ist dein RK %d.
 %%%%
 If you drink this now, you will no longer be %s.
 Wenn Ihr ihn jetzt trinkt, werdet Ihr nicht mehr %s sein.
@@ -916,7 +916,7 @@ If the wielder is skilled in Evocations, they can discharge powerful blasts of e
 Wenn der Handhaber damit zuschlägt, und in Evokation geübt ist, kann er mächtige Stöße elementarer Energie entladen.
 %%%%
 It enhances your fire, ice, earth and air magic.
-Er verstärkt Eure Feuer-, Eis-, Erd- und Luftmagie.
+Er verstärkt deine Feuer-, Eis-, Erd- und Luftmagie.
 %%%%
 
 # Sceptre of Asmodeus (staff)
@@ -1016,13 +1016,13 @@ Brilliance Will-∞
 Brillianz Wille-∞
 %%%%
 It increases the power of your magical spells.
-Sie erhöht die Macht Eurer magischen Zaubersprüche.
+Sie erhöht die Macht deiner magischen Zaubersprüche.
 %%%%
 It halves the magic cost of your spells (rounding up).
-Sie halbiert die Magiekosten Eurer Zauber (aufgerundet).
+Sie halbiert die Magiekosten deiner Zauber (aufgerundet).
 %%%%
 It reduces your willpower to zero.
-Sie reduziert Eure Willenskraft auf Null.
+Sie reduziert deine Willenskraft auf Null.
 %%%%
 
 # Robe of Night
@@ -1155,7 +1155,7 @@ Umbra
 Umbra
 %%%%
 It surrounds you with an aura of shadow, increasing your stealth and reducing the accuracy of all within it (including the wearer).
-Er umgibt Euch mit einer Aura des Schattens, die Eure Heimlichkeit erhöht und die Treffsicherheit aller in ihr befindlichen Personen (einschließlich des Trägers) reduziert.
+Er umgibt Euch mit einer Aura des Schattens, die deine Heimlichkeit erhöht und die Treffsicherheit aller in ihr befindlichen Personen (einschließlich des Trägers) reduziert.
 %%%%
 
 # Amulet of the Air
@@ -1164,7 +1164,7 @@ Inacc Air
 Ungenau Luft
 %%%%
 It reduces the accuracy of all your attacks.
-Es reduziert die Genauigkeit all Eurer Angriffe.
+Es reduziert die Genauigkeit all deiner Angriffe.
 %%%%
 
 # Necklace of Bloodlust

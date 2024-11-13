@@ -253,7 +253,7 @@ recalling
 Rückruf
 %%%%
 You are recalling your allies.
-Ihr ruft Eure Verbündeten zurück.
+Ihr ruft deine Verbündeten zurück.
 %%%%
 
 # Engulfed by water (e.g. water elemental, primal wave spell)
@@ -329,19 +329,19 @@ extremely magic sapped
 Magie extrem ausgelaugt
 %%%%
 Your control over your magic has been greatly sapped.
-Deine Kontrolle über Eure Magie ist stark ausgelaugt.
+Deine Kontrolle über deine Magie ist stark ausgelaugt.
 %%%%
 very magic sapped
 Magie sehr ausgelaugt
 %%%%
 Your control over your magic has been significantly sapped.
-Deine Kontrolle über Eure Magie ist stark ausgelaugt.
+Deine Kontrolle über deine Magie ist stark ausgelaugt.
 %%%%
 magic sapped
 Magie ausgelaugt
 %%%%
 Your control over your magic has been sapped.
-Deine Kontrolle über Eure Magie ist ausgelaugt.
+Deine Kontrolle über deine Magie ist ausgelaugt.
 %%%%
 
 # Bribing branch (Gozag ability)
@@ -609,7 +609,7 @@ You have no strength!
 Ihr habt keine Stärke mehr!
 %%%%
 You are recovering from loss of strength.
-Ihr erholt Euch von dem Verlust Eurer Stärke.
+Ihr erholt Euch von dem Verlust deiner Stärke.
 %%%%
 
 # Brainless (intelligence has been drained to zero)
@@ -624,7 +624,7 @@ You have no intelligence!
 Ihr habt keine Intelligenz!
 %%%%
 You are recovering from loss of intelligence.
-Ihr erholt Euch von dem Verlust Eurer Intelligenz.
+Ihr erholt Euch von dem Verlust deiner Intelligenz.
 %%%%
 
 # Clumsy (dexterity has been drained to zero)
@@ -639,7 +639,7 @@ You have no dexterity!
 Ihr habt keine Geschicklichkeit!
 %%%%
 You are recovering from loss of dexterity.
-Ihr erholt Euch von dem Verlust Eurer Geschicklichkeit.
+Ihr erholt Euch von dem Verlust deiner Geschicklichkeit.
 %%%%
 
 # In or over water
@@ -759,7 +759,7 @@ You are short of breath.
 Ihr seid kurzatmig.
 %%%%
 You have got your breath back.
-Ihr habt Euren Atem zurückbekommen.
+Ihr habt deinen Atem zurückbekommen.
 %%%%
 
 # Brilliance (increases spell power)
@@ -1267,7 +1267,7 @@ lifesaving
 Lebensrettung
 %%%%
 You are calling for your life to be saved.
-Ihr ruft, dass Euer Leben gerettet werden soll.
+Ihr ruft, dass dein Leben gerettet werden soll.
 %%%%
 Your divine protection fades away.
 Dein göttlicher Schutz verblasst.
@@ -1321,7 +1321,7 @@ markiert
 #Sentinel-Zeichen
 %%%%
 A sentinel's mark is revealing your location to enemies.
-Das Zeichen eines Wächters verrät Euren Feinden Euren Standort.
+Das Zeichen eines Wächters verrät deinen Feinden deinen Standort.
 %%%%
 The sentinel's mark upon you fades away.
 Das Zeichen des Wächters auf Euch verblasst.
@@ -1338,7 +1338,7 @@ wereblood
 Werblut
 %%%%
 Your melee attacks are strengthened by your wereblood.
-Deine Nahkampfangriffe werden durch Eure Werblut verstärkt.
+Deine Nahkampfangriffe werden durch deine Werblut verstärkt.
 %%%%
 Your primal bloodlust has ended.
 Dein ursprünglicher Blutrausch ist beendet.
@@ -1539,7 +1539,7 @@ Auslaugen
 #Magie auslaugen
 %%%%
 Casting spells hinders your spell success.
-Das Wirken von Zaubern behindert Euren Zaubererfolg.
+Das Wirken von Zaubern behindert deinen Zaubererfolg.
 %%%%
 Your magic seems less tainted.
 Deine Magie scheint weniger verdorben zu sein.
@@ -1838,7 +1838,7 @@ howl
 heulen
 %%%%
 A terrible howling echoes in your mind.
-Ein schreckliches Heulen hallt in Eurem Geist wider.
+Ein schreckliches Heulen hallt in deinem Geist wider.
 %%%%
 The infernal howling subsides.
 Das infernalische Heulen verstummt.
@@ -2009,7 +2009,7 @@ Ihr flackert wieder ins Blickfeld.
 #mesmerisiert
 %%%%
 You break out of your daze.
-Ihr bricht aus Eurer Benommenheit aus.
+Ihr bricht aus deiner Benommenheit aus.
 %%%%
 mesmerisation immunity
 Immunität gegen Mesmerisation
@@ -2173,7 +2173,7 @@ heavenly storm
 himmlischer Sturm
 %%%%
 Heavenly clouds are increasing your accuracy and damage.
-Himmlische Wolken erhöhen Eure Treffsicherheit und Euren Schaden.
+Himmlische Wolken erhöhen deine Treffsicherheit und deinen Schaden.
 %%%%
 
 # Sickness
@@ -2182,5 +2182,5 @@ sickness
 krankheit
 %%%%
 You feel your health improve.
-Ihr spürs, wie sich Eure Gesundheit verbessert.
+Ihr spürs, wie sich deine Gesundheit verbessert.
 %%%%

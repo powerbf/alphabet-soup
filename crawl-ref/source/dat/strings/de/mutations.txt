@@ -144,7 +144,7 @@ slow and powerful
 langsam und mächtig
 %%%%
 Your actions are slow, but your melee attacks are powerful.
-Deine Aktionen sind langsam, aber Eure Nahkampfangriffe sind mächtig.
+Deine Aktionen sind langsam, aber deine Nahkampfangriffe sind mächtig.
 %%%%
 torment resistance 1
 Qualresistenz 1
@@ -360,7 +360,7 @@ reduced essence
 reduzierte Essenz
 %%%%
 Your life essence is reduced to manifest your ancestor. (-10% HP)
-Deine Lebensessenz ist reduziert, um Euren Ahnen zu manifestieren. (-10% HP)
+Deine Lebensessenz ist reduziert, um deinen Ahnen zu manifestieren. (-10% HP)
 %%%%
 AC +%d
 RK +%d
@@ -408,7 +408,7 @@ Your attributes grow dramatically as you level up.
 Deine Attribute steigen mit dem Stufenaufstieg dramatisch an.
 %%%%
 You expend health (3 HP) to strengthen your wands.
-Ihr verbraucht Gesundheit (3 HP), um Eure Zauberstäbe zu stärken.
+Ihr verbraucht Gesundheit (3 HP), um deine Zauberstäbe zu stärken.
 %%%%
 You have tentacles for arms and can constrict up to %d enemies at once.
 Ihr habt Tentakel als Arme und könnt bis zu %d Feinde auf einmal umschlingen.
@@ -708,7 +708,7 @@ You feel more strong-willed.
 Ihr fühlt Euch willensstärker.
 %%%%
 You feel your will become almost unbreakable.
-Ihr spürt, dass Euer Wille fast unzerbrechlich wird.
+Ihr spürt, dass dein Wille fast unzerbrechlich wird.
 %%%%
 You no longer feel strong-willed.
 Ihr fühlt Euch nicht mehr willensstark.
@@ -756,13 +756,13 @@ deformed body
 deformierter Körper
 %%%%
 Armour fits poorly on your strangely shaped body.
-Rüstung passt schlecht zu Eurem seltsam geformten Körper.
+Rüstung passt schlecht zu deinem seltsam geformten Körper.
 %%%%
 Your body twists and deforms.
 Dein Körper verdreht und verformt sich.
 %%%%
 Your body's shape seems more normal.
-Die Form Eures Körpers scheint normaler zu sein.
+Die Form deines Körpers scheint normaler zu sein.
 %%%%
 spit poison
 Gift spucken
@@ -777,16 +777,16 @@ There is a nasty taste in your mouth for a moment.
 Einen Moment lang habt Ihr einen üblen Geschmack im Mund.
 %%%%
 You feel an ache in your throat.
-Ihr spürt einen Schmerz in Eurem Hals.
+Ihr spürt einen Schmerz in deinem Hals.
 %%%%
 screaming
 schreiend
 %%%%
 You occasionally shout uncontrollably at your foes.
-Gelegentlich schreit Ihr Eure Feinde unkontrolliert an.
+Gelegentlich schreit Ihr deine Feinde unkontrolliert an.
 %%%%
 You frequently scream uncontrollably at your foes.
-Ihr schreit Eure Feinde häufig unkontrolliert an.
+Ihr schreit deine Feinde häufig unkontrolliert an.
 %%%%
 You feel the urge to shout.
 Ihr verspürt den Drang zu schreien.
@@ -804,13 +804,13 @@ noise suppression
 Rauschunterdrückung
 %%%%
 You passively dampen the noise of your surroundings.
-Ihr dämpft passiv den Lärm in Eurer Umgebung.
+Ihr dämpft passiv den Lärm in deiner Umgebung.
 %%%%
 You feel your surroundings grow quieter.
-Ihr spürt, wie Eure Umgebung ruhiger wird.
+Ihr spürt, wie deine Umgebung ruhiger wird.
 %%%%
 You feel your surroundings grow louder
-Ihr spürt, wie Eure Umgebung lauter wird
+Ihr spürt, wie deine Umgebung lauter wird
 %%%%
 clarity
 Klarheit
@@ -858,10 +858,10 @@ Your body often deteriorates upon taking damage.
 Dein Körper baut sich oft ab, wenn er Schaden nimmt.
 %%%%
 You feel yourself wasting away.
-Ihr spürt, wie Euer Körper versiecht.
+Ihr spürt, wie dein Körper versiecht.
 %%%%
 You feel your body start to fall apart.
-Ihr spürt, wie Euer Körper zu zerfallen beginnt.
+Ihr spürt, wie dein Körper zu zerfallen beginnt.
 %%%%
 You feel healthier.
 Ihr fühlt Euch gesünder.
@@ -1011,16 +1011,16 @@ You have a pair of large horns on your head.
 Ihr habt ein Paar große Hörner auf dem Kopf.
 %%%%
 A pair of horns grows on your head!
-Ein Paar Hörner wächst auf Eurem Kopf!
+Ein Paar Hörner wächst auf deinem Kopf!
 %%%%
 The horns on your head grow some more.
-Die Hörner auf Eurem Kopf wachsen weiter.
+Die Hörner auf deinem Kopf wachsen weiter.
 %%%%
 The horns on your head shrink away.
-Die Hörner auf Eurem Kopf schrumpfen weg.
+Die Hörner auf deinem Kopf schrumpfen weg.
 %%%%
 The horns on your head shrink a bit.
-Die Hörner auf Eurem Kopf schrumpfen ein wenig.
+Die Hörner auf deinem Kopf schrumpfen ein wenig.
 %%%%
 beak
 Schnabel
@@ -1110,25 +1110,25 @@ Your hooves look more like feet.
 Deine Hufe sehen eher wie Füße aus.
 %%%%
 You have a pair of small antennae on your head.
-Ihr habt ein Paar kleine Antennen auf Eurem Kopf.
+Ihr habt ein Paar kleine Antennen auf deinem Kopf.
 %%%%
 You have a pair of antennae on your head.
-Ihr habt ein Paar Antennen auf Eurem Kopf.
+Ihr habt ein Paar Antennen auf deinem Kopf.
 %%%%
 You have a pair of large antennae on your head. (SInv)
-Ihr habt ein Paar große Antennen auf Eurem Kopf. (SUns)
+Ihr habt ein Paar große Antennen auf deinem Kopf. (SUns)
 %%%%
 A pair of antennae grows on your head!
-Ein Paar Antennen wächst auf Eurem Kopf!
+Ein Paar Antennen wächst auf deinem Kopf!
 %%%%
 The antennae on your head grow some more.
-Die Antennen auf Eurem Kopf wachsen weiter.
+Die Antennen auf deinem Kopf wachsen weiter.
 %%%%
 The antennae on your head shrink away.
-Die Antennen auf Eurem Kopf schrumpfen.
+Die Antennen auf deinem Kopf schrumpfen.
 %%%%
 The antennae on your head shrink a bit.
-Die Antennen auf Eurem Kopf schrumpfen ein wenig.
+Die Antennen auf deinem Kopf schrumpfen ein wenig.
 %%%%
 You have sharp toenails.
 Ihr habt scharfe Zehennägel.
@@ -1155,16 +1155,16 @@ tentacle spike
 Tentakelstachel
 %%%%
 One of your tentacles bears a spike.
-Eins Eurer Tentakel trägt einen Stachel.
+Eins deiner Tentakel trägt einen Stachel.
 %%%%
 One of your tentacles bears a nasty spike.
-Eins Eurer Tentakel trägt einen bösen Stachel.
+Eins deiner Tentakel trägt einen bösen Stachel.
 %%%%
 One of your tentacles bears a large vicious spike.
-Eins Eurer Tentakel trägt einen großen, bösartigen Stachel.
+Eins deiner Tentakel trägt einen großen, bösartigen Stachel.
 %%%%
 One of your lower tentacles grows a sharp spike.
-An einem Eurer unteren Tentakel wächst ein scharfer Stachel.
+An einem deiner unteren Tentakel wächst ein scharfer Stachel.
 %%%%
 Your tentacle spike grows bigger.
 Dein Tentakelstachel wird größer.
@@ -1185,19 +1185,19 @@ You have a snake-like lower body.
 Ihr habt einen schlangenartigen Unterkörper.
 %%%%
 You can use your snake-like lower body to constrict enemies.
-Ihr könnt Euren schlangenartigen Unterkörper dazu einsetzen, Feinde zu umschlingen.
+Ihr könnt deinen schlangenartigen Unterkörper dazu einsetzen, Feinde zu umschlingen.
 %%%%
 Your lower body turns into a snake tail.
 Dein Unterkörper verwandelt Euch in einen Schlangenschwanz.
 %%%%
 Your tail grows strong enough to constrict your enemies.
-Dein Schwanz wächst und ist nun stark genug, Eure Feinde zu umschlingen.
+Dein Schwanz wächst und ist nun stark genug, deine Feinde zu umschlingen.
 %%%%
 Your lower body returns to normal.
 Dein unterer Körper kehrt in den Normalzustand zurück.
 %%%%
 Your snake tail weakens and can no longer constrict your enemies.
-Dein Schlangenschwanz wird schwächer und kann Eure Feinde nicht mehr umschlingen.
+Dein Schlangenschwanz wird schwächer und kann deine Feinde nicht mehr umschlingen.
 %%%%
 stinger
 Giftstachel
@@ -1212,19 +1212,19 @@ Your tail ends in a wickedly sharp and poisonous barb.
 Dein Schwanz endet in einem bösartigen, scharfen und giftigen Widerhaken.
 %%%%
 A poisonous barb forms on the end of your tail.
-Am Ende Eures Schwanzes bildet sich ein giftiger Widerhaken.
+Am Ende deines Schwanzes bildet sich ein giftiger Widerhaken.
 %%%%
 The barb on your tail looks sharper.
-Der Widerhaken an Eurem Schwanz sieht schärfer aus.
+Der Widerhaken an deinem Schwanz sieht schärfer aus.
 %%%%
 The barb on your tail looks very sharp.
-Der Widerhaken an Eurem Schwanz sieht sehr scharf aus.
+Der Widerhaken an deinem Schwanz sieht sehr scharf aus.
 %%%%
 The barb on your tail disappears.
-Der Widerhaken an Eurem Schwanz verschwindet.
+Der Widerhaken an deinem Schwanz verschwindet.
 %%%%
 The barb on your tail seems less sharp.
-Der Widerhaken an Eurem Schwanz scheint weniger scharf zu sein.
+Der Widerhaken an deinem Schwanz scheint weniger scharf zu sein.
 %%%%
 big wings
 große Flügel
@@ -1299,7 +1299,7 @@ Your thick and shaggy fur keeps you warm. (AC +3, rC+)
 Dein dickes, zotteliges Fell hält Euch warm. (RK +3, rC+)
 %%%%
 Fur sprouts all over your body.
-Das Fell sprießt überall auf Eurem Körper.
+Das Fell sprießt überall auf deinem Körper.
 %%%%
 Your fur grows into a thick mane.
 Dein Fell wächst zu einer dichten Mähne heran.
@@ -1308,7 +1308,7 @@ Your thick fur grows shaggy and warm.
 Dein dickes Fell wird zottelig und warm.
 %%%%
 You shed all your fur.
-Ihr habt Euer ganzes Fell verloren.
+Ihr habt dein ganzes Fell verloren.
 %%%%
 Your thick fur recedes somewhat.
 Dein dichtes Fell weicht etwas zurück.
@@ -1356,16 +1356,16 @@ Your spells are much harder to cast, but much more powerful.
 Deine Zaubersprüche sind viel schwieriger zu wirken, aber auch viel mächtiger.
 %%%%
 You feel less in control of your magic.
-Ihr habt das Gefühl, weniger Kontrolle über Eure Magie zu haben.
+Ihr habt das Gefühl, weniger Kontrolle über deine Magie zu haben.
 %%%%
 You feel your magical power running wild!
-Ihr spürt, wie Eure Magie frei läuft!
+Ihr spürt, wie deine Magie frei läuft!
 %%%%
 You regain control of your magic.
-Ihr gewinnt die Kontrolle über Eure Magie zurück.
+Ihr gewinnt die Kontrolle über deine Magie zurück.
 %%%%
 You feel more in control of your magic.
-Ihr habt das Gefühl, Eure Magie besser unter Kontrolle zu haben.
+Ihr habt das Gefühl, deine Magie besser unter Kontrolle zu haben.
 %%%%
 subdued magic
 gedämpfte Magie
@@ -1407,7 +1407,7 @@ Spells you cast and wands you use may paralyse nearby enemies.
 Zaubersprüche und Zauberstäbe, die Ihr verwendet, können Feinde in der Nähe lähmen.
 %%%%
 A menacing aura infuses your magic.
-Eine bedrohliche Aura durchdringt Eure Magie.
+Eine bedrohliche Aura durchdringt deine Magie.
 %%%%
 Your magic grows more menacing.
 Deine Magie wird immer bedrohlicher.
@@ -1524,13 +1524,13 @@ You are completely covered in sharp spines.
 Ihr seid vollständig mit scharfen Stacheln bedeckt.
 %%%%
 Sharp spines emerge from parts of your body.
-Scharfe Stacheln ragen aus Teilen Eures Körpers heraus.
+Scharfe Stacheln ragen aus Teilen deines Körpers heraus.
 %%%%
 Sharp spines emerge from more of your body.
-Scharfe Stacheln ragen aus einem größeren Teil Eures Körpers heraus.
+Scharfe Stacheln ragen aus einem größeren Teil deines Körpers heraus.
 %%%%
 Sharp spines emerge from your entire body.
-Aus Eurem gesamten Körper ragen scharfe Stacheln heraus.
+Aus deinem gesamten Körper ragen scharfe Stacheln heraus.
 %%%%
 Your sharp spines disappear entirely.
 Deine scharfen Stacheln verschwinden vollständig.
@@ -1545,7 +1545,7 @@ You regenerate a little health from kills.
 Ihr regeneriert ein wenig Gesundheit durch Töten.
 %%%%
 You regenerate health from kills.
-Ihr regeneriert Eure Gesundheit durch Töten.
+Ihr regeneriert deine Gesundheit durch Töten.
 %%%%
 You regenerate a lot of health from kills.
 Ihr regeneriert eine Menge Gesundheit durch Töten.
@@ -1575,13 +1575,13 @@ You are powered by pain.
 Ihr werdet vom Schmerz angetrieben.
 %%%%
 You feel energised by your suffering.
-Ihr fühlt Euch durch Euer Leiden gestärkt.
+Ihr fühlt Euch durch dein Leiden gestärkt.
 %%%%
 You feel even more energised by your suffering.
-Ihr fühlt Euch durch Euer Leiden noch mehr gestärkt.
+Ihr fühlt Euch durch dein Leiden noch mehr gestärkt.
 %%%%
 You feel completely energised by your suffering.
-Ihr fühlt Euch durch Euer Leiden völlig energetisiert.
+Ihr fühlt Euch durch dein Leiden völlig energetisiert.
 %%%%
 augmentation
 Augmentation
@@ -1596,10 +1596,10 @@ Your magical and physical power is greatly enhanced at high health.
 Deine magischen und physischen Kräfte werden bei hoher Gesundheit sehr verstärkt.
 %%%%
 You feel power flowing into your body.
-Ihr spürt, wie Kraft in Euren Körper fließt.
+Ihr spürt, wie Kraft in deinen Körper fließt.
 %%%%
 You feel power rushing into your body.
-Ihr spürt, wie Kraft in Euren Körper strömt.
+Ihr spürt, wie Kraft in deinen Körper strömt.
 %%%%
 You feel saturated with power.
 Ihr fühlt Euch gesättigt mit Macht.
@@ -1608,16 +1608,16 @@ magic shield
 magischer Schild
 %%%%
 When hurt, damage is shared between your health and your magic reserves.
-Wenn Ihr verletzt werdet, wird der Schaden zwischen Eurer Gesundheit und Euren Magiereserven aufgeteilt.
+Wenn Ihr verletzt werdet, wird der Schaden zwischen deiner Gesundheit und deinen Magiereserven aufgeteilt.
 %%%%
 You feel your magical essence form a protective shroud around your flesh.
-Ihr spürt, wie Euch Eure magische Essenz wie ein Schutzmantel um Euer Fleisch legt.
+Ihr spürt, wie Euch deine magische Essenz wie ein Schutzmantel um dein Fleisch legt.
 %%%%
 magic regeneration
 Magie-Regeneration
 %%%%
 You regenerate magic rapidly.
-Ihr regeneriert Eure Magie schnell.
+Ihr regeneriert deine Magie schnell.
 %%%%
 Your magic begins to regenerate rapidly.
 Deine Magie beginnt sich schnell zu regenerieren.
@@ -1629,7 +1629,7 @@ When low on magic, you restore magic in place of health.
 Wenn Ihr wenig Magie habt, stellt Ihr Magie anstelle von Gesundheit wieder her.
 %%%%
 You feel your life force and your magical essence meld.
-Ihr spürt, wie Eure Lebenskraft und Eure magische Essenz verschmelzen.
+Ihr spürt, wie deine Lebenskraft und deine magische Essenz verschmelzen.
 %%%%
 gelatinous body
 Gallertkörper
@@ -1674,31 +1674,31 @@ Your body is covered in golden eyes which may confuse attackers. (Acc +7, SInv)
 Dein Körper ist mit goldenen Augen bedeckt, die Angreifer verwirren können. (Gen +7, SInv)
 %%%%
 Eyeballs grow over part of your body.
-Augäpfel wachsen über einen Teil Eures Körpers.
+Augäpfel wachsen über einen Teil deines Körpers.
 %%%%
 Eyeballs cover a large portion of your body.
-Augäpfel bedecken einen großen Teil Eures Körpers.
+Augäpfel bedecken einen großen Teil deines Körpers.
 %%%%
 Eyeballs cover you completely.
 Augäpfel verdecken Euch vollständig.
 %%%%
 The eyeballs on your body disappear.
-Die Augäpfel an Eurem Körper verschwinden.
+Die Augäpfel an deinem Körper verschwinden.
 %%%%
 The eyeballs on your body recede somewhat.
-Die Augäpfel an Eurem Körper lassen etwas nach.
+Die Augäpfel an deinem Körper lassen etwas nach.
 %%%%
 translucent skin
 durchsichtige Haut
 %%%%
 Your translucent skin slightly reduces your foes' accuracy. (Stealth+)
-Deine durchsichtige Haut verringert die Genauigkeit Eurer Feinde leicht. (Tarnung+)
+Deine durchsichtige Haut verringert die Genauigkeit deiner Feinde leicht. (Tarnung+)
 %%%%
 Your translucent skin reduces your foes' accuracy. (Stealth+)
-Deine durchsichtige Haut verringert die Genauigkeit Eurer Feinde. (Tarnung+)
+Deine durchsichtige Haut verringert die Genauigkeit deiner Feinde. (Tarnung+)
 %%%%
 Your transparent skin significantly reduces your foes' accuracy. (Stealth+)
-Deine transparente Haut verringert die Genauigkeit Eurer Feinde erheblich. (Stealth+)
+Deine transparente Haut verringert die Genauigkeit deiner Feinde erheblich. (Stealth+)
 %%%%
 Your skin becomes partially translucent.
 Deine Haut wird teilweise durchsichtig.
@@ -1713,28 +1713,28 @@ Your skin returns to its normal opacity.
 Deine Haut kehrt zu ihrer normalen Opazität zurück.
 %%%%
 Your skin's translucency fades.
-Die Durchsichtigkeit Eurer Haut nimmt ab.
+Die Durchsichtigkeit deiner Haut nimmt ab.
 %%%%
 Your skin's transparency fades.
-Die Transparenz Eurer Haut nimmt ab.
+Die Transparenz deiner Haut nimmt ab.
 %%%%
 Armour fits poorly on your pseudopods.
-Die Rüstung passt schlecht auf Eure Pseudopoden.
+Die Rüstung passt schlecht auf deine Pseudopoden.
 %%%%
 Armour fits poorly on your large pseudopods.
-Die Rüstung passt schlecht auf Eure großen Pseudopoden.
+Die Rüstung passt schlecht auf deine großen Pseudopoden.
 %%%%
 Armour fits poorly on your massive pseudopods.
-Die Rüstung passt schlecht zu Euren massiven Pseudopods.
+Die Rüstung passt schlecht zu deinen massiven Pseudopods.
 %%%%
 Pseudopods emerge from your body.
-Pseudopoden kommen aus Eurem Körper hervor.
+Pseudopoden kommen aus deinem Körper hervor.
 %%%%
 Your pseudopods grow in size.
 Deine Pseudopoden werden größer.
 %%%%
 Your pseudopods retract into your body.
-Deine Pseudopoden ziehen Euch in Euren Körper zurück.
+Deine Pseudopoden ziehen Euch in deinen Körper zurück.
 %%%%
 Your pseudopods become smaller.
 Deine Pseudopoden werden kleiner.
@@ -1746,7 +1746,7 @@ You have acidic saliva.
 Ihr habt sauren Speichel.
 %%%%
 Acid begins to drip from your mouth.
-Die Säure beginnt aus Eurem Mund zu tropfen.
+Die Säure beginnt aus deinem Mund zu tropfen.
 %%%%
 Your mouth feels dry.
 Dein Mund fühlt sich trocken an.
@@ -1755,7 +1755,7 @@ antimagic bite
 antimagischer Biss
 %%%%
 Your bite disrupts and absorbs the magic of your enemies.
-Dein Biss unterbricht und absorbiert die Magie Eurer Feinde.
+Dein Biss unterbricht und absorbiert die Magie deiner Feinde.
 %%%%
 You feel a sudden thirst for magic.
 Ihr spürt plötzlich einen Durst nach Magie.
@@ -1767,10 +1767,10 @@ no potion heal
 keine Heiltränke
 %%%%
 Potions are less effective at restoring your health.
-Tränke sind weniger wirksam bei der Wiederherstellung Eurer Gesundheit.
+Tränke sind weniger wirksam bei der Wiederherstellung deiner Gesundheit.
 %%%%
 Potions cannot restore your health.
-Tränke können Eure Gesundheit nicht wiederherstellen.
+Tränke können deine Gesundheit nicht wiederherstellen.
 %%%%
 Your system partially rejects the healing effects of potions.
 Dein System lehnt die heilende Wirkung von Tränken teilweise ab.
@@ -1818,13 +1818,13 @@ You are completely covered in icy blue scales. (AC +4, rC+)
 Ihr seid vollständig mit eisblauen Schuppen bedeckt. (RK +4, rC+)
 %%%%
 Icy blue scales grow over part of your body.
-Eiskalte blaue Schuppen bedecken einen Teil Eures Körpers.
+Eiskalte blaue Schuppen bedecken einen Teil deines Körpers.
 %%%%
 Icy blue scales spread over more of your body.
-Eisblaue Schuppen breiten sich auf einem größeren Teil Eures Körpers aus.
+Eisblaue Schuppen breiten sich auf einem größeren Teil deines Körpers aus.
 %%%%
 Icy blue scales cover your body completely.
-Eiskalte blaue Schuppen bedecken Euren Körper vollständig.
+Eiskalte blaue Schuppen bedecken deinen Körper vollständig.
 %%%%
 Your icy blue scales disappear.
 Deine eisblauen Schuppen verschwinden.
@@ -1845,13 +1845,13 @@ You are completely covered in iridescent scales. (AC +6)
 Ihr seid vollständig mit schillernden Schuppen bedeckt. (RK +6)
 %%%%
 Iridescent scales grow over part of your body.
-Schillernde Schuppen bedecken einen Teil Eures Körpers.
+Schillernde Schuppen bedecken einen Teil deines Körpers.
 %%%%
 Iridescent scales spread over more of your body.
-Schillernde Schuppen breiten sich über einen größeren Teil Eures Körpers aus.
+Schillernde Schuppen breiten sich über einen größeren Teil deines Körpers aus.
 %%%%
 Iridescent scales cover your body completely.
-Schillernde Schuppen bedecken Euren Körper vollständig.
+Schillernde Schuppen bedecken deinen Körper vollständig.
 %%%%
 Your iridescent scales disappear.
 Deine schillernden Schuppen verschwinden.
@@ -1872,13 +1872,13 @@ You are completely covered in large bone plates. (SH +8)
 Ihr seid vollständig mit großen Knochenplatten bedeckt. (SCH +8)
 %%%%
 Large bone plates grow over parts of your arms.
-Große Knochenplatten wachsen über Teile Eurer Arme.
+Große Knochenplatten wachsen über Teile deiner Arme.
 %%%%
 Large bone plates spread over more of your arms.
-Große Knochenplatten erstrecken sich über einen größeren Teil Eurer Arme.
+Große Knochenplatten erstrecken sich über einen größeren Teil deiner Arme.
 %%%%
 Large bone plates cover your arms completely.
-Große Knochenplatten bedecken Eure Arme vollständig.
+Große Knochenplatten bedecken deine Arme vollständig.
 %%%%
 Your large bone plates disappear.
 Deine großen Knochenplatten verschwinden.
@@ -1899,13 +1899,13 @@ You are completely covered in molten scales. (AC +4, rF+)
 Ihr seid vollständig mit geschmolzenen Schuppen bedeckt. (RK +4, rF+)
 %%%%
 Molten scales grow over part of your body.
-Geschmolzene Schuppen bedecken einen Teil Eures Körpers.
+Geschmolzene Schuppen bedecken einen Teil deines Körpers.
 %%%%
 Molten scales spread over more of your body.
-Geschmolzene Schuppen breiten sich über einen größeren Teil Eures Körpers aus.
+Geschmolzene Schuppen breiten sich über einen größeren Teil deines Körpers aus.
 %%%%
 Molten scales cover your body completely.
-Geschmolzene Schuppen bedecken Euren Körper vollständig.
+Geschmolzene Schuppen bedecken deinen Körper vollständig.
 %%%%
 Your molten scales disappear.
 Deine geschmolzenen Schuppen verschwinden.
@@ -1926,13 +1926,13 @@ You are completely covered in rugged brown scales. (AC +3, +7% HP)
 Ihr seid vollständig mit rauen braunen Schuppen bedeckt. (RK +3, +7% HP)
 %%%%
 Rugged brown scales grow over part of your body.
-Raue braune Schuppen bedecken einen Teil Eures Körpers.
+Raue braune Schuppen bedecken einen Teil deines Körpers.
 %%%%
 Rugged brown scales spread over more of your body.
-Raue braune Schuppen breiten sich über einen größeren Teil Eures Körpers aus.
+Raue braune Schuppen breiten sich über einen größeren Teil deines Körpers aus.
 %%%%
 Rugged brown scales cover your body completely.
-Raue braune Schuppen bedecken Euren Körper vollständig.
+Raue braune Schuppen bedecken deinen Körper vollständig.
 %%%%
 Your rugged brown scales disappear.
 Deine rauen braunen Schuppen verschwinden.
@@ -1953,13 +1953,13 @@ You are completely covered in slimy green scales. (AC +4, rPois)
 Ihr seid vollständig mit schleimigen grünen Schuppen bedeckt. (RK +4, rPois)
 %%%%
 Slimy green scales grow over part of your body.
-Schleimige grüne Schuppen bedecken einen Teil Eures Körpers.
+Schleimige grüne Schuppen bedecken einen Teil deines Körpers.
 %%%%
 Slimy green scales spread over more of your body.
-Schleimige grüne Schuppen breiten sich über einen Großteil Eures Körpers aus.
+Schleimige grüne Schuppen breiten sich über einen Großteil deines Körpers aus.
 %%%%
 Slimy green scales cover your body completely.
-Schleimige grüne Schuppen bedecken Euren Körper vollständig.
+Schleimige grüne Schuppen bedecken deinen Körper vollständig.
 %%%%
 Your slimy green scales disappear.
 Deine schleimigen grünen Schuppen verschwinden.
@@ -1983,10 +1983,10 @@ Thin metallic scales grow over part of your body.
 Dünne Metallschuppen bedecken einen Teil des Körpers.
 %%%%
 Thin metallic scales spread over more of your body.
-Dünne Metallschuppen bedecken einen größeren Teil Eures Körpers.
+Dünne Metallschuppen bedecken einen größeren Teil deines Körpers.
 %%%%
 Thin metallic scales cover your body completely.
-Dünne Metallschuppen bedecken Euren Körper vollständig.
+Dünne Metallschuppen bedecken deinen Körper vollständig.
 %%%%
 Your thin metallic scales disappear.
 Deine dünnen Metallschuppen verschwinden.
@@ -2034,13 +2034,13 @@ You are completely covered in yellow scales. (AC +4, rCorr)
 Ihr seid vollständig mit gelben Schuppen bedeckt. (RK +4, rCorr)
 %%%%
 Yellow scales grow over part of your body.
-Gelbe Schuppen bedecken einen Teil Eures Körpers.
+Gelbe Schuppen bedecken einen Teil deines Körpers.
 %%%%
 Yellow scales spread over more of your body.
-Gelbe Schuppen breiten sich über einen größeren Teil Eures Körpers aus.
+Gelbe Schuppen breiten sich über einen größeren Teil deines Körpers aus.
 %%%%
 Yellow scales cover your body completely.
-Gelbe Schuppen bedecken Euren Körper vollständig.
+Gelbe Schuppen bedecken deinen Körper vollständig.
 %%%%
 Your yellow scales disappear.
 Deine gelben Schuppen verschwinden.
@@ -2061,13 +2061,13 @@ You are completely covered in razor-sharp scales. (AC +3, Slay +3)
 Ihr seid vollständig mit rasiermesserscharfen Schuppen bedeckt. (RK +3, Schaden +3)
 %%%%
 Sharp scales grow over part of your body.
-Scharfe Schuppen wachsen über einen Teil Eures Körpers.
+Scharfe Schuppen wachsen über einen Teil deines Körpers.
 %%%%
 Sharp scales spread over more of your body.
-Scharfe Schuppen breiten sich über einen größeren Teil Eures Körpers aus.
+Scharfe Schuppen breiten sich über einen größeren Teil deines Körpers aus.
 %%%%
 Sharp scales cover your body completely.
-Scharfe Schuppen bedecken Euren Körper vollständig.
+Scharfe Schuppen bedecken deinen Körper vollständig.
 %%%%
 Your sharp scales disappear.
 Deine scharfen Schuppen verschwinden.
@@ -2088,31 +2088,31 @@ Your movements are significantly less encumbered by armour. (ER -6)
 Deine Bewegungen werden durch Rüstungen deutlich weniger beeinträchtigt. (ER -6)
 %%%%
 You feel less encumbered by your armour.
-Ihr fühlt Euch durch Eure Rüstung weniger belastet.
+Ihr fühlt Euch durch deine Rüstung weniger belastet.
 %%%%
 You feel more encumbered by your armour.
-Ihr fühlt Euch durch Eure Rüstung mehr belastet.
+Ihr fühlt Euch durch deine Rüstung mehr belastet.
 %%%%
 When seriously injured, your bleeding wounds create armour. (AC +%d)
-Wenn Ihr schwer verletzt seid, erzeugen Eure blutenden Wunden eine Rüstung. (RK +%d)
+Wenn Ihr schwer verletzt seid, erzeugen deine blutenden Wunden eine Rüstung. (RK +%d)
 %%%%
 When seriously injured, your bleeding wounds create thick armour. (AC +%d)
-Wenn Ihr schwer verletzt seid, erzeugen Eure blutenden Wunden eine dicke Rüstung. (RK +%d)
+Wenn Ihr schwer verletzt seid, erzeugen deine blutenden Wunden eine dicke Rüstung. (RK +%d)
 %%%%
 When seriously injured, your bleeding wounds create very thick armour. (AC +%d)
-Wenn Ihr schwer verletzt seid, erzeugen Eure blutenden Wunden eine sehr dicke Rüstung. (RK +%d)
+Wenn Ihr schwer verletzt seid, erzeugen deine blutenden Wunden eine sehr dicke Rüstung. (RK +%d)
 %%%%
 You feel your blood ready itself to protect you.
-Ihr spürt, wie Euch Euer Blut bereit macht, Euch zu schützen.
+Ihr spürt, wie Euch dein Blut bereit macht, Euch zu schützen.
 %%%%
 You feel your blood thicken.
-Ihr spürt, wie Euch Euer Blut verdickt.
+Ihr spürt, wie Euch dein Blut verdickt.
 %%%%
 You feel your blood become entirely quiescent.
-Ihr spürt, wie Euer Blut völlig zur Ruhe kommt.
+Ihr spürt, wie dein Blut völlig zur Ruhe kommt.
 %%%%
 You feel your blood thin.
-Ihr spürt, wie Euer Blut dünner wird.
+Ihr spürt, wie dein Blut dünner wird.
 %%%%
 big brain
 großes Gehirn
@@ -2142,13 +2142,13 @@ camouflage
 Tarnung
 %%%%
 Your skin changes colour to match your surroundings (Stealth+).
-Deine Haut ändert ihre Farbe, um sich Eurer Umgebung anzupassen (Heimlich+).
+Deine Haut ändert ihre Farbe, um sich deiner Umgebung anzupassen (Heimlich+).
 %%%%
 Your skin blends seamlessly with your surroundings (Stealth++).
-Deine Haut verschmilzt nahtlos mit Eurer Umgebung (Heimlich++).
+Deine Haut verschmilzt nahtlos mit deiner Umgebung (Heimlich++).
 %%%%
 Your skin perfectly mimics your surroundings (Stealth+++).
-Deine Haut ahmt Eure Umgebung perfekt nach (Heimlich+++).
+Deine Haut ahmt deine Umgebung perfekt nach (Heimlich+++).
 %%%%
 Your skin functions as natural camouflage.
 Deine Haut dient als natürliche Tarnung.
@@ -2208,13 +2208,13 @@ tendrils
 Ranken
 %%%%
 You are covered in slimy tendrils that may disarm your opponents.
-Ihr seid mit schleimigen Ranken bedeckt, die Eure Gegner entwaffnen können.
+Ihr seid mit schleimigen Ranken bedeckt, die deine Gegner entwaffnen können.
 %%%%
 Thin, slimy tendrils emerge from your body.
-Dünne, schleimige Ranken ragen aus Eurem Körper.
+Dünne, schleimige Ranken ragen aus deinem Körper.
 %%%%
 Your tendrils retract into your body.
-Deine Ranken ziehen Euch in Euren Körper zurück.
+Deine Ranken ziehen Euch in deinen Körper zurück.
 %%%%
 jelly sensing items
 Gegenstand-spürende Gelee
@@ -2247,10 +2247,10 @@ You briefly stop moving.
 Ihr haltet kurz inne.
 %%%%
 Your melee attacks may debilitate your foes.
-Deine Nahkampfangriffe können Eure Feinde schwächen.
+Deine Nahkampfangriffe können deine Feinde schwächen.
 %%%%
 An ominous black mark forms on your body.
-Ein unheilvoller schwarzer Fleck bildet Euch auf Eurem Körper.
+Ein unheilvoller schwarzer Fleck bildet Euch auf deinem Körper.
 %%%%
 aura of silence
 Aura der Stille
@@ -2298,7 +2298,7 @@ demonic willpower
 dämonische Willenskraft
 %%%%
 You punish those that try to bend your will. (Will+)
-Ihr bestraft diejenigen, die versuchen, Euren Willen zu beugen. (Wille+)
+Ihr bestraft diejenigen, die versuchen, deinen Willen zu beugen. (Wille+)
 %%%%
 You feel willful.
 Ihr fühlt Euch eigenwillig.
@@ -2346,7 +2346,7 @@ You are missing a hand.
 Euch fehlt eine Hand.
 %%%%
 One of your hands has vanished, leaving only a stump!
-Eine Eurer Hände ist verschwunden und hat nur einen Stumpf hinterlassen!
+Eine deiner Hände ist verschwunden und hat nur einen Stumpf hinterlassen!
 %%%%
 Your stump has regrown into a hand!
 Dein Stumpf ist zu einer Hand nachgewachsen!
@@ -2394,10 +2394,10 @@ Your cowardice makes you less effective in combat with threatening monsters.
 Deine Feigheit macht Euch im Kampf mit bedrohlichen Monstern weniger effektiv.
 %%%%
 You have lost your courage.
-Ihr habt Euren Mut verloren.
+Ihr habt deinen Mut verloren.
 %%%%
 You have regained your courage.
-Ihr habt Euren Mut wiedergefunden.
+Ihr habt deinen Mut wiedergefunden.
 %%%%
 inability to train dodging
 Unfähigkeit das Ausweichen zu trainieren
@@ -2649,10 +2649,10 @@ MP-powered wands
 MP-betriebene Zauberstäbe
 %%%%
 You expend magic power (3 MP) to strengthen your wands.
-Ihr verbraucht magische Kraft (3 MP), um Eure Zauberstäbe zu stärken.
+Ihr verbraucht magische Kraft (3 MP), um deine Zauberstäbe zu stärken.
 %%%%
 You feel your magical essence link to the dungeon's wands.
-Ihr spürt, wie Euch Eure magische Essenz mit den Stäben des Dungeons verbindet.
+Ihr spürt, wie Euch deine magische Essenz mit den Stäben des Dungeons verbindet.
 %%%%
 Your magical essence no longer links to wands of the dungeon.
 Deine magische Essenz ist nicht mehr mit den Zauberstäben des Dungeons verbunden.
@@ -2673,7 +2673,7 @@ You feel less skilled.
 Ihr fühlt Euch weniger kompetent.
 %%%%
 You regain all your skill.
-Ihr erhältt alle Eure Fertigkeiten zurück.
+Ihr erhältt alle deine Fertigkeiten zurück.
 %%%%
 You regain some skill.
 Ihr erlangt einige Fertigkeiten zurück.
@@ -2694,7 +2694,7 @@ You feel less experienced.
 Ihr fühlt Euch weniger erfahren.
 %%%%
 You regain all your potential.
-Ihr gewinnt Euer gesamtes Potenzial zurück.
+Ihr gewinnt dein gesamtes Potenzial zurück.
 %%%%
 You regain some potential.
 Ihr gewinnt ein gewisses Potenzial zurück.
@@ -2772,7 +2772,7 @@ Your four strong arms can wield two-handed weapons with a shield.
 Deine vier starken Arme können Zweihandwaffen und einen Schild führen.
 %%%%
 Two of your arms shrink away.
-Zwei Eurer Arme schrumpfen weg.
+Zwei deiner Arme schrumpfen weg.
 %%%%
 You grow two extra arms.
 Euch wachsen zwei zusätzliche Arme.
@@ -2943,10 +2943,10 @@ hp casting
 HP-Zauberei
 %%%%
 Your magical power is your life essence.
-Deine magische Kraft ist Eure Lebensessenz.
+Deine magische Kraft ist deine Lebensessenz.
 %%%%
 Your magical power and health merge together.
-Deine magische Kraft und Eure Gesundheit verschmelzen miteinander.
+Deine magische Kraft und deine Gesundheit verschmelzen miteinander.
 %%%%
 Your life and magic unlink.
 Dein Leben und die Magie entkoppeln Euch.
@@ -2970,7 +2970,7 @@ You feel more vital.
 Ihr fühlt Euch vitaler.
 %%%%
 Your melee attacks may engulf your foes in ooze.
-Deine Nahkampfangriffe können Eure Feinde in Schlamm verschlingen.
+Deine Nahkampfangriffe können deine Feinde in Schlamm verschlingen.
 %%%%
 You begin exuding ooze.
 Ihr fangt an, Schlamm auszuscheiden.
