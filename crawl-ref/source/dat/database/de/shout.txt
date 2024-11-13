@@ -201,7 +201,7 @@ SOUND:@The_monster@ brüllt ohrenbetäubend!
 %%%%
 player ghost
 
-VISUAL:@The_monster@ wendet Euch einen bösartigen Blick zu.
+VISUAL:@The_monster@ wendet dir einen bösartigen Blick zu.
 %%%%
 Fighter player ghost
 
@@ -292,7 +292,7 @@ Wanderer player ghost
 %%%%
 'cap-G'
 
-VISUAL:@The_monster@ wendet den Blick zu Euch.
+VISUAL:@The_monster@ wendet den Blick zu dir.
 %%%%
 'cap-J'
 
@@ -303,7 +303,7 @@ VISUAL:@The_monster@ zittert.
 %%%%
 giant slug
 
-VISUAL:@The_monster@ schwenkt die Augenstiele auf Euch zu.
+VISUAL:@The_monster@ schwenkt die Augenstiele auf dich zu.
 ########################################
 # Shouts for specific monsters
 ########################################
@@ -314,7 +314,7 @@ VISUAL:@The_monster@ schwenkt die Rhizome.
 %%%%
 glowing orange brain
 
-VISUAL:@The_monster@ wendet seine Aufmerksamkeit Euch zu.
+VISUAL:@The_monster@ wendet seine Aufmerksamkeit dir zu.
 %%%%
 # Iron imps, shadow imps and white imps copy imps.
 imp
@@ -326,7 +326,7 @@ SOUND:@The_monster@ @says@, "@imp_taunt@"
 %%%%
 moth of wrath
 
-VISUAL:@The_monster@s Fell sträubt sich vor Wut, als sie Euch bemerkt.
+VISUAL:@The_monster@s Fell sträubt sich vor Wut, als sie dich bemerkt.
 %%%%
 iron imp
 

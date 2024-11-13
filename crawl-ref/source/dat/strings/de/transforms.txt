@@ -979,11 +979,11 @@ Ihr sitzt vor dem Altar von {dat}%s.
 %%%%
 # default for octopode
 You curl up in front of the altar of %s.
-Ihr rollt Euch vor dem Altar von {dat}%s zusammen.
+Ihr rollt dich vor dem Altar von {dat}%s zusammen.
 %%%%
 # default for naga (snakelike)
 You coil in front of the altar of %s.
-Ihr windet Euch vor dem Altar von {dat}%s.
+Ihr windet dich vor dem Altar von {dat}%s.
 %%%%
 # flying
 You hover solemnly before the altar of %s.
@@ -991,7 +991,7 @@ Ihr schwebt feierlich vor dem Altar von {dat}%s.
 %%%%
 # porcupine form
 You curl into a sanctuary of spikes before the altar of %s.
-Ihr rollt Euch zu einem Heiligtum aus Stacheln vor dem Altar von {dat}%s zusammen.
+Ihr rollt dich zu einem Heiligtum aus Stacheln vor dem Altar von {dat}%s zusammen.
 %%%%
 # spider form
 You crawl onto the altar of %s.
@@ -1003,7 +1003,7 @@ Ihr schwankt zum Altar von {dat}%s.
 %%%%
 # bat form
 You perch on the altar of %s.
-Ihr hockt Euch auf den Altar von {acc}%s.
+Ihr hockt dich auf den Altar von {acc}%s.
 %%%%
 # ice/pig/dragon form
 You bow your head before the altar of %s.
@@ -1015,7 +1015,7 @@ Ihr verneigt deine Köpfe vor dem Altar von {dat}%s.
 %%%%
 # statue/storm form
 You place yourself before the altar of %s.
-Ihr stellt Euch vor dem Altar von {dat}%s.
+Ihr stellt dich vor dem Altar von {dat}%s.
 %%%%
 # fungus form
 You release spores on the altar of %s.

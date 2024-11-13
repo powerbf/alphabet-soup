@@ -459,7 +459,7 @@ einem Gott
 ##################
 %%%%
 Beogh blesses you with reinforcements.
-Beogh segnet Euch mit Verstärkungen.
+Beogh segnet dich mit Verstärkungen.
 %%%%
 %s blesses %s with %s.
 %s segnet %s mit %s.
@@ -552,7 +552,7 @@ you polymorph monsters
 Ihr Monster polymorphisiert
 %%%%
 you deliberately mutate or transform yourself
-Ihr  Euch absichtlich mutiert oder verwandelt
+Ihr dich absichtlich mutiert oder verwandelt
 %%%%
 you use holy magic or items
 Ihr heilige Magie oder Gegenstände verwendet
@@ -588,7 +588,7 @@ you destroy plants
 Ihr Pflanzen zerstört
 %%%%
 you hasten yourself or others
-Ihr Euch oder andere beschleunigt
+Ihr dich oder andere beschleunigt
 %%%%
 you channel magical energy
 Ihr magische Energie kanalisiert
@@ -657,5 +657,5 @@ you donate money
 Ihr Geld spendet
 %%%%
 you bind yourself with curses
-Ihr Euch mit flüchen bindet
+Ihr dich mit flüchen bindet
 %%%%

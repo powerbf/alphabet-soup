@@ -223,7 +223,7 @@ serpent's lash
 Peitschenhieb der Schlange
 %%%%
 You are moving at supernatural speed.
-Ihr bewegt Euch mit übernatürlicher Geschwindigkeit.
+Ihr bewegt dich mit übernatürlicher Geschwindigkeit.
 %%%%
 
 # Heaqvenly Storm (Wu Jian) active
@@ -365,7 +365,7 @@ overwhelmed with horror
 überwältigt von Entsetzen
 %%%%
 Horror overwhelms you!
-Entsetzen überwältigt Euch!
+Entsetzen überwältigt dich!
 %%%%
 extremely horrified
 extrem entsetzt
@@ -442,7 +442,7 @@ Regen Wille++
 #regenerierend
 %%%%
 You are regenerating.
-Ihr regeneriert Euch.
+Ihr regeneriert dich.
 %%%%
 
 # Inhibited regeneration
@@ -539,7 +539,7 @@ swiftness
 Raschheit
 %%%%
 You can move swiftly.
-Ihr könnt Euch rasch bewegen.
+Ihr könnt dich rasch bewegen.
 %%%%
 
 # Cooldown from Swiftness spell
@@ -551,7 +551,7 @@ sluggish
 schleppend
 %%%%
 You are moving sluggishly.
-Ihr bewegt Euch sehr langsam.
+Ihr bewegt dich sehr langsam.
 %%%%
 
 # Flying
@@ -609,7 +609,7 @@ You have no strength!
 Ihr habt keine Stärke mehr!
 %%%%
 You are recovering from loss of strength.
-Ihr erholt Euch von dem Verlust deiner Stärke.
+Ihr erholt dich von dem Verlust deiner Stärke.
 %%%%
 
 # Brainless (intelligence has been drained to zero)
@@ -624,7 +624,7 @@ You have no intelligence!
 Ihr habt keine Intelligenz!
 %%%%
 You are recovering from loss of intelligence.
-Ihr erholt Euch von dem Verlust deiner Intelligenz.
+Ihr erholt dich von dem Verlust deiner Intelligenz.
 %%%%
 
 # Clumsy (dexterity has been drained to zero)
@@ -639,7 +639,7 @@ You have no dexterity!
 Ihr habt keine Geschicklichkeit!
 %%%%
 You are recovering from loss of dexterity.
-Ihr erholt Euch von dem Verlust deiner Geschicklichkeit.
+Ihr erholt dich von dem Verlust deiner Geschicklichkeit.
 %%%%
 
 # In or over water
@@ -796,7 +796,7 @@ You are confused.
 Ihr seid verwirrt.
 %%%%
 You feel less confused.
-Ihr fühlt Euch weniger verwirrt.
+Ihr fühlt dich weniger verwirrt.
 %%%%
 
 # Confusing Touch spell active
@@ -1024,7 +1024,7 @@ Your resistance to elements expires.
 Deine Resistenz gegen die Elemente lässt nach.
 %%%%
 You start to feel less resistant.
-Ihr fühlt Euch weniger resistent gegen die Elemente.
+Ihr fühlt dich weniger resistent gegen die Elemente.
 %%%%
 
 # Slimify
@@ -1157,7 +1157,7 @@ You are especially stealthy.
 Ihr seid besonders heimlich.
 %%%%
 You feel less stealthy.
-Ihr fühlt Euch weniger heimlich.
+Ihr fühlt dich weniger heimlich.
 %%%%
 
 # Fear spell
@@ -1219,7 +1219,7 @@ liquefying
 verflüssigend
 %%%%
 You are liquefying the ground beneath you.
-Ihr verflüssigt den Boden unter Euch.
+Ihr verflüssigt den Boden unter dir.
 %%%%
 The ground is no longer liquid beneath you.
 Der Boden unter euch ist nicht mehr flüssig.
@@ -1324,7 +1324,7 @@ A sentinel's mark is revealing your location to enemies.
 Das Zeichen eines Wächters verrät deinen Feinden deinen Standort.
 %%%%
 The sentinel's mark upon you fades away.
-Das Zeichen des Wächters auf Euch verblasst.
+Das Zeichen des Wächters auf dich verblasst.
 %%%%
 
 %%%%
@@ -1644,10 +1644,10 @@ qazlal fire resistance
 Qazlal Feuerresistenz
 %%%%
 Qazlal is protecting you from fire.
-Qazlal schützt Euch vor Feuer.
+Qazlal schützt dich vor Feuer.
 %%%%
 You feel less protected from fire.
-Ihr fühlt Euch weniger vor Feuer geschützt.
+Ihr fühlt dich weniger vor Feuer geschützt.
 %%%%
 Your protection from fire is fading.
 Dein Schutz vor Feuer lässt nach.
@@ -1809,7 +1809,7 @@ ambrosia
 Ambrosia
 %%%%
 You are regenerating under the effects of ambrosia.
-Ihr regeneriert Euch unter der Wirkung von Ambrosia.
+Ihr regeneriert dich unter der Wirkung von Ambrosia.
 %%%%
 
 # Channel Magic (Sif Muna divine ability)
@@ -1922,7 +1922,7 @@ no blinkbolt
 kein Blinzelbolzen
 %%%%
 You feel energetic enough to blinkbolt again.
-Ihr fühlt Euch energiegeladen genug, um wieder zu blinzelbolzenen.
+Ihr fühlt dich energiegeladen genug, um wieder zu blinzelbolzenen.
 %%%%
 
 %%%%
@@ -1947,7 +1947,7 @@ attract
 anziehen
 %%%%
 You attract monsters toward you.
-Ihr lockt Monster zu Euch.
+Ihr lockt Monster zu dir.
 %%%%
 
 # Under the effects of the Elixir card

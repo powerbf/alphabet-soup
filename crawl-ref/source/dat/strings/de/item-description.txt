@@ -39,7 +39,7 @@ It affects your accuracy and damage with ranged weapons and melee (%+d).
 Dieser Gegenstand beeinflusst deine Genauigkeit und Schaden mit Fernkampf- und Nahkampfwaffen (%+d).
 %%%%
 It insulates you from electricity.
-Dieser Gegenstand isoliert Euch vor Elektrizität.
+Dieser Gegenstand isoliert dich vor Elektrizität.
 %%%%
 It affects your health (%+d).
 Dieser Gegenstand beeinflusst deine Gesundheit (%+d).
@@ -69,40 +69,40 @@ It prevents spellcasting.
 Dieser Gegenstand verhindert das Wirken von Zaubersprüchen.
 %%%%
 It may teleport you next to monsters.
-Dieser Gegenstand kann Euch neben Monster teleportieren.
+Dieser Gegenstand kann dich neben Monster teleportieren.
 %%%%
 It prevents most forms of teleportation.
 Dieser Gegenstand verhindert die meisten Arten der Teleportation.
 %%%%
 It may make you go berserk in combat.
-Dieser Gegenstand kann Euch im Kampf in der Berserkerwut treiben.
+Dieser Gegenstand kann dich im Kampf in der Berserkerwut treiben.
 %%%%
 It protects you against confusion.
-Dieser Gegenstand schützt Euch vor Verwirrung.
+Dieser Gegenstand schützt dich vor Verwirrung.
 %%%%
 It causes magical contamination when unequipped.
 Dieser Gegenstand verursacht magische Kontamination, wenn er abgelegt wird.
 %%%%
 It protects you from missiles.
-Dieser Gegenstand schützt Euch vor Geschossen
+Dieser Gegenstand schützt dich vor Geschossen
 %%%%
 It increases your rate of health regeneration.
 Dieser Gegenstand erhöht die Geschwindigkeit deiner Gesundheitsregeneration.
 %%%%
 It protects you from acid and corrosion.
-Dieser Gegenstand schützt Euch vor Säure und Korrosion.
+Dieser Gegenstand schützt dich vor Säure und Korrosion.
 %%%%
 It protects you from mutation.
-Dieser Gegenstand schützt Euch vor Mutation.
+Dieser Gegenstand schützt dich vor Mutation.
 %%%%
 It may corrode you when you take damage.
-Dieser Gegenstand kann Euch korrodieren wenn Ihr Schaden nimmt.
+Dieser Gegenstand kann dich korrodieren wenn Ihr Schaden nimmt.
 %%%%
 It drains your maximum health when unequipped.
-Dieser Gegenstand entzieht Euch die Maximale Gesundheit, wenn er abgelegt wird.
+Dieser Gegenstand entzieht dich die Maximale Gesundheit, wenn er abgelegt wird.
 %%%%
 It may slow you when you take damage.
-Dieser Gegenstand kann Euch verlangsamen, wenn Ihr Schaden nimmt.
+Dieser Gegenstand kann dich verlangsamen, wenn Ihr Schaden nimmt.
 %%%%
 It will be destroyed if unequipped.
 Dieser Gegenstand wird zerstört, wenn er abgelegt wird.
@@ -111,25 +111,25 @@ It increases damage dealt and taken.
 Dieser Gegenstand erhöht den verursachten und erlittenen Schaden.
 %%%%
 It bestows one free step when moving towards enemies.
-Dieser Gegenstand gewährt Euch freien Schritt, wenn man sich auf Feinde zubewegt.
+Dieser Gegenstand gewährt dir freien Schritt, wenn man sich auf Feinde zubewegt.
 %%%%
 It makes you extremely vulnerable to %s.
-Dieser Gegenstand macht Euch extrem anfällig für {acc}%s.
+Dieser Gegenstand macht dich extrem anfällig für {acc}%s.
 %%%%
 It makes you very vulnerable to %s.
-Dieser Gegenstand macht Euch sehr anfällig für {acc}%s.
+Dieser Gegenstand macht dich sehr anfällig für {acc}%s.
 %%%%
 It makes you vulnerable to %s.
-Dieser Gegenstand macht Euch anfällig für {acc}%s.
+Dieser Gegenstand macht dich anfällig für {acc}%s.
 %%%%
 It protects you from %s.
-Dieser Gegenstand schützt Euch vor {dat}%s.
+Dieser Gegenstand schützt dich vor {dat}%s.
 %%%%
 It greatly protects you from %s.
-Dieser Gegenstand schützt Euch hervorragend vor {dat}%s.
+Dieser Gegenstand schützt dich hervorragend vor {dat}%s.
 %%%%
 It renders you almost immune to %s.
-Dieser Gegenstand macht Euch fast immun gegen {acc}%s.
+Dieser Gegenstand macht dich fast immun gegen {acc}%s.
 %%%%
 It greatly decreases your willpower.
 Dieser Gegenstand reduziert deine Willenskraft erheblich.
@@ -144,16 +144,16 @@ It increases your willpower.
 Dieser Gegenstand erhöht deine Willenskraft.
 %%%%
 It makes you much less stealthy.
-Dieser Gegenstand macht Euch viel weniger heimlich.
+Dieser Gegenstand macht dich viel weniger heimlich.
 %%%%
 It makes you much more stealthy.
-Dieser Gegenstand macht Euch viel heimlicher.
+Dieser Gegenstand macht dich viel heimlicher.
 %%%%
 It makes you less stealthy.
-Dieser Gegenstand macht Euch weniger heimlich.
+Dieser Gegenstand macht dich weniger heimlich.
 %%%%
 It makes you more stealthy.
-Dieser Gegenstand macht Euch heimlicher.
+Dieser Gegenstand macht dich heimlicher.
 %%%%
 It may have some hidden properties.
 Dieser Gegenstand kann einige verborgene Eigenschaften haben.
@@ -345,7 +345,7 @@ It falls into the 'Staves' category.
 Diese Waffe gehört zur Kategorie 'Stecken'.
 %%%%
 Your inability to study %s prevents you from drawing on the full power of this staff in melee.
-Deine Unfähigkeit, %s zu studieren, hindert Euch daran, die volle Kraft dieses Steckens im Nahkampf zu nutzen.
+Deine Unfähigkeit, %s zu studieren, hindert dich daran, die volle Kraft dieses Steckens im Nahkampf zu nutzen.
 %%%%
 It is a one-handed weapon.
 Sie ist eine Einhandwaffe.
@@ -568,7 +568,7 @@ It causes incoming damage to be divided between your reserves of health and magi
 Eingehende Schaden wird zwischen deinen Gesundheits- und Magiereserven aufgeteilt.
 %%%%
 It allows you to gain divine favour quickly.
-Dieser Gegenstand ermöglicht Euch, schnell göttliche Gunst zu erlangen.
+Dieser Gegenstand ermöglicht dich, schnell göttliche Gunst zu erlangen.
 %%%%
 It reflects blocked missile attacks.
 Dieser Gegenstand kann Geschosse reflektieren wenn sie blockiert werden.
@@ -1004,7 +1004,7 @@ Flames
 Flammen
 %%%%
 It surrounds you with a cloud of flames.
-Sie umgibt Euch mit einer Flammenwolke.
+Sie umgibt dich mit einer Flammenwolke.
 %%%%
 It grants immunity to clouds of flame.
 Sie gewährt Immunität gegen Flammenwolken.
@@ -1133,7 +1133,7 @@ It gathers nearby corpses to temporarily increase the armour it provides.
 Sie sammelt Leichen in der Nähe ein, um ihre Beschützung vorübergehend zu erhöhen.
 %%%%
 It protects you from foul pestilence.
-Sie schützt Euch vor der Pestilenz.
+Sie schützt dich vor der Pestilenz.
 %%%%
 
 # Seven-league Boots
@@ -1155,7 +1155,7 @@ Umbra
 Umbra
 %%%%
 It surrounds you with an aura of shadow, increasing your stealth and reducing the accuracy of all within it (including the wearer).
-Er umgibt Euch mit einer Aura des Schattens, die deine Heimlichkeit erhöht und die Treffsicherheit aller in ihr befindlichen Personen (einschließlich des Trägers) reduziert.
+Er umgibt dich mit einer Aura des Schattens, die deine Heimlichkeit erhöht und die Treffsicherheit aller in ihr befindlichen Personen (einschließlich des Trägers) reduziert.
 %%%%
 
 # Amulet of the Air

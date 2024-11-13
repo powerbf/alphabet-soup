@@ -213,7 +213,7 @@ Pyroclastic Surge cast
 %%%%
 Eruption cast
 
-@The_monster@ zerreißt die Erde unter Euch!
+@The_monster@ zerreißt die Erde unter dir!
 %%%%
 Chant Word of Entropy cast
 
@@ -237,7 +237,7 @@ Harpoon Shot cast
 %%%%
 Throw Klown Pie cast
 
-@The_monster@ tortet Euch bösartig!
+@The_monster@ tortet dich bösartig!
 %%%%
 Stunning Burst cast
 
@@ -777,7 +777,7 @@ floating eye cast
 %%%%
 unseen floating eye cast targeted
 
-Du spürt, wie Euch etwas anstarrt. @player_only@
+Du spürt, wie dich etwas anstarrt. @player_only@
 %%%%
 guardian serpent cast targeted
 

@@ -5,7 +5,7 @@ Alle deine Aktionen sind 50% schneller.
 %%%%
 Invis status
 
-Ihr seid unsichtbar. Die meisten Feinde können Euch nicht sehen und erleiden
+Ihr seid unsichtbar. Die meisten Feinde können dich nicht sehen und erleiden
 Abzüge für Treffer, obwohl sie deinen ungefähren Standort erraten können. Dies
 führt mit der Zeit zu magischer Kontamination und kann gefährliche
 Kontaminationsgrade verursachen, wenn Ihr bereits vor Erreichen dieses Status
@@ -15,7 +15,7 @@ Kontamination glüht oder in seichtem Wasser steht).
 %%%%
 Tele status
 
-Ihr seid dabei, Euch zu teleportieren. Während Ihr auf die Teleportation wartet,
+Ihr seid dabei, dich zu teleportieren. Während Ihr auf die Teleportation wartet,
 wird die Teleportation abgebrochen, wenn Ihr versucht, den Status erneut
 anzuwenden (z. B. durch Verwendung einer Teleportationsrolle).
 %%%%
@@ -23,7 +23,7 @@ Fly status
 
 Ihr fliegt über dem Boden und könnt Wasser und Lava überqueren oder über
 seichtem Wasser ohne Abzüge kämpfen. Bei den meisten Flugarten kommt es zu einer
-Zeitüberschreitung. Passt in diesem Fall auf, worüber Ihr Euch befindet!
+Zeitüberschreitung. Passt in diesem Fall auf, worüber Ihr dich befindet!
 %%%%
 Agi status
 
@@ -66,7 +66,7 @@ Berserkermodus geraten.
 %%%%
 -Berserk status
 
-Ihr erholt Euch von deiner Berserkerwut und könnt für kurze Zeit nicht erneut in
+Ihr erholt dich von deiner Berserkerwut und könnt für kurze Zeit nicht erneut in
 Berserkerwut geraten.
 %%%%
 Pois status
@@ -79,13 +79,13 @@ sofort mit Tränken des Gegenmittels geheilt werden.
 Conf status
 
 Ihr seid verwirrt. Ihr könnt in eine zufällige Richtung stolpern, wenn Ihr
-versucht, Euch zu bewegen oder anzugreifen, und könnt weder Zauber wirken noch
+versucht, dich zu bewegen oder anzugreifen, und könnt weder Zauber wirken noch
 die meisten Gegenstände außer Tränken verwenden. Verwirrung kann sofort durch
 Tränke des Gegenmittels geheilt werden.
 %%%%
 Contam status
 
-Ihr leuchtet mit mutagener Strahlung. Diese kann Euch mit der Zeit mutieren
+Ihr leuchtet mit mutagener Strahlung. Diese kann dich mit der Zeit mutieren
 lassen, was normalerweise ein negatives Ergebnis hat. Die Farbe zeigt den
 Schweregrad an: Die erste Stufe (grau) ist nur eine Warnung und führt weder zu
 einer Mutation noch zu einem Verlust der Verstohlenheit.
@@ -98,7 +98,7 @@ allmählich, wenn Ihr Erfahrung sammelt.
 %%%%
 Breath status
 
-Euch stockt der Atem, und Ihr könnt deine angeborene Atemfähigkeit nicht nutzen,
+dich stockt der Atem, und Ihr könnt deine angeborene Atemfähigkeit nicht nutzen,
 bis der Status abläuft.
 %%%%
 Exh status
@@ -121,43 +121,43 @@ auf.
 %%%%
 Held status
 
-Ihr seid in einem Netz oder Spinnennetz gefangen. Ihr könnt Euch nicht frei
-bewegen und werdet stattdessen versuchen, Euch zu befreien.
+Ihr seid in einem Netz oder Spinnennetz gefangen. Ihr könnt dich nicht frei
+bewegen und werdet stattdessen versuchen, dich zu befreien.
 %%%%
 Constr status
 
 Ihr seid von einem Feind umschlungen und erleiden mit der Zeit immer mehr
-Schaden. Ihr könnt Euch nicht vom Feind wegbewegen (oder blinzeln), obwohl Ihr
+Schaden. Ihr könnt dich nicht vom Feind wegbewegen (oder blinzeln), obwohl Ihr
 versuchen könnt, zu entkommen, indem Ihr dies versucht, und wenn Ihr dies
 mehrmals versucht, wird die Wahrscheinlichkeit, dass Ihr Erfolg habt und die
 Umschlingung durchbrecht, immer größer.
 %%%%
 Mesm status
 
-Ihr seid hypnotisiert und könnt Euch nicht von dem Monster entfernen, das Euch
+Ihr seid hypnotisiert und könnt dich nicht von dem Monster entfernen, das dich
 hypnotisiert. Der Effekt kann durch Töten oder Verwirren des verantwortlichen
 Monsters oder durch Unterbrechen der Sichtlinie zu ihm aufgehoben werden.
 %%%%
 Fear status
 
-Ihr werdet von Angst überwältigt und könnt Euch nicht auf das Monster zubewegen,
-das Euch Angst macht. Der Effekt kann durch Töten oder Verwirren des
+Ihr werdet von Angst überwältigt und könnt dich nicht auf das Monster zubewegen,
+das dich Angst macht. Der Effekt kann durch Töten oder Verwirren des
 verantwortlichen Monsters oder durch Unterbrechen der Sichtlinie zu ihm
 aufgehoben werden.
 %%%%
 -Tele status
 
-Ihr seid verhindert, Euch zu teleportieren oder blinzeln.
+Ihr seid verhindert, dich zu teleportieren oder blinzeln.
 %%%%
 -Move status
 
-Ihr könnt Euch nicht bewegen, blinzeln oder teleportieren. (Ihr könnt weiterhin
+Ihr könnt dich nicht bewegen, blinzeln oder teleportieren. (Ihr könnt weiterhin
 andere Aktionen ausführen.)
 %%%%
 Mark status
 
 Dein Standort wird durch die Wirkung einer Falle oder eines Zaubers markiert,
-und Monster können Euch gezielter jagen und Euch entdecken, auch wenn Ihr Euch
+und Monster können dich gezielter jagen und dich entdecken, auch wenn Ihr dich
 nicht in ihrem Blickfeld befinden.
 %%%%
 Fire status
@@ -168,11 +168,11 @@ verursacht. Das Betreten von Wasser löscht die Flammen.
 Corona status
 
 Ihr seid von Licht umgeben, was deine Verstohlenheit erheblich einschränkt und es
-einfacher macht, Euch zu treffen.
+einfacher macht, dich zu treffen.
 %%%%
 Barbs status
 
-In deiner Haut sind Widerhaken eingebettet und wenn Ihr Euch bewegt, werdet Ihr
+In deiner Haut sind Widerhaken eingebettet und wenn Ihr dich bewegt, werdet Ihr
 verletzt. Wenn Ihr eine kurze Zeit an Ort und Stelle bleibt, könnt Ihr die
 Widerhaken entfernen, ohne Schaden zu nehmen.
 %%%%
@@ -182,7 +182,7 @@ Ihr seid krank geworden und deine Gesundheit kann sich nicht mehr regenerieren.
 %%%%
 Vertigo status
 
-Ihr seid desorientiert und Euch ist schwindelig, was deine Genauigkeit, dein
+Ihr seid desorientiert und dich ist schwindelig, was deine Genauigkeit, dein
 Ausweichvermögen und deine Erfolgsquote beim Zaubern verringert.
 %%%%
 Corr status
@@ -236,13 +236,13 @@ Lebewesen als geisterhafte Diener auferstehen.
 %%%%
 Vit status
 
-Ihr seid göttlich vitalisiert, was Euch Schutz vor Gift, Verwirrung,
+Ihr seid göttlich vitalisiert, was dich Schutz vor Gift, Verwirrung,
 Versteinerung und Krankheit bietet und deine Kraft, Intelligenz und
 Geschicklichkeit steigert und erhält.
 %%%%
 Will/2 status
 
-Deine Willenskraft ist schwächer, was Euch anfällig für viele magische Effekte
+Deine Willenskraft ist schwächer, was dich anfällig für viele magische Effekte
 macht.
 %%%%
 Stone status
@@ -252,7 +252,7 @@ treffen, aber der erlittene Schaden ist deutlich geringer.
 %%%%
 Petr status
 
-Ihr verwandelt Euch in Stein. deine Aktionen werden verlangsamt, der erlittene
+Ihr verwandelt dich in Stein. deine Aktionen werden verlangsamt, der erlittene
 Schaden wird leicht reduziert und bald werdet Ihr vollständig versteinert
 (werdet den Steinstatus erlangen).
 %%%%
@@ -282,7 +282,7 @@ der Zauber abgelaufen ist, kann er nicht sofort erneut gewirkt werden.
 %%%%
 -DDoor status
 
-Ihr befindet Euch noch immer in der Nähe der Schwelle des Todes und kannst „Tür
+Ihr befindet dich noch immer in der Nähe der Schwelle des Todes und kannst „Tür
 des Todes“ für kurze Zeit nicht erneut wirken.
 %%%%
 Quad status
@@ -325,7 +325,7 @@ je nach Höhe des reflektierten Schadens an Frömmigkeit.
 %%%%
 Vortex status
 
-Ihr befindet Euch im Auge eines gewaltigen Eissturms. Nachdem der Wirbel
+Ihr befindet dich im Auge eines gewaltigen Eissturms. Nachdem der Wirbel
 abgeklungen ist, kann er für kurze Zeit nicht erneut hervorgerufen werden.
 %%%%
 -Vortex status
@@ -335,7 +335,7 @@ nicht erneut wirken.
 %%%%
 Liquid status
 
-Ihr verflüssigt den Boden um Euch herum und verlangsamt die Bewegung aller
+Ihr verflüssigt den Boden um dich herum und verlangsamt die Bewegung aller
 Kreaturen in der Umgebung.
 %%%%
 Hero status
@@ -354,12 +354,12 @@ göttlichen Schutz bittet, führt zu Buße.
 %%%%
 Disjoin status
 
-Ihr destabilisiert den Raum um Euch herum und führt dazu, dass in der Nähe
-befindliche Monster zufällig von Euch weggeblinkt werden.
+Ihr destabilisiert den Raum um dich herum und führt dazu, dass in der Nähe
+befindliche Monster zufällig von dir weggeblinkt werden.
 %%%%
 Slay status
 
-Ihr habt das Blut eines Werwolfs in Euch, das Euch heilt und deinen Fern- und
+Ihr habt das Blut eines Werwolfs in dir, das dich heilt und deinen Fern- und
 Nahkampfangriffen Boni verleiht, die sich jedes Mal erhöhen, wenn Ihr einen
 Feind tötet.
 %%%%
@@ -452,11 +452,11 @@ verstärkt, allerdings verliert Ihr dabei einen Teil deiner Magie.
 Howl status
 
 Ein furchterregendes Heulen hallt in deinem Kopf wider und ruft mächtige
-Kreaturen herbei, die Euch angreifen.
+Kreaturen herbei, die dich angreifen.
 %%%%
 Blood status
 
-Dein Körper ist mit geronnenem Blut bedeckt, das Euch als Rüstung dient, solange
+Dein Körper ist mit geronnenem Blut bedeckt, das dich als Rüstung dient, solange
 Ihr schwer verletzt seid.
 %%%%
 -Cast status
@@ -538,7 +538,7 @@ Ihr wurdet in einen Lich verwandelt. Ihr seid resistent gegen Kälte und
 feindliche Verhexungen und für die Dauer der Verwandlung vollkommen immun gegen
 Gift, negative Energie und Qual. deine Nekromantie-Zauber werden stärker und Ihr
 erhaltet einen auszehrenden Nahkampfangriff. Ihr seid jedoch auch anfällig für
-heiligen Schaden und Untote Vertreiben und könnt keine Tränke zu Euch nehmen.
+heiligen Schaden und Untote Vertreiben und könnt keine Tränke zu dir nehmen.
 %%%%
 Bat status
 
@@ -556,7 +556,7 @@ keine Zauber. {{
 %%%%
 Pig status
 
-Ihr wurdet in ein Schwein verwandelt. Ihr bewegr Euch schnell, seid aber im
+Ihr wurdet in ein Schwein verwandelt. Ihr bewegr dich schnell, seid aber im
 Nahkampf weniger effektiv. Alle ausgerüsteten Waffen, Rüstungen und Ringe sind
 verschmolzen und Ihr könnt keine Zauber wirken. Die Effektivität deiner
 Nahkampfangriffe in dieser Form basiert auf deinem Erfahrungsstufe und nicht auf
@@ -579,7 +579,7 @@ App status
 Tree status
 
 Ihr wurdet in einen Baum verwandelt und seid am Boden festgewurzelt. Ihr könnt
-Euch nicht bewegen oder teleportieren. Ihr habt nur minimale
+dich nicht bewegen oder teleportieren. Ihr habt nur minimale
 Ausweichmöglichkeiten, aber mehr Gesundheit und natürliche Rüstung. Ihr seid
 resistent gegen Gift und immun gegen negative Energie.
 
@@ -620,7 +620,7 @@ erleidet.
 %%%%
 Orb status
 
-Ihr befindet Euch in der Nähe der Kugel von Zot (oder haltet sie vielleicht in
+Ihr befindet dich in der Nähe der Kugel von Zot (oder haltet sie vielleicht in
 der Hand), deren Energien die Translokationsmagie stören. Die Teleportation
 dauert länger und die Portale von Passage von Golubria sind weniger genau
 positioniert und verfallen schneller.
@@ -640,7 +640,7 @@ ihn.
 %%%%
 Lash status
 
-Ihr bewegt Euch mit übernatürlicher Geschwindigkeit, wodurch Bewegungsaktionen
+Ihr bewegt dich mit übernatürlicher Geschwindigkeit, wodurch Bewegungsaktionen
 sofort ausgeführt werden. Alle Kampfangriffe, die Ihr während dieser Bewegung
 ausführt, verursachen erhöhten Schaden und verfehlen nie dein Ziel.
 %%%%
@@ -740,24 +740,24 @@ Ihr habt die Kontrolle über deine Magie verloren.
 %%%%
 Attr status
 
-Feinde werden magisch zu Euch hingezogen.
+Feinde werden magisch zu dir hingezogen.
 %%%%
 Zot status
 
 Ihr habt zu viel Zeit in einem Zweig verbracht, sodass das bösartige Wesen Zot
-Euch bemerkt hat. Wenn Ihr die angegebene Anzahl von Runden in dem Zweig
-verbringt, ohne in eine neue Ebene hinabzusteigen, wird Zot Euch finden und
+dich bemerkt hat. Wenn Ihr die angegebene Anzahl von Runden in dem Zweig
+verbringt, ohne in eine neue Ebene hinabzusteigen, wird Zot dich finden und
 auszehren.
 %%%%
 Zot count status
 
 Wenn Ihr die angegebene Anzahl an Runden in diesem Zweig verbringt, ohne in eine
-neue Eben hinabzusteigen, wird Zot Euch finden und auszehren.
+neue Eben hinabzusteigen, wird Zot dich finden und auszehren.
 %%%%
 Curl status
 
-Nach einem Angriff habt Ihr Euch reflexartig zusammengerollt, um Euch vor
-weiteren Schlägen zu schützen. Ihr löst Euch jetzt aus dieser
+Nach einem Angriff habt Ihr dich reflexartig zusammengerollt, um dich vor
+weiteren Schlägen zu schützen. Ihr löst dich jetzt aus dieser
 Verteidigungshaltung und erhaltet keinen weiteren Schutz, bis Ihr erneut
 getroffen werdet.
 %%%%

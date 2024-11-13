@@ -20,7 +20,7 @@ Ihr habt eine kurze Vision einer großen schwarzen zyklopischen Stadtlandschaft 
 
 Deine Sicht wird von seltsamen Glyphen verdeckt, die sich krumme Formen zu geben scheinen und ihre Gestalt verändern.
 
-Ihr fühlt Euch unaufhaltsam von einer namenlosen und unerbittlichen Düsternis verfolgt.
+Ihr fühlt dich unaufhaltsam von einer namenlosen und unerbittlichen Düsternis verfolgt.
 #-----------
 
 Ihr windet euch im Todeskampf, während dein Geist von Schrecken heimgesucht wird, die jenseits der menschlichen Vorstellungskraft liegen.
@@ -55,7 +55,7 @@ Formlose Schrecken verharren am Rande deiner Vision und kommen immer näher.
 
 Ein unaufhaltsames Gefühl unerbittlicher Finsternis überkommt euch.
 
-Zusammenhängende, vernünftige Gedanken scheinen Euch fremd zu sein.
+Zusammenhängende, vernünftige Gedanken scheinen dich fremd zu sein.
 
 Ranken des Wahnsinns sickern und winden sich in die dunkelsten Ritzen deines Geistes.
 
@@ -82,7 +82,7 @@ transzendente
 %%%%
 welcome_spam
 
-Werdet Ihr Euch durchsetzen, wo andere versagt haben? Werdet Ihr die Kugel von Zot finden?
+Werdet Ihr dich durchsetzen, wo andere versagt haben? Werdet Ihr die Kugel von Zot finden?
 
 Der Schoß dieses Dungeons birgt das @_great_adj_@ Artefakt, die Kugel von Zot.
 
@@ -118,13 +118,13 @@ welcome_spam Halloween
 
 @welcome_spam@ Seid vorsichtig! Heute Abend ist Halloween.
 
-Die Monster hier sind keine großen Fans von Süßem oder Saurem. Wenn sie Euch die Kugel von Zot nicht geben wollen, musst Ihr ihn Euch nehmen.
+Die Monster hier sind keine großen Fans von Süßem oder Saurem. Wenn sie dich die Kugel von Zot nicht geben wollen, musst Ihr ihn dich nehmen.
 
-Ein schrecklicher Fluch hat Euch auf die Suche nach der Kugel von Zot geschickt. Was für eine schreckliche Nacht, um einen Fluch zu haben!
+Ein schrecklicher Fluch hat dich auf die Suche nach der Kugel von Zot geschickt. Was für eine schreckliche Nacht, um einen Fluch zu haben!
 
-Während Ihr auf der Suche nach der Kugel hinabsteigt, scharen sich @_halloween_things_@ um Euch. An diesem Ort spukt es!
+Während Ihr auf der Suche nach der Kugel hinabsteigt, scharen sich @_halloween_things_@ um dich. An diesem Ort spukt es!
 
-Ihr hört das Gackern einer Hexe und seid plötzlich ins Dungeon angekommen. Wenn Ihr die Kugel von Zot nicht findet, verwandelt Ihr Euch in @_a_lowly_@!
+Ihr hört das Gackern einer Hexe und seid plötzlich ins Dungeon angekommen. Wenn Ihr die Kugel von Zot nicht findet, verwandelt Ihr dich in @_a_lowly_@!
 %%%%
 hell_effect_quiet
 
@@ -136,7 +136,7 @@ else
 end
 }}
 
-Ihr fühlt Euch verloren und weit, weit weg von zu Hause...
+Ihr fühlt dich verloren und weit, weit weg von zu Hause...
 
 Ihr zittert vor Angst.
 
@@ -144,9 +144,9 @@ Ihr fühlt eine schreckliche Vorahnung...
 
 Etwas Beängstigendes geschieht.
 
-Ihr spürt, dass ein uraltes Böses Euch beobachtet...
+Ihr spürt, dass ein uraltes Böses dich beobachtet...
 
-Ihr fühlt Euch plötzlich ganz klein und verletzlich.
+Ihr fühlt dich plötzlich ganz klein und verletzlich.
 
 Ihr spürt eine feindliche Präsenz.
 

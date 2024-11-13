@@ -256,10 +256,10 @@ you
 Ihr
 %%%%
 {acc}you
-Euch
+dich
 %%%%
 {dat}you
-Euch
+dir
 %%%%
 # when something hits you after you're already dead
 # declension will be handled by grammar.txt

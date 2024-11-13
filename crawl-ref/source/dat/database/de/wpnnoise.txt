@@ -106,7 +106,7 @@ _weapon_chatter_
 
 @Your_weapon@ sagt, "Pssst! Hast du das gehört?"
 
-@Your_weapon@ feuert Euch an.
+@Your_weapon@ feuert dich an.
 
 @Your_weapon@ spricht ein Gebet.
 
@@ -122,7 +122,7 @@ _weapon_chatter_
 
 @Your_weapon@ kommentiert das Wetter.
 
-@Your_weapon@ erfreut Euch mit die Lebensgeschichte.
+@Your_weapon@ erfreut dich mit die Lebensgeschichte.
 
 @Your_weapon@ spricht Kauderwelsch.
 
@@ -167,7 +167,7 @@ _rare_chatter_
 
 @Your_weapon@ sagt: "Ihr seid ziemlich gut, für {acc}@a_player_genus@."
 
-@Your_weapon@ seufzt, "Ich werde Euch vermissen, wenn Ihr tot seid, @player_name@."
+@Your_weapon@ seufzt, "Ich werde dich vermissen, wenn Ihr tot seid, @player_name@."
 
 ###############################################################################
 # Weapon noises.
@@ -231,7 +231,7 @@ w:20
 
 @Your_weapon@ pfeift unschuldig.
 
-@Your_weapon@ plappert die Geräusche um Euch herum nach.
+@Your_weapon@ plappert die Geräusche um dich herum nach.
 ###############################################################################
 # Instrumental noises.
 ###############################################################################
@@ -603,7 +603,7 @@ _singing_no-low_tension_
 
 @The_weapon@ intoniert [eine Arie|eine Fuge].
 
-@The_weapon@ gibt Euch ein privates [Vorsingen|Konzert].
+@The_weapon@ gibt dich ein privates [Vorsingen|Konzert].
 
 @The_weapon@ [singt|summt] vor sich hin.
 
@@ -658,7 +658,7 @@ w:40
 
 @The_weapon@ [komponiert|singt] eine Ballade über deine Abenteuer.
 
-@The_weapon@ verfasst vorzeitig einen Nachruf auf Euch.
+@The_weapon@ verfasst vorzeitig einen Nachruf auf dich.
 
 ###############################################################################
 # Speaking
@@ -688,7 +688,7 @@ _common_speaking_no_tension_
 
 @The_weapon@ beglückwünscht sich selbst zu der Gesangsstimme.
 
-@The_weapon@ fragt Euch nach deiner Meinung über @_musical_topic_@.
+@The_weapon@ fragt dich nach deiner Meinung über @_musical_topic_@.
 
 @The_weapon@ wundert sich, dass es nicht mehr so schöne Schwerter gibt.
 
@@ -696,7 +696,7 @@ _common_speaking_no_tension_
 
 @The_weapon@ bietet an, alle deine Lieblingslieder zu singen.
 
-@The_weapon@ bittet Euch um einen Reim für '@_rhyme_word_@'.
+@The_weapon@ bittet dich um einen Reim für '@_rhyme_word_@'.
 
 @The_weapon@ beschwert sich über [doppelte|dreifache|kurze] Schwerter.
 
@@ -710,9 +710,9 @@ _common_speaking_no_tension_
 
 @The_weapon@ beklagt sich über deinen Mangel an musikalischem Enthusiasmus.
 
-@The_weapon@ versucht, Euch in einen Kanon zu locken.
+@The_weapon@ versucht, dich in einen Kanon zu locken.
 
-@The_weapon@ erzählt Euch von seinen Plänen für eine grandiose Oper.
+@The_weapon@ erzählt dich von seinen Plänen für eine grandiose Oper.
 
 @The_weapon@ murrt, "Ein einziges Publikum ist wohl besser als gar keines..."
 
@@ -728,9 +728,9 @@ _common_speaking_no_tension_
 
 @The_weapon@ schreit, "Ihr könnt mich doch nicht langweilig nennen!"
 
-@The_weapon@ erzählt Euch die Geschichte des [Untergangs|Todes|Unglücks] seines Vorbesitzers.
+@The_weapon@ erzählt dich die Geschichte des [Untergangs|Todes|Unglücks] seines Vorbesitzers.
 
-@The_weapon@ verkündet fröhlich, "Ich habe Euch so viel zu erzählen!"
+@The_weapon@ verkündet fröhlich, "Ich habe dich so viel zu erzählen!"
 
 @The_weapon@ sagt, "Ihr könntet auch etwas sagen, weißt Ihr."
 
@@ -740,9 +740,9 @@ _common_speaking_no_tension_
 
 @The_weapon@ schimpft, "Schweigen macht mich immer schmollend."
 
-@The_weapon@ lobt Euch für deinen Waffengeschmack.
+@The_weapon@ lobt dich für deinen Waffengeschmack.
 
-@The_weapon@ versucht, Euch ein paar Zungenbrecher beizubringen.
+@The_weapon@ versucht, dich ein paar Zungenbrecher beizubringen.
 
 @The_weapon@ sagt, "Wenigstens werdet Ihr eines Tages sterben und dieser Langeweile entkommen!"
 
@@ -838,7 +838,7 @@ w:1
 @The_weapon@ sagt, "Ihr habt nicht zufällig gesehen, dass meine Scheide irgendwo herumliegt? Ich fühle mich so entblößt."
 
 w:1
-@The_weapon@ beschwert sich, "Oh, sind deine Hände nass und fettig. Aber ich erlaube Euch, mich eine Zeit lang zu führen."
+@The_weapon@ beschwert sich, "Oh, sind deine Hände nass und fettig. Aber ich erlaube dich, mich eine Zeit lang zu führen."
 
 ############ speaking, low tension ############
 %%%%
@@ -855,7 +855,7 @@ w:1
 
 @The_weapon@ kommentiert deine Kampftechniken.
 
-@The_weapon@ vergleicht Euch ungünstig mit seinem Vorbesitzer.
+@The_weapon@ vergleicht dich ungünstig mit seinem Vorbesitzer.
 
 @The_weapon@ beklagt sich, "Das ist eine lästige Pflicht."
 
@@ -912,7 +912,7 @@ _speaking_low-high_tension_
 @The_weapon@ schreit, "Wenn es blutet, können wir es töten!"
 
 # Millennium, referencing William Yeats
-@The_weapon@ sagt, "Ich will Euch auf der blutgetrübten Flut tanzen sehen."
+@The_weapon@ sagt, "Ich will dich auf der blutgetrübten Flut tanzen sehen."
 
 # Star Trek
 @The_weapon@ schreit, "Heute ist ein guter Tag zum Sterben!"

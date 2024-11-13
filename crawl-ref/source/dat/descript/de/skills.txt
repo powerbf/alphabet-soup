@@ -9,7 +9,7 @@ Short Blades
 Kurzklingen sind effektiver als jeder andere Waffentyp, wenn es darum geht,
 hilflose Feinde zu erstechen.
 
-Mit Kurzklingen geübt zu sein ermöglicht es Euch, mit allen Waffen dieses Typs
+Mit Kurzklingen geübt zu sein ermöglicht es dich, mit allen Waffen dieses Typs
 schneller anzugreifen und erhöht deine Genauigkeit und deinen Schaden mit ihnen.
 
 Mit kurzen Klingen geübt zu sein, erhöht die Effektivität mit langen Klingen
@@ -17,7 +17,7 @@ und umgekehrt.
 %%%%
 Long Blades
 
-Mit Langklingen geübt zu sein ermöglicht es Euch, mit allen Waffen dieses Typs
+Mit Langklingen geübt zu sein ermöglicht es dich, mit allen Waffen dieses Typs
 schneller anzugreifen und erhöht deine Genauigkeit und deinen Schaden mit ihnen.
 
 Mit langen Klingen geübt zu sein, erhöht die Effektivität mit kurzen Klingen
@@ -28,7 +28,7 @@ Axes
 Äxte spalten mehrere Feinde mit einem einzigen Schwung und treffen die Feinde
 in einem Bogen um den Träger.
 
-Mit Äxten geübt zu sein ermöglicht es Euch, mit allen Waffen dieses Typs
+Mit Äxten geübt zu sein ermöglicht es dich, mit allen Waffen dieses Typs
 schneller anzugreifen und erhöht deine Genauigkeit und deinen Schaden mit ihnen.
 
 Mit Äxten geübt zu sein erhöht die Effektivität mit Keulen & Flegeln und
@@ -36,7 +36,7 @@ Stangenwaffen, und umgekehrt.
 %%%%
 Maces & Flails
 
-Mit Keulen & Flegeln geübt zu sein ermöglicht es Euch, mit allen Waffen dieses
+Mit Keulen & Flegeln geübt zu sein ermöglicht es dich, mit allen Waffen dieses
 Typs schneller anzugreifen und erhöht deine Genauigkeit und deinen Schaden mit
 ihnen.
 
@@ -48,7 +48,7 @@ Polearms
 Stangenwaffen können mit 'v' evoziert werden, um Gegner aus zwei Feldern
 Entfernung anzugreifen.
 
-Mit Stangenwaffen geübt zu sein ermöglicht es Euch, mit allen Waffen dieses Typs
+Mit Stangenwaffen geübt zu sein ermöglicht es dich, mit allen Waffen dieses Typs
 schneller anzugreifen und erhöht deine Genauigkeit und deinen Schaden mit ihnen.
 
 Mit Stangenwaffen geübt zu sein erhöht die Effektivität mit Äxten und Stecken,
@@ -60,7 +60,7 @@ Stecken erfordern ein relativ geringes Maß an Fertigkeit, um möglichst effekti
 eingesetzt zu werden, obwohl sie nicht das hohe Schadenspotenzial einiger
 anderer Waffenklassen haben.
 
-Mit Stecken geübt zu sein ermöglicht es Euch, mit allen Waffen dieses Typs
+Mit Stecken geübt zu sein ermöglicht es dich, mit allen Waffen dieses Typs
 schneller anzugreifen und erhöht deine Genauigkeit und deinen Schaden mit ihnen.
 
 Mit Stecken geübt zu sein erhöht die Effektivität mit Keulen & Flegeln und
@@ -121,7 +121,7 @@ die Höhe des zusätzlichen Schadens.
 %%%%
 Shields
 
-Eine hohe Schild-Fertigkeit hilft Euch, Nahkampfangriffe oder Projektile (sowohl
+Eine hohe Schild-Fertigkeit hilft dir, Nahkampfangriffe oder Projektile (sowohl
 magische als auch nichtmagische) mit deinem ausgerüsteten Schild zu blockieren.
 Einige Angriffe, wie z.B. durchdringende Strahlen, können überhaupt nicht
 geblockt werden.
@@ -264,7 +264,7 @@ Earth Magic
 Erdmagie enthält Zauber, die große Mengen an direktem körperlichen Schaden
 verursachen, dem nicht wie Feuer-, Kälte- und Blitzschaden widerstanden werden
 kann. Sie ist auch mit einigen Verwandlungen verbunden, mit Zaubern, die die
-Erde um Euch herum verflüssigen oder deine Feinde in Stein verwandeln.
+Erde um dich herum verflüssigen oder deine Feinde in Stein verwandeln.
 
 Diese Fertigkeit erhöht die Erfolgsquote und die Zauberkraft von Zaubern der
 entsprechenden Schule. Viele Zauber gehören zu einer Kombination aus mehreren

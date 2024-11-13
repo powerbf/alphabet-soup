@@ -97,8 +97,8 @@ Magiekapazität des Anwenders dauerhaft um einen Punkt zu verringern.
 Dig ability
 
 Gräbt Tunnel durch weiches Gestein und verrostete Gitter.
-Das Aktivieren der Fähigkeit kostet nichts und bereitet Euch nur auf das Graben vor.
-Erst wenn Ihr Euch gegen eine Wand bewegt, beginnt
+Das Aktivieren der Fähigkeit kostet nichts und bereitet dich nur auf das Graben vor.
+Erst wenn Ihr dich gegen eine Wand bewegt, beginnt
 Ihr mit dem Tunnelbau. Dabei entstehen Geräusche und der Vorgang ist etwas
 langsamer als Gehen.
 
@@ -107,7 +107,7 @@ nicht grabende Bewegungsaktion aufgehoben.
 %%%%
 Shaft Self ability
 
-Lässt Euch an eine zufällige Stelle ein bis drei Ebenen tiefer fallen, als ob Ihr in
+Lässt dich an eine zufällige Stelle ein bis drei Ebenen tiefer fallen, als ob Ihr in
 eine Schachtfalle gesprungen wärt. Es dauert einige Zeit, den Schacht zu
 graben.
 %%%%
@@ -139,7 +139,7 @@ Erzeugt eine mächtige Gewitterwolke um den Anwender herum.
 %%%%
 End Transformation ability
 
-Lässt Euch in deine normale Form zurückkehren.
+Lässt dich in deine normale Form zurückkehren.
 %%%%
 # Zin
 Recite ability
@@ -170,7 +170,7 @@ Gefängnisses wird durch die Fertigkeit Anrufungen erhöht.
 Sanctuary ability
 
 Erschafft für kurze Zeit eine göttliche Zuflucht. Solange Ihr in der Zuflucht
-seid, greifen Euch Monster nicht an, aber der Schutz verschwindet sofort,
+seid, greifen dich Monster nicht an, aber der Schutz verschwindet sofort,
 wenn Ihr den göttlichen Frieden brecht.
 %%%%
 Cure All Mutations ability
@@ -216,7 +216,7 @@ Torment ability
 
 Opfert einen Kadaver, um allen Lebewesen in Sichtweite alle Schmerzen
 zuzufügen, die jenes Wesen in seinem Leben erlitten hat. Dieser Schaden ist
-niemals direkt tödlich. Kikubaaqudgha kann Euch vor diesem Effekt schützen,
+niemals direkt tödlich. Kikubaaqudgha kann dich vor diesem Effekt schützen,
 je nach deiner Frömmigkeit.
 .
 %%%%
@@ -229,7 +229,7 @@ Zaubersprüche wählen und beide Gaben können nur einmal empfangen werden.
 %%%%
 Receive Forbidden Knowledge ability
 
-Verleiht Euch die Kenntnis der mächtigsten und dunkelsten Nekromantie-Zauber.
+Verleiht dich die Kenntnis der mächtigsten und dunkelsten Nekromantie-Zauber.
 Ihr müsst zwischen dieser Gabe und der Gabe, eine Waffe mit Schmerz zu verstärken,
 wählen und beide Gaben können nur einmal erhalten werden.
 %%%%
@@ -367,7 +367,7 @@ Gesundheit.
 %%%%
 Heal Other ability
 
-Heilt eine andere Kreatur als Euch selbst um eine moderate Menge, abhängig von
+Heilt eine andere Kreatur als dich selbst um eine moderate Menge, abhängig von
 der Fertigkeit Anrufungen. Wenn Ihr diese Fähigkeit bei feindseligen Monstern
 anwendet, versucht Ihr, sie neutral zu machen. Dies funktioniert am besten bei
 Tieren und ist weniger effektiv bei Humanoiden und anderen intelligenten
@@ -396,7 +396,7 @@ Deine aktuellen Treffer- und Magiepunkte werden ebenfalls proportional erhöht.
 # Lugonu
 Depart the Abyss ability
 
-Transportiert Euch aus dem Abgrund heraus und bringt Euch an den Ort zurück,
+Transportiert dich aus dem Abgrund heraus und bringt dich an den Ort zurück,
 von dem aus Ihr ihn betreten habt.
 %%%%
 Bend Space ability
@@ -425,7 +425,7 @@ selbst. Die Größe des Effekts wird durch die Fertigkeit Anrufungen erhöht.
 %%%%
 Enter the Abyss ability
 
-Versetzt Euch augenblicklich in das Reich von Lugonu. Die Anstrengung, diese
+Versetzt dich augenblicklich in das Reich von Lugonu. Die Anstrengung, diese
 Fähigkeit überhaupt zu benutzen, braucht einen Großteil deiner Gesundheit auf.
 %%%%
 Brand Weapon With Distortion ability
@@ -441,7 +441,7 @@ Zieht eine Karte aus einem Deck der Macht.
 %%%%
 Triple Draw ability
 
-Zieht drei Karten aus einem beliebigen Deck und erlaubt es Euch, eine davon
+Zieht drei Karten aus einem beliebigen Deck und erlaubt es dich, eine davon
 zu spielen, während Ihr die anderen beiden ablegt.
 %%%%
 Deal Four ability
@@ -451,9 +451,9 @@ einer einzigen Karte benötigt wird.
 %%%%
 Stack Five ability
 
-Zieht fünf Karten aus einem Deck deiner Wahl und erlaubt es Euch, diese in
+Zieht fünf Karten aus einem Deck deiner Wahl und erlaubt es dich, diese in
 beliebiger Reihenfolge zu sortieren. Anschließend könnt Ihr diesen Kartenstapel in
-der von Euch gewählten Reihenfolge ausspielen. Wenn Ihr diese Fähigkeit
+der von dir gewählten Reihenfolge ausspielen. Wenn Ihr diese Fähigkeit
 erneut einsetzt, wird der gesamte aktuelle Stapel abgelegt.
 %%%%
 # Beogh
@@ -484,13 +484,13 @@ selbst wenn er es vor seinem Tod noch nicht war.
 # Fedhas
 Wall of Briars ability
 
-Lässt kurzlebige Dornensträucher um Euch herum wachsen. Monster, die diese
+Lässt kurzlebige Dornensträucher um dich herum wachsen. Monster, die diese
 Sträucher angreifen, werden von den scharfen Dornen verletzt. Die
 Fertigkeit Anrufungen erhöht die Gesundheit der Dornensträucher.
 %%%%
 Grow Ballistomycete ability
 
-Lässt einen kurzlebigen Ballistomyceten an einem von Euch gewählten Ort wachsen.
+Lässt einen kurzlebigen Ballistomyceten an einem von dir gewählten Ort wachsen.
 Ein Ballistomycet setzt gelegentlich Sporen frei, die schnell nach Feinden
 suchen und heftig explodieren. Alle von der Explosion erfassten Lebewesen
 werden beschädigt und verwirrt.
@@ -507,7 +507,7 @@ Wände sind gegen diese Macht immun.
 %%%%
 Grow Oklob ability
 
-Lässt eine kurzlebige Oklob-Pflanze an dem von Euch gewählten Ort wachsen.
+Lässt eine kurzlebige Oklob-Pflanze an dem von dir gewählten Ort wachsen.
 Diese gefährlichen Pflanzen sprühen ätzendes Vitriol auf deine Feinde.
 
 Die Fertigkeit Anrufungen erhöht die Gesundheit und Lebensdauer der Oklob-Pflanze
@@ -521,7 +521,7 @@ macht es schwieriger, zu widerstehen.
 %%%%
 Temporal Distortion ability
 
-Verzerrt den Zeitfluss, so dass Monster im Verhältnis zu Euch in der Zeit
+Verzerrt den Zeitfluss, so dass Monster im Verhältnis zu dir in der Zeit
 vorwärts springen.
 %%%%
 Slouch ability
@@ -531,9 +531,9 @@ Schaden umso höher ist, je größer der Geschwindigkeitsunterschied ist.
 %%%%
 Step From Time ability
 
-Entfernt Euch vollständig aus dem Fluss der Zeit. Die Dinge um Euch herum
+Entfernt dich vollständig aus dem Fluss der Zeit. Die Dinge um dich herum
 geschehen in ihrem üblichen Tempo und Monster wandern umher und vergessen
-Euch vielleicht sogar. Nachdem einige Zeit vergangen ist, kehrt Ihr in demselben
+dich vielleicht sogar. Nachdem einige Zeit vergangen ist, kehrt Ihr in demselben
 Zustand zurück, wie zu der Sekunde, in der Ihr den Zeitfluss verlassen hattet. Die
 Fertigkeit Anrufungen erhöht die Zeit, die vergeht, während Ihr weg seid.
 %%%%
@@ -568,13 +568,13 @@ Träger von dem Fluch.
 # Dithmenos
 Shadow Step ability
 
-Erlaubt es Euch, in den Schatten einer beliebigen feindlichen Kreatur innerhalb
+Erlaubt es dich, in den Schatten einer beliebigen feindlichen Kreatur innerhalb
 deiner Umbra zu treten und an einem zufälligen Ort in der Nähe des Ziels zu
 landen.
 %%%%
 Shadow Form ability
 
-Verwandelt Euch in eine wirbelnde Masse aus dunklen Schatten. In dieser Form
+Verwandelt dich in eine wirbelnde Masse aus dunklen Schatten. In dieser Form
 seid Ihr dauerhaft unsichtbar und immun gegen Gift, Auszehrung und Qual. Der
 gesamte eingehende Schaden wird halbiert, Ihr blutet Rauch bei jedem
 eingehenden Angriff und habt unendlich viel Willenskraft. Allerdings wird deine
@@ -586,7 +586,7 @@ Anrufungen erhöht die Dauer der Verwandlung.
 # Gozag
 Potion Petition ability
 
-Bittet Gozag, Euch die Wirkungen einer Reihe von Tränken zu verkaufen. Gozag
+Bittet Gozag, dich die Wirkungen einer Reihe von Tränken zu verkaufen. Gozag
 bietet jeweils drei Listen mit unterschiedlichen Preisen an.
 %%%%
 Call Merchant ability
@@ -599,7 +599,7 @@ Bribe Branch ability
 
 Überläßt Gozag 3000 Gold, das er unter den Bewohnern des aktuellen Zweigs
 verteilt. Nur möglich, wenn der Zweig intelligente Bewohner hat. Manche Monster
-sind dann nicht mehr daran interessiert, Euch zu bekämpfen und etwas seltener
+sind dann nicht mehr daran interessiert, dich zu bekämpfen und etwas seltener
 schließen sie sich deinen Reihen an, obwohl sie ihren Heimatzweig nie verlassen.
 Hartgesottene Bewohner des Zweigs lassen sich leichter bestechen. Feinde, die
 eine Bestechung annehmen, verringern den verbleibenden Bestechungsfond. Ist
@@ -681,14 +681,14 @@ Ihr Ränge in der Fertigkeit Evozieren habt.
 Sacrifice Love ability
 
 Opfert die Liebe und bewirkt, dass alle Kreaturen feindselig werden, auch die
-von Euch erschaffenen. Nur Monster, die durch Magie erzeugt werden und nicht
+von dir erschaffenen. Nur Monster, die durch Magie erzeugt werden und nicht
 eigenständig handeln, wie Kugeln der Zerstörung und Spektralwaffen, bleiben
 freundlich.
 %%%%
 Sacrifice Courage ability
 
-Opfert deinen Mut, so dass Ihr Euch vor gefährlichen Monstern fürchtet. Solche
-Monster versetzen Euch in Schrecken, was die Macht deiner Zauber und deine
+Opfert deinen Mut, so dass Ihr dich vor gefährlichen Monstern fürchtet. Solche
+Monster versetzen dich in Schrecken, was die Macht deiner Zauber und deine
 Fähigkeit verringert, Monster im Kampf zu treffen und ihnen Schaden zuzufügen.
 %%%%
 Sacrifice Arcana ability
@@ -729,7 +729,7 @@ ausgebildeten Fertigkeiten verliert.
 %%%%
 Sacrifice an Eye ability
 
-Opfert ein Auge, so dass es Euch viel schwerer fällt, Ziele zu treffen.
+Opfert ein Auge, so dass es dich viel schwerer fällt, Ziele zu treffen.
 %%%%
 Sacrifice Resistance ability
 
@@ -778,7 +778,7 @@ Convert to Beogh ability
 
 Schwört Beogh, dem Gott der Höhlenorks, die Treue. Dieser Gott verlangt den
 Tod aller Ungläubigen, aber neue Gläubige müssen verschont und in
-die Gemeinschaft aufgenommen werden. Nehmt Euch in Acht - Orks, die deine Bekehrung
+die Gemeinschaft aufgenommen werden. Nehmt dich in Acht - Orks, die deine Bekehrung
 nicht selbst mit ansehen, können immer noch feindselig sein, bis Ihr deinen
 Ruf aufgebaut habt!
 
@@ -813,19 +813,19 @@ abhängt.
 %%%%
 Ancestor Life: Knight ability
 
-Erinnert Euch an deinen Ahnen als Ritter, einen starken Nahkämpfer mit
+Erinnert dich an deinen Ahnen als Ritter, einen starken Nahkämpfer mit
 überlegenen Verteidigungsmöglichkeiten. Diese Wahl ist dauerhaft und kann
 nicht rückgängig gemacht werden.
 %%%%
 Ancestor Life: Battlemage ability
 
-Erinnert Euch an deinen Vorfahren als Kampfmagier, der sowohl im
+Erinnert dich an deinen Vorfahren als Kampfmagier, der sowohl im
 Nahkampf als auch mit Konjurationen unerbittlich angreifen kann. Diese Wahl
 ist dauerhaft und kann nicht rückgängig gemacht werden.
 %%%%
 Ancestor Life: Hexer ability
 
-Erinnert Euch an deinen Ahnen als Verzauberer, einen gerissenen Schurken, der
+Erinnert dich an deinen Ahnen als Verzauberer, einen gerissenen Schurken, der
 geschickt mit Messern umgehen und schwächende Zauber wirken kann. Diese Wahl
 ist dauerhaft und kann nicht rückgängig gemacht werden.
 %%%%
@@ -841,7 +841,7 @@ Nähe des Landeplatzes. Es dauert zwei Runden, den Sprung zu vollenden.
 %%%%
 Serpent's Lash ability
 
-Befähigt Euch zu übernatürlich schnellen Bewegungen, wobei normale Bewegungen bis zu
+Befähigt dich zu übernatürlich schnellen Bewegungen, wobei normale Bewegungen bis zu
 einer Entfernung von zwei Feldern sofort erfolgen. Martialische Angriffe, die unter der
 Wirkung dieser Fähigkeit ausgeführt werden, richten mehr Schaden an und verfehlen nie.
 %%%%

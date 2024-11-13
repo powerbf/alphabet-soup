@@ -12,7 +12,7 @@ Ihr sterbt...
 
 In Crawl ist der Tod ein trauriges, aber alltägliches Ereignis. Beachtet, dass
 es normalerweise etwas gibt, was Ihr hättet tun können, um zu überleben, z.B.
-indem Ihr einen Gegenstand benutzt, weglauft, Euch zwischen den Kämpfen ausruht
+indem Ihr einen Gegenstand benutzt, weglauft, dich zwischen den Kämpfen ausruht
 oder den Kampf ganz vermeidet. Versucht es weiter, dann werdet Ihr schließlich
 siegen!
 
@@ -20,7 +20,7 @@ siegen!
 tutorial1 start
 
 In dieser Lektion lernt Ihr wie man herumwandert und eine Ebene erkundet. Ihr
-könnt Euch bewegen <localtiles>indem Ihr irgendwo mit der <input>Maus</input>
+könnt dich bewegen <localtiles>indem Ihr irgendwo mit der <input>Maus</input>
 klickst, oder </localtiles>mit den <input>Pfeiltasten</input>.
 %%%%
 tutorial1 go_on
@@ -31,14 +31,14 @@ blaue Feld erreicht.
 tutorial1 diagonal
 
 :nowrap
-Ihr könnt Euch diagonal bewegen indem Ihr den <input>Nummern-Block</input> (versucht Numlock an/aus) oder die <input>Vorgabe-Tasten</input> benutzt.
+Ihr könnt dich diagonal bewegen indem Ihr den <input>Nummern-Block</input> (versucht Numlock an/aus) oder die <input>Vorgabe-Tasten</input> benutzt.
 Num-Block:      <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cmd[CMD_MOVE_UP] $cmd[CMD_MOVE_UP_RIGHT]</w>
                  \|/                         \|/
                 <w>4</w>-<w>.</w>-<w>6</w>                       <w>$cmd[CMD_MOVE_LEFT]</w>-<w>.</w>-<w>$cmd[CMD_MOVE_RIGHT]</w>
                  /|\                         /|\
                 <w>1 2 3</w>                       <w>$cmd[CMD_MOVE_DOWN_LEFT] $cmd[CMD_MOVE_DOWN] $cmd[CMD_MOVE_DOWN_RIGHT]</w>
 
-<localtiles>Ihr könnt Euch auch mit <input>Maus klicks</input> bewegen.</localtiles>
+<localtiles>Ihr könnt dich auch mit <input>Maus klicks</input> bewegen.</localtiles>
 %%%%
 tutorial1 shiftmove
 
@@ -60,13 +60,13 @@ könnt einen näheren Blick auf einen Kartenausschnitt mit einem
 <input>Rechts-Klick</input> werfen und dann ebenso mit einem
 <input>Links-Klick</input> dort hingehen.</localtiles><webtiles> Die
 Übersichtskarte könnt Ihr mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und
-dann den Cursor herumbewegen, um Euch auf der Ebene umzuschauen. Wo auch immer
-dein Cursor hinzeigt, könnt Ihr Euch mit einem Druck auf <input>.</input> oder
+dann den Cursor herumbewegen, um dich auf der Ebene umzuschauen. Wo auch immer
+dein Cursor hinzeigt, könnt Ihr dich mit einem Druck auf <input>.</input> oder
 <input>Eingabe</input> hinbewegen. Drücke <input>Escape</input> um in den
 normalen Spielmodus zurückzukehren.</webtiles><console>Die Übersichtskarte
 könnt Ihr mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und dann den Cursor
-herumbewegen, um Euch auf der Ebene umzuschauen. Wo auch immer dein Cursor
-hinzeigt, könnt Ihr Euch mit einem Druck auf <input>.</input> oder
+herumbewegen, um dich auf der Ebene umzuschauen. Wo auch immer dein Cursor
+hinzeigt, könnt Ihr dich mit einem Druck auf <input>.</input> oder
 <input>Eingabe</input> hinbewegen. Drücke <input>Escape</input> um in den
 normalen Spielmodus zurückzukehren.</console>
 %%%%
@@ -80,10 +80,10 @@ tutorial1 exclusion
 
 Einige gefährliche Gegenden sind mit <w>Abgrenzungen</w> markiert. Die
 Auto-Erkundung<localtiles> (<input>Mausklick</input> eingeschlossen!
-</localtiles> führt Euch nicht in diese abgegrenzten Gebiete. Anstelle dessen
+</localtiles> führt dich nicht in diese abgegrenzten Gebiete. Anstelle dessen
 haltet Ihr automatisch an!
 
-Wie auch immer, Auto-Erkundung führt Euch sicher um diese Abgrenzungen herum so
+Wie auch immer, Auto-Erkundung führt dich sicher um diese Abgrenzungen herum so
 das Ihr <input>$cmd[CMD_EXPLORE]</input> benutzen könnt, um fortzufahren.
 %%%%
 tutorial1 autoexplore_announce
@@ -137,8 +137,8 @@ Num-Block:       <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $c
                   /|\                         /|\
                  <w>1 2 3</w>                       <w>$cmd[CMD_MOVE_DOWN_LEFT] $cmd[CMD_MOVE_DOWN] $cmd[CMD_MOVE_DOWN_RIGHT]</w>
 
-  <input>Shift + Richtug</input> bewegt Euch mehrere Felder in diese Richtung.<localtiles>
-  Mit einem <input>Mausklick</input> irgendwo in Sichtweite oder auf der <w>Mini-Karte</w> könnt Ihr Euch auch fortbewegen.</localtiles>
+  <input>Shift + Richtug</input> bewegt dich mehrere Felder in diese Richtung.<localtiles>
+  Mit einem <input>Mausklick</input> irgendwo in Sichtweite oder auf der <w>Mini-Karte</w> könnt Ihr dich auch fortbewegen.</localtiles>
 
 <yellow>Treppen</yellow>
   <input>$cmd[CMD_GO_UPSTAIRS]</input>  gehe zurück zur vorherigen Ebene
@@ -158,14 +158,14 @@ Num-Block:       <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $c
 %%%%
 tutorial2 start
 
-Diese Lektion bringt Euch etwas über Monster und das Kämpfen bei. Zuerst
-brauchen wir eine Waffe! Geh und greife Euch diese, welche dort drüben auf dem
+Diese Lektion bringt dich etwas über Monster und das Kämpfen bei. Zuerst
+brauchen wir eine Waffe! Geh und greife dich diese, welche dort drüben auf dem
 Boden liegt.
 %%%%
 tutorial2 pickup_weapon
 
 Hebe diese Waffe mit <input>$cmd[CMD_PICKUP]</input> oder <input>g</input> auf
-und rüste Euch damit mit <input>$cmd[CMD_WIELD_WEAPON]</input> aus.<localtiles>
+und rüste dich damit mit <input>$cmd[CMD_WIELD_WEAPON]</input> aus.<localtiles>
 Alternativ könnt Ihr dies auch mit einem <input>Klick</input> in deinem
 Inventar-Feld ausführen.</localtiles>
 %%%%
@@ -184,11 +184,11 @@ tutorial2 wait
 
 Besser als einen Raum zu stürmen und von Monstern überrannt zu werden könnt Ihr
 auch zurückweichen und (mit <input>$cmd[CMD_WAIT]</input>) warten, bis
-sie zu Euch vordringen.
+sie zu dir vordringen.
 %%%%
 tutorial2 resting_reminder
 
-Danke daran, Ihr könnt Euch mit <input>$cmd[CMD_REST]</input> ausruhen.
+Danke daran, Ihr könnt dich mit <input>$cmd[CMD_REST]</input> ausruhen.
 %%%%
 tutorial2 compare_monster_desc
 
@@ -197,7 +197,7 @@ Untersuche diese Monster (<localtiles>mittels <input>Maus-Drüber</input></local
 %%%%
 tutorial2 downstairs
 
-In Ordnung! Nachdem Ihr Euch vollständig ausgeruht und geheilt habt, fahre fort
+In Ordnung! Nachdem Ihr dich vollständig ausgeruht und geheilt habt, fahre fort
 mit der nächsten Ebene mit <input>$cmd[CMD_GO_DOWNSTAIRS]</input>.
 %%%%
 tutorial2 newlevel
@@ -220,7 +220,7 @@ Ziel des automatisch anvisierten Monsters zu bestätigen drücke
 %%%%
 tutorial2 wield_bow
 
-Hebe diesen Bogen auf und rüste Euch damit mit
+Hebe diesen Bogen auf und rüste dich damit mit
 <input>$cmd[CMD_WIELD_WEAPON]</input><localtiles> oder mit einem
 <input>Maus-Klick</input></localtiles> aus.
 %%%%
@@ -231,7 +231,7 @@ Darts werfen: mittels <input>$cmd[CMD_FIRE]</input><localtiles> oder
 <input>mouseclick</input></localtiles>. Ihr könnt das anvisierte Monster mit
 <input>$cmd[CMD_TARGET_CYCLE_FORWARD]</input> wechseln wenn Ihr im Ziel-Modus
 seid. Der Wurm ist harmlos, denn er befindet sich hinter der Lava, deswegen
-konzentriere Euch auf die Übungspuppe, welche auf Euch schießen kann. Bestätige
+konzentriere dich auf die Übungspuppe, welche auf dich schießen kann. Bestätige
 deine Auswahl dann wieder mit <input>$cmd[CMD_TARGET_SELECT]</input> oder
 <input>Eingabe</input>.
 %%%%
@@ -314,10 +314,10 @@ Inventar</localtiles>), um heraus zu finden was diese sind.
 %%%%
 tutorial3 inventory
 
-Um Euch die Beschreibung deiner neuen Waffe anzusehen, finde und wähle sie in
+Um dich die Beschreibung deiner neuen Waffe anzusehen, finde und wähle sie in
 deinem Inventar aus (<input>$cmd[CMD_DISPLAY_INVENTORY]</input>).<localtiles>
 Das kannst auch mit<input>Mausdrüber</input> und <input>Rechts-Klick</input> in
-deinem Inventar Feld machen.</localtiles> Merke Euch, das alle
+deinem Inventar Feld machen.</localtiles> Merke dich, das alle
 Gegenstands-Befehle auch in der Gegenstands-Beschreibung funktionieren.
 %%%%
 tutorial3 downstairs
@@ -328,7 +328,7 @@ oder mit einem <input>Shift-Klick</input> auf deinen Charakter.</localtiles>.
 %%%%
 tutorial3 command_help
 
-Wenn die ganzen Befehle zu verwirrend sind, könnt Ihr sie Euch auch noch mal in
+Wenn die ganzen Befehle zu verwirrend sind, könnt Ihr sie dich auch noch mal in
 der Befehls-Hilfe mit <input>$cmd[CMD_DISPLAY_COMMANDS]</input> ansehen.
 <localtiles>Ein Teil der Befehle sind auch in dem klickbaren
 <w>Befehls-Feld</w> auf der rechten Seite des Bildschirms verfügbar.
@@ -413,7 +413,7 @@ Laden zurück zu gelangen.</localtiles>
 tutorial3 optional_battle
 
 Warnung, dieser Weg führt zu <lightred>einem schweren Kampf</lightred>. Ihr
-könnt Euch aussuchen, ob Ihr das bis jetzt gelernte im Kampf nutzt, oder den
+könnt dich aussuchen, ob Ihr das bis jetzt gelernte im Kampf nutzt, oder den
 anderen Ausgang auf der Insel erreichen möchtest. So oder so könnte es eine
 gute Idee sein etwas einzukaufen, wenn Ihr das nicht schon getan habt.
 %%%%
@@ -485,17 +485,17 @@ diesem Stab.
 %%%%
 tutorial4 mephitic_cloud
 
-Mephistische Wolke ist ein Zauberspruch der Stufe 3. Ihr könnt Euch diesen
+Mephistische Wolke ist ein Zauberspruch der Stufe 3. Ihr könnt dich diesen
 Zauberspruch noch nicht einprägen. Um schneller in der Stufe aufzusteigen, sind
 hier noch ein einige Trainingspuppen —  dieses Mal ohne Steine zum Werfen.
 
 Auf der Erfahrungsstufe 3 werdet Ihr in der Lage sein eine deiner Eigenschaften
-zu verbessern — wenn Ihr <input>I</input>ntelligenz auswählt, wird Euch dies
+zu verbessern — wenn Ihr <input>I</input>ntelligenz auswählt, wird dich dies
 beim Zaubern noch mehr helfen.
 %%%%
 tutorial4 meph_reminder
 
-Vergiss nicht Euch den neu verfügbaren Zauberspruch einzuprägen, indem Ihr
+Vergiss nicht dich den neu verfügbaren Zauberspruch einzuprägen, indem Ihr
 <input>$cmd[CMD_MEMORISE_SPELL]</input><localtiles> drückt oder auf den
 Gedächtnis-Tab <input>klickt</input> und das Zauberspruch-Symbol
 auswählt</localtiles>!
@@ -534,11 +534,11 @@ tutorial4 order_allies
 Versucht das Töten deinen Verbündeten zu überlassen! Wenn notwendig könnt Ihr
 sie mit <input>$cmd[CMD_SHOUT]</input> rufen. Bevor Ihr diese Pforte öffnet
 könnt Ihr mit <input>$cmd[CMD_WAIT]</input> so lange warten bis sie zu
-Euch aufgeschlossen haben.
+dich aufgeschlossen haben.
 %%%%
 tutorial4 heavy_armour
 
-Schwere Rüstung behindert Euch sehr beim Zaubern. Lege diese Rüstung und Schild
+Schwere Rüstung behindert dich sehr beim Zaubern. Lege diese Rüstung und Schild
 an (mit <input>$cmd[CMD_WEAR_ARMOUR]</input><localtiles> oder indem Ihr auf sie
 <input>klickt</input></localtiles>) und vergleiche die Erfolgsquote mit
 <input>$cmd[CMD_DISPLAY_SPELLS]</input><localtiles> oder mit einem
@@ -548,7 +548,7 @@ ablegen<localtiles> oder, wiederum, via <input>Mausklick</input></localtiles>.
 %%%%
 tutorial4 resting_reminder
 
-Vergewissere Euch das deine Lebens- und Zauberenergie voll ist, bevor Ihr in ein
+Vergewissere dich das deine Lebens- und Zauberenergie voll ist, bevor Ihr in ein
 neues Gebiet eintrittet. Falls notwendig, pausiere mit
 <input>$cmd[CMD_REST]</input><localtiles> oder <input>mausklicke</input> in
 das Kommandofeld</localtiles>.
@@ -584,7 +584,7 @@ In dieser Lektion lernt Ihr alles über Götter und wie man ihre Mächte benutzt
 %%%%
 tutorial5 dungeon_overview
 
-Trog ist nur einer von vielen Göttern. Im richtigen Spiel könnt Ihr Euch mit
+Trog ist nur einer von vielen Göttern. Im richtigen Spiel könnt Ihr dich mit
 <input>$cmd[CMD_DISPLAY_OVERMAP]</input><localtiles> oder mit einem klick auf
 den <input>Dungeon Karten Knopf</input> im Kontrollfeld</localtiles> eine Liste
 aller Altare und anderen interessanten Merkmalen anzeigen lassen.
@@ -594,7 +594,7 @@ tutorial5 altar
 Beten könnt Ihr an einem Altar mit <input>$cmd[CMD_PRAY]</input><localtiles>
 (oder wenn Ihr in das <input>Befehls-Feld klickt</input>, oder mit
 <input>Shift-Klick</input> auf deinen Charakter)</localtiles>, womit Ihr dann
-erfahren könnt was dieser Gott Euch anbietet und diesem Glauben beizutreten. Wenn Ihr
+erfahren könnt was dieser Gott dich anbietet und diesem Glauben beizutreten. Wenn Ihr
 <input>!</input><localtiles> oder einen <input>Rechts-Klick</input>
 </localtiles> im Glaubens-Bildschirm ausführt könnt Ihr eine noch genauere
 Beschreibung bekommen.
@@ -604,7 +604,7 @@ Großschreibung.
 %%%%
 tutorial5 religion
 
-Schau Euch aktuellen Stand deines Glaubens mit
+Schau dich aktuellen Stand deines Glaubens mit
 <input>$cmd[CMD_DISPLAY_RELIGION]</input> an<localtiles> (oder über den
 <w>Religion Knopf</w> im Befehls-Feld, oder mit einem
 <input>Shift-Rechts-Klick</input> auf deine Spielfigur)</localtiles>. Nochmals,
@@ -642,7 +642,7 @@ tutorial5 exhaustion
 Die Wut des Berserkers ist wirklich anstrengend. Wenn Ihr ermüdet seid könnt Ihr
 nicht wieder in Raserei verfallen und wirst langsamer. Am besten ist es dann
 mit <input>$cmd[CMD_REST]</input><localtiles> (oder über das
-<w>Befehls-Feld</w>) zu rasten</localtiles> bis Ihr Euch wieder fit genug
+<w>Befehls-Feld</w>) zu rasten</localtiles> bis Ihr dich wieder fit genug
 fühlt.
 %%%%
 tutorial5 berserk2
@@ -661,7 +661,7 @@ tutorial5 exit
 
 :nowrap
 <yellow>Religions Befehle</yellow>
-  <input>$cmd[CMD_PRAY]</input>  beten an einem Altar um Euch einem Gott anzuschließen, oder eine Leiche opfern
+  <input>$cmd[CMD_PRAY]</input>  beten an einem Altar um dich einem Gott anzuschließen, oder eine Leiche opfern
   <input>$cmd[CMD_USE_ABILITY]</input>  benutzen eine göttliche Fähigkeit
   <input>$cmd[CMD_DISPLAY_RELIGION]</input> deinen Glaubens-Stand überprüfen<localtiles>
   Ein <input>Rechts-Klick</input> auf deine Spielfigur zeigt öffnet ebenfall den Religions-Bildschirm.</localtiles>

@@ -11,7 +11,7 @@ amulet of faith
 Ein Talisman, der die Aufmerksamkeit der Götter auf seinen Träger lenken soll.
 Diese göttliche Aufmerksamkeit macht es einfacher, deinem Gott zu gefallen, aber
 dein Gott wird auch mehr Notiz von deinen Übertretungen nehmen. Das Amulett
-entzieht Euch einen Teil deiner göttlichen Gunst, wenn es abgelegt wird.
+entzieht dich einen Teil deiner göttlichen Gunst, wenn es abgelegt wird.
 %%%%
 amulet of guardian spirit
 
@@ -692,7 +692,7 @@ trifft, hindurch und trifft möglicherweise alle Ziele in seinem Weg, bis er die
 maximale Reichweite erreicht.
 {{
     if you.race() == "Kobold" or you.race() == "Spriggan" then
-        return "Leider ist er zu lang und unhandlich für Euch."
+        return "Leider ist er zu lang und unhandlich für dich."
     end
 }}
 %%%%

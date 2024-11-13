@@ -26,7 +26,7 @@ This ability takes some time before being effective.
 Es dauert einige Zeit, bis diese Fähigkeit wirksam wird.
 %%%%
 Using this ability will hurt you.
-Der Einsatz dieser Fähigkeit wird Euch schaden.
+Der Einsatz dieser Fähigkeit wird dich schaden.
 %%%%
 This ability causes exhaustion, and cannot be used when exhausted.
 Diese Fähigkeit verursacht Erschöpfung und kann nicht eingesetzt werden, wenn Ihr erschöpft seid.
@@ -38,10 +38,10 @@ You can use this ability even if confused.
 Ihr könnt diese Fähigkeit auch einsetzen, wenn Ihr verwirrt seid.
 %%%%
 This ability will temporarily drain your maximum hit points when used, even unsuccessfully.
-Diese Fähigkeit entzieht Euch vorübergehend die maximalen Trefferpunkte, wenn sie eingesetzt wird, auch wenn dies erfolglos bleibt.
+Diese Fähigkeit entzieht dich vorübergehend die maximalen Trefferpunkte, wenn sie eingesetzt wird, auch wenn dies erfolglos bleibt.
 %%%%
 This ability will temporarily drain your maximum hit points when used.
-Diese Fähigkeit entzieht Euch vorübergehend die maximalen Trefferpunkte, wenn Ihr sie einsetzt.
+Diese Fähigkeit entzieht dich vorübergehend die maximalen Trefferpunkte, wenn Ihr sie einsetzt.
 %%%%
 This ability has a chance of reducing your maximum magic capacity when used.
 Diese Fähigkeit hat eine Chance, deine maximale Magiekapazität zu verringern, wenn sie eingesetzt wird.
@@ -69,7 +69,7 @@ Keine Beschreibung gefunden.
 %s missbilligt den Gebrauch dieser Fähigkeit.
 %%%%
 You can't untransform!
-Ihr könnt Euch nicht unverwandeln!
+Ihr könnt dich nicht unverwandeln!
 %%%%
 Sorry, you cannot become a bat while alive.
 Sorry, Ihr könnt nicht eine Fledermaus werden wenn Ihr lebendig seid.
@@ -192,7 +192,7 @@ Ihr versagt, deine Fähigkeit einzusetzen.
 "Dies wird deine Intelligenz auf Null reduzieren. "
 %%%%
 "This will reduce your dexterity to zero once you untransform. "
-"Dadurch wird deine Geschicklichkeit auf Null reduziert, sobald Ihr Euch zurückverwandelt. "
+"Dadurch wird deine Geschicklichkeit auf Null reduziert, sobald Ihr dich zurückverwandelt. "
 %%%%
 Continue?
 Weitermachen?
@@ -207,7 +207,7 @@ You retract your mandibles.
 Ihr zieht deine Mandibeln zurück.
 %%%%
 Are you sure you want to shaft yourself?
-Seid Ihr sicher, dass Ihr Euch selbst schächten wollt?
+Seid Ihr sicher, dass Ihr dich selbst schächten wollt?
 %%%%
 You spit a glob of acid.
 Ihr spuckt einen Klumpen Säure.
@@ -240,10 +240,10 @@ The folds of your robe billow into a mighty storm.
 Die Falten deines Gewandes bauschen sich zu einem mächtigen Sturm.
 %%%%
 You clear your throat and prepare to recite.
-Ihr räuspert Euch und bereitet Euch auf das Rezitieren vor.
+Ihr räuspert dich und bereitet dich auf das Rezitieren vor.
 %%%%
 You cannot imprison yourself!
-Ihr könnt Euch selbst nicht einsperren!
+Ihr könnt dich selbst nicht einsperren!
 %%%%
 There is no monster there to imprison!
 Es gibt da kein Monster, das eingesperrt werden könnte!
@@ -267,10 +267,10 @@ Es gibt keine Leichen zu opfern!
 %s wird eine deiner Waffen mit Schmerz erfüllen.
 %%%%
 Another wave of unholy energy enters you.
-Noch eine Welle unheiliger Energie tritt in Euch ein.
+Noch eine Welle unheiliger Energie tritt in dich ein.
 %%%%
 You offer yourself to %s, and are filled with unholy energy.
-Ihr bietet Euch {dat}%s an, und wirst voller unheiliger Energie gefüllt.
+Ihr bietet dich {dat}%s an, und wirst voller unheiliger Energie gefüllt.
 %%%%
 There are no remains here to animate!
 Es gibt hier keine Überreste zum Animieren!
@@ -318,7 +318,7 @@ You are healed.
 Ihr werdet geheilt.
 %%%%
 You cannot banish yourself!
-Ihr könnt Euch selbst nicht verbannen!
+Ihr könnt dich selbst nicht verbannen!
 %%%%
 %s will brand one of your weapons with the corruption of the Abyss.
 %s wird eine eurer Waffen mit der Verderbnis des Abgrunds erfüllen.
@@ -415,7 +415,7 @@ Die Substanz des Abgrunds verdreht sich heftig, und ein Tor, das nach draußen f
 ##################
 %%%%
 The demon of the infinite void smiles upon you.
-Der Dämon der unendlichen Leere lächelt Euch zu.
+Der Dämon der unendlichen Leere lächelt dir zu.
 %%%%
 Xom snickers.
 Xom kichert.
@@ -459,10 +459,10 @@ You release %s.
 Ihr lasst {acc}%s los.
 %%%%
 %s release you.
-%s lassen Euch los.
+%s lassen dich los.
 %%%%
 %s releases you.
-%s lässt Euch los.
+%s lässt dich los.
 %%%%
 %s release %s.
 %s lassen {acc}%s los.
@@ -474,10 +474,10 @@ You lose hold of %s.
 Ihr verliert den Halt auf {dat}%s.
 %%%%
 %s lose hold of you.
-%s verlieren den Halt auf Euch.
+%s verlieren den Halt auf dich.
 %%%%
 %s loses hold of you.
-%s verliert den Halt auf Euch.
+%s verliert den Halt auf dich.
 %%%%
 %s lose hold of %s.
 %s verlieren den Halt auf {dat}%s.
@@ -498,10 +498,10 @@ You constrict %s
 Ihr umschlingt {acc}%s
 %%%%
 %s constrict you
-%s umschlingen Euch
+%s umschlingen dich
 %%%%
 %s constricts you
-%s umschlingt Euch
+%s umschlingt dich
 %%%%
 %s constrict %s
 %s umschlingen {acc}%s
@@ -561,7 +561,7 @@ You collide with %s!
 Ihr kollidiert mit {dat}%s!
 %%%%
 %s collides with you!
-%s kollidiert mit Euch!
+%s kollidiert mit dir!
 %%%%
 %s collides with %s!
 %s kollidiert mit {dat}%s!
@@ -573,7 +573,7 @@ Ihr knallt gegen {acc}%s!
 %s knallt gegen {acc}%s!
 %%%%
 You violently stop moving!
-Ihr haltet gewaltsam an, Euch zu bewegen!
+Ihr haltet gewaltsam an, dich zu bewegen!
 %%%%
 %s violently stops moving!
 %s hält gewaltsam an, sich zu bewegen!
@@ -710,7 +710,7 @@ The sceptre summons one of its servants.
 Das Zepter ruft einen seiner Diener herbei.
 %%%%
 You don't feel so good about this...
-Ihr fühlt Euch nicht so gut dabei ...
+Ihr fühlt dich nicht so gut dabei ...
 %%%%
 The air shimmers briefly.
 Die Luft schimmert kurz.
@@ -725,7 +725,7 @@ The sword of Cerebov burns away %s fire resistance.
 Das Schwert von Cerebov verbrennt %s Feuerwiderstand.
 %%%%
 A shiver runs down your spine.
-Ein Schauer läuft Euch über den Rücken.
+Ein Schauer läuft dich über den Rücken.
 %%%%
 You're too close to death to use this item.
 Ihr seid dem Tod zu nahe, um diesen Gegenstand zu benutzen.
@@ -749,7 +749,7 @@ You envenom %s
 Ihr vergiftet {acc}%s
 %%%%
 %s envenoms you
-%s vergiftet Euch
+%s vergiftet dich
 %%%%
 %s envenoms %s
 %s vergiftet {acc}%s
@@ -770,13 +770,13 @@ The Singing Sword sighs.
 Das singende Schwert seufzt.
 %%%%
 You feel pruney.
-Ihr fühlt Euch geschrumpft.
+Ihr fühlt dich geschrumpft.
 %%%%
 You feel lightning quick.
-Ihr fühlt Euch blitzschnell.
+Ihr fühlt dich blitzschnell.
 %%%%
 You feel rather sluggish.
-Ihr fühlt Euch ziemlich träge.
+Ihr fühlt dich ziemlich träge.
 %%%%
 A terrible, searing pain shoots up your arm!
 Ein furchtbarer, stechender Schmerz schießt in deinen Arm!
@@ -785,10 +785,10 @@ You feel the exhaustion of battles past.
 Ihr fühlt die Erschöpfung vergangener Schlachten.
 %%%%
 You feel less violent.
-Ihr fühlt Euch weniger gewalttätig.
+Ihr fühlt dich weniger gewalttätig.
 %%%%
 You feel strangely empty.
-Ihr fühlt Euch seltsam leer.
+Ihr fühlt dich seltsam leer.
 %%%%
 You feel a strange hunger, and smell blood in the air...
 Ihr spürt einen seltsamen Hunger und riecht Blut in der Luft...
@@ -803,7 +803,7 @@ You hear a strange loud sound.
 Ihr hört ein seltsames, lautes Geräusch.
 %%%%
 Visions of slaying %s flood into your mind.
-Visionen des Tötens {gen}%s, kommen Euch in den Sinn.
+Visionen des Tötens {gen}%s, kommen dich in den Sinn.
 %%%%
 Your confusion fades away as the thirst for blood takes over your mind.
 Deine Verwirrung verschwindet, als der Durst nach Blut deinen Geist übernimmt.
@@ -818,7 +818,7 @@ You feel an overwhelming desire to slay dragons!
 Ihr verspürt ein überwältigendes Verlangen, Drachen zu töten.
 %%%%
 You convulse
-Ihr krümmt Euch
+Ihr krümmt dich
 %%%%
 %s convulses
 %s krümmt sich
@@ -839,10 +839,10 @@ Time to lay down the shillelagh law.
 Es ist die Zeit, Shillelagh-Vorschriften zu machen.
 %%%%
 You feel oddly protected from the elements.
-Ihr fühlt Euch seltsamerweise vor den Elementen geschützt.
+Ihr fühlt dich seltsamerweise vor den Elementen geschützt.
 %%%%
 You no longer feel protected from the elements.
-Ihr fühlt Euch nicht mehr vor den Elementen geschützt.
+Ihr fühlt dich nicht mehr vor den Elementen geschützt.
 %%%%
 The light fades from your surroundings.
 Das Licht verschwindet aus deiner Umgebung.
@@ -878,28 +878,28 @@ You slaughter %s joyfully.
 Ihr schlachtet {acc}%s freudig.
 %%%%
 %s cleaves you in twain.
-%s spaltet Euch in zwei Hälften.
+%s spaltet dich in zwei Hälften.
 %%%%
 %s pulverises you into a thin bloody mist.
-%s pulverisiert Euch zu einem dünnen blutigen Nebel.
+%s pulverisiert dich zu einem dünnen blutigen Nebel.
 %%%%
 %s hews you savagely.
-%s zerhackt Euch brutal.
+%s zerhackt dich brutal.
 %%%%
 %s fatally mangles you.
-%s zerfleischt Euch tödlich.
+%s zerfleischt dich tödlich.
 %%%%
 %s dissects you like a pig carcass.
-%s seziert Euch wie einen Schweinekadaver.
+%s seziert dich wie einen Schweinekadaver.
 %%%%
 %s chops you into pieces.
-%s hackt Euch in Stücke.
+%s hackt dich in Stücke.
 %%%%
 %s butchers you messily.
-%s schlachtet Euch chaotisch ab.
+%s schlachtet dich chaotisch ab.
 %%%%
 %s slaughters you joyfully.
-%s schlachtet Euch freudig ab.
+%s schlachtet dich freudig ab.
 %%%%
 %s cleaves %s in twain.
 %s spaltet {acc}%s in zwei Hälften.
@@ -926,28 +926,28 @@ Ihr schlachtet {acc}%s freudig.
 %s schlachtet {acc}%s freudig ab.
 %%%%
 You cleave yourself in twain.
-Ihr spaltet Euch selbst in zwei Hälften.
+Ihr spaltet dich selbst in zwei Hälften.
 %%%%
 You pulverise yourself into a thin bloody mist.
-Ihr pulverisiert Euch selbst zu einem dünnen blutigen Nebel.
+Ihr pulverisiert dich selbst zu einem dünnen blutigen Nebel.
 %%%%
 You hew yourself savagely.
-Ihr zerhackt Euch selbst brutal.
+Ihr zerhackt dich selbst brutal.
 %%%%
 You fatally mangle yourself.
-Ihr verstümmelt Euch tödlich.
+Ihr verstümmelt dich tödlich.
 %%%%
 You dissect yourself like a pig carcass.
-Ihr seziert Euch selbst wie einen Schweinekadaver.
+Ihr seziert dich selbst wie einen Schweinekadaver.
 %%%%
 You chop yourself into pieces.
-Ihr hackt Euch selbst in Stücke.
+Ihr hackt dich selbst in Stücke.
 %%%%
 You butcher yourself messily.
-Ihr schlachtet Euch chaotisch ab.
+Ihr schlachtet dich chaotisch ab.
 %%%%
 You slaughter yourself joyfully.
-Ihr schlachtet Euch freudig.
+Ihr schlachtet dich freudig.
 %%%%
 %s is pulverised into a thin bloody mist.
 %s wird zu einem dünnen blutigen Nebel pulverisiert.
@@ -974,7 +974,7 @@ You burn %s
 Ihr brennt {acc}%s
 %%%%
 %s burns you
-%s brennt Euch
+%s brennt dich
 %%%%
 %s burns %s
 %s brennt {acc}%s
@@ -986,7 +986,7 @@ You freeze %s
 Ihr friert {acc}%s ein
 %%%%
 %s freezes you
-%s friert Euch ein
+%s friert dich ein
 %%%%
 %s freezes %s
 %s friert {acc}%s ein
@@ -998,7 +998,7 @@ You electrocute %s
 Ihr gibt {dat}%s einen Stromschlag
 %%%%
 %s electrocutes you
-%s gibt Euch einen Stromschlag
+%s gibt dich einen Stromschlag
 %%%%
 %s electrocutes %s
 %s gibt {dat}%s einen Stromschlag
@@ -1010,7 +1010,7 @@ You crush %s
 Ihr zerdrückt {acc}%s
 %%%%
 %s crushes you
-%s zerdrückt Euch
+%s zerdrückt dich
 %%%%
 %s crushes %s
 %s zerdrückt {acc}%s
@@ -1049,10 +1049,10 @@ The darkness slowly releases its grasp on your magic.
 Die Dunkelheit löst langsam ihren Griff um deine Magie.
 %%%%
 You feel like a king!
-Ihr fühlt Euch wie ein König!
+Ihr fühlt dich wie ein König!
 %%%%
 You feel regal.
-Ihr fühlt Euch königlich.
+Ihr fühlt dich königlich.
 %%%%
 The captain's cutlass flashes! You lacerate %s!!
 Das Entermesser des Kapitäns flitzt! Ihr zerreißt {acc}%s!!
@@ -1076,7 +1076,7 @@ Your attunement to healing potions decreases.
 Deine Abstimmung auf Heiltränke nimmt ab.
 %%%%
 You feel very empty.
-Ihr fühlt Euch sehr leer.
+Ihr fühlt dich sehr leer.
 %%%%
 You feel a powerful hunger.
 Ihr fühlt einen starken Hunger.
@@ -1097,13 +1097,13 @@ A chunk of your corpse armour falls away.
 Ein Stück deiner Leichenrüstung fällt weg.
 %%%%
 The bodies of the dead rush to embrace you!
-Die Leichen der Toten eilen, um Euch zu umarmen!
+Die Leichen der Toten eilen, um dich zu umarmen!
 %%%%
 Your shell of carrion and bone grows thicker.
 Deine Schale aus Aas und Knochen wird dicker.
 %%%%
 The air around you leaps into flame!
-Die Luft um Euch herum geht in Flammen auf!
+Die Luft um dich herum geht in Flammen auf!
 %%%%
 Your ring of flames gutters out.
 Ihr Flammenkranz flackert aus.
@@ -1115,7 +1115,7 @@ The staff is unable to connect with your magical essence.
 Der Stecken kan mit deiner magischen Essenz nicht verbinden.
 %%%%
 You feel ready to stride towards your foes.
-Ihr fühlt Euch bereit, auf deine Feinde zu schreiten.
+Ihr fühlt dich bereit, auf deine Feinde zu schreiten.
 %%%%
 
 ##################
@@ -1123,31 +1123,31 @@ Ihr fühlt Euch bereit, auf deine Feinde zu schreiten.
 ##################
 %%%%
 Space bends around you
-Der Raum krümmt sich um Euch herum
+Der Raum krümmt sich um dich herum
 %%%%
 Space bends around %s
 Der Raum biegt sich um {acc}%s herum
 %%%%
 Space warps horribly around you
-Der Raum verzieht sich schrecklich um Euch herum
+Der Raum verzieht sich schrecklich um dich herum
 %%%%
 Space warps horribly around %s
 Der Raum verzieht sich schrecklich um {acc}%s herum
 %%%%
 You writhe in agony
-Ihr krümmt Euch vor Qual
+Ihr krümmt dich vor Qual
 %%%%
 %s writhes in agony
 %s krümmt sich vor Qual
 %%%%
 %s protects you from inadvertent hurry.
-%s schützt Euch vor versehentlicher Eile.
+%s schützt dich vor versehentlicher Eile.
 %%%%
 You drain %s
 Ihr zehrt {acc}%s aus
 %%%%
 %s drains you
-%s zehrt Euch aus
+%s zehrt dich aus
 %%%%
 %s drains %s
 %s zehrt {acc}%s aus
@@ -1165,7 +1165,7 @@ Ihr entzieht die Vitalität %s!
 %s entzieht die Vitalität %s!
 %%%%
 You pounce on %s from a blind spot!
-Ihr stürzt Euch von einem blinden Fleck auf {acc}%s!
+Ihr stürzt dich von einem blinden Fleck auf {acc}%s!
 %%%%
 You strike %s from a blind spot!
 Ihr schlagt {acc}%s aus einem blinden Fleck!
@@ -1177,13 +1177,13 @@ You catch %s completely off-guard!
 Ihr erwischt {acc}%s völlig unachtsam!
 %%%%
 You pounce on %s from behind!
-Ihr stürzt Euch von hinten auf {acc}%s!
+Ihr stürzt dich von hinten auf {acc}%s!
 %%%%
 You strike %s from behind!
 Ihr schlagt {acc}%s von hinten!
 %%%%
 You pounce on %s unawares!
-Ihr stürzt Euch unversehens auf {acc}%s!
+Ihr stürzt dich unversehens auf {acc}%s!
 %%%%
 %s fails to defend against your attack.
 %s versagt bei der Verteidigung gegen dein Angriff.
@@ -1213,7 +1213,7 @@ You melt %s
 Ihr schmelzt {acc}%s
 %%%%
 %s melts you
-%s schmilzt Euch
+%s schmilzt dich
 %%%%
 %s melts %s
 %s schmilzt {acc}%s
@@ -1239,19 +1239,19 @@ Ihr schmelzt {acc}%s
 Die Stimme {gen}%s donnert: "Für wen hältst du dich?"
 %%%%
 One of your followers decides to abandon you.
-Einer deiner Anhänger beschließt, Euch zu verlassen.
+Einer deiner Anhänger beschließt, dich zu verlassen.
 %%%%
 Your followers decide to abandon you.
-Deine Anhänger beschließen, Euch zu verlassen.
+Deine Anhänger beschließen, dich zu verlassen.
 %%%%
 Some of your followers decide to abandon you.
-Einige deiner Anhänger beschließen, Euch zu verlassen.
+Einige deiner Anhänger beschließen, dich zu verlassen.
 %%%%
 %s stares at you suspiciously for a moment, then relaxes.
-%s starrt Euch einen Moment lang misstrauisch an und entspannt sich dann.
+%s starrt dich einen Moment lang misstrauisch an und entspannt sich dann.
 %%%%
 %s trembles before you.
-%s zittert vor Euch.
+%s zittert vor dir.
 %%%%
 
 ##################
@@ -1259,25 +1259,25 @@ Einige deiner Anhänger beschließen, Euch zu verlassen.
 ##################
 %%%%
 %s pelts you
-%s bewirft Euch
+%s bewirft dich
 %%%%
 %s engulfs you
-%s hüllt Euch ein
+%s hüllt dich ein
 %%%%
 %s grips you
-%s greift Euch
+%s greift dich
 %%%%
 %s skewers you
-%s spießt Euch auf
+%s spießt dich auf
 %%%%
 %s pierces through you
-%s durchbohrt Euch
+%s durchbohrt dich
 %%%%
 %s weakly hits you
-%s trifft Euch schwach
+%s trifft dich schwach
 %%%%
 %s hits you
-%s trifft Euch
+%s trifft dich
 %%%%
 %s pelts %s
 %s bewirft {acc}%s
@@ -1304,7 +1304,7 @@ You hear a mighty clap of thunder!
 Ihr hört einen gewaltigen Donnerschlag!
 %%%%
 Animating this weapon would place you under penance. Really cast this spell?
-Die Belebung dieser Waffe würde Euch unter Strafe stellen. Diesen Zauber wirklich wirken?
+Die Belebung dieser Waffe würde dich unter Strafe stellen. Diesen Zauber wirklich wirken?
 %%%%
 %s appears from out of thin air!
 %s erscheint aus der Luft!
@@ -1460,31 +1460,31 @@ You hear a sizzling sound!
 Ihr hört ein zischendes Geräusch!
 %%%%
 %s is likely to hit you. Continue anyway?
-%s wird Euch wahrscheinlich treffen. Trotzdem weitermachen?
+%s wird dich wahrscheinlich treffen. Trotzdem weitermachen?
 %%%%
 That beam is likely to hit you. Continue anyway?
-Dieser Strahl wird Euch wahrscheinlich treffen. Trotzdem weitermachen?
+Dieser Strahl wird dich wahrscheinlich treffen. Trotzdem weitermachen?
 %%%%
 %s reflects %s!
 %s reflektiert {acc}%s!
 %%%%
 %s reflects off an invisible shield around you!
-%s reflektiert von einem unsichtbaren Schild um Euch herum!
+%s reflektiert von einem unsichtbaren Schild um dich herum!
 %%%%
 You block %s.
 Ihr blockiert %s.
 %%%%
 %s misses you.
-%s verfehlt Euch.
+%s verfehlt dich.
 %%%%
 %s is repelled.
 %s wird abgestoßen.
 %%%%
 Something tries to affect you, but you are unaffected.
-Etwas versucht, Euch zu beeinflussen, aber Ihr seid nicht betroffen.
+Etwas versucht, dich zu beeinflussen, aber Ihr seid nicht betroffen.
 %%%%
 Something tries to affect you, but you resist.
-Etwas versucht, Euch zu beeinflussen, aber Ihr widersteht.
+Etwas versucht, dich zu beeinflussen, aber Ihr widersteht.
 %%%%
 Your will lashes out at %s%s
 Ihr Wille schlägt auf {acc}%s ein%s
@@ -1496,13 +1496,13 @@ Your will is overpowered!
 Dein Wille ist überwältigt!
 %%%%
 This spell isn't strong enough to banish yourself.
-Dieser Zauber ist nicht stark genug, um Euch selbst zu verbannen.
+Dieser Zauber ist nicht stark genug, um dich selbst zu verbannen.
 %%%%
 Pain shoots through your body!
 Schmerz schießt durch deinen Körper!
 %%%%
 You convulse!
-Ihr krümmt Euch!
+Ihr krümmt dich!
 %%%%
 Your mind is blasted!
 Dein Verstand wird zerschlagt!
@@ -1511,10 +1511,10 @@ You feel a momentary urge to oink.
 Ihr verspürt kurzzeitig den Drang zu grunzen.
 %%%%
 You feel more firmly anchored in space.
-Ihr fühlt Euch fester im Raum verankert.
+Ihr fühlt dich fester im Raum verankert.
 %%%%
 You feel firmly anchored in space.
-Ihr fühlt Euch fest im Raum verankert.
+Ihr fühlt dich fest im Raum verankert.
 %%%%
 Your teleport is interrupted.
 Dein Teleport ist unterbrochen.
@@ -1523,7 +1523,7 @@ Your willpower is stripped away!
 Deine Willenskraft wird aufgezehrt!
 %%%%
 You feel yourself grow more vulnerable to poison.
-Ihr fühlt Euch anfälliger für Gift werden.
+Ihr fühlt dich anfälliger für Gift werden.
 %%%%
 Your magic feels more tainted.
 Ihr spürt, dass deine Magie stärker verdorben ist.
@@ -1538,13 +1538,13 @@ You feel your light-headedness will last longer.
 Ihr fühlt, dass deine Benommenheit länger anhalten wird.
 %%%%
 You feel light-headed.
-Ihr fühlt Euch benommen.
+Ihr fühlt dich benommen.
 %%%%
 You feel your inability to drink will last longer.
 Ihr fühlt, dass deine Unfähigkeit zu trinken länger anhalten wird.
 %%%%
 You feel unable to drink.
-Ihr fühlt Euch unfähig zu trinken.
+Ihr fühlt dich unfähig zu trinken.
 %%%%
 %s loses the ability to speak.
 %s verliert die Fähigkeit zu sprechen.
@@ -1553,7 +1553,7 @@ You feel your silence will last longer.
 Ihr fühlt, dass deine Stille länger anhalten wird.
 %%%%
 An unnatural silence engulfs you.
-Eine unnatürliche Stille umfängt Euch.
+Eine unnatürliche Stille umfängt dich.
 %%%%
 %s looks more vulnerable to fire.
 %s sieht anfälliger für Feuer aus.
@@ -1592,7 +1592,7 @@ Die Säure spritzt auf {acc}%s!
 %s wird paralysiert.
 %%%%
 You are blown backwards by the freezing wind.
-Der eiskalte Wind bläst Euch nach hinten.
+Der eiskalte Wind bläst dich nach hinten.
 %%%%
 %s is blown backwards by the freezing wind.
 Der eiskalte Wind bläst {acc}%s nach hinten.
@@ -1771,10 +1771,10 @@ Durch Zins Macht wird %s eingedämmt.
 ##################
 %%%%
 %s's singing sounds muted, and has no effect on you.
-{gen}%s Gesang klingt gedämpft und hat keinen Einfluss auf Euch.
+{gen}%s Gesang klingt gedämpft und hat keinen Einfluss auf dich.
 %%%%
 The melody is strangely muted, and has no effect on you.
-Die Melodie ist seltsam gedämpft und hat keinen Einfluss auf Euch.
+Die Melodie ist seltsam gedämpft und hat keinen Einfluss auf dich.
 %%%%
 %s is no longer quite as mesmerising!
 %s ist nicht mehr ganz so faszinierend!
@@ -1900,7 +1900,7 @@ The fire ignites!
 Das Feuer entzündet sich!
 %%%%
 The rain has left you waist-deep in water!
-Der Regen hat Euch hüfthoch im Wasser gelassen!
+Der Regen hat dich hüfthoch im Wasser gelassen!
 %%%%
 You steam in the rain.
 Ihr dampft im Regen.
@@ -1915,10 +1915,10 @@ Ihr brutzelt im Regen.
 %s brutzelt im Regen.
 %%%%
 You choke on the stench!
-Ihr verschluckt Euch am Gestank!
+Ihr verschluckt dich am Gestank!
 %%%%
 The mutagenic energy flows into you.
-Die mutagene Energie fließt in Euch hinein.
+Die mutagene Energie fließt in dich hinein.
 %%%%
 You are struck by lightning!
 Ihr werdet vom Blitz getroffen!
@@ -2001,10 +2001,10 @@ You feel homesick.
 Ihr habt Heimweh.
 %%%%
 The world around you seems to dim momentarily.
-Die Welt um Euch herum scheint sich für einen Moment zu verdunkeln.
+Die Welt um dich herum scheint sich für einen Moment zu verdunkeln.
 %%%%
 You feel numb.
-Ihr fühlt Euch wie betäubt.
+Ihr fühlt dich wie betäubt.
 %%%%
 Strange energies run through your body.
 Seltsame Energien durchströmen deinen Körper.
@@ -2016,7 +2016,7 @@ You sense a malignant aura.
 Ihr spürt eine bösartige Aura.
 %%%%
 You feel very uncomfortable.
-Ihr fühlt Euch sehr unbehaglich.
+Ihr fühlt dich sehr unbehaglich.
 %%%%
 Something just walked over your grave. No, really!
 Etwas ist gerade über dein Grab gelaufen. Nein, wirklich!
@@ -2060,7 +2060,7 @@ Something is bathed in an unholy light
 Etwas ist in ein unheiliges Licht getaucht.
 %%%%
 You feel horribly lethargic.
-Ihr fühlt Euch furchtbar lethargisch.
+Ihr fühlt dich furchtbar lethargisch.
 %%%%
 @The_monster@ looks incredibly listless.
 @The_monster@ sieht unglaublich lustlos aus.
@@ -2236,7 +2236,7 @@ You sense the presence of something unfriendly.
 Ihr spürt die Anwesenheit von etwas Unfreundlichem.
 %%%%
 Clouds appear around you!
-Wolken erscheinen um Euch herum!
+Wolken erscheinen um dich herum!
 %%%%
 You hear a mighty peal of thunder!
 Ihr hört einen heftigen Donnerschlag!
@@ -2321,7 +2321,7 @@ You stop dropping stuff.
 Ihr hört auf Sachen fallen zu lassen.
 %%%%
 Keep equipping yourself?
-Euch weiter ausrüsten?
+Dich weiter ausrüsten?
 %%%%
 You stop putting on your amulet.
 Ihr hört auf, dein Amulett anzulegen.
@@ -2330,7 +2330,7 @@ You stop putting on your armour.
 Ihr hört auf, deine Rüstung anzulegen.
 %%%%
 Keep disrobing?
-Euch weiter ausziehen?
+Dich weiter ausziehen?
 %%%%
 You stop removing your amulet.
 Ihr hört auf, dein Amulett abzunehmen.
@@ -2354,7 +2354,7 @@ Keep bloodletting?
 Aderlass fortsetzen?
 %%%%
 You stop emptying yourself of blood.
-Ihr hört auf, Euch von Blut zu entleeren.
+Ihr hört auf, dich von Blut zu entleeren.
 %%%%
 Continue your ritual?
 Dein Ritual fortsetzen?
@@ -2378,7 +2378,7 @@ You start removing your armour.
 Ihr beginnt, deine Rüstung abzulegen.
 %%%%
 %s grants you knowledge of %s.
-%s gewährt Euch Wissen über {acc}%s.
+%s gewährt dir Wissen über {acc}%s.
 %%%%
 You start memorising the spell.
 Ihr beginnt, den Zauber zu memorieren.
@@ -2525,16 +2525,16 @@ Ihr spürt ein Monster in der Nähe.
 %s kommt in Sicht.
 %%%%
 %s warns you: It is a foul glowing shapeshifter.
-%s warnt Euch: Das ist ein übler glühender Gestaltwandler.
+%s warnt dich: Das ist ein übler glühender Gestaltwandler.
 %%%%
 %s warns you: It is a foul shapeshifter.
-%s warnt Euch: Das ist ein übler Gestaltwandler.
+%s warnt dich: Das ist ein übler Gestaltwandler.
 %%%%
 %s is %s.
 %s ist %s.
 %%%%
 Gozag incites %s against you.
-Gozag verhetzt {acc}%s gegen Euch.
+Gozag verhetzt {acc}%s gegen dich.
 %%%%
 Deactivating autopickup; reactivate with <w>%s</w>.
 Autopickup deaktiviert. Reaktivieren mit <w>%s</w>.
@@ -2557,7 +2557,7 @@ Ahnen TP wiederhergestellt.
 ##################
 %%%%
 Godly wrath is upon you!
-Der göttliche Zorn ist über Euch gekommen!
+Der göttliche Zorn ist über dich gekommen!
 %%%%
 You've transgressed heavily! Be penitent!
 Ihr habt schwer gesündigt! Seid reuig!
@@ -2587,7 +2587,7 @@ A rising star in the eyes of %s.
 Ein aufsteigender Stern in den Augen von {dat}%s.
 %%%%
 %s is pleased with you.
-%s ist mit Euch zufrieden.
+%s ist mit dir zufrieden.
 %%%%
 %s is aware of your devotion.
 %s ist sich deiner Hingabe bewusst.
@@ -2693,13 +2693,13 @@ Die Kräfte {gen}%s werden nicht von der Anrufungsfertigkeit beeinflusst.
 Die Kräfte {gen}%s basieren auf {dat}%s statt auf der Anrufungsfertigkeit.
 %%%%
 %s is ambivalent towards you.
-%s ist Euch gegenüber ambivalent.
+%s ist dir gegenüber ambivalent.
 %%%%
 %s is almost ready to forgive your sins.
-%s ist fast bereit, Euch deine Sünden zu vergeben.
+%s ist fast bereit, dich deine Sünden zu vergeben.
 %%%%
 %s's wrath is upon you!
-{gen}%s Zorn ist über Euch gekommen!
+{gen}%s Zorn ist über dich gekommen!
 %%%%
 %s well remembers your sins.
 %s erinnert sich gut an deine Sünden.
@@ -2708,7 +2708,7 @@ Die Kräfte {gen}%s basieren auf {dat}%s statt auf der Anrufungsfertigkeit.
 {gen}%s Zorn beginnt zu schwinden.
 %%%%
 %s is neutral towards you.
-%s ist Euch gegenüber neutral.
+%s ist dir gegenüber neutral.
 %%%%
 # Elyvilon lifesaving
 , especially when called upon
@@ -2741,28 +2741,28 @@ Erteilte Kräfte:
 %s bewacht dein Leben%s.
 %%%%
 Zin always shields you from chaos.
-Zin schirmt Euch immer vor Chaos ab.
+Zin schirmt dich immer vor Chaos ab.
 %%%%
 Zin often shields you from chaos.
-Zin schirmt Euch oft vor Chaos ab.
+Zin schirmt dich oft vor Chaos ab.
 %%%%
 Zin sometimes shields you from chaos.
-Zin schirmt Euch manchmal vor Chaos ab.
+Zin schirmt dich manchmal vor Chaos ab.
 %%%%
 Zin occasionally shields you from chaos.
-Zin schirmt Euch gelegentlich vor dem Chaos ab.
+Zin schirmt dich gelegentlich vor dem Chaos ab.
 %%%%
 The Shining One prevents you from stabbing unaware foes.
-Der Strahlende hindert Euch daran, unbewusste Feinde zu erstechen.
+Der Strahlende hindert dich daran, unbewusste Feinde zu erstechen.
 %%%%
 The Shining One completely shields you from negative energy.
-Der Strahlende schirmt Euch vollständig vor negativer Energie ab.
+Der Strahlende schirmt dich vollständig vor negativer Energie ab.
 %%%%
 The Shining One mostly shields you from negative energy.
-Der Strahlende schirmt Euch meistens vor negativer Energie ab.
+Der Strahlende schirmt dich meistens vor negativer Energie ab.
 %%%%
 The Shining One partially shields you from negative energy.
-Das Strahlende schirmt Euch teilweise vor negativer Energie ab.
+Das Strahlende schirmt dich teilweise vor negativer Energie ab.
 %%%%
 You radiate a large righteous aura, and others within it are easier to hit.
 Ihr strahlt eine große, rechtschaffene Aura aus, und andere, die sich darin befinden, sind leichter zu treffen.
@@ -2825,7 +2825,7 @@ Your life essence is reduced. (-10%% HP)
 Deine Lebensessenz wird reduziert. (-10%% TP)
 %%%%
 Your ancestor manifests to aid you.
-Dein Ahne manifestiert sich, um Euch zu helfen.
+Dein Ahne manifestiert sich, um dir zu helfen.
 %%%%
 You are protected from the effects of unwielding distortion weapons.
 Ihr seid vor den Auswirkungen des Loslassens von Verzerrungswaffen geschützt.
@@ -3183,7 +3183,7 @@ einen schlängelnden Körper
 " Er sieht krank aus."
 %%%%
 " It looks as frightened of you as you are of it."
-" Er sieht aus, als hätte er genauso viel Angst vor Euch wie Ihr vor ihm."
+" Er sieht aus, als hätte er genauso viel Angst vor dir wie Ihr vor ihm."
 %%%%
 " It moves in a series of hideous convulsions."
 " Er bewegt sich in einer Reihe von grässlichen Zuckungen."
@@ -3237,7 +3237,7 @@ einen schlängelnden Körper
 " Seine Haut hat einen ekelhaften, öligen Schimmer."
 %%%%
 " It seems somehow familiar."
-" Er kommt Euch irgendwie bekannt vor."
+" Er kommt dich irgendwie bekannt vor."
 %%%%
 " It is somehow always in shadow."
 " Er ist irgendwie immer im Schatten."
@@ -3258,7 +3258,7 @@ einen schlängelnden Körper
 " Sein Körper ist von Narben übersät."
 %%%%
 " You find it difficult to look away."
-" Es fällt Euch schwer, den Blick abzuwenden."
+" Es fällt dich schwer, den Blick abzuwenden."
 %%%%
 " Oddly mechanical noises accompany its jarring movements."
 " Seltsame mechanische Geräusche begleiten seine ruckartigen Bewegungen."
@@ -3318,7 +3318,7 @@ it flickers and crackles with electricity
 es flackert und knistert vor Elektrizität
 %%%%
 it is covered in dense fur and muscle
-es ist mit dichtem Fell und Muskeln bedeckt
+es ist mit dirtem Fell und Muskeln bedeckt
 %%%%
 A cloud of %s.
 Eine Wolke aus {dat}%s.
@@ -3468,13 +3468,13 @@ summons a nameless horror
 einen namenlosen Horror beschwört
 %%%%
 further contaminates you
-Euch weiter kontaminiert
+dich weiter kontaminiert
 %%%%
 anchors you in place
-Euch am Ort verankert
+dich am Ort verankert
 %%%%
 debuffs and slows you
-Euch verlangsamt und Verstärkungen entfernt
+dich verlangsamt und Verstärkungen entfernt
 %%%%
 # miscast damage, for example: "deals up to 10 fire damage"
 deals up to %d %s
@@ -3783,7 +3783,7 @@ about %d%% to evade %s
 etwa %d%%, um %s auszuweichen
 %%%%
 " (about %d%% to hit you)"
-" (gegen %d%% Chance Euch zu treffen)"
+" (gegen %d%% Chance dich zu treffen)"
 %%%%
 none (normally %s)
 keine (normalerweise %s)
@@ -4027,10 +4027,10 @@ Annotate which branch? (. - %s, ? - help, ! - show branch list)
 Welchen Zweig anmerken? (. - %s, ? - Hilfe, ! - Zweigsliste zeigen)
 %%%%
 There is no level above you.
-Es gibt keine Ebene über Euch.
+Es gibt keine Ebene über dich.
 %%%%
 There is no level below you in this branch.
-In diesem Zweig gibt es keine Ebene unter Euch.
+In diesem Zweig gibt es keine Ebene unter dir.
 %%%%
 "What level of %s? "
 Welche Ebene von {dat}%s?
@@ -4154,10 +4154,10 @@ That would be overly suicidal.
 Das wäre übermäßig selbstmörderisch.
 %%%%
 Really target yourself?
-Wirklich auf Euch selbst zielen?
+Wirklich auf dich selbst zielen?
 %%%%
 Sorry, you can't target yourself.
-Sorry, Ihr könnt Euch selbst nicht zielen.
+Sorry, Ihr könnt dich selbst nicht zielen.
 %%%%
 Are you sure you want to fizzle?
 Seid Ihr sicher, dass Ihr missglücken wolltet?
@@ -4270,7 +4270,7 @@ fire blocked by %s
 Feuern durch {acc}%s blockiert
 %%%%
 You are mesmerised by this monster's song.
-Das Lied dieses Monsters zieht Euch in seinen Bann.
+Das Lied dieses Monsters zieht dich in seinen Bann.
 %%%%
 This monster appears to be sleepwalking.
 Dieses Monster scheint schlafwandelnd zu sein.
@@ -4282,16 +4282,16 @@ This monster is fleeing.
 Dieses Monster flieht.
 %%%%
 This monster has not noticed you.
-Dieses Monster hat Euch nicht bemerkt.
+Dieses Monster hat dich nicht bemerkt.
 %%%%
 This monster is friendly.
 Dieses Monster ist freundlich.
 %%%%
 This monster seems to be peaceful towards you.
-Dieses Monster scheint Euch gegenüber friedlich zu sein.
+Dieses Monster scheint dir gegenüber friedlich zu sein.
 %%%%
 This monster is indifferent to you.
-Dieses Monster ist Euch gleichgültig.
+Dieses Monster ist dich gleichgültig.
 %%%%
 This monster has been summoned and is expiring.
 Dieses Monster wurde beschwören und läuft ab.
@@ -4421,7 +4421,7 @@ Eine beliebige Taste drücken zum Beenden, Strg-p fürs vollständige Protokoll.
 %s krächzt: „Du hast mich enttäuscht! Grüßt... den Tod!“
 %%%%
 %s claims you as an undead slave.
-%s beansprucht Euch als untoten Sklaven.
+%s beansprucht dich als untoten Sklaven.
 %%%%
 Your body rises from the dead as a mindless zombie.
 Ihr Körper erhebt sich aus dem Tod als hirnloser Zombie.
@@ -4514,7 +4514,7 @@ Ihr seid rückwärts geblasen!
 %s wird vom Wind weggeblasen.
 %%%%
 The monsters around you are blown away!
-Die Monster um Euch herum sind weggeblasen!
+Die Monster um dich herum sind weggeblasen!
 %%%%
 Aim the phial where?
 Die Phiole wohin zielen?
@@ -4523,7 +4523,7 @@ Aiming: <white>Phantom Mirror</white>
 Zielen: <white>Phantomspiegel</white>
 %%%%
 You can't use the mirror on yourself.
-Ihr könnt den Spiegel nicht an Euch selbst verwenden.
+Ihr könnt den Spiegel nicht an dich selbst verwenden.
 %%%%
 You can't see anything there to clone.
 Ihr könnt dort nichts zum Klonen sehen.
@@ -4547,7 +4547,7 @@ You can't see anything. Try to condense clouds anyway?
 Ihr könnt nichts sehen. Trotzdem versuchen, Wolken zu verdichten?
 %%%%
 Clouds of %s condense around you!
-Wolken aus {dat}%s verdichten sich um Euch herum!
+Wolken aus {dat}%s verdichten sich um dich herum!
 %%%%
 You can't see anything. Try to make a move anyway?
 Ihr könnt nichts sehen. Trotzdem versuchen, einen Zug zu machen?
@@ -4641,10 +4641,10 @@ Treppe nach unten
 ##################
 %%%%
 %s's aura of fear is muted, and has no effect on you.
-%s Aura der Angst ist gedämpft und hat keine Auswirkung auf Euch.
+%s Aura der Angst ist gedämpft und hat keine Auswirkung auf dich.
 %%%%
 The fearful aura is strangely muted, and has no effect on you.
-Die ängstliche Aura ist seltsamerweise gedämpft und hat keine Auswirkung auf Euch.
+Die ängstliche Aura ist seltsamerweise gedämpft und hat keine Auswirkung auf dich.
 %%%%
 You are terrified of %s!
 Ihr habt Angst vor {dat}%s!
@@ -4667,7 +4667,7 @@ Really %s while wielding nothing?
 Wirklich %s, während Ihr nichts schwingt?
 %%%%
 This could place you under penance!
-Dies könnte Euch unter Buße stellen!
+Dies könnte dich unter Buße stellen!
 %%%%
 , despite your sanctuary
 , trotz deines Heiligtums
@@ -4687,7 +4687,7 @@ Really attack %s%s?
 Wirklich {acc}%s angreifen%s?
 %%%%
 This attack would place you under penance!
-Dieser Angriff würde Euch unter Buße stellen!
+Dieser Angriff würde dich unter Buße stellen!
 %%%%
 # first %s is verb, 2nd is monster, 3rd is suffix from above
 Really %s %s%s?
@@ -4906,10 +4906,10 @@ Sperrdatei "%s" kann nicht geöffnet werden
 ##################
 %%%%
 %s reflects your damage back at you!
-%s reflektiert deinen Schaden auf Euch zurück!
+%s reflektiert deinen Schaden auf dich zurück!
 %%%%
 Your damage is reflected back at you!
-Dein Schaden wird zurück auf Euch reflektiert!
+Dein Schaden wird zurück auf dich reflektiert!
 %%%%
 %s mirrors your injury!
 %s spiegelt deine Verletzung wider!
@@ -4965,7 +4965,7 @@ Der verletzte Rakshasa webt eine defensive Illusion!
 %s platzt aus {dat}%s!
 %%%%
 You feel extremely nervous for a moment...
-Ihr fühlt Euch für einen Moment extrem nervös...
+Ihr fühlt dich für einen Moment extrem nervös...
 %%%%
 A malignant aura surrounds %s.
 Eine bösartige Aura umgibt {acc}%s.
@@ -5012,16 +5012,16 @@ You feel that Zin will soon be exalted by your worship.
 Ihr habt das Gefühl, dass Zin bald durch deine Verehrung erhöht werden wird.
 %%%%
 You feel that Zin will soon be extremely pleased with you.
-Ihr habt das Gefühl, dass Zin bald extrem zufrieden mit Euch sein wird.
+Ihr habt das Gefühl, dass Zin bald extrem zufrieden mit dir sein wird.
 %%%%
 You feel that Zin will soon be greatly pleased with you.
-Ihr habt das Gefühl, dass Zin bald erheblich zufrieden mit Euch sein wird.
+Ihr habt das Gefühl, dass Zin bald erheblich zufrieden mit dir sein wird.
 %%%%
 You feel that Zin will soon be most pleased with you.
-Ihr habt das Gefühl, dass Zin bald sehr zufrieden mit Euch sein wird.
+Ihr habt das Gefühl, dass Zin bald sehr zufrieden mit dir sein wird.
 %%%%
 You feel that Zin will soon be pleased with you.
-Ihr habt das Gefühl, dass Zin bald zufrieden mit Euch sein wird.
+Ihr habt das Gefühl, dass Zin bald zufrieden mit dir sein wird.
 %%%%
 You feel that Zin will soon be aware of your devotion.
 Ihr habt das Gefühl, dass Zin bald von deiner Hingabe erfarhren wird.
@@ -5099,7 +5099,7 @@ Ihr seid noch nicht bereit, noch einmal zu rezitieren.
 %s wird durch den Zorn von Zin in eine Salzsäule verwandelt!
 %%%%
 %s grants you divine stamina.
-%s gewährt Euch göttliche Ausdauer.
+%s gewährt dir göttliche Ausdauer.
 %%%%
 Your divine stamina fades away.
 Deine göttliche Ausdauer schwindet.
@@ -5120,7 +5120,7 @@ Your shield is strengthened by the Shining One's divine power.
 Dein Schild wird durch die göttliche Macht des Strahlenden gestärkt.
 %%%%
 A divine shield forms around you!
-Ein göttlicher Schild bildet sich um Euch!
+Ein göttlicher Schild bildet sich um dich!
 %%%%
 Your divine shield is renewed.
 Dein göttlicher Schild wird erneuert.
@@ -5129,10 +5129,10 @@ Your divine shield fades away.
 Dein göttlicher Schild verschwindet.
 %%%%
 You feel purified!
-Ihr fühlt Euch gereinigt!
+Ihr fühlt dich gereinigt!
 %%%%
 Elyvilon grants you divine vigour.
-Elyvilon gewährt Euch göttliche Kraft.
+Elyvilon gewährt dir göttliche Kraft.
 %%%%
 Your divine vigour fades away.
 Deine göttliche Vitalität schwindet.
@@ -5141,13 +5141,13 @@ Your skin crawls.
 Ihr bekommt eine Gänsehaut.
 %%%%
 You feel strong-willed.
-Ihr fühlt Euch willensstark.
+Ihr fühlt dich willensstark.
 %%%%
 Your skin stops crawling.
 Ihr habt keine Gänsehaut mehr.
 %%%%
 You feel less strong-willed.
-Ihr fühlt Euch weniger willensstark.
+Ihr fühlt dich weniger willensstark.
 %%%%
 That's not an orcish ally!
 Das ist kein orkischer Verbündeter!
@@ -5189,45 +5189,45 @@ You have no bad mutations to be cured!
 Ihr habt keine schlechten Mutationen, die geheilt werden müssen!
 %%%%
 You feel cleansed.
-Ihr fühlt Euch gereinigt.
+Ihr fühlt dich gereinigt.
 %%%%
 %s's soul fights you.
-Die Seele {gen}%s bekämpft Euch.
+Die Seele {gen}%s bekämpft dich.
 %%%%
 %s's soul is now yours.
-Die Seele {gen}%s gehört jetzt Euch.
+Die Seele {gen}%s gehört jetzt dich.
 %%%%
 # unseen monster
 Its soul fights you.
-Seine Seele bekämpft Euch.
+Seine Seele bekämpft dich.
 %%%%
 Its soul is now yours.
-Seine Seele gehört jetzt Euch.
+Seine Seele gehört jetzt dich.
 %%%%
 %s delivers you corpses!
-%s liefert Euch Leichen!
+%s liefert dich Leichen!
 %%%%
 %s delivers you a corpse!
-%s liefert Euch eine Leiche!
+%s liefert dich eine Leiche!
 %%%%
 %s can find no cadavers for you!
-%s kann keine Kadaver für Euch finden!
+%s kann keine Kadaver für dich finden!
 %%%%
 # Kiku gift of several spells
 Do you wish to receive knowledge of %s?
 Möchtet Ihr Kenntnisse von {dat}%s erhalten?
 %%%%
 %s grants you forbidden knowledge!
-%s gewährt Euch verbotenes Wissen!
+%s gewährt dir verbotenes Wissen!
 %%%%
 Space bends sharply around you!
-Der Raum krümmt sich scharf um Euch herum!
+Der Raum krümmt sich scharf um dich herum!
 %%%%
 Space bends around you!
-Der Raum krümmt sich um Euch herum!
+Der Raum krümmt sich um dich herum!
 %%%%
 The flow of time bends around you.
-Der Fluss der Zeit krümmt sich um Euch herum!
+Der Fluss der Zeit krümmt sich um dich herum!
 %%%%
 Cheibriados rebukes %s.
 Cheibriados tadelt {acc}%s.
@@ -5239,7 +5239,7 @@ You can feel time thicken for a moment.
 Ihr fühlt, wie sich die Zeit für einen Moment verdickt.
 %%%%
 You warp the flow of time around you!
-Ihr verzerrt den Fluss der Zeit um Euch herum!
+Ihr verzerrt den Fluss der Zeit um dich herum!
 %%%%
 You step out of the flow of time.
 Ihr trittt aus dem Fluss der Zeit heraus.
@@ -5303,10 +5303,10 @@ Cun
 List
 %%%%
 Ashenzari invites you to partake of a vision and a curse.
-Ashenzari lädt Euch ein, an einer Vision und einem Fluch teilzuhaben.
+Ashenzari lädt dich ein, an einer Vision und einem Fluch teilzuhaben.
 %%%%
 Ashenzari invites you to partake of a vision and a curse of %s.
-Ashenzari lädt Euch ein, an einer Vision und einem Fluch von {dat}%s teilzuhaben.
+Ashenzari lädt dich ein, an einer Vision und einem Fluch von {dat}%s teilzuhaben.
 %%%%
 %s glows black for a moment.
 %s leuchtet für einen Moment schwarz.
@@ -5342,10 +5342,10 @@ Ihr zerbrecht den Fluch, der {acc}%s bindet!
 %s zieht die Vision und den Fluch zurück.
 %%%%
 The priest welcomes you and lets you live.
-Der Priester heißt Euch willkommen und lässt Euch leben.
+Der Priester heißt dich willkommen und lässt dich leben.
 %%%%
 With a roar of approval, the orcs welcome you as one of their own, and spare your life.
-Mit lautem Gebrüll heißen die Orks Euch als einen der ihren willkommen und verschonen dein Leben.
+Mit lautem Gebrüll heißen die Orks dich als einen der ihren willkommen und verschonen dein Leben.
 %%%%
 Aiming: <white>Shadow Step</white>
 Zielen: <white>Schattenschritt</white>
@@ -5388,7 +5388,7 @@ Ihr habt nicht genug Gold, um diesen Händler zu finanzieren!
 %%%%
 # shopkeeper invites player to visit shop
 %s invites you to visit %s %s%s%s.
-%s lädt Euch ein, den Laden zu besuchen.
+%s lädt dich ein, den Laden zu besuchen.
 %%%%
 # Your bribe of <branch>...
 Your bribe of %s has been exhausted.
@@ -5435,7 +5435,7 @@ You can't see any clouds you can empower.
 Ihr könnt keine Wolken sehen, die Ihr stärken könnt.
 %%%%
 Clouds arounds you coalesce and take form!
-Die Wolken um Euch herum verdichten sich und nehmen Gestalt an!
+Die Wolken um dich herum verdichten sich und nehmen Gestalt an!
 %%%%
 There isn't enough space here!
 Hier ist nicht genug Platz!
@@ -5444,7 +5444,7 @@ There are friendlies around; are you sure you want to hurt them?
 Es sind Freunde in der Nähe; seid Ihr sicher, dass Ihr sie verletzen wollt?
 %%%%
 Nature churns violently around you!
-Die Natur wirbelt heftig um Euch herum!
+Die Natur wirbelt heftig um dich herum!
 %%%%
 %s believes you are ready to make a new sacrifice.
 %s glaubt, dass Ihr bereit seid, ein neues Opfer zu bringen.
@@ -5553,7 +5553,7 @@ You can't leap into the sea of lava!
 Ihr könnt nicht ins Lavameer springen!
 %%%%
 Something unexpectedly blocked you, preventing you from leaping!
-Etwas hat Euch unerwartet blockiert und Euch daran gehindert zu springen!
+Etwas hat dich unerwartet blockiert und dich daran gehindert zu springen!
 %%%%
 # beam name
 power leap
@@ -5578,7 +5578,7 @@ There are friendlies around, are you sure you want to hurt them?
 Es sind Freunde in der Nähe, wollt Ihr sie wirklich verletzen?
 %%%%
 You stomp with the beat, sending a shockwave through the revellers around you!
-Ihr stampft mit dem Beat und schickt eine Schockwelle durch die Feiernden um Euch herum!
+Ihr stampft mit dem Beat und schickt eine Schockwelle durch die Feiernden um dich herum!
 %%%%
 You can't repeat Line Pass.
 Ihr könnt Linienpass nich wiederholen.
@@ -5590,7 +5590,7 @@ Cancelling line pass due to HUP.
 Linienpass abgebrochen wegen HUP.
 %%%%
 You cannot move away from %s!
-Ihr könnt Euch nicht von {dat}%s entfernen!
+Ihr könnt dich nicht von {dat}%s entfernen!
 %%%%
 You cannot move closer to %s!
 Ihr könnt nicht näher an {acc}%s heranrücken!
@@ -5608,7 +5608,7 @@ You can't walk through walls!
 Ihr könnt nicht durch Wände gehen!
 %%%%
 Something unexpectedly blocked you, preventing you from passing!
-Etwas hat Euch unerwartet blockiert und Euch am Passieren gehindert!
+Etwas hat dich unerwartet blockiert und dich am Passieren gehindert!
 %%%%
 No encores!
 Keine Zugaben!
@@ -5636,7 +5636,7 @@ Ihr könnt diese Wahl nicht treffen, solange dein Ahne woanders ist.
 %%%%
 # Remember ancestor as <character class>?
 Are you sure you want to remember your ancestor as %s?
-Seid Ihr sicher, dass Ihr Euch an deinen Ahnen als %s erinnern wollen?
+Seid Ihr sicher, dass Ihr dich an deinen Ahnen als %s erinnern wollen?
 %%%%
 It is so.
 So ist es.
@@ -5678,7 +5678,7 @@ Ihr tauscht mit %s!
 %s tauscht mit %s!
 %%%%
 "Remember %s name as what? "
-"Euch an %s Namen als was erinnern? "
+"dich an %s Namen als was erinnern? "
 %%%%
 Yes, %s is definitely a better name.
 Ja, %s ist definitiv ein besserer Name.
@@ -5697,7 +5697,7 @@ Was %s a) male, b) female, or c) neither? (Currently %s.)
 War %s a) männlich, b) weiblich, oder c) anderes (Zurzeit %s.)
 %%%%
 %s was always %s, you're pretty sure.
-%s war immer %s, da seid Ihr Euch ziemlich sicher.
+%s war immer %s, da seid Ihr dich ziemlich sicher.
 %%%%
 Please select an adjacent position to wall jump against.
 Bitte wählt eine benachbarte Position, um gegen die Wand zu springen.
@@ -5736,7 +5736,7 @@ Sifu %s says: The storm will not cease as long as you keep fighting, disciple!
 Sifu %s sagt: Der Sturm wird nicht aufhören, solange du weiter kämpfst, Schüler!
 %%%%
 You feel like a meek peon again.
-Ihr fühlt Euch wieder wie ein sanftmütiger Leibeigener.
+Ihr fühlt dich wieder wie ein sanftmütiger Leibeigener.
 %%%%
 %s slows down.
 %s wird langsamer.
@@ -5761,28 +5761,28 @@ Ihr habt keine Gefährten.
 ##################
 %%%%
 %s is not enthusiastic about the mutagenic glow surrounding you.
-%s ist nicht begeistert von dem mutagenen Glühen, das Euch umgibt.
+%s ist nicht begeistert von dem mutagenen Glühen, das dich umgibt.
 %%%%
 %s does not appreciate the extra mutagenic glow surrounding you!
-%s ist nicht begeistert von dem zusätzlichen mutagenen Glühen, das Euch umgibt!
+%s ist nicht begeistert von dem zusätzlichen mutagenen Glühen, das dich umgibt!
 %%%%
 %s forgives your inadvertent evil act, just this once.
-%s verzeiht Euch deine versehentliche böse Tat, nur dieses eine Mal.
+%s verzeiht dich deine versehentliche böse Tat, nur dieses eine Mal.
 %%%%
 %s forgives your inadvertent attack on a neutral, just this once.
-%s verzeiht Euch deinen versehentlichen Angriff auf einen Neutralen, nur dieses eine Mal.
+%s verzeiht dich deinen versehentlichen Angriff auf einen Neutralen, nur dieses eine Mal.
 %%%%
 %s forgives your inadvertent attack on an ally, just this once.
-%s verzeiht Euch deinen versehentlichen Angriff auf einen Verbündeten, nur dieses eine Mal.
+%s verzeiht dich deinen versehentlichen Angriff auf einen Verbündeten, nur dieses eine Mal.
 %%%%
 %s forgives your inadvertent unclean act, just this once.
-%s verzeiht Euch deine versehentliche unsaubere Handlung, nur dieses eine Mal.
+%s verzeiht dich deine versehentliche unsaubere Handlung, nur dieses eine Mal.
 %%%%
 %s forgives your inadvertent chaotic act, just this once.
-%s verzeiht Euch deine versehentliche chaotische Tat, nur dieses eine Mal.
+%s verzeiht dich deine versehentliche chaotische Tat, nur dieses eine Mal.
 %%%%
 %s forgives your inadvertent holy act, just this once.
-%s verzeiht Euch deine versehentliche heilige Tat, nur dieses eine Mal.
+%s verzeiht dich deine versehentliche heilige Tat, nur dieses eine Mal.
 %%%%
 %s does not appreciate your training of magic skills!
 %s schätzt dein Training von magischen Fähigkeiten nicht!
@@ -5794,7 +5794,7 @@ Ihr habt keine Gefährten.
 %s schätzt es nicht, dass Ihr Blut vergießt, wenn Ihr um Erlösung bittet!
 %%%%
 %s forgives your accidental hurry, just this once.
-%s verzeiht Euch deine versehentliche Eile, nur dieses eine Mal.
+%s verzeiht dich deine versehentliche Eile, nur dieses eine Mal.
 %%%%
 %s thinks you should slow down.
 %s findet, Ihr solltet langsamer gehen.
@@ -5845,28 +5845,28 @@ Your resistance to physical damage fades away.
 Dein Widerstand gegen physischen Schaden lässt nach.
 %%%%
 You feel protected from fire.
-Ihr fühlt Euch vor Feuer geschützt.
+Ihr fühlt dich vor Feuer geschützt.
 %%%%
 You feel more protected from fire.
-Ihr fühlt Euch besser vor Feuer geschützt.
+Ihr fühlt dich besser vor Feuer geschützt.
 %%%%
 You feel protected from cold.
-Ihr fühlt Euch vor Kälte geschützt.
+Ihr fühlt dich vor Kälte geschützt.
 %%%%
 You feel more protected from cold.
-Ihr fühlt Euch besser vor Kälte geschützt.
+Ihr fühlt dich besser vor Kälte geschützt.
 %%%%
 You feel protected from electricity.
-Ihr fühlt Euch vor Elektrizität geschützt.
+Ihr fühlt dich vor Elektrizität geschützt.
 %%%%
 You feel more protected from electricity.
-Ihr fühlt Euch besser vor Elektrizität geschützt.
+Ihr fühlt dich besser vor Elektrizität geschützt.
 %%%%
 You feel protected from physical damage.
-Ihr fühlt Euch vor physischen Schäden geschützt.
+Ihr fühlt dich vor physischen Schäden geschützt.
 %%%%
 You feel more protected from physical damage.
-Ihr fühlt Euch besser vor physischen Schäden geschützt.
+Ihr fühlt dich besser vor physischen Schäden geschützt.
 %%%%
 %s mimicks your spell!
 %s ahmt deinen Zauber nach!
@@ -5878,19 +5878,19 @@ The heavenly storm settles.
 Das himmlische Gewitter lässt nach.
 %%%%
 You lunge at %s, but your attack speed is too slow for a blow to land.
-Ihr stürzt Euch auf {acc}%s, aber deine Angriffsgeschwindigkeit ist zu langsam, um einen Schlag zu landen.
+Ihr stürzt dich auf {acc}%s, aber deine Angriffsgeschwindigkeit ist zu langsam, um einen Schlag zu landen.
 %%%%
 You lunge at %s.
-Ihr stürzt Euch auf {acc}%s.
+Ihr stürzt dich auf {acc}%s.
 %%%%
 You lunge with incredible momentum at %s.
-Ihr stürzt Euch mit unglaublichem Schwung auf {acc}%s.
+Ihr stürzt dich mit unglaublichem Schwung auf {acc}%s.
 %%%%
 You lunge at %s, in a flurry of attacks.
-Ihr stürzt Euch auf {acc}%s, in einem Wirbel von Angriffen.
+Ihr stürzt dich auf {acc}%s, in einem Wirbel von Angriffen.
 %%%%
 You lunge with incredible momentum at %s, in a flurry of attacks.
-Ihr stürzt Euch mit unglaublichem Schwung auf {acc}%s, in einem Wirbel aus Angriffen.
+Ihr stürzt dich mit unglaublichem Schwung auf {acc}%s, in einem Wirbel aus Angriffen.
 %%%%
 You spin to attack %s, but your attack speed is too slow for a blow to land.
 Ihr wirbelt herum, um {acc}%s anzugreifen, aber deine Angriffsgeschwindigkeit ist zu langsam, um einen Schlag zu landen.
@@ -5969,7 +5969,7 @@ the rancor of the Wu Jian Council
 die Verbitterung des Wu-Jian-Rates
 %%%%
 %s sends the divine host to punish you for your evil ways!
-%s schickt die göttliche Heerschar, um Euch für deine bösen Taten zu bestrafen!
+%s schickt die göttliche Heerschar, um dich für deine bösen Taten zu bestrafen!
 %%%%
 %s's divine host fails to appear.
 Die göttliche Heerschar {gen}%s erscheint nicht.
@@ -5978,7 +5978,7 @@ Die göttliche Heerschar {gen}%s erscheint nicht.
 %s dröhnt: "Nimm den Weg der Rechtschaffenheit! TUE BUSSE!"
 %%%%
 You feel the Shining One's silent rage upon you!
-Ihr spürt den stillen Zorn des Strahlenden auf Euch!
+Ihr spürt den stillen Zorn des Strahlenden auf dich!
 %%%%
 %s draws some chaos from your body!
 %s zieht etwas Chaos aus deinem Körper!
@@ -5987,7 +5987,7 @@ Ihr spürt den stillen Zorn des Strahlenden auf Euch!
 %s befreit deinen Körper vom Chaos!
 %%%%
 %s recites the Axioms of Law to you!
-%s trägt Euch die Axiome des Rechts vor!
+%s trägt dich die Axiome des Rechts vor!
 %%%%
 %s booms out: "Turn to the light! REPENT!"
 %s dröhnt: "Wende dich den Licht zu! TUE BUSSE!"
@@ -5999,22 +5999,22 @@ You lose track of time.
 Ihr verliert das Zeitgefühl.
 %%%%
 You feel the world leave you behind!
-Ihr fühlt, wie die Welt Euch zurücklässt!
+Ihr fühlt, wie die Welt dich zurücklässt!
 %%%%
 Time shudders.
 Die Zeit zittert.
 %%%%
 %s rains destruction down upon you!
-%s regnet Zerstörung auf Euch herab!
+%s regnet Zerstörung auf dich herab!
 %%%%
 %s has no time to deal with you just now.
-%s hat jetzt keine Zeit, um sich mit Euch zu beschäftigen.
+%s hat jetzt keine Zeit, um sich mit dir zu beschäftigen.
 %%%%
 %s sends minions to punish you.
-%s schickt Lakaien, um Euch zu bestrafen.
+%s schickt Lakaien, um dich zu bestrafen.
 %%%%
 %s sends a minion to punish you.
-%s schickt einen Lakaien, um Euch zu bestrafen.
+%s schickt einen Lakaien, um dich zu bestrafen.
 %%%%
 %s's minions fail to arrive.
 Die Diener {gen}%s kommen nicht an.
@@ -6023,28 +6023,28 @@ You hear Kikubaaqudgha cackling.
 Ihr hört Kikubaaqudgha gackern.
 %%%%
 Kikubaaqudgha's malice focuses upon you.
-Kikubaaqudghas Bosheit konzentriert sich auf Euch.
+Kikubaaqudghas Bosheit konzentriert sich auf dich.
 %%%%
 %s sends servants to punish you.
-%s schickt Diener, um Euch zu bestrafen.
+%s schickt Diener, um dich zu bestrafen.
 %%%%
 %s sends a servant to punish you.
-%s schickt einen Diener, um Euch zu bestrafen.
+%s schickt einen Diener, um dich zu bestrafen.
 %%%%
 %s's servants fail to arrive.
 {gen}%s Diener kommen nicht an.
 %%%%
 %s's anger turns toward you for a moment.
-Der Zorn {gen}%s richtet sich für einen Moment gegen Euch.
+Der Zorn {gen}%s richtet sich für einen Moment gegen dich.
 %%%%
 %s sends monsters to punish you.
-%s schickt Monster, um Euch zu bestrafen.
+%s schickt Monster, um dich zu bestrafen.
 %%%%
 %s sends a monster to punish you.
-%s schickt ein Monster, um Euch zu bestrafen.
+%s schickt ein Monster, um dich zu bestrafen.
 %%%%
 %s has no time to punish you... now.
-%s hat keine Zeit, Euch zu bestrafen... jetzt.
+%s hat keine Zeit, dich zu bestrafen... jetzt.
 %%%%
 %s's voice booms out, "Feel my wrath!"
 {gen}%s Stimme dröhnt: "Fühle meinen Zorn!"
@@ -6053,46 +6053,46 @@ You suddenly pass out!
 Ihr werdet plötzlich ohnmächtig!
 %%%%
 You suddenly feel lethargic!
-Ihr fühlt Euch plötzlich träge!
+Ihr fühlt dich plötzlich träge!
 %%%%
 %s hurls fiery rage upon you!
-%s schleudert feurige Wut auf Euch!
+%s schleudert feurige Wut auf dich!
 %%%%
 # Beogh sends electric weapon(s)
 %s throws an implement of electrocution at you.
-%s wirft ein Stromschlagsgerät auf Euch.
+%s wirft ein Stromschlagsgerät auf dich.
 %%%%
 %s throws implements of electrocution at you.
-%s wirft Stromschlagsgeräte auf Euch.
+%s wirft Stromschlagsgeräte auf dich.
 %%%%
 %s sends forth an army of orcs.
 %s schickt eine Armee von Orks aus.
 %%%%
 %s is still gathering forces against you.
-%s sammelt immer noch Kräfte gegen Euch.
+%s sammelt immer noch Kräfte gegen dich.
 %%%%
 %s sends forces against you!
-%s schickt Truppen gegen Euch!
+%s schickt Truppen gegen dich!
 %%%%
 %s's forces are busy with other wars.
 {gen}%s Truppen sind mit anderen Kriegen beschäftigt.
 %%%%
 %s's wrath finds you.
-{gen}%s Zorn findet Euch.
+{gen}%s Zorn findet dich.
 %%%%
 # Lugonu teleports player
 %s's wrath scatters you!
-{gen}%s Zorn zerstreut Euch!
+{gen}%s Zorn zerstreut dich!
 %%%%
 Space warps around you!
-Der Raum verzieht sich um Euch!
+Der Raum verzieht sich um dich!
 %%%%
 # Lugonu banishes player to the Abyss
 %s draws you home!
-%s zieht Euch nach Hause!
+%s zieht dich nach Hause!
 %%%%
 %s makes you draw from the deck of Punishment.
-%s lässt Euch aus dem Deck der Bestrafung ziehen.
+%s lässt dich aus dem Deck der Bestrafung ziehen.
 %%%%
 You feel Jiyva alter your body.
 Ihr spürt, wie Jiyva deinen Körper verändert.
@@ -6110,19 +6110,19 @@ The ground quivers slightly.
 Der Boden zittert leicht.
 %%%%
 %s invokes nature against you.
-%s beschwört die Natur gegen Euch.
+%s beschwört die Natur gegen dich.
 %%%%
 Plants grow around you in an ominous manner.
-Pflanzen wachsen um Euch herum in einer unheilvollen Weise.
+Pflanzen wachsen um dich herum in einer unheilvollen Weise.
 %%%%
 %s produces spores.
 %s produziert Sporen.
 %%%%
 %s calls forth shadows to punish you.
-%s ruft Schatten hervor, um Euch zu bestrafen.
+%s ruft Schatten hervor, um dich zu bestrafen.
 %%%%
 %s fails to incite the shadows against you.
-%s schafft es nicht, die Schatten gegen Euch aufzubringen.
+%s schafft es nicht, die Schatten gegen dich aufzubringen.
 %%%%
 %s weaves monsters from the shadows.
 %s webt Monster aus den Schatten.
@@ -6131,19 +6131,19 @@ Pflanzen wachsen um Euch herum in einer unheilvollen Weise.
 %s schafft es nicht, Monster aus den Schatten zu weben.
 %%%%
 You feel overwhelmed by the shadows around you.
-Ihr fühlt Euch von den Schatten um Euch herum überwältigt.
+Ihr fühlt dich von den Schatten um dich herum überwältigt.
 %%%%
 %s tears the shadows away from you.
-%s reißt die Schatten von Euch weg.
+%s reißt die Schatten von dir weg.
 %%%%
 %s incites the elements against you!
-%s hetzt die Elemente gegen Euch auf!
+%s hetzt die Elemente gegen dich auf!
 %%%%
 %s fails to incite the elements against you.
-%s schafft es nicht, die Elemente gegen Euch aufzuhetzen.
+%s schafft es nicht, die Elemente gegen dich aufzuhetzen.
 %%%%
 %s strips away your elemental protection.
-%s entzieht Euch deinen Elementarschutz.
+%s entzieht dich deinen Elementarschutz.
 %%%%
 %s fails to strip away your elemental protection.
 %s schafft es nicht, deinen Elementarschutz zu entziehen.
@@ -6176,16 +6176,16 @@ Sifu %s sagt: Leide, Sterblicher!
 %s dröhnt: "Feiernde, es ist Zeit zu tanzen!"
 %%%%
 The divine experience confuses you!
-Die göttliche Erfahrung verwirrt Euch!
+Die göttliche Erfahrung verwirrt dich!
 %%%%
 The divine experience drains your vigour!
 Die göttliche Erfahrung entzieht deine Vitalität!
 %%%%
 %s blasts you with cleansing flame!
-%s stößt Euch mit reinigenden Flammen an!
+%s stößt dich mit reinigenden Flammen an!
 %%%%
 %s smites you!
-%s zerschlägt Euch!
+%s zerschlägt dich!
 %%%%
 
 ##################
@@ -6306,19 +6306,19 @@ You aren't carrying any weapons that can be blessed.
 Ihr tragt keine Waffen, die gesegnet werden können.
 %%%%
 Your armour is currently melded into you.
-Deine Rüstung ist bereits mit Euch fusioniert.
+Deine Rüstung ist bereits mit dir fusioniert.
 %%%%
 You aren't carrying any currently wearable armour.
-Ihr habt keine Rüsting bei Euch, die Ihr im Moment anziehen könnt.
+Ihr habt keine Rüsting bei dir, die Ihr im Moment anziehen könnt.
 %%%%
 You aren't carrying any wearable armour.
-Ihr habt keine Rüsting bei Euch, die Ihr anziehen könnt.
+Ihr habt keine Rüsting bei dir, die Ihr anziehen könnt.
 %%%%
 You don't have any unidentified items.
 Ihr habt keine unidentifizierte Gegenstände.
 %%%%
 You aren't carrying any armour which can be enchanted further.
-Ihr habt keine Rüsting bei Euch, die weiter bezaubert werden kann.
+Ihr habt keine Rüsting bei dir, die weiter bezaubert werden kann.
 %%%%
 You don't have any corpses.
 Ihr habt keine Leichen.
@@ -6330,34 +6330,34 @@ You aren't carrying any scrolls.
 Ihr habt keine Schriftrollen.
 %%%%
 You don't have any books.
-Ihr habt keine Bücher bei Euch.
+Ihr habt keine Bücher bei dir.
 %%%%
 You aren't carrying any wands.
-Ihr habt keine Zauberstäbe bei Euch.
+Ihr habt keine Zauberstäbe bei dir.
 %%%%
 You aren't carrying any pieces of jewellery.
-Ihr habt keinen Schmuck bei Euch.
+Ihr habt keinen Schmuck bei dir.
 %%%%
 You aren't carrying any items that might be thrown or fired.
-Ihr habt keine Gegenstände bei Euch, die geschossen oder geworfen werden können.
+Ihr habt keine Gegenstände bei dir, die geschossen oder geworfen werden können.
 %%%%
 You aren't carrying any items that you can evoke without wielding.
-Ihr habt keine Gegenstände bei Euch, mit dem Ihr evozieren könnt ohne.
+Ihr habt keine Gegenstände bei dir, mit dem Ihr evozieren könnt ohne.
 %%%%
 You aren't carrying any items that you can evoke.
-Ihr habt keine Gegenstände bei Euch, mit dem Ihr evozieren könnt, ohne sie zu führen.
+Ihr habt keine Gegenstände bei dir, mit dem Ihr evozieren könnt, ohne sie zu führen.
 %%%%
 None of your equipped items are cursed.
 Keiner deiner ausgerüsteten Gegenstände ist verflucht.
 %%%%
 You aren't carrying any weapons that can be branded.
-Ihr habt keine Waffen bei Euch, die durchtränken werden können.
+Ihr habt keine Waffen bei dir, die durchtränken werden können.
 %%%%
 You aren't carrying any weapons that can be enchanted.
-Ihr habt keine Waffen bei Euch, die verzaubert werden können.
+Ihr habt keine Waffen bei dir, die verzaubert werden können.
 %%%%
 You aren't carrying anything you can give to a follower.
-Ihr habt nichts bei Euch, das Ihr einem Anhänger geben könnt.
+Ihr habt nichts bei dir, das Ihr einem Anhänger geben könnt.
 %%%%
 You aren't wearing any cursable items.
 Ihr habt nichts an, das verflucht werden kann.
@@ -6366,10 +6366,10 @@ You aren't wearing any uncursed rings.
 Ihr habt keinen nichtverfluchten Ring an.
 %%%%
 You don't have any quiverable items.
-Ihr habt nichts bei Euch, das in den Köcher kommen kann.
+Ihr habt nichts bei dir, das in den Köcher kommen kann.
 %%%%
 You aren't carrying any such object.
-Ihr habt keinen solchen Gegenstand bei Euch.
+Ihr habt keinen solchen Gegenstand bei dir.
 %%%%
 (select all with <w>%s</w><blue>)
 (alle mit <w>%s</w><blue> wählen)
@@ -6459,7 +6459,7 @@ Really choose %s?
 Wirklich {acc}%s wählen?
 %%%%
 " This could place you under penance AND you're about to teleport!"
-" Das könnte Euch unter Strafe stellen UND Ihr werdet gleich teleportieren!"
+" Das könnte dich unter Strafe stellen UND Ihr werdet gleich teleportieren!"
 %%%%
 " You're about to teleport!"
 " Ihr werdet gleich teleportieren!"
@@ -6500,10 +6500,10 @@ You can't wield anything in your present form.
 Ihr könnt nichts in deiner gegenwärtigen Form führen.
 %%%%
 You cannot break your focus on the pain!
-Ihr könnt Euch nicht vom Schmerz ablenken!
+Ihr könnt dich nicht vom Schmerz ablenken!
 %%%%
 Your thirst for blood prevents you from unwielding your weapon!
-Dein Blutdurst hindert Euch daran, deine Waffe loszulassen!
+Dein Blutdurst hindert dich daran, deine Waffe loszulassen!
 %%%%
 You can't unwield your weapon!
 Ihr könnt deine Waffe nicht loslassen.
@@ -6524,7 +6524,7 @@ You can't wield that with a shield.
 Mit einem Schild könnt Ihr das nicht führen.
 %%%%
 This weapon is holy and will not allow you to wield it.
-Diese Waffe ist heilig und wird Euch nicht erlauben, sie zu führen.
+Diese Waffe ist heilig und wird dich nicht erlauben, sie zu führen.
 %%%%
 You can't carry that many items.
 So viele Gegenstände könnt Ihr nicht tragen.
@@ -6587,10 +6587,10 @@ You can't wear this over your hauberk.
 Ihr könnt das nicht über deiner Halsberge tragen.
 %%%%
 This armour is too big for you!
-Diese Rüstung ist zu groß für Euch!
+Diese Rüstung ist zu groß für dich!
 %%%%
 This armour is too small for you!
-Diese Rüstung ist zu klein für Euch!
+Diese Rüstung ist zu klein für dich!
 %%%%
 You can't wear a glove with your huge claw!
 Ihr könnt mit deiner riesigen Kralle keinen Handschuh tragen!
@@ -6725,7 +6725,7 @@ You can only put on jewellery.
 Ihr könnt nur Schmuck anlegen.
 %%%%
 %s is stuck to you!
-%s ist an Euch gehaftet!
+%s ist an dich gehaftet!
 %%%%
 You're already wearing that amulet!
 Ihr tragt dieses Amulett schon!
@@ -6755,13 +6755,13 @@ I don't think you really meant that.
 Ich glaube nicht, dass Ihr das wirklich gemeint habt.
 %%%%
 You can't take that off while it's melded.
-Ihr könnt das nicht ausziehen, solange es in Euch fusioniert ist.
+Ihr könnt das nicht ausziehen, solange es in dir fusioniert ist.
 %%%%
 The amulet cannot be taken off without first removing the ring!
 Das Amulett kann nicht abgenommen werden, ohne vorher den Ring zu abnehmen!
 %%%%
 It's stuck to you!
-Das ist an Euch gehaftet!
+Das ist an dich gehaftet!
 %%%%
 You remove %s.
 Ihr nehmt %s ab.
@@ -6785,7 +6785,7 @@ You can't drink that!
 Das könnt Ihr nicht trinken!
 %%%%
 " This action would place you under penance!"
-" Diese Handlung würde Euch unter Strafe bringen!
+" Diese Handlung würde dich unter Strafe bringen!
 %%%%
 %s petitions for your drink to fail.
 %s bittet darum, dass dein Trank nicht wirkt.
@@ -6845,7 +6845,7 @@ Enchant which item?
 Welchen Gegenstand verzaubern?
 %%%%
 Magic quickly surges around you.
-Magie strömt schnell um Euch herum.
+Magie strömt schnell um dich herum.
 %%%%
 You are too berserk!
 Ihr seid zu wütend!
@@ -6893,7 +6893,7 @@ You can't see any enemies this would affect, really read %s?
 Ihr könnt keine Feinde sehen, die betroffen würden. Wirklich %s lesen?
 %%%%
 You almost manage to decipher the scroll, but fail in this attempt.
-Es gelingt Euch fast, die Schriftrolle zu entziffern, aber Ihr scheitert bei diesem Versuch.
+Es gelingt dich fast, die Schriftrolle zu entziffern, aber Ihr scheitert bei diesem Versuch.
 %%%%
 As you read %s, it crumbles to dust.
 Als Ihr %s lest, zerfällt sie zu Staub.
@@ -6920,10 +6920,10 @@ It would have no effect in this place.
 Das würde an diesem Ort keine Wirkung haben.
 %%%%
 The creatures around you are filled with an inner flame!
-Die Kreaturen um Euch herum sind mit einer inneren Flamme gefüllt!
+Die Kreaturen um dich herum sind mit einer inneren Flamme gefüllt!
 %%%%
 The air around you briefly surges with heat, but it dissipates.
-Die Luft um Euch herum schwankt kurz vor Hitze, aber sie löst sich auf.
+Die Luft um dich herum schwankt kurz vor Hitze, aber sie löst sich auf.
 %%%%
 It is a scroll of enchant weapon.
 Das ist eine Schriftrolle der Waffenverzauberung.
@@ -6941,7 +6941,7 @@ It is a scroll of amnesia.
 Das ist eine Schriftrolle der Amnesie.
 %%%%
 You feel forgetful for a moment.
-Ihr fühlt Euch für einen Moment vergesslich.
+Ihr fühlt dich für einen Moment vergesslich.
 %%%%
 It was %s.
 Das war %s.
@@ -6997,7 +6997,7 @@ Your wizardly powers created it @in_location@
 Deine Zaubermacht hat diesen Gegenstand @in_location@ geschaffen
 %%%%
 @God@ gifted it to you @in_location@
-@God@ hat Euch diesen Gegenstand geschenkt @in_location@
+@God@ hat dich diesen Gegenstand geschenkt @in_location@
 %%%%
 You stumbled upon it @in_location@
 Ihr seid auf diesen Gegenstand @in_location@ gestoßen
@@ -7051,10 +7051,10 @@ Unfortunately, you learned nothing new.
 Leider habt Ihr nichts Neues gelernt.
 %%%%
 You pick up %s. Unfortunately, it's quite useless to you.
-Ihr hebt {acc}%s auf. Leider ist das völlig nutzlos für Euch.
+Ihr hebt {acc}%s auf. Leider ist das völlig nutzlos für dich.
 %%%%
 You pick up %s, but it has nothing more to teach you.
-Ihr hebt {acc}%s auf, aber es hat Euch nichts mehr zu lehren.
+Ihr hebt {acc}%s auf, aber es hat dich nichts mehr zu lehren.
 %%%%
 # note: pick up manual
 You pick up another %s and continue studying.
@@ -7080,13 +7080,13 @@ Press } to see all the runes you have collected.
 } drücken, um alle Runen zu sehen, die Ihr gesammelt habt.
 %%%%
 You feel the abyssal rune guiding you out of this place.
-Ihr fühlt wie die Abgrundsrune Euch aus diesem Ort herausführt.
+Ihr fühlt wie die Abgrundsrune dich aus diesem Ort herausführt.
 %%%%
 You pick up the Orb of Zot!
 Ihr hebt die Kugel von Zot auf!
 %%%%
 Zot can harm you no longer.
-Zot kann Euch nicht mehr schaden.
+Zot kann dich nicht mehr schaden.
 %%%%
 Now all you have to do is get back out of the dungeon!
 Jetzt müsst Ihr nur noch wieder aus dem Dungeon herauskommen!
@@ -7508,7 +7508,7 @@ This shop appears to be closed.
 Dieser Laden scheint geschlossen zu sein.
 %%%%
 A magical barricade bars your way!
-Eine magische Barrikade versperrt Euch den Weg!
+Eine magische Barrikade versperrt dich den Weg!
 %%%%
 You can't go down here!
 Ihr könnt hier nicht runter gehen!
@@ -7592,7 +7592,7 @@ You have unlimited time to explore this branch.
 Ihr habt unbegrenzt Zeit, diesen Bereich zu erkunden.
 %%%%
 Zot will find you in %d turns if you stay in this branch and explore no new floors.
-Zot wird Euch in %d Runden finden, wenn Ihr in diesem Bereich bleibt und keine neuen Ebenen erkundet.
+Zot wird dich in %d Runden finden, wenn Ihr in diesem Bereich bleibt und keine neuen Ebenen erkundet.
 %%%%
 You can't remove %s, sorry.
 Ihr könnt {acc}%s nicht ausziehen, tut mir leid.
@@ -7610,7 +7610,7 @@ You start waiting.
 Ihr fangt an zu warten.
 %%%%
 You start resting.
-Ihr fangt an Euch auszuruhen.
+Ihr fangt an dich auszuruhen.
 %%%%
 Move the cursor to view the level map, or type <w>?</w> for a list of commands.
 Den Cursor bewegen, um die Ebenekarte anzuzeigen, oder <w>?</w> eingeben für eine Liste der Befehle.
@@ -7712,7 +7712,7 @@ You are cast deeper into the Abyss!
 Ihr werdet tiefer in den Abgrund geworfen!
 %%%%
 The Abyss bends around you!
-Der Abgrund biegt sich um Euch!
+Der Abgrund biegt sich um dich!
 %%%%
 Your passage of Golubria closes with a snap!
 Deine Passage von Golubria schließt sich mit einem Schnappen!
@@ -7733,7 +7733,7 @@ You feel your anger nearly subside.
 Ihr fühlt, wie dein Zorn fast nachlässt.
 %%%%
 Your blood rage is quickly leaving you.
-Deine Blutwut verlässt Euch schnell.
+Deine Blutwut verlässt dich schnell.
 %%%%
 Can't repeat a command which takes no turns (unless it's a wizard command), cancelling repetitions.
 Ein Befehl (außerdem ein Zauberer-Befehl), der keine Runden benötigt, kann nicht wiederholt werden. Wiederholungen werden aufgehoben.
@@ -7776,13 +7776,13 @@ You attempt to attack %s, but flinch away in fear!
 Ihr versucht {acc}%s anzugreifen, zuckt aber vor Angst zurück!
 %%%%
 %s strikes at you from the darkness!
-%s schlägt aus der Dunkelheit auf Euch an!
+%s schlägt aus der Dunkelheit auf dich an!
 %%%%
 %s strikes at %s from the darkness!
 %s schlägt aus der Dunkelheit auf {acc}%s an!
 %%%%
 %s completely misses you.
-%s verfehlt Euch völlig.
+%s verfehlt dich völlig.
 %%%%
 %s completely misses %s.
 %s verfehlt {acc}%s völlig.
@@ -7791,13 +7791,13 @@ Ihr versucht {acc}%s anzugreifen, zuckt aber vor Angst zurück!
 %s verfehlt {acc}%s.
 %%%%
 %s closely misses you.
-%s verfehlt Euch.
+%s verfehlt dich.
 %%%%
 %s closely misses %s.
 %s verfehlt {acc}%s nur knapp.
 %%%%
 %s barely misses you.
-%s verfehlt Euch nur knapp.
+%s verfehlt dich nur knapp.
 %%%%
 %s barely misses %s.
 %s verfehlt {acc}%s sehr knapp.
@@ -7896,16 +7896,16 @@ You disrupt %s magic.
 Ihr stört die Magie {gen}%s.
 %%%%
 You feel invigorated.
-Ihr fühlt Euch gestärkt.
+Ihr fühlt dich gestärkt.
 %%%%
 Your armour prevents you from hitting %s.
-Deine Rüstung hindert Euch daran, {acc}%s zu treffen.
+Deine Rüstung hindert dich daran, {acc}%s zu treffen.
 %%%%
 Your shield prevents you from hitting %s.
-Dein Schild hindert Euch daran, {acc}%s zu treffen.
+Dein Schild hindert dich daran, {acc}%s zu treffen.
 %%%%
 Your shield and armour prevent you from hitting %s.
-Dein Schild und deine Rüstung hindert Euch daran, {acc}%s zu treffen.
+Dein Schild und deine Rüstung hindert dich daran, {acc}%s zu treffen.
 %%%%
 You completely miss %s.
 Ihr verfehlt {acc}%s völlig.
@@ -8133,7 +8133,7 @@ You shatter %s
 Ihr zerschmettert {acc}%s
 %%%%
 %s shatters you
-%s zerschmettert Euch
+%s zerschmettert dich
 %%%%
 %s shatters %s
 %s zerschmettert {acc}%s
@@ -8142,7 +8142,7 @@ Ihr zerschmettert {acc}%s
 %s zerschmettert sich selbst
 %%%%
 %s blasts you
-%s sprengt Euch
+%s sprengt dich
 %%%%
 %s blasts %s
 %s sprengt {acc}%s
@@ -8151,211 +8151,211 @@ Ihr zerschmettert {acc}%s
 %s zerschlagt sich selbst
 %%%%
 %s pokes you
-%s stößt Euch an
+%s stößt dich an
 %%%%
 %s pokes %s
 %s stößt {acc}%s an
 %%%%
 %s prods you
-%s stößt Euch an
+%s stößt dich an
 %%%%
 %s prods %s
 %s stößt {acc}%s an
 %%%%
 %s flogs you
-%s peitscht Euch
+%s peitscht dich
 %%%%
 %s flogs %s
 %s peitscht {acc}%s
 %%%%
 %s pounds you
-%s schlägt Euch
+%s schlägt dich
 %%%%
 %s pounds %s
 %s schlägt {acc}%s
 %%%%
 %s slaps you
-%s ohrfeigt Euch
+%s ohrfeigt dich
 %%%%
 %s slaps %s
 %s ohrfeigt {acc}%s
 %%%%
 %s tickles you
-%s kitzelt Euch
+%s kitzelt dich
 %%%%
 %s tickles %s
 %s kitzelt {acc}%s
 %%%%
 %s defenestrates you
-%s wirft Euch aus dem Fenster
+%s wirft dich aus dem Fenster
 %%%%
 %s defenestrates %s
 %s wirft {acc}%s aus dem Fenster
 %%%%
 %s sucker-punches you
-%s versetz Euch einen Tiefschlag
+%s versetz dich einen Tiefschlag
 %%%%
 %s sucker-punches %s
 %s versetz {acc}%s einen Tiefschlag
 %%%%
 %s elbows you
-%s schlägt Euch mit dem Ellbogen
+%s schlägt dich mit dem Ellbogen
 %%%%
 %s elbows %s
 %s schlägt {acc}%s mit dem Ellbogen
 %%%%
 %s pinches you
-%s kneift Euch
+%s kneift dich
 %%%%
 %s pinches %s
 %s kneift {acc}%s
 %%%%
 %s strangle-hugs you
-%s presst Euch aus
+%s presst dich aus
 %%%%
 %s strangle-hugs %s
 %s presst {acc}%s aus
 %%%%
 %s squeezes you
-%s presst Euch aus
+%s presst dich aus
 %%%%
 %s squeezes %s
 %s presst {acc}%s aus
 %%%%
 %s teases you
-%s stichelt Euch
+%s stichelt dich
 %%%%
 %s teases %s
 %s stichelt {acc}%s
 %%%%
 %s eye-gouges you
-%s drückt Euch den Finger ins Auge
+%s drückt dich den Finger ins Auge
 %%%%
 %s eye-gouges %s
 %s drückt {dat}%s den Finger ins Auge
 %%%%
 %s karate-kicks you
-%s tritt Euch
+%s tritt dich
 %%%%
 %s karate-kicks %s
 %s tritt {acc}%s
 %%%%
 %s headlocks you
-%s nimmt Euch in den Schwitzkasten
+%s nimmt dich in den Schwitzkasten
 %%%%
 %s headlocks %s
 %s nimmt {acc}%s in den Schwitzkasten
 %%%%
 %s wrestles you
-%s ringt Euch nieder
+%s ringt dich nieder
 %%%%
 %s wrestles %s
 %s ringt {acc}%s nieder
 %%%%
 %s trip-wires you
-%s stellt Euch ein Bein
+%s stellt dich ein Bein
 %%%%
 %s trip-wires %s
 %s stellt {dat}%s ein Bein
 %%%%
 %s kneecaps you
-%s zerschmettert Euch die Kniescheibe
+%s zerschmettert dich die Kniescheibe
 %%%%
 %s kneecaps %s
 %s zerschmettert {dat}%s die Kniescheibe
 %%%%
 %s bites you
-%s beißt Euch
+%s beißt dich
 %%%%
 %s bites %s
 %s beißt {acc}%s
 %%%%
 %s stings you
-%s sticht Euch
+%s sticht dich
 %%%%
 %s stings %s
 %s sticht {acc}%s
 %%%%
 %s releases spores at you
-%s setzt Sporen auf Euch frei
+%s setzt Sporen auf dich frei
 %%%%
 %s releases spores at %s
 %s setzt Sporen auf {dat}%s frei
 %%%%
 %s touches you
-%s fasst Euch an
+%s fasst dich an
 %%%%
 %s touches %s
 %s fasst {acc}%s an
 %%%%
 %s claws you
-%s zerkratzt Euch
+%s zerkratzt dich
 %%%%
 %s claws %s
 %s zerkratzt {acc}%s
 %%%%
 %s pecks you
-%s pickt Euch
+%s pickt dich
 %%%%
 %s pecks %s
 %s pickt {acc}%s
 %%%%
 %s headbutts you
-%s versetzt Euch einen Kopfstoß
+%s versetzt dich einen Kopfstoß
 %%%%
 %s headbutts %s
 %s versetzt {dat}%s einen Kopfstoß
 %%%%
 %s punches you
-%s boxt Euch
+%s boxt dich
 %%%%
 %s punches %s
 %s boxt {acc}%s
 %%%%
 %s kicks you
-%s tritt Euch
+%s tritt dich
 %%%%
 %s kicks %s
 %s tritt {acc}%s
 %%%%
 %s tentacle-slaps you
-schlägt Euch mit dem Tentakel
+schlägt dich mit dem Tentakel
 %%%%
 %s tentacle-slaps %s
 %s schlägt {acc}%s mit dem Tentakel
 %%%%
 %s tail-slaps you
-%s schlägt Euch mit dem Schwanz
+%s schlägt dich mit dem Schwanz
 %%%%
 %s tail-slaps %s
 %s schlägt {acc}%s mit dem Schwanz
 %%%%
 %s gores you
-%s spießt Euch auf
+%s spießt dich auf
 %%%%
 %s gores %s
 %s spießt {acc}%s auf
 %%%%
 %s tramples you
-%s trampelt Euch
+%s trampelt dich
 %%%%
 %s tramples %s
 %s trampelt {acc}%s
 %%%%
 %s trunk-slaps you
-%s schlägt Euch mit dem Rüssel
+%s schlägt dich mit dem Rüssel
 %%%%
 %s trunk-slaps %s
 %s schlägt {acc}%s mit dem Rüssel
 %%%%
 %s pounces on you
-%s stürzt sich auf Euch
+%s stürzt sich auf dich
 %%%%
 %s pounces on %s
 %s stürzt sich auf {acc}%s
 %%%%
 %s hits you from afar
-%s trifft Euch von weitem
+%s trifft dich von weitem
 %%%%
 %s hits %s from afar
 %s trifft {acc}%s von weitem
@@ -8364,7 +8364,7 @@ schlägt Euch mit dem Tentakel
 " mit {dat}%s"
 %%%%
 %s poisons you!
-%s vergiftet Euch!
+%s vergiftet dich!
 %%%%
 %s poisons %s!
 %s vergiftet %s!
@@ -8382,7 +8382,7 @@ Ihr seid in Flammen versunken
 %s ist in Flammen versunken
 %%%%
 %s shocks you
-%s gibt Euch einen elektrischen Schlag
+%s gibt dich einen elektrischen Schlag
 %%%%
 %s shocks %s
 %s gibt {dat}%s einen elektrischen Schlag
@@ -8400,16 +8400,16 @@ Ihr seid in einer Sporenwolke eingehüllt!
 %s ist in einer Sporenwolke eingehüllt!
 %%%%
 Your divine stamina protects you from poison!
-Deine göttliche Ausdauer schützt Euch vor Gift!
+Deine göttliche Ausdauer schützt dich vor Gift!
 %%%%
 %s infuriates you!
-%s macht Euch wütend!
+%s macht dich wütend!
 %%%%
 %s infuriates %s!
 %s macht {acc}%s wütend!
 %%%%
 %s sears you
-%s versengt Euch
+%s versengt dich
 %%%%
 %s sears %s
 %s versengt {acc}%s
@@ -8433,7 +8433,7 @@ Deine göttliche Ausdauer schützt Euch vor Gift!
 %s sieht gestärkt aus.
 %%%%
 %s grabs you.
-%s umschlingt Euch.
+%s umschlingt dich.
 %%%%
 %s grabs %s.
 %s umschlingt {acc}%s.
@@ -8445,13 +8445,13 @@ the ooze
 der Schlamm
 %%%%
 %s engulfs you in water!
-%s überflutet Euch!
+%s überflutet dich!
 %%%%
 %s engulfs %s in water!
 %s überflutet {acc}%s!
 %%%%
 %s engulfs you!
-%s überflutet Euch!
+%s überflutet dich!
 %%%%
 %s engulfs %s!
 %s überflutet {acc}%s!
@@ -8460,7 +8460,7 @@ der Schlamm
 {gen}%s Willenskraft wird abgebaut!
 %%%%
 %s drowns you
-%s ertränkt Euch
+%s ertränkt dich
 %%%%
 %s drowns %s
 %s ertränkt {acc}%s
@@ -8496,13 +8496,13 @@ Ihr stößt eine Wolke stinkenden Miasmas aus!
 %s rächst sich wütend!
 %%%%
 %s headbutts you but does no damage.
-%s versetzt Euch einen Kopfstoß, fügt aber keinen Schaden zu.
+%s versetzt dich einen Kopfstoß, fügt aber keinen Schaden zu.
 %%%%
 %s headbutts %s but does no damage.
 %s versetzt {dat}%s einen Kopfstoß, fügt aber keinen Schaden zu.
 %%%%
 You furiously retaliate!
-Ihr rächt Euch wütend!
+Ihr rächt dich wütend!
 %%%%
 You headbutt %s but do no damage.
 Ihr versetzt {dat}%s einen Kopfstoß, fügt aber keinen Schaden zu.
@@ -8599,7 +8599,7 @@ Something appears at your feet!
 Etwas erscheint zu deinen Füßen!
 %%%%
 Something appears before you!
-Etwas erscheint vor Euch!
+Etwas erscheint vor dir!
 %%%%
 Nothing appears to happen.
 Nichts scheint zu passieren.
@@ -8671,7 +8671,7 @@ You feel your magic capacity decrease.
 Ihr fühlt, dass deine magische Kapazität abnimmt.
 %%%%
 You feel momentarily disoriented.
-Ihr fühlt Euch momentan desorientiert.
+Ihr fühlt dich momentan desorientiert.
 %%%%
 You detect nothing.
 Ihr entdeckt nichts.
@@ -8683,7 +8683,7 @@ You attempt to give life to the dead...
 Ihr versucht, den Toten Leben zu geben...
 %%%%
 You cannot move.
-Ihr könnt Euch nicht bewegen.
+Ihr könnt dich nicht bewegen.
 %%%%
 You die...
 Ihr sterbt...
@@ -8698,19 +8698,19 @@ Your reserves of magic are already full.
 Deine magischen Reserven sind bereits voll.
 %%%%
 You feel better.
-Ihr fühlt Euch besser.
+Ihr fühlt dich besser.
 %%%%
 You feel your power returning.
 Ihr fühlt, dass deine Kraft zurückkehrt.
 %%%%
 You feel momentarily drained.
-Ihr fühlt Euch kurzzeitig ausgezehrt.
+Ihr fühlt dich kurzzeitig ausgezehrt.
 %%%%
 You suddenly feel drained of magical energy!
-Ihr fühlt Euch plötzlich von magischer Energie ausgezehrt!
+Ihr fühlt dich plötzlich von magischer Energie ausgezehrt!
 %%%%
 Your god isn't willing to do this for you now.
-Dein Gott ist nicht bereit, das jetzt für Euch zu tun.
+Dein Gott ist nicht bereit, das jetzt für dich zu tun.
 %%%%
 
 ##################
@@ -8718,10 +8718,10 @@ Dein Gott ist nicht bereit, das jetzt für Euch zu tun.
 ##################
 %%%%
 Your stasis prevents you from teleporting.
-Deine Stase hindert Euch daran, Euch zu teleportieren.
+Deine Stase hindert dich daran, dich zu teleportieren.
 %%%%
 You spin around.
-Ihr dreht Euch um.
+Ihr dreht dich um.
 %%%%
 You swap places with %s.
 Ihr tauscht Plätze mit%s.
@@ -8872,7 +8872,7 @@ You feel yourself growing ill in the presence of %s.
 Ihr spürt, wie Ihr in der Gegenwart {gen}%s krank werdet.
 %%%%
 Being near %s leaves you feeling lethargic.
-In der Nähe {acc}%s, fühlt Ihr Euch träge.
+In der Nähe {acc}%s, fühlt Ihr dich träge.
 %%%%
 %s watery aura covers %s.
 %s wässrige Aura bedeckt {acc}%s.
@@ -9009,7 +9009,7 @@ Roots burst forth from the earth!
 Wurzeln brachen aus der Erde hervor!
 %%%%
 The grasping roots grab you!
-Die greifenden Wurzeln packen Euch!
+Die greifenden Wurzeln packen dich!
 %%%%
 %s goes into a battle-frenzy!
 %s gerät in einen Kampfrausch!
@@ -9084,11 +9084,11 @@ Ihr werdet eingefroren
 %s wird eingefroren
 %%%%
 %s attempts to bespell you!
-%s versucht, Euch zu verzaubern!
+%s versucht, dich zu verzaubern!
 %%%%
 # params: 1. monster name 2. his/her/its/their
 %s draws you further into %s thrall.
-%s zieht Euch weiter in die Verzauberung.
+%s zieht dich weiter in die Verzauberung.
 %%%%
 %s radiates an aura of fear!
 %s strahlt eine Aura der Angst aus!
@@ -9145,7 +9145,7 @@ The dream sheep attempt to lull %s to sleep.
 Die Traumschafe versuchen, {acc}%s in den Schlaf zu wiegen.
 %%%%
 " You feel drowsy..."
-" Ihr fühlt Euch schläfrig..."
+" Ihr fühlt dich schläfrig..."
 %%%%
 A freezing vortex appears around %s!
 Ein Gefrierwirbel erscheint um {acc}%s herum!
@@ -9157,10 +9157,10 @@ A freezing vortex appears out of thin air!
 Ein Gefrierwirbel erscheint aus dem Nichts!
 %%%%
 The water rises up and strikes you
-Das Wasser steigt auf und schlägt Euch
+Das Wasser steigt auf und schlägt dich
 %%%%
 The water swirls and strikes you
-Das Wasser wirbelt und schlägt Euch
+Das Wasser wirbelt und schlägt dich
 %%%%
 The water rises up and strikes %s
 Das Wasser steigt auf und schlägt {acc}%s
@@ -9169,10 +9169,10 @@ The water swirls and strikes %s
 Das Wasser wirbelt und schlägt {acc}%s
 %%%%
 The air twists around and violently strikes you in flight
-Die Luft wirbelt herum und schlägt heftig auf Euch im Flug ein
+Die Luft wirbelt herum und schlägt heftig auf dich im Flug ein
 %%%%
 The air twists around and strikes you
-Die Luft wirbelt herum und schlägt heftig auf Euch ein
+Die Luft wirbelt herum und schlägt heftig auf dich ein
 %%%%
 The air twists around and strikes %s%s
 Die Luft wirbelt herum und trifft auf {acc}%s%s
@@ -9184,13 +9184,13 @@ Something tries to feed on your intellect!
 Etwas versucht sich von deinem Intellekt zu ernähren!
 %%%%
 Orcish apparitions take form around you.
-Orkische Erscheinungen nehmen um Euch herum Gestalt an.
+Orkische Erscheinungen nehmen um dich herum Gestalt an.
 %%%%
 %s is surrounded by Orcish apparitions.
 %s ist von orkischen Erscheinungen umgeben.
 %%%%
 You feel haunted.
-Ihr fühlt Euch verfolgt.
+Ihr fühlt dich verfolgt.
 %%%%
 You sense an evil presence.
 Ihr spürt eine böse Präsenz.
@@ -9232,7 +9232,7 @@ Ein elektrisches Summen erfüllt die Luft.
 %s strahlt eine Aura der Kälte aus.
 %%%%
 A wave of cold passes over you.
-Eine Kältewelle zieht über Euch.
+Eine Kältewelle zieht über dich.
 %%%%
 %s begins repelling missiles!
 %s beginnt, Geschosse abzuwehren!
@@ -9300,7 +9300,7 @@ Ihr hört eine unheimliche Melodie.
 %s scheint {acc}%s aus sich selbst heraus zu ziehen!
 %%%%
 Suddenly you stand beside yourself.
-Plötzlich steht Ihr neben Euch.
+Plötzlich steht Ihr neben dich.
 %%%%
 There is a horrible, sudden wrenching feeling in your soul!
 Es gibt ein schreckliches, plötzlich reißendes Gefühl in deiner Seele!
@@ -9317,7 +9317,7 @@ Error, exp for monster with no damage: %s
 Fehler, XP für Monster ohne Schaden: %s
 %%%%
 You feel a bit more experienced.
-Ihr fühlt Euch ein bisschen erfahrener.
+Ihr fühlt dich ein bisschen erfahrener.
 %%%%
 %s are intact enough to wear.
 %s sind intakt genug zum Tragen.
@@ -9377,7 +9377,7 @@ Lua death function for monster '%s' didn't load: %s
 Die Lua-Todesfunktion für das Monster '%s' wurde nicht geladen: %s
 %%%%
 You feel the power of %s in you as your rage grows.
-Ihr spürt {gen}%s Macht in Euch, als deine Wut wächst.
+Ihr spürt {gen}%s Macht in dir, als deine Wut wächst.
 %%%%
 The necklace of Bloodlust glows a violent red.
 Die Kette von Bloodlust leuchtet heftig rot.
@@ -9410,7 +9410,7 @@ Mit lautem Getöse wird das Tentakel in das Portal zurückgerissen!
 %s bröckelt weg.
 %%%%
 You feel a bit better.
-Ihr fühlt Euch ein bisschen besser.
+Ihr fühlt dich ein bisschen besser.
 %%%%
 %s is blown up!
 %s wird gesprengt!
@@ -9533,16 +9533,16 @@ Der Wald hört abrupt auf, sich zu bewegen.
 %s schimmert und verschwindet!
 %%%%
 Pikel's spell is broken, but his former minion can only feel hate for you!
-Pikels Bann ist gebrochen, aber sein ehemaliger Sklave kann nur noch Hass für Euch empfinden!
+Pikels Bann ist gebrochen, aber sein ehemaliger Sklave kann nur noch Hass für dich empfinden!
 %%%%
 Pikel's spell is broken, but his former minions can only feel hate for you!
-Pikels Bann ist gebrochen, aber seine ehemaligen Sklaven können nur noch Hass für Euch empfinden!
+Pikels Bann ist gebrochen, aber seine ehemaligen Sklaven können nur noch Hass für dich empfinden!
 %%%%
 With Pikel's spell broken, his former minion thanks you for its freedom.
-Da Pikels Bann gebrochen ist, dankt Euch sein ehemaliger Sklave für seine Freiheit.
+Da Pikels Bann gebrochen ist, dankt dich sein ehemaliger Sklave für seine Freiheit.
 %%%%
 With Pikel's spell broken, his former minions thank you for their freedom.
-Da Pikels Bann gebrochen ist, danken Euch seine ehemaligen Sklaven für ihre Freiheit.
+Da Pikels Bann gebrochen ist, danken dich seine ehemaligen Sklaven für ihre Freiheit.
 %%%%
 No longer under Kirke's spell, the hog returns to its human form!
 Nicht länger unter Kirkes Bann, das Schwein nimmt wieder seine menschliche Gestalt an!
@@ -9759,10 +9759,10 @@ Die Wurzeln lösen ihren Griff um {acc}%s.
 %%%%
 # it = merfolk avatar
 The pull of its song draws you forwards.
-Der Zug seines Liedes zieht Euch nach vorne.
+Der Zug seines Liedes zieht dich nach vorne.
 %%%%
 Something prevents you from swapping places with %s.
-Irgendetwas hindert Euch daran, den Platz mit {dat}%s zu tauschen.
+Irgendetwas hindert dich daran, den Platz mit {dat}%s zu tauschen.
 %%%%
 The shadowy forms in the deep grow still as others approach.
 Die Schattenformen in der Tiefe wachsen immer noch, wenn sich andere nähern.
@@ -9878,7 +9878,7 @@ mit Zauberstäben
 ##################
 %%%%
 %s feels only hate for you!
-%s empfindet nur Hass für Euch!
+%s empfindet nur Hass für dich!
 %%%%
 
 ##################
@@ -10283,7 +10283,7 @@ Der Blutfleck auf {dat}%s verschwindet!
 %s wird geheilt!
 %%%%
 Your spectral weapon shares its damage with you!
-Deine Spektralwaffe teilt ihren Schaden mit Euch!
+Deine Spektralwaffe teilt ihren Schaden mit dir!
 %%%%
 %s shares the spectral weapon's damage!
 %s teilt den Schaden der Spektralwaffe!
@@ -10324,7 +10324,7 @@ Der Spriggan fällt von seinem nun toten Reittier.
 ##################
 %%%%
 Something prevents you from swapping places.
-Etwas hindert Euch daran, Plätze zu tauschen.
+Etwas hindert dich daran, Plätze zu tauschen.
 %%%%
 You swap places.
 Ihr tauscht Plätze.
@@ -10336,34 +10336,34 @@ Ihr werdet heftig verdreht und aus dem Portal geschleudert!
 %s wird heftig verdreht und aus dem Portal geschleudert!
 %%%%
 The barbs in your skin will harm you if you move.
-Die Widerhaken in deiner Haut werden Euch verletzen, wenn Ihr Euch bewegt.
+Die Widerhaken in deiner Haut werden dich verletzen, wenn Ihr dich bewegt.
 %%%%
 " Rampaging like this could really hurt!"
 " So eine Randale könnte wirklich wehtun!"
 %%%%
 The barbed spikes dig painfully into your body as you move.
-Die Stacheln graben sich schmerzhaft in deinen Körper, wenn Ihr Euch bewegt.
+Die Stacheln graben sich schmerzhaft in deinen Körper, wenn Ihr dich bewegt.
 %%%%
 The barbed spikes snap loose.
 Die Stacheln reißen ab.
 %%%%
 Your icy armour and frozen ramparts will break if you move.
-Deine eisige Rüstung und gefrorenen Wälle werden brechen, wenn Ihr Euch bewegt.
+Deine eisige Rüstung und gefrorenen Wälle werden brechen, wenn Ihr dich bewegt.
 %%%%
 Your icy armour will break if you move.
-Deine eisige Rüstung werden brechen, wenn Ihr Euch bewegt.
+Deine eisige Rüstung werden brechen, wenn Ihr dich bewegt.
 %%%%
 Your frozen ramparts will break if you move.
-Deine gefrorenen Wälle werden brechen, wenn Ihr Euch bewegt.
+Deine gefrorenen Wälle werden brechen, wenn Ihr dich bewegt.
 %%%%
 Your icy armour cracks and falls away as you move.
-Deine eisige Rüstung knackt und fällt weg, als Ihr Euch bewegt.
+Deine eisige Rüstung knackt und fällt weg, als Ihr dich bewegt.
 %%%%
 The frozen ramparts melt away as you move.
-Die gefrorenen Wälle schmelzen, als Ihr Euch bewegt.
+Die gefrorenen Wälle schmelzen, als Ihr dich bewegt.
 %%%%
 You slip free of %s engulfing you.
-Ihr befreit Euch von {dat}%s, das Euch verschlingt.
+Ihr befreit dich von {dat}%s, das dich verschlingt.
 %%%%
 Are you sure you want to swing wildly while confused and next to %s%s?
 Seid Ihr sicher, dass Ihr wild herumschwingen wollt, während Ihr verwirrt seid und neben %s%s?
@@ -10411,13 +10411,13 @@ If you enter this portal you might not be able to return immediately. Continue?
 Wenn Ihr dieses Portal betretet, könnt Ihr möglicherweise nicht sofort zurückkehren. Weitermachen?
 %%%%
 Are you sure you wish to approach this portal? There's no telling what its forces would wreak upon your fragile self.
-Seid Ihr sicher, dass Ihr Euch an dieses Portal wenden möchtet? Man kann nicht sagen, was seine Kräfte mit deinem zerbrechlichen Selbst anstellen würden.
+Seid Ihr sicher, dass Ihr dich an dieses Portal wenden möchtet? Man kann nicht sagen, was seine Kräfte mit deinem zerbrechlichen Selbst anstellen würden.
 %%%%
 You can't repeat rampage.
 Ihr könnt Randale nicht wiederholen.
 %%%%
 Something unexpectedly blocked you, preventing you from rampaging!
-Etwas hat Euch unerwartet blockiert und Euch daran gehindert, zu randalieren!
+Etwas hat dich unerwartet blockiert und dich daran gehindert, zu randalieren!
 %%%%
 # note: through the fungus or through the plants
 You stride quickly through %s towards %s!
@@ -10436,10 +10436,10 @@ You rampage towards %s!
 Ihr randaliert auf {acc}%s zu!
 %%%%
 You cannot move. (Use ctrl+direction or * direction to attack without moving.)
-Ihr könnt Euch nicht bewegen. (Strg+Richtung oder * Richtung verwenden, um ohne Bewegung anzugreifen).
+Ihr könnt dich nicht bewegen. (Strg+Richtung oder * Richtung verwenden, um ohne Bewegung anzugreifen).
 %%%%
 You're too confused to move!
-Ihr seid zu verwirrt, um Euch zu bewegen!
+Ihr seid zu verwirrt, um dich zu bewegen!
 %%%%
 Your mandibles retract as you bump into %s.
 Deine Mandibeln ziehen sich zurück, als Ihr an {acc}%s stößt.
@@ -10460,10 +10460,10 @@ You can't dig through that.
 Das könnt Ihr nicht durchgraben.
 %%%%
 %s refuses to make way for you. (Use ctrl+direction or * direction to attack.)
-%s weigert sich, Euch Platz zu machen. (Strg+Richtung oder * Richtung verwenden, um zu angreifen.)
+%s weigert sich, dich Platz zu machen. (Strg+Richtung oder * Richtung verwenden, um zu angreifen.)
 %%%%
 You're too terrified to move while being watched!
-Ihr seid zu verängstigt, um Euch zu bewegen, während Ihr beobachtet werdet!
+Ihr seid zu verängstigt, um dich zu bewegen, während Ihr beobachtet werdet!
 %%%%
 You nearly stumble into %s!
 Ihr stolpert fast in {acc}%s!
@@ -10555,7 +10555,7 @@ Transient mutations.
 Flüchtige Mutationen.
 %%%%
 You feel odd for a moment.
-Ihr fühlt Euch für einen Moment seltsam.
+Ihr fühlt dich für einen Moment seltsam.
 %%%%
 %s protects your body from mutation!
 %s schützt deinen Körper vor Mutation!
@@ -10570,13 +10570,13 @@ You feel %s.
 Ihr fühlt %s.
 %%%%
 You feel rather odd for a moment.
-Ihr fühlt Euch für einen Moment ziemlich seltsam.
+Ihr fühlt dich für einen Moment ziemlich seltsam.
 %%%%
 You feel the corruption within you wane completely.
-Ihr fühlt, dass die Korruption in Euch völlig nachlässt.
+Ihr fühlt, dass die Korruption in dir völlig nachlässt.
 %%%%
 You feel the corruption within you wane somewhat.
-Ihr fühlt, dass die Korruption in Euch etwas nachlässt.
+Ihr fühlt, dass die Korruption in dir etwas nachlässt.
 %%%%
 A demonic guardian appears!
 Ein dämonischer Wächter erscheint!
@@ -10689,10 +10689,10 @@ You shrug off the wave.
 Ihr schüttelt die Welle ab.
 %%%%
 The steam scalds you terribly!
-Der Dampf verbrüht Euch schrecklich!
+Der Dampf verbrüht dich schrecklich!
 %%%%
 The fire burns you terribly!
-Das Feuer verbrennt Euch schrecklich!
+Das Feuer verbrennt dich schrecklich!
 %%%%
 You feel a terrible chill!
 Ihr fühlt eine schreckliche Kälte!
@@ -10701,10 +10701,10 @@ You feel a painful chill!
 Ihr fühlt eine schmerzhafte Kälte!
 %%%%
 The lava burns you terribly!
-Die Lava verbrennt Euch schrecklich!
+Die Lava verbrennt dich schrecklich!
 %%%%
 You writhe in agony!
-Ihr krümmt Euch in Qual!
+Ihr krümmt dich in Qual!
 %%%%
 The flames go out!
 Die Flammen verlöschen!
@@ -10713,19 +10713,19 @@ You are now level %d!
 Ihr seid jetzt auf Stufe %d!
 %%%%
 You feel drained.
-Ihr fühlt Euch ausgezehrt.
+Ihr fühlt dich ausgezehrt.
 %%%%
 %s scurries out from under your cloak.
 %s krabbelt unter deinem Mantel hervor.
 %%%%
 A shower of butterflies erupts from you!
-Ein Schauer von Schmetterlingen bricht von Euch aus!
+Ein Schauer von Schmetterlingen bricht von dir aus!
 %%%%
 You shudder from the blow and a flood of jellies pours out from you!
-Ihr zittert vor dem Schlag und eine Flut von Gelees strömt aus Euch heraus!
+Ihr zittert vor dem Schlag und eine Flut von Gelees strömt aus dich heraus!
 %%%%
 You shudder from the blast and a flood of jellies pours out from you!
-Ihr zittert vor dem Stoß und eine Flut von Gelees strömt aus Euch heraus!
+Ihr zittert vor dem Stoß und eine Flut von Gelees strömt aus dich heraus!
 %%%%
 You shudder from the blow and a jelly pops out!
 Ihr zittert vor dem Schlag und ein Gelee springt heraus!
@@ -10734,7 +10734,7 @@ You shudder from the blast and a jelly pops out!
 Ihr zittert vor dem Stoß und ein Gelee springt heraus!
 %%%%
 You focus on the pain.
-Ihr konzentriert Euch auf den Schmerz.
+Ihr konzentriert dich auf den Schmerz.
 %%%%
 You emit a cloud of dark smoke.
 Ihr stoßt eine dunkle Rauchwolke aus.
@@ -10752,13 +10752,13 @@ Your shape twists and changes as you die.
 Deine Form dreht sich und verändert sich, als Ihr sterbt.
 %%%%
 You feel threatened and lose the ability to read scrolls!
-Ihr fühlt Euch bedroht und verliert die Fähigkeit, Schriftrollen zu lesen!
+Ihr fühlt dich bedroht und verliert die Fähigkeit, Schriftrollen zu lesen!
 %%%%
 You feel threatened and lose the ability to drink potions!
-Ihr fühlt Euch bedroht und verliert die Fähigkeit, Tränke zu trinken!
+Ihr fühlt dich bedroht und verliert die Fähigkeit, Tränke zu trinken!
 %%%%
 %s protects you from harm!
-%s schützt Euch vor Schaden!
+%s schützt dich vor Schaden!
 %%%%
 Ouch! That really hurt!
 Autsch! Das hat wirklich wehgetan!
@@ -10786,7 +10786,7 @@ Runde:
 ##################
 %%%%
 That's too large and heavy for you to wield.
-Das ist zu groß und zu schwer für Euch.
+Das ist zu groß und zu schwer für dich.
 %%%%
 You can't wield armour.
 Rüstung kann nicht handgehabt werden.
@@ -10801,7 +10801,7 @@ You can't use weapons in this form.
 In dieser Form könnt Ihr keine Waffen benutzen.
 %%%%
 That's too large for you to wield.
-Das ist zu groß für Euch, um es zu führen.
+Das ist zu groß für dich, um es zu führen.
 %%%%
 Nothing wielded
 Nichts gehandhabt
@@ -10813,10 +10813,10 @@ Tentacles
 Tentakel
 %%%%
 Your unstable footing causes you to fumble your attack.
-Dein instabiler Stand lässt Euch deinen Angriff fummeln.
+Dein instabiler Stand lässt dich deinen Angriff fummeln.
 %%%%
 %s forces you to slow down.
-%s zwingt Euch dazu, langsamer zu werden.
+%s zwingt dich dazu, langsamer zu werden.
 %%%%
 A red film seems to cover your vision as you go berserk!
 Ein roter Film scheint deine Vision zu verdecken, als Ihr wütend werdet!
@@ -10825,16 +10825,16 @@ Your finesse ends abruptly.
 Deine Finesse endet abrupt.
 %%%%
 You feel yourself moving faster!
-Ihr fühlt Euch schneller!
+Ihr fühlt dich schneller!
 %%%%
 You feel mighty!
-Ihr fühlt Euch mächtig!
+Ihr fühlt dich mächtig!
 %%%%
 You're already berserk!
 Ihr berserkt schon!
 %%%%
 You're still recovering from your berserk rage.
-Ihr erholt Euch immer noch von eurer Berserkerwut.
+Ihr erholt dich immer noch von eurer Berserkerwut.
 %%%%
 You can't enter a blood rage from death's door.
 Von der Tür des Todes aus kann man nicht in einen Blutrausch geraten.
@@ -10863,19 +10863,19 @@ Ihr werdet aus {dat}%s gestoßen.
 ##################
 %%%%
 You feel rather light.
-Ihr fühlt Euch ziemlich leicht.
+Ihr fühlt dich ziemlich leicht.
 %%%%
 You feel a build-up of mutagenic energy.
 Ihr fühlt einen Aufbau mutagener Energie.
 %%%%
 You feel ready to rampage towards enemies.
-Ihr fühlt Euch bereit, auf deine Feinde zu randalieren.
+Ihr fühlt dich bereit, auf deine Feinde zu randalieren.
 %%%%
 You feel strangely lacking in power.
-Ihr fühlt Euch seltsamerweise kraftlos.
+Ihr fühlt dich seltsamerweise kraftlos.
 %%%%
 You feel powerful.
-Ihr fühlt Euch mächtig.
+Ihr fühlt dich mächtig.
 %%%%
 %s crumbles to dust!
 %s zerfällt zu Staub!
@@ -10884,10 +10884,10 @@ Mutagenic energies flood into your body!
 Mutagene Energien fluten in deinen Körper!
 %%%%
 You no longer feel able to rampage towards enemies.
-Ihr fühlt Euch nicht mehr in der Lage, auf deine Feinde zu randalieren.
+Ihr fühlt dich nicht mehr in der Lage, auf deine Feinde zu randalieren.
 %%%%
 You feel strangely numb.
-Ihr fühlt Euch seltsam betäubt.
+Ihr fühlt dich seltsam betäubt.
 %%%%
 You really shouldn't be using a holy item like this.
 Ihr sollt wirklich keinen heiligen Gegenstand wie diesen benutzen.
@@ -10965,10 +10965,10 @@ You feel a force failing to suppress your magic.
 Ihr spürt eine Kraft, die scheitert, deine Magie unterzudrücken.
 %%%%
 You feel magic leave you.
-Ihr fühlt, wie Magie Euch verlässt.
+Ihr fühlt, wie Magie dich verlässt.
 %%%%
 Space warps around you for a moment!
-Der Raum verzieht sich für einen Moment um Euch!
+Der Raum verzieht sich für einen Moment um dich!
 %%%%
 %s begins to ooze corrosive slime!
 %s beginnt ätzenden Schleim zu sickern!
@@ -10995,7 +10995,7 @@ You feel the dreadful sensation subside.
 Ihr fühlt, wie das schreckliche Gefühl nachlässt.
 %%%%
 You feel magic returning to you.
-Ihr fühlt, wie Magie zu Euch zurückkehrt.
+Ihr fühlt, wie Magie zu dir zurückkehrt.
 %%%%
 Your spectral weapon disappears as your weapon melds.
 Deine Spektralwaffe verschwindet, als eure Waffe verschmilzt.
@@ -11010,34 +11010,34 @@ You feel the presence of a powerless spirit.
 Ihr fühlt die Gegenwart eines machtlosen Geistes.
 %%%%
 You feel spirits watching over you.
-Ihr fühlt Geister, die über Euch wachen.
+Ihr fühlt Geister, die über dich wachen.
 %%%%
 You feel resistant to fire.
-Ihr fühlt Euch feuerresistent.
+Ihr fühlt dich feuerresistent.
 %%%%
 You feel resistant to poison.
-Ihr fühlt Euch resistent gegen Gift.
+Ihr fühlt dich resistent gegen Gift.
 %%%%
 You feel perceptive.
-Ihr fühlt Euch scharfsinnig.
+Ihr fühlt dich scharfsinnig.
 %%%%
 You become transparent for a moment.
 Ihr werdet für einen Moment transparent.
 %%%%
 You feel rather ponderous.
-Ihr fühlt Euch ziemlich schwerfällig.
+Ihr fühlt dich ziemlich schwerfällig.
 %%%%
 You feel protected.
-Ihr fühlt Euch beschützt.
+Ihr fühlt dich beschützt.
 %%%%
 You feel stealthy.
-Ihr fühlt Euch verstohlen.
+Ihr fühlt dich verstohlen.
 %%%%
 You feel resistant to extremes of temperature.
-Ihr fühlt Euch widerstandsfähig gegen extreme Temperaturen.
+Ihr fühlt dich widerstandsfähig gegen extreme Temperaturen.
 %%%%
 You feel more protected from negative energy.
-Ihr fühlt Euch besser vor negativer Energie geschützt.
+Ihr fühlt dich besser vor negativer Energie geschützt.
 %%%%
 You feel that your aim is more steady.
 Ihr fühlt, dass dein Zielen genauer ist.
@@ -11049,34 +11049,34 @@ It gets dark.
 Es wird dunkel.
 %%%%
 You feel less resistant to fire.
-Ihr fühlt Euch weniger feuerbeständig.
+Ihr fühlt dich weniger feuerbeständig.
 %%%%
 You feel less resistant to cold.
-Ihr fühlt Euch weniger kältebeständig.
+Ihr fühlt dich weniger kältebeständig.
 %%%%
 You no longer feel resistant to poison.
-Ihr fühlt Euch nicht länger resistent gegen Gift.
+Ihr fühlt dich nicht länger resistent gegen Gift.
 %%%%
 You feel less perceptive.
-Ihr fühlt Euch weniger scharfsinnig.
+Ihr fühlt dich weniger scharfsinnig.
 %%%%
 That put a bit of spring back into your step.
-Das hat Euch wieder ein bisschen Schwung gegeben.
+Das hat dich wieder ein bisschen Schwung gegeben.
 %%%%
 That put a bit of spring back into your slither.
-Das hat Euch wieder ein bisschen Schwung gegeben.
+Das hat dich wieder ein bisschen Schwung gegeben.
 %%%%
 You feel less protected.
-Ihr fühlt Euch weniger beschützt.
+Ihr fühlt dich weniger beschützt.
 %%%%
 You feel hot and cold all over.
-Ihr fühlt Euch überall heiß und kalt an.
+Ihr fühlt dich überall heiß und kalt an.
 %%%%
 You feel less protected from negative energy.
-Ihr fühlt Euch weniger vor negativer Energie geschützt.
+Ihr fühlt dich weniger vor negativer Energie geschützt.
 %%%%
 You feel strangely alone.
-Ihr fühlt Euch seltsam allein.
+Ihr fühlt dich seltsam allein.
 %%%%
 Your magic begins regenerating once more.
 Deine Magie beginnt sich wieder zu regenerieren.
@@ -11091,10 +11091,10 @@ The dungeon's light returns to normal.
 Das Licht im Dungeon wird wieder normal.
 %%%%
 %s seems less interested in you.
-%s scheint weniger an Euch interessiert zu sein.
+%s scheint weniger an dich interessiert zu sein.
 %%%%
 You feel less pious.
-Ihr fühlt Euch weniger fromm.
+Ihr fühlt dich weniger fromm.
 %%%%
 %s feel cold and inert.
 %s fühlen sich kalt und träge an.
@@ -11121,13 +11121,13 @@ The amulet cannot attune itself to your exhausted body.
 Das Amulett kann sich nicht auf deinen erschöpften Körper einstellen.
 %%%%
 You feel a shielding aura gather around you.
-Ihr fühlt, wie sich eine schützende Aura um Euch sammelt.
+Ihr fühlt, wie sich eine schützende Aura um dich sammelt.
 %%%%
 You feel more attuned to fire.
-Ihr fühlt Euch mehr auf Feuer eingestellt.
+Ihr fühlt dich mehr auf Feuer eingestellt.
 %%%%
 You feel more attuned to ice.
-Ihr fühlt Euch mehr auf Eis eingestellt.
+Ihr fühlt dich mehr auf Eis eingestellt.
 %%%%
 You repel a surge of foreign magic.
 Ihr wehrt eine Welle fremder Magie ab.
@@ -11151,7 +11151,7 @@ You feel a surge of divine interest.
 Ihr spürt einen Anflug göttlichen Interesses.
 %%%%
 You feel ready to tumble and roll out of harm's way.
-Ihr fühlt Euch bereit aus dem Weg zu springen und rollen.
+Ihr fühlt dich bereit aus dem Weg zu springen und rollen.
 %%%%
 %s absorbs the residual spatial distortion as you rebrand your weapon.
 s absorbiert die restliche räumliche Verzerrung, als Ihr deine Waffe neu markiert.
@@ -11160,7 +11160,7 @@ s absorbiert die restliche räumliche Verzerrung, als Ihr deine Waffe neu markie
 %s absorbiert die restliche räumliche Verzerrung, als Ihr deine Waffe wegsteckt.
 %%%%
 Space warps into you!
-Der Raum verzieht sich in Euch!
+Der Raum verzieht sich in dich!
 %%%%
 
 ##################
@@ -11172,16 +11172,16 @@ Vorsicht! %s
 %%%%
 # note: Petrification ends: Player reverts to flesh or equivalent.
 You turn to %s and can move again.
-Ihr werdet zu {dat}%s und kannst Euch wieder bewegen.
+Ihr werdet zu {dat}%s und kannst dich wieder bewegen.
 %%%%
 Your limbs are stiffening.
 Deine Glieder versteifen sich.
 %%%%
 You feel less attractive to monsters.
-Ihr fühlt Euch weniger attraktiv für Monster.
+Ihr fühlt dich weniger attraktiv für Monster.
 %%%%
 You can move again.
-Ihr könnt Euch wieder bewegen.
+Ihr könnt dich wieder bewegen.
 %%%%
 The heat melts your icy armour.
 Die Hitze schmilzt deine eisige Rüstung.
@@ -11193,10 +11193,10 @@ You reel with horror at the sight of these foes!
 Ihr taumelt vor Entsetzen beim Anblick dieser Feinde!
 %%%%
 You feel a twist of horror at the sight of this foe.
-Beim Anblick dieses Feindes überkommt Euch ein Gefühl des Grauens.
+Beim Anblick dieses Feindes überkommt dich ein Gefühl des Grauens.
 %%%%
 The grasping roots release their grip on you.
-Die greifenden Wurzeln lösen ihren Griff um Euch.
+Die greifenden Wurzeln lösen ihren Griff um dich.
 %%%%
 Your recitation is interrupted.
 Deine Rezitation wird unterbrochen.
@@ -11214,22 +11214,22 @@ Your transformation is almost over.
 Ihre Verwandlung ist fast beendet.
 %%%%
 You start to feel a little slower.
-Ihr fühlt Euch ein wenig langsamer.
+Ihr fühlt dich ein wenig langsamer.
 %%%%
 You no longer feel sluggish.
-Ihr fühlt Euch nicht mehr träge.
+Ihr fühlt dich nicht mehr träge.
 %%%%
 You start to feel a little faster.
-Ihr fühlt Euch ein wenig schneller.
+Ihr fühlt dich ein wenig schneller.
 %%%%
 %s has recovered.
 %s hat sich wieder erholt.
 %%%%
 You feel yourself speed up.
-Ihr fühlt Euch schneller.
+Ihr fühlt dich schneller.
 %%%%
 The winds around you start to calm down.
-Die Winde um Euch herum beginnen sich zu beruhigen.
+Die Winde um dich herum beginnen sich zu beruhigen.
 %%%%
 You are starting to lose your buoyancy.
 Ihr beginnt, euren Auftrieb zu verlieren.
@@ -11238,7 +11238,7 @@ Your trail of clouds dissipates.
 Deine Wolkenspur löst sich auf.
 %%%%
 You rip and tear the barbed spikes from your body.
-Ihr reißt Euch die Stacheln von deinem Körper.
+Ihr reißt dich die Stacheln von deinem Körper.
 %%%%
 You carefully extract the barbed spikes from your body.
 Ihr zieht die Stacheln vorsichtig aus deinem Körper.
@@ -11247,10 +11247,10 @@ You float gracefully downwards.
 Ihr schwebt anmutig nach unten.
 %%%%
 %s attune themselves to your body as you begin to regenerate more quickly.
-%s stellen sich auf deinen Körper ein, und Ihr beginnt, Euch schneller zu regenerieren.
+%s stellen sich auf deinen Körper ein, und Ihr beginnt, dich schneller zu regenerieren.
 %%%%
 %s attunes itself to your body as you begin to regenerate more quickly.
-%s stellt sich auf deinen Körper ein, und Ihr beginnt, Euch schneller zu regenerieren.
+%s stellt sich auf deinen Körper ein, und Ihr beginnt, dich schneller zu regenerieren.
 %%%%
 Your amulet attunes itself to your body and you begin to regenerate magic more quickly.
 Dein Amulett stellt sich auf deinen Körper ein und Ihr beginnt, deine Magie schneller zu regenerieren.
@@ -11259,7 +11259,7 @@ You %s as the wereblood boils in your veins!
 Ihr %s als das Werblut in euren Adern kocht!
 %%%%
 You feel strangely unstable.
-Ihr fühlt Euch seltsam instabil.
+Ihr fühlt dich seltsam instabil.
 %%%%
 
 ##################
@@ -11315,7 +11315,7 @@ stupid
 dumm
 %%%%
 Your divine stamina protects you from %s loss.
-Deine göttliche Ausdauer schützt Euch vor dem Verlust von {dat}%s.
+Deine göttliche Ausdauer schützt dich vor dem Verlust von {dat}%s.
 %%%%
 You feel %s returning.
 Ihr spürt, wie %s zurückkehrt.
@@ -11386,13 +11386,13 @@ Es ist unklug, darauf einzugehen.
 %s wird umschlungen!
 %%%%
 %s cannot move out of your way!
-%s kann Euch nicht aus dem Weg gehen!
+%s kann dich nicht aus dem Weg gehen!
 %%%%
 Do you really want to swap %s into the Zot trap?
 Wollt Ihr wirklich {acc}%s in die Zot-Falle austauschen?
 %%%%
 %s cannot make way for you.
-%s kann Euch nicht Platz machen.
+%s kann dich nicht Platz machen.
 %%%%
 Floosh!
 Husch!
@@ -11488,7 +11488,7 @@ You learn %s much slower.
 Ihr lernt {acc}%s viel langsamer.
 %%%%
 You feel monstrous as your demonic heritage exerts itself.
-Ihr fühlt Euch monströs, als dein dämonisches Erbe zum Tragen kommt.
+Ihr fühlt dich monströs, als dein dämonisches Erbe zum Tragen kommt.
 %%%%
 Your demonic ancestry asserts itself...
 Deine dämonische Abstammung setzt sich durch...
@@ -11542,7 +11542,7 @@ You are illuminated by a small divine halo.
 Ihr werdet von einem kleinen göttlichen Heiligenschein beleuchtet.
 %%%%
 An external divine halo illuminates you.
-Ein äußerer göttlicher Heiligenschein erleuchtet Euch.
+Ein äußerer göttlicher Heiligenschein erleuchtet dich.
 %%%%
 * * * LOW MAGIC WARNING * * *
 * * * WARNUNG: NIEDRIGE MAGIE * * *
@@ -11593,10 +11593,10 @@ You fade completely from view now that you are no longer glowing from magical co
 Ihr verschwindet völlig aus dem Blickfeld, da Ihr nun nicht mehr durch magische Verseuchung glüht.
 %%%%
 You feel momentarily confused.
-Ihr fühlt Euch momentan verwirrt.
+Ihr fühlt dich momentan verwirrt.
 %%%%
 Your divine stamina protects you from confusion!
-Deine göttliche Ausdauer schützt Euch vor Verwirrung!
+Deine göttliche Ausdauer schützt dich vor Verwirrung!
 %%%%
 You are more confused.
 Ihr seid mehr verwirrt.
@@ -11611,19 +11611,19 @@ You are poisoned.
 Ihr seid vergiftet.
 %%%%
 You feel extremely sick.
-Ihr fühlt Euch extrem krank.
+Ihr fühlt dich extrem krank.
 %%%%
 You feel very sick.
-Ihr fühlt Euch sehr krank.
+Ihr fühlt dich sehr krank.
 %%%%
 You feel sick.
-Ihr fühlt Euch krank.
+Ihr fühlt dich krank.
 %%%%
 You are no longer poisoned.
 Ihr seid nicht länger vergiftet.
 %%%%
 Your divine stamina protects you from the miasma!
-Deine göttliche Ausdauer schützt Euch vor dem Miasma!
+Deine göttliche Ausdauer schützt dich vor dem Miasma!
 %%%%
 You are covered in liquid flames!
 Ihr seid in flüssigen Flammen bedeckt!
@@ -11638,13 +11638,13 @@ You already are as slow as you could be.
 Ihr seid schon so langsam wie Ihr sein könntet.
 %%%%
 You feel yourself slow down.
-Ihr fühlt Euch langsamer.
+Ihr fühlt dich langsamer.
 %%%%
 You feel as though you will be slow longer.
 Ihr habt das Gefühl, dass Ihr länger langsam sein werdet.
 %%%%
 You recover from your berserk rage.
-Ihr erholt Euch von deiner wütenden Wut.
+Ihr erholt dich von deiner wütenden Wut.
 %%%%
 Your stasis prevents you from being hasted.
 Deine Stase verhindert, dass Ihr hastig werdet.
@@ -11659,7 +11659,7 @@ Your extra speed is starting to run out.
 Deine zusätzliche Geschwindigkeit geht langsam zur Neige.
 %%%%
 You feel less invigorated.
-Ihr fühlt Euch weniger belebt.
+Ihr fühlt dich weniger belebt.
 %%%%
 The frozen ramparts melt away.
 Die gefrorenen Wälle schmelzen weg.
@@ -11674,13 +11674,13 @@ Your weapon shines too brightly to become invisible.
 Deine Waffe leuchtet zu hell, um unsichtbar zu werden.
 %%%%
 Invisibility will do you no good right now.
-Unsichtbarkeit nützt Euch im Moment nichts.
+Unsichtbarkeit nützt dich im Moment nichts.
 %%%%
 Invisibility will do you no good right now; use anyway?
-Unsichtbarkeit nützt Euch im Moment nichts; verwenden trotzdem?
+Unsichtbarkeit nützt dich im Moment nichts; verwenden trotzdem?
 %%%%
 Your roots keep you in place.
-Deine Wurzeln halten Euch an Ort und Stelle.
+Deine Wurzeln halten dich an Ort und Stelle.
 %%%%
 You can't fly in this form.
 In dieser Form könnt Ihr nicht fliegen.
@@ -11695,10 +11695,10 @@ You fly up into the air.
 Ihr fliegt in die Luft.
 %%%%
 You feel very buoyant.
-Ihr fühlt Euch sehr leichtgewichtig.
+Ihr fühlt dich sehr leichtgewichtig.
 %%%%
 You feel more buoyant.
-Ihr fühlt Euch mehr leichtgewichtig.
+Ihr fühlt dich mehr leichtgewichtig.
 %%%%
 You can't survive in this terrain!
 In diesem Terrain könnt Ihr nicht überleben!
@@ -11710,7 +11710,7 @@ You fly above the deep water, but the process is very draining.
 Ihr fliegt über das tiefe Wasser, aber der Prozess ist sehr zehrend.
 %%%%
 %s engulfing you falls away.
-%s fällt von Euch weg.
+%s fällt von dir weg.
 %%%%
 You gasp with relief as air once again reaches your lungs.
 Ihr keucht erleichtert, als Luft wieder deine Lunge erreicht.
@@ -11755,10 +11755,10 @@ You cannot blink.
 Ihr könnt nicht blinzeln.
 %%%%
 You cannot teleport.
-Ihr könnt Euch nicht teleportieren.
+Ihr könnt dich nicht teleportieren.
 %%%%
 %s corrodes you!
-%s zersetzt Euch!
+%s zersetzt dich!
 %%%%
 You are splashed with acid
 Ihr werdet mit Säure bespritzt
@@ -11773,10 +11773,10 @@ You shrug off the repeated paralysis!
 Ihr schüttelt die wiederholte Paralyse ab!
 %%%%
 You suddenly lose the ability to move!
-Ihr verliert plötzlich die Fähigkeit Euch zu bewegen!
+Ihr verliert plötzlich die Fähigkeit dich zu bewegen!
 %%%%
 Your divine stamina protects you from petrification!
-Deine göttliche Ausdauer schützt Euch vor Versteinerung!
+Deine göttliche Ausdauer schützt dich vor Versteinerung!
 %%%%
 Your limbs have turned to stone.
 Deine Glieder sind zu Stein geworden.
@@ -11788,10 +11788,10 @@ You have turned to stone.
 Ihr seid zu Stein geworden.
 %%%%
 Your divine stamina protects you from disease!
-Deine göttliche Ausdauer schützt Euch vor Krankheiten!
+Deine göttliche Ausdauer schützt dich vor Krankheiten!
 %%%%
 You feel ill.
-Ihr fühlt Euch krank.
+Ihr fühlt dich krank.
 %%%%
 You glow brighter.
 Ihr leuchtet heller.
@@ -11800,7 +11800,7 @@ You are outlined in light.
 Ihr seid im Licht umrissen.
 %%%%
 You feel strangely conspicuous.
-Ihr fühlt Euch seltsam auffällig.
+Ihr fühlt dich seltsam auffällig.
 %%%%
 You can't fall asleep again this soon!
 Ihr könnt so bald nicht wieder einschlafen!
@@ -11815,19 +11815,19 @@ You wake up.
 Ihr wacht auf.
 %%%%
 You can't shaft yourself while held in a net.
-Ihr könnt Euch nicht schächten, solange Ihr in einem Netz gefangen seid.
+Ihr könnt dich nicht schächten, solange Ihr in einem Netz gefangen seid.
 %%%%
 You can't shaft yourself while caught in a web.
-Ihr könnt Euch nicht schächten, solange Ihr in einem Gewebe gefangen seid.
+Ihr könnt dich nicht schächten, solange Ihr in einem Gewebe gefangen seid.
 %%%%
 You can't shaft yourself on this level.
-Ihr könnt Euch auf dieser Ebene nicht bewegen.
+Ihr könnt dich auf dieser Ebene nicht bewegen.
 %%%%
 You can't shaft yourself on this terrain.
 Ihr könnt in diesem Terrain einen Schacht nicht machen.
 %%%%
 A shaft appears beneath you!
-Ein Schacht erscheint unter Euch!
+Ein Schacht erscheint unter dir!
 %%%%
 the roots'
 der Wurzeln
@@ -11838,13 +11838,13 @@ Ihr entkommt dem Griff {gen}%s.
 %%%%
 # note: <The monster's> grasp...
 %s grasp on you weakens, but your attempt to escape fails.
-Der Griff {gen}%s um Euch wird schwächer, aber dein Versuch zu entkommen scheitert.
+Der Griff {gen}%s um dich wird schwächer, aber dein Versuch zu entkommen scheitert.
 %%%%
 The mark upon you grows brighter.
-Das Mal auf Euch wird heller.
+Das Mal auf dir wird heller.
 %%%%
 A sentinel's mark forms upon you.
-Das Mal einer Wache bildet sich auf Euch.
+Das Mal einer Wache bildet sich auf dir.
 %%%%
 You feel your attacks grow feeble.
 Ihr fühlt, wie deine Angriffe schwach werden.
@@ -11952,10 +11952,10 @@ Your weapon exudes an aura of protection.
 Deine Waffe strahlt eine Aura des Schutzes aus.
 %%%%
 You feel agile all of a sudden.
-Ihr fühlt Euch plötzlich agil.
+Ihr fühlt dich plötzlich agil.
 %%%%
 You feel more agile all of a sudden.
-Ihr fühlt Euch plötzlich mehr agil.
+Ihr fühlt dich plötzlich mehr agil.
 %%%%
 
 ##################
@@ -11969,7 +11969,7 @@ You have no ailments to cure.
 Ihr habt keine Erkrankungen zu heilen.
 %%%%
 You feel queasy.
-Ihr fühlt Euch mulmig.
+Ihr fühlt dich mulmig.
 %%%%
 That felt strangely inert.
 Das fühlte sich seltsam träge an.
@@ -11981,40 +11981,40 @@ That seemed strangely inert.
 Das schien seltsam träge.
 %%%%
 You feel much better.
-Ihr fühlt Euch viel besser.
+Ihr fühlt dich viel besser.
 %%%%
 You feel very mighty all of a sudden.
-Ihr fühlt Euch plötzlich sehr mächtig.
+Ihr fühlt dich plötzlich sehr mächtig.
 %%%%
 You feel mightier all of a sudden.
-Ihr fühlt Euch plötzlich mächtiger.
+Ihr fühlt dich plötzlich mächtiger.
 %%%%
 You feel clever all of a sudden.
-Ihr fühlt Euch plötzlich klug.
+Ihr fühlt dich plötzlich klug.
 %%%%
 You feel more clever all of a sudden.
-Ihr fühlt Euch plötzlich klüger.
+Ihr fühlt dich plötzlich klüger.
 %%%%
 You feel attractive to monsters.
-Ihr fühlt Euch anziehend für Monster.
+Ihr fühlt dich anziehend für Monster.
 %%%%
 You feel more attractive to monsters.
-Ihr fühlt Euch anziehender für Monster.
+Ihr fühlt dich anziehender für Monster.
 %%%%
 You cannot fly right now.
 Ihr könnt im Moment nicht fliegen.
 %%%%
 You feel magically purged.
-Ihr fühlt Euch magisch gereinigt.
+Ihr fühlt dich magisch gereinigt.
 %%%%
 You feel slightly less contaminated with magical energies.
-Ihr fühlt Euch etwas weniger mit magischen Energien kontaminiert.
+Ihr fühlt dich etwas weniger mit magischen Energien kontaminiert.
 %%%%
 You feel more invigorated.
-Ihr fühlt Euch belebter.
+Ihr fühlt dich belebter.
 %%%%
 You feel briefly invigorated.
-Ihr fühlt Euch kurz belebt.
+Ihr fühlt dich kurz belebt.
 %%%%
 You become transparent, but the glow from %s prevents you from becoming completely invisible.
 Ihr werdet durchsichtig, aber das Leuchten {gen}%s verhindert, dass Ihr völlig unsichtbar werdet.
@@ -12051,10 +12051,10 @@ Ihr verschwindet weiter in die Unsichtbarkeit!
 %s weiß die Erinnerungen zu schätzen.
 %%%%
 You feel more experienced!
-Ihr fühlt Euch erfahrener!
+Ihr fühlt dich erfahrener!
 %%%%
 A flood of memories washes over you.
-Eine Flut von Erinnerungen überschwemmt Euch.
+Eine Flut von Erinnerungen überschwemmt dich.
 %%%%
 Your magic is already full.
 Deine Magie ist bereits voll.
@@ -12063,13 +12063,13 @@ You have no magic to restore.
 Ihr habt keine Magie, die Ihr wiederherstellen könnt.
 %%%%
 Magic washes over you without effect.
-Die Magie überspült Euch ohne Wirkung.
+Die Magie überspült dich ohne Wirkung.
 %%%%
 Magic courses through your body.
 Magie fließt durch deinen Körper.
 %%%%
 You feel slightly irritated.
-Ihr fühlt Euch leicht irritiert.
+Ihr fühlt dich leicht irritiert.
 %%%%
 You cannot mutate.
 Ihr könnt nicht mutieren.
@@ -12081,13 +12081,13 @@ Really become a tree while standing in a cloud of %s?
 Wirklich ein Baum werden, während Ihr in einer Wolke von {dat}%s steht?
 %%%%
 You feel woody for a moment.
-Ihr fühlt Euch für einen Moment holzig.
+Ihr fühlt dich für einen Moment holzig.
 %%%%
 %s cleanses your potion of mutation!
 %s reinigt deinen Trank der Mutation!
 %%%%
 You feel extremely strange.
-Ihr fühlt Euch extrem seltsam.
+Ihr fühlt dich extrem seltsam.
 %%%%
 Really drink that potion of mutation while resistant to mutation?
 Den Mutationstrank wirklich trinken, während Ihr gegen Mutation resistent seid?
@@ -12255,7 +12255,7 @@ Leer
 "Verwirrt spalten: "
 %%%%
 You nearly hit yourself!
-Ihr habt Euch fast geschlagen!
+Ihr habt dich fast geschlagen!
 %%%%
 You're too confused to aim your attacks!
 Ihr seid zu verwirrt, um deine Angriffe zu zielen!
@@ -12466,34 +12466,34 @@ receive cadavers from Kikubaaqudgha
 Kadaver von Kikubaaqudgha erhalten
 %%%%
 Kikubaaqudgha is now protecting you from necromantic miscasts and death curses.
-Kikubaaqudgha schützt Euch jetzt vor nekromantischen Fehlzauber und Todesflüchen.
+Kikubaaqudgha schützt dich jetzt vor nekromantischen Fehlzauber und Todesflüchen.
 %%%%
 Kikubaaqudgha will no longer protect you from necromantic miscasts or death curses.
-Kikubaaqudgha schützt Euch nicht mehr vor nekromantischen Fehlzauber oder Todesflüchen.
+Kikubaaqudgha schützt dich nicht mehr vor nekromantischen Fehlzauber oder Todesflüchen.
 %%%%
 Kikubaaqudgha protects you from necromantic miscasts and death curses.
-Kikubaaqudgha schützt Euch vor nekromantischen Fehlzauber und Todesflüchen.
+Kikubaaqudgha schützt dich vor nekromantischen Fehlzauber und Todesflüchen.
 %%%%
 Kikubaaqudgha is now protecting you from unholy torment.
-Kikubaaqudgha schützt Euch jetzt vor unheiliger Qual.
+Kikubaaqudgha schützt dich jetzt vor unheiliger Qual.
 %%%%
 Kikubaaqudgha will no longer protect you from unholy torment.
-Kikubaaqudgha wird Euch nicht länger vor unheiliger Qual schützen.
+Kikubaaqudgha wird dich nicht länger vor unheiliger Qual schützen.
 %%%%
 Kikubaaqudgha protects you from unholy torment.
-Kikubaaqudgha schützt Euch vor unheiliger Qual.
+Kikubaaqudgha schützt dich vor unheiliger Qual.
 %%%%
 invoke torment by sacrificing a corpse
 Qual durch das Opfern einer Leiche heraufbeschwören
 %%%%
 Kikubaaqudgha will grant you forbidden knowledge or bloody your weapon with pain... once.
-Kikubaaqudgha wird Euch verbotenes Wissen gewähren oder deine Waffe mit Schmerzen bluten lassen... einmal.
+Kikubaaqudgha wird dich verbotenes Wissen gewähren oder deine Waffe mit Schmerzen bluten lassen... einmal.
 %%%%
 Kikubaaqudgha is no longer ready to enhance your necromancy.
 Kikubaaqudgha ist nicht mehr bereit, deine Nekromantie zu verbessern.
 %%%%
 Kikubaaqudgha will grant you forbidden knowledge.
-Kikubaaqudgha wird Euch verbotenes Wissen gewähren.
+Kikubaaqudgha wird dich verbotenes Wissen gewähren.
 %%%%
 animate remains
 Überreste beleben
@@ -12508,7 +12508,7 @@ animate legions of the dead
 Legionen von Toten beleben
 %%%%
 Yredelemnul will now gift you servants as you gain piety.
-Yredelemnul wird Euch jetzt Diener schenken, als Ihr Frömmigkeit erlangt.
+Yredelemnul wird dich jetzt Diener schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 Yredelemnul will no longer gift you servants.
 Yredelemnul wird euch keine Diener mehr schenken.
@@ -12547,13 +12547,13 @@ gain great but temporary skills
 großartige, aber vorübergehende Fähigkeiten erhalten
 %%%%
 Okawaru will now gift you ammunition as you gain piety.
-Okawaru schenkt Euch jetzt Munition, als Ihr Frömmigkeit erlangt.
+Okawaru schenkt dir jetzt Munition, als Ihr Frömmigkeit erlangt.
 %%%%
 Okawaru will no longer gift you ammunition.
-Okawaru wird Euch keine Munition mehr schenken.
+Okawaru wird dich keine Munition mehr schenken.
 %%%%
 Okawaru will gift you ammunition as you gain piety.
-Okawaru wird Euch Munition schenken, als Ihr Frömmigkeit erlangt.
+Okawaru wird dich Munition schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 speed up your combat
 Deinen Kampf beschleunigen
@@ -12562,7 +12562,7 @@ Okawaru will now gift you equipment as you gain piety.
 Okawaru schenkt euch nun Ausrüstung, als Ihr Frömmigkeit erlangt.
 %%%%
 Okawaru will no longer gift you equipment.
-Okawaru wird Euch keine Ausrüstung mehr schenken.
+Okawaru wird dich keine Ausrüstung mehr schenken.
 %%%%
 Okawaru will gift you equipment as you gain piety.
 Okawaru schenkt euch Ausrüstung, als Ihr Frömmigkeit erlangt.
@@ -12571,7 +12571,7 @@ gain health from killing
 Gesundheit durch Töten erhalten
 %%%%
 harness Makhleb's destructive might
-Euch Makhlebs zerstörerische Macht zunutze machen
+dich Makhlebs zerstörerische Macht zunutze machen
 %%%%
 summon a lesser servant of Makhleb
 einen geringeren Diener Makhlebs beschwören
@@ -12595,10 +12595,10 @@ call upon Sif Muna to cast any spell from your library
 Sif Muna anrufen, um einen beliebigen Zauber aus deiner Bibliothek zu wirken
 %%%%
 Sif Muna will now gift you books as you gain piety.
-Sif Muna wird Euch nun Bücher schenken, als Ihr Frömmigkeit erlangt.
+Sif Muna wird dich nun Bücher schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 Sif Muna will no longer gift you books.
-Sif Muna wird Euch keine Bücher mehr schenken.
+Sif Muna wird dich keine Bücher mehr schenken.
 %%%%
 Sif Muna will gift you books as you gain piety.
 Sif Muna wird euch Bücher schenken, als Ihr Frömmigkeit erlangt.
@@ -12613,13 +12613,13 @@ call in reinforcements
 Verstärkung beschwören
 %%%%
 Trog will now gift you melee weapons as you gain piety.
-Trog wird Euch jetzt Nahkampfwaffen schenken, als Ihr Frömmigkeit erlangt.
+Trog wird dich jetzt Nahkampfwaffen schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 Trog will no longer gift you weapons.
-Trog wird Euch keine Waffen mehr schenken.
+Trog wird dich keine Waffen mehr schenken.
 %%%%
 Trog will gift you melee weapons as you gain piety.
-Trog wird Euch Nahkampfwaffen schenken, als Ihr Frömmigkeit erlangt.
+Trog wird dich Nahkampfwaffen schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 draw from decks of power
 aus Decks der Macht ziehen
@@ -12631,7 +12631,7 @@ Nemelex will no longer gift you decks.
 Nemelex wird euch keine Decks mehr schenken.
 %%%%
 Nemelex will gift you decks of power as you gain piety.
-Nemelex wird Euch Decks der Macht schenken, als Ihr Frömmigkeit erlangst.
+Nemelex wird dich Decks der Macht schenken, als Ihr Frömmigkeit erlangst.
 %%%%
 choose one out of three cards
 eine von drei Karten auswählen
@@ -12646,7 +12646,7 @@ stack cards
 Karten stapeln
 %%%%
 provide lesser healing for yourself
-Euch in geringerem Maße heilen
+dich in geringerem Maße heilen
 %%%%
 heal and attempt to pacify others
 heilen und versuchen, andere zu besänftigen
@@ -12655,7 +12655,7 @@ purify yourself
 sich selbst reinigen
 %%%%
 provide greater healing for yourself
-Euch größere Heilung verschaffen
+dich größere Heilung verschaffen
 %%%%
 call upon Elyvilon for divine vigour
 Elyvilon um göttliche Vitalität anrufen
@@ -12670,7 +12670,7 @@ depart the Abyss at will
 den Abgrund nach Belieben veralassen
 %%%%
 bend space around yourself
-den Raum um Euch herum krümmen
+den Raum um dich herum krümmen
 %%%%
 banish your foes
 Deine Feinde verbannen
@@ -12715,13 +12715,13 @@ Jiyva will mutate your body and modify your attributes as you gain piety.
 Jiyva wird deinen Körper mutieren und deine Attribute verändern, als Ihr Frömmigkeit erlangt.
 %%%%
 Jiyva is now protecting you from corrosive effects.
-Jiyva schützt Euch jetzt vor korrosiven Effekten.
+Jiyva schützt dich jetzt vor korrosiven Effekten.
 %%%%
 Jiyva will no longer protect you from corrosive effects.
-Jiyva schützt Euch nicht mehr vor korrosiven Effekten.
+Jiyva schützt dich nicht mehr vor korrosiven Effekten.
 %%%%
 Jiyva protects you from corrosive effects.
-Jiyva schützt Euch vor korrosiven Effekten.
+Jiyva schützt dich vor korrosiven Effekten.
 %%%%
 turn your foes to slime
 Deine Feinde in Schleim verandeln
@@ -12739,7 +12739,7 @@ call upon Jiyva to remove your harmful mutations
 Jiyva anrufen, um deine schädlichen Mutationen zu entfernen
 %%%%
 encircle yourself with summoned briar patches
-Euch mit beschworenen Dornensträuchern umgeben
+dich mit beschworenen Dornensträuchern umgeben
 %%%%
 grow a ballistomycete
 einen Ballistomyceten züchten
@@ -12754,16 +12754,16 @@ bend time to slow others
 die Zeit verbiegen, um andere zu verlangsamen
 %%%%
 Cheibriados is now slowing the effects of poison on you.
-Cheibriados verlangsamt jetzt die Auswirkungen von Gift auf Euch.
+Cheibriados verlangsamt jetzt die Auswirkungen von Gift auf dich.
 %%%%
 Cheibriados will no longer slow the effects of poison on you.
-Cheibriados verlangsamt nicht länger die Auswirkungen von Gift auf Euch.
+Cheibriados verlangsamt nicht länger die Auswirkungen von Gift auf dich.
 %%%%
 Cheibriados slows the effects of poison on you.
-Cheibriados verlangsamt die Auswirkungen von Gift auf Euch.
+Cheibriados verlangsamt die Auswirkungen von Gift auf dich.
 %%%%
 warp the flow of time around you
-den Fluss der Zeit um Euch herum verzerren
+den Fluss der Zeit um dich herum verzerren
 %%%%
 inflict damage on those overly hasty
 denjenigen, die zu hastig sind, Schaden zufügen
@@ -12772,13 +12772,13 @@ step out of the flow of time
 Aus dem Fluss der Zeit heraustreten
 %%%%
 Ashenzari warns you of distant threats and treasures.
-Aschenzari warnt Euch vor fernen Bedrohungen und Schätzen.
+Aschenzari warnt dich vor fernen Bedrohungen und Schätzen.
 %%%%
 Ashenzari reveals the structure of the dungeon to you.
-Aschenzari offenbart Euch die Struktur des Dungeons.
+Aschenzari offenbart dich die Struktur des Dungeons.
 %%%%
 Ashenzari shows you where magical portals lie.
-Aschenzari zeigt Euch, wo magische Portale liegen.
+Aschenzari zeigt dich, wo magische Portale liegen.
 %%%%
 Ashenzari prevents you from stumbling into unseen traps.
 Aschenzari verhindert, dass Ihr in unsichtbare Fallen stolpert.
@@ -12805,13 +12805,13 @@ Ashenzari keeps your mind clear.
 Aschenzari hält deinen Geist klar.
 %%%%
 Ashenzari will now grant you astral sight.
-Aschenzari gewährt Euch jetzt astrale Sicht.
+Aschenzari gewährt dir jetzt astrale Sicht.
 %%%%
 Ashenzari will no longer grant you astral sight.
-Aschenzari gewährt Euch keine astrale Sicht mehr.
+Aschenzari gewährt dir keine astrale Sicht mehr.
 %%%%
 Ashenzari grants you astral sight.
-Aschenzari gewährt Euch astrale Sicht.
+Aschenzari gewährt dir astrale Sicht.
 %%%%
 step into the shadows of nearby creatures
 In die Schatten von Kreaturen in der Nähe treten
@@ -12865,7 +12865,7 @@ You can bribe branches to halt enemies' attacks and recruit allies.
 Ihr könnt Zweige bestechen, um Angriffe von Feinden aufzuhalten und Verbündete zu rekrutieren.
 %%%%
 Qazlal grants you and your divine allies immunity to clouds.
-Qazlal gewährt Euch und deinen göttlichen Verbündeten Immunität gegen Wolken.
+Qazlal gewährt dir und deinen göttlichen Verbündeten Immunität gegen Wolken.
 %%%%
 You are now surrounded by a storm.
 Ihr seid nun von einem Sturm umgeben.
@@ -12883,13 +12883,13 @@ give life to nearby clouds
 die Wolken in der Nähe zum Leben erwecken
 %%%%
 The storm surrounding you is now powerful enough to repel missiles.
-Der Sturm, der Euch umgibt, ist jetzt stark genug, um Geschosse abzuwehren.
+Der Sturm, der dich umgibt, ist jetzt stark genug, um Geschosse abzuwehren.
 %%%%
 The storm surrounding you is now too weak to repel missiles.
-Der Sturm, der Euch umgibt, ist jetzt zu schwach, um Geschosse abzuwehren.
+Der Sturm, der dich umgibt, ist jetzt zu schwach, um Geschosse abzuwehren.
 %%%%
 The storm surrounding you is powerful enough to repel missiles.
-Der Sturm um Euch herum ist stark genug, um Geschosse abzuwehren.
+Der Sturm um dich herum ist stark genug, um Geschosse abzuwehren.
 %%%%
 You will now adapt resistances upon receiving elemental damage.
 Ihr passt jetzt deine Resistenzen an, wenn Ihr Elementarschaden erleidet.
@@ -12901,7 +12901,7 @@ You adapt resistances upon receiving elemental damage.
 Ihr passt deine Resistenzen an, wenn Ihr Elementarschaden erleidet.
 %%%%
 call upon nature's wrath in a wide area around you
-den Zorn der Natur in einem weiten Bereich um Euch herum anrufen
+den Zorn der Natur in einem weiten Bereich um dich herum anrufen
 %%%%
 You now exude an aura of power that intimidates your foes.
 Ihr strahlt jetzt eine Aura der Macht aus, die deine Feinde einschüchtert.
@@ -12910,13 +12910,13 @@ You no longer exude an aura of power that intimidates your foes.
 Ihr strahlt keine Aura der Macht mehr aus, die deine Feinde einschüchtert.
 %%%%
 Your aura of power can now strike those that harm you.
-Deine Aura der Macht kann jetzt diejenigen treffen, die Euch schaden.
+Deine Aura der Macht kann jetzt diejenigen treffen, die dich schaden.
 %%%%
 Your aura of power no longer strikes those that harm you.
-Deine Aura der Macht trifft nicht mehr diejenigen, die Euch schaden.
+Deine Aura der Macht trifft nicht mehr diejenigen, die dich schaden.
 %%%%
 Your aura of power can strike those that harm you.
-Deine Aura der Macht kann diejenigen treffen, die Euch schaden.
+Deine Aura der Macht kann diejenigen treffen, die dich schaden.
 %%%%
 heal your body and restore your magic
 Deinen Körper heilen und deine Magie wiederherstellen
@@ -12949,10 +12949,10 @@ merge with and destroy a victim
 mit einem Opfer verschmelzen und es zerstören
 %%%%
 recall your ancestor
-Euch an deinen Ahnen erinnern
+dich an deinen Ahnen erinnern
 %%%%
 remember your ancestor's identity
-Euch an die Identität deines Ahnen erinnern
+dich an die Identität deines Ahnen erinnern
 %%%%
 swap creatures with your ancestor
 Kreaturen mit deinem Ahnen austauschen
@@ -12964,13 +12964,13 @@ drain nearby creatures when transferring your ancestor
 Kreaturen in der Nähe auszehren lassen, wenn Ihr deinen Ahnen transferierst
 %%%%
 perform damaging attacks by moving towards foes
-schädliche Angriffe ausführen, indem Ihr Euch auf Feinde zubewegst
+schädliche Angriffe ausführen, indem Ihr dich auf Feinde zubewegst
 %%%%
 perform lunging strikes
 Ausfallende Schläge ausführen
 %%%%
 lightly attack monsters by moving around them
-Monster leicht angreifen, indem Ihr Euch um sie herum bewegst
+Monster leicht angreifen, indem Ihr dich um sie herum bewegst
 %%%%
 perform spinning attacks
 Wirbelangriffe ausführen
@@ -12979,10 +12979,10 @@ perform airborne attacks
 Angriffe aus der Luft ausführen
 %%%%
 briefly move at supernatural speeds
-Euch kurzzeitig mit übernatürlicher Geschwindigkeit bewegen
+dich kurzzeitig mit übernatürlicher Geschwindigkeit bewegen
 %%%%
 move at supernatural speeds
-Euch mit übernatürlicher Geschwindigkeit bewegen
+dich mit übernatürlicher Geschwindigkeit bewegen
 %%%%
 summon a storm of heavenly clouds to empower your attacks
 einen Sturm aus himmlischen Wolken beschwören, um deine Angriffe zu verstärken
@@ -13009,7 +13009,7 @@ Deine Vision gewinnt ihren göttlichen Anblick zurück.
 %s stellt die Unterstützung deiner Attribute wieder her.
 %%%%
 A storm instantly forms around you!
-Sofort bildet sich ein Sturm um Euch herum!
+Sofort bildet sich ein Sturm um dich herum!
 %%%%
 Your full life essence returns.
 Deine volle Lebensessenz kehrt zurück.
@@ -13024,10 +13024,10 @@ Your aura of darkness fades away.
 Deine Aura der Dunkelheit verblasst.
 %%%%
 The storm surrounding you dissipates.
-Der Sturm, der Euch umgibt, löst sich auf.
+Der Sturm, der dich umgibt, löst sich auf.
 %%%%
 %s deals you some cards!
-%s gibt Euch einige Karten!
+%s gibt dich einige Karten!
 %%%%
 You now have %s.
 Ihr habt jetzt {acc}%s.
@@ -13039,28 +13039,28 @@ Ihr habt jetzt {acc}%s.
 %s verändert deinen Körper.
 %%%%
 %s grants you ammunition!
-%s gewährt Euch Munition!
+%s gewährt dir Munition!
 %%%%
 %s grants you a weapon!
-%s gewährt Euch eine Waffe!
+%s gewährt dir eine Waffe!
 %%%%
 %s grants you armour!
-%s gewährt Euch eine Rüstung!
+%s gewährt dir eine Rüstung!
 %%%%
 ...but nothing appears.
 ...aber nichts erscheint.
 %%%%
 Yredelemnul grants you @servant@!
-Yredelemnul gewährt Euch {acc}@servant@!
+Yredelemnul gewährt dir {acc}@servant@!
 %%%%
 You feel as though nothing has changed.
 Ihr habt das Gefühl, als hätte sich nichts verändert.
 %%%%
 %s grants you a gift!
-%s gewährt Euch ein Geschenk!
+%s gewährt dir ein Geschenk!
 %%%%
 Vehumet offers you knowledge of %s.
-Vehumet bietet Euch Wissen über {acc}%s.
+Vehumet bietet dich Wissen über {acc}%s.
 %%%%
 " These spells will remain available as long as you worship Vehumet."
 " Diese Zauber bleiben verfügbar, solange Ihr Vehumet verehrt."
@@ -13073,16 +13073,16 @@ Vehumet bietet Euch Wissen über {acc}%s.
 %s erinnert sich daran, dass %s %s war.
 %%%%
 You feel a little guilty.
-Ihr fühlt Euch ein wenig schuldig.
+Ihr fühlt dich ein wenig schuldig.
 %%%%
 You feel guilty.
-Ihr fühlt Euch schuldig.
+Ihr fühlt dich schuldig.
 %%%%
 You feel very guilty.
-Ihr fühlt Euch sehr schuldig.
+Ihr fühlt dich sehr schuldig.
 %%%%
 You feel extremely guilty.
-Ihr fühlt Euch extrem schuldig.
+Ihr fühlt dich extrem schuldig.
 %%%%
 \"You will pay for your transgression, mortal!\"
 \"Du wirst für deine Übertretung bezahlen, Sterblicher!\"
@@ -13094,7 +13094,7 @@ You can now %s.
 Ihr könnt jetzt %s.
 %%%%
 A divine halo surrounds you!
-Ein göttlicher Heiligenschein umgibt Euch!
+Ein göttlicher Heiligenschein umgibt dich!
 %%%%
 You are shrouded in an aura of darkness!
 Ihr seid in eine Aura der Dunkelheit gehüllt!
@@ -13103,7 +13103,7 @@ Ihr seid in eine Aura der Dunkelheit gehüllt!
 %s wird nun die Schätze der Schleimgruben entsiegeln.
 %%%%
 You may now remember your ancestor's life.
-Ihr könnt Euch jetzt an das Leben deines Ahnen erinnern.
+Ihr könnt dich jetzt an das Leben deines Ahnen erinnern.
 %%%%
 %s raises the support of your attributes as your movement slows.
 %s erhöht die Unterstützung deiner Attribute, als sich deine Bewegung verlangsamt.
@@ -13151,19 +13151,19 @@ Ihr spürt die Verwesung.
 %s fordert alle deine gewährten untoten Sklaven zurück!
 %%%%
 All of your followers decide to abandon you.
-Alle deine Gefolgsleute beschließen, Euch zu verlassen.
+Alle deine Gefolgsleute beschließen, dich zu verlassen.
 %%%%
 Your access to Nemelex's decks is revoked.
-Dein Zugang zu Nemelex' Decks wird Euch entzogen.
+Dein Zugang zu Nemelex' Decks wird dich entzogen.
 %%%%
 All of your fellow slimes turn on you.
-Alle deine Mitschleime wenden sich gegen Euch.
+Alle deine Mitschleime wenden sich gegen dich.
 %%%%
 The plants of the dungeon turn on you.
-Die Pflanzen des Kerkers wenden sich gegen Euch.
+Die Pflanzen des Kerkers wenden sich gegen dich.
 %%%%
 Your funded stores close, unable to pay their debts without your funds.
-Die von Euch finanzierten Läden schließen, weil sie ihre Schulden ohne dein Gold nicht bezahlen können.
+Die von dir finanzierten Läden schließen, weil sie ihre Schulden ohne dein Gold nicht bezahlen können.
 %%%%
 Your storm instantly dissipates.
 Dein Sturm löst sich augenblicklich auf.
@@ -13190,7 +13190,7 @@ Your amulet flashes!
 Dein Amulett blinkt!
 %%%%
 %s warns you to remove %s.
-%s warnt Euch, {acc}%s zu entfernen.
+%s warnt dich, {acc}%s zu entfernen.
 %%%%
 %s says: Farewell. Go and aid the meek with %s.
 %s sagt: Lebe wohl. Geh und hilf den Sanftmütigen mit {dat}%s.
@@ -13220,10 +13220,10 @@ You pay a service fee of %d gold.
 Ihr zahlt eine Bearbeitungsgebühr von %d Gold.
 %%%%
 %s waives the service fee.
-%s erlässt Euch die Gebühr.
+%s erlässt dich die Gebühr.
 %%%%
 %s grants you a jelly!
-%s gewährt Euch ein Gelee!
+%s gewährt dir ein Gelee!
 %%%%
 %s begins to support your attributes as your movement slows.
 %s beginnt, deine Attribute zu unterstützen, als sich deine Bewegung verlangsamt.
@@ -13232,16 +13232,16 @@ The plants of the dungeon cease their hostilities.
 Die Pflanzen des Dungeons stellen ihre Feindseligkeiten ein.
 %%%%
 %s welcomes you back!
-%s heißt Euch wieder willkommen!
+%s heißt dich wieder willkommen!
 %%%%
 %s welcomes you!
-%s heißt Euch willkommen!
+%s heißt dich willkommen!
 %%%%
 You bow before the missionary of Beogh.
-Ihr verneigt Euch vor dem Missionar von Beogh.
+Ihr verneigt dich vor dem Missionar von Beogh.
 %%%%
 %s does not accept service from beggars like you!
-%s nimmt keine Dienste von Bettlern wie Euch an!
+%s nimmt keine Dienste von Bettlern wie dich an!
 %%%%
 The service fee for joining is currently %d gold; you have none.
 Die Gebühr für den Beitritt beträgt derzeit %d Gold; Ihr habt kein Gold.
@@ -13256,10 +13256,10 @@ Die Gebühr für den Beitritt beträgt derzeit %d Gold, Ihr habt nur %d.
 %s sagt: Wie kannst du es wagen, dich in solch einer abscheulichen Form zu nähern!
 %%%%
 %s does not accept worship from those such as you!
-%s nimmt keine Anbetung von solchen wie Euch an!
+%s nimmt keine Anbetung von solchen wie dich an!
 %%%%
 %s refuses to forgive you so easily!
-%s weigert sich, Euch so leicht zu vergeben!
+%s weigert sich, dich so leicht zu vergeben!
 %%%%
 Which god (by name)?
 Welchen Gott (mit Namen)?
@@ -13282,19 +13282,19 @@ Dein Gott hasst diesen Zauberspruch!
 ##################
 %%%%
 Ru asks you to corrupt yourself such that: %s.
-Ru fordert Euch auf, Euch so zu korrumpieren, dass: %s.
+Ru fordert dich auf, dich so zu korrumpieren, dass: %s.
 %%%%
 sacrificed purity
 opferte Reinheit
 %%%%
 Ru asks you to sacrifice your ability to read while threatened.
-Ru fordert Euch auf, deine Fähigkeit zu lesen während Ihr bedroht werden, zu opfern.
+Ru fordert dich auf, deine Fähigkeit zu lesen während Ihr bedroht werden, zu opfern.
 %%%%
 sacrificed words
 opferte Wörter
 %%%%
 Ru asks you to sacrifice your ability to drink while threatened.
-Ru fordert Euch auf, deine Fähigkeit zu trinken während Ihr bedroht werden, zu opfern.
+Ru fordert dich auf, deine Fähigkeit zu trinken während Ihr bedroht werden, zu opfern.
 %%%%
 sacrificed drink
 opferte Trinken
@@ -13306,73 +13306,73 @@ sacrificed health
 opferte Gesundheit
 %%%%
 Ru asks you to sacrifice your ability to go unnoticed.
-Ru fordert Euch auf, deine Fähigkeit unbemerkt zu bleiben, zu opfern.
+Ru fordert dich auf, deine Fähigkeit unbemerkt zu bleiben, zu opfern.
 %%%%
 sacrificed stealth
 opferte Geheimlichkeit
 %%%%
 Ru asks you to sacrifice all use of magical tools.
-Ru fordert Euch auf, deine Fähigkeit magische Gegenstände zu nutzen, zu opfern.
+Ru fordert dich auf, deine Fähigkeit magische Gegenstände zu nutzen, zu opfern.
 %%%%
 sacrificed evocations
 opferte Evozieren
 %%%%
 Ru asks you to sacrifice your ability to be loved.
-Ru fordert Euch auf, deine Fähigkeit beliebt zu werden, zu opfern.
+Ru fordert dich auf, deine Fähigkeit beliebt zu werden, zu opfern.
 %%%%
 sacrificed love
 opferte Liebe
 %%%%
 Ru asks you to sacrifice your courage.
-Ru fordert Euch auf, deinen Mut zu opfern.
+Ru fordert dich auf, deinen Mut zu opfern.
 %%%%
 sacrificed courage
 opferte Mut
 %%%%
 Ru asks you to sacrifice all use of: %s.
-Ru fordert Euch auf zu opfern, die Verwendung von: %s.
+Ru fordert dich auf zu opfern, die Verwendung von: %s.
 %%%%
 sacrificed arcana
 opferte Arkana
 %%%%
 Ru asks you to sacrifice your Dodging skill.
-Ru fordert Euch auf, dein Ausweichensfertigkeit, zu opfern.
+Ru fordert dich auf, dein Ausweichensfertigkeit, zu opfern.
 %%%%
 sacrificed dodging
 opferte Ausweichen
 %%%%
 Ru asks you to sacrifice your Armour skill.
-Ru fordert Euch auf, deine Rüstungsfähigkeit zu opfern.
+Ru fordert dich auf, deine Rüstungsfähigkeit zu opfern.
 %%%%
 sacrificed armour
 opferte Rüstung
 %%%%
 Ru asks you to sacrifice %s.
-Ru fordert Euch auf, %s zu opfern.
+Ru fordert dich auf, %s zu opfern.
 %%%%
 sacrificed a hand
 opferte eine Hand
 %%%%
 Ru asks you to sacrifice your experiences.
-Ru fordert Euch auf, deine Erfahrungen zu opfern.
+Ru fordert dich auf, deine Erfahrungen zu opfern.
 %%%%
 sacrificed experience
 opferte Erfahrung
 %%%%
 Ru asks you to sacrifice your skill.
-Ru fordert Euch auf, deine Begabungen zu opfern.
+Ru fordert dich auf, deine Begabungen zu opfern.
 %%%%
 sacrificed skill
 opferte Fertigkeit
 %%%%
 Ru asks you to sacrifice an eye.
-Ru fordert Euch auf, ein Auge zu opfern.
+Ru fordert dich auf, ein Auge zu opfern.
 %%%%
 sacrificed an eye
 opferte ein Auge
 %%%%
 Ru asks you to sacrifice your resistance to extreme temperatures.
-Ru fordert Euch auf, deine Resistenz gegen extreme Temperaturen zu opfern.
+Ru fordert dich auf, deine Resistenz gegen extreme Temperaturen zu opfern.
 %%%%
 sacrificed resistance
 opferte Resistenz
@@ -13398,10 +13398,10 @@ Welcome to %s! What would you like to do?
 Willkommen bei {dat}%s! Was wollt Ihr machen?
 %%%%
 You are short 1 gold piece for the purchase.
-Euch fehlt 1 Goldstück für den Kauf.
+Dir fehlt 1 Goldstück für den Kauf.
 %%%%
 You are short %d gold pieces for the purchase.
-Euch fehlt %d Goldstücke für den Kauf.
+Dir fehlt %d Goldstücke für den Kauf.
 %%%%
 After the purchase, you will have 1 gold piece.
 Nach dem Kauf werdet Ihr 1 Goldstück haben.
@@ -13440,13 +13440,13 @@ Purchase items for %d gold? (%s/N)
 Die Artikel für %d Gold kaufen? (%s/N)
 %%%%
 I'll put it outside for you.
-Ich bringe den Artikel für Euch nach draußen.
+Ich bringe den Artikel für dich nach draußen.
 %%%%
 I'll put them outside for you.
-Ich bringe sie für Euch nach draußen.
+Ich bringe sie für dich nach draußen.
 %%%%
 I'll put some of them outside for you.
-Ich bringe einige davon für Euch nach draußen.
+Ich bringe einige davon für dich nach draußen.
 %%%%
 %s appears to be closed.
 %s scheint geschlossen zu sein.
@@ -13600,7 +13600,7 @@ Ihr verspürt einen starken Drang zu %s, aber Ihr könnt kein Geräusch machen!
 %%%%
 # note: %s = a shout/howl/hiss/etc. depending on species/form
 You feel %s rip itself from your throat, but you make no sound!
-Ihr spürt, wie %s sich aus deiner Kehle reißt, aber Ihr gebt keinen Laut von Euch!
+Ihr spürt, wie %s sich aus deiner Kehle reißt, aber Ihr gebt keinen Laut von dir!
 %%%%
 You are unable to make a sound!
 Ihr könnt kein Geräusch machen!
@@ -13715,7 +13715,7 @@ You have quaffed a potion of experience. Select the skills to train.
 Ihr habt einen Trank der Erfahrung getrunken. Fertigkeiten zum Trainieren auswählen.
 %%%%
 You feel omnipotent.
-Ihr fühlt Euch allmächtig.
+Ihr fühlt dich allmächtig.
 %%%%
 
 ##################
@@ -13907,7 +13907,7 @@ You cannot cast spells while unable to breathe!
 Ihr könnt keine Zauber wirken, solange Ihr nicht atmen könnt!
 %%%%
 You lack the mental capacity to cast spells.
-Euch fehlt die geistige Fähigkeit, Zauber zu wirken.
+Dir fehlt die geistige Fähigkeit, Zauber zu wirken.
 %%%%
 Something interferes with your magic!
 Etwas stört deine Magie!
@@ -13919,7 +13919,7 @@ You cannot cast spells when silenced!
 Ihr könnt keine Zauber wirken, solange Ihr zum Schweigen gebracht werdet!
 %%%%
 Weird images run through your mind.
-Seltsame Bilder gehen Euch durch den Kopf.
+Seltsame Bilder gehen dich durch den Kopf.
 %%%%
 Your head hurts.
 Dein Kopf tut weh.
@@ -13928,7 +13928,7 @@ You feel a strange surge of energy.
 Ihr fühlt einen seltsamen Energieschub.
 %%%%
 You feel uncomfortable.
-Ihr fühlt Euch unwohl.
+Ihr fühlt dich unwohl.
 %%%%
 Magical energy flows into your mind!
 Magische Energie fließt in deinen Geist!
@@ -14052,7 +14052,7 @@ risk of failure
 Risiko des Scheiterns
 %%%%
 Malevolent energies surge around you.
-Bösartige Energien strömen um Euch herum.
+Bösartige Energien strömen um dich herum.
 %%%%
 
 ##################
@@ -14078,7 +14078,7 @@ That kind of cloud doesn't exist!
 Diese Art von Wolke gibt es nicht!
 %%%%
 Blessed fire suddenly surrounds you!
-Gesegnetes Feuer umgibt Euch plötzlich!
+Gesegnetes Feuer umgibt dich plötzlich!
 %%%%
 %s is surrounded by blessed fire!
 %s ist von gesegnetem Feuer umgeben!
@@ -14123,7 +14123,7 @@ The monsters around %s are %s!
 Die Monster um {acc}%s herum werden %s!
 %%%%
 The monsters around you are %s!
-Die Monster um Euch herum werden %s!
+Die Monster um dich herum werden %s!
 %%%%
 The heat is drained from your surroundings.
 Die Wärme wird der Umgebung entzogen.
@@ -14173,7 +14173,7 @@ blasted with sound
 beschallt
 %%%%
 You feel very cold.
-Ihr fühlt Euch sehr kalt.
+Ihr fühlt dich sehr kalt.
 %%%%
 You freeze %s but do no damage.
 Ihr friert {acc}%s ein, richtet aber keinen Schaden an.
@@ -14312,19 +14312,19 @@ You feel roots moving beneath the ground.
 Ihr spürt, wie sich die Wurzeln unter dem Boden bewegen.
 %%%%
 Branches wave dangerously above you.
-Die Äste schwingen gefährlich über Euch.
+Die Äste schwingen gefährlich über dich.
 %%%%
 Trunks creak and shift.
 Die Stämme knarren und verschieben sich.
 %%%%
 Tree limbs sway around you.
-Die Äste der Bäume schwingen um Euch herum.
+Die Äste der Bäume schwingen um dich herum.
 %%%%
 You are waved at by a branch.
-Ein Ast winkt Euch zu.
+Ein Ast winkt dir zu.
 %%%%
 A tree reaches out but misses you.
-Ein Baum streckt seinen Ast aus, aber verfehlt Euch.
+Ein Baum streckt seinen Ast aus, aber verfehlt dich.
 %%%%
 A root lunges up near you.
 Eine Wurzel ragt in deiner Nähe.
@@ -14342,10 +14342,10 @@ You are scraped by a branch.
 Ihr werdet von einem Ast gekratzt.
 %%%%
 A tree reaches out and scrapes you.
-Ein Baum streckt seinen Ast aus, und kratzt Euch.
+Ein Baum streckt seinen Ast aus, und kratzt dich.
 %%%%
 A root barely touches you from below.
-Eine Wurzel berührt Euch kaum von unten.
+Eine Wurzel berührt dich kaum von unten.
 %%%%
 @foe@ is scraped by a branch.
 @foe@ wird von einem Ast gekratzt.
@@ -14361,10 +14361,10 @@ You are hit by a branch
 Ihr werdet von einem Ast getroffen
 %%%%
 A tree reaches out and hits you
-Ein Baum streckt seinen Ast aus, und schlägt Euch.
+Ein Baum streckt seinen Ast aus, und schlägt dich.
 %%%%
 A root smacks you from below
-Eine Wurzel erschlägt Euch von unten
+Eine Wurzel erschlägt dich von unten
 %%%%
 @foe@ is hit by a branch
 @foe@ wird von einem Ast getroffen
@@ -14412,7 +14412,7 @@ Ihr zaubert einen mächtigen Eisstoß!
 %s zaubert einen mächtigen Eisstoß!
 %%%%
 A cannonade of hail descends around you!
-Eine Kanonade von Hagel steigt um Euch herab!
+Eine Kanonade von Hagel steigt um dich herab!
 %%%%
 You erupt in a blast of force!
 Ihr brecht in einer Explosion von Gewalt aus!
@@ -14424,10 +14424,10 @@ Ihr eitert im giftigen Moor%s
 %s eitert im giftigen Moor%s
 %%%%
 There are no walls around you to affect.
-Es gibt keine Mauern um Euch herum, die beeinflusst werden könnten.
+Es gibt keine Mauern um dich herum, die beeinflusst werden könnten.
 %%%%
 The walls around you are covered in ice.
-Die Wände um Euch herum sind mit Eis bedeckt.
+Die Wände um dich herum sind mit Eis bedeckt.
 %%%%
 You begin accumulating electric charge.
 Ihr beginnt, elektrische Ladung zu akkumulieren.
@@ -14514,10 +14514,10 @@ transformed
 verwandelt
 %%%%
 You feel strangely stable.
-Ihr fühlt Euch seltsam stabil.
+Ihr fühlt dich seltsam stabil.
 %%%%
 You feel limber!
-Ihr fühlt Euch geschmeidig!
+Ihr fühlt dich geschmeidig!
 %%%%
 Your magical effects are unravelling.
 Deine magischen Effekte lösen sich auf.
@@ -14565,10 +14565,10 @@ Ihr sprecht ein Wort von immenser Macht!
 %s spricht ein Wort von immenser Macht!
 %%%%
 %s shields you from torment!
-%s schirmt Euch vor Qual ab!
+%s schirmt dich vor Qual ab!
 %%%%
 %s partially shields you from torment!
-%s schirmt Euch teilweise vor Qual ab!
+%s schirmt dich teilweise vor Qual ab!
 %%%%
 You feel a surge of unholy energy.
 Ihr fühlt eine Welle unheiliger Energie.
@@ -14603,7 +14603,7 @@ Sparks fly from @your_hands@
 Funken fliegen aus {dat}@your_hands@
 %%%%
 The air around you crackles with energy
-Die Luft um Euch herum knistert vor Energie
+Die Luft um dich herum knistert vor Energie
 %%%%
 You feel a strange surge of energy
 Ihr spürt einen seltsamen Energieschub
@@ -14651,16 +14651,16 @@ There is a sudden explosion of magical energy
 Es gibt eine plötzliche Explosion von magischer Energie
 %%%%
 You feel off-balance for a moment
-Ihr fühlt Euch für einen Moment aus dem Gleichgewicht gebracht
+Ihr fühlt dich für einen Moment aus dem Gleichgewicht gebracht
 %%%%
 Multicoloured lights dance before your eyes
 Mehrfarbige Lichter tanzen vor deinen Augen
 %%%%
 You feel a bit tired
-Ihr fühlt Euch ein wenig müde
+Ihr fühlt dich ein wenig müde
 %%%%
 The light around you dims momentarily
-Das Licht um Euch herum verdunkelt sich für einen Moment
+Das Licht um dich herum verdunkelt sich für einen Moment
 %%%%
 You hear an indistinct dissonance whispering inside your mind
 Ihr hört eine undeutliche Dissonanz in deinem Kopf flüstern
@@ -14669,7 +14669,7 @@ Waves of light ripple over your body
 Wellen von Licht kräuseln sich über deinen Körper
 %%%%
 You feel enfeebled
-Ihr fühlt Euch geschwächt
+Ihr fühlt dich geschwächt
 %%%%
 Magic surges out from your body
 Magie strömt aus deinem Körper
@@ -14708,7 +14708,7 @@ Multicoloured lights dance in the air
 Mehrfarbige Lichter tanzen in der Luft
 %%%%
 A patch of light dims momentarily
-Ein Lichtfleck verdunkelt Euch für einen Moment
+Ein Lichtfleck verdunkelt dich für einen Moment
 %%%%
 Magic surges out from thin air
 Magie strömt aus der dünnen Luft
@@ -14726,7 +14726,7 @@ A chorus of moans calls out in your mind
 Ein Chor von Stöhnen ertönt in deinem Geist
 %%%%
 Desperate hands claw out at you
-Verzweifelte Hände krallen sich nach Euch
+Verzweifelte Hände krallen sich nach dir
 %%%%
 Desperate hands claw out at @the_monster@
 Verzweifelte Hände krallen sich nach {dat}@the_monster@
@@ -14738,7 +14738,7 @@ You hear strange and distant voices
 Ihr hört fremde und ferne Stimmen
 %%%%
 The world around you seems to dim momentarily
-Die Welt um Euch herum scheint sich für einen Moment zu verdunkeln
+Die Welt um dich herum scheint sich für einen Moment zu verdunkeln
 %%%%
 You shiver with cold
 Ihr zittert vor Kälte
@@ -14747,16 +14747,16 @@ You sense a malignant aura
 Ihr spürt eine bösartige Aura
 %%%%
 You feel very uncomfortable
-Ihr fühlt Euch sehr unbehaglich
+Ihr fühlt dich sehr unbehaglich
 %%%%
 You feel horribly lethargic
-Ihr fühlt Euch schrecklich lethargisch
+Ihr fühlt dich schrecklich lethargisch
 %%%%
 Your flesh rots away
 Dein Fleisch verrottet
 %%%%
 Flickering shadows surround you
-Flackernde Schatten umgeben Euch
+Flackernde Schatten umgeben dich
 %%%%
 You are engulfed in negative energy
 Ihr seid von negativer Energie umhüllt
@@ -14816,7 +14816,7 @@ The floor and the ceiling briefly switch places
 Der Boden und die Decke tauschen kurz den Platz
 %%%%
 You spin around
-Ihr dreht Euch
+Ihr dreht dich
 %%%%
 The world appears momentarily distorted
 Die Welt erscheint für einen Moment verzerrt
@@ -14828,7 +14828,7 @@ Space twists in upon itself
 Der Raum verdreht sich in sich selbst
 %%%%
 Space warps crazily around you
-Der Raum verformt sich verrückt um Euch herum
+Der Raum verformt sich verrückt um dich herum
 %%%%
 @The_monster@ jerks violently for a moment
 @The_monster@ ruckt einen Moment lang heftig
@@ -14846,19 +14846,19 @@ Der Raum verformt sich verrückt um Euch herum
 @The_monster@ ist in einem Feld räumlicher Verzerrung gefangen
 %%%%
 Space bends around @the_monster@
-Der Raum krümmt Euch um {acc}@the_monster@
+Der Raum krümmt dich um {acc}@the_monster@
 %%%%
 Space warps around @the_monster@
-Der Raum verzieht Euch um {acc}@the_monster@ herum
+Der Raum verzieht dich um {acc}@the_monster@ herum
 %%%%
 Space warps crazily around @the_monster@
-Der Raum verzieht Euch wie verrückt um {acc}@the_monster@ herum
+Der Raum verzieht dich wie verrückt um {acc}@the_monster@ herum
 %%%%
 The air around something crackles with energy
 Die Luft um etwas knistert vor Energie
 %%%%
 A piece of empty space twists and distorts
-Ein Stück leerer Raum verdreht und verzerrt Euch
+Ein Stück leerer Raum verdreht und verzerrt dich
 %%%%
 A rift temporarily opens in the fabric of space
 Ein Riss öffnet sich vorübergehend in der Struktur des Raums
@@ -14873,7 +14873,7 @@ Your body is flooded with distortional energies
 Dein Körper wird von verzerrenden Energien durchflutet
 %%%%
 You feel very strange
-Ihr fühlt Euch sehr seltsam
+Ihr fühlt dich sehr seltsam
 %%%%
 There is a strange surge of energy around @the_monster@
 Eine seltsame Energiewelle umgibt {acc}@the_monster@
@@ -14903,13 +14903,13 @@ Waves of light ripple in the air
 Wellen von Licht kräuseln sich in der Luft
 %%%%
 The air around you burns with energy
-Die Luft um Euch herum brennt vor Energie
+Die Luft um dich herum brennt vor Energie
 %%%%
 Heat runs through your body
 Hitze läuft durch deinen Körper
 %%%%
 You feel uncomfortably hot
-Ihr fühlt Euch unangenehm heiß
+Ihr fühlt dich unangenehm heiß
 %%%%
 Fire whirls out from @your_hand@
 Feuer wirbelt aus @your_hand@ heraus
@@ -14978,13 +14978,13 @@ Ein Schauer durchfährt deinen Körper
 @Your_hands@ fühlen sich taub an vor Kälte
 %%%%
 You feel uncomfortably cold
-Ihr fühlt Euch unbehaglich kalt
+Ihr fühlt dich unbehaglich kalt
 %%%%
 Frost covers your body
 Frost bedeckt deinen Körper
 %%%%
 You feel extremely cold
-Ihr fühlt Euch extrem kalt
+Ihr fühlt dich extrem kalt
 %%%%
 You are covered in a thin layer of ice
 Ihr seid mit einer dünnen Eisschicht bedeckt
@@ -15029,7 +15029,7 @@ An unseen figure is encased in ice
 Eine unsichtbare Gestalt ist in Eis gehüllt
 %%%%
 Sparks of electricity dance around you
-Funken von Elektrizität tanzen um Euch herum
+Funken von Elektrizität tanzen um dich herum
 %%%%
 You are blasted with air
 Ihr werdet von Luft durchströmt
@@ -15038,7 +15038,7 @@ There is a short, sharp shower of sparks
 Es gibt einen kurzen, scharfen Funkenregen
 %%%%
 The wind whips around you
-Der Wind peitscht um Euch herum
+Der Wind peitscht um dich herum
 %%%%
 You feel a sudden electric shock
 Ihr spürt einen plötzlichen elektrischen Schlag
@@ -15095,7 +15095,7 @@ You feel a surge of energy from the ground
 Ihr spürt einen Energiestoß aus dem Boden
 %%%%
 The floor shifts beneath you alarmingly
-Der Boden unter Euch bewegt sich bedrohlich
+Der Boden unter dir bewegt sich bedrohlich
 %%%%
 You are hit by flying rocks
 Ihr werdet von fliegenden Steinen getroffen
@@ -15104,7 +15104,7 @@ You are blasted with sand
 Ihr werdet mit Sand besprengt
 %%%%
 Rocks fall onto you out of nowhere
-Felsen fallen aus dem Nichts auf Euch
+Felsen fallen aus dem Nichts auf dich
 %%%%
 You are caught in an explosion of flying shrapnel
 Ihr werdet von einer Explosion umherfliegender Schrapnells erfasst
@@ -15137,13 +15137,13 @@ Flying shrapnel explodes from thin air
 Fliegende Schrapnelle explodieren aus dem Nichts
 %%%%
 You feel odd
-Ihr fühlt Euch seltsam
+Ihr fühlt dich seltsam
 %%%%
 You feel rather nauseous for a moment
-Ihr fühlt Euch für einen Moment ziemlich übel
+Ihr fühlt dich für einen Moment ziemlich übel
 %%%%
 You feel incredibly sick
-Ihr fühlt Euch unglaublich krank
+Ihr fühlt dich unglaublich krank
 %%%%
 @The_monster@ looks faint for a moment
 @The_monster@ sieht für einen Moment schwach aus
@@ -15164,7 +15164,7 @@ The air has a green tinge for a moment
 Die Luft hat für einen Moment einen grünen Schimmer
 %%%%
 %s protects you from your miscast necromantic spell!
-%s schützt Euch vor deinem misslungenen nekromantischen Zauber!
+%s schützt dich vor deinem misslungenen nekromantischen Zauber!
 %%%%
 
 ##################
@@ -15207,7 +15207,7 @@ Malign forces permeate your being, awaiting release.
 Bösartige Kräfte durchdringen dein Wesen und warten auf ihre Freilassung.
 %%%%
 You begin recalling your allies.
-Ihr fangt an, Euch an deine Verbündeten zu erinnern.
+Ihr fangt an, dich an deine Verbündeten zu erinnern.
 %%%%
 Nothing appears to have answered your call.
 Nichts scheint auf deinen Anruf geantwortet zu haben.
@@ -15228,7 +15228,7 @@ You sense an overwhelming volume of rock.
 Ihr spürt ein überwältigendes Volumen an Gestein.
 %%%%
 Something is blocking your path through the rock.
-Etwas versperrt Euch den Weg durch den Felsen.
+Etwas versperrt dich den Weg durch den Felsen.
 %%%%
 You sense a deep body of water on the other side of the rock.
 Ihr spürt ein tiefes Gewässer jenseits des Felsens.
@@ -15243,7 +15243,7 @@ You attempt to intoxicate your foes!
 Ihr versucht deine Feinde zu berauschen!
 %%%%
 The world spins around you!
-Die Welt dreht sich um Euch!
+Die Welt dreht sich um dich!
 %%%%
 
 ##################
@@ -15299,10 +15299,10 @@ Your blood is infused with primal strength.
 Dein Blut wird mit Urkraft durchtränkt!
 %%%%
 A profound silence engulfs you.
-Eine tiefe Stille verschlingt Euch.
+Eine tiefe Stille verschlingt dich.
 %%%%
 The ground around you becomes liquefied!
-Der Boden um Euch herum verflüssigt sich!
+Der Boden um dich herum verflüssigt sich!
 %%%%
 
 ##################
@@ -15313,7 +15313,7 @@ You aren't wearing any armour!
 Ihr tragt keine Rüstung!
 %%%%
 A chill wind blows around you.
-Ein kalter Wind weht um Euch herum.
+Ein kalter Wind weht um dich herum.
 %%%%
 You summon %s!
 Ihr beschwört {acc}%s!
@@ -15410,7 +15410,7 @@ You open a gate to Pandemonium!
 Ihr öffnet ein Tor zu Pandämonium!
 %%%%
 Wisps of shadow whirl around you...
-Schattenfetzen wirbeln um Euch herum...
+Schattenfetzen wirbeln um dich herum...
 %%%%
 The shadows disperse without effect.
 Die Schatten verziehen sich ohne Wirkung.
@@ -15449,7 +15449,7 @@ An evil force gathers, but it quickly dissipates.
 Eine böse Kraft sammelt sich, aber sie löst sich schnell auf.
 %%%%
 You cannot haunt those who bear you no hostility.
-Ihr könnt diejenigen nicht spuken, die Euch ohne Feindseligkeit tragen.
+Ihr könnt diejenigen nicht spuken, die dich ohne Feindseligkeit tragen.
 %%%%
 Insubstantial figures form in the air.
 In der Luft bilden sich unwesentliche Figuren.
@@ -15584,7 +15584,7 @@ Ihr ruft Fuchsfeuer hervor!
 ##################
 %%%%
 You feel jittery for a moment.
-Ihr fühlt Euch für einen Moment nervös.
+Ihr fühlt dich für einen Moment nervös.
 %%%%
 Hop to where?
 Wohin hüpfen?
@@ -15740,10 +15740,10 @@ Not with that terrain in the way!
 Nicht mit diesem Gelände im Weg!
 %%%%
 Yoink! You pull the item towards yourself.
-Grabsch! Ihr zieht den Gegenstand zu Euch heran.
+Grabsch! Ihr zieht den Gegenstand zu dir heran.
 %%%%
 Yoink! You pull the items towards yourself.
-Grabsch! Ihr zieht die Gegenstände zu Euch heran.
+Grabsch! Ihr zieht die Gegenstände zu dir heran.
 %%%%
 A magic seal in the Gauntlet prevents you from opening a passage!
 Ein magisches Siegel in der Spießrute verhindert das Öffnen einer Passage!
@@ -15758,7 +15758,7 @@ The Orb disrupts the stability of your passage!
 Ein magisches Siegel in der Spießrute verhindert, dass Ihr einen Durchgang öffnen könnt!
 %%%%
 The air shimmers briefly around you.
-Die Luft schimmert kurz um Euch herum.
+Die Luft schimmert kurz um dich herum.
 %%%%
 by gravitational forces
 durch Gravitationskräfte
@@ -15773,7 +15773,7 @@ Die Schwerkraft richtet sich um leeren Raum neu aus.
 %s schleudert sich plötzlich nach vorne!
 %%%%
 %s is pulled toward you!
-%s wird zu Euch gezogen!
+%s wird zu dir gezogen!
 %%%%
 You cannot see any enemies that you can affect. Speak a word of chaos anyway?
 Ihr könnt keine Feinde sehen, die Ihr beeinflussen könnt. Ein Wort des Chaos trotzdem sprechen?
@@ -15841,7 +15841,7 @@ you cannot coerce anything to answer your summons.
 Ihr könnt nichts dazu zwingen, deine Beschwörung zu folgen.
 %%%%
 you cannot coerce anything to obey you.
-Ihr könnt nichts dazu zwingen, Euch zu gehorchen.
+Ihr könnt nichts dazu zwingen, dich zu gehorchen.
 %%%%
 you can't cast spells right now.
 Ihr könnt im Moment keine Zaubersprüche wirken.
@@ -15850,7 +15850,7 @@ you can't see any hostile targets that would be affected.
 Ihr könnt keine feindlichen Ziele sehen, die davon betroffen wären.
 %%%%
 your stasis prevents you from teleporting.
-deine Stasis hindert Euch daran, Euch zu teleportieren.
+deine Stasis hindert dich daran, dich zu teleportieren.
 %%%%
 your stasis precludes magical swiftness.
 deine Stasis schließt magische Schnelligkeit aus.
@@ -15859,13 +15859,13 @@ this spell is already in effect.
 Dieser Zauber ist bereits in Kraft.
 %%%%
 you're already traveling as fast as you can.
-Ihr bewegt Euch bereits so schnell, wie Ihr könnt.
+Ihr bewegt dich bereits so schnell, wie Ihr könnt.
 %%%%
 you can't move.
-Ihr könnt Euch nicht bewegen.
+Ihr könnt dich nicht bewegen.
 %%%%
 invisibility won't help you when you glow in the dark.
-Unsichtbarkeit wird Euch nicht helfen, wenn Ihr im Dunkeln leuchtet.
+Unsichtbarkeit wird dir nicht helfen, wenn Ihr im Dunkeln leuchtet.
 %%%%
 you're already a statue.
 Ihr seid bereits eine Statue.
@@ -15877,7 +15877,7 @@ your current blood level is not sufficient.
 dein aktueller Blutspiegel ist nicht ausreichend.
 %%%%
 you lack the necromantic skill to inflict true pain.
-Euch fehlt die nekromantische Fähigkeit, echten Schmerz zuzufügen.
+dir fehlt die nekromantische Fähigkeit, echten Schmerz zuzufügen.
 %%%%
 you aren't wielding a brandable weapon.
 Ihr habt keine brennbare Waffe in der Hand.
@@ -15892,7 +15892,7 @@ you cannot be healed further.
 Ihr könnt nicht weiter geheilt werden.
 %%%%
 you lack the resilience to cast this spell.
-Euch fehlt die Widerstandskraft, um diesen Zauber zu wirken.
+dir fehlt die Widerstandskraft, um diesen Zauber zu wirken.
 %%%%
 you're too dead.
 Ihr seid zu tot.
@@ -15949,7 +15949,7 @@ you cannot sustain more frozen ramparts right now.
 Ihr könnt im Moment keine weiteren gefrorenen Wälle ertragen.
 %%%%
 you lack blood to transform.
-Euch fehlt Blut zum Verwandeln.
+dir fehlt Blut zum Verwandeln.
 %%%%
 you don't have any stones to cast with.
 Ihr habt keine Steine, um damit zu zaubern.
@@ -15969,16 +15969,16 @@ Ihr habt keine Körperpanzerung, deren Geist Ihr beschwören könnt.
 ##################
 %%%%
 A great freezing vortex appears around you.
-Ein großer Gefrierwirbel erscheint um Euch herum.
+Ein großer Gefrierwirbel erscheint um dich herum.
 %%%%
 A great freezing vortex appears and lifts you up.
-Ein großer Gefrierwirbel erscheint und hebt Euch hoch.
+Ein großer Gefrierwirbel erscheint und hebt dich hoch.
 %%%%
 A tree falls to the furious winds!
 Ein Baum fällt in den wilden Winden!
 %%%%
 The freezing vortex lifts you up.
-Der große Gefrierwirbel hebt Euch hoch.
+Der große Gefrierwirbel hebt dich hoch.
 %%%%
 Careful! You are now flying above %s.
 Vorsicht! Ihr fliegt jetzt über {dat}%s.
@@ -16045,10 +16045,10 @@ Nächste Eben trotzdem eintreten?
 %s bewegt sich weg, als Ihr in der Nähe kommt!
 %%%%
 The world spins around you as you enter the gateway.
-Die Welt dreht sich um Euch, als Ihr das Tor betretet.
+Die Welt dreht sich um dich, als Ihr das Tor betretet.
 %%%%
 A mysterious force pulls you upwards.
-Eine mysteriöse Kraft zieht Euch nach oben.
+Eine mysteriöse Kraft zieht dich nach oben.
 %%%%
 You fly downwards.
 Ihr fliegt nach unten.
@@ -16057,7 +16057,7 @@ You slide downwards.
 Ihr rutscht nach unten.
 %%%%
 The hatch slams shut behind you.
-Die Luke knallt hinter Euch zu.
+Die Luke knallt hinter dich zu.
 %%%%
 You fly up through the gate.
 Ihr fliegt durch das Tor nach oben.
@@ -16081,7 +16081,7 @@ You go downwards.
 Ihr geht nach unten.
 %%%%
 You have passed through the Ziggurat. Zot will hunt you nevermore.
-Ihr habt die Zikkurat durchschritten. Zot wird Euch nie mehr jagen.
+Ihr habt die Zikkurat durchschritten. Zot wird dich nie mehr jagen.
 %%%%
 This shop has been abandoned, nothing of value remains.
 Dieser Laden wurde aufgegeben, nichts von Wert bleibt übrig.
@@ -16114,10 +16114,10 @@ With a soft hiss the gate opens wide!
 Mit einem leisen Zischen öffnet sich das Tor weit!
 %%%%
 The nature of this place prevents you from teleporting.
-Die Natur dieses Ortes hindert Euch daran, Euch zu teleportieren.
+Die Natur dieses Ortes hindert dich daran, dich zu teleportieren.
 %%%%
 You feel stable on this floor.
-Ihr fühlt Euch auf dieser Ebene stabil.
+Ihr fühlt dich auf dieser Ebene stabil.
 %%%%
 The shaft disappears in a puff of logic!
 Der Schacht verschwindet in einem Hauch von Logik!
@@ -16162,7 +16162,7 @@ You enter the Abyss!
 Ihr betrittt den Abgrund!
 %%%%
 Killing monsters will force the Abyss to allow you passage.
-Das Töten von Monstern wird den Abgrund zwingen, Euch den Durchgang zu erlauben.
+Das Töten von Monstern wird den Abgrund zwingen, dich den Durchgang zu erlauben.
 %%%%
 You feel %s slowing down the madness of this place.
 Ihr spürt, dass %s den Wahnsinn in diesem Ort verlangsamt.
@@ -16180,13 +16180,13 @@ Zot already knows this place too well. Descend or flee this branch!
 Zot kennt diesen Ort bereits zu gut. Steigt ab oder flieht aus diesem Zweig!
 %%%%
 Zot's attention fixes on you again. Descend or flee this branch!
-Die Aufmerksamkeit von Zot richtet sich wieder auf Euch. Steigt ab oder flieht aus diesem Zweig!
+Die Aufmerksamkeit von Zot richtet sich wieder auf dich. Steigt ab oder flieht aus diesem Zweig!
 %%%%
 Zot has no power in the Abyss.
 Zot hat im Abgrund keine Macht.
 %%%%
 You feel Zot lose track of you.
-Ihr spürt, dass Zot Euch aus den Augen verliert.
+Ihr spürt, dass Zot dich aus den Augen verliert.
 %%%%
 Beware, you cannot shaft yourself on this level.
 Vorsicht, Ihr könnt nicht in den Boden dieser Ebene graben.
@@ -16347,7 +16347,7 @@ The effect is blocked.
 Die Wirkung wird blockiert.
 %%%%
 You cannot target yourself.
-Ihr könnt nicht auf Euch selbst zielen.
+Ihr könnt nicht auf dich selbst zielen.
 %%%%
 There is no safe place near that location.
 In der Nähe dieses Ortes gibt es keinen sicheren Ort.
@@ -16555,7 +16555,7 @@ You hear a triplet of thunks.
 Ihr hört drei dumpfe Geräusche.
 %%%%
 That is likely to hit you. Continue anyway?
-Das wird Euch wahrscheinlich treffen. Trotzdem weitermachen?
+Das wird dich wahrscheinlich treffen. Trotzdem weitermachen?
 %%%%
 You toss away %s.
 Ihr werft {acc}%s weg.
@@ -16629,7 +16629,7 @@ Es konnte kein gültiges Fensterlayout gefunden werden: Bildschirm zu klein oder
 ##################
 %%%%
 %s's power protects you from the chaos of Hell!
-{gen}%s Macht schützt Euch vor dem Chaos der Hölle!
+{gen}%s Macht schützt dich vor dem Chaos der Hölle!
 %%%%
 Your body shudders with the violent release of wild energies!
 Dein Körper zittert unter der heftigen Freisetzung von wilden Energien!
@@ -16678,19 +16678,19 @@ The runic seal fades away.
 Das Runensiegel verschwindet.
 %%%%
 As you enter the new level, Zot loses track of you.
-Als Ihr die neue Ebene betretet, verliert Zot Euch aus den Augen.
+Als Ihr die neue Ebene betretet, verliert Zot dich aus den Augen.
 %%%%
 Zot has found you!
-Zot hat Euch gefunden!
+Zot hat dich gefunden!
 %%%%
 You have lingered too long. Zot senses you. Dive deeper or flee this branch before you perish!
-Ihr habt zu lange gezögert. Zot spürt Euch. Taucht tiefer oder flieht diesen Zweig, bevor Ihr umkommt!
+Ihr habt zu lange gezögert. Zot spürt dich. Taucht tiefer oder flieht diesen Zweig, bevor Ihr umkommt!
 %%%%
 Zot draws nearer. Dive deeper or flee this branch before you perish!
 Zot rückt näher. Taucht tiefer oder flieht aus diesem Zweig, bevor Ihr umkommt!
 %%%%
 Zot has nearly found you. Death is approaching. Descend or flee this branch!
-Zot hat Euch fast gefunden. Der Tod naht. Steigt hinab oder flieht aus diesem Zweig!
+Zot hat dich fast gefunden. Der Tod naht. Steigt hinab oder flieht aus diesem Zweig!
 %%%%
 
 ##################
@@ -16716,13 +16716,13 @@ You are %s.
 Ihr seid %s.
 %%%%
 You fly out of the water as you turn into %s.
-Ihr fliegt aus dem Wasser, als Ihr Euch in {acc}%s verwandelt.
+Ihr fliegt aus dem Wasser, als Ihr dich in {acc}%s verwandelt.
 %%%%
 As you dive into the water, you turn into %s.
-Als Ihr ins Wasser eintaucht, verwandelt Ihr Euch in {acc}%s.
+Als Ihr ins Wasser eintaucht, verwandelt Ihr dich in {acc}%s.
 %%%%
 You turn into %s.
-Ihr verwandelt Euch in {acc}%s.
+Ihr verwandelt dich in {acc}%s.
 %%%%
 Your transformation has ended.
 Deine Verwandlung ist beendet.
@@ -16776,7 +16776,7 @@ Your hands revert to their normal proportions.
 Deine Hände kehren zu ihren normalen Proportionen zurück.
 %%%%
 You inwardly fear your resemblance to a lawn ornament.
-Ihr fürchtet Euch innerlich vor deiner Ähnlichkeit mit einer Gartendekoration.
+Ihr fürchtet dich innerlich vor deiner Ähnlichkeit mit einer Gartendekoration.
 %%%%
 Your body stiffens and grows slower.
 Dein Körper versteift sich und wird langsamer.
@@ -16788,7 +16788,7 @@ You revert to your normal fleshy form.
 Ihr nehmt wieder deine normale fleischige Form an.
 %%%%
 You warm up again.
-Ihr wärmt Euch wieder auf.
+Ihr wärmt dich wieder auf.
 %%%%
 Your body is suffused with negative energy!
 Dein Körper wird von negativer Energie durchflutet!
@@ -16818,13 +16818,13 @@ One of your tentacles has grown a beastly spike.
 Einem deiner Tentakel ist ein bestialischer Stachel gewachsen.
 %%%%
 You had temporarily grown %s.
-Euch war %s vorübergehend gewachsen.
+Dir war %s vorübergehend gewachsen.
 %%%%
 You have temporarily grown %s.
-Euch ist %s vorübergehend gewachsen.
+Dir ist %s vorübergehend gewachsen.
 %%%%
 You grow a pair of large bovine horns.
-Euch wächst ein Paar großer Rinderhörner.
+Dir wächst ein Paar großer Rinderhörner.
 %%%%
 One of your tentacles grows a vicious spike.
 Einem deiner Tentakel wächst ein bösartiger Stachel.
@@ -16833,13 +16833,13 @@ Your feet morph into talons.
 Deine Füße verwandeln sich in Krallen.
 %%%%
 You feel less wooden.
-Ihr fühlt Euch weniger hölzern.
+Ihr fühlt dich weniger hölzern.
 %%%%
 You stop sporulating.
 Ihr hört auf zu sporulieren.
 %%%%
 You feel less shadowy.
-Ihr fühlt Euch weniger schattenhaft.
+Ihr fühlt dich weniger schattenhaft.
 %%%%
 You emerge from the shadows.
 Ihr tretet aus den Schatten hervor.
@@ -16923,10 +16923,10 @@ You fade into the shadows.
 Ihr verschwindet in den Schatten.
 %%%%
 You feel less conspicuous.
-Ihr fühlt Euch weniger auffällig.
+Ihr fühlt dich weniger auffällig.
 %%%%
 You quickly transform back into your natural form.
-Ihr verwandelt Euch schnell wieder in deine natürliche Form.
+Ihr verwandelt dich schnell wieder in deine natürliche Form.
 %%%%
 Your legs become a tail as you enter the water.
 Deine Beine werden zu einem Schwanz, als Ihr ins Wasser geht.
@@ -16982,7 +16982,7 @@ A huge vortex of air appears!
 Ein riesiger Luftwirbel erscheint!
 %%%%
 The power of Zot is invoked against you!
-Die Macht von Zot wird gegen Euch angerufen!
+Die Macht von Zot wird gegen dich angerufen!
 %%%%
 You enter the passage of Golubria.
 Ihr betretet die Passage von Golubria.
@@ -17024,10 +17024,10 @@ You avoid triggering a blade trap.
 Ihr vermeidet es, eine Klingenfalle auszulösen.
 %%%%
 A huge blade swings just past you!
-Eine riesige Klinge schwingt direkt an Euch vorbei!
+Eine riesige Klinge schwingt direkt an dich vorbei!
 %%%%
 A huge blade swings out and slices into you!
-Eine riesige Klinge schwingt heraus und schneidet in Euch!
+Eine riesige Klinge schwingt heraus und schneidet in dich!
 %%%%
 %s fails to trigger a blade trap.
 %s vermeidet das Auslösen einer Klingenfalle.
@@ -17045,13 +17045,13 @@ Eine riesige Klinge schwingt aus und schneidet in {acc}%s!
 %s vermeidet das Auslösen einer Netzfalle.
 %%%%
 %s drops a net on you.
-%s lässt ein Netz auf Euch fallen.
+%s lässt ein Netz auf dich fallen.
 %%%%
 Something launches a net on you.
-Etwas wirft ein Netz auf Euch.
+Etwas wirft ein Netz auf dich.
 %%%%
 You avoid being caught in a net.
-Ihr vermeidet es, Euch in einem Netz zu verfangen.
+Ihr vermeidet es, dich in einem Netz zu verfangen.
 %%%%
 The net is torn apart by your bulk.
 Das Netz wird durch deine Masse zerrissen.
@@ -17063,7 +17063,7 @@ Das Netz wird durch deine Masse zerrissen.
 %s sickert durch ein Gewebe.
 %%%%
 You pick your way through the web.
-Ihr sucht Euch deinen Weg durch das Gewebe.
+Ihr sucht dich deinen Weg durch das Gewebe.
 %%%%
 You are caught in the web!
 Ihr seid im Gewebe gefangen!
@@ -17087,10 +17087,10 @@ The web tears apart.
 Das Gewebe zerreißt.
 %%%%
 You disentangle yourself.
-Ihr entwirrt Euch.
+Ihr entwirrt dich.
 %%%%
 You struggle to detach yourself from the web.
-Ihr kämpft darum, Euch vom Gewebe zu lösen.
+Ihr kämpft darum, dich vom Gewebe zu lösen.
 %%%%
 You shred the net and break free!
 Ihr zerfetzt das Netz und brecht aus!
@@ -17123,7 +17123,7 @@ Ihr vermeidet es, {acc}%s auszulösen.
 %s vermeidet das Auslösen von {dat}%s.
 %%%%
 %s shoots out and misses you.
-%s schießt heraus und vermisst Euch.
+%s schießt heraus und vermisst dich.
 %%%%
 %s shoots out and hits your shield.
 %s schießt heraus und trifft deinen Schild.
@@ -17135,7 +17135,7 @@ Ihr vermeidet es, {acc}%s auszulösen.
 %s schießt heraus und trifft den Schild von jemandem.
 %%%%
 %s shoots out and hits you!
-%s schießt heraus und trifft Euch!
+%s schießt heraus und trifft dich!
 %%%%
 %s hits %s but does no damage!
 %s trifft %s, verursacht aber keinen Schaden!
@@ -17251,7 +17251,7 @@ Sorry, I don't know how to traverse that place.
 Entschuldigung, ich weiß nicht, wie diesen Ort durchzuqueren ist.
 %%%%
 Calm down first, please.
-Beruhige Euch bitte zuerst.
+Beruhige dich bitte zuerst.
 %%%%
 Level %d of %s
 Ebene %d von {dat}%s
@@ -17307,16 +17307,16 @@ There is %s.
 Da ist %s.
 %%%%
 %s warns you: %s
-%s warnt Euch: %s
+%s warnt dich: %s
 %%%%
 %s come into view.
 %s kommen in Sicht.
 %%%%
 Gozag incites your enemies against you.
-Gozag hetzt deine Feinde gegen Euch auf.
+Gozag hetzt deine Feinde gegen dich auf.
 %%%%
 You feel aware of your surroundings.
-Ihr fühlt Euch deiner Umgebung bewusst.
+Ihr fühlt dich deiner Umgebung bewusst.
 %%%%
 1 altar
 1 Altar
@@ -17460,7 +17460,7 @@ Einzige Treffer ist '%s'. Benutzen?
 "Keine exakte Treffer für '%s'. Möglichkeiten sind: "
 %%%%
 Placing %s on top of you would put part of the map outside of the level, cancelling.
-%s auf Euch zu platzieren, würde ein Teil der Karte außerhalb der Ebene stellen. Abgebrochen.
+%s auf dich zu platzieren, würde ein Teil der Karte außerhalb der Ebene stellen. Abgebrochen.
 %%%%
 %s decides where it goes, can't place where you are.
 %s entscheidet, wohin es geht, kann nicht platziert werden, wo Ihr seid.
@@ -17852,7 +17852,7 @@ The monster is invisible and likely won't speak.
 Das Monster ist unsichtbar und wird wahrscheinlich nicht sprechen.
 %%%%
 You are silenced but the monster isn't; you will probably hear/see nothing.
-Ihr befindet Euch in Stille, aber das Monster ist nicht; Ihr werdet wahrscheinlich nichts hören/sehen.
+Ihr befindet dich in Stille, aber das Monster ist nicht; Ihr werdet wahrscheinlich nichts hören/sehen.
 %%%%
 The monster is silenced and likely won't say anything.
 Das Monster befindet sich in Stille und wird wahrscheinlich nichts sagen.
@@ -17870,7 +17870,7 @@ Ihr and das Monster befindet euch in Stille. Also, Ihr werdet wahrscheinlich nic
 "Segen von (B)eogh, dem (S)trahlenden oder (R)andom anwenden?
 %%%%
 %s won't bless this monster for you!
-%s wird dieses Monster für Euch nicht segnen!
+%s wird dieses Monster für dich nicht segnen!
 %%%%
 That type of monster can't use any items.
 Diese Art Monster kann keine Gegenstände benutzen.
@@ -17894,7 +17894,7 @@ Already doing a move command.
 Einen Bewegungsbefehl wird schon ausgeführt.
 %%%%
 You can't move yourself into the arena.
-Ihr könnt Euch nicht in die Arena bewegen.
+Ihr könnt dich nicht in die Arena bewegen.
 %%%%
 Monster is already summoned.
 Monster ist schon gerufen.
@@ -18371,7 +18371,7 @@ Kann nicht nochmal in den Erkundungsmodus eintreten.
 <w>u</w>/<w>d</w>    Ebene nach oben/unten gehen
 %%%%
 <w>Ctrl-B</w> banish yourself to the Abyss
-<w>Ctrl-B</w> Euch in den Abgrund verbannen
+<w>Ctrl-B</w> dich in den Abgrund verbannen
 %%%%
 <w>Ctrl-S</w> change Abyss speed
 <w>Ctrl-S</w> Tempo der Zeit im Angrund ändern
@@ -18389,7 +18389,7 @@ Kann nicht nochmal in den Erkundungsmodus eintreten.
 <w>c</w>      Karte-Effekt
 %%%%
 <w>h</w>/<w>H</w>    heal yourself (super-Heal)
-<w>h</w>/<w>H</w>    Euch heilen (super-Heal)
+<w>h</w>/<w>H</w>    dich heilen (super-Heal)
 %%%%
 <w>X</w>      make Xom do something now
 <w>X</w>      Xom erzwingen etwas zu tun
@@ -18682,10 +18682,10 @@ From the corner of your eye you spot something lurking in the deep water.
 Aus den Augenwinkeln seht Ihr etwas im tiefen Wasser lauern.
 %%%%
 The idol of Beogh turns to glare at you.
-Das Idol von Beogh dreht sich um und starrt Euch an.
+Das Idol von Beogh dreht sich um und starrt dich an.
 %%%%
 The granite statue turns to stare at you.
-Die Granitstatue dreht sich um und starrt Euch an.
+Die Granitstatue dreht sich um und starrt dich an.
 %%%%
 Dim shapes swim through the translucent wall.
 Unscharfe Gestalten schwimmen durch die durchsichtige Wand.
@@ -18715,25 +18715,25 @@ The stone arch briefly shows a sunny meadow on the other side.
 Der Steinbogen zeigt kurz eine sonnige Wiese auf der anderen Seite.
 %%%%
 %s seems to fall away from under you!
-%s scheint unter Euch wegzufallen!
+%s scheint unter dir wegzufallen!
 %%%%
 %s seems to rush up at you!
-%s scheint sich auf Euch zu stürzen!
+%s scheint sich auf dich zu stürzen!
 %%%%
 Something invisible splashes into the water beneath you!
-Etwas Unsichtbares plätschert ins Wasser unter Euch!
+Etwas Unsichtbares plätschert ins Wasser unter dir!
 %%%%
 The water briefly recedes away from you.
-Das Wasser weicht kurz von Euch zurück.
+Das Wasser weicht kurz von dir zurück.
 %%%%
 Something invisible splashes into the water beside you!
-Etwas Unsichtbares plätschert neben Euch ins Wasser!
+Etwas Unsichtbares plätschert neben dich ins Wasser!
 %%%%
 %s falls out of your pack, then immediately jumps back in!
 %s fällt aus deinem Rucksack, springt dann aber sofort wieder hinein!
 %%%%
 You briefly get tangled in your bandages.
-Ihr verheddert Euch kurz in deinen Bandagen.
+Ihr verheddert dich kurz in deinen Bandagen.
 %%%%
 You trip over your bandages.
 Ihr stolpert über deine Bandagen.
@@ -18787,7 +18787,7 @@ Das Fell von {dat}%s wächst in beängstigendem Tempo und zieht sich dann wieder
 Fell wächst kurz auf {dat}%s und kehrt dann zurück.
 %%%%
 You briefly become tangled in %s.
-Ihr verheddert Euch kurz in {dat}%s.
+Ihr verheddert dich kurz in {dat}%s.
 %%%%
 %s briefly appears rusty.
 %s erscheint kurzzeitig rostig.
@@ -18805,10 +18805,10 @@ Ihr verheddert Euch kurz in {dat}%s.
 %s vibrieren kurz.
 %%%%
 %s slides away from you!
-%s rutscht von Euch weg!
+%s rutscht von dir weg!
 %%%%
 %s slides towards you!
-%s rutscht auf Euch zu!
+%s rutscht auf dich zu!
 %%%%
 %s looks sharp (like it always does).
 %s sieht scharf aus (wie immer).
@@ -18820,10 +18820,10 @@ Ihr verheddert Euch kurz in {dat}%s.
 %s sehen scharf aus.
 %%%%
 Xom revives you!
-Xom belebt Euch wieder!
+Xom belebt dich wieder!
 %%%%
 You feel more catlike.
-Ihr fühlt Euch mehr wie eine Katze.
+Ihr fühlt dich mehr wie eine Katze.
 %%%%
 
 ##################
@@ -18958,13 +18958,13 @@ The portal accepts the items and buzzes to life!
 Das Portal nimmt die Gegenstände an und erwacht zum Leben!
 %%%%
 The portal is unable to unshackle you from Ashenzari's curse; you must abandon your deity entirely to enter!
-Das Portal kann Euch nicht von Aschenzaris Fluch befreien; Ihr müsst deine Gottheit aufgeben, um einzutreten!
+Das Portal kann dich nicht von Aschenzaris Fluch befreien; Ihr müsst deine Gottheit aufgeben, um einzutreten!
 %%%%
 This portal proclaims the superiority of the material over the divine; those who enter it will find they have lost all favour with their chosen deity. Enter anyway?
 Dieses Portal verkündet die Überlegenheit des Materiellen gegenüber dem Göttlichen; wer es betritt, wird feststellen, dass er jede Gunst bei seiner gewählten Gottheit verloren hat. Trotzdem eintreten?
 %%%%
 You feel utterly alone.
-Ihr fühlt Euch völlig allein.
+Ihr fühlt dich völlig allein.
 %%%%
 
 ##################
@@ -19046,7 +19046,7 @@ The portcullises are lifted away, releasing the combatants.
 Die Fallgitter werden hochgezogen und die Kämpfer befreit.
 %%%%
 The doors seal shut behind you!
-Die Türen schließen sich hinter Euch!
+Die Türen schließen sich hinter dich!
 %%%%
 Okawaru booms, "Excellent! You may choose a reward."
 Okawaru brummt: „Ausgezeichnet! Du darfst dir eine Belohnung aussuchen.“
@@ -19060,7 +19060,7 @@ Die Tore hinter dem Altar heben sich, und der Eingang öffnet sich wieder.
 ##################
 %%%%
 As you approach the altar, the fountains begin to flow with blood!
-Als Ihr Euch dem Altar nähert, beginnen die Brunnen mit Blut zu fließen!
+Als Ihr dich dem Altar nähert, beginnen die Brunnen mit Blut zu fließen!
 %%%%
 Let the past return from memory!
 Lass die Vergangenheit aus der Erinnerung zurückkehren!
@@ -19069,7 +19069,7 @@ Lass die Vergangenheit aus der Erinnerung zurückkehren!
 \„BETE MICH AN, STERBLICHER,\“ dröhnt Xom, \"UND ICH WERDE DIR DAS GRÖSTE GESCHENK VON ALLEN GEWÄHREN.\“
 %%%%
 A goblin pops into existence! It looks at you with admiration.
-Ein Goblin taucht auf! Er sieht Euch mit Bewunderung an.
+Ein Goblin taucht auf! Er sieht dich mit Bewunderung an.
 %%%%
 \"Friendship. The greatest gift is friendship!\"
 \"Freundschaft. Das größte Geschenk ist die Freundschaft!\"
@@ -19105,7 +19105,7 @@ Flammen brechen aus der leeren Zelle des Zauberers hervor! Trog brüllt vor Frus
 ##################
 %%%%
 Vehumet offers to free you in exchange for your devotion to destruction.
-Vehumet bietet Euch an, Euch im Gegenzug für deine Hingabe an die Zerstörung zu befreien.
+Vehumet bietet dich an, dich im Gegenzug für deine Hingabe an die Zerstörung zu befreien.
 %%%%
 Suddenly, the trees start to burn!
 Plötzlich fangen die Bäume an zu brennen!
@@ -19116,7 +19116,7 @@ Plötzlich fangen die Bäume an zu brennen!
 ##################
 %%%%
 You feel as though Xom is toying with you.
-Ihr habt das Gefühl, dass Xom mit Euch spielt.
+Ihr habt das Gefühl, dass Xom mit dir spielt.
 %%%%
 Suddenly, the walls become transparent!
 Plötzlich werden die Wände durchsichtig!
@@ -19141,7 +19141,7 @@ Ihr hört verrücktes göttliches Kichern.
 ##################
 %%%%
 You sense Yredelemnul urging you to kill the trapped human.
-Ihr spürt, dass Yredelemnul Euch dazu drängt, den gefangenen Menschen zu töten.
+Ihr spürt, dass Yredelemnul dich dazu drängt, den gefangenen Menschen zu töten.
 %%%%
 Yredelemnul welcomes your deed!
 Yredelemnul begrüßt deine Tat!
@@ -19328,7 +19328,7 @@ You hear the roar of battle.
 Ihr hört das Gebrüll der Schlacht.
 %%%%
 There is an entrance to a bailey on this level. Hurry and find it before the portal closes forever!
-Auf dieser Ebene gibt es einen Eingang zu einem Burghof. Beeilt Euch und findet ihn, bevor sich das Portal für immer schließt!
+Auf dieser Ebene gibt es einen Eingang zu einem Burghof. Beeilt dich und findet ihn, bevor sich das Portal für immer schließt!
 %%%%
 The portcullis has been lowered almost to the ground.
 Das Fallgitter wurde fast bis zum Boden heruntergelassen.
@@ -19360,7 +19360,7 @@ You hear coins being counted.
 Ihr hört, wie Münzen gezählt werden.
 %%%%
 An interdimensional caravan has stopped on this level and set up a bazaar. Hurry and find its entrance before they move on!
-Eine interdimensionale Karawane hat auf dieser Ebene Halt gemacht und einen Basar aufgebaut. Beeilt Euch und findet den Eingang, bevor sie weiterziehen!
+Eine interdimensionale Karawane hat auf dieser Ebene Halt gemacht und einen Basar aufgebaut. Beeilt dich und findet den Eingang, bevor sie weiterziehen!
 %%%%
 You hear the last, dying notes of the bell.
 Ihr hört die letzten, verklingenden Töne der Glocke.
@@ -19392,7 +19392,7 @@ You hear a distant wind.
 Ihr hört einen entfernten Wind.
 %%%%
 There is a portal to the Desolation of Salt on this level. Hurry and find it before the gateway collapses!
-Auf dieser Ebene gibt es ein Portal zur Verwüstung des Salzes. Beeilt Euch und findet es, bevor das Tor einstürzt!
+Auf dieser Ebene gibt es ein Portal zur Verwüstung des Salzes. Beeilt dich und findet es, bevor das Tor einstürzt!
 %%%%
 The wind is rapidly growing quiet.
 Der Wind wird schnell leiser.
@@ -19453,7 +19453,7 @@ You feel a wave of frost pass over you.
 Ihr spürt, wie eine Welle der Kälte über euch hereinbricht.
 %%%%
 There is an entrance to an ice cave on this level. Hurry and find it before the portal melts!
-Auf dieser Ebene gibt es einen Eingang zu einer Eishöhle. Beeilt Euch und findet ihn, bevor das Portal schmilzt!
+Auf dieser Ebene gibt es einen Eingang zu einer Eishöhle. Beeilt dich und findet ihn, bevor das Portal schmilzt!
 %%%%
 The crackling of melting ice is subsiding rapidly.
 Das Knistern des schmelzenden Eises lässt schnell nach.
@@ -19485,7 +19485,7 @@ You hear the hiss of flowing sand.
 Ihr hört das Zischen von fließendem Sand.
 %%%%
 There is an entrance to an ossuary on this level. Hurry and find it before the portal is buried!
-Auf dieser Ebene gibt es einen Eingang zu einem Beinhaus. Beeilt Euch und findet ihn, bevor das Portal begraben wird!
+Auf dieser Ebene gibt es einen Eingang zu einem Beinhaus. Beeilt dich und findet ihn, bevor das Portal begraben wird!
 %%%%
 The hiss of flowing sand is almost imperceptible now.
 Das Zischen des fließenden Sandes ist jetzt fast nicht mehr wahrnehmbar.
@@ -19520,7 +19520,7 @@ You hear the sound of rushing water.
 Ihr hört das Geräusch von rauschendem Wasser.
 %%%%
 There is an entrance to a sewer on this level. Hurry and find it before the portal rusts away!
-Auf dieser Ebene gibt es einen Eingang zu einem Abwasserkanal. Beeilt Euch und findet ihn, bevor das Portal wegrostet!
+Auf dieser Ebene gibt es einen Eingang zu einem Abwasserkanal. Beeilt dich und findet ihn, bevor das Portal wegrostet!
 %%%%
 You hear the drain falling apart.
 Ihr hört, wie der Abfluss zerfällt.
@@ -19549,10 +19549,10 @@ You hear the @adjective@rumble of an avalanche of rocks very nearby.
 Ihr hört das @adjective@Grollen einer Steinlawine ganz in der Nähe.
 %%%%
 You feel an oppressive heat about you.
-Ihr spürt eine drückende Hitze um Euch herum.
+Ihr spürt eine drückende Hitze um dich herum.
 %%%%
 There is an entrance to a volcano on this level. Hurry and find it before the entrance collapses!
-Auf dieser Ebene gibt es einen Eingang zu einem Vulkan. Beeilt Euch und findet ihn, bevor der Eingang zusammenbricht!
+Auf dieser Ebene gibt es einen Eingang zu einem Vulkan. Beeilt dich und findet ihn, bevor der Eingang zusammenbricht!
 %%%%
 The sound of falling rocks suddenly begins to subside.
 Das Geräusch von fallenden Steinen wird plötzlich leiser.
@@ -19611,7 +19611,7 @@ You hear the crackle of arcane power.
 Ihr hört das Knistern arkaner Macht.
 %%%%
 There is an entrance to a wizard's laboratory on this level! Hurry and find it before the portal closes forever!
-Auf dieser Ebene gibt es einen Eingang zum Labor eines Zauberers! Beeilt Euch und findet ihn, bevor sich das Portal für immer schließt!
+Auf dieser Ebene gibt es einen Eingang zum Labor eines Zauberers! Beeilt dich und findet ihn, bevor sich das Portal für immer schließt!
 %%%%
 The crackle of the magical portal is almost imperceptible now.
 Das Knistern des magischen Portals ist jetzt kaum noch zu hören.
@@ -19665,7 +19665,7 @@ The walls vibrate.
 Die Wände vibrieren.
 %%%%
 Strange, shadowy figures dance through the air in front of you.
-Seltsame, schattenhafte Gestalten tanzen vor Euch durch die Luft.
+Seltsame, schattenhafte Gestalten tanzen vor dir durch die Luft.
 %%%%
 This room is filled with shadowy figures, quietly meditating.
 Dieser Raum ist voll von schattenhaften Gestalten, die still meditieren.
@@ -19683,7 +19683,7 @@ Grey monks gather around the fountain. They do not speak, nor look at each other
 Graue Mönche versammeln sich um den Springbrunnen. Sie sprechen nicht und sehen sich nicht an.
 %%%%
 A figure sits in silent meditation. It spots you, gestures wildly, and disappears.
-Eine Gestalt sitzt in stiller Meditation. Sie sieht Euc, gestikuliert wild und verschwindet.
+Eine Gestalt sitzt in stiller Meditation. Sie sieht dich, gestikuliert wild und verschwindet.
 %%%%
 One of the shadowy figures appears more solid!
 Eine der schattenhaften Gestalten erscheint fester!
@@ -19733,7 +19733,7 @@ You now have 1 arena point.
 Ihr habt jetzt 1 Arenapunkt.
 %%%%
 <white>The arena falls silent. Everyone but you is dead.</white>
-<white>Die Arena wird still. Alle außer Euch sind tot.</white>
+<white>Die Arena wird still. Alle außer dir sind tot.</white>
 %%%%
 <white>There is nothing to do now but take the Orb and leave.</white>
 <white>Es bleibt nichts anderes übrig, als die Kugel zu nehmen und zu gehen.</white>
@@ -19810,13 +19810,13 @@ Wenn es eine Blitzrunde ist, müsst Ihr nur überleben!</cyan>
 <red>@border_top@</lightred><red>                          --
 %%%%
 The Orb of Zot has appeared underneath you.
-Die Kugel von Zot ist unter Euch erschienen.
+Die Kugel von Zot ist unter dir erschienen.
 %%%%
 <red>@border_top@</lightred><red>                   --
 <red>@border_top@</lightred><red>                   --
 %%%%
 <lightgreen>The slimy rune of Zot has appeared underneath you.</lightgreen>
-<lightgreen>Die schleimige Rune von Zot ist unter Euch erschienen.</lightgreen>
+<lightgreen>Die schleimige Rune von Zot ist unter dir erschienen.</lightgreen>
 %%%%
 <red>@border_top@</lightred><red>                       --
 <red>@border_top@</lightred><red>                       --
@@ -19912,7 +19912,7 @@ Welcome to arena @arena_number@.
 Willkommen in Arena @arena_number@.
 %%%%
 <magenta>An exit appears before you!</magenta>
-<magenta>Ein Ausgang erscheint vor Euch!</magenta>
+<magenta>Ein Ausgang erscheint vor dir!</magenta>
 %%%%
 
 ##################

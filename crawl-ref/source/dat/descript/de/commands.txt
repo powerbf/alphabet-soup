@@ -40,7 +40,7 @@ Nach Gegenständen/Strukture suchen
 CMD_SEARCH_STASHES verbose
 
 Nach Gegenständen/Strukture suchen, die Ihr woanders gesehen habt. Danach
-Euch dort hin begeben.
+dich dort hin begeben.
 %%%%
 CMD_REPLAY_MESSAGES
 
@@ -146,7 +146,7 @@ Das nächst stehende Monster bekämpfen
 %%%%
 CMD_AUTOFIGHT verbose
 
-Bewegt Euch auf das am nächsten stehende feindselige Monster zu und greift es
+Bewegt dich auf das am nächsten stehende feindselige Monster zu und greift es
 mit deiner ausgerüsteten Waffe an.
 %%%%
 CMD_AUTOFIGHT_NOMOVE
@@ -155,7 +155,7 @@ Das benachbarte Monster bekämpfen
 %%%%
 CMD_AUTOFIGHT_NOMOVE verbose
 
-Greift das neben Euch stehende Monster mir deiner ausgerüsteten Waffe an.
+Greift das neben dich stehende Monster mir deiner ausgerüsteten Waffe an.
 %%%%
 CMD_WAIT
 
@@ -211,7 +211,7 @@ Gegenstand ablegen
 %%%%
 CMD_DROP verbose
 
-Einen oder mehrere Gegenstände, die Ihr gerade bei Euch habt, ablegen.
+Einen oder mehrere Gegenstände, die Ihr gerade bei dir habt, ablegen.
 %%%%
 CMD_DISPLAY_MAP
 
@@ -227,11 +227,11 @@ Eine Karte der aktuellen Ebene anzeigen.
 %%%%
 CMD_MAP_GOTO_TARGET
 
-Euch bis zum Cursor bewegen
+dich bis zum Cursor bewegen
 %%%%
 CMD_MAP_GOTO_TARGET verbose
 
-Euch bis zur aktuellen Position des Cursors bewegen.
+dich bis zur aktuellen Position des Cursors bewegen.
 %%%%
 CMD_MAP_EXPLORE
 
