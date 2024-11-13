@@ -6242,19 +6242,19 @@ Welcome back! If it's been a while, you may want to refresh your memory.
 Willkommen zurück! Wenn es eine Weile her ist, solltet Ihr vielleicht Euer Gedächtnis auffrischen.
 %%%%
 Your <w>%</w>nventory
-Euer Inventar (<w>%</w>)
+Dein Inventar (<w>%</w>)
 %%%%
 your spells (<w>%?</w>)
-Eure Zauber (<w>%?</w>)
+deine Zauber (<w>%?</w>)
 %%%%
 your <w>%</w>bilities
-Eure Fähigkeiten (<w>%</w>)
+deine Fähigkeiten (<w>%</w>)
 %%%%
 your set of mutations (<w>%</w>)
-Euer Mutationssatz (<w>%</w>)
+dein Mutationssatz (<w>%</w>)
 %%%%
 your religious standing (<w>%</w>)
-Euer religiöses Ansehen (<w>%</w>)
+dein religiöses Ansehen (<w>%</w>)
 %%%%
 the message history (<w>%</w>)
 die Nachrichtenhistorie (<w>%</w>)
@@ -7809,13 +7809,13 @@ Ihr verschlingt {acc}%s in Schlamm!
 , fügt aber keinen Schaden zu.
 %%%%
 your grab
-Euer Umschlingsversuch
+dein Umschlingsversuch
 %%%%
 You grab %s
 Ihr umschlingt {acc}%s
 %%%%
 your kick
-Euer Tritt
+dein Tritt
 %%%%
 You kick %s
 Ihr tritt {acc}%s
@@ -7827,37 +7827,37 @@ You pierce %s.
 Ihr stecht {acc}%s durch.
 %%%%
 your tentacle spike
-Euer Tentakel-Stachel
+dein Tentakel-Stachel
 %%%%
 your headbutt
-Euer Kopfstoß
+dein Kopfstoß
 %%%%
 You headbutt %s
 Ihr versetzt {dat}%s einen Kopfstoß
 %%%%
 your peck
-Euer Picken
+dein Picken
 %%%%
 You peck %s
 Ihr pickt {acc}%s
 %%%%
 your tail-slap
-Euer Schwanzschlag
+dein Schwanzschlag
 %%%%
 You tail-slap %s
 Ihr schlagt {acc}%s mit dem Schwanz
 %%%%
 your punch
-Euer Faustschlag
+dein Faustschlag
 %%%%
 You punch %s
 Ihr boxt {acc}%s
 %%%%
 your slash
-Euer Schnitt
+dein Schnitt
 %%%%
 your tentacle-slap
-Euer Tentakelschlag
+dein Tentakelschlag
 %%%%
 You slash %s
 Ihr schlitzt {acc}%s auf
@@ -7869,19 +7869,19 @@ You tentacle-slap %s
 Ihr schlagt {acc}%s mit Eurem Tentakel
 %%%%
 your bite
-Euer Biss
+dein Biss
 %%%%
 You bite %s
 Ihr beißt {acc}%s
 %%%%
 your bludgeon
-Euer Schlag
+dein Schlag
 %%%%
 You bludgeon %s
 Ihr knüppelt {acc}%s
 %%%%
 your squeeze
-Euer Quetschen
+dein Quetschen
 %%%%
 You squeeze %s
 Ihr zerquetscht %s
@@ -12027,19 +12027,19 @@ the halo
 das Heiligenschein
 %%%%
 your halo
-Euer Heiligenschein
+dein Heiligenschein
 %%%%
 your magical contamination
-Eure magische Verseuchung
+deine magische Verseuchung
 %%%%
 your corona
-Eure Korona
+deine Korona
 %%%%
 the liquid flames
 die flüssige Flammen
 %%%%
 your !!!QUAD DAMAGE!!!
-Eures !!!VIERFACH-SCHADENS!!!
+deines !!!VIERFACH-SCHADENS!!!
 %%%%
 You fade into invisibility!
 Ihr verschwindet in die Unsichtbarkeit!
@@ -15829,10 +15829,10 @@ you don't have enough magic to cast this spell.
 Ihr habt nicht genug Magie, um diesen Zauber zu wirken.
 %%%%
 your magic and health are inextricable.
-Eure Magie und Eure Gesundheit sind untrennbar miteinander verbunden.
+deine Magie und deine Gesundheit sind untrennbar miteinander verbunden.
 %%%%
 your reserves of magic are already full.
-Eure Magiereserven sind bereits voll.
+deine Magiereserven sind bereits voll.
 %%%%
 you cannot use spells of this school.
 Ihr könnt keine Zaubersprüche dieser Schule anwenden.
@@ -15850,10 +15850,10 @@ you can't see any hostile targets that would be affected.
 Ihr könnt keine feindlichen Ziele sehen, die davon betroffen wären.
 %%%%
 your stasis prevents you from teleporting.
-Eure Stasis hindert Euch daran, Euch zu teleportieren.
+deine Stasis hindert Euch daran, Euch zu teleportieren.
 %%%%
 your stasis precludes magical swiftness.
-Eure Stasis schließt magische Schnelligkeit aus.
+deine Stasis schließt magische Schnelligkeit aus.
 %%%%
 this spell is already in effect.
 Dieser Zauber ist bereits in Kraft.
@@ -15871,10 +15871,10 @@ you're already a statue.
 Ihr seid bereits eine Statue.
 %%%%
 your undead flesh cannot be transformed.
-Euer untotes Fleisch kann nicht verwandelt werden.
+dein untotes Fleisch kann nicht verwandelt werden.
 %%%%
 your current blood level is not sufficient.
-Euer aktueller Blutspiegel ist nicht ausreichend.
+dein aktueller Blutspiegel ist nicht ausreichend.
 %%%%
 you lack the necromantic skill to inflict true pain.
 Euch fehlt die nekromantische Fähigkeit, echten Schmerz zuzufügen.
@@ -15907,7 +15907,7 @@ the film of ice won't work on stone.
 Der Eisfilm wirkt nicht auf Stein.
 %%%%
 your ring of flames would instantly melt the ice.
-Euer Ring aus Flammen würde das Eis sofort schmelzen.
+dein Ring aus Flammen würde das Eis sofort schmelzen.
 %%%%
 you have no blood to sublime.
 Ihr habt kein Blut, das Ihr sublimieren könnt.

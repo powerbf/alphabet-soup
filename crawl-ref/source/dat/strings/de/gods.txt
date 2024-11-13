@@ -117,7 +117,7 @@ my god
 mein Gott
 %%%%
 your god
-Euer Gott
+dein Gott
 %%%%
 
 # These are used in messages like "@The_monster@ calls down the wrath of @possessive_God@ upon @target@.",
@@ -260,7 +260,7 @@ eines Gottes
 meines Gottes
 %%%%
 {gen}your god
-Eures Gottes
+deines Gottes
 %%%%
 
 # We use "a god" instead of "his/her/its/their god"
@@ -381,7 +381,7 @@ einen Gott
 meinen Gott
 %%%%
 {acc}your god
-Euren Gott
+deinen Gott
 %%%%
 
 # We use "a god" instead of "his/her/its/their god"
@@ -421,7 +421,7 @@ einem Gott
 meinem Gott
 %%%%
 {dat}your god
-Eurem Gott
+deinem Gott
 %%%%
 
 # We use "a god" instead of "his/her/its/their god"

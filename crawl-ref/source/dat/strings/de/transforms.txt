@@ -131,16 +131,16 @@ hands
 Hände
 %%%%
 your hand
-Eure Hand
+deine Hand
 %%%%
 your hands
-{pl}Eure Hände
+{pl}deine Hände
 %%%%
 your weapon hand
-Eure Waffenhand
+deine Waffenhand
 %%%%
 your shield hand
-Eure Schildhand
+deine Schildhand
 %%%%
 
 # claw (troll/ghoul)
@@ -152,16 +152,16 @@ claws
 Krallen
 %%%%
 your claw
-Eure Kralle
+deine Kralle
 %%%%
 your claws
-{pl}Eure Krallen
+{pl}deine Krallen
 %%%%
 your weapon claw
-Eure Waffenkralle
+deine Waffenkralle
 %%%%
 your shield claw
-Eure Schildkralle
+deine Schildkralle
 %%%%
 
 # paw (felid)
@@ -173,10 +173,10 @@ paws
 Pfoten
 %%%%
 your paw
-Eure Pfote
+deine Pfote
 %%%%
 your paws
-{pl}Eure Pfoten
+{pl}deine Pfoten
 %%%%
 
 # tentacle (octopode)
@@ -193,16 +193,16 @@ Haupttentakeln
 %%%%
 # duplicate: also a monster
 #your tentacle
-#Euer Tentakel
+#dein Tentakel
 %%%%
 your tentacles
-{pl}Eure Tentakel
+{pl}deine Tentakel
 %%%%
 your weapon tentacle
-Euer Waffententakel
+dein Waffententakel
 %%%%
 your shield tentacle
-Euer Schildtentakel
+dein Schildtentakel
 %%%%
 
 # skin
@@ -226,19 +226,19 @@ Haut
 # your skin
 %%%%
 your scales
-{pl}Eure Schuppen
+{pl}deine Schuppen
 %%%%
 your feathers
-{pl}Eure Federn
+{pl}deine Federn
 %%%%
 your fur
-{n}Euer Fell
+{n}dein Fell
 %%%%
 your bandages
-{pl}Eure Bandagen
+{pl}deine Bandagen
 %%%%
 your skin
-Eure Haut
+deine Haut
 %%%%
 
 ################################
@@ -281,16 +281,16 @@ front legs
 Vorderbeine
 %%%%
 your front leg
-{n}Euer Vorderbein
+{n}dein Vorderbein
 %%%%
 your front legs
-{pl}Eure Vorderbeine
+{pl}deine Vorderbeine
 %%%%
 your weapon front leg
-{n}Euer Waffenvorderbein
+{n}dein Waffenvorderbein
 %%%%
 your shield front leg
-{n}Euer Schildvorderbein
+{n}dein Schildvorderbein
 %%%%
 # flesh type
 flesh
@@ -341,16 +341,16 @@ scythe-like blades
 sensenartige Klingen
 %%%%
 your scythe-like blade
-Eure sensenartige Klinge
+deine sensenartige Klinge
 %%%%
 your scythe-like blades
-{pl}Eure sensenartige Klingen
+{pl}deine sensenartige Klingen
 %%%%
 your weapon scythe-like blade
-Eure sensenartige Waffenklinge
+deine sensenartige Waffenklinge
 %%%%
 your shield scythe-like blade
-Eure sensenartige Schildklinge
+deine sensenartige Schildklinge
 %%%%
 
 ################################
@@ -430,16 +430,16 @@ front paws
 Vorderpfoten
 %%%%
 your front paw
-Eure Vorderpfote
+deine Vorderpfote
 %%%%
 your front paws
-{pl}Eure Vorderpfoten
+{pl}deine Vorderpfoten
 %%%%
 your weapon front paw
-Eure Waffenvorderpfote
+deine Waffenvorderpfote
 %%%%
 your shield front paw
-Eure Schildvorderpfote
+deine Schildvorderpfote
 %%%%
 # foot equivalent
 # duplicate: felids also have paws
@@ -486,16 +486,16 @@ foreclaws
 Vorderkrallen
 %%%%
 your foreclaw
-Eure Vorderkralle
+deine Vorderkralle
 %%%%
 your foreclaws
-{pl}Eure Vorderkrallen
+{pl}deine Vorderkrallen
 %%%%
 your weapon foreclaw
-Eure Waffenvorderkralle
+deine Waffenvorderkralle
 %%%%
 your shield foreclaw
-Eure Schildvorderkralle
+deine Schildvorderkralle
 %%%%
 
 # draconians transform into specific types of dragon based on their colour
@@ -624,16 +624,16 @@ front trotters
 Vorderfüße
 %%%%
 your front trotter
-Euer Vorderfuß
+dein Vorderfuß
 %%%%
 your front trotters
-{pl}Eure Vorderfüße
+{pl}deine Vorderfüße
 %%%%
 your weapon front trotter
-Euer Waffenvorderfuß
+dein Waffenvorderfuß
 %%%%
 your shield front trotter
-Euer Schildvorderfuß
+dein Schildvorderfuß
 %%%%
 # foot-equivalent
 trotter
@@ -716,16 +716,16 @@ branches
 Zweige
 %%%%
 your branch
-Euer Zweig
+dein Zweig
 %%%%
 your branches
-{pl}Eure Zweige
+{pl}deine Zweige
 %%%%
 your weapon branch
-Euer Waffenzweig
+dein Waffenzweig
 %%%%
 your shield branch
-Euer Schildzweig
+dein Schildzweig
 %%%%
 # foot-equivalent
 root
@@ -797,16 +797,16 @@ misty tendrils
 Nebelranken
 %%%%
 your misty tendril
-Eure Nebelranke
+deine Nebelranke
 %%%%
 your misty tendrils
-{pl}Eure Nebelranken
+{pl}deine Nebelranken
 %%%%
 your weapon misty tendril
-Eure Waffennebelranke
+deine Waffennebelranke
 %%%%
 your shield misty tendril
-Eure Schildnebelranke
+deine Schildnebelranke
 %%%%
 # foot
 strand
@@ -876,16 +876,16 @@ hyphae
 Hyphen
 %%%%
 your hypha
-Eure Hyphe
+deine Hyphe
 %%%%
 your hyphae
-{pl}Eure Hyphen
+{pl}deine Hyphen
 %%%%
 your weapon hypha
-Eure Waffenhyphe
+deine Waffenhyphe
 %%%%
 your shield hypha
-Eure Schildhyphe
+deine Schildhyphe
 %%%%
 
 ################################
@@ -961,7 +961,7 @@ Sturmfäuste
 %%%%
 # description
 your old self
-Euer altes Ich
+dein altes Ich
 %%%%
 
 ################################
