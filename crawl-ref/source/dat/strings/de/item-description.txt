@@ -96,13 +96,13 @@ It protects you from mutation.
 Dieser Gegenstand schützt dich vor Mutation.
 %%%%
 It may corrode you when you take damage.
-Dieser Gegenstand kann dich korrodieren wenn Ihr Schaden nimmt.
+Dieser Gegenstand kann dich korrodieren wenn du Schaden nimmst.
 %%%%
 It drains your maximum health when unequipped.
 Dieser Gegenstand entzieht dich die Maximale Gesundheit, wenn er abgelegt wird.
 %%%%
 It may slow you when you take damage.
-Dieser Gegenstand kann dich verlangsamen, wenn Ihr Schaden nimmt.
+Dieser Gegenstand kann dich verlangsamen, wenn du Schaden nimmst.
 %%%%
 It will be destroyed if unequipped.
 Dieser Gegenstand wird zerstört, wenn er abgelegt wird.
@@ -360,7 +360,7 @@ It is a weapon for two hand-pairs.
 Sie ist eine Waffe für zwei Handpaare.
 %%%%
 It is too large for you to wield.
-Eine so große Waffe könnt Ihr nicht führen.
+Eine so große Waffe kannst du nicht führen.
 %%%%
 
 # projectiles (ammo + thrown weapons)
@@ -418,22 +418,22 @@ Evasion: %d
 Ausweichen: %d
 %%%%
 If you switch to wearing this armour, your AC would increase by %d (%d -> %d).
-Wenn Ihr zu dieser Rüstung wechselt, würde deine RK um %d erhöht (%d -> %d).
+Wenn du zu dieser Rüstung wechselst, würde deine RK um %d erhöht (%d -> %d).
 %%%%
 If you switch to wearing this armour, your AC would decrease by %d (%d -> %d).
-Wenn Ihr zu dieser Rüstung wechselt, würde deine RK um %d reduziert (%d -> %d).
+Wenn du zu dieser Rüstung wechselst, würde deine RK um %d reduziert (%d -> %d).
 %%%%
 If you switch to wearing this armour, your AC would remain unchanged.
-Wenn Ihr zu dieser Rüstung wechselt, bleibt deine RK unverändert.
+Wenn du zu dieser Rüstung wechselst, bleibt deine RK unverändert.
 %%%%
 If you remove this armour, your AC would increase by %d (%d -> %d).
-Wenn Ihr diese Rüstung ablegt, würde deine RK um %d erhöht (%d -> %d).
+Wenn du diese Rüstung ablegst, würde deine RK um %d erhöht (%d -> %d).
 %%%%
 If you remove this armour, your AC would decrease by %d (%d -> %d).
-Wenn Ihr diese Rüstung ablegt, würde deine RK um %d reduziert (%d -> %d).
+Wenn du diese Rüstung ablegst, würde deine RK um %d reduziert (%d -> %d).
 %%%%
 If you remove this armour, your AC would remain unchanged.
-Wenn Ihr diese Rüstung ablegt, bleibt deine RK unverändert.
+Wenn du diese Rüstung ablegst, bleibt deine RK unverändert.
 %%%%
 it protects its wearer from fire.
 diese Rüstung schützt den Träger vor Feuer.
@@ -537,16 +537,16 @@ Your (base) skill: %d.%d
 Deine (Grund-)Fertigkeit: %d,%d
 %%%%
 At %d%% training you would reach %d.%d in the equivalent of %d.%d XLs.
-Bei %d%% Training würdet Ihr %d,%d im Äquivalent von %d,%d XL erreichen.
+Bei %d%% Training würdest du %d,%d im Äquivalent von %d,%d XL erreichen.
 %%%%
 At %d%% training you would reach %d.%d in about %d.%d XLs.
-Bei %d%% Training würdet Ihr %d,%d in etwa %d,%d XL erreichen.
+Bei %d%% Training würdest du %d,%d in etwa %d,%d XL erreichen.
 %%%%
 At current training (%d%%) you reach %d.%d in the equivalent of %d.%d XLs.
-Beim aktuellen Training (%d%%) erreicht Ihr %d,%d im Äquivalent von %d,%d XL.
+Beim aktuellen Training (%d%%) erreichst du %d,%d im Äquivalent von %d,%d XL.
 %%%%
 At current training (%d%%) you reach %d.%d in about %d.%d XLs.
-Beim aktuellen Training (%d%%) erreicht Ihr %d,%d in etwa %d,%d XL.
+Beim aktuellen Training (%d%%) erreichst du %d,%d in etwa %d,%d XL.
 %%%%
 # xp = experience points, skp = skill points
 (%d xp, %d skp)
@@ -581,10 +581,10 @@ Dieser Gegenstand kann Geschosse reflektieren wenn sie blockiert werden.
 %%%%
 # potion of lignification
 If you quaff this potion your AC would be %d.
-Wenn Ihr diesen Trank trinkt, ist dein RK %d.
+Wenn du diesen Trank trinkst, ist dein RK %d.
 %%%%
 If you drink this now, you will no longer be %s.
-Wenn Ihr ihn jetzt trinkt, werdet Ihr nicht mehr %s sein.
+Wenn du ihn jetzt trinkst, wirst du nicht mehr %s sein.
 %%%%
 Drinking this now will have no effect.
 Ihn jetz zu trinken, würde keine Auswirkungen haben.
@@ -617,7 +617,7 @@ Once activated, this device and all other devices of its kind are rendered tempo
 Nach der Aktivierung, werden dieses Gerät und alle anderen Geräte dieser Art vorübergehend inaktiv.
 %%%%
 " However, they recharge as you gain experience."
-" Sie laden sich jedoch wieder auf, wenn Ihr an Erfahrung gewinnt."
+" Sie laden sich jedoch wieder auf, wenn du an Erfahrung gewinnst."
 %%%%
 " The device is presently inert."
 " Das Gerät ist derzeit inaktiv."
