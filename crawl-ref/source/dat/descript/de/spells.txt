@@ -37,8 +37,8 @@ eingesetzt.
 %%%%
 Animate Armour spell
 
-Ruft den Geist Eurer getragene Rüstung herbei, um an Eurer Seite zu kämpfen. Der
-Geist bewegt sich langsam, bezieht aber Kraft aus dem inhärenten Schutz Eurer
+Ruft den Geist deiner getragene Rüstung herbei, um an deiner Seite zu kämpfen. Der
+Geist bewegt sich langsam, bezieht aber Kraft aus dem inhärenten Schutz deiner
 eigenen Rüstung. Bei höherer Kraft wird der Geist widerstandsfähiger.
 %%%%
 Animate Dead spell
@@ -1062,7 +1062,7 @@ sie ausmanövrieren. Die Kugeln brauchen etwas Zeit, um sich zu stabilisieren,
 und eine entstehende Kugel verursacht weniger Schaden.
 
 Bewohner des Dungeons können die Kugel behalten, bis sie ein Ziel trifft, doch
-wenn Ihr sie zaubert, löst sie sich auf, sobald sie Euer Sichtfeld verlässt.
+wenn Ihr sie zaubert, löst sie sich auf, sobald sie dein Sichtfeld verlässt.
 %%%%
 Orb of Electricity spell
 

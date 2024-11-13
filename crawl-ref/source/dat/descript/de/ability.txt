@@ -115,7 +115,7 @@ Rolling Charge ability
 
 Ihr rollt mit Schuppenklappern auf einen Gegner zu und
 schlagt ihn im Nahkampf mit erhöhter Treffsicherheit. Je größer die Entfernung
-ist, desto mehr Schwung wird der Wucht Eures Schlags hinzugefügt. Ihr
+ist, desto mehr Schwung wird der Wucht deines Schlags hinzugefügt. Ihr
 rollt mit ausreichender Geschwindigkeit, um Fallen und schädlichem Terrain auf
 dem Weg auszuweichen, nicht aber am Zielort.
 %%%%
@@ -139,7 +139,7 @@ Erzeugt eine mächtige Gewitterwolke um den Anwender herum.
 %%%%
 End Transformation ability
 
-Lässt Euch in Eure normale Form zurückkehren.
+Lässt Euch in deine normale Form zurückkehren.
 %%%%
 # Zin
 Recite ability
@@ -157,7 +157,7 @@ wird durch die Fertigkeit Anrufungen und durch Frömmigkeit erhöht.
 Vitalisation ability
 
 Bietet vorübergehend Schutz vor Gift, Verwirrung, Versteinerung und Krankheit
-sowie vor den Wirkungen von Pestilenzwolken. Eure Stärke, Intelligenz und
+sowie vor den Wirkungen von Pestilenzwolken. deine Stärke, Intelligenz und
 Geschicklichkeit werden außerdem vorübergehend um einen Grad erhöht, der von
 der Fertigkeit Anrufungen abhängt, und können nicht ausgezehrt werden,
 solange der Effekt aktiv ist.
@@ -175,13 +175,13 @@ wenn Ihr den göttlichen Frieden brecht.
 %%%%
 Cure All Mutations ability
 
-Heilt all Eure Mutationen - aber nur einmal.
+Heilt all deine Mutationen - aber nur einmal.
 %%%%
 # The Shining One
 Divine Shield ability
 
 Gewährt vorübergehend einen göttlichen Schild. Da er von der Macht des
-Strahlenden in der Luft gehalten wird, beeinträchtigt er Eure Ausrüstung
+Strahlenden in der Luft gehalten wird, beeinträchtigt er deine Ausrüstung
 nicht, funktioniert ansonsten aber wie ein normaler physischer Schild. Die
 Stärke und Dauer des Schildes werden durch die Fertigkeit Anrufungen erhöht.
 %%%%
@@ -201,7 +201,7 @@ noch längeren Aufenthalt segnet.
 %%%%
 Brand Weapon With Holy Wrath ability
 
-Segnet eine Waffe Eurer Wahl dauerhaft mit dem heiligen Zorn des Strahlenden.
+Segnet eine Waffe deiner Wahl dauerhaft mit dem heiligen Zorn des Strahlenden.
 Dämonenwaffen werden in eine mächtigere heilige Waffe umgewandelt. Dieser
 Segen kann nur einmal verwendet werden und er kann nicht auf Artefaktwaffen
 angewendet werden.
@@ -217,12 +217,12 @@ Torment ability
 Opfert einen Kadaver, um allen Lebewesen in Sichtweite alle Schmerzen
 zuzufügen, die jenes Wesen in seinem Leben erlitten hat. Dieser Schaden ist
 niemals direkt tödlich. Kikubaaqudgha kann Euch vor diesem Effekt schützen,
-je nach Eurer Frömmigkeit.
+je nach deiner Frömmigkeit.
 .
 %%%%
 Brand Weapon With Pain ability
 
-Besudelt eine Waffe Eurer Wahl dauerhaft mit der Essenz des Schmerzes.
+Besudelt eine Waffe deiner Wahl dauerhaft mit der Essenz des Schmerzes.
 Dieser Segen kann nicht auf Artefaktwaffen angewendet werden. Ihr
 müsst zwischen dieser Gabe und der Kenntnis der mächtigsten nekromantischen
 Zaubersprüche wählen und beide Gaben können nur einmal empfangen werden.
@@ -247,7 +247,7 @@ Umgebung zurück.
 Injury Mirror ability
 
 Reflektiert den erlittenen Schaden für eine kurze Dauer, wodurch Angreifer jedes
-Mal verletzt werden, wenn Ihr Schaden nehmt und Eure Frömmigkeit in
+Mal verletzt werden, wenn Ihr Schaden nehmt und deine Frömmigkeit in
 Abhängigkeit von der Höhe des erlittenen Schadens reduziert wird.
 %%%%
 Animate Dead ability
@@ -266,7 +266,7 @@ Markiert die Seele eines Monsters als reif zur Versklavung. Intelligente lebende
 heilige und dämonische Monster können markiert werden (mit Ausnahme der
 meisten Fürsten des Pandämoniums), solange sie relativ unverletzt sind. Die
 Dauer der Markierung hängt von der Fertigkeit Anrufungen ab. Wenn das Monster
-stirbt, während es noch markiert ist, geht seine Seele in Euren Besitz über.
+stirbt, während es noch markiert ist, geht seine Seele in deinen Besitz über.
 
 Die versklavte Seele behält ihre Begabungen, Ausrüstung und
 Fähigkeiten sowie einen Teil ihrer angeborenen Heilung. Es kann
@@ -275,12 +275,12 @@ jedoch immer nur eine Seele versklavt werden.
 # Okawaru
 Heroism ability
 
-Erhöht vorübergehend alle Eure Kampffertigkeiten, sowohl offensiv als auch
+Erhöht vorübergehend alle deine Kampffertigkeiten, sowohl offensiv als auch
 defensiv. Die Effektdauer wird durch die Fertigkeit Anrufungen erhöht.
 %%%%
 Finesse ability
 
-Erhöht Eure Kampfgeschwindigkeit erheblich. Die Effektdauer wird durch die
+Erhöht deine Kampfgeschwindigkeit erheblich. Die Effektdauer wird durch die
 Fertigkeit Anrufungen erhöht.
 %%%%
 # Makhleb
@@ -318,8 +318,8 @@ Erlernen anderer Zauber freizugeben.
 %%%%
 Divine Exegesis ability
 
-Wirkt einen beliebigen Zauber aus Eurer Zaubersammlung mit garantiertem Erfolg.
-Ihr erhaltet einen Bonus auf die Zaubermacht, der auf Eurer
+Wirkt einen beliebigen Zauber aus deiner Zaubersammlung mit garantiertem Erfolg.
+Ihr erhaltet einen Bonus auf die Zaubermacht, der auf deiner
 Anrufungen-Fertigkeit basiert und 50% mehr Gewicht hat, als entsprechende
 Stufen in den relevanten Fertigkeiten des Zaubers selbst.
 %%%%
@@ -347,7 +347,7 @@ Ruft riesige wütende Verbündete herbei, um alles zu verwüsten.
 # Elyvilon
 Divine Protection ability
 
-Fleht Elyvilon an, Euer Leben zu retten. Wenn Ihr tödlich verwundet werdet, kann
+Fleht Elyvilon an, dein Leben zu retten. Wenn Ihr tödlich verwundet werdet, kann
 der Heiler den tödlichen Schlag rückgängig machen. Besonders fromme Gläubige
 können sich dieser Hilfe sicher sein, aber in diesem Fall kostet jedes
 Eingreifen Frömmigkeit (im Gegensatz zum bloßen Bitten um Hilfe, das immer
@@ -360,7 +360,7 @@ Heilt eine kleine Menge Gesundheit, je nach Anrufungsfertigkeit.
 %%%%
 Purification ability
 
-Befreit Euren Körper von Gift, Verwirrung, Verlangsamung, Versteinerung,
+Befreit deinen Körper von Gift, Verwirrung, Verlangsamung, Versteinerung,
 Schwäche und Krankheit. Verringerte Stärke, Geschicklichkeit oder Intelligenz
 werden ebenfalls vollständig wiederhergestellt, ebenso wie die maximale
 Gesundheit.
@@ -426,11 +426,11 @@ selbst. Die Größe des Effekts wird durch die Fertigkeit Anrufungen erhöht.
 Enter the Abyss ability
 
 Versetzt Euch augenblicklich in das Reich von Lugonu. Die Anstrengung, diese
-Fähigkeit überhaupt zu benutzen, braucht einen Großteil Eurer Gesundheit auf.
+Fähigkeit überhaupt zu benutzen, braucht einen Großteil deiner Gesundheit auf.
 %%%%
 Brand Weapon With Distortion ability
 
-Korrumpiert eine Waffe Eurer Wahl dauerhaft mit einem lokalen Feld der
+Korrumpiert eine Waffe deiner Wahl dauerhaft mit einem lokalen Feld der
 Verzerrung. Dieser Segen kann nur einmal verwendet werden und er kann nicht
 auf Artefaktwaffen angewendet werden.
 %%%%
@@ -451,7 +451,7 @@ einer einzigen Karte benötigt wird.
 %%%%
 Stack Five ability
 
-Zieht fünf Karten aus einem Deck Eurer Wahl und erlaubt es Euch, diese in
+Zieht fünf Karten aus einem Deck deiner Wahl und erlaubt es Euch, diese in
 beliebiger Reihenfolge zu sortieren. Anschließend könnt Ihr diesen Kartenstapel in
 der von Euch gewählten Reihenfolge ausspielen. Wenn Ihr diese Fähigkeit
 erneut einsetzt, wird der gesamte aktuelle Stapel abgelegt.
@@ -464,12 +464,12 @@ Anrufungen erhöht.
 %%%%
 Recall Orcish Followers ability
 
-Ruft Eure orkischen Anhänger von überall im Kerker in Eure unmittelbare
+Ruft deine orkischen Anhänger von überall im Kerker in deine unmittelbare
 Umgebung zurück.
 %%%%
 Stop Recall ability
 
-Beendet den Rückruf Eurer Anhänger.
+Beendet den Rückruf deiner Anhänger.
 %%%%
 Give Item to Named Follower ability
 
@@ -508,7 +508,7 @@ Wände sind gegen diese Macht immun.
 Grow Oklob ability
 
 Lässt eine kurzlebige Oklob-Pflanze an dem von Euch gewählten Ort wachsen.
-Diese gefährlichen Pflanzen sprühen ätzendes Vitriol auf Eure Feinde.
+Diese gefährlichen Pflanzen sprühen ätzendes Vitriol auf deine Feinde.
 
 Die Fertigkeit Anrufungen erhöht die Gesundheit und Lebensdauer der Oklob-Pflanze
 sowie die Häufigkeit, mit der sie ihre Säure versprüht.
@@ -516,7 +516,7 @@ sowie die Häufigkeit, mit der sie ihre Säure versprüht.
 # Cheibriados
 Bend Time ability
 
-Versucht, alle Wesen in Eurer Nähe zu verlangsamen. Eine hohe Anrufungsfertigkeit
+Versucht, alle Wesen in deiner Nähe zu verlangsamen. Eine hohe Anrufungsfertigkeit
 macht es schwieriger, zu widerstehen.
 %%%%
 Temporal Distortion ability
@@ -545,7 +545,7 @@ verdaut.
 %%%%
 Slimify ability
 
-Umhüllt eine verwendete Waffe oder Eure Fäuste mit Schleim und verwandelt
+Umhüllt eine verwendete Waffe oder deine Fäuste mit Schleim und verwandelt
 das nächste getroffene lebende oder körperliche untote Monster in einen
 neutralen Schleim.
 %%%%
@@ -577,9 +577,9 @@ Shadow Form ability
 Verwandelt Euch in eine wirbelnde Masse aus dunklen Schatten. In dieser Form
 seid Ihr dauerhaft unsichtbar und immun gegen Gift, Auszehrung und Qual. Der
 gesamte eingehende Schaden wird halbiert, Ihr blutet Rauch bei jedem
-eingehenden Angriff und habt unendlich viel Willenskraft. Allerdings wird Eure
+eingehenden Angriff und habt unendlich viel Willenskraft. Allerdings wird deine
 Fähigkeit halbiert, im Nahkampf und mit Fernkampfangriffen Schaden zu verursachen,
-Eure Zauberkraft wird stark beeinträchtigt und Eure maximale
+Eure Zauberkraft wird stark beeinträchtigt und deine maximale
 Gesundheit wird weiter reduziert, wenn Ihr Schaden nehmt. Die Fertigkeit
 Anrufungen erhöht die Dauer der Verwandlung.
 %%%%
@@ -591,7 +591,7 @@ bietet jeweils drei Listen mit unterschiedlichen Preisen an.
 %%%%
 Call Merchant ability
 
-Sendet Geld an einen Händler, um ihm zu helfen, einen Laden an Eurem
+Sendet Geld an einen Händler, um ihm zu helfen, einen Laden an deinem
 Standort zu eröffnen. Die Kosten für die Finanzierung eines Ladens
 steigen mit der Anzahl der bereits unterstützten Händler.
 %%%%
@@ -600,11 +600,11 @@ Bribe Branch ability
 Überläßt Gozag 3000 Gold, das er unter den Bewohnern des aktuellen Zweigs
 verteilt. Nur möglich, wenn der Zweig intelligente Bewohner hat. Manche Monster
 sind dann nicht mehr daran interessiert, Euch zu bekämpfen und etwas seltener
-schließen sie sich Euren Reihen an, obwohl sie ihren Heimatzweig nie verlassen.
+schließen sie sich deinen Reihen an, obwohl sie ihren Heimatzweig nie verlassen.
 Hartgesottene Bewohner des Zweigs lassen sich leichter bestechen. Feinde, die
 eine Bestechung annehmen, verringern den verbleibenden Bestechungsfond. Ist
 dieser erschöpft, werden bestochene Feinde gleichgültig, sofern sie nicht zuvor
-zu Euren Verbündeten wurden.
+zu deinen Verbündeten wurden.
 %%%%
 # Qazlal
 Upheaval ability
@@ -615,7 +615,7 @@ als auch den betroffenen Bereich.
 %%%%
 Elemental Force ability
 
-Bewirkt, dass sich Eure Elementarwolken zu freundlichen Elementaren
+Bewirkt, dass sich deine Elementarwolken zu freundlichen Elementaren
 zusammenschließen. Die Fertigkeit Anrufungen erhöht die maximale Anzahl der
 Elementare, die mit einem Einsatz der Fähigkeit erschaffen werden.
 %%%%
@@ -628,7 +628,7 @@ betroffene Gebiet.
 # Ru
 Draw Out Power ability
 
-Zapft Eure innere Kraft an, um Gesundheit und Magie wiederherzustellen und
+Zapft deine innere Kraft an, um Gesundheit und Magie wiederherzustellen und
 Euren Körper und Geist von äußeren Beschränkungen wie Netzen, Spinnweben,
 Umschlingung, Versteinerung, Verlangsamung und Verwirrung zu befreien. Die
 Menge der wiederhergestellten Gesundheit und Magie steigt mit der Frömmigkeit.
@@ -637,15 +637,15 @@ Power Leap ability
 
 Führt einen unglaublich schnellen Sprung zu einem Zielort aus und verursacht
 bei der Landung eine Explosion, die alle benachbarten Feinde beschädigt. Die
-Menge des verursachten Schadens steigt mit Eurer Frömmigkeit und
+Menge des verursachten Schadens steigt mit deiner Frömmigkeit und
 Erfahrungsstufe.
 %%%%
 Apocalypse ability
 
-Enthüllt Euren Feinden Rus Wahrheit und fügt allen Feinden in Eurem
+Enthüllt deinen Feinden Rus Wahrheit und fügt allen Feinden in deinem
 Sichtfeld schweren Schaden zu. Betroffene Kreaturen können gelähmt oder
 verlangsamt werden oder ihre Magie verlieren. Der zugefügte Schaden steigt
-mit Eurer Frömmigkeit und Erfahrungsstufe.
+mit deiner Frömmigkeit und Erfahrungsstufe.
 %%%%
 Sacrifice Purity ability
 
@@ -687,8 +687,8 @@ freundlich.
 %%%%
 Sacrifice Courage ability
 
-Opfert Euren Mut, so dass Ihr Euch vor gefährlichen Monstern fürchtet. Solche
-Monster versetzen Euch in Schrecken, was die Macht Eurer Zauber und Eure
+Opfert deinen Mut, so dass Ihr Euch vor gefährlichen Monstern fürchtet. Solche
+Monster versetzen Euch in Schrecken, was die Macht deiner Zauber und deine
 Fähigkeit verringert, Monster im Kampf zu treffen und ihnen Schaden zuzufügen.
 %%%%
 Sacrifice Arcana ability
@@ -718,12 +718,12 @@ Opfert eine Hand, wodurch Ihr die Fähigkeit verliert, Schilde{{
 %%%%
 Sacrifice Experience ability
 
-Opfert einen Teil Eurer bisherigen Erfahrung, wodurch Ihr sofort zwei Stufen
+Opfert einen Teil deiner bisherigen Erfahrung, wodurch Ihr sofort zwei Stufen
 verliert und die maximale Stufe, die Ihr erreichen könnt, um zwei gesenkt wird.
 %%%%
 Sacrifice Skill ability
 
-Opfert Eure Fertigkeiten, wodurch alle Eure Fertigkeitsbegabungen um einen Punkt
+Opfert deine Fertigkeiten, wodurch alle deine Fertigkeitsbegabungen um einen Punkt
 verringert werden. Dies führt in der Regel dazu, dass Ihr Ränge in
 ausgebildeten Fertigkeiten verliert.
 %%%%
@@ -733,12 +733,12 @@ Opfert ein Auge, so dass es Euch viel schwerer fällt, Ziele zu treffen.
 %%%%
 Sacrifice Resistance ability
 
-Opfert Eure Resistenz gegen extreme Temperaturen, wodurch Ihr anfällig für
+Opfert deine Resistenz gegen extreme Temperaturen, wodurch Ihr anfällig für
 Hitze und Kälte werdet.
 %%%%
 Reject Sacrifices ability
 
-Lehnt alle angebotenen Opfer ab. Tut Ihr dies, nimmt sich Ru mehr Zeit, Eure
+Lehnt alle angebotenen Opfer ab. Tut Ihr dies, nimmt sich Ru mehr Zeit, deine
 Bereitschaft für zukünftige Opfer zu beurteilen. Ru bietet keine weiteren Opfer
 an, solange ein bestehendes Angebot noch verfügbar ist.
 
@@ -771,15 +771,15 @@ Gläubige, wenn sie diesen Ritus vollzogen haben.
 %%%%
 Renounce Religion ability
 
-Verleugnet euren Glauben. Dies führt dazu, dass Ihr Euren Gott verlasst (und
+Verleugnet euren Glauben. Dies führt dazu, dass Ihr deinen Gott verlasst (und
 Ihr verärgert in der Regel besagten Gott).
 %%%%
 Convert to Beogh ability
 
 Schwört Beogh, dem Gott der Höhlenorks, die Treue. Dieser Gott verlangt den
 Tod aller Ungläubigen, aber neue Gläubige müssen verschont und in
-die Gemeinschaft aufgenommen werden. Nehmt Euch in Acht - Orks, die Eure Bekehrung
-nicht selbst mit ansehen, können immer noch feindselig sein, bis Ihr Euren
+die Gemeinschaft aufgenommen werden. Nehmt Euch in Acht - Orks, die deine Bekehrung
+nicht selbst mit ansehen, können immer noch feindselig sein, bis Ihr deinen
 Ruf aufgebaut habt!
 
 Alle anderen Götter hassen Beogh und nehmen Abtrünnigkeit nicht auf die
@@ -787,12 +787,12 @@ leichte Schulter.
 %%%%
 Donate Gold ability
 
-Spendet die Hälfte Eures Goldes an Zin, was Eure Frömmigkeit mit der Zeit
-erhöht. Der Gesamtanstieg hängt von der Höhe Eurer Spende ab.
+Spendet die Hälfte deines Goldes an Zin, was deine Frömmigkeit mit der Zeit
+erhöht. Der Gesamtanstieg hängt von der Höhe deiner Spende ab.
 %%%%
 Recall Ancestor ability
 
-Ruft Euren Ahnen von irgendwo im Kerker in Eure unmittelbare Umgebung zurück.
+Ruft deinen Ahnen von irgendwo im Kerker in deine unmittelbare Umgebung zurück.
 %%%%
 Idealise ability
 
@@ -805,7 +805,7 @@ Idealisierung werden beide durch die Fertigkeit Anrufungen verbessert.
 Transference ability
 
 Zwingt eine anvisierte Kreatur, durch die Reiche der Erinnerung zu gehen und
-den Platz mit Eurem Vorfahren zu tauschen.
+den Platz mit deinem Vorfahren zu tauschen.
 
 Bei großer Frömmigkeit werden diejenigen, die sich in der Nähe des Ziels
 befinden, zu einem Grad ausgezehrt, der von der Fertigkeit Anrufungen
@@ -813,25 +813,25 @@ abhängt.
 %%%%
 Ancestor Life: Knight ability
 
-Erinnert Euch an Euren Ahnen als Ritter, einen starken Nahkämpfer mit
+Erinnert Euch an deinen Ahnen als Ritter, einen starken Nahkämpfer mit
 überlegenen Verteidigungsmöglichkeiten. Diese Wahl ist dauerhaft und kann
 nicht rückgängig gemacht werden.
 %%%%
 Ancestor Life: Battlemage ability
 
-Erinnert Euch an Euren Vorfahren als Kampfmagier, der sowohl im
+Erinnert Euch an deinen Vorfahren als Kampfmagier, der sowohl im
 Nahkampf als auch mit Konjurationen unerbittlich angreifen kann. Diese Wahl
 ist dauerhaft und kann nicht rückgängig gemacht werden.
 %%%%
 Ancestor Life: Hexer ability
 
-Erinnert Euch an Euren Ahnen als Verzauberer, einen gerissenen Schurken, der
+Erinnert Euch an deinen Ahnen als Verzauberer, einen gerissenen Schurken, der
 geschickt mit Messern umgehen und schwächende Zauber wirken kann. Diese Wahl
 ist dauerhaft und kann nicht rückgängig gemacht werden.
 %%%%
 Ancestor Identity ability
 
-Erinnert euch, wie Euer Ahne bevorzugt genannt werden wollte, und korrigiert seinen
+Erinnert euch, wie dein Ahne bevorzugt genannt werden wollte, und korrigiert seinen
 Namen und sein Geschlecht.
 %%%%
 Wall Jump ability
@@ -848,7 +848,7 @@ Wirkung dieser Fähigkeit ausgeführt werden, richten mehr Schaden an und verfeh
 Heavenly Storm ability
 
 Ruft einen Sturm aus himmlischen Wolken hervor. Während der Sturm wütet, werden
-Euer Ausweichen, Eure Treffsicherheit sowie Euer Schaden erheblich erhöht und
+Euer Ausweichen, deine Treffsicherheit sowie dein Schaden erheblich erhöht und
 wenn ihr Feinde mit martialischen Angriffen trefft, erhöht sich der Bonus. Der
 Sturm wird mit der Zeit schwächer und verschwindet, sobald der Bonus auf Null
 fällt. Die himmlischen Wolken verhindern Unsichtbarkeit und verschleiern die

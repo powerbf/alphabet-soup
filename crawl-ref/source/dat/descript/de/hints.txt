@@ -5,7 +5,7 @@ welcome
 
 Eure Aufgabe ist es einen <w>{{ return you.race() }} {{ return you.class()
 }}</w> sicher durch die Tiefen des Dungeons zu leiten und dabei den sagenhaften
-Orb von Zot zurück zur Oberfläche zu bringen. Wie auch immer, bei Euren ersten
+Orb von Zot zurück zur Oberfläche zu bringen. Wie auch immer, bei deinen ersten
 Versuchen sollte entdecken das Hauptziel sein. Versuche so tief wie möglich zu
 erforschen, aber nehm Euch in Acht: der Tod schleicht um jede Ecke!
 
@@ -14,7 +14,7 @@ Für jetzt merkt die folgenden Tasten und Funktionen:
 Befehle
  <input>$cmd[CMD_SAVE_GAME]</input>  — speichert das Spiel um später
 fortzufahren (aber bedenke das der Tod permanent ist)
- <input>$cmd[CMD_LOOK_AROUND]</input>  — untersucht etwas in Eurer Nähe
+ <input>$cmd[CMD_LOOK_AROUND]</input>  — untersucht etwas in deiner Nähe
 
 Der Hinweismodus wird Euch helfen Crawl zu spielen ohne irgendwelche Handbücher
 zu lesen. Falls Ihr es noch nicht versucht habt möchtet Ihr vielleicht die
@@ -31,16 +31,16 @@ Viel Spass beim Crawlen!
 %%%%
 death
 
-Mein Beileid! Der frühzeitige Tod Eures Charakters ist bedauerlich, aber ein
+Mein Beileid! Der frühzeitige Tod deines Charakters ist bedauerlich, aber ein
 übliches Ereignis in Crawl. Doch lass Euch beruhigen, mit Fleiß und einiger
-Spielerfahrung wird Euer Charakter länger überdauern.
+Spielerfahrung wird dein Charakter länger überdauern.
 
-Eventuell kann der folgende Ratschlag Eure Spielweise verbessern:
+Eventuell kann der folgende Ratschlag deine Spielweise verbessern:
 %%%%
 death conjurer melee
 
-Angriffszauber sollten als Zauberer Eure Hauptwaffe sein. Wirkt Eure
-Zaubersprüche so oft es geht. Denkt daran, euch auszuruhen, wenn Euer Mana
+Angriffszauber sollten als Zauberer deine Hauptwaffe sein. Wirkt deine
+Zaubersprüche so oft es geht. Denkt daran, euch auszuruhen, wenn dein Mana
 niedrig ist.
 %%%%
 death berserker unberserked
@@ -123,11 +123,11 @@ Dann könnt Ihr zu einem reisen. Es ist genauso möglich Strukture wie
 %%%%
 finished random 0
 
-Das Spiel legt automatisch ein Logbuch für Eure Charaktere an. Benutze
+Das Spiel legt automatisch ein Logbuch für deine Charaktere an. Benutze
 <input>$cmd[CMD_DISPLAY_COMMANDS]:</input> um es zu lesen. Mit dem
 <input>$cmd[CMD_MAKE_NOTE]</input> Befehl könnt Ihr selbst Notizen hinzufügen.
-Sobald Euer Charakter umkommt werden zwei Archiv Dateien im Ordner
-<w>morgue/</w> angelegt. Die Eine mit der Endung .txt enthält eine Kopie Eures
+Sobald dein Charakter umkommt werden zwei Archiv Dateien im Ordner
+<w>morgue/</w> angelegt. Die Eine mit der Endung .txt enthält eine Kopie deines
 Logbuches. Währen des Spiels könnt Ihr mit
 <input>$cmd[CMD_CHARACTER_DUMP]</input> ein Dump-File bzw. eine Momentaufnahme
 erzeugen.
@@ -168,7 +168,7 @@ HINT_CONVERT Gozag
 
 Ihr seid gerade zur Anbetung von <w>Gozag</w> konvertiert. Im Gegensatz zu
 anderen Göttern interessiert sich Gozag nur für Gold; jede göttliche Fähigkeit
-kostet Gold, und Eure Feinde verwandeln sich beim Tod in Gold.
+kostet Gold, und deine Feinde verwandeln sich beim Tod in Gold.
 %%%%
 HINT_CONVERT Ru
 
@@ -193,13 +193,13 @@ und muss im nächsten Kampf wiedergewonnen werden.
 HINT_CONVERT
 
 Ihr seid gerade zur Anbetung von <w>{{ return you.god() }}</w> konvertiert.
-Eure Frömmigkeit (göttliche Gunst) wird zunehmen, wenn Ihr Dinge tut, die Eurem
+Eure Frömmigkeit (göttliche Gunst) wird zunehmen, wenn Ihr Dinge tut, die deinem
 neuen Gott gefallen, und sie wird im Laufe der Zeit abnehmen.
 
-Ihr könnt die Vorlieben und Abneigungen Eures Gottes sowie Euren aktuellen
-Status und Eure göttlichen Fähigkeiten überprüfen, indem Ihr
+Ihr könnt die Vorlieben und Abneigungen deines Gottes sowie deinen aktuellen
+Status und deine göttlichen Fähigkeiten überprüfen, indem Ihr
 <input>$cmd[CMD_DISPLAY_RELIGION]</input> drückt<localtiles>, oder
-<input>Shift-rechtsklickt</input> auf Euren Avatar</localtiles>.
+<input>Shift-rechtsklickt</input> auf deinen Avatar</localtiles>.
 %%%%
 HINT_SEEN_FIRST_OBJECT
 
@@ -210,7 +210,7 @@ aufheben.<console> Im Allgemeinen werden Gegenstände durch nicht-Buchstaben-
 Symbole wie <w>%?!"=()[</w> gezeigt.</console> Einige Gegenstände
 <tiles>, mit einem grünen Rahmen markiert,</tiles> werden automatisch aufgehebt.
 
-Sobald ein Gegenstand sich in Eurem Inventar befindet, könnt Ihr es wieder mit
+Sobald ein Gegenstand sich in deinem Inventar befindet, könnt Ihr es wieder mit
 <input>$cmd[CMD_DROP]</input><localtiles> oder <input>Shift-Linksklick</input>
 </localtiles> fallen lassen. Wann immer Ihr einen Gegenstand in ihrem Inventar
 anschaut,<localtiles> oder <input>rechtsklickt</input> auf ihn,</localtiles>
@@ -218,7 +218,7 @@ könnt Ihr über seine Eigenschaften und seine Beschreibung lesen.
 %%%%
 HINT_SEEN_POTION
 
-Ihr habt Euren ersten Zaubertrank erhalten<console>
+Ihr habt deinen ersten Zaubertrank erhalten<console>
 ('<w>$item[potion]</w>')</console>. <w>$cmd[CMD_QUAFF]</w> drücken<localtiles>,
 oder auf ihn <w>linksklicken</w></localtiles>, um ihn zu trinken.
 
@@ -229,7 +229,7 @@ um sie zu identifizieren.
 %%%%
 HINT_SEEN_SCROLL
 
-Ihr habt Eure erste Schriftrolle erhalten<console>
+Ihr habt deine erste Schriftrolle erhalten<console>
 ('<w>$item[scroll]</w>')</console>. <w>$cmd[CMD_READ]</w> drücken<localtiles>,
 oder auf sie<w>linksklicken</w>s</localtiles>, um sie zu lesen.
 
@@ -240,7 +240,7 @@ um sie zu identifizieren.
 %%%%
 HINT_SEEN_WAND
 
-Ihr habt Euren ersten Zauberstab erhalten<console>
+Ihr habt deinen ersten Zauberstab erhalten<console>
 ('<w>$item[wand]</w>')</console>. <w>$cmd[CMD_EVOKE]</w> drücken<localtiles>,
 oder auf ihn <w>linksklicken</w></localtiles>, um ihn zu evozieren.
 
@@ -250,7 +250,7 @@ Zauberstab und laden ihn auf.
 HINT_SEEN_SPBOOK
 
 Ihr habt ein Buch aufgehoben<console> ('<w>$item[book]</w>')</console>. Beim
-Aufheben sind seine Zaubersprüche sofort zu Eurem Bibliothek zegefügt. Dann
+Aufheben sind seine Zaubersprüche sofort zu deinem Bibliothek zegefügt. Dann
 könnt Ihr ihn mit <w>$cmd[CMD_MEMORISE_SPELL]</w> memorisieren, und mit
 <w>$cmd[CMD_CAST_SPELL]</w> wirken.
 {{
@@ -264,8 +264,8 @@ HINT_SEEN_WEAPON
 Das ist die erste Waffe<console> ('<w>$item[weapon]</w>')</console>, die Ihr
 aufgehoben habt. Drückt <w>$cmd[CMD_WIELD_WEAPON]</w><localtiles> oder
 <w>linksklickt</w> auf sie</localtiles>, um sie zu führen, aber seiet Euch
-bewusst, dass diese Waffe eine andere Fertigkeit trainieren kann als Eure
-Aktuelle. Ihr könnt die Eigenschaften dieser Waffe von Eurem Inventar
+bewusst, dass diese Waffe eine andere Fertigkeit trainieren kann als deine
+Aktuelle. Ihr könnt die Eigenschaften dieser Waffe von deinem Inventar
 (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>)<localtiles> oder durch
 <w>Rechtsklicken</w> auf sie</localtiles> anschauen.
 
@@ -313,9 +313,9 @@ auszuziehen. Ihr könnt seine Eigenschaften vom Inventar
 
 {{
     if you.get_base_mutation_level("horns") > 0 then
-        return "Beachtet, dass Ihr wegen Euer Hörner keine Helme tragen können."
+        return "Beachtet, dass Ihr wegen dein Hörner keine Helme tragen können."
                .. " (Drückt <w>$cmd[CMD_DISPLAY_MUTATIONS]</w>, um eine Liste"
-               .. " Eurer Mutationen und eingeborenen Fähigkeiten zu sehen.)"
+               .. " deiner Mutationen und eingeborenen Fähigkeiten zu sehen.)"
     end
 }}
 %%%%
@@ -340,7 +340,7 @@ Ihr habt ein Schmuckstück aufgehoben, entweder einen Ring
 Amulett<console> ('<w>$item[amulet]</w>')</console>.
 <nomouse>Drückt <w>$cmd[CMD_WEAR_JEWELLERY]</w>, um es anzulegen, und
 <w>$cmd[CMD_REMOVE_JEWELLERY]</w> um es zu entfernen. Ihr könnt seine
-Eigenschaften von Eurem Inventar (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>)
+Eigenschaften von deinem Inventar (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>)
 sehen.</nomouse><localtiles>Auf es klicken, um es anzulegen, und nochmal
 klicken, um es zu entfernen. <w>Rechtsklicken</w> auf es wird seine
 Eigenschaften zeigen.</localtiles>
@@ -363,9 +363,9 @@ auch als Waffe verwendet werden. Er kann mit <w>$cmd[CMD_WIELD_WEAPON]</w>
 %%%%
 HINT_SEEN_GOLD
 
-Ihr habt Euren ersten Goldhaufen aufgesammelt<console>
+Ihr habt deinen ersten Goldhaufen aufgesammelt<console>
 ('<yellow>$item[gold]</yellow>')</console>. Im Gegensatz zu den meisten anderen
-Gegenständen in Crawl nimmt Gold keinen Platz in Eurem Inventar ein und kann
+Gegenständen in Crawl nimmt Gold keinen Platz in deinem Inventar ein und kann
 nicht fallen gelassen werden. Gold kann zum Kauf von Gegenständen in Geschäften
 verwendet werden und wird von bestimmten Göttern geschätzt.
 %%%%
@@ -487,7 +487,7 @@ auf dem Platz steht.
 
 Wenn Ihr Euch etwas wünschst, das Ihr Euch noch nicht leisten könnt, könnt
 Ihr die <w>Umschalttaste</w> gedrückt halten und den entsprechenden Buchstaben
-drücken, um es auf Eure Einkaufsliste zu setzen. Das Spiel wird Euch dann
+drücken, um es auf deine Einkaufsliste zu setzen. Das Spiel wird Euch dann
 daran erinnern, wenn Ihr genug Gold gesammelt habt, um es zu kaufen.
 %%%%
 HINT_SEEN_DOOR
@@ -508,8 +508,8 @@ einer normalen Tür.
 %%%%
 HINT_KILLED_MONSTER
 
-Herzlichen Glückwunsch, Euer Charakter hat durch das Töten dieses Monsters
-gerade Erfahrung gesammelt! Das erhöht einige Eurer Fähigkeiten und macht
+Herzlichen Glückwunsch, dein Charakter hat durch das Töten dieses Monsters
+gerade Erfahrung gesammelt! Das erhöht einige deiner Fähigkeiten und macht
 Euch tödlicher.
 {{
     if you.god() == "Trog" then
@@ -522,7 +522,7 @@ HINT_NEW_LEVEL
 
 Gut gemacht! Das Erreichen einer neuen Erfahrungsstufe ist immer ein schönes
 Ereignis: Ihr erhaltet mehr Gesundheits- und Magiepunkte und gelegentlich auch
-Verbesserungen Eurer Attribute: Stärke, Intelligenz und Geschicklichkeit.
+Verbesserungen deiner Attribute: Stärke, Intelligenz und Geschicklichkeit.
 {{
     if crawl.hints_type() == "magic" then
         return "Mit dem Erreichen einer Erfahrungsstufe könnt Ihr auch"
@@ -535,10 +535,10 @@ Verbesserungen Eurer Attribute: Stärke, Intelligenz und Geschicklichkeit.
 %%%%
 HINT_SKILL_RAISE
 
-Eine Eurer Fertigkeiten hat gerade einen Meilenstein erreicht. Die
+Eine deiner Fertigkeiten hat gerade einen Meilenstein erreicht. Die
 Fertigkeiten, die Ihr benutzt, werden automatisch trainiert, wenn Ihr durch das
 Töten von Monstern Erfahrung sammelst. Standardmäßig fließt die Erfahrung
-in Fertigkeiten, die Ihr aktiv benutzt. Um Eure Fertigkeiten zu sehen oder zu
+in Fertigkeiten, die Ihr aktiv benutzt. Um deine Fertigkeiten zu sehen oder zu
 verwalten, gebt <w>$cmd[CMD_DISPLAY_SKILLS]</w><localtiles> ein oder klickt auf
 den Fertigkeits-Tab unten rechts</localtiles>.
 %%%%
@@ -573,9 +573,9 @@ möchtet: Stärke, Intelligenz oder Geschicklichkeit.
 <w>Stärke</w> macht schwere Rüstungen weniger schwerfällig und erhöht
 leicht den Waffenschaden.
 
-<w>Intelligenz</w> macht Eure Zaubersprüche zuverlässiger und mächtiger.
+<w>Intelligenz</w> macht deine Zaubersprüche zuverlässiger und mächtiger.
 
-<w>Geschicklichkeit</w> erhöht Euer Ausweichen und Eure Heimlichkeit.
+<w>Geschicklichkeit</w> erhöht dein Ausweichen und deine Heimlichkeit.
 %%%%
 HINT_YOU_ENCHANTED
 
@@ -587,7 +587,7 @@ vollständigen Beschreibungen von Verzauberungen suchen, indem Ihr
 %%%%
 HINT_YOU_POISON
 
-Gift wird Eure Gesundheit schnell verringern. Ihr könnt es mit
+Gift wird deine Gesundheit schnell verringern. Ihr könnt es mit
 <w>$cmd[CMD_REST]</w> abwarten, aber wenn Ihr Euch im Kampf befindet oder
 tödlich vergiftet seid, solltet Ihr lieber einen Trank des Gegenmittels zu
 Euch nehmen.
@@ -597,11 +597,11 @@ HINT_MULTI_PICKUP
 Hier gibt es eine Menge von Gegenständen. Ihr wählt aus einem Menü aus, was
 Ihr abholen möchtet: Drückt <w>$cmd[CMD_PICKUP]</w><localtiles> oder
 <w>klickt</w> auf die Spielerpuppe</localtiles>, um das Abholmenü zu öffnen.
-Um das Menü zu verlassen, bestätigt Eure Auswahl mit <w>Enter</w>.
+Um das Menü zu verlassen, bestätigt deine Auswahl mit <w>Enter</w>.
 %%%%
 HINT_FULL_INVENTORY
 
-Leider ist das Inventar auf 52 Gegenstände begrenzt, und es scheint, dass Euer
+Leider ist das Inventar auf 52 Gegenstände begrenzt, und es scheint, dass dein
 Rucksack voll ist. Das lässt sich jedoch leicht beheben: Lasst einfach einige
 der Dinge fallen mit <w>$cmd[CMD_DROP]</w>, die Ihr im Moment nicht braucht. Im
 Menü könnt Ihr dann bequem auswählen, welche Gegenstände Ihr fallen lassen
@@ -640,7 +640,7 @@ HINT_DONE_EXPLORE
 Hey, Ihr habt die Erkundung des Dungeons in diesem Level beendet! Ihr könnt
 auf der Levelkarte (<w>$cmd[CMD_DISPLAY_MAP]</w>) nach Treppen suchen, indem
 Ihr <w>></w> drückt. Der Cursor springt zur nächstgelegenen Treppe, und durch
-Drücken von <w>.</w> oder <w>Enter</w> kann sich Euer Charakter auch dorthin
+Drücken von <w>.</w> oder <w>Enter</w> kann sich dein Charakter auch dorthin
 bewegen. Jede Ebene von Crawl hat drei <console>weiße </console>aufwärts und
 drei <console>weiße </console>abwärts Treppen. Unerforschte Teile können oft
 über eine andere Ebene erreicht werden.
@@ -681,7 +681,7 @@ HINT_NEED_POISON_HEALING
 Ihr seid tödlich vergiftet, also wäre jetzt ein guter Zeitpunkt, einen
 Heiltrank oder, noch besser, einen Trank des Gegenmittels zu trinken
 (<w>$cmd[CMD_QUAFF]</w>). Wenn Ihr bisher keinen von beiden gesehen habt,
-versucht es mit unbekannten Tränken in Eurem Inventar. Viel Glück!
+versucht es mit unbekannten Tränken in deinem Inventar. Viel Glück!
 %%%%
 HINT_INVISIBLE_DANGER
 
@@ -696,20 +696,20 @@ HINT_NEED_HEALING_INVIS
 
 Ihr habt vor kurzem ein unsichtbares Monster bemerkt. Wenn Ihr es nicht
 getötet oder den Ort des Geschehens verlassen habt, ist es nicht sicher, Euch
-auszuruhen. Wenn Ihr Eure Gesundheit oder Magie wieder auffüllen müsst,
+auszuruhen. Wenn Ihr deine Gesundheit oder Magie wieder auffüllen müsst,
 müsst Ihr einen entsprechenden Trank zu Euch nehmen. Um sich normal
 auszuruhen, müsst Ihr Euch zunächst von der Gefahr entfernen.
 %%%%
 HINT_CAN_BERSERK
 
-Bei besonders schwierigen Gegnern solltet Ihe Eure Berserker-Fähigkeit
+Bei besonders schwierigen Gegnern solltet Ihe deine Berserker-Fähigkeit
 (<w>$cmd[CMD_USE_ABILITY]</w>) einsetzen. Durch das Töten von Monstern
 während des Berserkens hält diese länger an.
 %%%%
 HINT_POSTBERSERK
 
 Berserken ist extrem anstrengend! Danach seid Ihr verlangsamt und könnt erst
-wieder berserkern, wenn Eure Erschöpfung abgeklungen ist.
+wieder berserkern, wenn deine Erschöpfung abgeklungen ist.
 %%%%
 HINT_RUN_AWAY_1
 
@@ -719,7 +719,7 @@ Verwendung eines Gegenstands eine sinnvolle Alternative zum Weiterkämpfen.
 %%%%
 HINT_LAST_MINUTE_BERSERK
 
-Mit Trogs Unterstützung könnt Ihr Eure Berserker-Fähigkeit
+Mit Trogs Unterstützung könnt Ihr deine Berserker-Fähigkeit
 (<w>$cmd[CMD_USE_ABILITY]</w>) einsetzen, um vorübergehend mehr Lebenspunkte
 und größere Stärke zu erhalten. Denkt daran, dass Berserken in letzter
 Minute oft riskant ist und Euch daran hindert, Gegenstände zur Flucht zu
@@ -736,7 +736,7 @@ vielleicht eine andere Treppe benutzen, wenn man zurückkommt.
 HINT_RETREAT_CASTER
 
 Ohne magische Kraft könnt Ihr keine Zauber wirken. Der Nahkampf ist zwar eine
-Möglichkeit, aber das ist nicht Eure Stärke, also ist der Rückzug (wenn
+Möglichkeit, aber das ist nicht deine Stärke, also ist der Rückzug (wenn
 möglich) die bessere Option.
 %%%%
 HINT_ADVISE_USE_WAND
@@ -748,27 +748,27 @@ HINT_YOU_MUTATED
 
 Mutationen können aus verschiedenen Quellen stammen, unter anderem aus
 Tränken, Fehlzaubern und der übermäßigen Anwendung starker Verzauberungen
-wie Unsichtbarkeit. Die Götter Zin und Jiyva werden Eure Mutationen heilen.
-Überprüft Eure Mutationen mit <w>$cmd[CMD_DISPLAY_MUTATIONS]</w>.
+wie Unsichtbarkeit. Die Götter Zin und Jiyva werden deine Mutationen heilen.
+Überprüft deine Mutationen mit <w>$cmd[CMD_DISPLAY_MUTATIONS]</w>.
 %%%%
 HINT_NEW_ABILITY_GOD_PASSIVE
 
 Ihr habt gerade eine göttliche Fähigkeit erhalten. Drückt
 <w>$cmd[CMD_DISPLAY_RELIGION]</w><localtiles> oder drückt <w>Shift</w> und
-<w>Rechtsklick</w> auf die Spielerkachel</localtiles>, um Euch Eure
+<w>Rechtsklick</w> auf die Spielerkachel</localtiles>, um Euch deine
 Fähigkeiten anzusehen.
 %%%%
 HINT_NEW_ABILITY_GOD_ACTIVE
 
 Ihr habt gerade eine göttliche Fähigkeit erhalten. Drückt
-<w>$cmd[CMD_USE_ABILITY]</w>, um einen Blick auf Eure Fähigkeiten zu werfen
+<w>$cmd[CMD_USE_ABILITY]</w>, um einen Blick auf deine Fähigkeiten zu werfen
 oder eine von ihnen zu benutzen.
 %%%%
 HINT_NEW_ABILITY_ITEM
 
 Der Gegenstand, den Ihr gerade ausgerüstet habt, gewährt Euch eine neue
 Fähigkeit. Drückt <w>$cmd[CMD_USE_ABILITY]</w><localtiles> (oder <w>Klick</w>
-im <w>Befehlsfeld</w>)</localtiles>, um Eure Fähigkeiten zu sehen oder eine
+im <w>Befehlsfeld</w>)</localtiles>, um deine Fähigkeiten zu sehen oder eine
 davon zu benutzen.
 %%%%
 HINT_ITEM_FLIGHT
@@ -779,27 +779,27 @@ wenn Ihr sie an habt.
 %%%%
 HINT_ITEM_RESISTANCES
 
-Das Ausrüsten dieses Gegenstandes wirkt sich auf Eure Resistenzen aus. Auf dem
+Das Ausrüsten dieses Gegenstandes wirkt sich auf deine Resistenzen aus. Auf dem
 Übersichtsbildschirm (<w>$cmd[CMD_RESISTS_SCREEN]</w><localtiles> oder die
 <w>Schaltfläche Charakterübersicht</w> im Befehlsfeld</localtiles>) findet
 Ihr Details.
 %%%%
 HINT_GOD_DISPLEASED
 
-Oh-oh, $1 wird unzufrieden, weil Eure Frömmigkeit wird knapp. Möglicherweise
-ist dies der Fall, weil Ihr ketzerische Handlungen begeht, weil $1 Eure
-Anbetung als mangelhaft empfindet oder eine Kombination aus beidem. Wenn Eure
+Oh-oh, $1 wird unzufrieden, weil deine Frömmigkeit wird knapp. Möglicherweise
+ist dies der Fall, weil Ihr ketzerische Handlungen begeht, weil $1 deine
+Anbetung als mangelhaft empfindet oder eine Kombination aus beidem. Wenn deine
 Frömmigkeit auf Null sinkt, werdet Ihr exkommuniziert. Fangt also besser an,
-Eure Frömmigkeit zu steigern, und/oder hört auf, Euren Gott zu ärgern. Auf
+Eure Frömmigkeit zu steigern, und/oder hört auf, deinen Gott zu ärgern. Auf
 jeden Fall solltet Ihr die Beschreibung der Religion noch einmal lesen. Drückt
 dazu <w>$cmd[CMD_DISPLAY_RELIGION]</w><localtiles> oder drücke <w>Shift</w>
-und <w>Rechtsklick</w> auf Euren Avatar</localtiles>.
+und <w>Rechtsklick</w> auf deinen Avatar</localtiles>.
 %%%%
 HINT_EXCOMMUNICATED
 
 Oh-oh, $1 hat Euch gerade exkommuniziert, weil Ihr nicht mehr fromm genug seid
 (Eure göttliche Gunst ist ins Leere gelaufen). Vielleicht habt Ihr wiederholt
-gegen die religiösen Regeln verstoßen, oder Ihr habt Eure Gottheit nicht oft
+gegen die religiösen Regeln verstoßen, oder Ihr habt deine Gottheit nicht oft
 genug zufrieden gestellt, oder eine Kombination aus beidem. Wenn Ihr einen
 Altar findet, der $1 gewidmet ist, könnt Ihr wieder konvertieren, und alles
 wird gut sein. Andernfalls müsst Ihr den Unmut dieses Gottes aushalten, bis
@@ -808,7 +808,7 @@ der göttliche Zorn verraucht ist.
 HINT_GOD_ABANDONED
 
 Solltet Ihr feststellen, dass der Verzicht auf {acc}$1 doch nicht so klug war
-und Ihr zu Euren alten Glauben zurückkehren möchten, müsst Ihr einen Altar
+und Ihr zu deinen alten Glauben zurückkehren möchten, müsst Ihr einen Altar
 finden, der $1 gewidmet ist, wo Ihr Euch wieder bekehren können, und alles
 wird gut. Andernfalls müsst Ihr den Unmut dieses Gottes aushalten, bis der
 göttliche Zorn verraucht ist.
@@ -820,11 +820,11 @@ konvertiert habt.
 %%%%
 HINT_CONVERTED_GOD_ANGRY
 
-Sieht so aus, als ob $1 Euren Übertritt zu $2 nicht zu schätzen wusste.
+Sieht so aus, als ob $1 deinen Übertritt zu $2 nicht zu schätzen wusste.
 %%%%
 HINT_CONVERTED_KEPT_PIETY
 
-Ihr habt sogar etwas von Eurer Frömmigkeit behalten!
+Ihr habt sogar etwas von deiner Frömmigkeit behalten!
 %%%%
 HINT_CONVERTED_GOOD_TO_GOOD
 
@@ -860,7 +860,7 @@ Ihr könnt einfach zwischen den Waffen in den Slots a und b wechseln, indem Ihr
 %%%%
 HINT_SWITCH_BACK_TO_WEAPON_A
 
-Ihr könnt ganz einfach zu Eurer Waffe in Slot a zurückkehren, indem Ihr
+Ihr könnt ganz einfach zu deiner Waffe in Slot a zurückkehren, indem Ihr
 <w>$cmd[CMD_WEAPON_SWAP]</w> drückt. Um den Slot eines Gegenstandes zu
 ändern, drückt <w>$cmd[CMD_ADJUST_INVENTORY]i</w> und wählt die
 entsprechenden Slots.
@@ -892,15 +892,15 @@ und die Beschreibung des Monsters lest, indem Ihr dann
 %%%%
 HINT_ATTACK_MONSTER
 
-Um dieses Monster mit Eurer Waffe anzugreifen, müsst Ihr Euch einfach auf es
+Um dieses Monster mit deiner Waffe anzugreifen, müsst Ihr Euch einfach auf es
 zubewegen.<tiles>Solange ein nicht-freundliches Monster in Sicht ist, könnt
 Ihr Euch nicht automatisch auf entfernte Felder bewegen, um den Tod durch
 falsches Klicken zu vermeiden.</tiles>
 %%%%
 HINT_ATTACK_MONSTER_RANGED
 
-Als Jäger werdet Ihr es jedoch mit Eurem Bogen bekämpfen wollen. Wenn Ihr
-einen Blick auf Eurem Kurzbogen in Eurem Inventar
+Als Jäger werdet Ihr es jedoch mit deinem Bogen bekämpfen wollen. Wenn Ihr
+einen Blick auf deinem Kurzbogen in deinem Inventar
 (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>) werft, findet Ihr eine Erklärung, wie Ihr
 das machen könnt.
 %%%%
@@ -914,7 +914,7 @@ seine Beschreibung zu lesen, und <w>Linksklick</w>, um ihn zu handhaben.</tiles>
 %%%%
 HINT_RANGED_WIELDED
 
-<tiles>Klickt mit der <w>rechten Maustaste</w> auf Euren Kurzbogen, könnt Ihr
+<tiles>Klickt mit der <w>rechten Maustaste</w> auf deinen Kurzbogen, könnt Ihr
 auch dessen Beschreibung lesen.</tiles>
 %%%%
 HINT_ATTACK_MONSTER_MAGIC
@@ -928,7 +928,7 @@ HINT_FLEEING_MONSTER
 Jetzt hat das Monster Angst vor Euch! Beachtet, dass Ihr ihm nicht unbedingt
 folgen müsst. Ihr könnt es weglaufen lassen. Manchmal kann es aber nützlich
 sein, eine fliehende Kreatur anzugreifen, indem Ihr etwas hinterherwirft. Wenn
-Ihr irgendwelche Steine in Eurem Inventar (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>)
+Ihr irgendwelche Steine in deinem Inventar (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>)
 habt, könnt Ihr Euch einen davon ansehen, um eine Erklärung zu lesen, wie man
 das macht.
 %%%%
@@ -942,10 +942,10 @@ Cursor auf sein Feld.</nomouse>
 %%%%
 HINT_MONSTER_FRIENDLY
 
-Dieses Monster ist Euch freundlich gesinnt und wird Eure Feinde angreifen,
+Dieses Monster ist Euch freundlich gesinnt und wird deine Feinde angreifen,
 allerdings erhältet Ihr nur einen Teil der Erfahrung für Monster, die von
 Verbündeten beschädigt wurden, im Vergleich zu dem, was Ihr bekommen würdet,
-wenn Ihr die ganze Arbeit selbst machen würdet. Ihr könnt Euren Verbündeten
+wenn Ihr die ganze Arbeit selbst machen würdet. Ihr könnt deinen Verbündeten
 Befehle geben, indem Ihr <w>$cmd[CMD_SHOUT]</w> drückt.
 %%%%
 HINT_TEMPORARILY_FRIENDLY
@@ -992,7 +992,7 @@ Oh-oh, Ihr seid im Abgrund gelandet! Der Abgrund ist ein besonderer Ort, an dem
 Ihr Euch nicht erinnern kannst, wo Ihr wart. Er ist voller fieser Monster, und
 Ihr werdet wahrscheinlich sterben.
 
-Um Eure Überlebenschancen zu erhöhen, bis Ihr den Ausgang<console> (einen
+Um deine Überlebenschancen zu erhöhen, bis Ihr den Ausgang<console> (einen
 flackernden <w>$1</w>)</console> findet, bleibt in Bewegung, kämpft nicht
 gegen die Monster und jagt nicht nach Gegenständen auf dem Boden. Wenn sich
 die Monster nähern, versucht, Gegenstände des Hasts zu benutzen, um zu
@@ -1001,11 +1001,11 @@ entkommen.
 HINT_SPELL_MISCAST_EFFECTS
 
 Ein falscher Zauberspruch kann böse Folgen haben, vor allem bei den
-schwierigeren Zaubern. Eure Chance, einen Zauber erfolgreich zu wirken, steigt
-mit Euren magischen Fertigkeiten und kann auch mit Hilfe einiger Gegenstände
+schwierigeren Zaubern. deine Chance, einen Zauber erfolgreich zu wirken, steigt
+mit deinen magischen Fertigkeiten und kann auch mit Hilfe einiger Gegenstände
 verbessert werden. Benutzt den
 <w>$cmd[CMD_DISPLAY_SPELLS]</w>-Befehl<localtiles> oder fahre mit der Maus
-über die Zauberkacheln</localtiles>, um Eure aktuelle Fehlerquote zu
+über die Zauberkacheln</localtiles>, um deine aktuelle Fehlerquote zu
 überprüfen.
 %%%%
 HINT_YOU_MISCAST
@@ -1015,7 +1015,7 @@ Ihr habt gerade einen Fehlzauber gesprochen.
 HINT_MISCAST_ARMOUR
 
 Das Tragen einer schweren Rüstung oder eines Schildes, insbesondere eines
-großen Schildes, kann Eure Zauberfähigkeiten stark beeinträchtigen. Ihr
+großen Schildes, kann deine Zauberfähigkeiten stark beeinträchtigen. Ihr
 könnt die Auswirkungen überprüfen, indem Ihr die Fehlerraten auf der
 <w>$cmd[CMD_CAST_SPELL]</w>-Seite mit und ohne den getragenen Gegenstand
 vergleicht.
@@ -1062,7 +1062,7 @@ HINT_YOU_RESIST
 Es gibt viele Gefahren in Crawl. Glücklicherweise gibt es Möglichkeiten,
 einigen von ihnen (zumindest teilweise) zu widerstehen, wenn Ihr das Glück
 habt, sie zu finden. Es gibt zwei grundlegende Varianten von Resistenzen: die
-angeborene Willenskraft, die von Eurer Spezies abhängt, mit der
+angeborene Willenskraft, die von deiner Spezies abhängt, mit der
 Erfahrungsstufe wächst und vor vielen magischen Effekten schützt, und die
 spezifischen Resistenzen gegen bestimmte andere Effekte, z. B. Feuer oder
 Auszehrung.
@@ -1110,7 +1110,7 @@ Mit zunehmender Zaubern-Fertigkeit könnt Ihr Euch mehr Zaubersprüche
 memorieren und erleidet etwas weniger Fehlschläge, wenn Ihr sie wirkt.
 
 Drückt <w>$cmd[CMD_DISPLAY_SKILLS]</w><localtiles> (oder klickt auf die
-<w>Schaltfläche</w>in der Befehlsleiste)</localtiles>, um einen Blick auf Eure
+<w>Schaltfläche</w>in der Befehlsleiste)</localtiles>, um einen Blick auf deine
 Fertigkeiten zu werfen und ihr Training zu verwalten.
 %%%%
 HINT_FUMBLING_SHALLOW_WATER
@@ -1135,7 +1135,7 @@ Ihr habt etwas Neues entdeckt (aber ich weiß nicht was)!
 %%%%
 HINT_ABILITIES_SCREEN
 
-Diese Seite zeigt die Talente Eures Charakters an. Ihr könnt neue Fähigkeiten
+Diese Seite zeigt die Talente deines Charakters an. Ihr könnt neue Fähigkeiten
 durch bestimmte Gegenstände, durch Religion oder durch Mutationen erlangen.
 Die Aktivierung einer Fähigkeit hat in der Regel ihren Preis, z.B. Magiekraft.
 Drückt '<w>!</w>' oder '<w>?</w>', um zwischen der Auswahl der Fähigkeit und
@@ -1143,7 +1143,7 @@ der Beschreibung zu wechseln.
 %%%%
 HINT_SKILLS_SCREEN
 
-Diese Seite zeigt die Fertigkeiten Eures Charakters an. Die Zahl neben der
+Diese Seite zeigt die Fertigkeiten deines Charakters an. Die Zahl neben der
 Fertigkeit ist die aktuelle Stufe, je höher, desto besser. <w>Training</w>
 zeigt den Prozentsatz des Trainings an. <w>Kosten</w> zeigt die relativen
 Trainingskosten an. <w>Ziele</w> zeigt die Trainingsziele der Fertigkeit an.
@@ -1174,13 +1174,13 @@ Fertigkeit wird deaktiviert.
 %%%%
 HINT_SKILL_DESCRIPTIONS
 
-Diese Seite zeigt die Fertigkeiten Eures Charakters an. Drückt den Buchstaben
+Diese Seite zeigt die Fertigkeiten deines Charakters an. Drückt den Buchstaben
 einer Fertigkeit, um ihre Beschreibung zu lesen, oder drückt erneut <w>?</w>,
 um zur Fertigkeitsauswahl zurückzukehren.
 %%%%
 HINT_MEMORISE_SCREEN
 
-Diese Seite zeigt die Zaubersprüche in Eurer Zauberbibliothek an. Von hier aus
+Diese Seite zeigt die Zaubersprüche in deiner Zauberbibliothek an. Von hier aus
 könnt Ihr Zaubersprüche memorieren, indem Ihr sie auswählst, und Ihr könnt
 Euch Beschreibungen von Zaubersprüchen ansehen, nach ihnen suchen und sie
 organisieren. Als Zauberer beginnt man mit fünf memorierbaren Zaubern und
@@ -1208,7 +1208,7 @@ Zaubern-Fertigkeit ändern.
 HINT_CAST_SPELL
 
 Um Magie zu benutzen, <tiles>könnt Ihr auf das Monster <w>linksklicken</w>,
-auf das Ihr zielen möchtet (oder auf Euren Spielercharakter, um einen Zauber
+auf das Ihr zielen möchtet (oder auf deinen Spielercharakter, um einen Zauber
 auf Euch selbst zu wirken), während Ihr <w>Strg</w> drückt, und dann einen
 Zauber aus dem Menü auswählen. Oder Ihr könnt in die Zauberanzeige wechseln,
 indem Ihr <w>auf den entsprechenden <w>Reiter</w> klickt.
@@ -1270,7 +1270,7 @@ Gegenstand aus.
 HINT_WEAPON_HAS_RESIST
 
 Diese Waffe bietet ihrem Träger Schutz vor bestimmten Quellen. Für eine
-Übersicht über Eure Resistenzen (unter anderem) drückt
+Übersicht über deine Resistenzen (unter anderem) drückt
 <w>$cmd[CMD_RESISTS_SCREEN]</w><tiles> oder <w>rechtsklickt</w></tiles> auf
 Euren Avatar.
 %%%%
@@ -1330,8 +1330,8 @@ Um {acc}$1 zu schießen, müsst Ihr zuerst ein entsprechendes Wurfgerät mit
 %%%%
 HINT_CANNOT_WEAR_HELMET
 
-Wegen Eurer Hörner könnt Ihr keine Helme tragen. (Drückt
-<w>$cmd[CMD_DISPLAY_MUTATIONEN]</w>, um eine Liste Eurer Mutationen und
+Wegen deiner Hörner könnt Ihr keine Helme tragen. (Drückt
+<w>$cmd[CMD_DISPLAY_MUTATIONEN]</w>, um eine Liste deiner Mutationen und
 angeborenen Fähigkeiten zu sehen.)
 %%%%
 HINT_CANNOT_WEAR_BARDING
@@ -1346,14 +1346,14 @@ auf die Kacheln, um beide Aktionen auszuführen</tiles>.
 %%%%
 HINT_ARMOUR_HINDERS_CASTING
 
-Beachtet, dass Körperrüstungen mit einem hohen Belastungswert Eure
+Beachtet, dass Körperrüstungen mit einem hohen Belastungswert deine
 Fähigkeit, Zauber zu wirken, beeinträchtigen können. Leichte Rüstungen wie
 Roben und Lederrüstungen sind im Allgemeinen für jeden aufstrebenden
 Zauberwirker sicher.
 %%%%
 HINT_SHIELD_HINDERS_CASTING
 
-Beachte, dass Schilde Eure Fähigkeit, Zauber zu wirken, so lange behindern,
+Beachte, dass Schilde deine Fähigkeit, Zauber zu wirken, so lange behindern,
 bis Ihr genug Schild-Fertigkeit erlangt habt, um den Nachteil zu beseitigen.
 %%%%
 HINT_NO_SHIELD_WITH_MOST_LAUNCHERS
@@ -1364,9 +1364,9 @@ einem Schild verwendet werden können.
 HINT_ARMOUR_HAS_RESIST
 
 Diese Rüstung bietet ihrem Träger Schutz vor bestimmten Quellen. Für eine
-Übersicht über Eure Resistenzen (unter anderem) drücke
+Übersicht über deine Resistenzen (unter anderem) drücke
 <w>$cmd[CMD_RESISTS_SCREEN]</w> <Tiles> oder klicke mit der <w>rechten
-Maustaste</w></tiles> auf Euren Avatar.
+Maustaste</w></tiles> auf deinen Avatar.
 %%%%
 HINT_ARMOUR_HAS_ABILITY
 
@@ -1397,8 +1397,8 @@ beides durch Klicken auf den Gegenstand im Inventar möglich ist</tiles>.
 HINT_JEWELLERY_HAS_RESIST
 
 Dieser Gegenstand bietet seinem Träger Schutz vor bestimmten Quellen. Für
-eine Übersicht über Eure Resistenzen (unter anderem) drückt
-<w>$cmd[CMD_RESISTS_SCREEN]</w><tiles> oder <w>rechtsklickt</w> auf Euren
+eine Übersicht über deine Resistenzen (unter anderem) drückt
+<w>$cmd[CMD_RESISTS_SCREEN]</w><tiles> oder <w>rechtsklickt</w> auf deinen
 Avatar</tiles>.
 %%%%
 HINT_JEWELLERY_HAS_ABILITY
@@ -1420,7 +1420,7 @@ steigt schneller auf, bis Ihr den Inhalt des Handbuchs aufgebraucht habt.
 HINT_DESCRIBE_SPELLBOOK
 
 Ihr könnt ein Zauberbuch in die Hand nehmen, um die darin enthaltenen
-Zaubersprüche zu Eurer Zauberbibliothek hinzuzufügen. (Eure Zauberbibliothek
+Zaubersprüche zu deiner Zauberbibliothek hinzuzufügen. (Eure Zauberbibliothek
 könnt Ihr mit <w>$cmd[CMD_MEMORISE_SPELL]</w> anschauen.)
 %%%%
 HINT_DESCRIBE_CORPSE
@@ -1430,14 +1430,14 @@ Zauber verwendet werden. Abgesehen davon sind sie weitgehend nutzlos.
 %%%%
 HINT_DESCRIBE_MAGICAL_STAFF
 
-Dieser Stecken kann Eure Zauberei verbessern, indem er die Zauber der
+Dieser Stecken kann deine Zauberei verbessern, indem er die Zauber der
 entsprechenden Zauberschule mächtiger macht.
 %%%%
 HINT_MAGICAL_STAFF_HAS_RESISTANCE
 
 Außerdem bietet es seinem Träger Schutz vor bestimmten Quellen. Für eine
-Übersicht über Eure Resistenzen (unter anderem), drückt
-<w>$cmd[CMD_RESISTS_SCREEN]</w><tiles> oder <w>rechtsklickt</w> auf Euren
+Übersicht über deine Resistenzen (unter anderem), drückt
+<w>$cmd[CMD_RESISTS_SCREEN]</w><tiles> oder <w>rechtsklickt</w> auf deinen
 Avatar</tiles>.
 %%%%
 HINT_MAGICAL_STAFF_WITH_TROG
@@ -1519,14 +1519,14 @@ Reise oder der automatischen Erkundung lieber geschlossen halten möchtet,
 könnt Ihr sie mit <w>$cmd[CMD_DISPLAY_MAP]</w> aus der Kartenansicht
 ausschließen, indem Ihr
 <w>$cmd[CMD_MAP_EXCLUDE_AREA]$cmd[CMD_MAP_EXCLUDE_AREA]</w> drückt, während
-sich Euer Cursor auf dem betreffenden Feld befindet. Ein solcher Ausschluss
+sich dein Cursor auf dem betreffenden Feld befindet. Ein solcher Ausschluss
 verhindert, dass Autoreisen jemals in dieses Feld eintritt, bis Ihr den
 Ausschluss mit einem weiteren Druck auf
 <w>$cmd[CMD_DISPLAY_MAP]$cmd[CMD_MAP_EXCLUDE_AREA]</w> aufhebt.
 %%%%
 HINT_DESCRIBE_ALTAR_ATHEIST
 
-Dies ist Eure Chance, einer Religion beizutreten! Im Allgemeinen helfen die
+Dies ist deine Chance, einer Religion beizutreten! Im Allgemeinen helfen die
 Götter ihren Anhängern und verleihen ihnen Kräfte aller Art, aber viele von
 ihnen verlangen im Gegenzug ein Leben der Hingabe, ständige Tribute oder
 Unterhaltung.
@@ -1563,10 +1563,10 @@ HINT_DESCRIBE_NONFADED_ALTAR
 $1 wird es wahrscheinlich nicht mögen, wenn Ihr die Loyalität wechselt, aber
 ein Blick kann nicht schaden: Um Informationen über {acc}<w>$2</w> zu
 erhalten, drückt <w>$cmd[CMD_GO_DOWNSTAIRS]</w>, während Ihr auf dem Altar
-stehst. Bevor Ihr den antwortenden Glauben annimmst (und Euren jetzigen
-aufgibst!), werdet Ihr um eine Bestätigung gebeten.\nUm Euren aktuellen Stand
+stehst. Bevor Ihr den antwortenden Glauben annimmst (und deinen jetzigen
+aufgibst!), werdet Ihr um eine Bestätigung gebeten.\nUm deinen aktuellen Stand
 bei {dat}$1 zu sehen, drückt <w>$cmd[CMD_DISPLAY_RELIGION]</w>, oder
-<w>rechtsklickt</w> auf Euren Avatar, während Ihr die <w>Shift-Taste</w>
+<w>rechtsklickt</w> auf deinen Avatar, während Ihr die <w>Shift-Taste</w>
 drückt.
 %%%%
 HINT_DESCRIBE_BRANCH_ENTRY
@@ -1598,13 +1598,13 @@ Ihr könnt.
 HINT_DESCRIBE_CURRENTLY_HARMLESS_CLOUD_SINGULAR
 
 $1 ist derzeit harmlos, aber das könnte sich irgendwann ändern. Auf der
-Übersichtsseite (<w>$cmd[CMD_RESISTS_SCREEN]</w>) könnt Ihr Eure Resistenzen
+Übersichtsseite (<w>$cmd[CMD_RESISTS_SCREEN]</w>) könnt Ihr deine Resistenzen
 einsehen.
 %%%%
 HINT_DESCRIBE_CURRENTLY_HARMLESS_CLOUD_PLURAL
 
 $1 sind derzeit harmlos, aber das könnte sich irgendwann ändern. Auf der
-Übersichtsseite (<w>$cmd[CMD_RESISTS_SCREEN]</w>) könnt Ihr Eure Resistenzen
+Übersichtsseite (<w>$cmd[CMD_RESISTS_SCREEN]</w>) könnt Ihr deine Resistenzen
 einsehen.
 %%%%
 HINT_DESCRIBE_OPAQUE_CLOUD
@@ -1673,7 +1673,7 @@ Ihr könnt sein Feld ganz einfach als gefährlich markieren, um zu vermeiden,
 dass Ihr versehentlich in sein Sichtfeld geratet, wenn Ihr die automatische
 Erkundung oder die automatische Reise verwendet. Geht dazu mit
 <w>$cmd[CMD_LOOK_AROUND]</w> in den Zielmodus und drückt dann
-<w>$cmd[CMD_MAP_EXCLUDE_AREA]</w>, wenn Euer Mauszeiger über dem Feld des
+<w>$cmd[CMD_MAP_EXCLUDE_AREA]</w>, wenn dein Mauszeiger über dem Feld des
 Monsters schwebt. Dadurch werden dieses Feld und alle umliegenden Felder in
 einem Radius von 8 als "ausgeschlossen" markiert, so dass der Erkundungs- oder
 Reisemodus sie nicht betreten kann.
@@ -1684,7 +1684,7 @@ Dies könnte ein guter Zeitpunkt sein, um wegzulaufen.
 %%%%
 HINT_RUN_AWAY_OR_BERSERK
 
-Dies könnte ein guter Zeitpunkt sein, um wegzulaufen oder Eure Berserker
+Dies könnte ein guter Zeitpunkt sein, um wegzulaufen oder deine Berserker
 Fähigkeit einzusetzen (<w>$cmd[CMD_USE_ABILITY]</w>).
 %%%%
 HINT_DESCRIBE_STABBABLE_MONSTER

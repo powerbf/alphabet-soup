@@ -118,7 +118,7 @@ _weapon_chatter_
 
 @Your_weapon@ plappert immer weiter.
 
-@Your_weapon@ erkundigt sich nach Eurer Familie.
+@Your_weapon@ erkundigt sich nach deiner Familie.
 
 @Your_weapon@ kommentiert das Wetter.
 
@@ -315,7 +315,7 @@ das ferne Brüllen eines wütenden Frosches.
 ############ other noises, usually not found in the dungeon ############
 ein Klopfen.
 
-eine Stimme, die Euren Namen ruft.
+eine Stimme, die deinen Namen ruft.
 
 ein sehr seltsames Geräusch.
 
@@ -591,7 +591,7 @@ _singing_no-low_tension_
 
 @The_weapon@ versucht, im Einklang mit sich selbst zu singen.
 
-@The_weapon@ liefert die musikalische Begleitung für jede Eurer Handlungen.
+@The_weapon@ liefert die musikalische Begleitung für jede deiner Handlungen.
 
 @The_weapon@ komponiert ein neues Lied.
 
@@ -656,7 +656,7 @@ w:40
 
 @The_weapon@ [komponiert|singt] eine Hymne zum Lob {acc}@player_god@.
 
-@The_weapon@ [komponiert|singt] eine Ballade über Eure Abenteuer.
+@The_weapon@ [komponiert|singt] eine Ballade über deine Abenteuer.
 
 @The_weapon@ verfasst vorzeitig einen Nachruf auf Euch.
 
@@ -688,13 +688,13 @@ _common_speaking_no_tension_
 
 @The_weapon@ beglückwünscht sich selbst zu der Gesangsstimme.
 
-@The_weapon@ fragt Euch nach Eurer Meinung über @_musical_topic_@.
+@The_weapon@ fragt Euch nach deiner Meinung über @_musical_topic_@.
 
 @The_weapon@ wundert sich, dass es nicht mehr so schöne Schwerter gibt.
 
 @The_weapon@ versucht, Reime zu improvisieren, und scheitert kläglich.
 
-@The_weapon@ bietet an, alle Eure Lieblingslieder zu singen.
+@The_weapon@ bietet an, alle deine Lieblingslieder zu singen.
 
 @The_weapon@ bittet Euch um einen Reim für '@_rhyme_word_@'.
 
@@ -706,9 +706,9 @@ _common_speaking_no_tension_
 
 @The_weapon@ jammert, "Ich bin zu jung, um zu rosten!"
 
-@The_weapon@ äußert sich zu Eurem Musikgeschmack.
+@The_weapon@ äußert sich zu deinem Musikgeschmack.
 
-@The_weapon@ beklagt sich über Euren Mangel an musikalischem Enthusiasmus.
+@The_weapon@ beklagt sich über deinen Mangel an musikalischem Enthusiasmus.
 
 @The_weapon@ versucht, Euch in einen Kanon zu locken.
 
@@ -740,7 +740,7 @@ _common_speaking_no_tension_
 
 @The_weapon@ schimpft, "Schweigen macht mich immer schmollend."
 
-@The_weapon@ lobt Euch für Euren Waffengeschmack.
+@The_weapon@ lobt Euch für deinen Waffengeschmack.
 
 @The_weapon@ versucht, Euch ein paar Zungenbrecher beizubringen.
 
@@ -752,7 +752,7 @@ _common_speaking_no_tension_
 
 @The_weapon@ seufzt wehmütig, "Ich wünschte, meine Musik würde so viel Aufmerksamkeit bekommen wie meine Morde..."
 
-@The_weapon@ spottet, "Ich habe Eure Stimme gehört, @player_name@. Belassen wir es doch einfach bei einer Solonummer."
+@The_weapon@ spottet, "Ich habe deine Stimme gehört, @player_name@. Belassen wir es doch einfach bei einer Solonummer."
 
 %%%%
 _rare_speaking_no_tension_
@@ -777,7 +777,7 @@ _rare_speaking_no_tension_
 
 @The_weapon@ schreit, "Pflugscharen zu Schwertern!"
 
-@The_weapon@ fragt, "Welches Lied soll auf Eurer Beerdigung gespielt werden?"
+@The_weapon@ fragt, "Welches Lied soll auf deiner Beerdigung gespielt werden?"
 
 @The_weapon@ verkündet, "Diese Lieder widme ich @player_name@!"
 
@@ -838,7 +838,7 @@ w:1
 @The_weapon@ sagt, "Ihr habt nicht zufällig gesehen, dass meine Scheide irgendwo herumliegt? Ich fühle mich so entblößt."
 
 w:1
-@The_weapon@ beschwert sich, "Oh, sind Eure Hände nass und fettig. Aber ich erlaube Euch, mich eine Zeit lang zu führen."
+@The_weapon@ beschwert sich, "Oh, sind deine Hände nass und fettig. Aber ich erlaube Euch, mich eine Zeit lang zu führen."
 
 ############ speaking, low tension ############
 %%%%
@@ -853,7 +853,7 @@ w:1
 
 @The_weapon@ seufzt, "Wie sehr wünschte ich, Ihr wäret ein besserer Kämpfer."
 
-@The_weapon@ kommentiert Eure Kampftechniken.
+@The_weapon@ kommentiert deine Kampftechniken.
 
 @The_weapon@ vergleicht Euch ungünstig mit seinem Vorbesitzer.
 
@@ -861,7 +861,7 @@ w:1
 
 @The_weapon@ urteilt, "Ihr seid kein Künstler, bestenfalls ein Handwerker."
 
-@The_weapon@ sagt, "Man wird mich aus Euren kalten, toten Händen reißen müssen."
+@The_weapon@ sagt, "Man wird mich aus deinen kalten, toten Händen reißen müssen."
 
 @The_weapon@ moans, "Bei {{ if you.god() == "No God" then return "meiner Klinge"
 else return "@player_god@"; end }}, du bist so [ein Feigling|eine Memme|ein Hasenfuß|ein Schlappschwanz|ein Poltron|ein Weichei]."

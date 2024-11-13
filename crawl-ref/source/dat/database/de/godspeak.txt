@@ -72,9 +72,9 @@ Xom lächelt Euch an.
 # changing the scenery
 Xom scenery
 
-Xom berührt kurz Eure Umgebung.
+Xom berührt kurz deine Umgebung.
 
-Xom verleiht Eurer Umgebung eine persönliche Note.
+Xom verleiht deiner Umgebung eine persönliche Note.
 
 Xom beschwert sich über die Landschaft.
 
@@ -111,7 +111,7 @@ Xom confusion
 
 "Heh heh heh..."
 
-Die Macht von Xom berührt für einen Moment Euren Geist.
+Die Macht von Xom berührt für einen Moment deinen Geist.
 
 Xom kichert.
 %%%%
@@ -147,7 +147,7 @@ Xom banishment
 
 Xom wirft Euch in den Abgrund!
 
-Die Welt scheint sich zu drehen, während Xoms wahnsinniges Lachen in Euren Ohren klingt.
+Die Welt scheint sich zu drehen, während Xoms wahnsinniges Lachen in deinen Ohren klingt.
 %%%%
 Xom revert own banishment
 
@@ -282,7 +282,7 @@ Xom verwandelt Dinge um Euch herum.
 
 "Ich mochte diese verschnörkelten Dinger noch nie."
 
-Xom berührt Eure Umgebung.
+Xom berührt deine Umgebung.
 
 @Xom good monster polymorph@
 %%%%
@@ -533,7 +533,7 @@ Elyvilon sagt: Geh hinaus und hilf den Schwachen!
 %%%%
 Fedhas penance
 
-Fedhas protestiert gegen Eure Eingriffe gegen die Natur.
+Fedhas protestiert gegen deine Eingriffe gegen die Natur.
 %%%%
 Fedhas welcome
 
@@ -776,7 +776,7 @@ Yredelemnul sagt: Tragt die schwarze Fackel! Erwecke die untätigen Toten!
 %%%%
 Zin penance
 
-Zin geißelt Euch für Euren Ungehorsam gegenüber dem Gesetz.
+Zin geißelt Euch für deinen Ungehorsam gegenüber dem Gesetz.
 
 Zin erklärt eindringlich die Bedeutung @_important_subject_gen_@
 %%%%

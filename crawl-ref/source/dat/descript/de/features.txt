@@ -487,7 +487,7 @@ A staircase leading out of the dungeon
 Diese Treppe führt zurück aus dem Dungeon.
 
 Eine Treppe, die aus dem Dungeon herausführt. Wenn Ihr diese Treppe
-hinaufsteigt, endet Eure Suche, egal ob Ihr die Kugel bei Euch tragt oder nicht.
+hinaufsteigt, endet deine Suche, egal ob Ihr die Kugel bei Euch tragt oder nicht.
 %%%%
 A staircase back to the Crypt
 
@@ -628,7 +628,7 @@ anzulocken.
 Zusätzlich zu dem Geräusch, das sie erzeugt, wendet sie eine Verzauberung an,
 die Monster auf der ganzen Ebene auf deinen Standort aufmerksam macht.
 Feindliche Monster können diese Falle selbst auslösen, um ihre Wirkung gegen
-Euch zu entfalten, aber Eure Verbündeten werden es vermeiden, in die Falle zu
+Euch zu entfalten, aber deine Verbündeten werden es vermeiden, in die Falle zu
 treten.
 %%%%
 An arrow trap
@@ -699,7 +699,7 @@ diejenigen ausübt, die das Pech haben, in sie hineinzutreten. Es kann sein,
 dass man in den Abgrund geworfen wird, mit enormen Mengen wilder Magie
 verseucht wird, mächtige Unholde gegen einen beschworen werden oder
 Ähnliches. Feindlich gesinnte Monster können diese Falle selbst auslösen, um
-ihre Wirkung gegen Euch zu entfalten, aber Eure Verbündeten werden es
+ihre Wirkung gegen Euch zu entfalten, aber deine Verbündeten werden es
 vermeiden, in die Falle zu treten.
 %%%%
 ########################################################################
@@ -1071,13 +1071,13 @@ Ein Weg aus dem Dungeon, der es einem ermöglicht, diese Lektion zu beenden.
 ########################################################################
 haloed
 
-Dieser Bereich wird von einem göttlichen Heiligenschein erhellt, der Eure
+Dieser Bereich wird von einem göttlichen Heiligenschein erhellt, der deine
 Heimlichkeit verringert, Unsichtbarkeit verhindert und die Genauigkeit von
 Angriffen gegen beleuchtete Kreaturen erhöht.
 %%%%
 umbraed
 
-Dieser Bereich ist von einer Umbra umhüllt, der Eure Heimlichkeit verbessert,
+Dieser Bereich ist von einer Umbra umhüllt, der deine Heimlichkeit verbessert,
 wenn Ihr auf die Schatten eingestimmt seid, und die Genauigkeit der Angriffe
 derjenigen verringert, die nicht auf die Schatten eingestimmt sind.
 %%%%

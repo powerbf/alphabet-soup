@@ -1,12 +1,12 @@
 %%%%
 Fast status
 
-Alle Eure Aktionen sind 50% schneller.
+Alle deine Aktionen sind 50% schneller.
 %%%%
 Invis status
 
 Ihr seid unsichtbar. Die meisten Feinde können Euch nicht sehen und erleiden
-Abzüge für Treffer, obwohl sie Euren ungefähren Standort erraten können. Dies
+Abzüge für Treffer, obwohl sie deinen ungefähren Standort erraten können. Dies
 führt mit der Zeit zu magischer Kontamination und kann gefährliche
 Kontaminationsgrade verursachen, wenn Ihr bereits vor Erreichen dieses Status
 kontaminiert wart. Wenn der Status ausgegraut ist, ist er aktiv (und verursacht
@@ -27,12 +27,12 @@ Zeitüberschreitung. Passt in diesem Fall auf, worüber Ihr Euch befindet!
 %%%%
 Agi status
 
-Ihr seid unnatürlich beweglich und erhaltet einen Bonus für Euer Ausweichen.
+Ihr seid unnatürlich beweglich und erhaltet einen Bonus für dein Ausweichen.
 %%%%
 Brill status
 
-Ihr seid unnatürlich schlau und erhaltet einen Bonus auf die Kraft Eurer Zauber,
-während Eure Manakosten halbiert werden (aufgerundet).
+Ihr seid unnatürlich schlau und erhaltet einen Bonus auf die Kraft deiner Zauber,
+während deine Manakosten halbiert werden (aufgerundet).
 %%%%
 Might status
 
@@ -45,7 +45,7 @@ vorübergehender Regeneration angezeigt.
 %%%%
 RMsl status
 
-Ihr wehrt Geschosse ab und verbessern so Eure Chance, ihnen auszuweichen.
+Ihr wehrt Geschosse ab und verbessern so deine Chance, ihnen auszuweichen.
 %%%%
 Touch status
 
@@ -66,13 +66,13 @@ Berserkermodus geraten.
 %%%%
 -Berserk status
 
-Ihr erholt Euch von Eurer Berserkerwut und könnt für kurze Zeit nicht erneut in
+Ihr erholt Euch von deiner Berserkerwut und könnt für kurze Zeit nicht erneut in
 Berserkerwut geraten.
 %%%%
 Pois status
 
 Ihr seid vergiftet und verlieren kontinuierlich an Gesundheit. Während der
-Vergiftung wird Eure aktuelle Gesundheit teilweise neu eingefärbt, um den
+Vergiftung wird deine aktuelle Gesundheit teilweise neu eingefärbt, um den
 eventuellen Giftschaden anzuzeigen, der verursacht wird. Vergiftungen können
 sofort mit Tränken des Gegenmittels geheilt werden.
 %%%%
@@ -98,7 +98,7 @@ allmählich, wenn Ihr Erfahrung sammelt.
 %%%%
 Breath status
 
-Euch stockt der Atem, und Ihr könnt Eure angeborene Atemfähigkeit nicht nutzen,
+Euch stockt der Atem, und Ihr könnt deine angeborene Atemfähigkeit nicht nutzen,
 bis der Status abläuft.
 %%%%
 Exh status
@@ -108,7 +108,7 @@ verursachen, bis der Status abläuft.
 %%%%
 Slow status
 
-Alle Eure Aktionen dauern 50% länger.
+Alle deine Aktionen dauern 50% länger.
 %%%%
 Para status
 
@@ -167,27 +167,27 @@ verursacht. Das Betreten von Wasser löscht die Flammen.
 %%%%
 Corona status
 
-Ihr seid von Licht umgeben, was Eure Verstohlenheit erheblich einschränkt und es
+Ihr seid von Licht umgeben, was deine Verstohlenheit erheblich einschränkt und es
 einfacher macht, Euch zu treffen.
 %%%%
 Barbs status
 
-In Eurer Haut sind Widerhaken eingebettet und wenn Ihr Euch bewegt, werdet Ihr
+In deiner Haut sind Widerhaken eingebettet und wenn Ihr Euch bewegt, werdet Ihr
 verletzt. Wenn Ihr eine kurze Zeit an Ort und Stelle bleibt, könnt Ihr die
 Widerhaken entfernen, ohne Schaden zu nehmen.
 %%%%
 Sick status
 
-Ihr seid krank geworden und Eure Gesundheit kann sich nicht mehr regenerieren.
+Ihr seid krank geworden und deine Gesundheit kann sich nicht mehr regenerieren.
 %%%%
 Vertigo status
 
-Ihr seid desorientiert und Euch ist schwindelig, was Eure Genauigkeit, Euer
-Ausweichvermögen und Eure Erfolgsquote beim Zaubern verringert.
+Ihr seid desorientiert und Euch ist schwindelig, was deine Genauigkeit, dein
+Ausweichvermögen und deine Erfolgsquote beim Zaubern verringert.
 %%%%
 Corr status
 
-Ihr seid korrodiert, wodurch Euer Schaden im physischen Kampf und Eure Rüstung
+Ihr seid korrodiert, wodurch dein Schaden im physischen Kampf und deine Rüstung
 um einen Betrag reduziert werden, der vom Schweregrad der Korrosion abhängt.
 %%%%
 Flay status
@@ -202,42 +202,42 @@ Eure physischen Angriffe richten weniger Schaden an.
 %%%%
 Frozen status
 
-Ihr seid mit Eis bedeckt und Eure Bewegungsgeschwindigkeit ist reduziert.
+Ihr seid mit Eis bedeckt und deine Bewegungsgeschwindigkeit ist reduziert.
 %%%%
 Sap status
 
 Eure Magie wird geschwächt. Mit jedem Zauberspruch besteht die Chance, dass sich
-die Wirkung verstärkt, was wiederum dazu führt, dass Eure Erfolgsquote sinkt.
+die Wirkung verstärkt, was wiederum dazu führt, dass deine Erfolgsquote sinkt.
 %%%%
 Brainless status
 
 Eure Intelligenz ist auf 0 gesunken. Ihr seid verlangsamt, könnt keine Zauber
 wirken oder memorisieren und beim Lesen von Schriftrollen scheitert Ihr
-normalerweise. Der Status bleibt auch nach der Wiederherstellung Eurer
+normalerweise. Der Status bleibt auch nach der Wiederherstellung deiner
 Intelligenz für kurze Zeit bestehen.
 %%%%
 Clumsy status
 
 Eure Geschicklichkeit ist auf 0 gesunken. Ihr seid verlangsamt, könnt nicht
 schleichen oder Schilde verwenden und seid fast völlig unfähig auszuweichen. Der
-Status bleibt auch nach Wiederherstellung Eurer Geschicklichkeit noch kurze Zeit
+Status bleibt auch nach Wiederherstellung deiner Geschicklichkeit noch kurze Zeit
 bestehen.
 %%%%
 Collapse status
 
-Eure Stärke ist auf 0 gesunken. Ihr seid verlangsamt und Eure
+Eure Stärke ist auf 0 gesunken. Ihr seid verlangsamt und deine
 Gesundheitsregeneration ist stark reduziert. Der Status bleibt auch nach
-Wiederherstellung Eurer Stärke noch kurze Zeit bestehen.
+Wiederherstellung deiner Stärke noch kurze Zeit bestehen.
 %%%%
 DChan status
 
-Ihr kanalisiert die Toten und sorgt dafür, dass alle in Eurer Nähe getöteten
+Ihr kanalisiert die Toten und sorgt dafür, dass alle in deiner Nähe getöteten
 Lebewesen als geisterhafte Diener auferstehen.
 %%%%
 Vit status
 
 Ihr seid göttlich vitalisiert, was Euch Schutz vor Gift, Verwirrung,
-Versteinerung und Krankheit bietet und Eure Kraft, Intelligenz und
+Versteinerung und Krankheit bietet und deine Kraft, Intelligenz und
 Geschicklichkeit steigert und erhält.
 %%%%
 Will/2 status
@@ -252,7 +252,7 @@ treffen, aber der erlittene Schaden ist deutlich geringer.
 %%%%
 Petr status
 
-Ihr verwandelt Euch in Stein. Eure Aktionen werden verlangsamt, der erlittene
+Ihr verwandelt Euch in Stein. deine Aktionen werden verlangsamt, der erlittene
 Schaden wird leicht reduziert und bald werdet Ihr vollständig versteinert
 (werdet den Steinstatus erlangen).
 %%%%
@@ -262,7 +262,7 @@ Ihr seid widerstandsfähiger gegen Feuer, Kälte, Elektrizität, Gift und Säure
 %%%%
 Slime status
 
-Eure getragene Waffe oder Eure Fäuste sind mit Schleim bedeckt und verwandeln
+Eure getragene Waffe oder deine Fäuste sind mit Schleim bedeckt und verwandeln
 das nächste lebende oder körperlose untote Monster, das ihr trefft, in einen
 neutralen Schleim.
 %%%%
@@ -293,7 +293,7 @@ Sil status
 
 Ihr seid zum Schweigen gebracht. Dadurch ist es unmöglich, Schriftrollen zu
 lesen, Zauber zu wirken, göttliche Kräfte anzurufen oder zu schreien. Der
-bedrückende, unnatürliche Effekt behindert Eure Verstohlenheit erheblich.
+bedrückende, unnatürliche Effekt behindert deine Verstohlenheit erheblich.
 %%%%
 Engulf status
 
@@ -320,7 +320,7 @@ Eure Verstohlenheit wird erheblich verbessert.
 %%%%
 Mirror status
 
-Ihr reflektiert jeglichen erlittenen Schaden auf Eure Angreifer, und verlierst
+Ihr reflektiert jeglichen erlittenen Schaden auf deine Angreifer, und verlierst
 je nach Höhe des reflektierten Schadens an Frömmigkeit.
 %%%%
 Vortex status
@@ -348,7 +348,7 @@ Eure Kampfgeschwindigkeit ist erheblich erhöht.
 %%%%
 Prot status
 
-Ihr fleht Elyvilon an, Euer Leben zu retten. Wenn Ihr tödlich verwundet seid,
+Ihr fleht Elyvilon an, dein Leben zu retten. Wenn Ihr tödlich verwundet seid,
 kann der Heiler den Todesstoß rückgängig machen. Andere zu töten, während man um
 göttlichen Schutz bittet, führt zu Buße.
 %%%%
@@ -359,7 +359,7 @@ befindliche Monster zufällig von Euch weggeblinkt werden.
 %%%%
 Slay status
 
-Ihr habt das Blut eines Werwolfs in Euch, das Euch heilt und Euren Fern- und
+Ihr habt das Blut eines Werwolfs in Euch, das Euch heilt und deinen Fern- und
 Nahkampfangriffen Boni verleiht, die sich jedes Mal erhöhen, wenn Ihr einen
 Feind tötet.
 %%%%
@@ -390,18 +390,18 @@ Ihr seid anfälliger für Gift.
 PProj status
 
 Ihr teleportiert abgefeuerte oder geworfene Projektile mit erhöhter Genauigkeit
-direkt zu Euren Zielen, wobei Ihr für jede Projektil eine kleine Menge Magie
+direkt zu deinen Zielen, wobei Ihr für jede Projektil eine kleine Menge Magie
 verbraucht.
 %%%%
 Forest status
 
 Ihr ruft eine bewaldete Ebene vorübergehend ins Leben und erweckt nahe gelegene
-Bäume, um Euren Feinden Schaden zuzufügen.
+Bäume, um deinen Feinden Schaden zuzufügen.
 %%%%
 Dragoncall status
 
-Ihr ruft mächtige Drachen herbei, um Eure Feinde anzugreifen. Jeder Drache, der
-den Ruf beantwortet, verbraucht Eure magische Energie. Nachdem der Ruf beendet
+Ihr ruft mächtige Drachen herbei, um deine Feinde anzugreifen. Jeder Drache, der
+den Ruf beantwortet, verbraucht deine magische Energie. Nachdem der Ruf beendet
 ist, kann er für kurze Zeit nicht erneut ausgelöst werden.
 %%%%
 -Dragoncall status
@@ -427,8 +427,8 @@ Ihr seid widerstandsfähiger gegen Elektrizität.
 %%%%
 Horr status
 
-Ihr habt panische Angst vor Monstern in der Nähe, was Euren Schaden und Eure
-Genauigkeit im Kampf und die Kraft Eurer Zauber verringert.
+Ihr habt panische Angst vor Monstern in der Nähe, was deinen Schaden und deine
+Genauigkeit im Kampf und die Kraft deiner Zauber verringert.
 %%%%
 -Scroll status
 
@@ -447,11 +447,11 @@ Verwirrung beendet auch die Regeneration.
 Surge status
 
 Wenn Ihr das nächste Mal ein evozierbares Gerät verwendet, wird dessen Wirkung
-verstärkt, allerdings verliert Ihr dabei einen Teil Eurer Magie.
+verstärkt, allerdings verliert Ihr dabei einen Teil deiner Magie.
 %%%%
 Howl status
 
-Ein furchterregendes Heulen hallt in Eurem Kopf wider und ruft mächtige
+Ein furchterregendes Heulen hallt in deinem Kopf wider und ruft mächtige
 Kreaturen herbei, die Euch angreifen.
 %%%%
 Blood status
@@ -471,18 +471,18 @@ Spider status
 
 Ihr wurdet in eine giftige, spinnenartige Kreatur verwandelt. Ihr könnt sehr gut
 ausweichen und habt einen giftigen Biss, werdet aber anfällig für Gift. Alle
-ausgerüsteten Waffen und Rüstungen sind verschmolzen und Eure Erfolgsrate bei
+ausgerüsteten Waffen und Rüstungen sind verschmolzen und deine Erfolgsrate bei
 Zaubersprüchen ist leicht reduziert.
 %%%%
 Blade status
 
-Aus Euren Händen sind lange, sensenförmige Klingen gewachsen, die Euren
+Aus deinen Händen sind lange, sensenförmige Klingen gewachsen, die deinen
 Nahkampfschaden deutlich erhöhen. Alle ausgerüsteten Waffen sind verschmolzen
-und Eure Erfolgsrate mit Zaubern ist etwas reduziert.
+und deine Erfolgsrate mit Zaubern ist etwas reduziert.
 %%%%
 Statue status
 
-Ihr wurdet in eine langsame, aber extrem robuste Steinstatue verwandelt. Euer
+Ihr wurdet in eine langsame, aber extrem robuste Steinstatue verwandelt. dein
 Nahkampfschaden, sowohl unbewaffnet als auch mit Waffen, ist erheblich erhöht.
 Euer Steinkörper ist von Elektrizität isoliert und resistent gegen Gift und
 negative Energie. Alle ausgerüsteten Körperpanzer, Handschuhe und Stiefel sind
@@ -513,9 +513,9 @@ Dragon status
             desc = desc .. ". Ihr seid sehr resistent gegen Kälte und Gift" ..
                            ",aber anfällig gegen Feuer"
         elseif you.race() == "Green Draconian" then
-            desc = desc .. " und behalte Eure angeborene Farbe"
+            desc = desc .. " und behalte deine angeborene Farbe"
         else
-            desc = desc .. ". Ihr behaltet Eure angeborene Farbe und seid" ..
+            desc = desc .. ". Ihr behaltet deine angeborene Farbe und seid" ..
                            " auch resistent gegen Gift"
         end
     else
@@ -527,7 +527,7 @@ Dragon status
     desc = desc .. "."
 
     return desc
-}} Eure Nahkampfangriffe verursachen unglaublichen Schaden und Ihr seid viel
+}} deine Nahkampfangriffe verursachen unglaublichen Schaden und Ihr seid viel
 robuster, aber weniger ausweichend.
 
 Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen.
@@ -536,20 +536,20 @@ Lich status
 
 Ihr wurdet in einen Lich verwandelt. Ihr seid resistent gegen Kälte und
 feindliche Verhexungen und für die Dauer der Verwandlung vollkommen immun gegen
-Gift, negative Energie und Qual. Eure Nekromantie-Zauber werden stärker und Ihr
+Gift, negative Energie und Qual. deine Nekromantie-Zauber werden stärker und Ihr
 erhaltet einen auszehrenden Nahkampfangriff. Ihr seid jedoch auch anfällig für
 heiligen Schaden und Untote Vertreiben und könnt keine Tränke zu Euch nehmen.
 %%%%
 Bat status
 
-Ihr wurdet in eine flinke Fledermaus verwandelt, was Eure Ausweichfähigkeit
-erhöht, aber Eure Nahkampfangriffe erheblich schwächt.
+Ihr wurdet in eine flinke Fledermaus verwandelt, was deine Ausweichfähigkeit
+erhöht, aber deine Nahkampfangriffe erheblich schwächt.
 
 Alle ausgerüsteten Waffen, Rüstungen und Ringe sind verschmolzen und Ihr könnt
 keine Zauber. {{
     if you.race() ~= "Vampire" then
-        return "Die Wirksamkeit Eurer Nahkampfangriffe während in dieser " ..
-               "Form basiert auf Eurem Erfahrungsstufe und nicht auf " ..
+        return "Die Wirksamkeit deiner Nahkampfangriffe während in dieser " ..
+               "Form basiert auf deinem Erfahrungsstufe und nicht auf " ..
                "Eurer Fertigkeit im waffenlosen Kampf."
     end
 }}
@@ -558,19 +558,19 @@ Pig status
 
 Ihr wurdet in ein Schwein verwandelt. Ihr bewegr Euch schnell, seid aber im
 Nahkampf weniger effektiv. Alle ausgerüsteten Waffen, Rüstungen und Ringe sind
-verschmolzen und Ihr könnt keine Zauber wirken. Die Effektivität Eurer
-Nahkampfangriffe in dieser Form basiert auf Eurem Erfahrungsstufe und nicht auf
+verschmolzen und Ihr könnt keine Zauber wirken. Die Effektivität deiner
+Nahkampfangriffe in dieser Form basiert auf deinem Erfahrungsstufe und nicht auf
 Eurer Fertigkeit im waffenlosen Kampf.
 %%%%
 App status
 
 {{
     if you.race() == "Octopode" then
-        return "Aus einem Eurer Tentakeln ist ein bösartiger Stachel " ..
-               "gewachsen, der den Schaden Eurer zusätzlichen " ..
+        return "Aus einem deiner Tentakeln ist ein bösartiger Stachel " ..
+               "gewachsen, der den Schaden deiner zusätzlichen " ..
                "Tentakelangriffe erhöht."
     else
-        return "Aus Eurem Körper sind monströse Hörner oder Krallen " ..
+        return "Aus deinem Körper sind monströse Hörner oder Krallen " ..
                "gewachsen, was die Durchführung eines zusätzlichen Angriffs " ..
                "im Nahkampf ermöglicht."
     end
@@ -593,7 +593,7 @@ ausweichend und resistent gegen Feuer, Kälte, Elektrizität und Säure sowie im
 gegen Gift und negative Energie.
 
 Alle ausgerüsteten Waffen, Rüstungen und Schmuckstücke sind verschmolzen und Ihr
-könnt keine Zauber wirken. Die Wirksamkeit Eurer Nahkampfangriffe in dieser Form
+könnt keine Zauber wirken. Die Wirksamkeit deiner Nahkampfangriffe in dieser Form
 hängt von der Erfahrungsstufe und nicht von der Fertigkeit im waffenlosen Kampf
 ab.
 %%%%
@@ -605,17 +605,17 @@ stiften, können sich jedoch nicht bewegen, wenn feindliche Kreaturen anwesend
 sind. Ihr seid resistent gegen Gift und immun gegen negative Energie.
 
 Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen und Ihr könnt keine
-Zauber wirken. Die Wirksamkeit Eurer Nahkampfangriffe in dieser Form basiert auf
-Eurer Erfahrungsstufe und nicht auf Eurer Fertigkeit im waffenlosen Kampf.
+Zauber wirken. Die Wirksamkeit deiner Nahkampfangriffe in dieser Form basiert auf
+Eurer Erfahrungsstufe und nicht auf deiner Fertigkeit im waffenlosen Kampf.
 %%%%
 Shadow status
 
 Ihr wurdet in eine wirbelnde Masse dunkler Schatten verwandelt. Ihr seid
 dauerhaft unsichtbar und immun gegen Gift, Auszehrung und Qual. Ankommender
 Schaden wird halbiert, Ihr blutet bei jedem Angriff Rauch und verfügt über
-unendliche Willenskraft. Allerdings ist Eure Fähigkeit, im Nahkampf und mit
-Fernkampfangriffen Schaden zuzufügen, halbiert, Eure Zauberkraft wird stark
-eingeschränkt und Eure maximale Gesundheit wird weiter gezehrt, wenn Ihr Schaden
+unendliche Willenskraft. Allerdings ist deine Fähigkeit, im Nahkampf und mit
+Fernkampfangriffen Schaden zuzufügen, halbiert, deine Zauberkraft wird stark
+eingeschränkt und deine maximale Gesundheit wird weiter gezehrt, wenn Ihr Schaden
 erleidet.
 %%%%
 Orb status
@@ -642,12 +642,12 @@ Lash status
 
 Ihr bewegt Euch mit übernatürlicher Geschwindigkeit, wodurch Bewegungsaktionen
 sofort ausgeführt werden. Alle Kampfangriffe, die Ihr während dieser Bewegung
-ausführt, verursachen erhöhten Schaden und verfehlen nie Euer Ziel.
+ausführt, verursachen erhöhten Schaden und verfehlen nie dein Ziel.
 %%%%
 Storm status
 
 Ihr seid von einem Sturm himmlischer Wolken umgeben. Während der Sturm tobt,
-sind Eure Ausweichen und Kampfgenauigkeit sowie Euer Schaden erheblich erhöht,
+sind deine Ausweichen und Kampfgenauigkeit sowie dein Schaden erheblich erhöht,
 und wenn Ihr Feinde mit Kampfangriffen trefft, wird dieser Bonus erhöht. Der
 Sturm schwächt sich mit der Zeit ab und verschwindet, sobald der Bonus Null
 erreicht. Die himmlischen Wolken verhindern Unsichtbarkeit und verdecken die
@@ -655,15 +655,15 @@ Sicht derjenigen außerhalb des Sturms.
 %%%%
 SlowM status
 
-Auf diesem flüssigen Boden wird Eure Bewegung verlangsamt.
+Auf diesem flüssigen Boden wird deine Bewegung verlangsamt.
 %%%%
 Alive status
 
-Ihr seid voller Blut und Eure Gesundheit regeneriert sich schnell.
+Ihr seid voller Blut und deine Gesundheit regeneriert sich schnell.
 %%%%
 Aug status
 
-Ihr erhaltet Zauber- und Tötungsboni, die mit Eurer Gesundheit skalieren.
+Ihr erhaltet Zauber- und Tötungsboni, die mit deiner Gesundheit skalieren.
 %%%%
 Beogh status
 
@@ -672,7 +672,7 @@ schwören. Drückt dazu im Fähigkeitsmenü die Taste <white>Y</white>.
 %%%%
 Bloodless status
 
-Euer Körper ist völlig blutleer, was Eure maximale Gesundheit verringert und
+Euer Körper ist völlig blutleer, was deine maximale Gesundheit verringert und
 Eure Gesundheit daran hindert, sich zu regenerieren, wenn Monster sichtbar sind.
 Ihr seid immun gegen Gift und negative Energie, widerstehen Kälte erheblich und
 sind resistent gegen Qualen.
@@ -695,7 +695,7 @@ Ihr grabt.
 %%%%
 Elixir status
 
-Eure Gesundheit und/oder Magie sowie die Gesundheit Eurer Verbündeten werden
+Eure Gesundheit und/oder Magie sowie die Gesundheit deiner Verbündeten werden
 schnell wiederhergestellt.
 %%%%
 Fast+Slow status
@@ -708,7 +708,7 @@ Ihr fliegt gerade über Lava.
 %%%%
 Recall status
 
-Ihr ruft Eure Verbündeten zurück.
+Ihr ruft deine Verbündeten zurück.
 %%%%
 Water status
 
@@ -736,7 +736,7 @@ Water status
 %%%%
 -Wiz status
 
-Ihr habt die Kontrolle über Eure Magie verloren.
+Ihr habt die Kontrolle über deine Magie verloren.
 %%%%
 Attr status
 

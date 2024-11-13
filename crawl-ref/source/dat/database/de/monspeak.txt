@@ -328,11 +328,11 @@ Störung
 %%%%
 _truckle_
 
-verpflichte mich zu Eurem
+verpflichte mich zu deinem
 
-unterwerfe mich Eurem
+unterwerfe mich deinem
 
-füge mich in Euren
+füge mich in deinen
 %%%%
 _vassalage_
 
@@ -520,7 +520,7 @@ VISUAL:@The_monster@ winkt Euch zu.
 
 VISUAL:@The_monster@ lächelt fröhlich.
 
-VISUAL:@The_monster@ springt auf und ab, und sucht nach Eurer Aufmerksamkeit.
+VISUAL:@The_monster@ springt auf und ab, und sucht nach deiner Aufmerksamkeit.
 
 VISUAL:@The_monster@ zwinkert Euch zu.
 ## END friendly silenced humanoid ##
@@ -699,7 +699,7 @@ _friendly_fleeing_rare_
 
 @The_monster@ @_shouts_@, "Wartet auf mich, @player_name@! Könntet Ihr mir helfen?"
 
-@The_monster@ schreit, "Vergesst Eure Freunde nicht!"
+@The_monster@ schreit, "Vergesst deine Freunde nicht!"
 
 @The_monster@ schreit, "Bitte beschützt mich!"
 ## END friendly fleeing humanoid ##
@@ -1527,7 +1527,7 @@ _generic_ranged_
 
 @The_monster@ zielt auf {acc}@foe@.
 
-Ihr spürt, wie etwas gefährlich nahe an Eurem Kopf vorbeizieht. @player_only@
+Ihr spürt, wie etwas gefährlich nahe an deinem Kopf vorbeizieht. @player_only@
 %%%%
 _form_
 
@@ -1710,7 +1710,7 @@ _Agnes_common_
 
 VISUAL:@The_monster@ verbeugt sich.
 
-@The_monster@ sagt zu {dat}@foe@, "Ihr entehrt Eure Vorfahren."
+@The_monster@ sagt zu {dat}@foe@, "Ihr entehrt deine Vorfahren."
 
 @The_monster@ sagt zu {dat}@foe@, "Ich verachte einen unehrenhaften Gegner."
 
@@ -2720,7 +2720,7 @@ Spider Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Da ist eine Spinne auf Eurem Hals!"
+@The_monster@ sagt, "Da ist eine Spinne auf deinem Hals!"
 
 @The_monster@ sagt, "Ich hasse Krabbeltiere."
 
@@ -2965,7 +2965,7 @@ w:50
 
 @The_monster@ sagt, "Ich hoffe, ich treffe hier unten keine Eiskugeln!"
 
-@The_monster@ sagt, "Habt Ihr Eure Eisringe dabei?"
+@The_monster@ sagt, "Habt Ihr deine Eisringe dabei?"
 
 @The_monster@ sagt, "Die Kugel der Macht ist hier? Wo sind denn die anderen?"
 
@@ -3017,7 +3017,7 @@ w:50
 
 @The_monster@ sagt, "Ich habe zweihundert Goldstücke. Reicht das, um diese Mutationen zu heilen?"
 
-@The_monster@ sagt, "Mochtet Ihr Eure Hörner nicht?"
+@The_monster@ sagt, "Mochtet Ihr deine Hörner nicht?"
 
 @The_monster@ sagt, "Wenn ich Euch zwanzig Goldstücke gebe, könnt Ihr dann meine fiesen Schuppen loswerden?"
 
@@ -6312,7 +6312,7 @@ VISUAL:@The_monster@ wachsen Dutzende von Augenstielen, um {acc}@foe@ besser seh
 
 VISUAL:@The_monster@ zerfällt in viele kleine Kugeln aus mehrfarbigem Licht, die sich dann wieder zusammenfügen.
 
-VISUAL:@The_monster@ bekommt für kurze Zeit ein Gesicht, das dem Euren beunruhigend ähnlich ist.
+VISUAL:@The_monster@ bekommt für kurze Zeit ein Gesicht, das dem deinen beunruhigend ähnlich ist.
 
 @The_monster@ brüllt schaurig mit seinen vielen Mündern.
 
@@ -6647,7 +6647,7 @@ __NONE
 %%%%
 holy_being_pacification
 
-VISUAL:@The_monster@ wird durch Eure heilige Aura beruhigt.
+VISUAL:@The_monster@ wird durch deine heilige Aura beruhigt.
 %%%%
 holy_being_pacification_humanoid
 
@@ -6660,7 +6660,7 @@ VISUAL:@The_monster@ grüßt Euch.
 %%%%
 holy_being_pacification_speech
 
-@The_monster@ ruft Euch zu, "Setzt Eure Suche fort, Sterblicher!"
+@The_monster@ ruft Euch zu, "Setzt deine Suche fort, Sterblicher!"
 
 @The_monster@ sagt zu Euch, "Geh voran, Diener Elyvilons!"
 
