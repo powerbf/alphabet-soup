@@ -159,18 +159,18 @@ Unbekannt
 # "You are a <species>." or "You are a <background>."
 %%%%
 You are a %s.
-Ihr seid %s.
+Du bist %s.
 %%%%
 You are an %s.
-Ihr seid %s.
+Du bist %s.
 %%%%
 # "You are a <species> <background>."
 %%%%
 You are a %s %s.
-Ihr seid %s %s.
+Du bist %s %s.
 %%%%
 You are an %s %s.
-Ihr seid %s %s.
+Du bist %s %s.
 %%%%
 Please select your species.
 Bitte wählt deine Spezies.
@@ -398,7 +398,7 @@ Wähle deine letzte Waffe
 # name entry
 %%%%
 What is your name today?
-Wie heißt Ihr heute?
+Wie heißt du heute?
 %%%%
 Esc - Quit
 Esc - Beenden
@@ -413,7 +413,7 @@ That's a silly name!
 Das ist ein alberner Name!
 %%%%
 You have an existing game under this name; really overwrite? [Y/n]
-Ihr habt schon ein Spiel mit dieser Name; Wirklich überschreiben? [J/n]
+Du hast schon ein Spiel mit dieser Name; Wirklich überschreiben? [J/n]
 %%%%
 # seeded games
 %%%%
@@ -505,7 +505,7 @@ Lektion 5: Götter und Göttliche Fähigkeiten
 # other
 %%%%
 Trunk games don't count for the tournament, you want %s. Play trunk anyway? (Y/N)
-Trunk-Spiele gelten nicht für das Turnier. Ihr wollt veilleicht %s. Trunk trotzdem spielen? (J/N)
+Trunk-Spiele gelten nicht für das Turnier. Du willst veilleicht %s. Trunk trotzdem spielen? (J/N)
 %%%%
 
 ###############################################################
@@ -1310,7 +1310,7 @@ Memorise spells
 Zaubersprüche erlernen
 %%%%
 You cannot memorise this spell now.
-Ihr könnt diesen Zauber jetzt nicht erlernen.
+Du kannst diesen Zauber jetzt nicht erlernen.
 %%%%
 Browse message history
 Nachrichtenverlauf sehen
@@ -1341,7 +1341,7 @@ Cast spells
 Zaubersprüche wirken
 %%%%
 You cannot cast this spell right now.
-Ihr könnt diesen Zauber im Moment nich wirken.
+Du kannst diesen Zauber im Moment nich wirken.
 %%%%
 Cast
 Wirken

@@ -13,44 +13,44 @@
 # standard
 %%%%
 shout
-schreit
+schreist
 %%%%
 yell
-schreit
+schreist
 %%%%
 scream
-schreit
+schreist
 %%%%
 
 # felid
 %%%%
 meow
-miaut
+miaust
 %%%%
 yowl
-jault
+jaulst
 %%%%
 caterwaul
 maunzt
 %%%%
 hiss
-zischt
+zischst
 %%%%
 
 # gnoll (doglike)
 %%%%
 bark
-bellt
+bellst
 %%%%
 # context needed to avoid collision with howl status
 {verb-ihr}howl
-heult
+heulst
 %%%%
 screech
-kreischt
+kreischst
 %%%%
 growl
-knurrt
+knurrst
 %%%%
 
 # barachi (froglike)
@@ -59,10 +59,10 @@ croak
 krächzt
 %%%%
 ribbit
-quakt
+quakst
 %%%%
 bellow
-brüllt
+brüllst
 %%%%
 
 # shout-equivalent as noun with indefinite article
@@ -267,7 +267,7 @@ Giftzähne
 # shout-equivalent
 # same as felid
 #hiss
-#zischt
+#zischst
 %%%%
 # shout-equivalent as noun
 #a hiss
@@ -472,7 +472,7 @@ Zähne und Krallen
 %%%%
 # shout-equivalent
 roar
-brüllt
+brüllst
 %%%%
 # shout-equivalent as noun
 a roar
@@ -581,7 +581,7 @@ Zähne
 %%%%
 # shout-equivalent
 squeak
-quietscht
+quietschst
 %%%%
 # shout-equivalent as noun
 a squeak
@@ -610,7 +610,7 @@ ein dreckiges Schwein
 %%%%
 # shout-equivalent
 squeal
-kreischt
+kreischst
 %%%%
 # shout-equivalent as noun
 a squeal
@@ -783,7 +783,7 @@ Neblige Ranken
 %%%%
 # shout
 whoosh
-rauscht
+rauschst
 %%%%
 # shout-equivalent as noun
 a whoosh
@@ -861,7 +861,7 @@ Sporen
 %%%%
 # shout
 sporulate
-sporuliert
+sporulierst
 %%%%
 # shout-equivalent as noun
 # should be "a sporulation", but code just puts indefinite article in front of verb
@@ -971,57 +971,57 @@ dein altes Ich
 %%%%
 # default for most species
 You kneel at the altar of %s.
-Ihr kniet vor dem Altar von {dat}%s.
+Du kniest vor dem Altar von {dat}%s.
 %%%%
 # default for felid
 You sit before the altar of %s.
-Ihr sitzt vor dem Altar von {dat}%s.
+Du sitzt vor dem Altar von {dat}%s.
 %%%%
 # default for octopode
 You curl up in front of the altar of %s.
-Ihr rollt dich vor dem Altar von {dat}%s zusammen.
+Du rollst dich vor dem Altar von {dat}%s zusammen.
 %%%%
 # default for naga (snakelike)
 You coil in front of the altar of %s.
-Ihr windet dich vor dem Altar von {dat}%s.
+Du windest dich vor dem Altar von {dat}%s.
 %%%%
 # flying
 You hover solemnly before the altar of %s.
-Ihr schwebt feierlich vor dem Altar von {dat}%s.
+Du schwebst feierlich vor dem Altar von {dat}%s.
 %%%%
 # porcupine form
 You curl into a sanctuary of spikes before the altar of %s.
-Ihr rollt dich zu einem Heiligtum aus Stacheln vor dem Altar von {dat}%s zusammen.
+Du rollst dich zu einem Heiligtum aus Stacheln vor dem Altar von {dat}%s zusammen.
 %%%%
 # spider form
 You crawl onto the altar of %s.
-Ihr kriecht auf den Altar von {dat}%s.
+Du kriechst auf den Altar von {dat}%s.
 %%%%
 # tree form
 You sway towards the altar of %s.
-Ihr schwankt zum Altar von {dat}%s.
+Du schwankst zum Altar von {dat}%s.
 %%%%
 # bat form
 You perch on the altar of %s.
-Ihr hockt dich auf den Altar von {acc}%s.
+Du hockst dich auf den Altar von {acc}%s.
 %%%%
 # ice/pig/dragon form
 You bow your head before the altar of %s.
-Ihr verneigt dein Kopf vor dem Altar von {dat}%s.
+Du verneigst deinen Kopf vor dem Altar von {dat}%s.
 %%%%
 # hydra form
 You bow your heads before the altar of %s.
-Ihr verneigt deine Köpfe vor dem Altar von {dat}%s.
+Du verneigst deine Köpfe vor dem Altar von {dat}%s.
 %%%%
 # statue/storm form
 You place yourself before the altar of %s.
-Ihr stellt dich vor dem Altar von {dat}%s.
+Du stellst dich vor dem Altar von {dat}%s.
 %%%%
 # fungus form
 You release spores on the altar of %s.
-Ihr setzt Sporen auf den Altar von {dat}%s frei.
+Du setzt Sporen auf den Altar von {dat}%s frei.
 %%%%
 # wisp form
 You swirl around the altar of %s.
-Ihr wirbelt um den Altar von {dat}%s.
+Du wirbelst um den Altar von {dat}%s.
 %%%%
