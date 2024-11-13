@@ -198,7 +198,7 @@ Continue?
 Weitermachen?
 %%%%
 Your magical essence is drained by the effort!
-Eure magische Essenz wird durch die Anstrengung ausgezehrt!
+Deine magische Essenz wird durch die Anstrengung ausgezehrt!
 %%%%
 You extend your mandibles.
 Ihr fährt Eure Mandibeln aus.
@@ -279,7 +279,7 @@ You feel life flooding into your body.
 Ihr fühlt, wie das Leben in Euren Körper fließt.
 %%%%
 Your soul already belongs to Yredelemnul.
-Eure Seele gehört schon zu Yredelemnul.
+Deine Seele gehört schon zu Yredelemnul.
 %%%%
 %s's clone doesn't have a soul to enslave!
 Der Klon von {dat}%s hat keine Seele zum Versklaven!
@@ -348,13 +348,13 @@ You are too exhausted to lash out.
 Ihr seid zu erschöpft auszuschlagen.
 %%%%
 Your muscles tense, ready for explosive movement...
-Eure Muskeln wird angespannt, bereit für explosive Bewegung...
+Deine Muskeln wird angespannt, bereit für explosive Bewegung...
 %%%%
 You are already engulfed in a heavenly storm!
 Ihr seid schon in einen himmlischen Sturm versunken!
 %%%%
 Really renounce your faith, foregoing its fabulous benefits?
-Eurem Glauben wirklich abschwören und auf seine fabelhaften Vorteile verzichten?
+Deinem Glauben wirklich abschwören und auf seine fabelhaften Vorteile verzichten?
 %%%%
 Are you sure?
 Seid Ihr sicher?
@@ -806,10 +806,10 @@ Visions of slaying %s flood into your mind.
 Visionen des Tötens {gen}%s, kommen Euch in den Sinn.
 %%%%
 Your confusion fades away as the thirst for blood takes over your mind.
-Eure Verwirrung verschwindet, als der Durst nach Blut Euren Geist übernimmt.
+Deine Verwirrung verschwindet, als der Durst nach Blut Euren Geist übernimmt.
 %%%%
 Your thirst for blood fades away.
-Euer Blutdurst verschwindet.
+Dein Blutdurst verschwindet.
 %%%%
 You feel an uncomfortable desire to slay dragons.
 Ihr verspürt ein unangenehmes Verlangen, Drachen zu töten.
@@ -1034,7 +1034,7 @@ You are filled with an inner flame.
 Ihr seid mit einer inneren Flamme gefüllt.
 %%%%
 Your inner flame fades away.
-Eure innere Flamme verschwindet.
+Deine innere Flamme verschwindet.
 %%%%
 %s is filled with an inner flame.
 %s ist mit einer inneren Flamme gefüllt.
@@ -1070,10 +1070,10 @@ The vines fall away from your body!
 Die Reben fallen von Eurem Körper ab!
 %%%%
 Your attunement to healing potions increases.
-Eure Abstimmung auf Heiltränke nimmt zu.
+Deine Abstimmung auf Heiltränke nimmt zu.
 %%%%
 Your attunement to healing potions decreases.
-Eure Abstimmung auf Heiltränke nimmt ab.
+Deine Abstimmung auf Heiltränke nimmt ab.
 %%%%
 You feel very empty.
 Ihr fühlt Euch sehr leer.
@@ -1091,7 +1091,7 @@ The engine shudders to a halt.
 Der Motor kommt zum Stillstand.
 %%%%
 Your corpse armour falls away.
-Eure Leichenrüstung fällt weg.
+Deine Leichenrüstung fällt weg.
 %%%%
 A chunk of your corpse armour falls away.
 Ein Stück Eurer Leichenrüstung fällt weg.
@@ -1100,7 +1100,7 @@ The bodies of the dead rush to embrace you!
 Die Leichen der Toten eilen, um Euch zu umarmen!
 %%%%
 Your shell of carrion and bone grows thicker.
-Eure Schale aus Aas und Knochen wird dicker.
+Deine Schale aus Aas und Knochen wird dicker.
 %%%%
 The air around you leaps into flame!
 Die Luft um Euch herum geht in Flammen auf!
@@ -1109,7 +1109,7 @@ Your ring of flames gutters out.
 Ihr Flammenkranz flackert aus.
 %%%%
 Your spectral weapon disappears as you unwield.
-Eure Spektralwaffe verschwindet.
+Deine Spektralwaffe verschwindet.
 %%%%
 The staff is unable to connect with your magical essence.
 Der Stecken kan mit Eurer magischen Essenz nicht verbinden.
@@ -1242,7 +1242,7 @@ One of your followers decides to abandon you.
 Einer Eurer Anhänger beschließt, Euch zu verlassen.
 %%%%
 Your followers decide to abandon you.
-Eure Anhänger beschließen, Euch zu verlassen.
+Deine Anhänger beschließen, Euch zu verlassen.
 %%%%
 Some of your followers decide to abandon you.
 Einige Eurer Anhänger beschließen, Euch zu verlassen.
@@ -1349,10 +1349,10 @@ Are you sure you want to burn %s?
 Seid Ihr sicher, dass Ihr {acc}%s verbrennen wolltet?
 %%%%
 Your line of fire to %s is blocked by %s. Continue anyway?
-Eure Feuerlinie zu {dat}%s wird von {dat}%s blockiert. Trotzdem weitermachen?
+Deine Feuerlinie zu {dat}%s wird von {dat}%s blockiert. Trotzdem weitermachen?
 %%%%
 Your line of fire to the targeted location is blocked by %s. Continue anyway?
-Eure Feuerlinie zum Zileort ist von {dat}%s blockiert. Trotzdem weitermachen?
+Deine Feuerlinie zum Zileort ist von {dat}%s blockiert. Trotzdem weitermachen?
 %%%%
 %s appears from out of your range of vision.
 %s erscheint außerhalb Eurer Sichtweite.
@@ -1493,7 +1493,7 @@ Strange energies course through your body.
 Seltsame Energien fließen durch Euren Körper.
 %%%%
 Your will is overpowered!
-Euer Wille ist überwältigt!
+Dein Wille ist überwältigt!
 %%%%
 This spell isn't strong enough to banish yourself.
 Dieser Zauber ist nicht stark genug, um Euch selbst zu verbannen.
@@ -1505,7 +1505,7 @@ You convulse!
 Ihr krümmt Euch!
 %%%%
 Your mind is blasted!
-Euer Verstand wird zerschlagt!
+Dein Verstand wird zerschlagt!
 %%%%
 You feel a momentary urge to oink.
 Ihr verspürt kurzzeitig den Drang zu grunzen.
@@ -1517,10 +1517,10 @@ You feel firmly anchored in space.
 Ihr fühlt Euch fest im Raum verankert.
 %%%%
 Your teleport is interrupted.
-Euer Teleport ist unterbrochen.
+Dein Teleport ist unterbrochen.
 %%%%
 Your willpower is stripped away!
-Eure Willenskraft wird aufgezehrt!
+Deine Willenskraft wird aufgezehrt!
 %%%%
 You feel yourself grow more vulnerable to poison.
 Ihr fühlt Euch anfälliger für Gift werden.
@@ -1568,7 +1568,7 @@ Kirschfarbene Flammen brennen Eure Feuerresistenz weg!
 , fügt aber keinen Schaden zu.
 %%%%
 Your attached jelly eats %s!
-Euer anhaftendes Gelee isst %s!
+Dein anhaftendes Gelee isst %s!
 %%%%
 The barbed spikes become lodged in your body.
 Die Stacheldornen stecken in Eurem Körper.
@@ -1622,7 +1622,7 @@ Ihr werdet von {dat}%s nach vorne gerissen.
 %s blockiert {acc}%s.
 %%%%
 Your demonic guardian avoids your attack.
-Euer dämonischer Wächter vermeidet Euren Angriff.
+Dein dämonischer Wächter vermeidet Euren Angriff.
 %%%%
 %s passes through %s.
 %s geht durch {acc}%s.
@@ -1780,7 +1780,7 @@ Die Melodie ist seltsam gedämpft und hat keinen Einfluss auf Euch.
 %s ist nicht mehr ganz so faszinierend!
 %%%%
 Your mesmeriser suddenly seems less interesting!
-Euer Mesmeriser scheint plötzlich weniger interessant!
+Dein Mesmeriser scheint plötzlich weniger interessant!
 %%%%
 You are mesmerised by %s!
 Ihr seid fasziniert von {dat}%s!
@@ -1804,7 +1804,7 @@ Something stops singing.
 Etwas hört auf zu singen.
 %%%%
 Your mesmeriser is now quite boring!
-Euer Mesmeriser ist jetzt ziemlich langweilig!
+Dein Mesmeriser ist jetzt ziemlich langweilig!
 %%%%
 You break out of your daze!
 Ihr brecht aus Eurer Benommenheit heraus!
@@ -2025,7 +2025,7 @@ You smell decay.
 Ihr riecht die Verwesung.
 %%%%
 Your bandages flutter.
-Eure Bandagen flattern.
+Deine Bandagen flattern.
 %%%%
 # Your feathers/scales prickle.
 %s prickle.
@@ -2039,7 +2039,7 @@ You hear strange and distant voices.
 Ihr hört fremde und ferne Stimmen.
 %%%%
 Your bones ache.
-Eure Knochen schmerzen.
+Deine Knochen schmerzen.
 %%%%
 You feel weird for a moment.
 Ihr fühlt euch einen Moment lang komisch.
@@ -2170,7 +2170,7 @@ You can't repeat Stack Five.
 Ihr könnt 'Fünf vorsortieren' nicht wiederholen.
 %%%%
 Replace your current stack?
-Euren aktuellen Stapel ersetzen?
+Deinen aktuellen Stapel ersetzen?
 %%%%
 You are out of cards!
 Ihr habt keine Karten mehr!
@@ -2315,7 +2315,7 @@ Ihr setzt Euer Ritual fort.
 ##################
 %%%%
 Your memorisation is interrupted.
-Euer Memorieren ist unterbrochen.
+Dein Memorieren ist unterbrochen.
 %%%%
 You stop dropping stuff.
 Ihr hört auf Sachen fallen zu lassen.
@@ -2345,7 +2345,7 @@ You stop descending the stairs.
 Ihr hört auf die Treppe hinunter zu steigen.
 %%%%
 Your meditation is interrupted.
-Eure Meditation wird unterbrochen.
+Deine Meditation wird unterbrochen.
 %%%%
 You stop digging.
 Ihr hört auf zu graben.
@@ -2357,7 +2357,7 @@ You stop emptying yourself of blood.
 Ihr hört auf, Euch von Blut zu entleeren.
 %%%%
 Continue your ritual?
-Euer Ritual fortsetzen?
+Dein Ritual fortsetzen?
 %%%%
 You stop revivifying.
 Ihr hört auf zu beleben.
@@ -2819,13 +2819,13 @@ Ihr entdeckt passiv Gold.
 %s verwandelt die Körper Eurer besiegten Feinde in Gold.
 %%%%
 Your enemies may become distracted by gold.
-Eure Feinde können durch Gold abgelenkt werden.
+Deine Feinde können durch Gold abgelenkt werden.
 %%%%
 Your life essence is reduced. (-10%% HP)
-Eure Lebensessenz wird reduziert. (-10%% TP)
+Deine Lebensessenz wird reduziert. (-10%% TP)
 %%%%
 Your ancestor manifests to aid you.
-Euer Ahne manifestiert sich, um Euch zu helfen.
+Dein Ahne manifestiert sich, um Euch zu helfen.
 %%%%
 You are protected from the effects of unwielding distortion weapons.
 Ihr seid vor den Auswirkungen des Loslassens von Verzerrungswaffen geschützt.
@@ -3488,10 +3488,10 @@ Miscasting this spell causes magic contamination and also %s.
 Ein Fehlzauber verursacht magische Verunreinigung, und auch %s.
 %%%%
 Your servitor would be unable to mimic any of your spells.
-Euer Diener könnte keinen Eurer Zaubersprüche nachahmen.
+Dein Diener könnte keinen Eurer Zaubersprüche nachahmen.
 %%%%
 Your servitor casts %s.
-Euer Diener wirkt {acc}%s.
+Dein Diener wirkt {acc}%s.
 %%%%
 You can sustain at most 1 creature summoned by this spell.
 Ihr könnt maximal 1 durch diesen Zauber beschwörene Kreatur erhalten.
@@ -4200,7 +4200,7 @@ This spell doesn't need a beam path.
 Dieser Zauber braucht keinen Strahlengang.
 %%%%
 Your target is gone.
-Euer Ziel ist weg.
+Dein Ziel ist weg.
 %%%%
 Brought monster down to 1 HP.
 Monster auf 1 TP gesenkt.
@@ -4327,7 +4327,7 @@ This monster is filled with an inner flame.
 Dieses Monster ist von einer inneren Flamme erfüllt.
 %%%%
 Your line of fire to this monster is blocked by %s.
-Eure Schusslinie zu diesem Monster ist von {dat}%s blockiert.
+Deine Schusslinie zu diesem Monster ist von {dat}%s blockiert.
 %%%%
 wearing %s
 {acc}%s tragend
@@ -4430,7 +4430,7 @@ Ihr Körper erhebt sich aus dem Tod als hirnloser Zombie.
 %s begrüßt die Tötung eines ketzerischen Priesters.
 %%%%
 Your body crumbles into a pile of gold.
-Euer Körper zerfällt zu einem Haufen Gold.
+Dein Körper zerfällt zu einem Haufen Gold.
 %%%%
 Char dump unsuccessful! Sorry about that.
 Char Dump erfolglos! Tut mir leid.
@@ -4751,16 +4751,16 @@ Could not load '%s'
 '%s' konnte nicht geladen werden
 %%%%
 Your summoned ally is left behind.
-Euer beschworener Verbündeter bleibt zurück.
+Dein beschworener Verbündeter bleibt zurück.
 %%%%
 Your summoned allies are left behind.
-Eure beschworene Verbündeter bleiben zurück.
+Deine beschworene Verbündeter bleiben zurück.
 %%%%
 Your mindless thrall stays behind.
-Euer hirnloser Sklave bleibt zurück.
+Dein hirnloser Sklave bleibt zurück.
 %%%%
 Your mindless thralls stay behind.
-Eure hirnlose Sklaven bleiben zurück.
+Deine hirnlose Sklaven bleiben zurück.
 %%%%
 Generating dungeon...
 Dungeon wird generiert...
@@ -4909,7 +4909,7 @@ Sperrdatei "%s" kann nicht geöffnet werden
 %s reflektiert Euren Schaden auf Euch zurück!
 %%%%
 Your damage is reflected back at you!
-Euer Schaden wird zurück auf Euch reflektiert!
+Dein Schaden wird zurück auf Euch reflektiert!
 %%%%
 %s mirrors your injury!
 %s spiegelt Eure Verletzung wider!
@@ -5102,7 +5102,7 @@ Ihr seid noch nicht bereit, noch einmal zu rezitieren.
 %s gewährt Euch göttliche Ausdauer.
 %%%%
 Your divine stamina fades away.
-Eure göttliche Ausdauer schwindet.
+Deine göttliche Ausdauer schwindet.
 %%%%
 Do you wish to cure all of your mutations?
 Möchtet Ihr alle Eure Mutationen heilen?
@@ -5117,16 +5117,16 @@ You are suddenly bathed in radiance!
 Ihr seid plötzlich in Strahlen getaucht!
 %%%%
 Your shield is strengthened by the Shining One's divine power.
-Euer Schild wird durch die göttliche Macht des Strahlenden gestärkt.
+Dein Schild wird durch die göttliche Macht des Strahlenden gestärkt.
 %%%%
 A divine shield forms around you!
 Ein göttlicher Schild bildet sich um Euch!
 %%%%
 Your divine shield is renewed.
-Euer göttlicher Schild wird erneuert.
+Dein göttlicher Schild wird erneuert.
 %%%%
 Your divine shield fades away.
-Euer göttlicher Schild verschwindet.
+Dein göttlicher Schild verschwindet.
 %%%%
 You feel purified!
 Ihr fühlt Euch gereinigt!
@@ -5135,7 +5135,7 @@ Elyvilon grants you divine vigour.
 Elyvilon gewährt Euch göttliche Kraft.
 %%%%
 Your divine vigour fades away.
-Eure göttliche Vitalität schwindet.
+Deine göttliche Vitalität schwindet.
 %%%%
 Your skin crawls.
 Ihr bekommt eine Gänsehaut.
@@ -5392,7 +5392,7 @@ Ihr habt nicht genug Gold, um diesen Händler zu finanzieren!
 %%%%
 # Your bribe of <branch>...
 Your bribe of %s has been exhausted.
-Euer Bestechung von {dat}%s ist erschöpft.
+Dein Bestechung von {dat}%s ist erschöpft.
 %%%%
 You need at least %d gold to offer a bribe.
 Ihr braucht mindestens %d Gold, um eine Bestechung anzubieten.
@@ -5833,16 +5833,16 @@ You hear a distant slurping noise.
 Ihr hört ein entferntes Schlürfen.
 %%%%
 Your resistance to fire fades away.
-Euer Widerstand gegen Feuer schwindet.
+Dein Widerstand gegen Feuer schwindet.
 %%%%
 Your resistance to cold fades away.
-Euer Widerstand gegen Kälte lässt nach.
+Dein Widerstand gegen Kälte lässt nach.
 %%%%
 Your resistance to electricity fades away.
-Euer Widerstand gegen Elektrizität schwindet.
+Dein Widerstand gegen Elektrizität schwindet.
 %%%%
 Your resistance to physical damage fades away.
-Euer Widerstand gegen physischen Schaden lässt nach.
+Dein Widerstand gegen physischen Schaden lässt nach.
 %%%%
 You feel protected from fire.
 Ihr fühlt Euch vor Feuer geschützt.
@@ -5872,7 +5872,7 @@ Ihr fühlt Euch besser vor physischen Schäden geschützt.
 %s ahmt Euren Zauber nach!
 %%%%
 Your supernatural speed expires.
-Eure übernatürliche Geschwindigkeit läuft ab.
+Deine übernatürliche Geschwindigkeit läuft ab.
 %%%%
 The heavenly storm settles.
 Das himmlische Gewitter lässt nach.
@@ -6306,7 +6306,7 @@ You aren't carrying any weapons that can be blessed.
 Ihr tragt keine Waffen, die gesegnet werden können.
 %%%%
 Your armour is currently melded into you.
-Eure Rüstung ist bereits mit Euch fusioniert.
+Deine Rüstung ist bereits mit Euch fusioniert.
 %%%%
 You aren't carrying any currently wearable armour.
 Ihr habt keine Rüsting bei Euch, die Ihr im Moment anziehen könnt.
@@ -6494,7 +6494,7 @@ Floor Items
 Gegnstände am Boden
 %%%%
 Your weapon is melded into your body!
-Eure Waffe ist in Euren Körper fusioniert!
+Deine Waffe ist in Euren Körper fusioniert!
 %%%%
 You can't wield anything in your present form.
 Ihr könnt nichts in Eurer gegenwärtigen Form führen.
@@ -6503,7 +6503,7 @@ You cannot break your focus on the pain!
 Ihr könnt Euch nicht vom Schmerz ablenken!
 %%%%
 Your thirst for blood prevents you from unwielding your weapon!
-Euer Blutdurst hindert Euch daran, Eure Waffe loszulassen!
+Dein Blutdurst hindert Euch daran, Eure Waffe loszulassen!
 %%%%
 You can't unwield your weapon!
 Ihr könnt Eure Waffe nicht loslassen.
@@ -6545,10 +6545,10 @@ You can wear that only in your normal form.
 Das könnt Ihr nur in Eurer normalen Form tragen.
 %%%%
 Your wings won't fit in that.
-Eure Flügel passen da nicht rein.
+Deine Flügel passen da nicht rein.
 %%%%
 Your wings, even vestigial as they are, won't fit in that.
-Eure Flügel, auch wenn sie noch so rudimentär sind, passen da nicht rein.
+Deine Flügel, auch wenn sie noch so rudimentär sind, passen da nicht rein.
 %%%%
 You need the rest of your tentacles for walking.
 Ihr braucht den Rest Eurer Tentakel zum Gehen.
@@ -6994,7 +6994,7 @@ You acquired it @in_location@
 Ihr habt diesen Gegenstand @in_location@ erworben
 %%%%
 Your wizardly powers created it @in_location@
-Eure Zaubermacht hat diesen Gegenstand @in_location@ geschaffen
+Deine Zaubermacht hat diesen Gegenstand @in_location@ geschaffen
 %%%%
 @God@ gifted it to you @in_location@
 @God@ hat Euch diesen Gegenstand geschenkt @in_location@
@@ -7120,7 +7120,7 @@ Autopickup disabled for %d items.
 Autopickup für %d Gegenstände deaktiviert.
 %%%%
 Your pack is full.
-Euer Gepäck ist voll.
+Dein Gepäck ist voll.
 %%%%
 "Which rune (ESC to exit)? "
 "Welche Rune (ESC zum Abbrechen)? "
@@ -7715,7 +7715,7 @@ The Abyss bends around you!
 Der Abgrund biegt sich um Euch!
 %%%%
 Your passage of Golubria closes with a snap!
-Eure Passage von Golubria schließt sich mit einem Schnappen!
+Deine Passage von Golubria schließt sich mit einem Schnappen!
 %%%%
 You hear a snapping sound.
 Ihr hört ein Knacken.
@@ -7733,7 +7733,7 @@ You feel your anger nearly subside.
 Ihr fühlt, wie Euer Zorn fast nachlässt.
 %%%%
 Your blood rage is quickly leaving you.
-Eure Blutwut verlässt Euch schnell.
+Deine Blutwut verlässt Euch schnell.
 %%%%
 Can't repeat a command which takes no turns (unless it's a wizard command), cancelling repetitions.
 Ein Befehl (außerdem ein Zauberer-Befehl), der keine Runden benötigt, kann nicht wiederholt werden. Wiederholungen werden aufgehoben.
@@ -7899,13 +7899,13 @@ You feel invigorated.
 Ihr fühlt Euch gestärkt.
 %%%%
 Your armour prevents you from hitting %s.
-Eure Rüstung hindert Euch daran, {acc}%s zu treffen.
+Deine Rüstung hindert Euch daran, {acc}%s zu treffen.
 %%%%
 Your shield prevents you from hitting %s.
-Euer Schild hindert Euch daran, {acc}%s zu treffen.
+Dein Schild hindert Euch daran, {acc}%s zu treffen.
 %%%%
 Your shield and armour prevent you from hitting %s.
-Euer Schild und Eure Rüstung hindert Euch daran, {acc}%s zu treffen.
+Dein Schild und Eure Rüstung hindert Euch daran, {acc}%s zu treffen.
 %%%%
 You completely miss %s.
 Ihr verfehlt {acc}%s völlig.
@@ -8400,7 +8400,7 @@ Ihr seid in einer Sporenwolke eingehüllt!
 %s ist in einer Sporenwolke eingehüllt!
 %%%%
 Your divine stamina protects you from poison!
-Eure göttliche Ausdauer schützt Euch vor Gift!
+Deine göttliche Ausdauer schützt Euch vor Gift!
 %%%%
 %s infuriates you!
 %s macht Euch wütend!
@@ -8472,7 +8472,7 @@ The eyeballs on your body gaze at %s.
 Die Augäpfel auf Eurem Körper blicken auf {acc}%s.
 %%%%
 Your tendrils lash around %s %s and pull it to the ground!
-Eure Ranken ziehen {acc}%2$s {gen}%1$s zu Boden!
+Deine Ranken ziehen {acc}%2$s {gen}%1$s zu Boden!
 %%%%
 %s is struck by your spines.
 %s wird von Euren Stacheln getroffen.
@@ -8632,28 +8632,28 @@ Huh?
 Hä?
 %%%%
 Your mouth is already empty.
-Euer Mund ist schon leer.
+Dein Mund ist schon leer.
 %%%%
 You are already empty-clawed.
-Eure Krallen sind schon leer.
+Deine Krallen sind schon leer.
 %%%%
 You are already empty-tentacled.
-Eure Tentakel sind schon leer.
+Deine Tentakel sind schon leer.
 %%%%
 You are already empty-handed.
-Eure Hände sind schon leer.
+Deine Hände sind schon leer.
 %%%%
 Your mouth is now empty.
-Euer Mund ist jetzt leer.
+Dein Mund ist jetzt leer.
 %%%%
 You are now empty-clawed.
-Eure Krallen sind jetzt leer.
+Deine Krallen sind jetzt leer.
 %%%%
 You are now empty-tentacled.
-Eure Tentakel sind jetzt leer.
+Deine Tentakel sind jetzt leer.
 %%%%
 You are now empty-handed.
-Eure Hände sind jetzt leer.
+Deine Hände sind jetzt leer.
 %%%%
 You blink.
 Ihr blinzelt.
@@ -8692,10 +8692,10 @@ You see a ghostly outline there, and the spell fizzles.
 Ihr seht dort einen gespenstischen Umriss und der Zauber scheitert.
 %%%%
 Your health is already full.
-Eure Gesundheit ist bereits voll.
+Deine Gesundheit ist bereits voll.
 %%%%
 Your reserves of magic are already full.
-Eure magischen Reserven sind bereits voll.
+Deine magischen Reserven sind bereits voll.
 %%%%
 You feel better.
 Ihr fühlt Euch besser.
@@ -8710,7 +8710,7 @@ You suddenly feel drained of magical energy!
 Ihr fühlt Euch plötzlich von magischer Energie ausgezehrt!
 %%%%
 Your god isn't willing to do this for you now.
-Euer Gott ist nicht bereit, das jetzt für Euch zu tun.
+Dein Gott ist nicht bereit, das jetzt für Euch zu tun.
 %%%%
 
 ##################
@@ -8718,7 +8718,7 @@ Euer Gott ist nicht bereit, das jetzt für Euch zu tun.
 ##################
 %%%%
 Your stasis prevents you from teleporting.
-Eure Stase hindert Euch daran, Euch zu teleportieren.
+Deine Stase hindert Euch daran, Euch zu teleportieren.
 %%%%
 You spin around.
 Ihr dreht Euch um.
@@ -10283,7 +10283,7 @@ Der Blutfleck auf {dat}%s verschwindet!
 %s wird geheilt!
 %%%%
 Your spectral weapon shares its damage with you!
-Eure Spektralwaffe teilt ihren Schaden mit Euch!
+Deine Spektralwaffe teilt ihren Schaden mit Euch!
 %%%%
 %s shares the spectral weapon's damage!
 %s teilt den Schaden der Spektralwaffe!
@@ -10348,16 +10348,16 @@ The barbed spikes snap loose.
 Die Stacheln reißen ab.
 %%%%
 Your icy armour and frozen ramparts will break if you move.
-Eure eisige Rüstung und gefrorenen Wälle werden brechen, wenn Ihr Euch bewegt.
+Deine eisige Rüstung und gefrorenen Wälle werden brechen, wenn Ihr Euch bewegt.
 %%%%
 Your icy armour will break if you move.
-Eure eisige Rüstung werden brechen, wenn Ihr Euch bewegt.
+Deine eisige Rüstung werden brechen, wenn Ihr Euch bewegt.
 %%%%
 Your frozen ramparts will break if you move.
-Eure gefrorenen Wälle werden brechen, wenn Ihr Euch bewegt.
+Deine gefrorenen Wälle werden brechen, wenn Ihr Euch bewegt.
 %%%%
 Your icy armour cracks and falls away as you move.
-Eure eisige Rüstung knackt und fällt weg, als Ihr Euch bewegt.
+Deine eisige Rüstung knackt und fällt weg, als Ihr Euch bewegt.
 %%%%
 The frozen ramparts melt away as you move.
 Die gefrorenen Wälle schmelzen, als Ihr Euch bewegt.
@@ -10442,7 +10442,7 @@ You're too confused to move!
 Ihr seid zu verwirrt, um Euch zu bewegen!
 %%%%
 Your mandibles retract as you bump into %s.
-Eure Mandibeln ziehen sich zurück, als Ihr an {acc}%s stößt.
+Deine Mandibeln ziehen sich zurück, als Ihr an {acc}%s stößt.
 %%%%
 You bump into %s.
 Ihr stößt an {acc}%s.
@@ -10561,10 +10561,10 @@ Ihr fühlt Euch für einen Moment seltsam.
 %s schützt Euren Körper vor Mutation!
 %%%%
 Your body decomposes!
-Euer Körper zersetzt sich!
+Dein Körper zersetzt sich!
 %%%%
 Your mutations feel more permanent.
-Eure Mutationen fühlen sich dauerhafter an.
+Deine Mutationen fühlen sich dauerhafter an.
 %%%%
 You feel %s.
 Ihr fühlt %s.
@@ -10680,10 +10680,10 @@ Die Herren von Pandämonium sind nicht amüsiert. Vorsicht!
 ##################
 %%%%
 Your icy defenses dissipate!
-Eure eisigen Verteidigungen lösen sich auf!
+Deine eisigen Verteidigungen lösen sich auf!
 %%%%
 Your condensation shield dissipates!
-Euer Kondensationsschild löst sich auf!
+Dein Kondensationsschild löst sich auf!
 %%%%
 You shrug off the wave.
 Ihr schüttelt die Welle ab.
@@ -10746,10 +10746,10 @@ You emit a cloud of colourful smoke!
 Ihr stoßt eine bunte Rauchwolke aus!
 %%%%
 Your body deteriorates!
-Euer Körper baut sich ab!
+Dein Körper baut sich ab!
 %%%%
 Your shape twists and changes as you die.
-Eure Form dreht sich und verändert sich, als Ihr sterbt.
+Deine Form dreht sich und verändert sich, als Ihr sterbt.
 %%%%
 You feel threatened and lose the ability to read scrolls!
 Ihr fühlt Euch bedroht und verliert die Fähigkeit, Schriftrollen zu lesen!
@@ -10813,7 +10813,7 @@ Tentacles
 Tentakel
 %%%%
 Your unstable footing causes you to fumble your attack.
-Euer instabiler Stand lässt Euch Euren Angriff fummeln.
+Dein instabiler Stand lässt Euch Euren Angriff fummeln.
 %%%%
 %s forces you to slow down.
 %s zwingt Euch dazu, langsamer zu werden.
@@ -10822,7 +10822,7 @@ A red film seems to cover your vision as you go berserk!
 Ein roter Film scheint Eure Vision zu verdecken, als Ihr wütend werdet!
 %%%%
 Your finesse ends abruptly.
-Eure Finesse endet abrupt.
+Deine Finesse endet abrupt.
 %%%%
 You feel yourself moving faster!
 Ihr fühlt Euch schneller!
@@ -10852,7 +10852,7 @@ You cannot raise a blood rage in your lifeless body.
 Ihr könnt in eurem leblosen Körper keinen Blutrausch auslösen.
 %%%%
 Your stasis prevents you from going berserk.
-Eure Stasis verhindert, dass Ihr wütet.
+Deine Stasis verhindert, dass Ihr wütet.
 %%%%
 You are pushed out of %s.
 Ihr werdet aus {dat}%s gestoßen.
@@ -10998,7 +10998,7 @@ You feel magic returning to you.
 Ihr fühlt, wie Magie zu Euch zurückkehrt.
 %%%%
 Your spectral weapon disappears as your weapon melds.
-Eure Spektralwaffe verschwindet, als eure Waffe verschmilzt.
+Deine Spektralwaffe verschwindet, als eure Waffe verschmilzt.
 %%%%
 %s stops oozing corrosive slime.
 %s hört auf, ätzenden Schleim zu sickern.
@@ -11079,10 +11079,10 @@ You feel strangely alone.
 Ihr fühlt Euch seltsam allein.
 %%%%
 Your magic begins regenerating once more.
-Eure Magie beginnt sich wieder zu regenerieren.
+Deine Magie beginnt sich wieder zu regenerieren.
 %%%%
 Your aim is not that steady anymore.
-Euer Zielen ist nicht mehr so genau.
+Dein Zielen ist nicht mehr so genau.
 %%%%
 The haze of the repulsion field disappears.
 Der Dunst des Abstoßungsfeldes verschwindet.
@@ -11175,7 +11175,7 @@ You turn to %s and can move again.
 Ihr werdet zu {dat}%s und kannst Euch wieder bewegen.
 %%%%
 Your limbs are stiffening.
-Eure Glieder versteifen sich.
+Deine Glieder versteifen sich.
 %%%%
 You feel less attractive to monsters.
 Ihr fühlt Euch weniger attraktiv für Monster.
@@ -11199,16 +11199,16 @@ The grasping roots release their grip on you.
 Die greifenden Wurzeln lösen ihren Griff um Euch.
 %%%%
 Your recitation is interrupted.
-Eure Rezitation wird unterbrochen.
+Deine Rezitation wird unterbrochen.
 %%%%
 %s emerges from the mists of memory!
 %s taucht aus den Nebeln der Erinnerung auf!
 %%%%
 Your icy armour evaporates.
-Eure eisige Rüstung verdampft.
+Deine eisige Rüstung verdampft.
 %%%%
 Your icy armour starts to melt.
-Eure eisige Rüstung beginnt zu schmelzen.
+Deine eisige Rüstung beginnt zu schmelzen.
 %%%%
 Your transformation is almost over.
 Ihre Verwandlung ist fast beendet.
@@ -11235,7 +11235,7 @@ You are starting to lose your buoyancy.
 Ihr beginnt, euren Auftrieb zu verlieren.
 %%%%
 Your trail of clouds dissipates.
-Eure Wolkenspur löst sich auf.
+Deine Wolkenspur löst sich auf.
 %%%%
 You rip and tear the barbed spikes from your body.
 Ihr reißt Euch die Stacheln von Eurem Körper.
@@ -11253,7 +11253,7 @@ Ihr schwebt anmutig nach unten.
 %s stellt sich auf Euren Körper ein, und Ihr beginnt, Euch schneller zu regenerieren.
 %%%%
 Your amulet attunes itself to your body and you begin to regenerate magic more quickly.
-Euer Amulett stellt sich auf Euren Körper ein und Ihr beginnt, Eure Magie schneller zu regenerieren.
+Dein Amulett stellt sich auf Euren Körper ein und Ihr beginnt, Eure Magie schneller zu regenerieren.
 %%%%
 You %s as the wereblood boils in your veins!
 Ihr %s als das Werblut in euren Adern kocht!
@@ -11267,10 +11267,10 @@ Ihr fühlt Euch seltsam instabil.
 ##################
 %%%%
 Your experience leads to an increase in your attributes!
-Eure Erfahrung führt zu einer Steigerung Eurer Attribute!
+Deine Erfahrung führt zu einer Steigerung Eurer Attribute!
 %%%%
 Your experience leads to a dramatic increase in your attributes!
-Eure Erfahrung führt zu einer dramatischen Steigerung Eurer Attribute!
+Deine Erfahrung führt zu einer dramatischen Steigerung Eurer Attribute!
 %%%%
 Strength
 Stärke
@@ -11288,7 +11288,7 @@ Attribute erhöhen
 " Erhöhen:"
 %%%%
 Your base attributes are Str %d, Int %d, Dex %d.
-Eure Basisattribute sind Stä %d, Int %d, Ges %d.
+Deine Basisattribute sind Stä %d, Int %d, Ges %d.
 %%%%
 "Increase (S)trength, (I)ntelligence, or (D)exterity? "
 "(S)tärke, (I)ntelligenz oder (G)eschicklichkeit erhöhen? "
@@ -11315,7 +11315,7 @@ stupid
 dumm
 %%%%
 Your divine stamina protects you from %s loss.
-Eure göttliche Ausdauer schützt Euch vor dem Verlust von {dat}%s.
+Deine göttliche Ausdauer schützt Euch vor dem Verlust von {dat}%s.
 %%%%
 You feel %s returning.
 Ihr spürt, wie %s zurückkehrt.
@@ -11443,13 +11443,13 @@ Wirklich berserken, während Ihr %s schwingt?
 %s hat %d Ladungen zurückerhalten.
 %%%%
 Your life force feels restored.
-Eure Lebenskraft fühlt sich wiederhergestellt.
+Deine Lebenskraft fühlt sich wiederhergestellt.
 %%%%
 Extra life!
 Zusätzliches Leben!
 %%%%
 Your capacity for spells is full, and you lose access to an earlier spell.
-Eure Kapazität für Zaubersprüche ist voll, und Ihr verliert den Zugang zu einem früheren Zauberspruch.
+Deine Kapazität für Zaubersprüche ist voll, und Ihr verliert den Zugang zu einem früheren Zauberspruch.
 %%%%
 The power to cast %s wells up from within.
 Die Macht, %s zu wirken, quillt aus dem Inneren.
@@ -11467,7 +11467,7 @@ You have reached level %d!
 Ihr habt Stufe %d erreicht!
 %%%%
 Your skin feels tougher.
-Eure Haut fühlt sich härter an.
+Deine Haut fühlt sich härter an.
 %%%%
 Your scales start taking on an %s colour.
 Ihre Schuppen nehmen eine %s Farbe an.
@@ -11491,10 +11491,10 @@ You feel monstrous as your demonic heritage exerts itself.
 Ihr fühlt Euch monströs, als Euer dämonisches Erbe zum Tragen kommt.
 %%%%
 Your demonic ancestry asserts itself...
-Eure dämonische Abstammung setzt sich durch...
+Deine dämonische Abstammung setzt sich durch...
 %%%%
 Your scales feel tougher.
-Eure Schuppen fühlen sich härter an.
+Deine Schuppen fühlen sich härter an.
 %%%%
 In your current blood state, you are immune to poison, significantly resist cold, are immune to negative energy, resist torment, and do not heal with monsters in sight.
 In Eurem derzeitigen Blutzustand seid Ihr immun gegen Gift, habt einen hohen Widerstand gegen Kälte, seid immun gegen negative Energie, widersteht Qualen und heilt nicht, wenn Monster in Sicht sind.
@@ -11503,28 +11503,28 @@ In your current blood state, you heal quickly.
 In Eurem jetzigen Blutzustand heilt Ihr schnell.
 %%%%
 Your movement is aided by the wind.
-Eure Bewegung wird durch den Wind unterstützt.
+Deine Bewegung wird durch den Wind unterstützt.
 %%%%
 Your movement is hindered by the wind.
-Eure Bewegung wird durch den Wind behindert.
+Deine Bewegung wird durch den Wind behindert.
 %%%%
 Your swimming speed is %s.
-Eure Schwimmgeschwindigkeit ist %s.
+Deine Schwimmgeschwindigkeit ist %s.
 %%%%
 Your wading speed is %s.
-Eure Watgeschwindigkeit ist %s.
+Deine Watgeschwindigkeit ist %s.
 %%%%
 Your flying speed is %s.
-Eure Fluggeschwindigkeit ist %s.
+Deine Fluggeschwindigkeit ist %s.
 %%%%
 Your movement speed is %s.
-Eure Bewegungsgeschwindigkeit ist %s.
+Deine Bewegungsgeschwindigkeit ist %s.
 %%%%
 average
 durchschnittlich
 %%%%
 Your attack delay is about %.1f%s%s.
-Eure Angriffsverzögerung beträgt etwa %.1f%s%s.
+Deine Angriffsverzögerung beträgt etwa %.1f%s%s.
 %%%%
 " (and cannot be improved with additional weapon skill)"
 " (und kann nicht durch zusätzliche Waffenfertigkeit verbessert werden)"
@@ -11578,13 +11578,13 @@ You are practically glowing with residual magic!
 Ihr seid praktisch mit Restmagie glühend!
 %%%%
 Your entire body has taken on an eerie glow!
-Euer ganzer Körper hat ein unheimliches Leuchten angenommen!
+Dein ganzer Körper hat ein unheimliches Leuchten angenommen!
 %%%%
 You are engulfed in a nimbus of crackling magics!
 Ihr werdet von einem Nimbus aus knisternder Magie umhüllt!
 %%%%
 Your magical contamination has completely faded away.
-Eure magische Verunreinigung ist vollständig verschwunden.
+Deine magische Verunreinigung ist vollständig verschwunden.
 %%%%
 You feel less contaminated with magical energies.
 Ihr fühlt euch weniger mit magischen Energien kontaminiert.
@@ -11596,7 +11596,7 @@ You feel momentarily confused.
 Ihr fühlt Euch momentan verwirrt.
 %%%%
 Your divine stamina protects you from confusion!
-Eure göttliche Ausdauer schützt Euch vor Verwirrung!
+Deine göttliche Ausdauer schützt Euch vor Verwirrung!
 %%%%
 You are more confused.
 Ihr seid mehr verwirrt.
@@ -11623,7 +11623,7 @@ You are no longer poisoned.
 Ihr seid nicht länger vergiftet.
 %%%%
 Your divine stamina protects you from the miasma!
-Eure göttliche Ausdauer schützt Euch vor dem Miasma!
+Deine göttliche Ausdauer schützt Euch vor dem Miasma!
 %%%%
 You are covered in liquid flames!
 Ihr seid in flüssigen Flammen bedeckt!
@@ -11632,7 +11632,7 @@ You dip into the water, and the flames go out!
 Ihr taucht ins Wasser und die Flammen gehen aus!
 %%%%
 Your stasis prevents you from being slowed.
-Eure Stase verhindert, dass Ihr verlangsamt werdet.
+Deine Stase verhindert, dass Ihr verlangsamt werdet.
 %%%%
 You already are as slow as you could be.
 Ihr seid schon so langsam wie Ihr sein könntet.
@@ -11647,7 +11647,7 @@ You recover from your berserk rage.
 Ihr erholt Euch von Eurer wütenden Wut.
 %%%%
 Your stasis prevents you from being hasted.
-Eure Stase verhindert, dass Ihr hastig werdet.
+Deine Stase verhindert, dass Ihr hastig werdet.
 %%%%
 You already have as much speed as you can handle.
 Ihr habt schon so viel Geschwindigkeit, wie Ihr verkraften könnt.
@@ -11656,7 +11656,7 @@ You feel as though your hastened speed will last longer.
 Ihr habt das Gefühl, als würde Eure beschleunigte Geschwindigkeit länger dauern.
 %%%%
 Your extra speed is starting to run out.
-Eure zusätzliche Geschwindigkeit geht langsam zur Neige.
+Deine zusätzliche Geschwindigkeit geht langsam zur Neige.
 %%%%
 You feel less invigorated.
 Ihr fühlt Euch weniger belebt.
@@ -11665,13 +11665,13 @@ The frozen ramparts melt away.
 Die gefrorenen Wälle schmelzen weg.
 %%%%
 Your weapon and divine halo glow too brightly to become invisible.
-Eure Waffe und Euer göttlicher Heiligenschein leuchten zu hell, um unsichtbar zu werden.
+Deine Waffe und Euer göttlicher Heiligenschein leuchten zu hell, um unsichtbar zu werden.
 %%%%
 Your divine halo glows too radiantly to become invisible.
-Euer göttlicher Heiligenschein leuchtet zu strahlend, um unsichtbar zu werden.
+Dein göttlicher Heiligenschein leuchtet zu strahlend, um unsichtbar zu werden.
 %%%%
 Your weapon shines too brightly to become invisible.
-Eure Waffe leuchtet zu hell, um unsichtbar zu werden.
+Deine Waffe leuchtet zu hell, um unsichtbar zu werden.
 %%%%
 Invisibility will do you no good right now.
 Unsichtbarkeit nützt Euch im Moment nichts.
@@ -11680,13 +11680,13 @@ Invisibility will do you no good right now; use anyway?
 Unsichtbarkeit nützt Euch im Moment nichts; verwenden trotzdem?
 %%%%
 Your roots keep you in place.
-Eure Wurzeln halten Euch an Ort und Stelle.
+Deine Wurzeln halten Euch an Ort und Stelle.
 %%%%
 You can't fly in this form.
 In dieser Form könnt Ihr nicht fliegen.
 %%%%
 Your tail turns into legs as you fly out of the water.
-Euer Schwanz verwandelt sich in Beine, als Ihr aus dem Wasser fliegt.
+Dein Schwanz verwandelt sich in Beine, als Ihr aus dem Wasser fliegt.
 %%%%
 You swoop lightly up into the air.
 Ihr fliegt leicht in die Luft.
@@ -11716,7 +11716,7 @@ You gasp with relief as air once again reaches your lungs.
 Ihr keucht erleichtert, als Luft wieder Eure Lunge erreicht.
 %%%%
 Your lungs strain for air!
-Eure Lunge ringen nach Luft!
+Deine Lunge ringen nach Luft!
 %%%%
 , a level %d %s %s
 , Level %d %s %s
@@ -11767,7 +11767,7 @@ You are splashed with acid but take no damage.
 Ihr werdet mit Säure bespritzt, nehmt aber keinen Schaden.
 %%%%
 Your stasis prevents you from being paralysed.
-Eure Stase verhindert, dass Ihr paralysiert werdet.
+Deine Stase verhindert, dass Ihr paralysiert werdet.
 %%%%
 You shrug off the repeated paralysis!
 Ihr schüttelt die wiederholte Paralyse ab!
@@ -11776,10 +11776,10 @@ You suddenly lose the ability to move!
 Ihr verliert plötzlich die Fähigkeit Euch zu bewegen!
 %%%%
 Your divine stamina protects you from petrification!
-Eure göttliche Ausdauer schützt Euch vor Versteinerung!
+Deine göttliche Ausdauer schützt Euch vor Versteinerung!
 %%%%
 Your limbs have turned to stone.
-Eure Glieder sind zu Stein geworden.
+Deine Glieder sind zu Stein geworden.
 %%%%
 You are slowing down.
 Ihr werdet langsamer.
@@ -11788,7 +11788,7 @@ You have turned to stone.
 Ihr seid zu Stein geworden.
 %%%%
 Your divine stamina protects you from disease!
-Eure göttliche Ausdauer schützt Euch vor Krankheiten!
+Deine göttliche Ausdauer schützt Euch vor Krankheiten!
 %%%%
 You feel ill.
 Ihr fühlt Euch krank.
@@ -11874,10 +11874,10 @@ The healing is enhanced.
 Die Heilung wird verbessert.
 %%%%
 Your system rejects the healing.
-Euer System lehnt die Heilung ab.
+Dein System lehnt die Heilung ab.
 %%%%
 Your system partially rejects the healing.
-Euer System lehnt die Heilung teilweise ab.
+Dein System lehnt die Heilung teilweise ab.
 %%%%
 " (y/N)"
 " (j/N)"
@@ -11946,10 +11946,10 @@ You close %s, pushing everything out of the way.
 Ihr schließt %s und schiebt damit alles aus dem Weg.
 %%%%
 Your blood congeals into armour.
-Euer Blut erstarrt zu einer Rüstung.
+Dein Blut erstarrt zu einer Rüstung.
 %%%%
 Your weapon exudes an aura of protection.
-Eure Waffe strahlt eine Aura des Schutzes aus.
+Deine Waffe strahlt eine Aura des Schutzes aus.
 %%%%
 You feel agile all of a sudden.
 Ihr fühlt Euch plötzlich agil.
@@ -12057,7 +12057,7 @@ A flood of memories washes over you.
 Eine Flut von Erinnerungen überschwemmt Euch.
 %%%%
 Your magic is already full.
-Eure Magie ist bereits voll.
+Deine Magie ist bereits voll.
 %%%%
 You have no magic to restore.
 Ihr habt keine Magie, die Ihr wiederherstellen könnt.
@@ -12499,7 +12499,7 @@ animate remains
 Überreste beleben
 %%%%
 recall your undead slaves
-Eure untoten Sklaven zurückrufen
+Deine untoten Sklaven zurückrufen
 %%%%
 mirror injuries on your foes
 Verletzungen auf Eure Feinde spiegeln
@@ -12556,7 +12556,7 @@ Okawaru will gift you ammunition as you gain piety.
 Okawaru wird Euch Munition schenken, als Ihr Frömmigkeit erlangt.
 %%%%
 speed up your combat
-Euren Kampf beschleunigen
+Deinen Kampf beschleunigen
 %%%%
 Okawaru will now gift you equipment as you gain piety.
 Okawaru schenkt euch nun Ausrüstung, als Ihr Frömmigkeit erlangt.
@@ -12586,7 +12586,7 @@ call upon Sif Muna for magical energy
 Sif Muna für magische Energie anrufen
 %%%%
 freely open your mind to new spells
-Euren Geist frei für neue Zaubersprüche öffnen
+Deinen Geist frei für neue Zaubersprüche öffnen
 %%%%
 forget spells at will
 Zaubersprüche nach Belieben vergessen
@@ -12673,7 +12673,7 @@ bend space around yourself
 den Raum um Euch herum krümmen
 %%%%
 banish your foes
-Eure Feinde verbannen
+Deine Feinde verbannen
 %%%%
 corrupt the fabric of space
 die Struktur des Raums korrumpieren
@@ -12688,16 +12688,16 @@ Lugonu is no longer ready to corrupt your weapon.
 Lugonu ist nicht mehr bereit, Eure Waffe zu korrumpieren.
 %%%%
 smite your foes
-Eure Feinde zerschlagen
+Deine Feinde zerschlagen
 %%%%
 gain orcish followers
 orkische Gefolgsleute gewinnen
 %%%%
 recall your orcish followers
-Eure orkischen Gefolgsleute zurückrufen
+Deine orkischen Gefolgsleute zurückrufen
 %%%%
 give items to your followers
-Euren Gefolgsleuten Gegenstände geben
+Deinen Gefolgsleuten Gegenstände geben
 %%%%
 revive fallen orcs
 Gefallene Orks wiederbeleben
@@ -12724,7 +12724,7 @@ Jiyva protects you from corrosive effects.
 Jiyva schützt Euch vor korrosiven Effekten.
 %%%%
 turn your foes to slime
-Eure Feinde in Schleim verandeln
+Deine Feinde in Schleim verandeln
 %%%%
 You may now expel jellies when seriously injured.
 Ihr könnt jetzt Gelees ausstoßen, wenn Ihr schwer verletzt werdet.
@@ -12826,13 +12826,13 @@ You sometimes bleed smoke when heavily injured by enemies.
 Ihr blutet manchmal Rauch, wenn Ihr von Feinden schwer verletzt würdet.
 %%%%
 Your shadow now sometimes tangibly mimics your actions.
-Euer Schatten ahmt jetzt manchmal Eure Handlungen spürbar nach.
+Dein Schatten ahmt jetzt manchmal Eure Handlungen spürbar nach.
 %%%%
 Your shadow no longer tangibly mimics your actions.
-Euer Schatten ahmt Eure Handlungen nicht mehr spürbar nach.
+Dein Schatten ahmt Eure Handlungen nicht mehr spürbar nach.
 %%%%
 Your shadow sometimes tangibly mimics your actions.
-Euer Schatten ahmt Eure Handlungen manchmal spürbar nach.
+Dein Schatten ahmt Eure Handlungen manchmal spürbar nach.
 %%%%
 transform into a swirling mass of shadows
 in eine wirbelnde Masse aus Schatten verwandeln
@@ -12871,7 +12871,7 @@ You are now surrounded by a storm.
 Ihr seid nun von einem Sturm umgeben.
 %%%%
 Your storm dissipates completely.
-Euer Sturm löst sich vollständig auf.
+Dein Sturm löst sich vollständig auf.
 %%%%
 You are surrounded by a storm.
 Ihr seid von einem Sturm umgeben.
@@ -12910,19 +12910,19 @@ You no longer exude an aura of power that intimidates your foes.
 Ihr strahlt keine Aura der Macht mehr aus, die Eure Feinde einschüchtert.
 %%%%
 Your aura of power can now strike those that harm you.
-Eure Aura der Macht kann jetzt diejenigen treffen, die Euch schaden.
+Deine Aura der Macht kann jetzt diejenigen treffen, die Euch schaden.
 %%%%
 Your aura of power no longer strikes those that harm you.
-Eure Aura der Macht trifft nicht mehr diejenigen, die Euch schaden.
+Deine Aura der Macht trifft nicht mehr diejenigen, die Euch schaden.
 %%%%
 Your aura of power can strike those that harm you.
-Eure Aura der Macht kann diejenigen treffen, die Euch schaden.
+Deine Aura der Macht kann diejenigen treffen, die Euch schaden.
 %%%%
 heal your body and restore your magic
-Euren Körper heilen und Eure Magie wiederherstellen
+Deinen Körper heilen und Eure Magie wiederherstellen
 %%%%
 gather your power into a mighty leap
-Eure Kraft in einem mächtigen Sprung einsammeln
+Deine Kraft in einem mächtigen Sprung einsammeln
 %%%%
 wreak a terrible wrath on your foes
 einen schrecklichen Zorn auf Eure Feinde anrichten
@@ -12958,7 +12958,7 @@ swap creatures with your ancestor
 Kreaturen mit Eurem Ahnen austauschen
 %%%%
 heal and protect your ancestor
-Euren Ahnen heilen und schützen
+Deinen Ahnen heilen und schützen
 %%%%
 drain nearby creatures when transferring your ancestor
 Kreaturen in der Nähe auszehren lassen, wenn Ihr Euren Ahnen transferierst
@@ -12997,13 +12997,13 @@ einen Sturm himmlischer Wolken beschwören
 %s scheint besänftigt zu sein.
 %%%%
 Your divine halo returns!
-Euer göttlicher Heiligenschein kehrt zurück!
+Dein göttlicher Heiligenschein kehrt zurück!
 %%%%
 Your aura of darkness returns!
-Eure Aura der Dunkelheit kehrt zurück!
+Deine Aura der Dunkelheit kehrt zurück!
 %%%%
 Your vision regains its divine sight.
-Eure Vision gewinnt ihren göttlichen Anblick zurück.
+Deine Vision gewinnt ihren göttlichen Anblick zurück.
 %%%%
 %s restores the support of your attributes.
 %s stellt die Unterstützung Eurer Attribute wieder her.
@@ -13012,16 +13012,16 @@ A storm instantly forms around you!
 Sofort bildet sich ein Sturm um Euch herum!
 %%%%
 Your full life essence returns.
-Eure volle Lebensessenz kehrt zurück.
+Deine volle Lebensessenz kehrt zurück.
 %%%%
 Your water-walking will last only until you reach solid ground.
-Eure Wasserwanderung dauert nur so lange, bis Ihr festen Boden erreicht.
+Deine Wasserwanderung dauert nur so lange, bis Ihr festen Boden erreicht.
 %%%%
 Your divine halo fades away.
-Euer göttlicher Heiligenschein verblasst.
+Dein göttlicher Heiligenschein verblasst.
 %%%%
 Your aura of darkness fades away.
-Eure Aura der Dunkelheit verblasst.
+Deine Aura der Dunkelheit verblasst.
 %%%%
 The storm surrounding you dissipates.
 Der Sturm, der Euch umgibt, löst sich auf.
@@ -13130,7 +13130,7 @@ Ihr könnt nicht mehr %s.
 %s weicht Eurem Angriff aus.
 %%%%
 Your curses shatter.
-Eure Flüche zerbrechen.
+Deine Flüche zerbrechen.
 %%%%
 You have lost your religion!
 Ihr habt Eure Religion verloren!
@@ -13154,7 +13154,7 @@ All of your followers decide to abandon you.
 Alle Eure Gefolgsleute beschließen, Euch zu verlassen.
 %%%%
 Your access to Nemelex's decks is revoked.
-Euer Zugang zu Nemelex' Decks wird Euch entzogen.
+Dein Zugang zu Nemelex' Decks wird Euch entzogen.
 %%%%
 All of your fellow slimes turn on you.
 Alle Eure Mitschleime wenden sich gegen Euch.
@@ -13166,7 +13166,7 @@ Your funded stores close, unable to pay their debts without your funds.
 Die von Euch finanzierten Läden schließen, weil sie ihre Schulden ohne Euer Gold nicht bezahlen können.
 %%%%
 Your storm instantly dissipates.
-Euer Sturm löst sich augenblicklich auf.
+Dein Sturm löst sich augenblicklich auf.
 %%%%
 %s continues to slow your movements.
 %s verlangsamt weiterhin Eure Bewegungen.
@@ -13175,7 +13175,7 @@ Euer Sturm löst sich augenblicklich auf.
 <lightgrey>Euer Körper verschwindet, ohne zu leuchten.</lightgrey>
 %%%%
 Your body glows slightly and disappears.
-Euer Körper leuchtet leicht und verschwindet.
+Dein Körper leuchtet leicht und verschwindet.
 %%%%
 <white>Your body glows with a rainbow of weird colours and disappears.</white>
 <white>Euer Körper leuchtet in einem Regenbogen aus seltsamen Farben und verschwindet.</white>
@@ -13184,10 +13184,10 @@ Euer Körper leuchtet leicht und verschwindet.
 <lightgrey>Euer Körper verschwindet ohne zusätzliches Glühen.</lightgrey>
 %%%%
 Your body glows slightly brighter and disappears.
-Euer Körper leuchtet etwas heller und verschwindet.
+Dein Körper leuchtet etwas heller und verschwindet.
 %%%%
 Your amulet flashes!
-Euer Amulett blinkt!
+Dein Amulett blinkt!
 %%%%
 %s warns you to remove %s.
 %s warnt Euch, {acc}%s zu entfernen.
@@ -13268,13 +13268,13 @@ Which god (default %s)?
 Welchen Gott (defaultmäßig %s)?
 %%%%
 Your god extremely despises this spell!
-Euer Gott verabscheut diesen Zauberspruch zutiefst!
+Dein Gott verabscheut diesen Zauberspruch zutiefst!
 %%%%
 Your god hates spellcasting!
-Euer Gott hasst Zaubern!
+Dein Gott hasst Zaubern!
 %%%%
 Your god hates this spell!
-Euer Gott hasst diesen Zauberspruch!
+Dein Gott hasst diesen Zauberspruch!
 %%%%
 
 ##################
@@ -13522,7 +13522,7 @@ Ihr könnt euch {acc}%s nicht leisten; trotzdem dorthin reisen? (j/N)
 %s mit einer Eintrittsgebühr von %d Goldstücken.
 %%%%
 Your shopping list is now empty.
-Eure Einkaufsliste ist jetzt leer.
+Deine Einkaufsliste ist jetzt leer.
 %%%%
 " on this level"
 " auf dieser Ebene"
@@ -13726,28 +13726,28 @@ You have mastered %s!
 Ihr habt %s gemeistert!
 %%%%
 Your base %s skill increases to level %d!
-Eure %s-Basis-Fertigkeit %s steigt auf Stufe %d!
+Deine %s-Basis-Fertigkeit %s steigt auf Stufe %d!
 %%%%
 Your base %s skill decreases to level %d!
-Eure %s-Basis-Fertigkeit sinkt auf Stufe %d!
+Deine %s-Basis-Fertigkeit sinkt auf Stufe %d!
 %%%%
 Your %s skill increases to level %d!
-Eure %s-Fertigkeit steigt auf Stufe %d!
+Deine %s-Fertigkeit steigt auf Stufe %d!
 %%%%
 Your %s skill decreases to level %d!
-Eure %s-Fertigkeit sinkt auf Stufe %d!
+Deine %s-Fertigkeit sinkt auf Stufe %d!
 %%%%
 Your base %s skill gained %d levels and is now at level %d!
-Eure %s-Basis-Fertigkeit gewinnt %d Stufen und ist jetzt auf Stufe %d!
+Deine %s-Basis-Fertigkeit gewinnt %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 Your base %s skill lost %d levels and is now at level %d!
-Eure %s-Basis-Fertigkeit verliert %d Stufen und ist jetzt auf Stufe %d!
+Deine %s-Basis-Fertigkeit verliert %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 Your %s skill gained %d levels and is now at level %d!
-Eure %s-Fertigkeit gewinnt %d Stufen und ist jetzt auf Stufe %d!
+Deine %s-Fertigkeit gewinnt %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 Your %s skill lost %d levels and is now at level %d!
-Eure %s-Fertigkeit verliert %d Stufen und ist jetzt auf Stufe %d!
+Deine %s-Fertigkeit verliert %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 You cannot train any new skills!
 Ihr könnt keine neuen Fertigkeiten trainieren!
@@ -13793,7 +13793,7 @@ You need no library to learn spells.
 Ihr braucht keine Bibliothek, um Zaubersprüche zu lernen.
 %%%%
 Your library has no spells.
-Eure Bibliothek hat keine Zauber.
+Deine Bibliothek hat keine Zauber.
 %%%%
 You already know all available spells.
 Ihr kennt bereits alle verfügbaren Zaubersprüche.
@@ -13835,7 +13835,7 @@ Einen Zauber wählen, mit Göttlicher Exegese zu wirken : %d Mana verfügbar
 %d Zauberplätze übrig
 %%%%
 Your brain is not functional enough to learn spells.
-Euer Gehirn ist nicht funktionsfähig genug, um Zauber zu lernen.
+Dein Gehirn ist nicht funktionsfähig genug, um Zauber zu lernen.
 %%%%
 Sorry, this spell is gone!
 Sorry, dieser Zauber ist weg!
@@ -13844,7 +13844,7 @@ You already know that spell!
 Ihr kennt diesen Zauber schon!
 %%%%
 Your head is already too full of spells!
-Euer Kopf ist schon zu voller Zauber!
+Dein Kopf ist schon zu voller Zauber!
 %%%%
 You're too inexperienced to learn that spell!
 Ihr seid zu unerfahren, diesen Zauber zu lernen!
@@ -13922,7 +13922,7 @@ Weird images run through your mind.
 Seltsame Bilder gehen Euch durch den Kopf.
 %%%%
 Your head hurts.
-Euer Kopf tut weh.
+Dein Kopf tut weh.
 %%%%
 You feel a strange surge of energy.
 Ihr fühlt einen seltsamen Energieschub.
@@ -13952,7 +13952,7 @@ Casting this spell will place you under penance. Really cast?
 Das Wirken dieses Zaubers führt zur Buße! Wirklich wirken?
 %%%%
 Your control over your magic is sapped.
-Eure Kontrolle über Eure Magie ist ausgelaugt.
+Deine Kontrolle über Eure Magie ist ausgelaugt.
 %%%%
 Couldn't try casting monster spell because you're on top of a monster.
 Konnte nicht versuchen, einen Monsterzauber zu wirken, weil Ihr auf einem Monster steht.
@@ -14382,7 +14382,7 @@ You begin to radiate toxic energy.
 Ihr fangt an, giftige Energie auszustrahlen.
 %%%%
 Your toxic radiance grows in intensity.
-Eure giftige Ausstrahlung nimmt an Intensität zu.
+Deine giftige Ausstrahlung nimmt an Intensität zu.
 %%%%
 %s begins to radiate toxic energy.
 %s fängt an, giftige Energie auszustrahlen.
@@ -14436,7 +14436,7 @@ Ihr beginnt, elektrische Ladung zu akkumulieren.
 (<w>%</w> drücken, um den Ladevorgang fortzusetzen.)
 %%%%
 Your charge dissipates without a target.
-Eure Ladung löst sich ohne Ziel auf.
+Deine Ladung löst sich ohne Ziel auf.
 %%%%
 A cloud of jellies burst out of the Royal Jelly as the current ripples through it!
 Eine Wolke von Gelees platzt aus dem Gelée Royale, als der Strom es durchfließt!
@@ -14520,7 +14520,7 @@ You feel limber!
 Ihr fühlt Euch geschmeidig!
 %%%%
 Your magical effects are unravelling.
-Eure magischen Effekte lösen sich auf.
+Deine magischen Effekte lösen sich auf.
 %%%%
 %s's magical effects unravel!
 {gen}%s magische Effekte entwirren sich!
@@ -14574,7 +14574,7 @@ You feel a surge of unholy energy.
 Ihr fühlt eine Welle unheiliger Energie.
 %%%%
 Your body is wracked with pain!
-Euer Körper ist von Schmerz geplagt!
+Dein Körper ist von Schmerz geplagt!
 %%%%
 Xom's torment
 Xoms Qual
@@ -14753,7 +14753,7 @@ You feel horribly lethargic
 Ihr fühlt Euch schrecklich lethargisch
 %%%%
 Your flesh rots away
-Euer Fleisch verrottet
+Dein Fleisch verrottet
 %%%%
 Flickering shadows surround you
 Flackernde Schatten umgeben Euch
@@ -14864,13 +14864,13 @@ A rift temporarily opens in the fabric of space
 Ein Riss öffnet sich vorübergehend in der Struktur des Raums
 %%%%
 Your body is twisted painfully
-Euer Körper ist schmerzhaft verdreht
+Dein Körper ist schmerzhaft verdreht
 %%%%
 Your limbs ache and wobble like jelly
-Eure Glieder schmerzen und wackeln wie Gelee
+Deine Glieder schmerzen und wackeln wie Gelee
 %%%%
 Your body is flooded with distortional energies
-Euer Körper wird von verzerrenden Energien durchflutet
+Dein Körper wird von verzerrenden Energien durchflutet
 %%%%
 You feel very strange
 Ihr fühlt Euch sehr seltsam
@@ -14990,7 +14990,7 @@ You are covered in a thin layer of ice
 Ihr seid mit einer dünnen Eisschicht bedeckt
 %%%%
 Heat is drained from your body
-Eurem Körper wird die Wärme entzogen
+Deinem Körper wird die Wärme entzogen
 %%%%
 You are caught in an explosion of ice and frost
 Ihr seid gefangen in einer Explosion aus Eis und Frost
@@ -15195,10 +15195,10 @@ You don't have enough blood to draw power from your own body.
 Ihr habt nicht genug Blut, um Kraft aus Eurem eigenen Körper zu ziehen.
 %%%%
 Your body is bloodless.
-Euer Körper ist unblutig.
+Dein Körper ist unblutig.
 %%%%
 Your attempt to draw power from your own body fails.
-Euer Versuch, Kraft aus Eurem eigenen Körper zu ziehen, schlägt fehl.
+Dein Versuch, Kraft aus Eurem eigenen Körper zu ziehen, schlägt fehl.
 %%%%
 You draw magical energy from your own body!
 Ihr zieht magische Energie aus Eurem eigenen Körper!
@@ -15257,22 +15257,22 @@ You seem to hear sand running through an hourglass...
 Ihr scheint Sand durch eine Sanduhr laufen zu hören ...
 %%%%
 Your icy armour melts away.
-Eure eisige Rüstung schmilzt.
+Deine eisige Rüstung schmilzt.
 %%%%
 Your icy armour thickens.
-Eure eisige Rüstung verdickt sich.
+Deine eisige Rüstung verdickt sich.
 %%%%
 Your icy body feels more resilient.
-Euer eisiger Körper fühlt sich widerstandsfähiger an.
+Dein eisiger Körper fühlt sich widerstandsfähiger an.
 %%%%
 A film of ice covers your body!
 Ein Film aus Eis bedeckt Euren Körper!
 %%%%
 Your body is healed in an amazingly painful way.
-Euer Körper wird auf erstaunlich schmerzhafte Weise geheilt.
+Dein Körper wird auf erstaunlich schmerzhafte Weise geheilt.
 %%%%
 Your life is in your own hands once again.
-Euer Leben ist wieder in Euren eigenen Händen.
+Dein Leben ist wieder in Euren eigenen Händen.
 %%%%
 The water foams!
 Das Wasser schäumt!
@@ -15293,10 +15293,10 @@ This spell is not in your library!
 Dieser Zauberspruch ist nicht in Eurer Bibliothek!
 %%%%
 Your blood is freshly infused with primal strength!
-Euer Blut wird mit Urkraft frisch durchtränkt!
+Dein Blut wird mit Urkraft frisch durchtränkt!
 %%%%
 Your blood is infused with primal strength.
-Euer Blut wird mit Urkraft durchtränkt!
+Dein Blut wird mit Urkraft durchtränkt!
 %%%%
 A profound silence engulfs you.
 Eine tiefe Stille verschlingt Euch.
@@ -15485,10 +15485,10 @@ Ihr ruft eine Kugel magischer Energie hervor.
 %s ruft eine Kugel magischer Energie hervor.
 %%%%
 Your battlesphere expends the last of its energy and dissipates.
-Eure Kampfsphäre verbraucht den letzten Rest ihrer Energie und löst sich auf.
+Deine Kampfsphäre verbraucht den letzten Rest ihrer Energie und löst sich auf.
 %%%%
 Your battlesphere wavers and loses cohesion.
-Eure Kampfsphäre schwankt und verliert den Zusammenhalt.
+Deine Kampfsphäre schwankt und verliert den Zusammenhalt.
 %%%%
 You feel your bond with your battlesphere wane.
 Ihr fühlt, wie Eure Bindung zu Eurer Kampfsphäre schwindet.
@@ -15692,13 +15692,13 @@ You are suddenly yanked towards some nearby monsters!
 Ihr werdet plötzlich zu einigen Monstern in der Nähe gezerrt!
 %%%%
 Your surroundings flicker for a moment.
-Eure Umgebung flackert für einen Moment.
+Deine Umgebung flackert für einen Moment.
 %%%%
 Your surroundings seem slightly different.
-Eure Umgebung scheint etwas anders zu sein.
+Deine Umgebung scheint etwas anders zu sein.
 %%%%
 Your surroundings suddenly seem different.
-Eure Umgebung scheint plötzlich anders zu sein.
+Deine Umgebung scheint plötzlich anders zu sein.
 %%%%
 You begin teleporting projectiles to their destination.
 Ihr fangt an, Geschosse an ihr Ziel zu teleportieren.
@@ -15796,7 +15796,7 @@ Spell assigned to '%c'.
 Zauber '%c' zugewiesen.
 %%%%
 Your memory of %s unravels.
-Eure Erinnerung an {acc}%s löst sich auf.
+Deine Erinnerung an {acc}%s löst sich auf.
 %%%%
 # note: prompt for Apportation
 Apport
@@ -16219,7 +16219,7 @@ Enter für "%s"
 "Was suchen%s? "
 %%%%
 Your search expression is invalid.
-Euer Suchausdruck ist ungültig.
+Dein Suchausdruck ist ungültig.
 %%%%
 Can't find anything matching that.
 Kann nichts passendes finden.
@@ -16632,10 +16632,10 @@ Es konnte kein gültiges Fensterlayout gefunden werden: Bildschirm zu klein oder
 {gen}%s Macht schützt Euch vor dem Chaos der Hölle!
 %%%%
 Your body shudders with the violent release of wild energies!
-Euer Körper zittert unter der heftigen Freisetzung von wilden Energien!
+Dein Körper zittert unter der heftigen Freisetzung von wilden Energien!
 %%%%
 Your body momentarily shudders from a surge of wild energies until Zin's power calms it.
-Euer Körper zittert kurzzeitig vor einer Welle wilder Energien, bis Zins Macht sie beruhigt.
+Dein Körper zittert kurzzeitig vor einer Welle wilder Energien, bis Zins Macht sie beruhigt.
 %%%%
 %s gurgles merrily.
 %s gurgelt fröhlich.
@@ -16698,16 +16698,16 @@ Zot hat Euch fast gefunden. Der Tod naht. Steigt hinab oder flieht aus diesem Zw
 ##################
 %%%%
 Your equipment is entirely melded.
-Eure Ausrüstung ist vollständig verschmolzen.
+Deine Ausrüstung ist vollständig verschmolzen.
 %%%%
 Your armour is entirely melded.
-Eure Rüstung ist vollständig verschmolzen.
+Deine Rüstung ist vollständig verschmolzen.
 %%%%
 Your equipment is almost entirely melded.
-Eure Ausrüstung ist fast vollständig verschmolzen.
+Deine Ausrüstung ist fast vollständig verschmolzen.
 %%%%
 Your equipment is partially melded.
-Eure Ausrüstung ist teilweise verschmolzen.
+Deine Ausrüstung ist teilweise verschmolzen.
 %%%%
 You were %s.
 Ihr wart %s.
@@ -16725,7 +16725,7 @@ You turn into %s.
 Ihr verwandelt Euch in {acc}%s.
 %%%%
 Your transformation has ended.
-Eure Verwandlung ist beendet.
+Deine Verwandlung ist beendet.
 %%%%
 You had blades for front paws.
 Ihr hattet Klingen für Vorderpfoten.
@@ -16746,40 +16746,40 @@ You have blades for hands.
 Ihr habt Klingen für Hände.
 %%%%
 Your front paw turns into a razor-sharp scythe blade.
-Eure Vorderpfote verwandelt sich in eine rasiermesserscharfe Sensenklinge.
+Deine Vorderpfote verwandelt sich in eine rasiermesserscharfe Sensenklinge.
 %%%%
 Your hand turns into a razor-sharp scythe blade.
-Eure Hand verwandelt sich in eine rasiermesserscharfe Sensenklinge.
+Deine Hand verwandelt sich in eine rasiermesserscharfe Sensenklinge.
 %%%%
 Your front paws turn into razor-sharp scythe blades.
-Eure Vorderpfoten verwandeln sich in eine rasiermesserscharfe Sensenklinge.
+Deine Vorderpfoten verwandeln sich in eine rasiermesserscharfe Sensenklinge.
 %%%%
 Your main tentacles turn into razor-sharp scythe blades.
-Eure Haupttentakel verwandeln sich in rasiermesserscharfe Sensenklingen.
+Deine Haupttentakel verwandeln sich in rasiermesserscharfe Sensenklingen.
 %%%%
 Your hands turn into razor-sharp scythe blades.
-Eure Hände verwandeln sich in rasiermesserscharfe Sensenklingen.
+Deine Hände verwandeln sich in rasiermesserscharfe Sensenklingen.
 %%%%
 Your front paw reverts to its normal proportions.
-Eure Vorderpfote kehrt zu ihren normalen Proportionen zurück.
+Deine Vorderpfote kehrt zu ihren normalen Proportionen zurück.
 %%%%
 Your hand reverts to its normal proportions.
-Eure Hand kehrt zu ihren normalen Proportionen zurück.
+Deine Hand kehrt zu ihren normalen Proportionen zurück.
 %%%%
 Your front paws revert to their normal proportions.
-Eure Vorderpfoten kehren zu ihren normalen Proportionen zurück.
+Deine Vorderpfoten kehren zu ihren normalen Proportionen zurück.
 %%%%
 Your main tentacles revert to their normal proportions.
-Eure Haupttentakel kehren zu ihren normalen Proportionen zurück.
+Deine Haupttentakel kehren zu ihren normalen Proportionen zurück.
 %%%%
 Your hands revert to their normal proportions.
-Eure Hände kehren zu ihren normalen Proportionen zurück.
+Deine Hände kehren zu ihren normalen Proportionen zurück.
 %%%%
 You inwardly fear your resemblance to a lawn ornament.
 Ihr fürchtet Euch innerlich vor Eurer Ähnlichkeit mit einer Gartendekoration.
 %%%%
 Your body stiffens and grows slower.
-Euer Körper versteift sich und wird langsamer.
+Dein Körper versteift sich und wird langsamer.
 %%%%
 You revert to a slightly less stony form.
 Ihr nehmt eine etwas weniger steinerne Form an.
@@ -16791,7 +16791,7 @@ You warm up again.
 Ihr wärmt Euch wieder auf.
 %%%%
 Your body is suffused with negative energy!
-Euer Körper wird von negativer Energie durchflutet!
+Dein Körper wird von negativer Energie durchflutet!
 %%%%
 You feel yourself come back to life.
 Ihr spürt, wie Ihr wieder zum Leben erwachst.
@@ -16830,7 +16830,7 @@ One of your tentacles grows a vicious spike.
 Einem Eurer Tentakel wächst ein bösartiger Stachel.
 %%%%
 Your feet morph into talons.
-Eure Füße verwandeln sich in Krallen.
+Deine Füße verwandeln sich in Krallen.
 %%%%
 You feel less wooden.
 Ihr fühlt Euch weniger hölzern.
@@ -16896,7 +16896,7 @@ You fail to extend your transformation any further.
 Ihr könnt die Dauer Eurer Verwandlung nicht weiter ausdehnen.
 %%%%
 Your unliving flesh cannot be transformed in this way.
-Euer unbelebtes Fleisch kann nicht auf diese Weise transformiert werden.
+Dein unbelebtes Fleisch kann nicht auf diese Weise transformiert werden.
 %%%%
 You cannot become a lich while in death's door.
 Ihr könnt nicht zu einem Lich werden, während Ihr an der Schwelle des Todes steht.
@@ -16905,19 +16905,19 @@ You have no appropriate body parts free.
 Ihr habt keine passenden Körperteile frei.
 %%%%
 Your mandibles meld away.
-Eure Mandibeln verschmelzen.
+Deine Mandibeln verschmelzen.
 %%%%
 Your new body cracks your icy armour.
-Euer neuer Körper knackt Eure eisige Rüstung.
+Dein neuer Körper knackt Eure eisige Rüstung.
 %%%%
 Your roots penetrate the ground.
-Eure Wurzeln dringen in den Boden ein.
+Deine Wurzeln dringen in den Boden ein.
 %%%%
 You shred the web into pieces!
 Ihr zerreißt das Gewebe in Stücke!
 %%%%
 Your lifeless body cannot sustain the wereblood!
-Euer lebloser Körper kann das Werwolfsblut nicht aushalten!
+Dein lebloser Körper kann das Werwolfsblut nicht aushalten!
 %%%%
 You fade into the shadows.
 Ihr verschwindet in den Schatten.
@@ -16929,19 +16929,19 @@ You quickly transform back into your natural form.
 Ihr verwandelt Euch schnell wieder in Eure natürliche Form.
 %%%%
 Your legs become a tail as you enter the water.
-Eure Beine werden zu einem Schwanz, als Ihr ins Wasser geht.
+Deine Beine werden zu einem Schwanz, als Ihr ins Wasser geht.
 %%%%
 Your legs become a tail as you dive into the water.
-Eure Beine werden zu einem Schwanz, als Ihr ins Wasser taucht.
+Deine Beine werden zu einem Schwanz, als Ihr ins Wasser taucht.
 %%%%
 ...but don't expect to remain undetected.
 ... aber erwartet nicht, unentdeckt zu bleiben.
 %%%%
 Your blood-deprived body can't sustain your transformation.
-Euer blutarmer Körper kann Eure Verwandlung nicht aufrechterhalten.
+Dein blutarmer Körper kann Eure Verwandlung nicht aufrechterhalten.
 %%%%
 Your blood-filled body can't sustain your transformation.
-Euer blutgefüllter Körper kann Eure Verwandlung nicht aufrechterhalten.
+Dein blutgefüllter Körper kann Eure Verwandlung nicht aufrechterhalten.
 %%%%
 
 ##################
@@ -18625,7 +18625,7 @@ Einige Monster tauschen Plätze.
 %s %s tanzt in die Luft!
 %%%%
 Your body is suffused with distortional energy.
-Euer Körper wird von verzerrender Energie durchdrungen.
+Dein Körper wird von verzerrender Energie durchdrungen.
 %%%%
 The area is suffused with divine lightning!
 Das Gebiet wird von göttlichen Blitzen durchzogen!
@@ -18748,10 +18748,10 @@ A monocle briefly appears over your left eye.
 Ein Monokel erscheint kurz in Eurem linken Auge.
 %%%%
 Your eyebrows briefly feel incredibly bushy.
-Eure Augenbrauen fühlen sich kurz unglaublich buschig an.
+Deine Augenbrauen fühlen sich kurz unglaublich buschig an.
 %%%%
 Your eyebrows wriggle.
-Eure Augenbrauen wackeln.
+Deine Augenbrauen wackeln.
 %%%%
 You do an impromptu tapdance.
 Ihr macht einen improvisierten Stepptanz.
@@ -18760,10 +18760,10 @@ A fancy cane briefly appears in %s.
 Ein ausgefallener Stock erscheint kurz in {dat}%s.
 %%%%
 Your cloak billows in an unfelt wind.
-Euer Mantel weht in einem ungefühlten Wind.
+Dein Mantel weht in einem ungefühlten Wind.
 %%%%
 Your scarf briefly wraps itself around your head!
-Euer Schal wickelt sich kurz um Eurem Kopf!
+Dein Schal wickelt sich kurz um Eurem Kopf!
 %%%%
 %s leaps into the air, briefly spins, then lands back on your head!
 %s springt in die Luft, dreht sich kurz und landet dann wieder auf Eurem Kopf!
@@ -19903,7 +19903,7 @@ Ihr hört ein zischendes Geräusch von irgendwo in der Nähe.
 ##################
 %%%%
 Your surroundings seem different!
-Eure Umgebung scheint anders zu sein!
+Deine Umgebung scheint anders zu sein!
 %%%%
 Welcome to arena @teleport_spot@.
 Willkommen in Arena @teleport_spot@.
@@ -19973,7 +19973,7 @@ There is a strange hissing noise.
 Es ist ein seltsames Zischen zu hören.
 %%%%
 Your surroundings suddenly seem different!
-Eure Umgebung wirkt plötzlich anders!
+Deine Umgebung wirkt plötzlich anders!
 %%%%
 Couldn't find a slave!
 Konnte keinen Sklaven finden!
@@ -19985,7 +19985,7 @@ As the champion is destroyed, you hear a distant grinding noise.
 Als der Champion zerstört wird, hört Ihr ein entferntes Schleifgeräusch.
 %%%%
 Your presence is welcomed at the altar of Beogh.
-Eure Anwesenheit ist am Altar von Beogh willkommen.
+Deine Anwesenheit ist am Altar von Beogh willkommen.
 %%%%
 The orc god booms: Stay away, heretic!
 Der Orkgott brüllt: Bleib weg, Ketzer!

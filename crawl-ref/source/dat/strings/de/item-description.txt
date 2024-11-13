@@ -345,7 +345,7 @@ It falls into the 'Staves' category.
 Diese Waffe gehört zur Kategorie 'Stecken'.
 %%%%
 Your inability to study %s prevents you from drawing on the full power of this staff in melee.
-Eure Unfähigkeit, %s zu studieren, hindert Euch daran, die volle Kraft dieses Steckens im Nahkampf zu nutzen.
+Deine Unfähigkeit, %s zu studieren, hindert Euch daran, die volle Kraft dieses Steckens im Nahkampf zu nutzen.
 %%%%
 It is a one-handed weapon.
 Sie ist eine Einhandwaffe.
@@ -531,10 +531,10 @@ Fertigkeit zum Aufheben der Verzögerung: %d,%d
 ; <white>(s)</white> benutzen um %d,%d als Ziel für {acc}%s einzustellen.
 %%%%
 Your skill: %d.%d
-Eure Fertigkeit: %d,%d
+Deine Fertigkeit: %d,%d
 %%%%
 Your (base) skill: %d.%d
-Eure (Grund-)Fertigkeit: %d,%d
+Deine (Grund-)Fertigkeit: %d,%d
 %%%%
 At %d%% training you would reach %d.%d in the equivalent of %d.%d XLs.
 Bei %d%% Training würdet Ihr %d,%d im Äquivalent von %d,%d XL erreichen.

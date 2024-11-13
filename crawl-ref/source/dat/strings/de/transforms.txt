@@ -656,27 +656,27 @@ Körpergliede
 # untransform messages
 %%%%
 Your horns disappear.
-Eure Hörner verschwinden.
+Deine Hörner verschwinden.
 %%%%
 Your talons disappear.
-Eure Krallen verschwinden.
+Deine Krallen verschwinden.
 %%%%
 # this one is for octopode only
 Your tentacle spike disappears.
-Euer Tentakelstachel verschwindet.
+Dein Tentakelstachel verschwindet.
 %%%%
 
 # untransform messages (when player keeps appendage due to mutation)
 %%%%
 Your horns shrink.
-Eure Hörner schrumpfen.
+Deine Hörner schrumpfen.
 %%%%
 Your talons shrink.
-Eure Krallen schrumpfen.
+Deine Krallen schrumpfen.
 %%%%
 # this one is for octopode only
 Your tentacle spike shrinks.
-Euer Tentakelstachel schrumpft.
+Dein Tentakelstachel schrumpft.
 %%%%
 
 ################################

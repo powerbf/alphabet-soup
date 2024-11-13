@@ -148,7 +148,7 @@ slowed movement
 verlangsamte Bewegung
 %%%%
 Your movement is slowed on this liquid ground.
-Eure Bewegung ist auf diesem flüssigen Boden verlangsamt.
+Deine Bewegung ist auf diesem flüssigen Boden verlangsamt.
 %%%%
 
 # Augmentation mutation
@@ -284,34 +284,34 @@ extremely drained
 extrem ausgezehrt
 %%%%
 Your life force is extremely drained.
-Eure Lebenskraft ist extrem ausgezehrt.
+Deine Lebenskraft ist extrem ausgezehrt.
 %%%%
 very heavily drained
 sehr stark ausgezehrt
 %%%%
 Your life force is very heavily drained.
-Eure Lebenskraft ist sehr stark ausgezehrt.
+Deine Lebenskraft ist sehr stark ausgezehrt.
 %%%%
 # duplicate of monster status
 #heavily drained
 #stark ausgezehrt
 %%%%
 Your life force is heavily drained.
-Eure Lebenskraft wird stark ausgezehrt.
+Deine Lebenskraft wird stark ausgezehrt.
 %%%%
 # duplicate of monster status
 #drained
 #ausgezehrt
 %%%%
 Your life force is drained.
-Eure Lebenskraft ist ausgezehrt.
+Deine Lebenskraft ist ausgezehrt.
 %%%%
 # duplicate of monster status
 #lightly drained
 #leicht ausgezehrt
 %%%%
 Your life force is lightly drained.
-Eure Lebenskraft ist leicht ausgezehrt.
+Deine Lebenskraft ist leicht ausgezehrt.
 %%%%
 
 # Digging (Formicid ability)
@@ -329,19 +329,19 @@ extremely magic sapped
 Magie extrem ausgelaugt
 %%%%
 Your control over your magic has been greatly sapped.
-Eure Kontrolle über Eure Magie ist stark ausgelaugt.
+Deine Kontrolle über Eure Magie ist stark ausgelaugt.
 %%%%
 very magic sapped
 Magie sehr ausgelaugt
 %%%%
 Your control over your magic has been significantly sapped.
-Eure Kontrolle über Eure Magie ist stark ausgelaugt.
+Deine Kontrolle über Eure Magie ist stark ausgelaugt.
 %%%%
 magic sapped
 Magie ausgelaugt
 %%%%
 Your control over your magic has been sapped.
-Eure Kontrolle über Eure Magie ist ausgelaugt.
+Deine Kontrolle über Eure Magie ist ausgelaugt.
 %%%%
 
 # Bribing branch (Gozag ability)
@@ -454,7 +454,7 @@ inhibited regen
 behinderte Regeneration
 %%%%
 Your regeneration is inhibited by nearby monsters.
-Eure Regeneration wird von Monstern in der Nähe behindert.
+Deine Regeneration wird von Monstern in der Nähe behindert.
 %%%%
 
 # Poisoned
@@ -497,7 +497,7 @@ hasted
 gehastet
 %%%%
 Your actions are hasted.
-Eure Aktionen werden gehastet.
+Deine Aktionen werden gehastet.
 %%%%
 
 # Slowed
@@ -848,10 +848,10 @@ You are channeling the dead.
 Ihr channelt die Toten.
 %%%%
 Your unholy channel expires.
-Euer unheiliger Kanal erlischt.
+Dein unheiliger Kanal erlischt.
 %%%%
 Your unholy channel is weakening.
-Euer unheiliger Kanal wird schwächer.
+Dein unheiliger Kanal wird schwächer.
 %%%%
 
 # Vitality (Okawaru divine ability)
@@ -1021,7 +1021,7 @@ You are resistant to the elements.
 Ihr seid resistent gegen die Elemente.
 %%%%
 Your resistance to elements expires.
-Eure Resistenz gegen die Elemente lässt nach.
+Deine Resistenz gegen die Elemente lässt nach.
 %%%%
 You start to feel less resistant.
 Ihr fühlt Euch weniger resistent gegen die Elemente.
@@ -1043,7 +1043,7 @@ You feel less slimy.
 Ihr fühlt euch weniger schleimig.
 %%%%
 Your slime is starting to congeal.
-Euer Schleim beginnt zu erstarren.
+Dein Schleim beginnt zu erstarren.
 %%%%
 
 # Sleeping
@@ -1089,10 +1089,10 @@ You are standing in death's doorway.
 Ihr steht an der Pforte des Todes
 %%%%
 Your life is in your own hands again!
-Euer Leben liegt wieder in euren eigenen Händen!
+Dein Leben liegt wieder in euren eigenen Händen!
 %%%%
 Your time is quickly running out!
-Eure Zeit läuft schnell ab!
+Deine Zeit läuft schnell ab!
 %%%%
 
 # Death's Door spell cooldown
@@ -1139,7 +1139,7 @@ You radiate silence.
 Ihr strahlt Stille aus.
 %%%%
 Your hearing returns.
-Euer Gehör kehrt zurück.
+Dein Gehör kehrt zurück.
 %%%%
 
 # Stealth
@@ -1172,7 +1172,7 @@ You are terrified.
 Ihr seid verängstigt.
 %%%%
 Your fear fades away.
-Eure Angst verblasst.
+Deine Angst verblasst.
 %%%%
 
 # Injury Mirror
@@ -1191,7 +1191,7 @@ You mirror injuries.
 Ihr spiegelt Verletzungen.
 %%%%
 Your dark mirror aura disappears.
-Eure dunkle Spiegelaura verschwindet.
+Deine dunkle Spiegelaura verschwindet.
 %%%%
 
 # Polar Vortex spell
@@ -1252,7 +1252,7 @@ finesse
 Finesse
 %%%%
 Your blows are lightning fast.
-Eure Schläge sind blitzschnell.
+Deine Schläge sind blitzschnell.
 %%%%
 
 # Divine protection
@@ -1270,7 +1270,7 @@ You are calling for your life to be saved.
 Ihr ruft, dass Euer Leben gerettet werden soll.
 %%%%
 Your divine protection fades away.
-Euer göttlicher Schutz verblasst.
+Dein göttlicher Schutz verblasst.
 %%%%
 
 # Polar vortex cooldown
@@ -1338,13 +1338,13 @@ wereblood
 Werblut
 %%%%
 Your melee attacks are strengthened by your wereblood.
-Eure Nahkampfangriffe werden durch Eure Werblut verstärkt.
+Deine Nahkampfangriffe werden durch Eure Werblut verstärkt.
 %%%%
 Your primal bloodlust has ended.
-Euer ursprünglicher Blutrausch ist beendet.
+Dein ursprünglicher Blutrausch ist beendet.
 %%%%
 Your primal bloodlust is almost over.
-Euer ursprünglicher Blutrausch ist fast vorbei.
+Dein ursprünglicher Blutrausch ist fast vorbei.
 %%%%
 
 %%%%
@@ -1371,10 +1371,10 @@ geschwächt
 #schwach
 %%%%
 Your attacks are enfeebled.
-Eure Angriffe sind geschwächt.
+Deine Angriffe sind geschwächt.
 %%%%
 Your attacks no longer feel as feeble.
-Eure Angriffe fühlen sich nicht mehr so schwach an.
+Deine Angriffe fühlen sich nicht mehr so schwach an.
 %%%%
 
 %%%%
@@ -1424,7 +1424,7 @@ You are radiating toxic energy.
 Ihr strahlt giftige Energie aus.
 %%%%
 Your toxic aura wanes.
-Eure toxische Aura schwindet.
+Deine toxische Aura schwindet.
 %%%%
 
 # Recite (Zin divine ability)
@@ -1542,7 +1542,7 @@ Casting spells hinders your spell success.
 Das Wirken von Zaubern behindert Euren Zaubererfolg.
 %%%%
 Your magic seems less tainted.
-Eure Magie scheint weniger verdorben zu sein.
+Deine Magie scheint weniger verdorben zu sein.
 %%%%
 
 # Portal Projectile spell
@@ -1650,7 +1650,7 @@ You feel less protected from fire.
 Ihr fühlt Euch weniger vor Feuer geschützt.
 %%%%
 Your protection from fire is fading.
-Euer Schutz vor Feuer lässt nach.
+Dein Schutz vor Feuer lässt nach.
 %%%%
 
 # Cold resistance
@@ -1671,7 +1671,7 @@ You feel less protected from cold.
 Ihr fühlt euch weniger vor Kälte geschützt.
 %%%%
 Your protection from cold is fading.
-Euer Schutz vor Kälte lässt nach.
+Dein Schutz vor Kälte lässt nach.
 %%%%
 
 # Electricity resistance
@@ -1692,7 +1692,7 @@ You feel less protected from electricity.
 Ihr fühlt euch weniger vor Elektrizität geschützt.
 %%%%
 Your protection from electricity is fading.
-Euer Schutz vor Elektrizität lässt nach.
+Dein Schutz vor Elektrizität lässt nach.
 %%%%
 
 # Physical damage resistance
@@ -1710,7 +1710,7 @@ You feel less protected from physical attacks.
 Ihr fühlt euch weniger geschützt vor physischen Angriffen.
 %%%%
 Your protection from physical attacks is fading.
-Euer Schutz vor physischen Angriffen nimmt ab.
+Dein Schutz vor physischen Angriffen nimmt ab.
 %%%%
 
 # Corroded
@@ -1794,7 +1794,7 @@ You are cleaving through your foes.
 Ihr spaltet durch eure Feinde.
 %%%%
 Your cleaving frenzy subsides.
-Eure Spaltungswut lässt nach.
+Deine Spaltungswut lässt nach.
 %%%%
 
 # Ambrosia
@@ -1873,10 +1873,10 @@ sanguine armour
 Sanguinische Rüstung
 %%%%
 Your shed blood clings to and protects you.
-Euer vergossenes Blut haftet an dir und schützt dich.
+Dein vergossenes Blut haftet an dir und schützt dich.
 %%%%
 Your blood armour dries and flakes away.
-Euer Blutpanzer trocknet und blättert ab.
+Dein Blutpanzer trocknet und blättert ab.
 %%%%
 
 # Protective auro from spectral weapon (is this still possible?)
@@ -1888,7 +1888,7 @@ protection aura
 Schutzaura
 %%%%
 Your weapon is exuding a protective aura.
-Eure Waffe verströmt eine schützende Aura.
+Deine Waffe verströmt eine schützende Aura.
 %%%%
 
 # Barachi Hop ability cooldown
@@ -2058,7 +2058,7 @@ icemail depleted
 Eispost verbraucht
 %%%%
 Your icy envelope is restored.
-Euer eisiger Umschlag ist wiederhergestellt.
+Dein eisiger Umschlag ist wiederhergestellt.
 %%%%
 paralysis immunity
 Immunität gegen Lähmung
@@ -2086,7 +2086,7 @@ trogs hand
 Trogs Hand
 %%%%
 Your willpower is greatly increased.
-Eure Willenskraft ist stark erhöht.
+Deine Willenskraft ist stark erhöht.
 %%%%
 You feel the effects of Trog's Hand fading.
 Ihr spürt, wie die Wirkung von Trogs Hand nachlässt.
@@ -2146,7 +2146,7 @@ You are spewing a noxious bog.
 Ihr spuckt einen giftigen Schlamm.
 %%%%
 Your noxious spew wanes.
-Euer giftiges Spucken lässt nach.
+Dein giftiges Spucken lässt nach.
 %%%%
 
 # Frozen Ramparts spell

@@ -281,10 +281,10 @@ Shuffles through random character combinations until you accept one.
 Stellt zufällige Charaktere vor.
 %%%%
 Lets you change your species choice.
-Eure Spezies-Auswahl ändern.
+Deine Spezies-Auswahl ändern.
 %%%%
 Lets you change your background choice.
-Eure Hintergrund-Auswahl ändern.
+Deine Hintergrund-Auswahl ändern.
 %%%%
 Lets you pick your background first.
 Wählt zuerst Euren Hintergrund.
@@ -842,7 +842,7 @@ EXPLORE
 ERKUNDEN
 %%%%
 Your terminal window is too small; please resize to at least %d,%d
-Euer Terminalfenster ist zu klein; Bitte ändere die Größe auf mindestens %d,%d
+Dein Terminalfenster ist zu klein; Bitte ändere die Größe auf mindestens %d,%d
 %%%%
 # some items become "melded" when you change form
 %%%%
@@ -1137,7 +1137,7 @@ Wand to zap?
 Zauberstab zu benutzen?
 %%%%
 Your Spells
-Eure Zaubersprüche
+Deine Zaubersprüche
 %%%%
 Cast spell
 Zauberspruch wirken
