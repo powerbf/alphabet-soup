@@ -285,7 +285,7 @@ Deine Seele gehört schon zu Yredelemnul.
 Der Klon von {dat}%s hat keine Seele zum Versklaven!
 %%%%
 You see nothing there you can enslave the soul of!
-Ihr seht dort nichts, von dem du die Seele versklaven kannst!
+Du siehst dort nichts, von dem du die Seele versklaven kannst!
 %%%%
 %s's soul is too badly injured.
 Die Seele {gen}%s ist zu schwer verletzt.
@@ -2230,7 +2230,7 @@ You somehow manage to escape divine attention...
 Ihr schafft es irgendwie, der göttlichen Aufmerksamkeit zu entgehen...
 %%%%
 You see a puff of smoke.
-Ihr seht eine Rauchwolke.
+Du siehst eine Rauchwolke.
 %%%%
 You sense the presence of something unfriendly.
 Du spürst die Anwesenheit von etwas Unfreundlichem.
@@ -4366,7 +4366,7 @@ There is a cloud of %s here.
 Hier ist eine Wolke von {dat}%s.
 %%%%
 You see %s here.
-Ihr seht {acc}%s hier.
+Du siehst {acc}%s hier.
 %%%%
 There is something else lying underneath.
 Da liegt noch etwas darunter.
@@ -6964,7 +6964,7 @@ Too many items on level, removing some.
 Zu viele Gegenstände auf Level, einige werden gelöscht.
 %%%%
 You see here %s.
-Ihr seht hier {acc}%s.
+Du siehst hier {acc}%s.
 %%%%
 Items here: %s.
 Gegstände hier: %s
@@ -8689,7 +8689,7 @@ You die...
 Ihr sterbt...
 %%%%
 You see a ghostly outline there, and the spell fizzles.
-Ihr seht dort einen gespenstischen Umriss und der Zauber scheitert.
+Du siehst dort einen gespenstischen Umriss und der Zauber scheitert.
 %%%%
 Your health is already full.
 Deine Gesundheit ist bereits voll.
@@ -10920,7 +10920,7 @@ Ihr sollt so einen Zauberer-Gegenstand wirklich nicht benutzen.
 %s leuchtet sanft mit einer göttlichen Ausstrahlung!
 %%%%
 You see sparks fly.
-Ihr seht Funken fliegen.
+Du siehst Funken fliegen.
 %%%%
 %s begins to drip with poison!
 %s beginnt vor Gift zu tropfen!
@@ -14526,7 +14526,7 @@ Deine magischen Effekte lösen sich auf.
 {gen}%s magische Effekte entwirren sich!
 %%%%
 You briefly glimpse something next to %s.
-Ihr seht kurz etwas neben {dat}%s.
+Du siehst kurz etwas neben {dat}%s.
 %%%%
 You need more space to imprison %s.
 Ihr braucht mehr Platz, um {acc}%s einzusperren.
@@ -15710,13 +15710,13 @@ Ihr erneuert dein Portal.
 %s würde katastrophal mit paradoxem Raum reagieren!
 %%%%
 You can't see anything to attack.
-Ihr seht nichts, was du angreifen kannst.
+Du siehst nichts, was du angreifen kannst.
 %%%%
 Space momentarily warps into an impossible shape!
 Der Raum verformt sich augenblicklich in eine unmögliche Form!
 %%%%
 You don't see anything to apport there.
-Ihr seht dort nichts zu verteilen.
+Du siehst dort nichts zu verteilen.
 %%%%
 You cannot apport that!
 Das kannst du nicht zuordnen!
@@ -15782,7 +15782,7 @@ You speak a word of chaos!
 Ihr sprecht ein Wort des Chaos!
 %%%%
 You see nothing there to target!
-Ihr seht da nichts, worauf Ihr zielen könntet!
+Du siehst da nichts, worauf Ihr zielen könntet!
 %%%%
 shock of your passage
 Shock über deinen Durchtritt
