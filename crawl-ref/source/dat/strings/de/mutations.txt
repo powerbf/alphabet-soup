@@ -116,7 +116,7 @@ Du kannst die meisten Arten von Rüstungen nicht tragen.
 %%%%
 # unnamed ghoul mutation
 You thrive by killing the living.
-Du gedeihst, indem Ihr die Lebenden tötet.
+Du gedeihst, indem du die Lebenden tötest.
 %%%%
 
 ########################################
@@ -245,7 +245,7 @@ terrified
 erschreckt
 %%%%
 <lightred>You become terrified and freeze when enemies are visible.</lightred>
-<lightred>Ihr erschreckt und erstarrt, wenn Feinde in Sicht sind.</lightred>
+<lightred>Du erschreckst und erstarrst, wenn Feinde in Sicht sind.</lightred>
 %%%%
 # unnamed mutation
 You are tiny and evasive.
@@ -774,7 +774,7 @@ You can exhale a cloud of poison.
 Du kannst eine Giftwolke ausatmen.
 %%%%
 There is a nasty taste in your mouth for a moment.
-Einen Moment lang habt Ihr einen üblen Geschmack im Mund.
+Einen Moment lang hast du einen üblen Geschmack im Mund.
 %%%%
 You feel an ache in your throat.
 Du spürst einen Schmerz in deinem Hals.
@@ -783,7 +783,7 @@ screaming
 schreiend
 %%%%
 You occasionally shout uncontrollably at your foes.
-Gelegentlich schreit Ihr deine Feinde unkontrolliert an.
+Gelegentlich schreist du deine Feinde unkontrolliert an.
 %%%%
 You frequently scream uncontrollably at your foes.
 Du schreist deine Feinde häufig unkontrolliert an.
@@ -1404,7 +1404,7 @@ Spells you cast may paralyse nearby enemies.
 Von dich gewirkte Zauber können Feinde in der Nähe lähmen.
 %%%%
 Spells you cast and wands you use may paralyse nearby enemies.
-Zaubersprüche und Zauberstäbe, die Ihr verwendet, können Feinde in der Nähe lähmen.
+Zaubersprüche und Zauberstäbe, die du verwendest, können Feinde in der Nähe lähmen.
 %%%%
 A menacing aura infuses your magic.
 Eine bedrohliche Aura durchdringt deine Magie.
@@ -1566,10 +1566,10 @@ powered by pain
 angetrieben vom Schmerz
 %%%%
 You sometimes gain a little power by taking damage.
-Manchmal gewinnt Ihr ein wenig Kraft, wenn Ihr Schaden nehmt.
+Manchmal gewinnst du ein wenig Kraft, wenn du Schaden nimmst.
 %%%%
 You sometimes gain power by taking damage.
-Manchmal gewinnt Ihr Kraft, indem Ihr Schaden nehmt.
+Manchmal gewinnst du Kraft, indem du Schaden nimmst.
 %%%%
 You are powered by pain.
 Du wirst vom Schmerz angetrieben.
@@ -1626,7 +1626,7 @@ magic link
 magische Verbindung
 %%%%
 When low on magic, you restore magic in place of health.
-Wenn Ihr wenig Magie habt, stellt Ihr Magie anstelle von Gesundheit wieder her.
+Wenn du wenig Magie hast, stellst du Magie anstelle von Gesundheit wieder her.
 %%%%
 You feel your life force and your magical essence meld.
 Du spürst, wie deine Lebenskraft und deine magische Essenz verschmelzen.
@@ -2274,10 +2274,10 @@ corrupting presence
 verderbliche Präsenz
 %%%%
 Your presence sometimes corrodes those you injure.
-Deine Anwesenheit korrodiert manchmal diejenigen, die Ihr verletzt.
+Deine Anwesenheit korrodiert manchmal diejenigen, die dich verletzen.
 %%%%
 Your presence sometimes corrodes or deforms those you injure.
-Deine Anwesenheit korrodiert oder verformt manchmal diejenigen, die Ihr verletzt.
+Deine Anwesenheit korrodiert oder verformt manchmal diejenigen, die dich verletzen.
 %%%%
 You feel corrupt.
 Du fühlst dich verdorben.
@@ -2319,7 +2319,7 @@ inability to drink while threatened
 Unfähigkeit bei Bedrohung zu trinken
 %%%%
 You sometimes lose the ability to drink potions when taking damage.
-Manchmal verliert Ihr die Fähigkeit, Tränke zu trinken, wenn Ihr Schaden nehmt.
+Manchmal verlierst du die Fähigkeit, Tränke zu trinken, wenn du Schaden nimmst.
 %%%%
 You lose the ability to drink potions when threatened.
 Du verlierst die Fähigkeit, Tränke zu trinken, wenn du bedroht wirst.
@@ -2331,7 +2331,7 @@ inability to read while threatened
 Unfähigkeit bei Bedrohung zu lesen
 %%%%
 You sometimes lose the ability to read scrolls when taking damage.
-Manchmal verliert Ihr die Fähigkeit, Schriftrollen zu lesen, wenn Ihr Schaden nehmt.
+Manchmal verlierst du die Fähigkeit, Schriftrollen zu lesen, wenn du Schaden nimmst.
 %%%%
 You lose the ability to read scrolls when threatened.
 Du verlierst die Fähigkeit, Schriftrollen zu lesen, wenn du bedroht wirst.
@@ -2985,7 +2985,7 @@ You have an extended range of vision and can be seen from far away.
 Du hast ein erweitertes Sichtfeld und können schon von weitem gesehen werden.
 %%%%
 The darkness flees at your approach.
-Die Dunkelheit flieht, wenn Ihr dich ihr nähert.
+Die Dunkelheit flieht, wenn du dich ihr näherst.
 %%%%
 The shadows grow bolder once more.
 Die Schatten werden wieder mutiger.
