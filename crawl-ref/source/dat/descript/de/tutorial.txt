@@ -95,7 +95,7 @@ Eingabe]</w> drücken.
 %%%%
 tutorial1 tutorial_end
 
-Glückwunsch! Ihr habt die erste Lektion beendet!
+Glückwunsch! Du hast die erste Lektion beendet!
 
 Um den Übungskurs zu beenden geht einfach diese Stufen hinauf indem Ihr
 <input>$cmd[CMD_GO_UPSTAIRS]</input><localtiles> drückt oder mit
@@ -176,7 +176,7 @@ einfach in es hinein.
 %%%%
 tutorial2 resting
 
-Sehr gut! Ihr habt beim Ausruhen mit <input>$cmd[CMD_REST]</input> jeden
+Sehr gut! Du hast beim Ausruhen mit <input>$cmd[CMD_REST]</input> jeden
 verlorenen Lebenspunkt wiedererlangt. Damit könnt Ihr Rasten und für 100 Züge
 suchen, aber auch durch unzählige Ereignisse unterbrochen werden.
 %%%%
@@ -247,7 +247,7 @@ auf Auto-Erforschen umschalten könnt.
 %%%%
 tutorial2 tutorial_end
 
-Glückwunsch! Ihr habt die erste Welle an Monstern überstanden! Um den Übungskurs
+Glückwunsch! Du hast die erste Welle an Monstern überstanden! Um den Übungskurs
 zu verlassen gehe einfach diese Treppe hinauf.
 %%%%
 tutorial2 exit
@@ -403,7 +403,7 @@ Auto-Erforschen Befehls-Knopf im <w>Befehls-Feld</w></localtiles>.
 %%%%
 tutorial3 go_shopping
 
-Ihr habt genug Gold um ernsthaft einkaufen zu gehen. Der schnellste Weg zurück
+Du hast genug Gold um ernsthaft einkaufen zu gehen. Der schnellste Weg zurück
 zum Laden ist, indem man nach ihm sucht. Gebe
 <input>$cmd[CMD_SEARCH_STASHES]</input> ein, und dann „<w>shop</w>“. Wähle das
 Resultat aus und beginne die Reise.<localtiles> Ihr könnt auch der Suchen-Knopf
@@ -652,7 +652,7 @@ die Kraft verliert.
 %%%%
 tutorial5 tutorial_end
 
-Glückwunsch! Ihr habt die letzte Lektion der Übungskurses beendet und bist nun
+Glückwunsch! Du hast die letzte Lektion der Übungskurses beendet und bist nun
 für das richtige Spiel bereit!
 
 Um den Übungskurs zu verlassen gehe einfach diese Stufen hinunter.

@@ -91,7 +91,7 @@ immer in einen Gang zurück damit sie gezwungen sind dich einzeln zu bekämpfen.
 %%%%
 finished
 
-Glückwunsch! Ihr habt bis zum Ende des Hilfe-Modus überlebt — probiert unbedingt
+Glückwunsch! Du hast bis zum Ende des Hilfe-Modus überlebt — probiert unbedingt
 auch die anderen Charaktere aus. Bitte beachtet das die Kommando-Hilfe-Seite
 (<input>$cmd[CMD_DISPLAY_COMMANDS]?</input>) von nun an ganz anders aussehen
 wird. Hier noch ein letzter Spieltipp:
@@ -176,7 +176,7 @@ Ihr seid gerade zur Anbetung von <w>Ru</w> konvertiert. Im Gegensatz zu anderen
 Göttern gewährt Ru Frömmigkeit (göttliche Gunst) im Austausch für dauerhafte
 Opfer, wie z. B. den Verzicht auf die die Fähigkeit, Tränke zu trinken, während
 man gefährdet ist, oder den Verlust der Fähigkeit, bestimmte Fertigkeiten zu
-trainieren. Je mehr Frömmigkeit Ihr habt, desto mehr Fähigkeiten gewährt dir Ru
+trainieren. Je mehr Frömmigkeit du hast, desto mehr Fähigkeiten gewährt dir Ru
 und desto mächtiger werden diese Fähigkeiten. Ru wird dich weitere Opfer
 anbieten, als Ihr die Tiefen des Dungeons erforscht.
 %%%%
@@ -218,7 +218,7 @@ könnt Ihr über seine Eigenschaften und seine Beschreibung lesen.
 %%%%
 HINT_SEEN_POTION
 
-Ihr habt deinen ersten Zaubertrank erhalten<console>
+Du hast deinen ersten Zaubertrank erhalten<console>
 ('<w>$item[potion]</w>')</console>. <w>$cmd[CMD_QUAFF]</w> drücken<localtiles>,
 oder auf ihn <w>linksklicken</w></localtiles>, um ihn zu trinken.
 
@@ -229,7 +229,7 @@ um sie zu identifizieren.
 %%%%
 HINT_SEEN_SCROLL
 
-Ihr habt deine erste Schriftrolle erhalten<console>
+Du hast deine erste Schriftrolle erhalten<console>
 ('<w>$item[scroll]</w>')</console>. <w>$cmd[CMD_READ]</w> drücken<localtiles>,
 oder auf sie<w>linksklicken</w>s</localtiles>, um sie zu lesen.
 
@@ -240,7 +240,7 @@ um sie zu identifizieren.
 %%%%
 HINT_SEEN_WAND
 
-Ihr habt deinen ersten Zauberstab erhalten<console>
+Du hast deinen ersten Zauberstab erhalten<console>
 ('<w>$item[wand]</w>')</console>. <w>$cmd[CMD_EVOKE]</w> drücken<localtiles>,
 oder auf ihn <w>linksklicken</w></localtiles>, um ihn zu evozieren.
 
@@ -249,7 +249,7 @@ Zauberstab und laden ihn auf.
 %%%%
 HINT_SEEN_SPBOOK
 
-Ihr habt ein Buch aufgehoben<console> ('<w>$item[book]</w>')</console>. Beim
+Du hast ein Buch aufgehoben<console> ('<w>$item[book]</w>')</console>. Beim
 Aufheben sind seine Zaubersprüche sofort zu deinem Bibliothek zegefügt. Dann
 könnt Ihr ihn mit <w>$cmd[CMD_MEMORISE_SPELL]</w> memorisieren, und mit
 <w>$cmd[CMD_CAST_SPELL]</w> wirken.
@@ -335,7 +335,7 @@ Ah, eine Leiche!
 %%%%
 HINT_SEEN_JEWELLERY
 
-Ihr habt ein Schmuckstück aufgehoben, entweder einen Ring
+Du hast ein Schmuckstück aufgehoben, entweder einen Ring
 <console>('<w>$item[jewellery]</w>') </console>oder ein
 Amulett<console> ('<w>$item[amulet]</w>')</console>.
 <nomouse>Drückt <w>$cmd[CMD_WEAR_JEWELLERY]</w>, um es anzulegen, und
@@ -355,7 +355,7 @@ kann weitere Informationen hervorbringen.
 %%%%
 HINT_SEEN_STAFF
 
-Ihr habt einen magischen Stecken<console> ('<w>$item[magical staff]</w>')
+Du hast einen magischen Stecken<console> ('<w>$item[magical staff]</w>')
 </console> aufgehoben. Er muss gehandhabt werden, um von Nutzen zu sein. Magier
 verwenden Stecken, um ihre Macht in bestimmten Zauberschulen zu erhöhen. Er kann
 auch als Waffe verwendet werden. Er kann mit <w>$cmd[CMD_WIELD_WEAPON]</w>
@@ -363,7 +363,7 @@ auch als Waffe verwendet werden. Er kann mit <w>$cmd[CMD_WIELD_WEAPON]</w>
 %%%%
 HINT_SEEN_GOLD
 
-Ihr habt deinen ersten Goldhaufen aufgesammelt<console>
+Du hast deinen ersten Goldhaufen aufgesammelt<console>
 ('<yellow>$item[gold]</yellow>')</console>. Im Gegensatz zu den meisten anderen
 Gegenständen in Crawl nimmt Gold keinen Platz in deinem Inventar ein und kann
 nicht fallen gelassen werden. Gold kann zum Kauf von Gegenständen in Geschäften
@@ -445,14 +445,14 @@ Gegenstandsglyphe zu verbergen.</console>
 %%%%
 HINT_SEEN_TRAP
 
-Ihr habt gerade eine Falle entdeckt. Gelegentlich stolpert Ihr über diese
+Du hast gerade eine Falle entdeckt. Gelegentlich stolpert Ihr über diese
 fiesen Konstruktionen<console>, die mit $1 dargestellt werden</console>. Jede
 Art von Falle hat einen anderen Effekt, wenn Ihr sie betretet, wie z.B. Feinde
 zu alarmieren oder eine zufällige Teleportation auszulösen.
 %%%%
 HINT_TRIGGERED_TRAP
 
-Ups ... Ihr habt gerade eine Falle ausgelöst. Gelegentlich stolpert Ihr in
+Ups... du hast gerade eine Falle ausgelöst. Gelegentlich stolpert Ihr in
 diese fiesen Konstruktionen<console>, die mit $1 dargestellt werden</console>.
 Jede Art von Falle hat einen anderen Effekt, wenn Ihr sie betretet, wie z.B.
 Feinde zu alarmieren oder eine zufällige Teleportation auszulösen.
@@ -637,7 +637,7 @@ interessantes Dungeonmerkmal (Treppe, Altar usw.) trifft.
 %%%%
 HINT_DONE_EXPLORE
 
-Hey, Ihr habt die Erkundung des Dungeons in diesem Level beendet! Ihr könnt
+Hey, du hast die Erkundung des Dungeons in diesem Level beendet! Ihr könnt
 auf der Levelkarte (<w>$cmd[CMD_DISPLAY_MAP]</w>) nach Treppen suchen, indem
 Ihr <w>></w> drückt. Der Cursor springt zur nächstgelegenen Treppe, und durch
 Drücken von <w>.</w> oder <w>Enter</w> kann sich dein Charakter auch dorthin
@@ -694,7 +694,7 @@ oder das Level ganz zu verlassen!
 %%%%
 HINT_NEED_HEALING_INVIS
 
-Ihr habt vor kurzem ein unsichtbares Monster bemerkt. Wenn Ihr es nicht
+Du hast vor kurzem ein unsichtbares Monster bemerkt. Wenn Ihr es nicht
 getötet oder den Ort des Geschehens verlassen habt, ist es nicht sicher, dich
 auszuruhen. Wenn Ihr deine Gesundheit oder Magie wieder auffüllen müsst,
 müsst Ihr einen entsprechenden Trank zu dir nehmen. Um sich normal
@@ -753,14 +753,14 @@ wie Unsichtbarkeit. Die Götter Zin und Jiyva werden deine Mutationen heilen.
 %%%%
 HINT_NEW_ABILITY_GOD_PASSIVE
 
-Ihr habt gerade eine göttliche Fähigkeit erhalten. Drückt
+Du hast gerade eine göttliche Fähigkeit erhalten. Drückt
 <w>$cmd[CMD_DISPLAY_RELIGION]</w><localtiles> oder drückt <w>Shift</w> und
 <w>Rechtsklick</w> auf die Spielerkachel</localtiles>, um dich deine
 Fähigkeiten anzusehen.
 %%%%
 HINT_NEW_ABILITY_GOD_ACTIVE
 
-Ihr habt gerade eine göttliche Fähigkeit erhalten. Drückt
+Du hast gerade eine göttliche Fähigkeit erhalten. Drückt
 <w>$cmd[CMD_USE_ABILITY]</w>, um einen Blick auf deine Fähigkeiten zu werfen
 oder eine von ihnen zu benutzen.
 %%%%
@@ -799,7 +799,7 @@ HINT_EXCOMMUNICATED
 
 Oh-oh, $1 hat dich gerade exkommuniziert, weil Ihr nicht mehr fromm genug seid
 (deine göttliche Gunst ist ins Leere gelaufen). Vielleicht habt Ihr wiederholt
-gegen die religiösen Regeln verstoßen, oder Ihr habt deine Gottheit nicht oft
+gegen die religiösen Regeln verstoßen, oder du hast deine Gottheit nicht oft
 genug zufrieden gestellt, oder eine Kombination aus beidem. Wenn Ihr einen
 Altar findet, der $1 gewidmet ist, könnt Ihr wieder konvertieren, und alles
 wird gut sein. Andernfalls müsst Ihr den Unmut dieses Gottes aushalten, bis
@@ -824,7 +824,7 @@ Sieht so aus, als ob $1 deinen Übertritt zu $2 nicht zu schätzen wusste.
 %%%%
 HINT_CONVERTED_KEPT_PIETY
 
-Ihr habt sogar etwas von deiner Frömmigkeit behalten!
+Du hast sogar etwas von deiner Frömmigkeit behalten!
 %%%%
 HINT_CONVERTED_GOOD_TO_GOOD
 
@@ -1010,7 +1010,7 @@ verbessert werden. Benutzt den
 %%%%
 HINT_YOU_MISCAST
 
-Ihr habt gerade einen Fehlzauber gesprochen.
+Du hast gerade einen Fehlzauber gesprochen.
 %%%%
 HINT_MISCAST_ARMOUR
 
@@ -1037,7 +1037,7 @@ verbraucht, die ein erfolgreich gewirkter Zauber verbrauchen würde.
 %%%%
 HINT_GLOWING
 
-Ihr habt so viel magische Kontamination angesammelt, dass Ihr glüht! Magische
+Du hast so viel magische Kontamination angesammelt, dass Ihr glüht! Magische
 Kontamination entstehen in der Regel durch die Anwendung mächtiger Magie, wie
 Unsichtbarkeit, oder durch falsch gewirkte Zaubersprüche.
 %%%%
@@ -1131,7 +1131,7 @@ Monsters, das ein Skelett in sich trägt.
 %%%%
 HINT_FOUND_UNKNOWN
 
-Ihr habt etwas Neues entdeckt (aber ich weiß nicht was)!
+Du hast etwas Neues entdeckt (aber ich weiß nicht was)!
 %%%%
 HINT_ABILITIES_SCREEN
 

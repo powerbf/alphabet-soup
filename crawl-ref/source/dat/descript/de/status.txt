@@ -359,7 +359,7 @@ befindliche Monster zufällig von dir weggeblinkt werden.
 %%%%
 Slay status
 
-Ihr habt das Blut eines Werwolfs in dir, das dich heilt und deinen Fern- und
+Du hast das Blut eines Werwolfs in dir, das dich heilt und deinen Fern- und
 Nahkampfangriffen Boni verleiht, die sich jedes Mal erhöhen, wenn Ihr einen
 Feind tötet.
 %%%%
@@ -376,7 +376,7 @@ kurze Zeit nicht wiederholt werden.
 %%%%
 -Recite status
 
-Ihr habt vor Kurzem die Rezitation von Zins Gesetzen beendet und könnt sie für
+Du hast vor Kurzem die Rezitation von Zins Gesetzen beendet und könnt sie für
 eine kurze Zeit nicht erneut rezitieren.
 %%%%
 rF- status
@@ -406,7 +406,7 @@ ist, kann er für kurze Zeit nicht erneut ausgelöst werden.
 %%%%
 -Dragoncall status
 
-Ihr habt vor Kurzem Drachen herbeigerufen und könnt Drachenruf für kurze Zeit
+Du hast vor Kurzem Drachen herbeigerufen und könnt Drachenruf für kurze Zeit
 nicht erneut wirken.
 %%%%
 -Potion status
@@ -427,7 +427,7 @@ Ihr seid widerstandsfähiger gegen Elektrizität.
 %%%%
 Horr status
 
-Ihr habt panische Angst vor Monstern in der Nähe, was deinen Schaden und deine
+Du hast panische Angst vor Monstern in der Nähe, was deinen Schaden und deine
 Genauigkeit im Kampf und die Kraft deiner Zauber verringert.
 %%%%
 -Scroll status
@@ -579,7 +579,7 @@ App status
 Tree status
 
 Ihr wurdet in einen Baum verwandelt und seid am Boden festgewurzelt. Ihr könnt
-dich nicht bewegen oder teleportieren. Ihr habt nur minimale
+dich nicht bewegen oder teleportieren. Du hast nur minimale
 Ausweichmöglichkeiten, aber mehr Gesundheit und natürliche Rüstung. Ihr seid
 resistent gegen Gift und immun gegen negative Energie.
 
@@ -736,7 +736,7 @@ Water status
 %%%%
 -Wiz status
 
-Ihr habt die Kontrolle über deine Magie verloren.
+Du hast die Kontrolle über deine Magie verloren.
 %%%%
 Attr status
 
@@ -744,7 +744,7 @@ Feinde werden magisch zu dir hingezogen.
 %%%%
 Zot status
 
-Ihr habt zu viel Zeit in einem Zweig verbracht, sodass das bösartige Wesen Zot
+Du hast zu viel Zeit in einem Zweig verbracht, sodass das bösartige Wesen Zot
 dich bemerkt hat. Wenn Ihr die angegebene Anzahl von Runden in dem Zweig
 verbringt, ohne in eine neue Ebene hinabzusteigen, wird Zot dich finden und
 auszehren.
