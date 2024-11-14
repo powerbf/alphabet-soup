@@ -8490,7 +8490,7 @@ Du wirst von den Stacheln {gen}%s getroffen.
 %s wird von den Stacheln {gen}%s getroffen.
 %%%%
 You emit a cloud of foul miasma!
-Ihr stößt eine Wolke stinkenden Miasmas aus!
+Du stößt eine Wolke stinkenden Miasmas aus!
 %%%%
 %s furiously retaliates!
 %s rächst sich wütend!
@@ -10445,7 +10445,7 @@ Your mandibles retract as you bump into %s.
 Deine Mandibeln ziehen sich zurück, als Ihr an {acc}%s stößt.
 %%%%
 You bump into %s.
-Ihr stößt an {acc}%s.
+Du stößt an {acc}%s.
 %%%%
 This wall is too hard to dig through.
 Diese Wand ist zu schwer zum Durchgraben.
