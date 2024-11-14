@@ -117,13 +117,13 @@ Becoming alive right now would cause you to drown!
 Wenn Ihr jetzt lebendig werden würdet, würdet Ihr ertrinken!
 %%%%
 You cannot call out to %s while unable to breath.
-Du kannst {acc}%s nicht anrufen, solange Ihr nicht atmen könnt.
+Du kannst {acc}%s nicht anrufen, solange du nicht atmen kannst.
 %%%%
 You cannot call out to %s while silenced.
 Du kannst {acc}%s nicht anrufen, solange du schweigend bist.
 %%%%
 You cannot speak a word of chaos while unable to breath.
-Du kannst kein Wort des Chaos sprechen, solange Ihr nicht atmen könnt.
+Du kannst kein Wort des Chaos sprechen, solange du nicht atmen kannst.
 %%%%
 You cannot speak a word of chaos while silenced.
 Du kannst kein Wort des Chaos sprechen, solange Ihr schweigend sind.
@@ -285,7 +285,7 @@ Deine Seele gehört schon zu Yredelemnul.
 Der Klon von {dat}%s hat keine Seele zum Versklaven!
 %%%%
 You see nothing there you can enslave the soul of!
-Ihr seht dort nichts, von dem Ihr die Seele versklaven könnt!
+Ihr seht dort nichts, von dem du die Seele versklaven kannst!
 %%%%
 %s's soul is too badly injured.
 Die Seele {gen}%s ist zu schwer verletzt.
@@ -1927,7 +1927,7 @@ Du wirst vom Blitz getroffen!
 %s wird vom Blitz getroffen!
 %%%%
 Lightning from the thunderstorm strikes something you cannot see.
-Ein Blitz vom Gewitter trifft etwas, was Ihr nicht sehen könnt.
+Ein Blitz vom Gewitter trifft etwas, was du nicht sehen kannst.
 %%%%
 # note: beneficial cloud
 You bask in %s.
@@ -5177,10 +5177,10 @@ Resurrect %s?
 {acc}%s wieder zum Leben erwecken?
 %%%%
 There's nobody else here you can resurrect.
-Hier gibt es sonst niemanden, den Ihr wiederbeleben könnt.
+Hier gibt es sonst niemanden, den du wiederbeleben kannst.
 %%%%
 There's nobody here you can resurrect.
-Hier gibt es niemanden, den Ihr wiederbeleben könnt.
+Hier gibt es niemanden, den du wiederbeleben kannst.
 %%%%
 There's no room!
 Es ist kein Platz!
@@ -5432,7 +5432,7 @@ Ka-crash!
 Ka-krach!
 %%%%
 You can't see any clouds you can empower.
-Du kannst keine Wolken sehen, die Ihr stärken könnt.
+Du kannst keine Wolken sehen, die du stärken kannst.
 %%%%
 Clouds arounds you coalesce and take form!
 Die Wolken um dich herum verdichten sich und nehmen Gestalt an!
@@ -6309,10 +6309,10 @@ Your armour is currently melded into you.
 Deine Rüstung ist bereits mit dir fusioniert.
 %%%%
 You aren't carrying any currently wearable armour.
-Du hast keine Rüsting bei dir, die Ihr im Moment anziehen könnt.
+Du hast keine Rüsting bei dir, die du im Moment anziehen kannst.
 %%%%
 You aren't carrying any wearable armour.
-Du hast keine Rüsting bei dir, die Ihr anziehen könnt.
+Du hast keine Rüsting bei dir, die du anziehen kannst.
 %%%%
 You don't have any unidentified items.
 Du hast keine unidentifizierte Gegenstände.
@@ -6342,10 +6342,10 @@ You aren't carrying any items that might be thrown or fired.
 Du hast keine Gegenstände bei dir, die geschossen oder geworfen werden können.
 %%%%
 You aren't carrying any items that you can evoke without wielding.
-Du hast keine Gegenstände bei dir, mit dem Ihr evozieren könnt ohne.
+Du hast keine Gegenstände bei dir, mit dem du evozieren kannst ohne.
 %%%%
 You aren't carrying any items that you can evoke.
-Du hast keine Gegenstände bei dir, mit dem Ihr evozieren könnt, ohne sie zu führen.
+Du hast keine Gegenstände bei dir, mit dem du evozieren kannst, ohne sie zu führen.
 %%%%
 None of your equipped items are cursed.
 Keiner deiner ausgerüsteten Gegenstände ist verflucht.
@@ -6357,7 +6357,7 @@ You aren't carrying any weapons that can be enchanted.
 Du hast keine Waffen bei dir, die verzaubert werden können.
 %%%%
 You aren't carrying anything you can give to a follower.
-Du hast nichts bei dir, das Ihr einem Anhänger geben könnt.
+Du hast nichts bei dir, das du einem Anhänger geben kannst.
 %%%%
 You aren't wearing any cursable items.
 Du hast nichts an, das verflucht werden kann.
@@ -6668,7 +6668,7 @@ Du trägst das Objekt nicht!
 %s klebt an deinem Körper!
 %%%%
 You're wearing all the rings you can. Remove which one?
-Du trägst alle Ringe, die Ihr tragen könnt. Welchen abnehmen?
+Du trägst alle Ringe, die du tragen kannst. Welchen abnehmen?
 %%%%
 (<w>?</w> for menu, <w>Esc</w> to cancel)
 (<w>?</w> für Menü, <w>Esc</w> zum Abbrechen)
@@ -6860,7 +6860,7 @@ Magic scrolls do not work when you're silenced!
 Unter Stille funktionieren Magische Schriftrollen nicht!
 %%%%
 You cannot read scrolls while unable to breathe!
-Du kannst keine Schriftrollen lesen, wenn Ihr nicht atmen könnt!
+Du kannst keine Schriftrollen lesen, wenn du nicht atmen kannst!
 %%%%
 You can't read that!
 Das kannst du nicht lesen.
@@ -8762,7 +8762,7 @@ Something merges into %s, and it vanishes!
 Etwas verschmilzt mit {dat}%s, und verschwindet!
 %%%%
 %s merges with something you can't see.
-%s verschmilzt mit etwas, das Ihr nicht sehen könnt.
+%s verschmilzt mit etwas, das du nicht sehen kannst.
 %%%%
 A cacophony of accursed wailing tears at your sanity!
 Eine Kakophonie verfluchtes Gejammer zerreißt deinen Verstand!
@@ -8851,7 +8851,7 @@ Du hörst ein lautes Knistern.
 %s wird durch deine schillernde goldene Aura abgelenkt.
 %%%%
 Something you can't see is thrashing in a web.
-Etwas, das Ihr nicht sehen könnt, schlägt in einem Gewebe um sich.
+Etwas, das du nicht sehen kannst, schlägt in einem Gewebe um sich.
 %%%%
 %s struggles to get unstuck from the web.
 %s kämpft, um sich aus dem Gewebe zu befreien.
@@ -10390,7 +10390,7 @@ That door is sealed shut!
 Diese Tür ist verschlossen!
 %%%%
 There isn't anything that you can open there!
-Es gibt nichts, was Ihr dort öffnen könnt!
+Es gibt nichts, was du dort öffnen kannst!
 %%%%
 You can't close doors while held in a net.
 Du kannst keine Türen schließen, solange du in einem Netz gefangen bist.
@@ -10405,7 +10405,7 @@ It's already closed!
 Es ist schon geschlossen!
 %%%%
 There isn't anything that you can close there!
-Es gibt nichts, was Ihr dort schließen könnt!
+Es gibt nichts, was du dort schließen kannst!
 %%%%
 If you enter this portal you might not be able to return immediately. Continue?
 Wenn Ihr dieses Portal betretet, kannst du möglicherweise nicht sofort zurückkehren. Weitermachen?
@@ -11650,7 +11650,7 @@ Your stasis prevents you from being hasted.
 Deine Stase verhindert, dass du hastig wirst.
 %%%%
 You already have as much speed as you can handle.
-Du hast schon so viel Geschwindigkeit, wie Ihr verkraften könnt.
+Du hast schon so viel Geschwindigkeit, wie du verkraften kannst.
 %%%%
 You feel as though your hastened speed will last longer.
 Du hast das Gefühl, als würde deine beschleunigte Geschwindigkeit länger dauern.
@@ -12060,7 +12060,7 @@ Your magic is already full.
 Deine Magie ist bereits voll.
 %%%%
 You have no magic to restore.
-Du hast keine Magie, die Ihr wiederherstellen könnt.
+Du hast keine Magie, die du wiederherstellen kannst.
 %%%%
 Magic washes over you without effect.
 Die Magie überspült dich ohne Wirkung.
@@ -12285,7 +12285,7 @@ Ihr greift an, um anzugreifen!
 %s ist im Weg.
 %%%%
 Something you can't see is in the way.
-Etwas, das Ihr nicht sehen könnt, ist im Weg.
+Etwas, das du nicht sehen kannst, ist im Weg.
 %%%%
 You swing at nothing.
 Ihr schwingt an nichts.
@@ -13799,7 +13799,7 @@ You already know all available spells.
 Ihr kennt bereits alle verfügbaren Zaubersprüche.
 %%%%
 You cannot currently memorise any of the available spells because you cannot use those schools of magic.
-Du kannst derzeit keinen der verfügbaren Zaubersprüche memorieren, weil Ihr diese Magieschulen nicht benutzen könnt.
+Du kannst derzeit keinen der verfügbaren Zaubersprüche memorieren, weil du diese Magieschulen nicht benutzen kannst.
 %%%%
 You cannot memorise any of the available spells.
 Du kannst derzeit keinen der verfügbaren Zaubersprüche memorieren.
@@ -13904,7 +13904,7 @@ Press '<w>!</w>' to toggle spell view.
 '<w>!</w>' drücken, um die Sicht umzuschalten.
 %%%%
 You cannot cast spells while unable to breathe!
-Du kannst keine Zauber wirken, solange Ihr nicht atmen könnt!
+Du kannst keine Zauber wirken, solange du nicht atmen kannst!
 %%%%
 You lack the mental capacity to cast spells.
 Dir fehlt die geistige Fähigkeit, Zauber zu wirken.
@@ -15555,7 +15555,7 @@ That space is already occupied.
 Dieser Raum ist bereits belegt.
 %%%%
 Something you can't see occupies that space!
-Etwas, das Ihr nicht sehen könnt, besetzt diesen Raum!
+Etwas, das du nicht sehen kannst, besetzt diesen Raum!
 %%%%
 A ballistomycete grows from the ground.
 Ein Ballistomycet wächst aus dem Boden.
@@ -15564,7 +15564,7 @@ You can't grow an oklob plant there.
 Du kannst dort keine Oklob-Pflanze züchten.
 %%%%
 Something you can't see is occupying that space!
-Etwas, das Ihr nicht sehen könnt, besetzt diesen Raum!
+Etwas, das du nicht sehen kannst, besetzt diesen Raum!
 %%%%
 An oklob plant grows from the ground.
 Eine Klumpenpflanze wächst aus dem Boden.
@@ -15665,7 +15665,7 @@ You're already next to %s!
 Du bist schon neben {dat}%s!
 %%%%
 There's nothing you can charge at!
-Es gibt nichts, was Ihr ansturmen könnt!
+Es gibt nichts, was du ansturmen kannst!
 %%%%
 You roll forward with a clatter of scales!
 Du rollst mit klappernden Schuppen vorwärts!
@@ -15710,7 +15710,7 @@ Ihr erneuert dein Portal.
 %s würde katastrophal mit paradoxem Raum reagieren!
 %%%%
 You can't see anything to attack.
-Ihr seht nichts, was ihr angreifen könnt.
+Ihr seht nichts, was du angreifen kannst.
 %%%%
 Space momentarily warps into an impossible shape!
 Der Raum verformt sich augenblicklich in eine unmögliche Form!
@@ -15755,7 +15755,7 @@ Creating a passage of Golubria requires sufficient empty space.
 Um eine Passage von Golubria zu schaffen, ist ausreichend leerer Raum erforderlich.
 %%%%
 The Orb disrupts the stability of your passage!
-Ein magisches Siegel in der Spießrute verhindert, dass Ihr einen Durchgang öffnen könnt!
+Ein magisches Siegel in der Spießrute verhindert, dass du einen Durchgang öffnen kannst!
 %%%%
 The air shimmers briefly around you.
 Die Luft schimmert kurz um dich herum.
@@ -15776,7 +15776,7 @@ Die Schwerkraft richtet sich um leeren Raum neu aus.
 %s wird zu dir gezogen!
 %%%%
 You cannot see any enemies that you can affect. Speak a word of chaos anyway?
-Du kannst keine Feinde sehen, die Ihr beeinflussen könnt. Ein Wort des Chaos trotzdem sprechen?
+Du kannst keine Feinde sehen, die du beeinflussen kannst. Ein Wort des Chaos trotzdem sprechen?
 %%%%
 You speak a word of chaos!
 Ihr sprecht ein Wort des Chaos!
@@ -15910,7 +15910,7 @@ your ring of flames would instantly melt the ice.
 dein Ring aus Flammen würde das Eis sofort schmelzen.
 %%%%
 you have no blood to sublime.
-du hast kein Blut, das Ihr sublimieren könnt.
+du hast kein Blut, das du sublimieren kannst.
 %%%%
 you need to wait for the winds to calm down.
 du musst warten, bis sich der Wind gelegt hat.
@@ -15961,7 +15961,7 @@ you cannot wear body armour.
 du kannst keine Körperpanzerung tragen.
 %%%%
 you have no body armour to summon the spirit of.
-du hast keine Körperpanzerung, deren Geist Ihr beschwören könnt.
+du hast keine Körperpanzerung, deren Geist du beschwören kannst.
 %%%%
 
 ##################
@@ -16308,7 +16308,7 @@ Welche Richtung?
 ##################
 %%%%
 You can't see anything there to charge at.
-Du kannst dort nichts sehen, was Ihr anstürmen könnt.
+Du kannst dort nichts sehen, was du anstürmen kannst.
 %%%%
 You can't charge at yourself.
 Man kann sich selbst nicht anstürmen.
@@ -16495,7 +16495,7 @@ Die Wand gefriert %s
 ##################
 %%%%
 You are confused and cannot control your aim.
-Du bist verwirrt und könnt euer Ziel nicht kontrollieren.
+Du bist verwirrt und kannst euer Ziel nicht kontrollieren.
 %%%%
 No action selected
 Keine Aktion ausgewählt

@@ -411,7 +411,7 @@ You expend health (3 HP) to strengthen your wands.
 Ihr verbraucht Gesundheit (3 HP), um deine Zauberstäbe zu stärken.
 %%%%
 You have tentacles for arms and can constrict up to %d enemies at once.
-Du hast Tentakel als Arme und könnt bis zu %d Feinde auf einmal umschlingen.
+Du hast Tentakel als Arme und kannst bis zu %d Feinde auf einmal umschlingen.
 %%%%
 You have sharp claws.
 Du hast scharfe Krallen.
@@ -1263,10 +1263,10 @@ You can roll a great distance at foes to attack.
 Du kannst über eine große Entfernung auf Feinde zurollen, um sie anzugreifen.
 %%%%
 You feel you can roll further.
-Du hast das Gefühl, dass Ihr weiter rollen könnt.
+Du hast das Gefühl, dass du weiter rollen kannst.
 %%%%
 You feel you can roll even further.
-Du hast das Gefühl, dass Ihr noch weiter gehen könnt.
+Du hast das Gefühl, dass du noch weiter gehen kannst.
 %%%%
 You can no longer roll as far.
 Du kannst nicht mehr so weit rollen.
@@ -2307,7 +2307,7 @@ cold-blooded
 kaltblütig
 %%%%
 You are cold-blooded and may be slowed by cold attacks.
-Du bist kaltblütig und könnt durch Kälteangriffe verlangsamt werden.
+Du bist kaltblütig und kannst durch Kälteangriffe verlangsamt werden.
 %%%%
 You feel cold-blooded.
 Du fühlst dich kaltblütig.
@@ -2874,7 +2874,7 @@ You feel less comfortable near water.
 Du fühlst dich in der Nähe von Wasser weniger wohl.
 %%%%
 You have tentacles for arms and can constrict enemies.
-Du hast Tentakel als Arme und könnt Feinde umschlingen.
+Du hast Tentakel als Arme und kannst Feinde umschlingen.
 %%%%
 Your arms feel tentacular.
 Deine Arme fühlen dich tentakulär an.
@@ -2889,7 +2889,7 @@ You are afflicted with vampirism.
 Du bist mit Vampirismus behaftet.
 %%%%
 You are afflicted with vampirism and can become a bat while bloodless.
-Du bist mit Vampirismus behaftet und könnt dich in eine Fledermaus verwandeln, solange du blutleer bist.
+Du bist mit Vampirismus behaftet und kannst dich in eine Fledermaus verwandeln, solange du blutleer bist.
 %%%%
 You feel a craving for blood.
 Ihr verspürt ein Verlangen nach Blut.

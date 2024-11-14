@@ -269,10 +269,10 @@ You are engulfed.
 Du bist verschlungen.
 %%%%
 engulfed (cannot breathe)
-verschlungen (könnt nicht atmen)
+verschlungen (kannst nicht atmen)
 %%%%
 You are engulfed and unable to breathe.
-Du bist verschlungen und könnt nicht mehr atmen.
+Du bist verschlungen und kannst nicht mehr atmen.
 %%%%
 
 # Drained
@@ -1754,7 +1754,7 @@ Du bist entsetzt, wodurch eure Angriffe und Zauber geschwächt werden.
 -Scroll
 %%%%
 unable to read
-könnt nicht lesen
+kannst nicht lesen
 %%%%
 no scrolls
 keine Schriftrollen
@@ -1897,7 +1897,7 @@ Deine Waffe verströmt eine schützende Aura.
 -Hop
 %%%%
 unable to hop
-könnt nicht hüpfen
+kannst nicht hüpfen
 %%%%
 no hop
 nicht hüpfen
