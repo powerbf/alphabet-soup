@@ -111,7 +111,7 @@ was eine Form annehmen kann.
 Donald
 
 {{
-    local descript = "Ein Abenteurer genau wie Ihr, der versucht, die Kugel "
+    local descript = "Ein Abenteurer genau wie du, der versucht, die Kugel "
                   .. "zu finden."
 
     if you.race() ~= "Merfolk" and you.race() ~= "Octopode" then
@@ -2862,7 +2862,7 @@ Eine Leiche, die durch Nekromantie zum Untoten gemacht wurde.
 # Specials
 test spawner
 
-(Wenn Ihr dies außerhalb des Wiz-Modus oder der Arena seht, handelt es sich um
+(Wenn du dies außerhalb des Wiz-Modus oder der Arena siehst, handelt es sich um
 einen Fehler.)
 
 Was auch immer es ist, es kann durch das Beschwören von Schattenkreaturen
@@ -3255,11 +3255,11 @@ bringen euer Verderben und werden sich an deinen Überresten laben.
 accursed
 
 Die Verfluchten sind diejenigen, die vor dir kamen. Sie sind gekommen, um
-sicherzustellen, dass Ihr ihr Schicksal teilt.
+sicherzustellen, dass du ihr Schicksal teilst.
 %%%%
 tyrant
 
-Eine kolossale Masse aus Knochen und Schädeln, ein wandelndes Grab. Ihr hört
+Eine kolossale Masse aus Knochen und Schädeln, ein wandelndes Grab. Du hörst
 Kreischen und Schreie, wenn es sich nähert, bei jedem zermalmenden Schritt
 Knochen zertrümmert und sich in ewiger Unruhe neu zusammensetzt.
 %%%%
@@ -3277,7 +3277,7 @@ denen Galle und Eiter sickern und die Gift und Seuchen speit.
 %%%%
 observer
 
-Ihr seht das Unsichtbare, Ihr starrt und sie starren zurück. Sie flüstern und
+Du siehst das Unsichtbare, du starrst und sie starren zurück. Sie flüstern und
 lachen, sie grinsen und weinen, sie blicken dich verächtlich an und starren dich
 voller Bewunderung an. Sie sind die Beobachter, sie beurteilen deinen Wert und
 werden über dein Ende entscheiden.
@@ -3314,7 +3314,7 @@ Sein Schild ist mit Bildern höllischer Flammen verziert.
 %%%%
 The Meatlord
 
-Ihr seht die Verkörperung von Schmutz, Verwesung und Verderbtheit, den
+Du siehst die Verkörperung von Schmutz, Verwesung und Verderbtheit, den
 Fleischfürst. Sein widerlicher Körper ist bis zum Äußersten aufgebläht, aus ihm
 sickert zähe Flüssigkeit und der Gestank des Todes. Sein Kopf ist der eines
 Ebers mit hervorquellenden Augen und gespaltenen Stoßzähnen, seine Schnauze bebt
@@ -3325,13 +3325,13 @@ riesiges Bauch windet und verformt sich, während die Larven darin auf ihre
 widerwärtige Freilassung warten. Seine Beine sind unkenntliche Fleischmassen,
 bedeckt mit Ausstülpungen und pochenden Furunkeln. dein Verstand taumelt beim
 Anblick dieser abscheulichen Gestalt und deine Sinne beginnen sich abzuschalten,
-um deinen Verstand zu bewahren, während Ihr an dem bedrückenden Gestank
-ersticken.
+um deinen Verstand zu bewahren, während du an dem bedrückenden Gestank
+erstickst.
 %%%%
 The Unspeakable
 
-Ihr hört das Echo der Planeten hinter dem ohrenbetäubenden Brüllen der Sterne,
+Du hörst das Echo der Planeten hinter dem ohrenbetäubenden Brüllen der Sterne,
 wenn es sich nähert. Es ist das Maul des Abgrunds. Es bringt kriechendes Chaos
-aus seinem Inneren hervor. Es ist der letzte Anblick, den Ihr jemals sehen
-werdet.
+aus seinem Inneren hervor. Es ist der letzte Anblick, den du jemals sehen
+wirst.
 %%%%
