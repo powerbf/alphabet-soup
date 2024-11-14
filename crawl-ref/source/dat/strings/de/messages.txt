@@ -456,7 +456,7 @@ The roots
 Die Wurzeln
 %%%%
 You release %s.
-Ihr lasst {acc}%s los.
+Du lässt {acc}%s los.
 %%%%
 %s release you.
 %s lassen dich los.
@@ -7108,7 +7108,7 @@ Too many items on this level, not dropping the item.
 Zu viele Gegenstände auf dieser Ebene. Gegenstand wird nicht fallen gelassen.
 %%%%
 You drop %s.
-Ihr lasst {acc}%s fallen.
+Du lässt {acc}%s fallen.
 %%%%
 No item to drop.
 Kein Gegenstand zum Fallenlassen.
@@ -18155,7 +18155,7 @@ X-ray vision disabled.
 Röntgenblick deaktiviert
 %%%%
 You allow the flow of time to resume.
-Ihr lasst den Zeitfluss wieder aufnehmen.
+Du lässt den Zeitfluss wieder aufnehmen.
 %%%%
 You bring the flow of time to a stop.
 Ihr bringt den Fluss der Zeit zum Stillstand.
