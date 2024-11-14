@@ -1,7 +1,7 @@
 %%%%
 tutorial intro
 
-Alle Meldungen könnt Ihr jederzeit noch mal mit
+Alle Meldungen kannst du jederzeit noch mal mit
 <input>$cmd[CMD_REPLAY_MESSAGES]</input> lesen. Um die <cyan>--more--</cyan>
 Meldung zu löschen drücke die <input>Leertaste</input>.
 
@@ -48,7 +48,7 @@ Es gibt eine schnellere Möglichkeit um durch einen Gang zu „rennen“, indem 
 %%%%
 tutorial1 downstairs
 
-Wenn Ihr auf einer Treppe steht die nach unten führt könnt Ihr die nächste
+Wenn Ihr auf einer Treppe steht die nach unten führt kannst du die nächste
 Ebene mit <input>$cmd[CMD_GO_DOWNSTAIRS]</input><localtiles> oder mit einem
 <input>Shift-Klick</input> auf deinen Charakter</localtiles> betreten.
 %%%%
@@ -59,14 +59,14 @@ Was ist das? Um herauszufinden, wo du bist, <tiles>müsst Ihr einen Blick auf di
 könnt einen näheren Blick auf einen Kartenausschnitt mit einem
 <input>Rechts-Klick</input> werfen und dann ebenso mit einem
 <input>Links-Klick</input> dort hingehen.</localtiles><webtiles> Die
-Übersichtskarte könnt Ihr mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und
+Übersichtskarte kannst du mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und
 dann den Cursor herumbewegen, um dich auf der Ebene umzuschauen. Wo auch immer
-dein Cursor hinzeigt, könnt Ihr dich mit einem Druck auf <input>.</input> oder
+dein Cursor hinzeigt, kannst du dich mit einem Druck auf <input>.</input> oder
 <input>Eingabe</input> hinbewegen. Drücke <input>Escape</input> um in den
 normalen Spielmodus zurückzukehren.</webtiles><console>Die Übersichtskarte
-könnt Ihr mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und dann den Cursor
+kannst du mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und dann den Cursor
 herumbewegen, um dich auf der Ebene umzuschauen. Wo auch immer dein Cursor
-hinzeigt, könnt Ihr dich mit einem Druck auf <input>.</input> oder
+hinzeigt, kannst du dich mit einem Druck auf <input>.</input> oder
 <input>Eingabe</input> hinbewegen. Drücke <input>Escape</input> um in den
 normalen Spielmodus zurückzukehren.</console>
 %%%%
@@ -89,7 +89,7 @@ das Ihr <input>$cmd[CMD_EXPLORE]</input> benutzen könnt, um fortzufahren.
 tutorial1 autoexplore_announce
 
 Auto-Erforschen stoppt, um Besonderheiten und Gegenstände anzuzeigen. Wenn Ihr
-direkt zu den Treppen gehen wollt, könnt Ihr auf sie <localtiles>
+direkt zu den Treppen gehen wollt, kannst du auf sie <localtiles>
 <input>klicken</input> oder <w>[$cmd[CMD_DISPLAY_MAP] <<
 Eingabe]</w> drücken.
 %%%%
@@ -123,7 +123,7 @@ Beachtet das Ihr durch flaches aber nicht durch tiefes Wasser laufen könnt.
 %%%%
 tutorial1 upstairs
 
-Wenn Ihr auf einer Treppe steht, die nach oben führt, könnt Ihr die vorherige
+Wenn Ihr auf einer Treppe steht, die nach oben führt, kannst du die vorherige
 Ebene mit <input>$cmd[CMD_GO_UPSTAIRS]</input><localtiles> oder
 <input>Shift-Klick</input> auf deinen Charakter betreten</localtiles>.
 %%%%
@@ -138,7 +138,7 @@ Num-Block:       <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $c
                  <w>1 2 3</w>                       <w>$cmd[CMD_MOVE_DOWN_LEFT] $cmd[CMD_MOVE_DOWN] $cmd[CMD_MOVE_DOWN_RIGHT]</w>
 
   <input>Shift + Richtug</input> bewegt dich mehrere Felder in diese Richtung.<localtiles>
-  Mit einem <input>Mausklick</input> irgendwo in Sichtweite oder auf der <w>Mini-Karte</w> könnt Ihr dich auch fortbewegen.</localtiles>
+  Mit einem <input>Mausklick</input> irgendwo in Sichtweite oder auf der <w>Mini-Karte</w> kannst du dich auch fortbewegen.</localtiles>
 
 <yellow>Treppen</yellow>
   <input>$cmd[CMD_GO_UPSTAIRS]</input>  gehe zurück zur vorherigen Ebene
@@ -166,7 +166,7 @@ tutorial2 pickup_weapon
 
 Hebe diese Waffe mit <input>$cmd[CMD_PICKUP]</input> oder <input>g</input> auf
 und rüste dich damit mit <input>$cmd[CMD_WIELD_WEAPON]</input> aus.<localtiles>
-Alternativ könnt Ihr dies auch mit einem <input>Klick</input> in deinem
+Alternativ kannst du dies auch mit einem <input>Klick</input> in deinem
 Inventar-Feld ausführen.</localtiles>
 %%%%
 tutorial2 melee
@@ -177,12 +177,12 @@ einfach in es hinein.
 tutorial2 resting
 
 Sehr gut! Du hast beim Ausruhen mit <input>$cmd[CMD_REST]</input> jeden
-verlorenen Lebenspunkt wiedererlangt. Damit könnt Ihr Rasten und für 100 Züge
+verlorenen Lebenspunkt wiedererlangt. Damit kannst du Rasten und für 100 Züge
 suchen, aber auch durch unzählige Ereignisse unterbrochen werden.
 %%%%
 tutorial2 wait
 
-Besser als einen Raum zu stürmen und von Monstern überrannt zu werden könnt Ihr
+Besser als einen Raum zu stürmen und von Monstern überrannt zu werden kannst du
 auch zurückweichen und (mit <input>$cmd[CMD_WAIT]</input>) warten, bis
 sie zu dir vordringen.
 %%%%
@@ -328,7 +328,7 @@ oder mit einem <input>Shift-Klick</input> auf deinen Charakter.</localtiles>.
 %%%%
 tutorial3 command_help
 
-Wenn die ganzen Befehle zu verwirrend sind, könnt Ihr sie dich auch noch mal in
+Wenn die ganzen Befehle zu verwirrend sind, kannst du sie dich auch noch mal in
 der Befehls-Hilfe mit <input>$cmd[CMD_DISPLAY_COMMANDS]</input> ansehen.
 <localtiles>Ein Teil der Befehle sind auch in dem klickbaren
 <w>Befehls-Feld</w> auf der rechten Seite des Bildschirms verfügbar.
@@ -510,7 +510,7 @@ fangen, um mit deiner Magie effizienter zu sein.
 tutorial4 forget_spell
 
 Eine Stufe aufsteigen und das Erhöhen der Zaubern Fertigkeit geben weitere
-Plätze für Zaubersprüche in deinem Gedächtnis frei. Ebenfalls könnt Ihr
+Plätze für Zaubersprüche in deinem Gedächtnis frei. Ebenfalls kannst du
 <w>einen gelernten Spruch vergessen</w> um Platz für einen neuen/weiteren zu
 machen. Der einfachste Weg dies zu tun ist mit einer Schriftrolle der Amnesie.
 Lese einfach laut die Schriftrolle (mit <input>$cmd[CMD_READ]</input>
@@ -531,9 +531,9 @@ Wesens ein guter Weg sein, um einem Kampf zu entkommen.
 %%%%
 tutorial4 order_allies
 
-Versucht das Töten deinen Verbündeten zu überlassen! Wenn notwendig könnt Ihr
+Versucht das Töten deinen Verbündeten zu überlassen! Wenn notwendig kannst du
 sie mit <input>$cmd[CMD_SHOUT]</input> rufen. Bevor Ihr diese Pforte öffnet
-könnt Ihr mit <input>$cmd[CMD_WAIT]</input> so lange warten bis sie zu
+kannst du mit <input>$cmd[CMD_WAIT]</input> so lange warten bis sie zu
 dich aufgeschlossen haben.
 %%%%
 tutorial4 heavy_armour
@@ -543,7 +543,7 @@ an (mit <input>$cmd[CMD_WEAR_ARMOUR]</input><localtiles> oder indem Ihr auf sie
 <input>klickt</input></localtiles>) und vergleiche die Erfolgsquote mit
 <input>$cmd[CMD_DISPLAY_SPELLS]</input><localtiles> oder mit einem
 <input>Mouseover</input> über deine gelernten Zaubersprüche</localtiles>. deine
-Rüstung könnt Ihr mit <input>$cmd[CMD_REMOVE_ARMOUR]</input> wieder
+Rüstung kannst du mit <input>$cmd[CMD_REMOVE_ARMOUR]</input> wieder
 ablegen<localtiles> oder, wiederum, via <input>Mausklick</input></localtiles>.
 %%%%
 tutorial4 resting_reminder
@@ -553,7 +553,7 @@ neues Gebiet eintrittet. Falls notwendig, pausiere mit
 <input>$cmd[CMD_REST]</input><localtiles> oder <input>mausklicke</input> in
 das Kommandofeld</localtiles>.
 
-Außerdem, da Untote nicht atmen könnt Ihr verpestete Wolke werfen ohne deinen
+Außerdem, da Untote nicht atmen kannst du verpestete Wolke werfen ohne deinen
 Verbündeten zu schaden.
 %%%%
 tutorial4 tutorial_end
@@ -568,7 +568,7 @@ tutorial4 exit
   <input>$cmd[CMD_MEMORISE_SPELL]</input>  einen Zauberspruch lernen
   <input>$cmd[CMD_DISPLAY_SPELLS]</input>  die Leistung des Zauberspruchs prüfen
   <input>$cmd[CMD_CAST_SPELL]</input>  einen Zauberspruch aufsagen<localtiles>
-  Ausserdem könnt Ihr neue Sprüche mit dem <w>Lernreiter</w> lernen.
+  Ausserdem kannst du neue Sprüche mit dem <w>Lernreiter</w> lernen.
   Bereits erlernte Zaubersprüche ruft Ihr mit <input>Linksklick</input> ab, und lies ihre Beschreibung und überprüfe deine Zauber Kenntnisse mit einem <input>Mouseover</input> oder <input>Rechtsklick</input></localtiles>
 
   <input>$cmd[CMD_READ]</input>  lies ein Buch, um die Beschreibung zu lesen oder einen Zauberspruch zu vergessen
@@ -584,19 +584,19 @@ In dieser Lektion lernt Ihr alles über Götter und wie man ihre Mächte benutzt
 %%%%
 tutorial5 dungeon_overview
 
-Trog ist nur einer von vielen Göttern. Im richtigen Spiel könnt Ihr dich mit
+Trog ist nur einer von vielen Göttern. Im richtigen Spiel kannst du dich mit
 <input>$cmd[CMD_DISPLAY_OVERMAP]</input><localtiles> oder mit einem klick auf
 den <input>Dungeon Karten Knopf</input> im Kontrollfeld</localtiles> eine Liste
 aller Altare und anderen interessanten Merkmalen anzeigen lassen.
 %%%%
 tutorial5 altar
 
-Beten könnt Ihr an einem Altar mit <input>$cmd[CMD_PRAY]</input><localtiles>
+Beten kannst du an einem Altar mit <input>$cmd[CMD_PRAY]</input><localtiles>
 (oder wenn Ihr in das <input>Befehls-Feld klickt</input>, oder mit
 <input>Shift-Klick</input> auf deinen Charakter)</localtiles>, womit Ihr dann
 erfahren könnt was dieser Gott dich anbietet und diesem Glauben beizutreten. Wenn Ihr
 <input>!</input><localtiles> oder einen <input>Rechts-Klick</input>
-</localtiles> im Glaubens-Bildschirm ausführt könnt Ihr eine noch genauere
+</localtiles> im Glaubens-Bildschirm ausführt kannst du eine noch genauere
 Beschreibung bekommen.
 
 Bestätige deine Wahl mit einem <input>Y</input>, denke dabei an die
@@ -639,7 +639,7 @@ Gegen manche starke Gegner könntet Ihr Trog's Raserei Kraft mit
 %%%%
 tutorial5 exhaustion
 
-Die Wut des Berserkers ist wirklich anstrengend. Wenn Ihr ermüdet seid könnt Ihr
+Die Wut des Berserkers ist wirklich anstrengend. Wenn Ihr ermüdet seid kannst du
 nicht wieder in Raserei verfallen und wirst langsamer. Am besten ist es dann
 mit <input>$cmd[CMD_REST]</input><localtiles> (oder über das
 <w>Befehls-Feld</w>) zu rasten</localtiles> bis Ihr dich wieder fit genug
