@@ -173,10 +173,10 @@ You are an %s %s.
 Du bist %s %s.
 %%%%
 Please select your species.
-Bitte wählt deine Spezies.
+Bitte wähle deine Spezies.
 %%%%
 Please select your background.
-Bitte wählt deinen Hintergrund.
+Bitte wähle deinen Hintergrund.
 %%%%
 # species groupings
 %%%%
@@ -226,10 +226,10 @@ Abenteurer
 # species/background options - first column desciptions
 %%%%
 Picks a random recommended species based on your current background choice.
-Wählt eine zufällige vorgeschlagene Spezies für deinen Hintergrund.
+Wähle eine zufällige vorgeschlagene Spezies für deinen Hintergrund.
 %%%%
 Picks a random recommended background based on your current species choice.
-Wählt einen zufälligen vorgeschlagenen Hintergrund für deine Spezies.
+Wähle einen zufälligen vorgeschlagenen Hintergrund für deine Spezies.
 %%%%
 Shuffles through random recommended character combinations until you accept one.
 Stellt zufällige vorgeschlagene Charaktere vor
@@ -272,10 +272,10 @@ Leertaste - Spezies zuerst wählen
 # species/background options - second column descriptions
 %%%%
 Picks a random species.
-Wählt eine zufällige Spezies.
+Wähle eine zufällige Spezies.
 %%%%
 Picks a random background.
-Wählt einen zufälligen Hintergrund.
+Wähle einen zufälligen Hintergrund.
 %%%%
 Shuffles through random character combinations until you accept one.
 Stellt zufällige Charaktere vor.
@@ -287,7 +287,7 @@ Lets you change your background choice.
 Deine Hintergrund-Auswahl ändern.
 %%%%
 Lets you pick your background first.
-Wählt zuerst deinen Hintergrund.
+Wähle zuerst deinen Hintergrund.
 %%%%
 Lets you pick your species first.
 Wähle zuerst deine Spezies.
@@ -344,7 +344,7 @@ Vorgeschlagenes Meervolk
 # weapon selection
 %%%%
 You have a choice of weapons.
-Bitte wählt eine Waffe.
+Bitte wähle eine Waffe.
 %%%%
 # apt = aptitude
 %%%%
@@ -384,10 +384,10 @@ Bksp - Return to character menu
 Bksp - Zurück zu Charakter-Menü
 %%%%
 Picks a random recommended weapon
-Wählt eine zufällige vorgeschagene Waffe
+Wähle eine zufällige vorgeschagene Waffe
 %%%%
 Picks a random weapon
-Wählt eine zufällige Waffe
+Wähle eine zufällige Waffe
 %%%%
 Lets you return back to Character choice menu
 Führt zurück zu Charakter-Auswahl-Menü
@@ -471,7 +471,7 @@ Sprint IX: "|||||||||||||||||||||||||||||"
 * - zufälliger Plan
 %%%%
 Picks a random sprint map
-Wählt einen zufälligen Dungeon-Sprint-Plan
+Wähle einen zufälligen Dungeon-Sprint-Plan
 %%%%
 Select your previous sprint map and character
 Wähle deine letzte Dungeon-Pan and Charakter

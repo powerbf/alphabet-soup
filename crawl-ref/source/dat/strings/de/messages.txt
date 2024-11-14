@@ -424,7 +424,7 @@ Xom kichert.
 " (du hast %d Gold)"
 %%%%
 Choose an item to acquire.
-Wählt einen Artikel zu erwerben.
+Wähle einen Artikel zu erwerben.
 %%%%
 [<w>!</w>] <w>acquire</w>|examine items
 [<w>!</w>] Artikel <w>erwerben</w>|prüfen
@@ -3347,7 +3347,7 @@ Du hast sie noch nicht erforscht und können nicht sagen, wohin sie führt.
 %%%%
 # explored staircase/escape hatch
 You can view the location it leads to by examining it with <w>%s</w> and pressing <w>%s</w>.
-Du kannst den Ort sehen, zu dem sie führt, indem ihr sie mit <w>%s</w> untersucht und <w>%s</w> drückt.
+Du kannst den Ort sehen, zu dem sie führt, indem du sie mit <w>%s</w> untersuchst und <w>%s</w> drückst.
 %%%%
 (Pray here with <w>'%s'</w> to learn more.)
 (Hier mit <w>'%s'</w> beten, um mehr zu erfahren.)
@@ -5700,7 +5700,7 @@ War %s a) männlich, b) weiblich, oder c) anderes (Zurzeit %s.)
 %s war immer %s, da bist du dich ziemlich sicher.
 %%%%
 Please select an adjacent position to wall jump against.
-Bitte wählt eine benachbarte Position, um gegen die Wand zu springen.
+Bitte wähle eine benachbarte Position, um gegen die Wand zu springen.
 %%%%
 You cannot wall jump against %s.
 Du kannst nicht gegen {acc}%s springen.
@@ -11300,7 +11300,7 @@ Uppercase letters only, please.
 Nur Großbuchstaben, bitte.
 %%%%
 Please choose an option below
-Bitte wählt unten eine Option aus
+Bitte wähle unten eine Option aus
 %%%%
 %s's power touches on your attributes.
 Die Macht von %s berührt deine Attribute.
@@ -12134,10 +12134,10 @@ Nur [J]a oder [N]ein, bitte.
 /(N)ein/(B)eenden
 %%%%
 Choose uppercase [Y]es%s, [N]o, [Q]uit, or [A]ll!
-Wählt [J]a%s, [N]ein, [B]eenden, oder [A]lle in Großbuchstaben!
+Wähle [J]a%s, [N]ein, [B]eenden, oder [A]lle in Großbuchstaben!
 %%%%
 Choose [Y]es%s, [N]o, [Q]uit, or [A]ll!
-Wählt [J]a%s, [N]ein, [B]eenden, oder [A]lle!
+Wähle [J]a%s, [N]ein, [B]eenden, oder [A]lle!
 %%%%
 Uppercase [Y]es%s, [N]o or [Q]uit only, please.
 Nur [J]a%s, [N]ein oder [B]eenden in Großbuchstaben, bitte.
