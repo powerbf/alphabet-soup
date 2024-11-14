@@ -115,7 +115,7 @@ wird ein Druck auf <input>$cmd[CMD_INTERLEVEL_TRAVEL] Enter</input> oder
 %%%%
 finished stashes
 
-Ihr könnt unter allen Gegenstände im Dungeon mit dem Befehl
+Du kannst unter allen Gegenstände im Dungeon mit dem Befehl
 <input>$cmd[CMD_SEARCH_STASHES]</input> suchen. Zum Beispiel,
 <input>$cmd[CMD_SEARCH_STASHES]</input> <w>„dolch“</w> listet alle Dolche auf.
 Dann kannst du zu einem reisen. Es ist genauso möglich Strukture wie
@@ -196,7 +196,7 @@ Du bist gerade zur Anbetung von <w>{{ return you.god() }}</w> konvertiert.
 Deine Frömmigkeit (göttliche Gunst) wird zunehmen, wenn Ihr Dinge tut, die deinem
 neuen Gott gefallen, und sie wird im Laufe der Zeit abnehmen.
 
-Ihr könnt die Vorlieben und Abneigungen deines Gottes sowie deinen aktuellen
+Du kannst die Vorlieben und Abneigungen deines Gottes sowie deinen aktuellen
 Status und deine göttlichen Fähigkeiten überprüfen, indem Ihr
 <input>$cmd[CMD_DISPLAY_RELIGION]</input> drückt<localtiles>, oder
 <input>Shift-rechtsklickt</input> auf deinen Avatar</localtiles>.
@@ -265,7 +265,7 @@ Das ist die erste Waffe<console> ('<w>$item[weapon]</w>')</console>, die Ihr
 aufgehoben habt. Drückt <w>$cmd[CMD_WIELD_WEAPON]</w><localtiles> oder
 <w>linksklickt</w> auf sie</localtiles>, um sie zu führen, aber seiet dich
 bewusst, dass diese Waffe eine andere Fertigkeit trainieren kann als deine
-Aktuelle. Ihr könnt die Eigenschaften dieser Waffe von deinem Inventar
+Aktuelle. Du kannst die Eigenschaften dieser Waffe von deinem Inventar
 (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>)<localtiles> oder durch
 <w>Rechtsklicken</w> auf sie</localtiles> anschauen.
 
@@ -304,11 +304,11 @@ lesen.
 HINT_SEEN_ARMOUR
 
 Das ist das erste Rüstungsstück<console> ('<w>$item[armour]</w>')</console>,
-das Ihr aufgehoben habt. <localtiles>Ihr könnt es anklicken, um es anzuziehen,
+das Ihr aufgehoben habt. <localtiles>Du kannst es anklicken, um es anzuziehen,
 und erneut klicken, um es zu entfernen. <w>Rechtsklicken</w> auf es wird mehr
 Informationen über es geben.</localtiles><nomouse><w>$cmd[CMD_WEAR_ARMOUR]</w>
 drücken, um es anzuziehen, und <w>$cmd[CMD_REMOVE_ARMOUR]</w> drücken, um es
-auszuziehen. Ihr könnt seine Eigenschaften vom Inventar
+auszuziehen. Du kannst seine Eigenschaften vom Inventar
 (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>) anschauen.</nomouse>
 
 {{
@@ -339,7 +339,7 @@ Du hast ein Schmuckstück aufgehoben, entweder einen Ring
 <console>('<w>$item[jewellery]</w>') </console>oder ein
 Amulett<console> ('<w>$item[amulet]</w>')</console>.
 <nomouse>Drückt <w>$cmd[CMD_WEAR_JEWELLERY]</w>, um es anzulegen, und
-<w>$cmd[CMD_REMOVE_JEWELLERY]</w> um es zu entfernen. Ihr könnt seine
+<w>$cmd[CMD_REMOVE_JEWELLERY]</w> um es zu entfernen. Du kannst seine
 Eigenschaften von deinem Inventar (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>)
 sehen.</nomouse><localtiles>Auf es klicken, um es anzulegen, und nochmal
 klicken, um es zu entfernen. <w>Rechtsklicken</w> auf es wird seine
@@ -347,7 +347,7 @@ Eigenschaften zeigen.</localtiles>
 %%%%
 HINT_SEEN_MISC
 
-Dies ist in der Tat ein merkwürdiges Objekt. Ihr könnt damit herumspielen, um
+Dies ist in der Tat ein merkwürdiges Objekt. Du kannst damit herumspielen, um
 herauszufinden, was es bewirkt, indem Ihr es evoziert mit
 (<w>$cmd[CMD_EVOKE]</w>)<localtiles>, oder <w>Linksklick</w></localtiles>.
 Wie üblich, es im Inventar (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>) auszuwählen,
@@ -371,7 +371,7 @@ verwendet werden und wird von bestimmten Göttern geschätzt.
 %%%%
 HINT_SEEN_STAIRS
 
-Das<console> '$1'</console> ist eine Treppe nach unten. Ihr könnt die nächste
+Das<console> '$1'</console> ist eine Treppe nach unten. Du kannst die nächste
 (tiefere) Ebene eintreten, indem Ihr ihr nach unten folgen
 (<w>$cmd[CMD_GO_DOWNSTAIRS]</w>). Drückt <w>$cmd[CMD_GO_UPSTAIRS]</w>, während
 Ihr auf die Treppe nach oben stehen, um zu dieser Ebene zurückzukehren.
@@ -380,7 +380,7 @@ der Ihr steht, um sie zu benutzen.</localtiles>
 %%%%
 HINT_SEEN_ESCAPE_HATCH
 
-Das<console> '$1'</console> ist eine Fluchtluke. Ihr könnt damit eine Ebene
+Das<console> '$1'</console> ist eine Fluchtluke. Du kannst damit eine Ebene
 verlassen mit <w>$cmd[CMD_GO_UPSTAIRS]</w> bzw. <w>$cmd[CMD_GO_DOWNSTAIRS]</w>
 <localtiles> (oder durch <w>Linksklicken</w>)</localtiles>, genau wie mit
 Treppen. Im Gegensatz zu Treppen sind Luken jedoch eine Einwegreise, seiet Ihr
@@ -414,7 +414,7 @@ also beeilt dich.
 %%%%
 HINT_SEEN_PORTAL_2
 
-Ihr könnt ein Portal wie eine Treppe betreten, indem Ihr darauf steht und
+Du kannst ein Portal wie eine Treppe betreten, indem Ihr darauf steht und
 <localtiles><w>klickst</w> oder </localtiles><w>$cmd[CMD_GO_DOWNSTAIRS]</w>
 drückt. Um zurückzukehren, findet <tiles>ein ähnlich aussehendes Portal.</tiles>
 <console>ein weiteres $1 - aber NICHT den alten Steinbogen, an dem Ihr begonnen
@@ -480,7 +480,7 @@ Glauben annehmt, werdet Ihr um eine Bestätigung gebeten.
 %%%%
 HINT_SEEN_SHOP
 
-Das<console> $1</console> ist ein Laden. Ihr könnt ihn betreten, indem Ihr
+Das<console> $1</console> ist ein Laden. Du kannst ihn betreten, indem Ihr
 <w>$cmd[CMD_GO_UPSTAIRS]</w> oder <w>$cmd[CMD_GO_DOWNSTAIRS]</w>
 eintippt<tiles>, oder indem Ihr darauf <w>linksklickt</w></tiles>, während Ihr
 auf dem Platz steht.
@@ -492,7 +492,7 @@ daran erinnern, wenn Ihr genug Gold gesammelt habt, um es zu kaufen.
 %%%%
 HINT_SEEN_DOOR
 
-Das<console> $1</console> ist eine geschlossene Tür. Ihr könnt sie öffnen,
+Das<console> $1</console> ist eine geschlossene Tür. Du kannst sie öffnen,
 indem Ihr sie betretet. Manchmal ist es nützlich, eine Tür zu schließen.
 <nomouse>Dazu drückt Ihr <w>$cmd[CMD_CLOSE_DOOR]</w>, während Ihr neben der
 Tür steht. Wenn es mehrere Türen gibt, werdet Ihr dann aufgefordert, eine
@@ -526,7 +526,7 @@ Verbesserungen deiner Attribute: Stärke, Intelligenz und Geschicklichkeit.
 {{
     if crawl.hints_type() == "magic" then
         return "Mit dem Erreichen einer Erfahrungsstufe kannst du auch"
-               .. " schwierigere Zauber lernen. Ihr könnt einen zweiten Zauber"
+               .. " schwierigere Zauber lernen. Du kannst einen zweiten Zauber"
                .. " mit <w>$cmd[CMD_MEMORISE_SPELL]</w><tiles> oder durch"
                .. " <w>linksklicken</w> auf den Zauber im Memorisierungs-Tab"
                .. "</tiles> memorieren."
@@ -581,13 +581,13 @@ HINT_YOU_ENCHANTED
 
 Verzauberungen aller Art können dich vorübergehend heimsuchen. Kurze
 Beschreibungen dazu erscheinen am unteren Ende des Statistikbereichs. Drückt
-<w>$cmd[CMD_DISPLAY_CHARACTER_STATUS]</w> für weitere Details. Ihr könnt nach
+<w>$cmd[CMD_DISPLAY_CHARACTER_STATUS]</w> für weitere Details. Du kannst nach
 vollständigen Beschreibungen von Verzauberungen suchen, indem Ihr
 <w>$cmd[CMD_DISPLAY_COMMANDS]/T</w> drückt.
 %%%%
 HINT_YOU_POISON
 
-Gift wird deine Gesundheit schnell verringern. Ihr könnt es mit
+Gift wird deine Gesundheit schnell verringern. Du kannst es mit
 <w>$cmd[CMD_REST]</w> abwarten, aber wenn Ihr dich im Kampf befindet oder
 tödlich vergiftet seid, solltet Ihr lieber einen Trank des Gegenmittels zu
 dich nehmen.
@@ -637,7 +637,7 @@ interessantes Dungeonmerkmal (Treppe, Altar usw.) trifft.
 %%%%
 HINT_DONE_EXPLORE
 
-Hey, du hast die Erkundung des Dungeons in diesem Level beendet! Ihr könnt
+Hey, du hast die Erkundung des Dungeons in diesem Level beendet! Du kannst
 auf der Levelkarte (<w>$cmd[CMD_DISPLAY_MAP]</w>) nach Treppen suchen, indem
 Ihr <w>></w> drückt. Der Cursor springt zur nächstgelegenen Treppe, und durch
 Drücken von <w>.</w> oder <w>Enter</w> kann sich dein Charakter auch dorthin
@@ -655,7 +655,7 @@ vereinfachen, werden einige unbewegliche Monster, die in der Option
 <w>auto_exclude</w> aufgelistet sind (wie dieses hier), als gefährlich genug
 angesehen, um eine automatische Einstellung eines Ausschlusses zu
 rechtfertigen. Sie wird automatisch aufgehoben, wenn es dich gelingt, das
-Monster zu töten. Ihr könnt den Ausschluss auch manuell mit
+Monster zu töten. Du kannst den Ausschluss auch manuell mit
 <w>$cmd[CMD_DISPLAY_MAP]ee</w> entfernen, aber wenn Ihr das Monster nicht aus
 der auto_exclude-Liste entfernt, wird der Ausschluss in der nächsten Runde
 wiederhergestellt.
@@ -855,12 +855,12 @@ Ihr den Zorn des einen oder anderen Gottes ertragen müsst.
 %%%%
 HINT_SWITCH_WEAPONS_A_AND_B
 
-Ihr könnt einfach zwischen den Waffen in den Slots a und b wechseln, indem Ihr
+Du kannst einfach zwischen den Waffen in den Slots a und b wechseln, indem Ihr
 <w>$cmd[CMD_WEAPON_SWAP]</w> drückt.
 %%%%
 HINT_SWITCH_BACK_TO_WEAPON_A
 
-Ihr könnt ganz einfach zu deiner Waffe in Slot a zurückkehren, indem Ihr
+Du kannst ganz einfach zu deiner Waffe in Slot a zurückkehren, indem Ihr
 <w>$cmd[CMD_WEAPON_SWAP]</w> drückt. Um den Slot eines Gegenstandes zu
 ändern, drückt <w>$cmd[CMD_ADJUST_INVENTORY]i</w> und wählt die
 entsprechenden Slots.
@@ -882,10 +882,10 @@ Monstern irgendwo auf dem Bildschirm.
 %%%%
 HINT_LEARN_ABOUT_MONSTERS
 
-<tiles>Ihr könnt etwas über jedes Monster erfahren, indem Ihr mit der Maus
+<tiles>Du kannst etwas über jedes Monster erfahren, indem Ihr mit der Maus
 darüber fährst und seine Beschreibung lest, indem Ihr <w>rechtsklickt</w> auf
 es.</tiles>
-<nomouse> Ihr könnt Informationen über das Monster erhalten, indem Ihr
+<nomouse> Du kannst Informationen über das Monster erhalten, indem Ihr
 <w>$cmd[CMD_LOOK_AROUND]</w> drückt und den Cursor über das Monster bewegt
 und die Beschreibung des Monsters lest, indem Ihr dann
 <w>$cmd[CMD_TARGET_DESCRIBE]</w> drückt.</nomouse>
@@ -926,7 +926,7 @@ findet Ihr eine Erklärung, wie Ihr das machen könnt.
 HINT_FLEEING_MONSTER
 
 Jetzt hat das Monster Angst vor dir! Beachtet, dass Ihr ihm nicht unbedingt
-folgen müsst. Ihr könnt es weglaufen lassen. Manchmal kann es aber nützlich
+folgen müsst. Du kannst es weglaufen lassen. Manchmal kann es aber nützlich
 sein, eine fliehende Kreatur anzugreifen, indem Ihr etwas hinterherwirft. Wenn
 Ihr irgendwelche Steine in deinem Inventar (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>)
 habt, kannst du dich einen davon ansehen, um eine Erklärung zu lesen, wie man
@@ -945,7 +945,7 @@ HINT_MONSTER_FRIENDLY
 Dieses Monster ist dich freundlich gesinnt und wird deine Feinde angreifen,
 allerdings erhältet Ihr nur einen Teil der Erfahrung für Monster, die von
 Verbündeten beschädigt wurden, im Vergleich zu dem, was Ihr bekommen würdet,
-wenn Ihr die ganze Arbeit selbst machen würdet. Ihr könnt deinen Verbündeten
+wenn Ihr die ganze Arbeit selbst machen würdet. Du kannst deinen Verbündeten
 Befehle geben, indem Ihr <w>$cmd[CMD_SHOUT]</w> drückt.
 %%%%
 HINT_TEMPORARILY_FRIENDLY
@@ -1067,7 +1067,7 @@ Erfahrungsstufe wächst und vor vielen magischen Effekten schützt, und die
 spezifischen Resistenzen gegen bestimmte andere Effekte, z. B. Feuer oder
 Auszehrung.
 
-Ihr könnt im Dungeon Gegenstände finden oder Mutationen erlangen, die eine
+Du kannst im Dungeon Gegenstände finden oder Mutationen erlangen, die eine
 oder mehrere eurer Resistenzen erhöhen (oder senken). Um eure aktuellen
 Resistenzen zu sehen, <localtiles><w>klickt mit der rechten Maustaste</w> auf
 den Spieler-Avatar oder </localtiles>drückt <w>$cmd[CMD_RESISTS_SCREEN]</w>.
@@ -1135,7 +1135,7 @@ Du hast etwas Neues entdeckt (aber ich weiß nicht was)!
 %%%%
 HINT_ABILITIES_SCREEN
 
-Diese Seite zeigt die Talente deines Charakters an. Ihr könnt neue Fähigkeiten
+Diese Seite zeigt die Talente deines Charakters an. Du kannst neue Fähigkeiten
 durch bestimmte Gegenstände, durch Religion oder durch Mutationen erlangen.
 Die Aktivierung einer Fähigkeit hat in der Regel ihren Preis, z.B. Magiekraft.
 Drückt '<w>!</w>' oder '<w>?</w>', um zwischen der Auswahl der Fähigkeit und
@@ -1147,7 +1147,7 @@ Diese Seite zeigt die Fertigkeiten deines Charakters an. Die Zahl neben der
 Fertigkeit ist die aktuelle Stufe, je höher, desto besser. <w>Training</w>
 zeigt den Prozentsatz des Trainings an. <w>Kosten</w> zeigt die relativen
 Trainingskosten an. <w>Ziele</w> zeigt die Trainingsziele der Fertigkeit an.
-Ihr könnt die zu trainierenden Fertigkeiten umschalten, indem Ihr auf die
+Du kannst die zu trainierenden Fertigkeiten umschalten, indem Ihr auf die
 entsprechenden Buchstaben drückt. Eine <darkgrey>graue</darkgrey> Fertigkeit
 wird nicht trainiert und erleichtert das Training der anderen.
 %%%%
@@ -1181,7 +1181,7 @@ um zur Fertigkeitsauswahl zurückzukehren.
 HINT_MEMORISE_SCREEN
 
 Diese Seite zeigt die Zaubersprüche in deiner Zauberbibliothek an. Von hier aus
-kannst du Zaubersprüche memorieren, indem Ihr sie auswählst, und Ihr könnt
+kannst du Zaubersprüche memorieren, indem Ihr sie auswählst, und du kannst
 dich Beschreibungen von Zaubersprüchen ansehen, nach ihnen suchen und sie
 organisieren. Als Zauberer beginnt man mit fünf memorierbaren Zaubern und
 einem bereits memoriert: Magischer Pfeil. (Um die memorierten Zaubersprüche zu
@@ -1196,7 +1196,7 @@ in diesem Menü auswählt.
 %%%%
 HINT_CANNOT_MEMORISE
 
-Ihr könnt zurzeit keine
+Du kannst zurzeit keine
 {{
     if table.getn(you.spell_letters()) > 0 then
         return "mehr"
@@ -1210,7 +1210,7 @@ HINT_CAST_SPELL
 Um Magie zu benutzen, <tiles>kannst du auf das Monster <w>linksklicken</w>,
 auf das Ihr zielen möchtet (oder auf deinen Spielercharakter, um einen Zauber
 auf dich selbst zu wirken), während Ihr <w>Strg</w> drückt, und dann einen
-Zauber aus dem Menü auswählen. Oder Ihr könnt in die Zauberanzeige wechseln,
+Zauber aus dem Menü auswählen. Oder du kannst in die Zauberanzeige wechseln,
 indem Ihr <w>auf den entsprechenden <w>Reiter</w> klickt.
 
 Alternativ </tiles> kannst du <w>$cmd[CMD_CAST_SPELL]</w> drücken und einen
@@ -1218,7 +1218,7 @@ Zauber wählen, z.B. <w>a</w> (mit <w>?</w> überprüfen). Für Angriffszauber:
 %%%%
 HINT_TARGET_MODE
 Ihr gelangt dann in den Zielmodus, in dem das nächstgelegene Monster oder das
-vorherige Ziel bereits anvisiert ist. Ihr könnt auch mit <w>+</w> oder
+vorherige Ziel bereits anvisiert ist. Du kannst auch mit <w>+</w> oder
 <w>-</w> durch alle feindlichen Monster in Sichtweite blättern. Sobald Ihr das
 richtige Monster anvisiert habt, drückt einfach <w>f</w>, <w>Enter</w> oder
 <w>.</w>, um es zu beschießen. Wenn Ihr nicht triffst, schießt <w>$1</w>
@@ -1276,7 +1276,7 @@ deinen Avatar.
 %%%%
 HINT_WIELD_WEAPON
 
-Ihr könnt diese Waffe mit <w>$cmd[CMD_WIELD_WEAPON]</w> führen, oder
+Du kannst diese Waffe mit <w>$cmd[CMD_WIELD_WEAPON]</w> führen, oder
 <w>$cmd[CMD_WEAPON_SWAP]</w> verwenden, um zwischen den Waffen in Slot a und b
 zu wechseln. (Verwendet <w>$[CMD_ADJUST_INVENTORY]i</w>, um die
 Gegenstand-Slots einzustellen.)
@@ -1419,7 +1419,7 @@ steigt schneller auf, bis Ihr den Inhalt des Handbuchs aufgebraucht habt.
 %%%%
 HINT_DESCRIBE_SPELLBOOK
 
-Ihr könnt ein Zauberbuch in die Hand nehmen, um die darin enthaltenen
+Du kannst ein Zauberbuch in die Hand nehmen, um die darin enthaltenen
 Zaubersprüche zu deiner Zauberbibliothek hinzuzufügen. (Deine Zauberbibliothek
 kannst du mit <w>$cmd[CMD_MEMORISE_SPELL]</w> anschauen.)
 %%%%
@@ -1443,7 +1443,7 @@ Avatar</tiles>.
 HINT_MAGICAL_STAFF_WITH_TROG
 
 Da Trog den Einsatz von Magie missbilligt, wird dich dieser Stab wenig nützen
-und Ihr könnt ihn genauso gut jetzt mit <w>$cmd[CMD_DROP]</w> fallen lassen.
+und du kannst ihn genauso gut jetzt mit <w>$cmd[CMD_DROP]</w> fallen lassen.
 %%%%
 HINT_DESCRIBE_MISCELLANEOUS_ITEM
 
@@ -1479,7 +1479,7 @@ körperlose Wesen und verschiedene Schlamme).
 %%%%
 HINT_DESCRIBE_DOWNSTAIRS
 
-Ihr könnt die nächste (tiefere) Ebene betreten, indem Ihr ihnen nach unten
+Du kannst die nächste (tiefere) Ebene betreten, indem Ihr ihnen nach unten
 folgst (<w>$cmd[CMD_GO_DOWNSTAIRS]</w>). Um wieder auf diese Ebene zu gelangen,
 drückt Ihr <w>$cmd[CMD_GO_UPSTAIRS]</w>, während Ihr auf der Treppe nach oben
 steht.<tiles> In Tiles kannst du das Gleiche in beide Richtungen erreichen,
@@ -1497,7 +1497,7 @@ Zot nach draußen zu bringen.
 %%%%
 HINT_DESCRIBE_UPSTAIRS
 
-Ihr könnt die vorherige (flachere) Ebene betreten, indem Ihr ihnen nach oben
+Du kannst die vorherige (flachere) Ebene betreten, indem Ihr ihnen nach oben
 folgst (<w>$cmd[CMD_GO_UPSTAIRS]</w>). Dies ist ideal, um sich zurückzuziehen
 oder einen sicheren Ruheplatz zu finden, da es auf der vorherigen Ebene weniger
 Monster gibt und die Monster auf dieser Ebene dich nicht nach oben folgen
@@ -1542,7 +1542,7 @@ zusätzliche Frömmigkeit gewährt.
 # $1 = altar god
 HINT_DESCRIBE_NONFADED_ALTAR_ATHEIST
 
-Ihr könnt Informationen über {acc}<w>$1</w> erhalten, indem Ihr
+Du kannst Informationen über {acc}<w>$1</w> erhalten, indem Ihr
 <w>$cmd[CMD_GO_DOWNSTAIRS]</w> drückt, während Ihr auf dem Altar stehst.
 Bevor Ihr den antwortenden Glauben annimmst, werdet Ihr um eine Bestätigung
 gebeten.
@@ -1588,12 +1588,12 @@ $1 sind harmlos.
 HINT_DESCRIBE_HARMFUL_CLOUD_SINGULAR
 
 $1 ist wahrscheinlich gefährlich, und Ihr solltet dich davon fernhalten, wenn
-Ihr könnt.
+du kannst.
 %%%%
 HINT_DESCRIBE_HARMFUL_CLOUD_PLURAL
 
 $1 sind wahrscheinlich gefährlich, und Ihr solltet dich davon fernhalten, wenn
-Ihr könnt.
+du kannst.
 %%%%
 HINT_DESCRIBE_CURRENTLY_HARMLESS_CLOUD_SINGULAR
 
@@ -1659,7 +1659,7 @@ solcher Blutrausch macht es besonders gefährlich!
 HINT_DESCRIBE_FRIENDLY_MONSTER
 
 Freundliche Monster werden dich folgen und versuchen, dich im Kampf zu
-unterstützen. Ihr könnt Verbündeten in der Nähe Befehle erteilen, indem Ihr
+unterstützen. Du kannst Verbündeten in der Nähe Befehle erteilen, indem Ihr
 mit ihnen sprichst (<w>$cmd[CMD_SHOUT]</w>).
 %%%%
 HINT_DESCRIBE_TEMPORARILY_FRIENDLY_MONSTER
@@ -1669,7 +1669,7 @@ wenn diese Freundlichkeit nachlässt.
 %%%%
 HINT_DESCRIBE_UNAWARE_MONSTER
 
-Ihr könnt sein Feld ganz einfach als gefährlich markieren, um zu vermeiden,
+Du kannst sein Feld ganz einfach als gefährlich markieren, um zu vermeiden,
 dass Ihr versehentlich in sein Sichtfeld geratet, wenn Ihr die automatische
 Erkundung oder die automatische Reise verwendet. Geht dazu mit
 <w>$cmd[CMD_LOOK_AROUND]</w> in den Zielmodus und drückt dann

@@ -31,14 +31,14 @@ blaue Feld erreicht.
 tutorial1 diagonal
 
 :nowrap
-Ihr könnt dich diagonal bewegen indem Ihr den <input>Nummern-Block</input> (versucht Numlock an/aus) oder die <input>Vorgabe-Tasten</input> benutzt.
+Du kannst dich diagonal bewegen indem Ihr den <input>Nummern-Block</input> (versucht Numlock an/aus) oder die <input>Vorgabe-Tasten</input> benutzt.
 Num-Block:      <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cmd[CMD_MOVE_UP] $cmd[CMD_MOVE_UP_RIGHT]</w>
                  \|/                         \|/
                 <w>4</w>-<w>.</w>-<w>6</w>                       <w>$cmd[CMD_MOVE_LEFT]</w>-<w>.</w>-<w>$cmd[CMD_MOVE_RIGHT]</w>
                  /|\                         /|\
                 <w>1 2 3</w>                       <w>$cmd[CMD_MOVE_DOWN_LEFT] $cmd[CMD_MOVE_DOWN] $cmd[CMD_MOVE_DOWN_RIGHT]</w>
 
-<localtiles>Ihr könnt dich auch mit <input>Maus klicks</input> bewegen.</localtiles>
+<localtiles>Du kannst dich auch mit <input>Maus klicks</input> bewegen.</localtiles>
 %%%%
 tutorial1 shiftmove
 
@@ -111,7 +111,7 @@ Denke auch daran das Ihr ältere Nachrichten mit
 %%%%
 tutorial1 door
 
-Ihr könnt eine geschlossene Tür öffnen indem Ihr in sie hinein geht.
+Du kannst eine geschlossene Tür öffnen indem Ihr in sie hinein geht.
 %%%%
 tutorial1 close_door
 
@@ -188,7 +188,7 @@ sie zu dir vordringen.
 %%%%
 tutorial2 resting_reminder
 
-Danke daran, Ihr könnt dich mit <input>$cmd[CMD_REST]</input> ausruhen.
+Danke daran, du kannst dich mit <input>$cmd[CMD_REST]</input> ausruhen.
 %%%%
 tutorial2 compare_monster_desc
 
@@ -202,7 +202,7 @@ mit der nächsten Ebene mit <input>$cmd[CMD_GO_DOWNSTAIRS]</input>.
 %%%%
 tutorial2 newlevel
 
-Denke daran: Ihr könnt alte Mitteilungen mit
+Denke daran: Du kannst alte Mitteilungen mit
 <input>$cmd[CMD_REPLAY_MESSAGES]</input> noch einmal lesen.
 %%%%
 tutorial2 darts
@@ -213,7 +213,7 @@ fahre fort.
 %%%%
 tutorial2 throwing
 
-Ihr könnt deine Darts mit <input>$cmd[CMD_FIRE]</input> abfeuern<localtiles>
+Du kannst deine Darts mit <input>$cmd[CMD_FIRE]</input> abfeuern<localtiles>
 oder diese in deinem Inventar <input>anklicken</input></localtiles>. Um das
 Ziel des automatisch anvisierten Monsters zu bestätigen drücke
 <input>$cmd[CMD_TARGET_SELECT]</input> oder <input>Eingabe</input>.
@@ -228,7 +228,7 @@ tutorial2 firing
 
 Pfeile mit deinem ausgerüsteten Bogen abzuschießen funktioniert genauso wie
 Darts werfen: mittels <input>$cmd[CMD_FIRE]</input><localtiles> oder
-<input>mouseclick</input></localtiles>. Ihr könnt das anvisierte Monster mit
+<input>mouseclick</input></localtiles>. Du kannst das anvisierte Monster mit
 <input>$cmd[CMD_TARGET_CYCLE_FORWARD]</input> wechseln wenn Ihr im Ziel-Modus
 seid. Der Wurm ist harmlos, denn er befindet sich hinter der Lava, deswegen
 konzentriere dich auf die Übungspuppe, welche auf dich schießen kann. Bestätige
@@ -256,7 +256,7 @@ tutorial2 exit
 <yellow>Waffen<console> <cyan>)</cyan></console></yellow>
   <input>$cmd[CMD_PICKUP]</input>  Gegenstand aufheben
   <input>$cmd[CMD_WIELD_WEAPON]</input>  eine Waffe ausrüsten<localtiles>
-  Ihr könnt dies auch mit einem <input>Klick</input> auf die Waffe in deinem Inventar-Feld ausführen.</localtiles>
+  Du kannst dies auch mit einem <input>Klick</input> auf die Waffe in deinem Inventar-Feld ausführen.</localtiles>
 
 <yellow>Monster</yellow><localtiles>
   <input>Maus-Drüber</input>  ein Monster untersuchen
@@ -265,7 +265,7 @@ tutorial2 exit
   <input>$cmd[CMD_LOOK_AROUND]$cmd[CMD_TARGET_DESCRIBE]</input> lies eine detailliertere Beschreibung</nomouse>
   <input>$cmd[CMD_FIRE]$cmd[CMD_TARGET_SELECT]</input> feuere Munition auf ein vorabgewähltes Monster ab
   <input>$cmd[CMD_FIRE]$cmd[CMD_TARGET_CYCLE_FORWARD]</input> visiere ein anderes Monster an<localtiles>
-  Ihr könnt einen Gegenstand auch mit einem <input>klick</input> darauf abfeuern und das Ziel mit <input>Eingabe</input> bestätigen.</localtiles>
+  Du kannst einen Gegenstand auch mit einem <input>klick</input> darauf abfeuern und das Ziel mit <input>Eingabe</input> bestätigen.</localtiles>
 
 <yellow>Rasten</yellow>
   <input>$cmd[CMD_WAIT]</input>  warte und raste eine einzige Runde
@@ -298,7 +298,7 @@ mit <input>$cmd[CMD_READ]</input><localtiles> oder mit einem
 tutorial3 scroll_noautopickup
 
 Automatisches Einsammeln funktioniert nicht wenn ein Monster in der Nähe ist.
-Ihr könnt diese Schriftrolle entweder mit <input>$cmd[CMD_PICKUP]</input>
+Du kannst diese Schriftrolle entweder mit <input>$cmd[CMD_PICKUP]</input>
 <localtiles> oder durch <input>klicken</input> auf deinen Charakter
 aufheben.</localtiles> Oder Ihr bekämpft das sich nähernde Monster und hebt
 sie danach auf.
@@ -337,7 +337,7 @@ der Befehls-Hilfe mit <input>$cmd[CMD_DISPLAY_COMMANDS]</input> ansehen.
 %%%%
 tutorial3 potion
 
-Ihr könnt einen dieser Tränke mit <input>$cmd[CMD_QUAFF]</input><localtiles>
+Du kannst einen dieser Tränke mit <input>$cmd[CMD_QUAFF]</input><localtiles>
 oder mit einem <input>Maus-Klick</input></localtiles> trinken.
 %%%%
 tutorial3 artefact_armour
@@ -351,7 +351,7 @@ und haben unbekannte Eigenschaften. Versuche diesen Umhang mit
 %%%%
 tutorial3 wand_fire
 
-Ihr könnt die Macht eines Zauberstabes hervorrufen wenn Ihr
+Du kannst die Macht eines Zauberstabes hervorrufen wenn Ihr
 <input>$cmd[CMD_EVOKE]</input> drückt<localtiles>, oder mit einem
 <input>Mausklick</input> im Inventar-Feld</localtiles>.
 %%%%
@@ -393,11 +393,11 @@ Um das Geschäft zu betreten drücke <input>$cmd[CMD_GO_UPSTAIRS]</input>
 <localtiles> oder <input>Shift-Linksklick</input> auf deinen
 Charakter</localtiles>. Um Gegenstände zu kaufen wähle sie über ihre Buchstaben
 aus, drücke <input>Eingabe</input> und bestätige mit <input>y</input>es (ja).
-Ihr könnt in den Beschreibungs-Modus mit <input>!</input> wechseln.
+Du kannst in den Beschreibungs-Modus mit <input>!</input> wechseln.
 %%%%
 tutorial3 autoexplore_reminder
 
-Denke daran, Ihr könnt die Ebene automatisch erkunden, benutze dazu
+Denke daran, du kannst die Ebene automatisch erkunden, benutze dazu
 <input>$cmd[CMD_EXPLORE]</input><localtiles> oder <input>Klicke</input> den
 Auto-Erforschen Befehls-Knopf im <w>Befehls-Feld</w></localtiles>.
 %%%%
@@ -406,7 +406,7 @@ tutorial3 go_shopping
 Du hast genug Gold um ernsthaft einkaufen zu gehen. Der schnellste Weg zurück
 zum Laden ist, indem man nach ihm sucht. Gebe
 <input>$cmd[CMD_SEARCH_STASHES]</input> ein, und dann „<w>shop</w>“. Wähle das
-Resultat aus und beginne die Reise.<localtiles> Ihr könnt auch der Suchen-Knopf
+Resultat aus und beginne die Reise.<localtiles> Du kannst auch der Suchen-Knopf
 im Befehls-Feld <input>anklicken</input>, oder die Mini-Karte nutzen um zum
 Laden zurück zu gelangen.</localtiles>
 %%%%
@@ -453,7 +453,7 @@ In dieser Lehre seid Ihr dabei zu erfahren, wie man erlernt und Zauber wirft.
 %%%%
 tutorial4 spellcasting
 
-Ihr könnt Zauber mit <input>$cmd[CMD_CAST_SPELL]</input><localtiles> oder
+Du kannst Zauber mit <input>$cmd[CMD_CAST_SPELL]</input><localtiles> oder
 durch Anklicken <input>klicken</input> auf den Zauber Fliesen </localtiles>
 gegossen. Drücke <input>$cmd[CMD_CAST_SPELL]?</input>, um eine Liste deiner
 Zauber erhalten.
@@ -471,7 +471,7 @@ Setze diesen Ring auf, mit <input>$cmd[CMD_WEAR_JEWELLERY]</input>
 tutorial4 undead
 
 Im Gegensatz zu den meisten Monstern regenerieren Zombies und Skelette keine Gesundheit.
-<localtiles> Ihr könnt auch versuchen, den zuletzt verwendeten Zauberspruch
+<localtiles> Du kannst auch versuchen, den zuletzt verwendeten Zauberspruch
 erneut zu wirken, indem Ihr <input>Strg + Linksklick</input> auf das
 Monster drückt.</localtiles>
 %%%%
@@ -485,7 +485,7 @@ diesem Stab.
 %%%%
 tutorial4 mephitic_cloud
 
-Mephistische Wolke ist ein Zauberspruch der Stufe 3. Ihr könnt dich diesen
+Mephistische Wolke ist ein Zauberspruch der Stufe 3. Du kannst dich diesen
 Zauberspruch noch nicht einprägen. Um schneller in der Stufe aufzusteigen, sind
 hier noch ein einige Trainingspuppen —  dieses Mal ohne Steine zum Werfen.
 
@@ -525,7 +525,7 @@ eine Zauberkachel</localtiles>. Und dann erhebe deine Armee von Untoten!
 %%%%
 tutorial4 displace_allies
 
-Habt Ihr bemerkt, Ihr könnt die Position mit deinen Verbündeten tauschen, indem
+Habt Ihr bemerkt, du kannst die Position mit deinen Verbündeten tauschen, indem
 Ihr in sie hinein lauft? Unter anderem kann das Verschieben eines freundlichen
 Wesens ein guter Weg sein, um einem Kampf zu entkommen.
 %%%%

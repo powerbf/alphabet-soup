@@ -78,7 +78,7 @@ sofort mit Tränken des Gegenmittels geheilt werden.
 %%%%
 Conf status
 
-Du bist verwirrt. Ihr könnt in eine zufällige Richtung stolpern, wenn Ihr
+Du bist verwirrt. Du kannst in eine zufällige Richtung stolpern, wenn Ihr
 versucht, dich zu bewegen oder anzugreifen, und könnt weder Zauber wirken noch
 die meisten Gegenstände außer Tränken verwenden. Verwirrung kann sofort durch
 Tränke des Gegenmittels geheilt werden.
@@ -98,7 +98,7 @@ allmählich, wenn Ihr Erfahrung sammelt.
 %%%%
 Breath status
 
-dich stockt der Atem, und Ihr könnt deine angeborene Atemfähigkeit nicht nutzen,
+Dich stockt der Atem, und du kannst deine angeborene Atemfähigkeit nicht nutzen,
 bis der Status abläuft.
 %%%%
 Exh status
@@ -121,13 +121,13 @@ auf.
 %%%%
 Held status
 
-Du bist in einem Netz oder Spinnennetz gefangen. Ihr könnt dich nicht frei
+Du bist in einem Netz oder Spinnennetz gefangen. Du kannst dich nicht frei
 bewegen und werdet stattdessen versuchen, dich zu befreien.
 %%%%
 Constr status
 
 Du bist von einem Feind umschlungen und erleiden mit der Zeit immer mehr
-Schaden. Ihr könnt dich nicht vom Feind wegbewegen (oder blinzeln), obwohl Ihr
+Schaden. Du kannst dich nicht vom Feind wegbewegen (oder blinzeln), obwohl Ihr
 versuchen könnt, zu entkommen, indem Ihr dies versucht, und wenn Ihr dies
 mehrmals versucht, wird die Wahrscheinlichkeit, dass Ihr Erfolg habt und die
 Umschlingung durchbrecht, immer größer.
@@ -151,7 +151,7 @@ Du bist verhindert, dich zu teleportieren oder blinzeln.
 %%%%
 -Move status
 
-Ihr könnt dich nicht bewegen, blinzeln oder teleportieren. (Ihr könnt weiterhin
+Du kannst dich nicht bewegen, blinzeln oder teleportieren. (Du kannst weiterhin
 andere Aktionen ausführen.)
 %%%%
 Mark status
@@ -411,7 +411,7 @@ nicht erneut wirken.
 %%%%
 -Potion status
 
-Ihr könnt keine Zaubertränke trinken.
+Du kannst keine Zaubertränke trinken.
 %%%%
 rF+ status
 
@@ -432,7 +432,7 @@ Genauigkeit im Kampf und die Kraft deiner Zauber verringert.
 %%%%
 -Scroll status
 
-Ihr könnt keine Schriftrollen lesen.
+Du kannst keine Schriftrollen lesen.
 %%%%
 Cleave status
 
@@ -461,7 +461,7 @@ Ihr schwer verletzt seid.
 %%%%
 -Cast status
 
-Ihr könnt keine Zauber wirken.
+Du kannst keine Zauber wirken.
 %%%%
 Channel status
 
@@ -469,7 +469,7 @@ Ihr kanalisiert magische Energie.
 %%%%
 Spider status
 
-Ihr wurdet in eine giftige, spinnenartige Kreatur verwandelt. Ihr könnt sehr gut
+Ihr wurdet in eine giftige, spinnenartige Kreatur verwandelt. Du kannst sehr gut
 ausweichen und habt einen giftigen Biss, werdet aber anfällig für Gift. Alle
 ausgerüsteten Waffen und Rüstungen sind verschmolzen und deine Erfolgsrate bei
 Zaubersprüchen ist leicht reduziert.
@@ -545,7 +545,7 @@ Bat status
 Ihr wurdet in eine flinke Fledermaus verwandelt, was deine Ausweichfähigkeit
 erhöht, aber deine Nahkampfangriffe erheblich schwächt.
 
-Alle ausgerüsteten Waffen, Rüstungen und Ringe sind verschmolzen und Ihr könnt
+Alle ausgerüsteten Waffen, Rüstungen und Ringe sind verschmolzen und du kannst
 keine Zauber. {{
     if you.race() ~= "Vampire" then
         return "Die Wirksamkeit deiner Nahkampfangriffe während in dieser " ..
@@ -558,7 +558,7 @@ Pig status
 
 Ihr wurdet in ein Schwein verwandelt. Ihr bewegr dich schnell, seid aber im
 Nahkampf weniger effektiv. Alle ausgerüsteten Waffen, Rüstungen und Ringe sind
-verschmolzen und Ihr könnt keine Zauber wirken. Die Effektivität deiner
+verschmolzen und du kannst keine Zauber wirken. Die Effektivität deiner
 Nahkampfangriffe in dieser Form basiert auf deinem Erfahrungsstufe und nicht auf
 deiner Fertigkeit im waffenlosen Kampf.
 %%%%
@@ -578,7 +578,7 @@ App status
 %%%%
 Tree status
 
-Ihr wurdet in einen Baum verwandelt und seid am Boden festgewurzelt. Ihr könnt
+Ihr wurdet in einen Baum verwandelt und seid am Boden festgewurzelt. Du kannst
 dich nicht bewegen oder teleportieren. Du hast nur minimale
 Ausweichmöglichkeiten, aber mehr Gesundheit und natürliche Rüstung. Du bist
 resistent gegen Gift und immun gegen negative Energie.
@@ -604,7 +604,7 @@ ausweichend und könnt Sporen freisetzen, die bei Nahkampfangriffen Verwirrung
 stiften, können sich jedoch nicht bewegen, wenn feindliche Kreaturen anwesend
 sind. Du bist resistent gegen Gift und immun gegen negative Energie.
 
-Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen und Ihr könnt keine
+Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen und du kannst keine
 Zauber wirken. Die Wirksamkeit deiner Nahkampfangriffe in dieser Form basiert auf
 deiner Erfahrungsstufe und nicht auf deiner Fertigkeit im waffenlosen Kampf.
 %%%%
@@ -627,7 +627,7 @@ positioniert und verfallen schneller.
 %%%%
 -Hop status
 
-Deine Beine sind müde und Ihr könnt nicht hüpfen. Dieser Zustand wird erst
+Deine Beine sind müde und du kannst nicht hüpfen. Dieser Zustand wird erst
 aufgehoben, wenn Ihr mehrere Runden lang nicht in Bewegung seid. (Andere
 Aktionen wie Angreifen oder Zaubern sind in Ordnung.)
 %%%%
@@ -667,7 +667,7 @@ Ihr erhaltet Zauber- und Tötungsboni, die mit deiner Gesundheit skalieren.
 %%%%
 Beogh status
 
-Ihr könnt Beogh, dem Gott der Höhlenorks, durch einen Priester in der Nähe Treue
+Du kannst Beogh, dem Gott der Höhlenorks, durch einen Priester in der Nähe Treue
 schwören. Drückt dazu im Fähigkeitsmenü die Taste <white>Y</white>.
 %%%%
 Bloodless status
