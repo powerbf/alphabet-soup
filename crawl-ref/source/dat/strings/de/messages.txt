@@ -10451,10 +10451,10 @@ This wall is too hard to dig through.
 Diese Wand ist zu schwer zum Durchgraben.
 %%%%
 You %s carefully through the fungus.
-Ihr {verb-ihr}%s vorsichtig durch den Pilz.
+Du {verb-du}%s vorsichtig durch den Pilz.
 %%%%
 You %s carefully through the plants.
-Ihr {verb-ihr}%s vorsichtig durch die Pflanzen.
+Du {verb-du}%s vorsichtig durch die Pflanzen.
 %%%%
 You can't dig through that.
 Das kannst du nicht durchgraben.
@@ -13606,16 +13606,16 @@ You are unable to make a sound!
 Du kannst kein Geräusch machen!
 %%%%
 You %s your recitation at %s!
-Ihr {verb-ihr}%s deine Rezitation {dat}%s entgegen.
+Du {verb-du}%s deine Rezitation {dat}%s entgegen.
 %%%%
 You %s at %s!
-Ihr {verb-ihr}%s {acc}%s an.
+Du {verb-du}%s {acc}%s an.
 %%%%
 You %s wildly!
-Ihr {verb-ihr}%s wie wild!
+Du {verb-du}%s wie wild!
 %%%%
 You %s for attention!
-Ihr {verb-ihr}%s nach Aufmerksamkeit!
+Du {verb-du}%s nach Aufmerksamkeit!
 %%%%
 
 ##################

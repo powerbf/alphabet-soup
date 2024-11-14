@@ -109,44 +109,44 @@ laufen
 # NOTE: In German, we are using "du" for "you", so we must conjugate accordingly.
 
 %%%%
-{verb-ihr}walk
+{verb-du}walk
 gehst
 %%%%
-{verb-ihr}step
+{verb-du}step
 trittst
 %%%%
-{verb-ihr}fly
+{verb-du}fly
 fliegst
 %%%%
-{verb-ihr}swim
+{verb-du}swim
 schwimmst
 %%%%
-{verb-ihr}crawl
+{verb-du}crawl
 kriechst
 %%%%
 # naga
-{verb-ihr}slither
+{verb-du}slither
 schlitterst
 %%%%
 # octopode
-{verb-ihr}wriggle
+{verb-du}wriggle
 schlängelst
 %%%%
 # tengu
-{verb-ihr}glide
+{verb-du}glide
 gleitest
 %%%%
 # vine stalker
-{verb-ihr}stalk
+{verb-du}stalk
 pirschest
 %%%%
-{verb-ihr}passwall
+{verb-du}passwall
 wandpasst
 %%%%
-{verb-ihr}shadow step
+{verb-du}shadow step
 schattenschreitest
 %%%%
-{verb-ihr}rampage
+{verb-du}rampage
 randalierst
 %%%%
 
