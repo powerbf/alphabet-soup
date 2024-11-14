@@ -2385,13 +2385,13 @@ Du beginnst, den Zauber zu memorieren.
 %%%%
 # Passwall spell - prpearing to merge oneself with the wall
 You begin to meditate on the wall.
-Ihr fangt an, über die Wand zu meditieren.
+Du fängst an, über die Wand zu meditieren.
 %%%%
 You begin to dig a shaft.
-Ihr fangt an, einen Schacht zu graben.
+Du fängst an, einen Schacht zu graben.
 %%%%
 You begin bloodletting.
-Ihr fangt an Blut zu lassen.
+Du fängst an Blut zu lassen.
 %%%%
 You begin the revivification ritual.
 Du beginnst das Wiederbelebungsritual.
@@ -7607,10 +7607,10 @@ You travel at normal speed.
 Ihr geht mit normaler Geschwindigkeit.
 %%%%
 You start waiting.
-Ihr fangt an zu warten.
+Du fängst an zu warten.
 %%%%
 You start resting.
-Ihr fangt an dich auszuruhen.
+Du fängst an dich auszuruhen.
 %%%%
 Move the cursor to view the level map, or type <w>?</w> for a list of commands.
 Den Cursor bewegen, um die Ebenekarte anzuzeigen, oder <w>?</w> eingeben für eine Liste der Befehle.
@@ -14379,7 +14379,7 @@ Eine Wurzel erschlägt {acc}@foe@ von unten
 %s wird geblendet.
 %%%%
 You begin to radiate toxic energy.
-Ihr fangt an, giftige Energie auszustrahlen.
+Du fängst an, giftige Energie auszustrahlen.
 %%%%
 Your toxic radiance grows in intensity.
 Deine giftige Ausstrahlung nimmt an Intensität zu.
@@ -15207,7 +15207,7 @@ Malign forces permeate your being, awaiting release.
 Bösartige Kräfte durchdringen dein Wesen und warten auf ihre Freilassung.
 %%%%
 You begin recalling your allies.
-Ihr fangt an, dich an deine Verbündeten zu erinnern.
+Du fängst an, dich an deine Verbündeten zu erinnern.
 %%%%
 Nothing appears to have answered your call.
 Nichts scheint auf deinen Anruf geantwortet zu haben.
@@ -15701,7 +15701,7 @@ Your surroundings suddenly seem different.
 Deine Umgebung scheint plötzlich anders zu sein.
 %%%%
 You begin teleporting projectiles to their destination.
-Ihr fangt an, Geschosse an ihr Ziel zu teleportieren.
+Du fängst an, Geschosse an ihr Ziel zu teleportieren.
 %%%%
 You renew your portal.
 Ihr erneuert dein Portal.
