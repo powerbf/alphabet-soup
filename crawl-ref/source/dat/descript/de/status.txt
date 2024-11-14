@@ -469,7 +469,7 @@ Ihr kanalisiert magische Energie.
 %%%%
 Spider status
 
-Ihr wurdet in eine giftige, spinnenartige Kreatur verwandelt. Du kannst sehr gut
+Du wurdest in eine giftige, spinnenartige Kreatur verwandelt. Du kannst sehr gut
 ausweichen und habt einen giftigen Biss, werdet aber anfällig für Gift. Alle
 ausgerüsteten Waffen und Rüstungen sind verschmolzen und deine Erfolgsrate bei
 Zaubersprüchen ist leicht reduziert.
@@ -482,7 +482,7 @@ und deine Erfolgsrate mit Zaubern ist etwas reduziert.
 %%%%
 Statue status
 
-Ihr wurdet in eine langsame, aber extrem robuste Steinstatue verwandelt. dein
+Du wurdest in eine langsame, aber extrem robuste Steinstatue verwandelt. dein
 Nahkampfschaden, sowohl unbewaffnet als auch mit Waffen, ist erheblich erhöht.
 Dein Steinkörper ist von Elektrizität isoliert und resistent gegen Gift und
 negative Energie. Alle ausgerüsteten Körperpanzer, Handschuhe und Stiefel sind
@@ -490,7 +490,7 @@ verschmolzen.
 %%%%
 Ice status
 
-Ihr wurdet in eine gefrorene Eiskreatur verwandelt, die leicht genug ist, um auf
+Du wurdest in eine gefrorene Eiskreatur verwandelt, die leicht genug ist, um auf
 dem Wasser zu schwimmen. Ihr erhaltet einen eisigen Nahkampfangriff und seid
 unglaublich kälteresistent und resistent gegen Gift, aber anfällig für Feuer.
 Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen.
@@ -498,7 +498,7 @@ Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen.
 Dragon status
 
 {{
-    local desc = "Ihr wurdet in einen mächtigen"
+    local desc = "Du wurdest in einen mächtigen"
 
     if you.race():find("Draconian") then
         desc = desc .. " Drache verwandelt"
@@ -534,7 +534,7 @@ Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen.
 %%%%
 Lich status
 
-Ihr wurdet in einen Lich verwandelt. Du bist resistent gegen Kälte und
+Du wurdest in einen Lich verwandelt. Du bist resistent gegen Kälte und
 feindliche Verhexungen und für die Dauer der Verwandlung vollkommen immun gegen
 Gift, negative Energie und Qual. deine Nekromantie-Zauber werden stärker und Ihr
 erhaltet einen auszehrenden Nahkampfangriff. Du bist jedoch auch anfällig für
@@ -542,7 +542,7 @@ heiligen Schaden und Untote Vertreiben und könnt keine Tränke zu dir nehmen.
 %%%%
 Bat status
 
-Ihr wurdet in eine flinke Fledermaus verwandelt, was deine Ausweichfähigkeit
+Du wurdest in eine flinke Fledermaus verwandelt, was deine Ausweichfähigkeit
 erhöht, aber deine Nahkampfangriffe erheblich schwächt.
 
 Alle ausgerüsteten Waffen, Rüstungen und Ringe sind verschmolzen und du kannst
@@ -556,7 +556,7 @@ keine Zauber. {{
 %%%%
 Pig status
 
-Ihr wurdet in ein Schwein verwandelt. Ihr bewegr dich schnell, seid aber im
+Du wurdest in ein Schwein verwandelt. Ihr bewegr dich schnell, seid aber im
 Nahkampf weniger effektiv. Alle ausgerüsteten Waffen, Rüstungen und Ringe sind
 verschmolzen und du kannst keine Zauber wirken. Die Effektivität deiner
 Nahkampfangriffe in dieser Form basiert auf deinem Erfahrungsstufe und nicht auf
@@ -578,7 +578,7 @@ App status
 %%%%
 Tree status
 
-Ihr wurdet in einen Baum verwandelt und seid am Boden festgewurzelt. Du kannst
+Du wurdest in einen Baum verwandelt und seid am Boden festgewurzelt. Du kannst
 dich nicht bewegen oder teleportieren. Du hast nur minimale
 Ausweichmöglichkeiten, aber mehr Gesundheit und natürliche Rüstung. Du bist
 resistent gegen Gift und immun gegen negative Energie.
@@ -588,7 +588,7 @@ verschmolzen.
 %%%%
 Wisp status
 
-Ihr wurdet in einen körperlosen Gashauch verwandelt. Du bist äußerst
+Du wurdest in einen körperlosen Gashauch verwandelt. Du bist äußerst
 ausweichend und resistent gegen Feuer, Kälte, Elektrizität und Säure sowie immun
 gegen Gift und negative Energie.
 
@@ -599,7 +599,7 @@ ab.
 %%%%
 Fungus status
 
-Ihr wurdet in einen empfindungsfähigen Pilz verwandelt. Du bist sehr
+Du wurdest in einen empfindungsfähigen Pilz verwandelt. Du bist sehr
 ausweichend und könnt Sporen freisetzen, die bei Nahkampfangriffen Verwirrung
 stiften, können sich jedoch nicht bewegen, wenn feindliche Kreaturen anwesend
 sind. Du bist resistent gegen Gift und immun gegen negative Energie.
@@ -610,7 +610,7 @@ deiner Erfahrungsstufe und nicht auf deiner Fertigkeit im waffenlosen Kampf.
 %%%%
 Shadow status
 
-Ihr wurdet in eine wirbelnde Masse dunkler Schatten verwandelt. Du bist
+Du wurdest in eine wirbelnde Masse dunkler Schatten verwandelt. Du bist
 dauerhaft unsichtbar und immun gegen Gift, Auszehrung und Qual. Ankommender
 Schaden wird halbiert, Ihr blutet bei jedem Angriff Rauch und verfügt über
 unendliche Willenskraft. Allerdings ist deine Fähigkeit, im Nahkampf und mit
