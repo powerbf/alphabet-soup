@@ -465,7 +465,7 @@ w:40
 VISUAL:@The_monster@ gestikuliert wild.
 
 w:20
-VISUAL:@The_monster@ sagt etwas, aber Ihr hört nichts.
+VISUAL:@The_monster@ sagt etwas, aber du hörst nichts.
 
 VISUAL:@The_monster@ sieht verwirrt aus.
 
@@ -537,7 +537,7 @@ w:4
 %%%%
 _silenced_humanoid_common_
 
-VISUAL:@The_monster@ sagt etwas, aber Ihr hört nichts.
+VISUAL:@The_monster@ sagt etwas, aber du hörst nichts.
 
 VISUAL:@The_monster@ gestikuliert.
 %%%%
@@ -3858,7 +3858,7 @@ Duvessa_Dowan_dies_invisible
 %%%%
 Duvessa_Dowan_dies_distance
 
-Ihr hört einen fernen Schrei der Wut.
+Du hörst einen fernen Schrei der Wut.
 %%%%
 Duvessa_Dowan_dies_bytwin
 
@@ -5321,7 +5321,7 @@ Plötzlich erhebt sich {gen}@the_monster@ Geist aus dem leblosen Körper.
 
 Der Geist {gen}@the_monster@ stöhnt erbärmlich und stürzt in den Boden.
 
-Ihr hört ein leises, widerhallendes Brüllen voller Hass und Trauer!
+Du hörst ein leises, widerhallendes Brüllen voller Hass und Trauer!
 %%%%
 Natasha permanently killed
 

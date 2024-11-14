@@ -50,16 +50,16 @@ SCHROANNG!
 %%%%
 frozen axe "frostbite"
 
-Ihr hört die [brüllendene|heulendene|wütendene] Winde eines [Blizzards|Schwalls|Schneesturms].
+Du hörst die [brüllendene|heulendene|wütendene] Winde eines [Blizzards|Schwalls|Schneesturms].
 
 w:5
-Ihr hört das [Knarren|Knirschen|Knacken] von Eis.
+Du hörst das [Knarren|Knirschen|Knacken] von Eis.
 
 w:1
-Ihr hört Eissplitter [klirren|klimpern].
+Du hörst Eissplitter [klirren|klimpern].
 
 w:1
-Ihr hört das [Rumpeln|Grollen|Krachen] eines [kalbenden Gletschers|zusammenstoßenden Eisbergs].
+Du hörst das [Rumpeln|Grollen|Krachen] eines [kalbenden Gletschers|zusammenstoßenden Eisbergs].
 
 ###############################################################################
 ###############################################################################
@@ -86,7 +86,7 @@ w:2
 @_instrumental_noises_@
 
 w:20
-SOUND:Ihr hört @weapon_noise@
+SOUND:Du hörst @weapon_noise@
 
 ###############################################################################
 # Weapon chatter.

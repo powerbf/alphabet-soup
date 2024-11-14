@@ -124,7 +124,7 @@ Xom draining or torment
 
 Xoms Macht berührt dich einen Moment lang.
 
-Ihr hört Xoms wahnsinniges Lachen.
+Du hörst Xoms wahnsinniges Lachen.
 
 "Leide!"
 
@@ -139,7 +139,7 @@ Xom hostile monster
 
 "Mal sehen, ob es stark genug ist, um zu überleben."
 
-Ihr hört Xoms wahnsinniges Lachen.
+Du hörst Xoms wahnsinniges Lachen.
 %%%%
 Xom banishment
 
@@ -180,7 +180,7 @@ Xom gluckst.
 %%%%
 Xom noise
 
-Xom macht plötzlich ein Geräusch! Ihr hört @weapon_noise@
+Xom macht plötzlich ein Geräusch! Du hörst @weapon_noise@
 
 w:1
 "Buh!"
@@ -247,7 +247,7 @@ Xom good monster polymorph
 
 Xoms Kraft berührt ein Monster in der Nähe.
 
-Ihr hört Xoms onkelhaftes Kichern.
+Du hörst Xoms onkelhaftes Kichern.
 %%%%
 # weakens friendlies, strengthens hostiles
 Xom bad monster polymorph
@@ -262,7 +262,7 @@ Xom good mutations
 
 Xoms Macht berührt dich einen Moment lang.
 
-Ihr hört Xoms wahnsinniges Gackern.
+Du hörst Xoms wahnsinniges Gackern.
 %%%%
 Xom random mutations
 
@@ -272,7 +272,7 @@ Xom random mutations
 
 Xoms Macht berührt dich für einen Moment.
 
-Ihr hört Xoms onkelhaftes Kichern.
+Du hörst Xoms onkelhaftes Kichern.
 %%%%
 Xom snakes to sticks
 

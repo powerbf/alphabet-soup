@@ -124,7 +124,7 @@ Ein schrecklicher Fluch hat dich auf die Suche nach der Kugel von Zot geschickt.
 
 Während Ihr auf der Suche nach der Kugel hinabsteigt, scharen sich @_halloween_things_@ um dich. An diesem Ort spukt es!
 
-Ihr hört das Gackern einer Hexe und seid plötzlich ins Dungeon angekommen. Wenn Ihr die Kugel von Zot nicht findet, verwandelt Ihr dich in @_a_lowly_@!
+Du hörst das Gackern einer Hexe und bist plötzlich ins Dungeon angekommen. Wenn du die Kugel von Zot nicht findest, verwandelst du dich in @_a_lowly_@!
 %%%%
 hell_effect_quiet
 
@@ -168,7 +168,7 @@ hell_effect_noisy
 
 Ein markerschütternder Schrei durchdringt die Luft!
 
-Ihr hört Worte, die in einer seltsamen und schrecklichen Sprache gesprochen werden...
+Du hörst Worte, die in einer seltsamen und schrecklichen Sprache gesprochen werden...
 
-Ihr hört ein teuflisches Gelächter!
+Du hörst ein teuflisches Gelächter!
 %%%%
