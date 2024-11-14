@@ -207,7 +207,7 @@ You retract your mandibles.
 Ihr zieht deine Mandibeln zurück.
 %%%%
 Are you sure you want to shaft yourself?
-Bist du sicher, dass Ihr dich selbst schächten wollt?
+Bist du sicher, dass du dich selbst schächten willst?
 %%%%
 You spit a glob of acid.
 Du spuckst einen Klumpen Säure.
@@ -360,7 +360,7 @@ Are you sure?
 Bist du sicher?
 %%%%
 Sorry, you can't do that.
-Sorry, das könnt Ihr nicht.
+Sorry, das kannst du nicht.
 %%%%
 Ability - do what?
 Welche Fähigkeit anwenden?
@@ -1346,7 +1346,7 @@ You smell burning wood.
 Ihr riecht brennendes Holz.
 %%%%
 Are you sure you want to burn %s?
-Bist du sicher, dass Ihr {acc}%s verbrennen wolltet?
+Bist du sicher, dass du {acc}%s verbrennen willstet?
 %%%%
 Your line of fire to %s is blocked by %s. Continue anyway?
 Deine Feuerlinie zu {dat}%s wird von {dat}%s blockiert. Trotzdem weitermachen?
@@ -2895,7 +2895,7 @@ join
 beitreten
 %%%%
 Are you sure you want to abandon %s?
-Bist du sicher, dass Ihr {acc}%s aufgeben wollt?
+Bist du sicher, dass du {acc}%s aufgeben willst?
 %%%%
 " [Y]es or [n]o only, please."
 " Nur [J]a oder [n]ein, bitte."
@@ -4160,7 +4160,7 @@ Sorry, you can't target yourself.
 Sorry, du kannst dich selbst nicht zielen.
 %%%%
 Are you sure you want to fizzle?
-Bist du sicher, dass Ihr missglücken wolltet?
+Bist du sicher, dass du missglücken willstet?
 %%%%
 All monsters which could be auto-targeted are covered by a wall or statue which interrupts your line of fire, even though it doesn't interrupt your line of sight.
 Alle Monster, die automatisch anvisiert werden können, sind durch eine Wand oder Statue verdeckt, die die Schusslinie unterbricht, auch wenn sie die Sichtlinie nicht unterbricht.
@@ -4228,10 +4228,10 @@ Ausschlussgröße auf ein einzelnes Feld reduziert.
 [unsichtbares Terrain]
 %%%%
 What do you want to examine?
-Was wollt Ihr examinieren?
+Was willst du examinieren?
 %%%%
 What do you want to remember?
-An was wollt Ihr erinnern?
+An was willst du erinnern?
 %%%%
 There is %s here.
 Hier gibt es {acc}%s.
@@ -5441,7 +5441,7 @@ There isn't enough space here!
 Hier ist nicht genug Platz!
 %%%%
 There are friendlies around; are you sure you want to hurt them?
-Es sind Freunde in der Nähe; bist du sicher, dass Ihr sie verletzen wollt?
+Es sind Freunde in der Nähe; bist du sicher, dass du sie verletzen willst?
 %%%%
 Nature churns violently around you!
 Die Natur wirbelt heftig um dich herum!
@@ -5575,7 +5575,7 @@ You reveal the great annihilating truth to your foes!
 Ihr offenbart deinen Feinden die große vernichtende Wahrheit!
 %%%%
 There are friendlies around, are you sure you want to hurt them?
-Es sind Freunde in der Nähe, wollt Ihr sie wirklich verletzen?
+Es sind Freunde in der Nähe, willst du sie wirklich verletzen?
 %%%%
 You stomp with the beat, sending a shockwave through the revellers around you!
 Ihr stampft mit dem Beat und schickt eine Schockwelle durch die Feiernden um dich herum!
@@ -6512,22 +6512,22 @@ You can't unwield your weapon to draw a new one!
 Du kannst deine Waffe nicht loslassen, um eine Neue zu zücken.
 %%%%
 You can't wield that without your missing tentacle.
-Ohne das fehlende Tentakel könnt Ihr das nicht führen.
+Ohne das fehlende Tentakel kannst du das nicht führen.
 %%%%
 You can't wield that without your missing arm.
-Ohne den fehlenden Arm könnt Ihr das nicht führen.
+Ohne den fehlenden Arm kannst du das nicht führen.
 %%%%
 You are wearing that object!
 Du trägst dieses Objekt!
 %%%%
 You can't wield that with a shield.
-Mit einem Schild könnt Ihr das nicht führen.
+Mit einem Schild kannst du das nicht führen.
 %%%%
 This weapon is holy and will not allow you to wield it.
 Diese Waffe ist heilig und wird dich nicht erlauben, sie zu führen.
 %%%%
 You can't carry that many items.
-So viele Gegenstände könnt Ihr nicht tragen.
+So viele Gegenstände kannst du nicht tragen.
 %%%%
 Wield which item (- for none, * to show all)?
 Welchen Gegenstand führen (- für keinen, * alle zu zeigen)?
@@ -6581,7 +6581,7 @@ You'd need to take off your boots first.
 Du musst zuerst deine Stiefeln abnehmen.
 %%%%
 You can't wear the hauberk in your current form.
-In deinem aktuellen Form könnt Ihr den Haubert nicht tragen.
+In deinem aktuellen Form kannst du den Haubert nicht tragen.
 %%%%
 You can't wear this over your hauberk.
 Du kannst das nicht über deiner Halsberge tragen.
@@ -6620,7 +6620,7 @@ You can't wear any headgear with your large horns!
 Du kannst keine Kopfbedeckung mit deinen großen Hörnern tragen!
 %%%%
 You can't wear any headgear with your large antennae!
-Mit deinen großen Antennen könnt Ihr keine Kopfbedeckung tragen!
+Mit deinen großen Antennen kannst du keine Kopfbedeckung tragen!
 %%%%
 You can't wear that with your horns!
 Das kannst du nicht mit deinen Hörnern tragen!
@@ -6656,7 +6656,7 @@ You're already wearing that object!
 Du trägst das Objekt schon!
 %%%%
 You aren't wearing that!
-Das tragt Ihr nicht!
+Das trägst du nicht!
 %%%%
 %s is melded into your body!
 %s ist in deinen Körper fusioniert!
@@ -6746,7 +6746,7 @@ Remove which piece of jewellery?
 Welchen Schmuck abnehmen?
 %%%%
 You aren't wearing that.
-Das tragt Ihr nicht.
+Das trägst du nicht.
 %%%%
 That isn't a piece of jewellery.
 Das ist kein Schmuckstück.
@@ -6854,7 +6854,7 @@ You are too confused!
 Du bist zu verwirrt!
 %%%%
 You cannot read scrolls in your current state!
-In deinem jetzigen Zustand könnt Ihr keine Schriftrollen lesen!
+In deinem jetzigen Zustand kannst du keine Schriftrollen lesen!
 %%%%
 Magic scrolls do not work when you're silenced!
 Unter Stille funktionieren Magische Schriftrollen nicht!
@@ -6953,7 +6953,7 @@ Drop how many?
 Wie viele fallen lassen?
 %%%%
 You can't wear or remove anything in your present form.
-In deiner gegenwärtigen Form könnt Ihr nichts anziehen oder ausziehen.
+In deiner gegenwärtigen Form kannst du nichts anziehen oder ausziehen.
 %%%%
 
 ##################
@@ -7012,7 +7012,7 @@ You found it @in_location@
 Du hast diesen Gegenstand @in_location@ gefunden
 %%%%
 Are you sure you want to pick up this pile of gold now?
-Bist du sicher, dass Ihr diesen Haufen Gold jetzt abholen wollt?
+Bist du sicher, dass du diesen Haufen Gold jetzt abholen willst?
 %%%%
 Pick up how many of %s (; or enter for all)?
 Wieviele von {dat}%s aufheben (; oder Enter für Alle)?
@@ -7523,7 +7523,7 @@ You need at least %d runes to enter this place.
 Ihr braucht mindestens %d Runen, um diesen Ort zu betreten.
 %%%%
 A rune of Zot still resides in this realm, and once you leave you can never return. Are you sure you want to leave?
-Eine Rune von Zot befindet sich immer noch in diesem Reich, und Zurückkehren nach dem Verlassen ist nicht möglich. Bist du sicher, dass Ihr gehen wollt?
+Eine Rune von Zot befindet sich immer noch in diesem Reich, und Zurückkehren nach dem Verlassen ist nicht möglich. Bist du sicher, dass du gehen willst?
 %%%%
 This transporter is marked as excluded!
 Dieser Transporter ist als ausgeschlossen gekennzeichnet!
@@ -7532,7 +7532,7 @@ Enter transporter anyway?
 Transporter trotzdem betreten?
 %%%%
 Are you sure you want to leave this ziggurat?
-Bist du sicher, dass Ihr diese Ziggurat verlassen wollt?
+Bist du sicher, dass du diese Ziggurat verlassen willst?
 %%%%
 Really leave the ziggurat figurine behind?
 Die Figur einer Ziggurat wirklich zurücklassen?
@@ -7541,7 +7541,7 @@ Really leave the Orb behind?
 Den Orb wirklich zurücklassen?
 %%%%
 Are you sure you want to leave %s?
-Bist du alle sicher, dass Ihr {acc}%s verlassen wollt?
+Bist du alle sicher, dass du {acc}%s verlassen willst?
 %%%%
 " This will make you lose the game!"
 " Damit wirst du das Spiel verlieren!"
@@ -7682,13 +7682,13 @@ Saving game... please wait.
 Spiel wird gespeichert... bitte wartet.
 %%%%
 Are you sure you want to abandon this character?
-Bist du sicher, dass Ihr diesen Charakter aufgeben wollt?
+Bist du sicher, dass du diesen Charakter aufgeben willst?
 %%%%
 Are you sure you want to abandon this character and return to the main menu?
-Bist du sicher, dass Ihr diesen Charakter aufgeben und zum Hauptmenü zurückkehren wollt?
+Bist du sicher, dass du diesen Charakter aufgeben und zum Hauptmenü zurückkehren willst?
 %%%%
 Are you sure you want to abandon this character and quit the game?
-Bist du sicher, dass Ihr diesen Charakter aufgeben und das Spiel beenden wollt?
+Bist du sicher, dass du diesen Charakter aufgeben und das Spiel beenden willst?
 %%%%
 Unknown command. (For a list of commands type <w>?\?</w>.)
 Unbekannter Befehl. (<w>?\?</w> eingeben für eine Liste der Befehle.)
@@ -10366,10 +10366,10 @@ You slip free of %s engulfing you.
 Ihr befreit dich von {dat}%s, das dich verschlingt.
 %%%%
 Are you sure you want to swing wildly while confused and next to %s%s?
-Bist du sicher, dass Ihr wild herumschwingen wollt, während du verwirrt bist und neben %s%s?
+Bist du sicher, dass du wild herumschwingen willst, während du verwirrt bist und neben %s%s?
 %%%%
 Are you sure you want to stumble around while confused and next to %s%s?
-Bist du sicher, dass Ihr herumstolpern wollt, während du verwirrt bist und neben %s%s?
+Bist du sicher, dass du herumstolpern willst, während du verwirrt bist und neben %s%s?
 %%%%
 " while you are losing your buoyancy"
 , während Ihr deinen Auftrieb verliert
@@ -10408,7 +10408,7 @@ There isn't anything that you can close there!
 Es gibt nichts, was Ihr dort schließen könnt!
 %%%%
 If you enter this portal you might not be able to return immediately. Continue?
-Wenn Ihr dieses Portal betretet, könnt Ihr möglicherweise nicht sofort zurückkehren. Weitermachen?
+Wenn Ihr dieses Portal betretet, kannst du möglicherweise nicht sofort zurückkehren. Weitermachen?
 %%%%
 Are you sure you wish to approach this portal? There's no telling what its forces would wreak upon your fragile self.
 Bist du sicher, dass Ihr dich an dieses Portal wenden möchtet? Man kann nicht sagen, was seine Kräfte mit deinem zerbrechlichen Selbst anstellen würden.
@@ -10798,7 +10798,7 @@ You can't use weapons.
 Du kannst keine Waffen benutzen.
 %%%%
 You can't use weapons in this form.
-In dieser Form könnt Ihr keine Waffen benutzen.
+In dieser Form kannst du keine Waffen benutzen.
 %%%%
 That's too large for you to wield.
 Das ist zu groß für dich, um es zu führen.
@@ -11683,7 +11683,7 @@ Your roots keep you in place.
 Deine Wurzeln halten dich an Ort und Stelle.
 %%%%
 You can't fly in this form.
-In dieser Form könnt Ihr nicht fliegen.
+In dieser Form kannst du nicht fliegen.
 %%%%
 Your tail turns into legs as you fly out of the water.
 Dein Schwanz verwandelt sich in Beine, als Ihr aus dem Wasser fliegt.
@@ -11701,7 +11701,7 @@ You feel more buoyant.
 Du fühlst dich mehr leichtgewichtig.
 %%%%
 You can't survive in this terrain!
-In diesem Terrain könnt Ihr nicht überleben!
+In diesem Terrain kannst du nicht überleben!
 %%%%
 You fly above the lava, but the process is very draining.
 Du fliegst über die Lava, aber der Prozess ist sehr zehrend.
@@ -13395,7 +13395,7 @@ Name
 %4d Gold
 %%%%
 Welcome to %s! What would you like to do?
-Willkommen bei {dat}%s! Was wollt Ihr machen?
+Willkommen bei {dat}%s! Was willst du machen?
 %%%%
 You are short 1 gold piece for the purchase.
 Dir fehlt 1 Goldstück für den Kauf.
@@ -13703,7 +13703,7 @@ clear all targets
 alle Ziele löschen
 %%%%
 Select the skills you want to be trained. The chosen skills will be raised to the level shown in <cyan>cyan</cyan>.
-Die Fertigkeiten auswählen, die Ihr trainieren wollt. Die gewählten Fertigkeiten werden auf die in <cyan>cyan</cyan> angegebene Stufe angehoben.
+Die Fertigkeiten auswählen, die du trainieren willst. Die gewählten Fertigkeiten werden auf die in <cyan>cyan</cyan> angegebene Stufe angehoben.
 %%%%
 The species aptitude is in <white>white</white>.
 Die Speziesbegebung ist <white>weiß</white>.
@@ -15617,10 +15617,10 @@ You cannot blink closer to %s!
 Du kannst nicht näher an {acc}%s blinzeln!
 %%%%
 You can't hop into that!
-Da könnt Ihr nicht reinhüpfen!
+Da kannst du nicht reinhüpfen!
 %%%%
 You can't blink into that!
-Da könnt Ihr nicht reinblinzeln!
+Da kannst du nicht reinblinzeln!
 %%%%
 You cannot hop onto %s!
 Du kannst nicht auf {acc}%s hüpfen!
@@ -15644,7 +15644,7 @@ Boing!
 Boing!
 %%%%
 You can't roll into that!
-Da könnt Ihr nicht reinrollen!
+Da kannst du nicht reinrollen!
 %%%%
 Roll where?
 Wohin rollen?
@@ -15659,7 +15659,7 @@ You cannot roll closer to %s!
 Du kannst nicht näher an {acc}%s rollen!
 %%%%
 You can't roll through that!
-Da könnt Ihr nicht durchrollen!
+Da kannst du nicht durchrollen!
 %%%%
 You're already next to %s!
 Du bist schon neben {dat}%s!
@@ -15995,7 +15995,7 @@ Vorsicht! Ihr fliegt jetzt über {dat}%s.
 %s fällt weg!
 %%%%
 You cannot brand ranged weapons with this spell.
-Mit diesem Zauber könnt Ihr keine Fernkampfwaffen prägen.
+Mit diesem Zauber kannst du keine Fernkampfwaffen prägen.
 %%%%
 This weapon is already branded with pain.
 Diese Waffe ist bereits mit Schmerz geprägt.
@@ -16356,7 +16356,7 @@ There isn't a shadow there.
 Es gibt dort keinen Schatten.
 %%%%
 You cannot grow anything here.
-Dort könnt Ihr nichts wachsen lassen.
+Dort kannst du nichts wachsen lassen.
 %%%%
 
 ##################
@@ -18044,7 +18044,7 @@ You are now %s.
 Du bist jetzt %s.
 %%%%
 Are you sure you want to be excommunicated?
-Bist du sicher, dass Ihr exkommuniziert werden wollt?
+Bist du sicher, dass du exkommuniziert werden willst?
 %%%%
 Setting piety to %d.
 Frömmigkeit wird auf %d eingestellt.
