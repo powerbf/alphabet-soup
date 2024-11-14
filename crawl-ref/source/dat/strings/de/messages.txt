@@ -7920,7 +7920,7 @@ You barely miss %s.
 Du verfehlst {acc}%s sehr knapp.
 %%%%
 You hit %s
-Du treffst {acc}%s
+Du triffst {acc}%s
 %%%%
 You clumsily bash %s
 Du schlägst {acc}%s ungeschickt
