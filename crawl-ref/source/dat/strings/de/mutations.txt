@@ -116,7 +116,7 @@ Du kannst die meisten Arten von Rüstungen nicht tragen.
 %%%%
 # unnamed ghoul mutation
 You thrive by killing the living.
-Ihr gedeiht, indem Ihr die Lebenden tötet.
+Du gedeihst, indem Ihr die Lebenden tötet.
 %%%%
 
 ########################################
@@ -408,7 +408,7 @@ Your attributes grow dramatically as you level up.
 Deine Attribute steigen mit dem Stufenaufstieg dramatisch an.
 %%%%
 You expend health (3 HP) to strengthen your wands.
-Ihr verbraucht Gesundheit (3 HP), um deine Zauberstäbe zu stärken.
+Du verbrauchst Gesundheit (3 HP), um deine Zauberstäbe zu stärken.
 %%%%
 You have tentacles for arms and can constrict up to %d enemies at once.
 Du hast Tentakel als Arme und kannst bis zu %d Feinde auf einmal umschlingen.
@@ -627,7 +627,7 @@ Your natural rate of healing is unusually fast.
 Deine natürliche Heilungsrate ist ungewöhnlich schnell.
 %%%%
 You heal very quickly.
-Ihr heilt sehr schnell.
+Du heilst sehr schnell.
 %%%%
 You regenerate.
 Du regenerierst dich.
@@ -714,13 +714,13 @@ You no longer feel strong-willed.
 Du fühlst dich nicht mehr willensstark.
 %%%%
 You cover ground quickly. (Speed+)
-Ihr legt den Boden schnell zurück. (Geschwindigkeit+)
+Du legst den Boden schnell zurück. (Geschwindigkeit+)
 %%%%
 You cover ground very quickly. (Speed++)
-Ihr legt den Boden sehr schnell zurück. (Geschwindigkeit++)
+Du legst den Boden sehr schnell zurück. (Geschwindigkeit++)
 %%%%
 You cover ground extremely quickly. (Speed+++)
-Ihr legt den Boden extrem schnell zurück. (Geschwindigkeit+++)
+Du legst den Boden extrem schnell zurück. (Geschwindigkeit+++)
 %%%%
 You feel quick.
 Du fühlst dich schnell.
@@ -786,13 +786,13 @@ You occasionally shout uncontrollably at your foes.
 Gelegentlich schreit Ihr deine Feinde unkontrolliert an.
 %%%%
 You frequently scream uncontrollably at your foes.
-Ihr schreit deine Feinde häufig unkontrolliert an.
+Du schreist deine Feinde häufig unkontrolliert an.
 %%%%
 You feel the urge to shout.
-Ihr verspürt den Drang zu schreien.
+Du verspürst den Drang zu schreien.
 %%%%
 You feel a strong urge to scream.
-Ihr verspürt einen starken Drang zu schreien.
+Du verspürst einen starken Drang zu schreien.
 %%%%
 Your urge to shout disappears.
 Dein Drang zu schreien verschwindet.
@@ -804,7 +804,7 @@ noise suppression
 Rauschunterdrückung
 %%%%
 You passively dampen the noise of your surroundings.
-Ihr dämpft passiv den Lärm in deiner Umgebung.
+Du dämpfst passiv den Lärm in deiner Umgebung.
 %%%%
 You feel your surroundings grow quieter.
 Du spürst, wie deine Umgebung ruhiger wird.
@@ -816,7 +816,7 @@ clarity
 Klarheit
 %%%%
 You possess an exceptional clarity of mind.
-Ihr besitzt eine außergewöhnliche Klarheit des Geistes.
+Du besitzst eine außergewöhnliche Klarheit des Geistes.
 %%%%
 Your thoughts seem clearer.
 Deine Gedanken scheinen klarer zu sein.
@@ -825,7 +825,7 @@ Your thinking seems confused.
 Dein Denken scheint verwirrt zu sein.
 %%%%
 You tend to lose your temper in combat.
-Ihr neigt dazu, im Kampf die Beherrschung zu verlieren.
+Du neigst dazu, im Kampf die Beherrschung zu verlieren.
 %%%%
 You often lose your temper in combat.
 Du verlierst im Kampf oft die Beherrschung.
@@ -894,10 +894,10 @@ evolution
 Evolution
 %%%%
 You evolve.
-Ihr evolviert.
+Du evolvierst.
 %%%%
 You rapidly evolve.
-Ihr evolviert schnell.
+Du evolvierst schnell.
 %%%%
 You feel nature experimenting on you. Don't worry, failures die fast.
 Du hast das Gefühl, die Natur experimentiert mit dir. Keine Sorge, Misserfolge sterben früh.
@@ -954,7 +954,7 @@ negative energy resistance
 Negative-Energie-Resistenz
 %%%%
 You resist negative energy. (rN+)
-Ihr widersteht negativer Energie. (rN+)
+Du widerstehst negativer Energie. (rN+)
 %%%%
 You are quite resistant to negative energy. (rN++)
 Du bist ziemlich resistent gegen negative Energie. (rN++)
@@ -975,7 +975,7 @@ You are in touch with the powers of death.
 Du bist in Kontakt mit den Mächten des Todes.
 %%%%
 You are strongly in touch with the powers of death.
-Ihr steht in enger Verbindung mit den Mächten des Todes.
+Du stehst in enger Verbindung mit den Mächten des Todes.
 %%%%
 You feel more in touch with the powers of death.
 Du fühlst dich den Mächten des Todes näher.
@@ -996,7 +996,7 @@ You can hurl damnation.
 Du kannst Verdammnis schleudern.
 %%%%
 You smell a hint of brimstone.
-Ihr riecht einen Hauch von Schwefel.
+Du riechst einen Hauch von Schwefel.
 %%%%
 horns
 Hörner
@@ -1419,7 +1419,7 @@ forlorn
 verlassen
 %%%%
 You shall have no god before yourself.
-Ihr sollt keinen Gott vor dir selbst haben.
+Du sollst keinen Gott vor dir selbst haben.
 %%%%
 You feel forlorn.
 Du fühlst dich verlassen.
@@ -1431,13 +1431,13 @@ sense surroundings
 Umgebung wahrnehmen
 %%%%
 You passively map a small area around you.
-Ihr kartiert passiv einen kleinen Bereich um dich herum.
+Du kartierst passiv einen kleinen Bereich um dich herum.
 %%%%
 You passively map the area around you.
-Ihr kartiert passiv den Bereich um dich herum.
+Du kartierst passiv den Bereich um dich herum.
 %%%%
 You passively map a large area around you.
-Ihr kartiert passiv einen großen Bereich um dich herum.
+Du kartierst passiv einen großen Bereich um dich herum.
 %%%%
 You feel a strange attunement to the structure of the dungeons.
 Du fühlst eine seltsame Einstimmung auf die Struktur des Dungeons.
@@ -1497,10 +1497,10 @@ You are completely attuned to the shadows.
 Du bist ganz auf die Schatten eingestellt.
 %%%%
 You slip into the darkness of the dungeon.
-Ihr schlüpft in die Dunkelheit des Kerkers.
+Du schlüpfst in die Dunkelheit des Kerkers.
 %%%%
 You slip further into the darkness.
-Ihr schlüpft weiter in die Dunkelheit.
+Du schlüpfst weiter in die Dunkelheit.
 %%%%
 You are surrounded by darkness.
 Du bist von Dunkelheit umgeben.
@@ -2298,7 +2298,7 @@ demonic willpower
 dämonische Willenskraft
 %%%%
 You punish those that try to bend your will. (Will+)
-Ihr bestraft diejenigen, die versuchen, deinen Willen zu beugen. (Wille+)
+Du bestrafst diejenigen, die versuchen, deinen Willen zu beugen. (Wille+)
 %%%%
 You feel willful.
 Du fühlst dich eigenwillig.
@@ -2649,7 +2649,7 @@ MP-powered wands
 MP-betriebene Zauberstäbe
 %%%%
 You expend magic power (3 MP) to strengthen your wands.
-Ihr verbraucht magische Kraft (3 MP), um deine Zauberstäbe zu stärken.
+Du verbrauchst magische Kraft (3 MP), um deine Zauberstäbe zu stärken.
 %%%%
 You feel your magical essence link to the dungeon's wands.
 Du spürst, wie dich deine magische Essenz mit den Stäben des Dungeons verbindet.
@@ -2673,10 +2673,10 @@ You feel less skilled.
 Du fühlst dich weniger kompetent.
 %%%%
 You regain all your skill.
-Ihr erhältt alle deine Fertigkeiten zurück.
+Du erhältst alle deine Fertigkeiten zurück.
 %%%%
 You regain some skill.
-Ihr erlangt einige Fertigkeiten zurück.
+Du erlangst einige Fertigkeiten zurück.
 %%%%
 inexperienced
 unerfahrene
@@ -2778,19 +2778,19 @@ You grow two extra arms.
 Dich wachsen zwei zusätzliche Arme.
 %%%%
 You do not drink.
-Ihr trinkt nicht.
+Du trinkst nicht.
 %%%%
 Your mouth dries to ashes.
 Dein Mund trocknet zu Asche aus.
 %%%%
 You gain the ability to drink.
-Ihr erhältt die Fähigkeit zu trinken.
+Du erhältst die Fähigkeit zu trinken.
 %%%%
 retaliatory headbutt
 Vergeltungskopfstoß
 %%%%
 You reflexively headbutt those who attack you in melee.
-Ihr verpasst denen, die dich im Nahkampf angreifen, reflexartig einen Kopfstoß.
+Du verpassst denen, die dich im Nahkampf angreifen, reflexartig einen Kopfstoß.
 %%%%
 Your retaliatory reflexes feel sharp.
 Deine Vergeltungsreflexe fühlen dich scharf an.
@@ -2892,7 +2892,7 @@ You are afflicted with vampirism and can become a bat while bloodless.
 Du bist mit Vampirismus behaftet und kannst dich in eine Fledermaus verwandeln, solange du blutleer bist.
 %%%%
 You feel a craving for blood.
-Ihr verspürt ein Verlangen nach Blut.
+Du verspürst ein Verlangen nach Blut.
 %%%%
 You can now turn into a vampire bat when bloodless.
 Du kannst dich jetzt in eine Vampirfledermaus verwandeln, wenn du blutleer bist.
