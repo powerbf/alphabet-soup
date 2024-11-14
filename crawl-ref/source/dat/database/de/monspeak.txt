@@ -234,9 +234,9 @@ VISUAL:@The_monster@ leuchtet für einen Moment hell auf.
 
 VISUAL:{gen}@The_monster@ {nom}@hands@ beginnen zu glühen
 
-VISUAL:Ihr fühlt dich desorientiert. @player_only@
+VISUAL:Du fühlst dich desorientiert. @player_only@
 
-VISUAL:Ihr fühlt dich beunruhigt. @player_only@
+VISUAL:Du fühlst dich beunruhigt. @player_only@
 %%%%
 _wizard_medium_
 
@@ -4214,7 +4214,7 @@ _gastronok_other_buff_
 _gastronok_debuff_
 
 w:20
-Ihr fühlt dich träge.
+Du fühlst dich träge.
 
 Ihr verspürt eine plötzliche, vorübergehende Abneigung gegen Salz.
 
@@ -5039,7 +5039,7 @@ VISUAL:@The_monster@ gestikuliert.
 VISUAL:{gen}@The_monster@ Augen beginnen, mit einem [roten|grünen|blauen] Licht zu leuchten.
 
 VISUAL:@The_monster@ gestikuliert.
-VISUAL: Ihr fühlt dich [verflucht|verloren].
+VISUAL: Du fühlst dich [verflucht|verloren].
 
 w:5
 VISUAL:@The_monster@ wirft ein lila Pulver nach dir.
