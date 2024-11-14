@@ -153,13 +153,13 @@ _rare_chatter_
 
 @Your_weapon@ sagt: "Warum sagt Ihr zur Abwechslung nicht mal was?"
 
-@Your_weapon@ fragt: "Habt Ihr ein Schweigegelübde abgelegt?"
+@Your_weapon@ fragt: "Hast du ein Schweigegelübde abgelegt?"
 
 @Your_weapon@ sagt: "Ihr könnt mir alles sagen! Ich kann ein Geheimnis bewahren!"
 
 @Your_weapon@ fragt: "Wollt Ihr das Handbuch sehen?"
 
-@Your_weapon@ fragt: "Habt Ihr schon mal von der Kugel von Zot gehört?"
+@Your_weapon@ fragt: "Hast du schon mal von der Kugel von Zot gehört?"
 
 @Your_weapon@ stöhnt: "Mir ist schwindlig."
 
@@ -835,7 +835,7 @@ w:1
 @The_weapon@ sagt heiser, "Ich brauche einen Drink ... schnell! Sticht etwas."
 
 w:1
-@The_weapon@ sagt, "Ihr habt nicht zufällig gesehen, dass meine Scheide irgendwo herumliegt? Ich fühle mich so entblößt."
+@The_weapon@ sagt, "Du hast nicht zufällig gesehen, dass meine Scheide irgendwo herumliegt? Ich fühle mich so entblößt."
 
 w:1
 @The_weapon@ beschwert sich, "Oh, sind deine Hände nass und fettig. Aber ich erlaube dich, mich eine Zeit lang zu führen."
@@ -900,7 +900,7 @@ _speaking_low-high_tension_
 
 @The_weapon@ lehrt, "Übung macht den Meister!"
 
-@The_weapon@ fragt, "Habt Ihr den Willen zur Macht, @player_name@?"
+@The_weapon@ fragt, "Hast du den Willen zur Macht, @player_name@?"
 
 @The_weapon@ lacht, "Ich freue mich immer über eine blutige Ovation!"
 

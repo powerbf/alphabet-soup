@@ -297,7 +297,7 @@ _friendly_imp_greeting
 
 @The_monster@ sagt, "Ich bin hier!"
 
-@The_monster@ sagt, "Ihr habt angerufen?"
+@The_monster@ sagt, "Du hast angerufen?"
 
 @The_monster@ sagt, "Lasst uns @_mayhem_@ @_cause_or_spread_@!"
 
@@ -771,7 +771,6 @@ VISUAL:@The_monster@ versucht, den verlorenen Mut wiederzufinden
 %%%%
 _friendly_family_
 
-# Translation note: Du oder Ihr?
 @The_monster@ sagt, "Ich mag dich, Cousin!"
 
 @The_monster@ sagt, "Familie hält immer zusammen, @player_name@!"
@@ -780,7 +779,6 @@ _friendly_family_
 
 @The_monster@ schreit, "@player_genus_plural@ sind die Besten!"
 
-# Translation note: Du oder Ihr?
 @The_monster@ sagt fröhlich, "Du und ich, wir sind eine Familie."
 %%%%
 default friendly related humanoid
@@ -2701,7 +2699,7 @@ w:50
 
 @The_monster@ sagt, "Diese Kraken sehen nicht mal echt aus."
 
-@The_monster@ sagt, "Ich suche Frau Medusa. Habt Ihr sie gesehen?"
+@The_monster@ sagt, "Ich suche Frau Medusa. Hast du sie gesehen?"
 
 @The_monster@ sagt, "Ich verstehe die Hälfte von dem, was diese Leute sagen, nicht. Für mich ist das alles Griechisch."
 
@@ -2965,7 +2963,7 @@ w:50
 
 @The_monster@ sagt, "Ich hoffe, ich treffe hier unten keine Eiskugeln!"
 
-@The_monster@ sagt, "Habt Ihr deine Eisringe dabei?"
+@The_monster@ sagt, "Hast du deine Eisringe dabei?"
 
 @The_monster@ sagt, "Die Kugel der Macht ist hier? Wo sind denn die anderen?"
 
@@ -2981,7 +2979,7 @@ w:25
 
 @The_monster@ sagt, "Ist das Ding nicht schwer? Ich könnte eine Runde drehen."
 
-@The_monster@ sagt, "Habt Ihr keine Angst vor der Strahlung? Ihr solltet das weglegen."
+@The_monster@ sagt, "Hast du keine Angst vor der Strahlung? Ihr solltet das weglegen."
 
 @The_monster@ sagt, "Was wollt Ihr mit der Kugel?"
 
@@ -2993,7 +2991,7 @@ w:25
 
 @The_monster@ sagt, "Seid Ihr sicher, dass das die echte Kugel ist, und nicht irgendeine billige Imitation?"
 
-@The_monster@ sagt, "Ihr habt die Kugel. War sie es wert?"
+@The_monster@ sagt, "Du hast die Kugel. War sie es wert?"
 
 ######################################################################## GODS #
 Zin Donald
@@ -5102,7 +5100,7 @@ VISUAL:@The_monster@ schaut hinterhältig.
 
 @The_monster@ sagt, "Sehr interessant."
 
-@The_monster@ sagt, "Habt Ihr etwas Gold übrig?"
+@The_monster@ sagt, "Hast du etwas Gold übrig?"
 %%%%
 _Maurice_rare_
 
@@ -5325,7 +5323,7 @@ Du hörst ein leises, widerhallendes Brüllen voller Hass und Trauer!
 %%%%
 Natasha permanently killed
 
-Ihr habt das Gefühl, dass der Geist {gen}@the_monster@ endlich zur Ruhe gekommen ist.
+Du hast das Gefühl, dass der Geist {gen}@the_monster@ endlich zur Ruhe gekommen ist.
 %%%%
 confused Natasha killed
 
