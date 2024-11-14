@@ -798,7 +798,7 @@ und <w>Rechtsklick</w> auf deinen Avatar</localtiles>.
 HINT_EXCOMMUNICATED
 
 Oh-oh, $1 hat dich gerade exkommuniziert, weil Ihr nicht mehr fromm genug seid
-(deine göttliche Gunst ist ins Leere gelaufen). Vielleicht habt Ihr wiederholt
+(deine göttliche Gunst ist ins Leere gelaufen). Vielleicht hast du wiederholt
 gegen die religiösen Regeln verstoßen, oder du hast deine Gottheit nicht oft
 genug zufrieden gestellt, oder eine Kombination aus beidem. Wenn Ihr einen
 Altar findet, der $1 gewidmet ist, kannst du wieder konvertieren, und alles
@@ -840,7 +840,7 @@ den Pfad des Bösen, in diesem Fall kann die Vergeltung in der Tat böse sein!
 HINT_CONVERTED_GOOD_TO_EVIL
 
 Aber mal ehrlich, von einem der guten Götter zu einem bösen zu wechseln, was
-habt Ihr denn erwartet!? Bei jedem Gott, der nicht auf der gegnerischen Seite
+hast du denn erwartet!? Bei jedem Gott, der nicht auf der gegnerischen Seite
 des Glaubens steht, wäre $1 viel nachsichtiger gewesen.
 %%%%
 HINT_CONVERTED_NONGOOD_TO_HATED
@@ -1283,7 +1283,7 @@ Gegenstand-Slots einzustellen.)
 %%%%
 HINT_WEAPON_SKILL
 
-Allerdings habt Ihr schon eine ganze Weile <w>$1</w> trainiert, also solltet
+Allerdings hast du schon eine ganze Weile <w>$1</w> trainiert, also solltet
 Ihr vielleicht lieber <w>$2</w> weiter trainieren. (Drückt
 <w>$cmd[CMD_DISPLAY_SKILLS]</w>, um die Fertigkeitsseite mit den aktuellen
 Zahlen zu sehen).
@@ -1487,7 +1487,7 @@ indem Ihr die <w>linke Maustaste</w> drückst.</tiles>
 %%%%
 HINT_DESCRIBE_UNKNOWN_STAIRS
 
-\nDiese Treppe habt Ihr noch nicht durchschritten.
+\nDiese Treppe hast du noch nicht durchschritten.
 %%%%
 HINT_DESCRIBE_DUNGEON_EXIT
 
@@ -1614,7 +1614,7 @@ zwischen dich und einem Feld befinden, kannst du in diesem Feld nichts sehen.
 %%%%
 HINT_DESCRIBE_UNIQUE_MONSTER
 
-Habt Ihr gedacht, Ihr wärst der einzige Abenteurer im Dungeon? Nun, da habt
+Hast du gedacht, Ihr wärst der einzige Abenteurer im Dungeon? Nun, da habt
 Ihr falsch gedacht! Diese einzigartigen Gegner verfügen oft über
 Fähigkeiten, die normale Monster nicht haben, also seiet vorsichtig.
 %%%%
