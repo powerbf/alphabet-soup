@@ -20,7 +20,7 @@ no special abilities
 keine besonderen Fähigkeiten
 %%%%
 You must catch your breath between uses of this ability.
-Zwischen den Einsätzen dieser Fähigkeit müsst Ihr zu Atem kommen.
+Zwischen den Einsätzen dieser Fähigkeit musst du zu Atem kommen.
 %%%%
 This ability takes some time before being effective.
 Es dauert einige Zeit, bis diese Fähigkeit wirksam wird.
@@ -1833,7 +1833,7 @@ You enter the halls of Pandemonium!
 Du betrittst die Hallen von Pandemonium!
 %%%%
 To return, you must find a gate leading back.
-Um zurückzukehren, müsst Ihr ein Tor finden, das zurückführt.
+Um zurückzukehren, musst du ein Tor finden, das zurückführt.
 %%%%
 You land on top of a ziggurat so tall you cannot make out the ground.
 Du landest auf einer Zikkurat, die so hoch ist, dass man den Boden nicht erkennen kann.
@@ -7089,7 +7089,7 @@ Zot can harm you no longer.
 Zot kann dich nicht mehr schaden.
 %%%%
 Now all you have to do is get back out of the dungeon!
-Jetzt müsst Ihr nur noch wieder aus dem Dungeon herauskommen!
+Jetzt musst du nur noch wieder aus dem Dungeon herauskommen!
 %%%%
 %s (gained %d)
 %s (%d bekommen)
@@ -7102,7 +7102,7 @@ Jetzt müsst Ihr nur noch wieder aus dem Dungeon herauskommen!
 %%%%
 # note: ring/amulet
 You will have to take that off first.
-Das musst Ihr zuerst abnehmen.
+Das musst du zuerst abnehmen.
 %%%%
 Too many items on this level, not dropping the item.
 Zu viele Gegenstände auf dieser Ebene. Gegenstand wird nicht fallen gelassen.
@@ -19790,10 +19790,10 @@ You will win if you kill everything that spawns (including allies).
 Du gewinnst, wenn Ihr alles tötet, was spawnen wird (einschließlich Verbündeter).
 %%%%
 If it is a boss round, you only need to kill the boss in order to win.
-Wenn es sich um eine Bossrunde handelt, müsst Ihr nur den Boss töten, um zu gewinnen.
+Wenn es sich um eine Bossrunde handelt, musst du nur den Boss töten, um zu gewinnen.
 %%%%
 If it is a lightning round, you only need to survive!</cyan>
-Wenn es eine Blitzrunde ist, müsst Ihr nur überleben!</cyan>
+Wenn es eine Blitzrunde ist, musst du nur überleben!</cyan>
 %%%%
 
 ##################
