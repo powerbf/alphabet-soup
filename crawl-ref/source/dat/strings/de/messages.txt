@@ -16087,16 +16087,16 @@ This shop has been abandoned, nothing of value remains.
 Dieser Laden wurde aufgegeben, nichts von Wert bleibt übrig.
 %%%%
 In your confused state, you trip and fall back down the stairs.
-In deinem verwirrten Zustand stolpert Ihr und fallt die Treppe wieder hinunter.
+In deinem verwirrten Zustand stolperst du und fällst die Treppe wieder hinunter.
 %%%%
 In your confused state, you trip and fall down the stairs.
-In deinem verwirrten Zustand stolpert Ihr und fallt die Treppe hinunter.
+In deinem verwirrten Zustand stolperst du und fällst die Treppe hinunter.
 %%%%
 In your confused state, you trip and fall back through the gate.
-In deinem verwirrten Zustand stolpert Ihr und fallt zurück durch das Tor.
+In deinem verwirrten Zustand stolperst du und fällst zurück durch das Tor.
 %%%%
 In your confused state, you trip and fall through the gate.
-In deinem verwirrten Zustand stolpert Ihr und fallt durch das Tor.
+In deinem verwirrten Zustand stolperst du und fällst durch das Tor.
 %%%%
 You insert %s into the lock.
 Du steckst {acc}%s in das Schloss ein.
@@ -16129,16 +16129,16 @@ The strain on the space-time continuum destroys the shaft!
 Die Belastung des Raum-Zeit-Kontinuums zerstört den Schacht!
 %%%%
 You are sucked into a shaft and drop 1 floor!
-Du wirst in einen Schacht gesaugt und fallt 1 Ebene tiefer!
+Du wirst in einen Schacht gesaugt und fällst 1 Ebene tiefer!
 %%%%
 You are sucked into a shaft and drop %d floors!
-Du wirst in einen Schacht gesaugt und fallt %d Ebenen tiefer!
+Du wirst in einen Schacht gesaugt und fällst %d Ebenen tiefer!
 %%%%
 You fall into a shaft and drop 1 floor!
-Du fällst in einen Schacht und fallt 1 Ebene tiefer!
+Du fällst in einen Schacht und fällst 1 Ebene tiefer!
 %%%%
 You fall into a shaft and drop %d floors!
-Du fällst in einen Schacht und fallt %d Ebenen tiefer!
+Du fällst in einen Schacht und fällst %d Ebenen tiefer!
 %%%%
 The shaft crumbles and collapses.
 Der Schacht bröckelt und kollabiert.
