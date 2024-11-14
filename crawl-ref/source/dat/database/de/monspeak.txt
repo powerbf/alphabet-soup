@@ -1525,7 +1525,7 @@ _generic_ranged_
 
 @The_monster@ zielt auf {acc}@foe@.
 
-Ihr spürt, wie etwas gefährlich nahe an deinem Kopf vorbeizieht. @player_only@
+Du spürst, wie etwas gefährlich nahe an deinem Kopf vorbeizieht. @player_only@
 %%%%
 _form_
 
