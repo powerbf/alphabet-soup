@@ -6997,7 +6997,7 @@ Your wizardly powers created it @in_location@
 Deine Zaubermacht hat diesen Gegenstand @in_location@ geschaffen
 %%%%
 @God@ gifted it to you @in_location@
-@God@ hat dich diesen Gegenstand geschenkt @in_location@
+@God@ hat dir diesen Gegenstand geschenkt @in_location@
 %%%%
 You stumbled upon it @in_location@
 Du bist auf diesen Gegenstand @in_location@ gestoßen
@@ -12487,13 +12487,13 @@ invoke torment by sacrificing a corpse
 Qual durch das Opfern einer Leiche heraufbeschwören
 %%%%
 Kikubaaqudgha will grant you forbidden knowledge or bloody your weapon with pain... once.
-Kikubaaqudgha wird dich verbotenes Wissen gewähren oder deine Waffe mit Schmerzen bluten lassen... einmal.
+Kikubaaqudgha wird dir verbotenes Wissen gewähren oder deine Waffe mit Schmerzen bluten lassen... einmal.
 %%%%
 Kikubaaqudgha is no longer ready to enhance your necromancy.
 Kikubaaqudgha ist nicht mehr bereit, deine Nekromantie zu verbessern.
 %%%%
 Kikubaaqudgha will grant you forbidden knowledge.
-Kikubaaqudgha wird dich verbotenes Wissen gewähren.
+Kikubaaqudgha wird dir verbotenes Wissen gewähren.
 %%%%
 animate remains
 Überreste beleben
@@ -12508,13 +12508,13 @@ animate legions of the dead
 Legionen von Toten beleben
 %%%%
 Yredelemnul will now gift you servants as you gain piety.
-Yredelemnul wird dich jetzt Diener schenken, als du Frömmigkeit erlangst.
+Yredelemnul wird dir jetzt Diener schenken, als du Frömmigkeit erlangst.
 %%%%
 Yredelemnul will no longer gift you servants.
-Yredelemnul wird dich keine Diener mehr schenken.
+Yredelemnul wird dir keine Diener mehr schenken.
 %%%%
 Yredelemnul will gift you servants as you gain piety.
-Yredelemnul wird dich Diener schenken, als du Frömmigkeit erlangst.
+Yredelemnul wird dir Diener schenken, als du Frömmigkeit erlangst.
 %%%%
 drain ambient life force
 Lebenskraft der Umgebung entziehen
@@ -12550,10 +12550,10 @@ Okawaru will now gift you ammunition as you gain piety.
 Okawaru schenkt dir jetzt Munition, als du Frömmigkeit erlangst.
 %%%%
 Okawaru will no longer gift you ammunition.
-Okawaru wird dich keine Munition mehr schenken.
+Okawaru wird dir keine Munition mehr schenken.
 %%%%
 Okawaru will gift you ammunition as you gain piety.
-Okawaru wird dich Munition schenken, als du Frömmigkeit erlangst.
+Okawaru wird dir Munition schenken, als du Frömmigkeit erlangst.
 %%%%
 speed up your combat
 Deinen Kampf beschleunigen
@@ -12562,7 +12562,7 @@ Okawaru will now gift you equipment as you gain piety.
 Okawaru schenkt dir nun Ausrüstung, als du Frömmigkeit erlangst.
 %%%%
 Okawaru will no longer gift you equipment.
-Okawaru wird dich keine Ausrüstung mehr schenken.
+Okawaru wird dir keine Ausrüstung mehr schenken.
 %%%%
 Okawaru will gift you equipment as you gain piety.
 Okawaru schenkt dir Ausrüstung, als du Frömmigkeit erlangst.
@@ -12595,13 +12595,13 @@ call upon Sif Muna to cast any spell from your library
 Sif Muna anrufen, um einen beliebigen Zauber aus deiner Bibliothek zu wirken
 %%%%
 Sif Muna will now gift you books as you gain piety.
-Sif Muna wird dich nun Bücher schenken, als du Frömmigkeit erlangst.
+Sif Muna wird dir nun Bücher schenken, als du Frömmigkeit erlangst.
 %%%%
 Sif Muna will no longer gift you books.
-Sif Muna wird dich keine Bücher mehr schenken.
+Sif Muna wird dir keine Bücher mehr schenken.
 %%%%
 Sif Muna will gift you books as you gain piety.
-Sif Muna wird dich Bücher schenken, als du Frömmigkeit erlangst.
+Sif Muna wird dir Bücher schenken, als du Frömmigkeit erlangst.
 %%%%
 go berserk at will
 nach Belieben in den Berserker gehen
@@ -12613,25 +12613,25 @@ call in reinforcements
 Verstärkung beschwören
 %%%%
 Trog will now gift you melee weapons as you gain piety.
-Trog wird dich jetzt Nahkampfwaffen schenken, als du Frömmigkeit erlangst.
+Trog wird dir jetzt Nahkampfwaffen schenken, als du Frömmigkeit erlangst.
 %%%%
 Trog will no longer gift you weapons.
-Trog wird dich keine Waffen mehr schenken.
+Trog wird dir keine Waffen mehr schenken.
 %%%%
 Trog will gift you melee weapons as you gain piety.
-Trog wird dich Nahkampfwaffen schenken, als du Frömmigkeit erlangst.
+Trog wird dir Nahkampfwaffen schenken, als du Frömmigkeit erlangst.
 %%%%
 draw from decks of power
 aus Decks der Macht ziehen
 %%%%
 Nemelex will now gift you decks of power as you gain piety.
-Nemelex wird dich jetzt Decks der Macht schenken, als du Frömmigkeit erlangst.
+Nemelex wird dir jetzt Decks der Macht schenken, als du Frömmigkeit erlangst.
 %%%%
 Nemelex will no longer gift you decks.
-Nemelex wird dich keine Decks mehr schenken.
+Nemelex wird dir keine Decks mehr schenken.
 %%%%
 Nemelex will gift you decks of power as you gain piety.
-Nemelex wird dich Decks der Macht schenken, als du Frömmigkeit erlangst.
+Nemelex wird dir Decks der Macht schenken, als du Frömmigkeit erlangst.
 %%%%
 choose one out of three cards
 eine von drei Karten auswählen
