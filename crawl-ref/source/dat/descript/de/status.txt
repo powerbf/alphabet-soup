@@ -5,7 +5,7 @@ Alle deine Aktionen sind 50% schneller.
 %%%%
 Invis status
 
-Ihr seid unsichtbar. Die meisten Feinde können dich nicht sehen und erleiden
+Du bist unsichtbar. Die meisten Feinde können dich nicht sehen und erleiden
 Abzüge für Treffer, obwohl sie deinen ungefähren Standort erraten können. Dies
 führt mit der Zeit zu magischer Kontamination und kann gefährliche
 Kontaminationsgrade verursachen, wenn Ihr bereits vor Erreichen dieses Status
@@ -15,7 +15,7 @@ Kontamination glüht oder in seichtem Wasser steht).
 %%%%
 Tele status
 
-Ihr seid dabei, dich zu teleportieren. Während Ihr auf die Teleportation wartet,
+Du bist dabei, dich zu teleportieren. Während Ihr auf die Teleportation wartet,
 wird die Teleportation abgebrochen, wenn Ihr versucht, den Status erneut
 anzuwenden (z. B. durch Verwendung einer Teleportationsrolle).
 %%%%
@@ -27,16 +27,16 @@ Zeitüberschreitung. Passt in diesem Fall auf, worüber Ihr dich befindet!
 %%%%
 Agi status
 
-Ihr seid unnatürlich beweglich und erhaltet einen Bonus für dein Ausweichen.
+Du bist unnatürlich beweglich und erhaltet einen Bonus für dein Ausweichen.
 %%%%
 Brill status
 
-Ihr seid unnatürlich schlau und erhaltet einen Bonus auf die Kraft deiner Zauber,
+Du bist unnatürlich schlau und erhaltet einen Bonus auf die Kraft deiner Zauber,
 während deine Manakosten halbiert werden (aufgerundet).
 %%%%
 Might status
 
-Ihr seid übernatürlich stark und richtet im Nahkampf deutlich mehr Schaden an.
+Du bist übernatürlich stark und richtet im Nahkampf deutlich mehr Schaden an.
 %%%%
 Regen status
 
@@ -58,7 +58,7 @@ Deine Willenskraft ist viel stärker und schützt vor vielen magischen Effekten.
 %%%%
 Berserk status
 
-Ihr seid schneller, verursacht im Kampf mehr Schaden und habt mehr Gesundheit,
+Du bist schneller, verursacht im Kampf mehr Schaden und habt mehr Gesundheit,
 könnt aber die meisten Aktionen außer Bewegen und Angreifen nicht ausführen. Der
 Status lässt sehr schnell nach, es sei denn, Ihr greift Monster an. Wenn er
 abläuft, seid Ihr verlangsamt und könnt für kurze Zeit nicht mehr in den
@@ -71,14 +71,14 @@ Berserkerwut geraten.
 %%%%
 Pois status
 
-Ihr seid vergiftet und verlieren kontinuierlich an Gesundheit. Während der
+Du bist vergiftet und verlieren kontinuierlich an Gesundheit. Während der
 Vergiftung wird deine aktuelle Gesundheit teilweise neu eingefärbt, um den
 eventuellen Giftschaden anzuzeigen, der verursacht wird. Vergiftungen können
 sofort mit Tränken des Gegenmittels geheilt werden.
 %%%%
 Conf status
 
-Ihr seid verwirrt. Ihr könnt in eine zufällige Richtung stolpern, wenn Ihr
+Du bist verwirrt. Ihr könnt in eine zufällige Richtung stolpern, wenn Ihr
 versucht, dich zu bewegen oder anzugreifen, und könnt weder Zauber wirken noch
 die meisten Gegenstände außer Tränken verwenden. Verwirrung kann sofort durch
 Tränke des Gegenmittels geheilt werden.
@@ -103,7 +103,7 @@ bis der Status abläuft.
 %%%%
 Exh status
 
-Ihr seid erschöpft und könnt keine göttlichen Kräfte aktivieren, die Erschöpfung
+Du bist erschöpft und könnt keine göttlichen Kräfte aktivieren, die Erschöpfung
 verursachen, bis der Status abläuft.
 %%%%
 Slow status
@@ -112,7 +112,7 @@ Alle deine Aktionen dauern 50% länger.
 %%%%
 Para status
 
-Ihr seid gelähmt und völlig handlungsunfähig.
+Du bist gelähmt und völlig handlungsunfähig.
 %%%%
 Sleep status
 
@@ -121,12 +121,12 @@ auf.
 %%%%
 Held status
 
-Ihr seid in einem Netz oder Spinnennetz gefangen. Ihr könnt dich nicht frei
+Du bist in einem Netz oder Spinnennetz gefangen. Ihr könnt dich nicht frei
 bewegen und werdet stattdessen versuchen, dich zu befreien.
 %%%%
 Constr status
 
-Ihr seid von einem Feind umschlungen und erleiden mit der Zeit immer mehr
+Du bist von einem Feind umschlungen und erleiden mit der Zeit immer mehr
 Schaden. Ihr könnt dich nicht vom Feind wegbewegen (oder blinzeln), obwohl Ihr
 versuchen könnt, zu entkommen, indem Ihr dies versucht, und wenn Ihr dies
 mehrmals versucht, wird die Wahrscheinlichkeit, dass Ihr Erfolg habt und die
@@ -134,7 +134,7 @@ Umschlingung durchbrecht, immer größer.
 %%%%
 Mesm status
 
-Ihr seid hypnotisiert und könnt dich nicht von dem Monster entfernen, das dich
+Du bist hypnotisiert und könnt dich nicht von dem Monster entfernen, das dich
 hypnotisiert. Der Effekt kann durch Töten oder Verwirren des verantwortlichen
 Monsters oder durch Unterbrechen der Sichtlinie zu ihm aufgehoben werden.
 %%%%
@@ -147,7 +147,7 @@ aufgehoben werden.
 %%%%
 -Tele status
 
-Ihr seid verhindert, dich zu teleportieren oder blinzeln.
+Du bist verhindert, dich zu teleportieren oder blinzeln.
 %%%%
 -Move status
 
@@ -162,12 +162,12 @@ nicht in ihrem Blickfeld befinden.
 %%%%
 Fire status
 
-Ihr seid mit klebrigem Feuer bedeckt, das innerhalb kurzer Zeit Schaden
+Du bist mit klebrigem Feuer bedeckt, das innerhalb kurzer Zeit Schaden
 verursacht. Das Betreten von Wasser löscht die Flammen.
 %%%%
 Corona status
 
-Ihr seid von Licht umgeben, was deine Verstohlenheit erheblich einschränkt und es
+Du bist von Licht umgeben, was deine Verstohlenheit erheblich einschränkt und es
 einfacher macht, dich zu treffen.
 %%%%
 Barbs status
@@ -178,21 +178,21 @@ Widerhaken entfernen, ohne Schaden zu nehmen.
 %%%%
 Sick status
 
-Ihr seid krank geworden und deine Gesundheit kann sich nicht mehr regenerieren.
+Du bist krank geworden und deine Gesundheit kann sich nicht mehr regenerieren.
 %%%%
 Vertigo status
 
-Ihr seid desorientiert und dich ist schwindelig, was deine Genauigkeit, dein
+Du bist desorientiert und dich ist schwindelig, was deine Genauigkeit, dein
 Ausweichvermögen und deine Erfolgsquote beim Zaubern verringert.
 %%%%
 Corr status
 
-Ihr seid korrodiert, wodurch dein Schaden im physischen Kampf und deine Rüstung
+Du bist korrodiert, wodurch dein Schaden im physischen Kampf und deine Rüstung
 um einen Betrag reduziert werden, der vom Schweregrad der Korrosion abhängt.
 %%%%
 Flay status
 
-Ihr seid mit illusionären Wunden bedeckt, die schweren Schaden verursachen,
+Du bist mit illusionären Wunden bedeckt, die schweren Schaden verursachen,
 solange der Effekt aktiv bleibt. Durch die Zerstörung der Quelle der Illusion
 wird die gesamte durch die Häutung verlorene Gesundheit wiederhergestellt.
 %%%%
@@ -202,7 +202,7 @@ Deine physischen Angriffe richten weniger Schaden an.
 %%%%
 Frozen status
 
-Ihr seid mit Eis bedeckt und deine Bewegungsgeschwindigkeit ist reduziert.
+Du bist mit Eis bedeckt und deine Bewegungsgeschwindigkeit ist reduziert.
 %%%%
 Sap status
 
@@ -211,21 +211,21 @@ die Wirkung verstärkt, was wiederum dazu führt, dass deine Erfolgsquote sinkt.
 %%%%
 Brainless status
 
-Deine Intelligenz ist auf 0 gesunken. Ihr seid verlangsamt, könnt keine Zauber
+Deine Intelligenz ist auf 0 gesunken. Du bist verlangsamt, könnt keine Zauber
 wirken oder memorisieren und beim Lesen von Schriftrollen scheitert Ihr
 normalerweise. Der Status bleibt auch nach der Wiederherstellung deiner
 Intelligenz für kurze Zeit bestehen.
 %%%%
 Clumsy status
 
-Deine Geschicklichkeit ist auf 0 gesunken. Ihr seid verlangsamt, könnt nicht
+Deine Geschicklichkeit ist auf 0 gesunken. Du bist verlangsamt, könnt nicht
 schleichen oder Schilde verwenden und seid fast völlig unfähig auszuweichen. Der
 Status bleibt auch nach Wiederherstellung deiner Geschicklichkeit noch kurze Zeit
 bestehen.
 %%%%
 Collapse status
 
-Deine Stärke ist auf 0 gesunken. Ihr seid verlangsamt und deine
+Deine Stärke ist auf 0 gesunken. Du bist verlangsamt und deine
 Gesundheitsregeneration ist stark reduziert. Der Status bleibt auch nach
 Wiederherstellung deiner Stärke noch kurze Zeit bestehen.
 %%%%
@@ -236,7 +236,7 @@ Lebewesen als geisterhafte Diener auferstehen.
 %%%%
 Vit status
 
-Ihr seid göttlich vitalisiert, was dich Schutz vor Gift, Verwirrung,
+Du bist göttlich vitalisiert, was dich Schutz vor Gift, Verwirrung,
 Versteinerung und Krankheit bietet und deine Kraft, Intelligenz und
 Geschicklichkeit steigert und erhält.
 %%%%
@@ -247,7 +247,7 @@ macht.
 %%%%
 Stone status
 
-Ihr seid versteinert und völlig handlungsunfähig. Ihr seid sehr leicht zu
+Du bist versteinert und völlig handlungsunfähig. Du bist sehr leicht zu
 treffen, aber der erlittene Schaden ist deutlich geringer.
 %%%%
 Petr status
@@ -258,7 +258,7 @@ Schaden wird leicht reduziert und bald werdet Ihr vollständig versteinert
 %%%%
 Resist status
 
-Ihr seid widerstandsfähiger gegen Feuer, Kälte, Elektrizität, Gift und Säure.
+Du bist widerstandsfähiger gegen Feuer, Kälte, Elektrizität, Gift und Säure.
 %%%%
 Slime status
 
@@ -276,7 +276,7 @@ Ihr kommt langsam voran.
 %%%%
 DDoor status
 
-Ihr seid vorübergehend unverwundbar, geratet dabei aber in Todesgefahr und könnt
+Du bist vorübergehend unverwundbar, geratet dabei aber in Todesgefahr und könnt
 nicht durch Heilung beeinflusst werden, solange der Effekt aktiv ist. Nachdem
 der Zauber abgelaufen ist, kann er nicht sofort erneut gewirkt werden.
 %%%%
@@ -291,14 +291,14 @@ QUAD-SCHADEN!
 %%%%
 Sil status
 
-Ihr seid zum Schweigen gebracht. Dadurch ist es unmöglich, Schriftrollen zu
+Du bist zum Schweigen gebracht. Dadurch ist es unmöglich, Schriftrollen zu
 lesen, Zauber zu wirken, göttliche Kräfte anzurufen oder zu schreien. Der
 bedrückende, unnatürliche Effekt behindert deine Verstohlenheit erheblich.
 %%%%
 Engulf status
 
 {{
-    local desc = "Ihr seid von einer benachbarten Kreatur verschlungen"
+    local desc = "Du bist von einer benachbarten Kreatur verschlungen"
 
     if not you.res_drowning() then
         desc = desc .. " und könnt nicht atmen. Ihr werdet zunehmend "
@@ -330,7 +330,7 @@ abgeklungen ist, kann er für kurze Zeit nicht erneut hervorgerufen werden.
 %%%%
 -Vortex status
 
-Ihr seid von instabilen Winden umgeben und könnt Polarwirbel für kurze Zeit
+Du bist von instabilen Winden umgeben und könnt Polarwirbel für kurze Zeit
 nicht erneut wirken.
 %%%%
 Liquid status
@@ -381,11 +381,11 @@ eine kurze Zeit nicht erneut rezitieren.
 %%%%
 rF- status
 
-Ihr seid anfälliger für Feuer.
+Du bist anfälliger für Feuer.
 %%%%
 rP- status
 
-Ihr seid anfälliger für Gift.
+Du bist anfälliger für Gift.
 %%%%
 PProj status
 
@@ -415,15 +415,15 @@ Ihr könnt keine Zaubertränke trinken.
 %%%%
 rF+ status
 
-Ihr seid widerstandsfähiger gegen Feuer.
+Du bist widerstandsfähiger gegen Feuer.
 %%%%
 rC+ status
 
-Ihr seid widerstandsfähiger gegen Kälte.
+Du bist widerstandsfähiger gegen Kälte.
 %%%%
 rElec+ status
 
-Ihr seid widerstandsfähiger gegen Elektrizität.
+Du bist widerstandsfähiger gegen Elektrizität.
 %%%%
 Horr status
 
@@ -507,10 +507,10 @@ Dragon status
                            "erhöht"
         end
         if you.race() == "Red Draconian" then
-            desc = desc .. ". Ihr seid sehr resistent gegen Feuer und Gift" ..
+            desc = desc .. ". Du bist sehr resistent gegen Feuer und Gift" ..
                            ", aber anfällig gegen Kälte"
         elseif you.race() == "White Draconian" then
-            desc = desc .. ". Ihr seid sehr resistent gegen Kälte und Gift" ..
+            desc = desc .. ". Du bist sehr resistent gegen Kälte und Gift" ..
                            ",aber anfällig gegen Feuer"
         elseif you.race() == "Green Draconian" then
             desc = desc .. " und behalte deine angeborene Farbe"
@@ -519,7 +519,7 @@ Dragon status
                            " auch resistent gegen Gift"
         end
     else
-        desc = desc .. ", feuerspeiender Drache verwandelt. Ihr seid sehr" ..
+        desc = desc .. ", feuerspeiender Drache verwandelt. Du bist sehr" ..
                        " resistent gegen Feuer und Gift, aber anfällig" ..
                        " gegen Kälte"
     end
@@ -527,17 +527,17 @@ Dragon status
     desc = desc .. "."
 
     return desc
-}} deine Nahkampfangriffe verursachen unglaublichen Schaden und Ihr seid viel
+}} deine Nahkampfangriffe verursachen unglaublichen Schaden und Du bist viel
 robuster, aber weniger ausweichend.
 
 Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen.
 %%%%
 Lich status
 
-Ihr wurdet in einen Lich verwandelt. Ihr seid resistent gegen Kälte und
+Ihr wurdet in einen Lich verwandelt. Du bist resistent gegen Kälte und
 feindliche Verhexungen und für die Dauer der Verwandlung vollkommen immun gegen
 Gift, negative Energie und Qual. deine Nekromantie-Zauber werden stärker und Ihr
-erhaltet einen auszehrenden Nahkampfangriff. Ihr seid jedoch auch anfällig für
+erhaltet einen auszehrenden Nahkampfangriff. Du bist jedoch auch anfällig für
 heiligen Schaden und Untote Vertreiben und könnt keine Tränke zu dir nehmen.
 %%%%
 Bat status
@@ -580,7 +580,7 @@ Tree status
 
 Ihr wurdet in einen Baum verwandelt und seid am Boden festgewurzelt. Ihr könnt
 dich nicht bewegen oder teleportieren. Du hast nur minimale
-Ausweichmöglichkeiten, aber mehr Gesundheit und natürliche Rüstung. Ihr seid
+Ausweichmöglichkeiten, aber mehr Gesundheit und natürliche Rüstung. Du bist
 resistent gegen Gift und immun gegen negative Energie.
 
 Alle ausgerüsteten Mäntel, Helme, Handschuhe, Stiefel und Körperpanzer sind
@@ -588,7 +588,7 @@ verschmolzen.
 %%%%
 Wisp status
 
-Ihr wurdet in einen körperlosen Gashauch verwandelt. Ihr seid äußerst
+Ihr wurdet in einen körperlosen Gashauch verwandelt. Du bist äußerst
 ausweichend und resistent gegen Feuer, Kälte, Elektrizität und Säure sowie immun
 gegen Gift und negative Energie.
 
@@ -599,10 +599,10 @@ ab.
 %%%%
 Fungus status
 
-Ihr wurdet in einen empfindungsfähigen Pilz verwandelt. Ihr seid sehr
+Ihr wurdet in einen empfindungsfähigen Pilz verwandelt. Du bist sehr
 ausweichend und könnt Sporen freisetzen, die bei Nahkampfangriffen Verwirrung
 stiften, können sich jedoch nicht bewegen, wenn feindliche Kreaturen anwesend
-sind. Ihr seid resistent gegen Gift und immun gegen negative Energie.
+sind. Du bist resistent gegen Gift und immun gegen negative Energie.
 
 Alle ausgerüsteten Waffen und Rüstungen sind verschmolzen und Ihr könnt keine
 Zauber wirken. Die Wirksamkeit deiner Nahkampfangriffe in dieser Form basiert auf
@@ -610,7 +610,7 @@ deiner Erfahrungsstufe und nicht auf deiner Fertigkeit im waffenlosen Kampf.
 %%%%
 Shadow status
 
-Ihr wurdet in eine wirbelnde Masse dunkler Schatten verwandelt. Ihr seid
+Ihr wurdet in eine wirbelnde Masse dunkler Schatten verwandelt. Du bist
 dauerhaft unsichtbar und immun gegen Gift, Auszehrung und Qual. Ankommender
 Schaden wird halbiert, Ihr blutet bei jedem Angriff Rauch und verfügt über
 unendliche Willenskraft. Allerdings ist deine Fähigkeit, im Nahkampf und mit
@@ -646,7 +646,7 @@ ausführt, verursachen erhöhten Schaden und verfehlen nie dein Ziel.
 %%%%
 Storm status
 
-Ihr seid von einem Sturm himmlischer Wolken umgeben. Während der Sturm tobt,
+Du bist von einem Sturm himmlischer Wolken umgeben. Während der Sturm tobt,
 sind deine Ausweichen und Kampfgenauigkeit sowie dein Schaden erheblich erhöht,
 und wenn Ihr Feinde mit Kampfangriffen trefft, wird dieser Bonus erhöht. Der
 Sturm schwächt sich mit der Zeit ab und verschwindet, sobald der Bonus Null
@@ -659,7 +659,7 @@ Auf diesem flüssigen Boden wird deine Bewegung verlangsamt.
 %%%%
 Alive status
 
-Ihr seid voller Blut und deine Gesundheit regeneriert sich schnell.
+Du bist voller Blut und deine Gesundheit regeneriert sich schnell.
 %%%%
 Aug status
 
@@ -674,7 +674,7 @@ Bloodless status
 
 Dein Körper ist völlig blutleer, was deine maximale Gesundheit verringert und
 deine Gesundheit daran hindert, sich zu regenerieren, wenn Monster sichtbar sind.
-Ihr seid immun gegen Gift und negative Energie, widerstehen Kälte erheblich und
+Du bist immun gegen Gift und negative Energie, widerstehen Kälte erheblich und
 sind resistent gegen Qualen.
 %%%%
 Bribe status

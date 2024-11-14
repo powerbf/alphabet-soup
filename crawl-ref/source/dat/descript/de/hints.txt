@@ -157,7 +157,7 @@ Community-Ressourcen bei http://crawl.develz.org/.
 %%%%
 HINT_CONVERT Xom
 
-Ihr seid gerade zur Anbetung von <w>Xom</w> konvertiert. Als Anhänger von Xom
+Du bist gerade zur Anbetung von <w>Xom</w> konvertiert. Als Anhänger von Xom
 werdet Ihr wie ein Spielzeug behandelt, dem Xom nach Belieben hilft oder
 schadet, um sich zu amüsieren.
 
@@ -166,13 +166,13 @@ ein Anhänger hoffen kann, ist, dass Xom sich nicht langweilt!
 %%%%
 HINT_CONVERT Gozag
 
-Ihr seid gerade zur Anbetung von <w>Gozag</w> konvertiert. Im Gegensatz zu
+Du bist gerade zur Anbetung von <w>Gozag</w> konvertiert. Im Gegensatz zu
 anderen Göttern interessiert sich Gozag nur für Gold; jede göttliche Fähigkeit
 kostet Gold, und deine Feinde verwandeln sich beim Tod in Gold.
 %%%%
 HINT_CONVERT Ru
 
-Ihr seid gerade zur Anbetung von <w>Ru</w> konvertiert. Im Gegensatz zu anderen
+Du bist gerade zur Anbetung von <w>Ru</w> konvertiert. Im Gegensatz zu anderen
 Göttern gewährt Ru Frömmigkeit (göttliche Gunst) im Austausch für dauerhafte
 Opfer, wie z. B. den Verzicht auf die die Fähigkeit, Tränke zu trinken, während
 man gefährdet ist, oder den Verlust der Fähigkeit, bestimmte Fertigkeiten zu
@@ -182,7 +182,7 @@ anbieten, als Ihr die Tiefen des Dungeons erforscht.
 %%%%
 HINT_CONVERT Uskayaw
 
-Ihr seid gerade zur Anbetung von <w>Uskayaw</w> konvertiert. Im Gegensatz zu
+Du bist gerade zur Anbetung von <w>Uskayaw</w> konvertiert. Im Gegensatz zu
 anderen Göttern kann man Uskayaws Gunst nicht nach und nach gewinnen, indem man
 den Dungeon erforscht oder Monster tötet. Stattdessen wird die Gunst von Uskayaw
 schnell im Kampf gewonnen, wenn man Schaden anrichtet. Je länger man im Kampf
@@ -192,7 +192,7 @@ und muss im nächsten Kampf wiedergewonnen werden.
 %%%%
 HINT_CONVERT
 
-Ihr seid gerade zur Anbetung von <w>{{ return you.god() }}</w> konvertiert.
+Du bist gerade zur Anbetung von <w>{{ return you.god() }}</w> konvertiert.
 Deine Frömmigkeit (göttliche Gunst) wird zunehmen, wenn Ihr Dinge tut, die deinem
 neuen Gott gefallen, und sie wird im Laufe der Zeit abnehmen.
 
@@ -678,7 +678,7 @@ umherwandernden Monster gestört zu werden. Drückt <w>$cmd[CMD_REST]</w> oder
 %%%%
 HINT_NEED_POISON_HEALING
 
-Ihr seid tödlich vergiftet, also wäre jetzt ein guter Zeitpunkt, einen
+Du bist tödlich vergiftet, also wäre jetzt ein guter Zeitpunkt, einen
 Heiltrank oder, noch besser, einen Trank des Gegenmittels zu trinken
 (<w>$cmd[CMD_QUAFF]</w>). Wenn Ihr bisher keinen von beiden gesehen habt,
 versucht es mit unbekannten Tränken in deinem Inventar. Viel Glück!
@@ -988,7 +988,7 @@ Ihr bekommt dafür keine Erfahrung.
 %%%%
 HINT_ABYSS
 
-Oh-oh, Ihr seid im Abgrund gelandet! Der Abgrund ist ein besonderer Ort, an dem
+Oh-oh, du bist im Abgrund gelandet! Der Abgrund ist ein besonderer Ort, an dem
 Ihr dich nicht erinnern kannst, wo Ihr wart. Er ist voller fieser Monster, und
 Ihr werdet wahrscheinlich sterben.
 

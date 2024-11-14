@@ -54,7 +54,7 @@ Ebene mit <input>$cmd[CMD_GO_DOWNSTAIRS]</input><localtiles> oder mit einem
 %%%%
 tutorial1 levelmap
 
-Was ist das? Um herauszufinden, wo Ihr seid, <tiles>müsst Ihr einen Blick auf die
+Was ist das? Um herauszufinden, wo du bist, <tiles>müsst Ihr einen Blick auf die
 <w>Mini-Karte</w> am rechten Bildschirmrand werfen.</tiles><localtiles> Ihr
 könnt einen näheren Blick auf einen Kartenausschnitt mit einem
 <input>Rechts-Klick</input> werfen und dann ebenso mit einem
@@ -558,7 +558,7 @@ Verbündeten zu schaden.
 %%%%
 tutorial4 tutorial_end
 
-Herzlichen Glückwunsch, Ihr seid jetzt ein echter Zauberer! Um die Einführung zu
+Herzlichen Glückwunsch, du bist jetzt ein echter Zauberer! Um die Einführung zu
 beenden, gehe einfach diese Stufen hinunter.
 %%%%
 tutorial4 exit
