@@ -99,22 +99,22 @@ You aren't ready to blinkbolt again yet.
 Du bist noch nicht bereit, Blinzelbolzen wieder zu verwenden.
 %%%%
 Turning back right now would cause you to burn!
-Wenn Ihr jetzt unverwandeln würdet, würdet Ihr brennen!
+Wenn du jetzt unverwandeln würdest, würdest du brennen!
 %%%%
 Turning back right now would cause you to drown!
-Wenn Ihr jetzt unverwandeln würdet, würdet Ihr ertrinken!
+Wenn du jetzt unverwandeln würdest, würdest du ertrinken!
 %%%%
 Becoming bloodless right now would cause you to burn!
-Wenn Ihr jetzt blutlos werden würdet, würdet Ihr brennen!
+Wenn du jetzt blutlos werden würdest, würdest du brennen!
 %%%%
 Becoming bloodless right now would cause you to drown!
-Wenn Ihr jetzt blutlos werden würdet, würdet Ihr ertrinken!
+Wenn du jetzt blutlos werden würdest, würdest du ertrinken!
 %%%%
 Becoming alive right now would cause you to burn!
-Wenn Ihr jetzt lebendig werden würdet, würdet Ihr brennen!
+Wenn du jetzt lebendig werden würdest, würdest du brennen!
 %%%%
 Becoming alive right now would cause you to drown!
-Wenn Ihr jetzt lebendig werden würdet, würdet Ihr ertrinken!
+Wenn du jetzt lebendig werden würdest, würdest du ertrinken!
 %%%%
 You cannot call out to %s while unable to breath.
 Du kannst {acc}%s nicht anrufen, solange du nicht atmen kannst.
@@ -3503,7 +3503,7 @@ Du kannst maximal %d durch diesen Zauber beschwörene Kreaturen erhalten.
 %s missbilligt die Verwendung dieses Zaubers.
 %%%%
 You'd be excommunicated if you dared to cast it!
-Ihr würdet exkommuniziert werden, wenn Ihr es wagen würdet, ihn zu wirken!
+Du würdest exkommuniziert werden, wenn du es wagen würdest, ihn zu wirken!
 %%%%
 %s supports the use of this spell.
 %s unterstützt die Verwendung dieses Zaubers.
@@ -6902,7 +6902,7 @@ This is a scroll of acquirement!
 Dies ist eine Schriftrolle des Erwerbs!
 %%%%
 Anything you acquired here would fall and be lost!
-Alles, was Ihr hier erwerben würdet, würde fallen und verloren gehen!
+Alles, was du hier erwerben würdest, würde fallen und verloren gehen!
 %%%%
 You assume a fearsome visage.
 Du nimmst ein furchterregendes Gesicht an.
@@ -12823,7 +12823,7 @@ You will no longer bleed smoke.
 Ihr blutet keinen Rauch mehr.
 %%%%
 You sometimes bleed smoke when heavily injured by enemies.
-Ihr blutet manchmal Rauch, wenn Ihr von Feinden schwer verletzt würdet.
+du blutet manchmal Rauch, wenn Ihr von Feinden schwer verletzt würdest.
 %%%%
 Your shadow now sometimes tangibly mimics your actions.
 Dein Schatten ahmt jetzt manchmal deine Handlungen spürbar nach.
@@ -16866,10 +16866,10 @@ Du trittst aus den Schatten hervor.
 %s löst sich von deinem Körper.
 %%%%
 You would drown in your new form.
-Ihr würdet in deiner neuen Form ertrinken.
+Du würdest in deiner neuen Form ertrinken.
 %%%%
 You would burn in your new form.
-Ihr würdet in deiner neuen Form verbrennen.
+Du würdest in deiner neuen Form verbrennen.
 %%%%
 Transforming will reduce your strength to zero. Continue?
 Die Verwandlung wird deine Stärke auf Null reduzieren. Fortfahren?
