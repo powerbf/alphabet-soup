@@ -342,7 +342,7 @@ You're too exhausted to unleash your apocalyptic power.
 Du bist zu erschöpft, deine apokalyptische Kraft freizusetzen.
 %%%%
 You are already lashing out.
-Ihr schlagt schon aus.
+Du schlägst schon aus.
 %%%%
 You are too exhausted to lash out.
 Du bist zu erschöpft auszuschlagen.
@@ -1168,7 +1168,7 @@ You pounce on %s from a blind spot!
 Ihr stürzt dich von einem blinden Fleck auf {acc}%s!
 %%%%
 You strike %s from a blind spot!
-Ihr schlagt {acc}%s aus einem blinden Fleck!
+Du schlägst {acc}%s aus einem blinden Fleck!
 %%%%
 You catch %s momentarily off-guard.
 Ihr erwischt {acc}%s für einen Moment unachtsam.
@@ -1180,7 +1180,7 @@ You pounce on %s from behind!
 Ihr stürzt dich von hinten auf {acc}%s!
 %%%%
 You strike %s from behind!
-Ihr schlagt {acc}%s von hinten!
+Du schlägst {acc}%s von hinten!
 %%%%
 You pounce on %s unawares!
 Ihr stürzt dich unversehens auf {acc}%s!
@@ -7845,7 +7845,7 @@ your tail-slap
 dein Schwanzschlag
 %%%%
 You tail-slap %s
-Ihr schlagt {acc}%s mit dem Schwanz
+Du schlägst {acc}%s mit dem Schwanz
 %%%%
 your punch
 dein Faustschlag
@@ -7866,7 +7866,7 @@ You claw %s
 Ihr zerkratzt {acc}%s
 %%%%
 You tentacle-slap %s
-Ihr schlagt {acc}%s mit deinem Tentakel
+Du schlägst {acc}%s mit deinem Tentakel
 %%%%
 your bite
 dein Biss
@@ -7923,7 +7923,7 @@ You hit %s
 Ihr trefft {acc}%s
 %%%%
 You clumsily bash %s
-Ihr schlagt {acc}%s ungeschickt
+Du schlägst {acc}%s ungeschickt
 %%%%
 You puncture %s
 Ihr stecht {acc}%s durch
@@ -7998,7 +7998,7 @@ You crush %s like a grape
 Ihr zerquetscht {acc}%s wie eine Traube
 %%%%
 You beat %s like a drum
-Ihr schlagt {acc}%s wie eine Trommel
+Du schlägst {acc}%s wie eine Trommel
 %%%%
 You hammer %s like a gong
 Ihr hämmert {acc}%s wie einen Gong
@@ -8085,7 +8085,7 @@ You squash %s like an ant
 Ihr zerquetscht {acc}%s wie eine Ameise
 %%%%
 You beat %s into a bloody pulp
-Ihr schlagt {acc}%s zu blutigem Brei
+Du schlägst {acc}%s zu blutigem Brei
 %%%%
 The flame cauterises the wound!
 Die Flamme kauterisiert die Wunde!
@@ -11922,10 +11922,10 @@ You slam %s shut, pushing everything out of the way!
 Ihr knallt {acc}%s zu und schiebt damit alles aus dem Weg!
 %%%%
 You slam %s shut with a bang!
-Ihr schlagt {acc}%s mit einem Knall zu!
+Du schlägst {acc}%s mit einem Knall zu!
 %%%%
 You slam %s shut with a bang, pushing everything out of the way!
-Ihr schlagt {acc}%s mit einem Knall zu und schiebt damit alles aus dem Weg!
+Du schlägst {acc}%s mit einem Knall zu und schiebt damit alles aus dem Weg!
 %%%%
 As you close %s, it creaks loudly!
 Ihr schließt {acc}%s, und erzeugt damit ein lautes Knarren!
@@ -14535,7 +14535,7 @@ Zin imprisons %s with walls of pure silver!
 Zin sperrt {acc}%s mit Wänden aus reinem Silber ein!
 %%%%
 You smite %s!
-Ihr schlagt {acc}%s!
+Du schlägst {acc}%s!
 %%%%
 You are blasted by holy energy!
 Du wirst von heiliger Energie gestoßen!
