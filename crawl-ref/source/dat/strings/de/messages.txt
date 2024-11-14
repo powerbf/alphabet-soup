@@ -16558,22 +16558,22 @@ That is likely to hit you. Continue anyway?
 Das wird dich wahrscheinlich treffen. Trotzdem weitermachen?
 %%%%
 You toss away %s.
-Ihr werft {acc}%s weg.
+Du wirfst {acc}%s weg.
 %%%%
 You shoot %s.
 Ihr schießt {acc}%s.
 %%%%
 You throw %s.
-Ihr werft {acc}%s.
+Du wirfst {acc}%s.
 %%%%
 You magically toss away %s.
-Ihr werft auf magische Weise {acc}%s weg.
+Du wirfst auf magische Weise {acc}%s weg.
 %%%%
 You magically shoot %s.
 Ihr schießt auf magische Weise {acc}%s.
 %%%%
 You magically throw %s.
-Ihr werft auf magische Weise {acc}%s.
+Du wirfst auf magische Weise {acc}%s.
 %%%%
 %s shoots %s.
 %s schießt {acc}%s.
