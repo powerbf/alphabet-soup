@@ -39,7 +39,7 @@ Nach Gegenständen/Strukture suchen
 %%%%
 CMD_SEARCH_STASHES verbose
 
-Nach Gegenständen/Strukture suchen, die Ihr woanders gesehen habt. Danach
+Nach Gegenständen/Strukture suchen, die du woanders gesehen hast. Danach
 dich dort hin begeben.
 %%%%
 CMD_REPLAY_MESSAGES
@@ -100,7 +100,7 @@ Spiel speichern und verlassen
 %%%%
 CMD_SAVE_GAME_NOW verbose
 
-Das Spiel speichern und verlassen. Sobald Ihr das Spiel fortsetzt,
+Das Spiel speichern und verlassen. Sobald du das Spiel fortsetzt,
 wird die Speicherdatei gelöscht.
 %%%%
 CMD_EDIT_PLAYER_TILE
@@ -211,7 +211,7 @@ Gegenstand ablegen
 %%%%
 CMD_DROP verbose
 
-Einen oder mehrere Gegenstände, die Ihr gerade bei dir habt, ablegen.
+Einen oder mehrere Gegenstände, die du gerade bei dir hast, ablegen.
 %%%%
 CMD_DISPLAY_MAP
 
@@ -287,7 +287,7 @@ Ebene anzeigen
 %%%%
 CMD_MAP_GOTO_LEVEL verbose
 
-Eine andere Ebene anzeigen, indem Ihr Abzweig und Tiefe wählt.
+Eine andere Ebene anzeigen, indem du Abzweig und Tiefe wählst.
 %%%%
 CMD_MAP_FIND_UPSTAIR
 
