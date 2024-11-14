@@ -284,7 +284,7 @@ _friendly_imp_rare_
 
 @The_monster@ sagt, "Oh-oh! Wartet. OK."
 
-@The_monster@ sagt, "Ihr seid so viel netter als mein letzter Chef."
+@The_monster@ sagt, "Du bist so viel netter als mein letzter Chef."
 
 @The_monster@ schreit, "Bleibt zurück! Es könnte [ein Trick|ein Schachzug|eine Falle] sein!"
 
@@ -666,7 +666,7 @@ VISUAL:@The_monster@ schüttelt.
 
 VISUAL:@The_monster@ scheint plötzlich sehr wütend auf den Dungeon zu sein.
 
-@The_monster@ @asks_foe@, "Wer seid Ihr?"
+@The_monster@ @asks_foe@, "Wer bist du?"
 
 @The_monster@ @asks_foe@, "Was zum Teufel machen wir hier? Hmm, ich verstehe..."
 
@@ -823,7 +823,7 @@ _friendly_humanoid_medium_
 
 @The_monster@ sagt, "Es ist schön, Freunde zu haben."
 
-@The_monster@ sagt, "@player_name@, Ihr seid mein einziger Freund."
+@The_monster@ sagt, "@player_name@, du bist mein einziger Freund."
 
 @The_monster@ schreit, "Keine Gnade! Tötet sie alle!"
 

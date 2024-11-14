@@ -165,9 +165,9 @@ _rare_chatter_
 
 @Your_weapon@ sagt: "Wir werden das Gold teilen! Fifty-fifty!"
 
-@Your_weapon@ sagt: "Ihr seid ziemlich gut, für {acc}@a_player_genus@."
+@Your_weapon@ sagt: "Du bist ziemlich gut, für {acc}@a_player_genus@."
 
-@Your_weapon@ seufzt, "Ich werde dich vermissen, wenn Ihr tot seid, @player_name@."
+@Your_weapon@ seufzt, "Ich werde dich vermissen, wenn du tot bist, @player_name@."
 
 ###############################################################################
 # Weapon noises.
@@ -859,7 +859,7 @@ w:1
 
 @The_weapon@ beklagt sich, "Das ist eine lästige Pflicht."
 
-@The_weapon@ urteilt, "Ihr seid kein Künstler, bestenfalls ein Handwerker."
+@The_weapon@ urteilt, "Du bist kein Künstler, bestenfalls ein Handwerker."
 
 @The_weapon@ sagt, "Man wird mich aus deinen kalten, toten Händen reißen müssen."
 
