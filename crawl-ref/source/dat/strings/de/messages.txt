@@ -219,10 +219,10 @@ You breathe a blast of fire!
 Du spuckst einen Feuerstoß aus!
 %%%%
 You exhale a wave of freezing cold.
-Ihr atmet eine Welle eisiger Kälte aus.
+Du atmest eine Welle eisiger Kälte aus.
 %%%%
 You exhale a blast of poison gas.
-Ihr atmet einen Schwall von Giftgas aus.
+Du atmest einen Schwall von Giftgas aus.
 %%%%
 You breathe a wild blast of lightning!
 Du spuckst einen wilden Blitzschlag!
@@ -231,10 +231,10 @@ You breathe a bolt of dispelling energy.
 Du spuckst einen Stoß vertreibender Energie.
 %%%%
 You exhale a blast of scalding steam.
-Ihr atmet einen Stoß brühenden Dampfes aus.
+Du atmest einen Stoß brühenden Dampfes aus.
 %%%%
 You exhale a blast of noxious fumes.
-Ihr atmet einen Stoß schädlicher Dämpfe aus.
+Du atmest einen Stoß schädlicher Dämpfe aus.
 %%%%
 The folds of your robe billow into a mighty storm.
 Die Falten deines Gewandes bauschen sich zu einem mächtigen Sturm.
@@ -270,7 +270,7 @@ Another wave of unholy energy enters you.
 Noch eine Welle unheiliger Energie tritt in dich ein.
 %%%%
 You offer yourself to %s, and are filled with unholy energy.
-Ihr bietet dich {dat}%s an, und wirst voller unheiliger Energie gefüllt.
+Du bietest dich {dat}%s an, und wirst voller unheiliger Energie gefüllt.
 %%%%
 There are no remains here to animate!
 Es gibt hier keine Überreste zum Animieren!
@@ -297,7 +297,7 @@ You feel more confident with your borrowed prowess.
 Du hast mehr Selbstvertrauen in deine geliehenen Fähigkeiten.
 %%%%
 You gain the combat prowess of a mighty hero.
-Ihr erhaltet die Kampffähigkeit eines mächtigen Helden.
+Du erhältst die Kampffähigkeit eines mächtigen Helden.
 %%%%
 %s gets new energy.
 %s erhält neue Energie.
@@ -312,7 +312,7 @@ You renew your call for help.
 Ihr erneuert deinen Hilferuf.
 %%%%
 You beseech %s to protect your life.
-Ihr bittet {acc}%s, dein Leben zu beschützen.
+Du bittest {acc}%s, dein Leben zu beschützen.
 %%%%
 You are healed.
 Du wirst geheilt.
@@ -573,7 +573,7 @@ Ihr knallt gegen {acc}%s!
 %s knallt gegen {acc}%s!
 %%%%
 You violently stop moving!
-Ihr haltet gewaltsam an, dich zu bewegen!
+Du hältst gewaltsam an, dich zu bewegen!
 %%%%
 %s violently stops moving!
 %s hält gewaltsam an, sich zu bewegen!
@@ -746,7 +746,7 @@ The staff's sickly green glow vanishes.
 Das kränklich grüne Leuchten des Steckens verschwindet.
 %%%%
 You envenom %s
-Ihr vergiftet {acc}%s
+Du vergiftest {acc}%s
 %%%%
 %s envenoms you
 %s vergiftet dich
@@ -854,7 +854,7 @@ Mutagenic energy flows through the plutonium sword!
 Mutagene Energie fließt durch das Plutoniumschwert!
 %%%%
 You cleave %s in twain.
-Ihr spaltet {acc}%s in zwei Hälften.
+Du spaltest {acc}%s in zwei Hälften.
 %%%%
 You pulverise %s into a thin bloody mist.
 Ihr pulverisiert {acc}%s zu einem dünnen blutigen Nebel.
@@ -872,10 +872,10 @@ You chop %s into pieces.
 Ihr hackt {acc}%s in Stücke.
 %%%%
 You butcher %s messily.
-Ihr schlachtet {acc}%s unordentlich.
+Du schlachtest {acc}%s unordentlich.
 %%%%
 You slaughter %s joyfully.
-Ihr schlachtet {acc}%s freudig.
+Du schlachtest {acc}%s freudig.
 %%%%
 %s cleaves you in twain.
 %s spaltet dich in zwei Hälften.
@@ -926,7 +926,7 @@ Ihr schlachtet {acc}%s freudig.
 %s schlachtet {acc}%s freudig ab.
 %%%%
 You cleave yourself in twain.
-Ihr spaltet dich selbst in zwei Hälften.
+Du spaltest dich selbst in zwei Hälften.
 %%%%
 You pulverise yourself into a thin bloody mist.
 Ihr pulverisiert dich selbst zu einem dünnen blutigen Nebel.
@@ -944,10 +944,10 @@ You chop yourself into pieces.
 Ihr hackt dich selbst in Stücke.
 %%%%
 You butcher yourself messily.
-Ihr schlachtet dich chaotisch ab.
+Du schlachtest dich chaotisch ab.
 %%%%
 You slaughter yourself joyfully.
-Ihr schlachtet dich freudig.
+Du schlachtest dich freudig.
 %%%%
 %s is pulverised into a thin bloody mist.
 %s wird zu einem dünnen blutigen Nebel pulverisiert.
@@ -1836,7 +1836,7 @@ To return, you must find a gate leading back.
 Um zurückzukehren, müsst Ihr ein Tor finden, das zurückführt.
 %%%%
 You land on top of a ziggurat so tall you cannot make out the ground.
-Ihr landet auf einer Zikkurat, die so hoch ist, dass man den Boden nicht erkennen kann.
+Du landest auf einer Zikkurat, die so hoch ist, dass man den Boden nicht erkennen kann.
 %%%%
 You enter an inter-dimensional bazaar!
 Du betrittst einen interdimensionalen Basar!
@@ -2566,7 +2566,7 @@ You are under penance.
 Ihr steht unter Buße.
 %%%%
 You should show more discipline.
-Ihr solltet mehr Disziplin zeigen.
+Du solltest mehr Disziplin zeigen.
 %%%%
 A prized avatar of %s.
 Ein geschätzter Avatar von {dat}%s.
@@ -2774,10 +2774,10 @@ You radiate a small righteous aura, and others within it are easier to hit.
 Du strahlst eine kleine, rechtschaffene Aura aus, und andere, die sich darin befinden, sind leichter zu treffen.
 %%%%
 You gain magic and health when your fellow slimes consume items.
-Ihr erhaltet Magie und Gesundheit, wenn deine Mitschleimlinge Gegenstände verbrauchen.
+Du erhältst Magie und Gesundheit, wenn deine Mitschleimlinge Gegenstände verbrauchen.
 %%%%
 You gain magic when your fellow slimes consume items.
-Ihr erhaltet Magie, wenn deine Mitschleimlinge Gegenstände konsumieren.
+Du erhältst Magie, wenn deine Mitschleimlinge Gegenstände konsumieren.
 %%%%
 You can walk through plants and fire through allied plants.
 Du kannst durch Pflanzen gehen und durch verbündete Pflanzen feuern.
@@ -7950,7 +7950,7 @@ You perforate %s like a sieve
 Ihr durchlöchert {acc}%s wie ein Sieb
 %%%%
 You slice %s
-Ihr schneidet {acc}%s
+Du schneidest {acc}%s
 %%%%
 You dice %s like an onion
 Ihr würfelt {acc}%s wie eine Zwiebel
@@ -7968,13 +7968,13 @@ You shave %s
 Ihr schabt {acc}%s
 %%%%
 You open %s like a pillowcase
-Ihr öffnet {acc}%s wie einen Kissenbezug
+Du öffnest {acc}%s wie einen Kissenbezug
 %%%%
 You slice %s like a ripe choko
-Ihr schneidet {acc}%s wie eine reife Chayote
+Du schneidest {acc}%s wie eine reife Chayote
 %%%%
 You cut %s into ribbons
-Ihr schneidet {acc}%s in Bänder
+Du schneidest {acc}%s in Bänder
 %%%%
 You carve %s like a ham
 Ihr tranchiert {acc}%s wie einen Schinken
@@ -8019,7 +8019,7 @@ You punish %s, causing immense pain
 Ihr bestraft {acc}%s und verursacht immensen Schmerz
 %%%%
 You devastate %s
-Ihr verwüstet {acc}%s
+Du verwüstest {acc}%s
 %%%%
 You shred %s
 Ihr zerreißt {acc}%s
@@ -8067,7 +8067,7 @@ You mangle %s
 Ihr zerfleischt {acc}%s
 %%%%
 You eviscerate %s
-Ihr weidet {acc}%s aus
+Du weidest {acc}%s aus
 %%%%
 You squash %s like the proverbial ant
 Ihr zerquetscht {acc}%s wie die sprichwörtliche Ameise
@@ -8097,7 +8097,7 @@ You rip %s last head off!
 Ihr reißt den letzten Kopf %s ab!
 %%%%
 You chop %s last head off!
-Ihr schneidet den letzten Kopf %s ab!
+Du schneidest den letzten Kopf %s ab!
 %%%%
 %s rips %s last head off!
 %s reißt den letzten Kopf %s ab!
@@ -8109,7 +8109,7 @@ You rip one of %s heads off!
 Ihr reißt einen der Köpfe %s ab!
 %%%%
 You chop one of %s heads off!
-Ihr schneidet einen der Köpfe %s ab!
+Du schneidest einen der Köpfe %s ab!
 %%%%
 %s rips one of %s heads off!
 %s reißt einen der Köpfe %s ab!
@@ -9428,7 +9428,7 @@ You destroy %s!
 Ihr zerstört {acc}%s!
 %%%%
 You kill %s!
-Ihr tötet {acc}%s!
+Du tötest {acc}%s!
 %%%%
 That felt strangely unrewarding.
 Das fühlte sich seltsam unergiebig an.
@@ -10421,7 +10421,7 @@ Etwas hat dich unerwartet blockiert und dich daran gehindert, zu randalieren!
 %%%%
 # note: through the fungus or through the plants
 You stride quickly through %s towards %s!
-Ihr schreitet schnell durch {acc}%s auf {acc}%s zu!
+Du schreitest schnell durch {acc}%s auf {acc}%s zu!
 %%%%
 You rampage quickly through %s towards %s!
 Ihr randaliert schnell durch {acc}%s auf {acc}%s zu!
@@ -10430,7 +10430,7 @@ the plants
 die Pflanzen
 %%%%
 You stride towards %s!
-Ihr schreitet auf {acc}%s zu!
+Du schreitest auf {acc}%s zu!
 %%%%
 You rampage towards %s!
 Ihr randaliert auf {acc}%s zu!
@@ -11590,7 +11590,7 @@ You feel less contaminated with magical energies.
 Du fühlst dich weniger mit magischen Energien kontaminiert.
 %%%%
 You fade completely from view now that you are no longer glowing from magical contamination.
-Ihr verschwindet völlig aus dem Blickfeld, da Ihr nun nicht mehr durch magische Verseuchung glüht.
+Du verschwindest völlig aus dem Blickfeld, da Ihr nun nicht mehr durch magische Verseuchung glüht.
 %%%%
 You feel momentarily confused.
 Du fühlst dich momentan verwirrt.
@@ -11901,7 +11901,7 @@ You reach down and open %s.
 Ihr greift nach unten und öffnet {acc}%s.
 %%%%
 You open %s.
-Ihr öffnet {acc}%s.
+Du öffnest {acc}%s.
 %%%%
 Something is blocking %s!
 Etwas blockiert {acc}%s!
@@ -12042,10 +12042,10 @@ your !!!QUAD DAMAGE!!!
 deines !!!VIERFACH-SCHADENS!!!
 %%%%
 You fade into invisibility!
-Ihr verschwindet in die Unsichtbarkeit!
+Du verschwindest in die Unsichtbarkeit!
 %%%%
 You fade further into invisibility.
-Ihr verschwindet weiter in die Unsichtbarkeit!
+Du verschwindest weiter in die Unsichtbarkeit!
 %%%%
 %s appreciates the memories.
 %s weiß die Erinnerungen zu schätzen.
@@ -12276,7 +12276,7 @@ You attack %s.
 Ihr greift %s an.
 %%%%
 You could not reach far enough!
-Ihr konntet nicht weit genug kommen!
+Du konntest nicht weit genug kommen!
 %%%%
 You reach to attack!
 Ihr greift an, um anzugreifen!
@@ -12817,10 +12817,10 @@ step into the shadows of nearby creatures
 In die Schatten von Kreaturen in der Nähe treten
 %%%%
 You will now sometimes bleed smoke when heavily injured by enemies.
-Ihr blutet jetzt manchmal Rauch, wenn du von Feinden schwer verletzt wirst.
+Du blutest jetzt manchmal Rauch, wenn du von Feinden schwer verletzt wirst.
 %%%%
 You will no longer bleed smoke.
-Ihr blutet keinen Rauch mehr.
+Du blutest keinen Rauch mehr.
 %%%%
 You sometimes bleed smoke when heavily injured by enemies.
 du blutet manchmal Rauch, wenn Ihr von Feinden schwer verletzt würdest.
@@ -14269,7 +14269,7 @@ You might harm nearby allies! Ignite poison anyway?
 Du kannstet Verbündete in der Nähe verletzen! Trotzdem Gift entzünden?
 %%%%
 You ignite the poison in your surroundings!
-Ihr entzündet das Gift in deiner Umgebung!
+Du entzündest das Gift in deiner Umgebung!
 %%%%
 %s ignites the poison in the surroundings!
 %s entzündet das Gift in der Umgebung!
@@ -15213,7 +15213,7 @@ Nothing appears to have answered your call.
 Nichts scheint auf deinen Anruf geantwortet zu haben.
 %%%%
 You finish recalling your allies.
-Ihr beendet die Erinnerung an deine Verbündeten.
+Du beendest die Erinnerung an deine Verbündeten.
 %%%%
 Please select a wall.
 Bitte eine Wand auswählen.
@@ -15407,7 +15407,7 @@ It doesn't seem very happy.
 Er scheint nicht sehr glücklich zu sein.
 %%%%
 You open a gate to Pandemonium!
-Ihr öffnet ein Tor zu Pandämonium!
+Du öffnest ein Tor zu Pandämonium!
 %%%%
 Wisps of shadow whirl around you...
 Schattenfetzen wirbeln um dich herum...
@@ -16728,13 +16728,13 @@ Your transformation has ended.
 Deine Verwandlung ist beendet.
 %%%%
 You had blades for front paws.
-Ihr hattet Klingen für Vorderpfoten.
+Du hattest Klingen für Vorderpfoten.
 %%%%
 You had blades for main tentacles.
-Ihr hattet Klingen für Haupttentakel.
+Du hattest Klingen für Haupttentakel.
 %%%%
 You had blades for hands.
-Ihr hattet Klingen für Hände.
+Du hattest Klingen für Hände.
 %%%%
 You have blades for front paws.
 Du hast Klingen für Vorderpfoten.
@@ -16776,7 +16776,7 @@ Your hands revert to their normal proportions.
 Deine Hände kehren zu ihren normalen Proportionen zurück.
 %%%%
 You inwardly fear your resemblance to a lawn ornament.
-Ihr fürchtet dich innerlich vor deiner Ähnlichkeit mit einer Gartendekoration.
+Du fürchtest dich innerlich vor deiner Ähnlichkeit mit einer Gartendekoration.
 %%%%
 Your body stiffens and grows slower.
 Dein Körper versteift sich und wird langsamer.
@@ -16920,7 +16920,7 @@ Your lifeless body cannot sustain the wereblood!
 Dein lebloser Körper kann das Werwolfsblut nicht aushalten!
 %%%%
 You fade into the shadows.
-Ihr verschwindet in den Schatten.
+Du verschwindest in den Schatten.
 %%%%
 You feel less conspicuous.
 Du fühlst dich weniger auffällig.
@@ -17021,7 +17021,7 @@ Ihr löst den Alarm aus!
 %s ertönt mit einem schrillen Heulen!
 %%%%
 You avoid triggering a blade trap.
-Ihr vermeidet es, eine Klingenfalle auszulösen.
+Du vermeidest es, eine Klingenfalle auszulösen.
 %%%%
 A huge blade swings just past you!
 Eine riesige Klinge schwingt direkt an dich vorbei!
@@ -17051,7 +17051,7 @@ Something launches a net on you.
 Etwas wirft ein Netz auf dich.
 %%%%
 You avoid being caught in a net.
-Ihr vermeidet es, dich in einem Netz zu verfangen.
+Du vermeidest es, dich in einem Netz zu verfangen.
 %%%%
 The net is torn apart by your bulk.
 Das Netz wird durch deine Masse zerrissen.
@@ -17117,7 +17117,7 @@ You hear a soft click.
 Du hörst ein leises Klicken.
 %%%%
 You avoid triggering %s.
-Ihr vermeidet es, {acc}%s auszulösen.
+Du vermeidest es, {acc}%s auszulösen.
 %%%%
 %s avoids triggering %s.
 %s vermeidet das Auslösen von {dat}%s.
@@ -18164,7 +18164,7 @@ That god doesn't seem to exist!
 Dieser Gott scheint nicht zu existieren!
 %%%%
 You suffer the terrible wrath of No God.
-Ihr leidet den schrecklichen Zorn von 'Keinem Gott'.
+Du leidest den schrecklichen Zorn von 'Keinem Gott'.
 %%%%
 %s is not feeling wrathful today.
 %s fühlt sich heute nicht zornig.

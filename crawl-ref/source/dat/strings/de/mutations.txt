@@ -270,7 +270,7 @@ bleed smoke
 Rauch bluten
 %%%%
 You bleed smoke when taking damage.
-Ihr blutet Rauch, wenn du Schaden nimmst.
+Du blutest Rauch, wenn du Schaden nimmst.
 %%%%
 # unnamed mutation
 Your attacks are insubstantial and do half damage.
@@ -2244,7 +2244,7 @@ Your body vibrates.
 Dein Körper vibriert.
 %%%%
 You briefly stop moving.
-Ihr haltet kurz inne.
+Du hältst kurz inne.
 %%%%
 Your melee attacks may debilitate your foes.
 Deine Nahkampfangriffe können deine Feinde schwächen.
@@ -2565,7 +2565,7 @@ You take more damage. (AC -10)
 Du nimmst mehr Schaden. (RK -10)
 %%%%
 You take considerably more damage. (AC -15)
-Ihr erleidet erheblich mehr Schaden. (RK -15)
+Du erleidest erheblich mehr Schaden. (RK -15)
 %%%%
 You feel more vulnerable to harm.
 Du fühlst dich anfälliger für Schaden.
@@ -2835,7 +2835,7 @@ multi-lived
 mehrlebend
 %%%%
 You gain extra lives every three experience levels.
-Ihr erhaltet alle drei Erfahrungsstufen zusätzliche Leben.
+Du erhältst alle drei Erfahrungsstufen zusätzliche Leben.
 %%%%
 You are no longer multi-lived.
 Du bist nicht mehr mehrlebend.
@@ -2937,7 +2937,7 @@ You feel mystic power welling inside you.
 Du spürst, wie mystische Kraft in dir aufsteigt.
 %%%%
 You feel a greater respect for book-learning.
-Ihr empfindet mehr Respekt vor dem Lernen mit Büchern.
+Du empfindest mehr Respekt vor dem Lernen mit Büchern.
 %%%%
 hp casting
 HP-Zauberei
