@@ -708,7 +708,7 @@ während des Berserkens hält diese länger an.
 %%%%
 HINT_POSTBERSERK
 
-Berserken ist extrem anstrengend! Danach seid Ihr verlangsamt und könnt erst
+Berserken ist extrem anstrengend! Danach bist du verlangsamt und könnt erst
 wieder berserkern, wenn deine Erschöpfung abgeklungen ist.
 %%%%
 HINT_RUN_AWAY_1
