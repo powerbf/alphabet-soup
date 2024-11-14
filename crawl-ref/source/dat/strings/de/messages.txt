@@ -93,7 +93,7 @@ You cannot do that while caught in a web.
 Das kannst du nicht, solange du in einem Gewebe gefangen bist.
 %%%%
 Your legs are too worn out to hop.
-Ihre Beine sind zu abgenutzt, zu hüpfen.
+Deine Beine sind zu abgenutzt, zu hüpfen.
 %%%%
 You aren't ready to blinkbolt again yet.
 Du bist noch nicht bereit, Blinzelbolzen wieder zu verwenden.
@@ -1559,7 +1559,7 @@ Eine unnatürliche Stille umfängt dich.
 %s sieht anfälliger für Feuer aus.
 %%%%
 You feel your vulnerability to fire will last longer.
-Du fühlst, dass Ihre Anfälligkeit für Feuer länger anhalten wird.
+Du fühlst, dass deine Anfälligkeit für Feuer länger anhalten wird.
 %%%%
 Cherry-coloured flames burn away your fire resistance!
 Kirschfarbene Flammen brennen deine Feuerresistenz weg!
@@ -2883,7 +2883,7 @@ keine Gebühr, wenn Ihr heute beitretet
 %d Gold; du hast %d
 %%%%
 You are not religious.
-Sie sind nicht religiös.
+Du bist nicht religiös.
 %%%%
 "  [<w>J</w>/<w>Enter</w>]: "
 "  [<w>J</w>/<w>Enter</w>]: "
@@ -3755,7 +3755,7 @@ It is quivering %s.
 Es hat {acc}%s im Köcher.
 %%%%
 To read a description, press the key listed above. (AdB) indicates damage (the sum of A B-sided dice), (x%%) indicates the chance to defeat your Will, and (y) indicates the spell range
-Die oben genannte Taste drücken, um eine Beschreibung zu lesen. (AWB) gibt den Schaden an (die Summe von A B-seitigen Würfeln), (x%%) zeigt die Chance an, Ihren Willen zu besiegen, und (y) zeigt die Reichweite des Zaubers an
+Die oben genannte Taste drücken, um eine Beschreibung zu lesen. (AWB) gibt den Schaden an (die Summe von A B-seitigen Würfeln), (x%%) zeigt die Chance an, deinen Willen zu besiegen, und (y) zeigt die Reichweite des Zaubers an
 %%%%
 ; shown in red if you are in range
 ; rot angezeigt, wenn du in Reichweite bist
@@ -4442,7 +4442,7 @@ Best Crawlers - %s
 Beste Crawlers - %s
 %%%%
 You can find your morgue file in the '%s' directory.
-Sie finden Ihre Morgue-Datei im Verzeichnis '%s'.
+Du findest deine Morgue-Datei im Verzeichnis '%s'.
 %%%%
 
 ##################
@@ -9283,7 +9283,7 @@ You hear a luring song.
 Du hörst ein verlockendes Lied.
 %%%%
 You hear a haunting song.
-Sie hören ein eindringliches Lied.
+Du hörst ein eindringliches Lied.
 %%%%
 You hear an eerie melody.
 Du hörst eine unheimliche Melodie.
@@ -11211,7 +11211,7 @@ Your icy armour starts to melt.
 Deine eisige Rüstung beginnt zu schmelzen.
 %%%%
 Your transformation is almost over.
-Ihre Verwandlung ist fast beendet.
+Deine Verwandlung ist fast beendet.
 %%%%
 You start to feel a little slower.
 Du fühlst dich ein wenig langsamer.
@@ -11470,10 +11470,10 @@ Your skin feels tougher.
 Deine Haut fühlt sich härter an.
 %%%%
 Your scales start taking on an %s colour.
-Ihre Schuppen nehmen eine %s Farbe an.
+Deine Schuppen nehmen eine %s Farbe an.
 %%%%
 Your scales start taking on a %s colour.
-Ihre Schuppen nehmen eine %s Farbe an.
+Deine Schuppen nehmen eine %s Farbe an.
 %%%%
 You learn %s quicker.
 Ihr lernt {acc}%s schneller.
@@ -12270,7 +12270,7 @@ You cannot attack while caught in a web.
 Du kannst nicht angreifen, solange du in einem Gewebe gefangen bist.
 %%%%
 Your weapon can't reach that far!
-Ihre Waffe kann nicht so weit reichen!
+Deine Waffe kann nicht so weit reichen!
 %%%%
 You attack %s.
 Ihr greift %s an.
@@ -13455,7 +13455,7 @@ Thank you for shopping at %s!
 Danke, dass Ihr bei {dat}%s eingekauft habt!
 %%%%
 You can access your shopping list by pressing '$'.
-Du kannst auf Ihre Einkaufsliste zugreifen, indem Ihr auf '$' drückt.
+Du kannst auf deine Einkaufsliste zugreifen, indem Ihr auf '$' drückt.
 %%%%
 antique weapon
 antike waffe
@@ -19296,7 +19296,7 @@ Der Weg ist plötzlich versperrt!
 ##################
 %%%%
 You have a sense of imminent foreboding.
-Sie spüren eine unmittelbare Vorahnung.
+Du spürst eine unmittelbare Vorahnung.
 %%%%
 One of the plants suddenly grows acid sacs!
 Eine der Pflanzen wächst plötzlich Säuresäcke!
