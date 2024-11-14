@@ -115,8 +115,8 @@ Beachtet, dass stärkere Monster dazu neigen, misstrauischer und aufmerksamer zu
 sein.
 
 Die Fertigkeit „Heimlichkeit“ bestimmt zusammen mit der Waffenfertigkeit deiner
-ausgerüsteten Waffe auch die Wahrscheinlichkeit, dass Ihr bei einem Angriff auf
-eine abgelenkte oder hilflose Kreatur eine große Menge Schaden anrichtet, sowie
+ausgerüsteten Waffe auch die Wahrscheinlichkeit, dass du bei einem Angriff auf
+eine abgelenkte oder hilflose Kreatur eine große Menge Schaden anrichtest, sowie
 die Höhe des zusätzlichen Schadens.
 %%%%
 Shields
@@ -129,7 +129,7 @@ geblockt werden.
 Unarmed Combat
 
 Die Fertigkeit „Unbewaffneter Kampf“ erhöht deine Genauigkeit, deinen Schaden und
-deine Angriffsgeschwindigkeit im Nahkampf, wenn Ihr mit bloßen Händen kämpfst.
+deine Angriffsgeschwindigkeit im Nahkampf, wenn du mit bloßen Händen kämpfst.
 Außerdem kannst du gelegentlich mit deiner freien Hand als zusätzlichen
 Nahkampfangriff zuschlagen, sofern die Hand dafür frei ist.
 %%%%
@@ -140,11 +140,11 @@ Spellcasting
         return "Die Fertigkeit Zaubern erhöht die Erfolgsrate und die Kraft " ..
                "aller Zauber."
     else
-        return "Wenn Ihr im Zaubern geübt seid, erhöht sich die Erfolgsrate " ..
+        return "Wenn du im Zaubern geübt bist, erhöht sich die Erfolgsrate " ..
                "und die Kraft aller Zauber, und deine magischen Reserven " ..
-               "nehmen zu. Durch das Training des Zauberns erhältet Ihr " ..
-               "außerdem mehr Zauberplätze, die Ihr für neue Zauber " ..
-               "ausgeben könnt."
+               "nehmen zu. Durch das Training des Zauberns erhältst du " ..
+               "außerdem mehr Zauberplätze, die du für neue Zauber " ..
+               "ausgeben kannst."
     end
 }}
 %%%%
