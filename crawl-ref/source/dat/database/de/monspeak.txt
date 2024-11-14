@@ -142,7 +142,7 @@ _high_priest_rare_
 
 @The_monster@ sagt zu {dat}@foe@, "Der Lohn der Sünde ist der Tod, weißt du."
 
-@The_monster@ flüstert zu {dat}@foe@, "Ich verschone dich, wenn Ihr meinen Job übernehmt."
+@The_monster@ flüstert zu {dat}@foe@, "Ich verschone dich, wenn du meinen Job übernimmst."
 
 # Mother Theresa
 @The_monster@ flüstert zu {dat}@foe@, "Tief im Inneren ist es manchmal so leer."
@@ -510,7 +510,7 @@ _friendly_silenced_common_
 
 VISUAL:@The_monster@ gibt dich den Daumen hoch.
 
-VISUAL:@The_monster@ says sagt etwas, das Ihr nicht hören könnt.
+VISUAL:@The_monster@ says sagt etwas, das du nicht hören kannst.
 %%%%
 _friendly_silenced_rare_
 
@@ -584,7 +584,7 @@ _friendly_confused_medium_
 
 @The_monster@ betet um Hilfe.
 
-@The_monster@ grinst in die Luft und sagt, "Ihr könnt mich nicht fangen!"
+@The_monster@ grinst in die Luft und sagt, "Du kannst mich nicht fangen!"
 
 VISUAL:@The_monster@ grinst wahnsinnig.
 
@@ -697,7 +697,7 @@ VISUAL:@The_monster@ versucht, sich irgendwo zu verstecken.
 %%%%
 _friendly_fleeing_rare_
 
-@The_monster@ @_shouts_@, "Wartet auf mich, @player_name@! Könntet Ihr mir helfen?"
+@The_monster@ @_shouts_@, "Warte auf mich, @player_name@! Kannst du mir helfen?"
 
 @The_monster@ schreit, "Vergesst deine Freunde nicht!"
 
@@ -1156,9 +1156,9 @@ VISUAL:@The_monster@ versucht sich wegzuschleichen.
 
 VISUAL:@The_monster@ versucht, sich in die Umgebung einzufügen.
 
-VISUAL:@The_monster@ flüstert etwas so leise, dass Ihr es nicht hören könnt.
+VISUAL:@The_monster@ flüstert etwas so leise, dass du es nicht hören kannst.
 
-VISUAL:Einen Moment lang verliert Ihr {acc}@the_monster@ aus den Augen.
+VISUAL:Einen Moment lang verlierst du {acc}@the_monster@ aus den Augen.
 
 @The_monster@ flüstert, "Sei ganz, ganz leise, ich jage {acc}@player_genus_plural@." @player_only@
 
@@ -1708,7 +1708,7 @@ _Agnes_common_
 
 VISUAL:@The_monster@ verbeugt sich.
 
-@The_monster@ sagt zu {dat}@foe@, "Ihr entehrt deine Vorfahren."
+@The_monster@ sagt zu {dat}@foe@, "Du entehrst deine Vorfahren."
 
 @The_monster@ sagt zu {dat}@foe@, "Ich verachte einen unehrenhaften Gegner."
 
@@ -1809,7 +1809,7 @@ Du hörst dämonisches Gelächter.
 
 @The_monster@ @_screams_at_foe_@, "Was für ein Kugel?! Ich habe ein ganzes Königreich!" @player_only@
 
-@The_monster@ @_screams_at_foe_@, "Verneigt euch vor eurem König! Verbeuge dich! Verbeuge dich!!!" @player_only@
+@The_monster@ @_screams_at_foe_@, "Verneige dich vor eurem König! Verbeuge dich! Verbeuge dich!!!" @player_only@
 %%%%
 ############ AZRAEL ### efreet
 Azrael
@@ -2778,9 +2778,9 @@ Snake Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Kennt Ihr dieses zischende Geräusch? Ich hasse das."
+@The_monster@ sagt, "Kennst du dieses zischende Geräusch? Ich hasse das."
 
-@The_monster@ sagt, "Kennt Ihr dieses schlurfende Geräusch? Ich hasse das."
+@The_monster@ sagt, "Kennst du dieses schlurfende Geräusch? Ich hasse das."
 
 @The_monster@ sagt, "Ich würde aus diesen Schlangen gerne Handschuhe machen, aber ich hasse Handschuhe."
 
@@ -2975,21 +2975,21 @@ orb Donald
 w:25
 @_generic_Donald_@
 
-@The_monster@ sagt, "Danke, dass Ihr die Kugel der Macht für mich getragen habt."
+@The_monster@ sagt, "Danke, dass du die Kugel der Macht für mich getragen hast."
 
 @The_monster@ sagt, "Ist das Ding nicht schwer? Ich könnte eine Runde drehen."
 
-@The_monster@ sagt, "Hast du keine Angst vor der Strahlung? Ihr solltet das weglegen."
+@The_monster@ sagt, "Hast du keine Angst vor der Strahlung? Du solltest das weglegen."
 
-@The_monster@ sagt, "Was wollt Ihr mit der Kugel?"
+@The_monster@ sagt, "Was wilsst du mit der Kugel?"
 
-@The_monster@ sagt, "Glaubt Ihr nicht, dass die Kugel der Macht aus einem bestimmten Grund da unten liegt?"
+@The_monster@ sagt, "Glaubst du nicht, dass die Kugel der Macht aus einem bestimmten Grund da unten liegt?"
 
 @The_monster@ sagt, "Ich habe gehört, dass die Welt untergeht, wenn man sie an die Oberfläche bringt."
 
 @The_monster@ sagt, "Irgendjemand wird nach der Kugel suchen."
 
-@The_monster@ sagt, "Seid Ihr sicher, dass das die echte Kugel ist, und nicht irgendeine billige Imitation?"
+@The_monster@ sagt, "Bist du sicher, dass das die echte Kugel ist, und nicht irgendeine billige Imitation?"
 
 @The_monster@ sagt, "Du hast die Kugel. War sie es wert?"
 
@@ -3015,9 +3015,9 @@ w:50
 
 @The_monster@ sagt, "Ich habe zweihundert Goldstücke. Reicht das, um diese Mutationen zu heilen?"
 
-@The_monster@ sagt, "Mochtet Ihr deine Hörner nicht?"
+@The_monster@ sagt, "Mochtest du deine Hörner nicht?"
 
-@The_monster@ sagt, "Wenn ich dich zwanzig Goldstücke gebe, könnt Ihr dann meine fiesen Schuppen loswerden?"
+@The_monster@ sagt, "Wenn ich dich zwanzig Goldstücke gebe, kannst du dann meine fiesen Schuppen loswerden?"
 
 @The_monster@ hält sich die Ohren zu. "Halt die Klappe!"
 %%%%
@@ -3036,7 +3036,7 @@ w:50
 
 @The_monster@ sagt, "Dann brauche ich diesen Ring aus positiver Energie wohl nicht, oder?"
 
-@The_monster@ sagt, "Könnt Ihr das Leuchten ein bisschen dämpfen? Ich kann dich nicht sehen, um dich zu treffen."
+@The_monster@ sagt, "Kannst du das Leuchten ein bisschen dämpfen? Ich kann dich nicht sehen, um dich zu treffen."
 
 @The_monster@ sagt, "Reinigende Flamme? Was soll die denn reinigen? Den Boden?"
 
@@ -3256,7 +3256,7 @@ w:50
 
 @The_monster@ sagt, "Wie willst du sie alle satt bekommen? Mit fünf Broten und ein paar Fischen?"
 
-@The_monster@ sagt, "Ihr braucht mehr als Orks, um es mit mir aufzunehmen."
+@The_monster@ sagt, "Du brauchst mehr als Orks, um es mit mir aufzunehmen."
 
 @The_monster@ sagt, "Predigst du gerne auf Berggipfeln?"
 
@@ -3748,7 +3748,7 @@ Dowan_Duvessa_dies_invisible
 %%%%
 Dowan_Duvessa_dies_distance
 
-Aus der Ferne hört Ihr einen verzweifelten Schrei.
+Aus der Ferne hörst du einen verzweifelten Schrei.
 %%%%
 Dowan_Duvessa_dies_bytwin
 
@@ -4216,14 +4216,14 @@ _gastronok_debuff_
 w:20
 Du fühlst dich träge.
 
-Ihr verspürt eine plötzliche, vorübergehende Abneigung gegen Salz.
+Du verspürst eine plötzliche, vorübergehende Abneigung gegen Salz.
 
 Deine Haut nimmt einen leichten Grünstich an.
 
-Ihr wackelt wie Gelee.
+Du wackelst wie Gelee.
 
 w:5
-Ihr verspürt den plötzlichen Drang, eure nicht vorhandenen Augenstiele herumzuschwenken.
+Du verspürst den plötzlichen Drang, deine nicht vorhandenen Augenstiele herumzuschwenken.
 %%%%
 # And finally, his speech.
 Gastronok
@@ -5265,7 +5265,7 @@ VISUAL:@The_monster@ grinst böse
 
 VISUAL:@The_monster@ scheint etwas zu sagen.
 
-VISUAL:@The_monster@ sagt etwas, das Ihr nicht hören kannst. Es war wahrscheinlich kein Kompliment. @player_only@
+VISUAL:@The_monster@ sagt etwas, das du nicht hören kannst. Es war wahrscheinlich kein Kompliment. @player_only@
 ## END silenced Murray ##
 %%%%
 ############ NATASHA ### An abandoned felid familiar.
@@ -5404,7 +5404,7 @@ VISUAL:@The_monster@ klappt mit den Ohren, um zu versuchen, zu fliegen.
 _Nellie_rare_
 
 w:2
-@The_monster@ sagt, "Kennt Ihr Lommy? Ein guter Freund!"
+@The_monster@ sagt, "Kennst du Lommy? Ein guter Freund!"
 
 @The_monster@ sagt, "Ich habe einmal eine Karawane zertrampelt."
 
@@ -6109,7 +6109,7 @@ VISUAL:@The_monster@ starrt {acc}@foe@ mit seinem einen Augapfel an.
 
 @The_monster@ @_screams_at_foe_@, "Vogelhirn!"
 
-@The_monster@ @_screams_at_foe_@, "Macht euch auf eine Niederlage gefasst!"
+@The_monster@ @_screams_at_foe_@, "Mach dich auf eine Niederlage gefasst!"
 
 @The_monster@ @_screams_at_foe_@, "Rache!"
 
@@ -7115,7 +7115,7 @@ beogh_converted_orc_resurrection
 
 @The_monster@ sagt, "Du bist wirklich der Messias."
 
-@The_monster@ dankt dich, dass Ihr ihn wieder zum Leben erweckt haben.
+@The_monster@ dankt dich, dass du ihn wieder zum Leben erweckt hast.
 
 @The_monster@ sagt, "Ich wusste, dass ich mich auf dich verlassen kann."
 
@@ -7152,9 +7152,9 @@ Der Priester schreit, "Du hattest deine Chance, abtrünniger Abschaum!"
 ####
 orc_priest_preaching
 
-@The_monster@ ruft, "Schließt euch dem einen wahren Gott an oder sterbt!"
+@The_monster@ ruft, "Schließe dich dem einen wahren Gott an oder sterbe!"
 
-@The_monster@ ruft, "Beogh ist unser Meister! Akzeptiert die Wahrheit oder sterbt!"
+@The_monster@ ruft, "Beogh ist unser Meister! Akzeptiere die Wahrheit oder sterbe!"
 
 @The_monster@ ruft, "Ergib dich Beogh und wir lassen dich leben!"
 

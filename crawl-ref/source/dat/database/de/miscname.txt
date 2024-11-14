@@ -11,7 +11,7 @@ SHT_int_loss
 
 Dein Geist taumelt, berührt von den Schrecken durch das Portal.
 
-Ihr zittert in deiner sterblichen Hülle, umschmeichelt von dem flüssigen Wahnsinn durch das funkelnde Tor.
+Du zitterst in deiner sterblichen Hülle, umschmeichelt von dem flüssigen Wahnsinn durch das funkelnde Tor.
 
 # Bal-Sagoth
 Der Beschwörungsritus scheint einen nicht unerheblichen Tribut von eurer geistigen Gesundheit zu fordern.
@@ -23,11 +23,11 @@ Deine Sicht wird von seltsamen Glyphen verdeckt, die sich krumme Formen zu geben
 Du fühlst dich unaufhaltsam von einer namenlosen und unerbittlichen Düsternis verfolgt.
 #-----------
 
-Ihr windet euch im Todeskampf, während dein Geist von Schrecken heimgesucht wird, die jenseits der menschlichen Vorstellungskraft liegen.
+Du windest dich im Todeskampf, während dein Geist von Schrecken heimgesucht wird, die jenseits der menschlichen Vorstellungskraft liegen.
 
-Dein Geist wird von erhabenem Wahnsinn verführt, als ihr durch das Portal ins Jenseits blickt.
+Dein Geist wird von erhabenem Wahnsinn verführt, als du durch das Portal ins Jenseits blickst.
 
-Ihr gackert wahnsinnig beim Anblick der eldritischen Monstrosität.
+Du gackerst wahnsinnig beim Anblick der eldritischen Monstrosität.
 
 Du bist vom Wahnsinn ergriffen!
 
@@ -37,7 +37,7 @@ Deine Gedanken werden unausweichlich von einem unaufhörlichen Brummen gequält.
 
 Dein Verstand bricht im Wahnsinn zusammen beim Anblick dieser Blasphemie gegen die Schöpfung!
 
-Dein Verstand zerbricht kurz, aber ihr schafft es gerade noch, euch zusammenzureißen.
+Dein Verstand zerbricht kurz, aber du schaffst es gerade noch, dich zusammenzureißen.
 
 Du spürst, wie dein zarter Halt an der Vernunft zu erodieren beginnt.
 
@@ -53,13 +53,13 @@ Ein dünnes, monotones Wiehern von außerhalb der Zeit wird in deinen Ohren imme
 
 Formlose Schrecken verharren am Rande deiner Vision und kommen immer näher.
 
-Ein unaufhaltsames Gefühl unerbittlicher Finsternis überkommt euch.
+Ein unaufhaltsames Gefühl unerbittlicher Finsternis überkommt dich.
 
 Zusammenhängende, vernünftige Gedanken scheinen dich fremd zu sein.
 
 Ranken des Wahnsinns sickern und winden sich in die dunkelsten Ritzen deines Geistes.
 
-Ihr ringt darum, die Natur der unbegreiflichen Kräfte zu begreifen, die am Werk sind.
+Du ringst darum, die Natur der unbegreiflichen Kräfte zu begreifen, die am Werk sind.
 
 Alptraumhafte Unholde überfallen deine wachen Gedanken!
 
@@ -118,11 +118,11 @@ welcome_spam Halloween
 
 @welcome_spam@ Seid vorsichtig! Heute Abend ist Halloween.
 
-Die Monster hier sind keine großen Fans von Süßem oder Saurem. Wenn sie dich die Kugel von Zot nicht geben wollen, musst Ihr ihn dich nehmen.
+Die Monster hier sind keine großen Fans von Süßem oder Saurem. Wenn sie dir die Kugel von Zot nicht geben wollen, musst du ihn dir nehmen.
 
 Ein schrecklicher Fluch hat dich auf die Suche nach der Kugel von Zot geschickt. Was für eine schreckliche Nacht, um einen Fluch zu haben!
 
-Während Ihr auf der Suche nach der Kugel hinabsteigt, scharen sich @_halloween_things_@ um dich. An diesem Ort spukt es!
+Während du auf der Suche nach der Kugel hinabsteigst, scharen sich @_halloween_things_@ um dich. An diesem Ort spukt es!
 
 Du hörst das Gackern einer Hexe und bist plötzlich ins Dungeon angekommen. Wenn du die Kugel von Zot nicht findest, verwandelst du dich in @_a_lowly_@!
 %%%%
@@ -130,7 +130,7 @@ hell_effect_quiet
 
 {{
 if you.can_smell() then
-    return "Ihr riecht Schwefel."
+    return "Du riechst Schwefel."
 else
     return "Es regnet Schwefel von oben."
 end
@@ -138,7 +138,7 @@ end
 
 Du fühlst dich verloren und weit, weit weg von zu Hause...
 
-Ihr zittert vor Angst.
+Du zitterst vor Angst.
 
 Du fühlst eine schreckliche Vorahnung...
 
