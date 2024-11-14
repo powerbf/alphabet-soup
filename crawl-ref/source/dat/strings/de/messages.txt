@@ -489,7 +489,7 @@ The zombie hands constrict %s but do no damage.
 Die Zombiehände umschlingen {acc}%s, fügen aber keinen Schaden zu.
 %%%%
 You constrict %s but do no damage.
-Du umschlingst {acc}%s, fügt aber keinen Schaden zu.
+Du umschlingst {acc}%s, fügst aber keinen Schaden zu.
 %%%%
 The grasping roots
 Die greifenden Wurzeln
@@ -7806,7 +7806,7 @@ You engulf %s in ooze!
 Du verschlingst {acc}%s in Schlamm!
 %%%%
 " but do no damage."
-, fügt aber keinen Schaden zu.
+, fügst aber keinen Schaden zu.
 %%%%
 your grab
 dein Umschlingsversuch
@@ -12823,7 +12823,7 @@ You will no longer bleed smoke.
 Du blutest keinen Rauch mehr.
 %%%%
 You sometimes bleed smoke when heavily injured by enemies.
-Du blutet manchmal Rauch, wenn du von Feinden schwer verletzt würdest.
+Du blutest manchmal Rauch, wenn du von Feinden schwer verletzt würdest.
 %%%%
 Your shadow now sometimes tangibly mimics your actions.
 Dein Schatten ahmt jetzt manchmal deine Handlungen spürbar nach.
@@ -14266,7 +14266,7 @@ You are standing in a cloud of %s! Ignite poison anyway?
 Du stehst in einer Wolke aus {dat}%s! Trotzdem Gift entzünden?
 %%%%
 You might harm nearby allies! Ignite poison anyway?
-Du kannstet Verbündete in der Nähe verletzen! Trotzdem Gift entzünden?
+Du könntest Verbündete in der Nähe verletzen! Trotzdem Gift entzünden?
 %%%%
 You ignite the poison in your surroundings!
 Du entzündest das Gift in deiner Umgebung!
