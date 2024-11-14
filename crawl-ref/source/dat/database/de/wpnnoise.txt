@@ -744,7 +744,7 @@ _common_speaking_no_tension_
 
 @The_weapon@ versucht, dich ein paar Zungenbrecher beizubringen.
 
-@The_weapon@ sagt, "Wenigstens werdet Ihr eines Tages sterben und dieser Langeweile entkommen!"
+@The_weapon@ sagt, "Wenigstens wirst du eines Tages sterben und dieser Langeweile entkommen!"
 
 @The_weapon@ sagt, "Ich kenne das Lied nicht, aber wenn Ihr ein paar Takte summt, kann ich es versuchen."
 
@@ -985,7 +985,7 @@ w:1
 
 @The_weapon@ @_screams_@, "Wir werden auf einem Haufen von Kadavern feiern!"
 
-@The_weapon@ @_screams_@, "@player_name@, Ihr werdet euch heute an feinen @_corpses_@ [laben|spiesen]!"
+@The_weapon@ @_screams_@, "@player_name@, du wirst dich heute an feinen @_corpses_@ [laben|spiesen]!"
 
 @The_weapon@ @_screams_@, "Geht an die Gurgel!"
 
