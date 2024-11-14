@@ -678,7 +678,7 @@ teleportitis
 Teleportitis
 %%%%
 You are occasionally teleported next to monsters.
-Gelegentlich werdet Ihr neben Monster teleportiert.
+Gelegentlich wirst du neben Monster teleportiert.
 %%%%
 You are sometimes teleported next to monsters.
 Du wirst manchmal neben Monster teleportiert.
@@ -1281,10 +1281,10 @@ reflexive curl
 einrollen
 %%%%
 You curl defensively after being hit.
-Du rollst dich in der Defensive ein, wenn Ihr getroffen werdet.
+Du rollst dich in der Defensive ein, wenn du getroffen wirst.
 %%%%
 You now curl defensively after being hit.
-Du rollst dich jetzt defensiv ein, wenn Ihr getroffen werdet.
+Du rollst dich jetzt defensiv ein, wenn du getroffen wirst.
 %%%%
 shaggy fur
 zotteliges Fell
@@ -1608,7 +1608,7 @@ magic shield
 magischer Schild
 %%%%
 When hurt, damage is shared between your health and your magic reserves.
-Wenn Ihr verletzt werdet, wird der Schaden zwischen deiner Gesundheit und deinen Magiereserven aufgeteilt.
+Wenn du verletzt wirst, wird der Schaden zwischen deiner Gesundheit und deinen Magiereserven aufgeteilt.
 %%%%
 You feel your magical essence form a protective shroud around your flesh.
 Du spürst, wie dich deine magische Essenz wie ein Schutzmantel um dein Fleisch legt.
@@ -2187,13 +2187,13 @@ foul stench
 fauliger Gestank
 %%%%
 You may rarely emit foul miasma when damaged in melee.
-Wenn Ihr im Nahkampf beschädigt werdet, könnt Ihr selten einen üblen Miasma ausstoßen.
+Wenn du im Nahkampf beschädigt wirst, könnt Ihr selten einen üblen Miasma ausstoßen.
 %%%%
 You sometimes emit foul miasma when damaged in melee.
-Ihr stößt manchmal einen üblen Miasma aus, wenn Ihr im Nahkampf verletzt werdet.
+Ihr stößt manchmal einen üblen Miasma aus, wenn du im Nahkampf verletzt wirst.
 %%%%
 You frequently emit foul miasma when damaged in melee.
-Ihr stößt häufig einen üblen Miasma aus, wenn Ihr im Nahkampf verletzt werdet.
+Ihr stößt häufig einen üblen Miasma aus, wenn du im Nahkampf verletzt wirst.
 %%%%
 You begin to emit a foul stench of rot and decay.
 Du beginnst, einen üblen Gestank von Fäulnis und Verwesung auszustrahlen.
@@ -2322,10 +2322,10 @@ You sometimes lose the ability to drink potions when taking damage.
 Manchmal verliert Ihr die Fähigkeit, Tränke zu trinken, wenn Ihr Schaden nehmt.
 %%%%
 You lose the ability to drink potions when threatened.
-Du verlierst die Fähigkeit, Tränke zu trinken, wenn Ihr bedroht werdet.
+Du verlierst die Fähigkeit, Tränke zu trinken, wenn du bedroht wirst.
 %%%%
 You can once more drink potions while threatened.
-Du kannst wieder Tränke trinken, wenn Ihr bedroht werdet.
+Du kannst wieder Tränke trinken, wenn du bedroht wirst.
 %%%%
 inability to read while threatened
 Unfähigkeit bei Bedrohung zu lesen
@@ -2334,10 +2334,10 @@ You sometimes lose the ability to read scrolls when taking damage.
 Manchmal verliert Ihr die Fähigkeit, Schriftrollen zu lesen, wenn Ihr Schaden nehmt.
 %%%%
 You lose the ability to read scrolls when threatened.
-Du verlierst die Fähigkeit, Schriftrollen zu lesen, wenn Ihr bedroht werdet.
+Du verlierst die Fähigkeit, Schriftrollen zu lesen, wenn du bedroht wirst.
 %%%%
 You can once more read scrolls while threatened.
-Du kannst wieder Schriftrollen lesen, während Ihr bedroht werdet.
+Du kannst wieder Schriftrollen lesen, während du bedroht wirst.
 %%%%
 missing a hand
 eine Hand fehlt

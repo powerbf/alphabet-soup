@@ -5003,7 +5003,7 @@ Willst du die Hälfte deines Geldes spenden?
 %s findet deine Großzügigkeit unzureichend.
 %%%%
 You feel that you will soon be absolved of all your sins.
-Du hast das Gefühl, dass Ihr bald von all deinen Sünden befreit sein werdet.
+Du hast das Gefühl, dass du bald von all deinen Sünden befreit sein wirst.
 %%%%
 You feel that your burden of sins will soon be lighter.
 Du fühlst, dass deine Last der Sünden bald leichter sein wird.
@@ -7544,7 +7544,7 @@ Are you sure you want to leave %s?
 Bist du alle sicher, dass Ihr {acc}%s verlassen wollt?
 %%%%
 " This will make you lose the game!"
-" Damit werdet Ihr das Spiel verlieren!"
+" Damit wirst du das Spiel verlieren!"
 %%%%
 Alright, then stay!
 Okay, bleibt dann!
@@ -7580,7 +7580,7 @@ You'll get an extra life in %d.%02d levels' worth of XP.
 Du wirst noch ein Leben mit zusätzlichen XP im Wert von %d,%02d Levels bekommen.
 %%%%
 If you died right now, you'd get an extra life in %d.%02d levels' worth of XP.
-Wenn Ihr jetzt sterbt, werdet Ihr noch ein Leben mit zusätzlichen XP im Wert von %d,%02d Levels bekommen.
+Wenn Ihr jetzt sterbt, wirst du noch ein Leben mit zusätzlichen XP im Wert von %d,%02d Levels bekommen.
 %%%%
 Play time: %s (%d turns).
 Spielzeit: %s (%d Runden).
@@ -8869,7 +8869,7 @@ All of a sudden the net rips apart!
 Plötzlich zerreißt das Netz!
 %%%%
 You feel yourself growing ill in the presence of %s.
-Du spürst, wie Ihr in der Gegenwart {gen}%s krank werdet.
+Du spürst, wie du in der Gegenwart {gen}%s krank wirst.
 %%%%
 Being near %s leaves you feeling lethargic.
 In der Nähe {acc}%s, fühlt Ihr dich träge.
@@ -10463,7 +10463,7 @@ Das kannst du nicht durchgraben.
 %s weigert sich, dich Platz zu machen. (Strg+Richtung oder * Richtung verwenden, um zu angreifen.)
 %%%%
 You're too terrified to move while being watched!
-Du bist zu verängstigt, um dich zu bewegen, während Ihr beobachtet werdet!
+Du bist zu verängstigt, um dich zu bewegen, während du beobachtet wirst!
 %%%%
 You nearly stumble into %s!
 Ihr stolpert fast in {acc}%s!
@@ -10819,7 +10819,7 @@ Dein instabiler Stand lässt dich deinen Angriff fummeln.
 %s zwingt dich dazu, langsamer zu werden.
 %%%%
 A red film seems to cover your vision as you go berserk!
-Ein roter Film scheint deine Vision zu verdecken, als Ihr wütend werdet!
+Ein roter Film scheint deine Vision zu verdecken, als du wütend wirst!
 %%%%
 Your finesse ends abruptly.
 Deine Finesse endet abrupt.
@@ -11461,7 +11461,7 @@ You have reached level 27, the final one!
 Du hast Stufe 27 erreicht, die letzte!
 %%%%
 You have reached level %d, the highest you will ever reach!
-Du hast Stufe %d erreicht, die höchste, die Ihr jemals erreichen werdet!
+Du hast Stufe %d erreicht, die höchste, die du jemals erreichen wirst!
 %%%%
 You have reached level %d!
 Du hast Stufe %d erreicht!
@@ -11632,7 +11632,7 @@ You dip into the water, and the flames go out!
 Ihr taucht ins Wasser und die Flammen gehen aus!
 %%%%
 Your stasis prevents you from being slowed.
-Deine Stase verhindert, dass Ihr verlangsamt werdet.
+Deine Stase verhindert, dass du verlangsamt wirst.
 %%%%
 You already are as slow as you could be.
 Du bist schon so langsam wie Ihr sein könntet.
@@ -11641,13 +11641,13 @@ You feel yourself slow down.
 Du fühlst dich langsamer.
 %%%%
 You feel as though you will be slow longer.
-Du hast das Gefühl, dass Ihr länger langsam sein werdet.
+Du hast das Gefühl, dass du länger langsam sein wirst.
 %%%%
 You recover from your berserk rage.
 Du erholst dich von deiner wütenden Wut.
 %%%%
 Your stasis prevents you from being hasted.
-Deine Stase verhindert, dass Ihr hastig werdet.
+Deine Stase verhindert, dass du hastig wirst.
 %%%%
 You already have as much speed as you can handle.
 Du hast schon so viel Geschwindigkeit, wie Ihr verkraften könnt.
@@ -11767,7 +11767,7 @@ You are splashed with acid but take no damage.
 Du wirst mit Säure bespritzt, nehmt aber keinen Schaden.
 %%%%
 Your stasis prevents you from being paralysed.
-Deine Stase verhindert, dass Ihr paralysiert werdet.
+Deine Stase verhindert, dass du paralysiert wirst.
 %%%%
 You shrug off the repeated paralysis!
 Ihr schüttelt die wiederholte Paralyse ab!
@@ -11850,7 +11850,7 @@ You feel your attacks grow feeble.
 Du fühlst, wie deine Angriffe schwach werden.
 %%%%
 You feel as though you will be weak longer.
-Du hast das Gefühl, dass Ihr länger schwach bleiben werdet.
+Du hast das Gefühl, dass du länger schwach bleiben wirst.
 %%%%
 You have 1 tentacle available for constriction.
 Du hast 1 Tentakel zum Umschlingen zur Verfügung.
@@ -12017,10 +12017,10 @@ You feel briefly invigorated.
 Du fühlst dich kurz belebt.
 %%%%
 You become transparent, but the glow from %s prevents you from becoming completely invisible.
-Du wirst durchsichtig, aber das Leuchten {gen}%s verhindert, dass Ihr völlig unsichtbar werdet.
+Du wirst durchsichtig, aber das Leuchten {gen}%s verhindert, dass du völlig unsichtbar wirst.
 %%%%
 You become more transparent, but the glow from %s prevents you from becoming completely invisible.
-Du wirst durchsichtiger, aber das Leuchten {gen}%s verhindert, dass Ihr völlig unsichtbar werdet.
+Du wirst durchsichtiger, aber das Leuchten {gen}%s verhindert, dass du völlig unsichtbar wirst.
 %%%%
 # note: The following are all causes of glowing to plug into the above messages
 the halo
@@ -12727,13 +12727,13 @@ turn your foes to slime
 Deine Feinde in Schleim verandeln
 %%%%
 You may now expel jellies when seriously injured.
-Du kannst jetzt Gelees ausstoßen, wenn Ihr schwer verletzt werdet.
+Du kannst jetzt Gelees ausstoßen, wenn du schwer verletzt wirst.
 %%%%
 You will no longer expel jellies when injured.
-Ihr stoßt keine Gelees mehr aus, wenn Ihr verletzt werdet.
+Ihr stoßt keine Gelees mehr aus, wenn du verletzt wirst.
 %%%%
 You may expel jellies when seriously injured.
-Du kannst Gelees ausstoßen, wenn Ihr schwer verletzt werdet.
+Du kannst Gelees ausstoßen, wenn du schwer verletzt wirst.
 %%%%
 call upon Jiyva to remove your harmful mutations
 Jiyva anrufen, um deine schädlichen Mutationen zu entfernen
@@ -12817,7 +12817,7 @@ step into the shadows of nearby creatures
 In die Schatten von Kreaturen in der Nähe treten
 %%%%
 You will now sometimes bleed smoke when heavily injured by enemies.
-Ihr blutet jetzt manchmal Rauch, wenn Ihr von Feinden schwer verletzt werdet.
+Ihr blutet jetzt manchmal Rauch, wenn du von Feinden schwer verletzt wirst.
 %%%%
 You will no longer bleed smoke.
 Ihr blutet keinen Rauch mehr.
@@ -13404,10 +13404,10 @@ You are short %d gold pieces for the purchase.
 Dir fehlt %d Goldstücke für den Kauf.
 %%%%
 After the purchase, you will have 1 gold piece.
-Nach dem Kauf werdet Ihr 1 Goldstück haben.
+Nach dem Kauf wirst du 1 Goldstück haben.
 %%%%
 After the purchase, you will have %d gold pieces.
-Nach dem Kauf werdet Ihr %d Goldstücke haben.
+Nach dem Kauf wirst du %d Goldstücke haben.
 %%%%
 [<w>Esc</w>/<w>R-Click</w>] exit
 [<w>Esc</w>/<w>R-Klick</w>] abbrechen
@@ -13916,7 +13916,7 @@ You're too confused to cast spells.
 Du bist zu verwirrt, um Zauber zu wirken.
 %%%%
 You cannot cast spells when silenced!
-Du kannst keine Zauber wirken, solange Ihr zum Schweigen gebracht werdet!
+Du kannst keine Zauber wirken, solange du zum Schweigen gebracht wirst!
 %%%%
 Weird images run through your mind.
 Seltsame Bilder gehen dich durch den Kopf.
