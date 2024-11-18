@@ -330,6 +330,7 @@ endif
 all: greet check-fonts $(GAME) docs webserver
 
 LIBPCRE := contrib/install/$(ARCH)/lib/libpcre.a
+LIBPCRECPP := contrib/install/$(ARCH)/lib/libpcrecpp.a
 LIBSDL2 := contrib/install/$(ARCH)/lib/libSDL2.a
 LIBPNG := contrib/install/$(ARCH)/lib/libpng.a
 LIBSDL2IMAGE := contrib/install/$(ARCH)/lib/libSDL2_image.a
@@ -1057,7 +1058,7 @@ DEFINES += -DREGEX_PCRE
 else
   ifdef USE_PCRE
   DEFINES += -DREGEX_PCRE
-  LIBS += -lpcre
+  LIBS += -lpcre -lpcrecpp
   endif
 endif
 
@@ -1155,7 +1156,7 @@ endif
 
 ifdef BUILD_PCRE
 CONTRIBS += pcre
-CONTRIB_LIBS += $(LIBPCRE)
+CONTRIB_LIBS += $(LIBPCRECPP) $(LIBPCRE)
 endif
 ifdef BUILD_FREETYPE
 CONTRIBS += freetype
