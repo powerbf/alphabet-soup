@@ -18,7 +18,7 @@ Breathe Fire ability
     local desc = "Einen Feuerstrahl auf eine anvisierte Kreatur speien"
 
     if you.race() == "Red Draconian" then
-        desc = desc .. " und eine Flammenwolke am Endpunkt hinterlassen."
+        desc = desc .. " und eine Flammenwolke am Endpunkt hinterlassen"
     end
 
     desc = desc .. "."
