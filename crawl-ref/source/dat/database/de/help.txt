@@ -806,7 +806,7 @@ help-menu-2
 <w>3</w>.      Liste der Fertigkeiten
 <w>4</w>.      Liste der Tasten und Befehle
 <w>5</w>.      Inschriften
-<w>6</w>.      Kerker-Sprint-Modi
+<w>6</w>.      Dungeon-Sprint-Modi
 %%%%
 # Left-hand column - max 40 chars
 cmd-help-movement
