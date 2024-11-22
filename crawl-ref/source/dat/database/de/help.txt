@@ -91,7 +91,7 @@ Einige Beispiele für Suchbegriffe:
 <w>laden</w>         alle Läden auflisten. <w>?</w> und den Buchstaben eines Ladens
                      drücken für sein Inventar
 <w>Höhle:2</w>       alles finden, von dem bekannt ist, dass es auf Höhle:2 ist.
-<w>/D:[2-4]</w>      alles auf Kerker-Ebenen 2-4 finden. Regexes sind erlaubt!
+<w>/D:[2-4]</w>      alles auf den Kerkerebenen 2-4 finden. Regexes sind erlaubt!
               Achtung! /D:[3-10] wird nicht wie vorgesehen funktionieren, da [x-y]
               ein Regex-Zeichenbereich ist.
 <w>rGift</w>         alle Gegenstände mit Giftresistenz finden
@@ -883,7 +883,7 @@ cmd-help-non-gameplay
 <w>%</w> : Haupt- und Levelkarten löschen
 <w>%</w> : Makro schnell Hinzufügen
 <w>%</w> : Makros bearbeiten
-<w>%</w> : Die Kerker-Ebene anmerken
+<w>%</w> : Die Kerkerebene anmerken
 <w>%</w> : Charakter-Auszug speichern
 <w>%</w> : Notiz hinzufügen (zum Lesen von
     Notizen <w>%:</w> verwenden)
