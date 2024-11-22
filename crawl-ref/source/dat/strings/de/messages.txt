@@ -10534,7 +10534,7 @@ Miasma resistance
 Miasma-Resistenz
 %%%%
 Torment resistance
-Peinigungresistenz
+Peinigungsresistenz
 %%%%
 Transformations
 Verwandlungen
@@ -14565,10 +14565,10 @@ Du sprechst ein Wort von immenser Macht!
 %s spricht ein Wort von immenser Macht!
 %%%%
 %s shields you from torment!
-%s schirmt dich vor Peinigung ab!
+%s schirmt dich von Peinigung ab!
 %%%%
 %s partially shields you from torment!
-%s schirmt dich teilweise vor Peinigung ab!
+%s schirmt dich teilweise von Peinigung ab!
 %%%%
 You feel a surge of unholy energy.
 Du fühlst eine Welle unheiliger Energie.
