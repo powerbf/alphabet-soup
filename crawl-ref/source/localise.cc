@@ -2067,16 +2067,18 @@ LocalisationArg::LocalisationArg(const long double value, bool translat)
 void init_localisation(const string& lang)
 {
     _language = lang;
-#ifdef UNIX
+
     if (lang != "" && lang != "en")
     {
+#ifdef UNIX
         if (strcasecmp(nl_langinfo(CODESET), "UTF-8"))
         {
             fprintf(stderr, "Languages other than English require a UTF-8 locale.\n");
             exit(1);
         }
-    }
 #endif
+        init_xlate();
+    }
 }
 
 void pause_localisation()
