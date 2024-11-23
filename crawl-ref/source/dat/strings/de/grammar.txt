@@ -32,6 +32,66 @@
 ###############################################################################
 
 #################################
+# Pregeneration
+#################################
+
+# generate nouns with indefinite article from nouns with definite article
+%%%%
+PREGENERATE:1
+
+SELECT:/^the /
+
+# transform (English) key
+KEY:/^the one-/a one-/
+KEY:/^the ([aeiouAEIOU])/an $1/
+KEY:/^the /a /
+
+# article
+/^(\{m\})?der /ein /
+/^(\{f\})?die /eine /
+/^(\{n\})?das /{n}ein /
+
+# masc adjectives
+/^ein [^A-ZÄÖÜ]+/e /er /
+/^ein [^A-ZÄÖÜ]+/\{adj-e\}/{adj-er}/
+/e Drakonier/er Drakonier/
+
+# neuter adjectives
+/^\{n\}ein [^A-ZÄÖÜ]+/e /es /
+/^\{n\}ein [^A-ZÄÖÜ]+/\{adj-e\}/{adj-es}/
+%%%%
+
+# generate nouns with "your" from nouns with indefinite article
+%%%%
+PREGENERATE:2
+
+SELECT:/^(a|an) /
+
+# transform (English) key
+KEY:/^(a|an) /your /
+
+# determiner
+/^ein /dein /
+/^eine /deine /
+/^\{n\}ein /{n}dein /
+%%%%
+
+# generate nouns without determiner from nouns with indefinite article
+%%%%
+PREGENERATE:3
+
+SELECT:/^(a|an) /
+
+# transform (English) key
+KEY:/^(a|an) //
+
+# remove determiner
+/^ein //
+/^eine //
+/^\{n\}ein /{n}/
+%%%%
+
+#################################
 # Adjectives
 #################################
 %%%%

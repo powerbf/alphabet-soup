@@ -784,8 +784,8 @@ ein {adj-er}%sStab der Erde
 a %sstaff of removedness
 ein {adj-er}%sStab der Obsoleszenz
 %%%%
-a %sstaff
-ein {adj-er}%sStab
+#a %sstaff
+#ein {adj-er}%sStab
 %%%%
 
 #################################
