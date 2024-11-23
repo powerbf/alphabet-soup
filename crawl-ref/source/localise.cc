@@ -2180,6 +2180,7 @@ static string _build_string(const vector<LocalisationArg>& args, bool translate)
                         else
                         {
                             string argx = _localise_string(_context, arg);
+                            argx = _shift_context(argx);
                             ss << format_utf8_string(fmt_spec, argx);
                         }
                     }
@@ -2237,7 +2238,10 @@ string localise(const vector<LocalisationArg>& args)
     else if (args.size() == 1)
     {
         if (localisation_active())
-            return _localise_string("", args.at(0).stringVal);
+        {
+            string result = _localise_string("", args.at(0).stringVal);
+            return _shift_context(result);
+        }
         else
             return args.at(0).stringVal;
     }
