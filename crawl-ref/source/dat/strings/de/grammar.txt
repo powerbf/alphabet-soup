@@ -35,18 +35,18 @@
 # Pregeneration
 #################################
 
-# generate nouns with indefinite article from nouns with definite article
+# generate indefinite (nominative) from definite
 %%%%
 PREGENERATE:1
 
-SELECT:/^the /
+SELECT:/^the .*[^']{2}$/
 
 # transform (English) key
 KEY:/^the one-/a one-/
 KEY:/^the ([aeiouAEIOU])/an $1/
 KEY:/^the /a /
 
-# article
+# articles
 /^(\{m\})?der /ein /
 /^(\{f\})?die /eine /
 /^(\{n\})?das /{n}ein /
@@ -61,9 +61,22 @@ KEY:/^the /a /
 /^\{n\}ein [^A-ZÄÖÜ]+/\{adj-e\}/{adj-es}/
 %%%%
 
-# generate nouns with "your" from nouns with indefinite article
+# generate indefinite (possessive) from definite
 %%%%
 PREGENERATE:2
+
+SELECT:/^the .*('s|')$/
+
+# articles
+/^(\{f\})?der /einer /
+/^des /eines /
+%%%%
+
+
+# generate "your" (nominative and possessive) from indefinite
+# (easier than generating from definite because adjectives will already be in the right form)
+%%%%
+PREGENERATE:3
 
 SELECT:/^(a|an) /
 
@@ -71,23 +84,23 @@ SELECT:/^(a|an) /
 KEY:/^(a|an) /your /
 
 # determiner
-/^ein /dein /
-/^eine /deine /
+/^(\{[mf]\})ein/dein/
 /^\{n\}ein /{n}dein /
 %%%%
 
-# generate nouns without determiner from nouns with indefinite article
+# generate no determiner (nominative) from indefinite
 %%%%
-PREGENERATE:3
+PREGENERATE:4
 
-SELECT:/^(a|an) /
+# exclude possessives
+SELECT:/^(a|an) .*[^']{2}$/
 
-# transform (English) key
+# remove article from key
 KEY:/^(a|an) //
 
-# remove determiner
-/^ein //
-/^eine //
+# remove article from value
+/^(\{m\})?ein /{m}/
+/^eine /{f}/
 /^\{n\}ein /{n}/
 %%%%
 
