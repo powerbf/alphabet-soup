@@ -84,8 +84,7 @@ SELECT:/^(a|an) /
 KEY:/^(a|an) /your /
 
 # determiner
-/^(\{[mf]\})ein/dein/
-/^\{n\}ein /{n}dein /
+/^(\{[mfn]\})?ein/$1dein/
 %%%%
 
 # generate no determiner (nominative) from indefinite
