@@ -225,9 +225,8 @@ GENERATE:dat
 
 # fix special cases
 /Blork der Ork/Blork dem Ork/
-/Verrückter /Verrücktem /
-/er Drakonier/em Drakonier/
-/^(dem [A-ZÄÖÜ][^ ,]+)e Drakonier/$1en Drakonier/
+/er? (Yiuf|Drakonier)/em $1/
+/^(dem|einem|deinem) (.*)em (Yiuf|Drakonier)/$1 $2en $3/
 /^(der|einer|deiner) (.*)Lernäische Hydra/$1 $2Lernäischen Hydra/
 /Lernäische Hydra/Lernäischer Hydra/
 # nominalised adjective
