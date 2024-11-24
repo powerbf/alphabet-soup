@@ -36,12 +36,6 @@ static void show_result(const string& actual, const string& expected)
         cout << "   expected: \"" << expected << "\"" << endl;
 }
 
-static void simple_test(const string& english, const string& expected)
-{
-    string actual = localise(english);
-    show_result(actual, expected);
-}
-
 static void test(const string& expected, const char* fmt...)
 {
     va_list args;
@@ -62,91 +56,91 @@ int main()
     init_localisation("de");
 
     // with definite article
-    simple_test("the orc", "der Ork");
-    simple_test("the ball python", "die Königspython");
-    simple_test("the skeleton", "das Skelett");
+    test("der Ork", "the orc");
+    test("die Königspython", "the ball python");
+    test("das Skelett", "the skeleton");
     cout << endl;
 
     // with indefinite article
-    simple_test("an orc", "ein Ork");
-    simple_test("a ball python", "eine Königspython");
-    simple_test("a skeleton", "ein Skelett");
+    test("ein Ork", "an orc");
+    test("eine Königspython", "a ball python");
+    test("ein Skelett", "a skeleton");
     cout << endl;
 
     // with "your"
-    simple_test("your orc", "dein Ork");
-    simple_test("your ball python", "deine Königspython");
-    simple_test("your skeleton", "dein Skelett");
+    test("dein Ork", "your orc");
+    test("deine Königspython", "your ball python");
+    test("dein Skelett", "your skeleton");
     cout << endl;
 
     // with no determiner
-    simple_test("orc", "Ork");
-    simple_test("ball python", "Königspython");
-    simple_test("skeleton", "Skelett");
+    test("Ork", "orc");
+    test("Königspython", "ball python");
+    test("Skelett", "skeleton");
     cout << endl;
 
     // with definite article and adjective
-    simple_test("the helpless orc", "der hilflose Ork");
-    simple_test("the helpless ball python", "die hilflose Königspython");
-    simple_test("the helpless skeleton", "das hilflose Skelett");
+    test("der hilflose Ork", "the helpless orc");
+    test("die hilflose Königspython", "the helpless ball python");
+    test("das hilflose Skelett", "the helpless skeleton");
     cout << endl;
 
     // with indefinite article and adjective
-    simple_test("a helpless orc", "ein hilfloser Ork");
-    simple_test("a helpless ball python", "eine hilflose Königspython");
-    simple_test("a helpless skeleton", "ein hilfloses Skelett");
+    test("ein hilfloser Ork", "a helpless orc");
+    test("eine hilflose Königspython", "a helpless ball python");
+    test("ein hilfloses Skelett", "a helpless skeleton");
     cout << endl;
 
     // with "your" and adjective
-    simple_test("your helpless orc", "dein hilfloser Ork");
-    simple_test("your helpless ball python", "deine hilflose Königspython");
-    simple_test("your helpless skeleton", "dein hilfloses Skelett");
+    test("dein hilfloser Ork", "your helpless orc");
+    test("deine hilflose Königspython", "your helpless ball python");
+    test("dein hilfloses Skelett", "your helpless skeleton");
     cout << endl;
 
     // with no determiner and adjective
-    simple_test("helpless orc", "hilfloser Ork");
-    simple_test("helpless ball python", "hilflose Königspython");
-    simple_test("helpless skeleton", "hilfloses Skelett");
+    test("hilfloser Ork", "helpless orc");
+    test("hilflose Königspython", "helpless ball python");
+    test("hilfloses Skelett", "helpless skeleton");
     cout << endl;
 
     // uniques
-    simple_test("Prince Ribbit", "Prinz Ribbit");
-    simple_test("Crazy Yiuf", "Verrückter Yiuf");
-    simple_test("Natasha", "Natascha");
+    test("Prinz Ribbit", "Prince Ribbit");
+    test("Verrückter Yiuf", "Crazy Yiuf");
+    test("Natascha", "Natasha");
     cout << endl;
 
     // uniques with definite article
-    simple_test("Blork the orc", "Blork der Ork");
-    simple_test("the Enchantress", "die Zauberin");
-    simple_test("the Lernaean hydra", "die Lernäische Hydra");
-    simple_test("the Serpent of Hell", "die Höllenschlange");
-    simple_test("the Royal Jelly", "das Gelée Royale");
+    test("Blork der Ork", "Blork the orc");
+    test("die Zauberin", "the Enchantress");
+    test("die Lernäische Hydra", "the Lernaean hydra");
+    test("die Höllenschlange", "the Serpent of Hell");
+    test("das Gelée Royale", "the Royal Jelly");
     cout << endl;
 
     // uniques with definite article and adjective
-    simple_test("the helpless Prince Ribbit", "der hilflose Prinz Ribbit");
-    simple_test("the helpless Crazy Yiuf", "der hilflose Verrückte Yiuf");
-    //simple_test("the helpless Blork the orc", "der hilflose Blork der Ork");
-    simple_test("the helpless Enchantress", "die hilflose Zauberin");
-    simple_test("the helpless 27-headed Lernaean hydra", "die hilflose 27-köpfige Lernäische Hydra");
-    simple_test("the helpless Serpent of Hell", "die hilflose Höllenschlange");
-    simple_test("the helpless Royal Jelly", "das hilflose Gelée Royale");
+    test("der hilflose Prinz Ribbit", "the helpless Prince Ribbit");
+    test("der hilflose Verrückte Yiuf", "the helpless Crazy Yiuf");
+    //test("der hilflose Blork der Ork", "the helpless Blork the orc");
+    test("die hilflose Zauberin", "the helpless Enchantress");
+    test("die hilflose 27-köpfige Lernäische Hydra", "the helpless 27-headed Lernaean hydra");
+    test("die hilflose Höllenschlange", "the helpless Serpent of Hell");
+    test("das hilflose Gelée Royale", "the helpless Royal Jelly");
     cout << endl;
 
     // uniques with adjective only
-    simple_test("helpless Prince Ribbit", "hilfloser Prinz Ribbit");
-    simple_test("helpless Crazy Yiuf", "hilfloser Verrückter Yiuf");
-    //simple_test("helpless Blork the orc", "hilfloser Blork der Ork");
-    simple_test("helpless Enchantress", "hilflose Zauberin");
-    simple_test("helpless 27-headed Lernaean hydra", "hilflose 27-köpfige Lernäische Hydra");
-    simple_test("helpless Serpent of Hell", "hilflose Höllenschlange");
-    simple_test("helpless Royal Jelly", "hilfloses Gelée Royale");
+    test("hilfloser Prinz Ribbit", "helpless Prince Ribbit");
+    test("hilfloser Verrückter Yiuf", "helpless Crazy Yiuf");
+    //test("hilfloser Blork der Ork", "helpless Blork the orc");
+    test("hilflose Zauberin", "helpless Enchantress");
+    test("hilflose 27-köpfige Lernäische Hydra", "helpless 27-headed Lernaean hydra");
+    test("hilflose Höllenschlange", "helpless Serpent of Hell");
+    test("hilfloses Gelée Royale", "helpless Royal Jelly");
     cout << endl;
 
     // special cases
-    simple_test("the helpless yellow draconian", "der hilflose gelbe Drakonier");
-    simple_test("Boghold the orc warlord", "Boghold der Ork-Warlord");
-    //simple_test("the helpless Boghold the orc warlord", "der hilflose Boghold der Ork-Warlord");
+    test("der hilflose gelbe Drakonier", "the helpless yellow draconian");
+    test("Boghold der Ork-Warlord", "Boghold the orc warlord");
+    //test("der hilflose Boghold der Ork-Warlord", "the helpless Boghold the orc warlord");
     cout << endl;
 
     // accusative case
