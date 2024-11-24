@@ -166,15 +166,11 @@ static string _handle_backreferences(const string &s, const string& subst, int* 
                 success = true;
             }
             else
-                 debuglog("Bad indexes for backreference %d: %d, %d", id, start, end);
+                debuglog("Bad indexes for backreference %d: %d, %d", id, start, end);
         }
 
         if (!success)
-        {
             debuglog("Bad regex backreference %d in \"%s\"", id, subst.c_str());
-            // keep backreference
-            result += subst.substr(prev, pos - prev);
-        }
 
         prev = pos;
     }
