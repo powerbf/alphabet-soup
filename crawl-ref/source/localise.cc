@@ -232,20 +232,25 @@ static void _split_tags(string s, vector<string>& results)
 // TODO: Come up with a better name for this function
 static string _shift_context(const string& str)
 {
-    // Must keep context for parameters
-    if (!starts_with(str, "{"))
-        return str;
-
-    bool first = true;
-    string result;
-    for (string s: _split_format(str))
+    string result = str;
+    while (starts_with(result, "{"))
     {
-        if (first && s.length() >= 2 && s[0] == '{' && s[s.length()-1] == '}')
-            _context = s.substr(1, s.length()-2);
-        else
-            result += s;
-        first = false;
+        size_t pos = result.find('}');
+        if (pos == string::npos)
+            break;
+
+        _context = result.substr(1, pos - 1);
+        result = result.substr(pos + 1);
     }
+
+    return result;
+}
+
+static string _discard_context(const string& str)
+{
+    string saved_context = _context;
+    string result = _shift_context(str);
+    _context = saved_context;
     return result;
 }
 
@@ -771,11 +776,7 @@ static size_t _find_embedded_name(const vector<string>& words, const size_t end,
         }
         if (!name.empty())
         {
-            // discard context
-            string ctx = _context;
-            name = _shift_context(name);
-            _context = ctx;
-
+            name = _discard_context(name);
             return start;
         }
     }
