@@ -101,6 +101,9 @@ KEY:/^(a|an) //
 /^(\{m\})?ein /{m}/
 /^eine /{f}/
 /^\{n\}ein /{n}/
+
+# if there are now two context markers in a row, remove the first one (it's superfluous).
+/^\{.\}\{/{/
 %%%%
 
 #################################
