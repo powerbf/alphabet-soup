@@ -42,6 +42,17 @@ static void simple_test(const string& english, const string& expected)
     show_result(actual, expected);
 }
 
+static void test(const string& expected, const char* fmt...)
+{
+    va_list args;
+    va_start(args, fmt);
+
+    string actual = vlocalise(fmt, args);
+    show_result(actual, expected);
+
+    va_end(args);
+}
+
 int main()
 {
     Options.lang_name = "de";
@@ -96,6 +107,63 @@ int main()
     simple_test("helpless orc", "hilfloser Ork");
     simple_test("helpless ball python", "hilflose Königspython");
     simple_test("helpless skeleton", "hilfloses Skelett");
+    cout << endl;
+
+    // uniques
+    simple_test("Prince Ribbit", "Prinz Ribbit");
+    simple_test("Crazy Yiuf", "Verrückter Yiuf");
+    simple_test("Natasha", "Natascha");
+    cout << endl;
+
+    // uniques with definite article
+    simple_test("Blork the orc", "Blork der Ork");
+    simple_test("the Enchantress", "die Zauberin");
+    simple_test("the Lernaean hydra", "die Lernäische Hydra");
+    simple_test("the Serpent of Hell", "die Höllenschlange");
+    simple_test("the Royal Jelly", "das Gelée Royale");
+    cout << endl;
+
+    // uniques with definite article and adjective
+    simple_test("the helpless Prince Ribbit", "der hilflose Prinz Ribbit");
+    simple_test("the helpless Crazy Yiuf", "der hilflose Verrückte Yiuf");
+    //simple_test("the helpless Blork the orc", "der hilflose Blork der Ork");
+    simple_test("the helpless Enchantress", "die hilflose Zauberin");
+    simple_test("the helpless 27-headed Lernaean hydra", "die hilflose 27-köpfige Lernäische Hydra");
+    simple_test("the helpless Serpent of Hell", "die hilflose Höllenschlange");
+    simple_test("the helpless Royal Jelly", "das hilflose Gelée Royale");
+    cout << endl;
+
+    // uniques with adjective only
+    simple_test("helpless Prince Ribbit", "hilfloser Prinz Ribbit");
+    simple_test("helpless Crazy Yiuf", "hilfloser Verrückter Yiuf");
+    //simple_test("helpless Blork the orc", "hilfloser Blork der Ork");
+    simple_test("helpless Enchantress", "hilflose Zauberin");
+    simple_test("helpless 27-headed Lernaean hydra", "hilflose 27-köpfige Lernäische Hydra");
+    simple_test("helpless Serpent of Hell", "hilflose Höllenschlange");
+    simple_test("helpless Royal Jelly", "hilfloses Gelée Royale");
+    cout << endl;
+
+    // special cases
+    simple_test("the helpless yellow draconian", "der hilflose gelbe Drakonier");
+    simple_test("Boghold the orc warlord", "Boghold der Ork-Warlord");
+    //simple_test("the helpless Boghold the orc warlord", "der hilflose Boghold der Ork-Warlord");
+    cout << endl;
+
+    // accusative case
+    test("Du triffst den Ork", "You hit %s", "the orc");
+    test("Du triffst die Königspython", "You hit %s", "the ball python");
+    test("Du triffst das Skelett", "You hit %s", "the skeleton");
+    test("Du triffst den hilflosen Ork", "You hit %s", "the helpless orc");
+    test("Du triffst die 27-köpfige Lernäische Hydra", "You hit %s", "the 27-headed Lernaean hydra");
+    test("Du triffst den hilflosen Verrückten Yiuf", "You hit %s", "the helpless Crazy Yiuf");
+    test("Du triffst den hilflosen gelben Drakonier", "You hit %s", "the helpless yellow draconian");
+    cout << endl;
+
+    // dative case
+    test("Du kollidierst mit dem Ork!", "You collide with %s!", "the orc");
+    test("Du kollidierst mit der Königspython!", "You collide with %s!", "the ball python");
+    test("Du kollidierst mit dem Skelett!", "You collide with %s!", "the skeleton");
+    test("Du kollidierst mit der 27-köpfigen Lernäischen Hydra!", "You collide with %s!", "the 27-headed Lernaean hydra");
     cout << endl;
 
     // show results summary

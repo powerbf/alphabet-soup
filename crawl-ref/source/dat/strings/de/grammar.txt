@@ -54,7 +54,9 @@ KEY:/^the /a /
 # masc adjectives
 /^ein [^A-ZÄÖÜ]+/e /er /
 /^ein [^A-ZÄÖÜ]+/\{adj-e\}/{adj-er}/
-/e Drakonier/er Drakonier/
+
+# fix some special cases
+/e (Drakonier|Yiuf)/er $1/
 
 # neuter adjectives
 /^\{n\}ein [^A-ZÄÖÜ]+/e /es /
@@ -157,9 +159,10 @@ GENERATE:acc
 
 # fix special cases
 /Blork der Ork/Blork den Ork/
-/Verrückter /Verrückten /
+/er? Yiuf/en Yiuf/
 /er Drakonier/en Drakonier/
-/^(den [A-ZÄÖÜ][^ ,]+)e Drakonier/$1en Drakonier/
+# make sure it's not plural
+/^den [^,]+ Drakonier/e Drakonier/en Drakonier/
 
 %%%%
 
