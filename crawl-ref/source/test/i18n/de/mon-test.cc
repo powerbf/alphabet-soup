@@ -198,6 +198,10 @@ int main()
     // derived monsters (should have the gender of the derived monster, not the original)
     test("Du triffst den hilflosen Meervolk-Zombie", "You hit %s", "the helpless merfolk zombie");
     test("Du triffst das hilflose Ork-Skelett", "You hit %s", "the helpless orc skeleton");
+    test("Du triffst das hilflose Ork-Simulacrum", "You hit %s", "the helpless orc simulacrum");
+    test("eine Ork-förmige Salzsäule", "an orc shaped pillar of salt");
+    test("Du siehst hier einen Mennas-förmigen Eisblock.", "You see here %s.", "a Mennas shaped block of ice");
+    test("Du siehst hier einen Tarantella-förmigen Eisblock.", "You see here %s.", "a tarantella shaped block of ice");
 
     // show results summary
     cout << num_passes << " TESTS PASSED" << endl;
