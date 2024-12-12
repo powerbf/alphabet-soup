@@ -35,6 +35,53 @@
 # Pregeneration
 #################################
 
+
+# generate possessive with definite article from nominative with definite article
+# for example:
+#   the %sorc -> the %sorc's
+#   der {adj-e}%sOrk -> des {adj-en}%sOrks
+#   die {adj-e}%sFledermaus -> der {adj-en}%sFledermaus
+%%%%
+PREGENERATE:0
+
+SELECT:/^the .*[^']{2}$/
+
+KEY:/(.)$/$1's/
+
+# article
+/^(\{m\})?der /{m}des /
+/^(\{n\})?das /{n}des /
+/^(\{f\})?die /{f}der /
+/^(\{pl\})die /{pl}der /
+
+# adjectives
+/^[^A-ZÄÖÜ]+/e\b/en/
+
+# mark genitive/dative suffix so we can exclude it from later expressions
+/ (der|des|einer|eines|von|vom) /# $1 /
+
+# masc/neuter nouns
+/^\{[mn]\}des [^#]*/(.)$/$1s/
+
+# fixup weak nouns
+/herzs\b/herzens/
+/(Akolyth)s\b/$1en/
+/^[^#]*/(Mensch|[Bb]är|[^e]ist|ant|taur|myzet|[Ff]ürst)s$/$1en/
+/^[^#]*/([Ss]chamane|[Ss]chütze|Sklave|[Hh]err|loge|mycete)s$/$1n/
+/^[^#]*/([Rr]iese|[Dd]rache|[Dd]ruide|[Hh]eilige|Ahne)s$/$1n/
+# match Affe but not Waffe
+/^[^#]*/(Affe|[^Ww]affe)s$/$1n/
+
+# fixup other special cases
+/Gelée Royales/Gelée Royale/
+/uss\b/us/
+/^[^#]*/(ss|sch|[Gg]eist)s/$1es/
+/Lernäischer /Lernäischen /
+
+# remove mark we added
+/#//
+%%%%
+
 # generate indefinite (nominative) from definite
 %%%%
 PREGENERATE:1
@@ -310,7 +357,7 @@ GENERATE:gen
 
 # fixup weak nouns
 /herzs\b/herzens/
-/(Akolyth)\b/$1en/
+/(Akolyth)s\b/$1en/
 /^[^#]*/(Mensch|[Bb]är|[^e]ist|ant|taur|myzet|[Ff]ürst)s$/$1en/
 /^[^#]*/([Ss]chamane|[Ss]chütze|Sklave|[Hh]err|loge|mycete)s$/$1n/
 /^[^#]*/([Rr]iese|[Dd]rache|[Dd]ruide|[Hh]eilige|Ahne)s$/$1n/
