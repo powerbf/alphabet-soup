@@ -9,11 +9,11 @@
 %%%%
 # unseen monster
 {gen}something
-des Etwas
+{n}des Etwas
 %%%%
-{gen}%s@name@'s ghost
-des {adj-en}%sGeistes von @name@
+{gen}@name@'s ghost
+{m}des Geistes von @name@
 %%%%
-{gen}%s@name@'s illusion
-der {adj-en}%sIllusion von @name@
+{gen}@name@'s illusion
+{f}der Illusion von @name@
 %%%%

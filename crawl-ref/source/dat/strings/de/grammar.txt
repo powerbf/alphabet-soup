@@ -35,14 +35,40 @@
 # Pregeneration
 #################################
 
+# Note: These are run in numbered order, and the results of earlier runs are
+# available to later runs (and later runs must take into account the fact that
+# the results of the earlier runs exist).
 
+#############
+# select all nouns with definite article and generate a version with an
+# adjective placeholder after the article
+%%%%
+PREGENERATE:0
+
+SELECT:/^the (?!%s)/
+
+# English
+KEY:/^the /the %s/
+# "pair of boots/gloves" (but not quick blades) needs a second adjective placeholder
+KEY:/pair of (?!quick blades)/pair of %s/
+
+# German
+# nominative singular
+/^(der|die|das) /$1 {adj-e}%s/
+# plural and genitive
+/^(\{pl\}die|\{f\}der|\{n\}des|\{m\}des|des) /$1 {adj-en}%s/
+# "pair of boots/gloves" (but not quick blades) needs a second adjective placeholder
+/Paar (?!Schnellklingen)/Paar {adj-e}%s/
+%%%%
+
+#############
 # generate possessive with definite article from nominative with definite article
 # for example:
 #   the %sorc -> the %sorc's
 #   der {adj-e}%sOrk -> des {adj-en}%sOrks
 #   die {adj-e}%sFledermaus -> der {adj-en}%sFledermaus
 %%%%
-PREGENERATE:0
+PREGENERATE:10
 
 SELECT:/^the .*[^']{2}$/
 
@@ -84,7 +110,7 @@ KEY:/(.)$/$1's/
 
 # generate indefinite (nominative) from definite
 %%%%
-PREGENERATE:1
+PREGENERATE:11
 
 SELECT:/^the .*[^']{2}$/
 
@@ -112,7 +138,7 @@ KEY:/^the /a /
 
 # generate indefinite (possessive) from definite
 %%%%
-PREGENERATE:2
+PREGENERATE:12
 
 SELECT:/^the .*('s|')$/
 
@@ -125,7 +151,7 @@ SELECT:/^the .*('s|')$/
 # generate "your" (nominative and possessive) from indefinite
 # (easier than generating from definite because adjectives will already be in the right form)
 %%%%
-PREGENERATE:3
+PREGENERATE:13
 
 SELECT:/^(a|an) /
 
@@ -136,9 +162,18 @@ KEY:/^(a|an) /your /
 /^(\{[mfn]\})?ein/$1dein/
 %%%%
 
+# player ghost/illusion can have no determiner in English, but needs definite article in German
+%%%%
+PREGENERATE:14
+
+SELECT:/^the (%s)?@name@'s/
+
+KEY:/^the //
+%%%%
+
 # generate no determiner (nominative) from indefinite
 %%%%
-PREGENERATE:4
+PREGENERATE:15
 
 # exclude possessives
 SELECT:/^(a|an) .*[^']{2}$/
@@ -155,24 +190,58 @@ KEY:/^(a|an) //
 /^\{.\}\{/{/
 %%%%
 
+
+
+
+#############
+# select all counted plural nouns and generate a version with an
+# adjective placeholder after the count
+%%%%
+PREGENERATE:21
+
+SELECT:/^%d /
+
+# English
+KEY:/^%d /%d %s/
+
+# German
+/^%d /%d {adj-e}%s/
+%%%%
+
+#############
+# select all counted plural nouns (with and without adjective placeholder)
+# and generate an uncounted version
+%%%%
+PREGENERATE:22
+
+SELECT:/^%d /
+
+# English
+KEY:/^%d //
+
+# German
+/^%d /{pl}/
+%%%%
+
+
 # if adjective already has a context, we can't generate other forms on the fly, so pre-generate
 %%%%
-PREGENERATE:10
+PREGENERATE:30
 SELECT:/^\{adj-e\}/
 KEY:/^\{adj-e\}/{adj-er}/
 /e$/er/
 %%%%
-PREGENERATE:11
+PREGENERATE:31
 SELECT:/^\{adj-e\}/
 KEY:/^\{adj-e\}/{adj-es}/
 /e$/es/
 %%%%
-PREGENERATE:12
+PREGENERATE:32
 SELECT:/^\{adj-e\}/
 KEY:/^\{adj-e\}/{adj-en}/
 /e$/en/
 %%%%
-PREGENERATE:13
+PREGENERATE:33
 SELECT:/^\{adj-e\}/
 KEY:/^\{adj-e\}/{adj-em}/
 /e$/em/
