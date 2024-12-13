@@ -2,10 +2,16 @@
 #
 # Monsters - unique, definite article, nominative
 #
-# Note: All uniques can appear with definite article
-# For example: "You hit the helpless Ijyb from behind."
-#
 ###############################################################################
+
+# Note: It might seem odd to list all uniques with a definite article, but there
+# are good reasons for it:
+# a) We need a version with a definite article for message like:
+#    "You hit the helpless Ijyb from behind."
+# b) It's easier to generate the version without an article from the one with an
+#    article than the other way round because it's hard to identify the names
+#    without an article (there are many other strings that also start with a
+#    capital letter).
 
 %%%%
 the Mennas
