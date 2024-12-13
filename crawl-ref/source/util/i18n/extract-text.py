@@ -1213,19 +1213,6 @@ def special_handling_for_mon_data_h(strings):
         else:
             output.append('the %s' + string)
 
-    # possessive non-unique
-    output.append("# section: non-unique monsters, singular possessive")
-    for string in names:
-        output.append('the %s' + possessive(string))
-
-    # possessive unique
-    output.append("# section: unique monsters, possessive")
-    for string in unique_names:
-        if string.startswith('the '):
-            output.append(re.sub('^the ', 'the %s', possessive(string)))
-        else:
-            output.append(possessive(string))
-
     # plural non-unique
     output.append("# section: non-unique monsters, plural")
     for string in names:
@@ -2065,9 +2052,6 @@ def pluralise(string):
     else:
         return string + "s"
 
-def possessive(string):
-    return string + "'s"
-
 def is_unique_monster(string):
     # non-uniques with uppercase letters in them
     specials = [
@@ -2131,15 +2115,12 @@ def add_spellbook_article(string):
         # can have a/an
         return article_a(string)
 
-def get_noun_permutations(string, is_monster = False):
+def get_noun_permutations(string):
     list = []
 
     if string.startswith("The "):
         list.append(string)
-        if is_monster:
-            list.append(string + "'s")
     else:
-        is_unique = is_unique_noun(string, is_monster)
         base = re.sub("^(the|a|an) ", "", string)
         base = re.sub("^%s", "", base)
 
@@ -2149,17 +2130,10 @@ def get_noun_permutations(string, is_monster = False):
 
         list.append(full)
 
-        # possessive (for monsters)
-        if is_monster:
-            if is_unique:
-                list.append(possessive(string))
-            else:
-                list.append(possessive(full))
-
     return list
 
 def append_monster_permutations(list, string):
-    list.extend(get_noun_permutations(string, True))
+    list.extend(get_noun_permutations(string))
 
 def add_strings_to_output(filename, strings, output):
     if len(strings) == 0:
