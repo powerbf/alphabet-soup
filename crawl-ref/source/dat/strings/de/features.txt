@@ -23,12 +23,6 @@ Reiseroute
 door
 Tür
 %%%%
-%sdoor
-%sTür
-%%%%
-gate
-Tor
-%%%%
 gate
 Tor
 %%%%
@@ -653,7 +647,7 @@ Wand aus weißem Kristall
 weirdly glowing ball
 seltsam leuchtende Kugel
 %%%%
-%sfleshy orifice
+fleshy orifice
 fleischige Öffnung
 %%%%
 
@@ -670,14 +664,8 @@ die Reiseroute
 the door
 die Tür
 %%%%
-the door
-die %sTür
-%%%%
 the gate
 das Tor
-%%%%
-the gate
-das %sTor
 %%%%
 the tree
 der Baum
@@ -1782,7 +1770,7 @@ eine Wand aus weißem Kristall
 a weirdly glowing ball
 eine seltsam leuchtende Kugel
 %%%%
-a %sfleshy orifice
+a fleshy orifice
 eine fleischige Öffnung
 %%%%
 
