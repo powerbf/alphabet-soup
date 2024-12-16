@@ -416,6 +416,30 @@ static string _normalise_determiner(const string& word)
         return lower;
 }
 
+// Given a string that starts with an owner (possessive name), extract the owner
+// and parameterise string with placeholder for owner.
+//
+// For example, given "Sif Muna's Compendium", will set:
+// owner = "Sif Muna" and parameterised = "@owner@'s Compendium"
+//
+// If no owner is found then owner will be empty and parameterised = the input string
+static void _extract_owner(const string& s, string &owner, string &parameterised)
+{
+    // find the apostrophe (search in reverse because it's possible that the
+    // contains an apostrophe)
+    size_t pos = s.rfind('\'');
+    if (pos == string::npos)
+    {
+        owner = "";
+        parameterised = s;
+    }
+    else
+    {
+        owner = s.substr(0, pos);
+        parameterised = "@owner@" + s.substr(pos);
+    }
+}
+
 // localise a string with count
 static string _localise_counted_string(const string& context, const string& singular,
                                        const string& plural, const int count)
@@ -1635,6 +1659,121 @@ static string _localise_name(const string& context, const string& value)
     return "";
 }
 
+static string _localise_book_title(const string& context, const string& value)
+{
+    string owner, format_str, result;
+
+    // first, search for owner name (and avoid false match from "Hermit's Heritage")
+    string temp = replace_all(value, "Hermit's Heritage", "@hermits_heritage@");
+    _extract_owner(temp, owner, format_str);
+    format_str = replace_all(format_str, "@hermits_heritage@", "Hermit's Heritage");
+
+    if (!owner.empty())
+    {
+        // owner may have a translation if it's a known name like Olgreb,
+        // Sif Muna, etc., but if it's a randomly-generated name, it won't, so
+        // fall back on the untranslated name.
+        owner = xlate(owner, true);
+
+        // try a translation in case this is all we need to do
+        result = cxlate(context, format_str, false);
+        if (!result.empty())
+            return replace_all(result, "@owner@", owner);
+    }
+
+    size_t pos;
+    string adjective, book_magic, spellcaster;
+
+    if ((pos = format_str.find(" of ")) != string::npos)
+    {
+        // there are two possibilities here:
+        // 1. "(@owner@'s) <whatever> of @book_magic@"
+        // 2. "<whatever> of @spellcaster@"
+        bool has_spellcaster = false;
+        if (contains(format_str, "Testament"))
+            has_spellcaster = true;
+        else if (contains(format_str, "Last") || contains(format_str, "Lost"))
+            has_spellcaster = !contains(format_str, "Secrets of");
+
+        if (has_spellcaster)
+        {
+            spellcaster = format_str.substr(pos + strlen(" of "));
+            format_str = replace_first(format_str, spellcaster, "@spellcaster@");
+        }
+        else
+            book_magic = format_str.substr(pos + strlen(" of "));
+    }
+    // "(@owner@'s) @book_magic@ in Simple Steps"
+    // this must be handled before the generic "in @book_magic@"
+    else if ((pos = format_str.rfind(" in Simple Steps")) != string::npos)
+        book_magic = format_str.substr(0, pos);
+    // "(@owner@'s) <whatever> on/to/in @book_magic@"
+    else if ((pos = format_str.find(" on ")) != string::npos
+             || (pos = format_str.find(" to ")) != string::npos
+             || (pos = format_str.find(" in ")) != string::npos)
+    {
+        book_magic = format_str.substr(pos + strlen(" in "));
+    }
+    // "(@owner@'s) @book_magic@, Part <X>"
+    // "(@owner@'s) @book_magic@, and How To Use It"
+    // "(@owner@'s) @book_magic@ 101"
+    // "(@owner@'s) @book_magic Continued"
+    // "(@owner@'s) @book_magic@ for beginners/novices/etc."
+    else if ((pos = format_str.rfind(',')) != string::npos
+        || (pos = format_str.rfind(" 101")) != string::npos
+        || (pos = format_str.rfind(" Continued")) != string::npos
+        || (pos = format_str.find(" for ")) != string::npos)
+    {
+        book_magic = format_str.substr(0, pos);
+    }
+    // "(@owner@'s) Easy/Advanced/Sophisticated @book_magic@"
+    else if ((pos = format_str.find("Easy ")) != string::npos
+             || (pos = format_str.find("Advanced ")) != string::npos
+             || (pos = format_str.find("Sophisticated ")) != string::npos)
+    {
+        size_t end = format_str.find(' ', pos);
+        adjective = format_str.substr(pos, end - pos);
+        format_str = replace_first(format_str, adjective, "@Adj@");
+    }
+    // "(@owner@'s) Mastering @book_magic"
+    else if ((pos = format_str.find("Mastering ")) != string::npos)
+        book_magic = format_str.substr(pos + strlen("Mastering "));
+
+    if (!book_magic.empty())
+    {
+        book_magic = replace_first(book_magic, "@owner@'s ", "");
+        format_str = replace_first(format_str, book_magic, "@book_magic@");
+    }
+
+    TRACE("_localise_book_title: format_str='%s'", format_str.c_str());
+    result = cxlate(context, format_str, false);
+    if (result.empty())
+        return "";
+
+    result = replace_all(result, "@owner@", owner);
+
+    if (result.find('@') == string::npos)
+    {
+        // no other parameters to replace, we're done
+        return result;
+    }
+
+    // handle parameters
+    map<string, string> params;
+    params["Adj"] = adjective;
+    params["adj"] = adjective;
+    params["book_magic"] = book_magic;
+    params["spellcaster"] = spellcaster;
+
+    result = localise(result, params, false);
+
+    // avoid half-translated title
+    if (!book_magic.empty() && contains(result, book_magic))
+        return "";
+
+    return result;
+}
+
 static string _localise_location(const string& context, const string& value)
 {
     // make pattern static so that it only needs to be compiled once
@@ -1937,6 +2076,12 @@ static string _localise_string(const string context, const string& value)
     // handle strings like "on level 3 of the dungeon"
     // must be done before list because can contain the word "and"
     result = _localise_location(context, value);
+    if (!result.empty())
+        return result;
+
+    // try as book title
+    // must be done before _localise_list because can contains comma
+    result = _localise_book_title(context, value);
     if (!result.empty())
         return result;
 

@@ -371,7 +371,7 @@ Das Nachschlagewerk über {acc}@book_magic@
 @owner@s Leitfaden für {acc}@book_magic@
 %%%%
 @owner@'s Collected Works on @book_magic@
-@owner@s gesammelten Werke über {acc}@book_magic@
+@owner@s gesammelte Werke über {acc}@book_magic@
 %%%%
 @owner@'s Disquisition on @book_magic@
 @owner@s Abhandlung über {acc}@book_magic@
@@ -381,7 +381,7 @@ Das Nachschlagewerk über {acc}@book_magic@
 %%%%
 
 # owners who are not listed elsewhere as gods or unique monsters
-# note: the player name or a randomly-generated name are also possible
+# note: a randomly-generated name is also possible
 %%%%
 Alistair
 Alistair
@@ -496,46 +496,46 @@ Ozocubu
 
 %%%%
 @owner@'s @Adj@ Magic
-@owner@s {adj-e}@Adj@ Magie
+@owner@s {adj-e}@adj@ Magie
 %%%%
 @owner@'s @Adj@ Theurgy
-@owner@s {adj-e}@Adj@ Theurgie
+@owner@s {adj-e}@adj@ Theurgie
 %%%%
 @owner@'s @Adj@ Thaumaturgy
-@owner@s {adj-e}@Adj@ Thaumaturgie
+@owner@s {adj-e}@adj@ Thaumaturgie
 %%%%
 @owner@'s @Adj@ Casting
-@owner@s {adj-es}@Adj@ Zauberwirken
+@owner@s {adj-es}@adj@ Zauberwirken
 %%%%
 @owner@'s @Adj@ Spellcasting
-@owner@s {adj-es}@Adj@ Zaubern
+@owner@s {adj-es}@adj@ Zaubern
 %%%%
 @owner@'s @Adj@ Wizardry
-@owner@s {adj-e}@Adj@ Zauberei
+@owner@s {adj-e}@adj@ Zauberei
 %%%%
 @owner@'s @Adj@ Sorcery
-@owner@s {adj-es}@Adj@ Hexenwerk
+@owner@s {adj-es}@adj@ Hexenwerk
 %%%%
 @owner@'s @Adj@ Witchcraft
-@owner@s {adj-e}@Adj@ Hexerei
+@owner@s {adj-e}@adj@ Hexerei
 %%%%
 @owner@'s @Adj@ Witchery
-@owner@s {adj-e}@Adj@ Hexerei
+@owner@s {adj-e}@adj@ Hexerei
 %%%%
 @owner@'s @Adj@ Spellcraft
-@owner@s {adj-e}@Adj@ Zauberkunst
+@owner@s {adj-e}@adj@ Zauberkunst
 %%%%
 @owner@'s @Adj@ Spellweaving
-@owner@s {adj-es}@Adj@ Zauberweben
+@owner@s {adj-es}@adj@ Zauberweben
 %%%%
 @owner@'s @Adj@ Secret Knowledge
-@owner@s {adj-es}@Adj@ Geheimwissen
+@owner@s {adj-es}@adj@ Geheimwissen
 %%%%
 @owner@'s @Adj@ Rites and Rhymes
-@owner@s {adj-e}@Adj@ Riten und Reime
+@owner@s {adj-e}@adj@ Riten und Reime
 %%%%
 @owner@'s @Adj@ Hermeneutics
-@owner@s {adj-e}@Adj@ Hermeneutik
+@owner@s {adj-e}@adj@ Hermeneutik
 %%%%
 
 # adjectives for above
@@ -597,7 +597,7 @@ Erste Schritte {in-dat}@book_magic@
 @owner@s Einweihung in {acc}@book_magic@
 %%%%
 @owner@'s First Steps in @book_magic@
-@owner@s Schritte {in-dat}@book_magic@
+@owner@s erste Schritte {in-dat}@book_magic@
 %%%%
 
 %%%%
@@ -676,27 +676,27 @@ Die Grundlagen {gen}@book_magic@
 %%%%
 @book_magic@, and How To Use It
 @book_magic@, und die Verwendung davon
-%%%
+%%%%
 
 %%%%
-@owners@'s Primer on @book_magic@
-@owners@s Fibel für {acc}@book_magic@
+@owner@'s Primer on @book_magic@
+@owner@s Fibel für {acc}@book_magic@
 %%%%
-@owners@'s Early Guide to @book_magic@
-@owners@s Ein früher Leitfaden für {acc}@book_magic@
+@owner@'s Early Guide to @book_magic@
+@owner@s früher Leitfaden für {acc}@book_magic@
 %%%%
-@owners@'s Foundations of @book_magic@
-@owners@s Die Grundlagen {gen}@book_magic@
+@owner@'s Foundations of @book_magic@
+@owner@s Grundlagen {gen}@book_magic@
 %%%%
-@owners@'s @book_magic@ in Simple Steps
-@owners@s @book_magic@ in einfachen Schritten
+@owner@'s @book_magic@ in Simple Steps
+@owner@s @book_magic@ in einfachen Schritten
 %%%%
-@owners@'s @book_magic@ Continued
-@owners@s @book_magic@ fortgefahren
+@owner@'s @book_magic@ Continued
+@owner@s @book_magic@ fortgefahren
 %%%%
-@owners@'s @book_magic@, and How To Use It
-@owners@s @book_magic@, und die Verwendung davon
-%%%
+@owner@'s @book_magic@, and How To Use It
+@owner@s @book_magic@, und die Verwendung davon
+%%%%
 
 # level 4-6
 # moderate level book
@@ -976,7 +976,7 @@ der größten Risiken und des höchsten Nutzens
 @owner@s verlorene Geheimnisse {gen}@book_magic@
 %%%%
 @owner@'s Arcane Secrets of @book_magic@
-@owner@s arkanen Geheimnisse {gen}@book_magic@
+@owner@s arkane Geheimnisse {gen}@book_magic@
 %%%%
 @owner@'s Intricacies of @book_magic@
 @owner@s Feinheiten {gen}@book_magic@
