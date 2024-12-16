@@ -440,6 +440,16 @@ static void _extract_owner(const string& s, string &owner, string &parameterised
     }
 }
 
+// possessive hack for German
+// German just puts "s" after names: "@owner@s", which becomes, for example,
+// "Xoms", but when the name ends in "s", it should be "@owner@'". For example,
+// it should be "Asmodäus'" not "Asmodäuss"
+static void _possessive_hack(string& s, string &owner)
+{
+    if (_language == "de" && ends_with(owner, "s"))
+        s = replace_first(s, "@s", "@'");
+}
+
 // localise a string with count
 static string _localise_counted_string(const string& context, const string& singular,
                                        const string& plural, const int count)
@@ -1678,7 +1688,10 @@ static string _localise_book_title(const string& context, const string& value)
         // try a translation in case this is all we need to do
         result = cxlate(context, format_str, false);
         if (!result.empty())
+        {
+            _possessive_hack(result, owner);
             return replace_all(result, "@owner@", owner);
+        }
     }
 
     size_t pos;
@@ -1750,6 +1763,7 @@ static string _localise_book_title(const string& context, const string& value)
     if (result.empty())
         return "";
 
+    _possessive_hack(result, owner);
     result = replace_all(result, "@owner@", owner);
 
     if (result.find('@') == string::npos)

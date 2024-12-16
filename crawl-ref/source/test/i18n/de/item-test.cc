@@ -671,7 +671,7 @@ int main()
     test("Eringya's Improving Your Spellcasting", "Eringyas Verbessert Euer Zaubern");
     test("Khufu's Thorough Guide to Wizardry", "Khufus gründlicher Leitfaden für Zauberei");
     test("Xom's Last Secrets of Sorcery", "Xoms letzte Geheimnisse des Hexenwerks");
-    test("Asmodeus's Lost Secrets of Witchcraft", "Asmodäuss verlorene Geheimnisse der Hexerei");
+    test("Asmodeus's Lost Secrets of Witchcraft", "Asmodäus' verlorene Geheimnisse der Hexerei");
     test("Dispater's Arcane Secrets of Witchery", "Dispaters arkane Geheimnisse der Hexerei");
     test("Ereshkigal's Intricacies of Spellcraft", "Ereshkigals Feinheiten der Zauberkunst");
     test("Gloorx Vloq's Mastering Spellweaving", "Gloorx Vloqs Beherrschung des Zauberwebens");
