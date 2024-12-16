@@ -597,7 +597,7 @@ Erste Schritte {in-dat}@book_magic@
 @owner@s Einweihung in {acc}@book_magic@
 %%%%
 @owner@'s First Steps in @book_magic@
-@owner@s Schritte in {acc}@book_magic@
+@owner@s Schritte {in-dat}@book_magic@
 %%%%
 
 %%%%
@@ -713,7 +713,7 @@ Die Grundlagen {gen}@book_magic@
 
 %%%%
 Advanced Steps in @book_magic@
-Fortgeschrittene Schritte in {acc}@book_magic@
+Fortgeschrittene Schritte {in-dat}@book_magic@
 %%%%
 The Advanced Guide to @book_magic@
 Der fortgeschrittene Leitfaden für {acc}@book_magic@
@@ -730,7 +730,7 @@ Der Zweite Kurs {in-dat}@book_magic@
 
 %%%%
 @owner@'s Advanced Steps in @book_magic@
-@owner@s fortgeschrittene Schritte in {acc}@book_magic@
+@owner@s fortgeschrittene Schritte {in-dat}@book_magic@
 %%%%
 @owner@'s Advanced Guide to @book_magic@
 @owner@s fortgeschrittener Leitfaden für {acc}@book_magic@
