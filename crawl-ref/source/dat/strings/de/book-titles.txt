@@ -464,7 +464,7 @@ Ozocubu
 {adj-es}@Adj@ Zauberwirken
 %%%%
 @Adj@ Spellcasting
-{adj-es}@Adj@ Zauberwirken
+{adj-es}@Adj@ Zaubern
 %%%%
 @Adj@ Wizardry
 {adj-e}@Adj@ Zauberei
@@ -508,7 +508,7 @@ Ozocubu
 @owner@s {adj-es}@Adj@ Zauberwirken
 %%%%
 @owner@'s @Adj@ Spellcasting
-@owner@s {adj-es}@Adj@ Zauberwirken
+@owner@s {adj-es}@Adj@ Zaubern
 %%%%
 @owner@'s @Adj@ Wizardry
 @owner@s {adj-e}@Adj@ Zauberei
@@ -760,7 +760,7 @@ Improving Your Casting
 Verbessert Euer Zauberwirken
 %%%%
 Improving Your Spellcasting
-Verbessert Euer Zauberwirken
+Verbessert Euer Zaubern
 %%%%
 Improving Your Wizardry
 Verbessert Eure Zauberei
@@ -805,7 +805,7 @@ Verbessert Eure Hermeneutik
 @owner@s Verbessert Euer Zauberwirken
 %%%%
 @owner@'s Improving Your Spellcasting
-@owner@s Verbessert Euer Zauberwirken
+@owner@s Verbessert Euer Zaubern
 %%%%
 @owner@'s Improving Your Wizardry
 @owner@s Verbessert Eure Zauberei
