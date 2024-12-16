@@ -1783,7 +1783,7 @@ static string _localise_book_title(const string& context, const string& value)
 
     // avoid half-translated title
     if (!book_magic.empty() && contains(result, book_magic))
-        return "";
+        return value;
 
     return result;
 }
@@ -2067,6 +2067,27 @@ static string _localise_string(const string context, const string& value)
     if (is_list_separator(value))
         return value;
 
+    if (value[0] == '[')
+    {
+        // has an annotation at the front
+        size_t pos = value.find("] ");
+        if (pos != string::npos)
+        {
+            string annotation = _localise_annotation(value.substr(0, pos+2));
+            return annotation + _localise_string(context, value.substr(pos+2));
+        }
+    }
+
+    // remove trailing annotations
+    list<string> annotations;
+    string rest = _strip_annotations(value, annotations);
+    if (!annotations.empty())
+    {
+        result = _localise_string(context, rest);
+        annotations = _localise_annotations(annotations);
+        return _add_annotations(result, annotations);
+    }
+
     // try splitting on colon
     size_t colon_pos;
     if ((colon_pos = value.find(':')) != string::npos)
@@ -2151,27 +2172,6 @@ static string _localise_string(const string context, const string& value)
     result = _localise_jiyva_long_name(context, value);
     if (!result.empty())
         return result;
-
-    if (value[0] == '[')
-    {
-        // has an annotation at the front
-        size_t pos = value.find("] ");
-        if (pos != string::npos)
-        {
-            string annotation = value.substr(0, pos+2);
-            return annotation + _localise_string(context, value.substr(pos+2));
-        }
-    }
-
-    // remove annotations
-    list<string> annotations;
-    string rest = _strip_annotations(value, annotations);
-    if (!annotations.empty())
-    {
-        result = _localise_string(context, rest);
-        annotations = _localise_annotations(annotations);
-        return _add_annotations(result, annotations);
-    }
 
     // try treating as a name of a monster, item, etc.
     result = _localise_name(context, value);
