@@ -1155,7 +1155,7 @@ Du zehrst {acc}%s aus
 %s drains itself
 %s zehrt sich selbst aus
 %%%%
-# note: second %s will be possessive (e.g. "the orc's", "Sigmund's")
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 You drain %s vigour!
 Du entziehst die Vitalität %s!
 %%%%
