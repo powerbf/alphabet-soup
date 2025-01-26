@@ -11832,7 +11832,7 @@ You can't shaft yourself while held in a net.
 Du kannst dich nicht schächten, solange du in einem Netz gefangen bist.
 %%%%
 You can't shaft yourself while caught in a web.
-Du kannst dich nicht schächten, solange du in einem Gespinst gefangen bist.
+Du kannst keinen Schacht graben, solange du in einem Gespinst gefangen bist.
 %%%%
 You can't shaft yourself on this level.
 Du kannst dich auf dieser Ebene nicht bewegen.
@@ -17077,7 +17077,7 @@ Das Netz wird durch deine Masse zerrissen.
 %s sickert durch ein Gespinst.
 %%%%
 You pick your way through the web.
-Du suchst dich deinen Weg durch das Gespinst.
+Du suchst dir deinen Weg durch das Gespinst.
 %%%%
 You are caught in the web!
 Du bist im Gespinst gefangen!
