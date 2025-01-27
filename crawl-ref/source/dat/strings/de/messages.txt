@@ -11391,10 +11391,10 @@ It's unwise to walk into this.
 Es ist unklug, darauf einzugehen.
 %%%%
 %s is held in a net!
-%s ist in einem Netz festgehalten!
+%s wird von einem Netz festgehalten!
 %%%%
 %s is caught in a web!
-%s ist in einem Gespinst festgehalten!
+%s wird von einem Gespinst festgehalten!
 %%%%
 %s is being constricted!
 %s wird umschlungen!
@@ -17167,7 +17167,7 @@ A web harmlessly splats on %s.
 Ein Gespinst platscht harmlos auf {acc}%s.
 %%%%
 You are caught in a web!
-Du bist in einem Gespinst gefangen!
+Du wirst von einem Gespinst festgehalten!
 %%%%
 
 ##################
