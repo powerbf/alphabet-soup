@@ -12363,10 +12363,10 @@ Keine Ziele gefunden!
 "Evozieren: "
 %%%%
 Quiver which item? (- for none, * to toggle full inventory)
-Welchen Gegenstand in den Köcher stecken? (- für keinen, * zum Umschalten des gesamten Inventars)
+Welchen Gegenstand in den Köcher stecken? (- für keinen, * zum Umschalten auf das gesamte Inventar)
 %%%%
 Quiver which item? (* to toggle full inventory)
-Welchen Gegenstand in den Köcher stecken? (* zum Umschalten des gesamten Inventars)
+Welchen Gegenstand in den Köcher stecken? (* zum Umschalten auf das gesamte Inventar)
 %%%%
 Clearing quiver.
 Köcher wird geleert.
@@ -12435,37 +12435,37 @@ call upon Zin for vitalisation
 Zin um Belebung anrufen
 %%%%
 call upon Zin to imprison the lawless
-Zin anrufen, um die Gesetzlosen zu inhaftieren
+Zin anrufen, die Gesetzlosen zu inhaftieren
 %%%%
 call upon Zin to create a sanctuary
-Zin anrufen, um ein Heiligtum zu schaffen
+Zin anrufen, ein Heiligtum zu schaffen
 %%%%
 Zin will now cleanse your potions of mutation.
 Zin wird nun deine Tränke der Mutation reinigen.
 %%%%
 Zin will no longer cleanse your potions of mutation.
-Zin wird deine Tränke nicht mehr von Mutation reinigen.
+Zin wird deine Tränke der Mutation nicht mehr reinigen.
 %%%%
 Zin will cleanse your potions of mutation.
-Zin wird deine Tränke von Mutation reinigen.
+Zin wird deine Tränke der Mutation reinigen.
 %%%%
 donate money to Zin
 Geld an Zin spenden
 %%%%
 You and your allies can now gain power from killing the unholy and evil.
-Du und deine Verbündeten können nun Macht durch das Töten von Unheiligen und Bösen erlangen.
+Du und deine Verbündeten können nun Macht durch das Töten unheiliger und böser Kreaturen erlangen.
 %%%%
 You and your allies can no longer gain power from killing the unholy and evil.
-Du und deine Verbündeten können keine Macht mehr durch das Töten des Unheiligen und Bösen erlangen.
+Du und deine Verbündeten können keine Macht mehr durch das Töten unheiliger und böser Kreaturen erlangen.
 %%%%
 You and your allies can gain power from killing the unholy and evil.
-Du und deine Verbündeten können Macht durch das Töten des Unheiligen und Bösen erlangen.
+Du und deine Verbündeten können Macht durch das Töten unheiliger und böser Kreaturen erlangen.
 %%%%
 call upon the Shining One for a divine shield
 den Strahlenden um einen göttlichen Schild anrufen
 %%%%
 channel blasts of cleansing flame
-Strahlen der reinigenden Flamme hervorrufen
+reinigende Flammenwolken kanalisieren
 %%%%
 summon a divine warrior
 einen göttlichen Krieger beschwören
@@ -12480,28 +12480,28 @@ receive cadavers from Kikubaaqudgha
 Kadaver von Kikubaaqudgha erhalten
 %%%%
 Kikubaaqudgha is now protecting you from necromantic miscasts and death curses.
-Kikubaaqudgha schützt dich jetzt vor nekromantischen Fehlzauber und Todesflüchen.
+Kikubaaqudgha schützt dich jetzt vor nekromantischen Fehlzaubern und Todesflüchen.
 %%%%
 Kikubaaqudgha will no longer protect you from necromantic miscasts or death curses.
-Kikubaaqudgha schützt dich nicht mehr vor nekromantischen Fehlzauber oder Todesflüchen.
+Kikubaaqudgha schützt dich nicht mehr vor nekromantischen Fehlzaubern oder Todesflüchen.
 %%%%
 Kikubaaqudgha protects you from necromantic miscasts and death curses.
-Kikubaaqudgha schützt dich vor nekromantischen Fehlzauber und Todesflüchen.
+Kikubaaqudgha schützt dich vor nekromantischen Fehlzaubern und Todesflüchen.
 %%%%
 Kikubaaqudgha is now protecting you from unholy torment.
 Kikubaaqudgha schützt dich jetzt vor unheiliger Peinigung.
 %%%%
 Kikubaaqudgha will no longer protect you from unholy torment.
-Kikubaaqudgha wird dich nicht länger vor unheiliger Peinigung schützen.
+Kikubaaqudgha schützt dich nicht länger vor unheiliger Peinigung.
 %%%%
 Kikubaaqudgha protects you from unholy torment.
 Kikubaaqudgha schützt dich vor unheiliger Peinigung.
 %%%%
 invoke torment by sacrificing a corpse
-Peinigung durch das Opfern einer Leiche heraufbeschwören
+durch das Opfern einer Leiche Peinigung heraufbeschwören
 %%%%
 Kikubaaqudgha will grant you forbidden knowledge or bloody your weapon with pain... once.
-Kikubaaqudgha wird dir verbotenes Wissen gewähren oder deine Waffe mit Schmerzen bluten lassen... einmal.
+Kikubaaqudgha wird dir verbotenes Wissen gewähren oder deine Waffe mit Schmerz besudeln... einmal.
 %%%%
 Kikubaaqudgha is no longer ready to enhance your necromancy.
 Kikubaaqudgha ist nicht mehr bereit, deine Nekromantie zu verbessern.
@@ -12510,7 +12510,7 @@ Kikubaaqudgha will grant you forbidden knowledge.
 Kikubaaqudgha wird dir verbotenes Wissen gewähren.
 %%%%
 animate remains
-Überreste beleben
+Überreste animieren
 %%%%
 recall your undead slaves
 Deine untoten Sklaven zurückrufen
@@ -12519,19 +12519,19 @@ mirror injuries on your foes
 Verletzungen auf deine Feinde spiegeln
 %%%%
 animate legions of the dead
-Legionen von Toten beleben
+Legionen von Toten animieren
 %%%%
 Yredelemnul will now gift you servants as you gain piety.
-Yredelemnul wird dir jetzt Diener schenken, als du Frömmigkeit erlangst.
+Yredelemnul schenkt dir nun Diener, während du Frömmigkeit erlangst.
 %%%%
 Yredelemnul will no longer gift you servants.
-Yredelemnul wird dir keine Diener mehr schenken.
+Yredelemnul schenkt dir keine Diener mehr.
 %%%%
 Yredelemnul will gift you servants as you gain piety.
-Yredelemnul wird dir Diener schenken, als du Frömmigkeit erlangst.
+Yredelemnul schenkt dir Diener, während du Frömmigkeit erlangst.
 %%%%
 drain ambient life force
-Lebenskraft der Umgebung entziehen
+der Umgebung Lebenskraft entziehen
 %%%%
 enslave living souls
 lebende Seelen versklaven
@@ -12549,43 +12549,43 @@ Vehumet aids your destructive spells.
 Vehumet unterstützt deine zerstörerischen Zaubersprüche.
 %%%%
 Vehumet is now extending the range of your destructive spells.
-Vehumet erhöht nun die Reichweite deiner zerstörerischen Zaubersprüche.
+Vehumet verlängert nun die Reichweite deiner zerstörerischen Zaubersprüche.
 %%%%
 Vehumet will no longer extend the range of your destructive spells.
-Vehumet erhöht nicht mehr die Reichweite deiner zerstörerischen Zaubersprüche.
+Vehumet verlängert nicht mehr die Reichweite deiner zerstörerischen Zaubersprüche.
 %%%%
 Vehumet extends the range of your destructive spells.
-Vehumet vergrößert die Reichweite deiner zerstörerischen Zaubersprüche.
+Vehumet verlängert die Reichweite deiner zerstörerischen Zaubersprüche.
 %%%%
 gain great but temporary skills
 großartige, aber vorübergehende Fähigkeiten erhalten
 %%%%
 Okawaru will now gift you ammunition as you gain piety.
-Okawaru schenkt dir jetzt Munition, als du Frömmigkeit erlangst.
+Okawaru schenkt dir nun Munition, während du Frömmigkeit erlangst.
 %%%%
 Okawaru will no longer gift you ammunition.
-Okawaru wird dir keine Munition mehr schenken.
+Okawaru schenkt dir keine Munition mehr.
 %%%%
 Okawaru will gift you ammunition as you gain piety.
-Okawaru wird dir Munition schenken, als du Frömmigkeit erlangst.
+Okawaru schenkt dir Munition, während du Frömmigkeit erlangst.
 %%%%
 speed up your combat
 Deinen Kampf beschleunigen
 %%%%
 Okawaru will now gift you equipment as you gain piety.
-Okawaru schenkt dir nun Ausrüstung, als du Frömmigkeit erlangst.
+Okawaru schenkt dir nun Ausrüstung, während du Frömmigkeit erlangst.
 %%%%
 Okawaru will no longer gift you equipment.
-Okawaru wird dir keine Ausrüstung mehr schenken.
+Okawaru schenkt dir keine Ausrüstung mehr.
 %%%%
 Okawaru will gift you equipment as you gain piety.
-Okawaru schenkt dir Ausrüstung, als du Frömmigkeit erlangst.
+Okawaru schenkt dir Ausrüstung, während du Frömmigkeit erlangst.
 %%%%
 gain health from killing
 Gesundheit durch Töten erhalten
 %%%%
 harness Makhleb's destructive might
-dich Makhlebs zerstörerische Macht zunutze machen
+dir Makhlebs zerstörerische Macht zunutze machen
 %%%%
 summon a lesser servant of Makhleb
 einen geringeren Diener Makhlebs beschwören
@@ -12597,7 +12597,7 @@ summon a greater servant of Makhleb
 einen größeren Diener Makhlebs beschwören
 %%%%
 call upon Sif Muna for magical energy
-Sif Muna für magische Energie anrufen
+Sif Muna um magische Energie anrufen
 %%%%
 freely open your mind to new spells
 Deinen Geist frei für neue Zaubersprüche öffnen
@@ -12606,49 +12606,49 @@ forget spells at will
 Zaubersprüche nach Belieben vergessen
 %%%%
 call upon Sif Muna to cast any spell from your library
-Sif Muna anrufen, um einen beliebigen Zauber aus deiner Bibliothek zu wirken
+Sif Muna anrufen, einen beliebigen Zauber aus deiner Bibliothek zu wirken
 %%%%
 Sif Muna will now gift you books as you gain piety.
-Sif Muna wird dir nun Bücher schenken, als du Frömmigkeit erlangst.
+Sif Muna schenkt dir nun Bücher, während du Frömmigkeit erlangst.
 %%%%
 Sif Muna will no longer gift you books.
-Sif Muna wird dir keine Bücher mehr schenken.
+Sif Muna schenkt dir keine Bücher mehr.
 %%%%
 Sif Muna will gift you books as you gain piety.
-Sif Muna wird dir Bücher schenken, als du Frömmigkeit erlangst.
+Sif Muna schenkt dir Bücher, während du Frömmigkeit erlangst.
 %%%%
 go berserk at will
-nach Belieben in den Berserker gehen
+nach Belieben in Berserkerwut verfallen
 %%%%
 call upon Trog for regeneration and willpower
 Trog um Regeneration und Willenskraft anrufen
 %%%%
 call in reinforcements
-Verstärkung beschwören
+Verstärkung herbeirufen
 %%%%
 Trog will now gift you melee weapons as you gain piety.
-Trog wird dir jetzt Nahkampfwaffen schenken, als du Frömmigkeit erlangst.
+Trog schenkt dir nun Nahkampfwaffen, während du Frömmigkeit erlangst.
 %%%%
 Trog will no longer gift you weapons.
-Trog wird dir keine Waffen mehr schenken.
+Trog schenkt dir keine Waffen mehr.
 %%%%
 Trog will gift you melee weapons as you gain piety.
-Trog wird dir Nahkampfwaffen schenken, als du Frömmigkeit erlangst.
+Trog schenkt dir Nahkampfwaffen, während du Frömmigkeit erlangst.
 %%%%
 draw from decks of power
 aus Decks der Macht ziehen
 %%%%
 Nemelex will now gift you decks of power as you gain piety.
-Nemelex wird dir jetzt Decks der Macht schenken, als du Frömmigkeit erlangst.
+Nemelex schenkt dir nun Decks der Macht, während du Frömmigkeit erlangst.
 %%%%
 Nemelex will no longer gift you decks.
-Nemelex wird dir keine Decks mehr schenken.
+Nemelex schenkt dir keine Decks mehr.
 %%%%
 Nemelex will gift you decks of power as you gain piety.
-Nemelex wird dir Decks der Macht schenken, als du Frömmigkeit erlangst.
+Nemelex schenkt dir Decks der Macht, während du Frömmigkeit erlangst.
 %%%%
 choose one out of three cards
-eine von drei Karten auswählen
+eine von drei Karten wählen
 %%%%
 deal four cards at a time
 vier Karten auf einmal ausgeben
@@ -12669,25 +12669,25 @@ purify yourself
 sich selbst reinigen
 %%%%
 provide greater healing for yourself
-dich größere Heilung verschaffen
+dir größere Heilung verschaffen
 %%%%
 call upon Elyvilon for divine vigour
 Elyvilon um göttliche Vitalität anrufen
 %%%%
 call on Elyvilon to save your life
-Elyvilon anrufen, um dein Leben zu retten
+Elyvilon anrufen, dein Leben zu retten
 %%%%
 depart the Abyss
 den Abgrund verlassen
 %%%%
 depart the Abyss at will
-den Abgrund nach Belieben veralassen
+den Abgrund nach Belieben verlassen
 %%%%
 bend space around yourself
 den Raum um dich herum krümmen
 %%%%
 banish your foes
-Deine Feinde verbannen
+deine Feinde verbannen
 %%%%
 corrupt the fabric of space
 die Struktur des Raums korrumpieren
@@ -12702,34 +12702,34 @@ Lugonu is no longer ready to corrupt your weapon.
 Lugonu ist nicht mehr bereit, deine Waffe zu korrumpieren.
 %%%%
 smite your foes
-Deine Feinde zerschlagen
+deine Feinde zerschmettern
 %%%%
 gain orcish followers
 orkische Gefolgsleute gewinnen
 %%%%
 recall your orcish followers
-Deine orkischen Gefolgsleute zurückrufen
+deine orkischen Gefolgsleute zurückrufen
 %%%%
 give items to your followers
-Deinen Gefolgsleuten Gegenstände geben
+deinen Gefolgsleuten Gegenstände geben
 %%%%
 revive fallen orcs
-Gefallene Orks wiederbeleben
+gefallene Orks wiederbeleben
 %%%%
 request a jelly
 ein Gelee anfordern
 %%%%
 Jiyva will now mutate your body and modify your attributes as you gain piety.
-Jiyva wird nun deinen Körper mutieren und deine Attribute verändern, als du Frömmigkeit erlangst.
+Jiyva mutiert nun deinen Körper und verändert deine Attribute, während du Frömmigkeit erlangst.
 %%%%
 Jiyva will no longer mutate your body and modify your attributes.
-Jiyva wird deinen Körper nicht mehr mutieren und deine Attribute modifizieren.
+Jiyva mutiert deinen Körper nicht mehr und verändert deine Attribute nicht mehr.
 %%%%
 Jiyva will mutate your body and modify your attributes as you gain piety.
-Jiyva wird deinen Körper mutieren und deine Attribute verändern, als du Frömmigkeit erlangst.
+Jiyva mutiert deinen Körper und verändert deine Attribute, während du Frömmigkeit erlangst.
 %%%%
 Jiyva is now protecting you from corrosive effects.
-Jiyva schützt dich jetzt vor korrosiven Effekten.
+Jiyva schützt dich nun vor korrosiven Effekten.
 %%%%
 Jiyva will no longer protect you from corrosive effects.
 Jiyva schützt dich nicht mehr vor korrosiven Effekten.
@@ -12738,10 +12738,10 @@ Jiyva protects you from corrosive effects.
 Jiyva schützt dich vor korrosiven Effekten.
 %%%%
 turn your foes to slime
-Deine Feinde in Schleim verandeln
+Deine Feinde in Schleim verwandeln
 %%%%
 You may now expel jellies when seriously injured.
-Du kannst jetzt Gelees ausstoßen, wenn du schwer verletzt wirst.
+Du kannst nun Gelees ausstoßen, wenn du schwer verletzt wirst.
 %%%%
 You will no longer expel jellies when injured.
 Du stößt keine Gelees mehr aus, wenn du verletzt wirst.
@@ -12765,10 +12765,10 @@ grow an oklob plant
 eine Oklobpflanze wachsen lassen
 %%%%
 bend time to slow others
-die Zeit verbiegen, um andere zu verlangsamen
+die Zeit verbiegen und andere verlangsamen
 %%%%
 Cheibriados is now slowing the effects of poison on you.
-Cheibriados verlangsamt jetzt die Auswirkungen von Gift auf dich.
+Cheibriados verlangsamt nun die Auswirkungen von Gift auf dich.
 %%%%
 Cheibriados will no longer slow the effects of poison on you.
 Cheibriados verlangsamt nicht länger die Auswirkungen von Gift auf dich.
@@ -12780,10 +12780,10 @@ warp the flow of time around you
 den Fluss der Zeit um dich herum verzerren
 %%%%
 inflict damage on those overly hasty
-denjenigen, die zu hastig sind, Schaden zufügen
+jenen, die zu hastig sind, Schaden zufügen
 %%%%
 step out of the flow of time
-Aus dem Fluss der Zeit heraustreten
+aus dem Fluss der Zeit heraustreten
 %%%%
 Ashenzari warns you of distant threats and treasures.
 Aschenzari warnt dich vor fernen Bedrohungen und Schätzen.
@@ -12792,7 +12792,7 @@ Ashenzari reveals the structure of the dungeon to you.
 Aschenzari offenbart dir die Struktur des Kerkers.
 %%%%
 Ashenzari shows you where magical portals lie.
-Aschenzari zeigt dich, wo magische Portale liegen.
+Aschenzari zeigt dir, wo magische Portale liegen.
 %%%%
 Ashenzari prevents you from stumbling into unseen traps.
 Aschenzari verhindert, dass du in unsichtbare Fallen stolperst.
@@ -12801,7 +12801,7 @@ Ashenzari identifies your possessions.
 Aschenzari identifiziert deine Besitztümer.
 %%%%
 Ashenzari will now reveal the unseen.
-Eschenzari enthüllt jetzt das Unsichtbare.
+Eschenzari enthüllt nun das Unsichtbare.
 %%%%
 Ashenzari will no longer reveal the unseen.
 Aschenzari enthüllt nicht mehr das Unsichtbare.
@@ -12810,16 +12810,16 @@ Ashenzari reveals the unseen.
 Aschenzari enthüllt das Unsichtbare.
 %%%%
 Ashenzari will now keep your mind clear.
-Aschenzari wird nun deinen Geist klar halten.
+Aschenzari hält nun deinen Geist klar.
 %%%%
 Ashenzari will no longer keep your mind clear.
-Aschenzari wird deinen Geist nicht länger klar halten.
+Aschenzari hält deinen Geist nicht länger klar.
 %%%%
 Ashenzari keeps your mind clear.
 Aschenzari hält deinen Geist klar.
 %%%%
 Ashenzari will now grant you astral sight.
-Aschenzari gewährt dir jetzt astrale Sicht.
+Aschenzari gewährt dir nun astrale Sicht.
 %%%%
 Ashenzari will no longer grant you astral sight.
 Aschenzari gewährt dir keine astrale Sicht mehr.
@@ -12828,10 +12828,10 @@ Ashenzari grants you astral sight.
 Aschenzari gewährt dir astrale Sicht.
 %%%%
 step into the shadows of nearby creatures
-In die Schatten von Kreaturen in der Nähe treten
+in die Schatten von Kreaturen in der Nähe treten
 %%%%
 You will now sometimes bleed smoke when heavily injured by enemies.
-Du blutest jetzt manchmal Rauch, wenn du von Feinden schwer verletzt wirst.
+Du blutest nun manchmal Rauch, wenn du von Feinden schwer verletzt wirst.
 %%%%
 You will no longer bleed smoke.
 Du blutest keinen Rauch mehr.
@@ -12852,13 +12852,13 @@ transform into a swirling mass of shadows
 in eine wirbelnde Masse aus Schatten verwandeln
 %%%%
 You have enough gold to petition Gozag for potion effects.
-Du hast genug Gold, um Gozag um Zaubertrank-Effekte zu bitten.
+Du hast genug Gold, um Gozag um Effekte von Zaubertränken zu bitten.
 %%%%
 You no longer have enough gold to petition Gozag for potion effects.
-Du hast nicht mehr genug Gold, um Gozag um Zaubertrank-Effekte zu bitten.
+Du hast nicht mehr genug Gold, um Gozag um Effekte von Zaubertränken zu bitten.
 %%%%
 You can petition Gozag for potion effects.
-Du kannst Gozag um Zaubertrank-Effekte bitten.
+Du kannst Gozag um Effekte von Zaubertränken bitten.
 %%%%
 You have enough gold to fund merchants seeking to open stores in the dungeon.
 Du hast genug Gold, um Händler zu finanzieren, die im Kerker Läden eröffnen wollen.
@@ -12870,13 +12870,13 @@ You can fund merchants seeking to open stores in the dungeon.
 Du kannst Händler finanzieren, die im Kerker Läden eröffnen wollen.
 %%%%
 You have enough gold to bribe branches to halt enemies' attacks and recruit allies.
-Du hast genug Gold, um Zweige zu bestechen, um Angriffe von Feinden zu stoppen und Verbündete zu rekrutieren.
+Du hast genug Gold, um Zweige zu bestechen, Angriffe von Feinden zu verhindern und Verbündete zu rekrutieren.
 %%%%
 You no longer have enough gold to bribe branches to halt enemies' attacks and recruit allies.
-Du hast nicht mehr genug Gold, um Zweige zu bestechen, um Angriffe von Feinden aufzuhalten und Verbündete zu rekrutieren.
+Du hast nicht mehr genug Gold, um Zweige zu bestechen, Angriffe von Feinden zu verhindern und Verbündete zu rekrutieren.
 %%%%
 You can bribe branches to halt enemies' attacks and recruit allies.
-Du kannst Zweige bestechen, um Angriffe von Feinden aufzuhalten und Verbündete zu rekrutieren.
+Du kannst Zweige bestechen, um Angriffe von Feinden zu verhindern und Verbündete zu rekrutieren.
 %%%%
 Qazlal grants you and your divine allies immunity to clouds.
 Qazlal gewährt dir und deinen göttlichen Verbündeten Immunität gegen Wolken.
@@ -12891,73 +12891,73 @@ You are surrounded by a storm.
 Du bist von einem Sturm umgeben.
 %%%%
 call upon nature to destroy your foes
-die Natur anrufen, um deine Feinde zu vernichten
+die Natur anrufen, deine Feinde zu vernichten
 %%%%
 give life to nearby clouds
 die Wolken in der Nähe zum Leben erwecken
 %%%%
 The storm surrounding you is now powerful enough to repel missiles.
-Der Sturm, der dich umgibt, ist jetzt stark genug, um Geschosse abzuwehren.
+Der Sturm, der dich umgibt, ist nun stark genug, Geschosse abzuwehren.
 %%%%
 The storm surrounding you is now too weak to repel missiles.
-Der Sturm, der dich umgibt, ist jetzt zu schwach, um Geschosse abzuwehren.
+Der Sturm, der dich umgibt, ist nun zu schwach, Geschosse abzuwehren.
 %%%%
 The storm surrounding you is powerful enough to repel missiles.
-Der Sturm um dich herum ist stark genug, um Geschosse abzuwehren.
+Der Sturm um dich herum ist stark genug, Geschosse abzuwehren.
 %%%%
 You will now adapt resistances upon receiving elemental damage.
-Du passst jetzt deine Resistenzen an, wenn du Elementarschaden erleidest.
+Du adaptierst nun deine Resistenzen, wenn du Elementarschaden erleidest.
 %%%%
 You will no longer adapt resistances upon receiving elemental damage.
-Du passst deine Resistenzen nicht mehr an, wenn du Elementarschaden erleidest.
+Du adaptierst deine Resistenzen nicht mehr, wenn du Elementarschaden erleidest.
 %%%%
 You adapt resistances upon receiving elemental damage.
-Du passst deine Resistenzen an, wenn du Elementarschaden erleidest.
+Du adaptierst deine Resistenzen, wenn du Elementarschaden erleidest.
 %%%%
 call upon nature's wrath in a wide area around you
-den Zorn der Natur in einem weiten Bereich um dich herum anrufen
+in einem weiten Bereich um dich herum den Zorn der Natur anrufen
 %%%%
 You now exude an aura of power that intimidates your foes.
-Du strahlst jetzt eine Aura der Macht aus, die deine Feinde einschüchtert.
+Du strahlst nun eine Aura der Macht aus, die deine Feinde einschüchtert.
 %%%%
 You no longer exude an aura of power that intimidates your foes.
 Du strahlst keine Aura der Macht mehr aus, die deine Feinde einschüchtert.
 %%%%
 Your aura of power can now strike those that harm you.
-Deine Aura der Macht kann jetzt diejenigen treffen, die dich schaden.
+Deine Aura der Macht kann nun jene treffen, die dir schaden.
 %%%%
 Your aura of power no longer strikes those that harm you.
-Deine Aura der Macht trifft nicht mehr diejenigen, die dich schaden.
+Deine Aura der Macht trifft nicht mehr jene, die dir schaden.
 %%%%
 Your aura of power can strike those that harm you.
-Deine Aura der Macht kann diejenigen treffen, die dich schaden.
+Deine Aura der Macht kann jene treffen, die dir schaden.
 %%%%
 heal your body and restore your magic
 Deinen Körper heilen und deine Magie wiederherstellen
 %%%%
 gather your power into a mighty leap
-Deine Kraft in einem mächtigen Sprung einsammeln
+Deine Kraft für einen mächtigen Sprung sammeln
 %%%%
 wreak a terrible wrath on your foes
-einen schrecklichen Zorn auf deine Feinde anrichten
+schrecklichen Zorn über deine Feinde bringen
 %%%%
 stomp with the beat
-mit dem Beat stampfen
+mit dem Takt stampfen
 %%%%
 pass through a line of other dancers
 durch eine Reihe anderer Tänzer passieren
 %%%%
 Uskayaw will force your foes to helplessly watch your dance.
-Uskayaw wird deine Feinde zwingen, deinem Tanz hilflos zuzusehen.
+Uskayaw zwingt deine Feinde nun, deinem Tanz hilflos zuzusehen.
 %%%%
 Uskayaw will no longer force your foes to helplessly watch your dance.
 Uskayaw zwingt deine Feinde nicht länger, deinem Tanz hilflos zuzusehen.
 %%%%
 Uskayaw will force your foes to share their pain.
-Uskayaw wird deine Feinde zwingen, ihren Schmerz zu teilen.
+Uskayaw zwingt deine Feinde, ihren Schmerz zu teilen.
 %%%%
 Uskayaw will no longer force your foes to share their pain.
-Uskayaw wird deine Feinde nicht mehr zwingen, ihren Schmerz zu teilen.
+Uskayaw zwingt deine Feinde nicht mehr, ihren Schmerz zu teilen.
 %%%%
 merge with and destroy a victim
 mit einem Opfer verschmelzen und es zerstören
@@ -12969,19 +12969,19 @@ remember your ancestor's identity
 dich an die Identität deines Ahnen erinnern
 %%%%
 swap creatures with your ancestor
-Kreaturen mit deinem Ahnen austauschen
+Kreaturen mit deinem Ahnen vertauschen
 %%%%
 heal and protect your ancestor
-Deinen Ahnen heilen und schützen
+deinen Ahnen heilen und schützen
 %%%%
 drain nearby creatures when transferring your ancestor
-Kreaturen in der Nähe auszehren lassen, wenn du deinen Ahnen transferierst
+Kreaturen in der Nähe auszehren, wenn du deinen Ahnen transferierst
 %%%%
 perform damaging attacks by moving towards foes
 schädliche Angriffe ausführen, indem du dich auf Feinde zubewegst
 %%%%
 perform lunging strikes
-Ausfallende Schläge ausführen
+mit Ausfallschritten zuschlagen
 %%%%
 lightly attack monsters by moving around them
 Monster leicht angreifen, indem du dich um sie herum bewegst
@@ -13017,7 +13017,7 @@ Your aura of darkness returns!
 Deine Aura der Dunkelheit kehrt zurück!
 %%%%
 Your vision regains its divine sight.
-Deine Vision gewinnt ihren göttlichen Anblick zurück.
+Deine Vision gewinnt ihre göttliche Sicht zurück.
 %%%%
 %s restores the support of your attributes.
 %s stellt die Unterstützung deiner Attribute wieder her.
@@ -13038,10 +13038,10 @@ Your aura of darkness fades away.
 Deine Aura der Dunkelheit verblasst.
 %%%%
 The storm surrounding you dissipates.
-Der Sturm, der dich umgibt, löst sich auf.
+Der dich umgebende Sturm löst sich auf.
 %%%%
 %s deals you some cards!
-%s gibt dich einige Karten!
+%s gibt dir einige Karten!
 %%%%
 You now have %s.
 Du hast jetzt {acc}%s.
@@ -13074,7 +13074,7 @@ Du hast das Gefühl, als hätte sich nichts verändert.
 %s gewährt dir ein Geschenk!
 %%%%
 Vehumet offers you knowledge of %s.
-Vehumet bietet dich Wissen über {acc}%s.
+Vehumet bietet dir Wissen über {acc}%s.
 %%%%
 " These spells will remain available as long as you worship Vehumet."
 " Diese Zauber bleiben verfügbar, solange du Vehumet verehrst."
@@ -13099,7 +13099,7 @@ You feel extremely guilty.
 Du fühlst dich extrem schuldig.
 %%%%
 \"You will pay for your transgression, mortal!\"
-\"Du wirst für deine Übertretung bezahlen, Sterblicher!\"
+\"Du wirst für deine Verfehlungen bezahlen, Sterblicher!\"
 %%%%
 %s forms a fragment of your life essence into the memory of your ancestor!
 %s formt ein Fragment deiner Lebensessenz in die Erinnerung deines Ahnen!
@@ -13150,28 +13150,28 @@ You have lost your religion!
 Du hast deine Religion verloren!
 %%%%
 %s does not appreciate desertion for chaos!
-%s schätzt kein Verlassen für das Chaos!
+%s schätzt es nicht, für das Chaos verlassen zu werden!
 %%%%
 %s does not appreciate desertion for evil!
-%s schätzt kein Verlassen für das Böse!
+%s schätzt es nicht, für das Böse verlassen zu werden!
 %%%%
 %s does not appreciate desertion!
-%s schätzt kein Verlassen!
+%s schätzt es nicht, verlassen zu werden!
 %%%%
 You sense decay.
-Du spürst die Verwesung.
+Du spürst Verwesung.
 %%%%
 %s reclaims all of your granted undead slaves!
-%s fordert alle deine gewährten untoten Sklaven zurück!
+%s fordert alle dir gewährten untoten Sklaven zurück!
 %%%%
 All of your followers decide to abandon you.
 Alle deine Gefolgsleute beschließen, dich zu verlassen.
 %%%%
 Your access to Nemelex's decks is revoked.
-Dein Zugang zu Nemelex' Decks wird dich entzogen.
+Dein Zugang zu Nemelex' Decks wird dir entzogen.
 %%%%
 All of your fellow slimes turn on you.
-Alle deine Mitschleime wenden sich gegen dich.
+All deine Schleimfreunde wenden sich gegen dich.
 %%%%
 The plants of the dungeon turn on you.
 Die Pflanzen des Kerkers wenden sich gegen dich.
@@ -13192,7 +13192,7 @@ Your body glows slightly and disappears.
 Dein Körper leuchtet leicht und verschwindet.
 %%%%
 <white>Your body glows with a rainbow of weird colours and disappears.</white>
-<white>dein Körper leuchtet in einem Regenbogen aus seltsamen Farben und verschwindet.</white>
+<white>dein Körper leuchtet in einem Regenbogen seltsamer Farben und verschwindet.</white>
 %%%%
 <lightgrey>Your body disappears without additional glow.</lightgrey>
 <lightgrey>dein Körper verschwindet ohne zusätzliches Glühen.</lightgrey>
@@ -13204,7 +13204,7 @@ Your amulet flashes!
 Dein Amulett blinkt!
 %%%%
 %s warns you to remove %s.
-%s warnt dich, {acc}%s zu entfernen.
+%s warnt dich davor, {acc}%s zu entfernen.
 %%%%
 %s says: Farewell. Go and aid the meek with %s.
 %s sagt: Lebe wohl. Geh und hilf den Sanftmütigen mit {dat}%s.
@@ -13225,7 +13225,7 @@ You will suffer for embracing such chaos!
 Du wirst leiden, weil du dich dem Chaos hingegeben hast!
 %%%%
 You will suffer for embracing such evil!
-Du wirst dafür leiden, dass du dich dem Bösen verschrieben hast!
+Du wirst leiden, weil du dich dem Bösen verschrieben hast!
 %%%%
 %s says: %s
 %s sagt: %s
@@ -13234,7 +13234,7 @@ You pay a service fee of %d gold.
 Du zahlst eine Bearbeitungsgebühr von %d Gold.
 %%%%
 %s waives the service fee.
-%s erlässt dich die Gebühr.
+%s erlässt dir die Gebühr.
 %%%%
 %s grants you a jelly!
 %s gewährt dir ein Gelee!
@@ -13255,10 +13255,10 @@ You bow before the missionary of Beogh.
 Du verneigst dich vor dem Missionar von Beogh.
 %%%%
 %s does not accept service from beggars like you!
-%s nimmt keine Dienste von Bettlern wie dich an!
+%s nimmt keine Dienste von Bettlern wie dir an!
 %%%%
 The service fee for joining is currently %d gold; you have none.
-Die Gebühr für den Beitritt beträgt derzeit %d Gold; du hast kein Gold.
+Die Gebühr für den Beitritt beträgt derzeit %d Gold; du hast keins.
 %%%%
 The service fee for joining is currently %d gold; you only have %d.
 Die Gebühr für den Beitritt beträgt derzeit %d Gold; du hast nur %d.
@@ -13270,10 +13270,10 @@ Die Gebühr für den Beitritt beträgt derzeit %d Gold; du hast nur %d.
 %s sagt: Wie kannst du es wagen, dich in solch einer abscheulichen Form zu nähern!
 %%%%
 %s does not accept worship from those such as you!
-%s nimmt keine Anbetung von solchen wie dich an!
+%s nimmt keine Anbetung von solchen wie dir an!
 %%%%
 %s refuses to forgive you so easily!
-%s weigert sich, dich so leicht zu vergeben!
+%s weigert sich, dir so leicht zu vergeben!
 %%%%
 Which god (by name)?
 Welchen Gott (mit Namen)?
@@ -13299,97 +13299,97 @@ Ru asks you to corrupt yourself such that: %s.
 Ru fordert dich auf, dich so zu korrumpieren, dass: %s.
 %%%%
 sacrificed purity
-opferte Reinheit
+Reinheit geopfert
 %%%%
 Ru asks you to sacrifice your ability to read while threatened.
-Ru fordert dich auf, deine Fähigkeit zu lesen während du bedroht bist, zu opfern.
+Ru fordert dich auf, deine Fähigkeit zu opfern, zu lesen während du bedroht bist.
 %%%%
 sacrificed words
-opferte Wörter
+Wörter geopfert
 %%%%
 Ru asks you to sacrifice your ability to drink while threatened.
-Ru fordert dich auf, deine Fähigkeit zu trinken während du bedroht bist, zu opfern.
+Ru fordert dich auf, deine Fähigkeit zu opfern, zu trinken während du bedroht bist.
 %%%%
 sacrificed drink
-opferte Trinken
+Trinken geopfert
 %%%%
 sacrificed essence
-opferte Essenz
+Essenz geopfert
 %%%%
 sacrificed health
-opferte Gesundheit
+Gesundheit geopfert
 %%%%
 Ru asks you to sacrifice your ability to go unnoticed.
-Ru fordert dich auf, deine Fähigkeit unbemerkt zu bleiben, zu opfern.
+Ru fordert dich auf, deine Fähigkeit zu opfern, unbemerkt zu bleiben.
 %%%%
 sacrificed stealth
-opferte Geheimlichkeit
+Heimlichkeit geopfert
 %%%%
 Ru asks you to sacrifice all use of magical tools.
-Ru fordert dich auf, deine Fähigkeit magische Gegenstände zu nutzen, zu opfern.
+Ru fordert dich auf, deine Fähigkeit zu opfern, magische Gegenstände zu nutzen.
 %%%%
 sacrificed evocations
-opferte Evozieren
+Evozieren geopfert
 %%%%
 Ru asks you to sacrifice your ability to be loved.
-Ru fordert dich auf, deine Fähigkeit beliebt zu werden, zu opfern.
+Ru fordert dich auf, deine Fähigkeit zu opfern, geliebt zu werden.
 %%%%
 sacrificed love
-opferte Liebe
+Liebe geopfert
 %%%%
 Ru asks you to sacrifice your courage.
 Ru fordert dich auf, deinen Mut zu opfern.
 %%%%
 sacrificed courage
-opferte Mut
+Mut geopfert
 %%%%
 Ru asks you to sacrifice all use of: %s.
-Ru fordert dich auf zu opfern, die Verwendung von: %s.
+Ru fordert dich auf jede Verwendung zu opfern, von: %s.
 %%%%
 sacrificed arcana
-opferte Arkana
+Arkana geopfert
 %%%%
 Ru asks you to sacrifice your Dodging skill.
-Ru fordert dich auf, dein Ausweichensfertigkeit, zu opfern.
+Ru fordert dich auf, deine Fertigkeit Ausweichen zu opfern.
 %%%%
 sacrificed dodging
-opferte Ausweichen
+Ausweichen geopfert
 %%%%
 Ru asks you to sacrifice your Armour skill.
-Ru fordert dich auf, deine Rüstungsfähigkeit zu opfern.
+Ru fordert dich auf, deine Fertigkeit Rüstung zu opfern.
 %%%%
 sacrificed armour
-opferte Rüstung
+Rüstung geopfert
 %%%%
 Ru asks you to sacrifice %s.
 Ru fordert dich auf, %s zu opfern.
 %%%%
 sacrificed a hand
-opferte eine Hand
+eine Hand geopfert 
 %%%%
 Ru asks you to sacrifice your experiences.
 Ru fordert dich auf, deine Erfahrungen zu opfern.
 %%%%
 sacrificed experience
-opferte Erfahrung
+Erfahrung geopfert
 %%%%
 Ru asks you to sacrifice your skill.
-Ru fordert dich auf, deine Begabungen zu opfern.
+Ru fordert dich auf, deine Fertigkeiten zu opfern.
 %%%%
 sacrificed skill
-opferte Fertigkeit
+Fertigkeit geopfert
 %%%%
 Ru asks you to sacrifice an eye.
 Ru fordert dich auf, ein Auge zu opfern.
 %%%%
 sacrificed an eye
-opferte ein Auge
+ein Auge geopfert
 %%%%
 Ru asks you to sacrifice your resistance to extreme temperatures.
 Ru fordert dich auf, deine Resistenz gegen extreme Temperaturen zu opfern.
 %%%%
 sacrificed resistance
-opferte Resistenz
+Resistenz geopfert
 %%%%
 
 ##################
@@ -13409,13 +13409,13 @@ Name
 %4d Gold
 %%%%
 Welcome to %s! What would you like to do?
-Willkommen bei {dat}%s! Was willst du machen?
+Willkommen bei {dat}%s! Was möchtest du machen?
 %%%%
 You are short 1 gold piece for the purchase.
 Dir fehlt 1 Goldmünze für den Kauf.
 %%%%
 You are short %d gold pieces for the purchase.
-Dir fehlt %d Goldmünzen für den Kauf.
+Dir fehlen %d Goldmünzen für den Kauf.
 %%%%
 After the purchase, you will have 1 gold piece.
 Nach dem Kauf wirst du 1 Goldmünze haben.
@@ -13433,7 +13433,7 @@ Nach dem Kauf wirst du %d Goldmünzen haben.
 [<w>!</w>] Artikel <w>kaufen</w>|prüfen
 %%%%
 select item for purchase
-Artikel für Kauf wählen
+Artikel zum Kauf wählen
 %%%%
 [<w>/</w>] sort
 [<w>/</w>] sortieren
@@ -13454,13 +13454,13 @@ Purchase items for %d gold? (%s/N)
 Die Artikel für %d Gold kaufen? (%s/N)
 %%%%
 I'll put it outside for you.
-Ich bringe den Artikel für dich nach draußen.
+Ich lege es für dich nach draußen.
 %%%%
 I'll put them outside for you.
-Ich bringe sie für dich nach draußen.
+Ich lege die Sachen für dich nach draußen.
 %%%%
 I'll put some of them outside for you.
-Ich bringe einige davon für dich nach draußen.
+Ich lege etwas davon für dich nach draußen.
 %%%%
 %s appears to be closed.
 %s scheint geschlossen zu sein.
@@ -13472,19 +13472,19 @@ You can access your shopping list by pressing '$'.
 Du kannst auf deine Einkaufsliste zugreifen, indem du auf '$' drückst.
 %%%%
 antique weapon
-antike waffe
+antike Waffe
 %%%%
 antique armour
-antike rüstung
+antike Rüstung
 %%%%
 antiques
-antiquitäten
+Antiquitäten
 %%%%
 distillery
-brennerei
+Brennerei
 %%%%
 general
-gemischtwaren
+Gemischtwaren
 %%%%
 "Available shop types: "
 "Verfügbare Ladentypen: "
@@ -13503,7 +13503,7 @@ buy %s
 {acc}%s zu kaufen
 %%%%
 "You now have enough gold to "
-"Du hast jetzt genügend Gold um "
+"Du hast jetzt genug Gold, um "
 %%%%
 1 item, total cost %d gp
 1 Artikel, Gesamtkosten %d Gold
@@ -13530,7 +13530,7 @@ You have %d gp
 Du hast %d Gold
 %%%%
 You cannot afford %s; travel there anyway? (y/N)
-Du kannst dich {acc}%s nicht leisten; trotzdem dorthin reisen? (j/N)
+Du kannst dir {acc}%s nicht leisten; trotzdem dorthin reisen? (j/N)
 %%%%
 %s with an entry fee of %d gold pieces.
 %s mit einer Eintrittsgebühr von %d Goldmünzen.
@@ -13573,7 +13573,7 @@ Was sind deine Befehle?
 "  a - Neues Ziel angreifen.  p - Vorheriges Ziel angreifen."
 %%%%
 "  r - Retreat!             s - Stop attacking."
-"  r - Rückzug!               s - Angriff halten."
+"  r - Rückzug!               s - Angriff stoppen."
 %%%%
 "  g - Guard the area.      f - Follow me."
 "  g - Den Bereich bewachen   f - Mir folgen."
@@ -13594,7 +13594,7 @@ An ally attacking under your orders might violate sanctuary; order anyway?
 Ein Angriff durch einen Verbündeten könnte das Heiligtum verletzen; trotzdem befehlen?
 %%%%
 Gang up on whom?
-Gegen wen?
+Gegen wen zusammentun?
 %%%%
 Retreat in which direction?
 Rückzug in welche Richtung?
@@ -13603,7 +13603,7 @@ Fall back!
 Zurückfallen!
 %%%%
 You're too berserk to give orders, and you can't shout!
-Du bist zu wütend, um Befehle zu erteilen, und du kannst nicht schreien!
+Du bist zu wütend, um Befehle zu erteilen und du kannst nicht schreien!
 %%%%
 Attack!
 Attacke!
@@ -13637,10 +13637,10 @@ Du {verb-du}%s nach Aufmerksamkeit!
 ##################
 %%%%
 In automatic mode, skills are trained as you use them.
-Im automatischen Modus werden die Fertigkeiten trainiert, während du sie benutzt.
+Im automatischen Modus werden Fertigkeiten trainiert, während du sie benutzt.
 %%%%
 In manual mode, experience is spread evenly across all activated skills.
-Im manuellen Modus ist die Erfahrung gleichmäßig auf alle aktivierten Fertigkeiten verteilt.
+Im manuellen Modus wird Erfahrung gleichmäßig auf alle aktivierten Fertigkeiten verteilt.
 %%%%
 Press the letter of a skill to choose whether you want to practise it. Skills marked with '<darkgrey>-</darkgrey>' will not be trained.
 Den Buchstaben einer Fertigkeit drücken, um auszuwählen, ob sie trainiert wird. Fertigkeiten, die mit '<dunkelgrau>-</dunkelgrau>' markiert sind, werden nicht trainiert.
@@ -13652,11 +13652,11 @@ Ashenzari's power
 Aschenzaris Macht
 %%%%
 cross-training
-Cross-Skilling
+Crosstraining
 %%%%
 # note: %s = comma-separated list containing any of Heroism, <god>'s power, cross-training
 Skills enhanced by %s are in <green>green</green>.
-Durch {acc}%s verbesserte Fertigkeiten sind <green>grün</green> angezeigt.
+Durch {acc}%s verbesserte Fertigkeiten sind <green>grün</green>.
 %%%%
 Ashenzari's anger
 Aschenzaris Zorn
@@ -13666,7 +13666,7 @@ Skills reduced by %s are in <magenta>magenta</magenta>.
 Durch {acc}%s reduzierte Fertigkeiten sind <magenta>magenta</magenta>.
 %%%%
 The percentage of incoming experience used to train each skill is in <brown>brown</brown>.
-Der Prozentsatz der eingehenden Erfahrung, der für das Training jeder Fertigkeit verwendet wird, ist <brown>braun</brown> angezeigt.
+Der Prozentsatz der eingehenden Erfahrung, der für das Training jeder Fertigkeit verwendet wird, ist <brown>braun</brown>.
 %%%%
 The current training targets, if any.
 Die aktuellen Trainingsziele, falls vorhanden.
@@ -13675,7 +13675,7 @@ The percentage of the progress done before reaching next level is in <cyan>cyan<
 Der Prozentsatz des Fortschritts vor Erreichen des nächsten Levels ist <cyan>cyan</cyan>.
 %%%%
 The relative cost of raising each skill is in <cyan>cyan</cyan> (or <lightred>red</lightred> if enhanced by a manual).
-Die relativen Kosten für die Verbesserung jeder Fertigkeit sind <cyan>cyan</cyan> (oder <lightred>rot</lightred>, wenn sie durch eine Anleitung verbessert wird).
+Die relativen Kosten für die Verbesserung jeder Fertigkeit sind <cyan>cyan</cyan> (oder <lightred>rot</lightred>, wenn sie durch eine Anleitung verbessert werden).
 %%%%
 "Enter a skill target for %s: "
 "Ein Trainingsziel für %s eingeben: "
@@ -13687,7 +13687,7 @@ Press the letter of a skill to read its description.
 Den Buchstaben einer Fertigkeit drücken, um seine Beschreibung zu lesen.
 %%%%
 Press <w>?</w> for a general explanation of skilling and the various toggles.
-<w>?</w> drücken für eine allgemeine Erklärung des Trainierens und der verschiedenen Umschaltmöglichkeiten.
+<w>?</w> drücken, für eine allgemeine Erklärung des Trainierens und der verschiedenen Umschaltmöglichkeiten.
 %%%%
 Skill descriptions
 Beschreibungen der Fertigkeiten
@@ -13720,7 +13720,7 @@ Select the skills you want to be trained. The chosen skills will be raised to th
 Die Fertigkeiten auswählen, die du trainieren willst. Die gewählten Fertigkeiten werden auf die in <cyan>cyan</cyan> angegebene Stufe angehoben.
 %%%%
 The species aptitude is in <white>white</white>.
-Die Speziesbegebung ist <white>weiß</white>.
+Die Begabung der Spezies ist <white>weiß</white>.
 %%%%
 Bonus from skill manuals is in <lightred>red</lightred>.
 Der Bonus von Anleitungen ist <lightred>rot</lightred>.
@@ -13740,10 +13740,10 @@ You have mastered %s!
 Du hast %s gemeistert!
 %%%%
 Your base %s skill increases to level %d!
-Deine %s-Basis-Fertigkeit %s steigt auf Stufe %d!
+Deine grundlegende %s-Fertigkeit %s steigt auf Stufe %d!
 %%%%
 Your base %s skill decreases to level %d!
-Deine %s-Basis-Fertigkeit sinkt auf Stufe %d!
+Deine grundlegende %s-Fertigkeit sinkt auf Stufe %d!
 %%%%
 Your %s skill increases to level %d!
 Deine %s-Fertigkeit steigt auf Stufe %d!
@@ -13752,10 +13752,10 @@ Your %s skill decreases to level %d!
 Deine %s-Fertigkeit sinkt auf Stufe %d!
 %%%%
 Your base %s skill gained %d levels and is now at level %d!
-Deine %s-Basis-Fertigkeit gewinnt %d Stufen und ist jetzt auf Stufe %d!
+Deine grundlegende %s-Fertigkeit gewinnt %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 Your base %s skill lost %d levels and is now at level %d!
-Deine %s-Basis-Fertigkeit verliert %d Stufen und ist jetzt auf Stufe %d!
+Deine grundlegende %s-Fertigkeit verliert %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 Your %s skill gained %d levels and is now at level %d!
 Deine %s-Fertigkeit gewinnt %d Stufen und ist jetzt auf Stufe %d!
@@ -13770,7 +13770,7 @@ You need to enable at least one skill for training.
 Du musst mindestens eine Fertigkeit für das Training aktivieren.
 %%%%
 Base training target %.1f for %s reached!
-Basis-Fertigkeit-Trainingsziel %.1f für {acc}%s erreicht!
+Basistrainingsziel %.1f für {acc}%s erreicht!
 %%%%
 Training target %.1f for %s reached!
 Trainingsziel %.1f für {acc}%s erreicht!
@@ -13779,10 +13779,10 @@ You have finished your manual of %s and toss it away.
 Du hast deine Anleitung für {acc}%s zu Ende gelesen und wirfst sie weg.
 %%%%
 You can't set training targets!
-Du kannst dich keine Trainingsziele setzen!
+Du kannst keine Trainingsziele setzen!
 %%%%
 Clearing the skill training target for %s.
-Das Trainingsziels für {acc}%s wird gelöscht.
+Das Trainingsziel für {acc}%s wird gelöscht.
 %%%%
 Setting a skill training target for %s at %d.%d.
 Trainingsziel für {acc}%s auf %d,%d festgelegt.
@@ -13813,13 +13813,13 @@ You already know all available spells.
 Du kennst bereits alle verfügbaren Zaubersprüche.
 %%%%
 You cannot currently memorise any of the available spells because you cannot use those schools of magic.
-Du kannst derzeit keinen der verfügbaren Zaubersprüche memorieren, weil du diese Magieschulen nicht benutzen kannst.
+Du kannst derzeit keinen der verfügbaren Zaubersprüche auswenig lernen, weil du diese Magieschulen nicht benutzen kannst.
 %%%%
 You cannot memorise any of the available spells.
-Du kannst derzeit keinen der verfügbaren Zaubersprüche memorieren.
+Du kannst derzeit keinen der verfügbaren Zaubersprüche auswendig lernen.
 %%%%
 You can't memorise any new spells for an unknown reason; please file a bug report.
-Du kannst aus einem unbekannten Grund keine neuen Zaubersprüche memorieren; bitte erstattet einen Fehlerbericht.
+Du kannst aus einem unbekannten Grund keine neuen Zaubersprüche auswendig lernen; bitte reiche einen Fehlerbericht ein.
 %%%%
 You add the spells %s to your library.
 Du fügst die Zaubersprüche %s zu deiner Bibliothek hinzu.
@@ -13840,7 +13840,7 @@ Entspricht:
 "Wonach suchen? (regex) "
 %%%%
 Select a spell to cast with Divine Exegesis: %d MP available
-Einen Zauber wählen, mit Göttlicher Exegese zu wirken : %d Mana verfügbar
+Einen Zauber wählen, um ihn mit Göttlicher Exegese zu wirken : %d Mana verfügbar
 %%%%
 1 spell level left
 1 Zauberplatz übrig
@@ -13852,13 +13852,13 @@ Your brain is not functional enough to learn spells.
 Dein Gehirn ist nicht funktionsfähig genug, um Zauber zu lernen.
 %%%%
 Sorry, this spell is gone!
-Sorry, dieser Zauber ist weg!
+Entschuldige, dieser Zauber ist weg!
 %%%%
 You already know that spell!
 Du kennst diesen Zauber schon!
 %%%%
 Your head is already too full of spells!
-Dein Kopf ist schon zu voller Zauber!
+Dein Kopf ist schon zu voll mit Zaubern!
 %%%%
 You're too inexperienced to learn that spell!
 Du bist zu unerfahren, diesen Zauber zu lernen!
@@ -13874,10 +13874,10 @@ This spell is %s to cast%s
 Dieser Zauber ist %s zu wirken%s
 %%%%
 Memorise %s, consuming %d spell level and leaving %d?
-%s memorieren, dabei %d Zauberplatz verbrauchen und %d lassen?
+%s auswendig lernen, dabei %d Zauberplatz verbrauchen und %d behalten?
 %%%%
 Memorise %s, consuming %d spell levels and leaving %d?
-%s memorieren, dabei %d Zauberplätze verbrauchen und %d lassen?
+%s auswendig lernen, dabei %d Zauberplätze verbrauchen und %d behalten?
 %%%%
 You don't know of any spells!
 Du kennst keine Zauber!
@@ -13912,10 +13912,10 @@ You feel a surge of power.
 Du spürst einen Energieschub.
 %%%%
 Press '<w>!</w>' or '<w>I</w>' to toggle spell view.
-'<w>!</w>' oder '<w>I</w>' drücken, um die Sicht umzuschalten.
+'<w>!</w>' oder '<w>I</w>' drücken, um die Zauberansicht umzuschalten.
 %%%%
 Press '<w>!</w>' to toggle spell view.
-'<w>!</w>' drücken, um die Sicht umzuschalten.
+'<w>!</w>' drücken, um die Zauberansicht umzuschalten.
 %%%%
 You cannot cast spells while unable to breathe!
 Du kannst keine Zauber wirken, solange du nicht atmen kannst!
@@ -13927,13 +13927,13 @@ Something interferes with your magic!
 Etwas stört deine Magie!
 %%%%
 You're too confused to cast spells.
-Du bist zu verwirrt, um Zauber zu wirken.
+Du bist zu verwirrt, Zauber zu wirken.
 %%%%
 You cannot cast spells when silenced!
-Du kannst keine Zauber wirken, solange du zum Schweigen gebracht wirst!
+Du kannst keine Zauber wirken, solange du stumm bist!
 %%%%
 Weird images run through your mind.
-Seltsame Bilder gehen dich durch den Kopf.
+Seltsame Bilder gehen dir durch den Kopf.
 %%%%
 Your head hurts.
 Dein Kopf tut weh.
@@ -13957,13 +13957,13 @@ Confirm with . or Enter, or press ? or * to list all spells.
 Mit . oder Enter bestätigen, oder ? oder * drücken, um alle Zauber aufzulisten.
 %%%%
 You can't see any susceptible monsters within range! (Use <w>Z</w> to cast anyway.)
-Du kannst keine anfälligen Monster in Reichweite sehen! ()
+Du siehst keine anfälligen Monster in Reichweite! ()
 %%%%
 Casting this spell will cause instant excommunication! Really cast?
-Das Wirken dieses Zaubers führt zur sofortigen Exkommunizierung! Wirklich wirken?
+Das Wirken dieses Zaubers führt zur sofortigen Exkommunikation! Wirklich wirken?
 %%%%
 Casting this spell will place you under penance. Really cast?
-Das Wirken dieses Zaubers führt zur Buße! Wirklich wirken?
+Das Wirken dieses Zaubers stellt dich unter Buße! Wirklich wirken?
 %%%%
 Your control over your magic is sapped.
 Deine Kontrolle über deine Magie ist ausgelaugt.
