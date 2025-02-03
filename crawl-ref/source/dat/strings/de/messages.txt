@@ -14012,10 +14012,10 @@ will change colour
 wird die Farbe ändern
 %%%%
 will change shape
-wird deine Form ändern
+wird die Gestalt ändern
 %%%%
 will probably split
-wird wahrscheinlich spalten
+wird sich wahrscheinlich spalten
 %%%%
 will become %s
 wird %s werden
@@ -14030,7 +14030,7 @@ Casting
 Wirken
 %%%%
 Sorry, this spell works on others only.
-Sorry, dieser Zauber funktioniert nur bei anderen.
+Entschuldige, dieser Zauber funktioniert nur bei anderen.
 %%%%
 You feel a surge of divine spite.
 Du spürst eine Welle göttlicher Bosheit.
@@ -14042,7 +14042,7 @@ Du spürst eine Welle göttlicher Bosheit.
 %s erlaubt den Untreuen nicht, mit der Zerstörung zu dilettieren!
 %%%%
 You miscast %s.
-Du hast %s falsch gewirkt.
+Du scheiterst dabei %s zu wirken.
 %%%%
 safe
 sicher
@@ -14103,7 +14103,7 @@ Gesegnetes Feuer umgibt dich plötzlich!
 ##################
 %%%%
 You can't place the storm on %s.
-Du kannst den Sturm nicht auf {acc}%s setzen.
+Du kannst den Sturm nicht auf {acc}%s platzieren.
 %%%%
 You call forth a pillar of damnation!
 Du rufst eine Säule der Verdammnis hervor!
@@ -14119,16 +14119,16 @@ Lightning arcs from %s %s!
 Ein Blitz schießt aus %s {dat}%s.
 %%%%
 The %s grounds out.
-Die %s begründen.
+Der %s wird geerdet.
 %%%%
 A swirling arc of seething chaos appears!
 Ein wirbelnder Bogen brodelnden Chaos erscheint!
 %%%%
 The arc of chaos arcs out of your line of sight!
-Der Lichtbogen des Chaos springt außer Sicht.
+Der Bogen des Chaos springt außer Sicht.
 %%%%
 The arc of chaos suddenly appears!
-Der Lichtbogen des Chaos erscheint plötzlich.
+Der Bogen des Chaos erscheint plötzlich.
 %%%%
 %s are %s.
 %s werden %s.
@@ -14140,7 +14140,7 @@ The monsters around you are %s!
 Die Monster um dich herum werden %s!
 %%%%
 The heat is drained from your surroundings.
-Die Wärme wird der Umgebung entzogen.
+Der Umgebung wird die Wärme entzogen.
 %%%%
 Something drains the heat from around you.
 Irgendetwas entzieht der Umgebung die Wärme.
@@ -14162,7 +14162,7 @@ Something draws the life force from your surroundings.
 Etwas zieht Leben aus deiner Umgebung.
 %%%%
 %s draws from the surrounding life force!
-%s zieht aus der umgebenden Lebenskraft!
+%s saugt an der umgebenden Lebenskraft!
 %%%%
 The surrounding life force dissipates!
 Die umgebende Lebenskraft löst sich auf!
@@ -14172,13 +14172,13 @@ ausgezehrt
 %%%%
 # note: sonic wave
 You send a blast of sound all around you.
-Du setzt eine Schallwelle aus.
+Du sendest eine Schallwelle aus.
 %%%%
 Something sends a blast of sound all around you.
-Etwas setzt eine Schallwelle aus.
+Etwas sendet um dich herum eine Schallwelle aus.
 %%%%
 %s sends a blast of sound all around you!
-%s setzt eine Schallwelle aus.
+%s sendet um dich herum eine Schallwelle aus.
 %%%%
 Sound blasts the surrounding area!
 Die Umgebung wird beschallt!
@@ -14187,10 +14187,10 @@ blasted with sound
 beschallt
 %%%%
 You feel very cold.
-Du fühlst dich sehr kalt.
+Dir ist sehr kalt.
 %%%%
 You freeze %s but do no damage.
-Du frierst {acc}%s ein, richtet aber keinen Schaden an.
+Du frierst {acc}%s ein, richtest aber keinen Schaden an.
 %%%%
 The air twists around and strikes %s but does no damage.
 Die Luft wirbelt herum und trifft auf {acc}, richtet aber keinen Schaden an.
@@ -14232,7 +14232,7 @@ An iron grate is ripped into pieces!
 Ein Eisengitter wird in Stücke gerissen!
 %%%%
 The dungeon shakes!
-Der Kerker zittert!
+Der Kerker bebt!
 %%%%
 The dungeon rumbles!
 Der Kerker rumpelt!
@@ -14259,16 +14259,16 @@ Es gibt einen erschütternden Aufprall!
 %s wird mit magischer Strahlung bestrahlt%s
 %%%%
 You erupt in a fountain of uncontrolled magic!
-Du brichst in einem Brunnen unkontrollierter Magie aus!
+Du brichst in eine Fontäne unkontrollierter Magie aus!
 %%%%
 %s erupts in a fountain of uncontrolled magic!
-%s bricht in einem Brunnen unkontrollierter Magie aus!
+%s bricht in eine Fontäne unkontrollierter Magie aus!
 %%%%
 %s seems to burn from within%s
 %s scheint von innen zu brennen%s
 %%%%
 You feel like your blood is boiling!
-Du hast das Gefühl, dass dein Blut kocht!
+Du hast das Gefühl, dein Blut kocht!
 %%%%
 The poison in your system burns terribly!
 Das Gift in deinem System brennt schrecklich!
@@ -14296,25 +14296,25 @@ statische Entladung
 %%%%
 # note: param = damage-based punctuation
 You are struck by an arc of lightning%s
-Du wirst von einem Blitzstrahl getroffen%s
+Du wirst von einem Blitzbogen getroffen%s
 %%%%
 %s is struck by an arc of lightning%s
-%s wird von einem Blitzstrahl getroffen%s
+%s wird von einem Blitzbogen getroffen%s
 %%%%
 The lightning grounds out.
-Der Blitz wird geerdet
+Der Blitz wird geerdet.
 %%%%
 The air crackles with electrical energy.
 Die Luft knistert vor elektrischer Energie.
 %%%%
 Some blue arcs ground themselves harmlessly.
-Einige blaue Lichtbogen erden sich harmlos.
+Einige blaue Lichtbögen erden sich harmlos.
 %%%%
 A blue arc grounds itself harmlessly.
 Ein blauer Lichtbogen erdet sich harmlos.
 %%%%
 You don't have any stones to cast with.
-Du hast keine Steine zum Werfen.
+Du hast keine Steine zum Wirken dieses Zaubers.
 %%%%
 You now have no stones remaining.
 Du hast jetzt keine Steine mehr.
@@ -14326,7 +14326,7 @@ You feel roots moving beneath the ground.
 Du spürst, wie sich die Wurzeln unter dem Boden bewegen.
 %%%%
 Branches wave dangerously above you.
-Die Äste schwingen gefährlich über dich.
+Die Äste schwingen gefährlich über dir.
 %%%%
 Trunks creak and shift.
 Die Stämme knarren und verschieben sich.
@@ -14338,71 +14338,71 @@ You are waved at by a branch.
 Ein Ast winkt dir zu.
 %%%%
 A tree reaches out but misses you.
-Ein Baum streckt seinen Ast aus, aber verfehlt dich.
+Ein Baum streckt seinen Ast aus, verfehlt dich aber.
 %%%%
 A root lunges up near you.
-Eine Wurzel ragt in deiner Nähe.
+Eine Wurzel schnellt in deiner Nähe hoch.
 %%%%
 @foe@ is waved at by a branch.
 @foe@ wird von einem Ast zugewunken.
 %%%%
 A tree reaches out but misses @foe@.
-Ein Baum streckt seinen Ast aus, aber verfehlt {acc}@foe@.
+Ein Baum streckt seinen Ast aus, verfehlt aber {acc}@foe@.
 %%%%
 A root lunges up near @foe@.
-Eine Wurzel ragt in der Nähe {gen}@foe@.
+Eine Wurzel schnellt in der Nähe {gen}@foe@ hoch.
 %%%%
 You are scraped by a branch.
 Du wirst von einem Ast gekratzt.
 %%%%
 A tree reaches out and scrapes you.
-Ein Baum streckt seinen Ast aus, und kratzt dich.
+Ein Baum streckt seinen Ast aus und kratzt dich.
 %%%%
 A root barely touches you from below.
-Eine Wurzel berührt dich kaum von unten.
+Eine Wurzel berührt dich ganz leicht von unten.
 %%%%
 @foe@ is scraped by a branch.
 @foe@ wird von einem Ast gekratzt.
 %%%%
 A tree reaches out and scrapes @foe@.
-Ein Baum streckt seinen Ast aus, und kratzt {acc}@foe@.
+Ein Baum streckt seinen Ast aus und kratzt {acc}@foe@.
 %%%%
 A root barely touches @foe@ from below.
-Eine Wurzel berührt @foe@ kaum von unten.
+Eine Wurzel berührt @foe@ ganz leicht von unten.
 %%%%
 # note: these are intentionally without final punctuation
 You are hit by a branch
 Du wirst von einem Ast getroffen
 %%%%
 A tree reaches out and hits you
-Ein Baum streckt seinen Ast aus, und schlägt dich.
+Ein Baum streckt seinen Ast aus und schlägt dich.
 %%%%
 A root smacks you from below
-Eine Wurzel erschlägt dich von unten
+Eine Wurzel schlägt dich von unten
 %%%%
 @foe@ is hit by a branch
 @foe@ wird von einem Ast getroffen
 %%%%
 A tree reaches out and hits @foe@
-Ein Baum streckt seinen Ast aus, und schlägt {acc}@foe@.
+Ein Baum streckt seinen Ast aus und schlägt {acc}@foe@.
 %%%%
 A root smacks @foe@ from below
-Eine Wurzel erschlägt {acc}@foe@ von unten
+Eine Wurzel schlägt {acc}@foe@ von unten
 %%%%
 %s is dazzled.
 %s wird geblendet.
 %%%%
 You begin to radiate toxic energy.
-Du fängst an, giftige Energie auszustrahlen.
+Du fängst an, toxische Energie auszustrahlen.
 %%%%
 Your toxic radiance grows in intensity.
-Deine giftige Ausstrahlung nimmt an Intensität zu.
+Deine toxische Ausstrahlung nimmt an Intensität zu.
 %%%%
 %s begins to radiate toxic energy.
-%s fängt an, giftige Energie auszustrahlen.
+%s fängt an, toxische Energie auszustrahlen.
 %%%%
 %s cannot be affected by poisonous vapours!
-%s kann nicht von giftigen Dämpfen betroffen sein!
+%s kann nicht von giftigen Dämpfen beeinträchtigt werden!
 %%%%
 Poisonous vapours surround %s!
 Giftige Dämpfe umgeben {acc}%s!
@@ -14411,13 +14411,13 @@ Giftige Dämpfe umgeben {acc}%s!
 (<w>%</w> drücken, um den Strahl zu erhalten.)
 %%%%
 Without enough magic to sustain it, your searing ray dissipates.
-Ohne genug Magie, um es aufrechtzuerhalten, löst sich dein sengender Strahl auf.
+Ohne genug Magie, um ihn zu erhalten, löst sich dein sengender Strahl auf.
 %%%%
 You stop channeling your searing ray.
 Du hörst auf, deinen sengenden Strahl zu kanalisieren.
 %%%%
 You finish channeling your searing ray.
-Du bist damit fertig, deinen sengenden Strahl zu kanalisieren.
+Du wirst damit fertig, deinen sengenden Strahl zu kanalisieren.
 %%%%
 You conjure a mighty blast of ice!
 Du zauberst einen mächtigen Eisstoß!
@@ -14426,16 +14426,16 @@ Du zauberst einen mächtigen Eisstoß!
 %s zaubert einen mächtigen Eisstoß!
 %%%%
 A cannonade of hail descends around you!
-Eine Kanonade von Hagel steigt um dich herab!
+Eine Kanonade von Hagel bricht um dich herunter!
 %%%%
 You erupt in a blast of force!
-Du brichst in einer Explosion von Gewalt aus!
+Du erzeugst eine Druckwelle!
 %%%%
 You fester in the toxic bog%s
-Du eiterst im giftigen Moor%s
+Du gärst im toxischen Morast%s
 %%%%
 %s festers in the toxic bog%s
-%s eitert im giftigen Moor%s
+%s gärt im toxischen Morast%s
 %%%%
 There are no walls around you to affect.
 Es gibt keine Mauern um dich herum, die beeinflusst werden könnten.
@@ -14453,7 +14453,7 @@ Your charge dissipates without a target.
 Deine Ladung löst sich ohne Ziel auf.
 %%%%
 A cloud of jellies burst out of the Royal Jelly as the current ripples through it!
-Eine Wolke von Gelees platzt aus dem Gelée Royale, als der Strom es durchfließt!
+Eine Wolke von Gelees platzt aus dem Gelée Royale, als der Strom durchfließt!
 %%%%
 The electricity discharges through %s!
 Der Strom entlädt sich durch {acc}%s!
@@ -14471,10 +14471,10 @@ The insufficient charge dissipates harmlessly.
 Die unzureichende Ladung verpufft harmlos.
 %%%%
 There are no places for you to create a bog.
-Es gibt keine Stellen, ein Moor anzulegen.
+Hier gibt es keinen Platz, ein Moor anzulegen.
 %%%%
 You spew toxic sludge!
-Du spuckst Giftschlamm!
+Du spuckst toxischen Schlamm!
 %%%%
 
 ##################
@@ -14494,7 +14494,7 @@ The light of Elyvilon fails to reach %s.
 Das Licht von Elyvilon erreicht {acc}%s nicht.
 %%%%
 The light of Elyvilon almost touches upon %s.
-Das Licht von Elyvilon berührt fast {acc}%s.
+Das Licht von Elyvilon berührt {acc}%s fast.
 %%%%
 %s turns neutral.
 %s wird neutral.
@@ -14512,10 +14512,10 @@ uninterested
 uninteressiert
 %%%%
 chance to pacify: <<1%%
-Pazifizierungschance: <<1%%
+Chance zu pazifizieren: <<1%%
 %%%%
 chance to pacify: %d%%
-Pazifizierungschance: %d%%
+Chance zu pazifizieren: %d%%
 %%%%
 Heal
 Heilen
@@ -14537,22 +14537,22 @@ Your magical effects are unravelling.
 Deine magischen Effekte lösen sich auf.
 %%%%
 %s's magical effects unravel!
-Die magische Effekte {gen}%s entwirren sich!
+Die magische Effekte {gen}%s lösen sich auf!
 %%%%
 You briefly glimpse something next to %s.
 Du siehst kurz etwas neben {dat}%s.
 %%%%
 You need more space to imprison %s.
-Du brauchst mehr Platz, um {acc}%s einzusperren.
+Du brauchst mehr Platz um {acc}%s einzusperren.
 %%%%
 Zin imprisons %s with walls of pure silver!
-Zin sperrt {acc}%s mit Wänden aus reinem Silber ein!
+Zin sperrt {acc}%s in Wänden aus reinem Silber ein!
 %%%%
 You smite %s!
-Du schlägst {acc}%s!
+Du zerschmetterst {acc}%s!
 %%%%
 You are blasted by holy energy!
-Du wirst von heiliger Energie gestoßen!
+Du wirst von heiliger Energie durchdrungen!
 %%%%
 holy word
 heiliges Wort
@@ -14567,13 +14567,13 @@ the Torment card
 die Karte der Peinigung
 %%%%
 %s is blasted by Zin's holy word!
-%s wird von Zins heiligem Wort geschlagen!
+%s wird von Zins heiligem Wort durchdrungen!
 %%%%
 %s convulses!
-%s konvulsiert!
+%s zuckt zusammen!
 %%%%
 You speak a Word of immense power!
-Du sprechst ein Wort von immenser Macht!
+Du sprichst ein Wort von immenser Macht!
 %%%%
 %s speaks a Word of immense power!
 %s spricht ein Wort von immenser Macht!
@@ -14588,7 +14588,7 @@ You feel a surge of unholy energy.
 Du fühlst eine Welle unheiliger Energie.
 %%%%
 Your body is wracked with pain!
-Dein Körper ist von Schmerz geplagt!
+Dein Körper wird von Schmerz geplagt!
 %%%%
 Xom's torment
 Xoms Peinigung
@@ -14603,7 +14603,7 @@ by torment
 durch Peinigung
 %%%%
 Something is bathed in an unholy light!
-Etwas ist in ein unheiliges Licht getaucht!
+Etwas wird in ein unheiliges Licht getaucht!
 %%%%
 
 ##################
@@ -14629,7 +14629,7 @@ A wave of violent energy washes through your body
 Eine Welle heftiger Energie durchspült deinen Körper
 %%%%
 Energy rips through your body
-Energie reißt durch deinen Körper
+Energie schießt durch deinen Körper
 %%%%
 You are caught in a violent explosion
 Du wirst von einer gewaltigen Explosion erfasst
@@ -14650,7 +14650,7 @@ Die Luft um {acc}@the_monster@ knistert vor Energie
 @The_monster@ taumelt heftig
 %%%%
 @The_monster@ jerks violently
-@The_monster@ ruckt heftig
+@The_monster@ zuckt heftig
 %%%%
 @The_monster@ is caught in a violent explosion
 @The_monster@ wird von einer heftigen Explosion erfasst
@@ -14659,10 +14659,10 @@ Die Luft um {acc}@the_monster@ knistert vor Energie
 @The_monster@ wird von magischer Energie durchflutet
 %%%%
 A violent explosion happens from out of thin air
-Eine gewaltige Explosion kommt aus dem Nichts
+Eine gewaltige Explosion kommt aus der leeren Luft
 %%%%
 There is a sudden explosion of magical energy
-Es gibt eine plötzliche Explosion von magischer Energie
+Es gibt eine plötzliche Explosion magischer Energie
 %%%%
 You feel off-balance for a moment
 Du fühlst dich für einen Moment aus dem Gleichgewicht gebracht
@@ -14680,13 +14680,13 @@ You hear an indistinct dissonance whispering inside your mind
 Du hörst eine undeutliche Dissonanz in deinem Kopf flüstern
 %%%%
 Waves of light ripple over your body
-Wellen von Licht kräuseln sich über deinen Körper
+Lichtwellen kräuseln über deinen Körper
 %%%%
 You feel enfeebled
 Du fühlst dich geschwächt
 %%%%
 Magic surges out from your body
-Magie strömt aus deinem Körper
+Magie strömt aus deinem Körper heraus
 %%%%
 @The_monster@ looks off-balance for a moment
 @The_monster@ scheint für einen Moment aus dem Gleichgewicht zu sein
@@ -14698,58 +14698,58 @@ Vielfarbige Lichter tanzen um {acc}@the_monster@ herum
 @The_monster@ sieht für einen Moment schläfrig aus
 %%%%
 The light around @the_monster@ dims momentarily
-Das Licht um {acc}@the_monster@ wird kurzzeitig schwächer
+Das Licht um {acc}@the_monster@ wird für einen Moment schwächer
 %%%%
 @The_monster@ twitches
 @The_monster@ zuckt
 %%%%
 @The_monster@'s body glows momentarily
-Der Körper {gen}@the_monster@ leuchtet kurzzeitig
+Der Körper {gen}@the_monster@ leuchtet für einen Moment
 %%%%
 @The_monster@ glows momentarily
-@The_monster@ leuchtet kurzzeitig
+@The_monster@ leuchtet für einen Moment
 %%%%
 Waves of light ripple over @the_monster@'s body
-Lichtwellen ziehen über den Körper {gen}@the_monster@
+Lichtwellen kräuseln über den Körper {gen}@the_monster@
 %%%%
 Waves of light ripple over @the_monster@
-Wellen des Lichts ziehen über {acc}@the_monster@
+Lichtwellen kräuseln über {acc}@the_monster@
 %%%%
 Magic surges out from @the_monster@
-Magie strömt aus {dat}@the_monster@
+Magie strömt aus {dat}@the_monster@ heraus
 %%%%
 Multicoloured lights dance in the air
 Mehrfarbige Lichter tanzen in der Luft
 %%%%
 A patch of light dims momentarily
-Ein Lichtfleck verdunkelt dich für einen Moment
+Ein Lichtfleck verdunkelt sich für einen Moment
 %%%%
 Magic surges out from thin air
-Magie strömt aus der dünnen Luft
+Magie strömt aus der leeren Luft
 %%%%
 A fistful of eyes flickers past your view
-Eine Handvoll Augen flackert an deinem Blick vorbei
+Eine Handvoll Augen flackert an deinem Sichtfeld vorbei
 %%%%
 Distant voices call out in your mind
-Ferne Stimmen rufen in deinem Geist
+Ferne Stimmen erklingen in deinem Geist
 %%%%
 Something forms from out of thin air
-Etwas formt sich aus der dünnen Luft
+Etwas formt sich aus der leeren Luft
 %%%%
 A chorus of moans calls out in your mind
-Ein Chor von Stöhnen ertönt in deinem Geist
+Ein Chor aus Stöhnen ertönt in deinem Geist
 %%%%
 Desperate hands claw out at you
-Verzweifelte Hände krallen sich nach dir
+Verzweifelte Hände krallen nach dir
 %%%%
 Desperate hands claw out at @the_monster@
-Verzweifelte Hände krallen sich nach {dat}@the_monster@
+Verzweifelte Hände krallen nach {dat}@the_monster@
 %%%%
 Desperate hands claw out at random
-Verzweifelte Hände krallen sich willkürlich heraus
+Verzweifelte Hände krallen willkürlich herum
 %%%%
 You hear strange and distant voices
-Du hörst fremde und ferne Stimmen
+Du hörst seltsame ferne Stimmen
 %%%%
 The world around you seems to dim momentarily
 Die Welt um dich herum scheint sich für einen Moment zu verdunkeln
@@ -14773,10 +14773,10 @@ Flickering shadows surround you
 Flackernde Schatten umgeben dich
 %%%%
 You are engulfed in negative energy
-Du bist von negativer Energie umhüllt
+Du wirst von negativer Energie umhüllt
 %%%%
 You convulse helplessly as pain tears through your body
-Du zuckst hilflos zusammen, während der Schmerz deinen Körper zerreißt
+Du zuckst hilflos zusammen, während Schmerz durch deinen Körper schießt
 %%%%
 @The_monster@ twitches violently
 @The_monster@ zuckt heftig
@@ -14806,7 +14806,7 @@ Flickering shadows surround @the_monster@
 Flackernde Schatten umgeben {acc}@the_monster@
 %%%%
 @The_monster@ is engulfed in negative energy
-@The_monster@ ist von negativer Energie umhüllt
+@The_monster@ wird von negativer Energie umhüllt
 %%%%
 @The_monster@ convulses helplessly with pain
 @The_monster@ zuckt hilflos vor Schmerz
@@ -14818,13 +14818,13 @@ The air has a black tinge for a moment
 Die Luft hat für einen Moment einen schwarzen Schimmer
 %%%%
 Shadows flicker in the thin air
-Schatten flackern in der dünnen Luft
+Schatten flackern in der leeren Luft
 %%%%
 You catch a glimpse of the back of your own head
 Du erhaschst einen Blick auf deinen eigenen Hinterkopf
 %%%%
 You feel a wrenching sensation
-Du fühlst ein ziehendes Gefühl
+Du hast ein zerrendes Gefühl
 %%%%
 The floor and the ceiling briefly switch places
 Der Boden und die Decke tauschen kurz den Platz
@@ -14836,16 +14836,16 @@ The world appears momentarily distorted
 Die Welt erscheint für einen Moment verzerrt
 %%%%
 You are caught in a field of spatial distortion
-Du bist in einem Feld räumlicher Verzerrung gefangen
+Du wirst von einem Feld räumlicher Verzerrung erfasst
 %%%%
 Space twists in upon itself
 Der Raum verdreht sich in sich selbst
 %%%%
 Space warps crazily around you
-Der Raum verformt sich verrückt um dich herum
+Der Raum verformt sich auf verrückte Weise um dich herum
 %%%%
 @The_monster@ jerks violently for a moment
-@The_monster@ ruckt einen Moment lang heftig
+@The_monster@ zuckt einen Moment lang heftig
 %%%%
 @The_monster@ spins around
 @The_monster@ wirbelt herum
@@ -14854,31 +14854,31 @@ Der Raum verformt sich verrückt um dich herum
 @The_monster@ erscheint kurzzeitig verzerrt
 %%%%
 @The_monster@ scowls
-@The_monster@ finster dreinschaut
+@The_monster@ schaut finster drein
 %%%%
 @The_monster@ is caught in a field of spatial distortion
-@The_monster@ ist in einem Feld räumlicher Verzerrung gefangen
+@The_monster@ wird von einem Feld räumlicher Verzerrung erfasst
 %%%%
 Space bends around @the_monster@
-Der Raum krümmt dich um {acc}@the_monster@
+Der Raum krümmt sich um {acc}@the_monster@
 %%%%
 Space warps around @the_monster@
-Der Raum verzieht dich um {acc}@the_monster@ herum
+Der Raum verzieht sich um {acc}@the_monster@ herum
 %%%%
 Space warps crazily around @the_monster@
-Der Raum verzieht dich wie verrückt um {acc}@the_monster@ herum
+Der Raum verzieht sich auf verrückte Weise um {acc}@the_monster@ herum
 %%%%
 The air around something crackles with energy
-Die Luft um etwas knistert vor Energie
+Die Luft um etwas herum knistert vor Energie
 %%%%
 A piece of empty space twists and distorts
-Ein Stück leerer Raum verdreht und verzerrt dich
+Ein Stück leerer Raum verdreht und verzerrt sich
 %%%%
 A rift temporarily opens in the fabric of space
 Ein Riss öffnet sich vorübergehend in der Struktur des Raums
 %%%%
 Your body is twisted painfully
-Dein Körper ist schmerzhaft verdreht
+Dein Körper wird schmerzhaft verdreht
 %%%%
 Your limbs ache and wobble like jelly
 Deine Glieder schmerzen und wackeln wie Gelee
@@ -14911,10 +14911,10 @@ Der Körper {gen}@the_monster@ wird von verzerrenden Energien durchflutet
 @The_monster@ wird von verzerrenden Energien durchflutet
 %%%%
 The thin air crackles with energy
-Die dünne Luft knistert vor Energie
+Die leere Luft knistert vor Energie
 %%%%
 Waves of light ripple in the air
-Wellen von Licht kräuseln sich in der Luft
+Lichtwellen kräuseln sich in der Luft
 %%%%
 The air around you burns with energy
 Die Luft um dich herum brennt vor Energie
@@ -14923,7 +14923,7 @@ Heat runs through your body
 Hitze läuft durch deinen Körper
 %%%%
 You feel uncomfortably hot
-Du fühlst dich unangenehm heiß
+Dir ist unangenehm heiß
 %%%%
 Fire whirls out from @your_hand@
 Feuer wirbelt aus @your_hand@ heraus
@@ -14935,7 +14935,7 @@ Flames sear your flesh
 Flammen versengen dein Fleisch
 %%%%
 You are blasted with fire
-Du wirst von Feuer durchbohrt
+Du wirst von Feuer versengt
 %%%%
 You are caught in a fiery explosion
 Du wirst von einer feurigen Explosion erfasst
@@ -14953,7 +14953,7 @@ Dim flames ripple over @the_monster@'s body
 Dumpfe Flammen züngeln über den Körper {gen}@the_monster@
 %%%%
 Dim flames ripple over @the_monster@
-Dumpfe Flammen kräuseln sich über {acc}@the_monster@
+Dumpfe Flammen züngeln über {acc}@the_monster@
 %%%%
 Fire whirls out @the_monster@'s @hands@
 Feuer wirbelt aus {gen}@the_monster@ @hands@
@@ -14962,55 +14962,55 @@ Flames sear @the_monster@
 Flammen versengen {acc}@the_monster@
 %%%%
 @The_monster@ is blasted with fire
-@The_monster@ wird mit Feuer beschossen
+@The_monster@ wird von Feuer versengt
 %%%%
 @The_monster@ is caught in a fiery explosion
 @The_monster@ wird von einer feurigen Explosion erfasst
 %%%%
 @The_monster@ is blasted with searing flames
-@The_monster@ wird von sengenden Flammen durchbohrt
+@The_monster@ wird von sengenden Flammen verbrannt
 %%%%
 Fire whirls out of nowhere
-Feuer wirbelt aus dem Nichts
+Feuer wirbelt aus dem Nichts heraus
 %%%%
 A flame briefly burns in thin air
-Eine Flamme brennt kurz in dünner Luft
+Eine Flamme brennt kurz in der leeren Luft
 %%%%
 Fire explodes from out of thin air
-Feuer explodiert aus dem Nichts
+Feuer explodiert aus der leeren Luft heraus
 %%%%
 A large flame burns hotly for a moment in the thin air
-Eine große Flamme brennt einen Moment lang heiß in der dünnen Luft
+Eine große Flamme brennt einen Moment lang heiß in der leeren Luft
 %%%%
 A chill runs through your body
-Ein Schauer durchfährt deinen Körper
+Ein Schauer läuft durch deinen Körper
 %%%%
 @Your_hand@ feels numb with cold
-@Your_hand@ fühlt sich taub an vor Kälte
+@Your_hand@ ist taub vor Kälte
 %%%%
 @Your_hands@ feel numb with cold
-@Your_hands@ fühlen sich taub an vor Kälte
+@Your_hands@ sind taub vor Kälte
 %%%%
 You feel uncomfortably cold
-Du fühlst dich unbehaglich kalt
+Dir ist unbehaglich kalt
 %%%%
 Frost covers your body
 Frost bedeckt deinen Körper
 %%%%
 You feel extremely cold
-Du fühlst dich extrem kalt
+Dir ist extrem kalt
 %%%%
 You are covered in a thin layer of ice
 Du bist mit einer dünnen Eisschicht bedeckt
 %%%%
 Heat is drained from your body
-Deinem Körper wird die Wärme entzogen
+Deinem Körper wird Wärme entzogen
 %%%%
 You are caught in an explosion of ice and frost
-Du bist gefangen in einer Explosion aus Eis und Frost
+Du wirst von einer Explosion aus Eis und Frost erfasst
 %%%%
 You are encased in ice
-Du bist in Eis gehüllt
+Du wirst mit Eis umhüllt
 %%%%
 Frost covers @the_monster@'s body
 Frost bedeckt den Körper {gen}@the_monster@
@@ -15028,25 +15028,25 @@ Heat is drained from @the_monster@
 Wärme wird {dat}@the_monster@ entzogen
 %%%%
 @The_monster@ is caught in an explosion of ice and frost
-@The_monster@ ist gefangen in einer Explosion aus Eis und Frost
+@The_monster@ wird von einer Explosion aus Eis und Frost erfasst
 %%%%
 @The_monster@ is encased in ice
-@The_monster@ ist in Eis gehüllt
+@The_monster@ wird mit Eis umhüllt
 %%%%
 Wisps of condensation drift in the air
-Kondenswasserfetzen treiben in der Luft
+Kondensationsfahnen treiben in der Luft
 %%%%
 Ice and frost explode from out of thin air
-Eis und Frost explodieren aus dünner Luft
+Eis und Frost explodieren aus der leeren Luft heraus
 %%%%
 An unseen figure is encased in ice
-Eine unsichtbare Gestalt ist in Eis gehüllt
+Eine unsichtbare Gestalt wird mit Eis umhüllt
 %%%%
 Sparks of electricity dance around you
-Funken von Elektrizität tanzen um dich herum
+Elektrische Funken tanzen um dich herum
 %%%%
 You are blasted with air
-Du wirst von Luft durchströmt
+Du wirst von einem Luftstrom getroffen
 %%%%
 There is a short, sharp shower of sparks
 Es gibt einen kurzen, scharfen Funkenregen
@@ -15070,7 +15070,7 @@ Sparks of electricity dance between @the_monster@'s @hands@
 Elektrische Funken tanzen zwischen {gen}@the_monster@ @hands@
 %%%%
 @The_monster@ is blasted with air
-@The_monster@ wird mit Luft zugeblasen
+@The_monster@ wird von einem Luftstrom getroffen
 %%%%
 @The_monster@ is briefly showered in sparks
 @The_monster@ wird kurz mit Funken überschüttet
@@ -15091,10 +15091,10 @@ The wind whips
 Der Wind peitscht
 %%%%
 Something invisible sparkles with electricity
-Etwas Unsichtbares funkelt mit Elektrizität
+Etwas Unsichtbares blitzt mit Elektrizität
 %%%%
 Electrical discharges explode from out of thin air
-Elektrische Entladungen explodieren wie aus dem Nichts
+Elektrische Entladungen explodieren aus dem Nichts
 %%%%
 The air madly twists around a spot
 Die Luft dreht sich wie verrückt um einen Punkt
@@ -15112,49 +15112,49 @@ The floor shifts beneath you alarmingly
 Der Boden unter dir bewegt sich bedrohlich
 %%%%
 You are hit by flying rocks
-Du wirst von fliegenden Steinen getroffen
+Du wirst von fliegenden Felsbrocken getroffen
 %%%%
 You are blasted with sand
-Du wirst mit Sand besprengt
+Du wirst mit Sand bestrahlt
 %%%%
 Rocks fall onto you out of nowhere
 Felsen fallen aus dem Nichts auf dich
 %%%%
 You are caught in an explosion of flying shrapnel
-Du wirst von einer Explosion umherfliegender Schrapnells erfasst
+Du wirst von einer Explosion fliegenden Schrapnells erfasst
 %%%%
 Sand pours from @the_monster@'s @hands@
 Sand ergießt sich aus aus {gen}@the_monster@ @hands@
 %%%%
 @The_monster@ is hit by flying rocks
-@The_monster@ wird von fliegenden Steinen getroffen
+@The_monster@ wird von fliegenden Felsbrocken getroffen
 %%%%
 @The_monster@ is blasted with sand
-@The_monster@ wird mit Sand gestrahlt
+@The_monster@ wird mit Sand bestrahlt
 %%%%
 Rocks fall onto @the_monster@ out of nowhere
-Aus dem Nichts fallen Steine auf {acc}@the_monster@
+Felsen fallen aus dem Nichts auf {acc}@the_monster@
 %%%%
 @The_monster@ is caught in an explosion of flying shrapnel
-@The_monster@ wird von einer Explosion fliegender Schrapnelle erfasst
+@The_monster@ wird von einer Explosion fliegenden Schrapnells erfasst
 %%%%
 Flying rocks appear out of thin air
-Fliegende Steine erscheinen aus dem Nichts
+Fliegende Felsen erscheinen aus dem Nichts
 %%%%
 A miniature sandstorm briefly appears
-Ein Miniatur-Sandsturm erscheint kurz
+Ein winziger Sandsturm erscheint kurz
 %%%%
 Rocks fall out of nowhere
-Steine fallen aus dem Nichts
+Felsen fallen aus dem Nichts
 %%%%
 Flying shrapnel explodes from thin air
-Fliegende Schrapnelle explodieren aus dem Nichts
+Fliegendes Schrapnell explodiert aus dem Nichts
 %%%%
 You feel odd
 Du fühlst dich seltsam
 %%%%
 You feel rather nauseous for a moment
-Du fühlst dich für einen Moment ziemlich übel
+Dir ist für einen Moment ziemlich übel
 %%%%
 You feel incredibly sick
 Du fühlst dich unglaublich krank
@@ -15189,7 +15189,7 @@ You radiate an aura of cold.
 Du strahlst eine Aura der Kälte aus.
 %%%%
 %s is outlined in light.
-%s ist mit Licht umrandet.
+%s ist mit Licht umrissen.
 %%%%
 %s glows brighter for a moment.
 %s glüht einen Moment lang heller.
@@ -15203,31 +15203,31 @@ Du strahlst eine Aura der Kälte aus.
 ##################
 %%%%
 You can't draw power from your own body while in death's door.
-Du kannst keine Kraft aus deinem eigenen Körper ziehen, während du in der Tür des Todes bist.
+Du kannst keine Kraft aus deinem eigenen Körper schöpfen, während du an der Schwelle des Todes stehst.
 %%%%
 You don't have enough blood to draw power from your own body.
-Du hast nicht genug Blut, um Kraft aus deinem eigenen Körper zu ziehen.
+Du hast nicht genug Blut, um Kraft aus deinem eigenen Körper zu schöpfen.
 %%%%
 Your body is bloodless.
-Dein Körper ist unblutig.
+Dein Körper ist blutlos.
 %%%%
 Your attempt to draw power from your own body fails.
-Dein Versuch, Kraft aus deinem eigenen Körper zu ziehen, schlägt fehl.
+Dein Versuch, Kraft aus deinem eigenen Körper zu schöpfen, schlägt fehl.
 %%%%
 You draw magical energy from your own body!
-Du ziehst magische Energie aus deinem eigenen Körper!
+Du schöpfst magische Energie aus deinem eigenen Körper!
 %%%%
 Malign forces permeate your being, awaiting release.
-Bösartige Kräfte durchdringen dein Wesen und warten auf ihre Freilassung.
+Bösartige Kräfte durchdringen dein Wesen und warten auf ihre Entfesselung.
 %%%%
 You begin recalling your allies.
-Du fängst an, dich an deine Verbündeten zu erinnern.
+Du fängst an, deine Verbündeten zusammenzurufen.
 %%%%
 Nothing appears to have answered your call.
-Nichts scheint auf deinen Anruf geantwortet zu haben.
+Nichts scheint deinem Ruf geantwortet zu haben.
 %%%%
 You finish recalling your allies.
-Du beendest die Erinnerung an deine Verbündeten.
+Du hörst auf, deine Verbündeten zusammenzurufen.
 %%%%
 Please select a wall.
 Bitte eine Wand auswählen.
@@ -15242,7 +15242,7 @@ You sense an overwhelming volume of rock.
 Du spürst ein überwältigendes Volumen an Gestein.
 %%%%
 Something is blocking your path through the rock.
-Etwas versperrt dich den Weg durch den Felsen.
+Etwas versperrt dir den Weg durch den Felsen.
 %%%%
 You sense a deep body of water on the other side of the rock.
 Du spürst ein tiefes Gewässer jenseits des Felsens.
@@ -15265,7 +15265,7 @@ Die Welt dreht sich um dich!
 ##################
 %%%%
 You stand defiantly in death's doorway!
-Du stehst trotzig in der Pforte des Todes!
+Du stehst kühn in der Pforte des Todes!
 %%%%
 You seem to hear sand running through an hourglass...
 Du scheinst Sand durch eine Sanduhr laufen zu hören ...
@@ -15298,22 +15298,22 @@ Forget which spell?
 Welchen Zauber vergessen?
 %%%%
 Forget %s, freeing 1 spell level for a total of %d?
-%s vergessen, und damit 1 Zauberplatz freimachen für insgesamt %d frei?
+%s vergessen und damit 1 Zauberplatz freimachen für insgesamt %d?
 %%%%
 Forget %s, freeing %d spell levels for a total of %d?
-%s vergessen, und damit %d Zauberplätze freimachen für insgesamt %d frei?
+%s vergessen und damit %d Zauberplätze freimachen für insgesamt %d?
 %%%%
 This spell is not in your library!
 Dieser Zauberspruch ist nicht in deiner Bibliothek!
 %%%%
 Your blood is freshly infused with primal strength!
-Dein Blut wird mit Urkraft frisch durchtränkt!
+Dein Blut wird frisch mit Urkraft durchtränkt!
 %%%%
 Your blood is infused with primal strength.
 Dein Blut wird mit Urkraft durchtränkt!
 %%%%
 A profound silence engulfs you.
-Eine tiefe Stille verschlingt dich.
+Eine tiefe Stille umhüllt dich.
 %%%%
 The ground around you becomes liquefied!
 Der Boden um dich herum verflüssigt sich!
@@ -15342,10 +15342,10 @@ You call out to the draconic realm, and the dragon horde roars back!
 Du rufst in das drakonische Reich und die Drachenhorde brüllt zurück!
 %%%%
 A dragon tries to answer your call, but you don't have enough magical power!
-Ein Drache versucht, auf deinen Ruf zu antworten, aber du hast nicht genug magische Kraft!
+Ein Drache versucht, deinem Ruf zu antworten, aber du hast nicht genug magische Kraft!
 %%%%
 A dragon arrives to answer your call!
-Ein Drache kommt, um deinen Anruf zu beantworten!
+Ein Drache erscheint, um deinem Ruf zu antworten!
 %%%%
 A dragon appears.
 Ein Drache erscheint.
@@ -15396,13 +15396,13 @@ Du kannst dort kein Ziel sehen!
 %s dröhnt: Wie kannst du es wagen, dieses widerliche Ding zu animieren!
 %%%%
 You create some ball lightning!
-Du erschaffst einen Kugelblitz!
+Du erschaffst Kugelblitze!
 %%%%
 A guardian golem appears, shielding your allies.
 Ein Wächtergolem erscheint und schützt deine Verbündeten.
 %%%%
 A beastly little devil appears in a puff of frigid air.
-In einem eisigen Luftzug erscheint ein kleiner, biestiger Teufel.
+Ein biestiges Teufelchen erscheint in einem eisigen Luftzug.
 %%%%
 A metallic apparition takes form in the air.
 Eine metallische Erscheinung nimmt in der Luft Gestalt an.
@@ -15411,7 +15411,7 @@ A shadowy apparition takes form in the air.
 Eine schattenhafte Erscheinung nimmt in der Luft Gestalt an.
 %%%%
 A beastly little devil appears in a puff of flame.
-Ein kleiner Teufel erscheint in einer Flammenwolke.
+Ein biestiges Teufelchen erscheint in einer Flammenwolke.
 %%%%
 A demon appears!
 Ein Dämon erscheint!
@@ -15421,19 +15421,19 @@ It doesn't seem very happy.
 Er scheint nicht sehr glücklich zu sein.
 %%%%
 You open a gate to Pandemonium!
-Du öffnest ein Tor zu Pandämonium!
+Du öffnest ein Tor ins Pandämonium!
 %%%%
 Wisps of shadow whirl around you...
 Schattenfetzen wirbeln um dich herum...
 %%%%
 The shadows disperse without effect.
-Die Schatten verziehen sich ohne Wirkung.
+Die Schatten zerstreuen sich ohne Wirkung.
 %%%%
 The dungeon shakes, a horrible noise fills the air, and a portal to some otherworldly place is opened!
-Der Kerker erbebt, ein schreckliches Geräusch erfüllt die Luft und ein Portal in eine andere Welt wird geöffnet!
+Der Kerker bebt, ein schreckliches Geräusch erfüllt die Luft und ein Portal in eine andere Welt wird geöffnet!
 %%%%
 A gateway cannot be opened in this cramped space!
-In diesem engen Raum kann kein Tor geöffnet werden!
+In diesem beengten Raum kann kein Tor geöffnet werden!
 %%%%
 A forested plane collides here with a resounding crunch!
 Eine bewaldete Ebene kollidiert hier mit einem lauten Knirschen!
@@ -15463,49 +15463,49 @@ An evil force gathers, but it quickly dissipates.
 Eine böse Kraft sammelt sich, aber sie löst sich schnell auf.
 %%%%
 You cannot haunt those who bear you no hostility.
-Du kannst diejenigen nicht spuken, die dich ohne Feindseligkeit tragen.
+Du kannst nicht jene heimsuchen, die dir nicht feindlich gesonnen sind.
 %%%%
 Insubstantial figures form in the air.
-In der Luft bilden sich unwesentliche Figuren.
+Substanzlose Figuren bilden sich in der Luft.
 %%%%
 You sense hostile presences.
-Du spürst feindliche Wesenheiten.
+Du spürst feindliche Anwesenheiten.
 %%%%
 An insubstantial figure forms in the air.
-In der Luft bildet sich eine unwesentliche Figur.
+Eine substanzlose Figur bildet sich in der Luft.
 %%%%
 You sense a hostile presence.
-Du spürst eine feindliche Wesenheit.
+Du spürst eine feindliche Anwesenheit.
 %%%%
 You summon a servant imbued with your destructive magic!
-Du beschwörst einen Diener, der von deiner zerstörerischen Magie durchtränkt ist!
+Du beschwörst einen von deiner zerstörerischen Magie durchtränkten Diener!
 %%%%
 %s summons a servant imbued with destructive magic!
-%s beschwört einen Diener, der von zerstörerischer Magie durchtränkt ist!
+%s beschwört einen von zerstörerischer Magie durchtränkten Diener!
 %%%%
 %s appears!
 %s erscheint!
 %%%%
 You recall your battlesphere and imbue it with additional charge.
-Du rufst deine Gefechtskugel zurück und ladet sie zusätzlich auf.
+Du rufst deine Gefechtssphäre zurück und lädst sie zusätzlich auf.
 %%%%
 You imbue your battlesphere with additional charge.
-Du erfüllst deine Kampfsphäre mit zusätzliche Energie.
+Du erfüllst deine Gefechtssphäre mit zusätzliche Energie.
 %%%%
 You conjure a globe of magical energy.
-Du rufst eine Kugel magischer Energie hervor.
+Du zauberst eine Kugel aus magischer Energie herbei.
 %%%%
 %s conjures a globe of magical energy!
-%s ruft eine Kugel magischer Energie hervor.
+%s zaubert eine Kugel aus magischer Energie herbei.
 %%%%
 Your battlesphere expends the last of its energy and dissipates.
-Deine Kampfsphäre verbraucht den letzten Rest ihrer Energie und löst sich auf.
+Deine Gefechtssphäre verbraucht den letzten Rest ihrer Energie und löst sich auf.
 %%%%
 Your battlesphere wavers and loses cohesion.
-Deine Kampfsphäre schwankt und verliert den Zusammenhalt.
+Deine Gefechtssphäre wobbelt und verliert den Zusammenhalt.
 %%%%
 You feel your bond with your battlesphere wane.
-Du fühlst, wie deine Bindung zu deiner Kampfsphäre schwindet.
+Du fühlst, wie deine Bindung zu deiner Gefechtssphäre schwindet.
 %%%%
 barrage of energy
 Trommelfeuer der Energie
@@ -15517,19 +15517,19 @@ That's too far away.
 Das ist zu weit weg.
 %%%%
 You can't conjure that within a solid object!
-Das kannst du nicht in ein festes Objekt zaubern!
+Das kannst du nicht in ein festes Objekt hineinzaubern!
 %%%%
 You can't place the prism on a creature.
-Du kannst das Prisma nicht auf eine Kreatur legen.
+Du kannst das Prisma nicht auf einer Kreatur platzieren.
 %%%%
 You twitch.
 Du zuckst.
 %%%%
 You conjure a prism of explosive energy!
-Du rufst ein Prisma aus explosiver Energie hervor!
+Du zauberst ein Prisma aus explosiver Energie herbei!
 %%%%
 %s conjures a prism of explosive energy!
-%s ruft ein Prisma aus explosiver Energie hervor!
+%s zaubert ein Prisma aus explosiver Energie herbei!
 %%%%
 A prism of explosive energy appears from nowhere!
 Ein Prisma explosiver Energie erscheint aus dem Nichts!
@@ -15541,7 +15541,7 @@ You feel your bond with your spectral weapon wane.
 Du fühlst, wie deine Bindung zu deiner Spektralwaffe nachlässt.
 %%%%
 You call forth a plague of scarabs!
-Du rufst eine Pest von Skarabäusen hervor!
+Du rufst eine Pest von Skarabäen herbei!
 %%%%
 A briar patch grows up from the ground.
 Ein Dornbusch wächst aus dem Boden.
