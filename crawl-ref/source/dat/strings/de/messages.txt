@@ -12738,7 +12738,7 @@ Jiyva protects you from corrosive effects.
 Jiyva schützt dich vor korrosiven Effekten.
 %%%%
 turn your foes to slime
-Deine Feinde in Schleim verwandeln
+deine Feinde in Schleim verwandeln
 %%%%
 You may now expel jellies when seriously injured.
 Du kannst nun Gelees ausstoßen, wenn du schwer verletzt wirst.
@@ -12933,10 +12933,10 @@ Your aura of power can strike those that harm you.
 Deine Aura der Macht kann jene treffen, die dir schaden.
 %%%%
 heal your body and restore your magic
-Deinen Körper heilen und deine Magie wiederherstellen
+deinen Körper heilen und deine Magie wiederherstellen
 %%%%
 gather your power into a mighty leap
-Deine Kraft für einen mächtigen Sprung sammeln
+deine Kraft für einen mächtigen Sprung sammeln
 %%%%
 wreak a terrible wrath on your foes
 schrecklichen Zorn über deine Feinde bringen
@@ -13192,10 +13192,10 @@ Your body glows slightly and disappears.
 Dein Körper leuchtet leicht und verschwindet.
 %%%%
 <white>Your body glows with a rainbow of weird colours and disappears.</white>
-<white>dein Körper leuchtet in einem Regenbogen seltsamer Farben und verschwindet.</white>
+<white>Dein Körper leuchtet in einem Regenbogen seltsamer Farben und verschwindet.</white>
 %%%%
 <lightgrey>Your body disappears without additional glow.</lightgrey>
-<lightgrey>dein Körper verschwindet ohne zusätzliches Glühen.</lightgrey>
+<lightgrey>Dein Körper verschwindet ohne zusätzliches Glühen.</lightgrey>
 %%%%
 Your body glows slightly brighter and disappears.
 Dein Körper leuchtet etwas heller und verschwindet.
@@ -13740,28 +13740,28 @@ You have mastered %s!
 Du hast %s gemeistert!
 %%%%
 Your base %s skill increases to level %d!
-Deine grundlegende %s-Fertigkeit %s steigt auf Stufe %d!
+Deine grundlegende Fertigkeit %s steigt auf Stufe %d!
 %%%%
 Your base %s skill decreases to level %d!
-Deine grundlegende %s-Fertigkeit sinkt auf Stufe %d!
+Deine grundlegende Fertigkeit %s sinkt auf Stufe %d!
 %%%%
 Your %s skill increases to level %d!
-Deine %s-Fertigkeit steigt auf Stufe %d!
+Deine Fertigkeit %s steigt auf Stufe %d!
 %%%%
 Your %s skill decreases to level %d!
-Deine %s-Fertigkeit sinkt auf Stufe %d!
+Deine Fertigkeit %s sinkt auf Stufe %d!
 %%%%
 Your base %s skill gained %d levels and is now at level %d!
-Deine grundlegende %s-Fertigkeit gewinnt %d Stufen und ist jetzt auf Stufe %d!
+Deine grundlegende Fertigkeit %s gewinnt %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 Your base %s skill lost %d levels and is now at level %d!
-Deine grundlegende %s-Fertigkeit verliert %d Stufen und ist jetzt auf Stufe %d!
+Deine grundlegende Fertigkeit %s verliert %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 Your %s skill gained %d levels and is now at level %d!
-Deine %s-Fertigkeit gewinnt %d Stufen und ist jetzt auf Stufe %d!
+Deine Fertigkeit %s gewinnt %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 Your %s skill lost %d levels and is now at level %d!
-Deine %s-Fertigkeit verliert %d Stufen und ist jetzt auf Stufe %d!
+Deine Fertigkeit %s verliert %d Stufen und ist jetzt auf Stufe %d!
 %%%%
 You cannot train any new skills!
 Du kannst keine neuen Fertigkeiten trainieren!
@@ -13813,7 +13813,7 @@ You already know all available spells.
 Du kennst bereits alle verfügbaren Zaubersprüche.
 %%%%
 You cannot currently memorise any of the available spells because you cannot use those schools of magic.
-Du kannst derzeit keinen der verfügbaren Zaubersprüche auswenig lernen, weil du diese Magieschulen nicht benutzen kannst.
+Du kannst derzeit keinen der verfügbaren Zaubersprüche auswendig lernen, weil du diese Magieschulen nicht benutzen kannst.
 %%%%
 You cannot memorise any of the available spells.
 Du kannst derzeit keinen der verfügbaren Zaubersprüche auswendig lernen.
@@ -13957,7 +13957,7 @@ Confirm with . or Enter, or press ? or * to list all spells.
 Mit . oder Enter bestätigen, oder ? oder * drücken, um alle Zauber aufzulisten.
 %%%%
 You can't see any susceptible monsters within range! (Use <w>Z</w> to cast anyway.)
-Du siehst keine anfälligen Monster in Reichweite! ()
+Du siehst keine anfälligen Monster in Reichweite! (<w>Z</w> um den Zauber trotzdem zu wirken.)
 %%%%
 Casting this spell will cause instant excommunication! Really cast?
 Das Wirken dieses Zaubers führt zur sofortigen Exkommunikation! Wirklich wirken?
@@ -14368,7 +14368,7 @@ A tree reaches out and scrapes @foe@.
 Ein Baum streckt seinen Ast aus und kratzt {acc}@foe@.
 %%%%
 A root barely touches @foe@ from below.
-Eine Wurzel berührt @foe@ ganz leicht von unten.
+Eine Wurzel berührt {acc}@foe@ ganz leicht von unten.
 %%%%
 # note: these are intentionally without final punctuation
 You are hit by a branch
