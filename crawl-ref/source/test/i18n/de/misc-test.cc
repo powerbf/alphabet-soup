@@ -305,7 +305,7 @@ int main()
     show_result(msg, "Das kannst du nicht, solange du in einem Gespinst gefangen bist.");
 
     msg = localise("\"You will pay for your transgression, mortal!\"");
-    show_result(msg, "\"Du wirst für deine Übertretung bezahlen, Sterblicher!\"");
+    show_result(msg, "\"Du wirst für deine Verfehlungen bezahlen, Sterblicher!\"");
 
     msg = localise("No spell in slot a!");
     show_result(msg, "Kein Zauber im Platz a!");
@@ -353,10 +353,10 @@ int main()
     show_result(msg, "schleimige Rune zeigen");
 
     msg = localise("Memorise %s, consuming %d spell level and leaving %d?", "Magic Dart", 1, 4);
-    show_result(msg, "Magisches Geschoss memorieren, dabei 1 Zauberplatz verbrauchen und 4 lassen?");
+    show_result(msg, "Magisches Geschoss auswendig lernen, dabei 1 Zauberplatz verbrauchen und 4 behalten?");
 
     msg = localise("Memorise %s, consuming %d spell levels and leaving %d?", "Fireball", 5, 0);
-    show_result(msg, "Feuerball memorieren, dabei 5 Zauberplätze verbrauchen und 0 lassen?");
+    show_result(msg, "Feuerball auswendig lernen, dabei 5 Zauberplätze verbrauchen und 0 behalten?");
 
     // test annotation
     msg = localise("{book}");
