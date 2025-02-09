@@ -1162,7 +1162,7 @@ Attaquer
 # fire - shoot a bow/crossbow/sling, or throw a boomerang, etc.
 # the {cmd} annotation is needed to disambiguate from fire meaning flames
 {cmd}Fire
-{cmd}Tirer
+Tirer
 %%%%
 Open door
 Ouvrir la porte
