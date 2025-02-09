@@ -1,0 +1,1334 @@
+############################################################
+# Outsourced monster speech.
+#
+# insult.txt contains the messages imps and demons apply in
+# Crawl to insult players.
+#
+# For an explanation of how to read insult.txt and how to
+# add new messages, see monster_speech.txt in the docs
+# directory.
+###########################################################
+%%%%
+imp_taunt
+
+@run_or_give_up@, toi @generic_insult@ !
+%%%%
+run_or_give_up
+
+w:6
+@run_away@
+
+w:1
+@give_up@
+%%%%
+demon_taunt
+
+w:1
+@run_away@, toi @generic_insult@ !
+
+w:2
+@give_up@, toi @generic_insult@ !
+
+w:3
+@demon_taunt_special@
+%%%%
+demon_taunt_special
+
+Ton @body_or_spiritual_part@ sera mon @meal@ !
+
+@give_up@, toi délicieux @meal@ !
+
+@run_away@ @whilst_thou_can@ !
+
+Je @will_or_shall@ @feast_or_devour@ ton @body_or_spiritual_part@ !
+%%%%
+
+# capitalised "flee" verbs
+run_away
+
+Arrière toi
+
+Retourne d'où tu viens
+
+Va-t’en
+
+Déguerpis
+
+Rentre chez toi en rampant
+
+Décampe
+
+Échappe-toi
+
+Fuis
+
+Envole-toi
+
+Disparais
+
+Va-t’en loin d’ici
+
+Ne reviens jamais
+
+Pars
+
+Dehors, dehors
+
+Quitte les lieux
+
+Ôte cette puanteur
+
+Retourne d’où tu es venu
+
+Sauve-toi
+
+Déguerpis loin d’ici
+
+Déguerpis chez toi
+
+Faufile-toi au loin
+
+Faufile-toi d’ici
+
+Faufile-toi chez toi
+
+Emporte ton visage loin d’ici
+
+Tourne les talons
+%%%%
+# capitalised synonyms for "give up"
+give_up
+
+Abandonne tout espoir
+
+Accepte ton échec
+
+Accepte ta chute
+
+Accepte ton destin funeste
+
+Admets ta défaite
+
+Implore la pitié
+
+Capitule
+
+Désespère
+
+Sombrer dans l’abattement
+
+Renie-toi
+
+Accepte la soumission
+
+Accepte ta reddition
+
+Accepte ton funeste destin
+
+Accepte ton échec
+
+Accepte ta chute
+
+Fais face à ta fuite
+
+Fais face à ton requiem
+
+Titube
+
+Cède
+
+Abandonne
+
+Agenouille-toi
+
+Frémis
+
+Renonce
+
+Rends-toi
+
+Succombe
+
+Soumets-toi
+
+Tremble
+
+Renonce à tout espoir
+
+Repens-toi
+
+Goûte à la défaite
+%%%%
+whilst_thou_can
+
+tant que tu le peux
+
+tant que tu le pourrais
+
+tant que tu en es capable
+
+si tu as un tant soit peu d’esprit
+
+tant que la chance te sourit
+
+avant que le destin ne te rattrape
+
+de peur que la mort ne te trouve
+
+tant que tu es entier
+
+# screen vs. this for undead?
+tant que tu es en vie
+%%%%
+body_or_spiritual_part
+
+w:3
+@important_body_part@
+
+w:1
+@important_spiritual_part@
+%%%%
+will_or_shall
+
+va
+
+doit
+%%%%
+feast_or_devour
+
+festoyer sur
+
+dévorer
+%%%%
+important_body_part
+
+tête
+
+cerveau
+
+cœur
+
+viscères
+
+yeux
+
+poumons
+
+foie
+
+gorge
+
+cou
+
+gésier
+
+crâne
+
+colonne vertébrale
+%%%%
+important_spiritual_part
+
+âme
+
+esprit
+
+lumière intérieure
+
+espoir
+
+foi
+
+volonté
+
+cœur
+
+esprit
+
+santé mentale
+
+force d'âme
+
+force vitale
+
+vitalité
+%%%%
+meal
+
+repas
+
+petit-déjeuner
+
+déjeuner
+
+dîner
+
+souper
+
+festin
+
+casse-croûte
+
+victuailles
+
+réfection
+
+festivités
+
+collation
+
+caillé
+
+en-cas
+
+bouchée
+%%%%
+#######################################################
+# generic insults consist of three random parts
+#######################################################
+generic insult
+
+w:5
+@species_insult@
+
+@insult general@
+%%%%
+
+###############################################################
+# adjective1, usually short and/or consisting of one word only
+###############################################################
+insult_adjective1
+
+w:5
+@species insult adj1@
+
+@insult general adj1@
+%%%%
+insult general adj1
+
+sans finesse
+
+ahuri
+
+graveleux
+
+souillé
+
+inutile
+
+maladroit
+
+hypocrite
+
+rustre
+
+choyé
+
+balafré
+
+lâche
+
+hargneux
+
+souillé
+
+humide et gluant
+
+trompeur
+
+paresseux
+
+fuyant
+
+étrange
+
+errant
+
+dupé
+
+flagorneur
+
+inefficace
+
+faible
+
+trompeur
+
+fourbe
+
+efféminé
+
+rebelle
+
+écumeux
+
+obséquieux
+
+moqueur
+
+lubrique
+
+ventru
+
+sale et doré
+
+horrible
+
+haïssable
+
+impertinent
+
+infectieux
+
+discordant
+
+borné
+
+lourd
+
+hésitant
+
+défiguré
+
+geignard
+
+odieux
+
+détestable
+
+ventru
+
+chétif
+
+arrogant
+
+chicanier
+
+vomissant
+
+faiblard
+
+obséquieux
+
+hypocrite
+
+déplumé
+
+ivre-mort
+
+marqué par la vérole
+
+tremblant
+
+frémissant
+
+infâme
+
+titubant
+
+grossier
+
+mielleux
+
+épongeux
+
+renfrogné
+
+vacillant
+
+tordu
+
+mielleux
+
+déséquilibré
+
+déluré
+
+vain
+
+venimeux
+
+infâme
+
+déformé
+
+capricieux
+
+fluet
+
+inutile
+
+fermenté
+%%%%
+##########################################################
+# adjective1, Elf special
+##########################################################
+insult elf adj1
+
+faible
+
+chétif
+
+frêle
+
+délicat
+
+fragile
+
+mal fagoté
+
+cassant
+
+tendre
+
+rêveur
+
+fardé
+
+lâche comme un lys
+
+dandy
+
+léger comme une plume
+
+insignifiant
+
+sans racines
+
+grêle
+
+maigrichon
+
+tremblotant
+
+précieux
+
+pas assez cuit
+%%%%
+##########################################################
+# adjective1, Felid special
+##########################################################
+insult felid adj1
+
+emmêlé
+
+crasseux
+
+enragé
+
+insignifiant
+
+minuscule
+
+minable
+
+négligé
+
+sauvage
+
+errant
+
+collant
+
+musqué
+
+rampant
+%%%%
+##########################################################
+# adjective1, Ghoul special
+##########################################################
+insult ghoul adj1
+
+# being old and mouldy
+moisi
+
+décrépi
+
+ranci
+
+périmé
+
+expiré depuis longtemps
+
+# falling apart
+vermoulu
+
+mité
+
+corrodé
+
+lépreux
+
+ulcéreux
+
+délabré
+
+décrépit
+
+en décomposition
+
+détérioré
+
+infectieux
+
+malade
+
+dépéri
+
+pourrissant
+
+puant
+
+putrescent
+
+nauséabond
+
+fétide
+
+gangrené
+
+haleine fétide
+%%%%
+###############################################################
+# adjective2, usually longer and consisting of two words
+###############################################################
+insult adjective2
+
+w:5
+@species insult adj2@
+
+@insult general adj2@
+%%%%
+insult_general_adj2
+
+bas-de-plafond
+
+chasseur de chauves-souris
+
+esprit de bœuf
+
+tête de hanneton
+
+cerveau d’ébullition
+
+griffes de crécelle
+
+cerveau d’argile
+
+embrasseur de bas peuple
+
+crâne tordu
+
+rêveur lugubre
+
+né dans un fossé
+
+yeux hagards
+
+cœur de chien
+
+frappé de terreur
+
+râleur terrestre
+
+peau d’elfe
+
+reins gras
+
+nourri aux marais
+
+bouche pendante
+
+tête plate
+
+rongé par les mouches
+
+voleur de babioles
+
+frappé de folie
+
+né d’un sot
+
+tête de sot
+
+ventre trop plein
+
+poignardeur d’entrailles
+
+face à moitié formée
+
+esprit précipité
+
+né dans une haie
+
+haï des enfers
+
+tête creuse
+
+de mauvaise graine
+
+mal élevé
+
+embrasseur de kobolds
+
+crâne noueux
+
+volonté flasque
+
+foie laiteux
+
+misérable
+
+lunatique
+
+esprit bariolé
+
+taupe crasseuse
+
+colporteur de ragots
+
+chercheur de crottes de nez
+
+crochet à noix
+
+yeux de bulbe
+
+œuf de pigeon
+
+filou
+
+croissance rustre
+
+ventre nourri aux restes
+
+luxurieux
+
+impertinent
+
+né sur un tesson
+
+mordeur de moutons
+
+tété par une truie
+
+rate enflée
+
+éperon irrité
+
+ventre ballonné
+
+démarche traînante
+
+cerveau chatouillé
+
+ivre à la moindre goutte
+
+tacheté de crapaud
+
+rongeur d’ongles
+
+grouilleur de boue
+
+chapeau d’étain doublé
+
+groin d’orphelin
+
+visage battu par le vent
+
+diseur d’absurdités
+
+esprit de charançon
+
+suceur de billevesées
+%%%%
+##########################################################
+# adjective2, Dwarf special
+##########################################################
+insult dwarf adj2
+
+creuseur de crasse
+
+suceur de gravier
+
+piétineur de boue
+
+fauché comme les pierres
+
+caresseur d’argent
+
+bricoleur de défauts
+
+rampeur de gravier
+
+embrouilleur d’argent
+
+chouchouteur de choux
+
+démonteur de trésors
+
+mordeur de cuisses
+
+fouilleur de terre
+%%%
+##########################################################
+# adjective2, Felid special
+##########################################################
+insult felid adj2
+
+rongé par les vers
+
+couvert de gale
+
+yeux purulents
+
+triche-la-mort
+
+yeux en biais
+
+rongeur de cartilage
+
+chasseur de taches
+
+cul gerçé
+
+marcheur sur les touches
+
+lécheur de pourriture
+%%%%
+##########################################################
+# adjective2, Tengu special
+##########################################################
+insult tengu adj2
+
+os creux
+
+cerveau de plume
+
+esprit de bec
+
+poulet dominé
+
+léger comme l’air
+
+membres frêles
+
+cerveau d’oiseau
+
+poids plume
+
+pieds de pigeon
+
+bec de corbeau
+
+yeux de pie
+
+canard maladroit
+%%%%
+##########################################################
+# adjective2, Mummy special
+##########################################################
+insult mummy adj2
+
+# pertaining to dryness and flammability
+desséché
+
+séchés
+
+moisi
+
+inflammable
+
+ignifuge
+
+allumable
+
+combustible
+
+fumant
+
+# pertaining to bandages
+emballé sous vide
+
+enrubanné de crêpe
+
+scotché
+
+s'effilochant
+
+enroulé à la main
+
+étroitement enroulé
+
+tendu
+
+bien ficelé
+
+volé dans une tombe
+
+w:30
+@insult undead adj2@
+%%%%
+##########################################################
+# adjective2, Vampire special
+##########################################################
+insult vampire adj2
+
+batteur de chauve-souris
+
+suceur de sang
+
+évitant la lumière
+
+pâle
+
+jaunâtre
+
+au visage crémeux
+
+au visage de petit-lait
+
+anémié
+
+sans sang
+
+exsangue
+
+w:20
+@insult undead adj2@
+%%%%
+##########################################################
+# adjective2, undead special
+##########################################################
+insult undead adj2
+
+semblable à la mort
+
+sans vie
+
+morts-vivants
+
+semblable à un cadavre
+
+mort-vivant
+%%%%
+###############################################
+# noun of the insult
+###############################################
+insult noun
+
+w:5
+@species_insult_noun@
+
+@insult general noun@
+%%%%
+insult general noun
+
+pomme de John
+
+bagages
+
+bandersnitch
+
+bernacle
+
+mendiant
+
+bavard
+
+vessie
+
+gonfleur
+
+cochon-sanglier
+
+lèche-bottes
+
+margoulin
+
+brigand
+
+fantôme
+
+bougre
+
+appât à charognard
+
+fleur de cancéreuse
+
+plat à claque
+
+palourde
+
+tête de bouse
+
+cocu
+
+imbécile
+
+codpiece
+
+lanterne de crabe
+
+patch-épine
+
+dandiprat
+
+nuque morte
+
+symbole de la mort
+
+mûre de rosée
+
+dingleberry
+
+efter
+
+erk
+
+chauve-souris battante
+
+fillette de lin
+
+escroc
+
+flim-flammer
+
+flirt-gill
+
+lèche-pied
+
+frère
+
+fustilarian
+
+giglet
+
+queue de gnoll
+
+gonus
+
+goujon
+
+ramasse-miettes
+
+hagard
+
+harpie
+
+hérisson de haie
+
+complot
+
+écorcheur
+
+coiffe de ventre
+
+pervers
+
+rustre
+
+tarte-maggot
+
+ver de la bière
+
+mammet
+
+bouton de fièvre
+
+mendicant
+
+Sentinelle du vairon
+
+mélange incohérent
+
+mule
+
+nerf
+
+huile de nuit
+
+personne
+
+rien
+
+œuf de pigeon
+
+pignoufs
+
+bouton
+
+pissant
+
+faiseur de pots
+
+prigrer des balançoires
+
+pustule
+
+endormir
+
+citrouille
+
+poison des rats
+
+réprouvé
+
+charognard
+
+teigne
+
+serf
+
+simpleton
+
+marmite de skaï
+
+bavoir
+
+moisissure
+
+escargot
+
+mue de serpent
+
+socdollager
+
+trompette
+
+surface
+
+vessie
+
+bricoleur
+
+baladeur
+
+carreleur
+
+fouineur
+
+oursin
+
+varlet
+
+vassal
+
+vautour
+
+gaspilleur
+
+queue de wag
+
+visage de petit-lait
+
+fouet
+
+trace de ver
+
+largage de yaks
+
+nourriture de zombie
+%%%%
+##########################################################
+# noun, small species special
+##########################################################
+small_food
+
+collation
+
+croquant
+
+demi-repas
+
+plat de souper
+
+morceau
+
+mug-up
+
+appât à bouchée
+
+grignotage
+
+snack-pap
+
+nourriture
+
+bouchée
+
+demi-pinte
+
+petit en-cas
+%%%%
+##########################################################
+# noun, Felid special
+##########################################################
+insult cat noun
+
+chaton
+
+sac à puces
+
+vermine
+
+gargoteur de toilette
+
+chauffe-tête
+
+nounou de pander
+
+hissis
+
+graisse de cuisson
+
+langue de sable
+
+mauvais garnement
+
+mouchoir à fourrure
+
+gratte-orteil
+
+manteau de saleté
+
+poupée de gob
+%%%%
+##########################################################
+# noun, Spriggan special
+##########################################################
+insult spriggan noun
+
+w:100
+@small_food@
+
+cavalier de rat
+
+quart de pinte
+
+nissette
+
+fizzle-flop
+
+sortilège raté
+
+faiblard
+
+faiblard
+
+pixie en toc
+
+mordeur de cheville
+
+tache de botte
+
+nano-nébuleuse
+
+créature frêle
+
+violette fanée
+
+prig de sissy
+
+chatouilleur
+
+rampant furtif
+%%%%
+##########################################################
+# noun, Minotaur special
+##########################################################
+insult minotaur noun
+
+bovin
+
+poitrine
+
+cerveau de taureau
+
+mâcheur de fourrage
+
+bêta de veau
+
+pied fendu
+
+cretin
+
+vache
+
+bétail
+
+bête à cornes
+
+pain de viande
+
+boulette de viande
+
+meugleur
+
+rôti de croupe
+
+ruminant
+
+veau
+
+côte de boeuf ambulante
+%%%%
+##########################################################
+# noun, Mummy special
+##########################################################
+insult mummy noun
+
+sac de poussière
+
+mort-vivant
+
+vieux radoteur
+
+sac de linge
+
+sac en tissu
+
+rouleur
+
+petite momie
+
+linceul
+
+papier d'emballage
+
+rouleau de bandages
+
+paquet de gaze
+
+déchet de coton
+
+tissu d'emballage
+
+# susceptibility to fire
+bûcher
+
+amorçage
+%%%%
+##########################################################
+# noun, Ghoul special
+##########################################################
+insult ghoul noun
+
+blessure de chair
+
+plaie purulente
+
+épave
+
+collecteur de terre
+
+attrape-poussière
+
+tas de détritus
+
+refus
+
+tas de déchets
+
+dépotoir
+
+cadavre ambulant
+%%%%
