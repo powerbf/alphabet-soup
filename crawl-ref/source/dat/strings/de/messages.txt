@@ -15625,10 +15625,10 @@ You cannot blink away from %s!
 Du kannst von {dat}%s nicht wegblinzeln!
 %%%%
 You cannot hop closer to %s!
-Du kannst nicht näher zu {acc}%s hüpfen!
+Du kannst nicht näher zu {dat}%s hüpfen!
 %%%%
 You cannot blink closer to %s!
-Du kannst nicht näher zu {acc}%s blinzeln!
+Du kannst nicht näher zu {dat}%s blinzeln!
 %%%%
 You can't hop into that!
 Da kannst du nicht reinhüpfen!
@@ -16949,7 +16949,7 @@ Your legs become a tail as you dive into the water.
 Deine Beine werden zu einem Schwanz, als du ins Wasser tauchst.
 %%%%
 ...but don't expect to remain undetected.
-... aber erwarte nicht, unentdeckt zu bleiben.
+...aber erwarte nicht, unentdeckt zu bleiben.
 %%%%
 Your blood-deprived body can't sustain your transformation.
 Dein blutarmer Körper kann deine Verwandlung nicht aufrechterhalten.
