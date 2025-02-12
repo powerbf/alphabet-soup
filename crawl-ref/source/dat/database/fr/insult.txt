@@ -34,13 +34,13 @@ w:3
 %%%%
 demon_taunt_special
 
-Ton @body_or_spiritual_part@ sera mon @meal@ !
+@Body_or_spiritual_part@ sera @meal@ !
 
 @give_up@, toi délicieux @meal@ !
 
 @run_away@ @whilst_thou_can@ !
 
-Je @will_or_shall@ @feast_or_devour@ ton @body_or_spiritual_part@ !
+Je @will_or_shall@ @feast_or_devour@ @body_or_spiritual_part@ !
 %%%%
 
 # capitalised "flee" verbs
@@ -190,9 +190,9 @@ w:1
 %%%%
 will_or_shall
 
-va
+vais
 
-doit
+veux
 %%%%
 feast_or_devour
 
@@ -202,85 +202,85 @@ dévorer
 %%%%
 important_body_part
 
-tête
+ta tête
 
-cerveau
+ton cerveau
 
-cœur
+ton cœur
 
-viscères
+tes viscères
 
-yeux
+tes yeux
 
-poumons
+tes poumons
 
-foie
+ton foie
 
-gorge
+ta gorge
 
-cou
+ton cou
 
-gésier
+ton gésier
 
-crâne
+ton crâne
 
-colonne vertébrale
+ta colonne vertébrale
 %%%%
 important_spiritual_part
 
-âme
+ton âme
 
-esprit
+ton esprit
 
-lumière intérieure
+ta lumière intérieure
 
-espoir
+ton espoir
 
-foi
+ta foi
 
-volonté
+ta volonté
 
-cœur
+ton cœur
 
-esprit
+ton esprit
 
-santé mentale
+ta santé mentale
 
-force d'âme
+ta force d'âme
 
-force vitale
+ta force vitale
 
-vitalité
+ta vitalité
 %%%%
 meal
 
-repas
+mon repas
 
-petit-déjeuner
+mon petit-déjeuner
 
-déjeuner
+mon déjeuner
 
-dîner
+mon dîner
 
-souper
+mon souper
 
-festin
+mon festin
 
-casse-croûte
+mon casse-croûte
 
-victuailles
+mon victuailles
 
-réfection
+ma réfection
 
-festivités
+ma festivités
 
-collation
+ma collation
 
-caillé
+ma caille
 
-en-cas
+mon en-cas
 
-bouchée
+ma bouchée
 %%%%
 #######################################################
 # generic insults consist of three random parts
