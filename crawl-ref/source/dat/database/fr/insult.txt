@@ -34,9 +34,9 @@ w:3
 %%%%
 demon_taunt_special
 
-@Body_or_spiritual_part@ sera @meal@ !
+@Body_or_spiritual_part@ sera @my_meal@ !
 
-@give_up@, toi délicieux @meal@ !
+@give_up@, toi @tasty_meal@ !
 
 @run_away@ @whilst_thou_can@ !
 
@@ -252,7 +252,7 @@ ta force vitale
 
 ta vitalité
 %%%%
-meal
+my_meal
 
 mon repas
 
@@ -281,6 +281,36 @@ ma caille
 mon en-cas
 
 ma bouchée
+%%%%
+tasty_meal
+
+repas délicieux
+
+petit-déjeuner délicieux
+
+déjeuner délicieux
+
+dîner délicieux
+
+souper délicieux
+
+festin délicieux
+
+casse-croûte délicieux
+
+victuailles délicieux
+
+réfection délicieuse
+
+festivités délicieuse
+
+collation délicieuse
+
+caille délicieuse
+
+en-cas délicieux
+
+bouchée délicieuse
 %%%%
 #######################################################
 # generic insults consist of three random parts
