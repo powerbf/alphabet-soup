@@ -591,6 +591,7 @@ zap-type.h.o \
 I18N_TEST_OBJECTS = \
 test/i18n/check-regex-rules.o \
 test/i18n/make-stringf-test.o \
+test/i18n/mon-speech-test.o \
 test/i18n/de/mon-test.o \
 test/i18n/de/item-test.o \
 test/i18n/de/misc-test.o \
