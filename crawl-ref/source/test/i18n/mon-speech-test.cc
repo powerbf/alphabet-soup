@@ -17,16 +17,28 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-    if (argc != 4)
+    if (argc < 4 || argc > 5)
     {
-        cerr << "Usage: mon-speech-test <language> <string key> <iterations>"
+        cerr << "Usage: mon-speech-test <language> <string key> <iterations> [<RNG seed>]"
              << endl;
         return 1;
     }
 
     string lang = argv[1];
     string key = argv[2];
-    unsigned iterations = atoi(argv[3]);
+    unsigned iterations = (unsigned)strtoul(argv[3], nullptr, 10);
+
+    if (argc > 4)
+    {
+        // seed RNG with specified seed value
+        uint64_t seed = strtoul(argv[4], nullptr, 10);
+        rng::seed(seed);
+    }
+    else
+    {
+        // use a random seed
+        rng::seed();
+    }
 
     Options.lang_name = lang;
     SysEnv.crawl_dir = ".";
