@@ -866,6 +866,9 @@ static void _call_recursive_replacement(string &str, TextDB &db,
         }
         else
         {
+            if (isupper(marker[0]))
+                replacement = uppercase_first(replacement);
+
             str.replace(pos, marker_full.length(), replacement);
 
             // Start search from pos rather than end + 1, so that if
