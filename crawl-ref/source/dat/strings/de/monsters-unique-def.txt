@@ -19,33 +19,42 @@
 # genders those monsters had in older versions of DCSS.
 
 %%%%
+# the name of several Christian saints (usually spelled Menas in English)
 the Mennas
 der Mennas
 %%%%
+# gender neutral in English in DCSS, but was previously male
+# a male centaur in Greek mythology
 the Nessos
 der Nessos
 %%%%
 the Chuck
 der Chuck
 %%%%
+# a cyclops in Greek mythology
 the Polyphemus
 der Polyphem
 %%%%
+# a giant/titan in Greek mythology
 the Antaeus
 der Antaeus
 %%%%
+# a Mesopotamian goddess
 the Tiamat
 die Tiamat
 %%%%
+# a figure from Chinese mythology
 the Bai Suzhen
 die Bai Suzhen
 %%%%
+# gender neutral in English in DCSS, but was previously female
 the Xtahua
 die Xtahua
 %%%%
 the Ijyb
 die Ijyb
 %%%%
+# gender neutral in English in DCSS, but was previously female
 the Robin
 die Robin
 %%%%
@@ -58,6 +67,7 @@ die Duvessa
 the Dowan
 der Dowan
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Fannar
 der Fannar
 %%%%
@@ -67,15 +77,18 @@ der Jorgrun
 the Natasha
 die Natascha
 %%%%
+# in Greek mythology, a woman who was transformed into a spider
 the Arachne
 die Arachne
 %%%%
+# the name of the minotaur in Greek mythology
 the Asterion
 der Asterion
 %%%%
 the Agnes
 die Agnes
 %%%%
+# gender neutral in English in DCSS, was previously male, but Dissolution is a feminine noun
 the Dissolution
 die Dissolution
 %%%%
@@ -88,9 +101,11 @@ der Pikel
 the Boris
 der Boris
 %%%%
+# Egyptian Pharaoh
 the Menkaure
 der Menkaure
 %%%%
+# Egyptian Pharaoh
 the Khufu
 der Khufu
 %%%%
@@ -109,15 +124,18 @@ die Urug
 the Nergalle
 die Nergalle
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Saint Roka
 der Sankt Roka
 %%%%
 the Sojobo
 die Sojobo
 %%%%
+# an angel in Islam
 the Azrael
 der Azrael
 %%%%
+# a demon in Buddhism
 the Mara
 der Mara
 %%%%
@@ -157,12 +175,14 @@ der Terence
 the Jessica
 die Jessica
 %%%%
+# a hero in Norse mythology
 the Sigmund
 der Sigmund
 %%%%
 the Edmund
 der Edmund
 %%%%
+# named after the Greek goddess of the soul
 the Psyche
 die Psyche
 %%%%
@@ -208,30 +228,40 @@ der Eustachio
 the Maurice
 der Maurice
 %%%%
+# Nikola Tesla
 the Nikola
 der Nikola
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Mnoleg
 der Mnoleg
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Lom Lobon
 der Lom Lobon
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Cerebov
 der Cerebov
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Gloorx Vloq
 der Gloorx Vloq
 %%%%
+# from Greek mythology
 the Geryon
 der Geryon
 %%%%
+# gender neutral in English in DCSS, but was previously male
+# Roman god of the underworld
 the Dispater
 der Dispater
 %%%%
+# Greek name of a demon in Judaism/Christainity
 the Asmodeus
 der Asmodäus
 %%%%
+# a Mesopotamian goddess
 the Ereshkigal
 die Ereshkigal
 %%%%
@@ -250,12 +280,14 @@ der Blork der Ork
 the Blork
 der Blork
 %%%%
+# a play on words - boss of the jellies in DCSS, and a substance created by bees
 the Royal Jelly
 das Gelée Royale
 %%%%
 the Serpent of Hell
 die Höllenschlange
 %%%%
+# from Greek mythology
 the Lernaean hydra
 die Lernäische Hydra
 %%%%
