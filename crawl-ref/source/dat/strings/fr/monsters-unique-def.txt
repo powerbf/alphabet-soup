@@ -14,265 +14,297 @@
 # letter).
 #
 # Some uniques are gender-neutral in English. This is different to neuter.
-# (neuter -> it, gender neutral -> they). I'm not sure if this is possible in
-# French.
+# (neuter -> it, gender neutral -> they). This can not be done in French, so we
+# revert to their previous genders.
 
 %%%%
+# the name of several Christian saints (usually spelled Menas in English)
 the Mennas
-
+le Mennas
 %%%%
+# gender neutral in English in DCSS, but was previously male
+# a male centaur in Greek mythology
 the Nessos
-
+le Nessos
 %%%%
 the Chuck
-
+le Chuck
 %%%%
+# a cyclops in Greek mythology
 the Polyphemus
-
+le Polyphème
 %%%%
+# a giant/titan in Greek mythology
 the Antaeus
-
+l'Antée
 %%%%
+# a Mesopotamian goddess
 the Tiamat
-
+la Tiamat
 %%%%
+# a figure from Chinese mythology
 the Bai Suzhen
-
+la Bai Suzhen
 %%%%
+# gender neutral in English in DCSS, but was previously female
 the Xtahua
-
+la Xtahua
 %%%%
 the Ijyb
-
+{f}l'Ijyb
 %%%%
+# gender neutral in English in DCSS, but was previously female
 the Robin
-
+la Robin
 %%%%
 the Grum
-
+le Grum
 %%%%
 the Duvessa
-
+la Duvessa
 %%%%
 the Dowan
-
+le Dowan
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Fannar
-
+le Fannar
 %%%%
 the Jorgrun
-
+le Jorgrun
 %%%%
 the Natasha
-
+la Natasha
 %%%%
+# in Greek mythology, a woman who was transformed into a spider
 the Arachne
-
+{f}l'Arachné
 %%%%
+# the name of the minotaur in Greek mythology
 the Asterion
-
+l'Astérion
 %%%%
 the Agnes
-
+{f}l'Agnes
 %%%%
+# gender neutral in English in DCSS, was previously male, but Dissolution is a feminine noun
 the Dissolution
-
+la Dissolution
 %%%%
 the Sonja
-
+la Sonja
 %%%%
 the Pikel
-
+le Pikel
 %%%%
 the Boris
-
+le Boris
 %%%%
+# Egyptian Pharaoh
 the Menkaure
-
+le Menkaourê
 %%%%
+# Egyptian Pharaoh
 the Khufu
-
+le Khoufou
 %%%%
 the Ilsuiw
-
+{f}l'Ilsuiw
 %%%%
 the Vashnia
-
+la Vashnia
 %%%%
 the Erolcha
-
+{f}l'Erolcha
 %%%%
 the Urug
-
+{f}l'Urug
 %%%%
 the Nergalle
-
+la Nergalle
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Saint Roka
-
+le Saint Roka
 %%%%
 the Sojobo
-
+la Sojobo
 %%%%
+# an angel in Islam
 the Azrael
-
+l'Azraël
 %%%%
+# a demon in Buddhism
 the Mara
-
+le Mara
 %%%%
 the Aizul
-
+{f}l'Aizul
 %%%%
 the Snorg
-
+la Snorg
 %%%%
 the Purgy
-
+le Purgy
 %%%%
 the Jory
-
+le Jory
 %%%%
 the Gastronok
-
+le Gastronok
 %%%%
 the Nellie
-
+la Nellie
 %%%%
 the Murray
-
+le Murray
 %%%%
 the Ignacio
-
+l'Ignacio
 %%%%
 the Grinder
-
+la Grinder
 %%%%
 the Roxanne
-
+la Roxanne
 %%%%
 the Terence
-
+le Terence
 %%%%
 the Jessica
-
+la Jessica
 %%%%
+# a hero in Norse mythology
 the Sigmund
-
+le Sigmund
 %%%%
 the Edmund
-
+l'Edmund
 %%%%
+# named after the Greek goddess of the soul
 the Psyche
-
+la Psyché
 %%%%
 the Donald
-
+le Donald
 %%%%
 the Joseph
-
+le Joseph
 %%%%
 the Erica
-
+la Erica
 %%%%
 the Josephine
-
+la Josephine
 %%%%
 the Harold
-
+le Harold
 %%%%
 the Louise
-
+la Louise
 %%%%
 the Frances
-
+la Frances
 %%%%
 the Rupert
-
+le Rupert
 %%%%
 the Kirke
-
+la Kirke
 %%%%
 the Frederick
-
+le Frederick
 %%%%
 the Margery
-
+la Margery
 %%%%
 the Maggie
-
+la Maggie
 %%%%
 the Eustachio
-
+l'Eustachio
 %%%%
 the Maurice
-
+le Maurice
 %%%%
+# Nikola Tesla
 the Nikola
-
+le Nikola
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Mnoleg
-
+le Mnoleg
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Lom Lobon
-
+le Lom Lobon
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Cerebov
-
+le Cerebov
 %%%%
+# gender neutral in English in DCSS, but was previously male
 the Gloorx Vloq
-
+le Gloorx Vloq
 %%%%
+# from Greek mythology
 the Geryon
-
+le Géryon
 %%%%
+# gender neutral in English in DCSS, but was previously male
+# Roman god of the underworld
 the Dispater
-
+le Dispater
 %%%%
+# Greek name of a demon in Judaism/Christainity
 the Asmodeus
-
+l'Asmodée
 %%%%
+# a Mesopotamian goddess
 the Ereshkigal
-
+la Ereshkigal
 %%%%
 the Prince Ribbit
-
+le Prince Ribbit
 %%%%
 the Crazy Yiuf
-
+le Yiuf Fou
 %%%%
 the Enchantress
-
+{f}l'Enchanteresse
 %%%%
 the Blork the orc
-
+le Blork l'orc
 %%%%
 the Blork
-
+le Blork
 %%%%
+# a play on words - boss of the jellies in DCSS, and a substance created by bees
 the Royal Jelly
-
+la Gelée Royale
 %%%%
 the Serpent of Hell
-
+le Serpent de l'Enfer
 %%%%
+# from Greek mythology
 the Lernaean hydra
-
+l'hydre de Lerne
 %%%%
 the Cigotuvi's Monster
-
+le Monstre de Cigotuvi
 %%%%
 the Statue of Wucad Mu
-
+la Statue de Wucad Mu
 %%%%
 
 # not really uniques, but gramatically similar
 
 %%%%
 the @name@'s ghost
-
+le spectre de @name@
 %%%%
 the @name@'s illusion
-
+{f}l'illusion de @name@
 %%%%
 
 ##################
@@ -281,17 +313,17 @@ the @name@'s illusion
 
 %%%%
 The Meatlord
-
+le Seigneur de la Viande
 %%%%
 The Servant
-
+le Serviteur
 %%%%
 The Captor
-
+le Capteur
 %%%%
 The Defiler
-
+le Profanateur
 %%%%
 The Unspeakable
-
+l'Innommable
 %%%%
