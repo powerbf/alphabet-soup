@@ -22,7 +22,7 @@
 the Mennas
 le Mennas
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 # a male centaur in Greek mythology
 the Nessos
 le Nessos
@@ -46,14 +46,14 @@ la Tiamat
 the Bai Suzhen
 la Bai Suzhen
 %%%%
-# gender neutral in English in DCSS, but was previously female
+# gender neutral in the English version of Crawl, but was previously female
 the Xtahua
 la Xtahua
 %%%%
 the Ijyb
 {f}l'Ijyb
 %%%%
-# gender neutral in English in DCSS, but was previously female
+# gender neutral in the English version of Crawl, but was previously female
 the Robin
 la Robin
 %%%%
@@ -66,7 +66,7 @@ la Duvessa
 the Dowan
 le Dowan
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Fannar
 le Fannar
 %%%%
@@ -87,7 +87,7 @@ l'Astérion
 the Agnes
 {f}l'Agnes
 %%%%
-# gender neutral in English in DCSS, was previously male, but Dissolution is a feminine noun
+# gender neutral in the English version of Crawl, was previously male, but Dissolution is a feminine noun
 the Dissolution
 la Dissolution
 %%%%
@@ -123,7 +123,7 @@ the Urug
 the Nergalle
 la Nergalle
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Saint Roka
 le Saint Roka
 %%%%
@@ -231,19 +231,19 @@ le Maurice
 the Nikola
 le Nikola
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Mnoleg
 le Mnoleg
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Lom Lobon
 le Lom Lobon
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Cerebov
 le Cerebov
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Gloorx Vloq
 le Gloorx Vloq
 %%%%
@@ -251,7 +251,7 @@ le Gloorx Vloq
 the Geryon
 le Géryon
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 # Roman god of the underworld
 the Dispater
 le Dispater

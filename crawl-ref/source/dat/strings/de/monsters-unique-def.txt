@@ -16,14 +16,14 @@
 # Some uniques are gender-neutral in English. This is different to neuter.
 # (neuter -> it, gender neutral -> they). While German has neuter, it can't do
 # gender neutral, so in order to avoid calling people "it", we've used the
-# genders those monsters had in older versions of DCSS.
+# genders those monsters had in older versions of Crawl.
 
 %%%%
 # the name of several Christian saints (usually spelled Menas in English)
 the Mennas
 der Mennas
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 # a male centaur in Greek mythology
 the Nessos
 der Nessos
@@ -47,14 +47,14 @@ die Tiamat
 the Bai Suzhen
 die Bai Suzhen
 %%%%
-# gender neutral in English in DCSS, but was previously female
+# gender neutral in the English version of Crawl, but was previously female
 the Xtahua
 die Xtahua
 %%%%
 the Ijyb
 die Ijyb
 %%%%
-# gender neutral in English in DCSS, but was previously female
+# gender neutral in the English version of Crawl, but was previously female
 the Robin
 die Robin
 %%%%
@@ -67,7 +67,7 @@ die Duvessa
 the Dowan
 der Dowan
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Fannar
 der Fannar
 %%%%
@@ -88,7 +88,7 @@ der Asterion
 the Agnes
 die Agnes
 %%%%
-# gender neutral in English in DCSS, was previously male, but Dissolution is a feminine noun
+# gender neutral in the English version of Crawl, was previously male, but Dissolution is a feminine noun
 the Dissolution
 die Dissolution
 %%%%
@@ -124,7 +124,7 @@ die Urug
 the Nergalle
 die Nergalle
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Saint Roka
 der Sankt Roka
 %%%%
@@ -232,19 +232,19 @@ der Maurice
 the Nikola
 der Nikola
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Mnoleg
 der Mnoleg
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Lom Lobon
 der Lom Lobon
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Cerebov
 der Cerebov
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 the Gloorx Vloq
 der Gloorx Vloq
 %%%%
@@ -252,7 +252,7 @@ der Gloorx Vloq
 the Geryon
 der Geryon
 %%%%
-# gender neutral in English in DCSS, but was previously male
+# gender neutral in the English version of Crawl, but was previously male
 # Roman god of the underworld
 the Dispater
 der Dispater
