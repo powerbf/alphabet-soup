@@ -168,8 +168,7 @@ Xom revert other banishment
 
 Xom vous ramène au calme relatif du donjon.
 %%%%
-
-Xom améliore une arme d'un monstre hostile proche avec une marque de chaos
+#Xom améliore une arme d'un monstre hostile proche avec une marque de chaos
 Xom chaos upgrade
 
 Le pouvoir de Xom touche une arme à proximité.
@@ -391,7 +390,7 @@ w:20
 
 "C'est @_my_plaything_@, trouve-toi le tien !"
 
-"Laisse @_my_plaything_acc_@ tranquille !"
+"Laisse @_my_plaything_@ tranquille !"
 %%%%
 Xom boring death
 
@@ -414,8 +413,8 @@ Xom bâille bruyamment !
 w:1
 "Ce n'est ni un jeu ni une blague jusqu'à ce que quelqu'un perde un œil."
 %%%%
-Xom laughing
-(Currently only used post-game in response to "You die...")
+# Xom laughing
+# (Currently only used post-game in response to "You die...")
 Xom laughter
 
 Xom rit à en mourir !
@@ -445,19 +444,6 @@ Xom rit joyeusement !
 Xom glougloute !
 %%%%
 _my_plaything_
-
-# piety > 180 and > 80, respectively
-{{
-if you.piety_rank() > 4 then
-    return "mon ours en peluche"
-elseif you.piety_rank() > 2 then
-    return "mon jouet"
-else
-    return "mon objet de jeu"
-end
-}}
-%%%%
-_my_plaything_acc_
 
 # piety > 180 and > 80, respectively
 {{
@@ -565,7 +551,7 @@ Lugonu dit : Répands le carnage et la corruption !
 Lugonu newgame
 
 Lugonu dit : Quitte le gouffre et répands la ruine, mon serviteur !
-<lightgrey>(utilise F<w>a</w> le menu de sortie pour quitter le gouffre)</lightgrey>
+<lightgrey>(utilise le menu de sortie (<w>a</w>) pour quitter le gouffre)</lightgrey>
 %%%%
 Makhleb welcome
 
@@ -724,15 +710,15 @@ enfant impertinent
 %%%%
 _trout_species_
 
-Truite arc-en-ciel
+truite arc-en-ciel
 
-Truite fendue
+truite fendue
 
-Truite à gorge coupée
+truite à gorge coupée
 
-Truite taureau
+truite taureau
 
-Truite argentée
+truite argentée
 
 w:3
 @_trout_species_rare_@
