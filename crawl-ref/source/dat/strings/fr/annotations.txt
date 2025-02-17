@@ -6,132 +6,132 @@
 
 %%%%
 " (gone by now)"
-
+" (disparu maintenant)"
 %%%%
 " (skeletalised by now)"
-
+" (transformé en squelette maintenant)"
 %%%%
 " (curse)"
-
+" (maudit)"
 %%%%
 " (unknown)"
-
+" (inconnu)"
 %%%%
 " (inert)"
-
+" (inerte)"
 %%%%
 " (damnation)"
-
+" (damnation)"
 %%%%
 " (the Realm of Zot)"
-
+" (le Royaume de Zot)"
 %%%%
 god gift
-
+don divin
 %%%%
 Fragile
-
+Fragile
 %%%%
 branded
-
+marqué
 %%%%
 # for some reason, brands on armour are called egos
 ego
-
+ego
 %%%%
 two-handed
-
+à deux mains
 %%%%
 one-handed
-
+à une main
 %%%%
 willpower
-
+volonté
 %%%%
 
 # attribute +/-
 %%%%
 # strength
 Str
-
+For
 %%%%
 # dexterity
 Dex
-
+Dex
 %%%%
 # intelligence
 Int
-
+Int
 %%%%
 HP
-
+PV
 %%%%
 MP
-
+PM
 %%%%
 # armour class
 AC
-
+CA
 %%%%
 # evasion
 EV
-
+Es
 %%%%
 # shields
 SH
-
+Bo
 %%%%
 # stealth
 Stlth
-
+Dis
 %%%%
 
 # resistances +/-
 %%%%
 # fire
 rF
-
+rFe
 %%%%
 # cold
 rC
-
+rFr
 %%%%
 # negative energy
 rN
-
+rÉN
 %%%%
 # poison
 rPois
-
+rPois
 %%%%
 # corrosion
 rCorr
-
+rCorr
 %%%%
 # clarity (immunity to confusion, etc.)
 Clar
-
+Clar
 %%%%
 # torment
 rTorment
-
+rTourment
 %%%%
 # mutation
 rMut
-
+rMut
 %%%%
 rMiasma
-
+rMiasme
 %%%%
 rSteam
-
+rVapeur
 %%%%
 # will (magic resistance)
 Will
-
+Volonté
 %%%%
 dropped
-
+abandonné
 %%%%
 
 
@@ -139,40 +139,37 @@ dropped
 
 %%%%
 corrosion resistance
-
+résistance à la corrosion
 %%%%
-# magic resistance is an old name for will
 magic resistance
-
+résistance magique
 %%%%
 MR
-
-%%%%
-
+RM
 %%%%
 resist magic
-
+résister à la magie
 %%%%
 resist cold
-
+résister au froid
 %%%%
 resist corrosion
-
+résister à la corrosion
 %%%%
 resist electricity
-
+résister à l'électricité
 %%%%
 resist fire
-
+résister au feu
 %%%%
 resist mutation
-
+résister aux mutations
 %%%%
 resist negative energy
-
+résister à l'énergie négative
 %%%%
 resist poison
-
+résister au poison
 %%%%
 
 
@@ -180,190 +177,190 @@ resist poison
 %%%%
 # wizardry (reduces spell failure rate)
 Wiz
-
+Mag
 %%%%
 # blink ability
 +Blink
-
++Clignotement
 %%%%
 # invisibility ability
 +Inv
-
++Inv
 %%%%
 # see invisible
 SInv
-
+VoirInvis
 %%%%
 # alternative abbreviation for see invisible
 sInv
-
+VoirInvis
 %%%%
 # HP regeneration
 Regen
-
+RegenPV
 %%%%
 # MP regeneration
 RegenMP
-
+RegenPM
 %%%%
 # Extra move when moving towards enemy
 Rampage
-
+Charge
 %%%%
 Acrobat
-
+Acrobate
 %%%%
 # random rat summoning
 *Rats
-
+*Rats
 %%%%
 # berserk ability
 +Rage
-
++Rage
 %%%%
 
 # disadvantages
 %%%%
 # random involuntary berserking
 *Rage
-
+*Rage
 %%%%
 # no casting spells
 -Cast
-
+-Sorts
 %%%%
 # random noise
 *Noise
-
+*Bruit
 %%%%
 # random corrosion
 *Corrode
-
+*Corrosion
 %%%%
 # random slowing
 *Slow
-
+*Ralenti
 %%%%
 # random teleport
 *Tele
-
+*Télé
 %%%%
 
 # weapon brands
 %%%%
 flame
-
+flammes
 %%%%
 freeze
-
+gel
 %%%%
 holy
-
+sacré
 %%%%
 elec
-
+élec
 %%%%
 venom
-
+empoisonné
 %%%%
 protect
-
+protection
 %%%%
 drain
-
+drain
 %%%%
 speed
-
+vitesse
 %%%%
 vorpal
-
+tranchant
 %%%%
 vamp
-
+vamp
 %%%%
 pain
-
+douleur
 %%%%
 antimagic
-
+antimagie
 %%%%
 distort
-
+distorsion
 %%%%
 chaos
-
+chaos
 %%%%
 penet
-
+perforant
 %%%%
 reap
-
+faucheur
 %%%%
 # spectral
 spect
-
+spectral
 %%%%
 acid
-
+acide
 %%%%
 # accuracy
 Acc
-
+Précis
 %%%%
 
 # missile brands
 %%%%
 poison
-
+poison
 %%%%
 curare
-
+curare
 %%%%
 datura
-
+datura
 %%%%
 atropa
-
+atropa
 %%%%
 silver
 argent
 %%%%
 disperse
-
+dispersion
 %%%%
 # dragon/draconian slaying (Wyrmbane)
 slay drac
-
+tueur de dragons
 %%%%
 
 # armour egos
 %%%%
 ponderous
-
+lourd
 %%%%
 Fly
-
+Vol
 %%%%
 Archmagi
-
+Archimage
 %%%%
 reflect
-
+réflection
 %%%%
 Spirit
-
+Esprit
 %%%%
 archery
-
+archer
 %%%%
 repulsion
-
+répulsion
 %%%%
 harm
-
+dégâts
 %%%%
 shadows
-
+ombres
 %%%%
 
 #################################
@@ -371,109 +368,108 @@ shadows
 #################################
 %%%%
 " (melded)"
-
+" (fusionné)"
 %%%%
 " (weapon)"
-
+" (arme)"
 %%%%
 " (worn)"
-
+" (porté)"
 %%%%
-# yes, this is supposed to have leading AND trailing space
 " (carried) "
-
+" (transporté) "
 %%%%
 " (quivered)"
-
+" (armé)"
 %%%%
 " (quivered ammo)"
-
+" (munition armée)"
 %%%%
 Item in an invalid slot
-
+Objet dans un emplacement invalide
 %%%%
 
 # holding something that isn't a weapon
 %%%%
 " (in hand)"
-
+" (en main)"
 %%%%
 " (in claw)"
-
+" (dans la griffe)"
 %%%%
 " (in tentacle)"
-
+" (dans la tentacule)"
 %%%%
 # ...and can't grasp things
 # (I don't think it's actually possible to hold something in this situation, but the eventuality is handled in the code)
 " (in mouth)"
-
+" (dans la bouche)"
 %%%%
 
 # amulet slots
 %%%%
 " (around neck)"
-
+" (autour du cou)"
 %%%%
 # octopodes have a mantle rather than a neck
 " (around mantle)"
-
+" (autour du manteau)"
 %%%%
 
 # ring slots
 %%%%
 " (left hand)"
-
+" (main gauche)"
 %%%%
 " (right hand)"
-
+" (main droite)"
 %%%%
 " (left paw)"
-
+" (patte gauche)"
 %%%%
 " (right paw)"
-
+" (patte droite)"
 %%%%
 " (left claw)"
-
+" (griffe gauche)"
 %%%%
 " (right claw)"
-
+" (griffe droite)"
 %%%%
 " (left tentacle)"
-
+" (tentacule gauche)"
 %%%%
 " (right tentacle)"
-
+" (tentacule droite)"
 %%%%
 # octopode rings after the first two
 " (on tentacle)"
-
+" (sur le tentacule)"
 %%%%
 # the macabre finger amulet can wear a ring
 " (on amulet)"
-
+" (sur l'amulette)"
 %%%%
 # tree form
 " (left branch)"
-
+" (branche gauche)"
 %%%%
 " (right branch)"
-
+" (branche droite)"
 %%%%
 # spider form
 " (left front leg)"
-
+" (patte avant gauche)"
 %%%%
 " (right front leg)"
-
+" (patte avant droite)"
 %%%%
 # blade hands
 " (left blade hand)"
-
+" (main-lame gauche)"
 %%%%
 " (right blade hand)"
-
+" (main-lame droite)"
 %%%%
 
 #################################
@@ -481,14 +477,14 @@ Item in an invalid slot
 #################################
 %%%%
 " (under bush)"
-
+" (sous un buisson)"
 %%%%
 " (under plant)"
-
+" (sous une plante)"
 %%%%
 in_shop
-
+en_magasin
 %%%%
 inventory
-
+inventaire
 %%%%
