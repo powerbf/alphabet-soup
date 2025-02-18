@@ -19,7 +19,7 @@
 # genders those monsters had in older versions of Crawl.
 
 %%%%
-# the name of several Christian saints (usually spelled Menas in English)
+# probably a reference to one of several Christian saints named Menas
 the Mennas
 der Mennas
 %%%%
@@ -101,11 +101,11 @@ der Pikel
 the Boris
 der Boris
 %%%%
-# Egyptian Pharaoh
+# the original Egyptian name of the pharaoh also known by the Greek name Mykerinos
 the Menkaure
 der Menkaure
 %%%%
-# Egyptian Pharaoh
+# the original Egyptian name of the pharaoh usually known by the Greek name Cheops
 the Khufu
 der Khufu
 %%%%
@@ -210,6 +210,7 @@ die Frances
 the Rupert
 der Rupert
 %%%%
+# the original Greek name of the minor goddess usually known as Circe
 the Kirke
 die Kirke
 %%%%
