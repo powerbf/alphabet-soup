@@ -90,9 +90,10 @@ string Form::melding_description() const
     return "";
 }
 
-static const FormAttackVerbs DEFAULT_VERBS = FormAttackVerbs(FAV_DEFAULT);
-static const FormAttackVerbs ANIMAL_VERBS = FormAttackVerbs(FAV_HIT, FAV_BITE,
-                                                            FAV_MAUL, FAV_MAUL);
+static const FormAttackVerbs DEFAULT_VERBS = FormAttackVerbs(nullptr, nullptr,
+                                                             nullptr, nullptr);
+static const FormAttackVerbs ANIMAL_VERBS = FormAttackVerbs("hit", "bite",
+                                                            "maul", "maul");
 
 static const FormDuration DEFAULT_DURATION = FormDuration(20, PS_DOUBLE, 100);
 static const FormDuration BAD_DURATION = FormDuration(15, PS_ONE_AND_A_HALF,

@@ -124,6 +124,9 @@ SKIP_FILES = [
     'dgl-message.h', 'dgl-message.cc',
 ]
 
+form_attack_verbs = []
+medium_attack_verbs = []
+
 def replace_last(s, old, new):
     return new.join(s.rsplit(old, 1))
 
@@ -213,6 +216,112 @@ def process_art_data_txt():
             brand_desc = line.replace('DBRAND:', '').strip()
 
     return result
+
+def extract_strings(data):
+    strings = []
+    quotes = False
+    for c in data:
+        if c == '"':
+            if quotes:
+                quotes = False
+            else:
+                quotes = True
+                strings.append('')
+        elif quotes:
+            strings[-1] += c
+    return strings
+
+# split on commas, but not if they're inside quotes or brackets
+def safe_tokenize(string):
+    if len(string) == 0:
+        return []
+    fields = ['']
+    quotes = 0
+    curlies = 0
+    rounds = 0
+    for c in string:
+        if c == '{':
+            curlies += 1
+        elif c == '}':
+            curlies -= 1
+        elif c == '(':
+            rounds += 1
+        elif c == ')':
+            rounds -= 1
+        elif c == '"':
+            quotes = 1 if quotes == 0 else 0
+
+        if curlies < 0 or rounds < 0:
+            break
+
+        if c == ',' and quotes == 0 and curlies == 0 and rounds == 0:
+            # new field
+            fields.append('')
+        elif len(fields) > 0:
+            fields[-1] += c
+
+    for i in range(len(fields)):
+        fields[i] = fields[i].strip()
+
+    return fields
+
+def process_form_data_h(filename):
+    infile = open(filename)
+    data = infile.read()
+    infile.close()
+
+    line = data.splitlines()
+    form_data = []
+
+    # a line ending in backslash means the statement continues on the next line
+    ignore = True
+    brackets = 0
+    for line in line:
+        line = line.strip();
+        if 'formdata' in line:
+            ignore = False
+            continue
+        elif line.startswith('#if TAG_MAJOR_VERSION'):
+            ignore = True
+            continue
+        elif line.startswith('#endif'):
+            ignore = False
+            continue
+        elif ignore:
+            continue
+
+        # remove comment
+        line = re.sub(' *//.*$', '', line)
+
+        if line.startswith('transformation::'):
+            # start of a new entry
+            form_data.append('')
+
+        if len(form_data) > 0:
+            form_data[-1] += line
+
+    results = []
+    for form in form_data:
+        fields = safe_tokenize(form)
+        for i in range(len(fields)):
+            strings = extract_strings(fields[i])
+            if len(strings) == 0:
+                if 'ANIMAL_VERBS' in fields[i]:
+                    # TODO: remove hard-coding
+                    strings = ["hit", "bite", "maul", "maul"]
+                else:
+                    continue
+            if i == 23:
+                # attack verbs
+                form_attack_verbs.extend(strings)
+                if len(strings) > 1:
+                    medium_attack_verbs.append(strings[1])
+                else:
+                    medium_attack_verbs.append(strings[0])
+            else:
+                results.extend(strings)
+
+    return results
 
 def process_yaml_file(filename):
     MAIN_KEYS = ["name", "short_name", "adjective", "genus", "walking_verb", "altar_action"]
@@ -687,6 +796,38 @@ def ignore_string(string):
 
     return False
 
+# tokenize line into string and non-string
+def tokenize_cplusplus_line(line):
+    tokens = []
+    token = ""
+    escaped = False
+    in_string = False
+    for i in range(len(line)):
+        ch = line[i]
+        if ch == '"' and not escaped:
+            if in_string:
+                token += ch
+                tokens.append(token)
+                token = ""
+                in_string = False
+            else:
+                if token != "":
+                    tokens.append(token)
+                token = ch
+                in_string = True
+            continue
+
+        if ch == '\\' and not escaped:
+            escaped = True
+        else:
+            escaped = False
+
+        token += ch
+
+    if token != "":
+        tokens.append(token)
+
+    return tokens
 
 # extract strings from Lua line (can be enclosed in single or double quotes)
 # inclosing quotes are included in the results
@@ -1701,36 +1842,7 @@ def process_cplusplus_file(filename):
                 continue
 
 
-
-        # tokenize line into string and non-string
-        tokens = []
-        token = ""
-        escaped = False
-        in_string = False
-        for i in range(len(line)):
-            ch = line[i]
-            if ch == '"' and not escaped:
-                if in_string:
-                    token += ch
-                    tokens.append(token)
-                    token = ""
-                    in_string = False
-                else:
-                    if token != "":
-                        tokens.append(token)
-                    token = ch
-                    in_string = True
-                continue
-
-            if ch == '\\' and not escaped:
-                escaped = True
-            else:
-                escaped = False
-
-            token += ch
-
-        if token != "":
-            tokens.append(token)
+        tokens = tokenize_cplusplus_line(line)
 
         for i in range(len(tokens)):
             token = tokens[i]
@@ -2240,6 +2352,8 @@ for filename in files:
     strings = []
     if filename == 'art-data.txt':
         strings = process_art_data_txt()
+    elif filename == 'form-data.h':
+        strings = process_form_data_h(filename)
     elif filename.endswith('.yaml'):
         strings = process_yaml_file(filename)
     elif filename.endswith('.lua') or filename.endswith('.des'):
@@ -2298,6 +2412,15 @@ for filename in files:
             elif string.endswith(" Sword"):
                 # alternative names for Singing Sword based on mood
                 filtered_strings.append("the " + string)
+            elif "@attack@" in string and len(form_attack_verbs) > 0:
+                for verb in form_attack_verbs:
+                    filtered_strings.append(string.replace("@attack@", verb))
+            elif "@medium_attack@" in string and len(medium_attack_verbs) > 0:
+                for verb in medium_attack_verbs:
+                    filtered_strings.append(string.replace("@medium_attack@", verb))
+            elif "@Medium_attack@" in string and len(medium_attack_verbs) > 0:
+                for verb in medium_attack_verbs:
+                    filtered_strings.append(string.replace("@Medium_attack@", verb.capitalize()))
             else:
                 filtered_strings.append(string)
         strings = filtered_strings
