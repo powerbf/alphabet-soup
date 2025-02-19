@@ -37,6 +37,7 @@ marcado
 %%%%
 # for some reason, brands on armour are called egos
 ego
+ego
 %%%%
 two-handed
 de duas mãos
@@ -52,6 +53,7 @@ força de vontade
 %%%%
 # strength
 # força
+Str
 For
 %%%%
 # dexterity
@@ -98,7 +100,7 @@ Furt
 # fire
 # fogo
 rF
-rf
+rF
 %%%%
 # cold
 # frio
@@ -116,7 +118,7 @@ rPois
 rVen
 %%%%
 # corrosion
-# corrosão 
+# corrosão
 rCorr
 rCorr
 %%%%
@@ -153,7 +155,7 @@ deixou pra trás
 
 %%%%
 corrosion resistance
-resistência à corrosão 
+resistência à corrosão
 %%%%
 # magic resistance is an old name for will
 magic resistance
@@ -377,7 +379,9 @@ harm
 dano
 %%%%
 shadows
-sombras#################################
+sombras
+
+#################################
 # Item slots
 #################################
 %%%%
