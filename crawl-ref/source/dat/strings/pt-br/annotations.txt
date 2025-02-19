@@ -6,33 +6,43 @@
 
 %%%%
 " (gone by now)"
+" (já se foi)"
 
 %%%%
 " (skeletalised by now)"
+" (esqueletizado por agora)"
 
 %%%%
 " (curse)"
+" (maldição)"
 
 %%%%
 " (unknown)"
+" (desconhecido)"
 
 %%%%
 " (inert)"
+" (inerte)"
 
 %%%%
 " (damnation)"
+" (condenação)"
 
 %%%%
 " (the Realm of Zot)"
+" (o Reino de Zot)"
 
 %%%%
 god gift
+presente divino
 
 %%%%
 Fragile
+Frágil
 
 %%%%
 branded
+marcado
 
 %%%%
 # for some reason, brands on armour are called egos
@@ -40,97 +50,136 @@ ego
 
 %%%%
 two-handed
+de duas mãos
 
 %%%%
 one-handed
+de uma mão
 
 %%%%
 willpower
+força de vontade
 
 %%%%
 
 # attribute +/-
 %%%%
 # strength
-Str
+# força
+For
 
 %%%%
 # dexterity
+# destreza
 Dex
+Des
 
 %%%%
 # intelligence
+# inteligência
+Int
 Int
 
 %%%%
+# pontos de Vida
 HP
+PV
 
 %%%%
+# pontos de magia
 MP
+PM
 
 %%%%
 # armour class
+# classe de armadura
 AC
+CA
 
 %%%%
 # evasion
+# evasão
+EV
 EV
 
 %%%%
 # shields
+# escudo
 SH
+Esc
 
 %%%%
 # stealth
+# furtividade
 Stlth
+Furt
 
 %%%%
 
 # resistances +/-
 %%%%
 # fire
+# fogo
 rF
+rf
 
 %%%%
 # cold
+# frio
 rC
+rFri
 
 %%%%
 # negative energy
+# energia negativa
+rN
 rN
 
 %%%%
 # poison
+# veneno
 rPois
+rVen
 
 %%%%
 # corrosion
+# corrosão 
+rCorr
 rCorr
 
 %%%%
 # clarity (immunity to confusion, etc.)
 Clar
+Clar
 
 %%%%
 # torment
+rTorment
 rTorment
 
 %%%%
 # mutation
 rMut
+rMut
 
 %%%%
 rMiasma
+rMiasma
 
 %%%%
+# vapor
 rSteam
+rVap
 
 %%%%
 # will (magic resistance)
+# volição
 Will
+Voli
 
 %%%%
 dropped
+deixou pra trás
 
 %%%%
 
@@ -139,39 +188,50 @@ dropped
 
 %%%%
 corrosion resistance
+resistência à corrosão 
 
 %%%%
 # magic resistance is an old name for will
 magic resistance
+resistência mágica
 
 %%%%
 MR
+RM
 
 %%%%
 
 %%%%
 resist magic
+resistir magia
 
 %%%%
 resist cold
+resistir frio
 
 %%%%
 resist corrosion
+resistir corossão
 
 %%%%
 resist electricity
+resistir eletricidade
 
 %%%%
 resist fire
+resistir fogo
 
 %%%%
 resist mutation
+resistir mutação
 
 %%%%
 resist negative energy
+resistir energia negativa
 
 %%%%
 resist poison
+resistir veneno
 
 %%%%
 
@@ -180,45 +240,56 @@ resist poison
 %%%%
 # wizardry (reduces spell failure rate)
 Wiz
+Mag
 
 %%%%
 # blink ability
 +Blink
++Desloc
 
 %%%%
 # invisibility ability
 +Inv
++Invis
 
 %%%%
 # see invisible
 SInv
+VInv
 
 %%%%
 # alternative abbreviation for see invisible
 sInv
+vInv
 
 %%%%
 # HP regeneration
+Regen
 Regen
 
 %%%%
 # MP regeneration
 RegenMP
+RegenPM
 
 %%%%
 # Extra move when moving towards enemy
 Rampage
+Investida
 
 %%%%
 Acrobat
+Acrobata
 
 %%%%
 # random rat summoning
 *Rats
+*Ratos
 
 %%%%
 # berserk ability
 +Rage
++Fúria
 
 %%%%
 
@@ -226,253 +297,320 @@ Acrobat
 %%%%
 # random involuntary berserking
 *Rage
+*Fúria
 
 %%%%
 # no casting spells
 -Cast
+-SemMag
 
 %%%%
 # random noise
 *Noise
+*Ruído
 
 %%%%
 # random corrosion
 *Corrode
+*Corrosão
 
 %%%%
 # random slowing
 *Slow
+*Lentidão
 
 %%%%
 # random teleport
 *Tele
+*Teleporte
 
 %%%%
 
 # weapon brands
 %%%%
 flame
+chama
 
 %%%%
 freeze
+congelamento
 
 %%%%
 holy
+sagrado
 
 %%%%
 elec
+elétrico
 
 %%%%
 venom
+veneno
 
 %%%%
 protect
+proteção
 
 %%%%
 drain
+dreno
 
 %%%%
 speed
+velocidade
 
 %%%%
+vorpal
 vorpal
 
 %%%%
 vamp
+vampírico
 
 %%%%
 pain
+dor
 
 %%%%
 antimagic
+antimagia
 
 %%%%
 distort
+distorção
 
 %%%%
 chaos
+caos
 
 %%%%
 penet
+perfuração
 
 %%%%
 reap
+ceifa
 
 %%%%
 # spectral
 spect
+espectral
 
 %%%%
 acid
+ácido
 
 %%%%
 # accuracy
 Acc
+precisão
 
 %%%%
 
 # missile brands
 %%%%
 poison
+veneno
 
 %%%%
+curare
 curare
 
 %%%%
 datura
+datura
 
 %%%%
 atropa
+beladona
 
 %%%%
 silver
-argent
+prata
+
 %%%%
 disperse
+dispersão
 
 %%%%
 # dragon/draconian slaying (Wyrmbane)
 slay drac
+aniquilador de dragões
 
 %%%%
 
 # armour egos
 %%%%
 ponderous
+pesado
 
 %%%%
 Fly
+Voar
 
 %%%%
 Archmagi
+Arquimago
 
 %%%%
 reflect
+reflexão
 
 %%%%
 Spirit
+Espírito
 
 %%%%
 archery
+arquearia
 
 %%%%
 repulsion
+repulsão
 
 %%%%
 harm
+dano
 
 %%%%
 shadows
-
-%%%%
-
-#################################
+sombras#################################
 # Item slots
 #################################
 %%%%
 " (melded)"
+" (fundido)"
 
 %%%%
 " (weapon)"
+" (arma)"
 
 %%%%
 " (worn)"
+" (equipado)"
 
 %%%%
 # yes, this is supposed to have leading AND trailing space
 " (carried) "
+" (carregado) "
 
 %%%%
 " (quivered)"
+" (em aljava)"
 
 %%%%
 " (quivered ammo)"
+" (munição em aljava)"
 
 %%%%
 Item in an invalid slot
+Item em um slot inválido
 
 %%%%
 
 # holding something that isn't a weapon
 %%%%
 " (in hand)"
+" (na mão)"
 
 %%%%
 " (in claw)"
+" (na garra)"
 
 %%%%
 " (in tentacle)"
+" (no tentáculo)"
 
 %%%%
 # ...and can't grasp things
 # (I don't think it's actually possible to hold something in this situation, but the eventuality is handled in the code)
 " (in mouth)"
+" (na boca)"
+
 
 %%%%
 
 # amulet slots
 %%%%
 " (around neck)"
+" (em volta do pescoço)"
 
 %%%%
 # octopodes have a mantle rather than a neck
 " (around mantle)"
+" (em volta do manto)"
 
 %%%%
 
 # ring slots
 %%%%
 " (left hand)"
+" (mão esquerda)"
 
 %%%%
 " (right hand)"
+" (mão direita)"
 
 %%%%
 " (left paw)"
+" (pata esquerda)"
 
 %%%%
 " (right paw)"
+" (pata direita)"
 
 %%%%
 " (left claw)"
+" (garra esquerda)"
 
 %%%%
 " (right claw)"
+" (garra direita)"
 
 %%%%
 " (left tentacle)"
+" (tentáculo esquerdo)"
 
 %%%%
 " (right tentacle)"
+" (tentáculo direito)"
 
 %%%%
 # octopode rings after the first two
 " (on tentacle)"
+" (no tentáculo)"
 
 %%%%
 # the macabre finger amulet can wear a ring
 " (on amulet)"
+" (no amuleto)"
 
 %%%%
 # tree form
 " (left branch)"
+" (galho esquerdo)"
 
 %%%%
 " (right branch)"
+" (galho direito)"
 
 %%%%
 # spider form
 " (left front leg)"
+" (perna dianteira esquerda)"
 
 %%%%
 " (right front leg)"
+" (perna dianteira direita)"
 
 %%%%
 # blade hands
 " (left blade hand)"
+" (mão-lâmina esquerda)"
 
 %%%%
 " (right blade hand)"
+" (mão-lâmina direita)"
 
 %%%%
 
@@ -481,14 +619,18 @@ Item in an invalid slot
 #################################
 %%%%
 " (under bush)"
+" (sob arbusto)"
 
 %%%%
 " (under plant)"
+" (sob planta)"
 
 %%%%
 in_shop
+na_loja
 
 %%%%
 inventory
+inventário
 
 %%%%
