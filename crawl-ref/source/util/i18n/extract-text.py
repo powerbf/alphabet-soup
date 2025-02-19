@@ -318,6 +318,11 @@ def process_form_data_h(filename):
                     medium_attack_verbs.append(strings[1])
                 else:
                     medium_attack_verbs.append(strings[0])
+            elif i == 32:
+                # prayer action
+                if strings[0] != "":
+                    string = "You " + strings[0] + " the altar of %s."
+                    results.append(string)
             else:
                 results.extend(strings)
 
@@ -2421,6 +2426,11 @@ for filename in files:
             elif "@Medium_attack@" in string and len(medium_attack_verbs) > 0:
                 for verb in medium_attack_verbs:
                     filtered_strings.append(string.replace("@Medium_attack@", verb.capitalize()))
+            elif string == "kneel at":
+                # default prayer action
+                filtered_strings.append("You kneel at the altar of %s.")
+            elif string == "You %s the altar of %s.":
+                continue
             else:
                 filtered_strings.append(string)
         strings = filtered_strings
