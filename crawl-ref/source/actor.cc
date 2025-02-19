@@ -443,9 +443,9 @@ void actor::end_constriction(mid_t whom, bool intentional, bool quiet)
         //   b) we have to list all possibilities longform
         if (intentional)
         {
-            if (attacker_desc == "you")
+            if (is_player())
                 mprf("You release %s.", target.c_str());
-            else if (target == "you")
+            else if (constrictee->is_player())
                 if (force_plural)
                     mprf("%s release you.", attacker_desc.c_str());
                 else
@@ -458,9 +458,9 @@ void actor::end_constriction(mid_t whom, bool intentional, bool quiet)
         }
         else
         {
-            if (attacker_desc == "you")
+            if (is_player())
                 mprf("You lose hold of %s.", target.c_str());
-            else if (target == "you")
+            else if (constrictee->is_player())
                 if (force_plural)
                     mprf("%s lose hold of you.", attacker_desc.c_str());
                 else
