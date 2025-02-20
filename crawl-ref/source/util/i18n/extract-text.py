@@ -265,44 +265,50 @@ def safe_tokenize(string):
 
     return fields
 
+def remove_enclosing_curlies(string):
+    string = re.sub('^\{', '', string)
+    string = re.sub('\};?$', '', string)
+    return string
+
+# tokenize a C++ data file
+# Return an array of arrays, where each element in the outer array is an entry
+# and each element in the inner array is a field within that entry
+def tokenize_cplusplus_data_file(filename):
+    lazy = (filename in LAZY_FILES)
+
+    # remove comments and sections that are excluded by preprocessor directives
+    lines = get_cleaned_file_contents(filename)
+
+    data = ""
+    started = False
+
+    for line in lines:
+        if "static const" in line and "=" in line:
+            line = re.sub('^[^=]*=', '', line)
+            started = True
+        if not started:
+            continue
+        data += line.strip()
+
+    # remove enclosing curlies
+    data = remove_enclosing_curlies(data)
+
+    entries = safe_tokenize(data)
+    results = []
+    for e in entries:
+        e = remove_enclosing_curlies(e)
+        fields = safe_tokenize(e)
+        results.append(fields)
+        #print('# ' + ', '.join(fields))
+
+    return results
+
+
 def process_form_data_h(filename):
-    infile = open(filename)
-    data = infile.read()
-    infile.close()
-
-    line = data.splitlines()
-    form_data = []
-
-    # a line ending in backslash means the statement continues on the next line
-    ignore = True
-    brackets = 0
-    for line in line:
-        line = line.strip();
-        if 'formdata' in line:
-            ignore = False
-            continue
-        elif line.startswith('#if TAG_MAJOR_VERSION'):
-            ignore = True
-            continue
-        elif line.startswith('#endif'):
-            ignore = False
-            continue
-        elif ignore:
-            continue
-
-        # remove comment
-        line = re.sub(' *//.*$', '', line)
-
-        if line.startswith('transformation::'):
-            # start of a new entry
-            form_data.append('')
-
-        if len(form_data) > 0:
-            form_data[-1] += line
+    entries = tokenize_cplusplus_data_file(filename)
 
     results = []
-    for form in form_data:
-        fields = safe_tokenize(form)
+    for fields in entries:
         for i in range(len(fields)):
             strings = extract_strings(fields[i])
             if len(strings) == 0:
