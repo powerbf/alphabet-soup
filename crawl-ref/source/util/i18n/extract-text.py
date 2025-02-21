@@ -30,8 +30,7 @@ import sys
 # handles escaped double-quotes
 STRING_PATTERN = r'"(\\\\|\\"|[^"])*"'
 
-# prefix for Ru sacrifice messages
-RU_SAC_PREFIX = "Ru asks you to "
+RU_SACRIFICE_PREFIX = "Ru asks you to "
 
 # strings to ignore
 IGNORE_STRINGS = [
@@ -51,7 +50,8 @@ IGNORE_STRINGS = [
     # text colour tags
     'lightgrey', 'darkgrey', 'lightgreen', 'darkgreen', 'lightcyan', 'darkcyan',
     'lightred', 'darkred', 'lightmagenta', 'darkmagenta', 'lightyellow', 'darkyellow',
-    RU_SAC_PREFIX
+    # stuff that is used to build expanded strings
+    RU_SACRIFICE_PREFIX,
 ]
 
 # These files need special handling because they define data structures
@@ -343,13 +343,15 @@ def process_sacrifice_data_h(filename):
 
     results = []
     for fields in entries:
+        has_param = len(fields) > 6 and fields[6] != "nullptr"
         for i in range(len(fields)):
             strings = extract_strings(fields[i])
             if len(strings) == 0:
                 continue
             if i == 2:
                 # sacrifice message
-                string = RU_SAC_PREFIX + strings[0] + "."
+                string = RU_SACRIFICE_PREFIX + strings[0]
+                string += ": %s." if has_param else "."
                 results.append(string)
             else:
                 results.extend(strings)
