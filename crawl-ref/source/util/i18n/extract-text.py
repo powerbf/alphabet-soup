@@ -30,6 +30,9 @@ import sys
 # handles escaped double-quotes
 STRING_PATTERN = r'"(\\\\|\\"|[^"])*"'
 
+# prefix for Ru sacrifice messages
+RU_SAC_PREFIX = "Ru asks you to "
+
 # strings to ignore
 IGNORE_STRINGS = [
     'the', 'the ', ' the ',
@@ -47,7 +50,8 @@ IGNORE_STRINGS = [
     'Brand', 'BAcc', 'BDam', 'nupgr', 'cap-',
     # text colour tags
     'lightgrey', 'darkgrey', 'lightgreen', 'darkgreen', 'lightcyan', 'darkcyan',
-    'lightred', 'darkred', 'lightmagenta', 'darkmagenta', 'lightyellow', 'darkyellow'
+    'lightred', 'darkred', 'lightmagenta', 'darkmagenta', 'lightyellow', 'darkyellow',
+    RU_SAC_PREFIX
 ]
 
 # These files need special handling because they define data structures
@@ -329,6 +333,24 @@ def process_form_data_h(filename):
                 if strings[0] != "":
                     string = "You " + strings[0] + " the altar of %s."
                     results.append(string)
+            else:
+                results.extend(strings)
+
+    return results
+
+def process_sacrifice_data_h(filename):
+    entries = tokenize_cplusplus_data_file(filename)
+
+    results = []
+    for fields in entries:
+        for i in range(len(fields)):
+            strings = extract_strings(fields[i])
+            if len(strings) == 0:
+                continue
+            if i == 2:
+                # sacrifice message
+                string = RU_SAC_PREFIX + strings[0] + "."
+                results.append(string)
             else:
                 results.extend(strings)
 
@@ -2365,6 +2387,8 @@ for filename in files:
         strings = process_art_data_txt()
     elif filename == 'form-data.h':
         strings = process_form_data_h(filename)
+    elif filename == 'sacrifice-data.h':
+        strings = process_sacrifice_data_h(filename)
     elif filename.endswith('.yaml'):
         strings = process_yaml_file(filename)
     elif filename.endswith('.lua') or filename.endswith('.des'):

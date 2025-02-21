@@ -4591,6 +4591,7 @@ string ru_sacrifice_description(ability_type sac)
 
 bool ru_do_sacrifice(ability_type sac)
 {
+    static const string prefix = "Ru asks you to ";
     const sacrifice_def &sac_def = _get_sacrifice_def(sac);
     bool variable_sac;
     mutation_type mut = MUT_NON_MUTATION;
@@ -4633,7 +4634,8 @@ bool ru_do_sacrifice(ability_type sac)
             else
                 sac_text = mut_upgrade_summary(mut);
         }
-        offer_text = localise(sac_def.sacrifice_text, sac_text);
+        offer_text = prefix + sac_def.sacrifice_text + ".";
+        offer_text = localise(offer_text, sac_text);
         mile_text = make_stringf("%s: %s.", sac_def.milestone_text,
             sac_text.c_str());
         // @noloc section end
@@ -4644,13 +4646,14 @@ bool ru_do_sacrifice(ability_type sac)
         mut = sac_def.mutation;
         num_sacrifices = 1;
         string handtxt = "";
+        offer_text = prefix + sac_def.sacrifice_text + ".";
         if (sac == ABIL_RU_SACRIFICE_HAND)
         {
             handtxt = article_a(you.hand_name(false));
-            offer_text = localise(sac_def.sacrifice_text, handtxt);
+            offer_text = localise(offer_text, handtxt);
         }
         else
-            offer_text = localise(sac_def.sacrifice_text);
+            offer_text = localise(offer_text);
 
         mile_text = make_stringf("%s.", sac_def.milestone_text);
     }
