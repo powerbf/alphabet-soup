@@ -475,7 +475,7 @@ string Form::player_prayer_action() const
     // XXX: if we ever get a default-permaflying species again that wants to
     // have a separate verb, we'll want to check for that right here.
     if (you.airborne())
-        return "You hover solemnly before the altar of %s.";
+        return "hover solemnly before";
     // Otherwise, if you have a verb, use that...
     if (!prayer_action.empty())
         return prayer_action;

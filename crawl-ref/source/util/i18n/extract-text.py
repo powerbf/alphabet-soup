@@ -30,6 +30,7 @@ import sys
 # handles escaped double-quotes
 STRING_PATTERN = r'"(\\\\|\\"|[^"])*"'
 
+PRAY_SENTENCE = "You %s the altar of %s."
 RU_SACRIFICE_PREFIX = "Ru asks you to "
 
 # strings to ignore
@@ -52,6 +53,7 @@ IGNORE_STRINGS = [
     'lightred', 'darkred', 'lightmagenta', 'darkmagenta', 'lightyellow', 'darkyellow',
     # stuff that is used to build expanded strings
     RU_SACRIFICE_PREFIX,
+    PRAY_SENTENCE,
 ]
 
 # These files need special handling because they define data structures
@@ -331,7 +333,7 @@ def process_form_data_h(filename):
             elif i == 32:
                 # prayer action
                 if strings[0] != "":
-                    string = "You " + strings[0] + " the altar of %s."
+                    string = PRAY_SENTENCE.replace("%s", strings[0], 1)
                     results.append(string)
             else:
                 results.extend(strings)
@@ -397,6 +399,9 @@ def process_yaml_file(filename):
             if key == "walking_verb":
                 result.append(species["walking_verb"] + "ing")
                 result.append(species["walking_verb"] + "er")
+            elif key == "altar_action":
+                string = PRAY_SENTENCE.replace("%s", species[key], 1)
+                result.append(string)
             else:
                 result.append(species[key])
     result.extend(species["mutations"])
@@ -2458,10 +2463,11 @@ for filename in files:
             elif "@Medium_attack@" in string and len(medium_attack_verbs) > 0:
                 for verb in medium_attack_verbs:
                     filtered_strings.append(string.replace("@Medium_attack@", verb.capitalize()))
-            elif string == "kneel at":
+            elif string == "kneel at" or string == "hover solemnly before":
                 # default prayer action
-                filtered_strings.append("You kneel at the altar of %s.")
-            elif string == "You %s the altar of %s.":
+                string = PRAY_SENTENCE.replace("%s", string, 1)
+                filtered_strings.append(string)
+            elif string == PRAY_SENTENCE:
                 continue
             else:
                 filtered_strings.append(string)
