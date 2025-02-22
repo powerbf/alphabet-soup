@@ -1155,12 +1155,14 @@ You drain %s
 %s drains itself
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 You drain %s vigour!
 
 %%%%
 %s drains your vigour!
 
 %%%%
+# note: second %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s drains %s vigour!
 
 %%%%
@@ -1432,6 +1434,7 @@ You have difficulty breathing.
 The silver sears %s!
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s life force is offered up.
 
 %%%%
@@ -1651,9 +1654,11 @@ Your demonic guardian avoids your attack.
 %s is dispelled
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s mind is blasted
 
 %%%%
+# note: this is for monsters with multiple heads, and %s will be possessive (i.e. "the hydra's")
 %s minds are blasted
 
 %%%%
@@ -1690,6 +1695,7 @@ Your demonic guardian avoids your attack.
 %s is firmly anchored in space.
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s willpower is stripped away.
 
 %%%%
@@ -1702,6 +1708,7 @@ Your demonic guardian avoids your attack.
 %s seems less confident about using magic.
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s magic leaks into the air.
 
 %%%%
@@ -2383,7 +2390,7 @@ You start removing your armour.
 You start memorising the spell.
 
 %%%%
-# Passwall spell - prpearing to merge oneself with the wall
+# Passwall spell - preparing to merge oneself with the wall
 You begin to meditate on the wall.
 
 %%%%
@@ -9739,6 +9746,7 @@ The forest calms down.
 %s loses the glow of perfection.
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s soul is no longer bound.
 
 %%%%
@@ -9810,6 +9818,7 @@ The winds around %s start to calm down.
 %s is seared!
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s chant is interrupted.
 
 %%%%
@@ -9819,6 +9828,7 @@ The winds around %s start to calm down.
 The winds around %s calm down.
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s song is interrupted.
 
 %%%%
