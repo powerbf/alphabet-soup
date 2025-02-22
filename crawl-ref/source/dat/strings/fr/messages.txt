@@ -11907,15 +11907,26 @@ You reach down and open %s.
 You open %s.
 
 %%%%
+# the following two strings are used in the "unable to close" messages
+the doorway
+
+%%%%
+the gateway
+
+%%%%
+# invisible monster prevents closing of door/gate
 Something is blocking %s!
 
 %%%%
+# visible monster prevents closing of door/gate
 There's a creature in %s!
 
 %%%%
+# items in doorway/gateway and there's nowhere to push them to
 There's something jamming %s.
 
 %%%%
+# player is standing in door/gate while trying to close it
 There's a thick-headed creature in %s!
 
 %%%%

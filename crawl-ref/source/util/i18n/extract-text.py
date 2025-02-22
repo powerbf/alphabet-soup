@@ -2266,6 +2266,9 @@ for filename in files:
             elif filename == 'species-data.h' and string == "Yak":
                 # error condition
                 continue
+            elif filename == 'player.cc' and string == "%sway":
+                filtered_strings.append("the doorway")
+                filtered_strings.append("the gateway")
             elif string == "Walk":
                 # species walk verb and associated noun
                 filtered_strings.append(string + "ing")
