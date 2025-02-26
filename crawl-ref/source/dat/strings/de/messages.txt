@@ -11917,17 +11917,28 @@ Du greifst nach unten und öffnest {acc}%s.
 You open %s.
 Du öffnest {acc}%s.
 %%%%
+# the following two strings are used in the "unable to close" messages
+the doorway
+die Tür
+%%%%
+the gateway
+das Tor
+%%%%
+# invisible monster prevents closing of door/gate
 Something is blocking %s!
 Etwas blockiert {acc}%s!
 %%%%
+# visible monster prevents closing of door/gate
 There's a creature in %s!
 Da ist eine Kreatur in {dat}%s!
 %%%%
+# items in doorway/gateway and there's nowhere to push them to
 There's something jamming %s.
-Es gibt etwas, das {acc}%s stört.
+Etwas verstopft {acc}%s.
 %%%%
+# player is standing in door/gate while trying to close it
 There's a thick-headed creature in %s!
-Da ist eine dickköpfige Kreatur in {dat}%s!
+Da ist eine dämliche Kreatur in {dat}%s!
 %%%%
 You slam %s shut!
 Du knallst {acc}%s zu!
