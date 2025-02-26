@@ -11919,10 +11919,10 @@ Du öffnest {acc}%s.
 %%%%
 # the following two strings are used in the "unable to close" messages
 the doorway
-die Türgang
+die Tür
 %%%%
 the gateway
-die Türgang
+das Tor
 %%%%
 # invisible monster prevents closing of door/gate
 Something is blocking %s!
