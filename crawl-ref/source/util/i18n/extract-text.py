@@ -30,6 +30,9 @@ import sys
 # handles escaped double-quotes
 STRING_PATTERN = r'"(\\\\|\\"|[^"])*"'
 
+PRAY_SENTENCE = "You %s the altar of %s."
+RU_SACRIFICE_PREFIX = "Ru asks you to "
+
 # strings to ignore
 IGNORE_STRINGS = [
     'the', 'the ', ' the ',
@@ -47,7 +50,10 @@ IGNORE_STRINGS = [
     'Brand', 'BAcc', 'BDam', 'nupgr', 'cap-',
     # text colour tags
     'lightgrey', 'darkgrey', 'lightgreen', 'darkgreen', 'lightcyan', 'darkcyan',
-    'lightred', 'darkred', 'lightmagenta', 'darkmagenta', 'lightyellow', 'darkyellow'
+    'lightred', 'darkred', 'lightmagenta', 'darkmagenta', 'lightyellow', 'darkyellow',
+    # stuff that is used to build expanded strings
+    RU_SACRIFICE_PREFIX,
+    PRAY_SENTENCE,
 ]
 
 # These files need special handling because they define data structures
@@ -123,6 +129,9 @@ SKIP_FILES = [
     # simple messaging - I don't think this is actually used, even though it's built into webtiles
     'dgl-message.h', 'dgl-message.cc',
 ]
+
+form_attack_verbs = []
+medium_attack_verbs = []
 
 def replace_last(s, old, new):
     return new.join(s.rsplit(old, 1))
@@ -214,6 +223,143 @@ def process_art_data_txt():
 
     return result
 
+def extract_strings(data):
+    strings = []
+    quotes = False
+    for c in data:
+        if c == '"':
+            if quotes:
+                quotes = False
+            else:
+                quotes = True
+                strings.append('')
+        elif quotes:
+            strings[-1] += c
+    return strings
+
+# split on commas, but not if they're inside quotes or brackets
+def safe_tokenize(string):
+    if len(string) == 0:
+        return []
+    fields = ['']
+    quotes = 0
+    curlies = 0
+    rounds = 0
+    for c in string:
+        if c == '{':
+            curlies += 1
+        elif c == '}':
+            curlies -= 1
+        elif c == '(':
+            rounds += 1
+        elif c == ')':
+            rounds -= 1
+        elif c == '"':
+            quotes = 1 if quotes == 0 else 0
+
+        if curlies < 0 or rounds < 0:
+            break
+
+        if c == ',' and quotes == 0 and curlies == 0 and rounds == 0:
+            # new field
+            fields.append('')
+        elif len(fields) > 0:
+            fields[-1] += c
+
+    for i in range(len(fields)):
+        fields[i] = fields[i].strip()
+
+    return fields
+
+def remove_enclosing_curlies(string):
+    string = re.sub('^\{', '', string)
+    string = re.sub('\};?$', '', string)
+    return string
+
+# tokenize a C++ data file
+# Return an array of arrays, where each element in the outer array is an entry
+# and each element in the inner array is a field within that entry
+def tokenize_cplusplus_data_file(filename):
+    lazy = (filename in LAZY_FILES)
+
+    # remove comments and sections that are excluded by preprocessor directives
+    lines = get_cleaned_file_contents(filename)
+
+    data = ""
+    started = False
+
+    for line in lines:
+        if "static const" in line and "=" in line:
+            line = re.sub('^[^=]*=', '', line)
+            started = True
+        if not started:
+            continue
+        data += line.strip()
+
+    # remove enclosing curlies
+    data = remove_enclosing_curlies(data)
+
+    entries = safe_tokenize(data)
+    results = []
+    for e in entries:
+        e = remove_enclosing_curlies(e)
+        fields = safe_tokenize(e)
+        results.append(fields)
+        #print('# ' + ', '.join(fields))
+
+    return results
+
+
+def process_form_data_h(filename):
+    entries = tokenize_cplusplus_data_file(filename)
+
+    results = []
+    for fields in entries:
+        for i in range(len(fields)):
+            strings = extract_strings(fields[i])
+            if len(strings) == 0:
+                if 'ANIMAL_VERBS' in fields[i]:
+                    # TODO: remove hard-coding
+                    strings = ["hit", "bite", "maul", "maul"]
+                else:
+                    continue
+            if i == 23:
+                # attack verbs
+                form_attack_verbs.extend(strings)
+                if len(strings) > 1:
+                    medium_attack_verbs.append(strings[1])
+                else:
+                    medium_attack_verbs.append(strings[0])
+            elif i == 32:
+                # prayer action
+                if strings[0] != "":
+                    string = PRAY_SENTENCE.replace("%s", strings[0], 1)
+                    results.append(string)
+            else:
+                results.extend(strings)
+
+    return results
+
+def process_sacrifice_data_h(filename):
+    entries = tokenize_cplusplus_data_file(filename)
+
+    results = []
+    for fields in entries:
+        has_param = len(fields) > 6 and fields[6] != "nullptr"
+        for i in range(len(fields)):
+            strings = extract_strings(fields[i])
+            if len(strings) == 0:
+                continue
+            if i == 2:
+                # sacrifice message
+                string = RU_SACRIFICE_PREFIX + strings[0]
+                string += ": %s." if has_param else "."
+                results.append(string)
+            else:
+                results.extend(strings)
+
+    return results
+
 def process_yaml_file(filename):
     MAIN_KEYS = ["name", "short_name", "adjective", "genus", "walking_verb", "altar_action"]
 
@@ -253,6 +399,9 @@ def process_yaml_file(filename):
             if key == "walking_verb":
                 result.append(species["walking_verb"] + "ing")
                 result.append(species["walking_verb"] + "er")
+            elif key == "altar_action":
+                string = PRAY_SENTENCE.replace("%s", species[key], 1)
+                result.append(string)
             else:
                 result.append(species[key])
     result.extend(species["mutations"])
@@ -687,6 +836,38 @@ def ignore_string(string):
 
     return False
 
+# tokenize line into string and non-string
+def tokenize_cplusplus_line(line):
+    tokens = []
+    token = ""
+    escaped = False
+    in_string = False
+    for i in range(len(line)):
+        ch = line[i]
+        if ch == '"' and not escaped:
+            if in_string:
+                token += ch
+                tokens.append(token)
+                token = ""
+                in_string = False
+            else:
+                if token != "":
+                    tokens.append(token)
+                token = ch
+                in_string = True
+            continue
+
+        if ch == '\\' and not escaped:
+            escaped = True
+        else:
+            escaped = False
+
+        token += ch
+
+    if token != "":
+        tokens.append(token)
+
+    return tokens
 
 # extract strings from Lua line (can be enclosed in single or double quotes)
 # inclosing quotes are included in the results
@@ -1701,36 +1882,7 @@ def process_cplusplus_file(filename):
                 continue
 
 
-
-        # tokenize line into string and non-string
-        tokens = []
-        token = ""
-        escaped = False
-        in_string = False
-        for i in range(len(line)):
-            ch = line[i]
-            if ch == '"' and not escaped:
-                if in_string:
-                    token += ch
-                    tokens.append(token)
-                    token = ""
-                    in_string = False
-                else:
-                    if token != "":
-                        tokens.append(token)
-                    token = ch
-                    in_string = True
-                continue
-
-            if ch == '\\' and not escaped:
-                escaped = True
-            else:
-                escaped = False
-
-            token += ch
-
-        if token != "":
-            tokens.append(token)
+        tokens = tokenize_cplusplus_line(line)
 
         for i in range(len(tokens)):
             token = tokens[i]
@@ -2240,6 +2392,10 @@ for filename in files:
     strings = []
     if filename == 'art-data.txt':
         strings = process_art_data_txt()
+    elif filename == 'form-data.h':
+        strings = process_form_data_h(filename)
+    elif filename == 'sacrifice-data.h':
+        strings = process_sacrifice_data_h(filename)
     elif filename.endswith('.yaml'):
         strings = process_yaml_file(filename)
     elif filename.endswith('.lua') or filename.endswith('.des'):
@@ -2301,6 +2457,21 @@ for filename in files:
             elif string.endswith(" Sword"):
                 # alternative names for Singing Sword based on mood
                 filtered_strings.append("the " + string)
+            elif "@attack@" in string and len(form_attack_verbs) > 0:
+                for verb in form_attack_verbs:
+                    filtered_strings.append(string.replace("@attack@", verb))
+            elif "@medium_attack@" in string and len(medium_attack_verbs) > 0:
+                for verb in medium_attack_verbs:
+                    filtered_strings.append(string.replace("@medium_attack@", verb))
+            elif "@Medium_attack@" in string and len(medium_attack_verbs) > 0:
+                for verb in medium_attack_verbs:
+                    filtered_strings.append(string.replace("@Medium_attack@", verb.capitalize()))
+            elif string == "kneel at" or string == "hover solemnly before":
+                # default prayer action
+                string = PRAY_SENTENCE.replace("%s", string, 1)
+                filtered_strings.append(string)
+            elif string == PRAY_SENTENCE:
+                continue
             else:
                 filtered_strings.append(string)
         strings = filtered_strings

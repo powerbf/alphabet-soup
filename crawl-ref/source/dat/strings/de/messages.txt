@@ -8029,11 +8029,11 @@ Du bestrafst {acc}%s und verursachst immensen Schmerz
 You devastate %s
 Du verwüstest {acc}%s
 %%%%
-You shred %s
-Du zerreißt {acc}%s
-%%%%
 You maul %s
 Du zerfleischst {acc}%s
+%%%%
+You shred %s
+Du zerreißt {acc}%s
 %%%%
 You smack %s
 Du haust {acc}%s
@@ -8049,15 +8049,6 @@ Du hüllst {acc}%s ein
 %%%%
 You release spores at %s
 Du setzt Sporen auf {dat}%s frei
-%%%%
-You nip at %s
-Du kneifst {acc}%s
-%%%%
-You gouge %s
-Du meißelst {acc}%s
-%%%%
-You chomp %s
-Du kaust {acc}%s
 %%%%
 You buffet %s
 Du rüttelst {acc}%s
@@ -12196,52 +12187,45 @@ Leer
 "Bite: "
 "Beißen: "
 %%%%
-"Confused bite: "
-"Verwirrt beißen: "
-%%%%
-"Claw: "
-"Zerkratzen: "
-%%%%
-"Confused claw: "
-"Verwirrt zerkratzen: "
-%%%%
-"Touch: "
-"Berühren: "
-%%%%
-"Confused touch: "
-"Verwirrt berühren: "
-%%%%
-# note: Wisp form attack
-"Engulf: "
-"Umhüllen: "
-%%%%
-"Confused engulf: "
-"Verwirrt umhüllen: "
-%%%%
-"Release spores: "
-"Sporen freisetzen: "
-%%%%
-"Confused release spores: "
-"Verwirrt Sporen freisetzen: "
-%%%%
 "Slash: "
 "Schlagen: "
 %%%%
-"Confused slash: "
-"Verwirrt schlagen: "
+"Claw: "
+"Zerkratzen: "
 %%%%
 # note: Tree form attack
 "Smack: "
 "Prügeln: "
 %%%%
+"Touch: "
+"Berühren: "
+%%%%
+"Release spores at: "
+"Sporen freisetzen auf: "
+%%%%
+"Buffet: "
+"Rütteln: "
+%%%%
+"Confused bite: "
+"Verwirrt beißen: "
+%%%%
+"Confused slash: "
+"Verwirrt schlagen: "
+%%%%
+"Confused claw: "
+"Verwirrt zerkratzen: "
+%%%%
 "Confused smack: "
 "Verwirrt prügeln: "
 %%%%
-"Hit: "
-"Schlagen: "
+"Confused touch: "
+"Verwirrt berühren: "
 %%%%
-"Confused hit: "
-"Verwirrt schlagen: "
+"Confused release spores at: "
+"Verwirrt Sporen freisetzen auf: "
+%%%%
+"Confused buffet: "
+"Verwirrt rütteln: "
 %%%%
 "Attack: "
 "Attackieren: "
@@ -12278,6 +12262,12 @@ Leer
 %%%%
 "Confused cleave: "
 "Verwirrt spalten: "
+%%%%
+"Hit: "
+"Schlagen: "
+%%%%
+"Confused hit: "
+"Verwirrt schlagen: "
 %%%%
 You nearly hit yourself!
 Du hast dich fast selbst geschlagen!

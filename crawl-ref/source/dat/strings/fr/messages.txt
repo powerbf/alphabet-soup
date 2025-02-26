@@ -8029,10 +8029,10 @@ You punish %s, causing immense pain
 You devastate %s
 
 %%%%
-You shred %s
+You maul %s
 
 %%%%
-You maul %s
+You shred %s
 
 %%%%
 You smack %s
@@ -8048,15 +8048,6 @@ You engulf %s
 
 %%%%
 You release spores at %s
-
-%%%%
-You nip at %s
-
-%%%%
-You gouge %s
-
-%%%%
-You chomp %s
 
 %%%%
 You buffet %s
@@ -12196,51 +12187,44 @@ Empty
 "Bite: "
 
 %%%%
-"Confused bite: "
-
-%%%%
-"Claw: "
-
-%%%%
-"Confused claw: "
-
-%%%%
-"Touch: "
-
-%%%%
-"Confused touch: "
-
-%%%%
-# note: Wisp form attack
-"Engulf: "
-
-%%%%
-"Confused engulf: "
-
-%%%%
-"Release spores: "
-
-%%%%
-"Confused release spores: "
-
-%%%%
 "Slash: "
 
 %%%%
-"Confused slash: "
+"Claw: "
 
 %%%%
 # note: Tree form attack
 "Smack: "
 
 %%%%
+"Touch: "
+
+%%%%
+"Release spores at: "
+
+%%%%
+"Buffet: "
+
+%%%%
+"Confused bite: "
+
+%%%%
+"Confused slash: "
+
+%%%%
+"Confused claw: "
+
+%%%%
 "Confused smack: "
 
 %%%%
-"Hit: "
+"Confused touch: "
 
 %%%%
-"Confused hit: "
+"Confused release spores at: "
+
+%%%%
+"Confused buffet: "
 
 %%%%
 "Attack: "
@@ -12277,6 +12261,12 @@ Empty
 
 %%%%
 "Confused cleave: "
+
+%%%%
+"Hit: "
+
+%%%%
+"Confused hit: "
 
 %%%%
 You nearly hit yourself!

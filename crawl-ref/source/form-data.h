@@ -79,7 +79,7 @@ static const form_entry formdata[] =
     2, 0, 0, true, 10, true, 5,
     SPWPN_VENOM, LIGHTGREEN, "Fangs", ANIMAL_VERBS,
     FC_DEFAULT, FC_FORBID, FC_FORBID, false,
-    "hiss", -4, "front leg", "", "You crawl onto the altar of %s.", "flesh",
+    "hiss", -4, "front leg", "", "crawl onto", "flesh",
     { {"venomous fangs", "You have poisonous fangs."},
       {"", "You are tiny and dextrous."} // short-form "tiny" is automatically added
     }
@@ -90,7 +90,7 @@ static const form_entry formdata[] =
     EQF_HANDS, MR_NO_FLAGS,
     FormDuration(10, PS_SINGLE, 100), 0, 0, SIZE_CHARACTER, 10,
     0, 0, 0, true, 20, true, 22,
-    SPWPN_NORMAL, RED, "", { FAV_HIT, FAV_SLASH, FAV_SLICE, FAV_SHRED },
+    SPWPN_NORMAL, RED, "", { "hit", "slash", "slice", "shred" },
     FC_DEFAULT, FC_DEFAULT, FC_DEFAULT, true,
     "", 0, "", "", "", "",
     {}
@@ -103,7 +103,7 @@ static const form_entry formdata[] =
     20, 12, 0, true, 0, true, 12,
     SPWPN_NORMAL, LIGHTGREY, "", DEFAULT_VERBS,
     FC_DEFAULT, FC_FORBID, FC_FORBID, true,
-    "", 0, "", "", "You place yourself before the altar of %s.", "stone",
+    "", 0, "", "", "place yourself before", "stone",
     { { "slow and powerful", "Your actions are slow, but your melee attacks are powerful." },
       { "torment resistance 1", "You are resistant to unholy torment." } // same as MUT_TORMENT_RESISTANCE
     }
@@ -116,7 +116,7 @@ static const form_entry formdata[] =
     5, 12, 0, true, 0, true, 12,
     SPWPN_FREEZING, WHITE, "", DEFAULT_VERBS,
     FC_DEFAULT, FC_ENABLE, FC_FORBID, false,
-    "", 0, "front paw", "paw", "You bow your head before the altar of %s.", "ice",
+    "", 0, "front paw", "paw", "bow your head before", "ice",
     { { "freezing attack", "You have a powerful freezing melee attack."} }
 },
 
@@ -126,9 +126,9 @@ static const form_entry formdata[] =
     EQF_PHYSICAL, MR_RES_POISON,
     DEFAULT_DURATION, 10, 0, SIZE_GIANT, 15,
     16, 0, 0, true, 0, true, 32,
-    SPWPN_NORMAL, GREEN, "Teeth and claws", { FAV_HIT, FAV_CLAW, FAV_BITE, FAV_MAUL },
+    SPWPN_NORMAL, GREEN, "Teeth and claws", { "hit", "claw", "bite", "maul" },
     FC_ENABLE, FC_FORBID, FC_ENABLE, false,
-    "roar", 6, "foreclaw", "", "You bow your head before the altar of %s.", "flesh",
+    "roar", 6, "foreclaw", "", "bow your head before", "flesh",
     { { "dragon claw", "You have a powerful clawing attack." },
       { "dragon scales", "Your giant scaled body is strong and resiliant, but less evasive." },
     }
@@ -157,7 +157,7 @@ static const form_entry formdata[] =
     0, 0, 0, false, 0, true, 1,
     SPWPN_NORMAL, LIGHTGREY, "Teeth", ANIMAL_VERBS,
     FC_ENABLE, FC_FORBID, FC_ENABLE, false,
-    "squeak", -8, "foreclaw", "", "You perch on the altar of %s.", "flesh",
+    "squeak", -8, "foreclaw", "", "perch on", "flesh",
     {
       {"", "You are tiny and dextrous."} // short-form "tiny" is automatically added
     }
@@ -171,7 +171,7 @@ static const form_entry formdata[] =
     0, 0, 0, false, 0, false, 3,
     SPWPN_NORMAL, LIGHTGREY, "Teeth", ANIMAL_VERBS,
     FC_DEFAULT, FC_FORBID, FC_ENABLE, false,
-    "squeal", 0, "front trotter", "trotter", "You bow your head before the altar of %s.", "flesh",
+    "squeal", 0, "front trotter", "trotter", "bow your head before", "flesh",
     {} // XX UC penalty?
 },
 
@@ -193,9 +193,9 @@ static const form_entry formdata[] =
     EQF_LEAR | SLOTF(EQ_CLOAK), MR_RES_POISON | mrd(MR_RES_NEG, 3),
     BAD_DURATION, 0, 0, SIZE_CHARACTER, 15,
     20, 0, 50, true, 0, true, 12,
-    SPWPN_NORMAL, BROWN, "Branches", { FAV_HIT, FAV_SMACK, FAV_PUMMEL, FAV_THRASH },
+    SPWPN_NORMAL, BROWN, "Branches", { "hit", "smack", "pummel", "thrash" },
     FC_FORBID, FC_FORBID, FC_FORBID, false,
-    "creak", 0, "branch", "root", "You sway towards the altar of %s.", "wood",
+    "creak", 0, "branch", "root", "sway towards", "wood",
     {
         { "stationary", "Your roots penetrate the ground, keeping you stationary." },
         { "stasis", "You cannot be teleported."},
@@ -212,7 +212,7 @@ static const form_entry formdata[] =
     0, 0, 0, false, 0, false, 3,
     SPWPN_NORMAL, LIGHTGREY, "Teeth", ANIMAL_VERBS,
     FC_DEFAULT, FC_FORBID, FC_ENABLE, false,
-    "squeak", -8, "front leg", "", "You curl into a sanctuary of spikes before the altar of %s.", "flesh",
+    "squeak", -8, "front leg", "", "curl into a sanctuary of spikes before", "flesh",
     {}
 },
 #endif
@@ -225,10 +225,10 @@ static const form_entry formdata[] =
              | MR_RES_PETRIFY,
     BAD_DURATION, 0, 0, SIZE_TINY, 10,
     5, 0, 50, false, 0, true, 5,
-    SPWPN_NORMAL, LIGHTGREY, "Misty tendrils", { FAV_TOUCH, FAV_TOUCH,
-                                                 FAV_ENGULF, FAV_ENGULF },
+    SPWPN_NORMAL, LIGHTGREY, "Misty tendrils", { "touch", "touch",
+                                                 "engulf", "engulf" },
     FC_ENABLE, FC_FORBID, FC_FORBID, false,
-    "whoosh", -8, "misty tendril", "strand", "You swirl around the altar of %s.", "vapour",
+    "whoosh", -8, "misty tendril", "strand", "swirl around", "vapour",
     {
         {"insubstial", "Your tiny insubstantial body is highly resistant to most damage types." },
     }
@@ -254,9 +254,9 @@ static const form_entry formdata[] =
     EQF_PHYSICAL, MR_RES_POISON | mrd(MR_RES_NEG, 3),
     BAD_DURATION, 0, 0, SIZE_TINY, 10,
     12, 0, 0, false, 0, true, 12,
-    SPWPN_CONFUSE, BROWN, "Spores", FormAttackVerbs(FAV_RELEASE_SPORES_AT),
+    SPWPN_CONFUSE, BROWN, "Spores", FormAttackVerbs("release spores at"),
     FC_DEFAULT, FC_FORBID, FC_FORBID, false,
-    "sporulate", -8, "hypha", "", "You release spores on the altar of %s.", "flesh",
+    "sporulate", -8, "hypha", "", "release spores on", "flesh",
     {
         {"", "You are tiny and evasive." },
         {"melee confuse", "Your melee attack releases spores that confuse breathing creatures."},
@@ -290,9 +290,9 @@ static const form_entry formdata[] =
     EQF_PHYSICAL, MR_RES_POISON,
     DEFAULT_DURATION, 0, 0, SIZE_BIG, 13,
     6, 5, 0, true, 0, true, -1,
-    SPWPN_NORMAL, GREEN, "", { FAV_NIP_AT, FAV_BITE, FAV_GOUGE, FAV_CHOMP },
+    SPWPN_NORMAL, GREEN, "", { "nip at", "bite", "gouge", "chomp" },
     FC_DEFAULT, FC_ENABLE, FC_ENABLE, false,
-    "roar", 4, "foreclaw", "", "You bow your heads before the altar of %s.", "flesh",
+    "roar", 4, "foreclaw", "", "bow your heads before", "flesh",
     { { "fast swimmer", "You swim very quickly." },
       { "devour", "You can devour living enemies to heal." }
     }
@@ -305,9 +305,9 @@ static const form_entry formdata[] =
     EQF_PHYSICAL, MR_RES_ELEC | MR_RES_PETRIFY,
     DEFAULT_DURATION, 0, 0, SIZE_CHARACTER, 10,
     10, 10, 0, true, 0, true, -1,
-    SPWPN_ELECTROCUTION, LIGHTCYAN, "Storm fists", { FAV_HIT, FAV_BUFFET, FAV_BATTER, FAV_BLAST },
+    SPWPN_ELECTROCUTION, LIGHTCYAN, "Storm fists", { "hit", "buffet", "batter", "blast" },
     FC_ENABLE, FC_DEFAULT, FC_FORBID, false,
-    "bellow", 0, "", "", "You place yourself before the altar of %s.", "air",
+    "bellow", 0, "", "", "place yourself before", "air",
     { { "cleaving", "Your stormy fists strike out in all directions at once." },
       { "", "You are incredibly evasive." }
     }

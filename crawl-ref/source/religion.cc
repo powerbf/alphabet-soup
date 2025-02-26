@@ -3903,8 +3903,12 @@ void god_pitch(god_type which_god)
         mpr("You bow before the missionary of Beogh.");
     else
     {
-        mprf(get_form()->player_prayer_action().c_str(),
-             god_name(which_god).c_str());
+        // i18n: Having the action as a parameter isn't going to work, because
+        // it actually changes the whole structure of the sentence, so we
+        // insert it into the format string before calling mprf.
+        string msg = "You %s the altar of %s.";
+        msg = replace_first(msg, "%s", get_form()->player_prayer_action());
+        mprf(msg.c_str(), god_name(which_god).c_str());
     }
     // these are included in default force_more_message
 

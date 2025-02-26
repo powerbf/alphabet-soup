@@ -1615,40 +1615,19 @@ string melee_attack::player_attack_message(int damage)
     case -1: // unarmed
     {
         const FormAttackVerbs verbs = get_form(you.form)->uc_attack_verbs;
-        if (verbs.weak != FAV_DEFAULT)
+        if (verbs.weak != nullptr)
         {
-            form_attack_verb verb;
+            string attack_verb;
             if (damage < HIT_WEAK)
-                verb = verbs.weak;
+                attack_verb = verbs.weak;
             else if (damage < HIT_MED)
-                verb = verbs.medium;
+                attack_verb = verbs.medium;
             else if (damage < HIT_STRONG)
-                verb = verbs.strong;
+                attack_verb = verbs.strong;
             else
-                verb = verbs.devastating;
-
-            switch (verb)
-            {
-                case FAV_SLASH: return "You slash %s";
-                case FAV_SLICE: return "You slice %s";
-                case FAV_SHRED: return "You shred %s";
-                case FAV_CLAW: return "You claw %s";
-                case FAV_BITE: return "You bite %s";
-                case FAV_MAUL: return "You maul %s";
-                case FAV_SMACK: return "You smack %s";
-                case FAV_PUMMEL: return "You pummel %s";
-                case FAV_THRASH: return "You thrash %s";
-                case FAV_TOUCH: return "You touch %s";
-                case FAV_ENGULF: return "You engulf %s";
-                case FAV_RELEASE_SPORES_AT: return "You release spores at %s";
-                case FAV_NIP_AT: return "You nip at %s";
-                case FAV_GOUGE: return "You gouge %s";
-                case FAV_CHOMP: return "You chomp %s";
-                case FAV_BUFFET: return "You buffet %s";
-                case FAV_BATTER: return "You batter %s";
-                case FAV_BLAST: return "You blast %s";
-                default: return "You hit %s";
-            }
+                attack_verb = verbs.devastating;
+            string sentence = "You @attack@ %s";
+            return replace_first(sentence, "@attack@", attack_verb);
         }
 
         if (you.damage_type() == DVORP_CLAWING)
