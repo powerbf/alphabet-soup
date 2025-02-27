@@ -189,12 +189,12 @@ the frog
 # Deep Dwarf
 # duplicate of monster
 #the dwarf
-#der Zwerg
+#
 %%%%
 # Deep Elf
 # duplicate of monster
 #the elf
-#der Elf
+#
 %%%%
 # Demigod
 the god
@@ -215,7 +215,7 @@ the octopus
 # Hill Orc
 # duplicate of monster
 #the orc
-#der Ork
+#
 %%%%
 
 ##############################################

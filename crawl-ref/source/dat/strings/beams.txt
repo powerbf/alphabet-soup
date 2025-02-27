@@ -139,7 +139,7 @@ the stunning burst
 %%%%
 # duplicate of monster
 #the orb of electricity
-#die Elektrizitätskugel
+#
 %%%%
 the splash of poison
 
@@ -239,7 +239,7 @@ the klown pie
 %%%%
 # duplicate of monster
 #the foxfire
-#das Fuchsfeuer
+#
 %%%%
 the hail
 
@@ -596,7 +596,7 @@ a klown pie
 %%%%
 # duplicate of monster
 #the foxfire
-#das Fuchsfeuer
+#
 %%%%
 a hail
 
@@ -866,7 +866,7 @@ glob of acid
 %%%%
 # duplicate of cloud
 #poison gas
-#Giftgas
+#
 %%%%
 bolt of dispelling energy
 
@@ -952,7 +952,7 @@ klown pie
 %%%%
 # duplicate of monster
 #the foxfire
-#das Fuchsfeuer
+#
 %%%%
 hail
 
@@ -1104,7 +1104,7 @@ dispelling energy
 %%%%
 # duplicate of item type
 #missile
-#Geschoss
+#
 %%%%
 magic missile
 
@@ -1126,19 +1126,19 @@ electricity
 %%%%
 # duplicate of cloud
 #noxious fumes
-#schädliche Dämpfe
+#
 %%%%
 # duplicate of item brand
 #poison
-#Gift
+#
 %%%%
 # duplicate of cloud
 #negative energy
-#negative Energie
+#
 %%%%
 # duplicate of item brand
 #acid
-#Säure
+#
 %%%%
 miasma
 
@@ -1151,7 +1151,7 @@ poison sting
 %%%%
 # duplicate of cloud
 #steam
-#Dampf
+#
 %%%%
 energy
 
@@ -1170,7 +1170,7 @@ ice
 %%%%
 # duplicate of cloud
 #thunder
-#Donner
+#
 %%%%
 stunning bolt
 
@@ -1183,11 +1183,11 @@ random
 %%%%
 # duplicate of item brand
 #chaos
-#Chaos
+#
 %%%%
 # duplicate of mutation
 #slow
-#Langsamkeit
+#
 %%%%
 haste
 
@@ -1227,7 +1227,7 @@ banishment
 %%%%
 # duplicate of item brand
 #pain
-#Schmerz
+#
 %%%%
 dispel undead
 
@@ -1255,7 +1255,7 @@ sleep
 %%%%
 # duplicate of monster status
 #berserk
-#Berserker
+#
 %%%%
 visual effects
 
@@ -1271,7 +1271,7 @@ inner flame
 %%%%
 # duplicate of cloud
 #calcifying dust
-#verkalkender Staub
+#
 %%%%
 # from Arachne's Ensnare spell
 magic web
@@ -1310,7 +1310,7 @@ breath of the dead
 %%%%
 # duplicate of status
 #resistance
-#Resistenz
+#
 %%%%
 unravelled magic
 

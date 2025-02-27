@@ -325,7 +325,7 @@ poisoned by %s
 %%%%
 # duplicate definition
 #poison
-#Gift
+#
 %%%%
 Succumbed to %s
 
@@ -378,7 +378,7 @@ Killed from afar by %s
 %%%%
 # duplicate definition
 #lava
-#Lava
+#
 %%%%
 Turned to ash by lava
 
@@ -433,7 +433,7 @@ Killed by triggering %s
 %%%%
 # duplicate definition
 #drained
-#ausgezehrt
+#
 %%%%
 Drained of all life by %s
 
@@ -449,7 +449,7 @@ Starved to death
 %%%%
 # duplicate definition
 #frozen
-#gefroren
+#
 %%%%
 Frozen to death
 
@@ -468,7 +468,7 @@ Burnt to a crisp
 %%%%
 # duplicate of mutation name
 #wild magic
-#wilde Magie
+#
 %%%%
 Killed by wild magic
 
@@ -547,7 +547,7 @@ Smitten by Beogh
 %%%%
 # duplicate definition
 #petrified
-#versteinert
+#
 %%%%
 Turned to stone
 
@@ -572,7 +572,7 @@ Fell down through a gate
 %%%%
 # duplicate definition
 #acid
-#Säure
+#
 %%%%
 Splashed by %s acid
 

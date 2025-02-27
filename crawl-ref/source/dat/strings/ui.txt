@@ -757,7 +757,7 @@ rNeg
 %%%%
 # duplicate of item brand
 #rPois
-#rGift
+#
 %%%%
 # electricity resistance
 %%%%
@@ -768,11 +768,11 @@ rElec
 %%%%
 # duplicate of item brand
 #rCorr
-#rKorr
+#
 %%%%
 # duplicate of item brand
 #Will
-#Wille
+#
 %%%%
 # Stealth = Heimlichkeit
 %%%%
@@ -799,7 +799,7 @@ Faith
 %%%%
 # duplicate of item brand
 #Spirit
-#Geist
+#
 %%%%
 # reflection
 %%%%
@@ -870,7 +870,7 @@ Blade Hand
 %%%%
 # duplicate of the spell name
 #Blade Hands
-
+#
 %%%%
 
 ##############################################
@@ -894,7 +894,7 @@ Nothing quivered
 %%%%
 # duplicate of item category
 #weapon
-#Waffe
+#
 %%%%
 cloak
 
@@ -918,7 +918,7 @@ shield
 %%%%
 # duplicate of item category
 #armour
-#Rüstung
+#
 %%%%
 amulet
 
@@ -1403,7 +1403,7 @@ Base
 %%%%
 # duplicate: Also HUD abbreviation for shadow form
 #Shadow
-
+#
 %%%%
 Halo
 

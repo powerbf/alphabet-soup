@@ -586,6 +586,7 @@ Delay
 %%%%
 # duplicate of spell name
 #Pain
+#
 %%%%
 Exhaustion
 
@@ -679,19 +680,18 @@ One cursed item
 # piety amounts
 # Used like this "Piety: <amount>"
 %%%%
-# duplicate
 extremely large
 
 %%%%
 # duplicate
 #large
-#viel
+#
 %%%%
 moderate
 
 %%%%
 #small
-#wenig
+#
 %%%%
 
 # gold amount

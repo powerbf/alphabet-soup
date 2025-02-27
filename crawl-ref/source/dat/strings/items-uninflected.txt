@@ -144,7 +144,7 @@ abyssal
 %%%%
 # duplicate of missile brand
 #silver
-
+#
 %%%%
 golden
 
@@ -234,7 +234,7 @@ runes
 %%%%
 # duplicate of item type
 #wand
-
+#
 %%%%
 polearm
 
@@ -244,7 +244,7 @@ launcher
 %%%%
 # duplicate of item type
 #missile
-
+#
 %%%%
 
 %%%%
