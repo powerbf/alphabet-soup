@@ -757,7 +757,7 @@ rNég
 %%%%
 # duplicate of item brand
 #rPois
-#rGift
+#
 %%%%
 # electricity resistance
 %%%%
@@ -768,11 +768,11 @@ rÉlec
 %%%%
 # duplicate of item brand
 #rCorr
-#rCorr
+#
 %%%%
 # duplicate of item brand
 #Will
-#Volonté
+#
 %%%%
 # Stealth = Discrétion
 %%%%
@@ -799,7 +799,7 @@ Foi
 %%%%
 # duplicate of item brand
 #Spirit
-# bouclier spirituel
+#
 %%%%
 # reflection
 %%%%
@@ -870,7 +870,7 @@ Main-lame
 %%%%
 # duplicate of the spell name
 #Blade Hands
-
+#
 %%%%
 
 ##############################################
@@ -894,7 +894,7 @@ Rien n'est armé
 %%%%
 # duplicate of item category
 #weapon
-#Waffe
+#
 %%%%
 cloak
 cape
@@ -918,7 +918,7 @@ bouclier
 %%%%
 # duplicate of item category
 #armour
-#Rüstung
+#
 %%%%
 amulet
 amulette
@@ -1403,7 +1403,7 @@ Base
 %%%%
 # duplicate: Also HUD abbreviation for shadow form
 #Shadow
-
+#
 %%%%
 Halo
 Halo
