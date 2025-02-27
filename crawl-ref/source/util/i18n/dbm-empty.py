@@ -9,18 +9,6 @@ import sys
 import dbm
 
 outfile = ""
-new_vals = {}
-
-def write_entry(key, value):
-    key = dbm.strip_quotes_if_allowed(key)
-    value = dbm.strip_quotes_if_allowed(value)
-    outfile.write(key + '\n')
-    if key in new_vals:
-        outfile.write(new_vals[key])
-    else:
-        outfile.write(value)
-    outfile.write('\n')
-    #outfile.write('%%%%\n');
 
 #####################################
 # Main
@@ -36,27 +24,21 @@ infile = open(file_name)
 outfile = open("dbm.txt", "w")
 
 key = ""
-value = ""
 
 for line in infile:
     line = line.strip()
-    if re.match(r'^\s*$', line) or re.match(r'^\s*#', line):
-        # blank line or comment
+    if re.match(r'^$', line):
+        if key == "":
+            # blank line, and not part of entry
+            outfile.write(line + '\n');
+    elif line.startswith('#'):
+        # comment
         outfile.write(line + '\n');
     elif line == "%%%%":
-        if key != "":
-            write_entry(key, "")
-        outfile.write(line + '\n')
+        outfile.write(line + '\n');
         key = ""
-        value = ""
     elif key == "":
         key = line
-    elif value == "":
-        value = line
-    else:
-        value += "\n"
-        value += line
+        outfile.write(line + '\n\n');
 
-if key != "":
-    write_entry(key, "")
-    outfile.write("%%%%\n");
+outfile.close()
