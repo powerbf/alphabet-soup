@@ -93,7 +93,7 @@ rollend
 %%%%
 # duplicate of zap
 #inner flame
-#innere Flamme
+#
 %%%%
 # reflecting damage - long form
 # not used in sentence
@@ -565,7 +565,7 @@ Schmerz verbunden
 # duplicate of item property
 %%%%
 #curare
-#Curare
+#
 %%%%
 
 %%%%

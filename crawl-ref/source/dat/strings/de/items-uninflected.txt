@@ -145,7 +145,7 @@ Abgrund
 %%%%
 # duplicate of missile brand
 #silver
-
+#
 %%%%
 golden
 goldene
@@ -235,7 +235,7 @@ Runen
 %%%%
 # duplicate of item type
 #wand
-
+#
 %%%%
 polearm
 Stangenwaffe
@@ -245,7 +245,7 @@ Werfer
 %%%%
 # duplicate of item type
 #missile
-
+#
 %%%%
 
 %%%%

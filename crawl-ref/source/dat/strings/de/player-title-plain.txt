@@ -165,7 +165,7 @@ Kombattant
 %%%%
 # duplicate (archetype)
 #Warrior
-#Krieger
+#
 %%%%
 Knight
 Ritter
@@ -395,7 +395,7 @@ Blob
 %%%%
 # duplicate of monster
 #Royal Jelly
-#Gelee Royale
+#
 %%%%
 
 # Fedhas
@@ -703,11 +703,11 @@ Plänkler
 %%%%
 # duplicate (background)
 #Fighter
-#Kämpfer
+#
 %%%%
 # duplicate (Okawaru title & archetype)
 #Warrior
-#Krieger
+#
 %%%%
 Slayer
 Töter
@@ -931,7 +931,7 @@ Agiler
 %%%%
 # duplicate (item property)
 #Acrobat
-#Akrobat
+#
 %%%%
 Intangible
 Unfassbarer
@@ -995,7 +995,7 @@ Erzmagier
 %%%%
 # duplicate (background)
 #Conjurer
-#Konjurant
+#
 %%%%
 Destroyer
 Zerstörer
@@ -1035,7 +1035,7 @@ Rufer
 %%%%
 # duplicate (background)
 #Summoner
-#Beschwörer
+#
 %%%%
 Convoker
 Einbeirufer
@@ -1057,7 +1057,7 @@ Wiederbeleber
 %%%%
 # duplicate (background)
 #Necromancer
-#Nekromant
+#
 %%%%
 Thanatomancer
 Thanatomant
@@ -1208,7 +1208,7 @@ Ketzer
 %%%%
 # duplicate (Beogh title)
 #Apostate
-#Apostat
+#
 %%%%
 
 # Evocations
@@ -1295,7 +1295,7 @@ Säbelzahn
 %%%%
 # duplicate (archetype)
 #Adventurer
-#Abenteurer
+#
 %%%%
 Worldbinder
 Weltenbinder

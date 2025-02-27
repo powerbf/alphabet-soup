@@ -759,7 +759,7 @@ rNeg
 %%%%
 # duplicate of item brand
 #rPois
-#rGift
+#
 %%%%
 # electricity resistance
 %%%%
@@ -770,11 +770,11 @@ rElek
 %%%%
 # duplicate of item brand
 #rCorr
-#rKorr
+#
 %%%%
 # duplicate of item brand
 #Will
-#Wille
+#
 %%%%
 # Stealth = Heimlichkeit
 %%%%
@@ -801,7 +801,7 @@ Glaube
 %%%%
 # duplicate of item brand
 #Spirit
-#Geist
+#
 %%%%
 # reflection
 %%%%
@@ -872,7 +872,7 @@ Klingenhand
 %%%%
 # duplicate of the spell name
 #Blade Hands
-
+#
 %%%%
 
 ##############################################
@@ -896,7 +896,7 @@ Nichts im Köcher
 %%%%
 # duplicate of item category
 #weapon
-#Waffe
+#
 %%%%
 cloak
 Umhang
@@ -920,7 +920,7 @@ Schild
 %%%%
 # duplicate of item category
 #armour
-#Rüstung
+#
 %%%%
 amulet
 Amulett
@@ -1405,7 +1405,7 @@ Basis
 %%%%
 # duplicate: Also HUD abbreviation for shadow form
 #Shadow
-
+#
 %%%%
 Halo
 Nimbus

@@ -325,7 +325,7 @@ vergiftet von {dat}%s
 %%%%
 # duplicate definition
 #poison
-#Gift
+#
 %%%%
 Succumbed to %s
 Erlag {dat}%s
@@ -378,7 +378,7 @@ Aus der Ferne von {dat}%s getötet
 %%%%
 # duplicate definition
 #lava
-#Lava
+#
 %%%%
 Turned to ash by lava
 Von Lava in Asche verwandelt
@@ -433,7 +433,7 @@ Getötet durch das Auslösen von {dat}%s
 %%%%
 # duplicate definition
 #drained
-#ausgezehrt
+#
 %%%%
 Drained of all life by %s
 Alles Leben von {dat}%s verzehrt
@@ -449,7 +449,7 @@ Zu Tode gehungert
 %%%%
 # duplicate definition
 #frozen
-#gefroren
+#
 %%%%
 Frozen to death
 Zu Tode gefroren
@@ -468,7 +468,7 @@ Knusprig verbrannt
 %%%%
 # duplicate of mutation name
 #wild magic
-#wilde Magie
+#
 %%%%
 Killed by wild magic
 Getötet durch wilde Magie
@@ -548,7 +548,7 @@ Von Beogh zerschmettert
 %%%%
 # duplicate definition
 #petrified
-#versteinert
+#
 %%%%
 Turned to stone
 Zu Stein verwandelt
@@ -573,7 +573,7 @@ Fiel durch ein Tor
 %%%%
 # duplicate definition
 #acid
-#Säure
+#
 %%%%
 Splashed by %s acid
 Bespritzt von %s Säure

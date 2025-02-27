@@ -25,7 +25,7 @@ Flamme manifestieren
 %%%%
 # duplicate of ability
 #Dig
-#Graben
+#
 %%%%
 Bolt of Fire
 Feuerstrahl
@@ -92,7 +92,7 @@ Massenverwirrung
 %%%%
 # duplicate of ability
 #Smiting
-#Zerschlagen
+#
 %%%%
 Summon Small Mammal
 Kleines Säugetier beschwören
@@ -124,7 +124,7 @@ Verdammnis herabrufen
 %%%%
 # duplicate of ability
 #Blink
-#Blinzeln
+#
 %%%%
 Blink Range
 In Reichweite blinzeln
@@ -362,7 +362,7 @@ Holzwohl
 %%%%
 # duplicate of ability
 #Hurl Damnation
-#Verdammnis schleudern
+#
 %%%%
 Brain Feed
 Gehirn absaugen
@@ -384,7 +384,7 @@ Energiestrahl
 %%%%
 # duplicate of ability
 #Spit Poison
-#Gift spucken
+#
 %%%%
 Summon Undead
 Untote beschwören

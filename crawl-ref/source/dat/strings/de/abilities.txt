@@ -586,6 +586,7 @@ Verzögerung
 %%%%
 # duplicate of spell name
 #Pain
+#
 %%%%
 Exhaustion
 Erschöpfung
@@ -679,19 +680,19 @@ Einen verfluchten Gegenstand
 # piety amounts
 # Used like this "Piety: <amount>"
 %%%%
-# duplicate
 extremely large
 extrem viel
 %%%%
 # duplicate
 #large
-#viel
+#
 %%%%
 moderate
 moderat
 %%%%
+# duplicate
 #small
-#wenig
+#
 %%%%
 
 # gold amount
