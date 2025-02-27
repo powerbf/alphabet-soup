@@ -682,15 +682,15 @@ You are invisible.
 invisible (but backlit and visible)
 
 %%%%
+You are invisible (but backlit and visible).
+
+%%%%
 
 ##################
 # duration-data.h
 ##################
 
-
 # Agility
-You are invisible (but backlit and visible).
-
 %%%%
 Agi
 

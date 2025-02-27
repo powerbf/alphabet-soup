@@ -684,11 +684,11 @@ unsichtbar (aber hintergrundbeleuchtet und sichtbar)
 %%%%
 You are invisible (but backlit and visible).
 Du bist unsichtbar (aber hintergrundbeleuchtet und sichtbar).
+%%%%
 
 ##################
 # duration-data.h
 ##################
-
 
 # Agility
 %%%%

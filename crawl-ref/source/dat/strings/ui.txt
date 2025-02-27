@@ -181,7 +181,6 @@ Please select your species.
 Please select your background.
 
 %%%%
-%%%%
 # species groupings
 %%%%
 Simple
@@ -219,8 +218,8 @@ Adventurer
 + - Recommended background
 
 %%%%
-# - Recommended character
-# - Personnage recommandé
+"# - Recommended character"
+
 %%%%
 % - List aptitudes
 
@@ -249,6 +248,7 @@ Opens the help screen.
 
 # species/background options - second column entries
 # prefix with spaces where needed to make the hyphens line up
+%%%%
 "    * - Random species"
 
 %%%%
@@ -311,15 +311,17 @@ Incompatible species and background (%s) selected.
 Do you want to play this combination? [Y/n/q]
 
 %%%%
+
+%%%%
 Recommended character
+
+%%%%
+Random character
 
 %%%%
 
 # random <species/background>
 # most are masculine
-%%%%
-Random character
-
 %%%%
 "Random "
 
@@ -331,8 +333,6 @@ Random
 
 %%%%
 Recommended
-
-%%%%
 
 %%%%
 # but a few aren't
@@ -351,6 +351,7 @@ Recommended Merfolk
 %%%%
 
 # weapon selection
+%%%%
 You have a choice of weapons.
 
 %%%%
@@ -382,6 +383,8 @@ hand crossbow and bolts
 %%%%
 * - Random weapon
 
+%%%%
+# "Tab - <last combo>"
 %%%%
 "Tab - "
 
@@ -548,7 +551,7 @@ Trunk games don't count for the tournament, you want %s. Play trunk anyway? (Y/N
 
 %%%%
 # Health changes to HP when a 3rd number has to be shown (player rotted)
-# Hit points = Points de vie
+# Hit points = Trefferpünkte
 %%%%
 "HP: "
 
@@ -557,27 +560,27 @@ Trunk games don't count for the tournament, you want %s. Play trunk anyway? (Y/N
 
 %%%%
 # Magic changes to MP when a 3rd number has to be shown (MP drained)
-# Magic points = Points de magie
+# Magic points = Manapunkte(?)
 %%%%
 "MP: "
 
 %%%%
-# Armour Class = Classe d'Armure
+# Armour Class = Rüstingsklasse
 %%%%
 AC:
 
 %%%%
-# Evasion = Esquive
+# Evasion = Ausweichen
 %%%%
 EV:
 
 %%%%
-# Shields = Boucliers
+# Shields = Schilde
 %%%%
 SH:
 
 %%%%
-# eXperience Level = Niveau d'eXpérience
+# eXperience Level = Erfahrungsstufe(?)
 %%%%
 "XL: "
 
@@ -605,17 +608,17 @@ SH:
 "Eq: "
 
 %%%%
-# Strength = Force
+# Strength = Stärke
 %%%%
 Str:
 
 %%%%
-# Intelligence = Intelligence
+# Intelligence = Intelligenz
 %%%%
 Int:
 
 %%%%
-# Dexterity = Dextérité
+# Dexterity = Geschicklichkeit
 %%%%
 Dex:
 
@@ -631,6 +634,7 @@ Time:
 Gold:
 
 %%%%
+
 ###############################################################
 # Character overview screen. Contrived example:
 #
@@ -679,37 +683,37 @@ Gold:
 "Gold: "
 
 %%%%
-# Armour Class = Classe d'Armure
+# Armour Class = Rüstingsklasse
 %%%%
 "AC: "
 
 %%%%
-# Evasion = Esquive
+# Evasion = Ausweichen
 %%%%
 "EV: "
 
 %%%%
-# Shields = Boucliers
+# Shields = Schilde
 %%%%
 "SH: "
 
 %%%%
-# Strength = Force
+# Strength = Stärke
 %%%%
 "Str: "
 
 %%%%
-# Intelligence = Intelligence
+# Intelligence = Intelligenz
 %%%%
 "Int: "
 
 %%%%
-# Dexterity = Dextérité
+# Dexterity = Geschicklichkeit
 %%%%
 "Dex: "
 
 %%%%
-# eXperience Level = Niveau d'eXpérience
+# eXperience Level = Erfahrungsstufe
 %%%%
 "XL:     "
 
@@ -750,6 +754,7 @@ rNeg
 
 %%%%
 # poison resistance
+%%%%
 # duplicate of item brand
 #rPois
 #rGift
@@ -760,15 +765,16 @@ rElec
 
 %%%%
 # corrosion resistance
+%%%%
 # duplicate of item brand
 #rCorr
-#rCorr
+#rKorr
 %%%%
 # duplicate of item brand
 #Will
-#Volonté
+#Wille
 %%%%
-# Stealth = Discrétion
+# Stealth = Heimlichkeit
 %%%%
 "Stlth    "
 
@@ -790,9 +796,10 @@ Faith
 
 %%%%
 # spirit shield
+%%%%
 # duplicate of item brand
 #Spirit
-# bouclier spirituel
+#Geist
 %%%%
 # reflection
 %%%%
@@ -817,6 +824,8 @@ Rnd*Tele
 
 %%%%
 NoCast
+
+%%%%
 
 %%%%
 very quick
@@ -861,8 +870,9 @@ Blade Hand
 %%%%
 # duplicate of the spell name
 #Blade Hands
-#
+
 %%%%
+
 ##############################################
 # Equipment Slots (Character Overview Screen)
 ##############################################
@@ -1016,6 +1026,7 @@ Amulet ring
 8th ring
 
 %%%%
+
 # equipment slot annotations
 %%%%
 # player can't equip this type of item
@@ -1116,7 +1127,6 @@ Navigate around map
 %%%%
 [L-Click / Shift + L-Click]
 
-%%%%
 %%%%
 Display abilities
 
@@ -1393,7 +1403,7 @@ Base
 %%%%
 # duplicate: Also HUD abbreviation for shadow form
 #Shadow
-#Ombre
+
 %%%%
 Halo
 
@@ -1557,6 +1567,7 @@ Points
 > New
 
 %%%%
+
 
 %%%%
 # a string like "auto|manual mode", where "auto|manual" are the states and "mode" is the setting

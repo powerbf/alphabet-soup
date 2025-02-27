@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# German translations for user interfaces
+# Translations for user interfaces
 #
 ###############################################################################
 %%%%
@@ -111,6 +111,7 @@ Crawl trifft Fehler bei der Initialisierung:
 Initialization log:
 Initialisierungslog:
 %%%%
+
 # key names (NOTE: these are names only - you can't change the input keys with this)
 %%%%
 tab
@@ -119,11 +120,13 @@ tab
 ctrl-p
 strg-p
 %%%%
+
 # "<player name> the <species> <background>"
 %%%%
 %s the %s %s
 %s der %s %s
 %%%%
+
 # "<player name> the <combo>"
 %%%%
 %s the %s
@@ -206,6 +209,7 @@ Zelot
 Adventurer
 Abenteurer
 %%%%
+
 # species/background options - first column entries
 %%%%
 + - Recommended species
@@ -223,6 +227,7 @@ Abenteurer
 ? - Help
 ? - Hilfe
 %%%%
+
 # species/background options - first column desciptions
 %%%%
 Picks a random recommended species based on your current background choice.
@@ -240,6 +245,7 @@ Führt die Begabungen für Fertigkeitstraining auf.
 Opens the help screen.
 Öffnet die Hilfsseite.
 %%%%
+
 # species/background options - second column entries
 # prefix with spaces where needed to make the hyphens line up
 %%%%
@@ -264,11 +270,13 @@ Leertaste - Hintergrund zuerst wählen
 Space - Pick species first
 Leertaste - Spezies zuerst wählen
 %%%%
+
 # this one will have the last species + background appended
 %%%%
 "  Tab - "
 "      Tab - "
 %%%%
+
 # species/background options - second column descriptions
 %%%%
 Picks a random species.
@@ -310,6 +318,7 @@ Vorgeschlangener Charakter
 %%%%
 Random character
 Zufälliger Charakter
+%%%%
 
 # random <species/background>
 # most are masculine
@@ -395,6 +404,7 @@ Führt zurück zu Charakter-Auswahl-Menü
 Select your old weapon
 Wähle deine letzte Waffe
 %%%%
+
 # name entry
 %%%%
 What is your name today?
@@ -438,6 +448,7 @@ Wähle 0 für eine zufällige Seed. [Tab]/[Shift-Tab] um Fokus zu verwechseln.
 Fully pregenerate the dungeon
 Ganzen Kerker am Anfang bauen
 %%%%
+
 # Dungeon Sprints
 %%%%
 Sprint I: "Red Sonja"
@@ -485,6 +496,7 @@ Die folgende Lektionen sind wählbar:
 You have a choice of maps:
 Die folgende Pläne sind wählbar:
 %%%%
+
 # tutorials
 %%%%
 Lesson 1: Movement and Exploration
@@ -587,7 +599,7 @@ Komm:
 "Silenced  "
 "Stille    "
 %%%%
-# There is an option to show equipment instaed of noise
+# There is an option to show equipment instead of noise
 # equipment = Ausrüstung
 %%%%
 "Equip: "
@@ -668,7 +680,7 @@ Gold:
 "Gold:   "
 "Gold:   "
 %%%%
-# Align Gold with HP/MP if playerrotted
+# Align Gold with HP/MP if player rotted
 %%%%
 "Gold: "
 "Gold: "
@@ -749,7 +761,7 @@ rNeg
 #rPois
 #rGift
 %%%%
-# electricty resistance
+# electricity resistance
 %%%%
 rElec
 rElek
@@ -860,7 +872,7 @@ Klingenhand
 %%%%
 # duplicate of the spell name
 #Blade Hands
-#Klingenhände
+
 %%%%
 
 ##############################################
@@ -1085,14 +1097,14 @@ Auf der Karte navigieren
 # Example "[L-Click] Fire (f)"
 # The annotation {cmd} is used to disambiguate from other meanings of the same word
 # (e.g. fire meaning shoot vs. fire meaning flames)
-"%s %s (%%)"
-"%s {cmd}%s (%%)"
+%s %s (%%)
+%s {cmd}%s (%%)
 %%%%
 # format string for "<command name> (<key>)"
 # Example "Fire (f)"
 # {cmd} annotation as per above entry
-"%s (%%)"
-"{cmd}%s (%%)"
+%s (%%)
+{cmd}%s (%%)
 %%%%
 [L-Click]
 [L-Klick]
@@ -1316,8 +1328,8 @@ Browse message history
 Nachrichtenverlauf sehen
 %%%%
 # format string for skill training entry
-"%-14s Skill %4.1f Aptitude %c%d"
-"{skill}%-14s Fertigkeit %4.1f Begabung %c%d"
+%-14s Skill %4.1f Aptitude %c%d
+{skill}%-14s Fertigkeit %4.1f Begabung %c%d
 %%%%
 Manage skills
 Fertigkeiten verwalten
@@ -1393,7 +1405,7 @@ Basis
 %%%%
 # duplicate: Also HUD abbreviation for shadow form
 #Shadow
-#Schatte
+
 %%%%
 Halo
 Nimbus
@@ -1478,8 +1490,8 @@ Abbrechen
 Inventory:
 Inventar:
 %%%%
-"%d/%d slots"
-"%d/%d Plätze"
+%d/%d slots
+%d/%d Plätze
 %%%%
 
 # subheadings
@@ -1575,7 +1587,6 @@ auto
 {menu-state}manual
 manueller
 %%%%
-%%%%
 mode
 Modus
 %%%%
@@ -1587,7 +1598,6 @@ nützliche
 %%%%
 all
 alle
-%%%%
 %%%%
 skills
 Fertigkeiten

@@ -141,6 +141,7 @@ dropped
 corrosion resistance
 
 %%%%
+# magic resistance is an old name for will
 magic resistance
 
 %%%%
@@ -376,6 +377,7 @@ shadows
 " (worn)"
 
 %%%%
+# yes, this is supposed to have leading AND trailing space
 " (carried) "
 
 %%%%

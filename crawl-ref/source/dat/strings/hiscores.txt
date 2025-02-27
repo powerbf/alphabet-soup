@@ -491,7 +491,6 @@ shot self
 Killed themself with bad targeting
 
 %%%%
-# TODO: fix this. It will be wrong for feminine
 Killed themself with a badly aimed %s
 
 %%%%

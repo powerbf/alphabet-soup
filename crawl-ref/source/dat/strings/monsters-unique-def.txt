@@ -14,8 +14,8 @@
 # letter).
 #
 # Some uniques are gender-neutral in English. This is different to neuter.
-# (neuter -> it, gender neutral -> they). This can not be done in French, so we
-# revert to their previous genders.
+# (neuter -> it, gender neutral -> they). This can not be done in most
+# languages, so we revert to their previous genders.
 
 %%%%
 # probably a reference to one of several Christian saints named Menas

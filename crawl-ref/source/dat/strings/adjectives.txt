@@ -580,7 +580,7 @@
 "brown "
 
 %%%%
-"white"
+"white "
 
 %%%%
 "grey "
@@ -701,6 +701,7 @@
 "fleshy "
 
 %%%%
+# blade hands/paws/etc.
 "blade "
 
 %%%%
@@ -819,6 +820,7 @@ plain brown
 "rotten "
 
 %%%%
+# used for obsolete monsters
 "removed "
 
 %%%%
@@ -996,6 +998,7 @@ plain brown
 "fire elementalist "
 
 %%%%
+# no, this is not a mistake - water not ice
 "water elementalist "
 
 %%%%

@@ -141,6 +141,7 @@ abandonné
 corrosion resistance
 résistance à la corrosion
 %%%%
+# magic resistance is an old name for will
 magic resistance
 résistance magique
 %%%%
@@ -376,6 +377,7 @@ ombres
 " (worn)"
 " (porté)"
 %%%%
+# yes, this is supposed to have leading AND trailing space
 " (carried) "
 " (transporté) "
 %%%%

@@ -144,7 +144,7 @@ abyssal
 %%%%
 # duplicate of missile brand
 #silver
-#argent
+
 %%%%
 golden
 
@@ -234,7 +234,7 @@ runes
 %%%%
 # duplicate of item type
 #wand
-#baguette
+
 %%%%
 polearm
 
@@ -244,7 +244,7 @@ launcher
 %%%%
 # duplicate of item type
 #missile
-#missile
+
 %%%%
 
 %%%%
@@ -278,7 +278,6 @@ missiles
 %%%%
 %d with wands
 
-%%%%
 %%%%
 %d polearms
 

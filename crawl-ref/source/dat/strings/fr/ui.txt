@@ -181,7 +181,6 @@ Veuillez sélectionner votre espèce.
 Please select your background.
 Veuillez sélectionner votre classe.
 %%%%
-%%%%
 # species groupings
 %%%%
 Simple
@@ -219,8 +218,8 @@ Aventurier
 + - Recommended background
 + - Classe recommandée
 %%%%
-# - Recommended character
-# - Personnage recommandé
+"# - Recommended character"
+"# - Personnage recommandé"
 %%%%
 % - List aptitudes
 % - Liste des aptitudes
@@ -249,6 +248,7 @@ Ouvre l'écran d'aide.
 
 # species/background options - second column entries
 # prefix with spaces where needed to make the hyphens line up
+%%%%
 "    * - Random species"
 "    * - Espèce aléatoire"
 %%%%
@@ -311,15 +311,17 @@ Espèce et classe  (%s) incompatibles sélectionnées.
 Do you want to play this combination? [Y/n/q]
 Voulez-vous jouer cette combinaison ? [O/n/q]
 %%%%
+
+%%%%
 Recommended character
 Personnage recommandé
+%%%%
+Random character
+Personnage aléatoire
 %%%%
 
 # random <species/background>
 # most are masculine
-%%%%
-Random character
-Personnage aléatoire
 %%%%
 "Random "
 "Aléatoire "
@@ -332,8 +334,6 @@ Aléatoire
 %%%%
 Recommended
 Recommandé
-%%%%
-
 %%%%
 # but a few aren't
 %%%%
@@ -351,6 +351,7 @@ Sirène recommandée
 %%%%
 
 # weapon selection
+%%%%
 You have a choice of weapons.
 Vous avez un choix d'armes.
 %%%%
@@ -382,6 +383,8 @@ arbalète à main et carreaux
 %%%%
 * - Random weapon
 * - Arme aléatoire
+%%%%
+# "Tab - <last combo>"
 %%%%
 "Tab - "
 "Tab - "
@@ -631,6 +634,7 @@ Temps :
 Gold:
 Or :
 %%%%
+
 ###############################################################
 # Character overview screen. Contrived example:
 #
@@ -750,6 +754,7 @@ rNeg
 rNég
 %%%%
 # poison resistance
+%%%%
 # duplicate of item brand
 #rPois
 #rGift
@@ -760,6 +765,7 @@ rElec
 rÉlec
 %%%%
 # corrosion resistance
+%%%%
 # duplicate of item brand
 #rCorr
 #rCorr
@@ -790,6 +796,7 @@ Faith
 Foi
 %%%%
 # spirit shield
+%%%%
 # duplicate of item brand
 #Spirit
 # bouclier spirituel
@@ -818,6 +825,8 @@ Télé*Aléa
 %%%%
 NoCast
 PasSort
+%%%%
+
 %%%%
 very quick
 très rapide
@@ -861,8 +870,9 @@ Main-lame
 %%%%
 # duplicate of the spell name
 #Blade Hands
-#
+
 %%%%
+
 ##############################################
 # Equipment Slots (Character Overview Screen)
 ##############################################
@@ -1016,6 +1026,7 @@ Anneau sur amulette
 8th ring
 8e anneau
 %%%%
+
 # equipment slot annotations
 %%%%
 # player can't equip this type of item
@@ -1116,7 +1127,6 @@ Naviguer sur la carte
 %%%%
 [L-Click / Shift + L-Click]
 [L-Click / Shift + L-Click]
-%%%%
 %%%%
 Display abilities
 Afficher les capacités
@@ -1393,7 +1403,7 @@ Base
 %%%%
 # duplicate: Also HUD abbreviation for shadow form
 #Shadow
-#Ombre
+
 %%%%
 Halo
 Halo
@@ -1557,6 +1567,7 @@ Points
 > New
 > Nouveau
 %%%%
+
 
 %%%%
 # a string like "auto|manual mode", where "auto|manual" are the states and "mode" is the setting
