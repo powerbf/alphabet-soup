@@ -102,7 +102,7 @@ Tainted
 Torchbearer
 
 %%%%
-# @Genus@ may have different genders in French, so may need special handling...
+# @Genus@ may have different genders in the target language, so may need special handling...
 Fey @Genus@
 
 %%%%
