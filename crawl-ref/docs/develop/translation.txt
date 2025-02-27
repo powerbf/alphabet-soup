@@ -13,11 +13,10 @@ the release package:
 2. dat/descript - detailed descriptions for items, monsters, spells, etc.
 3. dat/database - some specialised game messages (e.g. things monsters say)
 
-The English files are in the directory itself (for #2 and #3 only. #1 has no English files) .
+The English files are in the directory itself.
 
 The equivalent files for other languages go in a subdirectory named with the
-2-letter ISO code for that language (e.g. de for German, fr for French, es for
-Spanish, etc.)
+ISO code for that language (e.g. de for German, fr for French, etc.)
 
 Entries in the files are separated by %%%%. The first line in each entry is the
 lookup key. Do NOT translate the key, only the rest of the text.
@@ -41,8 +40,10 @@ A description of the different file sets:
 --------------------------------
 
 These hold translations for English strings hardcoded in the game code.
-Therefore, there are no files for English itself, only for other languages.
 The keys are the actual English strings that are displayed to the user.
+Therefore, the English files contains only keys, not values. Use these as a
+base. Copy each file to the target language directory and fill in the
+translation for each English string on the following line.
 
 If the string includes leading or trailing whitespace, it must be surrounded
 with double-quotes ("). Generally, you will want to keep any such whitespace
