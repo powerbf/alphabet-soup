@@ -17358,7 +17358,7 @@ Anzuzeigende Ansichtsebenen auswählen:
 |<%s>(w)Waffen der Monster</%s>|<%s>(h)Gesundheit der Monster</%s>
 %%%%
 Press 'a' to toggle all layers. Press any other key to exit.
-'a' drücken, um alle Ebenen umzuschalten. Zum Beenden eine beliebige andere Taste drücken.
+'a' drücken, um alle Ansichtsebenen umzuschalten. Zum Beenden eine beliebige andere Taste drücken.
 %%%%
 Restoring view layers.
 Stelle Ansichtsebenen wieder her.
