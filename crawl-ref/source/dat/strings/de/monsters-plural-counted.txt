@@ -1493,7 +1493,7 @@
 %d @monster@-Skelette
 %%%%
 %d @monster@ simulacra
-%d @monster@-Simulacra
+%d Simulacra {gen}@a_monster@
 %%%%
 
 # irregular derived monsters

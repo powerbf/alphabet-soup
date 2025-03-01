@@ -1513,7 +1513,7 @@ the @monster@ skeleton
 das @monster@-Skelett
 %%%%
 the @monster@ simulacrum
-das @monster@-Simulacrum
+das Simulacrum {gen}@a_monster@
 %%%%
 
 # irregular derived monsters

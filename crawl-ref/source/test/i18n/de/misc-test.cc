@@ -164,7 +164,7 @@ int main()
     show_result(msg, expected);
 
     msg = localise("3 ogre simulacra");
-    expected = "3 Oger-Simulacra";
+    expected = "3 Simulacra eines Ogers";
     show_result(msg, expected);
 
     msg = localise("3 Maras (2 ally target)");
