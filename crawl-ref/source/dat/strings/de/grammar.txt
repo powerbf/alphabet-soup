@@ -100,6 +100,11 @@ PREGENERATE:2
 
 SELECT:/^the .*('s|')$/
 
+# transform (English) key
+KEY:/^the (?=one-)/a /
+KEY:/^the (?=[aeiouAEIOU])/an /
+KEY:/^the /a /
+
 # articles
 /^(\{f\})?der /einer /
 /^des /eines /
