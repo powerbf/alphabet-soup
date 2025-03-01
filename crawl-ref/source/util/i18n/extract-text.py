@@ -1975,6 +1975,10 @@ def process_cplusplus_file(filename):
             elif filename == 'delay.cc':
                 if string.startswith(' ') and section in ['_monster_warning', '_abyss_monster_creation_message']:
                     string = "%s" + string
+            elif filename == 'describe.cc':
+                if section == 'xl_rank_names':
+                    # adjectives
+                    string += ' '
             elif filename == 'describe-spells.cc':
                 if section == "_ability_type_vulnerabilities":
                     # will be joined to strings from _abil_type_vuln_core before translation

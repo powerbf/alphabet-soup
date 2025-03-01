@@ -5237,14 +5237,14 @@ int describe_monsters(const monster_info &mi, const string& /*footer*/)
 
 static const char* xl_rank_names[] =
 {
-    "weakling ",
-    "amateur ",
-    "novice ",
-    "journeyman ",
-    "adept ",
-    "veteran ",
-    "master ",
-    "legendary "
+    "weakling",
+    "amateur",
+    "novice",
+    "journeyman",
+    "adept",
+    "veteran",
+    "master",
+    "legendary"
 };
 
 static string _xl_rank_name(const int xl_rank)
@@ -5261,13 +5261,16 @@ string short_ghost_description(const monster *mon, bool abbrev)
     const ghost_demon &ghost = *(mon->ghost);
     const char* rank = xl_rank_names[ghost_level_to_rank(ghost.xl)];
 
-    string fmt = string("%s%s ") + get_job_name(ghost.job); // @noloc
-    string desc = localise(fmt, rank, species::name(ghost.species));
+    string desc = make_stringf("%s %s %s", rank,
+                               species::name(ghost.species).c_str(),
+                               get_job_name(ghost.job));
 
     if (abbrev || strwidth(desc) > 40)
     {
-        fmt = string("%s%s") + get_job_abbrev(ghost.job); // @noloc
-        desc = localise(fmt, rank, species::get_abbrev(ghost.species));
+        desc = make_stringf("%s %s%s",
+                            rank,
+                            species::get_abbrev(ghost.species),
+                            get_job_abbrev(ghost.job));
     }
 
     return desc;
