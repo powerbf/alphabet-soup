@@ -314,10 +314,10 @@ int main()
     show_result(msg, "Du hast nicht genug Magie, um Feuerball zu wirken!");
 
     msg = localise("Automagic will cast spell in slot b (Blade Hands).");
-    show_result(msg, "Automagie wird den Zauber im Platz b (Klingenhände) wirken.");
+    show_result(msg, "Automagie wird den Zauber in Platz b (Klingenhände) wirken.");
 
     msg = localise("Automagic enabled, will cast spell in slot c (Ice Form).");
-    show_result(msg, "Automagie aktiviert, wird den Zauber im Platz c (Eisgestalt) wirken.");
+    show_result(msg, "Automagie aktiviert, wird den Zauber in Platz c (Eisgestalt) wirken.");
 
     msg = localise("You hear the whistling of a wind.");
     show_result(msg, "Du hörst das Pfeifen eines Windes.");
