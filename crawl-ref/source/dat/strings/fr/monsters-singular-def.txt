@@ -1,0 +1,1752 @@
+###############################################################################
+#
+# Monsters - singular, definite article, nominative
+#
+###############################################################################
+
+%%%%
+the program bug
+le bug informatique
+%%%%
+the formicid
+le formicide
+%%%%
+the entropy weaver
+le tisseur d'entropie
+%%%%
+the bat
+la chauve-souris
+%%%%
+the butterfly
+le papillon
+%%%%
+the vampire bat
+la chauve-souris vampire
+%%%%
+the fire bat
+la chauve-souris de feu
+%%%%
+the ice bat
+la chauve-souris de glace
+%%%%
+# rebadged spectral bat
+the ghost-faced bat
+la chauve-souris fantomatique
+%%%%
+the phase bat
+la chauve-souris clignotante
+%%%%
+the skeletal bat
+la chauve-souris squelettique
+%%%%
+the microbat
+la microchauve-souris
+%%%%
+the megabat
+la mégachauve-souris
+%%%%
+the giga bat
+la gigachauve-souris
+%%%%
+the bennu
+le bennu
+%%%%
+the caustic shrike
+le pie-grièche caustique
+%%%%
+the shard shrike
+le pie-grièche d'éclats
+%%%%
+the centaur
+le centaure
+%%%%
+the centaur warrior
+le guerrier centaure
+%%%%
+the yaktaur
+le yaktaure
+%%%%
+the yaktaur captain
+le capitaine yaktaure
+%%%%
+the faun
+le faune
+%%%%
+the satyr
+le satyre
+%%%%
+the draconian
+le draconien
+%%%%
+the black draconian
+le draconien noir
+%%%%
+the yellow draconian
+le draconien jaune
+%%%%
+the pale draconian
+le draconien pâle
+%%%%
+the green draconian
+le draconien vert
+%%%%
+the purple draconian
+le draconien violet
+%%%%
+the red draconian
+le draconien rouge
+%%%%
+the white draconian
+le draconien blanc
+%%%%
+the grey draconian
+le draconien gris
+%%%%
+the draconian stormcaller
+le draconien invocateur de tempêtes
+%%%%
+the draconian monk
+le moine draconien
+%%%%
+the draconian shifter
+le draconien changeur de forme
+%%%%
+the draconian annihilator
+le draconien annihilateur
+%%%%
+the draconian knight
+le chevalier draconien
+%%%%
+the draconian scorcher
+le draconien embrasé
+%%%%
+the elf
+l'elfe
+%%%%
+the deep elf knight
+le chevalier elfe des profondeurs
+%%%%
+the deep elf archer
+l'archer elfe des profondeurs
+%%%%
+the deep elf blademaster
+le maître-lame elfe des profondeurs
+%%%%
+the deep elf master archer
+le maître archer elfe des profondeurs
+%%%%
+the deep elf zephyrmancer
+le zéphyrmancien elfe des profondeurs
+%%%%
+the deep elf pyromancer
+le pyromancien elfe des profondeurs
+%%%%
+the deep elf high priest
+le grand prêtre elfe des profondeurs
+%%%%
+the deep elf demonologist
+le démonologue elfe des profondeurs
+%%%%
+the deep elf annihilator
+l'annihilateur elfe des profondeurs
+%%%%
+the deep elf sorcerer
+le sorcier elfe des profondeurs
+%%%%
+the deep elf death mage
+le mage de la mort elfe des profondeurs
+%%%%
+the deep elf elementalist
+l'élémentaliste elfe des profondeurs
+%%%%
+the wandering mushroom
+le champignon errant
+%%%%
+the deathcap
+le champignon mortel
+%%%%
+the thorn hunter
+la ronce chasseresse
+%%%%
+the shambling mangrove
+la mangrove titubante
+%%%%
+the vine stalker
+le "vine stalker"
+%%%%
+the goblin
+le gobelin
+%%%%
+the hobgoblin
+le hobgobelin
+%%%%
+the gnoll
+le gnoll
+%%%%
+the gnoll shaman
+le chaman gnoll
+%%%%
+the gnoll sergeant
+le sergent gnoll
+%%%%
+the boggart
+le boggart
+%%%%
+the dwarf
+le nain
+%%%%
+the deep dwarf
+le nain des profondeurs
+%%%%
+the jackal
+le chacal
+%%%%
+the hound
+le chien de chasse
+%%%%
+the howler monkey
+le singe hurleur
+%%%%
+the warg
+le warg
+%%%%
+the wolf
+le loup
+%%%%
+the hog
+le sanglier
+%%%%
+the hell hound
+le chien infernal
+%%%%
+the doom hound
+le chien funeste
+%%%%
+the raiju
+le raiju
+%%%%
+the hell hog
+le sanglier infernal
+%%%%
+the holy swine
+le porc sacré
+%%%%
+the felid
+le félidé
+%%%%
+the bear
+l'ours
+%%%%
+the polar bear
+l'ours polaire
+%%%%
+the black bear
+l'ours noir
+%%%%
+the spriggan
+le spriggan
+%%%%
+the spriggan rider
+le cavalier spriggan
+%%%%
+the spriggan druid
+le druide spriggan
+%%%%
+the spriggan berserker
+le berserker spriggan
+%%%%
+the spriggan air mage
+le mage de l'air spriggan
+%%%%
+the spriggan defender
+le défenseur spriggan
+%%%%
+the spriggan baker
+le boulanger spriggan
+%%%%
+the spriggan hatter
+le chapelier spriggan
+%%%%
+the drake
+le drake
+%%%%
+the swamp drake
+le drake des marais
+%%%%
+the rime drake
+le drake de givre
+%%%%
+the wind drake
+le drake du vent
+%%%%
+the lindwurm
+le lindwurm
+%%%%
+the death drake
+le drake de la mort
+%%%%
+the giant lizard
+le lézard géant
+%%%%
+the frilled lizard
+le lézard à collerette
+%%%%
+the iguana
+l'iguane
+%%%%
+the basilisk
+le basilic
+%%%%
+the wyvern
+le wyverne
+%%%%
+the komodo dragon
+le dragon de Komodo
+%%%%
+the merfolk
+la sirène
+%%%%
+the merfolk impaler
+la sirène empaleuse
+%%%%
+the merfolk javelineer
+la sirène lanceuse de javelots
+%%%%
+the merfolk aquamancer
+la sirène aquamancienne
+%%%%
+the merfolk siren
+la sirène enchanteresse
+%%%%
+the merfolk avatar
+l'avatar sirène
+%%%%
+the water nymph
+la nymphe de l'eau
+%%%%
+the bog body
+le cadavre des marais
+%%%%
+the necrophage
+le nécrophage
+%%%%
+the bloated husk
+l'enveloppe boursouflée
+%%%%
+the ghoul
+le goule
+%%%%
+the orc
+l'orc
+%%%%
+the orc wizard
+le mage orc
+%%%%
+the orc priest
+le prêtre orc
+%%%%
+the orc warrior
+le guerrier orc
+%%%%
+the orc knight
+le chevalier orc
+%%%%
+the orc warlord
+le seigneur de guerre orc
+%%%%
+the orc sorcerer
+le sorcier orc
+%%%%
+the orc high priest
+le grand prêtre orc
+%%%%
+the human
+l'humain
+%%%%
+the hell knight
+le chevalier infernal
+%%%%
+the death knight
+le chevalier de la mort
+%%%%
+the necromancer
+le nécromancien
+%%%%
+the wizard
+le magicien
+%%%%
+the vault guard
+le garde des coffres
+%%%%
+the vault sentinel
+le sentinelle des coffres
+%%%%
+the vault warden
+le gardien des coffres
+%%%%
+the ironbound convoker
+l'invocateur enchaîné
+%%%%
+the ironbound frostheart
+le guerrier-mage du froid
+%%%%
+the ironbound preserver
+le protecteur enchaîné
+%%%%
+the ironbound beastmaster
+le maître des bêtes enchaîné
+%%%%
+the ironbound thunderhulk
+le colosse du tonnerre enchaîné
+%%%%
+the imperial myrmidon
+le myrmidon impérial
+%%%%
+the servant of whispers
+le serviteur des murmures
+%%%%
+the ragged hierophant
+le hiérophante en haillons
+%%%%
+the shapeshifter
+le métamorphe
+%%%%
+the glowing shapeshifter
+le métamorphe lumineux
+%%%%
+the Killer Klown
+le Klown Tueur
+%%%%
+the demigod
+le demi-dieu
+%%%%
+the halfling
+le semi-homme
+%%%%
+the rat
+le rat
+%%%%
+the quokka
+le quokka
+%%%%
+the river rat
+le rat des rivières
+%%%%
+the hell rat
+le rat infernal
+%%%%
+the giant cockroach
+le cafard géant
+%%%%
+the scorpion
+le scorpion
+%%%%
+the emperor scorpion
+le scorpion empereur
+%%%%
+the death scarab
+le scarabée de la mort
+%%%%
+the spider
+l'araignée
+%%%%
+the tarantella
+la tarantella
+%%%%
+the jumping spider
+l'araignée sauteuse
+%%%%
+the wolf spider
+l'araignée-loup
+%%%%
+the redback
+la redback
+%%%%
+the demonic crawler
+le rampant démoniaque
+%%%%
+the orb spider
+l'araignée-orbe
+%%%%
+the alligator
+l'alligator
+%%%%
+the snapping turtle
+la tortue-alligator
+%%%%
+the alligator snapping turtle
+la tortue-alligator géante
+%%%%
+the crab
+le crabe
+%%%%
+the fire crab
+le crabe de feu
+%%%%
+the ghost crab
+le crabe fantôme
+%%%%
+the apocalypse crab
+le crabe de l'apocalypse
+%%%%
+the ugly thing
+la chose laide
+%%%%
+the very ugly thing
+la chose très laide
+%%%%
+the fire vortex
+le vortex de feu
+%%%%
+the spatial vortex
+le vortex spatial
+%%%%
+the spatial maelstrom
+le maelström spatial
+%%%%
+the insubstantial wisp
+le feu follet immatériel
+%%%%
+the twister
+le tourbillon
+%%%%
+the worm
+le ver
+%%%%
+the swamp worm
+le ver des marais
+%%%%
+the tyrant leech
+la sangsue tyrannique
+%%%%
+the dart slug
+la limace-fléchette
+%%%%
+the torpor snail
+l'escargot de torpeur
+%%%%
+the elephant slug
+la limace éléphant
+%%%%
+the unseen horror
+l'horreur invisible
+%%%%
+the small abomination
+la petite abomination
+%%%%
+the ancient zyme
+l'ancien zyme
+%%%%
+the worldbinder
+le lieur du monde
+%%%%
+the killer bee
+l'abeille tueuse
+%%%%
+the queen bee
+la reine des abeilles
+%%%%
+the vampire mosquito
+le moustique vampire
+%%%%
+the hornet
+le frelon
+%%%%
+the meliai
+le méliai
+%%%%
+the spark wasp
+la guêpe électrique
+%%%%
+the moth
+le papillon de nuit
+%%%%
+the ghost moth
+le papillon de nuit fantôme
+%%%%
+the moth of wrath
+le papillon de la colère
+%%%%
+the wight
+le wight
+%%%%
+the skeletal warrior
+le guerrier squelettique
+%%%%
+the ancient champion
+le champion antique
+%%%%
+the flying skull
+le crâne volant
+%%%%
+the curse skull
+le crâne maudit
+%%%%
+the curse toe
+l'orteil maudit
+%%%%
+the angel
+l'ange
+%%%%
+the cherub
+le chérubin
+%%%%
+the seraph
+le séraphin
+%%%%
+the daeva
+le daeva
+%%%%
+the profane servitor
+le serviteur profane
+%%%%
+the giant
+le géant
+%%%%
+the cyclops
+le cyclope
+%%%%
+the ettin
+l'ettin
+%%%%
+the fire giant
+le géant de feu
+%%%%
+the frost giant
+le géant de givre
+%%%%
+the stone giant
+le géant de pierre
+%%%%
+the titan
+le titan
+%%%%
+the juggernaut
+le mastodonte
+%%%%
+the iron giant
+le géant de fer
+%%%%
+the dragon
+le dragon
+%%%%
+the fire dragon
+le dragon de feu
+%%%%
+the hydra
+l'hydre
+%%%%
+the ice dragon
+le dragon de glace
+%%%%
+the steam dragon
+le dragon de vapeur
+%%%%
+the swamp dragon
+le dragon des marais
+%%%%
+the acid dragon
+le dragon acide
+%%%%
+the quicksilver dragon
+le dragon vif-argent
+%%%%
+the iron dragon
+le dragon de fer
+%%%%
+the storm dragon
+le dragon des tempêtes
+%%%%
+the golden dragon
+le dragon d'or
+%%%%
+the shadow dragon
+le dragon d'ombre
+%%%%
+the bone dragon
+le dragon d'os
+%%%%
+the pearl dragon
+le dragon de perle
+%%%%
+the elemental
+l'élémentaire
+%%%%
+the earth elemental
+l'élémentaire de terre
+%%%%
+the fire elemental
+l'élémentaire de feu
+%%%%
+the water elemental
+l'élémentaire d'eau
+%%%%
+the air elemental
+l'élémentaire d'air
+%%%%
+the iron elemental
+l'élémentaire de fer
+%%%%
+the elemental wellspring
+la source élémentaire
+%%%%
+the giant frog
+la grenouille géante
+%%%%
+the bullfrog
+la grenouille-taureau
+%%%%
+the spiny frog
+la grenouille épineuse
+%%%%
+the blink frog
+la grenouille clignotante
+%%%%
+the barachi
+le barachi
+%%%%
+the floating eye
+l'œil flottant
+%%%%
+the glowing orange brain
+le cerveau orange lumineux
+%%%%
+the great orb of eyes
+la grande orbe d'yeux
+%%%%
+the greater orb of eyes
+la plus grande orbe d'yeux
+%%%%
+the shining eye
+l'œil brillant
+%%%%
+the eye of devastation
+l'œil de la dévastation
+%%%%
+the golden eye
+l'œil d'or
+%%%%
+the ophan
+l'ophan
+%%%%
+the manticore
+la manticore
+%%%%
+the minotaur
+le minotaure
+%%%%
+the sphinx
+le sphinx
+%%%%
+the harpy
+la harpie
+%%%%
+the mutant beast
+la bête mutante
+%%%%
+the ancestor
+l'ancêtre
+%%%%
+the knight
+le chevalier
+%%%%
+the battlemage
+le mage de guerre
+%%%%
+the hexer
+l'ensorceleur
+%%%%
+the jelly
+la gelée
+%%%%
+the slime creature
+la créature visqueuse
+%%%%
+the merged slime creature
+la créature visqueuse fusionnée
+%%%%
+the azure jelly
+la gelée azurée
+%%%%
+the acid blob
+la masse acide
+%%%%
+the kobold
+le kobold
+%%%%
+the big kobold
+le grand kobold
+%%%%
+the kobold demonologist
+le démonologue kobold
+%%%%
+the lich
+le liche
+%%%%
+the ancient lich
+le liche antique
+%%%%
+the antique lich
+le liche ancien
+%%%%
+the revenant
+le revenant
+%%%%
+the halazid warlock
+le sorcier halazid
+%%%%
+the mummy
+la momie
+%%%%
+the guardian mummy
+la momie gardienne
+%%%%
+the greater mummy
+la grande momie
+%%%%
+the mummy priest
+le prêtre momie
+%%%%
+the naga
+le naga
+%%%%
+the naga mage
+le mage naga
+%%%%
+the naga sharpshooter
+le tireur d'élite naga
+%%%%
+the naga ritualist
+le ritualiste naga
+%%%%
+the naga warrior
+le guerrier naga
+%%%%
+the nagaraja
+le nagaraja
+%%%%
+the ogre
+l'ogre
+%%%%
+the two-headed ogre
+l'ogre à deux têtes
+%%%%
+the ogre mage
+le mage ogre
+%%%%
+the plant
+la plante
+%%%%
+the demonic plant
+la plante démoniaque
+%%%%
+the withered plant
+la plante flétrie
+%%%%
+the oklob sapling
+la pousse d'oklob
+%%%%
+the oklob plant
+l'oklob
+%%%%
+the bush
+le buisson
+%%%%
+the burning bush
+le buisson ardent
+%%%%
+the toadstool
+l'amanite
+%%%%
+the fungus
+le champignon
+%%%%
+the ballistomycete
+le ballistomycète
+%%%%
+the hyperactive ballistomycete
+le ballistomycète hyperactif
+%%%%
+the briar patch
+le fourré d'épines
+%%%%
+the tengu
+le tengu
+%%%%
+the tengu conjurer
+le conjurateur tengu
+%%%%
+the tengu warrior
+le guerrier tengu
+%%%%
+the tengu reaver
+le pillard tengu
+%%%%
+the efreet
+l'ifrit
+%%%%
+the rakshasa
+le rakshasa
+%%%%
+the dryad
+la dryade
+%%%%
+the snaplasher vine
+la liane fouetteuse
+%%%%
+the snaplasher vine segment
+le segment de liane fouetteuse
+%%%%
+the snake
+le serpent
+%%%%
+the ball python
+le python royal
+%%%%
+the adder
+la vipère
+%%%%
+the water moccasin
+le mocassin d'eau
+%%%%
+the black mamba
+le mamba noir
+%%%%
+the sea snake
+le serpent de mer
+%%%%
+the anaconda
+l'anaconda
+%%%%
+the guardian serpent
+le serpent gardien
+%%%%
+the shock serpent
+le serpent électrique
+%%%%
+the mana viper
+la vipère de mana
+%%%%
+the troll
+le troll
+%%%%
+the iron troll
+le troll de fer
+%%%%
+the deep troll
+le troll des profondeurs
+%%%%
+the deep troll earth mage
+le mage de terre troll des profondeurs
+%%%%
+the deep troll shaman
+le chaman troll des profondeurs
+%%%%
+the vampire
+le vampire
+%%%%
+the vampire knight
+le chevalier vampire
+%%%%
+the vampire mage
+le mage vampire
+%%%%
+the jiangshi
+le jiangshi
+%%%%
+the ghost
+le fantôme
+%%%%
+the phantom
+le spectre
+%%%%
+the hungry ghost
+le fantôme affamé
+%%%%
+the flayed ghost
+le fantôme écorché
+%%%%
+the player ghost
+le fantôme du joueur
+%%%%
+the shadow
+l'ombre
+%%%%
+the silent spectre
+le spectre silencieux
+%%%%
+the drowned soul
+l'âme noyée
+%%%%
+the wraith
+le revenant
+%%%%
+the shadow wraith
+le revenant d'ombre
+%%%%
+the freezing wraith
+le revenant glacial
+%%%%
+the eidolon
+l'eidolon
+%%%%
+the phantasmal warrior
+le guerrier fantasmatique
+%%%%
+the large abomination
+la grande abomination
+%%%%
+the thrashing horror
+l'horreur déchaînée
+%%%%
+the tentacled monstrosity
+la monstruosité tentaculaire
+%%%%
+the Orb Guardian
+le gardien de l'Orbe
+%%%%
+the tentacled starspawn
+le rejeton stellaire tentaculaire
+%%%%
+the starspawn tentacle
+le tentacule de rejeton stellaire
+%%%%
+the starspawn tentacle segment
+le segment de tentacule de rejeton stellaire
+%%%%
+the starcursed mass
+la masse maudite des étoiles
+%%%%
+the dream sheep
+le mouton onirique
+%%%%
+the yak
+le yak
+%%%%
+the death yak
+le yak de la mort
+%%%%
+the catoblepas
+le catoblépas
+%%%%
+the elephant
+l'éléphant
+%%%%
+the dire elephant
+l'éléphant sinistre
+%%%%
+the hellephant
+l'éléphant infernal
+%%%%
+the apis
+l'apis
+%%%%
+the ice beast
+la bête de glace
+%%%%
+the sky beast
+la bête céleste
+%%%%
+the zombie
+le zombie
+%%%%
+the skeleton
+le squelette
+%%%%
+the simulacrum
+le simulacre
+%%%%
+the small zombie
+le petit zombie
+%%%%
+the small skeleton
+le petit squelette
+%%%%
+the small simulacrum
+le petit simulacre
+%%%%
+the large zombie
+le grand zombie
+%%%%
+the large skeleton
+le grand squelette
+%%%%
+the large simulacrum
+le grand simulacre
+%%%%
+the spectral thing
+l'entité spectrale
+%%%%
+the electric eel
+l'anguille électrique
+%%%%
+the kraken
+le kraken
+%%%%
+the tentacle
+le tentacule
+%%%%
+the tentacle segment
+le segment de tentacule
+%%%%
+the octopode
+l'octopode
+%%%%
+the lava snake
+le serpent de lave
+%%%%
+the salamander
+la salamandre
+%%%%
+the salamander mystic
+le mystique salamandre
+%%%%
+the Hellbinder
+le Lieur des Enfers
+%%%%
+the Cloud Mage
+le Mage des Nuages
+%%%%
+the player
+le joueur
+%%%%
+the player illusion
+l'illusion du joueur
+%%%%
+the dancing weapon
+l'arme dansante
+%%%%
+the spectral weapon
+l'arme spectrale
+%%%%
+the eldritch tentacle
+le tentacule ésotérique
+%%%%
+the eldritch tentacle segment
+le segment de tentacule ésotérique
+%%%%
+the demonspawn
+le demonspawn
+%%%%
+the monstrous demonspawn
+le demonspawn monstrueux
+%%%%
+the gelid demonspawn
+le demonspawn gelé
+%%%%
+the infernal demonspawn
+le demonspawn infernal
+%%%%
+the torturous demonspawn
+le demonspawn torturé
+%%%%
+the blood saint
+le saint du sang
+%%%%
+the warmonger
+le belliciste
+%%%%
+the corrupter
+le corrupteur
+%%%%
+the black sun
+le soleil noir
+%%%%
+the crimson imp
+le diablotin pourpre
+%%%%
+the quasit
+le quasit
+%%%%
+the white imp
+le diablotin blanc
+%%%%
+the ufetubus
+l'ufetubus
+%%%%
+the iron imp
+le diablotin de fer
+%%%%
+the shadow imp
+le diablotin de l'ombre
+%%%%
+the rust devil
+le démon de la rouille
+%%%%
+the orange demon
+le démon orange
+%%%%
+the red devil
+le diable rouge
+%%%%
+the hellwing
+l'aile infernale
+%%%%
+the ice devil
+le diable de glace
+%%%%
+the chaos spawn
+le rejeton du chaos
+%%%%
+the sun demon
+le démon du soleil
+%%%%
+the soul eater
+le dévoreur d'âmes
+%%%%
+the smoke demon
+le démon de fumée
+%%%%
+the neqoxec
+le neqoxec
+%%%%
+the ynoxinul
+l'ynoxinul
+%%%%
+the sixfirhy
+le sixfirhy
+%%%%
+the shadow demon
+le démon des ombres
+%%%%
+the green death
+la mort verte
+%%%%
+the blizzard demon
+le démon blizzard
+%%%%
+the balrug
+le balrug
+%%%%
+the cacodemon
+le cacodémon
+%%%%
+the hell beast
+la bête infernale
+%%%%
+the hellion
+le démon infernal
+%%%%
+the reaper
+le faucheur
+%%%%
+the lorocyproca
+le lorocyproca
+%%%%
+the tormentor
+le tourmenteur
+%%%%
+the Brimstone Fiend
+le démon de soufre
+%%%%
+the Ice Fiend
+le démon de glace
+%%%%
+the Tzitzimitl
+le Tzitzimitl
+%%%%
+the Hell Sentinel
+le sentinelle infernal
+%%%%
+the Executioner
+le bourreau
+%%%%
+the animated tree
+l'arbre animé
+%%%%
+the golem
+le golem
+%%%%
+the saltling
+le petit être de sel
+%%%%
+the peacekeeper
+le pacificateur
+%%%%
+the iron golem
+le golem de fer
+%%%%
+the crystal guardian
+le gardien de cristal
+%%%%
+the toenail golem
+le golem d'ongle
+%%%%
+the electric golem
+le golem électrique
+%%%%
+the ushabti
+l'ushabti
+%%%%
+the guardian golem
+le golem gardien
+%%%%
+the flesh golem
+le golem de chair
+%%%%
+the spellforged servitor
+le serviteur magique
+%%%%
+the ice statue
+la statue de glace
+%%%%
+the obsidian statue
+la statue d'obsidienne
+%%%%
+the orange crystal statue
+la statue de cristal orange
+%%%%
+the statue
+la statue
+%%%%
+the training dummy
+le mannequin d'entraînement
+%%%%
+the pillar of salt
+le pilier de sel
+%%%%
+the block of ice
+le bloc de glace
+%%%%
+the diamond obelisk
+l'obélisque de diamant
+%%%%
+the lightning spire
+le pilier de foudre
+%%%%
+the gargoyle
+la gargouille
+%%%%
+the war gargoyle
+la gargouille de guerre
+%%%%
+the molten gargoyle
+la gargouille en fusion
+%%%%
+the pandemonium lord
+le seigneur du pandémonium
+%%%%
+the hell lord
+le seigneur des enfers
+%%%%
+the ball lightning
+la boule de foudre
+%%%%
+the ballistomycete spore
+la spore de ballistomycète
+%%%%
+the lost soul
+l'âme perdue
+%%%%
+the lurking horror
+l'horreur tapie
+%%%%
+the orb of fire
+l'orbe de feu
+%%%%
+the orb of destruction
+l'orbe de destruction
+%%%%
+the wavering orb of destruction
+l'orbe de destruction vacillante
+%%%%
+the fulminant prism
+le prisme fulminant
+%%%%
+the wretched star
+l'étoile misérable
+%%%%
+the battlesphere
+la sphère de combat
+%%%%
+the death cob
+l'épi de maïs de la mort
+%%%%
+the moon troll
+le troll lunaire
+%%%%
+the foxfire
+le feu follet
+%%%%
+the nameless horror
+l'horreur sans nom
+%%%%
+the will-o-the-wisp
+le feu follet errant
+%%%%
+the bunyip
+le bunyip
+%%%%
+the boulder beetle
+le scarabée des rochers
+%%%%
+the cane toad
+le crapaud de mer
+%%%%
+the goliath frog
+la grenouille goliath
+%%%%
+the fenstrider witch
+la sorcière des marais
+%%%%
+the palentonga
+le palentonga
+%%%%
+the royal mummy
+la momie royale
+%%%%
+the eleionoma
+l'éléionoma
+%%%%
+the lemure
+le lémure
+%%%%
+the endoplasm
+l'endoplasme
+%%%%
+the rockslime
+la vase rocheuse
+%%%%
+the quicksilver ooze
+la gelée de vif-argent
+%%%%
+the kobold brigand
+le brigand kobold
+%%%%
+the dread lich
+le liche redoutable
+%%%%
+the djinni
+le djinn
+%%%%
+the salamander tyrant
+le tyran salamandre
+%%%%
+the animated armour
+l'armure animée
+%%%%
+# Test monsters can be created in Arena
+# Les monstres de test peuvent être créés dans l'Arène
+%%%%
+the test spawner
+le générateur de test
+%%%%
+the test statue
+la statue de test
+%%%%
+the test blob
+la masse informe de test
+%%%%
+the sensed monster
+le monstre perçu
+%%%%
+the friendly sensed monster
+le monstre perçu amical
+%%%%
+the trivial sensed monster
+le monstre perçu insignifiant
+%%%%
+the easy sensed monster
+le monstre perçu facile
+%%%%
+the tough sensed monster
+le monstre perçu coriace
+%%%%
+the nasty sensed monster
+le monstre perçu redoutable
+%%%%
+# subtypes of mutant beast
+# sous-types de bête mutante
+%%%%
+the sting beast
+la bête piquante
+%%%%
+the bat beast
+la bête-chauve-souris
+%%%%
+the fire beast
+la bête de feu
+%%%%
+the weird beast
+la bête étrange
+%%%%
+the shock beast
+la bête électrique
+%%%%
+the ox beast
+la bête-bœuf
+%%%%
+the spectre
+le spectre
+%%%%
+the centipede
+le mille-pattes
+%%%%
+the mad acolyte of Lugonu
+l'acolyte fou de Lugonu
+%%%%
+the bog mummy
+la momie des marais
+%%%%
+the lunar statue
+la statue lunaire
+%%%%
+
+# unseen monster
+%%%%
+something
+quelque chose
+%%%%
+something unseen
+quelque chose d'invisible
+%%%%
+# avoid "etwas, das du nicht sehen kannst" because it would require a following komma in some situations and not others
+something you cannot see
+quelque chose que tu ne peux voir
+%%%%
+
+# derived monsters containing the name of the original monster
+# "elf zombie", "orc skeleton", etc.
+%%%%
+the @monster@ zombie
+le zombie @monster@
+%%%%
+the @monster@ skeleton
+le squelette @monster@
+%%%%
+the @monster@ simulacrum
+le simulacre de @monster@
+%%%%
+
+# irregular derived monsters
+
+%%%%
+the Lernaean hydra zombie
+le zombie de l'hydre de Lerne
+%%%%
+the monstrous demonspawn zombie
+le zombie demonspawn monstrueux
+%%%%
+the gelid demonspawn zombie
+le zombie demonspawn gelé
+%%%%
+the infernal demonspawn zombie
+le zombie demonspawn infernal
+%%%%
+the torturous demonspawn zombie
+le zombie demonspawn torturé
+%%%%
+the black draconian zombie
+le zombie draconien noir
+%%%%
+the yellow draconian zombie
+le zombie draconien jaune
+%%%%
+the pale draconian zombie
+le zombie draconien pâle
+%%%%
+the green draconian zombie
+le zombie draconien vert
+%%%%
+the purple draconian zombie
+le zombie draconien violet
+%%%%
+the red draconian zombie
+le zombie draconien rouge
+%%%%
+the white draconian zombie
+le zombie draconien blanc
+%%%%
+the grey draconian zombie
+le zombie draconien gris
+%%%%
+
+%%%%
+the Lernaean hydra skeleton
+le squelette de l'hydre de Lerne
+%%%%
+the monstrous demonspawn skeleton
+le squelette demonspawn monstrueux
+%%%%
+the gelid demonspawn skeleton
+le squelette demonspawn gelé
+%%%%
+the infernal demonspawn skeleton
+le squelette demonspawn infernal
+%%%%
+the torturous demonspawn skeleton
+le squelette demonspawn torturé
+%%%%
+the black draconian skeleton
+le squelette draconien noir
+%%%%
+the yellow draconian skeleton
+le squelette draconien jaune
+%%%%
+the pale draconian skeleton
+le squelette draconien pâle
+%%%%
+the green draconian skeleton
+le squelette draconien vert
+%%%%
+the purple draconian skeleton
+le squelette draconien violet
+%%%%
+the red draconian skeleton
+le squelette draconien rouge
+%%%%
+the white draconian skeleton
+le squelette draconien blanc
+%%%%
+the grey draconian skeleton
+le squelette draconien gris
+%%%%
+
+%%%%
+the Lernaean hydra simulacrum
+le simulacre de l'hydre de Lerne
+%%%%
+the monstrous demonspawn simulacrum
+le simulacre demonspawn monstrueux
+%%%%
+the gelid demonspawn simulacrum
+le simulacre demonspawn gelé
+%%%%
+the infernal demonspawn simulacrum
+le simulacre demonspawn infernal
+%%%%
+the torturous demonspawn simulacrum
+le simulacre demonspawn torturé
+%%%%
+the black draconian simulacrum
+le simulacre draconien noir
+%%%%
+the yellow draconian simulacrum
+le simulacre draconien jaune
+%%%%
+the pale draconian simulacrum
+le simulacre draconien pâle
+%%%%
+the green draconian simulacrum
+le simulacre draconien vert
+%%%%
+the purple draconian simulacrum
+le simulacre draconien violet
+%%%%
+the red draconian simulacrum
+le simulacre draconien rouge
+%%%%
+the white draconian simulacrum
+le simulacre draconien blanc
+%%%%
+the grey draconian simulacrum
+le simulacre draconien gris
+%%%%
+
+##################
+# Sprint Monsters
+##################
+
+%%%%
+the kamikaze kobold
+le kobold kamikaze
+%%%%
+the orb golem
+le golem d'orbe
+%%%%
+the orb of ice
+l'orbe de glace
+%%%%
+the orb of electricity
+l'orbe d'électricité
+%%%%
+the naga warlord
+le seigneur de guerre naga
+%%%%
+the witch
+la sorcière
+%%%%
+the dire wolf spider
+l'araignée-loup sinistre
+%%%%
+the phase spider
+l'araignée de phase
+%%%%
+the dimme
+le dimme
+%%%%
+the sulfuric acid blob
+la masse d'acide sulfurique
+%%%%
+the vault guard captain
+le capitaine des gardes des coffres
+%%%%
+the Master Blaster
+le Maître Détonateur
+%%%%
+the oklob sapling priest
+le jeune prêtre oklob
+%%%%
+the oklob sapling wizard
+le jeune mage oklob
+%%%%
+the oklob plant conjurer
+l'oklob conjurateur
+%%%%
+the oklob plant summoner
+l'loklob invocateur
+%%%%
+the oklob plant shifter
+l'oklob changeforme
+%%%%
+the oklob plant meteorologist
+l'oklob météorologue
+%%%%
+the oklob plant demonologist
+l'oklob démonologue
+%%%%
+the oklob plant annihilator
+l'oklob annihilateur
+%%%%
+the bag of meat
+le sac de viande
+%%%%
+the meat berserker
+le berserker de viande
+%%%%
+the tyrant
+le tyran
+%%%%
+the meat hydra
+l'hydre de chair
+%%%%
+the dread
+l'effroi
+%%%%
+the destroyer
+le destructeur
+%%%%
+the scourge
+le fléau
+%%%%
+the sculptor of flesh
+le sculpteur de chair
+%%%%
+the observer
+l'observateur
+%%%%
+the accursed
+le maudit
+%%%%
+the vile
+le vil
+%%%%
+the meat beast
+la bête de chair
+%%%%
+the wretched soul
+l'âme misérable
+%%%%
+the fleshlord
+le seigneur de chair
+%%%%
