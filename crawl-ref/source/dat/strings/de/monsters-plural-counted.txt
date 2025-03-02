@@ -1487,129 +1487,13 @@
 # "elf zombie", "orc skeleton", etc.
 %%%%
 %d @monster@ zombies
-%d @monster@-Zombies
+%d Zombies {gen}@a_monster@
 %%%%
 %d @monster@ skeletons
-%d @monster@-Skelette
+%d Skelette {gen}@a_monster@
 %%%%
 %d @monster@ simulacra
 %d Simulacra {gen}@a_monster@
-%%%%
-
-# irregular derived monsters
-
-%%%%
-%d monstrous demonspawn zombies
-%d Monströse-Dämonenbrut-Zombies
-%%%%
-%d gelid demonspawn zombies
-%d Gelide-Dämonenbrut-Zombies
-%%%%
-%d infernal demonspawn zombies
-%d Höllische-Dämonenbrut-Zombies
-%%%%
-%d torturous demonspawn zombies
-%d Quälende-Dämonenbrut-Zombies
-%%%%
-%d black draconian zombies
-%d Schwarzer-Drakonier-Zombies
-%%%%
-%d yellow draconian zombies
-%d Gelber-Drakonier-Zombies
-%%%%
-%d pale draconian zombies
-%d Blasser-Drakonier-Zombies
-%%%%
-%d green draconian zombies
-%d Grüner-Drakonier-Zombies
-%%%%
-%d purple draconian zombies
-%d Purpurner-Drakonier-Zombies
-%%%%
-%d red draconian zombies
-%d Roter-Drakonier-Zombies
-%%%%
-%d white draconian zombies
-%d Weißer-Drakonier-Zombies
-%%%%
-%d grey draconian zombies
-%d Grauer-Drakonier-Zombies
-%%%%
-
-%%%%
-%d monstrous demonspawn skeletons
-%d Monströse-Dämonenbrut-Skelette
-%%%%
-%d gelid demonspawn skeletons
-%d Gelide-Dämonenbrut-Skelette
-%%%%
-%d infernal demonspawn skeletons
-%d Höllische-Dämonenbrut-Skelette
-%%%%
-%d torturous demonspawn skeletons
-%d Quälende-Dämonenbrut-Skelette
-%%%%
-%d black draconian skeletons
-%d Schwarzer-Drakonier-Skelette
-%%%%
-%d yellow draconian skeletons
-%d Gelber-Drakonier-Skelette
-%%%%
-%d pale draconian skeletons
-%d Blasser-Drakonier-Skelette
-%%%%
-%d green draconian skeletons
-%d Grüner-Drakonier-Skelette
-%%%%
-%d purple draconian skeletons
-%d Purpurner-Drakonier-Skelette
-%%%%
-%d red draconian skeletons
-%d Roter-Drakonier-Skelette
-%%%%
-%d white draconian skeletons
-%d Weißer-Drakonier-Skelette
-%%%%
-%d grey draconian skeletons
-%d Grauer-Drakonier-Skelette
-%%%%
-
-%%%%
-%d monstrous demonspawn simulacrum
-%d Monströse-Dämonenbrut-Simulacrum
-%%%%
-%d gelid demonspawn simulacrum
-%d Gelide-Dämonenbrut-Simulacrum
-%%%%
-%d infernal demonspawn simulacrum
-%d Höllische-Dämonenbrut-Simulacrum
-%%%%
-%d torturous demonspawn simulacrum
-%d Quälende-Dämonenbrut-Simulacrum
-%%%%
-%d black draconian simulacrum
-%d Schwarzer-Drakonier-Simulacrum
-%%%%
-%d yellow draconian simulacrum
-%d Gelber-Drakonier-Simulacrum
-%%%%
-%d pale draconian simulacrum
-%d Blasser-Drakonier-Simulacrum
-%%%%
-%d green draconian simulacrum
-%d Grüner-Drakonier-Simulacrum
-%%%%
-%d purple draconian simulacrum
-%d Purpurner-Drakonier-Simulacrum
-%%%%
-%d red draconian simulacrum
-%d Roter-Drakonier-Simulacrum
-%%%%
-%d white draconian simulacrum
-%d Weißer-Drakonier-Simulacrum
-%%%%
-%d grey draconian simulacrum
-%d Grauer-Drakonier-Simulacrum
 %%%%
 
 ##################

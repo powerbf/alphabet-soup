@@ -873,7 +873,7 @@ der Stab der Obsoleszenz
 
 %%%%
 the @monster@ corpse
-die @monster@-Leiche
+die Leiche {gen}@a_monster@
 %%%%
 
 #################################

@@ -160,7 +160,7 @@ int main()
 
     // test derived undead
     msg = localise_contextual("acc", "your elf zombie");
-    expected = "deinen Elf-Zombie";
+    expected = "deinen Zombie eines Elfs";
     show_result(msg, expected);
 
     msg = localise("3 ogre simulacra");
@@ -200,23 +200,23 @@ int main()
     show_result(msg, expected);
 
     msg = localise("a seven-headed hydra zombie (dormant)");
-    expected = "ein siebenköpfiger Hydra-Zombie (ruhend)";
+    expected = "ein siebenköpfiger Zombie einer Hydra (ruhend)";
     show_result(msg, expected);
 
     msg = localise("a 27-headed Lernaean hydra zombie (dormant)");
-    expected = "ein 27-köpfiger Lernäische-Hydra-Zombie (ruhend)";
+    expected = "ein 27-köpfiger Zombie der Lernäischen Hydra (ruhend)";
     show_result(msg, expected);
 
     msg = localise("an infernal demonspawn simulacrum (dormant)");
-    expected = "ein Höllische-Dämonenbrut-Simulacrum (ruhend)";
+    expected = "ein Simulacrum einer höllischen Dämonenbrut (ruhend)";
     show_result(msg, expected);
 
     msg = localise("You see here %s.", "a yellow draconian skeleton");
-    expected = "Du siehst hier ein Gelber-Drakonier-Skelett.";
+    expected = "Du siehst hier ein Skelett eines gelben Drakoniers.";
     show_result(msg, expected);
 
     msg = localise("You see here %s.", "3 red draconian skeletons");
-    expected = "Du siehst hier 3 Roter-Drakonier-Skelette.";
+    expected = "Du siehst hier 3 Skelette eines roten Drakoniers.";
     show_result(msg, expected);
 
     msg = localise("You strike %s from behind!", "the helpless yellow draconian");

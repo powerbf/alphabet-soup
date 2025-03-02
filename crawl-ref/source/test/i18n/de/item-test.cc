@@ -80,8 +80,8 @@ const vector<string> expected = {
     "ein +6 Ring der Intelligenz (760 Gold)",
     "ein verfluchter -4 Ring der Geschicklichkeit (26 Gold)",
 
-    "eine Ork-Leiche (inzwischen skelettiert)",
-    "eine Goblin-Leiche (inzwischen skelettiert)",
+    "eine Leiche eines Orks (inzwischen skelettiert)",
+    "eine Leiche eines Goblins (inzwischen skelettiert)",
 
     "ein Zauberstab des Grabens (18)",
     "ein Blitzfänger (3/4)",

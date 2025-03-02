@@ -1507,10 +1507,10 @@ etwas Unsichtbares
 # "elf zombie", "orc skeleton", etc.
 %%%%
 the @monster@ zombie
-der @monster@-Zombie
+der Zombie {gen}@a_monster@
 %%%%
 the @monster@ skeleton
-das @monster@-Skelett
+das Skelett {gen}@a_monster@
 %%%%
 the @monster@ simulacrum
 das Simulacrum {gen}@a_monster@
@@ -1520,125 +1520,13 @@ das Simulacrum {gen}@a_monster@
 
 %%%%
 the Lernaean hydra zombie
-der Lernäische-Hydra-Zombie
-%%%%
-the monstrous demonspawn zombie
-der Monströse-Dämonenbrut-Zombie
-%%%%
-the gelid demonspawn zombie
-der Gelide-Dämonenbrut-Zombie
-%%%%
-the infernal demonspawn zombie
-der Höllische-Dämonenbrut-Zombie
-%%%%
-the torturous demonspawn zombie
-der Quälende-Dämonenbrut-Zombie
-%%%%
-the black draconian zombie
-der Schwarzer-Drakonier-Zombie
-%%%%
-the yellow draconian zombie
-der Gelber-Drakonier-Zombie
-%%%%
-the pale draconian zombie
-der Blasser-Drakonier-Zombie
-%%%%
-the green draconian zombie
-der Grüner-Drakonier-Zombie
-%%%%
-the purple draconian zombie
-der Purpurner-Drakonier-Zombie
-%%%%
-the red draconian zombie
-der Roter-Drakonier-Zombie
-%%%%
-the white draconian zombie
-der Weißer-Drakonier-Zombie
-%%%%
-the grey draconian zombie
-der Grauer-Drakonier-Zombie
-%%%%
-
+der Zombie der Lernäischen Hydra
 %%%%
 the Lernaean hydra skeleton
-das Lernäische-Hydra-Skelett
-%%%%
-the monstrous demonspawn skeleton
-das Monströse-Dämonenbrut-Skelett
-%%%%
-the gelid demonspawn skeleton
-das Gelide-Dämonenbrut-Skelett
-%%%%
-the infernal demonspawn skeleton
-das Höllische-Dämonenbrut-Skelett
-%%%%
-the torturous demonspawn skeleton
-das Quälende-Dämonenbrut-Skelett
-%%%%
-the black draconian skeleton
-das Schwarzer-Drakonier-Skelett
-%%%%
-the yellow draconian skeleton
-das Gelber-Drakonier-Skelett
-%%%%
-the pale draconian skeleton
-das Blasser-Drakonier-Skelett
-%%%%
-the green draconian skeleton
-das Grüner-Drakonier-Skelett
-%%%%
-the purple draconian skeleton
-das Purpurner-Drakonier-Skelett
-%%%%
-the red draconian skeleton
-das Roter-Drakonier-Skelett
-%%%%
-the white draconian skeleton
-das Weißer-Drakonier-Skelett
-%%%%
-the grey draconian skeleton
-das Grauer-Drakonier-Skelett
-%%%%
-
+das Skelett der Lernäischen Hydra
 %%%%
 the Lernaean hydra simulacrum
-das Lernäische-Hydra-Simulacrum
-%%%%
-the monstrous demonspawn simulacrum
-das Monströse-Dämonenbrut-Simulacrum
-%%%%
-the gelid demonspawn simulacrum
-das Gelide-Dämonenbrut-Simulacrum
-%%%%
-the infernal demonspawn simulacrum
-das Höllische-Dämonenbrut-Simulacrum
-%%%%
-the torturous demonspawn simulacrum
-das Quälende-Dämonenbrut-Simulacrum
-%%%%
-the black draconian simulacrum
-das Schwarzer-Drakonier-Simulacrum
-%%%%
-the yellow draconian simulacrum
-das Gelber-Drakonier-Simulacrum
-%%%%
-the pale draconian simulacrum
-das Blasser-Drakonier-Simulacrum
-%%%%
-the green draconian simulacrum
-das Grüner-Drakonier-Simulacrum
-%%%%
-the purple draconian simulacrum
-das Purpurner-Drakonier-Simulacrum
-%%%%
-the red draconian simulacrum
-das Roter-Drakonier-Simulacrum
-%%%%
-the white draconian simulacrum
-das Weißer-Drakonier-Simulacrum
-%%%%
-the grey draconian simulacrum
-das Grauer-Drakonier-Simulacrum
+das Simulacrum der Lernäischen Hydra
 %%%%
 
 ##################

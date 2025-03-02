@@ -1498,138 +1498,26 @@ des Etwas
 # "elf zombie", "orc skeleton", etc.
 %%%%
 the @monster@ zombie's
-des @monster@-Zombies
+des Zombies {gen}@a_monster@
 %%%%
 the @monster@ skeleton's
-des @monster@-Skeletts
+des Skeletts {gen}@a_monster@
 %%%%
 the @monster@ simulacrum's
-des @monster@-Simulacrums
+des Simulacrums {gen}@a_monster@
 %%%%
 
 # irregular derived monsters
 
 %%%%
 the Lernaean hydra zombie's
-des Lernäische-Hydra-zombies
-%%%%
-the monstrous demonspawn zombie's
-des Monströse-Dämonenbrut-zombies
-%%%%
-the gelid demonspawn zombie's
-des Gelide-Dämonenbrut-zombies
-%%%%
-the infernal demonspawn zombie's
-des Höllische-Dämonenbrut-zombies
-%%%%
-the torturous demonspawn zombie's
-des Quälende-Dämonenbrut-zombies
-%%%%
-the black draconian zombie's
-des Schwarzer-Drakonier-zombies
-%%%%
-the yellow draconian zombie's
-des Gelber-Drakonier-zombies
-%%%%
-the pale draconian zombie's
-des Blasser-Drakonier-zombies
-%%%%
-the green draconian zombie's
-des Grüner-Drakonier-zombies
-%%%%
-the purple draconian zombie's
-des Purpurner-Drakonier-zombies
-%%%%
-the red draconian zombie's
-des Roter-Drakonier-zombies
-%%%%
-the white draconian zombie's
-des Weißer-Drakonier-zombies
-%%%%
-the grey draconian zombie's
-des Grauer-Drakonier-zombies
-%%%%
-
+des Zombies der Lernäischen Hydra
 %%%%
 the Lernaean hydra skeleton's
-des Lernäische-Hydra-Skeletts
-%%%%
-the monstrous demonspawn skeleton's
-des Monströse-Dämonenbrut-Skeletts
-%%%%
-the gelid demonspawn skeleton's
-des Gelide-Dämonenbrut-Skeletts
-%%%%
-the infernal demonspawn skeleton's
-des Höllische-Dämonenbrut-Skeletts
-%%%%
-the torturous demonspawn skeleton's
-des Quälende-Dämonenbrut-Skeletts
-%%%%
-the black draconian skeleton's
-des Schwarzer-Drakonier-Skeletts
-%%%%
-the yellow draconian skeleton's
-des Gelber-Drakonier-Skeletts
-%%%%
-the pale draconian skeleton's
-des Blasser-Drakonier-Skeletts
-%%%%
-the green draconian skeleton's
-des Grüner-Drakonier-Skeletts
-%%%%
-the purple draconian skeleton's
-des Purpurner-Drakonier-Skeletts
-%%%%
-the red draconian skeleton's
-des Roter-Drakonier-Skeletts
-%%%%
-the white draconian skeleton's
-des Weißer-Drakonier-Skeletts
-%%%%
-the grey draconian skeleton's
-des Grauer-Drakonier-Skeletts
-%%%%
-
+des Skeletts der Lernäischen Hydra
 %%%%
 the Lernaean hydra simulacrum's
-des Lernäische-Hydra-Simulacrums
-%%%%
-the monstrous demonspawn simulacrum's
-des Monströse-Dämonenbrut-Simulacrums
-%%%%
-the gelid demonspawn simulacrum's
-des Gelide-Dämonenbrut-Simulacrums
-%%%%
-the infernal demonspawn simulacrum's
-des Höllische-Dämonenbrut-Simulacrums
-%%%%
-the torturous demonspawn simulacrum's
-des Quälende-Dämonenbrut-Simulacrums
-%%%%
-the black draconian simulacrum's
-des Schwarzer-Drakonier-Simulacrums
-%%%%
-the yellow draconian simulacrum's
-des Gelber-Drakonier-Simulacrums
-%%%%
-the pale draconian simulacrum's
-des Blasser-Drakonier-Simulacrums
-%%%%
-the green draconian simulacrum's
-des Grüner-Drakonier-Simulacrums
-%%%%
-the purple draconian simulacrum's
-des Purpurner-Drakonier-Simulacrums
-%%%%
-the red draconian simulacrum's
-des Roter-Drakonier-Simulacrums
-%%%%
-the white draconian simulacrum's
-des Weißer-Drakonier-Simulacrums
-%%%%
-the grey draconian simulacrum's
-des Grauer-Drakonier-Simulacrums
+des Simulacrums der Lernäischen Hydra
 %%%%
 
 ##################
