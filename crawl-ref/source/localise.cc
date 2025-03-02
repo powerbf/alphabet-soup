@@ -1640,7 +1640,6 @@ static string _localise_derived_monster_name(const string& context, const string
 
         original = cxlate(param_ctx, original_en);
         original = _discard_context(original);
-        fprintf(stderr, "%s (%s) -> %s\n", original_en.c_str(), param_ctx.c_str(), original.c_str());
         result = replace_first(result, param, original);
     }
 
