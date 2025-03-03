@@ -92,12 +92,13 @@ int main(int argc, char** argv)
         bool corpse = mons_class_can_leave_corpse(base_type);
         bool no_skeleton = mons_class_flag(base_type, M_NO_SKELETON);
         bool no_zombie = mons_class_flag(base_type, M_NO_ZOMBIE);
+        //bool zombifiable = mons_class_can_be_zombified(base_type);
 
         TRACE("natural: %d, undead: %d, demonic: %d, holy: %d, nonliving:%d, "
               "plant: %d, insubstantial: %d, zombified: %d, corpse: %d, "
-              "no_skeleton: %d, no_zombie: %d, %s, %s",
+              "no_skeleton: %d, no_zombie: %d, zombifiable: %d, %s, %s",
               natural, undead, demonic, holy, nonliving, plant, insubstantial,
-              zombified, corpse, no_skeleton, no_zombie,
+              zombified, corpse, no_skeleton, no_zombie, zombifiable,
               mons_class_name(mons_species(base_type)),
               mons_class_name(mons_genus(base_type))
             );
@@ -126,13 +127,13 @@ int main(int argc, char** argv)
         }
         else if (derived_type == MONS_SIMULACRUM)
         {
-            // Simulacrum spell works on natural, demonic, holy
+            // Simulacrum spell works on natural monsters, and from v0.29, also demonic, holy.
             if (undead)
                 continue;
         }
         else if (derived_type == MONS_SPECTRAL_THING)
         {
-            // Death Channel works on natural, demonic, holy
+            // Death Channel works on natural monsters, and from v0.28, also demonic, holy.
             if (undead)
                 continue;
         }
