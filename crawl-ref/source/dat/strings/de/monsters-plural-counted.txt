@@ -487,7 +487,7 @@
 %d Geisterkrabben
 %%%%
 %d apocalypse crabs
-%d Apokalypse-Krabben
+%d Apokalypsenkrabben
 %%%%
 %d ugly things
 %d hässliche Dinge
@@ -547,7 +547,7 @@
 %d Bienenköniginnen
 %%%%
 %d vampire mosquitoes
-%d Vampir-Mücken
+%d Vampirmoskitos
 %%%%
 %d hornets
 %d Hornissen
@@ -742,7 +742,7 @@
 %d Harpyien
 %%%%
 %d mutant beasts
-%d Mutant-Biester
+%d Mutantenbiester
 %%%%
 %d ancestors
 %d Ahnen
@@ -919,7 +919,7 @@
 %d Anakondas
 %%%%
 %d guardian serpents
-%d Wächter-Schlangen
+%d Wächterschlangen
 %%%%
 %d shock serpents
 %d Schockschlangen
