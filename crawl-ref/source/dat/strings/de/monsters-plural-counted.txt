@@ -1487,7 +1487,7 @@
 # "elf zombie", "orc skeleton", etc.
 %%%%
 %d @monster@ zombies
-%d Zombies {gen}@a_monster@
+%d @monster@-Zombies
 %%%%
 %d @monster@ skeletons
 %d Skelette {gen}@a_monster@
@@ -1495,6 +1495,14 @@
 %d @monster@ simulacra
 %d Simulacra {gen}@a_monster@
 %%%%
+
+# irregular derived monsters
+%%%%
+# force the colour adjectives to decline properly
+%d draconian zombies
+%d Drakonier-Zombies
+%%%%
+
 
 ##################
 # Sprint Monsters

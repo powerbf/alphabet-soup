@@ -2,6 +2,7 @@
 #include "fake-main.hpp"
 #include "localise.h"
 #include "database.h"
+#include "english.h"
 #include "initfile.h"
 #include "mgen-data.h"
 #include "mon-place.h"
@@ -24,7 +25,7 @@ using namespace std;
 
 static void _show_usage()
 {
-    cerr << "Usage: derived-mon-test <language> [zombie|skeleton|simulacrum|spectre]"
+    cerr << "Usage: derived-mon-test <language> [zombie|skeleton|simulacrum|spectre] [the|a|%d]"
          << endl;
 }
 
@@ -32,7 +33,8 @@ int main(int argc, char** argv)
 {
 
     string lang = argc > 1 ? argv[1] : "";
-    string derived_type_str = argc > 2 ? argv[2] : "";
+    string derived_type_str = argc > 2 ? argv[2] : "zombie";
+    string determiner = argc > 3 ? argv[3] : "";
 
     if (lang == "" || derived_type_str == "")
     {
@@ -112,6 +114,10 @@ int main(int argc, char** argv)
         if (nonliving || plant)
             continue;
 
+        // uniques don't have plurals
+        if (determiner == "%d" && mons_class_flag(base_type, M_UNIQUE))
+            continue;
+
         if (derived_type == MONS_SKELETON)
         {
             if (no_skeleton || !corpse)
@@ -162,9 +168,29 @@ int main(int argc, char** argv)
         if (orig.has_hydra_multi_attack())
             mon.num_heads = orig.num_heads;
 
-        //string orig_name = mons_class_name(base_type);
-        string orig_name = orig.full_name(DESC_THE);
-        string name = mon.full_name(DESC_THE);
+        string orig_name, name;
+        if (determiner == "the")
+        {
+            orig_name = orig.full_name(DESC_THE);
+            name = mon.full_name(DESC_THE);
+        }
+        else if (determiner == "a")
+        {
+            orig_name = orig.full_name(DESC_A);
+            name = mon.full_name(DESC_A);
+        }
+        else
+        {
+            orig_name = orig.full_name(DESC_PLAIN);
+            name = mon.full_name(DESC_PLAIN);
+
+            if (determiner == "%d")
+            {
+                orig_name = "%d " + pluralise(orig_name);
+                string derived_plural = pluralise(derived_type_str);
+                name = "%d " + replace_last(name, derived_type_str, derived_plural);
+            }
+        }
         printf("%s", chop_string(localise(orig_name), 40, true).c_str());
         printf("%s\n", localise(name).c_str());
     }
