@@ -37,19 +37,19 @@
 %d Phasenfledermäuse
 %%%%
 %d skeletal bats
-%d Skelett-Fledermäuse
+%d Skelettfledermäuse
 %%%%
 %d microbats
-%d Micro-Fledermäuse
+%d Microfledermäuse
 %%%%
 %d megabats
-%d Mega-Fledermäuse
+%d Megafledermäuse
 %%%%
 %d giga bats
-%d Giga-Fledermäuse
+%d Gigafledermäuse
 %%%%
 %d bennus
-%d Bennus
+%d Benus
 %%%%
 %d caustic shrikes
 %d ätzende Würger
@@ -163,7 +163,7 @@
 %d wandernde Pilze
 %%%%
 %d deathcaps
-%d Todesmützen
+%d Todeskappen
 %%%%
 %d thorn hunters
 %d Dornenjäger
@@ -274,13 +274,13 @@
 %d Sumpfdrachlinge
 %%%%
 %d rime drakes
-%d Reifsdrachlinge
+%d Reifdrachlinge
 %%%%
 %d wind drakes
 %d Winddrachlinge
 %%%%
 %d lindwurms
-%d Lindwurme
+%d Lindwürmer
 %%%%
 %d death drakes
 %d Todesdrachlinge
@@ -295,25 +295,25 @@
 %d Leguane
 %%%%
 %d basilisks
-%d Basiliske
+%d Basilisken
 %%%%
 %d wyverns
-%d Wyverns
+%d Wyvern
 %%%%
 %d komodo dragons
 %d Komododrachen
 %%%%
 %d merfolk
-%d Meervolke
+%d Meerwesen
 %%%%
 %d merfolk impalers
-%d Meervolk-Impaler
+%d Meervolk-Pfähler
 %%%%
 %d merfolk javelineers
-%d Meervolk-Speerführer
+%d Meervolk-Speerwerfer
 %%%%
 %d merfolk aquamancers
-%d Meervolk-Aquamancer
+%d Meervolk-Wasserbeschwörerinnen
 %%%%
 %d merfolk sirens
 %d Meervolk-Sirenen
@@ -328,16 +328,16 @@
 %d Moorleichen
 %%%%
 %d necrophages
-%d Nekrophagene
+%d Nekrophagen
 %%%%
 %d bloated husks
-%d aufgeblähte Hülle
+%d aufgeblähte Hüllen
 %%%%
 %d ghouls
 %d Ghule
 %%%%
 %d orcs
-%d Orke
+%d Orks
 %%%%
 %d orc wizards
 %d Ork-Zauberer
@@ -352,7 +352,7 @@
 %d Ork-Ritter
 %%%%
 %d orc warlords
-%d Ork-Warlorde
+%d Ork-Warlords
 %%%%
 %d orc sorcerers
 %d Ork-Hexenmeister
@@ -376,10 +376,10 @@
 %d Zauberer
 %%%%
 %d vault guards
-%d Tresorwächter
+%d Tresorwachen
 %%%%
 %d vault sentinels
-%d Tresorwachen
+%d Tresorkundschafter
 %%%%
 %d vault wardens
 %d Tresorwärter
@@ -400,7 +400,7 @@
 %d eisenbeschlagene Donnerkolosse
 %%%%
 %d imperial myrmidons
-%d kaiserliche Myrmidone
+%d imperiale Myrmidonen
 %%%%
 %d servants of whispers
 %d Diener des Flüsterns
@@ -418,7 +418,7 @@
 %d Killer-Klowns
 %%%%
 %d demigods
-%d Halbgotte
+%d Halbgötter
 %%%%
 %d halflings
 %d Halblinge
@@ -451,10 +451,10 @@
 %d Spinnen
 %%%%
 %d tarantellas
-%d Tarantellen
+%d Tarantellas
 %%%%
 %d jumping spiders
-%d springende Spinnen
+%d Springspinnen
 %%%%
 %d wolf spiders
 %d Wolfsspinnen
@@ -469,7 +469,7 @@
 %d Kugelspinnen
 %%%%
 %d alligators
-%d Alligatore
+%d Alligatoren
 %%%%
 %d snapping turtles
 %d Schnappschildkröten
@@ -502,19 +502,19 @@
 %d räumliche Wirbel
 %%%%
 %d spatial maelstroms
-%d räumliche Mahlstrome
+%d räumliche Mahlströme
 %%%%
 %d insubstantial wisps
-%d unwesentliche Irrlichte
+%d unwirkliche Irrlichter
 %%%%
 %d twisters
 %d Twister
 %%%%
 %d worms
-%d Wurme
+%d Würmer
 %%%%
 %d swamp worms
-%d Sumpfwurme
+%d Sumpfwürmer
 %%%%
 %d tyrant leeches
 %d Tyrannblutegel
@@ -523,22 +523,22 @@
 %d Pfeilschnecken
 %%%%
 %d torpor snails
-%d Erstarrungsschnecken
+%d Torporschnecken
 %%%%
 %d elephant slugs
 %d Elefantenschnecken
 %%%%
 %d unseen horrors
-%d unsichtbare Grauene
+%d unsichtbare Schrecken
 %%%%
 %d small abominations
-%d kleine Greuel
+%d kleine Abscheulichkeiten
 %%%%
 %d ancient zymes
 %d uralte Zyme
 %%%%
 %d worldbinders
-%d Weltbinder
+%d Weltenbinder
 %%%%
 %d killer bees
 %d Killerbienen
@@ -574,25 +574,25 @@
 %d Skelettkrieger
 %%%%
 %d ancient champions
-%d alte Champione
+%d uralte Champions
 %%%%
 %d flying skulls
 %d fliegende Schädel
 %%%%
 %d curse skulls
-%d Fluchschädel
+%d verfluchte Schädel
 %%%%
 %d curse toes
-%d Fluchzehen
+%d verfluchte Zehen
 %%%%
 %d angels
 %d Engel
 %%%%
 %d cherubim
-%d Cherube
+%d Cherubim
 %%%%
 %d seraphim
-%d Seraphe
+%d Seraphim
 %%%%
 %d daevas
 %d Daevas
@@ -604,10 +604,10 @@
 %d Riesen
 %%%%
 %d cyclopes
-%d Zyklope
+%d Zyklopen
 %%%%
 %d ettins
-%d Ettine
+%d Ettins
 %%%%
 %d fire giants
 %d Feuerriesen
@@ -619,7 +619,7 @@
 %d Steinriesen
 %%%%
 %d titans
-%d Titane
+%d Titanen
 %%%%
 %d juggernauts
 %d Juggernaute
@@ -703,7 +703,7 @@
 %d Blinzelfrösche
 %%%%
 %d barachim
-%d Barachis
+%d Barachim
 %%%%
 %d floating eyes
 %d schwebende Augen
@@ -727,7 +727,7 @@
 %d goldene Augen
 %%%%
 %d ophanim
-%d Ophane
+%d Ophanim
 %%%%
 %d manticores
 %d Mantikore
@@ -757,16 +757,16 @@
 %d Hexer
 %%%%
 %d jellies
-%d Geleen
+%d Gelees
 %%%%
 %d slime creatures
-%d Schleimwesene
+%d Schleimkreaturen
 %%%%
 %d merged slime creatures
 %d verschmolzene Schleimkreaturen
 %%%%
 %d azure jellies
-%d azurblaue Geleen
+%d azurblaue Gelees
 %%%%
 %d acid blobs
 %d Säureklumpen
@@ -805,7 +805,7 @@
 %d größere Mumien
 %%%%
 %d mummy priests
-%d Mumie-Priester
+%d Mumienpriester
 %%%%
 %d nagas
 %d Nagas
@@ -850,10 +850,10 @@
 %d Oklobpflanzen
 %%%%
 %d bushes
-%d Busche
+%d Büsche
 %%%%
 %d burning bushes
-%d brennende Busche
+%d brennende Büsche
 %%%%
 %d toadstools
 %d Giftpilze
@@ -868,7 +868,7 @@
 %d hyperaktive Ballistomyceten
 %%%%
 %d briar patches
-%d Dornstrauche
+%d Dornensträucher
 %%%%
 %d tengu
 %d Tengus
@@ -880,10 +880,10 @@
 %d Tengu-Krieger
 %%%%
 %d tengu reavers
-%d Tengu-Häscher
+%d Tengu-Plünderer
 %%%%
 %d efreet
-%d Efreete
+%d Afarit
 %%%%
 %d rakshasas
 %d Rakshasas
@@ -892,22 +892,22 @@
 %d Dryaden
 %%%%
 %d snaplasher vines
-%d Peitscherreben
+%d Peitschenreben
 %%%%
 %d snaplasher vine segments
-%d Peitscherrebesegmente
+%d Peitschenrebesegmente
 %%%%
 %d snakes
 %d Schlangen
 %%%%
 %d ball pythons
-%d Königspythonen
+%d Königspythons
 %%%%
 %d adders
 %d Kreuzottern
 %%%%
 %d water moccasins
-%d Wassermokassine
+%d Wassermokassins
 %%%%
 %d black mambas
 %d schwarze Mambas
@@ -952,10 +952,10 @@
 %d Vampir-Magier
 %%%%
 %d jiangshi
-%d Jiangshis
+%d Jiangshi
 %%%%
 %d ghosts
-%d Gespenste
+%d Gespenster
 %%%%
 %d phantoms
 %d Phantome
@@ -964,7 +964,7 @@
 %d hungrige Geister
 %%%%
 %d flayed ghosts
-%d enthäutete Geister
+%d geschundene Geister
 %%%%
 %d player ghosts
 %d Spielergeister
@@ -973,40 +973,40 @@
 %d Schatten
 %%%%
 %d silent spectres
-%d stille Gespenste
+%d stille Gespenster
 %%%%
 %d drowned souls
 %d ertrunkene Seelen
 %%%%
 %d wraiths
-%d Geister
+%d Spuke
 %%%%
 %d shadow wraiths
-%d Schattengeister
+%d Schattenspuke
 %%%%
 %d freezing wraiths
-%d Frostgeister
+%d Frostspuke
 %%%%
 %d eidola
-%d Eidolone
+%d Eidola
 %%%%
 %d phantasmal warriors
 %d phantastische Krieger
 %%%%
 %d large abominations
-%d große Greuel
+%d große Abscheulichkeiten
 %%%%
 %d thrashing horrors
-%d verprügelnde Grauene
+%d prügelnde Grauen
 %%%%
 %d tentacled monstrosities
-%d Tentakel-Monstrositäten
+%d Tentakelmonstren
 %%%%
 %d Orb Guardians
 %d Kugelwächter
 %%%%
 %d tentacled starspawn
-%d Tentakelsternbrute
+%d Tentakelsternbruten
 %%%%
 %d starspawn tentacles
 %d Sternbruttentakel
@@ -1015,19 +1015,19 @@
 %d Sternbruttentakelsegmente
 %%%%
 %d starcursed masses
-%d sternverfluchte Massen
+%d sternenverfluchte Massen
 %%%%
 %d dream sheep
 %d Traumschafe
 %%%%
 %d yaks
-%d Yake
+%d Yaks
 %%%%
 %d death yaks
-%d Todesyake
+%d Todesyaks
 %%%%
 %d catoblepae
-%d Catoblepasen
+%d Katoblepas
 %%%%
 %d elephants
 %d Elefanten
@@ -1039,13 +1039,13 @@
 %d Höllefanten
 %%%%
 %d apis
-%d Apisen
+%d Apis
 %%%%
 %d ice beasts
 %d Eisbestien
 %%%%
 %d sky beasts
-%d Himmelstiere
+%d Himmelsbestien
 %%%%
 %d zombies
 %d Zombies
@@ -1075,13 +1075,13 @@
 %d große Simulacra
 %%%%
 %d spectral things
-%d spektrale Sachen
+%d spektrale Dinge
 %%%%
 %d electric eels
 %d Zitteraale
 %%%%
 %d krakens
-%d Krakene
+%d Kraken
 %%%%
 %d tentacles
 %d Tentakel
@@ -1090,7 +1090,7 @@
 %d Tentakelsegmente
 %%%%
 %d octopodes
-%d Oktopode
+%d Oktopoden
 %%%%
 %d lava snakes
 %d Lavaschlangen
@@ -1132,7 +1132,7 @@
 %d monströse Dämonenbruten
 %%%%
 %d gelid demonspawn
-%d gelide Dämonenbrute
+%d gelide Dämonenbruten
 %%%%
 %d infernal demonspawn
 %d höllische Dämonenbruten
@@ -1141,13 +1141,13 @@
 %d quälende Dämonenbruten
 %%%%
 %d blood saints
-%d Blutheiligen
+%d Blutheilige
 %%%%
 %d warmongers
 %d Kriegstreiber
 %%%%
 %d corrupters
-%d Korruptore
+%d Korruptoren
 %%%%
 %d black suns
 %d schwarze Sonnen
@@ -1174,7 +1174,7 @@
 %d Rostteufel
 %%%%
 %d orange demons
-%d orange Dämone
+%d orange Dämonen
 %%%%
 %d red devils
 %d rote Teufel
@@ -1189,16 +1189,16 @@
 %d Chaosbruten
 %%%%
 %d sun demons
-%d Sonnendämone
+%d Sonnendämonen
 %%%%
 %d soul eaters
 %d Seelenfresser
 %%%%
 %d smoke demons
-%d Rauchdämone
+%d Rauchdämonen
 %%%%
 %d neqoxecs
-%d Neqoxecen
+%d Neqoxecs
 %%%%
 %d ynoxinuls
 %d Ynoxinule
@@ -1207,25 +1207,25 @@
 %d Sixfirhys
 %%%%
 %d shadow demons
-%d Schattendämone
+%d Schattendämonen
 %%%%
 %d green deaths
 %d grüne Tode
 %%%%
 %d blizzard demons
-%d Blizzarddämone
+%d Blizzarddämonen
 %%%%
 %d balrugs
-%d Balruge
+%d Balrogs
 %%%%
 %d cacodemons
-%d Cacodaemone
+%d Kakodämonen
 %%%%
 %d hell beasts
-%d Höllentiere
+%d Höllenbiester
 %%%%
 %d hellions
-%d Teufelsbratene
+%d Teufelsbraten
 %%%%
 %d reapers
 %d Schnitter
@@ -1237,13 +1237,13 @@
 %d Peiniger
 %%%%
 %d Brimstone Fiends
-%d Schwefelunterweltler
+%d Schwefelunholde
 %%%%
 %d Ice Fiends
-%d Eisunterweltler
+%d Eisunholde
 %%%%
 %d Tzitzimimeh
-%d Tzitzimitle
+%d Tzitzimitl
 %%%%
 %d Hell Sentinels
 %d Höllenwächter
@@ -1255,7 +1255,7 @@
 %d animierte Bäume
 %%%%
 %d golems
-%d Goleme
+%d Golems
 %%%%
 %d saltlings
 %d Salzlinge
@@ -1264,28 +1264,28 @@
 %d Friedenshüter
 %%%%
 %d iron golems
-%d Eisengoleme
+%d Eisengolems
 %%%%
 %d crystal guardians
 %d Kristallwächter
 %%%%
 %d toenail golems
-%d Zehennagelgoleme
+%d Zehennagelgolems
 %%%%
 %d electric golems
-%d Blitzgoleme
+%d Blitzgolems
 %%%%
 %d ushabtiu
-%d Uschabtis
+%d Uschebti
 %%%%
 %d guardian golems
-%d Wächtergoleme
+%d Wächtergolems
 %%%%
 %d flesh golems
-%d Fleischgoleme
+%d Fleischgolems
 %%%%
 %d spellforged servitors
-%d zaubergeschmeidete Diener
+%d zaubergeschmiedete Diener
 %%%%
 %d ice statues
 %d Eisstatuen
@@ -1306,13 +1306,13 @@
 %d Salzsäulen
 %%%%
 %d blocks of ice
-%d Eisblocke
+%d Eisblöcke
 %%%%
 %d diamond obelisks
-%d Diamantobeliske
+%d Diamantobelisken
 %%%%
 %d lightning spires
-%d Blitzturme
+%d Blitztürme
 %%%%
 %d gargoyles
 %d Gargoyles
@@ -1339,7 +1339,7 @@
 %d verlorene Seelen
 %%%%
 %d lurking horrors
-%d lauernde Grauene
+%d lauernde Grauen
 %%%%
 %d orbs of fire
 %d Feuerkugeln
@@ -1354,7 +1354,7 @@
 %d elende Sterne
 %%%%
 %d battlespheres
-%d Kampfsphären
+%d Gefechtssphären
 %%%%
 %d death cobs
 %d Todeskolben
@@ -1366,7 +1366,7 @@
 %d Fuchsfeuer
 %%%%
 %d nameless horrors
-%d namenlose Horrors
+%d namenlose Horror
 %%%%
 %d will-o-the-wisps
 %d Irrlichter
@@ -1411,10 +1411,10 @@
 %d Kobold-Briganten
 %%%%
 %d dread liches
-%d Grauenlichs
+%d grauenhafte Lichs
 %%%%
 %d djinn
-%d Dschinn
+%d Dschinns
 %%%%
 %d salamander tyrants
 %d Salamander-Tyrannen
@@ -1453,7 +1453,7 @@
 %d Stichbiester
 %%%%
 %d bat beasts
-%d Fledermaus-Biester
+%d Fledermausbiester
 %%%%
 %d fire beasts
 %d Feuerbiester
@@ -1480,7 +1480,7 @@
 %d Moormumien
 %%%%
 %d lunar statues
-%d Mond-Statuen
+%d Mondstatuen
 %%%%
 
 # derived monsters containing the name of the original monster
@@ -1526,7 +1526,7 @@
 %d Phasenspinnen
 %%%%
 %d dimmes
-%d Dimmes
+%d Dimmen
 %%%%
 %d sulfuric acid blobs
 %d Schwefelsaure-Klumpen
@@ -1535,7 +1535,7 @@
 %d Haupttresorwächter
 %%%%
 %d Master Blasters
-%d Master-Blasters
+%d Master-Blaster
 %%%%
 %d oklob sapling priests
 %d Oklobsetzlingspriester
@@ -1571,7 +1571,7 @@
 %d Tyrannen
 %%%%
 %d meat hydras
-%d fleischliche Hydren
+%d Fleisch-Hydren
 %%%%
 %d dreads
 %d Schrecken
