@@ -160,7 +160,7 @@ int main()
 
     // test derived undead
     msg = localise_contextual("acc", "your elf zombie");
-    expected = "deinen Zombie eines Elfs";
+    expected = "deinen Zombie eines Elfen";
     show_result(msg, expected);
 
     msg = localise("3 ogre simulacra");

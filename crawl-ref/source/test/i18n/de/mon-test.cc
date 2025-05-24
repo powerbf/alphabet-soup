@@ -229,7 +229,7 @@ int main()
     cout << endl;
 
     // derived monsters (should have the gender of the derived monster, not the original)
-    test("Du triffst den hilflosen Zombie eines Meervolks", "You hit %s", "the helpless merfolk zombie");
+    test("Du triffst den hilflosen Zombie eines Meerwesens", "You hit %s", "the helpless merfolk zombie");
     test("Du triffst das hilflose Skelett eines Orks", "You hit %s", "the helpless orc skeleton");
     test("Du triffst das hilflose Simulacrum eines Orks", "You hit %s", "the helpless orc simulacrum");
     test("eine Ork-förmige Salzsäule", "an orc shaped pillar of salt");
