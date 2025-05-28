@@ -160,15 +160,15 @@ int main()
     cout << endl;
 
     // unique with weak declension
-    test("Prinz Ribbit", "Prince Ribbit");
-    test("der hilflose Prinz Ribbit", "the helpless Prince Ribbit");
-    test("hilfloser Prinz Ribbit", "helpless Prince Ribbit");
-    test("Du triffst Prinzen Ribbit", "You hit %s", "Prince Ribbit");
-    test("Du triffst den hilflosen Prinzen Ribbit", "You hit %s", "the helpless Prince Ribbit");
-    test("Du kollidierst mit Prinzen Ribbit!", "You collide with %s!", "Prince Ribbit");
-    test("Du kollidierst mit dem hilflosen Prinzen Ribbit!", "You collide with %s!", "the helpless Prince Ribbit");
-    test("Du blockst den Angriff von Prinz Ribbit.", "You block %s attack.", "Prince Ribbit's");
-    test("Die Wunden von Prinz Ribbit heilen von selbst!", "%s's wounds heal themselves!", "Prince Ribbit");
+    test("Prinz Quak", "Prince Ribbit");
+    test("der hilflose Prinz Quak", "the helpless Prince Ribbit");
+    test("hilfloser Prinz Quak", "helpless Prince Ribbit");
+    test("Du triffst Prinz Quak", "You hit %s", "Prince Ribbit");
+    test("Du triffst den hilflosen Prinz Quak", "You hit %s", "the helpless Prince Ribbit");
+    test("Du kollidierst mit Prinz Quak!", "You collide with %s!", "Prince Ribbit");
+    test("Du kollidierst mit dem hilflosen Prinz Quak!", "You collide with %s!", "the helpless Prince Ribbit");
+    test("Du blockst den Angriff von Prinz Quak.", "You block %s attack.", "Prince Ribbit's");
+    test("Die Wunden von Prinz Quak heilen von selbst!", "%s's wounds heal themselves!", "Prince Ribbit");
     cout << endl;
 
     // unique with a capitalised adjective in the name
