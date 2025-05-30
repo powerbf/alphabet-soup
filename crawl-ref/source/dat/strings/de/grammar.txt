@@ -260,7 +260,7 @@ GENERATE:acc
 /^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/\{adj-er\}/{adj-en}/
 
 # weak nouns
-/(Prinz|Akolyth)\b/$1en/
+/Akolyth\b/$1en/
 /[A-ZÄÖÜ][^ ,]+/(Mensch|[Bb]är|[^e]ist|ant|taur|myzet|[Ff]ürst)$/$1en/
 /[A-ZÄÖÜ][^ ,]+/([Ss]chamane|[Ss]chütze|Sklave|[Hh]err|loge|mycete)$/$1n/
 /[A-ZÄÖÜ][^ ,]+/([Rr]iese|[Dd]rache|[Dd]ruide|[Hh]eilige|Ahne)$/$1n/
@@ -323,7 +323,7 @@ GENERATE:dat
 /^\{pl\}.*?[A-ZÄÖÜ][^ ,]+/([^snai])$/$1n/
 
 # weak nouns
-/(Prinz|Akolyth)\b/$1en/
+/Akolyth\b/$1en/
 /[A-ZÄÖÜ][^ ,]+/(Mensch|[Bb]är|[^e]ist|ant|taur|myzet|[Ff]ürst|herz)$/$1en/
 /[A-ZÄÖÜ][^ ,]+/([Ss]chamane|[Ss]chütze|Sklave|[Hh]err|loge|mycete)$/$1n/
 /[A-ZÄÖÜ][^ ,]+/([Rr]iese|[Dd]rache|[Dd]ruide|[Hh]eilige|Ahne)$/$1n/
