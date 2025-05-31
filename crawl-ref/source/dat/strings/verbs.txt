@@ -54,7 +54,6 @@ rampage
 %%%%
 
 # These ones used in prompts like "Really <move> into <dangerous thing>?"
-# In German, we formulate that prompt with the infinitive (so we don't need the finite forms)
 
 %%%%
 {verb-inf}blink
@@ -106,47 +105,46 @@ run
 #################################
 
 # Finite verbs conjugated for "you".
-# NOTE: In German, we are using "du" for "you", so we must conjugate accordingly.
 
 %%%%
-{verb-du}walk
+{verb-you}walk
 
 %%%%
-{verb-du}step
+{verb-you}step
 
 %%%%
-{verb-du}fly
+{verb-you}fly
 
 %%%%
-{verb-du}swim
+{verb-you}swim
 
 %%%%
-{verb-du}crawl
+{verb-you}crawl
 
 %%%%
 # naga
-{verb-du}slither
+{verb-you}slither
 
 %%%%
 # octopode
-{verb-du}wriggle
+{verb-you}wriggle
 
 %%%%
 # tengu
-{verb-du}glide
+{verb-you}glide
 
 %%%%
 # vine stalker
-{verb-du}stalk
+{verb-you}stalk
 
 %%%%
-{verb-du}passwall
+{verb-you}passwall
 
 %%%%
-{verb-du}shadow step
+{verb-you}shadow step
 
 %%%%
-{verb-du}rampage
+{verb-you}rampage
 
 %%%%
 

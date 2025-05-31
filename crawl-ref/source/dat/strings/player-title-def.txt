@@ -399,7 +399,7 @@ the Blob
 %%%%
 # duplicate (monster)
 #the Royal Jelly
-#das Gelee Royale
+#
 %%%%
 
 # Fedhas
@@ -713,7 +713,7 @@ the Fighter
 %%%%
 # duplicate (Okawaru title)
 #the Warrior
-#der Krieger
+#
 %%%%
 the Slayer
 
@@ -771,7 +771,7 @@ the Severer
 %%%%
 # duplicate of monster
 #the Executioner
-#der Scharfrichter
+#
 %%%%
 the Axe Maniac
 
@@ -1049,7 +1049,7 @@ the Demonologist
 %%%%
 # duplicate of monster
 #the Hellbinder
-#der Höllenbinder
+#
 %%%%
 
 # Necromancy
@@ -1156,7 +1156,7 @@ the Stormcaller
 %%%%
 # duplicate of monster
 #the Cloud Mage
-#der Wolkenmagier
+#
 %%%%
 the Meteorologist
 
@@ -1214,7 +1214,7 @@ the Heretic
 %%%%
 # duplicate (Beogh title)
 #the Apostate
-#der Apostat
+#
 %%%%
 
 # Evocations

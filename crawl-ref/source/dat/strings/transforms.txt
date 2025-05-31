@@ -183,7 +183,7 @@ your paws
 %%%%
 # duplicate: also a monster
 #tentacle
-#Tentakel
+#
 %%%%
 tentacles
 
@@ -193,7 +193,7 @@ main tentacles
 %%%%
 # duplicate: also a monster
 #your tentacle
-#dein Tentakel
+#
 %%%%
 your tentacles
 
@@ -248,6 +248,7 @@ your skin
 # abbreviation for HUD
 # duplicate (also abbreviation for Spider Nest branch)
 #Spider
+#
 %%%%
 # long name
 spider-form
@@ -445,7 +446,7 @@ your shield front paw
 # foot equivalent
 # duplicate: felids also have paws
 #paw
-#Pfote
+#
 %%%%
 
 ################################
@@ -571,10 +572,12 @@ vampire-bat-form
 # description
 # duplicate of monster name
 #a bat
+#
 %%%%
 # description (vampire)
 # duplicate of monster name
 #a vampire bat
+#
 %%%%
 # unarmed attack
 Teeth
@@ -696,6 +699,7 @@ tree-form
 # description
 # duplicate (also a dungeon feature)
 #a tree
+#
 %%%%
 # unarmed attack
 Branches
@@ -752,6 +756,7 @@ porcupine-form
 # wizmode name
 # duplicate of monster name
 #porcupine
+#
 %%%%
 # description
 a spiny porcupine
@@ -777,6 +782,7 @@ wisp
 # description
 # duplicate of monster
 #an insubstantial wisp
+#
 %%%%
 # unarmed attack
 Misty tendrils
@@ -953,7 +959,7 @@ Storm fists
 # shout-equivalent
 # duplicate of barachi
 #bellow
-#brüllt
+#
 %%%%
 
 ################################

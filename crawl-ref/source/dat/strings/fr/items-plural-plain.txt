@@ -158,7 +158,6 @@ pièces de l'échiquier de Xom
 tins of tremorstones
 boîtes de pierres sismiques
 %%%%
-%%%%
 # due to a bug (#4063), the English plural is "damagi" (coz mage -> magi)
 quad damagi
 quadruple dégâts

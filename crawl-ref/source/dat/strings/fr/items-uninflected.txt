@@ -144,7 +144,7 @@ abyssale
 %%%%
 # duplicate of missile brand
 #silver
-#argent
+#
 %%%%
 golden
 dorée
@@ -234,7 +234,7 @@ runes
 %%%%
 # duplicate of item type
 #wand
-#baguette
+#
 %%%%
 polearm
 arme d'hast
@@ -244,7 +244,7 @@ lanceur
 %%%%
 # duplicate of item type
 #missile
-#missile
+#
 %%%%
 
 %%%%
@@ -278,7 +278,6 @@ missiles
 %%%%
 %d with wands
 %d avec baguettes
-%%%%
 %%%%
 %d polearms
 {fpl}%d armes d'hast

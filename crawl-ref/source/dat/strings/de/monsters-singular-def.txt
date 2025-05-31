@@ -38,19 +38,19 @@ the phase bat
 die Phasenfledermaus
 %%%%
 the skeletal bat
-die Skelett-Fledermaus
+die Skelettfledermaus
 %%%%
 the microbat
-die Micro-Fledermaus
+die Microfledermaus
 %%%%
 the megabat
-die Mega-Fledermaus
+die Megafledermaus
 %%%%
 the giga bat
-die Giga-Fledermaus
+die Gigafledermaus
 %%%%
 the bennu
-das Bennu
+der Benu
 %%%%
 the caustic shrike
 der ätzende Würger
@@ -104,22 +104,22 @@ the grey draconian
 der graue Drakonier
 %%%%
 the draconian stormcaller
-der Drakonier-Sturmrufer
+der drakonische Sturmrufer
 %%%%
 the draconian monk
-der Drakonier-Mönch
+der drakonische Mönch
 %%%%
 the draconian shifter
-der Drakonier-Verschieber
+der drakonische Verschieber
 %%%%
 the draconian annihilator
-der Drakonier-Vernichter
+der drakonische Vernichter
 %%%%
 the draconian knight
-der Drakonier-Ritter
+der drakonische Ritter
 %%%%
 the draconian scorcher
-der Drakonier-Verschmorer
+der drakonische Verschmorer
 %%%%
 the elf
 der Elf
@@ -164,7 +164,7 @@ the wandering mushroom
 der wandernde Pilz
 %%%%
 the deathcap
-die Todesmütze
+die Todeskappe
 %%%%
 the thorn hunter
 der Dornenjäger
@@ -233,7 +233,7 @@ the holy swine
 das heilige Schwein
 %%%%
 the felid
-das Felid
+der Felid
 %%%%
 the bear
 der Bär
@@ -275,7 +275,7 @@ the swamp drake
 der Sumpfdrachling
 %%%%
 the rime drake
-der Reifsdrachling
+der Reifdrachling
 %%%%
 the wind drake
 der Winddrachling
@@ -305,16 +305,16 @@ the komodo dragon
 der Komododrache
 %%%%
 the merfolk
-das Meervolk
+das Meerwesen
 %%%%
 the merfolk impaler
-der Meervolk-Impaler
+der Meervolk-Pfähler
 %%%%
 the merfolk javelineer
-der Meervolk-Speerführer
+der Meervolk-Speerwerfer
 %%%%
 the merfolk aquamancer
-der Meervolk-Aquamancer
+die Meervolk-Wasserbeschwörerin
 %%%%
 the merfolk siren
 die Meervolk-Sirene
@@ -329,7 +329,7 @@ the bog body
 die Moorleiche
 %%%%
 the necrophage
-der Nekrophagen
+die Nekrophage
 %%%%
 the bloated husk
 die aufgeblähte Hülle
@@ -377,10 +377,10 @@ the wizard
 der Zauberer
 %%%%
 the vault guard
-der Tresorwächter
+die Tresorwache
 %%%%
 the vault sentinel
-die Tresorwache
+der Tresorkundschafter
 %%%%
 the vault warden
 der Tresorwärter
@@ -401,7 +401,7 @@ the ironbound thunderhulk
 der eisenbeschlagene Donnerkoloss
 %%%%
 the imperial myrmidon
-der kaiserliche Myrmidon
+der imperiale Myrmidon
 %%%%
 the servant of whispers
 der Diener des Flüsterns
@@ -455,7 +455,7 @@ the tarantella
 die Tarantella
 %%%%
 the jumping spider
-die springende Spinne
+die Springspinne
 %%%%
 the wolf spider
 die Wolfsspinne
@@ -488,7 +488,7 @@ the ghost crab
 die Geisterkrabbe
 %%%%
 the apocalypse crab
-die Apokalypse-Krabbe
+die Apokalypsenkrabbe
 %%%%
 the ugly thing
 das hässliche Ding
@@ -506,7 +506,7 @@ the spatial maelstrom
 der räumliche Mahlstrom
 %%%%
 the insubstantial wisp
-das unwesentliche Irrlicht
+das unwirkliche Irrlicht
 %%%%
 the twister
 der Twister
@@ -518,28 +518,28 @@ the swamp worm
 der Sumpfwurm
 %%%%
 the tyrant leech
-der Tyrannblutegel
+der Tyrannenblutegel
 %%%%
 the dart slug
 die Pfeilschnecke
 %%%%
 the torpor snail
-die Erstarrungsschnecke
+die Torporschnecke
 %%%%
 the elephant slug
 die Elefantenschnecke
 %%%%
 the unseen horror
-das unsichtbare Grauen
+der unsichtbare Schrecken
 %%%%
 the small abomination
-der kleine Greuel
+die kleine Abscheulichkeit
 %%%%
 the ancient zyme
 das uralte Zym
 %%%%
 the worldbinder
-der Weltbinder
+der Weltenbinder
 %%%%
 the killer bee
 die Killerbiene
@@ -548,7 +548,7 @@ the queen bee
 die Bienenkönigin
 %%%%
 the vampire mosquito
-die Vampir-Mücke
+der Vampirmoskito
 %%%%
 the hornet
 die Hornisse
@@ -575,16 +575,16 @@ the skeletal warrior
 der Skelettkrieger
 %%%%
 the ancient champion
-der alte Champion
+der uralte Champion
 %%%%
 the flying skull
 der fliegende Schädel
 %%%%
 the curse skull
-der Fluchschädel
+der verfluchte Schädel
 %%%%
 the curse toe
-der Fluchzeh
+der verfluchte Zeh
 %%%%
 the angel
 der Engel
@@ -671,22 +671,22 @@ the pearl dragon
 der Perlendrache
 %%%%
 the elemental
-das Elementar
+der Elementar
 %%%%
 the earth elemental
-das Erdelementar
+der Erdelementar
 %%%%
 the fire elemental
-das Feuerelementar
+der Feuerelementar
 %%%%
 the water elemental
-das Wasserelementar
+der Wasserelementar
 %%%%
 the air elemental
-das Luftelementar
+der Luftelementar
 %%%%
 the iron elemental
-das Eisenelementar
+der Eisenelementar
 %%%%
 the elemental wellspring
 die elementare Quelle
@@ -704,7 +704,7 @@ the blink frog
 der Blinzelfrosch
 %%%%
 the barachi
-die Barachi
+der Barachi
 %%%%
 the floating eye
 das schwebende Auge
@@ -743,7 +743,7 @@ the harpy
 die Harpyie
 %%%%
 the mutant beast
-das Mutant-Biest
+das Mutantenbiest
 %%%%
 the ancestor
 der Ahne
@@ -761,7 +761,7 @@ the jelly
 das Gelee
 %%%%
 the slime creature
-das Schleimwesen
+die Schleimkreatur
 %%%%
 the merged slime creature
 die verschmolzene Schleimkreatur
@@ -785,7 +785,7 @@ the lich
 der Lich
 %%%%
 the ancient lich
-der alte Lich
+der uralte Lich
 %%%%
 the antique lich
 der antike Lich
@@ -806,7 +806,7 @@ the greater mummy
 die größere Mumie
 %%%%
 the mummy priest
-der Mumie-Priester
+der Mumienpriester
 %%%%
 the naga
 der Naga
@@ -869,7 +869,7 @@ the hyperactive ballistomycete
 der hyperaktive Ballistomycete
 %%%%
 the briar patch
-der Dornstrauch
+der Dornenstrauch
 %%%%
 the tengu
 der Tengu
@@ -881,10 +881,10 @@ the tengu warrior
 der Tengu-Krieger
 %%%%
 the tengu reaver
-der Tengu-Häscher
+der Tengu-Plünderer
 %%%%
 the efreet
-das Efreet
+der Ifrit
 %%%%
 the rakshasa
 der Rakshasa
@@ -893,10 +893,10 @@ the dryad
 die Dryade
 %%%%
 the snaplasher vine
-die Peitscherrebe
+die Peitschenrebe
 %%%%
 the snaplasher vine segment
-das Peitscherrebesegment
+das Peitschenrebensegment
 %%%%
 the snake
 die Schlange
@@ -908,7 +908,7 @@ the adder
 die Kreuzotter
 %%%%
 the water moccasin
-der Wassermokassin
+die Wassermokassin
 %%%%
 the black mamba
 die schwarze Mamba
@@ -920,7 +920,7 @@ the anaconda
 die Anakonda
 %%%%
 the guardian serpent
-die Wächter-Schlange
+die Wächterschlange
 %%%%
 the shock serpent
 die Schockschlange
@@ -953,7 +953,7 @@ the vampire mage
 der Vampir-Magier
 %%%%
 the jiangshi
-das Jiangshi
+der Jiangshi
 %%%%
 the ghost
 das Gespenst
@@ -965,7 +965,7 @@ the hungry ghost
 der hungrige Geist
 %%%%
 the flayed ghost
-der enthäutete Geist
+der geschundene Geist
 %%%%
 the player ghost
 der Spielergeist
@@ -980,13 +980,13 @@ the drowned soul
 die ertrunkene Seele
 %%%%
 the wraith
-der Geist
+der Spuk
 %%%%
 the shadow wraith
-der Schattengeist
+der Schattenspuk
 %%%%
 the freezing wraith
-der Frostgeist
+der Frostspuk
 %%%%
 the eidolon
 der Eidolon
@@ -995,28 +995,28 @@ the phantasmal warrior
 der phantastische Krieger
 %%%%
 the large abomination
-der große Greuel
+die große Abscheulichkeit
 %%%%
 the thrashing horror
-das verprügelnde Grauen
+das prügelnde Grauen
 %%%%
 the tentacled monstrosity
-die Tentakel-Monstrosität
+das Tentakelmonstrum
 %%%%
 the Orb Guardian
 der Kugelwächter
 %%%%
 the tentacled starspawn
-die Tentakelsternbrut
+die Tentakelsternenbrut
 %%%%
 the starspawn tentacle
-der Sternbruttentakel
+der Sternenbruttentakel
 %%%%
 the starspawn tentacle segment
-das Sternbruttentakelsegment
+das Sternenbruttentakelsegment
 %%%%
 the starcursed mass
-die sternverfluchte Masse
+die sternenverfluchte Masse
 %%%%
 the dream sheep
 das Traumschaf
@@ -1028,7 +1028,7 @@ the death yak
 das Todesyak
 %%%%
 the catoblepas
-die Catoblepas
+der Katoblepas
 %%%%
 the elephant
 der Elefant
@@ -1040,13 +1040,13 @@ the hellephant
 der Höllefant
 %%%%
 the apis
-die Apis
+das Apis
 %%%%
 the ice beast
 die Eisbestie
 %%%%
 the sky beast
-das Himmelstier
+die Himmelsbestie
 %%%%
 the zombie
 der Zombie
@@ -1076,13 +1076,13 @@ the large simulacrum
 das große Simulacrum
 %%%%
 the spectral thing
-die spektrale Sache
+das spektrale Ding
 %%%%
 the electric eel
 der Zitteraal
 %%%%
 the kraken
-der Kraken
+der Krake
 %%%%
 the tentacle
 das Tentakel
@@ -1091,7 +1091,7 @@ the tentacle segment
 das Tentakelsegment
 %%%%
 the octopode
-der Oktopod
+der Oktopode
 %%%%
 the lava snake
 die Lavaschlange
@@ -1157,7 +1157,7 @@ the crimson imp
 das karminrote Teufelchen
 %%%%
 the quasit
-das Quasit
+der Quasit
 %%%%
 the white imp
 das weiße Teufelchen
@@ -1199,10 +1199,10 @@ the smoke demon
 der Rauchdämon
 %%%%
 the neqoxec
-die Neqoxec
+der Neqoxec
 %%%%
 the ynoxinul
-das Ynoxinul
+der Ynoxinul
 %%%%
 the sixfirhy
 der Sixfirhy
@@ -1217,13 +1217,13 @@ the blizzard demon
 der Blizzarddämon
 %%%%
 the balrug
-der Balrug
+der Balrog
 %%%%
 the cacodemon
-der Cacodaemon
+der Kakodämon
 %%%%
 the hell beast
-das Höllentier
+das Höllenbiest
 %%%%
 the hellion
 der Teufelsbraten
@@ -1238,13 +1238,13 @@ the tormentor
 der Peiniger
 %%%%
 the Brimstone Fiend
-der Schwefelunterweltler
+der Schwefelunhold
 %%%%
 the Ice Fiend
-der Eisunterweltler
+der Eisunhold
 %%%%
 the Tzitzimitl
-das Tzitzimitl
+der Tzitzimitl
 %%%%
 the Hell Sentinel
 der Höllenwächter
@@ -1277,7 +1277,7 @@ the electric golem
 der Blitzgolem
 %%%%
 the ushabti
-die Uschabti
+die Uschebti
 %%%%
 the guardian golem
 der Wächtergolem
@@ -1286,7 +1286,7 @@ the flesh golem
 der Fleischgolem
 %%%%
 the spellforged servitor
-der zaubergeschmeidete Diener
+der zaubergeschmiedete Diener
 %%%%
 the ice statue
 die Eisstatue
@@ -1358,7 +1358,7 @@ the wretched star
 der elende Stern
 %%%%
 the battlesphere
-die Kampfsphäre
+die Gefechtssphäre
 %%%%
 the death cob
 der Todeskolben
@@ -1370,7 +1370,7 @@ the foxfire
 das Fuchsfeuer
 %%%%
 the nameless horror
-der namenlose Horror
+das namenlose Grauen
 %%%%
 the will-o-the-wisp
 das Irrlicht
@@ -1400,7 +1400,7 @@ the eleionoma
 die Eleionoma
 %%%%
 the lemure
-die Lemure
+der Lemur
 %%%%
 the endoplasm
 das Endoplasma
@@ -1415,7 +1415,7 @@ the kobold brigand
 der Kobold-Brigant
 %%%%
 the dread lich
-der Grauenlich
+der grauenhafte Lich
 %%%%
 the djinni
 der Dschinn
@@ -1460,7 +1460,7 @@ the sting beast
 das Stichbiest
 %%%%
 the bat beast
-das Fledermaus-Biest
+das Fledermausbiest
 %%%%
 the fire beast
 das Feuerbiest
@@ -1487,7 +1487,7 @@ the bog mummy
 die Moormumie
 %%%%
 the lunar statue
-die Mond-Statue
+die Mondstatue
 %%%%
 
 # unseen monster
@@ -1507,138 +1507,26 @@ etwas Unsichtbares
 # "elf zombie", "orc skeleton", etc.
 %%%%
 the @monster@ zombie
-der @monster@-Zombie
+der Zombie {gen}@a_monster@
 %%%%
 the @monster@ skeleton
-das @monster@-Skelett
+das Skelett {gen}@a_monster@
 %%%%
 the @monster@ simulacrum
-das @monster@-Simulacrum
+das Simulacrum {gen}@a_monster@
 %%%%
 
 # irregular derived monsters
 
 %%%%
 the Lernaean hydra zombie
-der Lernäische-Hydra-Zombie
-%%%%
-the monstrous demonspawn zombie
-der Monströse-Dämonenbrut-Zombie
-%%%%
-the gelid demonspawn zombie
-der Gelide-Dämonenbrut-Zombie
-%%%%
-the infernal demonspawn zombie
-der Höllische-Dämonenbrut-Zombie
-%%%%
-the torturous demonspawn zombie
-der Quälende-Dämonenbrut-Zombie
-%%%%
-the black draconian zombie
-der Schwarzer-Drakonier-Zombie
-%%%%
-the yellow draconian zombie
-der Gelber-Drakonier-Zombie
-%%%%
-the pale draconian zombie
-der Blasser-Drakonier-Zombie
-%%%%
-the green draconian zombie
-der Grüner-Drakonier-Zombie
-%%%%
-the purple draconian zombie
-der Purpurner-Drakonier-Zombie
-%%%%
-the red draconian zombie
-der Roter-Drakonier-Zombie
-%%%%
-the white draconian zombie
-der Weißer-Drakonier-Zombie
-%%%%
-the grey draconian zombie
-der Grauer-Drakonier-Zombie
-%%%%
-
+der Zombie der Lernäischen Hydra
 %%%%
 the Lernaean hydra skeleton
-das Lernäische-Hydra-Skelett
-%%%%
-the monstrous demonspawn skeleton
-das Monströse-Dämonenbrut-Skelett
-%%%%
-the gelid demonspawn skeleton
-das Gelide-Dämonenbrut-Skelett
-%%%%
-the infernal demonspawn skeleton
-das Höllische-Dämonenbrut-Skelett
-%%%%
-the torturous demonspawn skeleton
-das Quälende-Dämonenbrut-Skelett
-%%%%
-the black draconian skeleton
-das Schwarzer-Drakonier-Skelett
-%%%%
-the yellow draconian skeleton
-das Gelber-Drakonier-Skelett
-%%%%
-the pale draconian skeleton
-das Blasser-Drakonier-Skelett
-%%%%
-the green draconian skeleton
-das Grüner-Drakonier-Skelett
-%%%%
-the purple draconian skeleton
-das Purpurner-Drakonier-Skelett
-%%%%
-the red draconian skeleton
-das Roter-Drakonier-Skelett
-%%%%
-the white draconian skeleton
-das Weißer-Drakonier-Skelett
-%%%%
-the grey draconian skeleton
-das Grauer-Drakonier-Skelett
-%%%%
-
+das Skelett der Lernäischen Hydra
 %%%%
 the Lernaean hydra simulacrum
-das Lernäische-Hydra-Simulacrum
-%%%%
-the monstrous demonspawn simulacrum
-das Monströse-Dämonenbrut-Simulacrum
-%%%%
-the gelid demonspawn simulacrum
-das Gelide-Dämonenbrut-Simulacrum
-%%%%
-the infernal demonspawn simulacrum
-das Höllische-Dämonenbrut-Simulacrum
-%%%%
-the torturous demonspawn simulacrum
-das Quälende-Dämonenbrut-Simulacrum
-%%%%
-the black draconian simulacrum
-das Schwarzer-Drakonier-Simulacrum
-%%%%
-the yellow draconian simulacrum
-das Gelber-Drakonier-Simulacrum
-%%%%
-the pale draconian simulacrum
-das Blasser-Drakonier-Simulacrum
-%%%%
-the green draconian simulacrum
-das Grüner-Drakonier-Simulacrum
-%%%%
-the purple draconian simulacrum
-das Purpurner-Drakonier-Simulacrum
-%%%%
-the red draconian simulacrum
-das Roter-Drakonier-Simulacrum
-%%%%
-the white draconian simulacrum
-das Weißer-Drakonier-Simulacrum
-%%%%
-the grey draconian simulacrum
-das Grauer-Drakonier-Simulacrum
+das Simulacrum der Lernäischen Hydra
 %%%%
 
 ##################
@@ -1674,7 +1562,7 @@ the dimme
 die Dimme
 %%%%
 the sulfuric acid blob
-der Schwefelsaure-Klumpen
+der Schwefelsäureklumpen
 %%%%
 the vault guard captain
 der Haupttresorwächter
@@ -1716,7 +1604,7 @@ the tyrant
 der Tyrann
 %%%%
 the meat hydra
-die fleischliche Hydra
+die Fleisch-Hydra
 %%%%
 the dread
 der Schrecken

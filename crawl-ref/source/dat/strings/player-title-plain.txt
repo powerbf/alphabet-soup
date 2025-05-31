@@ -102,7 +102,7 @@ Tainted
 Torchbearer
 
 %%%%
-# @Genus@ may have different genders in French, so may need special handling...
+# @Genus@ may have different genders in the target language, so may need special handling...
 Fey @Genus@
 
 %%%%
@@ -165,7 +165,7 @@ Combatant
 %%%%
 # duplicate (archetype)
 #Warrior
-#Krieger
+#
 %%%%
 Knight
 
@@ -395,7 +395,7 @@ Blob
 %%%%
 # duplicate of monster
 #Royal Jelly
-#Gelee Royale
+#
 %%%%
 
 # Fedhas
@@ -703,11 +703,11 @@ Skirmisher
 %%%%
 # duplicate (background)
 #Fighter
-#Kämpfer
+#
 %%%%
 # duplicate (Okawaru title & archetype)
 #Warrior
-#Krieger
+#
 %%%%
 Slayer
 
@@ -931,7 +931,7 @@ Spry
 %%%%
 # duplicate (item property)
 #Acrobat
-#Akrobat
+#
 %%%%
 Intangible
 
@@ -995,7 +995,7 @@ Archmage
 %%%%
 # duplicate (background)
 #Conjurer
-#Konjurant
+#
 %%%%
 Destroyer
 
@@ -1035,7 +1035,7 @@ Caller
 %%%%
 # duplicate (background)
 #Summoner
-#Beschwörer
+#
 %%%%
 Convoker
 
@@ -1057,7 +1057,7 @@ Reanimator
 %%%%
 # duplicate (background)
 #Necromancer
-#Nekromant
+#
 %%%%
 Thanatomancer
 
@@ -1208,7 +1208,7 @@ Heretic
 %%%%
 # duplicate (Beogh title)
 #Apostate
-#Apostat
+#
 %%%%
 
 # Evocations
@@ -1295,7 +1295,7 @@ Sabretooth
 %%%%
 # duplicate (archetype)
 #Adventurer
-#Abenteurer
+#
 %%%%
 Worldbinder
 
@@ -1377,61 +1377,48 @@ Faerie Dragon
 
 # Charms (obsolete)
 %%%%
-# obsolete
 Charmwright
 
 %%%%
-# obsolete
 Infuser
 
 %%%%
-# obsolete
 Anointer
 
 %%%%
-# obsolete
 Gracecrafter
 
 %%%%
-# obsolete
 Miracle Worker
 
 %%%%
 
 # Stabbing (obsolete)
 %%%%
-# obsolete
 Miscreant
 
 %%%%
-# obsolete
 Blackguard
 
 %%%%
-# obsolete
 Backstabber
 
 %%%%
 
 # Traps (obsolete)
 %%%%
-# obsolete
 Scout
 
 %%%%
-# obsolete
 Disarmer
 
 %%%%
-# obsolete
 Vigilant
 
 %%%%
-# obsolete
 Perceptive
 
 %%%%
-# obsolete
 Dungeon Master
 
 %%%%

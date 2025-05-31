@@ -160,11 +160,11 @@ int main()
 
     // test derived undead
     msg = localise_contextual("acc", "your elf zombie");
-    expected = "deinen Elf-Zombie";
+    expected = "deinen Zombie eines Elfen";
     show_result(msg, expected);
 
     msg = localise("3 ogre simulacra");
-    expected = "3 Oger-Simulacra";
+    expected = "3 Simulacra eines Ogers";
     show_result(msg, expected);
 
     msg = localise("3 Maras (2 ally target)");
@@ -200,23 +200,23 @@ int main()
     show_result(msg, expected);
 
     msg = localise("a seven-headed hydra zombie (dormant)");
-    expected = "ein siebenköpfiger Hydra-Zombie (ruhend)";
+    expected = "ein siebenköpfiger Zombie einer Hydra (ruhend)";
     show_result(msg, expected);
 
     msg = localise("a 27-headed Lernaean hydra zombie (dormant)");
-    expected = "ein 27-köpfiger Lernäische-Hydra-Zombie (ruhend)";
+    expected = "ein 27-köpfiger Zombie der Lernäischen Hydra (ruhend)";
     show_result(msg, expected);
 
     msg = localise("an infernal demonspawn simulacrum (dormant)");
-    expected = "ein Höllische-Dämonenbrut-Simulacrum (ruhend)";
+    expected = "ein Simulacrum einer höllischen Dämonenbrut (ruhend)";
     show_result(msg, expected);
 
     msg = localise("You see here %s.", "a yellow draconian skeleton");
-    expected = "Du siehst hier ein Gelber-Drakonier-Skelett.";
+    expected = "Du siehst hier ein Skelett eines gelben Drakoniers.";
     show_result(msg, expected);
 
     msg = localise("You see here %s.", "3 red draconian skeletons");
-    expected = "Du siehst hier 3 Roter-Drakonier-Skelette.";
+    expected = "Du siehst hier 3 Skelette eines roten Drakoniers.";
     show_result(msg, expected);
 
     msg = localise("You strike %s from behind!", "the helpless yellow draconian");
@@ -305,7 +305,7 @@ int main()
     show_result(msg, "Das kannst du nicht, solange du in einem Gespinst gefangen bist.");
 
     msg = localise("\"You will pay for your transgression, mortal!\"");
-    show_result(msg, "\"Du wirst für deine Übertretung bezahlen, Sterblicher!\"");
+    show_result(msg, "\"Du wirst für deine Verfehlungen bezahlen, Sterblicher!\"");
 
     msg = localise("No spell in slot a!");
     show_result(msg, "Kein Zauber im Platz a!");
@@ -314,10 +314,10 @@ int main()
     show_result(msg, "Du hast nicht genug Magie, um Feuerball zu wirken!");
 
     msg = localise("Automagic will cast spell in slot b (Blade Hands).");
-    show_result(msg, "Automagie wird den Zauber im Platz b (Klingenhände) wirken.");
+    show_result(msg, "Automagie wird den Zauber in Platz b (Klingenhände) wirken.");
 
     msg = localise("Automagic enabled, will cast spell in slot c (Ice Form).");
-    show_result(msg, "Automagie aktiviert, wird den Zauber im Platz c (Eisgestalt) wirken.");
+    show_result(msg, "Automagie aktiviert, wird den Zauber in Platz c (Eisgestalt) wirken.");
 
     msg = localise("You hear the whistling of a wind.");
     show_result(msg, "Du hörst das Pfeifen eines Windes.");
@@ -353,10 +353,10 @@ int main()
     show_result(msg, "schleimige Rune zeigen");
 
     msg = localise("Memorise %s, consuming %d spell level and leaving %d?", "Magic Dart", 1, 4);
-    show_result(msg, "Magisches Geschoss memorieren, dabei 1 Zauberplatz verbrauchen und 4 lassen?");
+    show_result(msg, "Magisches Geschoss auswendig lernen, dabei 1 Zauberplatz verbrauchen und 4 behalten?");
 
     msg = localise("Memorise %s, consuming %d spell levels and leaving %d?", "Fireball", 5, 0);
-    show_result(msg, "Feuerball memorieren, dabei 5 Zauberplätze verbrauchen und 0 lassen?");
+    show_result(msg, "Feuerball auswendig lernen, dabei 5 Zauberplätze verbrauchen und 0 behalten?");
 
     // test annotation
     msg = localise("{book}");

@@ -217,8 +217,8 @@ a Grand Grimoire
 an Everburning Encyclopedia
 eine ewig brennende Enzyklopädie
 %%%%
-a Young Poisoner's Handbook
 # we use Anleitung for manual so we can use Handbuch here
+a Young Poisoner's Handbook
 {n}ein Handbuch für junge Giftmischer
 %%%%
 a Fen Folio
@@ -935,7 +935,7 @@ von Boris
 %%%%
 # duplicate (see gods.txt)
 #{gen}Sif Muna
-#von Sif Muna
+#
 %%%%
 {gen}the Archmage
 des Erzmagiers
@@ -1005,11 +1005,11 @@ Thaumaturgie
 %%%%
 # duplicate: This is also used for the targeter when casting targeted spells
 #Casting
-#Wirken
+#
 %%%%
 # duplicate (see skills.txt)
 #Spellcasting
-#Zaubern
+#
 %%%%
 Wizardry
 Zauberei
@@ -1858,7 +1858,7 @@ der Rituale
 %%%%
 # duplicate
 #{gen}Magic
-#der Magie
+#
 %%%%
 
 # Summoning genitive
@@ -2093,7 +2093,7 @@ der Federn
 %%%%
 # duplicate
 #"Lethal "
-#"tödliche "
+#
 %%%%
 "Doomed "
 "verdammte "
@@ -2130,11 +2130,11 @@ der Federn
 %%%%
 # duplicate
 #"Unstable "
-#"instabile "
+#
 %%%%
 # duplicate
 #"Twisted "
-#"verdrehte "
+#
 %%%%
 "Quantum "
 "Quanten-"

@@ -160,15 +160,15 @@ int main()
     cout << endl;
 
     // unique with weak declension
-    test("Prinz Ribbit", "Prince Ribbit");
-    test("der hilflose Prinz Ribbit", "the helpless Prince Ribbit");
-    test("hilfloser Prinz Ribbit", "helpless Prince Ribbit");
-    test("Du triffst Prinzen Ribbit", "You hit %s", "Prince Ribbit");
-    test("Du triffst den hilflosen Prinzen Ribbit", "You hit %s", "the helpless Prince Ribbit");
-    test("Du kollidierst mit Prinzen Ribbit!", "You collide with %s!", "Prince Ribbit");
-    test("Du kollidierst mit dem hilflosen Prinzen Ribbit!", "You collide with %s!", "the helpless Prince Ribbit");
-    test("Du blockst den Angriff von Prinz Ribbit.", "You block %s attack.", "Prince Ribbit's");
-    test("Die Wunden von Prinz Ribbit heilen von selbst!", "%s's wounds heal themselves!", "Prince Ribbit");
+    test("Prinz Quak", "Prince Ribbit");
+    test("der hilflose Prinz Quak", "the helpless Prince Ribbit");
+    test("hilfloser Prinz Quak", "helpless Prince Ribbit");
+    test("Du triffst Prinz Quak", "You hit %s", "Prince Ribbit");
+    test("Du triffst den hilflosen Prinz Quak", "You hit %s", "the helpless Prince Ribbit");
+    test("Du kollidierst mit Prinz Quak!", "You collide with %s!", "Prince Ribbit");
+    test("Du kollidierst mit dem hilflosen Prinz Quak!", "You collide with %s!", "the helpless Prince Ribbit");
+    test("Du blockst den Angriff von Prinz Quak.", "You block %s attack.", "Prince Ribbit's");
+    test("Die Wunden von Prinz Quak heilen von selbst!", "%s's wounds heal themselves!", "Prince Ribbit");
     cout << endl;
 
     // unique with a capitalised adjective in the name
@@ -229,9 +229,9 @@ int main()
     cout << endl;
 
     // derived monsters (should have the gender of the derived monster, not the original)
-    test("Du triffst den hilflosen Meervolk-Zombie", "You hit %s", "the helpless merfolk zombie");
-    test("Du triffst das hilflose Ork-Skelett", "You hit %s", "the helpless orc skeleton");
-    test("Du triffst das hilflose Ork-Simulacrum", "You hit %s", "the helpless orc simulacrum");
+    test("Du triffst den hilflosen Zombie eines Meerwesens", "You hit %s", "the helpless merfolk zombie");
+    test("Du triffst das hilflose Skelett eines Orks", "You hit %s", "the helpless orc skeleton");
+    test("Du triffst das hilflose Simulacrum eines Orks", "You hit %s", "the helpless orc simulacrum");
     test("eine Ork-förmige Salzsäule", "an orc shaped pillar of salt");
     test("Du siehst hier einen Mennas-förmigen Eisblock.", "You see here %s.", "a Mennas shaped block of ice");
     test("Du siehst hier einen Tarantella-förmigen Eisblock.", "You see here %s.", "a tarantella shaped block of ice");

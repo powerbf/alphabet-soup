@@ -25,7 +25,7 @@ Conjure Flame
 %%%%
 # duplicate of ability
 #Dig
-#Graben
+#
 %%%%
 Bolt of Fire
 
@@ -92,7 +92,7 @@ Mass Confusion
 %%%%
 # duplicate of ability
 #Smiting
-#Zerschlagen
+#
 %%%%
 Summon Small Mammal
 
@@ -124,7 +124,7 @@ Call Down Damnation
 %%%%
 # duplicate of ability
 #Blink
-#Blinzeln
+#
 %%%%
 Blink Range
 
@@ -362,7 +362,7 @@ Woodweal
 %%%%
 # duplicate of ability
 #Hurl Damnation
-#Verdammnis schleudern
+#
 %%%%
 Brain Feed
 
@@ -384,7 +384,7 @@ Energy Bolt
 %%%%
 # duplicate of ability
 #Spit Poison
-#Gift spucken
+#
 %%%%
 Summon Undead
 

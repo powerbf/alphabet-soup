@@ -1,0 +1,174 @@
+######################################################
+# Miscellaneous
+# -------------
+# miscname.txt: lookup miscellaneous names
+#
+# This file contains a list of names for miscellaneous things.
+######################################################
+%%%%
+# Used by Summon Horrible Things.
+SHT_int_loss
+
+Votre esprit vacille, touché par les horreurs à travers le portail.
+
+Vous frémissez dans votre enveloppe mortelle, caressé par la folie liquide qui s’écoule du portail scintillant.
+
+# Bal-Sagoth
+Le rituel d’invocation semble exiger un tribut non négligeable à votre santé mentale.
+
+Vous avez une brève vision d’une immense cité cyclopéenne aux murs stygiens vertigineux.
+
+Votre vision est obscurcie par d’étranges glyphes qui semblent se tordre de manière squameuse et changer de forme.
+
+Vous vous sentez inexorablement poursuivi par une obscurité innommable et implacable.
+#-----------
+
+Vous vacillez de douleur alors que votre esprit est lacéré par des horreurs dépassant l’entendement mortel.
+
+Votre esprit est séduit par une folie sublime tandis que vous apercevez, à travers le portail, les ténèbres d’au-delà.
+
+Vous éclatez d’un rire dément à la vue de l’abomination eldritch.
+
+Vous êtes saisi par la folie !
+
+Tenter de comprendre les abysses insondables de l’infini pèse lourdement sur votre santé mentale.
+
+Vos pensées sont inexorablement tourmentées par un bourdonnement incessant et oppressant.
+
+Votre esprit s’effondre dans la folie face à cette abomination blasphématoire contre la création !
+
+Votre esprit se brise brièvement, bien que vous parveniez de justesse à vous raccrocher à votre raison.
+
+Vous sentez votre fragile emprise sur la réalité commencer à s’effriter.
+
+Des murmures insidieux, porteurs des plus profondes hérésies, assaillent sans répit vos pensées.
+
+Votre esprit est pris de dégoût face aux horreurs ondulantes que vous avez engendrées.
+
+L’espace d’un instant, votre esprit est mis à nu devant l’infinité vertigineuse de l’inimaginable.
+
+Votre crâne pulse et vibre alors que des paroles murmurées dans une langue indicible effleurent votre psyché.
+
+Un hennissement ténu et monotone venu d’au-delà du temps enfle inexorablement dans vos oreilles.
+
+Des horreurs informes persistent à la lisière de votre vision, se rapprochant inexorablement.
+
+Vous êtes submergé par une sensation oppressante et inéluctable de désespoir.
+
+Des pensées cohérentes et rationnelles vous semblent étrangères.
+
+Des tentacules de folie s’insinuent et serpentent dans les recoins les plus sombres de votre esprit.
+
+Vous luttez pour saisir la nature des forces incompréhensibles à l’œuvre.
+
+D’horribles cauchemars assaillent vos pensées éveillées !
+
+D’intangibles terreurs s’acharnent sur votre raison !
+
+Votre lucidité vous échappe, glissant entre vos doigts tremblants.
+%%%%
+# How great is the Orb of Zot?
+_great_adj_
+
+formidable
+
+mythique
+
+fabuleux
+
+légendaire
+
+transcendant
+%%%%
+welcome_spam
+
+Parviendras-tu là où les autres ont échoué ? Trouveras-tu l’Orbe de Zot ?
+
+Le cœur de ce donjon renferme le @great_adj@ artefact, l’Orbe de Zot.
+
+Seras-tu celui qui récupérera le @great_adj@ Orbe de Zot des profondeurs ?
+
+On dit que l’Orbe de Zot repose dans les tréfonds de ce donjon.
+%%%%
+# things that surround us on Halloween
+_halloween_things_
+
+hallucinations démoniaques
+
+esprits désincarnés
+
+fantômes et spectres
+
+sombres spectres
+
+horribles apparitions
+%%%%
+# things you don't want a witch to turn you into
+_lowly_
+
+triton
+
+limace
+
+crapaud
+
+ver
+%%%%
+welcome_spam Halloween
+
+@welcome_spam@ Fais attention ! C'est Halloween ce soir.
+
+Les monstres d’ici ne sont pas de grands fans de trick-or-treat. S’ils ne veulent pas te donner l’Orbe de Zot, tu devras le prendre.
+
+Un terrible geas t’a envoyé à la recherche de l’Orbe de Zot. Quelle nuit horrible pour subir une malédiction !
+
+Alors que tu descends en quête de l’Orbe, @halloween_things@ se rassemblent autour de toi. Cet endroit est hanté !
+
+Tu entends une sorcière ricaner, et soudain, tu te retrouves dans le donjon. Si tu ne trouves pas l’Orbe de Zot, tu te changeras en un(e) @lowly@ !
+%%%%
+hell_effect_quiet
+
+{{
+if you.can_smell() then
+    return "Vous sentez le soufre."
+else
+    return "Une pluie de soufre tombe d'en haut."
+end
+}}
+
+Tu te sens perdu, à des lieues et des lieues de chez toi...
+
+Tu frémis de peur.
+
+Un terrible pressentiment t'envahit...
+
+Quelque chose d'effrayant se produit.
+
+Tu sens qu'un mal ancien t'observe...
+
+Soudain, tu te sens tout petit et vulnérable.
+
+Tu perçois une présence hostile.
+
+"Tu ne quitteras pas cet endroit."
+
+"Meurs, mortel !"
+
+"Nous ne pardonnons pas ceux qui osent nous défier !"
+
+"Les intrus ne sont pas les bienvenus ici !"
+
+"Tu n’as rien à faire en ces lieux !"
+
+"Pars maintenant, avant qu’il ne soit trop tard !"
+
+"Nous t'avons pris au piège !"
+%%%%
+hell_effect_noisy
+
+Un cri déchirant emplit l'air !
+
+Tu entends des paroles prononcées dans une langue étrange et terrifiante...
+
+Tu entends un rire diabolique !
+%%%%

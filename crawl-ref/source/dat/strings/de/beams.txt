@@ -139,7 +139,7 @@ die betäubende Explosion
 %%%%
 # duplicate of monster
 #the orb of electricity
-#die Elektrizitätskugel
+#
 %%%%
 the splash of poison
 der Giftspritzer
@@ -239,7 +239,7 @@ die Klowntorte
 %%%%
 # duplicate of monster
 #the foxfire
-#das Fuchsfeuer
+#
 %%%%
 the hail
 der Hagel
@@ -596,7 +596,7 @@ eine Klowntorte
 %%%%
 # duplicate of monster
 #the foxfire
-#das Fuchsfeuer
+#
 %%%%
 a hail
 ein Hagel
@@ -866,7 +866,7 @@ Säureklumpen
 %%%%
 # duplicate of cloud
 #poison gas
-#Giftgas
+#
 %%%%
 bolt of dispelling energy
 Strahl entzaubernder Energie
@@ -952,7 +952,7 @@ Klowntorte
 %%%%
 # duplicate of monster
 #the foxfire
-#das Fuchsfeuer
+#
 %%%%
 hail
 Hagel
@@ -1104,7 +1104,7 @@ entzaubernde Energie
 %%%%
 # duplicate of item type
 #missile
-#Geschoss
+#
 %%%%
 magic missile
 magisches Geschoss
@@ -1126,19 +1126,19 @@ Elektrizität
 %%%%
 # duplicate of cloud
 #noxious fumes
-#schädliche Dämpfe
+#
 %%%%
 # duplicate of item brand
 #poison
-#Gift
+#
 %%%%
 # duplicate of cloud
 #negative energy
-#negative Energie
+#
 %%%%
 # duplicate of item brand
 #acid
-#Säure
+#
 %%%%
 miasma
 Miasma
@@ -1151,7 +1151,7 @@ Giftstachel
 %%%%
 # duplicate of cloud
 #steam
-#Dampf
+#
 %%%%
 energy
 Energie
@@ -1170,7 +1170,7 @@ Eis
 %%%%
 # duplicate of cloud
 #thunder
-#Donner
+#
 %%%%
 stunning bolt
 betäubender Blitz
@@ -1183,11 +1183,11 @@ zufällig
 %%%%
 # duplicate of item brand
 #chaos
-#Chaos
+#
 %%%%
 # duplicate of mutation
 #slow
-#Langsamkeit
+#
 %%%%
 haste
 Eile
@@ -1227,7 +1227,7 @@ Verbannung
 %%%%
 # duplicate of item brand
 #pain
-#Schmerz
+#
 %%%%
 dispel undead
 Untote vertreiben
@@ -1255,7 +1255,7 @@ schlafen
 %%%%
 # duplicate of monster status
 #berserk
-#Berserker
+#
 %%%%
 visual effects
 Visuelle Effekte
@@ -1271,7 +1271,7 @@ innere Flamme
 %%%%
 # duplicate of cloud
 #calcifying dust
-#verkalkender Staub
+#
 %%%%
 # from Arachne's Ensnare spell
 magic web
@@ -1310,7 +1310,7 @@ Atem der Toten
 %%%%
 # duplicate of status
 #resistance
-#Resistenz
+#
 %%%%
 unravelled magic
 aufgelöste Magie

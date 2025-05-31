@@ -263,7 +263,7 @@ Verschl
 %%%%
 # duplicate of monster prop
 #engulfed
-#verschlungen
+#
 %%%%
 You are engulfed.
 Du bist verschlungen.
@@ -294,21 +294,21 @@ Deine Lebenskraft ist sehr stark ausgezehrt.
 %%%%
 # duplicate of monster status
 #heavily drained
-#stark ausgezehrt
+#
 %%%%
 Your life force is heavily drained.
 Deine Lebenskraft wird stark ausgezehrt.
 %%%%
 # duplicate of monster status
 #drained
-#ausgezehrt
+#
 %%%%
 Your life force is drained.
 Deine Lebenskraft ist ausgezehrt.
 %%%%
 # duplicate of monster status
 #lightly drained
-#leicht ausgezehrt
+#
 %%%%
 Your life force is lightly drained.
 Deine Lebenskraft ist leicht ausgezehrt.
@@ -439,7 +439,7 @@ Regen Wille++
 %%%%
 # duplicate of monster status
 #regenerating
-#regenerierend
+#
 %%%%
 You are regenerating.
 Du regenerierst dich.
@@ -533,7 +533,7 @@ Rasch
 %%%%
 # duplicate of monster status
 #swift
-#rasch
+#
 %%%%
 swiftness
 Raschheit
@@ -661,7 +661,7 @@ RGesch
 %%%%
 # duplicate of monster status
 #repel missiles
-#repelliert Geschosse
+#
 %%%%
 You repel missiles.
 Du repellierst Geschosse.
@@ -674,7 +674,7 @@ Unsicht
 %%%%
 # duplicate of monster status
 #invisible
-#unsichtbar
+#
 %%%%
 You are invisible.
 Du bist unsichtbar.
@@ -684,11 +684,11 @@ unsichtbar (aber hintergrundbeleuchtet und sichtbar)
 %%%%
 You are invisible (but backlit and visible).
 Du bist unsichtbar (aber hintergrundbeleuchtet und sichtbar).
+%%%%
 
 ##################
 # duration-data.h
 ##################
-
 
 # Agility
 %%%%
@@ -697,11 +697,11 @@ Agi
 %%%%
 # duplicate of monster status
 #agile
-#agil
+#
 %%%%
 # duplicate of zap
 #agility
-#Agilität
+#
 %%%%
 You are agile.
 Du bist agil.
@@ -720,7 +720,7 @@ berserkend
 %%%%
 # duplicate of zap
 #berserk
-#berserk
+#
 %%%%
 You are possessed by a berserker rage.
 Du bist von einer Berserkerwut besessen.
@@ -787,7 +787,7 @@ Verw
 %%%%
 # duplicate of monster status
 #confused
-#verwirrt
+#
 %%%%
 conf
 verw
@@ -827,7 +827,7 @@ erleuchtet von einer Korona
 %%%%
 # duplicate of monster status
 #corona
-#Korona
+#
 %%%%
 You are no longer glowing.
 Du leuchtest nicht mehr.
@@ -931,7 +931,7 @@ Wille/2
 %%%%
 # duplicate of monster status
 #weak-willed
-#willensschwach
+#
 %%%%
 lowered wl
 schwäche wl
@@ -953,7 +953,7 @@ mächtig
 %%%%
 # duplicate of zap
 #might
-#Macht
+#
 %%%%
 You are mighty.
 Du bist mächtig.
@@ -969,11 +969,11 @@ Para
 %%%%
 # duplicate of monster status
 #paralysed
-#gelähmt
+#
 %%%%
 # duplicate of zap
 #paralysis
-#Lähmung
+#
 %%%%
 You are paralysed.
 Du bist gelähmt.
@@ -986,7 +986,7 @@ Stein
 %%%%
 # duplicate of monster status
 #petrified
-#versteinert
+#
 %%%%
 You are petrified.
 Du bist versteinert.
@@ -999,7 +999,7 @@ Verst
 %%%%
 # duplicate of monster status
 #petrifying
-#versteinernd
+#
 %%%%
 You are turning to stone.
 Du wirst versteinert.
@@ -1012,7 +1012,7 @@ Resist
 %%%%
 # duplicate of monster status
 #resistant
-#resistent
+#
 %%%%
 resistance
 Resistenz
@@ -1053,7 +1053,7 @@ schlafend
 %%%%
 # duplicate of zap
 #sleep
-#Schlaf
+#
 %%%%
 You are sleeping.
 Du schläfst.
@@ -1120,7 +1120,7 @@ Quad
 %%%%
 # duplicate of the item name
 #quad damage
-#Vierfach-Schaden
+#
 %%%%
 Quad Damage is wearing off.
 Der Vierfach-Schaden lässt nach.
@@ -1130,7 +1130,7 @@ Der Vierfach-Schaden lässt nach.
 %%%%
 # duplicate of the one in status.cc
 #silenced
-#verstummt
+#
 %%%%
 silence
 Verstummung
@@ -1204,7 +1204,7 @@ in einem Wirbel
 %%%%
 # duplicate of monster status
 #vortex
-#Wirbel
+#
 %%%%
 You are in the eye of a polar vortex.
 Du befindest dich im Auge eines Polarwirbels.
@@ -1318,7 +1318,7 @@ markiert
 %%%%
 # duplicate of zap
 #sentinel's mark
-#Sentinel-Zeichen
+#
 %%%%
 A sentinel's mark is revealing your location to enemies.
 Das Zeichen eines Wächters verrät deinen Feinden deinen Standort.
@@ -1353,7 +1353,7 @@ Häut
 %%%%
 # duplicate of monster status
 #flayed
-#gehäutet
+#
 %%%%
 You are covered in terrible wounds.
 Du bist mit schrecklichen Wunden übersät.
@@ -1368,7 +1368,7 @@ geschwächt
 %%%%
 # duplicate of monster status
 #weak
-#schwach
+#
 %%%%
 Your attacks are enfeebled.
 Deine Angriffe sind geschwächt.
@@ -1386,7 +1386,7 @@ Unverschiebbar
 %%%%
 # duplicate of zap
 #dimension anchor
-#Dimensionsanker
+#
 %%%%
 You are firmly anchored to this plane.
 Du bist fest in dieser Ebene verankert.
@@ -1516,7 +1516,7 @@ Gefroren
 %%%%
 # duplicate of monster status
 #frozen
-#gefroren
+#
 %%%%
 You are partly encased in ice.
 Du bist teilweise in Eis eingeschlossen.
@@ -1532,11 +1532,11 @@ Auslaugen
 %%%%
 # duplicate of monster status
 #magic-sapped
-#Magie ausgelaugt
+#
 %%%%
 # duplicate of sap
 #sap magic
-#Magie auslaugen
+#
 %%%%
 Casting spells hinders your spell success.
 Das Wirken von Zaubern behindert deinen Zaubererfolg.
@@ -1720,7 +1720,7 @@ Korr
 %%%%
 # duplicate of monster status
 #corroded
-#korrodiert
+#
 %%%%
 corrosion
 Korrosion
@@ -1739,7 +1739,7 @@ Entsetzt
 %%%%
 # duplicate of the one in status.cc
 #horrified
-#entsetzt
+#
 %%%%
 horror
 Entsetzen
@@ -2000,13 +2000,13 @@ Du flackerst wieder ins Blickfeld.
 %%%%
 # duplicate of the innate mutation
 #slow
-#langsam
+#
 %%%%
 
 %%%%
 # duplicate of the one in status.cc
 #mesmerised
-#mesmerisiert
+#
 %%%%
 You break out of your daze.
 Du brichst aus deiner Benommenheit aus.
@@ -2018,7 +2018,7 @@ Immunität gegen Mesmerisation
 %%%%
 # duplicate of zap
 #haste
-#Hast
+#
 %%%%
 flight
 Flug
@@ -2077,7 +2077,7 @@ Immunität gegen Schlaf
 %%%%
 # duplicate of monster status
 #strong-willed
-#willensstark
+#
 %%%%
 
 # Trog's Hand (willpower part)

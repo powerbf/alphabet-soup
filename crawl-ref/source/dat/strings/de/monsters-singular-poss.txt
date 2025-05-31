@@ -37,19 +37,19 @@ the phase bat's
 {f}der Phasenfledermaus
 %%%%
 the skeletal bat's
-{f}der Skelett-Fledermaus
+{f}der Skelettfledermaus
 %%%%
 the microbat's
-{f}der Micro-Fledermaus
+{f}der Microfledermaus
 %%%%
 the megabat's
-{f}der Mega-Fledermaus
+{f}der Megafledermaus
 %%%%
 the giga bat's
-{f}der Giga-Fledermaus
+{f}der Gigafledermaus
 %%%%
 the bennu's
-des Bennus
+des Benus
 %%%%
 the caustic shrike's
 des ätzenden Würgers
@@ -103,25 +103,25 @@ the grey draconian's
 des grauen Drakoniers
 %%%%
 the draconian stormcaller's
-des Drakonier-Sturmrufers
+des drakonischen Sturmrufers
 %%%%
 the draconian monk's
-des Drakonier-Mönchs
+des drakonischen Mönchs
 %%%%
 the draconian shifter's
-des Drakonier-Verschiebers
+des drakonischen Verschiebers
 %%%%
 the draconian annihilator's
-des Drakonier-Vernichters
+des drakonischen Vernichters
 %%%%
 the draconian knight's
-des Drakonier-Ritters
+des drakonischen Ritters
 %%%%
 the draconian scorcher's
-des Drakonier-Verschmorers
+des drakonischen Verschmorers
 %%%%
 the elf's
-des Elfs
+des Elfen
 %%%%
 the deep elf knight's
 des Tiefenelf-Ritters
@@ -160,10 +160,10 @@ the deep elf elementalist's
 des Tiefenelf-Elementalisten
 %%%%
 the wandering mushroom's
-des wandernden Pilzs
+des wandernden Pilzes
 %%%%
 the deathcap's
-{f}der Todesmütze
+{f}der Todeskappe
 %%%%
 the thorn hunter's
 des Dornenjägers
@@ -202,7 +202,7 @@ the jackal's
 des Schakals
 %%%%
 the hound's
-des Hunds
+des Hundes
 %%%%
 the howler monkey's
 des Brüllaffen
@@ -217,10 +217,10 @@ the hog's
 des Schweins
 %%%%
 the hell hound's
-des Höllenhunds
+des Höllenhundes
 %%%%
 the doom hound's
-des Untergangshunds
+des Untergangshundes
 %%%%
 the raiju's
 des Raijus
@@ -274,7 +274,7 @@ the swamp drake's
 des Sumpfdrachlings
 %%%%
 the rime drake's
-des Reifsdrachlings
+des Reifdrachlings
 %%%%
 the wind drake's
 des Winddrachlings
@@ -295,7 +295,7 @@ the iguana's
 des Leguans
 %%%%
 the basilisk's
-des Basilisks
+des Basilisken
 %%%%
 the wyvern's
 des Wyverns
@@ -304,16 +304,16 @@ the komodo dragon's
 des Komododrachen
 %%%%
 the merfolk's
-des Meervolks
+des Meerwesens
 %%%%
 the merfolk impaler's
-des Meervolk-Impalers
+des Meervolk-Pfählers
 %%%%
 the merfolk javelineer's
-des Meervolk-Speerführers
+des Meervolk-Speerwerfers
 %%%%
 the merfolk aquamancer's
-des Meervolk-Aquamancers
+{f}der Meervolk-Wasserbeschwörerin
 %%%%
 the merfolk siren's
 {f}der Meervolk-Sirene
@@ -328,7 +328,7 @@ the bog body's
 {f}der Moorleiche
 %%%%
 the necrophage's
-des Nekrophagens
+{f}der Nekrophage
 %%%%
 the bloated husk's
 {f}der aufgeblähten Hülle
@@ -376,10 +376,10 @@ the wizard's
 des Zauberers
 %%%%
 the vault guard's
-des Tresorwächters
+{f}der Tresorwache
 %%%%
 the vault sentinel's
-{f}der Tresorwache
+des Tresorkundschafters
 %%%%
 the vault warden's
 des Tresorwärters
@@ -400,7 +400,7 @@ the ironbound thunderhulk's
 des eisenbeschlagenen Donnerkolosses
 %%%%
 the imperial myrmidon's
-des kaiserlichen Myrmidons
+des kaiserlichen Myrmidonen
 %%%%
 the servant of whispers's
 des Dieners des Flüsterns
@@ -418,7 +418,7 @@ the Killer Klown's
 des Killer-Klowns
 %%%%
 the demigod's
-des Halbgotts
+des Halbgottes
 %%%%
 the halfling's
 des Halblings
@@ -454,7 +454,7 @@ the tarantella's
 {f}der Tarantella
 %%%%
 the jumping spider's
-{f}der springenden Spinne
+{f}der Springspinne
 %%%%
 the wolf spider's
 {f}der Wolfsspinne
@@ -487,7 +487,7 @@ the ghost crab's
 {f}der Geisterkrabbe
 %%%%
 the apocalypse crab's
-{f}der Apokalypse-Krabbe
+{f}der Apokalypsenkrabbe
 %%%%
 the ugly thing's
 des hässlichen Dings
@@ -505,7 +505,7 @@ the spatial maelstrom's
 des räumlichen Mahlstroms
 %%%%
 the insubstantial wisp's
-des unwesentlichen Irrlichts
+des unwirklichen Irrlichts
 %%%%
 the twister's
 des Twisters
@@ -523,22 +523,22 @@ the dart slug's
 {f}der Pfeilschnecke
 %%%%
 the torpor snail's
-{f}der Erstarrungsschnecke
+{f}der Torporschnecke
 %%%%
 the elephant slug's
 {f}der Elefantenschnecke
 %%%%
 the unseen horror's
-des unsichtbaren Grauens
+des unsichtbaren Schreckens
 %%%%
 the small abomination's
-des kleinen Greuels
+{f}der kleinen Abscheulichkeit
 %%%%
 the ancient zyme's
 des uralten Zyms
 %%%%
 the worldbinder's
-des Weltbinders
+des Weltenbinders
 %%%%
 the killer bee's
 {f}der Killerbiene
@@ -547,7 +547,7 @@ the queen bee's
 {f}der Bienenkönigin
 %%%%
 the vampire mosquito's
-{f}der Vampir-Mücke
+des Vampirmoskitos
 %%%%
 the hornet's
 {f}der Hornisse
@@ -574,16 +574,16 @@ the skeletal warrior's
 des Skelettkriegers
 %%%%
 the ancient champion's
-des alten Champions
+des uralten Champions
 %%%%
 the flying skull's
 des fliegenden Schädels
 %%%%
 the curse skull's
-des Fluchschädels
+des verfluchten Schädels
 %%%%
 the curse toe's
-des Fluchzehs
+des verfluchten Zehs
 %%%%
 the angel's
 des Engels
@@ -604,7 +604,7 @@ the giant's
 des Riesen
 %%%%
 the cyclops's
-des Zyklops
+des Zyklopen
 %%%%
 the ettin's
 des Ettins
@@ -619,7 +619,7 @@ the stone giant's
 des Steinriesen
 %%%%
 the titan's
-des Titans
+des Titanen
 %%%%
 the juggernaut's
 des Juggernauts
@@ -703,7 +703,7 @@ the blink frog's
 des Blinzelfrosches
 %%%%
 the barachi's
-{f}der Barachi
+des Barachi
 %%%%
 the floating eye's
 des schwebenden Auges
@@ -742,7 +742,7 @@ the harpy's
 {f}der Harpyie
 %%%%
 the mutant beast's
-des Mutant-Biests
+des Mutantenbiests
 %%%%
 the ancestor's
 des Ahnen
@@ -760,7 +760,7 @@ the jelly's
 des Gelees
 %%%%
 the slime creature's
-des Schleimwesens
+{f}der Schleimkreatur
 %%%%
 the merged slime creature's
 {f}der verschmolzenen Schleimkreatur
@@ -784,7 +784,7 @@ the lich's
 des Lichs
 %%%%
 the ancient lich's
-des alten Lichs
+des uralten Lichs
 %%%%
 the antique lich's
 des antiken Lichs
@@ -805,7 +805,7 @@ the greater mummy's
 {f}der größeren Mumie
 %%%%
 the mummy priest's
-des Mumie-Priesters
+des Mumienpriesters
 %%%%
 the naga's
 des Nagas
@@ -856,10 +856,10 @@ the burning bush's
 des brennenden Busches
 %%%%
 the toadstool's
-des Giftpilzs
+des Giftpilzes
 %%%%
 the fungus's
-des Pilzs
+des Pilzes
 %%%%
 the ballistomycete's
 des Ballistomyceten
@@ -868,7 +868,7 @@ the hyperactive ballistomycete's
 des hyperaktiven Ballistomyceten
 %%%%
 the briar patch's
-des Dornstrauchs
+des Dornenstrauchs
 %%%%
 the tengu's
 des Tengus
@@ -880,10 +880,10 @@ the tengu warrior's
 des Tengu-Kriegers
 %%%%
 the tengu reaver's
-des Tengu-Häschers
+des Tengu-Plünderers
 %%%%
 the efreet's
-des Efreets
+des Ifrits
 %%%%
 the rakshasa's
 des Rakshasas
@@ -892,10 +892,10 @@ the dryad's
 {f}der Dryade
 %%%%
 the snaplasher vine's
-{f}der Peitscherrebe
+{f}der Peitschenrebe
 %%%%
 the snaplasher vine segment's
-des Peitscherrebesegments
+des Peitschenrebensegments
 %%%%
 the snake's
 {f}der Schlange
@@ -907,7 +907,7 @@ the adder's
 {f}der Kreuzotter
 %%%%
 the water moccasin's
-des Wassermokassins
+der Wassermokassin
 %%%%
 the black mamba's
 {f}der schwarzen Mamba
@@ -919,7 +919,7 @@ the anaconda's
 {f}der Anakonda
 %%%%
 the guardian serpent's
-{f}der Wächter-Schlange
+{f}der Wächterschlange
 %%%%
 the shock serpent's
 {f}der Schockschlange
@@ -964,7 +964,7 @@ the hungry ghost's
 des hungrigen Geistes
 %%%%
 the flayed ghost's
-des enthäuteten Geistes
+des geschundenen Geistes
 %%%%
 the player ghost's
 des Spielergeistes
@@ -979,13 +979,13 @@ the drowned soul's
 {f}der ertrunkenen Seele
 %%%%
 the wraith's
-des Geistes
+des Spuks
 %%%%
 the shadow wraith's
-des Schattengeistes
+des Schattenspuks
 %%%%
 the freezing wraith's
-des Frostgeistes
+des Frostspuks
 %%%%
 the eidolon's
 des Eidolons
@@ -994,28 +994,28 @@ the phantasmal warrior's
 des phantastischen Kriegers
 %%%%
 the large abomination's
-des großen Greuels
+{f}der großen Abscheulichkeit
 %%%%
 the thrashing horror's
-des verprügelnden Grauens
+des prügelnden Grauens
 %%%%
 the tentacled monstrosity's
-{f}der Tentakel-Monstrosität
+des Tentakelmonstrums
 %%%%
 the Orb Guardian's
 des Kugelwächters
 %%%%
 the tentacled starspawn's
-{f}der Tentakelsternbrut
+{f}der Tentakelsternenbrut
 %%%%
 the starspawn tentacle's
-des Sternbruttentakels
+des Sternenbruttentakels
 %%%%
 the starspawn tentacle segment's
-des Sternbruttentakelsegments
+des Sternenbruttentakelsegments
 %%%%
 the starcursed mass's
-{f}der sternverfluchten Masse
+{f}der sternenverfluchten Masse
 %%%%
 the dream sheep's
 des Traumschafs
@@ -1027,7 +1027,7 @@ the death yak's
 des Todesyaks
 %%%%
 the catoblepas's
-{f}der Catoblepas
+des Katoblepas
 %%%%
 the elephant's
 des Elefanten
@@ -1039,13 +1039,13 @@ the hellephant's
 des Höllefanten
 %%%%
 the apis's
-{f}der Apis
+des Apis
 %%%%
 the ice beast's
 {f}der Eisbestie
 %%%%
 the sky beast's
-des Himmelstiers
+{f}der Himmelsbestie
 %%%%
 the zombie's
 des Zombies
@@ -1075,13 +1075,13 @@ the large simulacrum's
 des großen Simulacrums
 %%%%
 the spectral thing's
-{f}der spektralen Sache
+des spektralen Dings
 %%%%
 the electric eel's
 des Zitteraals
 %%%%
 the kraken's
-des Krakens
+des Kraken
 %%%%
 the tentacle's
 des Tentakels
@@ -1090,7 +1090,7 @@ the tentacle segment's
 des Tentakelsegments
 %%%%
 the octopode's
-des Oktopods
+des Oktopoden
 %%%%
 the lava snake's
 {f}der Lavaschlange
@@ -1198,7 +1198,7 @@ the smoke demon's
 des Rauchdämons
 %%%%
 the neqoxec's
-{f}der Neqoxec
+des Neqoxec
 %%%%
 the ynoxinul's
 des Ynoxinuls
@@ -1210,19 +1210,19 @@ the shadow demon's
 des Schattendämons
 %%%%
 the green death's
-des grünen Tods
+des grünen Todes
 %%%%
 the blizzard demon's
 des Blizzarddämons
 %%%%
 the balrug's
-des Balrugs
+des Balrogs
 %%%%
 the cacodemon's
-des Cacodaemons
+des Kakodämons
 %%%%
 the hell beast's
-des Höllentiers
+des Höllenbiests
 %%%%
 the hellion's
 des Teufelsbratens
@@ -1237,10 +1237,10 @@ the tormentor's
 des Peinigers
 %%%%
 the Brimstone Fiend's
-des Schwefelunterweltlers
+des Schwefelunholds
 %%%%
 the Ice Fiend's
-des Eisunterweltlers
+des Eisunholds
 %%%%
 the Tzitzimitl's
 des Tzitzimitls
@@ -1276,7 +1276,7 @@ the electric golem's
 des Blitzgolems
 %%%%
 the ushabti's
-{f}der Uschabti
+{f}der Uschebti
 %%%%
 the guardian golem's
 des Wächtergolems
@@ -1309,7 +1309,7 @@ the block of ice's
 des Eisblocks
 %%%%
 the diamond obelisk's
-des Diamantobelisks
+des Diamantobelisken
 %%%%
 the lightning spire's
 des Blitzturms
@@ -1330,7 +1330,7 @@ the hell lord's
 des Höllenfürsten
 %%%%
 the ball lightning's
-des Kugelblitzs
+des Kugelblitzes
 %%%%
 the ballistomycete spore's
 {f}der Ballistomycetenspore
@@ -1357,7 +1357,7 @@ the wretched star's
 des elenden Sterns
 %%%%
 the battlesphere's
-{f}der Kampfsphäre
+{f}der Gefechtssphäre
 %%%%
 the death cob's
 des Todeskolbens
@@ -1369,7 +1369,7 @@ the foxfire's
 des Fuchsfeuers
 %%%%
 the nameless horror's
-des namenlosen Horrors
+des namenlosen Grauens
 %%%%
 the will-o-the-wisp's
 des Irrlichts
@@ -1399,7 +1399,7 @@ the eleionoma's
 {f}der Eleionoma
 %%%%
 the lemure's
-{f}der Lemure
+des Lemuren
 %%%%
 the endoplasm's
 des Endoplasmas
@@ -1414,13 +1414,13 @@ the kobold brigand's
 des Kobold-Briganten
 %%%%
 the dread lich's
-des Grauenlichs
+des grauenhaften Lichs
 %%%%
 the djinni's
 des Dschinns
 %%%%
 the salamander tyrant's
-des Salamander-Tyranns
+des Salamander-Tyrannen
 %%%%
 the animated armour's
 {f}der animierten Rüstung
@@ -1455,22 +1455,22 @@ the nasty sensed monster's
 des furchtbaren gespürten Monsters
 %%%%
 the sting beast's
-des Stichbiests
+des Stichbiestes
 %%%%
 the bat beast's
-des Fledermaus-Biests
+des Fledermausbiestes
 %%%%
 the fire beast's
-des Feuerbiests
+des Feuerbiestes
 %%%%
 the weird beast's
-des bizarren Biests
+des bizarren Biestes
 %%%%
 the shock beast's
-des Schockbiests
+des Schockbiestes
 %%%%
 the ox beast's
-des Ochsenbiests
+des Ochsenbiestes
 %%%%
 the spectre's
 {f}der Spukgestalt
@@ -1485,7 +1485,7 @@ the bog mummy's
 {f}der Moormumie
 %%%%
 the lunar statue's
-{f}der Mond-Statue
+{f}der Mondstatue
 %%%%
 
 # unseen monster
@@ -1498,138 +1498,26 @@ des Etwas
 # "elf zombie", "orc skeleton", etc.
 %%%%
 the @monster@ zombie's
-des @monster@-Zombies
+des Zombies {gen}@a_monster@
 %%%%
 the @monster@ skeleton's
-des @monster@-Skeletts
+des Skeletts {gen}@a_monster@
 %%%%
 the @monster@ simulacrum's
-des @monster@-Simulacrums
+des Simulacrums {gen}@a_monster@
 %%%%
 
 # irregular derived monsters
 
 %%%%
 the Lernaean hydra zombie's
-des Lernäische-Hydra-zombies
-%%%%
-the monstrous demonspawn zombie's
-des Monströse-Dämonenbrut-zombies
-%%%%
-the gelid demonspawn zombie's
-des Gelide-Dämonenbrut-zombies
-%%%%
-the infernal demonspawn zombie's
-des Höllische-Dämonenbrut-zombies
-%%%%
-the torturous demonspawn zombie's
-des Quälende-Dämonenbrut-zombies
-%%%%
-the black draconian zombie's
-des Schwarzer-Drakonier-zombies
-%%%%
-the yellow draconian zombie's
-des Gelber-Drakonier-zombies
-%%%%
-the pale draconian zombie's
-des Blasser-Drakonier-zombies
-%%%%
-the green draconian zombie's
-des Grüner-Drakonier-zombies
-%%%%
-the purple draconian zombie's
-des Purpurner-Drakonier-zombies
-%%%%
-the red draconian zombie's
-des Roter-Drakonier-zombies
-%%%%
-the white draconian zombie's
-des Weißer-Drakonier-zombies
-%%%%
-the grey draconian zombie's
-des Grauer-Drakonier-zombies
-%%%%
-
+des Zombies der Lernäischen Hydra
 %%%%
 the Lernaean hydra skeleton's
-des Lernäische-Hydra-Skeletts
-%%%%
-the monstrous demonspawn skeleton's
-des Monströse-Dämonenbrut-Skeletts
-%%%%
-the gelid demonspawn skeleton's
-des Gelide-Dämonenbrut-Skeletts
-%%%%
-the infernal demonspawn skeleton's
-des Höllische-Dämonenbrut-Skeletts
-%%%%
-the torturous demonspawn skeleton's
-des Quälende-Dämonenbrut-Skeletts
-%%%%
-the black draconian skeleton's
-des Schwarzer-Drakonier-Skeletts
-%%%%
-the yellow draconian skeleton's
-des Gelber-Drakonier-Skeletts
-%%%%
-the pale draconian skeleton's
-des Blasser-Drakonier-Skeletts
-%%%%
-the green draconian skeleton's
-des Grüner-Drakonier-Skeletts
-%%%%
-the purple draconian skeleton's
-des Purpurner-Drakonier-Skeletts
-%%%%
-the red draconian skeleton's
-des Roter-Drakonier-Skeletts
-%%%%
-the white draconian skeleton's
-des Weißer-Drakonier-Skeletts
-%%%%
-the grey draconian skeleton's
-des Grauer-Drakonier-Skeletts
-%%%%
-
+des Skeletts der Lernäischen Hydra
 %%%%
 the Lernaean hydra simulacrum's
-des Lernäische-Hydra-Simulacrums
-%%%%
-the monstrous demonspawn simulacrum's
-des Monströse-Dämonenbrut-Simulacrums
-%%%%
-the gelid demonspawn simulacrum's
-des Gelide-Dämonenbrut-Simulacrums
-%%%%
-the infernal demonspawn simulacrum's
-des Höllische-Dämonenbrut-Simulacrums
-%%%%
-the torturous demonspawn simulacrum's
-des Quälende-Dämonenbrut-Simulacrums
-%%%%
-the black draconian simulacrum's
-des Schwarzer-Drakonier-Simulacrums
-%%%%
-the yellow draconian simulacrum's
-des Gelber-Drakonier-Simulacrums
-%%%%
-the pale draconian simulacrum's
-des Blasser-Drakonier-Simulacrums
-%%%%
-the green draconian simulacrum's
-des Grüner-Drakonier-Simulacrums
-%%%%
-the purple draconian simulacrum's
-des Purpurner-Drakonier-Simulacrums
-%%%%
-the red draconian simulacrum's
-des Roter-Drakonier-Simulacrums
-%%%%
-the white draconian simulacrum's
-des Weißer-Drakonier-Simulacrums
-%%%%
-the grey draconian simulacrum's
-des Grauer-Drakonier-Simulacrums
+des Simulacrums der Lernäischen Hydra
 %%%%
 
 ##################
@@ -1665,7 +1553,7 @@ the dimme's
 {f}der Dimme
 %%%%
 the sulfuric acid blob's
-des Schwefelsaure-Klumpens
+des Schwefelsäureklumpens
 %%%%
 the vault guard captain's
 des Haupttresorwächters
@@ -1707,10 +1595,10 @@ the meat berserker's
 des Fleischberserkers
 %%%%
 the tyrant's
-des Tyranns
+des Tyrannen
 %%%%
 the meat hydra's
-{f}der fleischliche Hydra
+{f}der Fleisch-Hydra
 %%%%
 the dread's
 des Schreckens

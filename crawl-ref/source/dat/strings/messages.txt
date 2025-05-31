@@ -1155,12 +1155,14 @@ You drain %s
 %s drains itself
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 You drain %s vigour!
 
 %%%%
 %s drains your vigour!
 
 %%%%
+# note: second %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s drains %s vigour!
 
 %%%%
@@ -1432,6 +1434,7 @@ You have difficulty breathing.
 The silver sears %s!
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s life force is offered up.
 
 %%%%
@@ -1651,9 +1654,11 @@ Your demonic guardian avoids your attack.
 %s is dispelled
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s mind is blasted
 
 %%%%
+# note: this is for monsters with multiple heads, and %s will be possessive (i.e. "the hydra's")
 %s minds are blasted
 
 %%%%
@@ -1690,6 +1695,7 @@ Your demonic guardian avoids your attack.
 %s is firmly anchored in space.
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s willpower is stripped away.
 
 %%%%
@@ -1702,6 +1708,7 @@ Your demonic guardian avoids your attack.
 %s seems less confident about using magic.
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s magic leaks into the air.
 
 %%%%
@@ -2383,7 +2390,7 @@ You start removing your armour.
 You start memorising the spell.
 
 %%%%
-# Passwall spell - prpearing to merge oneself with the wall
+# Passwall spell - preparing to merge oneself with the wall
 You begin to meditate on the wall.
 
 %%%%
@@ -8022,10 +8029,10 @@ You punish %s, causing immense pain
 You devastate %s
 
 %%%%
-You shred %s
+You maul %s
 
 %%%%
-You maul %s
+You shred %s
 
 %%%%
 You smack %s
@@ -8041,15 +8048,6 @@ You engulf %s
 
 %%%%
 You release spores at %s
-
-%%%%
-You nip at %s
-
-%%%%
-You gouge %s
-
-%%%%
-You chomp %s
 
 %%%%
 You buffet %s
@@ -9739,6 +9737,7 @@ The forest calms down.
 %s loses the glow of perfection.
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s soul is no longer bound.
 
 %%%%
@@ -9810,6 +9809,7 @@ The winds around %s start to calm down.
 %s is seared!
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s chant is interrupted.
 
 %%%%
@@ -9819,6 +9819,7 @@ The winds around %s start to calm down.
 The winds around %s calm down.
 
 %%%%
+# note: %s will be possessive (e.g. "the orc's", "Sigmund's")
 %s song is interrupted.
 
 %%%%
@@ -11907,15 +11908,26 @@ You reach down and open %s.
 You open %s.
 
 %%%%
+# the following two strings are used in the "unable to close" messages
+the doorway
+
+%%%%
+the gateway
+
+%%%%
+# invisible monster prevents closing of door/gate
 Something is blocking %s!
 
 %%%%
+# visible monster prevents closing of door/gate
 There's a creature in %s!
 
 %%%%
+# items in doorway/gateway and there's nowhere to push them to
 There's something jamming %s.
 
 %%%%
+# player is standing in door/gate while trying to close it
 There's a thick-headed creature in %s!
 
 %%%%
@@ -12175,51 +12187,44 @@ Empty
 "Bite: "
 
 %%%%
-"Confused bite: "
-
-%%%%
-"Claw: "
-
-%%%%
-"Confused claw: "
-
-%%%%
-"Touch: "
-
-%%%%
-"Confused touch: "
-
-%%%%
-# note: Wisp form attack
-"Engulf: "
-
-%%%%
-"Confused engulf: "
-
-%%%%
-"Release spores: "
-
-%%%%
-"Confused release spores: "
-
-%%%%
 "Slash: "
 
 %%%%
-"Confused slash: "
+"Claw: "
 
 %%%%
 # note: Tree form attack
 "Smack: "
 
 %%%%
+"Touch: "
+
+%%%%
+"Release spores at: "
+
+%%%%
+"Buffet: "
+
+%%%%
+"Confused bite: "
+
+%%%%
+"Confused slash: "
+
+%%%%
+"Confused claw: "
+
+%%%%
 "Confused smack: "
 
 %%%%
-"Hit: "
+"Confused touch: "
 
 %%%%
-"Confused hit: "
+"Confused release spores at: "
+
+%%%%
+"Confused buffet: "
 
 %%%%
 "Attack: "
@@ -12256,6 +12261,12 @@ Empty
 
 %%%%
 "Confused cleave: "
+
+%%%%
+"Hit: "
+
+%%%%
+"Confused hit: "
 
 %%%%
 You nearly hit yourself!

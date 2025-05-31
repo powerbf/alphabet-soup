@@ -1230,7 +1230,6 @@ GENERATED_FILES := $(GENERATED_HEADERS) art-data.h mi-enum.h \
                    cmd-name.h species-data.h aptitudes.h species-groups.h
 
 LANGUAGES = $(filter-out en, $(notdir $(wildcard dat/descript/??)))
-LANGS = $(filter-out en, $(notdir $(wildcard dat/strings/??)))
 SRC_PKG_BASE  := stone_soup
 SRC_VERSION   := $(shell git describe --tags $(MERGE_BASE) 2>/dev/null || cat util/release_ver)
 MAJOR_VERSION = $(shell echo "$(SRC_VERSION)"|$(SED) -r 's/-.*//;s/^([^.]+\.[^.]+).*/\1/')
@@ -1499,9 +1498,6 @@ endif
 	for LANG in $(LANGUAGES); \
 		do mkdir -p $(datadir_fp)/dat/descript/$$LANG; \
 	done
-	for LANG in $(LANGS); \
-		do mkdir -p $(datadir_fp)/dat/strings/$$LANG; \
-	done
 	mkdir -p $(datadir_fp)/docs/develop
 	mkdir -p $(datadir_fp)/docs/develop/levels
 	mkdir -p $(datadir_fp)/docs/license
@@ -1521,9 +1517,7 @@ endif
 	for LANG in $(LANGUAGES); \
 		do $(COPY) dat/descript/$$LANG/*.txt $(datadir_fp)/dat/descript/$$LANG; \
 	done
-	for LANG in $(LANGS); \
-		do $(COPY) dat/strings/$$LANG/*.txt $(datadir_fp)/dat/strings/$$LANG; \
-	done
+	$(COPY_R) dat/strings $(datadir_fp)/dat
 	mkdir -p $(datadir_fp)/dat/dist_bones
 	$(COPY) dat/dist_bones/* $(datadir_fp)/dat/dist_bones/
 	$(COPY) ../docs/*.txt $(datadir_fp)/docs/
@@ -1657,6 +1651,12 @@ make-stringf-test: $(MAKE_STRINGF_TEST_OBJS) $(CONTRIB_LIBS)
 check-regex-rules: test/i18n/check-regex-rules.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS)
 	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
 
+derived-mon-test: test/i18n/derived-mon-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS)
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
+mon-speech-test: test/i18n/mon-speech-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS)
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
 de-mon-test: test/i18n/de/mon-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS)
 	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
 
@@ -1675,7 +1675,7 @@ fr-misc-test: test/i18n/fr/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIB
 ru-misc-test: test/i18n/ru/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS)
 	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
 
-i18n-tests: $(GAME) make-stringf-test check-regex-rules de-mon-test de-item-test de-misc-test fr-item-test fr-misc-test ru-misc-test
+i18n-tests: $(GAME) make-stringf-test check-regex-rules derived-mon-test mon-speech-test de-mon-test de-item-test de-misc-test fr-item-test fr-misc-test ru-misc-test
 	./make-stringf-test
 	./de-mon-test
 	./de-item-test

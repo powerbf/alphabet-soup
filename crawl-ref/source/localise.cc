@@ -37,30 +37,6 @@ static string _localise_list(const string context, const string& value);
 static string _localise_player_species_job(const string& s);
 static string _localise_player_title(const string& context, const string& text);
 
-// returns true only for a-z (not affected by locale like std::islower())
-static inline bool _is_ascii_lower(char c)
-{
-    return c >= 'a' && c <= 'z';
-}
-
-// returns true only for A-Z (not affected by locale like std::isupper())
-static inline bool _is_ascii_upper(char c)
-{
-    return c >= 'A' && c <= 'Z';
-}
-
-// returns true only for a-z and A-Z (not affected by locale like std::isalpha())
-static inline bool _is_ascii_alpha(char c)
-{
-    return _is_ascii_lower(c) || _is_ascii_upper(c);
-}
-
-// returns true only for 0-9 (std::isdigit() has a bunch of annoying caveats)
-static inline bool _is_ascii_digit(char c)
-{
-    return c >= '0' && c <= '9';
-}
-
 // is this string a whole number (i.e. only digits)
 static bool _is_whole_number(const char *s)
 {
@@ -70,7 +46,7 @@ static bool _is_whole_number(const char *s)
     size_t i = 0;
     while (s[i] != '\0')
     {
-        if (!_is_ascii_digit(s[i]))
+        if (!isadigit(s[i]))
             return false;
         i++;
     }
@@ -329,7 +305,7 @@ static bool _starts_with_menu_id(const string& s)
     if (s.length() < 4)
         return false;
 
-    return _is_ascii_alpha(s[0]) && s.substr(1,3) == " - ";
+    return isaalpha(s[0]) && s.substr(1,3) == " - ";
 }
 
 static string _strip_menu_id(const string& s, string& id)
@@ -347,7 +323,7 @@ static string _strip_menu_id(const string& s, string& id)
 static void _extract_number(string& s, string& num)
 {
     size_t start = 0;
-    while (!_is_ascii_digit(s[start]))
+    while (!isadigit(s[start]))
     {
         if (s[start] == '\0')
             return;
@@ -355,7 +331,7 @@ static void _extract_number(string& s, string& num)
     }
 
     size_t end = start + 1;
-    while (_is_ascii_digit(s[end]))
+    while (isadigit(s[end]))
         end++;
 
     num = s.substr(start, end - start);
@@ -373,7 +349,7 @@ static bool _starts_with_count(const string& s)
         char ch = s[i];
         if (ch == ' ' && i > 0)
             return true;
-        else if (!_is_ascii_digit(ch))
+        else if (!isadigit(ch))
             return false;
     }
 
@@ -554,7 +530,7 @@ static string _localise_annotation_element(const string& s)
     if (!prefix.empty() || !suffix.empty())
         return prefix + _localise_annotation_element(rest) + suffix;
 
-    if (_is_ascii_digit(s[0]))
+    if (isadigit(s[0]))
     {
         result =  _localise_counted_string("", s);
         return result.empty() ? s : result;
@@ -574,7 +550,7 @@ static string _localise_annotation_element(const string& s)
         int last_alpha_pos = -1;
         for (int k = (int)tok.length() - 1; k >= 0; k--)
         {
-            if (_is_ascii_alpha(tok[k]))
+            if (isaalpha(tok[k]))
             {
                 last_alpha_pos = k;
                 break;
@@ -821,19 +797,42 @@ static string _insert_adjectives(const string& s, const vector<string>& adjs)
     return _insert_adjectives(_context, result, adjs);
 }
 
+// concatenate the specified words with spaces in between
+static string _concatenate_words(const vector<string>& words, const size_t start = 0, const size_t end = SIZE_MAX)
+{
+    string result;
+    for (size_t i = start; i <= end && i < words.size(); i++)
+    {
+        if (!result.empty())
+            result += " ";
+        result += words[i];
+    }
+
+    return result;
+}
+
+// find an embedded parameter like @monster@ in the given string
+// returns the first such parameter
+static string _get_embedded_parameter(const string& s)
+{
+    size_t param_start = s.find('@');
+    if (param_start == string::npos)
+        return "";
+
+    size_t param_end = s.find('@', param_start + 1);
+    if (param_end == string::npos)
+        return "";
+
+    return s.substr(param_start, param_end - param_start + 1);
+}
+
 // return the position of any embedded name in a list of words
 // takes the largest possible string ending with the specified word
 static size_t _find_embedded_name(const vector<string>& words, const size_t end, string& name)
 {
     for (size_t start = 0; start <= end && start < words.size(); start++)
     {
-        string candidate;
-        for (size_t i = start; i <= end; i++)
-        {
-            if (!candidate.empty())
-                candidate += " ";
-            candidate += words[i];
-        }
+        string candidate = _concatenate_words(words, start, end);
         name = xlate(candidate, false);
         if (name.empty())
         {
@@ -925,7 +924,7 @@ static bool _check_adjectives(const vector<string>& adjs)
             return false;
         else if (adj == "shaped")
             contains_shaped = true;
-        else if (_is_ascii_upper(adj[0]) && adj != "Lernaean")
+        else if (isaupper(adj[0]) && adj != "Lernaean")
             contains_name = true;
 
     if (contains_name && !contains_shaped)
@@ -1111,7 +1110,7 @@ static string _localise_unidentified_scroll(const string& context, const string&
     rest += "%s";
 
     string result;
-    if (_is_ascii_digit(rest[0]))
+    if (isadigit(rest[0]))
     {
         int count;
         string plural = _strip_count(rest, count);
@@ -1613,7 +1612,37 @@ static string _localise_derived_monster_name(const string& context, const string
     if (result.empty())
         return "";
 
-    result = replace_first(result, "@monster@", original);
+    // find the parameter embedded in the result
+    // (could be @monster@ or @a_monster@)
+    string param = _get_embedded_parameter(result);
+
+    // find the context for the param
+    string param_ctx;
+    if (contains(result, "}@"))
+    {
+        size_t ctx_end = result.find("}@");
+        size_t ctx_start = result.rfind('{', ctx_end);
+        if (ctx_start != string::npos)
+        {
+            param_ctx = result.substr(ctx_start + 1, ctx_end - ctx_start - 1);
+            result = result.erase(ctx_start, ctx_end - ctx_start + 1);
+        }
+    }
+
+    if (!param.empty())
+    {
+        // translate the original monster
+        // This was already done by _find_embedded_name(), but we need to redo
+        // in case context is non-null or parameter is not just @monster@.
+        string original_en = _concatenate_words(words, start, words.size() - 1);
+        if (param == "@a_monster@")
+            original_en = article_a(original_en);
+
+        original = cxlate(param_ctx, original_en);
+        original = _discard_context(original);
+        result = replace_first(result, param, original);
+    }
+
     result = _localise_adjectives(result, adjectives);
 
     return result;
@@ -2771,7 +2800,7 @@ string localise(const string& text_in, const map<string, string>& params_in, boo
                         nested_calls--;
                     }
                 }
-                if (!key.empty() && _is_ascii_upper(key[0]))
+                if (!key.empty() && isaupper(key[0]))
                     value = uppercase_first(value);
                 res << value;
             }
@@ -2880,7 +2909,7 @@ static string _localise_player_title(const string& context, const string& text)
         rest = text;
 
     // all titles start with a capital letter
-    if (rest.empty() || !_is_ascii_upper(rest[0]))
+    if (rest.empty() || !isaupper(rest[0]))
         return "";
 
     TRACE("context='%s', value='%s'", context.c_str(), text.c_str());

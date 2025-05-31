@@ -263,7 +263,7 @@ Engulf
 %%%%
 # duplicate of monster prop
 #engulfed
-#verschlungen
+#
 %%%%
 You are engulfed.
 
@@ -294,21 +294,21 @@ Your life force is very heavily drained.
 %%%%
 # duplicate of monster status
 #heavily drained
-#stark ausgezehrt
+#
 %%%%
 Your life force is heavily drained.
 
 %%%%
 # duplicate of monster status
 #drained
-#ausgezehrt
+#
 %%%%
 Your life force is drained.
 
 %%%%
 # duplicate of monster status
 #lightly drained
-#leicht ausgezehrt
+#
 %%%%
 Your life force is lightly drained.
 
@@ -439,7 +439,7 @@ Regen Will++
 %%%%
 # duplicate of monster status
 #regenerating
-#regenerierend
+#
 %%%%
 You are regenerating.
 
@@ -533,7 +533,7 @@ Swift
 %%%%
 # duplicate of monster status
 #swift
-#rasch
+#
 %%%%
 swiftness
 
@@ -661,7 +661,7 @@ RMsl
 %%%%
 # duplicate of monster status
 #repel missiles
-#repelliert Geschosse
+#
 %%%%
 You repel missiles.
 
@@ -674,7 +674,7 @@ Invis
 %%%%
 # duplicate of monster status
 #invisible
-#unsichtbar
+#
 %%%%
 You are invisible.
 
@@ -682,26 +682,26 @@ You are invisible.
 invisible (but backlit and visible)
 
 %%%%
+You are invisible (but backlit and visible).
+
+%%%%
 
 ##################
 # duration-data.h
 ##################
 
-
 # Agility
-You are invisible (but backlit and visible).
-
 %%%%
 Agi
 
 %%%%
 # duplicate of monster status
 #agile
-#agil
+#
 %%%%
 # duplicate of zap
 #agility
-#Agilität
+#
 %%%%
 You are agile.
 
@@ -720,7 +720,7 @@ berserking
 %%%%
 # duplicate of zap
 #berserk
-#berserk
+#
 %%%%
 You are possessed by a berserker rage.
 
@@ -787,7 +787,7 @@ Conf
 %%%%
 # duplicate of monster status
 #confused
-#verwirrt
+#
 %%%%
 conf
 
@@ -827,7 +827,7 @@ lit by a corona
 %%%%
 # duplicate of monster status
 #corona
-#Korona
+#
 %%%%
 You are no longer glowing.
 
@@ -931,7 +931,7 @@ Will/2
 %%%%
 # duplicate of monster status
 #weak-willed
-#willensschwach
+#
 %%%%
 lowered wl
 
@@ -953,7 +953,7 @@ mighty
 %%%%
 # duplicate of zap
 #might
-#Macht
+#
 %%%%
 You are mighty.
 
@@ -969,11 +969,11 @@ Para
 %%%%
 # duplicate of monster status
 #paralysed
-#gelähmt
+#
 %%%%
 # duplicate of zap
 #paralysis
-#Lähmung
+#
 %%%%
 You are paralysed.
 
@@ -986,7 +986,7 @@ Stone
 %%%%
 # duplicate of monster status
 #petrified
-#versteinert
+#
 %%%%
 You are petrified.
 
@@ -999,7 +999,7 @@ Petr
 %%%%
 # duplicate of monster status
 #petrifying
-#versteinernd
+#
 %%%%
 You are turning to stone.
 
@@ -1012,7 +1012,7 @@ Resist
 %%%%
 # duplicate of monster status
 #resistant
-#resistent
+#
 %%%%
 resistance
 
@@ -1053,7 +1053,7 @@ sleeping
 %%%%
 # duplicate of zap
 #sleep
-#Schlaf
+#
 %%%%
 You are sleeping.
 
@@ -1120,7 +1120,7 @@ Quad
 %%%%
 # duplicate of the item name
 #quad damage
-#Vierfach-Schaden
+#
 %%%%
 Quad Damage is wearing off.
 
@@ -1130,7 +1130,7 @@ Quad Damage is wearing off.
 %%%%
 # duplicate of the one in status.cc
 #silenced
-#verstummt
+#
 %%%%
 silence
 
@@ -1204,7 +1204,7 @@ in a vortex
 %%%%
 # duplicate of monster status
 #vortex
-#Wirbel
+#
 %%%%
 You are in the eye of a polar vortex.
 
@@ -1318,7 +1318,7 @@ marked
 %%%%
 # duplicate of zap
 #sentinel's mark
-#Sentinel-Zeichen
+#
 %%%%
 A sentinel's mark is revealing your location to enemies.
 
@@ -1353,7 +1353,7 @@ Your primal bloodlust is almost over.
 %%%%
 # duplicate of monster status
 #flayed
-#gehäutet
+#
 %%%%
 You are covered in terrible wounds.
 
@@ -1368,7 +1368,7 @@ weakened
 %%%%
 # duplicate of monster status
 #weak
-#schwach
+#
 %%%%
 Your attacks are enfeebled.
 
@@ -1386,7 +1386,7 @@ untranslocatable
 %%%%
 # duplicate of zap
 #dimension anchor
-#Dimensionsanker
+#
 %%%%
 You are firmly anchored to this plane.
 
@@ -1516,7 +1516,7 @@ Frozen
 %%%%
 # duplicate of monster status
 #frozen
-#gefroren
+#
 %%%%
 You are partly encased in ice.
 
@@ -1532,11 +1532,11 @@ Sap
 %%%%
 # duplicate of monster status
 #magic-sapped
-#Magie ausgelaugt
+#
 %%%%
 # duplicate of sap
 #sap magic
-#Magie auslaugen
+#
 %%%%
 Casting spells hinders your spell success.
 
@@ -1720,7 +1720,7 @@ Corr
 %%%%
 # duplicate of monster status
 #corroded
-#korrodiert
+#
 %%%%
 corrosion
 
@@ -1739,7 +1739,7 @@ Horr
 %%%%
 # duplicate of the one in status.cc
 #horrified
-#entsetzt
+#
 %%%%
 horror
 
@@ -2000,13 +2000,13 @@ You flicker back into view.
 %%%%
 # duplicate of the innate mutation
 #slow
-#langsam
+#
 %%%%
 
 %%%%
 # duplicate of the one in status.cc
 #mesmerised
-#mesmerisiert
+#
 %%%%
 You break out of your daze.
 
@@ -2018,7 +2018,7 @@ mesmerisation immunity
 %%%%
 # duplicate of zap
 #haste
-#Hast
+#
 %%%%
 flight
 
@@ -2077,7 +2077,7 @@ sleep immunity
 %%%%
 # duplicate of monster status
 #strong-willed
-#willensstark
+#
 %%%%
 
 # Trog's Hand (willpower part)

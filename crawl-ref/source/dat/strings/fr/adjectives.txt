@@ -580,7 +580,7 @@
 "brown "
 " marron"
 %%%%
-"white"
+"white "
 " blanc"
 %%%%
 "grey "
@@ -701,6 +701,7 @@
 "fleshy "
 " charnu"
 %%%%
+# blade hands/paws/etc.
 "blade "
 " lame"
 %%%%
@@ -819,6 +820,7 @@ brun simple
 "rotten "
 " pourri"
 %%%%
+# used for obsolete monsters
 "removed "
 " retiré"
 %%%%
@@ -996,6 +998,7 @@ brun simple
 "fire elementalist "
 " d'élémentaliste de feu"
 %%%%
+# no, this is not a mistake - water not ice
 "water elementalist "
 "d' élémentaliste d'eau"
 %%%%

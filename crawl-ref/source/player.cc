@@ -7871,7 +7871,7 @@ void player_close_door(coord_def doorpos)
 
     const char *adj, *noun;
     get_door_description(all_door.size(), &adj, &noun);
-    string waynoun_str = make_stringf("%sway", noun); // @noloc
+    string waynoun_str = make_stringf("%sway", noun);
 
     if (!door_desc_adj.empty())
         adj = door_desc_adj.c_str();

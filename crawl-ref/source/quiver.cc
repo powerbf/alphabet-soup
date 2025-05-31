@@ -371,27 +371,18 @@ namespace quiver
             if (!weapon)
             {
                 const auto form_verbs = get_form(you.form)->uc_attack_verbs;
-                if (form_verbs.medium != FAV_DEFAULT) // we use med because it mostly has better flavor
+                if (form_verbs.medium) // we use med because it mostly has better flavor
                 {
-                    switch (form_verbs.medium)
+                    if (!confused)
                     {
-                        case FAV_BITE:
-                            return !confused ? "Bite: " : "Confused bite: ";
-                        case FAV_CLAW:
-                            return !confused ? "Claw: " : "Confused claw: ";
-                        case FAV_TOUCH:
-                            return !confused ? "Touch: " : "Confused touch: ";
-                        case FAV_ENGULF:
-                            return !confused ? "Engulf: " : "Confused engulf: ";
-                        case FAV_RELEASE_SPORES_AT:
-                            return !confused ? "Release spores: "
-                                             : "Confused release spores: ";
-                        case FAV_SLASH:
-                            return !confused ? "Slash: " : "Confused slash: ";
-                        case FAV_SMACK:
-                            return !confused ? "Smack: ": "Confused smack: ";
-                        default:
-                            return !confused ? "Hit: " : "Confused hit: ";
+                        string verb = uppercase_first(form_verbs.medium);
+                        string result = "@Medium_attack@: ";
+                        return replace_first(result, "@Medium_attack@", verb);
+                    }
+                    else
+                    {
+                        string result = "Confused @medium_attack@: ";
+                        return replace_first(result, "@medium_attack@", form_verbs.medium);
                     }
                 }
                 else

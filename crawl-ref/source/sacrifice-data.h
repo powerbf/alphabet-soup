@@ -5,7 +5,7 @@ struct sacrifice_def
     ability_type  sacrifice;        // The ability that executes the sacrifice.
     mutation_type mutation;         // The mutation that will be inflicted.
                                     // See also god-abil.cc:sacrifice_vector_map.
-    const char*   sacrifice_text;   // Format: "Ru asks you to sacrifice your hand"
+    const char*   sacrifice_text;   // Format: "sacrifice your hand"
                                     // in case of variable sacrifices or sac
                                     // hand, this will be extended later
     const char*   milestone_text;   // Format: "sacrificed <foo>"
@@ -28,7 +28,7 @@ static const sacrifice_def sac_data[] =
 {
 
 { ABIL_RU_SACRIFICE_PURITY, MUT_NON_MUTATION,
-  "Ru asks you to corrupt yourself such that: %s.",
+  "corrupt yourself such that",
   "sacrificed purity",
 
   0,
@@ -38,7 +38,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_WORDS, MUT_READ_SAFETY,
-  "Ru asks you to sacrifice your ability to read while threatened.",
+  "sacrifice your ability to read while threatened",
   "sacrificed words",
 
   30,
@@ -48,7 +48,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_DRINK, MUT_DRINK_SAFETY,
-  "Ru asks you to sacrifice your ability to drink while threatened.",
+  "sacrifice your ability to drink while threatened",
   "sacrificed drink",
 
   30,
@@ -58,7 +58,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_ESSENCE, MUT_NON_MUTATION,
-  "Ru asks you to corrupt yourself such that: %s.",
+  "corrupt yourself such that",
   "sacrificed essence",
 
   0,
@@ -68,7 +68,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_HEALTH, MUT_NON_MUTATION,
-  "Ru asks you to corrupt yourself such that: %s.",
+  "corrupt yourself such that",
   "sacrificed health",
 
   25,
@@ -78,7 +78,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_STEALTH, MUT_NO_STEALTH,
-  "Ru asks you to sacrifice your ability to go unnoticed.",
+  "sacrifice your ability to go unnoticed",
   "sacrificed stealth",
 
   15,
@@ -88,7 +88,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_ARTIFICE, MUT_NO_ARTIFICE,
-  "Ru asks you to sacrifice all use of magical tools.",
+  "sacrifice all use of magical tools",
   "sacrificed evocations",
 
   55,
@@ -98,7 +98,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_LOVE, MUT_NO_LOVE,
-  "Ru asks you to sacrifice your ability to be loved.",
+  "sacrifice your ability to be loved",
   "sacrificed love",
 
   40,
@@ -108,7 +108,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_COURAGE, MUT_COWARDICE,
-  "Ru asks you to sacrifice your courage.",
+  "sacrifice your courage",
   "sacrificed courage",
 
   25,
@@ -118,7 +118,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_ARCANA, MUT_NON_MUTATION,
-  "Ru asks you to sacrifice all use of: %s.",
+  "sacrifice all use of",
   "sacrificed arcana",
 
   25,
@@ -128,7 +128,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_NIMBLENESS, MUT_NO_DODGING,
-  "Ru asks you to sacrifice your Dodging skill.",
+  "sacrifice your Dodging skill",
   "sacrificed dodging",
 
   30,
@@ -138,7 +138,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_DURABILITY, MUT_NO_ARMOUR_SKILL,
-  "Ru asks you to sacrifice your Armour skill.",
+  "sacrifice your Armour skill",
   "sacrificed armour",
 
   30,
@@ -148,7 +148,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_HAND, MUT_MISSING_HAND,
-  "Ru asks you to sacrifice %s.",
+  "sacrifice %s",
   "sacrificed a hand",
 
   65,
@@ -158,7 +158,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_EXPERIENCE, MUT_INEXPERIENCED,
-  "Ru asks you to sacrifice your experiences.",
+  "sacrifice your experiences",
   "sacrificed experience",
 
   40,
@@ -168,7 +168,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_SKILL, MUT_UNSKILLED,
-  "Ru asks you to sacrifice your skill.",
+  "sacrifice your skill",
   "sacrificed skill",
 
   30,
@@ -178,7 +178,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_EYE, MUT_MISSING_EYE,
-  "Ru asks you to sacrifice an eye.",
+  "sacrifice an eye",
   "sacrificed an eye",
 
   20,
@@ -188,7 +188,7 @@ static const sacrifice_def sac_data[] =
 },
 
 { ABIL_RU_SACRIFICE_RESISTANCE, MUT_TEMPERATURE_SENSITIVITY,
-  "Ru asks you to sacrifice your resistance to extreme temperatures.",
+  "sacrifice your resistance to extreme temperatures",
   "sacrificed resistance",
 
   50,

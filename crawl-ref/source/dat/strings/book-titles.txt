@@ -935,7 +935,7 @@ The Lost Catalogue of @spellcaster@
 %%%%
 # duplicate (see gods.txt)
 #{gen}Sif Muna
-#von Sif Muna
+#
 %%%%
 {gen}the Archmage
 
@@ -1005,11 +1005,11 @@ Thaumaturgy
 %%%%
 # duplicate: This is also used for the targeter when casting targeted spells
 #Casting
-#Wirken
+#
 %%%%
 # duplicate (see skills.txt)
 #Spellcasting
-#Zaubern
+#
 %%%%
 Wizardry
 
@@ -1858,7 +1858,7 @@ the %sBirds
 %%%%
 # duplicate
 #{gen}Magic
-#der Magie
+#
 %%%%
 
 # Summoning genitive
@@ -2093,7 +2093,7 @@ the %sBirds
 %%%%
 # duplicate
 #"Lethal "
-#"tödliche "
+#
 %%%%
 "Doomed "
 
@@ -2130,11 +2130,11 @@ the %sBirds
 %%%%
 # duplicate
 #"Unstable "
-#"instabile "
+#
 %%%%
 # duplicate
 #"Twisted "
-#"verdrehte "
+#
 %%%%
 "Quantum "
 

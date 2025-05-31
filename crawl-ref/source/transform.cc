@@ -90,9 +90,10 @@ string Form::melding_description() const
     return "";
 }
 
-static const FormAttackVerbs DEFAULT_VERBS = FormAttackVerbs(FAV_DEFAULT);
-static const FormAttackVerbs ANIMAL_VERBS = FormAttackVerbs(FAV_HIT, FAV_BITE,
-                                                            FAV_MAUL, FAV_MAUL);
+static const FormAttackVerbs DEFAULT_VERBS = FormAttackVerbs(nullptr, nullptr,
+                                                             nullptr, nullptr);
+static const FormAttackVerbs ANIMAL_VERBS = FormAttackVerbs("hit", "bite",
+                                                            "maul", "maul");
 
 static const FormDuration DEFAULT_DURATION = FormDuration(20, PS_DOUBLE, 100);
 static const FormDuration BAD_DURATION = FormDuration(15, PS_ONE_AND_A_HALF,
@@ -474,7 +475,7 @@ string Form::player_prayer_action() const
     // XXX: if we ever get a default-permaflying species again that wants to
     // have a separate verb, we'll want to check for that right here.
     if (you.airborne())
-        return "You hover solemnly before the altar of %s.";
+        return "hover solemnly before";
     // Otherwise, if you have a verb, use that...
     if (!prayer_action.empty())
         return prayer_action;
