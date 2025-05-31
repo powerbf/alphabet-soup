@@ -246,6 +246,46 @@ int main()
                " Weitermachen?";
     show_result(msg, expected);
 
+    // player species
+    show_result(localise("Deep Elf"), "Tiefenelf");
+    show_result(localise("Human"), "Mensch");
+    show_result(localise("Mummy"), "Mumie");
+    show_result(localise("Draconian"), "Drakonier");
+    show_result(localise("Red Draconian"), "Roter Drakonier");
+
+    show_result(localise("a Deep Elf"), "ein Tiefenelf");
+    show_result(localise("a Human"), "ein Mensch");
+    show_result(localise("a Mummy"), "eine Mumie");
+    show_result(localise("a Draconian"), "ein Drakonier");
+    show_result(localise("a Red Draconian"), "ein Roter Drakonier");
+
+    show_result(localise("the Deep Elf"), "der Tiefenelf");
+    show_result(localise("the Human"), "der Mensch");
+    show_result(localise("the Mummy"), "die Mumie");
+    show_result(localise("the Draconian"), "der Drakonier");
+    show_result(localise("the Red Draconian"), "der Rote Drakonier");
+
+    // player background
+    show_result(localise("Fighter"), "Kämpfer");
+    show_result(localise("Berserker"), "Berserker");
+    show_result(localise("Hunter"), "Jäger");
+    show_result(localise("Air Elementalist"), "Luftmagier");
+    show_result(localise("Chaos Knight"), "Chaosritter");
+
+    /*
+    show_result(localise("a Fighter"), "ein Kämpfer");
+    show_result(localise("a Berserker"), "ein Berserker");
+    show_result(localise("a Hunter"), "ein Jäger");
+    show_result(localise("an Air Elementalist"), "ein Luftmagier");
+    show_result(localise("a Chaos Knight"), "ein Chaosritter");
+
+    show_result(localise("the Fighter"), "der Kämpfer");
+    show_result(localise("the Berserker"), "der Berserker");
+    show_result(localise("the Hunter"), "der Jäger");
+    show_result(localise("the Air Elementalist"), "der Luftmagier");
+    show_result(localise("the Chaos Knight"), "der Chaosritter");
+    */
+
     // player characters
     show_result(localise("Hill Orc Fighter"), "Hügelork Kämpfer");
     show_result(localise("the Hill Orc Fighter"), "der Hügelork Kämpfer");
@@ -255,7 +295,14 @@ int main()
     show_result(localise("Recommended Hill Orc"), "Vorgeschlagener Hügelork");
     show_result(localise("Recommended Mummy"), "Vorgeschlagene Mumie");
     show_result(localise("Recommended Merfolk"), "Vorgeschlagenes Meervolk");
+
+    show_result(localise("Mummy Fire Elementalist"), "Mumie Feuermagier");
+    show_result(localise("a Mummy Fire Elementalist"), "ein Mumie Feuermagier");
+    show_result(localise("the Mummy Fire Elementalist"), "der Mumie Feuermagier");
+
     show_result(localise("Grey Draconian Berserker of Trog"), "Grauer Drakonier Berserker von Trog");
+    show_result(localise("a Grey Draconian Berserker of Trog"), "ein Grauer Drakonier Berserker von Trog");
+    show_result(localise("the Grey Draconian Berserker of Trog"), "der Grauer Drakonier Berserker von Trog");
 
     // player character titles
     // simple
