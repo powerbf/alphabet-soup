@@ -34,7 +34,7 @@ static string _context;
 // forward declarations
 static string _localise_string(const string context, const string& value);
 static string _localise_list(const string context, const string& value);
-static string _localise_player_species_job(const string& s);
+static string _localise_player_character_combo(const string& s);
 static string _localise_player_title(const string& context, const string& text);
 
 // is this string a whole number (i.e. only digits)
@@ -910,8 +910,60 @@ static bool _find_base_name(const string& s, string& base_en, string& base_xlate
     return false;
 }
 
+/*
+ * Find the largest possible translatable base name for a character combo.
+ *
+ *  "Deep Elf Earth Elementalist" -> base_en = "%s Earth Elementalist", rest = "Deep Elf"
+ *
+ * base_xlated contains the translation of base_en. It's guaranteed to be
+ * non-empty if the function returns true (success).
+ */
+static bool _find_character_combo_base_name(const string& s, string& base_en, string& base_xlated, string &rest)
+{
+    // extract any determiner (e.g. "a", "the", etc.)
+    string determiner, main;
+    _strip_determiner(s, determiner, main);
+    if (!determiner.empty())
+        determiner = _normalise_determiner(determiner) + " ";
+    string prefix = determiner + "@species@ ";
+
+    size_t pos = 0;
+    while (pos < main.length())
+    {
+        string base = main.substr(pos);
+        rest = main.substr(0, pos);
+
+        if (starts_with(rest, "of "))
+        {
+            // we've gone too far - this is a suffix
+            break;
+        }
+
+        // try with @species@ in base name (e.g. "the @species@ Air Elementalist")
+        base_en = prefix + base;
+        base_xlated = cxlate(_context, base_en, false);
+        if (!base_xlated.empty())
+        {
+            // remove the trailing space from rest
+            if (pos > 0)
+                rest = main.substr(0, pos - 1);
+            return true;
+        }
+
+        pos = main.find(' ', pos+1);
+        if (pos == string::npos)
+            break;
+        // move split-point to character after space
+        pos++;
+    }
+
+    base_en = "";
+    rest = "";
+    return false;
+}
+
 // check that adjectives actually are adjectives
-static bool _check_adjectives(const vector<string>& adjs)
+static bool _check_adjectives(const vector<string>& adjs, bool allow_uppercase = false)
 {
     bool contains_name = false;
     bool contains_shaped = false;
@@ -924,7 +976,7 @@ static bool _check_adjectives(const vector<string>& adjs)
             return false;
         else if (adj == "shaped")
             contains_shaped = true;
-        else if (isaupper(adj[0]) && adj != "Lernaean")
+        else if (!allow_uppercase && isaupper(adj[0]) && adj != "Lernaean")
             contains_name = true;
 
     if (contains_name && !contains_shaped)
@@ -1027,7 +1079,7 @@ static string _localise_string_with_adjectives(const string& s)
           base_en.c_str(),base_xlated.c_str(), rest.c_str());
 
     vector<string> adjectives = split_string(" ", rest, true, false);
-    if (!_check_adjectives(adjectives))
+    if (!_check_adjectives(adjectives, true))
         return "";
 
     string result = _localise_adjectives(base_xlated, adjectives);
@@ -1676,6 +1728,10 @@ static string _localise_name(const string& context, const string& value)
             return _shift_context(prefix) + base;
     }
 
+    result = _localise_player_character_combo(value);
+    if (!result.empty())
+        return result;
+
     result = _localise_player_title(context, value);
     if (!result.empty())
         return result;
@@ -1699,10 +1755,6 @@ static string _localise_name(const string& context, const string& value)
         return result;
 
     result = _localise_string_with_adjectives(value);
-    if (!result.empty())
-        return result;
-
-    result = _localise_player_species_job(value);
     if (!result.empty())
         return result;
 
@@ -2836,12 +2888,14 @@ string localise_contextual(const string& context, const string& text_en)
 }
 
 // localise a string like "amateur Deep Elf Earth Elementalist" or "Random Deep Elf"
-static string _localise_player_species_job(const string& s)
+static string _localise_player_character_combo(const string& s)
 {
 
     string base_en, base_xlated, rest;
-    if (!_find_base_name(s, base_en, base_xlated, rest))
+    if (!_find_character_combo_base_name(s, base_en, base_xlated, rest))
         return "";
+
+    TRACE("Combo base name: %s", base_en.c_str());
 
     string context = _get_context(base_xlated);
     if (context.empty())
@@ -2855,10 +2909,10 @@ static string _localise_player_species_job(const string& s)
     // handle easy case like "Deep Elf Earth Elementalist"
     string rest_xlated = cxlate(context, rest, false);
     if (!rest_xlated.empty())
-        return replace_first(base_xlated, "%s", rest_xlated);
+        return replace_first(base_xlated, "@species@", _remove_context(rest_xlated));
 
     // probably something like "amateur Deep Elf Earth Elementalist"
-    base_en = replace_first(base_en, "%s", "%s%s");
+    base_en = replace_first(base_en, "@species@", "%s@species@");
     base_xlated = cxlate(_context, base_en, false);
     if (base_xlated.empty())
         return "";
@@ -2884,7 +2938,7 @@ static string _localise_player_species_job(const string& s)
 
     // TODO: Fix this
     string result = replace_first(base_xlated, "%s", adjectives);
-    result = replace_first(result, "%s", species);
+    result = replace_first(result, "@species@", _remove_context(species));
     return result;
 }
 

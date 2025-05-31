@@ -272,7 +272,6 @@ int main()
     show_result(localise("Air Elementalist"), "Luftmagier");
     show_result(localise("Chaos Knight"), "Chaosritter");
 
-    /*
     show_result(localise("a Fighter"), "ein Kämpfer");
     show_result(localise("a Berserker"), "ein Berserker");
     show_result(localise("a Hunter"), "ein Jäger");
@@ -284,7 +283,6 @@ int main()
     show_result(localise("the Hunter"), "der Jäger");
     show_result(localise("the Air Elementalist"), "der Luftmagier");
     show_result(localise("the Chaos Knight"), "der Chaosritter");
-    */
 
     // player characters
     show_result(localise("Hill Orc Fighter"), "Hügelork Kämpfer");

@@ -219,79 +219,157 @@ the octopus
 %%%%
 
 ##############################################
+# Player background (aka job)
+##############################################
+%%%%
+the Fighter
+
+%%%%
+the Gladiator
+
+%%%%
+the Monk
+
+%%%%
+the Hunter
+
+%%%%
+the Berserker
+
+%%%%
+the Brigand
+
+%%%%
+the Abyssal Knight
+
+%%%%
+the Chaos Knight
+
+%%%%
+the Enchanter
+
+%%%%
+the Transmuter
+
+%%%%
+the Arcane Marksman
+
+%%%%
+the Warper
+
+%%%%
+the Hedge Wizard
+
+%%%%
+the Conjurer
+
+%%%%
+the Summoner
+
+%%%%
+the Necromancer
+
+%%%%
+the Fire Elementalist
+
+%%%%
+the Ice Elementalist
+
+%%%%
+the Air Elementalist
+
+%%%%
+the Earth Elementalist
+
+%%%%
+the Venom Mage
+
+%%%%
+the Artificer
+
+%%%%
+the Delver
+
+%%%%
+the Wanderer
+
+%%%%
+
+##############################################
+# player character combo
 # "the <species> <background>"
 # (as in "Welcome, Bob the Minotaur Berserker")
 ##############################################
 %%%%
-the %s Fighter
+the @species@ Fighter
 
 %%%%
-the %s Gladiator
+the @species@ Gladiator
 
 %%%%
-the %s Monk
+the @species@ Monk
 
 %%%%
-the %s Hunter
+the @species@ Hunter
 
 %%%%
-the %s Berserker
+the @species@ Berserker
 
 %%%%
-the %s Brigand
+the @species@ Brigand
 
 %%%%
-the %s Abyssal Knight
+the @species@ Abyssal Knight
 
 %%%%
-the %s Chaos Knight
+the @species@ Chaos Knight
 
 %%%%
-the %s Enchanter
+the @species@ Enchanter
 
 %%%%
-the %s Transmuter
+the @species@ Transmuter
 
 %%%%
-the %s Arcane Marksman
+the @species@ Arcane Marksman
 
 %%%%
-the %s Warper
+the @species@ Warper
 
 %%%%
-the %s Hedge Wizard
+the @species@ Hedge Wizard
 
 %%%%
-the %s Conjurer
+the @species@ Conjurer
 
 %%%%
-the %s Summoner
+the @species@ Summoner
 
 %%%%
-the %s Necromancer
+the @species@ Necromancer
 
 %%%%
-the %s Fire Elementalist
+the @species@ Fire Elementalist
 
 %%%%
-the %s Ice Elementalist
+the @species@ Ice Elementalist
 
 %%%%
-the %s Air Elementalist
+the @species@ Air Elementalist
 
 %%%%
-the %s Earth Elementalist
+the @species@ Earth Elementalist
 
 %%%%
-the %s Venom Mage
+the @species@ Venom Mage
 
 %%%%
-the %s Artificer
+the @species@ Artificer
 
 %%%%
-the %s Delver
+the @species@ Delver
 
 %%%%
-the %s Wanderer
+the @species@ Wanderer
 
 %%%%
