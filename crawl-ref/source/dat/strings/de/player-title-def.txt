@@ -770,7 +770,7 @@ der Spalter
 the Severer
 der Henker
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #the Executioner
 #
 %%%%
@@ -1050,7 +1050,7 @@ der Einbeirufer
 the Demonologist
 der Dämonologe
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #the Hellbinder
 #
 %%%%
@@ -1158,7 +1158,7 @@ der Zephyrmant
 the Stormcaller
 der Sturmrufer
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #the Cloud Mage
 #
 %%%%

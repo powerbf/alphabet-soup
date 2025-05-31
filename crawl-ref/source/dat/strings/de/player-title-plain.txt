@@ -393,7 +393,7 @@ Auflösender
 Blob
 Blob
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #Royal Jelly
 #
 %%%%
@@ -763,8 +763,9 @@ Spalter
 Severer
 Henker
 %%%%
-Executioner
-Scharfrichter
+# duplicate (monster)
+#Executioner
+#
 %%%%
 Axe Maniac
 Axt-Maniac
@@ -1043,8 +1044,9 @@ Einbeirufer
 Demonologist
 Dämonologe
 %%%%
-Hellbinder
-Höllenbinder
+# duplicate (monster)
+#Hellbinder
+#
 %%%%
 
 # Necromancy
@@ -1149,8 +1151,9 @@ Zephyrmant
 Stormcaller
 Sturmrufer
 %%%%
-Cloud Mage
-Wolkenmagier
+# duplicate (monster)
+#Cloud Mage
+#
 %%%%
 Meteorologist
 Meteorologe

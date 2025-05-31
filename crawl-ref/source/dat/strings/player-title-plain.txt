@@ -393,7 +393,7 @@ Dissolving @Genus@
 Blob
 
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #Royal Jelly
 #
 %%%%
@@ -763,8 +763,9 @@ Cleaver
 Severer
 
 %%%%
-Executioner
-
+# duplicate (monster)
+#Executioner
+#
 %%%%
 Axe Maniac
 
@@ -1043,8 +1044,9 @@ Convoker
 Demonologist
 
 %%%%
-Hellbinder
-
+# duplicate (monster)
+#Hellbinder
+#
 %%%%
 
 # Necromancy
@@ -1149,8 +1151,9 @@ Zephyrmancer
 Stormcaller
 
 %%%%
-Cloud Mage
-
+# duplicate (monster)
+#Cloud Mage
+#
 %%%%
 Meteorologist
 
