@@ -1,0 +1,133 @@
+###############################################################################
+#
+# Translations for Nemelex card decks
+#
+###############################################################################
+
+%%%%
+escape
+fuga
+%%%%
+destruction
+destruição
+%%%%
+summoning
+invocação
+%%%%
+punishment
+punição
+%%%%
+
+%%%%
+the deck of escape
+o baralho de fuga
+%%%%
+the deck of destruction
+o baralho de destruição
+%%%%
+the deck of summoning
+o baralho de invocação
+%%%%
+the deck of punishment
+o baralho de punição
+%%%%
+the stacked deck
+o baralho empilhado
+%%%%
+
+%%%%
+decks of escape
+os baralhos de fuga
+%%%%
+decks of destruction
+os baralhos de destruição
+%%%%
+decks of summoning
+os baralhos de invocação
+%%%%
+decks of punishment
+os baralhos de punição
+%%%%
+stacked decks
+os baralhos empilhados
+%%%%
+
+####################
+# Cards
+####################
+
+%%%%
+an escape card
+uma carta de fuga
+%%%%
+a destruction card
+uma carta de destruição
+%%%%
+a summoning card
+uma carta de invocação
+%%%%
+a punishment card
+uma carta de punição
+%%%%
+
+%%%%
+Velocity
+Velocidade
+%%%%
+Exile
+Exílio
+%%%%
+the Elixir
+o Elixir
+%%%%
+the Stairs
+as Escadas
+%%%%
+the Tomb
+a Tumba
+%%%%
+Wild Magic
+Magia Selvagem
+%%%%
+the Elements
+os Elementos
+%%%%
+the Pentagram
+o Pentagrama
+%%%%
+the Dance
+a Dança
+%%%%
+the Swarm
+o Enxame
+%%%%
+the Rangers
+os Patrulheiros
+%%%%
+Vitriol
+Vitríolo
+%%%%
+the Cloud
+a Nuvem
+%%%%
+the Storm
+a Tempestade
+%%%%
+Wrath
+Ira
+%%%%
+the Wraith
+o Espectro
+%%%%
+the Swine
+o Suíno
+%%%%
+the Orb
+o Orbe
+%%%%
+the Illusion
+a Ilusão
+%%%%
+Degeneration
+Degeneração
+%%%%

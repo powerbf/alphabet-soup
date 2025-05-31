@@ -1,0 +1,142 @@
+###############################################################################
+#
+# Body parts (see also transforms.txt)
+#
+###############################################################################
+
+################################
+# singular
+################################
+
+%%%%
+fist
+punho
+%%%%
+pincer
+pinça
+%%%%
+wing
+asa
+%%%%
+antenna
+antena
+%%%%
+eye-stalk
+pedúnculo ocular
+%%%%
+leaf
+folha
+%%%%
+rhizome
+rizoma
+%%%%
+pupil
+pupila
+%%%%
+leg
+perna
+%%%%
+hoof
+casco
+%%%%
+talon
+garra
+%%%%
+pseudopod
+pseudópode
+%%%%
+foot
+pé
+%%%%
+arm
+braço
+%%%%
+scaled arm
+braço escamoso
+%%%%
+feathered arm
+braço emplumado
+%%%%
+bandage-wrapped arm
+braço enfaixado
+%%%%
+bony arm
+braço ossudo
+%%%%
+# these ones only used in singular
+%%%%
+body
+corpo
+%%%%
+tail
+cauda
+%%%%
+underside
+parte inferior
+%%%%
+underbelly
+ventre
+%%%%
+stem
+caule
+%%%%
+
+################################
+# plural
+################################
+
+%%%%
+fists
+punhos
+%%%%
+pincers
+pinças
+%%%%
+wings
+asas
+%%%%
+antennae
+antenas
+%%%%
+eye-stalks
+pedúnculos oculares
+%%%%
+leaves
+folhas
+%%%%
+rhizomes
+rizomas
+%%%%
+pupils
+pupilas
+%%%%
+legs
+pernas
+%%%%
+hooves
+cascos
+%%%%
+talons
+garras
+%%%%
+pseudopods
+pseudópodes
+%%%%
+feet
+pés
+%%%%
+arms
+braços
+%%%%
+scaled arms
+braços escamosos
+%%%%
+feathered arms
+braços emplumados
+%%%%
+bandage-wrapped arms
+braços enfaixados
+%%%%
+bony arms
+braços ossudos
+%%%%
