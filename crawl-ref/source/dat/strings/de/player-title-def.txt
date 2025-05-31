@@ -708,8 +708,9 @@ der Sifu
 the Skirmisher
 der Plänkler
 %%%%
-the Fighter
-der Kämpfer
+# duplicate (player background)
+#the Fighter
+#der Kämpfer
 %%%%
 # duplicate (Okawaru title)
 #the Warrior
@@ -999,8 +1000,9 @@ der Erzmagier
 
 # Conjurations
 %%%%
-the Conjurer
-der Konjurant
+# duplicate (player background)
+#the Conjurer
+#der Konjurant
 %%%%
 the Destroyer
 der Zerstörer
@@ -1038,8 +1040,9 @@ der Spellbinder
 the Caller
 der Rufer
 %%%%
-the Summoner
-der Beschwörer
+# duplicate (player background)
+#the Summoner
+#der Beschwörer
 %%%%
 the Convoker
 der Einbeirufer
@@ -1060,8 +1063,9 @@ der Grabräuber
 the Reanimator
 der Wiederbeleber
 %%%%
-the Necromancer
-der Nekromant
+# duplicate (player background)
+#the Necromancer
+#der Nekromant
 %%%%
 the Thanatomancer
 der Thanatomant

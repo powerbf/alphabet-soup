@@ -708,8 +708,9 @@ the Sifu
 the Skirmisher
 
 %%%%
-the Fighter
-
+# duplicate (player background)
+#the Fighter
+#
 %%%%
 # duplicate (Okawaru title)
 #the Warrior
@@ -999,8 +1000,9 @@ the Archmage
 
 # Conjurations
 %%%%
-the Conjurer
-
+# duplicate (player background)
+#the Conjurer
+#
 %%%%
 the Destroyer
 
@@ -1038,8 +1040,9 @@ the Spellbinder
 the Caller
 
 %%%%
-the Summoner
-
+# duplicate (player background)
+#the Summoner
+#
 %%%%
 the Convoker
 
@@ -1060,8 +1063,9 @@ the Grave Robber
 the Reanimator
 
 %%%%
-the Necromancer
-
+# duplicate (player background)
+#the Necromancer
+#
 %%%%
 the Thanatomancer
 
