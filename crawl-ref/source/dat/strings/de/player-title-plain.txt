@@ -5,6 +5,10 @@
 # These are used in the HUD if player name is long. The god-given ones
 # are also shown on the religion screen.
 #
+# In German, more is required than just stripping the article:
+#  - adjectives use the strong declension in the absence of an article
+#  - ditto for nouns that are nominalised adjectives
+#
 ###############################################################################
 
 ##############################################
@@ -134,7 +138,7 @@ Sorcerer's Apprentice
 Zauberlehrling
 %%%%
 Scholar of Destruction
-Gelehrte der Zerstörung
+Gelehrter der Zerstörung
 %%%%
 Caster of Ruination
 Zauberer des Verderbens
@@ -244,7 +248,7 @@ Troglodyte
 Troglodyt
 %%%%
 Angry Troglodyte
-Wütende Troglodyt
+Wütender Troglodyt
 %%%%
 Frenzied
 Rasender
@@ -393,7 +397,7 @@ Auflösender
 Blob
 Blob
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #Royal Jelly
 #
 %%%%
@@ -763,8 +767,9 @@ Spalter
 Severer
 Henker
 %%%%
-Executioner
-Scharfrichter
+# duplicate (monster)
+#Executioner
+#
 %%%%
 Axe Maniac
 Axt-Maniac
@@ -1043,8 +1048,9 @@ Einbeirufer
 Demonologist
 Dämonologe
 %%%%
-Hellbinder
-Höllenbinder
+# duplicate (monster)
+#Hellbinder
+#
 %%%%
 
 # Necromancy
@@ -1149,8 +1155,9 @@ Zephyrmant
 Stormcaller
 Sturmrufer
 %%%%
-Cloud Mage
-Wolkenmagier
+# duplicate (monster)
+#Cloud Mage
+#
 %%%%
 Meteorologist
 Meteorologe
@@ -1376,25 +1383,31 @@ Faerie Dragon
 Feedrache
 %%%%
 
-# Charms (obsolete)
+##############################################
+# Titles for obsolete skills
+##############################################
+
+# These could theoretically appear on player ghosts or in the highscore list
+
+# Charms (removed in v0.26)
 %%%%
 Charmwright
-
+Zaubermacher
 %%%%
 Infuser
-
+Einträufler
 %%%%
 Anointer
-
+Einöler
 %%%%
 Gracecrafter
-
+Gnadenkunstler
 %%%%
 Miracle Worker
-
+Wundertäter
 %%%%
 
-# Stabbing (obsolete)
+# Stabbing (removed in v0.13)
 %%%%
 Miscreant
 
@@ -1406,7 +1419,7 @@ Backstabber
 
 %%%%
 
-# Traps (obsolete)
+# Traps (removed in v0.13)
 %%%%
 Scout
 

@@ -4,9 +4,17 @@
 #
 ###############################################################################
 
+# Player titles appear with the definite article:
+#   - in the HUD (unless the player name is particularly long)
+#   - in the highscores list
+#   - in the description of a player ghost
+#
+# Player titles appear without an article:
+#   - in the HUD, to save space if the player name is particularly long
+#   - on the religion screen (god-given titles only)
+
 ##############################################
 # God-given titles
-# (with article - used in HUD)
 ##############################################
 
 # Zin
@@ -700,7 +708,6 @@ the Sifu
 
 ##############################################
 # Skill-based titles
-# (with article - used in HUD)
 ##############################################
 
 # Fighting
@@ -708,8 +715,9 @@ the Sifu
 the Skirmisher
 
 %%%%
-the Fighter
-
+# duplicate (player background)
+#the Fighter
+#
 %%%%
 # duplicate (Okawaru title)
 #the Warrior
@@ -769,7 +777,7 @@ the Cleaver
 the Severer
 
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #the Executioner
 #
 %%%%
@@ -999,8 +1007,9 @@ the Archmage
 
 # Conjurations
 %%%%
-the Conjurer
-
+# duplicate (player background)
+#the Conjurer
+#
 %%%%
 the Destroyer
 
@@ -1038,8 +1047,9 @@ the Spellbinder
 the Caller
 
 %%%%
-the Summoner
-
+# duplicate (player background)
+#the Summoner
+#
 %%%%
 the Convoker
 
@@ -1047,7 +1057,7 @@ the Convoker
 the Demonologist
 
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #the Hellbinder
 #
 %%%%
@@ -1060,8 +1070,9 @@ the Grave Robber
 the Reanimator
 
 %%%%
-the Necromancer
-
+# duplicate (player background)
+#the Necromancer
+#
 %%%%
 the Thanatomancer
 
@@ -1154,7 +1165,7 @@ the Zephyrmancer
 the Stormcaller
 
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #the Cloud Mage
 #
 %%%%
@@ -1397,5 +1408,59 @@ the Swamp Dragon
 
 %%%%
 the Faerie Dragon
+
+%%%%
+
+##############################################
+# Titles for obsolete skills
+##############################################
+
+# These could theoretically appear on player ghosts or in the highscore list
+
+# Charms (removed in v0.26)
+%%%%
+the Charmwright
+
+%%%%
+the Infuser
+
+%%%%
+the Anointer
+
+%%%%
+the Gracecrafter
+
+%%%%
+the Miracle Worker
+
+%%%%
+
+# Stabbing (removed in v0.13)
+%%%%
+the Miscreant
+
+%%%%
+the Blackguard
+
+%%%%
+the Backstabber
+
+%%%%
+
+# Traps (removed in v0.13)
+%%%%
+the Scout
+
+%%%%
+the Disarmer
+
+%%%%
+the Vigilant
+
+%%%%
+the Perceptive
+
+%%%%
+the Dungeon Master
 
 %%%%

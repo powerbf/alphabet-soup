@@ -5,6 +5,11 @@
 # These are used in the HUD if player name is long. The god-given ones
 # are also shown on the religion screen.
 #
+# In many languages, this file will be unnecessary, as these versions can be
+# automatically generated in grammar.txt by just stripping the articles from
+# from the versions with the definite article. However, in some languages
+# (e.g. German), it's not as simple as that.
+#
 ###############################################################################
 
 ##############################################
@@ -393,7 +398,7 @@ Dissolving @Genus@
 Blob
 
 %%%%
-# duplicate of monster
+# duplicate (monster)
 #Royal Jelly
 #
 %%%%
@@ -763,8 +768,9 @@ Cleaver
 Severer
 
 %%%%
-Executioner
-
+# duplicate (monster)
+#Executioner
+#
 %%%%
 Axe Maniac
 
@@ -1043,8 +1049,9 @@ Convoker
 Demonologist
 
 %%%%
-Hellbinder
-
+# duplicate (monster)
+#Hellbinder
+#
 %%%%
 
 # Necromancy
@@ -1149,8 +1156,9 @@ Zephyrmancer
 Stormcaller
 
 %%%%
-Cloud Mage
-
+# duplicate (monster)
+#Cloud Mage
+#
 %%%%
 Meteorologist
 
@@ -1375,7 +1383,13 @@ Faerie Dragon
 
 %%%%
 
-# Charms (obsolete)
+##############################################
+# Titles for obsolete skills
+##############################################
+
+# These could theoretically appear on player ghosts or in the highscore list
+
+# Charms (removed in v0.26)
 %%%%
 Charmwright
 
@@ -1393,7 +1407,7 @@ Miracle Worker
 
 %%%%
 
-# Stabbing (obsolete)
+# Stabbing (removed in v0.13)
 %%%%
 Miscreant
 
@@ -1405,7 +1419,7 @@ Backstabber
 
 %%%%
 
-# Traps (obsolete)
+# Traps (removed in v0.13)
 %%%%
 Scout
 

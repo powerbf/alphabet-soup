@@ -393,6 +393,14 @@ def process_yaml_file(filename):
             value = tokens[1].strip().replace('"', '')
             species["mutations"].append(value)
 
+    if "genus" not in species:
+        if species["name"] == "Demigod":
+            # Short_genus hardcoded in skills.cc
+            species["genus"] = "God"
+        elif species["name"] == "Hill Orc":
+            # Hill Orc genus is Hill Orc, but Lava Orc genus was Orc, and there's no yaml file for Lava Orc
+            species["genus"] = "Orc"
+
     result = []
     for key in MAIN_KEYS:
         if key in species:
@@ -402,6 +410,18 @@ def process_yaml_file(filename):
             elif key == "altar_action":
                 string = PRAY_SENTENCE.replace("%s", species[key], 1)
                 result.append(string)
+            elif key in ["name", "genus"]:
+                result.append(article_the(species[key]))
+                # version without article will be auto-generated at runtime
+                IGNORE_STRINGS.append(species[key])
+                if key == "genus":
+                    # also add lower-case version
+                    string = species[key].lower()
+                    result.append(article_the(string))
+                    IGNORE_STRINGS.append(string)
+            elif key == "adjective" and species[key] == "Draconian":
+                # same as species name
+                continue
             else:
                 result.append(species[key])
     result.extend(species["mutations"])
@@ -1355,6 +1375,13 @@ def special_handling_for_feature_data_h(strings):
     # do we need plurals?
 
     return output
+
+# special handling for strings in job-data.h
+def special_handling_for_job_data_h(strings):
+    output = []
+    for string in strings:
+        output.append(article_the(string) if len(string) > 2 else string)
+    return output;
 
 # special handling for strings in mon-data.h
 def special_handling_for_mon_data_h(strings):
@@ -2415,6 +2442,8 @@ for filename in files:
         strings = special_handling_for_item_name_cc(strings)
     elif filename == 'item-prop.cc':
         strings = special_handling_for_item_prop_cc(strings)
+    elif filename == 'job-data.h':
+        strings = special_handling_for_job_data_h(strings)
     elif filename == 'mon-data.h':
         strings = special_handling_for_mon_data_h(strings)
     elif filename != 'art-data.txt':
