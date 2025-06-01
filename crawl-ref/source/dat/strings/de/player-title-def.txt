@@ -1404,3 +1404,57 @@ der Sumpfdrache
 the Faerie Dragon
 der Feedrache
 %%%%
+
+##############################################
+# Titles for obsolete skills
+##############################################
+
+# These could theoretically appear on player ghosts or in the highscore list
+
+# Charms (removed in v0.26)
+%%%%
+the Charmwright
+der Zaubermacher
+%%%%
+the Infuser
+der Einträufler
+%%%%
+the Anointer
+der Einöler
+%%%%
+the Gracecrafter
+der Gnadenkunstler
+%%%%
+the Miracle Worker
+der Wundertäter
+%%%%
+
+# Stabbing (removed in v0.13)
+%%%%
+the Miscreant
+
+%%%%
+the Blackguard
+
+%%%%
+the Backstabber
+
+%%%%
+
+# Traps (removed in v0.13)
+%%%%
+the Scout
+
+%%%%
+the Disarmer
+
+%%%%
+the Vigilant
+
+%%%%
+the Perceptive
+
+%%%%
+the Dungeon Master
+
+%%%%

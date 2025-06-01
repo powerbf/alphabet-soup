@@ -1378,7 +1378,13 @@ Faerie Dragon
 
 %%%%
 
-# Charms (obsolete)
+##############################################
+# Titles for obsolete skills
+##############################################
+
+# These could theoretically appear on player ghosts or in the highscore list
+
+# Charms (removed in v0.26)
 %%%%
 Charmwright
 
@@ -1396,7 +1402,7 @@ Miracle Worker
 
 %%%%
 
-# Stabbing (obsolete)
+# Stabbing (removed in v0.13)
 %%%%
 Miscreant
 
@@ -1408,7 +1414,7 @@ Backstabber
 
 %%%%
 
-# Traps (obsolete)
+# Traps (removed in v0.13)
 %%%%
 Scout
 

@@ -1379,25 +1379,31 @@ Faerie Dragon
 Feedrache
 %%%%
 
-# Charms (obsolete)
+##############################################
+# Titles for obsolete skills
+##############################################
+
+# These could theoretically appear on player ghosts or in the highscore list
+
+# Charms (removed in v0.26)
 %%%%
 Charmwright
-
+Zaubermacher
 %%%%
 Infuser
-
+Einträufler
 %%%%
 Anointer
-
+Einöler
 %%%%
 Gracecrafter
-
+Gnadenkunstler
 %%%%
 Miracle Worker
-
+Wundertäter
 %%%%
 
-# Stabbing (obsolete)
+# Stabbing (removed in v0.13)
 %%%%
 Miscreant
 
@@ -1409,7 +1415,7 @@ Backstabber
 
 %%%%
 
-# Traps (obsolete)
+# Traps (removed in v0.13)
 %%%%
 Scout
 
