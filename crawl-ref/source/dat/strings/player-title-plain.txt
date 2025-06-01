@@ -5,6 +5,11 @@
 # These are used in the HUD if player name is long. The god-given ones
 # are also shown on the religion screen.
 #
+# In many languages, this file will be unnecessary, as these versions can be
+# automatically generated in grammar.txt by just stripping the articles from
+# from the versions with the definite article. However, in some languages
+# (e.g. German), it's not as simple as that.
+#
 ###############################################################################
 
 ##############################################

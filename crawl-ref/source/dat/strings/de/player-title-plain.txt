@@ -5,6 +5,10 @@
 # These are used in the HUD if player name is long. The god-given ones
 # are also shown on the religion screen.
 #
+# In German, more is required than just stripping the article:
+#  - adjectives use the strong declension in the absence of an article
+#  - ditto for nouns that are nominalised adjectives
+#
 ###############################################################################
 
 ##############################################
@@ -134,7 +138,7 @@ Sorcerer's Apprentice
 Zauberlehrling
 %%%%
 Scholar of Destruction
-Gelehrte der Zerstörung
+Gelehrter der Zerstörung
 %%%%
 Caster of Ruination
 Zauberer des Verderbens
@@ -244,7 +248,7 @@ Troglodyte
 Troglodyt
 %%%%
 Angry Troglodyte
-Wütende Troglodyt
+Wütender Troglodyt
 %%%%
 Frenzied
 Rasender

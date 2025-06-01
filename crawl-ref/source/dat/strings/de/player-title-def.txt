@@ -4,9 +4,17 @@
 #
 ###############################################################################
 
+# Player titles appear with the definite article:
+#   - in the HUD (unless the player name is particularly long)
+#   - in the highscores list
+#   - in the description of a player ghost
+#
+# Player titles appear without an article:
+#   - in the HUD, to save space if the player name is particularly long
+#   - on the religion screen (god-given titles only)
+
 ##############################################
 # God-given titles
-# (with article - used in HUD)
 ##############################################
 
 # Zin
@@ -700,7 +708,6 @@ der Sifu
 
 ##############################################
 # Skill-based titles
-# (with article - used in HUD)
 ##############################################
 
 # Fighting
