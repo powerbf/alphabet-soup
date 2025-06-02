@@ -485,13 +485,13 @@ You lose hold of %s.
 %s loses hold of %s.
 
 %%%%
-The zombie hands constrict %s but do no damage.
+The grasping roots
+
+%%%%
+%s constrict %s but do no damage.
 
 %%%%
 You constrict %s but do no damage.
-
-%%%%
-The grasping roots
 
 %%%%
 You constrict %s

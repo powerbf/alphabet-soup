@@ -18,6 +18,7 @@
 #include "localise.h"
 #include "los.h"
 #include "message.h"
+#include "message-util.h"
 #include "mon-behv.h"
 #include "mon-death.h"
 #include "religion.h"
@@ -752,24 +753,24 @@ void actor::constriction_damage_defender(actor &defender, int duration)
     damage = timescale_damage(this, damage);
     DIAG_ONLY(const int timescale_dam = damage);
 
-    string target = defender.name(DESC_THE);
-
+    string exclamations;
+    bool notify_no_dmg = false;
     if (damage <= 0 && is_player()
         && you.can_see(defender))
     {
-        // zero-damage player attack
-        if (vile_clutch)
-        {
-            mprf("The zombie hands constrict %s but do no damage.",
-                 target.c_str());
-        }
-        else
-            mprf("You constrict %s but do no damage.", target.c_str());
+        notify_no_dmg = true;
     }
-    else if (is_player() || you.can_see(*this))
+    else
+        exclamations = attack_strength_punctuation(damage);
+
+#ifdef DEBUG_DIAGNOSTICS
+    exclamations = make_stringf(" for %d", damage) + exclamations;
+#endif
+
+    string msg;
+    if (is_player() || you.can_see(*this))
     {
         string attacker_desc;
-        bool direct_player_attack = false;
         bool force_plural = false;
         if (vile_clutch)
         {
@@ -782,50 +783,47 @@ void actor::constriction_damage_defender(actor &defender, int duration)
             force_plural = true;
         }
         else if (is_player())
-            direct_player_attack = true;
+            attacker_desc = "you";
         else
             attacker_desc = name(DESC_THE);
 
-        string msg;
-        if (direct_player_attack)
-            msg = localise("You constrict %s", target);
-        else if (defender.is_player())
+        if (notify_no_dmg)
         {
             if (force_plural)
-                msg = localise("%s constrict you", attacker_desc);
+            {
+                mprf("%s constrict %s but do no damage.",
+                     attacker_desc.c_str(), defender.name(DESC_THE).c_str());
+            }
             else
-                msg = localise("%s constricts you", attacker_desc);
+            {
+                mprf("You constrict %s but do no damage.",
+                     defender.name(DESC_THE).c_str());
+            }
+        }
+        else if (is_player() && !force_plural)
+            msg = localise("You constrict %s", defender.name(DESC_THE));
+        else if (defender.is_player())
+        {
+            msg = localise(force_plural ? "%s constrict you" : "%s constricts you",
+                           attacker_desc, exclamations);
         }
         else
         {
-            if (force_plural)
-                msg = localise("%s constrict %s", attacker_desc, target);
-            else
-                msg = localise("%s constricts %s", attacker_desc, target);
+            msg = localise(force_plural ? "%s constrict %s" : "%s constricts %s",
+                           attacker_desc, defender.name(DESC_THE));
         }
-
-#ifdef DEBUG_DIAGNOSTICS
-        msg += make_stringf(" for %d", damage);
-#endif
-
-        msg = add_attack_strength_punct(msg, damage, false);
-
-        mpr_nolocalise(msg);
     }
     else if (you.can_see(defender) || defender.is_player())
     {
-        string msg;
         if (defender.is_player())
             msg = localise("You are constricted");
         else
             msg = localise("%s is constricted", defender.name(DESC_THE));
+    }
 
-#ifdef DEBUG_DIAGNOSTICS
-        msg += make_stringf(" for %d", damage);
-#endif
-
-        msg = add_attack_strength_punct(msg, damage, false);
-
+    if (!msg.empty())
+    {
+        msg = add_punctuation(msg, exclamations, false);
         mpr_nolocalise(msg);
     }
 

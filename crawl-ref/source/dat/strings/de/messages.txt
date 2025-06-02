@@ -485,14 +485,14 @@ Du kannst {acc}%s nicht länger halten.
 %s loses hold of %s.
 %s kann {acc}%s nicht länger halten.
 %%%%
-The zombie hands constrict %s but do no damage.
-Die Zombiehände umschlingen {acc}%s, fügen aber keinen Schaden zu.
+The grasping roots
+Die greifenden Wurzeln
+%%%%
+%s constrict %s but do no damage.
+%s umschlingen {acc}%s, fügen aber keinen Schaden zu.
 %%%%
 You constrict %s but do no damage.
 Du umschlingst {acc}%s, fügst aber keinen Schaden zu.
-%%%%
-The grasping roots
-Die greifenden Wurzeln
 %%%%
 You constrict %s
 Du umschlingst {acc}%s
