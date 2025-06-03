@@ -298,10 +298,12 @@ bool ranged_attack::handle_phase_hit()
     if (projectile->is_type(OBJ_MISSILES, MI_DART))
     {
         damage_done = dart_duration_roll(get_ammo_brand(*projectile));
+        set_attack_verb(0);
         announce_hit();
     }
     else if (projectile->is_type(OBJ_MISSILES, MI_THROWING_NET))
     {
+        set_attack_verb(0);
         announce_hit();
         if (defender->is_player())
             player_caught_in_net();
@@ -793,20 +795,21 @@ bool ranged_attack::player_good_stab()
     return false;
 }
 
+void ranged_attack::set_attack_verb(int/* damage*/)
+{
+    attack_verb = is_penetrating_attack() ? "pierces through" : "hits";
+}
+
 string ranged_attack::get_hit_message()
 {
     string proj = projectile->name(DESC_THE);
-    if (defender->is_player()) {
-        if (is_penetrating_attack())
-            return localise("%s pierces through you", proj);
-        else
-            return localise("%s hits you", proj);
+    if (defender->is_player())
+    {
+        return localise("%s " + attack_verb + " you", proj);
     }
-    else {
-        if (is_penetrating_attack())
-            return localise("%s pierces through %s", proj, def_name(DESC_THE));
-        else
-            return localise("%s hits %s", proj, def_name(DESC_THE));
+    else
+    {
+        return localise("%s " + attack_verb + " %s", proj, def_name(DESC_THE));
     }
 }
 

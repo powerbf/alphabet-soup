@@ -78,6 +78,7 @@ public:
     int     attacker_to_hit_penalty;
 
     // Attack messages
+    string     attack_verb, verb_degree;
     string     no_damage_message;
     string     special_damage_message;
     string     aux_attack, aux_message;
@@ -167,6 +168,7 @@ protected:
     /* Output */
     string debug_damage_number(bool special = false);
 
+    virtual void set_attack_verb(int damage) = 0;
     virtual void announce_hit() = 0;
 
     void stab_message();
