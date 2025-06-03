@@ -292,7 +292,7 @@ int main()
     show_result(localise("Random Earth Elementalist"), "Zufälliger Erdmagier");
     show_result(localise("Recommended Hill Orc"), "Vorgeschlagener Hügelork");
     show_result(localise("Recommended Mummy"), "Vorgeschlagene Mumie");
-    show_result(localise("Recommended Merfolk"), "Vorgeschlagenes Meervolk");
+    show_result(localise("Recommended Merfolk"), "Vorgeschlagenes Meerwesen");
 
     show_result(localise("Mummy Fire Elementalist"), "Mumie Feuermagier");
     show_result(localise("a Mummy Fire Elementalist"), "ein Mumie Feuermagier");
