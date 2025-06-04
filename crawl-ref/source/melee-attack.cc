@@ -2333,9 +2333,6 @@ string melee_attack::mons_attack_desc()
         ret = " from afar";
     }
 
-    if (weapon && !mons_class_is_animated_weapon(attacker->type))
-        ret += " with " + weapon->name(DESC_A);
-
     return ret;
 }
 
@@ -2359,6 +2356,9 @@ void melee_attack::announce_hit()
             msg = "%s " + verb + " %s" + mons_attack_desc();
             msg = localise(msg, atk_name(DESC_THE), defender_name(true));
         }
+
+        if (weapon && !mons_class_is_animated_weapon(attacker->type))
+            msg += localise(" with %s", weapon->name(DESC_A));
     }
     else
     {
