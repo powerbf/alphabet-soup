@@ -37,7 +37,7 @@ RU_SACRIFICE_PREFIX = "Ru asks you to "
 IGNORE_STRINGS = [
     'the', 'the ', ' the ',
     'a', 'a ', 'an', 'an ',
-    'you', 'you ', 'your', 'your ', 'its ',
+    'you', 'you ', 'You ', ' you', 'your', 'your ', 'its ',
     ' of ', ' of', 'of ', 's',
     'The ', 'Your ',
     'debugging ray', 'debug', 'bugger',
@@ -136,13 +136,23 @@ medium_attack_verbs = []
 def replace_last(s, old, new):
     return new.join(s.rsplit(old, 1))
 
-def conjugate_verb(verb):
+def remove_duplicates(strings):
+    result = []
+    for string in strings:
+        if string.startswith('#') or string not in result:
+            result.append(string)
+    return result
+
+def conjugate_verb(verb_phrase):
+    parts = verb_phrase.split(' ', 1)
+    verb = parts[0]
+    suffix = (' ' + parts[1]) if len(parts) > 1 else ''
     if verb == "be" or verb == "are":
-        return "is"
-    elif verb.endswith('ss') or verb.endswith('sh'):
-        return verb + 'es'
+        return "is" + suffix
+    elif verb.endswith('ss') or verb.endswith('sh') or verb.endswith('ch'):
+        return verb + 'es' + suffix
     else:
-        return verb + 's'
+        return verb + 's' + suffix
 
 def do_any_2_actors_message(verb, suffix):
     verb3p = conjugate_verb(verb)
@@ -1908,7 +1918,6 @@ def process_cplusplus_file(filename):
                 strings += do_any_2_actors_message(verb, suffix)
                 continue
 
-
         tokens = tokenize_cplusplus_line(line)
 
         for i in range(len(tokens)):
@@ -1917,8 +1926,6 @@ def process_cplusplus_file(filename):
                 continue;
 
             string = token[1:-1]
-            if string in strings:
-                continue
 
             if i != 0:
                 last = tokens[i-1]
@@ -2052,6 +2059,31 @@ def process_cplusplus_file(filename):
                             strings.append(string + ' ')
                         else:
                             strings.append(' of ' + string)
+            elif filename == 'melee-attack.cc':
+                if section.endswith('::set_attack_verb'):
+                    # player-only attack verbs.
+                    if 'verb_degree' in line or last.strip() == ",":
+                        # 2nd part that follows the object
+                        if len(string) != 0:
+                            if string[0] not in [" ", ",", "'"]:
+                                string = " " + string
+                            if len(strings) != 0:
+                                strings[-1] += string
+                    else:
+                        strings.append('You ' + string + ' %s')
+                    if string == 'devastate':
+                        # append form unarmed attacks
+                        for verb in form_attack_verbs:
+                            strings.append('You ' + verb + ' %s')
+                    continue
+                elif section == 'melee_attack::mons_attack_verb':
+                    # monster-only attack verbs
+                    verb = conjugate_verb(string)
+                    strings.append('%s ' + verb + ' you')
+                    strings.append('%s ' + verb + ' %s')
+                    continue
+                elif string == " from afar":
+                    continue
             elif filename == 'message.cc':
                 if section == 'wu_jian_sifu_message':
                     # this function adds a prefix to the message parameter
@@ -2088,6 +2120,15 @@ def process_cplusplus_file(filename):
                     # we need the full thing (e.g. "says to @foe@") and also the verb alone
                     verb = string.replace(" at @foe@", "").replace(" to @foe@", "")
                     strings.append(verb)
+                elif section == 'mon_attack_name':
+                    if ' or ' not in string:
+                        # also used in melee-attack.cc
+                        verb = conjugate_verb(string)
+                        strings.append('%s ' + verb + ' you')
+                        strings.append('%s ' + verb + ' %s')
+                        if verb in ['hits', 'stings']:
+                            strings.append('%s ' + verb + ' you from afar')
+                            strings.append('%s ' + verb + ' %s from afar')
             elif filename == 'output.cc':
                 if section == 's_equip_slot_names' or section == 'equip_slot_to_name':
                     # equipment slots are only ever displayed in lowercase form
@@ -2096,6 +2137,12 @@ def process_cplusplus_file(filename):
                         string = "ring"
                     else:
                         string = string.lower()
+            elif filename == 'ranged-attack.cc':
+                if section.endswith('::set_attack_verb'):
+                    # projectile is the subject, verb is already conjugated
+                    strings.append('%s ' + string + ' you')
+                    strings.append('%s ' + string + ' %s')
+                    continue
             elif filename == 'spl-goditem.cc':
                 if string.startswith('a scroll of '):
                     string = string.replace('a scroll', 'the scroll')
@@ -2141,7 +2188,7 @@ def process_cplusplus_file(filename):
                     # string is also used with that substring for monsters that don't have a body
                     strings.append(string.replace("'s body", ""))
 
-    return strings
+    return remove_duplicates(strings)
 
 
 # get rid of unnecessary section markers
@@ -2490,9 +2537,6 @@ for filename in files:
             elif string.endswith(" Sword"):
                 # alternative names for Singing Sword based on mood
                 filtered_strings.append("the " + string)
-            elif "@attack@" in string and len(form_attack_verbs) > 0:
-                for verb in form_attack_verbs:
-                    filtered_strings.append(string.replace("@attack@", verb))
             elif "@medium_attack@" in string and len(medium_attack_verbs) > 0:
                 for verb in medium_attack_verbs:
                     filtered_strings.append(string.replace("@medium_attack@", verb))
