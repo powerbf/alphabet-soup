@@ -50,6 +50,7 @@ private:
     bool player_good_stab() override;
 
     /* Output */
+    void set_attack_verb(int damage) override;
     string get_hit_message();
     void announce_hit() override;
 

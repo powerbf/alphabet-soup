@@ -8263,102 +8263,6 @@ Du zerschmetterst {acc}%s
 %s kneecaps %s
 %s zerschmettert {dat}%s die Kniescheibe
 %%%%
-%s bites you
-%s beißt dich
-%%%%
-%s bites %s
-%s beißt {acc}%s
-%%%%
-%s stings you
-%s sticht dich
-%%%%
-%s stings %s
-%s sticht {acc}%s
-%%%%
-%s releases spores at you
-%s setzt Sporen auf dich frei
-%%%%
-%s releases spores at %s
-%s setzt Sporen auf {dat}%s frei
-%%%%
-%s touches you
-%s berührt dich
-%%%%
-%s touches %s
-%s berührt {acc}%s
-%%%%
-%s claws you
-%s zerkratzt dich
-%%%%
-%s claws %s
-%s zerkratzt {acc}%s
-%%%%
-%s pecks you
-%s hackt dich
-%%%%
-%s pecks %s
-%s hackt {acc}%s
-%%%%
-%s headbutts you
-%s versetzt dir einen Kopfstoß
-%%%%
-%s headbutts %s
-%s versetzt {dat}%s einen Kopfstoß
-%%%%
-%s punches you
-%s boxt dich
-%%%%
-%s punches %s
-%s boxt {acc}%s
-%%%%
-%s kicks you
-%s tritt dich
-%%%%
-%s kicks %s
-%s tritt {acc}%s
-%%%%
-%s tentacle-slaps you
-schlägt dich mit dem Tentakel
-%%%%
-%s tentacle-slaps %s
-%s schlägt {acc}%s mit dem Tentakel
-%%%%
-%s tail-slaps you
-%s schlägt dich mit dem Schwanz
-%%%%
-%s tail-slaps %s
-%s schlägt {acc}%s mit dem Schwanz
-%%%%
-%s gores you
-%s spießt dich auf
-%%%%
-%s gores %s
-%s spießt {acc}%s auf
-%%%%
-%s tramples you
-%s trampelt dich nieder
-%%%%
-%s tramples %s
-%s trampelt {acc}%s nieder
-%%%%
-%s trunk-slaps you
-%s schlägt dich mit dem Rüssel
-%%%%
-%s trunk-slaps %s
-%s schlägt {acc}%s mit dem Rüssel
-%%%%
-%s pounces on you
-%s stürzt sich auf dich
-%%%%
-%s pounces on %s
-%s stürzt sich auf {acc}%s
-%%%%
-%s hits you from afar
-%s trifft dich von weitem
-%%%%
-%s hits %s from afar
-%s trifft {acc}%s von weitem
-%%%%
 " with %s"
 " mit {dat}%s"
 %%%%
@@ -8499,6 +8403,12 @@ Du stößt eine Wolke stinkenden Miasmas aus!
 %%%%
 %s headbutts %s but does no damage.
 %s versetzt {dat}%s einen Kopfstoß, fügt aber keinen Schaden zu.
+%%%%
+%s headbutts you
+%s versetzt dir einen Kopfstoß
+%%%%
+%s headbutts %s
+%s versetzt {dat}%s einen Kopfstoß
 %%%%
 You furiously retaliate!
 Du schlägst wütend zurück!
@@ -9984,6 +9894,102 @@ Die %s-Mimik verschwindet!
 %%%%
 %s is a mimic!
 %s ist eine Mimik!
+%%%%
+%s hits you from afar
+%s trifft dich von weitem
+%%%%
+%s hits %s from afar
+%s trifft {acc}%s von weitem
+%%%%
+%s bites you
+%s beißt dich
+%%%%
+%s bites %s
+%s beißt {acc}%s
+%%%%
+%s stings you
+%s sticht dich
+%%%%
+%s stings %s
+%s sticht {acc}%s
+%%%%
+%s stings you from afar
+%s sticht dich von weitem
+%%%%
+%s stings %s from afar
+%s sticht %s von weitem
+%%%%
+%s releases spores at you
+%s setzt Sporen auf dich frei
+%%%%
+%s releases spores at %s
+%s setzt Sporen auf {dat}%s frei
+%%%%
+%s touches you
+%s berührt dich
+%%%%
+%s touches %s
+%s berührt {acc}%s
+%%%%
+%s claws you
+%s zerkratzt dich
+%%%%
+%s claws %s
+%s zerkratzt {acc}%s
+%%%%
+%s pecks you
+%s hackt dich
+%%%%
+%s pecks %s
+%s hackt {acc}%s
+%%%%
+%s punches you
+%s boxt dich
+%%%%
+%s punches %s
+%s boxt {acc}%s
+%%%%
+%s kicks you
+%s tritt dich
+%%%%
+%s kicks %s
+%s tritt {acc}%s
+%%%%
+%s tentacle-slaps you
+schlägt dich mit dem Tentakel
+%%%%
+%s tentacle-slaps %s
+%s schlägt {acc}%s mit dem Tentakel
+%%%%
+%s tail-slaps you
+%s schlägt dich mit dem Schwanz
+%%%%
+%s tail-slaps %s
+%s schlägt {acc}%s mit dem Schwanz
+%%%%
+%s gores you
+%s spießt dich auf
+%%%%
+%s gores %s
+%s spießt {acc}%s auf
+%%%%
+%s tramples you
+%s trampelt dich nieder
+%%%%
+%s tramples %s
+%s trampelt {acc}%s nieder
+%%%%
+%s trunk-slaps you
+%s schlägt dich mit dem Rüssel
+%%%%
+%s trunk-slaps %s
+%s schlägt {acc}%s mit dem Rüssel
+%%%%
+%s pounces on you
+%s stürzt sich auf dich
+%%%%
+%s pounces on %s
+%s stürzt sich auf {acc}%s
 %%%%
 Geryon discards his horn.
 Geryon wirft sein Horn ab.

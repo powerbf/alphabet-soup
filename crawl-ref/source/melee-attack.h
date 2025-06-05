@@ -109,7 +109,7 @@ private:
     bool do_knockback(bool trample = true);
 
     /* Output methods */
-    string player_attack_message(int damage);
+    void set_attack_verb(int damage) override;
     void announce_hit() override;
 
     /* Misc methods */
@@ -119,7 +119,7 @@ private:
     bool mons_attack_effects() override;
     void mons_apply_attack_flavour();
     bool is_reach_attack();
-    string mons_attack_message();
+    string mons_attack_verb();
     string mons_attack_desc();
     // TODO: Unify do_poison and poison_monster
     bool mons_do_poison();

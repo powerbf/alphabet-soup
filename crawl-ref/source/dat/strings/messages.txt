@@ -8263,102 +8263,6 @@ You shatter %s
 %s kneecaps %s
 
 %%%%
-%s bites you
-
-%%%%
-%s bites %s
-
-%%%%
-%s stings you
-
-%%%%
-%s stings %s
-
-%%%%
-%s releases spores at you
-
-%%%%
-%s releases spores at %s
-
-%%%%
-%s touches you
-
-%%%%
-%s touches %s
-
-%%%%
-%s claws you
-
-%%%%
-%s claws %s
-
-%%%%
-%s pecks you
-
-%%%%
-%s pecks %s
-
-%%%%
-%s headbutts you
-
-%%%%
-%s headbutts %s
-
-%%%%
-%s punches you
-
-%%%%
-%s punches %s
-
-%%%%
-%s kicks you
-
-%%%%
-%s kicks %s
-
-%%%%
-%s tentacle-slaps you
-
-%%%%
-%s tentacle-slaps %s
-
-%%%%
-%s tail-slaps you
-
-%%%%
-%s tail-slaps %s
-
-%%%%
-%s gores you
-
-%%%%
-%s gores %s
-
-%%%%
-%s tramples you
-
-%%%%
-%s tramples %s
-
-%%%%
-%s trunk-slaps you
-
-%%%%
-%s trunk-slaps %s
-
-%%%%
-%s pounces on you
-
-%%%%
-%s pounces on %s
-
-%%%%
-%s hits you from afar
-
-%%%%
-%s hits %s from afar
-
-%%%%
 " with %s"
 
 %%%%
@@ -8498,6 +8402,12 @@ You emit a cloud of foul miasma!
 
 %%%%
 %s headbutts %s but does no damage.
+
+%%%%
+%s headbutts you
+
+%%%%
+%s headbutts %s
 
 %%%%
 You furiously retaliate!
@@ -9983,6 +9893,102 @@ The %s mimic vanishes!
 
 %%%%
 %s is a mimic!
+
+%%%%
+%s hits you from afar
+
+%%%%
+%s hits %s from afar
+
+%%%%
+%s bites you
+
+%%%%
+%s bites %s
+
+%%%%
+%s stings you
+
+%%%%
+%s stings %s
+
+%%%%
+%s stings you from afar
+
+%%%%
+%s stings %s from afar
+
+%%%%
+%s releases spores at you
+
+%%%%
+%s releases spores at %s
+
+%%%%
+%s touches you
+
+%%%%
+%s touches %s
+
+%%%%
+%s claws you
+
+%%%%
+%s claws %s
+
+%%%%
+%s pecks you
+
+%%%%
+%s pecks %s
+
+%%%%
+%s punches you
+
+%%%%
+%s punches %s
+
+%%%%
+%s kicks you
+
+%%%%
+%s kicks %s
+
+%%%%
+%s tentacle-slaps you
+
+%%%%
+%s tentacle-slaps %s
+
+%%%%
+%s tail-slaps you
+
+%%%%
+%s tail-slaps %s
+
+%%%%
+%s gores you
+
+%%%%
+%s gores %s
+
+%%%%
+%s tramples you
+
+%%%%
+%s tramples %s
+
+%%%%
+%s trunk-slaps you
+
+%%%%
+%s trunk-slaps %s
+
+%%%%
+%s pounces on you
+
+%%%%
+%s pounces on %s
 
 %%%%
 Geryon discards his horn.
