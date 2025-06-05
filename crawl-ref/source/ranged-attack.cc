@@ -804,13 +804,9 @@ string ranged_attack::get_hit_message()
 {
     string proj = projectile->name(DESC_THE);
     if (defender->is_player())
-    {
         return localise("%s " + attack_verb + " you", proj);
-    }
     else
-    {
         return localise("%s " + attack_verb + " %s", proj, def_name(DESC_THE));
-    }
 }
 
 void ranged_attack::announce_hit()
