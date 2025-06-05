@@ -2087,7 +2087,7 @@ def process_cplusplus_file(filename):
                 elif section.startswith('Aux'):
                     # player auxiliary attack
                     # usually same string is used as noun and verb, but there are a couple of exceptions
-                    if string not in ['claw', 'pierce']:
+                    if string != 'pierce':
                         strings.append('your ' + string)
                     if string != 'tentacle spike':
                         strings.append('You ' + string + ' %s')
