@@ -2084,6 +2084,14 @@ def process_cplusplus_file(filename):
                     continue
                 elif string == " from afar":
                     continue
+                elif section.startswith('Aux'):
+                    # player auxiliary attack
+                    # usually same string is used as noun and verb, but there are a couple of exceptions
+                    if string not in ['claw', 'pierce']:
+                        strings.append('your ' + string)
+                    if string != 'tentacle spike':
+                        strings.append('You ' + string + ' %s')
+                    continue
             elif filename == 'message.cc':
                 if section == 'wu_jian_sifu_message':
                     # this function adds a prefix to the message parameter
