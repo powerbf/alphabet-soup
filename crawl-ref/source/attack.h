@@ -81,7 +81,7 @@ public:
     string     attack_verb, verb_degree;
     string     no_damage_message;
     string     special_damage_message;
-    string     aux_attack, aux_message;
+    string     aux_attack, aux_verb;
 
     // Combined to-hit penalty from armour and shield.
     int             attacker_armour_tohit_penalty;

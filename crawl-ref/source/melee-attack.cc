@@ -913,31 +913,30 @@ bool melee_attack::check_unrand_effects()
 class AuxAttackType
 {
 public:
-    AuxAttackType(int _damage, string _name, string _message) :
-    damage(_damage), name(_name), message(_message) { };
+    AuxAttackType(int _damage, string _name) :
+    damage(_damage), name(_name) { };
 public:
     virtual int get_damage() const { return damage; };
     virtual int get_brand() const { return SPWPN_NORMAL; };
     virtual string get_name() const { return name; };
-    virtual string get_message() const { return message; };
+    virtual string get_verb() const { return get_name(); };
 protected:
     const int damage;
     const string name;
-    const string message;
 };
 
 class AuxConstrict: public AuxAttackType
 {
 public:
     AuxConstrict()
-    : AuxAttackType(0, "your grab", "You grab %s") { };
+    : AuxAttackType(0, "grab") { };
 };
 
 class AuxKick: public AuxAttackType
 {
 public:
     AuxKick()
-    : AuxAttackType(5, "your kick", "You kick %s") { };
+    : AuxAttackType(5, "kick") { };
 
     int get_damage() const override
     {
@@ -958,19 +957,19 @@ public:
         return damage + you.get_mutation_level(MUT_TENTACLE_SPIKE);
     }
 
-    string get_message() const override
+    string get_verb() const override
     {
         if (you.has_usable_talons())
-            return "You claw %s.";
+            return "claw";
         if (you.get_mutation_level(MUT_TENTACLE_SPIKE))
-            return "You pierce %s.";
-        return message;
+            return "pierce";
+        return name;
     }
 
     string get_name() const override
     {
         if (you.get_mutation_level(MUT_TENTACLE_SPIKE))
-            return "your tentacle spike";
+            return "tentacle spike";
         return name;
     }
 };
@@ -979,7 +978,7 @@ class AuxHeadbutt: public AuxAttackType
 {
 public:
     AuxHeadbutt()
-    : AuxAttackType(5, "your headbutt", "You headbutt %s") { };
+    : AuxAttackType(5, "headbutt") { };
 
     int get_damage() const override
     {
@@ -991,14 +990,14 @@ class AuxPeck: public AuxAttackType
 {
 public:
     AuxPeck()
-    : AuxAttackType(6, "your peck", "You peck %s") { };
+    : AuxAttackType(6, "peck") { };
 };
 
 class AuxTailslap: public AuxAttackType
 {
 public:
     AuxTailslap()
-    : AuxAttackType(6, "your tail-slap", "You tail-slap %s") { };
+    : AuxAttackType(6, "tail-slap") { };
 
     int get_damage() const override
     {
@@ -1016,7 +1015,7 @@ class AuxPunch: public AuxAttackType
 {
 public:
     AuxPunch()
-    : AuxAttackType(5, "your punch", "You punch %s") { };
+    : AuxAttackType(5, "punch") { };
 
     int get_damage() const override
     {
@@ -1034,29 +1033,15 @@ public:
     string get_name() const override
     {
         if (you.form == transformation::blade_hands)
-            return "your slash";
+            return "slash";
 
         if (you.has_usable_claws())
-            return "your claw";
+            return "claw";
 
         if (you.has_usable_tentacles())
-            return "your tentacle-slap";
+            return "tentacle-slap";
 
         return name;
-    }
-
-    string get_message() const override
-    {
-        if (you.form == transformation::blade_hands)
-            return "You slash %s";
-
-        if (you.has_usable_claws())
-            return "You claw %s";
-
-        if (you.has_usable_tentacles())
-            return "You tentacle-slap %s";
-
-        return message;
     }
 
 };
@@ -1065,7 +1050,7 @@ class AuxBite: public AuxAttackType
 {
 public:
     AuxBite()
-    : AuxAttackType(0, "your bite", "You bite %s") { };
+    : AuxAttackType(0, "bite") { };
 
     int get_damage() const override
     {
@@ -1097,7 +1082,7 @@ class AuxPseudopods: public AuxAttackType
 {
 public:
     AuxPseudopods()
-    : AuxAttackType(4, "your bludgeon", "You bludgeon %s") { };
+    : AuxAttackType(4, "bludgeon") { };
 
     int get_damage() const override
     {
@@ -1109,7 +1094,7 @@ class AuxTentacles: public AuxAttackType
 {
 public:
     AuxTentacles()
-    : AuxAttackType(12, "your squeeze", "You squeeze %s") { };
+    : AuxAttackType(12, "squeeze") { };
 };
 
 static const AuxConstrict   AUX_CONSTRICT = AuxConstrict();
@@ -1154,7 +1139,7 @@ void melee_attack::player_aux_setup(unarmed_attack_type atk)
     aux_damage = aux->get_damage();
     damage_brand = (brand_type)aux->get_brand();
     aux_attack = aux->get_name();
-    aux_message = aux->get_message();
+    aux_verb = aux->get_verb();
 
     if (wu_jian_attack != WU_JIAN_ATTACK_NONE)
         wu_jian_attack = WU_JIAN_ATTACK_TRIGGERED_AUX;
@@ -1215,7 +1200,8 @@ bool melee_attack::player_aux_test_hit()
     if (to_hit >= evasion || auto_hit)
         return true;
 
-    mprf("%s misses %s.", aux_attack.c_str(),
+    string your_attack = "your " + aux_attack;
+    mprf("%s misses %s.", your_attack.c_str(),
          defender->name(DESC_THE).c_str());
 
     return false;
@@ -1373,7 +1359,8 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
         }
         else // no damage was done
         {
-            string msg = localise(aux_message, defender->name(DESC_THE));
+            string msg = localise("You " + aux_verb + " %s",
+                                  defender->name(DESC_THE));
             if (you.can_see(*defender))
                 msg += localise(" but do no damage.");
             else
@@ -1395,7 +1382,7 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
 
 void melee_attack::player_announce_aux_hit()
 {
-    string msg = localise(aux_message, defender->name(DESC_THE));
+    string msg = localise("You " + aux_verb + " %s", defender->name(DESC_THE));
     msg += debug_damage_number();
     attack_strength_message(msg, damage_done, false);
 }

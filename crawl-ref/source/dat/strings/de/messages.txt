@@ -7828,11 +7828,11 @@ dein Tritt
 You kick %s
 Du trittst {acc}%s
 %%%%
-You claw %s.
-Du zerkratzt {acc}%s.
+You claw %s
+Du zerkratzt {acc}%s
 %%%%
-You pierce %s.
-Du durchstichst {acc}%s.
+You pierce %s
+Du durchstichst {acc}%s
 %%%%
 your tentacle spike
 dein Tentakelstachel
@@ -7864,14 +7864,11 @@ Du boxst {acc}%s
 your slash
 dein Schnitt
 %%%%
-your tentacle-slap
-dein Tentakelschlag
-%%%%
 You slash %s
 Du schlitzt {acc}%s auf
 %%%%
-You claw %s
-Du zerkratzt {acc}%s
+your tentacle-slap
+dein Tentakelschlag
 %%%%
 You tentacle-slap %s
 Du schlägst {acc}%s mit deinem Tentakel

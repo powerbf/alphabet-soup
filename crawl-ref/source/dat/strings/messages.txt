@@ -7828,10 +7828,10 @@ your kick
 You kick %s
 
 %%%%
-You claw %s.
+You claw %s
 
 %%%%
-You pierce %s.
+You pierce %s
 
 %%%%
 your tentacle spike
@@ -7864,13 +7864,10 @@ You punch %s
 your slash
 
 %%%%
-your tentacle-slap
-
-%%%%
 You slash %s
 
 %%%%
-You claw %s
+your tentacle-slap
 
 %%%%
 You tentacle-slap %s
