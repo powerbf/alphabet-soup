@@ -408,8 +408,8 @@ int main()
     show_result(msg, "{Buch}");
 
     // test list
-    msg = localise("Items here: %s.", "a +0 chain mail; a +2 great sword");
-    show_result(msg, "Gegenstände hier: ein +0 Kettenpanzer; ein +2 Großschwert.");
+    msg = localise("<cyan>Items here: </cyan> %s.", "<darkgrey>a +0 chain mail</darkgrey>; <darkgrey>a +2 great sword</darkgrey>");
+    show_result(msg, "<cyan>Gegenstände hier: </cyan> <darkgrey>ein +0 Kettenpanzer</darkgrey>; <darkgrey>ein +2 Großschwert</darkgrey>.");
 
     you.position = coord_def(10, 10);
     env.grid.init(DNGN_FLOOR);

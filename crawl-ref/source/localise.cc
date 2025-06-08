@@ -2260,7 +2260,7 @@ static string _localise_string(const string context, const string& value)
             if (s.length() >= 2 && s[0] == '<' && s[s.length()-1] == '>')
                 result += s;
             else
-                result += _localise_string(context, s);
+                result += _discard_context(_localise_string(context, s));
         }
         return result;
     }
