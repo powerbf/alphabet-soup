@@ -6974,7 +6974,7 @@ You see here %s.
 Du siehst hier {acc}%s.
 %%%%
 Items here: %s.
-Gegstände hier: %s
+Gegenstände hier: %s.
 %%%%
 Things that are here:
 Dinge die hier sind:

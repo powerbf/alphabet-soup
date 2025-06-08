@@ -407,6 +407,10 @@ int main()
     msg = localise("{book}");
     show_result(msg, "{Buch}");
 
+    // test list
+    msg = localise("Items here: %s.", "a +0 chain mail; a +2 great sword");
+    show_result(msg, "Gegenstände hier: ein +0 Kettenpanzer; ein +2 Großschwert.");
+
     you.position = coord_def(10, 10);
     env.grid.init(DNGN_FLOOR);
     env.pgrid.init(FPROP_NONE);
