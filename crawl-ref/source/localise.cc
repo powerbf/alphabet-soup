@@ -1394,8 +1394,6 @@ static void _split_list(string s, vector<string>& result)
 // returns empty string if input is not a list
 static string _localise_list(const string context, const string& s)
 {
-    static const text_pattern determiner_patt("^(a|an|the|your|[0-9]+) ", true);
-
     vector<string> substrings;
     _split_list(s, substrings);
     if (substrings.size() < 2)
@@ -1408,8 +1406,7 @@ static string _localise_list(const string context, const string& s)
     {
         // Make sure the "higher-level" context persists (e.g. in German, the whole list should be in the same case).
         // Also, if it's a list of substantives, we don't want the gender to carry over to the next item.
-        if (!context.empty() || determiner_patt.matches(sub))
-            _context = context;
+        _context = context;
 
         string temp = _discard_context(_localise_string(_context, sub));
         TRACE("substring '%s' -> '%s'",  sub.c_str(), temp.c_str());
@@ -1867,10 +1864,11 @@ static string _localise_book_title(const string& context, const string& value)
         format_str = replace_first(format_str, book_magic, "@book_magic@");
     }
 
-    TRACE("format_str='%s'", format_str.c_str());
     result = cxlate(context, format_str, false);
     if (result.empty())
         return "";
+
+    TRACE("format_str='%s'", format_str.c_str());
 
     _possessive_hack(result, owner);
     result = replace_all(result, "@owner@", owner);
@@ -2238,7 +2236,7 @@ static string _localise_string(const string context, const string& value)
         return result;
 
     // try as book title
-    // must be done before _localise_list because can contains comma
+    // must be done before _localise_list because can contain comma
     result = _localise_book_title(context, value);
     if (!result.empty())
         return result;

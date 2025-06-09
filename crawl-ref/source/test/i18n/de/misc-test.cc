@@ -411,6 +411,9 @@ int main()
     msg = localise("<cyan>Items here: </cyan> %s.", "<darkgrey>a +0 chain mail</darkgrey>; <darkgrey>a +2 great sword</darkgrey>");
     show_result(msg, "<cyan>Gegenstände hier: </cyan> <darkgrey>ein +0 Kettenpanzer</darkgrey>; <darkgrey>ein +2 Großschwert</darkgrey>.");
 
+    msg = localise("<cyan>Items here: </cyan> %s.", "a +0 chain mail; <green>a +1 vorpal arbalest</green>");
+    show_result(msg, "<cyan>Gegenstände hier: </cyan> ein +0 Kettenpanzer; <green>eine +1 gebiffte Armbrust</green>.");
+
     you.position = coord_def(10, 10);
     env.grid.init(DNGN_FLOOR);
     env.pgrid.init(FPROP_NONE);
