@@ -98,7 +98,7 @@ allmählich, wenn du Erfahrung sammelst.
 %%%%
 Breath status
 
-Dich stockt der Atem, und du kannst deine angeborene Atemfähigkeit nicht nutzen,
+Dich stockt der Atem, und du kannst deine angeborene Odemfähigkeit nicht nutzen,
 bis der Status abläuft.
 %%%%
 Exh status
@@ -503,7 +503,7 @@ Dragon status
     if you.race():find("Draconian") then
         desc = desc .. " Drache verwandelt"
         if you.race() ~= "Grey Draconian" then
-            desc = desc .. ", was die Kraft aller angeborenen Atemangriffe " ..
+            desc = desc .. ", was die Kraft aller angeborenen Odemangriffe " ..
                            "erhöht"
         end
         if you.race() == "Red Draconian" then
