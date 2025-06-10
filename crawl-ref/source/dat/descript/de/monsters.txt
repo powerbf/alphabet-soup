@@ -757,7 +757,7 @@ bone dragon
 
 Eine mächtige untote Abscheulichkeit, die mithilfe mächtiger nekromantischer
 Magie aus den gebrochenen Knochen vieler Drachen zusammengesetzt wurde.
-Glücklicherweise ging dabei das Organ verloren, das den furchterregenden Atem
+Glücklicherweise ging dabei das Organ verloren, das den furchterregenden Odem
 eines Drachens erzeugt.
 %%%%
 boulder beetle
@@ -833,7 +833,7 @@ catoblepas
 
 Ein träger schwarzer Büffel, dessen Haut mit stumpfen Schuppen überzogen ist.
 Seinen schweineartigen Kopf hält er knapp über dem Boden, geschützt durch eine
-steife Mähne aus Borsten. Sein furchterregender Atem verwandelt Fleisch in
+steife Mähne aus Borsten. Sein furchterregender Odem verwandelt Fleisch in
 Stein.
 %%%%
 caustic shrike
@@ -1062,7 +1062,7 @@ Kreaturen des Albtraums auf die Fährte seines Opfers zu hetzen.
 draconian
 
 Ein Humanoid mit braunen Schuppen, einem Reptilienschwanz und kleinen Flügeln.
-Die ausgeprägte Färbung und der kräftige Atem seiner erwachsenen Form müssen
+Die ausgeprägte Färbung und der kräftige Odem seiner erwachsenen Form müssen
 noch entwickelt werden.
 %%%%
 draconian annihilator
@@ -1451,7 +1451,7 @@ macht.
 %%%%
 hell hog
 
-Ein extrem großes und aggressives Schwein, in der Hölle gezüchtet, dessen Atem
+Ein extrem großes und aggressives Schwein, in der Hölle gezüchtet, dessen Odem
 seine Feinde zu Asche verbrennt.
 %%%%
 hell hound
@@ -2049,7 +2049,7 @@ Rechtsprechung.
 %%%%
 pearl dragon
 
-Ein Drache, der den heiligen göttlichen Kräften geweiht ist. Sein Atem ist
+Ein Drache, der den heiligen göttlichen Kräften geweiht ist. Sein Odem ist
 gesegnetes Feuer und seine Klauen versengen seine Opfer mit göttlichem Zorn.
 %%%%
 phantasmal warrior
@@ -2188,7 +2188,7 @@ geisterhaften Flammen.
 %%%%
 rime drake
 
-Ein kleiner, aber gefährlicher Drache. Sein Atem ist selbst an den wärmsten
+Ein kleiner, aber gefährlicher Drache. Sein Odem ist selbst an den wärmsten
 Tagen sichtbar.
 %%%%
 river rat
@@ -2285,7 +2285,7 @@ Dunkelheit unterscheiden lässt. Sie verwebt die Schatten zu mächtigen Dienern.
 %%%%
 shadow dragon
 
-Ein großer Schattendrache, der Böses und Tod ausstrahlt. Sein Atem stinkt nach
+Ein großer Schattendrache, der Böses und Tod ausstrahlt. Sein Odem stinkt nach
 dem Grab.
 %%%%
 shadow imp
@@ -2734,7 +2734,7 @@ Gesellschaft von Orks aufhält.
 %%%%
 war gargoyle
 Eine seltene Art von Gargoyle, der aus einer Statue aus massivem Stahl gefertigt
-und mit bösartiger Stärke, Geschwindigkeit und waffenfähigem Atem ausgestattet
+und mit bösartiger Stärke, Geschwindigkeit und waffenfähigem Odem ausgestattet
 ist.
 %%%%
 warmonger

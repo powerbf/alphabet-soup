@@ -145,10 +145,10 @@ the splash of poison
 der Giftspritzer
 %%%%
 the fiery breath
-der feurige Atem
+der feurige Odem
 %%%%
 the freezing breath
-der eisige Atem
+der eisige Odem
 %%%%
 the glob of acid
 der Säureklumpen
@@ -248,7 +248,7 @@ the mystic blast
 die mystische Druckwelle
 %%%%
 the chilling breath
-der kühlende Atem
+der kühlende Odem
 %%%%
 the porkalator
 die Schweinifizierung
@@ -502,10 +502,10 @@ a splash of poison
 ein Giftspritzer
 %%%%
 a fiery breath
-ein feuriger Atem
+ein feuriger Odem
 %%%%
 a freezing breath
-ein eisiger Atem
+ein eisiger Odem
 %%%%
 a glob of acid
 ein Säureklumpen
@@ -605,7 +605,7 @@ a mystic blast
 eine mystische Druckwelle
 %%%%
 a chilling breath
-ein kühlender Atem
+ein kühlender Odem
 %%%%
 a porkalator
 eine Schweinifizierung
@@ -856,10 +856,10 @@ splash of poison
 Giftspritzer
 %%%%
 fiery breath
-feuriger Atem
+feuriger Odem
 %%%%
 freezing breath
-eisiger Atem
+eisiger Odem
 %%%%
 glob of acid
 Säureklumpen
@@ -961,7 +961,7 @@ mystic blast
 mystische Druckwelle
 %%%%
 chilling breath
-kühlender Atem
+kühlender Odem
 %%%%
 porkalator
 Schweinifizierung
@@ -1306,7 +1306,7 @@ tukima's dance
 Tukimas Tanz
 %%%%
 breath of the dead
-Atem der Toten
+Odem der Toten
 %%%%
 # duplicate of status
 #resistance
