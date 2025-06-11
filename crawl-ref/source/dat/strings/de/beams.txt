@@ -44,7 +44,7 @@ der faulige Dunst
 %%%%
 # this blasts outwards from the player in all directions
 the blast of cleansing flame
-die reinigenden Flammenwolken
+die reinigende Flammenwolke
 %%%%
 # this creates a single straight line of clouds
 the blast of calcifying dust
@@ -61,14 +61,14 @@ der Lavaklumpen
 %%%%
 # chaos crab area effect
 the blast of chaos
-die Chaoswolken
+die Chaoswolke
 %%%%
 # fire breath (beam), flame clouds (area)
 the blast of flame
-die Flammenwolken
+die Flammenwolke
 %%%%
 the blast of cold
-die Frostwolken
+die Frostwolke
 %%%%
 # searing breath (beam), similar to fire breath
 the searing blast
@@ -757,7 +757,7 @@ fauliger Dunst
 %%%%
 # this blasts outwards from the player in all directions
 blast of cleansing flame
-reinigende Flammenwolken
+reinigende Flammenwolke
 %%%%
 # this creates a single straight line of clouds
 blast of calcifying dust
