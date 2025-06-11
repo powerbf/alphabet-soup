@@ -414,6 +414,12 @@ int main()
     msg = localise("<cyan>Items here: </cyan> %s.", "a +0 chain mail; <green>a +1 vorpal arbalest</green>");
     show_result(msg, "<cyan>Gegenstände hier: </cyan> ein +0 Kettenpanzer; <green>eine +1 gebiffte Armbrust</green>.");
 
+    msg = localise("... with %s", "a blast of cold");
+    show_result(msg, "... mit einer Frostwolke");
+
+    msg = localise("... with %s", "a blast of cleansing flame");
+    show_result(msg, "... mit einer reinigenden Flammenwolke");
+
     you.position = coord_def(10, 10);
     env.grid.init(DNGN_FLOOR);
     env.pgrid.init(FPROP_NONE);
