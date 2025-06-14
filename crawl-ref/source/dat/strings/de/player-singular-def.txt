@@ -253,7 +253,7 @@ the Transmuter
 der Verwandler
 %%%%
 the Arcane Marksman
-der Arkane Scharfschütze
+der Arkane Schütze
 %%%%
 the Warper
 der Warper
@@ -286,10 +286,10 @@ the Venom Mage
 der Giftmagier
 %%%%
 the Artificer
-der Artificer
+der Artifizient
 %%%%
 the Delver
-der Gräber
+der Forscher
 %%%%
 the Wanderer
 der Wanderer
@@ -332,7 +332,7 @@ the @species@ Transmuter
 der @species@ Verwandler
 %%%%
 the @species@ Arcane Marksman
-der @species@ Arkane Scharfschütze
+der @species@ Arkane Schütze
 %%%%
 the @species@ Warper
 der @species@ Warper
@@ -365,10 +365,10 @@ the @species@ Venom Mage
 der @species@ Giftmagier
 %%%%
 the @species@ Artificer
-der @species@ Artificer
+der @species@ Artifizient
 %%%%
 the @species@ Delver
-der @species@ Gräber
+der @species@ Forscher
 %%%%
 the @species@ Wanderer
 der @species@ Wanderer
