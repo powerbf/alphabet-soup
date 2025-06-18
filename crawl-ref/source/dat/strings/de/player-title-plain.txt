@@ -23,7 +23,7 @@ Anchorite
 Anachoret
 %%%%
 Apologist
-Verfechter
+Apologet
 %%%%
 Pious
 Frommer
@@ -38,7 +38,7 @@ Immaculate
 Unbefleckter
 %%%%
 Bringer of Law
-Rechtsbringer
+Bringer des Gesetzes
 %%%%
 
 # Shining One
@@ -71,7 +71,7 @@ Bringer des Lichtes
 # Kiku
 %%%%
 Tormented
-Gequälter
+Gepeinigter
 %%%%
 Purveyor of Pain
 Schmerzensbringer
@@ -141,7 +141,7 @@ Scholar of Destruction
 Gelehrter der Zerstörung
 %%%%
 Caster of Ruination
-Zauberer des Verderbens
+Zauberer der Ruinierung
 %%%%
 Traumaturge
 Traumaturg
@@ -153,7 +153,7 @@ Warlock
 Hexenmeister
 %%%%
 Luminary of Lethal Lore
-Beleuchter der tödlichen Kunde
+Koryphäe der tödlichen Kunde
 %%%%
 
 # Okawaru
@@ -187,7 +187,7 @@ Sieger von Tausenden Schlachten
 # Makhleb
 %%%%
 Orderly
-Ordnungsliebender
+Ordentlicher
 %%%%
 Spawn of Chaos
 Ausgeburt des Chaos
@@ -236,7 +236,7 @@ Sage
 Weiser
 %%%%
 Genius of the Arcane
-Genie der Arkana
+Genie des Arkanen
 %%%%
 
 # Trog
@@ -305,7 +305,7 @@ Comforter
 Tröster
 %%%%
 Caregiver
-Pflegender
+Pfleger
 %%%%
 Mender
 Barmherziger
@@ -326,13 +326,13 @@ Pure
 Reiner
 %%%%
 Abyss-Baptised
-Abgründstäufling
+Abgrundstäufling
 %%%%
 Unweaver
-Unweber
+Auftrenner
 %%%%
 Distorting @Genus@
-Verzerrender
+Verzerrer
 %%%%
 Agent of Entropy
 Agent der Entropie
@@ -386,7 +386,7 @@ Ooze
 Schleim
 %%%%
 Jelly
-Gallerte
+Gelee
 %%%%
 Slime Creature
 Schleimkreatur
@@ -426,7 +426,7 @@ Green Death
 Grüner Tod
 %%%%
 Force of Nature
-Kraftnatur
+Kraft der Natur
 %%%%
 
 # Cheibriados
@@ -459,7 +459,7 @@ Zeitloser
 # Ashenzari
 %%%%
 Star-crossed
-Sterngekreuzter
+Unglückseliger
 %%%%
 Cursed
 Verfluchter
@@ -495,7 +495,7 @@ Extinguished
 Ausgelöschter
 %%%%
 Caliginous
-Kaliginöser
+Trüber
 %%%%
 Umbral
 Umbraler
@@ -510,7 +510,7 @@ Ewige Nacht
 # Gozag
 %%%%
 Profligate
-Wüstling
+Verschwender
 %%%%
 Pauper
 Bettler
@@ -522,10 +522,10 @@ Capitalist
 Kapitalist
 %%%%
 Rich
-Reiche
+Reicher
 %%%%
 Opulent
-Opulente
+Opulenter
 %%%%
 Tycoon
 Tycoon
@@ -609,7 +609,7 @@ Pioneer
 Pionier
 %%%%
 Brilliant
-Brillante
+Brillanter
 %%%%
 Grand Gadgeteer
 Großer Tüftler
@@ -765,14 +765,14 @@ Cleaver
 Spalter
 %%%%
 Severer
-Henker
+Abtrenner
 %%%%
 # duplicate (monster)
 #Executioner
 #
 %%%%
 Axe Maniac
-Axt-Maniac
+Axtmörder
 %%%%
 
 # Maces & Flails
@@ -796,7 +796,7 @@ Schädelbrecher
 # Polearms
 %%%%
 Poker
-Stoßer
+Piekser
 %%%%
 Spear-Bearer
 Speerträger
@@ -908,7 +908,7 @@ Scharfsichtiger
 # Armour
 %%%%
 Covered
-Gedeckter
+Bedeckter
 %%%%
 Protected
 Geschützter
@@ -926,7 +926,7 @@ Unverwundbarer
 # Dodging
 %%%%
 Ducker
-Ausweicher
+Ducker
 %%%%
 Nimble
 Flinker
@@ -945,7 +945,7 @@ Unfassbarer
 # Stealth
 %%%%
 Sneak
-Schleichender
+Schleicher
 %%%%
 Covert
 Verborgener
@@ -1018,19 +1018,19 @@ Vernichter
 # Hexes
 %%%%
 Vexing
-Ärgerlicher
+Irritierender
 %%%%
 Jinx
-Jinx
+Pechvogel
 %%%%
 Bewitcher
-Behexer
+Verhexer
 %%%%
 Maledictor
 Malediktator
 %%%%
 Spellbinder
-Spellbinder
+Zauberbinder
 %%%%
 
 # Summonings
@@ -1043,7 +1043,7 @@ Rufer
 #
 %%%%
 Convoker
-Einbeirufer
+Einberufer
 %%%%
 Demonologist
 Dämonologe
@@ -1059,7 +1059,7 @@ Grave Robber
 Grabräuber
 %%%%
 Reanimator
-Wiederbeleber
+Reanimator
 %%%%
 # duplicate (background)
 #Necromancer
@@ -1129,7 +1129,7 @@ Infernalist
 # Ice Magic
 %%%%
 Chiller
-Chiller
+Kühler
 %%%%
 Frost Mage
 Frostmagier
@@ -1141,7 +1141,7 @@ Cryomancer
 Kryomant
 %%%%
 Englaciator
-Englaziator
+Vergletscherer
 %%%%
 
 # Air Magic
@@ -1230,7 +1230,7 @@ Fetichist
 Fetischist
 %%%%
 Evocator
-Beschwörer
+Evozierer
 %%%%
 Talismancer
 Talismant
@@ -1286,10 +1286,10 @@ Scratcher
 Kratzer
 %%%%
 Gouger
-Fugenhobler
+Ausstecher
 %%%%
 Ripper
-Ripper
+Zerfetzer
 %%%%
 Eviscerator
 Ausweider
@@ -1308,7 +1308,7 @@ Worldbinder
 Weltenbinder
 %%%%
 Planerender
-Ebenenreißer
+Ebenenzerreißer
 %%%%
 Blademaster
 Klingenmeister
@@ -1344,13 +1344,13 @@ Rockslime
 Felsenschleim
 %%%%
 God-Hated
-Gottgehaßter
+Gottverhasster
 %%%%
 Wallbreaker
 Wandbrecher
 %%%%
 Highly Combustible
-Leicht Brennbarer
+Leicht Entflammbarer
 %%%%
 # formicid skilled in translocations
 Teletunneler
@@ -1380,7 +1380,7 @@ Swamp Dragon
 Sumpfdrache
 %%%%
 Faerie Dragon
-Feedrache
+Feendrache
 %%%%
 
 ##############################################
@@ -1401,7 +1401,7 @@ Anointer
 Einöler
 %%%%
 Gracecrafter
-Gnadenkunstler
+Gnadenkünstler
 %%%%
 Miracle Worker
 Wundertäter
@@ -1410,29 +1410,29 @@ Wundertäter
 # Stabbing (removed in v0.13)
 %%%%
 Miscreant
-
+Schurke
 %%%%
 Blackguard
-
+Lump
 %%%%
 Backstabber
-
+Hinterhältiger
 %%%%
 
 # Traps (removed in v0.13)
 %%%%
 Scout
-
+Pfadfinder
 %%%%
 Disarmer
-
+Entschärfer
 %%%%
 Vigilant
-
+Wachsamer
 %%%%
 Perceptive
-
+Scharfsinniger
 %%%%
 Dungeon Master
-
+Kerkermeister
 %%%%
