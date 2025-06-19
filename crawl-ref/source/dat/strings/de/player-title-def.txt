@@ -26,7 +26,7 @@ the Anchorite
 der Anachoret
 %%%%
 the Apologist
-der Verfechter
+der Apologet
 %%%%
 the Pious
 der Fromme
@@ -41,7 +41,7 @@ the Immaculate
 der Unbefleckte
 %%%%
 the Bringer of Law
-der Rechtsbringer
+der Bringer des Gesetzes
 %%%%
 
 # Shining One
@@ -74,7 +74,7 @@ der Bringer des Lichtes
 # Kiku
 %%%%
 the Tormented
-der Gequälte
+der Gepeinigte
 %%%%
 the Purveyor of Pain
 der Schmerzensbringer
@@ -144,7 +144,7 @@ the Scholar of Destruction
 der Gelehrte der Zerstörung
 %%%%
 the Caster of Ruination
-der Zauberer des Verderbens
+der Zauberer der Ruinierung
 %%%%
 the Traumaturge
 der Traumaturg
@@ -156,7 +156,7 @@ the Warlock
 der Hexenmeister
 %%%%
 the Luminary of Lethal Lore
-der Beleuchter der tödlichen Kunde
+die Koryphäe der tödlichen Kunde
 %%%%
 
 # Okawaru
@@ -189,7 +189,7 @@ der Sieger von Tausenden Schlachten
 # Makhleb
 %%%%
 the Orderly
-der Ordnungsliebende
+der Ordentliche
 %%%%
 the Spawn of Chaos
 die Ausgeburt des Chaos
@@ -238,7 +238,7 @@ the Sage
 der Weise
 %%%%
 the Genius of the Arcane
-das Genie der Arkana
+das Genie des Arkanen
 %%%%
 
 # Trog
@@ -310,7 +310,7 @@ the Comforter
 der Tröster
 %%%%
 the Caregiver
-der Pflegende
+der Pfleger
 %%%%
 the Mender
 der Barmherzige
@@ -332,14 +332,14 @@ the Pure
 der Reine
 %%%%
 the Abyss-Baptised
-der Abgründstäufling
+der Abgrundstäufling
 %%%%
 the Unweaver
-der Unweber
+der Auftrenner
 %%%%
 the Distorting @Genus@
 # discard genus to avoid gender issues
-der Verzerrende
+der Verzerrer
 %%%%
 the Agent of Entropy
 der Agent der Entropie
@@ -393,7 +393,7 @@ the Ooze
 der Schleim
 %%%%
 the Jelly
-die Gallerte
+das Gelee
 %%%%
 the Slime Creature
 die Schleimkreatur
@@ -435,7 +435,7 @@ the Green Death
 der Grüne Tod
 %%%%
 the Force of Nature
-die Kraftnatur
+die Kraft der Natur
 %%%%
 
 # Cheibriados
@@ -469,7 +469,7 @@ der {adj-e}@Adj@ Äon
 # Ashenzari
 %%%%
 the Star-crossed
-die Sterngekreuzten
+der Unglückselige
 %%%%
 the Cursed
 der Verfluchte
@@ -493,7 +493,7 @@ der Allwissende
 # Dithmenos
 %%%%
 the Ember
-der Glühende
+der Glimmende
 %%%%
 the Gloomy
 der Düstere
@@ -505,7 +505,7 @@ the Extinguished
 der Ausgelöschte
 %%%%
 the Caliginous
-der Kaliginöse
+der Trübe
 %%%%
 the Umbral
 der Umbrale
@@ -520,7 +520,7 @@ die Ewige Nacht
 # Gozag
 %%%%
 the Profligate
-der Wüstling
+der Verschwender
 %%%%
 the Pauper
 der Bettler
@@ -775,14 +775,14 @@ the Cleaver
 der Spalter
 %%%%
 the Severer
-der Henker
+der Abtrenner
 %%%%
 # duplicate (monster)
 #the Executioner
 #
 %%%%
 the Axe Maniac
-der Axt-Maniac
+der Axtmörder
 %%%%
 
 # Maces & Flails
@@ -806,7 +806,7 @@ der Schädelbrecher
 # Polearms
 %%%%
 the Poker
-der Stoßer
+der Piekser
 %%%%
 the Spear-Bearer
 der Speerträger
@@ -918,7 +918,7 @@ die {adj-e}@Adj@ Ballista
 # Armour
 %%%%
 the Covered
-der Gedeckte
+der Bedeckte
 %%%%
 the Protected
 der Geschützte
@@ -936,7 +936,7 @@ der Unverwundbare
 # Dodging
 %%%%
 the Ducker
-der Ausweicher
+der Ducker
 %%%%
 the Nimble
 der Flinke
@@ -954,7 +954,7 @@ der Unfassbare
 # Stealth
 %%%%
 the Sneak
-der Schleichende
+der Schleicher
 %%%%
 the Covert
 der Verborgene
@@ -1027,19 +1027,19 @@ der Vernichter
 # Hexes
 %%%%
 the Vexing
-der Ärgerliche
+der Irritierende
 %%%%
 the Jinx
-der Jinx
+der Pechvogel
 %%%%
 the Bewitcher
-der Behexer
+der Verhexer
 %%%%
 the Maledictor
 der Malediktator
 %%%%
 the Spellbinder
-der Spellbinder
+der Zauberbinder
 %%%%
 
 # Summonings
@@ -1052,7 +1052,7 @@ der Rufer
 #der Beschwörer
 %%%%
 the Convoker
-der Einbeirufer
+der Einberufer
 %%%%
 the Demonologist
 der Dämonologe
@@ -1068,7 +1068,7 @@ the Grave Robber
 der Grabräuber
 %%%%
 the Reanimator
-der Wiederbeleber
+der Reanimator
 %%%%
 # duplicate (player background)
 #the Necromancer
@@ -1139,7 +1139,7 @@ der Infernalist
 # Ice Magic
 %%%%
 the Chiller
-der Chiller
+der Kühler
 %%%%
 the Frost Mage
 der Frostmagier
@@ -1151,7 +1151,7 @@ the Cryomancer
 der Kryomant
 %%%%
 the Englaciator
-der Englaziator
+der Vergletscherer
 %%%%
 
 # Air Magic
@@ -1240,7 +1240,7 @@ the Fetichist
 der Fetischist
 %%%%
 the Evocator
-der Beschwörer
+der Evozierer
 %%%%
 the Talismancer
 der Talismant
@@ -1317,10 +1317,10 @@ the Scratcher
 der Kratzer
 %%%%
 the Gouger
-der Fugenhobler
+der Ausstecher
 %%%%
 the Ripper
-der Ripper
+der Zerfetzer
 %%%%
 the Eviscerator
 der Ausweider
@@ -1338,7 +1338,7 @@ the Worldbinder
 der Weltenbinder
 %%%%
 the Planerender
-der Ebenenreißer
+der Ebenenzerreißer
 %%%%
 the Blademaster
 der Klingenmeister
@@ -1374,13 +1374,13 @@ the Rockslime
 der Felsenschleim
 %%%%
 the God-Hated
-der Gottgehaßte
+der Gottverhasste
 %%%%
 the Wallbreaker
 der Wandbrecher
 %%%%
 the Highly Combustible
-der Leicht Brennbare
+der Leicht Entflammbare
 %%%%
 the Teletunneler
 der Teletunneler
@@ -1409,7 +1409,7 @@ the Swamp Dragon
 der Sumpfdrache
 %%%%
 the Faerie Dragon
-der Feedrache
+der Feendrache
 %%%%
 
 ##############################################
@@ -1430,7 +1430,7 @@ the Anointer
 der Einöler
 %%%%
 the Gracecrafter
-der Gnadenkunstler
+der Gnadenkünstler
 %%%%
 the Miracle Worker
 der Wundertäter
@@ -1439,29 +1439,29 @@ der Wundertäter
 # Stabbing (removed in v0.13)
 %%%%
 the Miscreant
-
+der Schurke
 %%%%
 the Blackguard
-
+der Lump
 %%%%
 the Backstabber
-
+der Hinterhältige
 %%%%
 
 # Traps (removed in v0.13)
 %%%%
 the Scout
-
+der Pfadfinder
 %%%%
 the Disarmer
-
+der Entschärfer
 %%%%
 the Vigilant
-
+der Wachsame
 %%%%
 the Perceptive
-
+der Scharfsinnige
 %%%%
 the Dungeon Master
-
+der Kerkermeister
 %%%%
