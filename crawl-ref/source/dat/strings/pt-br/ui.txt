@@ -151,6 +151,7 @@ Desconhecido
 %%%%
 Trunk games don't count for the tournament, you want %s. Play trunk anyway? (Y/N)
 Jogos da versão de desenvolvimento não contam para o torneio, você quer %s. Jogar mesmo assim? (S/N)%%%%
+%%%%
 
 ###############################################################
 # Player HUD
@@ -218,7 +219,6 @@ ES:
 "NX: "
 %%%%
 # percentage of next XL achieved
-# Next = Nächste, but that's too long, so I used kommende
 %%%%
 "Next: "
 "Próx: "
@@ -229,10 +229,9 @@ ES:
 # If silenced, this shows instead of noise bar (must be 10 chars)
 %%%%
 "Silenced  "
-"Silenciado
+"Silenciado"
 %%%%
-# There is an option to show equipment instaed of noise
-# equipment = Ausrüstung
+# There is an option to show equipment instead of noise
 %%%%
 "Equip: "
 "Equip: "
@@ -242,17 +241,17 @@ ES:
 "Eq: "
 "Eq: "
 %%%%
-# Strength = Stärke
+# Strength
 %%%%
 Str:
 Frç:
 %%%%
-# Intelligence = Intelligenz
+# Intelligence
 %%%%
 Int:
 Int:
 %%%%
-# Dexterity = Geschicklichkeit
+# Dexterity
 %%%%
 Dex:
 Des:
@@ -312,7 +311,7 @@ Ouro:
 "Gold:   "
 "Ouro:   "
 %%%%
-# Align Gold with HP/MP if playerrotted
+# Align Gold with HP/MP if player rotted
 %%%%
 "Gold: "
 "Ouro: "
@@ -322,35 +321,35 @@ Ouro:
 "AC: "
 "CA: "
 %%%%
-# Evasion = Ausweichen
+# Evasion = Esquiva
 %%%%
 "EV: "
-"EV: "  # (Esquiva)
+"EV: "
 %%%%
-# Shields = Schilde
+# Shields = Escudo
 %%%%
 "SH: "
-"EC: "  # (Escudo)
+"EC: "
 %%%%
-# Strength = Stärke
+# Strength = Força
 %%%%
 "Str: "
-"For: "  # (Força)
+"For: "
 %%%%
-# Intelligence = Intelligenz
+# Intelligence = Inteligência
 %%%%
 "Int: "
-"Int: "  # (Inteligência)
+"Int: "
 %%%%
-# Dexterity = Geschicklichkeit
+# Dexterity = Destreza
 %%%%
 "Dex: "
-"Des: "  # (Destreza)
+"Des: "
 %%%%
-# eXperience Level = Erfahrungsstufe
+# eXperience Level = Nível
 %%%%
 "XL:     "
-"NV:     "  # (Nível)
+"NV:     "
 %%%%
 "   Next: "
 "   Próx: "
@@ -407,7 +406,7 @@ rCorr
 Will
 Vont
 %%%%
-# Stealth = Heimlichkeit
+# Stealth
 %%%%
 "Stlth    "
 "Furtv    "
@@ -757,14 +756,14 @@ Zap wand
 Usar varinha
 %%%%
 # move one square
-Mover
+Move
 Mover
 %%%%
 Move towards
 Mover em direção a
 %%%%
 # move a longer distance
-Viajar
+Travel
 Viajar
 %%%%
 Attack
@@ -773,7 +772,7 @@ Atacar
 # fire - shoot a bow/crossbow/sling, or throw a boomerang, etc.
 # the {cmd} annotation is needed to disambiguate from fire meaning flames
 {cmd}Fire
-{cmd}Atirar
+Atirar
 %%%%
 Open door
 Abrir porta
@@ -1145,13 +1144,13 @@ Pontos
 > Novo
 %%%%
 @states@ @setting@
-@estados@ @configuração@
+@states@ @setting@
 %%%%
 auto
 automático
 %%%%
 {menu-state}manual
-{menu-state}manual
+manual
 %%%%
 mode
 modo
@@ -1222,6 +1221,7 @@ Alcance
 %%%%
 Noise
 Ruído
+%%%%
 
 # values for noise column
 %%%%
@@ -1248,11 +1248,13 @@ Extremamente alto
 %%%%
 Deafening
 Ensurdecedor
+%%%%
 
 # N/A
 %%%%
 N/A
 N/A
+%%%%
 
 # actions
 %%%%
@@ -1282,3 +1284,4 @@ buscar
 %%%%
 |Describe|Hide|<w>Show</w>
 |Descrever|Ocultar|<w>Mostrar</w>
+%%%%
