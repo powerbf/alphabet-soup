@@ -1,0 +1,548 @@
+###############################################################################
+#
+# Translations for dungeon-related stuff
+#
+###############################################################################
+
+##############################################
+# Short branch names
+##############################################
+%%%%
+Dungeon
+Calabouço
+%%%%
+Temple
+Templo
+%%%%
+Orcish Mines
+Minas dos Orcs
+%%%%
+Elven Halls
+Salões Élficos
+%%%%
+Lair
+Covil
+%%%%
+Swamp
+Pântano
+%%%%
+Shoals
+Recifes
+%%%%
+Snake Pit
+Poço das Serpentes
+%%%%
+Spider Nest
+Ninho de Aranhas
+%%%%
+Slime Pits
+Poços de Slime
+%%%%
+Vaults
+Câmaras Fortes
+%%%%
+Crypt
+Cripta
+%%%%
+Tomb
+Tumba
+%%%%
+Depths
+Profundezas
+%%%%
+Hells
+Infernos
+%%%%
+Hell
+Inferno
+%%%%
+Dis
+Dis
+%%%%
+Gehenna
+Geena
+%%%%
+Cocytus
+Cócito
+%%%%
+Tartarus
+Tártaro
+%%%%
+Pandemonium
+Pandemônio
+%%%%
+Zot
+Zot
+%%%%
+Abyss
+Abismo
+%%%%
+Ziggurat
+Zigurate
+%%%%
+Bazaar
+Bazar
+%%%%
+Trove
+Tesouro
+%%%%
+Sewer
+Esgoto
+%%%%
+Ossuary
+Ossuário
+%%%%
+Bailey
+Fortaleza
+%%%%
+Gauntlet
+Labirinto
+%%%%
+Ice Cave
+Caverna de Gelo
+%%%%
+Volcano
+Vulcão
+%%%%
+Wizlab
+Laboratório de Magia
+%%%%
+Desolation
+Desolação
+%%%%
+
+# obsolete branches
+%%%%
+Dwarven Hall
+Salão dos Anões
+%%%%
+Hall of Blades
+Galeria das Lâminas
+%%%%
+Forest
+Floresta
+%%%%
+Labyrinth
+Labirinto
+%%%%
+
+##############################################
+# Short branch names with indefinite article
+##############################################
+# HUD shows some branches as short name with indefinite article
+%%%%
+an Abyss
+um Abismo
+%%%%
+a Ziggurat
+um Zigurate
+%%%%
+a Bazaar
+um Bazar
+%%%%
+a Trove
+um Tesouro
+%%%%
+a Sewer
+um Esgoto
+%%%%
+an Ossuary
+um Ossuário
+%%%%
+a Bailey
+uma Fortaleza
+%%%%
+an Ice Cave
+uma Caverna de Gelo
+%%%%
+a Volcano
+um Vulcão
+%%%%
+a Wizlab
+um Laboratório de Magia
+%%%%
+# same as long name
+#a Gauntlet
+#um Labirinto
+%%%%
+
+##############################################
+# Long branch names
+# (where different to short name)
+##############################################
+%%%%
+the Dungeon
+a Masmorra
+%%%%
+the Ecumenical Temple
+o Templo Ecumênico
+%%%%
+the Orcish Mines
+as Minas dos Orcs
+%%%%
+the Elven Halls
+os Salões Élficos
+%%%%
+the Lair of Beasts
+o Covil das Feras
+%%%%
+the Swamp
+o Pântano
+%%%%
+the Shoals
+os Recifes
+%%%%
+the Snake Pit
+o Fosso das Serpentes
+%%%%
+the Spider Nest
+o Ninho de Aranhas
+%%%%
+the Pits of Slime
+os Poços de Slime
+%%%%
+the Vaults
+as Câmaras Fortes
+%%%%
+the Crypt
+a Cripta
+%%%%
+the Tomb of the Ancients
+a Tumba dos Antigos
+%%%%
+the Depths
+as Profundezas
+%%%%
+the Hells
+os Infernos
+%%%%
+the Vestibule of Hell
+o Vestíbulo do Inferno
+%%%%
+the Iron City of Dis
+a Cidade de Ferro de Dis
+%%%%
+the Realm of Zot
+o Reino de Zot
+%%%%
+the Abyss
+o Abismo
+%%%%
+a ziggurat
+um zigurate
+%%%%
+a bazaar
+um bazar
+%%%%
+a treasure trove
+um tesouro
+%%%%
+a sewer
+um esgoto
+%%%%
+an ossuary
+um ossuário
+%%%%
+a bailey
+uma fortaleza
+%%%%
+a Gauntlet
+um labirinto
+%%%%
+an ice cave
+uma caverna de gelo
+%%%%
+a volcano
+um vulcão
+%%%%
+a wizard's laboratory
+um laboratório de magia
+%%%%
+the Desolation of Salt
+a Desolação de Sal
+%%%%
+
+##############################################
+# Branch abbreviations
+# These should be 8 characters or less.
+#
+# Note: Some of the English abbreviations are the same as the short names (or player genus).
+# To force specific translation for abbreviation in that case, use {branch_abbrev} annotation.
+##############################################
+%%%%
+# This is different to the short name, but do not want to define a global translation for the letter D
+{branch_abbrev}D
+{branch_abbrev}D
+%%%%
+# D is the real English abbreviation, but Dungeon is used in overview screen
+{branch_abbrev}Dungeon
+{branch_abbrev}Calabouç
+%%%%
+{branch_abbrev}Temple
+{branch_abbrev}Templo
+%%%%
+# also a player genus
+{branch_abbrev}Orc
+{branch_abbrev}Orc
+%%%%
+# also a player genus
+{branch_abbrev}Elf
+{branch_abbrev}Elfo
+%%%%
+{branch_abbrev}Lair
+{branch_abbrev}Covil
+%%%%
+{branch_abbrev}Swamp
+{branch_abbrev}Pântano
+%%%%
+{branch_abbrev}Shoals
+{branch_abbrev}Recife
+%%%%
+Snake
+Serpente
+%%%%
+Spider
+Aranha
+%%%%
+Slime
+Slime
+%%%%
+{branch_abbrev}Vaults
+{branch_abbrev}CâmaraF
+%%%%
+{branch_abbrev}Crypt
+{branch_abbrev}Cripta
+%%%%
+{branch_abbrev}Tomb
+{branch_abbrev}Tomba
+%%%%
+{branch_abbrev}Depths
+{branch_abbrev}Profdzs
+%%%%
+{branch_abbrev}Hell
+{branch_abbrev}Inferno
+%%%%
+{branch_abbrev}Dis
+{branch_abbrev}Dis
+%%%%
+Geh
+Geh
+%%%%
+Coc
+Cóc
+%%%%
+Tár
+Tar
+%%%%
+Pan
+Pan
+%%%%
+Zig
+Zig
+%%%%
+{branch_abbrev}Abyss
+{branch_abbrev}Abismo
+%%%%
+{branch_abbrev}Bazaar
+{branch_abbrev}Bazar
+%%%%
+{branch_abbrev}Trove
+{branch_abbrev}Tresouro
+%%%%
+{branch_abbrev}Sewer
+{branch_abbrev}Esgoto
+%%%%
+{branch_abbrev}Ossuary
+{branch_abbrev}Ossuário
+%%%%
+{branch_abbrev}Bailey
+{branch_abbrev}Fort
+%%%%
+{branch_abbrev}Gauntlet
+{branch_abbrev}Labirin
+%%%%
+IceCv
+CavGelo
+%%%%
+{branch_abbrev}Volcano
+{branch_abbrev}Volcan
+%%%%
+# Note: English short name has small L, but abbreviation has capital L.
+WizLab
+LabMag
+%%%%
+{branch_abbrev}Desolation
+{branch_abbrev}Desolação
+%%%%
+
+##############################################
+# on branch level
+##############################################
+%%%%
+on level %d of the Dungeon
+no nível %d do Calabouço
+%%%%
+on level %d of the Orcish Mines
+no nível %d das Minas dos Orcs
+%%%%
+on level %d of the Elven Halls
+no nível %d dos Salões Élficos
+%%%%
+on level %d of the Lair of Beasts
+no nível %d do Covil das Feras
+%%%%
+on level %d of the Swamp
+no nível %d do Pântano
+%%%%
+on level %d of the Shoals
+no nível %d dos Recifes
+%%%%
+on level %d of the Snake Pit
+no nível %d do Fosso das Serpentes
+%%%%
+on level %d of the Spider Nest
+no nível %d do Ninho de Aranhas
+%%%%
+on level %d of the Pits of Slime
+no nível %d dos Poços de Slime
+%%%%
+on level %d of the Vaults
+no nível %d das Câmaras Fortes
+%%%%
+on level %d of the Crypt
+no nível %d da Cripta
+%%%%
+on level %d of the Tomb of the Ancients
+no nível %d da Tumba dos Antigos
+%%%%
+on level %d of the Depths
+no nível %d das Profundezas
+%%%%
+on level %d of the Vestibule of Hell
+no nível %d do Vestíbulo do Inferno
+%%%%
+on level %d of Tartarus
+no nível %d do Tártaro
+%%%%
+on level %d of Gehenna
+no nível %d da Geena
+%%%%
+on level %d of Cocytus
+no nível %d do Cócito
+%%%%
+on level %d of the Iron City of Dis
+no nível %d da Cidade de Ferro de Dis
+%%%%
+on level %d of Pandemonium
+no nível %d do Pandemônio
+%%%%
+on level %d of the Realm of Zot
+no nível %d do Reino de Zot
+%%%%
+on level %d of the Abyss
+no nível %d do Abismo
+%%%%
+on level %d of a ziggurat
+no nível %d de um zigurate
+%%%%
+# should be "in a sewer", but for some reason, we get this in hiscores
+on level %d of a sewer
+no nível %d de um esgoto
+%%%%
+
+##############################################
+# between branch levels
+##############################################
+%%%%
+between levels %d and %d of the Dungeon
+entre os níveis %d e %d do Calabouço
+%%%%
+between levels %d and %d of the Orcish Mines
+entre os níveis %d e %d das Minas dos Orcs
+%%%%
+between levels %d and %d of the Elven Halls
+entre os níveis %d e %d dos Salões Élficos
+%%%%
+between levels %d and %d of the Lair of Beasts
+entre os níveis %d e %d do Covil das Feras
+%%%%
+between levels %d and %d of the Swamp
+entre os níveis %d e %d do Pântano
+%%%%
+between levels %d and %d of the Shoals
+entre os níveis %d e %d dos Recifes
+%%%%
+between levels %d and %d of the Snake Pit
+entre os níveis %d e %d do Fosso das Serpentes
+%%%%
+between levels %d and %d of the Spider Nest
+entre os níveis %d e %d do Ninho de Aranhas
+%%%%
+between levels %d and %d of the Pits of Slime
+entre os níveis %d e %d dos Poços de Slime
+%%%%
+between levels %d and %d of the Vaults
+entre os níveis %d e %d das Câmaras Fortes
+%%%%
+between levels %d and %d of the Crypt
+entre os níveis %d e %d da Cripta
+%%%%
+between levels %d and %d of the Tomb of the Ancients
+entre os níveis %d e %d da Tumba dos Antigos
+%%%%
+between levels %d and %d of the Depths
+entre os níveis %d e %d das Profundezas
+%%%%
+between levels %d and %d of the Vestibule of Hell
+entre os níveis %d e %d do Vestíbulo do Inferno
+%%%%
+between levels %d and %d of the Iron City of Dis
+entre os níveis %d e %d da Cidade de Ferro de Dis
+%%%%
+between levels %d and %d of the Realm of Zot
+entre os níveis %d e %d do Reino de Zot
+%%%%
+between levels %d and %d of the Abyss
+entre os níveis %d e %d do Abismo
+%%%%
+between levels %d and %d of a ziggurat
+entre os níveis %d e %d de um zigurate
+%%%%
+
+##############################################
+# in single-level branch
+##############################################
+%%%%
+in the Ecumenical Temple
+no Templo Ecumênico
+%%%%
+in a bazaar
+em um bazar
+%%%%
+in a treasure trove
+em um tesouro
+%%%%
+in a sewer
+em um esgoto
+%%%%
+in an ossuary
+em um ossuário
+%%%%
+in a bailey
+em uma fortaleza
+%%%%
+in a Gauntlet
+em um Labirinto
+%%%%
+in an ice cave
+em uma caverna de gelo
+%%%%
+in a volcano
+em um vulcão
+%%%%
+in a wizard's laboratory
+em um laboratório de magia
+%%%%
+in the Desolation of Salt
+na Desolação de Sal
+%%%%

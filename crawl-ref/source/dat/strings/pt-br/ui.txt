@@ -1,0 +1,1284 @@
+###############################################################################
+#
+# Translations for user interfaces
+#
+###############################################################################
+%%%%
+
+##############################
+# Startup and Main Menu
+##############################
+%%%%
+Loading databases...
+Carregando bancos de dados...
+%%%%
+Loading spells and features...
+Carregando magias e características...
+%%%%
+Loading maps...
+Carregando mapas...
+%%%%
+Loading complete, press any key to start.
+Carregamento completo, pressione qualquer tecla para começar.
+%%%%
+Hello, welcome to %s %s!
+Olá, bem-vindo ao %s %s!
+%%%%
+Dismissing %s
+Dispensando %s
+%%%%
+Dungeon Crawl
+Dungeon Crawl
+%%%%
+Dungeon Crawl: The main game: full of monsters, items, gods and danger!
+Dungeon Crawl: O jogo principal: cheio de monstros, itens, deuses e perigos!
+%%%%
+Choose Game Seed
+Escolha a Semente do Jogo
+%%%%
+Play with a chosen custom dungeon seed.
+Jogue com uma semente de masmorra personalizada escolhida.
+%%%%
+Tutorial for Dungeon Crawl
+Tutorial para Dungeon Crawl
+%%%%
+Tutorial that covers the basics of Dungeon Crawl survival.
+Tutorial que cobre o básico da sobrevivência em Dungeon Crawl.
+%%%%
+Hints Mode for Dungeon Crawl
+Modo de Dicas para Dungeon Crawl
+%%%%
+A mostly normal game that provides more advanced hints than the tutorial.
+Um jogo quase normal que fornece dicas mais avançadas que o tutorial.
+%%%%
+Dungeon Sprint
+Dungeon Sprint
+%%%%
+Hard, fixed single level game mode.
+Modo de jogo difícil e fixo em um único nível.
+%%%%
+Instructions
+Instruções
+%%%%
+Help menu.
+Menu de ajuda.
+%%%%
+The Arena
+A Arena
+%%%%
+Pit computer controlled teams versus each other!
+Enfrente times controlados pelo computador uns contra os outros!
+%%%%
+High Scores
+Recordes
+%%%%
+View the high score list.
+Visualizar a lista de pontuações altas.
+%%%%
+New Game
+Novo Jogo
+%%%%
+" (WIZ)"
+" (MAGO)"
+%%%%
+Enter your name:
+Digite seu nome:
+%%%%
+Choices:
+Escolhas:
+%%%%
+Saved games:
+Jogos salvos:
+%%%%
+"quick-load last game: "
+"carregar rápido último jogo: "
+%%%%
+"quick-start last combo: "
+"início rápido última combinação: "
+%%%%
+view rc file information and log
+visualizar informações e log do arquivo rc
+%%%%
+Errors during initialization!
+Erros durante a inicialização!
+%%%%
+Press Esc to close, arrows/pgup/pgdn to scroll.
+Pressione Esc para fechar, setas/pgup/pgdn para rolar.
+%%%%
+Crawl encountered errors during initialization:
+Crawl encontrou erros durante a inicialização:
+%%%%
+Initialization log:
+Log de inicialização:
+%%%%
+# key names (NOTE: these are names only - you can't change the input keys with this)
+# nomes das teclas (NOTA: estes são apenas nomes - você não pode alterar as teclas de entrada com isso)
+%%%%
+tab
+tab
+%%%%
+ctrl-p
+ctrl-p
+%%%%
+# "<player name> the <species> <background>"
+# "<nome do jogador> o <espécie> <antecedente>"
+%%%%
+%s the %s %s
+%s o %s %s
+%%%%
+# "<player name> the <combo>"
+# "<nome do jogador> o <combo>"
+%%%%
+%s the %s
+%s o %s
+%%%%
+# Game types used in savegame descriptions
+# Tipos de jogo usados em descrições de savegames
+%%%%
+Seeded
+Semeadura
+%%%%
+Tutorial
+Tutorial
+%%%%
+Arena
+Arena
+%%%%
+Unknown
+Desconhecido
+%%%%
+# other
+%%%%
+Trunk games don't count for the tournament, you want %s. Play trunk anyway? (Y/N)
+Jogos da versão de desenvolvimento não contam para o torneio, você quer %s. Jogar mesmo assim? (S/N)%%%%
+
+###############################################################
+# Player HUD
+#
+# --------------------------------------------
+# Bob the Chopper                            |
+# Minotaur of Okawaru *.....                 |
+# Health: 120/200   ======================== |
+# Magic:  20/20                              |
+# AC: 27            Str: 31                  |
+# EV: 12            Int: 4                   |
+# SH: 14            Dex: 10                  |
+# XL: 11 Next: 83%  Place: Dungeon:15        |
+# Noise: ---------  Time: 72030.9 (0.0)      |
+# a) +0 hand axe                             |
+# -) Nothing quivered                        |
+# Hungry                                     |
+# --------------------------------------------
+#
+# The labels on the left need to be the same length in order to preserve alignment.
+# There's a bit more freedom with the ones on the right, but they mustn't be so long as
+# to push stuff off the screen.
+###############################################################
+# "<species> of <god>"
+%%%%
+%s of %s
+%s de %s
+%%%%
+"Health: "
+"Saúde: "
+%%%%
+# Health changes to HP when a 3rd number has to be shown (player rotted)
+# Hit points = Trefferpünkte
+%%%%
+"HP: "
+"PV: "
+%%%%
+"Magic:  "
+"Magia: "
+%%%%
+# Magic changes to MP when a 3rd number has to be shown (MP drained)
+# Magic points = Manapunkte(?)
+%%%%
+"MP: "
+"PM: "
+%%%%
+# Armour Class = Rüstingsklasse
+%%%%
+AC:
+CA:
+%%%%
+# Evasion = Ausweichen
+%%%%
+EV:
+EV:
+%%%%
+# Shields = Schilde
+%%%%
+SH:
+ES:
+%%%%
+# eXperience Level = Erfahrungsstufe(?)
+%%%%
+"XL: "
+"NX: "
+%%%%
+# percentage of next XL achieved
+# Next = Nächste, but that's too long, so I used kommende
+%%%%
+"Next: "
+"Próx: "
+%%%%
+"Noise: "
+"Som: "
+%%%%
+# If silenced, this shows instead of noise bar (must be 10 chars)
+%%%%
+"Silenced  "
+"Silenciado
+%%%%
+# There is an option to show equipment instaed of noise
+# equipment = Ausrüstung
+%%%%
+"Equip: "
+"Equip: "
+%%%%
+# Equipment abbreviated for octopodes
+%%%%
+"Eq: "
+"Eq: "
+%%%%
+# Strength = Stärke
+%%%%
+Str:
+Frç:
+%%%%
+# Intelligence = Intelligenz
+%%%%
+Int:
+Int:
+%%%%
+# Dexterity = Geschicklichkeit
+%%%%
+Dex:
+Des:
+%%%%
+"Place: "
+"Lugar: "
+%%%%
+Time:
+Tempo:
+%%%%
+# this shows if god is Gozag
+%%%%
+Gold:
+Ouro:
+%%%%
+
+###############################################################
+# Character overview screen. Contrived example:
+#
+# Kitty the Vexing (Felid Enchanter)                     Turns: 0, Time: 00:00:02
+# Health: 7/7        AC:  1    Str:  4    XL:     1   Next: 0%
+# Magic:  4/4        EV: 18    Int: 16    God:
+# Gold:   0          SH:  0    Dex: 16    Spells: 3/4 levels left
+#                                         Lives:  0   Deaths: 0
+#
+# rFire    . . .     SeeInvis +     - Unarmed
+# rCold    . . .     Gourm    .   (shield unavailable)
+# rNeg     . . .     Faith    .   (armour unavailable)
+# rPois    .         Spirit   .   (helmet unavailable)
+# rElec    .         Reflect  .   (cloak unavailable)
+# rCorr    .         Harm     .   (gloves unavailable)
+# Will     .....                  (boots unavailable)
+# Stlth    +++.......             (no amulet)
+# HPRegen  0.02/turn              (no ring)
+# MPRegen  0.09/turn              (no ring)
+#
+# @: quick
+# A: very small, no armour, no weapons or thrown items, stealth, claws 1, fangs 3,
+# see invisible, carnivore, speed 1, shaggy fur 1, slow metabolism 1, sharp paws
+# }: 2/15 runes: decaying, gossamer
+#
+###############################################################
+%%%%
+" Turns: %d, Time: "
+" Turnos: %d, Tempo: "
+%%%%
+# Health changes to HP if player rotted
+%%%%
+"HP:   "
+"PV:   "
+%%%%
+# Magic changes to MP if player rotted
+%%%%
+"MP:   "
+"PM:   " 
+%%%%
+"Gold:   "
+"Ouro:   "
+%%%%
+# Align Gold with HP/MP if playerrotted
+%%%%
+"Gold: "
+"Ouro: "
+%%%%
+# Armour Class = Rüstingsklasse
+%%%%
+"AC: "
+"CA: "  
+%%%%
+# Evasion = Ausweichen
+%%%%
+"EV: "
+"EV: "  # (Esquiva)
+%%%%
+# Shields = Schilde
+%%%%
+"SH: "
+"EC: "  # (Escudo)
+%%%%
+# Strength = Stärke
+%%%%
+"Str: "
+"For: "  # (Força)
+%%%%
+# Intelligence = Intelligenz
+%%%%
+"Int: "
+"Int: "  # (Inteligência)
+%%%%
+# Dexterity = Geschicklichkeit
+%%%%
+"Dex: "
+"Des: "  # (Destreza)
+%%%%
+# eXperience Level = Erfahrungsstufe
+%%%%
+"XL:     "
+"NV:     "  # (Nível)
+%%%%
+"   Next: "
+"   Próx: "
+%%%%
+"God:    "
+"Deus:   "
+%%%%
+"Spells: "
+"Magias: "
+%%%%
+%d/%d levels left
+%d/%d níveis restantes
+%%%%
+# Felids have multiple lives (and deaths)
+%%%%
+"Lives:  "
+"Vidas:  "
+%%%%
+"   Deaths: "
+"   Mortes: "
+%%%%
+# fire resistance
+%%%%
+rFire
+rFogo
+%%%%
+# cold resistance
+%%%%
+rCold
+rFrio
+%%%%
+# negative energy resistance
+%%%%
+rNeg
+rNeg
+%%%%
+# poison resistance
+%%%%
+rPois
+rVeno
+%%%%
+# electricty resistance
+%%%%
+rElec
+rElet
+%%%%
+# corrosion resistance
+%%%%
+rCorr
+rCorr
+%%%%
+# willpower
+%%%%
+Will
+Vont
+%%%%
+# Stealth = Heimlichkeit
+%%%%
+"Stlth    "
+"Furtv    "  
+%%%%
+# HP regeneration rate
+%%%%
+HPRegen  %03.2f/turn
+RegenPV  %03.2f/turno
+%%%%
+# MP regeneration rate
+%%%%
+MPRegen  %03.2f/turn
+RegenPM  %03.2f/turno
+%%%%
+SeeInvis
+VêInvis
+%%%%
+Faith
+Fé
+%%%%
+# spirit shield
+%%%%
+Spirit
+Espírito
+%%%%
+# reflection
+%%%%
+Reflect
+Reflexo
+%%%%
+Harm
+Dano
+%%%%
+# the following ones show up only if applicable
+%%%%
+Rnd*Rage
+Aleat*Raiva
+%%%%
+Clarity
+Clareza
+%%%%
+NoTele
+SemTele
+%%%%
+Rnd*Tele
+Aleat*Tele
+%%%%
+NoCast
+SemMag
+%%%%
+very quick
+muito rápido
+%%%%
+quick
+rápido
+%%%%
+no status effects
+sem efeitos
+%%%%
+"%d/%d runes: "
+"%d/%d runas: "
+%%%%
+# wizard (cheat) mode flags
+%%%%
+WIZARD
+MAGO
+%%%%
+EX-WIZARD
+EX-MAGO
+%%%%
+EXPLORE
+EXPLORAR
+%%%%
+Your terminal window is too small; please resize to at least %d,%d
+Sua janela é pequena demais; redimensione para pelo menos %d,%d
+%%%%
+# some items become "melded" when you change form
+%%%%
+melded
+fundido
+%%%%
+unarmed
+desarmado
+%%%%
+Unarmed
+Desarmado
+%%%%
+Blade Hand
+Mão-lâmina
+%%%%
+# duplicate of the spell name
+#Blade Hands
+#Klingenhände
+%%%%
+
+##############################################
+# Equipment Slots (Character Overview Screen)
+##############################################
+%%%%
+Quiver unavailable
+Aljava indisponível
+%%%%
+Nothing quivered
+Nada engatilhado
+%%%%
+%s unavailable
+%s indisponível
+%%%%
+%s currently unavailable
+%s indisponível no momento
+%%%%
+%s restricted
+%s restrito
+%%%%
+cloak
+manto
+%%%%
+helmet
+capacete
+%%%%
+gloves
+luvas
+%%%%
+boots
+botas
+%%%%
+barding
+bardadura
+%%%%
+shield
+escudo
+%%%%
+amulet
+amuleto
+%%%%
+ring
+anel
+%%%%
+no weapon
+sem arma
+%%%%
+no cloak
+sem manto
+%%%%
+no helmet
+sem capacete
+%%%%
+no gloves
+sem luvas
+%%%%
+no boots
+sem botas
+%%%%
+no barding
+sem bardadura
+%%%%
+no shield
+sem escudo
+%%%%
+no armour
+sem armadura
+%%%%
+no amulet
+sem amuleto
+%%%%
+no ring
+sem anel
+%%%%
+Cloak
+Manto
+%%%%
+Helmet
+Capacete
+%%%%
+Gloves
+Luvas
+%%%%
+Shield
+Escudo
+%%%%
+Armour
+Armadura
+%%%%
+Boots
+Botas
+%%%%
+Barding
+Bardadura
+%%%%
+unknown
+desconhecido
+%%%%
+Left ring
+Anel esquerdo
+%%%%
+Right ring
+Anel direito
+%%%%
+Amulet
+Amuleto
+%%%%
+Amulet ring
+Anel de amuleto
+%%%%
+1st ring
+1° anel
+%%%%
+2nd ring
+2° anel
+%%%%
+3rd ring
+3° anel
+%%%%
+4th ring
+4° anel
+%%%%
+5th ring
+5° anel
+%%%%
+6th ring
+6° anel
+%%%%
+7th ring
+7° anel
+%%%%
+8th ring
+8° anel
+%%%%
+(unavailable)
+(indisponível)
+%%%%
+(currently unavailable)
+(indisponível no momento)
+%%%%
+(restricted)
+(restringido)
+%%%%
+
+##############################################
+# Local Tiles - Tab titles/tooltips
+##############################################
+%%%%
+Abilities
+Habilidades
+%%%%
+Inventory
+Inventário
+%%%%
+Memorisation
+Memorização
+%%%%
+Monsters
+Monstros
+%%%%
+Skills
+Habilidades
+%%%%
+Spells
+Magias
+%%%%
+Commands
+Comandos
+%%%%
+System Commands
+Comandos do Sistema
+%%%%
+Navigation
+Navegação
+%%%%
+Execute commands
+Executar comandos
+%%%%
+Execute system commands
+Executar comandos do sistema
+%%%%
+Navigate around map
+Navegar pelo mapa
+%%%%
+
+##############################################
+# Local Tiles - Commands and  tooltips
+##############################################
+
+%%%%
+# format string for "<mouse button> <command name> (<key>)"
+# Example "[L-Click] Fire (f)"
+# The annotation {cmd} is used to disambiguate from other meanings of the same word
+# (e.g. fire meaning shoot vs. fire meaning flames)
+%s %s (%%)
+%s %s (%%)
+%%%%
+# format string for "<command name> (<key>)"
+# Example "Fire (f)"
+# {cmd} annotation as per above entry
+%s (%%)
+%s (%%)
+%%%%
+[L-Click]
+[L-Click]
+%%%%
+[R-Click]
+[R-Click]
+%%%%
+[Shift + L-Click]
+[Shift + L-Click]
+%%%%
+[Shift + R-Click]
+[Shift + R-Click]
+%%%%
+[Ctrl + L-Click]
+[Ctrl + L-Click]
+%%%%
+[Alt + L-Click]
+[Alt + L-Click]
+%%%%
+[Ctrl-Shift + L-Click]
+[Ctrl-Shift + L-Click]
+%%%%
+[L-Click / Shift + L-Click]
+[L-Click / Shift + L-Click]
+%%%%
+Display abilities
+Mostrar habilidades
+%%%%
+Use abilities
+Usar habilidades
+%%%%
+You cannot use this ability right now.
+Você não pode usar esta habilidade agora.
+%%%%
+Use
+Usar
+%%%%
+Describe
+Descrever
+%%%%
+Wand to zap?
+Varinha para usar?
+%%%%
+Your Spells
+Suas Magias
+%%%%
+Cast spell
+Lançar magia
+%%%%
+Zap wand
+Usar varinha
+%%%%
+# move one square
+Mover
+Mover
+%%%%
+Move towards
+Mover em direção a
+%%%%
+# move a longer distance
+Viajar
+Viajar
+%%%%
+Attack
+Atacar
+%%%%
+# fire - shoot a bow/crossbow/sling, or throw a boomerang, etc.
+# the {cmd} annotation is needed to disambiguate from fire meaning flames
+{cmd}Fire
+{cmd}Atirar
+%%%%
+Open door
+Abrir porta
+%%%%
+Pick up items
+Pegar itens
+%%%%
+Enter shop
+Entrar na loja
+%%%%
+Pray at altar
+Rezar no altar
+%%%%
+Enter gate
+Entrar no portão
+%%%%
+Use stairs
+Usar escadas
+%%%%
+Wait one turn
+Esperar um turno
+%%%%
+Overview
+Visão geral
+%%%%
+Religion
+Religião
+%%%%
+out of sight
+fora de vista
+%%%%
+wall
+parede
+%%%%
+feat
+feito
+%%%%
+special
+especial
+%%%%
+Wield
+Empunhar
+%%%%
+Unwield
+Desequipar
+%%%%
+Display inventory
+Mostrar inventário
+%%%%
+Use items
+Usar itens
+%%%%
+Next page
+Próxima página
+%%%%
+Show next page of items
+Mostrar próxima página de itens
+%%%%
+Previous page
+Página anterior
+%%%%
+Show previous page of items
+Mostrar página anterior de itens
+%%%%
+" (holding %s)"
+" (segurando %s)"
+%%%%
+nobody
+ninguém
+%%%%
+Pick up
+Pegar
+%%%%
+Partial pick up
+Pegar parcialmente
+%%%%
+Chop up
+Cortar
+%%%%
+Eat
+Comer
+%%%%
+Evoke
+Evocar
+%%%%
+Wear
+Vestir
+%%%%
+Take off
+Remover
+%%%%
+Put on
+Colocar
+%%%%
+Remove
+Tirar
+%%%%
+Memorise
+Memorizar
+%%%%
+Read
+Ler
+%%%%
+Quaff
+Beber
+%%%%
+Drop
+Soltar
+%%%%
+Drop quantity
+Soltar quantidade
+%%%%
+Enable map mode
+Ativar modo mapa
+%%%%
+View
+Ver
+%%%%
+Autoexplore
+Autoexplorar
+%%%%
+1 spell slot
+1 slot de magia
+%%%%
+%d spell slots
+%d slots de magia
+%%%%
+Display spells in carried books
+Mostrar magias em livros carregados
+%%%%
+Memorise spells
+Memorizar magias
+%%%%
+You cannot memorise this spell now.
+Você não pode memorizar esta magia agora.
+%%%%
+Browse message history
+Navegar no histórico de mensagens
+%%%%
+%-14s Skill %4.1f Aptitude %c%d
+%-14s Habilidade %4.1f Aptidão %c%d
+%%%%
+Manage skills
+Gerenciar habilidades
+%%%%
+You cannot train this skill now.
+Você não pode treinar esta habilidade agora.
+%%%%
+Disable training
+Desativar treino
+%%%%
+Enable training
+Ativar treino
+%%%%
+Change skill level (wizmode)
+Alterar nível de habilidade (modo wizard)
+%%%%
+Display memorised spells
+Mostrar magias memorizadas
+%%%%
+Cast spells
+Lançar magias
+%%%%
+You cannot cast this spell right now.
+Você não pode lançar esta magia agora.
+%%%%
+Cast
+Lançar
+%%%%
+Show player information
+Mostrar informações do jogador
+%%%%
+
+##############################################
+# Local Tiles - doll editor
+##############################################
+%%%%
+Doll Editor
+Editor de Bonecos
+%%%%
+Custom
+Personalizado
+%%%%
+Default
+Padrão
+%%%%
+Equip
+Equipar
+%%%%
+none
+nenhum
+%%%%
+show equip
+mostrar equipamento
+%%%%
+Doll index
+Índice de Bonecos
+%%%%
+Doll Mode
+Modo Boneco
+%%%%
+Current Equipment
+Equipamento Atual
+%%%%
+Custom Doll
+Boneco Personalizado
+%%%%
+Job Defaults
+Padrões de Classe
+%%%%
+Base
+Base
+%%%%
+Halo
+Auréola
+%%%%
+Ench
+Encant.
+%%%%
+Legs
+Pernas
+%%%%
+Body
+Corpo
+%%%%
+LHand
+Mão Esq.
+%%%%
+RHand
+Mão Dir.
+%%%%
+Hair
+Cabelo
+%%%%
+Beard
+Barba
+%%%%
+Helm
+Elmo
+%%%%
+DrcWing
+Asa Drag.
+%%%%
+DrcHead
+Cabeça Drag.
+%%%%
+Change parts
+Mudar partes
+%%%%
+left/right
+esquerda/direita
+%%%%
+Confirm choice
+Confirmar escolha
+%%%%
+Change category
+Mudar categoria
+%%%%
+up/down
+cima/baixo
+%%%%
+Copy doll
+Copiar boneco
+%%%%
+Change doll
+Mudar boneco
+%%%%
+Shift + arrows
+Shift + setas
+%%%%
+Paste copied doll
+Colar boneco copiado
+%%%%
+Change doll mode
+Mudar modo boneco
+%%%%
+Randomise doll
+Aleatorizar boneco
+%%%%
+Save menu
+Salvar menu
+%%%%
+Toggle equipment
+Alternar equipamento
+%%%%
+Quit menu
+Sair do menu
+%%%%
+
+##############################################
+# Inventory and item menus
+##############################################
+%%%%
+Inventory:
+Inventário:
+%%%%
+%d/%d slots
+%d/%d espaços
+%%%%
+Hand Weapons
+Armas de mão
+%%%%
+Missiles
+Projéteis
+%%%%
+Wands
+Varinhas
+%%%%
+Scrolls
+Pergaminhos
+%%%%
+Jewellery
+Joias
+%%%%
+Potions
+Poções
+%%%%
+Books
+Livros
+%%%%
+Magical Staves
+Cajados Mágicos
+%%%%
+Orbs of Power
+Orbes de Poder
+%%%%
+Carrion
+Carniça
+%%%%
+Runes of Zot
+Runas de Zot
+%%%%
+Miscellaneous
+Diversos
+%%%%
+Other Items
+Outros Itens
+%%%%
+
+##############################################
+# Skills menu
+##############################################
+
+# Column headings
+
+%%%%
+Skill
+Habilidade
+%%%%
+Level
+Nível
+%%%%
+Apt
+Aptidão
+%%%%
+Train
+Treinar
+%%%%
+Target
+Objetivo
+%%%%
+Progr
+Progresso
+%%%%
+Points
+Pontos
+%%%%
+> New
+> Novo
+%%%%
+@states@ @setting@
+@estados@ @configuração@
+%%%%
+auto
+automático
+%%%%
+{menu-state}manual
+{menu-state}manual
+%%%%
+mode
+modo
+%%%%
+useful
+úteis
+%%%%
+all
+todas
+%%%%
+skills
+habilidades
+%%%%
+modified
+modificado
+%%%%
+enhanced
+aumentado
+%%%%
+reduced
+reduzido
+%%%%
+base
+base
+%%%%
+level
+nível
+%%%%
+training
+treinando
+%%%%
+cost
+custo
+%%%%
+targets
+objetivos
+%%%%
+progress
+progresso
+%%%%
+points
+pontos
+%%%%
+new level
+novo nível
+%%%%
+train
+treinar
+%%%%
+focus
+foco
+%%%%
+
+##############################################
+# Spell casting/library menus
+##############################################
+
+# headings
+%%%%
+Power
+Poder
+%%%%
+Damage
+Dano
+%%%%
+Range
+Alcance
+%%%%
+Noise
+Ruído
+
+# values for noise column
+%%%%
+Silent
+Silencioso
+%%%%
+Almost silent
+Quase silencioso
+%%%%
+Quiet
+Baixo
+%%%%
+A bit loud
+Um pouco alto
+%%%%
+Loud
+Alto
+%%%%
+Very loud
+Muito alto
+%%%%
+Extremely loud
+Extremamente alto
+%%%%
+Deafening
+Ensurdecedor
+
+# N/A
+%%%%
+N/A
+N/A
+
+# actions
+%%%%
+Hide
+Ocultar
+%%%%
+Show
+Mostrar
+%%%%
+help
+ajuda
+%%%%
+search
+buscar
+%%%%
+<w>Cast</w>|Describe|Hide|Show
+<w>Lançar</w>|Descrever|Ocultar|Mostrar
+%%%%
+<w>Memorise</w>|Describe|Hide|Show
+<w>Memorizar</w>|Descrever|Ocultar|Mostrar
+%%%%
+|<w>Describe</w>|Hide|Show
+|<w>Descrever</w>|Ocultar|Mostrar
+%%%%
+|Describe|<w>Hide</w>|Show
+|Descrever|<w>Ocultar</w>|Mostrar
+%%%%
+|Describe|Hide|<w>Show</w>
+|Descrever|Ocultar|<w>Mostrar</w>

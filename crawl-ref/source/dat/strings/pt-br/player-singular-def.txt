@@ -1,0 +1,317 @@
+###############################################################################
+#
+# Player - definite, nominative
+#
+###############################################################################
+
+##############################################
+# Player species
+##############################################
+%%%%
+the Barachi
+o Barachi
+%%%%
+the Deep Dwarf
+o Anão das Profundezas
+%%%%
+the Deep Elf
+o Elfo das Profundezas
+%%%%
+the Demigod
+o Semideus
+%%%%
+the Demonspawn
+o Prole Demoníaca
+%%%%
+the Djinni
+o Djinni
+%%%%
+the Draconian
+o Draconiano
+%%%%
+the Felid
+o Felídeo
+%%%%
+the Formicid
+o Formicídeo
+%%%%
+the Gargoyle
+a Gárgula
+%%%%
+the Ghoul
+o Ghoul
+%%%%
+the Gnoll
+o Gnoll
+%%%%
+the Hill Orc
+o Orc da Colina
+%%%%
+the Human
+o Humano
+%%%%
+the Kobold
+o Kobold
+%%%%
+the Merfolk
+o Tritão
+%%%%
+the Minotaur
+o Minotauro
+%%%%
+the Mummy
+a Múmia
+%%%%
+the Naga
+a Naga
+%%%%
+the Octopode
+o Octópode
+%%%%
+the Ogre
+o Ogro
+%%%%
+the Palentonga
+o Palentonga
+%%%%
+the Spriggan
+o Spriggan
+%%%%
+the Tengu
+o Tengu
+%%%%
+the Troll
+o Troll
+%%%%
+the Vampire
+o Vampiro
+%%%%
+the Vine Stalker
+o Vine Stalker
+%%%%
+the Halfling
+o Pequenino
+%%%%
+the Centaur
+o Centauro
+%%%%
+the Sludge Elf
+o Elfo da Lama
+%%%%
+the High Elf
+o Alto Elfo
+%%%%
+the Lava Orc
+o Orc de Lava
+%%%%
+##############################################
+# Draconian subspecies
+##############################################
+%%%%
+the Mottled Draconian
+o Draconiano Mosqueado
+%%%%
+the Black Draconian
+o Draconiano Negro
+%%%%
+the Green Draconian
+o Draconiano Verde
+%%%%
+the Grey Draconian
+o Draconiano Cinza
+%%%%
+the Pale Draconian
+o Draconiano Pálido
+%%%%
+the Purple Draconian
+o Draconiano Roxo
+%%%%
+the Red Draconian
+o Draconiano Vermelho
+%%%%
+the White Draconian
+o Draconiano Branco
+%%%%
+the Yellow Draconian
+o Draconiano Amarelo
+%%%%
+##############################################
+# Player genus
+##############################################
+%%%%
+the Frog
+o Sapo
+%%%%
+the Dwarf
+o Anão
+%%%%
+the Elf
+o Elfo
+%%%%
+the God
+o Deus
+%%%%
+the Cat
+o Gato
+%%%%
+the Ant
+a Formiga
+%%%%
+the Octopus
+o Polvo
+%%%%
+the Orc
+o Orc
+%%%%
+##############################################
+# Player background (jobs)
+##############################################
+%%%%
+the Fighter
+o Lutador
+%%%%
+the Gladiator
+o Gladiador
+%%%%
+the Monk
+o Monge
+%%%%
+the Hunter
+o Caçador
+%%%%
+the Berserker
+o Berserker
+%%%%
+the Brigand
+o Bandoleiro
+%%%%
+the Abyssal Knight
+o Cavaleiro Abissal
+%%%%
+the Chaos Knight
+o Cavaleiro do Caos
+%%%%
+the Enchanter
+o Encantador
+%%%%
+the Transmuter
+o Transmutador
+%%%%
+the Arcane Marksman
+o Atirador Arcano
+%%%%
+the Warper
+o Warper
+%%%%
+the Hedge Wizard
+o Mago Amador
+%%%%
+the Conjurer
+o Conjurador
+%%%%
+the Summoner
+o Invocador
+%%%%
+the Necromancer
+o Necromante
+%%%%
+the Fire Elementalist
+o Elementalista do Fogo
+%%%%
+the Ice Elementalist
+o Elementalista do Gelo
+%%%%
+the Air Elementalist
+o Elementalista do Ar
+%%%%
+the Earth Elementalist
+o Elementalista da Terra
+%%%%
+the Venom Mage
+o Mago do Veneno
+%%%%
+the Artificer
+o Artífice
+%%%%
+the Delver
+o Delver
+%%%%
+the Wanderer
+o Andarilho
+%%%%
+##############################################
+# player character combos
+##############################################
+%%%%
+the @species@ Fighter
+o @species@ Lutador
+%%%%
+the @species@ Gladiator
+o @species@ Gladiador
+%%%%
+the @species@ Monk
+o @species@ Monge
+%%%%
+the @species@ Hunter
+o @species@ Caçador
+%%%%
+the @species@ Berserker
+o @species@ Berserker
+%%%%
+the @species@ Brigand
+o @species@ Bandoleiro
+%%%%
+the @species@ Abyssal Knight
+o @species@ Cavaleiro Abissal
+%%%%
+the @species@ Chaos Knight
+o @species@ Cavaleiro do Caos
+%%%%
+the @species@ Enchanter
+o @species@ Encantador
+%%%%
+the @species@ Transmuter
+o @species@ Transmutador
+%%%%
+the @species@ Arcane Marksman
+o @species@ Atirador Arcano
+%%%%
+the @species@ Warper
+o @species@ Warper
+%%%%
+the @species@ Hedge Wizard
+o @species@ Mago Amador
+%%%%
+the @species@ Conjurer
+o @species@ Conjurador
+%%%%
+the @species@ Summoner
+o @species@ Invocador
+%%%%
+the @species@ Necromancer
+o @species@ Necromante
+%%%%
+the @species@ Fire Elementalist
+o @species@ Elementalista do Fogo
+%%%%
+the @species@ Ice Elementalist
+o @species@ Elementalista do Gelo
+%%%%
+the @species@ Air Elementalist
+o @species@ Elementalista do Ar
+%%%%
+the @species@ Earth Elementalist
+o @species@ Elementalista da Terra
+%%%%
+the @species@ Venom Mage
+o @species@ Mago do Veneno
+%%%%
+the @species@ Artificer
+o @species@ Artífice
+%%%%
+the @species@ Delver
+o @species@ Delver
+%%%%
+the @species@ Wanderer
+o @species@ Andarilho
+%%%%
