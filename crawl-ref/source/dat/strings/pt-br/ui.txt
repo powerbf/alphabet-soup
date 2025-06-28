@@ -307,7 +307,7 @@ Ouro:
 # Magic changes to MP if player rotted
 %%%%
 "MP:   "
-"PM:   " 
+"PM:   "
 %%%%
 "Gold:   "
 "Ouro:   "
@@ -320,7 +320,7 @@ Ouro:
 # Armour Class = Rüstingsklasse
 %%%%
 "AC: "
-"CA: "  
+"CA: "
 %%%%
 # Evasion = Ausweichen
 %%%%
@@ -410,7 +410,7 @@ Vont
 # Stealth = Heimlichkeit
 %%%%
 "Stlth    "
-"Furtv    "  
+"Furtv    "
 %%%%
 # HP regeneration rate
 %%%%
