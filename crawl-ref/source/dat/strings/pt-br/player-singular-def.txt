@@ -151,6 +151,9 @@ o Elfo
 the God
 o Deus
 %%%%
+{f}the God
+a Deusa
+%%%%
 the Cat
 o Gato
 %%%%
@@ -162,6 +165,45 @@ o Polvo
 %%%%
 the Orc
 o Orc
+%%%%
+##############################################
+# Player genus uncapitalised
+##############################################
+%%%%
+# Barachi
+the frog
+o sapo
+%%%%
+# Deep Dwarf
+# duplicate of monster
+#the dwarf
+#o anão
+%%%%
+# Deep Elf
+# duplicate of monster
+#the elf
+#o elfo
+%%%%
+# Demigod
+the god
+o deus
+%%%%
+# Felid
+the cat
+o gato
+%%%%
+# Formicid
+the ant
+a formiga
+%%%%
+# Octopode
+the octopus
+o octópode 
+%%%%
+# Lava Orc
+# duplicate of monster
+#the orc
+#o orc
 %%%%
 ##############################################
 # Player background (jobs)
