@@ -19,7 +19,7 @@ Loading maps...
 Karten werden geladen...
 %%%%
 Loading complete, press any key to start.
-Laden fertig. Eine beliebige Taste drücken zum Starten.
+Ladevorgang abgeschlossen. Zum Starten eine beliebige Taste drücken.
 %%%%
 Hello, welcome to %s %s!
 Hallo, willkommen bei %s %s!
@@ -37,7 +37,7 @@ Choose Game Seed
 Spiel-Seed wählen
 %%%%
 Play with a chosen custom dungeon seed.
-Spielen mit einer gewählten Seed für Erzeugung des Kerkers
+Spielen mit einer gewählten Seed für die Erzeugung des Kerkers
 %%%%
 Tutorial for Dungeon Crawl
 Tutorial für Dungeon Crawl
@@ -58,7 +58,7 @@ Hard, fixed single level game mode.
 Harter, fester Single-Level-Spielmodus.
 %%%%
 Instructions
-Anleitungen
+Anleitung
 %%%%
 Help menu.
 Hilfemenü.
@@ -67,13 +67,13 @@ The Arena
 Die Arena
 %%%%
 Pit computer controlled teams versus each other!
-Computergesteuerte Teams gegeneinander antreten!
+Computergesteuerte Teams gegeneinander antreten lassen!
 %%%%
 High Scores
 Highscores
 %%%%
 View the high score list.
-Die Highscore-Liste anschauen.
+Die Highscore-Liste anzeigen.
 %%%%
 New Game
 Neues Spiel
@@ -82,7 +82,7 @@ Neues Spiel
 " (WIZ)"
 %%%%
 Enter your name:
-Gebt deinen Namen ein:
+Gib deinen Namen ein:
 %%%%
 Choices:
 Optionen:
@@ -97,16 +97,16 @@ Gespeicherte Spiele:
 "letzte Kombination schnell starten: "
 %%%%
 view rc file information and log
-Log und Informationen zur Startup-Datei anschauen
+Log und Informationen zur Startup-Datei anzeigen
 %%%%
 Errors during initialization!
 Fehler bei der Initialisierung!
 %%%%
 Press Esc to close, arrows/pgup/pgdn to scroll.
-Drücke Esc zu schließen, pfiele/pgup/pgdn zu scrollen.
+Drücke Esc zum Schließen, Pfeiltasten oder Bild auf/ab zum Scrollen.
 %%%%
 Crawl encountered errors during initialization:
-Crawl trifft Fehler bei der Initialisierung:
+Crawl hat Fehler bei der Initialisierung festgestellt:
 %%%%
 Initialization log:
 Initialisierungslog:
@@ -115,10 +115,10 @@ Initialisierungslog:
 # key names (NOTE: these are names only - you can't change the input keys with this)
 %%%%
 tab
-tab
+Tab
 %%%%
 ctrl-p
-strg-p
+Strg-P
 %%%%
 
 # "<player name> the <species> <background>"
@@ -237,13 +237,13 @@ Picks a random recommended background based on your current species choice.
 Wähle einen zufälligen vorgeschlagenen Hintergrund für deine Spezies.
 %%%%
 Shuffles through random recommended character combinations until you accept one.
-Stellt zufällige vorgeschlagene Charaktere vor
+Schlägt zufällige Charakter-Kombinationen vor, bis du eine akzeptierst.
 %%%%
 Lists the numerical skill train aptitudes for all races.
 Führt die Begabungen für Fertigkeitstraining auf.
 %%%%
 Opens the help screen.
-Öffnet die Hilfsseite.
+Öffnet die Hilfeseite.
 %%%%
 
 # species/background options - second column entries
@@ -286,7 +286,7 @@ Picks a random background.
 Wähle einen zufälligen Hintergrund.
 %%%%
 Shuffles through random character combinations until you accept one.
-Stellt zufällige Charaktere vor.
+Schlägt zufällige Charakter-Kombinationen vor, bis du eine akzeptierst.
 %%%%
 Lets you change your species choice.
 Deine Spezies-Auswahl ändern.
@@ -301,7 +301,7 @@ Lets you pick your species first.
 Wähle zuerst deine Spezies.
 %%%%
 Play a new game with your previous choice.
-Ein spiel mit deiner letzten Auswahl spielen.
+Ein neues Spiel mit deiner letzten Auswahl beginnen.
 %%%%
 # species/background - other messages
 %%%%
@@ -309,7 +309,7 @@ Incompatible species and background (%s) selected.
 Inkompatible Spezies und Hintergrund (%s) ausgewählt.
 %%%%
 Do you want to play this combination? [Y/n/q]
-Spiele diese Kombnation? [J/n/q]
+Möchtest du diese Kombnation spielen? [J/n/q]
 %%%%
 
 %%%%
@@ -390,7 +390,7 @@ Handarmbrust und Bolzen
 "Tab - "
 %%%%
 Bksp - Return to character menu
-Bksp - Zurück zu Charakter-Menü
+Backspace - Zurück zu Charakter-Menü
 %%%%
 Picks a random recommended weapon
 Wähle eine zufällige vorgeschagene Waffe
@@ -399,7 +399,7 @@ Picks a random weapon
 Wähle eine zufällige Waffe
 %%%%
 Lets you return back to Character choice menu
-Führt zurück zu Charakter-Auswahl-Menü
+Führt zurück zu Charakter-Auswahlmenü
 %%%%
 Select your old weapon
 Wähle deine letzte Waffe
@@ -423,15 +423,15 @@ That's a silly name!
 Das ist ein alberner Name!
 %%%%
 You have an existing game under this name; really overwrite? [Y/n]
-Du hast schon ein Spiel mit dieser Name; Wirklich überschreiben? [J/n]
+Du hast schon ein Spiel mit diesem Namen; Wirklich überschreiben? [J/n]
 %%%%
 # seeded games
 %%%%
 Play a game with a custom seed for version %s.
-Spiel ein Spiel mit einer spezifischen Seed für version %s.
+Beginne ein Spiel mit einer spezifischen Seed für Version %s.
 %%%%
 Choose 0 for a random seed. [Tab]/[Shift-Tab] to cycle input focus.
-Wähle 0 für eine zufällige Seed. [Tab]/[Shift-Tab] um Fokus zu verwechseln.
+Wähle 0 für eine zufällige Seed. [Tab]/[Umschalt-Tab] um Fokus zu verwechseln.
 %%%%
 "Seed: "
 "Seed: "
@@ -446,7 +446,7 @@ Wähle 0 für eine zufällige Seed. [Tab]/[Shift-Tab] um Fokus zu verwechseln.
 [d] Seed des Tages
 %%%%
 Fully pregenerate the dungeon
-Ganzen Kerker am Anfang bauen
+Kerker vollständig vorgenerieren
 %%%%
 
 # Dungeon Sprints
@@ -458,7 +458,7 @@ Sprint II: "The Violet Keep of Menkaure"
 Sprint II: "Der Violette Bergfried von Menkaure"
 %%%%
 Sprint III: "The Ten Rune Challenge"
-Sprint III: "Die Zehn-Rune-Aufgabe"
+Sprint III: "Die Zehn-Runen-Aufgabe"
 %%%%
 Sprint IV: "Fedhas' Mad Dash"
 Sprint IV: "Fedhas' Verrücktes Rennen"
@@ -479,7 +479,7 @@ Sprint IX: "|||||||||||||||||||||||||||||"
 Sprint IX: "|||||||||||||||||||||||||||||"
 %%%%
 * - Random map
-* - zufälliger Plan
+* - Zufällige Karte
 %%%%
 Picks a random sprint map
 Wähle eine zufällige Sprintkarte
@@ -494,7 +494,7 @@ You have a choice of lessons:
 Die folgende Lektionen sind wählbar:
 %%%%
 You have a choice of maps:
-Die folgende Pläne sind wählbar:
+Die folgenden Karten sind wählbar:
 %%%%
 
 # tutorials
@@ -517,7 +517,7 @@ Lektion 5: Götter und Göttliche Fähigkeiten
 # other
 %%%%
 Trunk games don't count for the tournament, you want %s. Play trunk anyway? (Y/N)
-Trunk-Spiele gelten nicht für das Turnier. Du willst veilleicht %s. Trunk trotzdem spielen? (J/N)
+Trunk-Spiele zählen nicht für das Turnier. Du willst wahrscheinlich %s. Trotzdem Trunk spielen? (J/N)
 %%%%
 
 ###############################################################
@@ -551,21 +551,21 @@ Trunk-Spiele gelten nicht für das Turnier. Du willst veilleicht %s. Trunk trotz
 "Gesund: "
 %%%%
 # Health changes to HP when a 3rd number has to be shown (player rotted)
-# Hit points = Trefferpünkte
+# Hit points = Trefferpunkte
 %%%%
 "HP: "
 "TP: "
 %%%%
 "Magic:  "
-"Mana:   "
+"Magie:   "
 %%%%
 # Magic changes to MP when a 3rd number has to be shown (MP drained)
-# Magic points = Manapunkte(?)
+# Magic points = Magiepunkte
 %%%%
 "MP: "
 "MP: "
 %%%%
-# Armour Class = Rüstingsklasse
+# Armour Class = Rüstungsklasse
 %%%%
 AC:
 RK:
@@ -580,7 +580,7 @@ AW:
 SH:
 Sch:
 %%%%
-# eXperience Level = Erfahrungsstufe(?)
+# eXperience Level = Erfahrungsstufe
 %%%%
 "XL: "
 "St: "
@@ -748,7 +748,7 @@ rFeuer
 # cold resistance
 %%%%
 rCold
-rKalt
+rKälte
 %%%%
 # negative energy resistance
 %%%%
@@ -1058,7 +1058,7 @@ Inventory
 Inventar
 %%%%
 Memorisation
-Memorieren
+Auswendiglernen
 %%%%
 Monsters
 Monster
@@ -1113,10 +1113,10 @@ Auf der Karte navigieren
 [R-Klick]
 %%%%
 [Shift + L-Click]
-[Shift + L-Klick]
+[Umschalt + L-Klick]
 %%%%
 [Shift + R-Click]
-[Shift + R-Klick]
+[Umschalt + R-Klick]
 %%%%
 [Ctrl + L-Click]
 [Strg + L-Klick]
@@ -1125,10 +1125,10 @@ Auf der Karte navigieren
 [Alt + L-Klick]
 %%%%
 [Ctrl-Shift + L-Click]
-[Strg-Shift + L-Klick]
+[Strg-Umschalt + L-Klick]
 %%%%
 [L-Click / Shift + L-Click]
-[L-Klick / Shift + L-Klick]
+[L-Klick / Umschalt + L-Klick]
 %%%%
 Display abilities
 Fähigkeiten zeigen
@@ -1146,7 +1146,7 @@ Describe
 Beschreiben
 %%%%
 Wand to zap?
-Zauberstab zu benutzen?
+Welcher Zauberstab?
 %%%%
 Your Spells
 Deine Zaubersprüche
@@ -1183,13 +1183,13 @@ Pick up items
 Gegenstände aufheben
 %%%%
 Enter shop
-Laden eintreten
+Laden betreten
 %%%%
 Pray at altar
 An Altar beten
 %%%%
 Enter gate
-Tor eintreten
+Tor betreten
 %%%%
 Use stairs
 Treppen benutzen
@@ -1210,7 +1210,7 @@ wall
 Wand
 %%%%
 feat
-feat
+Merkmal
 %%%%
 special
 speziell
@@ -1236,10 +1236,10 @@ Show next page of items
 Nächste Seite der Gegenstände anzeigen
 %%%%
 Previous page
-Vorige Seite
+Vorherige Seite
 %%%%
 Show previous page of items
-Vorige Seite der Gegenstände anzeigen
+Vorherige Seite der Gegenstände anzeigen
 %%%%
 %%%%
 # suffix used when net is holding monster
@@ -1255,7 +1255,7 @@ Aufheben
 %%%%
 # Pick up some
 Partial pick up
-Einige aufheben
+Teilweise aufheben
 %%%%
 Chop up
 Zerhacken
@@ -1265,7 +1265,7 @@ Essen
 %%%%
 # evoke a wand, magical item or polearm
 Evoke
-Aktivieren
+Evozieren
 %%%%
 # wear armour, helm, gloves, boots
 Wear
@@ -1285,7 +1285,7 @@ Abnehmen
 %%%%
 # memorise a spell
 Memorise
-Memorieren
+Auswendiglernen
 %%%%
 Read
 Lesen
@@ -1310,10 +1310,10 @@ Autoexplore
 Automatisch erkunden
 %%%%
 1 spell slot
-1 Zauberstelle
+1 Zauberplatz
 %%%%
 %d spell slots
-%d Zauberstellen
+%d Zauberplätze
 %%%%
 Display spells in carried books
 Zaubersprüche in getragene Bücher anzeigen
@@ -1325,7 +1325,7 @@ You cannot memorise this spell now.
 Du kannst diesen Zauber jetzt nicht erlernen.
 %%%%
 Browse message history
-Nachrichtenverlauf sehen
+Nachrichtenverlauf anzeigen
 %%%%
 # format string for skill training entry
 %-14s Skill %4.1f Aptitude %c%d
@@ -1367,10 +1367,10 @@ Spielerinformationen anzeigen
 ##############################################
 %%%%
 Doll Editor
-Puppenarbeiter
+Puppen-Editor
 %%%%
 Custom
-Speziell
+Benutzerdefiniert
 %%%%
 Default
 Standard
@@ -1394,7 +1394,7 @@ Current Equipment
 Aktuelle Ausrüstung
 %%%%
 Custom Doll
-Spezielle Puppe
+Benutzerdefinierte Puppe
 %%%%
 # job = background
 Job Defaults
@@ -1417,7 +1417,7 @@ Legs
 Beine
 %%%%
 Body
-Leib
+Körper
 %%%%
 LHand
 LHand
@@ -1453,7 +1453,7 @@ Change category
 Klasse ändern
 %%%%
 up/down
-oben/unter
+oben/unten
 %%%%
 Copy doll
 Puppe kopieren
@@ -1462,16 +1462,16 @@ Change doll
 Puppe ändern
 %%%%
 Shift + arrows
-Shift + Pfeile
+Umschalt + Pfeile
 %%%%
 Paste copied doll
-Einfügen
+Kopierte Puppe einfügen
 %%%%
 Change doll mode
-Modus ändern
+Puppenmodus ändern
 %%%%
 Randomise doll
-Randomisieren
+Zufällige Puppe
 %%%%
 Save menu
 Speichern
@@ -1561,7 +1561,7 @@ Target
 Ziel
 %%%%
 Progr
-Progr
+Fortschr
 %%%%
 Points
 Punkte
@@ -1606,7 +1606,7 @@ Fertigkeiten
 # "modified|reduced|enhanced|base level"
 %%%%
 modified
-modifizierte
+modifiziertes
 %%%%
 enhanced
 verbessertes
@@ -1634,7 +1634,7 @@ targets
 Ziele
 %%%%
 progress
-Progress
+Fortschritt
 %%%%
 points
 Punkte
@@ -1647,7 +1647,7 @@ neues Level
 # not sure exactly where these are used
 %%%%
 train
-trainen
+trainieren
 %%%%
 focus
 fokussieren
@@ -1666,7 +1666,7 @@ Damage
 Schaden
 %%%%
 Range
-Weite
+Reichweite
 %%%%
 Noise
 Lärm
@@ -1678,22 +1678,22 @@ Silent
 Lautlos
 %%%%
 Almost silent
-Fast Lautlos
+Fast lautlos
 %%%%
 Quiet
 Leise
 %%%%
 A bit loud
-Etwas Laut
+Etwas laut
 %%%%
 Loud
 Laut
 %%%%
 Very loud
-Sehr Laut
+Sehr laut
 %%%%
 Extremely loud
-Extrem Laut
+Extrem laut
 %%%%
 Deafening
 Betäubend
@@ -1702,7 +1702,7 @@ Betäubend
 # N/A = not applicable. Used in various columns.
 %%%%
 N/A
-N.Z.
+N/A
 %%%%
 
 # actions
@@ -1717,13 +1717,13 @@ help
 Hilfe
 %%%%
 search
-suchen
+Suche
 %%%%
 <w>Cast</w>|Describe|Hide|Show
 <w>Wirken</w>|Beschreiben|Ausblenden|Zeigen
 %%%%
 <w>Memorise</w>|Describe|Hide|Show
-<w>Memorieren</w>|Beschreiben|Ausblenden|Zeigen
+<w>Auswendiglernen</w>|Beschreiben|Ausblenden|Zeigen
 %%%%
 |<w>Describe</w>|Hide|Show
 |<w>Beschreiben</w>|Ausblenden|Zeigen
