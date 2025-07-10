@@ -26,11 +26,11 @@ kriechen
 %%%%
 # naga
 slither
-schlittern
+schlängeln
 %%%%
 # octopode
 wriggle
-schlängeln
+winden
 %%%%
 # tengu
 glide
@@ -43,11 +43,11 @@ pirschen
 %%%%
 # spell
 passwall
-wandpassen
+passieren
 %%%%
 # Dithmenos ability
 shadow step
-schattenschreiten
+schreiten
 %%%%
 rampage
 randalieren
@@ -72,7 +72,7 @@ springen
 %%%%
 # Usk ability
 line pass
-linienpassen
+passieren
 %%%%
 move
 bewegen
@@ -83,7 +83,7 @@ transfer
 %%%%
 # Wu Jian ability
 wall jump
-wandspringen
+springen
 %%%%
 
 # These used in "Could not %s" (travel.cc). Some also used as commands in find menu.
@@ -126,11 +126,11 @@ kriechst
 %%%%
 # naga
 {verb-du}slither
-schlitterst
+schlängelst
 %%%%
 # octopode
 {verb-du}wriggle
-schlängelst
+windest
 %%%%
 # tengu
 {verb-du}glide
@@ -138,13 +138,13 @@ gleitest
 %%%%
 # vine stalker
 {verb-du}stalk
-pirschest
+pirschst
 %%%%
 {verb-du}passwall
-wandpasst
+passierst
 %%%%
 {verb-du}shadow step
-schattenschreitest
+schreitest
 %%%%
 {verb-du}rampage
 randalierst
@@ -164,7 +164,7 @@ beißen
 %%%%
 # not actually used (" at" is always stripped)
 release spores at
-Sporen freisetzen an
+Sporen freisetzen auf
 %%%%
 release spores
 Sporen freisetzen
@@ -173,7 +173,7 @@ touch
 berühren
 %%%%
 engulf
-verschlingen
+einhüllen
 %%%%
 peck
 picken
@@ -182,10 +182,10 @@ headbutt
 Kopfstöße ausführen
 %%%%
 punch
-fausten
+boxen
 %%%%
 kick
-kicken
+treten
 %%%%
 tentacle-slap
 mit den Tentakeln schlagen
@@ -194,7 +194,7 @@ tail-slap
 mit dem Schwanz schlagen
 %%%%
 gore
-durchstechen
+aufspießen
 %%%%
 constrict
 umschlingen
@@ -207,16 +207,16 @@ mit dem Schwanz schlagen
 %%%%
 # not actually used (" on" is always stripped)
 pounce on
-herfallen über
+anspringen
 %%%%
 pounce
-herfallen
+anspringen
 %%%%
 hit, bite, peck, or gore
-schlagen, beißen, picken, oder durchstechen
+schlagen, beißen, picken, oder aufspießen
 %%%%
 hit or gore
-schlagen oder durchstechen
+schlagen oder aufspießen
 %%%%
 
 #############################################################
@@ -245,7 +245,7 @@ Hagelsturm wirken
 beschädigen
 %%%%
 irradiate
-bestrahlen
+verstrahlen
 %%%%
 make a polar vortex
 einen Polarwirbel erschaffen
