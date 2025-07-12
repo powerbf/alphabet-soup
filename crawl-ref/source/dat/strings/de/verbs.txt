@@ -30,7 +30,7 @@ schlängeln
 %%%%
 # octopode
 wriggle
-winden
+kriechen
 %%%%
 # tengu
 glide
@@ -130,7 +130,7 @@ schlängelst
 %%%%
 # octopode
 {verb-du}wriggle
-windest
+kriechst
 %%%%
 # tengu
 {verb-du}glide
