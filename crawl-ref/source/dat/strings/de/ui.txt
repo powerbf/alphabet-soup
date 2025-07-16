@@ -237,7 +237,7 @@ Picks a random recommended background based on your current species choice.
 Wähle einen zufälligen vorgeschlagenen Hintergrund für deine Spezies.
 %%%%
 Shuffles through random recommended character combinations until you accept one.
-Schlägt zufällige Charakter-Kombinationen vor, bis du eine akzeptierst.
+Schlägt zufällige empfohlene Charakter-Kombinationen vor, bis du eine akzeptierst.
 %%%%
 Lists the numerical skill train aptitudes for all races.
 Führt die Begabungen für Fertigkeitstraining auf.
@@ -309,7 +309,7 @@ Incompatible species and background (%s) selected.
 Inkompatible Spezies und Hintergrund (%s) ausgewählt.
 %%%%
 Do you want to play this combination? [Y/n/q]
-Möchtest du diese Kombnation spielen? [J/n/q]
+Möchtest du diese Kombination spielen? [J/n/q]
 %%%%
 
 %%%%
@@ -1146,7 +1146,7 @@ Describe
 Beschreiben
 %%%%
 Wand to zap?
-Welcher Zauberstab?
+Welchen Zauberstab?
 %%%%
 Your Spells
 Deine Zaubersprüche
