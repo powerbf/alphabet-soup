@@ -420,6 +420,21 @@ int main()
     msg = localise("... with %s", "a blast of cleansing flame");
     show_result(msg, "... mit einer reinigenden Flammenwolke");
 
+    // Zin recitations
+
+    params = {
+        {"sinners", "bastard children of Xom"},
+        {"the_sinners", "the bastard children of Xom"},
+        {"sin_adj", "anarchic"}
+    };
+    msg = localise("In a great set of silver scales are weighed the...", params);
+    show_result(msg, "In einer großen silbernen Waage werden die Seelen...");
+    msg = localise("...souls of the @sinners@, and with their @sin_adj@...", params);
+    show_result(msg, "...der Bastardkinder von Xom gewogen. Und weil sie anarchisch...");
+    msg = localise("...ways, the balance hath tipped against them!", params);
+    show_result(msg, "...waren, hat sich das Gleichgewicht gegen sie gewandt!");
+
+
     you.position = coord_def(10, 10);
     env.grid.init(DNGN_FLOOR);
     env.pgrid.init(FPROP_NONE);
