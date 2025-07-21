@@ -420,6 +420,8 @@ int main()
     msg = localise("... with %s", "a blast of cleansing flame");
     show_result(msg, "... mit einer reinigenden Flammenwolke");
 
+    cout << endl;
+
     // Zin recitations
 
     params = {
@@ -433,6 +435,7 @@ int main()
     show_result(msg, "...der Bastardkinder von Xom gewogen. Und weil sie anarchisch...");
     msg = localise("...ways, the balance hath tipped against them!", params);
     show_result(msg, "...waren, hat sich das Gleichgewicht gegen sie gewandt!");
+    cout << endl;
 
     params = {
         {"sinners", "fetid masses"},
@@ -447,6 +450,25 @@ int main()
     show_result(msg, "...zählt zu den stinkenden Massen? Kommt vor mich, dass...");
     msg = localise("...I may @smite@ you now for your @sin_noun@!'", params);
     show_result(msg, "...ich euch für die Unsauberkeit verurteilen kann!'");
+    cout << endl;
+
+    params = {
+        {"sinners", "agents of filth"},
+        {"the_sinners", "the agents of filth"},
+        {"smite", "rebuke"},
+        {"smitten", "rebuked"},
+        {"sin_noun", "contamination"},
+        {"the_sin", "the contamination"},
+    };
+    msg = localise("What of the @sinners@? @Smitten@ for their...", params);
+    show_result(msg, "Und was ist mit den Agenten des Drecks? Gerügt für...");
+    msg = localise("...@sin_noun@ they shall be! Zin will @smite@ them again...", params);
+    show_result(msg, "...die Kontamination sollen sie sein! Zin wird sie wieder...");
+    msg = localise("...and again, and again!", params);
+    show_result(msg, "...und wieder und wieder rügen!");
+    cout << endl;
+
+    // test monster speak strings
 
     you.position = coord_def(10, 10);
     env.grid.init(DNGN_FLOOR);

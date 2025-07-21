@@ -2723,7 +2723,7 @@ int convert_input_to_english(const string& english_chars, int input)
 /**
  * @brief Get the name of the first @foo@-style parameter at or after pos
  */
-static string _get_first_param_name(const string& s, size_t pos) 
+static string _get_first_param_name(const string& s, size_t pos)
 {
     size_t start = s.find('@', pos);
     if (start == string::npos)
@@ -2813,8 +2813,11 @@ string localise(const string& text_in, const map<string, string>& params_in, boo
 
     // check if there's a translation for the completed English string
     string result = xlate(english, false);
-    if (!result.empty())
+    if (!result.empty() && result.find('@') == string::npos)
+    {
+        TRACE("matched full English: english='%s', result='%s'", english.c_str(), result.c_str());
         return result;
+    }
 
     _context = "";
     string text = text_in;
