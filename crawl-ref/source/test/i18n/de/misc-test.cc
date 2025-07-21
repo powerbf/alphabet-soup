@@ -434,6 +434,19 @@ int main()
     msg = localise("...ways, the balance hath tipped against them!", params);
     show_result(msg, "...waren, hat sich das Gleichgewicht gegen sie gewandt!");
 
+    params = {
+        {"sinners", "fetid masses"},
+        {"the_sinners", "the fetid masses"},
+        {"smite", "condemn"},
+        {"sin_noun", "uncleanliness"},
+        {"the_sin", "the uncleanliness"},
+    };
+    msg = localise("And Zin said to all in attendance, 'Which of ye...", params);
+    show_result(msg, "Und Zin sagte zu allen Anwesenden: 'Wer von euch...");
+    msg = localise("...number among the @sinners@? Come before me, that...", params);
+    show_result(msg, "...zählt zu den stinkenden Massen? Kommt vor mich, dass...");
+    msg = localise("...I may @smite@ you now for your @sin_noun@!'", params);
+    show_result(msg, "...ich euch für die Unsauberkeit verurteilen kann!'");
 
     you.position = coord_def(10, 10);
     env.grid.init(DNGN_FLOOR);

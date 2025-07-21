@@ -2721,6 +2721,23 @@ int convert_input_to_english(const string& english_chars, int input)
 }
 
 /**
+ * @brief Get the name of the first @foo@-style parameter at or after pos
+ */
+static string _get_first_param_name(const string& s, size_t pos) 
+{
+    size_t start = s.find('@', pos);
+    if (start == string::npos)
+        return "";
+
+    start++;
+    size_t end = s.find('@', start);
+    if (end == string::npos)
+        return "";
+
+    return s.substr(start, end - start);
+}
+
+/**
  * @brief Fix some stuff that only works in English
  */
 static void _fix_parameters(string& text, map<string, string>& params)
@@ -2744,21 +2761,24 @@ static void _fix_parameters(string& text, map<string, string>& params)
 
         // Translation of "your" may vary depending on grammatical gender/case,
         // so we need to make the parameter @your_foo@ instead of your @foo@.
+        size_t pos = 0;
         while (true)
         {
-            size_t pos = text.find("your @");
-            if (pos == string::npos)
-                pos = text.find("Your @");
+            pos = text.find("our @", pos);
             if (pos == string::npos)
                 break;
-
-            string your = (text[pos] == 'Y' ? "Your" : "your");
-
-            size_t start = pos + strlen("your @");
-            size_t end = text.find('@', start);
-            if (end != string::npos)
+            if (pos == 0 || (text[pos-1] != 'Y' && text[pos-1] != 'y'))
             {
-                string param_name = text.substr(start, end-start);
+                // not "[Yy]our @", so skip
+                pos += strlen("our @");
+                continue;
+            }
+            pos--; // back up to the 'Y' or 'y'
+
+            string param_name = _get_first_param_name(text, pos);
+            if (!param_name.empty())
+            {
+                string your = (text[pos] == 'Y' ? "Your" : "your");
                 auto iter = params.find(param_name);
                 if (iter != params.end()) {
                     string param_value = iter->second;
@@ -2769,8 +2789,11 @@ static void _fix_parameters(string& text, map<string, string>& params)
                 }
             }
 
-            text = replace_first(text, your + " @", "@" + your + "_");
+            pos += strlen("your @") + param_name.length();
         }
+
+        text = replace_all(text, "your @hand", "@your_hand");
+        text = replace_all(text, "Your @hand", "@Your_hand");
     }
 }
 
@@ -2800,6 +2823,7 @@ string localise(const string& text_in, const map<string, string>& params_in, boo
     {
         _fix_parameters(text, params);
         text  = xlate(text, true);
+        TRACE("after xlate: text='%s'", text.c_str());
     }
 
     size_t at = 0;
