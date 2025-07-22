@@ -2720,21 +2720,49 @@ int convert_input_to_english(const string& english_chars, int input)
     return input;
 }
 
-/**
- * @brief Get the name of the first @foo@-style parameter at or after pos
+/*
+ * Resolve named parameter in a "smart" way.
+ *
+ * Handles the case where a determiner (e.g. "the") is outside the parameter
+ * in English, but must be moved into the parameter for the target language
+ * because the determiner can vary with noun gender, etc.
  */
-static string _get_first_param_name(const string& s, size_t pos)
+static string _resolve_named_parameter(const map<string, string>& params, const string& name)
 {
-    size_t start = s.find('@', pos);
-    if (start == string::npos)
+    if (name.empty())
         return "";
 
-    start++;
-    size_t end = s.find('@', start);
-    if (end == string::npos)
-        return "";
+    auto iter = params.find(name);
+    if (iter != params.end())
+        return iter->second;
 
-    return s.substr(start, end - start);
+    if (isaupper(name[0]))
+        return _resolve_named_parameter(params, lowercase_string(name));
+
+    static const string prefixes[] = {"the", "a", "your"};
+    for (const string& prefix: prefixes)
+    {
+        if (starts_with(name, prefix + "_"))
+        {
+            string name_plain = name.substr(prefix.length() + 1);
+            const string* value = map_find(params, name_plain);
+            // special case
+            if (!value && name_plain == "sin")
+                value = map_find(params, "sin_noun");
+            if (value)
+            {
+                if (value->empty())
+                    return "";
+                else if (prefix == "a")
+                    return article_a(*value);
+                else
+                    return prefix + " " + *value;
+            }
+        }
+    }
+
+    // not found (note: can't return empty string because that could be a valid value)
+    return "NOT_FOUND";
 }
 
 /**
@@ -2761,37 +2789,6 @@ static void _fix_parameters(string& text, map<string, string>& params)
 
         // Translation of "your" may vary depending on grammatical gender/case,
         // so we need to make the parameter @your_foo@ instead of your @foo@.
-        size_t pos = 0;
-        while (true)
-        {
-            pos = text.find("our @", pos);
-            if (pos == string::npos)
-                break;
-            if (pos == 0 || (text[pos-1] != 'Y' && text[pos-1] != 'y'))
-            {
-                // not "[Yy]our @", so skip
-                pos += strlen("our @");
-                continue;
-            }
-            pos--; // back up to the 'Y' or 'y'
-
-            string param_name = _get_first_param_name(text, pos);
-            if (!param_name.empty())
-            {
-                string your = (text[pos] == 'Y' ? "Your" : "your");
-                auto iter = params.find(param_name);
-                if (iter != params.end()) {
-                    string param_value = iter->second;
-
-                    param_name = your + "_" + param_name;
-                    param_value = your + " " + param_value;
-                    params[param_name] = param_value;
-                }
-            }
-
-            pos += strlen("your @") + param_name.length();
-        }
-
         text = replace_all(text, "your @hand", "@your_hand");
         text = replace_all(text, "Your @hand", "@Your_hand");
     }
@@ -2853,22 +2850,20 @@ string localise(const string& text_in, const map<string, string>& params_in, boo
                 break;
 
             const string key = text.substr(at + 1, end - at - 1);
-            const string* value_en = map_find(params, key);
-            if (!value_en)
-                value_en = map_find(params, lowercase_string(key));
+            const string value_en = _resolve_named_parameter(params, key);
 
-            if (value_en)
+            if (value_en != "NOT_FOUND")
             {
                 // translate value and insert
                 string value;
                 if (key == "player_name")
                 {
                     // don't try to translate player name
-                    value = *value_en;
+                    value = value_en;
                 }
                 else
                 {
-                    value = _localise_string(_context, *value_en);
+                    value = _localise_string(_context, value_en);
                     // allow nesting, but avoid infinite loops from circular refs
                     if (nested_calls < 5 && value.find("@") != string::npos)
                     {

@@ -420,13 +420,27 @@ int main()
     msg = localise("... with %s", "a blast of cleansing flame");
     show_result(msg, "... mit einer reinigenden Flammenwolke");
 
+    params = {
+        {"hand", "hand"},
+        {"hands", "hands"},
+    };
+    msg = localise("Sparks fly from your @hands@", params);
+    show_result(msg, "Funken fliegen aus deinen Händen");
+
+    // force singular
+    params = {
+        {"hand", "paw"},
+        {"hands", "paw"},
+    };
+    msg = localise("Sparks fly from your @hands@", params);
+    show_result(msg, "Funken fliegen aus deiner Pfote");
+
     cout << endl;
 
     // Zin recitations
 
     params = {
         {"sinners", "bastard children of Xom"},
-        {"the_sinners", "the bastard children of Xom"},
         {"sin_adj", "anarchic"}
     };
     msg = localise("In a great set of silver scales are weighed the...", params);
@@ -439,10 +453,8 @@ int main()
 
     params = {
         {"sinners", "fetid masses"},
-        {"the_sinners", "the fetid masses"},
         {"smite", "condemn"},
         {"sin_noun", "uncleanliness"},
-        {"the_sin", "the uncleanliness"},
     };
     msg = localise("And Zin said to all in attendance, 'Which of ye...", params);
     show_result(msg, "Und Zin sagte zu allen Anwesenden: 'Wer von euch...");
@@ -454,11 +466,9 @@ int main()
 
     params = {
         {"sinners", "agents of filth"},
-        {"the_sinners", "the agents of filth"},
         {"smite", "rebuke"},
         {"smitten", "rebuked"},
         {"sin_noun", "contamination"},
-        {"the_sin", "the contamination"},
     };
     msg = localise("What of the @sinners@? @Smitten@ for their...", params);
     show_result(msg, "Und was ist mit den Agenten des Drecks? Gerügt für...");

@@ -602,11 +602,6 @@ string zin_recite_text(const int seed, const int prayertype, int step)
 
         { "smite",   smite_text[smite_seed][0] },
         { "smitten", smite_text[smite_seed][1] },
-
-        // i18n: Languages with gendered nouns may need article attached
-        { "the_sinners", string("the ") + sinner_text[sinner_seed] },
-        { "the_sin", string("the ") + sin_text[sin_seed][1] },
-        { "the_virtue", string("the ") + virtue_text[virtue_seed][1] },
     };
     // @noloc section end
 
