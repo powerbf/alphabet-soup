@@ -156,6 +156,373 @@ Arena
 Unknown
 Desconhecido
 %%%%
+##############################
+# New Game Menu
+##############################
+%%%%
+"Welcome. "
+"Bem-vindo. "
+%%%%
+"Welcome, %s. "
+"Bem-vindo, %s. "
+%%%%
+# "You are a <species>." or "You are a <background>."
+%%%%
+You are a %s.
+Você é um %s.
+%%%%
+{f}You are a %s.
+Você é uma %s.
+%%%%
+You are an %s.
+Você é um %s.
+%%%%%
+{f}You are an %s.
+Você é uma %s.
+%%%%
+# "You are a <species> <background>."
+%%%%
+You are a %s %s.
+Você é um %s %s.
+%%%%
+{f}You are a %s %s.
+Você é uma %s %s.
+%%%%
+You are an %s %s.
+Você é um %s %s.
+%%%%
+{f}You are an %s %s.
+Você é uma %s %s.
+%%%%
+Please select your species.
+Por favor selecione a sua espécie.
+%%%%
+Please select your background.
+Por favor selecione a sua classe.
+%%%%
+# species groupings
+%%%%
+Simple
+Fácil
+%%%%
+Intermediate
+Intermediário
+%%%%
+Advanced
+Avançado
+%%%%
+# background groupings
+%%%%
+Warrior
+Guerreiro
+%%%%
+Mage
+Mago
+%%%%
+Warrior-mage
+Guerreiro-mago
+%%%%
+Zealot
+Fanático
+%%%%
+Adventurer
+Aventureiro
+%%%%
+# species/background options - first column entries
+%%%%
++ - Recommended species
++ - Espécies recomendadas
+%%%%
++ - Recommended background
++ - Classes recomendadas
+%%%%
+"# - Recommended character"
+"# - Personagem recomendado"
+%%%%
+% - List aptitudes
+% - Lista de aptidões
+%%%%
+? - Help
+? - Ajuda
+%%%%
+# species/background options - first column desciptions
+%%%%
+Picks a random recommended species based on your current background choice.
+Escolhe uma espécie recomendada aleatória com base na sua escolha de classe atual.
+%%%%
+Picks a random recommended background based on your current species choice.
+Escolhe uma classe recomendada aleatória com base na sua escolha de espécie atual.
+%%%%
+Shuffles through random recommended character combinations until you accept one.
+Baralha combinações aleatórias de personagens recomendadas até aceitares uma.
+%%%%
+Lists the numerical skill train aptitudes for all races.
+Lista as aptidões numéricas de todas as raças.
+%%%%
+Opens the help screen.
+Abre a tela de ajuda.
+%%%%
+# species/background options - second column entries
+# prefix with spaces where needed to make the hyphens line up
+%%%%
+"    * - Random species"
+"    * - Espécies aleatórias"
+%%%%
+"    * - Random background"
+"    * - Classe aleatória"
+%%%%
+"    ! - Random character"
+"    ! - Personagem aleatório"
+%%%%
+Space - Change species
+Espaço - Trocar de espécie
+%%%%
+Space - Change background
+Espaço - Trocar de classe
+%%%%
+Space - Pick background first
+Espaço - Escolher classe primeiro
+%%%%
+Space - Pick species first
+Espaço - Escolher espécie primeiro
+%%%%
+# this one will have the last species + background appended
+%%%%
+"  Tab - "
+"  Tab - "
+%%%%
+# species/background options - second column descriptions
+%%%%
+Picks a random species.
+Escolhe uma espécie aleatória.
+%%%%
+Picks a random background.
+Escolhe uma classe aleatória.
+%%%%
+Shuffles through random character combinations until you accept one.
+Baralha combinações aleatórias de personagens até aceitares uma.
+%%%%
+Lets you change your species choice.
+Permite-lhe alterar a sua escolha de espécie.
+%%%%
+Lets you change your background choice.
+Permite-lhe alterar a sua escolha de classe.
+%%%%
+Lets you pick your background first.
+Permite-lhe escolher primeiro a sua classe.
+%%%%
+Lets you pick your species first.
+Permite-lhe escolher primeiro a sua espécie.
+%%%%
+Play a new game with your previous choice.
+Jogar um novo jogo com a sua escolha anterior.
+%%%%
+# species/background - other messages
+%%%%
+Incompatible species and background (%s) selected.
+Espécies incompatíveis e classe (%s) selecionada.
+%%%%
+Do you want to play this combination? [Y/n/q]
+Você quer jogar com essa combinação? [Y/n/q]
+%%%%
+
+%%%%
+Recommended character
+Personagem recomendado
+%%%%
+Random character
+Personagem aleatório
+%%%%
+# random <species/background>
+# most are masculine
+%%%%
+"Random "
+"Aleatório "
+%%%%
+"Recommended "
+"Recomendado "
+%%%%
+Random
+Aleatório
+%%%%
+Recommended
+Recomendado
+%%%%
+# but a few aren't
+%%%%
+Random Mummy
+Múmia aleatória
+%%%%
+Random Naga
+Naga aleatória
+%%%%
+Recommended Mummy
+Múmia recomendada
+%%%%
+Recommended Naga
+Naga recomendada
+%%%%
+# weapon selection
+%%%%
+You have a choice of weapons.
+Tens uma escolha de armas.
+%%%%
+# apt = aptitude
+%%%%
+(%+d apt)
+(%+d apt)
+%%%%
+large rocks and throwing nets
+pedras grandes e redes de arremesso
+%%%%
+boomerangs and throwing nets
+bumerangues e redes de arremesso
+%%%%
+javelins and throwing nets
+dardos e redes de arremesso
+%%%%
+hunting sling and sling bullets
+funda de caça e balas de funda
+%%%%
+shortbow and arrows
+arco curto e flechas
+%%%%
+hand crossbow and bolts
+besta de mão e ferrolhos
+%%%%
++ - Recommended random choice
++ - Escolha aleatória recomendada
+%%%%
+* - Random weapon
++ - Arma aleatória
+%%%%
+# "Tab - <last combo>"
+%%%%
+"Tab - "
+"Tab - último combo"
+%%%%
+Bksp - Return to character menu
+Bksp - Retornar ao menu de personagens
+%%%%
+Picks a random recommended weapon
+Escolhe uma arma aleatória recomendada
+%%%%
+Picks a random weapon
+Escolhe uma arma aleatória
+%%%%
+Lets you return back to Character choice menu
+Permite-lhe voltar ao menu de Seleção de Personagens
+%%%%
+Select your old weapon
+Selecionar sua arma passada
+%%%%
+# name entry
+%%%%
+What is your name today?
+Qual é o seu nome hoje?
+%%%%
+Esc - Quit
+Esc - Sair
+%%%%
+* - Random name
+* - Nome aleatório
+%%%%
+Enter - Begin!
+Enter - Começar!
+%%%%
+That's a silly name!
+Esse é um nome parvo!
+%%%%
+You have an existing game under this name; really overwrite? [Y/n]
+Tem uma partida existente com este nome; substitui-lha mesmo assim? [Y/n]
+%%%%
+# seeded games
+%%%%
+Play a game with a custom seed for version %s.
+Jogue uma par%da com uma seed customizada para essa versão %s.
+%%%%
+Choose 0 for a random seed. [Tab]/[Shift-Tab] to cycle input focus.
+Escolha 0 para uma seed aleatória. [Tab]/[Shift-Tab] para mudar o enfoque da seleção.
+%%%%
+"Seed: "
+"Seed: "
+%%%%
+[-] Clear
+[-] Limpar
+%%%%
+[Enter] Begin!
+[Enter] Começar!
+%%%%
+[d] Today's daily seed
+[d] Seed diária de hoje
+%%%%
+Fully pregenerate the dungeon
+Pré-gerar totalmente o calabouço
+%%%%
+# Dungeon Sprints
+%%%%
+Sprint I: "Red Sonja"
+Sprint I: "Sonja, a Vermelha"
+%%%%
+Sprint II: "The Violet Keep of Menkaure"
+Sprint II: "A Guarda Violeta de Menkaure"
+%%%%
+Sprint III: "The Ten Rune Challenge"
+Sprint III: "O Desafio das Dez Runas"
+%%%%
+Sprint IV: "Fedhas' Mad Dash"
+Sprint IV: "A Disparada de Fedhas"
+%%%%
+Sprint V: "Ziggurat Sprint"
+Sprint V: "Corrida do Zigurate"
+%%%%
+Sprint VI: "Thunderdome"
+Sprint VI: "Domo de Trovões"
+%%%%
+Sprint VII: "The Pits"
+Sprint VII: "As Profundezas"
+%%%%
+Sprint VIII: "Arena of Blood"
+Sprint VIII: "Arena de Sangue"
+%%%%
+Sprint IX: "|||||||||||||||||||||||||||||"
+Sprint IX: "|||||||||||||||||||||||||||||"
+%%%%
+* - Random map
+* - Mapa aleatório
+%%%%
+Picks a random sprint map
+Escolhe um sprint aleatório
+%%%%
+Select your previous sprint map and character
+Seleciona seu sprint e personagem prévio
+%%%%
+Custom seed:
+Seed customizada:
+%%%%
+You have a choice of lessons:
+Você tem uma seleção de lições:
+%%%%
+You have a choice of maps:
+Você tem uma escolha de mapas:
+%%%%
+# tutorials
+%%%%
+Lesson 1: Movement and Exploration
+Lição 1: Movimento e Exploração
+%%%%
+Lesson 2: Monsters and Combat
+Lição 2: Monstros e Combate
+%%%%
+Lesson 3: Items and Inventory
+Lição 3: Itens e Inventório
+%%%%
+Lesson 4: Magic and Spellcasting
+Lição 4: Magia e Lançamentos de Feitiços
+%%%%
+Lesson 5: Gods and Divine Abilities
+Lição 5: Deuses e Habilidades Divinas
+%%%%
 # other
 %%%%
 Trunk games don't count for the tournament, you want %s. Play trunk anyway? (Y/N)
