@@ -2170,6 +2170,13 @@ static string _localise_string(const string context, const string& value)
     if (!result.empty())
         return _shift_context(result);
 
+    if (starts_with(value, " of "))
+    {
+        // this is a suffix
+        result = _localise_suffix(value);
+        return _discard_context(result);
+    }
+
     // do the gross stuff
     result = _reverse_engineer_parameterised_string(value);
     if (result != "")
