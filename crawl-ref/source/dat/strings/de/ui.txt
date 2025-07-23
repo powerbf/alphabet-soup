@@ -133,6 +133,12 @@ Strg-P
 %s der %s
 %%%%
 
+# a level <level> <species> <background>
+%%%%
+, a level %d %s %s
+, Level %d %s %s
+%%%%
+
 # Game types used in savegame descriptions
 %%%%
 Seeded

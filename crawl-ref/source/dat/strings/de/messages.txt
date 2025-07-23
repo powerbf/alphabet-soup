@@ -11726,9 +11726,6 @@ Du keuchst erleichtert, als Luft wieder deine Lunge erreicht.
 Your lungs strain for air!
 Deine Lunge ringt nach Luft!
 %%%%
-, a level %d %s %s
-, Level %d %s %s
-%%%%
 You resist the pull of the Abyss.
 Du widerstehst dem Sog des Abgrunds.
 %%%%

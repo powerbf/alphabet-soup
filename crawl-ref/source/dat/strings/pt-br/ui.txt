@@ -120,18 +120,27 @@ tab
 ctrl-p
 ctrl-p
 %%%%
+
 # "<player name> the <species> <background>"
-# "<nome do jogador> o <espécie> <antecedente>"
+# "<nome do jogador> o <antecedente> <espécie>"
 %%%%
 %s the %s %s
-%s o %s %s
+%1$s o %3$s %2$s
 %%%%
+
 # "<player name> the <combo>"
 # "<nome do jogador> o <combo>"
 %%%%
 %s the %s
 %s o %s
 %%%%
+
+# a level <level> <species> <background>
+%%%%
+, a level %d %s %s
+, %3$s %2$s de nível %1$d
+%%%%
+
 # Game types used in savegame descriptions
 # Tipos de jogo usados em descrições de savegames
 %%%%

@@ -133,6 +133,12 @@ ctrl-p
 %s le %s
 %%%%
 
+# a level <level> <species> <background>
+%%%%
+, a level %d %s %s
+, %3$s %2$s de niveau %1$d
+%%%%
+
 # Game types used in savegame descriptions
 %%%%
 Seeded
