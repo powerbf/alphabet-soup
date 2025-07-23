@@ -2746,9 +2746,6 @@ static string _resolve_named_parameter(const map<string, string>& params, const 
         {
             string name_plain = name.substr(prefix.length() + 1);
             const string* value = map_find(params, name_plain);
-            // special case
-            if (!value && name_plain == "sin")
-                value = map_find(params, "sin_noun");
             if (value)
             {
                 if (value->empty())
