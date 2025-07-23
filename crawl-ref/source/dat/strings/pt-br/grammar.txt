@@ -21,7 +21,7 @@
 # the previous expression (not the original string).
 #
 # Notes:
-#  - We have choses to make the masculine singular form the default for adjectives
+#  - We have chosen to make the masculine singular form the default for adjectives
 #
 ###############################################################################
 
@@ -47,14 +47,18 @@ KEY:/^the /the %s/
 KEY:/pair of (?!quick blades)/pair of %s/
 
 # Portuguese can have adjective before or after the noun
-/^(o|a|os|as) (.*)/$1 %s$2%s/
+/^(d?o) (.*)/$1 %s$2%s/
+/^(d?a) (.*)/$1 {f}%s$2%s/
+/^(d?os) (.*)/$1 {mpl}%s$2%s/
+/^(d?as) (.*)/$1 {fpl}%s$2%s/
 
 # possessive
-/^(de|do|da|dos|das) (.*)/$1 %s$2%s/
+/^de (.*)/de %s$2%s/
+/^\{f\}de (.*)/{f}de %s$2%s/
 
 # "pair of boots/gloves" (but not quick blades) needs a second adjective placeholder
-/paire de bottes/paire de {fpl}%sbottes%s/
-/paire de gantelets/paire de {mpl}%sgantelets%s/
+/par de botas/par de {fpl}%sbotes%s/
+/par de luvas/par de {fpl}%sluvas%s/
 %%%%
 
 #############

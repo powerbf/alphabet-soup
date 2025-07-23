@@ -3,7 +3,6 @@
 # Translations - gods
 #
 ###############################################################################
-%%%%
 
 ########################
 # God names - nominative
@@ -361,86 +360,6 @@ the Shining One's
 
 %%%%
 the Wu Jian Council's
-
-%%%%
-
-########################
-# God names - accusative
-########################
-%%%%
-{acc}the Shining One
-
-%%%%
-{acc}the Wu Jian Council
-
-%%%%
-{acc}an unknown god
-
-%%%%
-{acc}a god
-
-%%%%
-{acc}my god
-
-%%%%
-{acc}your god
-
-%%%%
-
-# We use "a god" instead of "its/their god"
-# see note in nominative section
-%%%%
-{acc}his god
-
-%%%%
-{acc}her god
-
-%%%%
-{acc}its god
-
-%%%%
-# note: singular "their"
-{acc}their god
-
-%%%%
-
-########################
-# God names - dative
-########################
-%%%%
-{dat}the Shining One
-
-%%%%
-{dat}the Wu Jian Council
-
-%%%%
-{dat}an unknown god
-
-%%%%
-{dat}a god
-
-%%%%
-{dat}my god
-
-%%%%
-{dat}your god
-
-%%%%
-
-# We use "a god" instead of "its/their god"
-# see note in nominative section
-%%%%
-{dat}his god
-
-%%%%
-{dat}her god
-
-%%%%
-{dat}its god
-
-%%%%
-# note: singular "their"
-{dat}their god
 
 %%%%
 

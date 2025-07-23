@@ -2170,6 +2170,13 @@ static string _localise_string(const string context, const string& value)
     if (!result.empty())
         return _shift_context(result);
 
+    if (starts_with(value, " of "))
+    {
+        // this is a suffix
+        result = _localise_suffix(value);
+        return _discard_context(result);
+    }
+
     // do the gross stuff
     result = _reverse_engineer_parameterised_string(value);
     if (result != "")
@@ -2720,6 +2727,48 @@ int convert_input_to_english(const string& english_chars, int input)
     return input;
 }
 
+/*
+ * Resolve named parameter in a "smart" way.
+ *
+ * Handles the case where a determiner (e.g. "the") is outside the parameter
+ * in English, but must be moved into the parameter for the target language
+ * because the determiner can vary with noun gender, etc.
+ */
+static string _resolve_named_parameter(const map<string, string>& params, const string& name)
+{
+    if (name.empty())
+        return "";
+
+    auto iter = params.find(name);
+    if (iter != params.end())
+        return iter->second;
+
+    if (isaupper(name[0]))
+        return _resolve_named_parameter(params, lowercase_string(name));
+
+    static const string prefixes[] = {"the", "a", "your"};
+    for (const string& prefix: prefixes)
+    {
+        if (starts_with(name, prefix + "_"))
+        {
+            string name_plain = name.substr(prefix.length() + 1);
+            const string* value = map_find(params, name_plain);
+            if (value)
+            {
+                if (value->empty())
+                    return "";
+                else if (prefix == "a")
+                    return article_a(*value);
+                else
+                    return prefix + " " + *value;
+            }
+        }
+    }
+
+    // not found (note: can't return empty string because that could be a valid value)
+    return "NOT_FOUND";
+}
+
 /**
  * @brief Fix some stuff that only works in English
  */
@@ -2744,33 +2793,8 @@ static void _fix_parameters(string& text, map<string, string>& params)
 
         // Translation of "your" may vary depending on grammatical gender/case,
         // so we need to make the parameter @your_foo@ instead of your @foo@.
-        while (true)
-        {
-            size_t pos = text.find("your @");
-            if (pos == string::npos)
-                pos = text.find("Your @");
-            if (pos == string::npos)
-                break;
-
-            string your = (text[pos] == 'Y' ? "Your" : "your");
-
-            size_t start = pos + strlen("your @");
-            size_t end = text.find('@', start);
-            if (end != string::npos)
-            {
-                string param_name = text.substr(start, end-start);
-                auto iter = params.find(param_name);
-                if (iter != params.end()) {
-                    string param_value = iter->second;
-
-                    param_name = your + "_" + param_name;
-                    param_value = your + " " + param_value;
-                    params[param_name] = param_value;
-                }
-            }
-
-            text = replace_first(text, your + " @", "@" + your + "_");
-        }
+        text = replace_all(text, "your @hand", "@your_hand");
+        text = replace_all(text, "Your @hand", "@Your_hand");
     }
 }
 
@@ -2790,8 +2814,11 @@ string localise(const string& text_in, const map<string, string>& params_in, boo
 
     // check if there's a translation for the completed English string
     string result = xlate(english, false);
-    if (!result.empty())
+    if (!result.empty() && result.find('@') == string::npos)
+    {
+        TRACE("matched full English: english='%s', result='%s'", english.c_str(), result.c_str());
         return result;
+    }
 
     _context = "";
     string text = text_in;
@@ -2800,6 +2827,7 @@ string localise(const string& text_in, const map<string, string>& params_in, boo
     {
         _fix_parameters(text, params);
         text  = xlate(text, true);
+        TRACE("after xlate: text='%s'", text.c_str());
     }
 
     size_t at = 0;
@@ -2826,22 +2854,20 @@ string localise(const string& text_in, const map<string, string>& params_in, boo
                 break;
 
             const string key = text.substr(at + 1, end - at - 1);
-            const string* value_en = map_find(params, key);
-            if (!value_en)
-                value_en = map_find(params, lowercase_string(key));
+            const string value_en = _resolve_named_parameter(params, key);
 
-            if (value_en)
+            if (value_en != "NOT_FOUND")
             {
                 // translate value and insert
                 string value;
                 if (key == "player_name")
                 {
                     // don't try to translate player name
-                    value = *value_en;
+                    value = value_en;
                 }
                 else
                 {
-                    value = _localise_string(_context, *value_en);
+                    value = _localise_string(_context, value_en);
                     // allow nesting, but avoid infinite loops from circular refs
                     if (nested_calls < 5 && value.find("@") != string::npos)
                     {

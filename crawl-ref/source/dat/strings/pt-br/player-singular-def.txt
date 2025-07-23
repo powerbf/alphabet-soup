@@ -286,74 +286,74 @@ o Andarilho
 ##############################################
 %%%%
 the @species@ Fighter
-o @species@ Lutador
+o Lutador @species@
 %%%%
 the @species@ Gladiator
-o @species@ Gladiador
+o Gladiador @species@
 %%%%
 the @species@ Monk
-o @species@ Monge
+o Monge @species@
 %%%%
 the @species@ Hunter
-o @species@ Caçador
+o Caçador @species@
 %%%%
 the @species@ Berserker
-o @species@ Berserker
+o Berserker @species@
 %%%%
 the @species@ Brigand
-o @species@ Bandoleiro
+o Bandoleiro @species@
 %%%%
 the @species@ Abyssal Knight
-o @species@ Cavaleiro Abissal
+o Cavaleiro Abissal @species@
 %%%%
 the @species@ Chaos Knight
-o @species@ Cavaleiro do Caos
+o Cavaleiro do Caos @species@
 %%%%
 the @species@ Enchanter
-o @species@ Encantador
+o Encantador @species@
 %%%%
 the @species@ Transmuter
-o @species@ Transmutador
+o Transmutador @species@
 %%%%
 the @species@ Arcane Marksman
-o @species@ Atirador Arcano
+o Atirador Arcano @species@
 %%%%
 the @species@ Warper
-o @species@ Warper
+o Warper @species@
 %%%%
 the @species@ Hedge Wizard
-o @species@ Mago Amador
+o Mago Amador @species@
 %%%%
 the @species@ Conjurer
-o @species@ Conjurador
+o Conjurador @species@
 %%%%
 the @species@ Summoner
-o @species@ Invocador
+o Invocador @species@
 %%%%
 the @species@ Necromancer
-o @species@ Necromante
+o Necromante @species@
 %%%%
 the @species@ Fire Elementalist
-o @species@ Elementalista do Fogo
+o Elementalista do Fogo @species@
 %%%%
 the @species@ Ice Elementalist
-o @species@ Elementalista do Gelo
+o Elementalista do Gelo @species@
 %%%%
 the @species@ Air Elementalist
-o @species@ Elementalista do Ar
+o Elementalista do Ar @species@
 %%%%
 the @species@ Earth Elementalist
-o @species@ Elementalista da Terra
+o Elementalista da Terra @species@
 %%%%
 the @species@ Venom Mage
-o @species@ Mago do Veneno
+o Mago do Veneno @species@
 %%%%
 the @species@ Artificer
-o @species@ Artífice
+o Artífice @species@
 %%%%
 the @species@ Delver
-o @species@ Delver
+o Delver @species@
 %%%%
 the @species@ Wanderer
-o @species@ Andarilho
+o Andarilho @species@
 %%%%
