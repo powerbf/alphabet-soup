@@ -54,7 +54,7 @@ KEY:/pair of (?!quick blades)/pair of %s/
 
 # possessive
 /^de (.*)/de %s$2%s/
-/^{f}de (.*)/{f}de %s$2%s/
+/^\{f\}de (.*)/{f}de %s$2%s/
 
 # "pair of boots/gloves" (but not quick blades) needs a second adjective placeholder
 /par de botas/par de {fpl}%sbotes%s/
