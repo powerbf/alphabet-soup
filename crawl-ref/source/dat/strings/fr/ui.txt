@@ -165,21 +165,15 @@ Inconnu
 "Welcome, %s. "
 "Bienvenue, %s. "
 %%%%
-# "You are a <species>." or "You are a <background>."
+You are @a_species@.
+Vous êtes @a_species@.
 %%%%
-You are a %s.
-Vous êtes un %s.
+You are @a_background@.
+Vous êtes @a_background@.
 %%%%
-You are an %s.
-Vous êtes un %s.
-%%%%
-# "You are a <species> <background>."
-%%%%
-You are a %s %s.
-Vous êtes un %s %s.
-%%%%
-You are an %s %s.
-Vous êtes un %s %s.
+# combo = species + background
+You are @a_combo@.
+Vous êtes @a_combo@.
 %%%%
 Please select your species.
 Veuillez sélectionner votre espèce.

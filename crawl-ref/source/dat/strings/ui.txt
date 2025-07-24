@@ -165,20 +165,14 @@ Unknown
 "Welcome, %s. "
 
 %%%%
-# "You are a <species>." or "You are a <background>."
-%%%%
-You are a %s.
+You are @a_species@.
 
 %%%%
-You are an %s.
+You are @a_background@.
 
 %%%%
-# "You are a <species> <background>."
-%%%%
-You are a %s %s.
-
-%%%%
-You are an %s %s.
+# combo = species + background
+You are @a_combo@.
 
 %%%%
 Please select your species.
