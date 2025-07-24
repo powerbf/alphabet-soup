@@ -282,8 +282,8 @@ def safe_tokenize(string):
     return fields
 
 def remove_enclosing_curlies(string):
-    string = re.sub('^\{', '', string)
-    string = re.sub('\};?$', '', string)
+    string = re.sub(r'^\{', '', string)
+    string = re.sub(r'\};?$', '', string)
     return string
 
 # tokenize a C++ data file
@@ -701,13 +701,13 @@ def insert_section_markers(filename, lines):
     for line in lines:
         if '(' in line and not line.endswith(';') and re.search('^[a-zA-Z]', line):
             # function/method
-            section = re.sub('^.*[ *]', '', re.sub(' *\(.*', '', line))
+            section = re.sub('^.*[ *]', '', re.sub(r' *\(.*', '', line))
         elif line.startswith('class '):
             # class
             section = re.sub('[ :].*', '', re.sub('^class *', '', line))
-        elif line.startswith('static ') and re.search('\[\] *=', line):
+        elif line.startswith('static ') and re.search(r'\[\] *=', line):
             # static data
-            section = re.sub('^.*[ *]', '', re.sub('\[\] *=.*', '', line))
+            section = re.sub('^.*[ *]', '', re.sub(r'\[\] *=.*', '', line))
 
         # Ewwwwww!
         if filename == 'item-name.cc':
@@ -1144,7 +1144,7 @@ def process_lua_file(filename):
             elif re.search(r'\bname:', line):
                 strings.extend(extract_strings_from_des_rebadge_line(line))
                 continue
-            elif re.search('(?:msg|prompt)\s*=', line):
+            elif re.search(r'(?:msg|prompt)\s*=', line):
                 skip = False
             elif is_portal and re.search(r'ranges\s*=', line):
                 skip = False
@@ -1216,11 +1216,11 @@ def process_lua_file(filename):
             line = re.sub(r'@[^@]+[\.:]([^@]+)@', r'@\1@', line)
             line = re.sub(r'\[([a-zA-Z0-9_]+)\]@', r'_\1@', line)
             line = line.replace('()@', '@')
-            line = re.sub('\s*[\-\+]\s*[0-9]\s*@', '@', line)
+            line = re.sub(r'\s*[\-\+]\s*[0-9]\s*@', '@', line)
             # verb is actually a noun
             line = line.replace('@chk_2@@verb@', '@adjective@@noise@')
             line = re.sub('@[^@]+the_feature@', '@the_feature@', line)
-            line = re.sub('@([^@ ]+?)[\(\)][^@]*@', r'@\1@', line)
+            line = re.sub(r'@([^@ ]+?)[\(\)][^@]*@', r'@\1@', line)
 
         if 'crawl.mpr' in line:
             # we don't want to extract the second parameter - it's the channel
@@ -1831,7 +1831,7 @@ def process_cplusplus_file(filename):
             # skip tags/keys
             if re.search(r'^[^"]*_tag\(', line) and not re.search('text_tag', line):
                 continue
-            if re.search('tag\s*=\s*"', line):
+            if re.search(r'tag\s*=\s*"', line):
                 continue
             if re.search(r'strip_tag_prefix *\(', line):
                 continue
@@ -1865,7 +1865,7 @@ def process_cplusplus_file(filename):
                 continue
             if 'print_hint' in line or 'tutorial_msg' in line:
                 continue
-            if re.search('^[^"]*property[A-Za-z_]* *\(', line):
+            if re.search(r'^[^"]*property[A-Za-z_]* *\(', line):
                 continue
             if re.match(r'^\s*key[A-Za-z_]*\.[A-Za-z_]*\(', line):
                 continue
@@ -1898,8 +1898,8 @@ def process_cplusplus_file(filename):
         extract = True
 
         if 'any_2_actors_message' in line:
-            temp = re.sub('.*any_2_actors_message *\(', '', line);
-            temp = re.sub('\).*', '', line);
+            temp = re.sub(r'.*any_2_actors_message *\(', '', line);
+            temp = re.sub(r'\).*', '', line);
             args = temp.split(',')
             verb_pos = -1
             verb = ''
@@ -2405,7 +2405,7 @@ def add_strings_to_output(filename, strings, output):
         elif '# note' in string:
             output.append(string)
             continue
-        elif re.search('^(\s|#)', string) or  re.search('\s$', string) \
+        elif re.search(r'^(\s|#)', string) or  re.search(r'\s$', string) \
            or (string.startswith(r'\"') and string.endswith('"')):
             string = '"' + string + '"'
         else:
