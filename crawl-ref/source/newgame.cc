@@ -168,21 +168,31 @@ string newgame_char_description(const newgame_def& ng)
  */
 static string _you_are_character(const string& species, const string& background)
 {
-    string text;
+    // i18n: we provide params with and without article because some languages
+    // (e.g. German) might drop the article
+    map<string, string> params;
     if (!species.empty() && !background.empty())
     {
-        string fmt = (is_vowel(species[0]) ? "You are an %s %s." : "You are a %s %s.");
-        return localise(fmt.c_str(), species.c_str(), background.c_str());
+        string combo = "@species@ " + background;
+        params["species"] = species;
+        params["a_species"] = article_a(species);
+        params["background"] = background;
+        params["a_background"] = article_a(background);
+        params["combo"] = combo;
+        params["a_combo"] = article_a(combo);
+        return localise("You are @a_combo@.", params);
     }
     else if (!species.empty())
     {
-        string fmt = (is_vowel(species[0]) ? "You are an %s." : "You are a %s.");
-        return localise(fmt.c_str(), species.c_str());
+        params["species"] = species;
+        params["a_species"] = article_a(species);
+        return localise("You are @a_species@.", params);
     }
     else if (!background.empty())
     {
-        string fmt = (is_vowel(background[0]) ? "You are an %s." : "You are a %s.");
-        return localise(fmt.c_str(), background.c_str());
+        params["background"] = background;
+        params["a_background"] = article_a(background);
+        return localise("You are @a_background@.", params);
     }
     else
         return "";
