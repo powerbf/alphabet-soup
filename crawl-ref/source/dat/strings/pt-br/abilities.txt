@@ -586,6 +586,7 @@ Atraso
 %%%%
 # duplicate of spell name
 #Pain
+#
 %%%%
 Exhaustion
 Exaustão
@@ -679,19 +680,18 @@ Um item amaldiçoado
 # piety amounts
 # Used like this "Piety: <amount>"
 %%%%
-# duplicate
 extremely large
 extremamente grande
 %%%%
 # duplicate
 #large
-#viel
+#
 %%%%
 moderate
 moderado
 %%%%
 #small
-#wenig
+#
 %%%%
 
 # gold amount
