@@ -89,6 +89,9 @@ o Vampiro
 the Vine Stalker
 o Vine Stalker
 %%%%
+
+# obsolete (can still appear in highscores list, and maybe as ghosts)
+%%%%
 the Halfling
 o Pequenino
 %%%%
@@ -104,6 +107,7 @@ o Alto Elfo
 the Lava Orc
 o Orc de Lava
 %%%%
+
 ##############################################
 # Draconian subspecies
 ##############################################
@@ -135,37 +139,48 @@ o Draconiano Branco
 the Yellow Draconian
 o Draconiano Amarelo
 %%%%
+
 ##############################################
 # Player genus
+# NOTE: If not listed then species is used
 ##############################################
 %%%%
+# Barachi
 the Frog
 o Sapo
 %%%%
+# Deep Dwarf
 the Dwarf
 o Anão
 %%%%
+# Deep Elf
 the Elf
 o Elfo
 %%%%
+# Demigod
 the God
 o Deus
 %%%%
 {f}the God
 a Deusa
 %%%%
+# Felid
 the Cat
 o Gato
 %%%%
+# Formicid
 the Ant
 a Formiga
 %%%%
+# Octopode
 the Octopus
 o Polvo
 %%%%
+# Lava Orc
 the Orc
 o Orc
 %%%%
+
 ##############################################
 # Player genus uncapitalised
 ##############################################
@@ -205,8 +220,9 @@ o octópode
 #the orc
 #o orc
 %%%%
+
 ##############################################
-# Player background (jobs)
+# Player background (aka job)
 ##############################################
 %%%%
 the Fighter
@@ -281,8 +297,11 @@ o Delver
 the Wanderer
 o Andarilho
 %%%%
+
 ##############################################
-# player character combos
+# player character combo
+# "the <species> <background>"
+# (as in "Welcome, Bob the Minotaur Berserker")
 ##############################################
 %%%%
 the @species@ Fighter

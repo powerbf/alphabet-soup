@@ -111,6 +111,7 @@ Crawl encontrou erros durante a inicialização:
 Initialization log:
 Log de inicialização:
 %%%%
+
 # key names (NOTE: these are names only - you can't change the input keys with this)
 # nomes das teclas (NOTA: estes são apenas nomes - você não pode alterar as teclas de entrada com isso)
 %%%%
@@ -156,6 +157,8 @@ Arena
 Unknown
 Desconhecido
 %%%%
+
+
 ##############################
 # New Game Menu
 ##############################
@@ -210,6 +213,7 @@ Fanático
 Adventurer
 Aventureiro
 %%%%
+
 # species/background options - first column entries
 %%%%
 + - Recommended species
@@ -227,6 +231,7 @@ Aventureiro
 ? - Help
 ? - Ajuda
 %%%%
+
 # species/background options - first column desciptions
 %%%%
 Picks a random recommended species based on your current background choice.
@@ -244,6 +249,7 @@ Lista as aptidões numéricas de todas as raças.
 Opens the help screen.
 Abre a tela de ajuda.
 %%%%
+
 # species/background options - second column entries
 # prefix with spaces where needed to make the hyphens line up
 %%%%
@@ -268,11 +274,13 @@ Espaço - Escolher classe primeiro
 Space - Pick species first
 Espaço - Escolher espécie primeiro
 %%%%
+
 # this one will have the last species + background appended
 %%%%
 "  Tab - "
 "  Tab - "
 %%%%
+
 # species/background options - second column descriptions
 %%%%
 Picks a random species.
@@ -315,6 +323,7 @@ Personagem recomendado
 Random character
 Personagem aleatório
 %%%%
+
 # random <species/background>
 # most are masculine
 %%%%
@@ -344,6 +353,7 @@ Múmia recomendada
 Recommended Naga
 Naga recomendada
 %%%%
+
 # weapon selection
 %%%%
 You have a choice of weapons.
@@ -398,6 +408,7 @@ Permite-lhe voltar ao menu de Seleção de Personagens
 Select your old weapon
 Selecionar sua arma passada
 %%%%
+
 # name entry
 %%%%
 What is your name today?
@@ -441,6 +452,7 @@ Escolha 0 para uma seed aleatória. [Tab]/[Shift-Tab] para mudar o enfoque da se
 Fully pregenerate the dungeon
 Pré-gerar totalmente o calabouço
 %%%%
+
 # Dungeon Sprints
 %%%%
 Sprint I: "Red Sonja"
@@ -488,6 +500,7 @@ Você tem uma seleção de lições:
 You have a choice of maps:
 Você tem uma escolha de mapas:
 %%%%
+
 # tutorials
 %%%%
 Lesson 1: Movement and Exploration
@@ -749,7 +762,7 @@ rNeg
 rPois
 rVeno
 %%%%
-# electricty resistance
+# electricity resistance
 %%%%
 rElec
 rElet
@@ -951,6 +964,7 @@ Armadura
 Boots
 Botas
 %%%%
+# some species (e.g. Naga) wear barding instead of boots
 Barding
 Bardadura
 %%%%
@@ -966,9 +980,11 @@ Anel direito
 Amulet
 Amuleto
 %%%%
+# if player is wearing the Macabre Finger Amulet, they can put a ring on it
 Amulet ring
 Anel de amuleto
 %%%%
+# Octopodes can wear 8 rings (because they have 8 arms)
 1st ring
 1° anel
 %%%%
@@ -993,12 +1009,21 @@ Anel de amuleto
 8th ring
 8° anel
 %%%%
+
+# equipment slot annotations
+%%%%
+# player can't equip this type of item
+# (e.g. trolls can't wear gloves due to having large claws)
 (unavailable)
 (indisponível)
 %%%%
+# player temporarily can't equip this type of item
+# (typically because they are transformed)
 (currently unavailable)
 (indisponível no momento)
 %%%%
+# player can wear some items in this slot, but not all.
+# (e.g. minotaurs can wear hats, but not helmets)
 (restricted)
 (restringido)
 %%%%
@@ -1171,9 +1196,11 @@ feito
 special
 especial
 %%%%
+# wield weapon (i.e. put it in your hand)
 Wield
 Empunhar
 %%%%
+# unwield weapon (i.e. put it back in your backpack)
 Unwield
 Desequipar
 %%%%
@@ -1195,39 +1222,50 @@ Página anterior
 Show previous page of items
 Mostrar página anterior de itens
 %%%%
+%%%%
+# suffix used when net is holding monster
 " (holding %s)"
 " (segurando %s)"
 %%%%
+# used by above entry (in unlikely edge case)
 nobody
 ninguém
 %%%%
 Pick up
 Pegar
 %%%%
+# Pick up some
 Partial pick up
 Pegar parcialmente
 %%%%
+# evoke a wand, magical item or polearm
 Evoke
 Evocar
 %%%%
+# wear armour, helm, gloves, boots
 Wear
 Vestir
 %%%%
+# take off armour, helm, gloves, boots
 Take off
 Remover
 %%%%
+# put on ring or amulet
 Put on
 Colocar
 %%%%
+# remove ring or amulet
 Remove
 Tirar
 %%%%
+# memorise a spell
 Memorise
 Memorizar
 %%%%
 Read
 Ler
 %%%%
+# quaff (drink) a potion
 Quaff
 Beber
 %%%%
@@ -1264,6 +1302,7 @@ Você não pode memorizar esta magia agora.
 Browse message history
 Navegar no histórico de mensagens
 %%%%
+# format string for skill training entry
 %-14s Skill %4.1f Aptitude %c%d
 %-14s Habilidade %4.1f Aptidão %c%d
 %%%%
@@ -1332,11 +1371,16 @@ Equipamento Atual
 Custom Doll
 Boneco Personalizado
 %%%%
+# job = background
 Job Defaults
 Padrões de Classe
 %%%%
 Base
 Base
+%%%%
+# duplicate: Also HUD abbreviation for shadow form
+#Shadow
+#
 %%%%
 Halo
 Auréola
@@ -1474,9 +1518,11 @@ Outros Itens
 Skill
 Habilidade
 %%%%
+# Here, this means skill level, but it's also used on the spell menu for spell level
 Level
 Nível
 %%%%
+# aptitude
 Apt
 Aptidão
 %%%%
@@ -1495,12 +1541,21 @@ Pontos
 > New
 > Novo
 %%%%
+
+
+%%%%
+# a string like "auto|manual mode", where "auto|manual" are the states and "mode" is the setting
+# For romance languages the order would probably be reversed
 @states@ @setting@
 @states@ @setting@
+%%%%
+
+# "auto|manual mode"
 %%%%
 auto
 automático
 %%%%
+# must disambiguate from the item called manual
 {menu-state}manual
 manual
 %%%%
@@ -1516,6 +1571,9 @@ todas
 skills
 habilidades
 %%%%
+
+# "modified|reduced|enhanced|base level"
+%%%%
 modified
 modificado
 %%%%
@@ -1528,8 +1586,12 @@ reduzido
 base
 base
 %%%%
+# Here, this means skill level, but the same string is used in a macros sub-menu for dungeon level
 level
 nível
+%%%%
+
+# "training|cost|progress|targets|points"
 %%%%
 training
 treinando
@@ -1546,8 +1608,12 @@ progresso
 points
 pontos
 %%%%
+# this is apparently also an option, but not sure when it is shown
 new level
 novo nível
+%%%%
+
+# not sure exactly where these are used
 %%%%
 train
 treinar
@@ -1602,7 +1668,7 @@ Deafening
 Ensurdecedor
 %%%%
 
-# N/A
+# N/A = not applicable. Used in various columns.
 %%%%
 N/A
 N/A
