@@ -2280,7 +2280,7 @@ def pluralise(string):
     elif string.endswith("djinni"):
         return string[:-1]
     elif string.endswith("foot"):
-        return string[:-4] + feet
+        return string[:-4] + "feet"
     elif re.search('(ophan|cherub|seraph)$', string):
         return string + "im"
     elif string.endswith("arachi"):
