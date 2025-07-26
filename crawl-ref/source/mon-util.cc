@@ -650,7 +650,6 @@ mon_holy_type holiness_by_name(string name)
 
 const char * holiness_name(mon_holy_type_flags which_holiness)
 {
-    // @noloc section start (only used in LUA)
     switch (which_holiness)
     {
     case MH_HOLY:
@@ -670,7 +669,6 @@ const char * holiness_name(mon_holy_type_flags which_holiness)
     default:
         return "bug";
     }
-    // @noloc section end
 }
 
 string holiness_description(mon_holy_type holiness)
@@ -3160,7 +3158,6 @@ monster_type demonspawn_base_by_name(const string &name)
 
 string mons_type_name(monster_type mc, description_level_type desc)
 {
-    // @noloc section start
     string result;
 
     if (!mons_is_unique(mc))
@@ -3223,7 +3220,6 @@ string mons_type_name(monster_type mc, description_level_type desc)
     }
 
     return result;
-    // @noloc section end
 }
 
 static string _get_proper_monster_name(const monster& mon)
@@ -4294,7 +4290,6 @@ static string _replace_god_name(god_type god)
 
 static string _get_species_insult(const string &species, const string &type)
 {
-    // @noloc section start (keys)
     string insult;
     string lookup;
 
@@ -4319,7 +4314,6 @@ static string _get_species_insult(const string &species, const string &type)
     }
 
     return insult;
-    // @noloc section end
 }
 
 static string _get_param_value(const map<string, string> &params,
@@ -4782,7 +4776,6 @@ string get_mon_shape_str(const mon_body_shape shape)
 {
     ASSERT_RANGE(shape, MON_SHAPE_HUMANOID, MON_SHAPE_MISC + 1);
 
-    // @noloc section start (db lookup keys)
     static const char *shape_names[] =
     {
         "bug", "humanoid", "winged humanoid", "tailed humanoid",
@@ -4792,7 +4785,6 @@ string get_mon_shape_str(const mon_body_shape shape)
         "arachnid", "centipede", "snail", "plant", "fungus", "orb",
         "blob", "misc"
     };
-    // @noloc section end
 
     COMPILE_CHECK(ARRAYSZ(shape_names) == MON_SHAPE_MISC + 1);
     return shape_names[shape];
@@ -4953,8 +4945,6 @@ bool mons_foe_is_marked(const monster& mon)
     else
         return false;
 }
-
-// @noloc section start (debug stuff)
 
 void debug_mondata()
 {
@@ -5157,8 +5147,6 @@ void debug_monspells()
 
     dump_test_fails(fails, "mon-spell");
 }
-
-// @noloc section end
 
 // Used when clearing level data, to ensure any additional reset quirks
 // are handled properly.

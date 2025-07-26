@@ -347,6 +347,12 @@ IGNORE_SECTIONS = {
         'mon_enchant::kill_category_desc',
     ],
     'mon-info.cc':      ['_monster_list_colour_names'],     # internal identifiers
+    'mon-util.cc':      [
+        'holiness_name',                        # only used in LUA
+        'mons_type_name',                       # names for "random" monsters
+        '_get_species_insult', 'get_mon_shape_str',  # db keys
+        'debug_mondata', 'debug_monspells',   #debug
+    ],
 }
 
 # should section be ignored?
