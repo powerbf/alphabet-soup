@@ -893,7 +893,9 @@ def insert_section_markers(filename, lines):
     for line in lines:
         if '(' in line and not line.endswith(';') and re.search('^[a-zA-Z]', line):
             # function/method
-            section = re.sub('^.*[ *]', '', re.sub(r' *\(.*', '', line))
+            section = re.sub(r' *\(.*', '', line)
+            section = re.sub('operator *', 'operator_', section)
+            section = re.sub('^.*[ *]', '', section)
         elif line.startswith('class ') or (section == None and line.strip().startswith('class ')):
             # class
             section = re.sub('[ :].*', '', re.sub('^class *', '', line.strip()))
