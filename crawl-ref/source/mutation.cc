@@ -429,8 +429,6 @@ static int _num_full_suppressed = 0;
 static int _num_part_suppressed = 0;
 static int _num_transient = 0;
 
-// @noloc section start
-
 static string _suppressedmut(string desc, bool terse=false)
 {
     desc = localise(desc);
@@ -454,8 +452,6 @@ static string _badmut(string desc, bool terse=false)
     desc = localise(desc);
     return terse ? desc : "<lightred>" + desc + "</lightred>";
 }
-
-// @noloc section end
 
 static string _annotate_form_based(string desc, bool suppressed, bool terse=false)
 {
@@ -1154,7 +1150,6 @@ static string _display_vampire_attributes()
 
     const int highlight_col = you.vampire_alive ? 1 : 2;
 
-    // @noloc section start
     for (int y = 0; y < lines; y++)  // lines   (properties)
     {
         for (int x = 0; x < 3; x++)  // columns (states)
@@ -1193,7 +1188,6 @@ static string _display_vampire_attributes()
          }
         result += "\n";
     }
-    // @noloc section end
 
     trim_string_right(result);
     return result;
