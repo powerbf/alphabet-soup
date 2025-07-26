@@ -2060,7 +2060,7 @@ def get_noun_permutations(string, is_monster = False):
         is_unique = is_unique_noun(string, is_monster)
         base = re.sub("^(the|a|an) ", "", string)
 
-        full = "the " + base
+        full = article_the(base)
         list.append(full)
 
         # possessive (for monsters)
@@ -2136,9 +2136,9 @@ def post_process_feature_data_h(strings):
         elif string.startswith('the '):
             output.append(string)
         elif string.startswith('a '):
-            output.append("the " + string[2:])
+            output.append(article_the(string[2:]))
         else:
-            output.append("the " + string)
+            output.append(article_the(string))
 
     output.append("# section: door/gate adjectives")
     for string in adjectives:
@@ -2232,14 +2232,14 @@ def post_process_item_prop_cc(strings):
         elif string in ['gloves', 'boots']:
             string = 'pair of ' + string
         elif string in ['javelin', 'boomerang']:
-            output.append("the " + string)
+            output.append(article_the(string))
             string = 'silver ' + string
 
         # stackable items need a plural with count
         if is_missile(string):
             plurals.append('%d ' + pluralise(string))
 
-        output.append("the " + string)
+        output.append(article_the(string))
 
     output.extend(plurals)
     return output
@@ -2399,7 +2399,7 @@ def post_process_item_name_cc(strings):
             # all subtypes already covered above
             continue
         elif string == "Orb of Zot":
-            string = "the " + string
+            string = article_the(string)
         elif string in ['manual of ', '%s of %s', ' of ', 'of '] or (string.endswith(' of Zot') and string != "The Orb of Zot"):
             # other "of <foo>" suffixes are handled separately
             continue
@@ -2482,10 +2482,10 @@ def post_process(filename, strings):
             elif string == " the pandemonium lord":
                 filtered_strings.append(string.strip())
             elif string in ["Blork", "gate", "deep water"]:
-                filtered_strings.append("the " + string)
+                filtered_strings.append(article_the(string))
             elif string == "deck of " or string == "decks of ":
                 if string == "deck of ":
-                    string = "the " + string
+                    string = article_the(string)
                 for suffix in ["destruction", "escape", "summoning", "punishment"]:
                     filtered_strings.append(string + suffix);
             elif string == "your stacked deck":
@@ -2494,7 +2494,7 @@ def post_process(filename, strings):
                 IGNORE_STRINGS.append("stacked deck")
             elif string.endswith(" Sword"):
                 # alternative names for Singing Sword based on mood
-                filtered_strings.append("the " + string)
+                filtered_strings.append(article_the(string))
             elif "@medium_attack@" in string and len(medium_attack_verbs) > 0:
                 for verb in medium_attack_verbs:
                     filtered_strings.append(string.replace("@medium_attack@", verb))
