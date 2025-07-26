@@ -133,6 +133,11 @@ SKIP_FILES = [
 form_attack_verbs = []
 medium_attack_verbs = []
 
+
+############################
+# General utility functions
+############################
+
 def replace_last(s, old, new):
     return new.join(s.rsplit(old, 1))
 
@@ -143,6 +148,85 @@ def remove_duplicates(strings):
             result.append(string)
     return result
 
+
+################################
+# Grammatical utility functions
+################################
+
+def article_a(string):
+    if re.search('^[aeiouAEIOU]', string) and not string.startswith('one-'):
+        return "an " + string
+    else:
+        return "a " + string
+
+def article_the(string):
+    if string.startswith("the "):
+        return string
+    else:
+        return "the " + string
+
+def possessive(string):
+    return string + "'s"
+
+# pluralise a string - replicates the logic of the equivalent function in english.cc
+def pluralise(string):
+    # if it's something like "potion of healing" then we want "potions of healing", not "potion of healings"
+    # so separate the suffix, pluralise the main noun, then put the suffix back
+    pos = string.find(" of ")
+    if pos < 0:
+        pos = string.find(" from ")
+    if pos < 0:
+        pos = string.find(" labelled ")
+    if pos >= 0:
+        prefix = string[0:pos]
+        suffix = string[pos:]
+        return pluralise(prefix) + suffix
+
+    if string.endswith("us"):
+        if string.endswith("lotus") or string.endswith("status"):
+            return string + "es"
+        else:
+            return string[:-2] + "i";
+    elif string.endswith("ex"):
+        return string[:-2] + "ices"
+    elif string.endswith("mosquito") or string.endswith("ss"):
+        return string + "es"
+    elif string.endswith("cyclops"):
+        return string[:-1] + "es"
+    elif string.endswith("catoblepas"):
+        return string[:-1] + "e"
+    elif string.endswith("s"):
+        return string
+    elif string.endswith("y") and not string.endswith("ey"):
+        return string[:-1] + "ies"
+    elif string.endswith("staff"):
+        return string[:-2] + "ves"
+    elif string.endswith("f") and not string.endswith("ff"):
+        return string[:-1] + "ves"
+    elif string.endswith("mage") and not string.endswith("damage"):
+        return string[:-1] + "i"
+    elif re.search('(gold|fish|folk|spawn|tengu|sheep|swine|efreet|jiangshi|raiju|meliai)$', string):
+        return string
+    elif re.search('(ch|sh|x)$', string):
+        return string + "es"
+    elif re.search('(simulacrum|eidolon)$', string):
+        return string[:-2] + "a"
+    elif string.endswith("djinni"):
+        return string[:-1]
+    elif string.endswith("foot"):
+        return string[:-4] + "feet"
+    elif re.search('(ophan|cherub|seraph)$', string):
+        return string + "im"
+    elif string.endswith("arachi"):
+        return string + "m"
+    elif string.endswith("ushabti"):
+        return string + "u"
+    elif string.endswith("mitl"):
+        return string[:-2] + "meh"
+    else:
+        return string + "s"
+
+# conjugate verb for 3rd person singular (he/she/it)
 def conjugate_verb(verb_phrase):
     parts = verb_phrase.split(' ', 1)
     verb = parts[0]
@@ -162,6 +246,11 @@ def do_any_2_actors_message(verb, suffix):
     strings.append("%s " + verb3p + " %s" + suffix)
     strings.append("%s " + verb3p + " itself" + suffix)
     return strings
+
+
+################################
+# String extraction functions
+################################
 
 # process art-data.txt
 def process_art_data_txt():
@@ -1349,332 +1438,6 @@ def process_lua_file(filename):
 
     return strings
 
-# special handling for strings in feature-data.h
-def special_handling_for_feature_data_h(strings):
-    output = []
-    adjectives = []
-    for string in strings:
-        if string.startswith('#'):
-            output.append(string)
-        elif string.endswith(' door') or string.endswith(' gate'):
-            # we handle door adjectives as separate strings
-            words = separate_adjectives(string)
-            for i in range(len(words)):
-                if i == len(words) - 1:
-                    output.append(words[i]);
-                else:
-                    adjectives.append(words[i])
-        elif string.endswith("golubria"):
-            # the version with a small g is an internal id
-            continue
-        elif string in ['explore horizon', 'unseen']:
-            output.append(string)
-        elif string.startswith('some '):
-            output.append(string)
-        elif string.startswith('the '):
-            output.append(string)
-        elif string.startswith('a '):
-            output.append("the " + string[2:])
-        else:
-            output.append("the " + string)
-
-    output.append("# section: door/gate adjectives")
-    for string in adjectives:
-        output.append(string)
-
-    # do we need plurals?
-
-    return output
-
-# special handling for strings in job-data.h
-def special_handling_for_job_data_h(strings):
-    output = []
-    for string in strings:
-        output.append(article_the(string) if len(string) > 2 else string)
-    return output;
-
-# special handling for strings in mon-data.h
-def special_handling_for_mon_data_h(strings):
-    output = []
-    names = []
-    unique_names = []
-    adjectives = []
-
-    # separate unqiue from non-unique
-    for string in strings:
-        if string.startswith('#'):
-            continue
-        if string.endswith(' '):
-            adjectives.append(string)
-        elif is_unique_monster(string):
-            unique_names.append(string)
-        else:
-            names.append(string)
-
-    names.sort()
-    unique_names.sort()
-
-    # adjectives
-    output.append("# section: adjectives")
-    for string in adjectives:
-        output.append(string)
-
-    # singular non-unique
-    output.append("# section: non-unique monsters, singular")
-    for string in names:
-        output.append('the ' + string)
-
-    # singular unique
-    output.append("# section: unique monsters")
-    for string in unique_names:
-        if string.startswith('the '):
-            output.append(string)
-        else:
-            output.append('the ' + string)
-
-    # possessive non-unique
-    output.append("# section: non-unique monsters, singular possessive")
-    for string in names:
-        output.append('the ' + possessive(string))
-
-    # possessive unique
-    output.append("# section: unique monsters, possessive")
-    for string in unique_names:
-        if string.startswith('the '):
-            output.append(possessive(string))
-        else:
-            output.append(possessive(string))
-
-    # plural non-unique
-    output.append("# section: non-unique monsters, plural")
-    for string in names:
-        output.append('%d ' + pluralise(string))
-
-    return output
-
-# special handling for strings in item-prop.cc
-def special_handling_for_item_prop_cc(strings):
-    output = []
-    plurals = []
-
-    for string in strings:
-        if string.startswith('#'):
-            # comment
-            output.append(string)
-            continue
-        elif string in ['steam', 'acid', 'quicksilver', 'swamp', 'fire', 'ice', 'pearl', 'storm', 'shadow', 'gold']:
-            string = string + ' dragon scales'
-        elif string == ' dragon scales':
-            # all possibilities covered above
-            continue
-        elif string in ['gloves', 'boots']:
-            string = 'pair of ' + string
-        elif string in ['javelin', 'boomerang']:
-            output.append("the " + string)
-            string = 'silver ' + string
-
-        # stackable items need a plural with count
-        if is_missile(string):
-            plurals.append('%d ' + pluralise(string))
-
-        output.append("the " + string)
-
-    output.extend(plurals)
-    return output
-
-# special handling for strings in item-name.cc
-# you'd think from the filename that everything in here would be a name, but you'd be wrong
-def special_handling_for_item_name_cc(strings):
-    result = []
-    extras1 = []
-    extras2 = []
-    section = ''
-
-    for string in strings:
-        if string.startswith('# section:'):
-            # new section starts
-            result.extend(extras1)
-            result.extend(extras2)
-            extras1 = []
-            extras2 = []
-            section = string.replace('# section:', '').strip()
-        elif string.startswith('#'):
-            string = string # null op
-        elif section in ['_random_vowel', '_random_cons', '_random_consonant_set', 'make_name']:
-            # random-name generation - ignore
-            continue
-        elif '_test' in section:
-            # test stuff
-            continue
-        elif section.endswith('_secondary_string') or section == 'staff_primary_string':
-            # extract adjective as separate word
-            if not string.endswith(' '):
-                string += ' '
-        elif section.endswith('_primary_string'):
-            # primary adjective (closest to the noun)
-            noun = re.sub('_.*', '', section)
-            if not string.endswith(' '):
-                string += ' '
-            string = 'the ' + string + noun
-        elif section == 'item_def::name':
-            if string == ' (in ':
-                result.append(' (in hand)')
-                result.append(' (in claw)')
-                result.append(' (in tentacle)')
-                continue
-            elif string in ['right', 'left']:
-                result.append(' (' + string + ' hand)');
-                result.append(' (' + string + ' claw)');
-                result.append(' (' + string + ' paw)');
-                result.append(' (' + string + ' tentacle)');
-                result.append(' (' + string + ' branch)');
-                result.append(' (' + string + ' front leg)');
-                result.append(' (' + string + ' blade hand)');
-                continue
-        elif section == 'missile_brand_name':
-            if string.endswith(' dart'):
-                extras2.append('%d ' + pluralise(string))
-                string = 'the ' + string
-        elif section == 'weapon_brands_terse':
-            if string == 'confuse':
-                # not a real weapon brand - used on hands for confusing touch
-                continue
-            elif string == 'flame':
-                # terse version also used after "of" (see _item_ego_name in religion.cc)
-                result.append(' of ' + string)
-        elif section == 'weapon_brands_verbose':
-            if string == 'confusion':
-                # not a real weapon brand - used on hands for confusing touch
-                continue
-            elif string in ['vampirism', 'antimagic', 'vorpality', 'spectralizing']:
-                # verbose name is never used (see brand_prefers_adj)
-                continue
-            string = ' of ' + string
-        elif section == 'weapon_brands_adj':
-            # adjectives defined for all, but only used for some (see brand_prefers_adj)
-            if string in ['vampiric', 'antimagic', 'vorpal', 'spectral']:
-                string = string + ' '
-            else:
-                continue
-        elif section == 'armour_ego_name':
-            string = ' of ' + string
-        elif section == 'armour_ego_name(terse)':
-            if string == 'rC+ rF+':
-                # handled as two separate strings
-                continue
-            # the plus is handled separately
-            string = re.sub(r'\+.*', '', string)
-        elif section == '_wand_type_name':
-            string = 'wand of ' + string
-            if not string.endswith('removedness'):
-                # uncounted plural for known items menu
-                extras1.append(pluralise(string))
-            string = 'the ' + string
-        elif section == 'potion_type_name':
-            string = 'potion of ' + string
-            # counted plural for stacks
-            extras2.append('%d ' + pluralise(string))
-            string = 'the ' + string
-        elif section == 'scroll_type_name':
-            string = 'scroll of ' + string
-            # counted plural for stacks
-            extras2.append('%d ' + pluralise(string))
-            string = 'the ' + string
-        elif section == 'jewellery_effect_name':
-            string = ' of ' + string
-        elif section == 'jewellery_effect_name(terse)':
-            # the plus is handled separately
-            string = re.sub(r'\+.*', '', string)
-        elif section == 'rune_type_name':
-            if string in ['mossy', 'elven']:
-                # obsolete
-                continue
-            else:
-                extras1.append('the ' + string + ' rune')
-        elif section == 'misc_type_name':
-            # uncounted plural for known items menu
-            if string != 'horn of Geryon':
-                extras1.append(pluralise(string))
-            string = 'the ' + string
-        elif section == '_book_type_name':
-            if string == 'Fixed Level' or string == 'Fixed Theme':
-                continue
-            string = 'a book of ' + string
-        elif section == 'sub_type_string':
-            if string == 'manual':
-                result.append(string)
-                string = pluralise(string)
-            elif is_spellbook(string):
-                string = add_spellbook_article(string)
-        elif section == 'staff_type_name':
-            extras1.append('staves of ' + string)
-            string = 'the staff of ' + string
-        elif section == 'ghost_brand_name':
-            if string == '%s weapon':
-                string = 'the weapon'
-            elif string == 'weapon of %s':
-                # suffixes handles separately
-                continue
-            elif string == '%s touch':
-                # there's only one possibility
-                string = 'confusing touch'
-        elif section == 'potion_colours':
-            if not string.endswith(' '):
-                string += ' '
-        elif section == 'display_runes':
-            if string == "green":
-                # text colour tag
-                continue
-        elif section == 'item_prefix':
-            # undisplayed, but (supposedly) searchable prefixes
-            # many of these don't even work in English
-            continue
-
-        if string in ['wand of ', 'potion of ', 'scroll of', 'ring of', 'amulet of', 'staff of ', 'book of ']:
-            # all subtypes already covered above
-            continue
-        elif string in [' wand', ' potion', ' ring', ' amulet', ' rune']:
-            # all subtypes already covered above
-            continue
-        elif string == "Orb of Zot":
-            string = "the " + string
-        elif string in ['manual of ', '%s of %s', ' of ', 'of '] or (string.endswith(' of Zot') and string != "The Orb of Zot"):
-            # other "of <foo>" suffixes are handled separately
-            continue
-        elif string == "gold piece":
-            result.append('the ' + string)
-            result.append('%d ' + pluralise(string))
-            continue
-        elif string == 'enchanted %s':
-            # will be handled the other way round, with "enchanted" as added adjective
-            string = 'enchanted '
-        elif string == "damnation ":
-            # there's only one possibility
-            result.append("the damnation bolt")
-            result.append('%d damnation bolts')
-            continue
-        elif string == "labelled ":
-            result.append("the scroll labelled %s")
-            string = "%d scrolls labelled %s"
-        elif string == "x) ":
-            # ignore - just used for size
-            continue
-        elif string == "pair of ":
-            # handled in item-prop.cc
-            continue
-        elif string == "decaying skeleton":
-            # dbname (just used as a lookup key, not displayed)
-            continue
-        elif "bug" in string or "bad item" in string or "bogus" in string:
-            # case that should never happen - ignore
-            continue
-
-        result.append(string)
-
-    result.extend(extras1)
-    result.extend(extras2)
-
-    return result
 
 def process_cplusplus_file(filename):
     lazy = (filename in LAZY_FILES)
@@ -2197,6 +1960,42 @@ def process_cplusplus_file(filename):
     return remove_duplicates(strings)
 
 
+def add_strings_to_output(filename, strings, output):
+    if len(strings) == 0:
+        return
+
+    output.append("")
+    output.append("##################")
+    output.append("# " + filename)
+    output.append("##################")
+    for string in strings:
+        # in some cases, string needs to be quoted
+        #   - if it has leading or trailing whitespace
+        #   - if it starts with # (because otherwise it looks like a comment)
+        #   - if it starts and ends with double-quotes
+        if string.startswith('# section:'):
+            output.append(string)
+            continue
+        elif '# note' in string:
+            output.append(string)
+            continue
+        elif re.search(r'^(\s|#)', string) or  re.search(r'\s$', string) \
+           or (string.startswith(r'\"') and string.endswith('"')):
+            string = '"' + string + '"'
+        else:
+            string = string.replace(r'\"', '"')
+        string = string.replace(r'\\', '\\')
+
+        if string in output:
+            output.append('# duplicate: ' + string)
+        else:
+            output.append(string)
+
+
+###################################
+# Post-processing of "raw" strings
+###################################
+
 # get rid of unnecessary section markers
 def remove_unnecessary_section_markers(strings):
     section = None
@@ -2213,87 +2012,15 @@ def remove_unnecessary_section_markers(strings):
 
 # separate adjectives from noun
 # adjectives will have space appended
+# noun will be last and have definite article
 def separate_adjectives(string):
     words = string.split()
     for i in range(len(words)):
         if i != len(words) - 1:
             words[i] = words[i] + " "
         else:
-            words[i] = "the " + words[i]
+            words[i] = article_the(words[i])
     return words
-
-def article_the(string):
-    if string.startswith("the "):
-        return string
-    else:
-        return "the " + string
-
-def article_a(string):
-    if re.search('^[aeiouAEIOU]', string) and not string.startswith('one-'):
-        return "an " + string
-    else:
-        return "a " + string
-
-# pluralise a string - replicates the logic of the equivalent function in english.cc
-def pluralise(string):
-    # if it's something like "potion of healing" then we want "potions of healing", not "potion of healings"
-    # so separate the suffix, pluralise the main noun, then put the suffix back
-    pos = string.find(" of ")
-    if pos < 0:
-        pos = string.find(" from ")
-    if pos < 0:
-        pos = string.find(" labelled ")
-    if pos >= 0:
-        prefix = string[0:pos]
-        suffix = string[pos:]
-        return pluralise(prefix) + suffix
-
-    if string.endswith("us"):
-        if string.endswith("lotus") or string.endswith("status"):
-            return string + "es"
-        else:
-            return string[:-2] + "i";
-    elif string.endswith("ex"):
-        return string[:-2] + "ices"
-    elif string.endswith("mosquito") or string.endswith("ss"):
-        return string + "es"
-    elif string.endswith("cyclops"):
-        return string[:-1] + "es"
-    elif string.endswith("catoblepas"):
-        return string[:-1] + "e"
-    elif string.endswith("s"):
-        return string
-    elif string.endswith("y") and not string.endswith("ey"):
-        return string[:-1] + "ies"
-    elif string.endswith("staff"):
-        return string[:-2] + "ves"
-    elif string.endswith("f") and not string.endswith("ff"):
-        return string[:-1] + "ves"
-    elif string.endswith("mage") and not string.endswith("damage"):
-        return string[:-1] + "i"
-    elif re.search('(gold|fish|folk|spawn|tengu|sheep|swine|efreet|jiangshi|raiju|meliai)$', string):
-        return string
-    elif re.search('(ch|sh|x)$', string):
-        return string + "es"
-    elif re.search('(simulacrum|eidolon)$', string):
-        return string[:-2] + "a"
-    elif string.endswith("djinni"):
-        return string[:-1]
-    elif string.endswith("foot"):
-        return string[:-4] + "feet"
-    elif re.search('(ophan|cherub|seraph)$', string):
-        return string + "im"
-    elif string.endswith("arachi"):
-        return string + "m"
-    elif string.endswith("ushabti"):
-        return string + "u"
-    elif string.endswith("mitl"):
-        return string[:-2] + "meh"
-    else:
-        return string + "s"
-
-def possessive(string):
-    return string + "'s"
 
 def is_unique_monster(string):
     # non-uniques with uppercase letters in them
@@ -2321,6 +2048,32 @@ def is_unique_noun(string, is_monster = False):
         return True
     else:
         return False
+
+def get_noun_permutations(string, is_monster = False):
+    list = []
+
+    if string.startswith("The "):
+        list.append(string)
+        if is_monster:
+            list.append(string + "'s")
+    else:
+        is_unique = is_unique_noun(string, is_monster)
+        base = re.sub("^(the|a|an) ", "", string)
+
+        full = "the " + base
+        list.append(full)
+
+        # possessive (for monsters)
+        if is_monster:
+            if is_unique:
+                list.append(possessive(string))
+            else:
+                list.append(possessive(full))
+
+    return list
+
+def append_monster_permutations(list, string):
+    list.extend(get_noun_permutations(string, True))
 
 def is_missile(string):
     for s in ["dart", "boomerang", "javelin", "throwing net", "stone", "large rock", "bullet", "arrow", "bolt"]:
@@ -2358,62 +2111,428 @@ def add_spellbook_article(string):
         # can have a/an
         return article_a(string)
 
-def get_noun_permutations(string, is_monster = False):
-    list = []
-
-    if string.startswith("The "):
-        list.append(string)
-        if is_monster:
-            list.append(string + "'s")
-    else:
-        is_unique = is_unique_noun(string, is_monster)
-        base = re.sub("^(the|a|an) ", "", string)
-
-        full = "the " + base
-        list.append(full)
-
-        # possessive (for monsters)
-        if is_monster:
-            if is_unique:
-                list.append(possessive(string))
-            else:
-                list.append(possessive(full))
-
-    return list
-
-def append_monster_permutations(list, string):
-    list.extend(get_noun_permutations(string, True))
-
-def add_strings_to_output(filename, strings, output):
-    if len(strings) == 0:
-        return
-
-    output.append("")
-    output.append("##################")
-    output.append("# " + filename)
-    output.append("##################")
+# special handling for strings in feature-data.h
+def post_process_feature_data_h(strings):
+    output = []
+    adjectives = []
     for string in strings:
-        # in some cases, string needs to be quoted
-        #   - if it has leading or trailing whitespace
-        #   - if it starts with # (because otherwise it looks like a comment)
-        #   - if it starts and ends with double-quotes
-        if string.startswith('# section:'):
+        if string.startswith('#'):
             output.append(string)
+        elif string.endswith(' door') or string.endswith(' gate'):
+            # we handle door adjectives as separate strings
+            words = separate_adjectives(string)
+            for i in range(len(words)):
+                if i == len(words) - 1:
+                    output.append(words[i]);
+                else:
+                    adjectives.append(words[i])
+        elif string.endswith("golubria"):
+            # the version with a small g is an internal id
             continue
-        elif '# note' in string:
+        elif string in ['explore horizon', 'unseen']:
             output.append(string)
-            continue
-        elif re.search(r'^(\s|#)', string) or  re.search(r'\s$', string) \
-           or (string.startswith(r'\"') and string.endswith('"')):
-            string = '"' + string + '"'
+        elif string.startswith('some '):
+            output.append(string)
+        elif string.startswith('the '):
+            output.append(string)
+        elif string.startswith('a '):
+            output.append("the " + string[2:])
         else:
-            string = string.replace(r'\"', '"')
-        string = string.replace(r'\\', '\\')
+            output.append("the " + string)
 
-        if string in output:
-            output.append('# duplicate: ' + string)
+    output.append("# section: door/gate adjectives")
+    for string in adjectives:
+        output.append(string)
+
+    # do we need plurals?
+
+    return output
+
+# special handling for strings in job-data.h
+def post_process_job_data_h(strings):
+    output = []
+    for string in strings:
+        output.append(article_the(string) if len(string) > 2 else string)
+    return output;
+
+# special handling for strings in mon-data.h
+def post_process_mon_data_h(strings):
+    output = []
+    names = []
+    unique_names = []
+    adjectives = []
+
+    # separate unqiue from non-unique
+    for string in strings:
+        if string.startswith('#'):
+            continue
+        if string.endswith(' '):
+            adjectives.append(string)
+        elif is_unique_monster(string):
+            unique_names.append(string)
         else:
+            names.append(string)
+
+    names.sort()
+    unique_names.sort()
+
+    # adjectives
+    output.append("# section: adjectives")
+    for string in adjectives:
+        output.append(string)
+
+    # singular non-unique
+    output.append("# section: non-unique monsters, singular")
+    for string in names:
+        output.append('the ' + string)
+
+    # singular unique
+    output.append("# section: unique monsters")
+    for string in unique_names:
+        if string.startswith('the '):
             output.append(string)
+        else:
+            output.append('the ' + string)
+
+    # possessive non-unique
+    output.append("# section: non-unique monsters, singular possessive")
+    for string in names:
+        output.append('the ' + possessive(string))
+
+    # possessive unique
+    output.append("# section: unique monsters, possessive")
+    for string in unique_names:
+        if string.startswith('the '):
+            output.append(possessive(string))
+        else:
+            output.append(possessive(string))
+
+    # plural non-unique
+    output.append("# section: non-unique monsters, plural")
+    for string in names:
+        output.append('%d ' + pluralise(string))
+
+    return output
+
+# special handling for strings in item-prop.cc
+def post_process_item_prop_cc(strings):
+    output = []
+    plurals = []
+
+    for string in strings:
+        if string.startswith('#'):
+            # comment
+            output.append(string)
+            continue
+        elif string in ['steam', 'acid', 'quicksilver', 'swamp', 'fire', 'ice', 'pearl', 'storm', 'shadow', 'gold']:
+            string = string + ' dragon scales'
+        elif string == ' dragon scales':
+            # all possibilities covered above
+            continue
+        elif string in ['gloves', 'boots']:
+            string = 'pair of ' + string
+        elif string in ['javelin', 'boomerang']:
+            output.append("the " + string)
+            string = 'silver ' + string
+
+        # stackable items need a plural with count
+        if is_missile(string):
+            plurals.append('%d ' + pluralise(string))
+
+        output.append("the " + string)
+
+    output.extend(plurals)
+    return output
+
+# special handling for strings in item-name.cc
+# you'd think from the filename that everything in here would be a name, but you'd be wrong
+def post_process_item_name_cc(strings):
+    result = []
+    extras1 = []
+    extras2 = []
+    section = ''
+
+    for string in strings:
+        if string.startswith('# section:'):
+            # new section starts
+            result.extend(extras1)
+            result.extend(extras2)
+            extras1 = []
+            extras2 = []
+            section = string.replace('# section:', '').strip()
+        elif string.startswith('#'):
+            string = string # null op
+        elif section in ['_random_vowel', '_random_cons', '_random_consonant_set', 'make_name']:
+            # random-name generation - ignore
+            continue
+        elif '_test' in section:
+            # test stuff
+            continue
+        elif section.endswith('_secondary_string') or section == 'staff_primary_string':
+            # extract adjective as separate word
+            if not string.endswith(' '):
+                string += ' '
+        elif section.endswith('_primary_string'):
+            # primary adjective (closest to the noun)
+            noun = re.sub('_.*', '', section)
+            if not string.endswith(' '):
+                string += ' '
+            string = 'the ' + string + noun
+        elif section == 'item_def::name':
+            if string == ' (in ':
+                result.append(' (in hand)')
+                result.append(' (in claw)')
+                result.append(' (in tentacle)')
+                continue
+            elif string in ['right', 'left']:
+                result.append(' (' + string + ' hand)');
+                result.append(' (' + string + ' claw)');
+                result.append(' (' + string + ' paw)');
+                result.append(' (' + string + ' tentacle)');
+                result.append(' (' + string + ' branch)');
+                result.append(' (' + string + ' front leg)');
+                result.append(' (' + string + ' blade hand)');
+                continue
+        elif section == 'missile_brand_name':
+            if string.endswith(' dart'):
+                extras2.append('%d ' + pluralise(string))
+                string = 'the ' + string
+        elif section == 'weapon_brands_terse':
+            if string == 'confuse':
+                # not a real weapon brand - used on hands for confusing touch
+                continue
+            elif string == 'flame':
+                # terse version also used after "of" (see _item_ego_name in religion.cc)
+                result.append(' of ' + string)
+        elif section == 'weapon_brands_verbose':
+            if string == 'confusion':
+                # not a real weapon brand - used on hands for confusing touch
+                continue
+            elif string in ['vampirism', 'antimagic', 'vorpality', 'spectralizing']:
+                # verbose name is never used (see brand_prefers_adj)
+                continue
+            string = ' of ' + string
+        elif section == 'weapon_brands_adj':
+            # adjectives defined for all, but only used for some (see brand_prefers_adj)
+            if string in ['vampiric', 'antimagic', 'vorpal', 'spectral']:
+                string = string + ' '
+            else:
+                continue
+        elif section == 'armour_ego_name':
+            string = ' of ' + string
+        elif section == 'armour_ego_name(terse)':
+            if string == 'rC+ rF+':
+                # handled as two separate strings
+                continue
+            # the plus is handled separately
+            string = re.sub(r'\+.*', '', string)
+        elif section == '_wand_type_name':
+            string = 'wand of ' + string
+            if not string.endswith('removedness'):
+                # uncounted plural for known items menu
+                extras1.append(pluralise(string))
+            string = 'the ' + string
+        elif section == 'potion_type_name':
+            string = 'potion of ' + string
+            # counted plural for stacks
+            extras2.append('%d ' + pluralise(string))
+            string = 'the ' + string
+        elif section == 'scroll_type_name':
+            string = 'scroll of ' + string
+            # counted plural for stacks
+            extras2.append('%d ' + pluralise(string))
+            string = 'the ' + string
+        elif section == 'jewellery_effect_name':
+            string = ' of ' + string
+        elif section == 'jewellery_effect_name(terse)':
+            # the plus is handled separately
+            string = re.sub(r'\+.*', '', string)
+        elif section == 'rune_type_name':
+            if string in ['mossy', 'elven']:
+                # obsolete
+                continue
+            else:
+                extras1.append('the ' + string + ' rune')
+        elif section == 'misc_type_name':
+            # uncounted plural for known items menu
+            if string != 'horn of Geryon':
+                extras1.append(pluralise(string))
+            string = 'the ' + string
+        elif section == '_book_type_name':
+            if string == 'Fixed Level' or string == 'Fixed Theme':
+                continue
+            string = 'a book of ' + string
+        elif section == 'sub_type_string':
+            if string == 'manual':
+                result.append(string)
+                string = pluralise(string)
+            elif is_spellbook(string):
+                string = add_spellbook_article(string)
+        elif section == 'staff_type_name':
+            extras1.append('staves of ' + string)
+            string = 'the staff of ' + string
+        elif section == 'ghost_brand_name':
+            if string == '%s weapon':
+                string = 'the weapon'
+            elif string == 'weapon of %s':
+                # suffixes handles separately
+                continue
+            elif string == '%s touch':
+                # there's only one possibility
+                string = 'confusing touch'
+        elif section == 'potion_colours':
+            if not string.endswith(' '):
+                string += ' '
+        elif section == 'display_runes':
+            if string == "green":
+                # text colour tag
+                continue
+        elif section == 'item_prefix':
+            # undisplayed, but (supposedly) searchable prefixes
+            # many of these don't even work in English
+            continue
+
+        if string in ['wand of ', 'potion of ', 'scroll of', 'ring of', 'amulet of', 'staff of ', 'book of ']:
+            # all subtypes already covered above
+            continue
+        elif string in [' wand', ' potion', ' ring', ' amulet', ' rune']:
+            # all subtypes already covered above
+            continue
+        elif string == "Orb of Zot":
+            string = "the " + string
+        elif string in ['manual of ', '%s of %s', ' of ', 'of '] or (string.endswith(' of Zot') and string != "The Orb of Zot"):
+            # other "of <foo>" suffixes are handled separately
+            continue
+        elif string == "gold piece":
+            result.append('the ' + string)
+            result.append('%d ' + pluralise(string))
+            continue
+        elif string == 'enchanted %s':
+            # will be handled the other way round, with "enchanted" as added adjective
+            string = 'enchanted '
+        elif string == "damnation ":
+            # there's only one possibility
+            result.append("the damnation bolt")
+            result.append('%d damnation bolts')
+            continue
+        elif string == "labelled ":
+            result.append("the scroll labelled %s")
+            string = "%d scrolls labelled %s"
+        elif string == "x) ":
+            # ignore - just used for size
+            continue
+        elif string == "pair of ":
+            # handled in item-prop.cc
+            continue
+        elif string == "decaying skeleton":
+            # dbname (just used as a lookup key, not displayed)
+            continue
+        elif "bug" in string or "bad item" in string or "bogus" in string:
+            # case that should never happen - ignore
+            continue
+
+        result.append(string)
+
+    result.extend(extras1)
+    result.extend(extras2)
+
+    return result
+
+def post_process(filename, strings):
+    # the strings in some files need special handling
+    canonicalised = True
+    if filename == 'feature-data.h':
+        strings = post_process_feature_data_h(strings)
+    elif filename == 'item-name.cc':
+        strings = post_process_item_name_cc(strings)
+    elif filename == 'item-prop.cc':
+        strings = post_process_item_prop_cc(strings)
+    elif filename == 'job-data.h':
+        strings = post_process_job_data_h(strings)
+    elif filename == 'mon-data.h':
+        strings = post_process_mon_data_h(strings)
+    elif filename != 'art-data.txt':
+        canonicalised = False
+        filtered_strings = []
+        for string in strings:
+            if string.startswith('# note:') or string.startswith('# section:'):
+                filtered_strings.append(string)
+            elif filename == 'species-data.h' and string == "Yak":
+                # error condition
+                continue
+            elif filename == 'player.cc' and string == "%sway":
+                filtered_strings.append("the doorway")
+                filtered_strings.append("the gateway")
+            elif string == "Walk":
+                # species walk verb and associated noun
+                filtered_strings.append(string + "ing")
+                filtered_strings.append(string + "er")
+            elif string == "runed door":
+                # should be covered by feature-data.h, but just in case...
+                words = separate_adjectives(string)
+                filtered_strings.extend(words)
+            elif string.startswith("shaped "):
+                # separate "shaped" out as an adjective
+                filtered_strings.append("shaped ");
+                filtered_strings.append("@monster@ shaped ");
+                append_monster_permutations(filtered_strings, string.replace("shaped ", ""))
+            elif string in ["spectre", "wavering orb of destruction"]:
+                # treat like monsters in mon-data.h
+                append_monster_permutations(filtered_strings, string)
+            elif string == " the pandemonium lord":
+                filtered_strings.append(string.strip())
+            elif string in ["Blork", "gate", "deep water"]:
+                filtered_strings.append("the " + string)
+            elif string == "deck of " or string == "decks of ":
+                if string == "deck of ":
+                    string = "the " + string
+                for suffix in ["destruction", "escape", "summoning", "punishment"]:
+                    filtered_strings.append(string + suffix);
+            elif string == "your stacked deck":
+                filtered_strings.append("the stacked deck")
+                IGNORE_STRINGS.append("a stacked deck")
+                IGNORE_STRINGS.append("stacked deck")
+            elif string.endswith(" Sword"):
+                # alternative names for Singing Sword based on mood
+                filtered_strings.append("the " + string)
+            elif "@medium_attack@" in string and len(medium_attack_verbs) > 0:
+                for verb in medium_attack_verbs:
+                    filtered_strings.append(string.replace("@medium_attack@", verb))
+            elif "@Medium_attack@" in string and len(medium_attack_verbs) > 0:
+                for verb in medium_attack_verbs:
+                    filtered_strings.append(string.replace("@Medium_attack@", verb.capitalize()))
+            elif string == "kneel at" or string == "hover solemnly before":
+                # default prayer action
+                string = PRAY_SENTENCE.replace("%s", string, 1)
+                filtered_strings.append(string)
+            elif string == PRAY_SENTENCE:
+                continue
+            else:
+                filtered_strings.append(string)
+        strings = filtered_strings
+
+    # remove duplicates and strings that should be ignored
+    filtered_strings = []
+    for string in strings:
+        if string.startswith("# section") or string.startswith("# note"):
+            filtered_strings.append(string)
+        elif not ignore_string(string) and string not in filtered_strings:
+            filtered_strings.append(string)
+    strings = filtered_strings
+
+    strings = remove_unnecessary_section_markers(strings)
+
+    if canonicalised:
+        # We will store in canonical form. Other forms will be auto-generated from that.
+        # Add other forms to ignore list so they don't get picked up anywhere else.
+        for string in strings:
+            if re.search("^(the|a|an) ", string) and not string.endswith("'s"):
+                string2 = re.sub("^(the|a|an) ", "", string)
+                IGNORE_STRINGS.append(string2)
+                if string.startswith("the "):
+                    IGNORE_STRINGS.append(article_a(string2))
+
+    return strings
 
 #################
 # Main
@@ -2487,100 +2606,9 @@ for filename in files:
     else:
         strings = process_cplusplus_file(filename)
 
-    # the strings in some files need special handling
-    canonicalised = True
-    if filename == 'feature-data.h':
-        strings = special_handling_for_feature_data_h(strings)
-    elif filename == 'item-name.cc':
-        strings = special_handling_for_item_name_cc(strings)
-    elif filename == 'item-prop.cc':
-        strings = special_handling_for_item_prop_cc(strings)
-    elif filename == 'job-data.h':
-        strings = special_handling_for_job_data_h(strings)
-    elif filename == 'mon-data.h':
-        strings = special_handling_for_mon_data_h(strings)
-    elif filename != 'art-data.txt':
-        canonicalised = False
-        filtered_strings = []
-        for string in strings:
-            if string.startswith('# note:') or string.startswith('# section:'):
-                filtered_strings.append(string)
-            elif filename == 'species-data.h' and string == "Yak":
-                # error condition
-                continue
-            elif filename == 'player.cc' and string == "%sway":
-                filtered_strings.append("the doorway")
-                filtered_strings.append("the gateway")
-            elif string == "Walk":
-                # species walk verb and associated noun
-                filtered_strings.append(string + "ing")
-                filtered_strings.append(string + "er")
-            elif string == "runed door":
-                # should be covered by feature-data.h, but just in case...
-                words = separate_adjectives(string)
-                filtered_strings.extend(words)
-            elif string.startswith("shaped "):
-                # separate "shaped" out as an adjective
-                filtered_strings.append("shaped ");
-                filtered_strings.append("@monster@ shaped ");
-                append_monster_permutations(filtered_strings, string.replace("shaped ", ""))
-            elif string in ["spectre", "wavering orb of destruction"]:
-                # treat like monsters in mon-data.h
-                append_monster_permutations(filtered_strings, string)
-            elif string == " the pandemonium lord":
-                filtered_strings.append(string.strip())
-            elif string in ["Blork", "gate", "deep water"]:
-                filtered_strings.append("the " + string)
-            elif string == "deck of " or string == "decks of ":
-                if string == "deck of ":
-                    string = "the " + string
-                for suffix in ["destruction", "escape", "summoning", "punishment"]:
-                    filtered_strings.append(string + suffix);
-            elif string == "your stacked deck":
-                filtered_strings.append("the stacked deck")
-                IGNORE_STRINGS.append("a stacked deck")
-                IGNORE_STRINGS.append("stacked deck")
-            elif string.endswith(" Sword"):
-                # alternative names for Singing Sword based on mood
-                filtered_strings.append("the " + string)
-            elif "@medium_attack@" in string and len(medium_attack_verbs) > 0:
-                for verb in medium_attack_verbs:
-                    filtered_strings.append(string.replace("@medium_attack@", verb))
-            elif "@Medium_attack@" in string and len(medium_attack_verbs) > 0:
-                for verb in medium_attack_verbs:
-                    filtered_strings.append(string.replace("@Medium_attack@", verb.capitalize()))
-            elif string == "kneel at" or string == "hover solemnly before":
-                # default prayer action
-                string = PRAY_SENTENCE.replace("%s", string, 1)
-                filtered_strings.append(string)
-            elif string == PRAY_SENTENCE:
-                continue
-            else:
-                filtered_strings.append(string)
-        strings = filtered_strings
-
-    # remove duplicates and strings that should be ignored
-    filtered_strings = []
-    for string in strings:
-        if string.startswith("# section") or string.startswith("# note"):
-            filtered_strings.append(string)
-        elif not ignore_string(string) and string not in filtered_strings:
-            filtered_strings.append(string)
-    strings = filtered_strings
-
-    strings = remove_unnecessary_section_markers(strings)
+    strings = post_process(filename, strings)
 
     add_strings_to_output(filename, strings, output)
-
-    if canonicalised:
-        # We will store in canonical form. Other forms will be auto-generated from that.
-        # Add other forms to ignore list so they don't get picked up anywhere else.
-        for string in strings:
-            if re.search("^(the|a|an) ", string) and not string.endswith("'s"):
-                string2 = re.sub("^(the|a|an) ", "", string)
-                IGNORE_STRINGS.append(string2)
-                if string.startswith("the "):
-                    IGNORE_STRINGS.append(article_a(string2))
 
 for line in output:
     print(line)
