@@ -2751,16 +2751,34 @@ static string _resolve_named_parameter(const map<string, string>& params, const 
     {
         if (starts_with(name, prefix + "_"))
         {
-            string name_plain = name.substr(prefix.length() + 1);
-            const string* value = map_find(params, name_plain);
+            // check if there's a definition without the determiner
+            string alt_name = replace_first(name, prefix + "_", "");
+            const string* value = map_find(params, alt_name);
             if (value)
             {
+                // add the determiner
                 if (value->empty())
                     return "";
                 else if (prefix == "a")
                     return article_a(*value);
                 else
                     return prefix + " " + *value;
+            }
+        }
+        else
+        {
+            // check if there's a definition with the determiner
+            string alt_name = prefix + "_" + name;
+            const string* value = map_find(params, alt_name);
+            if (value)
+            {
+                // remove the determiner
+                if (starts_with(*value, prefix + " "))
+                    return replace_first(*value, prefix + " ", "");
+                else if (prefix == "a" && starts_with(*value, "an "))
+                    return replace_first(*value, "an ", "");
+                else
+                    return *value;
             }
         }
     }

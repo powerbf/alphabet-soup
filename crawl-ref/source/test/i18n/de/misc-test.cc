@@ -337,6 +337,14 @@ int main()
     msg = localise("The entrance to this branch can be found %s.", place);
     show_result(msg, "Der Eingang dieses Bereichs kann zwischen Ebenen 3 und 8 des Kerkers gefunden werden.");
 
+    // test adding determiner
+    msg = localise("@your_hand@", {{"hand", "paw"}});
+    show_result(msg, "deine Pfote");
+
+    // test removing determiner
+    msg = localise("@hands@", {{"your_hands", "your hands"}});
+    show_result(msg, "Hände");
+
     msg = localise("Sparks fly from your @hands@", {{"hands", "hands"}});
     show_result(msg, "Funken fliegen aus deinen Händen");
 
