@@ -251,6 +251,94 @@ def do_any_2_actors_message(verb, suffix):
 # String extraction functions
 ################################
 
+# should string be ignored?
+def ignore_string(string):
+    # ignore empty string
+    if string == '':
+        return True
+
+    # ignore articles, pronouns, etc.
+    if string in IGNORE_STRINGS:
+        return True
+
+    # the name of the game
+    if string.startswith('Crawl'):
+        return True
+
+    # ignore strings that are just whitespace
+    if re.match(r'^\s*$', string):
+        return True
+
+    # ignore opengl functions
+    if re.match(r'^gl[A-Z]', string):
+        return True
+
+    # ignore HTML and formatted text tags
+    if re.match(r'^(\s|\[|\]|\(|\))*</?[^<>/]+>(\s|\[|\]|\(|\))*$', string):
+        return True
+
+    # ignore variable names
+    if re.match(r'^\s*@[A-Za-z0-9_]+@?\s*$', string):
+        return True
+
+    # ignore identifiers
+    if '_' in string and re.match(r"^[A-Za-z0-9_\- ']+$", string):
+        return True
+    if 'Gozag bribe' in string or 'Gozag permabribe' in string:
+        return True
+    if string == 'passage of golubria': # display name has uppercase G
+        return True
+
+    # ignore bug-catching stuff
+    if 'INVALID' in string or 'DUMMY' in string or 'eggplant' in string:
+        return True
+    if re.search('bug', string, re.I) and 'bug-like' not in string \
+       and 'bug report' not in string and 'program bug' not in string \
+       and not re.search('debug', string, re.I):
+        return True
+
+    # ignore debug stuff
+    if 'gdb' in string or 'Git' in string:
+        return True
+
+    # ignore filenames and file extensions
+    if re.match(r'^[A-Za-z0-9_\-\/]*\.[A-Za-z]{1,4}$', string):
+        return True
+
+    # ignore format strings without any actual text
+    temp = re.sub(r'%[\-\+ #0]?[\*0-9]*(\.[\*0-9]*)?(hh|h|l|ll|j|z|t|L)?[diuoxXfFeEgGaAcspn]', '', string)
+    temp = re.sub('0x', '', temp); # Hexadecimal number indicator
+    if not re.search(r'(?<!\\)[a-zA-Z]', temp):
+        return True
+
+    # ignore punctuation
+    #if re.match(r'^[!\.\?]+$', string):
+    #    return True
+
+    return False
+
+
+# should section be ignored?
+def ignore_section(filename, section):
+    if filename == 'acquire.cc':
+        if section == '_why_reject':
+            # debug messages
+            return True
+    elif filename == 'artefact.cc':
+        if section in ['replace_name_parts']:
+            return True
+    elif filename == 'delay.cc':
+        if section == 'activity_interrupt_names':
+            # internal identifiers
+            return True
+    elif filename == 'lookup-help.cc':
+        if re.match(r'^_(get|recap)[a-z_]*keys?$', section):
+            # db keys
+            return True
+
+    return False
+
+
 # process art-data.txt
 def process_art_data_txt():
     infile = open('art-data.txt')
@@ -820,38 +908,26 @@ def insert_section_markers(filename, lines):
 # any leading or trailing whitespace is removed
 def get_relevant_lines(filename, lines):
     result = []
-    ignoring = False
+    explicit_ignore = False
+    implicit_ignore = False
     section = ''
     for line in lines:
         # ignore sections explicitly marked as not to be extracted
         if 'noloc section' in line:
             if 'noloc section start' in line:
-                ignoring = True
+                explicit_ignore = True
             if 'noloc section end' in line:
-                ignoring = False
-            continue
-
-        if ignoring and not re.search(r'//[ @]*(localise|locsection)\b', line):
+                explicit_ignore = False
             continue
 
         if '@locsection' in line:
             section = re.sub('.*@locsection: *', '', line);
+            implicit_ignore = ignore_section(filename, section)
 
-        if filename == 'acquire.cc':
-            # ignore - debug messages
-            if section == '_why_reject':
-                continue
-        elif filename == 'artefact.cc':
-            if section in ['replace_name_parts']:
-                continue
-        elif filename == 'delay.cc':
-            # ignore - internal identifiers
-            if section == 'activity_interrupt_names':
-                continue
-        elif filename == 'lookup-help.cc':
-            # ignore - db keys
-            if re.match(r'^_(get|recap)[a-z_]*keys?$', section):
-                continue
+        ignore = implicit_ignore or explicit_ignore
+
+        if ignore and not re.search(r'//[ @]*localise\b', line):
+            continue
 
         if '//' in line:
             result.append(line.strip())
@@ -883,72 +959,6 @@ def get_relevant_lines(filename, lines):
 
     return result
 
-
-# should string be ignored?
-def ignore_string(string):
-    # ignore empty string
-    if string == '':
-        return True
-
-    # ignore articles, pronouns, etc.
-    if string in IGNORE_STRINGS:
-        return True
-
-    # the name of the game
-    if string.startswith('Crawl'):
-        return True
-
-    # ignore strings that are just whitespace
-    if re.match(r'^\s*$', string):
-        return True
-
-    # ignore opengl functions
-    if re.match(r'^gl[A-Z]', string):
-        return True
-
-    # ignore HTML and formatted text tags
-    if re.match(r'^(\s|\[|\]|\(|\))*</?[^<>/]+>(\s|\[|\]|\(|\))*$', string):
-        return True
-
-    # ignore variable names
-    if re.match(r'^\s*@[A-Za-z0-9_]+@?\s*$', string):
-        return True
-
-    # ignore identifiers
-    if '_' in string and re.match(r"^[A-Za-z0-9_\- ']+$", string):
-        return True
-    if 'Gozag bribe' in string or 'Gozag permabribe' in string:
-        return True
-    if string == 'passage of golubria': # display name has uppercase G
-        return True
-
-    # ignore bug-catching stuff
-    if 'INVALID' in string or 'DUMMY' in string or 'eggplant' in string:
-        return True
-    if re.search('bug', string, re.I) and 'bug-like' not in string \
-       and 'bug report' not in string and 'program bug' not in string \
-       and not re.search('debug', string, re.I):
-        return True
-
-    # ignore debug stuff
-    if 'gdb' in string or 'Git' in string:
-        return True
-
-    # ignore filenames and file extensions
-    if re.match(r'^[A-Za-z0-9_\-\/]*\.[A-Za-z]{1,4}$', string):
-        return True
-
-    # ignore format strings without any actual text
-    temp = re.sub(r'%[\-\+ #0]?[\*0-9]*(\.[\*0-9]*)?(hh|h|l|ll|j|z|t|L)?[diuoxXfFeEgGaAcspn]', '', string)
-    temp = re.sub('0x', '', temp); # Hexadecimal number indicator
-    if not re.search(r'(?<!\\)[a-zA-Z]', temp):
-        return True
-
-    # ignore punctuation
-    #if re.match(r'^[!\.\?]+$', string):
-    #    return True
-
-    return False
 
 # tokenize line into string and non-string
 def tokenize_cplusplus_line(line):
