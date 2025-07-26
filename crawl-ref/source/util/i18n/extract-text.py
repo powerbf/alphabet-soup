@@ -2185,8 +2185,6 @@ def process_cplusplus_file(filename):
             else:
                 if 'our @hand' in string:
                     # create strings for one and two hands (coz Ru)
-                    string = string.replace('your @hand', '@your_hand')
-                    string = string.replace('Your @hand', '@Your_hand')
                     string2 = string.replace('hands@', 'hand@')
                     string2 = string2.replace('@hand_conj@', 's')
                     string = string.replace('@hand_conj@', '')
@@ -2282,7 +2280,7 @@ def pluralise(string):
     elif string.endswith("djinni"):
         return string[:-1]
     elif string.endswith("foot"):
-        return string[:-4] + feet
+        return string[:-4] + "feet"
     elif re.search('(ophan|cherub|seraph)$', string):
         return string + "im"
     elif string.endswith("arachi"):

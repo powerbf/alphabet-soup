@@ -166,14 +166,14 @@ Unbekannt
 "Willkommen, %s. "
 %%%%
 You are @a_species@.
-Du bist @species@.
+Du bist @a_species@.
 %%%%
 You are @a_background@.
-Du bist @background@.
+Du bist @a_background@.
 %%%%
 # combo = species + background
 You are @a_combo@.
-Du bist @combo@.
+Du bist @a_combo@.
 %%%%
 Please select your species.
 Bitte wähle deine Spezies.

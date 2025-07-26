@@ -48,11 +48,12 @@ static void _do_msg(actor& target, miscast_datum effect, int dam)
     else
         msg = *random_iterator(effect.monster_unseen_messages);
 
-    bool can_plural;
-    string hand = target.hand_name(false, &can_plural);
+    bool plural;
+
+    string hand = target.hand_name(false, &plural);
     string hands = target.hand_name(true);
 
-    if (can_plural)
+    if (plural)
         msg = replace_all(msg, "@hand_conj@", "");
     else
     {

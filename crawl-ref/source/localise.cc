@@ -2751,16 +2751,34 @@ static string _resolve_named_parameter(const map<string, string>& params, const 
     {
         if (starts_with(name, prefix + "_"))
         {
-            string name_plain = name.substr(prefix.length() + 1);
-            const string* value = map_find(params, name_plain);
+            // check if there's a definition without the determiner
+            string alt_name = replace_first(name, prefix + "_", "");
+            const string* value = map_find(params, alt_name);
             if (value)
             {
+                // add the determiner
                 if (value->empty())
                     return "";
                 else if (prefix == "a")
                     return article_a(*value);
                 else
                     return prefix + " " + *value;
+            }
+        }
+        else
+        {
+            // check if there's a definition with the determiner
+            string alt_name = prefix + "_" + name;
+            const string* value = map_find(params, alt_name);
+            if (value)
+            {
+                // remove the determiner
+                if (starts_with(*value, prefix + " "))
+                    return replace_first(*value, prefix + " ", "");
+                else if (prefix == "a" && starts_with(*value, "an "))
+                    return replace_first(*value, "an ", "");
+                else
+                    return *value;
             }
         }
     }
@@ -2774,27 +2792,19 @@ static string _resolve_named_parameter(const map<string, string>& params, const 
  */
 static void _fix_parameters(string& text, map<string, string>& params)
 {
-    if (contains(text, "your @") || contains(text, "Your @"))
+    // If player has sacrificed a hand to Ru, they will only have one hand.
+    if (contains(text, "@hands@"))
     {
-        // make sure hand number is right (because player may have sacrificed one to Ru)
-        if (contains(text, "your @hands@") || contains(text, "Your @hands@"))
+        const string* hands = map_find(params, "hands");
+        if (hands != nullptr && !hands->empty())
         {
-            const string* hands = map_find(params, "hands");
-            if (hands != nullptr && !hands->empty())
+            if (!ends_with(*hands, "s") && !ends_with(*hands, "ae"))
             {
-                if (!ends_with(*hands, "s") && !ends_with(*hands, "ae"))
-                {
-                    // actually singular
-                    text = replace_all(text, "@hands@", "@hand@");
-                    params["hand"] = *hands;
-                }
+                // actually singular
+                text = replace_all(text, "@hands@", "@hand@");
+                params["hand"] = *hands;
             }
         }
-
-        // Translation of "your" may vary depending on grammatical gender/case,
-        // so we need to make the parameter @your_foo@ instead of your @foo@.
-        text = replace_all(text, "your @hand", "@your_hand");
-        text = replace_all(text, "Your @hand", "@Your_hand");
     }
 }
 
