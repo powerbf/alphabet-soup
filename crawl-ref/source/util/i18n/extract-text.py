@@ -2453,72 +2453,73 @@ def post_process(filename, strings):
         strings = post_process_mon_data_h(strings)
     elif filename != 'art-data.txt':
         canonicalised = False
-        filtered_strings = []
-        for string in strings:
+        old_strings = strings
+        strings = []
+        for string in old_strings:
             if string.startswith('# note:') or string.startswith('# section:'):
-                filtered_strings.append(string)
+                strings.append(string)
             elif filename == 'species-data.h' and string == "Yak":
                 # error condition
                 continue
             elif filename == 'player.cc' and string == "%sway":
-                filtered_strings.append("the doorway")
-                filtered_strings.append("the gateway")
+                strings.append("the doorway")
+                strings.append("the gateway")
             elif string == "Walk":
                 # species walk verb and associated noun
-                filtered_strings.append(string + "ing")
-                filtered_strings.append(string + "er")
+                strings.append(string + "ing")
+                strings.append(string + "er")
             elif string == "runed door":
                 # should be covered by feature-data.h, but just in case...
                 words = separate_adjectives(string)
-                filtered_strings.extend(words)
+                strings.extend(words)
             elif string.startswith("shaped "):
                 # separate "shaped" out as an adjective
-                filtered_strings.append("shaped ");
-                filtered_strings.append("@monster@ shaped ");
-                append_monster_permutations(filtered_strings, string.replace("shaped ", ""))
+                strings.append("shaped ");
+                strings.append("@monster@ shaped ");
+                append_monster_permutations(strings, string.replace("shaped ", ""))
             elif string in ["spectre", "wavering orb of destruction"]:
                 # treat like monsters in mon-data.h
-                append_monster_permutations(filtered_strings, string)
+                append_monster_permutations(strings, string)
             elif string == " the pandemonium lord":
-                filtered_strings.append(string.strip())
+                strings.append(string.strip())
             elif string in ["Blork", "gate", "deep water"]:
-                filtered_strings.append(article_the(string))
+                strings.append(article_the(string))
             elif string == "deck of " or string == "decks of ":
                 if string == "deck of ":
                     string = article_the(string)
                 for suffix in ["destruction", "escape", "summoning", "punishment"]:
-                    filtered_strings.append(string + suffix);
+                    strings.append(string + suffix);
             elif string == "your stacked deck":
-                filtered_strings.append("the stacked deck")
+                strings.append("the stacked deck")
                 IGNORE_STRINGS.append("a stacked deck")
                 IGNORE_STRINGS.append("stacked deck")
             elif string.endswith(" Sword"):
                 # alternative names for Singing Sword based on mood
-                filtered_strings.append(article_the(string))
+                strings.append(article_the(string))
             elif "@medium_attack@" in string and len(medium_attack_verbs) > 0:
                 for verb in medium_attack_verbs:
-                    filtered_strings.append(string.replace("@medium_attack@", verb))
+                    strings.append(string.replace("@medium_attack@", verb))
             elif "@Medium_attack@" in string and len(medium_attack_verbs) > 0:
                 for verb in medium_attack_verbs:
-                    filtered_strings.append(string.replace("@Medium_attack@", verb.capitalize()))
+                    strings.append(string.replace("@Medium_attack@", verb.capitalize()))
             elif string == "kneel at" or string == "hover solemnly before":
                 # default prayer action
                 string = PRAY_SENTENCE.replace("%s", string, 1)
-                filtered_strings.append(string)
+                strings.append(string)
             elif string == PRAY_SENTENCE:
                 continue
             else:
-                filtered_strings.append(string)
-        strings = filtered_strings
+                strings.append(string)
+        
 
     # remove duplicates and strings that should be ignored
-    filtered_strings = []
-    for string in strings:
+    old_strings = strings
+    strings = []
+    for string in old_strings:
         if string.startswith("# section") or string.startswith("# note"):
-            filtered_strings.append(string)
-        elif not ignore_string(string) and string not in filtered_strings:
-            filtered_strings.append(string)
-    strings = filtered_strings
+            strings.append(string)
+        elif not ignore_string(string) and string not in strings:
+            strings.append(string)
 
     strings = remove_unnecessary_section_markers(strings)
 
