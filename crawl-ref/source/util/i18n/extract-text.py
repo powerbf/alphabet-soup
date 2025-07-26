@@ -318,19 +318,16 @@ def ignore_string(string):
     return False
 
 
+IGNORE_SECTIONS = {
+    'acquire.cc':       ['_why_reject'],
+    'artefact.cc':      ['replace_name_parts'],
+    'delay.cc':         ['activity_interrupt_names'],
+}
+
 # should section be ignored?
 def ignore_section(filename, section):
-    if filename == 'acquire.cc':
-        if section == '_why_reject':
-            # debug messages
-            return True
-    elif filename == 'artefact.cc':
-        if section in ['replace_name_parts']:
-            return True
-    elif filename == 'delay.cc':
-        if section == 'activity_interrupt_names':
-            # internal identifiers
-            return True
+    if filename in IGNORE_SECTIONS and section in IGNORE_SECTIONS[filename]:
+        return True
     elif filename == 'lookup-help.cc':
         if re.match(r'^_(get|recap)[a-z_]*keys?$', section):
             # db keys
