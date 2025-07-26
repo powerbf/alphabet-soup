@@ -7,7 +7,6 @@
 # there's an explicit reason to do so.
 #
 # It understands certain directives placed in single-line comments:
-#   @locnote: blah = include a comment for the translators with the extracted strings
 #   @noloc = do not extract strings on this line
 #   @noloc section start = stop extracting strings from this line onwards
 #   @noloc section end = resume extracting strings
@@ -665,7 +664,7 @@ def get_cleaned_file_contents(filename):
 
         # strip single-line comments, apart from those that have directives for this script
         if '//' in line:
-            if not re.search(r'//.*(locnote|noloc)', line) and not re.search(r'//[ @]*localise\b', line):
+            if not re.search(r'//.*noloc', line) and not re.search(r'//[ @]*localise\b', line):
                 line = strip_line_comment(line)
                 if line == '':
                     continue
@@ -808,11 +807,7 @@ def insert_section_markers(filename, lines):
                 section = 'item_def::name_aux'
 
         if section != last_section:
-            if len(result) > 0 and '@locnote' in result[-1]:
-                # make sure note is within the section
-                result.insert(-1, '// @locsection: ' + section)
-            else:
-                result.append('// @locsection: ' + section)
+            result.append('// @locsection: ' + section)
             last_section = section
 
         result.append(line)
@@ -1458,15 +1453,7 @@ def process_cplusplus_file(filename):
         #sys.stderr.write(line + "\n")
 
         if '//' in line:
-            if 'locnote' in line:
-                if section != last_section:
-                    strings.append('# section: ' + section)
-                    last_section = section
-                note = re.sub(r'^.*locnote: *', '# note: ', line)
-                strings.append(note)
-                line = strip_line_comment(line)
-                line = line.strip()
-            elif '@locsection' in line:
+            if '@locsection' in line:
                 section = re.sub(r'^.*locsection:? *', '', line)
                 continue
 
