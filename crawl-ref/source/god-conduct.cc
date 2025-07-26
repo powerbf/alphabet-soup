@@ -69,7 +69,6 @@ god_conduct_trigger::~god_conduct_trigger()
         did_god_conduct(conduct, pgain, known, victim.get());
 }
 
-// @noloc section start (only used for debug message)
 static const char *conducts[] =
 {
     "",
@@ -84,7 +83,6 @@ static const char *conducts[] =
     "Sacrificed Love", "Channel", "Hurt Foe", "Use Wizardly Item",
 };
 COMPILE_CHECK(ARRAYSZ(conducts) == NUM_CONDUCTS);
-// @noloc section end
 
 /**
  * Change piety & add penance in response to a conduct.

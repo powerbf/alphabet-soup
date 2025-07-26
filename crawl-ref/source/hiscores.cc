@@ -666,8 +666,6 @@ static void _hs_write(FILE *scores, scorefile_entry &se)
     fprintf(scores, "%s", se.raw_string().c_str());
 }
 
-// @noloc section start (these strings never displayed)
-
 static const char *kill_method_names[] =
 {
     "mon", "pois", "cloud", "beam", "lava", "water",
@@ -681,8 +679,6 @@ static const char *kill_method_names[] =
     "mirror_damage", "spines", "frailty", "barbs", "being_thrown",
     "collision", "zot", "constriction",
 };
-
-// @noloc section end
 
 static const char *_kill_method_name(kill_method_type kmt)
 {
@@ -900,7 +896,6 @@ enum old_job_type
 
 static const char* _job_name(int job)
 {
-    // @noloc section start (obsolete jobs)
     switch (job)
     {
     case OLD_JOB_THIEF:
@@ -922,14 +917,12 @@ static const char* _job_name(int job)
     case OLD_JOB_SKALD:
         return "Skald";
     }
-    // @noloc section end
 
     return get_job_name(static_cast<job_type>(job));
 }
 
 static const char* _job_abbrev(int job)
 {
-    // @noloc section start (obsolete jobs)
     switch (job)
     {
     case OLD_JOB_THIEF:
@@ -951,7 +944,6 @@ static const char* _job_abbrev(int job)
     case OLD_JOB_SKALD:
         return "Sk";
     }
-    // @noloc section end
 
     return get_job_abbrev(static_cast<job_type>(job));
 }
@@ -986,7 +978,6 @@ enum old_species_type
 
 static string _species_name(int race)
 {
-    // @noloc section start (obsolete races)
     switch (race)
     {
     case OLD_SP_ELF: return "Elf";
@@ -999,7 +990,6 @@ static string _species_name(int race)
     case OLD_SP_DJINNI: return "Djinni";
     case OLD_SP_LAVA_ORC: return "Lava Orc";
     }
-    // @noloc section end
 
     // Guard against an ASSERT in get_species_def; it's really bad if the game
     // crashes at this point while trying to clean up a dead/quit player.
@@ -1012,7 +1002,6 @@ static string _species_name(int race)
 
 static const char* _species_abbrev(int race)
 {
-    // @noloc section start (obsolete races)
     switch (race)
     {
     case OLD_SP_ELF: return "El";
@@ -1025,7 +1014,6 @@ static const char* _species_abbrev(int race)
     case OLD_SP_DJINNI: return "Dj";
     case OLD_SP_LAVA_ORC: return "LO";
     }
-    // @noloc section end
 
     // see note in _species_name: don't ASSERT in get_species_def.
     if (race < 0 || race >= NUM_SPECIES)
@@ -1398,12 +1386,10 @@ static void _deconstruct_summoner_phrase(const string &s, string& phrase, string
  */
 static void _deconstruct_shooter_phrase(const string &s, string& phrase, string &missile, string& shooter)
 {
-    // @noloc section start
     static const string hit_by = "Hit by ";
     static const string thrown_by = " thrown by ";
     static const string shot_with = "Shot with ";
     static const string by = " by ";
-    // @noloc section end
 
     if (starts_with(s, hit_by))
     {
@@ -1962,13 +1948,11 @@ string scorefile_entry::strip_article_a(const string &s) const
 
 string scorefile_entry::terse_missile_name() const
 {
-    // @noloc section start
     const string pre_post[][2] =
     {
         { "Shot with ", " by " },
         { "Hit by ",     " thrown by " }
     };
-    // @noloc section end
     const string &aux = auxkilldata;
     string missile;
 

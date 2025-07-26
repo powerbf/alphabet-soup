@@ -319,9 +319,28 @@ def ignore_string(string):
 
 
 IGNORE_SECTIONS = {
-    'acquire.cc':       ['_why_reject'],
+    'acquire.cc':       ['_why_reject'],        # debug messages
+    'arena.cc':         ['arena_tee'],          # arena dumpfile stuff
     'artefact.cc':      ['replace_name_parts'],
+    'command.cc':       [
+        # diagnostic stuff
+        'features', '_get_version_information', '_get_version_features', '_get_version_changes', 
+        '_add_movement_diagram',                # same for all languages
+    ],
+    # internal identifiers
     'delay.cc':         ['activity_interrupt_names'],
+    'god-abil.cc':      [
+        '_god_blessing_description',            # milestones
+        '_gozag_shop_spec',                     # internal identifiers
+    ],
+    'god-conduct.cc':   ['conducts'],           # debug
+    'hiscores.cc':      [
+        'kill_method_names',                    # scorefile stuff (never displayed)
+        '_job_name', '_job_abbrev',             # obsolete jobs (backgrounds)
+        '_species_name', '_species_abbrev',     # obsolete species
+        '_deconstruct_shooter_phrase',          # search strings
+        'scorefile_entry::terse_missile_name',  # search strings
+    ],
 }
 
 # should section be ignored?
@@ -875,9 +894,9 @@ def insert_section_markers(filename, lines):
         if '(' in line and not line.endswith(';') and re.search('^[a-zA-Z]', line):
             # function/method
             section = re.sub('^.*[ *]', '', re.sub(r' *\(.*', '', line))
-        elif line.startswith('class '):
+        elif line.startswith('class ') or (section == None and line.strip().startswith('class ')):
             # class
-            section = re.sub('[ :].*', '', re.sub('^class *', '', line))
+            section = re.sub('[ :].*', '', re.sub('^class *', '', line.strip()))
         elif line.startswith('static ') and re.search(r'\[\] *=', line):
             # static data
             section = re.sub('^.*[ *]', '', re.sub(r'\[\] *=.*', '', line))

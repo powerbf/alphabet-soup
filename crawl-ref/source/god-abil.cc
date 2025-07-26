@@ -109,7 +109,6 @@ bool can_do_capstone_ability(god_type god)
 
 static const char *_god_blessing_description(god_type god)
 {
-    // @noloc section start (milestones)
     switch (god)
     {
     case GOD_SHINING_ONE:
@@ -121,7 +120,6 @@ static const char *_god_blessing_description(god_type god)
     default:
         return "touched by the gods";
     }
-    // @noloc section end
 }
 
 /**
@@ -3020,7 +3018,6 @@ static int _gozag_choose_shop()
  */
 static string _gozag_shop_spec(int index)
 {
-    // @noloc section start (internal identifiers)
     const shop_type type = _gozag_shop_type(index);
     const string name =
         you.props[make_stringf(GOZAG_SHOPKEEPER_NAME_KEY, index)];
@@ -3036,7 +3033,6 @@ static string _gozag_shop_spec(int index)
                         shoptype_to_str(type),
                         replace_all(name, " ", "_").c_str(),
                         suffix.c_str());
-    // @noloc section end
 }
 
 /**

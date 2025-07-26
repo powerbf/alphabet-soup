@@ -49,7 +49,6 @@ using namespace ui;
 
 #define ARENA_VERBOSE
 
-// @noloc section start (dumpfile stuff)
 namespace msg
 {
     // wrap a message tee around a file ptr, which can be null.
@@ -117,7 +116,6 @@ namespace msg
         FILE **file;
     };
 }
-// @noloc section end (dumpfile stuff)
 
 extern void world_reacts();
 
@@ -346,7 +344,6 @@ namespace arena
 
     static void center_print(unsigned sz, string text, int number = -1)
     {
-        // @noloc section start
         if (number >= 0)
             text = make_stringf("(%d) %s", number, text.c_str());
 
@@ -355,7 +352,6 @@ namespace arena
             text = chop_string(text, len = sz);
 
         cprintf("%s%s", string((sz - len) / 2, ' ').c_str(), text.c_str());
-        // @noloc section end
     }
 
     static void setup_level()

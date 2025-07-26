@@ -44,8 +44,6 @@ using namespace ui;
  #include "rltiles/tiledef-gui.h"
 #endif
 
-// @noloc section start (diagnostic stuff)
-
 static const char *features[] =
 {
 #ifdef CLUA_BINDINGS
@@ -197,7 +195,6 @@ static string _get_version_changes()
 
     return result;
 }
-// @noloc section end (diagnostic stuff)
 
 //#define DEBUG_FILES
 static void _print_version()
@@ -552,8 +549,6 @@ static void _add_formatted_help_menu(column_composer &cols)
 
 static void _add_movement_diagram(column_composer &cols)
 {
-    // i18n: This should be the same regardless of language
-    // @noloc section start
     _add_insert_commands(cols, 0, "                 <w>7 8 9      % % %",
                          { CMD_MOVE_UP_LEFT, CMD_MOVE_UP, CMD_MOVE_UP_RIGHT });
     _add_insert_commands(cols, 0, "                  \\|/        \\|/", {});
@@ -564,7 +559,6 @@ static void _add_movement_diagram(column_composer &cols)
     _add_insert_commands(cols, 0, "                 <w>1 2 3      % % %",
                          { CMD_MOVE_DOWN_LEFT, CMD_MOVE_DOWN,
                            CMD_MOVE_DOWN_RIGHT });
-    // @noloc section end
  }
 
 static void _add_formatted_keyhelp(column_composer &cols)
