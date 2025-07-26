@@ -14611,10 +14611,10 @@ Something is bathed in an unholy light!
 # spl-miscast.cc
 ##################
 %%%%
-Sparks fly from @your_hand@
+Sparks fly from your @hand@
 
 %%%%
-Sparks fly from @your_hands@
+Sparks fly from your @hands@
 
 %%%%
 The air around you crackles with energy
@@ -14926,10 +14926,10 @@ Heat runs through your body
 You feel uncomfortably hot
 
 %%%%
-Fire whirls out from @your_hand@
+Fire whirls out from your @hand@
 
 %%%%
-Fire whirls out from @your_hands@
+Fire whirls out from your @hands@
 
 %%%%
 Flames sear your flesh
@@ -14986,10 +14986,10 @@ A large flame burns hotly for a moment in the thin air
 A chill runs through your body
 
 %%%%
-@Your_hand@ feels numb with cold
+Your @hand@ feels numb with cold
 
 %%%%
-@Your_hands@ feel numb with cold
+Your @hands@ feel numb with cold
 
 %%%%
 You feel uncomfortably cold
@@ -15100,10 +15100,10 @@ Electrical discharges explode from out of thin air
 The air madly twists around a spot
 
 %%%%
-Sand pours from @your_hand@
+Sand pours from your @hand@
 
 %%%%
-Sand pours from @your_hands@
+Sand pours from your @hands@
 
 %%%%
 You feel a surge of energy from the ground

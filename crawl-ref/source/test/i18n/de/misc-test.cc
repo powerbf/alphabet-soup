@@ -343,6 +343,12 @@ int main()
     msg = localise("Sparks fly from your @hands@", {{"hands", "hand"}});
     show_result(msg, "Funken fliegen aus deiner Hand");
 
+    msg = localise("Your @hands@ feel numb with cold", {{"hands", "paws"}});
+    show_result(msg, "Deine Pfoten sind taub vor Kälte");
+
+    msg = localise("Your @hand@ feels numb with cold", {{"hand", "paw"}});
+    show_result(msg, "Deine Pfote ist taub vor Kälte");
+
     msg = localise("You cannot do that while held in a net.");
     show_result(msg, "Das kannst du nicht, solange du in einem Netz gefangen bist.");
 

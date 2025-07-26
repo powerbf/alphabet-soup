@@ -2774,27 +2774,19 @@ static string _resolve_named_parameter(const map<string, string>& params, const 
  */
 static void _fix_parameters(string& text, map<string, string>& params)
 {
-    if (contains(text, "your @") || contains(text, "Your @"))
+    // If player has sacrificed a hand to Ru, they will only have one hand.
+    if (contains(text, "@hands@"))
     {
-        // make sure hand number is right (because player may have sacrificed one to Ru)
-        if (contains(text, "your @hands@") || contains(text, "Your @hands@"))
+        const string* hands = map_find(params, "hands");
+        if (hands != nullptr && !hands->empty())
         {
-            const string* hands = map_find(params, "hands");
-            if (hands != nullptr && !hands->empty())
+            if (!ends_with(*hands, "s") && !ends_with(*hands, "ae"))
             {
-                if (!ends_with(*hands, "s") && !ends_with(*hands, "ae"))
-                {
-                    // actually singular
-                    text = replace_all(text, "@hands@", "@hand@");
-                    params["hand"] = *hands;
-                }
+                // actually singular
+                text = replace_all(text, "@hands@", "@hand@");
+                params["hand"] = *hands;
             }
         }
-
-        // Translation of "your" may vary depending on grammatical gender/case,
-        // so we need to make the parameter @your_foo@ instead of your @foo@.
-        text = replace_all(text, "your @hand", "@your_hand");
-        text = replace_all(text, "Your @hand", "@Your_hand");
     }
 }
 

@@ -14611,10 +14611,10 @@ Etwas wird in ein unheiliges Licht getaucht!
 # spl-miscast.cc
 ##################
 %%%%
-Sparks fly from @your_hand@
+Sparks fly from your @hand@
 Funken fliegen aus {dat}@your_hand@
 %%%%
-Sparks fly from @your_hands@
+Sparks fly from your @hands@
 Funken fliegen aus {dat}@your_hands@
 %%%%
 The air around you crackles with energy
@@ -14926,10 +14926,10 @@ Hitze läuft durch deinen Körper
 You feel uncomfortably hot
 Dir ist unangenehm heiß
 %%%%
-Fire whirls out from @your_hand@
+Fire whirls out from your @hand@
 Feuer wirbelt aus @your_hand@ heraus
 %%%%
-Fire whirls out from @your_hands@
+Fire whirls out from your @hands@
 Feuer wirbelt aus @your_hands@ heraus
 %%%%
 Flames sear your flesh
@@ -14986,10 +14986,10 @@ Eine große Flamme brennt einen Moment lang heiß in der leeren Luft
 A chill runs through your body
 Ein Schauer läuft durch deinen Körper
 %%%%
-@Your_hand@ feels numb with cold
+Your @hand@ feels numb with cold
 @Your_hand@ ist taub vor Kälte
 %%%%
-@Your_hands@ feel numb with cold
+Your @hands@ feel numb with cold
 @Your_hands@ sind taub vor Kälte
 %%%%
 You feel uncomfortably cold
@@ -15100,10 +15100,10 @@ Elektrische Entladungen explodieren aus dem Nichts
 The air madly twists around a spot
 Die Luft dreht sich wie verrückt um einen Punkt
 %%%%
-Sand pours from @your_hand@
+Sand pours from your @hand@
 Sand ergießt sich aus {dat}@your_hand@
 %%%%
-Sand pours from @your_hands@
+Sand pours from your @hands@
 Sand ergießt sich aus {dat}@your_hands@
 %%%%
 You feel a surge of energy from the ground
