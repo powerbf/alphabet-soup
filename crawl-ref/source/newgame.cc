@@ -169,7 +169,7 @@ string newgame_char_description(const newgame_def& ng)
 static string _you_are_character(const string& species, const string& background)
 {
     // i18n: we provide params with and without article because some languages
-    // (e.g. German) might drop the article
+    // might drop the article
     map<string, string> params;
     if (!species.empty() && !background.empty())
     {
