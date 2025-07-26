@@ -44,10 +44,8 @@
 #endif
 #include "traps.h"
 
-// @noloc section start
 #define SPELL_HD_KEY "spell_hd"
 #define NIGHTVISION_KEY "nightvision"
-// @noloc section end
 
 /// Simple 1:1 mappings between monster enchantments & info flags.
 static map<enchant_type, monster_info_flags> trivial_ench_mb_mappings = {
@@ -465,10 +463,8 @@ monster_info::monster_info(const monster* m, int milev)
     // Translate references to tentacles into just their locations
     if (mons_is_tentacle_or_tentacle_segment(type))
     {
-        // @noloc section start
         _translate_tentacle_ref(*this, m, "inwards");
         _translate_tentacle_ref(*this, m, "outwards");
-        // @noloc section end
     }
 
     base_type = m->base_monster;
@@ -1310,13 +1306,11 @@ enum _monster_list_colour_type
     _NUM_MLC
 };
 
-// @noloc section start (internal identifiers only)
 static const char * const _monster_list_colour_names[_NUM_MLC] =
 {
     "friendly", "neutral", "good_neutral", "strict_neutral",
     "trivial", "easy", "tough", "nasty"
 };
-// @noloc section end
 
 static int _monster_list_colours[_NUM_MLC] =
 {

@@ -341,6 +341,12 @@ IGNORE_SECTIONS = {
         '_deconstruct_shooter_phrase',          # search strings
         'scorefile_entry::terse_missile_name',  # search strings
     ],
+    'mon-ench.cc':      [
+        # debug
+        'enchant_names', 'mon_enchant::operator_string',
+        'mon_enchant::kill_category_desc',
+    ],
+    'mon-info.cc':      ['_monster_list_colour_names'],     # internal identifiers
 }
 
 # should section be ignored?
@@ -1555,6 +1561,7 @@ def process_cplusplus_file(filename):
                re.search(r'dprintf *\(', line) or \
                re.search(r'(debuglog|debug_dump_item|dump_test_fails) *\(', line) or \
                re.search(r'bad_level_id', line) or \
+               'bad item' in line or \
                'game_ended_with_error' in line or \
                re.search(r'ASSERTM? *\(', line) or \
                'DEBUG' in line or \
@@ -1640,6 +1647,8 @@ def process_cplusplus_file(filename):
             if '_get_species_insult' in line:
                 continue
             if 'show_specific_help' in line:
+                continue
+            if '_translate_tentacle_ref' in line:
                 continue
             if 'print_hint' in line or 'tutorial_msg' in line:
                 continue

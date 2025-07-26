@@ -1976,7 +1976,6 @@ static inline int _mod_speed(int val, int speed)
 /////////////////////////////////////////////////////////////////////////
 // mon_enchant
 
-// @noloc section start
 static const char *enchant_names[] =
 {
     "none", "berserk", "haste", "might", "fatigue", "slow", "fear",
@@ -2144,7 +2143,6 @@ const char *mon_enchant::kill_category_desc(kill_category k) const
     return k == KC_YOU ?      " you" :
            k == KC_FRIENDLY ? " pet" : "";
 }
-// @noloc section end
 
 void mon_enchant::merge_killer(kill_category k, mid_t m)
 {
