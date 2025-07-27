@@ -324,7 +324,7 @@ IGNORE_SECTIONS = {
     'artefact.cc':      ['replace_name_parts'],
     'command.cc':       [
         # diagnostic stuff
-        'features', '_get_version_information', '_get_version_features', '_get_version_changes', 
+        'features', '_get_version_information', '_get_version_features', '_get_version_changes',
         '_add_movement_diagram',                # same for all languages
     ],
     # internal identifiers
@@ -2540,7 +2540,7 @@ def post_process(filename, strings):
                 continue
             else:
                 strings.append(string)
-        
+
 
     # remove duplicates and strings that should be ignored
     old_strings = strings
