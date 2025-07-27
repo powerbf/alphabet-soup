@@ -78,7 +78,7 @@ the Spriggan
 o Spriggan
 %%%%
 the Tengu
-o Tengu
+o Ará
 %%%%
 the Troll
 o Troll
@@ -289,7 +289,7 @@ the Artificer
 o Artífice
 %%%%
 the Delver
-o Delver
+o Explorador
 %%%%
 the Wanderer
 o Andarilho
@@ -368,7 +368,7 @@ the @species@ Artificer
 o Artífice @species@
 %%%%
 the @species@ Delver
-o Delver @species@
+o Explorador @species@
 %%%%
 the @species@ Wanderer
 o Andarilho @species@
