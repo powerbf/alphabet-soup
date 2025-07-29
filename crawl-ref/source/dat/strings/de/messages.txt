@@ -417,8 +417,8 @@ Die Substanz des Abgrunds verdreht sich heftig und ein Tor nach draußen erschei
 The demon of the infinite void smiles upon you.
 Der Dämon der unendlichen Leere lächelt dir zu.
 %%%%
-Xom snickers.
-Xom kichert.
+%s snickers.
+%s kichert.
 %%%%
 " (you have %d gold)"
 " (du hast %d Gold)"
@@ -18622,9 +18622,6 @@ Du nimmst Kreaturen wahr!
 \"No, never mind.\"
 \"Nein, schon gut.\"
 %%%%
-%s snickers.
-%s kichert.
-%%%%
 %s %s erupts in a glittering mayhem of colour.
 %s %s bricht in ein glitzerndes Farbenchaos aus.
 %%%%
@@ -18834,6 +18831,9 @@ Du verhedderst dich kurz in {dat}%s.
 %%%%
 %s look sharp.
 %s sehen scharf aus.
+%%%%
+Xom snickers.
+Xom kichert.
 %%%%
 Xom revives you!
 Xom belebt dich wieder!

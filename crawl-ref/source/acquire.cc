@@ -1411,7 +1411,7 @@ int acquirement_create_item(object_class_type class_wanted,
         && agent < NUM_GODS)
     {
         if (!quiet && agent == GOD_XOM)
-            god_speaks(GOD_XOM, "Xom snickers.");
+            simple_god_message(" snickers.", GOD_XOM);
         else
             return _failed_acquirement(quiet);
     }

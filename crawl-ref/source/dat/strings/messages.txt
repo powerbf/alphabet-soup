@@ -417,7 +417,7 @@ The substance of the Abyss twists violently, and a gateway leading out appears!
 The demon of the infinite void smiles upon you.
 
 %%%%
-Xom snickers.
+%s snickers.
 
 %%%%
 " (you have %d gold)"
@@ -18622,9 +18622,6 @@ You detect creatures!
 \"No, never mind.\"
 
 %%%%
-%s snickers.
-
-%%%%
 %s %s erupts in a glittering mayhem of colour.
 
 %%%%
@@ -18833,6 +18830,9 @@ You briefly become tangled in %s.
 
 %%%%
 %s look sharp.
+
+%%%%
+Xom snickers.
 
 %%%%
 Xom revives you!
