@@ -1260,48 +1260,6 @@ Einige deiner Anhänger beschließen, dich zu verlassen.
 # beam.cc
 ##################
 %%%%
-%s pelts you
-%s bewirft dich
-%%%%
-%s engulfs you
-%s hüllt dich ein
-%%%%
-%s grips you
-%s greift dich
-%%%%
-%s skewers you
-%s spießt dich auf
-%%%%
-%s pierces through you
-%s durchbohrt dich
-%%%%
-%s weakly hits you
-%s trifft dich schwach
-%%%%
-%s hits you
-%s trifft dich
-%%%%
-%s pelts %s
-%s bewirft {acc}%s
-%%%%
-%s engulfs %s
-%s hüllt {acc}%s ein
-%%%%
-%s grips %s
-%s greift {acc}%s
-%%%%
-%s skewers %s
-%s spießt {acc}%s auf
-%%%%
-%s pierces through %s
-%s durchbohrt {acc}%s
-%%%%
-%s weakly hits %s
-%s trifft {acc}%s schwach
-%%%%
-%s hits %s
-%s trifft {acc}%s
-%%%%
 You hear a mighty clap of thunder!
 Du hörst einen gewaltigen Donnerschlag!
 %%%%
@@ -1566,6 +1524,24 @@ Du fühlst, dass deine Anfälligkeit für Feuer länger anhalten wird.
 %%%%
 Cherry-coloured flames burn away your fire resistance!
 Kirschfarbene Flammen brennen deine Feuerresistenz weg!
+%%%%
+%s pierces through you
+%s durchbohrt dich
+%%%%
+%s pierces through %s
+%s durchbohrt {acc}%s
+%%%%
+%s hits you
+%s trifft dich
+%%%%
+%s hits %s
+%s trifft {acc}%s
+%%%%
+%s engulfs you
+%s hüllt dich ein
+%%%%
+%s engulfs %s
+%s hüllt {acc}%s ein
 %%%%
 " but does no damage."
 , fügt aber keinen Schaden zu.
@@ -8918,6 +8894,12 @@ Wurzeln brechen aus der Erde hervor!
 The grasping roots grab you!
 Die greifenden Wurzeln packen dich!
 %%%%
+%s skewers you
+%s spießt dich auf
+%%%%
+%s skewers %s
+%s spießt {acc}%s auf
+%%%%
 %s goes into a battle-frenzy!
 %s gerät in einen Kampfrausch!
 %%%%
@@ -8938,6 +8920,12 @@ Eine Tür schlägt zu!
 %%%%
 You are pushed out of the doorway!
 Du wirst aus der Tür geschoben!
+%%%%
+%s grips you
+%s greift dich
+%%%%
+%s grips %s
+%s greift {acc}%s
 %%%%
 The queen bee calls on %s to defend her!
 Die Bienenkönigin ruft {acc}%s auf, sie zu verteidigen!
@@ -9828,6 +9816,12 @@ Drachenfluch leuchtet, als sich ein würdiger Feind nähert.
 %%%%
 %s dissipates.
 %s löst sich auf.
+%%%%
+%s weakly hits you
+%s trifft dich schwach
+%%%%
+%s weakly hits %s
+%s trifft {acc}%s schwach
 %%%%
 # note: this is used for both projectiles and monsters with melee weapons
 %s hits %s.
@@ -14425,6 +14419,12 @@ Du zauberst einen mächtigen Eisstoß!
 %%%%
 %s conjures a mighty blast of ice!
 %s zaubert einen mächtigen Eisstoß!
+%%%%
+%s pelts you
+%s bewirft dich
+%%%%
+%s pelts %s
+%s bewirft {acc}%s
 %%%%
 A cannonade of hail descends around you!
 Eine Kanonade von Hagel bricht um dich herunter!

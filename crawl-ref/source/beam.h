@@ -23,20 +23,6 @@ using std::vector;
 #define BEAM_STOP       1000        // all beams stopped by subtracting this
                                     // from remaining range
 
-enum beam_hit_verb
-{
-    BHV_NONE,
-    BHV_HIT,
-    BHV_BURN,
-    BHV_FREEZE,
-    BHV_PELT,
-    BHV_ENGULF,
-    BHV_GRIP,
-    BHV_SKEWER,
-    BHV_PIERCE_THROUGH,
-    BHV_WEAKLY_HIT
-};
-
 class monster;
 
 enum mon_resist_type
@@ -96,10 +82,10 @@ struct bolt
                                   // or if the actor dies prematurely.
     string name = "";
     string short_name = "";
-    beam_hit_verb hit_verb = BHV_NONE; // The verb to use when this beam hits
-                                       // something. If not set, will use
-                                       // "engulfs" if an explosion or cloud
-                                       // and "hits" otherwise.
+    string hit_verb = "";         // The verb to use when this beam hits
+                                  // something. If not set, will use
+                                  // "engulfs" if an explosion or cloud
+                                  // and "hits" otherwise.
     int    loudness = 0;          // Noise level on hitting or exploding.
     string hit_noise_msg = "";    // Message to give player for each hit
                                   // monster that isn't in view.

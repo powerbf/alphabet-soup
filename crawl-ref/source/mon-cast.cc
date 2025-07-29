@@ -1553,7 +1553,7 @@ bolt mons_spell_beam(const monster* mons, spell_type spell_cast, int power,
 
     case SPELL_THROW_BARBS:
         zappy(spell_to_zap(real_spell), power, true, beam);
-        beam.hit_verb = BHV_SKEWER;
+        beam.hit_verb    = "skewers";
         break;
 
     case SPELL_DEATH_RATTLE:
@@ -2477,7 +2477,7 @@ static void _setup_creeping_frost(bolt &beam, const monster &, int pow)
 
 static bool _creeping_frost_freeze(coord_def p, bolt &beam)
 {
-    beam.hit_verb = BHV_GRIP;// We can't do this in _setup_creeping_frost,
+    beam.hit_verb = "grips"; // We can't do this in _setup_creeping_frost,
                              // since hit_verb isn't copied. XXX: think about
                              // the consequences of copying it in bolt_parent_init
     beam.source = p;
@@ -5265,7 +5265,7 @@ static void _mons_upheaval(monster& mons, actor& /*foe*/, bool randomize)
             beam.name     = "blast of magma";
             beam.flavour  = BEAM_LAVA;
             beam.colour   = RED;
-            beam.hit_verb = BHV_ENGULF;
+            beam.hit_verb = "engulfs";
             message       = "Magma suddenly erupts from the ground!";
             break;
         case 1:

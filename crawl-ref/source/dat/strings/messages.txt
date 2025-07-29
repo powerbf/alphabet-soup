@@ -1260,48 +1260,6 @@ Some of your followers decide to abandon you.
 # beam.cc
 ##################
 %%%%
-%s pelts you
-
-%%%%
-%s engulfs you
-
-%%%%
-%s grips you
-
-%%%%
-%s skewers you
-
-%%%%
-%s pierces through you
-
-%%%%
-%s weakly hits you
-
-%%%%
-%s hits you
-
-%%%%
-%s pelts %s
-
-%%%%
-%s engulfs %s
-
-%%%%
-%s grips %s
-
-%%%%
-%s skewers %s
-
-%%%%
-%s pierces through %s
-
-%%%%
-%s weakly hits %s
-
-%%%%
-%s hits %s
-
-%%%%
 You hear a mighty clap of thunder!
 
 %%%%
@@ -1565,6 +1523,24 @@ You feel your vulnerability to fire will last longer.
 
 %%%%
 Cherry-coloured flames burn away your fire resistance!
+
+%%%%
+%s pierces through you
+
+%%%%
+%s pierces through %s
+
+%%%%
+%s hits you
+
+%%%%
+%s hits %s
+
+%%%%
+%s engulfs you
+
+%%%%
+%s engulfs %s
 
 %%%%
 " but does no damage."
@@ -8918,6 +8894,12 @@ Roots burst forth from the earth!
 The grasping roots grab you!
 
 %%%%
+%s skewers you
+
+%%%%
+%s skewers %s
+
+%%%%
 %s goes into a battle-frenzy!
 
 %%%%
@@ -8937,6 +8919,12 @@ A door slams shut!
 
 %%%%
 You are pushed out of the doorway!
+
+%%%%
+%s grips you
+
+%%%%
+%s grips %s
 
 %%%%
 The queen bee calls on %s to defend her!
@@ -9827,6 +9815,12 @@ Wyrmbane glows as a worthy foe approaches.
 ##################
 %%%%
 %s dissipates.
+
+%%%%
+%s weakly hits you
+
+%%%%
+%s weakly hits %s
 
 %%%%
 # note: this is used for both projectiles and monsters with melee weapons
@@ -14424,6 +14418,12 @@ You conjure a mighty blast of ice!
 
 %%%%
 %s conjures a mighty blast of ice!
+
+%%%%
+%s pelts you
+
+%%%%
+%s pelts %s
 
 %%%%
 A cannonade of hail descends around you!

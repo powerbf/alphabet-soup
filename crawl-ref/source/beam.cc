@@ -140,37 +140,9 @@ string bolt::get_hit_message(const string& object) const
 {
     string msg;
     if (object == "you")
-    {
-        switch (hit_verb)
-        {
-        case BHV_BURN: msg = "%s burns you"; break;
-        case BHV_FREEZE: msg = "%s freezes you"; break;
-        case BHV_PELT: msg = "%s pelts you"; break;
-        case BHV_ENGULF: msg = "%s engulfs you"; break;
-        case BHV_GRIP: msg = "%s grips you"; break;
-        case BHV_SKEWER: msg = "%s skewers you"; break;
-        case BHV_PIERCE_THROUGH: msg = "%s pierces through you"; break;
-        case BHV_WEAKLY_HIT: msg = "%s weakly hits you"; break;
-        default: msg = "%s hits you";
-        }
-        return localise(msg, get_the_name());
-    }
+        return localise("%s " + hit_verb + " you", get_the_name());
     else
-    {
-        switch (hit_verb)
-        {
-        case BHV_BURN: msg = "%s burns %s"; break;
-        case BHV_FREEZE: msg = "%s freezes %s"; break;
-        case BHV_PELT: msg = "%s pelts %s"; break;
-        case BHV_ENGULF: msg = "%s engulfs %s"; break;
-        case BHV_GRIP: msg = "%s grips %s"; break;
-        case BHV_SKEWER: msg = "%s skewers %s"; break;
-        case BHV_PIERCE_THROUGH: msg = "%s pierces through %s"; break;
-        case BHV_WEAKLY_HIT: msg = "%s weakly hits %s"; break;
-        default: msg = "%s hits %s";
-        }
-        return localise(msg, get_the_name(), object);
-    }
+        return localise("%s " + hit_verb + " %s", get_the_name(), object);
 }
 
 void bolt::do_hit_message(const string& object, const string& punctuation) const
@@ -905,9 +877,9 @@ void bolt::fake_flavour()
     else if (real_flavour == BEAM_CRYSTAL && flavour == BEAM_CRYSTAL)
     {
         flavour = random_choose(BEAM_FIRE, BEAM_COLD);
-        hit_verb = (flavour == BEAM_FIRE) ? BHV_BURN :
-                     (flavour == BEAM_COLD) ? BHV_FREEZE
-                                          : BHV_NONE;
+        hit_verb = (flavour == BEAM_FIRE) ? "burns" :
+                   (flavour == BEAM_COLD) ? "freezes"
+                                          : "bugs";
     }
 }
 
@@ -2437,7 +2409,7 @@ void bolt::affect_endpoint()
     // hack: we use hit_verb to communicate whether a ranged
     // attack hit. (And ranged attacks should only explode if
     // they hit the target, to avoid silliness with . targeting.)
-    if (special_explosion && (is_tracer || !item || hit_verb != BHV_NONE))
+    if (special_explosion && (is_tracer || !item || !hit_verb.empty()))
     {
         special_explosion->target = pos();
         special_explosion->refine_for_explosion();
@@ -2611,7 +2583,7 @@ void bolt::drop_object(bool allow_mulch)
     }
 
     // Hack alert: we use hit_verb to determine whether a ranged attack hit.
-    const bool damned = item->props.exists(DAMNATION_BOLT_KEY) && hit_verb != BHV_NONE;
+    const bool damned = item->props.exists(DAMNATION_BOLT_KEY) && !hit_verb.empty();
     if (!allow_mulch || (!damned && !thrown_object_destroyed(item)))
     {
         if (item->sub_type == MI_THROWING_NET)
@@ -3886,10 +3858,10 @@ void bolt::affect_player()
         attk.attack();
         // fsim purposes - throw_it detects if an attack connected through
         // hit_verb
-        if (attk.ev_margin >= 0 && hit_verb == BHV_NONE)
+        if (attk.ev_margin >= 0 && hit_verb.empty())
         {
-            hit_verb = attk.is_penetrating_attack() ? BHV_PIERCE_THROUGH
-                                                    : BHV_HIT;
+            hit_verb = attk.is_penetrating_attack() ? "pierces through"
+                                                    : "hits";
         }
         if (attk.reflected)
             reflect();
@@ -3911,8 +3883,8 @@ void bolt::affect_player()
     {
         if (real_flavour == BEAM_CHAOS || real_flavour == BEAM_RANDOM)
         {
-            if (hit_verb == BHV_NONE)
-                hit_verb = engulfs ? BHV_ENGULF : BHV_HIT;
+            if (hit_verb.empty())
+                hit_verb = engulfs ? "engulfs" : "hits";
 
             string obj = you.hp > 0 ? "you" : "your lifeless body";
             do_hit_message(obj, ".");
@@ -3960,8 +3932,8 @@ void bolt::affect_player()
     int final_dam = check_your_resists(pre_res_dam, flavour, "", this, false);
 
     // Tell the player the beam hit
-    if (hit_verb == BHV_NONE)
-        hit_verb = engulfs ? BHV_ENGULF : BHV_HIT;
+    if (hit_verb.empty())
+        hit_verb = engulfs ? "engulfs" : "hits";
 
     if (flavour != BEAM_VISUAL && !is_enchantment())
     {
@@ -4953,10 +4925,10 @@ void bolt::affect_monster(monster* mon)
         attk.attack();
         // fsim purposes - throw_it detects if an attack connected through
         // hit_verb
-        if (attk.ev_margin >= 0 && hit_verb == BHV_NONE)
+        if (attk.ev_margin >= 0 && hit_verb.empty())
         {
-            hit_verb = attk.is_penetrating_attack() ? BHV_PIERCE_THROUGH
-                                                    : BHV_HIT;
+            hit_verb = attk.is_penetrating_attack() ? "pierces through"
+                                                    : "hits";
         }
         if (attk.reflected)
             reflect();
@@ -4971,8 +4943,8 @@ void bolt::affect_monster(monster* mon)
     {
         if (real_flavour == BEAM_CHAOS || real_flavour == BEAM_RANDOM)
         {
-            if (hit_verb == BHV_NONE)
-                hit_verb = engulfs ? BHV_ENGULF : BHV_HIT;
+            if (hit_verb.empty())
+                hit_verb = engulfs ? "engulfs" : "hits";
             if (you.see_cell(mon->pos()))
                 do_hit_message(mon->name(DESC_THE), ".");
             else if (heard && !hit_noise_msg.empty())
@@ -5087,8 +5059,8 @@ void bolt::affect_monster(monster* mon)
     if (you.see_cell(mon->pos()))
     {
         // Monsters are never currently helpless in ranged combat.
-        if (hit_verb == BHV_NONE)
-            hit_verb = engulfs ? BHV_ENGULF : BHV_HIT;
+        if (hit_verb.empty())
+            hit_verb = engulfs ? "engulfs" : "hits";
 
         // If the beam did no damage because of resistances,
         // mons_adjust_flavoured below will print "%s completely resists", so

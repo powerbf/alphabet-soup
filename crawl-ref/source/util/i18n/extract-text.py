@@ -1770,6 +1770,12 @@ def process_cplusplus_file(filename):
                   or (filename == 'monster.cc' and section == 'monster::do_shaft'):
                     string = '%s' + string
 
+            # beam hit verbs
+            if re.search(r'beam\.hit_verb\s*=', line) or (filename == 'beam.cc' and re.search(r'hit_verb\s*=', line)):
+                strings.append("%s " + string + " you")
+                strings.append("%s " + string + " %s")
+                continue
+
             if 'wu_jian_sifu_message' in line:
                 # this function adds a prefix to the message parameter
                 string = 'Sifu %s' + string

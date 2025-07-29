@@ -331,7 +331,7 @@ static bool _iood_hit(monster& mon, const coord_def &pos, bool big_boom = false)
     if (dist < 3)
         beam.name = "wavering orb of destruction";
     if (dist < 2)
-        beam.hit_verb = BHV_WEAKLY_HIT;
+        beam.hit_verb = "weakly hits";
     beam.ex_size = 1;
     beam.loudness = 7;
 
