@@ -6580,7 +6580,7 @@ void player::splash_with_acid(const actor* evildoer, int acid_strength,
     if (post_res_dam > 0)
     {
         attack_strength_message("You are splashed with acid",
-                                post_res_dam, false);
+                                post_res_dam, true);
     }
     else
         mpr("You are splashed with acid but take no damage.");
