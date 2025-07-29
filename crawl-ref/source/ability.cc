@@ -1200,15 +1200,13 @@ static string _desc_sac_mut(const CrawlStoreValue &mut_store)
 
 static string _sacrifice_desc(const ability_type ability)
 {
-    const string boilerplate = "\n"
-        + localise("If you make this sacrifice, your powers granted by Ru "
-                   "will become stronger in proportion to the value of the "
-                   "sacrifice, and you may gain new powers as well.")
-        + "\n\n"
-        + localise("Sacrifices cannot be taken back.")
-        + "\n";
+    const string boilerplate =
+        "\nIf you make this sacrifice, your powers granted by Ru "
+        "will become stronger in proportion to the value of the "
+        "sacrifice, and you may gain new powers as well.\n\n"
+        "Sacrifices cannot be taken back.\n";
     const string piety_info = ru_sacrifice_description(ability);
-    const string desc = boilerplate + piety_info;
+    const string desc = localise(boilerplate) + piety_info;
 
     if (!you_worship(GOD_RU))
         return desc;
@@ -3912,7 +3910,7 @@ void swap_ability_slots(int index1, int index2, bool silent)
 
     if (!silent)
     {
-        mprf_nocap("%c - %s", index_to_letter(index2), // @noloc
+        mprf_nocap("%c - %s", index_to_letter(index2),
                    ability_name(you.ability_letter_table[index2]));
     }
 
