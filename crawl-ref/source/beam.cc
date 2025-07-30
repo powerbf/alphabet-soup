@@ -1813,8 +1813,8 @@ spret mass_enchantment(enchant_type wh_enchant, int pow, bool fail)
             const char* msg;
             switch (wh_enchant)
             {
-            case ENCH_FEAR:      msg = "%s looks frightened!";      break;
-            case ENCH_CHARM:     msg = "%s submits to your will.";  break;
+            case ENCH_FEAR:      msg = " looks frightened!";      break;
+            case ENCH_CHARM:     msg = " submits to your will.";  break;
             default:             msg = nullptr;                   break;
             }
             if (msg && simple_monster_message(**mi, msg))
@@ -1951,11 +1951,11 @@ bool poison_monster(monster* mons, const actor *who, int levels,
         {
             const char* msg;
             if (new_pois.degree >= MAX_ENCH_DEGREE_DEFAULT)
-                msg = "%s looks as sick as possible!";
+                msg = " looks as sick as possible!";
             else if (old_pois.degree > 0)
-                msg = "%s looks even sicker.";
+                msg = " looks even sicker.";
             else
-                msg = "%s is poisoned.";
+                msg = " is poisoned.";
 
             simple_monster_message(*mons, msg);
         }
