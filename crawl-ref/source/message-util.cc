@@ -69,7 +69,7 @@ string actor_name(const actor *a, description_level_type desc,
                   bool actor_visible)
 {
     if (!a)
-        return "null"; // bug, @noloc
+        return "null"; // bug
     return actor_visible ? a->name(desc) : anon_name(desc);
 }
 
@@ -81,7 +81,7 @@ string actor_pronoun(const actor *a, pronoun_type pron,
                      bool actor_visible)
 {
     if (!a)
-        return "null"; // bug, @noloc
+        return "null"; // bug
     return actor_visible ? a->pronoun(pron) : anon_pronoun(pron);
 }
 

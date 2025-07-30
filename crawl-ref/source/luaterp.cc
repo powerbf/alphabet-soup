@@ -43,7 +43,7 @@ static int _pushline(lua_State *ls, int firstline)
     char buffer[16384];
     char *b = buffer;
     size_t l;
-    string prompt = firstline ? "> " : ". "; // @noloc
+    string prompt = firstline ? "> " : ". ";
     if (crawl_state.seen_hups || msgwin_get_line_autohist(prompt, buffer, sizeof(buffer)))
         return 0;
     l = strlen(b);

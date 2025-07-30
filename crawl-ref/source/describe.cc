@@ -748,7 +748,7 @@ string trap_name(trap_type trap)
     if (trap == TRAP_GOLUBRIA)
         return "passage"; // @noloc
     else
-        return replace_last(full_trap_name(trap), " trap", ""); // @noloc
+        return replace_last(full_trap_name(trap), " trap", "");
 }
 
 string full_trap_name(trap_type trap)
@@ -1149,7 +1149,7 @@ static string _skill_target_desc(skill_type skill, int scaled_target,
             level_diff / 10, level_diff % 10);
     if (you.wizard)
     {
-        description += "\n    "; // @noloc
+        description += "\n    ";
         description += localise("(%d xp, %d skp)",
                                 diffs.experience, diffs.skill_points);
     }
@@ -2122,9 +2122,9 @@ string get_item_description(const item_def &item, bool verbose,
 
         if (dump)
         {
-            description << "[" // @noloc
+            description << "["
                         << localise(item.name(DESC_DBNAME, true, false, false))
-                        << "]"; // @noloc
+                        << "]";
             need_base_desc = false;
         }
         else if (is_unrandom_artefact(item) && item_type_known(item))
@@ -2490,7 +2490,7 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
     dungeon_feature_type feat = env.map_knowledge(pos).feat();
 
     string desc      = feature_description_at(pos, false, DESC_A);
-    string db_name   = feat == DNGN_ENTER_SHOP ? "a shop" : desc; // @noloc
+    string db_name   = feat == DNGN_ENTER_SHOP ? "a shop" : desc;
     strip_suffix(db_name, " (summoned)");
     string long_desc = getLongDescription(db_name);
 

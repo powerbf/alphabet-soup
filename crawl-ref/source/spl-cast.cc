@@ -1072,7 +1072,7 @@ static void _try_monster_cast(spell_type spell, int /*powc*/,
 
     mpr("Invalid player spell, attempting to cast it as monster spell.");
 
-    mon->mname      = "Dummy Monster"; // @noloc
+    mon->mname      = "Dummy Monster";
     mon->type       = MONS_HUMAN;
     mon->behaviour  = BEH_SEEK;
     mon->attitude   = ATT_FRIENDLY;
@@ -1864,7 +1864,7 @@ spret your_spells(spell_type spell, int powc, bool allow_fail,
         else
             verb = localise("Casting");
         string spl_title = localise(spell_title(spell));
-        string title = make_stringf("%s: <%s>%s</%s>", verb.c_str(), // @noloc
+        string title = make_stringf("%s: <%s>%s</%s>", verb.c_str(),
                     spell_title_color, spl_title.c_str(), spell_title_color);
         if (allow_fail)
         {

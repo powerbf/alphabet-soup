@@ -1237,7 +1237,7 @@ void display_mutations()
 
     const string vamp_s = you.has_mutation(MUT_VAMPIRISM)
                                         ?_display_vampire_attributes()
-                                        : "N/A"; // @noloc
+                                        : "N/A";
     const string descs[3] =  { mutation_s, vamp_s };
     for (int i = 0; i < 2; i++)
     {

@@ -1044,7 +1044,7 @@ void ShopMenu::update_help()
     else
         line2 += localise("[<w>!</w>] <w>buy</w>|examine items");
     // 3rd field
-    line2 += make_stringf("  [%s] ", // @noloc
+    line2 += make_stringf("  [%s] ",
                           _hyphenated_letters(item_count(), 'a').c_str());
     // 4th field
     if (menu_action == ACT_EXECUTE)
@@ -1061,7 +1061,7 @@ void ShopMenu::update_help()
         line3 += pad_string("", 21);
     else
         line3 += pad_string(localise("[<w>Enter</w>] make purchase"), 21 + 7);
-    line3 += make_stringf("  [%s] ", // @noloc
+    line3 += make_stringf("  [%s] ",
                           _hyphenated_letters(item_count(), 'A').c_str());
     line3 += localise("put item on shopping list");
 
@@ -1095,7 +1095,7 @@ void ShopMenu::purchase_selected()
     if (cost > you.gold)
     {
         more = formatted_string::parse_string(make_stringf(
-                   "<%s>%s</%s>\n", // @noloc
+                   "<%s>%s</%s>\n",
                    col.c_str(),
                    localise("You don't have enough money.").c_str(),
                    col.c_str()));
@@ -1111,7 +1111,7 @@ void ShopMenu::purchase_selected()
         cost, Options.easy_confirm == easy_confirm_type::none ? "Y" : "y");
 
     more = formatted_string::parse_string(make_stringf(
-               "<%s>%s</%s>\n", // @noloc
+               "<%s>%s</%s>\n",
                col.c_str(),
                text.c_str(),
                col.c_str()));
@@ -1180,7 +1180,7 @@ void ShopMenu::purchase_selected()
         else
             outside = localise("I'll put some of them outside for you.");
         more = formatted_string::parse_string(make_stringf(
-            "<%s>%s</%s>\n", // @noloc
+            "<%s>%s</%s>\n",
             col.c_str(),
             outside.c_str(),
             col.c_str()));
@@ -2201,7 +2201,7 @@ void ShoppingList::fill_out_menu(Menu& shopmenu)
 
         const string etitle =
             make_stringf(
-                "%*s %s  %s%s", // @noloc
+                "%*s %s  %s%s",
                 longest,
                 describe_thing_pos(thing).c_str(),
                 localise("%4d gold", cost).c_str(),

@@ -25,9 +25,9 @@
 #include "traps.h"
 #include "view.h"
 
-static const char *PROPS_SHOALS_TIDE_KEY = "shoals-tide-height"; // @noloc
-static const char *PROPS_SHOALS_TIDE_VEL = "shoals-tide-velocity"; // @noloc
-static const char *PROPS_SHOALS_TIDE_UPDATE_TIME = "shoals-tide-update-time"; // @noloc
+static const char *PROPS_SHOALS_TIDE_KEY = "shoals-tide-height";
+static const char *PROPS_SHOALS_TIDE_VEL = "shoals-tide-velocity";
+static const char *PROPS_SHOALS_TIDE_UPDATE_TIME = "shoals-tide-update-time";
 
 static dgn_island_plan _shoals_islands;
 

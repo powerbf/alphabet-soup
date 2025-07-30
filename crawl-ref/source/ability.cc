@@ -1329,7 +1329,7 @@ bool activate_ability()
 
     string luachoice;
 
-    if (!clua.callfn("c_choose_ability", ">s", &luachoice)) // @noloc
+    if (!clua.callfn("c_choose_ability", ">s", &luachoice))
     {
         if (!clua.error.empty())
             mprf(MSGCH_ERROR, "Lua error: %s", clua.error.c_str());

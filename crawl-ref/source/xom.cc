@@ -2331,7 +2331,7 @@ bool move_stair(coord_def stair_pos, bool away, bool allow_under)
     beam.colour  = feat_def.colour();
     beam.source  = stair_pos;
     beam.target  = ray.pos();
-    beam.name    = "STAIR BEAM"; // @noloc
+    beam.name    = "STAIR BEAM";
     beam.draw_delay = 50; // Make beam animation slower than normal.
 
     beam.aimed_at_spot = true;

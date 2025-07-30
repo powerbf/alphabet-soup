@@ -1294,7 +1294,7 @@ static void _redraw_title()
     {
         string god = you_worship(GOD_JIYVA) ? god_name_jiyva(true)
                                             : god_name(you.religion);
-        string of_god = localise(" of %s", god); // @noloc
+        string of_god = localise(" of %s", god);
         NOWRAP_EOL_CPRINTF("%s%s", localise(species).c_str(), of_god.c_str());
 
         string piety = _god_asterisks();
@@ -2039,7 +2039,7 @@ static void _print_overview_screen_equip(column_composer& cols,
         }
         else
         {
-            str = "<darkgrey>("; // @noloc
+            str = "<darkgrey>(";
             if (eqslot == EQ_BOOTS && you.wear_barding())
                 str += localise("no " + slot_name_lwr); // @noloc
             else if (!you_can_wear(eqslot))
@@ -2050,7 +2050,7 @@ static void _print_overview_screen_equip(column_composer& cols,
                 str += localise("%s restricted", slot_name_lwr);
             else
                 str += localise("no " + slot_name_lwr); // @noloc
-            str += + ")</darkgrey>"; // @noloc
+            str += + ")</darkgrey>";
         }
         cols.add_formatted(2, str.c_str(), false);
     }

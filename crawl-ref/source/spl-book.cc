@@ -779,16 +779,16 @@ public:
 
         if (you.divine_exegesis)
         {
-            spell_levels_str = "<lightgreen>"; // @noloc
+            spell_levels_str = "<lightgreen>";
             spell_levels_str += localise(
                 "Select a spell to cast with Divine Exegesis: %d MP available",
                 you.magic_points
             );
-            spell_levels_str += "</lightgreen>"; // @noloc
+            spell_levels_str += "</lightgreen>";
         }
         else
         {
-            spell_levels_str = "<lightgreen>"; // @noloc
+            spell_levels_str = "<lightgreen>";
             if (player_spell_levels() == 1)
                 spell_levels_str += localise("1 spell level left");
             else
@@ -796,7 +796,7 @@ public:
                 spell_levels_str +=
                     localise("%d spell levels left", player_spell_levels());
             }
-            spell_levels_str += "</lightgreen>"; // @noloc
+            spell_levels_str += "</lightgreen>";
             if (player_spell_levels() < 9)
                 spell_levels_str += " ";
         }

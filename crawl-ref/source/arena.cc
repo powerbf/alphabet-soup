@@ -133,7 +133,7 @@ static void _results_popup(string msg, bool error=false)
     {
         msg = localise("Arena error:")
             + "\n\n<lightred>"
-            + replace_all(msg, "<", "<<"); // @noloc
+            + replace_all(msg, "<", "<<");
         msg += "</lightred>";
     }
     else
@@ -980,7 +980,7 @@ namespace arena
             msg = "Winner: %s!";
 
         if (Options.arena_dump_msgs || Options.arena_list_eq)
-            msg = "---------- " + msg + " ----------"; // @noloc
+            msg = "---------- " + msg + " ----------";
 
         if (was_tied)
             mpr(msg);

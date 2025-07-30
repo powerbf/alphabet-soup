@@ -748,7 +748,7 @@ bool check_selected_skills()
     // Calling a user lua function here to allow enabling skills without user
     // prompt (much like the callback auto_experience for the case of potion of
     // experience).
-    if (clua.callbooleanfn(false, "skill_training_needed", nullptr)) // @noloc
+    if (clua.callbooleanfn(false, "skill_training_needed", nullptr))
     {
         // did the callback do anything?
         if (skills_being_trained())

@@ -910,7 +910,7 @@ namespace quiver
             // XX abstract to quiver verb?
             if (!short_desc)
             {
-                string verb = "Bug: "; // @noloc
+                string verb = "Bug: ";
                 if (!you.confused()) {
                     switch (projected)
                     {

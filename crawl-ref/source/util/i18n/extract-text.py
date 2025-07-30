@@ -40,7 +40,8 @@ IGNORE_STRINGS = [
     ' of ', ' of', 'of ', 's',
     'The ', 'Your ',
     'debugging ray', 'debug', 'bugger',
-    'bug', 'null', 'invalid', 'DEAD MONSTER',
+    'bug', 'null', 'invalid',
+    'DEAD MONSTER', 'STAIR BEAM', 'Dummy Monster', 'John Doe',
     'true', 'false', 'veto',
     'You hear the sound of one hand!',
     # suffixes for walking verb
@@ -48,8 +49,9 @@ IGNORE_STRINGS = [
     # property keys
     'Brand', 'BAcc', 'BDam', 'nupgr', 'cap-',
     # text colour tags
-    'lightgrey', 'darkgrey', 'lightgreen', 'darkgreen', 'lightcyan', 'darkcyan',
-    'lightred', 'darkred', 'lightmagenta', 'darkmagenta', 'lightyellow', 'darkyellow',
+    'lightgrey', 'darkgrey', 'lightgray', 'darkgray', 'lightgreen', 'darkgreen',
+    'lightcyan', 'darkcyan', 'lightred', 'darkred', 'lightmagenta', 'darkmagenta',
+    'lightyellow', 'darkyellow',
     # stuff that is used to build expanded strings
     RU_SACRIFICE_PREFIX,
     PRAY_SENTENCE,
@@ -287,6 +289,8 @@ def ignore_string(string):
     if 'Gozag bribe' in string or 'Gozag permabribe' in string:
         return True
     if string == 'passage of golubria': # display name has uppercase G
+        return True
+    if string.startswith('fake') or string.startswith('FAKE'):
         return True
 
     # ignore bug-catching stuff
@@ -1643,6 +1647,8 @@ def process_cplusplus_file(filename):
             if re.search(r'\bmenu_colour *\(', line):
                 continue
             if re.search(r'\bprops\.erase *\(', line):
+                continue
+            if re.search(r'\bPROPS[A-Z_]*\s*=', line):
                 continue
             if 'getLongDescription' in line:
                 continue

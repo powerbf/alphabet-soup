@@ -3209,7 +3209,7 @@ void read(item_def* scroll, dist *target)
     const scroll_type which_scroll = static_cast<scroll_type>(scroll->sub_type);
 
     // NOTE: can't use DESC_THE because we'll get the count if it's part of a stack
-    string scroll_name = "the " + scroll->name(DESC_QUALNAME); // @noloc
+    string scroll_name = "the " + scroll->name(DESC_QUALNAME);
 
     // Handle player cancels before we waste time
     if (item_type_known(*scroll))

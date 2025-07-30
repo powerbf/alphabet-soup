@@ -944,7 +944,7 @@ void Menu::set_more(const string s)
 void Menu::set_more()
 {
     m_keyhelp_more = true;
-    string separator = "        "; // @noloc
+    string separator = "        ";
     string pageup_keys = minus_is_pageup() ? "<w>-</w>|<w><<</w>" : "<w><<</w>"; // @noloc
     more = formatted_string::parse_string(
         "<lightgrey>" + localise("[<w>+</w>|<w>></w>|<w>Space</w>]: page down")

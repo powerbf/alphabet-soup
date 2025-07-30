@@ -860,9 +860,9 @@ string item_message(vector<const item_def *> const &items)
                     out_string += "</" + colour + ">";
                 switch (specialness)
                 {
-                case 2: colour = "yellow";   break; // artefact - @noloc
-                case 1: colour = "white";    break; // glowing/runed - @noloc
-                case 0: colour = "darkgrey"; break; // mundane - @noloc
+                case 2: colour = "yellow";   break; // artefact
+                case 1: colour = "white";    break; // glowing/runed
+                case 0: colour = "darkgrey"; break; // mundane
                 }
                 if (!colour.empty())
                     out_string += "<" + colour + ">";

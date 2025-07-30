@@ -30,7 +30,7 @@ public:
         {
             InvEntry *ie = new InvEntry(*item);
             if (tag == "pickup")
-                ie->tag = "pickup"; // @noloc
+                ie->tag = "pickup";
             // If there's no hotkey, provide one.
             if (ie->hotkeys[0] == ' ')
                 ie->hotkeys[0] = ckey++;

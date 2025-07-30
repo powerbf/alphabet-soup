@@ -2354,7 +2354,7 @@ void god_speaks(god_type god, const char *mesg)
     fake_mon.god        = god;
     fake_mon.set_position(you.pos());
     fake_mon.foe        = MHITYOU;
-    fake_mon.mname      = "FAKE GOD MONSTER"; // @noloc
+    fake_mon.mname      = "FAKE GOD MONSTER";
 
     mprf(MSGCH_GOD, god, "%s", do_mon_str_replacements(mesg, fake_mon).c_str());
 
@@ -3583,7 +3583,7 @@ static string _good_god_wrath_message(god_type good_god)
             else
                 return "You will suffer for embracing such evil!";
         default:
-            return "You will be buggily punished for this!"; // @noloc
+            return "You will be buggily punished for this!";
     }
 }
 
@@ -4776,7 +4776,7 @@ static void _place_delayed_monsters()
                              : pluralise(lastmon->name(DESC_PLAIN));
 
                 map<string, string> params =
-                    {{"God", god}, {"servant", mon_name}}; // @noloc
+                    {{"God", god}, {"servant", mon_name}};
                 msg = localise(msg, params);
             }
             else

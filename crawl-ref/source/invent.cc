@@ -933,9 +933,9 @@ menu_letter InvMenu::load_items(const vector<const item_def*> &mitems,
             if (tag == "pickup")
             {
                 if (ie->item && item_is_stationary(*ie->item))
-                    ie->tag = "nopickup"; // @noloc
+                    ie->tag = "nopickup";
                 else
-                    ie->tag = "pickup"; // @noloc
+                    ie->tag = "pickup";
             }
             if (get_flags() & MF_NOSELECT)
                 ie->hotkeys.clear();
@@ -1060,7 +1060,7 @@ const char* item_slot_name(equipment_type type)
     case EQ_GLOVES:      return "gloves";
     case EQ_BOOTS:       return "boots";
     case EQ_SHIELD:      return "shield";
-    case EQ_BODY_ARMOUR: return "body"; // @noloc
+    case EQ_BODY_ARMOUR: return "body";
     default:             return "";
     }
 }

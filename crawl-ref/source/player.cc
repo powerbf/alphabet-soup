@@ -8075,7 +8075,7 @@ string player::hand_act(const string &singular_msg,
                         const string &plural_msg) const
 {
     bool plural;
-    string hand = "your " + hand_name(true, &plural); // @noloc
+    string hand = "your " + hand_name(true, &plural);
 
     string msg;
     if (plural)
