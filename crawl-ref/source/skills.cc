@@ -1693,21 +1693,20 @@ unsigned get_skill_rank(unsigned skill_lev)
  *
  * @param best_skill    The skill used to determine the title.
  * @param skill_rank    The player's rank in the given skill.
- * @param the           Include the word "the"?
  * @param species       The player's species.
  * @param dex_better    Whether the player's dexterity is higher than strength.
  * @param god           The god_type of the god the player follows.
  * @param piety         The player's piety with the given god.
  * @return              An appropriate and/or humorous title.
  */
-string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank, bool the,
+string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank,
                            species_type species, bool dex_better,
                            god_type god, int piety)
 {
 
     // paranoia
     if (is_invalid_skill(best_skill))
-        return the ? "the Adventurer" : "Adventurer";
+        return "Adventurer";
 
     // Increment rank by one to "skip" skill name in array {dlb}:
     ++skill_rank;
@@ -1867,14 +1866,6 @@ string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank, bool the,
             result = skill_titles[best_skill][skill_rank];
     }
 
-    if (the)
-    {
-        if (result == "Petite Mort")
-            result = "la Petite Mort";
-        else
-            result = "the " + result;
-    }
-
     const map<string, string> replacements =
     {
         { "Adj", species::name(species, species::SPNAME_ADJ) },
@@ -1897,7 +1888,10 @@ string skill_title_by_rank(skill_type best_skill, uint8_t skill_rank, bool the,
 string player_title(bool the)
 {
     const skill_type best = best_skill(SK_FIRST_SKILL, SK_LAST_SKILL);
-    return skill_title_by_rank(best, get_skill_rank(you.skills[best]), the);
+    const string title =
+            skill_title_by_rank(best, get_skill_rank(you.skills[best]));
+    const string article = !the ? "" : title == "Petite Mort" ? "la " : "the ";
+    return article + title;
 }
 
 skill_type best_skill(skill_type min_skill, skill_type max_skill,

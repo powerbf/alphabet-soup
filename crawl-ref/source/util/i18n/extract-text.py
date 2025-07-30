@@ -34,7 +34,7 @@ RU_SACRIFICE_PREFIX = "Ru asks you to "
 
 # strings to ignore
 IGNORE_STRINGS = [
-    'the', 'the ', ' the ',
+    'the', 'the ', ' the ', 'la ',
     'a', 'a ', 'an', 'an ',
     'you', 'you ', 'You ', ' you', 'your', 'your ', 'its ',
     ' of ', ' of', 'of ', 's',
