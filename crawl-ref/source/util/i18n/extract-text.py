@@ -345,6 +345,7 @@ IGNORE_SECTIONS = {
         '_deconstruct_shooter_phrase',          # search strings
         'scorefile_entry::terse_missile_name',  # search strings
     ],
+    'misc.cc':          ['maybe_to_string'],    # debug
     'mon-ench.cc':      [
         # debug
         'enchant_names', 'mon_enchant::operator_string',
