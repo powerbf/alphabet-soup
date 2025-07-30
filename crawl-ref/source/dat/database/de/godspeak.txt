@@ -29,9 +29,9 @@ Xom gewährt dir ein Geschenk!
 
 Xoms großzügige Natur offenbart sich.
 
-Xom schenkt dir eine Art Instrument
+Xom schenkt dir eine Art Utensil.
 
-"Nimm dieses Instrument von etwas!"
+"Nimm dieses Instrument von irgendwas!"
 
 "Nimm dieses Zeichen meiner Wertschätzung."
 
@@ -53,15 +53,15 @@ Xom öffnet ein Tor.
 # several demons
 Xom multiple summons
 
-"Dient den Sterblichen, meine Kinder!"
+"Dient dem Sterblichen, meine Kinder!"
 
-Xom gewährt dir eine vorübergehende Hilfe.
+Xom gewährt dir etwas vorübergehende Hilfe.
 
 Xom öffnet kurzzeitig ein Tor.
 %%%%
 Xom animate monster weapon
 
-"Zeit, sich zu amüsieren!"
+"Zeit für etwas Spaß!"
 
 Du hörst Xoms wahnsinniges Lachen.
 
@@ -95,7 +95,7 @@ Xom beschließt, die Figuren neu anzuordnen.
 
 "Das könnte besser sein!"
 
-"So mag ich es!"
+"So mag ich das!"
 %%%%
 Xom teleportation journey
 
@@ -103,7 +103,7 @@ Xom teleportation journey
 
 "Komm, wir machen einen Ausflug!"
 
-"Wo es aufhört, weiß niemand!"
+"Niemand weiß, wo es aufhört!"
 
 Xom verdreht den Raum um dich herum.
 %%%%
@@ -133,11 +133,11 @@ Xoms bösartige Aufmerksamkeit richtet sich für einen Moment auf dich.
 # 25% chance dancing weapon, else summon hostile monster
 Xom hostile monster
 
-"Zeit, sich zu amüsieren!"
+"Zeit für etwas Spaß!"
 
 "Kämpfe ums Überleben, Sterblicher."
 
-"Mal sehen, ob es stark genug ist, um zu überleben."
+"Mal sehen, ob es schon stark genug ist, zu überleben."
 
 Du hörst Xoms wahnsinniges Lachen.
 %%%%
@@ -145,36 +145,36 @@ Xom banishment
 
 "Du hast es dir in deiner kleinen Welt zu bequem gemacht, Sterblicher!"
 
-Xom wirft dich in den Abgrund!
+Xom verbannt dich in den Abgrund!
 
 Die Welt scheint sich zu drehen, während Xoms wahnsinniges Lachen in deinen Ohren klingt.
 %%%%
 Xom revert own banishment
 
 w:30
-"Ein Scherz!"
+"Nur ein Scherz!"
 
-"Aber wenn ich es mir recht überlege..."
+"Wenn ich es mir recht überlege..."
 
-"Nein, ich habe es mir anders überlegt."
+"Nein, ich habe meine Meinung geändert."
 
-Xom zieht dich zurück in die vergleichbare Stille des Kerkers.
+Xom zieht dich zurück in die vergleichsweise Stille des Kerkers.
 %%%%
 %%%%
 Xom revert other banishment
 
-"Komm zurück!"
+"Komm hierhin zurück!"
 
-"Nein, tust du nicht!"
+"Nein, das tust du nicht!"
 
-Xom zieht dich zurück in die vergleichbare Stille des Kerkers.
+Xom zieht dich zurück in die vergleichsweise Stille des Kerkers.
 %%%%
 # Xom upgrades a nearby hostile monster's weapon to a chaos brand
 Xom chaos upgrade
 
 Xoms Macht berührt eine Waffe in der Nähe.
 
-"Lass dir das Chaos schmecken, Sterblicher."
+"Koste den Geschmack des Chaos, Sterblicher."
 
 Xom gluckst.
 %%%%
@@ -190,7 +190,7 @@ Xom macht einen Trommelwirbel.
 %%%%
 Xom blink monsters
 
-"Da drüben, sofort!"
+"Jetzt da drüben!"
 
 "Komm hierher!"
 
@@ -203,7 +203,7 @@ Xom potion effect
 
 "Geh hinaus und zerstöre!"
 
-"Geh hinaus und richte Schaden an, Sterblicher!"
+"Geh hinaus und richte Verwüstung an, Sterblicher!"
 
 Xom gewährt dir einen kleinen Gefallen.
 
@@ -225,11 +225,11 @@ Xom schmunzelt.
 # cast a random spell
 Xom spell effect
 
-Die Macht von Xom fließt durch dich!
+Xoms Macht fließt durch dich!
 
 Xom spielt einen Moment lang mit der Realität.
 
-Xom lacht.
+Xom lacht laut auf.
 %%%%
 # multicoloured smoke trail
 Xom cloud trail
@@ -276,7 +276,7 @@ Du hörst Xoms onkelhaftes Kichern.
 %%%%
 Xom snakes to sticks
 
-Xom verwandelt Dinge um dich herum.
+Xom verwandelt jene um dich herum.
 
 "So gefallen sie mir besser."
 
@@ -290,7 +290,7 @@ Xom destruction
 
 "Brenn, Baby, brenn!"
 
-"Ka-boom!"
+"Ka-bumm!"
 
 Xom ruft gewaltige Explosionen hervor.
 
@@ -305,7 +305,7 @@ Xom fake destruction
 Xom demonstriert seine zerstörerische Kraft.
 
 w:1
-"Es soll im Höllenfeuer enden!"
+"Lass es im Höllenfeuer enden!"
 %%%%
 Xom accidental homicide
 
@@ -336,9 +336,9 @@ w:1
 %%%%
 Xom repel stairs
 
-Xom verändert die Szenerie.
+Xom verändert die Umgebung.
 
-Xom stößt auf eine nahe gelegene @staircase@.
+Xom stupst eine nahe gelegene {acc}@staircase@ an.
 
 "Du bist dran!"
 
@@ -354,15 +354,15 @@ Xom bad enchant monster
 %%%%
 Xom stealth player
 
-Xom bringt dich auffällig zum Schweigen.
+Xom zischt laut: Pssst!
 
 Xom flüstert: Pssst!
 %%%%
 Xom cloud
 
-"Das Wetter ist hier ein bisschen zu langweilig."
+"Das Wetter hier ist ein bisschen zu langweilig."
 
-Xom bittet Qazlal, die Sache ein wenig aufzupeppen.
+Xom bittet Qazlal, die Situation ein wenig aufzupeppen.
 
 "Vorhersage: überwiegend bewölkt."
 %%%%
@@ -372,7 +372,7 @@ Xom life saving general
 
 "Hey, es wurde gerade interessant!"
 
-"NOOOOOOO, nicht @_my_plaything_@!"
+"NEIIIIIIIN, nicht @_my_plaything_@!"
 
 "Nicht hier und nicht jetzt."
 
@@ -401,18 +401,18 @@ Xom gähnt laut!
 
 "Was!? Das war's?"
 
-"Ich glaube, ich brauche jetzt ein neues Spielzeug."
+"Ich schätze, jetzt brauche ich ein neues Spielzeug."
 
 "Hm? Habe ich etwas verpasst?"
 
-"Es war an der Zeit."
+"Das war auch Zeit."
 
 "Dieses Spielzeug ist kaputt."
 
 "Es ist alles nur Spaß und Spiel, bis jemand ein Auge verliert."
 
 w:1
-"Es ist kein Spaß und kein Spiel, bis jemand ein Auge verliert."
+"Es ist kein Spaß und kein Spiel, bevor jemand ein Auge verliert."
 %%%%
 # Xom laughing
 # (Currently only used post-game in response to "You die...")
@@ -476,7 +476,7 @@ recite_closure
 
 "Ruhm für Zin!"
 
-"Und so wurde es geschrieben."
+"Und so ward es geschrieben."
 
 "Das sagt Zin."
 
@@ -484,10 +484,10 @@ recite_closure
 
 "Geschrieben mit Blut, besiegelt durch deinen Tod".
 
-"Aus Zins Mund, von Zins Hand."
+"Aus Zins Mund, durch Zins Hand."
 
 w:5
-"So soll es immer sein."
+"So sei es in Ewigkeit."
 
 w:3
 "Im Feuer! Im Schmerz!"
@@ -497,19 +497,19 @@ w:3
 ######################################
 Ashenzari welcome
 
-Aschenzari sagt: Nimm teil an meiner Vision. Nimm teil an meinem Fluch.
+Aschenzari sagt: Teile meine Vision. Teile meinen Fluch.
 %%%%
 Beogh penance
 
-Beogh sagt: Verratet nicht eure orkischen Brüder!
+Beogh sagt: Verrate nicht deine orkischen Brüder!
 %%%%
 Beogh welcome
 
-Beogh sagt: Ertränk die Ungläubigen in einem Meer von Blut!
+Beogh sagt: Ertränke die Ungläubigen in einem Meer von Blut!
 %%%%
 Cheibriados penance
 
-Cheibriados sagt: Sei nicht so voreilig!
+Cheibriados sagt: Sei nicht so hastig!
 %%%%
 Cheibriados welcome
 
@@ -533,7 +533,7 @@ Elyvilon sagt: Geh hinaus und hilf den Schwachen!
 %%%%
 Fedhas penance
 
-Fedhas protestiert gegen deine Eingriffe gegen die Natur.
+Fedhas protestiert gegen deine Eingriffe in die Natur.
 %%%%
 Fedhas welcome
 
@@ -545,18 +545,18 @@ Gozag sagt: Gier ist gut.
 %%%%
 Hepliaklqana welcome
 
-Hepliaklqana sagt: Deine Vergangenheit wird zu deiner Gegenwart!
+Hepliaklqana sagt: Deine Vergangenheit wird deine Gegenwart!
 %%%%
 Jiyva welcome
 
 Schleim für den Schleimgott!
 
 w:1
-Es lebe das neue Fleisch!
+Lang lebe das neue Fleisch!
 %%%%
 Kikubaaqudgha welcome
 
-Kikubaaqudgha sagt: Verbreite unendliche Qualen und Dunkelheit!
+Kikubaaqudgha sagt: Verbreite unendliche Pein und Dunkelheit!
 %%%%
 Lugonu welcome
 
@@ -564,7 +564,7 @@ Lugonu sagt: Verbreite Gemetzel und Korruption!
 %%%%
 Lugonu newgame
 
-Lugonu says: Verlasse den Abgrund und verbreite Verderben, mein Diener!
+Lugonu says: Verlasse den Abgrund und verbreite Korruption, mein Diener!
 <lightgrey>(das F<w>a</w>eigkeitsmenü benutzen, um den Abgrund zu verlassen)</lightgrey>
 %%%%
 Makhleb welcome
@@ -596,15 +596,15 @@ Pakellas sagt: Steh dem Fortschritt nicht im Weg!
 %%%%
 Pakellas welcome
 
-Pakellas sagt: Es ist Zeit, das Experiment fortzusetzen.
+Pakellas sagt: Zeit, das Experiment fortzusetzen.
 
-Pakellas sagt: Es ist Zeit, weitere Testpersonen zu finden.
+Pakellas sagt: Zeit, weitere Testpersonen zu finden.
 
-Pakellas sagt: Bist du bereit, weitere Geräte auszuprobieren?
+Pakellas sagt: Bist du bereit, einige weitere Geräte auszuprobieren?
 
-Pakellas sagt: Dies führt zu einigen sehr interessanten Ergebnissen.
+Pakellas sagt: Das produziert einige sehr interessante Ergebnisse.
 
-Pakellas sagt: Welche Lösungen wirst du dich als Nächstes einfallen lassen?
+Pakellas sagt: Welche Lösungen wirst du dir als Nächstes einfallen lassen?
 
 Pakellas sagt: Fortschritt oder Untergang!
 
@@ -617,23 +617,23 @@ Pakellas sagt: Sie nannten mich verrückt... nun, wir werden es ihnen zeigen!
 %%%%
 Pakellas death
 
-Pakellas sagt: Zurück zum Reißbrett!
+Pakellas sagt: Zurück ans Reißbrett!
 
 Pakellas sagt: Gute Hilfe ist heutzutage so schwer zu finden!
 
 Pakellas sagt: Zeit, einen neuen Assistenten zu finden...
 
-Pakellas sagt: Das ist ein weiterer möglicher Ansatz, der eliminiert wurde.
+Pakellas sagt: Ein weiterer möglicher Ansatz, der eliminiert wurde.
 
-Pakellas sagt: Zeit, das nächste Experiment zu starten...
+Pakellas sagt: Zeit, das nächste Experiment zu beginnen...
 %%%%
 Qazlal penance
 
-Qazlal donnert: Greift nicht in die natürliche Ordnung ein!
+Qazlal donnert: Greif nicht in die natürliche Ordnung ein!
 %%%%
 Qazlal welcome
 
-Qazlal sagt: Lasst die Kräfte der Natur alles niederreißen!
+Qazlal sagt: Lass die Kräfte der Natur alles niederreißen!
 %%%%
 Ru welcome
 
@@ -649,7 +649,7 @@ Sif Muna flüstert: Ich kenne viele Geheimnisse...
 %%%%
 the Shining One penance
 
-Der Strahlende sagt: Ein Märtyrer zu sein, kann deine Sünde wegwaschen!
+Der Strahlende sagt: Ein Märtyrer zu sein, kann deine Sünden wegwaschen!
 %%%%
 the Shining One welcome
 
@@ -657,11 +657,11 @@ Der Strahlende sagt: Führe die Kräfte des Lichts zum Sieg!
 %%%%
 Trog penance
 
-Trog wütet: Tötet sie alle!
+Trog wütet: Töte sie alle!
 %%%%
 Trog welcome
 
-Trog sagt: Tötet sie alle!
+Trog sagt: Töte sie alle!
 %%%%
 Uskayaw welcome
 
@@ -679,7 +679,7 @@ Xom bored
 
 Xom gähnt.
 
-"Ich frage mich, was noch läuft..."
+"Ich frage mich, was sonst noch läuft..."
 
 @Xom welcome@
 %%%%
@@ -720,7 +720,7 @@ verschwenderisches Kind
 
 wahnsinniges Kind
 
-freches Kind
+ungezogenes Kind
 %%%%
 _trout_species_
 
@@ -749,9 +749,9 @@ inversen Forelle
 
 unwahrscheinlichen Forelle
 
-benutzten Forelle
-
 gebrauchten Forelle
+
+Forelle aus zweiter Hand
 
 verbotenen Forelle
 
@@ -769,7 +769,7 @@ Yredelemnul sagt: Im Tod sind alle gleich! Heiliges Märtyrertum bedeutet nichts
 %%%%
 Yredelemnul welcome
 
-Yredelemnul sagt: Tragt die schwarze Fackel! Erwecke die untätigen Toten!
+Yredelemnul sagt: Trage die schwarze Fackel! Erwecke die untätigen Toten!
 %%%%
 Zin penance
 
