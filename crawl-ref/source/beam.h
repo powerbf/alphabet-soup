@@ -187,8 +187,6 @@ public:
 
     void fire();
 
-    // name with "the" in front of it
-    string get_the_name() const;
     // Returns member short_name if set, otherwise some reasonable string
     // for a short name, most likely the name of the beam's flavour.
     string get_short_name() const;

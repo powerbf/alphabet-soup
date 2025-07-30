@@ -140,9 +140,9 @@ string bolt::get_hit_message(const string& object) const
 {
     string msg;
     if (object == "you")
-        return localise("%s " + hit_verb + " you", get_the_name());
+        return localise("%s " + hit_verb + " you", article_the(name));
     else
-        return localise("%s " + hit_verb + " %s", get_the_name(), object);
+        return localise("%s " + hit_verb + " %s", article_the(name), object);
 }
 
 void bolt::do_hit_message(const string& object, const string& punctuation) const
@@ -3243,12 +3243,12 @@ bool bolt::misses_player()
 
     if (!_test_beam_hit(real_tohit, dodge, pierce, 0, r))
     {
-        mprf("%s misses you.", get_the_name().c_str());
+        mprf("%s misses you.", article_the(name).c_str());
         count_action(CACT_DODGE, DODGE_EVASION);
     }
     else if (repel && !_test_beam_hit(real_tohit, dodge, pierce, repel, r))
     {
-        mprf("%s is repelled.", get_the_name().c_str());
+        mprf("%s is repelled.", article_the(name).c_str());
         count_action(CACT_DODGE, DODGE_REPEL);
     }
     else
@@ -4708,11 +4708,11 @@ void bolt::knockback_actor(actor *act, int dam)
         else
         {
             if (act->is_player())
-                mprf("You are knocked back by %s.", get_the_name().c_str());
+                mprf("You are knocked back by %s.", article_the(name).c_str());
             else
             {
                 mprf("%s is knocked back by %s.", act->name(DESC_THE).c_str(),
-                     get_the_name().c_str());
+                     article_the(name).c_str());
             }
         }
     }
@@ -4770,11 +4770,11 @@ void bolt::pull_actor(actor *act, int dam)
     if (you.can_see(*act))
     {
         if (act->is_player())
-            mprf("You are yanked forward by %s.", get_the_name().c_str());
+            mprf("You are yanked forward by %s.", article_the(name).c_str());
         else
         {
             mprf("%s is yanked forward by %s.",
-                 act->name(DESC_THE).c_str(), get_the_name().c_str());
+                 act->name(DESC_THE).c_str(), article_the(name).c_str());
         }
     }
 
@@ -4811,7 +4811,7 @@ bool bolt::attempt_block(monster* mon)
             if (shield && is_shield(*shield) && shield_reflects(*shield))
             {
                 mprf("%s reflects off %s %s!",
-                     get_the_name().c_str(),
+                     article_the(name).c_str(),
                      apostrophise(mon->name(DESC_THE)).c_str(),
                      shield->name(DESC_PLAIN).c_str());
                 ident_reflector(shield);
@@ -4819,7 +4819,7 @@ bool bolt::attempt_block(monster* mon)
             else
             {
                 mprf("%s reflects off an invisible shield around %s!",
-                     get_the_name().c_str(),
+                     article_the(name).c_str(),
                      mon->name(DESC_THE).c_str());
 
                 item_def *amulet = mon->mslot_item(MSLOT_JEWELLERY);
@@ -4828,14 +4828,14 @@ bool bolt::attempt_block(monster* mon)
             }
         }
         else if (you.see_cell(pos()))
-            mprf("%s bounces off of thin air!", get_the_name().c_str());
+            mprf("%s bounces off of thin air!", article_the(name).c_str());
 
         reflect();
     }
     else if (you.see_cell(pos()))
     {
         mprf("%s blocks %s.",
-             mon->name(DESC_THE).c_str(), get_the_name().c_str());
+             mon->name(DESC_THE).c_str(), article_the(name).c_str());
         finish_beam();
     }
 
@@ -4880,7 +4880,7 @@ void bolt::affect_monster(monster* mon)
     {
         if (you.see_cell(mon->pos()))
         {
-            mprf("%s passes through %s.", get_the_name().c_str(),
+            mprf("%s passes through %s.", article_the(name).c_str(),
                  mon->name(DESC_THE).c_str());
         }
     }
@@ -5027,9 +5027,9 @@ void bolt::affect_monster(monster* mon)
             // if it would have hit otherwise...
             string message;
             if (_test_beam_hit(beam_hit, rand_ev, pierce, 0, r))
-                message = localise("%s repels %s!", mon->name(DESC_THE), get_the_name());
+                message = localise("%s repels %s!", mon->name(DESC_THE), article_the(name));
             else
-                message = localise("%s misses %s!", get_the_name(), mon->name(DESC_THE));
+                message = localise("%s misses %s!", article_the(name), mon->name(DESC_THE));
 
             msg::stream << message << endl;
         }
@@ -5084,7 +5084,7 @@ void bolt::affect_monster(monster* mon)
     else if (!silenced(you.pos()) && flavour == BEAM_MISSILE
              && YOU_KILL(thrower))
     {
-        mprf(MSGCH_SOUND, "%s hits something.", get_the_name().c_str());
+        mprf(MSGCH_SOUND, "%s hits something.", article_the(name).c_str());
     }
 
     // Spell vampirism
@@ -6139,7 +6139,7 @@ bool bolt::explode(bool show_more, bool hole_in_the_middle)
         if (!is_tracer && you.see_cell(pos()) && !name.empty())
         {
             mprf(MSGCH_GOD, "By Zin's power, %s is contained.",
-                 get_the_name().c_str());
+                 article_the(name).c_str());
             return true;
         }
         return false;
@@ -6571,14 +6571,6 @@ bool bolt::is_enchantment() const
 {
     return flavour >= BEAM_FIRST_ENCHANTMENT
            && flavour <= BEAM_LAST_ENCHANTMENT;
-}
-
-string bolt::get_the_name() const
-{
-    if (name.empty())
-        return "";
-    else
-        return "the " + name;
 }
 
 string bolt::get_short_name() const
