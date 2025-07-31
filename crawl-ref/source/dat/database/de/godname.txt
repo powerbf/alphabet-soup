@@ -1,7 +1,7 @@
 %%%%
 Zin lastname
 
-Zin der Gesetz-Geber
+Zin der Gesetzgeber
 %%%%
 Yredelemnul lastname
 
@@ -17,11 +17,11 @@ Makhleb der Vernichter
 %%%%
 Sif Muna lastname
 
-Sif Muna der Kundenbewahrer
+Sif Muna die Hüterin des Wissens
 %%%%
 Trog lastname
 
-Trog der Zornig
+Trog der Zornige
 %%%%
 Elyvilon lastname
 
@@ -53,7 +53,7 @@ Dithmenos der Beschattete
 %%%%
 Nemelex Xobeh lastname
 
-Nemelex Xobeh der Trickster
+Nemelex Xobeh der Trickser
 %%%%
 Gozag lastname
 
@@ -73,7 +73,7 @@ Pakellas der Erfinderische
 %%%%
 Uskayaw lastname
 
-Uskayaw der Feiernder
+Uskayaw der Feiernde
 %%%%
 Hepliaklqana lastname
 
@@ -81,16 +81,16 @@ Hepliaklqana der Vergessene
 %%%%
 Wu Jian lastname
 
-der Wu Jian Rat
+der Rat von Wu Jian
 %%%%
-# Xom is neuter
+# neuter doesn't work well for most of Xom's names in in German, so he's male
 Xom lastname
 
 w:280
-Xom von Chaos
+Xom des Chaos
 
 w:5
-Xom das Zufällende
+Xom der Zufällige
 
 w:5
 Xom der Gott der Zufallszahlen
@@ -98,17 +98,17 @@ Xom der Gott der Zufallszahlen
 w:5
 Xom der Ältere Chaosgott
 
-Xom das Knifflige
+Xom der Knifflige
 
 w:5
-Xom das weniger Vorhersehbare
+Xom der weniger Vorhersehbare
 
 w:5
-Xom das Unvorhersehbare
+Xom der Unvorhersehbare
 
 Xom der vielen Türen
 
-Xom das Launische
+Xom der Launische
 
 w:5
 Xom der blutigen Laune
@@ -145,7 +145,7 @@ Xom der rasch kippenden Absicht
 w:2
 Xom der unbekannten Absicht
 
-Xom das Wankelmütige
+Xom der Wankelmütige
 
 Xom von unbekannter Absicht
 
@@ -162,8 +162,8 @@ w:2
 Der Xom-Meister, Xom-Xom-bo-Bom, Banana-Fana-fo-Fom
 
 w:5
-Xom der Verursacher von Turbulenzen
+Xom der Erzeuger von Turbulenzen
 
 w:5
-Xom der Begründer von Diskontinuitäten
+Xom der Erzeuger von Diskontinuitäten
 %%%%
