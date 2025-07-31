@@ -1260,7 +1260,22 @@ the Brawler
 the Wrestler
 
 %%%%
-the @Weight@ Champion
+the Heavyweight Champion
+
+%%%%
+the Cruiserweight Champion
+
+%%%%
+the Featherweight Champion
+
+%%%%
+the Flyweight Champion
+
+%%%%
+the Lightweight Champion
+
+%%%%
+the Middleweight Champion
 
 %%%%
 # Djinni
@@ -1269,27 +1284,6 @@ the Weightless Champion
 %%%%
 # mummy
 the Pharaoh
-
-%%%%
-
-# Weight classes
-%%%%
-Heavyweight
-
-%%%%
-Cruiserweight
-
-%%%%
-Featherweight
-
-%%%%
-Flyweight
-
-%%%%
-Lightweight
-
-%%%%
-Middleweight
 
 %%%%
 

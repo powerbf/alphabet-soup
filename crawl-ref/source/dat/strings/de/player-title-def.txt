@@ -1260,8 +1260,23 @@ der Streithahn
 the Wrestler
 der Ringkämpfer
 %%%%
-the @Weight@ Champion
-der @Weight@-Champion
+the Heavyweight Champion
+der Schwergewichts-Champion
+%%%%
+the Cruiserweight Champion
+der Halbschwergewichts-Champion
+%%%%
+the Featherweight Champion
+der Federgewichts-Champion
+%%%%
+the Flyweight Champion
+der Fliegengewichts-Champion
+%%%%
+the Lightweight Champion
+der Leichtgewichts-Champion
+%%%%
+the Middleweight Champion
+der Mittelgewichts-Champion
 %%%%
 # Djinni
 the Weightless Champion
@@ -1270,27 +1285,6 @@ der Schwerelose Champion
 # mummy
 the Pharaoh
 der Pharao
-%%%%
-
-# Weight classes
-%%%%
-Heavyweight
-Schwergewichts
-%%%%
-Cruiserweight
-Halbschwergewichts
-%%%%
-Featherweight
-Federgewichts
-%%%%
-Flyweight
-Fliegengewichts
-%%%%
-Lightweight
-Leichtgewichts
-%%%%
-Middleweight
-Mittelgewichts
 %%%%
 
 # Unarmed (martial arts)
