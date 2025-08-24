@@ -1251,7 +1251,22 @@ Brawler
 Wrestler
 
 %%%%
-@Weight@ Champion
+Heavyweight Champion
+
+%%%%
+Cruiserweight Champion
+
+%%%%
+Featherweight Champion
+
+%%%%
+Flyweight Champion
+
+%%%%
+Lightweight Champion
+
+%%%%
+Middleweight Champion
 
 %%%%
 # Djinni

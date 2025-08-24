@@ -326,6 +326,8 @@ int main()
     // includes @Genus_Short@ (which is "God" for Demigods)
     show_result(localise("the God of Death"), "Gott des Todes");
     show_result(localise("God of Death"), "Gott des Todes");
+    // includes weight class
+    show_result(localise("Heavyweight Champion"), "Schwergewichtsmeister");
 
     msg = localise("You found it @in_location@", {{"in_location", "on level 3 of the Dungeon"}});
     show_result (msg, "Du hast diesen Gegenstand auf Ebene 3 des Kerkers gefunden");

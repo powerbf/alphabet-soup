@@ -1250,8 +1250,23 @@ Streithahn
 Wrestler
 Ringkämpfer
 %%%%
-@Weight@ Champion
-@Weight@-Champion
+Heavyweight Champion
+Schwergewichtsmeister
+%%%%
+Cruiserweight Champion
+Cruisergewichtsmeister
+%%%%
+Featherweight Champion
+Federgewichtsmeister
+%%%%
+Flyweight Champion
+Fliegengewichtsmeister
+%%%%
+Lightweight Champion
+Leichtgewichtsmeister
+%%%%
+Middleweight Champion
+Mittelgewichtsmeister
 %%%%
 # Djinni
 Weightless Champion

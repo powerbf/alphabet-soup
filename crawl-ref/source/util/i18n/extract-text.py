@@ -2482,6 +2482,36 @@ def post_process_item_name_cc(strings):
 
     return result
 
+def post_process_skills_cc(strings):
+    # extract weight classes
+    weight_classes = []
+    section = None
+    for string in strings:
+        if string.startswith('# section:'):
+            if section == '_stk_weight':
+                break
+            section = string.replace('# section:', '').strip()
+        elif section == '_stk_weight':
+            weight_classes.append(string)
+
+    # expand weight classes
+    result = []
+    section = None
+    for string in strings:
+        if string.startswith('# section:'):
+            section = string.replace('# section:', '').strip()
+            result.append(string)
+        elif section == '_stk_weight':
+            continue
+        elif '@Weight@' in string and string != '@Weight@':
+            result.append('# note: expand "' + string + '"')
+            for weight in weight_classes:
+                result.append(string.replace('@Weight@', weight))
+        else:
+            result.append(string)
+
+    return result
+
 def post_process(filename, strings):
     # the strings in some files need special handling
     canonicalised = True
@@ -2495,6 +2525,8 @@ def post_process(filename, strings):
         strings = post_process_job_data_h(strings)
     elif filename == 'mon-data.h':
         strings = post_process_mon_data_h(strings)
+    elif filename == 'skills.cc':
+        strings = post_process_skills_cc(strings)
     elif filename != 'art-data.txt':
         canonicalised = False
         old_strings = strings
