@@ -864,14 +864,11 @@ public:
         vector<string> muts;
         for (auto app : you.props[APPENDAGE_KEY].get_vector())
         {
-            if (desc.tellp() != std::streampos(0))
-                desc << localise(" ");
-
             mutation_type mut = static_cast<mutation_type>(app.get_int());
             if (mut == MUT_TENTACLE_SPIKE)
                 spike = true;
             else
-                muts.push_back(localise(mutation_name(mut)));
+                muts.push_back(mutation_name(mut));
         }
 
         if (spike)
@@ -892,7 +889,7 @@ public:
                 desc << localise("You have temporarily grown %s.", muts_str);
         }
 
-        return desc.str();
+        return trimmed_string(desc.str());
     }
 
     /**
