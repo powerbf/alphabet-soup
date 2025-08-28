@@ -108,7 +108,7 @@ public:
     /**
      * A description of this form.
      *
-     * E.g. "a fearsome dragon", punctuation NOT included.
+     * E.g. "a fearsome dragon!", punctuation included.
      *
      * Used for the @ screen and, by default, transformation messages.
      *

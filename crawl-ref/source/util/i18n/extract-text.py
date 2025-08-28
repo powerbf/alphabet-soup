@@ -2551,6 +2551,10 @@ def post_process(filename, strings):
                 strings.append("the gateway")
             elif filename == 'transform.cc' and section == "FormAppendage":
                 strings.append(string.strip())
+            elif filename == 'transform.cc' and re.search('^(a|an|your) ', string):
+                # transform description - ignore any containing %s and remove punctuation from rest
+                if '%s' not in string:
+                    strings.append(re.sub(r'[\.!]$', '', string))
             elif string == "Walk":
                 # species walk verb and associated noun
                 strings.append(string + "ing")

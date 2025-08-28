@@ -124,8 +124,7 @@ Form::Form(const form_entry &fe)
       shout_volume_modifier(fe.shout_volume_modifier),
       hand_name(fe.hand_name), foot_name(fe.foot_name),
       flesh_equivalent(fe.flesh_equivalent),
-      long_name(fe.long_name),
-      description(replace_all_of(fe.description, ".!", "")),
+      long_name(fe.long_name), description(fe.description),
       resists(fe.resists),
       base_unarmed_damage(fe.base_unarmed_damage),
       can_fly(fe.can_fly), can_swim(fe.can_swim),
@@ -228,10 +227,11 @@ int Form::get_duration(int pow) const
  */
 string Form::get_description(bool past_tense) const
 {
+    string trans_desc = replace_all_of(get_transform_description(), ".!", "");
     if (past_tense)
-        return localise("You were %s.", get_transform_description());
+        return localise("You were %s.", trans_desc);
     else
-        return localise("You are %s.", get_transform_description());
+        return localise("You are %s.", trans_desc);
 }
 
 /**
@@ -253,7 +253,8 @@ string Form::transform_message(transformation previous_trans) const
     else
         msg = "You turn into %s.";
 
-    return localise(msg, get_transform_description());
+    string trans_desc = replace_all_of(get_transform_description(), ".!", "");
+    return localise(msg, trans_desc);
 }
 
 /**
@@ -505,7 +506,7 @@ public:
      * Get a string describing the form you're turning into. (If not the same
      * as the one used to describe this form in @.
      */
-    string get_transform_description() const override { return "your old self"; }
+    string get_transform_description() const override { return "your old self."; }
 };
 
 class FormSpider : public Form
@@ -646,7 +647,7 @@ public:
      */
     string get_transform_description() const override
     {
-        return "a living statue of rough stone";
+        return "a living statue of rough stone.";
     }
 
     /**
@@ -723,10 +724,8 @@ public:
     {
         if (species::is_draconian(you.species))
         {
-            // @noloc section start (we translate the full string (e.g. "a fearsome fire dragon")
-            return make_stringf("a fearsome %s",
+            return make_stringf("a fearsome %s!",
                           mons_class_name(get_equivalent_mons()));
-            // @noloc section end
         }
         else
             return description;
@@ -832,7 +831,8 @@ public:
      */
     string get_transform_description() const override
     {
-        return you.has_mutation(MUT_VAMPIRISM) ? "a vampire bat" : "a bat";
+        return make_stringf("%s.",
+                            you.has_mutation(MUT_VAMPIRISM) ? "a vampire bat" : "a bat");
     }
 };
 
@@ -1071,7 +1071,7 @@ public:
         const auto heads = you.heads();
         const string headstr = (heads < 11 ? number_in_words(heads)
                                            : to_string(heads))
-                             + "-headed hydra"; // @noloc
+                             + "-headed hydra.";
         return article_a(headstr);
     }
 
@@ -1080,8 +1080,7 @@ public:
      */
     string get_description(bool past_tense) const override
     {
-        return localise(past_tense ? "You were %s." : "You are %s.",
-                        get_transform_description());
+        return Form::get_description(past_tense);
     }
 
     /**
