@@ -546,6 +546,7 @@ def process_form_data_h(filename):
                 # description - remove punctuation
                 if strings[0].endswith(".") or strings[0].endswith("!"):
                     strings[0] = strings[0][:-1]
+                results.extend(strings)
             elif i == 23:
                 # attack verbs
                 form_attack_verbs.extend(strings)
