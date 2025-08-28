@@ -542,7 +542,11 @@ def process_form_data_h(filename):
                     strings = ["hit", "bite", "maul", "maul"]
                 else:
                     continue
-            if i == 23:
+            if i == 5:
+                # description - remove punctuation
+                if strings[0].endswith(".") or strings[0].endswith("!"):
+                    strings[0] = strings[0][:-1]
+            elif i == 23:
                 # attack verbs
                 form_attack_verbs.extend(strings)
                 if len(strings) > 1:
