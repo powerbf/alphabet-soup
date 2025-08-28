@@ -725,7 +725,7 @@ public:
         if (species::is_draconian(you.species))
         {
             // @noloc section start (we translate the full string (e.g. "a fearsome fire dragon")
-            return make_stringf("a fearsome %s!",
+            return make_stringf("a fearsome %s",
                           mons_class_name(get_equivalent_mons()));
             // @noloc section end
         }
