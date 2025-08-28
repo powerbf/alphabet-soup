@@ -2533,17 +2533,23 @@ def post_process(filename, strings):
         strings = post_process_skills_cc(strings)
     elif filename != 'art-data.txt':
         canonicalised = False
+        section = None
         old_strings = strings
         strings = []
         for string in old_strings:
-            if string.startswith('# note:') or string.startswith('# section:'):
+            if string.startswith('# note:'):
                 strings.append(string)
+            elif string.startswith('# section:'):
+                strings.append(string)
+                section = string.replace('# section: ', '')
             elif filename == 'species-data.h' and string == "Yak":
                 # error condition
                 continue
             elif filename == 'player.cc' and string == "%sway":
                 strings.append("the doorway")
                 strings.append("the gateway")
+            elif filename == 'transform.cc' and section == "FormAppendage":
+                strings.append(string.strip())
             elif string == "Walk":
                 # species walk verb and associated noun
                 strings.append(string + "ing")
