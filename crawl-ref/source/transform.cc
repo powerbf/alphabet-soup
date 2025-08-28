@@ -264,7 +264,7 @@ string Form::transform_message(transformation previous_trans) const
  */
 string Form::get_untransform_message() const
 {
-    return localise("Your transformation has ended.");
+    return "Your transformation has ended.";
 }
 
 /**
@@ -594,18 +594,18 @@ public:
         if (singular)
         {
             if (you.has_mutation(MUT_PAWS, false))
-                return localise("Your front paw reverts to its normal proportions.");
+                return "Your front paw reverts to its normal proportions.";
             else
-                return localise("Your hand reverts to its normal proportions.");
+                return "Your hand reverts to its normal proportions.";
         }
         else
         {
             if (you.has_mutation(MUT_PAWS, false))
-                return localise("Your front paws revert to their normal proportions.");
+                return "Your front paws revert to their normal proportions.";
             else if (you.arm_count() > 2)
-                return localise("Your main tentacles revert to their normal proportions.");
+                return "Your main tentacles revert to their normal proportions.";
             else
-                return localise("Your hands revert to their normal proportions.");
+                return "Your hands revert to their normal proportions.";
         }
     }
 
@@ -657,8 +657,8 @@ public:
     {
         // This only handles lava orcs going statue -> stoneskin.
         if (you.species == SP_GARGOYLE)
-            return localise("You revert to a slightly less stony form.");
-        return localise("You revert to your normal fleshy form.");
+            return "You revert to a slightly less stony form.";
+        return "You revert to your normal fleshy form.";
     }
 
     /**
@@ -685,7 +685,7 @@ public:
      */
     string get_untransform_message() const override
     {
-        return localise("You warm up again.");
+        return "You warm up again.";
     }
 
     /**
@@ -799,8 +799,8 @@ public:
     string get_untransform_message() const override
     {
         if (you.undead_state() == US_ALIVE)
-            return localise("You feel yourself come back to life.");
-        return localise("You feel your undeath return to normal.");
+            return "You feel yourself come back to life.";
+        return "You feel your undeath return to normal.";
         // ^^^ vampires only, probably
     }
 };
@@ -938,10 +938,7 @@ public:
     /**
      * Get a message for untransforming from this form.
      */
-    string get_untransform_message() const override
-    {
-        return localise("You feel less wooden.");
-    }
+    string get_untransform_message() const override { return "You feel less wooden."; }
 };
 
 #if TAG_MAJOR_VERSION == 34
@@ -990,10 +987,7 @@ public:
     /**
      * Get a message for untransforming from this form.
      */
-    string get_untransform_message() const override
-    {
-        return localise("You stop sporulating.");
-    }
+    string get_untransform_message() const override { return "You stop sporulating."; }
 };
 
 class FormShadow : public Form
@@ -1010,8 +1004,8 @@ public:
     string get_untransform_message() const override
     {
         if (you.invisible())
-            return localise("You feel less shadowy.");
-        return localise("You emerge from the shadows.");
+            return "You feel less shadowy.";
+        return "You emerge from the shadows.";
     }
 };
 
@@ -2128,7 +2122,7 @@ void untransform(bool skip_move)
 
     const string message = get_form(old_form)->get_untransform_message();
     if (!message.empty())
-        mpr_nolocalise(MSGCH_DURATION, message);
+        mprf(MSGCH_DURATION, "%s", message.c_str());
 
     const int str_mod = get_form(old_form)->str_mod;
     const int dex_mod = get_form(old_form)->dex_mod;
