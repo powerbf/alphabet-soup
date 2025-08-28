@@ -826,24 +826,6 @@ public:
         return you.has_mutation(MUT_VAMPIRISM) ? MONS_VAMPIRE_BAT : MONS_BAT;
     }
 
-    string get_description(bool past_tense) const override
-    {
-        if (you.species == SP_VAMPIRE)
-        {
-            if (past_tense)
-                return localise("You were in vampire-bat-form.");
-            else
-                return localise("You are in vampire-bat-form.");
-        }
-        else
-        {
-            if (past_tense)
-                return localise("You were in bat-form.");
-            else
-                return localise("You are in bat-form.");
-        }
-    }
-
     /**
      * Get a string describing the form you're turning into. (If not the same
      * as the one used to describe this form in @.
