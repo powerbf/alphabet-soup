@@ -6,7 +6,6 @@
 
 #include "format.h"
 #include "libutil.h"
-#include "localise.h"
 #include "random.h"
 #include "tile-inventory-flags.h"
 #include "rltiles/tiledef-icons.h"
