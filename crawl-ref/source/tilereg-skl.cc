@@ -104,9 +104,10 @@ int SkillRegion::handle_mouse(wm_mouse_event &event)
 
 bool SkillRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const string prefix = active ? "" : localise("[L-Click]") + " ";
+    const char *prefix = active ? "" : "[L-Click] ";
 
-    tip = prefix + localise("Manage skills");
+    tip = make_stringf("%s%s", prefix, "Manage skills");
+    tip = localise(tip);
 
     return true;
 }
@@ -122,23 +123,24 @@ bool SkillRegion::update_tip_text(string& tip)
 
     const int flag = m_items[item_idx].flag;
     if (flag & TILEI_FLAG_INVALID)
-        tip = localise("You cannot train this skill now.");
+        tip = "You cannot train this skill now.";
     else if (!you.has_mutation(MUT_DISTRIBUTED_TRAINING))
     {
         const skill_type skill = (skill_type) m_items[item_idx].idx;
 
-        tip = localise("[L-Click]") + " ";
+        tip = "[L-Click] ";
         if (you.train[skill])
-            tip += localise("Disable training");
+            tip += "Disable training";
         else
-            tip += localise("Enable training");
+            tip += "Enable training";
     }
 #ifdef WIZARD
     if (you.wizard)
-        tip += localise("\n%s %s", "[Ctrl + L-Click]", "Change skill level (wizmode)");
+        tip += "\n[Ctrl + L-Click] Change skill level (wizmode)";
 #endif
 
-    tip += localise("\n%s %s", "[R-Click]", "Describe");
+    tip += "\n[R-Click] Describe";
+    tip = localise(tip);
 
     return true;
 }
