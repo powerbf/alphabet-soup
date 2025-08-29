@@ -44,7 +44,8 @@ bool MessageRegion::update_tip_text(string& tip)
     if (mouse_control::current_mode() != MOUSE_MODE_COMMAND)
         return false;
 
-    tip = localise("%s %s", "[L-Click]", "Browse message history");
+    tip = "[L-Click] Browse message history";
+    tip = localise(tip);
     return true;
 }
 
