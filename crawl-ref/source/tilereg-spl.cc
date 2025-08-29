@@ -54,7 +54,7 @@ void SpellRegion::draw_tag()
                   + localise("MP") + "    " + localise(spell_title(spell))
                   + "    (" + failure + ")";
 
-    draw_desc(desc);
+    draw_desc(desc.c_str());
 }
 
 int SpellRegion::handle_mouse(wm_mouse_event &event)

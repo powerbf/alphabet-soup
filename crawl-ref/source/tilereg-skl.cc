@@ -51,7 +51,7 @@ void SkillRegion::draw_tag()
                            apt > 0 ? '+' : ' ',
                            apt);
 
-    draw_desc(desc);
+    draw_desc(desc.c_str());
 }
 
 int SkillRegion::handle_mouse(wm_mouse_event &event)

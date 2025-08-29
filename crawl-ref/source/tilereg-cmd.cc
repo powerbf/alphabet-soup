@@ -52,7 +52,7 @@ void CommandRegion::draw_tag()
 
     const command_type cmd = (command_type) idx;
 
-    draw_desc(get_command_description(cmd, true));
+    draw_desc(get_command_description(cmd, true).c_str());
 }
 
 int CommandRegion::handle_mouse(wm_mouse_event &event)
