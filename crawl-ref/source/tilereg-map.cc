@@ -299,11 +299,11 @@ bool MapRegion::update_tip_text(string& tip)
         return false;
 
 #ifdef TOUCH_UI
-    tip = localise("%s %s", "[L-Click]", "Enable map mode");
+    tip = localise("[L-Click] Enable map mode");
 #else
-    tip = localise("%s %s / %s %s", "[L-Click]", "Travel", "[R-Click]", "View");
+    tip = localise("%s / %s", "[L-Click] Travel", "[R-Click] View");
     if (i_feel_safe())
-        tip += localise("\n%s %s", "[Shift + L-Click]", "Autoexplore");
+        tip += localise("\n[Shift + L-Click] Autoexplore");
 #endif
     return true;
 }
