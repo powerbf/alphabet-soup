@@ -388,7 +388,8 @@ int DungeonRegion::handle_mouse(wm_mouse_event &event)
             if (cloud_struct* cloud = cloud_at(gc))
             {
                 string terrain_desc = desc;
-                desc = localise(cloud->cloud_name(true));
+                desc = cloud->cloud_name(true);
+                desc = localise(desc);
 
                 if (!terrain_desc.empty())
                     desc += "\n" + terrain_desc;
@@ -719,7 +720,8 @@ bool tile_dungeon_tip(const coord_def &gc, string &tip)
                 _add_tip(tip, "[L-Click] Move");
             else if (you.see_cell_no_trans(mon->pos()))
             {
-                tip = localise(mon->name(DESC_A));
+                tip = mon->name(DESC_A);
+                tip = localise(tip);
                 if (primary_ranged)
                 {
                     if (!primary_is_secondary)
