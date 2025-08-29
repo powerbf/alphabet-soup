@@ -75,9 +75,10 @@ void GridRegion::place_cursor(const coord_def &cursor)
     m_dirty = true;
 }
 
-void GridRegion::draw_desc(const string& desc)
+void GridRegion::draw_desc(const char *desc)
 {
     ASSERT(m_tag_font);
+    ASSERT(desc);
 
     // Always draw the description in the inventory header. (jpeg)
     int x = sx + ox;

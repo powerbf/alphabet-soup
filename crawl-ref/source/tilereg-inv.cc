@@ -553,13 +553,13 @@ void InventoryRegion::draw_tag()
     bool floor = m_items[curs_index].flag & TILEI_FLAG_FLOOR;
 
     if (_is_next_button(curs_index))
-        draw_desc(localise("Next page"));
+        draw_desc(localise("Next page").c_str());
     else if (_is_prev_button(curs_index))
-        draw_desc(localise("Previous page"));
+        draw_desc(localise("Previous page").c_str());
     else if (floor && env.item[idx].defined())
-        draw_desc(localise(env.item[idx].name(DESC_PLAIN)));
+        draw_desc(localise(env.item[idx].name(DESC_PLAIN)).c_str());
     else if (!floor && you.inv[idx].defined())
-        draw_desc(localise(you.inv[idx].name(DESC_INVENTORY_EQUIP)));
+        draw_desc(localise(you.inv[idx].name(DESC_INVENTORY_EQUIP)).c_str());
 }
 
 void InventoryRegion::activate()

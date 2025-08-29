@@ -300,7 +300,7 @@ void TabbedRegion::draw_tag()
     if (!tab)
         return;
 
-    draw_desc(localise(tab->name()));
+    draw_desc(localise(tab->name()).c_str());
 }
 
 int TabbedRegion::min_height_for_items() const

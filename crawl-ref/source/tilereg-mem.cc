@@ -56,7 +56,7 @@ void MemoriseRegion::draw_tag()
         desc += localise("1 spell slot");
     else
         desc += localise("%d spell slots", player_spell_levels());
-    draw_desc(desc);
+    draw_desc(desc.c_str());
 }
 
 int MemoriseRegion::handle_mouse(wm_mouse_event &event)
