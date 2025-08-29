@@ -91,11 +91,13 @@ int SpellRegion::handle_mouse(wm_mouse_event &event)
 
 bool SpellRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const string prefix1 = active ? "" : localise("[L-Click]") + " ";
-    const string prefix2 = string(strwidth(prefix1), ' ');
+    const char *prefix1 = active ? "" : "[L-Click] ";
+    const string spaces = string(strwidth(localise(prefix1)), ' ');
+    const char *prefix2 = spaces.c_str();
 
-    tip = prefix1 + localise("Display memorised spells") + "\n";
-    tip += prefix2 + localise("Cast spells");
+    tip = localise("%s%s\n%s%s",
+                       prefix1, "Display memorised spells",
+                       prefix2, "Cast spells");
 
     return true;
 }
@@ -112,14 +114,15 @@ bool SpellRegion::update_tip_text(string& tip)
     int flag = m_items[item_idx].flag;
     vector<command_type> cmd;
     if (flag & TILEI_FLAG_INVALID)
-        tip = localise("You cannot cast this spell right now.");
+        tip = "You cannot cast this spell right now.";
     else
     {
-        tip = localise("%s %s (%%)", "[L-Click]", "Cast");
+        tip = "[L-Click] Cast (%)";
         cmd.push_back(CMD_CAST_SPELL);
     }
 
-    tip += localise("\n%s %s (%%)", "[R-Click]", "Describe");
+    tip += "\n[R-Click] Describe (%)";
+    tip = localise(tip);
     cmd.push_back(CMD_DISPLAY_SPELLS);
     insert_commands(tip, cmd);
 
