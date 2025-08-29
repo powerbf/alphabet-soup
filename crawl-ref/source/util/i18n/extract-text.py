@@ -921,9 +921,11 @@ def insert_section_markers(filename, lines):
         elif line.startswith('class ') or (section == None and line.strip().startswith('class ')):
             # class
             section = re.sub('[ :].*', '', re.sub('^class *', '', line.strip()))
-        elif line.startswith('static ') and re.search(r'\[.*\] *=', line):
+        elif line.startswith('static ') and '=' in line and ('vector<' in line or re.search(r'\[.*\] *=', line)):
             # static data
-            section = re.sub('^.*[ *]', '', re.sub(r'\[.*\] *=.*', '', line))
+            section = re.sub(' *=.*', '', line)
+            section = re.sub(r'\[.*\]', '', section)
+            section = re.sub('.*[^A-Za-z0-9_]', '', section.strip())
 
         # Ewwwwww!
         if filename == 'item-name.cc':
