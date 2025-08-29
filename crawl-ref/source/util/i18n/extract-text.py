@@ -1760,7 +1760,7 @@ def process_cplusplus_file(filename):
                         continue
                     if re.search(r'\bfind\s*\(\s*(string\()?$', last):
                         continue
-                    if re.search(r'\bexists\s*\(\s*$', last):
+                    if re.search(r'\b(exists|matches)\s*\(\s*$', last):
                         continue
                     if re.search(r'\bcontains\s*\(', last):
                         continue

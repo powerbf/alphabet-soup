@@ -4112,12 +4112,6 @@ Merkmale
 " (not visited)"
 " (nicht besucht)"
 %%%%
-stair
-Treppe
-%%%%
-trap
-Falle
-%%%%
 No monsters, items or features are visible.
 Es sind keine Monster, Gegenstände oder Merkmale sichtbar.
 %%%%
@@ -17294,6 +17288,9 @@ Found %s.
 %%%%
 Found %s
 {acc}%s gefunden
+%%%%
+stair
+Treppe
 %%%%
 
 ##################

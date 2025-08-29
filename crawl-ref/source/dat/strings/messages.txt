@@ -4112,12 +4112,6 @@ Features
 " (not visited)"
 
 %%%%
-stair
-
-%%%%
-trap
-
-%%%%
 No monsters, items or features are visible.
 
 %%%%
@@ -17293,6 +17287,9 @@ Found %s.
 
 %%%%
 Found %s
+
+%%%%
+stair
 
 %%%%
 
