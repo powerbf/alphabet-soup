@@ -602,6 +602,17 @@ static string _localise_annotation(const string& s)
        }
     }
 
+    // try without the trailing space
+    if (s[s.length()-1] == ' ')
+    {
+        result = xlate(s.substr(0, s.length()-1), false);
+        if (!result.empty())
+        {
+            result = result + " ";
+            return _escape_curlies(result);
+       }
+    }
+
     string rest = s;
     string prefix, suffix;
 

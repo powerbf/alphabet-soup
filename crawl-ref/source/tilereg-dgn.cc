@@ -684,7 +684,7 @@ static void _add_tip(string &tip, string text)
 {
     if (!tip.empty())
         tip += "\n";
-    tip += text;
+    tip += localise(text);
 }
 
 bool tile_dungeon_tip(const coord_def &gc, string &tip)
@@ -716,7 +716,7 @@ bool tile_dungeon_tip(const coord_def &gc, string &tip)
             has_monster = true;
             // TODO: is see_cell_no_trans too strong?
             if (mon->friendly())
-                _add_tip(tip, localise("%s %s", "[L-Click]", "Move"));
+                _add_tip(tip, "[L-Click] Move");
             else if (you.see_cell_no_trans(mon->pos()))
             {
                 tip = localise(mon->name(DESC_A));
@@ -724,32 +724,27 @@ bool tile_dungeon_tip(const coord_def &gc, string &tip)
                 {
                     if (!primary_is_secondary)
                     {
-                        string str = localise(
-                            "%s %s (%)",
-                            "[L-Click]",
-                            quiver::get_primary_action()->quiver_description().tostring()
-                        );
-                        _add_tip(tip, str);
+                        _add_tip(tip, "[L-Click] "
+                            + quiver::get_primary_action()->quiver_description().tostring()
+                            + " (%)");
                         cmd.push_back(CMD_PRIMARY_ATTACK);
                     }
                     // else case: tip handled below
                 }
                 else if ((gc - you.pos()).rdist() <= melee_dist)
-                    _add_tip(tip, localise("%s %s", "[L-Click]", "Attack")); // show weapon?
+                    _add_tip(tip, "[L-Click] Attack"); // show weapon?
                 else
-                    _add_tip(tip, localise("%s %s", "[L-Click]", "Move towards"));
+                    _add_tip(tip, "[L-Click] Move towards");
 
                 if (quiver::get_secondary_action()->is_valid())
                 {
                     // this doesn't show the CMD_PRIMARY_ATTACK key
-                    const string clickdesc = localise(
-                        "%s %s (%%)",
-                        primary_is_secondary
-                            ? "[L-Click / Shift + L-Click]"
-                            : "[Shift + L-Click]",
-                        quiver::get_secondary_action()->quiver_description().tostring()
-                    );
-                    _add_tip(tip, clickdesc);
+                    const string clickdesc = primary_is_secondary
+                        ? "[L-Click / Shift + L-Click] "
+                        : "[Shift + L-Click] ";
+                    _add_tip(tip, clickdesc
+                        + quiver::get_secondary_action()->quiver_description().tostring()
+                        + " (%)");
                     cmd.push_back(CMD_FIRE);
                 }
             }
@@ -757,13 +752,13 @@ bool tile_dungeon_tip(const coord_def &gc, string &tip)
         else if (!cell_is_solid(gc)) // no monster or player
         {
             if (adjacent(gc, you.pos()))
-                _add_tip(tip, localise("%s %s", "[L-Click]", "Move"));
+                _add_tip(tip, "[L-Click] Move");
             else if (env.map_knowledge(gc).feat() != DNGN_UNSEEN)
             {
                 if (click_travel_safe(gc))
-                    _add_tip(tip, localise("%s %s", "[L-Click]", "Travel"));
+                    _add_tip(tip, "[L-Click] Travel");
                 else
-                    _add_tip(tip, localise("%s %s", "[L-Click]", "Move towards"));
+                    _add_tip(tip, "[L-Click] Move towards");
             }
         }
         else if (feat_is_closed_door(env.grid(gc)))
@@ -771,13 +766,13 @@ bool tile_dungeon_tip(const coord_def &gc, string &tip)
             if (!adjacent(gc, you.pos()))
             {
                 if (click_travel_safe(gc))
-                    _add_tip(tip, localise("%s %s", "[L-Click]", "Travel"));
+                    _add_tip(tip, "[L-Click] Travel");
                 else
-                    _add_tip(tip, localise("%s %s", "[L-Click]", "Move towards"));
+                    _add_tip(tip, "[L-Click] Move towards");
             }
             else
             {
-                _add_tip(tip, localise("%s %s (%%)", "[L-Click]", "Open door"));
+                _add_tip(tip, "[L-Click] Open door (%)");
                 cmd.push_back(CMD_OPEN_DOOR);
             }
         }
@@ -792,7 +787,7 @@ bool tile_dungeon_tip(const coord_def &gc, string &tip)
             const item_def * const item = env.map_knowledge(gc).item();
             if (item && !item_is_stationary(*item))
             {
-                _add_tip(tip, localise("%s %s (%%)", "[L-Click]", "Pick up items"));
+                _add_tip(tip, "[L-Click] Pick up items (%)");
                 cmd.push_back(CMD_PICKUP);
             }
         }
@@ -801,7 +796,7 @@ bool tile_dungeon_tip(const coord_def &gc, string &tip)
         const command_type dir = feat_stair_direction(feat);
         if (dir != CMD_NO_CMD)
         {
-            _add_tip(tip, localise("[Shift + L-Click]") + " ");
+            _add_tip(tip, "[Shift + L-Click] ");
             if (feat == DNGN_ENTER_SHOP)
                 tip += localise("Enter shop");
             else if (feat_is_altar(feat)
@@ -831,19 +826,19 @@ bool tile_dungeon_tip(const coord_def &gc, string &tip)
                 || feat_stair_direction(feat) == CMD_GO_UPSTAIRS)
             {
                 // XXX: wrong for golubria, shops?
-                _add_tip(tip, localise("%s %s (%%)", "[L-Click]", "Use stairs"));
+                _add_tip(tip, "[L-Click] Use stairs (%)");
                 cmd.push_back(feat_stair_direction(feat));
             }
             else if (feat_is_altar(feat)
                      && player_can_join_god(feat_altar_god(feat)))
             {
-                _add_tip(tip, localise("%s %s (%%)", "[L-Click]", "Pray at altar"));
+                _add_tip(tip, "[L-Click] Pray at altar (%)");
                 cmd.push_back(feat_stair_direction(feat));
             }
             else
             {
                 // otherwise wait
-                _add_tip(tip, localise("%s %s (%%)", "[L-Click]", "Wait one turn"));
+                _add_tip(tip, "[L-Click] Wait one turn (%)");
                 cmd.push_back(CMD_WAIT);
             }
         }
@@ -854,20 +849,20 @@ bool tile_dungeon_tip(const coord_def &gc, string &tip)
         }
 
         // Character overview.
-        _add_tip(tip, localise("%s %s (%%)", "[R-Click]",  "Overview"));
+        _add_tip(tip, "[R-Click] Overview (%)");
         cmd.push_back(CMD_RESISTS_SCREEN);
 
         // Religion.
         if (!you_worship(GOD_NO_GOD))
         {
-            _add_tip(tip, localise("%s %s (%%)", "[Shift + R-Click]", "Religion"));
+            _add_tip(tip, "[Shift + R-Click] Religion (%)");
             cmd.push_back(CMD_DISPLAY_RELIGION);
         }
     }
     else if (you.see_cell(gc)
              && env.map_knowledge(gc).feat() != DNGN_UNSEEN)
     {
-        _add_tip(tip, localise("%s %s", "[R-Click]",  "Describe"));
+        _add_tip(tip, "[R-Click] Describe");
     }
 
     if (!tip.empty())
