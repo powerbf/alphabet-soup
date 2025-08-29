@@ -379,6 +379,9 @@ int DungeonRegion::handle_mouse(wm_mouse_event &event)
     if (event.event == wm_mouse_event::MOVE)
     {
         string desc = get_terse_square_desc(gc);
+        // Suppress floor description
+        if (desc == "floor")
+            desc = "";
 
         if (you.see_cell(gc))
         {
