@@ -2517,7 +2517,7 @@ def post_process_skills_cc(strings):
 
     return result
 
-def post_process_tilereg_dgn_cc(strings):
+def post_process_tilereg_cc(strings):
     result = []
     section = None
     for string in strings:
@@ -2528,16 +2528,24 @@ def post_process_tilereg_dgn_cc(strings):
             # wizard mode debug stuff
             continue
         elif string.startswith("["):
-            # split
+            # split mouse click from description of what it does
             pos = string.find(']')
             if pos > 0:
                 mouse_action = string[0:pos+1]
                 rest = string[pos+1:]
                 result.append(mouse_action)
-                # remove hotkey placeholder
-                result.append(rest.replace("(%)", "").strip())
+                result.append(rest.strip())
         else:
             result.append(string)
+
+    # remove hotkey placeholders
+    temp = result
+    result = []
+    for string in temp:
+        if "(%" in string:
+            string = re.sub(r'\(%.*', '', string).strip()
+        result.append(string)
+
     return result
 
 def post_process(filename, strings):
@@ -2555,8 +2563,8 @@ def post_process(filename, strings):
         strings = post_process_mon_data_h(strings)
     elif filename == 'skills.cc':
         strings = post_process_skills_cc(strings)
-    elif filename == "tilereg-dgn.cc":
-        strings = post_process_tilereg_dgn_cc(strings)
+    elif filename.startswith("tilereg-") and filename.endswith(".cc"):
+        strings = post_process_tilereg_cc(strings)
     elif filename != 'art-data.txt':
         canonicalised = False
         section = None
