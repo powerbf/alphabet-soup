@@ -1754,15 +1754,11 @@ def process_cplusplus_file(filename):
 
                 if '(' in last:
                     # another type of equality test
-                    if re.search(r'\bstarts_with\s*\([^,"]+,\s*$', last):
-                        continue
-                    if re.search(r'\bends_with\s*\([^,"]+,\s*$', last):
+                    if re.search(r'\b(starts_with|ends_with|contains)\s*\([^,"]+,\s*$', last):
                         continue
                     if re.search(r'\bfind\s*\(\s*(string\()?$', last):
                         continue
                     if re.search(r'\b(exists|matches)\s*\(\s*$', last):
-                        continue
-                    if re.search(r'\bcontains\s*\(', last):
                         continue
 
                     if re.search(r'\bsplit_string\s*\(', last):
