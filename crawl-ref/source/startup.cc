@@ -66,6 +66,47 @@
 
 using namespace ui;
 
+static void _do_language_selection()
+{
+    Menu menu(MF_SINGLESELECT|MF_ARROWS_SELECT|MF_ALLOW_FORMATTING|MF_WRAP);
+    menu.set_tag("lang_menu");
+    menu.action_cycle = Menu::CYCLE_NONE;
+    menu.menu_action  = Menu::ACT_EXECUTE;
+    menu.clear();
+
+    // Get languages from options
+    vector<string> langs = split_string(",", Options.lang_menu);
+    if (langs.empty())
+        return;
+
+    char letter = 'a';
+
+    for (string lang: langs)
+    {
+        // split language code and name
+        vector<string> toks = split_string(":", lang);
+        if (toks.size() != 2)
+            continue;
+        string lang_name = uppercase_first(toks[1]);
+        MenuEntry* me = new MenuEntry(lang_name, MEL_ITEM, 1, letter);
+        me->data = new string(toks[0]); // language code (e.g. "de", "fr")
+        menu.add_entry(me);
+        letter++;
+    }
+
+    menu.cycle_hover();
+    menu.show();
+
+    vector<MenuEntry*> selected;
+    menu.get_selected(&selected);
+    if (!selected.empty())
+    {
+        string lang_code = *(string*)(selected[0]->data);
+        if (lang_code != "")
+            Options.set_lang(lang_code.c_str());
+    }
+}
+
 static void _loading_message(const string& msg)
 {
     string m = localise(msg);
@@ -124,6 +165,19 @@ static void _initialize()
     // Set up the Lua interpreter for the dungeon builder.
     init_dungeon_lua();
 
+    if (!crawl_state.test_list)
+    {
+        // for console, this must be done before showing the language selection menu
+        if (!crawl_state.io_inited)
+            cio_init();
+        clrscr();
+
+        // If language not specified in init file then choose one now.
+        // Options.no_save indicates a test, so don't show the language menu.
+        if (!Options.no_save && Options.lang_name.empty())
+            _do_language_selection();
+    }
+
 #ifdef USE_TILE_LOCAL
     // Draw the splash screen before the database gets initialised as that
     // may take awhile and it's better if the player can look at a pretty
@@ -178,13 +232,6 @@ static void _initialize()
         end(0, false);
     }
 #endif
-
-    if (!crawl_state.test_list)
-    {
-        if (!crawl_state.io_inited)
-            cio_init();
-        clrscr();
-    }
 
     if (crawl_state.test)
     {
@@ -1002,68 +1049,9 @@ static bool _exit_type_allows_menu_bypass(game_exit exit)
 }
 #endif
 
-static void _do_language_selection()
-{
-    Menu menu(MF_SINGLESELECT|MF_ARROWS_SELECT|MF_ALLOW_FORMATTING|MF_WRAP);
-    menu.set_tag("lang_menu");
-    menu.action_cycle = Menu::CYCLE_NONE;
-    menu.menu_action  = Menu::ACT_EXECUTE;
-    menu.clear();
-
-    // Get languages from options
-    vector<string> langs = split_string(",", Options.lang_menu);
-    if (langs.empty())
-        return;
-
-    char letter = 'a';
-
-    for (string lang: langs)
-    {
-        // split language code and name
-        vector<string> toks = split_string(":", lang);
-        if (toks.size() != 2)
-            continue;
-        string lang_name = uppercase_first(toks[1]);
-        MenuEntry* me = new MenuEntry(lang_name, MEL_ITEM, 1, letter);
-        me->data = new string(toks[0]); // language code (e.g. "de", "fr")
-        menu.add_entry(me);
-        letter++;
-    }
-
-    menu.cycle_hover();
-    menu.show();
-
-    vector<MenuEntry*> selected;
-    menu.get_selected(&selected);
-    if (!selected.empty())
-    {
-        string lang_code = *(string*)(selected[0]->data);
-        if (lang_code != "")
-        {
-            Options.set_lang(lang_code.c_str());
-            if (lang_code != "en")
-            {
-                // redo db init for the new language
-                // not ideal to do it twice, but we can't show this menu any earlier
-                databaseSystemInit();
-
-                // must be done after databaseSystemInit
-                init_localisation(Options.lang_name);
-            }
-        }
-    }
-}
-
 bool startup_step()
 {
     _initialize();
-
-    // If language not specified in init file then choose one now.
-    // We can't do this until after the call to cio_init() inside
-    // _initialize(), otherwise console-mode will crash.
-    // Options.no_save indicates a test, so don't show the language menu.
-    if (!Options.no_save && Options.lang_name.empty())
-        _do_language_selection();
 
     newgame_def choice   = Options.game;
 
