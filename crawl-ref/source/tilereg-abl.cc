@@ -49,7 +49,7 @@ void AbilityRegion::draw_tag()
     const string failure = failure_rate_to_string(get_talent(ability,
                                                              false).fail);
     string desc = localise("%s    (%s)", ability_name(ability), failure);
-    draw_desc(desc);
+    draw_desc(desc.c_str());
 }
 
 int AbilityRegion::handle_mouse(wm_mouse_event &event)
@@ -90,11 +90,13 @@ int AbilityRegion::handle_mouse(wm_mouse_event &event)
 
 bool AbilityRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const string prefix1 = active ? "" : localise("[L-Click]") + " ";
-    const string prefix2 = string(strwidth(prefix1), ' ');
+    const char *prefix1 = active ? "" : "[L-Click] ";
+    const string spaces = string(strwidth(localise(prefix1)), ' ');
+    const char *prefix2 = spaces.c_str();
 
-    tip = prefix1 + localise("Display abilities") + "\n"
-          + prefix2 + localise("Use abilities");
+    tip = localise("%s%s\n%s%s",
+                       prefix1, "Display abilities",
+                       prefix2, "Use abilities");
 
     return true;
 }
@@ -111,14 +113,15 @@ bool AbilityRegion::update_tip_text(string& tip)
     int flag = m_items[item_idx].flag;
     vector<command_type> cmd;
     if (flag & TILEI_FLAG_INVALID)
-        tip = localise("You cannot use this ability right now.");
+        tip = "You cannot use this ability right now.";
     else
     {
-        tip = localise("%s %s (%%)", "[L-Click]", "Use");
+        tip = "[L-Click] Use (%)";
         cmd.push_back(CMD_USE_ABILITY);
     }
 
-    tip += localise("\n%s %s", "[R-Click]", "Describe");
+    tip += "\n[R-Click] Describe";
+    tip = localise(tip);
     insert_commands(tip, cmd);
 
     return true;
