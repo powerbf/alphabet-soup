@@ -1518,13 +1518,13 @@ void AcquireMenu::update_help()
     set_more(formatted_string::parse_string(top_line + localise(
         //[!] acquire|examine item  [a-i] select item to acquire
         //[Esc/R-Click] exit
-        "%s  [%s] %s\n%s",
+        "%s  [%s] %s\n"
+        "[Esc/R-Click] exit",
         menu_action == ACT_EXECUTE ? "[<w>!</w>] <w>acquire</w>|examine items" :
                                      "[<w>!</w>] acquire|<w>examine</w> items",
         _hyphenated_letters(item_count(), 'a').c_str(),
         menu_action == ACT_EXECUTE ? "select item for acquirement"
-                                   : "examine item",
-        "[Esc/R-Click] exit")));
+                                   : "examine item")));
 }
 
 static void _create_acquirement_item(item_def &item)

@@ -426,6 +426,9 @@ The demon of the infinite void smiles upon you.
 Choose an item to acquire.
 
 %%%%
+[Esc/R-Click] exit
+
+%%%%
 [<w>!</w>] <w>acquire</w>|examine items
 
 %%%%
@@ -436,9 +439,6 @@ select item for acquirement
 
 %%%%
 examine item
-
-%%%%
-[Esc/R-Click] exit
 
 %%%%
 Acquire %s? (%s/%s)
