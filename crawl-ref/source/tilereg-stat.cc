@@ -33,7 +33,8 @@ bool StatRegion::update_tip_text(string& tip)
     if (mouse_control::current_mode() != MOUSE_MODE_COMMAND)
         return false;
 
-    tip = localise("%s %s", "[L-Click]", "Show player information");
+    tip = "[L-Click] Show player information";
+    tip = localise(tip);
     return true;
 }
 
