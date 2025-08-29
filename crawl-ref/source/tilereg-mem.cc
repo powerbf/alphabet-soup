@@ -91,11 +91,13 @@ int MemoriseRegion::handle_mouse(wm_mouse_event &event)
 
 bool MemoriseRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const string prefix1 = active ? "" : localise("[L-Click]") + " ";
-    const string prefix2 = string(strwidth(prefix1), ' ');
+    const char *prefix1 = active ? "" : "[L-Click] ";
+    const string spaces = string(strwidth(localise(prefix1)), ' ');
+    const char *prefix2 = spaces.c_str();
 
-    tip = prefix1 + localise("Display spells in carried books") + "\n";
-    tip += prefix2 + localise("Memorise spells");
+    tip = localise("%s%s\n%s%s",
+                       prefix1, "Display spells in carried books",
+                       prefix2, "Memorise spells");
 
     return true;
 }
@@ -112,14 +114,15 @@ bool MemoriseRegion::update_tip_text(string& tip)
     int flag = m_items[item_idx].flag;
     vector<command_type> cmd;
     if (flag & TILEI_FLAG_INVALID)
-        tip = localise("You cannot memorise this spell now.");
+        tip = "You cannot memorise this spell now.";
     else
     {
-        tip = localise("%s %s (%%)", "[L-Click]", "Memorise");
+        tip = "[L-Click] Memorise (%)";
         cmd.push_back(CMD_MEMORISE_SPELL);
     }
 
-    tip += localise("\n%s %s", "[R-Click]", "Describe");
+    tip += "\n[R-Click] Describe";
+    tip = localise(tip);
 
     insert_commands(tip, cmd);
     return true;
