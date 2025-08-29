@@ -213,8 +213,9 @@ void MonsterRegion::draw_tag()
     if (!mon)
         return;
 
-    string desc = localise(mon->proper_name(DESC_A));
-    draw_desc(desc);
+    string desc = mon->proper_name(DESC_A);
+    desc = localise(desc);
+    draw_desc(desc.c_str());
 }
 
 void MonsterRegion::activate()
