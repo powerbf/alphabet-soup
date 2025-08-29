@@ -326,6 +326,7 @@ IGNORE_SECTIONS = {
     'acquire.cc':       ['_why_reject'],        # debug messages
     'arena.cc':         ['arena_tee'],          # arena dumpfile stuff
     'artefact.cc':      ['replace_name_parts'],
+    'attack.cc':        ['chaos_effects'],      # chaos effect names are only used for debugging
     'command.cc':       [
         # diagnostic stuff
         'features', '_get_version_information', '_get_version_features', '_get_version_changes',
