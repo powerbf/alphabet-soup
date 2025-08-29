@@ -1612,7 +1612,7 @@ def process_cplusplus_file(filename):
             if re.search(r'^[^"]*lua[^"]*\(', line):
                 continue
 
-            # Leave notes/milsones in English
+            # Leave notes/milstones in English
             if 'milestone' in line or 'mile_text' in line:
                 continue
             if re.search('take_note', line) or re.search('note *=', line):
@@ -1744,6 +1744,9 @@ def process_cplusplus_file(filename):
                 if re.search(r'\bstr(case)?cmp\b', last):
                     continue
 
+                # crawl environment settings
+                if re.search(r'\benv\..*(=|insert *\() *$', last):
+                    continue
 
                 # skip map keys
                 if re.search(r'\[\s*$', last):

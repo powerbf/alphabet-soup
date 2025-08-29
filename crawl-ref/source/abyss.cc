@@ -1627,8 +1627,8 @@ static bool _abyss_has_path(const coord_def &to)
 // _generate_area generates all other Abyss areas.
 void generate_abyss()
 {
-    env.level_build_method += " abyss"; // @noloc
-    env.level_layout_types.insert("abyss"); // @noloc
+    env.level_build_method += " abyss";
+    env.level_layout_types.insert("abyss");
     destroy_abyss();
 
 retry:
