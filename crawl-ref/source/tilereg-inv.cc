@@ -244,19 +244,21 @@ static void _handle_wield_tip(string &tip, vector<command_type> &cmd,
 {
     tip += prefix;
     if (unwield)
-        tip += localise("Unwield") + " (%-)";
+        tip += "Unwield (%-)";
     else
-        tip += localise("Wield") + " (%)";
+        tip += "Wield (%)";
     cmd.push_back(CMD_WIELD_WEAPON);
 }
 
 bool InventoryRegion::update_tab_tip_text(string &tip, bool active)
 {
-    const string prefix1 = active ? "" : localise("[L-Click]") + " ";
-    const string prefix2 = string(strwidth(prefix1), ' ');
+    const char *prefix1 = active ? "" : "[L-Click] ";
+    const string spaces = string(strwidth(localise(prefix1)), ' ');
+    const char *prefix2 = spaces.c_str();
 
-    tip = prefix1 + localise("Display inventory") + "\n"
-          + prefix2 + localise("Use items");
+    tip = localise("%s%s\n%s%s",
+                       prefix1, "Display inventory",
+                       prefix2, "Use items");
 
     return true;
 }
@@ -273,14 +275,14 @@ bool InventoryRegion::update_tip_text(string& tip)
     // page next/prev
     if (_is_next_button(item_idx))
     {
-        tip = localise("%s\n%s %s", "Next page", "[L-Click]",
-                       "Show next page of items");
+        tip = "Next page\n[L-Click] Show next page of items";
+        tip = localise(tip);
         return true;
     }
     else if (_is_prev_button(item_idx))
     {
-        tip = localise("%s\n%s %s", "Previous page", "[L-Click]",
-                       "Show previous page of items");
+        tip = "Previous page\n[L-Click] Show previous page of items";
+        tip = localise(tip);
         return true;
     }
 
@@ -307,7 +309,7 @@ bool InventoryRegion::update_tip_text(string& tip)
             tip += " - ";
         }
 
-        tip += item.name(DESC_A);
+        tip += localise(item.name(DESC_A));
 
         if (!display_actions)
             return true;
@@ -322,11 +324,11 @@ bool InventoryRegion::update_tip_text(string& tip)
 
         if (!item_is_stationary(item))
         {
-            tip += localise("\n%s %s (%%)", "[L-Click]", "Pick up");
+            tip += localise("\n[L-Click] Pick up (%)");
             cmd.push_back(CMD_PICKUP);
             if (item.quantity > 1)
             {
-                tip += localise("\n%s %s (%%)", "[Ctrl + L-Click]", "Partial pick up");
+                tip += localise("\n[Ctrl + L-Click] Partial pick up (%)");
                 cmd.push_back(CMD_PICKUP_QUANTITY);
             }
         }
@@ -350,7 +352,7 @@ bool InventoryRegion::update_tip_text(string& tip)
 
         if (_can_use_item(item, equipped))
         {
-            string tip_prefix = "\n" + localise("[L-Click]") + " ";
+            string tip_prefix = "\n[L-Click] ";
             string tmp = "";
             if (equipped)
             {
@@ -376,8 +378,7 @@ bool InventoryRegion::update_tip_text(string& tip)
                     _handle_wield_tip(tmp, cmd);
                     if (is_throwable(&you, item))
                     {
-                        tmp += "\n";
-                        tmp += localise("%s %s (%%)", "[Ctrl + L-Click]", "Fire");
+                        tmp += "\n[Ctrl + L-Click] Fire (%)";
                         cmd.push_back(CMD_FIRE);
                     }
                 }
@@ -386,108 +387,108 @@ bool InventoryRegion::update_tip_text(string& tip)
                 _handle_wield_tip(tmp, cmd, "", true);
                 if (is_throwable(&you, item))
                 {
-                    tmp += "\n";
-                    tmp += localise("%s %s (%%)", "[Ctrl + L-Click]", "Fire");
+                    tmp += "\n[Ctrl + L-Click] Fire (%)";
                     cmd.push_back(CMD_FIRE);
                 }
                 break;
             case OBJ_MISCELLANY:
-                tmp += localise("%s (%%)", "Evoke");
+                tmp += "Evoke (%)";
                 cmd.push_back(CMD_EVOKE);
                 break;
             case OBJ_MISCELLANY + EQUIP_OFFSET:
 #if TAG_MAJOR_VERSION == 34
             case OBJ_RODS + EQUIP_OFFSET:
-                tmp += localise("%s (%%)", "Evoke");
+                tmp += "Evoke (%)";
                 cmd.push_back(CMD_EVOKE_WIELDED);
-                _handle_wield_tip(tmp, cmd, localise("\n%s ", "[Ctrl + L-Click]"), true);
+                _handle_wield_tip(tmp, cmd, "\n[Ctrl + L-Click] ", true);
                 break;
 #endif
             case OBJ_ARMOUR:
                 if (!you.has_mutation(MUT_NO_ARMOUR))
                 {
-                    tmp += localise("%s (%%)", "Wear");
+                    tmp += "Wear (%)";
                     cmd.push_back(CMD_WEAR_ARMOUR);
                 }
                 break;
             case OBJ_ARMOUR + EQUIP_OFFSET:
-                tmp += localise("%s (%%)", "Take off");
+                tmp += "Take off (%)";
                 cmd.push_back(CMD_REMOVE_ARMOUR);
                 break;
             case OBJ_JEWELLERY:
-                tmp += localise("%s (%%)", "Put on");
+                tmp += "Put on (%)";
                 cmd.push_back(CMD_WEAR_JEWELLERY);
                 break;
             case OBJ_JEWELLERY + EQUIP_OFFSET:
-                tmp += localise("%s (%%)", "Remove");
+                tmp += "Remove (%)";
                 cmd.push_back(CMD_REMOVE_JEWELLERY);
                 break;
             case OBJ_MISSILES:
                 if (!you.has_mutation(MUT_NO_GRASPING))
                 {
-                    tmp += localise("%s (%%)", "Fire");
+                    tmp += "Fire (%)";
                     cmd.push_back(CMD_FIRE);
 
                     if (wielded || you.can_wield(item))
-                        _handle_wield_tip(tmp, cmd, localise("\n%s ", "[Ctrl + L-Click]"), wielded);
+                        _handle_wield_tip(tmp, cmd, "\n[Ctrl + L-Click] ", wielded);
                 }
                 break;
             case OBJ_WANDS:
-                tmp += localise("%s (%%)", "Evoke");
+                tmp += "Evoke (%)";
                 cmd.push_back(CMD_EVOKE);
                 if (wielded)
-                    _handle_wield_tip(tmp, cmd, localise("\n%s ", "[Ctrl + L-Click]"), true);
+                    _handle_wield_tip(tmp, cmd, "\n[Ctrl + L-Click] ", true);
                 break;
             case OBJ_BOOKS:
                 if (item_type_known(item) && item_is_spellbook(item)
                     && can_learn_spell(true))
                 {
-                    tmp += localise("%s (%%)", "Memorise");
+                    tmp += "Memorise (%)";
                     cmd.push_back(CMD_MEMORISE_SPELL);
                     if (wielded)
-                        _handle_wield_tip(tmp, cmd, localise("\n%s ", "[Ctrl + L-Click]"), true);
+                        _handle_wield_tip(tmp, cmd, "\n[Ctrl + L-Click] ", true);
                     break;
                 }
                 if (item.sub_type == BOOK_MANUAL)
                     break;
                 // else fall-through
             case OBJ_SCROLLS:
-                tmp += localise("%s (%%)", "Read");
+                tmp += "Read (%)";
                 cmd.push_back(CMD_READ);
                 if (wielded)
-                    _handle_wield_tip(tmp, cmd, localise("\n%s ", "[Ctrl + L-Click]"), true);
+                    _handle_wield_tip(tmp, cmd, "\n[Ctrl + L-Click] ", true);
                 break;
             case OBJ_POTIONS:
-                tmp += localise("%s (%%)", "Quaff");
+                tmp += "Quaff (%)";
                 cmd.push_back(CMD_QUAFF);
                 if (wielded)
-                    _handle_wield_tip(tmp, cmd, localise("\n%s ", "[Ctrl + L-Click]"), true);
+                    _handle_wield_tip(tmp, cmd, "\n[Ctrl + L-Click] ", true);
                 break;
             case OBJ_CORPSES:
                 if (wielded)
-                    _handle_wield_tip(tmp, cmd, localise("\n%s ", "[Ctrl + L-Click]"), true);
+                    _handle_wield_tip(tmp, cmd, "\n[Ctrl + L-Click] ", true);
                 break;
             default:
-                tmp += localise("Use");
+                tmp += "Use";
             }
 
             if (!tmp.empty())
                 tip += tip_prefix + tmp;
         }
 
-        tip += localise("\n%s %s", "[R-Click]", "Describe");
+        tip += "\n[R-Click] Describe";
         // Has to be non-equipped or non-cursed to drop.
         if (!equipped || !_is_true_equipped_item(you.inv[idx])
             || !you.inv[idx].cursed())
         {
-            tip += localise("\n%s %s (%%)", "[Shift + L-Click]", "Drop");
+            tip += "\n[Shift + L-Click] Drop (%)";
             cmd.push_back(CMD_DROP);
             if (you.inv[idx].quantity > 1)
             {
-                tip += localise("\n%s %s (%%#)", "[Ctrl-Shift + L-Click]", "Drop quantity");
+                tip += "\n[Ctrl-Shift + L-Click] Drop quantity (%#)";
                 cmd.push_back(CMD_DROP);
             }
         }
+        tip = localise(tip);
     }
 
     insert_commands(tip, cmd);
