@@ -1611,7 +1611,6 @@ static string _get_monster_name(const monster_info& mi, int count, bool fullname
 // because they're needed for the morgue dump.
 string mpr_monster_list(bool past)
 {
-    // @noloc section start (only used in morgue and for debugging)
     // Get monsters via the monster_pane_info, sorted by difficulty.
     vector<monster_info> mons;
     get_monster_info(mons);
@@ -1652,7 +1651,6 @@ string mpr_monster_list(bool past)
     msg += ".";
 
     return msg;
-    // @noloc section end
 }
 
 #ifndef USE_TILE_LOCAL
@@ -1856,7 +1854,7 @@ static string _itosym(int level, int max = 1, bool immune = false)
         }
         else // negative resistance
         {
-            sym += "x"; // @noloc
+            sym += "x";
             ++level;
         }
         sym += (spacing) ? " " : "";
@@ -2039,7 +2037,7 @@ static void _print_overview_screen_equip(column_composer& cols,
         {
             str = "<darkgrey>(";
             if (eqslot == EQ_BOOTS && you.wear_barding())
-                str += localise("no " + slot_name_lwr); // @noloc
+                str += localise("no " + slot_name_lwr);
             else if (!you_can_wear(eqslot))
                 str += localise("%s unavailable", slot_name_lwr);
             else if (!you_can_wear(eqslot, true))
@@ -2047,7 +2045,7 @@ static void _print_overview_screen_equip(column_composer& cols,
             else if (you_can_wear(eqslot) == MB_MAYBE)
                 str += localise("%s restricted", slot_name_lwr);
             else
-                str += localise("no " + slot_name_lwr); // @noloc
+                str += localise("no " + slot_name_lwr);
             str += + ")</darkgrey>";
         }
         cols.add_formatted(2, str.c_str(), false);

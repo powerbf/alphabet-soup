@@ -35,7 +35,7 @@ RU_SACRIFICE_PREFIX = "Ru asks you to "
 # strings to ignore
 IGNORE_STRINGS = [
     'the', 'the ', ' the ', 'la ',
-    'a', 'a ', 'an', 'an ',
+    'a', 'a ', 'an', 'an ', 'no ',
     'you', 'you ', 'You ', ' you', 'your', 'your ', 'its ',
     ' of ', ' of', 'of ', 's',
     'The ', 'Your ',
@@ -358,6 +358,10 @@ IGNORE_SECTIONS = {
         'mons_type_name',                       # names for "random" monsters
         '_get_species_insult', 'get_mon_shape_str',  # db keys
         'debug_mondata', 'debug_monspells',   #debug
+    ],
+    'output.cc':        [
+        'mpr_monster_list',                     # only used in morgue and for debugging
+        '_itosym',                              # symbolic representaion of resist numbers
     ],
 }
 
