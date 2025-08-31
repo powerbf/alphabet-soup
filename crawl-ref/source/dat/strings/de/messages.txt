@@ -6989,8 +6989,8 @@ Are you sure you want to pick up this pile of gold now?
 Bist du sicher, dass du diesen Haufen Gold jetzt aufheben willst?
 %%%%
 # note: %s here will be a counted plural (e.g. "27 boomerangs")
-Pick up how many of the %s (; or enter for all)?
-Der Stapel hat {acc}%s. Wie viele aufheben (; oder Enter für alle)?
+"Pick up how many of the %s (; or enter for all)? "
+"Der Stapel hat {acc}%s. Wie viele aufheben (; oder Enter für alle)? "
 %%%%
 There are no items here.
 Hier sind keine Gegenstände.

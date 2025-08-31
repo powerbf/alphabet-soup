@@ -6989,7 +6989,7 @@ Are you sure you want to pick up this pile of gold now?
 
 %%%%
 # note: %s here will be a counted plural (e.g. "27 boomerangs")
-Pick up how many of the %s (; or enter for all)?
+"Pick up how many of the %s (; or enter for all)? "
 
 %%%%
 There are no items here.

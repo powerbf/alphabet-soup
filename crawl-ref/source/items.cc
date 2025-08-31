@@ -1364,8 +1364,9 @@ bool pickup_single_item(int link, int qty)
     }
     if (qty == 0 && item->quantity > 1 && item->base_type != OBJ_GOLD)
     {
-        string prompt = localise("Pick up how many of the %s (; or enter for all)?",
-                                 item->name(DESC_PLAIN, false, false, false));
+        const string prompt
+                = localise("Pick up how many of the %s (; or enter for all)? ",
+                           item->name(DESC_PLAIN, false, false, false));
 
         qty = prompt_for_quantity(prompt.c_str());
         if (qty == -1)
