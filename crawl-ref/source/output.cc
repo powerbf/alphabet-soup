@@ -532,7 +532,7 @@ void update_message_status()
     textcolour(LIGHTBLUE);
 
     CGOTOXY(crawl_view.hudsz.x - strwidth(msg) + 1, 1, GOTO_STAT);
-    CPRINTF(msg);
+    CPRINTF(msg.c_str());
 
     textcolour(LIGHTGREY);
 }
