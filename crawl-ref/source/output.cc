@@ -2667,8 +2667,6 @@ string _status_mut_rune_list(int sw)
                     stringize_glyph(get_item_symbol(SHOW_ITEM_MISCELLANY)).c_str());
         text += localise("%d/%d runes: ", (int)runes.size(), you.obtainable_runes);
         text += localise(comma_separated_line(runes.begin(), runes.end(), ", ", ", "));
-
-
     }
 
     linebreak_string(text, sw);
