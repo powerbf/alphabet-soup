@@ -571,7 +571,6 @@ void update_turn_count()
 
     CPRINTF("%s",
         chop_string(time, crawl_view.hudsz.x - turncount_start_x + 1).c_str());
-
     textcolour(LIGHTGREY);
 }
 
@@ -1209,12 +1208,13 @@ static void _print_status_lights(int y)
     you.redraw_status_lights = false;
 }
 
-static void _draw_wizmode_flag(const string& word)
+static void _draw_wizmode_flag(const char *word)
 {
+    string msg = localise(word);
     textcolour(LIGHTMAGENTA);
     // 3+ for the " **"
-    CGOTOXY(1 + crawl_view.hudsz.x - (3 + strwidth(word)), 1, GOTO_STAT);
-    CPRINTF(" *%s*", word.c_str());
+    CGOTOXY(1 + crawl_view.hudsz.x - (3 + strwidth(msg)), 1, GOTO_STAT);
+    CPRINTF(" *%s*", msg.c_str());
 }
 
 static void _redraw_title()
@@ -1257,11 +1257,11 @@ static void _redraw_title()
     textcolour(small_layout && you.wizard ? LIGHTMAGENTA : YELLOW);
     CPRINTF("%s", chop_string(title, WIDTH).c_str());
     if (you.wizard && !small_layout)
-        _draw_wizmode_flag(localise("WIZARD"));
+        _draw_wizmode_flag("WIZARD");
     else if (you.suppress_wizard && !small_layout)
-        _draw_wizmode_flag(localise("EX-WIZARD"));
+        _draw_wizmode_flag("EX-WIZARD");
     else if (you.explore && !small_layout)
-        _draw_wizmode_flag(localise("EXPLORE"));
+        _draw_wizmode_flag("EXPLORE");
 #ifdef DGL_SIMPLE_MESSAGING
     update_message_status();
 #endif
@@ -1294,7 +1294,7 @@ static void _redraw_title()
     {
         string god = " of ";
         god += you_worship(GOD_JIYVA) ? god_name_jiyva(true)
-                                            : god_name(you.religion);
+                                      : god_name(you.religion);
         god = localise(god);
         NOWRAP_EOL_CPRINTF("%s", god.c_str());
 
@@ -1434,17 +1434,15 @@ static string _level_description_string_hud()
     string short_name = branches[place.branch].shortname;
 
     if (brdepth[place.branch] > 1)
-    {
-        short_name = localise(short_name);
         short_name += make_stringf(":%d", you.depth);
-    }
     // Indefinite articles
     else if (place.branch != BRANCH_PANDEMONIUM
              && place.branch != BRANCH_DESOLATION
              && !is_connected_branch(place.branch))
     {
-        short_name = localise(article_a(short_name));
+        short_name = article_a(short_name);
     }
+    short_name = localise(short_name);
     return short_name;
 }
 
@@ -2406,7 +2404,7 @@ static vector<formatted_string> _get_overview_stats()
 //      pos_resist : false for "bad" resistances (no tele, random tele, *Rage),
 //          inverts the value for the colour choice
 //      immune : overwrites normal pip display for full immunity
-static string _resist_composer(const char* name, int spacing, int value,
+static string _resist_composer(const char * name, int spacing, int value,
                                int max = 1, bool pos_resist = true,
                                bool immune = false)
 {
