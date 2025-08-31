@@ -1620,9 +1620,9 @@ string mpr_monster_list(bool past)
     string msg = "";
     if (mons.empty())
     {
-        msg = (past
-               ? "There were no monsters in sight!"
-               : "There are no monsters in sight!");
+        msg  = "There ";
+        msg += (past ? "were" : "are");
+        msg += " no monsters in sight!";
 
         return msg;
     }
@@ -1642,16 +1642,15 @@ string mpr_monster_list(bool past)
 
     describe.push_back(_get_monster_name(mons[mons.size()-1], count, true).c_str());
 
-    string monster_list;
-    if (describe.size() == 1)
-        monster_list = describe[0];
-    else
-        monster_list = comma_separated_line(describe.begin(), describe.end());
+    msg = "You ";
+    msg += (past ? "could" : "can");
+    msg += " see ";
 
-    if (past)
-        msg = make_stringf("You could see %s.", monster_list.c_str());
+    if (describe.size() == 1)
+        msg += describe[0];
     else
-        msg = make_stringf("You can see %s.", monster_list.c_str());
+        msg += comma_separated_line(describe.begin(), describe.end());
+    msg += ".";
 
     return msg;
     // @noloc section end
