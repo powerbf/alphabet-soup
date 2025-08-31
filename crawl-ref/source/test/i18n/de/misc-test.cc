@@ -457,6 +457,15 @@ int main()
 
     cout << endl;
 
+    // Gods possessive
+    msg = localise(" of Zin");
+    show_result(msg, " von Zin");
+    msg = localise(" of the Shining One");
+    show_result(msg, " des Strahlenden");
+    msg = localise(" of Jiyva Jishu");
+    show_result(msg, " von Jiyva Jishu");
+    cout << endl;
+
     // Zin recitations
 
     params = {

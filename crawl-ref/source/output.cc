@@ -1271,9 +1271,9 @@ static void _redraw_title()
     textcolour(YELLOW);
     CGOTOXY(1, 2, GOTO_STAT);
     string species = species::name(you.species);
+    NOWRAP_EOL_CPRINTF("%s", localise(species).c_str());
     if (you_worship(GOD_NO_GOD))
     {
-        NOWRAP_EOL_CPRINTF("%s", localise(species).c_str());
         if (you.char_class == JOB_MONK
             && !you.has_mutation(MUT_FORLORN) // XX is this necessary?
             && !had_gods())
@@ -1292,10 +1292,11 @@ static void _redraw_title()
     }
     else
     {
-        string god = you_worship(GOD_JIYVA) ? god_name_jiyva(true)
+        string god = " of ";
+        god += you_worship(GOD_JIYVA) ? god_name_jiyva(true)
                                             : god_name(you.religion);
-        string of_god = localise(" of %s", god);
-        NOWRAP_EOL_CPRINTF("%s%s", localise(species).c_str(), of_god.c_str());
+        god = localise(god);
+        NOWRAP_EOL_CPRINTF("%s", god.c_str());
 
         string piety = _god_asterisks();
         textcolour(_god_status_colour(YELLOW));

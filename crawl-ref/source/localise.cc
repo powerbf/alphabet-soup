@@ -1122,6 +1122,14 @@ static string _localise_suffix(const string& s)
     if (!loc.empty())
         return loc;
 
+    // handle Jiyva with (random) second name
+    const static string of_jiyva = " of Jiyva";
+    if (starts_with(s, of_jiyva) && s != of_jiyva)
+    {
+        string second_name = s.substr(of_jiyva.length());
+        return _localise_suffix(of_jiyva) + second_name;
+    }
+
     string fmt, arg;
     if (starts_with(s, " of "))
     {
