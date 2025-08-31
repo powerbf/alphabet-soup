@@ -527,12 +527,12 @@ void update_message_status()
     if (!SysEnv.have_messages)
         return;
 
-    static const char * const msg = "(Hit _)";
+    const string msg = localise("(Hit _)");
 
     textcolour(LIGHTBLUE);
 
     CGOTOXY(crawl_view.hudsz.x - strwidth(msg) + 1, 1, GOTO_STAT);
-    CPRINTF(localise(msg).c_str());
+    CPRINTF(msg);
 
     textcolour(LIGHTGREY);
 }
