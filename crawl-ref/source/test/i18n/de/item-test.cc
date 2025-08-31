@@ -724,8 +724,8 @@ int main()
 
 
     string msg;
-    msg = localise("Pick up how many of the %s (; or enter for all)?", "21 poisoned darts");
-    test(msg, "Der Stapel hat 21 vergiftete Wurfpfeile. Wie viele aufheben (; oder Enter für alle)?");
+    msg = localise("Pick up how many of the %s (; or enter for all)? ", "21 poisoned darts");
+    test(msg, "Der Stapel hat 21 vergiftete Wurfpfeile. Wie viele aufheben (; oder Enter für alle)? ");
 
     cout << endl << num_passes << " TESTS PASSED" << endl;
     if (num_fails > 0)
