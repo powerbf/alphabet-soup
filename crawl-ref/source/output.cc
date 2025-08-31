@@ -1731,7 +1731,7 @@ static void _print_next_monster_desc(const vector<monster_info>& mons,
             }
             else
                 desc.resize(crawl_view.mlistsz.x - printed, ' ');
-            CPRINTF("%s", localise(desc).c_str());
+            CPRINTF("%s", desc.c_str());
         }
     }
 
