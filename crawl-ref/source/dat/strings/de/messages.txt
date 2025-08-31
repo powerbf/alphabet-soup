@@ -583,17 +583,14 @@ Du wirst gewaltsam gestoppt!
 # adjust.cc
 ##################
 %%%%
-"Adjust (i)tems, (s)pells, or (a)bilities? "
-"(i)Gegenstände, (s)Zauber, oder (a)Fähigkeiten anpassen? "
+Adjust (i)tems, (s)pells, or (a)bilities?
+(i)Gegenstände, (s)Zauber, oder (a)Fähigkeiten anpassen?
 %%%%
 Adjust which item?
 Welchen Gegenstand anpassen?
 %%%%
-"Adjust to which letter? "
-"An welchen Buchstaben binden? "
-%%%%
-"Adjust which spell? "
-"Welchen Zauber anpassen? "
+Adjust to which letter?
+An welchen Buchstaben binden?
 %%%%
 Adjust which spell?
 Welchen Zauber anpassen?
@@ -601,14 +598,11 @@ Welchen Zauber anpassen?
 You don't know that spell.
 Du kennst diesen Zauber nicht.
 %%%%
-Adjust to which letter?
-An welchen Buchstaben binden?
-%%%%
 You don't currently have any abilities.
 Du hast momentan keine Fähigkeiten.
 %%%%
-"Adjust which ability? "
-"Welche Fähigkeit anpassen? "
+Adjust which ability?
+Welche Fähigkeit anpassen?
 %%%%
 No such ability.
 So eine Fähigkeit gibt es nicht.

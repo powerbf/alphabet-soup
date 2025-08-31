@@ -1820,6 +1820,9 @@ def process_cplusplus_file(filename):
                         continue
                     # also used with 'Sacrifice ' removed for the cost
                     strings.append(string.replace('Sacrifice ', ''))
+            elif filename == 'adjust.cc':
+                if string.endswith("? "):
+                    string = string[0:-1];
             elif filename == 'delay.cc':
                 if string.startswith(' ') and section in ['_monster_warning', '_abyss_monster_creation_message']:
                     string = "%s" + string

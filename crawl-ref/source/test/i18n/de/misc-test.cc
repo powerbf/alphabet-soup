@@ -419,6 +419,10 @@ int main()
     msg = localise("Memorise %s, consuming %d spell levels and leaving %d?", "Fireball", 5, 0);
     show_result(msg, "Feuerball auswendig lernen, dabei 5 Zauberplätze verbrauchen und 0 behalten?");
 
+    // test localise with trailing space
+    msg = localise("Adjust to which letter? ");
+    show_result(msg, "An welchen Buchstaben binden? ");
+
     // test annotation
     msg = localise("{book}");
     show_result(msg, "{Buch}");
