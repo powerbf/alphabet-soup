@@ -583,13 +583,16 @@ You violently stop moving!
 # adjust.cc
 ##################
 %%%%
-Adjust (i)tems, (s)pells, or (a)bilities?
+"Adjust (i)tems, (s)pells, or (a)bilities? "
 
 %%%%
 Adjust which item?
 
 %%%%
 "Adjust to which letter? "
+
+%%%%
+"Adjust which spell? "
 
 %%%%
 Adjust which spell?
@@ -604,7 +607,7 @@ Adjust to which letter?
 You don't currently have any abilities.
 
 %%%%
-Adjust which ability?
+"Adjust which ability? "
 
 %%%%
 No such ability.
