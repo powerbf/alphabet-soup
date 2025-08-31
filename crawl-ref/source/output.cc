@@ -1721,14 +1721,14 @@ static void _print_next_monster_desc(const vector<monster_info>& mons,
                                 mons, start, count);
             desc = localise(desc);
             textcolour(desc_colour);
-            if (static_cast<int>(desc.length()) > crawl_view.mlistsz.x - printed)
+            if (strwidth(desc) > crawl_view.mlistsz.x - printed)
             {
                 ASSERT(crawl_view.mlistsz.x - 2 - printed >= 0);
-                desc.resize(crawl_view.mlistsz.x - 2 - printed, ' ');
+                desc = chop_string(desc, crawl_view.mlistsz.x - 2 - printed);
                 desc += "…)";
             }
             else
-                desc.resize(crawl_view.mlistsz.x - printed, ' ');
+                desc = chop_string(desc, crawl_view.mlistsz.x - printed);
             CPRINTF("%s", desc.c_str());
         }
     }
