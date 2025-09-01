@@ -1592,18 +1592,6 @@ Your demonic guardian avoids your attack.
 %s hits something.
 
 %%%%
-%s flickers and vanishes!
-
-%%%%
-%s flickers and vanishes for a moment!
-
-%%%%
-%s flickers out of sight!
-
-%%%%
-%s flickers out of sight for a moment!
-
-%%%%
 %s is dispelled
 
 %%%%
@@ -1634,6 +1622,12 @@ Your demonic guardian avoids your attack.
 
 %%%%
 %s falls asleep!
+
+%%%%
+%s flickers and vanishes!
+
+%%%%
+%s flickers and vanishes for a moment.
 
 %%%%
 %s is charmed!
@@ -8639,6 +8633,12 @@ The starcursed mass shrieks in your mind.
 
 %%%%
 Angry insects surge out from beneath %s foliage!
+
+%%%%
+%s flickers out of sight!
+
+%%%%
+%s flickers out of sight for a moment.
 
 %%%%
 %s flows with the water.

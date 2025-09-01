@@ -1592,18 +1592,6 @@ Dein dämonischer Wächter vermeidet deinen Angriff.
 %s hits something.
 %s trifft etwas.
 %%%%
-%s flickers and vanishes!
-%s flackert und verschwindet!
-%%%%
-%s flickers and vanishes for a moment!
-%s flackert und verschwindet für einen Moment!
-%%%%
-%s flickers out of sight!
-%s flackert außer Sicht!
-%%%%
-%s flickers out of sight for a moment!
-%s flackert für einen Moment außer Sicht!
-%%%%
 %s is dispelled
 %s wird gebannt
 %%%%
@@ -1635,6 +1623,12 @@ Die Wunden {gen}%s heilen von selbst!
 %%%%
 %s falls asleep!
 %s schläft ein!
+%%%%
+%s flickers and vanishes!
+%s flackert und verschwindet!
+%%%%
+%s flickers and vanishes for a moment.
+%s flackert und verschwindet für einen Moment.
 %%%%
 %s is charmed!
 %s ist bezaubert!
@@ -8640,6 +8634,12 @@ Die sternenverfluchte Masse kreischt in deinem Verstand.
 %%%%
 Angry insects surge out from beneath %s foliage!
 Wütende Insekten schießen aus dem Laub {gen}%s hervor!
+%%%%
+%s flickers out of sight!
+%s flackert außer Sicht!
+%%%%
+%s flickers out of sight for a moment.
+%s flackert für einen Moment außer Sicht.
 %%%%
 %s flows with the water.
 %s fließt mit dem Wasser.

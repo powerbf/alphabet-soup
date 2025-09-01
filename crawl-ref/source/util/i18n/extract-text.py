@@ -349,6 +349,7 @@ IGNORE_SECTIONS = {
     'arena.cc':         ['arena_tee'],          # arena dumpfile stuff
     'artefact.cc':      ['replace_name_parts'],
     'attack.cc':        ['chaos_effects'],      # chaos effect names are only used for debugging
+    'beam.cc':          ['enchant_monster_invisible'], # we expand strings at the point of calling
     'command.cc':       [
         # diagnostic stuff
         'features', '_get_version_information', '_get_version_features', '_get_version_changes',
@@ -1829,6 +1830,11 @@ def process_cplusplus_file(filename):
             if 'calc_elemental_brand_damage' in line:
                 # elemental damage attack verbs
                 strings.extend(do_any_2_actors_message(string, ''))
+                continue
+
+            if 'enchant_monster_invisible' in line:
+                strings.append('%s ' + string + '!')
+                strings.append('%s ' + string + ' for a moment.')
                 continue
 
             if 'wu_jian_sifu_message' in line:

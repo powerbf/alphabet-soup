@@ -5345,7 +5345,7 @@ bool enchant_actor_with_flavour(actor* victim, const actor *foe,
     return dummy.obvious_effect;
 }
 
-bool enchant_monster_invisible(monster* mon, bool invis_beam)
+bool enchant_monster_invisible(monster* mon, const string &how)
 {
     // Store the monster name before it becomes an "it". - bwr
     const string monster_name = mon->name(DESC_THE);
@@ -5361,20 +5361,8 @@ bool enchant_monster_invisible(monster* mon, bool invis_beam)
         // Can't use simple_monster_message(*) here, since it checks
         // for visibility of the monster (and it's now invisible).
         // - bwr
-        if (invis_beam)
-        {
-            if (!is_visible)
-                mprf("%s flickers and vanishes!", monster_name.c_str());
-            else
-                mprf("%s flickers and vanishes for a moment!", monster_name.c_str());
-        }
-        else
-        {
-            if (!is_visible)
-                mprf("%s flickers out of sight!", monster_name.c_str());
-            else
-                mprf("%s flickers out of sight for a moment!", monster_name.c_str());
-        }
+        string msg = "%s " + how + (is_visible ? " for a moment." : "!");
+        mprf(msg.c_str(), monster_name.c_str());
 
         if (!is_visible && !mons_is_safe(mon))
             autotoggle_autopickup(true);
@@ -5678,7 +5666,7 @@ mon_resist_type bolt::apply_enchantment_to_monster(monster* mon)
 
     case BEAM_INVISIBILITY:
     {
-        if (enchant_monster_invisible(mon, true))
+        if (enchant_monster_invisible(mon, "flickers and vanishes"))
             obvious_effect = true;
 
         return MON_AFFECTED;
