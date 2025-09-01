@@ -2009,10 +2009,6 @@ def process_cplusplus_file(filename):
                 if string in ["explosion of ", " fragments"]:
                     # beam for explosive brand - now only used for Damnation artefact, and not displayed
                     continue
-            elif filename == 'attack.cc':
-                if string in ["melt", "burn", "freeze", "electrocute", "crush"]:
-                    strings += do_any_2_actors_message(string, "")
-                    continue
 
             # strip channel information
             string = re.sub(r'(PLAIN|SOUND|VISUAL|((VISUAL )?WARN|ENCHANT|SPELL)):', '', string)
@@ -2225,7 +2221,24 @@ def post_process_art_func_h(strings):
         elif section == '_ELEMENTAL_STAFF_melee_effects':
             result.extend(do_any_2_actors_message(string, ''))
         elif string.endswith('ing Sword'):
+            # Singing Sword names
             result.append(article_the(string))
+        else:
+            result.append(string)
+
+    return result
+
+# special handling for strings in attack.cc
+def post_process_attack_cc(strings):
+    result = []
+    section = None
+    for string in strings:
+        if string.startswith('# section:'):
+            section = string.replace('# section:', '').strip()
+            result.append(string)
+        elif section == 'attack::calc_elemental_brand_damage':
+            # elemental damage attack verbs
+            result.extend(do_any_2_actors_message(string, ''))
         else:
             result.append(string)
 
@@ -2624,6 +2637,8 @@ def post_process(filename, strings):
     canonicalised = True
     if filename == 'art-func.h':
         strings = post_process_art_func_h(strings)
+    elif filename == 'attack.cc':
+        strings = post_process_attack_cc(strings)
     elif filename == 'feature-data.h':
         strings = post_process_feature_data_h(strings)
     elif filename == 'item-name.cc':
