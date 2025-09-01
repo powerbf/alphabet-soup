@@ -2278,99 +2278,6 @@ def post_process_feature_data_h(strings):
 
     return output
 
-def post_process_job_data_h(strings):
-    output = []
-    for string in strings:
-        output.append(article_the(string) if len(string) > 2 else string)
-    return output;
-
-def post_process_mon_data_h(strings):
-    output = []
-    names = []
-    unique_names = []
-    adjectives = []
-
-    # separate unqiue from non-unique
-    for string in strings:
-        if string.startswith('#'):
-            continue
-        if string.endswith(' '):
-            adjectives.append(string)
-        elif is_unique_monster(string):
-            unique_names.append(string)
-        else:
-            names.append(string)
-
-    names.sort()
-    unique_names.sort()
-
-    # adjectives
-    output.append("# section: adjectives")
-    for string in adjectives:
-        output.append(string)
-
-    # singular non-unique
-    output.append("# section: non-unique monsters, singular")
-    for string in names:
-        output.append('the ' + string)
-
-    # singular unique
-    output.append("# section: unique monsters")
-    for string in unique_names:
-        if string.startswith('the '):
-            output.append(string)
-        else:
-            output.append('the ' + string)
-
-    # possessive non-unique
-    output.append("# section: non-unique monsters, singular possessive")
-    for string in names:
-        output.append('the ' + possessive(string))
-
-    # possessive unique
-    output.append("# section: unique monsters, possessive")
-    for string in unique_names:
-        if string.startswith('the '):
-            output.append(possessive(string))
-        else:
-            output.append(possessive(string))
-
-    # plural non-unique
-    output.append("# section: non-unique monsters, plural")
-    for string in names:
-        output.append('%d ' + pluralise(string))
-
-    return output
-
-def post_process_item_prop_cc(strings):
-    output = []
-    plurals = []
-
-    for string in strings:
-        if string.startswith('#'):
-            # comment
-            output.append(string)
-            continue
-        elif string in ['steam', 'acid', 'quicksilver', 'swamp', 'fire', 'ice', 'pearl', 'storm', 'shadow', 'gold']:
-            string = string + ' dragon scales'
-        elif string == ' dragon scales':
-            # all possibilities covered above
-            continue
-        elif string in ['gloves', 'boots']:
-            string = 'pair of ' + string
-        elif string in ['javelin', 'boomerang']:
-            output.append(article_the(string))
-            string = 'silver ' + string
-
-        # stackable items need a plural with count
-        if is_missile(string):
-            plurals.append('%d ' + pluralise(string))
-
-        output.append(article_the(string))
-
-    output.extend(plurals)
-    return output
-
 # you'd think from the filename that everything in here would be a name, but you'd be wrong
 def post_process_item_name_cc(strings):
     result = []
@@ -2563,6 +2470,100 @@ def post_process_item_name_cc(strings):
     result.extend(extras2)
 
     return result
+
+# this is where most of the item names are
+def post_process_item_prop_cc(strings):
+    output = []
+    plurals = []
+
+    for string in strings:
+        if string.startswith('#'):
+            # comment
+            output.append(string)
+            continue
+        elif string in ['steam', 'acid', 'quicksilver', 'swamp', 'fire', 'ice', 'pearl', 'storm', 'shadow', 'gold']:
+            string = string + ' dragon scales'
+        elif string == ' dragon scales':
+            # all possibilities covered above
+            continue
+        elif string in ['gloves', 'boots']:
+            string = 'pair of ' + string
+        elif string in ['javelin', 'boomerang']:
+            output.append(article_the(string))
+            string = 'silver ' + string
+
+        # stackable items need a plural with count
+        if is_missile(string):
+            plurals.append('%d ' + pluralise(string))
+
+        output.append(article_the(string))
+
+    output.extend(plurals)
+    return output
+
+def post_process_job_data_h(strings):
+    output = []
+    for string in strings:
+        output.append(article_the(string) if len(string) > 2 else string)
+    return output;
+
+def post_process_mon_data_h(strings):
+    output = []
+    names = []
+    unique_names = []
+    adjectives = []
+
+    # separate unqiue from non-unique
+    for string in strings:
+        if string.startswith('#'):
+            continue
+        if string.endswith(' '):
+            adjectives.append(string)
+        elif is_unique_monster(string):
+            unique_names.append(string)
+        else:
+            names.append(string)
+
+    names.sort()
+    unique_names.sort()
+
+    # adjectives
+    output.append("# section: adjectives")
+    for string in adjectives:
+        output.append(string)
+
+    # singular non-unique
+    output.append("# section: non-unique monsters, singular")
+    for string in names:
+        output.append('the ' + string)
+
+    # singular unique
+    output.append("# section: unique monsters")
+    for string in unique_names:
+        if string.startswith('the '):
+            output.append(string)
+        else:
+            output.append('the ' + string)
+
+    # possessive non-unique
+    output.append("# section: non-unique monsters, singular possessive")
+    for string in names:
+        output.append('the ' + possessive(string))
+
+    # possessive unique
+    output.append("# section: unique monsters, possessive")
+    for string in unique_names:
+        if string.startswith('the '):
+            output.append(possessive(string))
+        else:
+            output.append(possessive(string))
+
+    # plural non-unique
+    output.append("# section: non-unique monsters, plural")
+    for string in names:
+        output.append('%d ' + pluralise(string))
+
+    return output
 
 def post_process_skills_cc(strings):
     # extract weight classes
