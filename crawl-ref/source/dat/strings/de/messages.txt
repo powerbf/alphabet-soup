@@ -1176,18 +1176,6 @@ Du blockst den Angriff %s.
 %s blocks %s attack.
 %s blockiert den Angriff {gen}%s.
 %%%%
-You are electrocuted
-Du bekommst einen elektrischen Schlag
-%%%%
-Lightning courses through %s
-Blitze durchzucken {acc}%s
-%%%%
-%s draws strength from your wounds!
-%s schöpft Kraft aus deinen Wunden!
-%%%%
-%s is healed.
-%s ist geheilt.
-%%%%
 You melt %s
 Du schmilzt {acc}%s
 %%%%
@@ -1199,6 +1187,18 @@ Du schmilzt {acc}%s
 %%%%
 %s melts itself
 %s schmilzt sich selbst
+%%%%
+You are electrocuted
+Du bekommst einen elektrischen Schlag
+%%%%
+Lightning courses through %s
+Blitze durchzucken {acc}%s
+%%%%
+%s draws strength from your wounds!
+%s schöpft Kraft aus deinen Wunden!
+%%%%
+%s is healed.
+%s ist geheilt.
 %%%%
 
 ##################

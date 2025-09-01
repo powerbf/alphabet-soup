@@ -1410,14 +1410,16 @@ bool attack::apply_damage_brand(const char *what)
         break;
 
     case SPWPN_FLAMING:
-        calc_elemental_brand_damage(BEAM_FIRE, what);
+        calc_elemental_brand_damage(BEAM_FIRE,
+                                    defender->is_icy() ? "melt" : "burn",
+                                    what);
         defender->expose_to_element(BEAM_FIRE, 2);
         if (defender->is_player())
             maybe_melt_player_enchantments(BEAM_FIRE, special_damage);
         break;
 
     case SPWPN_FREEZING:
-        calc_elemental_brand_damage(BEAM_COLD, what);
+        calc_elemental_brand_damage(BEAM_COLD, "freeze", what);
         defender->expose_to_element(BEAM_COLD, 2);
         break;
 
@@ -1638,23 +1640,15 @@ bool attack::apply_damage_brand(const char *what)
  * calculation of base damage and other effects varies based on the type
  * of attack, but the calculation of elemental damage should be consistent.
  */
-void attack::calc_elemental_brand_damage(beam_type flavour, const char *what)
+void attack::calc_elemental_brand_damage(beam_type flavour,
+                                         const char *verb,
+                                         const char *what)
 {
     special_damage = resist_adjust_damage(defender, flavour,
                                           random2(damage_done) / 2 + 1);
 
-    if (needs_message && special_damage > 0)
+    if (needs_message && special_damage > 0 && verb)
     {
-        string verb;
-        if (flavour == BEAM_FIRE && defender->is_icy())
-            verb = "melt";
-        else if (flavour == BEAM_FIRE)
-            verb = "burn";
-        else if (flavour == BEAM_COLD)
-            verb = "freeze";
-        else
-            return;
-
         // XXX: assumes "what" is singular
         special_damage_message = make_any_2_actors_message(
             what ? what : atk_name(DESC_THE),

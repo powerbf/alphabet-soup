@@ -1176,18 +1176,6 @@ You block %s attack.
 %s blocks %s attack.
 
 %%%%
-You are electrocuted
-
-%%%%
-Lightning courses through %s
-
-%%%%
-%s draws strength from your wounds!
-
-%%%%
-%s is healed.
-
-%%%%
 You melt %s
 
 %%%%
@@ -1198,6 +1186,18 @@ You melt %s
 
 %%%%
 %s melts itself
+
+%%%%
+You are electrocuted
+
+%%%%
+Lightning courses through %s
+
+%%%%
+%s draws strength from your wounds!
+
+%%%%
+%s is healed.
 
 %%%%
 

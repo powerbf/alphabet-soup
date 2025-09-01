@@ -1826,6 +1826,11 @@ def process_cplusplus_file(filename):
                 strings.append("%s " + string + " %s")
                 continue
 
+            if 'calc_elemental_brand_damage' in line:
+                # elemental damage attack verbs
+                strings.extend(do_any_2_actors_message(string, ''))
+                continue
+
             if 'wu_jian_sifu_message' in line:
                 # this function adds a prefix to the message parameter
                 string = 'Sifu %s' + string
@@ -2227,21 +2232,6 @@ def post_process_art_func_h(strings):
 
     return result
 
-def post_process_attack_cc(strings):
-    result = []
-    section = None
-    for string in strings:
-        if string.startswith('# section:'):
-            section = string.replace('# section:', '').strip()
-            result.append(string)
-        elif section == 'attack::calc_elemental_brand_damage':
-            # elemental damage attack verbs
-            result.extend(do_any_2_actors_message(string, ''))
-        else:
-            result.append(string)
-
-    return result
-
 def post_process_feature_data_h(strings):
     output = []
     adjectives = []
@@ -2631,8 +2621,6 @@ def post_process(filename, strings):
     canonicalised = True
     if filename == 'art-func.h':
         strings = post_process_art_func_h(strings)
-    elif filename == 'attack.cc':
-        strings = post_process_attack_cc(strings)
     elif filename == 'feature-data.h':
         strings = post_process_feature_data_h(strings)
     elif filename == 'item-name.cc':
