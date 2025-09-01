@@ -2009,7 +2009,7 @@ def process_cplusplus_file(filename):
                 if string in ["explosion of ", " fragments"]:
                     # beam for explosive brand - now only used for Damnation artefact, and not displayed
                     continue
-            elif filename in ['art-func.h', 'attack.cc']:
+            elif filename == 'attack.cc':
                 if string in ["melt", "burn", "freeze", "electrocute", "crush"]:
                     strings += do_any_2_actors_message(string, "")
                     continue
@@ -2222,6 +2222,8 @@ def post_process_art_func_h(strings):
                 if len(adverbs) < len(verbs):
                     adverbs.append("")
                 verbs.append(string)
+        elif section == '_ELEMENTAL_STAFF_melee_effects':
+            result.extend(do_any_2_actors_message(string, ''))
         elif string.endswith('ing Sword'):
             result.append(article_the(string))
         else:
