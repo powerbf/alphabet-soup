@@ -893,16 +893,12 @@ int attack::inflict_damage(int dam, beam_type flavour, bool clean)
 /* If debug, return formatted damage done
  *
  */
-string attack::debug_damage_number(bool special)
+string attack::debug_damage_number()
 {
 #ifdef DEBUG_DIAGNOSTICS
-    if (special)
-        return make_stringf(" for %d", special_damage);
-    else
-        return make_stringf(" for %d", damage_done);
+    return make_stringf(" for %d", damage_done);
 #else
-    // use param to avoid compiler warning
-    return special ? "" : "";
+    return "";
 #endif
 }
 

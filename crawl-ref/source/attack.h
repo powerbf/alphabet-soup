@@ -167,7 +167,7 @@ protected:
                                bool clean = false);
 
     /* Output */
-    string debug_damage_number(bool special = false);
+    string debug_damage_number();
 
     virtual void set_attack_verb(int damage) = 0;
     virtual void announce_hit() = 0;
