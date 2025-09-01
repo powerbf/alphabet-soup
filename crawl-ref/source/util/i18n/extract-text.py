@@ -2192,7 +2192,6 @@ def add_spellbook_article(string):
         # can have a/an
         return article_a(string)
 
-# special handling for strings in art-func.h
 def post_process_art_func_h(strings):
     result = []
     section = None
@@ -2228,7 +2227,6 @@ def post_process_art_func_h(strings):
 
     return result
 
-# special handling for strings in attack.cc
 def post_process_attack_cc(strings):
     result = []
     section = None
@@ -2244,7 +2242,6 @@ def post_process_attack_cc(strings):
 
     return result
 
-# special handling for strings in feature-data.h
 def post_process_feature_data_h(strings):
     output = []
     adjectives = []
@@ -2281,14 +2278,12 @@ def post_process_feature_data_h(strings):
 
     return output
 
-# special handling for strings in job-data.h
 def post_process_job_data_h(strings):
     output = []
     for string in strings:
         output.append(article_the(string) if len(string) > 2 else string)
     return output;
 
-# special handling for strings in mon-data.h
 def post_process_mon_data_h(strings):
     output = []
     names = []
@@ -2347,7 +2342,6 @@ def post_process_mon_data_h(strings):
 
     return output
 
-# special handling for strings in item-prop.cc
 def post_process_item_prop_cc(strings):
     output = []
     plurals = []
@@ -2377,7 +2371,6 @@ def post_process_item_prop_cc(strings):
     output.extend(plurals)
     return output
 
-# special handling for strings in item-name.cc
 # you'd think from the filename that everything in here would be a name, but you'd be wrong
 def post_process_item_name_cc(strings):
     result = []
