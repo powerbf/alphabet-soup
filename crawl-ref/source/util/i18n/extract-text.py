@@ -1805,6 +1805,10 @@ def process_cplusplus_file(filename):
                     if re.search(r'\breplace[a-zA-Z_]*\s*\(', last):
                         continue
 
+            if section != last_section:
+                strings.append('# section: ' + section)
+                last_section = section
+
             # simple_god/monster_message may contain an implied %s
             if string.startswith(" ") or string.startswith("'"):
                 if 'simple_god_message' in line or 'simple_monster_message' in line \
@@ -1840,10 +1844,6 @@ def process_cplusplus_file(filename):
                 for c in string:
                     strings.append(c)
                 continue
-
-            if section != last_section:
-                strings.append('# section: ' + section)
-                last_section = section
 
             if filename == 'ability.cc':
                 if string.startswith('Sacrifice '):
