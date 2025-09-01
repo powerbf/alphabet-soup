@@ -231,7 +231,15 @@ def pluralise(string):
 def conjugate_verb(verb_phrase):
     parts = verb_phrase.split(' ', 1)
     verb = parts[0]
-    suffix = (' ' + parts[1]) if len(parts) > 1 else ''
+    suffix = ''
+    i = 1
+    while verb.endswith('ly') and i < len(parts):
+        verb += ' ' + parts[i]
+        i += 1
+    while i < len(parts):
+        suffix += ' ' + parts[i]
+        i += 1
+
     if verb == "be" or verb == "are":
         return "is" + suffix
     elif verb.endswith('ss') or verb.endswith('sh') or verb.endswith('ch'):
@@ -247,6 +255,20 @@ def do_any_2_actors_message(verb, suffix):
     strings.append("%s " + verb3p + " %s" + suffix)
     strings.append("%s " + verb3p + " itself" + suffix)
     return strings
+
+def do_any_2_actors_messages(verbs, suffixes):
+    temp = []
+    for idx, verb in enumerate(verbs):
+        suffix = suffixes[idx] if len(suffixes) > idx else ''
+        temp.append(do_any_2_actors_message(verb, suffix))
+
+    # group by person
+    results = []
+    for i in range(len(temp[0])):
+        for j in range(len(temp)):
+            results.append(temp[j][i])
+
+    return results
 
 
 ################################
@@ -499,6 +521,12 @@ def remove_enclosing_curlies(string):
     string = re.sub(r'^\{', '', string)
     string = re.sub(r'\};?$', '', string)
     return string
+
+def remove_enclosing_quotes(string):
+    if string.startswith('"') and string.endswith('"'):
+        return string[1:-1]
+    else:
+        return string
 
 # tokenize a C++ data file
 # Return an array of arrays, where each element in the outer array is an entry
@@ -1713,22 +1741,21 @@ def process_cplusplus_file(filename):
             temp = re.sub(r'.*any_2_actors_message *\(', '', line);
             temp = re.sub(r'\).*', '', line);
             args = temp.split(',')
-            verb_pos = -1
             verb = ''
             suffix = ''
-            if len(args) >= 3 and len(args) <= 5 and args[2].strip()[0] == '"':
-                verb_pos = 2
-            elif len(args) >= 5 and args[4].strip()[0] == '"':
-                verb_pos = 4
-            if verb_pos > 0:
-                verb = args[verb_pos].strip().replace('"', '')
-                if len(args) >= verb_pos + 2:
-                    suffix = args[verb_pos+1].strip().replace('"', '')
-            if suffix != '':
-                suffix = ' ' + suffix
+            if len(args) >= 3:
+                arg = args[2].strip()
+                if arg.startswith('"'):
+                    verb = remove_enclosing_quotes(arg)
+            if len(args) >= 4:
+                arg = args[3].strip()
+                if arg.startswith('"'):
+                    suffix = remove_enclosing_quotes(arg)
+                    if suffix != '':
+                        suffix = ' ' + suffix
             if verb != '':
                 strings += do_any_2_actors_message(verb, suffix)
-                continue
+            continue
 
         tokens = tokenize_cplusplus_line(line)
 
@@ -2169,6 +2196,39 @@ def add_spellbook_article(string):
         # can have a/an
         return article_a(string)
 
+# special handling for strings in art-func.h
+def post_process_art_func_h(strings):
+    result = []
+    section = None
+    verbs = []
+    adverbs = []
+    for string in strings:
+        if string.startswith('# section:'):
+            if len(verbs) != 0:
+                if len(adverbs) < len(verbs):
+                    adverbs.append("")
+                result.extend(do_any_2_actors_messages(verbs, adverbs))
+                verbs = []
+                adverbs = []
+            section = string.replace('# section:', '').strip()
+            result.append(string)
+        elif section == '_WOE_melee_effects':
+            string = remove_enclosing_quotes(string)
+            if string == '.':
+                continue
+            elif string.startswith(' '):
+                adverbs.append(string)
+            else:
+                if len(adverbs) < len(verbs):
+                    adverbs.append("")
+                verbs.append(string)
+        elif string.endswith('ing Sword'):
+            result.append(article_the(string))
+        else:
+            result.append(string)
+
+    return result
+
 # special handling for strings in feature-data.h
 def post_process_feature_data_h(strings):
     output = []
@@ -2560,7 +2620,9 @@ def post_process_tilereg_cc(strings):
 def post_process(filename, strings):
     # the strings in some files need special handling
     canonicalised = True
-    if filename == 'feature-data.h':
+    if filename == 'art-func.h':
+        strings = post_process_art_func_h(strings)
+    elif filename == 'feature-data.h':
         strings = post_process_feature_data_h(strings)
     elif filename == 'item-name.cc':
         strings = post_process_item_name_cc(strings)
@@ -2626,9 +2688,6 @@ def post_process(filename, strings):
                 strings.append("the stacked deck")
                 IGNORE_STRINGS.append("a stacked deck")
                 IGNORE_STRINGS.append("stacked deck")
-            elif string.endswith(" Sword"):
-                # alternative names for Singing Sword based on mood
-                strings.append(article_the(string))
             elif "@medium_attack@" in string and len(medium_attack_verbs) > 0:
                 for verb in medium_attack_verbs:
                     strings.append(string.replace("@medium_attack@", verb))

@@ -867,95 +867,22 @@ static void _SNAKEBITE_melee_effects(item_def* /*weapon*/, actor* attacker,
 static void _WOE_melee_effects(item_def* /*weapon*/, actor* attacker,
                                actor* defender, bool mondied, int /*dam*/)
 {
+    const char *verb = "bugger", *adv = "";
+    switch (random2(8))
+    {
+    case 0: verb = "cleave", adv = " in twain"; break;
+    case 1: verb = "pulverise", adv = " into a thin bloody mist"; break;
+    case 2: verb = "hew", adv = " savagely"; break;
+    case 3: verb = "fatally mangle", adv = ""; break;
+    case 4: verb = "dissect", adv = " like a pig carcass"; break;
+    case 5: verb = "chop", adv = " into pieces"; break;
+    case 6: verb = "butcher", adv = " messily"; break;
+    case 7: verb = "slaughter", adv = " joyfully"; break;
+    }
     if (you.see_cell(attacker->pos()) || you.see_cell(defender->pos()))
     {
-        string msg;
-        int choice = random2(8);
-        if (attacker != defender)
-        {
-            if (attacker->is_player())
-            {
-                switch (choice)
-                {
-                case 0: msg = "You cleave %s in twain."; break;
-                case 1: msg = "You pulverise %s into a thin bloody mist."; break;
-                case 2: msg = "You hew %s savagely."; break;
-                case 3: msg = "You fatally mangle %s."; break;
-                case 4: msg = "You dissect %s like a pig carcass."; break;
-                case 5: msg = "You chop %s into pieces."; break;
-                case 6: msg = "You butcher %s messily."; break;
-                default: msg = "You slaughter %s joyfully.";
-                }
-                msg = localise(msg, defender->name(DESC_THE));
-
-            }
-            else if (defender->is_player())
-            {
-                switch (choice)
-                {
-                case 0: msg = "%s cleaves you in twain."; break;
-                case 1: msg = "%s pulverises you into a thin bloody mist."; break;
-                case 2: msg = "%s hews you savagely."; break;
-                case 3: msg = "%s fatally mangles you."; break;
-                case 4: msg = "%s dissects you like a pig carcass."; break;
-                case 5: msg = "%s chops you into pieces."; break;
-                case 6: msg = "%s butchers you messily."; break;
-                default: msg = "%s slaughters you joyfully.";
-                }
-                msg = localise(msg, attacker->name(DESC_THE));
-            }
-            else
-            {
-                switch (choice)
-                {
-                case 0: msg = "%s cleaves %s in twain."; break;
-                case 1: msg = "%s pulverises %s into a thin bloody mist."; break;
-                case 2: msg = "%s hews %s savagely."; break;
-                case 3: msg = "%s fatally mangles %s."; break;
-                case 4: msg = "%s dissects %s like a pig carcass."; break;
-                case 5: msg = "%s chops %s into pieces."; break;
-                case 6: msg = "%s butchers %s messily."; break;
-                default: msg = "%s slaughters %s joyfully.";
-                }
-                msg = localise(msg, attacker->name(DESC_THE), defender->name(DESC_THE));
-            }
-        }
-        else
-        {
-            // something is melee attacking itself (can this really happen?)
-            if (attacker->is_player())
-            {
-                switch (choice)
-                {
-                case 0: msg = "You cleave yourself in twain."; break;
-                case 1: msg = "You pulverise yourself into a thin bloody mist."; break;
-                case 2: msg = "You hew yourself savagely."; break;
-                case 3: msg = "You fatally mangle yourself."; break;
-                case 4: msg = "You dissect yourself like a pig carcass."; break;
-                case 5: msg = "You chop yourself into pieces."; break;
-                case 6: msg = "You butcher yourself messily."; break;
-                default: msg = "You slaughter yourself joyfully.";
-                }
-                msg = localise(msg);
-            }
-            else
-            {
-                // i18n: avoid himself/herself/itself - they're difficult to translate
-                // (reduced list because some options don't work without a reflexive pronoun)
-                switch (choice)
-                {
-                case 1: msg = "%s is pulverised into a thin bloody mist."; break;
-                case 2: msg = "%s is hewed savagely."; break;
-                case 3: msg = "%s is fatally mangled."; break;
-                case 4: msg = "%s is dissected like a pig carcass."; break;
-                case 5: msg = "%s is chopped into pieces."; break;
-                case 6: msg = "%s is butchered messily."; break;
-                default: msg = "%s is cloven in twain.";
-                }
-                msg = localise(msg, attacker->name(DESC_THE));
-            }
-        }
-        mpr_nolocalise(msg);
+        string adverb = trimmed_string(adv);
+        do_any_2_actors_message(attacker, defender, verb, adverb, ".");
     }
 
     if (!mondied)

@@ -850,122 +850,102 @@ Das Licht kehrt in deine Umgebung zurück.
 Mutagenic energy flows through the plutonium sword!
 Mutagene Energie fließt durch das Plutoniumschwert!
 %%%%
-You cleave %s in twain.
-Du spaltest {acc}%s in zwei Hälften.
+You cleave %s in twain
+Du spaltest {acc}%s in zwei Hälften
 %%%%
-You pulverise %s into a thin bloody mist.
-Du pulverisierst {acc}%s zu einem dünnen blutigen Nebel.
+You pulverise %s into a thin bloody mist
+Du pulverisierst {acc}%s zu einem dünnen blutigen Nebel
 %%%%
-You hew %s savagely.
-Du hackst {acc}%s brutal.
+You hew %s savagely
+Du hackst {acc}%s brutal
 %%%%
-You fatally mangle %s.
-Du verstümmelst {acc}%s tödlich.
+You fatally mangle %s
+Du verstümmelst {acc}%s tödlich
 %%%%
-You dissect %s like a pig carcass.
-Du sezierst {acc}%s wie einen Schweinekadaver.
+You dissect %s like a pig carcass
+Du sezierst {acc}%s wie einen Schweinekadaver
 %%%%
-You chop %s into pieces.
-Du hackst {acc}%s in Stücke.
+You chop %s into pieces
+Du hackst {acc}%s in Stücke
 %%%%
-You butcher %s messily.
-Du schlachtest {acc}%s auf brutale Weise.
+You butcher %s messily
+Du schlachtest {acc}%s auf brutale Weise
 %%%%
-You slaughter %s joyfully.
-Du schlachtest {acc}%s voller Freude.
+You slaughter %s joyfully
+Du schlachtest {acc}%s voller Freude
 %%%%
-%s cleaves you in twain.
-%s spaltet dich in zwei Hälften.
+%s cleaves you in twain
+%s spaltet dich in zwei Hälften
 %%%%
-%s pulverises you into a thin bloody mist.
-%s pulverisiert dich zu einem dünnen blutigen Nebel.
+%s pulverises you into a thin bloody mist
+%s pulverisiert dich zu einem dünnen blutigen Nebel
 %%%%
-%s hews you savagely.
-%s zerhackt dich brutal.
+%s hews you savagely
+%s zerhackt dich brutal
 %%%%
-%s fatally mangles you.
-%s zerfleischt dich tödlich.
+%s fatally mangles you
+%s zerfleischt dich tödlich
 %%%%
-%s dissects you like a pig carcass.
-%s seziert dich wie einen Schweinekadaver.
+%s dissects you like a pig carcass
+%s seziert dich wie einen Schweinekadaver
 %%%%
-%s chops you into pieces.
-%s hackt dich in Stücke.
+%s chops you into pieces
+%s hackt dich in Stücke
 %%%%
-%s butchers you messily.
-%s schlachtet dich auf brutale Weise.
+%s butchers you messily
+%s schlachtet dich auf brutale Weise
 %%%%
-%s slaughters you joyfully.
-%s schlachtet dich voller Freude.
+%s slaughters you joyfully
+%s schlachtet dich voller Freude
 %%%%
-%s cleaves %s in twain.
-%s spaltet {acc}%s in zwei Hälften.
+%s cleaves %s in twain
+%s spaltet {acc}%s in zwei Hälften
 %%%%
-%s pulverises %s into a thin bloody mist.
-%s pulverisiert {acc}%s zu einem dünnen blutigen Nebel.
+%s pulverises %s into a thin bloody mist
+%s pulverisiert {acc}%s zu einem dünnen blutigen Nebel
 %%%%
-%s hews %s savagely.
-%s hackt {acc}%s brutal.
+%s hews %s savagely
+%s hackt {acc}%s brutal
 %%%%
-%s fatally mangles %s.
-%s zerfleischt {acc}%s tödlich.
+%s fatally mangles %s
+%s zerfleischt {acc}%s tödlich
 %%%%
-%s dissects %s like a pig carcass.
-%s seziert {acc}%s wie einen Schweinekadaver.
+%s dissects %s like a pig carcass
+%s seziert {acc}%s wie einen Schweinekadaver
 %%%%
-%s chops %s into pieces.
-%s hackt {acc}%s in Stücke.
+%s chops %s into pieces
+%s hackt {acc}%s in Stücke
 %%%%
-%s butchers %s messily.
-%s schlachtet {acc}%s auf brutale Weise.
+%s butchers %s messily
+%s schlachtet {acc}%s auf brutale Weise
 %%%%
-%s slaughters %s joyfully.
-%s schlachtet {acc}%s voller Freude.
+%s slaughters %s joyfully
+%s schlachtet {acc}%s voller Freude
 %%%%
-You cleave yourself in twain.
-Du spaltest dich selbst in zwei Hälften.
+# monsters can attack themselves when confused (but the player can't)
+%s cleaves itself in twain
+%s spaltet sich selbst in zwei Hälften
 %%%%
-You pulverise yourself into a thin bloody mist.
-Du pulverisierst dich selbst zu einem dünnen blutigen Nebel.
+%s pulverises itself into a thin bloody mist
+%s pulverisiert sich selbst zu einem dünnen blutigen Nebel
 %%%%
-You hew yourself savagely.
-Du zerhackst dich selbst auf grausame Weise.
+%s hews itself savagely
+%s zerhackt sich selbst auf grausame Weise
 %%%%
-You fatally mangle yourself.
-Du verstümmelst dich tödlich.
+%s fatally mangles itself
+%s verstümmelt sich tödlich
 %%%%
-You dissect yourself like a pig carcass.
-Du sezierst dich selbst wie einen Schweinekadaver.
+%s dissects itself like a pig carcass
+%s seziert sich selbst wie einen Schweinekadaver
 %%%%
-You chop yourself into pieces.
-Du hackst dich selbst in Stücke.
+%s chops itself into pieces
+%s hackt sich selbst in Stücke
 %%%%
-You butcher yourself messily.
-Du schlachtest dich selbst auf brutale Weise.
+%s butchers itself messily
+%s schlachtet sich selbst auf brutale Weise
 %%%%
-You slaughter yourself joyfully.
-Du schlachtest dich selbst voller Freude.
-%%%%
-%s is pulverised into a thin bloody mist.
-%s wird zu einem dünnen blutigen Nebel pulverisiert.
-%%%%
-%s is hewed savagely.
-%s wird grausam zerhackt.
-%%%%
-%s is fatally mangled.
-%s wird tödlich verstümmelt.
-%%%%
-%s is dissected like a pig carcass.
-%s wird zerlegt wie ein Schweinekadaver.
-%%%%
-%s is chopped into pieces.
-%s wird in Stücke zerhackt.
-%%%%
-%s is butchered messily.
-%s wird brutal geschlachtet.
-%%%%
-%s is cloven in twain.
-%s wird in zwei Hälften gespalten.
+%s slaughters itself joyfully
+%s schlachtet sich selbst voller Freude
 %%%%
 You burn %s
 Du verbrennst {acc}%s
@@ -7950,9 +7930,6 @@ Du schneidest {acc}%s in Streifen
 %%%%
 You carve %s like a ham
 Du tranchierst {acc}%s wie einen Schinken
-%%%%
-You chop %s into pieces
-Du hackst {acc}%s in Stücke
 %%%%
 You thump %s
 Du prügelst {acc}%s

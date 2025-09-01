@@ -850,121 +850,101 @@ The light returns to your surroundings.
 Mutagenic energy flows through the plutonium sword!
 
 %%%%
-You cleave %s in twain.
+You cleave %s in twain
 
 %%%%
-You pulverise %s into a thin bloody mist.
+You pulverise %s into a thin bloody mist
 
 %%%%
-You hew %s savagely.
+You hew %s savagely
 
 %%%%
-You fatally mangle %s.
+You fatally mangle %s
 
 %%%%
-You dissect %s like a pig carcass.
+You dissect %s like a pig carcass
 
 %%%%
-You chop %s into pieces.
+You chop %s into pieces
 
 %%%%
-You butcher %s messily.
+You butcher %s messily
 
 %%%%
-You slaughter %s joyfully.
+You slaughter %s joyfully
 
 %%%%
-%s cleaves you in twain.
+%s cleaves you in twain
 
 %%%%
-%s pulverises you into a thin bloody mist.
+%s pulverises you into a thin bloody mist
 
 %%%%
-%s hews you savagely.
+%s hews you savagely
 
 %%%%
-%s fatally mangles you.
+%s fatally mangles you
 
 %%%%
-%s dissects you like a pig carcass.
+%s dissects you like a pig carcass
 
 %%%%
-%s chops you into pieces.
+%s chops you into pieces
 
 %%%%
-%s butchers you messily.
+%s butchers you messily
 
 %%%%
-%s slaughters you joyfully.
+%s slaughters you joyfully
 
 %%%%
-%s cleaves %s in twain.
+%s cleaves %s in twain
 
 %%%%
-%s pulverises %s into a thin bloody mist.
+%s pulverises %s into a thin bloody mist
 
 %%%%
-%s hews %s savagely.
+%s hews %s savagely
 
 %%%%
-%s fatally mangles %s.
+%s fatally mangles %s
 
 %%%%
-%s dissects %s like a pig carcass.
+%s dissects %s like a pig carcass
 
 %%%%
-%s chops %s into pieces.
+%s chops %s into pieces
 
 %%%%
-%s butchers %s messily.
+%s butchers %s messily
 
 %%%%
-%s slaughters %s joyfully.
+%s slaughters %s joyfully
 
 %%%%
-You cleave yourself in twain.
+# monsters can attack themselves when confused (but the player can't)
+%s cleaves itself in twain
 
 %%%%
-You pulverise yourself into a thin bloody mist.
+%s pulverises itself into a thin bloody mist
 
 %%%%
-You hew yourself savagely.
+%s hews itself savagely
 
 %%%%
-You fatally mangle yourself.
+%s fatally mangles itself
 
 %%%%
-You dissect yourself like a pig carcass.
+%s dissects itself like a pig carcass
 
 %%%%
-You chop yourself into pieces.
+%s chops itself into pieces
 
 %%%%
-You butcher yourself messily.
+%s butchers itself messily
 
 %%%%
-You slaughter yourself joyfully.
-
-%%%%
-%s is pulverised into a thin bloody mist.
-
-%%%%
-%s is hewed savagely.
-
-%%%%
-%s is fatally mangled.
-
-%%%%
-%s is dissected like a pig carcass.
-
-%%%%
-%s is chopped into pieces.
-
-%%%%
-%s is butchered messily.
-
-%%%%
-%s is cloven in twain.
+%s slaughters itself joyfully
 
 %%%%
 You burn %s
@@ -7949,9 +7929,6 @@ You cut %s into ribbons
 
 %%%%
 You carve %s like a ham
-
-%%%%
-You chop %s into pieces
 
 %%%%
 You thump %s
