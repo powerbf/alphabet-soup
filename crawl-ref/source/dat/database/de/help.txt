@@ -30,7 +30,7 @@ nutzlosen Gegenstände ausgeblendet.
 <h>Deaktivieren des automatischen Aufhebens über das Fallenlassen-Menü</h>
 Gegenstände im Fallenlassen-Menü, die nach dem Drücken von <w>\</w> ausgewählt werden, werden
 statt dem üblichen <w>+</w> mit <w>*</w> markiert. Automatisches Aufheben für diese Gegenstände
-wird nach dem Schließen des Menüs ausgeschaltet. um in den normalen Modus zurückzukehren,
+wird nach dem Schließen des Menüs ausgeschaltet. Um in den normalen Modus zurückzukehren,
 <w>\</w> nochmal drücken.
 %%%%
 known-menu
@@ -90,8 +90,8 @@ Einige Beispiele für Suchbegriffe:
 <w>laden</w>         Alle Läden auflisten. <w>?</w> und den Buchstaben eines Ladens
                      drücken, um die Waren zu sehen.
 <w>Höhle:2</w>       Alles finden, von dem bekannt ist, dass es auf Höhle:2 ist.
-<w>/D:[2-4]</w>      Alles auf den Kerkerebenen 2-4 finden. Regexes sind erlaubt!
-              Achtung: /D:[3-10] funktioniert nicht wie erwartet, weil [x-y]
+<w>/K:[2-4]</w>      Alles auf den Kerkerebenen 2-4 finden. Regexes sind erlaubt!
+              Achtung: /K:[3-10] funktioniert nicht wie erwartet, weil [x-y]
               ein Regex-Zeichenbereich ist.
 <w>rGift</w>         Alle Gegenstände mit Giftresistenz finden.
 <w>rC++</w>          Alle Gegenstände mit mindestens zwei Stufe Kälteresistenz finden.
@@ -235,7 +235,7 @@ interlevel-travel.depth.prompt
  <w>0</w>      : Zum Eingang des aktuellen Zweigs gehen.
  <w><<</w>      : Den Standard auf eine Ebene über der aktuellen Ebene setzen.
  <w>></w>      : Den Standard auf eine Ebene unter der aktuellen Ebene setzen.
- <w>-</w> oder <w>p</w> : Den Standarf auf den Zweig über diesem Zweig setzen.
+ <w>-</w> oder <w>p</w> : Den Standard auf den Zweig über diesem Zweig setzen.
  <w>$</w>      : Den Standard auf die tiefste besuchte Ebene in diesem Zweig setzen.
  <w>^</w>      : Den Standard auf den Eingang des aktuellen Zweigs setzen.
 %%%%
@@ -339,48 +339,48 @@ wiz-monster
 <h>Bestimmtes Monster erschaffen</h>
 
 Um ein Monster mit der Standardausrüstung für seine Spezies zu erschaffen, einfach den
-Namen der Spezies eingeben, wie zum Beispiel <w>Kobold</w> oder <w>Yiuf</w>.
+Namen der Spezies eingeben, wie zum Beispiel <w>kobold</w> oder <w>Yiuf</w>.
 
-Eine Hydra erhält eine spezifische Anzahl von Köpfen, wenn man sie n<w>-köpfige</w>
-<w>Hydra</w> nennt (mit maximal 20 Köpfen):
+Eine Hydra erhält eine spezifische Anzahl von Köpfen, wenn man sie n<w>-headed</w>
+<w>hydra</w> nennt (mit maximal 20 Köpfen):
 
-<w>vier-köpfige Hydra</w>
+<w>four-headed hydra</w>
 
 Um die Farbe festzulegen, mit der ein (sehr) hässliches Ding erschaffen wird:
 
-<w>weißes sehr hässliches Ding</w>
+<w>white very ugly thing</w>
 
-Zulässige Farben sind <w>braun</w>, <w>cyan</w>, <w>grün</w>, <w>lila</w>, <w>rot</w> and <w>weiß</w>.
+Zulässige Farben sind <w>brown</w>, <w>cyan</w>, <w>green</w>, <w>purple</w>, <w>red</w> und <w>white</w>.
 
 Ein Mutantenbiest kann durch Voranstellen des Reifegrades und/oder einer mit
 Bindestrichen getrennten Liste von Eigenschaften angepasst werden:
 
-<w>reifes bizarres Schockbiest</w>
+<w>mature shock-weird mutant beast</w>
 
-The valid maturity levels are <w>larvales</w>, <w>juveniles</w>, <w>reifes</w>, <w>älteres</w> and <w>urzeitliches</w>. The
-facets are <w>Stich</w>, <w>Fledermaus</w>, <w>Feuer</w>, <w>bizarres</w>, <w>Schock</w> and <w>Ochsen</w>.
+Die zulässigen Reifegrade sind <w>larval</w>, <w>juvenile</w>, <w>mature</w>, <w>elder</w> und <w>primal</w>. Die
+Facetten sind <w>sting</w>, <w>bat</w>, <w>fire</w>, <w>weird</w>, <w>shock</w> und <w>ox</w>.
 
-Die Größe einer Schleimcreatur kann durch die Präfixe <w>große</w>, <w>sehr große</w>,
-<w>enorme</w> oder <w>titanische</w> erhöht werden:
+Die Größe einer Schleimcreatur kann durch die Präfixe <w>large</w>, <w>very large</w>,
+<w>enormous</w> oder <w>titanic</w> erhöht werden:
 
-<w>sehr große Schleimkreatur</w>
+<w>very large slime creature</w>
 
-Falls ein Monster normalerweise in Gruppen auftritt, kann man mit dem Schlüsselwort <w>gruppe</w>
+Falls ein Monster normalerweise in Gruppen auftritt, kann man mit dem Schlüsselwort <w>band</w>
 festlegen, dass ihm Gruppenmitglieder zustehen. Zum Beispiel:
 
-<w>Ork-Warlord gruppe</w>
+<w>orc warlord band</w>
 
-Durch die Angabe von <w>gruppe</w> werden keine Gruppen erzwungen, sondern das Spiel verwendet
+Durch die Angabe von <w>band</w> werden keine Gruppen erzwungen, sondern das Spiel verwendet
 die normale Wahrscheinlichkeit, mit der eine Gruppe erzeugt wird. Eine Gruppe wird nur erzeugt,
 wenn es genug Platz dafür gibt.
 
 Man kann ein Monster mit bestimmten Gegenständen ausrüsten, indem man hinter seinen Namen
 ein Semikolon und eine Gegenstandsliste setzt. Zum Beispiel:
 
-<w>Ork ; Rapier | Schnellklinge . Kettenpanzer | Plattenrüstung</w>
+<w>orc ; rapier | quick blade . chain mail | plate armour</w>
 
 generiert einen Ork, der entweder mit einem Rapier oder einer Schnellklinge bewaffnet ist und entweder
-einen Kettenpaner oder eine Plattenrüstung trägt. Zufällige Artefakte and Gegenstände mit Egos werden
+einen Kettenpaner oder eine Plattenrüstung trägt. Zufällige Artefakte und Gegenstände mit Egos werden
 nur erzeugt, wenn sie explizit genannt sind. Alle Gegenstände, mit denen das Monster ursprünglich
 ausgerüstet war, werden entfernt und zerstört. Auf diese Weise lässt sich ein Monster
 erzwingen, das keinerlei Gegenstände hat:
@@ -393,33 +393,33 @@ Jeder Bezug auf einen Schrägstrich (<w>/</w>) sollte durch einen senkrechten St
 
 Die gleiche Syntax wird auch verwendet, um einen bestimmten Typ einer tanzenden Waffe zu erzeugen:
 
-<w>tanzende Waffe; Rapier</w>
+<w>dancing weapon; rapier</w>
 
 Einschränkungen: Wird ein Monster mit einer zufälligen Distanzwaffe ausgestattet, lässt sich
 nicht festlegen, dass es dazu auch die richtige Munition erhält. Ein Sonderfall sind tanzende Distanzwaffen,
 welche immer mit einer passenden Art von Munition erzeugt werden.
 
-Mit der Bezeichnung <w>immer_leiche</w> lässt sich festlegen, dass ein Monster immer eine Leiche
-hinterlässt, mit <w>nie_leiche</w>, dass es niemals eine Leiche erzeugt.
+Mit der Bezeichnung <w>always_corpse</w> lässt sich festlegen, dass ein Monster immer eine Leiche
+hinterlässt, mit <w>never_corpse</w>, dass es niemals eine Leiche erzeugt.
 
 Standardmäßig schlafen erzeugte Monster. Dies kann geändert werden, indem man dem
-namen <w>wach_generieren</w> voranstellt.
+namen <w>generate_awake</w> voranstellt.
 
-<w>wach_generieren Rollsteinkäfer</w>
+<w>generate_awake boulder beetle</w>
 
-Die vorangestellte Bezeichnung <w>patrouillierend</w> verhindert, dass es sich außerhalb der Sichtweite des Ortes
+Die vorangestellte Bezeichnung <w>patrolling</w> verhindert, dass es sich außerhalb der Sichtweite des Ortes
 bewegt, an dem es erzeugt wurde.
 
-Die Gottheit des Monsters lässt sich mit <w>gott</w>: wie folgt angeben:
+Die Gottheit des Monsters lässt sich mit <w>god</w>: wie folgt angeben:
 
-<w>Ork gott:der_strahlende</w>
+<w>orc god:the_shining_one</w>
 
 Falls das Monster das Geschenk einer Gottheit sein soll, dann sollte die Bezeichnung
-<w>gott_geschenk</w> dahinter gestellt werden:
+<w>god_gift</w> dahinter gestellt werden:
 
-<w>Ork gott:der_strahlende gott_geschenk</w>
+<w>orc god:the_shining_one god_gift</w>
 
-Achtung: Ein Monster wird nicht als Gottesgeschenk angesehen, es sei denn <w>gott_geschenk</w>
+Achtung: Ein Monster wird nicht als Gottesgeschenk angesehen, es sei denn <w>god_gift</w>
 wurde explizit gesetzt.
 
 Die Fraktion eines Monsters lässt sich festlegen durch <w>att</w>: in Kombination mit:
@@ -432,14 +432,14 @@ Die Fraktion eines Monsters lässt sich festlegen durch <w>att</w>: in Kombinati
 
 Monster können mit Farben erzeugt werden, die von ihrer Standardfarbe abweichen:
 
-<w>farbe:dunkelgrau Pilz</w>
+<w>col:darkgrey fungus</w>
 
-Die Farbe <w>jede</w> kann verwendet werden, um eine zufällige Farbe festzulegen.
+Die Farbe <w>any</w> kann verwendet werden, um eine zufällige Farbe festzulegen.
 
-Mit der Angabe <w>kachel</w>: kann wie folgt überschrieben werden, welche Kachel das
+Mit der Angabe <w>tile</w>: kann wie folgt überschrieben werden, welche Kachel das
 Monster verwendet:
 
-<w>Ratte kachel:mons_giant_bat</w>
+<w>rat tile:mons_giant_bat</w>
 
 In der Kachel-Version des Spiels erzeugt dies ein Monster, welches die Kachel "<cyan>mons_giant_bat</cyan>"
 verwendet, aber ansonsten identisch mit einer Ratte ist. Im ASCII-Modus hat dies keinen
@@ -448,90 +448,90 @@ Effekt.
 Um ein zufälliges, für die Ebene auf der die Karte erzeugt wurde, passendes Monster zu platzieren,
 lässt sich folgender Befehl verwenden:
 
-<w>zufall</w>
+<w>random</w>
 
-Zufällige Monster, die für einen anderen Ort angemessen sind, lassen sich mit dem Bezeichner ort: in
+Zufällige Monster, die für einen anderen Ort angemessen sind, lassen sich mit dem Bezeichner place: in
 der Monster-Spezifikation platzieren:
 
-<w>ort:Abyss</w>
+<w>place:Abyss</w>
 
-Die Verwendung von <w>ort</w>: impliziert, dass ein zufälliges Monster gewünscht ist. Man kann auch
+Die Verwendung von <w>place</w>: impliziert, dass ein zufälliges Monster gewünscht ist. Man kann auch
 Zombies von zufälligen Monstern für beliebige Tiefen anfordern, z.B.:
 
-<w>ort:Elf:3 zombie</w>
+<w>place:Elf:3 zombie</w>
 
-Die verfügbaren Modifikatoren sind <w>zombie</w>, <w>skelett</w>, <w>simulacrum</w>, and <w>spektral</w>.
+Die verfügbaren Modifikatoren sind <w>zombie</w>, <w>skeleton</w>, <w>simulacrum</w> und <w>spectre</w>.
 
 <h>Monsternamen überschreiben</h>
 
 Individuelle Monster können wie folgt umbenannt werden:
 
-<w>Kobold name:Durwent</w>
+<w>kobold name:Durwent</w>
 
 Dies erzeugt ein Monster namens "<cyan>Durwent der Kobold</cyan>". Leerzeichen im Namen müssen
 durch das Symbol _ ersetzt werden. Dabei ist zu beachten, dass
 "<cyan>der <<Species></cyan>" automatisch allen Namen angehangen wird.
 
 Es gibt drei verschiedene Modifikatoren, die auf Namen angewendet werden können:
-<w>name_adjektiv</w>, <w>name_suffix</w> und <w>name_ersetzen</w>. Bei <w>name_adjektiv</w> verhält
+<w>name_adjective</w>, <w>name_suffix und </w>name_replace</w>. Bei <w>name_adjective</w> verhält
 sich der Name wie ein Adjektiv. Zum Beispiel:
 
-<w>Kobold name:hässlicher name_adjective</w>
+<w>kobold name:hässlicher name_adjective</w>
 
 Dies führt zu "<cyan>Ein hässlicher Kobold</cyan>", "<cyan>Der hässliche Kobold trifft dich</cyan>" usw.
 
 <w>name_suffix</w> hat den gleichen Effekt, aber hinter dem Basisnamen des Monsters:
 
-<w>Kobold name:mit_Boxhandschuhen name_suffix</w>
+<w>kobold name:mit_Boxhandschuhen name_suffix</w>
 
 Dies führt zu "<cyan>Ein Kobold mit Boxhandschuhen</cyan>", "<cyan>Der Kobold mit Boxhandschuhen trifft dich</cyan>"
 usw.
 
-<w>name_ersetzen</w> ersetzt den Basisnamen durch einen anderen, so als wäre das
+<w>name_replace</w> ersetzt den Basisnamen durch einen anderen, so als wäre das
 Monster einzigartig:
 
-<w>Kobold name:Durwent name_ersetzen</w>
+<w>kobold name:Durwent name_replace</w>
 
 Dies führt zu "<cyan>Durwent</cyan>" anstatt "<cyan>Durwent der Kobold</cyan>". Die Leiche heißt
 aber trotzdem "<cyan>Kobold-Leiche von Durwent</cyan>".
 
 <w>name_species</w> verwendet den Namen für Leichen unverändert, ohne das Voranstellen von
-"<cyan>Kobold</cyan> <cyan>Leiche von X</cyan>" bei <w>name_ersetzen</w>. Es unterdrückt auch die übliche
+"<cyan>Kobold</cyan> <cyan>Leiche von X</cyan>" bei <w>name_replace</w>. Es unterdrückt auch die übliche
 Namensbezeichnung, die über einzigartigen und umbenannten Monstern im lokalen grafischen Modus angezeigt wird.
 
-In Kombination mit <w>name_ersetzen</w> oder <w>name_species</w> gibt es zwei weitere Bezeichner,
+In Kombination mit <w>name_replace</w> oder <w>name_species</w> gibt es zwei weitere Bezeichner,
 die zum Umbennen von Monster verwendet werden können, ohne ihnen tatsächlich einen "Namen" zu geben:
-<w>name_beschreibung</w>, und <w>name_definitiv</w>.
+<w>name_descriptor</w> und <w>name_definite</w>.
 
 Zum Beispiel:
 
-<w>Kobold name:Goblin name_ersetzen</w>
+<w>kobold name:Goblin name_replace</w>
 
-Dies führt zu "<cyan>Goblin trifft dich</cyan>". Das Hinzufügen von <w>name_beschreibung</w> von den
+Dies führt zu "<cyan>Goblin trifft dich</cyan>". Das Hinzufügen von <w>name_descriptor</w> von den
 oben aufgeführten Bezeichnern ergibt "<cyan>Der Goblin trifft dich</cyan>" und, in der Beschreibung des
 Monsters, "<cyan>Ein Goblin</cyan>".
 
-<w>Kobold name:Goblin name_ersetzen name_beschreibung</w>
+<w>kobold name:Goblin name_replace name_descriptor</w>
 
-Der Bezeichner <w>name_definitiv</w> stellt sicher, dass es niemals als "<cyan>ein</cyan>",
+Der Bezeichner <w>name_definite</w> stellt sicher, dass es niemals als "<cyan>ein</cyan>",
 referenziert wird, aber das definitive Objekt wird immer verwendet. Deshalb sieht man
 "<cyan>Ein Goblin trifft dich</cyan>", so wie oben, aber gleichzeitig "<cyan>Der Goblin</cyan>" in der Beschreibung.
-Das Setzen von <w>name_definitiv</w> setzt automatisch auch den Bezeichner <w>name_beschreibung</w>,
+Das Setzen von <w>name_definite</w> setzt automatisch auch den Bezeichner <w>name_descriptor</w>,
 was somit bedeutet:
 
-<w>Kobold name:Goblin name_ersetzen name_definitiv</w>
+<w>kobold name:Goblin name_replace name_definite</w>
 
 ist genau das Gleiche wie:
 
-<w>Kobold name:Goblin name_ersetzen name_beschreibung name_definitiv</w>
+<w>kobold name:Goblin name_replace name_descriptor name_definite</w>
 
 <w>name_zombie</w> kann verwendet werden, um bereits zombifizierte Monser umzubenennen (inklusive
 Skelette, Simulacra und spektrale Kreaturen).
 
-Und zu guter Letzt sorgt <w>name_keineleiche</w> dafür, dass der Name für Leichen komplett ignoriert
+Und zu guter Letzt sorgt <w>name_nocorpse</w> dafür, dass der Name für Leichen komplett ignoriert
 wird. Zum Beipspiel:
 
-<w>Zauberer name:trauriger name_adjektiv name_keineleiche</w>
+<w>wizard name:trauriger name_adjective name_nocorpse</w>
 
 Dies führt zu "<cyan>ein trauriger Zauberer</cyan>" der "<cyan>eine Zauberer-Leiche</cyan>" hinterlässt.
 
@@ -539,54 +539,54 @@ In Fällen, bei denen der Platz für Definitionen begrenzt ist, lassen sich abge
 dieser Bezeichner verwenden:
 
 * <w>name_suffix</w> -> <w>n_suf</w>
-* <w>name_adjektiv</w> -> <w>n_adj</w>
-* <w>name_ersetzen</w> -> <w>n_ers</w>
+* <w>name_adjective</w> -> <w>n_adj</w>
+* <w>name_replace</w> -> <w>n_rpl</w>
 * <w>name_species</w> -> <w>n_spe</w>
-* <w>name_beschreibung</w> -> <w>n_bes</w>
-* <w>name_definitiv</w> -> <w>n_dev</w>
+* <w>name_descriptor</w> -> <w>n_des</w>
+* <w>name_definite</w> -> <w>n_the</w>
 * <w>name_zombie</w> -> <w>n_zom</w>
-* <w>name_nocorpse</w> -> <w>n_kl</w>
+* <w>name_nocorpse</w> -> <w>n_noc</w>
 
 <h>Monsterwerte überschreiben</h>
 
 # TODO
-Monster lassen sich mit w>tw</w> und <w>tp</w> noch weiter anpassen. Diese zwei Bezeichner erlauben
+Monster lassen sich mit w>hd</w> und <w>hp</w> noch weiter anpassen. Diese zwei Bezeichner erlauben
 das vollständige Überschreiben der ursprünglichen Trefferwürfel and Trefferpunkte eines
 Monsters:
 
-<w>kobold tw:20</w>
+<w>kobold hd:20</w>
 
 Erzeugt einen Kobold mit einem Trefferwürfel von 20. Die Trefferpunkte werden auf Grundlage des Trefferwürfels zufällig
 berechnet. Bei Monstern mit einer festgelegten Zahl von Trefferpunkten wird der Wert nicht verändert.
 
 Man kann auch einen bestimmten Wert für die Trefferpunkte angeben:
 
-<w>kobold tp:20</w>
+<w>kobold hp:20</w>
 
 Erzeugt einen Kobold mit 20 Trefferpunkten. Dies ist auch für Monster nützlich, deren Trefferpunkte nicht
 randomisiert werden (wie z.B. Statuen).
 
-Monster können durch <w>dau</w> und <w>bes</w> als beschworen markiert werden. Der Bezeichner <w>dau</w>
-akzeptiert eine ganze Zahl von 1 bis 6. Der Bezeichner <w>bes</w> akzeptiert den Namen eines
-Zaubers (der wie beim unten beschriebenen Bezeichner <w>zauber</w> ausgewertet wird) oder <w>klon</w>
-(Rakshasa), <w>belebt</w> (von Tote beleben), <w>chaos</w> (durch pures Chaos erzeugt), <w>fehl</w>
-(durch einen Fehlzauber-Effekt beschworen), <w>zot</w> (beschworen durch eine Zot-Falle), <w>zorn</w>
-(von einer Gottheit als Akt der Vergeltung beschworen), <w>hilf</w> (von einem Gott beschworen, um Hilfe zu leisten).
+Monster können durch <w>dur</w> und <w>sum</w> als beschworen markiert werden. Der Bezeichner <w>dur</w>
+akzeptiert eine ganze Zahl von 1 bis 6. Der Bezeichner <w>sum</w> akzeptiert den Namen eines
+Zaubers (der wie beim unten beschriebenen Bezeichner <w>spells</w> ausgewertet wird) oder <w>clone</w>
+(Rakshasa), <w>animate</w> (von Tote beleben), <w>chaos</w> (durch pures Chaos erzeugt), <w>miscast</w>
+(durch einen Fehlzauber-Effekt beschworen), <w>zot</w> (beschworen durch eine Zot-Falle), <w>wrath</w>
+(von einer Gottheit als Akt der Vergeltung beschworen), <w>aid</w> (von einem Gott beschworen, um Hilfe zu leisten).
 
-Von den Zaubern hat <w>schattenkreaturen</w> den signifikantesten Effekt, weil
+Von den Zaubern hat <w>shadow_creatures</w> den signifikantesten Effekt, weil
 Monster sich in Schatten auflösen, anstatt in einer Rauchwolke zu verpuffen.
 Die Verwendung von anderen Zaubern als Beschwörungen hat keinen Effekt.
 
-Die Markierung eines Monsters mit <w>gesehen</w> überschreibt das System und erzwingt, dass das Monster
+Die Markierung eines Monsters mit <w>seen</w> überschreibt das System und erzwingt, dass das Monster
 als bereits gesehen eingestuft wird; dies bedeutet, dass keine Nachrichten wie
 "<cyan>Ein Kobold kommt in Sicht</cyan>" mehr erzeugt werden.
 
 <h>Monsterzauber überschreiben</h>
 
-Die verfügbaren Zauber von Monstern können mit<w>zauber</w>: wie folgt überschrieben werden:
+Die verfügbaren Zauber von Monstern können mit<w>spells</w>: wie folgt überschrieben werden:
 
-*<w>Goblin zauber:flamme_werfen.50.zauberer</w>
-*<w>Uralter Lich zauber:symbol_der_peinigung.26.zauberer; vergletschern.51.zauberer</w>
+*<w>goblin spells:throw_flame.50.wizard</w>
+*<w>ancient lich spells:symbol_of_torment.26.wizard; glaciate.51.wizard</w>
 
 (eine Liste der Zauberplätze, bestehend aus einem Zaubernamen mit Unterstrichen anstelle von
 Leerzeichen, einer Wirk-Häufigkeit und dahinter eine Reihe von Zauber-Kennzeichnern spezifiziert
@@ -597,37 +597,37 @@ Zaubernamen müssen exakt den Namen in <cyan>spl-data.h</cyan> entsprechen, mit 
 von Leerzeichen. Wirk-Häufigkeiten sind eine (x in 200) Chance, dass der Zauber
 gewirkt wird. Zauber-Kennzeichner umfassen:
 
-* <w>natürlich</w>, <w>magisch</w>, <w>dämonisch</w>, <w>zauberer</w>, or <w>priester</w> - die Art und Weise,
+* <w>natural</w>, <w>magical</w>, <w>demonic</w>, <w>wizard</w> oder <w>priest</w> - die Art und Weise,
 wie der Zauber gewirkt wird. Zauberer und Priester sind für Stummheit anfällig und erhalten mehr Aufmerksamkeit
 von manchen Gottheiten (Trog begrüßt das Töten von Zauberern, Beogh begrüßt das
 Töten von Priestern). Magische, dämonische und von Zauberern gewirkte Zauber unterliegen
 anti-magischen Effekten. Natürliche Zauber verursachen keine Geräusche.
-* <w>notfall</w> - das Monster wirkt diesen Zauber nur, wenn seine Trefferpunkte niedrig sind.
-* <w>odem</w> - dieser Zauber ist eine Odem-Waffe und nach dem Wirken muss eine kurze Pause
+* <w>emergency</w> - das Monster wirkt diesen Zauber nur, wenn seine Trefferpunkte niedrig sind.
+* <w>breath</w> - dieser Zauber ist eine Odem-Waffe und nach dem Wirken muss eine kurze Pause
 eingehalten werden, bevor der Zauber erneut gewirkt werden kann.
-* <w>nicht_still</w> - dieser Zauber kann nicht in Stille gewirkt werden, selbst wenn er zu einem Fähigkeitstyp
+* <w>no_silent</w> - dieser Zauber kann nicht in Stille gewirkt werden, selbst wenn er zu einem Fähigkeitstyp
 gehört, der normalerweise nicht anfällig für Stummheit ist.
-* <w>sofort</w> - dieser Zauber erfordert keine Energie des Monsters; es kann unter Umständen
+* <w>instant</w> - dieser Zauber erfordert keine Energie des Monsters; es kann unter Umständen
 in derselben Runde noch eine weitere Aktion durchführen.
-* <w>laut</w> - zwingt den Zauber Geräusche zu machen, selbst wenn er eine natürliche Fähigkeit ist.
+* <w>noisy</w> - zwingt den Zauber Geräusche zu machen, selbst wenn er eine natürliche Fähigkeit ist.
 
-Mit <w>keine</w> lässt sich festlegen, dass ein Zauberplatz leer bleiben soll. Ein zauberloses Monster
+Mit <w>none</w> lässt sich festlegen, dass ein Zauberplatz leer bleiben soll. Ein zauberloses Monster
 kann erzeugt werden mit:
 
-<w>orc wizard spells:keine</w>
+<w>orc wizard spells:none</w>
 
 <h>Verzauberungen festlegen</h>
 
 Ein Monster kann eine beliebige Anzahl von Verzauberungen erhalten. Es kann von Anfang an hastig und blind sein
-und permanent Geschosse abwehren, etc. Die Syntax ist <w>verz:<<name>:<<grad>:<<dauer></w> oder
-<w>perm_verz:<<name>:<<grad></w>. Die Felder <w><<grad></w> und <w><<dauer></w> können
+und permanent Geschosse abwehren, etc. Die Syntax ist <w>ench:<<name>:<<degree>:<<duration></w> oder
+<w>perm_ench:<<name>:<<degree></w>. Die Felder <w><<degree></w> und <w><<duration></w> können
 weggelassen werden.
 
 Zum Beispiel:
 
-* <w>Ork perm_verz:blind perm_verz:verrückt</w>
-* <w>Traumschaf verz:sticky_flame</w>
-* <w>Steinriese dauer:1 verz:berserk</w>
+* <w>orc perm_ench:blind perm_ench:mad</w>
+* <w>dream sheep ench:sticky_flame</w>
+* <w>stone giant dur:1 ench:berserk</w>
 
 %%%%
 macro-menu
@@ -718,7 +718,7 @@ targeting-help-2
 Die meisten Tasten aus "Umgebung untersuchen"
 funktionieren. Einige Tasten schießen auf das
 Ziel. <w>Strg-X</w> listet nur geeignete Ziele.
-Standardmäßig wird Reichweite  beachtet und
+Standardmäßig wird Reichweite beachtet und
 Strahlen brechen nicht ab.
 <w>Enter</w> : feuern (<w>Leertaste</w>, <w>Del</w>)
 <w>.</w>: feuern, am Ziel stoppen
@@ -855,7 +855,7 @@ cmd-help-item-types
 <lightgreen>}</lightgreen> : Verschiedenes (e<w>%</w> evozieren)
 <yellow>$</yellow> : Gold (<w>%</w> zählt Gold)
 <lightmagenta>0</lightmagenta> : die Kugel von Zot
-    Wie sie aus dem Kerker trägt gewinnt!
+    Wer sie aus dem Kerker trägt gewinnt!
 %%%%
 cmd-help-other-gameplay
 <h>Sonstige Gameplay-Aktionen:
