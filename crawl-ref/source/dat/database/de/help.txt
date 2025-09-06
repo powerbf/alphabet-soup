@@ -1004,7 +1004,7 @@ cmd-hints-ranged
 <w>%</w>/<w>%</w> : Zauber wirken (<w>%?/%</w> listet Zauber auf)
 <w>%</w> : Zauber auswendiglernen und die
     Zaubersammlung ansehen (Bücher sammeln
-	um sie zu erweitern)
+        um sie zu erweitern)
 %%%%
 cmd-hints-items
 <h>Gegenstandtypen und Inventarmanagement
