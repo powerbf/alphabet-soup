@@ -210,7 +210,7 @@ static string _portals_description_string()
                 else
                 {
                     disp += ' ';
-                    disp += entry.first.id.describe(false, true, true);
+                    disp += localise(entry.first.id.describe(false, true));
                 }
                 last_id = entry.first.id;
 
@@ -281,7 +281,7 @@ static string _get_seen_branches(bool display)
 
             string entry_desc;
             for (auto lvl : stair_level[branch])
-                entry_desc += " " + lvl.describe(false, true, true);
+                entry_desc += " " + localise(lvl.describe(false, true));
 
             // "D" is a little too short here.
             string branch_name = (branch == BRANCH_DUNGEON
@@ -540,7 +540,7 @@ static string _get_shops(bool display)
             }
             disp += existing ? "<lightgrey>" : "<darkgrey>";
 
-            const string loc = entry.first.id.describe(false, true, true);
+            const string loc = localise(entry.first.id.describe(false, true));
             disp += loc;
             column_count += strwidth(loc);
 
@@ -1017,7 +1017,7 @@ string get_level_annotation(level_id li, bool skip_excl, bool skip_uniq,
 
 static const string _get_coloured_level_annotation(level_id li)
 {
-    string place = "<yellow>" + li.describe(false, true, true) + "</yellow>";
+    string place = "<yellow>" + localise(li.describe(false, true)) + "</yellow>";
     int col = level_annotation_has("!", li) ? LIGHTRED : WHITE;
     return place + " " + get_level_annotation(li, false, false, true, col);
 }
@@ -1237,7 +1237,7 @@ void annotate_level(level_id li)
         mpr_nolocalise(MSGCH_PROMPT, msg);
     }
 
-    const string level = li.describe(false, true, true);
+    const string level = localise(li.describe(false, true));
     const string prompt = localise("New annotation for %s (include '!' for warning): ",
                                    LocalisationArg(level, false));
 

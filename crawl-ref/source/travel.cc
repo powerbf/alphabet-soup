@@ -3262,18 +3262,10 @@ level_id level_id::get_next_level_id(const coord_def &pos)
     return id;
 }
 
-string level_id::describe(bool long_name, bool with_number, bool localize) const
+string level_id::describe(bool long_name, bool with_number) const
 {
-    string result;
-
-    // localise abbreviation now, but delay localisation of long name until
-    // depth is added, because that might change the translation (grammatical case)
-    if (long_name)
-        result = branches[branch].longname;
-    else if (localize)
-        result = branch_abbrev_local(branch);
-    else
-        result = branches[branch].abbrevname;
+    string result = (long_name ? branches[branch].longname
+                               : branches[branch].abbrevname);
 
     if (with_number && brdepth[branch] != 1)
     {
@@ -3282,19 +3274,14 @@ string level_id::describe(bool long_name, bool with_number, bool localize) const
             // decapitalise 'the'
             if (starts_with(result, "The"))
                 result[0] = 't';
-            if (localize)
-                result = localise("Level %d of %s", depth, result);
-            else
-                result = make_stringf("Level %d of %s", depth, result.c_str());
+            result = make_stringf("Level %d of %s",
+                      depth, result.c_str());
         }
         else if (depth)
             result = make_stringf("%s:%d", result.c_str(), depth);
         else
             result = make_stringf("%s:$", result.c_str());
     }
-    else if (localize && long_name)
-       result = localise(result);
-
     return result;
 }
 
