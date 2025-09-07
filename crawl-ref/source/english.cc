@@ -496,6 +496,13 @@ string number_in_words(unsigned num)
     return _number_in_words(num, 0);
 }
 
+static string _number_to_string(unsigned number, bool in_words)
+{
+    // i18n: Numbers in words are hard to translate, so avoid.
+    in_words = false;
+    return in_words ? number_in_words(number) : to_string(number);
+}
+
 string article_the(const string &name, bool lowercase)
 {
     return (lowercase ? "the " : "The ") + name;
@@ -531,14 +538,14 @@ string article_a(const string &name, bool lowercase)
 }
 
 string apply_description(description_level_type desc, const string &name,
-                         int quantity)
+                         int quantity, bool in_words)
 {
     switch (desc)
     {
     case DESC_THE:
         return "the " + name;
     case DESC_A:
-        return quantity > 1 ? to_string(quantity) + name
+        return quantity > 1 ? _number_to_string(quantity, in_words) + name
                             : article_a(name, true);
     case DESC_YOUR:
         return "your " + name;
