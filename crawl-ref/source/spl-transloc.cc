@@ -1086,7 +1086,7 @@ string weapon_unprojectability_reason()
         if (is_unrandom_artefact(it, urand))
         {
             return localise("%s would react catastrophically with paradoxical space!",
-                            you.weapon()->name(DESC_THE, false, false, false, ISFLAG_KNOW_PLUSES));
+                            you.weapon()->name(DESC_THE, false, false, false, false, ISFLAG_KNOW_PLUSES));
         }
     }
     return "";

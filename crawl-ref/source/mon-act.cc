@@ -1112,7 +1112,7 @@ static bool _handle_wand(monster& mons)
 
     beem.source     = mons.pos();
     beem.aux_source =
-        wand->name(DESC_QUALNAME, false, true, false);
+        wand->name(DESC_QUALNAME, false, true, false, false);
 
     bool should_fire = false;
     const wand_type kind = (wand_type)wand->sub_type;

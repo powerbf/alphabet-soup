@@ -141,7 +141,7 @@ public:
             name = pluralise(item->name(DESC_DBNAME));
         else
         {
-            name = item->name(DESC_PLAIN, false, true, flags);
+            name = item->name(DESC_PLAIN, false, true, false, false, flags);
             name = pluralise(name);
         }
 
@@ -208,7 +208,7 @@ public:
     {
         int flags = item->base_type == OBJ_WANDS ? 0 : int{ISFLAG_KNOW_PLUSES};
 
-        string item_name = item->name(DESC_PLAIN, false, true, false, flags);
+        string item_name = item->name(DESC_PLAIN, false, true, false, false, flags);
         return string(" ") + localise(item_name);
     }
 };
@@ -234,8 +234,8 @@ static bool _identified_item_names(const item_def *it1,
     description_level_type desc =
         it1->base_type == OBJ_JEWELLERY ? DESC_DBNAME : DESC_PLAIN;
 
-    return it1->name(desc, false, true, false, flags)
-         < it2->name(desc, false, true, false, flags);
+    return it1->name(desc, false, true, false, false, flags)
+         < it2->name(desc, false, true, false, false, flags);
 }
 
 // Allocate (with new) a new item_def with the given base and sub types,

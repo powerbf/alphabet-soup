@@ -4734,7 +4734,8 @@ void explore_discoveries::add_item(const item_def &i)
         if (cname == item.thing.name(DESC_PLAIN))
         {
             item.thing.quantity = orig_quantity + i.quantity;
-            item.name = item.thing.name(DESC_A, false, false, true);
+            item.name = item.thing.name(DESC_A, false, false, true,
+                                        !is_stackable_item(i));
             return;
         }
         item.thing.quantity = orig_quantity;

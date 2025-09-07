@@ -891,7 +891,7 @@ string monster_info::db_name() const
     {
         iflags_t ignore_flags = ISFLAG_KNOW_PLUSES;
         bool     use_inscrip  = false;
-        return inv[MSLOT_WEAPON]->name(DESC_DBNAME, false, false, use_inscrip,
+        return inv[MSLOT_WEAPON]->name(DESC_DBNAME, false, false, use_inscrip, false,
                          ignore_flags);
     }
 
@@ -966,7 +966,7 @@ string monster_info::_core_name() const
             if (inv[MSLOT_ARMOUR])
             {
                 const item_def& item = *inv[MSLOT_ARMOUR];
-                s = "animated " + item.name(DESC_PLAIN, false, false, true, ISFLAG_KNOW_PLUSES);
+                s = "animated " + item.name(DESC_PLAIN, false, false, true, false, ISFLAG_KNOW_PLUSES);
             }
             break;
 

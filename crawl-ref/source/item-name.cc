@@ -129,7 +129,8 @@ static string _item_inscription(const item_def &item)
 }
 
 string item_def::name(description_level_type descrip, bool terse, bool ident,
-                      bool with_inscription, iflags_t ignore_flags) const
+                      bool with_inscription, bool quantity_in_words,
+                      iflags_t ignore_flags) const
 {
     if (crawl_state.game_is_arena())
         ignore_flags |= ISFLAG_KNOW_PLUSES | ISFLAG_COSMETIC_MASK;
@@ -214,7 +215,11 @@ string item_def::name(description_level_type descrip, bool terse, bool ident,
         if (descrip != DESC_BASENAME && descrip != DESC_QUALNAME
             && descrip != DESC_DBNAME && !always_plural)
         {
-            buff << quantity << " ";
+            // i18n: Numbers in words are hard to translate, so avoid them.
+            if (quantity_in_words && !localisation_active())
+                buff << number_in_words(quantity) << " ";
+            else
+                buff << quantity << " ";
         }
     }
     else
