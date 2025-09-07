@@ -347,6 +347,7 @@ def ignore_string(string):
 IGNORE_SECTIONS = {
     'acquire.cc':       ['_why_reject'],        # debug messages
     'arena.cc':         ['arena_tee'],          # arena dumpfile stuff
+    'art-func.h':       ['_SINGING_SWORD_melee_effects'], # internal keys
     'artefact.cc':      ['replace_name_parts'],
     'attack.cc':        ['chaos_effects'],      # chaos effect names are only used for debugging
     'beam.cc':          ['enchant_monster_invisible'], # we expand strings at the point of calling
