@@ -386,6 +386,12 @@ IGNORE_SECTIONS = {
         'mpr_monster_list',                     # only used in morgue and for debugging
         '_itosym',                              # symbolic representaion of resist numbers
     ],
+    'xom.cc':           [
+        '_note_potion_effect',                  # milestones
+        '_get_death_type_keyword', 'xom_events', # internal keys
+        # debug stuff
+        'validate_xom_events', '_list_exploration_estimate', 'debug_xom_effects',
+    ],
 }
 
 # should section be ignored?
@@ -955,7 +961,7 @@ def insert_section_markers(filename, lines):
         elif line.startswith('class ') or (section == None and line.strip().startswith('class ')):
             # class
             section = re.sub('[ :].*', '', re.sub('^class *', '', line.strip()))
-        elif line.startswith('static ') and '=' in line and ('vector<' in line or re.search(r'\[.*\] *=', line)):
+        elif line.startswith('static ') and '=' in line and (re.search('(vector|map)<', line) or re.search(r'\[.*\] *=', line)):
             # static data
             section = re.sub(' *=.*', '', line)
             section = re.sub(r'\[.*\]', '', section)
@@ -2500,7 +2506,10 @@ def post_process_item_prop_cc(strings):
 def post_process_job_data_h(strings):
     output = []
     for string in strings:
-        output.append(article_the(string) if len(string) > 2 else string)
+        if len(string) > 2 and not string.startswith('#'):
+            output.append(article_the(string))
+        else:
+            output.append(string)
     return output;
 
 def post_process_mon_data_h(strings):

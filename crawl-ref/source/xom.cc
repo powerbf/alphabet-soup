@@ -941,7 +941,6 @@ static bool _player_is_dead()
 
 static void _note_potion_effect(potion_type pot)
 {
-    // @noloc section start
     string potion_name = potion_type_name(static_cast<int>(pot));
 
     string potion_msg = "potion effect ";
@@ -949,7 +948,6 @@ static void _note_potion_effect(potion_type pot)
     potion_msg += ("(" + potion_name + ")");
 
     take_note(Note(NOTE_XOM_EFFECT, you.piety, -1, potion_msg), true);
-    // @noloc section end
 }
 
 
@@ -1094,7 +1092,6 @@ static void _xom_send_one_ally(int sever)
  */
 static void _xom_polymorph_monster(monster &mons, bool helpful)
 {
-    // @noloc section start (speech keys and notes)
     god_speaks(GOD_XOM,
                helpful ? _get_xom_speech("good monster polymorph").c_str()
                        : _get_xom_speech("bad monster polymorph").c_str());
@@ -1132,7 +1129,6 @@ static void _xom_polymorph_monster(monster &mons, bool helpful)
 #endif
         take_note(Note(NOTE_XOM_EFFECT, you.piety, -1, note), true);
     }
-    // @noloc section end (speech keys and notes)
 }
 
 /// Find a monster to poly.
@@ -2534,14 +2530,12 @@ static void _xom_summon_hostiles(int sever)
 
     if (num_summoned > 0)
     {
-        // @noloc section start
         const string note = make_stringf("summons %d hostile %s%s",
                                          num_summoned,
                                          shadow_creatures ? "shadow creature"
                                                           : "demon",
                                          num_summoned > 1 ? "s" : "");
         take_note(Note(NOTE_XOM_EFFECT, you.piety, -1, note), true);
-        // @noloc section end
 
         const string speech = _get_xom_speech("hostile monster");
         god_speaks(GOD_XOM, speech.c_str());
@@ -3318,7 +3312,6 @@ static int _death_is_worth_saving(const kill_method_type killed_by)
 
 static string _get_death_type_keyword(const kill_method_type killed_by)
 {
-    // @noloc section start (keys)
     switch (killed_by)
     {
     case KILLED_BY_MONSTER:
@@ -3330,7 +3323,6 @@ static string _get_death_type_keyword(const kill_method_type killed_by)
     default:
         return "general";
     }
-    // @noloc section end (keys)
 }
 
 /**
@@ -3507,8 +3499,6 @@ struct xom_event
     int badness_10x;
 };
 
-// @noloc section start (internal keys)
-
 static const map<xom_event_type, xom_event> xom_events = {
     { XOM_DID_NOTHING, { "nothing" }},
     { XOM_GOOD_POTION, { "potion", _xom_do_potion }},
@@ -3561,8 +3551,6 @@ static const map<xom_event_type, xom_event> xom_events = {
                                   10}},
 };
 
-// @noloc section end (internal keys)
-
 static void _do_xom_event(xom_event_type event_type, int sever)
 {
     const xom_event *event = map_find(xom_events, event_type);
@@ -3586,8 +3574,6 @@ string xom_effect_to_name(xom_event_type effect)
     const xom_event *event = map_find(xom_events, effect);
     return event ? event->name : "bugginess";
 }
-
-// @noloc section start (test/debug code)
 
 /// Basic sanity checks on xom_events.
 void validate_xom_events()
@@ -3805,5 +3791,4 @@ void debug_xom_effects()
     you.piety    = real_piety;
     you.religion = real_god;
 }
-// @noloc section end (test/debug code)
 #endif // WIZARD
