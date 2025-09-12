@@ -6340,8 +6340,8 @@ Was fallen lassen?
 (_ for help)
 (_ für Hilfe)
 %%%%
-" (<w>?</w> for menu, <w>Esc</w> to quit)"
-" (<w>?</w> für Menü, <w>Esc</w> zum Beenden)"
+%s (<w>?</w> for menu, <w>Esc</w> to quit)
+%s (<w>?</w> für Menü, <w>Esc</w> zum Beenden)
 %%%%
 You don't have any such object.
 Du hast kein solches Objekt.

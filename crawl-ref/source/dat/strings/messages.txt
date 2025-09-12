@@ -6340,7 +6340,7 @@ Drop what?
 (_ for help)
 
 %%%%
-" (<w>?</w> for menu, <w>Esc</w> to quit)"
+%s (<w>?</w> for menu, <w>Esc</w> to quit)
 
 %%%%
 You don't have any such object.

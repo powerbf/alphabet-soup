@@ -1262,7 +1262,7 @@ static unsigned char _invent_select(const char *title = nullptr,
 
     // Don't override title if there are no items.
     if (title && menu.item_count())
-        menu.set_title(title);
+        menu.set_title(localise(title));
 
     menu.show(true);
 
@@ -1406,9 +1406,9 @@ vector<SelItem> prompt_drop_items(const vector<SelItem> &preselected_items)
 
         if (need_prompt)
         {
-            string prompt = _drop_prompt(false, false);
-            prompt += localise(" (<w>?</w> for menu, <w>Esc</w> to quit)");
-            mpr_nolocalise(MSGCH_PROMPT, prompt);
+            const string prompt = _drop_prompt(false, false);
+            string fmt = localise("%s (<w>?</w> for menu, <w>Esc</w> to quit)");
+            mprf_nolocalise(MSGCH_PROMPT, fmt.c_str(), prompt.c_str());
         }
 
         if (need_getch)
@@ -1947,9 +1947,6 @@ int prompt_invent_item(const char *prompt,
             keyin = '*';
     }
 
-    // localise prompt
-    string loc_prompt = localise(prompt ? prompt : "");
-
     while (true)
     {
         if (need_redraw && !crawl_state.doing_prev_cmd_again)
@@ -1960,9 +1957,8 @@ int prompt_invent_item(const char *prompt,
 
         if (need_prompt)
         {
-            string msg = loc_prompt;
-            msg += localise(" (<w>?</w> for menu, <w>Esc</w> to quit)");
-            mpr_nolocalise(MSGCH_PROMPT, msg);
+            mprf(MSGCH_PROMPT, "%s (<w>?</w> for menu, <w>Esc</w> to quit)",
+                 prompt);
         }
         else
             flush_prev_message();
@@ -1996,8 +1992,7 @@ int prompt_invent_item(const char *prompt,
 
             while (true)
             {
-                keyin = _invent_select(loc_prompt.c_str(), mtype,
-                                       current_type_expected, -1,
+                keyin = _invent_select(prompt, mtype, current_type_expected, -1,
                                        mflags, nullptr, &items);
 
                 if (allow_list_known && keyin == '\\')
