@@ -1931,6 +1931,18 @@ static string _localise_book_title(const string& context, const string& value)
 static string _localise_location(const string& context, const string& value)
 {
     // make pattern static so that it only needs to be compiled once
+    static const text_pattern simple_loc_pat("^[a-zA-Z]+:[0-9]+$", true);
+    if (simple_loc_pat.matches(value))
+    {
+        vector<string> tokens = split_string(":", value, false, false, 1);
+        if (tokens.size() != 2)
+            return "";
+
+        string result = cxlate("branch_abbrev", tokens[0], true);
+        result += ":" + tokens[1];
+        return result;
+    }
+
     static const text_pattern on_pat("^on level [0-9]+", true);
     if (on_pat.matches(value))
     {
@@ -2235,6 +2247,12 @@ static string _localise_string(const string context, const string& value)
         return _add_annotations(result, annotations);
     }
 
+    // handle strings like "on level 3 of the dungeon"
+    // must be done before list because can contain the word "and"
+    result = _localise_location(context, value);
+    if (!result.empty())
+        return result;
+
     // try splitting on colon
     size_t colon_pos;
     if ((colon_pos = value.find(':')) != string::npos)
@@ -2254,12 +2272,6 @@ static string _localise_string(const string context, const string& value)
             pos--;
         }
     }
-
-    // handle strings like "on level 3 of the dungeon"
-    // must be done before list because can contain the word "and"
-    result = _localise_location(context, value);
-    if (!result.empty())
-        return result;
 
     // try as book title
     // must be done before _localise_list because can contain comma

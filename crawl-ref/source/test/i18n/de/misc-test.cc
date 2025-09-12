@@ -407,6 +407,9 @@ int main()
     msg = localise("Depths:2");
     show_result(msg, "Tiefen:2");
 
+    msg = localise("D:2");
+    show_result(msg, "K:2");
+
     msg = localise("The portal disappears!");
     show_result(msg, "Das Portal verschwindet!");
 
