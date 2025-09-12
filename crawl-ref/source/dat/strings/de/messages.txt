@@ -1856,12 +1856,6 @@ Das Feuer entzündet sich!
 The rain has left you waist-deep in water!
 Der Regen hat dich hüfthoch im Wasser gelassen!
 %%%%
-You steam in the rain.
-Du dampfst im Regen.
-%%%%
-You sizzle in the rain.
-Du brutzelst im Regen.
-%%%%
 %s steams in the rain.
 %s dampft im Regen.
 %%%%

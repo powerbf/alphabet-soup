@@ -1079,14 +1079,9 @@ static bool _actor_apply_cloud_side_effects(actor *act,
     case CLOUD_STORM:
         if (act->is_fiery() && final_damage > 0)
         {
-            bool silence = silenced(act->pos());
-            if (player)
+            if (you.can_see(*act))
             {
-                mpr(silence ? "You steam in the rain."
-                            : "You sizzle in the rain.");
-            }
-            else if (you.can_see(*act))
-            {
+                bool silence = silenced(act->pos());
                 mprf(silence ? "%s steams in the rain."
                              : "%s sizzles in the rain.",
                      act->name(DESC_THE).c_str());
