@@ -2281,6 +2281,23 @@ def post_process_feature_data_h(strings):
 
     return output
 
+def post_process_invent_cc(strings):
+    result = []
+    for string in strings:
+        if string.startswith('# section:'):
+            # new section starts
+            section = string.replace('# section:', '').strip()
+        elif string.startswith('#'):
+            string = string
+        elif section == '_operation_verb':
+            string = 'Really ' + string + ' %s?'
+        elif section == 'check_warning_inscriptions':
+            if string in ['Really ', ' %s?']:
+                continue
+        result.append(string)
+
+    return result
+
 # you'd think from the filename that everything in here would be a name, but you'd be wrong
 def post_process_item_name_cc(strings):
     result = []
@@ -2639,6 +2656,8 @@ def post_process(filename, strings):
         strings = post_process_art_func_h(strings)
     elif filename == 'feature-data.h':
         strings = post_process_feature_data_h(strings)
+    elif filename == 'invent.cc':
+        strings = post_process_invent_cc(strings)
     elif filename == 'item-name.cc':
         strings = post_process_item_name_cc(strings)
     elif filename == 'item-prop.cc':

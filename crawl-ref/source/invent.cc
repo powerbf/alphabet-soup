@@ -1635,27 +1635,27 @@ bool check_old_item_warning(const item_def& item,
     return yesno(prompt.c_str(), false, 'n');
 }
 
-static string _confirm_operation_prompt(operation_types oper)
+static string _operation_verb(operation_types oper)
 {
     switch (oper)
     {
-    case OPER_WIELD:          return "Really wield %s?";
-    case OPER_QUAFF:          return "Really quaff %s?";
-    case OPER_DROP:           return "Really drop %s?";
-    case OPER_TAKEOFF:        return "Really take off %s?";
-    case OPER_WEAR:           return "Really wear %s?";
-    case OPER_PUTON:          return "Really put on %s?";
-    case OPER_REMOVE:         return "Really remove %s?";
-    case OPER_READ:           return "Really read %s?";
-    case OPER_MEMORISE:       return "Really memorise from %s?";
-    case OPER_ZAP:            return "Really zap %s?";
-    case OPER_FIRE:           return "Really fire %s?";
-    case OPER_EVOKE:          return "Really evoke %s?";
-    case OPER_DESTROY:        return "Really destroy %s?";
-    case OPER_QUIVER:         return "Really quiver %s?";
+    case OPER_WIELD:          return "wield";
+    case OPER_QUAFF:          return "quaff";
+    case OPER_DROP:           return "drop";
+    case OPER_TAKEOFF:        return "take off";
+    case OPER_WEAR:           return "wear";
+    case OPER_PUTON:          return "put on";
+    case OPER_REMOVE:         return "remove";
+    case OPER_READ:           return "read";
+    case OPER_MEMORISE:       return "memorise from";
+    case OPER_ZAP:            return "zap";
+    case OPER_FIRE:           return "fire";
+    case OPER_EVOKE:          return "evoke";
+    case OPER_DESTROY:        return "destroy";
+    case OPER_QUIVER:         return "quiver";
     case OPER_ANY:
     default:
-        return "Really choose %s?";
+        return "choose";
     }
 }
 
@@ -1856,7 +1856,7 @@ bool check_warning_inscriptions(const item_def& item,
         }
 
         // XXX: duplicates a check in delay.cc:_finish_delay()
-        string prompt = _confirm_operation_prompt(oper);
+        string prompt = "Really " + _operation_verb(oper) + " %s?";
         string item_name = (in_inventory(item) ? item.name(DESC_INVENTORY)
                                                : item.name(DESC_A));
         prompt = localise(prompt, item_name);
