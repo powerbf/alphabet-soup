@@ -327,6 +327,18 @@ static string _get_seen_branches(bool display)
     return disp;
 }
 
+/**
+ * Get localised branch abbrev
+ */
+static string _branch_abbrev_local(branch_type br)
+{
+    // We have to disambiguate abbreviation from short name because sometimes
+    // they are the same in English, but may not be in the target language
+    string result = localise_contextual("branch_abbrev", branches[br].abbrevname);
+    // guard against translator making the abbreviation too long
+    return chop_string(result, 8, false);
+}
+
 static string _get_unseen_branches()
 {
     int num_printed_branches = 0;
@@ -358,11 +370,11 @@ static string _get_unseen_branches()
             lid = find_deepest_explored(lid);
             if (lid.depth >= it->mindepth)
             {
-                string desc = branch_abbrev_local(it->id);
+                string desc = _branch_abbrev_local(it->id);
                 desc = chop_string(desc, 8, true, true);
 
                 desc += ": ";
-                desc += branch_abbrev_local(parent);
+                desc += _branch_abbrev_local(parent);
                 desc += ":";
                 desc += to_string(it->mindepth);
 
