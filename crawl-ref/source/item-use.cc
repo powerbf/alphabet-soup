@@ -2375,7 +2375,8 @@ void drink(item_def* potion)
     }
 
     bool penance = god_hates_item(*potion);
-    string prompt = localise("Really quaff %s?", potion->name(DESC_THE));
+    string name = article_the(potion->name(DESC_DBNAME)); // singular
+    string prompt = localise("Really quaff %s?", name);
     if (penance)
         prompt += localise(" This action would place you under penance!");
     if (alreadyknown && (is_dangerous_item(*potion, true) || penance)
