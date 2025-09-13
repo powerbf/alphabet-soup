@@ -3290,7 +3290,6 @@ string feature_description_at(const coord_def& where, bool covering,
         else
             desc += adj;
 
-        // @noloc section start (adjectives handled as single words)
         if (door_desc_veto.empty() || door_desc_veto != "veto")
         {
             if (grid == DNGN_OPEN_DOOR)
@@ -3310,7 +3309,6 @@ string feature_description_at(const coord_def& where, bool covering,
             else
                 desc += "closed ";
         }
-        // @noloc section end
 
         desc += door_desc_prefix;
 

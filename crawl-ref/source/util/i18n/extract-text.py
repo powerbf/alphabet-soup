@@ -2112,7 +2112,7 @@ def remove_unnecessary_section_markers(strings):
 # separate adjectives from noun
 # adjectives will have space appended
 # noun will be last and have definite article
-def separate_adjectives(string):
+def separate_adjectives_and_noun(string):
     words = string.split()
     for i in range(len(words)):
         if i != len(words) - 1:
@@ -2120,6 +2120,13 @@ def separate_adjectives(string):
         else:
             words[i] = article_the(words[i])
     return words
+
+def separate_adjectives(string):
+    results = []
+    words = string.split(' ')
+    for word in words:
+        results.append(word + ' ')
+    return results
 
 def is_unique_monster(string):
     # non-uniques with uppercase letters in them
@@ -2245,6 +2252,21 @@ def post_process_art_func_h(strings):
 
     return result
 
+def post_process_directn_cc(strings):
+    result = []
+    for string in strings:
+        if string.startswith('# section:'):
+            # new section starts
+            section = string.replace('# section:', '').strip()
+        elif string.startswith('#'):
+            string = string
+        elif section == 'feature_description_at' and string.endswith(' '):
+            result.extend(separate_adjectives(string))
+            continue
+        result.append(string)
+
+    return result
+
 def post_process_feature_data_h(strings):
     output = []
     adjectives = []
@@ -2253,7 +2275,7 @@ def post_process_feature_data_h(strings):
             output.append(string)
         elif string.endswith(' door') or string.endswith(' gate'):
             # we handle door adjectives as separate strings
-            words = separate_adjectives(string)
+            words = separate_adjectives_and_noun(string)
             for i in range(len(words)):
                 if i == len(words) - 1:
                     output.append(words[i]);
@@ -2654,6 +2676,8 @@ def post_process(filename, strings):
     canonicalised = True
     if filename == 'art-func.h':
         strings = post_process_art_func_h(strings)
+    elif filename == 'directn.cc':
+        strings = post_process_directn_cc(strings)
     elif filename == 'feature-data.h':
         strings = post_process_feature_data_h(strings)
     elif filename == 'invent.cc':
@@ -2699,7 +2723,7 @@ def post_process(filename, strings):
                 strings.append(string + "er")
             elif string == "runed door":
                 # should be covered by feature-data.h, but just in case...
-                words = separate_adjectives(string)
+                words = separate_adjectives_and_noun(string)
                 strings.extend(words)
             elif string.startswith("shaped "):
                 # separate "shaped" out as an adjective

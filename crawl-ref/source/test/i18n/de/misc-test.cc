@@ -77,6 +77,9 @@ int main()
     msg = localise("large runed gate");
     show_result(msg, "großes runenverziertes Tor");
 
+    msg = localise("a sealed translucent door");
+    show_result(msg, "eine versiegelte durchscheinende Tür");
+
     msg = localise("the large closed door, spattered with blood");
     show_result(msg, "die große geschlossene Tür, mit Blut bespritzt");
 
