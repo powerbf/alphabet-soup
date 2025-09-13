@@ -1537,9 +1537,6 @@ def process_cplusplus_file(filename):
     lines = insert_section_markers(filename, lines)
     lines = get_relevant_lines(filename, lines)
 
-    #if filename == 'item-name.cc':
-    #    dump_lines('extract-text.1.dump', lines)
-
     section = ''
     last_section = ''
     for line in lines:
@@ -1904,24 +1901,6 @@ def process_cplusplus_file(filename):
                 elif section == '_hints_target_mode':
                     # literal commands (and % placeholder)
                     continue
-            elif filename == 'item-name.cc':
-                if section == 'missile_brand_name':
-                    if 'MBN_NAME' in line:
-                        # first string is long name, second is terse
-                        if not line.endswith('"' + string + '";'):
-                            # used as adjective on darts
-                            string += ' dart'
-                    elif 'MBN_TERSE' in line:
-                        # first string is terse name, second is long name
-                        if line.endswith('"' + string + '";'):
-                            # used as suffix
-                            string = ' of ' + string
-                    else:
-                        # string acts as both long and terse name
-                        if string == 'silver':
-                            strings.append(string + ' ')
-                        else:
-                            strings.append(' of ' + string)
             elif filename == 'melee-attack.cc':
                 if section.endswith('::set_attack_verb'):
                     # player-only attack verbs.
@@ -2369,9 +2348,26 @@ def post_process_item_name_cc(strings):
                 result.append(' (' + string + ' blade hand)');
                 continue
         elif section == 'missile_brand_name':
-            if string.endswith(' dart'):
-                extras2.append('%d ' + pluralise(string))
-                string = 'the ' + string
+            # these have a long form and a terse form
+            # the long form is used either as an adjective or a suffix
+            # the terse form is used as an annotation
+            if string == 'poisoned' or string.endswith('-tipped'):
+                # adjective used only on darts - expand all possibilities
+                result.append('the ' + string + ' dart')
+                result.append('%d ' + string + ' darts')
+            elif string == 'dispersal' or string.endswith('ing') or string.endswith('ion'):
+                # used as suffix
+                result.append(' of ' + string)
+            else:
+                # terse form (used as annotation)
+                result.append(string)
+                if string == 'silver':
+                    # is also the long form - used as adjective
+                    result.append(string + ' ')
+                elif string == 'chaos':
+                    # is also the long form - used as suffix
+                    result.append(' of ' + string)
+            continue
         elif section == 'weapon_brands_terse':
             if string == 'confuse':
                 # not a real weapon brand - used on hands for confusing touch
