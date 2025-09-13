@@ -1887,9 +1887,6 @@ def process_cplusplus_file(filename):
                 elif section == "_abil_type_vuln_core":
                     # will be joined to string from _ability_type_vulnerabilities before translation
                     string = ", which are affected by " + string
-            elif filename == 'directn.cc' and section == "_base_feature_desc":
-                    IGNORE_STRINGS.append(string)
-                    string = article_the(string)
             elif filename == 'god-wrath.cc':
                 # god wratch names are mostly used only in notes.
                 # the exception is the Wu Jian one
@@ -2260,6 +2257,9 @@ def post_process_directn_cc(strings):
             section = string.replace('# section:', '').strip()
         elif string.startswith('#'):
             string = string
+        elif section == "_base_feature_desc":
+            IGNORE_STRINGS.append(string)
+            string = article_the(string)
         elif section == 'feature_description_at' and string.endswith(' '):
             result.extend(separate_adjectives(string))
             continue
