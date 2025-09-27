@@ -53,9 +53,9 @@ Hinfort
 
 Hau ab
 
-Nach Hause kriechen
+Kriech nach Hause
 
-Absteige
+Steig ab
 
 Entfliehe
 
@@ -71,7 +71,7 @@ Gib auf
 
 Geh und kehre nicht zurück
 
-Lass hier
+Verlasse diesen Ort
 
 Raus, raus
 
@@ -89,13 +89,13 @@ Husche fort
 
 Husch, husch nach Hause
 
-Schlittere fort
+Schlittere hinfort
 
-Schlittere hin
+Zieh Leine
 
 Schlittere nach Hause
 
-Nimm dein Gesicht weg
+Lass dich hier nicht mehr blicken
 
 Gib Fersengeld
 %%%%
@@ -106,11 +106,11 @@ Gib die Hoffnung auf
 
 Akzeptiere dein Scheitern
 
-Akzeptiere deinen Sturz
+Akzeptiere deinen Untergang
 
 Akzeptiere dein Verhängnis
 
-Steh Niederlage ein
+Gesteh deine Niederlage ein
 
 Flehe um Gnade
 
@@ -120,9 +120,9 @@ Verzweifle
 
 Gib dich der Verzweiflung hin
 
-Verzichte auf dich selbst
+Verleugne dich selbst
 
-Umarme Unterwerfung
+Begrüße deine Unterwerfung
 
 Nimm deine Hingabe an
 
@@ -130,13 +130,13 @@ Nimm dein Schicksal an
 
 Nimm dein Scheitern an
 
-Nimm deinen Sturz an
+Nimm deinen Untergang an
 
 Stell dich deiner Fugue
 
 Stell dich deinem Requiem
 
-Flunder
+Strauchel
 
 Gib nach
 
@@ -144,11 +144,11 @@ Gib auf
 
 Knie
 
-Wachtel
+Verzage
+
+Hör auf
 
 Nimm deinen Hut
-
-Überlasse
 
 Ergib dich
 
@@ -160,28 +160,36 @@ Gib die Hoffnung auf
 
 Bereue
 
-Schmeck Niederlage
+Schmecke deine Niederlage
 %%%%
-solange du kannst
+solange du noch kannst
 
-wenn du Verstand hast
+falls du Verstand hast
 
-solange dein Glück hält
+solange dein Glück anhält
 
-bevor das Verhängnis dich erwischt
+bevor dein Verhängnis dich einholt
 
-damit der Tod dich nicht findet
+damit dich der Tod nicht findet
 
-solange du gesund bist
+solange du unversehrt bist
 
 # screen vs. this for undead?
-solange du Leben hast
+solange du noch Leben hast
 %%%%
 feast_or_devour
 
 schmausen
 
 verschlingen
+
+verspeisen
+
+verzehren
+
+vernaschen
+
+fressen
 %%%%
 body_or_spiritual_part
 
@@ -211,7 +219,7 @@ Deine Kehle
 
 Dein Hals
 
-Deine Därme
+Deine Gedärme
 
 Dein Schädel
 
@@ -271,7 +279,7 @@ deine Kehle
 
 deinen Hals
 
-deine Därme
+deine Gedärme
 
 deinen Schädel
 
@@ -287,9 +295,9 @@ dein inneres Licht
 
 deine Hoffnung
 
-deinen Glaube
+deinen Glauben
 
-deinen Wille
+deinen Willen
 
 dein Herz
 
@@ -305,7 +313,9 @@ deine Vitalität
 %%%%
 meal
 
-Essen
+Mahl
+
+Speise
 
 Frühstück
 
@@ -315,7 +325,11 @@ Abendessen
 
 Abendbrot
 
+Zwischenspeise
+
 Gastmahl
+
+Festmahl
 
 Futter
 
@@ -354,7 +368,7 @@ verwirrt
 
 unzüchtig
 
-beslubbernd
+sabbernd
 
 stiefellos
 
@@ -368,15 +382,15 @@ hahnebüchen
 
 geklöppelt
 
-feig
+feige
 
 gurrig
 
-verunreinigt
+geschändet
 
-feierlich
+feucht
 
-verleumdet
+heuchlerisch
 
 dröhnend
 
@@ -394,9 +408,9 @@ kraftlos
 
 schwach
 
-abspeisen
+abgespeist
 
-foppen
+gefoppt
 
 tölpelhaft
 
@@ -406,13 +420,13 @@ schaumig
 
 überschwänglich
 
-schillernd
+grinsend
 
 ziegenhaft
 
-gorbellig
+dickbäuchig
 
-grimmig-vergoldet
+schmuddelig
 
 grässlich
 
@@ -438,13 +452,13 @@ unausstehlich
 
 abscheulich
 
-mickrig
+fettwanstig
 
 spitz
 
-Pipi machend
+inkontinent
 
-sabbernd
+albern
 
 kotzend
 
@@ -452,7 +466,7 @@ mickrig
 
 anbiedernd
 
-picksniffig
+scheinheilig
 
 pflaumengerupft
 
@@ -464,15 +478,15 @@ zitternd
 
 bebend
 
-widerlich
+ranzig
 
 taumelnd-reif
 
 grobschlächtig
 
-simulierend
+einfältig
 
-skyhacking
+himmelhackend
 
 schwammig
 
@@ -482,11 +496,11 @@ torkelnd
 
 verdreht
 
-salbungsvoll
+schmierig
 
 aus den Angeln gehoben
 
-Maulkorblos
+maulkorblos
 
 eitel
 
@@ -494,7 +508,7 @@ vergiftet
 
 schurkisch
 
-verdreht
+verzerrt
 
 eigensinnig
 
@@ -509,13 +523,13 @@ hefig
 ##########################################################
 insult elf adj1
 
-schwach
+schwächlich
 
 kränklich
 
 gebrechlich
 
-zart
+delikat
 
 zerbrechlich
 
@@ -525,9 +539,9 @@ spröde
 
 zart
 
-mondän
+verrückt
 
-gemalt
+geschminkt
 
 feingliedrig
 
@@ -560,7 +574,7 @@ schmutzig
 
 rasend
 
-pikayune
+nichtig
 
 weinerlich
 
@@ -607,31 +621,31 @@ krebsartig
 
 verwesend
 
+vermodert
+
+dekompostiert
+
 verfallen
-
-verwesend
-
-verfallend
 
 infektiös
 
-erkrankt
+krank
 
 vergeudet
 
-verrottend
+verrottet
 
 stinkend
 
-verwesend
-
-übel riechend
-
 faulig
 
-gangränös
-
 übelriechend
+
+fötid
+
+nekrotisch
+
+aus dem Mund stinkend
 %%%%
 ###############################################################
 # adjective2, usually longer and consisting of two words
@@ -645,143 +659,145 @@ w:5
 %%%%
 insult general adj2
 
+niedrig geboren
+
 fledermausjagend
 
 rindersinnig
 
 käferköpfig
 
-matschhirnig
+hirnverbrannt
 
-klapperdürr
+streitsüchtig
 
-lehmhirnig
+lehmköpfig
 
-schwachköpfig
+übergriffig
 
 schiefmäulig
 
-düster-verträumt
+trüb verträumt
 
-Graben-geliefert
+grabengeboren
 
-schwindelig-äugig
+verblendet
 
-hundeelend
+hundeherzig
 
-schreckhaft-verriegelt
+vor Angst erstarrt
 
-erdverschlingend
+irritierend
 
 elfenhäutig
 
 fettnasig
 
-fen-gesaugt
+sumpfbewohnend
 
-klappsmäulig
+schlabberlippig
 
 flachköpfig
 
 fliegengebissen
 
-Uhr-schnappend
+kleinkrimineller
 
-töricht-gefallen
+der Torheit verfallen
 
-töricht-geboren
+dumm geboren
 
 dummköpfig
 
-vollmundig
+verfressen
 
-Bauch-greifend
+bauchschmerzenbringend
 
-halb-gesichtig
+halbgesichtig
 
-voreilig-witzig
+vorwitzig
 
 heckengeboren
 
-Höllenhassend
+höllenverhasst
 
-faulköpfig
+abergläubig
 
-schlecht erzogen
+unruhestiftend
 
 schlecht erzogen
 
 koboldküssend
 
-knorrig-köpfig
+knotenköpfig
 
 willensschwach
 
-milchlebendig
+hasenfüßig
 
 schurkisch
 
-mondbeschienen
+mondverwirrt
 
-narrenhirnig
+verstreut
 
-bescheuert
+maulwurfsartig
 
 tratschend
 
 nasebohrend
 
-nuss-süchtig
+sesselpupsend
 
 zwiebeläugig
 
-taubeneihaltig
+bescheuert
 
 spitzbübisch
 
 grobschlächtig
 
-rumpfgefüttert
+verhätschelt
 
-ruttig
+lüstern
 
 frech
 
-scherbenbehaftet
+mistgeboren
 
 schafbeißend
 
 sauengesäugt
 
-spleenig
+übellaunig
 
-spornstachlig
+wundgeplagt
 
-barbäuchig
+hängebäuchig
 
-spätgängig
+lahmarschig
 
-kitzelhirnig
+besoffen
 
-tipptopp-fröhlich
+frivol
 
-krötengepunktet
+giftkrötig
 
 zehennagelkauend
 
-zähnefletschend
+furzend
 
-zinnköpfig
+albern
 
-Igel-geschnäuzt
+iglschnäuzig
 
 wettergegerbt
 
-Pipi-spritzend
+großmäulig
 
 käfersinnig
 
-wibbel-schluckend
+fehlerhaft
 %%%%
 ##########################################################
 # adjective2, Dwarf special
@@ -794,19 +810,15 @@ sandschluckend
 
 dreckschleudernd
 
-steinschlagend
+steingebrochen
 
 goldgeil
 
-stöbernd
+kieskriechend
 
-kiesenkriecherisch
+bestechlich
 
-goldstörend
-
-kohl-knödelnd
-
-Einhorn-verwirrend
+kohlknuddlend
 
 schenkelbeißend
 
@@ -819,19 +831,19 @@ insult felid adj2
 
 wurmstichig
 
-Räude-bedeckt
+räudig
 
-stinkäugig
+triefäugig
 
-todesbetrügerisch
+den Tod betrügend
 
 schlitzäugig
 
-knorpelknabbernd
+knorpelkauend
 
-Flecken-jagend
+punktejagend
 
-rissigohrig
+wundarschig
 
 tastentretend
 
@@ -846,13 +858,13 @@ hohlbeinig
 
 federhirnig
 
-schnabelhirnig
+schnabeldumm
 
 hennengepickt
 
 leichtgewichtig
 
-gebrechlich gliedrig
+gebrechlich
 
 vogelhirnig
 
@@ -860,7 +872,7 @@ federleicht
 
 taubenfüßig
 
-krähenschnäuzig
+krähenschnablig
 
 elsteräugig
 
@@ -889,11 +901,11 @@ entzündbar
 schwelend
 
 # pertaining to bandages
-in Folie eingeschweißt
+folienumwickelt
 
 mit Kreppband umwickelt
 
-mit Klebeband verklebt
+von Klebeband zusammengehalten
 
 ausgefranst
 
@@ -901,11 +913,11 @@ handgewickelt
 
 straff gewickelt
 
-hochgespannt
+angespannt
 
-geradlinig
+prüde
 
-grabengeraubt
+aus dem Grab geraubt
 
 w:30
 @insult undead adj2@
@@ -915,7 +927,7 @@ w:30
 ##########################################################
 insult vampire adj2
 
-Fledermaus-flatternd
+flatternd
 
 blutsaugend
 
@@ -925,7 +937,7 @@ blass
 
 fahl
 
-rahmgesichtig
+kreidegesichtig
 
 bleichgesichtig
 
@@ -959,13 +971,13 @@ insult general
 
 @insult_adjective1@es @insult_adjective2@es Gepäck
 
-@insult_adjective1@er @insult_adjective2@er Bandersnitch
+@insult_adjective1@er @insult_adjective2@er Schnatterrind
 
 @insult_adjective1@er @insult_adjective2@er Seepferdchen
 
 @insult_adjective1@er @insult_adjective2@er Bettler
 
-@insult_adjective1@er @insult_adjective2@er Blabberskit
+@insult_adjective1@er @insult_adjective2@er Plaudertasche
 
 @insult_adjective1@e @insult_adjective2@e Blase
 
@@ -979,31 +991,31 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Räuber
 
-@insult_adjective1@er @insult_adjective2@er Bugbär
+@insult_adjective1@er @insult_adjective2@er Grottenschrat
 
 @insult_adjective1@er @insult_adjective2@er Penner
 
-@insult_adjective1@er @insult_adjective2@er Bussard-Köder
+@insult_adjective1@er @insult_adjective2@er Bussardköder
 
 @insult_adjective1@e @insult_adjective2@e Krebsblüte
 
-@insult_adjective1@es @insult_adjective2@es Klack-Gericht
+@insult_adjective1@es @insult_adjective2@es Klacksbecher
 
 @insult_adjective1@e @insult_adjective2@e Muschel
 
 @insult_adjective1@e @insult_adjective2@e Klotzbirne
 
-@insult_adjective1@er @insult_adjective2@er Hahn-Lorel
-
 @insult_adjective1@er @insult_adjective2@er Hahnenkamm
 
-@insult_adjective1@er @insult_adjective2@er Steert
+@insult_adjective1@er @insult_adjective2@er Dummkopf
 
-@insult_adjective1@es @insult_adjective2@es Krabben-Lanthorn
+@insult_adjective1@er @insult_adjective2@er Schamkapsel
 
-@insult_adjective1@es @insult_adjective2@es Kreuz-Patch
+@insult_adjective1@es @insult_adjective2@es Krabbenlaterne
 
-@insult_adjective1@er @insult_adjective2@er Dandiprat
+@insult_adjective1@es @insult_adjective2@es Kreuzflicken
+
+@insult_adjective1@er @insult_adjective2@er Grünschnabel
 
 @insult_adjective1@er @insult_adjective2@er Hohlkopf
 
@@ -1013,7 +1025,7 @@ insult general
 
 @insult_adjective1@e @insult_adjective2@e Kla­bus­ter­bee­re
 
-@insult_adjective1@er @insult_adjective2@er Trottel
+@insult_adjective1@er @insult_adjective2@er Dieb
 
 @insult_adjective1@e @insult_adjective2@e Fledermaus
 
@@ -1021,53 +1033,53 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Schmarotzer
 
-@insult_adjective1@e @insult_adjective2@e Flickschusterei
+@insult_adjective1@e @insult_adjective2@e Flickschuster
 
-@insult_adjective1@er @insult_adjective2@er Flirt-Kiemen
+@insult_adjective1@er @insult_adjective2@er Flittchen
 
 @insult_adjective1@er @insult_adjective2@er Fußlecker
 
-@insult_adjective1@er @insult_adjective2@er Frater
+@insult_adjective1@er @insult_adjective2@er Bruder
 
 @insult_adjective1@er @insult_adjective2@er Fustilier
 
-@insult_adjective1@es @insult_adjective2@es Giglet
+@insult_adjective1@es @insult_adjective2@es Gigolo
 
-@insult_adjective1@er @insult_adjective2@er Gnoll-Schwanz
+@insult_adjective1@er @insult_adjective2@er Gnollschwanz
 
 @insult_adjective1@er @insult_adjective2@er Gonus
 
 @insult_adjective1@er @insult_adjective2@er Gründling
 
-@insult_adjective1@e @insult_adjective2@e Dachrinnenschnepfe
+@insult_adjective1@e @insult_adjective2@e Gossenschnepfe
 
-@insult_adjective1@er @insult_adjective2@er Haggard
+@insult_adjective1@er @insult_adjective2@er Hungerknochen
 
 @insult_adjective1@e @insult_adjective2@e Harpyie
 
 @insult_adjective1@es @insult_adjective2@es Heckenschwein
 
-@insult_adjective1@er @insult_adjective2@er Mugger-Mugger
+@insult_adjective1@er @insult_adjective2@er Geheimniskrämer
 
 @insult_adjective1@er @insult_adjective2@er Scherzbold
 
 @insult_adjective1@er @insult_adjective2@er Schafskopf
 
-@insult_adjective1@er @insult_adjective2@er Unzüchtiger
+@insult_adjective1@er @insult_adjective2@er Schwerenöter
 
 @insult_adjective1@er @insult_adjective2@er Flegel
 
-@insult_adjective1@er @insult_adjective2@er Maden-Kuchen
+@insult_adjective1@er @insult_adjective2@er Madenkuchen
 
 @insult_adjective1@er @insult_adjective2@er Malzwurm
 
 @insult_adjective1@er @insult_adjective2@er Mammut
 
-@insult_adjective1@e @insult_adjective2@e Masern
+@insult_adjective1@e @insult_adjective2@e Bandwurm
 
 @insult_adjective1@er @insult_adjective2@er Bettelmönch
 
-@insult_adjective1@er @insult_adjective2@er Bitterfisch
+@insult_adjective1@er @insult_adjective2@er Fischdampf
 
 @insult_adjective1@er @insult_adjective2@er Mischmasch
 
@@ -1075,7 +1087,7 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Nerd
 
-@insult_adjective1@es @insult_adjective2@es Nachtöl
+@insult_adjective1@es @insult_adjective2@es Scheißhaufen
 
 @insult_adjective1@er @insult_adjective2@er Niemand
 
@@ -1083,25 +1095,25 @@ insult general
 
 @insult_adjective1@es @insult_adjective2@es Taubenei
 
-@insult_adjective1@es @insult_adjective2@es Pignut
+@insult_adjective1@es @insult_adjective2@es Viehfutter
 
 @insult_adjective1@es @insult_adjective2@es Pickelchen
 
 @insult_adjective1@e @insult_adjective2@e Pissnelke
 
-@insult_adjective1@er @insult_adjective2@er Topf-Faker
+@insult_adjective1@er @insult_adjective2@er Topffälscher
 
 @insult_adjective1@er @insult_adjective2@er Stänkerer der Stände
 
 @insult_adjective1@e @insult_adjective2@e Pustel
 
-@insult_adjective1@er @insult_adjective2@er Puttock
+@insult_adjective1@er @insult_adjective2@er Ausbeuter
 
-@insult_adjective1@er @insult_adjective2@er Pumpion
+@insult_adjective1@er @insult_adjective2@er Kürbis
 
-@insult_adjective1@es @insult_adjective2@es Rattenschwänzchen
+@insult_adjective1@es @insult_adjective2@es Rattentöter
 
-@insult_adjective1@er @insult_adjective2@er Verwerflicher
+@insult_adjective1@er @insult_adjective2@er Schurke
 
 @insult_adjective1@er @insult_adjective2@er Aasfresser
 
@@ -1111,21 +1123,21 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Einfaltspinsel
 
-@insult_adjective1@er @insult_adjective2@er Kainsmate
+@insult_adjective1@er @insult_adjective2@er Sportsfreund
 
 @insult_adjective1@er @insult_adjective2@er Schlabberer
 
 @insult_adjective1@er @insult_adjective2@er Schleimpilz
 
-@insult_adjective1@er @insult_adjective2@er Schnapper
+@insult_adjective1@er @insult_adjective2@er Schnabel
 
-@insult_adjective1@er @insult_adjective2@er Schlangenmolch
+@insult_adjective1@er @insult_adjective2@er Schlangenhaut
 
-@insult_adjective1@er @insult_adjective2@er Sozdollager
+@insult_adjective1@er @insult_adjective2@er Doxologe
 
-@insult_adjective1@er @insult_adjective2@er Strumpet
+@insult_adjective1@er @insult_adjective2@er Bordsteinschwalbe
 
-@insult_adjective1@er @insult_adjective2@er Surfacer
+@insult_adjective1@er @insult_adjective2@er Oberflächenbewohner
 
 @insult_adjective1@er @insult_adjective2@er Schwadronierer
 
@@ -1151,13 +1163,13 @@ insult general
 
 @insult_adjective1@es @insult_adjective2@es Molkengesicht
 
-@insult_adjective1@er @insult_adjective2@er Peitschenhieb
+@insult_adjective1@er @insult_adjective2@er Hochstapler
 
 @insult_adjective1@er @insult_adjective2@er Wurmfortsatz
 
 @insult_adjective1@er @insult_adjective2@er Yak-Kötel
 
-@insult_adjective1@es @insult_adjective2@es Zombie-Futter
+@insult_adjective1@es @insult_adjective2@es Zombiefutter
 %%%%
 ##########################################################
 # Small species special
@@ -1170,7 +1182,7 @@ small_food
 
 @insult_adjective1@e @insult_adjective2@e Halbmahlzeit
 
-@insult_adjective1@e @insult_adjective2@e Abendbrot-Einstellung
+@insult_adjective1@e @insult_adjective2@e Abendbrötchen
 
 @insult_adjective1@es @insult_adjective2@es Häppchen
 
@@ -1178,9 +1190,9 @@ small_food
 
 @insult_adjective1@er @insult_adjective2@er Bissen
 
-@insult_adjective1@er @insult_adjective2@er Becher
+@insult_adjective1@er @insult_adjective2@er Krümel
 
-@insult_adjective1@er @insult_adjective2@er Biss-Köder
+@insult_adjective1@er @insult_adjective2@er Bissköder
 
 @insult_adjective1@es @insult_adjective2@es Knabbergebäck
 
@@ -1188,9 +1200,9 @@ small_food
 
 @insult_adjective1@es @insult_adjective2@es Fressen
 
-@insult_adjective1@er @insult_adjective2@er Schluck
+@insult_adjective1@er @insult_adjective2@er Mundvoll
 
-@insult_adjective1@es @insult_adjective2@es halbes Bier
+@insult_adjective1@es @insult_adjective2@es Winzling
 
 @insult_adjective1@er @insult_adjective2@er Leckerbissen
 %%%%
@@ -1205,13 +1217,13 @@ insult felid
 
 @insult_adjective1@es @insult_adjective2@es Ungeziefer
 
-@insult_adjective1@er @insult_adjective2@er Klogänger
+@insult_adjective1@er @insult_adjective2@er Klogurgler
 
-@insult_adjective1@er @insult_adjective2@er Klapsmühlenwärmer
+@insult_adjective1@er @insult_adjective2@er Kopfwärmer
 
-@insult_adjective1@es @insult_adjective2@es Pander-Kindermädchen
+@insult_adjective1@es @insult_adjective2@es Kupplerkindermädchen
 
-@insult_adjective1@es @insult_adjective2@es Flittchen
+@insult_adjective1@es @insult_adjective2@es Faucher
 
 @insult_adjective1@es @insult_adjective2@es Kochfett
 
@@ -1219,13 +1231,13 @@ insult felid
 
 @insult_adjective1@er @insult_adjective2@er Schlingel
 
-@insult_adjective1@er @insult_adjective2@er Fell-Fop
+@insult_adjective1@er @insult_adjective2@er Fellfatzke
 
 @insult_adjective1@er @insult_adjective2@er Zehenkratzer
 
-@insult_adjective1@er @insult_adjective2@er Drecksmantel
+@insult_adjective1@er @insult_adjective2@er Dreckmantel
 
-@insult_adjective1@er @insult_adjective2@er Fresspuppenmacher
+@insult_adjective1@er @insult_adjective2@er Fresssack
 %%%%
 ##########################################################
 # insult, Spriggan special
@@ -1239,27 +1251,27 @@ w:100
 
 @insult_adjective1@es @insult_adjective2@es Winzling
 
-@insult_adjective1@e @insult_adjective2@e Nissette
+@insult_adjective1@e @insult_adjective2@e Nüsschen
 
-@insult_adjective1@er @insult_adjective2@er Setzling
+@insult_adjective1@er @insult_adjective2@er Nullnummer
 
-@insult_adjective1@er @insult_adjective2@er Zauber-Pfusch
+@insult_adjective1@er @insult_adjective2@er Zauberpfusch
 
 @insult_adjective1@er @insult_adjective2@er Schwächling
 
 @insult_adjective1@er @insult_adjective2@er Hänfling
 
-@insult_adjective1@e @insult_adjective2@e Ersatz-Fee
+@insult_adjective1@e @insult_adjective2@e Ersatzfee
 
 @insult_adjective1@er @insult_adjective2@er Knöchelbeißer
 
 @insult_adjective1@er @insult_adjective2@er Stiefelfleck
 
-@insult_adjective1@er @insult_adjective2@er Nano-Nebler
+@insult_adjective1@er @insult_adjective2@er Nano-Drückeberger
 
-@insult_adjective1@er @insult_adjective2@er Schluckspecht
+@insult_adjective1@er @insult_adjective2@er Setzling
 
-@insult_adjective1@es @insult_adjective2@es Schrumpf-Veilchen
+@insult_adjective1@es @insult_adjective2@es Schrumpfveilchen
 
 @insult_adjective1@es @insult_adjective2@es Weichei
 
@@ -1276,9 +1288,9 @@ insult minotaur
 
 @insult_adjective1@e @insult_adjective2@e Rinderbrust
 
-@insult_adjective1@es @insult_adjective2@es Stiergehirn
+@insult_adjective1@es @insult_adjective2@es Ochsenschädel
 
-@insult_adjective1@er @insult_adjective2@er Wiederkäuer
+@insult_adjective1@er @insult_adjective2@er Grasfresser
 
 @insult_adjective1@es @insult_adjective2@es Kälbergesicht
 
@@ -1300,7 +1312,7 @@ insult minotaur
 
 @insult_adjective1@er @insult_adjective2@er Rumpsteak
 
-@insult_adjective1@es @insult_adjective2@es Rind
+@insult_adjective1@es @insult_adjective2@es Wiederkäuer
 
 @insult_adjective1@es @insult_adjective2@es Kalbfleisch
 
@@ -1315,15 +1327,15 @@ insult mummy
 
 @insult_adjective1@er @insult_adjective2@er Toter
 
-@insult_adjective1@er @insult_adjective2@er Kauz
+@insult_adjective1@er @insult_adjective2@er Grufti
 
 @insult_adjective1@er @insult_adjective2@er Leinensack
 
 @insult_adjective1@er @insult_adjective2@er Leinenbeutel
 
-@insult_adjective1@es @insult_adjective2@es Tamtam
+@insult_adjective1@es @insult_adjective2@es Grabling
 
-@insult_adjective1@es @insult_adjective2@es Mumienlein
+@insult_adjective1@es @insult_adjective2@es Mumienchen
 
 @insult_adjective1@es @insult_adjective2@es Leichentuch
 
@@ -1335,7 +1347,7 @@ insult mummy
 
 @insult_adjective1@e @insult_adjective2@e Baumwollreste
 
-@insult_adjective1@es @insult_adjective2@es Einwickelpapier
+@insult_adjective1@es @insult_adjective2@es Geschenkpapier
 
 # susceptibility to fire
 @insult_adjective1@er @insult_adjective2@er Scheiterhaufen
@@ -1349,7 +1361,7 @@ insult ghoul
 
 @insult_adjective1@e @insult_adjective2@e Fleischwunde
 
-@insult_adjective1@e @insult_adjective2@e Laufwunde
+@insult_adjective1@e @insult_adjective2@e offene Wunde
 
 @insult_adjective1@es @insult_adjective2@es Wrack
 
@@ -1359,11 +1371,11 @@ insult ghoul
 
 @insult_adjective1@e @insult_adjective2@e Müllhalde
 
-@insult_adjective1@er @insult_adjective2@er Müll
+@insult_adjective1@er @insult_adjective2@er Abfall
 
 @insult_adjective1@er @insult_adjective2@er Müllhaufen
 
-@insult_adjective1@e @insult_adjective2@e Müllhalde
+@insult_adjective1@e @insult_adjective2@e Mülldeponie
 
 @insult_adjective1@e @insult_adjective2@e wandelnde Leiche
 %%%%
