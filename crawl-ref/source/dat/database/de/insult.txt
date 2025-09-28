@@ -971,13 +971,13 @@ insult general
 
 @insult_adjective1@es @insult_adjective2@es Gepäck
 
-@insult_adjective1@er @insult_adjective2@er Schnatterrind
+@insult_adjective1@es @insult_adjective2@es Schnatterrind
 
-@insult_adjective1@er @insult_adjective2@er Seepferdchen
+@insult_adjective1@es @insult_adjective2@es Seepferdchen
 
 @insult_adjective1@er @insult_adjective2@er Bettler
 
-@insult_adjective1@er @insult_adjective2@er Plaudertasche
+@insult_adjective1@e @insult_adjective2@e Plaudertasche
 
 @insult_adjective1@e @insult_adjective2@e Blase
 
@@ -999,7 +999,7 @@ insult general
 
 @insult_adjective1@e @insult_adjective2@e Krebsblüte
 
-@insult_adjective1@es @insult_adjective2@es Klacksbecher
+@insult_adjective1@er @insult_adjective2@er Klackbecher
 
 @insult_adjective1@e @insult_adjective2@e Muschel
 
@@ -1009,11 +1009,11 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Dummkopf
 
-@insult_adjective1@er @insult_adjective2@er Schamkapsel
+@insult_adjective1@e @insult_adjective2@e Schamkapsel
 
-@insult_adjective1@es @insult_adjective2@es Krabbenlaterne
+@insult_adjective1@e @insult_adjective2@e Krabbenlaterne
 
-@insult_adjective1@es @insult_adjective2@es Kreuzflicken
+@insult_adjective1@er @insult_adjective2@er Kreuzflicken
 
 @insult_adjective1@er @insult_adjective2@er Grünschnabel
 
@@ -1033,9 +1033,9 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Schmarotzer
 
-@insult_adjective1@e @insult_adjective2@e Flickschuster
+@insult_adjective1@er @insult_adjective2@er Flickschuster
 
-@insult_adjective1@er @insult_adjective2@er Flittchen
+@insult_adjective1@es @insult_adjective2@es Flittchen
 
 @insult_adjective1@er @insult_adjective2@er Fußlecker
 
@@ -1043,7 +1043,7 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Fustilier
 
-@insult_adjective1@es @insult_adjective2@es Gigolo
+@insult_adjective1@er @insult_adjective2@er Gigolo
 
 @insult_adjective1@er @insult_adjective2@er Gnollschwanz
 
@@ -1073,21 +1073,21 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Malzwurm
 
-@insult_adjective1@er @insult_adjective2@er Mammut
+@insult_adjective1@es @insult_adjective2@es Mammut
 
-@insult_adjective1@e @insult_adjective2@e Bandwurm
+@insult_adjective1@er @insult_adjective2@er Bandwurm
 
 @insult_adjective1@er @insult_adjective2@er Bettelmönch
 
 @insult_adjective1@er @insult_adjective2@er Fischdampf
 
-@insult_adjective1@er @insult_adjective2@er Mischmasch
+@insult_adjective1@es @insult_adjective2@es Mischmasch
 
 @insult_adjective1@es @insult_adjective2@es Maultier
 
 @insult_adjective1@er @insult_adjective2@er Nerd
 
-@insult_adjective1@es @insult_adjective2@es Scheißhaufen
+@insult_adjective1@er @insult_adjective2@er Scheißhaufen
 
 @insult_adjective1@er @insult_adjective2@er Niemand
 
@@ -1111,7 +1111,7 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Kürbis
 
-@insult_adjective1@es @insult_adjective2@es Rattentöter
+@insult_adjective1@er @insult_adjective2@er Rattentöter
 
 @insult_adjective1@er @insult_adjective2@er Schurke
 
@@ -1131,11 +1131,11 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Schnabel
 
-@insult_adjective1@er @insult_adjective2@er Schlangenhaut
+@insult_adjective1@e @insult_adjective2@e Schlangenhaut
 
 @insult_adjective1@er @insult_adjective2@er Doxologe
 
-@insult_adjective1@er @insult_adjective2@er Bordsteinschwalbe
+@insult_adjective1@e @insult_adjective2@e Bordsteinschwalbe
 
 @insult_adjective1@er @insult_adjective2@er Oberflächenbewohner
 
@@ -1167,7 +1167,7 @@ insult general
 
 @insult_adjective1@er @insult_adjective2@er Wurmfortsatz
 
-@insult_adjective1@er @insult_adjective2@er Yak-Kötel
+@insult_adjective1@es @insult_adjective2@es Yak-Kötel
 
 @insult_adjective1@es @insult_adjective2@es Zombiefutter
 %%%%
@@ -1182,7 +1182,7 @@ small_food
 
 @insult_adjective1@e @insult_adjective2@e Halbmahlzeit
 
-@insult_adjective1@e @insult_adjective2@e Abendbrötchen
+@insult_adjective1@es @insult_adjective2@es Abendbrötchen
 
 @insult_adjective1@es @insult_adjective2@es Häppchen
 
@@ -1200,9 +1200,9 @@ small_food
 
 @insult_adjective1@es @insult_adjective2@es Fressen
 
-@insult_adjective1@er @insult_adjective2@er Mundvoll
+@insult_adjective1@es @insult_adjective2@es Mundvoll
 
-@insult_adjective1@es @insult_adjective2@es Winzling
+@insult_adjective1@er @insult_adjective2@er Winzling
 
 @insult_adjective1@er @insult_adjective2@er Leckerbissen
 %%%%
@@ -1223,7 +1223,7 @@ insult felid
 
 @insult_adjective1@es @insult_adjective2@es Kupplerkindermädchen
 
-@insult_adjective1@es @insult_adjective2@es Faucher
+@insult_adjective1@er @insult_adjective2@er Faucher
 
 @insult_adjective1@es @insult_adjective2@es Kochfett
 
@@ -1249,11 +1249,11 @@ w:100
 
 @insult_adjective1@er @insult_adjective2@er Rattenreiter
 
-@insult_adjective1@es @insult_adjective2@es Winzling
+@insult_adjective1@er @insult_adjective2@er Winzling
 
-@insult_adjective1@e @insult_adjective2@e Nüsschen
+@insult_adjective1@es @insult_adjective2@es Nüsschen
 
-@insult_adjective1@er @insult_adjective2@er Nullnummer
+@insult_adjective1@e @insult_adjective2@e Nullnummer
 
 @insult_adjective1@er @insult_adjective2@er Zauberpfusch
 
@@ -1261,7 +1261,7 @@ w:100
 
 @insult_adjective1@er @insult_adjective2@er Hänfling
 
-@insult_adjective1@e @insult_adjective2@e Ersatzfee
+@insult_adjective1@e @insult_adjective2@e Möchtegernfee
 
 @insult_adjective1@er @insult_adjective2@er Knöchelbeißer
 
@@ -1288,7 +1288,7 @@ insult minotaur
 
 @insult_adjective1@e @insult_adjective2@e Rinderbrust
 
-@insult_adjective1@es @insult_adjective2@es Ochsenschädel
+@insult_adjective1@er @insult_adjective2@er Ochsenschädel
 
 @insult_adjective1@er @insult_adjective2@er Grasfresser
 
@@ -1296,7 +1296,7 @@ insult minotaur
 
 @insult_adjective1@er @insult_adjective2@er Zweihufer
 
-@insult_adjective1@es @insult_adjective2@es Kalbergehirn
+@insult_adjective1@es @insult_adjective2@es Kälbergehirn
 
 @insult_adjective1@e @insult_adjective2@e Kuh
 
@@ -1310,9 +1310,9 @@ insult minotaur
 
 @insult_adjective1@e @insult_adjective2@e Muhkuh
 
-@insult_adjective1@er @insult_adjective2@er Rumpsteak
+@insult_adjective1@es @insult_adjective2@es Rumpsteak
 
-@insult_adjective1@es @insult_adjective2@es Wiederkäuer
+@insult_adjective1@er @insult_adjective2@er Wiederkäuer
 
 @insult_adjective1@es @insult_adjective2@es Kalbfleisch
 
@@ -1333,7 +1333,7 @@ insult mummy
 
 @insult_adjective1@er @insult_adjective2@er Leinenbeutel
 
-@insult_adjective1@es @insult_adjective2@es Grabling
+@insult_adjective1@er @insult_adjective2@er Grabling
 
 @insult_adjective1@es @insult_adjective2@es Mumienchen
 
@@ -1345,7 +1345,7 @@ insult mummy
 
 @insult_adjective1@es @insult_adjective2@es Mullbündel
 
-@insult_adjective1@e @insult_adjective2@e Baumwollreste
+@insult_adjective1@es @insult_adjective2@es Stück Baumwollreste
 
 @insult_adjective1@es @insult_adjective2@es Geschenkpapier
 
