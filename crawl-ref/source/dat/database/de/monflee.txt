@@ -8,13 +8,13 @@
 dream sheep flee
 
 w:30
-@The_monster@ blökt erschreckt.
+@The_monster@ blökt vor Schreck.
 
-VISUAL:@The_monster@ ist von Panik ergriffen!
+VISUAL:@The_monster@ gerät in Panik!
 
-VISUAL:@The_monster@ dreht sich in Panik um und fliet.
+VISUAL:@The_monster@ weicht in Panik zurück, um zu fliehen.
 
 VISUAL:Ein verängstigtes @monster@ springt weg.
 
-VISUAL:@The_monster@ stürmt weg.
+VISUAL:@The_monster@ stürmt davon.
 %%%%
