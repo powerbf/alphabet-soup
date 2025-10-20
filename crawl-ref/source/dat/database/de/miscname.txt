@@ -9,68 +9,68 @@
 # Used by Summon Horrible Things.
 SHT_int_loss
 
-Dein Geist taumelt, berührt von den Schrecken durch das Portal.
+Dein Verstand taumelt, von den Schrecken durch das Portal berührt.
 
-Du zitterst in deiner sterblichen Hülle, umschmeichelt von dem flüssigen Wahnsinn durch das funkelnde Tor.
+Du zitterst in deiner sterblichen Hülle, vom flüssigen Wahnsinn durch das funkelnde Tor gestreichelt.
 
 # Bal-Sagoth
-Der Beschwörungsritus scheint einen nicht unerheblichen Tribut von eurer geistigen Gesundheit zu fordern.
+Der Beschwörungsritus scheint von deiner geistigen Gesundheit einen nicht unerheblichen Tribut zu fordern.
 
 Du hast eine kurze Vision einer großen schwarzen zyklopischen Stadtlandschaft mit hoch aufragenden stygischen Mauern.
 
-Deine Sicht wird von seltsamen Glyphen verdeckt, die sich krumme Formen zu geben scheinen und ihre Gestalt verändern.
+Deine Sicht wird von seltsamen Glyphen verdeckt, die sich schuppenartig winden zu scheinen und ihre Gestalt verändern.
 
 Du fühlst dich unaufhaltsam von einer namenlosen und unerbittlichen Düsternis verfolgt.
 #-----------
 
-Du windest dich im Todeskampf, während dein Geist von Schrecken heimgesucht wird, die jenseits der menschlichen Vorstellungskraft liegen.
+Du windest dich in Todesqual, während dein Geist von Schrecken heimgesucht wird, die jenseits sterblicher Vorstellungskraft liegen.
 
 Dein Geist wird von erhabenem Wahnsinn verführt, als du durch das Portal ins Jenseits blickst.
 
-Du gackerst wahnsinnig beim Anblick der eldritischen Monstrosität.
+Du gackerst wahnsinnig beim Anblick der unheimlichen Monstrosität.
 
-Du bist vom Wahnsinn ergriffen!
+Du wirst vom Wahnsinn ergriffen!
 
-Der Versuch, die unfassbaren Tiefen der Unendlichkeit zu begreifen, zehrt an deinem Verstand.
+Der Versuch, die unfassbaren Tiefen der Unendlichkeit zu begreifen, fordert einen Tribut von deinem Verstand.
 
-Deine Gedanken werden unausweichlich von einem unaufhörlichen Brummen gequält.
+Deine Gedanken werden unentrinnbar von einem unaufhörlichen Brummen gequält.
 
-Dein Verstand bricht im Wahnsinn zusammen beim Anblick dieser Blasphemie gegen die Schöpfung!
+Beim Anblick dieser Blasphemie gegen die Schöpfung bricht dein Verstand im Wahnsinn zusammen!
 
-Dein Verstand zerbricht kurz, aber du schaffst es gerade noch, dich zusammenzureißen.
+Dein Verstand zerbricht kurz, doch du schaffst es gerade noch, dich zusammenzureißen.
 
-Du spürst, wie dein zarter Halt an der Vernunft zu erodieren beginnt.
+Du spürst, wie dein prekärer Halt an der Vernunft untergraben wird.
 
-Eindringliche Einflüsterungen tiefster Ketzerei dringen unaufhörlich in deine Gedanken ein.
+Penetrantes Geflüster tiefster Ketzerei dringt unaufhörlich in deine Gedanken ein.
 
-Dein Geist schmerzt vor Abscheu beim Anblick der wogenden Schrecken, die ihr angerichtet habt.
+Dein Geist schmerzt vor Abscheu beim Anblick der wogenden Schrecken, die du angerichtet hast.
 
 Nur einen Augenblick lang ist dein Geist vor der gewaltigen Unendlichkeit des Unvorstellbaren entblößt.
 
-Dein Schädel pulsiert und pocht, während Worte, die in einer unaussprechlichen Sprache gesprochen werden, durch deine Psyche driften.
+Dein Schädel pulsiert und pocht während Worte in einer unaussprechlichen Sprache durch deine Psyche driften.
 
 Ein dünnes, monotones Wiehern von außerhalb der Zeit wird in deinen Ohren immer lauter.
 
-Formlose Schrecken verharren am Rande deiner Vision und kommen immer näher.
+Formlose Schrecken verharren am Rande deines Sichtfeldes und kommen immer näher.
 
 Ein unaufhaltsames Gefühl unerbittlicher Finsternis überkommt dich.
 
-Zusammenhängende, vernünftige Gedanken scheinen dich fremd zu sein.
+Zusammenhängende, vernünftige Gedanken scheinen dir fremd zu sein.
 
-Ranken des Wahnsinns sickern und winden sich in die dunkelsten Ritzen deines Geistes.
+Ranken des Wahnsinns bohren und winden sich in die dunkelsten Ritzen deines Geistes.
 
 Du ringst darum, die Natur der unbegreiflichen Kräfte zu begreifen, die am Werk sind.
 
 Alptraumhafte Unholde überfallen deine wachen Gedanken!
 
-Schäumende Schrecken belagern deinen Verstand!
+Brodelnde Schrecken belagern deinen Verstand!
 
 Die Klarheit entgleitet deinem schwachen Griff.
 %%%%
 # How great is the Orb of Zot?
 _great_adj_
 
-phantastische
+fantastische
 
 sagenhafte
 
@@ -88,7 +88,7 @@ Der Schoß dieses Kerkers birgt das @_great_adj_@ Artefakt, die Kugel von Zot.
 
 Wirst du derjenige sein, der die @_great_adj_@ Kugel von Zot aus den Tiefen holt?
 
-Es heißt, dass die Kugel von Zot tief in diesem Kerker existiert.
+Es heißt, die Kugel von Zot existiert tief in diesem Kerker.
 %%%%
 # things that surround us on Halloween
 _halloween_things_
@@ -118,13 +118,13 @@ welcome_spam Halloween
 
 @welcome_spam@ Seid vorsichtig! Heute Abend ist Halloween.
 
-Die Monster hier sind keine großen Fans von Süßem oder Saurem. Wenn sie dir die Kugel von Zot nicht geben wollen, musst du ihn dir nehmen.
+Die Monster hier sind keine großen Fans von Süßem oder Saurem. Wenn sie dir die Kugel von Zot nicht geben wollen, musst du sie dir nehmen.
 
 Ein schrecklicher Fluch hat dich auf die Suche nach der Kugel von Zot geschickt. Was für eine schreckliche Nacht, um einen Fluch zu haben!
 
 Während du auf der Suche nach der Kugel hinabsteigst, scharen sich @_halloween_things_@ um dich. An diesem Ort spukt es!
 
-Du hörst das Gackern einer Hexe und bist plötzlich ins Kerker angekommen. Wenn du die Kugel von Zot nicht findest, verwandelst du dich in @_a_lowly_@!
+Du hörst das Gackern einer Hexe und bist plötzlich im Kerker. Wenn du die Kugel von Zot nicht findest, verwandelst du dich in @_a_lowly_@!
 %%%%
 hell_effect_quiet
 
@@ -132,7 +132,7 @@ hell_effect_quiet
 if you.can_smell() then
     return "Du riechst Schwefel."
 else
-    return "Es regnet Schwefel von oben."
+    return "Schwefel regnet von oben herab."
 end
 }}
 
@@ -144,7 +144,7 @@ Du fühlst eine schreckliche Vorahnung...
 
 Etwas Beängstigendes geschieht.
 
-Du spürst, dass ein uraltes Böses dich beobachtet...
+Du spürst, wie dich ein uraltes Übel beobachtet...
 
 Du fühlst dich plötzlich ganz klein und verletzlich.
 
@@ -154,7 +154,7 @@ Du spürst eine feindliche Präsenz.
 
 "Stirb, Sterblicher!"
 
-"Wir verzeihen denen nicht, die sich an uns vergreifen!"
+"Wir verzeihen nicht denen, die bei uns eindringen!"
 
 "Unbefugte sind hier nicht willkommen!"
 
@@ -162,13 +162,13 @@ Du spürst eine feindliche Präsenz.
 
 "Geh jetzt, bevor es zu spät ist!"
 
-"Wir haben dich jetzt!"
+"Jetzt haben wir dich!"
 %%%%
 hell_effect_noisy
 
 Ein markerschütternder Schrei durchdringt die Luft!
 
-Du hörst Worte, die in einer seltsamen und schrecklichen Sprache gesprochen werden...
+Du hörst, wie Worte in einer seltsamen und schrecklichen Sprache gesprochen werden...
 
 Du hörst ein teuflisches Gelächter!
 %%%%
