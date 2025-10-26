@@ -55,11 +55,7 @@ brüllt
 %%%%
 _yells_
 
-brüllt
-
-jammert
-
-heult
+kreischt
 
 schreit
 %%%%
@@ -68,7 +64,9 @@ _wails_
 
 jammert
 
-schreit
+heult
+
+klagt
 
 sagt
 
@@ -87,7 +85,7 @@ murmelt
 nuschelt
 
 w:2
-mummelt
+flüstert
 %%%%
 _pointless_
 
@@ -134,7 +132,7 @@ VISUAL:@The_monster@ vollführt eine seltsame Geste.
 
 @The_monster@ sagt zu {dat}@foe@, "Alle Sünder müssen sterben."
 
-@The_monster@ sagt zu {dat}@foe@, "Vergeltung für die Ungläubigen."
+@The_monster@ sagt zu {dat}@foe@, "Nieder mit den Ungläubigen."
 %%%%
 _high_priest_rare_
 
@@ -147,7 +145,7 @@ _high_priest_rare_
 # Mother Theresa
 @The_monster@ flüstert zu {dat}@foe@, "Tief im Inneren ist es manchmal so leer."
 
-@The_monster@ sagt zu {dat}@foe@, "@My_God@ wird dich strafen."
+@The_monster@ sagt zu {dat}@foe@, "@My_God@ wird zornig auf dich sein."
 
 @The_monster@ sagt zu {dat}@foe@, "Koste die heilige Energie, Narr."
 
@@ -178,7 +176,7 @@ VISUAL:@The_monster@ grinst böse.
 
 @The_monster@ sagt zu {dat}@foe@, "Unbefugtes Betreten ist hier nicht erlaubt."
 
-@The_monster@ sagt zu {dat}@foe@, "Lass alles fallen, was du hier gefunden hast, und kehre nach Hause zurück."
+@The_monster@ sagt zu {dat}@foe@, "Lass alles fallen, was du hier gefunden hast und kehre nach Hause zurück."
 
 @The_monster@ sagt {dat}@foe@, "Gib jeden gestohlenen Gegenstand zurück!"
 
@@ -232,11 +230,11 @@ VISUAL:@The_monster@ schimmert heftig.
 
 VISUAL:@The_monster@ leuchtet für einen Moment hell auf.
 
-VISUAL:Die @hands@ {gen}@the_monster@ beginnen zu glühen
+VISUAL:Die @hands@ {gen}@the_monster@ beginnen zu glühen.
 
 VISUAL:Du fühlst dich desorientiert. @player_only@
 
-VISUAL:Du fühlst dich beunruhigt. @player_only@
+VISUAL:Du bist besorgt. @player_only@
 %%%%
 _wizard_medium_
 
@@ -270,13 +268,13 @@ VISUAL:@The_monster@ springt vor Aufregung auf und ab.
 
 VISUAL:@The_monster@ grinst dich schelmisch an.
 
-VISUAL:@The_monster@ hebt einige Käfer auf und bietet sie dich an.
+VISUAL:@The_monster@ hebt einige Käfer auf und bietet sie dir an.
 
 VISUAL:@The_monster@ bläst Rauchringe.
 
 @The_monster@ sagt, "OK, Chef!"
 
-@The_monster@ sagt, "Die Kugel gehört dich."
+@The_monster@ sagt, "Die Kugel gehört dir."
 
 @The_monster@ sagt, "Macht das nicht mehr Spaß mit Freunden?"
 %%%%
@@ -286,7 +284,7 @@ _friendly_imp_rare_
 
 @The_monster@ sagt, "Du bist so viel netter als mein letzter Chef."
 
-@The_monster@ schreit, "Bleibt zurück! Es könnte [ein Trick|ein Schachzug|eine Falle] sein!"
+@The_monster@ schreit, "Bleib zurück! Es könnte [ein Trick|eine List|eine Falle|ein Hinterhalt] sein!"
 
 @The_monster@ schreit, "Hier drüben! Ich habe sie gefunden!"
 
@@ -297,11 +295,12 @@ _friendly_imp_greeting
 
 @The_monster@ sagt, "Ich bin hier!"
 
-@The_monster@ sagt, "Du hast angerufen?"
+@The_monster@ sagt, "Du hast gerufen?"
 
 @The_monster@ sagt, "Lasst uns @_mayhem_@ @_cause_or_spread_@!"
 
 @The_monster@ sagt, "Ich @_truckle_@ @_vassalage_@, @_suck_up_address_@ @_suck_up_adj1_@ and @_suck_up_adj2_@ @_suck_up_noun_@!"
+# Translation note: To keep it simple, currently all truckle/vassalage combinations use the same grammatical gender (feminine).
 
 w:970
 __NONE
@@ -328,17 +327,22 @@ Störung
 %%%%
 _truckle_
 
-verpflichte mich zu deinem
+verpflichte mich zu deiner
 
-unterwerfe mich deinem
+unterwerfe mich deiner
 
-füge mich in deinen
+füge mich deiner
 %%%%
 _vassalage_
 
-Vasallentum
+Dienstbarkeit
 
-Dienst
+Knechtschaft
+
+Gefolgschaft
+
+Leibeigenschaft
+
 %%%%
 _suck_up_address_
 
@@ -352,7 +356,7 @@ hochtrabender
 
 berühmter
 
-prachtvoller
+großartiger
 %%%%
 _suck_up_adj2_
 
@@ -409,9 +413,9 @@ _hostile_imp_common_
 
 VISUAL:@The_monster@ grinst böse.
 
-VISUAL:@The_monster@ peitscht mit dem Schwanz
+VISUAL:@The_monster@ peitscht mit dem Schwanz.
 
-VISUAL:@The_monster@ knirscht mit den Zähnen
+VISUAL:@The_monster@ knirscht mit den Zähnen.
 
 VISUAL:@The_monster@ pustet Nebel auf {acc}@foe@.
 %%%%
@@ -419,13 +423,13 @@ _hostile_imp_rare_
 
 VISUAL:@The_monster@ spuckt {acc}@foe@ an.
 
-VISUAL:@The_monster@ hebt einen Käfer auf und isst ihn.
+VISUAL:@The_monster@ hebt einen Käfer auf und frisst ihn.
 
 @The_monster@ stottert.
 
 VISUAL:@The_monster@ verschwindet für einen Moment.
 
-VISUAL:@The_monster@ beschwört einen Fliegenschwarm herauf.
+VISUAL:@The_monster@ beschwört einen Fliegenschwarm herbei.
 ## END _hostile_imp_ ##
 %%%%
 _hell_lord_taunt_
@@ -473,7 +477,7 @@ VISUAL:@The_monster@ grinst böse.
 
 VISUAL:@The_monster@ lächelt fröhlich.
 
-VISUAL:@The_monster@ cries.
+VISUAL:@The_monster@ weint.
 ## END silenced confused humanoid ##
 %%%%
 default fleeing silenced humanoid
@@ -491,9 +495,9 @@ VISUAL:@The_monster@ scheint etwas zu sagen.
 %%%%
 _fleeing_silenced_rare_
 
-VISUAL:@The_monster@ öffnet das Maul, wie schreiend.
+VISUAL:@The_monster@ öffnet das Maul, wie zu einem Schrei.
 
-VISUAL:@The_monster@ frantically looks around.
+VISUAL:@The_monster@ sieht sich panisch um.
 
 VISUAL:@The_monster@ denkt über die Situation nach.
 ## END fleeing silenced humanoid ##
@@ -508,7 +512,7 @@ w:4
 %%%%
 _friendly_silenced_common_
 
-VISUAL:@The_monster@ gibt dich den Daumen hoch.
+VISUAL:@The_monster@ gibt dir einen Daumen hoch.
 
 VISUAL:@The_monster@ says sagt etwas, das du nicht hören kannst.
 %%%%
@@ -520,7 +524,7 @@ VISUAL:@The_monster@ winkt dir zu.
 
 VISUAL:@The_monster@ lächelt fröhlich.
 
-VISUAL:@The_monster@ springt auf und ab, und sucht nach deiner Aufmerksamkeit.
+VISUAL:@The_monster@ springt auf und ab, um deine Aufmerksamkeit auf sich zu ziehen.
 
 VISUAL:@The_monster@ zwinkert dir zu.
 ## END friendly silenced humanoid ##
@@ -602,7 +606,7 @@ _friendly_confused_rare_
 
 @The_monster@ schreit, "@player_name@! Hilfe!"
 
-@The_monster@ sagt, "@player_name@, Ich bin ein bisschen verwirrt!"
+@The_monster@ sagt, "@player_name@, ich bin ein bisschen verwirrt!"
 
 VISUAL:@The_monster@ scheint in {acc}@foe@ verliebt zu sein.
 ## END friendly confused humanoid ##
@@ -654,7 +658,7 @@ VISUAL:@The_monster@ denkt über die Situation nach.
 %%%%
 _confused_humanoid_rare_
 
-@The_monster@ schreit, "Nehmt sie mir ab!"
+@The_monster@ schreit, "Holt sie von mir runter!"
 
 @The_monster@ ruft, "NEIN!"
 
@@ -662,7 +666,7 @@ _confused_humanoid_rare_
 
 @The_monster@ ruft, "JA!"
 
-VISUAL:@The_monster@ schüttelt.
+VISUAL:@The_monster@ schüttelt sich.
 
 VISUAL:@The_monster@ scheint plötzlich sehr wütend auf den Kerker zu sein.
 
@@ -689,9 +693,9 @@ VISUAL:@The_monster@ versucht, sich irgendwo zu verstecken.
 
 @The_monster@ schreit, "Hilfe!"
 
-@The_monster@ schreit, "Gebt mir Deckung!"
+@The_monster@ schreit, "Gib mir Deckung!"
 
-@The_monster@ schreit, "@player_name@! Helft mir!"
+@The_monster@ schreit, "@player_name@! Hilf mir!"
 
 @The_monster@ betet um Hilfe.
 %%%%
@@ -699,9 +703,9 @@ _friendly_fleeing_rare_
 
 @The_monster@ @_shouts_@, "Warte auf mich, @player_name@! Kannst du mir helfen?"
 
-@The_monster@ schreit, "Vergesst deine Freunde nicht!"
+@The_monster@ schreit, "Vergiss deine Freunde nicht!"
 
-@The_monster@ schreit, "Bitte beschützt mich!"
+@The_monster@ schreit, "Bitte beschütze mich!"
 ## END friendly fleeing humanoid ##
 %%%%
 default fleeing humanoid
@@ -720,7 +724,7 @@ w:20
 @The_monster@ @_yells_@, "Hilfe!"
 
 # This one won't work for nagas.
-VISUAL:@The_monster@ fast stolpert, beim Fluchtversuch.
+VISUAL:@The_monster@ stolpert beim Fluchtversuch fast.
 
 @The_monster@ betet um Hilfe.
 
@@ -736,7 +740,7 @@ VISUAL:@The_monster@ fast stolpert, beim Fluchtversuch.
 
 @The_monster@ [stöhnt|jammert|heult], "Oh je! Oh je!"
 
-@The_monster@ @_begs_@ {acc}@foe@, "Bitte tötet mich nicht!"
+@The_monster@ @_begs_@ {acc}@foe@, "Bitte töte mich nicht!"
 
 @The_monster@ bittet um Gnade.
 
@@ -748,7 +752,7 @@ _fleeing_humanoid_rare_
 
 @The_monster@ @_mutters_@, "Verdammt und zugenäht!"
 
-@The_monster@ @_shouts_at_foe_@, ""Nein! Das werde ich nie wieder tun!"
+@The_monster@ @_shouts_at_foe_@, "Nein! Das werde ich nie wieder tun!"
 
 @The_monster@ [heult|flennt], "[Mamaaa|Papaaa|Hilft miiiiiir|Aaaahhhh|Oh neeeeein]!"
 
@@ -766,7 +770,7 @@ VISUAL:@The_monster@ versucht die Fassung wiederzuerlangen
 
 @The_monster@ @_mutters_@, "Was für ein Pech!"
 
-VISUAL:@The_monster@ versucht, den verlorenen Mut wiederzufinden
+VISUAL:@The_monster@ versucht, neuen Mut zu schöpfen.
 ## END fleeing humanoid ##
 %%%%
 _friendly_family_
@@ -803,7 +807,7 @@ w:1
 %%%%
 _friendly_humanoid_common_
 
-@The_monster@ schreit, "Lauft, ich gebe dich Deckung!"
+@The_monster@ schreit, "Lauf, ich gebe dir Deckung!"
 
 @The_monster@ @_shouts_at_foe_@, "Stirb, Monster!"
 
@@ -815,7 +819,7 @@ VISUAL:@The_monster@ lächelt dich an.
 
 VISUAL:@The_monster@ winkt dir zu.
 
-@The_monster@ sagt, "Seid vorsichtig!"
+@The_monster@ sagt, "Sei vorsichtig!"
 
 @The_monster@ sagt, "Ich werde dich nie verlassen."
 %%%%
@@ -825,13 +829,13 @@ _friendly_humanoid_medium_
 
 @The_monster@ sagt, "@player_name@, du bist mein einziger Freund."
 
-@The_monster@ schreit, "Keine Gnade! Tötet sie alle!"
+@The_monster@ schreit, "Keine Gnade! Töte sie alle!"
 
-@The_monster@ sagt, "Macht dich keine Sorgen. Ich bin bei dir."
+@The_monster@ sagt, "Mach dir keine Sorgen. Ich bin bei dir."
 
 VISUAL:@The_monster@ lächelt fröhlich.
 
-@The_monster@ schreit, "Hütet dich vor Monstern!"
+@The_monster@ schreit, "Hüte dich vor Monstern!"
 %%%%
 _friendly_humanoid_rare_
 
@@ -848,7 +852,7 @@ VISUAL:@The_monster@ wedelt mit dem Schwanz
 
 VISUAL:@The_monster@ bellt [fröhlich|aufgeregt]!
 
-VISUAL:@The_monster@ läuft in Kreisen!
+VISUAL:@The_monster@ läuft im Kreis!
 
 VISUAL:@The_monster@ schaut erwartungsvoll zu dir auf.
 
@@ -857,10 +861,10 @@ VISUAL:@The_monster@ kratzt sich am Ohr.
 # Translation note: Pretty sure all canines in DCSS are masculine
 VISUAL:@The_monster@ neigt seinen Kopf zur Seite und schaut dich an.
 
-VISUAL:@The_monster@ kratzt sich an einem Floh.
+VISUAL:@The_monster@ kratzt sich wegen eines Flohs.
 
 w:1
-VISUAL:@The_monster@ nagt an einem Knochen - woher kommt das?
+VISUAL:@The_monster@ nagt an einem Knochen - wo hat er den her?
 
 @hound@
 %%%%
@@ -869,12 +873,12 @@ friendly Shoals hound
 w:50
 @friendly hound@
 
-VISUAL:@The_monster@ [spielt|tummelt sich] in der Brandung!
+VISUAL:@The_monster@ [spielt|tollt] in der Brandung!
 
 Ein ausgeprägter Geruch nach nassem Hund strömt aus {dat}@the_monster@.
 
 w:1
-VISUAL:@The_monster@ hebt hoffentlich ein Stück Treibholz auf und sieht dich an.
+VISUAL:@The_monster@ hebt ein Stück Treibholz auf und sieht dich hoffnungsvoll an.
 %%%%
 default insect
 
@@ -904,7 +908,7 @@ VISUAL:@The_monster@ schwenkt die Fühler.
 %%%%
 default confused centipede
 
-VISUAL:@The_monster@ seems to be having trouble coordinating its many legs.
+VISUAL:@The_monster@ scheint Probleme zu haben, seine zahlreichen Beine zu koordinieren.
 
 VISUAL:@The_monster@ fuchtelt wild mit den Fühlern.
 #########################################
@@ -955,7 +959,7 @@ __NONE
 %%%%
 giant slug
 
-VISUAL:@The_monster@ verlängert kurz die Augenstiele.
+VISUAL:@The_monster@ streckt kurz die Stielaugen aus.
 %%%%
 default confused moth
 
@@ -1041,14 +1045,14 @@ w:5
 VISUAL:@The_monster@ zeigt drohend auf {acc}@foe@.
 
 w:5
-VISUAL:@The_monster@ starrt {acc}@foe@ an, während er langsam mit einem Finger über seine Kehle streicht.
+VISUAL:@The_monster@ starrt {acc}@foe@ an, während er langsam einen Finger über seine Kehle zieht.
 ## END silenced player ghost ##
 %%%%
 Fighting player ghost
 
 @The_monster@ prahlt, "Ich habe Monster besiegt, die du noch nie gesehen hast."
 
-VISUAL:@The_monster@ nimmt eine kämpferische Haltung ein.
+VISUAL:@The_monster@ nimmt eine Kampfhaltung ein.
 
 @The_monster@ sagt, "Meine unüberwindliche Taktik garantiert deine Niederlage."
 
@@ -1064,13 +1068,13 @@ Short Blades player ghost
 
 @The_monster@ sagt zu {dat}@foe@, "Du spottest über meine kurze Klinge, ich spotte über deine kalte Leiche."
 
-VISUAL:@The_monster@ schnippt die Klinge von Hand zu Hand, schneller als das Auge folgen kann.
+VISUAL:@The_monster@ wirft die Klinge von Hand zu Hand, schneller als das Auge folgen kann.
 %%%%
 Long Blades player ghost
 
 VISUAL:@The_monster@ hält die Klinge bereit.
 
-@The_monster@ sagt, "Lebe durch das Schwert, stirb durch das Schwert".
+@The_monster@ sagt, "Lebe durch das Schwert, sterbe durch das Schwert".
 %%%%
 Axes player ghost
 
@@ -1090,11 +1094,11 @@ VISUAL:@The_monster@ zertritt ein Insekt in der Nähe und lacht.
 %%%%
 Polearms player ghost
 
-@The_monster@ sagt, "Ich werde dich aufspießen."
+@The_monster@ sagt, "Ein @foe_genus@ am Spieß, kommt sofort."
 
 @The_monster@ sagt zu {dat}@foe@, "Dein Kopf auf einem Spieß würde gut zu diesem Boden passen."
 
-@The_monster@ sagt zu {dat}@foe@, "Dein Kopf würde gut zu meinem Hecht passen."
+@The_monster@ sagt zu {dat}@foe@, "Dein Kopf würde gut auf meine Lanze passen."
 %%%%
 Staves player ghost
 
@@ -1102,13 +1106,13 @@ Staves player ghost
 
 VISUAL:@The_monster@ wirbelt den Kampfstab.
 
-@The_monster@ droht dich den Schädel zu brechen. @player_only@
+@The_monster@ droht damit, dir den Schädel zu brechen. @player_only@
 %%%%
 Slings player ghost
 
 @The_monster@ sagt, "Je größer sie sind, desto härter fallen sie!"
 
-VISUAL:@The_monster@ wirbelt eine geisterhafte Schleuder über den Kopf.
+VISUAL:@The_monster@ wirbelt eine geisterhafte Schleuder über dem Kopf.
 
 @_generic_ranged_@
 %%%%
@@ -1116,13 +1120,13 @@ Bows player ghost
 
 @_generic_ranged_@
 
-@The_monster@ sagt, "Hast du einen Apfel? Ich möchte etwas probieren."
+@The_monster@ sagt, "Hast du einen Apfel? Es gibt einen Schuss, den ich ausprobieren möchte."
 %%%%
 Crossbows player ghost
 
 @_generic_ranged_@
 
-VISUAL:@The_monster@ kämpft, um seine Waffe nachzuladen.
+VISUAL:@The_monster@ müht sich ab, seine Waffe nachzuladen.
 
 VISUAL:@The_monster@ lädt die Waffe mühelos nach.
 %%%%
@@ -1130,7 +1134,7 @@ Throwing player ghost
 
 VISUAL:@The_monster@ schaut sich nach etwas zum Werfen um.
 
-@The_monster@ beleidigt dich geschickt. @player_only@
+@The_monster@ wirft dir gekonnt Beleidigungen an den Kopf. @player_only@
 
 @_generic_ranged_@
 %%%%
@@ -1144,7 +1148,7 @@ Armour player ghost
 %%%%
 Dodging player ghost
 
-@The_monster@ sagt, "Du hast mich verfehlt!"
+@The_monster@ sagt, "Daneben!"
 
 @The_monster@ duckt sich und sagt, "Zu hoch!"
 
@@ -1152,9 +1156,9 @@ Dodging player ghost
 %%%%
 Stealth player ghost
 
-VISUAL:@The_monster@ versucht sich wegzuschleichen.
+VISUAL:@The_monster@ versucht davonzuschleichen.
 
-VISUAL:@The_monster@ versucht, sich in die Umgebung einzufügen.
+VISUAL:@The_monster@ versucht, mit der Umgebung zu verschmelzen.
 
 VISUAL:@The_monster@ flüstert etwas so leise, dass du es nicht hören kannst.
 
@@ -1174,13 +1178,13 @@ Unarmed Combat player ghost
 
 VISUAL:@The_monster@ macht eine Finte nach [links|rechts].
 
-VISUAL:@The_monster@ nimmt eine ringerische Haltung ein.
+VISUAL:@The_monster@ nimmt eine Ringerhaltung ein.
 
 @The_monster@ sagt, "Ich breche Knochen und knacke Schädel... mit meinen bloßen Händen."
 
 VISUAL:@The_monster@ schwingt die Fäuste nach dir. @player_only@
 
-VISUAL:@The_monster@ beugt die Finger.
+VISUAL:@The_monster@ krümmt seine Finger.
 %%%%
 Spellcasting player ghost
 
@@ -1188,7 +1192,7 @@ Spellcasting player ghost
 
 @The_monster@ sagt, "Ich bin der Beweis dafür, dass Wissen Macht ist."
 
-@The_monster@ sagt, "Seht zu und staunt!"
+@The_monster@ sagt, "Sieh zu und staune!"
 
 @The_monster@ sagt,  "Ich habe viel geübt, seit ich gestorben bin."
 
@@ -1208,7 +1212,7 @@ VISUAL:@The_monster@ zielt.
 
 @The_monster@ spricht eine fast unaussprechliche Beschwörungsformel falsch aus.
 
-VISUAL:@The_monster@ ist in das strahlende Licht von Iskenderun getaucht.
+VISUAL:@The_monster@ erstrahlt im Licht von Iskenderun.
 
 VISUAL:Energie verdichtet sich vor @the_monster@, löst sich aber schnell wieder auf.
 %%%%
@@ -1222,7 +1226,7 @@ Summonings player ghost
 
 @The_monster@ sagt, "Es ist gefährlich, sich allein auf ein Abenteuer einzulassen."
 
-VISUAL:@The_monster@ zieht einen Quokka aus seiner Mütze.
+VISUAL:@The_monster@ zieht ein Quokka aus seiner Mütze.
 
 @The_monster@ zeigt auf {acc}@foe@ und schreit, "Attacke!"
 
@@ -1236,7 +1240,7 @@ Necromancy player ghost
 
 @The_monster@ sagt zu {dat}@foe@, "Keine Sorge, ich werde deinen Leichnam nicht verkommen lassen."
 
-@The_monster@ sagt zu {dat}@foe@, "Nachdem ich dich getötet habe, werde ich dich wieder töten."
+@The_monster@ sagt zu {dat}@foe@, "Nachdem ich dich getötet habe, werde ich dich nochmal töten."
 
 @The_monster@ sagt zu {dat}@foe@, "Ich brauche deine Knochen für einen meiner Zaubersprüche."
 %%%%
@@ -1244,7 +1248,7 @@ Translocations player ghost
 
 VISUAL:@The_monster@ flackert in die Realität hinein und aus ihr heraus.
 
-VISUAL:@The_monster@ ist in eine Wolke aus Translokationsenergie gehüllt.
+VISUAL:@The_monster@ ist von einer Wolke aus Translokationsenergie umhüllt.
 
 VISUAL:@The_monster@ blinzelt {acc}@foe@ an.
 %%%%
@@ -1264,7 +1268,7 @@ Fire Magic player ghost
 %%%%
 Ice Magic player ghost
 
-VISUAL:Ein Schauer läuft dich über den Rücken. @player_only@
+VISUAL:Ein Schauer läuft dir über den Rücken. @player_only@
 
 @The_monster@ sagt zu {dat}@foe@, "Ich hoffe, das nächste Monster, das dich trifft, mag Tiefkühlkost!"
 
@@ -1302,7 +1306,7 @@ Invocations player ghost
 
 @The_monster@ verflucht die Götter.
 
-@The_monster@ sagt, "Das hat es gebracht, dass ich mich auf die Götter verlassen habe."
+@The_monster@ sagt, "Das habe ich davon, dass ich mich auf die Götter verlassen habe."
 
 @The_monster@ spottet über {acc}@foe@, "Wo ist dein Gott jetzt?"
 
@@ -1352,11 +1356,11 @@ Dithmenos player ghost
 
 @The_monster@ sagt zu {dat}@foe@, "Lass dich einfach von der Dunkelheit verzehren."
 
-@The_monster@ sagt zu {dat}@foe@, "Ich wandle im Schatten, und bald wirst du es auch tun."
+@The_monster@ sagt zu {dat}@foe@, "Ich wandle im Schatten, und du bald auch"
 %%%%
 Elyvilon player ghost
 
-@The_monster@ sagt zu {dat}@foe@,  "Im Leben hätte ich dich vielleicht stattdessen geheilt."
+@The_monster@ sagt zu {dat}@foe@,  "Im Leben hätte ich dich stattdessen vielleicht geheilt."
 
 @The_monster@ sagt, "Ich dachte, Gewalt könnte nichts lösen, aber sie hat mich gelöst."
 
@@ -1364,7 +1368,7 @@ Elyvilon player ghost
 %%%%
 Fedhas player ghost
 
-@The_monster@ stöhnt, "Warum habe ich Pflanzen vertraut, um mein Leben zu retten?"
+@The_monster@ stöhnt, "Warum habe ich darauf vertraut, dass Pflanzen mein Leben retten würden?"
 
 @The_monster@ sagt zu {dat}@foe@, "Ich kann kein Leben mehr verbreiten, aber ich kann dir immer noch den Tod bringen!"
 
@@ -1378,15 +1382,15 @@ VISUAL:@The_monster@ winkt mit einem prall gefüllten Geldbeutel.
 
 @The_monster@ sagt, "Du bist so gut wie Gold."
 
-@The_monster@ sagt,  "Ich schätze, man kann sich kein gutes Nachleben erkaufen."
+@The_monster@ sagt,  "Ich schätze, man kann sich kein gutes Leben nach dem Tod erkaufen."
 %%%%
 Jiyva player ghost
 
 @The_monster@ sagt zu {dat}@foe@, "Hängst du immer noch so an glänzenden Gegenständen?"
 
-@The_monster@ sagt zu {dat}@foe@, "Törichte Menschen, die nach Beute gieren."
+@The_monster@ sagt zu {dat}@foe@, "Törichte Abenteurer, die nach Beute gieren."
 
-@The_monster@ sagt zu {dat}@foe@, "Ich brauchte im Leben keine Kinkerlitzchen, ich brauche sie auch jetzt nicht."
+@The_monster@ sagt zu {dat}@foe@, "Ich brauchte im Leben keine Kinkerlitzchen, jetzt brauche ich sie auch nicht."
 %%%%
 Kikubaaqudgha player ghost
 
@@ -1401,15 +1405,15 @@ Kikubaaqudgha player ghost
 Lugonu player ghost
 
 # These first two only really make sense outside the Abyss
-@The_monster@ sagt bedauernd, "Ich wünschte, ich hätte das alles verdorben!"
+@The_monster@ sagt bedauernd, "Ich wünschte, ich hätte das alles korrumpiert!"
 
-@The_monster@ sagt, "Was für ein öder Ort. Schade, dass du keine Gelegenheit bekommst, den Abyss zu besuchen!"
+@The_monster@ sagt, "Was für ein öder Ort. Schade, dass du keine Gelegenheit bekommst, den Abgrund zu besuchen!"
 
 @The_monster@ proudly claims, "Ein abtrünniger Gott verdient abtrünnige Geister."
 %%%%
 Makhleb player ghost
 
-@The_monster@ sagt, "Ich werde keine dämonische Unterstützung gegen dich brauchen."
+@The_monster@ sagt, "Gegen dich werde ich keine dämonische Unterstützung brauchen."
 
 @The_monster@ sagt, "Ich bin gestorben, um Leute wie dich zum Spaß zu vernichten."
 
@@ -1421,7 +1425,7 @@ Nemelex Xobeh player ghost
 
 @The_monster@ sagt zu dir,  "Die Karten verheißen keine gute Zukunft für dich."
 
-@The_monster@ sagt zu {dat}@foe@, "Ich werde deinen Tod ausgeben!"
+@The_monster@ sagt zu {dat}@foe@, "Ich werde deinen Tod austeilen!"
 %%%%
 Okawaru player ghost
 
@@ -1433,7 +1437,7 @@ Pakellas player ghost
 
 @The_monster@ sagt, "Du bist nur ein weiteres Problem, das gelöst werden muss."
 
-@The_monster@ sagt, "Das wird dich ganz schön auf die Palme bringen."
+@The_monster@ sagt, "Das wird dich ganz schön elektrisieren."
 
 @The_monster@ sagt, "Zaubersprüche? Hah! Meine Gadgets werden zeigen, was echte Magie ist!"
 %%%%
@@ -1441,7 +1445,7 @@ Qazlal player ghost
 
 @The_monster@ sagt, "Ein Sturm zieht auf..."
 
-@The_monster@ sagt, "Lasst die Natur ihren Lauf gegen dich nehmen!"
+@The_monster@ sagt, "Lass die Natur ihren Lauf gegen dich nehmen!"
 
 @The_monster@ sagt, "Die Erde wird dich vernichten!"
 %%%%
@@ -1451,7 +1455,7 @@ Ru player ghost
 
 @The_monster@ sagt, "Ich werde dir die große vernichtende Wahrheit zeigen!"
 
-@The_monster@ sagt, "Nichts davon ist wichtig. Nichts davon ist real!"
+@The_monster@ sagt, "Nichts hier ist wichtig. Nichts hier ist real!"
 
 @The_monster@ sagt zu {dat}@foe@, "Erst wirst du leiden, dann wirst du sterben."
 %%%%
@@ -1473,19 +1477,19 @@ The Shining One player ghost
 
 @The_monster@ murmelt, "Wir haben die Hochburgen des Bösen überfallen. Jetzt gehe ich allein."
 
-@The_monster@ spricht, "Keine Lampe, die mich mehr leitet..."
+@The_monster@ spricht, "Keine Lampe mehr, die mich leitet..."
 %%%%
 Trog player ghost
 
-@The_monster@ schreit, "Wer hätte das gedacht, selbst im Tod ist es ein Vergnügen, abzutrennen!"
+@The_monster@ schreit, "Wer hätte das gedacht, selbst im Tod ist es ein Vergnügen, zu metzeln!"
 
 @The_monster@ schreit vor Freude, "Wie im Leben, so im Tod: Töten! Töten!!! Töten!!!"
 %%%%
 Vehumet player ghost
 
-@The_monster@ droht, "Ich bin frisch aus dem Höllenfeuer, aber du wirst trotzdem enden."
+@The_monster@ droht, "Mir ist gerade das Höllenfeuer ausgegangen, aber du wirst trotzdem enden."
 
-@The_monster@ sagt, "Die Agenten der totalen Zerstörung lassen sich nicht vom Tod aufhalten."
+@The_monster@ sagt, "Die Agenten der totalen Zerstörung lassen sich vom Tod nicht aufhalten."
 
 @The_monster@ prahlt, "Nachdem ich mich um dich gekümmert habe, werde ich einen Zauber erforschen, der die Welt verschlingt."
 
@@ -1493,7 +1497,7 @@ Vehumet player ghost
 %%%%
 Xom player ghost
 
-@The_monster@ @_laughs_@, "Ich lache beim Töten. Also lächle, wenn du stirbst. LÄCHLE!"
+@The_monster@ @_laughs_@, "Ich lache beim Töten. Also lächle beim Sterben. LÄCHLE!"
 
 @The_monster@ beschwert sich, "Du bist leicht zu töten, aber es macht keinen Spaß."
 
@@ -1501,7 +1505,7 @@ Xom player ghost
 
 @The_monster@ zwitschert, "Ich hatte viel Spaß im Leben, und ich habe auch jetzt viel Spaß!"
 
-@The_monster@ kichert, "Hey Hohlkopf, was für ein Spaß, deinen Kopf tot umfallen zu sehen!"
+@The_monster@ kichert, "Hey Hohlkopf, was für ein Spaß, deinen hohlen Kopf fallen zu sehen!"
 
 @The_monster@ sagt, "Ich brauche eine Schere! Ich glaube, ich habe mir irgendwo einen Nagel abgebrochen..."
 
@@ -1519,7 +1523,7 @@ Zin player ghost
 
 @The_monster@ sagt zu {dat}@foe@, "Ich starb arm und umsonst, aber nicht als Missgeburt."
 
-@The_monster@ sagt zu {dat}@foe@, "Für all die Zehnten habe ich ein glorreicheres Leben nach dem Tod erwartet als dieses."
+@The_monster@ sagt zu {dat}@foe@, "Für all die Zehntabgaben habe ich ein glorreicheres Leben nach dem Tod erwartet als dieses."
 %%%%
 _generic_ranged_
 
@@ -1531,7 +1535,7 @@ _form_
 
 eine Spinne
 
-eine Steinfigur
+eine Steinstatue
 
 w:5
 ein Drache
@@ -1540,25 +1544,25 @@ _form_acc_
 
 eine Spinne
 
-eine Steinfigur
+eine Steinstatue
 
 w:5
-einen Drache
+ein Drache
 %%%%
 _laughs_
 # also used by mimics
 
 kichert
 
-titters
+gackert
 
 gluckst
 
-gluckert
+prustet
 
 schmunzelt
 
-weihert auf
+wiehert
 %%%%
 player ghost
 
@@ -1582,15 +1586,15 @@ VISUAL:@The_monster@ starrt {acc}@foe@ an.
 
 VISUAL:@The_monster@ kräuselt sich.
 
-@The_monster@ @_wails_@, "Was hast du, was ich nicht habe?"
+@The_monster@ @_wails_@, "Was hast du, was ich nicht hatte?"
 
 @The_monster@ sagt ganz langsam, "Es gibt keine Hoffnung."
 
-@The_monster@ @_wails_@, "Du wirst die Kugel niemals bekommen!" @player_only@
+@The_monster@ @_wails_@, "Du wirst die KUGEL niemals bekommen!" @player_only@
 
-@The_monster@ flüstert, "Die Kugel gibt es nicht." @player_only@
+@The_monster@ flüstert, "Die KUGEL gibt es nicht." @player_only@
 
-@The_monster@ @_wails_@, "Sie haben dich angelogen. Der Kerker geht einfach immer weiter runter."
+@The_monster@ @_wails_@, "Sie haben dich angelogen. Der Kerker geht einfach immer und immer weiter runter."
 
 @The_monster@ @_wails_@, "Du wirst dich mir bald anschließen!"
 
@@ -1615,11 +1619,11 @@ VISUAL:@The_monster@ grinst böse.
 
 @The_monster@ @_wails_@, "Glaubst du, die Götter werden dich beschützen?"
 
-@The_monster@ schreit, "Ich töte jeden, der die Kugel will!" @player_only@
+@The_monster@ schreit, "Ich töte jeden, der die KUGEL will!" @player_only@
 
 @The_monster@ @_screams_at_foe_@, "Versuch nicht, dich zu verteidigen! Du hast keine Chance!"
 
-@The_monster@ schreit, "Zot ist ein Mythos, die Kugel ist eine Fabel, du wirst bald ein Märchen sein!" @player_only@
+@The_monster@ schreit, "Zot ist ein Mythos, die KUGEL ist eine Fabel, und du wirst bald Geschichte sein!" @player_only@
 
 @The_monster@ flüstert, "Tod ist Befreiung."
 
@@ -1630,14 +1634,14 @@ VISUAL:@The_monster@ grinst böse.
 # Sid Vicious I
 @The_monster@ @_wails_@, "Es gibt keine Zukunft für mich!"
 
-@The_monster@ flüstert, "Sie kommen für dich..."
+@The_monster@ flüstert, "Sie kommen dich holen..."
 
-@The_monster@ flüstert, "Vertrau mir. Gib einfach nach."
+@The_monster@ flüstert, "Vertrau mir. Gib einfach auf."
 %%%%
 _player_ghost_rare_
 
 # Hamlet
-@The_monster@ @_wails_@, "Sterben, schlafen, nicht mehr."
+@The_monster@ @_wails_@, "Sterben, schlafen, nichts weiter."
 
 @The_monster@ flüstert, "Ewige Stille erwartet dich..."
 
@@ -1666,7 +1670,7 @@ w:5
 %%%%
 _Aizul_common_
 
-VISUAL:@The_monster@ gähnt und tut dann so, als ob sie es nicht getan hätte.
+VISUAL:@The_monster@ gähnt und tut dann so, als ob es nicht passiert wäre.
 
 @The_monster@ sagt, "Bist du müde?"
 
@@ -1674,7 +1678,7 @@ VISUAL:@The_monster@ gähnt und tut dann so, als ob sie es nicht getan hätte.
 
 VISUAL:@The_monster@ zischt bedrohlich.
 
-@The_monster@ @_screams_at_foe_@, "Ich werde dich in deinen Albträumen heimsuchen!"
+@The_monster@ @_screams_at_foe_@, "Ich werde deine Albträume heimsuchen!"
 %%%%
 _Aizul_rare_
 
@@ -1682,7 +1686,7 @@ _Aizul_rare_
 
 @The_monster@ summt ein Schlaflied.
 
-VISUAL:@The_monster@ rollt sich auf und dann wieder ab.
+VISUAL:@The_monster@ rollt sich zusammen und dann wieder auseinander.
 
 @The_monster@ sagt, "Jeder muss mal schlafen."
 
@@ -1692,7 +1696,7 @@ VISUAL:@The_monster@ rollt sich auf und dann wieder ab.
 
 @The_monster@ sagt, "Ersetzt! Wie fühlt es sich an, ersetzt zu werden?"
 
-@The_monster@ stöhnt, "Keine Jobaussichten! Wer will schon eine schläfrige Aizul, seinen Schatz zu bewachen?"
+@The_monster@ stöhnt, "Keine Jobaussichten! Wer will seinen Schatz von Aizul der Schlafmütze bewachen lassen?"
 
 VISUAL:@The_monster@ zwinkert {dat}@foe@ mehrmals zu.
 %%%%
@@ -1716,11 +1720,11 @@ VISUAL:@The_monster@ verbeugt sich.
 
 @The_monster@ murmelt, "Dafür habe ich nie trainiert."
 
-@The_monster@ sagt zu {dat}@foe@, "Der Pfad des Friedens wird dich im Tod leicht fallen."
+@The_monster@ sagt zu {dat}@foe@, "Es wird dir leicht fallen, dem Pfad des Friedens zu folgen, wenn du tot bist."
 %%%%
 _Agnes_rare_
 
-@The_monster@ sagt, "Die Kugel gehört von Rechts wegen mir."
+@The_monster@ sagt, "Die KUGEL gehört von Rechts wegen mir."
 
 #sepaktakraw reference
 @The_monster@ @_shouts_at_foe_@, "Ich werde dich wie einen Rattanball herumkicken!"
@@ -1743,7 +1747,7 @@ Arachne
 
 @The_monster@ sagt zu {dat}@foe@, "Komm näher, kleine Fliege."
 
-@The_monster@ sagt zu {dat}@foe@, "Du wirst dich ein bisschen an meinem Netz festhalten."
+@The_monster@ sagt zu {dat}@foe@, "Du wirst dich von meiner Weberei kaum lösen können."
 
 @The_monster@ sagt zu {dat}@foe@, "Niemand entkommt meinen Netzen."
 %%%%
@@ -1757,9 +1761,9 @@ w:5
 %%%%
 _Asterion_common_
 
-VISUAL:@The_monster@ schnaubt und scharrt mit den Pfoten auf dem Boden.
+VISUAL:@The_monster@ schnaubt und scharrt auf dem Boden.
 
-VISUAL:@The_monster@ klopft langsam mit der Waffe in seiner Hand.
+VISUAL:@The_monster@ klopft langsam mit der Waffe in seine Hand.
 
 @The_monster@ sagt, "Bald wird deine Seele Makhleb gehören." @player_only@
 
@@ -1769,9 +1773,9 @@ VISUAL:@The_monster@ klopft langsam mit der Waffe in seiner Hand.
 
 @The_monster@ sagt, "In meinem Reich werden Schwächlinge wie du mit dem Schwert getötet." @player_only@
 
-@The_monster@ sagt, "Kein Labyrinth kann mich fassen."
+@The_monster@ sagt, "Kein Labyrinth kann mich halten."
 
-@The_monster@ sagt, "Komm in mein Haus, und ich werde dich vom Bösen erlösen." @player_only@
+@The_monster@ sagt, "Komm in mein Haus und ich werde dich vom Bösen erlösen." @player_only@
 
 @The_monster@ sagt, "Meine Mutter war eine Königin." @player_only@
 
@@ -1781,7 +1785,7 @@ VISUAL:@The_monster@ klopft langsam mit der Waffe in seiner Hand.
 
 @The_monster@ singt ein Gebet zu Makhleb.
 
-@The_monster@ sagt zu {dat}@foe@, "Deine Wertsachen werden in meiner Kisten gut aufgehoben sein." @player_only@
+@The_monster@ sagt zu {dat}@foe@, "Deine Wertsachen werden in meiner Schatzkammer gut aufgehoben sein." @player_only@
 
 %%%%
 _Asterion_rare_
@@ -1807,9 +1811,9 @@ Du hörst dämonisches Gelächter.
       return "Knie nieder vor Makhleb, Ungläubiger!"
     end }}" @player_only@
 
-@The_monster@ @_screams_at_foe_@, "Was für ein Kugel?! Ich habe ein ganzes Königreich!" @player_only@
+@The_monster@ @_screams_at_foe_@, "Was für eine KUGEL?! Ich habe ein ganzes Königreich!" @player_only@
 
-@The_monster@ @_screams_at_foe_@, "Verneige dich vor eurem König! Verbeuge dich! Verbeuge dich!!!" @player_only@
+@The_monster@ @_screams_at_foe_@, "Verneige dich vor deinem König! Tiefer! Tiefer!!!" @player_only@
 %%%%
 ############ AZRAEL ### efreet
 Azrael
@@ -1825,7 +1829,7 @@ _Azrael_common_
 
 @The_monster@ heult vor Wut.
 
-@The_monster@ @_screams_at_foe_@, "Brennen! Brennen! Es muss alles Brennen!"
+@The_monster@ @_screams_at_foe_@, "Brennen! Brennen! Alles muss BRENNEN!"
 
 VISUAL:@The_monster@ bläst Rauchringe.
 
@@ -1835,7 +1839,7 @@ VISUAL:@The_monster@ wird kurzzeitig von einer Flammenwolke verdeckt.
 %%%%
 _Azrael_rare_
 
-@The_monster@ grinst und @asks_foe@, "Bist du [entflammbar|unentflammbar|heiß fühlend]?"
+@The_monster@ grinst und @asks_foe@, "Bist du [brennbar|leicht entflammbar|fiebrig]?"
 
 @The_monster@ sagt zu {dat}@foe@, "Heute Abend gibt es @foe_genus@-Spieße! Lecker!"
 
@@ -1845,15 +1849,15 @@ VISUAL:@The_monster@ wirbelt im Kreis herum.
 
 @The_monster@ sagt zu {dat}@foe@, "Mögen die Flöhe von tausend Kamelen deine Achselhöhlen befallen."
 
-@The_monster@ wundert sich über @foe@, "Leidest du immer noch unter Angemessenheitswahn?"
+@The_monster@ wundert sich über @foe@, "Leidest du immer noch unter der Wahnvorstellung alles im Griff zu haben?"
 
 @The_monster@ sagt zu {dat}@foe@, "Möge dein Hintern unaufhörlich jucken und mögen deine @_player_arms_@ zu kurz sein, um ihn zu kratzen."
 
 @The_monster@ sagt zu {dat}@foe@, "Du Kind einer mutterlosen Ziege."
 
-@The_monster@ sagt zu {dat}@foe@, "Du Kind eines tollwütigen Hundes! Enkel eines stinkenden Schakals! Urenkelin eines gerupften Geiers!"
+@The_monster@ sagt zu {dat}@foe@, "Du Kind eines tollwütigen Hundes! Enkel eines stinkenden Schakals! Urenkel eines gerupften Geiers!"
 
-@The_monster@ sagt zu {dat}@foe@, "Möge ein Stachelschwein tausend Tage lang in deiner Hose leben und tausendundein darin sterben."
+@The_monster@ sagt zu {dat}@foe@, "Möge ein Stachelschwein tausend Tage lang in deiner Hose leben und tausendundein Tage darin sterben."
 %%%%
 _player_arms_
 
@@ -1883,23 +1887,23 @@ _Bai_Suzhen_common_
 
 @The_monster@ murrt, "Verdammt sei dieser eifersüchtige Schildkrötenmönch."
 
-@The_monster@ sehnt sich nach seinem verlorenen Mann.
+@The_monster@ sehnt sich nach ihrem verlorenen Mann.
 
 @The_monster@ brüllt, "Selbst der Himmel kann uns nicht für immer trennen!"
 
-@The_monster@ begutachtet seine gesammelten Kräuterreagenzien.
+@The_monster@ begutachtet ihre gesammelten Kräuterreagenzien.
 
-VISUAL:@The_monster@ wirbelt seinen Körper durch den Sturm.
+VISUAL:@The_monster@ wirbelt ihren Körper durch den Sturm.
 %%%%
 _Bai_Suzhen_rare_
 
-@The_monster@ schimpft über [die Streiche der unsterblichen Alchemisten|unreifen Schwestern].
+@The_monster@ schimpft über [die Streiche unsterblicher Alchemisten|unreife Schwestern].
 
 @The_monster@ zischt, "An Tagen wie diesen vermisse ich das Trinken."
 
 @The_monster@ versichert sich, "Unsere Liebe wird das überstehen."
 
-@The_monster@ fragt sich wehmütig, "Hätte ich noch tausend Jahre meditieren sollen?"
+@The_monster@ fragt sich wehmütig, "Hätte ich noch weitere tausend Jahre meditieren sollen?"
 
 w:5
 @The_monster@ flüstert zu sich selbst, "Alle, die ich gerettet habe... Jeden, den ich verdammte..."
@@ -1939,13 +1943,13 @@ VISUAL:@The_monster@ sieht wütend aus.
 
 @The_monster@ @_screams_at_foe_@, "Ich bin viel stärker als du!"
 
-@The_monster@ @_screams_at_foe_@, "Ich fresse dein Gehirn! Und dann kotze ich es wieder hoch!"
+@The_monster@ @_screams_at_foe_@, "Ich fresse dein Gehirn! Und dann kotze ich es wieder aus!"
 
 @The_monster@ @_screams_at_foe_@, "Du bist die hässlichste Kreatur, die ich je gesehen habe!"
 
 @The_monster@ @_screams_at_foe_@, "Stirb!"
 
-@The_monster@ @_screams_at_foe_@, "Ich werde den Kerker mit deinem Blut besudeln!"
+@The_monster@ @_screams_at_foe_@, "Ich werde den Kerker mit deinem Blut bedecken!"
 
 
 %%%%
@@ -1990,13 +1994,13 @@ _Boris_medium_
 
 @The_monster@ sagt zu {dat}@foe@, "Du kannst dir meine Macht nicht vorstellen."
 
-@The_monster@ sagt, "Du willst die Kugel? Die wirst du nie bekommen." @player_only@
+@The_monster@ sagt, "Du willst die KUGEL? Die wirst du nie bekommen." @player_only@
 
 @The_monster@ sagt zu {dat}@foe@, "Meine Macht ist unbegrenzt."
 
 @The_monster@ sagt zu {dat}@foe@, "Du kannst mich nicht töten. Ich bin unsterblich."
 
-@The_monster@ sagt zu {dat}@foe@, "Ich kenne das Geheimnis des ewigen Lebens. Weißt du es?"
+@The_monster@ sagt zu {dat}@foe@, "Ich kenne das Geheimnis des ewigen Lebens. Und du?"
 
 @The_monster@ sagt zu {dat}@foe@, "Ich kenne deine Zukunft. Deine Zukunft ist der Tod."
 
@@ -2004,7 +2008,7 @@ _Boris_medium_
 
 @The_monster@ sagt zu {dat}@foe@, "Es gibt nur eine Lösung für dich. Zu sterben."
 
-@The_monster@ sagt zu {dat}@foe@, "Du kannst nie gewinnen."
+@The_monster@ sagt zu {dat}@foe@, "Du kannst niemals gewinnen."
 %%%%
 _Boris_rare_
 
@@ -2035,19 +2039,19 @@ _Boris_return_common_
 
 @The_monster@ sagt, "Ich komme wieder!"
 
-@The_monster@ sagt, "Das ist noch nicht das Ende, das ist erst der Anfang!"
+@The_monster@ sagt, "Das ist nicht das Ende, das ist erst der Anfang!"
 %%%%
 _Boris_return_rare_
 
 @The_monster@ sagt zu {dat}@foe@, "Mich töten? Ich glaube nicht!"
 
-@The_monster@ sagt zu {dat}@foe@, "So leicht könnt ihr mich nicht besiegen!"
+@The_monster@ sagt zu {dat}@foe@, "So leicht kannst du mich nicht besiegen!"
 
 @The_monster@ sagt zu {dat}@foe@, "Wir werden uns wiedersehen!"
 %%%%
 Boris unsummoned
 
-@The_monster@ sagt, "Du kannst mich nicht feuern, ich habe gekündigt!"
+@The_monster@ sagt, "Du kannst mich nicht feuern, ich kündige!"
 %%%%
 friendly Boris unsummoned
 
@@ -2068,11 +2072,11 @@ _chuck_generic_
 
 @The_monster@ sagt, "Ich mag Steine."
 
-@The_monster@ sagt, "Ich habe viele Steine."
+@The_monster@ sagt, "Ich hab viel Steine."
 
 @The_monster@ sagt, "Willst du meine Steine sehen?"
 
-@The_monster@ sagt, "Du siehst ein bisschen aus wie ein Stein."
+@The_monster@ sagt, "Du siehst bisschen aus wie Stein."
 
 @The_monster@ sagt, "Große Steine, kleine Steine, riesige Steine! Magische Steine!"
 
@@ -2080,21 +2084,21 @@ VISUAL:@The_monster@ sabbert ein bisschen.
 %%%%
 _chuck_rare_
 
-@The_monster@ sagt, "Mich hat beste Steine."
+@The_monster@ sagt, "Ich hab beste Steine."
 
 VISUAL:@The_monster@ beäugt dich misstrauisch.
 
-@The_monster@ sagt, "Nicht Steine stehlen!"
+@The_monster@ sagt, "Nicht Steine klauen!"
 
-@The_monster@ screams, "DIEBE!"
+@The_monster@ screams, "DIEB!"
 
-@The_monster@ sagt, "Du hast ihn genommen. Mich sah."
+@The_monster@ sagt, "Du hast genommen. Ich gesehen."
 
 @The_monster@ sagt, "Beste Steine! Steine!"
 
 @The_monster@ sagt, "STEINE!"
 
-@The_monster@ sagt, "ME ROCKS!"
+@The_monster@ sagt, "ICH STEINE!"
 ### End CHUCK ###
 %%%%
 ############ CRAZY YIUF ### A mad old gnoll!
@@ -2118,7 +2122,7 @@ Xom Crazy Yiuf
 @The_monster@ sagt, "Was ist schwieriger, einen Schlafenden zu wecken oder einen zu wecken, der wach ist und träumt, dass er wach ist?"
 
 # Chekhov
-@The_monster@ sagt, "Alle haben denselben Gott; nur die Menschen unterscheiden sich."
+@The_monster@ sagt, "Alle haben denselben Gott; nur die Leute unterscheiden sich."
 
 # Nietzsche
 @The_monster@ sagt, "Gegen die Langeweile kämpfen selbst Götter vergeblich."
@@ -2134,7 +2138,8 @@ Xom Crazy Yiuf
 Instinkt in unseren Seelen."
 
 # Kant
-@The_monster@ sagt, "Es ist höchst absurd, zu erwarten, von der Vernunft aufgeklärt zu werden, und ihr doch vorher vorzuschreiben, auf welche Seite sie sich neigen soll."
+# Translation note: Quote from Kritik der reinen Vernunft (1. Hauptstück. Die Disziplin der reinen Vernunft; A 747, B 775)
+@The_monster@ sagt, "Denn es ist sehr was Ungereimtes, von der Vernunft Aufklärung zu erwarten, und ihr doch vorher vorzuschreiben, auf welche Seite sie notwendig ausfallen müsse."
 
 VISUAL:@The_monster@ betrachtet den dialektischen Materialismus.
 
@@ -2144,6 +2149,15 @@ VISUAL:@The_monster@ mischt seine Notizen unter seinem Mantel.
 
 VISUAL:@The_monster@ seufzt nachdenklich.
 %%%%
+orb Crazy Yiuf
+
+@The_monster@ sagt, "Warte auf mich!"
+
+@The_monster@ sagt, "Du hast sie gefunden!"
+
+@The_monster@ says, "Hol mich hier raus."
+
+@The_monster@ says, "Du bist für mich zurückgekommen."
 # Not quite so mad when he's confused.
 confused Crazy Yiuf
 
@@ -2165,7 +2179,7 @@ VISUAL:@The_monster@ kratzt sich nachdenklich am Kopf.
 
 VISUAL:@The_monster@ zählt etwas an seinen Fingern ab.
 
-@The_monster@ sagt, "Mir schwirrt der Kopf!"
+@The_monster@ sagt, "Oh weh, mir schwirrt der Kopf!"
 
 @The_monster@ sagt, "Ich fühle mich ziemlich merkwürdig."
 %%%%
@@ -2174,9 +2188,9 @@ _crazy_yiuf_speech_
 w:300
 @The_monster@ @_crazy_yiuf_speech_verbs_@, "@_crazy_yiuf_sentence_@"
 
-VISUAL:@The_monster@ winkt mit seinem Viertelstab nach dir. @player_only@
+VISUAL:@The_monster@ schwenkt seinen Kampfstab in deine Richtung. @player_only@
 
-@The_monster@ schreit, "Du hast ein gebrochenes Bein, oder?"
+@The_monster@ schreit, "Du gehst unter gebrochenes Lied, oder?"
 
 VISUAL:@The_monster@ grinst.
 
@@ -2204,7 +2218,7 @@ lacht
 
 schreit
 
-schreit
+kreischt
 
 knirscht
 %%%%
@@ -2242,7 +2256,7 @@ Ankündigung
 
 Malen
 
-Snoogle
+Kuscheln
 
 Hah
 
@@ -2256,7 +2270,7 @@ Zwei
 
 Kerze
 
-Kaugummi
+Gummi
 
 Fäulnis
 
@@ -2266,23 +2280,23 @@ Cholesterin
 
 Kumpel
 
-Schnarcher
+Schneeregen
 
 Leder
 
 Gewehr
 
-Trifle
+Bagatelle
 
 Flaum
 
 Gnoll
 
-Reichsapfel
+Kugel
 
 Kreuzotter
 
-Dawk
+Hund
 
 Goldfisch
 
@@ -2310,7 +2324,7 @@ Papa
 
 Mama
 
-Whippet
+Rennhund
 
 Mistgabel
 
@@ -2320,7 +2334,7 @@ Leichenfledderer
 
 Schlumpf
 
-Goober
+Nüsschen
 
 Prolog
 
@@ -2346,15 +2360,15 @@ Saatgut
 
 Torte
 
-Zitrusfrüchte
+Zitrus
 
-Spliff
+Tüte
 
 Verleumden
 
 Leber
 
-Mugger
+Straßenräuber
 
 Gehen
 
@@ -2429,11 +2443,11 @@ Kopf
 
 Augapfel
 
-Snockshim
+Snockschim
 
-koolooloo
+kululu
 
-toodlewoodle
+tudelwudel
 
 kindisch
 
@@ -2443,9 +2457,9 @@ siebzig
 
 Püppchen
 
-leiter
+Leiter
 
-illywillydillykilly
+iedlwiedldiedltöten
 
 Orb-Wächter
 
@@ -2453,9 +2467,7 @@ Bienenstock
 
 Schildkröte
 
-Schildkröte
-
-testudinal
+Testudinata
 
 Rückkehr zum Gesang
 
@@ -2469,7 +2481,7 @@ verschmähen
 
 dozieren
 
-verde
+grün
 
 Schwein
 
@@ -2497,17 +2509,17 @@ hoch
 
 Aktion
 
-pizzabubble
+Pizzablase
 
-nudelkiste
+Nudelkiste
 
-murmeltcurry
+Murmelcurry
 
 ach
 
-rumpyflump
+Bürzelpflump
 
-sizzlefizz
+Brutzelsprudel
 
 %%%%
 ############ DISSOLUTION ### a sentient jelly who used to be human a long time ago
@@ -2525,7 +2537,7 @@ _dissolution_common_
 
 @The_monster@ gluckst laut.
 
-@The_monster@ gibt ein knisterndes Geräusch von sich.
+@The_monster@ gibt ein zischendes Geräusch von sich.
 
 VISUAL:@The_monster@ schwabbelt.
 
@@ -2552,9 +2564,9 @@ _dissolution_rare_
 w:1
 @The_monster@ sagt, "Von Schleim kommen wir, zu Schleim gehen wir."
 
-@The_monster@ sagt, "Beschließe, aufzulösen!"
+@The_monster@ sagt, "Auflösen ist die Lösung!"
 
-@The_monster@ sagt, "Eine Säureflut wird den ganzen Schleim wegätzen!"
+@The_monster@ sagt, "Eine Säureflut wird den ganzen Abschaum wegätzen!"
 
 w:2
 @The_monster@ sagt, "Es gibt einen Problemlöser und der heißt Auflöser!"
