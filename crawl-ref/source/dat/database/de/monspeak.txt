@@ -2158,6 +2158,7 @@ orb Crazy Yiuf
 @The_monster@ says, "Hol mich hier raus."
 
 @The_monster@ says, "Du bist für mich zurückgekommen."
+%%%%
 # Not quite so mad when he's confused.
 confused Crazy Yiuf
 
