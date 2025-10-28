@@ -1094,7 +1094,7 @@ VISUAL:@The_monster@ zertritt ein Insekt in der Nähe und lacht.
 %%%%
 Polearms player ghost
 
-@The_monster@ sagt, "Ein @foe_genus@ am Spieß, kommt sofort."
+@The_monster@ sagt, "@foe_genus@ am Spieß, kommt sofort."
 
 @The_monster@ sagt zu {dat}@foe@, "Dein Kopf auf einem Spieß würde gut zu diesem Boden passen."
 
@@ -1547,7 +1547,7 @@ eine Spinne
 eine Steinstatue
 
 w:5
-ein Drache
+einen Drachen
 %%%%
 _laughs_
 # also used by mimics
