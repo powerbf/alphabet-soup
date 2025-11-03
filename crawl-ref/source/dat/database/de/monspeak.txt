@@ -2580,15 +2580,15 @@ Temple Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Ich kann hier nie den Altar finden, den ich will."
+@The_monster@ sagt, "Hier finde ich nie den Altar, den ich will."
 
-@The_monster@ sagt, "Es gibt zu viele Götter, die meine Anbetung verlangen. Ich hasse das."
+@The_monster@ sagt, "Es gibt zu viele Götter, die von mir angebetet werden wollen. Ich hasse das."
 
 @The_monster@ sagt, "Warum hast du mich den ganzen Weg hierher gebracht, nur um den Tempel zu sehen?"
 
 @The_monster@ sagt, "Hier gibt es nicht genug Schätze."
 
-@The_monster@ sagt, "Du hast die Rune schon von hier mitgenommen, nicht wahr?"
+@The_monster@ sagt, "Du hast die Rune von hier schon mitgenommen, nicht wahr?"
 
 @The_monster@ sagt, "Die sogenannten 'guten' Götter sind genauso böse wie die anderen. Ich hasse Heuchelei."
 
@@ -2617,13 +2617,13 @@ w:50
 
 VISUAL:@The_monster@ tritt einen Stein und schaut finster drein.
 
-@The_monster@ sagt, "Warum ist es so dunkel? Haben die noch nie etwas von Fackeln gehört?"
+@The_monster@ sagt, "Warum ist es so dunkel? Haben die noch nie was von Fackeln gehört?"
 
 @The_monster@ sinniert, "Die sind auch verdammt hässlich!"
 
-@The_monster@ sagt, "Ich bin einem Ork begegnet. Er nannte sich Kriegsherr, und ich fragte, was für ein Krieg?"
+@The_monster@ sagt, "Ich bin einem Ork begegnet. Er nannte sich Kriegsherr und ich fragte, was für ein Krieg?"
 
-@The_monster@ sagt, "Diese Orks sind so dumm, sie müssen die Rune gegessen haben."
+@The_monster@ sagt, "Diese Orks sind so dumm, sie müssen die Rune gefressen haben."
 
 @The_monster@ sagt, "Ich fragte nach dem Weg zur Rune, aber sie rülpsten mich an."
 
@@ -2644,11 +2644,11 @@ w:50
 
 @The_monster@ sagt, "Wirklich hübsch, aber wirklich, wirklich langweilig. Ich hasse das."
 
-@The_monster@ sagt, "Was soll die ganze Gestik? Ich hasse das."
+@The_monster@ sagt, "Was soll die ganze Gestikuliererei? Ich hasse das."
 
 @The_monster@ sagt, "Warum haben diese Elfen so viele eklige Ratten und Spinnen?"
 
-@The_monster@ sagt, "Keiner dieser Elfen weiß, wie man kämpft. Ich hasse das."
+@The_monster@ sagt, "Diese Elfen wissen nicht, wie man kämpft. Ich hasse das."
 
 @The_monster@ sagt, "Wozu ist eine Halle der Klingen überhaupt gut?"
 %%%%
@@ -2663,7 +2663,7 @@ w:50
 
 @The_monster@ sagt, "Ich hasse Bäume. Ich hasse Sumpfwasser. Ich hasse diesen Ort."
 
-@The_monster@ sagt, "Ich würde gerne die Moskitos vernichten."
+@The_monster@ sagt, "Ich würde gerne alle Moskitos vernichten."
 
 @The_monster@ sagt, "Dieses surrende Geräusch? Das hasse ich am meisten."
 
@@ -2673,7 +2673,7 @@ w:50
 
 @The_monster@ sagt, "Verdammt, ich habe mein Flammenschwert zu Hause gelassen."
 
-@The_monster@ sagt, "Hasst du keine Blutsauger? Ich weiß, dass ich es tue."
+@The_monster@ sagt, "Hasst du Blutegel nicht? Ich weiß, dass ich es tue."
 
 @The_monster@ sagt, "Ich hasse Moskitos. Fast so sehr wie ich Sumpfwasser hasse."
 
@@ -2698,7 +2698,7 @@ w:50
 
 @The_monster@ sagt, "Die Sirenen fangen an, mir in den Ohren zu schmerzen."
 
-@The_monster@ sagt, "Müssen Sirenen so klingen? Ich kann besser singen als das!"
+@The_monster@ sagt, "Müssen Sirenen so klingen? Da kann ich ja besser singen!"
 
 @The_monster@ sagt, "Wo kommt das Meer her? Ich dachte, dieser Ort wäre unterirdisch."
 
@@ -2714,7 +2714,7 @@ w:50
 
 @The_monster@ sagt, "Ich suche Frau Medusa. Hast du sie gesehen?"
 
-@The_monster@ sagt, "Ich verstehe die Hälfte von dem, was diese Leute sagen, nicht. Für mich ist das alles Griechisch."
+@The_monster@ sagt, "Ich verstehe nicht mal ansatzweise, was diese Leute sagen. Für mich ist das alles Griechisch."
 
 @The_monster@ sagt, "Und ich dachte, die wären für ihre Poesie berühmt."
 
@@ -2724,7 +2724,7 @@ w:50
 
 @The_monster@ sagt, "Eine Schildkröte hat mich gebissen. Ich hasse Schildkröten."
 
-@The_monster@ sagt, "Dieses Tentakel kam einfach aus dem Nichts und hat mich berührt. Ich hasse Tentakel!"
+@The_monster@ sagt, "Dieses Tentakel kam einfach aus dem Nichts und hat mich angegrabscht. Ich hasse Tentakel!"
 %%%%
 Spider Donald
 
@@ -2743,13 +2743,13 @@ w:50
 
 @The_monster@ sagt, "Tanzende Spinnen? Ohne Stock und Zylinder?"
 
-@The_monster@ sagt, "Ich hab was in der Hose! Aieee!"
+@The_monster@ sagt, "Ich hab was in der Hose! Auweia!"
 
 @The_monster@ sagt, "Ich hasse Gift. Ich hasse es, gebissen zu werden."
 
 @The_monster@ sagt, "Arachnophobie ist keine Krankheit, das ist gesunder Menschenverstand."
 
-@The_monster@ sagt, "Da, an der Decke! Und an dieser Wand!"
+@The_monster@ sagt, "Da, an der Decke! Und an der Wand!"
 
 # TODO: If the Hellspider is added, you know what to do.
 %%%%
@@ -2760,7 +2760,7 @@ w:50
 
 @The_monster@ sagt, "Wo ist die ganze Beute?"
 
-@The_monster@ sagt, "Ich fühle mich jetzt wie ein Gelee-Sandwich."
+@The_monster@ sagt, "Jetzt fühle ich mich wie ein Marmeladen-Sandwich."
 
 @The_monster@ sagt, "Dieser Ort ist das reinste Loch."
 
@@ -2778,7 +2778,7 @@ w:50
 
 @The_monster@ sagt, "Was ist mit all dem Glibber los? Es ist wie eine Welt aus Glibber. Ich hasse Glibber."
 
-@The_monster@ sagt, "Jemand sagte, ich könnte mit Säure alle meine Probleme lösen. Es hat sie nur schlimmer gemacht."
+@The_monster@ sagt, "Jemand sagte, ich könne mit Säure all meine Probleme lösen. Es hat sie nur schlimmer gemacht."
 
 @The_monster@ sagt, "Ich hoffe, die Rune ist nicht klebrig."
 
@@ -2793,11 +2793,11 @@ w:50
 
 @The_monster@ sagt, "Kennst du dieses zischende Geräusch? Ich hasse das."
 
-@The_monster@ sagt, "Kennst du dieses schlurfende Geräusch? Ich hasse das."
+@The_monster@ sagt, "Kennst du dieses kriechende Geräusch? Ich hasse das."
 
 @The_monster@ sagt, "Ich würde aus diesen Schlangen gerne Handschuhe machen, aber ich hasse Handschuhe."
 
-@The_monster@ sagt, "Dieser Ort ist die Hölle."
+@The_monster@ sagt, "Dieser Ort ist echt eine Grube."
 
 @The_monster@ sagt, "Wozu brauchen Naga Harnische?"
 
@@ -2837,7 +2837,7 @@ Vaults Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Die Gewölbe? Sie hätten sie die Müllhalden nennen sollen."
+@The_monster@ sagt, "Die Gewölbe? Sie hätten es die Müllhalde nennen sollen."
 
 @The_monster@ sagt, "Nicht nötig, da unten ist nur Schrott."
 
@@ -2845,13 +2845,13 @@ w:50
 
 @The_monster@ sagt, "Ich kann mich nicht erinnern, eine Einladung zu einer Versammlung erhalten zu haben."
 
-@The_monster@ sagt, "Wer hat diesen Ort entworfen? Das ist nur ein Haufen komischer kleiner Räume, die aneinandergeklebt sind."
+@The_monster@ sagt, "Wer hat diesen Ort entworfen? Das ist nur ein Haufen komischer kleiner Räume, die aneinandergequetscht sind."
 
 @The_monster@ sagt, "Das ist verdammt viel Platz, nur um irgendwelchen Krempel unterzubringen."
 
-@The_monster@ sagt, "Ich habe vorhin ein paar Yaktauren gesehen, aber ich bin abgehauen."
+@The_monster@ sagt, "Ich habe vorhin ein paar Yaktauren gesehen, die wollten mich wegbolzen."
 
-@The_monster@ sagt, "Ich habe vorhin einen Drachen gesehen, aber ich bin nicht zu nahe rangekommen - er schien ziemlich quecksilbrig zu sein."
+@The_monster@ sagt, "Ich habe vorhin einen Drachen gesehen, aber Abstand gehalten - er schien quicklebendig zu sein."
 %%%%
 Crypt Donald
 
@@ -2860,13 +2860,13 @@ w:50
 
 @The_monster@ sagt, "Zombies sind ziemlich langweilig."
 
-@The_monster@ sagt, "Mann, ich kann es kaum erwarten, bis ich die Rune finde."
+@The_monster@ sagt, "Mann, ich kann es kaum erwarten, dass ich die Rune finde."
 
 @The_monster@ sagt, "Die müssen schon seit Jahrhunderten Zombies machen, um diesen Ort zu füllen."
 
 @The_monster@ sagt, "Mein Hals tut weh."
 
-@The_monster@ sagt, "Ist es verflucht, oder flucht es? Ich kann es nie sagen."
+@The_monster@ sagt, "Ist es verflucht, oder flucht es? Ich kann es nicht auseinander halten."
 
 @The_monster@ sagt, "Verfluchte Schädel, verfluchte Zehen... Was kommt als Nächstes?"
 
@@ -2894,9 +2894,9 @@ w:50
 
 @The_monster@ sagt, "Ich hoffe nur, dass die Beute nicht von Liches bewacht wird. Ich hasse Liches."
 
-@The_monster@ sagt, "Die Mumie war nicht so toll."
+@The_monster@ sagt, "Diese Mumie war nicht so großartig."
 
-@The_monster@ sagt, "Hier gibt es den gleichen Schrott wie überall sonst. Ich hasse das."
+@The_monster@ sagt, "Hier gibt es den gleichen Schrott wie überall. Ich hasse das."
 
 @The_monster@ sagt, "Hier gibt es nichts zu essen. Ich hasse das."
 
@@ -2908,11 +2908,11 @@ w:50
 
 @The_monster@ sagt, "Die machen nicht mal Musik."
 
-@The_monster@ sagt, "Irgendein Mausoleum."
+@The_monster@ sagt, "Von wegen Mausoleum."
 
 @The_monster@ sagt, "Ich habe vorhin eine Sphinx gesehen. Ich hasse das."
 
-@The_monster@ sagt, "Die Krypta, die Gruft, was kommt als Nächstes? Der Sarg?"
+@The_monster@ sagt, "Die Krypta, das Grab, was kommt als Nächstes? Der Sarg?"
 
 @The_monster@ sagt, "Diese ganzen Vampire machen mich ganz verrückt!"
 %%%%
@@ -2923,15 +2923,15 @@ w:50
 
 @The_monster@ sagt, "Aber ich will nicht tiefer gehen müssen!"
 
-@The_monster@ sagt, "Was bedeutet eigentlich 'eldritch'?"
+@The_monster@ sagt, "Was bedeutet eigentlich 'unheimlich'?"
 
-@The_monster@ sagt, "Ich höre ständig dieses komische Kreischen in meinem Kopf. Ich hasse das."
+@The_monster@ sagt, "Ich höre ständig dieses merkwürdige Kreischen in meinem Kopf. Ich hasse das."
 
 @The_monster@ sagt, "Ich habe noch nie gehört, dass ein Stern etwas verflucht."
 
-@The_monster@ sagt, "Ich habe noch nie von einem Stern gehört, der etwas hervorbringt."
+@The_monster@ sagt, "Ich habe noch nie von einem Stern gehört, der etwas ausbrütet."
 
-@The_monster@ wirft die Hände hoch und sagt, "Na gut, ich gebe es zu, ich habe mich verirrt!"
+@The_monster@ fuchtelt mit den Händen und sagt, "Na gut, ich gebe es zu, ich habe mich verirrt!"
 
 @The_monster@ sagt, "Ich hasse es, wenn man sich verrenkt."
 
@@ -2946,15 +2946,15 @@ w:50
 
 @The_monster@ sagt, "Wieso tragen hier unten alle einen Umhang?"
 
-@The_monster@ sagt, "Ich habe einem Draconier eine Ersatzrüstung angeboten, aber er sagte, sie passe ihm nicht."
+@The_monster@ sagt, "Ich habe einem Drakonier eine Ersatzrüstung angeboten, aber er sagte, sie passe ihm nicht."
 
 @The_monster@ sagt, "Ich habe das Gefühl, dass mich etwas anstarrt. Bist du das?"
 
 @The_monster@ sagt, "Wie macht man einen Golem aus Elektrizität?"
 
-@The_monster@ sagt, "Was ist eigentlich ein "Kugelwächter"?"
+@The_monster@ sagt, "Was ist eigentlich ein 'Kugelwächter'?"
 
-@The_monster@ sagt, "Kugeln des Feuers, Kugeln der Zerstörung, die Kugel von Zot ... was ist mit all den Kugeln?"
+@The_monster@ sagt, "Kugeln des Feuers, Kugeln der Zerstörung, die Kugel von Zot ... was hat es mit all den Kugeln auf sich?"
 
 @The_monster@ sagt, "Ich hasse Kugeln."
 
@@ -2966,13 +2966,13 @@ w:50
 
 @The_monster@ sagt, "Bauen die hier unten einen Zirkus auf?"
 
-@The_monster@ sagt, "Hierher kommen wahrscheinlich nicht viele Touristen."
+@The_monster@ sagt, "Hier gibt's wahrscheinlich nicht viele Touristen."
 
 @The_monster@ sagt, "Ach, dafür sind diese Runen also da!"
 
-@The_monster@ sagt, "Warum haben die Wände in jedem Stockwerk eine andere Farbe? Ist ihnen die Farbe ausgegangen?"
+@The_monster@ sagt, "Warum haben die Wände in jedem Stockwerk eine andere Farbe? Ist denen ständig die Farbe ausgegangen?"
 
-@The_monster@ sagt, "Was hält die Wachen davon ab, die Kugel einfach selbst zu stehlen?"
+@The_monster@ sagt, "Was hält die Wächter davon ab, die Kugel einfach selbst zu stehlen?"
 
 @The_monster@ sagt, "Ich hoffe, ich treffe hier unten keine Eiskugeln!"
 
@@ -2980,7 +2980,7 @@ w:50
 
 @The_monster@ sagt, "Die Kugel der Macht ist hier? Wo sind denn die anderen?"
 
-@The_monster@ sagt, "Ich habe vorhin einen lecker aussehenden Mais gesehen, aber er wollte mich fressen. Ich hasse das."
+@The_monster@ sagt, "Ich habe vorhin einen appetitlichen Mais gesehen, aber der wollte mich fressen. Ich hasse das."
 
 %%%%
 orb Donald
@@ -2988,21 +2988,21 @@ orb Donald
 w:25
 @_generic_Donald_@
 
-@The_monster@ sagt, "Danke, dass du die Kugel der Macht für mich getragen hast."
+@The_monster@ sagt, "Danke, dass du die Kugel der Macht für mich trägst."
 
-@The_monster@ sagt, "Ist das Ding nicht schwer? Ich könnte eine Runde drehen."
+@The_monster@ sagt, "Ist das Ding nicht schwer? Wir können uns abwechseln."
 
 @The_monster@ sagt, "Hast du keine Angst vor der Strahlung? Du solltest das weglegen."
 
-@The_monster@ sagt, "Was wilsst du mit der Kugel?"
+@The_monster@ sagt, "Was willst du mit der Kugel?"
 
-@The_monster@ sagt, "Glaubst du nicht, dass die Kugel der Macht aus einem bestimmten Grund da unten liegt?"
+@The_monster@ sagt, "Glaubst du nicht, dass die Kugel der Macht aus gutem Grund da unten war?"
 
 @The_monster@ sagt, "Ich habe gehört, dass die Welt untergeht, wenn man sie an die Oberfläche bringt."
 
 @The_monster@ sagt, "Irgendjemand wird nach der Kugel suchen."
 
-@The_monster@ sagt, "Bist du sicher, dass das die echte Kugel ist, und nicht irgendeine billige Imitation?"
+@The_monster@ sagt, "Bist du sicher, dass das die echte Kugel ist und keine billige Imitation?"
 
 @The_monster@ sagt, "Du hast die Kugel. War sie es wert?"
 
@@ -3012,7 +3012,7 @@ Zin Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "So viel zur Verbreitung des Wortes; stattdessen bekommt man einen Schlag ins Gesicht."
+@The_monster@ sagt, "So viel zur Verbreitung der Botschaft; stattdessen bekommt man einen Schlag ins Gesicht."
 
 @The_monster@ sagt, "In diesem Pamphlet steht nicht, was der Sinn von Rezitation ist."
 
@@ -3030,7 +3030,7 @@ w:50
 
 @The_monster@ sagt, "Mochtest du deine Hörner nicht?"
 
-@The_monster@ sagt, "Wenn ich dich zwanzig Goldmünzen gebe, kannst du dann meine fiesen Schuppen loswerden?"
+@The_monster@ sagt, "Wenn ich dir zwanzig Goldmünzen gebe, kannst du mich dann von diesen fiesen Schuppen befreien?"
 
 @The_monster@ hält sich die Ohren zu. "Halt die Klappe!"
 %%%%
@@ -3039,17 +3039,17 @@ the Shining One Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Was nützt es, ritterlich zu sein, wenn niemand ritterlich zurück sein wird?"
+@The_monster@ sagt, "Was nützt es, ritterlich zu sein, wenn niemand im Gegenzug ritterlich ist?"
 
 @The_monster@ sagt, "Ich öffne die Tür für einen Goblin und er schlägt mir ins Gesicht. Ich hasse Ritterlichkeit."
 
-@The_monster@ sagt, "Hah! Ich habt dich schon eine Meile vorher kommen sehen."
+@The_monster@ sagt, "Hah! Ich habe dich schon aus einer Meile kommen sehen."
 
-@The_monster@ sagt, "Du fällst auf wie ein wunder Daumen. Oder zumindest wie ein glänzender."
+@The_monster@ sagt, "Du fällst auf wie ein bunter Hund. Oder zumindest wie ein glänzender."
 
-@The_monster@ sagt, "Dann brauche ich diesen Ring aus positiver Energie wohl nicht, oder?"
+@The_monster@ sagt, "Dann brauche ich diesen Ring positiver Energie wohl nicht, oder?"
 
-@The_monster@ sagt, "Kannst du das Leuchten ein bisschen dämpfen? Ich kann dich nicht sehen, um dich zu treffen."
+@The_monster@ sagt, "Kannst du das Licht ein bisschen dimmen? Ich kann dich nicht sehen, um dich zu treffen."
 
 @The_monster@ sagt, "Reinigende Flamme? Was soll die denn reinigen? Den Boden?"
 
@@ -3060,15 +3060,15 @@ Kikubaaqudgha Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Kikubaa-was? Wie kann man das überhaupt sagen?"
+@The_monster@ sagt, "Kikubaa-was? Wie spricht man das überhaupt aus?"
 
-@The_monster@ sagt, "Entschuldigung, das habe ich nicht verstanden. Wen betest du an? Wie buchstabiert man das?"
+@The_monster@ sagt, "Entschuldigung, hab's nicht verstanden. Wen betest du an? Wie buchstabiert man das?"
 
 @The_monster@ sagt, "Kannst du es für mich buchstabieren - langsam?"
 
 @The_monster@ sagt, "Wie sprichst du das aus?"
 
-@The_monster@ sagt, "Dann bekommst du wenigstens etwas Lesestoff."
+@The_monster@ sagt, "Zumindest bekommst du etwas Lesestoff."
 
 @The_monster@ sagt, "Ich hasse Zombies."
 
@@ -3081,7 +3081,7 @@ w:50
 
 @The_monster@ sagt, "Wie fliegt eigentlich ein Knochendrache?"
 
-@The_monster@ sagt, "Wie häutet man eigentlich einen Geist?"
+@The_monster@ sagt, "Wie schindet man eigentlich einen Geist?"
 
 @The_monster@ sagt, "Pah! Du bist ja nicht mal ein richtiger Nekromant."
 
@@ -3093,9 +3093,9 @@ w:50
 
 @The_monster@ sagt, "Zombies? Skelette? Wird es dir nicht langweilig ohne richtige Gesellschaft?"
 
-@The_monster@ sagt, "Schwarz bemalte Engel sind so was von altmodisch."
+@The_monster@ sagt, "Schwarz bemalte Engel waren letztes Jahrhundert mal angesagt."
 
-@The_monster@ sagt, "Wenn du wolltest, dass das Licht schwächer ist, hättest du das sagen können."
+@The_monster@ sagt, "Wenn du das Licht etwas dimmen wolltest, hättest du's einfach sagen können."
 %%%%
 Okawaru Donald
 
@@ -3104,7 +3104,7 @@ w:50
 
 @The_monster@ sagt, "Okawaru lässt mich immer an Chokos denken."
 
-@The_monster@ sagt, "Oh, hey! Ich könnte ein neues Schild gebrauchen. Hast du noch welche?"
+@The_monster@ sagt, "Oh, hey! Ich könnte einen neuen Schild gebrauchen. Hast du noch welche?"
 
 @The_monster@ sagt, "Nette Ausrüstung."
 
@@ -3127,11 +3127,11 @@ w:50
 
 @The_monster@ sagt, "Bist du sicher, dass das Beschwören von Dämonen eine gute Idee ist?"
 
-@The_monster@ sagt, "Was ist so unbedeutend an Zerstörung?"
+@The_monster@ sagt, "Was ist so gering an Zerstörung?"
 
-@The_monster@ sagt, "Hey, pass auf, wohin du die Blitze wirfst!"
+@The_monster@ sagt, "Hey, pass auf, wohin du diese Kugelblitze wirfst!"
 
-@The_monster@ sagt, "Jetzt jag dich nicht in die Luft."
+@The_monster@ sagt, "Jetzt jag dich nicht selbst in die Luft."
 
 @The_monster@ sagt, "Ich hasse Dämonen."
 
@@ -3139,7 +3139,7 @@ w:50
 
 @The_monster@ sagt, "Ich hasse Leiden."
 
-@The_monster@ sagt, "Ich habe mir gerade den Zeh angeschlagen. Heißt das, ich bin gereinigt?"
+@The_monster@ sagt, "Ich habe mir gerade den Zeh gestoßen. Heißt das, ich bin gereinigt?"
 %%%%
 Sif Muna Donald
 
@@ -3156,13 +3156,13 @@ w:50
 
 @The_monster@ sagt, "Wenn du so viel lesen wolltest, warum bist du dann nicht Bibliothekar geworden?"
 
-@The_monster@ sagt, "Hast du an das gedacht, was du vergessen hast? Ich hasse das."
+@The_monster@ sagt, "Hast du dich erinnert, was du vergessen hast? Ich hasse das."
 
-@The_monster@ sagt, "Das ist wie eine "All-you-can-eat"-Bibliothek... oder so."
+@The_monster@ sagt, "Es geht darum soviel zu lesen, wie du kannst... oder so."
 
 @The_monster@ sagt, "Ich hasse Bücher."
 
-@The_monster@ sagt, "Es gibt doch sicher ein Limit für die Anzahl der Bücher, die man mitnehmen kann. Oder?"
+@The_monster@ sagt, "Es gibt doch sicher eine Begrenzung, wie viele Bücher du tragen kannst. Oder?"
 
 @The_monster@ sagt, "Es ist gut, dass man Magie wie von Zauberhand lernen kann."
 
@@ -3179,15 +3179,15 @@ w:50
 
 @The_monster@ sagt, "Du Troglodyt!"
 
-@The_monster@ sagt, "Ich habe gehört, dass Trog Probleme mit dem Verlassenwerden hat."
+@The_monster@ sagt, "Ich habe gehört, dass Trog Probleme damit hat, verlassen zu werden."
 
 @The_monster@ sagt, "Ich wette, Trogs nächste Axt wird dich in den Abgrund führen."
 
-@The_monster@ sagt, "Ich habe Trog in Betracht gezogen, aber die Nachwirkungen des Berserkers machen mir Angst."
+@The_monster@ sagt, "Ich habe Trog in Betracht gezogen, aber die Nachwirkungen der Berserkerwut machen mir Angst."
 
-@The_monster@ sagt, "Wenn man so oft in Ohnmacht fällt, muss doch etwas nicht stimmen, oder?"
+@The_monster@ sagt, "Wenn man so oft in Ohnmacht fällt, kann doch etwas nicht stimmen, oder?"
 
-@The_monster@ sagt, "Ich wette, du wünschst dir, du könntest jetzt zaubern, richtig?"
+@The_monster@ sagt, "Ich wette, jetzt wünschst du dir, du könntest zaubern, richtig?"
 
 @The_monster@ sagt, "Bist du sicher, dass du Schriftrollen lesen darfst?"
 
@@ -3216,9 +3216,9 @@ w:50
 
 @The_monster@ sagt, "Den Trick habe ich schon mal gesehen. Du hast doch ein Ass im Ärmel, oder?"
 
-@The_monster@ sagt, "Du musst dich mit deinem Spielproblem auseinandersetzen."
+@The_monster@ sagt, "Du musst dich mit deiner Glücksspielsucht auseinandersetzen."
 
-@The_monster@ sagt, "Wie wär's mit einem Spiel 52-Karten-Aufheben?"
+@The_monster@ sagt, "Wie wär's, wenn wir '32, heb auf!' spielen?"
 
 @The_monster@ lacht, "Ein explosives Gambit... Ich hasse das."
 %%%%
@@ -3227,7 +3227,7 @@ Elyvilon Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Was ist eigentlich aus dem Motto 'Erstens: Nicht schaden' geworden?"
+@The_monster@ sagt, "Von wegen, 'Erstens: Füge niemandem Schaden zu.'"
 
 @The_monster@ sagt, "Klingt es nicht ziemlich sinnlos, deine Feinde zu heilen?"
 
@@ -3244,9 +3244,9 @@ Lugonu Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Warum willst du den Abyss besuchen? Für einen Urlaub?"
+@The_monster@ sagt, "Warum willst du den Abgrund besuchen? Für einen Urlaub?"
 
-@The_monster@ sagt, "Ich wusste gar nicht, dass Blinzeln wehtun soll."
+@The_monster@ sagt, "Ich wusste gar nicht, dass Blinzeln wehtut."
 
 @The_monster@ sagt, "Wenn ich im Abyss bin, greift mich nie etwas an."
 
@@ -3261,9 +3261,9 @@ w:50
 
 @The_monster@ sagt, "Eine der Priesterinnen sah aus, als wollte sie mich fragen, ob ich mitmachen will... Ich schätze, sie hat es sich anders überlegt."
 
-@The_monster@ sagt, "Du denkst, auf dem Wasser zu laufen ist cool? Ich kann schwimmen."
+@The_monster@ sagt, "Du denkst, auf dem Wasser laufen ist cool? Ich kann schwimmen."
 
-@The_monster@ sagt, "Ist es nicht ärgerlich, wenn die Leute anfangen, dir einfach zu folgen?"
+@The_monster@ sagt, "Ist es nicht nervig, wenn die Leute einfach anfangen, dir zu folgen?"
 
 @The_monster@ sagt, "Ich würde es leid werden, so viele Truppen zu organisieren."
 
@@ -3281,14 +3281,14 @@ w:50
 
 @The_monster@ sagt, "Messias? Ich hasse Messiasse."
 
-@The_monster@ verbeugt sich und unterwirft sich dich. "Nee, war nur ein Scherz."
+@The_monster@ verbeugt sich und unterwirft sich dir. "Nee, war nur ein Scherz."
 %%%%
 Jiyva Donald
 
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Komm schleimen mit mir!"
+@The_monster@ sagt, "Komm, lass uns schleimen!"
 
 @The_monster@ sagt, "Du siehst ein bisschen schleimig aus."
 
@@ -3311,9 +3311,9 @@ Fedhas Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Was ist mit dem ganzen Pilz?"
+@The_monster@ sagt, "Was ist mit den ganzen Pilzen?"
 
-@The_monster@ sagt, "Ich kann auch eine Wasserpfütze auf dem Boden machen."
+@The_monster@ sagt, "Ich kann auch eine Wasserpfütze auf den Boden machen."
 
 @The_monster@ sagt, "Ich hasse Bäume."
 
@@ -3369,7 +3369,7 @@ w:50
 
 @The_monster@ sagt, "Ich hoffe, du magst tanzende Waffen. Ich hasse sie."
 
-@The_monster@ sagt, "Warst du in letzter Zeit von Dämonenrudeln umgeben? Ich hasse das."
+@The_monster@ sagt, "Warst du in letzter Zeit mal von einem Rudel Dämonen umgeben? Ich hasse das."
 
 @The_monster@ sagt, "Xom macht einfach keinen Sinn. Ich hasse das."
 
@@ -3384,7 +3384,7 @@ Vehumet Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Was für ein Gott gibt man Zaubersprüche, aber keine Zauberbücher?"
+@The_monster@ sagt, "Was für ein Gott gibt dir Zaubersprüche, aber keine Zauberbücher?"
 
 @The_monster@ sagt, "Es soll im Höllenfeuer enden? Wann bekommt man denn einen Höllenfeuerzauber?"
 
@@ -3412,7 +3412,7 @@ w:50
 
 @The_monster@ sagt, "Ich wurde mal an den Himmel genagelt. Keine große Sache, wirklich."
 
-@The_monster@ sagt, "Du musst dieses tödlich kalte Gefühl lieben. Ich hasse es."
+@The_monster@ sagt, "Du musst dieses todeskalte Gefühl lieben. Ich hasse es."
 
 @The_monster@ sagt, "Ich hasse Voyeure."
 
@@ -3448,9 +3448,9 @@ w:50
 
 @The_monster@ sagt, "Konntest du nicht genug Tränke auftreiben?"
 
-@The_monster@ sagt, "Also waren die Läden hier nicht genug für dich?"
+@The_monster@ sagt, "Also waren dir die Läden hier nicht genug?"
 
-@The_monster@ sagt, "Ich habe da drüben etwas Gold gesehen. Schnell, hol es dir lieber!"
+@The_monster@ sagt, "Ich habe da drüben etwas Gold gesehen. Schnell, hol es dir am besten!"
 
 @The_monster@ sagt, "Was haben Tränke eigentlich mit einem Gott des Goldes zu tun?"
 %%%%
@@ -3459,7 +3459,7 @@ Qazlal Donald
 w:50
 @_generic_Donald_@
 
-@The_monster@ sagt, "Wie kannst du nachts schlafen bei all den Gewitterwolken?"
+@The_monster@ sagt, "Wie kannst du nachts schlafen, bei all den Gewitterwolken?"
 
 @The_monster@ sagt, "Es muss ziemlich schwer sein, durch all den Staub zu sehen."
 
@@ -3467,7 +3467,7 @@ w:50
 
 @The_monster@ sagt, "Ich hasse Katastrophen."
 
-@The_monster@ sagt, "Was war das? Tut mir leid, ich konnte dich bei all dem Lärm nicht hören."
+@The_monster@ sagt, "Was hast du gesagt? Tut mir leid, ich konnte dich bei all dem Lärm nicht hören."
 
 @The_monster@ sagt, "Na ja, wenigstens fehlt es dir nie an Gesellschaft."
 
@@ -3503,7 +3503,7 @@ w:50
 
 @The_monster@ sagt, "Was hast du mit all diesen Geräten vor, eine Art Pfandhaus?"
 
-@The_monster@ sagt, "Was willst du eigentlich mit der Kugel machen? Mit ihm experimentieren?"
+@The_monster@ sagt, "Was willst du eigentlich mit der Kugel machen? Experimentieren?"
 
 @The_monster@ sagt, "Ich wette, du kommst aus der Sache nicht mehr raus."
 
@@ -3516,13 +3516,13 @@ w:50
 
 @The_monster@ sagt, "Ich war mal bei einem Familientreffen. Ich habe es gehasst."
 
-@The_monster@ sagt, "Wer würde sich an seine Vorfahren erinnern wollen? Die sind doch tot."
+@The_monster@ sagt, "Wer will sich schon an seine Vorfahren erinnern? Die sind doch tot."
 
 @The_monster@ sagt, "Wenn dein Vorfahre so stark und mächtig war, warum ist er dann tot?"
 
-@The_monster@ sagt, "Weißt du zufällig, wo die Kugel ist?"
+@The_monster@ sagt, "Kannst du dich zufällig erinnern, wo die Kugel ist?"
 
-@The_monster@ sagt, "Geistergeschichten? Ooh, ich habe solche Angst!"
+@The_monster@ sagt, "Geistergeschichten? Uuh, ich habe solche Angst!"
 %%%%
 Uskayaw Donald
 
@@ -3550,7 +3550,7 @@ w:50
 
 @The_monster@ sagt, "Wenn ich sehe, wie du dich drehst, wird mir schwindlig. Ich hasse das."
 
-@The_monster@ sagt, "Warum schlägst du sie nicht einfach, ohne diesen Unsinn mit dem Drehen und Flippen?"
+@The_monster@ sagt, "Warum schlägst du sie nicht einfach, ohne diesen Unsinn mit dem Drehen und den Saltos?"
 
 @The_monster@ sagt, "Hast du es nicht satt, dass diese alten Knacker dir sagen, was du tun sollst?"
 
@@ -3568,9 +3568,9 @@ w:50
 @The_monster@ sagt, "Ich hasse Atheisten."
 
 w:5
-@The_monster@ sagt, "Ich hasse die Götter, und die Götter hassen mich."
+@The_monster@ sagt, "Ich hasse die Götter und die Götter hassen mich."
 
-@The_monster@ sagt, "Dir müssen die Götter ausgehen, bei denen du fluchen kannst."
+@The_monster@ sagt, "Dir müssen die Götter ausgehen, mit deren Namen du fluchen kannst."
 
 @The_monster@ sagt, "Hast du den Ökumenischen Tempel verpasst?"
 %%%%
@@ -3589,7 +3589,7 @@ _generic_Donald_
 
 @The_monster@ sagt, "Meine Füße tun weh."
 
-@The_monster@ sagt, "Mir tun auch die Hände weh."
+@The_monster@ sagt, "Meine Hände tun auch weh."
 
 @The_monster@ sagt, "Ich glaube, ich kriege einen Husten. Ich hasse das."
 
@@ -3601,9 +3601,9 @@ _generic_Donald_
 
 @The_monster@ sagt, "Und du denkst, du hast es schlecht..."
 
-@The_monster@ sagt, "Ich frage mich, ob es ein Ende für diesen Ort gibt."
+@The_monster@ sagt, "Ich frage mich, ob dieser Ort ein Ende hat."
 
-@The_monster@ sagt, "Sind es immer nur Schildkröten?"
+@The_monster@ sagt, "Ist bis nach ganz unten alles voller Schildkröten?"
 
 @The_monster@ sagt, "Die Leute, die diesen Ort gebaut haben? Die müssen verrückt sein."
 
@@ -3613,7 +3613,7 @@ _generic_Donald_
 
 @The_monster@ sagt, "Was ist das eigentlich für eine Kugel?"
 
-@The_monster@ sagt, "Ich hoffe, ich bin nicht den ganzen Weg hierher gekommen für einen verherrlichten Briefbeschwerer."
+@The_monster@ sagt, "Ich hoffe, ich bin nicht für einen glorifizierten Briefbeschwerer den weiten Weg hierher gekommen."
 
 @The_monster@ sagt, "Ich verstehe nicht, was an der Zahl siebenundzwanzig so besonders sein soll."
 
@@ -3623,13 +3623,13 @@ _generic_Donald_
 
 @The_monster@ sagt, "Die Gewölbe sehen irgendwie langweilig aus."
 
-@The_monster@ sagt, "Ich kann mir nie erklären, was diese Schriftrollen bedeuten."
+@The_monster@ sagt, "Ich kann mir nie zusammenreimen, was diese Schriftrollen bedeuten."
 
 @The_monster@ seufzt.
 
 VISUAL:@The_monster@ zuckt zusammen.
 
-VISUAL:@The_monster@ macht eine unhöfliche Geste zu dir.
+VISUAL:@The_monster@ zeigt dir eine unhöfliche Geste.
 
 VISUAL:@The_monster@ schüttelt den Kopf.
 
@@ -3657,7 +3657,7 @@ default hostile confused Donald
 
 @The_monster@ sagt, "Ach, pfui!"
 
-@The_monster@ sagt, "Aber ich habe eine Frau! Und Kinder! Hab ich?"
+@The_monster@ sagt, "Aber ich habe eine Frau! Und Kinder! Oder?"
 
 @The_monster@ schreit.
 
@@ -3727,7 +3727,7 @@ VISUAL:@The_monster@ grinst und zeigt mit einem schlanken Finger auf @foe@.
 %%%%
 _Dowan_rare_
 
-VISUAL:@The_monster@ wirft und fängt eine Handvoll magischer Flammen und grinst dann.
+VISUAL:@The_monster@ wirft und fängt eine Handvoll magischer Flammen und grinst.
 
 VISUAL:Das Gewand {gen}@the_monster@ wird von einer magischen Brise herumgepeitscht.
 
@@ -3735,13 +3735,13 @@ VISUAL:Die Füße {gen}@the_monster@ verschmelzen kurz mit dem Boden.
 
 VISUAL:@The_monster@ erzeugt eine Fontäne aus klarem Wasser und lacht grausam.
 
-@The_monster@ flüstert zu {dat}@foe@, "Es wird nicht mehr lange dauern."
+@The_monster@ flüstert {dat}@foe@ zu, "Es wird nicht mehr lange dauern."
 
-@The_monster@ zischt zu {dat}@foe@, "Meine Schönheit zu beleidigen, lässt mich nur noch härter kämpfen!"
+@The_monster@ zischt {dat}@foe@ zu, "Meine Schönheit zu beleidigen, das lässt mich nur noch härter kämpfen!"
 
 @The_monster@ sagt zu {dat}@foe@, "Wo das Schwert versagt, hat die Magie Erfolg!"
 
-@The_monster@ sagt zu {dat}@foe@, "Es liegt eine gewisse Schönheit im Tod, meinst du nicht?"
+@The_monster@ sagt zu {dat}@foe@, "Es liegt eine gewisse Schönheit im Tod, meinst du nicht auch?"
 
 @The_monster@ lacht dich an. "Mach dir keine Illusionen, du kannst nicht gewinnen!"
 %%%%
@@ -3784,11 +3784,11 @@ VISUAL:@The_monster@ knirscht mit den Zähnen und konzentriert sich.
 
 @The_monster@ sagt, "Das Schwert soll den Kummer überwinden!"
 
-@The_monster@ sagt, "Sein Tod soll nicht vergeblich sein!"
+@The_monster@ sagt, "Sein Tod soll nicht vergebens sein!"
 
 @The_monster@ sagt, "Ich werde ihn rächen!"
 
-@The_monster@ sagt, "Ich werde in die Hölle reisen, um ihn zu holen!"
+@The_monster@ sagt, "Ich werde in die Hölle reisen, um ihn zurückzuholen!"
 
 VISUAL:@The_monster@ weint.
 %%%%
@@ -3798,7 +3798,7 @@ VISUAL:@The_monster@ zittert vor Kummer und Entsetzen.
 
 @The_monster@ sagt, "Was habe ich getan? Was habe ich nur getan?"
 
-@The_monster@ sagt, "Wie kann ich danach noch leben?"
+@The_monster@ sagt, "Wie kann ich jetzt noch weiterleben?"
 
 @The_monster@ schreit.
 %%%%
@@ -3808,7 +3808,7 @@ VISUAL:@The_monster@ zittert vor einer Mischung aus Wut und Kummer.
 
 VISUAL:@The_monster@ knirscht mit den Zähnen und konzentriert sich.
 
-@The_monster@ sagt, "Ich werde in den Abgrund reisen, um ihn zu holen!"
+@The_monster@ sagt, "Ich werde in den Abgrund reisen, um ihn zurückzuholen!"
 
 @The_monster@ sagt, "Ich werde ihn zurückholen!"
 %%%%
@@ -3845,9 +3845,9 @@ _Duvessa_rare_
 
 @The_monster@ sagt zu {dat}@foe@, "Das Aussehen ist mir egal, mir geht es um die Technik!"
 
-@The_monster@ sagt zu {dat}@foe@, "Hast du den Move gesehen? Perfekt!"
+@The_monster@ sagt zu {dat}@foe@, "Hast du diesen Move gesehen? Perfekt!"
 
-@The_monster@ sagt zu {dat}@foe@, "Schönheit ist nur oberflächlich, und meine Waffen dringen viel weiter ein."
+@The_monster@ sagt zu {dat}@foe@, "Schönheit ist nur oberflächlich und meine Waffen dringen viel tiefer ein."
 
 @The_monster@ sagt zu {dat}@foe@, "Üben, üben, üben! Eines Tages wirst du so gut sein wie ich." @player_only@
 %%%%
@@ -3857,7 +3857,7 @@ Duvessa_Dowan_dies
 
 @The_monster@ schreit, "Nein! Wie kannst du es wagen!"
 
-VISUAL:@The_monster@ weint, dann richtet sie sich auf und schüttelt ihre Waffe.
+VISUAL:@The_monster@ weint, dann richtet sie sich auf und fuchtelt mit ihrer Waffe.
 %%%%
 Duvessa_Dowan_dies_invisible
 
@@ -3896,11 +3896,11 @@ w:5
 %%%%
 _Edmund_common_
 
-VISUAL:@The_monster@ gestikuliert mit seinem Flegel auf @foe@.
+VISUAL:@The_monster@ zeigt mit seinem Flegel auf @foe@.
 
 @The_monster@ räuspert sich.
 
-@The_monster@ sagt, "Du würdest nicht glauben, wie viel ich für diesen Dreschflegel bezahlt habe."
+@The_monster@ sagt, "Du würdest nicht glauben, wie viel ich für diesen Flegel bezahlt habe."
 
 @The_monster@ @asks_foe@, "Hast du meinen wundersamen Bruder schon kennengelernt?"
 
@@ -3910,7 +3910,7 @@ VISUAL:@The_monster@ gestikuliert mit seinem Flegel auf @foe@.
 
 @The_monster@ sagt, "Ich kann auch ganz gut rechnen."
 
-@The_monster@ sagt, "Man hat mir vorgeworfen, ich sei ein Miesepeter!"
+@The_monster@ sagt, "Man hat mir vorgeworfen, ich sei ein Taschendieb!"
 %%%%
 _Edmund_rare_
 
@@ -3964,7 +3964,7 @@ _Erica_rare_
 
 @The_monster@ @_screams_at_foe_@, "Beeil dich, der Tod wartet auf dich!"
 
-@The_monster@ @_screams_at_foe_@, "Ich werde nie verraten, wo es ist!"
+@The_monster@ @_screams_at_foe_@, "Ich werde nie verraten, wo sie ist!"
 
 @The_monster@ @_screams_at_foe_@, "Du wirst sie nie bekommen!"
 
@@ -3991,19 +3991,19 @@ VISUAL:@The_monster@ versucht, böse zu grinsen.
 
 @The_monster@ @_screams_at_foe_@, "Mittagessen!"
 
-@The_monster@ @_screams_at_foe_@, "Erolcha tötet dich!"
+@The_monster@ @_screams_at_foe_@, "Erolcha dich töten!"
 %%%%
 _Erolcha_rare_
 
 @The_monster@ @_screams_at_foe_@, "Fressen!"
 
-@The_monster@ @_screams_at_foe_@, "Steh auf! Erolcha schlägt dich!"
+@The_monster@ @_screams_at_foe_@, "Bleib stehen! Erolcha dich schlagen!"
 
 @The_monster@ @_screams_at_foe_@, "Blut!"
 
-@The_monster@ @_screams_at_foe_@, "Erolcha zerquetscht deinen Kopf!"
+@The_monster@ @_screams_at_foe_@, "Erolcha deinen Kopf zerquetschen!"
 
-@The_monster@ @_screams_at_foe_@, "Erolcha freut sich, dich zu töten!"
+@The_monster@ @_screams_at_foe_@, "Erolcha freut sich, dich töten!"
 
 @The_monster@ @_screams_at_foe_@, "Erolcha wütend!"
 ## END Erolcha ##
@@ -4018,7 +4018,7 @@ w:5
 %%%%
 _Eustachio_common_
 
-@The_monster@ @_screams_at_foe_@, "Endlich habe ich meine Rache!"
+@The_monster@ @_screams_at_foe_@, "Endlich kann ich Rache nehmen!"
 
 @The_monster@ schreit zu @foe@, "Hey, du hast meine Lieblingsfledermaus getötet!"
 
@@ -4057,13 +4057,13 @@ _Frances_common_
 
 VISUAL:@The_monster@ spottet über @foe@.
 
-VISUAL:@The_monster@ fährt mit dem Finger über seine Narbe.
+VISUAL:@The_monster@ fährt mit dem Finger über ihre Narbe.
 
 @The_monster@ spricht in einer unverständlichen Sprache.
 
 @The_monster@ murmelt ein unaussprechliches Wort.
 
-@The_monster@ sagt, "Zeig mir einen Beweis für deine Eroberungen, und ich werde dich einen großen Abenteurer nennen." @player_only@
+@The_monster@ sagt, "Zeig mir einen Beweis für deine Eroberungen und ich werde dich einen großen Abenteurer nennen." @player_only@
 
 @The_monster@ sagt, "Ich befehlige eine Armee von Teufeln. Was befehligst du?" @player_only@
 
@@ -4085,12 +4085,12 @@ VISUAL: @The_monster@ nimmt eine defensive Haltung ein.
 
 @The_monster@ sagt, "Würdest du mich herausfordern, wenn du meine Macht kennst?"
 
-@The_monster@ sagt, "Ich bin im einhändigen Kampf unbesiegt."
+@The_monster@ sagt, "Ich bin im Einzelkampf unbesiegt."
 
 @The_monster@ sagt, "Krieger sind für Krieg und Kampf gemacht. Nennst du dich selbst einen Krieger?"
 
 w:1
-@The_monster@ sagt, "Selbst die Hallen der Hölle könnten mich nicht fassen."
+@The_monster@ sagt, "Selbst die Hallen der Hölle könnten mich nicht halten."
 
 @The_monster@ sagt, "Ich werde dich besiegen, daran habe ich keinen Zweifel!" @player_only@
 %%%%
@@ -4113,7 +4113,7 @@ w:30
 Okawaru Frederick
 
 w:2
-@The_monster@ sagt, "Pah! Diejenigen, die sich auf Götter verlassen, um Stärke zu erlangen, kommen im Leben nicht weiter."
+@The_monster@ sagt, "Pah! Diejenigen, die sich auf Götter verlassen, um Stärke zu erlangen, bringen es im Leben nicht weit."
 
 w:30
 @Frederick@
@@ -4134,9 +4134,9 @@ VISUAL:@The_monster@ gähnt auf übertriebene Weise.
 
 @The_monster@ sagt, "Ich habe heute schon fünf 'Abenteurer' getötet. Willst du der sechste sein?"
 
-@The_monster@ sagt, "Mich herausfordern? Dich, und wessen Armee?" @player_only@
+@The_monster@ sagt, "Mich herausfordern? Du und welche Armee?" @player_only@
 
-@The_monster@ sagt zu {dat}@foe@, "Warum sollte ich mich überhaupt mit Leuten wie dir anlegen?"
+@The_monster@ sagt zu {dat}@foe@, "Warum sollte ich mich überhaupt mit deinesgleichen anlegen?"
 %%%%
 _Frederick_rare_
 
@@ -4154,9 +4154,9 @@ VISUAL:@The_monster@ seufzt.
 w:5
 @The_monster@ sagt, "Für dich ist heute der schwierigste Kampf deines Lebens. Für mich... nun, ich werde in Kürze zu Mittag essen." @player_only@
 
-@The_monster@ sagt, "Vielleicht hätte ich Holzfäller werden sollen. Die Bäume hätten sich vielleicht mehr gewehrt."
+@The_monster@ sagt, "Vielleicht hätte ich Holzfäller werden sollen. Die Bäume hätten sich vielleicht mehr Kampfgeist."
 
-@The_monster@ sagt, "Dich zu töten wäre eine lästige Pflicht, keine Freude." @player_only@
+@The_monster@ sagt, "Dich zu töten wäre nur Routine, keine Freude." @player_only@
 
 @The_monster@ mustert {acc}@foe@ aufmerksam. "Man sagte mir, nur würdige Gegner würden so weit kommen."
 %%%%
@@ -4180,15 +4180,15 @@ VISUAL:@The_monster@ streicht einige Schneeflocken von seinem Gewand.
 %%%%
 _Fannar_rare_
 
-@The_monster@ sagt zu {dat}@foe@, "Einfrieren!"
+@The_monster@ sagt zu {dat}@foe@, "Keine Bewegung!"
 
-@The_monster@ sagt zu {dat}@foe@, "Ich werde dich bis in deine Seele einfrieren!"
+@The_monster@ sagt zu {dat}@foe@, "Ich werde deine Seele erfrieren lassen!"
 
 @The_monster@ sagt zu {dat}@foe@, "Eine eisige Umarmung erwartet dich..."
 
 @The_monster@ sagt zu {dat}@foe@, "Du wirst eine schöne Eisskulptur abgeben."
 
-@The_monster@ sagt zu {dat}@foe@, "Schüttelt dich das nicht?"
+@The_monster@ sagt zu {dat}@foe@, "Macht dir das keine Gänsehaut?"
 %%%%
 ############ Gastronok ### A rather hungry wizard-slug
 # Cantrip messages:
@@ -4212,7 +4212,7 @@ _gastronok_self_buff_
 
 @The_monster@ wackelt wie verrückt.
 
-Die Augenstiele {gen}@the_monster@ dehnen sich aus und kehren dann zur normalen Größe zurück.
+Die Stielaugen {gen}@the_monster@ strecken sich und kehren dann zur normalen Größe zurück.
 %%%%
 # When targeting other monsters.
 _gastronok_other_buff_
@@ -4236,7 +4236,7 @@ Deine Haut nimmt einen leichten Grünstich an.
 Du wackelst wie Gelee.
 
 w:5
-Du verspürst den plötzlichen Drang, deine nicht vorhandenen Augenstiele herumzuschwenken.
+Du verspürst den plötzlichen Drang, deine nicht vorhandenen Stielaugen herumzuschwenken.
 %%%%
 # And finally, his speech.
 Gastronok
@@ -4250,7 +4250,7 @@ _Gastronok_common_
 
 VISUAL: @The_monster@ schwappt umher.
 
-@The_monster@ gluckst, "Ich fresse dich, ich fresse dich!"
+@The_monster@ gluckst, "Ich fresse dich, das werd ich tun!"
 
 @The_monster@ gluckst, "Ein Snack! Ein Snack!"
 
@@ -4260,11 +4260,11 @@ VISUAL: @The_monster@ schwappt umher.
 %%%%
 _Gastronok_rare_
 
-VISUAL:@The_monster@s Maul öffnet sich, die Radula fuchtelt wild.
+VISUAL:@The_monster@s Maul öffnet sich, die Radula schwingt wild herum.
 
-VISUAL:@The_monster@ wird von einer plötzlichen Brise umgeworfen.
+VISUAL:@The_monster@ wird von einer plötzlichen Brise hin- und hergeworfen.
 
-VISUAL:Die Augenstiele {gen}@the_monster@ wackeln, so dass es fast seinen Zaubererhut abwirft.
+VISUAL:Die Stielaugen {gen}@the_monster@ wackeln, so dass es fast seinen Zaubererhut verliert.
 
 @The_monster@ gluckst, "Du bist, wie ich mein Essen mag. Schnell!"
 
@@ -4296,7 +4296,7 @@ VISUAL:@The_monster@ grinst und zeigt scharfe Zähne.
 
 @The_monster@ sagt, "Es gibt nur eine gute Verwendung für eine Zunge: sie herauszuschneiden."
 
-@The_monster@ sagt, "Meistens konnte ich sie nicht am Leben erhalten."
+@The_monster@ sagt, "Meistens konnte ich sie nicht am Leben halten."
 
 @The_monster@ sagt, "ENTE!"
 
@@ -4308,7 +4308,7 @@ VISUAL:@The_monster@ grinst und zeigt scharfe Zähne.
 
 @The_monster@ sagt, "Rühr dich nicht von der Stelle."
 
-@The_monster@ sagt, "Erzähl mir alle deine Geheimnisse, oder ich bringe dich um."
+@The_monster@ sagt, "Erzähl mir alle deine Geheimnisse oder ich bringe dich um."
 %%%%
 _Grinder_rare_
 
@@ -4316,7 +4316,7 @@ _Grinder_rare_
 
 @The_monster@ sagt, "Wozu ist das Universum da?"
 
-@The_monster@ sagt, "Mein Chef hat gesagt, ich sei Gerümpel. Seine Eingeweide sagten etwas anderes."
+@The_monster@ sagt, "Mein Chef sagte, ich sei nutzlos. Seine Eingeweide sagten etwas anderes."
 
 @The_monster@ sagt, "Wenigstens weiß @my_God@ zu schätzen, was ich tue."
 
@@ -4342,14 +4342,14 @@ VISUAL:@The_monster@ fletscht seine Zähne.
 
 @The_monster@ stößt ein furchterregendes Heulen aus.
 
-VISUAL:@The_monster@ schnuppert an der Luft und sieht sich schnell um.
+VISUAL:@The_monster@ schnuppert in der Luft und sieht sich schnell um.
 
 ## The following ones make little sense after you've killed his dogs. Maybe Grum is a little bit crazy..? ##
 @The_monster@ zeigt mit dem Finger auf @foe@ und @_Grum_verb_@, "Attacke!"
 
 @The_monster@ zeigt mit dem Finger auf @foe@ und ruft, "@_Grum_dog_name_@, "Attacke!"
 
-@The_monster@ blickt sich um und ruft, " @_Grum_dog_name_@! Hier Junge!"
+@The_monster@ blickt sich um und ruft, " @_Grum_dog_name_@! Hierher, Junge!"
 
 @The_monster@ ruft, " @_Grum_dog_name_@! Braver Junge!"
 
@@ -4360,7 +4360,7 @@ VISUAL:@The_monster@ ist kurzzeitig von einem Floh in seinem Fell abgelenkt.
 
 @The_monster@ @_Grum_verb_@ an {acc}@foe@, "Ich werde dich Tag und Nacht jagen!"
 
-@The_monster@ @_Grum_verb_@ an {acc}@foe@, "Meine Hunde und ich werden heute Abend ein Festmahl feiern..."
+@The_monster@ @_Grum_verb_@ an {acc}@foe@, "Meine Hunde und ich werden heute Abend ein Festmahl genießen..."
 
 @The_monster@ @_Grum_verb_@ an {acc}@foe@, "Du siehst nach gutem Essen aus."
 
@@ -4376,12 +4376,12 @@ VISUAL:@The_monster@ ist kurzzeitig von einem Floh in seinem Fell abgelenkt.
 
 @The_monster@ sagt zu {dat}@foe@, "Was ist mein Geheimnis? Ich füttere meine Hunde mit {dat}@player_genus_plural@. Das macht ihr Fell schön glänzend." @player_only@
 
-@The_monster@ sieht @foe@ und @_Grum_verb_@ an, "Zeit, den Zwerg des Wurfes einzuschläfern."
+@The_monster@ sieht @foe@ und @_Grum_verb_@ an, "Zeit, den Kümmerling des Wurfes einzuschläfern."
 
 @The_monster@ @_Grum_verb_@ an {acc}@foe@, "Ich und @_Grum_dog_name_@ werden mit deinen Knochen fangen spielen!"
 
-# stupid dog pun, that only works in English
-@The_monster@ @_Grum_verb_@ an {acc}@foe@, "Du willst gegen mich kämpfen? Das wird... hart werden!"
+# stupid dog pun, that kinda works but is even more stupid in German
+@The_monster@ @_Grum_verb_@ an {acc}@foe@, "Du willst gegen mich kämpfen? Wau!"
 
 @The_monster@ ruft, "Lasst die Hunde frei!"
 
@@ -4414,9 +4414,9 @@ Spike
 
 Fiffi
 
-Schatzi
+Waldi
 
-Sparky
+Beethoven
 
 Pluto
 
@@ -4441,9 +4441,9 @@ VISUAL:@The_monster@ sieht aus, als wolle er die Sache schnell hinter sich bring
 
 @The_monster@ sagt zu {dat}@foe@, "Ich hatte gehofft, mein letzter Job würde eine größere Herausforderung sein, aber Geld ist Geld."
 
-@The_monster@ @_shouts_at_foe_@, "Kannst du jetzt sterben? Ich hatte noch Pläne für den Rest des Tages!"
+@The_monster@ @_shouts_at_foe_@, "Wirst du jetzt wohl sterben? Ich hatte noch Pläne für den Rest des Tages!"
 
-@The_monster@ sagt, "Hast du eine Ahnung, was Leute bereit sind zu zahlen, um dich töten zu lassen?, @player_name@?" @player_only@
+@The_monster@ sagt, "Hast du eine Ahnung, was Leute bereit sind für deinen Tod zu zahlen, @player_name@?" @player_only@
 
 @The_monster@ sagt zu {dat}@foe@, "Machen wir es kurz, okay? Ich habe Mäuler zu stopfen."
 
@@ -4485,7 +4485,7 @@ Harold killed
 __NONE
 
 w:4
-@The_monster@ stöhnt, "Meine... Familie..." und bricht dann tot zusammen.
+@The_monster@ stöhnt, "Meine... Familie..." und bricht tot zusammen.
 
 w:3
 @The_monster@ blickt auf seine tödlichen Wunden und weint, "Aber... das war mein letzter Tag vor der Pensionierung..."
@@ -4494,7 +4494,7 @@ w:2
 @The_monster@ keucht mit seinem letzten Atemzug, "Ich wünschte, ich hätte weniger gearbeitet..."
 
 w:1
-@The_monster@ fällt um und hält sich die Wunden zu. "Aber ich wollte mir @_Harold_retirement_plan_@ besorgen..."
+@The_monster@ fällt zu Boden und umklammert seine Wunden. "Aber ich wollte mir @_Harold_retirement_plan_@ besorgen..."
 %%%%
 # Giving Harold some retirement options...
 _Harold_retirement_plan_
