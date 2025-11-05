@@ -83,7 +83,7 @@ at_or_near_target_2
 %%%%
 Airstrike cast
 
-@The_monster@ fuchtelt mit den {dat}@arms@ in weiten Kreisen herum.
+@The_monster@ schwingt die {acc}@arms@ in großen Kreisen.
 %%%%
 unseen Airstrike cast
 
@@ -91,19 +91,19 @@ Du hörst den Wind wehen.
 %%%%
 unseen Animate Dead cast real
 
-Du hörst, wie @something@ den Toten zuruft.
+Du hörst, wie @something@ die Toten ruft.
 %%%%
 Animate Dead cast real
 
-@The_monster@ skandiert und gestikuliert in der Umgebung.
+@The_monster@ deutet in die nähere Umgebung und skandiert dabei etwas.
 
-@The_monster@ wirft die @arms@ weit und skandiert.
+@The_monster@ breitet die @arms@ weit aus und skandiert dabei etwas.
 %%%%
 Animate Dead cast gestures
 
-@The_monster@ gestikuliert in der Umgebung.
+@The_monster@ deutet in die nähere Umgebung.
 
-@The_monster@ wirft die @arms@ wei.
+@The_monster@ breitet die @arms@ weit aus.
 %%%%
 Battlecry cast
 
@@ -111,19 +111,19 @@ Battlecry cast
 %%%%
 Blinkbolt cast
 
-@The_monster@ geht in einen lebenden Blitz über!
+@The_monster@ verwandelt sich in einen lebenden Blitz!
 %%%%
 unseen Blinkbolt cast
 
-Ein Lebendiger Blitz kommt in Sicht!
+Ein lebender Blitz kommt in Sicht!
 %%%%
 branch summon cast
 
-@The_monster@ ruft Kreaturen hervor aus {dat}@branch@!
+@The_monster@ ruft Kreaturen aus {dat}@branch@ hervor!
 %%%%
 Creeping Frost cast
 
-@The_monster@ ruft eisige Kälte aus den Wänden.
+@The_monster@ zieht eisige Kälte aus den Wänden.
 %%%%
 Goad Beasts cast
 
@@ -131,7 +131,7 @@ Goad Beasts cast
 %%%%
 ironbound thunderhulk cast
 
-Elektrizität knistert im Apparat {gen}@the_monster@.
+Elektrizität knistert in der Apparatur {gen}@the_monster@.
 %%%%
 Mara Summon cast
 
@@ -153,7 +153,7 @@ unseen Symbol of Torment cast
 %%%%
 Orb of Destruction orb spider cast
 
-@The_monster@ webt eine glühende Energiekugel.
+@The_monster@ webt eine leuchtende Energiekugel.
 %%%%
 Orb of Destruction cast
 
@@ -209,7 +209,7 @@ Phantom Mirror cast
 %%%%
 Pyroclastic Surge cast
 
-@The_monster@ ruft Flammenspritzer aus der Lava!
+@The_monster@ ruft Stichflammen aus der Lava!
 %%%%
 Eruption cast
 
@@ -237,7 +237,7 @@ Harpoon Shot cast
 %%%%
 Throw Klown Pie cast
 
-@The_monster@ tortet dich bösartig!
+@The_monster@ wirft brutal eine Torte auf dich!
 %%%%
 Stunning Burst cast
 
@@ -284,7 +284,7 @@ Du hörst ein Brüllen.
 %%%%
 Cold Breath cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 unseen Chilling Breath cast
 
@@ -292,24 +292,24 @@ Du hörst ein Brüllen.
 %%%%
 Chilling Breath cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 # Drac ghost breath
 Bolt of Draining natural cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 Lightning Bolt natural cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 Steam Ball natural cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 Quicksilver Bolt natural cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 Poisonous Cloud natural cast
 
@@ -321,7 +321,7 @@ Du hörst ein Brüllen.
 %%%%
 Fire Breath cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 unseen Searing Breath cast
 
@@ -329,11 +329,11 @@ Du hörst ein Brüllen.
 %%%%
 Searing Breath cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%%
 Electrical Bolt cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@!
+@The_monster@ speit {acc}@beam@ @at_or_near_target@!
 %%%%%
 Spit Lava cast
 
@@ -361,7 +361,7 @@ Du hörst ein spuckendes Geräusch.
 %%%%
 Petrifying Cloud cast
 
-@The_monster@ haucht eine Wolke verkalkenden Staubes @at_or_near_target@.
+@The_monster@ speit eine Wolke verkalkenden Staubes @at_or_near_target@.
 %%%%
 Frenzy cast
 
@@ -381,15 +381,15 @@ Du hörst einen lauten Warnschrei!
 %%%%
 Slug Dart cast
 
-@The_monster@ wirft einen Pfeil @at_or_near_target@.
+@The_monster@ schleudert einen Pfeil @at_or_near_target@.
 %%%%
 Paralysis Gaze cast
 
-@The_monster@ starrt durchdringend durch {acc}@target@!
+@The_monster@ starrt eindringlich durch {acc}@target@ hindurch!
 %%%%
 Weakening Gaze cast
 
-@The_monster@ starrt grimmig durch {acc}@target@!
+@The_monster@ starrt grimmig durch {acc}@target@  hindurch!
 ########################################################################
 # Unique monsters
 ########################################################################
@@ -398,7 +398,7 @@ Frances cast
 
 @The_monster@ murmelt in einer schrecklichen Sprache.
 
-@The_monster@ flüstert unentzifferbare Worte.
+@The_monster@ flüstert nicht zu entziffernde Worte.
 
 @The_monster@ skandiert Phrasen aus dem Mund eines Teufels.
 
@@ -406,7 +406,7 @@ Frances cast
 %%%%
 Gastronok cast targeted
 
-@The_monster@ schaut @at_or_near_target_2@ und skandiert.
+@The_monster@ schaut @at_or_near_target_2@ und skandiert dabei etwas.
 
 @The_monster@ schaut @at_or_near_target_2@ und murmelt einige seltsame Worte.
 
@@ -414,7 +414,7 @@ Gastronok cast targeted
 %%%%
 Summon Eyeballs Dissolution cast
 
-@The_monster@ gurgelt tief, einen Ruf an die Schleimfreunde.
+@The_monster@ gurgelt tief, ein Ruf nach Schleimfreunden.
 
 @The_monster@ sagt, "@My_God@ sieht alles!"
 %%%%
@@ -424,9 +424,9 @@ Dissolution cast
 %%%%
 Gastronok cast
 
-Die Augenstiele {gen}@the_monster@ zittern, als er einige seltsame Worte murmelt.
+Die Stielaugen {gen}@the_monster@ zittern, als er einige seltsame Worte murmelt.
 
-@The_monster@ sagt einen Zauberspruch auf und wackelt dabei.
+@The_monster@ sagt einen Zauberspruch auf und wackelt dabei fortwährend.
 
 @The_monster@ murmelt ein paar seltsame Worte.
 
@@ -461,17 +461,17 @@ Rupert cast targeted
 %%%%
 Ensnare Arachne cast
 
-@The_monster@ richtet ihren Stab @at_or_near_target@ und schießt einen Strom Spinnennetz.
+@The_monster@ richtet ihren Stab @at_or_near_target@ und schießt einen Strom Spinnweben.
 
-Der Stab {gen}@the_monster@ schießt einen Strom Spinnennetz.
+Der Stab {gen}@the_monster@ schießt einen Strom Spinnweben.
 %%%%
 unseen Ensnare Arachne cast
 
-Ein Strom Spinnennetz schießt aus der Luft.
+Ein Strom Spinnweben schießt aus der leeren Luft hervor.
 %%%%
 Lehudib's Crystal Spear the Serpent of Hell cast
 
-@The_monster@ spuckt Kristall @at_or_near_target@.
+@The_monster@ spuckt Kristalle @at_or_near_target@.
 %%%%
 Mennas cast
 
@@ -506,7 +506,7 @@ flayed ghost cast
 %%%%
 manticore cast
 
-@The_monster@  schnipst mit dem Schwanz.
+@The_monster@  schwingt seinen Schwanz.
 %%%%
 orange crystal statue cast
 
@@ -565,11 +565,11 @@ Airstrike wind drake cast
 %%%%
 Wind Blast wind drake cast
 
-@The_monster@ stößt einen heftigen Windstoß aus!
+@The_monster@ speit einen heftigen Windstoß!
 %%%%
 dryad cast
 
-@The_monster@ ruft dem Wald zu.
+@The_monster@ ruft in den Wald hinein.
 %%%%
 Battlecry cherub cast
 
@@ -581,23 +581,23 @@ Minor Healing dryad cast
 %%%%
 Battlecry satyr cast
 
-@The_monster@ spielt eine mitreißende Melodie auf seinen Pfeifen!
+@The_monster@ spielt eine mitreißende Melodie auf seiner Flöte!
 %%%%
 Cause Fear satyr cast
 
-@The_monster@ spielt eine schaurige Melodie auf seinen Pfeifen!
+@The_monster@ spielt eine schaurige Melodie auf seiner Flöte!
 %%%%
 Sleep satyr cast
 
-@The_monster@ spielt eine einlullende Melodie auf seinen Pfeifen!
+@The_monster@ spielt eine einlullende Melodie auf seiner Flöte!
 %%%%
 Sleep dream sheep cast
 
-@The_monster@ materialisiert plötzlich eine große Menge an Traumstaub!
+@The_monster@ materialisiert plötzlich eine große Menge Traumstaub!
 %%%%
 Metal Splinters war gargoyle cast
 
-@The_monster@ schießt {acc}@beam@ @at_or_near_target@.
+@The_monster@ schleudert {acc}@beam@ @at_or_near_target@.
 %%%%
 Splinterspray cast
 
@@ -605,11 +605,11 @@ Splinterspray cast
 %%%%
 Crystal Bolt crystal guardian cast
 
-@The_monster@ feuert einen kristallinen Bolzen @at_or_near_target@.
+@The_monster@ feuert einen kristallinen Strahl @at_or_near_target@.
 %%%%
 Blink Other statue cast
 
-@The_monster@ spricht einen Zaube @at_or_near_target@.
+@The_monster@ spricht einen Zauber @at_or_near_target@.
 %%%%
 Stone Arrow gargoyle cast
 
@@ -621,11 +621,11 @@ Bolt of Magma molten gargoyle cast
 %%%%
 Primal Wave elemental wellspring cast
 
-Ein reißender Strom Wasser steigt durch {acc}@the_monster@!
+Ein reißender Strom Wasser schießt aus {dat}@the_monster@ herauf!
 %%%%
 Summon Water Elementals elemental wellspring cast
 
-Wassergeister strömen aus {dem}@the_monster@!
+Wassergeister strömen aus {dat}@the_monster@!
 %%%%
 Invisibility shadow cast
 
@@ -641,7 +641,7 @@ ghost moth cast
 %%%%
 unseen ghost moth cast targeted
 
-Du hast das Gefühl, dass du von etwas beobachtet bist. @player_only@
+Du hast das Gefühl, von etwas beobachtet zu werden. @player_only@
 %%%%
 golden eye cast targeted
 
@@ -649,15 +649,15 @@ golden eye cast targeted
 %%%%
 Death Rattle ushabti cast
 
-@The_monster@ schüttelt und rasselt.
+@The_monster@ schüttelt sich und rasselt.
 %%%%
 Warning Cry ushabti cast
 
-@The_monster@ schüttelt und rattert ohrenbetäubend!
+@The_monster@ schüttelt sich und rasselt ohrenbetäubend!
 %%%%
 unseen Warning Cry ushabti cast
 
-Du hörst ein ohrenbetäubendes Klappern!
+Du hörst ein ohrenbetäubendes Rasseln!
 %%%%
 ushabti cast targeted
 
@@ -665,7 +665,7 @@ ushabti cast targeted
 %%%%
 Ghostly Fireball revenant cast
 
-@The_monster@ schlägt mit geisterhaften Flammen um sich.
+@The_monster@ wirft geisterhafte Flammen um sich.
 %%%%
 Spectral Cloud revenant cast
 
@@ -681,7 +681,7 @@ __NONE
 %%%%
 Warning Cry seraph cast
 
-@The_monster@ schreit eine Warnung an seine Verbündete!
+@The_monster@ schreit eine Warnung an seine Verbündeten!
 %%%%
 unseen Warning Cry seraph cast
 
@@ -701,7 +701,7 @@ Lightning Bolt electric golem cast
 %%%%
 unseen Warning Cry howler monkey cast
 
-Du hörst ein gewaltiges Gejohle und Geheul!
+Du hörst ein gewaltiges Gejohle und Heulen!
 %%%%
 Warning Cry howler monkey cast
 
@@ -709,7 +709,7 @@ Warning Cry howler monkey cast
 %%%%
 unseen Warning Cry vault sentinel cast
 
-Du hörst einen Ton, der laut auf einem Horn geblasen wird!
+Du hörst den lauten Ton eines Signalhorns!
 %%%%
 Warning Cry vault sentinel cast
 
@@ -717,7 +717,7 @@ Warning Cry vault sentinel cast
 %%%%
 Fireball hell hog cast
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 Throw Barbs peacekeeper cast
 
@@ -733,15 +733,15 @@ Woodweal cast
 %%%%
 angel cast targeted
 
-@The_monster@ ruft den Zorn {gen}@possessive_God@ auf {acc}@target@ ab.
+@The_monster@ ruft den Zorn {gen}@possessive_God@ auf {acc}@target@ herab.
 %%%%
 crab cast targeted
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 dragon cast targeted
 
-@The_monster@ spuckt {acc}@beam@ @at_or_near_target@.
+@The_monster@ speit {acc}@beam@ @at_or_near_target@.
 %%%%
 dragon cast
 
@@ -765,7 +765,7 @@ silent curse skull cast
 %%%%
 unseen curse skull cast
 
-Du hörst das Klappern der Zähne.
+Du hörst ein Zähneklappern.
 %%%%
 floating eye cast targeted
 
@@ -781,13 +781,13 @@ Du spürt, wie dich etwas anstarrt. @player_only@
 %%%%
 guardian serpent cast targeted
 
-@The_monster@ windet sich und schwankt hin und her mit dem Oberkörper @at_or_near_target@.
+@The_monster@ windet sich und schwenkt den Oberkörper @at_or_near_target@.
 
 @The_monster@ spricht einen Zauber @at_or_near_target@.
 %%%%
 guardian serpent cast
 
-@The_monster@ windet sich und vollführt einen mystischen Schlangentanz.
+@The_monster@ windet sich und vollführt irgendeinen mystischen Schlangentanz.
 
 @The_monster@ casts a spell.
 
@@ -805,7 +805,7 @@ Etwas macht sich die reinigende Kraft des Feuers zunutze!
 %%%%
 Shock shock serpent cast
 
-@The_monster@ entlädt eine schmale Stromranke.
+@The_monster@ entlädt einen kleinen Bogen elektrische Energie.
 %%%%
 Static Discharge shock serpent cast
 
@@ -858,7 +858,7 @@ priest cast targeted
 
 @The_monster@ ruft den Zorn {gen}@possessive_God@ auf {acc}@target@ herab.
 
-@The_monster@ murmelt ein paar seltsame Gebete zu {dat}@possessive_God@ gegen {acc}@target@.
+@The_monster@ murmelt ein seltsames Gebet an {dat}@possessive_God@, gegen {acc}@target@.
 
 @The_monster@ beschwört die Hilfe {gen}@possessive_God@ gegen {acc}@target@.
 %%%%
@@ -866,21 +866,21 @@ priest cast
 
 @The_monster@ betet zu {dat}@possessive_God@.
 
-@The_monster@ murmelt einige seltsame Gebete zu {dat}@possessive_God@.
+@The_monster@ murmelt ein seltsames Gebet an {dat}@possessive_God@.
 
-@The_monster@ spricht eine Anrufung an {acc}@possessive_God@ aus.
+@The_monster@ ruft {acc}@possessive_God@ um Hilfe an.
 %%%%
 unseen priest cast targeted
 
 Du hörst, wie @something@ den Zorn {gen}@a_God@ auf {acc}@target@ herabruft.
 
-Du hörst, wie @something@ seltsame Gebete zu {dat}@a_God@ gegen {acc}@target@ murmelt.
+Du hörst, wie @something@ ein seltsames Gebet an {acc}@a_God@ gegen {acc}@target@ murmelt.
 
 Du hörst, wie @something@ die Hilfe {gen}@a_God@ gegen {acc}@target@ anruft.
 %%%%
 unseen priest cast
 
-Du hörst einige seltsame, gemurmelte Gebete an {acc}@a_God@.
+Du hörst ein seltsames gemurmeltes Gebet an {acc}@a_God@.
 %%%%
 non-humanoid wizard cast targeted
 
@@ -900,7 +900,7 @@ Du hörst einige seltsame, gemurmelte Worte.
 %%%%
 wizard cast targeted
 
-@The_monster@ gestikuliert @at_or_near_target@ und skandiert.
+@The_monster@ gestikuliert @at_or_near_target@ und skandiert dabei etwas.
 
 @The_monster@ zeigt @at_or_near_target@ und murmelt ein paar seltsame Worte.
 
@@ -908,7 +908,7 @@ wizard cast targeted
 %%%%
 wizard cast
 
-@The_monster@ gestikuliert wild und skandiert.
+@The_monster@ gestikuliert wild und skandiert dabei etwas.
 
 @The_monster@ murmelt ein paar seltsame Worte.
 
@@ -931,5 +931,5 @@ magical cast
 ######################################################
 beam catchall cast
 
-@The_monster@ wirft {acc}@beam@ @at_or_near_target@.
+@The_monster@ schleudert {acc}@beam@ @at_or_near_target@.
 %%%%
