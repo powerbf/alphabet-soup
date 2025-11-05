@@ -4264,7 +4264,7 @@ VISUAL:@The_monster@s Maul öffnet sich, die Radula schwingt wild herum.
 
 VISUAL:@The_monster@ wird von einer plötzlichen Brise hin- und hergeworfen.
 
-VISUAL:Die Stielaugen {gen}@the_monster@ wackeln, so dass es fast seinen Zaubererhut verliert.
+VISUAL:Die Stielaugen {gen}@the_monster@ wackeln, so dass er fast seinen Zaubererhut verliert.
 
 @The_monster@ gluckst, "Du bist, wie ich mein Essen mag. Schnell!"
 
@@ -4349,9 +4349,9 @@ VISUAL:@The_monster@ schnuppert in der Luft und sieht sich schnell um.
 
 @The_monster@ zeigt mit dem Finger auf @foe@ und ruft, "@_Grum_dog_name_@, "Attacke!"
 
-@The_monster@ blickt sich um und ruft, " @_Grum_dog_name_@! Hierher, Junge!"
+@The_monster@ blickt sich um und ruft, "@_Grum_dog_name_@! Hierher, Junge!"
 
-@The_monster@ ruft, " @_Grum_dog_name_@! Braver Junge!"
+@The_monster@ ruft, "@_Grum_dog_name_@! Braver Junge!"
 
 %%%%
 _Grum_rare_
@@ -5185,7 +5185,7 @@ Aus dem Knöchel {gen}@the_monster@ tritt Staub aus, als er sagt, "Ich bin eigen
 
 VISUAL:@The_monster@ vergisst zu sprechen, vom Laufe der Zeit zum Schweigen gebracht.
 
-VISUAL:@The_monster@ gestikuliert bedrohlich in Richtung von @foe@.
+VISUAL:@The_monster@ gestikuliert bedrohlich in Richtung von {dat}@foe@.
 
 @The_monster@ @_shouts_at_foe_@, "Du hast meine Ruhe gestört! Stirb!"
 
@@ -5597,7 +5597,7 @@ VISUAL:@The_monster@ verdreht wild das Auge in Richtung von {acc}@foe@.
 %%%%
 _Polyphemus_rare_
 
-VISUAL:@The_monster@ scheint @foe@ als seine nächste Mahlzeit in Erwägung zu ziehen.
+VISUAL:@The_monster@ scheint {acc}@foe@ als seine nächste Mahlzeit in Erwägung zu ziehen.
 
 VISUAL:@The_monster@ stampft wütend auf @the surface@ ein.
 
@@ -6297,7 +6297,7 @@ VISUAL:@The_monster@ erneuert sich in einer großen Stichflamme!
 %%%%
 Bennu permanently killed
 
-VISUAL:Von spiritueller Energie entleert, verschwindet @The_monster@ aus diesem Reich.
+VISUAL:Von spiritueller Energie entleert, verschwindet @the_monster@ aus diesem Reich.
 %%%%
 confused Bennu killed
 
@@ -6484,7 +6484,7 @@ VISUAL:@The_monster@ grinst ausgelassen.
 
 VISUAL:@The_monster@ zieht zehn Fackeln aus dem Hut und fängt an, zu jonglieren.
 
-VISUAL:@The_monster@ spritzt mit Wasser auf @at_foe@.
+VISUAL:@The_monster@ spritzt mit Wasser auf {acc}@foe@.
 
 @The_monster@ heult vor Blutlust!
 %%%%
