@@ -506,7 +506,7 @@ flayed ghost cast
 %%%%
 manticore cast
 
-@The_monster@  schwingt seinen Schwanz.
+@The_monster@ schwingt seinen Schwanz.
 %%%%
 orange crystal statue cast
 
@@ -858,7 +858,7 @@ priest cast targeted
 
 @The_monster@ ruft den Zorn {gen}@possessive_God@ auf {acc}@target@ herab.
 
-@The_monster@ murmelt ein seltsames Gebet an {dat}@possessive_God@, gegen {acc}@target@.
+@The_monster@ murmelt ein seltsames Gebet an {acc}@possessive_God@, gegen {acc}@target@.
 
 @The_monster@ beschwört die Hilfe {gen}@possessive_God@ gegen {acc}@target@.
 %%%%
@@ -866,7 +866,7 @@ priest cast
 
 @The_monster@ betet zu {dat}@possessive_God@.
 
-@The_monster@ murmelt ein seltsames Gebet an {dat}@possessive_God@.
+@The_monster@ murmelt ein seltsames Gebet an {acc}@possessive_God@.
 
 @The_monster@ ruft {acc}@possessive_God@ um Hilfe an.
 %%%%
