@@ -535,13 +535,13 @@ int main()
     dowan->foe = orc->mindex();
     msg = getSpeakString("Gozag permabribe");
     msg = do_mon_str_replacements(msg, *dowan);
-    expected = "Dowan grinst den Ork gierig an und klimpert mit dem Geldbeutel.";
+    expected = "Dowan grinst den Ork gierig an und klimpert mit einem Geldbeutel.";
     show_result(msg, expected);
 
     dowan->foe = MHITYOU;
     msg = getSpeakString("Gozag permabribe");
     msg = do_mon_str_replacements(msg, *dowan);
-    expected = "Dowan grinst dich gierig an und klimpert mit dem Geldbeutel.";
+    expected = "Dowan grinst dich gierig an und klimpert mit einem Geldbeutel.";
     show_result(msg, expected);
 
     dowan->foe = orc->mindex();
