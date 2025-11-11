@@ -60,11 +60,11 @@ SOUND:@The_monster@ brüllt!
 %%%%
 __SCREAM unseen
 
-SOUND:Du hörst einen grässlichen Schrei!
+SOUND:Du hörst ein grässliches Kreischen!
 %%%%
 __SCREAM seen
 
-SOUND:@The_monster@ stößt einen grässlichen Schrei aus!
+SOUND:@The_monster@ kreischt grässlich!
 %%%%
 __BELLOW unseen
 
@@ -116,7 +116,7 @@ SOUND:@The_monster@ gibt ein schauriges Stöhnen von sich.
 %%%%
 __GURGLE unseen
 
-SOUND:Du hörst ein furchtbares gurgelndes Geräusch!
+SOUND:Du hörst ein entsetzliches gurgelndes Geräusch!
 %%%%
 __GURGLE seen
 
@@ -144,19 +144,19 @@ SOUND:@The_monster@ knurrt wütend.
 %%%%
 __HISS unseen
 
-SOUND:Du hörst ein wütendes Zischen.
+SOUND:Du hörst ein wütendes Fauchen.
 %%%%
 __HISS seen
 
-SOUND:@The_monster@ zischt wütend.
+SOUND:@The_monster@ faucht wütend.
 %%%%
 __SQUEAL unseen
 
-SOUND:Du hörst ein wütendes Quietschen.
+SOUND:Du hörst ein wütendes Quieken.
 %%%%
 __SQUEAL seen
 
-SOUND:@The_monster@ quietscht wütend.
+SOUND:@The_monster@ quiekt wütend.
 %%%%
 __DEMON_TAUNT
 
@@ -201,7 +201,7 @@ SOUND:@The_monster@ brüllt ohrenbetäubend!
 %%%%
 player ghost
 
-VISUAL:@The_monster@ wendet dir einen bösartigen Blick zu.
+VISUAL:@The_monster@ wirft dir einen bösartigen Blick zu.
 %%%%
 Fighter player ghost
 
@@ -292,7 +292,7 @@ Wanderer player ghost
 %%%%
 'cap-G'
 
-VISUAL:@The_monster@ wendet den Blick zu dir.
+VISUAL:@The_monster@ richtet den Blick auf dich.
 %%%%
 'cap-J'
 
@@ -303,7 +303,7 @@ VISUAL:@The_monster@ zittert.
 %%%%
 giant slug
 
-VISUAL:@The_monster@ schwenkt die Augenstiele auf dich zu.
+VISUAL:@The_monster@ schwenkt die Stielaugen in deine Richtung.
 ########################################
 # Shouts for specific monsters
 ########################################
@@ -314,7 +314,7 @@ VISUAL:@The_monster@ schwenkt die Rhizome.
 %%%%
 glowing orange brain
 
-VISUAL:@The_monster@ wendet seine Aufmerksamkeit dir zu.
+VISUAL:@The_monster@ richtet die Aufmerksamkeit auf dich.
 %%%%
 # Iron imps, shadow imps and white imps copy imps.
 imp
