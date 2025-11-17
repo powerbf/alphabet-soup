@@ -816,7 +816,7 @@ w:1
 
 @The_weapon@ sagt, "Meiner Erfahrung nach sind @player_genus_plural@ bestenfalls mittelmäßig."
 
-@The_weapon@ stöhnt, "Von allen {dat}@player_genus_plural@ ist @player_name@ am schlimmsten."
+@The_weapon@ stöhnt, "Von allen {dat}@player_genus_plural@ ist {nom}@player_name@ am schlimmsten."
 
 @The_weapon@ sagt, "Lass mich los, du übler Schurke!"
 
