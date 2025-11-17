@@ -321,7 +321,7 @@ ein sehr seltsames Geräusch.
 
 ein Schnarchen.
 
-ein Hilferuf!
+einen Hilferuf!
 
 seltsame Stimmen.
 
@@ -345,7 +345,7 @@ eine seltsam angenehme Explosion.
 
 ein entferntes Weinen.
 
-ein dumpfer Scherz.
+einen dumpfen Scherz.
 
 ###############################################################################
 ###############################################################################
@@ -682,7 +682,7 @@ _common_speaking_no_tension_
 
 @The_weapon@ sprudelt vor musikalischer Weisheit.
 
-@The_weapon@ [weist|weist beiläufig] auf den Mangel an singenden [Äxten|Keulen|Stöcken|Stäben] hin.
+@The_weapon@ [weist|weist beiläufig] auf den Mangel an singenden [Äxten|Keulen|Stangenwaffen|Stäben] hin.
 
 @The_weapon@ beginnt einen langen Monolog über mörderische Musik.
 
@@ -816,7 +816,7 @@ w:1
 
 @The_weapon@ sagt, "Meiner Erfahrung nach sind @player_genus_plural@ bestenfalls mittelmäßig."
 
-@The_weapon@ stöhnt, "Von allen @player_genus_plural@ ist @player_name@ am schlimmsten."
+@The_weapon@ stöhnt, "Von allen {dat}@player_genus_plural@ ist @player_name@ am schlimmsten."
 
 @The_weapon@ sagt, "Lass mich los, du übler Schurke!"
 
@@ -1098,9 +1098,9 @@ _SCREAM_
 @The_weapon@ @_screams_@, "ICH BIN SCHMERZ, DER AUSDRUCK SUCHT!"
 
 #### Battle frenzy ####
-@The_weapon@ @_screams_@, "LASST UNS @_MISCREANTS_@ ERWÜRGEN, ERWÜRGT SIE!"
+@The_weapon@ @_screams_@, "LASS UNS @_MISCREANTS_@ ERWÜRGEN, ERWÜRG SIE!"
 
-@The_weapon@ @_screams_@, "TÖTET! TÖTET!! TÖTET!!!"
+@The_weapon@ @_screams_@, "TÖTE! TÖTE!! TÖTE!!!"
 
 @The_weapon@ @_screams_@, "ICH RIECHE BLUT!"
 
@@ -1118,9 +1118,9 @@ _SCREAM_
 # A faint reminiscence to Holst
 @The_weapon@ @_screams_@, "ICH BIN DER BRINGER DES KRIEGES!"
 
-@The_weapon@ @_screams_@, "LASST UNS IHRE ELENDEN LEBEN BEENDEN!"
+@The_weapon@ @_screams_@, "LASS UNS IHRE ELENDEN LEBEN BEENDEN!"
 
-@The_weapon@ @_screams_@, "BRINGT SIE NIEDER!"
+@The_weapon@ @_screams_@, "BRING SIE NIEDER!"
 
 @The_weapon@ @_screams_@, "STIRB, WÄHREND ICH SINGE!"
 
@@ -1128,13 +1128,13 @@ _SCREAM_
 
 @The_weapon@ @_screams_@, "ZUGABE! ZUGABE! ZUGABE!"
 
-@The_weapon@ @_screams_@, "WIE KÖNNT IHR ZU DIESEM ZEITPUNKT AN SINGEN DENKEN?!"
+@The_weapon@ @_screams_@, "WIE KANNST DU ZU DIESEM ZEITPUNKT AN SINGEN DENKEN?!"
 
-@The_weapon@ @_screams_@, "DIE SCHREIE! LASST SIE NICHT MIT DEN SCHREIEN AUFHÖREN!"
+@The_weapon@ @_screams_@, "DIE SCHREIE! LASS SIE NICHT MIT DEN SCHREIEN AUFHÖREN!"
 
 @The_weapon@ @_screams_@, "KEINER SOLL[LEBEN|ENTKOMMEN|ÜBERLEBEN|VERSCHONT WERDEN]!"
 
-@The_weapon@ @_screams_@, "VERSCHONT NIEMANDEN!"
+@The_weapon@ @_screams_@, "VERSCHONE NIEMANDEN!"
 
 @The_weapon@ @_screams_@, "KOMMT ZU MIR! KOMMT ZU MIR UND STERBT!"
 
@@ -1144,9 +1144,9 @@ _SCREAM_
 
 @The_weapon@ @_screams_@, "GEBT ALLE HOFFNUNG AUF!"
 
-@The_weapon@ @_screams_@, "SCHLITZT SIE AUF! SCHLITZT SIE ALLE AUF!"
+@The_weapon@ @_screams_@, "SCHLITZ SIE AUF! SCHLITZ SIE ALLE AUF!"
 
-@The_weapon@ @_screams_@, "LASST UNS HACKEN!"
+@The_weapon@ @_screams_@, "LASS UNS HACKEN!"
 
 @The_weapon@ @_screams_@, "WAG ES NICHT, MIR JETZT ZU STERBEN, @CAPS@ @player_name@!"
 
@@ -1156,7 +1156,7 @@ w:1
 @The_weapon@ @_screams_@, "JA! JA! JA! DAS ist das LEBEN, Baby, das ist das LEBEN!"
 
 w:1
-@The_weapon@ @_screams_@, "STREICHT ES ROT! STREICHT ES ROT! STREICHT ES ALLES ROT ROT ROT!!!!"
+@The_weapon@ @_screams_@, "STREICH ES ROT! STREICH ES ROT! STREICH ES ALLES ROT ROT ROT!!!!"
 
 w:20
 @The_weapon@ @_screams_@, "SCHWING MICH [HÄRTER|SCHNELLER], DU [TOLLPATSCHIGER|INKOMPETENTER|NUTZLOSER|TRÄGER|NUDEL-ARMIGER|TRIEFÄUGIGER|AFFENHAFTER] [EINFALTSPINSEL|FETTKOPP|SCHWÄCHLING|FEIGLING|FLACHFUSS|HOLZKOPF|TROTTEL|FAULPELZ]!"
@@ -1180,7 +1180,7 @@ w:20
 @The_weapon@ @_screams_@, "BLUT! BLUT! BLUT MUSS SICH AUS JEDEM FEIND ERGIESSEN!"
 
 # Krindle's brain song, from Walter Moers' Rumo:
-@The_weapon@ @_screams_@, "GEHIRNE! GEHIRNE! SPALTET DEN SCHÄDEL UND HERAUS SICKERN SIE!"
+@The_weapon@ @_screams_@, "GEHIRNE! GEHIRNE! SPALTE DEN SCHÄDEL UND HERAUS SICKERN SIE!"
 
 @The_weapon@ @_screams_@, "GEHIRNE! GEHIRNE! TÖTEN MACHT SPASS UND DAS LEBEN IST BILLIG!"
 
@@ -1199,7 +1199,7 @@ w:1
 @The_weapon@ @_screams_@, "ICH BRINGE DEN STURM!"
 
 w:1
-@The_weapon@ @_screams_@, "LASST UNS DIE @_PETS_@ STREICHELN, STREICHELT SIE!"
+@The_weapon@ @_screams_@, "LASS UNS DIE @_PETS_@ STREICHELN, STREICHEL SIE!"
 
 w:40
 @The_weapon@ @_screams_@, "ICH BIN [EIN ENGEL|EIN KÜNSTLER|EIN AVATAR|EIN BOTE|EIN INSTRUMENT|EIN DICHTER|EIN PROPHET|EIN DIENER|EIN SKLAVE|DER HERR|DER MEISTER] VON [BLUT|TANZ|TOD|VERÖDUNG|VERZWEIFLUNG|ZERSTÖRUNG|VERDERBEN|GEWALT|WAHNSINN|MUSIK|SCHMERZ|RUIN|SCHLACHT|GESANG|STAHL|KRIEG]!"
