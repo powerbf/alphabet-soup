@@ -34,11 +34,11 @@ Göttliche, angeborene oder evozierbare Fähigkeiten anwenden
 %%%%
 CMD_SEARCH_STASHES
 
-Nach Gegenständen/Markmalen suchen
+Nach Gegenständen/Merkmalen suchen
 %%%%
 CMD_SEARCH_STASHES verbose
 
-Sucht nach Gegenständen oder Markmalen, die du woanders gesehen hast und
+Sucht nach Gegenständen oder Merkmalen, die du woanders gesehen hast und
 ermöglicht dir, zu ihrem Standort zu reisen.
 %%%%
 CMD_REPLAY_MESSAGES
