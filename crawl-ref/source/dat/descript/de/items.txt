@@ -1,17 +1,17 @@
 %%%%
 acid dragon scales
 
-Die Schuppen eines Säuredrachens. Diese Rüstung bietet ihrem Träger zwar nicht
-so viel Schutz wie die aus den Schuppen einiger größerer Drachen, ist aber etwas
-leichter und weniger beschwerlich. Außerdem ist sie bemerkenswert glatt und läßt
+Die Schuppen eines Säuredrachens. Diese Rüstung bietet ihrem Träger zwar weniger
+Schutz als die Schuppen einiger größerer Drachen, dafür ist sie aber etwas
+leichter und weniger hinderlich. Außerdem ist sie bemerkenswert glatt und läßt
 ätzenden Schleim wie Wasser abfließen.
 %%%%
 amulet of faith
 
-Ein Talisman, der die Aufmerksamkeit der Götter auf seinen Träger lenken soll.
-Diese göttliche Aufmerksamkeit macht es einfacher, deinem Gott zu gefallen, aber
-dein Gott wird auch mehr Notiz von deinen Übertretungen nehmen. Das Amulett
-entzieht dich einen Teil deiner göttlichen Gunst, wenn es abgelegt wird.
+Ein Talisman, der dazu gefertigt wurde, die Aufmerksamkeit der Götter auf seinen
+Träger zu lenken. Die göttliche Aufmerksamkeit macht es einfacher, deinem Gott zu
+gefallen, aber dein Gott wird auch deine Verfehlungen genauer beachten. Das Amulett
+entzieht dir beim Ablegen einen Teil deiner göttlichen Gunst.
 %%%%
 amulet of guardian spirit
 
@@ -20,9 +20,9 @@ Schaden auf die Gesundheits- und Magiereserven des Trägers aufgeteilt wird.
 %%%%
 amulet of magic regeneration
 
-Ein Amulett, das die Regenerationsrate der Magie des Trägers erhöht. Um zu
-funktionieren, muss es sich zunächst auf den Körper des Trägers mit vollen
-Magiereserven einstellen.
+Ein Amulett, das die Rate der Magieregeneration des Trägers erhöht. Um zu
+funktionieren, muss es sich zunächst bei vollen Magiereserven auf den Körper
+des Trägers einstellen.
 %%%%
 amulet of nothing
 
@@ -30,33 +30,33 @@ Ein Amulett ohne besondere Eigenschaften.
 %%%%
 amulet of reflection
 
-Ein Amulett, das eine Kraft ausübt, die einige eingehende Angriffe blockiert
-und sogar geblockte Fernangriffe zum Angreifer zurückwerfen kann.
+Ein Amulett, das eine Kraft ausübt, die manche eingehenden Angriffe blockt
+und geblockte Fernangriffe sogar auf den Angreifer zurückwerfen kann.
 %%%%
 amulet of regeneration
 
-Ein Amulett, das die Regenerationsrate der Gesundheit des Trägers erhöht. Um
-zu funktionieren, muss es sich zunächst auf den Körper des Trägers bei voller
-Gesundheit einstellen.
+Ein Amulett, das die Rate der Gesundheitsregeneration des Trägers erhöht. Um
+zu funktionieren, muss es sich zunächst bei voller Gesundheit auf den Körper des
+Trägers einstellen.
 %%%%
 amulet of the acrobat
 
-Ein Amulett, das es dem Träger erlaubt, zu turnen und zu rollen, um den Schlägen
-seiner Feinde auszuweichen, aber nur, während er sich bewegt oder wartet. Bei
-anderen Aktionen (einschließlich Treppensteigen) bringt das Amulett keine
-Vorteile.
+Ein Amulett, das es dem Träger erlaubt, sich in Deckung zu werfen und zu rollen,
+um den Schlägen seiner Feinde auszuweichen, aber nur, während er sich bewegt
+oder wartet. Bei anderen Aktionen (einschließlich Treppensteigen) bringt das
+Amulett keine Vorteile.
 %%%%
 animal skin
 
-Ein großes Stück dicker Haut mit Fell, geschnitten aus dem Körper eines Tieres
-und getragen als primitive Ausrüstung. Es bietet einfachen Schutz gegen
-Schaden, doch da es niemals gegerbt wurde, verbreitet es einen leichten Geruch
-nach faulendem Fleisch.
+Ein großes Stück dicker Haut mit Fell, vom Körper eines Tieres abgezogen
+und als primitive Kleidung getragen. Es bietet rudimentären Schutz gegen
+Schaden, doch da es niemals gegerbt wurde, stinkt es leicht nach faulendem
+Fleisch.
 %%%%
 arbalest
 
-Ein großes Gerät zum Abfeuern von Bolzen, das mit Stahl verstrebt und mit einer
-Winde angekurbelt wird. Das Laden und Abfeuern dauert einige Zeit.
+Ein großes Gerät zum Abfeuern von Bolzen, das mit Stahl verstrebt ist und mit
+einer Winde angekurbelt wird. Das Laden und Abfeuern dauert einige Zeit.
 %%%%
 arrow
 
@@ -69,7 +69,7 @@ Eine lange Stange mit einer enormen, spaltenden Klinge an einem Ende.
 %%%%
 barding
 
-Rüstung für die schuppigen Mittelteile von Nagas und Palentongas.
+Rüstung für die schuppigen Unterleibe von Nagas und Palentongas.
 %%%%
 battleaxe
 
@@ -77,36 +77,36 @@ Eine große Kriegsaxt mit einem beeindruckenden doppelseitigen Kopf.
 %%%%
 bolt
 
-Ein Metallprojektil, das kürzer als ein Pfeil ist und mit einer Armbrust
-verschossen werden soll.
+Ein Metallprojektil, das kürzer als ein Pfeil ist und dafür gedacht ist, mit
+einer Armbrust verschossen zu werden.
 %%%%
 book of air
 
 Eine Einführung in die elementare Magie der Luft. Besonders engagierte Schüler
-wurden von ihrer eigenen Fähigkeit zu fliegen überzeugt - mit tragischen Folgen.
+haben sich die die Fähigkeit selbst fliegen zu können eingebildet - mit tragischen Folgen.
 %%%%
 book of alchemy
 
-Ein Buch, das sich auf alchemistische Prozesse und ihre Benutzung in
+Ein Buch, das sich auf alchemistische Prozesse und ihre Verwendung in
 Zaubersprüchen konzentriert. In ihm ist die Weisheit vieler antiker Alchemisten
 gesammelt.
 %%%%
 book of annihilations
 
-Ein Foliant der arkanen Wut, sehr begehrt bei Zauberern. Es erlaubt den Begabten
+Ein Foliant der arkanen Wut, sehr begehrt bei Zauberern. Er erlaubt den Begabten
 und Einfallsreichen, mit Leichtigkeit Zerstörung hervorzurufen.
 %%%%
 book of armaments
 
-A book describing various magical arms and armours. It was written in the midst
-of a particularly bloody civil war, and the text is made substantially less
-helpful by its author's frequent digressions describing the crimes committed by
-the other side.
+Ein Buch, das verschiedene magische Waffen und Rüstungen beschreibt. Es wurde
+mitten in einem besonders blutigen Bürgerkrieg verfasst und der Text ist wesentlich
+weniger hilfreich, weil der Autor ständig abschweift und sich über die Verbrechen der
+gegnerischen Seite auslässt.
 %%%%
 book of beasts
 
 Ein Buch mit Zaubersprüchen, die sich auf die Herbeirufung von Bestien
-konzentrieren. Seine Seiten zerren an den Fingern unvorsichtiger Leser.
+konzentrieren. Seine Seiten schnappen nach den Fingern unvorsichtiger Leser.
 %%%%
 book of blasting
 
@@ -117,10 +117,10 @@ genug ist.
 %%%%
 book of blood
 
-Ein Buch mit Zaubersprüchen, die der Manipulation von Blut gewidmet sind, sowohl
-dem des Zaubernden als auch dem von Kreaturen mit besonders ungewöhnlichem
-Ichor, der durch ihre Adern fließt. Manche behaupten, es sei vom Vampirfürsten
-Jory verfasst worden, aber es ist unklar, warum er sich herablassen würde, seine
+Ein Buch mit Werken, die der Manipulation von Blut gewidmet sind, sowohl
+vom Blut des Zaubernden als auch dem von Kreaturen, durch deren Adern besonders
+ungewöhnliches Sekret fließt. Manche behaupten, es sei vom Vampirfürsten Jory
+verfasst worden, aber es ist unklar, warum er sich dazu herablassen würde, seine
 Geheimnisse mit anderen zu teilen.
 %%%%
 book of burglary
@@ -143,14 +143,14 @@ book of changes
 
 Eine Schülerfibel für die magischen Künste der Verwandlung, gefüllt mit üppigen
 Illustrationen von Zauberfehlern: Halbzauberer-Halbspinnen, Klingennasen,
-Schnabeltentakel, wo Beine hingehören. Der Text ist voll von Beteuerungen, dass
-diese Fehler fast nie vorkommen.
+Schnabeltentakel anstelle von Beinen. Der Text ist voll von Beteuerungen, dass
+sowas fast nie vorkommt.
 %%%%
 book of chaos
 
 Ein Buch mit Zaubersprüchen, die die Umgebung des Zaubernden in einen Zustand
 völliger Verwirrung versetzen. Es ist nicht klar, warum jemand so etwas
-schreiben würde, aber es ist hier.
+schreiben würde, aber hier ist es.
 %%%%
 book of conjurations
 
@@ -160,8 +160,8 @@ Konjurationen enthält.
 book of dangerous friends
 
 Ein Buch, das die Erschaffung und Verwendung von magischen Wesenheiten
-beschreibt, die am besten auf Armeslänge aufbewahrt würden. Oder, lieber,
-noch weiter weg.
+beschreibt, von denen man am besten eine Armlänge Abstand hält. Oder
+vorzugsweise noch mehr.
 %%%%
 book of death
 
@@ -183,14 +183,14 @@ dies nur eine Kopie, geschrieben mit fast ganz normaler Tinte.
 %%%%
 book of displacement
 
-Ein Buch mit Zaubersprüchen, um andere näher oder manchmal auch weiter zu
-bringen, je nach Lust und Laune des Benutzers.
+Ein Buch mit Zaubersprüchen, um andere näher zu holen oder manchmal auch
+weiter weg zu bringen, je nach Lust und Laune des Benutzers.
 %%%%
 book of dreams
 
-Die schläfrige Äußerungen eines berühmten Mystikers, der in einzigartig bizarren
-Bildern und kryptischen Abschweifungen Zaubersprüche beschreibt, die aus den
-Visionen des Mystikers stammen.
+Die im Schlaf gesprochenen Äußerungen eines berühmten Mystikers, die in
+einzigartig bizarren Bildern und kryptischen Abschweifungen Zaubersprüche aus
+den Visionen des Mystikers beschreiben.
 %%%%
 book of fire
 
@@ -208,19 +208,19 @@ Ein Buch mit Zaubersprüchen.
 book of flames
 
 Der Standardtext, der in arkanen Akademien von Schülern der Elementarmagie des
-Feuers verwendet wird. Den Lesern wird empfohlen, ein Paar wärmeisolierende
+Feuers verwendet wird. Den Lesern wird empfohlen, wärmeisolierende
 Handschuhe zu tragen.
 %%%%
 book of frost
 
 Ein Buch mit Zaubersprüchen, das oft als Einführung in die Elementarmagie des
 Eises verwendet wird. Seine Seiten fühlen sich ungewöhnlich brüchig an, als
-würden sie bei einer Berührung zerbröckeln.
+würden sie bei der kleinsten Berührung zerbröckeln.
 %%%%
 book of geomancy
 
 Ein Buch mit grundlegenden Zaubersprüchen, die das Element Erde betreffen. Den
-Lesern wird empfohlen, ein Paar Gartenhandschuhe zu tragen.
+Lesern wird empfohlen, Gartenhandschuhe zu tragen.
 %%%%
 book of hexes
 
@@ -230,12 +230,12 @@ der Seiten funkelt und schimmert.
 book of ice
 
 Ein Buch mit fortgeschrittenen magischen Zaubersprüchen, die das Element Eis
-verwenden. Den Lesern wird empfohlen, ein Paar warme Handschuhe zu tragen.
+verwenden. Den Lesern wird empfohlen, warme Handschuhe zu tragen.
 %%%%
 book of iron
 
 Ein uraltes, metallgebundenes Zauberbuch, das mit dunkelroten Flecken übersät
-ist. Sind das Rostflecken, oder...?
+ist. Sind das Rostflecken oder...?
 %%%%
 book of lightning
 
@@ -256,13 +256,13 @@ book of misfortune
 
 Ein Zauberbuch, das der Kunst gewidmet ist, seinen Gegnern kreatives Unheil
 zuzufügen. Abergläubische Zauberer behaupten, dass das Buch selbst Unglück
-absorbiert, und es als Talisman bei sich tragen, aber die Wirkung scheint
+absorbiert und tragen es als Talisman bei sich, aber die Wirkung scheint
 bestenfalls subtil zu sein.
 %%%%
 book of necromancy
 
 Ein makabres Buch mit grundlegenden Nekromantie-Zaubersprüchen. Den Lesern wird
-empfohlen, ein Paar Handschuhe zu tragen, die sie nichts dagegen haben,
+empfohlen, Handschuhe zu tragen, bei denen es ihnen nichts ausmacht, sie
 hinterher zu entsorgen.
 %%%%
 book of party tricks
@@ -274,7 +274,7 @@ Partyspielen.
 book of pain
 
 Ein magisches Buch, das angeblich von der Dämonenkönigin Ereshkigal geschrieben
-wurde, die sich am schmerzhaften Tod der Sterblichen erfreut. Manche würden
+wurde, die sich am schmerzhaften Tod von Sterblichen erfreut. Manche würden
 sagen, dass es am besten wäre, die Herkunft des Buches zu bedenken, bevor man
 es benutzt, aber Zauberer lassen sich von solchen Bedenken selten abschrecken.
 %%%%
@@ -285,25 +285,25 @@ bändigenden Energien bebt und zittert.
 %%%%
 book of rime
 
-Ein mit Frost überzogener Foliant, der eisige Zaubersprüche beschreibt, etwas
-gekürzt. Es heißt, dass die Gewölbe den vollständigen Text enthalten, aber die
+Ein mit Frost überzogener Foliant, der in ewas gekürzter Fassung eisige Zaubersprüche
+beschreibt. Es heißt, dass die Gewölbe den vollständigen Text enthalten, aber die
 Wächter dieses Ortes hüten ihre Schätze eifersüchtig.
 %%%%
 book of sloth
 
-Ein faul geschriebenes Buch.
+Ein nachlässig geschriebenes Buch.
 %%%%
 book of spatial translocations
 
 Ein grundlegendes Zauberbuch über das magische Feld der Translokationen. Viele
-Möchtegern-Magier haben es gerade dann verschwinden sehen, als sie es am meisten
+Möchtegern-Magier haben es genau dann verschwinden sehen, als sie es am meisten
 brauchten.
 %%%%
 book of spectacle
 
 Ein mit glitzernden Pailletten bedecktes Buch. Eine spontane Lichtshow erstrahlt
-auf jeder Seite, was dieses Buch eindeutig nur für die kitschigsten Zauberer
-reserviert.
+auf jeder Seite, wodurch dieses Buch eindeutig nur den kitschigsten Zauberern
+vorbehalten ist.
 %%%%
 book of the spheres
 
@@ -315,16 +315,16 @@ komplett verdampft.
 book of stone
 
 Ein Lehrbuch der fortgeschrittenen Erdmagie. Der Einband und der Buchrücken sind
-mit einer beeindruckenden Vielfalt an Edelsteinen verziert, die immense arkane
-Kräfte enthalten könnten. Oder vielleicht gefiel dem Schöpfer nur das Glitzern
+mit einer beeindruckenden Vielfalt an Edelsteinen verziert, die vielleicht immense
+arkane Kräfte enthalten. Oder vielleicht gefiel dem Schöpfer nur das Glitzern
 der Steine.
 %%%%
 book of storms
 
 Ein Buch des Magiers Lan Schi, der sich mit dem Studium und der Kontrolle von
 Naturphänomenen beschäftigte. Die meisten von Schis Werken sind verloren
-gegangen, aber die verbliebenen werden von Zauberern geschätzt, die das Glück
-(oder die Skrupellosigkeit) haben, ein Exemplar in die Hände zu bekommen.
+gegangen, aber die verbliebenen werden von Zauberern geschätzt, die genug
+Glück haben (oder skrupellos genug sind), ein Exemplar in die Hände zu bekommen.
 %%%%
 book of the dragon
 
@@ -333,7 +333,7 @@ und ihre Aspekte ermöglichen.
 %%%%
 book of the dryads
 
-Ein Buch mit Kunde aus den Tiefen des Waldes, das es ermöglicht, seine Bewohner
+Ein Buch mit Überlieferungen aus den Tiefen des Waldes, das es ermöglicht, seine Bewohner
 herbeizurufen, um dem Leser zu dienen.
 {{
     if you.can_smell() then
@@ -344,8 +344,8 @@ herbeizurufen, um dem Leser zu dienen.
 book of the earth
 
 Ein Leitfaden für die Gewinnung immenser Kräfte aus den Tiefen der Erde. Das
-Original wurde in Zusammenarbeit zwischen den Hügelzwergen und den Bergzwergen
-verfasst, aber seine Zusammenstellung wurde abgebrochen, als eine massive Welle
+Original wurde in Zusammenarbeit von Hügelzwergen und Bergzwergen verfasst,
+aber seine Zusammenstellung wurde vorzeitig unterbrochen, als eine massive Welle
 von Erdbeben ihre Zivilisationen in den Ruin stürzte.
 %%%%
 book of the hunter
@@ -357,30 +357,30 @@ zugunsten von Zaubersprüchen gestrichen, die dieselbe Aufgabe erfüllen.
 book of the moon
 
 Ein Buch, das von einem verrückten Zauberer geschrieben wurde, der davon
-überzeugt war, dass der Mond weit oben nicht aus leuchtendem Licht, sondern aus
-Felsen besteht, der so fest ist wie der unter den eigenen Füßen. Viele der
+überzeugt war, dass der Mond hoch oben nicht aus strahlendem Licht, sondern aus
+Felsen besteht, so fest wie der unter den eigenen Füßen. Viele der
 Seiten sind bis zur Unkenntlichkeit zerfetzt, scheinbar von einem Paar kräftiger
 Klauen... aber was sollte ein Troll mit einem Zauberbuch anfangen?
 %%%%
 book of the senses
 
-Ein gelehrtes Werk, das die Sinne beschreibt, mit denen Lebewesen die Welt um
-sich herum wahrnehmen. Zur Veranschaulichung der beschriebenen Prinzipien sind
+Ein wissenschaftliches Werk, das die Sinne beschreibt, mit denen Lebewesen die Welt
+um sich herum wahrnehmen. Zur Veranschaulichung der beschriebenen Prinzipien sind
 eine Handvoll Zaubersprüche enthalten.
 %%%%
 book of the sky
 
 Ein magisches Buch mit mächtigen Elementarzaubern der Luft. Der große
-Minotaur-Held Wuxhurn, der ein Exemplar dieses Buches erhielt, während er auf
+Minotaurenheld Wuxhurn, der ein Exemplar dieses Buches erhielt, während er auf
 dem Turm eines Zauberers mit einem besonders perversen Sinn für Humor gefangen
 war, benutzte die Seiten, um einen rudimentären Gleiter zu bauen und in die
 Freiheit zu fliegen.
 %%%%
 book of the tundra
 
-Ein Buch, das von Völkern aus einem kalten und unwirtlichen Reich geschrieben
+Ein Buch, das von Völkern eines kalten und unwirtlichen Reiches geschrieben
 wurde. Es ist außergewöhnlich groß, aber das liegt daran, dass viele dicke Felle
-an seinem Rücken hängen. Die meisten der übrigen Seiten sind langen, stolzen
+von seinem Rücken hängen. Die meisten der übrigen Seiten sind langen, stolzen
 Beschreibungen gewidmet, wie diese Pelze erbeutet wurden. Einige dieser
 Geschichten enthalten relevante Zaubersprüche, in der Regel als Nebenbemerkung.
 %%%%
@@ -392,11 +392,11 @@ gesehen, was vielleicht auch der Sinn der Sache war.
 %%%%
 book of touch
 
-Ein Buch, das Zauber beschreibt, die eine sehr große Nähe zum Ziel erfordern.
+Ein Buch, das Zauber beschreibt, die eine unmittelbare Nähe zum Ziel erfordern.
 Der Autor scheint eine niedrige Meinung von seinen Zaubererkollegen zu haben
 und verbringt einen Großteil des Textes damit, die Hygiene und die sozialen
-Umgangsformen zu beschreiben, die erforderlich sind, um in die Nähe anderer
-fühlender Wesen zu gelangen.
+Umgangsformen zu beschreiben, die erforderlich sind, um anderen fühlenden
+Wesen nahe zu kommen.
 %%%%
 book of transfigurations
 
@@ -413,20 +413,20 @@ book of vapours
 
 Ein Buch mit Zaubersprüchen zur Erzeugung von Wolken, Dämpfen und Nebeln. Es ist
 schwer zu lesen, da der Text häufig durch Beschreibungen von ungewöhnlich
-geformten Wolken unterbrochen wird, die der Autor beim Schreiben entdeckt hat.
+geformten Wolken unterbrochen wird, die der Autor während des Schreibens entdeckte.
 %%%%
 book of weapons
 
 Ein Buch mit Zaubersprüchen, die von Rebellen gegen ein altes und böses Reich
 verwendet wurden. Die Rebellen wurden niedergeschlagen, aber dieses Buch wurde
-Jahre später wiederentdeckt, gefunden von Paladinen des Kreuzzugs, der
+Jahre später wiederentdeckt, gefunden von den Paladinen des Kreuzzugs, der
 schließlich das Reich zerstörte und seine unsterblichen Zwillingsherrscher
 tötete.
 %%%%
 book of winter
 
 Ein Buch mit Zaubersprüchen, das von der Zauberin Ellawe geschrieben wurde, die
-versuchte, ihre Zeit produktiv zu nutzen, während sie wegen eines besonders
+versuchte, ihre Zeit produktiv zu nutzen, während sie aufgrund besonders
 rauen Wetters mehr als sechs Monate lang im Haus gefangen war. Ein Postskriptum
 beschreibt die blutige Rache, die sie nahm, nachdem sie den verantwortlichen
 Wettermagier entdeckt hatte.
@@ -438,10 +438,10 @@ Ein gebogener, flacher Wurfstock, der zu seinem Benutzer zurückkehrt.
 box of beasts
 
 Eine Kiste, gefüllt mit den bizarren Überbleibseln der magischen Experimente
-eines verdorbenen Zauberers. Wenn man sie öffnet, kann es sein, dass man eine
-freundliche Mutantenbestie freisetzt: bizarre Kreaturen, jede mit ihrer eigenen
-Kombination von Eigenschaften. Mit zunehmender Evozierungsfertigkeit können
-stärkere Bestien freigelassen werden.
+eines verdorbenen Zauberers. Wenn man sie öffnet, kann eine
+freundliche Mutantenbestie freigesetzt werden: bizarre Kreaturen, jede mit ihrer eigenen
+Kombination von Eigenschaften. Höhere Evozierungsfertigkeit erlaubt es,
+stärkere Bestien freizulassen.
 
 Es gibt sechs bekannte Eigenschaften:
  * Fledermaus-Bestien fliegen und bewegen sich sehr schnell, aber unberechenbar.
@@ -461,7 +461,7 @@ einschneidigen, sichelförmigen Kopf.
 buckler
 
 Ein kleines Stück aus Holz und Metall, das zur Verteidigung an einen Arm
-geschnallt wird. Es ist schwerfällig zu tragen und beeinträchtigt die Ausweich-
+geschnallt wird. Es ist umständlich zu tragen und beeinträchtigt die Ausweich-
 und Zauberfähigkeiten sowie die Angriffsgeschwindigkeit eines ungeübten Trägers.
 %%%%
 chain mail
@@ -482,10 +482,10 @@ condenser vane
 
 Ein magisches Gerät, das die Energie der Umgebung zu verschiedenen
 zerstörerischen Wolken verdichtet. Wenn es evoziert wird, bilden sich diese
-Wolken um feindliche Monster in der Nähe des Benutzers. Die Tödlichkeit dieser
-Wolken erhöht sich mit der Evozierungsfertigkeit. Bei geringer Kraft entstehen
-giftige Dämpfe, die mit zunehmender Kraft in lodernde Flammen, gefrierende
-Dämpfe und giftige Gase übergehen. Auf den höchsten Stufen der Kraft werden
+Wolken um feindliche Monster in der Nähe des Benutzers. Die Tödlichkeit der
+Wolken erhöht sich mit der Evozierungsfertigkeit. Bei geringer Kraft entsteht
+schädlicher Dunst. Mit zunehmender Kraft dann lodernde Flammen, gefrierende
+Dünste und giftige Gase. Auf den höchsten Stufen der Kraft werden
 Sturmwolken, säurehaltiger Nebel und Wolken negativer Energie verfügbar.
 %%%%
 corpse
@@ -533,7 +533,7 @@ Eine magische Waffe mit zwei rasiermesserscharfen Klingen.
 eggplant
 
 Eine verfaulte Aubergine, die du auf die Crawl-Entwickler werfen kannst. Wenn
-du diese Meldung seihst, ist das ein Fehler.
+du diese Meldung jemals siehst, ist das ein Fehler.
 %%%%
 eudemon blade
 
@@ -547,9 +547,9 @@ Das Gegenteil eines Morgensterns.
 %%%%
 everburning encyclopedia
 
-Ein Buch mit magischen Sprüchen, akribisch geordnet, dicht und fast vollständig
-schwarz verbrannt. Nur wenige Seiten sind noch lesbar, aber die Macht im Innern
-durchströmt den Leser mit einer ofenartigen Hitze.
+Ein Buch mit magischen Sprüchen, akribisch geordnet, sehr umfangreich und fast
+vollständig schwarz verbrannt. Nur wenige Seiten sind noch lesbar, aber die Macht
+im Innern durchströmt den Leser mit Hitze wie aus einem Brennofen.
 %%%%
 executioner's axe
 
@@ -582,10 +582,9 @@ Ein Streitkolben mit einer kurzen Kette, die den Kopf mit dem Griff verbindet.
 %%%%
 fustibalus
 
-Ein Holzstück mit einer verstärkten Schleuder an einem Ende, mit dem Geschosse
-mit hoher Geschwindigkeit abgefeuert werden können. Sie richtet mehr Schaden an,
-wenn sie mit speziell angefertigter Munition verschossen wird, als mit Steinen,
-die auf dem Boden liegen.
+Ein Holzstück mit einer verstärkten Schleuder an einem Ende, die Geschosse
+mit hoher Geschwindigkeit abfeuern kann. Sie richtet mit speziell angefertigter
+Munition mehr Schaden an, als mit vom Boden aufgesammelten Steinen.
 %%%%
 giant club
 
@@ -593,7 +592,7 @@ Ein riesiger Holzklotz.
 %%%%
 giant spiked club
 
-Ein riesiger Holzklotz mit scharfen Stacheln an einem Ende.
+Ein riesiger Holzklotz mit spitzen Stacheln an einem Ende.
 %%%%
 glaive
 
@@ -618,7 +617,7 @@ unvorstellbaren eldritischen Schrecken in den Wahnsinn getrieben.
 %%%%
 great mace
 
-Eine riesige, lästige Kriegskeule aus Metall.
+Eine riesige, sehr unhandliche Kriegskeule aus Metall.
 %%%%
 great sword
 
@@ -627,14 +626,14 @@ Ein Schwert mit einer sehr langen, schweren Klinge und einem langen Griff.
 great wizards, vol. ii
 
 Eine Sammlung von Zaubersprüchen großer Zauberer aus der Geschichte. Der Autor
-scheint sehr enthusiastisch gewesen zu sein, und jeder Zauberer wird ausführlich
+scheint sehr enthusiastisch gewesen zu sein, denn jeder Zauberer wird ausführlich
 und detailliert beschrieben.
 %%%%
 great wizards, vol. vii
 
 Eine Sammlung von Zaubersprüchen großer Zauberer aus der Geschichte. Der Autor
-scheint ziemlich müde von seinem Projekt gewesen zu sein - die Beschreibungen
-der Zauberer sind knapp und minimal und erfüllen die geringsten Anforderungen an
+scheint ziemlich erschöpft von seinem Projekt gewesen zu sein - die Beschreibungen
+der Zauberer sind kurz und knapp und erfüllen nur die niedrigsten Anforderungen an
 Vollständigkeit.
 %%%%
 halberd
@@ -663,33 +662,32 @@ horn of Geryon
 
 Das Horn von Geryon, dem Wächter des Vorhofs der Hölle. Es hat die Macht,
 dämonische Bestien herbeizurufen. Mit einer hohen Evozierungsfertigkeit kann es
-eine größere Anzahl von Bestien herbeirufen, wobei die Wahrscheinlichkeit, dass
-diese Bestien feindlich sind, geringer ist.
+eine größere Anzahl von Bestien herbeirufen, wobei die Wahrscheinlichkeit abnimmt,
+dass diese Bestien feindlich sind.
 %%%%
 hunting sling
 
 Ein Stück Stoff und Leder zum Werfen von Steinen, geeignet für die Jagd auf
-Kleinwild wie Kaninchen oder Goblins. Es richtet mehr Schaden an, wenn es
-speziell angefertigte Munition abwirft, als Steine, die man auf dem Boden
-findet.
+Kleinwild wie Kaninchen oder Goblins. Es richtet mit speziell angefertigter
+Munition mehr Schaden an, als mit vom Boden aufgesammelten Steinen.
 %%%%
 ice dragon scales
 
-Die Schuppen eines kaltatmenden Drachens. Diese Rüstung bietet großen Schutz vor
-Kälte, macht ihren Träger aber anfälliger für Feuer.
+Die Schuppen eines kältespeienden Drachens. Diese Rüstung bietet großen
+Schutz vor Kälte, macht ihren Träger aber anfälliger für Feuer.
 %%%%
 inescapable atlas
 
 Eine Sammlung von Karten mit begleitenden Beschreibungen von Zaubern, die den
-Benutzer an jeden Ort bringen können. Die meisten Exemplare sind verschlossen,
+Benutzer an jene Orte bringen können. Die meisten Exemplare sind eingesperrt,
 angekettet oder anderweitig gefesselt, da das Buch die Angewohnheit hat, seinem
 Besitzer auf Schritt und Tritt zu folgen.
 %%%%
 javelin
 
-Ein leichter Speer, der zum Werfen gedacht ist. Er geht durch die Ziele, die er
-trifft, hindurch und trifft möglicherweise alle Ziele in seinem Weg, bis er die
-maximale Reichweite erreicht.
+Ein leichter Speer, der zum Werfen gedacht ist. Er durchdringt getroffene Ziele
+und kann potenziell alle Ziele auf seinem Weg treffen, bis er die maximale
+Reichweite erschöpft hat.
 {{
     if you.race() == "Kobold" or you.race() == "Spriggan" then
         return "Leider ist er zu lang und unhandlich für dich."
@@ -698,7 +696,7 @@ maximale Reichweite erreicht.
 %%%%
 kite shield
 
-Ein Stück aus Holz und Metall, das zur Verteidigung an einen Arm geschnallt
+Ein Stück Holz und Metall, das zur Verteidigung an einen Arm geschnallt
 wird. Es ist unhandlich zu tragen und behindert die Ausweich- und
 Zauberfähigkeiten sowie die Angriffsgeschwindigkeit eines ungeschickten Trägers.
 %%%%
@@ -721,16 +719,16 @@ Ein sehr großer und sehr schwerer Stein. {{
 %%%%
 leather armour
 
-Ein Anzug aus Schichten gegerbter Tierhaut. Er bietet einen grundlegenden Schutz
-mit fast keine Behinderung des Zauberns oder der heimlichen Bewegung.
+Ein Anzug aus Schichten gegerbter Tierhaut. Er bietet grundlegenden Schutz,
+fast ohne Behinderung des Zauberns oder der heimlichen Bewegung.
 %%%%
 lightning rod
 
-Eine Stange, die es seinem Träger ermöglicht, unvermeidliche Blitze abzufeuern.
-Durch aufeinanderfolgende Evozierungen wird die Entladung aufrechterhalten, was
-die Stärke bis zum Vierfachen erhöht und es ermöglicht, den Blitz umzulenken, um
-einen Bereich zu treffen. Die Stärke des Blitzes steigt mit der
-Evozierungsfähigkeit.
+Eine Stange, die es ihrem Träger ermöglicht, Blitze abzufeuern, denen nicht
+ausgewichen werden kann. Durch aufeinanderfolgende Evozierungen wird die
+Entladung aufrechterhalten, was die Stärke bis zu viermal erhöht und es ermöglicht,
+den Blitz umzulenken, um ein größeres Gebiet zu treffen. Die Stärke des Blitzes
+steigt mit der Evozierungsfertigkeit.
 %%%%
 long sword
 
@@ -754,14 +752,14 @@ Ein Streitkolben mit einem Kopf, der mit kurzen Stacheln besetzt ist.
 %%%%
 necronomicon
 
-Ein äußerst seltenes Buch, mächtig und unheimlich. Viele tollkühne Magier haben
-versucht, dieses Buch zu studieren, nur um sich in nekromantische Kräfte zu
-verstricken, die sie nicht kontrollieren konnten
+Ein extrem seltenes Buch, mächtig und unheimlich. Viele tollkühne Magier haben
+versucht, dieses Buch zu studieren, nur um sich hoffnungslos in nekromantische
+Kräfte zu verstricken und die Kontrolle darüber zu verlieren.
 %%%%
 orb of zot
 
 Ein Artefakt von unschätzbarem Wert. Wenn du mit ihm an die Oberfläche
-entkommen bist, ist deine Aufgabe beendet.
+entkommst, ist deine Aufgabe beendet.
 %%%%
 ozocubu's autobiography
 
@@ -772,13 +770,13 @@ der im Buch beschriebenen Zaubersprüche funktionieren tatsächlich.
 %%%%
 pair of boots
 
-Ein Paar Stiefel. Sie werden an den Füßen getragen und bedecken alles außer den
-größten Hufen und Krallen.
+Ein Paar Stiefel. Sie werden an den Füßen getragen und passen nur auf die
+größten Hufe und Krallen nicht.
 %%%%
 pair of gloves
 
-Ein Paar Handschuhe. Sie werden an den Händen getragen und bedecken alles außer
-den größten Krallen.
+Ein Paar Handschuhe. Sie werden an den Händen getragen und passen nur auf
+die größten Krallen nicht.
 %%%%
 pearl dragon scales
 
@@ -794,18 +792,18 @@ Kreatur, die sie widerspiegelt.
 %%%%
 phial of floods
 
-Ein verzaubertes Gefäß, das mit elementarem Wasser überläuft. Wird der Stöpsel
-entfernt, ergießt sich ein Wasserschwall aus der Phiole, der dem Ziel Schaden
-zufügt und die nähere Umgebung überflutet. Alle Kreaturen, die von der Welle
-getroffen werden, werden ebenfalls von Wasser verschlungen, was sie
-vorübergehend zum Schweigen bringt. Die Stärke des Stroms und die Dauer der
-Überflutung werden durch die Evozierungsfertigkeit erhöht.
+Ein verzaubertes Gefäß, das mit elementarem Wasser überläuft. Das Entfernen des
+Stöpsels entfesselt einen Wasserschwall aus der Phiole, der dem Ziel Schaden
+zufügt und die nähere Umgebung überflutet. Alle von der Welle getroffenen Kreaturen
+werden ebenfalls von Wasser umhüllt, was sie vorübergehend zum Schweigen
+bringt. Die Stärke des Wasserstroms und die Dauer der Überflutung werden durch die
+Evozierungsfertigkeit erhöht.
 %%%%
 piece from Xom's chessboard
 
-Eine schimmernde, mehrfarbigee Schachfigur, die Xom, dem Gott des Chaos,
-gehört. Wenn sie bewegt wird, wird ein Schimmer des Chaos aus einem kosmischen
-Spiel auf das Schlachtfeld geworfen. Dieser Schimmer belegt einen zufälligen
+Eine schimmernde, mehrfarbige Schachfigur, die Xom, dem Gott des Chaos,
+gehört. Wird sie bewegt, erfüllt ein Schimmer des Chaos eines kosmischen
+Spiels das Schlachtfeld. Dieser Schimmer belegt einen zufälligen
 Gegner mit einem der folgenden Effekte: Eile, Unsichtbarkeit, Macht, Korona,
 Verlangsamung, Lähmung, Verwirrung, Malmutation, Versteinerung oder Schlaf. Die
 Stärke des Effekts (positiv oder negativ) wird durch die Evozierungsfertigkeit
@@ -820,12 +818,12 @@ potion of ambrosia
 
 Eine seltsame Substanz, die von Geistermotten produziert wird. Ihr Verzehr
 bewirkt eine Regeneration von Gesundheit und Magie sowie eine völlige
-Verwirrung. Die beiden Effekte sind grundsätzlich miteinander verbunden - die
-Regeneration endet in dem Moment, in dem die Verwirrung einsetzt.
+Verwirrung. Die beiden Effekte sind grundlegend miteinander verbunden - die
+Regeneration endet in dem Moment, in dem die Verwirrung endet.
 %%%%
 potion of berserk rage
 
-Ein Trank, der einen in eine zusammenhanglose Wut versetzen kann.
+Ein Trank, der einen in unkontrollierte Wut versetzen kann.
 %%%%
 potion of brilliance
 
@@ -834,9 +832,8 @@ Magiekosten halbiert (aufgerundet).
 %%%%
 potion of cancellation
 
-Ein Trank, der die meisten magischen Wirkungen, ob gut oder schlecht, auf
-denjenigen, der ihn trinkt, beendet. Er verringert auch die magische
-Verunreinigung.
+Ein Trank, der die meisten magischen Effekte (gute und schlechte) aufhebt,
+die auf den Trinker einwirken. Er reduziert auch magische Kontamination.
 %%%%
 potion of curing
 
@@ -849,12 +846,12 @@ Ein schädliches Gebräu, das Stärke, Intelligenz und Geschicklichkeit verringe
 %%%%
 potion of experience
 
-Ein wahrhaft wundervolles und sehr seltenes Getränk, das beim Verzehr
-Erfahrungen vermittelt.
+Ein wahrhaft wundervolles und sehr seltenes Getränk, das beim Konsum
+Erfahrung gewährt.
 %%%%
 potion of flight
 
-Ein Trank, der demjenigen, der ihn trinkt, großen Auftrieb verleiht.
+Ein Trank, der dem Trinker großen Auftrieb verleiht.
 %%%%
 potion of haste
 
@@ -862,24 +859,24 @@ Ein verzaubertes Getränk, das die Aktionen des Trinkers beschleunigt.
 %%%%
 potion of heal wounds
 
-Ein magisches Heilelixier, das dafür sorgt, dass sich Wunden fast augenblicklich
-schließen und heilen.
+Ein magisches Heilelixier, das Wunden schließt und fast augenblicklich
+verheilen lässt.
 %%%%
 potion of invisibility
 
-Ein Trank, der demjenigen, der ihn trinkt, Unsichtbarkeit verleiht.
+Ein Trank, der dem Trinker Unsichtbarkeit verleiht.
 %%%%
 potion of lignification
 
-Ein Trank, der den Trinkenden in einen belebten Baum verwandelt, dessen Äste
-Waffen tragen können. Ein solcher Baum hat ein minimales Ausweichvermögen, aber
-erhöhte Gesundheit und natürliche Rüstung, er ist resistent gegen Gift und immun
-gegen negative Energie. Solange die Verwandlung andauert, ist er jedoch an
-seinem Platz verwurzelt und kann sich nicht teleportieren.
+Ein Trank, der den Trinker in einen belebten Baum verwandelt, dessen Äste
+Waffen halten können. Ein solcher Baum hat ein minimales Ausweichvermögen, aber
+erhöhte Gesundheit und natürliche Rüstung und er ist resistent gegen Gift und immun
+gegen negative Energie. Solange die Verwandlung andauert, bleibt er jedoch an
+Ort und Stelle verwurzelt und kann sich nicht teleportieren.
 %%%%
 potion of magic
 
-Ein wertvoller Trank, der eine Infusion von magischer Energie gewährt.
+Ein wertvoller Trank, der eine Infusion magischer Energie gewährt.
 %%%%
 potion of might
 
@@ -893,7 +890,7 @@ garantiert) vorteilhaft sind.
 %%%%
 potion of resistance
 
-Ein Trank, der eine vorübergehende Resistenz gegen eine Reihe von schädlichen
+Ein Trank, der vorübergehende Resistenz gegen eine Reihe von schädlichen
 Effekten verleiht: Feuer, Kälte, Elektrizität, Gift und Säure.
 %%%%
 potion of attraction
@@ -913,15 +910,15 @@ Eine starre hölzerne Stange, geschaffen für den Kampf.
 quicksilver dragon scales
 
 Die Schuppen eines Quecksilberdrachens. Diese Rüstung bietet ihrem Träger zwar
-nicht so viel Schutz wie die Schuppen mancher schwererer Drachen, ist dafür aber
-etwas leichter und weniger belastend. Die Rüstung wehrt sowohl Angriffe auf die
+nicht so viel Schutz wie die Schuppen einiger schwererer Drachen, ist dafür aber
+etwas leichter und weniger hinderlich. Die Rüstung wehrt sowohl Angriffe auf die
 Willenskraft des Trägers als auch magische Veränderungen an sich selbst ab - sie
 kann nicht verzaubert werden.
 %%%%
 quick blade
 
 Ein sorgfältig gearbeiteter Dolch, der übernatürlich gut ausbalanciert ist, was
-es selbst unerfahrenen Anwendern erleichtert, mit ihm schnell anzugreifen.
+es selbst unerfahrenen Anwendern sehr erleichtert, schnell damit anzugreifen.
 %%%%
 rapier
 
@@ -930,7 +927,7 @@ Design.
 %%%%
 ring mail
 
-Ein leichte Lederüstung, die mit einer Abdeckung aus Metallringen verstärkt ist.
+Ein leichte Lederüstung, die mit einer Schicht aus Metallringen verstärkt ist.
 Sie schützt im Kampf, ist aber aufgrund des zusätzlichen Gewichts etwas
 unbequem.
 %%%%
@@ -944,7 +941,7 @@ Ein Ring, der dem Träger eine größere Chance verleiht, Angriffe zu vermeiden.
 %%%%
 ring of fire
 
-Ein Ring, der seinen Träger stärker mit den Kräften des Feuers in Berührung
+Ein Ring, der seinen Träger näher mit den Kräften des Feuers in Berührung
 bringt. Er verstärkt die Feuermagie und verleiht Resistenz gegen Hitze, aber
 auch Anfälligkeit für Kälte.
 %%%%
@@ -954,7 +951,7 @@ Ein Ring, der seinem Träger den Flug ermöglicht.
 %%%%
 ring of ice
 
-Ein Ring, der seinen Träger stärker mit den Kräften des Eises in Berührung
+Ein Ring, der seinen Träger näher mit den Kräften des Eises in Berührung
 bringt. Er verstärkt die Eismagie und verleiht Resistenz gegen Kälte, aber
 auch Anfälligkeit für Hitze.
 %%%%
@@ -993,7 +990,7 @@ Ein Ring, der seinen Träger vor Feuer schützt.
 %%%%
 ring of willpower
 
-Ein Ring, der die Willenskraft seines Trägers erhöht, was ihn vor bestimmten
+Ein Ring, der die Willenskraft seines Trägers erhöht, was vor bestimmten
 magischen Effekten schützt.
 %%%%
 ring of see invisible
@@ -1032,7 +1029,7 @@ scale mail
 
 Ein Lederanzug, der mit Metallplatten überzogen ist, die in überlappenden Reihen
 aneinander befestigt sind, um vollständigen Schutz zu bieten, allerdings auf
-Kosten der eingeschränkten Bewegungsfreiheit.
+Kosten eingeschränkter Bewegungsfreiheit.
 %%%%
 scarf
 
@@ -1047,8 +1044,8 @@ scroll of acquirement
 
 Eine wundervolle Schriftrolle, die die Schaffung eines wertvollen Gegenstands
 bewirkt, wobei der Leser die Art des herzustellenden Gegenstands auswählt. Der
-produzierte Gegenstand wird stark auf etwas ausgerichtet sein, das den
-Fertigkeiten des Lesers entspricht, und auch auf Ausrüstung, die noch nicht
+produzierte Gegenstand wird stark danach gewichtet, den Fertigkeiten des Lesers
+zu entsprechen und außerdem wird Ausrüstung bevorzugt, die noch nicht
 gesehen wurde, aber leider gibt es keine Garantie.
 %%%%
 scroll of amnesia
@@ -1060,46 +1057,46 @@ zurückzugewinnen.
 scroll of blinking
 
 Eine Schriftrolle, die es ihrem Leser ermöglicht, sich über eine kurze Distanz
-mit präziser Steuerung zu teleportieren.
+zielgenau zu teleportieren.
 %%%%
 scroll of brand weapon
 
-Eine Schriftrolle, die einer Waffe eine zufällige Marke verleiht, beispielsweise
-Flamme, Gefrieren oder Gift. Jede vorhandene Marke wird ersetzt. Artefakte
-können auf diese Weise nicht gebrandet werden.
+Eine Schriftrolle, die einer Waffe eine zufällige Prägung verleiht, beispielsweise
+Flamme, Gefrieren oder Gift. Jede vorhandene Prägung wird ersetzt. Artefakte
+können nicht auf diese Weise geprägt werden.
 way.
 %%%%
 scroll of enchant armour
 
 Eine Schriftrolle, die ein vom Leser ausgewähltes Rüstungsteil verzaubert.
-Körperrüstungen und Harnische können bis zum gleichen Wert ihrer
-Grundrüstungsstufe verzaubert werden. Buckler, Kiteschilde und Turmschilde
-können bis zu +3, +5 bzw. +8 verzaubert werden, und andere Rüstungen können
+Körperrüstungen und Harnische können bis zum Wert ihrer Grundrüstungsstufe
+verzaubert werden. Buckler, Drachenschilde und Turmschilde
+können bis zu +3, +5 bzw. +8 verzaubert werden und sonstige Rüstungen können
 bis zu +2 verzaubert werden. Magische Artefakte können überhaupt nicht
 verzaubert werden.
 %%%%
 scroll of enchant weapon
 
-Eine Schriftrolle, die eine vom Leser ausgewählte Waffe verzaubert und so sowohl
-die Genauigkeit als auch den Schaden erhöht. Waffen können bis zu +9 verzaubert
+Eine Schriftrolle, die eine vom Leser ausgewählte Waffe verzaubert und sowohl
+deren Genauigkeit als auch deren Schaden erhöht. Waffen können bis zu +9 verzaubert
 werden. Magische Artefakte können überhaupt nicht verzaubert werden.
 %%%%
 scroll of fear
 
 Eine Schriftrolle, die bei denen, die den Leser sehen, große Angst hervorruft,
-auch wenn der Leser unsichtbar ist. Verbündete des Lesers bleiben davon
+sogar wenn der Leser unsichtbar ist. Verbündete des Lesers bleiben davon
 unberührt. Monster, die nichtlebend, untot, dämonisch, heilig, Pflanzen,
-berserkt oder rasend sind, können nicht gefürchtet werden.
+wütend oder rasend sind, können nicht verängstigt werden.
 %%%%
 scroll of fog
 
-Eine Schriftrolle, die den Leser mit einer dichten Nebelwolke umhüllt.
+Eine Schriftrolle, die den Leser mit einer dichten Nebelwolke umgibt.
 %%%%
 scroll of holy word
 
-Eine Schriftrolle, die die guten Götter aufruft, allen in der Nähe befindlichen
+Eine Schriftrolle, die die guten Götter anruft, allen in der Nähe befindlichen
 untoten oder dämonischen Kreaturen großen Schaden zuzufügen – möglicherweise
-auch dem Leser! Es wird betroffene Monster kurzzeitig benommen machen.
+trifft dies auch den Leser! Es macht betroffene Monster kurzzeitig benommen.
 %%%%
 scroll of identify
 
@@ -1108,7 +1105,7 @@ Gegenstands identifiziert.
 %%%%
 scroll of immolation
 
-Eine Schriftrolle, die die Kreaturen um den Leser herum mit einer instabilen und
+Eine Schriftrolle, die Kreaturen in der Umgebung des Lesers mit einer instabilen und
 mächtigen inneren Flamme erfüllt.
 %%%%
 scroll of magic mapping
@@ -1117,56 +1114,55 @@ Eine Schriftrolle, die die Umgebung des Lesers offenbart.
 %%%%
 scroll of noise
 
-Eine Streichschriftrolle, die beim Lesen ein lautes Geräusch erzeugt.
+Eine Schriftrolle, die zum Scherz beim Lesen ein lautes Geräusch erzeugt.
 %%%%
 scroll of silence
 
 Eine Schriftrolle, die alle Geräusche in der Nähe des Lesers eliminiert. Dies
-macht das Lesen von Schriftrollen, das Wirken von Zaubersprüchen, der Anruf
+macht das Lesen von Schriftrollen, das Wirken von Zaubersprüchen, den Anruf
 göttlicher Fähigkeiten oder das Schreien in der Nähe des Lesers unmöglich. Die
-bedrückende, unnatürliche Wirkung der Schriftrolle wird die Tarnung erheblich
-erschweren.
+bedrückende, unnatürliche Wirkung der Schriftrolle erschwert Heimlichkeit sehr.
 
-Bestimmte Monster verfügen über angeborene magische oder besondere Fähigkeiten,
-die auch dann noch genutzt werden können, wenn sie zum Schweigen gebracht
-werden.
+Bestimmte Monster verfügen über angeborene magische oder besondere
+Fähigkeiten, die sie auch dann noch nutzen können, wenn sie zum Schweigen
+gebracht wurden.
 
-Der Effekt beginnt mit einem großen Radius, der dann kleiner wird und
-schließlich nur noch den Leser abdeckt, bevor er abläuft.
+Der Effekt beginnt mit einem großen Radius, der allmählich schrumpft und
+schließlich nur noch den Leser umfasst, bevor er abläuft.
 %%%%
 scroll of summoning
 
-Eine Schriftrolle, die mehrere verbündete Kreaturen beschwört, die aus Schatten
-in die Formen der Wesen verwoben sind, die sich in der unmittelbaren Nähe des
+Eine Schriftrolle, die mehrere verbündete Kreaturen beschwört, indem sie aus
+Schatten die Formen von Wesen webt, die sich in der unmittelbaren Nähe des
 Lesers befinden.
 %%%%
 scroll of teleportation
 
-Eine Schriftrolle, die den Leser nach einer kurzen Pause an eine zufällige
-Position versetzt. Wenn man diese Schriftrolle liest, während man auf eine
-Teleportation wartet, wird diese stattdessen abgebrochen.
+Eine Schriftrolle, die den Leser mit einer kurzen Verzögerung an eine zufällige
+Position versetzt. Liest man diese Schriftrolle beim Warten auf eine Teleportation,
+wird diese stattdessen abgebrochen.
 %%%%
 scroll of torment
 
-Eine Schriftrolle, die die Mächte der Dunkelheit anrief, um jedem Lebewesen in
+Eine Schriftrolle, die die Mächte der Dunkelheit anruft, um jedem Wesen in
 der Nähe großen Schmerz zuzufügen – auch dem Leser! Dies halbiert die Gesundheit
-aller Lebewesen, ist jedoch nie direkt tödlich.
+aller lebendigen Wesen, ist jedoch nie direkt tödlich.
 %%%%
 scroll of vulnerability
 
 Eine Schriftrolle, die kurzzeitig die Willenskraft des Lesers und aller Wesen in
 der Nähe halbiert und sie dadurch anfällig für viele magische Effekte macht. Die
-Schriftrolle kann keine Auswirkungen auf diejenigen haben, die gegen solche
-Effekte vollkommen immun sind.
+Schriftrolle hat keine Auswirkungen auf diejenigen, die gegen solche Effekte
+vollkommen immun sind.
 %%%%
 scythe
 
-Ein landwirtschaftliches Gerät, das normalerweise nur von ungeübten Mobs im
-Kampf verwendet wird.
+Ein landwirtschaftliches Gerät, das normalerweise nur von schlecht ausgebildeten
+Menschenmengen im Kampf verwendet wird.
 %%%%
 shortbow
 
-Ein gebogenes Stück Holz und Schnur zum Schießen von Pfeilen.
+Ein gebogenes Stück Holz mit einer Schnur, zum Schießen von Pfeilen.
 %%%%
 short sword
 
@@ -1179,57 +1175,57 @@ geformt ist. Als Munition ist es wirksamer als einfache Steine.
 %%%%
 spear
 
-Eine Jagdwaffe, bestehend aus einem Holzschaft, an dessen einem Ende ein spitzer
+Eine Jagdwaffe, bestehend aus einem Holzschaft, bei dem an einem Ende ein spitzer
 Metallkopf befestigt ist.
 %%%%
 staff of air
 
 Ein Stab, der die Kraft der von seinem Träger gewirkten Luftzauber erhöht und
-ihn vor Elektrizität isoliert. Wenn der Träger sich mit Evokationen und
-Luftmagie auskennt, kann er diejenigen, die davon getroffen werden, schockieren.
+ihn gegen Elektrizität isoliert. Wenn der Träger sich mit Evokationen und
+Luftmagie auskennt, kann er mit diesem Stab getroffene Gegner schocken.
 %%%%
 staff of cold
 
 Ein Stab, der die Kraft der von seinem Träger gewirkten Eiszauber erhöht und ihn
-vor den Auswirkungen der Kälte schützt. Wenn der Träger sich mit Evokationen und
-Eismagie auskennt, kann er diejenigen, die davon getroffen werden, einfrieren
-und so Kälteschaden verursachen, der die Rüstung umgeht.
+vor den Auswirkungen von Kälte schützt. Wenn der Träger sich mit Evokationen und
+Eismagie auskennt, kann er mit diesem Stab getroffene Gegner einfrieren und ihnen
+damit Kälteschaden zufügen, der die Rüstung umgeht.
 %%%%
 staff of conjuration
 
 Ein Stab, der die Kraft der von seinem Träger gewirkten Konjurationszauber
 erhöht. Wenn der Träger sich mit Evokationen und Konjurationen auskennt, kann er
-diejenigen, die er trifft, mit reiner Energie stoßen und unwiderstehlichen
-Schaden anrichten.
+mit diesem Stab bei getroffenen Gegnern unwiderstehlichen Schaden durch reine
+Energie anrichten.
 %%%%
 staff of death
 
 Ein Stab, der die Kraft der von seinem Träger gewirkten nekromantischen
 Zauber erhöht und ihn vor negativer Energie schützt. Wenn der Träger sich
-mit Evozierung und Nekromantie auskennt, kann er den lebenden Seelen, die er
-trifft, großen Schmerz zufügen und negativen Energieschaden verursachen, der
-die Rüstung umgeht.
+mit Evozierung und Nekromantie auskennt, kann er lebenden Seelen, die er
+mit diesem Stab trifft, großen Schmerz zufügen und negativen Energieschaden
+verursachen, der die Rüstung umgeht.
 %%%%
 staff of earth
 
 Ein Stab, der die Macht der von seinem Träger gewirkten Erdzauber erhöht.
-Wenn der Träger sich mit Evokationen und Erdmagie auskennt, kann er
-diejenigen, die davon getroffen werden, zerschmettern und dabei erheblichen,
+Wenn der Träger sich mit Evokationen und Erdmagie auskennt, kann er mit
+diesem Stab getroffene Gegner zerschmettern und dabei erheblichen,
 unwiderstehlichen Schaden verursachen, der durch Rüstung stark reduziert wird.
 %%%%
 staff of fire
 
 Ein Stab, der die Kraft der von seinem Träger gewirkten Feuerzauber erhöht
 und ihn vor den Auswirkungen des Feuers schützt. Wenn der Träger sich mit
-Evokationen und Feuermagie auskennt, kann er diejenigen, die davon getroffen
-werden, verbrennen und so Feuerschaden verursachen, der die Rüstung umgeht.
+Evokationen und Feuermagie auskennt, kann er mit diesem Stab getroffene
+Gegner verbrennen und so Feuerschaden verursachen, der die Rüstung umgeht.
 %%%%
 staff of poison
 
 Ein Stab, der die Kraft der von seinem Träger gewirkten Vergiftungszauber
 erhöht und ihn vor der Wirkung von Gift schützt. Wenn der Träger sich mit
-Evokationen und Giftmagie auskennt, kann er diejenigen, die davon getroffen
-werden, vergiften und Giftschaden verursachen, der die Rüstung umgeht.
+Evokationen und Giftmagie auskennt, kann mit diesem Stab getroffene
+Gegner vergiften und Giftschaden verursachen, der die Rüstung umgeht.
 %%%%
 steam dragon scales
 
@@ -1266,14 +1262,15 @@ there-and-back book
 Eine Zusammenstellung von Kindergeschichten über große Abenteuer, die immer
 damit enden, dass der Reisende an seinen Ausgangspunkt zurückkehrt. Die Liebe,
 die von unzähligen Generationen in seine Seiten eingeflossen ist, hat ihm
-Macht verliehen und es einem erfahrenen Magier ermöglicht, andere durch das
+Macht verliehen und ermöglichst es einem erfahrenen Magier, andere durch das
 Rezitieren bestimmter Passagen zu transportieren.
 %%%%
 throwing net
 
-Ein Geflecht aus Seilen, die mit Gewichten am Rand zusammengeknotet sind und
-dazu dienen, Ziele zu verwickeln und einzufangen. Kämpfende Opfer können
-schließlich das Netz zerstören und sich befreien, wenn sie lange genug leben.
+Ein Geflecht aus zusammengeknoteten Seilen, das am Rand mit Gewichten beschwert
+ist und dazu dient, Ziele zu verwickeln und gefangen zu halten. Opfer, die Widerstand
+leisten, können das Netz nach und nach zerstören und sich befreien, falls sie lange
+genug überleben.
 %%%%
 tower shield
 
@@ -1284,30 +1281,30 @@ Zauberfähigkeit und die Angriffsgeschwindigkeit eines ungeübten Trägers.
 tin of tremorstones
 
 Ein Satz ruhender, magnetischer Erdelementare in Form winziger, sehr schwerer
-Kieselsteine. Wenn sie freigelassen werden, werden die Elementare magnetisch in
-die Mitte nahegelegener Monster gezogen, wo sie buchstäblich vor Wut
-explodieren, wegen der Störung ihrer Rast. Zittersteine landen normalerweise
-leicht außerhalb des Ziels und der Benutzer ist immer der Gefahr ausgesetzt,
-getroffen zu werden. Allerdings ist eine Rüstung äußerst effektiv, wenn es
-darum geht, die leichten Gesteinsfragmente der Explosion eines Zittersteins
-abzuwehren, so dass ein gut gepanzerter Träger wenig zu befürchten hat. Die
+Kieselsteine. Wenn sie freigelassen werden, zieht es die Elementare magnetisch in
+die Mitte nahegelegener Monster, wo sie wegen der Störung ihrer Ruhe buchstäblich
+vor Wut explodieren. Zittersteine landen normalerweise nicht ganz zielgenau und
+der Benutzer läuft immer Gefahr, getroffen zu werden. Allerdings ist eine Rüstung
+äußerst effektiv zur Abwehr der leichten Gesteinsfragmente der Explosion eines
+Zittersteins, so dass ein gut gepanzerter Träger wenig zu befürchten hat. Die
 Evozierungsfertigkeit erhöht die Anzahl der Explosionen.
 %%%%
 trident
 
-Ein verbesserter Angelspeer mit längerem Schaft und dreizackigem Metallkopf.
+Ein Speer zum Fischen, verbessert durch einen längerem Schaft und einen
+dreizackigen Metallkopf.
 %%%%
 trismegistus codex
 
-Ein magisches Buch, geschrieben von einem numerologisch besessenen Zauberer.
+Ein magisches Buch, geschrieben von einem von Numerologie besessen Zauberer.
 Von der Satzlänge bis zur Gesamtorganisation ist alles strukturiert. Es ist
 unklar, ob der Autor dies für hilfreich hielt.
 %%%%
 triple crossbow
 
-Eine Armbrust mit drei in Reihe angeordneten Sehnen für außergewöhnliche
-Kraft, die ursprünglich als Belagerungswaffe konzipiert und dann verkleinert
-wurde. Das Laden und Abfeuern nimmt viel Zeit in Anspruch.
+Eine Armbrust mit drei Sehnen, die in Reihe angeordnet wurden, um außergewöhnliche
+Kraft bereitzustellen, ursprünglich als Belagerungswaffe konzipiert und dann verkleinert.
+Das Laden und Abfeuern nimmt viel Zeit in Anspruch.
 %%%%
 triple sword
 
@@ -1321,15 +1318,14 @@ bevorzugte Waffe der Diener des Strahlenden.
 %%%%
 troll leather armour
 
-Die steife und struppige Haut eines Trolls. Sie regeneriert auf magische Weise
+Die steife und knubblige Haut eines Trolls. Sie regeneriert auf magische Weise
 das Fleisch ihres Trägers.
 %%%%
 the unrestrained analects
 
 Eine Sammlung von Zaubersprüchen, die alles in Sichtweite des Zaubernden
-angreifen, ohne durch geringfügige Einschränkungen wie „Freischuss
-erforderlich“ oder „Sorge vor Kollateralschäden“ eingeschränkt zu
-werden.
+angreifen, ohne durch Kleinlichkeiten wie „freie Schussbahn erforderlich“ oder
+„Sorge vor Kollateralschäden“ eingeschränkt zu werden.
 %%%%
 wand of acid
 
@@ -1338,11 +1334,11 @@ Ein magisches Gerät, das ätzende Säurestrahlen abfeuert.
 wand of charming
 
 Ein magisches Gerät, das eine Kreatur dazu bringt, dem Benutzer gegenüber
-heftig, aber kurzzeitig loyal zu werden.
+ausgesprochen loyal zu werden, aber nur für kurze Zeit.
 %%%%
 wand of digging
 
-Ein magisches Gerät, das Tunnel durch unbearbeitetes Gestein bohrt.
+Ein magisches Gerät, das Tunnel durch unbearbeiteten Fels bohrt.
 %%%%
 wand of flame
 
@@ -1351,14 +1347,14 @@ Ein magisches Gerät, das kleine Flammenwolken ausstößt.
 wand of iceblast
 
 Ein magisches Gerät, das eine laute Explosion von Eissplittern erzeugt, die
-sogar kälteresistenten Kreaturen teilweise Schaden zufügt.
+sogar kälteresistenten Kreaturen teilweisen Schaden zufügt.
 %%%%
 wand of mindburst
 
 Ein magisches Gerät, das einen psychischen Angriff auf eine Zielkreatur
-auslöst. Wenn es ihre Willenskraft überwindet, reißt es ihnen buchstäblich
-den Verstand weg und verursacht Schaden, der ihre Rüstung vollständig umgeht.
-Gegen gehirnlose Kreaturen ist es nutzlos.
+ausübt. Falls es ihre Willenskraft überwindet, zerreißt es ihnen buchstäblich
+den Verstand und verursacht Schaden, der ihre Rüstung vollständig umgeht.
+Gegen hirnlose Kreaturen ist es nutzlos.
 %%%%
 wand of paralysis
 
@@ -1368,7 +1364,7 @@ sie keines ihrer Gliedmaßen bewegen kann.
 wand of polymorph
 
 Ein magisches Gerät, das die Transmogrifikation einer Kreatur in eine andere
-Form bewirkt. Es ist besonders wirksam gegen formverändernde Kreaturen.
+Form bewirkt. Es ist besonders effektiv gegen gestaltwandelnde Kreaturen.
 %%%%
 war axe
 
@@ -1378,11 +1374,11 @@ whip
 
 Ein langer geflochtener Lederstreifen. Diese einfache Waffe wurde ursprünglich
 für den Einsatz bei Meinungsverschiedenheiten mit Rindern entwickelt und wird
-heute häufig zur Beilegung von Differenzen zwischen allen Arten von Lebewesen
-eingesetzt.
+heute häufig zur Beilegung von Differenzen zwischen allen möglichen Arten von
+Kreaturen eingesetzt.
 %%%%
 young poisoner's handbook
 
 Ein Einführungsbuch in die Zauberkunst des Giftes. Den Lesern wird empfohlen,
-sehr dicke, nicht saugende Handschuhe zu tragen.
+sehr dicke, nicht saugfähige Handschuhe zu tragen.
 %%%%
