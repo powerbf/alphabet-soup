@@ -41,7 +41,7 @@ death conjurer melee
 
 Als Konjurant sollte offensive Magie deine Hauptwaffe sein. Wirke deine
 Zaubersprüche so oft es geht. Denke daran, zu rasten, wenn deine Magiepunkte
-niedrig ist.
+niedrig sind.
 %%%%
 death berserker unberserked
 
@@ -726,7 +726,7 @@ benutzen!
 %%%%
 HINT_RUN_AWAY_2
 
-Wenn man du dich auf eine andere Ebene zurückziehst, solltest du bedenken, dass die
+Wenn du dich auf eine andere Ebene zurückziehst, solltest du bedenken, dass die
 Monster dir folgen können, wenn sie direkt neben dir stehen, während du eine
 Treppe hinauf- oder hinabsteigst. Und selbst wenn du es geschafft hast, sie
 abzuschütteln, sind sie immer noch dort, wenn du zurückkommst, also solltest du
@@ -958,7 +958,7 @@ eines, das unsichtbar ist. Außerdem alamiert das von ihm gemachte Geräusch
 andere Monster in der Nähe, die nachsehen werden, was der Grund für den Lärm
 war.
 %%%%
-HINT_MONSTER_SHOUTED_UNSEEN
+HINT_MONSTER_SHOUTED_SEEN
 
 Oh, oh, das Monster hat dich bemerkt! Außerdem alamiert das von ihm gemachte
 Geräusch andere Monster in der Nähe, die nachsehen werden, was der Grund für
@@ -1407,7 +1407,7 @@ die durch Drücken von <w>$cmd[CMD_USE_ABILITY]</w> aktiviert werden können.
 HINT_DESCRIBE_POTION
 
 Drücke <w>$cmd[CMD_QUAFF]</w>, um diesen Trank zu trinken<tiles>, oder
-mache einfach einen<w>Linksklick</w> darauf</tiles>.
+mache einfach einen <w>Linksklick</w> darauf</tiles>.
 %%%%
 HINT_DESCRIBE_MANUAL
 
@@ -1552,7 +1552,7 @@ Dieser besondere Altar ist so alt, dass man nicht erkennen kann, welchem Gott
 er gewidmet ist, und $1 wird es wahrscheinlich nicht mögen, wenn du die
 Loyalität wechselst. Falls du das Risiko eingehen möchtest, kannst du hier
 konvertieren, indem du <w>$cmd[CMD_GO_DOWNSTAIRS]</w> drückst, während du
-auf dem Altar stehst. Damit stellt du dich in den Dienst eines zufälligen
+auf dem Altar stehst. Damit stellst du dich in den Dienst eines zufälligen
 Gottes, der dir zum Dank etwas zusätzliche Frömmigkeit gewährt.
 %%%%
 # $1 = player's current god, $2 = altar god
