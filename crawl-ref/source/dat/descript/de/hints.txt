@@ -1015,13 +1015,13 @@ HINT_MISCAST_ARMOUR
 Das Tragen einer schweren Rüstung oder eines Schildes, insbesondere eines
 großen Schildes, kann deine Zauberfähigkeiten stark beeinträchtigen. Du
 kannst die Auswirkungen überprüfen, indem du die Fehlerraten auf der Seite
-<w>$cmd[CMD_CAST_SPELL]</w> mit und ohne den getragenen Gegenstand
+<w>$cmd[CMD_CAST_SPELL]\?</w> mit und ohne den getragenen Gegenstand
 vergleichst.
 %%%%
 HINT_MISCAST_CONTAMINATION_AND_MP
 
 Wenn die Erfolgschance beim Zaubern hoch ist (was durch Eingabe von
-<w>$cmd[CMD_CAST_SPELL]</w> oder <w>$cmd[CMD_DISPLAY_SPELLS]</w> ermittelt
+<w>$cmd[CMD_CAST_SPELL]\?</w> oder <w>$cmd[CMD_DISPLAY_SPELLS]</w> ermittelt
 werden kann), dann bedeutet ein Fehlzauber lediglich, dass der Zauber nicht
 funktioniert und eine harmlose Nebenwirkung hat. Bei Zaubern mit einer
 hohen Fehlerquote besteht jedoch die Gefahr, dass du dich selbst mit magischer
