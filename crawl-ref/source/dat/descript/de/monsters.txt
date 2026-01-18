@@ -15,7 +15,7 @@ Unterschätze sie auf eigene Gefahr!
 Aizul
 
 Einst war sie die Hauptwächterschlange eines legendären Schatzes, fiel jedoch
-in Ungade, nachdem Diebe ihn plünderten, während sie schlief. Jetzt schlängelt sie
+in Ungnade, nachdem Diebe ihn plünderten, während sie schlief. Jetzt schlängelt sie
 sich durch den Kerker und sinnt auf Rache an allen potenziellen Plünderern. Sie
 ist eine versierte Zauberin, im Nahkampf aber nicht tödlicher als andere ihrer
 Art.
@@ -684,8 +684,8 @@ battlesphere
 
 Eine kleine Kugel aus magischer Energie, die einem Zauberwirker folgt. Sie kann
 nicht von alleine agieren, greift aber jedes Mal, wenn der Konjurant einen Zauber
-spicht, die Feinde des Konjuranten mit magischen Geschossen an, die nie ihr Ziel
-verfehlen, 
+spricht, die Feinde des Konjuranten mit magischen Geschossen an, die nie ihr Ziel
+verfehlen.
 %%%%
 bennu
 
@@ -1337,7 +1337,7 @@ gelid demonspawn
 %%%%
 giant cockroach
 
-Ein großes braunes Insekt, das ein böses fauchendes Geräuch macht.
+Ein großes braunes Insekt, das ein böses fauchendes Geräusch macht.
 Entgegen der landläufigen Meinung ist es tatsächlich ziemlich anfällig für
 mutagene Energien.
 %%%%
@@ -1389,9 +1389,9 @@ aus der Ferne mit der Zunge, um sie mit seinen sauren Magensäften zu überziehe
 %%%%
 great orb of eyes
 
-Ein schwebender Ball, der mit bösartigen Augen bedeckt ist vor unheimlicher Energie
-brummt. So mancher Abenteurer wurde von seinen schrecklichen Augenzähnen in
-Stücke gerissen.
+Ein schwebender Ball, der mit bösartigen Augen bedeckt ist und vor unheimlicher
+Energie brummt. So mancher Abenteurer wurde von seinen schrecklichen Augenzähnen
+in Stücke gerissen.
 %%%%
 green death
 
