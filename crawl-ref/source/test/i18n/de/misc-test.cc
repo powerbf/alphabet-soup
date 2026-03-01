@@ -62,6 +62,11 @@ int main()
     msg = uppercase_first(msg);
     show_result(msg, "Eine graue Kuh ist glücklich.");
 
+    // beams
+    show_result(localise("the searing blast"), "der sengende Strahl");
+    show_result(localise("a searing blast"), "ein sengender Strahl");
+    show_result(localise("searing blast"), "sengender Strahl");
+
     // features/terrain
 
     show_result(localise("the floor"), "der Boden");
