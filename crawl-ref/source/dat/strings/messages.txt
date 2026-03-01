@@ -3584,6 +3584,9 @@ drain dexterity
 drain strength, intelligence or dexterity
 
 %%%%
+drain life
+
+%%%%
 deal up to %d extra electric damage
 
 %%%%

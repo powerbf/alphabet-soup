@@ -228,7 +228,7 @@ the malmutate
 the refrigeration
 
 %%%%
-the drain life
+the life draining
 
 %%%%
 the sonic wave
@@ -586,8 +586,7 @@ malmutate
 refrigeration
 
 %%%%
-# also used in monster attack description ("It can %s.")
-drain life
+life draining
 
 %%%%
 sonic wave
