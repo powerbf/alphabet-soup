@@ -39,7 +39,7 @@
 %%%%
 PREGENERATE:0
 
-SELECT:/^the (?!%s)/
+SELECT_BY_KEY:/^the (?!%s)/
 
 # English
 KEY:/^the /the %s/
@@ -67,7 +67,7 @@ KEY:/pair of (?!quick blades)/pair of %s/
 PREGENERATE:1
 
 # exclude possessives
-SELECT:/^the .*[^']{2}$/
+SELECT_BY_KEY:/^the .*[^']{2}$/
 
 # transform (English) key
 KEY:/^the (?=one-)/a /
@@ -86,7 +86,7 @@ KEY:/^the /a /
 %%%%
 PREGENERATE:2
 
-SELECT:/^the .*('s|')$/
+SELECT_BY_KEY:/^the .*('s|')$/
 
 # articles
 /^du (.*)/d'un $1/
@@ -98,7 +98,7 @@ SELECT:/^the .*('s|')$/
 %%%%
 PREGENERATE:3
 
-SELECT:/^(a|an) /
+SELECT_BY_KEY:/^(a|an) /
 
 # transform (English) key
 KEY:/^(a|an) /your /
@@ -117,7 +117,7 @@ KEY:/^(a|an) /your /
 %%%%
 PREGENERATE:4
 
-SELECT:/^the (%s)?@name@'s/
+SELECT_BY_KEY:/^the (%s)?@name@'s/
 
 KEY:/^the //
 %%%%
@@ -128,7 +128,7 @@ KEY:/^the //
 PREGENERATE:5
 
 # exclude possessives
-SELECT:/^(a|an) .*[^']{2}$/
+SELECT_BY_KEY:/^(a|an) .*[^']{2}$/
 
 # remove article from key
 KEY:/^(a|an) //
@@ -146,7 +146,7 @@ KEY:/^(a|an) //
 %%%%
 PREGENERATE:6
 
-SELECT:/^%d (?!%s)/
+SELECT_BY_KEY:/^%d (?!%s)/
 
 KEY:/^%d /%d %s/
 
@@ -159,7 +159,7 @@ KEY:/^%d /%d %s/
 %%%%
 PREGENERATE:7
 
-SELECT:/^%d /
+SELECT_BY_KEY:/^%d /
 
 KEY:/^%d //
 
@@ -174,7 +174,7 @@ KEY:/^%d //
 %%%%
 PREGENERATE:8
 
-SELECT:/'s$/
+SELECT_BY_KEY:/'s$/
 
 # only the English key needs to change
 KEY:/^(.*)'s$/{poss}$1/

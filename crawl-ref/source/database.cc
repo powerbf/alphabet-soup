@@ -1096,19 +1096,30 @@ static void _doPregeneration(TextDB& db)
 
         vector<string> rules = split_string("\n", rulesStr, true, false);
 
-        // get key selection regex
-        string key_select_regex;
+        // get selection regex
+        string key_select_regex, value_select_regex;
         for (string rule: rules)
         {
-            if (starts_with(rule, "SELECT:"))
+            rule = trimmed_string(rule);
+            bool is_key_select = starts_with(rule, "SELECT_BY_KEY");
+            bool is_value_select = starts_with(rule, "SELECT_BY_VALUE");
+                
+            if (is_key_select || is_value_select)
             {
-                rule = trimmed_string(replace_first(rule, "SELECT:", ""));
-                if (starts_with(rule, "/"))
-                    rule = rule.substr(1);
-                if (ends_with(rule, "/"))
-                    rule = rule.substr(0, rule.length()-1);
+                size_t pos = rule.find(':');
+                if (pos == string::npos)
+                    break;
 
-                key_select_regex = rule;
+                string rule_regex = trimmed_string(rule.substr(pos + 1));
+                if (starts_with(rule_regex, "/"))
+                    rule_regex = rule_regex.substr(1);
+                if (ends_with(rule_regex, "/"))
+                    rule_regex = rule_regex.substr(0, rule_regex.length()-1);
+
+                if (is_key_select)
+                    key_select_regex = rule_regex;
+                else
+                    value_select_regex = rule_regex;
                 break;
             }
         }
@@ -1116,10 +1127,15 @@ static void _doPregeneration(TextDB& db)
 #ifdef DEBUG_DIAGNOSTICS
         printf("Key selection rule: /%s/\n", key_select_regex.c_str());
 #endif
-        if (key_select_regex.empty())
+        if (key_select_regex.empty() && value_select_regex.empty())
             continue;
 
-        vector<string> keys = _database_find_keys(db, key_select_regex, false);
+        vector<string> keys;
+        if (!key_select_regex.empty())
+            keys = _database_find_keys(db, key_select_regex, false);
+        else if (!value_select_regex.empty())
+            keys = _database_find_bodies(db, value_select_regex, false);
+
         for (const string& orig_key: keys)
         {
             string key = orig_key;
