@@ -5067,14 +5067,14 @@ void bolt::affect_monster(monster* mon)
         // no need to also say "does no damage" here.
         if (postac)
         {
-            string msg = get_hit_message(mon->name(DESC_THE));
-            msg += localise(" but does no damage.");
-            mpr_nolocalise(msg);
+            do_hit_message(mon->name(DESC_THE),
+                           attack_strength_punctuation(final));
         }
         else
         {
-            do_hit_message(mon->name(DESC_THE),
-                           attack_strength_punctuation(final));
+            string msg = get_hit_message(mon->name(DESC_THE));
+            msg += localise(" but does no damage.");
+            mpr_nolocalise(msg);
         }
     }
     else if (heard && !hit_noise_msg.empty())
