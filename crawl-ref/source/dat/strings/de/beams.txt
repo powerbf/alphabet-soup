@@ -321,7 +321,7 @@ die Explosion aus versteinerten Fragmenten
 %%%%
 # fragments from a monster made of ice
 the icy blast
-die eisige Explosion
+die Explosion aus Eisfragmenten
 %%%%
 the blast of toenail fragments
 die Explosion aus Zehennagelfragmenten
@@ -575,7 +575,7 @@ harpoon shot
 Harpunenschuss
 %%%%
 beckoning
-Heranwinken
+Herbeiwinken
 %%%%
 great blast of fire
 großer Feuerstoß
