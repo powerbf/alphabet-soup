@@ -228,7 +228,7 @@ die Malmutation
 the refrigeration
 die Kühlung
 %%%%
-the life draining
+the drain life
 die Lebensauszehrung
 %%%%
 the sonic wave
@@ -586,8 +586,9 @@ Malmutation
 refrigeration
 Kühlung
 %%%%
-life draining
-Lebensauszehrung
+# also used in monster attack description ("It can %s.")
+drain life
+Leben auszehren
 %%%%
 sonic wave
 Schallwelle

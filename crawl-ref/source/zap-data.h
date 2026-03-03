@@ -1629,7 +1629,7 @@ _mon_hex_zap(ZAP_DRAIN_MAGIC, BEAM_DRAIN_MAGIC),
 
 {
     ZAP_DRAIN_LIFE,
-    "life draining",
+    "drain life",
     200,
     new calcdice_calculator<1, 10, 1, 1>,
     new tohit_calculator<40>,

@@ -3584,9 +3584,6 @@ Geschicklichkeit entziehen
 drain strength, intelligence or dexterity
 Stärke, Intelligenz, oder Geschicklichkeit entziehen
 %%%%
-drain life
-Leben auszehren
-%%%%
 deal up to %d extra electric damage
 bis zu %d zusätzlichen elektrischen Schaden verursachen
 %%%%
