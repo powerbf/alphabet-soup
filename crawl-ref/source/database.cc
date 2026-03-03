@@ -1103,7 +1103,7 @@ static void _doPregeneration(TextDB& db)
             rule = trimmed_string(rule);
             bool is_key_select = starts_with(rule, "SELECT_BY_KEY");
             bool is_value_select = starts_with(rule, "SELECT_BY_VALUE");
-                
+
             if (is_key_select || is_value_select)
             {
                 size_t pos = rule.find(':');
