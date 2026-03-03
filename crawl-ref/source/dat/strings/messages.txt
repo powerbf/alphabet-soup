@@ -3584,6 +3584,9 @@ drain dexterity
 drain strength, intelligence or dexterity
 
 %%%%
+drain life
+
+%%%%
 deal up to %d extra electric damage
 
 %%%%
@@ -3624,6 +3627,9 @@ begin ongoing constriction
 
 %%%%
 deal extra damage to undead and demons
+
+%%%%
+drain magic
 
 %%%%
 cause pain to the living

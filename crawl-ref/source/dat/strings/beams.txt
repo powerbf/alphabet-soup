@@ -586,9 +586,9 @@ malmutate
 refrigeration
 
 %%%%
-# also used in monster attack description ("It can %s.")
-drain life
-
+# duplicate of monster attack description ("It can %s.")
+#drain life
+#
 %%%%
 sonic wave
 
@@ -944,9 +944,9 @@ agility
 sap magic
 
 %%%%
-# also used in monster attack description ("It can %s.")
-drain magic
-
+# duplicate of monster attack description ("It can %s.")
+#drain magic
+#
 %%%%
 tukima's dance
 

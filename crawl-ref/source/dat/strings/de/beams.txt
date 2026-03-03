@@ -586,9 +586,9 @@ Malmutation
 refrigeration
 Kühlung
 %%%%
-# also used in monster attack description ("It can %s.")
-drain life
-Leben auszehren
+# duplicate of monster attack description ("It can %s.")
+#drain life
+#
 %%%%
 sonic wave
 Schallwelle
@@ -944,9 +944,9 @@ Beweglichkeit
 sap magic
 Magie entziehen
 %%%%
-# also used in monster attack description ("It can %s.")
-drain magic
-Magie verzehren
+# duplicate of monster attack description ("It can %s.")
+#drain magic
+#
 %%%%
 tukima's dance
 Tukimas Tanz

@@ -3584,6 +3584,9 @@ Geschicklichkeit entziehen
 drain strength, intelligence or dexterity
 Stärke, Intelligenz, oder Geschicklichkeit entziehen
 %%%%
+drain life
+Leben auszehren
+%%%%
 deal up to %d extra electric damage
 bis zu %d zusätzlichen elektrischen Schaden verursachen
 %%%%
@@ -3625,6 +3628,9 @@ andauernde Umschlingung beginnen
 %%%%
 deal extra damage to undead and demons
 zusätzlichen Schaden an Untoten und Dämonen verursachen
+%%%%
+drain magic
+Magie verzehren
 %%%%
 cause pain to the living
 den Lebenden Schmerz zufügen
