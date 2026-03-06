@@ -15476,9 +15476,6 @@ Deine Gefechtssphäre wobbelt und verliert den Zusammenhalt.
 You feel your bond with your battlesphere wane.
 Du fühlst, wie deine Bindung zu deiner Gefechtssphäre schwindet.
 %%%%
-barrage of energy
-Trommelfeuer der Energie
-%%%%
 %s fires!
 %s schießt!
 %%%%
@@ -15766,9 +15763,6 @@ Du sprichst ein Wort des Chaos!
 %%%%
 You see nothing there to target!
 Du siehst da nichts, worauf du zielen könntest!
-%%%%
-shock of your passage
-Schock deiner Passage
 %%%%
 
 ##################

@@ -1831,6 +1831,19 @@ def process_cplusplus_file(filename):
                 strings.append("%s " + string + " %s")
                 continue
 
+            # beam names
+            if filename == "zap-data.h" \
+              or (filename == "spl-damage.cc" and section == "fraggable_monsters") \
+              or re.search(r'(beam|expl|effect)(\.|->)(name|aux_source)\s*=\s*"', line):
+                if string in ["none", "****", "debugging ray", "STAIR BEAM", "explosion of "]:
+                    continue
+                if not string.startswith("drain "):
+                    IGNORE_STRINGS.append(string)
+                string = article_the(string)
+            elif filename == "beam.cc" and string == "drain magic":
+                # we want the one from describe.cc
+                continue
+
             if 'calc_elemental_brand_damage' in line:
                 # elemental damage attack verbs
                 strings.extend(do_any_2_actors_message(string, ''))
@@ -2003,13 +2016,6 @@ def process_cplusplus_file(filename):
                 if string in ["explosion of ", " fragments"]:
                     # beam for explosive brand - now only used for Damnation artefact, and not displayed
                     continue
-            elif filename == "zap-data.h" or (section == "_beam_type_name" and string == "drain magic"):
-             #or section in ["_beam_type_name", "fraggable_monsters"] \
-             #or re.search(r"beam\.(name|aux_source) *\=", line):
-                if string in ["none", "debugging ray"]:
-                    continue
-                #IGNORE_STRINGS.append(string)
-                string = article_the(string)
 
             # strip channel information
             string = re.sub(r'(PLAIN|SOUND|VISUAL|((VISUAL )?WARN|ENCHANT|SPELL)):', '', string)
