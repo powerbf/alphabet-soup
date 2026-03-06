@@ -256,9 +256,8 @@ die Schweinifizierung
 the stream of webbing
 der Gespinststrahl
 %%%%
-# duplicate of cloud
-#the spectral mist
-#
+the spectral mist
+der spektrale Nebel
 %%%%
 the shadow bolt
 der Schattenstrahl
@@ -308,6 +307,24 @@ der magische Sturm
 %%%%
 the electrical discharge
 die elektrische Entladung
+%%%%
+the frost
+der Frost
+%%%%
+the irradiate
+die Verstrahlung
+%%%%
+the energy
+die Energie
+%%%%
+the barrage of energy
+das Trommelfeuer der Energie
+%%%%
+the infestation
+die Infestation
+%%%%
+the shock of your passage
+der Schock deiner Passage
 %%%%
 
 # Fragments created by Lee's Rapid Deconstruction
@@ -616,4 +633,7 @@ vampirische Auszehrung
 %%%%
 concentrate venom
 Gift konzentrieren
+%%%%
+porkalator
+Schweinifizierung
 %%%%
