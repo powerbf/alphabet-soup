@@ -2073,7 +2073,8 @@ def add_strings_to_output(filename, strings, output):
 
         if string in output:
             string = '# duplicate: ' + string
-        elif section != "_flavour_base_desc" and not string.startswith("the "):
+        elif not string.startswith("the ") \
+          and section not in ["_flavour_base_desc", "_ashenzari_curses", "learned_something_new"]:
             if article_the(string) in output or article_a(string) in output:
                 string = '# duplicate: ' + string
         output.append(string)
