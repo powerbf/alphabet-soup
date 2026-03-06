@@ -154,17 +154,18 @@ def remove_duplicates(strings):
 # Grammatical utility functions
 ################################
 
+def remove_article(string):
+    return re.sub("^(a|an|the) ", "", string)
+
 def article_a(string):
+    string = remove_article(string)
     if re.search('^[aeiouAEIOU]', string) and not string.startswith('one-'):
         return "an " + string
     else:
         return "a " + string
 
 def article_the(string):
-    if string.startswith("the "):
-        return string
-    else:
-        return "the " + string
+    return "the " + remove_article(string)
 
 def possessive(string):
     return string + "'s"
