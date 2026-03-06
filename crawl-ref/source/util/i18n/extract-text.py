@@ -678,13 +678,10 @@ def process_yaml_file(filename):
                 result.append(string)
             elif key in ["name", "genus"]:
                 result.append(article_the(species[key]))
-                # version without article will be auto-generated at runtime
-                IGNORE_STRINGS.append(species[key])
                 if key == "genus":
                     # also add lower-case version
                     string = species[key].lower()
                     result.append(article_the(string))
-                    IGNORE_STRINGS.append(string)
             elif key == "adjective" and species[key] == "Draconian":
                 # same as species name
                 continue
@@ -1838,8 +1835,6 @@ def process_cplusplus_file(filename):
               or re.search(r'(beam|expl|effect)(\.|->)(name|aux_source)\s*=\s*"', line):
                 if string in ["none", "****", "debugging ray", "STAIR BEAM", "explosion of "]:
                     continue
-                if not string.startswith("drain "):
-                    IGNORE_STRINGS.append(string)
                 string = article_the(string)
             elif filename == "beam.cc" and string == "drain magic":
                 # we want the one from describe.cc
@@ -2011,7 +2006,6 @@ def process_cplusplus_file(filename):
                 if string.startswith('a scroll of '):
                     string = string.replace('a scroll', 'the scroll')
             elif filename == 'terrain.cc' and section == "feat_type_name":
-                    IGNORE_STRINGS.append(string)
                     string = article_the(string)
             elif filename == 'throw.cc' and section == '_setup_missile_beam':
                 if string in ["explosion of ", " fragments"]:
@@ -2048,8 +2042,8 @@ def process_cplusplus_file(filename):
 
     return remove_duplicates(strings)
 
-
 def add_strings_to_output(filename, strings, output):
+
     if len(strings) == 0:
         return
 
@@ -2057,12 +2051,14 @@ def add_strings_to_output(filename, strings, output):
     output.append("##################")
     output.append("# " + filename)
     output.append("##################")
+    section = None
     for string in strings:
         # in some cases, string needs to be quoted
         #   - if it has leading or trailing whitespace
         #   - if it starts with # (because otherwise it looks like a comment)
         #   - if it starts and ends with double-quotes
         if string.startswith('# section:'):
+            section = re.sub(r'# section:\s*', '', string)
             output.append(string)
             continue
         elif '# note' in string:
@@ -2076,9 +2072,11 @@ def add_strings_to_output(filename, strings, output):
         string = string.replace(r'\\', '\\')
 
         if string in output:
-            output.append('# duplicate: ' + string)
-        else:
-            output.append(string)
+            string = '# duplicate: ' + string
+        elif section != "_flavour_base_desc" and not string.startswith("the "):
+            if article_the(string) in output or article_a(string) in output:
+                string = '# duplicate: ' + string
+        output.append(string)
 
 
 ###################################
@@ -2251,7 +2249,6 @@ def post_process_directn_cc(strings):
         elif string.startswith('#'):
             string = string
         elif section == "_base_feature_desc":
-            IGNORE_STRINGS.append(string)
             string = article_the(string)
         elif section == 'feature_description_at' and string.endswith(' '):
             result.extend(separate_adjectives(string))
@@ -2754,8 +2751,6 @@ def post_process(filename, strings):
                     strings.append(string + suffix);
             elif string == "your stacked deck":
                 strings.append("the stacked deck")
-                IGNORE_STRINGS.append("a stacked deck")
-                IGNORE_STRINGS.append("stacked deck")
             elif "@medium_attack@" in string and len(medium_attack_verbs) > 0:
                 for verb in medium_attack_verbs:
                     strings.append(string.replace("@medium_attack@", verb))
@@ -2782,16 +2777,6 @@ def post_process(filename, strings):
             strings.append(string)
 
     strings = remove_unnecessary_section_markers(strings)
-
-    if canonicalised:
-        # We will store in canonical form. Other forms will be auto-generated from that.
-        # Add other forms to ignore list so they don't get picked up anywhere else.
-        for string in strings:
-            if re.search("^(the|a|an) ", string) and not string.endswith("'s"):
-                string2 = re.sub("^(the|a|an) ", "", string)
-                IGNORE_STRINGS.append(string2)
-                if string.startswith("the "):
-                    IGNORE_STRINGS.append(article_a(string2))
 
     return strings
 

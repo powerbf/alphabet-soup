@@ -103,7 +103,7 @@ for line in keyfile:
         if line.startswith('# section:'):
             locnote = ''
             continue
-        elif line.startswith('# duplicate:'):
+        elif line.startswith('# duplicate'):
             #locnote = ''
             continue
         elif line.startswith('# note:'):
