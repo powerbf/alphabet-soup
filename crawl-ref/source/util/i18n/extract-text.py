@@ -956,7 +956,7 @@ def do_first_stage_line_processing(lines):
                     join = True
                 elif last.endswith('?') or curr.startswith('?') or last.endswith(':') or curr.startswith(':'):
                     # join ternary operator split over multiple lines
-                    if last.endswith(':') and (re.search('\bcase\b', last) or re.search(r'(public|protected|private|default)\s*:$', last)):
+                    if last.endswith(':') and (re.search(r'\bcase\b', last) or re.search(r'(public|protected|private|default)\s*:$', last)):
                         # false positive
                         pass
                     else:
@@ -984,7 +984,7 @@ def do_first_stage_line_processing(lines):
 
 
 # insert section markers
-# inserts a comment like "// @locsestion: foo"
+# inserts a comment like "// @locsection: foo"
 # recognised sections are classes, functions, and static array initialisations
 def insert_section_markers(filename, lines):
     result = []
