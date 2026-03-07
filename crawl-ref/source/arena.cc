@@ -424,7 +424,7 @@ namespace arena
         if (!teams.empty())
             return teams;
         else
-            return "random v random"; // @noloc
+            return "random v random";
     }
 
     /// @throws arena_error if a monster specification is invalid.
@@ -484,7 +484,7 @@ namespace arena
         arena_type = strip_tag_prefix(spec, "arena:");
 
         if (arena_type.empty())
-            arena_type = "default"; // @noloc
+            arena_type = "default";
 
         const int arena_delay = strip_number_tag(spec, "delay:");
         if (arena_delay >= 0 && arena_delay < 2000)
@@ -539,8 +539,8 @@ namespace arena
 
         if (faction_a.desc == faction_b.desc)
         {
-            faction_a.desc += " (A)"; // @noloc
-            faction_b.desc += " (B)"; // @noloc
+            faction_a.desc += " (A)";
+            faction_b.desc += " (B)";
         }
     }
 
@@ -1510,19 +1510,17 @@ static void _choose_arena_teams(newgame_def& choice,
     vbox->add_child(make_shared<Text>(text));
     vbox->set_cross_alignment(Widget::Align::STRETCH);
     auto teams_input = make_shared<ui::TextEntry>();
-    teams_input->set_sync_id("teams"); // @noloc
+    teams_input->set_sync_id("teams");
     teams_input->set_text(default_arena_teams);
     vbox->add_child(teams_input);
     formatted_string prompt;
     prompt.cprintf("\n");
     prompt.cprintf("%s", localise("Examples:").c_str());
     prompt.cprintf("\n");
-    // @noloc section start
     prompt.cprintf("  Sigmund v Jessica\n");
     prompt.cprintf("  99 orc v the Royal Jelly\n");
     prompt.cprintf("  20-headed hydra v 10 kobold ; scimitar ego:flaming");
     vbox->add_child(make_shared<Text>(move(prompt)));
-    // @noloc section end
 
     auto popup = make_shared<ui::Popup>(move(vbox));
 

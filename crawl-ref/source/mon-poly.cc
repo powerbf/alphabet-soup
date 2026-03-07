@@ -248,7 +248,6 @@ void change_monster_type(monster* mons, monster_type targetc)
     flags |= MF_POLYMORPHED;
     string name;
 
-    // @noloc section start (we will localise these but not with these exact strings)
     // Preserve the names of uniques and named monsters.
     if (mons->type == MONS_ROYAL_JELLY
         || mons->mname == "shaped Royal Jelly")
@@ -289,7 +288,6 @@ void change_monster_type(monster* mons, monster_type targetc)
         if (the_pos != string::npos)
             name = name.substr(0, the_pos);
     }
-    // @noloc section end
 
     const god_type old_god        = mons->god;
     const int  old_hp             = mons->hit_points;

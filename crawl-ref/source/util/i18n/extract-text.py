@@ -2857,6 +2857,12 @@ def post_process(filename, strings):
                 strings.append(string)
             elif string == PRAY_SENTENCE:
                 continue
+            elif filename == "arena.cc":
+                if " v " in string and not "Expected" in string:
+                    continue
+                elif string in ["default", " (A)", " (B)"]:
+                    continue
+                strings.append(string)
             elif filename == "religion.cc" and section == "_item_ego_name":
                 strings.append(" of " + string);
             elif filename == "items.cc" and string == "{gold}":
