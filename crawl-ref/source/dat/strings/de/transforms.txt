@@ -377,25 +377,43 @@ eine Steinstatue
 a living statue of rough stone
 eine lebende Statue aus grobem Stein
 %%%%
-# unarmed attack
-Stone fists
-Steinfäuste
-%%%%
-# unarmed attack (missing hand)
-Stone fist
-Steinfaust
-%%%%
-# unarmed attack (felid)
-Stone claws
-Steinklauen
-%%%%
-# unarmed attack (octopode)
-Stone tentacles
-Steintentakel
-%%%%
 # flesh type
 stone
 Stein
+%%%%
+
+# unarmed attack
+%%%%
+# humanoid
+Stone fists
+Steinfäuste
+%%%%
+# troll
+Stone claws
+Steinklauen
+%%%%
+# felid
+Stone paws
+Steinpfoten
+%%%%
+# octopode
+Stone tentacles
+Steintentakel
+%%%%
+
+# unarmed attack (missing hand)
+%%%%
+Stone fist
+Steinfaust
+%%%%
+Stone claw
+Steinklauen
+%%%%
+Stone paw
+Steinpfote
+%%%%
+Stone tentacle
+Steintentakel
 %%%%
 
 ################################

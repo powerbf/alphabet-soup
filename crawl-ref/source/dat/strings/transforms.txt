@@ -377,24 +377,42 @@ a stone statue
 a living statue of rough stone
 
 %%%%
+# flesh type
+stone
+
+%%%%
+
 # unarmed attack
+%%%%
+# humanoid
 Stone fists
 
 %%%%
-# unarmed attack (missing hand)
-Stone fist
-
-%%%%
-# unarmed attack (felid)
+# troll
 Stone claws
 
 %%%%
-# unarmed attack (octopode)
+# felid
+Stone paws
+
+%%%%
+# octopode
 Stone tentacles
 
 %%%%
-# flesh type
-stone
+
+# unarmed attack (missing hand)
+%%%%
+Stone fist
+
+%%%%
+Stone claw
+
+%%%%
+Stone paw
+
+%%%%
+Stone tentacle
 
 %%%%
 

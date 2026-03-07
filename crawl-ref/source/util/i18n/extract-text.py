@@ -2727,6 +2727,44 @@ def post_process_tilereg_cc(strings):
 
     return result
 
+def post_process_transform_cc(strings):
+    result = []
+    section = None
+    for string in strings:
+        if string.startswith('# section:'):
+            section = re.sub(r'^# section:\s*', '', string)
+        elif section == "FormAppendage":
+            # remove space at end of sentence
+            string = string.strip()
+        elif string == "Stone %s":
+            # statue form unarmed attack
+            for fist in ["fist", "paw", "claw", "tentacle"]:
+                stone_fist = string.replace("%s", fist)
+                result.append(stone_fist)
+                result.append(pluralise(stone_fist))
+            continue
+        elif string == "hover solemnly before":
+            # flying prayer action
+            string = PRAY_SENTENCE.replace("%s", string, 1)
+        elif re.search('^(a|an|your) ', string):
+            # transform description
+            # remove punctuation
+            string = re.sub(r'[\.!]$', '', string)
+            if 'fearsome %s' in string:
+                # dragon form
+                # draconians get a specific dragon based on their colour
+                result.append(string.replace("%s", "ice dragon"))
+                result.append(string.replace("%s", "swamp dragon"))
+                result.append(string.replace("%s", "golden dragon"))
+                result.append(string.replace("%s", "iron dragon"))
+                result.append(string.replace("%s", "storm dragon"))
+                result.append(string.replace("%s", "quicksilver dragon"))
+                result.append(string.replace("%s", "steam dragon"))
+                result.append(string.replace("%s", "fire dragon"))
+                continue
+        result.append(string)
+    return result
+
 def post_process(filename, strings):
     # the strings in some files need special handling
     if filename == 'art-func.h':
@@ -2749,6 +2787,8 @@ def post_process(filename, strings):
         strings = post_process_skills_cc(strings)
     elif filename.startswith("tilereg-") and filename.endswith(".cc"):
         strings = post_process_tilereg_cc(strings)
+    elif filename == 'transform.cc':
+        strings = post_process_transform_cc(strings)
     elif filename != 'art-data.txt':
         section = None
         old_strings = strings
@@ -2765,12 +2805,6 @@ def post_process(filename, strings):
             elif filename == 'player.cc' and string == "%sway":
                 strings.append("the doorway")
                 strings.append("the gateway")
-            elif filename == 'transform.cc' and section == "FormAppendage":
-                strings.append(string.strip())
-            elif filename == 'transform.cc' and re.search('^(a|an|your) ', string):
-                # transform description - ignore any containing %s and remove punctuation from rest
-                if '%s' not in string:
-                    strings.append(re.sub(r'[\.!]$', '', string))
             elif string == "Walk":
                 # species walk verb and associated noun
                 strings.append(string + "ing")
@@ -2805,7 +2839,7 @@ def post_process(filename, strings):
             elif "@Medium_attack@" in string and len(medium_attack_verbs) > 0:
                 for verb in medium_attack_verbs:
                     strings.append(string.replace("@Medium_attack@", verb.capitalize()))
-            elif string == "kneel at" or string == "hover solemnly before":
+            elif string == "kneel at":
                 # default prayer action
                 string = PRAY_SENTENCE.replace("%s", string, 1)
                 strings.append(string)

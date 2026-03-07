@@ -668,7 +668,7 @@ public:
     {
         // there's special casing in base_hand_name to get "fists"
         string hand = you.base_hand_name(true, true);
-        return make_stringf("Stone %s", hand.c_str()); // @noloc
+        return make_stringf("Stone %s", hand.c_str());
     }
 };
 
