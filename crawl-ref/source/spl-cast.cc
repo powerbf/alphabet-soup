@@ -1868,7 +1868,7 @@ spret your_spells(spell_type spell, int powc, bool allow_fail,
                     spell_title_color, spl_title.c_str(), spell_title_color);
         if (allow_fail)
         {
-            title += make_stringf(" <lightgrey>(%s)</lightgrey>", // @noloc
+            title += make_stringf(" <lightgrey>(%s)</lightgrey>",
                 _spell_failure_rate_description(spell).c_str());
         }
 

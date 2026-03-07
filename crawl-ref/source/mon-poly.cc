@@ -761,7 +761,7 @@ void seen_monster(monster* mons)
         const item_def *wyrmbane = you.weapon();
         if (wyrmbane && mons->dragon_level() > wyrmbane->plus)
         {
-            mprf("<green>%s</green>", // @noloc
+            mprf("<green>%s</green>",
                  "Wyrmbane glows as a worthy foe approaches.");
         }
     }

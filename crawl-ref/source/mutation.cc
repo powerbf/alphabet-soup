@@ -1200,19 +1200,19 @@ void display_mutations()
     string extra = "";
     if (_num_part_suppressed)
     {
-        extra += "<brown>()</brown>  : "; // @noloc
+        extra += "<brown>()</brown>  : ";
         extra += localise("Partially suppressed.");
         extra += "\n";
     }
     if (_num_full_suppressed)
     {
-        extra += "<darkgrey>(())</darkgrey>: "; // @noloc
+        extra += "<darkgrey>(())</darkgrey>: ";
         extra += localise("Completely suppressed.");
         extra += "\n";
     }
     if (_num_transient)
     {
-        extra += "<magenta>[]</magenta>   : "; // @noloc
+        extra += "<magenta>[]</magenta>   : ";
         extra += localise("Transient mutations.");
     }
 

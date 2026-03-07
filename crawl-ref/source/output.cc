@@ -2015,7 +2015,7 @@ static void _print_overview_screen_equip(column_composer& cols,
             item_name = chop_string(item_name, sw - 36, false);
 
             str = make_stringf(
-                     "<w>%c</w> - <%s>%s</%s>", // @noloc
+                     "<w>%c</w> - <%s>%s</%s>",
                      equip_char,
                      colname.c_str(),
                      item_name.c_str(),
@@ -2618,7 +2618,7 @@ string dump_overview_screen(bool full_id)
 string _status_mut_rune_list(int sw)
 {
     // print status information
-    string text = "<w>@:</w> "; // @noloc
+    string text = "<w>@:</w> ";
     vector<string> status;
 
     status_info inf;
@@ -2652,7 +2652,7 @@ string _status_mut_rune_list(int sw)
     // print the Orb
     if (player_has_orb())
     {
-        text += "\n<w>0:</w> "; // @noloc
+        text += "\n<w>0:</w> ";
         text += localise("Orb of Zot");
     }
 
@@ -2663,7 +2663,7 @@ string _status_mut_rune_list(int sw)
             runes.emplace_back(rune_type_name(i));
     if (!runes.empty())
     {
-        text += make_stringf("\n<w>%s:</w> ", // @noloc
+        text += make_stringf("\n<w>%s:</w> ",
                     stringize_glyph(get_item_symbol(SHOW_ITEM_MISCELLANY)).c_str());
         text += localise("%d/%d runes: ", (int)runes.size(), you.obtainable_runes);
         text += localise(comma_separated_line(runes.begin(), runes.end(), ", ", ", "));

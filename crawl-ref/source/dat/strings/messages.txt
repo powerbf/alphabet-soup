@@ -2793,9 +2793,6 @@ None.
 "[<w>!</w>/<w>^</w>|<w>Right-click</w>]: "
 
 %%%%
-"[<w>!</w>/<w>^</w>]: "
-
-%%%%
 <w>Overview</w>|Powers|Wrath
 
 %%%%
@@ -2901,9 +2898,6 @@ Known
 ##################
 %%%%
 "[<w>!</w>|<w>Right-click</w>]: "
-
-%%%%
-"[<w>!</w>]: "
 
 %%%%
 <w>Description</w>|Quote
@@ -7272,9 +7266,6 @@ Arrows/[<w>enter</w>] to select, [<w>bksp</w>] to clear selected, [<w>?</w>] for
 
 %%%%
 "[<w>!</w>/<w>Right-click</w>] "
-
-%%%%
-"[<w>!</w>] "
 
 %%%%
 macro
@@ -19790,16 +19781,7 @@ The Orb of Zot has appeared underneath you.
 <red>@border_top@</lightred><red>                       --
 
 %%%%
-<red>------------------------------------------------------------------------------
-
-%%%%
 --                            The Arena Of Blood                            --
-
-%%%%
---                                                                          --</red>
-
-%%%%
-<red>--                                                                          --
 
 %%%%
 --                You descend into the pit of gibs and meat,                --
@@ -19845,9 +19827,6 @@ The Orb of Zot has appeared underneath you.
 
 %%%%
 --                       The theatre of blood begins.                       --
-
-%%%%
-------------------------------------------------------------------------------</red>
 
 %%%%
 

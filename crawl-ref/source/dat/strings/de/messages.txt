@@ -2793,9 +2793,6 @@ Keine.
 "[<w>!</w>/<w>^</w>|<w>Right-click</w>]: "
 "[<w>!</w>/<w>^</w>|<w>Rechtsklick</w>]: "
 %%%%
-"[<w>!</w>/<w>^</w>]: "
-"[<w>!</w>/<w>^</w>]: "
-%%%%
 <w>Overview</w>|Powers|Wrath
 <w>Übersicht</w>|Kräfte|Zorn
 %%%%
@@ -2902,9 +2899,6 @@ Bekannt
 %%%%
 "[<w>!</w>|<w>Right-click</w>]: "
 "[<w>!</w>|<w>Rechtsklick</w>]: "
-%%%%
-"[<w>!</w>]: "
-"[<w>!</w>]: "
 %%%%
 <w>Description</w>|Quote
 <w>Beschreibung</w>|Zitat
@@ -7273,9 +7267,6 @@ Pfeile/[<w>Enter</w>] auswählen, [<w>Rücktaste</w>] Auswahl löschen, [<w>?</w
 %%%%
 "[<w>!</w>/<w>Right-click</w>] "
 "[<w>!</w>/<w>Rechtsklick</w>] "
-%%%%
-"[<w>!</w>] "
-"[<w>!</w>] "
 %%%%
 macro
 Macro
@@ -19790,17 +19781,8 @@ Die Kugel von Zot ist unter dir erschienen.
 <red>@border_top@</lightred><red>                       --
 <red>@border_top@</lightred><red>                       --
 %%%%
-<red>------------------------------------------------------------------------------
-<red>------------------------------------------------------------------------------
-%%%%
 --                            The Arena Of Blood                            --
 --                           Die Arena des Blutes                           --
-%%%%
---                                                                          --</red>
---                                                                          --</red>
-%%%%
-<red>--                                                                          --
-<red>--                                                                          --
 %%%%
 --                You descend into the pit of gibs and meat,                --
 --         Du steigst hinab in die Grube aus Innereien und Fleisch,         --
@@ -19846,9 +19828,6 @@ Die Kugel von Zot ist unter dir erschienen.
 %%%%
 --                       The theatre of blood begins.                       --
 --                     Das Theater des Blutes beginnt.                      --
-%%%%
-------------------------------------------------------------------------------</red>
-------------------------------------------------------------------------------</red>
 %%%%
 
 ##################

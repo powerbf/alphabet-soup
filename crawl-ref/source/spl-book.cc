@@ -565,7 +565,7 @@ private:
         {
             // TODO: couldn't figure out how to do this in pure c++
             string match_text = localise("Matches:");
-            match_text += make_stringf(" '<w>%.20s</w>'", // @noloc
+            match_text += make_stringf(" '<w>%.20s</w>'",
                             replace_all(search_text, "<", "<<").c_str());
             int escaped_count = (int) std::count(search_text.begin(),
                                                     search_text.end(), '<');
@@ -586,13 +586,13 @@ private:
 
         const string act = localise(you.divine_exegesis ? "Cast" : "Memorise");
         // line 2
-        desc << "[<yellow>?</yellow>] " // @noloc
+        desc << "[<yellow>?</yellow>] "
              << chop_string(localise("help"), 20)
-             << "[<yellow>" // @noloc
+             << "[<yellow>"
              << localise("Ctrl-F")
-             << "</yellow>] " // @noloc
+             << "</yellow>] "
              << chop_string(localise("search"), 12)
-             << "[<yellow>!</yellow>] "; // @noloc
+             << "[<yellow>!</yellow>] ";
         desc << ( current_action == action::cast
                             ? localise("<w>Cast</w>|Describe|Hide|Show")
                  : current_action == action::memorise

@@ -1573,7 +1573,7 @@ void direction_chooser::print_target_monster_description(bool &did_cloud) const
             + localise(")");
     }
 
-    mprf(MSGCH_PROMPT, "%s: <lightgrey>%s</lightgrey>", // @noloc
+    mprf(MSGCH_PROMPT, "%s: <lightgrey>%s</lightgrey>",
          target_prefix ? target_prefix : !behaviour->targeted() ? "Look" : "Aim",
          text.c_str());
 

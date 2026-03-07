@@ -2253,7 +2253,7 @@ void ShoppingList::display(bool view_only)
     shopmenu.set_title(mtitle);
 
     string more_str = localise("You have %d gp", you.gold);
-    more_str = make_stringf("<yellow>%s</yellow>", more_str.c_str()); // @noloc
+    more_str = make_stringf("<yellow>%s</yellow>", more_str.c_str());
     shopmenu.set_more(formatted_string::parse_string(more_str));
 
     shopmenu.set_flags(MF_SINGLESELECT | MF_ALWAYS_SHOW_MORE

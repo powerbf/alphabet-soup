@@ -151,6 +151,9 @@ def remove_duplicates(strings):
             result.append(string)
     return result
 
+# remove html-style tags
+def remove_tags(string):
+    return re.sub('<[^>]*>', '', string)
 
 ################################
 # Grammatical utility functions
@@ -341,7 +344,8 @@ def ignore_string(string):
         return True
 
     # ignore format strings without any actual text
-    temp = re.sub(r'%[\-\+ #0]?[\*0-9]*(\.[\*0-9]*)?(hh|h|l|ll|j|z|t|L)?[diuoxXfFeEgGaAcspn]', '', string)
+    temp = remove_tags(string)
+    temp = re.sub(r'%[\-\+ #0]?[\*0-9]*(\.[\*0-9]*)?(hh|h|l|ll|j|z|t|L)?[diuoxXfFeEgGaAcspn]', '', temp)
     temp = re.sub('0x', '', temp); # Hexadecimal number indicator
     if not re.search(r'(?<!\\)[a-zA-Z]', temp):
         return True

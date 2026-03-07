@@ -1361,7 +1361,7 @@ void SkillMenu::refresh_button_row()
 {
     if (is_set(SKMF_SPECIAL))
         return;
-    const string helpstring = "[<yellow>?</yellow>] "; // @noloc
+    const string helpstring = "[<yellow>?</yellow>] ";
     const string azstring = "[<yellow>a</yellow>-<yellow>z</yellow>] "; // @noloc
 
     string legend = localise(is_set(SKMF_SIMPLE) ? "Skill descriptions" : "Help");
@@ -1378,20 +1378,20 @@ void SkillMenu::refresh_button_row()
         if (is_set(SKMF_SET_TARGET))
         {
             midlegend = azstring + localise("set skill target");
-            clearlegend = "[<yellow>-</yellow>] "; // @noloc
+            clearlegend = "[<yellow>-</yellow>] ";
             clearlegend += localise("clear selected target");
         }
         else
         {
-            midlegend = "[<yellow>=</yellow>] "; // @noloc
+            midlegend = "[<yellow>=</yellow>] ";
             midlegend += localise("set a skill target");
-            clearlegend = "[<yellow>-</yellow>] "; // @noloc
+            clearlegend = "[<yellow>-</yellow>] ";
             clearlegend += localise("clear all targets");
         }
     }
     else if (!you.has_mutation(MUT_DISTRIBUTED_TRAINING)) // SKM_VIEW_TARGETS unavailable for Gn
     {
-        midlegend = "[<yellow>=</yellow>] "; // @noloc
+        midlegend = "[<yellow>=</yellow>] ";
         midlegend += localise("set a skill target");
     }
 
