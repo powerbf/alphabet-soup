@@ -154,6 +154,12 @@ def remove_duplicates(strings):
 # Grammatical utility functions
 ################################
 
+def has_article_the(string):
+    return string.startswith("the ")
+
+def has_article_a(string):
+    return string.startswith("a ") or string.startswith("an ")
+
 def remove_article(string):
     return re.sub("^(a|an|the) ", "", string)
 
@@ -2058,7 +2064,6 @@ def add_strings_to_output(filename, strings, output):
         #   - if it starts with # (because otherwise it looks like a comment)
         #   - if it starts and ends with double-quotes
         if string.startswith('# section:'):
-            section = re.sub(r'# section:\s*', '', string)
             output.append(string)
             continue
         elif '# note' in string:
@@ -2073,11 +2078,45 @@ def add_strings_to_output(filename, strings, output):
 
         if string in output:
             string = '# duplicate: ' + string
-        elif not string.startswith("the ") \
-          and section not in ["_flavour_base_desc", "_ashenzari_curses", "learned_something_new"]:
-            if article_the(string) in output or article_a(string) in output:
-                string = '# duplicate: ' + string
         output.append(string)
+
+# At runtime, we derive noun forms with an indefinite article (a/an) from the
+# form with the definite article (the), and the form with no article from the
+# form with an indefinite article.
+# Therefore, we want to discard the derived forms because they're redundant,
+# and because keeping them would:
+# a) add translation effort
+# b) introduce opportunity for mismatches
+def remove_derived_duplicates(strings):
+    definites = []
+    indefinites = []
+    for string in strings:
+        if has_article_the(string):
+            definites.append(string)
+        elif has_article_a(string):
+            indefinites.append(string)
+
+    result = []
+    section = None
+    for string in strings:
+        if string.startswith('#'):
+            if string.startswith('# section:'):
+                section = re.sub(r'# section:\s*', '', string)
+            elif string == "##################":
+                # new file
+                section = None
+        elif has_article_a(string):
+            if article_the(string) in definites:
+                string = '# duplicate (derived): ' + string
+        elif not has_article_the(string):
+            # _flavour_base_desc contains verb phrases (not nouns) - keep distinct from beam names
+            # _ashenzari_curses, learned_something_new - keep distinct from Nemelex card names
+            if section not in ["_flavour_base_desc", "_ashenzari_curses", "learned_something_new"]:
+                if article_the(string) in definites or article_a(string) in indefinites:
+                    string = '# duplicate (derived): ' + string
+        result.append(string)
+
+    return result
 
 
 ###################################
@@ -2681,7 +2720,6 @@ def post_process_tilereg_cc(strings):
 
 def post_process(filename, strings):
     # the strings in some files need special handling
-    canonicalised = True
     if filename == 'art-func.h':
         strings = post_process_art_func_h(strings)
     elif filename == 'directn.cc':
@@ -2703,7 +2741,6 @@ def post_process(filename, strings):
     elif filename.startswith("tilereg-") and filename.endswith(".cc"):
         strings = post_process_tilereg_cc(strings)
     elif filename != 'art-data.txt':
-        canonicalised = False
         section = None
         old_strings = strings
         strings = []
@@ -2856,6 +2893,8 @@ for filename in files:
     strings = post_process(filename, strings)
 
     add_strings_to_output(filename, strings, output)
+
+output = remove_derived_duplicates(output)
 
 for line in output:
     print(line)
