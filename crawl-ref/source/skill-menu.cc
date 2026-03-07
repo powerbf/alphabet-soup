@@ -302,7 +302,6 @@ string SkillMenuEntry::get_prefix()
 
 void SkillMenuEntry::set_aptitude()
 {
-    // @noloc section start
     string text = "<white>";
 
     const bool manual = you.skill_manual_points[m_sk] > 0;
@@ -322,7 +321,6 @@ void SkillMenuEntry::set_aptitude()
     }
 
     m_aptitude->set_text(text);
-    // @noloc section end
 }
 
 void SkillMenuEntry::set_level()
@@ -661,7 +659,6 @@ bool SkillMenuSwitch::toggle()
 
 void SkillMenuSwitch::update()
 {
-    // @noloc section start
     if (m_states.size() <= 1)
     {
         set_text("");
@@ -682,7 +679,6 @@ void SkillMenuSwitch::update()
         states += make_stringf("<%s>%s</%s>", col.c_str(), state.c_str(),
                                col.c_str());
     }
-    // @noloc section end
     if (m_name.empty())
         text += states;
     else
