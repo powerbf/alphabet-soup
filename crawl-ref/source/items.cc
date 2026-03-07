@@ -2950,7 +2950,7 @@ static bool _is_option_autopickup(const item_def &item, bool ignore_force)
     // the special-cased gold here is because this call can become very heavy
     // for gozag players under extreme circumstances
     const string iname = item.base_type == OBJ_GOLD
-                                                ? "{gold}" // @noloc
+                                                ? "{gold}"
                                                 : _autopickup_item_name(item);
 
     maybe_bool res = clua.callmaybefn("ch_force_autopickup", "is",

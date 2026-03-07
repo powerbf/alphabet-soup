@@ -723,7 +723,7 @@ static void _majin_speak(spell_type spell)
 
     const int level = spell_difficulty(spell);
     const bool weak = level <= 4;
-    const string lookup = weak ? "majin-bo cast weak" : "majin-bo cast"; // @noloc (keys)
+    const string lookup = weak ? "majin-bo cast weak" : "majin-bo cast";
     string msg = localise("A voice whispers, \"%s\"",
                           LocalisationArg(getSpeakString(lookup), false));
     mpr_nolocalise(MSGCH_TALK, msg);

@@ -2169,13 +2169,11 @@ static void _xom_player_confusion_effect(int sever)
         }
     }
 
-    // @noloc section start
     // Take a note.
     string conf_msg = "confusion";
     if (mons_too)
         conf_msg += " (+ monsters)";
     take_note(Note(NOTE_XOM_EFFECT, you.piety, -1, conf_msg), true);
-    // @noloc section end
 }
 
 static bool _valid_floor_grid(coord_def pos)

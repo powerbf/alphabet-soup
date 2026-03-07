@@ -834,8 +834,8 @@ static void _describe_glow(status_info& inf)
         "contaminated",
         "heavily contaminated",
         "very heavily contaminated",
-        "very very heavily contaminated", // this is silly but no one will ever see it - @noloc
-        "impossibly contaminated",        // (likewise) - @noloc
+        "very very heavily contaminated", // this is silly but no one will ever see it
+        "impossibly contaminated",        // (likewise)
     };
     ASSERT(signed_cont >= 0);
 

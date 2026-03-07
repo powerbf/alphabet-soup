@@ -950,7 +950,7 @@ void Menu::set_more()
         "<lightgrey>" + localise("[<w>+</w>|<w>></w>|<w>Space</w>]: page down")
         + separator + localise("[%s]: page up", pageup_keys) + separator
         + localise("[<w>Esc</w>]: close") + separator
-        + "[<w>XXX</w>]</lightgrey>" // @noloc
+        + "[<w>XXX</w>]</lightgrey>"
     );
     update_more();
 }

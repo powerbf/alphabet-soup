@@ -413,7 +413,7 @@ void banished(const string &who, const int power)
     }
 
     const int depth = _banished_depth(power);
-    const string what = make_stringf("Cast into level %d of the Abyss", depth) // @noloc (note)
+    const string what = make_stringf("Cast into level %d of the Abyss", depth)
                       + _who_banished(who);
     take_note(Note(NOTE_MESSAGE, 0, 0, what), true);
 

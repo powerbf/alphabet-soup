@@ -1362,7 +1362,7 @@ void SkillMenu::refresh_button_row()
     if (is_set(SKMF_SPECIAL))
         return;
     const string helpstring = "[<yellow>?</yellow>] ";
-    const string azstring = "[<yellow>a</yellow>-<yellow>z</yellow>] "; // @noloc
+    const string azstring = "[<yellow>a</yellow>-<yellow>z</yellow>] ";
 
     string legend = localise(is_set(SKMF_SIMPLE) ? "Skill descriptions" : "Help");
     string midlegend = "";

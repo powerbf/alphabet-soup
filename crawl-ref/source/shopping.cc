@@ -2145,7 +2145,7 @@ formatted_string ShoppingListMenu::calc_title()
     fs.textcolour(title->colour);
     fs.cprintf(text);
 
-    string s = "<lightgrey>  [<w>a-z</w>] "; // @noloc
+    string s = "<lightgrey>  [<w>a-z</w>] ";
 
     if (view_only)
     {

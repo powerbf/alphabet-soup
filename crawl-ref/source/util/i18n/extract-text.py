@@ -49,6 +49,7 @@ IGNORE_STRINGS = [
     'You hear the sound of one hand!', "Failed to create item '",
     'Missing', 'missing status', 'Missing status description.',
     '(error object is not a string)',
+    'very very heavily contaminated', 'impossibly contaminated',
     # suffixes for walking verb
     'ing', 'er',
     # property keys
@@ -56,6 +57,7 @@ IGNORE_STRINGS = [
     'true', 'false', 'veto',
     # other keys
     'known-menu', 'freeform', 'highlighter',
+    'majin-bo cast weak', 'majin-bo cast',
     # text colour tags
     'lightgrey', 'darkgrey', 'lightgray', 'darkgray', 'lightgreen', 'darkgreen',
     'lightcyan', 'darkcyan', 'lightred', 'darkred', 'lightmagenta', 'darkmagenta',
@@ -64,10 +66,14 @@ IGNORE_STRINGS = [
     RU_SACRIFICE_PREFIX,
     PRAY_SENTENCE,
     # notes
-    'god gift: %s', 'HP: %d/%d MP: %d/%d', 'something (%d)',
+    'god gift: %s', 'HP: %d/%d MP: %d/%d', 'something (%d)', ' (+ monsters)',
     '%d fountains blood', '%d doors open', '%d doors close',
+    'Cast into level %d of the Abyss', 'smitten by ',
+    # No need for explicit translation for these. Handled as if
+    # they were random artefacts.
+    r'quick blade \"Gimble\"', r'quick blade \"Gyre\"',
     # other
-    '<w>a:</w> ', '<w>A:</w> ',
+    '<w>a:</w> ', '<w>A:</w> ', '[<w>XXX</w>]</lightgrey>',
     'top', 'bot', '%Y%m%d',
 ]
 
@@ -306,8 +312,14 @@ def ignore_string(string):
     if string in IGNORE_STRINGS:
         return True
 
+    without_tags = remove_tags(string)
+
     # ignore strings without alpha-numeric characters
-    if not re.search(r'[A-Za-z0-9]', remove_tags(string)):
+    if not re.search(r'[A-Za-z0-9]', without_tags):
+        return True
+
+    # This can't be changed, and we don't want trasnlators to think it can
+    if without_tags.strip() == "[a-z]":
         return True
 
     # the name of the game
@@ -349,8 +361,7 @@ def ignore_string(string):
         return True
 
     # ignore format strings without any actual text
-    temp = remove_tags(string)
-    temp = re.sub(r'%[\-\+ #0]?[\*0-9]*(\.[\*0-9]*)?(hh|h|l|ll|j|z|t|L)?[diuoxXfFeEgGaAcspn]', '', temp)
+    temp = re.sub(r'%[\-\+ #0]?[\*0-9]*(\.[\*0-9]*)?(hh|h|l|ll|j|z|t|L)?[diuoxXfFeEgGaAcspn]', '', without_tags)
     temp = re.sub('0x', '', temp); # Hexadecimal number indicator
     if not re.search(r'(?<!\\)[a-zA-Z]', temp):
         return True
@@ -2842,6 +2853,11 @@ def post_process(filename, strings):
                 strings.append(string)
             elif string == PRAY_SENTENCE:
                 continue
+            elif filename == "religion.cc" and section == "_item_ego_name":
+                strings.append(" of " + string);
+            elif filename == "items.cc" and string == "{gold}":
+                # annotation?
+                strings.append(re.sub(r'[\{\}]' ,'', string))
             else:
                 strings.append(string)
 

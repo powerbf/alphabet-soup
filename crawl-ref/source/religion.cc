@@ -1906,7 +1906,7 @@ static string _item_ego_name(object_class_type base_type, int brand)
     }
     case OBJ_ARMOUR:
         // XXX: hack
-        return "reflection"; // @noloc
+        return "reflection";
     default:
         die("unsupported object type");
     }
