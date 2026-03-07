@@ -1432,7 +1432,7 @@ string Menu::get_select_count_string(int count) const
     else
     {
         if (count == 1)
-            ret = " (1 item)";
+            ret = localise(" (1 item)");
         else if (count > 1)
             ret = localise(" (%d items)", count);
     }
