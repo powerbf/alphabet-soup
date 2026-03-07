@@ -1980,7 +1980,7 @@ string scorefile_entry::terse_missile_cause() const
 {
     const string &aux = auxkilldata;
 
-    string monster_prefix = " by "; // @noloc (search string)
+    string monster_prefix = " by ";
     // We're looking for Shot with a%s %s by %s/ Hit by a%s %s thrown by %s
     string::size_type by = aux.rfind(monster_prefix);
     if (by == string::npos)

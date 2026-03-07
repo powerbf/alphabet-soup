@@ -39,12 +39,12 @@ IGNORE_STRINGS = [
     'a', 'a ', 'an', 'an ', 'a %s ', 'no ',
     'Your ', 'your', 'your ', 'its ',
     'You ', 'you ', ' you',
-    ' of ', ' of', 'of ', 's', 'in ',
+    ' of ', ' of', 'of ', 's', 'in ', ' by ',
     ' ghost', ' illusion', '-headed ', ' beast',
     '%sand %s', "on level %d of ", "between levels %d and %d of ",
     # debug/error stuff
     'debugging ray', 'debug', 'bugger',
-    'bug', 'null', 'invalid', ' (holding nobody)', 'Yak',
+    'bug', 'null', 'invalid', ' (holding nobody)', 'Yak', 'Un',
     'DEAD MONSTER', 'STAIR BEAM', 'Dummy Monster', 'John Doe', 'Unemployed',
     'You hear the sound of one hand!', "Failed to create item '",
     'Missing', 'missing status', 'Missing status description.',
@@ -56,7 +56,7 @@ IGNORE_STRINGS = [
     'Brand', 'BAcc', 'BDam', 'nupgr', 'cap-',
     'true', 'false', 'veto',
     # other keys
-    'known-menu', 'freeform', 'highlighter',
+    'known-menu', 'freeform', 'highlighter', 'pick-up',
     'majin-bo cast weak', 'majin-bo cast',
     # text colour tags
     'lightgrey', 'darkgrey', 'lightgray', 'darkgray', 'lightgreen', 'darkgreen',
@@ -406,6 +406,7 @@ IGNORE_SECTIONS = {
         'scorefile_entry::terse_missile_name',  # search strings
         'scorefile_entry::set_base_xlog_fields', # internal ids
     ],
+    'jobs.cc':          ['debug_jobdata'],      # debug
     'misc.cc':          ['maybe_to_string'],    # debug
     'mon-ench.cc':      [
         # debug

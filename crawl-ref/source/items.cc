@@ -1298,7 +1298,7 @@ string origin_desc(const item_def &item, bool localize)
                 break;
 #if TAG_MAJOR_VERSION == 34
             case AQ_CARD_GENIE:
-                desc = "You drew the Genie @in_location@"; // @noloc (removed in 0.15)
+                desc = "You drew the Genie @in_location@";
                 break;
 #endif
             case AQ_WIZMODE:

@@ -23,7 +23,7 @@ static const job_def& _job_def(job_type job)
 const char *get_job_abbrev(job_type which_job)
 {
     if (which_job == JOB_UNKNOWN)
-        return "Un"; // @noloc (shouldn't normally happen)
+        return "Un";
     return _job_def(which_job).abbrev;
 }
 
@@ -156,7 +156,7 @@ void debug_jobdata()
 
     for (int i = 0; i < NUM_JOBS; i++)
         if (!job_data.count(static_cast<job_type>(i)))
-            fails += "job number " + to_string(i) + "is not present\n"; // @noloc (debug)
+            fails += "job number " + to_string(i) + "is not present\n";
 
     item_list dummy;
     for (auto& entry : job_data)

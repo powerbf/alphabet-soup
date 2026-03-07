@@ -1438,7 +1438,7 @@ static bool _give_trog_oka_gift(bool forced)
         simple_god_message(" grants you armour!");
         break;
     default:
-        simple_god_message(" grants you bugs!"); // @noloc (bug)
+        simple_god_message(" grants you bugs!");
         break;
     }
 
@@ -3549,7 +3549,7 @@ static void _transfer_good_god_piety()
         else if (old_god == GOD_ZIN)
             msg = "%s says: Farewell. Go and enforce order with %s.";
         else
-            msg = "%s says: Farewell. Go and become a bug with %s."; // @noloc (bug)
+            msg = "%s says: Farewell. Go and become a bug with %s.";
 
         // Some feedback that piety moved over.
         msg = localise(msg, god_speaker(old_god), god_name(you.religion));

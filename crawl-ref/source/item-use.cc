@@ -158,7 +158,7 @@ void UseItemMenu::populate_menu()
     // Entry for unarmed
     if (item_type_filter == OSEL_WIELD)
     {
-        string hands_title = " -   "; // @noloc (key to press, not punctuation)
+        string hands_title = " -   ";
         hands_title += localise("unarmed");
         MenuEntry *hands = new MenuEntry (hands_title, MEL_ITEM);
         add_entry(hands);

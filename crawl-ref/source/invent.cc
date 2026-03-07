@@ -984,7 +984,7 @@ vector<SelItem> InvMenu::get_selitems() const
 string InvMenu::help_key() const
 {
     if (type == menu_type::drop || type == menu_type::pickup)
-        return "pick-up"; // @noloc (key)
+        return "pick-up";
     else
         return "";
 }
