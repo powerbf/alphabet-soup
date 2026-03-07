@@ -991,7 +991,10 @@ def insert_section_markers(filename, lines):
     section = None
     last_section = None
     for line in lines:
-        if '(' in line and not line.endswith(';') and re.search('^[a-zA-Z]', line):
+        stripped = line.strip()
+        if '(' in line and not stripped.endswith(';') \
+            and re.search('^[a-zA-Z]', line) \
+            and (re.search(r'\)(\s+const)?$', stripped) or re.search(r'\)\s*:', stripped)):
             # function/method
             section = re.sub(r' *\(.*', '', line)
             section = re.sub('operator *', 'operator_', section)
