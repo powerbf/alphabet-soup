@@ -4603,7 +4603,6 @@ bool ru_do_sacrifice(ability_type sac)
             you.props[sac_def.sacrifice_vector].get_vector();
         num_sacrifices = sacrifice_muts.size();
 
-        // @noloc section start
         for (int i = 0; i < num_sacrifices; i++)
         {
             mut = AS_MUT(sacrifice_muts[i]);
@@ -4629,7 +4628,6 @@ bool ru_do_sacrifice(ability_type sac)
         offer_text = localise(offer_text, sac_text);
         mile_text = make_stringf("%s: %s.", sac_def.milestone_text,
             sac_text.c_str());
-        // @noloc section end
    }
     else
     {

@@ -34,24 +34,26 @@ RU_SACRIFICE_PREFIX = "Ru asks you to "
 
 # strings to ignore
 IGNORE_STRINGS = [
-    # string fragments
-    'The ', 'the', 'the ', ' the ', 'la ',
-    'a', 'a ', 'an', 'an ', 'no ',
+    # partial strings
+    'The ', 'the', 'the ', ' the ', 'la ', 'the %s ',
+    'a', 'a ', 'an', 'an ', 'a %s ', 'no ',
     'Your ', 'your', 'your ', 'its ',
     'You ', 'you ', ' you',
     ' of ', ' of', 'of ', 's', 'in ',
     ' ghost', ' illusion', '-headed ', ' beast',
+    '%sand %s', "on level %d of ", "between levels %d and %d of ",
     # debug/error stuff
     'debugging ray', 'debug', 'bugger',
     'bug', 'null', 'invalid', ' (holding nobody)',
-    'DEAD MONSTER', 'STAIR BEAM', 'Dummy Monster', 'John Doe',
-    'true', 'false', 'veto',
+    'DEAD MONSTER', 'STAIR BEAM', 'Dummy Monster', 'John Doe', 'Unemployed',
     'You hear the sound of one hand!', "Failed to create item '",
     'Missing', 'missing status', 'Missing status description.',
+    '(error object is not a string)',
     # suffixes for walking verb
     'ing', 'er',
     # property keys
     'Brand', 'BAcc', 'BDam', 'nupgr', 'cap-',
+    'true', 'false', 'veto',
     # other keys
     'known-menu', 'freeform', 'highlighter',
     # text colour tags
@@ -61,9 +63,12 @@ IGNORE_STRINGS = [
     # stuff that is used to build expanded strings
     RU_SACRIFICE_PREFIX,
     PRAY_SENTENCE,
+    # notes
+    'god gift: %s', 'HP: %d/%d MP: %d/%d', 'something (%d)',
+    '%d fountains blood', '%d doors open', '%d doors close',
     # other
     '<w>a:</w> ', '<w>A:</w> ',
-    'top', 'bot',
+    'top', 'bot', '%Y%m%d',
 ]
 
 # These files need special handling because they define data structures

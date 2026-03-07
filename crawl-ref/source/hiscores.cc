@@ -2053,7 +2053,6 @@ scorefile_entry::character_description(death_desc_verbosity verbosity) const
 
     bool verbose = verbosity == DDV_VERBOSE;
 
-    // @noloc section start
     string desc = make_stringf("%8d %s ", points, name.c_str());
     // Please excuse the following bit of mess in the name of flavour ;)
     if (verbose)
@@ -2064,7 +2063,6 @@ scorefile_entry::character_description(death_desc_verbosity verbosity) const
         desc += localise(character, _species_name(race));
     }
     desc += " ";
-    // @noloc section end
 
     if (final_max_max_hp > 0)  // as the other two may be negative
     {
@@ -2090,7 +2088,7 @@ scorefile_entry::character_description(death_desc_verbosity verbosity) const
 
     if (verbose)
     {
-            string srace = _species_name(race);
+        string srace = _species_name(race);
         string character = article_a(srace + " " + _job_name(job));
         desc += localise("Began as %s", character);
 

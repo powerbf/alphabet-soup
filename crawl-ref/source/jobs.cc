@@ -39,7 +39,7 @@ job_type get_job_by_abbrev(const char *abbrev)
 const char *get_job_name(job_type which_job)
 {
     if (which_job == JOB_UNKNOWN)
-        return "Unemployed"; // @noloc (shouldn't normally happen)
+        return "Unemployed";
 
     return _job_def(which_job).name;
 }

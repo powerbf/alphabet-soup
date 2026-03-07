@@ -1216,10 +1216,10 @@ static string _branch_location(branch_type br)
             if (branches[parent].numlevels == 1)
                 place = "in ";
             else
-                desc = make_stringf("on level %d of ", min); // @noloc
+                desc = make_stringf("on level %d of ", min);
         }
         else
-            place = make_stringf("between levels %d and %d of ", min, max); // @noloc
+            place = make_stringf("between levels %d and %d of ", min, max);
         place += branches[parent].longname;
 
         desc += "\n\n";

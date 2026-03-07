@@ -888,7 +888,7 @@ static void _choose_seed(newgame_def& ng, newgame_def& choice,
         time(&now);
         struct tm * timeinfo = localtime(&now);
         char timebuf[9];
-        strftime(timebuf, sizeof(timebuf), "%Y%m%d", timeinfo); // @noloc
+        strftime(timebuf, sizeof(timebuf), "%Y%m%d", timeinfo);
         seed_input->set_text(string(timebuf));
         ui::set_focused_widget(seed_input.get());
         return true;

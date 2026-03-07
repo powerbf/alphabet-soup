@@ -653,12 +653,10 @@ static void _xom_make_item(object_class_type base, int subtype, int power)
 
     _try_brand_switch(thing_created);
 
-    // @noloc section start
     static char gift_buf[100];
     snprintf(gift_buf, sizeof(gift_buf), "god gift: %s",
              env.item[thing_created].name(DESC_PLAIN).c_str());
     take_note(Note(NOTE_XOM_EFFECT, you.piety, -1, gift_buf), true);
-    // @noloc section end
 
     canned_msg(MSG_SOMETHING_APPEARS);
     move_item_to_grid(&thing_created, you.pos());
@@ -1650,7 +1648,7 @@ static void _xom_change_scenery(int /*sever*/)
         else
             fountains = "some fountains start gushing blood";
         effects.push_back(fountains);
-        terse.push_back(make_stringf("%d fountains blood", fountains_blood)); // @noloc
+        terse.push_back(make_stringf("%d fountains blood", fountains_blood));
     }
     if (!effects.empty())
     {
@@ -1668,7 +1666,7 @@ static void _xom_change_scenery(int /*sever*/)
             effects.push_back("two doors burst open");
         else
             effects.push_back("several doors burst open");
-        terse.push_back(make_stringf("%d doors open", doors_open)); // @noloc
+        terse.push_back(make_stringf("%d doors open", doors_open));
     }
     if (doors_close > 0)
     {
@@ -1690,7 +1688,7 @@ static void _xom_change_scenery(int /*sever*/)
             else
                 effects.push_back("several other doors slam shut");
         }
-        terse.push_back(make_stringf("%d doors close", doors_close)); // @noloc
+        terse.push_back(make_stringf("%d doors close", doors_close));
     }
     if (!effects.empty())
     {

@@ -98,7 +98,7 @@ static int _report(lua_State *ls, int status)
     {
         const char *msg = lua_tostring(ls, -1);
         if (msg == nullptr)
-            msg = "(error object is not a string)";  // @noloc (debug msg)
+            msg = "(error object is not a string)";
         mprf(MSGCH_ERROR, "%s", msg);
         lua_pop(ls, 1);
     }

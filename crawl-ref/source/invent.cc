@@ -1032,7 +1032,7 @@ const char *item_class_name(int type, bool terse)
         case OBJ_ARMOUR:     return "Armour";
         case OBJ_WANDS:      return "Wands";
 #if TAG_MAJOR_VERSION == 34
-        case OBJ_FOOD:       return "Comestibles"; // @noloc (obsolete)
+        case OBJ_FOOD:       return "Comestibles";
 #endif
         case OBJ_SCROLLS:    return "Scrolls";
         case OBJ_JEWELLERY:  return "Jewellery";
@@ -1040,7 +1040,7 @@ const char *item_class_name(int type, bool terse)
         case OBJ_BOOKS:      return "Books";
         case OBJ_STAVES:     return "Magical Staves";
 #if TAG_MAJOR_VERSION == 34
-        case OBJ_RODS:       return "Rods"; // @noloc (obsolete)
+        case OBJ_RODS:       return "Rods";
 #endif
         case OBJ_ORBS:       return "Orbs of Power";
         case OBJ_MISCELLANY: return "Miscellaneous";
