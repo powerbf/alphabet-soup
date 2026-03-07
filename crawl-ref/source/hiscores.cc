@@ -2090,20 +2090,9 @@ scorefile_entry::character_description(death_desc_verbosity verbosity) const
 
     if (verbose)
     {
-        if (localisation_active())
-        {
-            string fmt = localise("Began as %s");
             string srace = _species_name(race);
-            string character = string("a %s ") + _job_name(job); // @noloc
-            character = localise(character, srace);
-            desc += make_stringf(fmt.c_str(), character.c_str());
-        }
-        else
-        {
-            string srace = article_a(_species_name(race));
-            desc += make_stringf("Began as %s %s", // @noloc
-                                 srace.c_str(), _job_name(job));
-        }
+        string character = article_a(srace + " " + _job_name(job));
+        desc += localise("Began as %s", character);
 
         ASSERT(birth_time);
         desc += _hiscore_date_string(birth_time);
