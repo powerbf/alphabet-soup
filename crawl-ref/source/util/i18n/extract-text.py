@@ -289,28 +289,21 @@ def do_any_2_actors_messages(verbs, suffixes):
 
 # should string be ignored?
 def ignore_string(string):
-    # ignore empty string
-    if string == '':
+
+    # check explicit ignore list
+    if string in IGNORE_STRINGS:
         return True
 
-    # ignore articles, pronouns, etc.
-    if string in IGNORE_STRINGS:
+    # ignore strings without alpha-numeric characters
+    if not re.search(r'[A-Za-z0-9]', remove_tags(string)):
         return True
 
     # the name of the game
     if string.startswith('Crawl'):
         return True
 
-    # ignore strings that are just whitespace
-    if re.match(r'^\s*$', string):
-        return True
-
     # ignore opengl functions
     if re.match(r'^gl[A-Z]', string):
-        return True
-
-    # ignore HTML and formatted text tags
-    if re.match(r'^(\s|\[|\]|\(|\))*</?[^<>/]+>(\s|\[|\]|\(|\))*$', string):
         return True
 
     # ignore variable names
@@ -349,10 +342,6 @@ def ignore_string(string):
     temp = re.sub('0x', '', temp); # Hexadecimal number indicator
     if not re.search(r'(?<!\\)[a-zA-Z]', temp):
         return True
-
-    # ignore punctuation
-    #if re.match(r'^[!\.\?]+$', string):
-    #    return True
 
     return False
 
