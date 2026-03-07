@@ -466,7 +466,7 @@ def process_art_data_txt():
         elif line.startswith('APPEAR:'):
             string = line.replace('APPEAR:', '').strip()
             result.append('# note: appearance of ' + name + " before it's identified")
-            result.append(article_a(string))
+            result.append(article_the(string))
         elif line.startswith('TYPE:'):
             string = line.replace('TYPE:', '').strip()
             result.append('# note: base type of ' + name)

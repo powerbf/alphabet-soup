@@ -459,24 +459,23 @@ the ring of the Octopus King
 %%%%
 # sword of Cerebov
 # the English description says serpentine, but in the tile, the blade is shaped like flames
-a great serpentine sword
+the great serpentine sword
 
 %%%%
 # staff of Dispater
-a golden staff
+the golden staff
 
 %%%%
 # sceptre of Asmodeus
-a ruby sceptre
+the ruby sceptre
 
 %%%%
 # dragonskin cloak
-an opalescent scaly cloak
+the opalescent scaly cloak
 
 %%%%
 
-# the rest just look like what they are, but get the indefinite article
-# instead of the definite article
+# the rest just look like what they are
 
 #################################
 # Special base types for some unrands

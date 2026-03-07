@@ -459,24 +459,23 @@ l'anneau du Roi des Pieuvres
 %%%%
 # sword of Cerebov
 # the English description says serpentine, but in the tile, the blade is shaped like flames
-a great serpentine sword
-une grande épée serpentine
+the great serpentine sword
+la grande épée serpentine
 %%%%
 # staff of Dispater
-a golden staff
-un bâton doré
+the golden staff
+le bâton doré
 %%%%
 # sceptre of Asmodeus
-a ruby sceptre
-un sceptre de rubis
+the ruby sceptre
+le sceptre de rubis
 %%%%
 # dragonskin cloak
-an opalescent scaly cloak
-une cape d'écailles opalescentes
+the opalescent scaly cloak
+la cape d'écailles opalescentes
 %%%%
 
-# the rest just look like what they are, but get the indefinite article
-# instead of the definite article
+# the rest just look like what they are
 
 #################################
 # Special base types for some unrands

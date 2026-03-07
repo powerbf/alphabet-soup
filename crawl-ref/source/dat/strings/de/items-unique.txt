@@ -459,24 +459,23 @@ der Ring des Krakenkönigs
 %%%%
 # sword of Cerebov
 # the English description says serpentine, but in the tile, the blade is shaped like flames
-a great serpentine sword
-{n}ein großes, flammenförmiges Schwert
+the great serpentine sword
+das große, flammenförmige Schwert
 %%%%
 # staff of Dispater
-a golden staff
-{m}ein goldener Stab
+the golden staff
+der goldene Stab
 %%%%
 # sceptre of Asmodeus
-a ruby sceptre
-{n}ein rubinbesetztes Zepter
+the ruby sceptre
+das rubinbesetzte Zepter
 %%%%
 # dragonskin cloak
-an opalescent scaly cloak
-{m}ein schillernder schuppiger Umhang
+the opalescent scaly cloak
+der schillernde schuppige Umhang
 %%%%
 
-# the rest just look like what they are, but get the indefinite article
-# instead of the definite article
+# the rest just look like what they are
 
 #################################
 # Special base types for some unrands
