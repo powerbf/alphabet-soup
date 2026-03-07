@@ -460,7 +460,7 @@ def process_art_data_txt():
             if re.search('(boots|gloves|gauntlets|quick blades)', name):
                 if not 'pair of ' in name:
                     name = 'pair of ' + name
-            result.append('the ' + name)
+            result.append(article_the(name))
         elif 'DUMMY' in name:
             continue
         elif line.startswith('APPEAR:'):
@@ -1904,7 +1904,7 @@ def process_cplusplus_file(filename):
                 # the exception is the Wu Jian one
                 if section == '_god_wrath_adjectives':
                     if string == 'rancor' or string == 'rancour':
-                        string = 'the ' + string + ' of the Wu Jian Council'
+                        string = article_the(string + ' of the Wu Jian Council')
                     else:
                         continue
                 elif section == '_god_wrath_name':
@@ -2176,7 +2176,7 @@ def is_unique_monster(string):
 def is_unique_noun(string, is_monster = False):
     if is_monster:
         return is_unique_monster(string)
-    elif string.startswith("the "):
+    elif has_article_the(string):
         return True
     elif re.search("[A-Z]", string):
         return True
@@ -2192,9 +2192,7 @@ def get_noun_permutations(string, is_monster = False):
             list.append(string + "'s")
     else:
         is_unique = is_unique_noun(string, is_monster)
-        base = re.sub("^(the|a|an) ", "", string)
-
-        full = article_the(base)
+        full = article_the(string)
         list.append(full)
 
         # possessive (for monsters)
@@ -2235,7 +2233,7 @@ def is_spellbook(string):
     ]
 
 def add_spellbook_article(string):
-    if string.startswith("the "):
+    if has_article_the(string):
         # already has article
         return string
     elif string.startswith("Great Wizards") or string == "Ozocubu's Autobiography":
@@ -2318,10 +2316,6 @@ def post_process_feature_data_h(strings):
             output.append(string)
         elif string.startswith('some '):
             output.append(string)
-        elif string.startswith('the '):
-            output.append(string)
-        elif string.startswith('a '):
-            output.append(article_the(string[2:]))
         else:
             output.append(article_the(string))
 
@@ -2382,7 +2376,7 @@ def post_process_item_name_cc(strings):
             noun = re.sub('_.*', '', section)
             if not string.endswith(' '):
                 string += ' '
-            string = 'the ' + string + noun
+            string = article_the(string + noun)
         elif section == 'item_def::name':
             if string == ' (in ':
                 result.append(' (in hand)')
@@ -2404,7 +2398,7 @@ def post_process_item_name_cc(strings):
             # the terse form is used as an annotation
             if string == 'poisoned' or string.endswith('-tipped'):
                 # adjective used only on darts - expand all possibilities
-                result.append('the ' + string + ' dart')
+                result.append(article_the(string + ' dart'))
                 result.append('%d ' + string + ' darts')
             elif string == 'dispersal' or string.endswith('ing') or string.endswith('ion'):
                 # used as suffix
@@ -2453,17 +2447,17 @@ def post_process_item_name_cc(strings):
             if not string.endswith('removedness'):
                 # uncounted plural for known items menu
                 extras1.append(pluralise(string))
-            string = 'the ' + string
+            string = article_the(string)
         elif section == 'potion_type_name':
             string = 'potion of ' + string
             # counted plural for stacks
             extras2.append('%d ' + pluralise(string))
-            string = 'the ' + string
+            string = article_the(string)
         elif section == 'scroll_type_name':
             string = 'scroll of ' + string
             # counted plural for stacks
             extras2.append('%d ' + pluralise(string))
-            string = 'the ' + string
+            string = article_the(string)
         elif section == 'jewellery_effect_name':
             string = ' of ' + string
         elif section == 'jewellery_effect_name(terse)':
@@ -2474,12 +2468,12 @@ def post_process_item_name_cc(strings):
                 # obsolete
                 continue
             else:
-                extras1.append('the ' + string + ' rune')
+                extras1.append(article_the(string + ' rune'))
         elif section == 'misc_type_name':
             # uncounted plural for known items menu
             if string != 'horn of Geryon':
                 extras1.append(pluralise(string))
-            string = 'the ' + string
+            string = article_the(string)
         elif section == '_book_type_name':
             if string == 'Fixed Level' or string == 'Fixed Theme':
                 continue
@@ -2526,7 +2520,7 @@ def post_process_item_name_cc(strings):
             # other "of <foo>" suffixes are handled separately
             continue
         elif string == "gold piece":
-            result.append('the ' + string)
+            result.append(article_the(string))
             result.append('%d ' + pluralise(string))
             continue
         elif string == 'enchanted %s':
@@ -2627,28 +2621,22 @@ def post_process_mon_data_h(strings):
     # singular non-unique
     output.append("# section: non-unique monsters, singular")
     for string in names:
-        output.append('the ' + string)
+        output.append(article_the(string))
 
     # singular unique
     output.append("# section: unique monsters")
     for string in unique_names:
-        if string.startswith('the '):
-            output.append(string)
-        else:
-            output.append('the ' + string)
+        output.append(article_the(string))
 
     # possessive non-unique
     output.append("# section: non-unique monsters, singular possessive")
     for string in names:
-        output.append('the ' + possessive(string))
+        output.append(article_the(possessive(string)))
 
     # possessive unique
     output.append("# section: unique monsters, possessive")
     for string in unique_names:
-        if string.startswith('the '):
-            output.append(possessive(string))
-        else:
-            output.append(possessive(string))
+        output.append(possessive(string))
 
     # plural non-unique
     output.append("# section: non-unique monsters, plural")
