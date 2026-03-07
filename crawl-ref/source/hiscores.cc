@@ -1139,7 +1139,7 @@ void scorefile_entry::set_base_xlog_fields() const
     if (crawl_state.game_is_sprint())
     {
         /* XXX: hmmm, something better here? */
-        score_version += "-sprint.1"; // @noloc
+        score_version += "-sprint.1";
     }
     fields->add_field("v", "%s", Version::Short);
     fields->add_field("vlong", "%s", Version::Long);

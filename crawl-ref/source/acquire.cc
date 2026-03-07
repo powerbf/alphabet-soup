@@ -1504,7 +1504,7 @@ static string _hyphenated_letters(int how_many, char first)
     s += "</w>";
     if (how_many > 1)
     {
-        s += "-<w>"; // @noloc
+        s += "-<w>";
         s += first + how_many - 1;
         s += "</w>";
     }

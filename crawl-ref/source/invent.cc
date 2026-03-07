@@ -93,7 +93,7 @@ InvEntry::InvEntry(const item_def &i)
         else
         {
             // buggy net, but don't crash
-            text += " (holding nobody)"; // @noloc
+            text += " (holding nobody)";
         }
     }
 
@@ -323,7 +323,7 @@ void InvEntry::set_show_coordinates(bool doshow)
 }
 
 InvMenu::InvMenu(int mflags)
-    : Menu(mflags, "inventory"), // @noloc
+    : Menu(mflags, "inventory"),
       type(menu_type::invlist), pre_select(nullptr),
       title_annotate(nullptr), _mode_special_drop(false)
 {

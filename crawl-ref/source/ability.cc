@@ -717,7 +717,7 @@ ability_type ability_by_name(const string &key)
 
 string print_abilities()
 {
-    string text = "\n<w>a:</w> "; // @noloc
+    string text = "\n<w>a:</w> ";
 
     const vector<talent> talents = your_talents(false);
 

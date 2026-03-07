@@ -558,8 +558,8 @@ void unlink_item(int dest)
                 return;
             }
         }
-        mprf(MSGCH_ERROR, "Item %s claims to be held by monster %s, but " // @noloc
-                          "it isn't in the monster's inventory.", // @noloc
+        mprf(MSGCH_ERROR, "Item %s claims to be held by monster %s, but "
+                          "it isn't in the monster's inventory.",
              env.item[dest].name(DESC_PLAIN, false, true).c_str(),
              mons->name(DESC_PLAIN, true).c_str());
         // Don't return so the debugging code can take a look at it.

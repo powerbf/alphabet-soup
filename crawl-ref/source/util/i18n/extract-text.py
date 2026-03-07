@@ -40,7 +40,7 @@ IGNORE_STRINGS = [
     ' of ', ' of', 'of ', 's',
     'The ', 'Your ',
     'debugging ray', 'debug', 'bugger',
-    'bug', 'null', 'invalid',
+    'bug', 'null', 'invalid', ' (holding nobody)',
     'DEAD MONSTER', 'STAIR BEAM', 'Dummy Monster', 'John Doe',
     'true', 'false', 'veto',
     'You hear the sound of one hand!',
@@ -55,6 +55,8 @@ IGNORE_STRINGS = [
     # stuff that is used to build expanded strings
     RU_SACRIFICE_PREFIX,
     PRAY_SENTENCE,
+    # other
+    '<w>a:</w> ',
 ]
 
 # These files need special handling because they define data structures
@@ -352,7 +354,11 @@ def ignore_string(string):
 
 
 IGNORE_SECTIONS = {
-    'acquire.cc':       ['_why_reject'],        # debug messages
+    'abyss.cc':         ['_abyss_grid'],        # dungeon generation
+    'acquire.cc':       [
+        '_hyphenated_letters',                  # hyphenate aquirement option lettters
+        '_why_reject'                           # debug messages
+    ],
     'arena.cc':         ['arena_tee'],          # arena dumpfile stuff
     'art-func.h':       ['_SINGING_SWORD_melee_effects'], # internal keys
     'artefact.cc':      ['replace_name_parts'],
@@ -362,9 +368,15 @@ IGNORE_SECTIONS = {
         # diagnostic stuff
         'features', '_get_version_information', '_get_version_features', '_get_version_changes',
         '_add_movement_diagram',                # same for all languages
+        '_get_help_section',                    # section header text that is never used
     ],
     # internal identifiers
     'delay.cc':         ['activity_interrupt_names'],
+    'describe.cc':      [
+        'get_command_description',              # lookup key
+        'trap_name',                            # for interpreting vault spec
+    ],
+    'dgn-shoals.cc':    ['dgn_build_shoals_level'], # dungeon builder stuff
     'god-abil.cc':      [
         '_god_blessing_description',            # milestones
         '_gozag_shop_spec',                     # internal identifiers
@@ -376,6 +388,7 @@ IGNORE_SECTIONS = {
         '_species_name', '_species_abbrev',     # obsolete species
         '_deconstruct_shooter_phrase',          # search strings
         'scorefile_entry::terse_missile_name',  # search strings
+        'scorefile_entry::set_base_xlog_fields', # internal ids
     ],
     'misc.cc':          ['maybe_to_string'],    # debug
     'mon-ench.cc':      [

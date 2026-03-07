@@ -746,7 +746,7 @@ static const char *trap_names[] =
 string trap_name(trap_type trap)
 {
     if (trap == TRAP_GOLUBRIA)
-        return "passage"; // @noloc
+        return "passage";
     else
         return replace_last(full_trap_name(trap), " trap", "");
 }
@@ -5328,7 +5328,7 @@ string get_command_description(const command_type cmd, bool terse)
     string lookup = command_to_name(cmd);
 
     if (!terse)
-        lookup += " verbose"; // @noloc
+        lookup += " verbose";
 
     string result = getLongDescription(lookup);
     if (result.empty())

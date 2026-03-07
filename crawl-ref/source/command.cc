@@ -840,13 +840,11 @@ static int _get_help_section(int section, formatted_string &header_out, formatte
 {
     static map<int, int> hotkeys;
     static map<int, formatted_string> page_text;
-    // @noloc section start
     static map<int, string> headers = {
         {'*', "Manual"}, {'%', "Aptitudes"}, {'^', "Quickstart"},
         {'~', "Macros"}, {'&', "Options"}, {'t', "Tiles"},
         {'?', "Key help"}
     };
-    // @noloc section end
 
     if (!page_text.size())
     {
@@ -881,7 +879,7 @@ static int _get_help_section(int section, formatted_string &header_out, formatte
 
     string header = headers.count(page) ? ": "+headers[page] : "";
     header_out = formatted_string::parse_string(
-                    "<yellow>Dungeon Crawl Help"+header+"</yellow>"); // @noloc
+                    "<yellow>Dungeon Crawl Help"+header+"</yellow>");
     scroll_out = 0;
     switch (section)
     {

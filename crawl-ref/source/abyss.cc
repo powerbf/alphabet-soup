@@ -1155,7 +1155,7 @@ static ProceduralSample _abyss_grid(const coord_def &p)
         if (is_existing_level(lid))
         {
             auto &vault_list =  you.vault_list[level_id::current()];
-            vault_list.push_back("base: " + lid.describe(false)); // @noloc
+            vault_list.push_back("base: " + lid.describe(false));
         }
     }
 

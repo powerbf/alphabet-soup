@@ -654,7 +654,7 @@ void dgn_build_shoals_level()
 {
         // TODO: Attach this information to the vault name string
         //       instead of the build method string.
-    env.level_build_method += make_stringf(" [depth %d]", you.depth); // @noloc
+    env.level_build_method += make_stringf(" [depth %d]", you.depth);
 
     const int shoals_depth = you.depth - 1;
     dgn_replace_area(0, 0, GXM-1, GYM-1, DNGN_ROCK_WALL, DNGN_OPEN_SEA,
