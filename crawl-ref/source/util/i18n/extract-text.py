@@ -2774,11 +2774,12 @@ def post_process(filename, strings):
                 # should be covered by feature-data.h, but just in case...
                 words = separate_adjectives_and_noun(string)
                 strings.extend(words)
-            elif string.startswith("shaped "):
+            elif re.match('^ ?shaped ', string):
                 # separate "shaped" out as an adjective
                 strings.append("shaped ");
                 strings.append("@monster@ shaped ");
-                append_monster_permutations(strings, string.replace("shaped ", ""))
+                string = re.sub('^ ?shaped ', '', string)
+                append_monster_permutations(strings, string)
             elif string in ["spectre", "wavering orb of destruction"]:
                 # treat like monsters in mon-data.h
                 append_monster_permutations(strings, string)

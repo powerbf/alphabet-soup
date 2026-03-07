@@ -1109,7 +1109,7 @@ string monster_info::common_name(description_level_type desc) const
         // If momentarily in original form, don't display "shaped
         // shifter".
         if (mons_genus(type) != MONS_SHAPESHIFTER)
-            ss << " shaped shifter"; // @noloc
+            ss << " shaped shifter";
     }
 
     string s;
