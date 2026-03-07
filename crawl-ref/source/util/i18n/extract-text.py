@@ -470,7 +470,7 @@ def process_art_data_txt():
         elif line.startswith('TYPE:'):
             string = line.replace('TYPE:', '').strip()
             result.append('# note: base type of ' + name)
-            result.append(article_a(string))
+            result.append(article_the(string))
         elif line.startswith('INSCRIP:'):
             string = line.replace('INSCRIP:', '').strip()
             if string.endswith(','):
