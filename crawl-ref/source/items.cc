@@ -1146,7 +1146,7 @@ void origin_acquired(item_def &item, int agent)
 
 static string _milestone_rune(const item_def &item)
 {
-    return string("found ") + item.name(DESC_A) + "."; // @noloc
+    return string("found ") + item.name(DESC_A) + ".";
 }
 
 static void _milestone_check(const item_def &item)
@@ -2957,7 +2957,7 @@ static bool _is_option_autopickup(const item_def &item, bool ignore_force)
                                       &item, iname.c_str());
     if (!clua.error.empty())
     {
-        mprf(MSGCH_ERROR, "ch_force_autopickup failed: %s", // @noloc
+        mprf(MSGCH_ERROR, "ch_force_autopickup failed: %s",
              clua.error.c_str());
     }
 

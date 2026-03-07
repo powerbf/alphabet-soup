@@ -2645,7 +2645,7 @@ string _status_mut_rune_list(int sw)
     text += "\n";
 
     // print mutation information
-    text += "<w>A:</w> "; // @noloc
+    text += "<w>A:</w> ";
 
     text += terse_mutation_list();
 

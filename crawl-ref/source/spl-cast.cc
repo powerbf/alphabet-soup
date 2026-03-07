@@ -1855,7 +1855,7 @@ spret your_spells(spell_type spell, int powc, bool allow_fail,
         // `true` on fourth param skips MP check and a few others that have
         // already been carried out
         const bool useless = spell_is_useless(spell, true, false, true);
-        const char *spell_title_color = useless ? "darkgrey" : "w"; // @noloc
+        const char *spell_title_color = useless ? "darkgrey" : "w";
         string verb;
         if (wait_spell_active(spell))
             verb = "<lightred>" + localise("Restarting spell") + "</lightred>";

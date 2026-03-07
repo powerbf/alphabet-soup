@@ -559,8 +559,8 @@ void UIMenuPopup::_allocate_region()
     {
         int scroll = m_menu->m_ui.scroller->get_scroll();
         int scroll_percent = scroll*100/(menu_height-viewport_height);
-        string perc = scroll <= 0 ? "top" // @noloc
-            : scroll_percent >= 100 ? "bot" // @noloc
+        string perc = scroll <= 0 ? "top"
+            : scroll_percent >= 100 ? "bot"
             : make_stringf("%2d%%", scroll_percent);
 
         string scroll_more = m_menu->more.to_colour_string();

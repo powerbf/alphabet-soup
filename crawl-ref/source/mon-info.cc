@@ -971,10 +971,10 @@ string monster_info::_core_name() const
             break;
 
         case MONS_PLAYER_GHOST:
-            s = apostrophise(mname) + " ghost"; // @noloc
+            s = apostrophise(mname) + " ghost";
             break;
         case MONS_PLAYER_ILLUSION:
-            s = apostrophise(mname) + " illusion"; // @noloc
+            s = apostrophise(mname) + " illusion";
             break;
         case MONS_PANDEMONIUM_LORD:
             s = mname;
@@ -1047,7 +1047,7 @@ string monster_info::common_name(description_level_type desc) const
         else
             ss << std::to_string(num_heads);
 
-        ss << "-headed "; // @noloc
+        ss << "-headed ";
     }
 
     if (type == MONS_MUTANT_BEAST && !is(MB_NAME_REPLACE))
@@ -1057,7 +1057,7 @@ string monster_info::common_name(description_level_type desc) const
         ss << _mutant_beast_tier_name(tier) << " ";
         for (auto facet : props[MUTANT_BEAST_FACETS].get_vector())
             ss << _mutant_beast_facet(facet.get_int()); // no space between
-        ss << " beast"; // @noloc
+        ss << " beast";
     }
 
     if (!nocore)

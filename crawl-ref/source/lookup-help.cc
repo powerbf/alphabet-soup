@@ -1214,7 +1214,7 @@ static string _branch_location(branch_type br)
         if (min == max)
         {
             if (branches[parent].numlevels == 1)
-                place = "in "; // @noloc
+                place = "in ";
             else
                 desc = make_stringf("on level %d of ", min); // @noloc
         }

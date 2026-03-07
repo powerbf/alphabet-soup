@@ -756,9 +756,9 @@ bool fill_status_info(int status, status_info& inf)
         if (!found)
         {
             inf.light_colour = RED;
-            inf.light_text   = "Missing"; // @noloc
-            inf.short_text   = "missing status"; // @noloc
-            inf.long_text    = "Missing status description."; // @noloc
+            inf.light_text   = "Missing";
+            inf.short_text   = "missing status";
+            inf.long_text    = "Missing status description.";
             return false;
         }
         else
@@ -767,7 +767,7 @@ bool fill_status_info(int status, status_info& inf)
 
     // Use context here because many status light values clash with spells, etc.
     if (!_light_localised)
-        inf.light_text = localise_contextual("status", inf.light_text); // @noloc
+        inf.light_text = localise_contextual("status", inf.light_text);
     if (!_short_localised)
         inf.short_text = localise(inf.short_text);
     if (!_long_localised)

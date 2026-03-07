@@ -45,7 +45,7 @@ public:
 protected:
     string help_key() const override
     {
-        return "known-menu"; // @noloc
+        return "known-menu";
     }
 
     bool process_key(int key) override
@@ -134,7 +134,7 @@ public:
             name = "runes";
         else if (item->sub_type == get_max_subtype(item->base_type))
         {
-            name = "unknown " // @noloc
+            name = "unknown "
                    + lowercase_string(item_class_name(item->base_type));
         }
         else if (item->base_type == OBJ_JEWELLERY)

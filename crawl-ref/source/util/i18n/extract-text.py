@@ -34,29 +34,36 @@ RU_SACRIFICE_PREFIX = "Ru asks you to "
 
 # strings to ignore
 IGNORE_STRINGS = [
-    'the', 'the ', ' the ', 'la ',
+    # string fragments
+    'The ', 'the', 'the ', ' the ', 'la ',
     'a', 'a ', 'an', 'an ', 'no ',
-    'you', 'you ', 'You ', ' you', 'your', 'your ', 'its ',
-    ' of ', ' of', 'of ', 's',
-    'The ', 'Your ',
+    'Your ', 'your', 'your ', 'its ',
+    'You ', 'you ', ' you',
+    ' of ', ' of', 'of ', 's', 'in ',
+    ' ghost', ' illusion', '-headed ', ' beast',
+    # debug/error stuff
     'debugging ray', 'debug', 'bugger',
     'bug', 'null', 'invalid', ' (holding nobody)',
     'DEAD MONSTER', 'STAIR BEAM', 'Dummy Monster', 'John Doe',
     'true', 'false', 'veto',
-    'You hear the sound of one hand!',
+    'You hear the sound of one hand!', "Failed to create item '",
+    'Missing', 'missing status', 'Missing status description.',
     # suffixes for walking verb
     'ing', 'er',
     # property keys
     'Brand', 'BAcc', 'BDam', 'nupgr', 'cap-',
+    # other keys
+    'known-menu', 'freeform', 'highlighter',
     # text colour tags
     'lightgrey', 'darkgrey', 'lightgray', 'darkgray', 'lightgreen', 'darkgreen',
     'lightcyan', 'darkcyan', 'lightred', 'darkred', 'lightmagenta', 'darkmagenta',
-    'lightyellow', 'darkyellow',
+    'lightyellow', 'darkyellow', 'w',
     # stuff that is used to build expanded strings
     RU_SACRIFICE_PREFIX,
     PRAY_SENTENCE,
     # other
-    '<w>a:</w> ',
+    '<w>a:</w> ', '<w>A:</w> ',
+    'top', 'bot',
 ]
 
 # These files need special handling because they define data structures
@@ -390,6 +397,7 @@ IGNORE_SECTIONS = {
         'mon_enchant::kill_category_desc',
     ],
     'mon-info.cc':      ['_monster_list_colour_names'],     # internal identifiers
+    'mon-place.cc':     ['debug_bands'],        # debug
     'mon-util.cc':      [
         'holiness_name',                        # only used in LUA
         'mons_type_name',                       # names for "random" monsters
@@ -410,7 +418,9 @@ IGNORE_SECTIONS = {
 
 # should section be ignored?
 def ignore_section(filename, section):
-    if filename in IGNORE_SECTIONS and section in IGNORE_SECTIONS[filename]:
+    if 'milestone' in section:
+        return True
+    elif filename in IGNORE_SECTIONS and section in IGNORE_SECTIONS[filename]:
         return True
     elif filename == 'lookup-help.cc':
         if re.match(r'^_(get|recap)[a-z_]*keys?$', section):
@@ -1845,7 +1855,7 @@ def process_cplusplus_file(filename):
             if filename == "zap-data.h" \
               or (filename == "spl-damage.cc" and section == "fraggable_monsters") \
               or re.search(r'(beam|expl|effect)(\.|->)(name|aux_source)\s*=\s*"', line):
-                if string in ["none", "****", "debugging ray", "STAIR BEAM", "explosion of "]:
+                if string in ["none", "****", "debugging ray", "rampaging", "STAIR BEAM", "explosion of "]:
                     continue
                 string = article_the(string)
             elif filename == "beam.cc" and string == "drain magic":

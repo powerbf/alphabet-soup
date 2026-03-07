@@ -782,7 +782,7 @@ void SkillMenu::init(int flag, int region_height)
     m_max_coord.y = region_height + 1;
 #endif
 
-    m_ff->init(m_min_coord, m_max_coord, "freeform"); // @noloc
+    m_ff->init(m_min_coord, m_max_coord, "freeform");
     attach_object(m_ff);
     set_active_object(m_ff);
 
@@ -824,7 +824,7 @@ void SkillMenu::init(int flag, int region_height)
         refresh_display();
 
     m_highlighter = new BoxMenuHighlighter(this);
-    m_highlighter->init(coord_def(-1,-1), coord_def(-1,-1), "highlighter"); // @noloc
+    m_highlighter->init(coord_def(-1,-1), coord_def(-1,-1), "highlighter");
     attach_object(m_highlighter);
 
     m_ff->set_visible(true);
