@@ -44,7 +44,7 @@ IGNORE_STRINGS = [
     '%sand %s', "on level %d of ", "between levels %d and %d of ",
     # debug/error stuff
     'debugging ray', 'debug', 'bugger',
-    'bug', 'null', 'invalid', ' (holding nobody)',
+    'bug', 'null', 'invalid', ' (holding nobody)', 'Yak',
     'DEAD MONSTER', 'STAIR BEAM', 'Dummy Monster', 'John Doe', 'Unemployed',
     'You hear the sound of one hand!', "Failed to create item '",
     'Missing', 'missing status', 'Missing status description.',
@@ -2799,9 +2799,6 @@ def post_process(filename, strings):
             elif string.startswith('# section:'):
                 strings.append(string)
                 section = string.replace('# section: ', '')
-            elif filename == 'species-data.h' and string == "Yak":
-                # error condition
-                continue
             elif filename == 'player.cc' and string == "%sway":
                 strings.append("the doorway")
                 strings.append("the gateway")
