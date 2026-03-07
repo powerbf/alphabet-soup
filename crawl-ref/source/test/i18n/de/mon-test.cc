@@ -235,6 +235,7 @@ int main()
     test("eine Ork-förmige Salzsäule", "an orc shaped pillar of salt");
     test("Du siehst hier einen Mennas-förmigen Eisblock.", "You see here %s.", "a Mennas shaped block of ice");
     test("Du siehst hier einen Tarantella-förmigen Eisblock.", "You see here %s.", "a tarantella shaped block of ice");
+    test("ein Oger-förmiger Gestaltwandler", "an ogre shaped shifter");
     cout << endl;
 
     // player ghost

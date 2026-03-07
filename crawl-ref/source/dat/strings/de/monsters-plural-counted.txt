@@ -414,6 +414,10 @@
 %d glowing shapeshifters
 %d leuchtende Gestaltwandler
 %%%%
+# used in constructions like "ogre shaped shifter"
+%d shifter
+%d Gestaltwandler
+%%%%
 %d Killer Klowns
 %d Killer-Klowns
 %%%%
