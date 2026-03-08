@@ -977,7 +977,7 @@ schlichte braune
 # polymorphed monsters or pillars of salt, etc.
 %%%%
 "@monster@ shaped "
-"@monster@-förmige "
+" in Form {gen}@a_monster@"
 %%%%
 
 # shaped can also appear without a monster name in front of it

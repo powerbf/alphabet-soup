@@ -837,9 +837,68 @@ static string _get_embedded_parameter(const string& s)
     return s.substr(param_start, param_end - param_start + 1);
 }
 
+static bool _is_unique_name(const string& s)
+{
+    string determiner, base;
+    _strip_determiner(s, determiner, base);
+    if (base.empty())
+        return false;
+
+    if (!isaupper(base[0]))
+        return false;
+
+    // Annoyingly, some non-uniques start with a capital letter
+    static const vector<string> annoyances = {
+        "Brimstone Fiend",
+        "Executioner",
+        "Hellbinder",
+        "Hell Sentinel",
+        "Ice Fiend",
+        "Killer Klown",
+        "Orb Guardian",
+        "Tzitzimitl"
+    };
+    for (const string &monster : annoyances) {
+        if (starts_with(base, monster))
+            return false;
+    }
+
+    return true;
+}
+
+static string article_a_monster(const string & s)
+{
+    if (_is_unique_name(s)) {
+        return s;
+    }
+    return article_a(s);
+}
+
+
+static string article_the_monster(const string& s)
+{
+    if (!_is_unique_name(s))
+        return article_the(s);
+
+    static const vector<string> the_uniques = {
+        "Lernaean hydra",
+        "Enchantress",
+        "Serpent of Hell",
+        "Royal Jelly",
+    };
+
+    for (const string &monster : the_uniques)
+    {
+        if (starts_with(s, monster))
+            return article_the(s);
+    }
+    return s;
+}
+
 // return the position of any embedded name in a list of words
 // takes the largest possible string ending with the specified word
-static size_t _find_embedded_name(const vector<string>& words, const size_t end, string& name)
+static size_t _find_embedded_name(const vector<string>& words, const size_t end,
+                                  string& name, bool translate = true)
 {
     for (size_t start = 0; start <= end && start < words.size(); start++)
     {
@@ -853,7 +912,10 @@ static size_t _find_embedded_name(const vector<string>& words, const size_t end,
         }
         if (!name.empty())
         {
-            name = _discard_context(name);
+            if (translate)
+                name = _discard_context(name);
+            else
+                name = candidate;
             return start;
         }
     }
@@ -1029,7 +1091,7 @@ static string _localise_adjectives(const string& s, const vector<string>& adjs)
     {
         if (i > 0 && adjs[i] == "shaped")
         {
-            mon_start = _find_embedded_name(adjs, i - 1, monster);
+            mon_start = _find_embedded_name(adjs, i - 1, monster, false);
             if (!monster.empty() && mon_start != SIZE_MAX)
                 mon_end = i - 1;
             break;
@@ -1054,7 +1116,13 @@ static string _localise_adjectives(const string& s, const vector<string>& adjs)
             {
                 // use generic translation for @monster@ shaped
                 adj = cxlate(_context, "@monster@ shaped ", true);
-                adj = replace_first(adj, "@monster@", monster);
+
+                TRACE("Embedded monster is %s", monster.c_str());
+                std::map<std::string, std::string> params = {
+                    {"monster", monster},
+                    {"a_monster", article_a_monster(monster)},
+                    {"the_monster", article_the_monster(monster)}};
+                adj = localise(adj, params, false);
             }
         }
         else
@@ -1066,13 +1134,15 @@ static string _localise_adjectives(const string& s, const vector<string>& adjs)
             prefix_adjs += adj;
     }
 
-    if (count_occurrences(result, "%s") == 1)
-        result = replace_first(result, "%s", prefix_adjs + postfix_adjs);
-    else
-    {
+    if (count_occurrences(result, "%s"))
         result = replace_first(result, "%s", prefix_adjs);
+    else
+        result = prefix_adjs + result;
+
+    if (count_occurrences(result, "%s"))
         result = replace_first(result, "%s", postfix_adjs);
-    }
+    else
+        result = result + postfix_adjs;
 
     TRACE("result='%s'", result.c_str());
     return result;
