@@ -232,10 +232,17 @@ int main()
     test("Du triffst den hilflosen Zombie eines Meerwesens", "You hit %s", "the helpless merfolk zombie");
     test("Du triffst das hilflose Skelett eines Orks", "You hit %s", "the helpless orc skeleton");
     test("Du triffst das hilflose Simulacrum eines Orks", "You hit %s", "the helpless orc simulacrum");
+    cout << endl;
     test("eine Ork-förmige Salzsäule", "an orc shaped pillar of salt");
-    test("Du siehst hier einen Mennas-förmigen Eisblock.", "You see here %s.", "a Mennas shaped block of ice");
+    test("ein schwarze Mamba-förmiger Eisblock", "a black mamba shaped block of ice");
+    test("ein Dampfdrache-förmiger Gestaltwandler", "a steam dragon shaped shifter");
+    test("das Oger-förmige Gelée Royale", "the ogre shaped Royal Jelly");
+    test("die Wolf-förmige Lernäische Hydra", "the wolf shaped Lernaean hydra");
+    test("die Oger-förmige Höllenschlange", "the ogre shaped Serpent of Hell");
+    test("Du siehst hier eine Mennas-förmige Salzsäule.", "You see here %s.", "a Mennas shaped pillar of salt");
     test("Du siehst hier einen Tarantella-förmigen Eisblock.", "You see here %s.", "a tarantella shaped block of ice");
-    test("ein Oger-förmiger Gestaltwandler", "an ogre shaped shifter");
+    test("Dowan die Himmelsbestie", "Dowan the sky beast");
+    test("die Zauberin der Wolf", "the Enchantress the wolf");
     cout << endl;
 
     // player ghost

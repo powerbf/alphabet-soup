@@ -1732,8 +1732,9 @@ static string _localise_name(const string& context, const string& value)
     size_t pos = value.find(" the ");
     if (pos != string::npos && value.rfind("of") != pos-2)
     {
-        // prefix, e.g. "Boghold " (including space)
-        string prefix = value.substr(0, pos+1);
+        // prefix, e.g. "Boghold" (excluding space)
+        string prefix = value.substr(0, pos);
+        prefix = cxlate(context, prefix, true);
 
         // base name, e.g. "the orc warlord"
         string base = value.substr(pos+1);
@@ -1741,7 +1742,7 @@ static string _localise_name(const string& context, const string& value)
         if (base.empty())
             return "";
         else
-            return _shift_context(prefix) + base;
+            return _shift_context(prefix) + " " + base;
     }
 
     result = _localise_player_character_combo(value);
