@@ -1039,20 +1039,23 @@ static bool _find_character_combo_base_name(const string& s, string& base_en, st
 static bool _check_adjectives(const vector<string>& adjs, bool allow_uppercase = false)
 {
     bool contains_name = false;
+    bool contains_of = false;
     bool contains_shaped = false;
     for (const string& adj: adjs)
         if (adj.empty())
             continue;
         else if (_is_determiner(adj))
             return false;
-        else if (adj == "of" || ends_with(adj, "'s"))
+        else if (ends_with(adj, "'s"))
             return false;
         else if (adj == "shaped")
             contains_shaped = true;
+        else if (adj == "of")
+            contains_of = true;
         else if (!allow_uppercase && isaupper(adj[0]) && adj != "Lernaean")
             contains_name = true;
 
-    if (contains_name && !contains_shaped)
+    if ((contains_name || contains_of) && !contains_shaped)
         return false;
     else
         return true;

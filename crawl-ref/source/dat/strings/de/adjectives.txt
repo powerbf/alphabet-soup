@@ -980,6 +980,20 @@ schlichte braune
 " in Form {gen}@a_monster@"
 %%%%
 
+# special cases
+%%%%
+"Enchantress shaped "
+" in Form der Zauberin"
+%%%%
+"Lernaean hydra shaped "
+" in Form der Lernäischen Hydra"
+%%%%
+"Royal Jelly shaped "
+" in Form des Gelée Royale"
+%%%%
+"Serpent of Hell shaped "
+" in Form der Höllenschlange"
+
 # shaped can also appear without a monster name in front of it
 %%%%
 "shaped "

@@ -234,6 +234,11 @@ int main()
     test("Du triffst das hilflose Simulacrum eines Orks", "You hit %s", "the helpless orc simulacrum");
     cout << endl;
     test("eine Salzsäule in Form eines Orks", "an orc shaped pillar of salt");
+    test("eine Salzsäule in Form von Dowan", "a Dowan shaped pillar of salt");
+    test("eine Salzsäule in Form der Zauberin", "an Enchantress shaped pillar of salt");
+    test("eine Salzsäule in Form der Lernäischen Hydra", "a Lernaean hydra shaped pillar of salt");
+    test("eine Salzsäule in Form der Höllenschlange", "a Serpent of Hell shaped pillar of salt");
+    test("eine Salzsäule in Form des Gelée Royale", "a Royal Jelly shaped pillar of salt");
     test("ein Eisblock in Form einer schwarzen Mamba", "a black mamba shaped block of ice");
     test("ein Gestaltwandler in Form eines Dampfdrachen", "a steam dragon shaped shifter");
     test("das Gelée Royale in Form eines Ogers", "the ogre shaped Royal Jelly");
