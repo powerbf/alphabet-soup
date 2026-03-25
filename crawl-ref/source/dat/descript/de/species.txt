@@ -2,7 +2,7 @@
 Barachi
 
 Barachim sind langsam laufende, amphibische Humanoide, die über weite Strecken
-hüpfen können. Ihr erweitertes Sichtfeld ermöglicht es ihnen, auch aus
+hüpfen können. Ihr erweitertes Sichtfeld ermöglicht es ihnen, aus
 größerer Entfernung gesehen zu werden.
 %%%%
 Deep Dwarf
@@ -14,7 +14,7 @@ Schaden und haben eine begrenzte Fähigkeit, sich nach Belieben zu heilen.
 Deep Elf
 
 Tiefenelfen haben eine starke Affinität zu allen Arten von Magie, sind aber
-sehr zerbrechlich.
+sehr verletzlich.
 %%%%
 Demigod
 
@@ -33,8 +33,8 @@ ohne Bücher, und sie wirken, indem sie ihr eigenes Feuer herabziehen.
 %%%%
 Draconian
 
-Drakonier sind vielseitige Hybriden. Sie reifen mit Erreichen der Stufe 7 und
-entwickeln eine Farbe.
+Drakonier sind vielseitige Hybriden. Sie werden mit Erreichen der Stufe 7
+erwachsen und entwickeln eine Farbe.
 %%%%
 Formicid
 
@@ -44,13 +44,13 @@ sind außergewöhnlich stark und sie leben in einem Zustand permanenter Stasis.
 Felid
 
 Feliden sind empfindungsfähige Katzen mit vielen Leben. Sie sind nicht in der
-Lage, komplizierte Gegenstände zu manipulieren oder Rüstungen oder Waffen zu
+Lage, komplizierte Gegenstände handzuhaben oder Rüstungen oder Waffen zu
 tragen.
 %%%%
 Ghoul
 
-Ghule sind untote Kreaturen, die dazu verdammt sind, ewig zu verrotten. Sie
-haben scharfe Klauen und heilen sich vom Tod der Lebenden.
+Ghule sind untote Kreaturen und dazu verdammt, ewig zu verrotten. Sie
+haben scharfe Klauen und heilen sich durch den Tod der Lebenden.
 %%%%
 Gargoyle
 
@@ -60,34 +60,34 @@ sind unglaublich zäh.
 %%%%
 Gnoll
 
-Gnolls sind hundeähnliche Humanoide. Sie können sich nicht auf eine einzelne
+Gnolle sind hundeähnliche Humanoide. Sie können sich nicht auf eine einzelne
 Fertigkeit spezialisieren, sondern beherrschen nach und nach alle Fertigkeiten
 auf einmal.
 %%%%
 Hill Orc
 
-Hügelorks sind geschickt im Nahkampf und üben sich oft in offensiver Magie.
-Nur sie dürfen den Ork-Gott Beogh verehren.
+Hügelorks sind geschickt im Nahkampf und befassen sich nebenbei oft mit
+offensiver Magie. Nur sie dürfen den Ork-Gott Beogh verehren.
 %%%%
 Human
 
-Menschen steigen schnell in den Stufen auf und haben in den meisten
+Menschen steigen schnell in der Erfahrungsstufe auf und haben in den meisten
 Fertigkeiten die gleichen Begabung.
 %%%%
 Tengu
 
 Tengu sind Vogelmenschen, die gerne kämpfen, sowohl mit Waffen als auch mit
-Zaubern. Sie sind ziemlich zerbrechlich, aber sie lernen später schnell zu
-fliegen.
+Zaubern. Sie sind ziemlich verletzlich, aber später lernen sie schnell zu fliegen.
 %%%%
 Kobold
 
-Kobolde are attuned to the shadows and can only see or be seen at a close
-range. They are small and a little fragile, and are talented in most skills.
+Kobolde sind an die Schatten angepasst und können nur auf kurze Enfernungen
+sehen und gesehen werden. Sie sind klein, etwas verletzlich und in den meisten
+Fertigkeiten begabt.
 %%%%
 Merfolk
 
-Halb Fisch, halb Mensch, sind Merfolks sowohl Wasser- als auch Landbewohner.
+Halb Fisch, halb Mensch, sind Meerwesen sowohl Wasser- als auch Landbewohner.
 Sie sind starke Kämpfer und geschickt darin, Magie zur Unterstützung im Kampf
 einzusetzen.
 %%%%
@@ -98,20 +98,20 @@ sich durch alle Formen des Nah- und Fernkampfes aus.
 %%%%
 Mummy
 
-Mumien, die durch einen uralten Fluch zum Gehen gezwungen sind, beherrschen die
-Nekromantie, lernen aber andere Fertigkeiten nur sehr langsam. Sie können keine
-Tränke konsumieren.
+Mumien sind durch einen uralten Fluch gezwungen als Untote zu wandeln. Sie
+beherrschen die Nekromantie, lernen andere Fertigkeiten aber nur sehr langsam.
+Sie können keine Tränke konsumieren.
 %%%%
 Naga
 
-Nagas sind Hybriden, von der Taille aufwärts menschlich, mit einem
+Nagas sind von der Taille aufwärts menschliche Hybriden mit einem
 schlangenartigen Schwanz anstelle von Beinen. Sie bewegen sich sehr langsam,
 sind aber von Natur aus widerstandsfähig.
 %%%%
 Octopode
 
-Oktopoden sind eine Art amphibischen Kopffüßer. Sie können acht Ringe
-tragen, aber fast keine Rüstung passt ihnen.
+Oktopoden sind eine Art amphibischer Kopffüßer. Sie können acht Ringe
+tragen, aber ihnen passt fast keine Rüstung.
 %%%%
 Ogre
 
@@ -122,11 +122,11 @@ Zauberwirker.
 Palentonga
 
 Palentongas sind geschuppte Säugetiere von der Größe eines Pferdes. Sie
-können mächtige rollende Ansturme machen.
+können sich einrollen um mächtige Sturnangriffe durchzuführen.
 %%%%
 Spriggan
 
-Sehr klein, sehr zerbrechlich und sehr schnell, Spriggans sind äußerst
+Sehr klein, sehr verletzlich und sehr schnell. Spriggans sind äußerst
 fähige Messerstecher und Zauberwirker.
 %%%%
 Troll
@@ -136,12 +136,12 @@ Gesundheit schnell.
 %%%%
 Vampire
 
-Vampire, die nach Belieben zwischen den Zuständen des Lebens und des Untodes
-wechseln können, sind geschickte Messerstecher und Zauberer.
+Vampire können nach Belieben zwischen den Zuständen des Lebens und des
+Untodes wechseln. Sie sind geschickte Messerstecher und Zauberer.
 %%%%
 Vine Stalker
 
 Rebpirscher sind schwache Symbionten. Sie können ihre Gesundheit nicht durch
-Tränke wiederherstellen. Ihre magischen Reserven absorbieren Schaden, und sie
-verfügen über einen Biss, der die Magie wiederherstellt.
+Tränke wiederherstellen. Ihre magischen Reserven absorbieren Schaden und sie
+verfügen über einen Biss, der Magie wiederherstellt.
 %%%%
