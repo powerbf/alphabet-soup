@@ -1,14 +1,14 @@
 %%%%
 Abjuration spell
 
-Reduziert die verbleibende Dauer aller in der Nähe befindlichen beschworenen
-feindlichen Kreaturen.
+Reduziert die verbleibende Dauer aller beschworenen feindlichen Kreaturen
+in der Nähe.
 %%%%
 Acid Splash spell
 
-Spuckt einen Klumpen Säure auf ein nahes Wesen und bedeckt es für kurze Zeit mit
-ätzendem Schleim. Beim Aufprall kann der Klumpen auch auf andere Wesen in der
-Nähe spritzen.
+Spuckt einen Klumpen Säure auf ein Wesen in der Nähe und bedeckt es für kurze
+Zeit mit ätzendem Schleim. Beim Aufprall kann der Klumpen auch auf andere Wesen
+in der Nähe spritzen.
 %%%%
 Agony spell
 
@@ -22,24 +22,22 @@ direkt tödlich.
 %%%%
 Airstrike spell
 
-Verursacht, dass sich die Luft um eine Kreatur herum zu einem Wirbel
-meteorologischer Wut verdreht. Ziele, die von leerem Raum umgeben sind, werden
-stärker beschädigt.
+Lässt die Luft um eine Kreatur in meteorologischer Wut herumwirbeln. Ziele, die
+von leerem Raum umgeben sind, werden stärker beschädigt.
 %%%%
 Alistair's Intoxication spell
 
 Wandelt einen kleinen Teil der Gehirnmasse der Kreaturen um dich herum in
 Alkohol um und versucht, alle intelligenten Lebewesen in Sichtweite zu verwirren
 (giftresistente Kreaturen können der Wirkung jedoch widerstehen). Der Zauberer
-wird kurzzeitig Schwindelgefühle verspüren, wenn er erfolgreich Kontakt mit
-anderen Geistern aufnimmt. Wird häufig als Eisbrecher bei Zauberpartys
-eingesetzt.
+verspürt kurzzeitig Schwindelgefühle, wenn er erfolgreich Kontakt mit anderen
+Wesen aufnimmt. Wird häufig als Eisbrecher bei Zaubererpartys eingesetzt.
 %%%%
 Animate Armour spell
 
 Ruft den Geist deiner getragene Rüstung herbei, um an deiner Seite zu kämpfen. Der
-Geist bewegt sich langsam, bezieht aber Kraft aus dem inhärenten Schutz deiner
-eigenen Rüstung. Bei höherer Kraft wird der Geist widerstandsfähiger.
+Geist bewegt sich langsam, zieht aber Kraft aus dem inhärenten Schutz deiner
+eigenen Rüstung. Bei höherer Zaubermacht wird der Geist widerstandsfähiger.
 %%%%
 Animate Dead spell
 
@@ -47,7 +45,7 @@ Belebt alle Leichen und Skelette in der Nähe als Gefolgsleute wieder. Diese
 Magie ist instabil, sodass die Wiederbelebten irgendwann zu Staub zerfallen.
 Zombies und Skelette können die Ebene, auf der sie erschaffen wurden, nicht
 verlassen. Die Widerstandsfähigkeit der durch diesen Zauber erweckten Zombies
-steigt mit der Zauberkraft.
+steigt mit der Zaubermacht.
 %%%%
 Animate Skeleton spell
 
@@ -55,12 +53,12 @@ Belebt ein einzelnes Skelett als Begleiter wieder, selbst wenn dieses Skelett
 noch in Fleisch gehüllt ist. Diese Magie ist instabil, sodass die Wiederbelebten
 irgendwann zu Staub zerfallen. Skelette können die Ebene, auf der sie erschaffen
 wurden, nicht verlassen. Die Widerstandsfähigkeit eines durch diesen Zauber
-erweckten Skeletts steigt mit der Zauberkraft.
+erweckten Skeletts steigt mit der Zaubermacht.
 %%%%
 Apportation spell
 
 Zieht den obersten Gegenstand oder eine Gruppe ähnlicher Gegenstände von einem
-entfernten Stapel auf den Boden in der Nähe des Zaubernden. Bei geringer Kraft
+entfernten Stapel auf den Boden in der Nähe des Zaubernden. Bei geringer Macht
 werden die Gegenstände möglicherweise nicht bis zur Position des Zaubernden
 bewegt. Extrem mächtige magische Gegenstände wie die Kugel von Zot können dem
 Sog dieses Zaubers aktiv widerstehen.
@@ -68,7 +66,7 @@ Sog dieses Zaubers aktiv widerstehen.
 Aura of Brilliance spell
 
 Stärkt die Magie von verbündeten Zauberern in der Nähe des Zauberers und
-ermöglicht ihnen, ihre Magie kraftvoller und häufiger einzusetzen.
+ermöglicht es ihnen, ihre Magie kraftvoller und häufiger einzusetzen.
 %%%%
 Avatar Song spell
 
@@ -78,8 +76,8 @@ Seelen aus nahegelegenen tiefen Gewässern hervor.
 %%%%
 Awaken Earth spell
 
-Belebt einige Felswände neben einem Ziel - einschließlich des Ziels selbst, wenn
-es eine Felswand ist -, um einige Erdelementare zu erschaffen.
+Belebt einige Felswände neben einem Ziel, um einige Erdelementare zu
+erschaffen - einschließlich des Ziels selbst, falls es eine Felswand ist.
 %%%%
 Awaken Forest spell
 
@@ -98,14 +96,14 @@ Verbannt eine Kreatur in den Abgrund.
 %%%%
 Battlecry spell
 
-Inspiriert Verbündete in der Nähe des Zauberers, aggressiver zu kämpfen, und
+Inspiriert Verbündete in der Nähe des Zauberers, aggressiver zu kämpfen und
 erhöht die Kraft ihrer Schläge.
 %%%%
 Beastly Appendage spell
 
 {{
     if you.race() == "Octopode" then
-        return "Bewirkt, dass aus einem der Tentakeln des Zauberers ein"
+        return "Bewirkt, dass aus einem der Tentakel des Zauberers ein"
             .. " bösartiger Stachel wächst, der den Schaden seiner zusätzlichen"
             .. " Tentakelangriffe erhöht. Es ist nicht stark genug, um bereits"
             .. " mutierte Tentakel zu beeinflussen."
@@ -117,7 +115,7 @@ Beastly Appendage spell
     end
 }}
 
-Während der Verwandlung werden die Hilfspanzerungen an den betroffenen
+Während der Verwandlung wird Zusatzrüstung an den betroffenen
 Körperteilen verschmolzen.
 %%%%
 Berserker Rage spell
@@ -126,13 +124,13 @@ Berserker Rage spell
 %%%%
 Berserk Other spell
 
-Versetzt einen Verbündeten in der Nähe in einen rasenden Wutanfall. Der
-Wutanfall erhöht vorübergehend Gesundheit, Geschwindigkeit und verursachten
+Versetzt einen Verbündeten in der Nähe in Berserkerwut. Die Wut erhöht
+vorübergehend Gesundheit, Geschwindigkeit und verursachten
 Schaden im Nahkampf.
 %%%%
 Bind Souls spell
 
-Verleiht anderen Lebewesen in der Nähe eine Verzauberung, der sie nach ihrer
+Belegt andere Lebewesen in der Nähe mit einer Verzauberung, die sie nach ihrer
 Tötung als Simulakren auferstehen lässt.
 %%%%
 Black Mark spell
@@ -146,11 +144,11 @@ Blade Hands spell
 {{
     local hands = you.hand() .. "s"
     local description =
-               "Lässt lange, sichelförmige Klingen aus den Händen (oder " ..
+               "Lässt lange, sensenartige Klingen aus den Händen (oder " ..
                "Äquivalenten) des Zauberers wachsen, was den " ..
                "Nahkampfschaden deutlich erhöht.\n\nWährend der Verwandlung " ..
                "werden ausgerüstete Waffen, Schilde und Handschuhe " ..
-               "verschmolzen, und das Wirken von Zaubern wird etwas " ..
+               "verschmolzen und das Wirken von Zaubern wird etwas " ..
                "schwieriger."
 
     if hands == "paws" then
@@ -164,12 +162,12 @@ Blade Hands spell
 Blink Allies Away spell
 
 Lässt Verbündete im Sichtfeld des Zauberers von einem nahegelegenen Feind
-wegblinken.
+wegblinzeln.
 %%%%
 Blink Allies Encircling spell
 
-Versetzt eine Anzahl Verbündeter in die Sicht des Zauberers, um einen
-anvisierten Feind zu umzingeln.
+Versetzt eine Anzahl Verbündeter im Sichtfeld des Zauberers, sodass sie einen
+anvisierten Feind umzingeln.
 %%%%
 Blink Away spell
 
@@ -183,18 +181,18 @@ Feindes.
 %%%%
 Blink Other Close spell
 
-Verschiebt einen anvisierten Feind über eine kurze Distanz in Richtung des
-Zaubernden. Dem kann man nicht durch Willenskraft widerstehen.
+Versetzt einen anvisierten Feind über eine kurze Distanz in Richtung des
+Zaubernden. Dem kann nicht durch Willenskraft widerstanden werden.
 %%%%
 Blink Other spell
 
-Verschiebt einen anvisierten Feind zufällig über eine kurze Distanz. Dem kann
-man nicht mit Willenskraft widerstehen.
+Versetzt einen anvisierten Feind zufällig über eine kurze Distanz. Dem kann
+nicht mit Willenskraft widerstanden werden.
 %%%%
 Blink Range spell
 
 Versetzt den Zauberer an einen Ort, der weiter vom anvisierten Feind entfernt
-ist, sich jedoch noch immer in Sichtweite des Ziels befindet.
+ist, sich jedoch immer noch in Sichtweite des Ziels befindet.
 %%%%
 Blink spell
 
@@ -211,8 +209,8 @@ Feuert einen durchdringenden Eisstrahl ab.
 %%%%
 Bolt of Draining spell
 
-Feuert einen durchdringenden Strahl negativer Energie ab, der jedem Lebewesen,
-das er trifft, die Kraft raubt.
+Feuert einen durchdringenden Strahl negativer Energie ab, der jedes Lebewesen,
+das er trifft, auszehrt.
 %%%%
 Bolt of Fire spell
 
@@ -225,18 +223,18 @@ Schadens umgeht die Feuerresistenz.
 %%%%
 Borgnjor's Revivification spell
 
-Heilt sofort alle Wunden des Zauberers, fügt ihm aber auch dauerhaft
-Gesundheitsschäden zu, und zwar in einem Ausmaß, das von der Kraft abhängt (und
+Heilt sofort alle Wunden des Zauberers, schädigt dafür aber dauerhaft
+seine Gesundheit, in einem Ausmaß, das von der Zaubermacht abhängt (und
 umgekehrt proportional zu ihr ist).
 
-Es ist stark genug, um die Effekte von Death's Door aufzuheben, obwohl der
-Zauberer dadurch kurzzeitig gelähmt wird. Auf Untote hat es keine Wirkung.
+Die Wiederbelebung ist stark genug, um die Effekte von Pforte des Todes aufzuheben,
+obwohl der Zauberer dadurch kurzzeitig gelähmt wird. Auf Untote hat sie keine Wirkung.
 %%%%
 Borgnjor's Vile Clutch spell
 
-Ruft Hände von Leichen hervor, die vor langer Zeit unter dem Boden begraben
-wurden. In diesem Bereich gefangene Feinde werden an Ort und Stelle festgehalten
-und umschlungen, bis sie sich befreien.
+Ruft die Hände von Leichen hervor, die vor langer Zeit im Boden des Kerkers
+begraben wurden. In diesem Bereich gefangene Feinde werden an Ort und Stelle
+festgehalten und umschlungen, bis sie sich befreien.
 %%%%
 Brain Feed spell
 
@@ -254,16 +252,16 @@ Ruft einen einzelnen Hund herbei, der dem Zauberer zu Hilfe kommt.
 %%%%
 Call Down Damnation spell
 
-Verwüstet einen anvisierten Feind mit Verdammnis, ohne dass eine direkte
+Schlägt einen anvisierten Feind mit Verdammnis, ohne dass eine direkte
 Schusslinie erforderlich ist. Diese unheiligen Kräfte schaden dem Opfer und
-allen in der Nähe befindlichen Personen und sind von keinerlei Schutzmaßnahmen
-wie Rüstung oder Resistenz betroffen. Bestimmte Kreaturen, normalerweise
-diejenigen, die selbst Verdammnis heraufbeschwören können, bleiben jedoch von
-der Verdammnis völlig verschont.
+allen in der Nähe befindlichen Personen und werden nicht von Schutzmaßnahmen
+wie Rüstung oder Resistenz beeinflusst. Bestimmte Kreaturen, normalerweise
+diejenigen, die selbst Verdammnis heraufbeschwören können, bleiben von
+Verdammnis jedoch vollkommen verschont.
 %%%%
 Call Down Lightning spell
 
-Trifft einen anvisierten Feind mit Blitzen, ohne dass eine direkte Schusslinie
+Schlägt einen anvisierten Feind mit einem Blitz, ohne dass eine direkte Schusslinie
 erforderlich ist. Die Zielmagie benötigt Distanz, um zu funktionieren, sodass
 benachbarte oder fast benachbarte Feinde nicht getroffen werden können.
 %%%%
@@ -274,7 +272,7 @@ Ruft einen kleinen Dämon aus den Tiefen der Hölle herbei.
 Call Lost Soul spell
 
 Beschwört ein nekromantisches Gespenst. Diese verlorenen Seelen können in die
-Körper mächtigerer Untoter eindringen, um sie vom Rande des Todes zurückzuholen,
+Körper mächtigerer Untoter eindringen, um sie vom Rande des Niedergangs zurückzuholen,
 oder sterbende Lebewesen in geisterhafte Versionen ihrer selbst verwandeln.
 %%%%
 Call of Chaos spell
@@ -286,9 +284,9 @@ immer, positiv.
 Call Tide spell
 
 Ermöglicht dem Zauberer, die Gezeitenphase des gesamten Wassers innerhalb einer
-großen Entfernung zu beeinflussen. Kurz nach dem Aufruf wird das Wasser auf der
-gesamten Ebene Flut erreichen. Das Wasser in der Nähe des Zauberers wird sogar
-noch höhere Pegelstände erreichen als normalerweise.
+großen Entfernung zu beeinflussen. Kurz nach dem Aufruf erreicht das Wasser auf der
+gesamten Ebene den Stand der Flut. Das Wasser in der Nähe des Zauberers steigt
+sogar auf noch höhere Pegelstände als normalerweise.
 %%%%
 Cantrip spell
 
@@ -299,36 +297,36 @@ Cause Fear spell
 
 Verursacht Angst bei denen, die sich in der Nähe des Zaubernden befinden, sodass
 die Betroffenen sich dem Zaubernden nicht nähern können und es manchmal nicht
-gelingt, ihn im Nahkampf anzugreifen. Der Effekt endet, wenn man sich aus dem
+schaffen, ihn im Nahkampf anzugreifen. Der Effekt endet, wenn man sich aus dem
 Sichtfeld des Zaubernden entfernt.
 %%%%
 Chain of Chaos spell
 
 Erzeugt einen Lichtbogen aus purem Chaos, der Kreaturen in der Nähe mit
-unvorhersehbaren Auswirkungen trifft. Der Lichtbogen kann den Zaubernden
+unvorhersehbaren Auswirkungen trifft. Der Bogen kann den Zaubernden
 berühren, ohne ihn zu verletzen.
 %%%%
 Chain Lightning spell
 
-Löst eine gewaltige elektrische Entladung aus, die sich auf die dem Zaubernden
-am nächsten stehende Kreatur zubewegt und dann von ihr weg. Je weiter sie sich
-bewegt, desto geringer ist der Schaden, den sie anrichtet. Sekundäre Lichtbögen
-haben eine begrenzte Reichweite und fügen dem Zaubernden nur wenig Schaden zu.
-Der Schaden des Zaubers umgeht teilweise Rüstung und Resistenz gegen
-Elektrizität.
+Setzt eine gewaltige elektrische Entladung frei, die auf die dem Zaubernden
+am nächsten stehende Kreatur überspringt und sich dann weiter ausbreitet. Je größer
+die zurückgelegte Distanz, desto geringer ist der Schaden, den sie anrichtet. Sekundäre
+Lichtbögen haben eine begrenzte Reichweite und fügen dem Zaubernden nur wenig
+Schaden zu. Der Schaden des Zaubers umgeht zu einem Teil Rüstung und Resistenz
+gegen Elektrizität.
 %%%%
 Charm spell
 
-Bewirkt, dass eine ansonsten feindselige Kreatur eine Zeit lang auf der Seite
-des Zaubernden kämpft.
+Lässt eine ansonsten feindselige Kreatur eine Zeit lang auf der Seite
+des Zaubernden kämpfen.
 %%%%
 Chaos Breath spell
 
-Atmet eine große Rauchwolke aus, die die Essenz des Chaos enthält.
+Speit eine große Rauchwolke aus, die die Essenz des Chaos enthält.
 %%%%
 Chilling Breath spell
 
-Atmet einen Froststoß aus, der das Ziel zurückstoßen kann, wenn er Schaden
+Speit einen Froststoß aus, der das Ziel zurückstoßen kann, wenn er Schaden
 verursacht.
 %%%%
 Cleansing Flame spell
@@ -337,23 +335,23 @@ Cleansing Flame spell
 %%%%
 Cold Breath spell
 
-Stößt einen konzentrierten Schwall eiskalter Luft aus. Er kann in der Luft
+Speit einen konzentrierten Schwall eiskalter Luft aus. Er kann in der Luft
 befindliche Ziele zurückstoßen.
 %%%%
 Concentrate Venom spell
 
-Verstärkt das natürliche Gift des Zielmonsters. Giftige Bisse und Spucke werden
-intensiv genug, um zu verlangsamen und zu ersticken.
+Verstärkt das natürliche Gift des Zielmonsters. Giftige Bisse und das Spucken von
+Gift werden intensiv genug, um zu verlangsamen und zu ersticken.
 %%%%
 Confuse spell
 
-Führt im Geist einer Kreatur zu einem Zustand der Fassungslosigkeit und
+Verursacht im Geist einer Kreatur einen Zustand der Fassungslosigkeit und
 Verwirrung.
 %%%%
 Confusing Touch spell
 
 Verzaubert die dominante Hand des Zauberers mit magischer Energie. Diese Energie
-wird freigesetzt, wenn der Zauberer ein Monster berührt, und kann bei dem
+wird freigesetzt, wenn der Zauberer ein Monster berührt und kann bei dem
 Monster einen Zustand der Verwirrung hervorrufen. Die Angriffe des Zauberers
 verursachen keinen Schaden, wenn er versucht, ein Monster auf diese Weise zu
 berühren.
@@ -366,7 +364,7 @@ Verwirrung, ohne dass eine direkte Schusslinie erforderlich ist.
 Conjure Ball Lightning spell
 
 Erzeugt eine Gruppe von Kugelblitzen, die den nächsten Feind aufsuchen, bevor
-sie in einer gewaltigen Elektrizitätsexplosion explodieren. Zauberern wird
+sie in einem gewaltigen Sturm der Elektrizität explodieren. Zauberern wird
 geraten, vorsichtig zu sein; der Blitz achtet nicht darauf, wen er treffen
 könnte. Die Magie, die die Kugelblitze zusammenhält, hat eine begrenzte
 Reichweite, sodass sie sich harmlos auflösen können, wenn sie vor der Explosion
@@ -374,17 +372,17 @@ zu weit von ihrem Zauberer wegtreiben.
 %%%%
 Conjure Flame spell
 
-Erzeugt eine Wolke aus magisch aufrechterhaltenem Feuer zu Füßen des Zauberers.
-Das Feuer braucht einen Moment, um mit Kraft zu brennen, und in seinem fragilen
+Erzeugt eine Wolke aus magisch genährtem Feuer zu Füßen des Zauberers.
+Das Feuer braucht einen Moment, um voll aufzuflammen und in seinem fragilen
 Anfangszustand kann es leicht vom Zauberer oder einem umherwandernden Monster
 erstickt werden. Das erneute Wirken des Zaubers erweckt das Feuer vollständig
 zum Leben, verbrennt jedoch den Zauberer.
 %%%%
 Corona spell
 
-Lässt einen Lichtschein um eine Kreatur herumscheinen, der diese deutlich
-umreißt. Dieses Leuchten gleicht die dunkle, muffige Atmosphäre des Kerkers aus
-und macht es deutlich einfacher, die betroffene Kreatur zu treffen.
+Verursacht einen Lichtschein um eine Kreatur herum, der diese deutlich umreißt.
+Dieses Leuchten hebt sich von der dunklen, muffigen Atmosphäre des Kerkers ab
+und macht es deutlich einfacher, die gekennzeichnete Kreatur zu treffen.
 %%%%
 Corpse Rot spell
 
@@ -394,53 +392,54 @@ zehren an der Lebenskraft aller Kreaturen, die sie umhüllen.
 %%%%
 Corrosive Bolt spell
 
-Feuert einen durchdringenden Säureblitz ab.
+Feuert einen durchdringenden Säurestrahl ab.
 %%%%
 Corrupting Pulse spell
 
 Fügt allen sichtbaren Zielen eine Verderbnis zu, die ihre Körper vorübergehend
-in nachteiliger Weise mutieren lässt. Künstliche Wesen können davon nicht
-betroffen sein, und die Untoten verwesen, wenn sie betroffen sind.
+in nachteiliger Weise mutieren lässt. Künstliche Wesen werden davon nicht
+beeinflusst und die Untoten verwesen, wenn sie betroffen sind.
 %%%%
 Creeping Frost spell
 
 Ruft gefrierende Kälte aus Wänden und anderen ähnlich festen Flächen hervor.
-Alle Feinde des Zauberers, die neben dieser Fläche stehen, werden eingefroren
-und ihre Bewegungen werden verlangsamt.
+Alle Feinde des Zauberers, die neben diesen Flächen stehen, frieren ein
+und stellen fest, dass ihre Bewegungen verlangsamt sind.
 %%%%
 Crystal Bolt spell
 
 Feuert ein durchdringendes Projektil mit besonderen magischen Eigenschaften ab.
-Es ist zufällig mit Feuer oder Eis getränkt und wird außerdem aufgrund des im
+Es ist zufällig von Feuer oder Eis erfüllt und wird außerdem aufgrund des im
 Schuss eingebetteten Kristalls von Wänden aus jedem Material reflektiert.
 %%%%
 Dazzling Flash spell
 
 Der Zauberer lässt ein funkelndes Lichtspektakel los. Jedes Lebewesen in der
-Nähe kann geblendet werden und stolpert blindlings umher.
+Nähe kann geblendet werden und dann blindlings umherstolpern.
 %%%%
 Death Channel spell
 
-Erweckt vom Zauberer und seinen Verbündeten getötete Lebewesen zum Leben und
+Erweckt vom Zauberer und seinen Verbündeten getötete Lebewesen und
 versetzt sie in einen Zustand geisterhafter Sklaverei. Wenn die Kanalisierung
-endet, werden die Gespenster aus der Knechtschaft befreit.
+endet, werden die Gespenster aus der Knechtschaft entlassen.
 %%%%
 Death Rattle spell
 
-Atmet die Essenz der Sterbenden aus und erzeugt Wolken aus giftigem Miasma.
+Speit die Essenz der Sterbenden aus und erzeugt Wolken aus giftigem Miasma.
 %%%%
 Death's Door spell
 
 Macht den Zauberer für kurze Zeit nahezu unverwundbar, bringt ihn dabei aber
-gefährlich nahe an den Tod. So nahe sogar, dass der Körper glaubt sich tot zu
-sein - Heileffekte nützen nichts. Der Zauberer erhält eine Warnung kurz bevor
-der Zauber abläuft. Nach Ablauf kann der Zauber nicht sofort erneut gewirkt
-werden, aber bei hoher Kraft ist der Zauberer weiter vom Tod entfernt, wenn die
-Wirkung endet. Es hat keine Wirkung auf diejenigen, die bereits untot sind.
+gefährlich nahe an den Tod. So nahe sogar, dass der Körper glaubt, tot zu
+sein – Heileffekte erreichen nichts. Der Zauberer erhält eine Warnung kurz bevor
+der Zauber abläuft. Nach Ablauf kann der Spruch nicht sofort erneut gewirkt
+werden, aber bei hoher Zaubermacht ist der Zauberer weiter vom Tod entfernt,
+wenn die Wirkung endet. Der Zauber hat keine Wirkung auf diejenigen, die bereits
+untot sind.
 %%%%
 Debugging Ray spell
 
-Feuert einen Strahl ab, der massiven Schaden (1500 HP) verursacht und immer
+Feuert einen Strahl ab, der massiven Schaden (1500 TP) verursacht und immer
 trifft.
 %%%%
 Dig spell
@@ -449,44 +448,44 @@ Gräbt einen Tunnel durch unbearbeiteten Fels.
 %%%%
 Dimension Anchor spell
 
-Blockiert alle Translokationsversuche des betroffenen Ziels, ob freiwillig oder
-nicht. Dies schließt sogar einige ebenenübergreifende Effekte ein, allerdings
-nicht die Verbannung.
+Blockiert alle Translokationsversuche des betroffenen Ziels, ob sie freiwillig
+sind oder nicht. Dies schließt sogar einige ebenenübergreifende Effekte ein,
+allerdings nicht die Verbannung.
 %%%%
 Discord spell
 
-Versetzt Kreaturen in der Nähe in einen irrsinnigen Zustand, der sie dazu
-veranlasst, alles und jeden in der Nähe mit großer Kraft und Geschwindigkeit
+Versetzt Kreaturen in der Nähe in eine irrsinnige Raserei, die sie dazu
+bringt, alles und jeden in der Nähe mit großer Kraft und Geschwindigkeit
 gnadenlos anzugreifen.
 %%%%
 Disjunction spell
 
-Destabilisiert den Raum in einer Kugel um den Zaubernden für eine Weile, sodass
-jeder in der Nähe vom Zaubernden wegblinzelt. Die Wahrscheinlichkeit des
-Blinzelns hängt von der Entfernung zum Zaubernden ab und ist bei direkter Nähe
-nahezu sicher. Beim Wirken verursacht es magische Kontamination.
+Destabilisiert für eine Weile den Raum in einer Kugel um den Zaubernden herum,
+sodass jeder in der Nähe vom Zaubernden wegblinzelt. Die Wahrscheinlichkeit des
+Blinzelns hängt von der Entfernung zum Zaubernden ab und ist bei direkter
+Nachbarschaft nahezu garantiert. Beim Wirken verursacht es magische Kontamination.
 %%%%
 Dispel Undead spell
 
-Fügt einem benachbarten Untoten großen Schaden zu, indem die Kräfte gestört
-werden, die ihn zusammenhalten.
+Fügt einem benachbarten untoten Wesen großen Schaden zu, durch Störung der Kräfte,
+die es zusammenhalten.
 %%%%
 Dispel Undead Range spell
 
-Fügt einem untoten Wesen großen Schaden zu, indem es die Kräfte stört, die es
+Fügt einem untoten Wesen großen Schaden zu, durch Störung der Kräfte, die es
 zusammenhalten.
 %%%%
 Dispersal spell
 
 Teleportiert alle Kreaturen weg, die sich in kurzer Entfernung vom Zaubernden
 befinden. Kreaturen, die dem Effekt widerstehen, werden dennoch unaufhaltsam
-über eine kürzere Distanz weggeblasen und jedes Monster, das davon betroffen
-wird, kann durch die Raumkrümmung verwirrt werden.
+über eine kürzere Distanz geblinzelt und jedes auf die eine oder andere Weise
+betroffene Monster kann durch die Raumkrümmung verwirrt werden.
 %%%%
 Doom Howl spell
 
-Löst ein durchdringendes Heulen aus, das in den Köpfen der Opfer nachhallt.
-Während dieses Echo nachhallt, können alptraumhafte Kreaturen es hören und bis
+Stößt ein durchdringendes Heulen aus, das in den Köpfen der Opfer nachhallt.
+Während dieses Echo andauert, können alptraumhafte Kreaturen es hören und bis
 zu seiner Quelle zurückverfolgen. Kann von einer Kreatur nur einmal verwendet
 werden.
 %%%%
@@ -499,40 +498,40 @@ Dragon Form spell
         desc = desc .. " Drachen"
         if you.race() ~= "Grey Draconian" then
             desc = desc .. " und erhöht die Kraft aller angeborenen " ..
-                           "Atemangriffe"
+                           "Odem-Angriffe"
         end
         if you.race() == "Red Draconian" then
             desc = desc .. ". Der Zaubernde wird hochgradig resistent gegen " ..
-                           "Feuer und Gift, aber verwundbar gegen Kälte"
+                           "Feuer und Gift, aber anfällig für Kälte"
         elseif you.race() == "White Draconian" then
             desc = desc .. ". Der Zaubernde wird hochgradig resistent gegen " ..
-                           "Kälte und Gift, aber verwundbar gegen Feuer"
+                           "Kälte und Gift, aber anfällig für Feuer"
         elseif you.race() == "Green Draconian" then
-            desc = desc .. " und behält ihre angeborene Farbe"
+            desc = desc .. " und behält seine angeborene Farbe"
         else
             desc = desc .. ". Der Zaubernde behält seine angeborene Farbe, " ..
-                           "und wird resistent gegn Gift"
+                           "und wird resistent gegen Gift"
         end
     else
         desc = desc .. ", feuerspeienden Drachen. Der Zaubernde wird " ..
-                       "hochgradig resistent gegen Feur und resistent gegn " ..
-                       "Gift, aber verwundbar gegen Kälte"
+                       "hochgradig resistent gegen Feuer und resistent gegen " ..
+                       "Gift, aber anfällig für Kälte"
     end
 
     desc = desc .. "."
 
     return desc
-}} Der Zauberer kann im Nahkampf unglaublichen Schaden verursachen und wird
+}} Der Zaubernde kann im Nahkampf unglaublichen Schaden verursachen und ist
 deutlich robuster, seine Ausweichfähigkeit ist allerdings geringer. Während der
-Verwandlung werden alle ausgerüsteten Waffen und Rüstungen verschmolzen.
+Verwandlung verschmelzen alle ausgerüsteten Waffen und Rüstungen.
 %%%%
 Dragon's Call spell
 
-Löst einen mächtigen Ruf in ein Drachenreich aus und ruft einen Drachen nach dem
-anderen herbei, um die Feinde des Beschwörers anzugreifen. Der Zauber ist schwer
-aufrechtzuerhalten und jeder neue Drache, der den Ruf beantwortet, wird die
-magischen Reserven des Beschwörers weiter aufbrauchen. Nachdem der Ruf beendet
-ist, kann er für kurze Zeit nicht erneut ausgesprochen werden.
+Sendet einen mächtigen Ruf in ein Drachenreich aus und beschwört einen Drachen
+nach dem anderen herbei, um die Feinde des Beschwörers anzugreifen. Der Zauber ist
+schwer aufrechtzuerhalten und jeder neue Drache, der dem Ruf antwortet, braucht die
+magischen Reserven des Beschwörers weiter auf. Nachdem der Ruf beendet
+ist, kann er für kurze Zeit nicht erneut gesendet werden.
 %%%%
 Drain Life spell
 
@@ -546,8 +545,8 @@ Antimagiewaffe getroffen worden.
 %%%%
 Draining Gaze spell
 
-Bewirkt, dass die Magie des Ziels in die Luft entweicht, als ob es von einer
-Antimagiewaffe getroffen worden wäre, und heilt den Zaubernden um die Menge der
+Bewirkt, dass die Magie des Ziels in die Luft entweicht, als wäre es von einer
+Antimagiewaffe getroffen worden und heilt den Zaubernden um die Menge der
 entzogenen Magie, ohne dass eine direkte Schusslinie erforderlich ist.
 %%%%
 Dream Dust spell
@@ -558,7 +557,7 @@ Stärke und Dauer dieses Effekts.
 %%%%
 Druid's Call spell
 
-Erinnert an Waldbewohner von anderswo auf derselben Ebene.
+Ruft Waldbewohner von anderswo auf derselben Ebene herbei.
 %%%%
 Electrical Bolt spell
 
@@ -566,18 +565,17 @@ Wirft mit hoher Präzision einen elektrischen Blitz auf das Ziel.
 %%%%
 Energy Bolt spell
 
-Feuert einen Strahl mit äußerst zerstörerischer Energie ab.
+Feuert einen Strahl äußerst zerstörerischer Energie ab.
 %%%%
 Ensnare spell
 
-Schießt einen Strom aus Spinnweben auf eine Kreatur und fängt das Ziel in einem
+Schießt einen Strom aus Gespinst auf eine Kreatur und fängt das Ziel in einem
 Spinnennetz ein.
 %%%%
 Ensorcelled Hibernation spell
 
-Verringert den Stoffwechsel des Ziels und löst einen Winterschlaf aus. Nach dem
-Erwachen kann das Ziel für einige Zeit nicht wieder in den Schlaf versetzt
-werden.
+Verlangsamt den Stoffwechsel des Ziels und löst einen Winterschlaf aus. Nach dem
+Erwachen kann das Ziel für einige Zeit nicht wieder in Schlaf versetzt werden.
 %%%%
 Entropic Weave spell
 
@@ -585,45 +583,45 @@ Korrodiert das Ziel, ohne dass eine direkte Schusslinie erforderlich ist.
 %%%%
 Eringya's Noxious Bog spell
 
-Der Zauberer lässt einen Schlammschwall los, der die umliegenden Gebiete in
+Der Zaubernde lässt einen Schlammschwall los, der das umliegende Gebiet in
 einen giftigen Sumpf verwandelt. Der Schlamm fügt allen Monstern Schaden zu und
 vergiftet sie, auch jene, die gegen Gift resistent sind. Der Sumpf kann sich
-nicht in Bereichen bilden, die an feste Objekte angrenzen, und auch nicht in
+nicht in Bereichen bilden, die an feste Objekte angrenzen und auch nicht in
 Bereichen ohne festen Boden, wie tiefes Wasser oder Lava. Die Verwandlung ist
-vorübergehend und kann nicht ohne Sicht des Zauberers aufrechterhalten werden.
-Zauberkraft erhöht die Dauer des Sumpfes.
+vorübergehend und lässt sich nicht außerhalb der Sichtweite des Zaubernden
+aufrechterhalten. Zaubermacht lässt den Sumpf länger bestehen.
 %%%%
 Eruption spell
 
 Spaltet die Erde, um unter dem Ziel einen lokal begrenzten, kurzlebigen Vulkan
-entstehen zu lassen.
+hervorzubringen.
 %%%%
 Excruciating Wounds spell
 
-Verleiht der Waffe des Zauberers vorübergehend die Essenz des Schmerzes selbst.
-Artefaktwaffen werden hiervon nicht beeinflusst. Während eine Waffe mit Schmerz
+Verleiht der Waffe des Zaubernden vorübergehend die Essenz des Schmerzes selbst.
+Artefaktwaffen bleiben davon unbeeinflusst. Während eine Waffe mit Schmerz
 erfüllt ist, kann sie nicht abgelegt werden und das Wirken von Zaubern ist etwas
 schwieriger.
 %%%%
 Flay spell
 
-Öffnet schmerzhafte Illusionswunden am Körper des Ziels, die nach kurzer Zeit
+Öffnet schmerzhafte illusionäre Wunden am Körper des Ziels, die nach kurzer Zeit
 oder beim Tod des Zaubernden verschwinden. Dies kann nicht direkt töten und ist
 gegen unnatürliche Ziele wirkungslos.
 %%%%
 Fire Breath spell
 
-Spuckt einen Feuerstoß auf das Ziel.
+Speit einen Feuerstrahl auf das Ziel.
 %%%%
 Fire Storm spell
 
 Ruft einen gewaltigen Sturm aus lodernden Flammen direkt auf das Ziel herab, der
-Schaden in einem großen Bereich verursacht und kurzlebige Feuerwirbel
-hinterlässt. Ein Teil seines Schadens umgeht die Feuerresistenz.
+in einem großen Bereich Schaden verursacht und kurzlebige Feuerwirbel
+hinterlässt. Ein Teil des Schadens umgeht die Feuerresistenz.
 %%%%
 Fire Summon spell
 
-Beschwört Dämonen der Flamme und der Verdammnis.
+Beschwört Dämonen der Flammen und der Verdammnis.
 %%%%
 Fireball spell
 
@@ -631,7 +629,7 @@ Schleudert einen explosiven Feuerball.
 %%%%
 Flame Tongue spell
 
-Erzeugt einen kurzen Flammenstoß.
+Erzeugt eine kurze Flammenzunge.
 %%%%
 Flaming Cloud spell
 
@@ -641,19 +639,19 @@ Flash Freeze spell
 
 Friert die Luft um ein Ziel herum ein, verursacht erheblichen Schaden und
 verlangsamt die Bewegung des Ziels. Auf Ziele, die bereits eingefroren sind, hat
-die Aktion keine Wirkung.
+der Zauber keine Wirkung.
 %%%%
 Force Lance spell
 
-Feuert einen Stoßstrahl ab. Wenn der Aufprall Schaden verursacht, kann das Ziel
-zurückgeschleudert werden.
+Feuert einen Stoß physischer Energie. Wenn der Aufprall Schaden verursacht, kann
+das Ziel zurückgeschleudert werden.
 %%%%
 Forceful Invitation spell
 
-Beschwört einige der kleineren Bedrohungen aus der Bestienhöhle, der
-Schlangengrube, dem Spinnennest, dem Sumpf, den Untiefen, den Ork-Minen, den
-Elfenhallen, den Gewölben oder der Krypta; der spezifische Zweig variiert je
-nach Zauberer.
+Beschwört einige der kleineren Bedrohungen aus der Höhle der Bestien, der
+Schlangengrube, dem Spinnennest, dem Sumpf, den Untiefen, den orkischen
+Minen, den Elfenhallen, den Gewölben oder der Krypta; der spezifische Zweig
+variiert mit dem Zaubernden.
 %%%%
 Foxfire spell
 
@@ -669,42 +667,42 @@ Ziels durchdringt. Dies kann kaltblütige Kreaturen vorübergehend verlangsamen.
 %%%%
 Freezing Cloud spell
 
-Zaubert eine große Wolke aus tödlich kaltem Dampf hervor.
+Zaubert eine große Wolke aus tödlich kaltem Nebel hervor.
 %%%%
 Frozen Ramparts spell
 
-Umhüllt umgebende Wände für kurze Zeit mit Eis, solange sich der Zauberer nicht
+Umhüllt umgebende Wände für kurze Zeit mit Eis, solange sich der Zaubernde nicht
 bewegt. Opfer, die sich in der Nähe der Eiswände aufhalten, erleiden Schaden,
-was kaltblütige Kreaturen vorübergehend verlangsamen kann. Der verursachte
+der kaltblütige Kreaturen vorübergehend verlangsamen kann. Der verursachte
 Schaden überwindet jegliche Rüstung des Ziels. Jedes Opfer ist immer nur von
-einer Eiswand gleichzeitig betroffen. Der Zauberer und seine Verbündeten können
-sicher in der Nähe von Eiswänden bleiben. Das Eis bricht und fällt ab, wenn sich
-der Zauberer an eine andere Stelle begibt.
+einer Eiswand gleichzeitig betroffen. Der Zaubernde und seine Verbündeten können
+sicher in der Nähe von Eiswänden bleiben. Das Eis bricht und zerfällt, wenn sich
+der Zaubernde an eine andere Stelle begibt.
 %%%%
 Fulminant Prism spell
 
-Zaubert ein Prisma, das nach kurzer Zeit eine gewaltige Explosion arkaner Kraft
-freisetzt. Das Prisma ist äußerst zerbrechlich und jede Beschädigung kann zu
-einer vorzeitigen Detonation führen.
+Zaubert ein Prisma hervor, das nach kurzer Zeit eine gewaltige Explosion arkaner
+Kraft freisetzt. Das Prisma ist äußerst zerbrechlich und jede Beschädigung kann zur
+vorzeitigen Detonation führen.
 %%%%
 Gell's Gravitas spell
 
-Leitet die Schwerkraft kurzzeitig um einen Zielpunkt um, sodass die Wirkung
-"unten" auf diesen Punkt gerichtet ist. Alle Kreaturen in der Nähe, außer dem
-Zaubernden, fallen hilflos auf diesen Punkt zu - normalerweise kollidieren sie
-miteinander oder mit einem dort stehenden Opfer.
+Leitet die Schwerkraft kurzzeitig auf einen Zielpunkt um, sodass "unten" auf
+diesen Punkt gerichtet ist. Alle Kreaturen in der Nähe, außer dem Zaubernden,
+stürzen hilflos auf diesen Punkt zu - typischerweise kollidieren sie miteinander
+oder mit einem dort stehenden Opfer.
 %%%%
 Ghostly Fireball spell
 
-Schleudert eine explodierende Kugel aus negativer Energie, die jedes Lebewesen,
-das sie verschlingt, auszehrt.
+Schleudert eine explodierende Kugel aus negativer Energie, die jedes von ihr
+erfasste Lebewesen auszehrt.
 %%%%
 Ghostly Sacrifice spell
 
 Verwendet die motivierende Essenz eines Verbündeten, um eine Explosion negativer
-Energie zu erzeugen, die jedes Lebewesen, das sie verschlingt, auszehrt. Das
-Wesen, das zur Energieversorgung des Zaubers verwendet wird, egal ob lebendig
-oder konstruiert, wird dabei verbraucht und zerstört.
+Energie zu erzeugen, die jedes von ihr erfasste Lebewesen auszehrt. Das als Opfer
+für den Zauber verwendete Wesen, egal ob lebendig oder konstruiert, wird dabei
+verbraucht und zerstört.
 %%%%
 Throw Ally spell
 
@@ -714,12 +712,12 @@ landet.
 %%%%
 Glaciate spell
 
-Beschwört einen gewaltigen Eisstoß hervor. Kreaturen in seinem kegelförmigen
+Beschwört einen gewaltigen Eisstoß. Kreaturen in seinem kegelförmigen
 Wirkungsbereich erleiden Schaden, wobei der größte Schaden denjenigen zugefügt
 wird, die sich in der Nähe des Zaubernden befinden. Die von dem Stoß getroffenen
-Kreaturen werden von Eis umhüllt, was ihre Bewegung verlangsamt, und die durch
+Kreaturen werden von Eis umhüllt, was ihre Bewegung verlangsamt und die durch
 den Stoß getöteten Kreaturen können zu festen Eisblöcken gefroren werden. Ein
-erheblicher Teil des Schadens umgeht die Kälteresistenz.
+erheblicher Teil des Schadens umgeht Kälteresistenz.
 %%%%
 Grasping Roots spell
 
@@ -739,8 +737,8 @@ aber wiederholte Anwendung kann selbst das sturste Maultier bewegen.
 Hailstorm spell
 
 Ruft eine Hagelkanonade hervor. Das Auge des Sturms ist breit genug, dass
-Monster in der Nähe des Zauberers nicht betroffen sind. Aufgrund der starken
-Wirkung und der scharfen Kanten umgeht ein erheblicher Teil seines Schadens die
+Monster in der Nähe des Zauberers nicht betroffen sind. Aufgrund der harten
+Einschläge und der scharfen Kanten umgeht ein erheblicher Teil des Schadens
 Kälteresistenz.
 %%%%
 Haste Other spell
@@ -750,17 +748,17 @@ Beschleunigt die Aktionen eines Verbündeten in der Nähe.
 Harpoon Shot spell
 
 Feuert eine lange und flexible Masse mit Widerhaken ab. Das gefangene Opfer wird
-entweder in die Nähe des Zauberers gezogen oder stößt mit allem zusammen, was
+entweder in die Nähe des Zaubernden gezogen oder stößt mit allem zusammen, was
 ihm den Weg versperrt.
 %%%%
 Haste spell
 
-Beschleunigt die Aktionen des Zauberers.
+Beschleunigt die Aktionen des Zaubernden.
 %%%%
 Haunt spell
 
-Ruft Gespenster und Geister herbei, die das Ziel des Zauberers heimsuchen. Sie
-greifen nur die Kreatur an, die sie heimsuchen, und lösen sich schnell auf,
+Ruft Gespenster und Geister herbei, die das Ziel des Zaubernden heimsuchen.
+Sie greifen nur die Kreatur an, die sie heimsuchen und lösen sich schnell auf,
 sobald ihr Ziel stirbt.
 %%%%
 Heal Other spell
@@ -775,11 +773,11 @@ Hurl Sludge spell
 
 Zaubert einen konzentrierten Strahl hochgiftigen Schlamms herbei, der das Opfer
 vergiftet und seine Umgebung durchnässt. Der Schlamm verletzt und vergiftet alle
-Monster, auch die, die gegen Gift resistent sind.
+Monster, auch die gegen Gift resistenten.
 %%%%
 Holy Breath spell
 
-Stößt eine große Wolke gesegneter Flammen aus, die im Glanz der guten Götter
+Speit eine große Wolke gesegneter Flammen aus, die im Glanz der guten Götter
 erstrahlen. Diese Flammen sind besonders gefährlich für untote und dämonische
 Kreaturen und haben keine Wirkung auf heilige Kreaturen.
 %%%%
@@ -792,34 +790,34 @@ heilige Kreaturen.
 Iceblast spell
 
 Feuert eine große Eismasse ab, die beim Aufprall explodiert. Aufgrund der
-starken Wirkung und der scharfen Kanten wirkt sich dies sogar auf
-kälteresistente Kreaturen etwas aus.
+starken Wirkung und der scharfen Kanten zeigt dies sogar bei kälteresistenten
+Kreaturen etwas Wirkung.
 %%%%
 Ice Form spell
 
-Verwandelt den Zauberer in eine gefrorene Eiskreatur, die leicht genug ist, um
-auf dem Wasser zu schwimmen. Der Zauberer erhält einen eisigen Nahkampfangriff
+Verwandelt den Zaubernden in eine gefrorene Eiskreatur, die leicht genug ist, um
+auf dem Wasser zu schwimmen. Der Zaubernde erhält einen eisigen Nahkampfangriff
 und wird unglaublich kälteresistent und resistent gegen Gift, aber anfällig für
-Feuer. Während der Verwandlung werden alle ausgerüsteten Waffen und Rüstungen
-verschmolzen.
+Feuer. Während der Verwandlung verschmelzen alle ausgerüsteten Waffen und
+Rüstungen.
 %%%%
 Ignite Poison spell
 
 Wandelt alles Gift in der Nähe in flüssige Flammen um und verbrennt vergiftete
 Kreaturen von innen. Es verwandelt auch Giftwolken und mephitische Gase in
-Flammen. Der Zauberer ist nicht direkt betroffen.
+Flammen. Der Zaubernde ist nicht direkt betroffen.
 %%%%
 Ignition spell
 
-Alle Feinde in der Umgebung des Zauberers werden von Feuerbällen umhüllt. Der
-Zauberer und seine Verbündeten sind vor dem Feuer geschützt und können durch
-diesen Zauber niemals Schaden nehmen.
+Alle Feinde in der Umgebung des Zaubernden werden von Feuerbällen umhüllt. Der
+Zaubernde und seine Verbündeten sind vor dem Feuer geschützt und nehmen durch
+diesen Zauber niemals Schaden.
 %%%%
 Infestation spell
 
-Ruft eine Skarabäenplage hervor, die betroffene Kreaturen für eine von der Macht
-abhängige Dauer befällt und Todesskarabäen wachsen lässt, die bei ihrem Tod aus
-ihnen hervorbrechen.
+Ruft eine Skarabäenplage hervor, die betroffene Kreaturen für eine von der
+Zaubermacht abhängige Dauer befällt und Todesskarabäen wachsen lässt, die bei
+ihrem Tod aus ihnen hervorbrechen.
 %%%%
 Injury Bond spell
 
@@ -833,18 +831,18 @@ Angreifer, wann immer Schaden erlitten wird.
 %%%%
 Ink Cloud spell
 
-Gibt eine dicke Tintenwolke frei, die die Sicht behindert.
+Stößt eine dichte Tintenwolke aus, die die Sicht behindert.
 %%%%
 Inner Flame spell
 
-Erfüllt einen Feind mit intensivem Feuer. Dieses Feuer wird immer dann
-freigesetzt, wenn das Ziel getroffen wird, und beim Tod explosionsartig. Die
+Erfüllt einen Feind mit intensivem Feuer. Dieses Feuer wird beim Treffen des
+Ziels freigesetzt und beim Tod des Ziels explosionsartig freigesetzt. Die
 Größe der verursachten Explosion hängt von der Größe des Ziels ab.
 %%%%
 Invisibility spell
 
-Macht den Zaubernden unsichtbar. Das Unsichtbarwerden führt zu magischer
-Verseuchung und kann schließlich zum Leuchten führen, wodurch die Unsichtbarkeit
+Macht den Zaubernden unsichtbar. Das Unsichtbarwerden verursacht magische
+Kontamination und kann schließlich zum Leuchten führen, wodurch die Unsichtbarkeit
 aufgehoben wird.
 %%%%
 Invisibility Other spell
@@ -853,23 +851,23 @@ Macht einen Verbündeten in der Nähe unsichtbar.
 %%%%
 Iron Shot spell
 
-Schleudert einen großen und schweren Metallschuss.
+Schleudert ein großes und schweres Metallgeschoss.
 %%%%
 Irradiate spell
 
-Verwandelt eine ultradünne Schicht der Haut des Zauberers (oder etwas Ähnliches)
-direkt in reine magische Energie und verwüstet damit benachbarte Kreaturen. Es
-verformt seine Ziele stark, schwächt sie und verringert ihre Rüstung. Der
-Zauberer bleibt davon nicht völlig unberührt; ein Teil der Magie bleibt zurück,
-so dass er nach ein paar Zaubersprüchen gefährlich kontaminiert ist.
+Verwandelt eine ultradünne Schicht der Haut des Zaubernden (oder äquivalentes)
+direkt in reine magische Energie und verstrahlt damit benachbarte Kreaturen. Der
+Effekt deformiert seine Ziele stark, schwächt sie und verringert ihre Rüstung. Der
+Zaubernde bleibt davon nicht völlig unberührt; ein Teil der Magie bleibt zurück,
+sodass er durch mehrmaliges Wirken gefährlich kontaminiert wird.
 %%%%
 Iskenderun's Battlesphere spell
 
-Zaubert eine kleine Kugel magischer Energie, die mit den magischen Reserven des
-Zauberers verbunden ist. Die Kampfsphäre kann zwar nicht unabhängig agieren,
-feuert aber Energiesalven auf die Feinde des Zauberers ab, die mit den
+Zaubert eine kleine Kugel magischer Energie hervor, die mit den magischen Reserven
+des Zaubernden verbunden ist. Die Gefechtssphäre kann zwar nicht unabhängig
+agieren, feuert aber Energiesalven auf die Feinde des Zaubernden ab, die mit den
 zerstörerischen Zaubern ihres Schöpfers synchronisiert sind. Mit zunehmender
-Kraft hält die Kampfsphäre länger und verursacht mehr Schaden pro Salve.
+Zaubermacht hält die Gefechtssphäre länger und verursacht mehr Schaden pro Salve.
 %%%%
 Iskenderun's Mystic Blast spell
 
