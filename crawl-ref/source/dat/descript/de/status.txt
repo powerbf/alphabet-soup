@@ -6,7 +6,7 @@ All deine Aktionen sind 50% schneller.
 Invis status
 
 Du bist unsichtbar. Die meisten Feinde können dich nicht sehen und erleiden
-Abzüge bei derTreffsicherheit, obwohl sie deinen ungefähren Standort erraten
+Abzüge bei der Treffsicherheit, obwohl sie deinen ungefähren Standort erraten
 können. Dies führt mit der Zeit zu magischer Kontamination und kann gefährliche
 Kontaminationsgrade verursachen, wenn du bereits vor Aktivierung dieses Status
 kontaminiert warst. Ist der Status ausgegraut, dann ist er aktiv (und verursacht
@@ -264,7 +264,7 @@ Du bist widerstandsfähiger gegen Feuer, Kälte, Elektrizität, Gift und Säure.
 Slime status
 
 Deine geführte Waffe oder deine Fäuste sind mit Schleim bedeckt und verwandeln
-das nächste lebende oder körperlose untote Monster, das du triffst, in einen
+das nächste lebende oder körperliche untote Monster, das du triffst, in einen
 neutralen Schleim.
 %%%%
 Swift status
@@ -283,8 +283,8 @@ der Zauber abgelaufen ist, kann er nicht sofort erneut gewirkt werden.
 %%%%
 -DDoor status
 
-Du befindest dich noch immer nah an der Schwelle des Todes und kannst „Pforte
-des Todes“ für kurze Zeit nicht erneut wirken.
+Du befindest dich noch immer nah an der Schwelle des Todes und kannst "Pforte
+des Todes" für kurze Zeit nicht erneut wirken.
 %%%%
 Quad status
 
