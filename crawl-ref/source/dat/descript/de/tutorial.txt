@@ -42,9 +42,9 @@ Num-Block:      <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cm
 %%%%
 tutorial1 shiftmove
 
-Eine schnellere Möglichkeit, durch einen Gang zu „rennen“, ist es
+Eine schnellere Möglichkeit, durch einen Gang zu "rennen", ist es
 <input>Shift</input> zusammen mit dem <input>Tastenfeld</input> zu drücken.
-(probiere es mit ‚Numlock‘ ein/aus) oder mit <input>vi Tasten</input>.
+(probiere es mit Num-Lock ein/aus) oder mit <input>vi Tasten</input>.
 %%%%
 tutorial1 downstairs
 
@@ -78,7 +78,7 @@ du <input>$cmd[CMD_EXPLORE]</input> drückst.
 tutorial1 exclusion
 
 Einige gefährliche Gegenden sind mit <w>Reiseausschlüssen</w> markiert. Die
-Auto-Erkundung<localtiles> (<input>Mausklick</input> eingeschlossen!
+Auto-Erkundung<localtiles> (<input>Mausklick</input> eingeschlossen!)
 </localtiles> führt dich nicht in diese ausgeschlossenen Gebiete. Stattdessen
 hältst du automatisch an.
 
@@ -192,13 +192,21 @@ Denke daran, du kannst dich mit <input>$cmd[CMD_REST]</input> ausruhen.
 %%%%
 tutorial2 compare_monster_desc
 
-:nowrap
-Untersuche diese Monster (<localtiles>bewege die <input>Maus</input>darauf</localtiles><nomouse>drücke <input>$cmd[CMD_LOOK_AROUND]</input> um den Betrachtungsmodus zu aktivieren, dann <input>$cmd[CMD_TARGET_CYCLE_FORWARD]</input> um durch alle Monster in der Nähe zu wechseln</nomouse>) und vergleiche ihre Beschreibungen (<localtiles>mit einem <input>Rechts-Klick</input></localtiles><nomouse>mit <input>[$cmd[CMD_LOOK_AROUND]</input> und sobald du sie ausgewählt hast <input>$cmd[CMD_TARGET_DESCRIBE]]</input></nomouse>) um herauszufinden, welcher dieser beiden Käfige sicherer ist, um sich hindurch zu kämpfen.
+Untersuche diese Monster (<localtiles>bewege die <input>Maus</input>
+darauf</localtiles>
+<nomouse>drücke <input>$cmd[CMD_LOOK_AROUND]</input> um den Betrachtungsmodus
+zu aktivieren, dann <input>$cmd[CMD_TARGET_CYCLE_FORWARD]</input> um durch alle
+Monster in der Nähe zu wechseln</nomouse>) und vergleiche ihre Beschreibungen
+(<localtiles>mit einem <input>Rechts-Klick</input></localtiles><nomouse>mit
+<input>$cmd[CMD_LOOK_AROUND]</input> und sobald du sie ausgewählt hast <input>$cmd[CMD_TARGET_DESCRIBE]</input></nomouse>) um herauszufinden,
+welcher dieser beiden Käfige sicherer ist, um sich hindurch zu kämpfen.
 %%%%
 tutorial2 downstairs
 
-Gut gemacht! Nachdem du gerastet hast und deine Gesundheit voll wiederhergestellt
-ist, begebe dich mit <input>$cmd[CMD_GO_DOWNSTAIRS]</input><localtiles> oder <input>Klick</input> auf deinen Character</localtiles> zur nächsten Ebene.
+Gut gemacht! Nachdem du gerastet hast und deine Gesundheit voll
+wiederhergestellt ist, begebe dich mit <input>$cmd[CMD_GO_DOWNSTAIRS]</input>
+<localtiles> oder <input>Klick</input> auf deinen Character</localtiles> zur
+nächsten Ebene.
 %%%%
 tutorial2 newlevel
 
@@ -208,7 +216,7 @@ Denke daran: Du kannst alte Mitteilungen mit
 tutorial2 boomerangs
 
 Und nun zum Fernkampf! Hebe diese Bumerangs mit <input>$cmd[CMD_PICKUP]</input>
-<localtiles> oder mit einem <input>Mausklick</input></localtiles>auf und
+<localtiles> oder mit einem <input>Mausklick</input></localtiles> auf und
 fahre fort.
 %%%%
 tutorial2 throwing
@@ -288,7 +296,7 @@ Hebe diese Stiefel mit <input>$cmd[CMD_PICKUP]</input> auf und ziehe sie mit
 %%%%
 tutorial3 autopickup
 
-Bestimmte <tiles>, mit einem grünen Rahmen markierte </tiles>Gegenstände
+Bestimmte<tiles>, mit einem grünen Rahmen markierte</tiles> Gegenstände
 werden automatisch aufgehoben, wenn du über sie läufst.
 %%%%
 tutorial3 scroll
@@ -301,9 +309,9 @@ mit <input>$cmd[CMD_READ]</input><localtiles> oder mit einem
 tutorial3 scroll_noautopickup
 
 Automatisches Aufheben funktioniert nicht wenn ein Monster in der Nähe ist.
-Du kannst diese Schriftrolle entweder mit <input>$cmd[CMD_PICKUP]</input>
-<localtiles> oder durch <input>Klick</input> auf deinen Charakter
-aufheben.</localtiles> Oder du bekämpfst das Monster in der Nähe und hebst
+Du kannst diese Schriftrolle jetzt entweder mit <input>$cmd[CMD_PICKUP]</input>
+<localtiles> oder durch <input>Klick</input> auf deinen Charakter</localtiles>
+aufheben. Oder du bekämpfst das Monster in der Nähe und hebst
 sie danach auf.
 %%%%
 tutorial3 ego_weapon
@@ -370,9 +378,10 @@ Versuche, diesen Umhang anzuziehen, mit <input>$cmd[CMD_WEAR_ARMOUR]</input>
 %%%%
 tutorial3 wand_fire
 
-Du kannst einen Zauberstab <localtiles>mit einem
-<input>Mausklick</input> in der Inventarleiste</localtiles>evozieren, oder
-indem du <input>$cmd[CMD_EVOKE]</input> drückst.
+Du kannst einen Zauberstab evozieren, indem du <input>$cmd[CMD_EVOKE]</input>
+drückst<localtiles>, oder per <input>Mausklick</input> in die
+Inventarleiste</localtiles>.
+
 %%%%
 tutorial3 wand_digging
 
@@ -385,13 +394,14 @@ zu prüfen.
 tutorial3 amulet
 
 Schmuck wird mit <input>$cmd[CMD_WEAR_JEWELLERY]</input><localtiles> oder
-einem <input>Mausklick</input> in die Inventarleiste angelegt</localtiles>.
+einem <input>Mausklick</input> in die Inventarleiste </localtiles>
+angelegt.
 %%%%
 tutorial3 drop
 
 Dieses Amulett wäre sehr mächtig, wenn dein Charakter einen Gott verehren
-würde, aber hier und jetzt ist es nutzlos. Du möchtest es vielleicht fallen lassen,
-indem du <input>$cmd[CMD_DROP]</input><localtiles> drückst, oder per
+würde, aber hier und jetzt ist es nutzlos. Du möchtest es vielleicht fallen
+lassen, indem du <input>$cmd[CMD_DROP]</input> drückst<localtiles>, oder per
 <input>Shift-Links-Klick</input> darauf in der Inventarleiste</localtiles>.
 %%%%
 tutorial3 gold
@@ -410,7 +420,7 @@ Um diesen Laden zu betreten, drücke <input>$cmd[CMD_GO_UPSTAIRS]</input>
 <localtiles> oder <input>klicke</input> auf deinen Charakter</localtiles>. Um
 Gegenstände zu kaufen, wähle sie über ihre Buchstaben aus, drücke
 <input>Eingabe</input> und bestätige mit <input>j</input>a.
-Du kannst mit mit <input>!</input> in den Beschreibungs-Modus wechseln.
+Du kannst mit <input>!</input> in den Beschreibungs-Modus wechseln.
 %%%%
 tutorial3 autoexplore_reminder
 
@@ -420,12 +430,13 @@ den Button für Auto-Erkundung in der <w>Befehlsleiste</w></localtiles>.
 %%%%
 tutorial3 go_shopping
 
-Du hast genug Gold um im großen Stil einkaufen zu gehen. Der schnellste Weg zurück
-zum Laden ist es, nach ihm zu suchen. Gebe
-<input>$cmd[CMD_SEARCH_STASHES]</input> ein, dann „<w>shop</w>“. Wähle ein
+Du hast genug Gold um im großen Stil einkaufen zu gehen. Der schnellste Weg
+zurück zum Laden ist es, nach ihm zu suchen. Gebe
+<input>$cmd[CMD_SEARCH_STASHES]</input> ein, dann "<w>Laden</w>" oder
+"<w>laden</w>" (Groß/Kleinschreibung wird nicht beachtet). Wähle ein
 Suchergebnis aus, um die Reise zu beginnen.<localtiles> Du kannst auch auf den
-Suchen-Button in der Befehlsleiste <input>klicken</input> oder die Mini-Karte nutzen,
-um zum Laden zurückzukehren.</localtiles>
+Suchen-Button in der Befehlsleiste <input>klicken</input> oder die Mini-Karte
+nutzen, um zum Laden zurückzukehren.</localtiles>
 %%%%
 tutorial3 optional_battle
 
