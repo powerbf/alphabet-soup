@@ -489,7 +489,7 @@ finde Zauberbücher und hebe sie auf. Die Zauber werden deiner Zauberbibliothek 
 tutorial4 spellcasting
 
 Du kannst Zauber mit <input>$cmd[CMD_CAST_SPELL]</input> wirken<localtiles>, oder
-durch <input>Mausklick</input> auf die Kachel eines Zaubers </localtiles>.
+durch <input>Mausklick</input> auf die Kachel eines Zaubers</localtiles>.
 Drücke <input>$cmd[CMD_CAST_SPELL]?</input>, um deine Zauber aufzulisten.
 Du kannst Zauber genau wie Munition auch mit <input>$cmd[CMD_QUIVER_ITEM]</input>
 in den Köcher legen. Verwende <input>$cmd[CMD_FIRE]</input> oder <input>Shift-Tab</input>,
@@ -497,12 +497,12 @@ um den aktuell geköcherten Zauber abzufeuern.
 
 Wenn du keine Magiepunkte mehr hast, ziehe dich zurück und raste, um sie wiederherzustellen.
 Verwende dafür <input>$cmd[CMD_REST]</input><localtiles> oder
-<input>klicke</input> auf das Rasten-Symbol in der Befehlsleiste </localtiles>.
+<input>klicke</input> auf das Rasten-Symbol in der Befehlsleiste</localtiles>.
 %%%%
 tutorial4 ring_power
 
 Stecke diesen Ring an, mit <input>$cmd[CMD_WEAR_JEWELLERY]</input>
-<localtiles> oder per <input>Mausklick</input> in der Inventarleiste </localtiles>.
+<localtiles> oder per <input>Mausklick</input> in der Inventarleiste</localtiles>.
 Raste anschließend, um dein neues, volles Potenzial zu erreichen.
 %%%%
 tutorial4 undead
@@ -651,8 +651,8 @@ Schau dir den aktuellen Stand deines Glaubens mit
 <input>$cmd[CMD_DISPLAY_RELIGION]</input> an<localtiles> (oder über den
 <w>Religions-Button</w> in der Befehlsleiste, oder mit einem
 <input>Shift-Rechtsklick</input> auf deine Spielfigur)</localtiles>. Nochmals,
-wenn du <input>!</input><localtiles> drückst oder einen
-<input>Rechtsklick</input></localtiles> machst, bekommst du eine
+wenn du <input>!</input> drückst<localtiles> oder einen
+<input>Rechtsklick</input>machst</localtiles>, bekommst du eine
 detailliertere Beschreibung deines Gottes.
 %%%%
 tutorial5 piety_on_kill
@@ -689,7 +689,7 @@ tutorial5 exit
 
 :nowrap
 <yellow>Religions Befehle</yellow>
-  <input>$cmd[CMD_PRAY]</input>  bete an einem Altar, um dich einem Gott anzuschließen
+  <input>$cmd[CMD_GO_DOWNSTAIRS]</input>  bete an einem Altar, um dich einem Gott anzuschließen
   <input>$cmd[CMD_USE_ABILITY]</input>  benutze eine göttliche Fähigkeit
   <input>$cmd[CMD_DISPLAY_RELIGION]</input> den Stand deines Glaubens prüfen<localtiles>
   Ein <input>Rechtsklick</input> auf deine Spielfigur öffnet ebenfalls die Glaubensübersicht.</localtiles>
