@@ -15,22 +15,22 @@ Screaming Sword
 Wrath of Trog
 
 Eine blutverschmierte Axt, die die Lieblingswaffe des alten Gottes Trog war,
-bevor sie verloren ging. Sie löst im Kampf einen blutrünstigen
-Berserker-Wutanfall aus, obwohl einfache Sterbliche, die sie benutzen,
+bevor sie verloren ging. Sie löst im Kampf eine blutrünstige
+Berserkerwut aus, wobei einfache Sterbliche, die sie benutzen,
 vorübergehend von Trogs Macht überwältigt werden.
 %%%%
 mace of Variability
 
-Ein großer Streitkolben, der entstanden sein soll, als Xom die
+Ein großer Streitkolben, der entstanden sein soll, als Xom von der
 Vorhersehbarkeit gewöhnlicher Instrumente des Chaos gelangweilt war.
 %%%%
 glaive of Prune
 
-Eine violette Klinge, die von einem verrückten Gott geschaffen wurde und einen
+Eine violette Gleve, die von einem verrückten Gott geschaffen wurde und einen
 Fluch trägt, der jeden, der sie benutzt, in eine Pflaume verwandelt.
-Glücklicherweise wirkt der Fluch sehr langsam und man kann es kurzzeitig
-benutzen, ohne dass es schlimmere Folgen als leicht lila Haut und ein paar
-Falten hat.
+Glücklicherweise wirkt der Fluch sehr langsam und man kann sie kurzzeitig
+benutzen, ohne schlimmere Folgen als leicht lila gefärbte Haut und ein paar
+Falten.
 %%%%
 sword of Power
 
@@ -39,13 +39,13 @@ Schwäche belohnt.
 %%%%
 staff of Olgreb
 
-Ein Stab, der einst von dem mächtigen Zauberer Olgreb geschwungen wurde.
+Ein Stab, der einst vom mächtigen Zauberer Olgreb geschwungen wurde.
 %%%%
 staff of Wucad Mu
 
-Ein kristallener Stab voller magischer Energien, der von einem geschickten
-Träger so kanalisiert werden kann, dass er Zauber wirken kann, ohne seine
-eigenen magischen Energien zu verbrauchen - auf die Gefahr hin, dass der Geist
+Ein kristallener Stab voller magischer Energien, die von einem geschickten
+Träger so kanalisiert werden können, dass er Zauber wirken kann, ohne seine
+eigene magische Energie zu verbrauchen - auf die Gefahr hin, dass der Geist
 des Benutzers Schaden nimmt.
 %%%%
 Vampire's Tooth
@@ -62,8 +62,8 @@ Anwender als auch seinen Feinden zufügt.
 sceptre of Torment
 
 Ein verfluchtes Knochenzepter, das von einer unbekannten höllischen Macht
-geschaffen wurde. Wenn es im Kampf eingesetzt wird, verursacht es bei allen,
-die das Pech haben, es zu sehen, qualvolle Schmerzen, außer bei seinem Träger.
+geschaffen wurde. Wenn es im Kampf eingesetzt wird, verursacht es qualvolle
+Schmerzen bei allen, die das Pech haben, es zu sehen, außer bei seinem Träger.
 %%%%
 sword of Zonguldrok
 
@@ -73,7 +73,7 @@ wiederbelebt und gezwungen, weiterzukämpfen.
 %%%%
 sword of Cerebov
 
-Eine verdrehte Klinge, bedeckt mit unheimlichen Flammen. Ihre dämonische Kraft
+Eine gewundene Klinge, bedeckt mit unheimlichen Flammen. Ihre dämonische Kraft
 verbrennt die Essenz der Getroffenen.
 %%%%
 staff of Dispater
@@ -83,7 +83,7 @@ allerdings nicht, ohne dabei die Lebenskraft des Trägers zu entziehen.
 %%%%
 sceptre of Asmodeus
 
-Ein leuchtendes rubinrotes Zepter, das einige der Kräfte des Erzfeindes
+Ein leuchtendes rubinrotes Zepter, das einige der Kräfte des Erzdämons
 Asmodäus in sich trägt. Es kann verwendet werden, um feurige Dämonen aus
 ihrer höllischen Heimat herbeizurufen, damit sie die Befehle des Trägers
 ausführen, obwohl ihre wahre Loyalität nur Asmodäus selbst gilt.
@@ -93,18 +93,18 @@ faerie dragon scales
 Eine verzauberte Rüstung, die aus den Schuppen einer seltenen Drachenrasse
 gefertigt wurde, von der man heute annimmt, dass sie ausgestorben ist. Dieses
 wertvolle Relikt ist nun einer der letzten Beweise dafür, dass die
-farbenprächtigen Feen-Drachen jemals existiert haben.
+farbenprächtigen Feendrachen jemals existiert haben.
 %%%%
 demon blade "Leech"
 
 Eine Klinge, die in der Hölle durch die Opferung unzähliger gequälter Seelen
 geschmiedet wurde. Sie erfüllt ihren Träger mit der Wut und dem Leid dieser
-Seelen und ernährt sich bei jedem Schlag von der entzogenen Lebenskraft und
+Seelen, schwelgt bei jedem Schlag in der entzogenen Lebenskraft und
 hinterlässt ein Chaos aus Blut und Innereien.
 %%%%
 dagger "Morg"
 
-Ein hässlicher rostiger Dolch. Vor vielen Jahren war er im Besitz eines
+Ein hässlicher rostiger Dolch. Vor vielen Jahren befand er sich im Besitz eines
 mächtigen Magiers namens Boris. Er verirrte sich auf der Suche nach der Kugel
 im Kerker.
 %%%%
@@ -115,8 +115,8 @@ kann. Ihre außergewöhnliche Schnelligkeit ist das Werk eines verrückten
 Zauberers, der Jahre damit verbrachte, sie zu verfeinern, bevor er sie in einem
 Anfall von Wut wegwarf.
 
-Die Klinge gibt ein leises, unheimliches Geräusch von sich, wenn sie durch die
-Luft schneidet.
+Die Klinge gibt ein leises Wehklagen von sich, während sie die Luft
+durchschneidet.
 %%%%
 sling "Punk"
 
@@ -126,9 +126,9 @@ sie inzwischen in weniger angenehme Hände geraten.
 %%%%
 longbow "Zephyr"
 
-Dieser Bogen wurde aus der Luft selbst gewoben von Eiolaiphi, der Luftmagierin,
+Dieser Bogen wurde von Eiolaiphi der Luftmagierin aus der Luft selbst gewoben,
 als Geschenk für eines der Kinder von Uskayaw. Der Bogen kann mit
-unglaublicher Geschwindigkeit gezogen werden, und er schießt schnell und
+unglaublicher Geschwindigkeit gespannt werden und schießt schnell und
 präzise. Außerdem ist er nahezu unzerstörbar, was ein Glück ist, da der
 ursprüngliche Besitzer von eifersüchtigen Feiernden in Stücke gerissen wurde.
 %%%%
@@ -151,20 +151,20 @@ ausreichend sein.
 %%%%
 zealot's sword
 
-Ein Schwert, das aus einem einzigen riesigen Stück Kristall gefertigt ist. Die
-Legende besagt, dass es das Geschenk des Strahlenden an einen Anbeter war.
-Diese Klinge ist berüchtigt dafür, blutrünstige Wut sowohl bei ihrem Träger
-als auch bei allen ihren sterblichen Anhängern auszulösen.
+Ein Schwert, aus einem einzigen riesigen Stück Kristall gefertigt. Die
+Legende besagt, dass es das Geschenk des Strahlenden an einen Gläubigen war.
+Diese Klinge ist berüchtigt dafür, sowohl bei ihrem Träger als auch bei all
+seinen sterblichen Anhängern blutrünstige Wut auszulösen.
 %%%%
 arbalest "Damnation"
 
-Eine unheilige Armbrust, geschmiedet in den Feuern der Gehenna. Die Bolzen, die
+Eine unheilige Armbrust, geschmiedet in den Feuern von Gehenna. Die Bolzen, die
 sie abfeuert, sind mit der rohen Kraft ihres Namensgebers ausgestattet.
 %%%%
 morningstar "Eos"
 
 Ein juwelenbesetzter Morgenstern, der hell im Licht der Morgendämmerung
-leuchtet. Er erhellt die Nischen des Kerkers und enthüllt die Machenschaften
+leuchtet. Er beleuchtet die Nischen des Kerkers und enthüllt die Machenschaften
 derer, die lieber unsichtbar bleiben würden.
 %%%%
 trident of the Octopus King
@@ -182,52 +182,52 @@ Elemental Staff
 
 Ein mächtiger Stab, der einst dem Anführer der Gilde der Fünf Elemente
 gehörte. Er ist mit schützenden und offensiven Verbesserungen aus allen
-Elementarmagieschulen ausgestattet.
+Schulen der Elementarmagie ausgestattet.
 %%%%
 heavy crossbow "Sniper"
 
 Die heilige Waffe von Toth-Mos, dem ersten Apostel des Gottes Eschenzari. Sie
 gewährt dem Träger einen Bruchteil von Aschenzaris eigenem Sehvermögen und
-stellt sicher, dass jeder Schuss richtig landet.
+stellt sicher, dass jeder Schuss sein Ziel trifft.
 %%%%
 lance "Wyrmbane"
 
-Eine verzauberte Lanze, die für die gesamte Drachenwelt tödlich ist. Sie wird
-jedes Mal mächtiger, wenn sie einem starken Drachen einen tödlichen Schlag
+Eine verzauberte Lanze, die für alle Arten von Drachen tödlich ist. Sie
+wird jedes Mal mächtiger, wenn sie einem starken Drachen den Todesstoß
 versetzt. Je mächtiger sie wird, desto schwieriger wird es, einen würdigen
 Gegner zu finden.
 %%%%
 Spriggan's Knife
 
 Ein zierliches kleines Messer, das von Spriggans, oder für Spriggans, oder
-möglicherweise von Spriggans hergestellt wurde. Jedenfalls steht es in
-irgendeiner Weise mit diesem Fee-Volk in Verbindung.
+möglicherweise aus Spriggans hergestellt wurde. Jedenfalls steht es in
+irgendeiner Weise mit diesem Feenvolk in Verbindung.
 %%%%
 plutonium sword
 
-Ein Dreifach-Schwert aus seltsam glühendem Metall. Es bestrahlt diejenigen,
-die es trifft, und verursacht eine Reihe von unvorhersehbaren Effekten -
+Ein Dreifach-Schwert aus seltsam glühendem Metall. Es verstrahlt diejenigen,
+die es trifft und verursacht eine Reihe von unvorhersehbaren Effekten -
 vorausgesetzt, sie überleben den Aufprall der Klinge selbst.
 %%%%
 great mace "Undeadhunter"
 
-Eine Waffe, die mit Magie durchdrungen ist, um die Kräfte zu unterbrechen und
-zu zerstören, die untote Kreaturen zusammenhalten. Die Legende besagt, dass
+Eine Waffe, die von Magie durchdrungen ist, die jene Kräfte bricht und
+zerstört, die untote Kreaturen zusammenhalten. Die Legende besagt, dass
 ein Lich-Lord vor langer Zeit viele solcher Waffen schuf, um sich die Treue
 seiner untoten Diener zu sichern. Leider könnte dieser Streitkolben der letzte
 sein, der noch übrig ist.
 %%%%
 whip "Snakebite"
 
-Eine doppelendige Peitsche, die aus den gepökelten Häuten schwarzer Mambas
-hergestellt und mit Giften - von gewöhnlichen Giften bis hin zu erstickendem
-Curare - verzaubert wurde.
+Eine doppelendige Peitsche, die aus den gegerbten Häuten schwarzer Mambas
+hergestellt und mit Toxinen verzaubert wurde, die von gewöhnlichen Gift bis
+hin zu erstickendem Curare reichen.
 %%%%
 captain's cutlass
 
-Eine berüchtigte Waffe, mit der einst ein abscheulicher Piratenkapitän
+Eine berüchtigte Waffe, mit der ein abscheulicher Piratenkapitän einst
 unzählige Unschuldige abschlachtete. Sein Schicksal ereilte ihn schließlich,
-als ein Krake sein Schiff verschlang und man glaubte, das Entermesser sei mit
+als ein Krake sein Schiff verschlang. Man glaubte, das Entermesser sei mit
 ihm verloren.
 %%%%
 storm bow
@@ -238,55 +238,55 @@ verschießt.
 tower shield of Ignorance
 
 Ein Schild, der in den Überresten einer zerstörten Stadt ausgegraben wurde.
-Er trägt eine Inschrift in einer alten Sprache. Gelehrte und weise Männer
-arbeiteten unzählige Stunden daran, sie zu entziffern, und mit der Zeit
+Er trägt eine Inschrift in einer uralten Sprache. Gelehrte und weise Männer
+arbeiteten unzählige Stunden daran, sie zu entziffern und mit der Zeit
 einigte man sich schließlich auf eine Übersetzung:
 
-"Mit einem Schild wie diesem braucht man nicht zu denken."
+"Wer braucht noch zu denken, mit einem Schild wie diesem?"
 %%%%
 robe of Augmentation
 
-Eine bunte Robe, gewebt mit Verzauberungen, um die körperlichen und geistigen
-Fähigkeiten des Trägers zu verbessern. Ihre Schöpfer haben Haarsträhnen von
-hundert verschiedenen Tieren eingewebt, von denen jedes für die einzigartigen
-Kräfte ausgewählt wurde, die es dem Träger der Robe verleihen kann.
+Eine bunte Robe, durchwebt mit Verzauberungen, welche die körperlichen und
+geistigen Fähigkeiten des Trägers verbessern. Ihre Schöpfer haben Haarsträhnen
+von hundert verschiedenen Tieren eingewebt, von denen jedes aufgrund der
+einzigartigen Stärken ausgewählt wurde, die es dem Träger der Robe verleihen
+kann.
 %%%%
 cloak of the Thief
 
-Ein pechschwarzer Umhang, der seinem Träger erlaubt, sich in der Kunst des
-Diebstahls auszuzeichnen. Als Vorsichtsmaßnahme für den Fall, dass er
-entdeckt wird, ist er außerdem mit einer Verzauberung versehen, die es dem
-Träger ermöglicht, sich im Schutz des Nebels schnell zurückzuziehen.
+Ein pechschwarzer Umhang, der seinen Träger zu Meisterleistungen in der Kunst
+des Diebstahls befähigt. Als Vorsichtsmaßnahme für den Fall, dass er entdeckt
+wird, sind außerdem Verzauberungen eingebracht, die dem Träger einen schnellen
+Rückzug im Schutz des Nebels ermöglichen.
 %%%%
 crown of Dyrovepreva
 
 Ein großes Diadem aus matter Bronze, besetzt mit einer Reihe von schillernden
-Edelsteinen. Er wurde zuerst von einem Titanenfürsten getragen, der Schutz vor
-den ständigen Kriegen zwischen seinen Mitfürsten suchte. In der Praxis
+Edelsteinen. Es wurde zuerst von einem Titanenfürsten getragen, der Schutz vor
+den ständigen Kriegereien zwischen seinen Mitfürsten suchte. In der Praxis
 bestand die Hauptwirkung des Artefakts darin, seine Rivalen gegen ihn zu
 vereinen.
 %%%%
 hat of the Bear Spirit
 
-Eine Pelzmütze, die einst Ukta, einem mächtigen Ogerschamanen, gehörte. Er
+Eine Pelzmütze, die einst Ukta, einem mächtigen Ogerschamanen, gehörte. Sie
 beherbergt den Geist eines besonders mächtigen Bären.
 %%%%
 robe of Misfortune
 
-Eine prächtige, fließende Robe aus Pelz und Seide, dessen Glücksfarbe
+Eine prächtige, fließende Robe aus Pelz und Seide, deren Glücksfarbe
 verblasst ist.
 %%%%
 hood of the Assassin
 
 Eine weiche Kapuze, die von Mitgliedern der Assassinengilde verzaubert wurde,
-um dem Träger zu ermöglichen, potenzielle Opfer in der Nähe zu spüren und
-Schwachstellen leicht zu erkennen, wenn er sich ihnen nähert.
+um es dem Träger zu ermöglichen, potenzielle Opfer in der Nähe zu spüren und
+leicht Schwachstellen zu erkennen, wenn er sich ihnen nähert.
 %%%%
 Lear's hauberk
 
 Ein gut gefertigter goldener Kettenpanzer, der alle Körperteile seines
-Trägers bedeckt. Er umfasst ein Kettenhemd, Chausseen und Stulpen aus
-Kettengeflecht.
+Trägers bedeckt. Er enthält eine Kettenhaube, Beinlinge und Kettenhandschuhe.
 %%%%
 skin of Zhor
 
@@ -295,47 +295,47 @@ Die {{
        return "stinkende "
    end
 }}Haut eines seltsamen Tieres, das in kalten und fernen Ländern heimisch ist.
-Sie strahlt die Kälte ihres Lebensraums aus.
+Sie strahlt die Kälte seines natürlichen Lebensraums aus.
 
 %%%%
 salamander hide armour
 
 Die meisten Salamanderkörper werden den feurigen Tiefen überlassen, denen sie
 entstiegen sind. In seltenen Fällen bewahren Salamander jedoch die Häute
-derer, die von ihnen gegangen sind. Die Runen und Verzierungen auf diesem Fell
-lassen darauf schließen, dass es einst einem angesehenen Krieger oder Priester
-- vielleicht sogar einem König - gehörte. Der feurige Geist bleibt in der
-Haut und verleiht dem Träger seine Macht.
+derer, die von ihnen gegangen sind. Die Runen und Verzierungen auf dieser Haut
+lassen darauf schließen, dass sie einst einem angesehenen Krieger oder Priester
+- vielleicht sogar einem König - gehörte. Der feurige Geist wohnt der Haut
+noch immer inne und verleiht dem Träger seine Macht.
 %%%%
 gauntlets of War
 
-Ein Paar dicke stählerne Stulpen. Sie waren die Belohnung von Okawaru für
+Ein Paar dicke stählerne Stulpen. Sie waren Okawarus Belohnung für
 einen mächtigen Kriegsherrn. Der Besitzer ist dazu bestimmt, im Kampf zu
 sterben, aber was für ein Tod wird das sein!
 %%%%
 shield of Resistance
 
 Ein Bronzeschild, das fast genauso aussieht wie der Panzer einer Schildkröte.
-Er wurde von den Anhängern eines obskuren Kleinglaubens gebaut, die ihn mit
+Er wurde von den Anhängern eines obskuren Kleinglaubens gefertigt, die ihn mit
 der Macht ihres Gottes durchtränkten. Wie der Gott, so schützt auch dieser
 Schild vor Schwert und Schleuder, Frost und Flammen.
 %%%%
 robe of Folly
 
-Eine matte graue Robe. Sie ist verzaubert, um Magiern unermessliche Macht und
-mehr als nur ein wenig Selbstvertrauen zu verleihen...
+Eine matte graue Robe. Ihre Verzauberung verleiht Magiern unermessliche Macht
+und mehr als nur ein wenig Selbstüberschätzung...
 %%%%
 Maxwell's patent armour
 
 Eine von dem berühmten Erfinder Maxwell entworfene Rüstung, die
 unvergleichliche Schutzeigenschaften zu einem sehr günstigen Preis bietet.
-Seine unorthodoxen Materialien führten zu gewissen Mängeln, aber er hat noch
-niemanden um eine Rückerstattung bitten lassen.
+Seine unorthodoxen Materialien führten zu gewissen Mängeln, aber bisher kam
+noch niemand zurück, um sich den Kaufpreis erstatten zu lassen.
 %%%%
 mask of the Dragon
 
 Die Maske des Hohepriesters des alten Erebora. In alten Zeiten erhörten die
-Götter der Ereboraner ihre Gebete nicht mehr, und in ihrer Verzweiflung
+Götter der Ereboraner ihre Gebete nicht mehr und in ihrer Verzweiflung
 wandten sich die Menschen der verbotenen Anbetung von Drachen zu. Heute ist von
 ihren Werken nur noch diese Maske übrig.
 %%%%
@@ -356,7 +356,7 @@ geblieben ist.
 %%%%
 hat of the Alchemist
 
-Ein schmutziger Hut. Er weist Anzeichen dafür auf, dass er viele seltsame
+Ein schmutziger Hut. Er weist Anzeichen dafür auf, dass er viele sonderbare
 Explosionen überlebt hat, was darauf schließen lässt, dass er den Kopf im
 Inneren vor den Risiken alchemistischer Experimente schützen kann.
 %%%%
@@ -367,8 +367,9 @@ Ein Paar Handschuhe aus weißer Seide.
 cloak of Starlight
 
 Ein phosphoreszierender Umhang, gewebt aus reinen Lichtstrahlen. Die Wellen
-seiner Falten, wenn der Träger im Kampf springt und ausweicht, können
-diejenigen, die ihn betrachten, blenden.
+seiner Falten können diejenigen blenden, die den Träger betrachten, wenn er
+im Kampf springt und ausweicht.
+
 %%%%
 ratskin cloak
 
@@ -379,7 +380,7 @@ irgendwie darin verborgen und können heraushuschen, um dem Träger zu helfen.
 shield of the Gong
 
 Ein schwerer Bronzegong, der als Schild getragen werden kann. Einigen Mystikern
-zufolge kann das Schlagen auf einen solchen Gong dem Träger geistigen Schutz
+zufolge kann das Schlagen auf einen solchen Gong dem Träger spirituellen Schutz
 gewähren.
 %%%%
 amulet of the Air
@@ -390,7 +391,7 @@ eines: eine ruhige Hand.
 %%%%
 ring of Shadows
 
-Ein schwarzer Ring, der seinen Träger eins mit den Schatten machen kann.
+Ein schwarzer Ring, der seinen Träger eins mit den Schatten werden lässt.
 %%%%
 amulet of the Four Winds
 
@@ -404,12 +405,12 @@ etwas, das ein Stück Rückgrat zu sein scheint.
 %%%%
 ring of the Hare
 
-Ein schlichter Malachitring, die Hälfte eines alten Paares. Sein Träger ist
+Ein schlichter Malachitring, die Hälfte eines uralten Paares. Sein Träger ist
 außergewöhnlich schwer zu fassen.
 %%%%
 ring of the Tortoise
 
-Ein grob behauener Aquamarinring, die Hälfte eines alten Paares. Sein Träger
+Ein grob behauener Aquamarinring, die Hälfte eines uralten Paares. Sein Träger
 ist außergewöhnlich schwer zu verletzen.
 %%%%
 ring of the Mage
@@ -421,12 +422,12 @@ brooch of Shielding
 
 Eine Brosche mit einem komplizierten Intarsienmuster, das eine Reihe von
 magischen Schutzfunktionen bietet. In den guten alten Zeiten besaß jeder
-Abenteurer eines dieser praktischen Geräte. Das, und ein Pony.
+Abenteurer eines dieser praktischen Geräte. Und dazu noch ein Pony.
 %%%%
 robe of Clouds
 
 Eine Robe aus einem Material, das so nebulös und substanzlos ist wie die
-Wolken. Die Falten können zu einem wütenden Sturm verwirbelt werden.
+Wolken. Die Falten lassen sich zu einem wütenden Sturm verwirbeln.
 %%%%
 hat of Pondering
 
@@ -437,17 +438,17 @@ von Salz zu schützen.
 %%%%
 obsidian axe
 
-Eine Axt mit einem mächtigen Fluch, den einer der Herren von Pandemonium auf
+Eine Axt mit einem mächtigen Fluch, den einer der Fürsten des Pandämoniums auf
 sie gelegt hat, damit ahnungslose Abenteurer Dämonen in dieser Welt
-entfesseln. Vorsicht, denn sie hat Wege, ihren Träger unter ihre Kontrolle zu
-bringen...
+entfesseln. Vorsicht, denn sie ist in der Lage, ihren Träger unter ihre
+Kontrolle zu bringen...
 %%%%
 lightning scales
 
 Eine Reihe von Panzerplatten, die zum Schutz einer Kreatur mit einem langen,
-schuppigen Unterkörper zusammengesetzt sind. Sie knistern leicht mit
-Elektrizität und erhöhen die Fähigkeit ihres Trägers, Distanzen zu
-überwinden.
+schuppigen Unterkörper zusammengesetzt sind. Sie knistern leise mit
+Elektrizität und erhöhen die Fähigkeit ihres Trägers, Entfernungen
+zurückzulegen.
 %%%%
 Black Knight's barding
 
@@ -463,8 +464,8 @@ amulet of Vitality
 Ein juwelenbesetztes Amulett, das für seine Kräfte der Widerstandsfähigkeit
 und Regeneration berühmt ist. Seine größte Berühmtheit erlangte es durch
 die Verwendung von der gefürchteten Nekromantin Borgnjor, die sich darauf
-verließ, um ihr knappes Leben zu erhalten. Nach ihrem endgültigen Ableben
-verschwand das Amulett aus den Seiten der Geschichte.
+verließ, um ihren schwachen Halt am Leben zu bewahren. Nach ihrem endgültigen
+Ableben verschwand das Amulett aus den Seiten der Geschichte.
 %%%%
 autumn katana
 
@@ -474,7 +475,7 @@ geistige als auch körperliche Stärke zu verleihen.
 %%%%
 shillelagh "Devastator"
 
-Ein hölzerner Knüppel, der mit mehr als nur Blei geladen ist.
+Ein hölzerner Knüppel, der mit mehr als nur Blei gefüllt ist.
 %%%%
 dragonskin cloak
 
@@ -484,39 +485,40 @@ unzuverlässig.
 %%%%
 ring of the Octopus King
 
-Einer der acht Ringe, die der Krakenkönig einst trug und die nun über das
+Einer der acht Ringe, die der Oktopuskönig einst trug und die nun über das
 Land verstreut sind. Jeder hat seine eigene einzigartige Verzauberung.
 %%%%
 Axe of Woe
 
-Wenn man diese Axt in der Hand hält, fühlt sich der Verstand nicht mehr ganz
-wie der eigene an. Sein Körper beginnt, eine Kraft zu entwickeln, die weit
-über seine Fähigkeiten hinausgeht, und seine Bewegungen werden von Makhleb
+Während du diese Axt in der Hand hältst, fühlt sich dein Verstand nicht mehr
+ganz wie dein eigener an. Dein Körper beginnt, eine Kraft zu entwickeln, die
+weit über seine Fähigkeiten hinausgeht und deine Bewegungen werden von Makhleb
 geleitet.
 %%%%
 moon troll leather armour
 
 Eine Rüstung, die Gerüchten zufolge durch Verzauberung der Haut einer
-inzwischen ausgestorbenen Trollart hergestellt wurde. Ob der Name wahr ist oder
-nur der Mystik wegen gewählt wurde, ist ein Rätsel. Die der Rüstung
+inzwischen ausgestorbenen Art von Troll hergestellt wurde. Ob der Name wahr
+ist oder nur der Mystik wegen gewählt wurde, ist ein Rätsel. Die der Rüstung
 innewohnenden Kräfte der Regeneration und des magischen Schutzes sind jedoch
 kaum zu bestreiten.
 %%%%
 macabre finger necklace
 
-Ein hässlicher baumelnder Finger an einer Schnur. Mit einem Ring würde er
-besser aussehen.
+Ein hässlicher baumelnder Finger an einer Schnur. Mit einem Ring auf ihm
+würde er besser aussehen.
 %%%%
 dark maul
 
-Ein großer, eisenbeschlagener Hammer, der darauf spezialisiert ist, gewaltige
-Schläge auszuführen. Diese Kraft hat ihren Preis: Der Kopf des Hammers ist so
-schwer, dass es sehr lange dauert, ihn für einen weiteren Schlag anzuheben.
+Ein großer, eisenbeschlagener Kriegshammer, der speziell darauf ausgelegt ist,
+gewaltige Schläge auszuteilen. Diese Kraft hat ihren Preis: Der Kopf des Hammers
+ist so schwer, dass es sehr lange dauert, ihn für einen weiteren Schlag zu
+heben.
 %%%%
 arc blade
 
-Eine Klinge, die irgendwie aus reiner Elektrizität gefertigt ist. Sie erzeugt
-wilde Lichtbögen zwischen dem Anwender und seinen Gegnern, während sie
+Eine Klinge, die irgendwie aus reiner Elektrizität gefertigt wurde. Sie lässt
+wilde Lichtbögen zwischen dem Anwender und seinen Gegnern springen, während sie
 zuschlägt.
 %%%%
 demon whip "Spellbinder"
@@ -527,32 +529,32 @@ Magie um sie herum.
 %%%%
 lajatang of Order
 
-Ein Lajatang mit Silberklinge, der einst einem beliebten Verehrer von Zin
+Ein Lajatang mit Silberklinge, der einst einem geschätzten Verehrer von Zin
 verliehen wurde. Er wurde zur wertvollsten Waffe der vielen Priester von Zin.
 Nach der Zerstörung ihres Ordens wurde er nicht mehr benutzt und verschwand
 aus der Geschichte.
 %%%%
 great mace "Firestarter"
 
-Ein riesiger Streitkolben, der mit mächtiger Feuermagie durchdrungen ist. Er
+Ein riesiger, von mächtiger Feuermagie durchdrungener Streitkolben. Er
 erfüllt diejenigen, die er trifft, mit einer inneren Flamme und bietet einen
 gewissen Schutz gegen die daraus resultierende Verwüstung.
 %%%%
 orange crystal plate armour
 
-Eine aus transparentem orangefarbenem Kristall geschnitzte Rüstung. Sie bietet
-bemerkenswerten Schutz für Körper und Geist. Der Träger kann sogar
-psychische Energien durch den Kristall selbst kanalisieren und so seine
-magischen Fähigkeiten verstärken. Allerdings ist sie ziemlich schwer...
+Eine aus transparentem orangefarbenem Kristall gemeißelte Rüstung. Sie bietet
+bemerkenswerten Schutz sowohl für den Geist als auch für den Körper. Der Träger
+kann sogar psychische Energien durch den Kristall selbst kanalisieren und so
+seine magischen Fähigkeiten verstärken. Allerdings ist sie ziemlich schwer...
 %%%%
 Majin-Bo
 
-Ein Stab, der von einer mächtigen Dämonin bewohnt wird, die vor langer
-Zeit in dieser Form gefangen wurde. Um zu überleben, bietet sie nun große
-arkane Macht in einem schrecklichen Handel an: Im Austausch für einen winzigen
-Teil der Lebensessenz des Zaubernden, die jedes Mal entnommen wird, wenn sein
-Träger einen Zauber wirkt, wird sie gelegentlich die Lebensessenz von
-Kreaturen, die durch den Zauber geschädigt wurden, auf den Zaubernden umleiten.
+Ein Stab, der von einer mächtigen Dämonin bewohnt wird, die vor langer Zeit in
+dieser Form gefangen wurde. Um zu überleben, bietet sie nun große arkane Macht
+in einem schrecklichen Handel an: Im Austausch für einen winzigen Teil der
+Lebensessenz des Trägers, die jedes Mal entnommen wird, wenn er einen Zauber
+wirkt, leitet sie gelegentlich die Lebensessenz von Kreaturen, die durch den
+Zauber geschädigt wurden, auf den Zaubernden um.
 %%%%
 pair of quick blades "Gyre" and "Gimble"
 
@@ -562,28 +564,28 @@ eigenen Willen hätten.
 %%%%
 robe of Vines
 
-Eine Robe, die aus lebenden Ranken gewebt ist. Die Reben gehen mit ihrem
+Eine Robe, die aus lebenden Ranken geflochten wurde. Die Reben gehen mit ihrem
 Träger eine symbiotische Beziehung ein, die seine Regeneration stark erhöht,
 ihn aber daran hindert, durch Tränke geheilt zu werden.
 %%%%
 Kryia's mail coat
 
-Eine Rüstung, die für Königin Kryia in ihrem hohen Alter geschmiedet worden
-sein soll. Sie bestand bis ins hohe Alter darauf, ihre Armeen von der Front aus
-anzuführen, und als ihr alternder Körper sie im Stich ließ, trug dieser
-Mantel dazu bei, die Heilungstropfen zu verstärken, die sie am Leben hielten.
+Eine Rüstung, die für Königin Kryia im hohen Alter geschmiedet worden sein soll.
+Sie bestand selbst als Greisin noch darauf, ihre Armeen von der Front aus
+anzuführen. Als ihr alternder Körper sie im Stich ließ, trug dieser Panzer
+dazu bei, die Heiltränke zu verstärken, die sie am Leben hielten.
 %%%%
 frozen axe "Frostbite"
 
-Eine massive Axt, die aussieht, als sei sie aus einem Gletscher geschnitzt oder
-vielleicht sogar von einem Gletscher gekalbt worden. Sie hinterlässt
-Eiskristalle in ihrem Kielwasser, wenn sie durch die Luft schwingt.
+Eine massive Axt, die aussieht, als sei sie aus einem Gletscher geschlagen oder
+vielleicht sogar von ihm gekalbt worden. Sie hinterlässt eine Spur von
+Eiskristallen, wenn sie durch die Luft schwingt.
 %%%%
 warlock's mirror
 
 Eine in der Hand gehaltene Anordnung von sechseckigen Spiegeln, die aus einer
 wahrhaft exotischen Substanz synthetisiert und auf einen blendenden Glanz
-poliert wurden. Es ist in der Lage, fast jeden Angriff zu reflektieren.
+poliert wurden. Er ist in der Lage, fast jeden Angriff zu reflektieren.
 %%%%
 amulet of invisibility
 
@@ -592,20 +594,20 @@ Ein Amulett, das aktiviert werden kann, um seinen Träger unsichtbar zu machen.
 Maxwell's thermic engine
 
 Ein seltsames Schwert, dessen eine Klinge glühend heiß und die andere eiskalt
-ist. Wenn es sein Ziel trifft, verstärkt sich der Wärmegradient. Was diesen
+ist. Wenn es sein Ziel trifft, verstärkt sich das Temperaturgefälle. Was diesen
 Effekt verursacht, ist unbekannt, aber es wird gemunkelt, dass jenseitige
 Kräfte im Spiel sind.
 %%%%
 demon trident "Rift"
 
 Eine kleine Falte im Gewebe der Realität, die von einem verrückten
-Gefolgsmann Lugonus magisch an einen Schaft gebunden wurde. Seine Angriffe
-können sich auf Befehl des Trägers durch den nahen Raum verformen.
+Diener Lugonus magisch an einen Schaft gebunden wurde. Seine Angriffe
+können sich auf Befehl des Trägers durch den nahen Raum verzerren.
 %%%%
 staff of Battle
 
 Ein Stab, umhüllt von farbenprächtigen Schuppen, gefertigt von einem
-längst vergessenen Zauberer. Es war das Lieblingsspielzeug des Magiers
+längst vergessenen Zauberer. Es war das Lieblingsspielzeug der Magierin
 Iskenderun.
 %%%%
 Cigotuvi's embrace
@@ -620,5 +622,5 @@ seven-league boots
 Ein verzaubertes Paar Stiefel, das die Fähigkeit verleiht, Schritte von
 unglaublicher Länge zu machen, solange der Träger mutig auf seine Feinde
 zugeht. Sie erlauben es dem Träger, sich mit einem einzigen Schritt in den
-Kampf zu stürzen, auch wenn es unmöglich ist, bei solchen Schritten heimlich
-zu bleiben.
+Kampf zu stürzen, auch wenn es unmöglich ist, solche Schritten heimlich
+zu machen.
