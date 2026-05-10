@@ -152,7 +152,7 @@ unreine Wesen werden von starken und schädlichen Effekten getroffen, Untote und
 Dämonen von schwächeren Zurechtweisungen und alle anderen intelligenten
 Kreaturen werden mit Verwirrung gestraft, wobei Ketzer und Priester anderer
 Götter als Zin viel stärker bestraft werden. Die Wirksamkeit der Rezitation
-wird durch die Fertigkeit Anrufungen und durch Frömmigkeit erhöht.
+wird durch die Fertigkeit Anrufungen und durch Pietät erhöht.
 %%%%
 Vitalisation ability
 
@@ -217,7 +217,7 @@ Torment ability
 Opfert einen Kadaver, um allen Lebewesen in Sichtweite alle Schmerzen
 zuzufügen, die jenes Wesen in seinem Leben erlitten hat. Dieser Schaden ist
 niemals direkt tödlich. Kikubaaqudgha kann dich vor diesem Effekt schützen,
-je nach deiner Frömmigkeit.
+je nach deiner Pietät.
 .
 %%%%
 Brand Weapon With Pain ability
@@ -247,7 +247,7 @@ Umgebung zurück.
 Injury Mirror ability
 
 Reflektiert den erlittenen Schaden für eine kurze Dauer, wodurch Angreifer jedes
-Mal verletzt werden, wenn du Schaden nimmst und deine Frömmigkeit in
+Mal verletzt werden, wenn du Schaden nimmst und deine Pietät in
 Abhängigkeit von der Höhe des erlittenen Schadens reduziert wird.
 %%%%
 Animate Dead ability
@@ -350,7 +350,7 @@ Divine Protection ability
 Fleht Elyvilon an, dein Leben zu retten. Wenn du tödlich verwundet wirst, kann
 der Heiler den tödlichen Schlag rückgängig machen. Besonders fromme Gläubige
 können sich dieser Hilfe sicher sein, aber in diesem Fall kostet jedes
-Eingreifen Frömmigkeit (im Gegensatz zum bloßen Bitten um Hilfe, das immer
+Eingreifen Pietät (im Gegensatz zum bloßen Bitten um Hilfe, das immer
 kostenlos ist). Tötest du andere, während du um göttlichen Schutz
 bittest, so musst du Buße tun.
 %%%%
@@ -378,7 +378,7 @@ geistlose Kreaturen sind zu einfältig, um besänftigt zu werden und kein
 Monster kann besänftigt werden, wenn es schläft.
 
 Unabhängig davon, ob die Besänftigung erfolgreich ist oder nicht, werden die
-investierten Frömmigkeits- und Magiepunkte verbraucht. Wenn es gelingt, wird das
+investierten Pietäts- und Magiepunkte verbraucht. Wenn es gelingt, wird das
 Monster geheilt und du erhältst die Hälfte des Erfahrungswerts des Monsters.
 Andernfalls wird das Monster nicht beeinflusst und du erhältst keine Erfahrung.
 %%%%
@@ -386,7 +386,7 @@ Greater Healing ability
 
 Heilt eine mäßige Menge an Gesundheit, je nach Anrufungsfertigkeit. Größere
 Heilung heilt etwa dreimal so viel wie Kleinere Heilung, kostet aber insgesamt
-etwas mehr Frömmigkeit.
+etwas mehr Pietät.
 %%%%
 Divine Vigour ability
 
@@ -412,7 +412,7 @@ zugefügt wird.
 Banish ability
 
 Versucht, eine Kreatur in den Abgrund zu verbannen. Ist der Versuch erfolgreich,
-erhältst du etwas Frömmigkeit und den vollen Erfahrungswert der Kreatur.
+erhältst du etwas Pietät und den vollen Erfahrungswert der Kreatur.
 Die Fertigkeit Anrufungen macht es schwieriger zu widerstehen.
 %%%%
 Corrupt ability
@@ -631,13 +631,13 @@ Draw Out Power ability
 Zapft deine innere Kraft an, um Gesundheit und Magie wiederherzustellen und
 deinen Körper und Geist von äußeren Beschränkungen wie Netzen, Spinnweben,
 Umschlingung, Versteinerung, Verlangsamung und Verwirrung zu befreien. Die
-Menge der wiederhergestellten Gesundheit und Magie steigt mit der Frömmigkeit.
+Menge der wiederhergestellten Gesundheit und Magie steigt mit der Pietät.
 %%%%
 Power Leap ability
 
 Führt einen unglaublich schnellen Sprung zu einem Zielort aus und verursacht
 bei der Landung eine Explosion, die alle benachbarten Feinde beschädigt. Die
-Menge des verursachten Schadens steigt mit deiner Frömmigkeit und
+Menge des verursachten Schadens steigt mit deiner Pietät und
 Erfahrungsstufe.
 %%%%
 Apocalypse ability
@@ -645,7 +645,7 @@ Apocalypse ability
 Offenbart deinen Feinden Rus Wahrheit und fügt allen Feinden in deinem
 Sichtfeld schweren Schaden zu. Betroffene Kreaturen können gelähmt oder
 verlangsamt werden oder ihre Magie verlieren. Der zugefügte Schaden steigt
-mit deiner Frömmigkeit und Erfahrungsstufe.
+mit deiner Pietät und Erfahrungsstufe.
 %%%%
 Sacrifice Purity ability
 
@@ -764,7 +764,7 @@ Grand Finale ability
 
 Du verschmilzt emotional und physisch mit dem Ziel und brichst dann aus ihm heraus,
 spaltest es gewaltsam und tötest es auf der Stelle. Diese Fähigkeit lässt sich mit
-zunehmender Frömmigkeit und Anrufungsfertigkeit des Anbeters immer leichter einsetzen.
+zunehmender Pietät und Anrufungsfertigkeit des Anbeters immer leichter einsetzen.
 
 Gewalttätigere Uskayaw-Sekten betrachten ihre Mitglieder erst dann als wahre
 Gläubige, wenn sie diesen Ritus vollzogen haben.
@@ -787,7 +787,7 @@ leichte Schulter.
 %%%%
 Donate Gold ability
 
-Spendet die Hälfte deines Goldes an Zin, was deine Frömmigkeit mit der Zeit
+Spendet die Hälfte deines Goldes an Zin, was deine Pietät mit der Zeit
 erhöht. Der Gesamtanstieg hängt von der Höhe deiner Spende ab.
 %%%%
 Recall Ancestor ability
@@ -807,7 +807,7 @@ Transference ability
 Zwingt eine anvisierte Kreatur, durch die Reiche der Erinnerung zu gehen und
 den Platz mit deinem Vorfahren zu tauschen.
 
-Bei großer Frömmigkeit werden diejenigen, die sich in der Nähe des Ziels
+Bei großer Pietät werden diejenigen, die sich in der Nähe des Ziels
 befinden, zu einem Grad ausgezehrt, der von der Fertigkeit Anrufungen
 abhängt.
 %%%%

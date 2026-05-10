@@ -5432,7 +5432,7 @@ You put %s back on the other side!
 Du steckst {acc}%s auf die andere Seite!
 %%%%
 Piety after sacrifice: %s
-Frömmigkeit nach dem Opfer: %s
+Pietät nach dem Opfer: %s
 %%%%
 %s indicates that your awakening is complete.
 %s zeigt an, dass dein Erwachen vollständig ist.
@@ -12476,13 +12476,13 @@ animate legions of the dead
 Legionen von Toten animieren
 %%%%
 Yredelemnul will now gift you servants as you gain piety.
-Yredelemnul schenkt dir nun Diener, während du Frömmigkeit erlangst.
+Yredelemnul schenkt dir nun Diener, während du Pietät erlangst.
 %%%%
 Yredelemnul will no longer gift you servants.
 Yredelemnul schenkt dir keine Diener mehr.
 %%%%
 Yredelemnul will gift you servants as you gain piety.
-Yredelemnul schenkt dir Diener, während du Frömmigkeit erlangst.
+Yredelemnul schenkt dir Diener, während du Pietät erlangst.
 %%%%
 drain ambient life force
 der Umgebung Lebenskraft entziehen
@@ -12515,25 +12515,25 @@ gain great but temporary skills
 großartige, aber vorübergehende Fähigkeiten erhalten
 %%%%
 Okawaru will now gift you ammunition as you gain piety.
-Okawaru schenkt dir nun Munition, während du Frömmigkeit erlangst.
+Okawaru schenkt dir nun Munition, während du Pietät erlangst.
 %%%%
 Okawaru will no longer gift you ammunition.
 Okawaru schenkt dir keine Munition mehr.
 %%%%
 Okawaru will gift you ammunition as you gain piety.
-Okawaru schenkt dir Munition, während du Frömmigkeit erlangst.
+Okawaru schenkt dir Munition, während du Pietät erlangst.
 %%%%
 speed up your combat
 Deinen Kampf beschleunigen
 %%%%
 Okawaru will now gift you equipment as you gain piety.
-Okawaru schenkt dir nun Ausrüstung, während du Frömmigkeit erlangst.
+Okawaru schenkt dir nun Ausrüstung, während du Pietät erlangst.
 %%%%
 Okawaru will no longer gift you equipment.
 Okawaru schenkt dir keine Ausrüstung mehr.
 %%%%
 Okawaru will gift you equipment as you gain piety.
-Okawaru schenkt dir Ausrüstung, während du Frömmigkeit erlangst.
+Okawaru schenkt dir Ausrüstung, während du Pietät erlangst.
 %%%%
 gain health from killing
 Gesundheit durch Töten erhalten
@@ -12563,13 +12563,13 @@ call upon Sif Muna to cast any spell from your library
 Sif Muna anrufen, einen beliebigen Zauber aus deiner Bibliothek zu wirken
 %%%%
 Sif Muna will now gift you books as you gain piety.
-Sif Muna schenkt dir nun Bücher, während du Frömmigkeit erlangst.
+Sif Muna schenkt dir nun Bücher, während du Pietät erlangst.
 %%%%
 Sif Muna will no longer gift you books.
 Sif Muna schenkt dir keine Bücher mehr.
 %%%%
 Sif Muna will gift you books as you gain piety.
-Sif Muna schenkt dir Bücher, während du Frömmigkeit erlangst.
+Sif Muna schenkt dir Bücher, während du Pietät erlangst.
 %%%%
 go berserk at will
 nach Belieben in Berserkerwut verfallen
@@ -12581,25 +12581,25 @@ call in reinforcements
 Verstärkung herbeirufen
 %%%%
 Trog will now gift you melee weapons as you gain piety.
-Trog schenkt dir nun Nahkampfwaffen, während du Frömmigkeit erlangst.
+Trog schenkt dir nun Nahkampfwaffen, während du Pietät erlangst.
 %%%%
 Trog will no longer gift you weapons.
 Trog schenkt dir keine Waffen mehr.
 %%%%
 Trog will gift you melee weapons as you gain piety.
-Trog schenkt dir Nahkampfwaffen, während du Frömmigkeit erlangst.
+Trog schenkt dir Nahkampfwaffen, während du Pietät erlangst.
 %%%%
 draw from decks of power
 aus Decks der Macht ziehen
 %%%%
 Nemelex will now gift you decks of power as you gain piety.
-Nemelex schenkt dir nun Decks der Macht, während du Frömmigkeit erlangst.
+Nemelex schenkt dir nun Decks der Macht, während du Pietät erlangst.
 %%%%
 Nemelex will no longer gift you decks.
 Nemelex schenkt dir keine Decks mehr.
 %%%%
 Nemelex will gift you decks of power as you gain piety.
-Nemelex schenkt dir Decks der Macht, während du Frömmigkeit erlangst.
+Nemelex schenkt dir Decks der Macht, während du Pietät erlangst.
 %%%%
 choose one out of three cards
 eine von drei Karten wählen
@@ -12674,13 +12674,13 @@ request a jelly
 ein Gelee anfordern
 %%%%
 Jiyva will now mutate your body and modify your attributes as you gain piety.
-Jiyva mutiert nun deinen Körper und verändert deine Attribute, während du Frömmigkeit erlangst.
+Jiyva mutiert nun deinen Körper und verändert deine Attribute, während du Pietät erlangst.
 %%%%
 Jiyva will no longer mutate your body and modify your attributes.
 Jiyva mutiert deinen Körper nicht mehr und verändert deine Attribute nicht mehr.
 %%%%
 Jiyva will mutate your body and modify your attributes as you gain piety.
-Jiyva mutiert deinen Körper und verändert deine Attribute, während du Frömmigkeit erlangst.
+Jiyva mutiert deinen Körper und verändert deine Attribute, während du Pietät erlangst.
 %%%%
 Jiyva is now protecting you from corrosive effects.
 Jiyva schützt dich nun vor korrosiven Effekten.
@@ -17986,10 +17986,10 @@ Healing.
 Heilung.
 %%%%
 Piety needs to be between 0 and %d.
-Frömmigkeit muss zwischen 0 und %d liegen.
+Pietät muss zwischen 0 und %d liegen.
 %%%%
 Ru piety can't be greater than %d.
-Ru-Frömmigkeit kann nicht größer als %d sein.
+Ru-Pietät kann nicht größer als %d sein.
 %%%%
 "Enter new interest (current = %d, Enter for 0): "
 "Neues Interesse eingeben (aktuell = %d, Enter für 0): "
@@ -17998,7 +17998,7 @@ Interest must be between 0 and 255.
 Interesse muss zwischen 0 und 255 liegen.
 %%%%
 Set piety to %d, interest to %d.
-Frömmigkeit auf %d, Interesse auf %d eingestellt.
+Pietät auf %d, Interesse auf %d eingestellt.
 %%%%
 You are now %s.
 Du bist jetzt %s.
@@ -18007,7 +18007,7 @@ Are you sure you want to be excommunicated?
 Bist du sicher, dass du exkommuniziert werden willst?
 %%%%
 Setting piety to %d.
-Setze Frömmigkeit auf %d.
+Setze Pietät auf %d.
 %%%%
 "Enter new gold value (current = %d, Enter for %d): "
 "Neuen Goldwert eingeben (aktuell = %d, Enter für %d): "
@@ -18019,7 +18019,7 @@ Current progress to next sacrifice: %d  Progress needed: %d
 Aktueller Fortschritt bis zum nächsten Opfer: %d   Erforderlicher Fortschritt: %d
 %%%%
 "Enter new piety value (current = %d, Enter for 0): "
-"Neuen Frömmigkeitswert eingeben (aktuell = %d, Enter für 0): "
+"Neuen Pietätswert eingeben (aktuell = %d, Enter für 0): "
 %%%%
 "Which skill (by name)? "
 "Welche Fertigkeit (Name)? "
@@ -18250,7 +18250,7 @@ Kann nicht wiederholt in den Erkundungsmodus wechseln.
 <w>_</w>      eine Religion bekommen
 %%%%
 <w>^</w>      set piety to a value
-<w>^</w>      Frömmigkeit einstellen
+<w>^</w>      Pietät einstellen
 %%%%
 <w>@</w>      set Str Int Dex
 <w>@</w>      Stä Int Ges einstellen
@@ -18882,7 +18882,7 @@ give @item_name@
 {acc}@item_name@ geben
 %%%%
 lose all piety
-alle Frömmigkeit verlieren
+alle Pietät verlieren
 %%%%
 The portal requires @item_name@ for entry.
 Das Portal fordert {acc}@item_name@ für den Eintritt.
