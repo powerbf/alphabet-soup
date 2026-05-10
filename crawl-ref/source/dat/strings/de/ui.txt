@@ -136,7 +136,7 @@ Strg-P
 # a level <level> <species> <background>
 %%%%
 , a level %d %s %s
-, Level %d %s %s
+, Stufe %d %s %s
 %%%%
 
 # Game types used in savegame descriptions
@@ -1635,7 +1635,7 @@ Punkte
 %%%%
 # this is apparently also an option, but not sure when it is shown
 new level
-neues Level
+neue Stufe
 %%%%
 
 # not sure exactly where these are used

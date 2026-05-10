@@ -77,15 +77,15 @@ E
 %%%%
 # if current max HP less than max max HP (i.e. drained)
 (level %d, %d/%d (%d) HPs)
-(Level %d, %d/%d (%d) TP)
+(Stufe %d, %d/%d (%d) TP)
 %%%%
 # if not drained
 (level %d, %d/%d HPs)
-(Level %d, %d/%d TP)
+(Stufe %d, %d/%d TP)
 %%%%
 # without HP
 (level %d)
-(Level %d)
+(Stufe %d)
 %%%%
 
 ########################
