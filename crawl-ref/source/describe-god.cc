@@ -1096,23 +1096,31 @@ static formatted_string _describe_god_powers(god_type which_god)
             desc.textcolour(DARKGREY);
 
         string buf = power.general;
-        if (isupper(buf[0])) // Complete sentence given?
-            buf = localise(buf);
-        else
+        if (!isupper(buf[0])) // Complete sentence given?
             buf = localise("You can %s.", buf);
+        else
+            buf = localise(buf);
+        const int desc_len = strwidth(buf);
 
         string abil_cost = "(" + make_cost_description(power.abil) + ")";
         if (abil_cost == localise("(None)"))
             abil_cost = "";
+        const int cost_len = strwidth(abil_cost);
 
-        const int text_width = strwidth(buf) + strwidth(abil_cost);
-        string spaces = " ";
-        if (abil_cost == "")
-            spaces = "";
-        else if (text_width < 80)
-            spaces = string(80 - text_width, ' ');
-
-        desc.cprintf("%s%s%s\n", buf.c_str(), spaces.c_str(), abil_cost.c_str());
+        string spaces;
+        if (desc_len + cost_len <= 80)
+            spaces = string(80 - desc_len - cost_len, ' ');
+        else if (desc_len <= 80)
+            spaces = "\n" + string(80 - cost_len, ' ');
+        else if (desc_len + cost_len <= 160) {
+            size_t pos = buf.rfind(' ', 80);
+            if (pos != string::npos) {
+                buf[pos] = '\n';
+                int rest_len = strwidth(&buf.c_str()[pos + 1]);
+                spaces = string(80 - cost_len - rest_len, ' ');
+            }
+        }
+        desc.cprintf(buf + spaces + abil_cost + "\n");
     }
 
     if (!have_any)
