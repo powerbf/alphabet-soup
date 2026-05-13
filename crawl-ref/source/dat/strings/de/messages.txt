@@ -3728,7 +3728,7 @@ quickly
 schnell
 %%%%
 about %d%% to evade %s
-etwa %d%%, um %s auszuweichen
+etwa %d%% {dat}%s auszuweichen
 %%%%
 " (about %d%% to hit you)"
 " (etwa %d%% Chance dich zu treffen)"
@@ -7481,10 +7481,10 @@ Really leave the Orb behind?
 Die Kugel wirklich zurücklassen?
 %%%%
 Are you sure you want to leave %s?
-Bist du alle sicher, dass du {acc}%s verlassen willst?
+Bist du sicher, dass du {acc}%s verlassen willst?
 %%%%
 " This will make you lose the game!"
-" Damit wirst du das Spiel verlieren!"
+" Dadurch wirst du das Spiel verlieren!"
 %%%%
 Alright, then stay!
 Also gut, dann bleib!
@@ -11383,7 +11383,7 @@ You sink to the bottom.
 Du sinkst zu Boden.
 %%%%
 Moving in this stuff is going to be slow.
-Sich in diesem Zeug zu bewegen wird langsam sein.
+Durch dieses Zeug kannst du dich nur langsam bewegen.
 %%%%
 ...and don't expect to remain undetected.
 ...und erwarte nicht, unentdeckt zu bleiben.
