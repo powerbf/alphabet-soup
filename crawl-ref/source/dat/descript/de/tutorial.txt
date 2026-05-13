@@ -20,8 +20,8 @@ siegen!
 tutorial1 start
 
 In dieser Lektion lernst du wie man herumwandert und eine Ebene erkundet. Du
-kannst dich bewegen <localtiles>indem du irgendwohin mit der <input>Maus</input>
-klickst, oder </localtiles>mit den <input>Pfeiltasten</input>.
+kannst dich mit den <input>Pfeiltasten</input> bewegen<localtiles>, oder indem
+du irgendwohin mit der <input>Maus</input>klickst</localtiles>.
 %%%%
 tutorial1 go_on
 
@@ -175,9 +175,10 @@ einfach in es hinein.
 %%%%
 tutorial2 resting
 
-Sehr gut! Du kannst rasten und deine Wunden heilen lassen, indem du <input>$cmd[CMD_REST]</input>
-drückst<localtiles>, oder auf den "Rasten"-Button in der Befehlsleiste unter der Mini-Karte klickst</localtiles>.
-Das lässt dich rasten, bis deine Gesundheit wieder voll ist, wird aber durch wichtige
+Sehr gut! Du kannst rasten und deine Wunden heilen lassen, indem du
+<input>$cmd[CMD_REST]</input> drückst<localtiles> oder auf den "Rasten"-Button
+in der Befehlsleiste unter der Mini-Karte klickst</localtiles>. Das lässt dich
+rasten, bis deine Gesundheit wieder voll ist, wird aber durch wichtige
 Ereignisse unterbrochen.
 %%%%
 tutorial2 wait
