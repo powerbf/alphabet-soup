@@ -173,10 +173,10 @@ kostet Gold und deine Feinde verwandeln sich beim Tod in Gold.
 HINT_CONVERT Ru
 
 Du bist gerade zu <w>Ru</w> konvertiert. Im Gegensatz zu anderen
-Göttern gewährt Ru Frömmigkeit (göttliche Gunst) im Austausch für dauerhafte
+Göttern gewährt Ru Pietät (göttliche Gunst) im Austausch für dauerhafte
 Opfer, wie z. B. den Verzicht auf die die Fähigkeit, Tränke zu trinken während du in
 Gefahr bist, oder den Verlust der Fähigkeit, bestimmte Fertigkeiten zu
-trainieren. Je mehr Frömmigkeit du hast, desto mehr Fähigkeiten gewährt dir Ru
+trainieren. Je mehr Pietät du hast, desto mehr Fähigkeiten gewährt dir Ru
 und desto mächtiger werden diese Fähigkeiten. Ru bietet dir weitere Opfer
 an, während du die Tiefen des Kerkers erforschst.
 %%%%
@@ -193,7 +193,7 @@ und muss im nächsten Kampf wiedergewonnen werden.
 HINT_CONVERT
 
 Du bist gerade zu <w>{{ return you.god() }}</w> konvertiert.
-Deine Frömmigkeit (göttliche Gunst) nimmt zu, wenn du Dinge tust, die deinem
+Deine Pietät (göttliche Gunst) nimmt zu, wenn du Dinge tust, die deinem
 neuen Gott gefallen und sie nimmt im Laufe der Zeit langsam ab.
 
 Du kannst die Vorlieben und Abneigungen deines Gottes sowie deinen aktuellen
@@ -785,11 +785,11 @@ du Details.
 %%%%
 HINT_GOD_DISPLEASED
 
-Oh, oh, $1 ist unzufrieden, weil deine Frömmigkeit knapp wird. Möglicherweise
+Oh, oh, $1 ist unzufrieden, weil deine Pietät knapp wird. Möglicherweise
 ist das der Fall, weil du ketzerische Handlungen begehst, weil $1 deine
 Anbetung als mangelhaft empfindet oder eine Kombination aus beidem. Wenn deine
-Frömmigkeit auf Null sinkt, wirst du exkommuniziert. Fang also besser an,
-deine Frömmigkeit zu steigern und/oder hör auf, deinen Gott zu ärgern. Auf
+Pietät auf Null sinkt, wirst du exkommuniziert. Fang also besser an,
+deine Pietät zu steigern und/oder hör auf, deinen Gott zu ärgern. Auf
 jeden Fall solltest du die Beschreibung der Religion noch einmal lesen. Drücke
 dazu <w>$cmd[CMD_DISPLAY_RELIGION]</w><localtiles> oder drücke <w>Shift</w>
 und mache einen <w>Rechtsklick</w> auf deinen Avatar</localtiles>.
@@ -823,7 +823,7 @@ Sieht so aus, als ob $1 deinen Übertritt zu $2 nicht gutheißt.
 %%%%
 HINT_CONVERTED_KEPT_PIETY
 
-Du hast sogar etwas von deiner Frömmigkeit behalten!
+Du hast sogar etwas von deiner Pietät behalten!
 %%%%
 HINT_CONVERTED_GOOD_TO_GOOD
 
@@ -1535,7 +1535,7 @@ Dieser besondere Altar ist so alt, dass man nicht erkennen kann, welchem Gott
 er gewidmet ist! Wenn du hier konvertierst, indem du
 <w>$cmd[CMD_GO_DOWNSTAIRS]</w> drückst, während du auf dem Altar stehst,
 trittst du in den Dienst eines zufälligen Gottes, der dir zum Dank etwas
-zusätzliche Frömmigkeit gewährt.
+zusätzliche Pietät gewährt.
 %%%%
 # $1 = altar god
 HINT_DESCRIBE_NONFADED_ALTAR_ATHEIST
@@ -1553,7 +1553,7 @@ er gewidmet ist, und $1 wird es wahrscheinlich nicht mögen, wenn du die
 Loyalität wechselst. Falls du das Risiko eingehen möchtest, kannst du hier
 konvertieren, indem du <w>$cmd[CMD_GO_DOWNSTAIRS]</w> drückst, während du
 auf dem Altar stehst. Damit stellst du dich in den Dienst eines zufälligen
-Gottes, der dir zum Dank etwas zusätzliche Frömmigkeit gewährt.
+Gottes, der dir zum Dank etwas zusätzliche Pietät gewährt.
 %%%%
 # $1 = player's current god, $2 = altar god
 HINT_DESCRIBE_NONFADED_ALTAR
