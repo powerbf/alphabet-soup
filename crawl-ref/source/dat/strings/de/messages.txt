@@ -12902,7 +12902,7 @@ pass through a line of other dancers
 durch eine Reihe anderer Tänzer passieren
 %%%%
 Uskayaw will force your foes to helplessly watch your dance.
-Uskayaw zwingt deine Feinde nun, deinem Tanz hilflos zuzusehen.
+Uskayaw zwingt deine Feinde, deinem Tanz hilflos zuzusehen.
 %%%%
 Uskayaw will no longer force your foes to helplessly watch your dance.
 Uskayaw zwingt deine Feinde nicht länger, deinem Tanz hilflos zuzusehen.
@@ -13626,7 +13626,7 @@ The current training targets, if any.
 Die aktuellen Trainingsziele, falls vorhanden.
 %%%%
 The percentage of the progress done before reaching next level is in <cyan>cyan</cyan>.
-Der Prozentsatz des Fortschritts vor Erreichen des nächsten Levels ist <cyan>cyan</cyan>.
+Der Prozentsatz des Fortschritts vor Erreichen der nächsten Stufe ist <cyan>cyan</cyan>.
 %%%%
 The relative cost of raising each skill is in <cyan>cyan</cyan> (or <lightred>red</lightred> if enhanced by a manual).
 Die relativen Kosten für die Verbesserung jeder Fertigkeit sind <cyan>cyan</cyan> (oder <lightred>rot</lightred>, wenn sie durch eine Anleitung verbessert werden).

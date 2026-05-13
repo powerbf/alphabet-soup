@@ -162,6 +162,9 @@ schlagen
 bite
 beißen
 %%%%
+sting
+stechen
+%%%%
 # not actually used (" at" is always stripped)
 release spores at
 Sporen freisetzen auf
