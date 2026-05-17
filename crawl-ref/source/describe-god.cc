@@ -1102,9 +1102,11 @@ static formatted_string _describe_god_powers(god_type which_god)
             buf = localise(buf);
         const int desc_len = strwidth(buf);
 
-        string abil_cost = "(" + make_cost_description(power.abil) + ")";
-        if (abil_cost == localise("(None)"))
+        string abil_cost = make_cost_description(power.abil);
+        if (abil_cost == localise("None"))
             abil_cost = "";
+        else
+            abil_cost = "(" + abil_cost + ")";
         const int cost_len = strwidth(abil_cost);
 
         string spaces;
