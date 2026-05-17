@@ -19702,7 +19702,7 @@ Du hast jetzt 1 Arenapunkt.
 <white>Glückwunsch, Champion.</white>
 %%%%
 @time_left@...
-
+@time_left@...
 %%%%
 Time's up!
 Die Zeit ist um!
@@ -19764,25 +19764,25 @@ Wenn es eine Blitzrunde ist, musst du nur überleben!</cyan>
 ##################
 %%%%
 <red>@border_top@--                    </red><lightred>You have destroyed The Meatlord.</lightred><red>                      --
-
+<red>@border_top@--                  </red><lightred>Du hast Den Schlachtmeister zerstört.</lightred><red>                   --
 %%%%
 @border_bottom@</red>
 @border_bottom@</red>
 %%%%
 <red>@border_top@--                        </red><lightred>You will die a champion.</lightred><red>                          --
-
+<red>@border_top@--                       </red><lightred>Du wirst als Held sterben.</lightred><red>                         --
 %%%%
 The Orb of Zot has appeared underneath you.
 Die Kugel von Zot ist unter dir erschienen.
 %%%%
 <red>@border_top@--                    </red><lightred>You have destroyed The Unspeakable.</lightred><red>                   --
-
+<red>@border_top@--                     </red><lightred>Du hast Den Unsäglichen zerstört.</lightred><red>                    --
 %%%%
 <lightgreen>The slimy rune of Zot has appeared underneath you.</lightgreen>
 <lightgreen>Die schleimige Rune von Zot ist unter dir erschienen.</lightgreen>
 %%%%
 <red>@border_top@--                      </red><lightred>The Meatlord has descended...</lightred><red>                       --
-
+<red>@border_top@--                </red><lightred>Der Schlachtmeister ist herabgestiegen...</lightred><red>                 --
 %%%%
 --                            The Arena Of Blood                            --
 --                           Die Arena des Blutes                           --
@@ -19849,7 +19849,7 @@ You hear a whooshing noise from somewhere close by.
 Du hörst ein zischendes Geräusch von irgendwo in der Nähe.
 %%%%
 the open sea?
-
+das offene Meer?
 %%%%
 
 ##################
@@ -19902,7 +19902,7 @@ Plötzlich gleitet eine Wand auseinander!
 ##################
 %%%%
 the exit from the tutorial
-
+der Ausgang des Tutorials
 %%%%
 
 ##################
@@ -19910,7 +19910,7 @@ the exit from the tutorial
 ##################
 %%%%
 You hear a click...
-
+Du hörst ein Klicken...
 %%%%
 Nothing continues to happen.
 Es passiert weiterhin nichts.
