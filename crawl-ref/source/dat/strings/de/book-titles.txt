@@ -2203,6 +2203,15 @@ der Federn
 "gleitende "
 %%%%
 
+# tutorial books
+%%%%
+"Introductory Spellcasting"
+""Zauberei ganz von vorne""
+%%%%
+"Demonology for Dummies"
+""Dämonologie für Dummies""
+%%%%
+
 # TODO:
 # d) @owner@'s @book_name@ of @Xom_book_title@
 # d) @owner@'s @book_name@ of @random_book_title@

@@ -1141,13 +1141,13 @@ der Beschreibung zu wechseln.
 %%%%
 HINT_SKILLS_SCREEN
 
-Diese Seite zeigt die Fertigkeiten deines Charakters an. Die Zahl neben der
-Fertigkeit ist die aktuelle Stufe, je höher, desto besser. <w>Training</w>
-zeigt den Prozentsatz des Trainings an. <w>Kosten</w> zeigt die relativen
-Trainingskosten an. <w>Ziele</w> zeigt die Trainingsziele der Fertigkeit an.
-Du kannst die zu trainierenden Fertigkeiten umschalten, indem du die
-entsprechenden Buchstaben drückst. Eine <darkgrey>graue</darkgrey> Fertigkeit
-wird nicht trainiert und erleichtert das Training der anderen.
+Diese Seite zeigt die Fertigkeiten deines Charakters an. Je höher die aktuelle
+Stufe, desto besser. <w>Training</w> zeigt den Prozentsatz des Trainings an.
+<w>Kosten</w> zeigt die relativen Trainingskosten an. <w>Ziele</w> zeigt die
+Trainingsziele der Fertigkeit an. Du kannst die zu trainierenden Fertigkeiten
+umschalten, indem du die entsprechenden Buchstaben drückst. Eine
+<darkgrey>graue</darkgrey> Fertigkeit wird nicht trainiert und erleichtert das
+Training der anderen.
 %%%%
 HINT_SKILL_TRAINING
 
