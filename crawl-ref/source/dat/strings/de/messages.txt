@@ -9723,7 +9723,7 @@ Durch die Kraft von Zin wird die feurige Explosion eingedämmt.
 ##################
 %%%%
 about %d
-gegen %d
+etwa %d
 %%%%
 " (fellow slime)"
 " (Schleimfreund)"
