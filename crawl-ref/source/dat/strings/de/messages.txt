@@ -19701,6 +19701,9 @@ Du hast jetzt 1 Arenapunkt.
 <white>Congratulations, champion.</white>
 <white>Glückwunsch, Champion.</white>
 %%%%
+@time_left@...
+
+%%%%
 Time's up!
 Die Zeit ist um!
 %%%%
@@ -19760,26 +19763,26 @@ Wenn es eine Blitzrunde ist, musst du nur überleben!</cyan>
 # dat/des/sprint/meat.des
 ##################
 %%%%
-<red>@border_top@</lightred><red>                      --
-<red>@border_top@</lightred><red>                      --
+<red>@border_top@--                    </red><lightred>You have destroyed The Meatlord.</lightred><red>                      --
+
 %%%%
 @border_bottom@</red>
 @border_bottom@</red>
 %%%%
-<red>@border_top@</lightred><red>                          --
-<red>@border_top@</lightred><red>                          --
+<red>@border_top@--                        </red><lightred>You will die a champion.</lightred><red>                          --
+
 %%%%
 The Orb of Zot has appeared underneath you.
 Die Kugel von Zot ist unter dir erschienen.
 %%%%
-<red>@border_top@</lightred><red>                   --
-<red>@border_top@</lightred><red>                   --
+<red>@border_top@--                    </red><lightred>You have destroyed The Unspeakable.</lightred><red>                   --
+
 %%%%
 <lightgreen>The slimy rune of Zot has appeared underneath you.</lightgreen>
 <lightgreen>Die schleimige Rune von Zot ist unter dir erschienen.</lightgreen>
 %%%%
-<red>@border_top@</lightred><red>                       --
-<red>@border_top@</lightred><red>                       --
+<red>@border_top@--                      </red><lightred>The Meatlord has descended...</lightred><red>                       --
+
 %%%%
 --                            The Arena Of Blood                            --
 --                           Die Arena des Blutes                           --
@@ -19845,6 +19848,9 @@ Murray kommt vorbei, um deine Fortschritte zu überprüfen.
 You hear a whooshing noise from somewhere close by.
 Du hörst ein zischendes Geräusch von irgendwo in der Nähe.
 %%%%
+the open sea?
+
+%%%%
 
 ##################
 # dat/des/sprint/zigsprint.des
@@ -19892,8 +19898,19 @@ Plötzlich gleitet eine Wand auseinander!
 %%%%
 
 ##################
+# dat/des/tutorial/lesson1.des
+##################
+%%%%
+the exit from the tutorial
+
+%%%%
+
+##################
 # dat/des/tutorial/lesson3.des
 ##################
+%%%%
+You hear a click...
+
 %%%%
 Nothing continues to happen.
 Es passiert weiterhin nichts.

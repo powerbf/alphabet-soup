@@ -1141,10 +1141,10 @@ def extract_strings_from_des_rebadge_line(line):
 
     strings = []
 
-    # multiple monsters can be on the same line separated by slashes
+    # multiple monsters can be on the same line separated by slashes or commas
     # process them separately
-    if '/' in line:
-        lines = line.split('/')
+    if '/' in line or ',' in line:
+        lines = re.split('[/,]', line)
         for l in lines:
             if re.search(r'\bname:', l):
                 strings.extend(extract_strings_from_des_rebadge_line(l))
@@ -1263,8 +1263,11 @@ def process_lua_file(filename):
             continue
 
         if is_des:
-            # lua code is surroned by double curlies
+            # lua code is surrounded by double curlies
             if line.startswith(':'):
+                lines.append(line)
+                continue
+            elif "lua:" in line:
                 lines.append(line)
                 continue
             elif re.search(r'\bname:', line):
@@ -1354,6 +1357,8 @@ def process_lua_file(filename):
             skip = True
             if 'crawl.mpr' in line or 'crawl.god_speaks' in line:
                 skip = False
+            elif 'lua:' in line:
+                skip = False
             elif re.search(r'\bset_feature_name', line):
                 # first param is a key
                 line = re.sub('"[^"]",', 'dummy,', line)
@@ -1386,6 +1391,14 @@ def process_lua_file(filename):
             # this replicates the C++ item_name (I hope)
             continue
 
+        if section == 'TimedMessaging:range_adjective':
+            # covered by the portal code above
+            continue
+
+        if 'vector_move' in line:
+            # command string, not display string
+            continue
+
         if line.startswith('error') or line.startswith('flag_order = '):
             continue
 
@@ -1397,6 +1410,12 @@ def process_lua_file(filename):
             continue
 
         if 'dgn_event_type' in line:
+            continue
+
+        if 'lua:' in line:
+            m = re.search('desc *= *"([^"]+)"', line)
+            if m and m[1]:
+                strings.append(article_the(m[1]))
             continue
 
         # don't extract strings that are just used for comparison/search
@@ -1412,6 +1431,9 @@ def process_lua_file(filename):
             line = re.sub(r'"\s*\.\.\s*"', '', line)
             line = re.sub(r"'\s*\.\.\s*'", '', line)
 
+        # replace ellipsis to avoid false matches with join operator
+        line = line.replace('...', 'ELLIPSIS')
+
         # turn joins of variables, etc. into embedded params
         if '..' in line and 'name:' not in line:
             # embedded conditional
@@ -1419,25 +1441,47 @@ def process_lua_file(filename):
 
             # dont make self a param in concatenation (e.g. msg = msg .. whatever)
             line = re.sub(r'([a-z]+)\s*=\s*\1\s*\.\.', r'\1 =', line)
+
             # param in middle of string
             line = re.sub(r'"\s*\.\.\s*([^"]*?)\s*\.\.\s*"', r'@\1@', line)
+
             # param at end of string
             line = re.sub(r'"\s*\.\.\s*(.*)', r'@\1@"', line)
+
             # param at start of string
-            line = re.sub(r'(return\s*|mpr\(\s*)(.*?)\s*\.\.\s*"', r'\1"@\2@', line)
-            line = re.sub(r'(.*?)\s*\.\.\s*"', r'"@\1@', line)
-            #line = re.sub(r'"\s*\.\.\s*([a-zA-Z_]+)\s*\.\.\s*"', r'@\1@', line)
-            line = re.sub(r'\s+\.\.\s+', '@@', line)
-            line = line.replace('@AUTOMAGIC_SPELL_SLOT@', '@slot@')
-            line = re.sub('@[^@]*AUTOMAGIC_SPELL_SLOT[^@]*@', '@spell_name@', line)
-            line = re.sub(r'@[^@]+[\.:]([^@]+)@', r'@\1@', line)
-            line = re.sub(r'\[([a-zA-Z0-9_]+)\]@', r'_\1@', line)
-            line = line.replace('()@', '@')
-            line = re.sub(r'\s*[\-\+]\s*[0-9]\s*@', '@', line)
+            line = re.sub(r'(return\s*|.*= *|mpr\(\s*)(.*?)\s*\.\.\s*"', r'\1"@\2@', line)
+
+            # consecutive params
+            line = re.sub(r'\s*\.\.\s*', '@@', line)
+
+            params = re.findall('@[^@]+@', line)
+            for param in params:
+                fixed_param = ''
+                if param == '@AUTOMAGIC_SPELL_SLOT@':
+                    fixed_param = '@slot@'
+                elif 'spell_table' in param:
+                    fixed_param = '@spell_name@'
+                elif param == '@runes[name]@':
+                    fixed_param = '@rune_name@'
+                elif param.endswith('the_feature@'):
+                    fixed_param = '@the_feature@'
+                else:
+                    fixed_param = param
+                    fixed_param = re.sub(r'tostring\((.*)\)', r'\1', fixed_param)
+                    fixed_param = re.sub(r'[\(\[].*[\)\]]', '', fixed_param)
+                    fixed_param = re.sub(r'^@.*[:\.]', '@', fixed_param)
+                    fixed_param = re.sub(r' [^@]*', '', fixed_param)
+                if fixed_param != param:
+                    line = line.replace(param, fixed_param)
+                if not re.match('^@[A-Za-z_]+@$', fixed_param):
+                    print("BAD PARAM: " + fixed_param, file=sys.stderr)
+                    print("IN: " + line, file=sys.stderr)
+
             # verb is actually a noun
-            line = line.replace('@chk_2@@verb@', '@adjective@@noise@')
-            line = re.sub('@[^@]+the_feature@', '@the_feature@', line)
-            line = re.sub(r'@([^@ ]+?)[\(\)][^@]*@', r'@\1@', line)
+            line = line.replace('@chk@@verb@', '@adjective@@noise@')
+
+        # restore ellipsis
+        line = line.replace('ELLIPSIS', "...")
 
         if 'crawl.mpr' in line:
             # we don't want to extract the second parameter - it's the channel
@@ -1556,8 +1600,8 @@ def process_lua_file(filename):
             alternatives = expand_param(string, "@wizlab_desc@", wizlab_descs)
         elif filename.endswith('pan.des') and '@name@ resides here' in string:
             alternatives = expand_param(string, "@name@", ["Cerebov", "Mnoleg", "Lom Lobon", "Gloorx Vloq"])
-        elif filename.endswith('pan.des') and '@runes_name@' in string:
-            alternatives = expand_param(string, "@runes_name@", ["fiery", "glowing", "magical", "dark"])
+        elif filename.endswith('pan.des') and '@rune_name@' in string:
+            alternatives = expand_param(string, "@rune_name@", ["fiery", "glowing", "magical", "dark"])
         elif '@noise@ of @noisemaker@' in string:
             # will be covered under each specific portal
             alternatives = []

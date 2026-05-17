@@ -19701,6 +19701,9 @@ You now have 1 arena point.
 <white>Congratulations, champion.</white>
 
 %%%%
+@time_left@...
+
+%%%%
 Time's up!
 
 %%%%
@@ -19760,25 +19763,25 @@ If it is a lightning round, you only need to survive!</cyan>
 # dat/des/sprint/meat.des
 ##################
 %%%%
-<red>@border_top@</lightred><red>                      --
+<red>@border_top@--                    </red><lightred>You have destroyed The Meatlord.</lightred><red>                      --
 
 %%%%
 @border_bottom@</red>
 
 %%%%
-<red>@border_top@</lightred><red>                          --
+<red>@border_top@--                        </red><lightred>You will die a champion.</lightred><red>                          --
 
 %%%%
 The Orb of Zot has appeared underneath you.
 
 %%%%
-<red>@border_top@</lightred><red>                   --
+<red>@border_top@--                    </red><lightred>You have destroyed The Unspeakable.</lightred><red>                   --
 
 %%%%
 <lightgreen>The slimy rune of Zot has appeared underneath you.</lightgreen>
 
 %%%%
-<red>@border_top@</lightred><red>                       --
+<red>@border_top@--                      </red><lightred>The Meatlord has descended...</lightred><red>                       --
 
 %%%%
 --                            The Arena Of Blood                            --
@@ -19845,6 +19848,9 @@ Murray drops in to check on your progress.
 You hear a whooshing noise from somewhere close by.
 
 %%%%
+the open sea?
+
+%%%%
 
 ##################
 # dat/des/sprint/zigsprint.des
@@ -19892,8 +19898,19 @@ Suddenly a wall slides open!
 %%%%
 
 ##################
+# dat/des/tutorial/lesson1.des
+##################
+%%%%
+the exit from the tutorial
+
+%%%%
+
+##################
 # dat/des/tutorial/lesson3.des
 ##################
+%%%%
+You hear a click...
+
 %%%%
 Nothing continues to happen.
 
