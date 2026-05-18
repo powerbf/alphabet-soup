@@ -1144,7 +1144,7 @@ HINT_SKILLS_SCREEN
 Diese Seite zeigt die Fertigkeiten deines Charakters an. Je höher die aktuelle
 Stufe, desto besser. <w>Training</w> zeigt den Prozentsatz des Trainings an.
 <w>Kosten</w> zeigt die relativen Trainingskosten an. <w>Ziele</w> zeigt die
-Trainingsziele der Fertigkeit an. Du kannst die zu trainierenden Fertigkeiten
+Trainingsziele der Fertigkeiten an. Du kannst die zu trainierenden Fertigkeiten
 umschalten, indem du die entsprechenden Buchstaben drückst. Eine
 <darkgrey>graue</darkgrey> Fertigkeit wird nicht trainiert und erleichtert das
 Training der anderen.
