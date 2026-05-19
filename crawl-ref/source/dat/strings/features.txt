@@ -719,30 +719,6 @@ Viscous fluid
 %%%%
 
 ################################
-# Counted
-# (used in dungeon overview screen)
-################################
-%%%%
-1 runed door
-
-%%%%
-1 runed translucent door
-
-%%%%
-1 transporter
-
-%%%%
-%d runed doors
-
-%%%%
-%d runed translucent doors
-
-%%%%
-%d transporters
-
-%%%%
-
-################################
 # coverings
 ################################
 %%%%

@@ -728,30 +728,6 @@ fluido viscoso
 %%%%
 
 ################################
-# Counted
-# (used in dungeon overview screen)
-################################
-%%%%
-1 runed door
-1 porta rúnica
-%%%%
-1 runed translucent door
-1 porta translúcida rúnica
-%%%%
-1 transporter
-1 transportador
-%%%%
-%d runed doors
-%d portas rúnicas
-%%%%
-%d runed translucent doors
-%d portas translúcidas rúnicas
-%%%%
-%d transporters
-%d transportadores
-%%%%
-
-################################
 # coverings
 ################################
 %%%%

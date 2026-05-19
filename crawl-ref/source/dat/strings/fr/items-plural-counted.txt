@@ -4,6 +4,11 @@
 #
 ###############################################################################
 
+%%%%
+%d items
+%d articles
+%%%%
+
 # Note: Counted plurals are only needed for items that stack (missiles, scrolls, potions, gold pieces).
 # Wands meld rather than stack.
 
