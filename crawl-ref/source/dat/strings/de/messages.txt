@@ -3423,11 +3423,11 @@ deals up to %d %s
 bis zu %d {acc}%s verursacht
 %%%%
 Miscasting this spell causes magic contamination.
-Ein Fehlzauber verursacht magische Verunreinigung.
+Ein Fehlzauber verursacht magische Kontamination.
 %%%%
 # %s is a placeholder for the miscast effects above
 Miscasting this spell causes magic contamination and also %s.
-Ein Fehlzauber verursacht magische Verunreinigung und auch %s.
+Ein Fehlzauber verursacht magische Kontamination und auch %s.
 %%%%
 Your servitor would be unable to mimic any of your spells.
 Dein Diener könnte keinen deiner Zaubersprüche nachahmen.
@@ -11545,7 +11545,7 @@ You are engulfed in a nimbus of crackling magics!
 Du wirst von einem Nimbus aus knisternder Magie umhüllt!
 %%%%
 Your magical contamination has completely faded away.
-Deine magische Verunreinigung ist vollständig verschwunden.
+Deine magische Kontamination ist vollständig verschwunden.
 %%%%
 You feel less contaminated with magical energies.
 Du fühlst dich weniger mit magischen Energien kontaminiert.
