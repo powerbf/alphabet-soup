@@ -10528,7 +10528,7 @@ Your mutations feel more permanent.
 Deine Mutationen fühlen sich dauerhafter an.
 %%%%
 You feel %s.
-Du fühlst %s.
+Du fühlst dich %s.
 %%%%
 You feel rather odd for a moment.
 Du fühlst dich für einen Moment ziemlich seltsam.
@@ -13644,7 +13644,7 @@ Press <w>?</w> for a general explanation of skilling and the various toggles.
 <w>?</w> drücken, für eine allgemeine Erklärung des Trainierens und der verschiedenen Umschaltmöglichkeiten.
 %%%%
 Skill descriptions
-Beschreibungen der Fertigkeiten
+Beschreibungen
 %%%%
 Help
 Hilfe
@@ -13656,7 +13656,7 @@ Zurück zur Auswahl der Fertigkeiten
 <w>Hilfe</w>
 %%%%
 skill descriptions
-Beschreibungen der Fertigkeiten
+Beschreibungen
 %%%%
 set skill target
 Ziel festlegen

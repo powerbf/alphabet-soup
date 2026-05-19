@@ -597,7 +597,7 @@ die Befehlsleiste</localtiles>.
 Du kannst mit jedem Zauber nur eine begrenzte Anzahl von Verbündeten beschwören,
 also versuche dir durch eine große Bandbreite von Zaubern einen Vorteil zu verschaffen.
 Zum Beispiel sind deine beschworenen Teufelchen gegen Gift resistent, also kannst du
-einen mephitische Wolke einsetzen, um an ihrer Seite zu kämpfen, ohne deinen
+eine mephitische Wolke einsetzen, um an ihrer Seite zu kämpfen, ohne deinen
 Verbündeten zu schaden.
 %%%%
 tutorial4 tutorial_end
@@ -631,7 +631,7 @@ tutorial5 dungeon_overview
 Da vorne steht ein Altar von Trog dem Zornigen! Trog ist nur einer von vielen Göttern.
 Im richtigen Spiel kannst du dir mit <input>$cmd[CMD_DISPLAY_OVERMAP]</input><localtiles>
 oder mit einem Klick auf den <input>Kerker-Übersichtskarten-Button</input> in der
-Befehlsleiste</localtiles> eine Liste aller Altare und aller anderen interessanten Merkmale
+Befehlsleiste</localtiles> eine Liste aller Altäre und aller anderen interessanten Merkmale
 anzeigen lassen, die bereits gefunden wurden.
 %%%%
 tutorial5 altar
@@ -653,7 +653,7 @@ Schau dir den aktuellen Stand deines Glaubens mit
 <w>Religions-Button</w> in der Befehlsleiste, oder mit einem
 <input>Shift-Rechtsklick</input> auf deine Spielfigur)</localtiles>. Nochmals,
 wenn du <input>!</input> drückst<localtiles> oder einen
-<input>Rechtsklick</input>machst</localtiles>, bekommst du eine
+<input>Rechtsklick</input> machst</localtiles>, bekommst du eine
 detailliertere Beschreibung deines Gottes.
 %%%%
 tutorial5 piety_on_kill
