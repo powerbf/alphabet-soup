@@ -4200,7 +4200,7 @@ armed with %s
 mit {dat}%s bewaffnet
 %%%%
 wielding %s
-{acc}%s führend
+mit {dat}%s bewaffnet
 %%%%
 This monster is %s.
 Dieses Monster ist %s.

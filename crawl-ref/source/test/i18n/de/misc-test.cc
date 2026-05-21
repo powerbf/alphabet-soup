@@ -254,6 +254,10 @@ int main()
                " Weitermachen?";
     show_result(msg, expected);
 
+    // monster equipment
+    show_result(localise("wielding %s", "a +1 short sword"), "mit einem +1 Kurzschwert bewaffnet");
+    show_result(localise("wielding %s", "a +0 hunting sling"), "mit einer +0 Schleuder bewaffnet");
+
     // player species
     show_result(localise("Deep Elf"), "Tiefenelf");
     show_result(localise("Human"), "Mensch");
