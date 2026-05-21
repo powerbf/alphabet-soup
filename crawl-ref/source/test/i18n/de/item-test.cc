@@ -230,6 +230,18 @@ vector<map<string, string>> weapons =
         {"acc", "eine saphirbesetzte riesige Stachelkeule"},
         {"dat", "einer saphirbesetzten riesigen Stachelkeule"},
     },
+    {
+        {"en", "stones"},
+        {"nom", "Steine"},
+        {"acc", "Steine"},
+        {"dat", "Steinen"},
+    },
+    {
+        {"en", "10 stones"},
+        {"nom", "10 Steine"},
+        {"acc", "10 Steine"},
+        {"dat", "10 Steinen"},
+    },
 };
 
 vector<map<string, string>> armour =

@@ -14,39 +14,39 @@
 %%%%
 # Barachi
 Frogs
-Frösche
+{pl}Frösche
 %%%%
 # genus for draconians of all colours
 Draconians
-Drakonier
+{pl}Drakonier
 %%%%
 # Deep Dwarf
 Dwarves
-Zwerge
+{pl}Zwerge
 %%%%
 # Deep Elf
 Elves
-Elfen
+{pl}Elfen
 %%%%
 # Demigod
 Gods
-Götter
+{pl}Götter
 %%%%
 # Felid
 Cats
-Katzen
+{pl}Katzen
 %%%%
 # Formicid
 Ants
-Ameisen
+{pl}Ameisen
 %%%%
 # Octopode
 Octopi
-Oktopusse
+{pl}Oktopusse
 %%%%
 # Hill Orc
 Orcs
-Orks
+{pl}Orks
 %%%%
 
 ##############################################
@@ -54,81 +54,81 @@ Orks
 ##############################################
 %%%%
 Barachim
-Barachim
+{pl}Barachim
 %%%%
 Deep Dwarves
-Tiefenzwerge
+{pl}Tiefenzwerge
 %%%%
 Deep Elves
-Tiefenelfen
+{pl}Tiefenelfen
 %%%%
 Demigods
-Halbgötter
+{pl}Halbgötter
 %%%%
 Demonspawns
-Dämonenbruten
+{pl}Dämonenbruten
 %%%%
 Djinn
-Dschinns
+{pl}Dschinns
 %%%%
 Felids
-Feliden
+{pl}Feliden
 %%%%
 Formicids
-Formiciden
+{pl}Formiciden
 %%%%
 Gargoyles
-Gargoyles
+{pl}Gargoyles
 %%%%
 Ghouls
-Ghule
+{pl}Ghule
 %%%%
 Gnolls
-Gnolle
+{pl}Gnolle
 %%%%
 Hill Orcs
-Hügelorks
+{pl}Hügelorks
 %%%%
 Humans
-Menschen
+{pl}Menschen
 %%%%
 Kobolds
-Kobolde
+{pl}Kobolde
 %%%%
 # same as singular
 #Merfolk
 #Meerwesen
 %%%%
 Minotaurs
-Minotauren
+{pl}Minotauren
 %%%%
 Mummies
-Mumien
+{pl}Mumien
 %%%%
 Nagas
-Nagas
+{pl}Nagas
 %%%%
 Octopodes
-Oktopoden
+{pl}Oktopoden
 %%%%
 Ogres
-Oger
+{pl}Oger
 %%%%
 Palentongas
-Palentongas
+{pl}Palentongas
 %%%%
 Spriggans
-Spriggans
+{pl}Spriggans
 %%%%
 Tengus
-Tengus
+{pl}Tengus
 %%%%
 Trolls
-Trolle
+{pl}Trolle
 %%%%
 Vampires
-Vampire
+{pl}Vampire
 %%%%
 Vine Stalkers
-Rebpirscher
+{pl}Rebpirscher
 %%%%
