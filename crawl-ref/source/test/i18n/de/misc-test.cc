@@ -257,6 +257,17 @@ int main()
     // monster equipment
     show_result(localise("wielding %s", "a +1 short sword"), "mit einem +1 Kurzschwert bewaffnet");
     show_result(localise("wielding %s", "a +0 hunting sling"), "mit einer +0 Schleuder bewaffnet");
+    show_result(localise("wearing %s", "a +2 plate armour of cold resistance"),
+                "mit einer +2 Plattenrüstung der Kälteresistenz ausgerüstet");
+    show_result(localise("wearing %s", "a +2 kite shield of fire resistance"),
+                "mit einem +2 Drachenschild der Feuerresistenz ausgerüstet");
+    show_result(localise("wearing %s", "a ring of resist corrosion"),
+                "mit einem Ring der Korrosionresistenz ausgerüstet");
+    show_result(localise("quivering %s", "poisoned darts"), "mit vergifteten Wurfpfeilen ausgestattet");
+    show_result(localise("carrying %s", "a dagger"), "mit einem Dolch ausgestattet");
+    show_result(localise("carrying %s", "a wand of paralysis"), "mit einem Zauberstab der Paralyse ausgestattet");
+    show_result(localise("carrying %s and %s", "a dagger", "a wand of paralysis"),
+                "mit einem Dolch und einem Zauberstab der Paralyse ausgestattet");
 
     // player species
     show_result(localise("Deep Elf"), "Tiefenelf");

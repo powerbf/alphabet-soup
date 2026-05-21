@@ -4271,15 +4271,19 @@ This monster is filled with an inner flame.
 Your line of fire to this monster is blocked by %s.
 
 %%%%
+# body armour, shield or ring
 wearing %s
 
 %%%%
+# missiles
 quivering %s
 
 %%%%
+# second weapon and wand
 carrying %s and %s
 
 %%%%
+# second weapon or wand
 carrying %s
 
 %%%%

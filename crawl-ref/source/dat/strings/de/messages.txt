@@ -4271,17 +4271,21 @@ Dieses Monster ist von einer inneren Flamme erfüllt.
 Your line of fire to this monster is blocked by %s.
 Deine Schusslinie zu diesem Monster ist von {dat}%s blockiert.
 %%%%
+# body armour, shield or ring
 wearing %s
-{acc}%s tragend
+mit {dat}%s ausgerüstet
 %%%%
+# missiles
 quivering %s
-mit {dat}%s im Köcher
+mit {dat}%s ausgestattet
 %%%%
+# second weapon and wand
 carrying %s and %s
-mit {dat}%s und {dat}%s im Gepäck
+mit {dat}%s und {dat}%s ausgestattet
 %%%%
+# second weapon or wand
 carrying %s
-mit {dat}%s im Gepäck
+mit {dat}%s ausgestattet
 %%%%
 This square lies inside a sanctuary.
 Dieses Feld liegt innerhalb eines Heiligtums.
