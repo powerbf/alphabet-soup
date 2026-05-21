@@ -64,6 +64,11 @@
 %d staircases leading out of the dungeon
 %d Treppen, die aus dem Kerker herausführen
 %%%%
+%d exits from the tutorial
+%d Ausgänge des Tutorials
+%%%%
+
+%%%%
 %d escape hatches
 %d Fluchtluken
 %%%%
