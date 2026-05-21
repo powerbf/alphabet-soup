@@ -2618,7 +2618,7 @@ void tutorial_msg(const char *key, bool end)
     // "\n" to preserve indented parts, the rest is unwrapped, or split into
     // paragraphs by "\n\n", split_string() will ignore the empty line.
     for (const string &chunk : split_string("\n", text, false))
-        mprf(MSGCH_TUTORIAL, "%s", chunk.c_str());
+        mprf_nolocalise(MSGCH_TUTORIAL, "%s", chunk.c_str());
 
     // tutorial_msg can get called in an vault epilogue during --builddb,
     // which can lead to a crash on tiles builds in runrest::stop as
