@@ -299,6 +299,9 @@ das Portal, das aus diesem Ort herausführt
 the staircase leading out of the dungeon
 die Treppe, die aus dem Kerker herausführt
 %%%%
+the exit from the tutorial
+der Ausgang des Tutorials
+%%%%
 the staircase to the Slime Pits
 die Treppe zu den Schleimgruben
 %%%%
@@ -716,30 +719,6 @@ Frostbedeckter Boden
 %%%%
 Viscous fluid
 Viskose Flüssigkeit
-%%%%
-
-################################
-# Counted
-# (used in dungeon overview screen)
-################################
-%%%%
-1 runed door
-1 runenverzierte Tür
-%%%%
-1 runed translucent door
-1 runenverzierte durchsichtige Tür
-%%%%
-1 transporter
-1 Transporter
-%%%%
-%d runed doors
-%d runenverzierte Türen
-%%%%
-%d runed translucent doors
-%d runenverzierte durchsichtige Türen
-%%%%
-%d transporters
-%d Transporter
 %%%%
 
 ################################
