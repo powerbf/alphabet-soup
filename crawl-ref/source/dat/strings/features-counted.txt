@@ -9,10 +9,16 @@
 
 
 ################################
-# Dungeon overview screen
+# Count of 1
 ################################
-# Version with a count of 1 is only used on the dungeon overview screen,
-# but the plural version is also used by the discovery message.
+# Used on the dungeon overview screen and/or magic mapping
+
+%%%%
+1 shop/portal
+
+%%%%
+1 altar
+
 %%%%
 1 runed door
 
@@ -23,6 +29,26 @@
 1 transporter
 
 %%%%
+
+################################
+# Generic + misc
+################################
+%%%%
+%d shops
+
+%%%%
+%d portals
+
+%%%%
+%d shops/portals
+
+%%%%
+%d altars
+
+%%%%
+%d stairs
+
+%%%%
 %d runed doors
 
 %%%%
@@ -30,23 +56,6 @@
 
 %%%%
 %d transporters
-
-%%%%
-
-################################
-# Generic - used when specific list is too long
-################################
-%%%%
-%d shops
-
-%%%%
-%d altars
-
-%%%%
-%d portals
-
-%%%%
-%d stairs
 
 %%%%
 

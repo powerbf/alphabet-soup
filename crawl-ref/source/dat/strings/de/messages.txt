@@ -17281,18 +17281,6 @@ Gozag hetzt deine Feinde gegen dich auf.
 You feel aware of your surroundings.
 Du fühlst dich deiner Umgebung bewusst.
 %%%%
-1 altar
-1 Altar
-%%%%
-%d altars
-%d Altäre
-%%%%
-1 shop/portal
-1 Laden/Portal
-%%%%
-%d shops/portals
-%d Läden/Portale
-%%%%
 You sensed %s.
 Du hast {acc}%s gespürt.
 %%%%
