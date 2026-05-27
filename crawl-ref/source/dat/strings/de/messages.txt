@@ -1515,10 +1515,10 @@ Kirschfarbene Flammen brennen deine Feuerresistenz weg!
 %s trifft {acc}%s
 %%%%
 %s engulfs you
-%s hüllt dich ein
+%s erfasst dich
 %%%%
 %s engulfs %s
-%s hüllt {acc}%s ein
+%s erfasst {acc}%s
 %%%%
 " but does no damage."
 , fügt aber keinen Schaden zu.
@@ -1882,13 +1882,13 @@ You bask in %s.
 Du schwelgst in {dat}%s.
 %%%%
 You are engulfed in %s.
-Du wirst von {dat}%s verschlungen.
+Du wirst von {dat}%s erfasst.
 %%%%
 %s basks in %s.
 %s schwelgt in {dat}%s.
 %%%%
 %s is engulfed in %s.
-%s wird von {dat}%s verschlungen.
+%s wird von {dat}%s erfasst.
 %%%%
 You are standing in a thunderstorm.
 Du stehst in einem Gewitter.
@@ -2014,13 +2014,13 @@ Du fühlst dich furchtbar lethargisch.
 @The_monster@ sieht unglaublich lustlos aus.
 %%%%
 You are engulfed in negative energy!
-Du wirst von negativer Energie umhüllt!
+Du wirst von negativer Energie erfasst!
 %%%%
 @The_monster@ is engulfed in negative energy!
-@The_monster@ wird von negativer Energie umhüllt!
+@The_monster@ wird von negativer Energie erfasst!
 %%%%
 Something is engulfed in negative energy!
-Etwas wird von negativer Energie umhüllt!
+Etwas wird von negativer Energie erfasst!
 %%%%
 %s averts the curse.
 %s wendet den Fluch ab.
@@ -2852,13 +2852,13 @@ Bist du sicher, dass du {acc}%s aufgeben willst?
 %%%%
 # subordinate clauses
 , which are affected by silence
-, die von Stille betroffen wird
+, die von Stille betroffen sind
 %%%%
 , which are affected by silence and antimagic
-, die von Stille und Antimagie betroffen wird
+, die von Stille und Antimagie betroffen sind
 %%%%
 , which are affected by antimagic (but not silence)
-, die von Antimagie (aber nicht von Stille) betroffen wird
+, die von Antimagie (aber nicht von Stille) betroffen sind
 %%%%
 # %s in these messages is placeholder for the subordinate clauses above
 This monster has mastered the following spells%s:
@@ -4291,13 +4291,13 @@ This square lies inside a sanctuary.
 Dieses Feld liegt innerhalb eines Heiligtums.
 %%%%
 This square is shrouded in silence.
-Dieses Feld ist in Stille gehüllt.
+Dieses Feld ist von Stille erfüllt.
 %%%%
 This square is lit by a halo.
 Dieses Feld wird von einem Heiligenschein beleuchtet.
 %%%%
 This square is wreathed by an umbra.
-Dieses Feld ist von einer Umbra umhüllt.
+Dieses Feld ist von einer Umbra verdunkelt.
 %%%%
 This square is liquefied.
 Dieses Feld ist verflüssigt.
@@ -8227,10 +8227,10 @@ Du bist in Flammen gehüllt
 %s zieht Kraft aus den Verletzungen {gen}%s!
 %%%%
 You are engulfed in a cloud of spores!
-Du bist in eine Sporenwolke gehüllt!
+Du wirst von einer Sporenwolke erfasst!
 %%%%
 %s is engulfed in a cloud of spores!
-%s ist in eine Sporenwolke gehüllt!
+%s wird von einer Sporenwolke erfasst!
 %%%%
 Your divine stamina protects you from poison!
 Deine göttliche Ausdauer schützt dich vor Gift!
@@ -8284,10 +8284,10 @@ der Schleim
 %s überflutet {acc}%s!
 %%%%
 %s engulfs you!
-%s überflutet dich!
+%s erfasst dich!
 %%%%
 %s engulfs %s!
-%s überflutet {acc}%s!
+%s erfasst {acc}%s!
 %%%%
 %s willpower is stripped away!
 Die Willenskraft {gen}%s wird abgebaut!
@@ -11546,7 +11546,7 @@ Your entire body has taken on an eerie glow!
 Dein ganzer Körper hat ein unheimliches Leuchten angenommen!
 %%%%
 You are engulfed in a nimbus of crackling magics!
-Du wirst von einem Nimbus aus knisternder Magie umhüllt!
+Du wirst von einem Nimbus aus knisternder Magie erfasst!
 %%%%
 Your magical contamination has completely faded away.
 Deine magische Kontamination ist vollständig verschwunden.
@@ -14737,7 +14737,7 @@ Flickering shadows surround you
 Flackernde Schatten umgeben dich
 %%%%
 You are engulfed in negative energy
-Du wirst von negativer Energie umhüllt
+Du wirst von negativer Energie erfasst
 %%%%
 You convulse helplessly as pain tears through your body
 Du zuckst hilflos zusammen, während Schmerz durch deinen Körper schießt
@@ -14770,7 +14770,7 @@ Flickering shadows surround @the_monster@
 Flackernde Schatten umgeben {acc}@the_monster@
 %%%%
 @The_monster@ is engulfed in negative energy
-@The_monster@ wird von negativer Energie umhüllt
+@The_monster@ wird von negativer Energie erfasst
 %%%%
 @The_monster@ convulses helplessly with pain
 @The_monster@ zuckt hilflos vor Schmerz
@@ -15277,7 +15277,7 @@ Your blood is infused with primal strength.
 Dein Blut wird mit Urkraft durchtränkt!
 %%%%
 A profound silence engulfs you.
-Eine tiefe Stille umhüllt dich.
+Eine tiefe Stille umfängt dich.
 %%%%
 The ground around you becomes liquefied!
 Der Boden um dich herum verflüssigt sich!
