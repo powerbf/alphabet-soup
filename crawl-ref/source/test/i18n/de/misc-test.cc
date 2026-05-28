@@ -445,6 +445,10 @@ int main()
     msg = localise("Memorise %s, consuming %d spell levels and leaving %d?", "Fireball", 5, 0);
     show_result(msg, "Feuerball auswendig lernen, dabei 5 Zauberplätze verbrauchen und 0 behalten?");
 
+    msg = localise("%s go into a battle-frenzy!", "the goblins");
+    msg = uppercase_first(msg); // mprf will do this
+    show_result(msg, "Die Goblins geraten in einen Kampfrausch!");
+
     // test localise with trailing space
     msg = localise("Adjust to which letter? ");
     show_result(msg, "An welchen Buchstaben binden? ");

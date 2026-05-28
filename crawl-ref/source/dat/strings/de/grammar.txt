@@ -182,11 +182,22 @@ KEY:/^%d //
 %%%%
 
 #############
+# generate definite plural from counted plural
+PREGENERATE:8
+
+SELECT_BY_KEY:/^%d /
+
+KEY:/^%d/the/
+
+/^%d/{pl}die/
+%%%%
+
+#############
 # English possessive translates to German genitive (or von + dative for named monsters).
 # Re-use these entries for the situation when English nominative has to be translated
 # to German genitive.
 %%%%
-PREGENERATE:8
+PREGENERATE:9
 
 SELECT_BY_KEY:/'s$/
 
