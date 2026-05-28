@@ -1406,7 +1406,7 @@ static bool is_list_separator(const string& s)
 
 // split list of things into separate strings
 // ignore lists that are contained within tags or brackets
-static void _split_list(string s, vector<string>& result)
+static void _split_list(string s, vector<string>& result, int max_splits = -1)
 {
     // these specific artifact names contain list separators
     // temporarily replace them to avoid false matches
@@ -1428,8 +1428,11 @@ static void _split_list(string s, vector<string>& result)
     // ignore lists inside brackets of any description
     size_t next = 0;
     int bracket_depth = 0;
+    int num_splits = 0;
     for (size_t i = 0; i < s.length(); i++)
     {
+        if (max_splits > 0 && num_splits >= max_splits)
+            break;
         if (s[i] == '(' || s[i] == '{' || s[i] == '[')
             bracket_depth++;
         else if (s[i] == ')' || s[i] == '}' || s[i] == ']')
@@ -1447,6 +1450,8 @@ static void _split_list(string s, vector<string>& result)
                     result.push_back(sep);
                     next = i + sep.length();
                     i += sep.length() - 1;
+                    num_splits++;
+                    break;
                 }
             }
         }
@@ -1487,7 +1492,7 @@ static void _split_list(string s, vector<string>& result)
 static string _localise_list(const string context, const string& s)
 {
     vector<string> substrings;
-    _split_list(s, substrings);
+    _split_list(s, substrings, 1);
     if (substrings.size() < 2)
         return "";
 
@@ -1502,6 +1507,13 @@ static string _localise_list(const string context, const string& s)
 
         string temp = _discard_context(_localise_string(_context, sub));
         TRACE("substring '%s' -> '%s'",  sub.c_str(), temp.c_str());
+        if (temp == sub) {
+            string temp2 = _localise_list(context, sub);
+            if (temp2 != "")
+                temp = temp2;
+            TRACE("attempt 2: substring '%s' -> '%s'", sub.c_str(), temp2.c_str());
+        }
+
         result += temp;
     }
 

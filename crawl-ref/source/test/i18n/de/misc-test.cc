@@ -449,6 +449,16 @@ int main()
     msg = uppercase_first(msg); // mprf will do this
     show_result(msg, "Die Goblins geraten in einen Kampfrausch!");
 
+    string likes_str = "you memorise spells"
+                       ", you attempt to cast spells"
+                       ", you train magic skills"
+                       " or you use magical staves or pain-branded weapons";
+    msg = localise("%s strongly dislikes it when %s.", "Trog", likes_str);
+    show_result(msg, "Trog mag es überhaupt nicht, wenn du Zaubersprüche erlernst"
+                     ", versuchst, Zaubersprüche zu wirken"
+                     ", magische Fähigkeiten trainierst"
+                     " oder magische Stäbe oder mit Schmerz geprägte Waffen verwendest.");
+
     // test localise with trailing space
     msg = localise("Adjust to which letter? ");
     show_result(msg, "An welchen Buchstaben binden? ");
