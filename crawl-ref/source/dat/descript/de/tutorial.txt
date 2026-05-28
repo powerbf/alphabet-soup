@@ -613,7 +613,8 @@ tutorial4 exit
   <input>$cmd[CMD_DISPLAY_SPELLS]</input>  Zauberkenntnisse prüfen
   <input>$cmd[CMD_CAST_SPELL]</input>  einen Zauber wirken<localtiles>
   Ausserdem kannst du neue Zaubersprüche über den <w>Reiter Auswendiglernen</w> lernen.
-  Bereits erlernte Zauber wirkst du mit <input>Linksklick</input> und du liest ihre Beschreibung und überprüfst deine Zauberkenntnisse, indem du mit der <input>Maus</input> über sie fährst oder einen <input>Rechtsklick</input> auf sie machst</localtiles>
+  Bereits erlernte Zauber wirkst du mit <input>Linksklick</input> und du liest ihre Beschreibung und überprüfst deine Zauberkenntnisse,
+  indem du mit der <input>Maus</input> über sie fährst oder einen <input>Rechtsklick</input> auf sie machst</localtiles>
   <input>$cmd[CMD_QUIVER_ITEM]</input>  belege deinen Köcher
 
   <input>$cmd[CMD_REST]</input>  pausiere bis zu 100 Runden, um Magie- und Lebenspunkte aufzufüllen
