@@ -331,7 +331,7 @@ GENERATE:dat
 /^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/\{adj-e\}/{adj-er}/
 
 # plural nouns
-/^\{pl\}.*?[A-ZÄÖÜ][^ ,]+/([^snai])$/$1n/
+/^(\{pl\}|%d).*?[A-ZÄÖÜ][^ ,]+/([^snai])$/$1n/
 
 # weak nouns
 /Akolyth\b/$1en/
