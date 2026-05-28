@@ -407,7 +407,7 @@ int main()
     show_result(msg, "Du hörst das Pfeifen eines Windes.");
 
     msg = localise("You hear the brisk rumble of a very distant avalanche of rocks.");
-    show_result(msg, "Du hörst das stramme Grollen einer Steinlawine weit in der Ferne.");
+    show_result(msg, "Du hörst das rasche Grollen einer Steinlawine weit in der Ferne.");
 
     msg = localise("You hear the thunderous beating of a drum.");
     show_result(msg, "Du hörst donnernde Paukenschläge.");
