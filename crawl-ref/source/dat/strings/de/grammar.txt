@@ -308,8 +308,8 @@ GENERATE:dat
 /^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/\{adj-e[rs]\}/{adj-em}/
 
 # mark plurals, if not already marked
-/^(die |deine )?(%d|[0-9]+) /^/{pl}/
-/^(?!\{pl\}).*schuppen\b/^/{pl}/
+/^(die |deine )?(%d|[0-9]+) /^(.)/{pl}$1/
+/^(?!\{pl\}).*schuppen\b/^(.)/{pl}$1/
 
 # plural determiners
 /^\{pl\}die /{pl}den /
@@ -331,7 +331,7 @@ GENERATE:dat
 /^[^A-ZÄÖÜ ][^A-ZÄÖÜ]+/\{adj-e\}/{adj-er}/
 
 # plural nouns
-/^(\{pl\}|%d).*?[A-ZÄÖÜ][^ ,]+/([^snai])$/$1n/
+/^\{pl\}.*[A-ZÄÖÜ][^ ,]+/([^snai])$/$1n/
 
 # weak nouns
 /Akolyth\b/$1en/
