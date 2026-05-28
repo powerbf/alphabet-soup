@@ -509,7 +509,7 @@ Raste anschließend, um dein neues, volles Potenzial zu erreichen.
 tutorial4 undead
 
 Im Gegensatz zu den meisten Monstern regenerieren Zombies und Skelette keine Gesundheit.
-<localtiles> Du kannst auch mit <input>Strg + Linksklick</input> auf das Monster
+<localtiles>Du kannst auch mit <input>Strg + Linksklick</input> auf das Monster
 versuchen, den zuletzt verwendeten Zauberspruch erneut zu wirken.</localtiles>
 %%%%
 tutorial4 spell_success
