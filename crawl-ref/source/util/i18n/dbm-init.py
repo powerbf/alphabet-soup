@@ -104,7 +104,7 @@ for line in keyfile:
             locnote = ''
             continue
         elif line.startswith('# duplicate'):
-            #locnote = ''
+            locnote = ''
             continue
         elif line.startswith('# note:'):
             locnote = line.strip()
