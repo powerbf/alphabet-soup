@@ -408,6 +408,18 @@ Ozocubu
 
 %%%%
 
+# owners from .des files
+%%%%
+Golubria
+
+%%%%
+Plato
+
+%%%%
+Ts'ui Pên
+
+%%%%
+
 # titles of the form "@book_magic@, Part @level@"
 %%%%
 @book_magic@, Part One
@@ -2200,6 +2212,112 @@ the %sBirds
 
 %%%%
 "Gliding "
+
+%%%%
+
+#################################
+# @book_magic@ from .des files
+#################################
+
+# From tutorial 4
+%%%%
+Introductory Spellcasting
+
+%%%%
+Demonology for Dummies
+
+%%%%
+
+# From the Babel Library minivault
+%%%%
+Nature
+
+%%%%
+Dhcmrlchtdj
+
+%%%%
+Combed Thunderclap
+
+%%%%
+Plaster Cramp
+
+%%%%
+Axaxaxas mlö
+
+%%%%
+Forking Paths
+
+%%%%
+Sand
+
+%%%%
+
+# From other minivaults
+%%%%
+# contains the Apportation spell
+Retrieval
+
+%%%%
+Reanimation Made Easy
+
+%%%%
+the Zealot
+
+%%%%
+Fire and Brimstone
+
+%%%%
+
+#################################
+# @book_magic@ from .des files (genitive)
+#################################
+
+# From tutorial 4
+%%%%
+{gen}Introductory Spellcasting
+
+%%%%
+{gen}Demonology for Dummies
+
+%%%%
+
+# From the Babel Library minivault
+%%%%
+{gen}Nature
+
+%%%%
+{gen}Dhcmrlchtdj
+
+%%%%
+{gen}Combed Thunderclap
+
+%%%%
+{gen}Plaster Cramp
+
+%%%%
+{gen}Axaxaxas mlö
+
+%%%%
+{gen}Forking Paths
+
+%%%%
+{gen}Sand
+
+%%%%
+
+# From other minivaults
+%%%%
+# contains the Apportation spell
+{gen}Retrieval
+
+%%%%
+{gen}Reanimation Made Easy
+
+%%%%
+{gen}the Zealot
+
+%%%%
+{gen}Fire and Brimstone
 
 %%%%
 
