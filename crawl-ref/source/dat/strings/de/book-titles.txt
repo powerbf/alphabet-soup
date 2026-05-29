@@ -408,6 +408,18 @@ Ozocubu
 Ozocubu
 %%%%
 
+# owners from .des files
+%%%%
+Golubria
+Golubria
+%%%%
+Plato
+Plato
+%%%%
+Ts'ui Pên
+Ts'ui Pên
+%%%%
+
 # titles of the form "@book_magic@, Part @level@"
 %%%%
 @book_magic@, Part One
@@ -2203,13 +2215,110 @@ der Federn
 "gleitende "
 %%%%
 
-# tutorial books
+#################################
+# @book_magic@ from .des files
+#################################
+
+# From tutorial 4
 %%%%
-"Introductory Spellcasting"
-""Zauberei ganz von vorne""
+Introductory Spellcasting
+Zauberei ganz von vorne
 %%%%
-"Demonology for Dummies"
-""Dämonologie für Dummies""
+Demonology for Dummies
+Dämonologie für Dummies
+%%%%
+
+# From the Babel Library minivault
+%%%%
+Nature
+Natur
+%%%%
+Dhcmrlchtdj
+Dhcmrlchtdj
+%%%%
+Combed Thunderclap
+gekämmter Donnerschlag
+%%%%
+Plaster Cramp
+Gipsverkrampfung
+%%%%
+Axaxaxas mlö
+Axaxaxas mlö
+%%%%
+Forking Paths
+sich verzweigende Wege
+%%%%
+Sand
+Sand
+%%%%
+
+# From other minivaults
+%%%%
+# contains the Apportation spell
+Retrieval
+Abruf
+%%%%
+Reanimation Made Easy
+Reanimation leicht gemacht
+%%%%
+the Zealot
+der Zelot
+%%%%
+Fire and Brimstone
+Feuer und Schwefel
+%%%%
+
+#################################
+# @book_magic@ from .des files (genitive)
+#################################
+
+# From tutorial 4
+%%%%
+{gen}Introductory Spellcasting
+der Zauberei ganz von vorne
+%%%%
+{gen}Demonology for Dummies
+der Dämonologie für Dummies
+%%%%
+
+# From the Babel Library minivault
+%%%%
+{gen}Nature
+der Natur
+%%%%
+{gen}Dhcmrlchtdj
+von Dhcmrlchtdj
+%%%%
+{gen}Combed Thunderclap
+des gekämmten Donnerschlags
+%%%%
+{gen}Plaster Cramp
+der Gipsverkrampfung
+%%%%
+{gen}Axaxaxas mlö
+von Axaxaxas mlö
+%%%%
+{gen}Forking Paths
+der sich verzweigenden Wege
+%%%%
+{gen}Sand
+des Sands
+%%%%
+
+# From other minivaults
+%%%%
+# contains the Apportation spell
+{gen}Retrieval
+des Abrufs
+%%%%
+{gen}Reanimation Made Easy
+der Reanimation leicht gemacht
+%%%%
+{gen}the Zealot
+des Zelots
+%%%%
+{gen}Fire and Brimstone
+von Feuer und Schwefel
 %%%%
 
 # TODO:
