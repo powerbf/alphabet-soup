@@ -4615,6 +4615,7 @@ item_def get_item_known_info(const item_def& item)
         CORPSE_NAME_TYPE_KEY, "item_tile", "item_tile_name",
         "worn_tile", "worn_tile_name", "needs_autopickup",
         FORCED_ITEM_COLOUR_KEY, SPELL_LIST_KEY,
+        BOOK_TITLED_KEY,
     };
     for (const char *prop : copy_props)
         if (item.props.exists(prop))
