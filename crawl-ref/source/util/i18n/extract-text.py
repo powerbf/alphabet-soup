@@ -167,11 +167,21 @@ def remove_duplicates(strings):
     for string in strings:
         if string.startswith('#') or string not in result:
             result.append(string)
+        elif len(result) > 0 and result[-1].startswith("# note:"):
+            # remove note associated with removed string
+            result.pop()
     return result
 
 # remove html-style tags
 def remove_tags(string):
     return re.sub('<[^>]*>', '', string)
+
+def dump_lines(filename, lines):
+    print("------------------------------------------", file=sys.stderr)
+    print(filename, file=sys.stderr)
+    print("------------------------------------------", file=sys.stderr)
+    for line in lines:
+        print(line, file=sys.stderr)
 
 ################################
 # Grammatical utility functions
@@ -847,11 +857,6 @@ def strip_uncompiled(lines):
 
     return result
 
-def dump_lines(filename, lines):
-    with open(filename, 'w') as f:
-        for line in lines:
-            f.write(f"{line}\n")
-
 # get file contents as list of lines
 # uncompiled sections are stripped out
 # comments are stripped out, apart from those containing directives for this script
@@ -1136,6 +1141,26 @@ def extract_lua_strings(line):
 
     return results
 
+def extract_strings_from_des_spellbook_line(line):
+    items = line.split('/')
+    strings = []
+    for item in items:
+        if 'randbook' not in item:
+            continue
+        #print('DEBUG:' + item, file=sys.stderr)
+        m = re.search(r'title:([^\s]+)', item)
+        if m:
+            subject = m.group(1).replace('_', ' ')
+            strings.append("# note: book subject")
+            strings.append(subject)
+        m = re.search(r'owner:([^\s]+)', item)
+        if m:
+            owner = m.group(1).replace('_', ' ')
+            if owner != "player":
+                strings.append("# note: book owner")
+                strings.append(owner)
+    return strings
+
 # where a name is overriden in a .des file, extract the new name and inflections
 def extract_strings_from_des_rebadge_line(line):
 
@@ -1229,7 +1254,7 @@ def extract_strings_from_des_rebadge_line(line):
     return strings
 
 
-def process_lua_file(filename):
+def process_des_or_lua_file(filename):
 
     is_des = filename.endswith('.des')
     is_portal = '/portals/' in filename
@@ -1240,52 +1265,43 @@ def process_lua_file(filename):
 
     raw_lines = data.splitlines()
     lines = []
+    
+    # remove comments and map sections
+    is_map = False
+    for line in raw_lines:
+        line = line.strip()
+        if line.startswith('--') or line.startswith('#'):
+            continue
+        elif line == '':
+            continue
+        elif line == "MAP":
+            is_map = True
+        elif line == "ENDMAP":
+            is_map = False
+        elif not is_map:
+            if is_des and line.startswith(':'):
+                # marker for single line of Lua
+                line = line[1:].strip()
+            lines.append(line)
+    raw_lines = lines
+    lines = []
 
     # a line ending in backslash means the statement continues on the next line
     for line in raw_lines:
         line = line.strip()
         if lines and lines[-1].endswith('\\'):
-            if is_des and line.startswith(":"):
-                line = line[1:].lstrip()
-            lines[-1] = lines[-1][:-1].rstrip() + " " + line
+            lines[-1] = lines[-1][:-1].rstrip()
+            if lines[-1].endswith(';'):
+                lines.append(line)
+            else:
+                lines[-1] += " " + line
         else:
             lines.append(line)
 
     raw_lines = lines
     lines = []
 
-    ignore = is_des
     for line in raw_lines:
-        if line.startswith('--') or line.startswith('#'):
-            # skip comments
-            continue
-        elif line == '':
-            continue
-
-        if is_des:
-            # lua code is surrounded by double curlies
-            if line.startswith(':'):
-                lines.append(line)
-                continue
-            elif "lua:" in line:
-                lines.append(line)
-                continue
-            elif re.search(r'\bname:', line):
-                lines.append(line)
-                continue
-
-            if '{{' in line and '}}' in line:
-                lines.append(line)
-                continue
-            elif '{{' in line:
-                ignore = False
-            elif '}}' in line:
-                lines.append(line)
-                ignore = True
-
-        if ignore:
-            continue
-
         concatenate = False
         if len(lines) > 0:
             if line.startswith('..') or lines[-1].endswith('..'):
@@ -1296,7 +1312,7 @@ def process_lua_file(filename):
                 concatenate = True
             elif line.startswith('or ') or lines[-1].endswith(' or'):
                 concatenate = True
-            elif re.search(r'=\s*\{$', lines[-1]):
+            elif lines[-1].endswith('{') and lines[-1] != '{{':
                 concatenate = True
 
         if concatenate:
@@ -1310,6 +1326,9 @@ def process_lua_file(filename):
     noise = None
     noisemaker = None
 
+    #if "bailey.des" in filename:
+    #    dump_lines(filename, lines)
+
     strings = []
     section = ''
     for line in lines:
@@ -1318,6 +1337,9 @@ def process_lua_file(filename):
             section = re.sub(r'\s*\(.*', '', section)
             strings.append('# section: ' + section)
             continue
+        #elif line.startswith('NAME:'):
+        #    section = line.replace("NAME:", "").strip()
+        #    strings.append('# section: ' + section)
 
         # don't extract map keys
         line = re.sub(r'\["[^"]*"\]', '[dummy]', line)
@@ -1327,9 +1349,6 @@ def process_lua_file(filename):
             m = re.search('(?<=")[^"]+(?=")', line)
             if m and m.group(0):
                 wizlab_descs.append(m.group(0))
-
-        if '"' not in line and "'" not in line and 'name:' not in line:
-            continue
 
         if is_portal:
             match = re.search(r'(?<=verb)\s*=\s*[\'"][^\'"]+(?=[\'"])', line)
@@ -1363,6 +1382,9 @@ def process_lua_file(filename):
                 # first param is a key
                 line = re.sub('"[^"]",', 'dummy,', line)
                 skip = False
+            elif 'randbook' in line:
+                strings.extend(extract_strings_from_des_spellbook_line(line))
+                continue
             elif re.search(r'\bname:', line):
                 strings.extend(extract_strings_from_des_rebadge_line(line))
                 continue
@@ -2924,6 +2946,8 @@ def post_process(filename, strings):
             strings.append(string)
         elif not ignore_string(string) and string not in strings:
             strings.append(string)
+        elif len(strings) > 0 and strings[-1].startswith('# note:'):
+            strings.pop()
 
     strings = remove_unnecessary_section_markers(strings)
 
@@ -2997,7 +3021,7 @@ for filename in files:
     elif filename.endswith('.yaml'):
         strings = process_yaml_file(filename)
     elif filename.endswith('.lua') or filename.endswith('.des'):
-        strings = process_lua_file(filename)
+        strings = process_des_or_lua_file(filename)
     else:
         strings = process_cplusplus_file(filename)
 
