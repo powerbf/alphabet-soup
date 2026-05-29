@@ -1337,9 +1337,9 @@ def process_des_or_lua_file(filename):
             section = re.sub(r'\s*\(.*', '', section)
             strings.append('# section: ' + section)
             continue
-        #elif line.startswith('NAME:'):
-        #    section = line.replace("NAME:", "").strip()
-        #    strings.append('# section: ' + section)
+        elif line.startswith('NAME:'):
+            section = line.replace("NAME:", "").strip()
+            strings.append('# section: ' + section)
 
         # don't extract map keys
         line = re.sub(r'\["[^"]*"\]', '[dummy]', line)
