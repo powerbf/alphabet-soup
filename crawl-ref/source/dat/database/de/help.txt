@@ -980,7 +980,8 @@ des Spielers sind verfügbar.
 %%%%
 cmd-hints-move
 <w>Shift-Richt.</w> läuft in eine Richtung
-<w>%</w> oder <w>%</w> : die Treppe hinauf-/hinabsteigen
+<w>%</w> oder <w>%</w> : die Treppe hinauf-/
+           hinabsteigen
 <w>%</w>        : Auto-Erkunden
 %%%%
 cmd-hints-rest
@@ -994,17 +995,17 @@ cmd-hints-rest
 %%%%
 cmd-hints-attack
 <h>Monster angreifen
-Wenn der Spieler gegen ein Monster läuft,
-greift er es mit der geführten Waffe oder
-mit bloßen Händen an.
+Wenn der Spieler gegen ein Monster
+läuft, greift er es mit der geführten
+Waffe oder mit bloßen Händen an.
 %%%%
 cmd-hints-ranged
 <h>Fernkampf und Magie
 <w>%</w> : Geschosse feuern/werfen
 <w>%</w>/<w>%</w> : Zauber wirken (<w>%?/%</w> listet Zauber auf)
 <w>%</w> : Zauber auswendiglernen und die
-    Zaubersammlung ansehen (Bücher sammeln
-        um sie zu erweitern)
+    Zaubersammlung ansehen (Bücher
+    sammeln um sie zu erweitern)
 %%%%
 cmd-hints-items
 <h>Gegenstandtypen und Inventarmanagement
@@ -1043,7 +1044,8 @@ cmd-hints-additional
 cmd-hints-targeting
 <h>Anvisieren
 <w>Enter</w> oder <w>.</w> oder <w>Del</w> : Ziel bestätigen
-<w>+</w> und <w>-</w> : Ziele durchschalten
+<w>+</w> und <w>-</w>  : Ziele durchschalten
 <w>f</w> oder <w>p</w> : auf vorheriges Ziel schießen
-         falls noch am Leben und in Sicht
+           falls noch am Leben und in
+           Sicht
 %%%%
