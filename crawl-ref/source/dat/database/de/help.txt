@@ -171,15 +171,15 @@ level-map
              (auch <w>Leertaste</w> oder eine beliebige unbenutzte Taste).
 <w>Richtung</w>   : Den Cursor bewegen.
 <w>Shift-Richt.</w> : Den Cursor in größeren Schritten bewegen (standardmäßig 7).
-<w>-</w> oder <w>+</w> : Ebenenkarte um 20 Felder nach oben oder unten scrollen.
+<w>-</w> oder <w>+</w>   : Ebenenkarte um 20 Felder nach oben oder unten scrollen.
 <w>.</w>          : Reise beginnen (auch <w>Enter</w> und <w>,</w> und <w>;</w>).
              (Bewegt den Cursor zum letzten Reiseziel, falls noch auf @.)
-<w>[</w> or <w>]</w>     : Die nächsthöhere oder -niedrigere Ebene untersuchen.
+<w>[</w> oder <w>]</w>   : Die nächsthöhere oder -niedrigere Ebene untersuchen.
              (Bewegt den Cursor zum Treppenziel, wenn eine bekannte Treppe
               hervorgehoben ist.)
 <w>G</w>          : Zu einer anderen Ebene gehen, nach Zweig und Tiefe.
 <w>o</w>          : Den Cursor zum nächsten Ziel der automatischen Erkundung bewegen.
-<w>{</w> or <w>}</w>     : Verkleinern oder Vergrößern (nur Kacheln).
+<w>{</w> oder <w>}</w>   : Verkleinern oder Vergrößern (nur Kacheln).
 
 <h>Reiseausschlüsse</h>
 <w>e</w>          : Einen Reiseausschluss erstellen, seinen Radius ändern oder ihn entfernen.
@@ -191,9 +191,9 @@ level-map
 <w>W</w>          : Wegpunkt auf der Ebene durchwechseln.
 
 <h>Einrichtungen durchwechseln</h>
-<w><<</w> or <w>></w>     : Treppen nach oben/unten durchwechseln.
+<w><<</w> oder <w>></w>   : Treppen nach oben/unten durchwechseln.
 <w>^</w>          : Fälle durchwechseln.
-<w>\</w> or <w>Tab</w>   : Läden und Portale durchwechseln.
+<w>\</w> oder <w>Tab</w> : Läden und Portale durchwechseln.
 <w>I</w>          : Vorwärts durch alle Gegenstände wechseln.
 <w>O</w>          : Rückwärts durch alle Gegenstände wechseln.
 <w>_</w>          : Altäre durchwechseln.
@@ -250,12 +250,12 @@ interlevel-travel.altar.prompt
 annotate.prompt
 
 <h>Annotieren (Ebene wählen):
- <w>Enter</w> or <w>.</w> : Aktuelle Ebene annotieren.
- <w>Buchstabe</w> : Eine Ebene im entsprechenden Zweig annotieren.
- <w><<</w>          : Die Ebene eine Treppe höher annotieren.
- <w>></w>          : Die Ebene eine Treppe tiefer annotieren.
- <w>Strg-P</w>     : Eine Ebene im nächsthöheren Zweig annotieren.
- <w>!</w>          : Liste der Kerker-Zweige anzeigen.
+ <w>Enter</w> oder <w>.</w> : Aktuelle Ebene annotieren.
+ <w>Buchstabe</w>    : Eine Ebene im entsprechenden Zweig annotieren.
+ <w><<</w>            : Die Ebene eine Treppe höher annotieren.
+ <w>></w>            : Die Ebene eine Treppe tiefer annotieren.
+ <w>Strg-P</w>       : Eine Ebene im nächsthöheren Zweig annotieren.
+ <w>!</w>            : Liste der Kerker-Zweige anzeigen.
 
 %%%%
 skill-menu
@@ -980,8 +980,8 @@ des Spielers sind verfügbar.
 %%%%
 cmd-hints-move
 <w>Shift-Richt.</w> läuft in eine Richtung
-<w>%</w> or <w>%</w> : die Treppe hinauf-/hinabsteigen
-<w>%</w>      : Auto-Erkunden
+<w>%</w> oder <w>%</w> : die Treppe hinauf-/hinabsteigen
+<w>%</w>        : Auto-Erkunden
 %%%%
 cmd-hints-rest
 <h>Rasten:
