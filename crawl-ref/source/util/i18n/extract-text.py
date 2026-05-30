@@ -1265,7 +1265,7 @@ def process_des_or_lua_file(filename):
 
     raw_lines = data.splitlines()
     lines = []
-    
+
     # remove comments and map sections
     is_map = False
     for line in raw_lines:
