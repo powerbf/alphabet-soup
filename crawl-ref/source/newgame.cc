@@ -684,7 +684,7 @@ static void _choose_name(newgame_def& ng, newgame_def& choice)
         else
         {
             overwrite_prompt = false;
-            if (key == 'Y')
+            if (key == localise_char('Y') || (key == 'Y' and localise_char('N') != 'Y'))
                 return done = true;
         }
         return true;
