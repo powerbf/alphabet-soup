@@ -242,7 +242,7 @@ Werfen von Bumerangs: mittels <input>$cmd[CMD_FIRE]</input><localtiles> oder
 <input>Mausklick</input></localtiles>. Du kannst das anvisierte Monster mit
 <input>$cmd[CMD_TARGET_CYCLE_FORWARD]</input> wechseln, wenn du im Ziel-Modus
 bist. Der Wurm ist harmlos, denn er befindet sich hinter der Lava. Konzentriere dich
-deswegen auf die Übungspuppe, die auf dich schießen kann. Bestätige
+deswegen auf die Trainingspuppe, die auf dich schießen kann. Bestätige
 deine Auswahl wieder mit <input>$cmd[CMD_TARGET_SELECT]</input> oder
 <input>Eingabe</input>.
 %%%%
