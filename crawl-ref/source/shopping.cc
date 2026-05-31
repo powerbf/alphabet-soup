@@ -1232,8 +1232,10 @@ void ShopMenu::resort()
              [this](MenuEntry* a, MenuEntry* b) -> bool
              {
                  const bool id = shoptype_identifies_stock(shop.type);
-                 return dynamic_cast<ShopEntry*>(a)->item->name(DESC_PLAIN, false, id)
-                        < dynamic_cast<ShopEntry*>(b)->item->name(DESC_PLAIN, false, id);
+                 auto itema = dynamic_cast<ShopEntry *>(a)->item;
+                 auto itemb = dynamic_cast<ShopEntry *>(b)->item;
+                 return localise(itema->name(DESC_PLAIN, false, id))
+                        < localise(itemb->name(DESC_PLAIN, false, id));
              });
         break;
     case NUM_ORDERS:
