@@ -3273,8 +3273,9 @@ void melee_attack::do_starlight()
     if (one_chance_in(5) && dazzle_monster(attacker->as_monster(), 100))
     {
         string msg = *random_iterator(dazzle_msgs);
+        msg = localise(msg);
         msg = do_mon_str_replacements(msg, *attacker->as_monster(), S_SILENT);
-        mpr(msg);
+        mpr_nolocalise(msg);
     }
 }
 
