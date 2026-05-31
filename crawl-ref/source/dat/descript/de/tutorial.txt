@@ -131,7 +131,7 @@ tutorial1 exit
 
 :nowrap
 <yellow>Bewegungsbefehle</yellow>
-Num-Block:       <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cmd[CMD_MOVE_UP] $cmd[CMD_MOVE_UP_RIGHT]</w>
+Num-Block:       <w>7 8 9</w>        vi-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cmd[CMD_MOVE_UP] $cmd[CMD_MOVE_UP_RIGHT]</w>
                   \|/                         \|/
                  <w>4</w>-<w>.</w>-<w>6</w>                       <w>$cmd[CMD_MOVE_LEFT]</w>-<w>.</w>-<w>$cmd[CMD_MOVE_RIGHT]</w>
                   /|\                         /|\
@@ -143,7 +143,7 @@ Num-Block:       <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $c
 <yellow>Treppen</yellow>
   <input>$cmd[CMD_GO_UPSTAIRS]</input>  gehe zurück zur vorherigen Ebene
   <input>$cmd[CMD_GO_DOWNSTAIRS]</input>  betrete die nächste Ebene
-  <input>$cmd[CMD_DISPLAY_MAP]></input>/<input>$cmd[CMD_DISPLAY_MAP]<<</input> gehe zur nächsten Treppe, die nach oben oder unten führt
+  <input>$cmd[CMD_DISPLAY_MAP]></input>/<input>$cmd[CMD_DISPLAY_MAP]<<</input> gehe zur nächsten Treppe, die nach unten oder oben führt
 
 <yellow>Türen</yellow>
   können geöffnet werden, indem man in sie hinein läuft
