@@ -57,7 +57,7 @@ tutorial1 levelmap
 Was ist das? Um herauszufinden, wo du bist, <tiles>werfe einen Blick auf die
 <w>Mini-Karte</w> am rechten Bildschirmrand.</tiles><localtiles> Du kannst
 dir einen Kartenausschnitt mit <input>Rechts-Klick</input> genauer ansehen
-und außerdem mit <input>Links-Klick</input> dort hingehen.</localtiles><webtiles> Die
+und außerdem mit <input>Linksklick</input> dort hingehen.</localtiles><webtiles> Die
 Übersichtskarte kannst du mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und
 dann den Cursor herumbewegen, um dich auf der Ebene umzuschauen. Wo auch immer
 dein Cursor hinzeigt, kannst du dich mit einem Druck auf <input>.</input> oder
@@ -340,7 +340,7 @@ tutorial3 downstairs
 
 Gut gekämpft! Wenn nötig, raste nun mit <input>$cmd[CMD_REST]</input>, dann
 gehe weiter hinunter mit <input>$cmd[CMD_GO_DOWNSTAIRS]</input><localtiles>
-oder mit einem <input>Shift-Klick</input> auf deinen Charakter.</localtiles>.
+oder mit einem <input>Shift-Klick</input> auf deinen Charakter</localtiles>.
 %%%%
 tutorial3 command_help
 
@@ -388,14 +388,14 @@ tutorial3 wand_digging
 
 Ein Zauberstab des Grabens kann Felswände zerstören. Verwende
 <input>$cmd[CMD_LOOK_AROUND]][$cmd[CMD_TARGET_DESCRIBE]</input>
-<localtiles>oder fahre mit der <input>Maus</input> über eine Wand und
-mach einen <input>Rechtsklick</input> </localtiles>, um die Art der Wand
+<localtiles> oder fahre mit der <input>Maus</input> über eine Wand und
+mach einen <input>Rechtsklick</input></localtiles>, um die Art der Wand
 zu prüfen.
 %%%%
 tutorial3 amulet
 
 Schmuck wird mit <input>$cmd[CMD_WEAR_JEWELLERY]</input><localtiles> oder
-einem <input>Mausklick</input> in die Inventarleiste </localtiles>
+einem <input>Mausklick</input> in die Inventarleiste</localtiles>
 angelegt.
 %%%%
 tutorial3 drop
@@ -403,7 +403,7 @@ tutorial3 drop
 Dieses Amulett wäre sehr mächtig, wenn dein Charakter einen Gott verehren
 würde, aber hier und jetzt ist es nutzlos. Du möchtest es vielleicht fallen
 lassen, indem du <input>$cmd[CMD_DROP]</input> drückst<localtiles>, oder per
-<input>Shift-Links-Klick</input> darauf in der Inventarleiste</localtiles>.
+<input>Shift-Linksklick</input> darauf in der Inventarleiste</localtiles>.
 %%%%
 tutorial3 gold
 
