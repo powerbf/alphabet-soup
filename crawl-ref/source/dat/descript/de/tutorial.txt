@@ -2,7 +2,7 @@
 tutorial intro
 
 Alle Meldungen kannst du jederzeit noch mal mit
-<input>$cmd[CMD_REPLAY_MESSAGES]</input> lesen. Um die <cyan>--more--</cyan>
+<input>$cmd[CMD_REPLAY_MESSAGES]</input> lesen. Um die <cyan>--mehr--</cyan>
 Meldung zu bestätigen, drücke die <input>Leertaste</input>.
 
 %%%%
@@ -21,7 +21,7 @@ tutorial1 start
 
 In dieser Lektion lernst du wie man herumwandert und eine Ebene erkundet. Du
 kannst dich mit den <input>Pfeiltasten</input> bewegen<localtiles>, oder indem
-du irgendwohin mit der <input>Maus</input>klickst</localtiles>.
+du irgendwohin mit der <input>Maus</input> klickst</localtiles>.
 %%%%
 tutorial1 go_on
 
@@ -31,8 +31,8 @@ blaue Feld erreichst.
 tutorial1 diagonal
 
 :nowrap
-Du kannst dich diagonal bewegen, indem du den <input>Nummern-Block</input> (probiere Numlock an/aus) oder die <input>Vorgabe-Tasten</input> benutzt.
-Num-Block:      <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cmd[CMD_MOVE_UP] $cmd[CMD_MOVE_UP_RIGHT]</w>
+Du kannst dich diagonal bewegen, indem du den <input>Nummernblock</input> (probiere Num-Lock an/aus) oder die <input>vi-Tasten</input> benutzt.
+Num-Block:      <w>7 8 9</w>        vi-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cmd[CMD_MOVE_UP] $cmd[CMD_MOVE_UP_RIGHT]</w>
                  \|/                         \|/
                 <w>4</w>-<w>.</w>-<w>6</w>                       <w>$cmd[CMD_MOVE_LEFT]</w>-<w>.</w>-<w>$cmd[CMD_MOVE_RIGHT]</w>
                  /|\                         /|\
@@ -43,8 +43,8 @@ Num-Block:      <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cm
 tutorial1 shiftmove
 
 Eine schnellere Möglichkeit, durch einen Gang zu "rennen", ist es
-<input>Shift</input> zusammen mit dem <input>Tastenfeld</input> zu drücken.
-(probiere es mit Num-Lock ein/aus) oder mit <input>vi Tasten</input>.
+<input>Shift</input> zusammen mit dem <input>Nummernblock</input> zu drücken
+(probiere es mit Num-Lock ein/aus) oder mit den <input>vi-Tasten</input>.
 %%%%
 tutorial1 downstairs
 
@@ -57,7 +57,7 @@ tutorial1 levelmap
 Was ist das? Um herauszufinden, wo du bist, <tiles>werfe einen Blick auf die
 <w>Mini-Karte</w> am rechten Bildschirmrand.</tiles><localtiles> Du kannst
 dir einen Kartenausschnitt mit <input>Rechts-Klick</input> genauer ansehen
-und außerdem mit <input>Links-Klick</input> dort hingehen.</localtiles><webtiles> Die
+und außerdem mit <input>Linksklick</input> dort hingehen.</localtiles><webtiles> Die
 Übersichtskarte kannst du mit <input>$cmd[CMD_DISPLAY_MAP]</input> aufrufen und
 dann den Cursor herumbewegen, um dich auf der Ebene umzuschauen. Wo auch immer
 dein Cursor hinzeigt, kannst du dich mit einem Druck auf <input>.</input> oder
@@ -79,7 +79,7 @@ tutorial1 exclusion
 
 Einige gefährliche Gegenden sind mit <w>Reiseausschlüssen</w> markiert. Die
 Auto-Erkundung<localtiles> (<input>Mausklick</input> eingeschlossen!)
-</localtiles> führt dich nicht in diese ausgeschlossenen Gebiete. Stattdessen
+</localtiles>führt dich nicht in diese ausgeschlossenen Gebiete. Stattdessen
 hältst du automatisch an.
 
 Aber, Auto-Erkundung führt dich sicher um diese Ausschlüsse herum, sodass
@@ -91,7 +91,7 @@ Auto-Erkunden stoppt, wenn du zum ersten Mal Besonderheiten und Gegenstände
 siehst, so wie diese Treppe. Um direkt zur Treppe zu gehen, kannst du <localtiles>auf sie
 <input>klicken</input> oder du kannst</localtiles> <input>$cmd[CMD_DISPLAY_MAP]</input>
 drücken, um die Übersichtskarte zu öffnen, dann <input><<</input> um den Cursor zur nächsten
-nach oben führenden Treppe zu bewegen und <input>[Eingabe]</input> um zu dieser zu gehen.
+nach oben führenden Treppe zu bewegen und <input>Eingabe</input> um zu dieser zu gehen.
 %%%%
 tutorial1 tutorial_end
 
@@ -119,7 +119,7 @@ Um eine offene Tür zu schließen, drücke <input>$cmd[CMD_CLOSE_DOOR]</input>.
 %%%%
 tutorial1 water
 
-Beachte, dass du durch flaches, aber nicht durch tiefes Wasser laufen kannst.
+Beachte, dass du durch seichtes, aber nicht durch tiefes Wasser laufen kannst.
 %%%%
 tutorial1 upstairs
 
@@ -131,7 +131,7 @@ tutorial1 exit
 
 :nowrap
 <yellow>Bewegungsbefehle</yellow>
-Num-Block:       <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cmd[CMD_MOVE_UP] $cmd[CMD_MOVE_UP_RIGHT]</w>
+Num-Block:       <w>7 8 9</w>        vi-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $cmd[CMD_MOVE_UP] $cmd[CMD_MOVE_UP_RIGHT]</w>
                   \|/                         \|/
                  <w>4</w>-<w>.</w>-<w>6</w>                       <w>$cmd[CMD_MOVE_LEFT]</w>-<w>.</w>-<w>$cmd[CMD_MOVE_RIGHT]</w>
                   /|\                         /|\
@@ -143,7 +143,7 @@ Num-Block:       <w>7 8 9</w>     Vorg.-Tasten:     <w>$cmd[CMD_MOVE_UP_LEFT] $c
 <yellow>Treppen</yellow>
   <input>$cmd[CMD_GO_UPSTAIRS]</input>  gehe zurück zur vorherigen Ebene
   <input>$cmd[CMD_GO_DOWNSTAIRS]</input>  betrete die nächste Ebene
-  <input>$cmd[CMD_DISPLAY_MAP]></input>/<input>$cmd[CMD_DISPLAY_MAP]<<</input> gehe zur nächsten Treppe, die nach oben oder unten führt
+  <input>$cmd[CMD_DISPLAY_MAP]></input>/<input>$cmd[CMD_DISPLAY_MAP]<<</input> gehe zur nächsten Treppe, die nach unten oder oben führt
 
 <yellow>Türen</yellow>
   können geöffnet werden, indem man in sie hinein läuft
@@ -242,7 +242,7 @@ Werfen von Bumerangs: mittels <input>$cmd[CMD_FIRE]</input><localtiles> oder
 <input>Mausklick</input></localtiles>. Du kannst das anvisierte Monster mit
 <input>$cmd[CMD_TARGET_CYCLE_FORWARD]</input> wechseln, wenn du im Ziel-Modus
 bist. Der Wurm ist harmlos, denn er befindet sich hinter der Lava. Konzentriere dich
-deswegen auf die Übungspuppe, die auf dich schießen kann. Bestätige
+deswegen auf die Trainingspuppe, die auf dich schießen kann. Bestätige
 deine Auswahl wieder mit <input>$cmd[CMD_TARGET_SELECT]</input> oder
 <input>Eingabe</input>.
 %%%%
@@ -340,7 +340,7 @@ tutorial3 downstairs
 
 Gut gekämpft! Wenn nötig, raste nun mit <input>$cmd[CMD_REST]</input>, dann
 gehe weiter hinunter mit <input>$cmd[CMD_GO_DOWNSTAIRS]</input><localtiles>
-oder mit einem <input>Shift-Klick</input> auf deinen Charakter.</localtiles>.
+oder mit einem <input>Shift-Klick</input> auf deinen Charakter</localtiles>.
 %%%%
 tutorial3 command_help
 
@@ -388,14 +388,14 @@ tutorial3 wand_digging
 
 Ein Zauberstab des Grabens kann Felswände zerstören. Verwende
 <input>$cmd[CMD_LOOK_AROUND]][$cmd[CMD_TARGET_DESCRIBE]</input>
-<localtiles>oder fahre mit der <input>Maus</input> über eine Wand und
-mach einen <input>Rechtsklick</input> </localtiles>, um die Art der Wand
+<localtiles> oder fahre mit der <input>Maus</input> über eine Wand und
+mach einen <input>Rechtsklick</input></localtiles>, um die Art der Wand
 zu prüfen.
 %%%%
 tutorial3 amulet
 
 Schmuck wird mit <input>$cmd[CMD_WEAR_JEWELLERY]</input><localtiles> oder
-einem <input>Mausklick</input> in die Inventarleiste </localtiles>
+einem <input>Mausklick</input> in die Inventarleiste</localtiles>
 angelegt.
 %%%%
 tutorial3 drop
@@ -403,7 +403,7 @@ tutorial3 drop
 Dieses Amulett wäre sehr mächtig, wenn dein Charakter einen Gott verehren
 würde, aber hier und jetzt ist es nutzlos. Du möchtest es vielleicht fallen
 lassen, indem du <input>$cmd[CMD_DROP]</input> drückst<localtiles>, oder per
-<input>Shift-Links-Klick</input> darauf in der Inventarleiste</localtiles>.
+<input>Shift-Linksklick</input> darauf in der Inventarleiste</localtiles>.
 %%%%
 tutorial3 gold
 
