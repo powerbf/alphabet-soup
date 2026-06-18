@@ -612,7 +612,7 @@ tutorial4 exit
   <input>$cmd[CMD_MEMORISE_SPELL]</input>  einen Zauberspruch lernen
   <input>$cmd[CMD_DISPLAY_SPELLS]</input>  Zauberkenntnisse prüfen
   <input>$cmd[CMD_CAST_SPELL]</input>  einen Zauber wirken<localtiles>
-  Ausserdem kannst du neue Zaubersprüche über den <w>Reiter Auswendiglernen</w> lernen.
+  Außerdem kannst du neue Zaubersprüche über den <w>Reiter Auswendiglernen</w> lernen.
   Bereits erlernte Zauber wirkst du mit <input>Linksklick</input> und du liest ihre Beschreibung und überprüfst deine Zauberkenntnisse,
   indem du mit der <input>Maus</input> über sie fährst oder einen <input>Rechtsklick</input> auf sie machst</localtiles>
   <input>$cmd[CMD_QUIVER_ITEM]</input>  belege deinen Köcher
@@ -637,7 +637,7 @@ anzeigen lassen, die bereits gefunden wurden.
 %%%%
 tutorial5 altar
 
-Du kannst an einem Altar mit <input>$cmd[CMD_PRAY]</input> beten<localtiles>
+Du kannst an einem Altar mit <input>$cmd[CMD_GO_DOWNSTAIRS]</input> beten<localtiles>
 (oder mit <input>Linksklick</input> auf deinen Charakter)</localtiles>, um zu
 erfahren, was ein Gott dir anbietet und dem Glauben beizutreten. Wenn du
 <input>!</input> drückst<localtiles> oder einen <input>Rechtsklick</input>
@@ -666,7 +666,7 @@ tutorial5 berserk
 
 Gegen besonders starke Gegner möchtest du vielleicht mit
 <input>$cmd[CMD_USE_ABILITY]</input><localtiles> oder über die
-<w>Befehlsleiste</w></localtiles> Trog's Fähigkeit der Berserkerwut nutzen.
+<w>Befehlsleiste</w></localtiles> Trogs Fähigkeit der Berserkerwut nutzen.
 %%%%
 tutorial5 exhaustion
 
@@ -690,10 +690,10 @@ Um das Tutorial zu verlassen, gehe einfach diese Treppe hinunter.
 tutorial5 exit
 
 :nowrap
-<yellow>Religions Befehle</yellow>
+<yellow>Religionsbefehle</yellow>
   <input>$cmd[CMD_GO_DOWNSTAIRS]</input>  bete an einem Altar, um dich einem Gott anzuschließen
   <input>$cmd[CMD_USE_ABILITY]</input>  benutze eine göttliche Fähigkeit
-  <input>$cmd[CMD_DISPLAY_RELIGION]</input> den Stand deines Glaubens prüfen<localtiles>
+  <input>$cmd[CMD_DISPLAY_RELIGION]</input>  den Stand deines Glaubens prüfen<localtiles>
   Ein <input>Rechtsklick</input> auf deine Spielfigur öffnet ebenfalls die Glaubensübersicht.</localtiles>
 
 <yellow>Rasten</yellow>

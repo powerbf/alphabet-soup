@@ -9235,7 +9235,7 @@ Lua death function for monster '%s' didn't load: %s
 Die Lua-Todesfunktion für das Monster '%s' wurde nicht geladen: %s
 %%%%
 You feel the power of %s in you as your rage grows.
-Du spürst {gen}%s Macht in dir, während deine Wut wächst.
+Du spürst die Macht {gen}%s in dir, während deine Wut wächst.
 %%%%
 The necklace of Bloodlust glows a violent red.
 Die Kette des Blutrausches leuchtet heftig rot.
