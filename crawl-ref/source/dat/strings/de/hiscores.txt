@@ -263,7 +263,7 @@ von sich selbst %s
 # verbs used above
 %%%%
 Slain
-Erschlagen
+Getötet
 %%%%
 Mangled
 Zerfetzt
@@ -295,7 +295,7 @@ blasted by %s
 gesprengt von {dat}%s
 %%%%
 slain by %s
-erschlagen von {dat}%s
+getötet von {dat}%s
 %%%%
 # <monster's> headbutt (terse)
 %s headbutt
