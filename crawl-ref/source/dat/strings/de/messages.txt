@@ -7768,7 +7768,7 @@ You claw %s
 Du zerkratzt {acc}%s
 %%%%
 You pierce %s
-Du durchstichst {acc}%s
+Du stichst {acc}%s
 %%%%
 your tentacle spike
 dein Tentakelstachel
@@ -7867,7 +7867,7 @@ You clumsily bash %s
 Du schlägst {acc}%s ungeschickt
 %%%%
 You puncture %s
-Du durchstichst {acc}%s
+Du punktierst {acc}%s
 %%%%
 You impale %s
 Du spießt {acc}%s auf
