@@ -3241,3 +3241,31 @@ string localise_player_title(const string& text)
     result = _localise_player_title("", text);
     return result.empty() ? text : result;
 }
+
+void localise_prompt_and_replies(const string &prompt_en, const std::vector<int> &replies_en,
+                                 string &prompt, std::vector<int> &replies)
+{
+    prompt = prompt_en;
+    replies = replies_en;
+    if (!localisation_active()) {
+        return;
+    }
+
+    string new_prompt = localise(prompt_en);
+    if (new_prompt == "" || new_prompt == prompt_en) {
+        return;
+    }
+
+    prompt = new_prompt;
+    size_t pos = prompt.find('(');
+    size_t i = 0;
+    while (pos != string::npos && i < replies_en.size()) {
+        pos++;
+        if (pos >= prompt.length()) {
+            break;
+        }
+        replies[i] = prompt[pos];
+        pos = prompt.find('(', pos);
+        i++;
+    }
+}

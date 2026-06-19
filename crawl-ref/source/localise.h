@@ -118,3 +118,10 @@ string localise_contextual(const string& context, const string& text_en);
  * Localise a player title
  */
 string localise_player_title(const string& text);
+
+/**
+ * Localise prompt and replies to that prompt
+ * Replies are derives from the translated prompt (expected to be in round braces)
+ */
+void localise_prompt_and_replies(const string &prompt_en, const std::vector<int> &replies_en,
+                                 string &prompt, std::vector<int> &replies);

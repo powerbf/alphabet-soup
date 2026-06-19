@@ -11,6 +11,7 @@
 #include "libutil.h"
 #include "invent.h"
 #include "items.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "prompt.h"
@@ -22,15 +23,28 @@ static void _adjust_ability();
 
 void adjust()
 {
-    mprf(MSGCH_PROMPT, "Adjust (i)tems, (s)pells, or (a)bilities? ");
+    const string prompt_en = "Adjust (i)tems, (s)pells, or (a)bilities?";
+    vector<int> replies_en = {'i', 's', 'a'};
+    string prompt;
+    vector<int> replies;
+
+    localise_prompt_and_replies(prompt_en, replies_en, prompt, replies);
+
+    mprf(MSGCH_PROMPT, "%s ", prompt.c_str());
 
     const int keyin = toalower(get_ch());
 
-    if (keyin == 'i')
+    if (keyin == replies[0])
         adjust_item();
-    else if (keyin == 's')
+    else if (keyin == replies[1])
         _adjust_spell();
-    else if (keyin == 'a')
+    else if (keyin == replies[2])
+        _adjust_ability();
+    else if (keyin == replies_en[0])
+        adjust_item();
+    else if (keyin == replies_en[1])
+        _adjust_spell();
+    else if (keyin == replies_en[2])
         _adjust_ability();
     else if (key_is_escape(keyin))
         canned_msg(MSG_OK);
