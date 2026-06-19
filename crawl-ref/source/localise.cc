@@ -2294,6 +2294,21 @@ static string _localise_string(const string context, const string& value)
         return _discard_context(result);
     }
 
+    // try translation without whitespace
+    string trimmed = trimmed_string(value);
+    if (trimmed == "") {
+        return value;
+    }
+    else if (trimmed != value) {
+        size_t pos = value.find(trimmed);
+        string leading = value.substr(0, pos);
+        pos += trimmed.length();
+        string trailing = value.substr(pos);
+        result = cxlate(context, trimmed, false);
+        if (!result.empty())
+            return leading + _shift_context(result) + trailing;
+    }
+
     // do the gross stuff
     result = _reverse_engineer_parameterised_string(value);
     if (result != "")

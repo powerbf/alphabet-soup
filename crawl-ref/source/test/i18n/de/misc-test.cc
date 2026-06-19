@@ -463,6 +463,9 @@ int main()
     msg = localise("Adjust to which letter? ");
     show_result(msg, "An welchen Buchstaben binden? ");
 
+    msg = localise("Adjust (i)tems, (s)pells, or (a)bilities? ");
+    show_result(msg, "(i)Gegenstände, (s)Zauber, oder (a)Fähigkeiten anpassen? ");
+
     // test annotation
     msg = localise("{book}");
     show_result(msg, "{Buch}");
