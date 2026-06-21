@@ -1,0 +1,2321 @@
+###############################################################################
+#
+# Translations for book titles
+#
+###############################################################################
+
+#################################
+# Skill manuals
+# "a manual of <whatever>"
+#################################
+
+# these never get the definite article ("the")
+# they can appear with no article though
+# suffixes are in item-suffixes.txt
+
+%%%%
+a manual
+um manual
+%%%%
+
+#################################
+# Standard spellbooks
+# "a book of <whatever>"
+#################################
+
+# these never get the definite article ("the")
+# they can appear with no article though
+
+%%%%
+a book of Minor Magic
+um livro de Magia Menor
+%%%%
+a book of Conjurations
+um livro de Conjurações
+%%%%
+a book of Flames
+um livro de Chamas
+%%%%
+a book of Frost
+um livro de Gelo
+%%%%
+a book of the Dryads
+um livro das Dríades
+%%%%
+a book of Fire
+um livro de Fogo
+%%%%
+a book of Ice
+um livro de Gelo
+%%%%
+a book of Spatial Translocations
+um livro de Translocações Espaciais
+%%%%
+a book of Hexes
+um livro de Malefícios
+%%%%
+a book of Lightning
+um livro de Relâmpagos
+%%%%
+a book of Death
+um livro de Morte
+%%%%
+a book of Misfortune
+um livro de Infortúnio
+%%%%
+a book of Changes
+um livro de Mudanças
+%%%%
+a book of Transfigurations
+um livro de Transfigurações
+%%%%
+a book of Battle
+um livro de Batalha
+%%%%
+a book of Vapours
+um livro de Vapores
+%%%%
+a book of Necromancy
+um livro de Necromancia
+%%%%
+a book of Callings
+um livro de Invocações
+%%%%
+a book of Maledictions
+um livro de Maldições
+%%%%
+a book of Air
+um livro de Ar
+%%%%
+a book of the Sky
+um livro do Céu
+%%%%
+a book of the Warp
+um livro da Distorção
+%%%%
+a book of Annihilations
+um livro de Aniquilação
+%%%%
+a book of Unlife
+um livro da Não-vida
+%%%%
+a book of Geomancy
+um livro de Geomancia
+%%%%
+a book of the Earth
+um livro da Terra
+%%%%
+a book of Power
+um livro de Poder
+%%%%
+a book of Cantrips
+um livro de Truques
+%%%%
+a book of Party Tricks
+um livro de Truques de Festa
+%%%%
+a book of Debilitation
+um livro de Debilitação
+%%%%
+a book of the Dragon
+um livro do Dragão
+%%%%
+a book of Burglary
+um livro de Roubo
+%%%%
+a book of Dreams
+um livro de Sonhos
+%%%%
+a book of Alchemy
+um livro de Alquimia
+%%%%
+a book of Beasts
+um livro das Bestas
+%%%%
+a book of Spectacle
+um livro de Espetáculo
+%%%%
+a book of Winter
+um livro do Inverno
+%%%%
+a book of the Spheres
+um livro das Esferas
+%%%%
+a book of Armaments
+um livro de Armamentos
+%%%%
+a book of Pain
+um livro da Dor
+%%%%
+a book of Decay
+um livro de Decadência
+%%%%
+a book of Displacement
+um livro de Deslocamento
+%%%%
+a book of Rime
+um livro de Geada
+%%%%
+a book of Stone
+um livro de Pedra
+%%%%
+a book of the Senses
+um livro dos Sentidos
+%%%%
+a book of Blasting
+um livro de Explosão
+%%%%
+a book of Iron
+um livro de Ferro
+%%%%
+a book of the Tundra
+um livro da Tundra
+%%%%
+a book of the Moon
+um livro da Lua
+%%%%
+a book of Storms
+um livro de Tempestades
+%%%%
+a book of Weapons
+um livro de Armas
+%%%%
+a book of Sloth
+um livro da Preguiça
+%%%%
+a book of Blood
+um livro de Sangue
+%%%%
+a book of Dangerous Friends
+um livro de Amigos Perigosos
+%%%%
+a book of Touch
+um livro do Toque
+%%%%
+a book of Chaos
+um livro do Caos
+%%%%
+a book of the Hunter
+um livro do Caçador
+%%%%
+
+#################################
+# Fixed artefact spellbooks
+#################################
+
+# If listed with "a/an", it can also appear with no article, but never with 
+"the".
+# If listed with "the", it always appears that way.
+# If listed with no article, it always appears that way.
+
+%%%%
+a Necronomicon
+um Necronomicon
+%%%%
+a Grand Grimoire
+um Grande Grimório
+%%%%
+an Everburning Encyclopedia
+uma Enciclopédia Sempre-Ardente
+%%%%
+# we use Anleitung for manual so we can use Handbuch here
+a Young Poisoner's Handbook
+um Manual para Jovens Envenenadores
+%%%%
+a Fen Folio
+um Folio do Pântano
+%%%%
+an Inescapable Atlas
+um Atlas Inescapável
+%%%%
+a There-And-Back Book
+um Livro de Vaivém
+%%%%
+a Trismegistus Codex
+um Códice de Trismegisto
+%%%%
+
+%%%%
+the Unrestrained Analects
+os Analectos Desregrados
+%%%%
+
+%%%%
+Ozocubu's Autobiography
+Autobiografia de Ozocubu
+%%%%
+Great Wizards, Vol. II
+Grandes Magos, Vol. II
+%%%%
+Great Wizards, Vol. VII
+Grandes Magos, Vol. VII
+%%%%
+
+#################################
+# Random artefact spellbooks
+#################################
+
+# generic names
+%%%%
+the Tome of @book_magic@
+o Tomo de @book_magic@
+%%%%
+the Grimoire of @book_magic@
+o Grimório de @book_magic@
+%%%%
+the Almanac of @book_magic@
+o Almanaque de @book_magic@
+%%%%
+the Volume of @book_magic@
+o Volume de @book_magic@
+%%%%
+the Compendium of @book_magic@
+o Compêndio de @book_magic@
+%%%%
+the Handbook of @book_magic@
+o Manual de @book_magic@
+%%%%
+the Incunabulum of @book_magic@
+o Incunábulo de @book_magic@
+%%%%
+the Papyrus of @book_magic@
+o Papiro de @book_magic@
+%%%%
+the Catalogue of @book_magic@
+o Catálogo de @book_magic@
+%%%%
+the Guide on @book_magic@
+o Guia sobre @book_magic@
+%%%%
+the Collected Works on @book_magic@
+as Obras Completas sobre @book_magic@
+%%%%
+the Disquisition on @book_magic@
+a Dissertação sobre @book_magic@
+%%%%
+the Reference Book on @book_magic@
+o Livro de Referência sobre @book_magic@
+%%%%
+
+# generic names capitalised
+%%%%
+The Tome of @book_magic@
+O Tomo de @book_magic@
+%%%%
+The Grimoire of @book_magic@
+O Grimório de @book_magic@
+%%%%
+The Almanac of @book_magic@
+O Almanaque de @book_magic@
+%%%%
+The Volume of @book_magic@
+O Volume de @book_magic@
+%%%%
+The Compendium of @book_magic@
+O Compêndio de @book_magic@
+%%%%
+The Handbook of @book_magic@
+O Manual de @book_magic@
+%%%%
+The Incunabulum of @book_magic@
+O Incunábulo de @book_magic@
+%%%%
+The Papyrus of @book_magic@
+O Papiro de @book_magic@
+%%%%
+The Catalogue of @book_magic@
+O Catálogo de @book_magic@
+%%%%
+The Guide on @book_magic@
+O Guia sobre @book_magic@
+%%%%
+The Collected Works on @book_magic@
+As Obras Completas sobre @book_magic@
+%%%%
+The Disquisition on @book_magic@
+A Dissertação sobre @book_magic@
+%%%%
+The Reference Book on @book_magic@
+O Livro de Referência sobre @book_magic@
+%%%%
+
+# generic names with owner
+%%%%
+@owner@'s Tome of @book_magic@
+Tomo de @book_magic@ de @owner@
+%%%%
+@owner@'s Grimoire of @book_magic@
+Grimório de @book_magic@ de @owner@
+%%%%
+@owner@'s Almanac of @book_magic@
+Almanaque de @book_magic@ de @owner@
+%%%%
+@owner@'s Volume of @book_magic@
+Volume de @book_magic@ de @owner@
+%%%%
+@owner@'s Compendium of @book_magic@
+Compêndio de @book_magic@ de @owner@
+%%%%
+@owner@'s Handbook of @book_magic@
+Manual de @book_magic@ de @owner@
+%%%%
+@owner@'s Incunabulum of @book_magic@
+Incunábulo de @book_magic@ de @owner@
+%%%%
+@owner@'s Papyrus of @book_magic@
+Papiro de @book_magic@ de @owner@
+%%%%
+@owner@'s Catalogue of @book_magic@
+Catálogo de @book_magic@ de @owner@
+%%%%
+@owner@'s Guide on @book_magic@
+Guia sobre @book_magic@ de @owner@
+%%%%
+@owner@'s Collected Works on @book_magic@
+Obras Completas sobre @book_magic@ de @owner@
+%%%%
+@owner@'s Disquisition on @book_magic@
+Dissertação sobre @book_magic@ de @owner@
+%%%%
+@owner@'s Reference Book on @book_magic@
+Livro de Referência sobre @book_magic@ de @owner@
+%%%%
+
+# owners who are not listed elsewhere as gods or unique monsters
+# note: a randomly-generated name is also possible
+%%%%
+Alistair
+Alistair
+%%%%
+Borgnjor
+Borgnjor
+%%%%
+Cigotuvi
+Cigotuvi
+%%%%
+Iskenderun
+Iskenderun
+%%%%
+Lee
+Lee
+%%%%
+Lehudib
+Lehudib
+%%%%
+Olgreb
+Olgreb
+%%%%
+Ozocubu
+Ozocubu
+%%%%
+
+# owners from .des files
+%%%%
+Golubria
+Golubria
+%%%%
+Plato
+Platão
+%%%%
+Ts'ui Pên
+Ts'ui Pên
+%%%%
+
+# titles of the form "@book_magic@, Part @level@"
+%%%%
+@book_magic@, Part One
+@book_magic@, Parte Um
+%%%%
+@book_magic@, Part Two
+@book_magic@, Parte Dois
+%%%%
+@book_magic@, Part Three
+@book_magic@, Parte Três
+%%%%
+@book_magic@, Part Four
+@book_magic@, Parte Quatro
+%%%%
+@book_magic@, Part Five
+@book_magic@, Parte Cinco
+%%%%
+@book_magic@, Part Six
+@book_magic@, Parte Seis
+%%%%
+
+%%%%
+@owner@'s @book_magic@, Part One
+@book_magic@ de @owner@, Parte Um
+%%%%
+@owner@'s @book_magic@, Part Two
+@book_magic@ de @owner@, Parte Dois
+%%%%
+@owner@'s @book_magic@, Part Three
+@book_magic@ de @owner@, Parte Três
+%%%%
+@owner@'s @book_magic@, Part Four
+@book_magic@ de @owner@, Parte Quatro
+%%%%
+@owner@'s @book_magic@, Part Five
+@book_magic@ de @owner@, Parte Cinco
+%%%%
+@owner@'s @book_magic@, Part Six
+@book_magic@ de @owner@, Parte Seis
+%%%%
+
+# titles of the form "Easy/Advanced/Sophisticated @book_magic@"
+%%%%
+@Adj@ Magic
+@Adj@ Magia
+%%%%
+@Adj@ Theurgy
+@Adj@ Teurgia
+%%%%
+@Adj@ Thaumaturgy
+@Adj@ Taumaturgia
+%%%%
+@Adj@ Casting
+@Adj@ Conjuração
+%%%%
+@Adj@ Spellcasting
+@Adj@ Lançamento de Magias
+%%%%
+@Adj@ Wizardry
+@Adj@ Magia
+%%%%
+@Adj@ Sorcery
+@Adj@ Feitiçaria
+%%%%
+@Adj@ Witchcraft
+@Adj@ Bruxaria
+%%%%
+@Adj@ Witchery
+@Adj@ Bruxaria
+%%%%
+@Adj@ Spellcraft
+@Adj@ Arte Mágica
+%%%%
+@Adj@ Spellweaving
+@Adj@ Tecelagem de Magias
+%%%%
+@Adj@ Secret Knowledge
+@Adj@ Conhecimento Secreto
+%%%%
+@Adj@ Rites and Rhymes
+@Adj@ Ritos e Rimas
+%%%%
+@Adj@ Hermeneutics
+@Adj@ Hermenêutica
+%%%%
+
+%%%%
+@owner@'s @Adj@ Magic
+Magia @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Theurgy
+Teurgia @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Thaumaturgy
+Taumaturgia @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Casting
+Conjuração @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Spellcasting
+Lançamento de Magias @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Wizardry
+Magia @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Sorcery
+Feitiçaria @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Witchcraft
+Bruxaria @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Witchery
+Bruxaria @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Spellcraft
+Arte Mágica @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Spellweaving
+Tecelagem de Magias @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Secret Knowledge
+Conhecimento Secreto @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Rites and Rhymes
+Ritos e Rimas @adj@ de @owner@
+%%%%
+@owner@'s @Adj@ Hermeneutics
+Hermenêutica @adj@ de @owner@
+%%%%
+
+# adjectives for above
+%%%%
+{adj-e}Easy
+Fácil
+%%%%
+{adj-e}Advanced
+Avançada
+%%%%
+{adj-e}Sophisticated
+Sofisticada
+%%%%
+
+%%%%
+{adj-es}Easy
+Fácil
+%%%%
+{adj-es}Advanced
+Avançado
+%%%%
+{adj-es}Sophisticated
+Sofisticado
+%%%%
+
+# level 1
+# starting level book
+#
+# A Beginning Course on @_the_book_magic_@
+# An Introduction to @_the_book_magic_@
+# An Initiation to @_the_book_magic_@
+# First Steps in @_the_book_magic_@
+# @_the_book_magic_@ for @_beginners_@
+# @_the_book_magic_@ 101
+# @_the_book_magic_@, Part One
+
+%%%%
+A Beginning Course on @book_magic@
+Um Curso Inicial de @book_magic@
+%%%%
+An Introduction to @book_magic@
+Uma Introdução a @book_magic@
+%%%%
+An Initiation to @book_magic@
+Uma Iniciação a @book_magic@
+%%%%
+First Steps in @book_magic@
+Primeiros Passos em @book_magic@
+%%%%
+
+%%%%
+@owner@'s Beginning Course on @book_magic@
+Curso Inicial de @book_magic@ de @owner@
+%%%%
+@owner@'s Introduction to @book_magic@
+Introdução a @book_magic@ de @owner@
+%%%%
+@owner@'s Initiation to @book_magic@
+Iniciação a @book_magic@ de @owner@
+%%%%
+@owner@'s First Steps in @book_magic@
+Primeiros Passos em @book_magic@ de @owner@
+%%%%
+
+%%%%
+@book_magic@ for Beginners
+@book_magic@ para Iniciantes
+%%%%
+@book_magic@ for Neophytes
+@book_magic@ para Neófitos
+%%%%
+@book_magic@ for Novices
+@book_magic@ para Noviços
+%%%%
+@book_magic@ for Rookies
+@book_magic@ para Iniciantes
+%%%%
+@book_magic@ for Absolute Beginners
+@book_magic@ para Iniciantes Absolutos
+%%%%
+@book_magic@ for Dummies
+@book_magic@ para Leigos
+%%%%
+@book_magic@ 101
+@book_magic@ 101
+%%%%
+
+%%%%
+@owner@'s @book_magic@ for Beginners
+@book_magic@ para Iniciantes de @owner@
+%%%%
+@owner@'s @book_magic@ for Neophytes
+@book_magic@ para Neófitos de @owner@
+%%%%
+@owner@'s @book_magic@ for Novices
+@book_magic@ para Noviços de @owner@
+%%%%
+@owner@'s @book_magic@ for Rookies
+@book_magic@ para Iniciantes de @owner@
+%%%%
+@owner@'s @book_magic@ for Absolute Beginners
+@book_magic@ para Iniciantes Absolutos de @owner@
+%%%%
+@owner@'s @book_magic@ for Dummies
+@book_magic@ para Leigos de @owner@
+%%%%
+@owner@'s @book_magic@ 101
+@book_magic@ 101 de @owner@
+%%%%
+
+# level 2-4
+# easy level book
+#
+# A Primer on @_the_book_magic_@
+# An Early Guide to @_the_book_magic_@
+# The Foundations of @_book_magic_@
+# @_the_book_magic_@ in Simple Steps
+# Easy @_book_magic_@
+# @_the_book_magic_@, Part @level@
+# @_the_book_magic_@ Continued
+# @_book_magic_@, and How To Use It
+
+%%%%
+A Primer on @book_magic@
+Um Manual Básico de @book_magic@
+%%%%
+An Early Guide to @book_magic@
+Um Guia Inicial de @book_magic@
+%%%%
+The Foundations of @book_magic@
+Os Fundamentos de @book_magic@
+%%%%
+@book_magic@ in Simple Steps
+@book_magic@ em Passos Simples
+%%%%
+@book_magic@ Continued
+@book_magic@ Continuado
+%%%%
+@book_magic@, and How To Use It
+@book_magic@, e Como Usá-lo
+%%%%
+
+%%%%
+@owner@'s Primer on @book_magic@
+Manual Básico de @book_magic@ de @owner@
+%%%%
+@owner@'s Early Guide to @book_magic@
+Guia Inicial de @book_magic@ de @owner@
+%%%%
+@owner@'s Foundations of @book_magic@
+Fundamentos de @book_magic@ de @owner@
+%%%%
+@owner@'s @book_magic@ in Simple Steps
+@book_magic@ em Passos Simples de @owner@
+%%%%
+@owner@'s @book_magic@ Continued
+@book_magic@ Continuado de @owner@
+%%%%
+@owner@'s @book_magic@, and How To Use It
+@book_magic@ de @owner@, e Como Usá-lo
+%%%%
+
+# level 4-6
+# moderate level book
+#
+# Advanced Steps in @_the_book_magic_@
+# The Advanced Guide to @_the_book_magic_@
+# Further Steps in @_the_book_magic_@
+# @_the_book_magic_@, Part @level@
+# Advanced @_book_magic_@
+# Sophisticated @_book_magic_@
+# Further Progress in @_the_book_magic_@
+# The Second Course in @_the_book_magic_@
+# Improving Your @_book_magic_@
+%%%%
+Advanced Steps in @book_magic@
+Passos Avançados em @book_magic@
+%%%%
+The Advanced Guide to @book_magic@
+O Guia Avançado de @book_magic@
+%%%%
+Further Steps in @book_magic@
+Mais Passos em @book_magic@
+%%%%
+Further Progress in @book_magic@
+Mais Progresso em @book_magic@
+%%%%
+The Second Course in @book_magic@
+O Segundo Curso de @book_magic@
+%%%%
+
+%%%%
+@owner@'s Advanced Steps in @book_magic@
+Passos Avançados em @book_magic@ de @owner@
+%%%%
+@owner@'s Advanced Guide to @book_magic@
+Guia Avançado de @book_magic@ de @owner@
+%%%%
+@owner@'s Further Steps in @book_magic@
+Mais Passos em @book_magic@ de @owner@
+%%%%
+@owner@'s Further Progress in @book_magic@
+Mais Progresso em @book_magic@ de @owner@
+%%%%
+@owner@'s Second Course in @book_magic@
+Segundo Curso de @book_magic@ de @owner@
+%%%%
+
+# Improving Your @book_magic@
+%%%%
+Improving Your Magic
+Aperfeiçoando Sua Magia
+%%%%
+Improving Your Theurgy
+Aperfeiçoando Sua Teurgia
+%%%%
+Improving Your Thaumaturgy
+Aperfeiçoando Sua Taumaturgia
+%%%%
+Improving Your Casting
+Aperfeiçoando Sua Conjuração
+%%%%
+Improving Your Spellcasting
+Aperfeiçoando Seu Lançamento de Magias
+%%%%
+Improving Your Wizardry
+Aperfeiçoando Sua Magia
+%%%%
+Improving Your Sorcery
+Aperfeiçoando Sua Feitiçaria
+%%%%
+Improving Your Witchcraft
+Aperfeiçoando Sua Bruxaria
+%%%%
+Improving Your Witchery
+Aperfeiçoando Sua Bruxaria
+%%%%
+Improving Your Spellcraft
+Aperfeiçoando Sua Arte Mágica
+%%%%
+Improving Your Spellweaving
+Aperfeiçoando Sua Tecelagem de Magias
+%%%%
+Improving Your Secret Knowledge
+Aperfeiçoando Seu Conhecimento Secreto
+%%%%
+Improving Your Rites and Rhymes
+Aperfeiçoando Seus Ritos e Rimas
+%%%%
+Improving Your Hermeneutics
+Aperfeiçoando Sua Hermenêutica
+%%%%
+
+# @owner@'s Improving Your @book_magic@
+%%%%
+@owner@'s Improving Your Magic
+Aperfeiçoando Sua Magia de @owner@
+%%%%
+@owner@'s Improving Your Theurgy
+Aperfeiçoando Sua Teurgia de @owner@
+%%%%
+@owner@'s Improving Your Thaumaturgy
+Aperfeiçoando Sua Taumaturgia de @owner@
+%%%%
+@owner@'s Improving Your Casting
+Aperfeiçoando Sua Conjuração de @owner@
+%%%%
+@owner@'s Improving Your Spellcasting
+Aperfeiçoando Seu Lançamento de Magias de @owner@
+%%%%
+@owner@'s Improving Your Wizardry
+Aperfeiçoando Sua Magia de @owner@
+%%%%
+@owner@'s Improving Your Sorcery
+Aperfeiçoando Sua Feitiçaria de @owner@
+%%%%
+@owner@'s Improving Your Witchcraft
+Aperfeiçoando Sua Bruxaria de @owner@
+%%%%
+@owner@'s Improving Your Witchery
+Aperfeiçoando Sua Bruxaria de @owner@
+%%%%
+@owner@'s Improving Your Spellcraft
+Aperfeiçoando Sua Arte Mágica de @owner@
+%%%%
+@owner@'s Improving Your Spellweaving
+Aperfeiçoando Sua Tecelagem de Magias de @owner@
+%%%%
+@owner@'s Improving Your Secret Knowledge
+Aperfeiçoando Seu Conhecimento Secreto de @owner@
+%%%%
+@owner@'s Improving Your Rites and Rhymes
+Aperfeiçoando Seus Ritos e Rimas de @owner@
+%%%%
+@owner@'s Improving Your Hermeneutics
+Aperfeiçoando Sua Hermenêutica de @owner@
+%%%%
+
+# level 7-9
+# difficult level book
+#
+# A Thorough Guide to @_the_book_magic_@
+# The @_last_or_lost_@ Secrets of @_the_book_magic_@
+# The Arcane Secrets of @_book_magic_@
+# The Intricacies of @_the_book_magic_@
+# The @book_noun@ of Greatest Risks and Utility
+# Mastering @_book_magic_@
+# The Testament of @_the_powerful_caster_@
+# The @_last_or_lost_@ @book_noun@ of @_the_powerful_caster_@
+%%%%
+A Thorough Guide to @book_magic@
+Um Guia Completo de @book_magic@
+%%%%
+The Last Secrets of @book_magic@
+Os Últimos Segredos de @book_magic@
+%%%%
+The Lost Secrets of @book_magic@
+Os Segredos Perdidos de @book_magic@
+%%%%
+The Arcane Secrets of @book_magic@
+Os Segredos Arcanos de @book_magic@
+%%%%
+The Intricacies of @book_magic@
+As Complexidades de @book_magic@
+%%%%
+Mastering @book_magic@
+Dominando @book_magic@
+%%%%
+The Testament of @spellcaster@
+O Testamento de @spellcaster@
+%%%%
+
+%%%%
+The Last Tome of @spellcaster@
+O Último Tomo de @spellcaster@
+%%%%
+The Last Grimoire of @spellcaster@
+O Último Grimório de @spellcaster@
+%%%%
+The Last Almanac of @spellcaster@
+O Último Almanaque de @spellcaster@
+%%%%
+The Last Volume of @spellcaster@
+O Último Volume de @spellcaster@
+%%%%
+The Last Compendium of @spellcaster@
+O Último Compêndio de @spellcaster@
+%%%%
+The Last Handbook of @spellcaster@
+O Último Manual de @spellcaster@
+%%%%
+The Last Incunabulum of @spellcaster@
+O Último Incunábulo de @spellcaster@
+%%%%
+The Last Papyrus of @spellcaster@
+O Último Papiro de @spellcaster@
+%%%%
+The Last Catalogue of @spellcaster@
+O Último Catálogo de @spellcaster@
+%%%%
+
+%%%%
+The Lost Tome of @spellcaster@
+O Tomo Perdido de @spellcaster@
+%%%%
+The Lost Grimoire of @spellcaster@
+O Grimório Perdido de @spellcaster@
+%%%%
+The Lost Almanac of @spellcaster@
+O Almanaque Perdido de @spellcaster@
+%%%%
+The Lost Volume of @spellcaster@
+O Volume Perdido de @spellcaster@
+%%%%
+The Lost Compendium of @spellcaster@
+O Compêndio Perdido de @spellcaster@
+%%%%
+The Lost Handbook of @spellcaster@
+O Manual Perdido de @spellcaster@
+%%%%
+The Lost Incunabulum of @spellcaster@
+O Incunábulo Perdido de @spellcaster@
+%%%%
+The Lost Papyrus of @spellcaster@
+O Papiro Perdido de @spellcaster@
+%%%%
+The Lost Catalogue of @spellcaster@
+O Catálogo Perdido de @spellcaster@
+%%%%
+
+# suffix: of @spellcaster@
+%%%%
+{gen}Boris
+de Boris
+%%%%
+# duplicate (see gods.txt)
+#{gen}Sif Muna
+#
+%%%%
+{gen}the Archmage
+do Arquimago
+%%%%
+{gen}the Deep Elf Lorekeeper
+do Sábio dos Elfos Profundos
+%%%%
+{gen}the Blind Seer
+do Vidente Cego
+%%%%
+{gen}the Prophet
+do Profeta
+%%%%
+{gen}the Greatest Mummy
+da Maior Múmia
+%%%%
+
+# The @book_noun@ of Greatest Risks and Utility
+# Turn it around and handle the suffix as "of @book magic@"
+%%%%
+{gen}Greatest Risks and Utility
+dos Maiores Riscos e da Maior Utilidade
+%%%%
+
+# level 7-9, books in the form of "XYZ's <bookname>"
+# _difficult level book owner_
+#
+# (the ones with the suffix " of @spellcaster@" won't be used in this form)
+
+%%%%
+@owner@'s Thorough Guide to @book_magic@
+Guia Completo de @book_magic@ de @owner@
+%%%%
+@owner@'s Last Secrets of @book_magic@
+Últimos Segredos de @book_magic@ de @owner@
+%%%%
+@owner@'s Lost Secrets of @book_magic@
+Segredos Perdidos de @book_magic@ de @owner@
+%%%%
+@owner@'s Arcane Secrets of @book_magic@
+Segredos Arcanos de @book_magic@ de @owner@
+%%%%
+@owner@'s Intricacies of @book_magic@
+Complexidades de @book_magic@ de @owner@
+%%%%
+@owner@'s Mastering @book_magic@
+Dominando @book_magic@ de @owner@
+%%%%
+
+
+# @book_magic@ nominative
+%%%%
+the Arcane Arts
+as Artes Arcanas
+%%%%
+the Hermit's Heritage
+a Herança do Eremita
+%%%%
+Magic
+Magia
+%%%%
+Theurgy
+Teurgia
+%%%%
+Thaumaturgy
+Taumaturgia
+%%%%
+# duplicate: This is also used for the targeter when casting targeted spells
+#Casting
+#
+%%%%
+# duplicate (see skills.txt)
+#Spellcasting
+#
+%%%%
+Wizardry
+Magia
+%%%%
+Sorcery
+Feitiçaria
+%%%%
+Witchcraft
+Bruxaria
+%%%%
+Witchery
+Bruxaria
+%%%%
+Spellcraft
+Arte Mágica
+%%%%
+Spellweaving
+Tecelagem de Magias
+%%%%
+Secret Knowledge
+Conhecimento Secreto
+%%%%
+Rites and Rhymes
+Ritos e Rimas
+%%%%
+Hermeneutics
+Hermenêutica
+%%%%
+
+# @book_magic@ accusative
+# since there is no masculine, these are all the same as nominative
+
+# of @book_magic@
+%%%%
+{gen}the Arcane Arts
+das Artes Arcanas
+%%%%
+{gen}the Hermit's Heritage
+da Herança do Eremita
+%%%%
+{gen}Magic
+da Magia
+%%%%
+{gen}Theurgy
+da Teurgia
+%%%%
+{gen}Thaumaturgy
+da Taumaturgia
+%%%%
+{gen}Casting
+da Conjuração
+%%%%
+{gen}Spellcasting
+do Lançamento de Magias
+%%%%
+{gen}Wizardry
+da Magia
+%%%%
+{gen}Sorcery
+da Feitiçaria
+%%%%
+{gen}Witchcraft
+da Bruxaria
+%%%%
+{gen}Witchery
+da Bruxaria
+%%%%
+{gen}Spellcraft
+da Arte Mágica
+%%%%
+{gen}Spellweaving
+da Tecelagem de Magias
+%%%%
+{gen}Secret Knowledge
+do Conhecimento Secreto
+%%%%
+{gen}Rites and Rhymes
+de Ritos e Rimas
+%%%%
+{gen}Hermeneutics
+da Hermenêutica
+%%%%
+
+# in @book_magic@ (dative)
+%%%%
+{in-dat}the Arcane Arts
+nas Artes Arcanas
+%%%%
+{in-dat}the Hermit's Heritage
+na Herança do Eremita
+%%%%
+{in-dat}Magic
+na Magia
+%%%%
+{in-dat}Theurgy
+na Teurgia
+%%%%
+{in-dat}Thaumaturgy
+na Taumaturgia
+%%%%
+{in-dat}Casting
+na Conjuração
+%%%%
+{in-dat}Spellcasting
+no Lançamento de Magias
+%%%%
+{in-dat}Wizardry
+na Magia
+%%%%
+{in-dat}Sorcery
+na Feitiçaria
+%%%%
+{in-dat}Witchcraft
+na Bruxaria
+%%%%
+{in-dat}Witchery
+na Bruxaria
+%%%%
+{in-dat}Spellcraft
+na Arte Mágica
+%%%%
+{in-dat}Spellweaving
+na Tecelagem de Magias
+%%%%
+{in-dat}Secret Knowledge
+no Conhecimento Secreto
+%%%%
+{in-dat}in Rites and Rhymes
+em Ritos e Rimas
+%%%%
+{in-dat}Hermeneutics
+na Hermenêutica
+%%%%
+
+# for generic books, @book_magic@ can be related to 1 or 2 spell schools:
+# a) (@owner@'s) <whatever> of/on @<primary school>@
+# b) (@owner@'s) <whatever> of/on @<primary school>@ and @<secondary school>@
+# c) (@owner@'s) <whatever> of/on @<secondary school adj>@ @<primary school>@
+
+# conjuration
+%%%%
+%sConjuration
+%sConjuração
+%%%%
+%sConfrontation
+%sConfrontação
+%%%%
+%sAttacks
+%sAtaques
+%%%%
+%sBattle Magic
+%sMagia de Batalha
+%%%%
+%sCombat Magic
+%sMagia de Combate
+%%%%
+%sArcane Weapons
+%sArmas Arcanas
+%%%%
+# "Blows and Bruises" are one thing in English, but here we separate because we
+# could have "and" between two schools and the code won't know not to separate 
+these
+%sBlows
+%sGolpes
+%%%%
+%sBruises
+%sContusões
+%%%%
+%sDamage Dealing
+%sCausar Dano
+%%%%
+
+# Fire
+%%%%
+%sFire
+%sFogo
+%%%%
+%sFlames
+%sChamas
+%%%%
+%sHeat
+%sCalor
+%%%%
+the %sVolcanoes
+os %sVulcões
+%%%%
+the %sBlaze
+a %sChama
+%%%%
+%sIgnition
+%sIgnição
+%%%%
+the %sArsonist
+o %sArsonita
+%%%%
+
+# Hexes
+%%%%
+%sHexes
+%sMalefícios
+%%%%
+%sCurses
+%sMaldições
+%%%%
+%sMalediction
+%sMalefício
+%%%%
+the %sOath
+o %sJuramento
+%%%%
+%sExecration
+%sExecração
+%%%%
+%sEnchantment
+%sEncantamento
+%%%%
+%sBewitchment
+%sMalefício
+%%%%
+%sGlamour
+%sEncantamento
+%%%%
+%sFascination
+%sFascinação
+%%%%
+%sBeguiling
+%sSedução
+%%%%
+
+# Ice
+%%%%
+%sIce
+%sGelo
+%%%%
+%sSnow
+%sNeve
+%%%%
+%sCold
+%sFrio
+%%%%
+the %sSnowflakes
+os %sFlocos de Neve
+%%%%
+the %sGlacier
+a %sGeleira
+%%%%
+the %sFrostbite
+a %sQueimadura de Frio
+%%%%
+
+# Transmutation
+%%%%
+%sTransmigration
+%sTransmigração
+%%%%
+%sTransmutation
+%sTransmutação
+%%%%
+%sTransformation
+%sTransformação
+%%%%
+%sShape Shifting
+%sMudança de Forma
+%%%%
+%sChanging
+%sMudança
+%%%%
+%sMoulding
+%sMoldagem
+%%%%
+
+# Necromancy
+%%%%
+%sNecromancy
+%sNecromancia
+%%%%
+%sEvil
+%sMal
+%%%%
+%sDarkness
+%sEscuridão
+%%%%
+%sStolen Souls
+%sAlmas Roubadas
+%%%%
+%sRites
+%sRitos
+%%%%
+%sArts
+%sArtes
+%%%%
+%sSecrets
+%sSegredos
+%%%%
+%sRituals
+%sRituais
+%%%%
+%sMagic
+%sMagia
+%%%%
+
+# Summoning
+%%%%
+%sSummoning
+%sInvocação
+%%%%
+%sCalling
+%sChamado
+%%%%
+%sCreation
+%sCriação
+%%%%
+the %sEntourage
+a %sComitiva
+%%%%
+%sCompanions
+%sCompanheiros
+%%%%
+the %sEscort
+a %sEscolta
+%%%%
+%sIllusion
+%sIlusão
+%%%%
+%sSlavery
+%sEscravidão
+%%%%
+
+# Translocation
+%%%%
+%sTranslocation
+%sTranslocação
+%%%%
+%sDisplacement
+%sDeslocamento
+%%%%
+%sDislocation
+%sDislocação
+%%%%
+%sOrientation
+%sOrientação
+%%%%
+the %sTraveller
+o %sViajante
+%%%%
+the %sCompass
+a %sBússola
+%%%%
+the %sVoyage
+a %sViagem
+%%%%
+
+# Poison
+%%%%
+%sPoison
+%sVeneno
+%%%%
+%sVenom
+%sVeneno
+%%%%
+%sToxins
+%sToxinas
+%%%%
+%sPoisoning
+%sEnvenenamento
+%%%%
+%sIntoxication
+%sIntoxicação
+%%%%
+%sEnvenoming
+%sEnvenenamento
+%%%%
+%sContamination
+%sContaminação
+%%%%
+
+# Earth
+%%%%
+%sEarth
+%sTerra
+%%%%
+%sStones
+%sPedras
+%%%%
+%sClay
+%sArgila
+%%%%
+the %sMountains
+as %sMontanhas
+%%%%
+the %sRocks
+as %sRochas
+%%%%
+
+# Air
+%%%%
+%sAir
+%sAr
+%%%%
+%sLightness
+%sLeveza
+%%%%
+%sWeightlessness
+%sAusência de Peso
+%%%%
+%sFlight
+%sVoo
+%%%%
+the %sBirds
+os %sPássaros
+%%%%
+%sFeathers
+%sPenas
+%%%%
+
+# genitive
+
+# conjuration genitive
+%%%%
+{gen}%sConjuration
+da %sConjuração
+%%%%
+{gen}%sConfrontation
+da %sConfrontação
+%%%%
+{gen}%sAttacks
+dos %sAtaques
+%%%%
+{gen}%sBattle Magic
+da %sMagia de Batalha
+%%%%
+{gen}%sCombat Magic
+da %sMagia de Combate
+%%%%
+{gen}%sArcane Weapons
+das %sArmas Arcanas
+%%%%
+{gen}%sBlows
+dos %sGolpes
+%%%%
+{gen}%sBruises
+das %sContusões
+%%%%
+{gen}%sDamage Dealing
+de %sCausar Dano
+%%%%
+
+# Fire genitive
+%%%%
+{gen}%sFire
+do %sFogo
+%%%%
+{gen}%sFlames
+das %sChamas
+%%%%
+{gen}%sHeat
+do %sCalor
+%%%%
+{gen}the %sVolcanoes
+dos %sVulcões
+%%%%
+{gen}the %sBlaze
+da %sChama
+%%%%
+{gen}%sIgnition
+da %sIgnição
+%%%%
+{gen}the %sArsonist
+do %sIncendiário
+%%%%
+
+# Hexes genitive
+%%%%
+{gen}%sHexes
+dos %sMalefícios
+%%%%
+{gen}%sCurses
+das %sMaldições
+%%%%
+{gen}%sMalediction
+do %sMalefício
+%%%%
+{gen}the %sOath
+do %sJuramento
+%%%%
+{gen}%sExecration
+da %sExecração
+%%%%
+{gen}%sEnchantment
+do %sEncantamento
+%%%%
+{gen}%sBewitchment
+do %sMalefício
+%%%%
+{gen}%sGlamour
+do %sEncantamento
+%%%%
+{gen}%sFascination
+da %sFascinação
+%%%%
+{gen}%sBeguiling
+da %sSedução
+%%%%
+
+# Ice genitive
+%%%%
+{gen}%sIce
+do %sGelo
+%%%%
+{gen}%sSnow
+da %sNeve
+%%%%
+{gen}%sCold
+do %sFrio
+%%%%
+{gen}the %sSnowflakes
+dos %sFlocos de Neve
+%%%%
+{gen}the %sGlacier
+da %sGeleira
+%%%%
+{gen}the %sFrostbite
+da %sQueimadura de Frio
+%%%%
+
+# Transmutation genitive
+%%%%
+{gen}%sTransmigration
+da %sTransmigração
+%%%%
+{gen}%sTransmutation
+da %sTransmutação
+%%%%
+{gen}%sTransformation
+da %sTransformação
+%%%%
+{gen}%sShape Shifting
+da %sMudança de Forma
+%%%%
+{gen}%sChanging
+da %sMudança
+%%%%
+{gen}%sMoulding
+da %sMoldagem
+%%%%
+
+# Necromancy genitive
+%%%%
+{gen}%sNecromancy
+da %sNecromancia
+%%%%
+{gen}%sEvil
+do %sMal
+%%%%
+{gen}%sDarkness
+da %sEscuridão
+%%%%
+{gen}%sStolen Souls
+das %sAlmas Roubadas
+%%%%
+{gen}%sRites
+dos %sRitos
+%%%%
+{gen}%sArts
+das %sArtes
+%%%%
+{gen}%sSecrets
+dos %sSegredos
+%%%%
+{gen}%sRituals
+dos %sRituais
+%%%%
+{gen}%sMagic
+da %sMagia
+%%%%
+
+# Summoning genitive
+%%%%
+{gen}%sSummoning
+da %sInvocação
+%%%%
+{gen}%sCalling
+do %sChamado
+%%%%
+{gen}%sCreation
+da %sCriação
+%%%%
+{gen}the %sEntourage
+da %sComitiva
+%%%%
+{gen}%sCompanions
+dos %sCompanheiros
+%%%%
+{gen}the %sEscort
+da %sEscolta
+%%%%
+{gen}%sIllusion
+da %sIlusão
+%%%%
+{gen}%sSlavery
+da %sEscravidão
+%%%%
+
+# Translocation genitive
+%%%%
+{gen}%sTranslocation
+da %sTranslocação
+%%%%
+{gen}%sDisplacement
+do %sDeslocamento
+%%%%
+{gen}%sDislocation
+da %sDislocação
+%%%%
+{gen}%sOrientation
+da %sOrientação
+%%%%
+{gen}the %sTraveller
+do %sViajante
+%%%%
+{gen}the %sCompass
+da %sBússola
+%%%%
+{gen}the %sVoyage
+da %sViagem
+%%%%
+
+# Poison genitive
+%%%%
+{gen}%sPoison
+do %sVeneno
+%%%%
+{gen}%sVenom
+do %sVeneno
+%%%%
+{gen}%sToxins
+das %sToxinas
+%%%%
+{gen}%sPoisoning
+do %sEnvenenamento
+%%%%
+{gen}%sIntoxication
+da %sIntoxicação
+%%%%
+{gen}%sEnvenoming
+do %sEnvenenamento
+%%%%
+{gen}%sContamination
+da %sContaminação
+%%%%
+
+# Earth genitive
+%%%%
+{gen}%sEarth
+da %sTerra
+%%%%
+{gen}%sStones
+das %sPedras
+%%%%
+{gen}%sClay
+da %sArgila
+%%%%
+{gen}the %sMountains
+das %sMontanhas
+%%%%
+{gen}the %sRocks
+das %sRochas
+%%%%
+
+# Air genitive
+%%%%
+{gen}%sAir
+do %sAr
+%%%%
+{gen}%sLightness
+da %sLeveza
+%%%%
+{gen}%sWeightlessness
+da %sAusência de Peso
+%%%%
+{gen}%sFlight
+do %sVoo
+%%%%
+{gen}the %sBirds
+dos %sPássaros
+%%%%
+{gen}%sFeathers
+das %sPenas
+%%%%
+
+# genitive without adjective
+
+# conjuration genitive
+%%%%
+{gen}Conjuration
+da Conjuração
+%%%%
+{gen}Confrontation
+da Confrontação
+%%%%
+{gen}Attacks
+dos Ataques
+%%%%
+{gen}Battle Magic
+da Magia de Batalha
+%%%%
+{gen}Combat Magic
+da Magia de Combate
+%%%%
+{gen}Arcane Weapons
+das Armas Arcanas
+%%%%
+{gen}Blows
+dos Golpes
+%%%%
+{gen}Bruises
+das Contusões
+%%%%
+{gen}Damage Dealing
+de Causar Dano
+%%%%
+
+# Fire genitive
+%%%%
+{gen}Fire
+do Fogo
+%%%%
+{gen}Flames
+das Chamas
+%%%%
+{gen}Heat
+do Calor
+%%%%
+{gen}the Volcanoes
+dos Vulcões
+%%%%
+{gen}the Blaze
+da Chama
+%%%%
+{gen}Ignition
+da Ignição
+%%%%
+{gen}the Arsonist
+do Incendiário
+%%%%
+
+# Hexes genitive
+%%%%
+{gen}Hexes
+dos Malefícios
+%%%%
+{gen}Curses
+das Maldições
+%%%%
+{gen}Malediction
+do Malefício
+%%%%
+{gen}the Oath
+do Juramento
+%%%%
+{gen}Execration
+da Execração
+%%%%
+{gen}Enchantment
+do Encantamento
+%%%%
+{gen}Bewitchment
+do Malefício
+%%%%
+{gen}Glamour
+do Encantamento
+%%%%
+{gen}Fascination
+da Fascinação
+%%%%
+{gen}Beguiling
+da Sedução
+%%%%
+
+# Ice genitive
+%%%%
+{gen}Ice
+do Gelo
+%%%%
+{gen}Snow
+da Neve
+%%%%
+{gen}Cold
+do Frio
+%%%%
+{gen}the Snowflakes
+dos Flocos de Neve
+%%%%
+{gen}the Glacier
+da Geleira
+%%%%
+{gen}the Frostbite
+da Queimadura de Frio
+%%%%
+
+# Transmutation genitive
+%%%%
+{gen}Transmigration
+da Transmigração
+%%%%
+{gen}Transmutation
+da Transmutação
+%%%%
+{gen}Transformation
+da Transformação
+%%%%
+{gen}Shape Shifting
+da Mudança de Forma
+%%%%
+{gen}Changing
+da Mudança
+%%%%
+{gen}Moulding
+da Moldagem
+%%%%
+
+# Necromancy genitive
+%%%%
+{gen}Necromancy
+da Necromancia
+%%%%
+{gen}Evil
+do Mal
+%%%%
+{gen}Darkness
+da Escuridão
+%%%%
+{gen}Stolen Souls
+das Almas Roubadas
+%%%%
+{gen}Rites
+dos Ritos
+%%%%
+{gen}Arts
+das Artes
+%%%%
+{gen}Secrets
+dos Segredos
+%%%%
+{gen}Rituals
+dos Rituais
+%%%%
+# duplicate
+#{gen}Magic
+#
+%%%%
+
+# Summoning genitive
+%%%%
+{gen}Summoning
+da Invocação
+%%%%
+{gen}Calling
+do Chamado
+%%%%
+{gen}Creation
+da Criação
+%%%%
+{gen}the Entourage
+da Comitiva
+%%%%
+{gen}Companions
+dos Companheiros
+%%%%
+{gen}the Escort
+da Escolta
+%%%%
+{gen}Illusion
+da Ilusão
+%%%%
+{gen}Slavery
+da Escravidão
+%%%%
+
+# Translocation genitive
+%%%%
+{gen}Translocation
+da Translocação
+%%%%
+{gen}Displacement
+do Deslocamento
+%%%%
+{gen}Dislocation
+da Dislocação
+%%%%
+{gen}Orientation
+da Orientação
+%%%%
+{gen}the Traveller
+do Viajante
+%%%%
+{gen}the Compass
+da Bússola
+%%%%
+{gen}the Voyage
+da Viagem
+%%%%
+
+# Poison genitive
+%%%%
+{gen}Poison
+do Veneno
+%%%%
+{gen}Venom
+do Veneno
+%%%%
+{gen}Toxins
+das Toxinas
+%%%%
+{gen}Poisoning
+do Envenenamento
+%%%%
+{gen}Intoxication
+da Intoxicação
+%%%%
+{gen}Envenoming
+do Envenenamento
+%%%%
+{gen}Contamination
+da Contaminação
+%%%%
+
+# Earth genitive
+%%%%
+{gen}Earth
+da Terra
+%%%%
+{gen}Stones
+das Pedras
+%%%%
+{gen}Clay
+da Argila
+%%%%
+{gen}the Mountains
+das Montanhas
+%%%%
+{gen}the Rocks
+das Rochas
+%%%%
+
+# Air genitive
+%%%%
+{gen}Air
+do Ar
+%%%%
+{gen}Lightness
+da Leveza
+%%%%
+{gen}Weightlessness
+da Ausência de Peso
+%%%%
+{gen}Flight
+do Voo
+%%%%
+{gen}the Birds
+dos Pássaros
+%%%%
+{gen}Feathers
+das Penas
+%%%%
+
+# Conjuration adj
+%%%%
+"Destructive "
+"Destrutiva "
+%%%%
+"Hurtful "
+"Dolorosa "
+%%%%
+"Excruciating "
+"Excruciante "
+%%%%
+"Lethal "
+"Letal "
+%%%%
+
+# Hexes adj
+%%%%
+"Enchanting "
+"Encantadora "
+%%%%
+"Bewitching "
+"Enfeitiçadora "
+%%%%
+"Captivating "
+"Cativante "
+%%%%
+"Fetching "
+"Atraente "
+%%%%
+"Enthralling "
+"Arrebatadora "
+%%%%
+"Ensnaring "
+"Enredadora "
+%%%%
+"Entrancing "
+"Fascinante "
+%%%%
+
+# Fire adj
+%%%%
+"Fiery "
+"Ardente "
+%%%%
+"Scorching "
+"Escaldante "
+%%%%
+"Burning "
+"Ardente "
+%%%%
+"Blistering "
+"Escaldante "
+%%%%
+"Igneous "
+"Ignea "
+%%%%
+"Flamy "
+"Flamejante "
+%%%%
+"Torrid "
+"Tórrida "
+%%%%
+
+# Ice adj
+%%%%
+"Glacial "
+"Glacial "
+%%%%
+"Freezing "
+"Gelada "
+%%%%
+"Icy "
+"Gélida "
+%%%%
+"Congealing "
+"Congelante "
+%%%%
+"Frigorific "
+"Frigorífica "
+%%%%
+
+# Transmutation adj
+%%%%
+"Shifting "
+"Mutável "
+%%%%
+"Mutagenic "
+"Mutagênica "
+%%%%
+"Unstable "
+"Instável "
+%%%%
+
+# Necromancy adj
+%%%%
+"Evil "
+"Maligna "
+%%%%
+"Dark "
+"Escura "
+%%%%
+"Black "
+"Preta"
+%%%%
+"Sinister "
+"Sinistra "
+%%%%
+"Unholy "
+"Profana "
+%%%%
+# duplicate
+#"Lethal "
+#
+%%%%
+"Doomed "
+"Condensada "
+%%%%
+"Ghastly "
+"Horrenda "
+%%%%
+"Twisted "
+"Distórcida "
+%%%%
+
+# Summoning adj
+%%%%
+"Creative "
+"Criativa "
+%%%%
+"Supportive "
+"Suportiva "
+%%%%
+
+# Translocation adj
+%%%%
+"Spatial "
+"Espacial "
+%%%%
+"Displaced "
+"Deslocada "
+%%%%
+"Dislocated "
+"Dislocada "
+%%%%
+"Warped "
+"Distorcida "
+%%%%
+# duplicate
+#"Unstable "
+#
+%%%%
+# duplicate
+#"Twisted "
+#
+%%%%
+"Quantum "
+"Quântica "
+%%%%
+
+# Poison adj
+%%%%
+"Poisonous "
+"Venenosa "
+%%%%
+"Venomous "
+"Venenosa "
+%%%%
+"Toxic "
+"Tóxica "
+%%%%
+"Cankerous "
+"Cancerígena "
+%%%%
+"Nocuous "
+"Nociva "
+%%%%
+"Noxious "
+"Nociva "
+%%%%
+"Virous "
+"Vírica "
+%%%%
+"Vitriolic "
+"Vitriólica "
+%%%%
+"Viperous "
+"Viperina "
+%%%%
+
+# Earth adj
+%%%%
+"Earthen "
+"Terrena "
+%%%%
+"Ashen "
+"Cinzenta "
+%%%%
+"Dusty "
+"Empoeirada "
+%%%%
+
+# Air adj
+%%%%
+"Aerial "
+"Aérea "
+%%%%
+"Flying "
+"Volante "
+%%%%
+"Floating "
+"Flutuante "
+%%%%
+"Feathery "
+"Plumada "
+%%%%
+"Cloudy "
+"Nebulosa "
+%%%%
+"Gliding "
+"Planante "
+%%%%
+
+#################################
+# @book_magic@ from .des files
+#################################
+
+# From tutorial 4
+%%%%
+Introductory Spellcasting
+Magia para Iniciantes
+%%%%
+Demonology for Dummies
+Demonologia para Leigos
+%%%%
+
+# From the Babel Library minivault
+%%%%
+Nature
+Natureza
+%%%%
+Dhcmrlchtdj
+Dhcmrlchtdj
+%%%%
+Combed Thunderclap
+Trovão Penteiado
+%%%%
+Plaster Cramp
+Cãibra de Gesso
+%%%%
+Axaxaxas mlö
+Axaxaxas mlö
+%%%%
+Forking Paths
+Caminhos que Bifurcam
+%%%%
+Sand
+Areia
+%%%%
+
+# From other minivaults
+%%%%
+# contains the Apportation spell
+Retrieval
+Recuperação
+%%%%
+Reanimation Made Easy
+Reanimação Facilitada
+%%%%
+the Zealot
+o Zelote
+%%%%
+Fire and Brimstone
+Fogo e Enxofre
+%%%%
+
+#################################
+# @book_magic@ from .des files (genitive)
+#################################
+
+# From tutorial 4
+%%%%
+{gen}Introductory Spellcasting
+da Magia para Iniciantes
+%%%%
+{gen}Demonology for Dummies
+da Demonologia para Leigos
+%%%%
+
+# From the Babel Library minivault
+%%%%
+{gen}Nature
+da Natureza
+%%%%
+{gen}Dhcmrlchtdj
+de Dhcmrlchtdj
+%%%%
+{gen}Combed Thunderclap
+do Trovão Penteiado
+%%%%
+{gen}Plaster Cramp
+da Cãibra de Gesso
+%%%%
+{gen}Axaxaxas mlö
+de Axaxaxas mlö
+%%%%
+{gen}Forking Paths
+dos Caminhos que Bifurcam
+%%%%
+{gen}Sand
+da Areia
+%%%%
+
+# From other minivaults
+%%%%
+# contains the Apportation spell
+{gen}Retrieval
+da Recuperação
+%%%%
+{gen}Reanimation Made Easy
+da Reanimação Facilitada
+%%%%
+{gen}the Zealot
+do Zelote
+%%%%
+{gen}Fire and Brimstone
+de Fogo e Enxofre
+%%%%
+
+# TODO:
+# d) @owner@'s @book_name@ of @Xom_book_title@
+# d) @owner@'s @book_name@ of @random_book_title@
+# d) @book_name@ of @random_book_title@
