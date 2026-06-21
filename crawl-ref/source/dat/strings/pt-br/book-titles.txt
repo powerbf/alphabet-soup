@@ -40,7 +40,7 @@ a book of Frost
 um livro de Gelo
 %%%%
 a book of the Dryads
-um livro das Dríades {fpl}
+um livro das Dríades
 %%%%
 a book of Fire
 um livro de Fogo
@@ -97,13 +97,13 @@ a book of Annihilations
 um livro de Aniquilação
 %%%%
 a book of Unlife
-um livro da Não-vida {f}
+um livro da Não-vida
 %%%%
 a book of Geomancy
 um livro de Geomancia
 %%%%
 a book of the Earth
-um livro da Terra {f}
+um livro da Terra
 %%%%
 a book of Power
 um livro de Poder
@@ -130,7 +130,7 @@ a book of Alchemy
 um livro de Alquimia
 %%%%
 a book of Beasts
-um livro das Bestas {fpl}
+um livro das Bestas
 %%%%
 a book of Spectacle
 um livro de Espetáculo
@@ -139,13 +139,13 @@ a book of Winter
 um livro do Inverno
 %%%%
 a book of the Spheres
-um livro das Esferas {fpl}
+um livro das Esferas
 %%%%
 a book of Armaments
 um livro de Armamentos
 %%%%
 a book of Pain
-um livro da Dor {f}
+um livro da Dor
 %%%%
 a book of Decay
 um livro de Decadência
@@ -160,7 +160,7 @@ a book of Stone
 um livro de Pedra
 %%%%
 a book of the Senses
-um livro dos Sentidos {mpl}
+um livro dos Sentidos
 %%%%
 a book of Blasting
 um livro de Explosão
@@ -169,10 +169,10 @@ a book of Iron
 um livro de Ferro
 %%%%
 a book of the Tundra
-um livro da Tundra {f}
+um livro da Tundra
 %%%%
 a book of the Moon
-um livro da Lua {f}
+um livro da Lua
 %%%%
 a book of Storms
 um livro de Tempestades
@@ -181,7 +181,7 @@ a book of Weapons
 um livro de Armas
 %%%%
 a book of Sloth
-um livro da Preguiça {f}
+um livro da Preguiça
 %%%%
 a book of Blood
 um livro de Sangue
@@ -464,90 +464,90 @@ Ts'ui Pên
 # titles of the form "Easy/Advanced/Sophisticated @book_magic@"
 %%%%
 @Adj@ Magic
-@Adj@ Magia {f}
+{f}Magia @Adj@
 %%%%
 @Adj@ Theurgy
-@Adj@ Teurgia {f}
+{f}Teurgia @Adj@
 %%%%
 @Adj@ Thaumaturgy
-@Adj@ Taumaturgia {f}
+{f}Taumaturgia @Adj@
 %%%%
 @Adj@ Casting
-@Adj@ Conjuração
+{m}Conjuração @Adj@
 %%%%
 @Adj@ Spellcasting
-@Adj@ Lançamento de Magias {mpl}
+{mpl}Lançamento de Magias @Adj@
 %%%%
 @Adj@ Wizardry
-@Adj@ Magia {f}
+{f}Magia @Adj@
 %%%%
 @Adj@ Sorcery
-@Adj@ Feitiçaria {f}
+{f}Feitiçaria @Adj@
 %%%%
 @Adj@ Witchcraft
-@Adj@ Bruxaria
+{f}Bruxaria @Adj@
 %%%%
 @Adj@ Witchery
-@Adj@ Bruxaria {f}
+{f}Mandinga @Adj@
 %%%%
 @Adj@ Spellcraft
-@Adj@ Arte Mágica {f}
+{f}Arte Mágica @Adj@
 %%%%
 @Adj@ Spellweaving
-@Adj@ Tecelagem de Magias {f}
+{fpl}Tecelagem de Magias @Adj@
 %%%%
 @Adj@ Secret Knowledge
-@Adj@ Conhecimento Secreto
+{m}Conhecimento Secreto @Adj@
 %%%%
 @Adj@ Rites and Rhymes
-@Adj@ Ritos e Rimas {fpl}
+{fpl}Ritos e Rimas @Adj@
 %%%%
 @Adj@ Hermeneutics
-@Adj@ Hermenêutica {f}
+{f}Hermenêutica @Adj@
 %%%%
 
 %%%%
 @owner@'s @Adj@ Magic
-Magia @Adj@ de @owner@ {f}
+{f}Magia @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Theurgy
-Teurgia @Adj@ de @owner@ {f}
+{f}Teurgia @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Thaumaturgy
-Taumaturgia @Adj@ de @owner@ {f}
+{f}Taumaturgia @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Casting
-Conjuração @Adj@ de @owner@ {f}
+{f}Conjuração @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Spellcasting
-Lançamento de Magias @adj@ de @owner@
+{mpl}Lançamento de Magias @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Wizardry
-Magia @Adj@ de @owner@ {f}
+{f}Magia @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Sorcery
-Feitiçaria @Adj@ de @owner@ {f}
+{f}Feitiçaria @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Witchcraft
-Bruxaria @Adj@ de @owner@ {f}
+{f}Bruxaria @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Witchery
-Bruxaria @Adj@ de @owner@ {f}
+{f}Mandinga @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Spellcraft
-Arte Mágica @Adj@ de @owner@ {f}
+{f}Arte Mágica @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Spellweaving
-Tecelagem de Magias @Adj@ de @owner@ {fpl}
+{fpl}Tecelagem de Magias @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Secret Knowledge
-Conhecimento Secreto @Adj@ de @owner@
+{m}Conhecimento Secreto @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Rites and Rhymes
-Ritos e Rimas @Adj@ de @owner@ {fpl}
+{fpl}Ritos e Rimas @Adj@ de @owner@
 %%%%
 @owner@'s @Adj@ Hermeneutics
-Hermenêutica @Adj@ de @owner@ {f}
+{f}Hermenêutica @Adj@ de @owner@
 %%%%
 
 # adjectives for above
@@ -786,7 +786,7 @@ Improving Your Witchcraft
 Aperfeiçoando Sua Bruxaria
 %%%%
 Improving Your Witchery
-Aperfeiçoando Sua Bruxaria
+Aperfeiçoando Sua Mandinga
 %%%%
 Improving Your Spellcraft
 Aperfeiçoando Sua Arte Mágica
@@ -831,7 +831,7 @@ Aperfeiçoando Sua Feitiçaria de @owner@
 Aperfeiçoando Sua Bruxaria de @owner@
 %%%%
 @owner@'s Improving Your Witchery
-Aperfeiçoando Sua Bruxaria de @owner@
+Aperfeiçoando Sua Mandinga de @owner@
 %%%%
 @owner@'s Improving Your Spellcraft
 Aperfeiçoando Sua Arte Mágica de @owner@
@@ -963,7 +963,7 @@ do Vidente Cego
 do Profeta
 %%%%
 {poss}the Greatest Mummy
-da Maior Múmia {f}
+da Maior Múmia
 %%%%
 
 # The @book_noun@ of Greatest Risks and Utility
@@ -1002,19 +1002,19 @@ Dominando @book_magic@ de @owner@
 # @book_magic@ nominative
 %%%%
 the Arcane Arts
-as Artes Arcanas {fpl}@Adj@
+as Artes Arcanas
 %%%%
 the Hermit's Heritage
-a Herança do Eremita {f}@Adj@
+a Herança do Eremita
 %%%%
 Magic
-Magia {f}@Adj
+Magia
 %%%%
 Theurgy
-Teurgia {f}@Adj
+Teurgia
 %%%%
 Thaumaturgy
-Taumaturgia {f}@Adj
+Taumaturgia
 %%%%
 # duplicate: This is also used for the targeter when casting targeted spells
 #Casting
@@ -1025,31 +1025,31 @@ Taumaturgia {f}@Adj
 #
 %%%%
 Wizardry
-Magia {f}@Adj@
+Magia
 %%%%
 Sorcery
-Feitiçaria {f}@Adj@
+Feitiçaria
 %%%%
 Witchcraft
-Bruxaria {f}@Adj@
+Bruxaria
 %%%%
 Witchery
-Bruxaria {f}@Adj@
+Mandinga
 %%%%
 Spellcraft
-Arte Mágica {f}@Adj@
+Arte Mágica
 %%%%
 Spellweaving
-Tecelagem de Magias {f}@Adj@
+Tecelagem de Magias
 %%%%
 Secret Knowledge
 Conhecimento Secreto
 %%%%
 Rites and Rhymes
-Ritos e Rimas {fpl}@Adj@
+Ritos e Rimas
 %%%%
 Hermeneutics
-Hermenêutica {f}@Adj@
+Hermenêutica
 %%%%
 
 # @book_magic@ accusative
@@ -1058,103 +1058,103 @@ Hermenêutica {f}@Adj@
 # of @book_magic@
 %%%%
 {poss}the Arcane Arts
-das Artes Arcanas {fpl}@Adj@
+das Artes Arcanas
 %%%%
 {poss}the Hermit's Heritage
-da Herança do Eremita {f}@Adj@
+da Herança do Eremita
 %%%%
 {poss}Magic
-da Magia {f}@Adj@
+da Magia
 %%%%
 {poss}Theurgy
-da Teurgia {f}@Adj@
+da Teurgia
 %%%%
 {poss}Thaumaturgy
-da Taumaturgia {f}@Adj@
+da Taumaturgia
 %%%%
 {poss}Casting
-da Conjuração {f}@Adj@
+da Conjuração
 %%%%
 {poss}Spellcasting
 do Lançamento de Magias
 %%%%
 {poss}Wizardry
-da Magia {f}@Adj@
+da Magia
 %%%%
 {poss}Sorcery
-da Feitiçaria {f}@Adj@
+da Feitiçaria
 %%%%
 {poss}Witchcraft
-da Bruxaria {f}@Adj@
+da Bruxaria
 %%%%
 {poss}Witchery
-da Bruxaria {f}@Adj@
+da Mandinga
 %%%%
 {poss}Spellcraft
-da Arte Mágica {f}@Adj@
+da Arte Mágica
 %%%%
 {poss}Spellweaving
-da Tecelagem de Magias {f}@Adj@
+da Tecelagem de Magias
 %%%%
 {poss}Secret Knowledge
 do Conhecimento Secreto
 %%%%
 {poss}Rites and Rhymes
-de Ritos e Rimas {fpl}@Adj@
+de Ritos e Rimas
 %%%%
 {poss}Hermeneutics
-da Hermenêutica {f}@Adj@
+da Hermenêutica
 %%%%
 
 # in @book_magic@ (dative)
 %%%%
 {in}the Arcane Arts
-nas Artes Arcanas {fpl}@Adj@
+nas Artes Arcanas
 %%%%
 {in}the Hermit's Heritage
-na Herança do Eremita {f}@Adj@
+na Herança do Eremita
 %%%%
 {in}Magic
-na Magia {f}@Adj@
+na Magia
 %%%%
 {in}Theurgy
-na Teurgia {f}@Adj@
+na Teurgia
 %%%%
 {in}Thaumaturgy
-na Taumaturgia {f}@Adj@
+na Taumaturgia
 %%%%
 {in}Casting
-na Conjuração {f}@Adj@
+na Conjuração
 %%%%
 {in}Spellcasting
 no Lançamento de Magias
 %%%%
 {in}Wizardry
-na Magia {f}@Adj@
+na Magia
 %%%%
 {in}Sorcery
-na Feitiçaria {f}@Adj@
+na Feitiçaria
 %%%%
 {in}Witchcraft
-na Bruxaria {f}@Adj@
+na Bruxaria
 %%%%
 {in}Witchery
-na Bruxaria {f}@Adj@
+na Mandinga
 %%%%
 {in}Spellcraft
-na Arte Mágica {f}@Adj@
+na Arte Mágica
 %%%%
 {in}Spellweaving
-na Tecelagem de Magias {f}@Adj@
+na Tecelagem de Magias
 %%%%
 {in}Secret Knowledge
 no Conhecimento Secreto
 %%%%
 {in}in Rites and Rhymes
-em Ritos e Rimas {fpl}@Adj@
+em Ritos e Rimas
 %%%%
 {in}Hermeneutics
-na Hermenêutica {f}@Adj@
+na Hermenêutica
 %%%%
 
 # for generic books, @book_magic@ can be related to 1 or 2 spell schools:
