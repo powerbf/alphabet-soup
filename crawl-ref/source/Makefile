@@ -1229,7 +1229,6 @@ GENERATED_FILES := $(GENERATED_HEADERS) art-data.h mi-enum.h \
                    $(RLTILES)/dc-unrand.txt build.h compflag.h dat/dlua/tags.lua \
                    cmd-name.h species-data.h aptitudes.h species-groups.h
 
-LANGUAGES = $(filter-out en, $(notdir $(wildcard dat/descript/??)))
 SRC_PKG_BASE  := stone_soup
 SRC_VERSION   := $(shell git describe --tags $(MERGE_BASE) 2>/dev/null || cat util/release_ver)
 MAJOR_VERSION = $(shell echo "$(SRC_VERSION)"|$(SED) -r 's/-.*//;s/^([^.]+\.[^.]+).*/\1/')
@@ -1494,10 +1493,6 @@ endif
 	mkdir -p $(datadir_fp)/dat/clua
 	mkdir -p $(datadir_fp)/dat/database
 	mkdir -p $(datadir_fp)/dat/defaults
-	mkdir -p $(datadir_fp)/dat/descript
-	for LANG in $(LANGUAGES); \
-		do mkdir -p $(datadir_fp)/dat/descript/$$LANG; \
-	done
 	mkdir -p $(datadir_fp)/docs/develop
 	mkdir -p $(datadir_fp)/docs/develop/levels
 	mkdir -p $(datadir_fp)/docs/license
@@ -1513,10 +1508,7 @@ endif
 	$(COPY)   dat/clua/*.lua $(datadir_fp)/dat/clua/
 	$(COPY_R) dat/database/* $(datadir_fp)/dat/database/
 	$(COPY_R) dat/defaults/* $(datadir_fp)/dat/defaults/
-	$(COPY) dat/descript/*.txt $(datadir_fp)/dat/descript/
-	for LANG in $(LANGUAGES); \
-		do $(COPY) dat/descript/$$LANG/*.txt $(datadir_fp)/dat/descript/$$LANG; \
-	done
+	$(COPY_R) dat/descript   $(datadir_fp)/dat
 	$(COPY_R) dat/strings $(datadir_fp)/dat
 	mkdir -p $(datadir_fp)/dat/dist_bones
 	$(COPY) dat/dist_bones/* $(datadir_fp)/dat/dist_bones/
