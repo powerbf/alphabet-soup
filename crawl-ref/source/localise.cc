@@ -3269,3 +3269,18 @@ void localise_prompt_and_replies(const string &prompt_en, const std::vector<int>
         i++;
     }
 }
+
+std::vector<string> localise_vector(const std::vector<string> &v)
+{
+    return localise_vector("", v);
+}
+
+std::vector<string> localise_vector(const string &context, const std::vector<string> &v)
+{
+    std::vector<string> result;
+    for (const string &s: v)
+    {
+        result.push_back(localise_contextual(context, s));
+    }
+    return result;
+}

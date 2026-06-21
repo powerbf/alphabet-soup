@@ -2961,26 +2961,26 @@ static vector<string> _desc_finite_wl(const monster_info& mi)
     vector<string> r;
     const int wl = mi.willpower();
     if (wl == WILL_INVULN)
-        r.push_back("infinite will");
+        r.push_back(localise("infinite will"));
     else
-        r.push_back("susceptible");
+        r.push_back(localise("susceptible"));
     return r;
 }
 
 static vector<string> _desc_holy_word(const monster_info& mi)
 {
     if (mi.holi & (MH_UNDEAD | MH_DEMONIC))
-        return { "susceptible" };
+        return { localise("susceptible") };
     else
-        return { "not susceptible" };
+        return { localise("not susceptible") };
 }
 
 static vector<string> _desc_res_torment(const monster_info& mi)
 {
     if (mi.resists() & (MR_RES_TORMENT))
-        return { "not susceptible" };
+        return { localise("not susceptible") };
     else
-        return { "susceptible" };
+        return { localise("susceptible") };
 }
 
 class targeter_finite_will : public targeter_multimonster

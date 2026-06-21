@@ -1438,6 +1438,7 @@ string monster_info::wounds_description(bool use_colour) const
         return "";
 
     string desc = get_damage_level_string(holi, dam);
+    desc = localise(desc);
     if (use_colour)
     {
         const int col = channel_to_colour(MSGCH_MONSTER_DAMAGE, dam);

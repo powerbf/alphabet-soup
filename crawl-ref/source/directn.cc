@@ -1569,13 +1569,13 @@ void direction_chooser::print_target_monster_description(bool &did_cloud) const
     if (!suffixes.empty())
     {
         text += localise(" (")
-            + localise(comma_separated_line(suffixes.begin(), suffixes.end(), ", "))
+            + comma_separated_line(suffixes.begin(), suffixes.end(), localise(", "))
             + localise(")");
     }
-
-    mprf(MSGCH_PROMPT, "%s: <lightgrey>%s</lightgrey>",
-         target_prefix ? target_prefix : !behaviour->targeted() ? "Look" : "Aim",
-         text.c_str());
+    string prefix = localise(target_prefix ? target_prefix : !behaviour->targeted() ? "Look"
+                                                                                    : "Aim");
+    mprf_nolocalise(MSGCH_PROMPT, "%s: <lightgrey>%s</lightgrey>",
+                    prefix.c_str(), text.c_str());
 
     // If there's a cloud here, it's been described.
     did_cloud = true;
@@ -1601,7 +1601,7 @@ vector<string> direction_chooser::monster_description_suffixes(
 
     _push_back_if_nonempty(mi.wounds_description(true), &suffixes);
     _push_back_if_nonempty(mi.constriction_description(), &suffixes);
-    _append_container(suffixes, mi.attributes());
+    _append_container(suffixes, localise_vector(mi.attributes()));
     _append_container(suffixes, _get_monster_desc_vector(mi));
     _append_container(suffixes, behaviour->get_monster_desc(mi));
 

@@ -125,3 +125,6 @@ string localise_player_title(const string& text);
  */
 void localise_prompt_and_replies(const string &prompt_en, const std::vector<int> &replies_en,
                                  string &prompt, std::vector<int> &replies);
+
+std::vector<string> localise_vector(const std::vector<string> &v);
+std::vector<string> localise_vector(const string &context, const std::vector<string> &v);
