@@ -142,11 +142,13 @@ jobs:
       - name: Build release
         id: build_release
         if: github.event.release.tag_name != null && matrix.compiler == 'gcc' && matrix.debug == '' && matrix.tag_upgrade == false && (matrix.build_opts == '' || matrix.build_opts == 'TILES=1')
+        env:
+          BUILD_OPTS: ${{ matrix.build_opts }}
         run: |
-          export BUILD_TYPE=$(( "{{matrix.build_opts}}" == "" ? "console" : "tiles" ))
+          export BUILD_TYPE=$([ "$BUILD_OPS" = "" ] && echo "console" || echo "tiles")
           export RELEASE_NAME=dcss-$tag-linux-$BUILD_TYPE
           rm -rf dcss*linux*
-          make -j$(nproc) ${{ matrix.build_opts }} prefix=./$RELEASE_NAME
+          make -j$(nproc) ${{ matrix.build_opts }} prefix=./$RELEASE_NAME install
           tar -cvzf $RELEASE_NAME.tar.gz $RELEASE_NAME
       - name: Add build to release
         if: steps.build_release.outcome == 'success'
