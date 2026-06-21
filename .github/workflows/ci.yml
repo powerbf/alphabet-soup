@@ -159,7 +159,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.event.release.tag_name }}
           file_glob: true
-          file: crawl-ref/source/dcss-$tag-linux-*.tar.gz
+          file: crawl-ref/source/dcss-*.tar.gz
 
   build_macos:
     name: macOS ${{ matrix.build_type }}
