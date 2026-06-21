@@ -204,7 +204,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.ref }}
+          tag: ${{ github.event.release.tag_name }}
           file: crawl-ref/source/mac-app-zips/latest.zip
           asset_name: dcss-$tag-macos-${{ matrix.build_type}}.zip
 
@@ -280,7 +280,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.ref }}
+          tag: ${{ github.event.release.tag_name }}
           file: ${{ steps.release-names.outputs.source }}
           asset_name: ${{ steps.release-names.outputs.dest }}
 
@@ -433,7 +433,7 @@ jobs:
       - name: Build message
         id: message
         run: |
-          ref="${{ github.ref }}"
+          ref="${{ github.event.release.tag_name }}"
           branch="${ref##refs/heads/}"
           sha="${{ github.sha }}"
           short_sha="${sha:0:8}"
