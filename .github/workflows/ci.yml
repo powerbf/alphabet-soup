@@ -150,6 +150,7 @@ jobs:
           rm -rf dcss*linux*
           make -j$(nproc) ${{ matrix.build_opts }} prefix=./$RELEASE_NAME install
           tar -cvzf $RELEASE_NAME.tar.gz $RELEASE_NAME
+        working-directory: crawl-ref/source
       - name: Add build to release
         if: steps.build_release.outcome == 'success'
         uses: svenstaro/upload-release-action@v2
