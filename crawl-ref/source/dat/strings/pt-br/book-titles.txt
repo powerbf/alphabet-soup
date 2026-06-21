@@ -203,8 +203,7 @@ um livro do Caçador
 # Fixed artefact spellbooks
 #################################
 
-# If listed with "a/an", it can also appear with no article, but never with 
-"the".
+# If listed with "a/an", it can also appear with no article, but never with "the".
 # If listed with "the", it always appears that way.
 # If listed with no article, it always appears that way.
 
@@ -1184,8 +1183,7 @@ na Hermenêutica
 %sArmas Arcanas
 %%%%
 # "Blows and Bruises" are one thing in English, but here we separate because we
-# could have "and" between two schools and the code won't know not to separate 
-these
+# could have "and" between two schools and the code won't know not to separate these
 %sBlows
 %sGolpes
 %%%%
