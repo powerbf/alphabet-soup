@@ -552,26 +552,29 @@ Hermenêutica @adj@ de @owner@
 %%%%
 
 # adjectives for above
-%%%%
-{adj-e}Easy
-Fácil
-%%%%
-{adj-e}Advanced
-Avançada
-%%%%
-{adj-e}Sophisticated
-Sofisticada
-%%%%
 
+# masculine singular (unmarked)
 %%%%
-{adj-es}Easy
+Easy
 Fácil
 %%%%
-{adj-es}Advanced
+Advanced
 Avançado
 %%%%
-{adj-es}Sophisticated
+Sophisticated
 Sofisticado
+%%%%
+
+# feminine singular
+%%%%
+{f}Easy
+Fácil
+%%%%
+{f}Advanced
+Avançada
+%%%%
+{f}Sophisticated
+Sofisticada
 %%%%
 
 # level 1
