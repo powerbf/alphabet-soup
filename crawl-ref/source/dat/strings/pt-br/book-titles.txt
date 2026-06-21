@@ -258,31 +258,31 @@ Grandes Magos, Vol. VII
 # generic names
 %%%%
 the Tome of @book_magic@
-o Tomo {gen}@book_magic@
+o Tomo {poss}@book_magic@
 %%%%
 the Grimoire of @book_magic@
-o Grimório {gen}@book_magic@
+o Grimório {poss}@book_magic@
 %%%%
 the Almanac of @book_magic@
-o Almanaque {gen}@book_magic@
+o Almanaque {poss}@book_magic@
 %%%%
 the Volume of @book_magic@
-o Volume {gen}@book_magic@
+o Volume {poss}@book_magic@
 %%%%
 the Compendium of @book_magic@
-o Compêndio {gen}@book_magic@
+o Compêndio {poss}@book_magic@
 %%%%
 the Handbook of @book_magic@
-o Manual {gen}@book_magic@
+o Manual {poss}@book_magic@
 %%%%
 the Incunabulum of @book_magic@
-o Incunábulo {gen}@book_magic@
+o Incunábulo {poss}@book_magic@
 %%%%
 the Papyrus of @book_magic@
-o Papiro {gen}@book_magic@
+o Papiro {poss}@book_magic@
 %%%%
 the Catalogue of @book_magic@
-o Catálogo {gen}@book_magic@
+o Catálogo {poss}@book_magic@
 %%%%
 the Guide on @book_magic@
 o Guia sobre @book_magic@
@@ -300,31 +300,31 @@ o Livro de Referência sobre @book_magic@
 # generic names capitalised
 %%%%
 The Tome of @book_magic@
-O Tomo {gen}@book_magic@
+O Tomo {poss}@book_magic@
 %%%%
 The Grimoire of @book_magic@
-O Grimório {gen}@book_magic@
+O Grimório {poss}@book_magic@
 %%%%
 The Almanac of @book_magic@
-O Almanaque {gen}@book_magic@
+O Almanaque {poss}@book_magic@
 %%%%
 The Volume of @book_magic@
-O Volume {gen}@book_magic@
+O Volume {poss}@book_magic@
 %%%%
 The Compendium of @book_magic@
-O Compêndio {gen}@book_magic@
+O Compêndio {poss}@book_magic@
 %%%%
 The Handbook of @book_magic@
-O Manual {gen}@book_magic@
+O Manual {poss}@book_magic@
 %%%%
 The Incunabulum of @book_magic@
-O Incunábulo {gen}@book_magic@
+O Incunábulo {poss}@book_magic@
 %%%%
 The Papyrus of @book_magic@
-O Papiro {gen}@book_magic@
+O Papiro {poss}@book_magic@
 %%%%
 The Catalogue of @book_magic@
-O Catálogo {gen}@book_magic@
+O Catálogo {poss}@book_magic@
 %%%%
 The Guide on @book_magic@
 O Guia sobre @book_magic@
@@ -342,31 +342,31 @@ O Livro de Referência sobre @book_magic@
 # generic names with owner
 %%%%
 @owner@'s Tome of @book_magic@
-Tomo {gen}@book_magic@ de @owner@
+Tomo {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Grimoire of @book_magic@
-Grimório {gen}@book_magic@ de @owner@
+Grimório {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Almanac of @book_magic@
-Almanaque {gen}@book_magic@ de @owner@
+Almanaque {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Volume of @book_magic@
-Volume {gen}@book_magic@ de @owner@
+Volume {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Compendium of @book_magic@
-Compêndio {gen}@book_magic@ de @owner@
+Compêndio {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Handbook of @book_magic@
-Manual {gen}@book_magic@ de @owner@
+Manual {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Incunabulum of @book_magic@
-Incunábulo {gen}@book_magic@ de @owner@
+Incunábulo {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Papyrus of @book_magic@
-Papiro {gen}@book_magic@ de @owner@
+Papiro {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Catalogue of @book_magic@
-Catálogo {gen}@book_magic@ de @owner@
+Catálogo {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Guide on @book_magic@
 Guia sobre @book_magic@ de @owner@
@@ -587,7 +587,7 @@ Sofisticado
 
 %%%%
 A Beginning Course on @book_magic@
-Um Curso Inicial {gen}@book_magic@
+Um Curso Inicial {poss}@book_magic@
 %%%%
 An Introduction to @book_magic@
 Uma Introdução a @book_magic@
@@ -601,7 +601,7 @@ Primeiros Passos em @book_magic@
 
 %%%%
 @owner@'s Beginning Course on @book_magic@
-Curso Inicial {gen}@book_magic@ de @owner@
+Curso Inicial {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Introduction to @book_magic@
 Introdução a @book_magic@ de @owner@
@@ -673,13 +673,13 @@ Primeiros Passos em @book_magic@ de @owner@
 
 %%%%
 A Primer on @book_magic@
-Um Manual Básico {gen}@book_magic@
+Um Manual Básico {poss}@book_magic@
 %%%%
 An Early Guide to @book_magic@
-Um Guia Inicial {gen}@book_magic@
+Um Guia Inicial {poss}@book_magic@
 %%%%
 The Foundations of @book_magic@
-Os Fundamentos {gen}@book_magic@
+Os Fundamentos {poss}@book_magic@
 %%%%
 @book_magic@ in Simple Steps
 @book_magic@ em Passos Simples
@@ -693,13 +693,13 @@ Os Fundamentos {gen}@book_magic@
 
 %%%%
 @owner@'s Primer on @book_magic@
-Manual Básico {gen}@book_magic@ de @owner@
+Manual Básico {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Early Guide to @book_magic@
-Guia Inicial {gen}@book_magic@ de @owner@
+Guia Inicial {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Foundations of @book_magic@
-Fundamentos {gen}@book_magic@ de @owner@
+Fundamentos {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s @book_magic@ in Simple Steps
 @book_magic@ em Passos Simples de @owner@
@@ -728,7 +728,7 @@ Advanced Steps in @book_magic@
 Passos Avançados em @book_magic@
 %%%%
 The Advanced Guide to @book_magic@
-O Guia Avançado {gen}@book_magic@
+O Guia Avançado {poss}@book_magic@
 %%%%
 Further Steps in @book_magic@
 Mais Passos em @book_magic@
@@ -737,7 +737,7 @@ Further Progress in @book_magic@
 Mais Progresso em @book_magic@
 %%%%
 The Second Course in @book_magic@
-O Segundo Curso {gen}@book_magic@
+O Segundo Curso {poss}@book_magic@
 %%%%
 
 %%%%
@@ -745,7 +745,7 @@ O Segundo Curso {gen}@book_magic@
 Passos Avançados em @book_magic@ de @owner@
 %%%%
 @owner@'s Advanced Guide to @book_magic@
-Guia Avançado {gen}@book_magic@ de @owner@
+Guia Avançado {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Further Steps in @book_magic@
 Mais Passos em @book_magic@ de @owner@
@@ -754,7 +754,7 @@ Mais Passos em @book_magic@ de @owner@
 Mais Progresso em @book_magic@ de @owner@
 %%%%
 @owner@'s Second Course in @book_magic@
-Segundo Curso {gen}@book_magic@ de @owner@
+Segundo Curso {poss}@book_magic@ de @owner@
 %%%%
 
 # Improving Your @book_magic@
@@ -860,114 +860,114 @@ Aperfeiçoando Sua Hermenêutica de @owner@
 # The @_last_or_lost_@ @book_noun@ of @_the_powerful_caster_@
 %%%%
 A Thorough Guide to @book_magic@
-Um Guia Completo {gen}@book_magic@
+Um Guia Completo {poss}@book_magic@
 %%%%
 The Last Secrets of @book_magic@
-Os Últimos Segredos {gen}@book_magic@
+Os Últimos Segredos {poss}@book_magic@
 %%%%
 The Lost Secrets of @book_magic@
-Os Segredos Perdidos {gen}@book_magic@
+Os Segredos Perdidos {poss}@book_magic@
 %%%%
 The Arcane Secrets of @book_magic@
-Os Segredos Arcanos {gen}@book_magic@
+Os Segredos Arcanos {poss}@book_magic@
 %%%%
 The Intricacies of @book_magic@
-As Complexidades {gen}@book_magic@
+As Complexidades {poss}@book_magic@
 %%%%
 Mastering @book_magic@
 Dominando @book_magic@
 %%%%
 The Testament of @spellcaster@
-O Testamento {gen}@spellcaster@
+O Testamento {poss}@spellcaster@
 %%%%
 
 %%%%
 The Last Tome of @spellcaster@
-O Último Tomo {gen}@spellcaster@
+O Último Tomo {poss}@spellcaster@
 %%%%
 The Last Grimoire of @spellcaster@
-O Último Grimório {gen}@spellcaster@
+O Último Grimório {poss}@spellcaster@
 %%%%
 The Last Almanac of @spellcaster@
-O Último Almanaque {gen}@spellcaster@
+O Último Almanaque {poss}@spellcaster@
 %%%%
 The Last Volume of @spellcaster@
-O Último Volume {gen}@spellcaster@
+O Último Volume {poss}@spellcaster@
 %%%%
 The Last Compendium of @spellcaster@
-O Último Compêndio {gen}@spellcaster@
+O Último Compêndio {poss}@spellcaster@
 %%%%
 The Last Handbook of @spellcaster@
-O Último Manual {gen}@spellcaster@
+O Último Manual {poss}@spellcaster@
 %%%%
 The Last Incunabulum of @spellcaster@
-O Último Incunábulo {gen}@spellcaster@
+O Último Incunábulo {poss}@spellcaster@
 %%%%
 The Last Papyrus of @spellcaster@
-O Último Papiro {gen}@spellcaster@
+O Último Papiro {poss}@spellcaster@
 %%%%
 The Last Catalogue of @spellcaster@
-O Último Catálogo {gen}@spellcaster@
+O Último Catálogo {poss}@spellcaster@
 %%%%
 
 %%%%
 The Lost Tome of @spellcaster@
-O Tomo Perdido {gen}@spellcaster@
+O Tomo Perdido {poss}@spellcaster@
 %%%%
 The Lost Grimoire of @spellcaster@
-O Grimório Perdido {gen}@spellcaster@
+O Grimório Perdido {poss}@spellcaster@
 %%%%
 The Lost Almanac of @spellcaster@
-O Almanaque Perdido {gen}@spellcaster@
+O Almanaque Perdido {poss}@spellcaster@
 %%%%
 The Lost Volume of @spellcaster@
-O Volume Perdido {gen}@spellcaster@
+O Volume Perdido {poss}@spellcaster@
 %%%%
 The Lost Compendium of @spellcaster@
-O Compêndio Perdido {gen}@spellcaster@
+O Compêndio Perdido {poss}@spellcaster@
 %%%%
 The Lost Handbook of @spellcaster@
-O Manual Perdido {gen}@spellcaster@
+O Manual Perdido {poss}@spellcaster@
 %%%%
 The Lost Incunabulum of @spellcaster@
-O Incunábulo Perdido {gen}@spellcaster@
+O Incunábulo Perdido {poss}@spellcaster@
 %%%%
 The Lost Papyrus of @spellcaster@
-O Papiro Perdido {gen}@spellcaster@
+O Papiro Perdido {poss}@spellcaster@
 %%%%
 The Lost Catalogue of @spellcaster@
-O Catálogo Perdido {gen}@spellcaster@
+O Catálogo Perdido {poss}@spellcaster@
 %%%%
 
 # suffix: of @spellcaster@
 %%%%
-{gen}Boris
+{poss}Boris
 de Boris
 %%%%
 # duplicate (see gods.txt)
-#{gen}Sif Muna
+#{poss}Sif Muna
 #
 %%%%
-{gen}the Archmage
+{poss}the Archmage
 do Arquimago
 %%%%
-{gen}the Deep Elf Lorekeeper
+{poss}the Deep Elf Lorekeeper
 do Sábio dos Elfos Profundos
 %%%%
-{gen}the Blind Seer
+{poss}the Blind Seer
 do Vidente Cego
 %%%%
-{gen}the Prophet
+{poss}the Prophet
 do Profeta
 %%%%
-{gen}the Greatest Mummy
+{poss}the Greatest Mummy
 da Maior Múmia
 %%%%
 
 # The @book_noun@ of Greatest Risks and Utility
 # Turn it around and handle the suffix as "of @book magic@"
 %%%%
-{gen}Greatest Risks and Utility
+{poss}Greatest Risks and Utility
 dos Maiores Riscos e da Maior Utilidade
 %%%%
 
@@ -978,19 +978,19 @@ dos Maiores Riscos e da Maior Utilidade
 
 %%%%
 @owner@'s Thorough Guide to @book_magic@
-Guia Completo {gen}@book_magic@ de @owner@
+Guia Completo {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Last Secrets of @book_magic@
-Últimos Segredos {gen}@book_magic@ de @owner@
+Últimos Segredos {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Lost Secrets of @book_magic@
-Segredos Perdidos {gen}@book_magic@ de @owner@
+Segredos Perdidos {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Arcane Secrets of @book_magic@
-Segredos Arcanos {gen}@book_magic@ de @owner@
+Segredos Arcanos {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Intricacies of @book_magic@
-Complexidades {gen}@book_magic@ de @owner@
+Complexidades {poss}@book_magic@ de @owner@
 %%%%
 @owner@'s Mastering @book_magic@
 Dominando @book_magic@ de @owner@
@@ -1055,52 +1055,52 @@ Hermenêutica
 
 # of @book_magic@
 %%%%
-{gen}the Arcane Arts
+{poss}the Arcane Arts
 das Artes Arcanas
 %%%%
-{gen}the Hermit's Heritage
+{poss}the Hermit's Heritage
 da Herança do Eremita
 %%%%
-{gen}Magic
+{poss}Magic
 da Magia
 %%%%
-{gen}Theurgy
+{poss}Theurgy
 da Teurgia
 %%%%
-{gen}Thaumaturgy
+{poss}Thaumaturgy
 da Taumaturgia
 %%%%
-{gen}Casting
+{poss}Casting
 da Conjuração
 %%%%
-{gen}Spellcasting
+{poss}Spellcasting
 do Lançamento de Magias
 %%%%
-{gen}Wizardry
+{poss}Wizardry
 da Magia
 %%%%
-{gen}Sorcery
+{poss}Sorcery
 da Feitiçaria
 %%%%
-{gen}Witchcraft
+{poss}Witchcraft
 da Bruxaria
 %%%%
-{gen}Witchery
+{poss}Witchery
 da Bruxaria
 %%%%
-{gen}Spellcraft
+{poss}Spellcraft
 da Arte Mágica
 %%%%
-{gen}Spellweaving
+{poss}Spellweaving
 da Tecelagem de Magias
 %%%%
-{gen}Secret Knowledge
+{poss}Secret Knowledge
 do Conhecimento Secreto
 %%%%
-{gen}Rites and Rhymes
+{poss}Rites and Rhymes
 de Ritos e Rimas
 %%%%
-{gen}Hermeneutics
+{poss}Hermeneutics
 da Hermenêutica
 %%%%
 
@@ -1440,274 +1440,274 @@ os %sPássaros
 
 # conjuration genitive
 %%%%
-{gen}%sConjuration
+{poss}%sConjuration
 da %sConjuração
 %%%%
-{gen}%sConfrontation
+{poss}%sConfrontation
 da %sConfrontação
 %%%%
-{gen}%sAttacks
+{poss}%sAttacks
 dos %sAtaques
 %%%%
-{gen}%sBattle Magic
+{poss}%sBattle Magic
 da %sMagia de Batalha
 %%%%
-{gen}%sCombat Magic
+{poss}%sCombat Magic
 da %sMagia de Combate
 %%%%
-{gen}%sArcane Weapons
+{poss}%sArcane Weapons
 das %sArmas Arcanas
 %%%%
-{gen}%sBlows
+{poss}%sBlows
 dos %sGolpes
 %%%%
-{gen}%sBruises
+{poss}%sBruises
 das %sContusões
 %%%%
-{gen}%sDamage Dealing
+{poss}%sDamage Dealing
 de %sCausar Dano
 %%%%
 
 # Fire genitive
 %%%%
-{gen}%sFire
+{poss}%sFire
 do %sFogo
 %%%%
-{gen}%sFlames
+{poss}%sFlames
 das %sChamas
 %%%%
-{gen}%sHeat
+{poss}%sHeat
 do %sCalor
 %%%%
-{gen}the %sVolcanoes
+{poss}the %sVolcanoes
 dos %sVulcões
 %%%%
-{gen}the %sBlaze
+{poss}the %sBlaze
 da %sChama
 %%%%
-{gen}%sIgnition
+{poss}%sIgnition
 da %sIgnição
 %%%%
-{gen}the %sArsonist
+{poss}the %sArsonist
 do %sIncendiário
 %%%%
 
 # Hexes genitive
 %%%%
-{gen}%sHexes
+{poss}%sHexes
 dos %sMalefícios
 %%%%
-{gen}%sCurses
+{poss}%sCurses
 das %sMaldições
 %%%%
-{gen}%sMalediction
+{poss}%sMalediction
 do %sMalefício
 %%%%
-{gen}the %sOath
+{poss}the %sOath
 do %sJuramento
 %%%%
-{gen}%sExecration
+{poss}%sExecration
 da %sExecração
 %%%%
-{gen}%sEnchantment
+{poss}%sEnchantment
 do %sEncantamento
 %%%%
-{gen}%sBewitchment
+{poss}%sBewitchment
 do %sMalefício
 %%%%
-{gen}%sGlamour
+{poss}%sGlamour
 do %sEncantamento
 %%%%
-{gen}%sFascination
+{poss}%sFascination
 da %sFascinação
 %%%%
-{gen}%sBeguiling
+{poss}%sBeguiling
 da %sSedução
 %%%%
 
 # Ice genitive
 %%%%
-{gen}%sIce
+{poss}%sIce
 do %sGelo
 %%%%
-{gen}%sSnow
+{poss}%sSnow
 da %sNeve
 %%%%
-{gen}%sCold
+{poss}%sCold
 do %sFrio
 %%%%
-{gen}the %sSnowflakes
+{poss}the %sSnowflakes
 dos %sFlocos de Neve
 %%%%
-{gen}the %sGlacier
+{poss}the %sGlacier
 da %sGeleira
 %%%%
-{gen}the %sFrostbite
+{poss}the %sFrostbite
 da %sQueimadura de Frio
 %%%%
 
 # Transmutation genitive
 %%%%
-{gen}%sTransmigration
+{poss}%sTransmigration
 da %sTransmigração
 %%%%
-{gen}%sTransmutation
+{poss}%sTransmutation
 da %sTransmutação
 %%%%
-{gen}%sTransformation
+{poss}%sTransformation
 da %sTransformação
 %%%%
-{gen}%sShape Shifting
+{poss}%sShape Shifting
 da %sMudança de Forma
 %%%%
-{gen}%sChanging
+{poss}%sChanging
 da %sMudança
 %%%%
-{gen}%sMoulding
+{poss}%sMoulding
 da %sMoldagem
 %%%%
 
 # Necromancy genitive
 %%%%
-{gen}%sNecromancy
+{poss}%sNecromancy
 da %sNecromancia
 %%%%
-{gen}%sEvil
+{poss}%sEvil
 do %sMal
 %%%%
-{gen}%sDarkness
+{poss}%sDarkness
 da %sEscuridão
 %%%%
-{gen}%sStolen Souls
+{poss}%sStolen Souls
 das %sAlmas Roubadas
 %%%%
-{gen}%sRites
+{poss}%sRites
 dos %sRitos
 %%%%
-{gen}%sArts
+{poss}%sArts
 das %sArtes
 %%%%
-{gen}%sSecrets
+{poss}%sSecrets
 dos %sSegredos
 %%%%
-{gen}%sRituals
+{poss}%sRituals
 dos %sRituais
 %%%%
-{gen}%sMagic
+{poss}%sMagic
 da %sMagia
 %%%%
 
 # Summoning genitive
 %%%%
-{gen}%sSummoning
+{poss}%sSummoning
 da %sInvocação
 %%%%
-{gen}%sCalling
+{poss}%sCalling
 do %sChamado
 %%%%
-{gen}%sCreation
+{poss}%sCreation
 da %sCriação
 %%%%
-{gen}the %sEntourage
+{poss}the %sEntourage
 da %sComitiva
 %%%%
-{gen}%sCompanions
+{poss}%sCompanions
 dos %sCompanheiros
 %%%%
-{gen}the %sEscort
+{poss}the %sEscort
 da %sEscolta
 %%%%
-{gen}%sIllusion
+{poss}%sIllusion
 da %sIlusão
 %%%%
-{gen}%sSlavery
+{poss}%sSlavery
 da %sEscravidão
 %%%%
 
 # Translocation genitive
 %%%%
-{gen}%sTranslocation
+{poss}%sTranslocation
 da %sTranslocação
 %%%%
-{gen}%sDisplacement
+{poss}%sDisplacement
 do %sDeslocamento
 %%%%
-{gen}%sDislocation
+{poss}%sDislocation
 da %sDislocação
 %%%%
-{gen}%sOrientation
+{poss}%sOrientation
 da %sOrientação
 %%%%
-{gen}the %sTraveller
+{poss}the %sTraveller
 do %sViajante
 %%%%
-{gen}the %sCompass
+{poss}the %sCompass
 da %sBússola
 %%%%
-{gen}the %sVoyage
+{poss}the %sVoyage
 da %sViagem
 %%%%
 
 # Poison genitive
 %%%%
-{gen}%sPoison
+{poss}%sPoison
 do %sVeneno
 %%%%
-{gen}%sVenom
+{poss}%sVenom
 do %sVeneno
 %%%%
-{gen}%sToxins
+{poss}%sToxins
 das %sToxinas
 %%%%
-{gen}%sPoisoning
+{poss}%sPoisoning
 do %sEnvenenamento
 %%%%
-{gen}%sIntoxication
+{poss}%sIntoxication
 da %sIntoxicação
 %%%%
-{gen}%sEnvenoming
+{poss}%sEnvenoming
 do %sEnvenenamento
 %%%%
-{gen}%sContamination
+{poss}%sContamination
 da %sContaminação
 %%%%
 
 # Earth genitive
 %%%%
-{gen}%sEarth
+{poss}%sEarth
 da %sTerra
 %%%%
-{gen}%sStones
+{poss}%sStones
 das %sPedras
 %%%%
-{gen}%sClay
+{poss}%sClay
 da %sArgila
 %%%%
-{gen}the %sMountains
+{poss}the %sMountains
 das %sMontanhas
 %%%%
-{gen}the %sRocks
+{poss}the %sRocks
 das %sRochas
 %%%%
 
 # Air genitive
 %%%%
-{gen}%sAir
+{poss}%sAir
 do %sAr
 %%%%
-{gen}%sLightness
+{poss}%sLightness
 da %sLeveza
 %%%%
-{gen}%sWeightlessness
+{poss}%sWeightlessness
 da %sAusência de Peso
 %%%%
-{gen}%sFlight
+{poss}%sFlight
 do %sVoo
 %%%%
-{gen}the %sBirds
+{poss}the %sBirds
 dos %sPássaros
 %%%%
-{gen}%sFeathers
+{poss}%sFeathers
 das %sPenas
 %%%%
 
@@ -1715,275 +1715,275 @@ das %sPenas
 
 # conjuration genitive
 %%%%
-{gen}Conjuration
+{poss}Conjuration
 da Conjuração
 %%%%
-{gen}Confrontation
+{poss}Confrontation
 da Confrontação
 %%%%
-{gen}Attacks
+{poss}Attacks
 dos Ataques
 %%%%
-{gen}Battle Magic
+{poss}Battle Magic
 da Magia de Batalha
 %%%%
-{gen}Combat Magic
+{poss}Combat Magic
 da Magia de Combate
 %%%%
-{gen}Arcane Weapons
+{poss}Arcane Weapons
 das Armas Arcanas
 %%%%
-{gen}Blows
+{poss}Blows
 dos Golpes
 %%%%
-{gen}Bruises
+{poss}Bruises
 das Contusões
 %%%%
-{gen}Damage Dealing
+{poss}Damage Dealing
 de Causar Dano
 %%%%
 
 # Fire genitive
 %%%%
-{gen}Fire
+{poss}Fire
 do Fogo
 %%%%
-{gen}Flames
+{poss}Flames
 das Chamas
 %%%%
-{gen}Heat
+{poss}Heat
 do Calor
 %%%%
-{gen}the Volcanoes
+{poss}the Volcanoes
 dos Vulcões
 %%%%
-{gen}the Blaze
+{poss}the Blaze
 da Chama
 %%%%
-{gen}Ignition
+{poss}Ignition
 da Ignição
 %%%%
-{gen}the Arsonist
+{poss}the Arsonist
 do Incendiário
 %%%%
 
 # Hexes genitive
 %%%%
-{gen}Hexes
+{poss}Hexes
 dos Malefícios
 %%%%
-{gen}Curses
+{poss}Curses
 das Maldições
 %%%%
-{gen}Malediction
+{poss}Malediction
 do Malefício
 %%%%
-{gen}the Oath
+{poss}the Oath
 do Juramento
 %%%%
-{gen}Execration
+{poss}Execration
 da Execração
 %%%%
-{gen}Enchantment
+{poss}Enchantment
 do Encantamento
 %%%%
-{gen}Bewitchment
+{poss}Bewitchment
 do Malefício
 %%%%
-{gen}Glamour
+{poss}Glamour
 do Encantamento
 %%%%
-{gen}Fascination
+{poss}Fascination
 da Fascinação
 %%%%
-{gen}Beguiling
+{poss}Beguiling
 da Sedução
 %%%%
 
 # Ice genitive
 %%%%
-{gen}Ice
+{poss}Ice
 do Gelo
 %%%%
-{gen}Snow
+{poss}Snow
 da Neve
 %%%%
-{gen}Cold
+{poss}Cold
 do Frio
 %%%%
-{gen}the Snowflakes
+{poss}the Snowflakes
 dos Flocos de Neve
 %%%%
-{gen}the Glacier
+{poss}the Glacier
 da Geleira
 %%%%
-{gen}the Frostbite
+{poss}the Frostbite
 da Queimadura de Frio
 %%%%
 
 # Transmutation genitive
 %%%%
-{gen}Transmigration
+{poss}Transmigration
 da Transmigração
 %%%%
-{gen}Transmutation
+{poss}Transmutation
 da Transmutação
 %%%%
-{gen}Transformation
+{poss}Transformation
 da Transformação
 %%%%
-{gen}Shape Shifting
+{poss}Shape Shifting
 da Mudança de Forma
 %%%%
-{gen}Changing
+{poss}Changing
 da Mudança
 %%%%
-{gen}Moulding
+{poss}Moulding
 da Moldagem
 %%%%
 
 # Necromancy genitive
 %%%%
-{gen}Necromancy
+{poss}Necromancy
 da Necromancia
 %%%%
-{gen}Evil
+{poss}Evil
 do Mal
 %%%%
-{gen}Darkness
+{poss}Darkness
 da Escuridão
 %%%%
-{gen}Stolen Souls
+{poss}Stolen Souls
 das Almas Roubadas
 %%%%
-{gen}Rites
+{poss}Rites
 dos Ritos
 %%%%
-{gen}Arts
+{poss}Arts
 das Artes
 %%%%
-{gen}Secrets
+{poss}Secrets
 dos Segredos
 %%%%
-{gen}Rituals
+{poss}Rituals
 dos Rituais
 %%%%
 # duplicate
-#{gen}Magic
+#{poss}Magic
 #
 %%%%
 
 # Summoning genitive
 %%%%
-{gen}Summoning
+{poss}Summoning
 da Invocação
 %%%%
-{gen}Calling
+{poss}Calling
 do Chamado
 %%%%
-{gen}Creation
+{poss}Creation
 da Criação
 %%%%
-{gen}the Entourage
+{poss}the Entourage
 da Comitiva
 %%%%
-{gen}Companions
+{poss}Companions
 dos Companheiros
 %%%%
-{gen}the Escort
+{poss}the Escort
 da Escolta
 %%%%
-{gen}Illusion
+{poss}Illusion
 da Ilusão
 %%%%
-{gen}Slavery
+{poss}Slavery
 da Escravidão
 %%%%
 
 # Translocation genitive
 %%%%
-{gen}Translocation
+{poss}Translocation
 da Translocação
 %%%%
-{gen}Displacement
+{poss}Displacement
 do Deslocamento
 %%%%
-{gen}Dislocation
+{poss}Dislocation
 da Dislocação
 %%%%
-{gen}Orientation
+{poss}Orientation
 da Orientação
 %%%%
-{gen}the Traveller
+{poss}the Traveller
 do Viajante
 %%%%
-{gen}the Compass
+{poss}the Compass
 da Bússola
 %%%%
-{gen}the Voyage
+{poss}the Voyage
 da Viagem
 %%%%
 
 # Poison genitive
 %%%%
-{gen}Poison
+{poss}Poison
 do Veneno
 %%%%
-{gen}Venom
+{poss}Venom
 do Veneno
 %%%%
-{gen}Toxins
+{poss}Toxins
 das Toxinas
 %%%%
-{gen}Poisoning
+{poss}Poisoning
 do Envenenamento
 %%%%
-{gen}Intoxication
+{poss}Intoxication
 da Intoxicação
 %%%%
-{gen}Envenoming
+{poss}Envenoming
 do Envenenamento
 %%%%
-{gen}Contamination
+{poss}Contamination
 da Contaminação
 %%%%
 
 # Earth genitive
 %%%%
-{gen}Earth
+{poss}Earth
 da Terra
 %%%%
-{gen}Stones
+{poss}Stones
 das Pedras
 %%%%
-{gen}Clay
+{poss}Clay
 da Argila
 %%%%
-{gen}the Mountains
+{poss}the Mountains
 das Montanhas
 %%%%
-{gen}the Rocks
+{poss}the Rocks
 das Rochas
 %%%%
 
 # Air genitive
 %%%%
-{gen}Air
+{poss}Air
 do Ar
 %%%%
-{gen}Lightness
+{poss}Lightness
 da Leveza
 %%%%
-{gen}Weightlessness
+{poss}Weightlessness
 da Ausência de Peso
 %%%%
-{gen}Flight
+{poss}Flight
 do Voo
 %%%%
-{gen}the Birds
+{poss}the Birds
 dos Pássaros
 %%%%
-{gen}Feathers
+{poss}Feathers
 das Penas
 %%%%
 
@@ -2268,50 +2268,50 @@ Fogo e Enxofre
 
 # From tutorial 4
 %%%%
-{gen}Introductory Spellcasting
+{poss}Introductory Spellcasting
 da Magia para Iniciantes
 %%%%
-{gen}Demonology for Dummies
+{poss}Demonology for Dummies
 da Demonologia para Leigos
 %%%%
 
 # From the Babel Library minivault
 %%%%
-{gen}Nature
+{poss}Nature
 da Natureza
 %%%%
-{gen}Dhcmrlchtdj
+{poss}Dhcmrlchtdj
 de Dhcmrlchtdj
 %%%%
-{gen}Combed Thunderclap
+{poss}Combed Thunderclap
 do Trovão Penteiado
 %%%%
-{gen}Plaster Cramp
+{poss}Plaster Cramp
 da Cãibra de Gesso
 %%%%
-{gen}Axaxaxas mlö
+{poss}Axaxaxas mlö
 de Axaxaxas mlö
 %%%%
-{gen}Forking Paths
+{poss}Forking Paths
 dos Caminhos que Bifurcam
 %%%%
-{gen}Sand
+{poss}Sand
 da Areia
 %%%%
 
 # From other minivaults
 %%%%
 # contains the Apportation spell
-{gen}Retrieval
+{poss}Retrieval
 da Recuperação
 %%%%
-{gen}Reanimation Made Easy
+{poss}Reanimation Made Easy
 da Reanimação Facilitada
 %%%%
-{gen}the Zealot
+{poss}the Zealot
 do Zelote
 %%%%
-{gen}Fire and Brimstone
+{poss}Fire and Brimstone
 de Fogo e Enxofre
 %%%%
 
