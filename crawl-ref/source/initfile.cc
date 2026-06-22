@@ -3836,7 +3836,7 @@ bool game_options::set_lang(const char *lc)
         return false;
 
     const string l = lowercase_string(lc); // Windows returns it capitalized.
-    for (const auto lang : _get_supported_languages())
+    for (const auto &lang : _get_supported_languages())
     {
         if (l == lang)
         {
