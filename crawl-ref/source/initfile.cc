@@ -3769,6 +3769,7 @@ static const map<string, flang_t> fake_lang_names = {
 
     // Due to a historical conflict with actual german, slang names are
     // supported. Not the really rude ones, though.
+    { "de", flang_t::kraut },
     { "german", flang_t::kraut },
     { "kraut", flang_t::kraut },
     { "jerry", flang_t::kraut },
