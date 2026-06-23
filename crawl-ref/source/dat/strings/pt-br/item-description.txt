@@ -238,14 +238,11 @@ Dano base: %d  Atraso de ataque base: %.1f
 It can be evoked to extend its reach.
 Esta arma pode ser evocada para estender seu alcance.
 %%%%
-It hits all enemies adjacent to the wielder, dealing less damage to those not 
-targeted.
-Esta arma atinge todos os inimigos adjacentes ao portador, causando menos dano 
-aos que não são alvo.
+It hits all enemies adjacent to the wielder, dealing less damage to those not targeted.
+Esta arma atinge todos os inimigos adjacentes ao portador, causando menos dano aos que não são alvo.
 %%%%
 It can be used to riposte, swiftly retaliating against a missed attack.
-Esta arma pode ser usada para ripostar, retaliando rapidamente contra um ataque 
-errado.
+Esta arma pode ser usada para ripostar, retaliando rapidamente contra um ataque errado.
 %%%%
 It is extremely good for stabbing helpless or unaware enemies.
 Esta arma é extremamente boa para apunhalar inimigos indefesos ou desatentos.
@@ -253,19 +250,14 @@ Esta arma é extremamente boa para apunhalar inimigos indefesos ou desatentos.
 It is particularly good for stabbing helpless or unaware enemies.
 Esta arma é particularmente boa para apunhalar inimigos indefesos ou desatentos.
 %%%%
-Any ammunition fired from it burns those it strikes, dealing additional fire 
-damage.
-Qualquer munição disparada desta arma queima os atingidos, causando dano de fogo 
-adicional.
+Any ammunition fired from it burns those it strikes, dealing additional fire damage.
+Qualquer munição disparada desta arma queima os atingidos, causando dano de fogo adicional.
 %%%%
 Big, fiery blades are also staple armaments of hydra-hunters.
-Lâminas grandes e flamejantes também são armamentos básicos de caçadores de 
-hidras.
+Lâminas grandes e flamejantes também são armamentos básicos de caçadores de hidras.
 %%%%
-Any ammunition fired from it freezes those it strikes, dealing additional cold 
-damage.
-Qualquer munição disparada desta arma congela os atingidos, causando dano de frio 
-adicional.
+Any ammunition fired from it freezes those it strikes, dealing additional cold damage.
+Qualquer munição disparada desta arma congela os atingidos, causando dano de frio adicional.
 %%%%
 It freezes those it strikes, dealing additional cold damage.
 Esta arma congela os atingidos, causando dano de frio adicional.
@@ -273,24 +265,17 @@ Esta arma congela os atingidos, causando dano de frio adicional.
 It can also slow down cold-blooded creatures.
 Esta arma também pode desacelerar criaturas de sangue frio.
 %%%%
-It has been blessed by the Shining One, and any ammunition fired from it cause 
-great damage to the undead and demons.
-Esta arma foi abençoada pelo Brilhante, e qualquer munição disparada dela causa 
-grande dano a mortos-vivos e demônios.
+It has been blessed by the Shining One, and any ammunition fired from it cause great damage to the undead and demons.
+Esta arma foi abençoada pelo Brilhante, e qualquer munição disparada dela causa grande dano a mortos-vivos e demônios.
 %%%%
-It has been blessed by the Shining One to cause great damage to the undead and 
-demons.
-Esta arma foi abençoada pelo Brilhante para causar grande dano a mortos-vivos e 
-demônios.
+It has been blessed by the Shining One to cause great damage to the undead and demons.
+Esta arma foi abençoada pelo Brilhante para causar grande dano a mortos-vivos e demônios.
 %%%%
-Any ammunition fired from it occasionally discharges a powerful burst of 
-electricity upon striking a foe.
-Qualquer munição disparada desta arma ocasionalmente descarrega uma poderosa 
-explosão de eletricidade ao atingir um inimigo.
+Any ammunition fired from it occasionally discharges a powerful burst of electricity upon striking a foe.
+Qualquer munição disparada desta arma ocasionalmente descarrega uma poderosa explosão de eletricidade ao atingir um inimigo.
 %%%%
 It occasionally discharges a powerful burst of electricity upon striking a foe.
-Esta arma ocasionalmente descarrega uma poderosa explosão de eletricidade ao 
-atingir um inimigo.
+Esta arma ocasionalmente descarrega uma poderosa explosão de eletricidade ao atingir um inimigo.
 %%%%
 Any ammunition fired from it poisons the flesh of those it strikes.
 Qualquer munição disparada desta arma envenena a carne dos atingidos.
@@ -302,8 +287,7 @@ It grants its wielder temporary protection when it strikes (+7 to AC).
 Esta arma concede proteção temporária ao portador quando atinge (+7 de CA).
 %%%%
 A truly terrible weapon, it drains the life of any living foe it strikes.
-Uma arma verdadeiramente terrível, ela drena a vida de qualquer inimigo vivo que 
-atingir.
+Uma arma verdadeiramente terrível, ela drena a vida de qualquer inimigo vivo que atingir.
 %%%%
 Attacks with this weapon are significantly faster.
 Ataques com esta arma são significativamente mais rápidos.
@@ -317,50 +301,32 @@ Esta arma causa dano extra aos seus inimigos.
 Each projectile launched from it has a different, random effect.
 Cada projétil lançado desta arma tem um efeito diferente e aleatório.
 %%%%
-It occasionally heals its wielder for a portion of the damage dealt when it 
-wounds a living foe.
-Esta arma ocasionalmente cura seu portador por uma parte do dano causado quando 
-fere um inimigo vivo.
+It occasionally heals its wielder for a portion of the damage dealt when it wounds a living foe.
+Esta arma ocasionalmente cura seu portador por uma parte do dano causado quando fere um inimigo vivo.
 %%%%
-In the hands of one skilled in necromantic magic, it inflicts extra damage on 
-living creatures.
-Nas mãos de alguém habilidoso em magia necromântica, esta arma causa dano extra em 
-criaturas vivas.
+In the hands of one skilled in necromantic magic, it inflicts extra damage on living creatures.
+Nas mãos de alguém habilidoso em magia necromântica, esta arma causa dano extra em criaturas vivas.
 %%%%
-It warps and distorts space around it, and may blink, banish, or inflict extra 
-damage upon those it strikes. Unwielding it can cause banishment or high damage.
-Esta arma distorce o espaço ao seu redor e pode fazer deslocar, banir ou causar dano
-extra aos atingidos. Desempunhá-la pode causar banimento ou alto dano.
+It warps and distorts space around it, and may blink, banish, or inflict extra damage upon those it strikes. Unwielding it can cause banishment or high damage.
+Esta arma distorce o espaço ao seu redor e pode fazer deslocar, banir ou causar dano extra aos atingidos. Desempunhá-la pode causar banimento ou alto dano.
 %%%%
-Any living foe damaged by it may be reanimated upon death as a zombie friendly
-to the wielder, with an increasing chance as more damage is dealt.
-Qualquer inimigo vivo danificado por ela pode ser reanimado após a morte como um
-zumbi aliado ao portador, com chance crescente conforme mais dano é causado.
+Any living foe damaged by it may be reanimated upon death as a zombie friendly to the wielder, with an increasing chance as more damage is dealt.
+Qualquer inimigo vivo danificado por ela pode ser reanimado após a morte como um zumbi aliado ao portador, com chance crescente conforme mais dano é causado.
 %%%%
-It reduces the magical energy of the wielder, and disrupts the spells and
-magical abilities of those it strikes. Natural abilities and divine invocations
-are not affected.
-Esta arma reduz a energia mágica do portador e interrompe magias e habilidades
-mágicas dos atingidos. Habilidades naturais e invocações divinas não são
-afetadas.
+It reduces the magical energy of the wielder, and disrupts the spells and magical abilities of those it strikes. Natural abilities and divine invocations are not affected.
+Esta arma reduz a energia mágica do portador e interrompe magias e habilidades mágicas dos atingidos. Habilidades naturais e invocações divinas não são afetadas.
 %%%%
-When its wielder attacks, the weapon's spirit leaps out and strikes again. The
-spirit shares a part of any damage it takes with its wielder.
-Quando o portador ataca, o espírito da arma salta e ataca novamente. O espírito
-compartilha parte de qualquer dano que sofra com o portador.
+When its wielder attacks, the weapon's spirit leaps out and strikes again. The spirit shares a part of any damage it takes with its wielder.
+Quando o portador ataca, o espírito da arma salta e ataca novamente. O espírito compartilha parte de qualquer dano que sofra com o portador.
 %%%%
-Any ammunition fired from it is coated in acid, damaging and corroding those it
-strikes.
-Qualquer munição disparada desta arma está coberta de ácido, danificando e
-corroendo os atingidos.
+Any ammunition fired from it is coated in acid, damaging and corroding those it strikes.
+Qualquer munição disparada desta arma está coberta de ácido, danificando e corroendo os atingidos.
 %%%%
 It is coated in acid, damaging and corroding those it strikes.
 Esta arma está coberta de ácido, danificando e corroendo os atingidos.
 %%%%
-It has no special brand (it is not flaming, freezing, etc), but is still
-enchanted in some way - positive or negative.
-Esta arma não tem marca especial (não é flamejante, gelada, etc.), mas ainda está
-encantada de alguma forma — positiva ou negativa.
+It has no special brand (it is not flaming, freezing, etc), but is still enchanted in some way - positive or negative.
+Esta arma não tem marca especial (não é flamejante, gelada, etc.), mas ainda está encantada de alguma forma — positiva ou negativa.
 %%%%
 It is temporarily rebranded; it is actually an unbranded weapon.
 Esta arma está temporariamente remarcada; na verdade, é uma arma sem marca.
@@ -378,10 +344,8 @@ Esta arma pertence à categoria '%s'.
 It falls into the 'Staves' category.
 Esta arma pertence à categoria 'Cajados'.
 %%%%
-Your inability to study %s prevents you from drawing on the full power of this
-staff in melee.
-Sua incapacidade de estudar %s impede que você use todo o poder deste cajado em
-corpo a corpo.
+Your inability to study %s prevents you from drawing on the full power of this staff in melee.
+Sua incapacidade de estudar %s impede que você use todo o poder deste cajado em corpo a corpo.
 %%%%
 It is a one-handed weapon.
 Esta é uma arma de uma mão.
@@ -407,40 +371,27 @@ Este projétil tem um efeito aleatório em qualquer alvo que atingir.
 It is coated with poison.
 Este projétil está coberto de veneno.
 %%%%
-It is tipped with a substance that causes asphyxiation, dealing direct damage as
-well as poisoning and slowing those it strikes.
-Este projétil tem uma ponta com uma substância que causa asfixia, causando dano
-direto e também envenenando e desacelerando os atingidos.
+It is tipped with a substance that causes asphyxiation, dealing direct damage as well as poisoning and slowing those it strikes.
+Este projétil tem uma ponta com uma substância que causa asfixia, causando dano direto e também envenenando e desacelerando os atingidos.
 %%%%
 It is twice as likely to be destroyed on impact as other darts.
-Este projétil tem o dobro da chance de ser destruído no impacto comparado a
-outros dardos.
+Este projétil tem o dobro da chance de ser destruído no impacto comparado a outros dardos.
 %%%%
-It is tipped with a substance that sends those it hits into a mindless rage,
-attacking friend and foe alike.
-Este projétil tem uma ponta com uma substância que envolve os atingidos em uma
-fúria irracional, atacando amigos e inimigos igualmente.
+It is tipped with a substance that sends those it hits into a mindless rage, attacking friend and foe alike.
+Este projétil tem uma ponta com uma substância que envolve os atingidos em uma fúria irracional, atacando amigos e inimigos igualmente.
 %%%%
-The chance of successfully applying its effect increases with Throwing and
-Stealth skill.
-A chance de aplicar seu efeito com sucesso aumenta com as habilidades de Arremesso
- e Furtividade.
+The chance of successfully applying its effect increases with Throwing and Stealth skill.
+A chance de aplicar seu efeito com sucesso aumenta com as habilidades de Arremesso e Furtividade.
 %%%%
 It is tipped with a substance that causes blindness and brief confusion.
 Este projétil tem uma ponta com uma substância que causa cegueira e breve confusão.
 %%%%
-It causes any target it hits to blink, with a tendency towards blinking further
-away from the attacker.
-Este projétil faz qualquer alvo atingido se deslocar, com tendência a se deslocar para mais
-longe do atacante.
+It causes any target it hits to blink, with a tendency towards blinking further away from the attacker.
+Este projétil faz qualquer alvo atingido se deslocar, com tendência a se deslocar para mais longe do atacante.
 %%%%
 # silver
-It deals increased damage compared to normal ammo and substantially increased
-damage to chaotic and magically transformed beings. It also inflicts extra
-damage against mutated beings, according to how mutated they are.
-Este projétil causa dano aumentado comparado a munição normal e dano
-substancialmente aumentado contra seres caóticos e magicamente transformados. Também
-causa dano extra contra seres mutados, de acordo com o quão mutados estão.
+It deals increased damage compared to normal ammo and substantially increased damage to chaotic and magically transformed beings. It also inflicts extra damage against mutated beings, according to how mutated they are.
+Este projétil causa dano aumentado comparado a munição normal e dano substancialmente aumentado contra seres caóticos e magicamente transformados. Também causa dano extra contra seres mutados, de acordo com o quão mutados estão.
 %%%%
 It is always destroyed on impact.
 Este projétil é sempre destruído no impacto.
@@ -496,10 +447,8 @@ ela protege o portador de veneno.
 it allows its wearer to see invisible things.
 ela permite que o portador veja coisas invisíveis.
 %%%%
-when activated, it grants its wearer temporary invisibility, but also drains
-their maximum health.
-quando ativada, concede invisibilidade temporária ao portador, mas também drena
-sua vida máxima.
+when activated, it grants its wearer temporary invisibility, but also drains their maximum health.
+quando ativada, concede invisibilidade temporária ao portador, mas também drena sua vida máxima.
 %%%%
 it increases the strength of its wearer (Str +3).
 ela aumenta a força do portador (For +3).
@@ -517,8 +466,7 @@ it grants its wearer flight.
 ela concede voo ao portador.
 %%%%
 it increases its wearer's willpower, protecting against certain magical effects.
-ela aumenta a força de vontade do portador, protegendo contra certos efeitos
-mágicos.
+ela aumenta a força de vontade do portador, protegendo contra certos efeitos mágicos.
 %%%%
 it protects its wearer from most sources of damage (AC +3).
 ela protege o portador da maioria das fontes de dano (CA +3).
@@ -541,15 +489,11 @@ ela protege o portador dos efeitos de ácido e corrosão.
 it reflects blocked missile attacks back in the direction they came from.
 ela reflete ataques de projéteis bloqueados de volta na direção de onde vieram.
 %%%%
-it causes incoming damage to be divided between the wearer's reserves of health
-and magic.
-ela faz com que o dano recebido seja dividido entre as reservas de vida e magia
-do portador.
+it causes incoming damage to be divided between the wearer's reserves of health and magic.
+ela faz com que o dano recebido seja dividido entre as reservas de vida e magia do portador.
 %%%%
-it improves its wearer's accuracy and damage with ranged weapons, such as bows
-and javelins (Slay +4).
-ela melhora a precisão e o dano do portador com armas à distância, como arcos e
-lanças de arremesso (Matar +4).
+it improves its wearer's accuracy and damage with ranged weapons, such as bows and javelins (Slay +4).
+ela melhora a precisão e o dano do portador com armas à distância, como arcos e lanças de arremesso (Matar +4).
 %%%%
 it protects its wearer by repelling missiles.
 ela protege o portador repelindo projéteis.
@@ -564,10 +508,8 @@ its wearer takes one free step when moving towards enemies.
 seu portador dá um passo livre ao se mover em direção a inimigos.
 %%%%
 # Warlock's Mirror
-With your current SH, it has a %d%% chance to reflect attacks against your
-willpower and other normally unblockable effects.
-Com sua Proteção atual, esta armadura tem %d%% de chance de refletir ataques contra
- sua força de vontade e outros efeitos normalmente bloqueáveis.
+With your current SH, it has a %d%% chance to reflect attacks against your willpower and other normally unblockable effects.
+Com sua Proteção atual, esta armadura tem %d%% de chance de refletir ataques contra sua força de vontade e outros efeitos normalmente bloqueáveis.
 %%%%
 
 #################################
@@ -579,8 +521,7 @@ This weapon's minimum attack delay (%.1f) is reached at skill level %d.
 O atraso mínimo de ataque desta arma (%.1f) é alcançado no nível de habilidade %d.
 %%%%
 This projectile's minimum attack delay (%.1f) is reached at skill level %d.
-O atraso mínimo de ataque deste projétil (%.1f) é alcançado no nível de habilidade
- %d.
+O atraso mínimo de ataque deste projétil (%.1f) é alcançado no nível de habilidade %d.
 %%%%
 # shield penalty
 Skill to remove penalty: %d.%d
@@ -623,8 +564,7 @@ Este item aumenta sua taxa de regeneração de magia.
 It increases your evasion while moving and waiting.
 Este item aumenta sua evasão ao se mover e esperar.
 %%%%
-It causes incoming damage to be divided between your reserves of health and
-magic.
+It causes incoming damage to be divided between your reserves of health and magic.
 O dano recebido é dividido entre suas reservas de vida e magia.
 %%%%
 It allows you to gain divine favour quickly.
@@ -670,15 +610,11 @@ Uma vez ativado, este dispositivo fica temporariamente inerte.
 " However, it recharges as you gain experience."
 " No entanto, ele recarrega conforme você ganha experiência."
 %%%%
-Once all charges have been used, this device and all other devices of its kind
-are rendered temporarily inert.
-Quando todas as cargas forem usadas, este dispositivo e todos os outros do mesmo
-tipo ficam temporariamente inertes.
+Once all charges have been used, this device and all other devices of its kind are rendered temporarily inert.
+Quando todas as cargas forem usadas, este dispositivo e todos os outros do mesmo tipo ficam temporariamente inertes.
 %%%%
-Once activated, this device and all other devices of its kind are rendered
-temporarily inert.
-Uma vez ativado, este dispositivo e todos os outros do mesmo tipo ficam
-temporariamente inertes.
+Once activated, this device and all other devices of its kind are rendered temporarily inert.
+Uma vez ativado, este dispositivo e todos os outros do mesmo tipo ficam temporariamente inertes.
 %%%%
 " However, they recharge as you gain experience."
 " No entanto, eles recarregam conforme você ganha experiência."
@@ -714,12 +650,8 @@ Ele está cercado por um brilho suave.
 discharge
 descarga
 %%%%
-It occasionally unleashes powerful arcs of lightning upon striking a foe. These
-may arc to other adjacent creatures (including the wielder, but dealing reduced
-damage to them) before grounding out.
-Ela ocasionalmente desencadeia arcos poderosos de relâmpago ao atingir um
-inimigo. Eles podem saltar para outras criaturas adjacentes (incluindo o portador,
-mas causando dano reduzido a elas) antes de se dissipar.
+It occasionally unleashes powerful arcs of lightning upon striking a foe. These may arc to other adjacent creatures (including the wielder, but dealing reduced damage to them) before grounding out.
+Ela ocasionalmente desencadeia arcos poderosos de relâmpago ao atingir um inimigo. Eles podem saltar para outras criaturas adjacentes (incluindo o portador, mas causando dano reduzido a elas) antes de se dissipar.
 %%%%
 
 # Blowgun of the Assassin
@@ -733,18 +665,14 @@ apunhalar
 disarm
 desarmar
 %%%%
-It may disarm weapon-wielding foes when striking them, dealing extra damage in
-the process.
-Ela pode desarmar inimigos que empunham armas ao atingi-los, causando dano extra
-no processo.
+It may disarm weapon-wielding foes when striking them, dealing extra damage in the process.
+Ela pode desarmar inimigos que empunham armas ao atingi-los, causando dano extra no processo.
 %%%%
 
 # Damnation (arbalest)
 %%%%
-Any ammunition fired from it explodes in a burst of damnation on striking a foe,
- dealing damage which bypasses armour.
-Qualquer munição disparada dela explode em uma explosão de condenação ao atingir
-um inimigo, causando dano que ignora armadura.
+Any ammunition fired from it explodes in a burst of damnation on striking a foe, dealing damage which bypasses armour.
+Qualquer munição disparada dela explode em uma explosão de condenação ao atingir um inimigo, causando dano que ignora armadura.
 %%%%
 
 # Devastator (shillelagh)
@@ -752,10 +680,8 @@ um inimigo, causando dano que ignora armadura.
 shatter
 estilhaçar
 %%%%
-It releases a powerful concussive burst when it strikes, dealing extra damage to
- the target and all other foes adjacent to them.
-Ela libera uma poderosa explosão concussiva ao atingir, causando dano extra ao
-alvo e a todos os outros inimigos adjacentes a ele.
+It releases a powerful concussive burst when it strikes, dealing extra damage to the target and all other foes adjacent to them.
+Ela libera uma poderosa explosão concussiva ao atingir, causando dano extra ao alvo e a todos os outros inimigos adjacentes a ele.
 %%%%
 
 # Eos (morningstar)
@@ -769,10 +695,8 @@ Ela concede uma auréola ao portador, aumentando a precisão contra aqueles dent
 eviscerate
 eviscerar
 %%%%
-It may eviscerate those it strikes, slaying them instantly, with a decreasing
-chance against stronger foes.
-Ela pode eviscerar os atingidos, matando-os instantaneamente, com chance
-decrescente contra inimigos mais fortes.
+It may eviscerate those it strikes, slaying them instantly, with a decreasing chance against stronger foes.
+Ela pode eviscerar os atingidos, matando-os instantaneamente, com chance decrescente contra inimigos mais fortes.
 %%%%
 
 # Firestarter (great mace)
@@ -789,10 +713,8 @@ Ela enche os atingidos com uma chama interna explosiva.
 freezing cloud
 nuvem congelante
 %%%%
-It freezes those it strikes, dealing additional cold damage. It can also slow
-down cold-blooded creatures.
-Ela congela os atingidos, causando dano de frio adicional. Também pode
-desacelerar criaturas de sangue frio.
+It freezes those it strikes, dealing additional cold damage. It can also slow down cold-blooded creatures.
+Ela congela os atingidos, causando dano de frio adicional. Também pode desacelerar criaturas de sangue frio.
 %%%%
 It occasionally leaves clouds of freezing vapour upon striking a foe.
 Ocasionalmente ela deixa nuvens de vapor congelante ao atingir um inimigo.
@@ -812,26 +734,20 @@ Quando ela atinge, seu espírito salta e luta ao lado do portador.
 
 # Lajatang of Order
 %%%%
-It inflicts extra damage upon those it strikes, and deals substantially
-increased damage to chaotic, mutated and magically transformed beings.
-Ela causa dano extra aos atingidos e dano substancialmente aumentado contra seres
-caóticos, mutados e magicamente transformados.
+It inflicts extra damage upon those it strikes, and deals substantially increased damage to chaotic, mutated and magically transformed beings.
+Ela causa dano extra aos atingidos e dano substancialmente aumentado contra seres caóticos, mutados e magicamente transformados.
 %%%%
 
 # Leech (demon blade)
 %%%%
-It heals its wielder for a portion of the damage dealt every time it strikes a
-living foe.
-Ela cura seu portador por uma parte do dano causado toda vez que atinge um
-inimigo vivo.
+It heals its wielder for a portion of the damage dealt every time it strikes a living foe.
+Ela cura seu portador por uma parte do dano causado toda vez que atinge um inimigo vivo.
 %%%%
 
 # Majin-Bo (qurterstaff)
 %%%%
-It occasionally heals its wielder for a portion of the damage dealt when they
-wound a living foe with it or with a spell.
-Ocasionalmente ela cura seu portador por uma parte do dano causado quando ele
-fere um inimigo vivo com ela ou com uma magia.
+It occasionally heals its wielder for a portion of the damage dealt when they wound a living foe with it or with a spell.
+Ocasionalmente ela cura seu portador por uma parte do dano causado quando ele fere um inimigo vivo com ela ou com uma magia.
 %%%%
 Its wielder's spells cost health as well as magical power.
 As magias do portador custam vida além de poder mágico.
@@ -846,8 +762,7 @@ Each time it hits an enemy it has a different, random effect.
 Cada vez que atinge um inimigo, ela tem um efeito diferente e aleatório.
 %%%%
 It occasionally unleashes arcs of chaos on nearby creatures upon striking a foe.
-Ocasionalmente ela desencadeia arcos de caos em criaturas próximas ao atingir um
-inimigo.
+Ocasionalmente ela desencadeia arcos de caos em criaturas próximas ao atingir um inimigo.
 %%%%
 
 # Maxwell's thermic engine
@@ -859,8 +774,7 @@ Ela se torna mais efetiva quando atinge algo. Este efeito diminui com o tempo.
 # Obsidian Axe
 %%%%
 It occasionally summons demons to assist the wielder when it strikes in combat.
-Ocasionalmente ela invoca demônios para auxiliar o portador quando atinge em
-combate.
+Ocasionalmente ela invoca demônios para auxiliar o portador quando atinge em combate.
 %%%%
 Its wielder is mesmerised by any visible foes.
 Seu portador é hipnotizado por quaisquer inimigos visíveis.
@@ -871,10 +785,8 @@ Ela não pode ser desequipada enquanto houver inimigos visíveis.
 
 # Plutonium sword
 %%%%
-It occasionally inflicts wild transmutation effects on those it strikes,
-inflicting malmutation or extra damage, or polymorphing them into a new form.
-Ocasionalmente ela inflige efeitos selvagens de transmutação aos atingidos,
-causando malmutação ou dano extra, ou os transforma em uma nova forma.
+It occasionally inflicts wild transmutation effects on those it strikes, inflicting malmutation or extra damage, or polymorphing them into a new form.
+Ocasionalmente ela inflige efeitos selvagens de transmutação aos atingidos, causando malmutação ou dano extra, ou os transforma em uma nova forma.
 %%%%
 
 # Rift (demon trident)
@@ -882,10 +794,8 @@ causando malmutação ou dano extra, ou os transforma em uma nova forma.
 reach+
 alcance+
 %%%%
-It can reach especially far, and its reaching attacks ignore other creatures in
-the way.
-Ela pode alcançar especialmente longe, e seus ataques de alcance ignoram outras
-criaturas no caminho.
+It can reach especially far, and its reaching attacks ignore other creatures in the way.
+Ela pode alcançar especialmente longe, e seus ataques de alcance ignoram outras criaturas no caminho.
 %%%%
 
 # Sceptre of Torment (eveningstar)
@@ -894,32 +804,26 @@ torment
 tormento
 %%%%
 It occasionally torments all nearby living foes when it strikes in combat.
-Ocasionalmente ela atormenta todos os inimigos vivos próximos quando atinge em
-combate.
+Ocasionalmente ela atormenta todos os inimigos vivos próximos quando atinge em combate.
 %%%%
 
 # Scythe of Curses
 %%%%
 It inflicts powerful necromantic curses on any living foe it strikes.
-Ela inflige maldições necromânticas poderosas em qualquer inimigo vivo que
-atingir.
+Ela inflige maldições necromânticas poderosas em qualquer inimigo vivo que atingir.
 %%%%
 
 # Singing Sword
 %%%%
 # note: Previous sentence starts with "Diese Waffe..." hence pronoun is "sie".
-It radiates damaging sonic waves as it strikes, especially in combat involving
-dangerous or numerous foes.
-Ela irradia ondas sônicas danosas ao atingir, especialmente em combate contra
-inimigos perigosos ou numerosos.
+It radiates damaging sonic waves as it strikes, especially in combat involving dangerous or numerous foes.
+Ela irradia ondas sônicas danosas ao atingir, especialmente em combate contra inimigos perigosos ou numerosos.
 %%%%
 
 # Snakebite (whip)
 %%%%
-It occasionally inflicts asphyxiating poison on those it strikes, dealing poison
- damage and causing slowness.
-Ocasionalmente ela inflige veneno asfixiante aos atingidos, causando dano de
-veneno e lentidão.
+It occasionally inflicts asphyxiating poison on those it strikes, dealing poison damage and causing slowness.
+Ocasionalmente ela inflige veneno asfixiante aos atingidos, causando dano de veneno e lentidão.
 %%%%
 
 # Sniper (heavy crossbow)
@@ -939,26 +843,20 @@ Malefício
 
 # Spellbinder (demon whip)
 %%%%
-It unleashes wild and unpredictable magical effects upon striking a wizard or a
-creature with magical abilities.
-Ela desencadeia efeitos mágicos selvagens e imprevisíveis ao atingir um mago ou
-uma criatura com habilidades mágicas.
+It unleashes wild and unpredictable magical effects upon striking a wizard or a creature with magical abilities.
+Ela desencadeia efeitos mágicos selvagens e imprevisíveis ao atingir um mago ou uma criatura com habilidades mágicas.
 %%%%
 
 # Spriggan's Knife
 %%%%
-It is more effective when stabbing unaware enemies, treating them as though they
- were completely helpless.
-Ela é mais efetiva ao apunhalar inimigos desatentos, tratando-os como se estivessem
- completamente indefesos.
+It is more effective when stabbing unaware enemies, treating them as though they were completely helpless.
+Ela é mais efetiva ao apunhalar inimigos desatentos, tratando-os como se estivessem completamente indefesos.
 %%%%
 
 # Storm Bow
 %%%%
-Any ammunition fired by it passes through the targets it hits, potentially
-hitting all targets in its path until it reaches maximum range.
-Qualquer munição disparada por ela atravessa os alvos atingidos, podendo atingir
-todos os alvos em seu caminho até atingir o alcance máximo.
+Any ammunition fired by it passes through the targets it hits, potentially hitting all targets in its path until it reaches maximum range.
+Qualquer munição disparada por ela atravessa os alvos atingidos, podendo atingir todos os alvos em seu caminho até atingir o alcance máximo.
 %%%%
 
 # Sword of Cerebov
@@ -969,10 +867,8 @@ Ela reduz temporariamente a resistência ao fogo dos atingidos.
 
 # Sword of Power
 %%%%
-It occasionally discharges a powerful but inaccurate bolt of energy upon
-striking a foe, with increased chance the greater the wielder's current health.
-Ocasionalmente ela dispara um raio de energia poderoso mas impreciso ao atingir
-um inimigo, com chance aumentada quanto maior a vida atual do portador.
+It occasionally discharges a powerful but inaccurate bolt of energy upon striking a foe, with increased chance the greater the wielder's current health.
+Ocasionalmente ela dispara um raio de energia poderoso mas impreciso ao atingir um inimigo, com chance aumentada quanto maior a vida atual do portador.
 %%%%
 
 # Undeadhunter (great mace)
@@ -986,10 +882,8 @@ Ela causa significativamente mais dano contra mortos-vivos.
 
 # Vampire's Tooth (dagger)
 %%%%
-It occasionally heals its wielder for the full amount of damage dealt when it
-wounds a living foe.
-Ocasionalmente ela cura seu portador pelo valor total do dano causado quando
-fere um inimigo vivo.
+It occasionally heals its wielder for the full amount of damage dealt when it wounds a living foe.
+Ocasionalmente ela cura seu portador pelo valor total do dano causado quando fere um inimigo vivo.
 %%%%
 
 # Wrath of Trog (axe)
@@ -1009,10 +903,8 @@ Ela causa dano extra contra dragões e draconianos.
 
 # Zealot's sword
 %%%%
-Whenever the wielder enters a berserk rage, their allies are berserked alongside
- them.
-Sempre que o portador entra em fúria berserk, seus aliados também entram em fúria
-berserk ao lado dele.
+Whenever the wielder enters a berserk rage, their allies are berserked alongside them.
+Sempre que o portador entra em fúria berserk, seus aliados também entram em fúria berserk ao lado dele.
 %%%%
 
 #################################
@@ -1021,10 +913,8 @@ berserk ao lado dele.
 
 # Elemental Staff
 %%%%
-If the wielder is skilled in Evocations, they can discharge powerful blasts of
-elemental energy when striking with it.
-Se o portador for habilidoso em Evocações, ele pode descarregar poderosas explosões
- de energia elemental ao atingir com ela.
+If the wielder is skilled in Evocations, they can discharge powerful blasts of elemental energy when striking with it.
+Se o portador for habilidoso em Evocações, ele pode descarregar poderosas explosões de energia elemental ao atingir com ela.
 %%%%
 It enhances your fire, ice, earth and air magic.
 Ela aprimora sua magia de fogo, gelo, terra e ar.
@@ -1032,28 +922,20 @@ Ela aprimora sua magia de fogo, gelo, terra e ar.
 
 # Sceptre of Asmodeus (staff)
 %%%%
-It can be evoked to summon fiery demons, with success rate depending on
-Evocations skill. Those summoned this way will remain friendly only for a
-limited time.
-Ela pode ser evocada para invocar demônios flamejantes, com taxa de sucesso
-dependendo da habilidade de Evocações. Os invocados dessa forma permanecerão
-amigáveis apenas por um tempo limitado.
+It can be evoked to summon fiery demons, with success rate depending on Evocations skill. Those summoned this way will remain friendly only for a limited time.
+Ela pode ser evocada para invocar demônios flamejantes, com taxa de sucesso dependendo da habilidade de Evocações. Os invocados dessa forma permanecerão amigáveis apenas por um tempo limitado.
 %%%%
 
 # Staff of Battle
 %%%%
-It summons a battlesphere in combat, with strength depending on Conjurations
-skill.
-Ela invoca uma esfera de batalha em combate, com força dependendo da habilidade
-de Conjurações.
+It summons a battlesphere in combat, with strength depending on Conjurations skill.
+Ela invoca uma esfera de batalha em combate, com força dependendo da habilidade de Conjurações.
 %%%%
 
 # Staff of Dispater
 %%%%
-It can be evoked to hurl damnation at the cost of health and magic, with
-strength depending on Evocations skill.
-Ela pode ser evocada para lançar condenação ao custo de vida e magia, com força
-dependendo da habilidade de Evocações.
+It can be evoked to hurl damnation at the cost of health and magic, with strength depending on Evocations skill.
+Ela pode ser evocada para lançar condenação ao custo de vida e magia, com força dependendo da habilidade de Evocações.
 %%%%
 
 # Staff of Olgreb
@@ -1064,15 +946,11 @@ rVen∞
 It grants immunity to poison.
 Ela concede imunidade a veneno.
 %%%%
-It can be evoked to radiate toxic energy, with effectiveness depending on
-Evocations skill.
-Ela pode ser evocada para irradiar energia tóxica, com eficácia dependendo da
-habilidade de Evocações.
+It can be evoked to radiate toxic energy, with effectiveness depending on Evocations skill.
+Ela pode ser evocada para irradiar energia tóxica, com eficácia dependendo da habilidade de Evocações.
 %%%%
-If the wielder is skilled in Evocations, they can envenom those struck by it,
-dealing poison damage which bypasses armour.
-Se o portador for habilidoso em Evocações, ele pode envenenar os atingidos por
-ela, causando dano de veneno que ignora armadura.
+If the wielder is skilled in Evocations, they can envenom those struck by it, dealing poison damage which bypasses armour.
+Se o portador for habilidoso em Evocações, ele pode envenenar os atingidos por ela, causando dano de veneno que ignora armadura.
 %%%%
 
 # Staff of Wucad Mu
@@ -1080,15 +958,11 @@ ela, causando dano de veneno que ignora armadura.
 *channel
 *canalizar
 %%%%
-It occasionally powers its wielder's spells, but with a chance of causing
-confusion or draining the wielder's intelligence.
-Ocasionalmente ela potencializa as magias do portador, mas com chance de causar
-confusão ou drenar a inteligência do portador.
+It occasionally powers its wielder's spells, but with a chance of causing confusion or draining the wielder's intelligence.
+Ocasionalmente ela potencializa as magias do portador, mas com chance de causar confusão ou drenar a inteligência do portador.
 %%%%
-It becomes more likely to activate and less likely to backfire with increased
-Evocations skill.
-Com habilidade de Evocações aumentada, ela se torna mais provável de ativar e
-menos provável de falhar.
+It becomes more likely to activate and less likely to backfire with increased Evocations skill.
+Com habilidade de Evocações aumentada, ela se torna mais provável de ativar e menos provável de falhar.
 %%%%
 
 #################################
@@ -1112,10 +986,8 @@ Detecção Apunhalar+
 It allows the wearer to sense nearby creatures.
 Ela permite que o portador sinta criaturas próximas.
 %%%%
-It allows the wearer to make particularly effective stabbing attacks against
-helpless or unaware enemies with any weapon.
-Ela permite que o portador faça ataques de apunhalamento particularmente
-efetivos contra inimigos indefesos ou desatentos com qualquer arma.
+It allows the wearer to make particularly effective stabbing attacks against helpless or unaware enemies with any weapon.
+Ela permite que o portador faça ataques de apunhalamento particularmente efetivos contra inimigos indefesos ou desatentos com qualquer arma.
 %%%%
 
 # Skin of Zhor
@@ -1123,10 +995,8 @@ efetivos contra inimigos indefesos ou desatentos com qualquer arma.
 *Englaciate
 *Engelar
 %%%%
-It radiates cold, occasionally slowing all nearby creatures who are not
-resistant to cold.
-Ela irradia frio, ocasionalmente desacelerando todas as criaturas próximas que não
- são resistentes ao frio.
+It radiates cold, occasionally slowing all nearby creatures who are not resistant to cold.
+Ela irradia frio, ocasionalmente desacelerando todas as criaturas próximas que não são resistentes ao frio.
 %%%%
 
 # Salamander hide armour
@@ -1161,10 +1031,8 @@ Ela reduz sua força de vontade a zero.
 Dark
 Escuridão
 %%%%
-It shrouds the wearer in darkness, reducing the range at which they can see and
-be seen by others.
-Ela envolve o portador em escuridão, reduzindo o alcance em que ele pode ver e
-ser visto por outros.
+It shrouds the wearer in darkness, reducing the range at which they can see and be seen by others.
+Ela envolve o portador em escuridão, reduzindo o alcance em que ele pode ver e ser visto por outros.
 %%%%
 
 # Fencer's Gloves
@@ -1172,10 +1040,8 @@ ser visto por outros.
 Riposte
 Riposta
 %%%%
-It allows the wearer to riposte with any weapon, or to riposte more often with a
- long blade, swiftly retaliating against a missed attack.
-Ela permite que o portador riposte com qualquer arma, ou riposte mais vezes com
-uma lâmina longa, retaliando rapidamente contra um ataque errado.
+It allows the wearer to riposte with any weapon, or to riposte more often with a long blade, swiftly retaliating against a missed attack.
+Ela permite que o portador riposte com qualquer arma, ou riposte mais vezes com uma lâmina longa, retaliando rapidamente contra um ataque errado.
 %%%%
 
 # Cloak of Starlight
@@ -1184,8 +1050,7 @@ uma lâmina longa, retaliando rapidamente contra um ataque errado.
 *Deslumbrar
 %%%%
 It may blind those who miss an attack against the wearer in melee combat.
-Ela pode cegar aqueles que erram um ataque contra o portador em combate corpo a
-corpo.
+Ela pode cegar aqueles que erram um ataque contra o portador em combate corpo a corpo.
 %%%%
 
 # Ratskin Cloak
@@ -1205,10 +1070,8 @@ Ele é ensurdecedoramente barulhento ao bloquear ataques.
 +Thunder rCloud
 +Trovão rNuvem
 %%%%
-It can be evoked to surround the wearer with storm clouds, with success rate
-depending on Evocations skill.
-Ela pode ser evocada para cercar o portador com nuvens de tempestade, com taxa
-de sucesso dependendo da habilidade de Evocações.
+It can be evoked to surround the wearer with storm clouds, with success rate depending on Evocations skill.
+Ela pode ser evocada para cercar o portador com nuvens de tempestade, com taxa de sucesso dependendo da habilidade de Evocações.
 %%%%
 
 # Lightning Scales
@@ -1219,10 +1082,8 @@ Ela permite que o portador percorra terreno mais rapidamente.
 
 # Dragonskin Cloak
 %%%%
-It grants the wearer a chance to resist fire, cold, poison, electricity, acid,
-and negative energy.
-Ela concede ao portador uma chance de resistir a fogo, frio, veneno, eletricidade,
- ácido e energia negativa.
+It grants the wearer a chance to resist fire, cold, poison, electricity, acid, and negative energy.
+Ela concede ao portador uma chance de resistir a fogo, frio, veneno, eletricidade, ácido e energia negativa.
 %%%%
 
 # Hat of the High Council
@@ -1263,17 +1124,14 @@ Poções são duas vezes mais eficazes em curar seu portador.
 
 # Warlock's Mirror (buckler)
 %%%%
-It can block and reflect piercing ranged attacks and magical attacks against the
- wielder's willpower.
-Ele pode bloquear e refletir ataques à distância perfurantes e ataques mágicos
-contra a força de vontade do portador.
+It can block and reflect piercing ranged attacks and magical attacks against the wielder's willpower.
+Ele pode bloquear e refletir ataques à distância perfurantes e ataques mágicos contra a força de vontade do portador.
 %%%%
 
 # Cigotuvi's Embrace
 %%%%
 It gathers nearby corpses to temporarily increase the armour it provides.
-Ela reúne cadáveres próximos para aumentar temporariamente a armadura que
-fornece.
+Ela reúne cadáveres próximos para aumentar temporariamente a armadura que fornece.
 %%%%
 It protects you from foul pestilence.
 Ela protege contra pestilência fétida.
@@ -1284,10 +1142,8 @@ Ela protege contra pestilência fétida.
 Rampage+∞
 Fúria+∞
 %%%%
-Its wearer moves as far as possible in that direction when moving towards
-enemies.
-Seu portador se move o máximo possível naquela direção ao se mover em direção a
-inimigos.
+Its wearer moves as far as possible in that direction when moving towards enemies.
+Seu portador se move o máximo possível naquela direção ao se mover em direção a inimigos.
 %%%%
 
 #################################
@@ -1299,10 +1155,8 @@ inimigos.
 Umbra
 Umbra
 %%%%
-It surrounds you with an aura of shadow, increasing your stealth and reducing
-the accuracy of all within it (including the wearer).
-Ele o cerca com uma aura de sombra, aumentando sua furtividade e reduzindo a
-precisão de todos dentro dela (incluindo o portador).
+It surrounds you with an aura of shadow, increasing your stealth and reducing the accuracy of all within it (including the wearer).
+Ele o cerca com uma aura de sombra, aumentando sua furtividade e reduzindo a precisão de todos dentro dela (incluindo o portador).
 %%%%
 
 # Amulet of the Air
