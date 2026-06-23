@@ -459,6 +459,9 @@ int main()
                      ", magische Fähigkeiten trainierst"
                      " oder magische Stäbe oder mit Schmerz geprägte Waffen verwendest.");
 
+    msg = localise("Chance to defeat your Will: %d%%%s", 70, "");
+    show_result(msg, "Chance, deinen Willen zu besiegen: 70%");
+
     // test localise with trailing space
     msg = localise("Adjust to which letter? ");
     show_result(msg, "An welchen Buchstaben binden? ");

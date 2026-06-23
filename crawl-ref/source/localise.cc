@@ -133,13 +133,13 @@ static vector<string> _split_format(const string& fmt_str)
         token_len = 1;
         bool finished = false;
 
-        if (*ch == '%' && *(ch+1) != '%')
+        if (*ch == '%')
         {
-            // read format specifier
+            // read format specifier (or escaped % sign)
             ++ch;
             while (!finished)
             {
-                finished = (*ch == '\0' || _is_type_spec(*ch));
+                finished = (*ch == '\0' || *ch == '%' || _is_type_spec(*ch));
                 if (*ch != '\0')
                 {
                     ++token_len;
@@ -164,24 +164,12 @@ static vector<string> _split_format(const string& fmt_str)
         else
         {
             // read literal string
-            while (!finished)
+            while (true)
             {
-                bool escaped = (*ch == '\\' || (*ch == '%' && *(ch+1) == '%'));
                 ++ch;
-                if (*ch == '\0')
-                    finished = true;
-                else if (escaped)
-                {
-                    // ignore character
-                    ++token_len;
-                    finished = false;
-                }
-                else
-                {
-                    finished = (*ch == '%' || *ch == '{');
-                    if (!finished)
-                        ++token_len;
-                }
+                if (*ch == '\0' || *ch == '%' || *ch == '{')
+                    break;
+                ++token_len;
             }
         }
 
@@ -2603,6 +2591,7 @@ static string _build_string(const vector<LocalisationArg>& args, bool translate)
         fmt_xlated = _localise_string("", fmt_arg);
     else
         fmt_xlated = fmt_arg.stringVal;
+    TRACE("Localised format string is: \"%s\"", fmt_xlated.c_str());
 
     // get arg types for original English string
     arg_type_map_t arg_types;
