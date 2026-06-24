@@ -2485,10 +2485,10 @@ Gozag incites %s against you.
 Gozag hetzt {acc}%s gegen dich auf.
 %%%%
 Deactivating autopickup; reactivate with <w>%s</w>.
-Autopickup deaktiviert. Reaktivieren mit <w>%s</w>.
+Automatisches Aufheben deaktiviert. Reaktivieren mit <w>%s</w>.
 %%%%
 Reactivating autopickup.
-Autopickup reaktiviert.
+Automatisches Aufheben reaktiviert.
 %%%%
 HP restored.
 TP wiederhergestellt.
@@ -7061,10 +7061,10 @@ No item to drop.
 Kein Gegenstand zum Fallenlassen.
 %%%%
 Autopickup disabled for %s.
-Autopickup für {acc}%s deaktiviert.
+Automatisches Aufheben für {acc}%s deaktiviert.
 %%%%
 Autopickup disabled for %d items.
-Autopickup für %d Gegenstände deaktiviert.
+Automatisches Aufheben für %d Gegenstände deaktiviert.
 %%%%
 Your pack is full.
 Dein Gepäck ist voll.
