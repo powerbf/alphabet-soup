@@ -107,10 +107,10 @@ the Council
 der Rat
 %%%%
 an unknown god
-ein unbekannter Gott
+{m}ein unbekannter Gott
 %%%%
 a god
-ein Gott
+{m}ein Gott
 %%%%
 my god
 mein Gott
@@ -134,11 +134,11 @@ her god
 ihr Gott
 %%%%
 its god
-ein Gott
+{m}ein Gott
 %%%%
 # note: singular "their"
 their god
-ein Gott
+{m}ein Gott
 %%%%
 
 # Sifus (individual members of the Wu Jian Council)

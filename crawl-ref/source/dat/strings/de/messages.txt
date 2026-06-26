@@ -4646,10 +4646,10 @@ a toxic aura
 eine toxische Aura
 %%%%
 a noxious bog
-ein giftiges Moor
+{n}ein giftiges Moor
 %%%%
 a polar vortex
-ein Polarwirbel
+{m}ein Polarwirbel
 %%%%
 # first %s is a verb, 2nd %s is one of the things immediately above
 Really %s while emitting %s?
@@ -14561,7 +14561,7 @@ Kikubaaqudgha's torment
 Kikubaaqudghas Peinigung
 %%%%
 an exploding lurking horror
-ein explodierendes lauerndes Grauen
+{n}ein explodierendes lauerndes Grauen
 %%%%
 by torment
 durch Peinigung
@@ -18511,13 +18511,13 @@ Xom is fascinated!
 Xom ist fasziniert!
 %%%%
 a very special plaything of Xom
-ein ganz besonderer Spielball von Xom
+{m}ein ganz besonderer Spielball von Xom
 %%%%
 a special plaything of Xom
-ein besonderer Spielball von Xom
+{m}ein besonderer Spielball von Xom
 %%%%
 a plaything of Xom
-ein Spielball von Xom
+{m}ein Spielball von Xom
 %%%%
 a toy of Xom
 {n}ein Spielzeug von Xom
@@ -18532,7 +18532,7 @@ Xom's teddy bear
 Xoms Teddybär
 %%%%
 a BORING thing
-ein LANGWEILIGES Ding
+{n}ein LANGWEILIGES Ding
 %%%%
 Xom makes something happen.
 Xom lässt etwas geschehen.

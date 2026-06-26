@@ -132,31 +132,31 @@ Labyrinth
 # HUD shows some branches as short name with indefinite article
 %%%%
 an Abyss
-ein Abgrund
+{m}ein Abgrund
 %%%%
 a Ziggurat
 eine Zikkurat
 %%%%
 a Bazaar
-ein Basar
+{m}ein Basar
 %%%%
 a Trove
 eine Schatzkammer
 %%%%
 a Sewer
-ein Kanal
+{m}ein Kanal
 %%%%
 an Ossuary
-ein Beinhaus
+{n}ein Beinhaus
 %%%%
 a Bailey
-ein Burghof
+{m}ein Burghof
 %%%%
 an Ice Cave
 eine Eishöhle
 %%%%
 a Volcano
-ein Vulkan
+{m}ein Vulkan
 %%%%
 a Wizlab
 {n}ein Labor
@@ -232,28 +232,28 @@ a ziggurat
 eine Zikkurat
 %%%%
 a bazaar
-ein Basar
+{m}ein Basar
 %%%%
 a treasure trove
 eine Schatzkammer
 %%%%
 a sewer
-ein Kanal
+{m}ein Kanal
 %%%%
 an ossuary
-ein Beinhaus
+{n}ein Beinhaus
 %%%%
 a bailey
-ein Burghof
+{m}ein Burghof
 %%%%
 a Gauntlet
-ein Spießrutenlauf
+{m}ein Spießrutenlauf
 %%%%
 an ice cave
 eine Eishöhle
 %%%%
 a volcano
-ein Vulkan
+{m}ein Vulkan
 %%%%
 a wizard's laboratory
 das Labor eines Zauberers

@@ -70,13 +70,13 @@ brüllst
 # standard
 %%%%
 a shout
-ein Schrei
+{m}ein Schrei
 %%%%
 a yell
-ein Schrei
+{m}ein Schrei
 %%%%
 a scream
-ein Schrei
+{m}ein Schrei
 %%%%
 
 # felid
@@ -484,7 +484,7 @@ Drachengestalt
 %%%%
 # description
 a fearsome dragon
-ein furchterregender Drache
+{m}ein furchterregender Drache
 %%%%
 # unarmed attack
 Teeth and claws
@@ -521,28 +521,28 @@ deine Schildvorderklaue
 # draconians transform into specific types of dragon based on their colour
 %%%%
 a fearsome fire dragon
-ein furchterregender Feuerdrache
+{m}ein furchterregender Feuerdrache
 %%%%
 a fearsome ice dragon
-ein furchterregender Eisdrache
+{m}ein furchterregender Eisdrache
 %%%%
 a fearsome swamp dragon
-ein furchterregender Sumpfdrache
+{m}ein furchterregender Sumpfdrache
 %%%%
 a fearsome golden dragon
-ein furchterregender Golddrache
+{m}ein furchterregender Golddrache
 %%%%
 a fearsome iron dragon
-ein furchterregender Eisendrache
+{m}ein furchterregender Eisendrache
 %%%%
 a fearsome storm dragon
-ein furchterregender Sturmdrache
+{m}ein furchterregender Sturmdrache
 %%%%
 a fearsome quicksilver dragon
-ein furchterregender Quecksilberdrache
+{m}ein furchterregender Quecksilberdrache
 %%%%
 a fearsome steam dragon
-ein furchterregender Dampfdrache
+{m}ein furchterregender Dampfdrache
 %%%%
 
 ################################
@@ -562,7 +562,7 @@ Lichgestalt
 %%%%
 # description
 an undead lich
-ein untoter Lich
+{m}ein untoter Lich
 %%%%
 # flesh type
 # duplicate: bone
@@ -628,7 +628,7 @@ schwein
 %%%%
 # description
 a filthy swine
-ein dreckiges Schwein
+{n}ein dreckiges Schwein
 %%%%
 # shout-equivalent
 squeal
@@ -778,7 +778,7 @@ Stachelschweingestalt
 %%%%
 # description
 a spiny porcupine
-ein stacheliges Stachelschwein
+{n}ein stacheliges Stachelschwein
 %%%%
 
 ################################
@@ -858,7 +858,7 @@ Geleegestalt
 %%%%
 # description
 a lump of jelly
-ein Klumpen Gelee
+{m}ein Klumpen Gelee
 %%%%
 
 ################################
@@ -878,7 +878,7 @@ Pilzgestalt
 %%%%
 # description
 a sentient fungus
-ein empfindungsfähiger Pilz
+{m}ein empfindungsfähiger Pilz
 %%%%
 # unarmed attack
 Spores
@@ -969,7 +969,7 @@ storm-form
 Sturmgestalt
 %%%%
 a lightning-filled tempest
-ein heftig blitzendes Unwetter
+{n}ein heftig blitzendes Unwetter
 %%%%
 Storm fists
 Sturmfäuste

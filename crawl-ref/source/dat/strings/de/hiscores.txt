@@ -166,22 +166,22 @@ the Champion
 der Auserwählte
 %%%%
 a High Priest
-ein Hohepriester
+{m}ein Hohepriester
 %%%%
 an Elder
-ein Ältester
+{m}ein Ältester
 %%%%
 a Priest
-ein Preister
+{m}ein Preister
 %%%%
 a Believer
-ein Gläubiger
+{m}ein Gläubiger
 %%%%
 a Follower
-ein Anhänger
+{m}ein Anhänger
 %%%%
 an Initiate
-ein Novize
+{m}ein Novize
 %%%%
 
 # optional penitent suffix
@@ -775,5 +775,5 @@ statische Elektrizität
 ########################
 %%%%
 Death's Door abortion
-ein Fehlschlag der Pforte des Todes
+{m}ein Fehlschlag der Pforte des Todes
 %%%%

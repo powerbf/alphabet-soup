@@ -526,7 +526,7 @@ an ash-covered pillar
 eine aschebedeckte Säule
 %%%%
 an autumnal tree
-ein herbstlicher Baum
+{m}ein herbstlicher Baum
 %%%%
 a black wall
 eine schwarze Wand
@@ -535,7 +535,7 @@ a broken pillar
 eine zerbrochene Säule
 %%%%
 a broken wreckage
-ein zerbrochenes Wrackteil
+{n}ein zerbrochenes Wrackteil
 %%%%
 a carved rock wall
 eine gemeißelte Felswand
@@ -544,16 +544,16 @@ a crumbled stone wall
 eine zerbröckelte Steinmauer
 %%%%
 a damp floor
-ein feuchter Boden
+{m}ein feuchter Boden
 %%%%
 a dead mangrove
-ein toter Mangrovenbaum
+{m}ein toter Mangrovenbaum
 %%%%
 a dead tree
-ein toter Baum
+{m}ein toter Baum
 %%%%
 a glass window
-ein Glasfenster
+{n}ein Glasfenster
 %%%%
 a golden statue
 eine goldene Statue
@@ -580,7 +580,7 @@ a highly decorated stone wall
 eine stark verzierte Steinwand
 %%%%
 an ice choked empty arch of ancient stone
-ein eisverstopfter leerer Bogen aus altem Stein
+{m}ein eisverstopfter leerer Bogen aus altem Stein
 %%%%
 an ice covered rock wall
 eine eisbedeckte Felswand
@@ -595,7 +595,7 @@ an iron statue
 eine Eisenstatue
 %%%%
 a large window
-ein großes Fenster
+{n}ein großes Fenster
 %%%%
 a merfolk statue
 eine Meerwesenstatue
@@ -610,16 +610,16 @@ an otherworldly statue
 eine Statue wie aus einer anderen Welt
 %%%%
 a pulsating floor
-ein pulsierender Boden
+{m}ein pulsierender Boden
 %%%%
 a rock-blocked tunnel
-ein mit Felsen blockierter Tunnel
+{m}ein mit Felsen blockierter Tunnel
 %%%%
 a rough-hewn floor
-ein grob behauener Boden
+{m}ein grob behauener Boden
 %%%%
 a ruined idol
-ein zerstörtes Götzenbild
+{n}ein zerstörtes Götzenbild
 %%%%
 a rune-carved clear stone wall
 eine mit Runen behauene Wand aus klarem Stein
@@ -628,10 +628,10 @@ a rune-carved stone wall
 eine mit Runen behauene Steinmauer
 %%%%
 a sarcophagus
-ein Sarkophag
+{m}ein Sarkophag
 %%%%
 a sealed sarcophagus
-ein versiegelter Sarkophag
+{m}ein versiegelter Sarkophag
 %%%%
 a silver wall
 eine silberne Wand
