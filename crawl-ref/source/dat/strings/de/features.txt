@@ -523,25 +523,25 @@ an adventurer's gravestone
 der Grabstein eines Abenteurers
 %%%%
 an ash-covered pillar
-eine aschebedeckte Säule
+{f}eine aschebedeckte Säule
 %%%%
 an autumnal tree
 {m}ein herbstlicher Baum
 %%%%
 a black wall
-eine schwarze Wand
+{f}eine schwarze Wand
 %%%%
 a broken pillar
-eine zerbrochene Säule
+{f}eine zerbrochene Säule
 %%%%
 a broken wreckage
 {n}ein zerbrochenes Wrackteil
 %%%%
 a carved rock wall
-eine gemeißelte Felswand
+{f}eine gemeißelte Felswand
 %%%%
 a crumbled stone wall
-eine zerbröckelte Steinmauer
+{f}eine zerbröckelte Steinmauer
 %%%%
 a damp floor
 {m}ein feuchter Boden
@@ -556,58 +556,58 @@ a glass window
 {n}ein Glasfenster
 %%%%
 a golden statue
-eine goldene Statue
+{f}eine goldene Statue
 %%%%
 a golden wall
-eine goldene Wand
+{f}eine goldene Wand
 %%%%
 a granite statue wielding a fearsome trident
-eine Granitstatue, die einen furchterregenden Dreizack hält
+{f}eine Granitstatue, die einen furchterregenden Dreizack hält
 %%%%
 a granite statue wielding a mighty axe
-eine Granitstatue, die eine mächtige Axt hält
+{f}eine Granitstatue, die eine mächtige Axt hält
 %%%%
 a gravestone
 {m}ein Grabstein
 %%%%
 a heavily etched crystal wall
-eine stark geätzte Kristallwand
+{f}eine stark geätzte Kristallwand
 %%%%
 a heavily etched metal wall
-eine stark geätzte Metallwand
+{f}eine stark geätzte Metallwand
 %%%%
 a highly decorated stone wall
-eine stark verzierte Steinwand
+{f}eine stark verzierte Steinwand
 %%%%
 an ice choked empty arch of ancient stone
 {m}ein eisverstopfter leerer Bogen aus altem Stein
 %%%%
 an ice covered rock wall
-eine eisbedeckte Felswand
+{f}eine eisbedeckte Felswand
 %%%%
 an ice-covered rock wall
-eine eisbedeckte Felswand
+{f}eine eisbedeckte Felswand
 %%%%
 an ice-covered stone wall
-eine eisbedeckte Steinmauer
+{f}eine eisbedeckte Steinmauer
 %%%%
 an iron statue
-eine Eisenstatue
+{f}eine Eisenstatue
 %%%%
 a large window
 {n}ein großes Fenster
 %%%%
 a merfolk statue
-eine Meerwesenstatue
+{f}eine Meerwesenstatue
 %%%%
 a one-way staircase leading down
-eine Einbahntreppe, die nach unten führt
+{f}eine Einbahntreppe, die nach unten führt
 %%%%
 a one-way staircase leading up
-eine Einbahntreppe, die nach oben führt
+{f}eine Einbahntreppe, die nach oben führt
 %%%%
 an otherworldly statue
-eine Statue wie aus einer anderen Welt
+{f}eine Statue wie aus einer anderen Welt
 %%%%
 a pulsating floor
 {m}ein pulsierender Boden
@@ -622,10 +622,10 @@ a ruined idol
 {n}ein zerstörtes Götzenbild
 %%%%
 a rune-carved clear stone wall
-eine mit Runen behauene Wand aus klarem Stein
+{f}eine mit Runen behauene Wand aus klarem Stein
 %%%%
 a rune-carved stone wall
-eine mit Runen behauene Steinmauer
+{f}eine mit Runen behauene Steinmauer
 %%%%
 a sarcophagus
 {m}ein Sarkophag
@@ -634,40 +634,40 @@ a sealed sarcophagus
 {m}ein versiegelter Sarkophag
 %%%%
 a silver wall
-eine silberne Wand
+{f}eine silberne Wand
 %%%%
 a sinewy wall
-eine sehnige Wand
+{f}eine sehnige Wand
 %%%%
 a spawn point
 {m}ein Spawn-Punkt
 %%%%
 a statue of a hideous four-limbed creature
-eine Statue einer abscheulichen vierbeinigen Kreatur
+{f}eine Statue einer abscheulichen vierbeinigen Kreatur
 %%%%
 a strange rock wall
-eine seltsame Felswand
+{f}eine seltsame Felswand
 %%%%
 a strange statue
-eine seltsame Statue
+{f}eine seltsame Statue
 %%%%
 a tempered metal wall
-eine Wand aus gehärtetem Metall
+{f}eine Wand aus gehärtetem Metall
 %%%%
 a thin membrane
-eine dünne Membran
+{f}eine dünne Membran
 %%%%
 a wall of crystal
-eine Wand aus Kristall
+{f}eine Wand aus Kristall
 %%%%
 a wall of white crystal
-eine Wand aus weißem Kristall
+{f}eine Wand aus weißem Kristall
 %%%%
 a weirdly glowing ball
-eine seltsam leuchtende Kugel
+{f}eine seltsam leuchtende Kugel
 %%%%
 a fleshy orifice
-eine fleischige Öffnung
+{f}eine fleischige Öffnung
 %%%%
 
 ################################

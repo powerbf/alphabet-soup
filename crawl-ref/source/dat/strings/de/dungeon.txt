@@ -135,13 +135,13 @@ an Abyss
 {m}ein Abgrund
 %%%%
 a Ziggurat
-eine Zikkurat
+{f}eine Zikkurat
 %%%%
 a Bazaar
 {m}ein Basar
 %%%%
 a Trove
-eine Schatzkammer
+{f}eine Schatzkammer
 %%%%
 a Sewer
 {m}ein Kanal
@@ -153,7 +153,7 @@ a Bailey
 {m}ein Burghof
 %%%%
 an Ice Cave
-eine Eishöhle
+{f}eine Eishöhle
 %%%%
 a Volcano
 {m}ein Vulkan
@@ -229,13 +229,13 @@ the Abyss
 der Abgrund
 %%%%
 a ziggurat
-eine Zikkurat
+{f}eine Zikkurat
 %%%%
 a bazaar
 {m}ein Basar
 %%%%
 a treasure trove
-eine Schatzkammer
+{f}eine Schatzkammer
 %%%%
 a sewer
 {m}ein Kanal
@@ -250,7 +250,7 @@ a Gauntlet
 {m}ein Spießrutenlauf
 %%%%
 an ice cave
-eine Eishöhle
+{f}eine Eishöhle
 %%%%
 a volcano
 {m}ein Vulkan

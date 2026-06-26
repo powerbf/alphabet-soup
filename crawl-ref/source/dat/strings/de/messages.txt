@@ -4643,7 +4643,7 @@ Really %s near %s%s?
 Wirklich %s in der Nähe von {dat}%s%s?
 %%%%
 a toxic aura
-eine toxische Aura
+{f}eine toxische Aura
 %%%%
 a noxious bog
 {n}ein giftiges Moor

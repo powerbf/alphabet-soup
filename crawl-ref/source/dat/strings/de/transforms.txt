@@ -259,7 +259,7 @@ Spinnengestalt
 %%%%
 # description
 a venomous arachnid creature
-eine giftige arachnide Kreatur
+{f}eine giftige arachnide Kreatur
 %%%%
 # unarmed attack
 Fangs
@@ -371,11 +371,11 @@ Statuengestalt
 %%%%
 # description (@ command)
 a stone statue
-eine Steinstatue
+{f}eine Steinstatue
 %%%%
 # description (transformation message)
 a living statue of rough stone
-eine lebende Statue aus grobem Stein
+{f}eine lebende Statue aus grobem Stein
 %%%%
 # flesh type
 stone
@@ -432,7 +432,7 @@ Eisgestalt
 %%%%
 # description
 a creature of crystalline ice
-eine Kreatur aus kristallinem Eis
+{f}eine Kreatur aus kristallinem Eis
 %%%%
 # unarmed attack
 Ice paws
@@ -891,7 +891,7 @@ sporulierst
 # shout-equivalent as noun
 # should be "a sporulation", but code just puts indefinite article in front of verb
 a sporulate
-eine Sporulation
+{f}eine Sporulation
 %%%%
 # hand
 hypha
@@ -930,7 +930,7 @@ Schattengestalt
 %%%%
 # description
 a swirling mass of dark shadows
-eine wirbelnde Masse aus dunklen Schatten
+{f}eine wirbelnde Masse aus dunklen Schatten
 %%%%
 
 ################################
