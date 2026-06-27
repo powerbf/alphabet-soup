@@ -194,7 +194,7 @@ SELECT_BY_KEY:/^\{m\}/
 
 KEY:/^\{m\}/{f}/
 
-/.*?($|(?=\b(com|de)\b))/o\b/a/
+/.*?($|(?=\b(com|em|de)\b))/o\b/a/
 
 # fix up some exceptions
 /\b(muit|cian)a\b/$1o/
@@ -208,8 +208,8 @@ SELECT_BY_KEY:/^\{m\}/
 
 KEY:/^\{m\}/{mpl}/
 
-/.*?($|(?=\b(com|de)\b))/o\b/os/
-/.*?($|(?=\b(com|de)\b))/e\b/es/
+/.*?($|(?=\b(com|em|de)\b))/o\b/os/
+/.*?($|(?=\b(com|em|de)\b))/e\b/es/
 
 # fix up adverbs
 /muitos/muito/
@@ -223,8 +223,8 @@ SELECT_BY_KEY:/^\{f\}/
 
 KEY:/^\{f\}/{fpl}/
 
-/.*?($|(?=\b(com|de)\b))/a\b/as/
-/.*?($|(?=\b(com|de)\b))/e\b/es/
+/.*?($|(?=\b(com|em|de)\b))/a\b/as/
+/.*?($|(?=\b(com|em|de)\b))/e\b/es/
 %%%%
 
 # Make masculine singular the fallback if gender not specified
