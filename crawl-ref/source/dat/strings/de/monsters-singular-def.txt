@@ -215,7 +215,7 @@ the wolf
 {m}der Wolf
 %%%%
 the hog
-das Schwein
+{n}das Schwein
 %%%%
 the hell hound
 {m}der Höllenhund
@@ -227,10 +227,10 @@ the raiju
 {m}der Raiju
 %%%%
 the hell hog
-das höllische Schwein
+{n}das höllische Schwein
 %%%%
 the holy swine
-das heilige Schwein
+{n}das heilige Schwein
 %%%%
 the felid
 {m}der Felid
@@ -305,7 +305,7 @@ the komodo dragon
 {m}der Komododrache
 %%%%
 the merfolk
-das Meerwesen
+{n}das Meerwesen
 %%%%
 the merfolk impaler
 {m}der Meerwesen-Pfähler
@@ -389,7 +389,7 @@ the ironbound convoker
 {m}der eisenbeschlagene Einberufer
 %%%%
 the ironbound frostheart
-das eisengebundene Frostherz
+{n}das eisengebundene Frostherz
 %%%%
 the ironbound preserver
 {m}der eisenbeschlagene Bewahrer
@@ -432,7 +432,7 @@ the rat
 die Ratte
 %%%%
 the quokka
-das Quokka
+{n}das Quokka
 %%%%
 the river rat
 die Flussratte
@@ -495,10 +495,10 @@ the apocalypse crab
 die Apokalypsenkrabbe
 %%%%
 the ugly thing
-das hässliche Ding
+{n}das hässliche Ding
 %%%%
 the very ugly thing
-das sehr hässliche Ding
+{n}das sehr hässliche Ding
 %%%%
 the fire vortex
 {m}der Feuerwirbel
@@ -510,7 +510,7 @@ the spatial maelstrom
 {m}der räumliche Mahlstrom
 %%%%
 the insubstantial wisp
-das unwirkliche Irrlicht
+{n}das unwirkliche Irrlicht
 %%%%
 the twister
 {m}der Twister
@@ -540,7 +540,7 @@ the small abomination
 die kleine Abscheulichkeit
 %%%%
 the ancient zyme
-das uralte Zym
+{n}das uralte Zym
 %%%%
 the worldbinder
 {m}der Weltenbinder
@@ -711,10 +711,10 @@ the barachi
 {m}der Barachi
 %%%%
 the floating eye
-das schwebende Auge
+{n}das schwebende Auge
 %%%%
 the glowing orange brain
-das orange leuchtende Gehirn
+{n}das orange leuchtende Gehirn
 %%%%
 the great orb of eyes
 die große Kugel der Augen
@@ -723,13 +723,13 @@ the greater orb of eyes
 die größere Kugel der Augen
 %%%%
 the shining eye
-das leuchtende Auge
+{n}das leuchtende Auge
 %%%%
 the eye of devastation
-das Auge der Verwüstung
+{n}das Auge der Verwüstung
 %%%%
 the golden eye
-das goldene Auge
+{n}das goldene Auge
 %%%%
 the ophan
 {m}der Ophan
@@ -747,7 +747,7 @@ the harpy
 die Harpyie
 %%%%
 the mutant beast
-das Mutantenbiest
+{n}das Mutantenbiest
 %%%%
 the ancestor
 {m}der Ahne
@@ -762,7 +762,7 @@ the hexer
 {m}der Hexer
 %%%%
 the jelly
-das Gelee
+{n}das Gelee
 %%%%
 the slime creature
 die Schleimkreatur
@@ -771,7 +771,7 @@ the merged slime creature
 die verschmolzene Schleimkreatur
 %%%%
 the azure jelly
-das azurblaue Gelee
+{n}das azurblaue Gelee
 %%%%
 the acid blob
 {m}der Säureklumpen
@@ -900,7 +900,7 @@ the snaplasher vine
 die Peitschenrebe
 %%%%
 the snaplasher vine segment
-das Peitschenrebensegment
+{n}das Peitschenrebensegment
 %%%%
 the snake
 die Schlange
@@ -960,10 +960,10 @@ the jiangshi
 {m}der Jiangshi
 %%%%
 the ghost
-das Gespenst
+{n}das Gespenst
 %%%%
 the phantom
-das Phantom
+{n}das Phantom
 %%%%
 the hungry ghost
 {m}der hungrige Geist
@@ -978,7 +978,7 @@ the shadow
 {m}der Schatten
 %%%%
 the silent spectre
-das stille Gespenst
+{n}das stille Gespenst
 %%%%
 the drowned soul
 die ertrunkene Seele
@@ -1002,10 +1002,10 @@ the large abomination
 die große Abscheulichkeit
 %%%%
 the thrashing horror
-das prügelnde Grauen
+{n}das prügelnde Grauen
 %%%%
 the tentacled monstrosity
-das Tentakelmonstrum
+{n}das Tentakelmonstrum
 %%%%
 the Orb Guardian
 {m}der Kugelwächter
@@ -1017,19 +1017,19 @@ the starspawn tentacle
 {m}der Sternenbruttentakel
 %%%%
 the starspawn tentacle segment
-das Sternenbruttentakelsegment
+{n}das Sternenbruttentakelsegment
 %%%%
 the starcursed mass
 die sternenverfluchte Masse
 %%%%
 the dream sheep
-das Traumschaf
+{n}das Traumschaf
 %%%%
 the yak
-das Yak
+{n}das Yak
 %%%%
 the death yak
-das Todesyak
+{n}das Todesyak
 %%%%
 the catoblepas
 {m}der Katoblepas
@@ -1044,7 +1044,7 @@ the hellephant
 {m}der Höllefant
 %%%%
 the apis
-das Apis
+{n}das Apis
 %%%%
 the ice beast
 die Eisbestie
@@ -1056,31 +1056,31 @@ the zombie
 {m}der Zombie
 %%%%
 the skeleton
-das Skelett
+{n}das Skelett
 %%%%
 the simulacrum
-das Simulacrum
+{n}das Simulacrum
 %%%%
 the small zombie
 {m}der kleine Zombie
 %%%%
 the small skeleton
-das kleine Skelett
+{n}das kleine Skelett
 %%%%
 the small simulacrum
-das kleine Simulacrum
+{n}das kleine Simulacrum
 %%%%
 the large zombie
 {m}der große Zombie
 %%%%
 the large skeleton
-das große Skelett
+{n}das große Skelett
 %%%%
 the large simulacrum
-das große Simulacrum
+{n}das große Simulacrum
 %%%%
 the spectral thing
-das spektrale Ding
+{n}das spektrale Ding
 %%%%
 the electric eel
 {m}der Zitteraal
@@ -1089,10 +1089,10 @@ the kraken
 {m}der Krake
 %%%%
 the tentacle
-das Tentakel
+{n}das Tentakel
 %%%%
 the tentacle segment
-das Tentakelsegment
+{n}das Tentakelsegment
 %%%%
 the octopode
 {m}der Oktopode
@@ -1125,10 +1125,10 @@ the spectral weapon
 die Spektralwaffe
 %%%%
 the eldritch tentacle
-das unheimliche Tentakel
+{n}das unheimliche Tentakel
 %%%%
 the eldritch tentacle segment
-das unheimliche Tentakelsegment
+{n}das unheimliche Tentakelsegment
 %%%%
 the demonspawn
 die Dämonenbrut
@@ -1158,22 +1158,22 @@ the black sun
 die schwarze Sonne
 %%%%
 the crimson imp
-das karminrote Teufelchen
+{n}das karminrote Teufelchen
 %%%%
 the quasit
 {m}der Quasit
 %%%%
 the white imp
-das weiße Teufelchen
+{n}das weiße Teufelchen
 %%%%
 the ufetubus
 {m}der Ufetubus
 %%%%
 the iron imp
-das Eisenteufelchen
+{n}das Eisenteufelchen
 %%%%
 the shadow imp
-das Schattenteufelchen
+{n}das Schattenteufelchen
 %%%%
 the rust devil
 {m}der Rostteufel
@@ -1227,7 +1227,7 @@ the cacodemon
 {m}der Kakodämon
 %%%%
 the hell beast
-das Höllenbiest
+{n}das Höllenbiest
 %%%%
 the hellion
 {m}der Teufelsbraten
@@ -1344,7 +1344,7 @@ the lost soul
 die verlorene Seele
 %%%%
 the lurking horror
-das lauernde Grauen
+{n}das lauernde Grauen
 %%%%
 the orb of fire
 die Feuerkugel
@@ -1356,7 +1356,7 @@ the wavering orb of destruction
 die schwankende Kugel der Zerstörung
 %%%%
 the fulminant prism
-das fulminante Prisma
+{n}das fulminante Prisma
 %%%%
 the wretched star
 {m}der elende Stern
@@ -1371,13 +1371,13 @@ the moon troll
 {m}der Mondtroll
 %%%%
 the foxfire
-das Fuchsfeuer
+{n}das Fuchsfeuer
 %%%%
 the nameless horror
-das namenlose Grauen
+{n}das namenlose Grauen
 %%%%
 the will-o-the-wisp
-das Irrlicht
+{n}das Irrlicht
 %%%%
 the bunyip
 {m}der Bunyip
@@ -1407,7 +1407,7 @@ the lemure
 {m}der Lemur
 %%%%
 the endoplasm
-das Endoplasma
+{n}das Endoplasma
 %%%%
 the rockslime
 {m}der Felsenschleim
@@ -1442,41 +1442,41 @@ the test blob
 {m}der Test-Klumpen
 %%%%
 the sensed monster
-das gespürte Monster
+{n}das gespürte Monster
 %%%%
 the friendly sensed monster
-das freundliche gespürte Monster
+{n}das freundliche gespürte Monster
 %%%%
 the trivial sensed monster
-das triviale gespürte Monster
+{n}das triviale gespürte Monster
 %%%%
 the easy sensed monster
-das leichte gespürte Monster
+{n}das leichte gespürte Monster
 %%%%
 the tough sensed monster
-das harte gespürte Monster
+{n}das harte gespürte Monster
 %%%%
 the nasty sensed monster
-das furchtbare gespürte Monster
+{n}das furchtbare gespürte Monster
 %%%%
 # subtypes of mutant beast
 the sting beast
-das Stichbiest
+{n}das Stichbiest
 %%%%
 the bat beast
-das Fledermausbiest
+{n}das Fledermausbiest
 %%%%
 the fire beast
-das Feuerbiest
+{n}das Feuerbiest
 %%%%
 the weird beast
-das bizarre Biest
+{n}das bizarre Biest
 %%%%
 the shock beast
-das Schockbiest
+{n}das Schockbiest
 %%%%
 the ox beast
-das Ochsenbiest
+{n}das Ochsenbiest
 %%%%
 the spectre
 die Spukgestalt
@@ -1514,10 +1514,10 @@ the @monster@ zombie
 {m}der Zombie {gen}@a_monster@
 %%%%
 the @monster@ skeleton
-das Skelett {gen}@a_monster@
+{n}das Skelett {gen}@a_monster@
 %%%%
 the @monster@ simulacrum
-das Simulacrum {gen}@a_monster@
+{n}das Simulacrum {gen}@a_monster@
 %%%%
 
 # irregular derived monsters
@@ -1527,10 +1527,10 @@ the Lernaean hydra zombie
 {m}der Zombie der Lernäischen Hydra
 %%%%
 the Lernaean hydra skeleton
-das Skelett der Lernäischen Hydra
+{n}das Skelett der Lernäischen Hydra
 %%%%
 the Lernaean hydra simulacrum
-das Simulacrum der Lernäischen Hydra
+{n}das Simulacrum der Lernäischen Hydra
 %%%%
 
 ##################

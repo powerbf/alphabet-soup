@@ -20,19 +20,19 @@ Strafe
 
 %%%%
 the deck of escape
-das Deck der Flucht
+{n}das Deck der Flucht
 %%%%
 the deck of destruction
-das Deck der Zerstörung
+{n}das Deck der Zerstörung
 %%%%
 the deck of summoning
-das Deck der Beschwörung
+{n}das Deck der Beschwörung
 %%%%
 the deck of punishment
-das Deck der Strafe
+{n}das Deck der Strafe
 %%%%
 the stacked deck
-das vorsortierte Deck
+{n}das vorsortierte Deck
 %%%%
 
 %%%%
@@ -79,7 +79,7 @@ Exile
 Exil
 %%%%
 the Elixir
-das Elixier
+{n}das Elixier
 %%%%
 the Stairs
 die Treppe
@@ -94,7 +94,7 @@ the Elements
 die Elemente
 %%%%
 the Pentagram
-das Pentagramm
+{n}das Pentagramm
 %%%%
 the Dance
 {m}der Tanz
@@ -121,7 +121,7 @@ the Wraith
 {m}der Spuk
 %%%%
 the Swine
-das Schwein
+{n}das Schwein
 %%%%
 the Orb
 die Kugel

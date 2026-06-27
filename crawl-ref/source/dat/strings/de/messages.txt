@@ -8272,7 +8272,7 @@ Deine göttliche Ausdauer schützt dich vor Gift!
 %s umschlingt {acc}%s.
 %%%%
 the water
-das Wasser
+{n}das Wasser
 %%%%
 the ooze
 {m}der Schleim
@@ -11870,7 +11870,7 @@ the doorway
 die Tür
 %%%%
 the gateway
-das Tor
+{n}das Tor
 %%%%
 # invisible monster prevents closing of door/gate
 Something is blocking %s!
@@ -14158,10 +14158,10 @@ the wall
 die Wand
 %%%%
 the stone idol
-das steinerne Idol
+{n}das steinerne Idol
 %%%%
 the petrified wood
-das versteinerte Holz
+{n}das versteinerte Holz
 %%%%
 the stone door frame
 {m}der steinerne Türrahmen
@@ -19841,7 +19841,7 @@ You hear a whooshing noise from somewhere close by.
 Du hörst ein zischendes Geräusch von irgendwo in der Nähe.
 %%%%
 the open sea?
-das offene Meer?
+{n}das offene Meer?
 %%%%
 
 ##################

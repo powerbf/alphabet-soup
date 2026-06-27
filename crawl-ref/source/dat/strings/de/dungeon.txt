@@ -196,7 +196,7 @@ the Snake Pit
 die Schlangengrube
 %%%%
 the Spider Nest
-das Spinnennest
+{n}das Spinnennest
 %%%%
 the Pits of Slime
 die Schleimgruben
@@ -208,7 +208,7 @@ the Crypt
 die Krypta
 %%%%
 the Tomb of the Ancients
-das Grab der Uralten
+{n}das Grab der Uralten
 %%%%
 the Depths
 die Tiefen
@@ -217,13 +217,13 @@ the Hells
 die Höllen
 %%%%
 the Vestibule of Hell
-das Vestibül der Hölle
+{n}das Vestibül der Hölle
 %%%%
 the Iron City of Dis
 die Eiserne Stadt von Dis
 %%%%
 the Realm of Zot
-das Reich von Zot
+{n}das Reich von Zot
 %%%%
 the Abyss
 {m}der Abgrund
@@ -256,7 +256,7 @@ a volcano
 {m}ein Vulkan
 %%%%
 a wizard's laboratory
-das Labor eines Zauberers
+{n}das Labor eines Zauberers
 %%%%
 the Desolation of Salt
 die Trostlosigkeit des Salzes

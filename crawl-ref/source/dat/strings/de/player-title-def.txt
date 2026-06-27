@@ -129,7 +129,7 @@ the Grim Reaper
 # Xom
 %%%%
 the Toy
-das Spielzeug
+{n}das Spielzeug
 %%%%
 
 # Vehumet
@@ -238,7 +238,7 @@ the Sage
 {m}der Weise
 %%%%
 the Genius of the Arcane
-das Genie des Arkanen
+{n}das Genie des Arkanen
 %%%%
 
 # Trog
@@ -393,7 +393,7 @@ the Ooze
 {m}der Schleim
 %%%%
 the Jelly
-das Gelee
+{n}das Gelee
 %%%%
 the Slime Creature
 die Schleimkreatur
@@ -481,7 +481,7 @@ the Seer
 {m}der Seher
 %%%%
 the Oracle
-das Orakel
+{n}das Orakel
 %%%%
 the Illuminatus
 {m}der Illuminat
@@ -550,16 +550,16 @@ the Unspoiled
 {m}der Unverwöhnte
 %%%%
 the @Adj@ Mishap
-das {adj-e}@Adj@ Missgeschick
+{n}das {adj-e}@Adj@ Missgeschick
 %%%%
 the Lightning Rod
 {m}der Blitzfänger
 %%%%
 the @Adj@ Disaster
-das {adj-e}@Adj@ Desaster
+{n}das {adj-e}@Adj@ Desaster
 %%%%
 the Eye of the Storm
-das Auge des Sturms
+{n}das Auge des Sturms
 %%%%
 the @Adj@ Catastrophe
 die {adj-e}@Adj@ Katastrophe
@@ -568,7 +568,7 @@ the @Adj@ Cataclysm
 {m}der {adj-e}@Adj@ Kataklysmus
 %%%%
 the End of an Era
-das Ende einer Ära
+{n}das Ende einer Ära
 %%%%
 
 # Ru
@@ -631,7 +631,7 @@ the Prude
 {m}der Prüde
 %%%%
 the Wallflower
-das Mauerblümchen
+{n}das Mauerblümchen
 %%%%
 the Party-goer
 {m}der Partygänger
@@ -655,13 +655,13 @@ the Rhythm of Life and Death
 # Hepliaklqana
 %%%%
 the Damnatio Memoriae
-das Damnatio Memoriae
+{n}das Damnatio Memoriae
 %%%%
 the Hazy
 {m}der Verschwommene
 %%%%
 the @Adj@ Child
-das {adj-e}@Adj@ Kind
+{n}das {adj-e}@Adj@ Kind
 %%%%
 the Storyteller
 {m}der Geschichtenerzähler
@@ -818,7 +818,7 @@ the Phalangite
 {m}der Phalangit
 %%%%
 the @Adj@ Porcupine
-das {adj-e}@Adj@ Stachelschwein
+{n}das {adj-e}@Adj@ Stachelschwein
 %%%%
 # palentonga
 the Prickly Pangolin
@@ -858,7 +858,7 @@ the Slingshot
 die Schleuder
 %%%%
 the @Adj@ Catapult
-das {adj-e}@Adj@ Katapult
+{n}das {adj-e}@Adj@ Katapult
 %%%%
 
 # Bows

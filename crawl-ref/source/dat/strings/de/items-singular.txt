@@ -56,16 +56,16 @@ the quick blade
 die Schnellklinge
 %%%%
 the short sword
-das Kurzschwert
+{n}das Kurzschwert
 %%%%
 the rapier
-das Rapier
+{n}das Rapier
 %%%%
 the falchion
-das Falchion
+{n}das Falchion
 %%%%
 the long sword
-das Langschwert
+{n}das Langschwert
 %%%%
 the scimitar
 {m}der Krummsäbel
@@ -77,16 +77,16 @@ the eudemon blade
 die Eudämonenklinge
 %%%%
 the double sword
-das Doppelschwert
+{n}das Doppelschwert
 %%%%
 the great sword
-das Großschwert
+{n}das Großschwert
 %%%%
 the triple sword
-das Dreifachschwert
+{n}das Dreifachschwert
 %%%%
 the hand axe
-das Handbeil
+{n}das Handbeil
 %%%%
 the war axe
 die Kriegsaxt
@@ -204,7 +204,7 @@ the silver javelin
 {m}der Silberwurfspeer
 %%%%
 the throwing net
-das Wurfnetz
+{n}das Wurfnetz
 %%%%
 the boomerang
 {m}der Bumerang
@@ -252,7 +252,7 @@ the scarf
 {m}der Schal
 %%%%
 the pair of gloves
-das Paar Handschuhe
+{n}das Paar Handschuhe
 %%%%
 the helmet
 {m}der Helm
@@ -261,7 +261,7 @@ the hat
 {m}der Hut
 %%%%
 the pair of boots
-das Paar Stiefel
+{n}das Paar Stiefel
 %%%%
 the barding
 {m}der Harnisch
@@ -449,7 +449,7 @@ the wooden ring
 # generic
 %%%%
 the amulet
-das Amulett
+{n}das Amulett
 %%%%
 
 # identified amulet names are constructed with the generic and a suffix from item-suffixes.txt
@@ -460,115 +460,115 @@ das Amulett
 # from item-name.txt
 %%%%
 the sapphire amulet
-das Saphiramulett
+{n}das Saphiramulett
 %%%%
 the zirconium amulet
-das Zirkoniumamulett
+{n}das Zirkoniumamulett
 %%%%
 the golden amulet
-das Goldamulett
+{n}das Goldamulett
 %%%%
 the emerald amulet
-das Smaragdamulett
+{n}das Smaragdamulett
 %%%%
 the garnet amulet
-das Granatamulett
+{n}das Granatamulett
 %%%%
 the bronze amulet
-das Bronzeamulett
+{n}das Bronzeamulett
 %%%%
 the brass amulet
-das Messingamulett
+{n}das Messingamulett
 %%%%
 the copper amulet
-das Kupferamulett
+{n}das Kupferamulett
 %%%%
 the ruby amulet
-das Rubinamulett
+{n}das Rubinamulett
 %%%%
 the citrine amulet
-das Citrinamulett
+{n}das Citrinamulett
 %%%%
 the bone amulet
-das Knochenamulett
+{n}das Knochenamulett
 %%%%
 the platinum amulet
-das Platinamulett
+{n}das Platinamulett
 %%%%
 the jade amulet
-das Jadeamulett
+{n}das Jadeamulett
 %%%%
 the fluorescent amulet
-das fluoreszierende Amulett
+{n}das fluoreszierende Amulett
 %%%%
 the amethyst amulet
-das Amethystamulett
+{n}das Amethystamulett
 %%%%
 the cameo amulet
-das Cameoamulett
+{n}das Cameoamulett
 %%%%
 the pearl amulet
-das Perlenamulett
+{n}das Perlenamulett
 %%%%
 the blue amulet
-das blaue Amulett
+{n}das blaue Amulett
 %%%%
 the peridot amulet
-das Peridotamulett
+{n}das Peridotamulett
 %%%%
 the jasper amulet
-das Jaspisamulett
+{n}das Jaspisamulett
 %%%%
 the diamond amulet
-das Diamantamulett
+{n}das Diamantamulett
 %%%%
 the malachite amulet
-das Malachitamulett
+{n}das Malachitamulett
 %%%%
 the steel amulet
-das Stahlamulett
+{n}das Stahlamulett
 %%%%
 the cabochon amulet
-das Cabochonamulett
+{n}das Cabochonamulett
 %%%%
 the silver amulet
-das Silberamulett
+{n}das Silberamulett
 %%%%
 the soapstone amulet
-das Specksteinamulett
+{n}das Specksteinamulett
 %%%%
 the lapis lazuli amulet
-das Lapislazuliamulett
+{n}das Lapislazuliamulett
 %%%%
 the filigree amulet
-das Filigranamulett
+{n}das Filigranamulett
 %%%%
 the beryl amulet
-das Beryllamulett
+{n}das Beryllamulett
 %%%%
 
 # extras from database/randname.txt
 %%%%
 the crystal amulet
-das Kristallamulett
+{n}das Kristallamulett
 %%%%
 the graven amulet
-das gravierte amulett
+{n}das gravierte amulett
 %%%%
 the iron amulet
-das Eisenamulett
+{n}das Eisenamulett
 %%%%
 the ivory amulet
-das Elfenbeinamulett
+{n}das Elfenbeinamulett
 %%%%
 the lead amulet
-das Bleiamulett
+{n}das Bleiamulett
 %%%%
 the pewter amulet
-das Hartzinnamulett
+{n}das Hartzinnamulett
 %%%%
 the tin amulet
-das Zinnamulett
+{n}das Zinnamulett
 %%%%
 
 #################################

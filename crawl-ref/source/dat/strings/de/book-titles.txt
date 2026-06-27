@@ -260,7 +260,7 @@ the Tome of @book_magic@
 {m}der Foliant {gen}@book_magic@
 %%%%
 the Grimoire of @book_magic@
-das Grimoire {gen}@book_magic@
+{n}das Grimoire {gen}@book_magic@
 %%%%
 the Almanac of @book_magic@
 {m}der Almanach {gen}@book_magic@
@@ -269,10 +269,10 @@ the Volume of @book_magic@
 {m}der Band {gen}@book_magic@
 %%%%
 the Compendium of @book_magic@
-das Kompendium {gen}@book_magic@
+{n}das Kompendium {gen}@book_magic@
 %%%%
 the Handbook of @book_magic@
-das Handbuch {gen}@book_magic@
+{n}das Handbuch {gen}@book_magic@
 %%%%
 the Incunabulum of @book_magic@
 die Inkunabel {gen}@book_magic@
@@ -293,7 +293,7 @@ the Disquisition on @book_magic@
 die Abhandlung über {acc}@book_magic@
 %%%%
 the Reference Book on @book_magic@
-das Nachschlagewerk über {acc}@book_magic@
+{n}das Nachschlagewerk über {acc}@book_magic@
 %%%%
 
 # generic names capitalised
@@ -1004,7 +1004,7 @@ the Arcane Arts
 die arkanen Künste
 %%%%
 the Hermit's Heritage
-das Erbe des Eremiten
+{n}das Erbe des Eremiten
 %%%%
 Magic
 Magie

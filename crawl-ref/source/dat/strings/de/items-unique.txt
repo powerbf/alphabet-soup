@@ -88,18 +88,18 @@ die dunkle Rune
 #################################
 %%%%
 the Singing Sword
-das Singende Schwert
+{n}das Singende Schwert
 %%%%
 # alternative name for the Singing Sword
 the Screaming Sword
-das Schreiende Schwert
+{n}das Schreiende Schwert
 %%%%
 # alternative name for the Singing Sword
 the Sulking Sword
-das Schmollende Schwert
+{n}das Schmollende Schwert
 %%%%
 the pair of quick blades "Gyre" and "Gimble"
-das Paar Schnellklingen "Gyre" und "Gimble"
+{n}das Paar Schnellklingen "Gyre" und "Gimble"
 %%%%
 the Wrath of Trog
 {m}der Zorn von Trog
@@ -111,7 +111,7 @@ the glaive of Prune
 die Gleve der Pflaume
 %%%%
 the sword of Power
-das Schwert der Macht
+{n}das Schwert der Macht
 %%%%
 the staff of Olgreb
 {m}der Stab von Olgreb
@@ -126,19 +126,19 @@ the scythe of Curses
 die Sense der Flüche
 %%%%
 the sceptre of Torment
-das Zepter der Peinigung
+{n}das Zepter der Peinigung
 %%%%
 the sword of Zonguldrok
-das Schwert von Zonguldrok
+{n}das Schwert von Zonguldrok
 %%%%
 the sword of Cerebov
-das Schwert von Cerebov
+{n}das Schwert von Cerebov
 %%%%
 the staff of Dispater
 {m}der Stab von Dispater
 %%%%
 the sceptre of Asmodeus
-das Zepter von Asmodäus
+{n}das Zepter von Asmodäus
 %%%%
 the faerie dragon scales
 {pl}die Feendrachenschuppen
@@ -177,13 +177,13 @@ the glaive of the Guard
 die Gleve der Wache
 %%%%
 the zealot's sword
-das Schwert des Zeloten
+{n}das Schwert des Zeloten
 %%%%
 the arbalest "Damnation"
 die Armbrust "Verdammnis"
 %%%%
 the sword of the Doom Knight
-das Schwert des Verhängnisritters
+{n}das Schwert des Verhängnisritters
 %%%%
 the morningstar "Eos"
 {m}der Morgenstern "Eos"
@@ -207,16 +207,16 @@ the longbow "Piercer"
 {m}der Langbogen "Stecher"
 %%%%
 the blowgun of the Assassin
-das Blasrohr des Assassinen
+{n}das Blasrohr des Assassinen
 %%%%
 the lance "Wyrmbane"
 die Lanze "Drachenfluch"
 %%%%
 the Spriggan's Knife
-das Messer des Spriggans
+{n}das Messer des Spriggans
 %%%%
 the plutonium sword
-das Plutoniumschwert
+{n}das Plutoniumschwert
 %%%%
 the great mace "Undeadhunter"
 {m}der große Streitkolben "Untotenjäger"
@@ -225,13 +225,13 @@ the whip "Snakebite"
 die Peitsche "Schlangenbiss"
 %%%%
 the knife of Accuracy
-das Messer der Genauigkeit
+{n}das Messer der Genauigkeit
 %%%%
 the Lehudib's crystal spear
 {m}der Kristallspeer Lehudibs
 %%%%
 the captain's cutlass
-das Entermesser des Kapitäns
+{n}das Entermesser des Kapitäns
 %%%%
 the storm bow
 {m}der Sturmbogen
@@ -240,7 +240,7 @@ the tower shield of Ignorance
 {m}der Turmschild der Ignoranz
 %%%%
 the robe of Augmentation
-das Gewand der Augmentation
+{n}das Gewand der Augmentation
 %%%%
 the cloak of the Thief
 {m}der Umhang des Diebes
@@ -273,13 +273,13 @@ the salamander hide armour
 die Salamanderhautrüstung
 %%%%
 the pair of gauntlets of War
-das Paar Panzerhandschuhe des Krieges
+{n}das Paar Panzerhandschuhe des Krieges
 %%%%
 the shield of Resistance
 {m}der Schild der Resistenz
 %%%%
 the robe of Folly
-das Gewand der Torheit
+{n}das Gewand der Torheit
 %%%%
 the Maxwell's patent armour
 die patentierte Rüstung Maxwells
@@ -297,7 +297,7 @@ the hat of the Alchemist
 {m}der Hut des Alchemisten
 %%%%
 the pair of fencer's gloves
-das Paar Handschuhe des Fechters
+{n}das Paar Handschuhe des Fechters
 %%%%
 the cloak of Starlight
 {m}der Umhang des Sternenlichts
@@ -309,16 +309,16 @@ the shield of the Gong
 {m}der Schild des Gongs
 %%%%
 the amulet of the Air
-das Amulett der Luft
+{n}das Amulett der Luft
 %%%%
 the ring of Shadows
 {m}der Ring der Schatten
 %%%%
 the amulet of Cekugob
-das Amulett von Cekugob
+{n}das Amulett von Cekugob
 %%%%
 the amulet of the Four Winds
-das Amulett der vier Winde
+{n}das Amulett der vier Winde
 %%%%
 the necklace of Bloodlust
 die Kette des Blutrausches
@@ -357,10 +357,10 @@ the Black Knight's barding
 {m}der Harnisch des schwarzen Ritters
 %%%%
 the amulet of Vitality
-das Amulett der Vitalität
+{n}das Amulett der Vitalität
 %%%%
 the autumn katana
-das Herbstkatana
+{n}das Herbstkatana
 %%%%
 the shillelagh "Devastator"
 {m}der Shillelagh "Verwüster"
@@ -378,7 +378,7 @@ the macabre finger necklace
 die makabere Fingerhalskette
 %%%%
 the pair of boots of the spider
-das Paar Stiefel der Spinne
+{n}das Paar Stiefel der Spinne
 %%%%
 the dark maul
 {m}der dunkle Kriegshammer
@@ -411,7 +411,7 @@ the crown of Eternal Torment
 die Krone der ewigen Peinigung
 %%%%
 the robe of Vines
-das Gewand der Reben
+{n}das Gewand der Reben
 %%%%
 the Kryia's mail coat
 {m}der Schuppenpanzer von Kryia
@@ -426,10 +426,10 @@ the warlock's mirror
 {m}der Spiegel des Hexenmeisters
 %%%%
 the amulet of invisibility
-das Amulett der Unsichtbarkeit
+{n}das Amulett der Unsichtbarkeit
 %%%%
 the Maxwell's thermic engine
-das thermische Gerät von Maxwell
+{n}das thermische Gerät von Maxwell
 %%%%
 the demon trident "Rift"
 {m}der Dämonendreizack "Riss"
@@ -441,10 +441,10 @@ the Cigotuvi's embrace
 die Umarmung von Cigotuvi
 %%%%
 the pair of seven-league boots
-das Paar Siebenmeilenstiefel
+{n}das Paar Siebenmeilenstiefel
 %%%%
 the horn of Geryon
-das Horn von Geryon
+{n}das Horn von Geryon
 %%%%
 # note: technically not unique - there are 8 of them
 the ring of the Octopus King
@@ -460,7 +460,7 @@ the ring of the Octopus King
 # sword of Cerebov
 # the English description says serpentine, but in the tile, the blade is shaped like flames
 the great serpentine sword
-das große, flammenförmige Schwert
+{n}das große, flammenförmige Schwert
 %%%%
 # staff of Dispater
 the golden staff
@@ -468,7 +468,7 @@ the golden staff
 %%%%
 # sceptre of Asmodeus
 the ruby sceptre
-das rubinbesetzte Zepter
+{n}das rubinbesetzte Zepter
 %%%%
 # dragonskin cloak
 the opalescent scaly cloak
@@ -496,15 +496,15 @@ die Lanze
 %%%%
 # Spriggan's Knife
 the knife
-das Messer
+{n}das Messer
 %%%%
 # captain's cutlass
 the cutlass
-das Entermesser
+{n}das Entermesser
 %%%%
 # autumn katana
 the katana
-das Katana
+{n}das Katana
 %%%%
 # shillelagh "Devastator"
 the shillelagh
@@ -516,5 +516,5 @@ the maul
 %%%%
 # "Gyre" and "Gimble"
 the pair of quick blades
-das Paar Schnellklingen
+{n}das Paar Schnellklingen
 %%%%

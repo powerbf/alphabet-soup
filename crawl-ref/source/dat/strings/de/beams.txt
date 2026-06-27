@@ -54,7 +54,7 @@ the ghostly fireball
 {m}der geisterhafte Feuerball
 %%%%
 the flash freeze
-das Blitzgefrieren
+{n}das Blitzgefrieren
 %%%%
 the glob of lava
 {m}der Lavaklumpen
@@ -87,7 +87,7 @@ the stinking cloud
 die stinkende Wolke
 %%%%
 the magic dart
-das magische Geschoss
+{n}das magische Geschoss
 %%%%
 the bolt of fire
 {m}der Feuerstrahl
@@ -128,7 +128,7 @@ the iron shot
 {m}der Eisenschuss
 %%%%
 the stone arrow
-das Steingeschoss
+{n}das Steingeschoss
 %%%%
 # Shock spell (electricity)
 the zap
@@ -154,7 +154,7 @@ the glob of acid
 {m}der Säureklumpen
 %%%%
 the poison gas
-das Giftgas
+{n}das Giftgas
 %%%%
 the bolt of dispelling energy
 {m}der Strahl entzaubernder Energie
@@ -217,7 +217,7 @@ the harpoon shot
 {m}der Harpunenschuss
 %%%%
 the beckoning
-das Herbeiwinken
+{n}das Herbeiwinken
 %%%%
 the great blast of fire
 {m}der große Feuerstoß
@@ -318,7 +318,7 @@ the energy
 die Energie
 %%%%
 the barrage of energy
-das Trommelfeuer der Energie
+{n}das Trommelfeuer der Energie
 %%%%
 the infestation
 die Infestation

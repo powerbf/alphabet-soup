@@ -9,7 +9,7 @@
 ################################
 %%%%
 the unknown terrain
-das unbekannte Terrain
+{n}das unbekannte Terrain
 %%%%
 the travel trail
 die Reiseroute
@@ -18,7 +18,7 @@ the door
 die Tür
 %%%%
 the gate
-das Tor
+{n}das Tor
 %%%%
 the tree
 {m}der Baum
@@ -66,13 +66,13 @@ the wall of the weird stuff which makes up Pandemonium
 die Wand aus dem seltsamen Zeug, aus dem das Pandämonium gemacht ist
 %%%%
 the grate
-das Gitter
+{n}das Gitter
 %%%%
 the iron grate
-das Eisengitter
+{n}das Eisengitter
 %%%%
 the open sea
-das offene Meer
+{n}das offene Meer
 %%%%
 the endless lava
 die endlose Lava
@@ -81,25 +81,25 @@ the endless expanse of salt
 die endlose Weite des Salzes
 %%%%
 the orcish idol
-das orkische Götzenbild
+{n}das orkische Götzenbild
 %%%%
 the granite statue
 die Granitstatue
 %%%%
 the portal
-das Portal
+{n}das Portal
 %%%%
 the portal to somewhere
-das Portal nach irgendwo
+{n}das Portal nach irgendwo
 %%%%
 the lava
 die Lava
 %%%%
 the deep water
-das tiefe Wasser
+{n}das tiefe Wasser
 %%%%
 the shallow water
-das seichte Wasser
+{n}das seichte Wasser
 %%%%
 the toxic bog
 {m}der toxische Morast
@@ -165,7 +165,7 @@ the shaft
 {m}der Schacht
 %%%%
 the web
-das Gespinst
+{n}das Gespinst
 %%%%
 the shop
 {m}der Laden
@@ -201,64 +201,64 @@ the labyrinth entrance
 {m}der Eingang zum Labyrinth
 %%%%
 the gateway to the Iron City of Dis
-das Tor zur Eisernen Stadt Dis
+{n}das Tor zur Eisernen Stadt Dis
 %%%%
 the gateway to the ashen valley of Gehenna
-das Tor zum aschfahlen Tal von Gehenna
+{n}das Tor zum aschfahlen Tal von Gehenna
 %%%%
 the gateway to the freezing wastes of Cocytus
-das Tor zur Eiswüste von Kokytus
+{n}das Tor zur Eiswüste von Kokytus
 %%%%
 the gateway to the decaying netherworld of Tartarus
-das Tor zur verwesenden Unterwelt von Tartarus
+{n}das Tor zur verwesenden Unterwelt von Tartarus
 %%%%
 the gateway to Hell
-das Tor zur Hölle
+{n}das Tor zur Hölle
 %%%%
 the gateway back into the Dungeon
-das Tor zurück in den Kerker
+{n}das Tor zurück in den Kerker
 %%%%
 the one-way gate to the infinite horrors of the Abyss
-das Einbahntor zu den unendlichen Schrecken des Abgrunds
+{n}das Einbahntor zu den unendlichen Schrecken des Abgrunds
 %%%%
 the exit through the horrors of the Abyss
 {m}der Ausgang durch die Schrecken des Abgrunds
 %%%%
 the gateway leading out of the Abyss
-das Tor, das aus dem Abgrund herausführt
+{n}das Tor, das aus dem Abgrund herausführt
 %%%%
 the one-way gate leading to the halls of Pandemonium
-das Einbahntor, das in die Hallen des Pandämoniums führt
+{n}das Einbahntor, das in die Hallen des Pandämoniums führt
 %%%%
 the gate leading to another region of Pandemonium
-das Tor, das in eine andere Region des Pandämoniums führt
+{n}das Tor, das in eine andere Region des Pandämoniums führt
 %%%%
 the gate leading out of Pandemonium
-das Tor, das aus dem Pandämonium herausführt
+{n}das Tor, das aus dem Pandämonium herausführt
 %%%%
 the gate to the Vaults
-das Tor zu den Gewölben
+{n}das Tor zu den Gewölben
 %%%%
 the gate leading back out of this place
-das Tor, das wieder aus diesem Ort herausführt
+{n}das Tor, das wieder aus diesem Ort herausführt
 %%%%
 the gate to the Realm of Zot
-das Tor zum Reich von Zot
+{n}das Tor zum Reich von Zot
 %%%%
 the gate leading to a distant place
-das Tor, das zu einem weit entfernten Ort führt
+{n}das Tor, das zu einem weit entfernten Ort führt
 %%%%
 the gateway to a ziggurat
-das Tor zu einer Zikkurat
+{n}das Tor zu einer Zikkurat
 %%%%
 the gateway to a bazaar
-das Tor zu einem Basar
+{n}das Tor zu einem Basar
 %%%%
 the flickering gateway to a bazaar
-das flackernde Tor zu einem Basar
+{n}das flackernde Tor zu einem Basar
 %%%%
 the portal to a secret trove of treasure
-das Tor zu einer geheimen Schatzkammer
+{n}das Tor zu einer geheimen Schatzkammer
 %%%%
 the glowing drain
 {m}der schimmernde Abfluss
@@ -267,10 +267,10 @@ the sand-covered staircase
 die sandbedeckte Treppe
 %%%%
 the flagged portal
-das beflaggte Portal
+{n}das beflaggte Portal
 %%%%
 the gate leading to a gauntlet
-das Tor, das zu einem Spießrutenlauf führt
+{n}das Tor, das zu einem Spießrutenlauf führt
 %%%%
 the frozen archway
 {m}der gefrorene Torbogen
@@ -279,22 +279,22 @@ the dark tunnel
 {m}der dunkle Tunnel
 %%%%
 the magical portal
-das magische Portal
+{n}das magische Portal
 %%%%
 the ruined gateway
-das zerstörte Tor
+{n}das zerstörte Tor
 %%%%
 the crumbling gateway
-das bröckelnde Tor
+{n}das bröckelnde Tor
 %%%%
 the ice covered gate leading back out of this place
-das eisbedeckte Tor, das wieder aus diesem Ort herausführt
+{n}das eisbedeckte Tor, das wieder aus diesem Ort herausführt
 %%%%
 the rocky tunnel leading out of this place
 {m}der felsige Tunnel, der aus diesem Ort herausführt
 %%%%
 the portal leading out of this place
-das Portal, das aus diesem Ort herausführt
+{n}das Portal, das aus diesem Ort herausführt
 %%%%
 the staircase leading out of the dungeon
 die Treppe, die aus dem Kerker herausführt
@@ -357,10 +357,10 @@ the staircase to the Shoals
 die Treppe zu den Untiefen
 %%%%
 the hole to the Spider Nest
-das Loch zum Spinnennest
+{n}das Loch zum Spinnennest
 %%%%
 the crawl-hole back to the Lair
-das Kriechloch zurück zur Höhle
+{n}das Kriechloch zurück zur Höhle
 %%%%
 the staircase to the Depths
 die Treppe zu den Tiefen
@@ -468,7 +468,7 @@ the dry fountain
 {m}der ausgetrocknete Brunnen
 %%%%
 the short-range portal
-das Kurzstreckenportal
+{n}das Kurzstreckenportal
 %%%%
 the teleporter
 {m}der Teleporter
@@ -486,7 +486,7 @@ the sealed passage leading down
 {m}der versiegelte Gang, der nach unten führt
 %%%%
 the gateway leading deeper into the Abyss
-das Tor, das tiefer in den Abgrund führt
+{n}das Tor, das tiefer in den Abgrund führt
 %%%%
 
 # from .des files
