@@ -79,7 +79,7 @@ Exile
 Exile
 %%%%
 the Elixir
-l'Elixir
+{m}l'Elixir
 %%%%
 the Stairs
 les Escaliers
@@ -100,7 +100,7 @@ the Dance
 {f}la Danse
 %%%%
 the Swarm
-l'Essaim
+{m}l'Essaim
 %%%%
 the Rangers
 les Rangers
@@ -124,10 +124,10 @@ the Swine
 {m}le Porc
 %%%%
 the Orb
-l'Orbe
+{m}l'Orbe
 %%%%
 the Illusion
-l'Illusion
+{f}l'Illusion
 %%%%
 Degeneration
 Dégénération

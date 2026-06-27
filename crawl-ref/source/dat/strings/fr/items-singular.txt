@@ -157,10 +157,10 @@ the triple crossbow
 {f}l'arbalète triple
 %%%%
 the shortbow
-l'arc court
+{m}l'arc court
 %%%%
 the longbow
-l'arc long
+{m}l'arc long
 %%%%
 
 #################################
@@ -325,7 +325,7 @@ the creamy pearl robe
 # generic
 %%%%
 the ring
-l'anneau
+{m}l'anneau
 %%%%
 
 # identified ring names are constructed with the generic and a suffix from item-suffixes.txt
@@ -335,115 +335,115 @@ l'anneau
 # this is combined list from item-name.cc and descript/randname.txt
 %%%%
 the agate ring
-l'anneau d'agate
+{m}l'anneau d'agate
 %%%%
 the amber ring
-l'anneau d'ambre
+{m}l'anneau d'ambre
 %%%%
 the bone ring
-l'anneau d'os
+{m}l'anneau d'os
 %%%%
 the brass ring
-l'anneau de laiton
+{m}l'anneau de laiton
 %%%%
 the bronze ring
-l'anneau de bronze
+{m}l'anneau de bronze
 %%%%
 the cabochon ring
-l'anneau cabochon
+{m}l'anneau cabochon
 %%%%
 the copper ring
-l'anneau de cuivre
+{m}l'anneau de cuivre
 %%%%
 the coral ring
-l'anneau de corail
+{m}l'anneau de corail
 %%%%
 the diamond ring
-l'anneau de diamant
+{m}l'anneau de diamant
 %%%%
 the emerald ring
-l'anneau d'émeraude
+{m}l'anneau d'émeraude
 %%%%
 the garnet ring
-l'anneau de grenat
+{m}l'anneau de grenat
 %%%%
 the gilded ring
-l'anneau doré
+{m}l'anneau doré
 %%%%
 the glass ring
-l'anneau de verre
+{m}l'anneau de verre
 %%%%
 the gossamer ring
-l'anneau d'étoffe légère
+{m}l'anneau d'étoffe légère
 %%%%
 the golden ring
-l'anneau d'or
+{m}l'anneau d'or
 %%%%
 the granite ring
-l'anneau de granit
+{m}l'anneau de granit
 %%%%
 the iron ring
-l'anneau de fer
+{m}l'anneau de fer
 %%%%
 the ivory ring
-l'anneau d'ivoire
+{m}l'anneau d'ivoire
 %%%%
 the jade ring
-l'anneau de jade
+{m}l'anneau de jade
 %%%%
 the lapis lazuli ring
-l'anneau de lapis-lazuli
+{m}l'anneau de lapis-lazuli
 %%%%
 the lead ring
-l'anneau de plomb
+{m}l'anneau de plomb
 %%%%
 the marble ring
-l'anneau de marbre
+{m}l'anneau de marbre
 %%%%
 the moonstone ring
-l'anneau de pierre de lune
+{m}l'anneau de pierre de lune
 %%%%
 the onyx ring
-l'anneau d'onyx
+{m}l'anneau d'onyx
 %%%%
 the opal ring
-l'anneau d'opale
+{m}l'anneau d'opale
 %%%%
 the pearl ring
-l'anneau de perle
+{m}l'anneau de perle
 %%%%
 the peridot ring
-l'anneau de péridot
+{m}l'anneau de péridot
 %%%%
 the pewter ring
-l'anneau d'étain
+{m}l'anneau d'étain
 %%%%
 the platinum ring
-l'anneau de platine
+{m}l'anneau de platine
 %%%%
 the ruby ring
-l'anneau de rubis
+{m}l'anneau de rubis
 %%%%
 the sapphire ring
-l'anneau de saphir
+{m}l'anneau de saphir
 %%%%
 the silver ring
-l'anneau d'argent
+{m}l'anneau d'argent
 %%%%
 the steel ring
-l'anneau d'acier
+{m}l'anneau d'acier
 %%%%
 the tin ring
-l'anneau d'étain
+{m}l'anneau d'étain
 %%%%
 the tourmaline ring
-l'anneau de tourmaline
+{m}l'anneau de tourmaline
 %%%%
 the turquoise ring
-l'anneau de turquoise
+{m}l'anneau de turquoise
 %%%%
 the wooden ring
-l'anneau de bois
+{m}l'anneau de bois
 %%%%
 
 #################################
@@ -764,7 +764,7 @@ the potion of cancellation
 {f}la potion d'annulation
 %%%%
 the potion of curing
-l'antidote
+{m}l'antidote
 %%%%
 the potion of degeneration
 {f}la potion de dégénérescence

@@ -36,7 +36,7 @@ the Polyphemus
 %%%%
 # a giant/titan in Greek mythology
 the Antaeus
-l'Antée
+{m}l'Antée
 %%%%
 # a Mesopotamian goddess
 the Tiamat
@@ -82,7 +82,7 @@ the Arachne
 %%%%
 # the name of the minotaur in Greek mythology
 the Asterion
-l'Astérion
+{m}l'Astérion
 %%%%
 the Agnes
 {f}l'Agnes
@@ -132,7 +132,7 @@ the Sojobo
 %%%%
 # an angel in Islam
 the Azrael
-l'Azraël
+{m}l'Azraël
 %%%%
 # a demon in Buddhism
 the Mara
@@ -160,7 +160,7 @@ the Murray
 {m}le Murray
 %%%%
 the Ignacio
-l'Ignacio
+{m}l'Ignacio
 %%%%
 the Grinder
 {f}la Grinder
@@ -179,7 +179,7 @@ the Sigmund
 {m}le Sigmund
 %%%%
 the Edmund
-l'Edmund
+{m}l'Edmund
 %%%%
 # named after the Greek goddess of the soul
 the Psyche
@@ -223,7 +223,7 @@ the Maggie
 {f}la Maggie
 %%%%
 the Eustachio
-l'Eustachio
+{m}l'Eustachio
 %%%%
 the Maurice
 {m}le Maurice
@@ -259,7 +259,7 @@ the Dispater
 %%%%
 # Greek name of a demon in Judaism/Christainity
 the Asmodeus
-l'Asmodée
+{m}l'Asmodée
 %%%%
 # a Mesopotamian goddess
 the Ereshkigal
@@ -275,7 +275,7 @@ the Enchantress
 {f}l'Enchanteresse
 %%%%
 the Blork the orc
-l'orc Blork
+{m}l'orc Blork
 %%%%
 the Blork
 {m}le Blork
@@ -289,7 +289,7 @@ the Serpent of Hell
 %%%%
 # from Greek mythology
 the Lernaean hydra
-l'hydre de Lerne
+{f}l'hydre de Lerne
 %%%%
 the Cigotuvi's Monster
 {m}le Monstre de Cigotuvi
@@ -326,5 +326,5 @@ The Defiler
 {m}le Profanateur
 %%%%
 The Unspeakable
-l'Innommable
+{m}l'Innommable
 %%%%

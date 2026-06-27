@@ -10,7 +10,7 @@
 #################################
 %%%%
 the Orb of Zot
-l'Orbe de Zot
+{m}l'Orbe de Zot
 %%%%
 # in some places, it appears with an uppercase T
 The Orb of Zot
@@ -88,15 +88,15 @@ the dark rune
 #################################
 %%%%
 the Singing Sword
-l'Épée Chantante
+{f}l'Épée Chantante
 %%%%
 # alternative name for the Singing Sword
 the Screaming Sword
-l'Épée Hurlante
+{f}l'Épée Hurlante
 %%%%
 # alternative name for the Singing Sword
 the Sulking Sword
-l'Épée Silencieuse
+{f}l'Épée Silencieuse
 %%%%
 the pair of quick blades "Gyre" and "Gimble"
 {f}la paire de lames rapides "Gyre" et "Gimble"
@@ -111,7 +111,7 @@ the glaive of Prune
 {m}le glaive de Prune
 %%%%
 the sword of Power
-l'épée du Pouvoir
+{f}l'épée du Pouvoir
 %%%%
 the staff of Olgreb
 {m}le bâton d'Olgreb
@@ -129,10 +129,10 @@ the sceptre of Torment
 {m}le sceptre du Tourment
 %%%%
 the sword of Zonguldrok
-l'épée de Zonguldrok
+{f}l'épée de Zonguldrok
 %%%%
 the sword of Cerebov
-l'épée de Cerebov
+{f}l'épée de Cerebov
 %%%%
 the staff of Dispater
 {m}le bâton de Dispater
@@ -141,7 +141,7 @@ the sceptre of Asmodeus
 {m}le sceptre d'Asmodée
 %%%%
 the faerie dragon scales
-l'armure d'écailles de dragon féerique
+{f}l'armure d'écailles de dragon féerique
 %%%%
 the demon blade "Bloodbane"
 {f}la lame démoniaque "Bloodbane"
@@ -150,7 +150,7 @@ the scimitar of Flaming Death
 {m}le cimeterre de la Mort Enflammée
 %%%%
 the eveningstar "Brilliance"
-l'étoile du soir "Brillance"
+{f}l'étoile du soir "Brillance"
 %%%%
 the demon blade "Leech"
 {f}la lame démoniaque "Leech"
@@ -168,7 +168,7 @@ the sling "Punk"
 {f}la fronde "Punk"
 %%%%
 the longbow "Zephyr"
-l'arc long "Zephyr"
+{m}l'arc long "Zephyr"
 %%%%
 the giant club "Skullcrusher"
 {f}la massue géante "Broyeur de Crânes"
@@ -177,16 +177,16 @@ the glaive of the Guard
 {f}la vouge du Garde
 %%%%
 the zealot's sword
-l'épée du Zélote
+{f}l'épée du Zélote
 %%%%
 the arbalest "Damnation"
-l'arbalète "Damnation"
+{f}l'arbalète "Damnation"
 %%%%
 the sword of the Doom Knight
-l'épée du Chevalier du Destin
+{f}l'épée du Chevalier du Destin
 %%%%
 the morningstar "Eos"
-l'étoile du matin "Eos"
+{f}l'étoile du matin "Eos"
 %%%%
 the spear of the Botono
 {f}la lance du Botono
@@ -201,10 +201,10 @@ the Elemental Staff
 {m}le Bâton Élémentaire
 %%%%
 the heavy crossbow "Sniper"
-l'arbalète lourde "Sniper"
+{f}l'arbalète lourde "Sniper"
 %%%%
 the longbow "Piercer"
-l'arc long "Perceur"
+{m}l'arc long "Perceur"
 %%%%
 the blowgun of the Assassin
 {f}la sarbacane de l'Assassin
@@ -216,7 +216,7 @@ the Spriggan's Knife
 {m}le Couteau de Spriggan
 %%%%
 the plutonium sword
-l'épée de plutonium
+{f}l'épée de plutonium
 %%%%
 the great mace "Undeadhunter"
 {f}la grande masse "Chasseur de Morts-Vivants"
@@ -234,7 +234,7 @@ the captain's cutlass
 {m}le sabre du Capitaine
 %%%%
 the storm bow
-l'arc des tempêtes
+{m}l'arc des tempêtes
 %%%%
 the tower shield of Ignorance
 {m}le bouclier tour de l'Ignorance
@@ -270,7 +270,7 @@ the skin of Zhor
 {f}la peau de Zhor
 %%%%
 the salamander hide armour
-l'armure en peau de salamandre
+{f}l'armure en peau de salamandre
 %%%%
 the pair of gauntlets of War
 {f}la paire de gantelets de Guerre
@@ -282,7 +282,7 @@ the robe of Folly
 {f}la robe de la Folie
 %%%%
 the Maxwell's patent armour
-l'armure brevetée de Maxwell
+{f}l'armure brevetée de Maxwell
 %%%%
 the mask of the Dragon
 {m}le masque du Dragon
@@ -291,7 +291,7 @@ the robe of Night
 {f}la robe de la Nuit
 %%%%
 the scales of the Dragon King
-l'armure d'écailles du Roi Dragon
+{f}l'armure d'écailles du Roi Dragon
 %%%%
 the hat of the Alchemist
 {m}le chapeau de l'Alchimiste
@@ -309,34 +309,34 @@ the shield of the Gong
 {m}le bouclier du Gong
 %%%%
 the amulet of the Air
-l'amulette de l'Air
+{f}l'amulette de l'Air
 %%%%
 the ring of Shadows
-l'anneau des Ombres
+{m}l'anneau des Ombres
 %%%%
 the amulet of Cekugob
-l'amulette de Cekugob
+{f}l'amulette de Cekugob
 %%%%
 the amulet of the Four Winds
-l'amulette des Quatre Vents
+{f}l'amulette des Quatre Vents
 %%%%
 the necklace of Bloodlust
 {m}le collier de Fureur Sanguinaire
 %%%%
 the ring of Phasing
-l'anneau de Phasage
+{m}l'anneau de Phasage
 %%%%
 the ring of Robustness
-l'anneau de Robustesse
+{m}l'anneau de Robustesse
 %%%%
 the ring of the Mage
-l'anneau du Mage
+{m}l'anneau du Mage
 %%%%
 the ring of the Hare
-l'anneau du Lièvre
+{m}l'anneau du Lièvre
 %%%%
 the ring of the Tortoise
-l'anneau de la Tortue
+{m}l'anneau de la Tortue
 %%%%
 the brooch of Shielding
 {f}la broche de Protection
@@ -357,7 +357,7 @@ the Black Knight's barding
 {m}le caparaçon du Chevalier Noir
 %%%%
 the amulet of Vitality
-l'amulette de Vitalité
+{f}l'amulette de Vitalité
 %%%%
 the autumn katana
 {f}la katana d'automne
@@ -372,7 +372,7 @@ the Axe of Woe
 {f}la Hache du Malheur
 %%%%
 the moon troll leather armour
-l'armure en cuir de troll lunaire
+{f}l'armure en cuir de troll lunaire
 %%%%
 the macabre finger necklace
 {m}le collier macabre
@@ -399,7 +399,7 @@ the great mace "Firestarter"
 {f}la grande masse "Allume-Feu"
 %%%%
 the orange crystal plate armour
-l'armure de plaques de cristal orange
+{f}l'armure de plaques de cristal orange
 %%%%
 the Majin-Bo
 {m}le Majin-Bo
@@ -414,19 +414,19 @@ the robe of Vines
 {f}la robe de Vignes
 %%%%
 the Kryia's mail coat
-l'armure d'écailles de Kryia
+{f}l'armure d'écailles de Kryia
 %%%%
 the frozen axe "Frostbite"
 {f}la hache glacée "Engelure"
 %%%%
 the armour of Talos
-l'armure de Talos
+{f}l'armure de Talos
 %%%%
 the warlock's mirror
 {m}le miroir du sorcier
 %%%%
 the amulet of invisibility
-l'amulette d'invisibilité
+{f}l'amulette d'invisibilité
 %%%%
 the Maxwell's thermic engine
 {m}le moteur thermique de Maxwell
@@ -438,7 +438,7 @@ the staff of Battle
 {m}le bâton de Bataille
 %%%%
 the Cigotuvi's embrace
-l'étreinte de Cigotuvi
+{f}l'étreinte de Cigotuvi
 %%%%
 the pair of seven-league boots
 {f}la paire de bottes des sept lieues
@@ -448,7 +448,7 @@ the horn of Geryon
 %%%%
 # note: technically not unique - there are 8 of them
 the ring of the Octopus King
-l'anneau du Roi des Pieuvres
+{m}l'anneau du Roi des Pieuvres
 %%%%
 
 #################################

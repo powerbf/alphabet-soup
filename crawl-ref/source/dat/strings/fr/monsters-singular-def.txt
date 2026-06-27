@@ -121,13 +121,13 @@ the draconian scorcher
 {m}le draconien embrasé
 %%%%
 the elf
-l'elfe
+{m}l'elfe
 %%%%
 the deep elf knight
 {m}le chevalier elfe des profondeurs
 %%%%
 the deep elf archer
-l'archer elfe des profondeurs
+{m}l'archer elfe des profondeurs
 %%%%
 the deep elf blademaster
 {m}le maître-lame elfe des profondeurs
@@ -148,7 +148,7 @@ the deep elf demonologist
 {m}le démonologue elfe des profondeurs
 %%%%
 the deep elf annihilator
-l'annihilateur elfe des profondeurs
+{m}l'annihilateur elfe des profondeurs
 %%%%
 the deep elf sorcerer
 {m}le sorcier elfe des profondeurs
@@ -157,7 +157,7 @@ the deep elf death mage
 {m}le mage de la mort elfe des profondeurs
 %%%%
 the deep elf elementalist
-l'élémentaliste elfe des profondeurs
+{m}l'élémentaliste elfe des profondeurs
 %%%%
 the wandering mushroom
 {m}le champignon errant
@@ -235,13 +235,13 @@ the felid
 {m}le félidé
 %%%%
 the bear
-l'ours
+{m}l'ours
 %%%%
 the polar bear
-l'ours polaire
+{m}l'ours polaire
 %%%%
 the black bear
-l'ours noir
+{m}l'ours noir
 %%%%
 the spriggan
 {m}le spriggan
@@ -292,7 +292,7 @@ the frilled lizard
 {m}le lézard à collerette
 %%%%
 the iguana
-l'iguane
+{m}l'iguane
 %%%%
 the basilisk
 {m}le basilic
@@ -319,7 +319,7 @@ the merfolk siren
 {f}la sirène enchanteresse
 %%%%
 the merfolk avatar
-l'avatar sirène
+{m}l'avatar sirène
 %%%%
 the water nymph
 {f}la nymphe de l'eau
@@ -331,13 +331,13 @@ the necrophage
 {m}le nécrophage
 %%%%
 the bloated husk
-l'enveloppe boursouflée
+{m}l'enveloppe boursouflée
 %%%%
 the ghoul
 {m}le goule
 %%%%
 the orc
-l'orc
+{m}l'orc
 %%%%
 the orc wizard
 {m}le mage orc
@@ -361,7 +361,7 @@ the orc high priest
 {m}le grand prêtre orc
 %%%%
 the human
-l'humain
+{m}l'humain
 %%%%
 the hell knight
 {m}le chevalier infernal
@@ -385,7 +385,7 @@ the vault warden
 {m}le gardien des coffres
 %%%%
 the ironbound convoker
-l'invocateur enchaîné
+{m}l'invocateur enchaîné
 %%%%
 the ironbound frostheart
 {m}le guerrier-mage du froid
@@ -452,16 +452,16 @@ the death scarab
 {m}le scarabée de la mort
 %%%%
 the spider
-l'araignée
+{f}l'araignée
 %%%%
 the tarantella
 {f}la tarantella
 %%%%
 the jumping spider
-l'araignée sauteuse
+{f}l'araignée sauteuse
 %%%%
 the wolf spider
-l'araignée-loup
+{f}l'araignée-loup
 %%%%
 the redback
 {f}la redback
@@ -470,10 +470,10 @@ the demonic crawler
 {m}le rampant démoniaque
 %%%%
 the orb spider
-l'araignée-orbe
+{f}l'araignée-orbe
 %%%%
 the alligator
-l'alligator
+{m}l'alligator
 %%%%
 the snapping turtle
 {f}la tortue-alligator
@@ -527,25 +527,25 @@ the dart slug
 {f}la limace-fléchette
 %%%%
 the torpor snail
-l'escargot de torpeur
+{m}l'escargot de torpeur
 %%%%
 the elephant slug
 {f}la limace éléphant
 %%%%
 the unseen horror
-l'horreur invisible
+{m}l'horreur invisible
 %%%%
 the small abomination
 {f}la petite abomination
 %%%%
 the ancient zyme
-l'ancien zyme
+{m}l'ancien zyme
 %%%%
 the worldbinder
 {m}le lieur du monde
 %%%%
 the killer bee
-l'abeille tueuse
+{f}l'abeille tueuse
 %%%%
 the queen bee
 {f}la reine des abeilles
@@ -587,10 +587,10 @@ the curse skull
 {m}le crâne maudit
 %%%%
 the curse toe
-l'orteil maudit
+{m}l'orteil maudit
 %%%%
 the angel
-l'ange
+{m}l'ange
 %%%%
 the cherub
 {m}le chérubin
@@ -611,7 +611,7 @@ the cyclops
 {m}le cyclope
 %%%%
 the ettin
-l'ettin
+{m}l'ettin
 %%%%
 the fire giant
 {m}le géant de feu
@@ -638,7 +638,7 @@ the fire dragon
 {m}le dragon de feu
 %%%%
 the hydra
-l'hydre
+{f}l'hydre
 %%%%
 the ice dragon
 {m}le dragon de glace
@@ -674,22 +674,22 @@ the pearl dragon
 {m}le dragon de perle
 %%%%
 the elemental
-l'élémentaire
+{m}l'élémentaire
 %%%%
 the earth elemental
-l'élémentaire de terre
+{m}l'élémentaire de terre
 %%%%
 the fire elemental
-l'élémentaire de feu
+{m}l'élémentaire de feu
 %%%%
 the water elemental
-l'élémentaire d'eau
+{m}l'élémentaire d'eau
 %%%%
 the air elemental
-l'élémentaire d'air
+{m}l'élémentaire d'air
 %%%%
 the iron elemental
-l'élémentaire de fer
+{m}l'élémentaire de fer
 %%%%
 the elemental wellspring
 {f}la source élémentaire
@@ -710,7 +710,7 @@ the barachi
 {m}le barachi
 %%%%
 the floating eye
-l'œil flottant
+{m}l'œil flottant
 %%%%
 the glowing orange brain
 {m}le cerveau orange lumineux
@@ -722,16 +722,16 @@ the greater orb of eyes
 {m}le plus grand orbe des yeux
 %%%%
 the shining eye
-l'œil brillant
+{m}l'œil brillant
 %%%%
 the eye of devastation
-l'œil de la dévastation
+{m}l'œil de la dévastation
 %%%%
 the golden eye
-l'œil d'or
+{m}l'œil d'or
 %%%%
 the ophan
-l'ophan
+{m}l'ophan
 %%%%
 the manticore
 {f}la manticore
@@ -749,7 +749,7 @@ the mutant beast
 {f}la bête mutante
 %%%%
 the ancestor
-l'ancêtre
+{m}l'ancêtre
 %%%%
 the knight
 {m}le chevalier
@@ -758,7 +758,7 @@ the battlemage
 {m}le mage de guerre
 %%%%
 the hexer
-l'ensorceleur
+{m}l'ensorceleur
 %%%%
 the jelly
 {f}la gelée
@@ -830,10 +830,10 @@ the nagaraja
 {m}le nagaraja
 %%%%
 the ogre
-l'ogre
+{m}l'ogre
 %%%%
 the two-headed ogre
-l'ogre à deux têtes
+{m}l'ogre à deux têtes
 %%%%
 the ogre mage
 {m}le mage ogre
@@ -851,7 +851,7 @@ the oklob sapling
 {f}la pousse d'oklob
 %%%%
 the oklob plant
-l'oklob
+{m}l'oklob
 %%%%
 the bush
 {m}le buisson
@@ -860,7 +860,7 @@ the burning bush
 {m}le buisson ardent
 %%%%
 the toadstool
-l'amanite
+{f}l'amanite
 %%%%
 the fungus
 {m}le champignon
@@ -887,7 +887,7 @@ the tengu reaver
 {m}le pillard tengu
 %%%%
 the efreet
-l'ifrit
+{m}l'ifrit
 %%%%
 the rakshasa
 {m}le rakshasa
@@ -920,7 +920,7 @@ the sea snake
 {m}le serpent de mer
 %%%%
 the anaconda
-l'anaconda
+{m}l'anaconda
 %%%%
 the guardian serpent
 {m}le serpent gardien
@@ -974,13 +974,13 @@ the player ghost
 {m}le fantôme du joueur
 %%%%
 the shadow
-l'ombre
+{m}l'ombre
 %%%%
 the silent spectre
 {m}le spectre silencieux
 %%%%
 the drowned soul
-l'âme noyée
+{f}l'âme noyée
 %%%%
 the wraith
 {m}le revenant
@@ -992,7 +992,7 @@ the freezing wraith
 {m}le revenant glacial
 %%%%
 the eidolon
-l'eidolon
+{m}l'eidolon
 %%%%
 the phantasmal warrior
 {m}le guerrier fantasmatique
@@ -1001,7 +1001,7 @@ the large abomination
 {f}la grande abomination
 %%%%
 the thrashing horror
-l'horreur déchaînée
+{m}l'horreur déchaînée
 %%%%
 the tentacled monstrosity
 {f}la monstruosité tentaculaire
@@ -1034,16 +1034,16 @@ the catoblepas
 {m}le catoblépas
 %%%%
 the elephant
-l'éléphant
+{m}l'éléphant
 %%%%
 the dire elephant
-l'éléphant sinistre
+{m}l'éléphant sinistre
 %%%%
 the hellephant
-l'éléphant infernal
+{m}l'éléphant infernal
 %%%%
 the apis
-l'apis
+{m}l'apis
 %%%%
 the ice beast
 {f}la bête de glace
@@ -1079,10 +1079,10 @@ the large simulacrum
 {m}le grand simulacre
 %%%%
 the spectral thing
-l'entité spectrale
+{f}l'entité spectrale
 %%%%
 the electric eel
-l'anguille électrique
+{f}l'anguille électrique
 %%%%
 the kraken
 {m}le kraken
@@ -1094,7 +1094,7 @@ the tentacle segment
 {m}le segment de tentacule
 %%%%
 the octopode
-l'octopode
+{m}l'octopode
 %%%%
 the lava snake
 {m}le serpent de lave
@@ -1115,13 +1115,13 @@ the player
 {m}le joueur
 %%%%
 the player illusion
-l'illusion du joueur
+{f}l'illusion du joueur
 %%%%
 the dancing weapon
-l'arme dansante
+{f}l'arme dansante
 %%%%
 the spectral weapon
-l'arme spectrale
+{f}l'arme spectrale
 %%%%
 the eldritch tentacle
 {m}le tentacule ésotérique
@@ -1166,7 +1166,7 @@ the white imp
 {m}le diablotin blanc
 %%%%
 the ufetubus
-l'ufetubus
+{m}l'ufetubus
 %%%%
 the iron imp
 {m}le diablotin de fer
@@ -1184,7 +1184,7 @@ the red devil
 {m}le diable rouge
 %%%%
 the hellwing
-l'aile infernale
+{f}l'aile infernale
 %%%%
 the ice devil
 {m}le diable de glace
@@ -1205,7 +1205,7 @@ the neqoxec
 {m}le neqoxec
 %%%%
 the ynoxinul
-l'ynoxinul
+{m}l'ynoxinul
 %%%%
 the sixfirhy
 {m}le sixfirhy
@@ -1256,7 +1256,7 @@ the Executioner
 {m}le bourreau
 %%%%
 the animated tree
-l'arbre animé
+{m}l'arbre animé
 %%%%
 the golem
 {m}le golem
@@ -1280,7 +1280,7 @@ the electric golem
 {m}le golem électrique
 %%%%
 the ushabti
-l'ushabti
+{m}l'ushabti
 %%%%
 the guardian golem
 {m}le golem gardien
@@ -1313,7 +1313,7 @@ the block of ice
 {m}le bloc de glace
 %%%%
 the diamond obelisk
-l'obélisque de diamant
+{m}l'obélisque de diamant
 %%%%
 the lightning spire
 {m}le pilier de foudre
@@ -1340,31 +1340,31 @@ the ballistomycete spore
 {f}la spore de ballistomycète
 %%%%
 the lost soul
-l'âme perdue
+{f}l'âme perdue
 %%%%
 the lurking horror
-l'horreur tapie
+{m}l'horreur tapie
 %%%%
 the orb of fire
-l'orbe de feu
+{m}l'orbe de feu
 %%%%
 the orb of destruction
-l'orbe de destruction
+{m}l'orbe de destruction
 %%%%
 the wavering orb of destruction
-l'orbe de destruction vacillante
+{m}l'orbe de destruction vacillante
 %%%%
 the fulminant prism
 {m}le prisme fulminant
 %%%%
 the wretched star
-l'étoile misérable
+{f}l'étoile misérable
 %%%%
 the battlesphere
 {f}la sphère de combat
 %%%%
 the death cob
-l'épi de maïs de la mort
+{m}l'épi de maïs de la mort
 %%%%
 the moon troll
 {m}le troll lunaire
@@ -1373,7 +1373,7 @@ the foxfire
 {m}le feu follet
 %%%%
 the nameless horror
-l'horreur sans nom
+{m}l'horreur sans nom
 %%%%
 the will-o-the-wisp
 {m}le feu follet errant
@@ -1400,13 +1400,13 @@ the royal mummy
 {f}la momie royale
 %%%%
 the eleionoma
-l'éléionoma
+{m}l'éléionoma
 %%%%
 the lemure
 {m}le lémure
 %%%%
 the endoplasm
-l'endoplasme
+{m}l'endoplasme
 %%%%
 the rockslime
 {f}la vase rocheuse
@@ -1427,7 +1427,7 @@ the salamander tyrant
 {m}le tyran salamandre
 %%%%
 the animated armour
-l'armure animée
+{f}l'armure animée
 %%%%
 # Test monsters can be created in Arena
 # Les monstres de test peuvent être créés dans l'Arène
@@ -1487,7 +1487,7 @@ the centipede
 {m}le mille-pattes
 %%%%
 the mad acolyte of Lugonu
-l'acolyte fou de Lugonu
+{m}l'acolyte fou de Lugonu
 %%%%
 the bog mummy
 {f}la momie des marais
@@ -1658,10 +1658,10 @@ the orb golem
 {m}le golem d'orbe
 %%%%
 the orb of ice
-l'orbe de glace
+{m}l'orbe de glace
 %%%%
 the orb of electricity
-l'orbe d'électricité
+{m}l'orbe d'électricité
 %%%%
 the naga warlord
 {m}le seigneur de guerre naga
@@ -1670,10 +1670,10 @@ the witch
 {f}la sorcière
 %%%%
 the dire wolf spider
-l'araignée-loup sinistre
+{f}l'araignée-loup sinistre
 %%%%
 the phase spider
-l'araignée de phase
+{f}l'araignée de phase
 %%%%
 the dimme
 {m}le dimme
@@ -1694,22 +1694,22 @@ the oklob sapling wizard
 {m}le jeune mage oklob
 %%%%
 the oklob plant conjurer
-l'oklob conjurateur
+{m}l'oklob conjurateur
 %%%%
 the oklob plant summoner
-l'oklob invocateur
+{m}l'oklob invocateur
 %%%%
 the oklob plant shifter
-l'oklob changeforme
+{m}l'oklob changeforme
 %%%%
 the oklob plant meteorologist
-l'oklob météorologue
+{m}l'oklob météorologue
 %%%%
 the oklob plant demonologist
-l'oklob démonologue
+{m}l'oklob démonologue
 %%%%
 the oklob plant annihilator
-l'oklob annihilateur
+{m}l'oklob annihilateur
 %%%%
 the bag of meat
 {m}le sac de viande
@@ -1721,10 +1721,10 @@ the tyrant
 {m}le tyran
 %%%%
 the meat hydra
-l'hydre de chair
+{f}l'hydre de chair
 %%%%
 the dread
-l'effroi
+{m}l'effroi
 %%%%
 the destroyer
 {m}le destructeur
@@ -1736,7 +1736,7 @@ the sculptor of flesh
 {m}le sculpteur de chair
 %%%%
 the observer
-l'observateur
+{m}l'observateur
 %%%%
 the accursed
 {m}le maudit
@@ -1748,7 +1748,7 @@ the meat beast
 {f}la bête de chair
 %%%%
 the wretched soul
-l'âme misérable
+{f}l'âme misérable
 %%%%
 the fleshlord
 {m}le seigneur de chair
