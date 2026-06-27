@@ -1664,16 +1664,25 @@ fr-item-test: test/i18n/fr/item-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIB
 fr-misc-test: test/i18n/fr/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS)
 	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
 
+pt-br-misc-test: test/i18n/pt-br/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS)
+	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
+
 ru-misc-test: test/i18n/ru/misc-test.o $(OBJECTS) $(EXTRA_OBJECTS) $(CONTRIB_LIBS)
 	+$(QUIET_LINK)$(CXX) $(LDFLAGS) $(OBJECTS) $< $(EXTRA_OBJECTS) -o $@ $(LIBS)
 
-i18n-tests: $(GAME) make-stringf-test check-regex-rules derived-mon-test mon-speech-test de-mon-test de-item-test de-misc-test fr-item-test fr-misc-test ru-misc-test
-	./make-stringf-test
+I18N_TESTS=make-stringf-test check-regex-rules derived-mon-test mon-speech-test \
+           de-mon-test de-item-test de-misc-test \
+		   fr-item-test fr-misc-test \
+		   pt-br-misc-test \
+		   ru-misc-test
+
+i18n-tests: $(GAME) $(I18N_TESTS)
 	./de-mon-test
 	./de-item-test
 	./de-misc-test
 	./fr-item-test
 	./fr-misc-test
+	./pt-br-misc-test
 	./ru-misc-test
 
 clean-coverage-full: clean-coverage
@@ -1691,7 +1700,7 @@ clean-plug-and-play-tests:
 	$(RM) plug-and-play-tests plug-and-play-tests.exe
 
 clean-i18n-tests:
-	$(RM) make-stringf-test de-mon-test de-item-test de-misc-test fr-misc-test test/i18n/*/*.o
+	$(RM) $(I18N_TESTS) test/i18n/*/*.o
 
 debug: all
 debug-lite: all
