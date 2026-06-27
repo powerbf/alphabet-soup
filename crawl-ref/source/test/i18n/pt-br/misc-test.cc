@@ -109,5 +109,28 @@ int main()
     // msg = localise("2 very large doors");
     // show_result(msg, "2 portãos muito grandes");
 
+    // book titles
+
+    msg = localise("Easy Casting");
+    show_result(msg, "Conjuração Fácil");
+    msg = localise("Advanced Casting");
+    show_result(msg, "Conjuração Avançado");
+    msg = localise("Sophisticated Casting");
+    show_result(msg, "Conjuração Sofisticado");
+
+    msg = localise("Easy Magic");
+    show_result(msg, "Magia Fácil");
+    msg = localise("Advanced Magic");
+    show_result(msg, "Magia Avançada");
+    msg = localise("Sophisticated Magic");
+    show_result(msg, "Magia Sofisticada");
+
+    msg = localise("Easy Rites and Rhymes");
+    show_result(msg, "Ritos e Rimas Fáceis");
+    msg = localise("Advanced Rites and Rhymes");
+    show_result(msg, "Ritos e Rimas Avançadas");
+    msg = localise("Sophisticated Rites and Rhymes");
+    show_result(msg, "Ritos e Rimas Sofisticadas");
+
     return num_fails;
 }

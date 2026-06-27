@@ -211,8 +211,9 @@ KEY:/^\{m\}/{mpl}/
 /.*?($|(?=\b(com|em|de)\b))/o\b/os/
 /.*?($|(?=\b(com|em|de)\b))/e\b/es/
 
-# fix up adverbs
-/muitos/muito/
+# fix up exceptions
+/.*?($|(?=\b(com|em|de)\b))/Fácil/Fáceis/
+/.*?($|(?=\b(com|em|de)\b))/muitos/muito/
 %%%%
 
 # Generate feminine plural adjective from feminine singular
@@ -225,6 +226,9 @@ KEY:/^\{f\}/{fpl}/
 
 /.*?($|(?=\b(com|em|de)\b))/a\b/as/
 /.*?($|(?=\b(com|em|de)\b))/e\b/es/
+
+# fix up exceptions
+/.*?($|(?=\b(com|em|de)\b))/Fácil/Fáceis/
 %%%%
 
 # Make masculine singular the fallback if gender not specified
