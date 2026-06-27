@@ -178,7 +178,7 @@ the Ecumenical Temple
 {m}o Templo Ecumênico
 %%%%
 the Orcish Mines
-as Minas dos Orcs
+{fpl}as Minas dos Orcs
 %%%%
 the Elven Halls
 {mpl}os Salões Élficos
@@ -202,7 +202,7 @@ the Pits of Slime
 {mpl}os Poços de Slime
 %%%%
 the Vaults
-as Câmaras Fortes
+{fpl}as Câmaras Fortes
 %%%%
 the Crypt
 {f}a Cripta
@@ -211,7 +211,7 @@ the Tomb of the Ancients
 {f}a Tumba dos Antigos
 %%%%
 the Depths
-as Profundezas
+{fpl}as Profundezas
 %%%%
 the Hells
 {mpl}os Infernos

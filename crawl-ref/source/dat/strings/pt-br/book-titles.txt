@@ -287,7 +287,7 @@ the Guide on @book_magic@
 {m}o Guia sobre @book_magic@
 %%%%
 the Collected Works on @book_magic@
-as Obras Completas sobre @book_magic@
+{fpl}as Obras Completas sobre @book_magic@
 %%%%
 the Disquisition on @book_magic@
 {f}a Dissertação sobre @book_magic@
@@ -1002,7 +1002,7 @@ Dominando @book_magic@ de @owner@
 # @book_magic@ nominative
 %%%%
 the Arcane Arts
-as Artes Arcanas
+{fpl}as Artes Arcanas
 %%%%
 the Hermit's Heritage
 {f}a Herança do Eremita
@@ -1407,10 +1407,10 @@ the %sVoyage
 %sArgila
 %%%%
 the %sMountains
-as %sMontanhas
+{fpl}as %sMontanhas
 %%%%
 the %sRocks
-as %sRochas
+{fpl}as %sRochas
 %%%%
 
 # Air
