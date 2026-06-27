@@ -21,19 +21,19 @@ the gate
 das Tor
 %%%%
 the tree
-der Baum
+{m}der Baum
 %%%%
 the awoken tree
-der erwachte Baum
+{m}der erwachte Baum
 %%%%
 the demonic tree
-der dämonische Baum
+{m}der dämonische Baum
 %%%%
 the petrified tree
-der versteinerte Baum
+{m}der versteinerte Baum
 %%%%
 the mangrove
-der Mangrovebaum
+{m}der Mangrovebaum
 %%%%
 the metal wall
 die Metallwand
@@ -102,13 +102,13 @@ the shallow water
 das seichte Wasser
 %%%%
 the toxic bog
-der toxische Morast
+{m}der toxische Morast
 %%%%
 the floor
-der Boden
+{m}der Boden
 %%%%
 the collapsed entrance
-der eingestürzte Eingang
+{m}der eingestürzte Eingang
 %%%%
 the trap
 die Falle
@@ -162,19 +162,19 @@ the passage of Golubria
 die Passage von Golubria
 %%%%
 the shaft
-der Schacht
+{m}der Schacht
 %%%%
 the web
 das Gespinst
 %%%%
 the shop
-der Laden
+{m}der Laden
 %%%%
 the abandoned shop
-der verlassene Laden
+{m}der verlassene Laden
 %%%%
 the empty arch of ancient stone
-der leere Bogen aus uraltem Stein
+{m}der leere Bogen aus uraltem Stein
 %%%%
 the detected shop or portal
 der entdeckte Laden oder das entdeckte Portal
@@ -198,7 +198,7 @@ the escape hatch in the ceiling
 die Fluchtluke in der Decke
 %%%%
 the labyrinth entrance
-der Eingang zum Labyrinth
+{m}der Eingang zum Labyrinth
 %%%%
 the gateway to the Iron City of Dis
 das Tor zur Eisernen Stadt Dis
@@ -222,7 +222,7 @@ the one-way gate to the infinite horrors of the Abyss
 das Einbahntor zu den unendlichen Schrecken des Abgrunds
 %%%%
 the exit through the horrors of the Abyss
-der Ausgang durch die Schrecken des Abgrunds
+{m}der Ausgang durch die Schrecken des Abgrunds
 %%%%
 the gateway leading out of the Abyss
 das Tor, das aus dem Abgrund herausführt
@@ -261,7 +261,7 @@ the portal to a secret trove of treasure
 das Tor zu einer geheimen Schatzkammer
 %%%%
 the glowing drain
-der schimmernde Abfluss
+{m}der schimmernde Abfluss
 %%%%
 the sand-covered staircase
 die sandbedeckte Treppe
@@ -273,10 +273,10 @@ the gate leading to a gauntlet
 das Tor, das zu einem Spießrutenlauf führt
 %%%%
 the frozen archway
-der gefrorene Torbogen
+{m}der gefrorene Torbogen
 %%%%
 the dark tunnel
-der dunkle Tunnel
+{m}der dunkle Tunnel
 %%%%
 the magical portal
 das magische Portal
@@ -291,7 +291,7 @@ the ice covered gate leading back out of this place
 das eisbedeckte Tor, das wieder aus diesem Ort herausführt
 %%%%
 the rocky tunnel leading out of this place
-der felsige Tunnel, der aus diesem Ort herausführt
+{m}der felsige Tunnel, der aus diesem Ort herausführt
 %%%%
 the portal leading out of this place
 das Portal, das aus diesem Ort herausführt
@@ -300,7 +300,7 @@ the staircase leading out of the dungeon
 die Treppe, die aus dem Kerker herausführt
 %%%%
 the exit from the tutorial
-der Ausgang des Tutorials
+{m}der Ausgang des Tutorials
 %%%%
 the staircase to the Slime Pits
 die Treppe zu den Schleimgruben
@@ -366,124 +366,124 @@ the staircase to the Depths
 die Treppe zu den Tiefen
 %%%%
 the altar
-der Altar
+{m}der Altar
 %%%%
 the detected altar
-der entdeckte Altar
+{m}der entdeckte Altar
 %%%%
 the glowing silver altar of Zin
-der glänzende silberne Altar von Zin
+{m}der glänzende silberne Altar von Zin
 %%%%
 the glowing golden altar of the Shining One
-der glänzende goldene Altar des Strahlenden
+{m}der glänzende goldene Altar des Strahlenden
 %%%%
 the ancient bone altar of Kikubaaqudgha
-der uralte Knochenaltar von Kikubaaqudgha
+{m}der uralte Knochenaltar von Kikubaaqudgha
 %%%%
 the basalt altar of Yredelemnul
-der Basaltaltar von Yredelemnul
+{m}der Basaltaltar von Yredelemnul
 %%%%
 the shimmering altar of Xom
-der schimmernde Altar von Xom
+{m}der schimmernde Altar von Xom
 %%%%
 the radiant altar of Vehumet
-der strahlende Altar von Vehumet
+{m}der strahlende Altar von Vehumet
 %%%%
 the iron altar of Okawaru
-der Eisenaltar von Okawaru
+{m}der Eisenaltar von Okawaru
 %%%%
 the burning altar of Makhleb
-der brennende Altar von Makhleb
+{m}der brennende Altar von Makhleb
 %%%%
 the shimmering blue altar of Sif Muna
-der schimmernde blaue Altar von Sif Muna
+{m}der schimmernde blaue Altar von Sif Muna
 %%%%
 the bloodstained altar of Trog
-der blutverschmierte Altar von Trog
+{m}der blutverschmierte Altar von Trog
 %%%%
 the sparkling altar of Nemelex Xobeh
-der funkelnde Altar von Nemelex Xobeh
+{m}der funkelnde Altar von Nemelex Xobeh
 %%%%
 the white marble altar of Elyvilon
-der weiße Marmoraltar von Elyvilon
+{m}der weiße Marmoraltar von Elyvilon
 %%%%
 the corrupted altar of Lugonu
-der verdorbene Altar von Lugonu
+{m}der verdorbene Altar von Lugonu
 %%%%
 the roughly hewn altar of Beogh
-der grob behauene Altar von Beogh
+{m}der grob behauene Altar von Beogh
 %%%%
 the viscous altar of Jiyva
-der zähflüssige Altar von Jiyva
+{m}der zähflüssige Altar von Jiyva
 %%%%
 the blossoming altar of Fedhas
-der blühende Altar von Fedhas
+{m}der blühende Altar von Fedhas
 %%%%
 the snail-covered altar of Cheibriados
-der schneckenbedeckte Altar von Cheibriados
+{m}der schneckenbedeckte Altar von Cheibriados
 %%%%
 the broken altar of Ashenzari
-der zerbrochene Altar von Ashenzari
+{m}der zerbrochene Altar von Ashenzari
 %%%%
 the shadowy altar of Dithmenos
-der schattenumwobene Altar von Dithmenos
+{m}der schattenumwobene Altar von Dithmenos
 %%%%
 the opulent altar of Gozag
-der opulente Altar von Gozag
+{m}der opulente Altar von Gozag
 %%%%
 the stormy altar of Qazlal
-der stürmische Altar von Qazlal
+{m}der stürmische Altar von Qazlal
 %%%%
 the sacrificial altar of Ru
-der Opferaltar von Ru
+{m}der Opferaltar von Ru
 %%%%
 the faded altar of an unknown god
-der verblichene Altar eines unbekannten Gottes
+{m}der verblichene Altar eines unbekannten Gottes
 %%%%
 the oddly glowing altar of Pakellas
-der seltsam leuchtende Altar von Pakellas
+{m}der seltsam leuchtende Altar von Pakellas
 %%%%
 the hide-covered altar of Uskayaw
-der fellbedeckte Altar von Uskayaw
+{m}der fellbedeckte Altar von Uskayaw
 %%%%
 the hazy altar of Hepliaklqana
-der dunstige Altar von Hepliaklqana
+{m}der dunstige Altar von Hepliaklqana
 %%%%
 the ornate altar of the Wu Jian Council
-der kunstvolle Altar des Wu-Jian-Rates
+{m}der kunstvolle Altar des Wu-Jian-Rates
 %%%%
 the fountain
-der Brunnen
+{m}der Brunnen
 %%%%
 the fountain of clear blue water
-der Brunnen mit klarem blauen Wasser
+{m}der Brunnen mit klarem blauen Wasser
 %%%%
 the fountain of sparkling water
-der Brunnen mit sprudelndem Wasser
+{m}der Brunnen mit sprudelndem Wasser
 %%%%
 the fountain of blood
-der Brunnen voller Blut
+{m}der Brunnen voller Blut
 %%%%
 the dry fountain
-der ausgetrocknete Brunnen
+{m}der ausgetrocknete Brunnen
 %%%%
 the short-range portal
 das Kurzstreckenportal
 %%%%
 the teleporter
-der Teleporter
+{m}der Teleporter
 %%%%
 the transporter
-der Transporter
+{m}der Transporter
 %%%%
 the transporter landing site
-der Transporterlandeplatz
+{m}der Transporterlandeplatz
 %%%%
 the sealed passage leading up
-der versiegelte Gang, der nach oben führt
+{m}der versiegelte Gang, der nach oben führt
 %%%%
 the sealed passage leading down
-der versiegelte Gang, der nach unten führt
+{m}der versiegelte Gang, der nach unten führt
 %%%%
 the gateway leading deeper into the Abyss
 das Tor, das tiefer in den Abgrund führt
@@ -495,13 +495,13 @@ The dimension's edge
 Der Rand der Dimension
 %%%%
 the damp floor
-der feuchte Boden
+{m}der feuchte Boden
 %%%%
 the pulsating floor
-der pulsierende Boden
+{m}der pulsierende Boden
 %%%%
 the rough-hewn floor
-der grob behauene Boden
+{m}der grob behauene Boden
 %%%%
 
 ################################
@@ -520,7 +520,7 @@ ein entdeckter Laden oder ein entdecktes Portal
 # extras from .des files
 %%%%
 an adventurer's gravestone
-der Grabstein eines Abenteurers
+{m}der Grabstein eines Abenteurers
 %%%%
 an ash-covered pillar
 {f}eine aschebedeckte Säule

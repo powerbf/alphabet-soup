@@ -10,13 +10,13 @@
 
 %%%%
 the noxious blast
-der schädliche Strahl
+{m}der schädliche Strahl
 %%%%
 the blast of poison
-der Giftstrahl
+{m}der Giftstrahl
 %%%%
 the bolt of energy
-der Energiestrahl
+{m}der Energiestrahl
 %%%%
 the spray of metal splinters
 die Metallsplittersalve
@@ -34,13 +34,13 @@ the volley of spikes
 die Stachelsalve
 %%%%
 the toxic sludge
-der toxische Schlamm
+{m}der toxische Schlamm
 %%%%
 the damnation
 die Verdammnis
 %%%%
 the foul vapour
-der faulige Dunst
+{m}der faulige Dunst
 %%%%
 # this blasts outwards from the player in all directions
 the blast of cleansing flame
@@ -48,16 +48,16 @@ die reinigende Flammenwolke
 %%%%
 # this creates a single straight line of clouds
 the blast of calcifying dust
-der verkalkende Staubstrahl
+{m}der verkalkende Staubstrahl
 %%%%
 the ghostly fireball
-der geisterhafte Feuerball
+{m}der geisterhafte Feuerball
 %%%%
 the flash freeze
 das Blitzgefrieren
 %%%%
 the glob of lava
-der Lavaklumpen
+{m}der Lavaklumpen
 %%%%
 # chaos crab area effect
 the blast of chaos
@@ -72,16 +72,16 @@ die Frostwolke
 %%%%
 # searing breath (beam), similar to fire breath
 the searing blast
-der sengende Strahl
+{m}der sengende Strahl
 %%%%
 the bolt of electricity
-der elektrische Blitz
+{m}der elektrische Blitz
 %%%%
 the puff of flame
-der Flammenhauch
+{m}der Flammenhauch
 %%%%
 the puff of frost
-der Frosthauch
+{m}der Frosthauch
 %%%%
 the stinking cloud
 die stinkende Wolke
@@ -90,49 +90,49 @@ the magic dart
 das magische Geschoss
 %%%%
 the bolt of fire
-der Feuerstrahl
+{m}der Feuerstrahl
 %%%%
 the bolt of cold
-der Froststrahl
+{m}der Froststrahl
 %%%%
 the torrent of water
-der Wasserschwall
+{m}der Wasserschwall
 %%%%
 the fireball
-der Feuerball
+{m}der Feuerball
 %%%%
 the bolt of lightning
-der Blitzschlag
+{m}der Blitzschlag
 %%%%
 # not sure of the difference between thunderbolt and bolt of lightning, but both exist in the code
 the thunderbolt
-der Donnerkeil
+{m}der Donnerkeil
 %%%%
 the bolt of poison
-der Giftstrahl
+{m}der Giftstrahl
 %%%%
 the bolt of negative energy
-der Blitz negativer Energie
+{m}der Blitz negativer Energie
 %%%%
 the crystal spear
-der Kristallspeer
+{m}der Kristallspeer
 %%%%
 the sticky flame
 die klebrige Flamme
 %%%%
 # a physical stinger on the caster's limb
 the sting
-der Stachel
+{m}der Stachel
 %%%%
 the iron shot
-der Eisenschuss
+{m}der Eisenschuss
 %%%%
 the stone arrow
 das Steingeschoss
 %%%%
 # Shock spell (electricity)
 the zap
-der Schock
+{m}der Schock
 %%%%
 the stunning burst
 die betäubende Explosion
@@ -142,25 +142,25 @@ die betäubende Explosion
 #
 %%%%
 the splash of poison
-der Giftspritzer
+{m}der Giftspritzer
 %%%%
 the fiery breath
-der feurige Odem
+{m}der feurige Odem
 %%%%
 the freezing breath
-der eisige Odem
+{m}der eisige Odem
 %%%%
 the glob of acid
-der Säureklumpen
+{m}der Säureklumpen
 %%%%
 the poison gas
 das Giftgas
 %%%%
 the bolt of dispelling energy
-der Strahl entzaubernder Energie
+{m}der Strahl entzaubernder Energie
 %%%%
 the splash of acid
-der Säurespritzer
+{m}der Säurespritzer
 %%%%
 the agony
 die Agonie
@@ -169,19 +169,19 @@ the ball of steam
 die Dampfkugel
 %%%%
 the shard of ice
-der Eissplitter
+{m}der Eissplitter
 %%%%
 the flame tongue
 die Flammenzunge
 %%%%
 the blast of sand
-der Sandstrahl
+{m}der Sandstrahl
 %%%%
 the bolt of magma
-der Magmastrahl
+{m}der Magmastrahl
 %%%%
 the poison arrow
-der Giftpfeil
+{m}der Giftpfeil
 %%%%
 the blast of choking fumes
 die Explosion erstickender Dämpfe
@@ -190,37 +190,37 @@ the lance of force
 die Drucklanze
 %%%%
 the searing ray
-der versengende Strahl
+{m}der versengende Strahl
 %%%%
 the crystal bolt
-der Kristallblitz
+{m}der Kristallblitz
 %%%%
 the bolt of acid
-der Säurestrahl
+{m}der Säurestrahl
 %%%%
 the unravelling
 die Auflösung
 %%%%
 the iceblast
-der Eisblitz
+{m}der Eisblitz
 %%%%
 the slug dart
-der Schneckenpfeil
+{m}der Schneckenpfeil
 %%%%
 the living lightning
-der lebende Blitz
+{m}der lebende Blitz
 %%%%
 the freezing blast
-der Gefrierstrahl
+{m}der Gefrierstrahl
 %%%%
 the harpoon shot
-der Harpunenschuss
+{m}der Harpunenschuss
 %%%%
 the beckoning
 das Herbeiwinken
 %%%%
 the great blast of fire
-der große Feuerstoß
+{m}der große Feuerstoß
 %%%%
 the malmutate
 die Malmutation
@@ -242,28 +242,28 @@ die Klowntorte
 #
 %%%%
 the hail
-der Hagel
+{m}der Hagel
 %%%%
 the mystic blast
 die mystische Druckwelle
 %%%%
 the chilling breath
-der kühlende Odem
+{m}der kühlende Odem
 %%%%
 the porkalator
 die Schweinifizierung
 %%%%
 the stream of webbing
-der Gespinststrahl
+{m}der Gespinststrahl
 %%%%
 the spectral mist
-der spektrale Nebel
+{m}der spektrale Nebel
 %%%%
 the shadow bolt
-der Schattenstrahl
+{m}der Schattenstrahl
 %%%%
 the shadow shard
-der Schattensplitter
+{m}der Schattensplitter
 %%%%
 the vile air
 die widerliche Luft
@@ -281,20 +281,20 @@ the blast of energy
 die Energieexplosion
 %%%%
 the blast of putrescent gases
-der Schwall faulender Gase
+{m}der Schwall faulender Gase
 %%%%
 the pyre of ghostly fire
-der Scheiterhaufen geisterhaften Feuers
+{m}der Scheiterhaufen geisterhaften Feuers
 %%%%
 the fiery explosion
 die feurige Explosion
 %%%%
 the arc of chaos
-der Chaosbogen
+{m}der Chaosbogen
 %%%%
 # Englaciate - freezes the whole area
 the great icy blast
-der große eisige Strom
+{m}der große eisige Strom
 %%%%
 the golden flame
 die goldene Flamme
@@ -303,13 +303,13 @@ the effects of Hell
 die Auswirkungen der Hölle
 %%%%
 the magical storm
-der magische Sturm
+{m}der magische Sturm
 %%%%
 the electrical discharge
 die elektrische Entladung
 %%%%
 the frost
-der Frost
+{m}der Frost
 %%%%
 the irradiate
 die Verstrahlung
@@ -324,7 +324,7 @@ the infestation
 die Infestation
 %%%%
 the shock of your passage
-der Schock deiner Passage
+{m}der Schock deiner Passage
 %%%%
 
 # Fragments created by Lee's Rapid Deconstruction
@@ -374,10 +374,10 @@ the blast of ice
 die eisige Explosion
 %%%%
 the cutting wind
-der schneidende Wind
+{m}der schneidende Wind
 %%%%
 the blast of rubble
-der Trümmerhagel
+{m}der Trümmerhagel
 %%%%
 
 #################################

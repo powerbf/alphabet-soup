@@ -163,7 +163,7 @@ War %s {gen}%s{nom}%s.
 # titles used above, in declining order of piety
 %%%%
 the Champion
-der Auserwählte
+{m}der Auserwählte
 %%%%
 a High Priest
 {m}ein Hohepriester
@@ -740,7 +740,7 @@ themself
 sich selbst
 %%%%
 their own shadow
-der eigene Schatten
+{m}der eigene Schatten
 %%%%
 {acc}their own shadow
 den eigenen Schatten

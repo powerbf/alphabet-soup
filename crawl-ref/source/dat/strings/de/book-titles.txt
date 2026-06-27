@@ -257,16 +257,16 @@ Große Zauberer, Band VII
 # generic names
 %%%%
 the Tome of @book_magic@
-der Foliant {gen}@book_magic@
+{m}der Foliant {gen}@book_magic@
 %%%%
 the Grimoire of @book_magic@
 das Grimoire {gen}@book_magic@
 %%%%
 the Almanac of @book_magic@
-der Almanach {gen}@book_magic@
+{m}der Almanach {gen}@book_magic@
 %%%%
 the Volume of @book_magic@
-der Band {gen}@book_magic@
+{m}der Band {gen}@book_magic@
 %%%%
 the Compendium of @book_magic@
 das Kompendium {gen}@book_magic@
@@ -278,13 +278,13 @@ the Incunabulum of @book_magic@
 die Inkunabel {gen}@book_magic@
 %%%%
 the Papyrus of @book_magic@
-der Papyrus {gen}@book_magic@
+{m}der Papyrus {gen}@book_magic@
 %%%%
 the Catalogue of @book_magic@
-der Katalog {gen}@book_magic@
+{m}der Katalog {gen}@book_magic@
 %%%%
 the Guide on @book_magic@
-der Leitfaden für {acc}@book_magic@
+{m}der Leitfaden für {acc}@book_magic@
 %%%%
 the Collected Works on @book_magic@
 die gesammelten Werke über {acc}@book_magic@
@@ -1214,7 +1214,7 @@ die {adj-e}%sFlamme
 {adj-e}%sZündung
 %%%%
 the %sArsonist
-der {adj-e}%sBrandstifter
+{m}der {adj-e}%sBrandstifter
 %%%%
 
 # Hexes
@@ -1229,7 +1229,7 @@ der {adj-e}%sBrandstifter
 {adj-e}%sVerhexung
 %%%%
 the %sOath
-der {adj-e}%sSchwur
+{m}der {adj-e}%sSchwur
 %%%%
 %sExecration
 {adj-e}%sVerwünschung
@@ -1265,7 +1265,7 @@ the %sSnowflakes
 die {adj-e}%sSchneeflocken
 %%%%
 the %sGlacier
-der {adj-e}%sGletscher
+{m}der {adj-e}%sGletscher
 %%%%
 the %sFrostbite
 die {adj-e}%sErfrierung
@@ -1364,10 +1364,10 @@ die {adj-e}%sEskorte
 {adj-e}%sOrientierung
 %%%%
 the %sTraveller
-der {adj-e}%sReisende
+{m}der {adj-e}%sReisende
 %%%%
 the %sCompass
-der {adj-e}%sKompass
+{m}der {adj-e}%sKompass
 %%%%
 the %sVoyage
 die {adj-e}%sReise
@@ -2262,7 +2262,7 @@ Reanimation Made Easy
 Reanimation leicht gemacht
 %%%%
 the Zealot
-der Zelot
+{m}der Zelot
 %%%%
 Fire and Brimstone
 Feuer und Schwefel

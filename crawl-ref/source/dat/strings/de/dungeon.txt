@@ -172,10 +172,10 @@ a Wizlab
 ##############################################
 %%%%
 the Dungeon
-der Kerker
+{m}der Kerker
 %%%%
 the Ecumenical Temple
-der Ökumenische Tempel
+{m}der Ökumenische Tempel
 %%%%
 the Orcish Mines
 die orkischen Minen
@@ -187,7 +187,7 @@ the Lair of Beasts
 die Höhle der Bestien
 %%%%
 the Swamp
-der Sumpf
+{m}der Sumpf
 %%%%
 the Shoals
 die Untiefen
@@ -226,7 +226,7 @@ the Realm of Zot
 das Reich von Zot
 %%%%
 the Abyss
-der Abgrund
+{m}der Abgrund
 %%%%
 a ziggurat
 {f}eine Zikkurat

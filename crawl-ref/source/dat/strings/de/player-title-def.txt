@@ -20,110 +20,110 @@
 # Zin
 %%%%
 the Blasphemer
-der Blasphemist
+{m}der Blasphemist
 %%%%
 the Anchorite
-der Anachoret
+{m}der Anachoret
 %%%%
 the Apologist
-der Apologet
+{m}der Apologet
 %%%%
 the Pious
-der Fromme
+{m}der Fromme
 %%%%
 the Devout
-der Tiefgläubige
+{m}der Tiefgläubige
 %%%%
 the Orthodox
-der Orthodoxe
+{m}der Orthodoxe
 %%%%
 the Immaculate
-der Unbefleckte
+{m}der Unbefleckte
 %%%%
 the Bringer of Law
-der Bringer des Gesetzes
+{m}der Bringer des Gesetzes
 %%%%
 
 # Shining One
 %%%%
 the Honourless
-der Ehrenlose
+{m}der Ehrenlose
 %%%%
 the Acolyte
-der Akolyth
+{m}der Akolyth
 %%%%
 the Righteous
-der Gerechte
+{m}der Gerechte
 %%%%
 the Unflinching
-der Unbeugsame
+{m}der Unbeugsame
 %%%%
 the Holy Warrior
-der Heilige Krieger
+{m}der Heilige Krieger
 %%%%
 the Exorcist
-der Exorzist
+{m}der Exorzist
 %%%%
 the Demon Slayer
-der Dämonentöter
+{m}der Dämonentöter
 %%%%
 the Bringer of Light
-der Bringer des Lichtes
+{m}der Bringer des Lichtes
 %%%%
 
 # Kiku
 %%%%
 the Tormented
-der Gepeinigte
+{m}der Gepeinigte
 %%%%
 the Purveyor of Pain
-der Schmerzensbringer
+{m}der Schmerzensbringer
 %%%%
 the Scholar of Death
-der Gelehrte des Todes
+{m}der Gelehrte des Todes
 %%%%
 the Merchant of Misery
-der Händler des Elends
+{m}der Händler des Elends
 %%%%
 the Artisan of Death
-der Künstler des Todes
+{m}der Künstler des Todes
 %%%%
 the Dealer of Despair
-der Händler der Verzweiflung
+{m}der Händler der Verzweiflung
 %%%%
 the Black Sun
 die Schwarze Sonne
 %%%%
 the Lord of Darkness
-der Herr der Finsternis
+{m}der Herr der Finsternis
 %%%%
 
 # Yred
 %%%%
 the Traitor
-der Verräter
+{m}der Verräter
 %%%%
 the Tainted
-der Verdorbene
+{m}der Verdorbene
 %%%%
 the Torchbearer
-der Fackelträger
+{m}der Fackelträger
 %%%%
 the Fey @Genus@
 # discard @Genus@ to avoid having to handle genders
-der Todgeweihte
+{m}der Todgeweihte
 %%%%
 the Black Crusader
-der Schwarze Kreuzritter
+{m}der Schwarze Kreuzritter
 %%%%
 the Sculptor of Flesh
-der Bildhauer des Fleisches
+{m}der Bildhauer des Fleisches
 %%%%
 the Harbinger of Death
-der Vorbote des Todes
+{m}der Vorbote des Todes
 %%%%
 the Grim Reaper
-der Sensenmann
+{m}der Sensenmann
 %%%%
 
 # Xom
@@ -135,25 +135,25 @@ das Spielzeug
 # Vehumet
 %%%%
 the Meek
-der Sanftmütige
+{m}der Sanftmütige
 %%%%
 the Sorcerer's Apprentice
-der Zauberlehrling
+{m}der Zauberlehrling
 %%%%
 the Scholar of Destruction
-der Gelehrte der Zerstörung
+{m}der Gelehrte der Zerstörung
 %%%%
 the Caster of Ruination
-der Zauberer der Ruinierung
+{m}der Zauberer der Ruinierung
 %%%%
 the Traumaturge
-der Traumaturg
+{m}der Traumaturg
 %%%%
 the Battlemage
-der Kampfmagier
+{m}der Kampfmagier
 %%%%
 the Warlock
-der Hexenmeister
+{m}der Hexenmeister
 %%%%
 the Luminary of Lethal Lore
 die Koryphäe der tödlichen Kunde
@@ -162,80 +162,80 @@ die Koryphäe der tödlichen Kunde
 # Okawaru
 %%%%
 the Coward
-der Feigling
+{m}der Feigling
 %%%%
 the Struggler
-der Kämpfer
+{m}der Kämpfer
 %%%%
 the Combatant
-der Kombattant
+{m}der Kombattant
 %%%%
 the Warrior
-der Krieger
+{m}der Krieger
 %%%%
 the Knight
-der Ritter
+{m}der Ritter
 %%%%
 the Warmonger
-der Kriegstreiber
+{m}der Kriegstreiber
 %%%%
 the Commander
-der Kommandant
+{m}der Kommandant
 %%%%
 the Victor of a Thousand Battles
-der Sieger von Tausenden Schlachten
+{m}der Sieger von Tausenden Schlachten
 %%%%
 
 # Makhleb
 %%%%
 the Orderly
-der Ordentliche
+{m}der Ordentliche
 %%%%
 the Spawn of Chaos
 die Ausgeburt des Chaos
 %%%%
 the Disciple of Destruction
-der Jünger der Zerstörung
+{m}der Jünger der Zerstörung
 %%%%
 the Fanfare of Bloodshed
 die Fanfare des Blutvergießens
 %%%%
 the Fiendish
-der Teuflische
+{m}der Teuflische
 %%%%
 the Demolition @Genus@
 # discard genus to avoid gender issues
-der Zerstörer
+{m}der Zerstörer
 %%%%
 the Pandemonic
-der Pandämonische
+{m}der Pandämonische
 %%%%
 the Champion of Chaos
-der Champion des Chaos
+{m}der Champion des Chaos
 %%%%
 
 # Sif Muna
 %%%%
 the Ignorant
-der Unwissende
+{m}der Unwissende
 %%%%
 the Disciple
-der Jünger
+{m}der Jünger
 %%%%
 the Student
-der Schüler
+{m}der Schüler
 %%%%
 the Adept
-der Adept
+{m}der Adept
 %%%%
 the Scribe
-der Schreiber
+{m}der Schreiber
 %%%%
 the Scholar
-der Gelehrte
+{m}der Gelehrte
 %%%%
 the Sage
-der Weise
+{m}der Weise
 %%%%
 the Genius of the Arcane
 das Genie des Arkanen
@@ -244,55 +244,55 @@ das Genie des Arkanen
 # Trog
 %%%%
 the Puny
-der Mickrige
+{m}der Mickrige
 %%%%
 the Troglodyte
-der Troglodyt
+{m}der Troglodyt
 %%%%
 the Angry Troglodyte
-der Wütende Troglodyt
+{m}der Wütende Troglodyt
 %%%%
 the Frenzied
-der Rasende
+{m}der Rasende
 %%%%
 the @Genus@ of Prey
 # discard genus to avoid gender issues
-der Prädator
+{m}der Prädator
 %%%%
 the Rampant
-der Zügellose
+{m}der Zügellose
 %%%%
 the Wild @Genus@
 # discard genus to avoid gender issues
-der Wilde
+{m}der Wilde
 %%%%
 the Bane of Scribes
-der Fluch der Schreiber
+{m}der Fluch der Schreiber
 %%%%
 
 # Nemelex
 %%%%
 the Unlucky @Genus@
 # discard genus to avoid gender issues
-der Unglückliche
+{m}der Unglückliche
 %%%%
 the Pannier
-der Gepäckträger
+{m}der Gepäckträger
 %%%%
 the Jester
-der Narr
+{m}der Narr
 %%%%
 the Fortune-Teller
-der Kartenleger
+{m}der Kartenleger
 %%%%
 the Soothsayer
-der Wahrsager
+{m}der Wahrsager
 %%%%
 the Magus
-der Magier
+{m}der Magier
 %%%%
 the Cardsharp
-der Falschspieler
+{m}der Falschspieler
 %%%%
 the Hand of Fortune
 die Hand des Glücks
@@ -301,96 +301,96 @@ die Hand des Glücks
 # Elyvilon
 %%%%
 the Sinner
-der Sünder
+{m}der Sünder
 %%%%
 the Practitioner
-der Praktiker
+{m}der Praktiker
 %%%%
 the Comforter
-der Tröster
+{m}der Tröster
 %%%%
 the Caregiver
-der Pfleger
+{m}der Pfleger
 %%%%
 the Mender
-der Barmherzige
+{m}der Barmherzige
 %%%%
 the Pacifist
-der Pazifist
+{m}der Pazifist
 %%%%
 the Purifying @Genus@
 # discard genus to avoid gender issues
-der Reiniger
+{m}der Reiniger
 %%%%
 the Bringer of Life
-der Bringer des Lebens
+{m}der Bringer des Lebens
 %%%%
 
 # Lugonu
 %%%%
 the Pure
-der Reine
+{m}der Reine
 %%%%
 the Abyss-Baptised
-der Abgrundstäufling
+{m}der Abgrundstäufling
 %%%%
 the Unweaver
-der Auftrenner
+{m}der Auftrenner
 %%%%
 the Distorting @Genus@
 # discard genus to avoid gender issues
-der Verzerrer
+{m}der Verzerrer
 %%%%
 the Agent of Entropy
-der Agent der Entropie
+{m}der Agent der Entropie
 %%%%
 the Schismatic
-der Schismatiker
+{m}der Schismatiker
 %%%%
 the Envoy of Void
-der Abgesandte der Leere
+{m}der Abgesandte der Leere
 %%%%
 the Corrupter of Planes
-der Korrumpierer der Ebenen
+{m}der Korrumpierer der Ebenen
 %%%%
 
 # Beogh
 %%%%
 the Apostate
-der Apostat
+{m}der Apostat
 %%%%
 the Messenger
-der Bote
+{m}der Bote
 %%%%
 the Proselytiser
-der Proselytist
+{m}der Proselytist
 %%%%
 the Priest
-der Priester
+{m}der Priester
 %%%%
 the Missionary
-der Missionar
+{m}der Missionar
 %%%%
 the Evangelist
-der Evangelist
+{m}der Evangelist
 %%%%
 the Apostle
-der Apostel
+{m}der Apostel
 %%%%
 the Messiah
-der Messias
+{m}der Messias
 %%%%
 
 # Jiyva
 %%%%
 the Scum
-der Abschaum
+{m}der Abschaum
 %%%%
 the Squelcher
-der Quetscher
+{m}der Quetscher
 %%%%
 the Ooze
-der Schleim
+{m}der Schleim
 %%%%
 the Jelly
 das Gelee
@@ -400,10 +400,10 @@ die Schleimkreatur
 %%%%
 the Dissolving @Genus@
 # discard genus to avoid gender issues
-der Auflösende
+{m}der Auflösende
 %%%%
 the Blob
-der Blob
+{m}der Blob
 %%%%
 # duplicate (monster)
 #the Royal Jelly
@@ -413,26 +413,26 @@ der Blob
 # Fedhas
 %%%%
 the @Walking@ Fertiliser
-der {adj-e}@Walking@ Dünger
+{m}der {adj-e}@Walking@ Dünger
 %%%%
 the Fungal
-der Pilz
+{m}der Pilz
 %%%%
 the Green @Genus@
 # discard genus to avoid gender issues
-der Grüne
+{m}der Grüne
 %%%%
 the Cultivator
-der Kultivator
+{m}der Kultivator
 %%%%
 the Fruitful
-der Fruchtbare
+{m}der Fruchtbare
 %%%%
 the Photosynthesist
-der Photosynthetiker
+{m}der Photosynthetiker
 %%%%
 the Green Death
-der Grüne Tod
+{m}der Grüne Tod
 %%%%
 the Force of Nature
 die Kraft der Natur
@@ -441,74 +441,74 @@ die Kraft der Natur
 # Cheibriados
 %%%%
 the Hasty
-der Hastige
+{m}der Hastige
 %%%%
 the Sluggish @Genus@
 # discard genus to avoid gender issues
-der Träge
+{m}der Träge
 %%%%
 the Deliberate
-der Bedächtige
+{m}der Bedächtige
 %%%%
 the Unhurried
-der Gemütliche
+{m}der Gemütliche
 %%%%
 the Contemplative
-der Kontemplative
+{m}der Kontemplative
 %%%%
 the Epochal
-der Epochale
+{m}der Epochale
 %%%%
 the Timeless
-der Zeitlose
+{m}der Zeitlose
 %%%%
 the @Adj@ Aeon
-der {adj-e}@Adj@ Äon
+{m}der {adj-e}@Adj@ Äon
 %%%%
 
 # Ashenzari
 %%%%
 the Star-crossed
-der Unglückselige
+{m}der Unglückselige
 %%%%
 the Cursed
-der Verfluchte
+{m}der Verfluchte
 %%%%
 the Initiated
-der Eingeweihte
+{m}der Eingeweihte
 %%%%
 the Seer
-der Seher
+{m}der Seher
 %%%%
 the Oracle
 das Orakel
 %%%%
 the Illuminatus
-der Illuminat
+{m}der Illuminat
 %%%%
 the Omniscient
-der Allwissende
+{m}der Allwissende
 %%%%
 
 # Dithmenos
 %%%%
 the Ember
-der Glimmende
+{m}der Glimmende
 %%%%
 the Gloomy
-der Düstere
+{m}der Düstere
 %%%%
 the Darkened
-der Verdunkelte
+{m}der Verdunkelte
 %%%%
 the Extinguished
-der Ausgelöschte
+{m}der Ausgelöschte
 %%%%
 the Caliginous
-der Trübe
+{m}der Trübe
 %%%%
 the Umbral
-der Umbrale
+{m}der Umbrale
 %%%%
 the Hand of Shadow
 die Hand des Schattens
@@ -520,40 +520,40 @@ die Ewige Nacht
 # Gozag
 %%%%
 the Profligate
-der Verschwender
+{m}der Verschwender
 %%%%
 the Pauper
-der Bettler
+{m}der Bettler
 %%%%
 the Entrepreneur
-der Entrepreneur
+{m}der Entrepreneur
 %%%%
 the Capitalist
-der Kapitalist
+{m}der Kapitalist
 %%%%
 the Rich
-der Reiche
+{m}der Reiche
 %%%%
 the Opulent
-der Opulente
+{m}der Opulente
 %%%%
 the Tycoon
-der Tycoon
+{m}der Tycoon
 %%%%
 the Plutocrat
-der Plutokrat
+{m}der Plutokrat
 %%%%
 
 # Qazlal
 %%%%
 the Unspoiled
-der Unverwöhnte
+{m}der Unverwöhnte
 %%%%
 the @Adj@ Mishap
 das {adj-e}@Adj@ Missgeschick
 %%%%
 the Lightning Rod
-der Blitzfänger
+{m}der Blitzfänger
 %%%%
 the @Adj@ Disaster
 das {adj-e}@Adj@ Desaster
@@ -565,7 +565,7 @@ the @Adj@ Catastrophe
 die {adj-e}@Adj@ Katastrophe
 %%%%
 the @Adj@ Cataclysm
-der {adj-e}@Adj@ Kataklysmus
+{m}der {adj-e}@Adj@ Kataklysmus
 %%%%
 the End of an Era
 das Ende einer Ära
@@ -574,82 +574,82 @@ das Ende einer Ära
 # Ru
 %%%%
 the Sleeper
-der Schläfer
+{m}der Schläfer
 %%%%
 the Questioner
-der Fragesteller
+{m}der Fragesteller
 %%%%
 the Initiate
-der Eingeweihte
+{m}der Eingeweihte
 %%%%
 the Seeker of Truth
-der Wahrheitssuchende
+{m}der Wahrheitssuchende
 %%%%
 the @Walker@ of the Path
-der @Walker@ des Pfades
+{m}der @Walker@ des Pfades
 %%%%
 the Lifter of the Veil
-der Heber des Schleiers
+{m}der Heber des Schleiers
 %%%%
 the Transcendent
-der Transzendente
+{m}der Transzendente
 %%%%
 the Drop of Water
-der Wassertropfen
+{m}der Wassertropfen
 %%%%
 
 # Pakellas (obsolete)
 %%%%
 the Reactionary
-der Reaktionär
+{m}der Reaktionär
 %%%%
 the Apprentice
-der Lehrling
+{m}der Lehrling
 %%%%
 the Inquisitive
-der Wissbegierige
+{m}der Wissbegierige
 %%%%
 the Experimenter
-der Experimentator
+{m}der Experimentator
 %%%%
 the Inventor
-der Erfinder
+{m}der Erfinder
 %%%%
 the Pioneer
-der Pionier
+{m}der Pionier
 %%%%
 the Brilliant
-der Brillante
+{m}der Brillante
 %%%%
 the Grand Gadgeteer
-der Große Tüftler
+{m}der Große Tüftler
 %%%%
 
 # Uskayaw
 %%%%
 the Prude
-der Prüde
+{m}der Prüde
 %%%%
 the Wallflower
 das Mauerblümchen
 %%%%
 the Party-goer
-der Partygänger
+{m}der Partygänger
 %%%%
 the Dancer
-der Tänzer
+{m}der Tänzer
 %%%%
 the Impassioned
-der Leidenschaftliche
+{m}der Leidenschaftliche
 %%%%
 the Rapturous
-der Entzückte
+{m}der Entzückte
 %%%%
 the Ecstatic
-der Ekstatische
+{m}der Ekstatische
 %%%%
 the Rhythm of Life and Death
-der Rhythmus von Leben und Tod
+{m}der Rhythmus von Leben und Tod
 %%%%
 
 # Hepliaklqana
@@ -658,25 +658,25 @@ the Damnatio Memoriae
 das Damnatio Memoriae
 %%%%
 the Hazy
-der Verschwommene
+{m}der Verschwommene
 %%%%
 the @Adj@ Child
 das {adj-e}@Adj@ Kind
 %%%%
 the Storyteller
-der Geschichtenerzähler
+{m}der Geschichtenerzähler
 %%%%
 the Brooding
-der Grübler
+{m}der Grübler
 %%%%
 the Anamnesiscian
-der Anamnestiker
+{m}der Anamnestiker
 %%%%
 the Grand Scion
-der Große Nachkomme
+{m}der Große Nachkomme
 %%%%
 the Unforgettable
-der Unvergessliche
+{m}der Unvergessliche
 %%%%
 
 # Wu Jian
@@ -685,16 +685,16 @@ the Wooden Rat
 die Hölzerne Ratte
 %%%%
 the Young Dog
-der Junge Hund
+{m}der Junge Hund
 %%%%
 the Young Crane
-der Junge Kranich
+{m}der Junge Kranich
 %%%%
 the Young Tiger
-der Junge Tiger
+{m}der Junge Tiger
 %%%%
 the Young Dragon
-der Junge Drache
+{m}der Junge Drache
 %%%%
 the Red Sash
 die Rote Schärpe
@@ -703,7 +703,7 @@ the Golden Sash
 die Goldene Schärpe
 %%%%
 the Sifu
-der Sifu
+{m}der Sifu
 %%%%
 
 ##############################################
@@ -713,7 +713,7 @@ der Sifu
 # Fighting
 %%%%
 the Skirmisher
-der Plänkler
+{m}der Plänkler
 %%%%
 # duplicate (player background)
 #the Fighter
@@ -724,135 +724,135 @@ der Plänkler
 #
 %%%%
 the Slayer
-der Töter
+{m}der Töter
 %%%%
 the Conqueror
-der Eroberer
+{m}der Eroberer
 %%%%
 
 # Short Blades
 %%%%
 the Cutter
-der Zerschneider
+{m}der Zerschneider
 %%%%
 the Slicer
-der Aufschlitzer
+{m}der Aufschlitzer
 %%%%
 the Swashbuckler
-der Draufgänger
+{m}der Draufgänger
 %%%%
 the Cutthroat
-der Halsabschneider
+{m}der Halsabschneider
 %%%%
 the Politician
-der Politiker
+{m}der Politiker
 %%%%
 
 # Long Blades
 %%%%
 the Slasher
-der Aufschlitzer
+{m}der Aufschlitzer
 %%%%
 the Carver
-der Schnitzer
+{m}der Schnitzer
 %%%%
 the Fencer
-der Fechter
+{m}der Fechter
 %%%%
 the @Adj@ Blade
 die {adj-e}@Adj@ Klinge
 %%%%
 the Swordmaster
-der Schwertmeister
+{m}der Schwertmeister
 %%%%
 
 # Axes
 %%%%
 the Chopper
-der Zerhacker
+{m}der Zerhacker
 %%%%
 the Cleaver
-der Spalter
+{m}der Spalter
 %%%%
 the Severer
-der Abtrenner
+{m}der Abtrenner
 %%%%
 # duplicate (monster)
 #the Executioner
 #
 %%%%
 the Axe Maniac
-der Axtmörder
+{m}der Axtmörder
 %%%%
 
 # Maces & Flails
 %%%%
 the Cudgeller
-der Prügelknabe
+{m}der Prügelknabe
 %%%%
 the Basher
-der Schläger
+{m}der Schläger
 %%%%
 the Bludgeoner
-der Knüppelschwinger
+{m}der Knüppelschwinger
 %%%%
 the Shatterer
-der Zerschmetterer
+{m}der Zerschmetterer
 %%%%
 the Skullcrusher
-der Schädelbrecher
+{m}der Schädelbrecher
 %%%%
 
 # Polearms
 %%%%
 the Poker
-der Piekser
+{m}der Piekser
 %%%%
 the Spear-Bearer
-der Speerträger
+{m}der Speerträger
 %%%%
 the Impaler
-der Pfähler
+{m}der Pfähler
 %%%%
 the Phalangite
-der Phalangit
+{m}der Phalangit
 %%%%
 the @Adj@ Porcupine
 das {adj-e}@Adj@ Stachelschwein
 %%%%
 # palentonga
 the Prickly Pangolin
-der Stachelige Pangolin
+{m}der Stachelige Pangolin
 %%%%
 
 # Staves
 %%%%
 the Twirler
-der Zwirbler
+{m}der Zwirbler
 %%%%
 the Cruncher
-der Knirscher
+{m}der Knirscher
 %%%%
 the Stickfighter
-der Stabkämpfer
+{m}der Stabkämpfer
 %%%%
 the Pulveriser
-der Pulverisierer
+{m}der Pulverisierer
 %%%%
 the Chief of Staff
-der Stabführer
+{m}der Stabführer
 %%%%
 
 # Slings
 %%%%
 the Vandal
-der Vandale
+{m}der Vandale
 %%%%
 the Slinger
-der Schleuderer
+{m}der Schleuderer
 %%%%
 the Whirler
-der Wirbler
+{m}der Wirbler
 %%%%
 the Slingshot
 die Schleuder
@@ -864,34 +864,34 @@ das {adj-e}@Adj@ Katapult
 # Bows
 %%%%
 the Shooter
-der Schütze
+{m}der Schütze
 %%%%
 the Archer
-der Bogenschütze
+{m}der Bogenschütze
 %%%%
 the Marks@genus@
-der Scharfschütze
+{m}der Scharfschütze
 %%%%
 the Crack Shot
-der Meisterschütze
+{m}der Meisterschütze
 %%%%
 the Merry @Genus@
-der Fröhliche
+{m}der Fröhliche
 %%%%
 
 # Crossbows
 %%%%
 the Bolt Thrower
-der Bolzenwerfer
+{m}der Bolzenwerfer
 %%%%
 the Quickloader
-der Schnelllader
+{m}der Schnelllader
 %%%%
 the Sharpshooter
-der Scharfschütze
+{m}der Scharfschütze
 %%%%
 the Sniper
-der Heckenschütze
+{m}der Heckenschütze
 %%%%
 the @Adj@ Arbalest
 die {adj-e}@Adj@ Arbaleste
@@ -900,16 +900,16 @@ die {adj-e}@Adj@ Arbaleste
 # Throwing
 %%%%
 the Chucker
-der Schmeißer
+{m}der Schmeißer
 %%%%
 the Thrower
-der Werfer
+{m}der Werfer
 %%%%
 the Deadly Accurate
-der Tödlich Genaue
+{m}der Tödlich Genaue
 %%%%
 the Hawkeye
-der Scharfsichtige
+{m}der Scharfsichtige
 %%%%
 the @Adj@ Ballista
 die {adj-e}@Adj@ Ballista
@@ -918,70 +918,70 @@ die {adj-e}@Adj@ Ballista
 # Armour
 %%%%
 the Covered
-der Bedeckte
+{m}der Bedeckte
 %%%%
 the Protected
-der Geschützte
+{m}der Geschützte
 %%%%
 the Tortoise
 die Schildkröte
 %%%%
 the Impregnable
-der Unbezwingbare
+{m}der Unbezwingbare
 %%%%
 the Invulnerable
-der Unverwundbare
+{m}der Unverwundbare
 %%%%
 
 # Dodging
 %%%%
 the Ducker
-der Ducker
+{m}der Ducker
 %%%%
 the Nimble
-der Flinke
+{m}der Flinke
 %%%%
 the Spry
-der Agile
+{m}der Agile
 %%%%
 the Acrobat
-der Akrobat
+{m}der Akrobat
 %%%%
 the Intangible
-der Unfassbare
+{m}der Unfassbare
 %%%%
 
 # Stealth
 %%%%
 the Sneak
-der Schleicher
+{m}der Schleicher
 %%%%
 the Covert
-der Verborgene
+{m}der Verborgene
 %%%%
 the Unseen
-der Unsichtbare
+{m}der Unsichtbare
 %%%%
 the Imperceptible
-der Unwahrnehmbare
+{m}der Unwahrnehmbare
 %%%%
 the Ninja
-der Ninja
+{m}der Ninja
 %%%%
 
 # Shields
 %%%%
 the Shield-Bearer
-der Schildträger
+{m}der Schildträger
 %%%%
 the Blocker
-der Blocker
+{m}der Blocker
 %%%%
 the Peltast
-der Peltast
+{m}der Peltast
 %%%%
 the Hoplite
-der Hoplit
+{m}der Hoplit
 %%%%
 the @Adj@ Barricade
 die {adj-e}@Adj@ Barrikade
@@ -990,19 +990,19 @@ die {adj-e}@Adj@ Barrikade
 # Spellcasting
 %%%%
 the Magician
-der Magier
+{m}der Magier
 %%%%
 the Thaumaturge
-der Thaumaturg
+{m}der Thaumaturg
 %%%%
 the Eclecticist
-der Eklektiker
+{m}der Eklektiker
 %%%%
 the Sorcerer
-der Hexenmeister
+{m}der Hexenmeister
 %%%%
 the Archmage
-der Erzmagier
+{m}der Erzmagier
 %%%%
 
 # Conjurations
@@ -1012,50 +1012,50 @@ der Erzmagier
 #der Konjurant
 %%%%
 the Destroyer
-der Zerstörer
+{m}der Zerstörer
 %%%%
 the Devastator
-der Verwüster
+{m}der Verwüster
 %%%%
 the Ruinous
-der Ruinöse
+{m}der Ruinöse
 %%%%
 the Annihilator
-der Vernichter
+{m}der Vernichter
 %%%%
 
 # Hexes
 %%%%
 the Vexing
-der Irritierende
+{m}der Irritierende
 %%%%
 the Jinx
-der Pechvogel
+{m}der Pechvogel
 %%%%
 the Bewitcher
-der Verhexer
+{m}der Verhexer
 %%%%
 the Maledictor
-der Malediktator
+{m}der Malediktator
 %%%%
 the Spellbinder
-der Zauberbinder
+{m}der Zauberbinder
 %%%%
 
 # Summonings
 %%%%
 the Caller
-der Rufer
+{m}der Rufer
 %%%%
 # duplicate (player background)
 #the Summoner
 #der Beschwörer
 %%%%
 the Convoker
-der Einberufer
+{m}der Einberufer
 %%%%
 the Demonologist
-der Dämonologe
+{m}der Dämonologe
 %%%%
 # duplicate (monster)
 #the Hellbinder
@@ -1065,17 +1065,17 @@ der Dämonologe
 # Necromancy
 %%%%
 the Grave Robber
-der Grabräuber
+{m}der Grabräuber
 %%%%
 the Reanimator
-der Reanimator
+{m}der Reanimator
 %%%%
 # duplicate (player background)
 #the Necromancer
 #der Nekromant
 %%%%
 the Thanatomancer
-der Thanatomant
+{m}der Thanatomant
 %%%%
 # avoid using definite article because genders
 the @Genus_Short@ of Death
@@ -1085,143 +1085,143 @@ the @Genus_Short@ of Death
 # Translocations
 %%%%
 the Grasshopper
-der Grashüpfer
+{m}der Grashüpfer
 %%%%
 the Placeless @Genus@
-der Ortlose
+{m}der Ortlose
 %%%%
 the Blinker
-der Blinzler
+{m}der Blinzler
 %%%%
 the Portalist
-der Portalist
+{m}der Portalist
 %%%%
 the Plane @Walker@
-der Ebenen-@Walker@
+{m}der Ebenen-@Walker@
 %%%%
 
 # Transmutations
 %%%%
 the Changer
-der Wechsler
+{m}der Wechsler
 %%%%
 the Transmogrifier
-der Transmogrifizierer
+{m}der Transmogrifizierer
 %%%%
 the Alchemist
-der Alchemist
+{m}der Alchemist
 %%%%
 the Malleable
-der Verformbare
+{m}der Verformbare
 %%%%
 the Shapeless @Genus@
-der Gestaltlose
+{m}der Gestaltlose
 %%%%
 
 # Fire Magic
 %%%%
 the Firebug
-der Feuerteufel
+{m}der Feuerteufel
 %%%%
 the Arsonist
-der Brandstifter
+{m}der Brandstifter
 %%%%
 the Scorcher
-der Verschmorer
+{m}der Verschmorer
 %%%%
 the Pyromancer
-der Pyromant
+{m}der Pyromant
 %%%%
 the Infernalist
-der Infernalist
+{m}der Infernalist
 %%%%
 
 # Ice Magic
 %%%%
 the Chiller
-der Kühler
+{m}der Kühler
 %%%%
 the Frost Mage
-der Frostmagier
+{m}der Frostmagier
 %%%%
 the Gelid
-der Eiskalte
+{m}der Eiskalte
 %%%%
 the Cryomancer
-der Kryomant
+{m}der Kryomant
 %%%%
 the Englaciator
-der Vergletscherer
+{m}der Vergletscherer
 %%%%
 
 # Air Magic
 %%%%
 the Gusty
-der Böige
+{m}der Böige
 %%%%
 the Zephyrmancer
-der Zephyrmant
+{m}der Zephyrmant
 %%%%
 the Stormcaller
-der Sturmrufer
+{m}der Sturmrufer
 %%%%
 # duplicate (monster)
 #the Cloud Mage
 #
 %%%%
 the Meteorologist
-der Meteorologe
+{m}der Meteorologe
 %%%%
 
 # Earth Magic
 %%%%
 the Digger
-der Ausgräber
+{m}der Ausgräber
 %%%%
 the Geomancer
-der Geomant
+{m}der Geomant
 %%%%
 the Earth Mage
-der Erdmagier
+{m}der Erdmagier
 %%%%
 the Metallomancer
-der Metallomant
+{m}der Metallomant
 %%%%
 the Petrodigitator
-der Petrodigitator
+{m}der Petrodigitator
 %%%%
 
 # Poison Magic
 %%%%
 the Stinger
-der Stecher
+{m}der Stecher
 %%%%
 the Tainter
-der Besudler
+{m}der Besudler
 %%%%
 the Polluter
-der Verschmutzer
+{m}der Verschmutzer
 %%%%
 the Contaminator
-der Kontaminator
+{m}der Kontaminator
 %%%%
 the Envenomancer
-der Vergifter
+{m}der Vergifter
 %%%%
 
 # Invocations
 %%%%
 the Unbeliever
-der Ungläubige
+{m}der Ungläubige
 %%%%
 the Agnostic
-der Agnostiker
+{m}der Agnostiker
 %%%%
 the Dissident
-der Dissident
+{m}der Dissident
 %%%%
 the Heretic
-der Ketzer
+{m}der Ketzer
 %%%%
 # duplicate (Beogh title)
 #the Apostate
@@ -1231,153 +1231,153 @@ der Ketzer
 # Evocations
 %%%%
 the Charlatan
-der Scharlatan
+{m}der Scharlatan
 %%%%
 the Prestidigitator
-der Prestidigitator
+{m}der Prestidigitator
 %%%%
 the Fetichist
-der Fetischist
+{m}der Fetischist
 %%%%
 the Evocator
-der Evozierer
+{m}der Evozierer
 %%%%
 the Talismancer
-der Talismant
+{m}der Talismant
 %%%%
 
 # Unarmed Combat
 %%%%
 the Ruffian
-der Raufbold
+{m}der Raufbold
 %%%%
 the Grappler
-der Grapscher
+{m}der Grapscher
 %%%%
 the Brawler
-der Streithahn
+{m}der Streithahn
 %%%%
 the Wrestler
-der Ringkämpfer
+{m}der Ringkämpfer
 %%%%
 the Heavyweight Champion
-der Schwergewichtsmeister
+{m}der Schwergewichtsmeister
 %%%%
 the Cruiserweight Champion
-der Cruisergewichtsmeister
+{m}der Cruisergewichtsmeister
 %%%%
 the Middleweight Champion
-der Mittelgewichtsmeister
+{m}der Mittelgewichtsmeister
 %%%%
 the Lightweight Champion
-der Leichtgewichtsmeister
+{m}der Leichtgewichtsmeister
 %%%%
 the Featherweight Champion
-der Federgewichtsmeister
+{m}der Federgewichtsmeister
 %%%%
 the Flyweight Champion
-der Fliegengewichtsmeister
+{m}der Fliegengewichtsmeister
 %%%%
 # Djinni
 the Weightless Champion
-der Gewichtslose Meister
+{m}der Gewichtslose Meister
 %%%%
 # mummy
 the Pharaoh
-der Pharao
+{m}der Pharao
 %%%%
 
 # Unarmed (martial arts)
 %%%%
 the Insei
-der Insei
+{m}der Insei
 %%%%
 the Martial Artist
-der Kampfsportler
+{m}der Kampfsportler
 %%%%
 the Black Belt
-der Schwarzgurt
+{m}der Schwarzgurt
 %%%%
 the Sensei
-der Sensei
+{m}der Sensei
 %%%%
 the Grand Master
-der Großmeister
+{m}der Großmeister
 %%%%
 
 # Unarmed (tooth and claw)
 %%%%
 the Scratcher
-der Kratzer
+{m}der Kratzer
 %%%%
 the Gouger
-der Ausstecher
+{m}der Ausstecher
 %%%%
 the Ripper
-der Zerfetzer
+{m}der Zerfetzer
 %%%%
 the Eviscerator
-der Ausweider
+{m}der Ausweider
 %%%%
 the Sabretooth
-der Säbelzahn
+{m}der Säbelzahn
 %%%%
 
 # special cases
 %%%%
 the Adventurer
-der Abenteurer
+{m}der Abenteurer
 %%%%
 the Worldbinder
-der Weltenbinder
+{m}der Weltenbinder
 %%%%
 the Planerender
-der Ebenenzerreißer
+{m}der Ebenenzerreißer
 %%%%
 the Blademaster
-der Klingenmeister
+{m}der Klingenmeister
 %%%%
 the Blood Saint
-der Blutheilige
+{m}der Blutheilige
 %%%%
 the Master Archer
-der Meisterschütze
+{m}der Meisterschütze
 %%%%
 the Ogre Mage
-der Oger-Magier
+{m}der Oger-Magier
 %%%%
 la Petite Mort
 la Petite Mort
 %%%%
 the Swordfish
-der Schwertfisch
+{m}der Schwertfisch
 %%%%
 the Rolling Thunder
-der Rollende Donner
+{m}der Rollende Donner
 %%%%
 the Holy Roller
-der Heilige Roller
+{m}der Heilige Roller
 %%%%
 the Forbidden One
-der Verbotene
+{m}der Verbotene
 %%%%
 the Black Lotus
-der Schwarze Lotus
+{m}der Schwarze Lotus
 %%%%
 the Rockslime
-der Felsenschleim
+{m}der Felsenschleim
 %%%%
 the God-Hated
-der Gottverhasste
+{m}der Gottverhasste
 %%%%
 the Wallbreaker
-der Wandbrecher
+{m}der Wandbrecher
 %%%%
 the Highly Combustible
-der Leicht Entflammbare
+{m}der Leicht Entflammbare
 %%%%
 the Teletunneler
-der Teletunneler
+{m}der Teletunneler
 %%%%
 # vine stalker skilled in necromancy
 # The corpse flower is called Titanwurz in German, but then the joke is lost
@@ -1388,22 +1388,22 @@ die Leichenblume
 # draconian titles
 %%%%
 the Fire Dragon
-der Feuerdrache
+{m}der Feuerdrache
 %%%%
 the Ice Dragon
-der Eisdrache
+{m}der Eisdrache
 %%%%
 the Iron Dragon
-der Eisendrache
+{m}der Eisendrache
 %%%%
 the Storm Dragon
-der Sturmdrache
+{m}der Sturmdrache
 %%%%
 the Swamp Dragon
-der Sumpfdrache
+{m}der Sumpfdrache
 %%%%
 the Faerie Dragon
-der Feendrache
+{m}der Feendrache
 %%%%
 
 ##############################################
@@ -1415,47 +1415,47 @@ der Feendrache
 # Charms (removed in v0.26)
 %%%%
 the Charmwright
-der Zaubermacher
+{m}der Zaubermacher
 %%%%
 the Infuser
-der Einträufler
+{m}der Einträufler
 %%%%
 the Anointer
-der Einöler
+{m}der Einöler
 %%%%
 the Gracecrafter
-der Gnadenkünstler
+{m}der Gnadenkünstler
 %%%%
 the Miracle Worker
-der Wundertäter
+{m}der Wundertäter
 %%%%
 
 # Stabbing (removed in v0.13)
 %%%%
 the Miscreant
-der Schurke
+{m}der Schurke
 %%%%
 the Blackguard
-der Lump
+{m}der Lump
 %%%%
 the Backstabber
-der Hinterhältige
+{m}der Hinterhältige
 %%%%
 
 # Traps (removed in v0.13)
 %%%%
 the Scout
-der Pfadfinder
+{m}der Pfadfinder
 %%%%
 the Disarmer
-der Entschärfer
+{m}der Entschärfer
 %%%%
 the Vigilant
-der Wachsame
+{m}der Wachsame
 %%%%
 the Perceptive
-der Scharfsinnige
+{m}der Scharfsinnige
 %%%%
 the Dungeon Master
-der Kerkermeister
+{m}der Kerkermeister
 %%%%

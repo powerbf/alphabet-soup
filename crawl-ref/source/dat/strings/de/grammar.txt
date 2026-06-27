@@ -54,7 +54,7 @@ KEY:/pair of (?!quick blades)/pair of %s/
 
 # German
 # nominative singular
-/^(der|die|das) /$1 {adj-e}%s/
+/^((\{m\})?der|(\{f\})?die|(\{n\})?das) /$1 {adj-e}%s/
 # plural and genitive
 /^(\{pl\}die|\{f\}der|\{n\}des|\{m\}des|des) /$1 {adj-en}%s/
 # "pair of boots/gloves" (but not quick blades) needs a second adjective placeholder

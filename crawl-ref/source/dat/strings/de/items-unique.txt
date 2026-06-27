@@ -102,10 +102,10 @@ the pair of quick blades "Gyre" and "Gimble"
 das Paar Schnellklingen "Gyre" und "Gimble"
 %%%%
 the Wrath of Trog
-der Zorn von Trog
+{m}der Zorn von Trog
 %%%%
 the mace of Variability
-der Streitkolben der Variabilität
+{m}der Streitkolben der Variabilität
 %%%%
 the glaive of Prune
 die Gleve der Pflaume
@@ -114,13 +114,13 @@ the sword of Power
 das Schwert der Macht
 %%%%
 the staff of Olgreb
-der Stab von Olgreb
+{m}der Stab von Olgreb
 %%%%
 the staff of Wucad Mu
-der Stab von Wucad Mu
+{m}der Stab von Wucad Mu
 %%%%
 the Vampire's Tooth
-der Zahn des Vampirs
+{m}der Zahn des Vampirs
 %%%%
 the scythe of Curses
 die Sense der Flüche
@@ -135,7 +135,7 @@ the sword of Cerebov
 das Schwert von Cerebov
 %%%%
 the staff of Dispater
-der Stab von Dispater
+{m}der Stab von Dispater
 %%%%
 the sceptre of Asmodeus
 das Zepter von Asmodäus
@@ -147,19 +147,19 @@ the demon blade "Bloodbane"
 die Dämonenklinge "Blutfluch"
 %%%%
 the scimitar of Flaming Death
-der Krummsäbel des flammenden Todes
+{m}der Krummsäbel des flammenden Todes
 %%%%
 the eveningstar "Brilliance"
-der Abendstern "Brillanz"
+{m}der Abendstern "Brillanz"
 %%%%
 the demon blade "Leech"
 die Dämonenklinge "Blutegel"
 %%%%
 the dagger of Chilly Death
-der Dolch des kühlen Todes
+{m}der Dolch des kühlen Todes
 %%%%
 the dagger "Morg"
-der Dolch "Morg"
+{m}der Dolch "Morg"
 %%%%
 the scythe "Finisher"
 die Sense "Beender"
@@ -168,7 +168,7 @@ the sling "Punk"
 die Schleuder "Punk"
 %%%%
 the longbow "Zephyr"
-der Langbogen "Zephyr"
+{m}der Langbogen "Zephyr"
 %%%%
 the giant club "Skullcrusher"
 die Riesenkeule "Schädelbrecher"
@@ -186,25 +186,25 @@ the sword of the Doom Knight
 das Schwert des Verhängnisritters
 %%%%
 the morningstar "Eos"
-der Morgenstern "Eos"
+{m}der Morgenstern "Eos"
 %%%%
 the spear of the Botono
-der Speer des Botonos
+{m}der Speer des Botonos
 %%%%
 the trident of the Octopus King
-der Dreizack des Krakenkönigs
+{m}der Dreizack des Krakenkönigs
 %%%%
 the mithril axe "Arga"
 die Mithrilaxt "Arga"
 %%%%
 the Elemental Staff
-der Elementarstab
+{m}der Elementarstab
 %%%%
 the heavy crossbow "Sniper"
 die schwere Armbrust "Scharfschütze"
 %%%%
 the longbow "Piercer"
-der Langbogen "Stecher"
+{m}der Langbogen "Stecher"
 %%%%
 the blowgun of the Assassin
 das Blasrohr des Assassinen
@@ -219,7 +219,7 @@ the plutonium sword
 das Plutoniumschwert
 %%%%
 the great mace "Undeadhunter"
-der große Streitkolben "Untotenjäger"
+{m}der große Streitkolben "Untotenjäger"
 %%%%
 the whip "Snakebite"
 die Peitsche "Schlangenbiss"
@@ -228,37 +228,37 @@ the knife of Accuracy
 das Messer der Genauigkeit
 %%%%
 the Lehudib's crystal spear
-der Kristallspeer Lehudibs
+{m}der Kristallspeer Lehudibs
 %%%%
 the captain's cutlass
 das Entermesser des Kapitäns
 %%%%
 the storm bow
-der Sturmbogen
+{m}der Sturmbogen
 %%%%
 the tower shield of Ignorance
-der Turmschild der Ignoranz
+{m}der Turmschild der Ignoranz
 %%%%
 the robe of Augmentation
 das Gewand der Augmentation
 %%%%
 the cloak of the Thief
-der Umhang des Diebes
+{m}der Umhang des Diebes
 %%%%
 the tower shield "Bullseye"
-der Turmschild "Volltreffer"
+{m}der Turmschild "Volltreffer"
 %%%%
 the crown of Dyrovepreva
 die Krone von Dyrovepreva
 %%%%
 the hat of the Bear Spirit
-der Hut des Bärengeistes
+{m}der Hut des Bärengeistes
 %%%%
 the robe of Misfortune
 die Robe des Unglücks
 %%%%
 the cloak of Flash
-der Umhang von Flash
+{m}der Umhang von Flash
 %%%%
 the hood of the Assassin
 die Kapuze des Assassinen
@@ -276,7 +276,7 @@ the pair of gauntlets of War
 das Paar Panzerhandschuhe des Krieges
 %%%%
 the shield of Resistance
-der Schild der Resistenz
+{m}der Schild der Resistenz
 %%%%
 the robe of Folly
 das Gewand der Torheit
@@ -294,25 +294,25 @@ the scales of the Dragon King
 die Schuppen des Drachenkönigs
 %%%%
 the hat of the Alchemist
-der Hut des Alchemisten
+{m}der Hut des Alchemisten
 %%%%
 the pair of fencer's gloves
 das Paar Handschuhe des Fechters
 %%%%
 the cloak of Starlight
-der Umhang des Sternenlichts
+{m}der Umhang des Sternenlichts
 %%%%
 the ratskin cloak
-der Rattenfellumhang
+{m}der Rattenfellumhang
 %%%%
 the shield of the Gong
-der Schild des Gongs
+{m}der Schild des Gongs
 %%%%
 the amulet of the Air
 das Amulett der Luft
 %%%%
 the ring of Shadows
-der Ring der Schatten
+{m}der Ring der Schatten
 %%%%
 the amulet of Cekugob
 das Amulett von Cekugob
@@ -324,19 +324,19 @@ the necklace of Bloodlust
 die Kette des Blutrausches
 %%%%
 the ring of Phasing
-der Ring der Phase
+{m}der Ring der Phase
 %%%%
 the ring of Robustness
-der Ring der Robustheit
+{m}der Ring der Robustheit
 %%%%
 the ring of the Mage
-der Ring des Magiers
+{m}der Ring des Magiers
 %%%%
 the ring of the Hare
-der Ring des Hasen
+{m}der Ring des Hasen
 %%%%
 the ring of the Tortoise
-der Ring der Schildkröte
+{m}der Ring der Schildkröte
 %%%%
 the brooch of Shielding
 die Brosche der Abschirmung
@@ -345,7 +345,7 @@ the robe of Clouds
 die Robe der Wolken
 %%%%
 the hat of Pondering
-der Hut der Schwerfälligkeit
+{m}der Hut der Schwerfälligkeit
 %%%%
 the obsidian axe
 die Obsidianaxt
@@ -354,7 +354,7 @@ the lightning scales
 {pl}die Blitzschuppen
 %%%%
 the Black Knight's barding
-der Harnisch des schwarzen Ritters
+{m}der Harnisch des schwarzen Ritters
 %%%%
 the amulet of Vitality
 das Amulett der Vitalität
@@ -363,10 +363,10 @@ the autumn katana
 das Herbstkatana
 %%%%
 the shillelagh "Devastator"
-der Shillelagh "Verwüster"
+{m}der Shillelagh "Verwüster"
 %%%%
 the dragonskin cloak
-der Drachenhautumhang
+{m}der Drachenhautumhang
 %%%%
 the Axe of Woe
 die Axt des Leids
@@ -381,10 +381,10 @@ the pair of boots of the spider
 das Paar Stiefel der Spinne
 %%%%
 the dark maul
-der dunkle Kriegshammer
+{m}der dunkle Kriegshammer
 %%%%
 the hat of the High Council
-der Hut des Hohen Rates
+{m}der Hut des Hohen Rates
 %%%%
 the arc blade
 die Lichtbogenklinge
@@ -393,19 +393,19 @@ the demon whip "Spellbinder"
 die Dämonenpeitsche "Zauberbann"
 %%%%
 the lajatang of Order
-der Lajatang der Ordnung
+{m}der Lajatang der Ordnung
 %%%%
 the great mace "Firestarter"
-der große Streitkolben "Brandstifter"
+{m}der große Streitkolben "Brandstifter"
 %%%%
 the orange crystal plate armour
-der orange Kristallplattenpanzer
+{m}der orange Kristallplattenpanzer
 %%%%
 the Majin-Bo
-der Majin-Bo
+{m}der Majin-Bo
 %%%%
 the Maxwell's etheric cage
-der Ätherkäfig von Maxwell
+{m}der Ätherkäfig von Maxwell
 %%%%
 the crown of Eternal Torment
 die Krone der ewigen Peinigung
@@ -414,7 +414,7 @@ the robe of Vines
 das Gewand der Reben
 %%%%
 the Kryia's mail coat
-der Schuppenpanzer von Kryia
+{m}der Schuppenpanzer von Kryia
 %%%%
 the frozen axe "Frostbite"
 die gefrorene Axt "Erfrierung"
@@ -423,7 +423,7 @@ the armour of Talos
 die Rüstung von Talos
 %%%%
 the warlock's mirror
-der Spiegel des Hexenmeisters
+{m}der Spiegel des Hexenmeisters
 %%%%
 the amulet of invisibility
 das Amulett der Unsichtbarkeit
@@ -432,10 +432,10 @@ the Maxwell's thermic engine
 das thermische Gerät von Maxwell
 %%%%
 the demon trident "Rift"
-der Dämonendreizack "Riss"
+{m}der Dämonendreizack "Riss"
 %%%%
 the staff of Battle
-der Stab der Schlacht
+{m}der Stab der Schlacht
 %%%%
 the Cigotuvi's embrace
 die Umarmung von Cigotuvi
@@ -448,7 +448,7 @@ das Horn von Geryon
 %%%%
 # note: technically not unique - there are 8 of them
 the ring of the Octopus King
-der Ring des Krakenkönigs
+{m}der Ring des Krakenkönigs
 %%%%
 
 #################################
@@ -464,7 +464,7 @@ das große, flammenförmige Schwert
 %%%%
 # staff of Dispater
 the golden staff
-der goldene Stab
+{m}der goldene Stab
 %%%%
 # sceptre of Asmodeus
 the ruby sceptre
@@ -472,7 +472,7 @@ das rubinbesetzte Zepter
 %%%%
 # dragonskin cloak
 the opalescent scaly cloak
-der schillernde schuppige Umhang
+{m}der schillernde schuppige Umhang
 %%%%
 
 # the rest just look like what they are
@@ -484,7 +484,7 @@ der schillernde schuppige Umhang
 %%%%
 # sword of Cerebov
 the flamberge
-der Flamberg
+{m}der Flamberg
 %%%%
 # heavy crossbow "Sniper"
 the heavy crossbow
@@ -508,11 +508,11 @@ das Katana
 %%%%
 # shillelagh "Devastator"
 the shillelagh
-der Shillelagh
+{m}der Shillelagh
 %%%%
 # dark maul
 the maul
-der Kriegshammer
+{m}der Kriegshammer
 %%%%
 # "Gyre" and "Gimble"
 the pair of quick blades

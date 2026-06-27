@@ -14,19 +14,19 @@ the weapon
 die Waffe
 %%%%
 the club
-der Knüppel
+{m}der Knüppel
 %%%%
 the whip
 die Peitsche
 %%%%
 the mace
-der Streitkolben
+{m}der Streitkolben
 %%%%
 the flail
-der Flegel
+{m}der Flegel
 %%%%
 the morningstar
-der Morgenstern
+{m}der Morgenstern
 %%%%
 the demon whip
 die Dämonenpeitsche
@@ -35,13 +35,13 @@ the sacred scourge
 die {adj-e}%heilige Geißel
 %%%%
 the dire flail
-der Schreckensflegel
+{m}der Schreckensflegel
 %%%%
 the eveningstar
-der Abendstern
+{m}der Abendstern
 %%%%
 the great mace
-der große Streitkolben
+{m}der große Streitkolben
 %%%%
 the giant club
 die Riesenkeule
@@ -50,7 +50,7 @@ the giant spiked club
 die riesige Stachelkeule
 %%%%
 the dagger
-der Dolch
+{m}der Dolch
 %%%%
 the quick blade
 die Schnellklinge
@@ -68,7 +68,7 @@ the long sword
 das Langschwert
 %%%%
 the scimitar
-der Krummsäbel
+{m}der Krummsäbel
 %%%%
 the demon blade
 die Dämonenklinge
@@ -101,10 +101,10 @@ the executioner's axe
 die Henkersaxt
 %%%%
 the spear
-der Speer
+{m}der Speer
 %%%%
 the trident
-der Dreizack
+{m}der Dreizack
 %%%%
 the halberd
 die Hellebarde
@@ -113,10 +113,10 @@ the scythe
 die Sense
 %%%%
 the demon trident
-der Dämonendreizack
+{m}der Dämonendreizack
 %%%%
 the trishula
-der Trishula
+{m}der Trishula
 %%%%
 the glaive
 die Gleve
@@ -125,10 +125,10 @@ the bardiche
 die Bardiche
 %%%%
 the quarterstaff
-der Kampfstab
+{m}der Kampfstab
 %%%%
 the lajatang
-der Lajatang
+{m}der Lajatang
 %%%%
 
 #################################
@@ -140,7 +140,7 @@ the hunting sling
 die Schleuder
 %%%%
 the fustibalus
-der Fustibalus
+{m}der Fustibalus
 %%%%
 the hand crossbow
 die Handarmbrust
@@ -152,10 +152,10 @@ the triple crossbow
 die Dreifacharmbrust
 %%%%
 the shortbow
-der Kurzbogen
+{m}der Kurzbogen
 %%%%
 the longbow
-der Langbogen
+{m}der Langbogen
 %%%%
 
 #################################
@@ -164,53 +164,53 @@ der Langbogen
 
 %%%%
 the arrow
-der Pfeil
+{m}der Pfeil
 %%%%
 the bolt
-der Bolzen
+{m}der Bolzen
 %%%%
 # fired by artefact crossbow "Damnation"
 the damnation bolt
-der Verdammnisbolzen
+{m}der Verdammnisbolzen
 %%%%
 the dart
-der Wurfpfeil
+{m}der Wurfpfeil
 %%%%
 the poisoned dart
-der vergiftete Wurfpfeil
+{m}der vergiftete Wurfpfeil
 %%%%
 the atropa-tipped dart
-der Atropa-Wurfpfeil
+{m}der Atropa-Wurfpfeil
 %%%%
 the curare-tipped dart
-der Curare-Wurfpfeil
+{m}der Curare-Wurfpfeil
 %%%%
 the datura-tipped dart
-der Datura-Wurfpfeil
+{m}der Datura-Wurfpfeil
 %%%%
 the stone
-der Stein
+{m}der Stein
 %%%%
 the large rock
-der große Felsbrocken
+{m}der große Felsbrocken
 %%%%
 the sling bullet
 die Schleuderkugel
 %%%%
 the javelin
-der Wurfspeer
+{m}der Wurfspeer
 %%%%
 the silver javelin
-der Silberwurfspeer
+{m}der Silberwurfspeer
 %%%%
 the throwing net
 das Wurfnetz
 %%%%
 the boomerang
-der Bumerang
+{m}der Bumerang
 %%%%
 the silver boomerang
-der Silberbumerang
+{m}der Silberbumerang
 %%%%
 
 #################################
@@ -228,13 +228,13 @@ the leather armour
 die Lederrüstung
 %%%%
 the ring mail
-der Ringpanzer
+{m}der Ringpanzer
 %%%%
 the scale mail
-der Schuppenpanzer
+{m}der Schuppenpanzer
 %%%%
 the chain mail
-der Kettenpanzer
+{m}der Kettenpanzer
 %%%%
 the plate armour
 die Plattenrüstung
@@ -246,34 +246,34 @@ the troll leather armour
 die Trolllederrüstung
 %%%%
 the cloak
-der Umhang
+{m}der Umhang
 %%%%
 the scarf
-der Schal
+{m}der Schal
 %%%%
 the pair of gloves
 das Paar Handschuhe
 %%%%
 the helmet
-der Helm
+{m}der Helm
 %%%%
 the hat
-der Hut
+{m}der Hut
 %%%%
 the pair of boots
 das Paar Stiefel
 %%%%
 the barding
-der Harnisch
+{m}der Harnisch
 %%%%
 the buckler
-der Buckler
+{m}der Buckler
 %%%%
 the kite shield
-der Drachenschild
+{m}der Drachenschild
 %%%%
 the tower shield
-der Turmschild
+{m}der Turmschild
 %%%%
 the steam dragon scales
 {pl}die Dampfdrachenschuppen
@@ -321,7 +321,7 @@ die cremefarbene Perlenrobe
 # generic
 %%%%
 the ring
-der Ring
+{m}der Ring
 %%%%
 
 # identified ring names are constructed with the generic and a suffix from item-suffixes.txt
@@ -331,115 +331,115 @@ der Ring
 # this is combined list from item-name.cc and descript/randname.txt
 %%%%
 the agate ring
-der Achatring
+{m}der Achatring
 %%%%
 the amber ring
-der Bernsteinring
+{m}der Bernsteinring
 %%%%
 the bone ring
-der Knochenring
+{m}der Knochenring
 %%%%
 the brass ring
-der Messingring
+{m}der Messingring
 %%%%
 the bronze ring
-der Bronzering
+{m}der Bronzering
 %%%%
 the cabochon ring
-der Cabochonring
+{m}der Cabochonring
 %%%%
 the copper ring
-der Kupferring
+{m}der Kupferring
 %%%%
 the coral ring
-der Korallenring
+{m}der Korallenring
 %%%%
 the diamond ring
-der Diamantring
+{m}der Diamantring
 %%%%
 the emerald ring
-der Smaragdring
+{m}der Smaragdring
 %%%%
 the garnet ring
-der Granatring
+{m}der Granatring
 %%%%
 the gilded ring
-der vergoldete Ring
+{m}der vergoldete Ring
 %%%%
 the glass ring
-der Glasring
+{m}der Glasring
 %%%%
 the gossamer ring
-der Spinnfadenring
+{m}der Spinnfadenring
 %%%%
 the golden ring
-der Goldring
+{m}der Goldring
 %%%%
 the granite ring
-der Granitring
+{m}der Granitring
 %%%%
 the iron ring
-der Eisenring
+{m}der Eisenring
 %%%%
 the ivory ring
-der Elfenbeinring
+{m}der Elfenbeinring
 %%%%
 the jade ring
-der Jadering
+{m}der Jadering
 %%%%
 the lapis lazuli ring
-der Lapislazuliring
+{m}der Lapislazuliring
 %%%%
 the lead ring
-der Bleiring
+{m}der Bleiring
 %%%%
 the marble ring
-der Marmorring
+{m}der Marmorring
 %%%%
 the moonstone ring
-der Mondsteinring
+{m}der Mondsteinring
 %%%%
 the onyx ring
-der Onyxring
+{m}der Onyxring
 %%%%
 the opal ring
-der Opalring
+{m}der Opalring
 %%%%
 the pearl ring
-der Perlenring
+{m}der Perlenring
 %%%%
 the peridot ring
-der Peridotring
+{m}der Peridotring
 %%%%
 the pewter ring
-der Hartzinnring
+{m}der Hartzinnring
 %%%%
 the platinum ring
-der Platinring
+{m}der Platinring
 %%%%
 the ruby ring
-der Rubinring
+{m}der Rubinring
 %%%%
 the sapphire ring
-der Saphirring
+{m}der Saphirring
 %%%%
 the silver ring
-der Silberring
+{m}der Silberring
 %%%%
 the steel ring
-der Stahlring
+{m}der Stahlring
 %%%%
 the tin ring
-der Zinnring
+{m}der Zinnring
 %%%%
 the tourmaline ring
-der Turmalinring
+{m}der Turmalinring
 %%%%
 the turquoise ring
-der Türkisring
+{m}der Türkisring
 %%%%
 the wooden ring
-der Holzring
+{m}der Holzring
 %%%%
 
 #################################
@@ -578,78 +578,78 @@ das Zinnamulett
 # generic
 %%%%
 the wand
-der Zauberstab
+{m}der Zauberstab
 %%%%
 
 # identified
 %%%%
 the wand of flame
-der Zauberstab der Flammen
+{m}der Zauberstab der Flammen
 %%%%
 the wand of paralysis
-der Zauberstab der Paralyse
+{m}der Zauberstab der Paralyse
 %%%%
 the wand of digging
-der Zauberstab des Grabens
+{m}der Zauberstab des Grabens
 %%%%
 the wand of iceblast
-der Zauberstab des Eisblitzes
+{m}der Zauberstab des Eisblitzes
 %%%%
 the wand of polymorph
-der Zauberstab der Verwandlung
+{m}der Zauberstab der Verwandlung
 %%%%
 the wand of charming
-der Zauberstab der Verzauberung
+{m}der Zauberstab der Verzauberung
 %%%%
 the wand of acid
-der Zauberstab der Säure
+{m}der Zauberstab der Säure
 %%%%
 the wand of mindburst
-der Zauberstab des Kopfzerplatzens
+{m}der Zauberstab des Kopfzerplatzens
 %%%%
 # obsolete item (can occur if player loads a saved game from an older version)
 the wand of removedness
-der Zauberstab der Obsoleszenz
+{m}der Zauberstab der Obsoleszenz
 %%%%
 
 # unidentified amulets can have two adjectives
 # the one closest to the noun is (usually) a material, which in German is usually combined with the noun
 %%%%
 the iron wand
-der Eisenzauberstab
+{m}der Eisenzauberstab
 %%%%
 the brass wand
-der Messingzauberstab
+{m}der Messingzauberstab
 %%%%
 the bone wand
-der Knochenzauberstab
+{m}der Knochenzauberstab
 %%%%
 the wooden wand
-der Holzzauberstab
+{m}der Holzzauberstab
 %%%%
 the copper wand
-der Kupferzauberstab
+{m}der Kupferzauberstab
 %%%%
 the gold wand
-der Goldzauberstab
+{m}der Goldzauberstab
 %%%%
 the silver wand
-der Silberzauberstab
+{m}der Silberzauberstab
 %%%%
 the bronze wand
-der Bronzezauberstab
+{m}der Bronzezauberstab
 %%%%
 the ivory wand
-der Elfenbeinzauberstab
+{m}der Elfenbeinzauberstab
 %%%%
 the glass wand
-der Glaszauberstab
+{m}der Glaszauberstab
 %%%%
 the lead wand
-der Bleizauberstab
+{m}der Bleizauberstab
 %%%%
 the fluorescent wand
-der fluoreszierende Zauberstab
+{m}der fluoreszierende Zauberstab
 %%%%
 
 #################################
@@ -739,61 +739,61 @@ die Schriftrolle der Obsoleszenz
 # generic
 %%%%
 the potion
-der Zaubertrank
+{m}der Zaubertrank
 %%%%
 
 # identified
 %%%%
 the potion of ambrosia
-der Trank der Ambrosia
+{m}der Trank der Ambrosia
 %%%%
 the potion of attraction
-der Trank der Anziehung
+{m}der Trank der Anziehung
 %%%%
 the potion of berserk rage
-der Trank der Berserkerwut
+{m}der Trank der Berserkerwut
 %%%%
 the potion of brilliance
-der Trank der Brillanz
+{m}der Trank der Brillanz
 %%%%
 the potion of cancellation
-der Trank der Aufhebung
+{m}der Trank der Aufhebung
 %%%%
 the potion of curing
-der Trank des Gegenmittels
+{m}der Trank des Gegenmittels
 %%%%
 the potion of degeneration
-der Trank der Degeneration
+{m}der Trank der Degeneration
 %%%%
 the potion of experience
-der Trank der Erfahrung
+{m}der Trank der Erfahrung
 %%%%
 the potion of flight
-der Trank des Fliegens
+{m}der Trank des Fliegens
 %%%%
 the potion of haste
-der Trank der Eile
+{m}der Trank der Eile
 %%%%
 the potion of heal wounds
-der Trank der Wundheilung
+{m}der Trank der Wundheilung
 %%%%
 the potion of invisibility
-der Trank der Unsichtbarkeit
+{m}der Trank der Unsichtbarkeit
 %%%%
 the potion of lignification
-der Trank der Lignifizierung
+{m}der Trank der Lignifizierung
 %%%%
 the potion of magic
-der Trank der Magie
+{m}der Trank der Magie
 %%%%
 the potion of might
-der Trank der Macht
+{m}der Trank der Macht
 %%%%
 the potion of mutation
-der Trank der Mutation
+{m}der Trank der Mutation
 %%%%
 the potion of resistance
-der Trank der Resistenz
+{m}der Trank der Resistenz
 %%%%
 
 # unidentified potions can have 1 or 2 adjectives
@@ -805,19 +805,19 @@ der Trank der Resistenz
 # meanings, but that's not necessarily the case in other languages.
 %%%%
 the amethyst potion
-der amethystfarbene Zaubertrank
+{m}der amethystfarbene Zaubertrank
 %%%%
 the emerald potion
-der smaragdgrüne Zaubertrank
+{m}der smaragdgrüne Zaubertrank
 %%%%
 the ruby potion
-der rubinrote Zaubertrank
+{m}der rubinrote Zaubertrank
 %%%%
 the sapphire potion
-der saphirblaue Zaubertrank
+{m}der saphirblaue Zaubertrank
 %%%%
 the golden potion
-der goldene Zaubertrank
+{m}der goldene Zaubertrank
 %%%%
 
 # other colours are defined in adjectives.txt
@@ -829,35 +829,35 @@ der goldene Zaubertrank
 # generic
 %%%%
 the staff
-der Stab
+{m}der Stab
 %%%%
 
 # identified
 %%%%
 the staff of fire
-der Stab des Feuers
+{m}der Stab des Feuers
 %%%%
 the staff of cold
-der Stab der Kälte
+{m}der Stab der Kälte
 %%%%
 the staff of poison
-der Stab des Giftes
+{m}der Stab des Giftes
 %%%%
 the staff of death
-der Stab des Todes
+{m}der Stab des Todes
 %%%%
 the staff of conjuration
-der Stab der Konjuration
+{m}der Stab der Konjuration
 %%%%
 the staff of air
-der Stab der Luft
+{m}der Stab der Luft
 %%%%
 the staff of earth
-der Stab der Erde
+{m}der Stab der Erde
 %%%%
 # obsolete item (can occur if player loads a saved game from an older version)
 the staff of removedness
-der Stab der Obsoleszenz
+{m}der Stab der Obsoleszenz
 %%%%
 
 #################################
@@ -878,13 +878,13 @@ the box of beasts
 die Kiste der Bestien
 %%%%
 the lightning rod
-der Blitzfänger
+{m}der Blitzfänger
 %%%%
 the phial of floods
 die Phiole der Fluten
 %%%%
 the phantom mirror
-der Phantomspiegel
+{m}der Phantomspiegel
 %%%%
 the figurine of a ziggurat
 die Figur einer Zikkurat
@@ -899,7 +899,7 @@ the tin of tremorstones
 die Dose Erdbebensteine
 %%%%
 the quad damage
-der Vierfachschaden
+{m}der Vierfachschaden
 %%%%
 
 #################################

@@ -21,23 +21,23 @@
 %%%%
 # probably a reference to one of several Christian saints named Menas
 the Mennas
-der Mennas
+{m}der Mennas
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 # a male centaur in Greek mythology
 the Nessos
-der Nessos
+{m}der Nessos
 %%%%
 the Chuck
-der Chuck
+{m}der Chuck
 %%%%
 # a cyclops in Greek mythology
 the Polyphemus
-der Polyphem
+{m}der Polyphem
 %%%%
 # a giant/titan in Greek mythology
 the Antaeus
-der Antaeus
+{m}der Antaeus
 %%%%
 # a Mesopotamian goddess
 the Tiamat
@@ -59,20 +59,20 @@ the Robin
 die Robin
 %%%%
 the Grum
-der Grum
+{m}der Grum
 %%%%
 the Duvessa
 die Duvessa
 %%%%
 the Dowan
-der Dowan
+{m}der Dowan
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Fannar
-der Fannar
+{m}der Fannar
 %%%%
 the Jorgrun
-der Jorgrun
+{m}der Jorgrun
 %%%%
 the Natasha
 die Natascha
@@ -83,7 +83,7 @@ die Arachne
 %%%%
 # the name of the minotaur in Greek mythology
 the Asterion
-der Asterion
+{m}der Asterion
 %%%%
 the Agnes
 die Agnes
@@ -96,18 +96,18 @@ the Sonja
 die Sonja
 %%%%
 the Pikel
-der Pikel
+{m}der Pikel
 %%%%
 the Boris
-der Boris
+{m}der Boris
 %%%%
 # the original Egyptian name of the pharaoh also known by the Greek name Mykerinos
 the Menkaure
-der Menkaure
+{m}der Menkaure
 %%%%
 # the original Egyptian name of the pharaoh usually known by the Greek name Cheops
 the Khufu
-der Khufu
+{m}der Khufu
 %%%%
 the Ilsuiw
 die Ilsuiw
@@ -126,18 +126,18 @@ die Nergalle
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Saint Roka
-der Sankt Roka
+{m}der Sankt Roka
 %%%%
 the Sojobo
 die Sojobo
 %%%%
 # an angel in Islam
 the Azrael
-der Azrael
+{m}der Azrael
 %%%%
 # a demon in Buddhism
 the Mara
-der Mara
+{m}der Mara
 %%%%
 the Aizul
 die Aizul
@@ -146,22 +146,22 @@ the Snorg
 die Snorg
 %%%%
 the Purgy
-der Purgy
+{m}der Purgy
 %%%%
 the Jory
-der Jory
+{m}der Jory
 %%%%
 the Gastronok
-der Gastronok
+{m}der Gastronok
 %%%%
 the Nellie
 die Nellie
 %%%%
 the Murray
-der Murray
+{m}der Murray
 %%%%
 the Ignacio
-der Ignacio
+{m}der Ignacio
 %%%%
 the Grinder
 die Grinder
@@ -170,27 +170,27 @@ the Roxanne
 die Roxanne
 %%%%
 the Terence
-der Terence
+{m}der Terence
 %%%%
 the Jessica
 die Jessica
 %%%%
 # a hero in Norse mythology
 the Sigmund
-der Sigmund
+{m}der Sigmund
 %%%%
 the Edmund
-der Edmund
+{m}der Edmund
 %%%%
 # named after the Greek goddess of the soul
 the Psyche
 die Psyche
 %%%%
 the Donald
-der Donald
+{m}der Donald
 %%%%
 the Joseph
-der Joseph
+{m}der Joseph
 %%%%
 the Erica
 die Erica
@@ -199,7 +199,7 @@ the Josephine
 die Josephine
 %%%%
 the Harold
-der Harold
+{m}der Harold
 %%%%
 the Louise
 die Louise
@@ -208,14 +208,14 @@ the Frances
 die Frances
 %%%%
 the Rupert
-der Rupert
+{m}der Rupert
 %%%%
 # the original Greek name of the minor goddess usually known as Circe
 the Kirke
 die Kirke
 %%%%
 the Frederick
-der Frederick
+{m}der Frederick
 %%%%
 the Margery
 die Margery
@@ -224,62 +224,62 @@ the Maggie
 die Maggie
 %%%%
 the Eustachio
-der Eustachio
+{m}der Eustachio
 %%%%
 the Maurice
-der Maurice
+{m}der Maurice
 %%%%
 # Nikola Tesla
 the Nikola
-der Nikola
+{m}der Nikola
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Mnoleg
-der Mnoleg
+{m}der Mnoleg
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Lom Lobon
-der Lom Lobon
+{m}der Lom Lobon
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Cerebov
-der Cerebov
+{m}der Cerebov
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Gloorx Vloq
-der Gloorx Vloq
+{m}der Gloorx Vloq
 %%%%
 # from Greek mythology
 the Geryon
-der Geryon
+{m}der Geryon
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 # Roman god of the underworld
 the Dispater
-der Dispater
+{m}der Dispater
 %%%%
 # Greek name of a demon in Judaism/Christainity
 the Asmodeus
-der Asmodäus
+{m}der Asmodäus
 %%%%
 # a Mesopotamian goddess
 the Ereshkigal
 die Ereshkigal
 %%%%
 the Prince Ribbit
-der Prinz Quak
+{m}der Prinz Quak
 %%%%
 the Crazy Yiuf
-der Verrückte Yiuf
+{m}der Verrückte Yiuf
 %%%%
 the Enchantress
 die Zauberin
 %%%%
 the Blork the orc
-der Blork der Ork
+{m}der Blork der Ork
 %%%%
 the Blork
-der Blork
+{m}der Blork
 %%%%
 # a play on words - boss of the jellies in DCSS, and a substance created by bees
 the Royal Jelly
@@ -303,7 +303,7 @@ die Statue von Wucad Mu
 
 %%%%
 the @name@'s ghost
-der Geist von @name@
+{m}der Geist von @name@
 %%%%
 the @name@'s illusion
 die Illusion von @name@

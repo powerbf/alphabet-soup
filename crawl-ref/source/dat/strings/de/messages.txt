@@ -8275,7 +8275,7 @@ the water
 das Wasser
 %%%%
 the ooze
-der Schleim
+{m}der Schleim
 %%%%
 %s engulfs you in water!
 %s überflutet dich!
@@ -10071,7 +10071,7 @@ whispers to @foe@
 flüstert {dat}@foe@ zu
 %%%%
 the ground
-der Boden
+{m}der Boden
 %%%%
 # note: Used when a monster is blown up. Both parameters are monsters (e.g. "the orc", "Sigmund").
 %s is hit by a flying piece of %s!
@@ -11997,7 +11997,7 @@ Du wirst durchsichtiger, aber das Leuchten {gen}%s verhindert, dass du völlig u
 %%%%
 # note: The following are all causes of glowing to plug into the above messages
 the halo
-der Heiligenschein
+{m}der Heiligenschein
 %%%%
 your halo
 dein Heiligenschein
@@ -14164,10 +14164,10 @@ the petrified wood
 das versteinerte Holz
 %%%%
 the stone door frame
-der steinerne Türrahmen
+{m}der steinerne Türrahmen
 %%%%
 the stone arch
-der Steinbogen
+{m}der Steinbogen
 %%%%
 You can't deconstruct that!
 Das kannst du nicht dekonstruieren!
@@ -15318,7 +15318,7 @@ A mana viper appears with a sibilant hiss.
 Eine Manaviper erscheint mit einem Zischen.
 %%%%
 the rage of %s
-der Zorn {gen}%s
+{m}der Zorn {gen}%s
 %%%%
 You are momentarily dazzled by a brilliant light.
 Du wirst für einen Moment von einem strahlenden Licht geblendet.
