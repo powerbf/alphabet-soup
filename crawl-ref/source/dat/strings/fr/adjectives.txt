@@ -1000,7 +1000,7 @@ brun simple
 %%%%
 # no, this is not a mistake - water not ice
 "water elementalist "
-"d' élémentaliste d'eau"
+" d'élémentaliste d'eau"
 %%%%
 "earth elementalist "
 " d'élémentaliste de terre"
