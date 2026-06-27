@@ -441,6 +441,7 @@ static string _localise_counted_string(const string& context, const string& sing
     string result;
     result = cnxlate(context, singular, plural, count, false);
     result = replace_first(result, "%d", to_string(count));
+    result = _shift_context(result);
     return result;
 }
 
