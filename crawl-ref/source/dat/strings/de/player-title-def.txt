@@ -92,7 +92,7 @@ the Dealer of Despair
 {m}der Händler der Verzweiflung
 %%%%
 the Black Sun
-die Schwarze Sonne
+{f}die Schwarze Sonne
 %%%%
 the Lord of Darkness
 {m}der Herr der Finsternis
@@ -156,7 +156,7 @@ the Warlock
 {m}der Hexenmeister
 %%%%
 the Luminary of Lethal Lore
-die Koryphäe der tödlichen Kunde
+{f}die Koryphäe der tödlichen Kunde
 %%%%
 
 # Okawaru
@@ -192,13 +192,13 @@ the Orderly
 {m}der Ordentliche
 %%%%
 the Spawn of Chaos
-die Ausgeburt des Chaos
+{f}die Ausgeburt des Chaos
 %%%%
 the Disciple of Destruction
 {m}der Jünger der Zerstörung
 %%%%
 the Fanfare of Bloodshed
-die Fanfare des Blutvergießens
+{f}die Fanfare des Blutvergießens
 %%%%
 the Fiendish
 {m}der Teuflische
@@ -295,7 +295,7 @@ the Cardsharp
 {m}der Falschspieler
 %%%%
 the Hand of Fortune
-die Hand des Glücks
+{f}die Hand des Glücks
 %%%%
 
 # Elyvilon
@@ -396,7 +396,7 @@ the Jelly
 {n}das Gelee
 %%%%
 the Slime Creature
-die Schleimkreatur
+{f}die Schleimkreatur
 %%%%
 the Dissolving @Genus@
 # discard genus to avoid gender issues
@@ -435,7 +435,7 @@ the Green Death
 {m}der Grüne Tod
 %%%%
 the Force of Nature
-die Kraft der Natur
+{f}die Kraft der Natur
 %%%%
 
 # Cheibriados
@@ -511,10 +511,10 @@ the Umbral
 {m}der Umbrale
 %%%%
 the Hand of Shadow
-die Hand des Schattens
+{f}die Hand des Schattens
 %%%%
 the Eternal Night
-die Ewige Nacht
+{f}die Ewige Nacht
 %%%%
 
 # Gozag
@@ -562,7 +562,7 @@ the Eye of the Storm
 {n}das Auge des Sturms
 %%%%
 the @Adj@ Catastrophe
-die {adj-e}@Adj@ Katastrophe
+{f}die {adj-e}@Adj@ Katastrophe
 %%%%
 the @Adj@ Cataclysm
 {m}der {adj-e}@Adj@ Kataklysmus
@@ -682,7 +682,7 @@ the Unforgettable
 # Wu Jian
 %%%%
 the Wooden Rat
-die Hölzerne Ratte
+{f}die Hölzerne Ratte
 %%%%
 the Young Dog
 {m}der Junge Hund
@@ -697,10 +697,10 @@ the Young Dragon
 {m}der Junge Drache
 %%%%
 the Red Sash
-die Rote Schärpe
+{f}die Rote Schärpe
 %%%%
 the Golden Sash
-die Goldene Schärpe
+{f}die Goldene Schärpe
 %%%%
 the Sifu
 {m}der Sifu
@@ -760,7 +760,7 @@ the Fencer
 {m}der Fechter
 %%%%
 the @Adj@ Blade
-die {adj-e}@Adj@ Klinge
+{f}die {adj-e}@Adj@ Klinge
 %%%%
 the Swordmaster
 {m}der Schwertmeister
@@ -855,7 +855,7 @@ the Whirler
 {m}der Wirbler
 %%%%
 the Slingshot
-die Schleuder
+{f}die Schleuder
 %%%%
 the @Adj@ Catapult
 {n}das {adj-e}@Adj@ Katapult
@@ -894,7 +894,7 @@ the Sniper
 {m}der Heckenschütze
 %%%%
 the @Adj@ Arbalest
-die {adj-e}@Adj@ Arbaleste
+{f}die {adj-e}@Adj@ Arbaleste
 %%%%
 
 # Throwing
@@ -912,7 +912,7 @@ the Hawkeye
 {m}der Scharfsichtige
 %%%%
 the @Adj@ Ballista
-die {adj-e}@Adj@ Ballista
+{f}die {adj-e}@Adj@ Ballista
 %%%%
 
 # Armour
@@ -924,7 +924,7 @@ the Protected
 {m}der Geschützte
 %%%%
 the Tortoise
-die Schildkröte
+{f}die Schildkröte
 %%%%
 the Impregnable
 {m}der Unbezwingbare
@@ -984,7 +984,7 @@ the Hoplite
 {m}der Hoplit
 %%%%
 the @Adj@ Barricade
-die {adj-e}@Adj@ Barrikade
+{f}die {adj-e}@Adj@ Barrikade
 %%%%
 
 # Spellcasting
@@ -1382,7 +1382,7 @@ the Teletunneler
 # vine stalker skilled in necromancy
 # The corpse flower is called Titanwurz in German, but then the joke is lost
 the Corpseflower
-die Leichenblume
+{f}die Leichenblume
 %%%%
 
 # draconian titles

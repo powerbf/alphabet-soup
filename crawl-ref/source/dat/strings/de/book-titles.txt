@@ -275,7 +275,7 @@ the Handbook of @book_magic@
 {n}das Handbuch {gen}@book_magic@
 %%%%
 the Incunabulum of @book_magic@
-die Inkunabel {gen}@book_magic@
+{f}die Inkunabel {gen}@book_magic@
 %%%%
 the Papyrus of @book_magic@
 {m}der Papyrus {gen}@book_magic@
@@ -290,7 +290,7 @@ the Collected Works on @book_magic@
 {pl}die gesammelten Werke über {acc}@book_magic@
 %%%%
 the Disquisition on @book_magic@
-die Abhandlung über {acc}@book_magic@
+{f}die Abhandlung über {acc}@book_magic@
 %%%%
 the Reference Book on @book_magic@
 {n}das Nachschlagewerk über {acc}@book_magic@
@@ -1208,7 +1208,7 @@ the %sVolcanoes
 {adj-e}die %sVulkane
 %%%%
 the %sBlaze
-die {adj-e}%sFlamme
+{f}die {adj-e}%sFlamme
 %%%%
 %sIgnition
 {adj-e}%sZündung
@@ -1268,7 +1268,7 @@ the %sGlacier
 {m}der {adj-e}%sGletscher
 %%%%
 the %sFrostbite
-die {adj-e}%sErfrierung
+{f}die {adj-e}%sErfrierung
 %%%%
 
 # Transmutation
@@ -1334,13 +1334,13 @@ die {adj-e}%sErfrierung
 {adj-e}%sSchöpfung
 %%%%
 the %sEntourage
-die {adj-e}%sEntourage
+{f}die {adj-e}%sEntourage
 %%%%
 %sCompanions
 {adj-e}%sGefährten
 %%%%
 the %sEscort
-die {adj-e}%sEskorte
+{f}die {adj-e}%sEskorte
 %%%%
 %sIllusion
 {adj-e}%sIllusion
@@ -1370,7 +1370,7 @@ the %sCompass
 {m}der {adj-e}%sKompass
 %%%%
 the %sVoyage
-die {adj-e}%sReise
+{f}die {adj-e}%sReise
 %%%%
 
 # Poison

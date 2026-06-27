@@ -82,10 +82,10 @@ the Elixir
 {n}das Elixier
 %%%%
 the Stairs
-die Treppe
+{f}die Treppe
 %%%%
 the Tomb
-die Gruft
+{f}die Gruft
 %%%%
 Wild Magic
 Wilde Magie
@@ -103,13 +103,13 @@ the Swarm
 {m}der Schwarm
 %%%%
 the Rangers
-die Waldläufer
+{f}die Waldläufer
 %%%%
 Vitriol
 Vitriol
 %%%%
 the Cloud
-die Wolke
+{f}die Wolke
 %%%%
 the Storm
 {m}der Sturm
@@ -124,10 +124,10 @@ the Swine
 {n}das Schwein
 %%%%
 the Orb
-die Kugel
+{f}die Kugel
 %%%%
 the Illusion
-die Illusion
+{f}die Illusion
 %%%%
 Degeneration
 Degeneration

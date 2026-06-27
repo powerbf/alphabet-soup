@@ -41,28 +41,28 @@ the Antaeus
 %%%%
 # a Mesopotamian goddess
 the Tiamat
-die Tiamat
+{f}die Tiamat
 %%%%
 # a figure from Chinese mythology
 the Bai Suzhen
-die Bai Suzhen
+{f}die Bai Suzhen
 %%%%
 # gender neutral in the English version of Crawl, but was previously female
 the Xtahua
-die Xtahua
+{f}die Xtahua
 %%%%
 the Ijyb
-die Ijyb
+{f}die Ijyb
 %%%%
 # gender neutral in the English version of Crawl, but was previously female
 the Robin
-die Robin
+{f}die Robin
 %%%%
 the Grum
 {m}der Grum
 %%%%
 the Duvessa
-die Duvessa
+{f}die Duvessa
 %%%%
 the Dowan
 {m}der Dowan
@@ -75,25 +75,25 @@ the Jorgrun
 {m}der Jorgrun
 %%%%
 the Natasha
-die Natascha
+{f}die Natascha
 %%%%
 # in Greek mythology, a woman who was transformed into a spider
 the Arachne
-die Arachne
+{f}die Arachne
 %%%%
 # the name of the minotaur in Greek mythology
 the Asterion
 {m}der Asterion
 %%%%
 the Agnes
-die Agnes
+{f}die Agnes
 %%%%
 # gender neutral in the English version of Crawl, was previously male, but Dissolution is a feminine noun
 the Dissolution
-die Dissolution
+{f}die Dissolution
 %%%%
 the Sonja
-die Sonja
+{f}die Sonja
 %%%%
 the Pikel
 {m}der Pikel
@@ -110,26 +110,26 @@ the Khufu
 {m}der Khufu
 %%%%
 the Ilsuiw
-die Ilsuiw
+{f}die Ilsuiw
 %%%%
 the Vashnia
-die Vashnia
+{f}die Vashnia
 %%%%
 the Erolcha
-die Erolcha
+{f}die Erolcha
 %%%%
 the Urug
-die Urug
+{f}die Urug
 %%%%
 the Nergalle
-die Nergalle
+{f}die Nergalle
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Saint Roka
 {m}der Sankt Roka
 %%%%
 the Sojobo
-die Sojobo
+{f}die Sojobo
 %%%%
 # an angel in Islam
 the Azrael
@@ -140,10 +140,10 @@ the Mara
 {m}der Mara
 %%%%
 the Aizul
-die Aizul
+{f}die Aizul
 %%%%
 the Snorg
-die Snorg
+{f}die Snorg
 %%%%
 the Purgy
 {m}der Purgy
@@ -155,7 +155,7 @@ the Gastronok
 {m}der Gastronok
 %%%%
 the Nellie
-die Nellie
+{f}die Nellie
 %%%%
 the Murray
 {m}der Murray
@@ -164,16 +164,16 @@ the Ignacio
 {m}der Ignacio
 %%%%
 the Grinder
-die Grinder
+{f}die Grinder
 %%%%
 the Roxanne
-die Roxanne
+{f}die Roxanne
 %%%%
 the Terence
 {m}der Terence
 %%%%
 the Jessica
-die Jessica
+{f}die Jessica
 %%%%
 # a hero in Norse mythology
 the Sigmund
@@ -184,7 +184,7 @@ the Edmund
 %%%%
 # named after the Greek goddess of the soul
 the Psyche
-die Psyche
+{f}die Psyche
 %%%%
 the Donald
 {m}der Donald
@@ -193,35 +193,35 @@ the Joseph
 {m}der Joseph
 %%%%
 the Erica
-die Erica
+{f}die Erica
 %%%%
 the Josephine
-die Josephine
+{f}die Josephine
 %%%%
 the Harold
 {m}der Harold
 %%%%
 the Louise
-die Louise
+{f}die Louise
 %%%%
 the Frances
-die Frances
+{f}die Frances
 %%%%
 the Rupert
 {m}der Rupert
 %%%%
 # the original Greek name of the minor goddess usually known as Circe
 the Kirke
-die Kirke
+{f}die Kirke
 %%%%
 the Frederick
 {m}der Frederick
 %%%%
 the Margery
-die Margery
+{f}die Margery
 %%%%
 the Maggie
-die Maggie
+{f}die Maggie
 %%%%
 the Eustachio
 {m}der Eustachio
@@ -264,7 +264,7 @@ the Asmodeus
 %%%%
 # a Mesopotamian goddess
 the Ereshkigal
-die Ereshkigal
+{f}die Ereshkigal
 %%%%
 the Prince Ribbit
 {m}der Prinz Quak
@@ -273,7 +273,7 @@ the Crazy Yiuf
 {m}der Verrückte Yiuf
 %%%%
 the Enchantress
-die Zauberin
+{f}die Zauberin
 %%%%
 the Blork the orc
 {m}der Blork der Ork
@@ -286,17 +286,17 @@ the Royal Jelly
 {n}das Gelée Royale
 %%%%
 the Serpent of Hell
-die Höllenschlange
+{f}die Höllenschlange
 %%%%
 # from Greek mythology
 the Lernaean hydra
-die Lernäische Hydra
+{f}die Lernäische Hydra
 %%%%
 the Cigotuvi's Monster
 {n}das Cigotuvis Monster
 %%%%
 the Statue of Wucad Mu
-die Statue von Wucad Mu
+{f}die Statue von Wucad Mu
 %%%%
 
 # not really uniques, but gramatically similar
@@ -306,7 +306,7 @@ the @name@'s ghost
 {m}der Geist von @name@
 %%%%
 the @name@'s illusion
-die Illusion von @name@
+{f}die Illusion von @name@
 %%%%
 
 ##################

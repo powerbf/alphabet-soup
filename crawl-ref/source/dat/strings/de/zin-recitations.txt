@@ -145,34 +145,34 @@ the chaos
 {n}das Chaos
 %%%%
 the discord
-die Zwietracht
+{f}die Zwietracht
 %%%%
 the anarchy
-die Anarchie
+{f}die Anarchie
 %%%%
 the uncleanliness
-die Unsauberkeit
+{f}die Unsauberkeit
 %%%%
 the impurity
-die Unreinheit
+{f}die Unreinheit
 %%%%
 the contamination
-die Kontamination
+{f}die Kontamination
 %%%%
 the unfaithfulness
-die Untreue
+{f}die Untreue
 %%%%
 the disloyalty
-die Abtrünnigkeit
+{f}die Abtrünnigkeit
 %%%%
 the doubt
 {m}der Zweifel
 %%%%
 the profanity
-die Gotteslästerung
+{f}die Gotteslästerung
 %%%%
 the blasphemy
-die Blasphemie
+{f}die Blasphemie
 %%%%
 the sacrilege
 {n}das Sakrileg
@@ -269,40 +269,40 @@ Gehorsamkeit
 
 %%%%
 the order
-die Ordnung
+{f}die Ordnung
 %%%%
 the harmony
-die Harmonie
+{f}die Harmonie
 %%%%
 the lawfulness
-die Rechtmäßigkeit
+{f}die Rechtmäßigkeit
 %%%%
 the cleanliness
-die Sauberkeit
+{f}die Sauberkeit
 %%%%
 the purity
-die Reinheit
+{f}die Reinheit
 %%%%
 the hygiene
-die Hygiene
+{f}die Hygiene
 %%%%
 the faithfulness
-die Treue
+{f}die Treue
 %%%%
 the loyalty
-die Loyalität
+{f}die Loyalität
 %%%%
 the belief
-die Gläubigkeit
+{f}die Gläubigkeit
 %%%%
 the reverence
-die Ehrfurcht
+{f}die Ehrfurcht
 %%%%
 the piety
-die Pietät
+{f}die Pietät
 %%%%
 the obedience
-die Gehorsamkeit
+{f}die Gehorsamkeit
 %%%%
 
 #################################

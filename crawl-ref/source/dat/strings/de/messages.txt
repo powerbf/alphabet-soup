@@ -5912,7 +5912,7 @@ Du zahlst ein Zehnt von %d Gold.
 ##################
 %%%%
 the rancor of the Wu Jian Council
-die Verbitterung des Wu-Jian-Rates
+{f}die Verbitterung des Wu-Jian-Rates
 %%%%
 %s sends the divine host to punish you for your evil ways!
 %s schickt die göttliche Heerschar, um dich für deine bösen Taten zu bestrafen!
@@ -9196,7 +9196,7 @@ With an infernal noise, the power ruling this place vanishes!
 Mit einem infernalischen Lärm verschwindet die Macht, die diesen Ort beherrschte!
 %%%%
 %s's corpse
-die Leiche {gen}%s
+{f}die Leiche {gen}%s
 %%%%
 A freezing mist gathers momentarily, then fades.
 Ein eisiger Nebel sammelt sich kurz und vergeht wieder.
@@ -11867,7 +11867,7 @@ Du öffnest {acc}%s.
 %%%%
 # the following two strings are used in the "unable to close" messages
 the doorway
-die Tür
+{f}die Tür
 %%%%
 the gateway
 {n}das Tor
@@ -14155,7 +14155,7 @@ Die Luft wirbelt herum und trifft auf {acc}, richtet aber keinen Schaden an.
 %%%%
 # note: Things that can shatter
 the wall
-die Wand
+{f}die Wand
 %%%%
 the stone idol
 {n}das steinerne Idol
@@ -14528,7 +14528,7 @@ the Shining One's holy word
 des Strahlenden heiliges Wort
 %%%%
 the Torment card
-die Karte der Peinigung
+{f}die Karte der Peinigung
 %%%%
 %s is blasted by Zin's holy word!
 %s wird von Zins heiligem Wort durchdrungen!

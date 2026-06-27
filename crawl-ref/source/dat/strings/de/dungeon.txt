@@ -178,49 +178,49 @@ the Ecumenical Temple
 {m}der Ökumenische Tempel
 %%%%
 the Orcish Mines
-die orkischen Minen
+{pl}die orkischen Minen
 %%%%
 the Elven Halls
-die Elfenhallen
+{pl}die Elfenhallen
 %%%%
 the Lair of Beasts
-die Höhle der Bestien
+{f}die Höhle der Bestien
 %%%%
 the Swamp
 {m}der Sumpf
 %%%%
 the Shoals
-die Untiefen
+{pl}die Untiefen
 %%%%
 the Snake Pit
-die Schlangengrube
+{f}die Schlangengrube
 %%%%
 the Spider Nest
 {n}das Spinnennest
 %%%%
 the Pits of Slime
-die Schleimgruben
+{pl}die Schleimgruben
 %%%%
 the Vaults
-die Gewölbe
+{pl}die Gewölbe
 %%%%
 the Crypt
-die Krypta
+{f}die Krypta
 %%%%
 the Tomb of the Ancients
 {n}das Grab der Uralten
 %%%%
 the Depths
-die Tiefen
+{pl}die Tiefen
 %%%%
 the Hells
-die Höllen
+{pl}die Höllen
 %%%%
 the Vestibule of Hell
 {n}das Vestibül der Hölle
 %%%%
 the Iron City of Dis
-die Eiserne Stadt von Dis
+{f}die Eiserne Stadt von Dis
 %%%%
 the Realm of Zot
 {n}das Reich von Zot
@@ -259,7 +259,7 @@ a wizard's laboratory
 {n}das Labor eines Zauberers
 %%%%
 the Desolation of Salt
-die Trostlosigkeit des Salzes
+{f}die Trostlosigkeit des Salzes
 %%%%
 
 ##############################################

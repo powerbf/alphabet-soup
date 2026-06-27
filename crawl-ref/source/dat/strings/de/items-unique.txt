@@ -10,7 +10,7 @@
 #################################
 %%%%
 the Orb of Zot
-die Kugel von Zot
+{f}die Kugel von Zot
 %%%%
 # in some places, it appears with an uppercase T
 The Orb of Zot
@@ -26,61 +26,61 @@ Die Kugel von Zot
 
 %%%%
 the decaying rune
-die verwesende Rune
+{f}die verwesende Rune
 %%%%
 the barnacled rune
-die seepockenbefallene Rune
+{f}die seepockenbefallene Rune
 %%%%
 the gossamer rune
-die Spinnfadenrune
+{f}die Spinnfadenrune
 %%%%
 the serpentine rune
-die Schlangenrune
+{f}die Schlangenrune
 %%%%
 the slimy rune
-die schleimige Rune
+{f}die schleimige Rune
 %%%%
 the abyssal rune
-die Abgrundsrune
+{f}die Abgrundsrune
 %%%%
 the silver rune
-die silberne Rune
+{f}die silberne Rune
 %%%%
 the golden rune
-die goldene Rune
+{f}die goldene Rune
 %%%%
 
 # hell runes
 %%%%
 the obsidian rune
-die Obsidianrune
+{f}die Obsidianrune
 %%%%
 the icy rune
-die eisige Rune
+{f}die eisige Rune
 %%%%
 the bone rune
-die Knochenrune
+{f}die Knochenrune
 %%%%
 the iron rune
-die eiserne Rune
+{f}die eiserne Rune
 %%%%
 
 # pandemonium runes
 %%%%
 the demonic rune
-die dämonische Rune
+{f}die dämonische Rune
 %%%%
 the glowing rune
-die leuchtende Rune
+{f}die leuchtende Rune
 %%%%
 the magical rune
-die magische Rune
+{f}die magische Rune
 %%%%
 the fiery rune
-die feurige Rune
+{f}die feurige Rune
 %%%%
 the dark rune
-die dunkle Rune
+{f}die dunkle Rune
 %%%%
 
 #################################
@@ -108,7 +108,7 @@ the mace of Variability
 {m}der Streitkolben der Variabilität
 %%%%
 the glaive of Prune
-die Gleve der Pflaume
+{f}die Gleve der Pflaume
 %%%%
 the sword of Power
 {n}das Schwert der Macht
@@ -123,7 +123,7 @@ the Vampire's Tooth
 {m}der Zahn des Vampirs
 %%%%
 the scythe of Curses
-die Sense der Flüche
+{f}die Sense der Flüche
 %%%%
 the sceptre of Torment
 {n}das Zepter der Peinigung
@@ -144,7 +144,7 @@ the faerie dragon scales
 {pl}die Feendrachenschuppen
 %%%%
 the demon blade "Bloodbane"
-die Dämonenklinge "Blutfluch"
+{f}die Dämonenklinge "Blutfluch"
 %%%%
 the scimitar of Flaming Death
 {m}der Krummsäbel des flammenden Todes
@@ -153,7 +153,7 @@ the eveningstar "Brilliance"
 {m}der Abendstern "Brillanz"
 %%%%
 the demon blade "Leech"
-die Dämonenklinge "Blutegel"
+{f}die Dämonenklinge "Blutegel"
 %%%%
 the dagger of Chilly Death
 {m}der Dolch des kühlen Todes
@@ -162,25 +162,25 @@ the dagger "Morg"
 {m}der Dolch "Morg"
 %%%%
 the scythe "Finisher"
-die Sense "Beender"
+{f}die Sense "Beender"
 %%%%
 the sling "Punk"
-die Schleuder "Punk"
+{f}die Schleuder "Punk"
 %%%%
 the longbow "Zephyr"
 {m}der Langbogen "Zephyr"
 %%%%
 the giant club "Skullcrusher"
-die Riesenkeule "Schädelbrecher"
+{f}die Riesenkeule "Schädelbrecher"
 %%%%
 the glaive of the Guard
-die Gleve der Wache
+{f}die Gleve der Wache
 %%%%
 the zealot's sword
 {n}das Schwert des Zeloten
 %%%%
 the arbalest "Damnation"
-die Armbrust "Verdammnis"
+{f}die Armbrust "Verdammnis"
 %%%%
 the sword of the Doom Knight
 {n}das Schwert des Verhängnisritters
@@ -195,13 +195,13 @@ the trident of the Octopus King
 {m}der Dreizack des Krakenkönigs
 %%%%
 the mithril axe "Arga"
-die Mithrilaxt "Arga"
+{f}die Mithrilaxt "Arga"
 %%%%
 the Elemental Staff
 {m}der Elementarstab
 %%%%
 the heavy crossbow "Sniper"
-die schwere Armbrust "Scharfschütze"
+{f}die schwere Armbrust "Scharfschütze"
 %%%%
 the longbow "Piercer"
 {m}der Langbogen "Stecher"
@@ -210,7 +210,7 @@ the blowgun of the Assassin
 {n}das Blasrohr des Assassinen
 %%%%
 the lance "Wyrmbane"
-die Lanze "Drachenfluch"
+{f}die Lanze "Drachenfluch"
 %%%%
 the Spriggan's Knife
 {n}das Messer des Spriggans
@@ -222,7 +222,7 @@ the great mace "Undeadhunter"
 {m}der große Streitkolben "Untotenjäger"
 %%%%
 the whip "Snakebite"
-die Peitsche "Schlangenbiss"
+{f}die Peitsche "Schlangenbiss"
 %%%%
 the knife of Accuracy
 {n}das Messer der Genauigkeit
@@ -249,28 +249,28 @@ the tower shield "Bullseye"
 {m}der Turmschild "Volltreffer"
 %%%%
 the crown of Dyrovepreva
-die Krone von Dyrovepreva
+{f}die Krone von Dyrovepreva
 %%%%
 the hat of the Bear Spirit
 {m}der Hut des Bärengeistes
 %%%%
 the robe of Misfortune
-die Robe des Unglücks
+{f}die Robe des Unglücks
 %%%%
 the cloak of Flash
 {m}der Umhang von Flash
 %%%%
 the hood of the Assassin
-die Kapuze des Assassinen
+{f}die Kapuze des Assassinen
 %%%%
 the Lear's hauberk
-die Halsberge Lears
+{f}die Halsberge Lears
 %%%%
 the skin of Zhor
-die Haut von Zhor
+{f}die Haut von Zhor
 %%%%
 the salamander hide armour
-die Salamanderhautrüstung
+{f}die Salamanderhautrüstung
 %%%%
 the pair of gauntlets of War
 {n}das Paar Panzerhandschuhe des Krieges
@@ -282,13 +282,13 @@ the robe of Folly
 {n}das Gewand der Torheit
 %%%%
 the Maxwell's patent armour
-die patentierte Rüstung Maxwells
+{f}die patentierte Rüstung Maxwells
 %%%%
 the mask of the Dragon
-die Maske des Drachens
+{f}die Maske des Drachens
 %%%%
 the robe of Night
-die Robe der Nacht
+{f}die Robe der Nacht
 %%%%
 the scales of the Dragon King
 {pl}die Schuppen des Drachenkönigs
@@ -321,7 +321,7 @@ the amulet of the Four Winds
 {n}das Amulett der vier Winde
 %%%%
 the necklace of Bloodlust
-die Kette des Blutrausches
+{f}die Kette des Blutrausches
 %%%%
 the ring of Phasing
 {m}der Ring der Phase
@@ -339,16 +339,16 @@ the ring of the Tortoise
 {m}der Ring der Schildkröte
 %%%%
 the brooch of Shielding
-die Brosche der Abschirmung
+{f}die Brosche der Abschirmung
 %%%%
 the robe of Clouds
-die Robe der Wolken
+{f}die Robe der Wolken
 %%%%
 the hat of Pondering
 {m}der Hut der Schwerfälligkeit
 %%%%
 the obsidian axe
-die Obsidianaxt
+{f}die Obsidianaxt
 %%%%
 the lightning scales
 {pl}die Blitzschuppen
@@ -369,13 +369,13 @@ the dragonskin cloak
 {m}der Drachenhautumhang
 %%%%
 the Axe of Woe
-die Axt des Leids
+{f}die Axt des Leids
 %%%%
 the moon troll leather armour
-die Mondtrolllederrüstung
+{f}die Mondtrolllederrüstung
 %%%%
 the macabre finger necklace
-die makabere Fingerhalskette
+{f}die makabere Fingerhalskette
 %%%%
 the pair of boots of the spider
 {n}das Paar Stiefel der Spinne
@@ -387,10 +387,10 @@ the hat of the High Council
 {m}der Hut des Hohen Rates
 %%%%
 the arc blade
-die Lichtbogenklinge
+{f}die Lichtbogenklinge
 %%%%
 the demon whip "Spellbinder"
-die Dämonenpeitsche "Zauberbann"
+{f}die Dämonenpeitsche "Zauberbann"
 %%%%
 the lajatang of Order
 {m}der Lajatang der Ordnung
@@ -408,7 +408,7 @@ the Maxwell's etheric cage
 {m}der Ätherkäfig von Maxwell
 %%%%
 the crown of Eternal Torment
-die Krone der ewigen Peinigung
+{f}die Krone der ewigen Peinigung
 %%%%
 the robe of Vines
 {n}das Gewand der Reben
@@ -417,10 +417,10 @@ the Kryia's mail coat
 {m}der Schuppenpanzer von Kryia
 %%%%
 the frozen axe "Frostbite"
-die gefrorene Axt "Erfrierung"
+{f}die gefrorene Axt "Erfrierung"
 %%%%
 the armour of Talos
-die Rüstung von Talos
+{f}die Rüstung von Talos
 %%%%
 the warlock's mirror
 {m}der Spiegel des Hexenmeisters
@@ -438,7 +438,7 @@ the staff of Battle
 {m}der Stab der Schlacht
 %%%%
 the Cigotuvi's embrace
-die Umarmung von Cigotuvi
+{f}die Umarmung von Cigotuvi
 %%%%
 the pair of seven-league boots
 {n}das Paar Siebenmeilenstiefel
@@ -488,11 +488,11 @@ the flamberge
 %%%%
 # heavy crossbow "Sniper"
 the heavy crossbow
-die schwere Armbrust
+{f}die schwere Armbrust
 %%%%
 # lance "Wyrmbane"
 the lance
-die Lanze
+{f}die Lanze
 %%%%
 # Spriggan's Knife
 the knife

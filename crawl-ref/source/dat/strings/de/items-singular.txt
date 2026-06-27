@@ -11,13 +11,13 @@
 %%%%
 # for player ghosts
 the weapon
-die Waffe
+{f}die Waffe
 %%%%
 the club
 {m}der Knüppel
 %%%%
 the whip
-die Peitsche
+{f}die Peitsche
 %%%%
 the mace
 {m}der Streitkolben
@@ -29,10 +29,10 @@ the morningstar
 {m}der Morgenstern
 %%%%
 the demon whip
-die Dämonenpeitsche
+{f}die Dämonenpeitsche
 %%%%
 the sacred scourge
-die {adj-e}%heilige Geißel
+{f}die {adj-e}%heilige Geißel
 %%%%
 the dire flail
 {m}der Schreckensflegel
@@ -44,16 +44,16 @@ the great mace
 {m}der große Streitkolben
 %%%%
 the giant club
-die Riesenkeule
+{f}die Riesenkeule
 %%%%
 the giant spiked club
-die riesige Stachelkeule
+{f}die riesige Stachelkeule
 %%%%
 the dagger
 {m}der Dolch
 %%%%
 the quick blade
-die Schnellklinge
+{f}die Schnellklinge
 %%%%
 the short sword
 {n}das Kurzschwert
@@ -71,10 +71,10 @@ the scimitar
 {m}der Krummsäbel
 %%%%
 the demon blade
-die Dämonenklinge
+{f}die Dämonenklinge
 %%%%
 the eudemon blade
-die Eudämonenklinge
+{f}die Eudämonenklinge
 %%%%
 the double sword
 {n}das Doppelschwert
@@ -89,16 +89,16 @@ the hand axe
 {n}das Handbeil
 %%%%
 the war axe
-die Kriegsaxt
+{f}die Kriegsaxt
 %%%%
 the broad axe
-die Breitaxt
+{f}die Breitaxt
 %%%%
 the battleaxe
-die Streitaxt
+{f}die Streitaxt
 %%%%
 the executioner's axe
-die Henkersaxt
+{f}die Henkersaxt
 %%%%
 the spear
 {m}der Speer
@@ -107,10 +107,10 @@ the trident
 {m}der Dreizack
 %%%%
 the halberd
-die Hellebarde
+{f}die Hellebarde
 %%%%
 the scythe
-die Sense
+{f}die Sense
 %%%%
 the demon trident
 {m}der Dämonendreizack
@@ -119,10 +119,10 @@ the trishula
 {m}der Trishula
 %%%%
 the glaive
-die Gleve
+{f}die Gleve
 %%%%
 the bardiche
-die Bardiche
+{f}die Bardiche
 %%%%
 the quarterstaff
 {m}der Kampfstab
@@ -137,19 +137,19 @@ the lajatang
 
 %%%%
 the hunting sling
-die Schleuder
+{f}die Schleuder
 %%%%
 the fustibalus
 {m}der Fustibalus
 %%%%
 the hand crossbow
-die Handarmbrust
+{f}die Handarmbrust
 %%%%
 the arbalest
-die Armbrust
+{f}die Armbrust
 %%%%
 the triple crossbow
-die Dreifacharmbrust
+{f}die Dreifacharmbrust
 %%%%
 the shortbow
 {m}der Kurzbogen
@@ -195,7 +195,7 @@ the large rock
 {m}der große Felsbrocken
 %%%%
 the sling bullet
-die Schleuderkugel
+{f}die Schleuderkugel
 %%%%
 the javelin
 {m}der Wurfspeer
@@ -219,13 +219,13 @@ the silver boomerang
 
 %%%%
 the animal skin
-die Tierhaut
+{f}die Tierhaut
 %%%%
 the robe
-die Robe
+{f}die Robe
 %%%%
 the leather armour
-die Lederrüstung
+{f}die Lederrüstung
 %%%%
 the ring mail
 {m}der Ringpanzer
@@ -237,13 +237,13 @@ the chain mail
 {m}der Kettenpanzer
 %%%%
 the plate armour
-die Plattenrüstung
+{f}die Plattenrüstung
 %%%%
 the crystal plate armour
-die Kristallplattenrüstung
+{f}die Kristallplattenrüstung
 %%%%
 the troll leather armour
-die Trolllederrüstung
+{f}die Trolllederrüstung
 %%%%
 the cloak
 {m}der Umhang
@@ -311,7 +311,7 @@ the gold dragon scales
 # the English adjectives is joined to the noun in German
 %%%%
 the creamy pearl robe
-die cremefarbene Perlenrobe
+{f}die cremefarbene Perlenrobe
 %%%%
 
 #################################
@@ -659,77 +659,77 @@ the fluorescent wand
 # generic
 %%%%
 the scroll
-die Schriftrolle
+{f}die Schriftrolle
 %%%%
 
 # unidentified
 %%%%
 the scroll labelled %s
-die Schriftrolle beschriftet mit %s
+{f}die Schriftrolle beschriftet mit %s
 %%%%
 
 # identified
 %%%%
 the scroll of acquirement
-die Schriftrolle der Erwerbung
+{f}die Schriftrolle der Erwerbung
 %%%%
 the scroll of amnesia
-die Schriftrolle der Amnesie
+{f}die Schriftrolle der Amnesie
 %%%%
 the scroll of blinking
-die Schriftrolle des Blinzelns
+{f}die Schriftrolle des Blinzelns
 %%%%
 the scroll of brand weapon
-die Schriftrolle der Waffenprägung
+{f}die Schriftrolle der Waffenprägung
 %%%%
 the scroll of enchant armour
-die Schriftrolle der Rüstungsverzauberung
+{f}die Schriftrolle der Rüstungsverzauberung
 %%%%
 the scroll of enchant weapon
-die Schriftrolle der Waffenverzauberung
+{f}die Schriftrolle der Waffenverzauberung
 %%%%
 the scroll of fear
-die Schriftrolle der Angst
+{f}die Schriftrolle der Angst
 %%%%
 the scroll of fog
-die Schriftrolle des Nebels
+{f}die Schriftrolle des Nebels
 %%%%
 the scroll of holy word
-die Schriftrolle des heiligen Wortes
+{f}die Schriftrolle des heiligen Wortes
 %%%%
 the scroll of identify
-die Schriftrolle der Identifizierung
+{f}die Schriftrolle der Identifizierung
 %%%%
 the scroll of immolation
-die Schriftrolle der Verbrennug
+{f}die Schriftrolle der Verbrennug
 %%%%
 the scroll of magic mapping
-die Schriftrolle des magischen Kartierens
+{f}die Schriftrolle des magischen Kartierens
 %%%%
 the scroll of noise
-die Schriftrolle des Lärms
+{f}die Schriftrolle des Lärms
 %%%%
 the scroll of remove curse
-die Schriftrolle des Fluchaufhebens
+{f}die Schriftrolle des Fluchaufhebens
 %%%%
 the scroll of silence
-die Schriftrolle der Stille
+{f}die Schriftrolle der Stille
 %%%%
 the scroll of summoning
-die Schriftrolle der Beschwörung
+{f}die Schriftrolle der Beschwörung
 %%%%
 the scroll of teleportation
-die Schriftrolle der Teleportation
+{f}die Schriftrolle der Teleportation
 %%%%
 the scroll of torment
-die Schriftrolle der Peinigung
+{f}die Schriftrolle der Peinigung
 %%%%
 the scroll of vulnerability
-die Schriftrolle der Vulnerabilität
+{f}die Schriftrolle der Vulnerabilität
 %%%%
 # obsolete item (can occur if player loads a saved game from an older version)
 the scroll of removedness
-die Schriftrolle der Obsoleszenz
+{f}die Schriftrolle der Obsoleszenz
 %%%%
 
 #################################
@@ -866,7 +866,7 @@ the staff of removedness
 
 %%%%
 the @monster@ corpse
-die Leiche {gen}@a_monster@
+{f}die Leiche {gen}@a_monster@
 %%%%
 
 #################################
@@ -875,28 +875,28 @@ die Leiche {gen}@a_monster@
 
 %%%%
 the box of beasts
-die Kiste der Bestien
+{f}die Kiste der Bestien
 %%%%
 the lightning rod
 {m}der Blitzfänger
 %%%%
 the phial of floods
-die Phiole der Fluten
+{f}die Phiole der Fluten
 %%%%
 the phantom mirror
 {m}der Phantomspiegel
 %%%%
 the figurine of a ziggurat
-die Figur einer Zikkurat
+{f}die Figur einer Zikkurat
 %%%%
 the condenser vane
-die Kondensationsfahne
+{f}die Kondensationsfahne
 %%%%
 the piece from Xom's chessboard
-die Figur von Xoms Schachbrett
+{f}die Figur von Xoms Schachbrett
 %%%%
 the tin of tremorstones
-die Dose Erdbebensteine
+{f}die Dose Erdbebensteine
 %%%%
 the quad damage
 {m}der Vierfachschaden
@@ -907,5 +907,5 @@ the quad damage
 #################################
 %%%%
 the gold piece
-die Goldmünze
+{f}die Goldmünze
 %%%%

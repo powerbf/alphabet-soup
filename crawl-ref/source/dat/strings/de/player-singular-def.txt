@@ -21,7 +21,7 @@ the Demigod
 {m}der Halbgott
 %%%%
 the Demonspawn
-die Dämonenbrut
+{f}die Dämonenbrut
 %%%%
 the Djinni
 {m}der Dschinn
@@ -60,7 +60,7 @@ the Minotaur
 {m}der Minotaur
 %%%%
 the Mummy
-die Mumie
+{f}die Mumie
 %%%%
 the Naga
 {m}der Naga
@@ -163,11 +163,11 @@ the God
 %%%%
 # Felid
 the Cat
-die Katze
+{f}die Katze
 %%%%
 # Formicid
 the Ant
-die Ameise
+{f}die Ameise
 %%%%
 # Octopode
 the Octopus
@@ -202,11 +202,11 @@ the god
 %%%%
 # Felid
 the cat
-die Katze
+{f}die Katze
 %%%%
 # Formicid
 the ant
-die Ameise
+{f}die Ameise
 %%%%
 # Octopode
 the octopus

@@ -12,10 +12,10 @@ the unknown terrain
 {n}das unbekannte Terrain
 %%%%
 the travel trail
-die Reiseroute
+{f}die Reiseroute
 %%%%
 the door
-die Tür
+{f}die Tür
 %%%%
 the gate
 {n}das Tor
@@ -36,34 +36,34 @@ the mangrove
 {m}der Mangrovebaum
 %%%%
 the metal wall
-die Metallwand
+{f}die Metallwand
 %%%%
 the crystal wall
-die Kristallwand
+{f}die Kristallwand
 %%%%
 the rock wall
-die Felswand
+{f}die Felswand
 %%%%
 the slime covered rock wall
-die schleimbedeckte Felswand
+{f}die schleimbedeckte Felswand
 %%%%
 the stone wall
-die Steinwand
+{f}die Steinwand
 %%%%
 the unnaturally hard rock wall
-die unnatürlich harte Felswand
+{f}die unnatürlich harte Felswand
 %%%%
 the translucent rock wall
-die durchsichtige Felswand
+{f}die durchsichtige Felswand
 %%%%
 the translucent stone wall
-die durchsichtige Steinwand
+{f}die durchsichtige Steinwand
 %%%%
 the translucent unnaturally hard rock wall
-die durchsichtige unnatürlich harte Felswand
+{f}die durchsichtige unnatürlich harte Felswand
 %%%%
 the wall of the weird stuff which makes up Pandemonium
-die Wand aus dem seltsamen Zeug, aus dem das Pandämonium gemacht ist
+{f}die Wand aus dem seltsamen Zeug, aus dem das Pandämonium gemacht ist
 %%%%
 the grate
 {n}das Gitter
@@ -75,16 +75,16 @@ the open sea
 {n}das offene Meer
 %%%%
 the endless lava
-die endlose Lava
+{f}die endlose Lava
 %%%%
 the endless expanse of salt
-die endlose Weite des Salzes
+{f}die endlose Weite des Salzes
 %%%%
 the orcish idol
 {n}das orkische Götzenbild
 %%%%
 the granite statue
-die Granitstatue
+{f}die Granitstatue
 %%%%
 the portal
 {n}das Portal
@@ -93,7 +93,7 @@ the portal to somewhere
 {n}das Portal nach irgendwo
 %%%%
 the lava
-die Lava
+{f}die Lava
 %%%%
 the deep water
 {n}das tiefe Wasser
@@ -111,55 +111,55 @@ the collapsed entrance
 {m}der eingestürzte Eingang
 %%%%
 the trap
-die Falle
+{f}die Falle
 %%%%
 the mechanical trap
-die mechanische Falle
+{f}die mechanische Falle
 %%%%
 the arrow trap
-die Pfeilfalle
+{f}die Pfeilfalle
 %%%%
 the spear trap
-die Speerfalle
+{f}die Speerfalle
 %%%%
 the blade trap
-die Klingenfalle
+{f}die Klingenfalle
 %%%%
 the dart trap
-die Wurfpfeilfalle
+{f}die Wurfpfeilfalle
 %%%%
 the bolt trap
-die Bolzenfalle
+{f}die Bolzenfalle
 %%%%
 the net trap
-die Netzfalle
+{f}die Netzfalle
 %%%%
 the pressure plate
-die Druckplatte
+{f}die Druckplatte
 %%%%
 the dispersal trap
-die Streuungsfalle
+{f}die Streuungsfalle
 %%%%
 the teleport trap
-die Teleportfalle
+{f}die Teleportfalle
 %%%%
 the permanent teleport trap
-die permanente Teleportfalle
+{f}die permanente Teleportfalle
 %%%%
 the shadow trap
-die Schattenfalle
+{f}die Schattenfalle
 %%%%
 the dormant shadow trap
-die ruhende Schattenfalle
+{f}die ruhende Schattenfalle
 %%%%
 the alarm trap
-die Alarmfalle
+{f}die Alarmfalle
 %%%%
 the Zot trap
-die Zot-Falle
+{f}die Zot-Falle
 %%%%
 the passage of Golubria
-die Passage von Golubria
+{f}die Passage von Golubria
 %%%%
 the shaft
 {m}der Schacht
@@ -180,22 +180,22 @@ the detected shop or portal
 der entdeckte Laden oder das entdeckte Portal
 %%%%
 the staircase
-die Treppe
+{f}die Treppe
 %%%%
 the stone staircase leading down
-die Steintreppe, die nach unten führt
+{f}die Steintreppe, die nach unten führt
 %%%%
 the stone staircase leading up
-die Steintreppe, die nach oben führt
+{f}die Steintreppe, die nach oben führt
 %%%%
 the escape hatch
-die Fluchtluke
+{f}die Fluchtluke
 %%%%
 the escape hatch in the floor
-die Fluchtluke im Boden
+{f}die Fluchtluke im Boden
 %%%%
 the escape hatch in the ceiling
-die Fluchtluke in der Decke
+{f}die Fluchtluke in der Decke
 %%%%
 the labyrinth entrance
 {m}der Eingang zum Labyrinth
@@ -264,7 +264,7 @@ the glowing drain
 {m}der schimmernde Abfluss
 %%%%
 the sand-covered staircase
-die sandbedeckte Treppe
+{f}die sandbedeckte Treppe
 %%%%
 the flagged portal
 {n}das beflaggte Portal
@@ -297,64 +297,64 @@ the portal leading out of this place
 {n}das Portal, das aus diesem Ort herausführt
 %%%%
 the staircase leading out of the dungeon
-die Treppe, die aus dem Kerker herausführt
+{f}die Treppe, die aus dem Kerker herausführt
 %%%%
 the exit from the tutorial
 {m}der Ausgang des Tutorials
 %%%%
 the staircase to the Slime Pits
-die Treppe zu den Schleimgruben
+{f}die Treppe zu den Schleimgruben
 %%%%
 the staircase back to the Lair
-die Treppe zurück zur Höhle
+{f}die Treppe zurück zur Höhle
 %%%%
 the staircase to the Orcish Mines
-die Treppe zu den Orkischen Minen
+{f}die Treppe zu den Orkischen Minen
 %%%%
 the staircase back to the Dungeon
-die Treppe zurück in den Kerker
+{f}die Treppe zurück in den Kerker
 %%%%
 the staircase to the Dwarven Hall
-die Treppe zur Zwergenhalle
+{f}die Treppe zur Zwergenhalle
 %%%%
 the staircase to the Enchanted Forest
-die Treppe zum Verwunschenen Wald
+{f}die Treppe zum Verwunschenen Wald
 %%%%
 the staircase to the Hall of Blades
-die Treppe zur Halle der Klingen
+{f}die Treppe zur Halle der Klingen
 %%%%
 the staircase back to the Vaults
-die Treppe zurück zu den Gewölben
+{f}die Treppe zurück zu den Gewölben
 %%%%
 the staircase to the Lair
-die Treppe zur Höhle
+{f}die Treppe zur Höhle
 %%%%
 the staircase to the Crypt
-die Treppe zur Krypta
+{f}die Treppe zur Krypta
 %%%%
 the staircase to the Ecumenical Temple
-die Treppe zum Ökumenischen Tempel
+{f}die Treppe zum Ökumenischen Tempel
 %%%%
 the staircase to the Snake Pit
-die Treppe zur Schlangengrube
+{f}die Treppe zur Schlangengrube
 %%%%
 the staircase to the Elven Halls
-die Treppe zu den Elfenhallen
+{f}die Treppe zu den Elfenhallen
 %%%%
 the staircase back to the Mines
-die Treppe zurück zu den Minen
+{f}die Treppe zurück zu den Minen
 %%%%
 the staircase to the Tomb
-die Treppe zum Grab
+{f}die Treppe zum Grab
 %%%%
 the staircase back to the Crypt
-die Treppe zurück zur Krypta
+{f}die Treppe zurück zur Krypta
 %%%%
 the staircase to the Swamp
-die Treppe zum Sumpf
+{f}die Treppe zum Sumpf
 %%%%
 the staircase to the Shoals
-die Treppe zu den Untiefen
+{f}die Treppe zu den Untiefen
 %%%%
 the hole to the Spider Nest
 {n}das Loch zum Spinnennest
@@ -363,7 +363,7 @@ the crawl-hole back to the Lair
 {n}das Kriechloch zurück zur Höhle
 %%%%
 the staircase to the Depths
-die Treppe zu den Tiefen
+{f}die Treppe zu den Tiefen
 %%%%
 the altar
 {m}der Altar

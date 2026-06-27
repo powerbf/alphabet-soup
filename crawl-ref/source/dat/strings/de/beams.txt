@@ -19,32 +19,32 @@ the bolt of energy
 {m}der Energiestrahl
 %%%%
 the spray of metal splinters
-die Metallsplittersalve
+{f}die Metallsplittersalve
 %%%%
 the spray of wooden splinters
-die Holzsplittersalve
+{f}die Holzsplittersalve
 %%%%
 the burst of rock shards
-die Felssplittersalve
+{f}die Felssplittersalve
 %%%%
 the volley of thorns
-die Dornensalve
+{f}die Dornensalve
 %%%%
 the volley of spikes
-die Stachelsalve
+{f}die Stachelsalve
 %%%%
 the toxic sludge
 {m}der toxische Schlamm
 %%%%
 the damnation
-die Verdammnis
+{f}die Verdammnis
 %%%%
 the foul vapour
 {m}der faulige Dunst
 %%%%
 # this blasts outwards from the player in all directions
 the blast of cleansing flame
-die reinigende Flammenwolke
+{f}die reinigende Flammenwolke
 %%%%
 # this creates a single straight line of clouds
 the blast of calcifying dust
@@ -61,14 +61,14 @@ the glob of lava
 %%%%
 # chaos crab area effect
 the blast of chaos
-die Chaoswolke
+{f}die Chaoswolke
 %%%%
 # fire breath (beam), flame clouds (area)
 the blast of flame
-die Flammenwolke
+{f}die Flammenwolke
 %%%%
 the blast of cold
-die Frostwolke
+{f}die Frostwolke
 %%%%
 # searing breath (beam), similar to fire breath
 the searing blast
@@ -84,7 +84,7 @@ the puff of frost
 {m}der Frosthauch
 %%%%
 the stinking cloud
-die stinkende Wolke
+{f}die stinkende Wolke
 %%%%
 the magic dart
 {n}das magische Geschoss
@@ -118,7 +118,7 @@ the crystal spear
 {m}der Kristallspeer
 %%%%
 the sticky flame
-die klebrige Flamme
+{f}die klebrige Flamme
 %%%%
 # a physical stinger on the caster's limb
 the sting
@@ -135,7 +135,7 @@ the zap
 {m}der Schock
 %%%%
 the stunning burst
-die betäubende Explosion
+{f}die betäubende Explosion
 %%%%
 # duplicate of monster
 #the orb of electricity
@@ -163,16 +163,16 @@ the splash of acid
 {m}der Säurespritzer
 %%%%
 the agony
-die Agonie
+{f}die Agonie
 %%%%
 the ball of steam
-die Dampfkugel
+{f}die Dampfkugel
 %%%%
 the shard of ice
 {m}der Eissplitter
 %%%%
 the flame tongue
-die Flammenzunge
+{f}die Flammenzunge
 %%%%
 the blast of sand
 {m}der Sandstrahl
@@ -184,10 +184,10 @@ the poison arrow
 {m}der Giftpfeil
 %%%%
 the blast of choking fumes
-die Explosion erstickender Dämpfe
+{f}die Explosion erstickender Dämpfe
 %%%%
 the lance of force
-die Drucklanze
+{f}die Drucklanze
 %%%%
 the searing ray
 {m}der versengende Strahl
@@ -199,7 +199,7 @@ the bolt of acid
 {m}der Säurestrahl
 %%%%
 the unravelling
-die Auflösung
+{f}die Auflösung
 %%%%
 the iceblast
 {m}der Eisblitz
@@ -223,19 +223,19 @@ the great blast of fire
 {m}der große Feuerstoß
 %%%%
 the malmutate
-die Malmutation
+{f}die Malmutation
 %%%%
 the refrigeration
-die Kühlung
+{f}die Kühlung
 %%%%
 the drain life
-die Lebensauszehrung
+{f}die Lebensauszehrung
 %%%%
 the sonic wave
-die Schallwelle
+{f}die Schallwelle
 %%%%
 the klown pie
-die Klowntorte
+{f}die Klowntorte
 %%%%
 # duplicate of monster
 #the foxfire
@@ -245,13 +245,13 @@ the hail
 {m}der Hagel
 %%%%
 the mystic blast
-die mystische Druckwelle
+{f}die mystische Druckwelle
 %%%%
 the chilling breath
 {m}der kühlende Odem
 %%%%
 the porkalator
-die Schweinifizierung
+{f}die Schweinifizierung
 %%%%
 the stream of webbing
 {m}der Gespinststrahl
@@ -266,19 +266,19 @@ the shadow shard
 {m}der Schattensplitter
 %%%%
 the vile air
-die widerliche Luft
+{f}die widerliche Luft
 %%%%
 the flame surge
-die Flammenwoge
+{f}die Flammenwoge
 %%%%
 the explosion of spores
-die Sporenexplosion
+{f}die Sporenexplosion
 %%%%
 the blast of lightning
 {m}der Blitzeinschlag
 %%%%
 the blast of energy
-die Energieexplosion
+{f}die Energieexplosion
 %%%%
 the blast of putrescent gases
 {m}der Schwall faulender Gase
@@ -287,7 +287,7 @@ the pyre of ghostly fire
 {m}der Scheiterhaufen geisterhaften Feuers
 %%%%
 the fiery explosion
-die feurige Explosion
+{f}die feurige Explosion
 %%%%
 the arc of chaos
 {m}der Chaosbogen
@@ -297,7 +297,7 @@ the great icy blast
 {m}der große eisige Strom
 %%%%
 the golden flame
-die goldene Flamme
+{f}die goldene Flamme
 %%%%
 the effects of Hell
 {pl}die Auswirkungen der Hölle
@@ -306,22 +306,22 @@ the magical storm
 {m}der magische Sturm
 %%%%
 the electrical discharge
-die elektrische Entladung
+{f}die elektrische Entladung
 %%%%
 the frost
 {m}der Frost
 %%%%
 the irradiate
-die Verstrahlung
+{f}die Verstrahlung
 %%%%
 the energy
-die Energie
+{f}die Energie
 %%%%
 the barrage of energy
 {n}das Trommelfeuer der Energie
 %%%%
 the infestation
-die Infestation
+{f}die Infestation
 %%%%
 the shock of your passage
 {m}der Schock deiner Passage
@@ -331,47 +331,47 @@ the shock of your passage
 %%%%
 # from stone/rock walls or stone enemies
 the blast of rock fragments
-die Explosion aus Felsfragmenten
+{f}die Explosion aus Felsfragmenten
 %%%%
 the blast of petrified fragments
-die Explosion aus versteinerten Fragmenten
+{f}die Explosion aus versteinerten Fragmenten
 %%%%
 # fragments from a monster made of ice
 the icy blast
-die Explosion aus Eisfragmenten
+{f}die Explosion aus Eisfragmenten
 %%%%
 the blast of toenail fragments
-die Explosion aus Zehennagelfragmenten
+{f}die Explosion aus Zehennagelfragmenten
 %%%%
 the blast of metal fragments
-die Explosion aus Metallfragmenten
+{f}die Explosion aus Metallfragmenten
 %%%%
 the blast of crystal shards
-die Explosion aus Kristallscherben
+{f}die Explosion aus Kristallscherben
 %%%%
 the blast of orange crystal shards
-die Explosion aus orangen Kristallscherben
+{f}die Explosion aus orangen Kristallscherben
 %%%%
 the blast of salt crystal shards
-die Explosion aus Salzkristallscherben
+{f}die Explosion aus Salzkristallscherben
 %%%%
 the blast of obsidian shards
-die Explosion aus Obsidianscherben
+{f}die Explosion aus Obsidianscherben
 %%%%
 the blast of sapphire shards
-die Explosion aus Saphirscherben
+{f}die Explosion aus Saphirscherben
 %%%%
 the blast of bone shards
-die Explosion aus Knochensplittern
+{f}die Explosion aus Knochensplittern
 %%%%
 
 # Qazlal Upheaval
 %%%%
 the blast of magma
-die Magmaexplosion
+{f}die Magmaexplosion
 %%%%
 the blast of ice
-die eisige Explosion
+{f}die eisige Explosion
 %%%%
 the cutting wind
 {m}der schneidende Wind
