@@ -1117,8 +1117,16 @@ static string _localise_adjectives(const string& s, const vector<string>& adjs)
                 adj = localise(adj, params, false);
             }
         }
-        else
-            adj = cxlate(_context, adjs[i] + " ", true);
+        else {
+            // sometimes there's an adjective with a preceeding adverb (e.g. "very large")
+            if (i < adjs.size() - 1) {
+                adj = cxlate(_context, adjs[i] + " " + adjs[i+1] + " ", false);
+                if (adj != "")
+                    i++;
+            }
+            if (adj == "")
+                adj = cxlate(_context, adjs[i] + " ", true);
+        }
 
         if (adj[0] == ' ')
             postfix_adjs = adj + postfix_adjs;
