@@ -74,14 +74,14 @@ KEY:/^the (?=[aeiouAEIOU])/an /
 KEY:/^the /a /
 
 # articles
-/^(\{m\})?der /ein /
-/^(\{f\})?die /eine /
+/^(\{m\})?der /{m}ein /
+/^(\{f\})?die /{f}eine /
 /^(\{n\})?das /{n}ein /
 # plural
 /^(\{pl\})?die /{pl}/
 
 # masc adjectives
-/^ein [^A-ZÄÖÜ]+/e\b/er/
+/^\{m\}ein [^A-ZÄÖÜ]+/e\b/er/
 
 # fix some special cases
 /e (?=(Drakonier|Yiuf))/er /
@@ -152,7 +152,7 @@ KEY:/^(a|an) //
 
 # remove article from value
 /^(\{m\})?ein /{m}/
-/^eine /{f}/
+/^(\{f\})?eine /{f}/
 /^\{n\}ein /{n}/
 
 # if there are now two context markers in a row, remove the first one (it's superfluous).
