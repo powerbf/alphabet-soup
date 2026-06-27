@@ -150,10 +150,10 @@ an Ossuary
 um Ossuário
 %%%%
 a Bailey
-uma Fortaleza
+{f}uma Fortaleza
 %%%%
 an Ice Cave
-uma Caverna de Gelo
+{f}uma Caverna de Gelo
 %%%%
 a Volcano
 um Vulcão
@@ -244,13 +244,13 @@ an ossuary
 um ossuário
 %%%%
 a bailey
-uma fortaleza
+{f}uma fortaleza
 %%%%
 a Gauntlet
 um labirinto
 %%%%
 an ice cave
-uma caverna de gelo
+{f}uma caverna de gelo
 %%%%
 a volcano
 um vulcão

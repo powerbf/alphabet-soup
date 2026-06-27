@@ -526,16 +526,16 @@ a detected shop or portal
 # extras from .des files
 %%%%
 an adventurer's gravestone
-uma lápide de aventureiro
+{f}uma lápide de aventureiro
 %%%%
 an ash-covered pillar
 um pilar coberto de cinzas
 %%%%
 an autumnal tree
-uma árvore outonal
+{f}uma árvore outonal
 %%%%
 a black wall
-uma parede negra
+{f}uma parede negra
 %%%%
 a broken pillar
 um pilar quebrado
@@ -544,10 +544,10 @@ a broken wreckage
 um destroço
 %%%%
 a carved rock wall
-uma parede de rocha esculpida
+{f}uma parede de rocha esculpida
 %%%%
 a crumbled stone wall
-uma parede de pedra desmoronada
+{f}uma parede de pedra desmoronada
 %%%%
 a damp floor
 um chão úmido
@@ -556,64 +556,64 @@ a dead mangrove
 um mangue morto
 %%%%
 a dead tree
-uma árvore morta
+{f}uma árvore morta
 %%%%
 a glass window
-uma janela de vidro
+{f}uma janela de vidro
 %%%%
 a golden statue
-uma estátua dourada
+{f}uma estátua dourada
 %%%%
 a golden wall
-uma parede dourada
+{f}uma parede dourada
 %%%%
 a granite statue wielding a fearsome trident
-uma estátua de granito empunhando um tridente temível
+{f}uma estátua de granito empunhando um tridente temível
 %%%%
 a granite statue wielding a mighty axe
-uma estátua de granito empunhando um machado poderoso
+{f}uma estátua de granito empunhando um machado poderoso
 %%%%
 a gravestone
-uma lápide
+{f}uma lápide
 %%%%
 a heavily etched crystal wall
-uma parede de cristal profundamente gravada
+{f}uma parede de cristal profundamente gravada
 %%%%
 a heavily etched metal wall
-uma parede de metal profundamente gravada
+{f}uma parede de metal profundamente gravada
 %%%%
 a highly decorated stone wall
-uma parede de pedra altamente decorada
+{f}uma parede de pedra altamente decorada
 %%%%
 an ice choked empty arch of ancient stone
 um arco vazio de pedra antiga obstruído por gelo
 %%%%
 an ice covered rock wall
-uma parede de rocha coberta de gelo
+{f}uma parede de rocha coberta de gelo
 %%%%
 an ice-covered rock wall
-uma parede de rocha coberta de gelo
+{f}uma parede de rocha coberta de gelo
 %%%%
 an ice-covered stone wall
-uma parede de pedra coberta de gelo
+{f}uma parede de pedra coberta de gelo
 %%%%
 an iron statue
-uma estátua de ferro
+{f}uma estátua de ferro
 %%%%
 a large window
-uma grande janela
+{f}uma grande janela
 %%%%
 a merfolk statue
-uma estátua de tritão
+{f}uma estátua de tritão
 %%%%
 a one-way staircase leading down
-uma escada de mão única descendo
+{f}uma escada de mão única descendo
 %%%%
 a one-way staircase leading up
-uma escada de mão única subindo
+{f}uma escada de mão única subindo
 %%%%
 an otherworldly statue
-uma estátua sobrenatural
+{f}uma estátua sobrenatural
 %%%%
 a pulsating floor
 um chão pulsante
@@ -628,10 +628,10 @@ a ruined idol
 um ídolo arruinado
 %%%%
 a rune-carved clear stone wall
-uma parede de pedra translúcida com runas esculpidas
+{f}uma parede de pedra translúcida com runas esculpidas
 %%%%
 a rune-carved stone wall
-uma parede de pedra com runas esculpidas
+{f}uma parede de pedra com runas esculpidas
 %%%%
 a sarcophagus
 um sarcófago
@@ -640,37 +640,37 @@ a sealed sarcophagus
 um sarcófago selado
 %%%%
 a silver wall
-uma parede prateada
+{f}uma parede prateada
 %%%%
 a sinewy wall
-uma parede fibrosa
+{f}uma parede fibrosa
 %%%%
 a spawn point
 um ponto de surgimento
 %%%%
 a statue of a hideous four-limbed creature
-uma estátua de uma criatura horrenda de quatro membros
+{f}uma estátua de uma criatura horrenda de quatro membros
 %%%%
 a strange rock wall
-uma estranha parede de rocha
+{f}uma estranha parede de rocha
 %%%%
 a strange statue
-uma estátua estranha
+{f}uma estátua estranha
 %%%%
 a tempered metal wall
-uma parede de metal temperado
+{f}uma parede de metal temperado
 %%%%
 a thin membrane
-uma membrana fina
+{f}uma membrana fina
 %%%%
 a wall of crystal
-uma parede de cristal
+{f}uma parede de cristal
 %%%%
 a wall of white crystal
-uma parede de cristal branco
+{f}uma parede de cristal branco
 %%%%
 a weirdly glowing ball
-uma esfera estranhamente brilhante
+{f}uma esfera estranhamente brilhante
 %%%%
 a fleshy orifice
 um orifício carnudo

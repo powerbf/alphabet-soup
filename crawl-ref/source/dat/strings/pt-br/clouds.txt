@@ -49,7 +49,7 @@ steam
 vapor
 %%%%
 a cloud of scalding steam
-uma nuvem de vapor escaldante
+{f}uma nuvem de vapor escaldante
 %%%%
 ink
 tinta
@@ -100,7 +100,7 @@ thunder
 trovão
 %%%%
 a thunderstorm
-uma tempestade
+{f}uma tempestade
 %%%%
 negative energy
 energia negativa
