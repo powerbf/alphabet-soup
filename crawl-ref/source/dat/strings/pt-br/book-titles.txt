@@ -257,34 +257,34 @@ Grandes Magos, Vol. VII
 # generic names
 %%%%
 the Tome of @book_magic@
-o Tomo {poss}@book_magic@
+{m}o Tomo {poss}@book_magic@
 %%%%
 the Grimoire of @book_magic@
-o Grimório {poss}@book_magic@
+{m}o Grimório {poss}@book_magic@
 %%%%
 the Almanac of @book_magic@
-o Almanaque {poss}@book_magic@
+{m}o Almanaque {poss}@book_magic@
 %%%%
 the Volume of @book_magic@
-o Volume {poss}@book_magic@
+{m}o Volume {poss}@book_magic@
 %%%%
 the Compendium of @book_magic@
-o Compêndio {poss}@book_magic@
+{m}o Compêndio {poss}@book_magic@
 %%%%
 the Handbook of @book_magic@
-o Manual {poss}@book_magic@
+{m}o Manual {poss}@book_magic@
 %%%%
 the Incunabulum of @book_magic@
-o Incunábulo {poss}@book_magic@
+{m}o Incunábulo {poss}@book_magic@
 %%%%
 the Papyrus of @book_magic@
-o Papiro {poss}@book_magic@
+{m}o Papiro {poss}@book_magic@
 %%%%
 the Catalogue of @book_magic@
-o Catálogo {poss}@book_magic@
+{m}o Catálogo {poss}@book_magic@
 %%%%
 the Guide on @book_magic@
-o Guia sobre @book_magic@
+{m}o Guia sobre @book_magic@
 %%%%
 the Collected Works on @book_magic@
 as Obras Completas sobre @book_magic@
@@ -293,7 +293,7 @@ the Disquisition on @book_magic@
 a Dissertação sobre @book_magic@
 %%%%
 the Reference Book on @book_magic@
-o Livro de Referência sobre @book_magic@
+{m}o Livro de Referência sobre @book_magic@
 %%%%
 
 # generic names capitalised
@@ -1212,7 +1212,7 @@ a %sChama
 %sIgnição
 %%%%
 the %sArsonist
-o %sArsonita
+{m}o %sArsonita
 %%%%
 
 # Hexes
@@ -1227,7 +1227,7 @@ o %sArsonita
 %sMalefício
 %%%%
 the %sOath
-o %sJuramento
+{m}o %sJuramento
 %%%%
 %sExecration
 %sExecração
@@ -1362,7 +1362,7 @@ a %sEscolta
 %sOrientação
 %%%%
 the %sTraveller
-o %sViajante
+{m}o %sViajante
 %%%%
 the %sCompass
 a %sBússola
@@ -2254,7 +2254,7 @@ Reanimation Made Easy
 Reanimação Facilitada
 %%%%
 the Zealot
-o Zelote
+{m}o Zelote
 %%%%
 Fire and Brimstone
 Fogo e Enxofre

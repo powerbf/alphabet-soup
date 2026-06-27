@@ -20,19 +20,19 @@ punição
 
 %%%%
 the deck of escape
-o baralho de fuga
+{m}o baralho de fuga
 %%%%
 the deck of destruction
-o baralho de destruição
+{m}o baralho de destruição
 %%%%
 the deck of summoning
-o baralho de invocação
+{m}o baralho de invocação
 %%%%
 the deck of punishment
-o baralho de punição
+{m}o baralho de punição
 %%%%
 the stacked deck
-o baralho empilhado
+{m}o baralho empilhado
 %%%%
 
 %%%%
@@ -79,7 +79,7 @@ Exile
 Exílio
 %%%%
 the Elixir
-o Elixir
+{m}o Elixir
 %%%%
 the Stairs
 as Escadas
@@ -94,13 +94,13 @@ the Elements
 os Elementos
 %%%%
 the Pentagram
-o Pentagrama
+{m}o Pentagrama
 %%%%
 the Dance
 a Dança
 %%%%
 the Swarm
-o Enxame
+{m}o Enxame
 %%%%
 the Rangers
 os Patrulheiros
@@ -118,13 +118,13 @@ Wrath
 Ira
 %%%%
 the Wraith
-o Espectro
+{m}o Espectro
 %%%%
 the Swine
-o Suíno
+{m}o Suíno
 %%%%
 the Orb
-o Orbe
+{m}o Orbe
 %%%%
 the Illusion
 a Ilusão

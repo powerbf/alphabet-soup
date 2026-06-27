@@ -9,7 +9,7 @@
 ################################
 %%%%
 the unknown terrain
-o terreno desconhecido
+{m}o terreno desconhecido
 %%%%
 the travel trail
 a trilha de viagem
@@ -18,7 +18,7 @@ the door
 a porta
 %%%%
 the gate
-o portão
+{m}o portão
 %%%%
 # make sure translucide is first postnominal adjective
 the translucent door
@@ -26,7 +26,7 @@ a porta translúcida
 %%%%
 # make sure translucide is first postnominal adjective
 the translucent gate
-o portão translúcido
+{m}o portão translúcido
 %%%%
 %%%%
 the tree
@@ -42,7 +42,7 @@ the petrified tree
 a árvore petrificada
 %%%%
 the mangrove
-o manguezal
+{m}o manguezal
 %%%%
 the metal wall
 a parede de metal
@@ -81,7 +81,7 @@ the iron grate
 a grade de ferro
 %%%%
 the open sea
-o mar aberto
+{m}o mar aberto
 %%%%
 the endless lava
 a lava infinita
@@ -90,16 +90,16 @@ the endless expanse of salt
 a extensão infinita de sal
 %%%%
 the orcish idol
-o ídolo orc
+{m}o ídolo orc
 %%%%
 the granite statue
 a estátua de granito
 %%%%
 the portal
-o portal
+{m}o portal
 %%%%
 the portal to somewhere
-o portal para algum lugar
+{m}o portal para algum lugar
 %%%%
 the lava
 a lava
@@ -111,10 +111,10 @@ the shallow water
 a água rasa
 %%%%
 the toxic bog
-o pântano tóxico
+{m}o pântano tóxico
 %%%%
 the floor
-o chão
+{m}o chão
 %%%%
 the collapsed entrance
 a entrada desmoronada
@@ -171,7 +171,7 @@ the passage of Golubria
 a passagem de Golubria
 %%%%
 the shaft
-o poço
+{m}o poço
 %%%%
 the web
 a teia
@@ -183,7 +183,7 @@ the abandoned shop
 a loja abandonada
 %%%%
 the empty arch of ancient stone
-o arco vazio de pedra antiga
+{m}o arco vazio de pedra antiga
 %%%%
 the detected shop or portal
 a loja ou portal detectado
@@ -210,100 +210,100 @@ the labyrinth entrance
 a entrada do labirinto
 %%%%
 the gateway to the Iron City of Dis
-o portal para a Cidade de Ferro de Dis
+{m}o portal para a Cidade de Ferro de Dis
 %%%%
 the gateway to the ashen valley of Gehenna
-o portal para o vale cinzento de Geena
+{m}o portal para o vale cinzento de Geena
 %%%%
 the gateway to the freezing wastes of Cocytus
-o portal para os ermos gelados de Cócito
+{m}o portal para os ermos gelados de Cócito
 %%%%
 the gateway to the decaying netherworld of Tartarus
-o portal para o mundo inferior decadente de Tártaro
+{m}o portal para o mundo inferior decadente de Tártaro
 %%%%
 the gateway to Hell
-o portal para o Inferno
+{m}o portal para o Inferno
 %%%%
 the gateway back into the Dungeon
-o portal de volta para o Calabouço
+{m}o portal de volta para o Calabouço
 %%%%
 the one-way gate to the infinite horrors of the Abyss
-o portal de mão única para os horrores infinitos do Abismo
+{m}o portal de mão única para os horrores infinitos do Abismo
 %%%%
 the exit through the horrors of the Abyss
 a saída através dos horrores do Abismo
 %%%%
 the gateway leading out of the Abyss
-o portal que sai do Abismo
+{m}o portal que sai do Abismo
 %%%%
 the one-way gate leading to the halls of Pandemonium
-o portal de mão única para os salões do Pandemônio
+{m}o portal de mão única para os salões do Pandemônio
 %%%%
 the gate leading to another region of Pandemonium
-o portal para outra região do Pandemônio
+{m}o portal para outra região do Pandemônio
 %%%%
 the gate leading out of Pandemonium
-o portal que sai do Pandemônio
+{m}o portal que sai do Pandemônio
 %%%%
 the gate to the Vaults
-o portal para as Câmaras Fortes
+{m}o portal para as Câmaras Fortes
 %%%%
 the gate leading back out of this place
-o portal de saída deste lugar
+{m}o portal de saída deste lugar
 %%%%
 the gate to the Realm of Zot
-o portal para o Reino de Zot
+{m}o portal para o Reino de Zot
 %%%%
 the gate leading to a distant place
-o portal para um lugar distante
+{m}o portal para um lugar distante
 %%%%
 the gateway to a ziggurat
-o portal para um zigurate
+{m}o portal para um zigurate
 %%%%
 the gateway to a bazaar
-o portal para um bazar
+{m}o portal para um bazar
 %%%%
 the flickering gateway to a bazaar
-o portal cintilante para um bazar
+{m}o portal cintilante para um bazar
 %%%%
 the portal to a secret trove of treasure
-o portal para um tesouro secreto
+{m}o portal para um tesouro secreto
 %%%%
 the glowing drain
-o ralo brilhante
+{m}o ralo brilhante
 %%%%
 the sand-covered staircase
 a escadaria coberta de areia
 %%%%
 the flagged portal
-o portal marcado
+{m}o portal marcado
 %%%%
 the gate leading to a gauntlet
-o portal para um desafio
+{m}o portal para um desafio
 %%%%
 the frozen archway
-o arco congelado
+{m}o arco congelado
 %%%%
 the dark tunnel
-o túnel escuro
+{m}o túnel escuro
 %%%%
 the magical portal
-o portal mágico
+{m}o portal mágico
 %%%%
 the ruined gateway
-o portal arruinado
+{m}o portal arruinado
 %%%%
 the crumbling gateway
-o portal em ruínas
+{m}o portal em ruínas
 %%%%
 the ice covered gate leading back out of this place
-o portal coberto de gelo que sai deste lugar
+{m}o portal coberto de gelo que sai deste lugar
 %%%%
 the rocky tunnel leading out of this place
-o túnel rochoso que sai deste lugar
+{m}o túnel rochoso que sai deste lugar
 %%%%
 the portal leading out of this place
-o portal que sai deste lugar
+{m}o portal que sai deste lugar
 %%%%
 the staircase leading out of the dungeon
 a escadaria que sai do Calabouço
@@ -363,100 +363,100 @@ the staircase to the Shoals
 a escadaria para os Recifes
 %%%%
 the hole to the Spider Nest
-o buraco para o Ninho de Aranhas
+{m}o buraco para o Ninho de Aranhas
 %%%%
 the crawl-hole back to the Lair
-o buraco de rastejamento de volta para o Covil
+{m}o buraco de rastejamento de volta para o Covil
 %%%%
 the staircase to the Depths
 a escadaria para as Profundezas
 %%%%
 the altar
-o altar
+{m}o altar
 %%%%
 the detected altar
-o altar detectado
+{m}o altar detectado
 %%%%
 the glowing silver altar of Zin
-o altar prateado brilhante de Zin
+{m}o altar prateado brilhante de Zin
 %%%%
 the glowing golden altar of the Shining One
-o altar dourado brilhante do Ser Radiante
+{m}o altar dourado brilhante do Ser Radiante
 %%%%
 the ancient bone altar of Kikubaaqudgha
-o altar de ossos antigos de Kikubaaqudgha
+{m}o altar de ossos antigos de Kikubaaqudgha
 %%%%
 the basalt altar of Yredelemnul
-o altar de basalto de Yredelemnul
+{m}o altar de basalto de Yredelemnul
 %%%%
 the shimmering altar of Xom
-o altar cintilante de Xom
+{m}o altar cintilante de Xom
 %%%%
 the radiant altar of Vehumet
-o altar radiante de Vehumet
+{m}o altar radiante de Vehumet
 %%%%
 the iron altar of Okawaru
-o altar de ferro de Okawaru
+{m}o altar de ferro de Okawaru
 %%%%
 the burning altar of Makhleb
-o altar ardente de Makhleb
+{m}o altar ardente de Makhleb
 %%%%
 the shimmering blue altar of Sif Muna
-o altar azul cintilante de Sif Muna
+{m}o altar azul cintilante de Sif Muna
 %%%%
 the bloodstained altar of Trog
-o altar manchado de sangue de Trog
+{m}o altar manchado de sangue de Trog
 %%%%
 the sparkling altar of Nemelex Xobeh
-o altar reluzente de Nemelex Xobeh
+{m}o altar reluzente de Nemelex Xobeh
 %%%%
 the white marble altar of Elyvilon
-o altar de mármore branco de Elyvilon
+{m}o altar de mármore branco de Elyvilon
 %%%%
 the corrupted altar of Lugonu
-o altar corrompido de Lugonu
+{m}o altar corrompido de Lugonu
 %%%%
 the roughly hewn altar of Beogh
-o altar grosseiramente talhado de Beogh
+{m}o altar grosseiramente talhado de Beogh
 %%%%
 the viscous altar of Jiyva
-o altar viscoso de Jiyva
+{m}o altar viscoso de Jiyva
 %%%%
 the blossoming altar of Fedhas
-o altar florido de Fedhas
+{m}o altar florido de Fedhas
 %%%%
 the snail-covered altar of Cheibriados
-o altar coberto de caracóis de Cheibriados
+{m}o altar coberto de caracóis de Cheibriados
 %%%%
 the broken altar of Ashenzari
-o altar quebrado de Ashenzari
+{m}o altar quebrado de Ashenzari
 %%%%
 the shadowy altar of Dithmenos
-o altar sombrio de Dithmenos
+{m}o altar sombrio de Dithmenos
 %%%%
 the opulent altar of Gozag
-o altar opulento de Gozag
+{m}o altar opulento de Gozag
 %%%%
 the stormy altar of Qazlal
-o altar tempestuoso de Qazlal
+{m}o altar tempestuoso de Qazlal
 %%%%
 the sacrificial altar of Ru
-o altar sacrificial de Ru
+{m}o altar sacrificial de Ru
 %%%%
 the faded altar of an unknown god
-o altar desbotado de um deus desconhecido
+{m}o altar desbotado de um deus desconhecido
 %%%%
 the oddly glowing altar of Pakellas
-o altar estranhamente brilhante de Pakellas
+{m}o altar estranhamente brilhante de Pakellas
 %%%%
 the hide-covered altar of Uskayaw
-o altar coberto de pele de Uskayaw
+{m}o altar coberto de pele de Uskayaw
 %%%%
 the hazy altar of Hepliaklqana
-o altar nebuloso de Hepliaklqana
+{m}o altar nebuloso de Hepliaklqana
 %%%%
 the ornate altar of the Wu Jian Council
-o altar ornamentado do Conselho Wu Jian
+{m}o altar ornamentado do Conselho Wu Jian
 %%%%
 the fountain
 a fonte
@@ -474,16 +474,16 @@ the dry fountain
 a fonte seca
 %%%%
 the short-range portal
-o portal de curto alcance
+{m}o portal de curto alcance
 %%%%
 the teleporter
-o teletransportador
+{m}o teletransportador
 %%%%
 the transporter
-o transportador
+{m}o transportador
 %%%%
 the transporter landing site
-o local de pouso do transportador
+{m}o local de pouso do transportador
 %%%%
 the sealed passage leading up
 a passagem selada que sobe
@@ -492,7 +492,7 @@ the sealed passage leading down
 a passagem selada que desce
 %%%%
 the gateway leading deeper into the Abyss
-o portal que leva mais fundo no Abismo
+{m}o portal que leva mais fundo no Abismo
 %%%%
 
 # from .des files
@@ -501,13 +501,13 @@ The dimension's edge
 a borda da dimensão
 %%%%
 the damp floor
-o chão úmido
+{m}o chão úmido
 %%%%
 the pulsating floor
-o chão pulsante
+{m}o chão pulsante
 %%%%
 the rough-hewn floor
-o chão grosseiramente talhado
+{m}o chão grosseiramente talhado
 %%%%
 
 ################################

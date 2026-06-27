@@ -9,55 +9,55 @@
 ##############################################
 %%%%
 the Barachi
-o Barachi
+{m}o Barachi
 %%%%
 the Deep Dwarf
-o Anão das Profundezas
+{m}o Anão das Profundezas
 %%%%
 the Deep Elf
-o Elfo das Profundezas
+{m}o Elfo das Profundezas
 %%%%
 the Demigod
-o Semideus
+{m}o Semideus
 %%%%
 the Demonspawn
-o Prole Demoníaca
+{m}o Prole Demoníaca
 %%%%
 the Djinni
-o Djinni
+{m}o Djinni
 %%%%
 the Draconian
-o Draconiano
+{m}o Draconiano
 %%%%
 the Felid
-o Felídeo
+{m}o Felídeo
 %%%%
 the Formicid
-o Formicídeo
+{m}o Formicídeo
 %%%%
 the Gargoyle
 a Gárgula
 %%%%
 the Ghoul
-o Ghoul
+{m}o Ghoul
 %%%%
 the Gnoll
-o Gnoll
+{m}o Gnoll
 %%%%
 the Hill Orc
-o Orc da Colina
+{m}o Orc da Colina
 %%%%
 the Human
-o Humano
+{m}o Humano
 %%%%
 the Kobold
-o Kobold
+{m}o Kobold
 %%%%
 the Merfolk
-o Tritão
+{m}o Tritão
 %%%%
 the Minotaur
-o Minotauro
+{m}o Minotauro
 %%%%
 the Mummy
 a Múmia
@@ -66,46 +66,46 @@ the Naga
 a Naga
 %%%%
 the Octopode
-o Octópode
+{m}o Octópode
 %%%%
 the Ogre
-o Ogro
+{m}o Ogro
 %%%%
 the Palentonga
-o Palentonga
+{m}o Palentonga
 %%%%
 the Spriggan
-o Spriggan
+{m}o Spriggan
 %%%%
 the Tengu
-o Ará
+{m}o Ará
 %%%%
 the Troll
-o Troll
+{m}o Troll
 %%%%
 the Vampire
-o Vampiro
+{m}o Vampiro
 %%%%
 the Vine Stalker
-o Vine Stalker
+{m}o Vine Stalker
 %%%%
 
 # obsolete (can still appear in highscores list, and maybe as ghosts)
 %%%%
 the Halfling
-o Pequenino
+{m}o Pequenino
 %%%%
 the Centaur
-o Centauro
+{m}o Centauro
 %%%%
 the Sludge Elf
-o Elfo da Lama
+{m}o Elfo da Lama
 %%%%
 the High Elf
-o Alto Elfo
+{m}o Alto Elfo
 %%%%
 the Lava Orc
-o Orc de Lava
+{m}o Orc de Lava
 %%%%
 
 ##############################################
@@ -113,31 +113,31 @@ o Orc de Lava
 ##############################################
 %%%%
 the Mottled Draconian
-o Draconiano Mosqueado
+{m}o Draconiano Mosqueado
 %%%%
 the Black Draconian
-o Draconiano Negro
+{m}o Draconiano Negro
 %%%%
 the Green Draconian
-o Draconiano Verde
+{m}o Draconiano Verde
 %%%%
 the Grey Draconian
-o Draconiano Cinza
+{m}o Draconiano Cinza
 %%%%
 the Pale Draconian
-o Draconiano Pálido
+{m}o Draconiano Pálido
 %%%%
 the Purple Draconian
-o Draconiano Roxo
+{m}o Draconiano Roxo
 %%%%
 the Red Draconian
-o Draconiano Vermelho
+{m}o Draconiano Vermelho
 %%%%
 the White Draconian
-o Draconiano Branco
+{m}o Draconiano Branco
 %%%%
 the Yellow Draconian
-o Draconiano Amarelo
+{m}o Draconiano Amarelo
 %%%%
 
 ##############################################
@@ -147,23 +147,23 @@ o Draconiano Amarelo
 %%%%
 # Barachi
 the Frog
-o Sapo
+{m}o Sapo
 %%%%
 # Deep Dwarf
 the Dwarf
-o Anão
+{m}o Anão
 %%%%
 # Deep Elf
 the Elf
-o Elfo
+{m}o Elfo
 %%%%
 # Demigod
 the God
-o Deus
+{m}o Deus
 %%%%
 # Felid
 the Cat
-o Gato
+{m}o Gato
 %%%%
 # Formicid
 the Ant
@@ -171,11 +171,11 @@ a Formiga
 %%%%
 # Octopode
 the Octopus
-o Polvo
+{m}o Polvo
 %%%%
 # Lava Orc
 the Orc
-o Orc
+{m}o Orc
 %%%%
 
 ##############################################
@@ -184,7 +184,7 @@ o Orc
 %%%%
 # Barachi
 the frog
-o sapo
+{m}o sapo
 %%%%
 # Deep Dwarf
 # duplicate of monster
@@ -198,11 +198,11 @@ o sapo
 %%%%
 # Demigod
 the god
-o deus
+{m}o deus
 %%%%
 # Felid
 the cat
-o gato
+{m}o gato
 %%%%
 # Formicid
 the ant
@@ -210,7 +210,7 @@ a formiga
 %%%%
 # Octopode
 the octopus
-o octópode
+{m}o octópode
 %%%%
 # Lava Orc
 # duplicate of monster
@@ -223,76 +223,76 @@ o octópode
 ##############################################
 %%%%
 the Fighter
-o Lutador
+{m}o Lutador
 %%%%
 the Gladiator
-o Gladiador
+{m}o Gladiador
 %%%%
 the Monk
-o Monge
+{m}o Monge
 %%%%
 the Hunter
-o Caçador
+{m}o Caçador
 %%%%
 the Berserker
-o Berserker
+{m}o Berserker
 %%%%
 the Brigand
-o Bandoleiro
+{m}o Bandoleiro
 %%%%
 the Abyssal Knight
-o Cavaleiro Abissal
+{m}o Cavaleiro Abissal
 %%%%
 the Chaos Knight
-o Cavaleiro do Caos
+{m}o Cavaleiro do Caos
 %%%%
 the Enchanter
-o Encantador
+{m}o Encantador
 %%%%
 the Transmuter
-o Transmutador
+{m}o Transmutador
 %%%%
 the Arcane Marksman
-o Atirador Arcano
+{m}o Atirador Arcano
 %%%%
 the Warper
-o Warper
+{m}o Warper
 %%%%
 the Hedge Wizard
-o Mago Amador
+{m}o Mago Amador
 %%%%
 the Conjurer
-o Conjurador
+{m}o Conjurador
 %%%%
 the Summoner
-o Invocador
+{m}o Invocador
 %%%%
 the Necromancer
-o Necromante
+{m}o Necromante
 %%%%
 the Fire Elementalist
-o Elementalista do Fogo
+{m}o Elementalista do Fogo
 %%%%
 the Ice Elementalist
-o Elementalista do Gelo
+{m}o Elementalista do Gelo
 %%%%
 the Air Elementalist
-o Elementalista do Ar
+{m}o Elementalista do Ar
 %%%%
 the Earth Elementalist
-o Elementalista da Terra
+{m}o Elementalista da Terra
 %%%%
 the Venom Mage
-o Mago do Veneno
+{m}o Mago do Veneno
 %%%%
 the Artificer
-o Artífice
+{m}o Artífice
 %%%%
 the Delver
-o Explorador
+{m}o Explorador
 %%%%
 the Wanderer
-o Andarilho
+{m}o Andarilho
 %%%%
 
 ##############################################
@@ -302,74 +302,74 @@ o Andarilho
 ##############################################
 %%%%
 the @species@ Fighter
-o Lutador @species@
+{m}o Lutador @species@
 %%%%
 the @species@ Gladiator
-o Gladiador @species@
+{m}o Gladiador @species@
 %%%%
 the @species@ Monk
-o Monge @species@
+{m}o Monge @species@
 %%%%
 the @species@ Hunter
-o Caçador @species@
+{m}o Caçador @species@
 %%%%
 the @species@ Berserker
-o Berserker @species@
+{m}o Berserker @species@
 %%%%
 the @species@ Brigand
-o Bandoleiro @species@
+{m}o Bandoleiro @species@
 %%%%
 the @species@ Abyssal Knight
-o Cavaleiro Abissal @species@
+{m}o Cavaleiro Abissal @species@
 %%%%
 the @species@ Chaos Knight
-o Cavaleiro do Caos @species@
+{m}o Cavaleiro do Caos @species@
 %%%%
 the @species@ Enchanter
-o Encantador @species@
+{m}o Encantador @species@
 %%%%
 the @species@ Transmuter
-o Transmutador @species@
+{m}o Transmutador @species@
 %%%%
 the @species@ Arcane Marksman
-o Atirador Arcano @species@
+{m}o Atirador Arcano @species@
 %%%%
 the @species@ Warper
-o Warper @species@
+{m}o Warper @species@
 %%%%
 the @species@ Hedge Wizard
-o Mago Amador @species@
+{m}o Mago Amador @species@
 %%%%
 the @species@ Conjurer
-o Conjurador @species@
+{m}o Conjurador @species@
 %%%%
 the @species@ Summoner
-o Invocador @species@
+{m}o Invocador @species@
 %%%%
 the @species@ Necromancer
-o Necromante @species@
+{m}o Necromante @species@
 %%%%
 the @species@ Fire Elementalist
-o Elementalista do Fogo @species@
+{m}o Elementalista do Fogo @species@
 %%%%
 the @species@ Ice Elementalist
-o Elementalista do Gelo @species@
+{m}o Elementalista do Gelo @species@
 %%%%
 the @species@ Air Elementalist
-o Elementalista do Ar @species@
+{m}o Elementalista do Ar @species@
 %%%%
 the @species@ Earth Elementalist
-o Elementalista da Terra @species@
+{m}o Elementalista da Terra @species@
 %%%%
 the @species@ Venom Mage
-o Mago do Veneno @species@
+{m}o Mago do Veneno @species@
 %%%%
 the @species@ Artificer
-o Artífice @species@
+{m}o Artífice @species@
 %%%%
 the @species@ Delver
-o Explorador @species@
+{m}o Explorador @species@
 %%%%
 the @species@ Wanderer
-o Andarilho @species@
+{m}o Andarilho @species@
 %%%%

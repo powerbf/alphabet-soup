@@ -175,7 +175,7 @@ the Dungeon
 a Masmorra
 %%%%
 the Ecumenical Temple
-o Templo Ecumênico
+{m}o Templo Ecumênico
 %%%%
 the Orcish Mines
 as Minas dos Orcs
@@ -184,19 +184,19 @@ the Elven Halls
 os Salões Élficos
 %%%%
 the Lair of Beasts
-o Covil das Feras
+{m}o Covil das Feras
 %%%%
 the Swamp
-o Pântano
+{m}o Pântano
 %%%%
 the Shoals
 os Recifes
 %%%%
 the Snake Pit
-o Fosso das Serpentes
+{m}o Fosso das Serpentes
 %%%%
 the Spider Nest
-o Ninho de Aranhas
+{m}o Ninho de Aranhas
 %%%%
 the Pits of Slime
 os Poços de Slime
@@ -217,16 +217,16 @@ the Hells
 os Infernos
 %%%%
 the Vestibule of Hell
-o Vestíbulo do Inferno
+{m}o Vestíbulo do Inferno
 %%%%
 the Iron City of Dis
 a Cidade de Ferro de Dis
 %%%%
 the Realm of Zot
-o Reino de Zot
+{m}o Reino de Zot
 %%%%
 the Abyss
-o Abismo
+{m}o Abismo
 %%%%
 a ziggurat
 um zigurate
