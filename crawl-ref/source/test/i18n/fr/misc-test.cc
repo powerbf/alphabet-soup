@@ -59,4 +59,6 @@ int main()
 
     msg = localise("large closed door, spattered with blood");
     show_result(msg, "grande porte fermée, éclaboussée de sang");
+
+    return num_fails;
 }

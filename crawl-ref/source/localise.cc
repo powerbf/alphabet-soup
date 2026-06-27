@@ -1491,10 +1491,10 @@ static string _localise_list(const string context, const string& s)
     for (string sub: substrings)
     {
         // Make sure the "higher-level" context persists (e.g. in German, the whole list should be in the same case).
-        // Also, if it's a list of substantives, we don't want the gender to carry over to the next item.
-        _context = context;
+        if (context != "")
+            _context = context;
 
-        string temp = _discard_context(_localise_string(_context, sub));
+        string temp = _shift_context(_localise_string(_context, sub));
         TRACE("substring '%s' -> '%s'",  sub.c_str(), temp.c_str());
         if (temp == sub) {
             string temp2 = _localise_list(context, sub);
