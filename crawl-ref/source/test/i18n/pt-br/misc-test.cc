@@ -44,33 +44,68 @@ int main()
 
     string msg;
 
+    // nouns with definite article
+    msg = localise("the gate");
+    show_result(msg, "o portão");
     msg = localise("the door");
     show_result(msg, "a porta");
 
+    // nouns with indefinite article
+    msg = localise("a gate");
+    show_result(msg, "um portão");
     msg = localise("a door");
     show_result(msg, "uma porta");
 
-    msg = localise("a large door");
-    show_result(msg, "uma porta grande");
+    // nouns with adjective that changes with gender
+    msg = localise("a closed gate");
+    show_result(msg, "um portão fechado");
+    msg = localise("a closed door");
+    show_result(msg, "uma porta fechada");
+    msg = localise("an open gate");
+    show_result(msg, "um portão aberto");
+    msg = localise("an open door");
+    show_result(msg, "uma porta aberta");
 
-    msg = localise("a very large door");
-    show_result(msg, "uma porta muito grande");
+    // nouns with adjective that doesn't change with gender
+    msg = localise("a pink gate");
+    show_result(msg, "um portão rosa");
+    msg = localise("a pink door");
+    show_result(msg, "uma porta rosa");
 
-    //msg = localise("2 very large doors");
-    //show_result(msg, "2 portas muito grandes");
-
-    msg = localise("the gate");
-    show_result(msg, "o portão");
-
-    msg = localise("a gate");
-    show_result(msg, "um portão");
+    msg = localise("a cyan gate");
+    show_result(msg, "um portão ciano");
+    msg = localise("a cyan door");
+    show_result(msg, "uma porta ciano");
 
     msg = localise("a large gate");
     show_result(msg, "um portão grande");
+    msg = localise("a large door");
+    show_result(msg, "uma porta grande");
 
+    // nouns with adverb and adjective
     msg = localise("a very large gate");
     show_result(msg, "um portão muito grande");
+    msg = localise("a very large door");
+    show_result(msg, "uma porta muito grande");
 
+    // nouns with adjective that becomes "with <whatever>"
+    msg = localise("a runed gate");
+    show_result(msg, "um portão com runas");
+    msg = localise("a runed door");
+    show_result(msg, "uma porta com runas");
+
+    msg = localise("a topaz-encrusted gate");
+    show_result(msg, "um portão incrustado com topázio");
+    msg = localise("a topaz-encrusted door");
+    show_result(msg, "uma porta incrustada com topázio");
+
+    msg = localise("a emerald-encrusted gate");
+    show_result(msg, "um portão incrustado com esmeralda");
+    msg = localise("a emerald-encrusted door");
+    show_result(msg, "uma porta incrustada com esmeralda");
+
+    //msg = localise("2 very large doors");
+    //show_result(msg, "2 portas muito grandes");
     // msg = localise("2 very large doors");
     // show_result(msg, "2 portãos muito grandes");
 
