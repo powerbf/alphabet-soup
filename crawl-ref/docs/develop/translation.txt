@@ -169,7 +169,7 @@ Then for "door", I do:
 
 This will give "grande porte".
 
-You could define specific contexts for each gender, like this:
+You can define adjectives for each gender and singular/plural, like this:
 
 %%%%
 "{m}large "
@@ -178,28 +178,25 @@ You could define specific contexts for each gender, like this:
 "{f}large "
 "grande "
 %%%%
-
-However, it's recommended to make one of them the default, by defining the
-strings without a specific context, like this:
-
+"{mpl}large "
+"grands "
 %%%%
-"large "
-"grand "
-%%%%
-"{f}large "
-"grande "
+"{fpl}large "
+"grandes "
 %%%%
 
-The reason being that the program will fall back to the default context if it
-can't find a translation in the specific context or if no context is specified,
-but if it can't find a default translation, it will fall back to English.
-Getting a word with the wrong gender is probably preferable to getting a word in
-the wrong language.
+However, in order to reduce the workload, it's recommended to define one form and
+pre-generate the others using rules in grammar.txt (see below).
 
-You can choose any gender as the default one, but it's best to choose one and
-stick to it (treating masculine as default in one place, and feminine as the
-default in another would probably cause issues at some point).
+You do not have to use {m}, {f}, {mpl} and {fpl}. You can use whatever you like.
 
+For adjectives that come after the noun, put a leading space instead of a
+trailing space:
+
+%%%%
+"{m}enchanted "
+" enchanté"
+%%%%
 
 Handling grammatical case
 ---------------------------
@@ -225,11 +222,11 @@ However, it won't work with the following sentence:
 
 %%%%
 You hit %s.
-Ihr trefft %s.
+Du triffst %s.
 %%%%
 
-It would be rendered as "Ihr trefft der Ork.", which is grammatically incorrect.
-It should use the accusative case: "Ihr trefft den Ork."
+It would be rendered as "Du triffst der Ork.", which is grammatically incorrect.
+It should use the accusative case: "Du triffst den Ork."
 
 To get around this, we use a context modifier to define "the orc" in accusative:
 
@@ -244,18 +241,14 @@ Then we define our sentence as:
 
 %%%%
 You hit %s.
-Ihr trefft {acc}%s.
+Du triffst {acc}%s.
 %%%%
 
 This will render a grammatically-correct sentence.
 
-As with gender, you could define a specific context for every case, but I
-recommend making one case (normally nominative) the default. This saves a lot
-of work, since the nominative is used in most instances. Also, if the program
-can't find a translation in the specific context, it will fall back to the
-default context, but if there's no translation in the default context, it falls
-back to English. Having a word in the wrong case is probably preferable to
-having a word in the wrong language.
+As with gender, you could define a specific strings for every case, but I
+recommend defining for one case (normally nominative) and generating the
+rest using rules in grammar.txt (see below).
 
 
 Defining grammatical rules
@@ -268,12 +261,42 @@ Multiply that by four or five grammatical cases, and you have a lot of strings
 to translate.
 
 For that reason, it's possible to define rules for transforming strings from
-the default context into another context. These rules use something called
-"regular expressions". Regular expressions are very powerful, but also very
+into another translation context. These are normally defined in grammar.txt
+under dat/strings/<language code>.
+
+Rules introduced with PREGENERATE: run at program start and pre-generate strings.
+Rule introduced with GENERATE: do transformations on the fly when needed.
+
+These rules use something called "regular expressions" (specifically 
+Perl regular expressions). Regular expressions are very powerful, but also very
 complex. If you're not familiar with them, you will probably want to google for
 an explanation of how they work. However, some simple examples are given below.
 
-Here is a simple example for the declension of German nouns in accusative:
+Here's a simplified example for pre-generating feminine singular adjectives
+from masculine singular adjectives in Portuguese. This assumes the masculine
+singular adjectives have been defined with a leading {m} on the key (Engish string).
+
+%%%%
+PREGENERATE:10
+
+# Select strings where the key starts with {m}
+# We have to escape the curly brackets with backslashes because curly brackets
+# have a meaning in regular expressions
+# (^ matches the start of the string)
+SELECT_BY_KEY:/^\{m\}/
+
+# Replace {m} at the start of the key with {f}
+# Note that we don't need to escape the curlies in the replacement string
+KEY:/^\{m\}/{f}/
+
+# In the translation, replace o at the end of a word with a
+# (\b matches a "word boundary")
+/o\b/a/
+%%%%
+
+By the way, the counterpart to ^ is $, which matches the end of the string.
+
+Here's a simplified example for the declension of German nouns in accusative:
 
 %%%%
 GENERATE:acc
@@ -315,7 +338,8 @@ GENERATE:acc
 Note that the \b match does not include the following space, so we do not
 include the space in the replacement.
 
-By the way, the counterpart to ^ is $, which matches the end of the string.
+Be aware that \b sees non-English letters (e.g. äöüé) as non-word characters,
+so it will see a word boundary between those characters and English letters.
 
 A rule can contain multiple expressions. For example, for German dative, you
 might have:
@@ -341,7 +365,7 @@ easy; we just use /e\b/en/, right? Wait though, we only want to do this for
 adjectives, not for nouns. We also do not want to apply this to any words after
 the noun. We want "die verfluchte Gleve der Prünelle" to become 
 "der verfluchten Gleve der Prünelle", not "der verfluchten Gleven der Prünellen".
-"Prünellen" we can fix by using /e /en / instead of /e\b/en/, but we're
+"Prünellen" we can avoid by using /e /en / instead of /e\b/en/, but we're
 still going to get "Gleven".
 
 Since we know that German nouns always start with an uppercase letter, but
