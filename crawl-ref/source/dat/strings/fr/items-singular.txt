@@ -22,25 +22,25 @@ the club
 {f}la massue
 %%%%
 the whip
-le fouet
+{m}le fouet
 %%%%
 the mace
 {f}la masse
 %%%%
 the flail
-le fléau
+{m}le fléau
 %%%%
 the morningstar
 {f}l'étoile du matin
 %%%%
 the demon whip
-le fouet démoniaque
+{m}le fouet démoniaque
 %%%%
 the sacred scourge
-le fléau sacré
+{m}le fléau sacré
 %%%%
 the dire flail
-le grand fléau
+{m}le grand fléau
 %%%%
 the eveningstar
 {f}l'étoile du soir
@@ -55,25 +55,25 @@ the giant spiked club
 {f}la massue géante à pointes
 %%%%
 the dagger
-le poignard
+{m}le poignard
 %%%%
 the quick blade
 {f}la lame rapide
 %%%%
 the short sword
-le glaive
+{m}le glaive
 %%%%
 the rapier
-le fleuret
+{m}le fleuret
 %%%%
 the falchion
-le fauchon
+{m}le fauchon
 %%%%
 the long sword
 {f}l'épée longue
 %%%%
 the scimitar
-le cimeterre
+{m}le cimeterre
 %%%%
 the demon blade
 {f}la lame démoniaque
@@ -109,7 +109,7 @@ the spear
 {f}la lance
 %%%%
 the trident
-le trident
+{m}le trident
 %%%%
 the halberd
 {f}l'hallebarde
@@ -118,10 +118,10 @@ the scythe
 {f}la faux
 %%%%
 the demon trident
-le trident démoniaque
+{m}le trident démoniaque
 %%%%
 the trishula
-le trishula
+{m}le trishula
 %%%%
 the glaive
 {f}la vouge
@@ -130,10 +130,10 @@ the bardiche
 {f}la bardiche
 %%%%
 the quarterstaff
-le bâton long
+{m}le bâton long
 %%%%
 the lajatang
-le lajatang
+{m}le lajatang
 %%%%
 
 #################################
@@ -145,7 +145,7 @@ the hunting sling
 {f}la fronde de chasse
 %%%%
 the fustibalus
-le fustibale
+{m}le fustibale
 %%%%
 the hand crossbow
 {f}l'arbalète à main
@@ -172,11 +172,11 @@ the arrow
 {f}la flèche
 %%%%
 the bolt
-le carreau
+{m}le carreau
 %%%%
 # fired by artefact crossbow "Damnation"
 the damnation bolt
-le carreau de damnation
+{m}le carreau de damnation
 %%%%
 the dart
 {f}la fléchette
@@ -197,25 +197,25 @@ the stone
 {f}la pierre
 %%%%
 the large rock
-le gros rocher
+{m}le gros rocher
 %%%%
 the sling bullet
 {f}la bille de fronde
 %%%%
 the javelin
-le javelot
+{m}le javelot
 %%%%
 the silver javelin
-le javelot d'argent
+{m}le javelot d'argent
 %%%%
 the throwing net
-le filet
+{m}le filet
 %%%%
 the boomerang
-le boomerang
+{m}le boomerang
 %%%%
 the silver boomerang
-le boomerang d'argent
+{m}le boomerang d'argent
 %%%%
 
 #################################
@@ -260,25 +260,25 @@ the pair of gloves
 {f}la paire de gants
 %%%%
 the helmet
-le casque
+{m}le casque
 %%%%
 the hat
-le chapeau
+{m}le chapeau
 %%%%
 the pair of boots
 {f}la paire de bottes
 %%%%
 the barding
-le caparaçon
+{m}le caparaçon
 %%%%
 the buckler
-le bouclier
+{m}le bouclier
 %%%%
 the kite shield
-le pavois
+{m}le pavois
 %%%%
 the tower shield
-le bouclier tour
+{m}le bouclier tour
 %%%%
 the steam dragon scales
 {f}l'armure d'écailles de dragon de vapeur
@@ -663,77 +663,77 @@ the fluorescent wand
 # generic
 %%%%
 the scroll
-le parchemin
+{m}le parchemin
 %%%%
 
 # unidentified
 %%%%
 the scroll labelled %s
-le parchemin étiqueté %s
+{m}le parchemin étiqueté %s
 %%%%
 
 # identified
 %%%%
 the scroll of acquirement
-le parchemin d'acquisition
+{m}le parchemin d'acquisition
 %%%%
 the scroll of amnesia
-le parchemin d'amnésie
+{m}le parchemin d'amnésie
 %%%%
 the scroll of blinking
-le parchemin de clignotement
+{m}le parchemin de clignotement
 %%%%
 the scroll of brand weapon
-le parchemin de marquage d'arme
+{m}le parchemin de marquage d'arme
 %%%%
 the scroll of enchant armour
-le parchemin d'enchantement d'armure
+{m}le parchemin d'enchantement d'armure
 %%%%
 the scroll of enchant weapon
-le parchemin d'enchantement d'arme
+{m}le parchemin d'enchantement d'arme
 %%%%
 the scroll of fear
-le parchemin de peur
+{m}le parchemin de peur
 %%%%
 the scroll of fog
-le parchemin de brouillard
+{m}le parchemin de brouillard
 %%%%
 the scroll of holy word
-le parchemin de mot sacré
+{m}le parchemin de mot sacré
 %%%%
 the scroll of identify
-le parchemin d'identification
+{m}le parchemin d'identification
 %%%%
 the scroll of immolation
-le parchemin d'immolation
+{m}le parchemin d'immolation
 %%%%
 the scroll of magic mapping
-le parchemin de cartographie magique
+{m}le parchemin de cartographie magique
 %%%%
 the scroll of noise
-le parchemin de bruit
+{m}le parchemin de bruit
 %%%%
 the scroll of remove curse
-le parchemin de suppression de malédiction
+{m}le parchemin de suppression de malédiction
 %%%%
 the scroll of silence
-le parchemin de silence
+{m}le parchemin de silence
 %%%%
 the scroll of summoning
-le parchemin d'invocation
+{m}le parchemin d'invocation
 %%%%
 the scroll of teleportation
-le parchemin de téléportation
+{m}le parchemin de téléportation
 %%%%
 the scroll of torment
-le parchemin de tourment
+{m}le parchemin de tourment
 %%%%
 the scroll of vulnerability
-le parchemin de vulnérabilité
+{m}le parchemin de vulnérabilité
 %%%%
 # obsolete item (can occur if player loads a saved game from an older version)
 the scroll of removedness
-le parchemin de disparition
+{m}le parchemin de disparition
 %%%%
 
 #################################
@@ -833,35 +833,35 @@ the golden potion
 # generic
 %%%%
 the staff
-le bâton
+{m}le bâton
 %%%%
 
 # identified
 %%%%
 the staff of fire
-le bâton de feu
+{m}le bâton de feu
 %%%%
 the staff of cold
-le bâton de froid
+{m}le bâton de froid
 %%%%
 the staff of poison
-le bâton de poison
+{m}le bâton de poison
 %%%%
 the staff of death
-le bâton de mort
+{m}le bâton de mort
 %%%%
 the staff of conjuration
-le bâton de conjuration
+{m}le bâton de conjuration
 %%%%
 the staff of air
-le bâton d'air
+{m}le bâton d'air
 %%%%
 the staff of earth
-le bâton de terre
+{m}le bâton de terre
 %%%%
 # obsolete item (can occur if player loads a saved game from an older version)
 the staff of removedness
-le bâton de disparition
+{m}le bâton de disparition
 %%%%
 
 #################################
@@ -870,7 +870,7 @@ le bâton de disparition
 
 %%%%
 the @monster@ corpse
-le cadavre de @monster@
+{m}le cadavre de @monster@
 %%%%
 
 #################################
@@ -882,19 +882,19 @@ the box of beasts
 {f}la boîte des bêtes
 %%%%
 the lightning rod
-le paratonnerre
+{m}le paratonnerre
 %%%%
 the phial of floods
 {f}la fiole des flots
 %%%%
 the phantom mirror
-le miroir fantôme
+{m}le miroir fantôme
 %%%%
 the figurine of a ziggurat
 {f}la figurine de ziggurat
 %%%%
 the condenser vane
-le condensateur de nuages
+{m}le condensateur de nuages
 %%%%
 the piece from Xom's chessboard
 {f}la pièce de l'échiquier de Xom
@@ -903,7 +903,7 @@ the tin of tremorstones
 {f}la boîte de pierres sismiques
 %%%%
 the quad damage
-le quadruple dégâts
+{m}le quadruple dégâts
 %%%%
 
 #################################

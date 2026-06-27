@@ -43,13 +43,13 @@ spreading flames
 incendie
 %%%%
 a forest fire
-un feu de forêt
+{m}un feu de forêt
 %%%%
 steam
 vapeur
 %%%%
 a cloud of scalding steam
-un nuage de vapeur bouillante
+{m}un nuage de vapeur bouillante
 %%%%
 ink
 encre
@@ -100,7 +100,7 @@ thunder
 orage
 %%%%
 a thunderstorm
-un nuage d'orage
+{m}un nuage d'orage
 %%%%
 negative energy
 énergie négative

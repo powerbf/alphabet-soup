@@ -132,34 +132,34 @@ Labyrinthe
 # HUD shows some branches as short name with indefinite article
 %%%%
 an Abyss
-un abîme
+{m}un abîme
 %%%%
 a Ziggurat
-un Ziggurat
+{m}un Ziggurat
 %%%%
 a Bazaar
-un Bazar
+{m}un Bazar
 %%%%
 a Trove
-un Trésor
+{m}un Trésor
 %%%%
 a Sewer
-un Egout
+{m}un Egout
 %%%%
 an Ossuary
-un Ossuaire
+{m}un Ossuaire
 %%%%
 a Bailey
-un Fort (Bailey)
+{m}un Fort (Bailey)
 %%%%
 an Ice Cave
-Une Caverne de Glace
+{f}une Caverne de Glace
 %%%%
 a Volcano
-un Volcan
+{m}un Volcan
 %%%%
 a Wizlab
-un Labo de Sorcier
+{m}un Labo de Sorcier
 %%%%
 # same as long name
 #a Gauntlet
@@ -172,22 +172,22 @@ un Labo de Sorcier
 ##############################################
 %%%%
 the Dungeon
-le Donjon
+{m}le Donjon
 %%%%
 the Ecumenical Temple
-le Temple Oecuménique
+{m}le Temple Oecuménique
 %%%%
 the Orcish Mines
 les Mines des Orcs
 %%%%
 the Elven Halls
-le Hall des Elfes
+{m}le Hall des Elfes
 %%%%
 the Lair of Beasts
-le Repère des Bêtes
+{m}le Repère des Bêtes
 %%%%
 the Swamp
-le Marais
+{m}le Marais
 %%%%
 the Shoals
 les Récifs
@@ -196,7 +196,7 @@ the Snake Pit
 {f}la Fosse aux Serpents
 %%%%
 the Spider Nest
-le Nid d'Araignées
+{m}le Nid d'Araignées
 %%%%
 the Pits of Slime
 les Fosses Visqueuses
@@ -217,46 +217,46 @@ the Hells
 les Enfers
 %%%%
 the Vestibule of Hell
-le Vestibule de l'Enfer
+{m}le Vestibule de l'Enfer
 %%%%
 the Iron City of Dis
 {f}la Ville de Fer de Dis
 %%%%
 the Realm of Zot
-le Royaume de Zot
+{m}le Royaume de Zot
 %%%%
 the Abyss
 l'Abîme
 %%%%
 a ziggurat
-un ziggurat
+{m}un ziggurat
 %%%%
 a bazaar
-un bazar
+{m}un bazar
 %%%%
 a treasure trove
-un trésor
+{m}un trésor
 %%%%
 a sewer
-un égout
+{m}un égout
 %%%%
 an ossuary
-un ossuaire
+{m}un ossuaire
 %%%%
 a bailey
-un fort (bailey)
+{m}un fort (bailey)
 %%%%
 a Gauntlet
-un labyrinthe
+{m}un labyrinthe
 %%%%
 an ice cave
 {f}une caverne de glace
 %%%%
 a volcano
-un volcan
+{m}un volcan
 %%%%
 a wizard's laboratory
-un laboratoire du sorcier
+{m}un laboratoire du sorcier
 %%%%
 the Desolation of Salt
 {f}la Désolation de Sel

@@ -88,15 +88,15 @@ Zin
 Zin
 %%%%
 the Shining One
-le Brillant
+{m}le Brillant
 %%%%
 # The Shining One short form (for "travel to altar" menu, must be 14 chars or less)
 #             |<-
 TSO
-le Brillant
+{m}le Brillant
 %%%%
 the Wu Jian Council
-le Conseil Wu Jian
+{m}le Conseil Wu Jian
 %%%%
 # Wu Jian Council - short form
 Wu Jian
@@ -104,13 +104,13 @@ Wu Jian
 %%%%
 # Wu Jian Council - another short form
 the Council
-le Conseil
+{m}le Conseil
 %%%%
 an unknown god
-un dieu inconnu
+{m}un dieu inconnu
 %%%%
 a god
-un dieu
+{m}un dieu
 %%%%
 my god
 mon dieu

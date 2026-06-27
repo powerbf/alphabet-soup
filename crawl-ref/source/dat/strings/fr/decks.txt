@@ -20,19 +20,19 @@ punition
 
 %%%%
 the deck of escape
-le paquet de cartes d'évasion
+{m}le paquet de cartes d'évasion
 %%%%
 the deck of destruction
-le paquet de cartes de destruction
+{m}le paquet de cartes de destruction
 %%%%
 the deck of summoning
-le paquet de cartes d'invocation
+{m}le paquet de cartes d'invocation
 %%%%
 the deck of punishment
-le paquet de cartes de punition
+{m}le paquet de cartes de punition
 %%%%
 the stacked deck
-le paquet de cartes empilées
+{m}le paquet de cartes empilées
 %%%%
 
 %%%%
@@ -94,7 +94,7 @@ the Elements
 les Eléments
 %%%%
 the Pentagram
-le Pentagramme
+{m}le Pentagramme
 %%%%
 the Dance
 {f}la Danse
@@ -109,7 +109,7 @@ Vitriol
 Vitriol
 %%%%
 the Cloud
-le Nuage
+{m}le Nuage
 %%%%
 the Storm
 {f}la Tempête
@@ -118,10 +118,10 @@ Wrath
 Colère
 %%%%
 the Wraith
-le Spectre
+{m}le Spectre
 %%%%
 the Swine
-le Porc
+{m}le Porc
 %%%%
 the Orb
 l'Orbe

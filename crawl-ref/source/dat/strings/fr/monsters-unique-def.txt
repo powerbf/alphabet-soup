@@ -20,19 +20,19 @@
 %%%%
 # probably a reference to one of several Christian saints named Menas
 the Mennas
-le Mennas
+{m}le Mennas
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 # a male centaur in Greek mythology
 the Nessos
-le Nessos
+{m}le Nessos
 %%%%
 the Chuck
-le Chuck
+{m}le Chuck
 %%%%
 # a cyclops in Greek mythology
 the Polyphemus
-le Polyphème
+{m}le Polyphème
 %%%%
 # a giant/titan in Greek mythology
 the Antaeus
@@ -58,20 +58,20 @@ the Robin
 {f}la Robin
 %%%%
 the Grum
-le Grum
+{m}le Grum
 %%%%
 the Duvessa
 {f}la Duvessa
 %%%%
 the Dowan
-le Dowan
+{m}le Dowan
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Fannar
-le Fannar
+{m}le Fannar
 %%%%
 the Jorgrun
-le Jorgrun
+{m}le Jorgrun
 %%%%
 the Natasha
 {f}la Natasha
@@ -95,18 +95,18 @@ the Sonja
 {f}la Sonja
 %%%%
 the Pikel
-le Pikel
+{m}le Pikel
 %%%%
 the Boris
-le Boris
+{m}le Boris
 %%%%
 # the original Egyptian name of the pharaoh also known by the Greek name Mykerinos
 the Menkaure
-le Menkaourê
+{m}le Menkaourê
 %%%%
 # the original Egyptian name of the pharaoh usually known by the Greek name Cheops
 the Khufu
-le Khoufou
+{m}le Khoufou
 %%%%
 the Ilsuiw
 {f}l'Ilsuiw
@@ -125,7 +125,7 @@ the Nergalle
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Saint Roka
-le Saint Roka
+{m}le Saint Roka
 %%%%
 the Sojobo
 {f}la Sojobo
@@ -136,7 +136,7 @@ l'Azraël
 %%%%
 # a demon in Buddhism
 the Mara
-le Mara
+{m}le Mara
 %%%%
 the Aizul
 {f}l'Aizul
@@ -145,19 +145,19 @@ the Snorg
 {f}la Snorg
 %%%%
 the Purgy
-le Purgy
+{m}le Purgy
 %%%%
 the Jory
-le Jory
+{m}le Jory
 %%%%
 the Gastronok
-le Gastronok
+{m}le Gastronok
 %%%%
 the Nellie
 {f}la Nellie
 %%%%
 the Murray
-le Murray
+{m}le Murray
 %%%%
 the Ignacio
 l'Ignacio
@@ -169,14 +169,14 @@ the Roxanne
 {f}la Roxanne
 %%%%
 the Terence
-le Terence
+{m}le Terence
 %%%%
 the Jessica
 {f}la Jessica
 %%%%
 # a hero in Norse mythology
 the Sigmund
-le Sigmund
+{m}le Sigmund
 %%%%
 the Edmund
 l'Edmund
@@ -186,10 +186,10 @@ the Psyche
 {f}la Psyché
 %%%%
 the Donald
-le Donald
+{m}le Donald
 %%%%
 the Joseph
-le Joseph
+{m}le Joseph
 %%%%
 the Erica
 {f}la Erica
@@ -198,7 +198,7 @@ the Josephine
 {f}la Josephine
 %%%%
 the Harold
-le Harold
+{m}le Harold
 %%%%
 the Louise
 {f}la Louise
@@ -207,14 +207,14 @@ the Frances
 {f}la Frances
 %%%%
 the Rupert
-le Rupert
+{m}le Rupert
 %%%%
 # the original Greek name of the minor goddess usually known as Circe
 the Kirke
 {f}la Kirke
 %%%%
 the Frederick
-le Frederick
+{m}le Frederick
 %%%%
 the Margery
 {f}la Margery
@@ -226,36 +226,36 @@ the Eustachio
 l'Eustachio
 %%%%
 the Maurice
-le Maurice
+{m}le Maurice
 %%%%
 # Nikola Tesla
 the Nikola
-le Nikola
+{m}le Nikola
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Mnoleg
-le Mnoleg
+{m}le Mnoleg
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Lom Lobon
-le Lom Lobon
+{m}le Lom Lobon
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Cerebov
-le Cerebov
+{m}le Cerebov
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 the Gloorx Vloq
-le Gloorx Vloq
+{m}le Gloorx Vloq
 %%%%
 # from Greek mythology
 the Geryon
-le Géryon
+{m}le Géryon
 %%%%
 # gender neutral in the English version of Crawl, but was previously male
 # Roman god of the underworld
 the Dispater
-le Dispater
+{m}le Dispater
 %%%%
 # Greek name of a demon in Judaism/Christainity
 the Asmodeus
@@ -266,10 +266,10 @@ the Ereshkigal
 {f}la Ereshkigal
 %%%%
 the Prince Ribbit
-le Prince Ribbit
+{m}le Prince Ribbit
 %%%%
 the Crazy Yiuf
-le Yiuf Fou
+{m}le Yiuf Fou
 %%%%
 the Enchantress
 {f}l'Enchanteresse
@@ -278,21 +278,21 @@ the Blork the orc
 l'orc Blork
 %%%%
 the Blork
-le Blork
+{m}le Blork
 %%%%
 # a play on words - boss of the jellies in DCSS, and a substance created by bees
 the Royal Jelly
 {f}la Gelée Royale
 %%%%
 the Serpent of Hell
-le Serpent de l'Enfer
+{m}le Serpent de l'Enfer
 %%%%
 # from Greek mythology
 the Lernaean hydra
 l'hydre de Lerne
 %%%%
 the Cigotuvi's Monster
-le Monstre de Cigotuvi
+{m}le Monstre de Cigotuvi
 %%%%
 the Statue of Wucad Mu
 {f}la Statue de Wucad Mu
@@ -302,7 +302,7 @@ the Statue of Wucad Mu
 
 %%%%
 the @name@'s ghost
-le spectre de @name@
+{m}le spectre de @name@
 %%%%
 the @name@'s illusion
 {f}l'illusion de @name@
@@ -314,16 +314,16 @@ the @name@'s illusion
 
 %%%%
 The Meatlord
-le Seigneur de la Viande
+{m}le Seigneur de la Viande
 %%%%
 The Servant
-le Serviteur
+{m}le Serviteur
 %%%%
 The Captor
-le Capteur
+{m}le Capteur
 %%%%
 The Defiler
-le Profanateur
+{m}le Profanateur
 %%%%
 The Unspeakable
 l'Innommable

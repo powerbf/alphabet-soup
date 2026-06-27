@@ -222,7 +222,7 @@ the acid
 l'acide
 %%%%
 the entropic weave
-le tissage entropique
+{m}le tissage entropique
 %%%%
 Your corrosive artefact
 Votre artefact corrosif
@@ -233,7 +233,7 @@ Votre présence corrompue
 # a flying bit of exploded monster (used directly after monster explosion
 # message, so it will be obvious what it refers to)
 a flying bit
-un morceau volant
+{m}un morceau volant
 %%%%
 
 #################################
