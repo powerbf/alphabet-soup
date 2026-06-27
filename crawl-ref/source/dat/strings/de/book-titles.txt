@@ -1540,7 +1540,7 @@ der {adj-en}%sKälte
 der {adj-en}%sSchneeflocken
 %%%%
 {gen}the %sGlacier
-der {adj-en}%sGletscher
+des {adj-en}%sGletschers
 %%%%
 {gen}the %sFrostbite
 der {adj-en}%sErfrierung
@@ -1815,7 +1815,7 @@ der Kälte
 der Schneeflocken
 %%%%
 {gen}the Glacier
-der Gletscher
+des Gletschers
 %%%%
 {gen}the Frostbite
 der Erfrierung
