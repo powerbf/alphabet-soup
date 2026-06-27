@@ -554,26 +554,14 @@ Ts'ui Pên
 
 # masculine singular (unmarked = default)
 %%%%
-Easy
+{m}Easy
 Fácil
 %%%%
-Advanced
+{m}Advanced
 Avançado
 %%%%
-Sophisticated
+{m}Sophisticated
 Sofisticado
-%%%%
-
-# feminine singular
-%%%%
-{f}Easy
-Fácil
-%%%%
-{f}Advanced
-Avançada
-%%%%
-{f}Sophisticated
-Sofisticada
 %%%%
 
 # level 1
