@@ -551,25 +551,28 @@ Ts'ui Pên
 %%%%
 
 # adjectives for above
+
+# masculine singular
 %%%%
-{adj-e}Easy
+{m}Easy
 
 %%%%
-{adj-e}Advanced
+{m}Advanced
 
 %%%%
-{adj-e}Sophisticated
+{m}Sophisticated
 
 %%%%
 
+# feminine singular
 %%%%
-{adj-es}Easy
+{f}Easy
 
 %%%%
-{adj-es}Advanced
+{f}Advanced
 
 %%%%
-{adj-es}Sophisticated
+{f}Sophisticated
 
 %%%%
 
@@ -719,8 +722,8 @@ The Foundations of @book_magic@
 # @_the_book_magic_@, Part @level@
 # Advanced @_book_magic_@
 # Sophisticated @_book_magic_@
-# Further Progress in @_book_magic_@
-# The Second Course in @_book_magic_@
+# Further Progress in @the_book_magic_@
+# The Second Course in @the_book_magic_@
 # Improving Your @_book_magic_@
 
 %%%%
@@ -942,33 +945,33 @@ The Lost Catalogue of @spellcaster@
 
 # suffix: of @spellcaster@
 %%%%
-{gen}Boris
+{poss}Boris
 
 %%%%
 # duplicate (see gods.txt)
-#{gen}Sif Muna
+#{poss}Sif Muna
 #
 %%%%
-{gen}the Archmage
+{poss}the Archmage
 
 %%%%
-{gen}the Deep Elf Lorekeeper
+{poss}the Deep Elf Lorekeeper
 
 %%%%
-{gen}the Blind Seer
+{poss}the Blind Seer
 
 %%%%
-{gen}the Prophet
+{poss}the Prophet
 
 %%%%
-{gen}the Greatest Mummy
+{poss}the Greatest Mummy
 
 %%%%
 
 # The @book_noun@ of Greatest Risks and Utility
 # Turn it around and handle the suffix as "of @book magic@"
 %%%%
-{gen}Greatest Risks and Utility
+{poss}Greatest Risks and Utility
 
 %%%%
 
@@ -1051,108 +1054,105 @@ Hermeneutics
 
 %%%%
 
-# @book_magic@ accusative
-# since there is no masculine, these are all the same as nominative
-
 # of @book_magic@
 %%%%
-{gen}the Arcane Arts
+{poss}the Arcane Arts
 
 %%%%
-{gen}the Hermit's Heritage
+{poss}the Hermit's Heritage
 
 %%%%
-{gen}Magic
+{poss}Magic
 
 %%%%
-{gen}Theurgy
+{poss}Theurgy
 
 %%%%
-{gen}Thaumaturgy
+{poss}Thaumaturgy
 
 %%%%
-{gen}Casting
+{poss}Casting
 
 %%%%
-{gen}Spellcasting
+{poss}Spellcasting
 
 %%%%
-{gen}Wizardry
+{poss}Wizardry
 
 %%%%
-{gen}Sorcery
+{poss}Sorcery
 
 %%%%
-{gen}Witchcraft
+{poss}Witchcraft
 
 %%%%
-{gen}Witchery
+{poss}Witchery
 
 %%%%
-{gen}Spellcraft
+{poss}Spellcraft
 
 %%%%
-{gen}Spellweaving
+{poss}Spellweaving
 
 %%%%
-{gen}Secret Knowledge
+{poss}Secret Knowledge
 
 %%%%
-{gen}Rites and Rhymes
+{poss}Rites and Rhymes
 
 %%%%
-{gen}Hermeneutics
+{poss}Hermeneutics
 
 %%%%
 
-# in @book_magic@ (dative)
+# in @book_magic@
 %%%%
-{in-dat}the Arcane Arts
+{in}the Arcane Arts
 
 %%%%
-{in-dat}the Hermit's Heritage
+{in}the Hermit's Heritage
 
 %%%%
-{in-dat}Magic
+{in}Magic
 
 %%%%
-{in-dat}Theurgy
+{in}Theurgy
 
 %%%%
-{in-dat}Thaumaturgy
+{in}Thaumaturgy
 
 %%%%
-{in-dat}Casting
+{in}Casting
 
 %%%%
-{in-dat}Spellcasting
+{in}Spellcasting
 
 %%%%
-{in-dat}Wizardry
+{in}Wizardry
 
 %%%%
-{in-dat}Sorcery
+{in}Sorcery
 
 %%%%
-{in-dat}Witchcraft
+{in}Witchcraft
 
 %%%%
-{in-dat}Witchery
+{in}Witchery
 
 %%%%
-{in-dat}Spellcraft
+{in}Spellcraft
 
 %%%%
-{in-dat}Spellweaving
+{in}Spellweaving
 
 %%%%
-{in-dat}Secret Knowledge
+{in}Secret Knowledge
 
 %%%%
-{in-dat}in Rites and Rhymes
+{in}in Rites and Rhymes
 
 %%%%
-{in-dat}Hermeneutics
+{in}Hermeneutics
 
 %%%%
 
@@ -1440,274 +1440,274 @@ the %sBirds
 
 # conjuration genitive
 %%%%
-{gen}%sConjuration
+{poss}%sConjuration
 
 %%%%
-{gen}%sConfrontation
+{poss}%sConfrontation
 
 %%%%
-{gen}%sAttacks
+{poss}%sAttacks
 
 %%%%
-{gen}%sBattle Magic
+{poss}%sBattle Magic
 
 %%%%
-{gen}%sCombat Magic
+{poss}%sCombat Magic
 
 %%%%
-{gen}%sArcane Weapons
+{poss}%sArcane Weapons
 
 %%%%
-{gen}%sBlows
+{poss}%sBlows
 
 %%%%
-{gen}%sBruises
+{poss}%sBruises
 
 %%%%
-{gen}%sDamage Dealing
+{poss}%sDamage Dealing
 
 %%%%
 
 # Fire genitive
 %%%%
-{gen}%sFire
+{poss}%sFire
 
 %%%%
-{gen}%sFlames
+{poss}%sFlames
 
 %%%%
-{gen}%sHeat
+{poss}%sHeat
 
 %%%%
-{gen}the %sVolcanoes
+{poss}the %sVolcanoes
 
 %%%%
-{gen}the %sBlaze
+{poss}the %sBlaze
 
 %%%%
-{gen}%sIgnition
+{poss}%sIgnition
 
 %%%%
-{gen}the %sArsonist
+{poss}the %sArsonist
 
 %%%%
 
 # Hexes genitive
 %%%%
-{gen}%sHexes
+{poss}%sHexes
 
 %%%%
-{gen}%sCurses
+{poss}%sCurses
 
 %%%%
-{gen}%sMalediction
+{poss}%sMalediction
 
 %%%%
-{gen}the %sOath
+{poss}the %sOath
 
 %%%%
-{gen}%sExecration
+{poss}%sExecration
 
 %%%%
-{gen}%sEnchantment
+{poss}%sEnchantment
 
 %%%%
-{gen}%sBewitchment
+{poss}%sBewitchment
 
 %%%%
-{gen}%sGlamour
+{poss}%sGlamour
 
 %%%%
-{gen}%sFascination
+{poss}%sFascination
 
 %%%%
-{gen}%sBeguiling
+{poss}%sBeguiling
 
 %%%%
 
 # Ice genitive
 %%%%
-{gen}%sIce
+{poss}%sIce
 
 %%%%
-{gen}%sSnow
+{poss}%sSnow
 
 %%%%
-{gen}%sCold
+{poss}%sCold
 
 %%%%
-{gen}the %sSnowflakes
+{poss}the %sSnowflakes
 
 %%%%
-{gen}the %sGlacier
+{poss}the %sGlacier
 
 %%%%
-{gen}the %sFrostbite
+{poss}the %sFrostbite
 
 %%%%
 
 # Transmutation genitive
 %%%%
-{gen}%sTransmigration
+{poss}%sTransmigration
 
 %%%%
-{gen}%sTransmutation
+{poss}%sTransmutation
 
 %%%%
-{gen}%sTransformation
+{poss}%sTransformation
 
 %%%%
-{gen}%sShape Shifting
+{poss}%sShape Shifting
 
 %%%%
-{gen}%sChanging
+{poss}%sChanging
 
 %%%%
-{gen}%sMoulding
+{poss}%sMoulding
 
 %%%%
 
 # Necromancy genitive
 %%%%
-{gen}%sNecromancy
+{poss}%sNecromancy
 
 %%%%
-{gen}%sEvil
+{poss}%sEvil
 
 %%%%
-{gen}%sDarkness
+{poss}%sDarkness
 
 %%%%
-{gen}%sStolen Souls
+{poss}%sStolen Souls
 
 %%%%
-{gen}%sRites
+{poss}%sRites
 
 %%%%
-{gen}%sArts
+{poss}%sArts
 
 %%%%
-{gen}%sSecrets
+{poss}%sSecrets
 
 %%%%
-{gen}%sRituals
+{poss}%sRituals
 
 %%%%
-{gen}%sMagic
+{poss}%sMagic
 
 %%%%
 
 # Summoning genitive
 %%%%
-{gen}%sSummoning
+{poss}%sSummoning
 
 %%%%
-{gen}%sCalling
+{poss}%sCalling
 
 %%%%
-{gen}%sCreation
+{poss}%sCreation
 
 %%%%
-{gen}the %sEntourage
+{poss}the %sEntourage
 
 %%%%
-{gen}%sCompanions
+{poss}%sCompanions
 
 %%%%
-{gen}the %sEscort
+{poss}the %sEscort
 
 %%%%
-{gen}%sIllusion
+{poss}%sIllusion
 
 %%%%
-{gen}%sSlavery
+{poss}%sSlavery
 
 %%%%
 
 # Translocation genitive
 %%%%
-{gen}%sTranslocation
+{poss}%sTranslocation
 
 %%%%
-{gen}%sDisplacement
+{poss}%sDisplacement
 
 %%%%
-{gen}%sDislocation
+{poss}%sDislocation
 
 %%%%
-{gen}%sOrientation
+{poss}%sOrientation
 
 %%%%
-{gen}the %sTraveller
+{poss}the %sTraveller
 
 %%%%
-{gen}the %sCompass
+{poss}the %sCompass
 
 %%%%
-{gen}the %sVoyage
+{poss}the %sVoyage
 
 %%%%
 
 # Poison genitive
 %%%%
-{gen}%sPoison
+{poss}%sPoison
 
 %%%%
-{gen}%sVenom
+{poss}%sVenom
 
 %%%%
-{gen}%sToxins
+{poss}%sToxins
 
 %%%%
-{gen}%sPoisoning
+{poss}%sPoisoning
 
 %%%%
-{gen}%sIntoxication
+{poss}%sIntoxication
 
 %%%%
-{gen}%sEnvenoming
+{poss}%sEnvenoming
 
 %%%%
-{gen}%sContamination
+{poss}%sContamination
 
 %%%%
 
 # Earth genitive
 %%%%
-{gen}%sEarth
+{poss}%sEarth
 
 %%%%
-{gen}%sStones
+{poss}%sStones
 
 %%%%
-{gen}%sClay
+{poss}%sClay
 
 %%%%
-{gen}the %sMountains
+{poss}the %sMountains
 
 %%%%
-{gen}the %sRocks
+{poss}the %sRocks
 
 %%%%
 
 # Air genitive
 %%%%
-{gen}%sAir
+{poss}%sAir
 
 %%%%
-{gen}%sLightness
+{poss}%sLightness
 
 %%%%
-{gen}%sWeightlessness
+{poss}%sWeightlessness
 
 %%%%
-{gen}%sFlight
+{poss}%sFlight
 
 %%%%
-{gen}the %sBirds
+{poss}the %sBirds
 
 %%%%
-{gen}%sFeathers
+{poss}%sFeathers
 
 %%%%
 
@@ -1715,275 +1715,275 @@ the %sBirds
 
 # conjuration genitive
 %%%%
-{gen}Conjuration
+{poss}Conjuration
 
 %%%%
-{gen}Confrontation
+{poss}Confrontation
 
 %%%%
-{gen}Attacks
+{poss}Attacks
 
 %%%%
-{gen}Battle Magic
+{poss}Battle Magic
 
 %%%%
-{gen}Combat Magic
+{poss}Combat Magic
 
 %%%%
-{gen}Arcane Weapons
+{poss}Arcane Weapons
 
 %%%%
-{gen}Blows
+{poss}Blows
 
 %%%%
-{gen}Bruises
+{poss}Bruises
 
 %%%%
-{gen}Damage Dealing
+{poss}Damage Dealing
 
 %%%%
 
 # Fire genitive
 %%%%
-{gen}Fire
+{poss}Fire
 
 %%%%
-{gen}Flames
+{poss}Flames
 
 %%%%
-{gen}Heat
+{poss}Heat
 
 %%%%
-{gen}the Volcanoes
+{poss}the Volcanoes
 
 %%%%
-{gen}the Blaze
+{poss}the Blaze
 
 %%%%
-{gen}Ignition
+{poss}Ignition
 
 %%%%
-{gen}the Arsonist
+{poss}the Arsonist
 
 %%%%
 
 # Hexes genitive
 %%%%
-{gen}Hexes
+{poss}Hexes
 
 %%%%
-{gen}Curses
+{poss}Curses
 
 %%%%
-{gen}Malediction
+{poss}Malediction
 
 %%%%
-{gen}the Oath
+{poss}the Oath
 
 %%%%
-{gen}Execration
+{poss}Execration
 
 %%%%
-{gen}Enchantment
+{poss}Enchantment
 
 %%%%
-{gen}Bewitchment
+{poss}Bewitchment
 
 %%%%
-{gen}Glamour
+{poss}Glamour
 
 %%%%
-{gen}Fascination
+{poss}Fascination
 
 %%%%
-{gen}Beguiling
+{poss}Beguiling
 
 %%%%
 
 # Ice genitive
 %%%%
-{gen}Ice
+{poss}Ice
 
 %%%%
-{gen}Snow
+{poss}Snow
 
 %%%%
-{gen}Cold
+{poss}Cold
 
 %%%%
-{gen}the Snowflakes
+{poss}the Snowflakes
 
 %%%%
-{gen}the Glacier
+{poss}the Glacier
 
 %%%%
-{gen}the Frostbite
+{poss}the Frostbite
 
 %%%%
 
 # Transmutation genitive
 %%%%
-{gen}Transmigration
+{poss}Transmigration
 
 %%%%
-{gen}Transmutation
+{poss}Transmutation
 
 %%%%
-{gen}Transformation
+{poss}Transformation
 
 %%%%
-{gen}Shape Shifting
+{poss}Shape Shifting
 
 %%%%
-{gen}Changing
+{poss}Changing
 
 %%%%
-{gen}Moulding
+{poss}Moulding
 
 %%%%
 
 # Necromancy genitive
 %%%%
-{gen}Necromancy
+{poss}Necromancy
 
 %%%%
-{gen}Evil
+{poss}Evil
 
 %%%%
-{gen}Darkness
+{poss}Darkness
 
 %%%%
-{gen}Stolen Souls
+{poss}Stolen Souls
 
 %%%%
-{gen}Rites
+{poss}Rites
 
 %%%%
-{gen}Arts
+{poss}Arts
 
 %%%%
-{gen}Secrets
+{poss}Secrets
 
 %%%%
-{gen}Rituals
+{poss}Rituals
 
 %%%%
 # duplicate
-#{gen}Magic
+#{poss}Magic
 #
 %%%%
 
 # Summoning genitive
 %%%%
-{gen}Summoning
+{poss}Summoning
 
 %%%%
-{gen}Calling
+{poss}Calling
 
 %%%%
-{gen}Creation
+{poss}Creation
 
 %%%%
-{gen}the Entourage
+{poss}the Entourage
 
 %%%%
-{gen}Companions
+{poss}Companions
 
 %%%%
-{gen}the Escort
+{poss}the Escort
 
 %%%%
-{gen}Illusion
+{poss}Illusion
 
 %%%%
-{gen}Slavery
+{poss}Slavery
 
 %%%%
 
 # Translocation genitive
 %%%%
-{gen}Translocation
+{poss}Translocation
 
 %%%%
-{gen}Displacement
+{poss}Displacement
 
 %%%%
-{gen}Dislocation
+{poss}Dislocation
 
 %%%%
-{gen}Orientation
+{poss}Orientation
 
 %%%%
-{gen}the Traveller
+{poss}the Traveller
 
 %%%%
-{gen}the Compass
+{poss}the Compass
 
 %%%%
-{gen}the Voyage
+{poss}the Voyage
 
 %%%%
 
 # Poison genitive
 %%%%
-{gen}Poison
+{poss}Poison
 
 %%%%
-{gen}Venom
+{poss}Venom
 
 %%%%
-{gen}Toxins
+{poss}Toxins
 
 %%%%
-{gen}Poisoning
+{poss}Poisoning
 
 %%%%
-{gen}Intoxication
+{poss}Intoxication
 
 %%%%
-{gen}Envenoming
+{poss}Envenoming
 
 %%%%
-{gen}Contamination
+{poss}Contamination
 
 %%%%
 
 # Earth genitive
 %%%%
-{gen}Earth
+{poss}Earth
 
 %%%%
-{gen}Stones
+{poss}Stones
 
 %%%%
-{gen}Clay
+{poss}Clay
 
 %%%%
-{gen}the Mountains
+{poss}the Mountains
 
 %%%%
-{gen}the Rocks
+{poss}the Rocks
 
 %%%%
 
 # Air genitive
 %%%%
-{gen}Air
+{poss}Air
 
 %%%%
-{gen}Lightness
+{poss}Lightness
 
 %%%%
-{gen}Weightlessness
+{poss}Weightlessness
 
 %%%%
-{gen}Flight
+{poss}Flight
 
 %%%%
-{gen}the Birds
+{poss}the Birds
 
 %%%%
-{gen}Feathers
+{poss}Feathers
 
 %%%%
 
@@ -2274,50 +2274,50 @@ Fire and Brimstone
 
 # From tutorial 4
 %%%%
-{gen}Introductory Spellcasting
+{poss}Introductory Spellcasting
 
 %%%%
-{gen}Demonology for Dummies
+{poss}Demonology for Dummies
 
 %%%%
 
 # From the Babel Library minivault
 %%%%
-{gen}Nature
+{poss}Nature
 
 %%%%
-{gen}Dhcmrlchtdj
+{poss}Dhcmrlchtdj
 
 %%%%
-{gen}Combed Thunderclap
+{poss}Combed Thunderclap
 
 %%%%
-{gen}Plaster Cramp
+{poss}Plaster Cramp
 
 %%%%
-{gen}Axaxaxas mlö
+{poss}Axaxaxas mlö
 
 %%%%
-{gen}Forking Paths
+{poss}Forking Paths
 
 %%%%
-{gen}Sand
+{poss}Sand
 
 %%%%
 
 # From other minivaults
 %%%%
 # contains the Apportation spell
-{gen}Retrieval
+{poss}Retrieval
 
 %%%%
-{gen}Reanimation Made Easy
+{poss}Reanimation Made Easy
 
 %%%%
-{gen}the Zealot
+{poss}the Zealot
 
 %%%%
-{gen}Fire and Brimstone
+{poss}Fire and Brimstone
 
 %%%%
 
