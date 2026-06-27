@@ -281,11 +281,11 @@ Geschosse
 %d mit Zauberstäben
 %%%%
 %d polearms
-%d Stangenwaffen
+{pl}%d Stangenwaffen
 %%%%
 %d launchers
-%d Werfer
+{pl}%d Werfer
 %%%%
 %d missiles
-%d Geschosse
+{pl}%d Geschosse
 %%%%

@@ -6,7 +6,7 @@
 
 %%%%
 %d items
-%d Gegenstände
+{pl}%d Gegenstände
 %%%%
 
 # Note: Counted plurals are only needed for items that stack (missiles, scrolls, potions, gold pieces).
@@ -26,53 +26,53 @@
 
 %%%%
 %d arrows
-%d Pfeile
+{pl}%d Pfeile
 %%%%
 %d bolts
-%d Bolzen
+{pl}%d Bolzen
 %%%%
 # fired by artefact crossbow "Damnation"
 %d damnation bolts
-%d Verdammnisbolzen
+{pl}%d Verdammnisbolzen
 %%%%
 %d darts
-%d Wurfpfeile
+{pl}%d Wurfpfeile
 %%%%
 %d poisoned darts
-%d vergiftete Wurfpfeile
+{pl}%d vergiftete Wurfpfeile
 %%%%
 %d curare-tipped darts
-%d Curare-Wurfpfeile
+{pl}%d Curare-Wurfpfeile
 %%%%
 %d atropa-tipped darts
-%d Atropa-Wurfpfeile
+{pl}%d Atropa-Wurfpfeile
 %%%%
 %d datura-tipped darts
-%d Datura-Wurfpfeile
+{pl}%d Datura-Wurfpfeile
 %%%%
 %d stones
-%d Steine
+{pl}%d Steine
 %%%%
 %d large rocks
-%d große Felsbrocken
+{pl}%d große Felsbrocken
 %%%%
 %d sling bullets
-%d Schleuderkugeln
+{pl}%d Schleuderkugeln
 %%%%
 %d javelins
-%d Wurfspeere
+{pl}%d Wurfspeere
 %%%%
 %d silver javelins
-%d Silberwurfspeere
+{pl}%d Silberwurfspeere
 %%%%
 %d throwing nets
-%d Wurfnetze
+{pl}%d Wurfnetze
 %%%%
 %d boomerangs
-%d Bumerangs
+{pl}%d Bumerangs
 %%%%
 %d silver boomerangs
-%d Silberbumerangs
+{pl}%d Silberbumerangs
 %%%%
 
 #################################
@@ -98,77 +98,77 @@
 # generic
 %%%%
 %d scrolls
-%d Schriftrollen
+{pl}%d Schriftrollen
 %%%%
 
 # unidentified
 %%%%
 %d scrolls labelled %s
-%d Schriftrollen beschriftet mit %s
+{pl}%d Schriftrollen beschriftet mit %s
 %%%%
 
 # identified
 %%%%
 %d scrolls of acquirement
-%d Schriftrollen der Erwerbung
+{pl}%d Schriftrollen der Erwerbung
 %%%%
 %d scrolls of amnesia
-%d Schriftrollen der Amnesie
+{pl}%d Schriftrollen der Amnesie
 %%%%
 %d scrolls of blinking
-%d Schriftrollen des Blinzelns
+{pl}%d Schriftrollen des Blinzelns
 %%%%
 %d scrolls of brand weapon
-%d Schriftrollen der Waffenprägung
+{pl}%d Schriftrollen der Waffenprägung
 %%%%
 %d scrolls of enchant armour
-%d Schriftrollen der Rüstungsverzauberung
+{pl}%d Schriftrollen der Rüstungsverzauberung
 %%%%
 %d scrolls of enchant weapon
-%d Schriftrollen der Waffenverzauberung
+{pl}%d Schriftrollen der Waffenverzauberung
 %%%%
 %d scrolls of fear
-%d Schriftrollen der Angst
+{pl}%d Schriftrollen der Angst
 %%%%
 %d scrolls of fog
-%d Schriftrollen des Nebels
+{pl}%d Schriftrollen des Nebels
 %%%%
 %d scrolls of holy word
-%d Schriftrollen des heiligen Wortes
+{pl}%d Schriftrollen des heiligen Wortes
 %%%%
 %d scrolls of identify
-%d Schriftrollen der Identifizierung
+{pl}%d Schriftrollen der Identifizierung
 %%%%
 %d scrolls of immolation
-%d Schriftrollen der Verbrennung
+{pl}%d Schriftrollen der Verbrennung
 %%%%
 %d scrolls of magic mapping
-%d Schriftrollen des magischen Kartierens
+{pl}%d Schriftrollen des magischen Kartierens
 %%%%
 %d scrolls of noise
-%d Schriftrollen des Lärms
+{pl}%d Schriftrollen des Lärms
 %%%%
 %d scrolls of remove curse
-%d Schriftrollen des Fluchaufhebens
+{pl}%d Schriftrollen des Fluchaufhebens
 %%%%
 %d scrolls of silence
-%d Schriftrollen der Stille
+{pl}%d Schriftrollen der Stille
 %%%%
 %d scrolls of summoning
-%d Schriftrollen der Beschwörung
+{pl}%d Schriftrollen der Beschwörung
 %%%%
 %d scrolls of teleportation
-%d Schriftrollen der Teleportation
+{pl}%d Schriftrollen der Teleportation
 %%%%
 %d scrolls of torment
-%d Schriftrollen der Peinigung
+{pl}%d Schriftrollen der Peinigung
 %%%%
 %d scrolls of vulnerability
-%d Schriftrollen der Vulnerabilität
+{pl}%d Schriftrollen der Vulnerabilität
 %%%%
 # obsolete items (can occur if player loads a saved game from an older version)
 %d scrolls of removedness
-%d Schriftrollen der Obsoleszenz
+{pl}%d Schriftrollen der Obsoleszenz
 %%%%
 
 #################################
@@ -178,61 +178,61 @@
 # generic
 %%%%
 %d potions
-%d Zaubertränke
+{pl}%d Zaubertränke
 %%%%
 
 # identified
 %%%%
 %d potions of ambrosia
-%d Tränke der Ambrosia
+{pl}%d Tränke der Ambrosia
 %%%%
 %d potions of attraction
-%d Tränke der Anziehung
+{pl}%d Tränke der Anziehung
 %%%%
 %d potions of berserk rage
-%d Tränke der Berserkerwut
+{pl}%d Tränke der Berserkerwut
 %%%%
 %d potions of brilliance
-%d Tränke der Brillanz
+{pl}%d Tränke der Brillanz
 %%%%
 %d potions of cancellation
-%d Tränke der Aufhebung
+{pl}%d Tränke der Aufhebung
 %%%%
 %d potions of curing
-%d Tränke des Gegenmittels
+{pl}%d Tränke des Gegenmittels
 %%%%
 %d potions of degeneration
-%d Tränke der Degeneration
+{pl}%d Tränke der Degeneration
 %%%%
 %d potions of experience
-%d Tränke der Erfahrung
+{pl}%d Tränke der Erfahrung
 %%%%
 %d potions of flight
-%d Tränke des Fliegens
+{pl}%d Tränke des Fliegens
 %%%%
 %d potions of haste
-%d Tränke der Eile
+{pl}%d Tränke der Eile
 %%%%
 %d potions of heal wounds
-%d Tränke der Wundheilung
+{pl}%d Tränke der Wundheilung
 %%%%
 %d potions of invisibility
-%d Tränke der Unsichtbarkeit
+{pl}%d Tränke der Unsichtbarkeit
 %%%%
 %d potions of lignification
-%d Tränke der Lignifizierung
+{pl}%d Tränke der Lignifizierung
 %%%%
 %d potions of magic
-%d Tränke der Magie
+{pl}%d Tränke der Magie
 %%%%
 %d potions of might
-%d Tränke der Macht
+{pl}%d Tränke der Macht
 %%%%
 %d potions of mutation
-%d Tränke der Mutation
+{pl}%d Tränke der Mutation
 %%%%
 %d potions of resistance
-%d Tränke der Resistenz
+{pl}%d Tränke der Resistenz
 %%%%
 
 # unidentified potions can have 1 or 2 adjectives
@@ -244,19 +244,19 @@
 # meanings, but that's not necessarily the case in other languages.
 %%%%
 %d amethyst potions
-%d amethystfarbene Zaubertränke
+{pl}%d amethystfarbene Zaubertränke
 %%%%
 %d emerald potions
-%d smaragdgrüne Zaubertränke
+{pl}%d smaragdgrüne Zaubertränke
 %%%%
 %d ruby potions
-%d rubinrote Zaubertränke
+{pl}%d rubinrote Zaubertränke
 %%%%
 %d sapphire potions
-%d saphirblaue Zaubertränke
+{pl}%d saphirblaue Zaubertränke
 %%%%
 %d golden potions
-%d goldene Zaubertränke
+{pl}%d goldene Zaubertränke
 %%%%
 
 # other colours are defined in adjectives.txt
@@ -278,5 +278,5 @@
 #################################
 %%%%
 %d gold pieces
-%d Goldmünzen
+{pl}%d Goldmünzen
 %%%%

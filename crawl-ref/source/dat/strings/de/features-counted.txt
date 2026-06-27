@@ -35,28 +35,28 @@
 ################################
 %%%%
 %d shops
-%d Läden
+{pl}%d Läden
 %%%%
 %d portals
-%d Portale
+{pl}%d Portale
 %%%%
 %d shops/portals
-%d Läden/Portale
+{pl}%d Läden/Portale
 %%%%
 %d altars
-%d Altäre
+{pl}%d Altäre
 %%%%
 %d stairs
-%d Treppen
+{pl}%d Treppen
 %%%%
 %d runed doors
-%d runenverzierte Türen
+{pl}%d runenverzierte Türen
 %%%%
 %d runed translucent doors
-%d runenverzierte durchsichtige Türen
+{pl}%d runenverzierte durchsichtige Türen
 %%%%
 %d transporters
-%d Transporter
+{pl}%d Transporter
 %%%%
 
 ################################
@@ -64,28 +64,28 @@
 ################################
 %%%%
 %d stone staircases leading down
-%d Steintreppen, die nach unten führen
+{pl}%d Steintreppen, die nach unten führen
 %%%%
 %d stone staircases leading up
-%d Steintreppen, die nach oben führen
+{pl}%d Steintreppen, die nach oben führen
 %%%%
 # can get multiple in tutorial 3 at least (and maybe some specific entrance vaults)
 %d staircases leading out of the dungeon
-%d Treppen, die aus dem Kerker herausführen
+{pl}%d Treppen, die aus dem Kerker herausführen
 %%%%
 %d exits from the tutorial
-%d Ausgänge des Tutorials
+{pl}%d Ausgänge des Tutorials
 %%%%
 
 %%%%
 %d escape hatches
-%d Fluchtluken
+{pl}%d Fluchtluken
 %%%%
 %d escape hatches in the floor
-%d Fluchtluken im Boden
+{pl}%d Fluchtluken im Boden
 %%%%
 %d escape hatches in the ceiling
-%d Fluchtluken in der Decke
+{pl}%d Fluchtluken in der Decke
 %%%%
 
 ################################
@@ -93,31 +93,31 @@
 ################################
 %%%%
 %d gateways to Hell
-%d Tore zur Hölle
+{pl}%d Tore zur Hölle
 %%%%
 %d gateways back into the Dungeon
-%d Tore zurück in den Kerker
+{pl}%d Tore zurück in den Kerker
 %%%%
 %d one-way gates to the infinite horrors of the Abyss
-%d Einbahntore zu den unendlichen Schrecken des Abgrunds
+{pl}%d Einbahntore zu den unendlichen Schrecken des Abgrunds
 %%%%
 %d exits through the horrors of the Abyss
-%d Ausgänge durch die Schrecken des Abgrunds
+{pl}%d Ausgänge durch die Schrecken des Abgrunds
 %%%%
 %d gateways leading deeper into the Abyss
-%d Tore, die tiefer in den Abgrund führen
+{pl}%d Tore, die tiefer in den Abgrund führen
 %%%%
 %d gateways leading out of the Abyss
-%d Tore, die aus dem Abgrund herausführen
+{pl}%d Tore, die aus dem Abgrund herausführen
 %%%%
 %d one-way gates leading to the halls of Pandemonium
-%d Einbahntore, die in die Hallen des Pandämoniums führen
+{pl}%d Einbahntore, die in die Hallen des Pandämoniums führen
 %%%%
 %d gates leading to another region of Pandemonium
-%d Tore, die in andere Regionen des Pandämoniums führen
+{pl}%d Tore, die in andere Regionen des Pandämoniums führen
 %%%%
 %d gates leading out of Pandemonium
-%d Tore, die aus dem Pandämonium herausführen
+{pl}%d Tore, die aus dem Pandämonium herausführen
 %%%%
 
 ################################
@@ -126,83 +126,83 @@
 # it's at least theoretically possible to discover multiple of any altar simultaneously
 %%%%
 %d glowing silver altars of Zin
-%d glänzende silberne Altäre von Zin
+{pl}%d glänzende silberne Altäre von Zin
 %%%%
 %d glowing golden altars of the Shining One
-%d glänzende goldene Altäre des Strahlenden
+{pl}%d glänzende goldene Altäre des Strahlenden
 %%%%
 %d ancient bone altars of Kikubaaqudgha
-%d uralte Knochenaltäre von Kikubaaqudgha
+{pl}%d uralte Knochenaltäre von Kikubaaqudgha
 %%%%
 %d basalt altars of Yredelemnul
-%d Basaltaltäre von Yredelemnul
+{pl}%d Basaltaltäre von Yredelemnul
 %%%%
 %d shimmering altars of Xom
-%d schimmernde Altäre von Xom
+{pl}%d schimmernde Altäre von Xom
 %%%%
 %d radiant altars of Vehumet
-%d strahlende Altäre von Vehumet
+{pl}%d strahlende Altäre von Vehumet
 %%%%
 %d iron altars of Okawaru
-%d Eisenaltäre von Okawaru
+{pl}%d Eisenaltäre von Okawaru
 %%%%
 %d burning altars of Makhleb
-%d brennende Altäre von Makhleb
+{pl}%d brennende Altäre von Makhleb
 %%%%
 %d shimmering blue altars of Sif Muna
-%d schimmernde blaue Altäre von Sif Muna
+{pl}%d schimmernde blaue Altäre von Sif Muna
 %%%%
 %d bloodstained altars of Trog
-%d blutverschmierte Altäre von Trog
+{pl}%d blutverschmierte Altäre von Trog
 %%%%
 %d sparkling altars of Nemelex Xobeh
-%d funkelnde Altäre von Nemelex Xobeh
+{pl}%d funkelnde Altäre von Nemelex Xobeh
 %%%%
 %d white marble altars of Elyvilon
-%d weiße Marmoraltäre von Elyvilon
+{pl}%d weiße Marmoraltäre von Elyvilon
 %%%%
 %d corrupted altars of Lugonu
-%d verdorbene Altäre von Lugonu
+{pl}%d verdorbene Altäre von Lugonu
 %%%%
 %d roughly hewn altars of Beogh
-%d grob behauene Altäre von Beogh
+{pl}%d grob behauene Altäre von Beogh
 %%%%
 %d viscous altars of Jiyva
-%d zähflüssige Altäre von Jiyva
+{pl}%d zähflüssige Altäre von Jiyva
 %%%%
 %d blossoming altars of Fedhas
-%d blühende Altäre von Fedhas
+{pl}%d blühende Altäre von Fedhas
 %%%%
 %d snail-covered altars of Cheibriados
-%d schneckenbedeckte Altäre von Cheibriados
+{pl}%d schneckenbedeckte Altäre von Cheibriados
 %%%%
 %d broken altars of Ashenzari
-%d zerbrochene Altäre von Ashenzari
+{pl}%d zerbrochene Altäre von Ashenzari
 %%%%
 %d shadowy altars of Dithmenos
-%d schattenumwobene Altäre von Dithmenos
+{pl}%d schattenumwobene Altäre von Dithmenos
 %%%%
 %d opulent altars of Gozag
-%d opulente Altäre von Gozag
+{pl}%d opulente Altäre von Gozag
 %%%%
 %d stormy altars of Qazlal
-%d stürmische Altäre von Qazlal
+{pl}%d stürmische Altäre von Qazlal
 %%%%
 %d sacrificial altars of Ru
-%d Opferaltäre von Ru
+{pl}%d Opferaltäre von Ru
 %%%%
 %d faded altars of an unknown god
-%d verblichene Altäre eines unbekannten Gottes
+{pl}%d verblichene Altäre eines unbekannten Gottes
 %%%%
 %d oddly glowing altars of Pakellas
-%d seltsam leuchtende Altäre von Pakellas
+{pl}%d seltsam leuchtende Altäre von Pakellas
 %%%%
 %d hide-covered altars of Uskayaw
-%d fellbedeckte Altäre von Uskayaw
+{pl}%d fellbedeckte Altäre von Uskayaw
 %%%%
 %d hazy altars of Hepliaklqana
-%d dunstige Altäre von Hepliaklqana
+{pl}%d dunstige Altäre von Hepliaklqana
 %%%%
 %d ornate altars of the Wu Jian Council
-%d kunstvolle Altäre des Wu-Jian-Rates
+{pl}%d kunstvolle Altäre des Wu-Jian-Rates
 %%%%
