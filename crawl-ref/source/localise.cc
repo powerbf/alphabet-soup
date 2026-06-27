@@ -3213,6 +3213,7 @@ static string _localise_player_title(const string& context, const string& text)
     TRACE("base='%s'", base.c_str());
     map<string, string> params = { { param_name, param_val } };
     string result = localise(base, params, !base_translated);
+    result = _shift_context(result);
     TRACE("result='%s'", result.c_str());
     return result;
 }
@@ -3223,6 +3224,7 @@ string localise_player_title(const string& text)
     string result = xlate(text, false);
     if (!result.empty())
     {
+        result = _discard_context(result);
         TRACE("simple cxlate: result='%s'", result.c_str());
         return result;
     }
