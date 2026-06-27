@@ -236,7 +236,7 @@ a Trismegistus Codex
 
 %%%%
 the Unrestrained Analects
-os Analectos Desregrados
+{mpl}os Analectos Desregrados
 %%%%
 
 %%%%
@@ -1203,7 +1203,7 @@ na Hermenêutica
 %sCalor
 %%%%
 the %sVolcanoes
-os %sVulcões
+{mpl}os %sVulcões
 %%%%
 the %sBlaze
 {f}a %sChama
@@ -1260,7 +1260,7 @@ the %sOath
 %sFrio
 %%%%
 the %sSnowflakes
-os %sFlocos de Neve
+{mpl}os %sFlocos de Neve
 %%%%
 the %sGlacier
 {f}a %sGeleira
@@ -1428,7 +1428,7 @@ as %sRochas
 %sVoo
 %%%%
 the %sBirds
-os %sPássaros
+{mpl}os %sPássaros
 %%%%
 %sFeathers
 %sPenas

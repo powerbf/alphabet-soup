@@ -37,19 +37,19 @@ the stacked deck
 
 %%%%
 decks of escape
-os baralhos de fuga
+{mpl}os baralhos de fuga
 %%%%
 decks of destruction
-os baralhos de destruição
+{mpl}os baralhos de destruição
 %%%%
 decks of summoning
-os baralhos de invocação
+{mpl}os baralhos de invocação
 %%%%
 decks of punishment
-os baralhos de punição
+{mpl}os baralhos de punição
 %%%%
 stacked decks
-os baralhos empilhados
+{mpl}os baralhos empilhados
 %%%%
 
 
@@ -91,7 +91,7 @@ Wild Magic
 Magia Selvagem
 %%%%
 the Elements
-os Elementos
+{mpl}os Elementos
 %%%%
 the Pentagram
 {m}o Pentagrama
@@ -103,7 +103,7 @@ the Swarm
 {m}o Enxame
 %%%%
 the Rangers
-os Patrulheiros
+{mpl}os Patrulheiros
 %%%%
 Vitriol
 Vitríolo

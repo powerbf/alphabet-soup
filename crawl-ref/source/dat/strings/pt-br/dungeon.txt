@@ -181,7 +181,7 @@ the Orcish Mines
 as Minas dos Orcs
 %%%%
 the Elven Halls
-os Salões Élficos
+{mpl}os Salões Élficos
 %%%%
 the Lair of Beasts
 {m}o Covil das Feras
@@ -190,7 +190,7 @@ the Swamp
 {m}o Pântano
 %%%%
 the Shoals
-os Recifes
+{mpl}os Recifes
 %%%%
 the Snake Pit
 {m}o Fosso das Serpentes
@@ -199,7 +199,7 @@ the Spider Nest
 {m}o Ninho de Aranhas
 %%%%
 the Pits of Slime
-os Poços de Slime
+{mpl}os Poços de Slime
 %%%%
 the Vaults
 as Câmaras Fortes
@@ -214,7 +214,7 @@ the Depths
 as Profundezas
 %%%%
 the Hells
-os Infernos
+{mpl}os Infernos
 %%%%
 the Vestibule of Hell
 {m}o Vestíbulo do Inferno
