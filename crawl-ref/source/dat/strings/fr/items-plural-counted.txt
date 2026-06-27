@@ -6,7 +6,7 @@
 
 %%%%
 %d items
-%d articles
+{mpl}%d articles
 %%%%
 
 # Note: Counted plurals are only needed for items that stack (missiles, scrolls, potions, gold pieces).
