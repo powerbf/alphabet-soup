@@ -275,7 +275,7 @@ the explosion of spores
 die Sporenexplosion
 %%%%
 the blast of lightning
-die Blitzeinschlag
+{m}der Blitzeinschlag
 %%%%
 the blast of energy
 die Energieexplosion
@@ -300,7 +300,7 @@ the golden flame
 die goldene Flamme
 %%%%
 the effects of Hell
-die Auswirkungen der Hölle
+{pl}die Auswirkungen der Hölle
 %%%%
 the magical storm
 {m}der magische Sturm

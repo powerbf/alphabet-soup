@@ -10392,7 +10392,7 @@ You rampage quickly through %s towards %s!
 Du randalierst schnell durch {acc}%s auf {acc}%s zu!
 %%%%
 the plants
-die Pflanzen
+{pl}die Pflanzen
 %%%%
 You stride towards %s!
 Du schreitest auf {acc}%s zu!
@@ -12009,7 +12009,7 @@ your corona
 deine Korona
 %%%%
 the liquid flames
-die flüssige Flammen
+{pl}die flüssige Flammen
 %%%%
 your !!!QUAD DAMAGE!!!
 dein !!!VIERFACH-SCHADEN!!!

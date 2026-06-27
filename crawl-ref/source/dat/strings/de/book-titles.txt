@@ -287,7 +287,7 @@ the Guide on @book_magic@
 {m}der Leitfaden für {acc}@book_magic@
 %%%%
 the Collected Works on @book_magic@
-die gesammelten Werke über {acc}@book_magic@
+{pl}die gesammelten Werke über {acc}@book_magic@
 %%%%
 the Disquisition on @book_magic@
 die Abhandlung über {acc}@book_magic@
@@ -1001,7 +1001,7 @@ der größten Risiken und des höchsten Nutzens
 # @book_magic@ nominative
 %%%%
 the Arcane Arts
-die arkanen Künste
+{pl}die arkanen Künste
 %%%%
 the Hermit's Heritage
 {n}das Erbe des Eremiten
@@ -1262,7 +1262,7 @@ the %sOath
 {adj-e}%sKälte
 %%%%
 the %sSnowflakes
-die {adj-e}%sSchneeflocken
+{pl}die {adj-en}%sSchneeflocken
 %%%%
 the %sGlacier
 {m}der {adj-e}%sGletscher
@@ -1409,10 +1409,10 @@ die {adj-e}%sReise
 {adj-er}%sLehm
 %%%%
 the %sMountains
-die {adj-e}%sBerge
+{pl}die {adj-en}%sBerge
 %%%%
 the %sRocks
-die {adj-e}%sFelsen
+{pl}die {adj-en}%sFelsen
 %%%%
 
 # Air
@@ -1430,7 +1430,7 @@ die {adj-e}%sFelsen
 {adj-er}%sFlug
 %%%%
 the %sBirds
-die {adj-e}%sVögel
+{pl}die {adj-en}%sVögel
 %%%%
 %sFeathers
 {adj-e}%sFedern
@@ -1537,7 +1537,7 @@ des {adj-en}%sSchnees
 der {adj-en}%sKälte
 %%%%
 {gen}the %sSnowflakes
-die {adj-en}%sSchneeflocken
+der {adj-en}%sSchneeflocken
 %%%%
 {gen}the %sGlacier
 der {adj-en}%sGletscher
@@ -1812,7 +1812,7 @@ des Schnees
 der Kälte
 %%%%
 {gen}the Snowflakes
-die Schneeflocken
+der Schneeflocken
 %%%%
 {gen}the Glacier
 der Gletscher
