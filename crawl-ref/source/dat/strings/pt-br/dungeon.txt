@@ -132,22 +132,22 @@ Labirinto
 # HUD shows some branches as short name with indefinite article
 %%%%
 an Abyss
-um Abismo
+{m}um Abismo
 %%%%
 a Ziggurat
-um Zigurate
+{m}um Zigurate
 %%%%
 a Bazaar
-um Bazar
+{m}um Bazar
 %%%%
 a Trove
-um Tesouro
+{m}um Tesouro
 %%%%
 a Sewer
-um Esgoto
+{m}um Esgoto
 %%%%
 an Ossuary
-um Ossuário
+{m}um Ossuário
 %%%%
 a Bailey
 {f}uma Fortaleza
@@ -156,10 +156,10 @@ an Ice Cave
 {f}uma Caverna de Gelo
 %%%%
 a Volcano
-um Vulcão
+{m}um Vulcão
 %%%%
 a Wizlab
-um Laboratório de Magia
+{m}um Laboratório de Magia
 %%%%
 # same as long name
 #a Gauntlet
@@ -229,34 +229,34 @@ the Abyss
 {m}o Abismo
 %%%%
 a ziggurat
-um zigurate
+{m}um zigurate
 %%%%
 a bazaar
-um bazar
+{m}um bazar
 %%%%
 a treasure trove
-um tesouro
+{m}um tesouro
 %%%%
 a sewer
-um esgoto
+{m}um esgoto
 %%%%
 an ossuary
-um ossuário
+{m}um ossuário
 %%%%
 a bailey
 {f}uma fortaleza
 %%%%
 a Gauntlet
-um labirinto
+{m}um labirinto
 %%%%
 an ice cave
 {f}uma caverna de gelo
 %%%%
 a volcano
-um vulcão
+{m}um vulcão
 %%%%
 a wizard's laboratory
-um laboratório de magia
+{m}um laboratório de magia
 %%%%
 the Desolation of Salt
 {f}a Desolação de Sal

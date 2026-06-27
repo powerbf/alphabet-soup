@@ -15,7 +15,7 @@
 
 %%%%
 a manual
-um manual
+{m}um manual
 %%%%
 
 #################################
@@ -28,175 +28,175 @@ um manual
 
 %%%%
 a book of Minor Magic
-um livro de Magia Menor
+{m}um livro de Magia Menor
 %%%%
 a book of Conjurations
-um livro de Conjurações
+{m}um livro de Conjurações
 %%%%
 a book of Flames
-um livro de Chamas
+{m}um livro de Chamas
 %%%%
 a book of Frost
-um livro de Gelo
+{m}um livro de Gelo
 %%%%
 a book of the Dryads
-um livro das Dríades
+{m}um livro das Dríades
 %%%%
 a book of Fire
-um livro de Fogo
+{m}um livro de Fogo
 %%%%
 a book of Ice
-um livro de Gelo
+{m}um livro de Gelo
 %%%%
 a book of Spatial Translocations
-um livro de Translocações Espaciais
+{m}um livro de Translocações Espaciais
 %%%%
 a book of Hexes
-um livro de Malefícios
+{m}um livro de Malefícios
 %%%%
 a book of Lightning
-um livro de Relâmpagos
+{m}um livro de Relâmpagos
 %%%%
 a book of Death
-um livro de Morte
+{m}um livro de Morte
 %%%%
 a book of Misfortune
-um livro de Infortúnio
+{m}um livro de Infortúnio
 %%%%
 a book of Changes
-um livro de Mudanças
+{m}um livro de Mudanças
 %%%%
 a book of Transfigurations
-um livro de Transfigurações
+{m}um livro de Transfigurações
 %%%%
 a book of Battle
-um livro de Batalha
+{m}um livro de Batalha
 %%%%
 a book of Vapours
-um livro de Vapores
+{m}um livro de Vapores
 %%%%
 a book of Necromancy
-um livro de Necromancia
+{m}um livro de Necromancia
 %%%%
 a book of Callings
-um livro de Invocações
+{m}um livro de Invocações
 %%%%
 a book of Maledictions
-um livro de Maldições
+{m}um livro de Maldições
 %%%%
 a book of Air
-um livro de Ar
+{m}um livro de Ar
 %%%%
 a book of the Sky
-um livro do Céu
+{m}um livro do Céu
 %%%%
 a book of the Warp
-um livro da Distorção
+{m}um livro da Distorção
 %%%%
 a book of Annihilations
-um livro de Aniquilação
+{m}um livro de Aniquilação
 %%%%
 a book of Unlife
-um livro da Não-vida
+{m}um livro da Não-vida
 %%%%
 a book of Geomancy
-um livro de Geomancia
+{m}um livro de Geomancia
 %%%%
 a book of the Earth
-um livro da Terra
+{m}um livro da Terra
 %%%%
 a book of Power
-um livro de Poder
+{m}um livro de Poder
 %%%%
 a book of Cantrips
-um livro de Truques
+{m}um livro de Truques
 %%%%
 a book of Party Tricks
-um livro de Truques de Festa
+{m}um livro de Truques de Festa
 %%%%
 a book of Debilitation
-um livro de Debilitação
+{m}um livro de Debilitação
 %%%%
 a book of the Dragon
-um livro do Dragão
+{m}um livro do Dragão
 %%%%
 a book of Burglary
-um livro de Roubo
+{m}um livro de Roubo
 %%%%
 a book of Dreams
-um livro de Sonhos
+{m}um livro de Sonhos
 %%%%
 a book of Alchemy
-um livro de Alquimia
+{m}um livro de Alquimia
 %%%%
 a book of Beasts
-um livro das Bestas
+{m}um livro das Bestas
 %%%%
 a book of Spectacle
-um livro de Espetáculo
+{m}um livro de Espetáculo
 %%%%
 a book of Winter
-um livro do Inverno
+{m}um livro do Inverno
 %%%%
 a book of the Spheres
-um livro das Esferas
+{m}um livro das Esferas
 %%%%
 a book of Armaments
-um livro de Armamentos
+{m}um livro de Armamentos
 %%%%
 a book of Pain
-um livro da Dor
+{m}um livro da Dor
 %%%%
 a book of Decay
-um livro de Decadência
+{m}um livro de Decadência
 %%%%
 a book of Displacement
-um livro de Deslocamento
+{m}um livro de Deslocamento
 %%%%
 a book of Rime
-um livro de Geada
+{m}um livro de Geada
 %%%%
 a book of Stone
-um livro de Pedra
+{m}um livro de Pedra
 %%%%
 a book of the Senses
-um livro dos Sentidos
+{m}um livro dos Sentidos
 %%%%
 a book of Blasting
-um livro de Explosão
+{m}um livro de Explosão
 %%%%
 a book of Iron
-um livro de Ferro
+{m}um livro de Ferro
 %%%%
 a book of the Tundra
-um livro da Tundra
+{m}um livro da Tundra
 %%%%
 a book of the Moon
-um livro da Lua
+{m}um livro da Lua
 %%%%
 a book of Storms
-um livro de Tempestades
+{m}um livro de Tempestades
 %%%%
 a book of Weapons
-um livro de Armas
+{m}um livro de Armas
 %%%%
 a book of Sloth
-um livro da Preguiça
+{m}um livro da Preguiça
 %%%%
 a book of Blood
-um livro de Sangue
+{m}um livro de Sangue
 %%%%
 a book of Dangerous Friends
-um livro de Amigos Perigosos
+{m}um livro de Amigos Perigosos
 %%%%
 a book of Touch
-um livro do Toque
+{m}um livro do Toque
 %%%%
 a book of Chaos
-um livro do Caos
+{m}um livro do Caos
 %%%%
 a book of the Hunter
-um livro do Caçador
+{m}um livro do Caçador
 %%%%
 
 #################################
@@ -209,29 +209,29 @@ um livro do Caçador
 
 %%%%
 a Necronomicon
-um Necronomicon
+{m}um Necronomicon
 %%%%
 a Grand Grimoire
-um Grande Grimório
+{m}um Grande Grimório
 %%%%
 an Everburning Encyclopedia
 {f}uma Enciclopédia Sempre-Ardente
 %%%%
 # we use Anleitung for manual so we can use Handbuch here
 a Young Poisoner's Handbook
-um Manual para Jovens Envenenadores
+{m}um Manual para Jovens Envenenadores
 %%%%
 a Fen Folio
-um Folio do Pântano
+{m}um Folio do Pântano
 %%%%
 an Inescapable Atlas
-um Atlas Inescapável
+{m}um Atlas Inescapável
 %%%%
 a There-And-Back Book
-um Livro de Vaivém
+{m}um Livro de Vaivém
 %%%%
 a Trismegistus Codex
-um Códice de Trismegisto
+{m}um Códice de Trismegisto
 %%%%
 
 %%%%

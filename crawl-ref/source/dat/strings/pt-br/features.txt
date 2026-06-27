@@ -529,7 +529,7 @@ an adventurer's gravestone
 {f}uma lápide de aventureiro
 %%%%
 an ash-covered pillar
-um pilar coberto de cinzas
+{m}um pilar coberto de cinzas
 %%%%
 an autumnal tree
 {f}uma árvore outonal
@@ -538,10 +538,10 @@ a black wall
 {f}uma parede negra
 %%%%
 a broken pillar
-um pilar quebrado
+{m}um pilar quebrado
 %%%%
 a broken wreckage
-um destroço
+{m}um destroço
 %%%%
 a carved rock wall
 {f}uma parede de rocha esculpida
@@ -550,10 +550,10 @@ a crumbled stone wall
 {f}uma parede de pedra desmoronada
 %%%%
 a damp floor
-um chão úmido
+{m}um chão úmido
 %%%%
 a dead mangrove
-um mangue morto
+{m}um mangue morto
 %%%%
 a dead tree
 {f}uma árvore morta
@@ -586,7 +586,7 @@ a highly decorated stone wall
 {f}uma parede de pedra altamente decorada
 %%%%
 an ice choked empty arch of ancient stone
-um arco vazio de pedra antiga obstruído por gelo
+{m}um arco vazio de pedra antiga obstruído por gelo
 %%%%
 an ice covered rock wall
 {f}uma parede de rocha coberta de gelo
@@ -616,16 +616,16 @@ an otherworldly statue
 {f}uma estátua sobrenatural
 %%%%
 a pulsating floor
-um chão pulsante
+{m}um chão pulsante
 %%%%
 a rock-blocked tunnel
-um túnel bloqueado por rochas
+{m}um túnel bloqueado por rochas
 %%%%
 a rough-hewn floor
-um chão toscamente talhado
+{m}um chão toscamente talhado
 %%%%
 a ruined idol
-um ídolo arruinado
+{m}um ídolo arruinado
 %%%%
 a rune-carved clear stone wall
 {f}uma parede de pedra translúcida com runas esculpidas
@@ -634,10 +634,10 @@ a rune-carved stone wall
 {f}uma parede de pedra com runas esculpidas
 %%%%
 a sarcophagus
-um sarcófago
+{m}um sarcófago
 %%%%
 a sealed sarcophagus
-um sarcófago selado
+{m}um sarcófago selado
 %%%%
 a silver wall
 {f}uma parede prateada
@@ -646,7 +646,7 @@ a sinewy wall
 {f}uma parede fibrosa
 %%%%
 a spawn point
-um ponto de surgimento
+{m}um ponto de surgimento
 %%%%
 a statue of a hideous four-limbed creature
 {f}uma estátua de uma criatura horrenda de quatro membros
@@ -673,7 +673,7 @@ a weirdly glowing ball
 {f}uma esfera estranhamente brilhante
 %%%%
 a fleshy orifice
-um orifício carnudo
+{m}um orifício carnudo
 %%%%
 
 ################################
