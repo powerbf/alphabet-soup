@@ -15,14 +15,14 @@ the travel trail
 
 %%%%
 the door
-la porte
+{f}la porte
 %%%%
 the gate
 le portail
 %%%%
 # make sure translucide is first postnominal adjective
 the translucent door
-la porte translucide
+{f}la porte translucide
 %%%%
 # make sure translucide is first postnominal adjective
 the translucent gate

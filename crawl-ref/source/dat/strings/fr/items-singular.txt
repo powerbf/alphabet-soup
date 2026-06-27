@@ -19,13 +19,13 @@ the weapon
 {f}l'arme
 %%%%
 the club
-la massue
+{f}la massue
 %%%%
 the whip
 le fouet
 %%%%
 the mace
-la masse
+{f}la masse
 %%%%
 the flail
 le fléau
@@ -46,19 +46,19 @@ the eveningstar
 {f}l'étoile du soir
 %%%%
 the great mace
-la grande masse
+{f}la grande masse
 %%%%
 the giant club
-la massue géante
+{f}la massue géante
 %%%%
 the giant spiked club
-la massue géante à pointes
+{f}la massue géante à pointes
 %%%%
 the dagger
 le poignard
 %%%%
 the quick blade
-la lame rapide
+{f}la lame rapide
 %%%%
 the short sword
 le glaive
@@ -76,37 +76,37 @@ the scimitar
 le cimeterre
 %%%%
 the demon blade
-la lame démoniaque
+{f}la lame démoniaque
 %%%%
 the eudemon blade
-la lame d'eudémon
+{f}la lame d'eudémon
 %%%%
 the double sword
 {f}l'épée double
 %%%%
 the great sword
-la grande épée
+{f}la grande épée
 %%%%
 the triple sword
 {f}l'épée triple
 %%%%
 the hand axe
-la hachette
+{f}la hachette
 %%%%
 the war axe
-la hache de guerre
+{f}la hache de guerre
 %%%%
 the broad axe
-la hache large
+{f}la hache large
 %%%%
 the battleaxe
-la hache de bataille
+{f}la hache de bataille
 %%%%
 the executioner's axe
-la hache du bourreau
+{f}la hache du bourreau
 %%%%
 the spear
-la lance
+{f}la lance
 %%%%
 the trident
 le trident
@@ -115,7 +115,7 @@ the halberd
 {f}l'hallebarde
 %%%%
 the scythe
-la faux
+{f}la faux
 %%%%
 the demon trident
 le trident démoniaque
@@ -124,10 +124,10 @@ the trishula
 le trishula
 %%%%
 the glaive
-la vouge
+{f}la vouge
 %%%%
 the bardiche
-la bardiche
+{f}la bardiche
 %%%%
 the quarterstaff
 le bâton long
@@ -142,7 +142,7 @@ le lajatang
 
 %%%%
 the hunting sling
-la fronde de chasse
+{f}la fronde de chasse
 %%%%
 the fustibalus
 le fustibale
@@ -169,7 +169,7 @@ l'arc long
 
 %%%%
 the arrow
-la flèche
+{f}la flèche
 %%%%
 the bolt
 le carreau
@@ -179,28 +179,28 @@ the damnation bolt
 le carreau de damnation
 %%%%
 the dart
-la fléchette
+{f}la fléchette
 %%%%
 the poisoned dart
-la fléchette empoisonnée
+{f}la fléchette empoisonnée
 %%%%
 the atropa-tipped dart
-la fléchette à l'atropa
+{f}la fléchette à l'atropa
 %%%%
 the curare-tipped dart
-la fléchette au curare
+{f}la fléchette au curare
 %%%%
 the datura-tipped dart
-la fléchette au datura
+{f}la fléchette au datura
 %%%%
 the stone
-la pierre
+{f}la pierre
 %%%%
 the large rock
 le gros rocher
 %%%%
 the sling bullet
-la bille de fronde
+{f}la bille de fronde
 %%%%
 the javelin
 le javelot
@@ -224,22 +224,22 @@ le boomerang d'argent
 
 %%%%
 the animal skin
-la peau d'animal
+{f}la peau d'animal
 %%%%
 the robe
-la robe
+{f}la robe
 %%%%
 the leather armour
 {f}l'armure en cuir
 %%%%
 the ring mail
-la cuirasse à anneaux
+{f}la cuirasse à anneaux
 %%%%
 the scale mail
 {f}l'armure d'écailles
 %%%%
 the chain mail
-la cotte de mailles
+{f}la cotte de mailles
 %%%%
 the plate armour
 {f}l'armure de plaques
@@ -251,13 +251,13 @@ the troll leather armour
 {f}l'armure de cuir de troll
 %%%%
 the cloak
-la cape
+{f}la cape
 %%%%
 the scarf
 {f}l'écharpe
 %%%%
 the pair of gloves
-la paire de gants
+{f}la paire de gants
 %%%%
 the helmet
 le casque
@@ -266,7 +266,7 @@ the hat
 le chapeau
 %%%%
 the pair of boots
-la paire de bottes
+{f}la paire de bottes
 %%%%
 the barding
 le caparaçon
@@ -315,7 +315,7 @@ the gold dragon scales
 # this unidentified armour needs special handling
 %%%%
 the creamy pearl robe
-la robe crème perle
+{f}la robe crème perle
 %%%%
 
 #################################
@@ -582,78 +582,78 @@ the tin amulet
 # generic
 %%%%
 the wand
-la baguette
+{f}la baguette
 %%%%
 
 # identified
 %%%%
 the wand of flame
-la baguette de flammes
+{f}la baguette de flammes
 %%%%
 the wand of paralysis
-la baguette de paralysie
+{f}la baguette de paralysie
 %%%%
 the wand of digging
-la baguette d'excavation
+{f}la baguette d'excavation
 %%%%
 the wand of iceblast
-la baguette de souffle de glace
+{f}la baguette de souffle de glace
 %%%%
 the wand of polymorph
-la baguette de polymorphie
+{f}la baguette de polymorphie
 %%%%
 the wand of charming
-la baguette d'envoûtement
+{f}la baguette d'envoûtement
 %%%%
 the wand of acid
-la baguette d'acide
+{f}la baguette d'acide
 %%%%
 the wand of mindburst
-la baguette d'explosion mentale
+{f}la baguette d'explosion mentale
 %%%%
 # obsolete item (can occur if player loads a saved game from an older version)
 the wand of removedness
-la baguette de disparition
+{f}la baguette de disparition
 %%%%
 
 # unidentified amulets can have two adjectives
 # the one closest to the noun is (usually) a material, which in some languages is not treated like an adjective
 %%%%
 the iron wand
-la baguette de fer
+{f}la baguette de fer
 %%%%
 the brass wand
-la baguette de laiton
+{f}la baguette de laiton
 %%%%
 the bone wand
-la baguette d'os
+{f}la baguette d'os
 %%%%
 the wooden wand
-la baguette de bois
+{f}la baguette de bois
 %%%%
 the copper wand
-la baguette de cuivre
+{f}la baguette de cuivre
 %%%%
 the gold wand
-la baguette d'or
+{f}la baguette d'or
 %%%%
 the silver wand
-la baguette d'argent
+{f}la baguette d'argent
 %%%%
 the bronze wand
-la baguette de bronze
+{f}la baguette de bronze
 %%%%
 the ivory wand
-la baguette d'ivoire
+{f}la baguette d'ivoire
 %%%%
 the glass wand
-la baguette de verre
+{f}la baguette de verre
 %%%%
 the lead wand
-la baguette de plomb
+{f}la baguette de plomb
 %%%%
 the fluorescent wand
-la baguette fluorescente
+{f}la baguette fluorescente
 %%%%
 
 #################################
@@ -743,61 +743,61 @@ le parchemin de disparition
 # generic
 %%%%
 the potion
-la potion
+{f}la potion
 %%%%
 
 # identified
 %%%%
 the potion of ambrosia
-la potion d'ambroisie
+{f}la potion d'ambroisie
 %%%%
 the potion of attraction
-la potion d'attraction
+{f}la potion d'attraction
 %%%%
 the potion of berserk rage
-la potion de rage berserk
+{f}la potion de rage berserk
 %%%%
 the potion of brilliance
-la potion de brillance
+{f}la potion de brillance
 %%%%
 the potion of cancellation
-la potion d'annulation
+{f}la potion d'annulation
 %%%%
 the potion of curing
 l'antidote
 %%%%
 the potion of degeneration
-la potion de dégénérescence
+{f}la potion de dégénérescence
 %%%%
 the potion of experience
-la potion d'expérience
+{f}la potion d'expérience
 %%%%
 the potion of flight
-la potion de vol
+{f}la potion de vol
 %%%%
 the potion of haste
-la potion de vitesse
+{f}la potion de vitesse
 %%%%
 the potion of heal wounds
-la potion de guérison
+{f}la potion de guérison
 %%%%
 the potion of invisibility
-la potion d'invisibilité
+{f}la potion d'invisibilité
 %%%%
 the potion of lignification
-la potion de lignification
+{f}la potion de lignification
 %%%%
 the potion of magic
-la potion de magie
+{f}la potion de magie
 %%%%
 the potion of might
-la potion de puissance
+{f}la potion de puissance
 %%%%
 the potion of mutation
-la potion de mutation
+{f}la potion de mutation
 %%%%
 the potion of resistance
-la potion de résistance
+{f}la potion de résistance
 %%%%
 
 # unidentified potions can have 1 or 2 adjectives
@@ -809,19 +809,19 @@ la potion de résistance
 # meanings, but that's not necessarily the case in other languages.
 %%%%
 the amethyst potion
-la potion améthyste
+{f}la potion améthyste
 %%%%
 the emerald potion
-la potion émeraude
+{f}la potion émeraude
 %%%%
 the ruby potion
-la potion rubis
+{f}la potion rubis
 %%%%
 the sapphire potion
-la potion saphir
+{f}la potion saphir
 %%%%
 the golden potion
-la potion dorée
+{f}la potion dorée
 %%%%
 
 # other colours are defined in adjectives.txt
@@ -879,28 +879,28 @@ le cadavre de @monster@
 
 %%%%
 the box of beasts
-la boîte des bêtes
+{f}la boîte des bêtes
 %%%%
 the lightning rod
 le paratonnerre
 %%%%
 the phial of floods
-la fiole des flots
+{f}la fiole des flots
 %%%%
 the phantom mirror
 le miroir fantôme
 %%%%
 the figurine of a ziggurat
-la figurine de ziggurat
+{f}la figurine de ziggurat
 %%%%
 the condenser vane
 le condensateur de nuages
 %%%%
 the piece from Xom's chessboard
-la pièce de l'échiquier de Xom
+{f}la pièce de l'échiquier de Xom
 %%%%
 the tin of tremorstones
-la boîte de pierres sismiques
+{f}la boîte de pierres sismiques
 %%%%
 the quad damage
 le quadruple dégâts
@@ -911,5 +911,5 @@ le quadruple dégâts
 #################################
 %%%%
 the gold piece
-la pièce d'or
+{f}la pièce d'or
 %%%%

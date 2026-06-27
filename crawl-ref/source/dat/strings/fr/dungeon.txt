@@ -193,7 +193,7 @@ the Shoals
 les Récifs
 %%%%
 the Snake Pit
-la Fosse aux Serpents
+{f}la Fosse aux Serpents
 %%%%
 the Spider Nest
 le Nid d'Araignées
@@ -205,10 +205,10 @@ the Vaults
 les Chambres Fortes
 %%%%
 the Crypt
-la Crypte
+{f}la Crypte
 %%%%
 the Tomb of the Ancients
-la Tombe des Anciens
+{f}la Tombe des Anciens
 %%%%
 the Depths
 les Profondeurs
@@ -220,7 +220,7 @@ the Vestibule of Hell
 le Vestibule de l'Enfer
 %%%%
 the Iron City of Dis
-la Ville de Fer de Dis
+{f}la Ville de Fer de Dis
 %%%%
 the Realm of Zot
 le Royaume de Zot
@@ -250,7 +250,7 @@ a Gauntlet
 un labyrinthe
 %%%%
 an ice cave
-une caverne de glace
+{f}une caverne de glace
 %%%%
 a volcano
 un volcan
@@ -259,7 +259,7 @@ a wizard's laboratory
 un laboratoire du sorcier
 %%%%
 the Desolation of Salt
-la Désolation de Sel
+{f}la Désolation de Sel
 %%%%
 
 ##############################################

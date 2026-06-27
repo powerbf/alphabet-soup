@@ -47,9 +47,9 @@ KEY:/^the /the %s/
 KEY:/pair of (?!quick blades)/pair of %s/
 
 # French can have adjective before or after the noun
-/^(le |l')(.*)/le %s$2%s/
-/^(la |\{f\}l')(.*)/la {f}%s$2%s/
-/^les (.*)/les {mpl}%s$1%s/
+/^(\{m\})?(le |l')(.*)/{m}le %s$3%s/
+/^((\{f\})?la |\{f\}l')(.*)/{f}la %s$3%s/
+/^(\{mpl\})?les (.*)/{mpl}les %s$2%s/
 /^\{fpl\}les (.*)/{fpl}les %s$1%s/
 
 # possessive
@@ -75,8 +75,8 @@ KEY:/^the (?=[aeiouAEIOU])/an /
 KEY:/^the /a /
 
 # articles
-/^(le |l')/un /
-/^(la |\{f\}l')/une /
+/^(\{m\})?(le |l')/{m}un /
+/^((\{f\})?la |\{f\}l')/{f}une /
 /^(\{mpl\})?les /{mpl}/
 /^\{fpl\}les /{fpl}/
 %%%%
@@ -104,8 +104,8 @@ SELECT_BY_KEY:/^(a|an) /
 KEY:/^(a|an) /your /
 
 # singular
-/^un /ton /
-/^une /{f}ta /
+/^(\{m\})?un /{m}ton /
+/^(\{f\})?une /{f}ta /
 
 # singular possessive
 /^du (.*)/de ton $1/
@@ -134,8 +134,8 @@ SELECT_BY_KEY:/^(a|an) .*[^']{2}$/
 KEY:/^(a|an) //
 
 # remove article from value
-/^un //
-/^une /{f}/
+/^(\{m\})?un /{m}/
+/^(\{f\})?une /{f}/
 
 # if there are now two context markers in a row, remove the first one (it's superfluous).
 /^\{.\}\{/{/
