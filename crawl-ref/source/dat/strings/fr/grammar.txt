@@ -180,46 +180,72 @@ SELECT_BY_KEY:/'s$/
 KEY:/^(.*)'s$/{poss}$1/
 %%%%
 
-#############
-# if adjective already has a context, we can't generate other forms on the fly, so pre-generate
-# TODO
-#%%%%
-#PREGENERATE:10
-#%%%%
-
 #################################
 # Adjectives
 #################################
 
+#############
 # Generate feminine singular adjective from masculine singular
 %%%%
-GENERATE:f
+PREGENERATE:21
+
+SELECT_BY_KEY:/^\{m\}/
+
+KEY:/^\{m\}/{f}/
+
 # temporary marker to tell us to stop at de/du/d'/des
 /\b(d'|de|du|des|en|à|avec)\b/#$1/
-/^[^#]*/eux(?=( |$))/euse/
+
+/^[^#]*/eux\b/euse/
 /^[^#]*/([b-df-hj-np-zé])(?=( |$))/$1e/
+
 # remove temporary marker
 /#//
 %%%%
 
+#############
 # Generate masculine plural adjective from masculine singular
 %%%%
-GENERATE:mpl
+PREGENERATE:22
+
+SELECT_BY_KEY:/^\{m\}/
+
+KEY:/^\{m\}/{mpl}/
+
 # temporary marker to tell us to stop at de/du/d'/des
-/\b(d'|de|du|des|en|à|avec)\b/#$1/
+/\b(d'|de|du|des|en|à|avec)(?=( |$))/#$1/
+
 /^[^#]*/([a-rt-wyzé])(?=( |$))/$1s/
+
 # remove temporary marker
 /#//
 %%%%
 
-# Generate feminine plural adjective from masculine singular
+#############
+# Generate feminine plural adjective from feminine singular
 %%%%
-GENERATE:fpl
+PREGENERATE:23
+
+SELECT_BY_KEY:/^\{f\}/
+
+KEY:/^\{f\}/{fpl}/
+
 # temporary marker to tell us to stop at de/du/d'/des
 /\b(d'|de|du|des|en|à|avec)\b/#$1/
-/^[^#]*/eux(?=( |$))/euses/
+
 /^[^#]*/([aeio])(?=( |$))/$1s/
 /^[^#]*/([a-rt-zé])(?=( |$))/$1es/
+
 # remove temporary marker
 /#//
+%%%%
+
+#############
+# Make masculine singular the fallback (instead of English)
+%%%%
+PREGENERATE:24
+
+SELECT_BY_KEY:/^\{m\}/
+
+KEY:/^\{m\}//
 %%%%
