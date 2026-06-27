@@ -12,17 +12,17 @@ the unknown terrain
 {m}o terreno desconhecido
 %%%%
 the travel trail
-a trilha de viagem
+{f}a trilha de viagem
 %%%%
 the door
-a porta
+{f}a porta
 %%%%
 the gate
 {m}o portão
 %%%%
 # make sure translucide is first postnominal adjective
 the translucent door
-a porta translúcida
+{f}a porta translúcida
 %%%%
 # make sure translucide is first postnominal adjective
 the translucent gate
@@ -30,70 +30,70 @@ the translucent gate
 %%%%
 %%%%
 the tree
-a árvore
+{f}a árvore
 %%%%
 the awoken tree
-a árvore despertada
+{f}a árvore despertada
 %%%%
 the demonic tree
-a árvore demoníaca
+{f}a árvore demoníaca
 %%%%
 the petrified tree
-a árvore petrificada
+{f}a árvore petrificada
 %%%%
 the mangrove
 {m}o manguezal
 %%%%
 the metal wall
-a parede de metal
+{f}a parede de metal
 %%%%
 the crystal wall
-a parede de cristal
+{f}a parede de cristal
 %%%%
 the rock wall
-a parede de pedra
+{f}a parede de pedra
 %%%%
 the slime covered rock wall
-a parede de pedra coberta de slime
+{f}a parede de pedra coberta de slime
 %%%%
 the stone wall
-a parede de pedra
+{f}a parede de pedra
 %%%%
 the unnaturally hard rock wall
-a parede de pedra anormalmente dura
+{f}a parede de pedra anormalmente dura
 %%%%
 the translucent rock wall
-a parede de pedra translúcida
+{f}a parede de pedra translúcida
 %%%%
 the translucent stone wall
-a parede de pedra translúcida
+{f}a parede de pedra translúcida
 %%%%
 the translucent unnaturally hard rock wall
-a parede de pedra translúcida e anormalmente dura
+{f}a parede de pedra translúcida e anormalmente dura
 %%%%
 the wall of the weird stuff which makes up Pandemonium
-a parede da matéria estranha que compõe o Pandemônio
+{f}a parede da matéria estranha que compõe o Pandemônio
 %%%%
 the grate
-a grade
+{f}a grade
 %%%%
 the iron grate
-a grade de ferro
+{f}a grade de ferro
 %%%%
 the open sea
 {m}o mar aberto
 %%%%
 the endless lava
-a lava infinita
+{f}a lava infinita
 %%%%
 the endless expanse of salt
-a extensão infinita de sal
+{f}a extensão infinita de sal
 %%%%
 the orcish idol
 {m}o ídolo orc
 %%%%
 the granite statue
-a estátua de granito
+{f}a estátua de granito
 %%%%
 the portal
 {m}o portal
@@ -102,13 +102,13 @@ the portal to somewhere
 {m}o portal para algum lugar
 %%%%
 the lava
-a lava
+{f}a lava
 %%%%
 the deep water
-a água profunda
+{f}a água profunda
 %%%%
 the shallow water
-a água rasa
+{f}a água rasa
 %%%%
 the toxic bog
 {m}o pântano tóxico
@@ -117,97 +117,97 @@ the floor
 {m}o chão
 %%%%
 the collapsed entrance
-a entrada desmoronada
+{f}a entrada desmoronada
 %%%%
 the trap
-a armadilha
+{f}a armadilha
 %%%%
 the mechanical trap
-a armadilha mecânica
+{f}a armadilha mecânica
 %%%%
 the arrow trap
-a armadilha de flechas
+{f}a armadilha de flechas
 %%%%
 the spear trap
-a armadilha de lanças
+{f}a armadilha de lanças
 %%%%
 the blade trap
-a armadilha de lâminas
+{f}a armadilha de lâminas
 %%%%
 the dart trap
-a armadilha de dardos
+{f}a armadilha de dardos
 %%%%
 the bolt trap
-a armadilha de virotes
+{f}a armadilha de virotes
 %%%%
 the net trap
-a armadilha de rede
+{f}a armadilha de rede
 %%%%
 the pressure plate
-a placa de pressão
+{f}a placa de pressão
 %%%%
 the dispersal trap
-a armadilha de dispersão
+{f}a armadilha de dispersão
 %%%%
 the teleport trap
-a armadilha de teletransporte
+{f}a armadilha de teletransporte
 %%%%
 the permanent teleport trap
-a armadilha de teletransporte permanente
+{f}a armadilha de teletransporte permanente
 %%%%
 the shadow trap
-a armadilha das sombras
+{f}a armadilha das sombras
 %%%%
 the dormant shadow trap
-a armadilha das sombras adormecida
+{f}a armadilha das sombras adormecida
 %%%%
 the alarm trap
-a armadilha de alarme
+{f}a armadilha de alarme
 %%%%
 the Zot trap
-a armadilha de Zot
+{f}a armadilha de Zot
 %%%%
 the passage of Golubria
-a passagem de Golubria
+{f}a passagem de Golubria
 %%%%
 the shaft
 {m}o poço
 %%%%
 the web
-a teia
+{f}a teia
 %%%%
 the shop
-a loja
+{f}a loja
 %%%%
 the abandoned shop
-a loja abandonada
+{f}a loja abandonada
 %%%%
 the empty arch of ancient stone
 {m}o arco vazio de pedra antiga
 %%%%
 the detected shop or portal
-a loja ou portal detectado
+{f}a loja ou portal detectado
 %%%%
 the staircase
-a escadaria
+{f}a escadaria
 %%%%
 the stone staircase leading down
-a escadaria de pedra que desce
+{f}a escadaria de pedra que desce
 %%%%
 the stone staircase leading up
-a escadaria de pedra que sobe
+{f}a escadaria de pedra que sobe
 %%%%
 the escape hatch
-a escotilha de escape
+{f}a escotilha de escape
 %%%%
 the escape hatch in the floor
-a escotilha de escape no chão
+{f}a escotilha de escape no chão
 %%%%
 the escape hatch in the ceiling
-a escotilha de escape no teto
+{f}a escotilha de escape no teto
 %%%%
 the labyrinth entrance
-a entrada do labirinto
+{f}a entrada do labirinto
 %%%%
 the gateway to the Iron City of Dis
 {m}o portal para a Cidade de Ferro de Dis
@@ -231,7 +231,7 @@ the one-way gate to the infinite horrors of the Abyss
 {m}o portal de mão única para os horrores infinitos do Abismo
 %%%%
 the exit through the horrors of the Abyss
-a saída através dos horrores do Abismo
+{f}a saída através dos horrores do Abismo
 %%%%
 the gateway leading out of the Abyss
 {m}o portal que sai do Abismo
@@ -273,7 +273,7 @@ the glowing drain
 {m}o ralo brilhante
 %%%%
 the sand-covered staircase
-a escadaria coberta de areia
+{f}a escadaria coberta de areia
 %%%%
 the flagged portal
 {m}o portal marcado
@@ -306,61 +306,61 @@ the portal leading out of this place
 {m}o portal que sai deste lugar
 %%%%
 the staircase leading out of the dungeon
-a escadaria que sai do Calabouço
+{f}a escadaria que sai do Calabouço
 %%%%
 the staircase to the Slime Pits
-a escadaria para as Fossas de Slime
+{f}a escadaria para as Fossas de Slime
 %%%%
 the staircase back to the Lair
-a escadaria de volta para o Covil
+{f}a escadaria de volta para o Covil
 %%%%
 the staircase to the Orcish Mines
-a escadaria para as Minas Orcs
+{f}a escadaria para as Minas Orcs
 %%%%
 the staircase back to the Dungeon
-a escadaria de volta para o Calabouço
+{f}a escadaria de volta para o Calabouço
 %%%%
 the staircase to the Dwarven Hall
-a escadaria para o Salão dos Anões
+{f}a escadaria para o Salão dos Anões
 %%%%
 the staircase to the Enchanted Forest
-a escadaria para a Floresta Encantada
+{f}a escadaria para a Floresta Encantada
 %%%%
 the staircase to the Hall of Blades
-a escadaria para o Salão das Lâminas
+{f}a escadaria para o Salão das Lâminas
 %%%%
 the staircase back to the Vaults
-a escadaria de volta para as Câmeras Fortes
+{f}a escadaria de volta para as Câmeras Fortes
 %%%%
 the staircase to the Lair
-a escadaria para o Covil
+{f}a escadaria para o Covil
 %%%%
 the staircase to the Crypt
-a escadaria para a Cripta
+{f}a escadaria para a Cripta
 %%%%
 the staircase to the Ecumenical Temple
-a escadaria para o Templo Ecumênico
+{f}a escadaria para o Templo Ecumênico
 %%%%
 the staircase to the Snake Pit
-a escadaria para o Fosso das Serpentes
+{f}a escadaria para o Fosso das Serpentes
 %%%%
 the staircase to the Elven Halls
-a escadaria para os Salões Élficos
+{f}a escadaria para os Salões Élficos
 %%%%
 the staircase back to the Mines
-a escadaria de volta para as Minas
+{f}a escadaria de volta para as Minas
 %%%%
 the staircase to the Tomb
-a escadaria para o Túmulo
+{f}a escadaria para o Túmulo
 %%%%
 the staircase back to the Crypt
-a escadaria de volta para a Cripta
+{f}a escadaria de volta para a Cripta
 %%%%
 the staircase to the Swamp
-a escadaria para o Pântano
+{f}a escadaria para o Pântano
 %%%%
 the staircase to the Shoals
-a escadaria para os Recifes
+{f}a escadaria para os Recifes
 %%%%
 the hole to the Spider Nest
 {m}o buraco para o Ninho de Aranhas
@@ -369,7 +369,7 @@ the crawl-hole back to the Lair
 {m}o buraco de rastejamento de volta para o Covil
 %%%%
 the staircase to the Depths
-a escadaria para as Profundezas
+{f}a escadaria para as Profundezas
 %%%%
 the altar
 {m}o altar
@@ -459,19 +459,19 @@ the ornate altar of the Wu Jian Council
 {m}o altar ornamentado do Conselho Wu Jian
 %%%%
 the fountain
-a fonte
+{f}a fonte
 %%%%
 the fountain of clear blue water
-a fonte de água azul cristalina
+{f}a fonte de água azul cristalina
 %%%%
 the fountain of sparkling water
-a fonte de água cintilante
+{f}a fonte de água cintilante
 %%%%
 the fountain of blood
-a fonte de sangue
+{f}a fonte de sangue
 %%%%
 the dry fountain
-a fonte seca
+{f}a fonte seca
 %%%%
 the short-range portal
 {m}o portal de curto alcance
@@ -486,10 +486,10 @@ the transporter landing site
 {m}o local de pouso do transportador
 %%%%
 the sealed passage leading up
-a passagem selada que sobe
+{f}a passagem selada que sobe
 %%%%
 the sealed passage leading down
-a passagem selada que desce
+{f}a passagem selada que desce
 %%%%
 the gateway leading deeper into the Abyss
 {m}o portal que leva mais fundo no Abismo
@@ -498,7 +498,7 @@ the gateway leading deeper into the Abyss
 # from .des files
 %%%%
 The dimension's edge
-a borda da dimensão
+{f}a borda da dimensão
 %%%%
 the damp floor
 {m}o chão úmido
@@ -520,7 +520,7 @@ the rough-hewn floor
 %%%%
 # this one won't be properly generated by grammar.txt due to the 2nd article in some languages
 a detected shop or portal
-a loja ou portal detectado
+{f}uma loja ou portal detectado
 %%%%
 
 # extras from .des files

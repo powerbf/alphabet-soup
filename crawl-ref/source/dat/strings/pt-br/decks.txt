@@ -85,7 +85,7 @@ the Stairs
 as Escadas
 %%%%
 the Tomb
-a Tumba
+{f}a Tumba
 %%%%
 Wild Magic
 Magia Selvagem
@@ -97,7 +97,7 @@ the Pentagram
 {m}o Pentagrama
 %%%%
 the Dance
-a Dança
+{f}a Dança
 %%%%
 the Swarm
 {m}o Enxame
@@ -109,10 +109,10 @@ Vitriol
 Vitríolo
 %%%%
 the Cloud
-a Nuvem
+{f}a Nuvem
 %%%%
 the Storm
-a Tempestade
+{f}a Tempestade
 %%%%
 Wrath
 Ira
@@ -127,7 +127,7 @@ the Orb
 {m}o Orbe
 %%%%
 the Illusion
-a Ilusão
+{f}a Ilusão
 %%%%
 Degeneration
 Degeneração

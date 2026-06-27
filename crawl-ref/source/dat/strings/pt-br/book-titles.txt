@@ -290,7 +290,7 @@ the Collected Works on @book_magic@
 as Obras Completas sobre @book_magic@
 %%%%
 the Disquisition on @book_magic@
-a Dissertação sobre @book_magic@
+{f}a Dissertação sobre @book_magic@
 %%%%
 the Reference Book on @book_magic@
 {m}o Livro de Referência sobre @book_magic@
@@ -1005,7 +1005,7 @@ the Arcane Arts
 as Artes Arcanas
 %%%%
 the Hermit's Heritage
-a Herança do Eremita
+{f}a Herança do Eremita
 %%%%
 Magic
 Magia
@@ -1206,7 +1206,7 @@ the %sVolcanoes
 os %sVulcões
 %%%%
 the %sBlaze
-a %sChama
+{f}a %sChama
 %%%%
 %sIgnition
 %sIgnição
@@ -1263,10 +1263,10 @@ the %sSnowflakes
 os %sFlocos de Neve
 %%%%
 the %sGlacier
-a %sGeleira
+{f}a %sGeleira
 %%%%
 the %sFrostbite
-a %sQueimadura de Frio
+{f}a %sQueimadura de Frio
 %%%%
 
 # Transmutation
@@ -1332,13 +1332,13 @@ a %sQueimadura de Frio
 %sCriação
 %%%%
 the %sEntourage
-a %sComitiva
+{f}a %sComitiva
 %%%%
 %sCompanions
 %sCompanheiros
 %%%%
 the %sEscort
-a %sEscolta
+{f}a %sEscolta
 %%%%
 %sIllusion
 %sIlusão
@@ -1365,10 +1365,10 @@ the %sTraveller
 {m}o %sViajante
 %%%%
 the %sCompass
-a %sBússola
+{f}a %sBússola
 %%%%
 the %sVoyage
-a %sViagem
+{f}a %sViagem
 %%%%
 
 # Poison

@@ -36,7 +36,7 @@ the Formicid
 {m}o Formicídeo
 %%%%
 the Gargoyle
-a Gárgula
+{f}a Gárgula
 %%%%
 the Ghoul
 {m}o Ghoul
@@ -60,10 +60,10 @@ the Minotaur
 {m}o Minotauro
 %%%%
 the Mummy
-a Múmia
+{f}a Múmia
 %%%%
 the Naga
-a Naga
+{f}a Naga
 %%%%
 the Octopode
 {m}o Octópode
@@ -167,7 +167,7 @@ the Cat
 %%%%
 # Formicid
 the Ant
-a Formiga
+{f}a Formiga
 %%%%
 # Octopode
 the Octopus
@@ -206,7 +206,7 @@ the cat
 %%%%
 # Formicid
 the ant
-a formiga
+{f}a formiga
 %%%%
 # Octopode
 the octopus

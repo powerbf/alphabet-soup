@@ -172,7 +172,7 @@ um Laboratório de Magia
 ##############################################
 %%%%
 the Dungeon
-a Masmorra
+{f}a Masmorra
 %%%%
 the Ecumenical Temple
 {m}o Templo Ecumênico
@@ -205,10 +205,10 @@ the Vaults
 as Câmaras Fortes
 %%%%
 the Crypt
-a Cripta
+{f}a Cripta
 %%%%
 the Tomb of the Ancients
-a Tumba dos Antigos
+{f}a Tumba dos Antigos
 %%%%
 the Depths
 as Profundezas
@@ -220,7 +220,7 @@ the Vestibule of Hell
 {m}o Vestíbulo do Inferno
 %%%%
 the Iron City of Dis
-a Cidade de Ferro de Dis
+{f}a Cidade de Ferro de Dis
 %%%%
 the Realm of Zot
 {m}o Reino de Zot
@@ -259,7 +259,7 @@ a wizard's laboratory
 um laboratório de magia
 %%%%
 the Desolation of Salt
-a Desolação de Sal
+{f}a Desolação de Sal
 %%%%
 
 ##############################################
