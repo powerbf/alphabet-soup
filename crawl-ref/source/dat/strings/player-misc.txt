@@ -380,3 +380,101 @@ Wr
 Wz
 
 %%%%
+
+##############################################
+# Short-form combos with adjective
+##############################################
+
+%%%%
+# Abyssal Knight
+@adj@@species@AK
+
+%%%%
+# Air Elementalist
+@adj@@species@AE
+
+%%%%
+# Arcane Marksman
+@adj@@species@AM
+
+%%%%
+# Artificer
+@adj@@species@Ar
+
+%%%%
+# Berserker
+@adj@@species@Be
+
+%%%%
+# Brigand
+@adj@@species@Br
+
+%%%%
+# Chaos Knight
+@adj@@species@CK
+
+%%%%
+# Conjurer
+@adj@@species@Cj
+
+%%%%
+# Earth Elementalist
+@adj@@species@EE
+
+%%%%
+# Enchanter
+@adj@@species@En
+
+%%%%
+# Fighter
+@adj@@species@Fi
+
+%%%%
+# Fire Elementalist
+@adj@@species@FE
+
+%%%%
+# Gladiator
+@adj@@species@Gl
+
+%%%%
+# Ice Elementalist
+@adj@@species@IE
+
+%%%%
+# Delver
+@adj@@species@De
+
+%%%%
+# Monk
+@adj@@species@Mo
+
+%%%%
+# Necromancer
+@adj@@species@Ne
+
+%%%%
+# Summoner
+@adj@@species@Su
+
+%%%%
+# Transmuter
+@adj@@species@Tm
+
+%%%%
+# Venom Mage
+@adj@@species@VM
+
+%%%%
+# Wanderer
+@adj@@species@Wn
+
+%%%%
+# Warper
+@adj@@species@Wr
+
+%%%%
+# (Hedge) Wizard
+@adj@@species@Wz
+
+%%%%

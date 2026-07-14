@@ -380,3 +380,101 @@ Wr
 Wz
 Zb
 %%%%
+
+##############################################
+# Short-form combos with adjective
+##############################################
+
+%%%%
+# Abyssal Knight
+@adj@@species@AK
+{adj-er}@adj@@species@AR
+%%%%
+# Air Elementalist
+@adj@@species@AE
+{adj-er}@adj@@species@LM
+%%%%
+# Arcane Marksman
+@adj@@species@AM
+{adj-er}@adj@@species@AS
+%%%%
+# Artificer
+@adj@@species@Ar
+{adj-er}@adj@@species@Ar
+%%%%
+# Berserker
+@adj@@species@Be
+{adj-er}@adj@@species@Be
+%%%%
+# Brigand
+@adj@@species@Br
+{adj-er}@adj@@species@Br
+%%%%
+# Chaos Knight
+@adj@@species@CK
+{adj-er}@adj@@species@CR
+%%%%
+# Conjurer
+@adj@@species@Cj
+{adj-er}@adj@@species@Bs
+%%%%
+# Earth Elementalist
+@adj@@species@EE
+{adj-er}@adj@@species@Er
+%%%%
+# Enchanter
+@adj@@species@En
+{adj-er}@adj@@species@Vz
+%%%%
+# Fighter
+@adj@@species@Fi
+{adj-er}@adj@@species@Kä
+%%%%
+# Fire Elementalist
+@adj@@species@FE
+{adj-er}@adj@@species@FM
+%%%%
+# Gladiator
+@adj@@species@Gl
+{adj-er}@adj@@species@Gl
+%%%%
+# Ice Elementalist
+@adj@@species@IE
+{adj-er}@adj@@species@Ei
+%%%%
+# Delver
+@adj@@species@De
+{adj-er}@adj@@species@Gr
+%%%%
+# Monk
+@adj@@species@Mo
+{adj-er}@adj@@species@Mö
+%%%%
+# Necromancer
+@adj@@species@Ne
+{adj-er}@adj@@species@Ne
+%%%%
+# Summoner
+@adj@@species@Su
+{adj-er}@adj@@species@Hb
+%%%%
+# Transmuter
+@adj@@species@Tm
+{adj-er}@adj@@species@Vw
+%%%%
+# Venom Mage
+@adj@@species@VM
+{adj-er}@adj@@species@GM
+%%%%
+# Wanderer
+@adj@@species@Wn
+{adj-er}@adj@@species@Wn
+%%%%
+# Warper
+@adj@@species@Wr
+{adj-er}@adj@@species@Wr
+%%%%
+# (Hedge) Wizard
+@adj@@species@Wz
+{adj-er}@adj@@species@Zb
+%%%%

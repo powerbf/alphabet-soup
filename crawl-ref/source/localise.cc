@@ -1663,6 +1663,13 @@ static string _localise_ghost_name(const string& context, const string& value)
     result = replace_all(result, "@name@", name);
     result = _localise_adjectives(result, adjs);
 
+    string new_context;
+    while ((new_context =_get_context(result)) != "") {
+        TRACE("new context from \"%s\" is \"%s\"", result.c_str(), new_context.c_str());
+        result = _remove_context(result);
+        _context = new_context;
+    }
+
     return result;
 }
 
@@ -1827,6 +1834,11 @@ static string _localise_name(const string& context, const string& value)
             return _shift_context(prefix) + " " + base;
     }
 
+    // try unlabelled scroll
+    result = _localise_unidentified_scroll(context, value);
+    if (!result.empty())
+        return result;
+
     result = _localise_player_character_combo(value);
     if (!result.empty())
         return result;
@@ -1840,11 +1852,6 @@ static string _localise_name(const string& context, const string& value)
         return result;
 
     result = _localise_derived_monster_name(context, value);
-    if (!result.empty())
-        return result;
-
-    // try unlabelled scroll
-    result = _localise_unidentified_scroll(context, value);
     if (!result.empty())
         return result;
 
@@ -3051,9 +3058,42 @@ string localise_contextual(const string& context, const string& text_en)
     return _unescape_curlies(_discard_context(result));
 }
 
+// short form like MiFi, etc.
+static string _localise_short_form_player_character_combo(const string& s)
+{
+    if (s.length() < 4)
+        return "";
+
+    if (!isaupper(s[s.length()-2])|| !isaupper(s[s.length()-4]))
+        return "";
+
+    TRACE("Short form combo: _context=%s, en=%s", _context.c_str(), s.c_str());
+
+    string background = s.substr(s.length() - 2);
+    string species = s.substr(s.length() - 4, 2);
+    string adj = s.substr(0, s.length() - 4);
+
+    string result = cxlate(_context, "@adj@@species@" + background, true);
+
+    string context = _get_context(result);
+    result = _discard_context(result);
+
+    species = xlate(species, true);
+    adj = cxlate(context, adj, true);
+
+    result = replace_first(result, "@species@", species);
+    result = replace_first(result, "@adj@", adj);
+
+    return result;
+}
+
 // localise a string like "amateur Deep Elf Earth Elementalist" or "Random Deep Elf"
 static string _localise_player_character_combo(const string& s)
 {
+    string short_result = _localise_short_form_player_character_combo(s);
+    if (short_result != "") {
+        return short_result;
+    }
 
     string base_en, base_xlated, rest;
     if (!_find_character_combo_base_name(s, base_en, base_xlated, rest))

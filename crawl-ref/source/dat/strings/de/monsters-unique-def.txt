@@ -303,10 +303,10 @@ the Statue of Wucad Mu
 
 %%%%
 the @name@'s ghost
-{m}der Geist von @name@
+{m}der Geist von {dat}@name@
 %%%%
 the @name@'s illusion
-{f}die Illusion von @name@
+{f}die Illusion von {dat}@name@
 %%%%
 
 ##################

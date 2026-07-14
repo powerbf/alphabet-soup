@@ -263,6 +263,8 @@ int main()
     test("Die Erscheinung von MrDizzy der Minotaurischen Barrikade, einem legendären Minotaur Kämpfer von Beogh.",
          "The apparition of %s.", "MrDizzy the Minotaur Barricade, a legendary Minotaur Fighter of Beogh");
     cout << endl;
+    // level annotation short form
+    test("der Geist von MrDizzy, durchschnittlichem MiKä", "MrDizzy's ghost, journeyman MiFi");
 
     // player illusion
     test("die Illusion von MrDizzy", "MrDizzy's illusion");
