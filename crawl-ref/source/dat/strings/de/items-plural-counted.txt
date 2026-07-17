@@ -140,7 +140,7 @@
 {pl}%d Schriftrollen der Identifizierung
 %%%%
 %d scrolls of immolation
-{pl}%d Schriftrollen der Verbrennung
+{pl}%d Schriftrollen des Entflammens
 %%%%
 %d scrolls of magic mapping
 {pl}%d Schriftrollen des magischen Kartierens
