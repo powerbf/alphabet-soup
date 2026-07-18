@@ -3936,7 +3936,7 @@ Branches:
 Zweige:
 %%%%
 " (press <white>G</white> to reach them and <white>?/B</white> for more information)"
-" (<white>G</white> drücken um sie zu erreichen und <white>?/B</white> für wietere Informationen)"
+" (<white>G</white> drücken um sie zu erreichen und <white>?/B</white> für weitere Informationen)"
 %%%%
 (visited)
 (besucht)
@@ -3945,7 +3945,7 @@ Altars:
 Altäre:
 %%%%
 " (press <white>_</white> to reach them and <white>?/G</white> for information about gods)"
-" (<white>G</white> drücken um sie zu erreichen und <white>?/G</white> für wietere Informationen über die Götter)"
+" (<white>G</white> drücken um sie zu erreichen und <white>?/G</white> für weitere Informationen über die Götter)"
 %%%%
 Shops:
 Läden:
@@ -16101,16 +16101,16 @@ The strain on the space-time continuum destroys the shaft!
 Die Belastung des Raum-Zeit-Kontinuums zerstört den Schacht!
 %%%%
 You are sucked into a shaft and drop 1 floor!
-Du wirst in einen Schacht gesaugt und fällst 1 Ebene tiefer!
+Du wirst in einen Schacht gesaugt und landest 1 Ebene tiefer!
 %%%%
 You are sucked into a shaft and drop %d floors!
-Du wirst in einen Schacht gesaugt und fällst %d Ebenen tiefer!
+Du wirst in einen Schacht gesaugt und landest %d Ebenen tiefer!
 %%%%
 You fall into a shaft and drop 1 floor!
-Du fällst in einen Schacht und fällst 1 Ebene tiefer!
+Du fällst in einen Schacht und landest 1 Ebene tiefer!
 %%%%
 You fall into a shaft and drop %d floors!
-Du fällst in einen Schacht und fällst %d Ebenen tiefer!
+Du fällst in einen Schacht und landest %d Ebenen tiefer!
 %%%%
 The shaft crumbles and collapses.
 Der Schacht bröckelt und bricht in sich zusammen.
