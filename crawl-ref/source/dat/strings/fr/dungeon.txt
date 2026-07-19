@@ -263,6 +263,113 @@ the Desolation of Salt
 %%%%
 
 ##############################################
+# Long branch names (possessive)
+##############################################
+%%%%
+{poss}the Dungeon
+{m}du Donjon
+%%%%
+{poss}the Ecumenical Temple
+{m}du Temple Oecuménique
+%%%%
+{poss}the Orcish Mines
+des Mines des Orcs
+%%%%
+{poss}the Elven Halls
+{m}du Hall des Elfes
+%%%%
+{poss}the Lair of Beasts
+{m}du Repère des Bêtes
+%%%%
+{poss}the Swamp
+{m}du Marais
+%%%%
+{poss}the Shoals
+des Récifs
+%%%%
+{poss}the Snake Pit
+{f}de la Fosse aux Serpents
+%%%%
+{poss}the Spider Nest
+{m}du Nid d'Araignées
+%%%%
+{poss}the Pits of Slime
+des Fosses Visqueuses
+%%%%
+{poss}the Vaults
+des Chambres Fortes
+%%%%
+{poss}the Crypt
+{f}de la Crypte
+%%%%
+{poss}the Tomb of the Ancients
+{f}de la Tombe des Anciens
+%%%%
+{poss}the Depths
+des Profondeurs
+%%%%
+{poss}the Hells
+des Enfers
+%%%%
+{poss}the Vestibule of Hell
+{m}du Vestibule de l'Enfer
+%%%%
+{poss}the Iron City of Dis
+{f}de la Ville de Fer de Dis
+%%%%
+{poss}Gehenna
+de Géhenne
+%%%%
+{poss}Cocytus
+de Cocytus
+%%%%
+{poss}Tartarus
+{m}du Tartare
+%%%%
+{poss}the Realm of Zot
+{m}du Royaume de Zot
+%%%%
+{poss}the Abyss
+{m}de l'Abîme
+%%%%
+{poss}Pandemonium
+{m}du Pandémonium
+%%%%
+{poss}a ziggurat
+{m}d'un zigurrat
+%%%%
+{poss}a bazaar
+{m}d'un Bazar
+%%%%
+{poss}a treasure trove
+{m}d'un trésor
+%%%%
+{poss}a sewer
+{m}d'un égout
+%%%%
+{poss}an ossuary
+{m}d'un Ossuaire
+%%%%
+{poss}a bailey
+{m}d'un Fort (Bailey)
+%%%%
+{poss}a Gauntlet
+{m}d'un labyrinthe
+%%%%
+{poss}an ice cave
+{f}d'une caverne de glace
+%%%%
+{poss}a volcano
+{m}d'un volcan
+%%%%
+{poss}a wizard's laboratory
+{m}d'un laboratoire du sorcier
+%%%%
+{poss}the Desolation of Salt
+{f}de la Désolation de Sel
+%%%%
+
+##############################################
 # Branch abbreviations
 # These should be 8 characters or less.
 #
