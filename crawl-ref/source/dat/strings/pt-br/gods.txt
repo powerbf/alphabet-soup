@@ -177,106 +177,106 @@ Jiyva %s, o Sem Forma
 # God names - genitive
 ########################
 %%%%
-{gen}Ashenzari
+{poss}Ashenzari
 de Ashenzari
 %%%%
-{gen}Beogh
+{poss}Beogh
 de Beogh
 %%%%
-{gen}Cheibriados
+{poss}Cheibriados
 de Cheibriados
 %%%%
-{gen}Dithmenos
+{poss}Dithmenos
 de Dithmenos
 %%%%
-{gen}Elyvilon
+{poss}Elyvilon
 de Elyvilon
 %%%%
-{gen}Fedhas
+{poss}Fedhas
 de Fedhas
 %%%%
-{gen}Gozag
+{poss}Gozag
 de Gozag
 %%%%
-{gen}Hepliaklqana
+{poss}Hepliaklqana
 de Hepliaklqana
 %%%%
-{gen}Jiyva
+{poss}Jiyva
 de Jiyva
 %%%%
-{gen}Kikubaaqudgha
+{poss}Kikubaaqudgha
 de Kikubaaqudgha
 %%%%
-{gen}Lugonu
+{poss}Lugonu
 de Lugonu
 %%%%
-{gen}Makhleb
+{poss}Makhleb
 de Makhleb
 %%%%
-{gen}Nemelex Xobeh
+{poss}Nemelex Xobeh
 de Nemelex Xobeh
 %%%%
-{gen}Okawaru
+{poss}Okawaru
 de Okawaru
 %%%%
-{gen}Qazlal
+{poss}Qazlal
 de Qazlal
 %%%%
-{gen}Ru
+{poss}Ru
 de Ru
 %%%%
-{gen}Sif Muna
+{poss}Sif Muna
 de Sif Muna
 %%%%
-{gen}Trog
+{poss}Trog
 de Trog
 %%%%
-{gen}Uskayaw
+{poss}Uskayaw
 de Uskayaw
 %%%%
-{gen}Vehumet
+{poss}Vehumet
 de Vehumet
 %%%%
-{gen}Xom
+{poss}Xom
 de Xom
 %%%%
-{gen}Yredelemnul
+{poss}Yredelemnul
 de Yredelemnul
 %%%%
-{gen}Zin
+{poss}Zin
 de Zin
 %%%%
-{gen}the Shining One
+{poss}the Shining One
 do Brilhante
 %%%%
-{gen}the Wu Jian Council
+{poss}the Wu Jian Council
 do Conselho Wu Jian
 %%%%
-{gen}an unknown god
+{poss}an unknown god
 de um deus desconhecido
 %%%%
-{gen}a god
+{poss}a god
 de um deus
 %%%%
-{gen}my god
+{poss}my god
 do meu deus
 %%%%
-{gen}your god
+{poss}your god
 do seu deus
 %%%%
 
 %%%%
-{gen}his god
+{poss}his god
 do seu deus
 %%%%
-{gen}her god
+{poss}her god
 do seu deus
 %%%%
-{gen}its god
+{poss}its god
 do seu deus
 %%%%
 # note: singular "their"
-{gen}their god
+{poss}their god
 do seu deus
 %%%%
 

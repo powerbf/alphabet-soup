@@ -177,106 +177,106 @@ Jiyva %s the Shapeless
 # God names - genitive
 ########################
 %%%%
-{gen}Ashenzari
+{poss}Ashenzari
 
 %%%%
-{gen}Beogh
+{poss}Beogh
 
 %%%%
-{gen}Cheibriados
+{poss}Cheibriados
 
 %%%%
-{gen}Dithmenos
+{poss}Dithmenos
 
 %%%%
-{gen}Elyvilon
+{poss}Elyvilon
 
 %%%%
-{gen}Fedhas
+{poss}Fedhas
 
 %%%%
-{gen}Gozag
+{poss}Gozag
 
 %%%%
-{gen}Hepliaklqana
+{poss}Hepliaklqana
 
 %%%%
-{gen}Jiyva
+{poss}Jiyva
 
 %%%%
-{gen}Kikubaaqudgha
+{poss}Kikubaaqudgha
 
 %%%%
-{gen}Lugonu
+{poss}Lugonu
 
 %%%%
-{gen}Makhleb
+{poss}Makhleb
 
 %%%%
-{gen}Nemelex Xobeh
+{poss}Nemelex Xobeh
 
 %%%%
-{gen}Okawaru
+{poss}Okawaru
 
 %%%%
-{gen}Qazlal
+{poss}Qazlal
 
 %%%%
-{gen}Ru
+{poss}Ru
 
 %%%%
-{gen}Sif Muna
+{poss}Sif Muna
 
 %%%%
-{gen}Trog
+{poss}Trog
 
 %%%%
-{gen}Uskayaw
+{poss}Uskayaw
 
 %%%%
-{gen}Vehumet
+{poss}Vehumet
 
 %%%%
-{gen}Xom
+{poss}Xom
 
 %%%%
-{gen}Yredelemnul
+{poss}Yredelemnul
 
 %%%%
-{gen}Zin
+{poss}Zin
 
 %%%%
-{gen}the Shining One
+{poss}the Shining One
 
 %%%%
-{gen}the Wu Jian Council
+{poss}the Wu Jian Council
 
 %%%%
-{gen}an unknown god
+{poss}an unknown god
 
 %%%%
-{gen}a god
+{poss}a god
 
 %%%%
-{gen}my god
+{poss}my god
 
 %%%%
-{gen}your god
+{poss}your god
 
 %%%%
 
 %%%%
-{gen}his god
+{poss}his god
 
 %%%%
-{gen}her god
+{poss}her god
 
 %%%%
-{gen}its god
+{poss}its god
 
 %%%%
 # note: singular "their"
-{gen}their god
+{poss}their god
 
 %%%%
 
