@@ -3981,7 +3981,7 @@ There is no level below you in this branch.
 In diesem Zweig gibt es keine Ebene unter dir.
 %%%%
 "What level of %s? "
-Welche Ebene von {dat}%s?
+Welche Ebene {gen}%s?
 %%%%
 That's not a valid depth.
 Das ist keine gültige Tiefe.
@@ -5344,13 +5344,13 @@ You need at least %d gold to offer a bribe.
 Du brauchst mindestens %d Gold, um eine Bestechung anzubieten.
 %%%%
 You can't bribe the denizens of %s or the denizens of %s.
-Du kannst die Bewohner von {dat}%s oder von {dat}%s nicht bestechen.
+Du kannst die Bewohner {gen}%s oder {gen}%s nicht bestechen.
 %%%%
 You can't bribe the denizens of %s.
-Du kannst die Bewohner von {dat}%s nicht bestechen.
+Du kannst die Bewohner {gen}%s nicht bestechen.
 %%%%
 Do you want to bribe the denizens of %s?
-Willst du die Bewohner von {dat}%s bestechen?
+Willst du die Bewohner {gen}%s bestechen?
 %%%%
 # Gozag spreads your bribe to <branch>!
 Gozag spreads your bribe to %s!
@@ -17193,7 +17193,7 @@ Trotzdem dorthin reisen?
 "Zu welchem Altar gehen? (? - Hilfe) "
 %%%%
 "What level of %s? (default %s, ? - help) "
-"Welche Ebene von {dat}%s? (defaultmäßig %s, ? - Hilfe) "
+"Welche Ebene {gen}%s? (defaultmäßig %s, ? - Hilfe) "
 %%%%
 You're already at the bottom of this branch!
 Du bist schon am Ende dieses Zweigs!
@@ -17214,7 +17214,7 @@ Calm down first, please.
 Beruhige dich bitte zuerst.
 %%%%
 Level %d of %s
-Ebene %d von {dat}%s
+Ebene %d {gen}%s
 %%%%
 Existing waypoints:
 Bestehende Wegpunkte:
