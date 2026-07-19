@@ -263,6 +263,113 @@ the Desolation of Salt
 %%%%
 
 ##############################################
+# Long branch names (possessive)
+##############################################
+%%%%
+{poss}the Dungeon
+
+%%%%
+{poss}the Ecumenical Temple
+
+%%%%
+{poss}the Orcish Mines
+
+%%%%
+{poss}the Elven Halls
+
+%%%%
+{poss}the Lair of Beasts
+
+%%%%
+{poss}the Swamp
+
+%%%%
+{poss}the Shoals
+
+%%%%
+{poss}the Snake Pit
+
+%%%%
+{poss}the Spider Nest
+
+%%%%
+{poss}the Pits of Slime
+
+%%%%
+{poss}the Vaults
+
+%%%%
+{poss}the Crypt
+
+%%%%
+{poss}the Tomb of the Ancients
+
+%%%%
+{poss}the Depths
+
+%%%%
+{poss}the Hells
+
+%%%%
+{poss}the Vestibule of Hell
+
+%%%%
+{poss}the Iron City of Dis
+
+%%%%
+{poss}Gehenna
+
+%%%%
+{poss}Cocytus
+
+%%%%
+{poss}Tartarus
+
+%%%%
+{poss}the Realm of Zot
+
+%%%%
+{poss}the Abyss
+
+%%%%
+{poss}Pandemonium
+
+%%%%
+{poss}a ziggurat
+
+%%%%
+{poss}a bazaar
+
+%%%%
+{poss}a treasure trove
+
+%%%%
+{poss}a sewer
+
+%%%%
+{poss}an ossuary
+
+%%%%
+{poss}a bailey
+
+%%%%
+{poss}a Gauntlet
+
+%%%%
+{poss}an ice cave
+
+%%%%
+{poss}a volcano
+
+%%%%
+{poss}a wizard's laboratory
+
+%%%%
+{poss}the Desolation of Salt
+
+%%%%
+
+##############################################
 # Branch abbreviations
 # These should be 8 characters or less.
 #

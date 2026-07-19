@@ -263,6 +263,113 @@ the Desolation of Salt
 %%%%
 
 ##############################################
+# Long branch names (genitive)
+##############################################
+%%%%
+{gen}the Dungeon
+{m}des Kerkers
+%%%%
+{gen}the Ecumenical Temple
+{m}des Ökumenischen Tempels
+%%%%
+{gen}the Orcish Mines
+{pl}der orkischen Minen
+%%%%
+{gen}the Elven Halls
+{pl}der Elfenhallen
+%%%%
+{gen}the Lair of Beasts
+{f}der Höhle der Bestien
+%%%%
+{gen}the Swamp
+{m}des Sumpfes
+%%%%
+{gen}the Shoals
+{pl}der Untiefen
+%%%%
+{gen}the Snake Pit
+{f}der Schlangengrube
+%%%%
+{gen}the Spider Nest
+{n}des Spinnennests
+%%%%
+{gen}the Pits of Slime
+{pl}der Schleimgruben
+%%%%
+{gen}the Vaults
+{pl}der Gewölbe
+%%%%
+{gen}the Crypt
+{f}der Krypta
+%%%%
+{gen}the Tomb of the Ancients
+{n}des Grabes der Uralten
+%%%%
+{gen}the Depths
+{pl}der Tiefen
+%%%%
+{gen}the Hells
+{pl}der Höllen
+%%%%
+{gen}the Vestibule of Hell
+{n}des Vestibüls der Hölle
+%%%%
+{gen}the Iron City of Dis
+{f}der Eisernen Stadt von Dis
+%%%%
+{gen}Gehenna
+von Gehenna
+%%%%
+{gen}Cocytus
+von Kokytus
+%%%%
+{gen}Tartarus
+von Tartarus
+%%%%
+{gen}the Realm of Zot
+{n}des Reiches von Zot
+%%%%
+{gen}the Abyss
+{m}des Abgrunds
+%%%%
+{gen}Pandemonium
+von Pandämonium
+%%%%
+{gen}a ziggurat
+{f}einer Zikkurat
+%%%%
+{gen}a bazaar
+{m}eines Basars
+%%%%
+{gen}a treasure trove
+{f}einer Schatzkammer
+%%%%
+{gen}a sewer
+{m}eines Kanals
+%%%%
+{gen}an ossuary
+{n}eines Beinhauses
+%%%%
+{gen}a bailey
+{m}eines Burghofs
+%%%%
+{gen}a Gauntlet
+{m}eines Spießrutenlaufs
+%%%%
+{gen}an ice cave
+{f}einer Eishöhle
+%%%%
+{gen}a volcano
+{m}eines Vulkans
+%%%%
+{gen}a wizard's laboratory
+{n}des Labors eines Zauberers
+%%%%
+{gen}the Desolation of Salt
+{f}der Trostlosigkeit des Salzes
+%%%%
+
+##############################################
 # Branch abbreviations
 # These should be 8 characters or less.
 #
