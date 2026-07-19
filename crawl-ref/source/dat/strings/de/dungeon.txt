@@ -370,6 +370,113 @@ von Pandämonium
 %%%%
 
 ##############################################
+# In branch (for welcome message)
+##############################################
+%%%%
+{in}the Dungeon
+{m}im Kerker
+%%%%
+{in}the Ecumenical Temple
+{m}im Ökumenischen Tempel
+%%%%
+{in}the Orcish Mines
+{pl}in den orkischen Minen
+%%%%
+{in}the Elven Halls
+{pl}in den Elfenhallen
+%%%%
+{in}the Lair of Beasts
+{f}in der Höhle der Bestien
+%%%%
+{in}the Swamp
+{m}im Sumpf
+%%%%
+{in}the Shoals
+{pl}in den Untiefen
+%%%%
+{in}the Snake Pit
+{f}in der Schlangengrube
+%%%%
+{in}the Spider Nest
+{n}im Spinnennest
+%%%%
+{in}the Pits of Slime
+{pl}in den Schleimgruben
+%%%%
+{in}the Vaults
+{pl}in den Gewölben
+%%%%
+{in}the Crypt
+{f}in der Krypta
+%%%%
+{in}the Tomb of the Ancients
+{n}im Grab der Uralten
+%%%%
+{in}the Depths
+{pl}in den Tiefen
+%%%%
+{in}the Hells
+{pl}in den Höllen
+%%%%
+{in}the Vestibule of Hell
+{n}im Vestibül der Hölle
+%%%%
+{in}the Iron City of Dis
+{f}in der Eisernen Stadt von Dis
+%%%%
+{in}Gehenna
+in Gehenna
+%%%%
+{in}Cocytus
+in Kokytus
+%%%%
+{in}Tartarus
+in Tartarus
+%%%%
+{in}the Realm of Zot
+{n}im Reich von Zot
+%%%%
+{in}the Abyss
+{m}im Abgrund
+%%%%
+{in}Pandemonium
+in Pandämonium
+%%%%
+{in}a ziggurat
+{f}in einer Zikkurat
+%%%%
+{in}a bazaar
+{m}in einem Basar
+%%%%
+{in}a treasure trove
+{f}in einem Schatzkammer
+%%%%
+{in}a sewer
+{m}in einem Kanal
+%%%%
+{in}an ossuary
+{n}in einem Beinhaus
+%%%%
+{in}a bailey
+{m}in einem Burghof
+%%%%
+{in}a Gauntlet
+{m}in einem Spießrutenlauf
+%%%%
+{in}an ice cave
+{f}in einer Eishöhle
+%%%%
+{in}a volcano
+{m}in einem Vulkan
+%%%%
+{in}a wizard's laboratory
+{n}im Labor eines Zauberers
+%%%%
+{in}the Desolation of Salt
+{f}in der Trostlosigkeit des Salzes
+%%%%
+
+##############################################
 # Branch abbreviations
 # These should be 8 characters or less.
 #

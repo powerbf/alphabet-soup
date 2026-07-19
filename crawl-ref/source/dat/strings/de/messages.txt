@@ -16143,10 +16143,10 @@ You pass into a different region of Pandemonium.
 Du passierst in eine andere Region des Pandämoniums.
 %%%%
 Welcome back to %s!
-Willkommen zurück bei {dat}%s!
+Willkommen zurück {in}%s!
 %%%%
 Welcome to %s!
-Willkommen bei {dat}%s!
+Willkommen {in}%s!
 %%%%
 Zot already knows this place too well. Descend or flee this branch!
 Zot kennt diesen Ort bereits zu gut. Wage dich tiefer oder flieh aus diesem Zweig!
