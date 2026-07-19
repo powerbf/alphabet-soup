@@ -4,7 +4,7 @@
 #
 ###############################################################################
 
-# This is needed bacause many titles are weak nouns or nominalised adjectives,
+# This is needed because many titles are weak nouns or nominalised adjectives,
 # which are declined differently from regular nouns.
 
 ##############################################
@@ -162,7 +162,7 @@
 {m}dem Kämpfer
 %%%%
 {dat}the Combatant
-{m}dem Kombattant
+{m}dem Kombattanten
 %%%%
 {dat}the Warrior
 {m}dem Krieger
@@ -478,7 +478,7 @@
 {n}dem Orakel
 %%%%
 {dat}the Illuminatus
-{m}dem Illuminat
+{m}dem Illuminaten
 %%%%
 {dat}the Omniscient
 {m}dem Allwissenden
@@ -809,7 +809,7 @@
 {m}dem Pfähler
 %%%%
 {dat}the Phalangite
-{m}dem Phalangit
+{m}dem Phalangiten
 %%%%
 {dat}the @Adj@ Porcupine
 {n}dem {adj-en}@Adj@ Stachelschwein
@@ -1272,7 +1272,7 @@
 %%%%
 # Djinni
 {dat}the Weightless Champion
-{m}dem Gewichtslose Meister
+{m}dem Gewichtslosen Meister
 %%%%
 # mummy
 {dat}the Pharaoh
