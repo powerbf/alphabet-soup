@@ -262,6 +262,8 @@ int main()
     // long-form description
     test("Die Erscheinung von MrDizzy der Minotaurischen Barrikade, einem legendären Minotaur Kämpfer von Beogh.",
          "The apparition of %s.", "MrDizzy the Minotaur Barricade, a legendary Minotaur Fighter of Beogh");
+    test("Die Erscheinung von Fuonemn dem Unbezwingbaren, einem erfahrenen Tiefenzwerg Berserker von Trog.",
+         "The apparition of %s.", "Fuonemn the Impregnable, a veteran Deep Dwarf Berserker of Trog");
     cout << endl;
     // level annotation short form
     test("der Geist von MrDizzy, durchschnittlichem MiKä", "MrDizzy's ghost, journeyman MiFi");
