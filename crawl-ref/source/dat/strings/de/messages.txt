@@ -3981,7 +3981,7 @@ There is no level below you in this branch.
 In diesem Zweig gibt es keine Ebene unter dir.
 %%%%
 "What level of %s? "
-Welche Ebene {gen}%s?
+"Welche Ebene {gen}%s? "
 %%%%
 That's not a valid depth.
 Das ist keine gültige Tiefe.

@@ -358,6 +358,15 @@ int main()
     msg = localise("You found it @in_location@", {{"in_location", "in a volcano"}});
     show_result(msg, "Du hast diesen Gegenstand in einem Vulkan gefunden");
 
+    msg = localise("What level of %s? ", "the Dungeon");
+    show_result(msg, "Welche Ebene des Kerkers? ");
+
+    msg = localise("Welcome to %s!", "the Ecumenical Temple");
+    show_result(msg, "Willkommen im Ökumenischen Tempel!");
+
+    msg = localise("Welcome back to %s!", "the Depths");
+    show_result(msg, "Willkommen zurück in den Tiefen!");
+
     string place = "between levels 3 and 8 of the Dungeon";
     msg = localise("The entrance to this branch can be found %s.", place);
     show_result(msg, "Der Eingang dieses Bereichs kann zwischen Ebenen 3 und 8 des Kerkers gefunden werden.");
