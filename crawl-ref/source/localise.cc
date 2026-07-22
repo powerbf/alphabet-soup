@@ -3154,7 +3154,7 @@ static string _localise_player_character_combo(const string& s)
  */
 static string _localise_player_title(const string& context, const string& text)
 {
-    if (text.empty() || !localisation_active())
+    if (text.empty())
         return text;
 
     string determiner, rest;
@@ -3269,6 +3269,9 @@ static string _localise_player_title(const string& context, const string& text)
 
 string localise_player_title(const string& text)
 {
+    if (!localisation_active())
+        return text;
+
     // try simple translation first
     string result = xlate(text, false);
     if (!result.empty())
