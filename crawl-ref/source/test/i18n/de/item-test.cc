@@ -742,6 +742,9 @@ int main()
     msg = localise("wielding %s", "a +1 sacred scourge of holy wrath");
     test(msg, "mit einer +1 heiligen Geißel des heiligen Zorns bewaffnet");
 
+    msg = localise("You block %s's attack.", "the +4 halberd of venom");
+    test(msg, "Du blockst den Angriff der +4 Hellebarde des Giftes.");
+
     cout << endl << num_passes << " TESTS PASSED" << endl;
     if (num_fails > 0)
         cout << "**** " << num_fails << " TESTS FAILED ****" << endl;

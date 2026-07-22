@@ -1167,13 +1167,13 @@ You pounce on %s unawares!
 %s fails to defend against your attack.
 
 %%%%
-You block %s attack.
+You block %s's attack.
 
 %%%%
 %s blocks your attack.
 
 %%%%
-%s blocks %s attack.
+%s blocks %s's attack.
 
 %%%%
 You melt %s

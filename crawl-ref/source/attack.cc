@@ -1316,14 +1316,14 @@ bool attack::attack_shield_blocked(bool verbose)
         if (needs_message && verbose)
         {
             if (defender->is_player())
-                mprf("You block %s attack.", atk_name(DESC_ITS).c_str());
+                mprf("You block %s's attack.", atk_name(DESC_THE).c_str());
             else if (attacker->is_player())
                 mprf("%s blocks your attack.", defender_name(false).c_str());
             else
             {
-                mprf("%s blocks %s attack.",
+                mprf("%s blocks %s's attack.",
                      defender_name(false).c_str(),
-                     atk_name(DESC_ITS).c_str());
+                     atk_name(DESC_THE).c_str());
             }
         }
 

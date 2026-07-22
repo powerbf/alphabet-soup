@@ -1167,13 +1167,13 @@ Du stürzt dich unbemerkt auf {acc}%s!
 %s fails to defend against your attack.
 %s schafft es nicht, deinen Angriff abzuwehren.
 %%%%
-You block %s attack.
-Du blockst den Angriff %s.
+You block %s's attack.
+Du blockst den Angriff {gen}%s.
 %%%%
 %s blocks your attack.
 %s blockiert deinen Angriff.
 %%%%
-%s blocks %s attack.
+%s blocks %s's attack.
 %s blockiert den Angriff {gen}%s.
 %%%%
 You melt %s
