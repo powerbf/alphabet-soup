@@ -165,7 +165,7 @@ static string _spell_extra_description(spell_type spell, bool viewing)
 
     desc << chop_string(spell_power_string(spell), 10)
          << chop_string(damagestring, 10)
-         << chop_string(rangestring, 10)
+         << chop_string(rangestring, 11)
          << chop_string(spell_noise_string(spell, 10), 14);
 
     desc << "</" << colour_to_str(highlight) <<">";
@@ -193,7 +193,7 @@ int list_spells(bool toggle_with_I, bool viewing, bool allow_preselect,
         string alt_text = titlestring;
         alt_text += chop_string(localise("Power"), 10);
         alt_text += chop_string(localise("Damage"), 10);
-        alt_text += chop_string(localise("Range"), 10);
+        alt_text += chop_string(localise("Range"), 11);
         alt_text += localise("Noise");
         ToggleableMenuEntry* me =
             new ToggleableMenuEntry(text, alt_text, MEL_TITLE);
