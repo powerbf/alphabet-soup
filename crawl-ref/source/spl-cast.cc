@@ -83,6 +83,19 @@
 #include "view.h"
 #include "viewchar.h" // stringize_glyph
 
+// column widths
+// spell base info - id, name, type (schools), failure, level
+// spell extra info - id, name, power, damage, range, noise
+const int COL_WIDTH_MENU_ID = 4; // e.g. "a - "
+const int COL_WIDTH_SPELL_NAME = 30;
+const int COL_WIDTH_SPELL_TYPE = 30;
+const int COL_WIDTH_SPELL_FAILURE = 9;
+const int COL_WIDTH_SPELL_LEVEL = 6;
+const int COL_WIDTH_SPELL_POWER = 10;
+const int COL_WIDTH_SPELL_DAMAGE = 10;
+const int COL_WIDTH_SPELL_RANGE = 11;
+const int COL_WIDTH_SPELL_NOISE = 14;
+
 static int _spell_enhancement(spell_type spell);
 static string _spell_failure_rate_description(spell_type spell);
 
@@ -126,22 +139,22 @@ static string _spell_base_description(spell_type spell, bool viewing)
     desc << "<" << colour_to_str(highlight) << ">" << left;
 
     // spell name
-    desc << chop_string(localise(spell_title(spell)), 30);
+    desc << chop_string(localise(spell_title(spell)), COL_WIDTH_SPELL_NAME - 1);
+    desc << " ";
 
     // spell schools
-    desc << spell_schools_string(spell);
+    desc << chop_string(spell_schools_string(spell), COL_WIDTH_SPELL_TYPE - 1);
+    desc << " ";
 
-    const int so_far = strwidth(desc.str()) - (strwidth(colour_to_str(highlight))+2);
-    if (so_far < 60)
-        desc << string(60 - so_far, ' ');
     desc << "</" << colour_to_str(highlight) <<">";
 
-    // spell fail rate, level
+    // spell fail rate
     const string failure_rate = spell_failure_rate_string(spell);
     const int width = strwidth(formatted_string::parse_string(failure_rate).tostring());
-    desc << failure_rate << string(12-width, ' ');
+    desc << failure_rate << string(COL_WIDTH_SPELL_FAILURE - width, ' ');
+
+    // level (int)
     desc << spell_difficulty(spell);
-    desc << " ";
 
     return desc.str();
 }
@@ -155,7 +168,9 @@ static string _spell_extra_description(spell_type spell, bool viewing)
     desc << "<" << colour_to_str(highlight) << ">" << left;
 
     // spell name
-    desc << chop_string(localise(spell_title(spell)), 30);
+    int max_width = COL_WIDTH_SPELL_NAME - 1;
+    desc << chop_string(localise(spell_title(spell)), max_width);
+    desc << " ";
 
     // spell power, spell range, noise
     const string rangestring = spell_range_string(spell);
@@ -163,10 +178,13 @@ static string _spell_extra_description(spell_type spell, bool viewing)
     if (damagestring.empty())
         damagestring = localise("N/A");
 
-    desc << chop_string(spell_power_string(spell), 10)
-         << chop_string(damagestring, 10)
-         << chop_string(rangestring, 11)
-         << chop_string(spell_noise_string(spell, 10), 14);
+    desc << chop_string(spell_power_string(spell), COL_WIDTH_SPELL_POWER - 1)
+         << " "
+         << chop_string(damagestring, COL_WIDTH_SPELL_DAMAGE - 1)
+         << " "
+         << chop_string(rangestring, COL_WIDTH_SPELL_RANGE - 1)
+         << " "
+         << chop_string(spell_noise_string(spell, COL_WIDTH_SPELL_NOISE - 4), COL_WIDTH_SPELL_NOISE);
 
     desc << "</" << colour_to_str(highlight) <<">";
 
@@ -185,16 +203,17 @@ int list_spells(bool toggle_with_I, bool viewing, bool allow_preselect,
     ToggleableMenu spell_menu(MF_SINGLESELECT | MF_ANYPRINTABLE
             | MF_NO_WRAP_ROWS | MF_ALWAYS_SHOW_MORE | MF_ALLOW_FORMATTING);
     {
-        string titlestring = chop_string(localise(title), 34);
+        const int title_width = COL_WIDTH_MENU_ID + COL_WIDTH_SPELL_NAME;
+        string titlestring = chop_string(localise(title), title_width);
         string text = titlestring;
-        text += chop_string(localise("Type"), 30);
-        text += chop_string(localise("Failure"), 9);
-        text += localise("Level");
+        text += chop_string(localise("Type"), COL_WIDTH_SPELL_TYPE);
+        text += chop_string(localise("Failure"), COL_WIDTH_SPELL_FAILURE);
+        text += chop_string(localise("Level"), COL_WIDTH_SPELL_LEVEL, false);
         string alt_text = titlestring;
-        alt_text += chop_string(localise("Power"), 10);
-        alt_text += chop_string(localise("Damage"), 10);
-        alt_text += chop_string(localise("Range"), 11);
-        alt_text += localise("Noise");
+        alt_text += chop_string(localise("Power"), COL_WIDTH_SPELL_POWER);
+        alt_text += chop_string(localise("Damage"), COL_WIDTH_SPELL_DAMAGE);
+        alt_text += chop_string(localise("Range"), COL_WIDTH_SPELL_RANGE);
+        alt_text += chop_string(localise("Noise"), COL_WIDTH_SPELL_NOISE, false);
         ToggleableMenuEntry* me =
             new ToggleableMenuEntry(text, alt_text, MEL_TITLE);
         spell_menu.set_title(me, true, true);
