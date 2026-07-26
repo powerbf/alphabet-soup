@@ -1374,10 +1374,10 @@ Das Silber versengt {acc}%s!
 Die Lebenskraft %s wird als Opfer dargeboten.
 %%%%
 You draw life force from %s%s
-Du ziehst Lebenskraft aus %s%s
+Du ziehst Lebenskraft aus {dat}%s%s
 %%%%
 %s draws life force from %s%s
-%s zieht Lebenskraft aus %s%s
+%s zieht Lebenskraft aus {dat}%s%s
 %%%%
 %s is healed by the life force!
 %s wird durch die Lebenskraft geheilt!

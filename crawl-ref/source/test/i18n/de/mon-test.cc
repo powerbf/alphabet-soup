@@ -284,6 +284,11 @@ int main()
 
     test("Du punktierst etwas", "You puncture %s", "something");
     test("Du blockst den Angriff von etwas.", "You block %s's attack.", "something");
+    test("Du ziehst Lebenskraft aus dem unsichtbaren Schrecken!",
+         "You draw life force from %s%s", "the unseen horror", "!");
+    // note: this will be capitalised by mprf
+    test("etwas zieht Lebenskraft aus dir!!!",
+         "%s draws life force from %s%s", "something", "you", "!!!");
     cout << endl;
 
     // show results summary
