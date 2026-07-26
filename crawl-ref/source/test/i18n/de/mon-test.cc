@@ -282,6 +282,16 @@ int main()
          "An illusion of %s.", "MrDizzy the Minotaur Barricade, a legendary Minotaur Fighter of Beogh");
     cout << endl;
 
+    // mutant beasts
+    // these have one "tier" and two "facets"
+    test("das larvale Fledermausfeuerbiest", "the larval batfire beast");
+    test("ein juveniles Feuerochsenbiest", "a juvenile fireox beast");
+    test("dein reifes Ochsenschockbiest", "your mature oxshock beast");
+    test("älteres Schockstichbiest", "elder shocksting beast");
+    test("des urzeitlichen Stichfeuerbiestes", "the primal stingfire beast's");
+    //test("eines urzeitlichen Stichfeuerbiestes", "a primal stingfire beast's");
+    cout << endl;
+
     test("Du punktierst etwas", "You puncture %s", "something");
     test("Du blockst den Angriff von etwas.", "You block %s's attack.", "something");
     test("Du ziehst Lebenskraft aus dem unsichtbaren Schrecken!",

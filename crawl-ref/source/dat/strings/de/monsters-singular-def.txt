@@ -1459,25 +1459,6 @@ the tough sensed monster
 the nasty sensed monster
 {n}das furchtbare gespürte Monster
 %%%%
-# subtypes of mutant beast
-the sting beast
-{n}das Stichbiest
-%%%%
-the bat beast
-{n}das Fledermausbiest
-%%%%
-the fire beast
-{n}das Feuerbiest
-%%%%
-the weird beast
-{n}das bizarre Biest
-%%%%
-the shock beast
-{n}das Schockbiest
-%%%%
-the ox beast
-{n}das Ochsenbiest
-%%%%
 the spectre
 {f}die Spukgestalt
 %%%%
@@ -1492,6 +1473,99 @@ the bog mummy
 %%%%
 the lunar statue
 {f}die Mondstatue
+%%%%
+
+# subtypes of mutant beast
+%%%%
+the batfire beast
+{n}das Fledermausfeuerbiest
+%%%%
+the batox beast
+{n}das Fledermausochsenbiest
+%%%%
+the batshock beast
+{n}das Fledermausschockbiest
+%%%%
+the batsting beast
+{n}das Fledermausstichbiest
+%%%%
+the batweird beast
+{n}das Fledermausbizarrbiest
+%%%%
+the firebat beast
+{n}das Feuerfledermausbiest
+%%%%
+the fireox beast
+{n}das Feuerochsenbiest
+%%%%
+the fireshock beast
+{n}das Feuerschockbiest
+%%%%
+the firesting beast
+{n}das Feuerstichbiest
+%%%%
+the fireweird beast
+{n}das Feuerbizarrbiest
+%%%%
+the oxbat beast
+{n}das Ochsenfledermausbiest
+%%%%
+the oxfire beast
+{n}das Ochsenfeuerbiest
+%%%%
+the oxshock beast
+{n}das Ochsenschockbiest
+%%%%
+the oxsting beast
+{n}das Ochsenstichbiest
+%%%%
+the oxweird beast
+{n}das Ochsenbizarrbiest
+%%%%
+the shockbat beast
+{n}das Schockfledermausbiest
+%%%%
+the shockfire beast
+{n}das Schockfeuerbiest
+%%%%
+the shockox beast
+{n}das Schockochsenbiest
+%%%%
+the shocksting beast
+{n}das Schockstichbiest
+%%%%
+the shockweird beast
+{n}das Schockbizarrbiest
+%%%%
+the stingbat beast
+{n}das Stichfledermausbiest
+%%%%
+the stingfire beast
+{n}das Stichfeuerbiest
+%%%%
+the stingox beast
+{n}das Stichochsenbiest
+%%%%
+the stingshock beast
+{n}das Stichschockbiest
+%%%%
+the stingweird beast
+{n}das Stichbizarrbiest
+%%%%
+the weirdbat beast
+{n}das bizarre Fledermausbiest
+%%%%
+the weirdfire beast
+{n}das bizarre Feuerbiest
+%%%%
+the weirdox beast
+{n}das bizarre Ochsenbiest
+%%%%
+the weirdshock beast
+{n}das bizarre Shockbiest
+%%%%
+the weirdsting beast
+{n}das bizarre Stichbiest
 %%%%
 
 # unseen monster
