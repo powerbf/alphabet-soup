@@ -282,6 +282,10 @@ int main()
          "An illusion of %s.", "MrDizzy the Minotaur Barricade, a legendary Minotaur Fighter of Beogh");
     cout << endl;
 
+    test("Du punktierst etwas", "You puncture %s", "something");
+    test("Du blockst den Angriff von etwas.", "You block %s's attack.", "something");
+    cout << endl;
+
     // show results summary
     cout << num_passes << " TESTS PASSED" << endl;
     if (num_fails > 0)
