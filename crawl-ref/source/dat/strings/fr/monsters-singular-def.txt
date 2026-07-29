@@ -1459,27 +1459,6 @@ the tough sensed monster
 the nasty sensed monster
 {m}le monstre perçu redoutable
 %%%%
-# subtypes of mutant beast
-# sous-types de bête mutante
-%%%%
-the sting beast
-{f}la bête piquante
-%%%%
-the bat beast
-{f}la bête-chauve-souris
-%%%%
-the fire beast
-{f}la bête de feu
-%%%%
-the weird beast
-{f}la bête étrange
-%%%%
-the shock beast
-{f}la bête électrique
-%%%%
-the ox beast
-{f}la bête-bœuf
-%%%%
 the spectre
 {m}le spectre
 %%%%
@@ -1494,6 +1473,99 @@ the bog mummy
 %%%%
 the lunar statue
 {f}la statue lunaire
+%%%%
+
+# subtypes of mutant beast
+%%%%
+the batfire beast
+
+%%%%
+the batox beast
+
+%%%%
+the batshock beast
+
+%%%%
+the batsting beast
+
+%%%%
+the batweird beast
+
+%%%%
+the firebat beast
+
+%%%%
+the fireox beast
+
+%%%%
+the fireshock beast
+
+%%%%
+the firesting beast
+
+%%%%
+the fireweird beast
+
+%%%%
+the oxbat beast
+
+%%%%
+the oxfire beast
+
+%%%%
+the oxshock beast
+
+%%%%
+the oxsting beast
+
+%%%%
+the oxweird beast
+
+%%%%
+the shockbat beast
+
+%%%%
+the shockfire beast
+
+%%%%
+the shockox beast
+
+%%%%
+the shocksting beast
+
+%%%%
+the shockweird beast
+
+%%%%
+the stingbat beast
+
+%%%%
+the stingfire beast
+
+%%%%
+the stingox beast
+
+%%%%
+the stingshock beast
+
+%%%%
+the stingweird beast
+
+%%%%
+the weirdbat beast
+
+%%%%
+the weirdfire beast
+
+%%%%
+the weirdox beast
+
+%%%%
+the weirdshock beast
+
+%%%%
+the weirdsting beast
+
 %%%%
 
 # unseen monster
