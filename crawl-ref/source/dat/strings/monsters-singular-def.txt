@@ -1458,25 +1458,6 @@ the tough sensed monster
 the nasty sensed monster
 
 %%%%
-# subtypes of mutant beast
-the sting beast
-
-%%%%
-the bat beast
-
-%%%%
-the fire beast
-
-%%%%
-the weird beast
-
-%%%%
-the shock beast
-
-%%%%
-the ox beast
-
-%%%%
 the spectre
 
 %%%%
@@ -1493,6 +1474,99 @@ the lunar statue
 
 %%%%
 
+# subtypes of mutant beast
+%%%%
+the batfire beast
+
+%%%%
+the batox beast
+
+%%%%
+the batshock beast
+
+%%%%
+the batsting beast
+
+%%%%
+the batweird beast
+
+%%%%
+the firebat beast
+
+%%%%
+the fireox beast
+
+%%%%
+the fireshock beast
+
+%%%%
+the firesting beast
+
+%%%%
+the fireweird beast
+
+%%%%
+the oxbat beast
+
+%%%%
+the oxfire beast
+
+%%%%
+the oxshock beast
+
+%%%%
+the oxsting beast
+
+%%%%
+the oxweird beast
+
+%%%%
+the shockbat beast
+
+%%%%
+the shockfire beast
+
+%%%%
+the shockox beast
+
+%%%%
+the shocksting beast
+
+%%%%
+the shockweird beast
+
+%%%%
+the stingbat beast
+
+%%%%
+the stingfire beast
+
+%%%%
+the stingox beast
+
+%%%%
+the stingshock beast
+
+%%%%
+the stingweird beast
+
+%%%%
+the weirdbat beast
+
+%%%%
+the weirdfire beast
+
+%%%%
+the weirdox beast
+
+%%%%
+the weirdshock beast
+
+%%%%
+the weirdsting beast
+
+%%%%
+
 # unseen monster
 %%%%
 something
@@ -1501,6 +1575,7 @@ something
 something unseen
 
 %%%%
+# avoid "etwas, das du nicht sehen kannst" because it would require a following komma in some situations and not others
 something you cannot see
 
 %%%%

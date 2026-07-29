@@ -1458,24 +1458,6 @@ des harten gespürten Monsters
 the nasty sensed monster's
 des furchtbaren gespürten Monsters
 %%%%
-the sting beast's
-des Stichbiestes
-%%%%
-the bat beast's
-des Fledermausbiestes
-%%%%
-the fire beast's
-des Feuerbiestes
-%%%%
-the weird beast's
-des bizarren Biestes
-%%%%
-the shock beast's
-des Schockbiestes
-%%%%
-the ox beast's
-des Ochsenbiestes
-%%%%
 the spectre's
 {f}der Spukgestalt
 %%%%
@@ -1490,6 +1472,99 @@ the bog mummy's
 %%%%
 the lunar statue's
 {f}der Mondstatue
+%%%%
+
+# subtypes of mutant beast
+%%%%
+the batfire beast's
+{n}des Fledermausfeuerbiestes
+%%%%
+the batox beast's
+{n}des Fledermausochsenbiestes
+%%%%
+the batshock beast's
+{n}des Fledermausschockbiestes
+%%%%
+the batsting beast's
+{n}des Fledermausstichbiestes
+%%%%
+the batweird beast's
+{n}des Fledermausbizarrbiestes
+%%%%
+the firebat beast's
+{n}des Feuerfledermausbiestes
+%%%%
+the fireox beast's
+{n}des Feuerochsenbiestes
+%%%%
+the fireshock beast's
+{n}des Feuerschockbiestes
+%%%%
+the firesting beast's
+{n}des Feuerstichbiestes
+%%%%
+the fireweird beast's
+{n}des Feuerbizarrbiestes
+%%%%
+the oxbat beast's
+{n}des Ochsenfledermausbiestes
+%%%%
+the oxfire beast's
+{n}des Ochsenfeuerbiestes
+%%%%
+the oxshock beast's
+{n}des Ochsenschockbiestes
+%%%%
+the oxsting beast's
+{n}des Ochsenstichbiestes
+%%%%
+the oxweird beast's
+{n}des Ochsenbizarrbiestes
+%%%%
+the shockbat beast's
+{n}des Schockfledermausbiestes
+%%%%
+the shockfire beast's
+{n}des Schockfeuerbiestes
+%%%%
+the shockox beast's
+{n}des Schockochsenbiestes
+%%%%
+the shocksting beast's
+{n}des Schockstichbiestes
+%%%%
+the shockweird beast's
+{n}des Schockbizarrbiestes
+%%%%
+the stingbat beast's
+{n}des Stichfledermausbiestes
+%%%%
+the stingfire beast's
+{n}des Stichfeuerbiestes
+%%%%
+the stingox beast's
+{n}des Stichochsenbiestes
+%%%%
+the stingshock beast's
+{n}des Stichschockbiestes
+%%%%
+the stingweird beast's
+{n}des Stichbizarrbiestes
+%%%%
+the weirdbat beast's
+{n}des bizarren Fledermausbiestes
+%%%%
+the weirdfire beast's
+{n}des bizarren Feuerbiestes
+%%%%
+the weirdox beast's
+{n}des bizarren Ochsenbiestes
+%%%%
+the weirdshock beast's
+{n}des bizarren Schockbiestes
+%%%%
+the weirdsting beast's
+{n}des bizarren Stichbiestes
 %%%%
 
 # unseen monster

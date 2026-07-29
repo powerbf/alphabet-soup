@@ -100,8 +100,6 @@ SKIP_FILES = [
     'art-data.h',
     # generated from yaml files
     'species-data.h',
-    # covered in a way that doesn't use the literal strings from the file
-    'mutant-beast.h',
     # these just contain a bunch of compile flags, etc.
     'AppHdr.h', 'AppHdr.cc',
     'build.h', 'compflag.h',
@@ -1007,7 +1005,8 @@ def insert_section_markers(filename, lines):
         elif line.startswith('class ') or (section == None and line.strip().startswith('class ')):
             # class
             section = re.sub('[ :].*', '', re.sub('^class *', '', line.strip()))
-        elif line.startswith('static ') and '=' in line and (re.search('(vector|map)<', line) or re.search(r'\[.*\] *=', line)):
+        elif re.search(r'^(static|const) ', line) and '=' in line and \
+            (re.search('(vector|map)<', line) or re.search(r'\[.*\] *=', line)):
             # static data
             section = re.sub(' *=.*', '', line)
             section = re.sub(r'\[.*\]', '', section)
@@ -2747,6 +2746,27 @@ def post_process_mon_data_h(strings):
 
     return output
 
+def post_process_mutant_beast_h(strings):
+    facets = []
+    output = []
+    section = None
+    for string in strings:
+        if string.startswith('# section:'):
+            section = string.replace('# section:', '').strip()
+        elif section == "mutant_beast_facet_names":
+            facets.append(string)
+        elif section == "mutant_beast_tier_names":
+            string += " "
+            output.append(string)
+
+    facets.sort()
+    for facet1 in facets:
+        for facet2 in facets:
+            if facet2 != facet1:
+                output.append(article_the(facet1 + facet2 + " beast"))
+
+    return output
+
 def post_process_skills_cc(strings):
     # extract weight classes
     weight_classes = []
@@ -2864,6 +2884,8 @@ def post_process(filename, strings):
         strings = post_process_job_data_h(strings)
     elif filename == 'mon-data.h':
         strings = post_process_mon_data_h(strings)
+    elif filename == 'mutant-beast.h':
+        strings = post_process_mutant_beast_h(strings)
     elif filename == 'skills.cc':
         strings = post_process_skills_cc(strings)
     elif filename.startswith("tilereg-") and filename.endswith(".cc"):

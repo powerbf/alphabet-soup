@@ -1458,24 +1458,6 @@ the tough sensed monster's
 the nasty sensed monster's
 
 %%%%
-the sting beast's
-
-%%%%
-the bat beast's
-
-%%%%
-the fire beast's
-
-%%%%
-the weird beast's
-
-%%%%
-the shock beast's
-
-%%%%
-the ox beast's
-
-%%%%
 the spectre's
 
 %%%%
@@ -1489,6 +1471,99 @@ the bog mummy's
 
 %%%%
 the lunar statue's
+
+%%%%
+
+# subtypes of mutant beast
+%%%%
+the batfire beast's
+
+%%%%
+the batox beast's
+
+%%%%
+the batshock beast's
+
+%%%%
+the batsting beast's
+
+%%%%
+the batweird beast's
+
+%%%%
+the firebat beast's
+
+%%%%
+the fireox beast's
+
+%%%%
+the fireshock beast's
+
+%%%%
+the firesting beast's
+
+%%%%
+the fireweird beast's
+
+%%%%
+the oxbat beast's
+
+%%%%
+the oxfire beast's
+
+%%%%
+the oxshock beast's
+
+%%%%
+the oxsting beast's
+
+%%%%
+the oxweird beast's
+
+%%%%
+the shockbat beast's
+
+%%%%
+the shockfire beast's
+
+%%%%
+the shockox beast's
+
+%%%%
+the shocksting beast's
+
+%%%%
+the shockweird beast's
+
+%%%%
+the stingbat beast's
+
+%%%%
+the stingfire beast's
+
+%%%%
+the stingox beast's
+
+%%%%
+the stingshock beast's
+
+%%%%
+the stingweird beast's
+
+%%%%
+the weirdbat beast's
+
+%%%%
+the weirdfire beast's
+
+%%%%
+the weirdox beast's
+
+%%%%
+the weirdshock beast's
+
+%%%%
+the weirdsting beast's
 
 %%%%
 

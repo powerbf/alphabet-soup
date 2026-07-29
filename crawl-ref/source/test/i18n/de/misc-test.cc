@@ -153,19 +153,6 @@ int main()
     expected = "Du beginnst mit folgender Ausrüstung: einem Trank der Lignifizierung, einem +0 Kurzschwert und einer +2 Armbrust";
     show_result(msg, expected);
 
-    // test mutant beasts
-    msg = localise("the juvenile shock beast");
-    expected = "das juvenile Schockbiest";
-    show_result(msg, expected);
-
-    msg = localise("an elder weird beast");
-    expected = "ein älteres bizarres Biest";
-    show_result(msg, expected);
-
-    msg = localise_contextual("dat", "your mature fire beast");
-    expected = "deinem reifen Feuerbiest";
-    show_result(msg, expected);
-
     // test derived undead
     msg = localise_contextual("acc", "your elf zombie");
     expected = "deinen Zombie eines Elfen";
