@@ -16374,16 +16374,16 @@ Dort kannst du nichts wachsen lassen.
 ##################
 %%%%
 The wall melts %s!
-Die Wand schmilzt %s!
+Die Wand schmilzt {acc}%s!
 %%%%
 The wall burns %s!
-Die Wand brennt %s!
+Die Wand verätzt {acc}%s!
 %%%%
 The walls melt %s!
-Die Wände schmelzen %s!
+Die Wände schmelzen {acc}%s!
 %%%%
 The walls burn %s!
-Die Wände brennen %s!
+Die Wände verätzen {acc}%s!
 %%%%
 You hear a sizzling splash.
 Du hörst ein brutzelndes Plätschern.
@@ -16978,7 +16978,7 @@ Du löst den Alarm aus!
 %s vibriert leicht und macht kein Geräusch.
 %%%%
 %s emits a blaring wail!
-%s ertönt mit einem schrillen Heulen!
+%s gibt ein schrilles Heulen von sich!
 %%%%
 You avoid triggering a blade trap.
 Du vermeidest es, eine Klingenfalle auszulösen.

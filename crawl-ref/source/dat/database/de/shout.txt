@@ -326,7 +326,7 @@ SOUND:@The_monster@ @says@, "@imp_taunt@"
 %%%%
 moth of wrath
 
-VISUAL:@The_monster@s Fell sträubt sich vor Wut, als sie dich bemerkt.
+VISUAL:{dat}@The_monster@ sträubt sich vor Wut das Fell, als sie dich bemerkt.
 %%%%
 iron imp
 
