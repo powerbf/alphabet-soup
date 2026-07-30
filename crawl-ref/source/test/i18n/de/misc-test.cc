@@ -568,6 +568,11 @@ int main()
     orc->hit_points = 20;
     orc->position = coord_def(10, 11);
 
+    monster *moth_of_wrath = get_free_monster();
+    moth_of_wrath->type = MONS_MOTH_OF_WRATH;
+    moth_of_wrath->hit_points = 10;
+    moth_of_wrath->position = coord_def(9, 10);
+
     dowan->foe = orc->mindex();
     msg = getSpeakString("Gozag permabribe");
     msg = do_mon_str_replacements(msg, *dowan);
@@ -595,6 +600,11 @@ int main()
     msg = getSpeakString("fleeing Dowan");
     msg = do_mon_str_replacements(msg, *orc);
     expected = "VISUAL:Der Ork schreit entsetzt auf.";
+    show_result(msg, expected);
+
+    msg = getShoutString("moth of wrath");
+    msg = do_mon_str_replacements(msg, *moth_of_wrath);
+    expected = "VISUAL:Der Motte des Zorns sträubt sich vor Wut das Fell, als sie dich bemerkt.";
     show_result(msg, expected);
 
     // test invisible monster
