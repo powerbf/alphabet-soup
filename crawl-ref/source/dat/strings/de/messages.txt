@@ -4309,7 +4309,7 @@ This square is bathed in translocational energy.
 Dieses Feld ist von Translokationsenergie durchdrungen.
 %%%%
 There is a cloud of %s here.
-Hier ist eine Wolke von {dat}%s.
+Hier ist eine Wolke aus {dat}%s.
 %%%%
 You see %s here.
 Du siehst {acc}%s hier.
@@ -11297,7 +11297,7 @@ Du hast {acc}%s verloren.
 %s rutscht weg, als du dich darauf zu bewegst!
 %%%%
 Really %s into that cloud of %s?
-Wirklich in die %2$s-Wolke {verb-inf}%1$s?
+Wirklich in die Wolke aus {dat}%2$s {verb-inf}%1$s?
 %%%%
 Do you really want to %s into the Zot trap?
 Willst du wirklich in die Zot-Falle {verb-inf}%s?
@@ -12051,7 +12051,7 @@ You cannot mutate at present.
 Du kannst zur Zeit nicht mutieren.
 %%%%
 Really become a tree while standing in a cloud of %s?
-Wirklich ein Baum werden, während du in einer Wolke von {dat}%s stehst?
+Wirklich ein Baum werden, während du in einer Wolke aus {dat}%s stehst?
 %%%%
 You feel woody for a moment.
 Du fühlst dich für einen Moment holzig.
