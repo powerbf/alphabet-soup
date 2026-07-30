@@ -346,7 +346,7 @@ Succumbed to %s %s
 {dat}%2$s {null}%1$s erlegen
 %%%%
 cloud of %s
-Wolke aus %s
+Wolke aus {dat}%s
 %%%%
 self
 sich selbst
