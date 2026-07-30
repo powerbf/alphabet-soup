@@ -16977,8 +16977,8 @@ Du löst den Alarm aus!
 %s vibrates slightly, failing to make a sound.
 %s vibriert leicht und macht kein Geräusch.
 %%%%
-%s emits a blaring wail!
-%s gibt ein schrilles Heulen von sich!
+The alarm trap emits a blaring wail!
+Die Alarmfalle gibt ein schrilles Heulen von sich!
 %%%%
 You avoid triggering a blade trap.
 Du vermeidest es, eine Klingenfalle auszulösen.

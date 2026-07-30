@@ -619,8 +619,7 @@ void trap_def::trigger(actor& triggerer)
         }
         else
         {
-            string msg = make_stringf("%s emits a blaring wail!",
-                               name(DESC_THE).c_str());
+            string msg = "The alarm trap emits a blaring wail!";
             noisy(40, pos, msg.c_str(), triggerer.mid);
         }
 
