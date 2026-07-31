@@ -1766,14 +1766,6 @@ def process_cplusplus_file(filename):
             if re.search(r'\bbanish(ed)?\s*\(', line):
                 continue
 
-            # score file stuff
-            if re.search(r'\bouch\s*\(', line) or re.search(r'\bhurt\s*\(', line) \
-               or re.search(r'\bparalyse\s*\(', line) \
-               or re.search(r'\bpetrify\s*\(', line) \
-               or re.search(r'\bmiscast_effect\s*\(', line) \
-               or 'aux_source' in line:
-                continue
-
             # skip tags/keys
             if re.search(r'^[^"]*_tag\(', line) and not re.search('text_tag', line):
                 continue
@@ -1942,10 +1934,18 @@ def process_cplusplus_file(filename):
               or re.search(r'(beam|expl|effect)(\.|->)(name|aux_source)\s*=\s*"', line):
                 if string in ["none", "****", "debugging ray", "rampaging", "STAIR BEAM", "explosion of "]:
                     continue
-                string = article_the(string)
+                elif string.startswith("by "):
+                    string = string[3:]
+                elif "by" not in string and "'s" not in string:
+                    string = article_the(string)
             elif filename == "beam.cc" and string == "drain magic":
                 # we want the one from describe.cc
                 continue
+            elif "aux_source" in line or re.search(r'(ouch|hurt|miscast_effect)\(', line):
+                if string.startswith("by "):
+                    string = string[3:]
+                if string.endswith(" "):
+                    string += "%s"
 
             if 'calc_elemental_brand_damage' in line:
                 # elemental damage attack verbs
