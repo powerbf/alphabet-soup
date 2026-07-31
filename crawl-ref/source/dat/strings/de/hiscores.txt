@@ -667,7 +667,7 @@ Zu Tode geknabbert durch Software-Bugs
 ... erzeugt durch %s
 %%%%
 ... invoked by %s
-... beschworen von {dat}%s
+... angerufen von {dat}%s
 %%%%
 # %s could be a monster or a thing
 ... while paralysed by %s
