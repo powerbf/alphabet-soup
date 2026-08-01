@@ -730,6 +730,21 @@ created by the rage of %s
 attached to %s
 
 %%%%
+ignited by their inner flame
+
+%%%%
+ignited by themself
+
+%%%%
+ignited by their pet
+
+%%%%
+set off by themself
+
+%%%%
+set off by their pet
+
+%%%%
 
 ########################
 # Killers (that aren't defined in other files)
@@ -759,6 +774,7 @@ static electricity
 arena miscast
 
 %%%%
+# never actually displayed - "Asphyxiated" is shown instead
 curare-induced apnoea
 
 %%%%
@@ -768,7 +784,7 @@ a malign offering
 nerve-wracking pain
 
 %%%%
-mindburst bolt
+the mindburst bolt
 
 %%%%
 the storm
@@ -810,21 +826,6 @@ the raging water
 the air
 
 %%%%
-ignited by their inner flame
-
-%%%%
-ignited by themself
-
-%%%%
-ignited by their pet
-
-%%%%
-set off by themself
-
-%%%%
-set off by their pet
-
-%%%%
 entering a malign gateway
 
 %%%%
@@ -852,6 +853,9 @@ burning poison
 angry trees
 
 %%%%
+the cleansing flame
+
+%%%%
 the Shining One's cleansing flame
 
 %%%%
@@ -867,6 +871,7 @@ gaining the %s transformation
 losing the %s form
 
 %%%%
+# can only happen in wizard mode
 testing miscast
 
 %%%%

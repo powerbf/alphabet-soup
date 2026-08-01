@@ -1942,10 +1942,12 @@ def process_cplusplus_file(filename):
                 # we want the one from describe.cc
                 continue
             elif "aux_source" in line or re.search(r'(ouch|hurt|miscast_effect)\(', line):
-                if string.startswith("by "):
-                    string = string[3:]
                 if string.endswith(" "):
                     string += "%s"
+                if string.startswith("by "):
+                    string = string[3:]
+                elif "aux_source" in line and not string[0].isupper():
+                    string = article_the(string)
 
             if 'calc_elemental_brand_damage' in line:
                 # elemental damage attack verbs
