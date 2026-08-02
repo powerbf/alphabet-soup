@@ -1225,7 +1225,7 @@ def is_line_relevant(line):
 
     if re.search(r'\bstrlen\s*\(', line):
         return False
-        
+
     return True
 
 # return only lines that have
