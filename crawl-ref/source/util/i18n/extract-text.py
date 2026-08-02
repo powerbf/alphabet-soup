@@ -952,7 +952,7 @@ def do_dummy_string_replacements(lines):
 
         # we don't want to extract the context key used with localise_contextual()
         if 'localise_contextual' in line:
-            line = re.sub(r'localise_contextual *\(.*,', 'localise_contextual(dummy,', line)
+            line = re.sub(r'(?<=localise_contextual) *\([^,]+', '(dummy', line)
 
         result.append(line)
 
