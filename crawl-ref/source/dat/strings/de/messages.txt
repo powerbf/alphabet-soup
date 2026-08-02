@@ -5548,7 +5548,7 @@ You can't line pass into the sea!
 Du kannst nicht ins Meer laufen!
 %%%%
 You can't line pass into the sea of lava!
-Du kannst nicht in das Lavameer laufen!
+Du kannst nicht ins Lavameer laufen!
 %%%%
 You can't walk through walls!
 Du kannst nicht durch Wände gehen!
@@ -9259,10 +9259,10 @@ Du spürst die uralte Wut deiner Axt.
 %s fällt aus der Luft.
 %%%%
 The tentacle is hauled back through the portal!
-Das Tentakel wird in das Portal zurückgerissen!
+Das Tentakel wird ins Portal zurückgerissen!
 %%%%
 With a roar, the tentacle is hauled back through the portal!
-Mit lautem Getöse wird das Tentakel in das Portal zurückgerissen!
+Mit lautem Getöse wird das Tentakel ins Portal zurückgerissen!
 %%%%
 %s crumbles away.
 %s bröckelt weg.
@@ -10579,7 +10579,7 @@ You are too frail to live.
 Du bist zu gebrechlich, um zu leben.
 %%%%
 You rejoin the land of the living...
-Du trittst wieder in das Land der Lebenden...
+Du trittst wieder ins Land der Lebenden...
 %%%%
 
 ##################
@@ -15303,7 +15303,7 @@ Du beschwörst {acc}%s!
 %s erscheint.
 %%%%
 You call out to the draconic realm, and the dragon horde roars back!
-Du rufst in das drakonische Reich und die Drachenhorde brüllt zurück!
+Du rufst ins drakonische Reich und die Drachenhorde brüllt zurück!
 %%%%
 A dragon tries to answer your call, but you don't have enough magical power!
 Ein Drache versucht, deinem Ruf zu antworten, aber du hast nicht genug magische Kraft!
@@ -16071,7 +16071,7 @@ In your confused state, you trip and fall through the gate.
 In deinem verwirrten Zustand stolperst du und fällst durch das Tor.
 %%%%
 You insert %s into the lock.
-Du steckst {acc}%s in das Schloss.
+Du steckst {acc}%s ins Schloss.
 %%%%
 The lock glows eerily!
 Das Schloss glüht unheimlich!

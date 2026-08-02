@@ -425,7 +425,7 @@ selbst. Die Größe des Effekts wird durch die Fertigkeit Anrufungen erhöht.
 %%%%
 Enter the Abyss ability
 
-Versetzt dich augenblicklich in das Reich von Lugonu. Die Anstrengung, diese
+Versetzt dich augenblicklich ins Reich von Lugonu. Die Anstrengung, diese
 Fähigkeit überhaupt zu benutzen, braucht einen Großteil deiner Gesundheit auf.
 %%%%
 Brand Weapon With Distortion ability
@@ -563,7 +563,7 @@ Verfluchte Gegenstände können nicht mehr verzaubert oder verändert werden.
 Shatter The Chains ability
 
 Zerstört einen gewählten verfluchten Ausrüstungsgegenstand und befreit den
-Träger von dem Fluch.
+Träger vom Fluch.
 %%%%
 # Dithmenos
 Shadow Step ability
