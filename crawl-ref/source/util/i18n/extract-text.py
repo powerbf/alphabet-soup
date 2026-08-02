@@ -896,8 +896,10 @@ def get_cleaned_file_contents(filename):
 
     return result
 
-# remove strings from a specific function call
-def remove_string_from_function_call(line, funcname):
+# replace function args with a dummy value
+# we do this if the arg can be a string, but we don't want to extract it
+# (because it's an internal key, etc.)
+def dummy_function_args(line, funcname):
     index = line.find(funcname)
     if index < 0:
         return line
@@ -915,11 +917,7 @@ def remove_string_from_function_call(line, funcname):
             depth -= 1
     end = index
 
-    arg = line[start+1:end]
-    if '"' not in arg:
-        return line
-    arg = re.sub('".*"', 'dummy', arg)
-    line = line[0:start+1] + arg + line[end:]
+    line = line[0:start+1] + "dummy" + line[end:]
     #sys.stderr.write(line + "\n")
     return line
 
@@ -950,7 +948,7 @@ def do_dummy_string_replacements(lines):
         # sometimes there are other strings present that we do want to extract
         m = re.search(r'\bget[a-zA-Z]*String', line)
         if m and m[0]:
-            line = remove_string_from_function_call(line, m[0])
+            line = dummy_function_args(line, m[0])
 
         # we don't want to extract the context key used with localise_contextual()
         if 'localise_contextual' in line:
