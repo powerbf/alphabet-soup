@@ -482,6 +482,41 @@ int main()
     msg = localise("... with %s", "a blast of cleansing flame");
     show_result(msg, "... mit einer reinigenden Flammenwolke");
 
+    msg = localise("Killed by an exploding %s", "ballistomycete spore");
+    show_result(msg, "Getötet durch eine explodierende Ballistomycetenspore");
+
+    msg = localise("summoned by %s", "a ballistomycete");
+    show_result(msg, "beschworen von einem Ballistomyceten");
+
+    msg = localise("... %s", "set off by their pet");
+    show_result(msg, "... von seinem Haustier ausgelöst");
+
+    msg = localise("Killed by %s", "angry trees");
+    show_result(msg, "Getötet von wütenden Bäumen");
+
+    msg = localise("... awakened by %s", "a spriggan druid");
+    show_result(msg, "... erweckt von einem Spriggan-Druiden");
+
+    msg = localise("Blown up by %s", "Maurice");
+    show_result(msg, "Von Maurice gesprengt");
+
+    msg = localise("... with %s", "a mindburst bolt");
+    show_result(msg, "... mit einem Kopfzerplatzen");
+
+    msg = localise("Killed from afar by %s", "Vorbog the orc");
+    show_result(msg, "Aus der Ferne von Vorbog dem Ork getötet");
+
+    msg = localise("... with %s", "a chain of chaos");
+    show_result(msg, "... mit einer Kette des Chaos");
+
+    // TODO: Fix this
+    //msg = localise("Killed by %s", "miscasting Fulminant Prism");
+    //show_result(msg, "Getötet vom Fehlschlag des Zaubers Fulminantes Prisma");
+
+    // TODO: Fix this
+    //msg = localise("Became unviable by %s", "losing the cold resistance mutation");
+    //show_result(msg, "Wurde durch den Verlust der Kälteresistenz-Mutation lebensunfähig");
+
     params = {
         {"hand", "hand"},
         {"hands", "hands"},
