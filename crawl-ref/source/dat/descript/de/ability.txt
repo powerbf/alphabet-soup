@@ -563,7 +563,7 @@ Verfluchte Gegenstände können nicht mehr verzaubert oder verändert werden.
 Shatter The Chains ability
 
 Zerstört einen gewählten verfluchten Ausrüstungsgegenstand und befreit den
-Träger von dem Fluch.
+Träger vom Fluch.
 %%%%
 # Dithmenos
 Shadow Step ability
