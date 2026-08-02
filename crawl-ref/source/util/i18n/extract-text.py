@@ -406,6 +406,10 @@ IGNORE_SECTIONS = {
         '_gozag_shop_spec',                     # internal identifiers
     ],
     'god-conduct.cc':   ['conducts'],           # debug
+    'hints.cc':         [
+        '_replace_static_tags',                 # error messages for translator, not end user
+        '_hints_target_mode',                   # literal commands (and % placeholder)
+    ],
     'hiscores.cc':      [
         'kill_method_names',                    # scorefile stuff (never displayed)
         '_job_name', '_job_abbrev',             # obsolete jobs (backgrounds)
@@ -415,7 +419,16 @@ IGNORE_SECTIONS = {
         'scorefile_entry::set_base_xlog_fields', # internal ids
     ],
     'jobs.cc':          ['debug_jobdata'],      # debug
+    'message.cc':       [
+        # this function adds a prefix to the message parameter
+        # this script will add it when extracting the message at the point of call
+        'wu_jian_sifu_message',
+    ],
     'misc.cc':          ['maybe_to_string'],    # debug
+    'mon-death.cc':     [
+        '_milestone_kill_verb',                 # only used for milesone
+        '_killer_type_name',                    # internal keys
+    ],
     'mon-ench.cc':      [
         # debug
         'enchant_names', 'mon_enchant::operator_string',
@@ -428,6 +441,9 @@ IGNORE_SECTIONS = {
         'mons_type_name',                       # names for "random" monsters
         '_get_species_insult', 'get_mon_shape_str',  # db keys
         'debug_mondata', 'debug_monspells',   #debug
+    ],
+    'monster.cc':       [
+        '_invalid_monster_str',                 # debugging stuff
     ],
     'output.cc':        [
         'mpr_monster_list',                     # only used in morgue and for debugging
@@ -2032,13 +2048,6 @@ def process_cplusplus_file(filename):
                         continue
                 elif section == '_god_wrath_name':
                         continue
-            elif filename == 'hints.cc':
-                if section == '_replace_static_tags':
-                    # error messages for translator, not end user
-                    continue
-                elif section == '_hints_target_mode':
-                    # literal commands (and % placeholder)
-                    continue
             elif filename == 'melee-attack.cc':
                 if section.endswith('::set_attack_verb'):
                     # player-only attack verbs.
@@ -2072,11 +2081,6 @@ def process_cplusplus_file(filename):
                     if string != 'tentacle spike':
                         strings.append('You ' + string + ' %s')
                     continue
-            elif filename == 'message.cc':
-                if section == 'wu_jian_sifu_message':
-                    # this function adds a prefix to the message parameter
-                    # this script will add it when extracting the message at the point of call (see above)
-                    continue
             elif filename == 'mon-cast.cc':
                 if section in ['_speech_keys', '_speech_message']:
                     # these are just keys for getSpeakString()
@@ -2089,17 +2093,6 @@ def process_cplusplus_file(filename):
                     if string == "nothing" or string.upper() == string:
                         # dummy placeholder
                         continue
-            elif filename == 'mon-death.cc':
-                if section == '_milestone_kill_verb':
-                    # only used for milesone
-                    continue
-                elif section == '_killer_type_name':
-                    # internal keys
-                    continue
-            elif filename == 'monster.cc':
-                if section == '_invalid_monster_str':
-                    # debugging stuff
-                    continue
             elif filename == 'mon-util.cc':
                 if section in ['ugly_colour_names', 'drac_colour_names']:
                     # adjectives
