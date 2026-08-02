@@ -880,6 +880,32 @@ def get_cleaned_file_contents(filename):
 
     return result
 
+# remove strings from a specific function call
+def remove_string_from_function_call(line, funcname):
+    index = line.find(funcname)
+    if index < 0:
+        return line
+    index += len(funcname)
+    index = line.find("(", index)
+    if index < 0:
+        return line
+    start = index
+    depth = 1
+    while depth > 0 and index < len(line) - 1:
+        index += 1
+        if line[index] == '(':
+            depth += 1
+        elif line[index] == ')':
+            depth -= 1
+    end = index
+
+    arg = line[start+1:end]
+    if '"' not in arg:
+        return line
+    arg = re.sub('".*"', 'dummy', arg)
+    line = line[0:start+1] + arg + line[end:]
+    #sys.stderr.write(line + "\n")
+    return line
 
 # replace strings that should not be extracted with dummies
 def do_dummy_string_replacements(lines):
@@ -902,6 +928,17 @@ def do_dummy_string_replacements(lines):
         # NOTE: map end could be same line as map start
         if re.search(r'}\s*;', line):
             in_map = False
+
+        # we don't want to extract the db key used with getSpeakString(), etc.,
+        # but we don't necessarily want to ignore the whole line because
+        # sometimes there are other strings present that we do want to extract
+        m = re.search(r'\bget[a-zA-Z]*String', line)
+        if m and m[0]:
+            line = remove_string_from_function_call(line, m[0])
+
+        # we don't want to extract the context key used with localise_contextual()
+        if 'localise_contextual' in line:
+            line = re.sub(r'localise_contextual *\(.*,', 'localise_contextual(dummy,', line)
 
         result.append(line)
 
@@ -1024,6 +1061,159 @@ def insert_section_markers(filename, lines):
 
     return result
 
+def is_line_relevant(line):
+    # not relevant if no strings
+    if not '"' in line:
+        return False
+
+    # calls to mpr_nolocalise(), etc.
+    if '_nolocalise' in line and not 'you.hand_act' in line:
+        return False
+    elif "localise" in line:
+        return True
+
+    # ignore pre-compiler directives, apart from #define
+    if line.startswith('#') and not re.match(r'#\s*define', line):
+        return False
+
+    # ignore extern "C"
+    if line.startswith('extern'):
+        return False
+
+    # ignore axed stuff
+    if 'AXED' in line:
+        return False
+
+    if 'MSGCH_DIAGNOSTICS' in line:
+        # ignore diagnostic messages - these are for devs
+        return False
+    elif 'MSGCH_ERROR' in line:
+        # Error messages mostly relate to programming errors, so we
+        # keep the original English for the user to report to the devs.
+        # The only exception is file system-related messages, which
+        # relate to the user's own environment.
+        if not re.search(r'(file|directory|open|writ| read |local|load|save)', line):
+            return False
+
+    # ignore file operations (any strings will be paths/filenames/modes)
+    if 'fopen' in line or 'freopen' in line:
+        return False
+    if '_hs_open' in line or 'lk_open' in line:
+        return False
+    if 'catpath' in line or 'sscanf' in line:
+        return False
+
+    # ignore debug messages
+    if re.search(r'\bdie(_noline)? *\(', line) or \
+        re.search(r'dprf? *\(', line) or \
+        re.search(r'dprintf *\(', line) or \
+        re.search(r'(debuglog|debug_dump_item|dump_test_fails) *\(', line) or \
+        re.search(r'bad_level_id', line) or \
+        'bad item' in line or \
+        'game_ended_with_error' in line or \
+        re.search(r'ASSERTM? *\(', line) or \
+        'DEBUG' in line or \
+        'log_print' in line or \
+        re.search(r'fprintf *\(', line):
+        return False
+
+    # scorefile stuff - any strings will be keys
+    if 'add_field' in line or 'str_field' in line or 'int_field' in line:
+        return False
+    if 'death_source_flags' in line:
+        return False
+
+    # ignore lua code
+    if 'execfile' in line:
+        return False
+    if re.search(r'^[^"]*lua[^"]*\(', line):
+        return False
+
+    # Leave notes/milstones in English
+    if 'milestone' in line or 'mile_text' in line:
+        return False
+    if re.search('take_note', line) or re.search('note *=', line):
+        return False
+    if re.search('delete[a-z_]*mutation', line):
+        return False
+    if re.search(r'mutate\s*\(', line):
+        return False
+    if re.search(r'\bbanish(ed)?\s*\(', line):
+        return False
+
+    # skip tags/keys
+    if re.search(r'^[^"]*_tag\(', line) and not re.search('text_tag', line):
+        return False
+    if re.search(r'tag\s*=\s*"', line):
+        return False
+    if re.search(r'strip_tag_prefix *\(', line):
+        return False
+    if 'annotate_string' in line:
+        return False
+    if 'json_' in line:
+        return False
+    if 'tiles.write_message' in line:
+        return False
+    if 'serialize' in line:
+        return False
+    if '_chunk' in line:
+        return False
+    if '_id =' in line:
+        return False
+    if 'push_ui_layout' in line or 'ui_state_change' in line:
+        return False
+    if re.search(r'\bmenu_colour *\(', line):
+        return False
+    if re.search(r'\bprops\.erase *\(', line):
+        return False
+    if re.search(r'\bPROPS[A-Z_]*\s*=', line):
+        return False
+    if 'getLongDescription' in line:
+        return False
+    if '_print_converted_orc_speech' in line:
+        return False
+    if '_get_xom_speech' in line or 'XOM_SPEECH' in line:
+        return False
+    if '_get_species_insult' in line:
+        return False
+    if 'show_specific_help' in line:
+        return False
+    if '_translate_tentacle_ref' in line:
+        return False
+    if 'print_hint' in line or 'tutorial_msg' in line:
+        return False
+    if re.search(r'^[^"]*property[A-Za-z_]* *\(', line):
+        return False
+    if re.match(r'^\s*key[A-Za-z_]*\.[A-Za-z_]*\(', line):
+        return False
+    if re.search(r'set_sync_id\s*\(', line):
+        return False
+    if re.search(r'compare_item', line):
+        return False
+    if re.search(r'^# *define.*KEY', line):
+        return False
+    if 'desc_key' in line:
+        return False
+    if 'GetModuleHandle' in line:
+        return False
+    if re.search(r'\bcreate_item_named *\(', line):
+        return False
+
+    # find or compare
+    if re.search(r'\bstrstr\s*\(', line):
+        return False
+    if 'search_stashes' in line:
+        return False
+    if re.search(r'\bstrn?i?cmp\b', line):
+        return False
+    if '_strip_to' in line:
+        return False
+
+    if re.search(r'\bstrlen\s*\(', line):
+        return False
+        
+    return True
+
 # return only lines that have
 #   a) strings that might need to be extracted
 #   b) directives for this script
@@ -1055,13 +1245,6 @@ def get_relevant_lines(filename, lines):
             result.append(line.strip())
             continue
 
-        if not '"' in line:
-            continue
-
-        # calls to mpr_nolocalise(), etc.
-        if '_nolocalise' in line and not 'you.hand_act' in line:
-            continue
-
         if filename == 'job-data.h':
             # special handling - only take the line with the job abbreviation and name
             if not re.search(r'"[A-Z][a-zA-Z]"', line):
@@ -1069,15 +1252,8 @@ def get_relevant_lines(filename, lines):
 
         line = line.strip()
 
-        # ignore pre-compiler directives, apart from #define
-        if line.startswith('#') and not re.match(r'#\s*define', line):
-            continue
-
-        # ignore extern "C"
-        if line.startswith('extern'):
-            continue
-
-        result.append(line)
+        if is_line_relevant(line):
+            result.append(line)
 
     return result
 
@@ -1651,189 +1827,36 @@ def process_cplusplus_file(filename):
         if '"' not in line:
             continue
 
-        extract = False
-
-        if 'localise' in line:
-            extract = True
-        elif 'simple_monster_message' in line or 'simple_god_message' in line:
-            extract = True
-        elif 'any_2_actors_message' in line or '3rd_person_message' in line:
-            extract = True
-        elif 'MSGCH_DIAGNOSTICS' in line:
-            # ignore diagnostic messages - these are for devs
-            continue
-        elif re.search(r'mpr[a-zA-Z_]* *\(', line):
-            # extract mpr, mprf, etc. messages
-            if 'MSGCH_ERROR' in line:
-                # Error messages mostly relate to programming errors, so we
-                # keep the original English for the user to report to the devs.
-                # The only exception is file system-related messages, which
-                # relate to the user's own environment.
-                if 'file' not in line and 'directory' not in line \
-                   and 'writ' not in line and ' read ' not in line \
-                   and 'lock' not in line and 'load' not in line \
-                   and ' save' not in line and 'open' not in line:
-                    continue
-            extract = True
-        elif re.search(r'(prompt|msgwin_get_line)[a-zA-Z_]* *\(', line) or 'yesno' in line \
-             or 'yes_or_no' in line:
-            # extract prompts
-            extract = True
-        elif re.match(r'\s*end *\(', line) and not 'DEBUG' in line:
-            extract = True
-        elif re.search(r'\bsave_game *\(', line):
-            extract = True
-        elif re.search(r'\bhand_act *\(', line):
-            extract = True
-        elif 'cant_cmd_' in line:
-            extract = True
-        elif 'get_num_and_char' in line:
-            extract = True
-
         if lazy:
+            extract = False
+
+            if 'localise' in line:
+                extract = True
+            elif 'simple_monster_message' in line or 'simple_god_message' in line:
+                extract = True
+            elif 'any_2_actors_message' in line or '3rd_person_message' in line:
+                extract = True
+            elif re.search(r'mpr[a-zA-Z_]* *\(', line):
+                # extract mpr, mprf, etc. messages
+                extract = True
+            elif re.search(r'(prompt|msgwin_get_line)[a-zA-Z_]* *\(', line) or 'yesno' in line \
+                or 'yes_or_no' in line:
+                # extract prompts
+                extract = True
+            elif re.match(r'\s*end *\(', line) and not 'DEBUG' in line:
+                extract = True
+            elif re.search(r'\bsave_game *\(', line):
+                extract = True
+            elif re.search(r'\bhand_act *\(', line):
+                extract = True
+            elif 'cant_cmd_' in line:
+                extract = True
+            elif 'get_num_and_char' in line:
+                extract = True
+
             # ignore strings unless we have a specific reason to extract them
             if not extract:
                 continue
-
-        # we don't want to extract the db key used with getSpeakString(), etc.,
-        # but we don't necessarily want to ignore the whole line because
-        # sometimes there are other strings present that we do want to extract
-        if re.search(r'\bget[a-zA-Z]*String', line):
-            line = re.sub(r'\b(get[a-zA-Z]*String) *\(.*\)', r'\1()', line)
-
-        # we don't want to extract the context key used with localise_contextual()
-        if 'localise_contextual' in line:
-            line = re.sub(r'localise_contextual *\(.*,', 'localise_contextual(dummy,', line)
-
-        if '"' not in line:
-            continue
-
-        if not extract:
-            # if we get here then we are not in lazy mode
-            # extract strings unless we have reason to ignore them
-
-            # ignore debug messages
-            if re.search(r'\bdie(_noline)? *\(', line) or \
-               re.search(r'dprf? *\(', line) or \
-               re.search(r'dprintf *\(', line) or \
-               re.search(r'(debuglog|debug_dump_item|dump_test_fails) *\(', line) or \
-               re.search(r'bad_level_id', line) or \
-               'bad item' in line or \
-               'game_ended_with_error' in line or \
-               re.search(r'ASSERTM? *\(', line) or \
-               'DEBUG' in line or \
-               'log_print' in line or \
-               re.search(r'fprintf *\(', line):
-                continue
-
-            # ignore axed stuff
-            if 'AXED' in line:
-                continue
-
-            # ignore file operations (any strings will be paths/filenames/modes)
-            if 'fopen' in line or 'freopen' in line:
-                continue
-            if '_hs_open' in line or 'lk_open' in line:
-                continue
-            if 'catpath' in line or 'sscanf' in line:
-                continue
-
-            # internal scorefile stuff that is never displayed
-            if 'add_field' in line or 'str_field' in line or 'int_field' in line:
-                continue
-            if 'death_source_flags' in line:
-                continue
-
-            # ignore lua code
-            if 'execfile' in line:
-                continue
-            if re.search(r'^[^"]*lua[^"]*\(', line):
-                continue
-
-            # Leave notes/milstones in English
-            if 'milestone' in line or 'mile_text' in line:
-                continue
-            if re.search('take_note', line) or re.search('note *=', line):
-                continue
-            if re.search('delete[a-z_]*mutation', line):
-                continue
-            if re.search(r'mutate\s*\(', line):
-                continue
-            if re.search(r'\bbanish(ed)?\s*\(', line):
-                continue
-
-            # skip tags/keys
-            if re.search(r'^[^"]*_tag\(', line) and not re.search('text_tag', line):
-                continue
-            if re.search(r'tag\s*=\s*"', line):
-                continue
-            if re.search(r'strip_tag_prefix *\(', line):
-                continue
-            if 'annotate_string' in line:
-                continue
-            if 'json_' in line:
-                continue
-            if 'tiles.write_message' in line:
-                continue
-            if 'serialize' in line:
-                continue
-            if '_chunk' in line:
-                continue
-            if '_id =' in line:
-                continue
-            if 'push_ui_layout' in line or 'ui_state_change' in line:
-                continue
-            if re.search(r'\bmenu_colour *\(', line):
-                continue
-            if re.search(r'\bprops\.erase *\(', line):
-                continue
-            if re.search(r'\bPROPS[A-Z_]*\s*=', line):
-                continue
-            if 'getLongDescription' in line:
-                continue
-            if '_print_converted_orc_speech' in line:
-                continue
-            if '_get_xom_speech' in line or 'XOM_SPEECH' in line:
-                continue
-            if '_get_species_insult' in line:
-                continue
-            if 'show_specific_help' in line:
-                continue
-            if '_translate_tentacle_ref' in line:
-                continue
-            if 'print_hint' in line or 'tutorial_msg' in line:
-                continue
-            if re.search(r'^[^"]*property[A-Za-z_]* *\(', line):
-                continue
-            if re.match(r'^\s*key[A-Za-z_]*\.[A-Za-z_]*\(', line):
-                continue
-            if re.search(r'set_sync_id\s*\(', line):
-                continue
-            if re.search(r'compare_item', line):
-                continue
-            if re.search(r'^# *define.*KEY', line):
-                continue
-            if 'desc_key' in line:
-                continue
-            if 'GetModuleHandle' in line:
-                continue
-            if re.search(r'\bcreate_item_named *\(', line):
-                continue
-
-            # find or compare
-            if re.search(r'\bstrstr\s*\(', line):
-                continue
-            if 'search_stashes' in line:
-                continue
-            if re.search(r'\bstrn?i?cmp\b', line):
-                continue
-            if '_strip_to' in line:
-                continue
-
-            if re.search(r'\bstrlen\s*\(', line):
-                continue
-
-        extract = True
 
         if 'any_2_actors_message' in line:
             temp = re.sub(r'.*any_2_actors_message *\(', '', line);
