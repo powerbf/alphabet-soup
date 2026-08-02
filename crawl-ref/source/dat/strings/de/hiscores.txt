@@ -731,6 +731,21 @@ erschaffen durch den Zorn {gen}%s
 attached to %s
 anhängig an {dat}%s
 %%%%
+ignited by their inner flame
+durch seine innere Flamme entzündet
+%%%%
+ignited by themself
+von sich selbst entzündet
+%%%%
+ignited by their pet
+von seinem Haustier entzündet
+%%%%
+set off by themself
+von sich selbst ausgelöst
+%%%%
+set off by their pet
+von seinem Haustier ausgelöst
+%%%%
 
 ########################
 # Killers (that aren't defined in other files)
@@ -758,124 +773,114 @@ static electricity
 statische Elektrizität
 %%%%
 arena miscast
-
+{m}Fehlzauber in der Arena
 %%%%
+# never actually displayed - "Asphyxiated" is shown instead
 curare-induced apnoea
-
+{f}durch Curare verursachte Apnoe
 %%%%
 a malign offering
-
+{f}eine bösartige Opfergabe
 %%%%
 nerve-wracking pain
-
+{m}quälender Schmerz
 %%%%
-mindburst bolt
-
+the mindburst bolt
+{n}das Kopfzerplatzen
 %%%%
 the storm
-
+{m}der Sturm
 %%%%
 a card of wild magic
-
+{f}eine Karte wilder Magie
 %%%%
 accursed screaming
-
+{n}verfluchtes Gekreische
 %%%%
 divine providence
-
+{f}göttliche Fügung
 %%%%
 the blast of fiery breath
-
+{m}der Strahl feuriger Odem
 %%%%
 the blast of searing breath
-
+{m}der Strahl sengender Odem
 %%%%
 the blast of chaotic breath
-
+{m}der Strahl chaotischer Odem
 %%%%
 the blast of icy breath
-
+{m}der Strahl eisiger Odem
 %%%%
 the blast of chilling breath
-
+{m}der Strahl kühlender Odem
 %%%%
 the creeping frost
-
+{m}der schleichende Frost
 %%%%
 a resonance strike
-
+{m}ein Resonanzschlag
 %%%%
 the raging water
-
+{n}das wütende Wasser
 %%%%
 the air
-
-%%%%
-ignited by their inner flame
-
-%%%%
-ignited by themself
-
-%%%%
-ignited by their pet
-
-%%%%
-set off by themself
-
-%%%%
-set off by their pet
-
+{f}die Luft
 %%%%
 entering a malign gateway
-
+{n}das Eintreten in ein bösartiges Tor
 %%%%
 gaining the %s mutation
-
+{n}das Erhalten der %s-Mutation
 %%%%
 losing the %s mutation
-
+{m}der Verlust der %s-Mutation
 %%%%
 the malice of Kikubaaqudgha
-
+{f}die Bosheit von Kikubaaqudgha
 %%%%
 the malice of Vehumet
-
+{f}die Bosheit von Vehumet
 %%%%
 the arc of chain lightning
-
+{m}der Kettenblitzbogen
 %%%%
 the chain of chaos
-
+{f}die Kette des Chaos
 %%%%
 burning poison
-
+{n}brennendes Gift
 %%%%
 angry trees
-
+{pl}wütende Bäume
+%%%%
+the cleansing flame
+{f}die reinigende Flamme
 %%%%
 the Shining One's cleansing flame
-
+{f}die reinigende Flamme des Strahlenden
 %%%%
 miscasting %s
-
+{m}der Fehlschlag des Zaubers %s
 %%%%
 the magical explosion
-
+{f}die magische Explosion
 %%%%
 gaining the %s transformation
-
+{n}das Erhalten der %s-Verwandlung
 %%%%
 losing the %s form
-
+{m}der Verlust der %s-Verwandlung
 %%%%
+# can only happen in wizard mode
 testing miscast
-
+{m}Test-Fehlzauber
 %%%%
 Xom's lightning strike
-
+Xoms Blitzeinschlag
 %%%%
 Xom's destruction
-
+Xoms Zerstörung
 %%%%
 
 # suffixes
