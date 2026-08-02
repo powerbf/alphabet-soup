@@ -1902,8 +1902,6 @@ def process_cplusplus_file(filename):
                         continue
                     if re.search(r'\bsend_dump_info\s*\(', last):
                         continue
-                    if re.search(r'\bmons_add_blame\s*\(', last):
-                        continue
                     if re.search(r'\breplace[a-zA-Z_]*\s*\(', last):
                         continue
 
@@ -1977,6 +1975,9 @@ def process_cplusplus_file(filename):
                 for c in string:
                     strings.append(c)
                 continue
+
+            if string.endswith(' by ') and string != ' by ':
+                string += "%s"
 
             if filename == 'ability.cc':
                 if string.startswith('Sacrifice '):

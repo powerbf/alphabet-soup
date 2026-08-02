@@ -702,7 +702,7 @@ Erschossen mit {dat}%s von {dat}%s
 led by %s
 geführt von {dat}%s
 %%%%
-# inc this context, can be something created (e.g. fireball)
+# in this context, can be something created (e.g. fireball)
 summoned by %s
 beschworen von {dat}%s
 %%%%

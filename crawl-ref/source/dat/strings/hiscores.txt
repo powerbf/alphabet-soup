@@ -701,7 +701,7 @@ Shot with %s by %s
 led by %s
 
 %%%%
-# inc this context, can be something created (e.g. fireball)
+# in this context, can be something created (e.g. fireball)
 summoned by %s
 
 %%%%
@@ -709,6 +709,9 @@ woven by %s
 
 %%%%
 animated by %s
+
+%%%%
+called by a doom hound
 
 %%%%
 # for some reason eldritch tentacle is called rather than summoned
@@ -724,6 +727,18 @@ created by %s
 %%%%
 # god rage
 created by the rage of %s
+
+%%%%
+hexed by the player character
+
+%%%%
+hexed by %s
+
+%%%%
+mirrored by the player character
+
+%%%%
+smitten by %s
 
 %%%%
 # tentacle attached to monster
