@@ -786,7 +786,7 @@ nerve-wracking pain
 {m}quälender Schmerz
 %%%%
 the mindburst bolt
-{m}der Geistesblitz
+{n}das Kopfzerplatzen
 %%%%
 the storm
 {m}der Sturm
@@ -801,19 +801,19 @@ divine providence
 {f}göttliche Fügung
 %%%%
 the blast of fiery breath
-{m}der Strahl feurigen Odem
+{m}der Strahl feuriger Odem
 %%%%
 the blast of searing breath
-{m}der Strahl sengenden Odem
+{m}der Strahl sengender Odem
 %%%%
 the blast of chaotic breath
-{m}der Strahl chaotischen Odem
+{m}der Strahl chaotischer Odem
 %%%%
 the blast of icy breath
-{m}der Strahl eisigen Odem
+{m}der Strahl eisiger Odem
 %%%%
 the blast of chilling breath
-{m}der Strahl kühlenden Odem
+{m}der Strahl kühlender Odem
 %%%%
 the creeping frost
 {m}der schleichende Frost
@@ -828,7 +828,7 @@ the air
 {f}die Luft
 %%%%
 entering a malign gateway
-{n}das Eintreten eines bösartigen Tor
+{n}das Eintreten in ein bösartiges Tor
 %%%%
 gaining the %s mutation
 {n}das Erhalten der %s-Mutation
