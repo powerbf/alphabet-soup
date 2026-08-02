@@ -922,17 +922,12 @@ def expand_param(string, param, values):
 
 
 # First-stage line processing:
-#   replace strings that should not be extracted with dummies (outside noloc sections)
 #   join statements that are split over multiple lines
 #   join consecutive strings (in C++, "foo" "bar" is the same as "foobar")
 #   strip trailing whitespace
 #   strip out blank lines
 def do_first_stage_line_processing(lines):
     result = []
-
-    # this must be done before joining multi-line statements,
-    # because it's possible for only part of the statement to be marked with @noloc
-    lines = do_dummy_string_replacements(lines)
 
     for line in lines:
 
@@ -1640,6 +1635,7 @@ def process_cplusplus_file(filename):
     lines = get_cleaned_file_contents(filename)
     lines = do_first_stage_line_processing(lines)
     lines = insert_section_markers(filename, lines)
+    lines = do_dummy_string_replacements(lines)
     lines = get_relevant_lines(filename, lines)
 
     section = ''
