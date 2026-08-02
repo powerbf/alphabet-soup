@@ -2869,32 +2869,27 @@ def post_process_transform_cc(strings):
         result.append(string)
     return result
 
+specific_post_processing_funcs = {
+    'art-func.h': post_process_art_func_h,
+    'directn.cc': post_process_directn_cc,
+    'feature-data.h': post_process_feature_data_h,
+    'invent.cc': post_process_invent_cc,
+    'item-name.cc': post_process_item_name_cc,
+    'item-prop.cc': post_process_item_prop_cc,
+    'job-data.h': post_process_job_data_h,
+    'mon-data.h': post_process_mon_data_h,
+    'mutant-beast.h': post_process_mutant_beast_h,
+    'skills.cc': post_process_skills_cc,
+    'transform.cc': post_process_transform_cc,
+}
+
 def post_process(filename, strings):
     # the strings in some files need special handling
-    if filename == 'art-func.h':
-        strings = post_process_art_func_h(strings)
-    elif filename == 'directn.cc':
-        strings = post_process_directn_cc(strings)
-    elif filename == 'feature-data.h':
-        strings = post_process_feature_data_h(strings)
-    elif filename == 'invent.cc':
-        strings = post_process_invent_cc(strings)
-    elif filename == 'item-name.cc':
-        strings = post_process_item_name_cc(strings)
-    elif filename == 'item-prop.cc':
-        strings = post_process_item_prop_cc(strings)
-    elif filename == 'job-data.h':
-        strings = post_process_job_data_h(strings)
-    elif filename == 'mon-data.h':
-        strings = post_process_mon_data_h(strings)
-    elif filename == 'mutant-beast.h':
-        strings = post_process_mutant_beast_h(strings)
-    elif filename == 'skills.cc':
-        strings = post_process_skills_cc(strings)
+    if filename in specific_post_processing_funcs:
+        func = specific_post_processing_funcs[filename]
+        strings = func(strings)
     elif filename.startswith("tilereg-") and filename.endswith(".cc"):
         strings = post_process_tilereg_cc(strings)
-    elif filename == 'transform.cc':
-        strings = post_process_transform_cc(strings)
     elif filename != 'art-data.txt':
         section = None
         old_strings = strings
