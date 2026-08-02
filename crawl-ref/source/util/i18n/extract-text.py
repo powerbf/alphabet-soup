@@ -2384,6 +2384,7 @@ def post_process_art_func_h(strings):
 
 def post_process_directn_cc(strings):
     result = []
+    section = None
     for string in strings:
         if string.startswith('# section:'):
             # new section starts
@@ -2433,6 +2434,7 @@ def post_process_feature_data_h(strings):
 
 def post_process_invent_cc(strings):
     result = []
+    section = None
     for string in strings:
         if string.startswith('# section:'):
             # new section starts
