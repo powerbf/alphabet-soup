@@ -765,6 +765,9 @@ set off by their pet
 # Killers (that aren't defined in other files)
 ########################
 %%%%
+the player character
+
+%%%%
 themself
 
 %%%%

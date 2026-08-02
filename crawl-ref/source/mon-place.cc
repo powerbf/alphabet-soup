@@ -1384,7 +1384,6 @@ static monster* _place_monster_aux(const mgen_data &mg, const monster *leader,
            || mg.foe == MHITYOU || mg.foe == MHITNOT);
     mon->foe = mg.foe;
 
-    // @noloc section start (blame is localised with special handling)
     string blame_prefix;
 
     if (mg.flags & MG_BAND_MINION)
@@ -1494,7 +1493,6 @@ static monster* _place_monster_aux(const mgen_data &mg, const monster *leader,
              mon->name(DESC_PLAIN, true).c_str());
     }
 #endif
-    // @noloc section end
 
     if (crawl_state.game_is_arena())
         arena_placed_monster(mon);

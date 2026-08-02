@@ -9737,6 +9737,9 @@ etwa %d
 # mon-place.cc
 ##################
 %%%%
+Warning: monster '%s' is not yet fully coded.
+Warnung: Monster '%s' ist noch nicht vollständig programmiert.
+%%%%
 %s feels only hate for you!
 %s empfindet nur Hass für dich!
 %%%%

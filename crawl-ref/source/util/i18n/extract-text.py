@@ -2009,7 +2009,10 @@ def process_cplusplus_file(filename):
                     strings.append(c)
                 continue
 
-            if string.endswith(' by ') and string != ' by ':
+            if ignore_string(string):
+                continue
+
+            if string.endswith(' by ') or string.endswith('attached to '):
                 string += "%s"
 
             if filename == 'ability.cc':
