@@ -572,7 +572,7 @@ static string _hiscore_date_string(time_t time)
 {
     struct tm *date = TIME_FN(&time);
 
-     const char *mons[12] = { "Jan", "Feb", "Mar", "Apr", "May", "June",
+    const char *mons[12] = { "Jan", "Feb", "Mar", "Apr", "May", "June",
                              "July", "Aug", "Sept", "Oct", "Nov", "Dec" };
 
     int day = date->tm_mday;
