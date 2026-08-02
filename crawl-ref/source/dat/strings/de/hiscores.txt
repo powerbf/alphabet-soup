@@ -712,6 +712,9 @@ gewebt von {dat}%s
 animated by %s
 animiert von {dat}%s
 %%%%
+called by a doom hound
+herbeigerufen von einem Untergangshund
+%%%%
 # for some reason eldritch tentacle is called rather than summoned
 called by %s
 herbeigerufen von {dat}%s
@@ -726,6 +729,18 @@ erschaffen von {dat}%s
 # god rage
 created by the rage of %s
 erschaffen durch den Zorn {gen}%s
+%%%%
+hexed by the player character
+verhext vom Spielercharakter
+%%%%
+hexed by %s
+verhext von {dat}%s
+%%%%
+mirrored by the player character
+gespiegelt vom Spielercharakter
+%%%%
+smitten by %s
+zerschlagen von {dat}%s
 %%%%
 # tentacle attached to monster
 attached to %s
