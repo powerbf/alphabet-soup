@@ -1355,8 +1355,7 @@ def extract_strings_from_des_rebadge_line(line):
     if '/' in line or ',' in line:
         lines = re.split('[/,]', line)
         for l in lines:
-            if re.search(r'\bname:', l):
-                strings.extend(extract_strings_from_des_rebadge_line(l))
+            strings.extend(extract_strings_from_des_rebadge_line(l))
         return strings
 
     # remove any existing quotes
@@ -1369,19 +1368,19 @@ def extract_strings_from_des_rebadge_line(line):
 
         # extract owner name
         owner = "@owner@"
-        m = re.search(r'(?<=\bname:)[^ ]+', line)
+        m = re.search(r'(?<=\bname:)[^ \)\}]+', line)
         if  m:
             owner = m.group()
 
         # extract shop type
         shop_type = None
-        m = re.search(r'(?<=\btype:)[^ ]+', line)
+        m = re.search(r'(?<=\btype:)[^ \)\}]+', line)
         if m:
             shop_type = m.group()
 
         # extract shop suffix
         suffix = None
-        m = re.search(r'(?<=\bsuffix:)[^ ]+', line)
+        m = re.search(r'(?<=\bsuffix:)[^ \)\}]+', line)
         if m:
             suffix = m.group()
 
