@@ -9,13 +9,13 @@
 ###################################################################
 
 %%%%
-@Owner@'s General Store
+@owner@'s General Store
 
 %%%%
-@Owner@'s Distillery
+@owner@'s Distillery
 
 %%%%
-@Owner@'s Assorted Antiques
+@owner@'s Assorted Antiques
 
 %%%%
 
@@ -24,106 +24,106 @@
 ###################################################################
 
 %%%%
-@Owner@'s Weapon Shop
+@owner@'s Weapon Shop
 
 %%%%
-@Owner@'s Antique Weapon Shop
+@owner@'s Antique Weapon Shop
 
 %%%%
-@Owner@'s Armour Shop
+@owner@'s Armour Shop
 
 %%%%
-@Owner@'s Antique Armour Shop
+@owner@'s Antique Armour Shop
 
 %%%%
-@Owner@'s Jewellery Shop
+@owner@'s Jewellery Shop
 
 %%%%
-@Owner@'s Magic Scroll Shop
+@owner@'s Magic Scroll Shop
 
 %%%%
-@Owner@'s Book Shop
+@owner@'s Book Shop
 
 %%%%
-@Owner@'s Gadget Shop
-
-%%%%
-
-%%%%
-@Owner@'s Weapon Shoppe
-
-%%%%
-@Owner@'s Antique Weapon Shoppe
-
-%%%%
-@Owner@'s Armour Shoppe
-
-%%%%
-@Owner@'s Antique Armour Shoppe
-
-%%%%
-@Owner@'s Jewellery Shoppe
-
-%%%%
-@Owner@'s Magic Scroll Shoppe
-
-%%%%
-@Owner@'s Book Shoppe
-
-%%%%
-@Owner@'s Gadget Shoppe
+@owner@'s Gadget Shop
 
 %%%%
 
 %%%%
-@Owner@'s Weapon Boutique
+@owner@'s Weapon Shoppe
 
 %%%%
-@Owner@'s Antique Weapon Boutique
+@owner@'s Antique Weapon Shoppe
 
 %%%%
-@Owner@'s Armour Boutique
+@owner@'s Armour Shoppe
 
 %%%%
-@Owner@'s Antique Armour Boutique
+@owner@'s Antique Armour Shoppe
 
 %%%%
-@Owner@'s Jewellery Boutique
+@owner@'s Jewellery Shoppe
 
 %%%%
-@Owner@'s Magic Scroll Boutique
+@owner@'s Magic Scroll Shoppe
 
 %%%%
-@Owner@'s Book Boutique
+@owner@'s Book Shoppe
 
 %%%%
-@Owner@'s Gadget Boutique
+@owner@'s Gadget Shoppe
 
 %%%%
 
 %%%%
-@Owner@'s Weapon Emporium
+@owner@'s Weapon Boutique
 
 %%%%
-@Owner@'s Antique Weapon Emporium
+@owner@'s Antique Weapon Boutique
 
 %%%%
-@Owner@'s Armour Emporium
+@owner@'s Armour Boutique
 
 %%%%
-@Owner@'s Antique Armour Emporium
+@owner@'s Antique Armour Boutique
 
 %%%%
-@Owner@'s Jewellery Emporium
+@owner@'s Jewellery Boutique
 
 %%%%
-@Owner@'s Magic Scroll Emporium
+@owner@'s Magic Scroll Boutique
 
 %%%%
-@Owner@'s Book Emporium
+@owner@'s Book Boutique
 
 %%%%
-@Owner@'s Gadget Emporium
+@owner@'s Gadget Boutique
+
+%%%%
+
+%%%%
+@owner@'s Weapon Emporium
+
+%%%%
+@owner@'s Antique Weapon Emporium
+
+%%%%
+@owner@'s Armour Emporium
+
+%%%%
+@owner@'s Antique Armour Emporium
+
+%%%%
+@owner@'s Jewellery Emporium
+
+%%%%
+@owner@'s Magic Scroll Emporium
+
+%%%%
+@owner@'s Book Emporium
+
+%%%%
+@owner@'s Gadget Emporium
 
 %%%%
 

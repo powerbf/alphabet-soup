@@ -9,17 +9,17 @@
 ###################################################################
 
 %%%%
-@Owner@'s General Store
-@Owner@s Krämerei
+@owner@'s General Store
+@owner@s Krämerei
 %%%%
-@Owner@'s Distillery
-@Owner@s Brennerei
+@owner@'s Distillery
+@owner@s Brennerei
 %%%%
-@Owner@'s Assorted Antiques
-@Owner@s Diverse Antiquitäten
+@owner@'s Assorted Antiques
+@owner@s Diverse Antiquitäten
 %%%%
-{dat}@Owner@'s Assorted Antiques
-@Owner@s Diversen Antiquitäten
+{dat}@owner@'s Assorted Antiques
+@owner@s Diversen Antiquitäten
 %%%%
 
 ###################################################################
@@ -27,107 +27,107 @@
 ###################################################################
 
 %%%%
-@Owner@'s Weapon Shop
-@Owner@s Waffenladen
+@owner@'s Weapon Shop
+@owner@s Waffenladen
 %%%%
-@Owner@'s Antique Weapon Shop
-@Owner@s Waffenantiquariat
+@owner@'s Antique Weapon Shop
+@owner@s Waffenantiquariat
 %%%%
-@Owner@'s Armour Shop
-@Owner@'s Rüstungsladen
+@owner@'s Armour Shop
+@owner@'s Rüstungsladen
 %%%%
-@Owner@'s Antique Armour Shop
-@Owner@s Rüstungsantiquariat
+@owner@'s Antique Armour Shop
+@owner@s Rüstungsantiquariat
 %%%%
-@Owner@'s Jewellery Shop
-@Owner@s Schmuckladen
+@owner@'s Jewellery Shop
+@owner@s Schmuckladen
 %%%%
-@Owner@'s Magic Scroll Shop
-@Owner@s Laden für magische Schriftrollen
+@owner@'s Magic Scroll Shop
+@owner@s Laden für magische Schriftrollen
 %%%%
-@Owner@'s Book Shop
-@Owner@s Buchladen
+@owner@'s Book Shop
+@owner@s Buchladen
 %%%%
-@Owner@'s Gadget Shop
-@Owner@s Geräteladen
-%%%%
-
-%%%%
-@Owner@'s Weapon Shoppe
-@Owner@s Waffenhandlung
-%%%%
-@Owner@'s Antique Weapon Shoppe
-@Owner@s Waffenantiquariat
-%%%%
-@Owner@'s Armour Shoppe
-@Owner@s Rüstungshandlung
-%%%%
-@Owner@'s Antique Armour Shoppe
-@Owner@s Rüstungsantiquariat
-%%%%
-@Owner@'s Jewellery Shoppe
-@Owner@s Schmuckhandlung
-%%%%
-@Owner@'s Magic Scroll Shoppe
-@Owner@s Handlung für magische Schriftrollen
-%%%%
-@Owner@'s Book Shoppe
-@Owner@s Buchhandlung
-%%%%
-@Owner@'s Gadget Shoppe
-@Owner@s Gerätehandlung
+@owner@'s Gadget Shop
+@owner@s Geräteladen
 %%%%
 
 %%%%
-@Owner@'s Weapon Boutique
-@Owner@s Waffenboutique
+@owner@'s Weapon Shoppe
+@owner@s Waffenhandlung
 %%%%
-@Owner@'s Antique Weapon Boutique
-@Owner@s Boutique für antike Waffen
+@owner@'s Antique Weapon Shoppe
+@owner@s Waffenantiquariat
 %%%%
-@Owner@'s Armour Boutique
-@Owner@s Rüstungsboutique
+@owner@'s Armour Shoppe
+@owner@s Rüstungshandlung
 %%%%
-@Owner@'s Antique Armour Boutique
-@Owner@s Boutique für antike Rüstungen
+@owner@'s Antique Armour Shoppe
+@owner@s Rüstungsantiquariat
 %%%%
-@Owner@'s Jewellery Boutique
-@Owner@s Schmuckboutique
+@owner@'s Jewellery Shoppe
+@owner@s Schmuckhandlung
 %%%%
-@Owner@'s Magic Scroll Boutique
-@Owner@s Boutique für magische Schriftrollen
+@owner@'s Magic Scroll Shoppe
+@owner@s Handlung für magische Schriftrollen
 %%%%
-@Owner@'s Book Boutique
-@Owner@s Buchboutique
+@owner@'s Book Shoppe
+@owner@s Buchhandlung
 %%%%
-@Owner@'s Gadget Boutique
-@Owner@s Geräteboutique
+@owner@'s Gadget Shoppe
+@owner@s Gerätehandlung
 %%%%
 
 %%%%
-@Owner@'s Weapon Emporium
-@Owner@s Waffenemporium
+@owner@'s Weapon Boutique
+@owner@s Waffenboutique
 %%%%
-@Owner@'s Antique Weapon Emporium
-@Owner@s Emporium der antiken Waffen
+@owner@'s Antique Weapon Boutique
+@owner@s Boutique für antike Waffen
 %%%%
-@Owner@'s Armour Emporium
-@Owner@s Rüstungsemporium
+@owner@'s Armour Boutique
+@owner@s Rüstungsboutique
 %%%%
-@Owner@'s Antique Armour Emporium
-@Owner@s Emporium der antiken Rüstungen
+@owner@'s Antique Armour Boutique
+@owner@s Boutique für antike Rüstungen
 %%%%
-@Owner@'s Jewellery Emporium
-@Owner@s Schmuckemporium
+@owner@'s Jewellery Boutique
+@owner@s Schmuckboutique
 %%%%
-@Owner@'s Magic Scroll Emporium
-@Owner@s Emporium der magischen Schriftrollen
+@owner@'s Magic Scroll Boutique
+@owner@s Boutique für magische Schriftrollen
 %%%%
-@Owner@'s Book Emporium
-@Owner@s Emporium der Bücher
+@owner@'s Book Boutique
+@owner@s Buchboutique
 %%%%
-@Owner@'s Gadget Emporium
-@Owner@s Emporium der Geräte
+@owner@'s Gadget Boutique
+@owner@s Geräteboutique
+%%%%
+
+%%%%
+@owner@'s Weapon Emporium
+@owner@s Waffenemporium
+%%%%
+@owner@'s Antique Weapon Emporium
+@owner@s Emporium der antiken Waffen
+%%%%
+@owner@'s Armour Emporium
+@owner@s Rüstungsemporium
+%%%%
+@owner@'s Antique Armour Emporium
+@owner@s Emporium der antiken Rüstungen
+%%%%
+@owner@'s Jewellery Emporium
+@owner@s Schmuckemporium
+%%%%
+@owner@'s Magic Scroll Emporium
+@owner@s Emporium der magischen Schriftrollen
+%%%%
+@owner@'s Book Emporium
+@owner@s Emporium der Bücher
+%%%%
+@owner@'s Gadget Emporium
+@owner@s Emporium der Geräte
 %%%%
 
 ################################

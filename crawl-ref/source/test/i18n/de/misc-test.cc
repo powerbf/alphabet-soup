@@ -106,6 +106,9 @@ int main()
     msg = localise("a detected shop or portal");
     show_result(msg, "ein entdeckter Laden oder ein entdecktes Portal");
 
+    msg = localise("Bob's Book Boutique");
+    show_result(msg, "Bobs Buchboutique");
+
     // monsters (TODO: move into mon-test.cc or delete)
 
     msg = localise("a great orb of eyes");

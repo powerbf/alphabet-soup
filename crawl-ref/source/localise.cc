@@ -1595,7 +1595,7 @@ static string _localise_shop_name(const string& context, const string& value)
     string owner = value.substr(0, pos);
 
     // parameterize owner name
-    string shop_name = replace_first(value, owner, "@Owner@");
+    string shop_name = replace_first(value, owner, "@owner@");
 
     // translate parameterized shop name
     shop_name = cxlate(context, shop_name, false);
@@ -1603,7 +1603,7 @@ static string _localise_shop_name(const string& context, const string& value)
         return "";
 
     // put owner name back
-    shop_name = replace_first(shop_name, "@Owner@", owner);
+    shop_name = replace_first(shop_name, "@owner@", owner);
 
     return shop_name;
 }
