@@ -52,7 +52,6 @@
 @Owner@s Geräteladen
 %%%%
 
-
 %%%%
 @Owner@'s Weapon Shoppe
 @Owner@s Waffenhandlung
@@ -78,7 +77,6 @@
 @Owner@'s Gadget Shoppe
 @Owner@s Gerätehandlung
 %%%%
-
 
 %%%%
 @Owner@'s Weapon Boutique
@@ -131,7 +129,6 @@
 @Owner@'s Gadget Emporium
 @Owner@s Emporium der Geräte
 %%%%
-
 
 ################################
 # Specialty shops from .des files
