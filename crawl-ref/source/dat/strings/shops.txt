@@ -18,9 +18,6 @@
 @Owner@'s Assorted Antiques
 
 %%%%
-{dat}@Owner@'s Assorted Antiques
-
-%%%%
 
 ###################################################################
 # These shop types can be called Shop, Shoppe, Boutique or Emporium
@@ -129,5 +126,31 @@
 
 %%%%
 @Owner@'s Gadget Emporium
+
+%%%%
+
+################################
+# Shop names from .des files
+################################
+%%%%
+Zin's Purification Station
+
+%%%%
+Gozag's Platinum Reserve
+
+%%%%
+The Legendary @owner@'s Legendary Smithy
+
+%%%%
+@owner@'s Merfolk Weapons
+
+%%%%
+@owner@'s Merfolk Armours
+
+%%%%
+@owner@'s Merfolk Magic
+
+%%%%
+@owner@'s Visitors' Centre
 
 %%%%
