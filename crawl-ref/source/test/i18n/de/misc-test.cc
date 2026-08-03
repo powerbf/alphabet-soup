@@ -109,6 +109,12 @@ int main()
     msg = localise("Bob's Book Boutique");
     show_result(msg, "Bobs Buchboutique");
 
+    msg = localise("Zin's Purification Station");
+    show_result(msg, "Zins Reinigungsstation");
+
+    msg = localise("The Legendary Larry's Legendary Smithy");
+    show_result(msg, "Des legendären Larrys legendäre Schmiede");
+
     // monsters (TODO: move into mon-test.cc or delete)
 
     msg = localise("a great orb of eyes");

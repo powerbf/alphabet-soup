@@ -1570,29 +1570,14 @@ static string _localise_multiple_sentences(const string& context, const string& 
 
 static string _localise_shop_name(const string& context, const string& value)
 {
-    static const string suffixes[] =
-    {
-        "Shoppe", "Boutique", "Emporium", "Shop",
-        "General Store", "Distillery", "Assorted Antiques"
-    };
-
-    bool is_shop_name = false;
-    for (const string& suffix: suffixes)
-    {
-        if (ends_with(value, suffix))
-        {
-            is_shop_name = true;
-            break;
-        }
-    }
-    if (!is_shop_name)
-        return "";
-
     // extract owner name
     size_t pos = value.find("'s ");
     if (pos == string::npos)
         return "";
     string owner = value.substr(0, pos);
+
+    // special case
+    owner = replace_first(owner, "The Legendary ", "");
 
     // parameterize owner name
     string shop_name = replace_first(value, owner, "@owner@");
