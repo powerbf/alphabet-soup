@@ -286,50 +286,6 @@ Cheibriados's Comfort Zone
 @owner@'s Specific Store
 
 %%%%
-# scrolls of identify
-@owner@'s Identification Station
-
-%%%%
-# spellbooks
-@owner@'s Must-Have Magic
-
-%%%%
-# potions of healing and curing
-@owner@'s Do-It-Yourself Clinic
-
-%%%%
-# artefact jewellery
-@owner@'s Jewellery
-
-%%%%
-# artefact armour
-@owner@'s Advanced Armour
-
-%%%%
-# mundane armour
-@owner@'s Basic Armour
-
-%%%%
-# magical staves
-@owner@'s Staff Store
-
-%%%%
-# mundane weapons
-@owner@'s Weapon Rack
-
-%%%%
-# potions of experience
-@owner@'s Bottled Wisdom
-
-%%%%
-# quad damage, heal wounds, haste
-@owner@'s Premium Goods
-
-%%%%
-# mundane rings and amulets
-@owner@'s Miscellaneous Merchandise
-
-%%%%
 # potions of mutation
 @owner@'s Miraculous Elixirs
 
@@ -419,5 +375,54 @@ Cheibriados's Comfort Zone
 
 %%%%
 @owner@'s Zaibatsu Zone
+
+%%%%
+
+##################
+# Dungeon Sprint
+##################
+%%%%
+# scrolls of identify
+@owner@'s Identification Station
+
+%%%%
+# spellbooks
+@owner@'s Must-Have Magic
+
+%%%%
+# potions of healing and curing
+@owner@'s Do-It-Yourself Clinic
+
+%%%%
+# artefact jewellery
+@owner@'s Jewellery
+
+%%%%
+# artefact armour
+@owner@'s Advanced Armour
+
+%%%%
+# mundane armour
+@owner@'s Basic Armour
+
+%%%%
+# magical staves
+@owner@'s Staff Store
+
+%%%%
+# mundane weapons
+@owner@'s Weapon Rack
+
+%%%%
+# potions of experience
+@owner@'s Bottled Wisdom
+
+%%%%
+# quad damage, heal wounds, haste
+@owner@'s Premium Goods
+
+%%%%
+# mundane rings and amulets
+@owner@'s Miscellaneous Merchandise
 
 %%%%
