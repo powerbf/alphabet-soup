@@ -159,7 +159,7 @@ The Legendary @owner@'s Legendary Smithy
 @owner@'s Visitors' Centre
 
 %%%%
-# only appears in Elven Halls, fire-themed items
+# only appears in Elven Halls, sells fire-themed items
 @owner@'s Elven Fire
 
 %%%%
@@ -231,7 +231,7 @@ The Legendary @owner@'s Legendary Smithy
 @owner@'s Hydra Hut
 
 %%%%
-# sells damaged wepons and armour
+# sells damaged weapons and armour
 @owner@'s Lightly-Used Armoury
 
 %%%%

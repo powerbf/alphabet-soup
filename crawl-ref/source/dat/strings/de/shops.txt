@@ -162,7 +162,7 @@ Des legendären @owner@s legendäre Schmiede
 @owner@'s Visitors' Centre
 @owner@s Besucherzentrum
 %%%%
-# only appears in Elven Halls, fire-themed items
+# only appears in Elven Halls, sells fire-themed items
 @owner@'s Elven Fire
 
 %%%%
@@ -234,7 +234,7 @@ Des legendären @owner@s legendäre Schmiede
 @owner@'s Hydra Hut
 
 %%%%
-# sells damaged wepons and armour
+# sells damaged weapons and armour
 @owner@'s Lightly-Used Armoury
 
 %%%%
