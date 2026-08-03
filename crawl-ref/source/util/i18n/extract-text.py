@@ -1368,26 +1368,30 @@ def extract_strings_from_des_rebadge_line(line):
         line = line.replace('@smithy@', '@owner@')
 
         # extract owner name
+        owner = "@owner@"
         m = re.search(r'(?<=\bname:)[^ ]+', line)
-        if not m:
-            #print("DEBUG: " + line)
-            return []
-        owner = m.group()
-        owner = owner.replace('_', ' ')
+        if  m:
+            owner = m.group()
+            owner = owner.replace('_', ' ')
 
         # extract shop type
+        shop_type = None
         m = re.search(r'(?<=\btype:)[^ ]+', line)
-        if not m:
-            #print("DEBUG: " + line)
-            return []
-        shop_type = m.group()
-
-        name = owner + "'s " + shop_type
+        if m:
+            shop_type = m.group()
 
         # extract shop suffix
+        suffix = None
         m = re.search(r'(?<=\bsuffix:)[^ ]+', line)
         if m:
-            name += " " + m.group()
+            suffix = m.group()
+
+        if not shop_type:
+            return []
+
+        name = owner + "'s " + shop_type
+        if suffix:
+            name += " " + suffix
 
         return [name]
 
@@ -1570,6 +1574,9 @@ def process_des_or_lua_file(filename):
                 strings.extend(extract_strings_from_des_spellbook_line(line))
                 continue
             elif re.search(r'\bname:', line):
+                strings.extend(extract_strings_from_des_rebadge_line(line))
+                continue
+            elif re.search(r'\bshop\b', line) and ('type:' in line or 'suffix:' in line):
                 strings.extend(extract_strings_from_des_rebadge_line(line))
                 continue
             elif re.search(r'(?:msg|prompt)\s*=', line):
@@ -3021,11 +3028,7 @@ else:
     lua_files.sort()
     source_files.extend(lua_files)
 
-    des_files_raw = glob.glob("dat/des/*/*.des")
-    des_files = []
-    for filename in des_files_raw:
-        if not '/builder/' in filename:
-            des_files.append(filename)
+    des_files = glob.glob("dat/des/*/*.des")
     des_files.sort()
     source_files.extend(des_files)
 
