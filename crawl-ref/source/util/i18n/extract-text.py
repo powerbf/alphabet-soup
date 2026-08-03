@@ -1372,7 +1372,6 @@ def extract_strings_from_des_rebadge_line(line):
         m = re.search(r'(?<=\bname:)[^ ]+', line)
         if  m:
             owner = m.group()
-            owner = owner.replace('_', ' ')
 
         # extract shop type
         shop_type = None
@@ -1392,6 +1391,7 @@ def extract_strings_from_des_rebadge_line(line):
         name = owner + "'s " + shop_type
         if suffix:
             name += " " + suffix
+        name = name.replace('_', ' ')
 
         return [name]
 
