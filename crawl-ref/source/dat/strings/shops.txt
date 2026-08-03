@@ -130,7 +130,7 @@
 %%%%
 
 ################################
-# Shop names from .des files
+# Specialty shops from .des files
 ################################
 %%%%
 Zin's Purification Station
@@ -266,5 +266,88 @@ Cheibriados's Comfort Zone
 
 %%%%
 @owner@'s Miraculous Elixirs
+
+%%%%
+
+##################
+# alphashops.des
+##################
+%%%%
+@owner@'s Alliterative Accessories
+
+%%%%
+@owner@'s Bounteous Boutique
+
+%%%%
+@owner@'s Commerce Corner
+
+%%%%
+@owner@'s Desiderata Depot
+
+%%%%
+@owner@'s Eclectic Emporium
+
+%%%%
+@owner@'s Fabulous Fripperies
+
+%%%%
+@owner@'s Goods Gallery
+
+%%%%
+@owner@'s Humungous Hoard
+
+%%%%
+@owner@'s Incredible Inventory
+
+%%%%
+@owner@'s Jolly Junkyard
+
+%%%%
+@owner@'s Killer Kiosk
+
+%%%%
+@owner@'s Luxury Loot
+
+%%%%
+@owner@'s Merry Market
+
+%%%%
+@owner@'s Needful Niceties
+
+%%%%
+@owner@'s Offbeat Offerings
+
+%%%%
+@owner@'s Practical Paraphernalia
+
+%%%%
+@owner@'s Quotidian Quintessences
+
+%%%%
+@owner@'s Retail Resort
+
+%%%%
+@owner@'s Superlative Supplies
+
+%%%%
+@owner@'s Tempting Trifles
+
+%%%%
+@owner@'s Unparalleled Utilities
+
+%%%%
+@owner@'s Vending Venue
+
+%%%%
+@owner@'s Whimsical Warehouse
+
+%%%%
+@owner@'s Xenial Xenodochy
+
+%%%%
+@owner@'s Yearning Yield
+
+%%%%
+@owner@'s Zaibatsu Zone
 
 %%%%

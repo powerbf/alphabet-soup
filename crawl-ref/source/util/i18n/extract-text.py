@@ -1362,7 +1362,7 @@ def extract_strings_from_des_rebadge_line(line):
     # remove any existing quotes
     line = line.replace('"', '')
 
-    if re.search(r'\bshop\b', line):
+    if re.search(r'\bshop\b', line) or ('type:' in line and 'suffix:' in line):
         # Handle shop names
         line = re.sub(r'\s*\.\.\s*([a-zA-Z_]+)\s*\.\.', r'@\1@', line)
         line = line.replace('@smithy@', '@owner@')
@@ -1576,7 +1576,7 @@ def process_des_or_lua_file(filename):
             elif re.search(r'\bname:', line):
                 strings.extend(extract_strings_from_des_rebadge_line(line))
                 continue
-            elif re.search(r'\bshop\b', line) and ('type:' in line or 'suffix:' in line):
+            elif re.search(r'\bshop\b', line) or ('type:' in line and 'suffix:' in line):
                 strings.extend(extract_strings_from_des_rebadge_line(line))
                 continue
             elif re.search(r'(?:msg|prompt)\s*=', line):
