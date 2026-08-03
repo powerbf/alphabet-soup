@@ -134,153 +134,203 @@
 # Specialty shops from .des files
 ################################
 %%%%
+# potions of curing
 Zin's Purification Station
 Zins Reinigungsstation
 %%%%
+# artefacts at high prices
 Gozag's Platinum Reserve
 Gozags Platinbank
 %%%%
+# damaged weapons and armour
 The Legendary @owner@'s Legendary Smithy
 Des legendären @owner@s legendäre Schmiede
 %%%%
+# only appears in shoals
 @owner@'s Merfolk Weapons
 @owner@s Meervolkwaffen
 %%%%
+# only appears in shoals
 @owner@'s Merfolk Armours
 @owner@s Meervolkrüstungen
 %%%%
+# only appears in shoals
 @owner@'s Merfolk Magic
 @owner@s Meervolkmagie
 %%%%
+# only appears in shoals, sells !flight and ?teleport
 @owner@'s Visitors' Centre
 @owner@s Besucherzentrum
 %%%%
+# only appears in Elven Halls, fire-themed items
 @owner@'s Elven Fire
 
 %%%%
+# poison-themed items
 @owner@'s Serpentskin Sales
 
 %%%%
+# earth magic, digging, tremorstones
 @owner@'s Pet Rocks
 
 %%%%
+# vampiric items and necromancy
 @owner@'s Blood Bar
 
 %%%%
+# necromancy, vampric/draining/demon weapons
 @owner@'s Blasphemy Boutique
 
 %%%%
+# necromancy, vampric/draining/demon weapons
 @owner@'s Evil Emporium
 
 %%%%
+# necromancy, vampric/draining/demon weapons
 @owner@'s Profane Products
 
 %%%%
+# necromancy, vampric/draining/demon weapons
 @owner@'s Sacrilege Store
 
 %%%%
+# necromancy, vampric/draining/demon weapons
 @owner@'s Wicked Wares
 
 %%%%
+# curing, healing, silver
 @owner@'s Hallowed Reliquary
 
 %%%%
+# barding
 @owner@'s Specialty Armours
 
 %%%%
+# destructive magic
 @owner@'s Demolitions Depot
 
 %%%%
+# elemental magic and elemental evokables
 @owner@'s Elemental Accessories
 
 %%%%
+# spellbooks
 @owner@'s One-of-a-Kind Books
 
 %%%%
+# randarts
 @owner@'s Antique Artefacts
 
 %%%%
+# sounds like a travel agent, is on an island and sells escape items like ?teleport, !haste, etc.
 @owner@'s Island Escapes
 
 %%%%
+# transmutations and mutations
 @owner@'s Changing Room
 
 %%%%
+# flaming weapons
 @owner@'s Hydra Hut
 
 %%%%
+# sells damaged wepons and armour
 @owner@'s Lightly-Used Armoury
 
 %%%%
+# items with ponderous ego
 Cheibriados's Comfort Zone
 
 %%%%
+# weapons and spells that damage multiple targets
 @owner@'s Mayhem Merchandise
 
 %%%%
+# heavy items (e.g. giant club, crystal plate)
 @owner@'s Mass Market
 
 %%%%
+# only appears on Zot:5
 @owner@'s Last-Chance Deals
 
 %%%%
+# has a chance to have good items at low prices
 @owner@'s CLEARANCE SALE! EVERYTHING MUST GO!
 
 %%%%
+# thrown and ranged weapons
 @owner@'s Firing Range
 
 %%%%
+# wands and misc. evokables
 @owner@'s Gadget Gallery
 
 %%%%
+# double-meaning: wands that have more charges plus a higher price
 @owner@'s Overcharged Wands
 
 %%%%
+# manuals
 @owner@'s Self-Improvement Boutique
 
 %%%%
+# amulets, scarves, cloaks
 @owner@'s Neck Hole
 
 %%%%
+# just a general store
 @owner@'s General Store
 
 %%%%
+# also just a general store
 @owner@'s Specific Store
 
 %%%%
+# scrolls of identify
 @owner@'s Identification Station
 
 %%%%
+# spellbooks
 @owner@'s Must-Have Magic
 
 %%%%
+# potions of healing and curing
 @owner@'s Do-It-Yourself Clinic
 
 %%%%
+# artefact jewellery
 @owner@'s Jewellery
 
 %%%%
+# artefact armour
 @owner@'s Advanced Armour
 
 %%%%
+# mundane armour
 @owner@'s Basic Armour
 
 %%%%
+# magical staves
 @owner@'s Staff Store
 
 %%%%
+# mundane weapons
 @owner@'s Weapon Rack
 
 %%%%
+# potions of experience
 @owner@'s Bottled Wisdom
 
 %%%%
+# quad damage, heal wounds, haste
 @owner@'s Premium Goods
 
 %%%%
+# mundane rings and amulets
 @owner@'s Miscellaneous Merchandise
 
 %%%%
+# potions of mutation
 @owner@'s Miraculous Elixirs
 
 %%%%
@@ -288,6 +338,10 @@ Cheibriados's Comfort Zone
 ##################
 # alphashops.des
 ##################
+# Shops that sell items whose English names all start with the matching letter.
+# Any initial class description (amulet, book, manual, potion, ring, scroll,
+# staff, wand) or unit of measurement (pair) is ignored.
+# (for example, "staff of air" counts as A, "scroll of blinking" counts as B, etc.)
 %%%%
 @owner@'s Alliterative Accessories
 
