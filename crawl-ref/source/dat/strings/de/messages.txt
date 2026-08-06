@@ -13369,8 +13369,9 @@ Name
 %4d gold
 %4d Gold
 %%%%
+# welcome to shop
 Welcome to %s! What would you like to do?
-Willkommen bei {dat}%s! Was möchtest du machen?
+%s: Willkommen! Was möchtest du machen?
 %%%%
 You are short 1 gold piece for the purchase.
 Dir fehlt 1 Goldmünze für den Kauf.
@@ -16145,6 +16146,7 @@ Du spürst, dass %s den Wahnsinn in diesem Ort verlangsamt.
 You pass into a different region of Pandemonium.
 Du passierst in eine andere Region des Pandämoniums.
 %%%%
+# welcome to branch
 Welcome back to %s!
 Willkommen zurück {in}%s!
 %%%%

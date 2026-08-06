@@ -13369,6 +13369,7 @@ name
 %4d gold
 
 %%%%
+# welcome to shop
 Welcome to %s! What would you like to do?
 
 %%%%
@@ -16145,6 +16146,7 @@ You feel %s slowing down the madness of this place.
 You pass into a different region of Pandemonium.
 
 %%%%
+# welcome to branch
 Welcome back to %s!
 
 %%%%
