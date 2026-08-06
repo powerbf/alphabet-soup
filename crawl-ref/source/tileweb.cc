@@ -952,15 +952,18 @@ void TilesFramework::_send_player(bool force_full)
     _update_string(force_full, c.job_title, localise(player_title()),
                    "title");
     _update_int(force_full, c.wizard, you.wizard, "wizard");
-    _update_string(force_full, c.species, localise(species::name(you.species)),
+    _update_string(force_full, c.species, species::name(you.species),
                    "species");
     string god = "";
     if (you_worship(GOD_JIYVA))
         god = god_name_jiyva(true);
     else if (!you_worship(GOD_NO_GOD))
         god = god_name(you.religion);
-    god = localise(god);
     _update_string(force_full, c.god, god, "god");
+    string species_of_god = localise(species::name(you.species));
+    if (god != "")
+        species_of_god += localise(" of %s", god);
+    _update_string(force_full, c.god, species_of_god, "species_of_god");
     _update_int(force_full, c.under_penance, (bool) player_under_penance(), "penance");
     uint8_t prank = 0;
     if (!you_worship(GOD_NO_GOD))
