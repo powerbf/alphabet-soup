@@ -740,7 +740,7 @@ mirrored by the player character
 gespiegelt vom Spielercharakter
 %%%%
 smitten by %s
-zerschlagen von {dat}%s
+zerschmettert von {dat}%s
 %%%%
 # tentacle attached to monster
 attached to %s
