@@ -30,6 +30,7 @@
 #include "json-wrapper.h"
 #include "lang-fake.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "map-knowledge.h"
 #include "menu.h"
@@ -948,16 +949,17 @@ void TilesFramework::_send_player(bool force_full)
     json_treat_as_empty();
 
     _update_string(force_full, c.name, you.your_name, "name");
-    _update_string(force_full, c.job_title, filtered_lang(player_title()),
+    _update_string(force_full, c.job_title, localise(player_title()),
                    "title");
     _update_int(force_full, c.wizard, you.wizard, "wizard");
-    _update_string(force_full, c.species, species::name(you.species),
+    _update_string(force_full, c.species, localise(species::name(you.species)),
                    "species");
     string god = "";
     if (you_worship(GOD_JIYVA))
         god = god_name_jiyva(true);
     else if (!you_worship(GOD_NO_GOD))
         god = god_name(you.religion);
+    god = localise(god);
     _update_string(force_full, c.god, god, "god");
     _update_int(force_full, c.under_penance, (bool) player_under_penance(), "penance");
     uint8_t prank = 0;
@@ -1032,6 +1034,7 @@ void TilesFramework::_send_player(bool force_full)
             short_name = article_a(short_name);
         }
     }
+    short_name = localise(short_name);
     _update_string(force_full, c.place, short_name, "place");
     _update_int(force_full, c.depth, brdepth[place.branch] > 1 ? you.depth : 0, "depth");
 
@@ -1063,7 +1066,7 @@ void TilesFramework::_send_player(bool force_full)
                 if (dbname == "Zot" && status.light_colour == WHITE)
                     dbname = "Zot count";
                 const string dbdesc = getLongDescription(dbname + " status");
-                json_write_string("desc", dbdesc.size() ? dbdesc : "No description found");
+                json_write_string("desc", dbdesc.size() ? dbdesc : localise("No description found."));
             }
             if (!status.short_text.empty())
                 json_write_string("text", status.short_text);
@@ -1106,7 +1109,7 @@ void TilesFramework::_send_player(bool force_full)
                 "quiver_desc");
 
     _update_string(force_full, c.unarmed_attack,
-                   you.unarmed_attack_name(), "unarmed_attack");
+                   localise(you.unarmed_attack_name()), "unarmed_attack");
     _update_int(force_full, c.unarmed_attack_colour,
                 (uint8_t) get_form()->uc_colour, "unarmed_attack_colour");
     _update_int(force_full, c.quiver_available,
@@ -1151,7 +1154,7 @@ void TilesFramework::_send_item(item_def& current, const item_def& next,
     changed |= _update_int(force_full, current.flags, next.flags,
                            "flags", false);
     changed |= _update_string(force_full, current.inscription,
-                              next.inscription, "inscription", false);
+                              localise(next.inscription), "inscription", false);
 
     // TODO: props?
 
@@ -1162,7 +1165,7 @@ void TilesFramework::_send_item(item_def& current, const item_def& next,
     {
         string name = next.name(DESC_A, true, false, true);
         if (force_full || current.name(DESC_A, true, false, true) != name)
-            json_write_string("name", name);
+            json_write_string("name", localise(name));
 
         const string prefix = item_prefix(next);
         const int prefcol = menu_colour(next.name(DESC_INVENTORY), prefix);
@@ -1772,10 +1775,10 @@ void TilesFramework::_send_monster(const coord_def &gc, const monster_info* m,
         force_full = true;
 
     if (force_full || (last->full_name() != m->full_name()))
-        json_write_string("name", m->full_name());
+        json_write_string("name", localise(m->full_name()));
 
     if (force_full || (last->pluralised_name() != m->pluralised_name()))
-        json_write_string("plural", m->pluralised_name());
+        json_write_string("plural", localise(m->pluralised_name()));
 
     if (force_full || last->type != m->type)
     {
