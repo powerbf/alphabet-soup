@@ -1520,7 +1520,7 @@
 {pl}%d Luftmagier-Statuen
 %%%%
 %d pristine statues
-{pl}%d unberührte Statuen
+{pl}%d makellose Statuen
 %%%%
 %d zot statues
 {pl}%d Zot-Statuen
