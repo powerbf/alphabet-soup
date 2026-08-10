@@ -780,9 +780,6 @@ schlichte braune
 "non-hostile "
 "nicht feindliche "
 %%%%
-"charred "
-"verkohlte "
-%%%%
 "frost-covered "
 "frostbedeckte "
 %%%%
@@ -801,20 +798,8 @@ schlichte braune
 "sickly "
 "kränkliche "
 %%%%
-"malarious "
-"malariaverseuchte "
-%%%%
-"drunken "
-"betrunkene "
-%%%%
-"greater "
-"größere "
-%%%%
 "giant "
 "gigantische "
-%%%%
-"pristine "
-"unberührte "
 %%%%
 "skinned "
 "gehäutete "
@@ -998,31 +983,6 @@ schlichte braune
 %%%%
 "shaped "
 "geformte "
-%%%%
-
-# not actually adjectives, but put in front of "statue" like an adjective
-%%%%
-"zot "
-"Zot-"
-%%%%
-"archer "
-"Bogenschützen-"
-%%%%
-"conjurer "
-"Konjuranten-"
-%%%%
-"fire elementalist "
-"Feuermagier-"
-%%%%
-# no, this is not a mistake - water not ice
-"water elementalist "
-"Wassermagier-"
-%%%%
-"earth elementalist "
-"Erdmagier-"
-%%%%
-"air elementalist "
-"Luftmagier-"
 %%%%
 
 ################################
