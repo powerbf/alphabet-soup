@@ -437,10 +437,10 @@ wint_t TilesFramework::_handle_control_message(sockaddr_un addr, string data)
     {
         JsonWrapper content = json_find_member(obj.node, "content");
         content.check(JSON_STRING);
-        string m = "<red>Serverwide announcement:</red> ";
+        string m = localise("<red>Serverwide announcement:</red> ");
         m += content->string_;
 
-        mprf(MSGCH_DGL_MESSAGE, "%s", m.c_str());
+        mprf_nolocalise(MSGCH_DGL_MESSAGE, "%s", m.c_str());
         // The following two lines are a magic incantation to get this mprf
         // to actually render without waiting on player inout
         flush_prev_message();
