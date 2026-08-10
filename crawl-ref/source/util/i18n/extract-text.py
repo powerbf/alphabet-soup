@@ -1439,7 +1439,7 @@ def extract_strings_from_des_rebadge_line(line):
     string = ""
     is_adjective = False
     if 'name_adjective' in line or 'n_adj' in line:
-        if override in ['sickly', 'monstrous', 'deformed', 'twisted', 'grotesque', 'hideous', 'febrile', 'skinned']:
+        if override in ['sickly', 'monstrous', 'deformed', 'twisted', 'grotesque', 'hideous', 'febrile']:
             # just take the adjective
             string = override + " "
             is_adjective = True

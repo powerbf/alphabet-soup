@@ -814,9 +814,6 @@ brun simple
 "{m}pristine "
 " immaculé"
 %%%%
-"{m}skinned "
-" écorché"
-%%%%
 "{m}rotten "
 " pourri"
 %%%%
