@@ -1473,6 +1473,48 @@ the bog mummy's
 the lunar statue's
 {f}der Mondstatue
 %%%%
+the charred statue's
+{f}der verkohlten Statue
+%%%%
+the frost-covered statue's
+{f}der frostbedeckten Statue
+%%%%
+the malarious merfolk avatar's
+{m}des malariaverseuchten Meerwesen-Avatars
+%%%%
+the conjurer statue's
+{f}der Konjuranten-Statue
+%%%%
+the drunken dwarf's
+{m}des betrunkenen Zwergs
+%%%%
+the greater air elemental's
+{m}des größeren Luftelementars
+%%%%
+the giant anaconda's
+{f}der gigantischen Anakonda
+%%%%
+the fire elementalist statue's
+{f}der Feuermagier-Statue
+%%%%
+the water elementalist statue's
+{f}der Wassermagier-Statue
+%%%%
+the earth elementalist statue's
+{f}der Erdmagier-Statue
+%%%%
+the air elementalist statue's
+{f}der Luftmagier-Statue
+%%%%
+the pristine statue's
+{f}der makellosen Statue
+%%%%
+the zot statue's
+{f}der Zot-Statue
+%%%%
+the archer statue's
+{f}der Bogenschützen-Statue
+%%%%
 
 # subtypes of mutant beast
 %%%%

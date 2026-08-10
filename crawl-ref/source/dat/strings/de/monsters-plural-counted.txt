@@ -1486,6 +1486,48 @@
 %d lunar statues
 {pl}%d Mondstatuen
 %%%%
+%d charred statues
+{pl}%d verkohlte Statuen
+%%%%
+%d frost-covered statues
+{pl}%d frostbedeckte Statuen
+%%%%
+%d malarious merfolk avatars
+{pl}%d malariaverseuchte Meerwesen-Avatare
+%%%%
+%d conjurer statues
+{pl}%d Konjuranten-Statuen
+%%%%
+%d drunken dwarves
+{pl}%d betrunkene Zwerge
+%%%%
+%d greater air elementals
+{pl}%d größere Luftelementare
+%%%%
+%d giant anacondas
+{pl}%d gigantische Anakondas
+%%%%
+%d fire elementalist statues
+{pl}%d Feuermagier-Statuen
+%%%%
+%d water elementalist statues
+{pl}%d Wassermagier-Statuen
+%%%%
+%d earth elementalist statues
+{pl}%d Erdmagier-Statuen
+%%%%
+%d air elementalist statues
+{pl}%d Luftmagier-Statuen
+%%%%
+%d pristine statues
+{pl}%d makellose Statuen
+%%%%
+%d zot statues
+{pl}%d Zot-Statuen
+%%%%
+%d archer statues
+{pl}%d Bogenschützen-Statuen
+%%%%
 
 # derived monsters containing the name of the original monster
 # "elf zombie", "orc skeleton", etc.
