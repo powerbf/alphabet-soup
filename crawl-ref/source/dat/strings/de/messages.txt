@@ -16602,6 +16602,14 @@ Es konnte kein gültiges Fensterlayout gefunden werden: Bildschirm zu klein oder
 %%%%
 
 ##################
+# tileweb.cc
+##################
+%%%%
+"<red>Serverwide announcement:</red> "
+
+%%%%
+
+##################
 # timed-effects.cc
 ##################
 %%%%

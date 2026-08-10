@@ -107,7 +107,7 @@ SKIP_FILES = [
     # json tags should not be translated
     'branch-data-json.h', 'branch-data-json.cc',
     'json.h', 'json.cc', 'json-wrapper.h',
-    'tileweb.h', 'tileweb.cc', 'tileweb-text.h', 'tileweb-text.cc',
+    'tileweb-text.h', 'tileweb-text.cc',
     # nor other tags
     'colour.h', 'colour.cc', 'format.h', 'format.cc',
     # keys/properties
@@ -955,6 +955,8 @@ def do_dummy_string_replacements(lines):
         m = re.search(r'\b(get[a-zA-Z]*String|json_[a-z_]+)\b', line)
         if m and m[0] and m[0] != "json_write_string":
             line = dummy_function_args(line, m[0])
+
+        # both parameters are identifiers
         line = re.sub(r'(?<=json_write_string) *\("(msg|type)", [^\)]+\)', '($1, value)', line)
 
         # the first parameter to these functions is a key or identifier
@@ -1215,6 +1217,10 @@ def is_line_relevant(line):
     if 'GetModuleHandle' in line:
         return False
     if re.search(r'\bcreate_item_named *\(', line):
+        return False
+    if re.search(r'\bwrite_webtiles_options *\(', line):
+        return False
+    if re.search(r'^\s*dbname *= ', line):
         return False
 
     # find or compare
@@ -1850,6 +1856,19 @@ def process_cplusplus_file(filename):
 
         if '"' not in line:
             continue
+
+        if filename == "tileweb.cc":
+            if re.search(r'\b(_update_int)\b', line):
+                continue
+            if "errmsg =" in line:
+                continue
+            # these could theoretically send strings that we want,
+            # but in practice, they are not, and they are hard to parse
+            if re.search(r'\b(send_message|write_message)\b', line):
+                continue
+            # 4th param to this function is an identifier
+            line = re.sub(r'\b_update_string *\(([^,]+),([^,]+),([^,]+),([^,\)]+)', \
+                          '_update_string($1,$2,$3, dummy', line)
 
         if lazy:
             extract = False
