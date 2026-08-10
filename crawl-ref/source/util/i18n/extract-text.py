@@ -74,7 +74,7 @@ IGNORE_STRINGS = [
     r'quick blade \"Gimble\"', r'quick blade \"Gyre\"',
     # other
     '<w>a:</w> ', '<w>A:</w> ', '[<w>XXX</w>]</lightgrey>',
-    'top', 'bot', '%Y%m%d',
+    'top', 'bot',
 ]
 
 # These files need special handling because they define data structures
@@ -1123,6 +1123,10 @@ def is_line_relevant(line):
     if '_hs_open' in line or 'lk_open' in line:
         return False
     if 'catpath' in line or 'sscanf' in line:
+        return False
+
+    # ignore date formatting strings
+    if 'strftime' in line:
         return False
 
     # ignore debug messages
