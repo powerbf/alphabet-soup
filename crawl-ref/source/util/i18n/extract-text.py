@@ -917,6 +917,10 @@ def dummy_function_args(line, funcname):
             depth -= 1
     end = index
 
+    args = line[start+1:end]
+    if '"' not in args:
+        return line
+
     line = line[0:start+1] + "dummy" + line[end:]
     #sys.stderr.write(line + "\n")
     return line
@@ -943,6 +947,10 @@ def do_dummy_string_replacements(lines):
         if re.search(r'}\s*;', line):
             in_map = False
 
+        if '"' not in line:
+            result.append(line)
+            continue
+
         # we don't want to extract the db key used with getSpeakString(), etc.,
         # but we don't necessarily want to ignore the whole line because
         # sometimes there are other strings present that we do want to extract
@@ -950,9 +958,14 @@ def do_dummy_string_replacements(lines):
         if m and m[0]:
             line = dummy_function_args(line, m[0])
 
-        # we don't want to extract the context key used with localise_contextual()
-        if 'localise_contextual' in line:
-            line = re.sub(r'(?<=localise_contextual) *\([^,]+', '(dummy', line)
+        # all string params to these functions are keys or identifiers
+        m = re.search(r'\bjson_[a-z_]+', line)
+        if m and m[0] and m[0] != "json_write_string":
+            line = dummy_function_args(line, m[0])
+        line = re.sub(r'(?<=json_write_string) *\("(msg|type)", [^\)]+\)', '($1, value)', line)
+
+        # the first parameter to these functions is a key or identifier
+        line = re.sub(r'(localise_contextual|json_write_string) *\([^,]+,', '$1(dummy,', line)
 
         result.append(line)
 
@@ -1163,8 +1176,6 @@ def is_line_relevant(line):
     if re.search(r'strip_tag_prefix *\(', line):
         return False
     if 'annotate_string' in line:
-        return False
-    if 'json_' in line:
         return False
     if 'tiles.write_message' in line:
         return False
