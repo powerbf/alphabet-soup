@@ -778,12 +778,6 @@ plain brown
 "non-hostile "
 
 %%%%
-"charred "
-
-%%%%
-"frost-covered "
-
-%%%%
 "deformed "
 
 %%%%
@@ -799,19 +793,7 @@ plain brown
 "sickly "
 
 %%%%
-"malarious "
-
-%%%%
-"drunken "
-
-%%%%
-"greater "
-
-%%%%
 "giant "
-
-%%%%
-"pristine "
 
 %%%%
 "skinned "
@@ -981,31 +963,6 @@ plain brown
 # shaped can also appear without a monster name in front of it
 %%%%
 "shaped "
-
-%%%%
-
-# not actually adjectives, but put in front of "statue" like an adjective
-%%%%
-"zot "
-
-%%%%
-"archer "
-
-%%%%
-"conjurer "
-
-%%%%
-"fire elementalist "
-
-%%%%
-# no, this is not a mistake - water not ice
-"water elementalist "
-
-%%%%
-"earth elementalist "
-
-%%%%
-"air elementalist "
 
 %%%%
 

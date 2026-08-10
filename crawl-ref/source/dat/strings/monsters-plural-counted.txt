@@ -1486,6 +1486,48 @@
 %d lunar statues
 
 %%%%
+%d charred statues
+
+%%%%
+%d frost-covered statues
+
+%%%%
+%d malarious merfolk avatars
+
+%%%%
+%d conjurer statues
+
+%%%%
+%d drunken dwarves
+
+%%%%
+%d greater air elementals
+
+%%%%
+%d giant anacondas
+
+%%%%
+%d fire elementalist statues
+
+%%%%
+%d water elementalist statues
+
+%%%%
+%d earth elementalist statues
+
+%%%%
+%d air elementalist statues
+
+%%%%
+%d pristine statues
+
+%%%%
+%d zot statues
+
+%%%%
+%d archer statues
+
+%%%%
 
 # derived monsters containing the name of the original monster
 # "elf zombie", "orc skeleton", etc.
