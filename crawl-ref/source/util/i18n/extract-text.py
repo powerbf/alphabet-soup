@@ -1408,6 +1408,9 @@ def extract_strings_from_des_rebadge_line(line):
 
         return [name]
 
+    line = re.sub(r'col:[a-z]+', '', line)
+    line = line.replace('generate_awake', '')
+
     # extract base (original) name
     m = re.search(r'[a-z][a-z \-]+[a-z](?=\s)', line)
     if not m:
@@ -1424,7 +1427,7 @@ def extract_strings_from_des_rebadge_line(line):
     string = ""
     is_adjective = False
     if 'name_adjective' in line or 'n_adj' in line:
-        if override in ["phase", "dire", "giga", "sulfuric", "bog"]:
+        if base_name not in ['human', 'elf', 'orc'] and override not in ['sickly', 'skinned']:
             # generate the full name
             string = override + " " + base_name
         else:
