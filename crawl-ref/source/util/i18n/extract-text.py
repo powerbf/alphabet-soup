@@ -186,13 +186,13 @@ def dump_lines(filename, lines):
 ################################
 
 def has_article_the(string):
-    return string.startswith("the ")
+    return re.match("^the ", string, flags=re.IGNORECASE)
 
 def has_article_a(string):
-    return string.startswith("a ") or string.startswith("an ")
+    return re.match("^(a|an) ", string, flags=re.IGNORECASE)
 
 def remove_article(string):
-    return re.sub("^(a|an|the) ", "", string)
+    return re.sub("^(a|an|the) ", "", string, flags=re.IGNORECASE)
 
 def article_a(string):
     string = remove_article(string)
@@ -338,7 +338,7 @@ def ignore_string(string):
     if re.match(r'^gl[A-Z]', string):
         return True
 
-    # ignore variable names
+    # ignore variable names like @foo@
     if re.match(r'^\s*@[A-Za-z0-9_]+@?\s*$', string):
         return True
 
@@ -380,7 +380,7 @@ def ignore_string(string):
 IGNORE_SECTIONS = {
     'abyss.cc':         ['_abyss_grid'],        # dungeon generation
     'acquire.cc':       [
-        '_hyphenated_letters',                  # hyphenate aquirement option lettters
+        '_hyphenated_letters',                  # hyphenate aquirement option letters
         '_why_reject'                           # debug messages
     ],
     'arena.cc':         ['arena_tee'],          # arena dumpfile stuff
