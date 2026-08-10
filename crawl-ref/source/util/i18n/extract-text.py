@@ -1408,14 +1408,26 @@ def extract_strings_from_des_rebadge_line(line):
 
         return [name]
 
-    line = re.sub(r'col:[a-z]+', '', line)
-    line = line.replace('generate_awake', '')
+    if 'name:' not in line:
+        return []
+
+    # clean up the line
+    line = re.sub(r'.*= *', '', line)
+    line = re.sub(r'K?MONS: *', '', line)
+    line = re.sub(r'spells:[^ ]+', '', line)
+    line = re.sub(r';.*', '', line)
+    line = re.sub(r'[\(\)\{\}\.]', ' ', line)
+    line = re.sub('  +', ' ', line).strip()
+    line = re.sub("^'", '', line)
+    line = re.sub("'$", '', line)
 
     # extract base (original) name
-    m = re.search(r'[a-z][a-z \-]+[a-z](?=\s)', line)
-    if not m:
-        return []
-    base_name = m.group()
+    words = re.findall(r'\b[^ ]+\b', line)
+    base_name = ''
+    for word in words:
+        if re.match(r'^[a-z]*$', word):
+            base_name += ' ' + word
+    base_name = base_name.strip()
 
     # extract override
     m = re.search(r'(?<=\bname:)[^ ]+', line)
@@ -1427,13 +1439,14 @@ def extract_strings_from_des_rebadge_line(line):
     string = ""
     is_adjective = False
     if 'name_adjective' in line or 'n_adj' in line:
-        if base_name not in ['human', 'elf', 'orc'] and override not in ['sickly', 'skinned']:
-            # generate the full name
-            string = override + " " + base_name
-        else:
+        if override in ['sickly', 'monstrous', 'deformed', 'twisted', 'grotesque', 'hideous', 'febrile', 'skinned']:
             # just take the adjective
             string = override + " "
             is_adjective = True
+        else:
+            # generate the full name
+            string = override + " " + base_name
+
     elif 'name_suffix' in line or 'n_suf' in line:
         string = base_name + " " + override
     else:
@@ -1454,7 +1467,11 @@ def extract_strings_from_des_rebadge_line(line):
                 string = string.replace(adj, '')
                 break
 
-    append_monster_permutations(strings, string)
+    is_item = string.endswith('corpse')
+    if is_item:
+        strings.append(article_the(string))
+    else:
+        append_monster_permutations(strings, string)
     return strings
 
 
