@@ -951,15 +951,8 @@ def do_dummy_string_replacements(lines):
             result.append(line)
             continue
 
-        # we don't want to extract the db key used with getSpeakString(), etc.,
-        # but we don't necessarily want to ignore the whole line because
-        # sometimes there are other strings present that we do want to extract
-        m = re.search(r'\bget[a-zA-Z]*String', line)
-        if m and m[0]:
-            line = dummy_function_args(line, m[0])
-
         # all string params to these functions are keys or identifiers
-        m = re.search(r'\bjson_[a-z_]+', line)
+        m = re.search(r'\b(get[a-zA-Z]*String|json_[a-z_]+)\b', line)
         if m and m[0] and m[0] != "json_write_string":
             line = dummy_function_args(line, m[0])
         line = re.sub(r'(?<=json_write_string) *\("(msg|type)", [^\)]+\)', '($1, value)', line)
