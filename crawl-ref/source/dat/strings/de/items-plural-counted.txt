@@ -277,10 +277,10 @@
 {pl}%d graue Zaubertränke
 %%%%
 %d inky potions
-{pl}%d graue Zaubertränke
+{pl}%d tintige Zaubertränke
 %%%%
 %d orange potions
-{pl}%d tintige Zaubertränke
+{pl}%d orange Zaubertränke
 %%%%
 %d pink potions
 {pl}%d rosa Zaubertränke
