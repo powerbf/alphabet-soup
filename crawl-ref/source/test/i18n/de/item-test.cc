@@ -82,7 +82,7 @@ const vector<string> expected = {
 
     "eine Leiche eines Orks (inzwischen skelettiert)",
     "eine Leiche eines Goblins (inzwischen skelettiert)",
-    "die Leiche von Dowan",
+    "die Leiche des Elfen Dowan",
 
     "ein Zauberstab des Grabens (18)",
     "ein Blitzfänger (3/4)",

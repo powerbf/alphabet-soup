@@ -869,7 +869,7 @@ the @monster@ corpse
 {f}die Leiche {gen}@a_monster@
 %%%%
 the @monster@ corpse of @name@
-{f}die Leiche {gen}@name@
+{f}die Leiche {gen}@the_monster@ {nom}@name@
 %%%%
 # can appear in the_hattery minivault
 the skinned spriggan corpse
