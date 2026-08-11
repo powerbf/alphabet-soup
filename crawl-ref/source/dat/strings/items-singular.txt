@@ -916,6 +916,9 @@ the staff of removedness
 the @monster@ corpse
 
 %%%%
+the @monster@ corpse of @name@
+
+%%%%
 # can appear in the_hattery minivault
 the skinned spriggan corpse
 
