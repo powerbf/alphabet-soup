@@ -11,7 +11,6 @@
 #include <map>
 using namespace std;
 
-
 const vector<string> test_items = {
 
     "a scroll labelled BLAHDEY BLAH",
@@ -33,6 +32,7 @@ const vector<string> test_items = {
 
     "an orc corpse (skeletalised by now)",
     "a goblin corpse (skeletalised by now)",
+    "the elf corpse of Dowan",
 
     "a wand of digging (18)",
     "a lightning rod (3/4)",
@@ -82,6 +82,7 @@ const vector<string> expected = {
 
     "eine Leiche eines Orks (inzwischen skelettiert)",
     "eine Leiche eines Goblins (inzwischen skelettiert)",
+    "die Leiche von Dowan",
 
     "ein Zauberstab des Grabens (18)",
     "ein Blitzfänger (3/4)",

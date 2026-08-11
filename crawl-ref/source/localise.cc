@@ -1790,6 +1790,47 @@ static string _localise_derived_monster_name(const string& context, const string
     return result;
 }
 
+static string _localise_named_corpse(const string &value)
+{
+    if (!contains(value, " of "))
+        return "";
+
+    string corpse, monster, name;
+    string pattern = value;
+
+    string determiner, rest;
+    _strip_determiner(value, determiner, rest);
+    determiner = _normalise_determiner(determiner);
+    if (!determiner.empty())
+        determiner += " ";
+
+    // extract monster
+    size_t pos = rest.find(" corpse");
+    if (pos == string::npos)
+        return "";
+    monster = rest.substr(0, pos);
+    pattern = replace_first(pattern, monster, "@monster@");
+
+    // extract name
+    pos = value.find(" of ");
+    if (pos != string::npos)
+    {
+        pos += strlen(" of ");
+        name = value.substr(pos);
+        pattern = replace_first(pattern, name, "@name@");
+    }
+
+    TRACE("pattern=%s", pattern.c_str());
+
+    map<string, string> params;
+    params["name"] = name;
+    params["monster"] = monster;
+    params["a_monster"] = article_a(monster);
+    params["the_monster"] = article_the(monster);
+
+    return localise(pattern, params);
+}
+
 // localise the name of a monster, item, feature, etc.
 static string _localise_name(const string& context, const string& value)
 {
@@ -1837,6 +1878,10 @@ static string _localise_name(const string& context, const string& value)
         return result;
 
     result = _localise_derived_monster_name(context, value);
+    if (!result.empty())
+        return result;
+
+    result = _localise_named_corpse(value);
     if (!result.empty())
         return result;
 

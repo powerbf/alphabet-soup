@@ -868,6 +868,9 @@ the staff of removedness
 the @monster@ corpse
 {f}die Leiche {gen}@a_monster@
 %%%%
+the @monster@ corpse of @name@
+{f}die Leiche {gen}@name@
+%%%%
 # can appear in the_hattery minivault
 the skinned spriggan corpse
 {f}die gehäutete Leiche eines Spriggans
