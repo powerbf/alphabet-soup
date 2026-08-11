@@ -2216,7 +2216,7 @@ def process_cplusplus_file(filename):
                     # string is also used with that substring for monsters that don't have a body
                     strings.append(string.replace("'s body", ""))
 
-    return remove_duplicates(strings)
+    return strings
 
 def add_strings_to_output(filename, strings, output):
 
@@ -2669,8 +2669,9 @@ def post_process_item_name_cc(strings):
                 # there's only one possibility
                 string = 'confusing touch'
         elif section == 'potion_colours':
-            if not string.endswith(' '):
-                string += ' '
+            result.append(article_the(string + " potion"))
+            result.append("%d " + string + " potions")
+            continue
         elif section == 'display_runes':
             if string == "green":
                 # text colour tag

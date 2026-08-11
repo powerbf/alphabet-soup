@@ -806,7 +806,52 @@ the potion of resistance
 the amethyst potion
 
 %%%%
+the black potion
+
+%%%%
+the blue potion
+
+%%%%
+the brown potion
+
+%%%%
+the coppery potion
+
+%%%%
+the cyan potion
+
+%%%%
+the dark potion
+
+%%%%
 the emerald potion
+
+%%%%
+the golden potion
+
+%%%%
+the green potion
+
+%%%%
+the grey potion
+
+%%%%
+the inky potion
+
+%%%%
+the orange potion
+
+%%%%
+the pink potion
+
+%%%%
+the puce potion
+
+%%%%
+the purple potion
+
+%%%%
+the red potion
 
 %%%%
 the ruby potion
@@ -815,11 +860,15 @@ the ruby potion
 the sapphire potion
 
 %%%%
-the golden potion
+the silvery potion
 
 %%%%
+the white potion
 
-# other colours are defined in adjectives.txt
+%%%%
+the yellow potion
+
+%%%%
 
 #################################
 # Magical Staves
