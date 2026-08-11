@@ -545,74 +545,39 @@
 # colours
 ################################
 
-# used for draconians, (very) ugly things, unidentified potions
-# for potions, these are cosmetic, but they are meaningful on monsters
+# used for draconians, ugly things, very ugly things
 
-%%%%
-"blue "
-"blaue "
 %%%%
 "black "
 "schwarze "
 %%%%
-"silvery "
-"silberne "
+"brown "
+"braune "
 %%%%
 "cyan "
 "blaugrüne "
 %%%%
-"purple "
-"purpurrote "
-%%%%
-"orange "
-"orange "
-%%%%
-"inky "
-"tintige "
-%%%%
-"red "
-"rote "
-%%%%
-"yellow "
-"gelbe "
-%%%%
 "green "
 "grüne "
-%%%%
-"brown "
-"braune "
-%%%%
-"white "
-"weiße "
 %%%%
 "grey "
 "graue "
 %%%%
-"pink "
-"rosa "
-%%%%
-"coppery "
-"kupferfarbene "
-%%%%
-"puce "
-"braunrote "
-%%%%
 "pale "
 "blasse "
 %%%%
-"dark "
-"dunkle "
+"purple "
+"purpurrote "
 %%%%
-
-# These are potion colours, but used with other items to mean made of/with that material.
-# Since potions are the only items that use them as colours, we define specific
-# strings with that usage in items-singular.txt and items-plural-counted.txt
-
-#"amethyst "
-#"emerald "
-#"ruby "
-#"sapphire "
-#"golden "
+"red "
+"rote "
+%%%%
+"white "
+"weiße "
+%%%%
+"yellow "
+"gelbe "
+%%%%
 
 ################################
 # potions

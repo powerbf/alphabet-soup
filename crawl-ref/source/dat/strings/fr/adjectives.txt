@@ -543,74 +543,39 @@
 # colours
 ################################
 
-# used for draconians, (very) ugly things, unidentified potions
-# for potions, these are cosmetic, but they are meaningful on monsters
+# used for draconians, ugly things, very ugly things
 
-%%%%
-"{m}blue "
-" bleu"
 %%%%
 "{m}black "
 " noir"
 %%%%
-"{m}silvery "
-" argenté"
+"{m}brown "
+" marron"
 %%%%
 "{m}cyan "
 " cyan"
 %%%%
-"{m}purple "
-" violet"
-%%%%
-"{m}orange "
-" orange"
-%%%%
-"{m}inky "
-" encre"
-%%%%
-"{m}red "
-" rouge"
-%%%%
-"{m}yellow "
-" jaune"
-%%%%
 "{m}green "
 " vert"
-%%%%
-"{m}brown "
-" marron"
-%%%%
-"{m}white "
-" blanc"
 %%%%
 "{m}grey "
 " gris"
 %%%%
-"{m}pink "
-" rose"
-%%%%
-"{m}coppery "
-" cuivré"
-%%%%
-"{m}puce "
-" puce"
-%%%%
 "{m}pale "
 " pale"
 %%%%
-"{m}dark "
-" sombre"
+"{m}purple "
+" violet"
 %%%%
-
-# These are potion colours, but used with other items to mean made of/with that material.
-# Since potions are the only items that use them as colours, we define specific
-# strings with that usage in items-singular.txt and items-plural-counted.txt
-
-#"amethyst "
-#"emerald "
-#"ruby "
-#"sapphire "
-#"golden "
+"{m}red "
+" rouge"
+%%%%
+"{m}white "
+" blanc"
+%%%%
+"{m}yellow "
+" jaune"
+%%%%
 
 ################################
 # potions
