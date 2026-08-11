@@ -807,8 +807,53 @@ the potion of resistance
 the amethyst potion
 {m}der amethystfarbene Zaubertrank
 %%%%
+the black potion
+{m}der schwarze Zaubertrank
+%%%%
+the blue potion
+{m}der blaue Zaubertrank
+%%%%
+the brown potion
+{m}der braune Zaubertrank
+%%%%
+the coppery potion
+{m}der kupferfarbene Zaubertrank
+%%%%
+the cyan potion
+{m}der blaugrüne Zaubertrank
+%%%%
+the dark potion
+{m}der dunkle Zaubertrank
+%%%%
 the emerald potion
 {m}der smaragdgrüne Zaubertrank
+%%%%
+the golden potion
+{m}der goldene Zaubertrank
+%%%%
+the green potion
+{m}der grüne Zaubertrank
+%%%%
+the grey potion
+{m}der graue Zaubertrank
+%%%%
+the inky potion
+{m}der graue Zaubertrank
+%%%%
+the orange potion
+{m}der tintige Zaubertrank
+%%%%
+the pink potion
+{m}der rosa Zaubertrank
+%%%%
+the puce potion
+{m}der braunrote Zaubertrank
+%%%%
+the purple potion
+{m}der purpurrote Zaubertrank
+%%%%
+the red potion
+{m}der rote Zaubertrank
 %%%%
 the ruby potion
 {m}der rubinrote Zaubertrank
@@ -816,11 +861,15 @@ the ruby potion
 the sapphire potion
 {m}der saphirblaue Zaubertrank
 %%%%
-the golden potion
-{m}der goldene Zaubertrank
+the silvery potion
+{m}der silberne Zaubertrank
 %%%%
-
-# other colours are defined in adjectives.txt
+the white potion
+{m}der weiße Zaubertrank
+%%%%
+the yellow potion
+{m}der gelbe Zaubertrank
+%%%%
 
 #################################
 # Magical Staves

@@ -246,8 +246,53 @@
 %d amethyst potions
 {pl}%d amethystfarbene Zaubertränke
 %%%%
+%d black potions
+{pl}%d schwarze Zaubertränke
+%%%%
+%d blue potions
+{pl}%d blaue Zaubertränke
+%%%%
+%d brown potions
+{pl}%d braune Zaubertränke
+%%%%
+%d coppery potions
+{pl}%d kupferfarbene Zaubertränke
+%%%%
+%d cyan potions
+{pl}%d blaugrüne Zaubertränke
+%%%%
+%d dark potions
+{pl}%d dunkle Zaubertränke
+%%%%
 %d emerald potions
 {pl}%d smaragdgrüne Zaubertränke
+%%%%
+%d golden potions
+{pl}%d goldene Zaubertränke
+%%%%
+%d green potions
+{pl}%d grüne Zaubertränke
+%%%%
+%d grey potions
+{pl}%d graue Zaubertränke
+%%%%
+%d inky potions
+{pl}%d graue Zaubertränke
+%%%%
+%d orange potions
+{pl}%d tintige Zaubertränke
+%%%%
+%d pink potions
+{pl}%d rosa Zaubertränke
+%%%%
+%d puce potions
+{pl}%d braunrote Zaubertränke
+%%%%
+%d purple potions
+{pl}%d purpurrote Zaubertränke
+%%%%
+%d red potions
+{pl}%d rote Zaubertränke
 %%%%
 %d ruby potions
 {pl}%d rubinrote Zaubertränke
@@ -255,11 +300,15 @@
 %d sapphire potions
 {pl}%d saphirblaue Zaubertränke
 %%%%
-%d golden potions
-{pl}%d goldene Zaubertränke
+%d silvery potions
+{pl}%d silberne Zaubertränke
 %%%%
-
-# other colours are defined in adjectives.txt
+%d white potions
+{pl}%d weiße Zaubertränke
+%%%%
+%d yellow potions
+{pl}%d gelbe Zaubertränke
+%%%%
 
 #################################
 # Magical Staves
