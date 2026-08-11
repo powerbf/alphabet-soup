@@ -246,8 +246,53 @@
 %d amethyst potions
 {fpl}%d potions améthyste
 %%%%
+%d black potions
+{fpl}%d potions noires
+%%%%
+%d blue potions
+{fpl}%d potions bleues
+%%%%
+%d brown potions
+{fpl}%d potions marron
+%%%%
+%d coppery potions
+{fpl}%d potions cuivrées
+%%%%
+%d cyan potions
+{fpl}%d potions cyan
+%%%%
+%d dark potions
+{fpl}%d potions sombres
+%%%%
 %d emerald potions
 {fpl}%d potions émeraude
+%%%%
+%d golden potions
+{fpl}%d potions dorées
+%%%%
+%d green potions
+{fpl}%d potions vertes
+%%%%
+%d grey potions
+{fpl}%d potions grises
+%%%%
+%d inky potions
+{fpl}%d potions encre
+%%%%
+%d orange potions
+{fpl}%d potions orange
+%%%%
+%d pink potions
+{fpl}%d potions rose
+%%%%
+%d puce potions
+{fpl}%d potions puce
+%%%%
+%d purple potions
+{fpl}%d potions violettes
+%%%%
+%d red potions
+{fpl}%d potions rouges
 %%%%
 %d ruby potions
 {fpl}%d potions rubis
@@ -255,11 +300,15 @@
 %d sapphire potions
 {fpl}%d potions saphir
 %%%%
-%d golden potions
-{fpl}%d potions dorées
+%d silvery potions
+{fpl}%d potions argentées
 %%%%
-
-# other colours are defined in adjectives.txt
+%d white potions
+{fpl}%d potions blanches
+%%%%
+%d yellow potions
+{fpl}%d potions jaunes
+%%%%
 
 #################################
 # Magical Staves
