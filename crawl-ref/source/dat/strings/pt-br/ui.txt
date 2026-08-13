@@ -640,6 +640,41 @@ Ouro:
 %%%%
 
 ###############################################################
+# Webtiles HUD - send with padding
+###############################################################
+%%%%
+Health:
+Saúde:
+%%%%
+HP:
+PV:
+%%%%
+Magic:
+Magia:
+%%%%
+MP:
+PM:
+%%%%
+XL:
+NX:
+%%%%
+Next:
+Próx:
+%%%%
+Noise:
+Som:
+%%%%
+Equip:
+Equip:
+%%%%
+Eq:
+Eq:
+%%%%
+Place:
+Lugar:
+%%%%
+
+###############################################################
 # Character overview screen. Contrived example:
 #
 # Kitty the Vexing (Felid Enchanter)                     Turns: 0, Time: 00:00:02
