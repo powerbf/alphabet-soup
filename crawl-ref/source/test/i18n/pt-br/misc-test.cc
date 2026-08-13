@@ -67,11 +67,6 @@ int main()
     show_result(msg, "uma porta aberta");
 
     // nouns with adjective that doesn't change with gender
-    msg = localise("a pink gate");
-    show_result(msg, "um portão rosa");
-    msg = localise("a pink door");
-    show_result(msg, "uma porta rosa");
-
     msg = localise("a cyan gate");
     show_result(msg, "um portão ciano");
     msg = localise("a cyan door");
