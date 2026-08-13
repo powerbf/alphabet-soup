@@ -684,9 +684,11 @@ static void _print_stats_noise(int x, int y)
         CGOTOXY(x + bar_position, y, GOTO_STAT);
         textcolour(LIGHTMAGENTA);
 
-        // This needs to be one extra wide in case silence happens
-        // immediately after super-loud (magenta) noise
-        CPRINTF(localise("Silenced  ").c_str());
+        // Erase the noise bar
+        CPRINTF("          ");
+        CGOTOXY(x + bar_position, y, GOTO_STAT);
+
+        CPRINTF(localise("Silenced").c_str());
         Noise_Bar.reset(); // so it doesn't display a change bar after silence ends
     }
     else

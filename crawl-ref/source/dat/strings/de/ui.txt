@@ -594,10 +594,10 @@ Komm:
 "Noise: "
 "Lärm: "
 %%%%
-# If silenced, this shows instead of noise bar (must be 10 chars)
+# If silenced, this shows instead of noise bar (must be 10 chars or less)
 %%%%
-"Silenced  "
-"Stille    "
+Silenced
+Stille
 %%%%
 # There is an option to show equipment instead of noise
 # equipment = Ausrüstung

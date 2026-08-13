@@ -597,10 +597,10 @@ ES:
 "Noise: "
 "Som: "
 %%%%
-# If silenced, this shows instead of noise bar (must be 10 chars)
+# If silenced, this shows instead of noise bar (must be 10 chars or less)
 %%%%
-"Silenced  "
-"Silenciado"
+Silenced
+Silenciado
 %%%%
 # There is an option to show equipment instead of noise
 %%%%
