@@ -960,10 +960,6 @@ void TilesFramework::_send_player(bool force_full)
     else if (!you_worship(GOD_NO_GOD))
         god = god_name(you.religion);
     _update_string(force_full, c.god, god, "god");
-    string species_of_god = localise(species::name(you.species));
-    if (god != "")
-        species_of_god += localise(" of %s", god);
-    _update_string(force_full, c.god, species_of_god, "species_of_god");
     _update_int(force_full, c.under_penance, (bool) player_under_penance(), "penance");
     uint8_t prank = 0;
     if (!you_worship(GOD_NO_GOD))
@@ -974,6 +970,12 @@ void TilesFramework::_send_player(bool force_full)
         prank = 2;
     }
     _update_int(force_full, c.piety_rank, prank, "piety_rank");
+
+    // Species/god line (e.g. "Minotaur of Trog")
+    string species_god = species::name(you.species);
+    if (!you_worship(GOD_NO_GOD))
+        species_god += " of " + god;
+    _update_string(force_full, c.species_god, localise(species_god), "species_god");
 
     _update_int(force_full, c.form, (uint8_t) you.form, "form");
 

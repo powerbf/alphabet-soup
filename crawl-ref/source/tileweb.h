@@ -49,6 +49,9 @@ struct player_info
     bool under_penance;
     uint8_t piety_rank;
 
+    // species god line (e.g. "Minotaur of Trog")
+    string species_god;
+
     uint8_t form;
 
     int hp, hp_max, real_hp_max, poison_survival;

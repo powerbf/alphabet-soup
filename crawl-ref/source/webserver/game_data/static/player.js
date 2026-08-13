@@ -329,11 +329,18 @@ function ($, comm, enums, map_knowledge, messages, options, util) {
         if ($("#stats").attr("data-species") != player.species)
             $("#stats").attr("data-species", player.species);
 
-        var species_god = player.species;
-        if (player.god != "")
-            species_god += " of " + player.god;
-        if (player.species_of_god)
-            species_god = player.species_of_god;
+        // i18n: if the game sends the (potentially translated) species+god line, use it
+        // otherwise build it ourselves for backward compatibility
+        var species_god;
+        if (player.species_god)
+            species_god = player.species_god
+        else
+        {
+            species_god = player.species_display_name;
+            if (player.god != "")
+                species_god += " of " + player.god;
+        }
+
         if (player.god == "Xom")
         {
             if (player.piety_rank >=0)
@@ -511,7 +518,7 @@ function ($, comm, enums, map_knowledge, messages, options, util) {
         .on("game_init.player", function () {
             $.extend(player, {
                 name: "", god: "", title: "", species: "",
-                species_of_god: "",
+                species_display_name: "", species_god: "",
                 hp: 0, hp_max: 0, real_hp_max: 0, poison_survival: 0,
                 mp: 0, mp_max: 0, dd_real_mp_max: 0,
                 ac: 0, ev: 0, sh: 0,
