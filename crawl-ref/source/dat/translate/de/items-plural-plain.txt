@@ -176,7 +176,7 @@ blade talismans
 {pl}Klingentalismane
 %%%%
 lupine talismans
-{pl}Lupinentalismane
+{pl}Wolfstalismane
 %%%%
 fortress talismans
 {pl}Festungstalismane
@@ -188,7 +188,7 @@ hive talismans
 {pl}Bienenstocktalismane
 %%%%
 dragon-coil talismans
-{pl}Drachenwindungstalismane
+{pl}Drachentalismane
 %%%%
 riddle talismans
 {pl}Rätseltalismane

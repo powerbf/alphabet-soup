@@ -122,7 +122,7 @@ the trishula
 {m}der Trishula
 %%%%
 the partisan
-{f}die Partisan
+{f}die Partisane
 %%%%
 the glaive
 {f}die Gleve
@@ -979,7 +979,7 @@ the blade talisman
 {m}der Klingentalisman
 %%%%
 the lupine talisman
-{m}der Lupinentalisman
+{m}der Wolfstalisman
 %%%%
 the fortress talisman
 {m}der Festungstalisman
@@ -991,7 +991,7 @@ the hive talisman
 {m}der Bienenstocktalisman
 %%%%
 the dragon-coil talisman
-{m}der Drachenwindungstalisman
+{m}der Drachentalisman
 %%%%
 the riddle talisman
 {m}der Rätseltalisman
