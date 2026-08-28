@@ -28,6 +28,7 @@
 #include "item-status-flag-type.h"
 #include "invent.h"
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "output.h"
 #include "prompt.h"
@@ -606,23 +607,25 @@ private:
 
         desc << "\n";
 
-        const string act = default_action == action::memorise ? "Memorise"
-                           : default_action == action::imbue ? "Imbue" : "Cast";
+        string act = default_action == action::memorise ? "Memorise"
+                     : default_action == action::imbue ? "Imbue" : "Cast";
+        act = localise(act);
         // line 2
         desc << menu_keyhelp_cmd(CMD_MENU_RIGHT) << " ";
         desc << ( current_action == action::cast
-                            ? "<w>Cast</w>|Describe|Hide|Show"
+                            ? localise("<w>Cast</w>|Describe|Hide|Show")
                  : current_action == action::memorise
-                            ? "<w>Memorise</w>|Describe|Hide|Show"
+                            ? localise("<w>Memorise</w>|Describe|Hide|Show")
                  : current_action == action::imbue
-                            ? "<w>Imbue</w>|Describe|Hide|Show"
+                            ? localise("<w>Imbue</w>|Describe|Hide|Show")
                  : current_action == action::describe
-                            ? act + "|<w>Describe</w>|Hide|Show"
+                            ? act + localise("|<w>Describe</w>|Hide|Show")
                  : current_action == action::hide
-                            ? act + "|Describe|<w>Hide</w>|Show"
-                 : act + "|Describe|Hide|<w>Show</w>");
-        desc << "   " << menu_keyhelp_cmd(CMD_MENU_SEARCH) << " search"
-                "   [<w>?</w>] help"; // XX hardcoded for this menu
+                            ? act + localise("|Describe|<w>Hide</w>|Show")
+                 : act + localise("|Describe|Hide|<w>Show</w>"));
+        desc << "   " << localise(menu_keyhelp_cmd(CMD_MENU_SEARCH))
+             << localise(" search") << "   "
+             << localise("[<w>?</w>] help"); // XX hardcoded for this menu
 
         if (search_text.size())
             return pad_more_with(desc.str(), "[<w>Esc</w>] clear"); // esc is hardcoded for this case
