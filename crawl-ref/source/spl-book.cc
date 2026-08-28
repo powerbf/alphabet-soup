@@ -607,25 +607,37 @@ private:
 
         desc << "\n";
 
-        string act = default_action == action::memorise ? "Memorise"
-                     : default_action == action::imbue ? "Imbue" : "Cast";
-        act = localise(act);
+        const string act = default_action == action::memorise ? "Memorise"
+                           : default_action == action::imbue ? "Imbue" : "Cast";
+
+        string first;
+        if (current_action == action::cast)
+            first = "<w>" + localise("Cast") + "</w>";
+        else if (current_action == action::memorise)
+            first = "<w>" + localise("Memorise") + "</w>";
+        else if (current_action == action::imbue)
+            first = "<w>" + localise("Imbue") + "</w>";
+        else
+            first = localise(act);
+
+        string describe = localise("Describe");
+        if (current_action == action::describe)
+            describe = "<w>" + describe + "</w>";
+
+        string hide = localise("Hide");
+        if (current_action == action::hide)
+            hide = "<w>" + hide + "</w>";
+
+        string show = localise("Show");
+        if (current_action == action::unhide)
+            show = "<w>" + show + "</w>";
+
         // line 2
         desc << menu_keyhelp_cmd(CMD_MENU_RIGHT) << " ";
-        desc << ( current_action == action::cast
-                            ? localise("<w>Cast</w>|Describe|Hide|Show")
-                 : current_action == action::memorise
-                            ? localise("<w>Memorise</w>|Describe|Hide|Show")
-                 : current_action == action::imbue
-                            ? localise("<w>Imbue</w>|Describe|Hide|Show")
-                 : current_action == action::describe
-                            ? act + localise("|<w>Describe</w>|Hide|Show")
-                 : current_action == action::hide
-                            ? act + localise("|Describe|<w>Hide</w>|Show")
-                 : act + localise("|Describe|Hide|<w>Show</w>"));
-        desc << "   " << localise(menu_keyhelp_cmd(CMD_MENU_SEARCH))
-             << localise(" search") << "   "
-             << localise("[<w>?</w>] help"); // XX hardcoded for this menu
+        desc << first << "|" << describe << "|" << hide << "|" << show;
+        desc << "   " << menu_keyhelp_cmd(CMD_MENU_SEARCH)
+             << " " << localise("search") << "   "
+             << "[<w>?</w>] " << localise("help"); // XX hardcoded for this menu
 
         if (search_text.size())
             return pad_more_with(desc.str(), "[<w>Esc</w>] clear"); // esc is hardcoded for this case
