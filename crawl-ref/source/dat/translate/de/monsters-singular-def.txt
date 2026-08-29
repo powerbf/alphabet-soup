@@ -1620,7 +1620,7 @@ the demonspawn warmonger
 {m}der Dämonenbrut-Kriegstreiber
 %%%%
 the diamond sawblade
-{f}die Diamantsäge
+{n}das Diamantsägeblatt
 %%%%
 the dormant clockwork bee
 {f}die schlummernde Uhrwerkbiene
@@ -1647,7 +1647,7 @@ the fravashi
 {m}der Fravashi
 %%%%
 the fungal shambler
-{m}der Pilz-Wankender
+{m}der Pilz-Wankende
 %%%%
 the glass eye
 {n}das Glasauge
@@ -1696,7 +1696,7 @@ the jorogumo
 {f}die Jorogumo
 %%%%
 the kobold blastminer
-{m}der Kobold-Sprengbergmann
+{m}der Kobold-Sprengmeister
 %%%%
 the kobold fleshcrafter
 {m}der Kobold-Fleischschmied
@@ -1712,7 +1712,7 @@ the living spell
 %%%%
 # a portmanteau of (bone) marrow and barracuda
 the marrowcuda
-{f}die Markkuda
+{m}der Markuda
 %%%%
 the martyred shade
 {m}der Märtyrerschatten
@@ -1782,7 +1782,7 @@ the pile of flesh
 {m}der Fleischhaufen
 %%%%
 the pillar of rime
-{f}die Rauhreif-Säule
+{f}die Raureif-Säule
 %%%%
 the platinum paragon
 {n}das Platin-Parademodell
