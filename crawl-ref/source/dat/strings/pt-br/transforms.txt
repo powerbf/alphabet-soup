@@ -847,8 +847,6 @@ vapor
 ################################
 %%%%
 # abbreviation for HUD
-Jelly
-Geleia
 # duplicate: Jelly
 %%%%
 # long name
