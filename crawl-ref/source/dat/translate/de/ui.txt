@@ -1634,7 +1634,7 @@ Your spells (adjust)
 Deine Zaubersprüche (anpassen)
 %%%%
 Your spells (adjust it to)
-Zauber (an welchen Buchstabe?)
+Zauber (auf welchen Buchstaben?)
 %%%%
 
 # other column headings
@@ -1707,7 +1707,7 @@ Zeigen
 %%%%
 # imbue servitor?
 Imbue
-Durchtränken
+Erfüllen
 %%%%
 search
 Suche
