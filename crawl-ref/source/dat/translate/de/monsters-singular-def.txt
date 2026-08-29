@@ -1515,7 +1515,7 @@ the abyssal acolyte
 %%%%
 # a walking alder tree and also a reference to Goethe's Erlking (Erlkönig)
 the alderking
-{m}der Erlenkönig
+{m}der Erlkönig
 %%%%
 the antique champion
 {m}der uralte Champion
@@ -1527,7 +1527,7 @@ the armour echo
 {n}das Rüstungsecho
 %%%%
 the aspiring flesh
-{n}das strebende Fleisch
+{n}das aufstrebende Fleisch
 %%%%
 the bes kemwar
 {m}der Bes Kemwar
@@ -1542,7 +1542,7 @@ the bombardier beetle
 {m}der Bombardierkäfer
 %%%%
 the bomblet
-{f}die Bomblet
+{n}das Bomblet
 %%%%
 the boulder
 {m}der Rollstein
@@ -1572,7 +1572,7 @@ the caustic sporangium
 {n}das ätzende Sporangium
 %%%%
 the cerulean imp
-{m}der himmelblaue Teufelchen
+{n}das himmelblaue Teufelchen
 %%%%
 the chonchon
 {m}der Chonchon
@@ -1605,7 +1605,7 @@ the crystal echidna
 {n}das Kristall-Echidna
 %%%%
 the culicivora
-{m}der Culicivora
+{f}die Culicivora
 %%%%
 the demonspawn blood saint
 {m}der Dämonenbrut-Blutheilige
@@ -1785,7 +1785,7 @@ the pillar of rime
 {f}die Rauhreif-Säule
 %%%%
 the platinum paragon
-{n}das Platin-Tugenbold
+{n}das Platin-Parademodell
 %%%%
 the poltergeist
 {m}der Poltergeist
@@ -1800,7 +1800,7 @@ the putrid mouth
 {m}der faulige Mund
 %%%%
 the quicksilver elemental
-{n}das Quecksilber-Elementar
+{m}der Quecksilber-Elementar
 %%%%
 the radroach
 {f}die Strahlungskakerlake
@@ -1833,7 +1833,7 @@ the scrapshell chimera
 {f}die Schrottenhüllen-Chimäre
 %%%%
 the screaming refraction
-{f}die schreiende Lichtablenkung
+{f}die schreiende Refraktion
 %%%%
 the scrub nettle
 {f}die Buschbrennnessel
@@ -1876,10 +1876,10 @@ the skyshark
 %%%%
 # a kind of mushroom
 the sleepcap
-{m}der Schlafpilz
+{f}die Schlafkappe
 %%%%
 the slymdra
-{f}die Slymdra
+{f}die Schleimdra
 %%%%
 the solar ember
 {f}die Sonnenglut
