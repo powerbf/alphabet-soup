@@ -889,8 +889,7 @@ sporulate
 esporula
 %%%%
 # shout-equivalent as noun
-# should be "a sporulation", but code just puts indefinite article in front of 
-verb
+# should be "a sporulation", but code just puts indefinite article in front of verb
 a sporulate
 um esporulação
 %%%%
