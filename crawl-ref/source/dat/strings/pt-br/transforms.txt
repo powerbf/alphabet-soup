@@ -1,0 +1,1055 @@
+###############################################################################
+#
+# Translations for transformations
+#
+###############################################################################
+
+################################
+# Untransformed
+################################
+
+# shout-equivalent (finite verb, as in "You @shout@.")
+
+# standard
+%%%%
+shout
+grita
+%%%%
+yell
+brada
+%%%%
+scream
+berra
+%%%%
+
+# felid
+%%%%
+meow
+miar
+%%%%
+yowl
+dá um ganido
+%%%%
+caterwaul
+faz um escarcéu
+%%%%
+hiss
+sibila
+%%%%
+
+# gnoll (doglike)
+%%%%
+bark
+late
+%%%%
+# context needed to avoid collision with howl status
+{verb-du}howl
+uiva
+%%%%
+screech
+chia
+%%%%
+growl
+rosna
+%%%%
+
+# barachi (froglike)
+%%%%
+croak
+coaxa
+%%%%
+ribbit
+coaxa
+%%%%
+bellow
+brada
+%%%%
+
+# shout-equivalent as noun with indefinite article
+
+# standard
+%%%%
+a shout
+um grito
+%%%%
+a yell
+um brado
+%%%%
+a scream
+um berro
+%%%%
+
+# felid
+%%%%
+a meow
+um miau
+%%%%
+a yowl
+um miau
+%%%%
+a caterwaul
+um miado
+%%%%
+a hiss
+um sibilo
+%%%%
+
+# gnoll (doglike)
+%%%%
+a bark
+um latido
+%%%%
+a howl
+um uivo
+%%%%
+a screech
+um chiado
+%%%%
+a growl
+um rosnado
+%%%%
+
+# barachi (froglike)
+%%%%
+a croak
+um coaxar
+%%%%
+a ribbit
+um coaxar
+%%%%
+a bellow
+um bramido
+%%%%
+
+
+# hand
+%%%%
+hand
+mão
+%%%%
+hands
+mãos
+%%%%
+your hand
+sua mão
+%%%%
+your hands
+suas mãos
+%%%%
+your weapon hand
+sua mão de arma
+%%%%
+your shield hand
+sua mão de escudo
+%%%%
+
+# claw (troll/ghoul)
+%%%%
+claw
+garra
+%%%%
+claws
+garras
+%%%%
+your claw
+sua garra
+%%%%
+your claws
+suas garras
+%%%%
+your weapon claw
+sua garra de arma
+%%%%
+your shield claw
+sua garra de escudo
+%%%%
+
+# paw (felid)
+%%%%
+paw
+pata
+%%%%
+paws
+patas
+%%%%
+your paw
+sua pata
+%%%%
+your paws
+suas patas
+%%%%
+
+# tentacle (octopode)
+%%%%
+# duplicate: also a monster
+#tentacle
+#
+%%%%
+tentacles
+tentáculos
+%%%%
+main tentacles
+tentáculos principais
+%%%%
+# duplicate: also a monster
+#your tentacle
+#
+%%%%
+your tentacles
+seus tentáculos
+%%%%
+your weapon tentacle
+seu tentáculo de arma
+%%%%
+your shield tentacle
+seu tentáculo de escudo
+%%%%
+
+# skin
+%%%%
+scales
+escamas
+%%%%
+feathers
+penas
+%%%%
+fur
+pelagem
+%%%%
+bandages
+bandagens
+%%%%
+skin
+pele
+%%%%
+
+# your skin
+%%%%
+your scales
+suas escamas
+%%%%
+your feathers
+suas penas
+%%%%
+your fur
+sua pelagem
+%%%%
+your bandages
+suas bandagens
+%%%%
+your skin
+sua pele
+%%%%
+
+################################
+# Spider-form
+################################
+%%%%
+# abbreviation for HUD
+# duplicate (also abbreviation for Spider Nest branch)
+#Spider
+#
+%%%%
+# long name
+spider-form
+forma de aranha
+%%%%
+# wizmode name
+# duplicate: spider
+%%%%
+# description
+a venomous arachnid creature
+uma criatura aracnídea venenosa
+%%%%
+# unarmed attack
+Fangs
+Presas
+%%%%
+# shout-equivalent
+# same as felid
+#hiss
+#fauchst
+%%%%
+# shout-equivalent as noun
+#a hiss
+#{n}ein Fauchen
+%%%%
+# hand-equivalent
+front leg
+perna dianteira
+%%%%
+front legs
+pernas dianteiras
+%%%%
+your front leg
+sua perna dianteira
+%%%%
+your front legs
+suas pernas dianteiras
+%%%%
+your weapon front leg
+sua perna dianteira de arma
+%%%%
+your shield front leg
+sua perna dianteira de escudo
+%%%%
+# flesh type
+flesh
+carne
+%%%%
+
+################################
+# Blade hands
+################################
+%%%%
+# abbreviation for HUD
+Blade
+Lâmina
+%%%%
+# long name (default)
+blade hands
+mãos-lâmina
+%%%%
+# long name (missing hand)
+blade hand
+mão-lâmina
+%%%%
+# long name (felid)
+blade paws
+patas-lâmina
+%%%%
+# long name (felid, missing hand)
+blade paw
+pata-lâmina
+%%%%
+# long name (octopode)
+blade tentacles
+tentáculos-lâmina
+%%%%
+# long name (octopode, missing hand)
+blade tentacle
+tentáculo-lâmina
+%%%%
+# wizmode name
+blade
+lâmina
+%%%%
+# hand-equivalent
+scythe-like blade
+lâmina em forma de foice
+%%%%
+scythe-like blades
+lâminas em forma de foice
+%%%%
+your scythe-like blade
+sua lâmina em forma de foice
+%%%%
+your scythe-like blades
+suas lâminas em forma de foice
+%%%%
+your weapon scythe-like blade
+sua lâmina em forma de foice de arma
+%%%%
+your shield scythe-like blade
+seu escudo em forma de foice
+%%%%
+
+################################
+# Statue-form
+################################
+%%%%
+# abbreviation for HUD
+Statue
+Estátua
+%%%%
+# long name
+statue-form
+forma de estátua
+%%%%
+# wizmode name
+# duplicate: statue
+%%%%
+# description (@ command)
+a stone statue
+uma estátua de pedra
+%%%%
+# description (transformation message)
+a living statue of rough stone
+uma estátua viva de pedra bruta
+%%%%
+# flesh type
+stone
+pedra
+%%%%
+
+# unarmed attack
+%%%%
+# humanoid
+Stone fists
+Punhos de pedra
+%%%%
+# troll
+Stone claws
+Garras de pedra
+%%%%
+# felid
+Stone paws
+Patas de pedra
+%%%%
+# octopode
+Stone tentacles
+Tentáculos de pedra
+%%%%
+
+# unarmed attack (missing hand)
+%%%%
+Stone fist
+Punho de pedra
+%%%%
+Stone claw
+Garra de pedra
+%%%%
+Stone paw
+Pata de pedra
+%%%%
+Stone tentacle
+Tentáculo de pedra
+%%%%
+
+################################
+# Ice-form
+################################
+%%%%
+# abbreviation for HUD
+# duplicate: Ice
+%%%%
+# long name
+ice-form
+forma de gelo
+%%%%
+# wizmode name
+# duplicate: ice
+%%%%
+# description
+a creature of crystalline ice
+uma criatura de gelo cristalino
+%%%%
+# unarmed attack
+Ice paws
+Patas de gelo
+%%%%
+# unarmed attack (missing hand)
+Ice paw
+Pata de gelo
+%%%%
+# hand-equivalent
+front paw
+pata dianteira
+%%%%
+front paws
+patas dianteiras
+%%%%
+your front paw
+sua pata dianteira
+%%%%
+your front paws
+suas patas dianteiras
+%%%%
+your weapon front paw
+sua pata dianteira de arma
+%%%%
+your shield front paw
+sua pata dianteira de escudo
+%%%%
+# foot equivalent
+# duplicate: felids also have paws
+#paw
+#
+%%%%
+
+################################
+# Dragon-form
+################################
+%%%%
+# abbreviation for HUD
+Dragon
+Dragão
+%%%%
+# long name
+dragon-form
+forma de dragão
+%%%%
+# wizmode name
+# duplicate: dragon
+%%%%
+# description
+a fearsome dragon
+um dragão temível
+%%%%
+# unarmed attack
+Teeth and claws
+Dentes e garras
+%%%%
+# shout-equivalent
+roar
+rugido
+%%%%
+# shout-equivalent as noun
+a roar
+um rugido
+%%%%
+# hand-equivalent
+foreclaw
+garra dianteira
+%%%%
+foreclaws
+garras dianteiras
+%%%%
+your foreclaw
+sua garra dianteira
+%%%%
+your foreclaws
+suas garras dianteiras
+%%%%
+your weapon foreclaw
+sua garra dianteira de arma
+%%%%
+your shield foreclaw
+sua garra dianteira de escudo
+%%%%
+
+# draconians transform into specific types of dragon based on their colour
+%%%%
+a fearsome fire dragon
+um dragão de fogo temível
+%%%%
+a fearsome ice dragon
+um dragão de gelo temível
+%%%%
+a fearsome swamp dragon
+um dragão de pântano temível
+%%%%
+a fearsome golden dragon
+um dragão dourado temível
+%%%%
+a fearsome iron dragon
+um dragão de ferro temível
+%%%%
+a fearsome storm dragon
+um dragão de tempestade temível
+%%%%
+a fearsome quicksilver dragon
+um dragão de mercúrio temível
+%%%%
+a fearsome steam dragon
+um dragão de vapor temível
+%%%%
+
+################################
+# Lich-form
+################################
+%%%%
+# abbreviation for HUD
+Lich
+Lich
+%%%%
+# long name
+lich-form
+forma de lich
+%%%%
+# wizmode name
+# duplicate: lich
+%%%%
+# description
+an undead lich
+um lich morto-vivo
+%%%%
+# flesh type
+# duplicate: bone
+%%%%
+
+################################
+# Bat-form
+################################
+%%%%
+# abbreviation for HUD
+Bat
+Morcego
+%%%%
+# long name
+bat-form
+forma de morcego
+%%%%
+# long name (vampire)
+vampire-bat-form
+forma de morcego vampiro
+%%%%
+# wizmode name
+# duplicate: bat
+%%%%
+# description
+# duplicate of monster name
+#a bat
+#
+%%%%
+# description (vampire)
+# duplicate of monster name
+#a vampire bat
+#
+%%%%
+# unarmed attack
+Teeth
+Dentes
+%%%%
+# shout-equivalent
+squeak
+dá um pio
+%%%%
+# shout-equivalent as noun
+a squeak
+um pio
+%%%%
+
+################################
+# Pig-form
+################################
+%%%%
+# abbreviation for HUD
+Pig
+Porco
+%%%%
+# long name
+pig-form
+forma de porco
+%%%%
+# wizmode name
+pig
+porco
+%%%%
+# description
+a filthy swine
+um porco imundo
+%%%%
+# shout-equivalent
+squeal
+guincha
+%%%%
+# shout-equivalent as noun
+a squeal
+um guinchado
+%%%%
+# hand-equivalent
+front trotter
+casco dianteiro
+%%%%
+front trotters
+cascos dianteiros
+%%%%
+your front trotter
+seu casco dianteiro
+%%%%
+your front trotters
+seus cascos dianteiros
+%%%%
+your weapon front trotter
+seu casco dianteiro de arma
+%%%%
+your shield front trotter
+seu casco dianteiro de escudo
+%%%%
+# foot-equivalent
+trotter
+casco
+%%%%
+
+################################
+# Beastly Appendage
+################################
+%%%%
+# abbreviation for HUD
+App
+Apênd
+%%%%
+# long name / wizmode name
+appendages
+apêndices
+%%%%
+
+# untransform messages
+%%%%
+Your horns disappear.
+Seus chifres desaparecem.
+%%%%
+Your talons disappear.
+Suas garras desaparecem.
+%%%%
+# this one is for octopode only
+Your tentacle spike disappears.
+Seu espinho de tentáculo desaparece.
+%%%%
+
+# untransform messages (when player keeps appendage due to mutation)
+%%%%
+Your horns shrink.
+Seus chifres encolhem.
+%%%%
+Your talons shrink.
+Suas garras encolhem.
+%%%%
+# this one is for octopode only
+Your tentacle spike shrinks.
+Seu espinho de tentáculo encolhe.
+%%%%
+
+################################
+# Tree-form
+################################
+%%%%
+Tree
+Árvore
+%%%%
+tree-form
+forma de árvore
+%%%%
+# wizmode name
+# duplicate: tree
+%%%%
+# description
+# duplicate (also a dungeon feature)
+#a tree
+#
+%%%%
+# unarmed attack
+Branches
+Galhos
+%%%%
+# shout-equivalent
+creak
+range
+%%%%
+# shout-equivalent as noun
+a creak
+um rangido
+%%%%
+# hand-equivalent
+branch
+galho
+%%%%
+branches
+galhos
+%%%%
+your branch
+seu galho
+%%%%
+your branches
+seus galhos
+%%%%
+your weapon branch
+sua arma de galho
+%%%%
+your shield branch
+seu escudo de galho
+%%%%
+# foot-equivalent
+root
+raiz
+%%%%
+# flesh type
+wood
+madeira
+%%%%
+
+################################
+# Porcupine-form
+################################
+%%%%
+# abbreviation for HUD
+Porc
+PorcEsp
+%%%%
+# long name
+porcupine-form
+forma de porco-espinho
+%%%%
+# wizmode name
+# duplicate of monster name
+#porcupine
+#
+%%%%
+# description
+a spiny porcupine
+um porco-espinho pontiagudo
+%%%%
+
+################################
+# Wisp-form
+################################
+%%%%
+# abbreviation for HUD
+Wisp
+Vaga-lume
+%%%%
+# long name
+wisp-form
+forma de vaga-lume
+%%%%
+# wizmode name
+wisp
+vaga-lume
+%%%%
+# description
+# duplicate of monster
+#an insubstantial wisp
+#
+%%%%
+# unarmed attack
+Misty tendrils
+Tentáculos de névoa
+%%%%
+# shout
+whoosh
+whoosh
+%%%%
+# shout-equivalent as noun
+a whoosh
+um whoosh
+%%%%
+# hand
+misty tendril
+tentáculo de névoa
+%%%%
+misty tendrils
+tentáculos de névoa
+%%%%
+your misty tendril
+seu tentáculo de névoa
+%%%%
+your misty tendrils
+seus tentáculos de névoa
+%%%%
+your weapon misty tendril
+sua arma de tentáculo de névoa
+%%%%
+your shield misty tendril
+seu escudo de tentáculo de névoa
+%%%%
+# foot
+strand
+fio
+%%%%
+# flesh
+vapour
+vapor
+%%%%
+
+################################
+# Jelly-form
+################################
+%%%%
+# abbreviation for HUD
+Jelly
+Geleia
+# duplicate: Jelly
+%%%%
+# long name
+jelly-form
+forma de geleia
+%%%%
+# wizmode name
+# duplicate: jelly
+%%%%
+# description
+a lump of jelly
+um monte de geleia
+%%%%
+
+################################
+# Fungus-form
+################################
+%%%%
+# abbreviation for HUD
+Fungus
+Fungo
+%%%%
+# long name
+fungus-form
+forma de fungo
+%%%%
+# wizmode name
+# duplicate: fungus
+%%%%
+# description
+a sentient fungus
+um fungo senciente
+%%%%
+# unarmed attack
+Spores
+Esporos
+%%%%
+# shout
+sporulate
+esporula
+%%%%
+# shout-equivalent as noun
+# should be "a sporulation", but code just puts indefinite article in front of 
+verb
+a sporulate
+um esporulação
+%%%%
+# hand
+hypha
+hifa
+%%%%
+hyphae
+hifas
+%%%%
+your hypha
+sua hifa
+%%%%
+your hyphae
+suas hifas
+%%%%
+your weapon hypha
+sua hifa de arma
+%%%%
+your shield hypha
+sua hifa de escudo
+%%%%
+
+################################
+# Shadow-form
+################################
+%%%%
+# abbreviation for HUD
+Shadow
+Sombra
+%%%%
+# long name
+shadow-form
+forma de sombra
+%%%%
+# wizmode name
+# duplicate: shadow
+%%%%
+# description
+a swirling mass of dark shadows
+uma massa turbilhonante de sombras escuras
+%%%%
+
+################################
+# Hydra-form
+################################
+%%%%
+# abbreviation for HUD
+Hydra
+Hidra
+%%%%
+# long name
+hydra-form
+forma de hidra
+%%%%
+# wizmode name
+# duplicate: hydra
+%%%%
+# unarmed attack
+Bite (x%d)
+Mordida (x%d)
+%%%%
+
+################################
+# Storm-form
+################################
+%%%%
+# abbreviation for HUD
+Storm
+Tempestade
+%%%%
+# abbreviation for wiz mode
+storm
+tempestade
+%%%%
+storm-form
+forma de tempestade
+%%%%
+a lightning-filled tempest
+uma tempestade cheia de raios
+%%%%
+Storm fists
+Punhos de tempestade
+%%%%
+# shout-equivalent
+# duplicate of barachi
+#bellow
+#
+%%%%
+
+################################
+# Untransform
+################################
+%%%%
+# description
+your old self
+seu eu antigo
+%%%%
+
+################################
+# Pray actions
+################################
+
+%%%%
+# default for most species
+You kneel at the altar of %s.
+Você se ajoelha no altar de %s.
+%%%%
+# default for felid
+You sit before the altar of %s.
+Você se senta diante do altar de %s.
+%%%%
+# default for octopode
+You curl up in front of the altar of %s.
+Você se enrola em frente ao altar de %s.
+%%%%
+# default for naga (snakelike)
+You coil in front of the altar of %s.
+Você se enrosca em frente ao altar de %s.
+%%%%
+# flying
+You hover solemnly before the altar of %s.
+Você paira solenemente diante do altar de %s.
+%%%%
+# porcupine form
+You curl into a sanctuary of spikes before the altar of %s.
+Você se enrola em um santuário de espinhos diante do altar de %s.
+%%%%
+# spider form
+You crawl onto the altar of %s.
+Você rasteja até o altar de %s.
+%%%%
+# tree form
+You sway towards the altar of %s.
+Você se inclina em direção ao altar de %s.
+%%%%
+# bat form
+You perch on the altar of %s.
+Você pousa no altar de %s.
+%%%%
+# ice/pig/dragon form
+You bow your head before the altar of %s.
+Você abaixa a cabeça diante do altar de %s.
+%%%%
+# hydra form
+You bow your heads before the altar of %s.
+Você abaixa suas cabeças diante do altar de %s.
+%%%%
+# statue/storm form
+You place yourself before the altar of %s.
+Você se coloca diante do altar de %s.
+%%%%
+# fungus form
+You release spores on the altar of %s.
+Você libera esporos no altar de %s.
+%%%%
+# wisp form
+You swirl around the altar of %s.
+Você gira ao redor do altar de %s.
+%%%%
