@@ -168,9 +168,6 @@ rN---
 rPois
 
 %%%%
-rPois∞
-
-%%%%
 # corrosion
 rCorr
 
@@ -376,10 +373,6 @@ acid
 %%%%
 # accuracy
 Acc
-
-%%%%
-# infinite accuracy
-Acc+∞
 
 %%%%
 # dragon/draconian slaying (Wyrmbane)

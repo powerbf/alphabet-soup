@@ -168,9 +168,6 @@ rN---
 rPois
 rGift
 %%%%
-rPois∞
-rGift∞
-%%%%
 # corrosion
 rCorr
 rKorr
@@ -377,10 +374,6 @@ Säure
 # accuracy
 Acc
 Treffs
-%%%%
-# infinite accuracy
-Acc+∞
-Treffs+∞
 %%%%
 # dragon/draconian slaying (Wyrmbane)
 slay drac
