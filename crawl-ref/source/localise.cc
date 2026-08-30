@@ -173,7 +173,7 @@ void init_localisation()
     static const text_pattern float_arg_patt("@float[^@]*@", true);
     static const text_pattern punct_arg_patt("@punct[^@]*@", true);
     static const text_pattern glyph_arg_patt("@glyph[^@]*@", true);
-    static const text_pattern adj_arg_patt("@[adj^@]+@");
+    static const text_pattern adj_arg_patt("@adj[^@]*@");
     static const text_pattern str_arg_patt("@[^@]+@");
     static const text_pattern a_an_patt("^an? ");
     for (const string& key: keys)
@@ -221,7 +221,7 @@ void init_localisation()
             // this doesn't work with posix regex
             //pattern = replace_all(pattern, "(.*) of ", "([^:\\]]+) of ");
             pattern = replace_all(pattern, "(.*) of ", "([A-Za-z0-9' +-]+) of ");
-            pattern = replace_all(pattern, "of (.*)", "of ([^(){}]+)");
+            pattern = replace_all(pattern, "of (.*)$", "of ([^(){}]+)$");
         }
         // named artefact (e.g. "Mule")
         pattern = replace_all(pattern, "(.*) \"(.*)\"", "([A-Za-z0-9' +-]+) \"([^\"]+)\"");
