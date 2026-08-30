@@ -115,9 +115,9 @@ TEST_CASE( "Localise German", "[single-file]" )
         CHECK( localise("the merfolk zombie") == "der Zombie eines Meerwesens" );
         CHECK( localise("an orc skeleton") == "ein Skelett eines Orks" );
         CHECK( localise("a red draconian simulacrum") == "ein Simulacrum eines roten Drakoniers" );
-        /*CHECK( localise("a neutral orc skeleton") == "ein neutrales Skelett eines Orks" );
+        CHECK( localise("a neutral orc skeleton") == "ein neutrales Skelett eines Orks" );
         CHECK( localise("a non-hostile red draconian simulacrum") ==
-                        "ein nicht feindliches Simulacrum eines roten Drakoniers" );*/
+                        "ein nicht feindliches Simulacrum eines roten Drakoniers" );
     }
 
     SECTION("Items")
