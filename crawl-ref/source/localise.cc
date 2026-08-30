@@ -223,6 +223,8 @@ void init_localisation()
             pattern = replace_all(pattern, "(.*) of ", "([A-Za-z0-9' +-]+) of ");
             pattern = replace_all(pattern, "of (.*)", "of ([^(){}]+)");
         }
+        // named artefact (e.g. "Mule")
+        pattern = replace_all(pattern, "(.*) \"(.*)\"", "([A-Za-z0-9' +-]+) \"([^\"]+)\"");
 
         _patterns.emplace_back(make_pair(text_pattern(pattern), key));
     }
