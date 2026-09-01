@@ -10,12 +10,16 @@
 
 TEST_CASE( "Localise German", "[single-file]" )
 {
-    setlocale(LC_ALL, "");
-    Options.lang_name = "de";
-    Options.language = lang_t::DE;
-    SysEnv.crawl_dir = ".";
-    databaseSystemInit();
-    init_localisation();
+    SECTION("Initialise")
+    {
+        shutdown_localisation();
+        setlocale(LC_ALL, "");
+        Options.lang_name = "de";
+        Options.language = lang_t::DE;
+        SysEnv.crawl_dir = ".";
+        databaseSystemInit();
+        init_localisation();
+    }
 
     SECTION("Monsters")
     {
@@ -162,31 +166,32 @@ TEST_CASE( "Localise German", "[single-file]" )
     SECTION("UI")
     {
         // inventory section title
-        CHECK( localise("(go to first with <w>(</w><blue>)") ==
-                        "(zum ersten gehen mit <w>(</w><blue>)" );
+        CHECK( localise("Missiles    (go to first with <w>(</w><blue>)") ==
+                        "Geschosse    (zum ersten gehen mit <w>(</w><blue>)" );
         CHECK( localise("(select first with <w>!</w><blue>)") ==
                         "(ersten wählen mit <w>!</w><blue>)" );
+        CHECK( localise("(select all with <w>\"=</w><blue>)") ==
+                        "(alle wählen mit <w>\"=</w><blue>)" );
 
         // spell memorise menu footer
         string english = "[<w>Tab</w>] <w>Memorise</w>|Describe|Hide|Show   [<w>Ctrl-F</w>] search   [<w>?</w>] help";
         string german = "[<w>Tab</w>] <w>Auswendiglernen</w>|Beschreiben|Ausblenden|Zeigen   [<w>Strg-F</w>] Suche   [<w>?</w>] Hilfe";
         CHECK( localise(english) == german );
     }
-
-    shutdown_localisation();
-    databaseSystemShutdown();
-    Options.lang_name = "en";
-    Options.language = lang_t::EN;
 }
 
 TEST_CASE("Localise Russian")
 {
-    setlocale(LC_ALL, "");
-    Options.lang_name = "ru";
-    Options.language = lang_t::RU;
-    SysEnv.crawl_dir = ".";
-    databaseSystemInit();
-    init_localisation();
+    SECTION("Initialise")
+    {
+        shutdown_localisation();
+        setlocale(LC_ALL, "");
+        Options.lang_name = "ru";
+        Options.language = lang_t::RU;
+        SysEnv.crawl_dir = ".";
+        databaseSystemInit();
+        init_localisation();
+    }
 
     // test different plural forms for different numbers
     CHECK( localise("a horse") == "лошадь" );
@@ -194,9 +199,4 @@ TEST_CASE("Localise Russian")
     CHECK( localise("5 horses") == "5 лошадей" );
     CHECK( localise("14 horses") == "14 лошадей" );
     CHECK( localise("24 horses") == "24 лошади" );
-
-    shutdown_localisation();
-    databaseSystemShutdown();
-    Options.lang_name = "en";
-    Options.language = lang_t::EN;
 }

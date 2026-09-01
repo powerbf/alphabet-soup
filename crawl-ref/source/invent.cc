@@ -1016,16 +1016,6 @@ menu_letter InvMenu::load_items(const vector<const item_def*> &mitems,
             select_all = "select first";
     }
 
-    // determine max subtitle width
-    int max_width = 0;
-    for (int obj = 0; obj < NUM_OBJECT_CLASSES; ++obj)
-    {
-        int i = inv_order[obj];
-        string subtitle = localise(item_class_name(i));
-        int width = strwidth(subtitle);
-        max_width = width > max_width ? width : max_width;
-    }
-
     for (int obj = 0; obj < NUM_OBJECT_CLASSES; ++obj)
     {
         int i = inv_order[obj];
@@ -1033,7 +1023,7 @@ menu_letter InvMenu::load_items(const vector<const item_def*> &mitems,
         if (!inv_class[i])
             continue;
 
-        string subtitle = localise(item_class_name(i));
+        string subtitle = item_class_name(i);
 
         if (subkeys)
         {
@@ -1041,12 +1031,12 @@ menu_letter InvMenu::load_items(const vector<const item_def*> &mitems,
             get_class_hotkeys(i, glyphs);
             if (!glyphs.empty())
             {
-                subtitle = chop_string(subtitle, max_width + 1);
-                string suffix = "("+select_all+" with <w>";
+                // i18n: Must localise now otherwise padding will be wrong
+                subtitle = chop_string(localise(subtitle), 20);
+                subtitle += "("+select_all+" with <w>";
                 for (char gly : glyphs)
-                    suffix += gly;
-                suffix += "</w><blue>)";
-                subtitle += localise(suffix);
+                    subtitle += gly;
+                subtitle += "</w><blue>)";
             }
         }
         add_entry(new MenuEntry(subtitle, MEL_SUBTITLE));

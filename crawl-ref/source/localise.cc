@@ -194,9 +194,9 @@ void init_localisation()
         // float is problematic because decimal point may already be changed by user's locale
         //pattern = float_arg_patt.replace(pattern, "([\\+|\\-]?[0-9]*[\\.,][0-9]+)");
         pattern = punct_arg_patt.replace(pattern, "([.!?]+)");
-        pattern = glyph_arg_patt.replace(pattern, "(.)");
+        pattern = glyph_arg_patt.replace(pattern, "(.+)");
         pattern = adj_arg_patt.replace(pattern, "([a-zA-Z0-9 +-]*)");
-        pattern = str_arg_patt.replace(pattern, "([^.!?]*)");
+        pattern = str_arg_patt.replace(pattern, "(.*)");
         // adjectives can change "a" to "an" or vice versa
         pattern = a_an_patt.replace(pattern, "an? ");
         pattern = "^" + pattern + "$";
@@ -589,6 +589,8 @@ static string _localise_parameterised_string(const string& s, bool full_sentence
         return "";
     }
 
+    fixup_greedy_matching(param_keys, param_vals);
+
     map<string, string> params;
     for (size_t i = 0; i < param_keys.size(); i++)
     {
@@ -662,6 +664,10 @@ static string _localise_annotation(const string& s)
         result = _localise_annotation(trimmed);
         return replace_all(s, trimmed, result);
     }
+
+    result = _localise_parameterised_string(s);
+    if (!result.empty())
+        return strip_context(result);
 
     result = _ctx_translate(_context, s);
     if (!result.empty())
