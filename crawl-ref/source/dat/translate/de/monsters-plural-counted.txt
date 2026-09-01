@@ -1622,13 +1622,13 @@
 {pl}@num@ Culicivoras
 %%%%
 @num@ demonspawn blood saints
-{pl}@num@ Dämonenbrut-Blutheiligen
+{pl}@num@ Dämonenbrut-Blutheilige
 %%%%
 @num@ demonspawn corrupters
 {pl}@num@ Dämonenbrut-Verderber
 %%%%
 @num@ demonspawn soul scholars
-{pl}@num@ Dämonenbrut-Seelengelehrten
+{pl}@num@ Dämonenbrut-Seelengelehrte
 %%%%
 @num@ demonspawn warmongers
 {pl}@num@ Dämonenbrut-Kriegstreiber
@@ -1654,14 +1654,14 @@
 @num@ eyes of draining
 {pl}@num@ Augen der Auszehrung
 %%%%
-@num@ formless jellyfishs
+@num@ formless jellyfishes
 {pl}@num@ formlose Quallen
 %%%%
 @num@ fravashis
 {pl}@num@ Fravashis
 %%%%
 @num@ fungal shamblers
-{pl}@num@ Pilz-Wankenden
+{pl}@num@ Pilz-Wankende
 %%%%
 @num@ glass eyes
 {pl}@num@ Glasaugen
@@ -1831,11 +1831,11 @@
 @num@ ribbon worms
 {pl}@num@ Schnurwürmer
 %%%%
-@num@ roaming sludgefishs
-{pl}@num@ wandernde Schlammfisch
+@num@ roaming sludgefishes
+{pl}@num@ wandernde Schlammfische
 %%%%
-@num@ rock fishs
-{pl}@num@ Felsenfisch
+@num@ rock fishes
+{pl}@num@ Felsenfische
 %%%%
 @num@ rusted inspectors
 {pl}@num@ verrostete Inspektoren
@@ -1947,7 +1947,7 @@
 {pl}@num@ Leichenbestatter
 %%%%
 @num@ undying armouries
-{pl}@num@ unsterbliche Waffenkammer
+{pl}@num@ unsterbliche Waffenkammern
 %%%%
 @num@ vampire bloodprinces
 {pl}@num@ Vampir-Blutprinzen
