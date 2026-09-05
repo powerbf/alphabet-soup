@@ -180,7 +180,7 @@ the tyrant's trap
 {f}die Falle des Tyrannen
 %%%%
 the binding sigil
-{n}das Bindungssignum
+{n}das Signum der Bindung
 %%%%
 the spike launcher
 {m}der Stachelwerfer
@@ -243,7 +243,7 @@ the gateway to Hell
 {n}das Tor zur Hölle
 %%%%
 the gateway back to the Dungeon
-{n}das Tor zurück zum Dungeon
+{n}das Tor zurück zum Kerker
 %%%%
 the gateway leading out of Cocytus
 {n}das Tor, das aus dem Kokytos hinausführt
@@ -298,7 +298,7 @@ the gate leading to a distant place
 {n}das Tor, das zu einem weit entfernten Ort führt
 %%%%
 the one-way gateway to a ziggurat
-{n}das Einwegtor zu einer Zikkurat
+{n}das Einbahntor zu einer Zikkurat
 %%%%
 the gateway to a bazaar
 {n}das Tor zu einem Basar
@@ -502,7 +502,7 @@ the ornate altar of the Wu Jian Council
 {m}der kunstvolle Altar des Wu-Jian-Rates
 %%%%
 the candlelit altar of Ignis
-{m}der von Kerzen beleuchtete Altar von Ignis
+{m}der mit Kerzen beleuchtete Altar von Ignis
 %%%%
 the fountain
 {m}der Brunnen
