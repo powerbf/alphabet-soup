@@ -160,7 +160,7 @@ the bolt of dispelling energy
 {m}der Strahl entzaubernder Energie
 %%%%
 the splash of acid
-{m}der Säurespritzer
+{m}der Säurenebel
 %%%%
 the agony
 {f}die Agonie
@@ -437,7 +437,7 @@ the detonation
 {f}die Detonation
 %%%%
 the dizzying spores
-{f}die schwindelerregenden Sporen
+{pl}die verwirrenden Sporen
 %%%%
 the doom bolt
 {m}der Verhängnisstrahl
@@ -476,7 +476,7 @@ the glob of mercury
 {m}der Quecksilberklumpen
 %%%%
 the gout of destruction
-{m}der Zerstörungsstrahl
+{f}die Welle der Zerstörung
 %%%%
 the grasping water
 {n}das greifende Wasser
@@ -491,7 +491,7 @@ the kinetic grapnel
 {m}der kinetische Enterhaken
 %%%%
 the malign ofering
-{n}das bösartige Opfer
+{n}die bösartige Opfergabe
 %%%%
 the mass of rock
 {f}die Felsmasse
@@ -527,7 +527,7 @@ the rupture
 {m}der Riss
 %%%%
 the salvo of frigid ice
-{f}die Eissalve
+{f}die frostige Eissalve
 %%%%
 the salvo of icicles
 {f}die Eiszapfensalve
@@ -548,13 +548,13 @@ the shadowy lightning
 {m}der schattenhafte Blitz
 %%%%
 the shard of frigid ice
-{f}die Splitter aus eisigem Eis
+{m}der Splitter aus frostigem Eis
 %%%%
 the shard of hardened shadow
-{f}die Splitter aus gehärtetem Schatten
+{m}der Splitter aus gehärtetem Schatten
 %%%%
 the shards of blighted ice
-{f}die Splitter aus verdorbenem Eis
+{pl}die Splitter aus verdorbenem Eis
 %%%%
 the shockwave
 {f}die Schockwelle
@@ -569,7 +569,7 @@ the swarm of vampire bats
 {m}der Schwarm von Vampirfledermäusen
 %%%%
 the umbral torchlight
-{n}das Fackellicht der Schatten
+{n}das Schattenlicht der Fackel
 %%%%
 the volatile concoction
 {f}die explosive Mixtur
