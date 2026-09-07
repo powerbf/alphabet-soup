@@ -1435,18 +1435,19 @@ static void _print_status_lights(int y)
         {
             while (i_light < lights.size() && (int)i_light < crawl_view.hudsz.x - 1)
             {
-                const int width = strwidth(localise(lights[i_light].text));
+                const string text = localise(lights[i_light].text);
+                const int width = strwidth(text);
                 textcolour(lights[i_light].colour);
                 const bool full = i_light == lights.size() - 1
                     && width < crawl_view.hudsz.x - wherex();
                 // Must do this before the print, as it uses the cursor position.
                 _record_status_light(lights[i_light], full ? width : 1);
                 if (full)
-                    CPRINTF("%s",lights[i_light].text.c_str());
+                    CPRINTF_NOLOC("%s", text.c_str());
                 else if ((int)lights.size() > crawl_view.hudsz.x / 2)
-                    CPRINTF("%.1s",lights[i_light].text.c_str());
+                    CPRINTF_NOLOC("%.1s", text.c_str());
                 else
-                    CPRINTF("%.1s ",lights[i_light].text.c_str());
+                    CPRINTF_NOLOC("%.1s ", text.c_str());
                 ++i_light;
             }
         }
@@ -1465,7 +1466,7 @@ static void _draw_wizmode_flag(const char *word)
     const string text = localise(word);
     textcolour(LIGHTMAGENTA);
     // 3+ for the " **"
-    CGOTOXY(1 + crawl_view.hudsz.x - (3 + text.length()), 1, GOTO_STAT);
+    CGOTOXY(1 + crawl_view.hudsz.x - (3 + strwidth(text)), 1, GOTO_STAT);
     CPRINTF_NOLOC(" *%s*", text.c_str());
 }
 
