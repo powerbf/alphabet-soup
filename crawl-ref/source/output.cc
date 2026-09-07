@@ -660,12 +660,12 @@ void update_message_status()
     if (!SysEnv.have_messages)
         return;
 
-    static const char * const msg = "(Hit _)";
+    static const string msg = localise("(Hit _)");
 
     textcolour(LIGHTBLUE);
 
     CGOTOXY(crawl_view.hudsz.x - strwidth(msg) + 1, 1, GOTO_STAT);
-    CPRINTF(msg);
+    NOLOC_CPRINTF(msg.c_str());
 
     textcolour(LIGHTGREY);
 }
@@ -1395,17 +1395,21 @@ static void _print_status_lights(int y)
     size_t i_light = 0;
     while (true)
     {
+        string text;
+        if (i_light < lights.size())
+            text = localise(lights[i_light].text);
+
         const int end_x = (wherex() - crawl_view.hudp.x)
-                + (i_light < lights.size() ? strwidth(lights[i_light].text)
+                + (i_light < lights.size() ? strwidth(text)
                                            : 10000);
 
         if (end_x <= crawl_view.hudsz.x)
         {
             textcolour(lights[i_light].colour);
 #ifdef USE_TILE_LOCAL
-            _record_status_light(lights[i_light], strwidth(lights[i_light].text));
+            _record_status_light(lights[i_light], strwidth(text));
 #endif
-            NOWRAP_EOL_CPRINTF("%s", lights[i_light].text.c_str());
+            NOWRAP_EOL_CPRINTF("%s", text.c_str());
             if (end_x < crawl_view.hudsz.x)
                 NOWRAP_EOL_CPRINTF(" ");
             ++i_light;
@@ -1427,9 +1431,10 @@ static void _print_status_lights(int y)
         size_t i_light = 0;
         if (lights.size() == 1)
         {
+            const string text = localise(lights[0].text);
             textcolour(lights[0].colour);
-            _record_status_light(lights[0], strwidth(lights[0].text));
-            CPRINTF("%s", lights[0].text.c_str());
+            _record_status_light(lights[0], strwidth(text));
+            CPRINTF_NOLOC("%s", text.c_str());
         }
         else
         {
@@ -1484,9 +1489,10 @@ static void _redraw_title()
         unsigned int in_len = strwidth(title);
         if (in_len > WIDTH)
         {
-            in_len -= 3;  // strwidth(" the ") - strwidth(", ")
-
+            title = ", " + filtered_lang(localise(player_title(false)));
             const unsigned int name_len = strwidth(you.your_name);
+            in_len = name_len + strwidth(title);
+
             string trimmed_name = you.your_name;
             // Squeeze name if required, the "- 8" is to not squeeze too much.
             if (in_len > WIDTH && (name_len - 8) > (in_len - WIDTH))
@@ -1495,8 +1501,7 @@ static void _redraw_title()
                                            name_len - (in_len - WIDTH) - 1);
             }
 
-            title = trimmed_name + ", " +
-                    filtered_lang(localise(player_title(false)));
+            title = trimmed_name + title;
         }
     }
 
@@ -1521,6 +1526,7 @@ static void _redraw_title()
     string species = player_species_name();
     if (you_worship(GOD_NO_GOD))
     {
+        species = localise(species);
         NOWRAP_EOL_CPRINTF("%s", species.c_str());
         if (you.char_class == JOB_MONK
             && !you.has_mutation(MUT_FORLORN) // XX is this necessary?
@@ -1542,25 +1548,34 @@ static void _redraw_title()
     }
     else
     {
+        int textwidth = 0;
         string god = you_worship(GOD_JIYVA) ? god_name_jiyva(true)
                                             : god_name(you.religion);
         if (small_layout)
         {
+            species = localise(species);
+            god = localise(god);
+            textwidth = strwidth(species) + strwidth(god);
             NOWRAP_EOL_CPRINTF("%s", species.c_str());
             CGOTOXY(2, 2, GOTO_STAT);
             NOWRAP_EOL_CPRINTF("%s", god.c_str());
         }
         else
-            NOWRAP_EOL_CPRINTF("%s of %s", species.c_str(), god.c_str());
+        {
+            string msg = make_stringf("%s of %s", species.c_str(), god.c_str());
+            msg = localise(msg);
+            textwidth = strwidth(msg);
+            NOWRAP_EOL_CPRINTF(msg.c_str());
+        }
         formatted_string piety = formatted_string::parse_string(_god_asterisks(true));
         textcolour(_god_status_colour(YELLOW));
-        const unsigned int textwidth = (unsigned int)(strwidth(species) + strwidth(god) + strwidth(piety) + 1);
+        textwidth += strwidth(piety) + 1;
         if (small_layout)
         {
             CGOTOXY(3, 2, GOTO_STAT);
             piety.display();
         }
-        else if (textwidth <= WIDTH)
+        else if (textwidth <= (int)WIDTH)
             piety.display();
         clear_to_end_of_line();
         if (you_worship(GOD_GOZAG))
