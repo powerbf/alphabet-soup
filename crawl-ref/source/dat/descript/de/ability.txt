@@ -41,13 +41,13 @@ einschränkt und bewirkt, dass sie manchmal ihre Angriffe verpatzen.
 %%%%
 Caustic Breath ability
 
-Speit einen konzentrierten Säurenebel, der auf leeren Feldern über die er zieht
+Speit einen konzentrierten Säurenebel, der auf leeren Feldern, über die er zieht,
 korrosive Wolken hinterlässt und korrodiert was er trifft.
 %%%%
 Noxious Breath ability
 
 Speit einen Strahl giftiger Dämpfe, die alles verwirren können, was in ihnen
-steht und nicht resistent gegen Gift ist. Auf einem höheren Level können die
+steht und nicht resistent gegen Gift ist. Auf höheren Stufen können die
 Wolken ein größeres Gebiet bedecken und bleiben länger bestehen.
 %%%%
 Breathe Fire ability
@@ -66,11 +66,11 @@ Solche Inspiration schlägt nicht zweimal zu, also wähle mit Bedacht.
 %%%%
 Hurl Damnation ability
 
-Verbrennt einen anvisierten Feind mit Verdammnis. Diese unheiligen Kräfte
-schaden dem Opfer und allen, die sich in der Nähe aufhalten, und werden nicht
-durch Schutzmittel wie Rüstungen oder Resistenzen beeinträchtigt.
-Bestimmte Kreaturen, in der Regel solche, die Verdammnis selbst
-heraufbeschwören können, bleiben von der Verdammnis jedoch völlig verschont.
+Verbrennt einen anvisierten Gegner mit Verdammnis. Diese unheiligen Kräfte fügen
+dem Opfer und seinen direkten Nachbarn Schaden zu und werden nicht durch
+Schutzmittel wie Rüstung oder Resistenzen beeinträchtigt. Bestimmte Kreaturen,
+in der Regel solche, die Verdammnis selbst heraufbeschwören können, bleiben von
+der Verdammnis jedoch völlig verschont.
 %%%%
 Word of Chaos ability
 
@@ -143,14 +143,14 @@ Imprint Weapon ability
 
 Analysiert die strukturelle Zusammensetzung eines Nahkampfwaffen-Artefaktes
 in deinem Inventar und prägt damit deinen Zauber Platin-Parademodell, sodass
-das Modell immer wenn du es erschaffst eine funktionsgleiche Nachbildung der
+das Modell, immer wenn du es erschaffst, eine funktionsgleiche Nachbildung der
 Waffe verwenden kann.
 %%%%
 Cacophony ability
 
 Manifestiert deine volle Poltergeist-Natur, wodurch alle Rüstungstücke, die du
 heimsuchst, losfliegen und für eine kurze Weile unabhängig von deinen anderen
-Aktionen angreifen - Stiefel, Schals und Helme bedrängen deine Gegener von allen
+Aktionen angreifen - Stiefel, Schals und Helme bedrängen deine Gegner von allen
 Seiten, während ein schadenfroher Lärm die Luft erfüllt.
 
 Diese Gegenstände sind immer noch mit dir verbunden und können sich nicht weit
@@ -171,7 +171,7 @@ immens, dass sie Felder in der Nähe wie eine erstickende Wolke füllen, Gegner
 plagen und sie nach und nach in Schlaf versetzen.
 
 Nach der Verwendung dieser Fähigkeit musst du Erfahrungspunkte gewinnen, um genug
-Kraft zu schöpfen, sie erneut zu verwenden. (Die Fertigkeit Verwandlungen
+Kraft zu schöpfen, sie erneut zu verwenden. (Die Fertigkeit Gestaltwandeln
 beschleunigt die Geschwindigkeit, mit der sich diese Fähigkeit wieder auflädt.)
 %%%%
 Enkindle ability
@@ -386,12 +386,12 @@ lässt.
 Receive Weapon ability
 
 Erwirbt eine Waffe aus einer Auswahl von vier. Dieser Segen kann nur einmal
-einglöst werden.
+eingelöst werden.
 %%%%
 Receive Armour ability
 
 Erwirbt ein Rüstungsteil aus einer Auswahl von vier. Dieser Segen kann nur
-einmal einglöst werden.
+einmal eingelöst werden.
 %%%%
 # Makhleb
 Unleash Destruction ability
@@ -596,7 +596,7 @@ und geschwächt. Die Fertigkeit Anrufungen macht es schwieriger zu widerstehen.
 Corrupt ability
 
 Korrumpiert die aktuelle Ebene mit chaotischer Energie aus dem Abgrund.
-Dies führt dazu, dass die nährere Umgebung ihr Aussehen verändert und es werden
+Dies führt dazu, dass die nähere Umgebung ihr Aussehen verändert und es werden
 Kreaturen aus dem Abgrund herbeigerufen, die Zerstörung anrichten wollen. Dies
 funktioniert nicht auf Ebenen, die bereits korrumpiert sind oder im Abgrund
 selbst. Die Größe des Effekts wird durch die Fertigkeit Anrufungen erhöht.
@@ -667,7 +667,7 @@ alte Gefolgsleute entlassen, um neue einzuladen.
 Blood for Blood ability
 
 Bittet Beogh inständig, dir eine Armee zu gewähren, mit der du blutige Rache
-üben kannst. Der Anwender wird sofort mit orkischen Verbündeten umegeben, wobei
+üben kannst. Der Anwender wird sofort mit orkischen Verbündeten umgeben, wobei
 im Laufe der Zeit weitere aus allen Richtungen hinzukommen. Das Gebet hält eine
 erhebliche Zeit lang an, erlischt jedoch deutlich schneller, sobald keine Feinde
 mehr in Sicht sind.
@@ -1092,7 +1092,7 @@ sie kein Ziel erreichen können oder wenn du den Platz mit ihnen tauschst.
 Rising Flame ability
 
 Lässt dich nach oben schweben und sprengt dich nach einer kurzen Verzögerung,
-in der Ignis genug Kraft sammelt, durch die Decke auf die darüberliegende Ebene.
+in der Ignis genug Kraft sammelt, durch die Decke auf die darüber liegende Ebene.
 Diese Fähigkeit kann nur einmal eingesetzt werden.
 %%%%
 Hop ability
@@ -1113,7 +1113,7 @@ Siphon Essence ability
 
 Peinigt in der Nähe befindliche lebende Gegner und halbiert deren Lebenspunkte.
 Der verursachte Schmerz heilt den Anwender in einem Umfang, der von der Fertigkeit
-Gestaltwandlung abhängt. Nach dem Einsatz dieser Fähigkeit kannst du sie für kurze
+Gestaltwandeln abhängt. Nach dem Einsatz dieser Fähigkeit kannst du sie für kurze
 Zeit nicht erneut einsetzen.
 %%%%
 Evoke the Sceptre of Asmodeus ability
@@ -1126,12 +1126,12 @@ Asmodeus geführt wird.
 %%%%
 Evoke Damnation ability
 
-Straft einen ausgewählten Gegner mit Verdammnis. Diese unheiligen Kräfte fügen
-dem Opfer und seinen direkten Nachbarn Schaden zu und werden von keinerlei
-Schutzmaßnahmen wie Rüstung oder Resistenzen beeinträchtigt. Bestimmte Kreaturen
-bleiben jedoch von Verdammnis unberührt; in der Regel solche, die selbst Verdammnis
-heraufbeschwören können. Die Macht dieser Fähigkeit skaliert mit der Fertigkeit
-Evokationen.
+Verbrennt einen anvisierten Gegner mit Verdammnis. Diese unheiligen Kräfte fügen
+dem Opfer und seinen direkten Nachbarn Schaden zu und werden nicht durch
+Schutzmittel wie Rüstung oder Resistenzen beeinträchtigt. Bestimmte Kreaturen,
+in der Regel solche, die Verdammnis selbst heraufbeschwören können, bleiben von
+der Verdammnis jedoch völlig verschont. Die Macht dieser Fähigkeit skaliert mit der
+Fertigkeit Evokationen.
 %%%%
 Evoke the Staff of Olgreb ability
 
@@ -1166,7 +1166,7 @@ Bestial Takedown ability
 Entfesselt die volle Kraft deiner Raubtierinstinkte und lässt dich zu einem
 verängstigten Gegner springen und einen brutalen Nahkampfangriff gegen ihn
 auszuführen. Dieser Angriff erhält einen Schadensmultiplikator, der von deiner
-Fertigkeit Gestaltwandlung abhängt. Wenn der Gegner dadurch getötet wird, stößt
+Fertigkeit Gestaltwandeln abhängt. Wenn der Gegner dadurch getötet wird, stößt
 du anschließend immer ein Heulen aus.
 
 Kann nur gegen einen Feind verwendet werden, der Angst hat und an den mindestens
