@@ -46,7 +46,7 @@ korrosive Wolken hinterlässt und korrodiert was er trifft.
 %%%%
 Noxious Breath ability
 
-Speit einen Strahl giftiger Dämpfe, die alles verwirren können, was in ihnen
+Speit einen Strahl schädlicher Dämpfe, die alles verwirren können, was in ihnen
 steht und nicht resistent gegen Gift ist. Auf höheren Stufen können die
 Wolken ein größeres Gebiet bedecken und bleiben länger bestehen.
 %%%%
@@ -223,8 +223,7 @@ Vitalisation ability
 Bietet vorübergehend Schutz vor Gift, Verwirrung, Versteinerung und Krankheit
 sowie vor den Wirkungen von Pestilenzwolken. Deine Stärke, Intelligenz und
 Geschicklichkeit werden außerdem vorübergehend um einen Grad erhöht, der von
-der Fertigkeit Anrufungen abhängt und können nicht ausgezehrt werden,
-solange der Effekt aktiv ist.
+der Fertigkeit Anrufungen abhängt.
 %%%%
 Imprison ability
 
@@ -233,9 +232,14 @@ Gefängnisses wird durch die Fertigkeit Anrufungen erhöht.
 %%%%
 Sanctuary ability
 
-Erschafft für kurze Zeit eine göttliche Zuflucht. Solange du in der Zuflucht
-bist, greifen dich Monster nicht an, aber der Schutz verschwindet sofort,
-wenn du den göttlichen Frieden brichst.
+Verwandelt den Bereich um den Anwender herum für kurze Zeit in einen Raum
+unumstößlicher Gesetze. Solange sich jemand innerhalb dieser Zuflucht aufhält,
+kann ihm von anderen kein Leid zugefügt werden und er darf seinerseits anderen
+kein Leid zufügen.
+
+Wesen mit feindlichen Absichten können eine Zuflucht nicht betreten und
+jene, die bei ihrer Schaffung bereits in der Nähe sind, werden zur Flucht
+gezwungen.
 %%%%
 Cure All Mutations ability
 
@@ -244,10 +248,14 @@ Heilt all deine Mutationen - aber nur einmal.
 # The Shining One
 Divine Shield ability
 
-Gewährt vorübergehend einen göttlichen Schild. Da er von der Macht des
-Strahlenden in der Luft gehalten wird, beeinträchtigt er deine Ausrüstung
-nicht, funktioniert ansonsten aber wie ein normaler physischer Schild. Die
-Stärke und Dauer des Schildes werden durch die Fertigkeit Anrufungen erhöht.
+Erzeugt vor dem Anwender einen blendend hellen Schild. Getragen von der Kraft
+des Strahlenden blockt er zielsicher die nächsten paar Angriffe, sofern diese
+auch von einem gewöhnlichen Schild geblockt werden könnten. Fernkampfangriffe
+werden reflektiert und bei Angreifern im Nahkampf besteht eine Chance, dass sie
+durch den resultierenden Lichtblitz kurz geblendet werden.
+
+Dieser Schild wehrt nur eine begrenzte Anzahl von Angriffen ab, bevor er
+verschwindet. Die Fertigkeit Anrufungen erhöht diese Anzahl.
 %%%%
 Cleansing Flame ability
 
@@ -290,9 +298,10 @@ Zaubersprüche wählen und beide Gaben können nur einmal empfangen werden.
 %%%%
 Receive Forbidden Knowledge ability
 
-Verleiht dir die Kenntnis der mächtigsten und dunkelsten Nekromantie-Zauber.
-Du musst zwischen dieser Gabe und der Gabe, eine Waffe mit Schmerz zu verstärken,
-wählen und beide Gaben können nur einmal erhalten werden.
+Verleiht dir die Kenntnis der mächtigsten und dunkelsten Nekromantie-Zauber:
+Heimsuchung, Borgnjor's Wiederbelebung, Infestation und Pforte des Todes. Du
+musst wählen zwischen dieser Gabe und der Gabe, eine Waffe mit Schmerz zu
+verstärken. Beide Gaben können nur einmal erhalten werden.
 %%%%
 # Yredelemnul
 Recall Undead Harvest ability
@@ -326,7 +335,7 @@ Der Schaden wird durch die Fertigkeit Anrufungen erhöht.
 
 Diese Fähigkeit kann nur verwendet werden, solange die Fackel brennt und nur
 für eine begrenzte Anzahl von Malen pro Ebene. Die verfügbaren Anwendungen pro
-Etage steigen mit der Pietät. Wenn man die Flammen der Schwarzen Fackel mit einer
+Ebene steigen mit der Pietät. Wenn man die Flammen der Schwarzen Fackel mit einer
 besonders bemerkenswerten Seele anfacht, indem man einen einzigartigen, benannten
 Gegner tötet, erhält man ebenfalls eine zusätzliche Anwendung.
 %%%%
@@ -344,7 +353,7 @@ wiederhergestellt. Der Versuch schlägt vollständig fehl, wenn das gewählte Mo
 dein Blickfeld verlässt, bevor der Vorgang abgeschlossen ist.
 
 Die Gesundheit der gebunden Seele wird von der Fertigkeit Anrufungen des
-Anwenders beeinflusst. Sie folgt ihrem Fänger Treppen hinunter und kann von
+Anwenders beeinflusst. Sie folgt ihrem Fänger über Treppen und kann von
 anderen Ebenen zurückgerufen werden.
 
 Es kann zu jeder Zeit immer nur eine Seele gebunden werden.
@@ -503,10 +512,13 @@ Erlernen anderer Zauber freizugeben.
 %%%%
 Divine Exegesis ability
 
-Wirkt einen beliebigen Zauber aus deiner Zaubersammlung mit garantiertem Erfolg.
-Du erhältst einen Bonus auf die Zaubermacht, der auf deiner
-Anrufungen-Fertigkeit basiert und 50% mehr Gewicht hat, als entsprechende
-Stufen in den relevanten Fertigkeiten des Zaubers selbst.
+Wirkt einen beliebigen Zauber aus deiner Zauberbibliothek mit garantiertem
+Erfolg. Du erhältst einen Bonus auf die Zaubermacht, der auf deiner Fertigkeit
+Zaubern basiert, welche dasselbe Gewicht erhält, wie entsprechende Stufen in den
+relevanten Fertigkeiten des Zaubers selbst.
+
+Für kurze Zeit kannst du anschließend denselben Zauber zu deutlich reduzierten
+Pietätskosten erneut wirken (mithilfe der Fähigkeit "Erneut wirken").
 %%%%
 # Trog
 Berserk ability
@@ -536,9 +548,8 @@ des Anwenders.
 Purification ability
 
 Befreit deinen Körper von Gift, Verwirrung, Verlangsamung, Versteinerung,
-Schwäche und Krankheit. Verringerte Stärke, Geschicklichkeit oder Intelligenz
-werden ebenfalls vollständig wiederhergestellt, ebenso wie die maximale
-Gesundheit.
+Schwäche und Krankheit. Jegliche ausgezehrte maximale Gesundheit wird ebenfalls
+vollständig wiederhergestellt.
 %%%%
 Pacify ability
 
@@ -604,7 +615,7 @@ selbst. Die Größe des Effekts wird durch die Fertigkeit Anrufungen erhöht.
 Enter the Abyss ability
 
 Versetzt dich augenblicklich ins Reich von Lugonu. Die Anstrengung, diese
-Fähigkeit überhaupt zu benutzen, braucht einen Großteil deiner Gesundheit auf.
+Fähigkeit überhaupt zu benutzen, beeinträchtigt deine Gesundheit.
 %%%%
 Brand Weapon With Distortion ability
 
@@ -639,6 +650,9 @@ Smiting ability
 
 [[Smiting spell]] Die Stärke des Zerschmetterns wird durch die Fertigkeit
 Anrufungen erhöht.
+
+Beogh gestattet dir nicht, dies während einer göttlichen Prüfung direkt
+gegen einen anderen Apostel einzusetzen.
 %%%%
 Recall Apostles ability
 
@@ -656,7 +670,7 @@ Salbt einen besiegten Apostel und nimmt ihn als festen Anhänger auf. Er wird
 dir über Ebenen hinweg und in jede Gefahr folgen und bereitwillig sein Leben
 für die Sache und seine Sippe opfern.
 
-Sollten sie sterben, wird Beogh sie irgendwann wieder zum Leben erwecken,
+Sollte er sterben, wird Beogh ihn irgendwann wieder zum Leben erwecken,
 sobald du genügend Pietät gesammelt hast - dieser Vorgang lässt sich erheblich
 beschleunigen, indem du Beogh damit zufriedenstellst, alle Feinde zu töten,
 die möglicherweise zum Tod des Apostels beigetragen haben.
@@ -873,12 +887,13 @@ Opfert die Reinheit von Körper oder Geist und verursacht eine einzige Mutation.
 %%%%
 Sacrifice Words ability
 
-Opfert die Fähigkeit, magische Schriftrollen zu benutzen, während du bedroht
-bist.
+Opfert die Fähigkeit, im Kampf magische Schriftrollen zu benutzen, es sei denn
+du bist schwer verwundet.
 %%%%
 Sacrifice Drink ability
 
-Opfert die Fähigkeit, Tränke zu trinken, während du bedroht bist.
+Opfert die Fähigkeit, im Kampf Tränke zu trinken, es sei denn du bist schwer
+verwundet.
 %%%%
 Sacrifice Essence ability
 
@@ -893,10 +908,20 @@ Sacrifice Stealth ability
 Opfert die Heimlichkeit, wodurch du immer von Feinden bemerkt wirst und keine
 Ränge mehr in der Fertigkeit Heimlichkeit haben kannst.
 %%%%
+Sacrifice Forms ability
+
+Opfert Gestalten, wodurch du daran gehindert wirst, freiwillig deine Gestalt
+zu ändern und keine Ränge mehr in der Fertigkeit Gestaltwandeln haben kannst.
+%%%%
 Sacrifice Artifice ability
 
 Opfert die Fähigkeit, magische Gegenstände zu evozieren und verhindert, dass
 du Ränge in der Fertigkeit Evozieren haben kannst.
+
+Dazu gehören Zauberstäbe und andere Gegenstände, welche die Fertigkeit Evozieren
+verwenden - was bedeutet, dass es hat *keine* Auswirkungen auf Fernkampfwaffen,
+Talismane und Zikkurat-Figuren hat. Außerdem macht dieses Opfer magische Stäbe
+deutlich weniger effektiv im Nahkampf.
 %%%%
 Sacrifice Love ability
 
@@ -924,8 +949,8 @@ kannst.
 %%%%
 Sacrifice Durability ability
 
-Opfert die Widerstandskraft, wodurch du alle Ränge in der Fertigkeit Rüstung
-verlierst. Dieses Opfer ist mehr wert, wenn du auch Ausweichen nicht
+Opfert die Widerstandskraft, wodurch du in der Fertigkeit Rüstung keine Ränge
+mehr haben kannst. Dieses Opfer ist mehr wert, wenn du auch Ausweichen nicht
 trainieren kannst.
 %%%%
 Sacrifice a Hand ability
@@ -938,8 +963,9 @@ Opfert eine Hand, wodurch du die Fähigkeit verlierst, Schilde{{
 %%%%
 Sacrifice Experience ability
 
-Opfert einen Teil deiner bisherigen Erfahrung, wodurch du sofort zwei Stufen
-verlierst und die maximale Stufe, die du erreichen kannst, um zwei gesenkt wird.
+Opfert einen Teil deiner bisherigen Erfahrung, wodurch du sofort eine Stufe
+verlierst und außerdem die maximale Stufe, die du erreichen kannst, um eins
+verringert wird.
 %%%%
 Sacrifice Skill ability
 
@@ -1038,11 +1064,11 @@ Erinnert dich an deinen Ahnen als Ritter, einen starken Nahkämpfer mit
 überlegenen Verteidigungsmöglichkeiten. Diese Wahl ist dauerhaft und kann
 nicht rückgängig gemacht werden.
 %%%%
-Ancestor Life: Battlemage ability
+Ancestor Life: Elementalist ability
 
-Erinnert dich an deinen Vorfahren als Kampfmagier, der sowohl im
-Nahkampf als auch mit Konjurationen unerbittlich angreifen kann. Diese Wahl
-ist dauerhaft und kann nicht rückgängig gemacht werden.
+Erinnert dich an deinen Vorfahren als Elementaristen, einen mächtigen aber
+fragilen Magier, der in der Lage ist, aus der Entfernung zerstörerische Zauber
+zu entfesseln. Diese Wahl ist dauerhaft und kann nicht rückgängig gemacht werden.
 %%%%
 Ancestor Life: Hexer ability
 
