@@ -294,6 +294,24 @@ the Delver
 the Wanderer
 {m}der Wanderer
 %%%%
+the Alchemist
+{m}der Alchemist
+%%%%
+the Cinder Acolyte
+{m}der Aschenakolyth
+%%%%
+the Forgewright
+{m}der Schmied
+%%%%
+the Hexslinger
+{m}der Hexenschleuderer
+%%%%
+the Reaver
+{m}der Plünderer
+%%%%
+the Shapeshifter
+{m}der Gestaltwandler
+%%%%
 
 ##############################################
 # player character combo
@@ -372,4 +390,22 @@ the @species@ Delver
 %%%%
 the @species@ Wanderer
 {m}der @species@ Wanderer
+%%%%
+the @species@  Alchemist
+{m}der @species@ Alchemist
+%%%%
+the @species@ Cinder Acolyte
+{m}der @species@ Aschenakolyth
+%%%%
+the @species@ Forgewright
+{m}der @species@ Schmied
+%%%%
+the @species@ Hexslinger
+{m}der @species@ Hexenschleuderer
+%%%%
+the @species@ Reaver
+{m}der @species@ Plünderer
+%%%%
+the @species@ Shapeshifter
+{m}der @species@ Gestaltwandler
 %%%%
