@@ -362,7 +362,7 @@ Hz
 %%%%
 # Hexslinger
 Hs
-Hs
+Bs
 %%%%
 # Hunter
 #Hu (same as Human, d'oh!)
@@ -492,11 +492,11 @@ Zb
 %%%%
 # Hexslinger
 @adj@@two_letter_code@Hs
-{adj-er}@adj@@two_letter_code@Hs
+{adj-er}@adj@@two_letter_code@Bs
 %%%%
 # Hunter
 @adj@@two_letter_code@Hu
-{adj-er}@adj@@two_letter_code@Al
+{adj-er}@adj@@two_letter_code@Jä
 %%%%
 # Ice Elementalist
 @adj@@two_letter_code@IE

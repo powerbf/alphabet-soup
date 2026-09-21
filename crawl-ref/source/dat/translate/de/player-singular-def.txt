@@ -308,7 +308,7 @@ the Forgewright
 {m}der Schmied
 %%%%
 the Hexslinger
-{m}der Hexenschleuderer
+{m}der Bannschütze
 %%%%
 the Reaver
 {m}der Plünderer
@@ -409,7 +409,7 @@ the @species@ Forgewright
 {m}der @species@ Schmied
 %%%%
 the @species@ Hexslinger
-{m}der @species@ Hexenschleuderer
+{m}der @species@ Bannschütze
 %%%%
 the @species@ Reaver
 {m}der @species@ Plünderer
