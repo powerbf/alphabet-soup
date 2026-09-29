@@ -32,10 +32,10 @@
 # the former name is used on rings and the latter on armour
 %%%%
 @item@ of resist corrosion
-@item@ der Korrosionresistenz
+@item@ der Korrosionsresistenz
 %%%%
 @item@ of corrosion resistance
-@item@ der Korrosionresistenz
+@item@ der Korrosionsresistenz
 %%%%
 
 %%%%
@@ -205,7 +205,7 @@
 @item@ der Umschlingung
 %%%%
 @item@ of sundering
-@item@ der Zerbrechung
+@item@ des Spaltens
 %%%%
 @item@ of concussion
 @item@ der Erschütterung
@@ -232,7 +232,7 @@
 @item@ des Zorns
 %%%%
 @item@ of mayhem
-@item@ des Durcheinanders
+@item@ der Hektik
 %%%%
 @item@ of guile
 @item@ der List
