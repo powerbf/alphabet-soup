@@ -731,3 +731,68 @@ Number pad keys:
 
 Some number pad punctuation keys may not be distinguished from their "regular"
 counterparts, again depending on keyboard and build.
+
+%%%%
+targeting-help-1
+
+<h>Examine surroundings ('<w>x</w><h>' in main):
+<w>Esc</w> : cancel (also <w>Space</w>, <w>x</w>)
+<w>Ctrl-X</w> : list all things in view
+<w>Dir.</w>: move cursor in that direction
+<w>.</w> : move to cursor (also <w>Enter</w>, <w>Del</w>)
+<w>g</w> : pick up item at cursor
+<w>v</w> : describe monster under cursor
+<w>+</w> : cycle monsters forward (also <w>=</w>)
+<w>-</w> : cycle monsters backward
+<w>^</w> : cycle through traps
+<w>_</w> : cycle through altars
+<w><<</w>/<w>></w> : cycle through up/down stairs
+<w>Tab</w> : cycle through shops and portals
+<w>r</w> : move cursor to you
+<w>e</w> : create/remove travel exclusion
+
+%%%%
+targeting-help-wiz
+
+<h>Wizard targeting commands:</h>
+<w>Ctrl-C</w> : cycle through beam paths
+<w>D</w>: get debugging information about the monster
+<w>o</w>: give item to monster
+<w>F</w>: cycle monster friendly/good neutral/neutral/hostile
+<w>Ctrl-H</w>: heal the monster fully
+<w>P</w>: apply divine blessing to monster
+<w>m</w>: move monster or player
+<w>M</w>: cause spell miscast for monster or player
+<w>s</w>: force monster to shout or speak
+<w>S</w>: make monster a summoned monster
+<w>w</w>: calculate shortest path to any point on the map
+<w>"</w>: get debugging information about a portal
+<w>~</w>: polymorph monster to specific type
+<w>,</w>: bring down the monster to 1 hp
+<w>Ctrl-F</w>: place a mimic
+<w>Ctrl-B</w>: banish monster
+<w>Ctrl-K</w>: kill monster
+
+%%%%
+targeting-help-2
+
+<h>Targeting (zap wands, cast spells, etc.):
+Most keys from examine surroundings work.
+Some keys fire at the target. <w>Ctrl-X</w> only
+lists eligible targets. By default,
+range is respected and beams don't stop.
+<w>Enter</w> : fire (<w>Space</w>, <w>Del</w>, <w>f</w>)
+<w>.</w> : fire, stop at target
+<w>@</w> : fire, stop at target, ignore range
+<w>!</w> : fire, don't stop, ignore range
+<w>p</w> : fire at Previous target (also <w>f</w>)
+<w>:</w> : show/hide beam path
+<w>Shift-Dir.</w> : fire straight-line beam
+             (also <w>/ Dir.</w>)
+
+<h>Firing mode ('<w>f</w><h>' in main):
+<w>Q</w> : choose fire action.
+<w>(</w> : cycle to previous suitable action
+<w>)</w> : cycle to next suitable action.
+
+%%%%

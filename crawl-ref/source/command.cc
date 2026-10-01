@@ -371,67 +371,6 @@ void list_jewellery()
     _list_equipment(SLOT_RING, SLOT_GIZMO);
 }
 
-static const char *targeting_help_1 =
-    "<h>Examine surroundings ('<w>x</w><h>' in main):\n"
-    "<w>Esc</w> : cancel (also <w>Space</w>, <w>x</w>)\n"
-    "<w>Ctrl-X</w> : list all things in view\n"
-    "<w>Dir.</w>: move cursor in that direction\n"
-    "<w>.</w> : move to cursor (also <w>Enter</w>, <w>Del</w>)\n"
-    "<w>g</w> : pick up item at cursor\n"
-    "<w>v</w> : describe monster under cursor\n"
-    "<w>+</w> : cycle monsters forward (also <w>=</w>)\n"
-    "<w>-</w> : cycle monsters backward\n"
-    "<w>^</w> : cycle through traps\n"
-    "<w>_</w> : cycle through altars\n"
-    "<w><<</w>/<w>></w> : cycle through up/down stairs\n"
-    "<w>Tab</w> : cycle through shops and portals\n"
-    "<w>r</w> : move cursor to you\n"
-    "<w>e</w> : create/remove travel exclusion\n"
-;
-#ifdef WIZARD
-static const char *targeting_help_wiz =
-    "<h>Wizard targeting commands:</h>\n"
-    "<w>Ctrl-C</w> : cycle through beam paths\n"
-    "<w>D</w>: get debugging information about the monster\n"
-    "<w>o</w>: give item to monster\n"
-    "<w>F</w>: cycle monster friendly/good neutral/neutral/hostile\n"
-    "<w>Ctrl-H</w>: heal the monster fully\n"
-    "<w>P</w>: apply divine blessing to monster\n"
-    "<w>m</w>: move monster or player\n"
-    "<w>M</w>: cause spell miscast for monster or player\n"
-    "<w>s</w>: force monster to shout or speak\n"
-    "<w>S</w>: make monster a summoned monster\n"
-    "<w>w</w>: calculate shortest path to any point on the map\n"
-    "<w>\"</w>: get debugging information about a portal\n"
-    "<w>~</w>: polymorph monster to specific type\n"
-    "<w>,</w>: bring down the monster to 1 hp\n"
-    "<w>Ctrl-F</w>: place a mimic\n"
-    "<w>Ctrl-B</w>: banish monster\n"
-    "<w>Ctrl-K</w>: kill monster\n"
-;
-#endif
-
-static const char *targeting_help_2 =
-    "<h>Targeting (zap wands, cast spells, etc.):\n"
-    "Most keys from examine surroundings work.\n"
-    "Some keys fire at the target. <w>Ctrl-X</w> only\n"
-    "lists eligible targets. By default,\n"
-    "range is respected and beams don't stop.\n"
-    "<w>Enter</w> : fire (<w>Space</w>, <w>Del</w>, <w>f</w>)\n"
-    "<w>.</w> : fire, stop at target\n"
-    "<w>@</w> : fire, stop at target, ignore range\n"
-    "<w>!</w> : fire, don't stop, ignore range\n"
-    "<w>p</w> : fire at Previous target (also <w>f</w>)\n"
-    "<w>:</w> : show/hide beam path\n"
-    "<w>Shift-Dir.</w> : fire straight-line beam\n"
-    "             (also <w>/ Dir.</w>)\n"
-    "\n"
-    "<h>Firing mode ('<w>f</w><h>' in main):\n"
-    "<w>Q</w> : choose fire action.\n"
-    "<w>(</w> : cycle to previous suitable action\n"
-    "<w>)</w> : cycle to next suitable action.\n"
-;
-
 struct help_file
 {
     const char* name;
@@ -552,11 +491,16 @@ void show_levelmap_help()
 void show_targeting_help()
 {
     column_composer cols(2, 40);
+    string targeting_help_1 = getHelpString("targeting-help-1");
     cols.add_formatted(0, targeting_help_1, true);
 #ifdef WIZARD
     if (you.wizard)
+    {
+        string targeting_help_wiz = getHelpString("targeting-help-wiz");
         cols.add_formatted(0, targeting_help_wiz, true);
+    }
 #endif
+    string targeting_help_2 = getHelpString("targeting-help-2");
     cols.add_formatted(1, targeting_help_2, true);
     show_keyhelp_menu(cols.formatted_lines());
 }
