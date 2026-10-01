@@ -856,3 +856,85 @@ help-menu-2
 <w>6</w>.      Dungeon sprint modes
 
 %%%%
+cmd-help-movement
+
+<h>Movement:
+To move in a direction or to attack,
+use the numpad (try Numlock off and
+on) or vi keys:
+%%%%
+cmd-help-rest
+
+<h>Rest:
+<w>%</w> : wait a turn (also <w>s</w>, <w>Del</w>)
+<w>%</w> : rest and long wait; stops when
+    Health or Magic become full or
+    something is detected. If Health
+    and Magic are already full, stops
+    when 100 turns over (<w>numpad-5</w>)
+%%%%
+cmd-help-ext-movement
+
+<h>Extended Movement:
+<w>%</w> : auto-explore
+<w>%</w> : interlevel travel
+<w>%</w> : Find items
+<w>%</w> : set Waypoint
+<w>/ Dir.</w>, <w>Shift-Dir.</w>: long walk
+<w>* Dir.</w>, <w>Ctrl-Dir.</w> : attack without move
+%%%%
+cmd-help-autofight
+
+<h>Autofight:
+<w>Tab</w>          : attack nearest monster,
+               moving if necessary
+<w>Shift-Tab</w>, <w>p</w> : trigger quivered action;
+               if targeted, aims at
+               nearest monster
+%%%%
+cmd-help-item-types
+
+<h>Item types (and common commands)
+<cyan>)</cyan> : hand weapons (<w>%</w>ield)
+<brown>(</brown> : missiles (<w>%</w>uiver, <w>%</w>ire, <w>%</w>/<w>%</w> cycle)
+<cyan>[</cyan> : armour (<w>%</w>ear and <w>%</w>ake off)
+<w>?</w> : scrolls (<w>%</w>ead)
+<magenta>!</magenta> : potions (<w>%</w>uaff)
+<blue>=</blue> : rings (<w>%</w>ut on and <w>%</w>emove)
+<red>"</red> : amulets (<w>%</w>ut on and <w>%</w>emove)
+<lightred>percent</lightred> : talismans (e<w>%</w>oke)
+<lightgrey>/</lightgrey> : wands (e<w>%</w>oke)
+<lightcyan>@book_glyph@</lightcyan> : books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,
+    pick up to add to library
+<brown>|</brown> : staves (<w>%</w>ield)
+<lightgreen>}</lightgreen> : miscellaneous items (e<w>%</w>oke)
+<yellow>$</yellow> : gold (<w>%</w> counts gold)
+<lightmagenta>0</lightmagenta> : the Orb of Zot
+    Carry it to the surface and win!
+%%%%
+cmd-help-other-gameplay
+
+<h>Other Gameplay Actions:
+<w>%</w> : use special Ability (<w>%!</w> for help)
+<w>%</w> : cast spell, abort without targets
+<w>%</w> : cast spell, no matter what
+<w>%</w> : list all memorised spells
+<w>%</w> : Memorise a spell from your library
+<w>%</w> : tell allies (<w>%t</w> to shout)
+<w>%</w> : re-do previous command
+<w>%</w> : repeat next command # of times
+%%%%
+cmd-help-non-gameplay
+
+<h>Non-Gameplay Commands / Info
+<w>%</w> : game menu
+<w>%</w> : show Previous messages
+<w>%</w> : Redraw screen
+<w>%</w> : Clear main and level maps
+<w>%</w> : quick add macro
+<w>%</w> : edit macros
+<w>%</w> : annotate the dungeon level
+<w>%</w> : dump character to file
+<w>%</w> : add note (use <w>%:</w> to read notes)
+<w>%</w> : reassign inventory/spell letters
+%%%%
