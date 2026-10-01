@@ -796,3 +796,63 @@ range is respected and beams don't stop.
 <w>)</w> : cycle to next suitable action.
 
 %%%%
+help-menu-1
+
+<h>Dungeon Crawl Help
+
+Press one of the following keys to
+obtain more information on a certain
+aspect of Dungeon Crawl.
+<w>?</w>: List of commands
+<w>^</w>: Quickstart Guide
+{{
+if crawl.game_started() then
+    return "<w>:</w>: Browse character notes\n"
+        .. "<w>#</w>: Browse character dump"
+else
+    return "<darkgrey>:: Browse character notes</darkgrey>\n"
+        .. "<darkgrey>#: Browse character dump</darkgrey>"
+end
+}}
+<w>~</w>: Macros help
+<w>&</w>: Options help
+<w>%</w>: Table of aptitudes
+<w>/</w>: Lookup description
+<w>Q</w>: FAQ
+{{
+if crawl.is_tiles() then
+    return "<w>T</w>: Tiles key help"
+end
+}}
+<w>V</w>: Version information
+<w>!</w>: Display diagnostics
+<w>Home</w>: This screen
+
+%%%%
+help-menu-2
+
+<h>Manual Contents
+
+<w>*</w>       Table of contents
+<w>A</w>.      Overview
+<w>B</w>.      Starting Screen
+<w>C</w>.      Attributes and Stats
+<w>D</w>.      Exploring the Dungeon
+<w>E</w>.      Experience and Skills
+<w>F</w>.      Monsters
+<w>G</w>.      Items
+<w>H</w>.      Spellcasting
+<w>I</w>.      Targeting
+<w>J</w>.      Religion
+<w>K</w>.      Mutations
+<w>L</w>.      Licence, Contact, History
+<w>M</w>.      Macros, Options, Performance
+<w>N</w>.      Philosophy
+<w>1</w>.      List of Character Species
+<w>2</w>.      List of Character Backgrounds
+<w>3</w>.      List of Skills
+<w>4</w>.      List of Keys and Commands
+<w>5</w>.      Inscriptions
+<w>6</w>.      Dungeon sprint modes
+
+%%%%
