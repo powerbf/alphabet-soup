@@ -1036,6 +1036,18 @@ the talisman of death
 the storm talisman
 {m}der Sturmtalisman
 %%%%
+the vision talisman
+{m}der Visionstalisman
+%%%%
+the gecko talisman
+{m}der Geckotalisman
+%%%%
+the mist talisman
+{m}der Nebeltalisman
+%%%%
+the jade talisman
+{m}der Jadetalisman
+%%%%
 
 #################################
 # Corpses
