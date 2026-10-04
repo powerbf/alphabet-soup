@@ -339,6 +339,10 @@ Pa
 Po
 Po
 %%%%
+# Revenant
+Re
+Wg
+%%%%
 # Sludge Elf
 SE
 Se
@@ -462,8 +466,9 @@ Ne
 Ne
 %%%%
 # Reaver
-Re
-Pl
+# same as Revenant
+#Re
+#Pl
 %%%%
 # Shapeshifter
 Sh
