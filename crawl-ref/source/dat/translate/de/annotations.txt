@@ -48,6 +48,35 @@ einhändig
 willpower
 Willenskraft
 %%%%
+identified
+identifiziert
+%%%%
+unidentified
+unidentifiziert
+%%%%
+forbidden
+verboten
+%%%%
+melee
+Nahkampf
+%%%%
+ranged
+Fernkampf
+%%%%
+# non-random (i.e. fixed) artefact
+unrand
+unzufällig
+%%%%
+equipped
+ausgestattet
+%%%%
+spellbook
+Zauberbuch
+%%%%
+# miscellaneous evocable item
+evoker
+evozierbar
+%%%%
 
 # attribute +/-
 %%%%
