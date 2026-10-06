@@ -581,7 +581,7 @@ the whirling bolas
 {f}die wirbelnden Bolas
 %%%%
 the blast of rock
-{f}die Explosion aus Gestein
+{f}die Fels-Explosion
 %%%%
 the blast of wind
 {m}der Windstoß
@@ -599,7 +599,7 @@ the ice thorns
 {pl}die Eisdornen
 %%%%
 the scorching wind
-{m}der versengende Wind
+{m}der sengende Wind
 %%%%
 the surge of energy
 {f}die Energiewelle
