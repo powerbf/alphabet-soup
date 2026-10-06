@@ -3450,9 +3450,7 @@ static vector<extra_feature_desc> _get_feature_extra_descs(const coord_def &pos)
         });
     }
     for (extra_feature_desc &desc: ret)
-    {
         desc.title = localise(desc.title);
-    }
     return ret;
 }
 
