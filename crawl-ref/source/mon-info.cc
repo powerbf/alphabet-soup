@@ -1254,7 +1254,7 @@ string monster_info::common_name(description_level_type desc) const
         if (num_heads > 0 && !is(MB_KNOWN_INVIS))
         {
             if (num_heads < 11)
-                ss << number_in_words(num_heads);
+                ss << number_in_words(num_heads, true);
             else
                 ss << std::to_string(num_heads);
 
