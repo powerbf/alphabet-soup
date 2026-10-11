@@ -2912,6 +2912,7 @@ string get_item_description(const item_def &item,
                             item_description_mode mode)
 {
     ostringstream description;
+    string long_desc;
     const bool verbose = mode == IDM_DEFAULT || mode == IDM_MONSTER;
 
 #ifdef DEBUG_DIAGNOSTICS
@@ -2960,10 +2961,14 @@ string get_item_description(const item_def &item,
             const string desc = getLongDescription(get_artefact_name(item));
             if (!desc.empty())
             {
-                description << desc;
+                // i18n: Long description will already be in target language.
+                // Insert it after we've translated the rest, otherwise we can
+                // get weird results from trying to translate what's already
+                // been translated.
+                long_desc = desc;
+                long_desc[long_desc.length()-1] = ' ';
+                description << "@LONG_DESCRIPTION@";
                 need_base_desc = false;
-                description.seekp((streamoff)-1, ios_base::cur);
-                description << " ";
             }
         }
         // Randart jewellery properties will be listed later,
@@ -3003,7 +3008,11 @@ string get_item_description(const item_def &item,
                 }
             }
             else
-                description << db_desc;
+            {
+                // i18n: See note about long description above.
+                description << "@LONG_DESCRIPTION@\n";
+                long_desc = db_desc.substr(0, db_desc.length()-1);
+            }
 
             // Get rid of newline at end of description; in most cases we
             // will be adding "\n\n" immediately, and we want only one,
@@ -3305,7 +3314,9 @@ string get_item_description(const item_def &item,
             description << "\nMenu/colouring prefixes: " << menu_prefix;
     }
 
-    return description.str();
+    string result = localise(description.str());
+    result = replace_all(result, "@LONG_DESCRIPTION@", long_desc);
+    return result;
 }
 
 string get_cloud_desc(cloud_type cloud, bool include_title)
@@ -3953,7 +3964,7 @@ void get_item_desc(const item_def &item, describe_info &inf)
     // so we can actually output these spells if space is scarce.
     const item_description_mode mode = item.has_spells() ? IDM_PLAIN
                                                          : IDM_DEFAULT;
-    string name = item.name(DESC_INVENTORY_EQUIP) + ".";
+    string name = localise(item.name(DESC_INVENTORY_EQUIP)) + ".";
     if (!in_inventory(item))
         name = uppercase_first(name);
     inf.body << name << get_item_description(item, mode);
@@ -4275,7 +4286,7 @@ command_type describe_item_popup(const item_def &item,
     // Dead players use no items.
     do_actions = do_actions && !(you.pending_revival || crawl_state.updating_scores);
 
-    string name = item.name(DESC_INVENTORY_EQUIP) + ".";
+    string name = localise(item.name(DESC_INVENTORY_EQUIP)) + ".";
     if (!in_inventory(item))
         name = uppercase_first(name);
 
