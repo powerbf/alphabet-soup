@@ -112,16 +112,17 @@ Berserkerwut bis hin zu vollständiger Lähmung.
 %%%%
 rain cloud
 
-Ein lokal extrem begrenzter Regensturm. Er kann Pfützen mit flachem Wasser
-erzeugen oder bestehende Pfützen vorübergehend vertiefen. Wesen, die ganz aus
-Feuer bestehen, halten sich ungern lange im Regen auf.
+Ein lokal extrem begrenzter Regensturm. Er kann kurzlebige Pfützen mit flachem
+Wasser erzeugen. Wesen, die aus Feuer bestehen, halten sich ungern lange im
+Regen auf.
 %%%%
 mutagenic fog cloud
 
 Eine Wolke aus reiner, unstrukturierter Magie, zu einem schillernden
 Nebel verdichtet; im Grunde magischer Giftmüll. Kreaturen, die sich
 hineinwagen, werden zunehmend mit magischer Strahlung kontaminiert, die in
-ausreichender Menge negative Mutationen verursacht, wenn sie sich auflöst.
+ausreichender Menge negative Mutationen und sogar Explosionen wilder Magie
+verursacht, wenn sie sich auflöst.
 %%%%
 magical condensation cloud
 
@@ -155,11 +156,12 @@ Eine dunkle Gewitterwolke. Sie schlägt diejenigen, die sich in ihr befinden,
 in gewissen Abständen mit Blitzen und fügt denjenigen, die keinen Widerstand
 gegen Elektrizität haben, schweren Schaden zu.
 %%%%
-negative energy cloud
+excruciating misery cloud
 
-Eine Wolke aus nekromantischer Energie. Lebewesen, die sich darin befinden,
-wird ihre Lebensenergie entzogen, wobei Schutz vor negativer Energie
-die Auswirkungen abschwächt.
+Eine Wolke aus anhaltender Verzweiflung und nekromantischer Energie. Lebende
+Wesen, die darin gefangen sind, verlieren wiederholt kleine Anteile ihrer
+maximalen Gesundheit, wobei der Schutz vor negativer Energie die Auswirkungen
+abmildert.
 %%%%
 white fluffiness cloud
 
@@ -187,3 +189,77 @@ wisps of flame cloud
 
 Eine Spur aus Funken und Flämmchen. Atmosphärisch, aber harmlos.
 %%%%
+alcoholic mist cloud
+
+Ein Nebel aus zerstäubtem Schwarzgebrannten, der so dicht ist, dass Kreaturen
+schon betrunken werden können, wenn sie einfach nur hindurchgehen.
+%%%%
+blastmotes cloud
+
+Eine Wolke aus flüchtigem Sprengstaub. Dieser explodiert bei Kontakt mit
+Flammen oder Kreaturen. Die Explosion verursacht eine Druckwelle, die
+benachbarte Kreaturen wegschleudert.
+%%%%
+sparks cloud
+
+Eine Spur elektrischer Funken. Atmosphärisch, aber harmlos.
+%%%%
+faint pestilence cloud
+
+Ein kleiner Hauch übelriechender Pest, der von irgendwoher heraussickert. Zwar
+ist er noch nicht stark genug, um Schaden anzurichten, doch er verdichtet sich
+rasch.
+%%%%
+magnetised fragments cloud
+
+A cloud of countless tiny fragments of magnetised metal, still vibrating
+slightly from a recent electrical discharge. They will function as an attractor
+for the Magnavolt spell until they dissipate.
+
+Eine Wolke aus unzähligen winzigen Fragmenten magnetisierten Metalls, die nach
+einer vor Kurzem ausgelösten elektrischen Entladungnoch immer noch leicht
+vibrieren. Sie diesen als Anziehungspunkt für den Magnavolt-Zauber, bis sie sich
+auflösen.
+%%%%
+bats cloud
+
+A swarm of tiny vampire bats, so dense that it is impossible to count them all.
+They will relentlessly assail anything but the undead who stands in their midst,
+gradually lulling them to sleep with their soporific bites - and continuing to
+feed off their helpless body, once they fall.
+
+Ein Schwarm winziger Vampirfledermäuse, so dicht, dass es unmöglich ist, sie
+alle zu zählen. Abgesehen von Untoten greifen sie unerbittlich alles an, was
+sich in ihrer Mitte befindet, wiegen es mit ihren einschläfernden Bissen nach
+und nach in den Schlaf und ernähren sich weiter von den hilflosen Körpern,
+sobald diese fallen.
+%%%%
+rust cloud
+
+A cloud of oxidising vapour that continuously corrodes and weakens the attacks
+of whatever stands inside it (but does only minimal damage).
+
+Eine Wolke aus oxidierendem Dampf, der die Angriffskraft von allem, was sich in
+ihm befindet, fortlaufend korrodiert und schwächt (aber nur minimalen Schaden
+verursacht).
+%%%%
+glimmer cloud
+
+Eine schwache Wolke aus magischen Rückständen. Eine Berührung von ihr in
+Visionengestalt verwandelt sie in ein kleines Projektil und schießt sie auf
+einen Gegner in der Nähe.
+
+Jedes andere Wesen, das in die Wolke tritt, versetzt sie stattdessen auf ein
+benachbartes Feld - und sollten sich dabei keine gültigen Ziele in Reichweite
+befinden, wird es ebenso versetzt.
+%%%%
+frost cloud
+
+Eine Wolke aus winzigen schwebenden Eiskristallen, die in der Luft des Kerkers
+glitzern. Atmosphärisch, aber harmlos.
+%%%%
+blinding haze cloud
+
+Ein dichter Dunst, der die Sicht von Kreaturen trübt, die sich darin aufhalten
+und sie vorübergehend blind macht. Robustere, erfahrenere Wesen sind mit
+geringerer Wahrscheinlichkeit davon betroffen.
