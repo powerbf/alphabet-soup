@@ -214,7 +214,7 @@ magnetised fragments cloud
 
 Eine Wolke aus unzähligen winzigen Fragmenten magnetisierten Metalls, die nach
 einer vor Kurzem ausgelösten elektrischen Entladungnoch immer noch leicht
-vibrieren. Sie diesen als Anziehungspunkt für den Magnavolt-Zauber, bis sie sich
+vibrieren. Sie dienen als Anziehungspunkt für den Magnavolt-Zauber, bis sie sich
 auflösen.
 %%%%
 bats cloud
@@ -233,13 +233,13 @@ verursacht).
 %%%%
 glimmer cloud
 
-Eine schwache Wolke aus magischen Rückständen. Eine Berührung von ihr in
-Visionengestalt verwandelt sie in ein kleines Projektil und schießt sie auf
-einen Gegner in der Nähe.
+Eine schwache Wolke aus magischen Rückständen. Wenn du sie in deiner
+Visionengestalt berührst, verwandelt sie sich in ein kleines Projektil
+und wird auf einen Gegner in der Nähe abgeschossen.
 
-Jedes andere Wesen, das in die Wolke tritt, versetzt sie stattdessen auf ein
-benachbartes Feld - und sollten sich dabei keine gültigen Ziele in Reichweite
-befinden, wird es ebenso versetzt.
+Die Wolke wird auf ein benachbartes Feld verschoben, wenn ein anderes
+Wesen in sie hineintritt oder falls sich keine gültigen Ziele in
+Reichweite befinden, wenn du in sie hineintrittst.
 %%%%
 frost cloud
 
