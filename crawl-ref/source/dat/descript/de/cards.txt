@@ -49,8 +49,8 @@ the Cloud card
 Die Karte zeigt ein in Nebel gehülltes Eisentor.
 
 Das Ziehen dieser Karte hüllt die Feinde des Anwenders in Ringe aus
-sichtbehindernden Wolken ein. Die Dauer der erzeugten Wolken verbessert sich
-mit der Kraft der Karte.
+schädlichen Wolken ein. Die Effekte solcher Wolken variieren mit der
+Kraft der Karte.
 %%%%
 # Destruction
 Vitriol card
@@ -114,6 +114,7 @@ Auf der Karte sind Kultisten abgebildet, die ein rituelles Pentagramm auf den
 Boden zeichnen.
 
 Das Ziehen dieser Karte ruft ein Dämonenpaar zur Unterstützung des Benutzers.
+Es besteht eine kleine Chance, dass einer der Dämonen feindlich gesinnt ist.
 %%%%
 the Dance card
 
@@ -153,13 +154,6 @@ wütende Blitze zu schleudern.
 
 Das Ziehen dieser Karte zieht den Zorn eines Gottes auf den Benutzer.
 %%%%
-Famine card
-
-Die Karte zeigt eine hagere Gestalt, die über eine weite Ebene mit trockener,
-rissiger Erde kriecht.
-
-Das Ziehen dieser Karte bringt ihren Benutzer an den Rand des Verhungerns.
-%%%%
 the Wraith card
 
 Die Karte stellt absolut nichts dar.
@@ -179,14 +173,6 @@ Torment card
 Die Karte zeigt eine schreiende Figur, die auf einer Folterbank gequält wird.
 
 Das Ziehen dieser Karte fügt dem Benutzer die Agonie von Verletzungen zu.
-%%%%
-# cards for wizmode testing (&c)
-the Stairs card
-
-Auf der Karte ist Wasser abgebildet, das eine Treppe hinunterfließt.
-
-Wenn man diese Karte zieht, rutschen die Treppen zum Benutzer hin oder von ihm
-weg. Es ist ein Fehler, wenn man sie jemals in einem Deck findet.
 %%%%
 # buggy cards
 a buggy card
