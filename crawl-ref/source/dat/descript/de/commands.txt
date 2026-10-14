@@ -19,6 +19,31 @@ Erkundet automatisch die aktuelle Ebene, wobei brauchbare Gegenstände unterwegs
 aufgehoben werden. Die Erkundung stoppt, sobald ein feindseliges Monster in Sicht
 kommt oder du neue Gegenstände oder Kerkermerkmale findest.
 %%%%
+CMD_EXPLORE_NO_REST
+
+Erkunde automatisch die aktuelle Ebene ohne zuvor zu rasten
+%%%%
+CMD_EXPLORE_NO_REST verbose
+
+Erkundet automatisch die aktuelle Ebene und hebt unterwegs Gegenstände auf.
+Die Erkundung stoppt sobald ein feindliches Monster in Sicht kommt oder wenn du
+neue Gegenstände oder Merkmale entdeckst. Anders als CMD_EXPLORE behandelt dies
+explore_auto_rest so, als hätte es den Wert "false" und explore_auto_rest_status
+so, als wäre es leer.
+%%%%
+CMD_IGNORE_INVISIBLE
+
+Unterdrückt vorübergehend Warnungen bezüglich des Ausruhens, wenn sich
+unsichtbare Kreaturen möglicherweise in der Nähe befinden.
+%%%%
+CMD_IGNORE_INVISIBLE verbose
+
+Löscht alle aktuellen Erinnerungen an unsichtbare Kreaturen in der Nähe, sodass
+Rasten und automatisches Erkundunen in den seltenen Fällen funktionieren, in
+denen der Spieler feststellen kann, dass er in Sicherheit ist, die
+Benutzeroberfläche dies jedoch nicht kann (z. B. nachdem eine Tür vor einem
+Monster geschlossen wurde, das diese nicht öffnen kann).
+%%%%
 CMD_INTERLEVEL_TRAVEL
 
 Zu entfernten Ebenen reisen
@@ -379,13 +404,13 @@ CMD_ZOOM_OUT verbose
 
 Zoomt aus dem Bereich des Kerkers heraus.
 %%%%
-CMD_SHOW_KEYBOARD
+CMD_Toggle_KEYBOARD
 
-Tastatur zeigen
+Tastatur umschalten
 %%%%
-CMD_SHOW_KEYBOARD verbose
+CMD_TOGGLE_KEYBOARD verbose
 
-Ruft die Bildschirmtastatur auf, sofern verfügbar.
+Schaltet die Sichtbarkeit der Bildschirmtastatur um.
 %%%%
 CMD_GAME_MENU
 
