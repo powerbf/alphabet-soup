@@ -1053,6 +1053,18 @@ the jade talisman
 %%%%
 
 #################################
+# Baubles
+#################################
+
+%%%%
+the flux bauble
+
+%%%%
+the centipede bauble
+
+%%%%
+
+#################################
 # Corpses
 #################################
 
@@ -1101,6 +1113,9 @@ the sack of spiders
 
 %%%%
 the Gell's gravitambourine
+
+%%%%
+the shop voucher
 
 %%%%
 the quad damage
