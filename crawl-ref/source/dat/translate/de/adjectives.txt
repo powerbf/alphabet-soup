@@ -62,8 +62,9 @@
 "animated "
 "animierte "
 %%%%
-"cursed "
-"verfluchte "
+# Ashenzari
+"bound "
+"gebundene "
 %%%%
 "enchanted "
 "verzauberte "
@@ -86,9 +87,6 @@
 "bloodstained "
 "blutbefleckte "
 %%%%
-"bound "
-"gebundene "
-%%%%
 "buzzing "
 "summende "
 %%%%
@@ -100,6 +98,9 @@
 %%%%
 "colourful "
 "bunte "
+%%%%
+"corded "
+"geschnürte "
 %%%%
 # only used in "creamy pearl robe"
 "creamy "
