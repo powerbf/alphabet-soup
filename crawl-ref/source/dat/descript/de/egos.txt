@@ -1,96 +1,100 @@
 %%%%
 acid (acid) weapon ego
 
-Es bespritzt Opfer mit Säure (2d4 Schaden, Korrosion).
+Diese Waffe bespritzt Opfer mit Säure (2d4 Schaden, Korrosion).
 %%%%
 antimagic (antimagic) weapon ego
 
-Es verringert deine magische Energie und stört die Zauber und magischen
-Fähigkeiten derjenigen, die es trifft. Natürliche Fähigkeiten und göttliche
-Anrufungen sind davon nicht betroffen.
+Diese Waffe verringert deine magische Energie und stört die Zauber und
+magischen Fähigkeiten derjenigen, die es trifft. Natürliche Fähigkeiten
+und göttliche Anrufungen sind davon nicht betroffen.
 %%%%
 chaos (chaos) weapon ego
 
-Jeder Treffer damit hat einen anderen, zufälligen Effekt.
+Jeder Treffer mit dieser Waffe hat einen anderen, zufälligen Effekt.
 %%%%
 concussion (concuss) weapon ego
 
-Es stößt getroffene Gegner nach hinten und betäubt sie dabei kurzzeitig. Wenn
-es sie gegen ein festes Hindernis stößt, erleiden sie stattdessen ein weiteres
-Drittel von jeglichem Schaden, der ihre Rüstung durchdringt.
+Diese Waffe stößt getroffene Gegner nach hinten und betäubt sie dabei
+kurzzeitig. Wenn es sie gegen ein festes Hindernis stößt, erleiden sie
+stattdessen ein weiteres Drittel von jeglichem Schaden, der ihre Rüstung
+durchdringt.
 %%%%
 distortion (distort) weapon ego
 
-Es verzerrt und verformt den Raum um sich herum und kann Getroffene blenden,
-verbannen oder ihnen zusätzlichen Schaden zufügen. Wenn du es nicht richtig
-einsetzt, kann es dich zu Gegnern teleportieren oder dich in den Abgrund
+Diese Waffe verzerrt und verformt den Raum um sich herum und kann Getroffene
+blenden, verbannen oder ihnen zusätzlichen Schaden zufügen. Wenn du es aus der
+Hand legst, kann es dich zu Gegnern teleportieren oder dich in den Abgrund
 verbannen.
 %%%%
 devious (devious) weapon ego
 
-Es erhöht die Wahrscheinlichkeit, anfällige Ziele zu erstechen und jedes Mal,
-wenn dies geschieht, steigert es vorübergehend das AW und den Töten-Bonus des
-Trägers.
+Diese Waffe erhöht die Wahrscheinlichkeit, anfällige Ziele zu erstechen und
+jedes Mal, wenn dies geschieht, steigert es vorübergehend das AW und den
+Töten-Bonus des Trägers.
 %%%%
 draining (drain) weapon ego
 
-Es zehrt manchmal lebende Opfer aus (Wahrscheinlichkeit: 1/2). Dies verursacht
-zusätzlich ein Viertel jeglichen Schadens, der die Rüstung des Verteidigers
-durchdringt, sowie einen festen Schaden von 2–4. Zudem schwächt es ihn leicht.
+Diese Waffe zehrt manchmal lebende Opfer aus (Wahrscheinlichkeit: 1/2). Dies
+verursacht zusätzlich ein Viertel jeglichen Schadens, der die Rüstung des
+Verteidigers durchdringt, sowie einen festen Schaden von 2–4. Zudem schwächt
+es ihn leicht.
 %%%%
 electrocution (elec) weapon ego
 
-Es versetzt Opfern manchmal einen Stromschlag (Wahrscheinlichkeit: 1/4,
-8-20 Schaden).
+Diese Waffe versetzt Opfern manchmal einen Stromschlag (Wahrscheinlichkeit:
+1/4, 8-20 Schaden).
 %%%%
 entangling (entangle) weapon ego
 
-Es umschlingt jene, die es angreift, manchmal mit Ranken. (Wahrscheinlichkeit:
-1/2, 2-4 Schaden).
+Diese Waffe umschlingt jene, die es angreift, manchmal mit Ranken.
+(Wahrscheinlichkeit: 1/2, 2-4 Schaden).
 %%%%
 flaming (flame) weapon ego
 
-Es verbrennt Opfer und verursacht zusätzlich ein Viertel jeglichen Schadens,
-der die Rüstung des Verteidiges durchdringt.
+Diese Waffe verbrennt Opfer und verursacht zusätzlich ein Viertel jeglichen
+Schadens, der die Rüstung des Verteidiges durchdringt.
 %%%%
 flaming (flame) weapon ego blade
 
-Es verbrennt Opfer und verursacht zusätzlich ein Viertel jeglichen Schadens,
-der die Rüstung des Verteidiges durchdringt. Große, feurige Klingen sind
-außerdem die Standardwaffen von Hydra-Jägern.
+Diese Waffe verbrennt Opfer und verursacht zusätzlich ein Viertel jeglichen
+Schadens, der die Rüstung des Verteidiges durchdringt. Große, feurige Klingen
+sind außerdem die Standardwaffen von Hydra-Jägern.
 %%%%
 freezing (freeze) weapon ego
 
-Es gefriert Opfer und verursacht zusätzlich ein Viertel jeglichen Schadens,
-der die Rüstung des Verteidiges durchdringt. Außerdem kann es kaltblütige
-Kreaturen verlangsamen.
+Diese Waffe gefriert Opfer und verursacht zusätzlich ein Viertel jeglichen
+Schadens, der die Rüstung des Verteidiges durchdringt. Außerdem kann es
+kaltblütige Kreaturen verlangsamen.
 %%%%
 foul flame (foul flame) weapon ego
 
-Es wurde mit einer unreinen Flamme erfüllt und fügt heiligen Wesen drei Viertel
-mehr Schaden zu, Untoten und Dämonen ein Viertel mehr Schaden und allen anderen
-die Hälfte mehr, sofern der Schaden die Rüstung durchdringt. Heilige Wesen
-und Anhänger der guten Götter können diesen Gegenstand nicht verwenden.
+Diese Waffe wurde mit einer unreinen Flamme erfüllt und fügt heiligen Wesen
+drei Viertel mehr Schaden zu, Untoten und Dämonen ein Viertel mehr Schaden und
+allen anderen die Hälfte mehr, sofern der Schaden die Rüstung durchdringt.
+Heilige Wesen und Anhänger der guten Götter können diesen Gegenstand nicht
+verwenden.
 %%%%
 heavy (heavy) weapon ego
 
-Es verursacht deutlich mehr Schaden, aber Angriffe damit sind viel langsamer.
+Diese Waffe verursacht deutlich mehr Schaden, aber Angriffe damit sind viel
+langsamer.
 %%%%
 heavy (heavy) weapon ego ranged
 
-Jede davon abgefeuerte Munition verursacht deutlich mehr Schaden, aber Angriffe
-damit sind viel langsamer.
+Jede mit dieser Waffe abgefeuerte Munition verursacht deutlich mehr Schaden,
+aber Angriffe mit ihr sind viel langsamer.
 %%%%
 holy wrath (holy) weapon ego
 
-Es wurde vom Strahlenden gesegnet und verursacht zusätzlich drei Viertel
-jeglichen Schadens, der die Rüstung von Untoten und Dämonen durchdringt. Untote
-und Dämonen können diesen Gegenstand nicht verwenden.
+Diese Waffe wurde vom Strahlenden gesegnet und verursacht zusätzlich drei
+Viertel jeglichen Schadens, der die Rüstung von Untoten und Dämonen durchdringt.
+Untote und Dämonen können diesen Gegenstand nicht verwenden.
 %%%%
 pain (pain) weapon ego
 
-Es verursacht bei lebenden Kreaturen zusätzlichen Schaden, der proportional
-zu deiner Fertigkeit Nekromantie ist.{{
+Diese Waffe verursacht bei lebenden Kreaturen zusätzlichen Schaden, der
+proportional zu deiner Fertigkeit Nekromantie ist.{{
     if you.god() == "Trog" then
         return " Trog hindert dich daran, diesen Effekt zu entfesseln.";
     end
@@ -102,325 +106,334 @@ zu deiner Fertigkeit Nekromantie ist.{{
 %%%%
 penetration (penet) weapon ego
 
-Jede damit abgefeuerte Munition fliegt nach dem Treffen von Zielen weiter und
-trifft potentiell alles in ihrem Weg, bis sie aus dem Blickfeld verschwindet.
+Jede mit dieser Waffe abgefeuerte Munition fliegt nach dem Treffen von Zielen
+weiter und trifft potentiell alles in ihrem Weg, bis sie aus dem Blickfeld
+verschwindet.
 %%%%
 protection (protect) weapon ego
 
-Es gewährt dir nachdem es etwas trifft vorübergehenden Schutz (+7 RK).
+Diese Waffe gewährt dir nachdem es etwas trifft vorübergehenden Schutz (+7 RK).
 %%%%
 reaping (reap) weapon ego
 
-Jeder lebende, heilige oder dämonische Gegner, dem dadurch Schaden zugefügt
-wird, kann nach seinem Tod vorübergehend als verbündetes Spekrtalwesen
-wiederbelebt werden, mit steigender Wahrscheinlichkeit, je mehr Schaden
-zugefügt wird.
+Jeder lebende, heilige oder dämonische Gegner, dem durch diese Waffe Schaden
+zugefügt wird, kann nach seinem Tod vorübergehend als verbündetes
+Spekrtalwesen wiederbelebt werden, mit steigender Wahrscheinlichkeit, je
+mehr Schaden zugefügt wird.
 %%%%
 rebuke (rebuke) weapon ego
 
-Es schützt den Träger, wenn seine letzte Aktion ein Nahkampfangriff war
-(+10 Sch), und leitet geblockte Nahkampfangriffe auf andere Gegner in der Nähe
-um.
+Diese Waffe schützt den Träger, wenn seine letzte Aktion ein Nahkampfangriff
+war (+10 Sch), und leitet geblockte Nahkampfangriffe auf andere Gegner in
+der Nähe um.
 %%%%
 spectralising (spect) weapon ego
 
-Wenn du damit angreifst, springt der Geist dieser Waffe heraus und führt einen
+Wenn du mit dieser Waffe angreifst, springt ihr Geist heraus und führt einen
 zweiten, etwas schwächeren Schlag aus. Der Geist teilt mit dir einen Teil
 jeglichen Schadens, den er erleidet.
 %%%%
 speed (speed) weapon ego
 
-Angriffe damit sind signifikant schneller.
+Angriffe mit dieser Waffe sind signifikant schneller.
 %%%%
 sundering (sunder) weapon ego
 
-Wenn du damit mehrere Angriffe direkt hintereinander ausführst, verursacht der
-nächste Angriff deutlich höheren Schaden und trifft zudem Ziele, die ein
-zusätzliches Feld entfernt sind.
+Wenn du mit dieser Waffe mehrere Angriffe direkt hintereinander ausführst,
+verursacht der nächste Angriff deutlich höheren Schaden und trifft zudem Ziele,
+die ein zusätzliches Feld entfernt sind.
 %%%%
 valour (valour) weapon ego
 
-Es feuert immer dann einen Energiestrahl ab, wenn es einen Gegner trifft
-solange sein Träger noch mindestens 80 % seiner maximalen Trefferpunkte
-besitzt. Es aus der Hand zu legen, schwächt seinen Träger kurzzeitig.
+Diese Waffe feuert immer dann einen Energiestrahl ab, wenn es einen Gegner
+trifft solange sein Träger noch mindestens 80% seiner maximalen Trefferpunkte
+besitzt. Sie aus der Hand zu legen, schwächt ihren Träger kurzzeitig.
 %%%%
 vampirism (vamp) weapon ego
 
-Es heilt dich gelegentlich für einen Teil des verursachten Schadens, wenn es
-ein lebendes Wesen verwundet.
+Diese Waffe heilt dich gelegentlich für einen Teil des verursachten Schadens,
+wenn es ein lebendes Wesen verwundet.
 %%%%
 venom (venom) weapon ego
 
-Es vergiftet Opfer.
+Diese Waffe vergiftet Opfer.
 %%%%
 air (Air) armour ego
 
-Es verstärkt deine Luftmagie.
+Diese Rüstung verstärkt deine Luftmagie.
 %%%%
 archery (Archery) armour ego
 
-Es verursacht im Fernkampf nur ein Drittel der üblichen Belastung durch Rüstung
-und erhöht den Fernkampfschaden geringfügig, abhängig von der Rüstungsfertigkeit
-des Trägers.
+Diese Rüstung verursacht im Fernkampf nur ein Drittel der üblichen Belastung
+durch Rüstung und erhöht den Fernkampfschaden geringfügig, abhängig von der
+Rüstungsfertigkeit des Trägers.
 %%%%
 attunement (Attunement) armour ego
 
-Zusammen mit einem Zauberstab getragen verdoppelt es die Wirksamkeit des
-Hauptverstärkers dieses Zauberstabs und sorgt dafür, dass Nahkampfangriffe,
+Zusammen mit einem Zauberstab getragen verdoppelt diese Rüstung die Wirksamkeit
+des Hauptverstärkers dieses Zauberstabs und sorgt dafür, dass Nahkampfangriffe,
 die damit ausgeführt werden, eine kleine Menge an MP wiederherstellen.
 %%%%
 cold resistance (rC+) armour ego
 
-Es schützt dich vor Kälte.
+Diese Rüstung schützt dich vor Kälte.
 %%%%
 command (Command) armour ego
 
-Es verbessert die Macht und den Erfolg deiner Beschwörungszauber proportional
-zu deiner Fertigkeit Rüstung.
+Diese Rüstung verbessert die Macht und den Erfolg deiner Beschwörungszauber
+proportional zu deiner Fertigkeit Rüstung.
 %%%%
 corrosion resistance (rCorr) armour ego
 
-Es schützt dich vor den Auswirkungen von Säure und Korrosion.
+Diese Rüstung schützt dich vor den Auswirkungen von Säure und Korrosion.
 %%%%
 death (Death) armour ego
 
-Es verstärkt deine Nekromantiezauber und erhöht deren Erfolgswahrscheinlichkeit.
-Wenn du einen Nekromantiezauber wirkst, kann dieser die Lebenskraft anfälliger
-benachbarter Gegner entziehen, um dich zu heilen; die Wahrscheinlichkeit und
-Stärke dieses Effekts hängen von der Stufe des Zaubers ab.
+Diese Rüstung verstärkt deine Nekromantiezauber und erhöht deren
+Erfolgswahrscheinlichkeit. Wenn du einen Nekromantiezauber wirkst, kann dieser
+die Lebenskraft anfälliger benachbarter Gegner entziehen, um dich zu heilen;
+die Wahrscheinlichkeit und Stärke dieses Effekts hängen von der Stufe des Zaubers
+ab.
 %%%%
 dexterity (Dex+3) armour ego
 
-Es erhöht deine Geschicklichkeit (Ges +3).
+Diese Rüstung erhöht deine Geschicklichkeit (Ges +3).
 %%%%
 earth (Earth) armour ego
 
-Es verstärkt deine Erdmagie.
+Diese Rüstung verstärkt deine Erdmagie.
 %%%%
 energy (Energy) armour ego
 
-Es kann die für das Wirken von Zaubern aufgewendete Magie zurückerstatten, senkt
-jedoch deren Erfolgsquote. Es erstattet immer die für fehlgeschlagene Zauber
-aufgewendete Magie zurück. Die Chance auf eine Zauber-Rückerstattung wird durch
-deine Fertigkeit Evokationen erhöht.
+Diese Rüstung kann die für das Wirken von Zaubern aufgewendete Magie
+zurückerstatten, senkt jedoch deren Erfolgsquote. Es erstattet immer die für
+fehlgeschlagene Zauber aufgewendete Magie zurück. Die Chance auf eine
+Zauber-Rückerstattung wird durch deine Fertigkeit Evokationen erhöht.
 %%%%
 fire (Fire) armour ego
 
-Es verstärkt deine Feuermagie.
+Diese Rüstung verstärkt deine Feuermagie.
 %%%%
 fire resistance (rF+) armour ego
 
-Es schützt dich vor Feuer.
+Diese Rüstung schützt dich vor Feuer.
 %%%%
 flying (Fly) armour ego
 
-Es gewährt dir die Fähigkeit zu fliegen.
+Diese Rüstung gewährt dir die Fähigkeit zu fliegen.
 %%%%
 glass (Glass) armour ego
 
-Es kann deine Gegner vitrifiziert wenn du sie verletzt, wodurch sie anfälliger
-für weiteren Schaden werden. Deine Fertigkeit Evokationen erhöht die
-Wahrscheinlichkeit und die Dauer der Vitrifizierung.
+Diese Rüstung kann deine Gegner vitrifizieren wenn du sie verletzt, wodurch
+sie anfälliger für weiteren Schaden werden. Deine Fertigkeit Evokationen erhöht
+die Wahrscheinlichkeit und die Dauer der Vitrifizierung.
 %%%%
 guile (Guile) armour ego
 
-Es schwächt sowohl deine Willenskraft als auch die Willenskraft aller, die du
-verhext, wobei letzteres durch deine Fertigkeit Evokationen verstärkt wird.
+Diese Rüstung schwächt sowohl deine Willenskraft als auch die Willenskraft
+aller, die du verhext, wobei letzteres durch deine Fertigkeit Evokationen
+verstärkt wird.
 %%%%
 harm (Harm) armour ego
 
-Es erhöht Schaden den du austeilst und nimmst.
+Diese Rüstung erhöht Schaden den du austeilst und nimmst.
 
 %%%%
 hurling (Hurl) armour ego
 
-Es verbessert deine Treffsicherheit und den Schaden mit Wurfwaffen wie Steinen
-und Wurfspeeren (Töten +4).
+Diese Rüstung verbessert deine Treffsicherheit und den Schaden mit Wurfwaffen
+wie Steinen und Wurfspeeren (Töten +4).
 %%%%
 ice (Ice) armour ego
 
-Es verstärkt deine Eismagie.
+Diese Rüstung verstärkt deine Eismagie.
 %%%%
 infusion (Infuse) armour ego
 
-Es verstärkt jeden deiner Nahkampfangriffe mit einen kleinen Teil deiner Magie.
+Diese Rüstung verstärkt jeden deiner Nahkampfangriffe mit einen kleinen Teil
+deiner Magie.
 %%%%
 intelligence (Int+3) armour ego
 
-Es erhöht deine Intelligenz (Int +3).
+Diese Rüstung erhöht deine Intelligenz (Int +3).
 %%%%
 invisibility (+Inv) armour ego
 
-Bei Aktivierung macht es dich vorübergehend unsichtbar, zehrt jedoch auch deine
-maximale Gesundheit aus.
+Bei Aktivierung macht diese Rüstung dich vorübergehend unsichtbar, zehrt jedoch
+auch deine maximale Gesundheit aus.
 %%%%
 light (Light) armour ego
 
-Es umgibt dich mit einem leuchtenden Heiligenschein, der unsichtbare Wesen
-offenbart, die Treffgenauigkeit gegenüber allen außer dir erhöht und deine
-Heimlichkeit reduziert.
+Diese Rüstung umgibt dich mit einem leuchtenden Heiligenschein, der
+unsichtbare Wesen offenbart, die Treffgenauigkeit gegenüber allen außer dir
+erhöht und deine Heimlichkeit reduziert.
 %%%%
 mayhem (Mayhem) armour ego
 
-Es versetzt Zeugen deiner Tötungen in Raserei und lässt sie alles in der Nähe
-mit großer Kraft und Geschwindigkeit angreifen.
+Diese Rüstung versetzt Zeugen deiner Tötungen in Raserei und lässt sie alles
+in der Nähe mit großer Kraft und Geschwindigkeit angreifen.
 %%%%
 mesmerism (Mesmerism) armour ego
 
-Wenn du im Nahkampf getroffen wirst, macht es alle Gegner in der Nähe kurzzeitig
-benommen. Anschließend muss es wieder aufladen während du eine Weile stillstehst.
-Die Dauer, der Wirkungsradius und die Wiederaufladegeschwindigkeit werden durch
-deine Fertigkeit Evokationen verbessert.
+Wenn du im Nahkampf getroffen wirst, macht diese Rüstung alle Gegner in der
+Nähe kurzzeitig benommen. Anschließend muss sie wieder aufladen während du
+eine Weile stillstehst. Die Dauer, der Wirkungsradius und die
+Wiederaufladegeschwindigkeit werden durch deine Fertigkeit Evokationen
+verbessert.
 
-Es wird kurzzeitig deaktiviert, wenn du eine andere Ebene betritt.
+Der Effekt wird kurzzeitig deaktiviert, wenn du eine andere Ebene betritt.
 %%%%
 parrying (Parrying) armour ego
 
-Er schützt dich, wenn deine letzte Aktion ein Nahkampfangriff war. Der Schutz
-ist nur halb so wirksam, wenn deine Nebenhand einem anderen Gegenstand als
-eine Waffe hält.
+Diese Rüstung schützt dich, wenn deine letzte Aktion ein Nahkampfangriff war.
+Der Schutz ist nur halb so wirksam, wenn deine Nebenhand einem anderen
+Gegenstand als eine Waffe hält.
 %%%%
 poison resistance (rPois) armour ego
 
-Es schützt dich vor Gift.
+Diese Rüstung schützt dich vor Gift.
 %%%%
 ponderousness (Ponderous) armour ego
 
-Es ist sehr sperrig und verlangsamt deine Bewegung.
+Diese Rüstung ist sehr sperrig und verlangsamt deine Bewegung.
 %%%%
 positive energy (rN+) armour ego
 
-Es schützt dich vor den Auswirkungen negativer Energie.
+Diese Rüstung schützt dich vor den Auswirkungen negativer Energie.
 %%%%
 protection (AC+3) armour ego
 
-Es schützt dich vor den meisten Schadensquellen (RK +3).
+Diese Rüstung schützt dich vor den meisten Schadensquellen (RK +3).
 %%%%
 pyromania (Pyromania) armour ego
 
-Sie verstärkt deine Feuermagie und kann eine Flammenwolke um dich herum
-entfesseln, wann immer du einen Gegner auf andere Weise als durch einen Angriff
-tötest. Die Wahrscheinlichkeit und der Schaden der Explosion skalieren beide
-mit Evokationen und sie kann höchstens einmal pro Runde ausgelöst werden.
+Diese Rüstung verstärkt deine Feuermagie und kann eine Flammenwolke um dich
+herum entfesseln, wann immer du einen Gegner auf andere Weise als durch einen
+Angriff tötest. Die Wahrscheinlichkeit und der Schaden der Explosion skalieren
+beide mit Evokationen und sie kann höchstens einmal pro Runde ausgelöst werden.
 %%%%
 rampaging (Rampage) armour ego
 
-Es lässt dich einen zusätzlichen Schritt machen, wenn du dich auf Gegner
-zubewegst und betäubt diese kurz, falls ein Angriff daraus resultiert.
+Diese Rüstung lässt dich einen zusätzlichen Schritt machen, wenn du dich auf
+Gegner zubewegst und betäubt diese kurz, falls ein Angriff daraus resultiert.
 %%%%
 reflection (Reflect) armour ego
 
-Es reflektiert geblockte Angriffe mit Geschossen.
+Diese Rüstung reflektiert geblockte Angriffe mit Geschossen.
 %%%%
 repulsion (Repulsion) armour ego
 
-Es hilft dir, sowohl magischen als auch nicht-magischen Geschossen auszuweichen
-(AW +15).
+Diese Rüstung hilft dir, sowohl magischen als auch nicht-magischen Geschossen
+auszuweichen (AW +15).
 %%%%
 resistance (rC+ rF+) armour ego
 
-Es schützt dich vor den Auswirkungen von sowohl Feuer als auch Kälte.
+Diese Rüstung schützt dich vor den Auswirkungen von sowohl Feuer als auch
+Kälte.
 %%%%
 resonance (Resonance) armour ego
 
-Es erhöht die Erfolgsquote deiner Schmiede-Zauber und verstärkt deine
-Nahkampfangriffe proportional zu deiner Fertigkeit Schmiedezauberei, wenn du
-im Nahkampf einen Gegner angreifst, der sich neben einem deiner Konstrukte
-befindet.
+Diese Rüstung erhöht die Erfolgsquote deiner Schmiede-Zauber und verstärkt
+deine Nahkampfangriffe proportional zu deiner Fertigkeit Schmiedezauberei,
+wenn du im Nahkampf einen Gegner angreifst, der sich neben einem deiner
+Konstrukte befindet.
 %%%%
 see invisible (SInv) armour ego
 
-Es erlaubt dir unsichtbare Dinge zu sehen.
+Diese Rüstung erlaubt dir unsichtbare Dinge zu sehen.
 %%%%
 shadows (Shadows) armour ego
 
-Es reduziert die Entfernung, in der du und andere sich sehen können.
+Diese Rüstung reduziert die Entfernung, in der du und andere sich sehen können.
 %%%%
 sniping (Snipe) armour ego
 
-Es erhöht deinen Schaden mit Fernkampf- und Wurfwaffen um weitere 50 % gegen
-handlungsunfähige Ziele. Handlungsunfähige Ziele sind solche, die schlafen,
-gelähmt, versteinert, verwirrt oder in einem Netz gefangen sind.
+Diese Rüstung erhöht deinen Schaden mit Fernkampf- und Wurfwaffen um weitere
+50% gegen handlungsunfähige Ziele. Handlungsunfähige Ziele sind solche, die
+schlafen, gelähmt, versteinert, verwirrt oder in einem Netz gefangen sind.
 %%%%
 spirit shield (Spirit) armour ego
 
-Es teilt eingehenden Schaden auf deine Lebens- und Magiereserven auf.
+Diese Rüstung teilt eingehenden Schaden auf deine Lebens- und Magiereserven auf.
 %%%%
 stardust (Stardust) armour ego
 
-Es zaubert eine Salve von Sternschnuppen herbei, wenn du in einem Kampf zum
-ersten Mal MP verwendest, um einen Zauber zu wirken oder eine Fähigkeit
-einzusetzen. Erst wenn deine MP wiederhergestellt und keine Gegner mehr übrig
-sind, lädt sich der Effekt wieder auf. Deine Fertigkeit Evokationen erhöht die
-Anzahl und den Schaden der Sternschnuppen und die verbrauchten MP erhöhen
-den Schaden zusätzlich.
+Diese Rüstung zaubert eine Salve von Sternschnuppen herbei, wenn du in einem
+Kampf zum ersten Mal MP verwendest, um einen Zauber zu wirken oder eine
+Fähigkeit einzusetzen. Erst wenn deine MP wiederhergestellt und keine Gegner
+mehr übrig sind, lädt sich der Effekt wieder auf. Deine Fertigkeit Evokationen
+erhöht die Anzahl und den Schaden der Sternschnuppen und die verbrauchten MP
+erhöhen den Schaden zusätzlich.
 %%%%
 stealth (Stlth+) armour ego
 
-Es verbessert deine Heimlichkeit.
+Diese Rüstung verbessert deine Heimlichkeit.
 %%%%
 strength (Str+3) armour ego
 
-Es erhöht deine Stärke (Stä +3).
+Diese Rüstung erhöht deine Stärke (Stä +3).
 %%%%
 the Archmagi (Archmagi) armour ego
 
-Es erhöht die Macht deiner Zaubersprüche.
+Diese Rüstung erhöht die Macht deiner Zaubersprüche.
 %%%%
 willpower (Will+) armour ego
 
-Es erhöht deine Willenskraft und schützt vor bestimmten magischen Effekten.
+Diese Rüstung erhöht deine Willenskraft und schützt vor bestimmten magischen
+Effekten.
 %%%%
 wrath (*Rage) armour ego
 
-Es lässt dich in Berserkerwut verfallen, wenn du Nahkampfangriffe ausführst
-(Wahrscheinlichkeit: 20 %).
+Diese Rüstung lässt dich in Berserkerwut verfallen, wenn du Nahkampfangriffe
+ausführst (Wahrscheinlichkeit: 20%).
 %%%%
 atropa-tipped (atropa) missile ego
 
-Es ist mit einer Substanz beschichtet, die Blindheit und kurzzeitige Verwirrung
-verursacht.
+Dieses Geschoss ist mit einer Substanz beschichtet, die Blindheit und
+kurzzeitige Verwirrung verursacht.
 
 Die Chance der erfolgreichen Anwendung der Wirkung steigt mit deinen
 Fertigkeiten Werfen und Heimlichkeit.
 %%%%
 chaos (chaos) missile ego
 
-Wenn es geworfen wird, hat es eine zufällige Wirkung.
+Wenn dieses Geschoss geworfen wird, hat es eine zufällige Wirkung.
 %%%%
 curare-tipped (curare) missile ego
 
-Es ist mit einer Substanz beschichtet, die Erstickung verursacht, den
-Getroffenen direkten Schaden zufügt und sie vergiftet sowie verlangsamt.
+Dieses Geschoss ist mit einer Substanz beschichtet, die Erstickung verursacht,
+den Getroffenen direkten Schaden zufügt und sie vergiftet sowie verlangsamt.
 
 Die Wahrscheinlichkeit, beim Aufprall zerstört zu werden, ist doppelt so hoch
 wie bei anderen Wurfpfeilen.
 %%%%
 datura-tipped (datura) missile ego
 
-Es ist mit einer Substanz beschichtet, die Getroffene in sinnlose Raserei
-versetzt, sodass sie Freund und Feind gleichermaßen angreifen.
+Dieses Geschoss ist mit einer Substanz beschichtet, die Getroffene in sinnlose
+Raserei versetzt, sodass sie Freund und Feind gleichermaßen angreifen.
 
 Die Chance der erfolgreichen Anwendung der Wirkung steigt mit deinen
 Fertigkeiten Werfen und Heimlichkeit.
 %%%%
 disjunction (disjunct) missile ego
 
-Es löst jedes getroffene Ziel vorübergehend vom Raum los und lässt es mehrere
-Runden lang von dir wegblinzeln und dabei jedes Mal geringen Schaden erleiden.
+Dieses Geschoss löst jedes getroffene Ziel vorübergehend vom Raum los und lässt
+es mehrere Runden lang von dir wegblinzeln und dabei jedes Mal geringen Schaden
+erleiden.
 %%%%
 dispersal (disperse) missile ego
 
-Es lässt jedes getroffene Ziel blinzeln, mit der Tendenz sich weiter von dir
-weg zu blinzeln.
+Dieses Geschoss lässt jedes getroffene Ziel blinzeln, mit der Tendenz sich
+weiter von dir weg zu blinzeln.
 %%%%
 poisoned (poison) missile ego
 
-Es ist mit Gift überzogen.
+Dieses Geschoss ist mit Gift überzogen.
 %%%%
 silver (silver) missile ego
 
-Es verursacht im Vergleich zu normalen Geschossen höheren Schaden und erheblich
-höheren Schaden bei chaotischen und magisch verwandelten Wesen. Außerdem fügt es
-mutierten Wesen zusätzlichen Schaden zu, je nachdem, wie stark sie mutiert sind.
+Dieses Geschoss verursacht im Vergleich zu normalen Geschossen höheren Schaden
+und erheblich höheren Schaden bei chaotischen und magisch verwandelten Wesen.
+Außerdem fügt es mutierten Wesen zusätzlichen Schaden zu, je nachdem, wie
+stark sie mutiert sind.
 %%%%
