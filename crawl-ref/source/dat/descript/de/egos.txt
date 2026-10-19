@@ -16,21 +16,21 @@ Jeder Treffer mit dieser Waffe hat einen anderen, zufälligen Effekt.
 concussion (concuss) weapon ego
 
 Diese Waffe stößt getroffene Gegner nach hinten und betäubt sie dabei
-kurzzeitig. Wenn es sie gegen ein festes Hindernis stößt, erleiden sie
+kurzzeitig. Wenn sie gegen ein festes Hindernis stoßen, erleiden sie
 stattdessen ein weiteres Drittel von jeglichem Schaden, der ihre Rüstung
 durchdringt.
 %%%%
 distortion (distort) weapon ego
 
 Diese Waffe verzerrt und verformt den Raum um sich herum und kann Getroffene
-blenden, verbannen oder ihnen zusätzlichen Schaden zufügen. Wenn du es aus der
-Hand legst, kann es dich zu Gegnern teleportieren oder dich in den Abgrund
-verbannen.
+blenden, verbannen oder ihnen zusätzlichen Schaden zufügen. Wenn du sie aus
+der Hand legst, kann sie dich zu Gegnern teleportieren oder dich in den
+Abgrund verbannen.
 %%%%
 devious (devious) weapon ego
 
 Diese Waffe erhöht die Wahrscheinlichkeit, anfällige Ziele zu erstechen und
-jedes Mal, wenn dies geschieht, steigert es vorübergehend das AW und den
+jedes Mal, wenn dies geschieht, steigert sie vorübergehend das AW und den
 Töten-Bonus des Trägers.
 %%%%
 draining (drain) weapon ego
@@ -47,7 +47,7 @@ Diese Waffe versetzt Opfern manchmal einen Stromschlag (Wahrscheinlichkeit:
 %%%%
 entangling (entangle) weapon ego
 
-Diese Waffe umschlingt jene, die es angreift, manchmal mit Ranken.
+Diese Waffe umschlingt jene, die sie angreift, manchmal mit Ranken.
 (Wahrscheinlichkeit: 1/2, 2-4 Schaden).
 %%%%
 flaming (flame) weapon ego
@@ -64,7 +64,7 @@ sind außerdem die Standardwaffen von Hydra-Jägern.
 freezing (freeze) weapon ego
 
 Diese Waffe gefriert Opfer und verursacht zusätzlich ein Viertel jeglichen
-Schadens, der die Rüstung des Verteidiges durchdringt. Außerdem kann es
+Schadens, der die Rüstung des Verteidiges durchdringt. Außerdem kann sie
 kaltblütige Kreaturen verlangsamen.
 %%%%
 foul flame (foul flame) weapon ego
@@ -112,7 +112,7 @@ verschwindet.
 %%%%
 protection (protect) weapon ego
 
-Diese Waffe gewährt dir nachdem es etwas trifft vorübergehenden Schutz (+7 RK).
+Diese Waffe gewährt dir nachdem sie etwas trifft vorübergehenden Schutz (+7 RK).
 %%%%
 reaping (reap) weapon ego
 
@@ -124,7 +124,7 @@ mehr Schaden zugefügt wird.
 rebuke (rebuke) weapon ego
 
 Diese Waffe schützt den Träger, wenn seine letzte Aktion ein Nahkampfangriff
-war (+10 Sch), und leitet geblockte Nahkampfangriffe auf andere Gegner in
+war (+10 Sch) und leitet geblockte Nahkampfangriffe auf andere Gegner in
 der Nähe um.
 %%%%
 spectralising (spect) weapon ego
@@ -145,14 +145,14 @@ die ein zusätzliches Feld entfernt sind.
 %%%%
 valour (valour) weapon ego
 
-Diese Waffe feuert immer dann einen Energiestrahl ab, wenn es einen Gegner
-trifft solange sein Träger noch mindestens 80% seiner maximalen Trefferpunkte
+Diese Waffe feuert immer dann einen Energiestrahl ab, wenn sie einen Gegner
+trifft solange ihr Träger noch mindestens 80% seiner maximalen Trefferpunkte
 besitzt. Sie aus der Hand zu legen, schwächt ihren Träger kurzzeitig.
 %%%%
 vampirism (vamp) weapon ego
 
 Diese Waffe heilt dich gelegentlich für einen Teil des verursachten Schadens,
-wenn es ein lebendes Wesen verwundet.
+wenn sie ein lebendes Wesen verwundet.
 %%%%
 venom (venom) weapon ego
 
@@ -192,9 +192,10 @@ death (Death) armour ego
 Diese Rüstung verstärkt deine Nekromantiezauber und erhöht deren
 Erfolgswahrscheinlichkeit. Wenn du einen Nekromantiezauber wirkst, kann dieser
 die Lebenskraft anfälliger benachbarter Gegner entziehen, um dich zu heilen;
-die Wahrscheinlichkeit und Stärke dieses Effekts hängen von der Stufe des Zaubers
-ab.
+die Wahrscheinlichkeit und Stärke dieses Effekts hängen von der Stufe des
+Zaubers ab.
 %%%%
+
 dexterity (Dex+3) armour ego
 
 Diese Rüstung erhöht deine Geschicklichkeit (Ges +3).
@@ -206,9 +207,10 @@ Diese Rüstung verstärkt deine Erdmagie.
 energy (Energy) armour ego
 
 Diese Rüstung kann die für das Wirken von Zaubern aufgewendete Magie
-zurückerstatten, senkt jedoch deren Erfolgsquote. Es erstattet immer die für
-fehlgeschlagene Zauber aufgewendete Magie zurück. Die Chance auf eine
+zurückerstatten, senkt jedoch deren Erfolgsquote. Sie erstattet immer die
+für fehlgeschlagene Zauber aufgewendete Magie zurück. Die Chance auf eine
 Zauber-Rückerstattung wird durch deine Fertigkeit Evokationen erhöht.
+
 %%%%
 fire (Fire) armour ego
 
