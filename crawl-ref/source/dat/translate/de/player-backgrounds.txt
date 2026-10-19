@@ -364,134 +364,134 @@ Zb
 
 %%%%
 # Abyssal Knight
-@adj@@two_letter_code@AK
-{adj-er}@adj@@two_letter_code@AR
+@adj@@xx@AK
+{adj-er}@adj@@xx@AR
 %%%%
 # Air Elementalist
-@adj@@two_letter_code@AE
-{adj-er}@adj@@two_letter_code@LM
+@adj@@xx@AE
+{adj-er}@adj@@xx@LM
 %%%%
 # Alchemist
-@adj@@two_letter_code@Al
-{adj-er}@adj@@two_letter_code@Al
+@adj@@xx@Al
+{adj-er}@adj@@xx@Al
 %%%%
 # Arcane Marksman
-@adj@@two_letter_code@AM
-{adj-er}@adj@@two_letter_code@AS
+@adj@@xx@AM
+{adj-er}@adj@@xx@AS
 %%%%
 # Artificer
-@adj@@two_letter_code@Ar
-{adj-er}@adj@@two_letter_code@Ar
+@adj@@xx@Ar
+{adj-er}@adj@@xx@Ar
 %%%%
 # Berserker
-@adj@@two_letter_code@Be
-{adj-er}@adj@@two_letter_code@Be
+@adj@@xx@Be
+{adj-er}@adj@@xx@Be
 %%%%
 # Brigand
-@adj@@two_letter_code@Br
-{adj-er}@adj@@two_letter_code@Br
+@adj@@xx@Br
+{adj-er}@adj@@xx@Br
 %%%%
 # Chaos Knight
-@adj@@two_letter_code@CK
-{adj-er}@adj@@two_letter_code@CR
+@adj@@xx@CK
+{adj-er}@adj@@xx@CR
 %%%%
 # Cinder Acolyte
-@adj@@two_letter_code@CA
-{adj-er}@adj@@two_letter_code@Aa
+@adj@@xx@CA
+{adj-er}@adj@@xx@Aa
 %%%%
 # Conjurer
-@adj@@two_letter_code@Cj
-{adj-er}@adj@@two_letter_code@Kj
+@adj@@xx@Cj
+{adj-er}@adj@@xx@Kj
 %%%%
 # Delver
-@adj@@two_letter_code@De
-{adj-er}@adj@@two_letter_code@Fo
+@adj@@xx@De
+{adj-er}@adj@@xx@Fo
 %%%%
 # Earth Elementalist
-@adj@@two_letter_code@EE
-{adj-er}@adj@@two_letter_code@Er
+@adj@@xx@EE
+{adj-er}@adj@@xx@Er
 %%%%
 # Enchanter
-@adj@@two_letter_code@En
-{adj-er}@adj@@two_letter_code@Vz
+@adj@@xx@En
+{adj-er}@adj@@xx@Vz
 %%%%
 # Fighter
-@adj@@two_letter_code@Fi
-{adj-er}@adj@@two_letter_code@Kä
+@adj@@xx@Fi
+{adj-er}@adj@@xx@Kä
 %%%%
 # Fire Elementalist
-@adj@@two_letter_code@FE
-{adj-er}@adj@@two_letter_code@FM
+@adj@@xx@FE
+{adj-er}@adj@@xx@FM
 %%%%
 # Forgewright
-@adj@@two_letter_code@Fw
-{adj-er}@adj@@two_letter_code@Ms
+@adj@@xx@Fw
+{adj-er}@adj@@xx@Ms
 %%%%
 # Gladiator
-@adj@@two_letter_code@Gl
-{adj-er}@adj@@two_letter_code@Gl
+@adj@@xx@Gl
+{adj-er}@adj@@xx@Gl
 %%%%
 # Hedge Wizard
-@adj@@two_letter_code@HW
-{adj-er}@adj@@two_letter_code@Hz
+@adj@@xx@HW
+{adj-er}@adj@@xx@Hz
 %%%%
 # Hexslinger
-@adj@@two_letter_code@Hs
-{adj-er}@adj@@two_letter_code@Bs
+@adj@@xx@Hs
+{adj-er}@adj@@xx@Bs
 %%%%
 # Hunter
-@adj@@two_letter_code@Hu
-{adj-er}@adj@@two_letter_code@Jä
+@adj@@xx@Hu
+{adj-er}@adj@@xx@Jä
 %%%%
 # Ice Elementalist
-@adj@@two_letter_code@IE
-{adj-er}@adj@@two_letter_code@Ei
+@adj@@xx@IE
+{adj-er}@adj@@xx@Ei
 %%%%
 # Monk
-@adj@@two_letter_code@Mo
-{adj-er}@adj@@two_letter_code@Mö
+@adj@@xx@Mo
+{adj-er}@adj@@xx@Mö
 %%%%
 # Mystic
-@adj@@two_letter_code@My
-{adj-er}@adj@@two_letter_code@My
+@adj@@xx@My
+{adj-er}@adj@@xx@My
 %%%%
 # Necromancer
-@adj@@two_letter_code@Ne
-{adj-er}@adj@@two_letter_code@Ne
+@adj@@xx@Ne
+{adj-er}@adj@@xx@Ne
 %%%%
 # Reaver
-@adj@@two_letter_code@Re
-{adj-er}@adj@@two_letter_code@Pl
+@adj@@xx@Re
+{adj-er}@adj@@xx@Pl
 %%%%
 # Shapeshifter
-@adj@@two_letter_code@Sh
-{adj-er}@adj@@two_letter_code@Gw
+@adj@@xx@Sh
+{adj-er}@adj@@xx@Gw
 %%%%
 # Stalker
-@adj@@two_letter_code@St
-{adj-er}@adj@@two_letter_code@Pi
+@adj@@xx@St
+{adj-er}@adj@@xx@Pi
 %%%%
 # Summoner
-@adj@@two_letter_code@Su
-{adj-er}@adj@@two_letter_code@Hb
+@adj@@xx@Su
+{adj-er}@adj@@xx@Hb
 %%%%
 # Transmuter
-@adj@@two_letter_code@Tm
-{adj-er}@adj@@two_letter_code@Vw
+@adj@@xx@Tm
+{adj-er}@adj@@xx@Vw
 %%%%
 # Venom Mage
-@adj@@two_letter_code@VM
-{adj-er}@adj@@two_letter_code@GM
+@adj@@xx@VM
+{adj-er}@adj@@xx@GM
 %%%%
 # Wanderer
-@adj@@two_letter_code@Wn
-{adj-er}@adj@@two_letter_code@Wn
+@adj@@xx@Wn
+{adj-er}@adj@@xx@Wn
 %%%%
 # Warper
-@adj@@two_letter_code@Wr
-{adj-er}@adj@@two_letter_code@Wr
+@adj@@xx@Wr
+{adj-er}@adj@@xx@Wr
 %%%%
 # Wizard
-@adj@@two_letter_code@Wz
-{adj-er}@adj@@two_letter_code@Zb
+@adj@@xx@Wz
+{adj-er}@adj@@xx@Zb
 %%%%

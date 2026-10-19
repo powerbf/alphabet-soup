@@ -217,6 +217,14 @@ TEST_CASE( "Localise German", "[single-file]" )
         string german = "[<w>Tab</w>] <w>Auswendiglernen</w>|Beschreiben|Ausblenden|Zeigen   [<w>Strg-F</w>] Suche   [<w>?</w>] Hilfe";
         CHECK( localise(english) == german );
     }
+
+    SECTION("Player")
+    {
+        CHECK( localise("Human Conjurer") == "Mensch Konjurant" );
+
+        CHECK( localise("MiFi") == "MiKä" );
+        CHECK( localise("HuCj") == "MnKj" );
+    }
 }
 
 TEST_CASE("Localise Russian")
