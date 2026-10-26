@@ -14,7 +14,7 @@ jobs:
       contents: read #  to fetch code (actions/checkout)
 
     name: Code Linting
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v3
         with:
@@ -36,7 +36,7 @@ jobs:
       contents: write #  for release creation (svenstaro/upload-release-action)
 
     name: Source Packages ${{ matrix.arch }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     if: github.event.release.tag_name != null
     steps:
       - uses: actions/checkout@v3
@@ -61,7 +61,7 @@ jobs:
       contents: read #  to fetch code (actions/checkout)
 
     name: Linux ${{ matrix.compiler }} ${{ matrix.build_opts }} ${{ matrix.debug }} ${{ matrix.build_all }} tag_upgrade=${{ matrix.tag_upgrade }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         compiler:
@@ -201,7 +201,7 @@ jobs:
       contents: write #  for release creation (svenstaro/upload-release-action)
 
     name: Linux AppImage ${{ matrix.build_type }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     if: github.event.release.tag_name != null
     strategy:
       matrix:
@@ -252,7 +252,7 @@ jobs:
       contents: write #  for release creation (svenstaro/upload-release-action)
 
     name: Debian Packages ${{ matrix.arch }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     if: github.event.release.tag_name != null
     steps:
       - uses: actions/checkout@v3
@@ -408,7 +408,7 @@ jobs:
       contents: write #  for release creation (svenstaro/upload-release-action)
 
     name: mingw64 ${{ matrix.build_type }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         build_type:
@@ -597,7 +597,7 @@ jobs:
     permissions:
       contents: read #  to fetch code (actions/checkout)
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         # oldest non-eol security release + current bugfix version
@@ -630,7 +630,7 @@ jobs:
       contents: read #  to fetch code (actions/checkout)
 
     name: Build headers ${{ matrix.compiler }} ${{ matrix.build_opts }} ${{ matrix.debug }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         compiler:
@@ -677,7 +677,7 @@ jobs:
 
   build_android:
     name: Android
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         build_opts:
@@ -728,7 +728,7 @@ jobs:
       contents: read #  to fetch code (actions/checkout)
 
     name: Build monster ${{ matrix.compiler }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         compiler:
@@ -766,7 +766,7 @@ jobs:
 
   build_docs:
     name: Build docs
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -798,7 +798,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
@@ -818,7 +818,7 @@ jobs:
       - build_docs
       - deploy_docs
     if: failure() && github.event_name == 'push' && github.repository == 'crawl/crawl'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Build message
         id: message
