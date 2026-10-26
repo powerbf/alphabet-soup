@@ -512,6 +512,21 @@ der Träger macht einen freien Schritt, wenn er sich auf Feinde zubewegt.
 With your current SH, it has a @num@%% chance to reflect attacks against your willpower and other normally unblockable effects.
 Mit deinem aktuellen Schildwert hat diese Rüstung eine Chance von @num@%%, Angriffe gegen deine Willenskraft und andere normalerweise unblockbare Effekte zu reflektieren.
 %%%%
+# buckler
+It is cumbersome to wear, and slightly impedes the evasion, spellcasting ability, and attack speed of the wearer.
+Er ist umständlich zu tragen und beeinträchtigt die Ausweich- und Zauberfähigkeiten sowie die Angriffsgeschwindigkeit des Trägers geringfügig.
+%%%%
+# kite shield
+It is cumbersome to wear, and impedes the evasion, spellcasting ability, and attack speed of the wearer.
+Er ist umständlich zu tragen und beeinträchtigt die Ausweich- und Zauberfähigkeiten sowie die Angriffsgeschwindigkeit des Trägers.
+%%%%
+# tower shield
+It is cumbersome to wear, and greatly impedes the evasion, spellcasting ability, and attack speed of the wearer.
+Er ist umständlich zu tragen und beeinträchtigt die Ausweich- und Zauberfähigkeiten sowie die Angriffsgeschwindigkeit des Trägers erheblich.
+%%%%
+These penalties are reduced by the wearer's Shields skill and Strength; mastering Shields eliminates penalties.
+Diese Malusse werden durch die Fertigkeit Schilde und die Stärke des Trägers verringert; wer Schilde beherrscht, erhält keine Malusse mehr.
+%%%%
 
 #################################
 # Weapon/armour skill

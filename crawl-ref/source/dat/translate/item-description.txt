@@ -512,6 +512,21 @@ its wearer takes one free step when moving towards enemies.
 With your current SH, it has a @num@%% chance to reflect attacks against your willpower and other normally unblockable effects.
 
 %%%%
+# buckler
+It is cumbersome to wear, and slightly impedes the evasion, spellcasting ability, and attack speed of the wearer.
+
+%%%%
+# kite shield
+It is cumbersome to wear, and impedes the evasion, spellcasting ability, and attack speed of the wearer.
+
+%%%%
+# tower shield
+It is cumbersome to wear, and greatly impedes the evasion, spellcasting ability, and attack speed of the wearer.
+
+%%%%
+These penalties are reduced by the wearer's Shields skill and Strength; mastering Shields eliminates penalties.
+
+%%%%
 
 #################################
 # Weapon/armour skill
