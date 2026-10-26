@@ -3017,14 +3017,11 @@ string get_item_description(const item_def &item,
             const string desc = getLongDescription(get_artefact_name(item));
             if (!desc.empty())
             {
-                // i18n: Long description will already be in target language.
-                // Insert it after we've translated the rest, otherwise we can
-                // get weird results from trying to translate what's already
-                // been translated.
-                long_desc = desc;
-                long_desc[long_desc.length()-1] = ' ';
-                description << "@LONG_DESCRIPTION@";
+                long_desc = desc.substr(0, desc.length()-1);
+                description << desc;
                 need_base_desc = false;
+                description.seekp((streamoff)-1, ios_base::cur);
+                description << " ";
             }
         }
         // Randart jewellery properties will be listed later,
@@ -3058,16 +3055,15 @@ string get_item_description(const item_def &item,
                 }
                 else
                 {
-                    description << uppercase_first(item.name(DESC_A, true,
-                                                             false, false));
-                    description << ".\n";
+                    long_desc = item.name(DESC_A, true, false, false);
+                    long_desc = uppercase_first(localise(long_desc)) + ".";
+                    description << long_desc << "\n";
                 }
             }
             else
             {
-                // i18n: See note about long description above.
-                description << "@LONG_DESCRIPTION@\n";
                 long_desc = db_desc.substr(0, db_desc.length()-1);
+                description << db_desc;
             }
 
             // Get rid of newline at end of description; in most cases we
@@ -3370,9 +3366,19 @@ string get_item_description(const item_def &item,
             description << "\nMenu/colouring prefixes: " << menu_prefix;
     }
 
-    string result = localise(description.str());
-    result = replace_all(result, "@LONG_DESCRIPTION@", long_desc);
-    return result;
+    if (localisation_active())
+    {
+        string result = description.str();
+        // i18n: long description should already be in the target language
+        if (!long_desc.empty())
+            result = replace_first(result, long_desc, NOLOC_PLACEHOLDER);
+        result = localise(result);
+        if (!long_desc.empty())
+            result = replace_first(result, NOLOC_PLACEHOLDER, long_desc);
+        return result;
+    }
+
+    return description.str();
 }
 
 string get_cloud_desc(cloud_type cloud, bool include_title)
