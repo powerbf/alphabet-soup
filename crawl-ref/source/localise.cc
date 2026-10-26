@@ -841,6 +841,18 @@ static string _localise_string(const string& s, bool fallback_en)
             return result + _localise_annotation(annotation);
     }
 
+    auto sentences = separate_sentences(s);
+    if (sentences.size() > 1)
+    {
+        for (const string &sentence: sentences)
+        {
+            if (!result.empty())
+                result += " ";
+            result += _localise_string(sentence);
+        }
+        return result;
+    }
+
     // test for list
     // this must be done after annotations because they can contain commas
     auto tokens = tokenise_comma_separated_list(s);
@@ -853,18 +865,6 @@ static string _localise_string(const string& s, bool fallback_en)
             result += _localise_string(token);
             if (!saved_context.empty())
                 _context = saved_context;
-        }
-        return result;
-    }
-
-    auto sentences = separate_sentences(s);
-    if (sentences.size() > 1)
-    {
-        for (const string &sentence: sentences)
-        {
-            if (!result.empty())
-                result += " ";
-            result += _localise_string(sentence);
         }
         return result;
     }
