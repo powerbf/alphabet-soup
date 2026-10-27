@@ -869,6 +869,22 @@ static string _localise_string(const string& s, bool fallback_en)
         return result;
     }
 
+    if (isaupper(s[0]))
+    {
+        // try with lowercase first letter
+        result = _localise_string(lowercase_first(s));
+        if (!result.empty())
+            return uppercase_first(result);
+    }
+
+    if (ends_with(s, "."))
+    {
+        // full stop is added on some headings
+        result = _localise_string(s.substr(0, s.length()-1));
+        if (!result.empty())
+            return result + ".";
+    }
+
     debuglog("No translation found for \"%s\"", s.c_str());
     return fallback_en ? s : "";
 }
