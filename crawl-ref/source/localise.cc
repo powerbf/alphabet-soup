@@ -740,7 +740,7 @@ static string _localise_string(const string& s, bool fallback_en)
 
     // check if all whitespace
     string trimmed = trimmed_string(s);
-    if (trimmed.empty())
+    if (trimmed.empty() || trimmed == NOLOC_PLACEHOLDER)
         return s;
 
     if (is_integer_string(trimmed))
