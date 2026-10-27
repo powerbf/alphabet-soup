@@ -226,9 +226,10 @@ Diese Rüstung gewährt dir die Fähigkeit zu fliegen.
 %%%%
 glass (Glass) armour ego
 
-Diese Rüstung kann deine Gegner vitrifizieren wenn du sie verletzt, wodurch
-sie anfälliger für weiteren Schaden werden. Deine Fertigkeit Evokationen erhöht
-die Wahrscheinlichkeit und die Dauer der Vitrifizierung.
+Diese Rüstung kann deine Gegner vitrifizieren wenn du bei ihnen
+Nicht-Angriffsschaden verursachst, wodurch sie anfälliger für weiteren
+Schaden werden. Deine Fertigkeit Evokationen erhöht die Wahrscheinlichkeit
+und die Dauer der Vitrifizierung.
 %%%%
 guile (Guile) armour ego
 
