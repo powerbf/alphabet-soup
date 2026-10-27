@@ -749,9 +749,15 @@ static string _localise_string(const string& s, bool fallback_en)
     // try simple translation first
     string result = _ctx_translate(_context, s);
     if (!result.empty())
+        return _shift_context(result);
+    if (isaupper(s[0]))
     {
-        result = _shift_context(result);
-        return result;
+        result = _ctx_translate(_context, lowercase_first(s));
+        if (!result.empty())
+        {
+            result = _shift_context(result);
+            return uppercase_first(result);
+        }
     }
 
     if (trimmed.length() != s.length())
