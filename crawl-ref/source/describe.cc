@@ -2989,6 +2989,7 @@ string get_item_description(const item_def &item,
                             item_description_mode mode)
 {
     ostringstream description;
+    string long_desc;
     const bool verbose = mode == IDM_DEFAULT || mode == IDM_MONSTER;
 
 #ifdef DEBUG_DIAGNOSTICS
@@ -3043,6 +3044,7 @@ string get_item_description(const item_def &item,
                 need_base_desc = false;
                 description.seekp((streamoff)-1, ios_base::cur);
                 description << " ";
+                long_desc = desc.substr(0, desc.length()-1);
             }
         }
         // Randart jewellery properties will be listed later,
@@ -3082,7 +3084,10 @@ string get_item_description(const item_def &item,
                 }
             }
             else
+            {
                 description << db_desc;
+                long_desc = db_desc.substr(0, db_desc.length()-1);
+            }
 
             // Get rid of newline at end of description; in most cases we
             // will be adding "\n\n" immediately, and we want only one,
@@ -3382,6 +3387,18 @@ string get_item_description(const item_def &item,
         string menu_prefix = item_prefix(item, false);
         if (!menu_prefix.empty())
             description << "\nMenu/colouring prefixes: " << menu_prefix;
+    }
+
+    if (localisation_active())
+    {
+        string result = description.str();
+        // i18n: long description should already be in the target language
+        if (!long_desc.empty())
+            result = replace_first(result, long_desc, NOLOC_PLACEHOLDER);
+        result = localise(result);
+        if (!long_desc.empty())
+            result = replace_first(result, NOLOC_PLACEHOLDER, long_desc);
+        return result;
     }
 
     return description.str();
@@ -4033,6 +4050,7 @@ void get_item_desc(const item_def &item, describe_info &inf)
     const item_description_mode mode = item.has_spells() ? IDM_PLAIN
                                                          : IDM_DEFAULT;
     string name = item.name(DESC_INVENTORY_EQUIP) + ".";
+    name = localise(name);
     if (!in_inventory(item))
         name = uppercase_first(name);
     inf.body << name << get_item_description(item, mode);
@@ -4355,6 +4373,7 @@ command_type describe_item_popup(const item_def &item,
     do_actions = do_actions && !(you.pending_revival || crawl_state.updating_scores);
 
     string name = item.name(DESC_INVENTORY_EQUIP) + ".";
+    name = localise(name);
     if (!in_inventory(item))
         name = uppercase_first(name);
 
