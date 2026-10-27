@@ -152,6 +152,8 @@ TEST_CASE( "Localise German", "[single-file]" )
                "[Gewölbe:3] ein +3 Großschwert der Verzerrung (1 weiteres Duplikat)" );
         // description header
         CHECK( localise("A +1 kite shield.") == "Ein +1 Drachenschild." );
+        // menu items can be capitalised
+        CHECK( localise("Shield of Resistance") == "Schild der Resistenz" );
     }
 
     SECTION("Parameterised messages")
