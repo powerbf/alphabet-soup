@@ -11,6 +11,10 @@
 
 using std::string;
 
+// A placeholder for strings that should not be localised.
+// It's important that it ends with a full stop so that it's seen as a separate sentence.
+const string NOLOC_PLACEHOLDER = "_NOLOC_PLACEHOLDER_.";
+
 void init_localisation();
 
 // not mandatory to call this, except in regression tests, where we want to switch languages
