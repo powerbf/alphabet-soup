@@ -150,6 +150,8 @@ TEST_CASE( "Localise German", "[single-file]" )
         // search result
         CHECK( localise("[Vaults:3] a +3 great sword of distortion (1 further duplicate)") ==
                "[Gewölbe:3] ein +3 Großschwert der Verzerrung (1 weiteres Duplikat)" );
+        // description header
+        CHECK( localise("A +1 kite shield.") == "Ein +1 Drachenschild." );
     }
 
     SECTION("Parameterised messages")
