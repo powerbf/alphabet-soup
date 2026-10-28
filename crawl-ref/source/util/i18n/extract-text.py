@@ -336,6 +336,10 @@ def is_integer(string):
     else:
         return string.isdigit()
 
+def split_sentences(string):
+    temp = re.sub("([.?!]) ", "\\1\n", string)
+    return temp.split("\n")
+
 def dump_lines(orig_filename, lines):
     with open(orig_filename + ".tmp", "w") as file:
         for line in lines:
@@ -1438,6 +1442,48 @@ def process_file(filename):
 # Post-processing
 #################
 
+def expand_single_param_message(strings, include_empty_param):
+    param_vals = []
+    messages = []
+    if include_empty_param:
+        param_vals.append("")
+    for string in strings:
+        if len(string) < 15:
+            if string not in param_vals:
+                param_vals.append(string)
+        else:
+            messages.append(string)
+    results = []
+    for msg in messages:
+        if "%s" in msg:
+            for val in param_vals:
+                results.append(msg.replace("%s", val))
+        else:
+            results.append(msg)
+    return results
+
+
+def post_process_describe_cc(input):
+    results = {}
+
+    for section, strings in input.items():
+        if section == "_describe_armour":
+            strings_old = strings
+            strings = [""]
+            for string in strings_old:
+                if string.startswith("It is cumbersome"):
+                    sentences = split_sentences(string)
+                    if len(sentences) != 0:
+                        strings.append(sentences.pop(0))
+                        strings = expand_single_param_message(strings, True)
+                    strings.extend(sentences)
+                else:
+                    strings.append(string)
+        results[section] = strings
+
+    return results
+
+
 def post_process_feature_data_h(input):
 
     altars = []
@@ -1843,6 +1889,7 @@ def post_process_des_file(filename, input):
     return results
 
 specific_post_processing_funcs = {
+    'describe.cc': post_process_describe_cc,
     'feature-data.h': post_process_feature_data_h,
     'item-prop.cc': post_process_item_prop_cc,
     'item-name.cc': post_process_item_name_cc,
