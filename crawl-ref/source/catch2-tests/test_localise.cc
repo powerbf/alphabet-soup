@@ -63,7 +63,7 @@ TEST_CASE( "Localise German", "[single-file]" )
         CHECK( localise("Natasha") == "Natascha" );
         CHECK( localise("Natasha (D:3)") == "Natascha (K:3)" );
         CHECK( localise("the Lernaean hydra") == "die Lernäische Hydra" );
-        CHECK( localise("Blorkula the orcula") == "Blorkula der Orkula" );
+        CHECK( localise("Blorkula the Orcula") == "Blorkula der Orkula" );
 
         // named ally
         CHECK( localise("Boghold the orc") == "Boghold der Ork" );
