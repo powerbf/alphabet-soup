@@ -1669,7 +1669,7 @@ def post_process_job_data_h(input):
             if len(string) == 2:
                 # abbreviation
                 strings.append(string)
-                strings.append("@adj@@two_letter_code@" + string)
+                strings.append("@adj@@xx@" + string)
             elif string[0].isupper():
                 strings.append(article_the(string))
         results[section] = strings
