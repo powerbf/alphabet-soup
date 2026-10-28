@@ -1467,19 +1467,29 @@ def post_process_describe_cc(input):
     results = {}
 
     for section, strings in input.items():
-        if section == "_describe_armour":
-            strings_old = strings
-            strings = [""]
-            for string in strings_old:
+        strings_old = strings
+        strings = []
+        for string in strings_old:
+            if string.endswith(" +"):
+                strings.append(string + "%d.")
+            elif section == "_describe_armour":
                 if string.startswith("It is cumbersome"):
                     sentences = split_sentences(string)
                     if len(sentences) != 0:
                         strings.append(sentences.pop(0))
                         strings = expand_single_param_message(strings, True)
                     strings.extend(sentences)
-                else:
-                    strings.append(string)
-        results[section] = strings
+                elif string.endswith(": "):
+                    string += "%d"
+                    if string.startswith(" ") and len(strings) != 0:
+                        strings[-1] += string
+                    else:
+                        strings.append(string)
+                elif string.startswith("'Of"):
+                    continue
+            else:
+                strings.append(string)
+            results[section] = strings
 
     return results
 
