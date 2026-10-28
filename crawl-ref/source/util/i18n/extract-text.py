@@ -532,6 +532,8 @@ def ignore_error_message(string):
 def is_section_start(line):
     if line.lstrip() != line:
         return False
+    if line.endswith(";") and not line.endswith("};"):
+        return False
     if re.match(r'[#\{\}\[\]]', line):
         return False
     if not re.search(r"[a-zA-Z]+", line):
