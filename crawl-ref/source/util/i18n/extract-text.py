@@ -122,7 +122,7 @@ IGNORE_SECTIONS = {
     'delay.cc':         ['activity_interrupt_names'],
     'describe.cc':      [
         'get_command_description',              # lookup key
-        'trap_name',                            # for interpreting vault spec
+        '_weapon_ego_key',                      # lookup key
     ],
     'dgn-shoals.cc':    ['dgn_build_shoals_level'], # dungeon builder stuff
     'god-abil.cc':      [
@@ -1321,7 +1321,7 @@ def split_on_newlines(strings):
     return result
 
 def dummy_up_keys(line):
-    line = re.sub(r"(get[A-Za-z]+String|_get_xom_speech) *\(([^\)]+)\)", "$1(dummy)", line)
+    line = re.sub(r"(get[A-Za-z]+String|_get_xom_speech|json_open_object|ui_state_change) *\(([^\)]+)\)", "$1(dummy)", line)
     # 3rd arg is tag
     line = re.sub(r"\b(menu_colour *\([^,]+,[^,]+,)[^,)]+", "$1, dummy", line)
     # 1st arg is context
@@ -1444,54 +1444,196 @@ def process_file(filename):
 # Post-processing
 #################
 
-def expand_single_param_message(strings, include_empty_param):
-    param_vals = []
-    messages = []
-    if include_empty_param:
-        param_vals.append("")
-    for string in strings:
-        if len(string) < 15:
-            if string not in param_vals:
-                param_vals.append(string)
-        else:
-            messages.append(string)
+def expand_single_param_message(messages, param_vals):
     results = []
+    if not isinstance(messages, list):
+        messages = [messages]
     for msg in messages:
-        if "%s" in msg:
-            for val in param_vals:
-                results.append(msg.replace("%s", val))
-        else:
-            results.append(msg)
+        for val in param_vals:
+            results.append(msg.replace("%s", val, 1))
     return results
 
+# find first string matching the substring, remove from list and return
+def extract_matching_string(strings, substring):
+    matches = list(filter(lambda x: substring in x, strings))
+    if len(matches) == 0:
+        return ""
+    strings.remove(matches[0])
+    return matches[0]
 
 def post_process_describe_cc(input):
     results = {}
+    resistables = []
 
     for section, strings in input.items():
         strings_old = strings
         strings = []
-        for string in strings_old:
-            if string.endswith(" +"):
-                strings.append(string + "%d.")
-            elif section == "_describe_armour":
-                if string.startswith("It is cumbersome"):
-                    sentences = split_sentences(string)
-                    if len(sentences) != 0:
-                        strings.append(sentences.pop(0))
-                        strings = expand_single_param_message(strings, True)
-                    strings.extend(sentences)
-                elif string.endswith(": "):
-                    string += "%d"
-                    if string.startswith(" ") and len(strings) != 0:
-                        strings[-1] += string
+        if section == "_describe_demon":
+            for string in strings_old:
+                if string.startswith("One of the many lords"):
+                    strings.append(string + "@name@ has @body_type@ and @head_type@.")
+                    strings_old.remove(string)
+                    break
+            is_body_type = True
+            for string in strings_old:
+                if string.startswith("with ") or string.startswith("which "):
+                    is_body_type = False
+                    string = "@body_type@ " + string
+                if is_body_type:
+                    strings.append(article_a(string + " body"))
+                elif string in [" has ", " body "]:
+                    continue
+                else:
+                    strings.append(string.lstrip())
+        elif section == "_xl_cost_desc":
+            if len(strings_old) == 0:
+                continue
+            strings = expand_single_param_message(strings_old[0], strings_old[1:])
+            strings.reverse()
+        elif section == "_skill_target_desc":
+            prefixes = []
+            suffix = ""
+            others = []
+            for string in strings_old:
+                if "reach" in string:
+                    suffix = string
+                elif string[0].isupper():
+                    prefixes.append(string)
+                elif "would" not in string:
+                    others.append(string)
+            for prefix in prefixes:
+                sfx = suffix
+                if prefix.startswith("At a training level"):
+                    sfx = sfx.replace("%s", "would ", 1)
+                else:
+                    sfx = sfx.replace("%s", "", 1)
+                strings.append(prefix + sfx)
+            costs = results.pop("_xl_cost_desc")
+            strings = expand_single_param_message(strings, costs)
+            strings.extend(others)
+        elif section == "_player_staff_damage_string":
+            suffix = extract_matching_string(strings_old, "resisted by flying")
+            for string in strings_old:
+                string = string.replace("%s damage", "@damage_type@")
+                if "chance to deal" in string:
+                    strings.append(replace_last(string, "%s", ""))
+                    if suffix != "":
+                        string = replace_last(string, "%s", suffix)
+                        string = string.replace("@damage_type@", "earth damage")
+                        strings.append(string)
+                else:
+                    strings.append(string)
+        elif section == "_append_weapon_stats":
+            attack_delay = extract_matching_string(strings_old, "Base attack delay")
+            prefix = extract_matching_string(strings_old, "Wearing")
+            woulds = []
+            for string in strings_old:
+                if string.startswith("Base accuracy"):
+                    if "%s" in string:
+                        strings.append(string + attack_delay)
+                elif string[0].islower() and string != "inf":
+                    woulds.append(string)
+                elif "would reduce" in string:
+                    string = prefix + "%s" + string
+                    woulds.append(" or ".join(woulds))
+                    strings.extend(expand_single_param_message(string, woulds))
+                elif ":" in string:
+                    strings.append(string + "@any@")
+                else:
+                    strings.append(string)
+        elif section == "_category_string":
+            for string in strings_old:
+                if string.endswith(". "):
+                    string = string.rstrip()
+                if len(strings) == 0:
+                    strings.append(string)
+                elif string == " extremely":
+                    adverbs = ["", string]
+                    msg = strings.pop()
+                    strings.extend(expand_single_param_message(msg, adverbs))
+                elif string[0].isupper():
+                    if strings[-1][-1] != ".":
+                        strings[-1] += "."
+                    strings.append(string)
+                else:
+                    strings[-1] += string
+        else:
+            for string in strings_old:
+                if string.endswith(" +"):
+                    strings.append(string + "%d.")
+                elif string == "chaos,":
+                    strings.append(string[:-1])
+                elif section == "_get_all_artp_desc_data" and string[0].islower():
+                    resistables.append(string)
+                elif section == "desc_randart_props":
+                    if string.startswith("It "):
+                        strings.extend(expand_single_param_message(string + "%s.", resistables))
+                    elif "willpower" in string:
+                        string = string.replace("%sIt", "It")
+                        msgs = expand_single_param_message(string, ["", "greatly "])
+                        msgs = expand_single_param_message(msgs, ["increases", "decreases"])
+                        strings.extend(msgs)
+                    elif string in ["greatly ", "increases", "decreases"]:
+                        continue
+                    elif "stealthy" in string:
+                        string = string.replace("%sIt", "It")
+                        msgs = expand_single_param_message(string, ["", "much "])
+                        msgs = expand_single_param_message(msgs, ["more", "less"])
+                        strings.extend(msgs)
+                    elif string in ["much ", "more", "less"]:
+                        continue
                     else:
                         strings.append(string)
-                elif string.startswith("'Of"):
+                elif section == "_describe_armour":
+                    if string.startswith("It is cumbersome"):
+                        sentences = split_sentences(string)
+                        if len(sentences) != 0:
+                            strings.insert(0, "")
+                            strings = expand_single_param_message(sentences.pop(0), strings)
+                            strings.extend(sentences)
+                    elif string.endswith(": "):
+                        string += "%d"
+                        if string.startswith(" ") and len(strings) != 0:
+                            strings[-1] += string
+                        else:
+                            strings.append(string)
+                    elif string.startswith("'Of"):
+                        continue
+                elif section == "_describe_mutant_beast_facets":
+                    if len(string) > 10:
+                        strings.append("it" + string)
+                elif section == "_your_skill_desc":
+                    if string.startswith("Your"):
+                        string = string.replace(": %s", ":@spaces@")
+                        string = re.sub("%s$", "@any@", string)
+                        strings.extend(expand_single_param_message(string, ["", "(base) "]))
+                    elif string != "(base) ":
+                        strings.append(string)
+                elif section == "_handedness_string":
+                    if "weapon for" in string:
+                        string = string.replace("%s %s", "%s")
+                        hand_pairs = ["one hand-pair", "two hand-pairs"]
+                        strings.extend(expand_single_param_message(string, hand_pairs))
+                    elif string.startswith("It is a ") and string.endswith("weapon."):
+                        string = string.replace("%s%s", "%s")
+                        numbers = ["one", "two"]
+                        handeds = ["handed", "clawed"]
+                        for handed in handeds:
+                            for number in numbers:
+                                msg = string.replace("%s", number, 1)
+                                msg = msg.replace("%s", handed, 1)
+                                strings.append(msg)
+                    elif string not in ["one", "two", "-pair", "ed"]:
+                        strings.append(string)
+                elif string == "0.":
                     continue
-            else:
-                strings.append(string)
-            results[section] = strings
+                else:
+                    if section == "_append_penalty" and string.startswith(" "):
+                        string = "@Your_item@" + string + "."
+                    elif section == "_staff_damage_type_string":
+                        string += " damage"
+                    strings.append(string)
+        results[section] = strings
 
     return results
 
