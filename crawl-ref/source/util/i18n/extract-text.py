@@ -1844,6 +1844,21 @@ def post_process_generic(input):
         results[section] = new_strings
     return results
 
+# replace printf-style format specifiers with name arguments
+def replace_format_spec_with_named_arg(string, pattern, base_name):
+    result = string
+    count = 1
+    while True:
+        arg = "@" + base_name + str(count) + "@"
+        result = re.sub(pattern, arg, string, 1)
+        if result == string:
+            break
+        string = result
+        count += 1
+    if "@" + base_name + "2@" not in result:
+        result = result.replace("@" + base_name + "1@", "@" + base_name + "@")
+    return result
+
 def transform_messages(input):
     results = {}
     for section, strings in input.items():
@@ -1859,20 +1874,14 @@ def transform_messages(input):
         new_strings = []
         for string in strings:
 
-            count = 0
-            while "%s" in string:
-                count += 1
-                string = string.replace("%s", "@arg" + str(count) + "@", 1)
-            if count == 1:
-                string = string.replace("@arg1@", "@arg@", 1)
+            string = string.replace("%%", "%")
+            string = string.replace(r"\u221e", "∞")
+
+            string = replace_format_spec_with_named_arg(string, "%[0-9.*+-]*s", "arg")
             string = re.sub("^@arg", "@Arg", string)
 
-            count = 0
-            while "%d" in string:
-                count += 1
-                string = string.replace("%d", "@num" + str(count) + "@", 1)
-            if count == 1:
-                string = string.replace("@num1@", "@num@", 1)
+            string = replace_format_spec_with_named_arg(string, "%[l0-9.+-]*[du]", "num")
+            string = replace_format_spec_with_named_arg(string, "%[0-9.+-]*f", "float")
 
             new_strings.append(string)
         results[section] = new_strings
