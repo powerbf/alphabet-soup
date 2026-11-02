@@ -1683,6 +1683,22 @@ def post_process_describe_cc(input):
             msg = extract_matching_string(others, "%s")
             strings = expand_param_message(msg, [adjectives, nouns])
             strings.extend(others)
+        elif section == "_uselessness_desc":
+            msg = None
+            params = []
+            for string in strings_old:
+                if string[0].isupper():
+                    if msg != None:
+                        strings.extend(expand_param_message(msg, params))
+                    msg = string + "%s"
+                    params = []
+                else:
+                    params.append(string)
+            if msg != None:
+                strings.extend(expand_param_message(msg, params))
+            strings = list(map(lambda s: s.replace("This ", "@This_item_type@"), strings))
+            strings = list(map(lambda s: s + ".", strings))
+            strings[0] = strings[0][0:-1] + ": @any@"
         else:
             for string in strings_old:
                 if string.endswith(" +"):
