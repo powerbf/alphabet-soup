@@ -121,8 +121,9 @@ IGNORE_SECTIONS = {
     # internal identifiers
     'delay.cc':         ['activity_interrupt_names'],
     'describe.cc':      [
-        'get_command_description',              # lookup key
-        '_weapon_ego_key',                      # lookup key
+        'get_command_description',              # lookup keys
+        '_weapon_ego_key', '_missile_ego_key',
+        '_armour_ego_key',
     ],
     'dgn-shoals.cc':    ['dgn_build_shoals_level'], # dungeon builder stuff
     'god-abil.cc':      [
@@ -1467,15 +1468,21 @@ def extract_matching_string(strings, substring):
     strings.remove(matches[0])
     return matches[0]
 
-def split_list(condition, input_list):
+def split_list(condition, lst):
     matching = []
     nonmatching = []
-    for x in input_list:
+    for x in lst:
         if condition(x):
             matching.append(x)
         else:
             nonmatching.append(x)
     return matching, nonmatching
+
+def get_first_matching_index(condition, lst):
+    for i, x in enumerate(lst):
+        if condition(x):
+            return i
+    return -1
 
 def post_process_describe_cc(input):
     results = {}
@@ -1621,6 +1628,19 @@ def post_process_describe_cc(input):
                     string += "."
                     strings.extend(expand_param_message(string, non_spell_params))
             strings.extend(others)
+        elif section == "_spell_fail_change_list":
+            msg = strings_old[0]
+            param_vals = strings_old[1:3]
+            for val in param_vals:
+                strings.append(msg.replace("%s:", val + ":"))
+            strings.extend(strings_old[3:])
+        elif section == "_spell_fail_change_description":
+            msg = strings_old[0]
+            param_vals = strings_old[1:3]
+            msgs = expand_param_message(msg, param_vals);
+            msgs = expand_param_message(results["_spell_fail_change_list"], msgs)
+            strings.extend(msgs)
+            strings.extend(strings_old[3:])
         else:
             for string in strings_old:
                 if string.endswith(" +"):
