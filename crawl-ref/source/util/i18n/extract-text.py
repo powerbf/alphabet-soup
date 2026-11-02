@@ -1534,6 +1534,19 @@ def post_process_describe_cc(input):
             costs = results.pop("_xl_cost_desc")
             strings = expand_param_message(strings, costs)
             strings.extend(others)
+        elif section == "damage_rating":
+            strings_old.remove("0.")
+            msg = extract_matching_string(strings_old, "Base")
+            msg = msg.replace("%s", "@anybase@", 1)
+            msg = msg.replace("%s", "@stat@", 1)
+            msg = msg.replace("%s", "@skill@", 1)
+            plusses = ["", " @plus_minus@ %d (@ench_slay@)"]
+            msgs = expand_param_message(msg, plusses)
+            msgs = expand_param_message(msgs, ["", " + @brand@"])
+            archery_bonus = extract_matching_string(strings_old, "Archery")
+            msgs = expand_param_message(msgs, ["", archery_bonus])
+            strings.extend(strings_old)
+            strings.extend(msgs)
         elif section == "_player_staff_damage_string":
             suffix = extract_matching_string(strings_old, "resisted by flying")
             for string in strings_old:
@@ -1632,7 +1645,7 @@ def post_process_describe_cc(input):
             msg = strings_old[0]
             param_vals = strings_old[1:3]
             for val in param_vals:
-                strings.append(msg.replace("%s:", val + ":"))
+                strings.append(replace_last(msg, "%s", val))
             strings.extend(strings_old[3:])
         elif section == "_spell_fail_change_description":
             msg = strings_old[0]
@@ -1641,12 +1654,35 @@ def post_process_describe_cc(input):
             msgs = expand_param_message(results["_spell_fail_change_list"], msgs)
             strings.extend(msgs)
             strings.extend(strings_old[3:])
+        elif section == "_warlock_mirror_reflect_desc":
+            strings = strings_old
+            if len(strings) >= 2:
+                strings[0] = strings[0] + "@num@" + strings[1]
+                del strings[1]
+        elif section == "_describe_armour":
+            msgs, others = split_list(lambda s: "cumbersome" in s, strings_old)
+            msgs = split_sentences(msgs[0])
+            params, others = split_list(lambda s: s[0].islower(), others)
+            params.insert(0, "")
+            msg = extract_matching_string(msgs, "%s")
+            strings.extend(expand_param_message(msg, params))
+            strings.extend(msgs)
+            others.remove("'Of ")
+            others = list(map(lambda s: re.sub(" $", " %d", s), others))
+            others = list(map(lambda s: re.sub(r"\+$", "+%d.", s), others))
+            strings.append(others[0] + others[1] + others[2])
+            strings.append(others[3])
+            strings.append(others[3] + others[4])
+            strings.append(others[3] + others[5])
+            strings.extend(others[6:])
         else:
             for string in strings_old:
                 if string.endswith(" +"):
                     strings.append(string + "%d.")
                 elif string == "chaos,":
                     strings.append(string[:-1])
+                elif "Damage rating:" in string:
+                    strings.append(string + "@any@")
                 elif section == "_get_all_artp_desc_data" and string[0].islower():
                     resistables.append(string)
                 elif section == "desc_randart_props":
@@ -1668,21 +1704,6 @@ def post_process_describe_cc(input):
                         continue
                     else:
                         strings.append(string)
-                elif section == "_describe_armour":
-                    if string.startswith("It is cumbersome"):
-                        sentences = split_sentences(string)
-                        if len(sentences) != 0:
-                            strings.insert(0, "")
-                            strings = expand_param_message(sentences.pop(0), strings)
-                            strings.extend(sentences)
-                    elif string.endswith(": "):
-                        string += "%d"
-                        if string.startswith(" ") and len(strings) != 0:
-                            strings[-1] += string
-                        else:
-                            strings.append(string)
-                    elif string.startswith("'Of"):
-                        continue
                 elif section == "_describe_mutant_beast_facets":
                     if len(string) > 10:
                         strings.append("it" + string)
