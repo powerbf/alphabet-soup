@@ -1467,6 +1467,16 @@ def extract_matching_string(strings, substring):
     strings.remove(matches[0])
     return matches[0]
 
+def split_list(condition, input_list):
+    matching = []
+    nonmatching = []
+    for x in input_list:
+        if condition(x):
+            matching.append(x)
+        else:
+            nonmatching.append(x)
+    return matching, nonmatching
+
 def post_process_describe_cc(input):
     results = {}
     resistables = []
@@ -1567,8 +1577,7 @@ def post_process_describe_cc(input):
                 msg = strings[0].replace("This weapon", "@This_weapon@")
                 strings.insert(1, msg)
         elif section == "_describe_point_change":
-            msgs = list(filter(lambda s: "%s" in s, strings_old))
-            param_vals = list(filter(lambda s: s not in msgs, strings_old))
+            msgs, param_vals = split_list(lambda s: "%s" in s, strings_old)
             strings = expand_param_message(msgs, param_vals)
         elif section == "_describe_point_diff":
             strings = strings_old
@@ -1585,10 +1594,10 @@ def post_process_describe_cc(input):
                 else:
                     strings.append(string)
             # expand conditions
-            strings = list(map(lambda s: re.sub("^(If you.*%s)$", r"\1:", s), strings))
-            strings_old = strings
+            conditions, others = split_list(lambda s: s.startswith("If you"), strings)
+            conditions = list(map(lambda s: re.sub("%s$", "%s:", s), conditions))
             strings = []
-            for string in strings_old:
+            for string in conditions:
                 if string.startswith("If you %s this %s"):
                     string = string.replace("%s this %s", "%s")
                     params = ["unwield this weapon", "unwield this staff", "take off this armour"]
@@ -1599,33 +1608,19 @@ def post_process_describe_cc(input):
                     strings.extend(expand_param_message(string, params))
                 else:
                     strings.append(string)
-            # expand spell failure effects
-            spell_fail_msg = None
-            spell_fail_params = [[], []]
-            strings_old = strings
-            strings = []
-            for string in strings_old:
+            # expand effects
+            effects, others = split_list(lambda s: s.endswith("%s"), others)
+            spell_fail_verbs, others = split_list(lambda s: re.match("[a-z]+", s), others)
+            spell_fail_amounts, others = split_list(lambda s: s.startswith(" "), others)
+            non_spell_params = results.pop("_describe_point_diff", [""])
+            for string in effects:
                 if "spell failure" in string:
-                    spell_fail_msg = string + "%s"
-                elif spell_fail_msg != None and string[0].islower():
-                    spell_fail_params[0].append(string)
-                elif spell_fail_msg != None and string[0] == " ":
-                    spell_fail_params[1].append(string)
+                    params = [spell_fail_verbs, spell_fail_amounts]
+                    strings.extend(expand_param_message(string + "%s", params))
                 else:
-                    if spell_fail_msg != None:
-                        strings.extend(expand_param_message(spell_fail_msg, spell_fail_params))
-                        spell_fail_msg = None
-                    strings.append(string)
-            # expand other effects
-            strings_old = strings
-            strings = []
-            params = results.pop("_describe_point_diff", [""])
-            for string in strings_old:
-                if string.endswith("%s"):
                     string += "."
-                    strings.extend(expand_param_message(string, params))
-                else:
-                    strings.append(string)
+                    strings.extend(expand_param_message(string, non_spell_params))
+            strings.extend(others)
         else:
             for string in strings_old:
                 if string.endswith(" +"):
