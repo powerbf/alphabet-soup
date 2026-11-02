@@ -1675,6 +1675,14 @@ def post_process_describe_cc(input):
             strings.append(others[3] + others[4])
             strings.append(others[3] + others[5])
             strings.extend(others[6:])
+        elif section == "describe_item_rarity":
+            adjectives = results.pop("_rarity_to_str", [])
+            adjectives.remove("not found normally")
+            adjectives = list(map(lambda s: article_a(s), adjectives))
+            nouns, others = split_list(lambda s: s[0].islower(), strings_old)
+            msg = extract_matching_string(others, "%s")
+            strings = expand_param_message(msg, [adjectives, nouns])
+            strings.extend(others)
         else:
             for string in strings_old:
                 if string.endswith(" +"):
@@ -1737,6 +1745,8 @@ def post_process_describe_cc(input):
                         string = "@Your_item@" + string + "."
                     elif section == "_staff_damage_type_string":
                         string += " damage"
+                    elif section == "_describe_item_curse" and string.endswith(" "):
+                        string += "@skills@."
                     strings.append(string)
         results[section] = strings
 
