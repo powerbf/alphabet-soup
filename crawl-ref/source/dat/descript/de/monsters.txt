@@ -2881,29 +2881,29 @@ Ein feindliches Monster, dessen Anwesenheit entdeckt wurde.
 %%%%
 trivial sensed monster
 
-Ein trivial schwaches Monster, dessen Anwesenheit durch die Macht von Aschenzari
+Ein trivial schwaches Monster, dessen Anwesenheit durch die Macht von Ashenzari
 enthüllt wurde.
 %%%%
 easy sensed monster
 
-Ein schwaches Monster, dessen Anwesenheit durch die Macht von Aschenzari
+Ein schwaches Monster, dessen Anwesenheit durch die Macht von Ashenzari
 enthüllt wurde.
 %%%%
 tough sensed monster
 
 Ein ziemlich gefährliches Monster, dessen Anwesenheit durch die Macht von
-Aschenzari enthüllt wurde.
+Ashenzari enthüllt wurde.
 %%%%
 nasty sensed monster
 
-Ein sehr gefährliches Monster, dessen Anwesenheit durch die Macht von Aschenzari
+Ein sehr gefährliches Monster, dessen Anwesenheit durch die Macht von Ashenzari
 enthüllt wurde.
 %%%%
 friendly sensed monster
 
 Ein freundliches Monster, dessen Anwesenheit {{
     if you.god() == "Ashenzari" then
-        return "durch die Macht von Aschenzari enthüllt"
+        return "durch die Macht von Ashenzari enthüllt"
     else
         return "gespürt"
     end
