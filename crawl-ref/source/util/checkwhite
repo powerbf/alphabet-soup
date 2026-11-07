@@ -99,7 +99,7 @@ for (@files)
     next if !/\./ and !/util\//;
     my $tab = /Makefile/i;      # Allow tabs for makefiles.
     my $bom = /\.js$/;          # And BOM for these.
-    my $french = /\.des$/;      # these may need it for functionality
+    my $french = /\.des$/ || /\/(de|fr)\//;  # these may need it for functionality
     $bom = 1 if /CREDITS/;
     undef local $/;
     open F, "<$_" or die "Can't open $_";
