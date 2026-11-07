@@ -2668,7 +2668,7 @@ stacked deck:
 Gestapeltes Deck:
 %%%%
 Ashenzari supports the following skill groups because of your curses:
-Aschenzari unterstützt aufgrund deine Flüche die folgenden Fertigkeitsgruppen:
+Ashenzari unterstützt aufgrund deine Flüche die folgenden Fertigkeitsgruppen:
 %%%%
 Martial attacks:
 Martialische Angriffe:
@@ -5316,7 +5316,7 @@ Really remove and destroy @arg@?
 {acc}@arg@ wirklich entfernen und zerstören?
 %%%%
 " Ashenzari will withdraw the offered vision and curse!"
-" Aschenzari wird die angebotene Vision und den Fluch zurückziehen!"
+" Ashenzari wird die angebotene Vision und den Fluch zurückziehen!"
 %%%%
 You shatter the curse binding @arg@!
 Du brichst den Fluch, der {acc}@arg@ bindet!
@@ -12782,46 +12782,46 @@ step out of the flow of time
 aus dem Fluss der Zeit heraustreten
 %%%%
 Ashenzari warns you of distant threats and treasures.
-Aschenzari warnt dich vor fernen Bedrohungen und Schätzen.
+Ashenzari warnt dich vor fernen Bedrohungen und Schätzen.
 %%%%
 Ashenzari reveals the structure of the dungeon to you.
-Aschenzari offenbart dir die Struktur des Kerkers.
+Ashenzari offenbart dir die Struktur des Kerkers.
 %%%%
 Ashenzari shows you where magical portals lie.
-Aschenzari zeigt dir, wo magische Portale liegen.
+Ashenzari zeigt dir, wo magische Portale liegen.
 %%%%
 Ashenzari prevents you from stumbling into unseen traps.
-Aschenzari verhindert, dass du in unsichtbare Fallen stolperst.
+Ashenzari verhindert, dass du in unsichtbare Fallen stolperst.
 %%%%
 Ashenzari identifies your possessions.
-Aschenzari identifiziert deine Besitztümer.
+Ashenzari identifiziert deine Besitztümer.
 %%%%
 Ashenzari will now reveal the unseen.
 Eschenzari enthüllt nun das Unsichtbare.
 %%%%
 Ashenzari will no longer reveal the unseen.
-Aschenzari enthüllt nicht mehr das Unsichtbare.
+Ashenzari enthüllt nicht mehr das Unsichtbare.
 %%%%
 Ashenzari reveals the unseen.
-Aschenzari enthüllt das Unsichtbare.
+Ashenzari enthüllt das Unsichtbare.
 %%%%
 Ashenzari will now keep your mind clear.
-Aschenzari hält nun deinen Geist klar.
+Ashenzari hält nun deinen Geist klar.
 %%%%
 Ashenzari will no longer keep your mind clear.
-Aschenzari hält deinen Geist nicht länger klar.
+Ashenzari hält deinen Geist nicht länger klar.
 %%%%
 Ashenzari keeps your mind clear.
-Aschenzari hält deinen Geist klar.
+Ashenzari hält deinen Geist klar.
 %%%%
 Ashenzari will now grant you astral sight.
-Aschenzari gewährt dir nun astrale Sicht.
+Ashenzari gewährt dir nun astrale Sicht.
 %%%%
 Ashenzari will no longer grant you astral sight.
-Aschenzari gewährt dir keine astrale Sicht mehr.
+Ashenzari gewährt dir keine astrale Sicht mehr.
 %%%%
 Ashenzari grants you astral sight.
-Aschenzari gewährt dir astrale Sicht.
+Ashenzari gewährt dir astrale Sicht.
 %%%%
 step into the shadows of nearby creatures
 in die Schatten von Kreaturen in der Nähe treten
@@ -13646,7 +13646,7 @@ Press the letter of a skill to cycle between <darkgrey>disabled</darkgrey> (<dar
 Den Buchstaben einer Fertigkeit drücken, um zwischen <darkgrey>deaktiviert</darkgrey> (<darkgrey>-</darkgrey>), aktiviert (+) und <white>fokussiert</white> (<white>*</white>) zu wechseln. Fokussierte Fertigkeiten trainieren im Vergleich zu anderen doppelt so schnell.
 %%%%
 Ashenzari's power
-Aschenzaris Macht
+Ashenzaris Macht
 %%%%
 cross-training
 Crosstraining
@@ -13656,7 +13656,7 @@ Skills enhanced by @arg@ are in <green>green</green>.
 Durch {acc}@arg@ verbesserte Fertigkeiten sind <green>grün</green>.
 %%%%
 Ashenzari's anger
-Aschenzaris Zorn
+Ashenzaris Zorn
 %%%%
 # note: @arg@ = in theory a comma-separated list, but in practice always "Ashenzari's anger"
 Skills reduced by @arg@ are in <magenta>magenta</magenta>.
@@ -18955,7 +18955,7 @@ The portal accepts the items and buzzes to life!
 Das Portal nimmt die Gegenstände an und erwacht zum Leben!
 %%%%
 The portal is unable to unshackle you from Ashenzari's curse; you must abandon your deity entirely to enter!
-Das Portal kann dich nicht von Aschenzaris Fluch befreien; Du musst deine Gottheit aufgeben, um einzutreten!
+Das Portal kann dich nicht von Ashenzaris Fluch befreien; Du musst deine Gottheit aufgeben, um einzutreten!
 %%%%
 This portal proclaims the superiority of the material over the divine; those who enter it will find they have lost all favour with their chosen deity. Enter anyway?
 Dieses Portal verkündet die Überlegenheit des Materiellen gegenüber dem Göttlichen; wer es betritt, wird feststellen, dass er jede Gunst bei seiner gewählten Gottheit verloren hat. Trotzdem eintreten?
@@ -18969,7 +18969,7 @@ Du fühlst dich völlig allein.
 ##################
 %%%%
 Ashenzari says, "See what I see, mortal..."
-Aschenzari sagt: "Sieh, was ich sehe, Sterblicher..."
+Ashenzari sagt: "Sieh, was ich sehe, Sterblicher..."
 %%%%
 You have a sudden vision of the Swamp and the Snake Pit!
 Du hast plötzlich eine Vision vom Sumpf und der Schlangengrube!
