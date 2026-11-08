@@ -755,14 +755,14 @@ Wu Jian extra
   ..<lightred>@</lightred>.O..  -->  ...<lightred>@</lightred>O..  zubewegen, um zusätzlichen Schaden zu
   .......       .......  verursachen.
 
-  .......       ...<lightred>@</lightred>...  (*) <lightred>Wirbelwind</lightred>: Sich zwischen zwei Feldern neben einem
-  ...<lightred>@</lightred>O..  -->  ....O..  Feind bewegen, um ihn leicht zu treffen. Mehrere
+  .......       ...<lightred>@</lightred>...  (*) <lightred>Wirbelwind</lightred>: Sich zwischen zwei Feldern neben
+  ...<lightred>@</lightred>O..  -->  ....O..  einem Feind bewegen, um ihn leicht zu treffen. Mehrere
   .......       .......  benachbarte Feinde können gleichzeitig angegriffen
                          werden.
 
   ..#....       ..#....  (**) <lightred>Wandsprung</lightred>: Von einer nahgelegenen Wand abspringen
-  ..#<lightred>@</lightred>O..  -->  ..#.O<lightred>@</lightred>.  und Feinde in der Nähe des Landeplatzes treffen.
-  ..#....       ..#....  Dauert zwei Runden. Wird über das Fähigkeitsmenü
+  ..#<lightred>@</lightred>O..  -->  ..#.O<lightred>@</lightred>.  und Feinde in der Nähe des Landeplatzes treffen. Dauert
+  ..#....       ..#....  zwei Runden. Wird über das Fähigkeitsmenü
                          aktiviert (a).
 
 Diese Techniken verhindern, dass Feinde freie Angriffe erhalten während du dich
