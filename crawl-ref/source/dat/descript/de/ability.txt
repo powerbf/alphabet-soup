@@ -760,16 +760,17 @@ Zieht sauren Schleim aus den Wänden des Kerkers um dich herum, der Gegnern
 Schaden zufügt, abhängig von der Anzahl der benachbarten schleimigen Wände.
 %%%%
 # Ashenzari
-Curse Item ability
+Ritual of Binding ability
 
-Verflucht einen ausgewählten angelegten Gegenstand und bindet ihn solange an den
-Träger, bis sowohl der Fluch als auch der Gegenstand gebrochen werden.
-Verfluchte Gegenstände können nicht mehr verzaubert oder verändert werden.
+Bindet einen ausgewählten angelegten Gegenstand an den Träger im Gegenzug für
+einen winzigen Teil von Ashenzaris Wissen. Auf diese Weise gebundene Gegenstände
+können nicht mehr verzaubert oder auf die meisten Arten verändert werden und
+lassen sich nur durch Zerstörung entfernen.
 %%%%
 Shatter The Chains ability
 
-Zerstört einen gewählten verfluchten Ausrüstungsgegenstand und befreit den
-Träger vom Fluch.
+Zerstört einen gewählten gebundenen Ausrüstungsgegenstand, wodurch der Träger
+von dessen Gewicht befreit wird, seine Gunst in Ashenzaris Augen jedoch sinkt.
 %%%%
 # Dithmenos
 Shadowslip ability
@@ -818,10 +819,13 @@ denn selbst die allererste Nacht der Schöpfung muss schließlich dem Tag weiche
 Die Fertigkeit Anrufungen erhöht die Dauer des Effekts.
 %%%%
 # Gozag
-Potion Petition ability
+Purchase Blessing ability
 
-Bittet Gozag, dir die Wirkungen einer Reihe von Tränken zu verkaufen. Gozag
-bietet jeweils drei Listen mit unterschiedlichen Preisen an.
+Bittet Gozag, dir Heilung oder Stärkung zu einem marktüblichen Preis zu
+gewähren. Jedes Mal, wenn du diese Fähigkeit aktiviert, werden dir drei
+zufällige Segnungen (mit ähnlichen Wirkungen wie Tränke) angeboten, jeweils
+zu einem unterschiedlichen Preis. Achtung: Sobald dir die Ware gezeigt wurde,
+kannst du den Kauf nicht mehr rückgängig machen.
 %%%%
 Call Merchant ability
 
@@ -1197,3 +1201,8 @@ du anschließend immer ein Heulen aus.
 
 Kann nur gegen einen Feind verwendet werden, der Angst hat und an den mindestens
 ein besetzbares Feld angrenzt.
+%%%%
+Chaos Eisegesis ability
+
+Nutzt das rohe Chaos (und fordert das Schicksal heraus), um den folgenden Zauber
+ohne das Risiko eines Fehlschlags zu wirken:
