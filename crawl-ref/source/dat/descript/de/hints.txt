@@ -160,7 +160,7 @@ Du bist gerade zu <w>Ashenzari</w> konvertiert. Im Gegensatz zu anderen Göttern
 interessiert sich Ashenzari ausschließlich für Flüche. Während du den Kerker
 erkundest, bietet dir Ashenzari Flüche an, die einen Gegenstand an dich binden.
 Je mehr verfluchte Gegenstände du trägst, desto mehr verbessert Ashenzari deine
-Fähigkeiten und hilft dir anderweitig.
+Fertigkeiten und hilft dir anderweitig.
 %%%%
 HINT_CONVERT Gozag
 
@@ -220,8 +220,7 @@ unterbrochen wird. Um zu rasten, drücke <w>5</w> oder <w>Umschalt-Ziffernblock
 HINT_BERSERK_CONSERVES_HP
 
 Berserkerwut kann dir außerdem helfen, gar nicht erst so viel Gesundheit zu
-verlieren.
-Um deine Fähigkeiten zu verwenden, drücke <w>a</w>.
+verlieren. Um deine Fähigkeiten zu verwenden, drücke <w>a</w>.
 %%%%
 HINT_SEEN_FIRST_OBJECT
 
@@ -304,11 +303,11 @@ Das ist der erste Stapel Geschosse<console> ('<w>$item[missile]</w>')</console>,
 den du aufgehoben hast. Geschosse wie Bumerangs und Wurfnetze lassen sich von
 Hand werfen and werden effektiver, wenn du die Fertigkeit Werfen trainierst.
 Wähle diesen Gegenstand im Inventar aus<localtiles> oder mache einfach einen
-<w>Rechtsklick</w> auf ihn, um mehr Informationen anzuzeigen.
+<w>Rechtsklick</w> auf ihn</localtiles>, um mehr Informationen anzuzeigen.
 
 {{
     if crawl.hints_type() == "ranger" then
-        return "Da du bereits mit Distanzwaffen trainiert hast, brauchst du "
+        return "Da du bereits mit Fernkampfwaffen trainiert hast, brauchst du "
                .."nicht wirklich noch eine andere Art von Fernkampfangriff."
     elseif crawl.hints_type() == "magic" then
         return "Als Zauberer brauchst du jedoch nicht wirklich eine weitere Art"
@@ -569,7 +568,7 @@ leicht den Schaden der meisten Waffen.
 <w>Intelligenz</w> macht deine Zaubersprüche zuverlässiger und mächtiger.
 
 <w>Geschicklichkeit</w> erhöht dein Ausweichen und deine Heimlichkeit und
-erhöht leicht den Schaden von Klingen- und Distanzwaffen.
+erhöht leicht den Schaden von Klingen- und Fernkampfwaffen.
 %%%%
 HINT_MALEVOLENCE
 
@@ -821,7 +820,7 @@ konvertieren und alles wird gut sein.
 %%%%
 HINT_GOD_ABANDONED
 
-Solltest du feststellen, dass die Abkehr von {acc}$1 doch nicht so klug war
+Solltest du feststellen, dass die Abkehr von $1 doch nicht so klug war
 und du zu deinen alten Glauben zurückkehren möchtest, musst du einen Altar
 finden, der $1 gewidmet ist, an dem du dich wieder bekehren kannst und alles
 wird gut sein. 
@@ -1544,7 +1543,7 @@ zusätzliche Pietät gewährt.
 # $1 = altar god
 HINT_DESCRIBE_NONFADED_ALTAR_ATHEIST
 
-Du kannst Informationen über {acc}<w>$1</w> erhalten, indem du
+Du kannst Informationen über <w>$1</w> erhalten, indem du
 <w>$cmd[CMD_GO_DOWNSTAIRS]</w> drückst, während du auf dem Altar stehst.
 Bevor du den jeweiligen Glauben annimmst, wirst du um eine Bestätigung
 gebeten.
@@ -1563,7 +1562,7 @@ Gottes, der dir zum Dank etwas zusätzliche Pietät gewährt.
 HINT_DESCRIBE_NONFADED_ALTAR
 
 $1 wird es wahrscheinlich nicht mögen, wenn du die Loyalität wechselst, aber
-ein Blick kann nicht schaden: Um Informationen über {acc}<w>$2</w> zu
+ein Blick kann nicht schaden: Um Informationen über <w>$2</w> zu
 erhalten, drücke <w>$cmd[CMD_GO_DOWNSTAIRS]</w>, während du auf dem Altar
 stehst. Bevor du den jeweiligen Glauben annimmst (und deinen jetzigen
 aufgibst!), wirst du um eine Bestätigung gebeten.\nUm deinen aktuellen Stand
