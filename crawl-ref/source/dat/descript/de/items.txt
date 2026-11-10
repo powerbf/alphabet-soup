@@ -6,9 +6,23 @@ Schutz als die Schuppen einiger größerer Drachen, dafür ist sie aber etwas
 leichter und weniger hinderlich. Außerdem ist sie bemerkenswert glatt und läßt
 ätzenden Schleim wie Wasser abfließen.
 %%%%
+amulet of chemistry
+
+Ein Amulett, das es dem Träger erlaubt, aus jedem Trank, den er trinkt, kleine
+Mengen magischer Energie zu ziehen. Zudem verstärt es die Wirksamkeit seiner
+Alchemie-Zauber. Damit der Effekt der Magiewiederherstellung eintreten kann,
+muss sich das Amulett auf den Körper des Trägers einstimmen, während dessen
+Magiereserven voll sind.
+%%%%
+amulet of dissipation
+
+Ein Amulett, das bewirkt, dass beim Träger magische Kontamination und negative
+Statuseffekte mit der Zeit doppelt so schnell ablaufen.
+
+%%%%
 amulet of faith
 
-Ein Talisman, der dazu gefertigt wurde, die Aufmerksamkeit der Götter auf seinen
+Ein Amulett, das dazu gefertigt wurde, die Aufmerksamkeit der Götter auf seinen
 Träger zu lenken. Die göttliche Aufmerksamkeit macht es einfacher, deinem Gott zu
 gefallen, aber dein Gott wird auch deine Verfehlungen genauer beachten. Das Amulett
 entzieht dir beim Ablegen einen Teil deiner göttlichen Gunst.
@@ -30,8 +44,10 @@ Ein Amulett ohne besondere Eigenschaften.
 %%%%
 amulet of reflection
 
-Ein Amulett, das eine Kraft ausübt, die manche eingehenden Angriffe blockt
-und geblockte Fernangriffe sogar auf den Angreifer zurückwerfen kann.
+Ein Amulett, das die Fähigkeit seines Trägers verbessert, Angriffe zu blocken.
+Wird kein Schild getragen, dient allein die Kraft des Amuletts als ein schwacher
+Schild. Unabhängig davon werden alle Fernkampfangriffe, die der Träger blockt,
+in Richtung des Angreifers zurückgeworfen.
 %%%%
 amulet of regeneration
 
@@ -46,6 +62,10 @@ um den Schlägen seiner Feinde auszuweichen, aber nur, während er sich bewegt
 oder wartet. Bei anderen Aktionen (einschließlich Treppensteigen) bringt das
 Amulett keine Vorteile.
 %%%%
+amulet of wildshape
+
+Ein Amulett, das die Fertigkeit Gestaltwandlung des Trägers verbessert.
+%%%%
 animal skin
 
 Ein großes Stück dicker Haut mit Fell, vom Körper eines Tieres abgezogen
@@ -58,10 +78,36 @@ arbalest
 Ein großes Gerät zum Abfeuern von Bolzen, das mit Stahl verstrebt ist und mit
 einer Winde angekurbelt wird. Das Laden und Abfeuern dauert einige Zeit.
 %%%%
-arrow
+assassin centipede
 
-Ein langschaftiges Projektil, das mit einem Kurz- oder Langbogen geschossen wird
-und an einem Ende mit Federn und am anderen Ende mit einer Spitze versehen ist.
+Eine lebende Waffe, deren Greifzangen messerscharf sind und eine große
+Reichweite haben. Ihr Stich kann den Getroffenen lähmende Gifte zufügen und bei
+höheren Verzauberungsstufen Gegner sogar kurzzeitig verlangsamen oder
+paralysieren.
+
+Nachdem sie eine moderate Anzahl von Angriffen ausgeführt hat, löst sie sich
+von deinem Körper, um für kurze Zeit eigenständig Gegner anzugreifen, bevor
+sie stirbt.
+%%%%
+athame
+
+Ein kunstvoll verziertes und verhextes Ritualmesser. Schon das bloße Führen
+dieser Waffe kostet ein kleines Stück deiner Gesundheit, doch Hiebe, die du
+damit Gegnern zufügst, die unter negativen Statuseffekten (außer Gift) leiden,
+haben einen erhöhten Grundschaden von bis zu +4 bei zwei solch unheilvollen
+Zuständen.
+%%%%
+azure gem
+
+[[gem]]
+
+So klar und blau wie ein wolkenloser Himmel oder ein endloses Meer umschließt
+dieser Edelstein seine Geheimnisse in seinen undurchdringlichen Tiefen.
+%%%%
+# the_bakery
+baked corpse
+
+Ein gebackener Leichnam. Warm, nutzlos und tot.
 %%%%
 bardiche
 
@@ -69,21 +115,28 @@ Eine lange Stange mit einer enormen, spaltenden Klinge an einem Ende.
 %%%%
 barding
 
-Rüstung für die schuppigen Unterleibe von Nagas und Palentongas.
+Rüstung für die schuppigen Unterleibe von Nagas und Zentauren.
 %%%%
 battleaxe
 
 Eine große Kriegsaxt mit einem beeindruckenden doppelseitigen Kopf.
 %%%%
-bolt
+blade talisman
 
-Ein Metallprojektil, das kürzer als ein Pfeil ist und dafür gedacht ist, mit
-einer Armbrust verschossen zu werden.
+Ein gezacktes Bündel aus Klingen, das man kaum greifen kann, ohne sich zu
+verletzen. Bewirkt, dass lange, nadeldünne Klingen aus dem Körper des Trägers
+wachsen, wodurch dieser schnelle zusätzliche Nahkampfangriffe ausführen und
+sogar Schläge abwehren kann. So eine große Anzahl an Metallfragmenten im Körper
+zu haben vermindert die Wirksamkeit von Rüstungen, doch die Fertigkeit
+Gestaltwandlung mildert diesen Effekt und erhöht zudem den verursachten Schaden.
 %%%%
 book of air
 
-Eine Einführung in die elementare Magie der Luft. Besonders engagierte Schüler
-haben sich die Fähigkeit selbst fliegen zu können eingebildet - mit tragischen Folgen.
+Eine Einführung in die elementare Magie der Luft. Der große Minotaurenheld
+Vuxhurn, dem ein Exemplar dieses Buches überreicht wurde, als er auf dem Turm
+eines Zauberers mit einem besonders perversen Sinn für Humor gefangen war,
+nutzte dessen Seiten, um einen einfachen Gleiter zu bauen und sauste in die
+Freiheit.
 %%%%
 book of alchemy
 
@@ -102,6 +155,14 @@ Ein Buch, das verschiedene magische Waffen und Rüstungen beschreibt. Es wurde
 mitten in einem besonders blutigen Bürgerkrieg verfasst und der Text ist wesentlich
 weniger hilfreich, weil der Autor ständig abschweift und sich über die Verbrechen der
 gegnerischen Seite auslässt.
+%%%%
+book of battle
+
+Ein erstaunlich eitles und selbstverherrlichendes Werk. Der Autor fordert
+Anerkennung für eine breite Palette von Zaubersprüchen zur Waffenverstärkung,
+scheint jedoch die meisten davon missverstanden oder falsch dargestellt zu
+haben. Nur wenige der in diesem Buch beschriebenen Zaubersprüche funktionieren
+tatsächlich.
 %%%%
 book of beasts
 
@@ -125,8 +186,8 @@ Geheimnisse mit anderen zu teilen.
 %%%%
 book of burglary
 
-Ein Buch mit vielen verschiedenen Zaubersprüchen, die für Diebstahl, Einbruch
-und andere Verbrechen nützlich sind.
+Ein Buch mit Zaubersprüchen, die für Diebstahl, Einbruch und andere Verbrechen
+nützlich sind.
 %%%%
 book of callings
 
@@ -139,13 +200,6 @@ Ein Buch mit einer kleinen Auswahl sehr grundlegender Zaubersprüche, das für
 Anfänger gedacht ist, die die Grundzüge einer der vorgestellten magischen
 Schulen lernen wollen.
 %%%%
-book of changes
-
-Eine Schülerfibel für die magischen Künste der Verwandlung, gefüllt mit üppigen
-Illustrationen von Zauberfehlern: Halbzauberer-Halbspinnen, Klingennasen,
-Schnabeltentakel anstelle von Beinen. Der Text ist voll von Beteuerungen, dass
-sowas fast nie vorkommt.
-%%%%
 book of chaos
 
 Ein Buch mit Zaubersprüchen, die die Umgebung des Zaubernden in einen Zustand
@@ -156,6 +210,20 @@ book of conjurations
 
 Ein Buch, das eine Einführung in die zerstörerischen magischen Künste der
 Konjurationen enthält.
+%%%%
+book of contraptions
+
+Ein Buch mit Bauplänen und Zaubersprüchen zur Herstellung einer Vielzahl
+aufwendiger Mechanismen. Die offensichtlichen Sicherheitsrisiken, die mit
+vielen davon verbunden sind, werden in einer einzige Fußnote auf Seite 157
+abgehandelt, doch für einen unternehmungslustigen Abenteurer könnte dies als
+Vorteil angesehen werden.
+%%%%
+book of cryoformation
+
+Ein illustrierter Leitfaden zur Gestaltung von Eis in sowohl praktischen als
+auch künstlerischen Formen. Ein ganzes Kapitel ist Tabellen zu mineralischen
+Verunreinigungen und deren Auswirkungen auf Farbe und Schmelzpunkt gewidmet.
 %%%%
 book of dangerous friends
 
@@ -192,6 +260,14 @@ Die im Schlaf gesprochenen Äußerungen eines berühmten Mystikers, die in
 einzigartig bizarren Bildern und kryptischen Abschweifungen Zaubersprüche aus
 den Visionen des Mystikers beschreiben.
 %%%%
+book of duality
+
+Ein vielseitiges Zauberbuch, durchsetzt mit weitläufigen philosophischen
+Anekdoten über die doppelte Natur jeder Handlung. Selbst am Ende bleibt unklar,
+ob der Autor der Ansicht war, dass Zauber, die Angriff und Verteidigung in einer
+einzigen Bewegung vereinen, eine gewisse spirituelle Reinheit besitzen, oder ob
+er einfach nur ein Leben unter extremem Zeitdruck führte.
+%%%%
 book of fire
 
 Ein Buch mit fortgeschrittenen Zaubersprüchen aus der Elementarschule des
@@ -217,10 +293,28 @@ Ein Buch mit Zaubersprüchen, das oft als Einführung in die Elementarmagie des
 Eises verwendet wird. Seine Seiten fühlen sich ungewöhnlich brüchig an, als
 würden sie bei der kleinsten Berührung zerbröckeln.
 %%%%
+book of the fortress
+
+Ein Zauberbuch, das den Zaubernden angeblich so widerstandsfähig wie eine
+steinerne Festung machen soll. Sein Einband besteht aus dickem, magisch
+verstärktem Stahl, wodurch das Buch unverhältnismäßig schwer ist, ohne dass
+dies einen offensichtlichen Vorteil hätte.
+%%%%
 book of geomancy
 
 Ein Buch mit grundlegenden Zaubersprüchen, die das Element Erde betreffen. Den
 Lesern wird empfohlen, Gartenhandschuhe zu tragen.
+%%%%
+book of the grave
+
+Ein schwerer Band mit nekromantischen Zaubersprüchen. Wer ihn berührt, berichtet
+häufig von einem spürbaren Gefühl des Unbehagens, als ob zwischen seinen Seiten
+etwas ungesundes verborgen wäre.
+{{
+    if you.can_smell() then
+        return "Sein Pergament riecht leicht nach Erde und Verfall."
+    end
+}}
 %%%%
 book of hexes
 
@@ -241,10 +335,19 @@ book of lightning
 
 Ein Buch, das vor arkaner Macht knistert.
 %%%%
-book of maledictions
+book of maladies
 
-Ein Buch der Verhexungen, in dem Zaubersprüche zur Verwirrung und Benebelung
-beschrieben werden.
+Ein prägnanter Katalog von Leiden sowohl magischer als auch weltlicher Art, die
+oft mit beunruhigender Fröhlichkeit beschrieben werden. Die meisten davon
+erfordern zu lange Zeiträume um für einen Abenteurer nützlich zu sein, doch
+einige wenige klingen bemerkenswert wirksam.
+%%%%
+book of metalworking
+
+Ein Werk über fortgeschrittene Schmiedemagie. Seine Seiten sind regelmäßig mit
+technischen Abbildungen aus aufwendig gearbeiteter Metallfiligranarbeit
+verziert, vielleicht als Beleg für das eigene Können des Autors in der hierin
+beschriebenen Kunst.
 %%%%
 book of minor magic
 
@@ -256,8 +359,15 @@ book of misfortune
 
 Ein Zauberbuch, das der Kunst gewidmet ist, seinen Gegnern kreatives Unheil
 zuzufügen. Abergläubische Zauberer behaupten, dass das Buch selbst Unglück
-absorbiert und tragen es als Talisman bei sich, aber die Wirkung scheint
+absorbiert und tragen es als Glücksbringer bei sich, aber die Wirkung scheint
 bestenfalls subtil zu sein.
+%%%%
+book of movement
+
+Ein Zauberbuch, das scheinbar schon bei der geringsten Berührung aufspringt.
+Der Text flitzt von einer Zauberbeschreibung zur nächsten und liefert gerade
+genug Informationen, um nur einige wenige davon wirklich zu verstehen, obwohl
+alle auf irgendeine Weise mit Bewegung zu tun zu haben scheinen.
 %%%%
 book of necromancy
 
@@ -271,23 +381,16 @@ Ein Buch mit einer Vielzahl von lustigen Zaubersprüchen, die garantiert jede
 Zaubererparty beleben, sowie einer Reihe von Trinksprüchen, Witzen und
 Partyspielen.
 %%%%
-book of pain
-
-Ein magisches Buch, das angeblich von der Dämonenkönigin Ereshkigal geschrieben
-wurde, die sich am schmerzhaften Tod von Sterblichen erfreut. Manche würden
-sagen, dass es am besten wäre, die Herkunft des Buches zu bedenken, bevor man
-es benutzt, aber Zauberer lassen sich von solchen Bedenken selten abschrecken.
-%%%%
 book of power
 
 Ein Buch mit mächtigen und zerstörerischen Zaubersprüchen, das vor kaum zu
 bändigenden Energien bebt und zittert.
 %%%%
-book of rime
+book of scorching
 
-Ein mit Frost überzogener Foliant, der in etwas gekürzter Fassung eisige Zaubersprüche
-beschreibt. Es heißt, dass die Gewölbe den vollständigen Text enthalten, aber die
-Wächter dieses Ortes hüten ihre Schätze eifersüchtig.
+Ein magisches Buch, das von der Wüstensonne ausgebleicht und zerfressen ist. Auf
+seinen stark verwitterten Seiten verbergen sich die Geheimnisse, wie man die
+Gefahren der Wüste auf die Feinde des Zauberers zurückfallen lassen kann.
 %%%%
 book of sloth
 
@@ -305,19 +408,23 @@ Ein mit glitzernden Pailletten bedecktes Buch. Eine spontane Lichtshow erstrahlt
 auf jeder Seite, wodurch dieses Buch eindeutig nur den kitschigsten Zauberern
 vorbehalten ist.
 %%%%
+book of spontaneous combustion
+
+Ein schwerer Wälzer, geschrieben mit hochentzündlicher Tinte. Schon beim Öffnen
+ist Vorsicht geboten, doch die Macht der darin beschriebenen Zaubersprüche ist
+unbestreitbar.
+{{
+    if you.can_smell() then
+        return "Seine ausgetrockneten Seiten riechen leicht nach Schwefel."
+    end
+}}
+%%%%
 book of the spheres
 
-Ein Buch mit einer umfassenden, gut abgerundeten Sammlung von Zaubern, die mit
+Ein Buch mit einer gut abgerundeten Sammlung von Zaubern, die mit
 Sphären zu tun haben. Auf den letzten Seiten wird ein Zauber mit dem Titel
 "Orb von Zot Herbeirufen" beschrieben, aber leider ist der Rest des Buches
 komplett verdampft.
-%%%%
-book of stone
-
-Ein Lehrbuch der fortgeschrittenen Erdmagie. Der Einband und der Buchrücken sind
-mit einer beeindruckenden Vielfalt an Edelsteinen verziert, die vielleicht immense
-arkane Kräfte enthalten. Oder vielleicht gefiel dem Schöpfer nur das Glitzern
-der Steine.
 %%%%
 book of storms
 
@@ -331,10 +438,10 @@ book of the dragon
 Ein magisches Buch mit Zaubersprüchen, die eine gewisse Kontrolle über Drachen
 und ihre Aspekte ermöglichen.
 %%%%
-book of the dryads
+book of the wilderness
 
-Ein Buch mit Überlieferungen aus den Tiefen des Waldes, das es ermöglicht, seine Bewohner
-herbeizurufen, um dem Leser zu dienen.
+Ein Buch mit Überlieferungen aus fernen und ungezähmten Ländern, das es
+ermöglicht, deren Bewohner herbeizurufen, um dem Leser zu dienen.
 {{
     if you.can_smell() then
         return "Es riecht beunruhigend muffig."
@@ -346,7 +453,7 @@ book of the earth
 Ein Leitfaden für die Gewinnung immenser Kräfte aus den Tiefen der Erde. Das
 Original wurde in Zusammenarbeit von Hügelzwergen und Bergzwergen verfasst,
 aber seine Zusammenstellung wurde vorzeitig unterbrochen, als eine massive Welle
-von Erdbeben ihre Zivilisationen in den Ruin stürzte.
+von Erdbeben die Zivilisation der Hügelzwerge in den Ruin stürzte.
 %%%%
 book of the hunter
 
@@ -368,21 +475,22 @@ Ein wissenschaftliches Werk, das die Sinne beschreibt, mit denen Lebewesen die W
 um sich herum wahrnehmen. Zur Veranschaulichung der beschriebenen Prinzipien sind
 eine Handvoll Zaubersprüche enthalten.
 %%%%
-book of the sky
+book of transmutation
 
-Ein magisches Buch mit mächtigen Elementarzaubern der Luft. Der große
-Minotaurenheld Wuxhurn, der ein Exemplar dieses Buches erhielt, während er auf
-dem Turm eines Zauberers mit einem besonders perversen Sinn für Humor gefangen
-war, benutzte die Seiten, um einen rudimentären Gleiter zu bauen und in die
-Freiheit zu fliegen.
+Ein akribisch zusammengestelltes Kompendium von Forschungsnotizen, vollgepackt
+mit Formeln zur Zerlegung und Wiederherstellung aller möglichen Substanzen. Es
+wurde von einem der legendären Alchemisten unter den Schlammelfen verfasst,
+bevor diese Spezies auf mysteriöse Weise von der Welt verschwand. Der Autor
+scheint eine seltsame Besessenheit damit gehabt zu haben, sich in einen
+Schmetterling zu verwandeln, doch auch wenn ihm sein ultimatives Ziel verwehrt
+blieb, sind viele der darin beschriebenen Zaubersprüche trotzdem recht
+praktisch.
 %%%%
 book of the tundra
 
-Ein Buch, das von Völkern eines kalten und unwirtlichen Reiches geschrieben
-wurde. Es ist außergewöhnlich groß, aber das liegt daran, dass viele dicke Felle
-von seinem Rücken hängen. Die meisten der übrigen Seiten sind langen, stolzen
-Beschreibungen gewidmet, wie diese Pelze erbeutet wurden. Einige dieser
-Geschichten enthalten relevante Zaubersprüche, in der Regel als Nebenbemerkung.
+Ein mit Frost überzogener Foliant, der in etwas gekürzter Fassung eisige
+Zaubersprüche beschreibt. Es heißt, dass die Gewölbe den vollständigen Text
+enthalten, aber die Wächter dieses Ortes hüten ihre Schätze eifersüchtig.
 %%%%
 book of the warp
 
@@ -397,12 +505,6 @@ Der Autor scheint eine niedrige Meinung von seinen Zaubererkollegen zu haben
 und verbringt einen Großteil des Textes damit, die Hygiene und die sozialen
 Umgangsformen zu beschreiben, die erforderlich sind, um anderen fühlenden
 Wesen nahe zu kommen.
-%%%%
-book of transfigurations
-
-Ein Buch mit fortgeschrittenen Verwandlungszaubern. Entgegen der landläufigen
-Meinung kann sich das Buch nicht bewegen, aber es hat die unangenehme
-Angewohnheit, sich als andere Objekte in der Nähe zu tarnen.
 %%%%
 book of unlife
 
@@ -422,6 +524,13 @@ verwendet wurden. Die Rebellen wurden niedergeschlagen, aber dieses Buch wurde
 Jahre später wiederentdeckt, gefunden von den Paladinen des Kreuzzugs, der
 schließlich das Reich zerstörte und seine unsterblichen Zwillingsherrscher
 tötete.
+%%%%
+book of wicked creation
+
+Ein lange Zeit verbotenes Buch, das Zaubersprüche für verschiedene unheilige
+(oder zumindest hinterhältige) Schöpfungen beschreibt. Es wäre unklug, ein
+solches Buch in die Oberwelt mitzunehmen - besser man liest es und entsorgt es
+an einem gut versteckten Ort.
 %%%%
 book of winter
 
@@ -463,6 +572,22 @@ buckler
 Ein kleines Stück aus Holz und Metall, das zur Verteidigung an einen Arm
 geschnallt wird.
 %%%%
+centipede bauble
+
+Eine winzige Figur eines Tausendfüßlers, der sich um einen Stein windet. Wenn
+man sie fest umklammert, verwandelt sie sich in eine lebendige Waffe, die mit
+dem eigenen Körper verschmilzt. Diese Waffe fungiert als weitreichende
+Kurzklinge, deren Angriffe Ziele vergiften können.
+
+Nachdem man eine moderate Anzahl von Angriffen mit dieser Waffe ausgeführt hat,
+löst sie sich vom Körper ihres Trägers und kämpft für kurze Zeit als
+eigenständiger Verbündeter an deiner Seite, bevor sie stirbt.
+
+Die Fertigkeit Gestaltwandlung erhöht die Kraft dieses Tausendfüßlers sowohl in
+der Waffen- als auch in der Insektenform sowie die Wirksamkeit seiner Gifte -
+wodurch er schließlich manchmal Gegner verlangsamen oder sogar paralysieren
+kann.
+%%%%
 chain mail
 
 Eine Rüstung, die vollständig aus winzigen Metallringen besteht.
@@ -477,19 +602,38 @@ Ein schweres Stück Holz. Obwohl Knüppel eher primitive Waffen sind, ist es nac
 wie vor ein sehr beliebtes und wirksames Mittel zur Streitbeilegung, jemandem
 damit den Schädel einzuschlagen.
 %%%%
+codex of conductivity
+
+Eine umfassende Sammlung von Forschungsnotizen zu den Auswirkungen von
+Elektrizität auf alles Mögliche, von Sägemehl bis hin zu Kotzgurken, durchsetzt
+mit Zauberformeln und praktisch anwendbaren technischen Schemata. Die
+Handschrift des Autors verschlechtert sich in der Mitte des Kapitels über die
+Elektrophysiologie der Spriggans auf schockierende Weise, was zu zahlreichen
+Spekulationen sowohl über seine Identität als auch über seinen
+Selbsterhaltungstrieb führt.
+%%%%
+compendium of siegecraft
+
+Eine analytische Abhandlung über die Belagerungskriegsführung, die klar und
+verständlich verfasst ist. Ein Großteil der Kapitel befasst sich mit der
+Logistik und der Aufrechterhaltung von Versorgungslinien, doch einige
+beschreiben detailliert Strategien, die zum Durchbrechen von Befestigungsanlagen
+(und auch anderen, weicheren, Dingen) nützlich sind.
+
+%%%%
 condenser vane
 
 Ein magisches Gerät, das die Energie der Umgebung zu verschiedenen
 zerstörerischen Wolken verdichtet. Wenn es evoziert wird, bilden sich diese
-Wolken um feindliche Monster in der Nähe des Benutzers. Die Tödlichkeit der
-Wolken erhöht sich mit der Evozierungsfertigkeit. Bei geringer Kraft entsteht
-schädlicher Dunst. Mit zunehmender Kraft dann lodernde Flammen, gefrierende
-Dünste und giftige Gase. Auf den höchsten Stufen der Kraft werden
-Sturmwolken, säurehaltiger Nebel und Wolken negativer Energie verfügbar.
+Wolken um feindliche Monster in der Nähe des Benutzers. Die Menge und
+Tödlichkeit der Wolken erhöht sich mit der Evozierungsfertigkeit. Bei geringer
+Kraft entsteht schädlicher Dunst. Mit zunehmender Kraft dann lodernde Flammen,
+gefrierende Dünste und giftige Gase. Auf den höchsten Stufen der Kraft werden
+Sturmwolken, säurehaltiger Nebel und Wolken unerträglichen Elends verfügbar.
 %%%%
 corpse
 
-Eine Leiche. Nützlich nur für Praktiker der Nekromantie.
+Eine Leiche. Nutzlos und tot.
 %%%%
 crystal plate armour
 
@@ -527,7 +671,46 @@ Ein Flegel mit langen Stacheln und einem schweren Kopf.
 %%%%
 double sword
 
-Eine magische Waffe mit zwei rasiermesserscharfen Klingen.
+Eine furchteinflößende Waffe mit einer gespaltenen, rasiermesserscharfen Klinge.
+%%%%
+dragon-coil talisman
+
+Eine kunstvolle Schnitzerei, Drachenzähnen und -schuppen als Einlagen. {{
+    local desc = "Verwandelt den Träger in einen mächtigen"
+
+    if you.race():find("Draconian") then
+        desc = desc .. " Drachen. Der Träger behält seine angeborene Farbe " ..
+                       "und wird resistent gegen Gift. Die Macht und " ..
+                       "Aufladegeschwindigkeit seiner Odem-Waffe werden " ..
+		       "stark erhöht."
+    else
+        desc = desc .. " Golddrachen. Der Träger wird resistent gegen Feuer, " ..
+                       "Kälte und Gift. Er erhält eine mächtige Odem-Attacke, " ..
+                       "die alle drei Arten von Schaden auf einmal verursacht, " ..
+                       "aber erst wieder auflädt wenn du Erfahrung gewinnst."
+    end
+    return desc
+}}
+%%%%
+earthy gem
+
+[[gem]]
+
+Tief im Inneren dieses Edelsteins scheinen fließende Blätter und wiegende Äste
+zu lauern. Und hier, ein bis auf das Mark abgefressener Knochen - dort, die
+Augen eines Raubtiers, die hungrig herausstarren..?
+%%%%
+eel talisman
+
+Ein seltsames Meeresfossil, verziert mit Abalonen und Perlen.
+{{
+    local hands = you.hand() .. "s"
+    return "Causes the wearer's " .. hands
+}}
+to transform into a pair of wriggling electric eels that sometimes discharge
+arcs of electricity through connected targets when used to strike enemies. When
+the wearer's health becomes dangerously low, they will discharge an even more
+violent voltage.
 %%%%
 eggplant
 
