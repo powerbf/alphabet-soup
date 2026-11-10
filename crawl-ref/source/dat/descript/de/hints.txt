@@ -50,8 +50,7 @@ Gegner kämpft. Das ist zwar riskant, macht dich aber schneller und kräftiger.
 %%%%
 death ranger melee
 
-Pfeil und Bogen sind extrem stark gegen weit entfernte Monster. Denke
-daran alle Pfeile aufzusammeln, die im Kerker liegen.
+Pfeil und Bogen sind extrem stark gegen weit entfernte Monster.
 %%%%
 death random 0
 
@@ -155,14 +154,13 @@ finished random 3
 Um Rat und Hilfe von anderen Crawl-Spielern zu erhalten, verwende die
 Community-Ressourcen auf http://crawl.develz.org/.
 %%%%
-HINT_CONVERT Xom
+HINT_CONVERT Ashenzari
 
-Du bist gerade zu <w>Xom</w> konvertiert. Als Anhänger von Xom
-wirst du wie ein Spielzeug behandelt, dem Xom nach Belieben hilft oder
-schadet, um sich zu amüsieren.
-
-Es gibt keine Garantie dafür, dass Xom gut gelaunt bleibt - das Beste, worauf
-ein Anhänger hoffen kann, ist es, Xom nicht zu langweilen!
+Du bist gerade zu <w>Ashenzari</w> konvertiert. Im Gegensatz zu anderen Göttern
+interessiert sich Ashenzari ausschließlich für Flüche. Während du den Kerker
+erkundest, bietet dir Ashenzari Flüche an, die einen Gegenstand an dich binden.
+Je mehr verfluchte Gegenstände du trägst, desto mehr verbessert Ashenzari deine
+Fertigkeiten und hilft dir anderweitig.
 %%%%
 HINT_CONVERT Gozag
 
@@ -174,11 +172,10 @@ HINT_CONVERT Ru
 
 Du bist gerade zu <w>Ru</w> konvertiert. Im Gegensatz zu anderen
 Göttern gewährt Ru Pietät (göttliche Gunst) im Austausch für dauerhafte
-Opfer, wie z. B. den Verzicht auf die die Fähigkeit, Tränke zu trinken während du in
-Gefahr bist, oder den Verlust der Fähigkeit, bestimmte Fertigkeiten zu
-trainieren. Je mehr Pietät du hast, desto mehr Fähigkeiten gewährt dir Ru
-und desto mächtiger werden diese Fähigkeiten. Ru bietet dir weitere Opfer
-an, während du die Tiefen des Kerkers erforschst.
+Opfer wie den Verlust der Fähigkeit, bestimmte Fertigkeiten zu trainieren oder
+den permanenten Verlust einer Hand. Je mehr Pietät du hast, desto mehr
+Fähigkeiten gewährt dir Ru und desto mächtiger werden diese Fähigkeiten. Ru
+bietet dir weitere Opfer an während du die Tiefen des Kerkers erforschst.
 %%%%
 HINT_CONVERT Uskayaw
 
@@ -190,6 +187,15 @@ bleibst und je mehr Schaden du anrichtest, desto mächtigere Fähigkeiten werden
 angeboten. Sobald der Kampf endet, geht Uskayaws Gunst schnell verloren
 und muss im nächsten Kampf wiedergewonnen werden.
 %%%%
+HINT_CONVERT Xom
+
+Du bist gerade zu <w>Xom</w> konvertiert. Als Anhänger von Xom
+wirst du wie ein Spielzeug behandelt, dem Xom nach Belieben hilft oder
+schadet, um sich zu amüsieren.
+
+Es gibt keine Garantie dafür, dass Xom gut gelaunt bleibt - das Beste, worauf
+ein Anhänger hoffen kann, ist es, Xom nicht zu langweilen!
+%%%%
 HINT_CONVERT
 
 Du bist gerade zu <w>{{ return you.god() }}</w> konvertiert.
@@ -200,6 +206,21 @@ Du kannst die Vorlieben und Abneigungen deines Gottes sowie deinen aktuellen
 Status und deine göttlichen Fähigkeiten überprüfen, indem du
 <input>$cmd[CMD_DISPLAY_RELIGION]</input> drückst<localtiles>, oder mit
 <input>Shift-Rechtsklick</input> auf deinen Avatar</localtiles>.
+%%%%
+HINT_REST_BETWEEN_FIGHTS
+
+Denke daran, zwischen Kämpfen zu rasten und erst dann unerforschtes Gebiet zu
+betreten, wenn deine Gesundheit und deine Magie voll sind. Idealerweise solltest
+du dich in Gebiete zurückziehen, die du bereits erkundet und von Monstern
+befreit hast; wenn du am Rand des erkundeten Gebiets rastest, steigt die
+Wahrscheinlichkeit, dass deine Ruhepause durch umherstreifende Monster
+unterbrochen wird. Um zu rasten, drücke <w>5</w> oder <w>Umschalt-Ziffernblock
+5</w><tiles> oder <w>klicke auf die Rasten-Schaltfläche</w></tiles>.
+%%%%
+HINT_BERSERK_CONSERVES_HP
+
+Berserkerwut kann dir außerdem helfen, gar nicht erst so viel Gesundheit zu
+verlieren. Um deine Fähigkeiten zu verwenden, drücke <w>a</w>.
 %%%%
 HINT_SEEN_FIRST_OBJECT
 
@@ -279,25 +300,20 @@ aktuelle. Du kannst die Eigenschaften dieser Waffe in deinem Inventar
 HINT_SEEN_MISSILES
 
 Das ist der erste Stapel Geschosse<console> ('<w>$item[missile]</w>')</console>,
-den du aufgehoben hast. Geschosse wie Bumerangs und Wurfnetze können mit der
-Hand geworfen werden, aber andere Geschosse wie Pfeile und Bolzen erfordern
-ein Abschussgerät und Training im Umgang damit, um wirklich effektiv zu sein.
+den du aufgehoben hast. Geschosse wie Bumerangs und Wurfnetze lassen sich von
+Hand werfen and werden effektiver, wenn du die Fertigkeit Werfen trainierst.
 Wähle diesen Gegenstand im Inventar aus<localtiles> oder mache einfach einen
-<w>Rechtsklick</w> auf ihn, um mehr Informationen über Geschosse und Abschussgerät
-anzuzeigen.
+<w>Rechtsklick</w> auf ihn</localtiles>, um mehr Informationen anzuzeigen.
 
 {{
-    if crawl.hints_type() = "hunter" then
-        return "Da du bereits im Bogenschießen ausgebildet bist, musst du"
-               .." dich nur noch um das Sammeln von Pfeilen kümmern."
-    elseif crawl.hints_type() = "magic" then
+    if crawl.hints_type() == "ranger" then
+        return "Da du bereits mit Fernkampfwaffen trainiert hast, brauchst du "
+               .."nicht wirklich noch eine andere Art von Fernkampfangriff."
+    elseif crawl.hints_type() == "magic" then
         return "Als Zauberer brauchst du jedoch nicht wirklich eine weitere Art"
                .. " von Fernkampfangriff."
-    elseif crawl.hints_type() == "berserk"
-        return "Im Moment ist es am besten, wenn du dich für Fernkampfangriffe"
-               .. " mit Steinen begnügst."
     else
-        return "";
+        return ""
     end
 }}
 %%%%
@@ -318,20 +334,6 @@ auszuziehen. Du kannst seine Eigenschaften im Inventar
                .. " deiner Mutationen und angeborenen Fähigkeiten zu sehen.)"
     end
 }}
-%%%%
-HINT_SEEN_RANDART
-
-Bei Waffen und Rüstungen, die solche ungewöhnlichen Beschreibungen aufweisen,
-ist die Wahrscheinlichkeit höher, dass sie verzaubert sind oder besondere
-Eigenschaften haben, seien sie nun gut oder schlecht.
-%%%%
-HINT_SEEN_CARRION
-
-Das<console> <w>$item[corpse]</w></console> ist eine Leiche.
-%%%%
-HINT_NON_FLOOR_CARRION
-
-Ah, eine Leiche!
 %%%%
 HINT_SEEN_JEWELLERY
 
@@ -364,17 +366,19 @@ außerdem als Waffe verwendet werden. Du kannst einen Stab mit <w>$cmd[CMD_WIELD
 HINT_SEEN_GOLD
 
 Du hast deinen ersten Haufen Gold eingesammelt<console>
-('<yellow>$item[gold]</yellow>')</console>. Im Gegensatz zu den meisten anderen
-Gegenständen in Crawl nimmt Gold keinen Platz in deinem Inventar ein und kann
-nicht fallen gelassen werden. Gold kann zum Kauf von Gegenständen in Geschäften
-verwendet werden und wird von bestimmten Göttern geschätzt.
+('<yellow>$item[gold]</yellow>')</console>. Drücke <w>$cmd[CMD_LIST_GOLD]</w>
+um zu sehen, wie viel du hast. Gold wird in Läden verwendet, die du bei deinen
+Erkundungen findest.
 %%%%
 HINT_SEEN_STAIRS
 
 Das<console> '$1'</console> ist eine Treppe nach unten. Du kannst die nächste
 (tiefere) Ebene eintreten, indem du ihr nach unten folgst
 (<w>$cmd[CMD_GO_DOWNSTAIRS]</w>). Drücke <w>$cmd[CMD_GO_UPSTAIRS]</w>, während
-du auf der Treppe nach oben stehst, um zu dieser Ebene zurückzukehren.
+du auf der Treppe nach oben stehst, um zu dieser Ebene zurückzukehren. Wenn
+du Treppen benutzt, hast du die garantierte Gelegeheit vor Monstern zu handeln,
+die du zuvor noch nicht gesehen hast; anschließend dürfen sich Monster zuerst
+bewegen.
 <localtiles>Alternativ kannst du auf die Treppe, auf der du stehst, auch <w>linksklicken</w>,
 um sie zu benutzen.</localtiles>
 %%%%
@@ -388,16 +392,16 @@ beim Abstieg also vorsichtig.
 %%%%
 HINT_SEEN_BRANCH
 
-Das<Konsole> '$1'</Konsole> ist der Zugang zu einem anderen Zweig des Kerkers,
-der sich in Gelände, Levelaufbau und Monstern vom aktuellen Hauptzweig, in
-dem du dich befindest, unterscheiden kann. Einige Verzweigungen
-enthalten nur eine einzige Ebene, während andere viele Ebenen tief sind. Sie können
-auch Eingänge zu weiteren Zweigen enthalten.
+Das<Konsole> '$1'</Konsole> ist der Zugang zu einem anderen Zweig des Kerkers.
+Jeder Zweig hat unterschiedliches Gelände und Monster und manche enthalten
+Zugänge zu weiteren Zweigen. Du erfährst mehr, wenn du diesen Zugang
+untersuchst, indem du<localtiles> die Maus über seine Kachel bewegst</localtiles>
+<nomouse> <w>$cmd[CMD_LOOK_AROUND]</w> drückst und den Cursor darauf
+bewegst</nomouse>.
 
-Die ersten drei Abzweigungen sind der Tempel, die Höhle der Bestien und die
-Orkischen Minen. Während die Höhle und die Minen für neue Abenteurer gefährlich
-sein können, ist der Tempel völlig sicher und enthält eine Reihe von Altären an
-denen man zu einem neuen Gott konvertieren kann.
+Manche Zweige sind viel sicherer and lohnenswerter als dein aktueller Zweig.
+Andere können sehr gefährlich sein und werden besser erst besucht, wenn dein
+Charakter mächtiger ist.
 %%%%
 HINT_SEEN_PORTAL
 
@@ -445,17 +449,8 @@ Gegenstandsglyphe zu verbergen.</console>
 %%%%
 HINT_SEEN_TRAP
 
-Du hast gerade eine Falle entdeckt. Gelegentlich stolperst du über diese
-fiesen Konstruktionen<console>, die mit $1 dargestellt werden</console>. Jede
-Art von Falle hat einen anderen Effekt, wenn du sie betrittst, wie z.B. Feinde
-zu alarmieren oder eine zufällige Teleportation auszulösen.
-%%%%
-HINT_TRIGGERED_TRAP
-
-Upps... du hast gerade eine Falle ausgelöst. Gelegentlich stolperst du in
-diese fiesen Konstruktionen<console>, die mit $1 dargestellt werden</console>.
-Jede Art von Falle hat einen anderen Effekt, wenn du sie betrittst, wie z.B.
-Feinde zu alarmieren oder eine zufällige Teleportation auszulösen.
+Du hast gerade eine Falle entdeckt. Gelegentlich findest du diese fiesen
+Konstruktionen.
 %%%%
 HINT_SEEN_ALTAR
 
@@ -471,10 +466,10 @@ Informationen über den jeweiligen Gott zu lesen. Bevor du den entsprechenden
 Glauben annimmst, wirst du um eine Bestätigung gebeten.
 
 {{
-    if you.god() == "No God" and crawl.hints_type() = "magic" then
-        return "Der einfachste Gott für einen unerfahrenen Zauberer ist"
-               .. " wahrscheinlich Vehumet, obwohl Sif Muna eine gute zweite"
-               .. " Wahl ist."
+    if you.god() == "No God" and crawl.hints_type() == "magic" then
+        return "Der einfachste Gott für einen unerfahrenen Zauberer ist "
+               .. "wahrscheinlich Vehumet, obwohl andere Götter, wie "
+               .. "Sif Muna, auch gut funktionieren können."
     end
 }}
 %%%%
@@ -520,7 +515,7 @@ dich tödlicher.
 HINT_NEW_LEVEL
 
 Gut gemacht! Das Erreichen einer neuen Erfahrungsstufe ist immer ein schönes
-Ereignis: Du erhältst mehr Gesundheits- und Magiepunkte und gelegentlich auch
+Ereignis. Du erhältst mehr Gesundheits- und Magiepunkte und gelegentlich auch
 Verbesserungen deiner Attribute: Stärke, Intelligenz und Geschicklichkeit.
 {{
     if crawl.hints_type() == "magic" then
@@ -558,23 +553,36 @@ rechtfertigen kann.
 %%%%
 HINT_GAINED_RANGED_SKILL
 
-Die Beherrschung einer bestimmten Art von Fernkampfangriff lässt dich mehr
-Schaden verursachen, wenn du entsprechende Waffen benutzt. In der Regel
-ist es am besten, sich auf eine Art von Fernkampfangriff (einschließlich
-Zaubern) zu konzentrieren und eine Nahkampfwaffe als Ersatzwaffe im Kampf
-gegen schwache Gegner zu verwenden.
+Wenn du im Umgang mit Fernkampfwaffen geübt bist, kannst du damit etwas mehr
+Schaden verursachen und deutlich schneller angreifen. Denk daran, dass das
+Tragen schwerer Rüstung dich mit Fernkampfwaffen langsamer angreifen lässt.
 %%%%
 HINT_CHOOSE_STAT
 
-Jede dritte Stufe kannst du ein Attribut wählen, das du erhöhen
-möchtest: Stärke, Intelligenz oder Geschicklichkeit.
+Beim Erreichen von Stufe 3, 9, 15, usw. kannst du ein Attribut wählen,
+das du erhöhen möchtest: Stärke, Intelligenz oder Geschicklichkeit.
 
 <w>Stärke</w> macht schwere Rüstungen weniger hinderlich und erhöht
-leicht den Waffenschaden.
+leicht den Schaden der meisten Waffen.
 
 <w>Intelligenz</w> macht deine Zaubersprüche zuverlässiger und mächtiger.
 
-<w>Geschicklichkeit</w> erhöht dein Ausweichen und deine Heimlichkeit.
+<w>Geschicklichkeit</w> erhöht dein Ausweichen und deine Heimlichkeit und
+erhöht leicht den Schaden von Klingen- und Fernkampfwaffen.
+%%%%
+HINT_MALEVOLENCE
+
+Während du den Kerker erkundest und neue Kacheln offenbarst, können die
+bösartigen Mächte des Kerkers zufällig dafür sorgen, dass dir Unheil widerfährt.
+Wenn dies geschieht, halte inne, überlege sorgfältig und sei bereit,
+Verbrauchsgegenstände oder Fähigkeiten einzusetzen. Kämpfe um dein Überleben!
+%%%%
+HINT_OPPORTUNITY_ATTACK
+
+Wenn du dich von einem Gegner wegbewegst, hat dieser eine geringe (1/3) Chance,
+die Gelegenheit zu nutzen und einen kostenlosen Angriff zu starten.
+Neupositionierung und Rückzug sind oft immer noch gut, aber achte auf diese
+zusätzlichen Angriffe.
 %%%%
 HINT_YOU_ENCHANTED
 
@@ -682,6 +690,14 @@ Trank der Wundheilung oder, noch besser, einen Trank des Gegenmittels zu trinken
 (<w>$cmd[CMD_QUAFF]</w>). Wenn du bisher keinen von beiden gesehen hast,
 versuche es mit unbekannten Tränken in deinem Inventar. Viel Glück!
 %%%%
+HINT_ON_FIRE
+
+Du wurdest mit klebrigen, flüssigen Flammen überzogen. Du kannst diese schneller
+löschen, indem du deine Runden zur Bewegung nutzt, oder sie vollständig löschen,
+indem du in eine nahegelegene Wasserfläche steigst. Was auch immer dich mit
+flüssigen Flammen überzogen hat, könnte dich jedoch weiter in Brand setzen
+während du herumrennst.
+%%%%
 HINT_INVISIBLE_DANGER
 
 Ein Monster zu bekämpfen, das du nicht sehen kannst, ist schwierig. Wenn du
@@ -740,15 +756,14 @@ die bessere Option sein.
 %%%%
 HINT_ADVISE_USE_WAND
 
-Oder du könntest einen Zauberstab mit <w>$cmd[CMD_EVOKE]</w> evozieren, um
-Schaden zu verursachen.
+\nOder du könntest einen Zauberstab mit <w>$cmd[CMD_EVOKE]</w> evozieren, um
+deinen Feinden zu schaden oder sie zu schwächen.
 %%%%
 HINT_YOU_MUTATED
 
-Mutationen können aus verschiedenen Quellen stammen, unter anderem aus
-Tränken, Fehlzaubern und der übermäßigen Anwendung starker Verzauberungen
-wie Unsichtbarkeit. Die Götter Zin und Jiyva heilen deine Mutationen.
-Überprüfe deine Mutationen mit <w>$cmd[CMD_DISPLAY_MUTATIONS]</w>.
+Mutationen können gut oder schlecht sein. Tränke der Mutation sind das häufigste
+Mittel um schlechte Mutationen zu entfernen, obwohl sie dir auch neue geben
+können. Überprüfe deine Mutationen mit <w>$cmd[CMD_DISPLAY_MUTATIONS]</w>.
 %%%%
 HINT_NEW_ABILITY_GOD_PASSIVE
 
@@ -786,79 +801,74 @@ du Details.
 HINT_GOD_DISPLEASED
 
 Oh, oh, $1 ist unzufrieden, weil deine Pietät knapp wird. Möglicherweise
-ist das der Fall, weil du ketzerische Handlungen begehst, weil $1 deine
-Anbetung als mangelhaft empfindet oder eine Kombination aus beidem. Wenn deine
-Pietät auf Null sinkt, wirst du exkommuniziert. Fang also besser an,
-deine Pietät zu steigern und/oder hör auf, deinen Gott zu ärgern. Auf
-jeden Fall solltest du die Beschreibung der Religion noch einmal lesen. Drücke
-dazu <w>$cmd[CMD_DISPLAY_RELIGION]</w><localtiles> oder drücke <w>Shift</w>
-und mache einen <w>Rechtsklick</w> auf deinen Avatar</localtiles>.
+ist das der Fall, weil du ketzerische Handlungen begehst, weil du eine Menge
+Pietät ausgibst, um die Kräfte von $1 zu nutzen oder eine Kombination aus
+beidem. Wenn deine Pietät auf Null sinkt, wirst du exkommuniziert. Fang also
+besser an, deine Pietät zu steigern und/oder hör auf, deinen Gott zu ärgern.
+Auf jeden Fall solltest du die Beschreibung der Religion noch einmal lesen.
+Drücke dazu <w>$cmd[CMD_DISPLAY_RELIGION]</w><localtiles> oder drücke
+<w>Shift</w> und mache einen <w>Rechtsklick</w> auf deinen Avatar</localtiles>.
 %%%%
 HINT_EXCOMMUNICATED
 
-Oh, oh, $1 hat dich gerade exkommuniziert, weil du nicht mehr fromm genug bist
-(deine göttliche Gunst ist ins Leere gelaufen). Vielleicht hast du wiederholt
-gegen die religiösen Regeln verstoßen oder du hast deine Gottheit nicht oft
-genug zufrieden gestellt, oder eine Kombination aus beidem. Wenn du einen
-Altar findest, der $1 gewidmet ist, kannst du wieder konvertieren und alles
-wird gut sein. Andernfalls musst du den Unmut dieses Gottes aushalten, bis
-der göttliche Zorn verraucht ist.
+Oh, oh, $1 hat dich gerade exkommuniziert, weil dir die Pietät ausgegangen ist
+(von deiner göttlichen Gunst ist nichts mehr übrig). Vielleicht hast du
+wiederholt gegen die religiösen Regeln verstoßen oder du hast deine Pietät
+schneller ausgegeben als du sie steigern konntest oder eine Kombination aus
+beidem. Wenn du einen Altar findest, der $1 gewidmet ist, kannst du wieder
+konvertieren und alles wird gut sein.
 %%%%
 HINT_GOD_ABANDONED
 
-Solltest du feststellen, dass die Abkehr von {acc}$1 doch nicht so klug war
+Solltest du feststellen, dass die Abkehr von $1 doch nicht so klug war
 und du zu deinen alten Glauben zurückkehren möchtest, musst du einen Altar
 finden, der $1 gewidmet ist, an dem du dich wieder bekehren kannst und alles
-wird gut. Andernfalls musst du den Unmut dieses Gottes aushalten, bis der
+wird gut sein.
+%%%%
+HINT_ENDURE_GOD_WRATH
+
+Andernfalls musst du den Unmut dieses Gottes aushalten, bis der ganze
 göttliche Zorn verraucht ist.
-%%%%
-HINT_CONVERTED_GOD_NOT_ANGRY
-
-Glücklicherweise scheint es so, dass $1 nichts dagegen hat, dass du zu $2
-konvertiert bist.
-%%%%
-HINT_CONVERTED_GOD_ANGRY
-
-Sieht so aus, als ob $1 deinen Übertritt zu $2 nicht gutheißt.
-%%%%
-HINT_CONVERTED_KEPT_PIETY
-
-Du hast sogar etwas von deiner Pietät behalten!
-%%%%
 HINT_CONVERTED_GOOD_TO_GOOD
 
+Glücklicherweise sieht es danach aus, dass $1 nichts gegen deine Konvertierung
+zu $2 hat.
+{{
+    if you.piety_rank() > 0 then
+        return "Du hast sogar etwas deiner Pietät behalten!"
+    end
+}}
+
 Beachte, dass diese Art von Bündnis nur zwischen den drei guten Göttern
-besteht, erwarte also nicht, dass dies die Norm ist.
+besteht, also erwarte nicht, dass dies die Norm ist.
 %%%%
 HINT_CONVERTED_GOOD_TO_NEUTRAL
 
-Das liegt daran, dass $1 einer der guten Götter ist, die im Allgemeinen recht
-nachsichtig sind, wenn man den Glauben wechselt - es sei denn, man wechselt auf
-den Pfad des Bösen, denn in diesem Fall kann ihre Vergeltung in der Tat sehr
-unangenehm sein!
+Glücklicherweise sieht es danach aus, dass $1 nichts gegen deine Konvertierung
+zu $2 hat. Das liegt daran, dass $1 einer der guten Götter ist, die im
+Allgemeinen recht nachsichtig sind, wenn man den Glauben wechselt - es sei denn,
+man wechselt auf den Pfad des Bösen, denn in diesem Fall kann ihre Vergeltung
+in der Tat sehr unangenehm sein!
 %%%%
 HINT_CONVERTED_GOOD_TO_EVIL
 
-Aber mal ehrlich, von einem der guten zu einem der bösen Götter zu wechseln, was
+Es sieht danach aus, dass $1 deine Konvertierung zu $2 nicht gefällt. Aber mal
+ehrlich, von einem der guten zu einem der bösen Götter zu wechseln, was
 hast du denn erwartet!? Bei jedem Gott, der nicht auf der gegnerischen Seite
 des Glaubens steht, wäre $1 viel nachsichtiger gewesen.
 %%%%
 HINT_CONVERTED_NONGOOD_TO_HATED
 
-(Eigentlich sind nur die drei guten Götter in der Regel nachsichtig mit dieser
-Art von Treulosigkeit).
+Es sieht danach aus, dass $1 deine Konvertierung zu $2 nicht gefällt.
+(Tatsächlich sind in der Regel nur die drei guten Götter nachsichtig mit dieser
+Art von Treulosigkeit.)
 %%%%
 HINT_CONVERTED_WRATH
 
 Leider würde der Rücktritt zwar $1 besänftigen, aber $2 verärgern, so dass
 du den Zorn des einen oder anderen Gottes ertragen musst.
 %%%%
-HINT_SWITCH_WEAPONS_A_AND_B
-
-Du kannst einfach zwischen den Waffen in den Plätzen a und b wechseln, indem du
-<w>$cmd[CMD_WEAPON_SWAP]</w> drückst.
-%%%%
-HINT_SWITCH_BACK_TO_WEAPON_A
+HINT_WIELD_MELEE_WEAPON
 
 Du kannst ganz einfach zu deiner Waffe in Platz a zurückkehren, indem du
 <w>$cmd[CMD_WEAPON_SWAP]</w> drückst. Um den Buchstaben eines Gegenstandes zu
@@ -867,7 +877,8 @@ entsprechenden Buchstaben.
 %%%%
 HINT_SEEN_MONSTER_TILES
 
-Dieses Monster ist $1.
+Dieses Monster ist $1. Du kannst mehr über jedes Monster erfahren, indem du
+mit der Maus darüber fährst und mit <w>Rechtsklick</w> seine Beschreibung liest.
 %%%%
 HINT_SEEN_MONSTER_CONSOLE
 
@@ -880,14 +891,11 @@ HINT_MONSTER_LIST_CONSOLE
 Wenn die Konsoleneinstellungen es zulassen, siehst du immer eine Liste von
 Monstern irgendwo auf dem Bildschirm.
 %%%%
-HINT_LEARN_ABOUT_MONSTERS
+HINT_LEARN_ABOUT_MONSTER_CONSOLE
 
-<tiles>Du kannst etwas über jedes Monster erfahren, indem du mit der Maus
-darüber fährst und mit <w>Rechtsklick</w> seine Beschreibung liest.</tiles>
-<nomouse> Du kannst Informationen über das Monster erhalten, indem du
-<w>$cmd[CMD_LOOK_AROUND]</w> drückst, den Cursor über das Monster bewegst
-und dann <w>$cmd[CMD_TARGET_DESCRIBE]</w> drückst, um die Beschreibung
-des Monsters zu lesen.</nomouse>
+Informationen über es erhältst du, wenn du <w>$cmd[CMD_LOOK_AROUND]</w> drückst
+und den Cursor über das Monster bewegst. Die Beschreibung des Monsters kannst
+du dann lesen, indem du <w>$cmd[CMD_TARGET_DESCRIBE]</w> drückst.
 %%%%
 HINT_ATTACK_MONSTER
 
@@ -931,7 +939,7 @@ du Steine im Inventar (<w>$cmd[CMD_DISPLAY_INVENTORY]</w>) haben solltest,
 kannst du dir einen davon ansehen, um eine Erklärung zu lesen, wie man
 das macht.
 %%%%
-HINT_MONSTER_BRAND
+HINT_MONSTER_UNUSUAL
 
 Dieses Monster sieht ein wenig ungewöhnlich aus. Vielleicht möchtest du es
 etwas genauer untersuchen, indem du <localtiles>mit der Maus über seine Kachel
@@ -940,11 +948,8 @@ den Cursor auf sein Feld bewegst.</nomouse>
 %%%%
 HINT_MONSTER_FRIENDLY
 
-Dieses Monster ist dir freundlich gesinnt und greift deine Feinde an,
-allerdings erhältst du nur einen Teil der Erfahrung für Monster, die von
-Verbündeten beschädigt wurden, im Vergleich zu dem, was du bekommen würdest,
-wenn du die ganze Arbeit selbst machst. Du kannst deinen Verbündeten
-Befehle geben, indem du <w>$cmd[CMD_SHOUT]</w> drückst.
+Dieses Monster ist dir freundlich gesinnt und greift deine Feinde an. Du kannst
+deinen Verbündeten Befehle geben, indem du <w>$cmd[CMD_SHOUT]</w> drückst.
 %%%%
 HINT_TEMPORARILY_FRIENDLY
 
@@ -993,7 +998,7 @@ fieser Monster und du wirst wahrscheinlich sterben.
 Um deine Überlebenschancen zu erhöhen, bis du den Ausgang<console> (einen
 flackernden <w>$1</w>)</console> findest, bleib in Bewegung, kämpfe nicht
 gegen Monster und jage nicht nach Gegenständen auf dem Boden. Wenn sich
-Monster nähern, versuche, Gegenstände der Hast zu benutzen und zu
+Monster nähern, versuche, Gegenstände und Fähigkeiten zu benutzen und zu
 entkommen.
 %%%%
 HINT_SPELL_MISCAST_EFFECTS
@@ -1057,18 +1062,15 @@ leichter auf.
 %%%%
 HINT_YOU_RESIST
 
-Es gibt viele Gefahren in Crawl. Glücklicherweise gibt es Möglichkeiten,
-einigen von ihnen (zumindest teilweise) zu widerstehen, wenn du das Glück
-hast, sie zu finden. Es gibt zwei grundlegende Varianten von Resistenzen: die
-angeborene Willenskraft, die von deiner Spezies abhängt, mit der
-Erfahrungsstufe wächst und vor vielen magischen Effekten schützt und die
-spezifischen Resistenzen gegen bestimmte andere Effekte, z. B. Feuer oder
-Auszehrung.
+Die meisten Angriffe in Crawl werden durch deine RK abgewehrt. Einige, wie
+Angriffe mit Feuer oder Auszehrung, lassen sich durch spezielle Resistenzen
+zusätzlich reduzieren. Andere magische Effekte, wie beispielsweise die
+Verhexungen Verlangsamen oder Verwirren, werden durch deine Willenskraft
+abgewehrt. Du wirst Gegenstände finden, die beide Arten von Resistenzen erhöhen.
 
-Du kannst im Kerker Gegenstände finden oder Mutationen erlangen, die eine
-oder mehrere deiner Resistenzen erhöhen (oder senken). Um deine aktuellen
-Resistenzen zu sehen, <localtiles><w>klicke mit der rechten Maustaste</w> auf
-den Spieler-Avatar oder </localtiles>drücke <w>$cmd[CMD_RESISTS_SCREEN]</w>.
+Um deine aktuellen Resistenzen zu sehen, <localtiles><w>klicke mit der rechten
+Maustaste</w> auf den Spieler-Avatar oder </localtiles>drücke
+<w>$cmd[CMD_RESISTS_SCREEN]</w>.
 %%%%
 HINT_CAUGHT_IN_NET
 
@@ -1097,6 +1099,36 @@ immer auf dich zentriert und bewegt sich mit dir. Der Radius schrumpft
 allmählich, bis nur noch du betroffen bist, bevor der Effekt ganz
 verschwindet.
 %%%%
+HINT_LOAD_SAVED_GAME
+
+Willkommen zurück! Falls es eine Weile her ist, möchtest du vielleicht dein
+Gedächtnis auffrischen.\n
+{{
+    local msg = "Dein Inventar (<w>$cmd[CMD_DISPLAY_INVENTORY])</w>"
+
+    if you.spell_letters() ~= nil and #you.spell_letters() > 0 then
+        msg = msg .. ", deine Zaubersprüche (<w>$cmd[CMD_CAST_SPELL]?</w>)"
+    end
+
+    if you.ability_info() ~= nil and #you.ability_info() > 0 then
+        msg = msg .. ", deine Fähigkeiten (<w>$cmd[CMD_USE_ABILITY]</w>)"
+    end
+
+    if you.how_mutated(true, true, true) > 0 then
+        msg = msg .. ", deine Mutationen (<w>$cmd[CMD_DISPLAY_MUTATIONS]</w>)"
+    end
+
+    if you.god() ~= "No God" then
+        msg = msg .. ", dein religiöser Status (<w>$cmd[CMD_DISPLAY_RELIGION]</w>)"
+    end
+
+    msg = msg .. ", die Nachrichten-Historie (<w>$cmd[CMD_REPLAY_MESSAGES]</w>)"
+    msg = msg .. ", die Charakter-Übersicht (<w>$cmd[CMD_RESISTS_SCREEN]</w>)"
+    msg = msg .. ", die Kerker-Übersicht (<w>$cmd[CMD_DISPLAY_OVERMAP]</w>)"
+    msg = msg .. " sind Dinge, die man prüfen sollte.";
+    return msg
+}}
+%%%%
 HINT_AUTOPICKUP_THROWN
 
 Wenn du dich über Gegenstände bewegst, die du geworfen hast, werden sie automatisch
@@ -1104,8 +1136,9 @@ aufgehoben.
 %%%%
 HINT_GAINED_SPELLCASTING
 
-Mit zunehmender Zaubern-Fertigkeit kannst du mehr Zaubersprüche
-auswendig lernen und erleidest etwas weniger Fehlschläge, wenn du sie wirkst.
+Mit zunehmender Zaubern-Fertigkeit kannst du mehr Zaubersprüche auswendig
+lernen und hast etwas mehr MP. Du wirst außerdem besser darin, alle möglichen
+Arten von Zaubern zu wirken.
 
 Drücke <w>$cmd[CMD_DISPLAY_SKILLS]</w><localtiles> (oder klicke auf die
 <w>Schaltfläche</w>in der Befehlsleiste)</localtiles>, um einen Blick auf deine
@@ -1121,11 +1154,6 @@ HINT_CLOUD_WARNING
 Anstatt in diese Wolke zu treten und dich zu verletzen, solltest du entweder
 ein paar Runden warten, um zu sehen, ob sie verschwindet (mit
 <w>$cmd[CMD_WAIT]</w>), oder einfach um sie herumgehen.
-%%%%
-HINT_ANIMATE_CORPSE_SKELETON
-
-<yellow>Skelett beleben</yellow> wirkt auf die Leiche eines beliebigen
-Monsters, das ein Skelett in sich trägt.
 %%%%
 HINT_FOUND_UNKNOWN
 
@@ -1288,43 +1316,19 @@ Zahlen zu sehen).
 %%%%
 HINT_ATTACK_WITH_RANGED_WEAPON
 
-Um ein Monster anzugreifen, <tiles>kannst du, falls du passende Munition hast, auf
-das Monster <w>linksklicken</w>, während du die <w>Umschalttaste</w> gedrückt
-hältst. Alternativ kannst du auch auf die Kachel für die Munition, die du abfeuern möchtest,
-<w>linksklicken</w> und dann auf das Monster <w>linksklicken</w>.
-
-Um Munition über die Tastatur zu verwenden, </tiles>drücke einfach
-<w>$cmd[CMD_FIRE]</w> um den passenden Munitionstyp abzufeuern.
+Um ein Monster anzugreifen, mache einen <w>Linksklick</w> auf das Monster. \nUm
+eine Distanzwaffe über die Tastatur abzufeuern, </tiles>drücke
+<w>$cmd[CMD_PRIMARY_ATTACK]</w>.
 %%%%
 HINT_ATTACK_WITH_MELEE_WEAPON
 
 Um ein Monster anzugreifen, kannst du einfach auf es zugehen.
 %%%%
-HINT_UNUSUAL_EQUIPMENT
-
-Bei Waffen und Rüstungen, die solche ungewöhnlichen Beschreibungen aufweisen,
-ist es viel wahrscheinlicher, dass sie höher verzaubert sind oder besondere
-Eigenschaften haben, seien sie gut oder schlecht.
-%%%%
+# i18n note: $1 can be singular or plural
 HINT_THROWABLE
 
 $1 kann ohne die Verwendung eines Abschussgeräts abgefeuert werden
 (<w>$cmd[CMD_FIRE]</w>).
-%%%%
-HINT_MISSILE_LAUNCHER_WIELDED
-
-Da du bereits das passende Abschussgerät hast, kannst du einfach<tiles> auf
-das Monster, das du treffen möchtest, <w>linksklicken</w> während du die
-<w>Umschalttaste</w> gedrückt hältst. Alternativ kannst du auch auf die Kachel der
-Munition, die du abfeuern möchtest, <w>linksklicken</w> und dann auf das Monster
-<w>linksklicken</w>, das du treffen möchtest. Um diese Munition mit der Tastatur
-zu verwenden, kannst du sie einfach</tiles> {acc}$1 mit <w>$cmd[CMD_FIRE]</w>
-abfeuern.
-%%%%
-HINT_MISSILE_LAUNCHER_NOT_WIELDED
-
-Um {acc}$1 zu schießen, musst du zuerst ein entsprechendes Wurfgerät mit
-<w>$cmd[CMD_WIELD_WEAPON]</w> handhaben.
 %%%%
 HINT_CANNOT_WEAR_HELMET
 
@@ -1334,7 +1338,7 @@ angeborenen Fähigkeiten zu sehen.)
 %%%%
 HINT_CANNOT_WEAR_BARDING
 
-Nur Nagas und Palentongas können Harnische tragen.
+Nur Nagas und Sturmwindzentauren können Harnische tragen.
 %%%%
 HINT_EQUIP_UNEQUIP_ARMOUR
 
@@ -1354,10 +1358,16 @@ HINT_SHIELD_HINDERS_CASTING
 Beachte, dass Schilde deine Fähigkeit, Zauber zu wirken, so lange behindern,
 bis du genug Schild-Fertigkeit erlangt hast, um den Nachteil auszugleichen.
 %%%%
-HINT_NO_SHIELD_WITH_MOST_LAUNCHERS
+HINT_NO_OFFHAND_WITH_MOST_LAUNCHERS
 
 Beachte, dass viele Fernkampfwaffen zweihändig sind und daher nicht mit
-einem Schild verwendet werden können.
+einem zusätzlichen Gegenstand in der anderen Hand verwendet werden können.
+%%%%
+HINT_UNUSUAL_EQUIPMENT
+
+Bei Waffen und Rüstungen, die solche ungewöhnlichen Beschreibungen aufweisen,
+ist es viel wahrscheinlicher, dass sie höher verzaubert sind oder besondere
+Eigenschaften haben, seien sie gut oder schlecht.
 %%%%
 HINT_ARMOUR_HAS_RESIST
 
@@ -1374,12 +1384,11 @@ Fähigkeiten, die man mit <w>$cmd[CMD_USE_ABILITY]</w> aktivieren kann.
 HINT_DESCRIBE_WAND
 
 Die Magie darin kann durch Evozierung (<w>$cmd[CMD_EVOKE]</w>) entfesselt
-werden. <tiles>Alternativ kann man auch auf die Zauberstabkachel
-<w>linksklicken</w> und dann auf das Monster <w>linksklicken</w>, das man
-anvisieren möchte (oder den Spielercharakter, um sich selbst
-anzuvisieren)<localtiles>, oder nachdem man den Zauberstab in den Köcher gesteckt
-hat (<w>$cmd[CMD_QUIVER_ITEM]</w>), auf das Ziel <w>linksklicken</w>, während
-man die Umschalttaste gedrückt hält</localtiles>.</tiles>
+werden. <tiles>Alternativ kann man 1) auf das Monster <w>linksklicken</w>, das
+man anvisieren möchte (oder den Spielercharakter, um sich selbst
+anzuvisieren) während man <w>$1</w> drückt und den Zauberstab aus dem Menü
+auswählt, oder 2) mit einem <w>Linksklick</w> auf die Zauberstabkachel und
+einem <w>Linksklick</w> auf dein Ziel.
 %%%%
 HINT_DESCRIBE_SCROLL
 
@@ -1401,8 +1410,8 @@ auf deinen Avatar</tiles>.
 %%%%
 HINT_JEWELLERY_HAS_ABILITY
 
-Einige Schmuckstücke (so wie dieses) bieten beim Tragen bestimmte Fähigkeiten,
-die durch Drücken von <w>$cmd[CMD_USE_ABILITY]</w> aktiviert werden können.
+Einige Schmuckstücke (so wie dieses) bieten beim Tragen bestimmte Fähigkeiten
+(<w>$cmd[CMD_USE_ABILITY]</w>), die du aktivieren kannst.
 %%%%
 HINT_DESCRIBE_POTION
 
@@ -1418,8 +1427,8 @@ steigt schneller auf, bis du die Anleitung zu Ende gelesen hast.
 HINT_DESCRIBE_SPELLBOOK
 
 Du kannst ein Zauberbuch aufheben, um die darin enthaltenen
-Zaubersprüche zu deiner Zauberbibliothek hinzuzufügen. (Deine Zauberbibliothek
-kannst du mit <w>$cmd[CMD_MEMORISE_SPELL]</w> ansehen.)
+Zaubersprüche zu deiner Zauberbibliothek hinzuzufügen. (Sieh dir deine
+Zauberbibliothek mit <w>$cmd[CMD_MEMORISE_SPELL]</w> an.)
 %%%%
 HINT_DESCRIBE_CORPSE
 
@@ -1448,12 +1457,6 @@ HINT_DESCRIBE_MISCELLANEOUS_ITEM
 Verschiedene Gegenstände haben manchmal magische Kräfte, die man sich zunutze
 machen kann, indem man den Gegenstand mit <w>$cmd[CMD_EVOKE]</w> evoziert.
 %%%%
-HINT_DESCRIBE_STATUE
-
-Das ist nur eine harmlose Statue - oder doch nicht?\nAuch wenn sie an sich keine
-Gefahr darstellen, markieren Statuen oft besondere Gebiete. Gefährliche
-Gebiete oder solche, die Schätze bergen.
-%%%%
 HINT_DESCRIBE_TRAP_PLATE
 
 Diese fiesen Konstruktionen können eine Reihe unangenehmer Effekte
@@ -1470,10 +1473,10 @@ gewarnt, dass es schwierig werden könnte, hierher zurückzukommen.
 %%%%
 HINT_DESCRIBE_TRAP_WEB
 
-Einige Bereiche des Kerkers, wie z. B. das Spinnennest, können mit riesigen
-Netzen übersät sein, die dich für kurze Zeit gefangen halten können. Spieler
-in Spinnengestalt können sich sicher durch die Netze bewegen (ebenso
-körperlose Wesen und verschiedene Schleime).
+Einige Bereiche des Kerkers, wie das Spinnennest, können mit riesigen Netzen
+übersät sein, die in der Lage sind, dich für kurze Zeit gefangen zu halten.
+Insekten, Schleime und körperlose Wesen können sich sicher durch die Netze
+bewegen.
 %%%%
 HINT_DESCRIBE_DOWNSTAIRS
 
@@ -1485,7 +1488,7 @@ indem du die <w>linke Maustaste</w> drückst.</tiles>
 %%%%
 HINT_DESCRIBE_UNKNOWN_STAIRS
 
-\nSpeziell diese Treppe hast du noch nicht durchschritten.
+Diese spezielle Treppe hast du noch nicht benutzt.
 %%%%
 HINT_DESCRIBE_DUNGEON_EXIT
 
@@ -1540,7 +1543,7 @@ zusätzliche Pietät gewährt.
 # $1 = altar god
 HINT_DESCRIBE_NONFADED_ALTAR_ATHEIST
 
-Du kannst Informationen über {acc}<w>$1</w> erhalten, indem du
+Du kannst Informationen über <w>$1</w> erhalten, indem du
 <w>$cmd[CMD_GO_DOWNSTAIRS]</w> drückst, während du auf dem Altar stehst.
 Bevor du den jeweiligen Glauben annimmst, wirst du um eine Bestätigung
 gebeten.
@@ -1559,7 +1562,7 @@ Gottes, der dir zum Dank etwas zusätzliche Pietät gewährt.
 HINT_DESCRIBE_NONFADED_ALTAR
 
 $1 wird es wahrscheinlich nicht mögen, wenn du die Loyalität wechselst, aber
-ein Blick kann nicht schaden: Um Informationen über {acc}<w>$2</w> zu
+ein Blick kann nicht schaden: Um Informationen über <w>$2</w> zu
 erhalten, drücke <w>$cmd[CMD_GO_DOWNSTAIRS]</w>, während du auf dem Altar
 stehst. Bevor du den jeweiligen Glauben annimmst (und deinen jetzigen
 aufgibst!), wirst du um eine Bestätigung gebeten.\nUm deinen aktuellen Stand
@@ -1621,26 +1624,6 @@ HINT_DESCRIBE_PLAYER_GHOST
 Der Geist eines verstorbenen Abenteurers würde nichts lieber tun, als dich auf
 denselben Weg zu schicken.
 %%%%
-HINT_DESCRIBE_TIER_1_DEMON
-
-Dieses Monster ist ein Dämon der höchsten Stufe.
-%%%%
-HINT_DESCRIBE_TIER_2_DEMON
-
-Dieses Monster ist ein Dämon der zweithöchsten Stufe.
-%%%%
-HINT_DESCRIBE_TIER_3_DEMON
-
-Dieses Monster ist ein Dämon der mittleren Stufe.
-%%%%
-HINT_DESCRIBE_TIER_4_DEMON
-
-Dieses Monster ist ein Dämon der zweitniedrigsten Stufe.
-%%%%
-HINT_DESCRIBE_TIER_5_DEMON
-
-Dieses Monster ist ein Dämon der niedrigsten Stufe.
-%%%%
 HINT_DESCRIBE_NASTY_MONSTER
 
 Dieses Monster scheint wirklich gefährlich zu sein!
@@ -1665,7 +1648,7 @@ HINT_DESCRIBE_TEMPORARILY_FRIENDLY_MONSTER
 Es ist jedoch nur <w>vorübergehend</w> freundlich und wird wieder gefährlich,
 wenn diese Freundlichkeit nachlässt.
 %%%%
-HINT_DESCRIBE_UNAWARE_MONSTER
+HINT_DESCRIBE_DANGEROUS_UNAWARE_MONSTER
 
 Du kannst sein Feld ganz einfach als gefährlich markieren, um zu vermeiden,
 dass du versehentlich in sein Sichtfeld gerätst, wenn du die automatische
@@ -1685,7 +1668,7 @@ HINT_RUN_AWAY_OR_BERSERK
 Dies könnte ein guter Zeitpunkt sein, um wegzulaufen oder deine
 Berserker-Fähigkeit einzusetzen (<w>$cmd[CMD_USE_ABILITY]</w>).
 %%%%
-HINT_DESCRIBE_STABBABLE_MONSTER
+HINT_DESCRIBE_UNAWARE_MONSTER
 
 Offenbar hat es dich noch nicht bemerkt. Beachte, dass du nicht jedes
 Monster angreifen musst, dem du begegnest. Manchmal ist Vorsicht
