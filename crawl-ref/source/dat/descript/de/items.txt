@@ -80,8 +80,8 @@ einer Winde angekurbelt wird. Das Laden und Abfeuern dauert einige Zeit.
 %%%%
 assassin centipede
 
-Eine lebende Waffe, deren Greifzangen messerscharf sind und eine große
-Reichweite haben. Ihr Stich kann den Getroffenen lähmende Gifte zufügen und bei
+Eine lebende Waffe, deren Greifzangen messerscharf sind und deren Reichweite
+groß ist. Ihr Stich kann den Getroffenen lähmende Gifte zufügen und bei
 höheren Verzauberungsstufen Gegner sogar kurzzeitig verlangsamen oder
 paralysieren.
 
@@ -137,12 +137,6 @@ Vuxhurn, dem ein Exemplar dieses Buches überreicht wurde, als er auf dem Turm
 eines Zauberers mit einem besonders perversen Sinn für Humor gefangen war,
 nutzte dessen Seiten, um einen einfachen Gleiter zu bauen und sauste in die
 Freiheit.
-%%%%
-book of alchemy
-
-Ein Buch, das sich auf alchemistische Prozesse und ihre Verwendung in
-Zaubersprüchen konzentriert. In ihm ist die Weisheit vieler antiker Alchemisten
-gesammelt.
 %%%%
 book of annihilations
 
@@ -423,7 +417,7 @@ book of the spheres
 
 Ein Buch mit einer gut abgerundeten Sammlung von Zaubern, die mit
 Sphären zu tun haben. Auf den letzten Seiten wird ein Zauber mit dem Titel
-"Orb von Zot Herbeirufen" beschrieben, aber leider ist der Rest des Buches
+"Kugel von Zot herbeirufen" beschrieben, aber leider ist der Rest des Buches
 komplett verdampft.
 %%%%
 book of storms
@@ -579,9 +573,9 @@ man sie fest umklammert, verwandelt sie sich in eine lebendige Waffe, die mit
 dem eigenen Körper verschmilzt. Diese Waffe fungiert als weitreichende
 Kurzklinge, deren Angriffe Ziele vergiften können.
 
-Nachdem man eine moderate Anzahl von Angriffen mit dieser Waffe ausgeführt hat,
-löst sie sich vom Körper ihres Trägers und kämpft für kurze Zeit als
-eigenständiger Verbündeter an deiner Seite, bevor sie stirbt.
+Nachdem du eine moderate Anzahl von Angriffen mit dieser Waffe ausgeführt hast,
+löst sie sich von deinem Körper und kämpft für kurze Zeit als eigenständiger
+Verbündeter an deiner Seite, bevor sie stirbt.
 
 Die Fertigkeit Gestaltwandlung erhöht die Kraft dieses Tausendfüßlers sowohl in
 der Waffen- als auch in der Insektenform sowie die Wirksamkeit seiner Gifte -
@@ -682,7 +676,7 @@ Eine kunstvolle Schnitzerei, Drachenzähnen und -schuppen als Einlagen. {{
         desc = desc .. " Drachen. Der Träger behält seine angeborene Farbe " ..
                        "und wird resistent gegen Gift. Die Macht und " ..
                        "Aufladegeschwindigkeit seiner Odem-Waffe werden " ..
-		       "stark erhöht."
+                       "stark erhöht."
     else
         desc = desc .. " Golddrachen. Der Träger wird resistent gegen Feuer, " ..
                        "Kälte und Gift. Er erhält eine mächtige Odem-Attacke, " ..
@@ -772,7 +766,7 @@ verursacht. Die Unklarheit deiner physischen Gestalt macht es zudem viel
 schwieriger, dich zu treffen, obwohl du auf eine Weise leuchtest, die
 Heimlichkeit erschwert.
 
-Die in jeder Kugel enthaltene Kraft ist begrenzt. Sobald sie durch die
+Die in jeder Perle enthaltene Kraft ist begrenzt. Sobald sie durch die
 Übertragung auf Gegner aufgebraucht ist, kehrst du zu deiner vorherigen Gestalt
 zurück.
 %%%%
@@ -1030,7 +1024,7 @@ Entladung aufrechterhalten, was die Stärke bis zu viermal erhöht und es
 ermöglicht, den Blitz umzulenken, um ein größeres Gebiet zu treffen. Die Stärke
 des Blitzes steigt mit der Evozierungsfertigkeit, nimmt bei umgelenkten
 Entladungen aber mit zunehmender Größe des betroffenen Gebiets ab.
-der
+
 %%%%
 long sword
 
@@ -1261,10 +1255,6 @@ potion of experience
 
 Ein wahrhaft wundervolles und sehr seltenes Getränk, das beim Konsum
 Erfahrung gewährt.
-%%%%
-potion of flight
-
-Ein Trank, der dem Trinker großen Auftrieb verleiht.
 %%%%
 potion of haste
 
@@ -1653,7 +1643,7 @@ Gegenstands identifiziert.
 scroll of immolation
 
 Eine Schriftrolle, die Kreaturen in der Umgebung des Lesers mit einer instabilen
-und mächtigen inneren Flamme erfüllt. Dieser Feuer wird jedesmal, wenn die die
+und mächtigen inneren Flamme erfüllt. Dieser Feuer wird jedesmal, wenn die
 Opfer getroffen werden, freigesetzt und bei ihrem Tod explosiv freigesetzt.
 Riesige Kreaturen verursachen größere Explosionen.
 %%%%
