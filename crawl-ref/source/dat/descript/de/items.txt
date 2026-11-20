@@ -1993,7 +1993,7 @@ vision talisman
 Ein kleiner Anhänger in Form eines Auges. Er verleiht dem Träger übernatürliche
 Sehkraft und ermöglicht es ihm, magischen Rückstände wahrzunehmen, die Wesen
 beim Wirken von Zaubern hinterlassen. Durch Berührung dieser Wölkchen kann
-der Träger diese übrig gebliebene Magie in verheerende Geschosse gegen nahe
+der Träger diese übrig gebliebene Magie in zielsichere Geschosse gegen nahe
 Feinde umwandeln.
 
 Diese dritte Auge erlaubt es einem sogar, weiter zu sehen als es ansonsten
@@ -2001,7 +2001,8 @@ möglich wäre{{
     if you.get_base_mutation_level("+LOS") > 0 then
         return " (aber dein eigenes Sichtfeld ist bereits so weit wie möglich)."
     else
-        return ", aber sei gewarnt - auf diese Weise gesichtete Kreaturen können dich auch wahrnehmen."
+        return ", aber sei gewarnt - auf diese Weise gesichtete Kreaturen " ..
+        "können dich auch wahrnehmen."
     end
 }}
 %%%%
@@ -2060,7 +2061,7 @@ wand of roots
 
 Ein magisches Gerät, das einen magischen Samen verschießt, der sein Ziel sowie
 benachbarte Feinde mit schnell wachsenden Baumwurzeln umschlingt. Die
-Verstrickten sind bewegungsunfähig und erleiden über die Zeit himweg Schaden,
+Verstrickten sind bewegungsunfähig und erleiden über die Zeit hinweg Schaden,
 bis sie sich befreien oder die Wurzeln verwelken. Die Wurzeln können nur aus
 festem Boden sprießen.
 %%%%
