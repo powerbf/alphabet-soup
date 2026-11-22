@@ -31,6 +31,7 @@
 #include "jobs.h"
 #include "lang-fake.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h" // command_to_string
 #include "menu.h"
 #include "message.h"
@@ -83,6 +84,11 @@ static string _level_description_string_hud()
     return short_name;
 }
 
+static inline string _escape_pcnts(const string& s)
+{
+    return replace_all(s, "%", "%%");
+}
+
 #ifdef USE_TILE_LOCAL
 
 static bool _low_vertical_space()
@@ -129,7 +135,8 @@ y  HPP MPP
  */
 #include <stdarg.h>
 #define CGOTOXY _cgotoxy_touchui
-#define CPRINTF _cprintf_touchui
+#define CPRINTF(...) _cprintf_touchui(_escape_pcnts(localisef(__VA_ARGS__)).c_str())
+#define NOLOC_CPRINTF _cprintf_touchui
 #define NOWRAP_EOL_CPRINTF _nowrap_eol_cprintf_touchui
 
 enum touchui_states
@@ -348,20 +355,22 @@ static void _cprintf_touchui(const char *format, ...)
             cprintf("%2s", buf.c_str());
             break;
         case TOUCH_T_XL:
-            cprintf("XL Next");
+            cprintf(localise("XL Next").c_str());
             break;
         case TOUCH_T_PLACE:
-            cprintf("Place");
+            cprintf(localise("Place").c_str());
             break;
         case TOUCH_V_PLACE:
             parts = split_string(":", _level_description_string_hud());
+            for (size_t i = 0; i < parts.size(); i++)
+                parts[i] = localise(parts[i]);
             if (parts.size() == 1)
                 cprintf("%-9s", parts[0].substr(0,9).c_str());
             else
                 cprintf("%s:%s", parts[0].substr(0,8-parts[1].size()).c_str(), parts[1].c_str());
             break;
         case TOUCH_T_NOISE:
-            cprintf("Noise");
+            cprintf(localise("Noise").c_str());
             break;
         case TOUCH_T_TIME:
             buf = buf.substr(0, buf.size()-1);
@@ -396,8 +405,9 @@ static void _nowrap_eol_cprintf_touchui(const char *format, ...)
             // don't print these
             break;
         case TOUCH_V_TITL2:
-            cprintf("%s%s", species::get_abbrev(you.species),
-                            get_job_abbrev(you.char_class));
+            buf = localisef("%s%s", species::get_abbrev(you.species),
+                                    get_job_abbrev(you.char_class));
+            cprintf("%s", buf.c_str());
             TOUCH_UI_STATE = TOUCH_S_NULL; // suppress whatever else it was going to print
             break;
         default:
@@ -408,7 +418,8 @@ static void _nowrap_eol_cprintf_touchui(const char *format, ...)
 
 #else
 #define CGOTOXY cgotoxy
-#define CPRINTF wrapcprintf
+#define CPRINTF(...) wrapcprintf(_escape_pcnts(localisef(__VA_ARGS__)).c_str())
+#define NOLOC_CPRINTF wrapcprintf
 #define NOWRAP_EOL_CPRINTF nowrap_eol_cprintf
 #endif
 
@@ -647,12 +658,12 @@ void update_message_status()
     if (!SysEnv.have_messages)
         return;
 
-    static const char * const msg = "(Hit _)";
+    static const string msg = localise("(Hit _)");
 
     textcolour(LIGHTBLUE);
 
     CGOTOXY(crawl_view.hudsz.x - strwidth(msg) + 1, 1, GOTO_STAT);
-    CPRINTF(msg);
+    NOLOC_CPRINTF(msg.c_str());
 
     textcolour(LIGHTGREY);
 }
@@ -724,7 +735,7 @@ static void _print_stats_equip(int x, int y)
     for (int i = SLOT_FIRST_STANDARD; i < NUM_EQUIP_SLOTS; ++i)
         total_slots += you.equipment.num_slots[i];
 
-    cprintf(total_slots > 8 ? "Eq: " : "Equip: ");
+    cprintf(localise(total_slots > 8 ? "Eq: " : "Equip: ").c_str());
     textcolour(LIGHTGREY);
     for (equipment_slot slot : slot_order)
     {
@@ -825,9 +836,11 @@ static void _print_stats_noise(int x, int y)
         CGOTOXY(x + bar_position, y, GOTO_STAT);
         textcolour(LIGHTMAGENTA);
 
-        // This needs to be one extra wide in case silence happens
-        // immediately after super-loud (magenta) noise
-        CPRINTF("Silenced  ");
+        // Erase the noise bar
+        CPRINTF("          ");
+        CGOTOXY(x + bar_position, y, GOTO_STAT);
+
+        CPRINTF("Silenced");
         Noise_Bar.reset(); // so it doesn't display a change bar after silence ends
     }
     else
@@ -1161,8 +1174,8 @@ static void _print_unarmed_name()
     CPRINTF("%s", slot_name.c_str());
     textcolour(get_form()->uc_colour);
     const int max_name_width = crawl_view.hudsz.x - slot_name.size();
-    CPRINTF("%s", chop_string(you.unarmed_attack_name(),
-                              max_name_width).c_str());
+    const string name = localise(you.unarmed_attack_name());
+    NOLOC_CPRINTF("%s", chop_string(name, max_name_width).c_str());
     textcolour(LIGHTGREY);
 }
 
@@ -1174,8 +1187,8 @@ static void _print_weapon_name(const item_def &weapon, int width)
     CPRINTF("%s", slot_name.c_str());
     textcolour(wielded_weapon_colour(weapon));
     const int max_name_width = width - slot_name.size();
-    const string name = weapon.name(DESC_PLAIN, true);
-    CPRINTF("%s", chop_string(name, max_name_width).c_str());
+    const string name = localise(weapon.name(DESC_PLAIN, true));
+    NOLOC_CPRINTF("%s", chop_string(name, max_name_width).c_str());
     textcolour(LIGHTGREY);
 }
 
@@ -1276,9 +1289,15 @@ static void _add_status_light_to_out(int i, vector<status_light>& out)
     if (fill_status_info(i, inf) && !inf.light_text.empty())
     {
         if (!inf.light_text_formatted.empty())
-            out.emplace_back(formatted_string::parse_string(inf.light_text_formatted), i);
+        {
+            string text = localise_in_context("status", inf.light_text_formatted);
+            out.emplace_back(formatted_string::parse_string(text), i);
+        }
         else
-            out.emplace_back(formatted_string(inf.light_text, inf.light_colour), i);
+        {
+            string text = localise_in_context("status", inf.light_text);
+            out.emplace_back(formatted_string(text, inf.light_colour), i);
+        }
     }
 }
 
@@ -1419,16 +1438,17 @@ static void _print_status_lights(int y)
 
 static void _draw_wizmode_flag(const char *word)
 {
+    const string text = localise(word);
     textcolour(LIGHTMAGENTA);
     // 3+ for the " **"
-    CGOTOXY(1 + crawl_view.hudsz.x - (3 + strlen(word)), 1, GOTO_STAT);
-    CPRINTF(" *%s*", word);
+    CGOTOXY(1 + crawl_view.hudsz.x - (3 + strwidth(text)), 1, GOTO_STAT);
+    NOLOC_CPRINTF(" *%s*", text.c_str());
 }
 
 static void _redraw_title()
 {
     const unsigned int WIDTH = crawl_view.hudsz.x;
-    string title = filtered_lang(player_title());
+    string title = filtered_lang(localise(player_title()));
     title = you.your_name + title;
     const bool small_layout = _is_using_small_layout();
 
@@ -1439,9 +1459,10 @@ static void _redraw_title()
         unsigned int in_len = strwidth(title);
         if (in_len > WIDTH)
         {
-            in_len -= 3;  // strwidth(" the ") - strwidth(", ")
-
+            title = ", " + filtered_lang(localise(player_title(false)));
             const unsigned int name_len = strwidth(you.your_name);
+            in_len = name_len + strwidth(title);
+
             string trimmed_name = you.your_name;
             // Squeeze name if required, the "- 8" is to not squeeze too much.
             if (in_len > WIDTH && (name_len - 8) > (in_len - WIDTH))
@@ -1450,14 +1471,14 @@ static void _redraw_title()
                                            name_len - (in_len - WIDTH) - 1);
             }
 
-            title = trimmed_name + ", " + filtered_lang(player_title(false));
+            title = trimmed_name + title;
         }
     }
 
     // Line 1: Foo the Bar    *WIZARD*
     CGOTOXY(1, 1, GOTO_STAT);
     textcolour(small_layout && (you.wizard || you.explore) ? LIGHTMAGENTA : YELLOW);
-    CPRINTF("%s", chop_string(title, WIDTH).c_str());
+    NOLOC_CPRINTF("%s", chop_string(title, WIDTH).c_str());
     if (you.wizard && !small_layout)
         _draw_wizmode_flag("WIZARD");
     else if (you.suppress_wizard && !small_layout)
@@ -1473,9 +1494,10 @@ static void _redraw_title()
     textcolour(YELLOW);
     CGOTOXY(1, 2, GOTO_STAT);
     string species = player_species_name();
-    NOWRAP_EOL_CPRINTF("%s", species.c_str());
     if (you_worship(GOD_NO_GOD))
     {
+        species = localise(species);
+        NOWRAP_EOL_CPRINTF("%s", species.c_str());
         if (you.char_class == JOB_MONK
             && !you.has_mutation(MUT_FORLORN) // XX is this necessary?
             && !had_gods())
@@ -1496,26 +1518,34 @@ static void _redraw_title()
     }
     else
     {
-        string god;
+        int textwidth = 0;
+        string god = you_worship(GOD_JIYVA) ? god_name_jiyva(true)
+                                            : god_name(you.religion);
         if (small_layout)
         {
+            species = localise(species);
+            god = localise(god);
+            textwidth = strwidth(species) + strwidth(god);
+            NOWRAP_EOL_CPRINTF("%s", species.c_str());
             CGOTOXY(2, 2, GOTO_STAT);
-            god = "";
+            NOWRAP_EOL_CPRINTF("%s", god.c_str());
         }
         else
-            god = " of ";
-        god += you_worship(GOD_JIYVA) ? god_name_jiyva(true)
-                                      : god_name(you.religion);
-        NOWRAP_EOL_CPRINTF("%s", god.c_str());
+        {
+            string msg = make_stringf("%s of %s", species.c_str(), god.c_str());
+            msg = localise(msg);
+            textwidth = strwidth(msg);
+            NOWRAP_EOL_CPRINTF(msg.c_str());
+        }
         formatted_string piety = formatted_string::parse_string(_god_asterisks(true));
         textcolour(_god_status_colour(YELLOW));
-        const unsigned int textwidth = (unsigned int)(strwidth(species) + strwidth(god) + strwidth(piety) + 1);
+        textwidth += strwidth(piety) + 1;
         if (small_layout)
         {
             CGOTOXY(3, 2, GOTO_STAT);
             piety.display();
         }
-        else if (textwidth <= WIDTH)
+        else if (textwidth <= (int)WIDTH)
             piety.display();
         clear_to_end_of_line();
         if (you_worship(GOD_GOZAG))
@@ -1655,7 +1685,7 @@ void print_stats_level()
         CGOTOXY(26, ypos, GOTO_STAT);
     textcolour(HUD_VALUE_COLOUR);
 #ifdef DEBUG_DIAGNOSTICS
-    CPRINTF("(%d) ", env.absdepth0 + 1);
+    NOLOC_CPRINTF("(%d) ", env.absdepth0 + 1);
 #endif
     CPRINTF("%s", _level_description_string_hud().c_str());
     clear_to_end_of_line();
@@ -1948,6 +1978,7 @@ static void _print_next_monster_desc(const vector<monster_info>& mons,
             string desc;
             mons_to_string_pane(desc, desc_colour, !consolidate,
                                 mons, start, count);
+            desc = localise(desc);
             textcolour(desc_colour);
             if (strwidth(desc) > available && available > 1)
             {
@@ -1956,7 +1987,7 @@ static void _print_next_monster_desc(const vector<monster_info>& mons,
             }
             else
                 desc = chop_string(desc, available);
-            CPRINTF("%s", desc.c_str());
+            NOLOC_CPRINTF("%s", desc.c_str());
         }
     }
 
@@ -2143,13 +2174,14 @@ static void _append_overview_screen_item(column_composer& cols,
     const int item_idx = item.link;
     const char equip_char = index_to_letter(item_idx);
 
+    // i18n: Must localise before string is chopped
+    string name = (melded ? "melded " : "") + item.name(DESC_PLAIN, true);
+    name = localise(name);
     string str = make_stringf(
-                    "<w>%c</w> - <%s>%s%s</%s>",
+                    "<w>%c</w> - <%s>%s</%s>",
                     equip_char,
                     colname.c_str(),
-                    melded ? "melded " : "",
-                    chop_string(item.name(DESC_PLAIN, true),
-                            melded ? sw - 32 : sw - 25, false).c_str(),
+                    chop_string(name, sw - 25, false).c_str(),
                     colname.c_str());
     equip_chars.push_back(equip_char);
 
@@ -2215,14 +2247,17 @@ static void _print_overview_screen_equip(column_composer& cols,
 static string _overview_screen_title(int sw)
 {
     string title = player_title() + " ";
+    title = localise(title);
 
     string species_job = make_stringf("(%s %s)",
                                       species::name(you.species).c_str(),
                                       get_job_name(you.char_class));
+    species_job = localise(species_job);
 
     handle_real_time();
     string time_turns = make_stringf(" Turns: %d, Time: ", you.num_turns)
                       + make_time_string(you.real_time(), true);
+    time_turns = localise(time_turns);
 
     const int char_width = strwidth(species_job);
     const int title_width = strwidth(title);
@@ -2235,6 +2270,7 @@ static string _overview_screen_title(int sw)
         species_job = make_stringf("(%s%s)",
                                     species::get_abbrev(you.species),
                                     get_job_abbrev(you.char_class));
+        species_job = localise(species_job);
         linelength -= (char_width - strwidth(species_job));
     }
 
@@ -2276,7 +2312,7 @@ static string _god_powers()
     if (you_worship(GOD_NO_GOD))
         return "";
 
-    const string name = god_name(you.religion);
+    const string name = localise(god_name(you.religion));
     if (you_worship(GOD_GOZAG))
         return colour_string(name, _god_status_colour(god_colour(you.religion)));
 
@@ -2661,6 +2697,7 @@ static vector<formatted_string> _get_overview_resistances(
 #endif
     }
 
+    out = localise(out);
     cols.add_formatted(0, out, false);
 
     // Second column.
