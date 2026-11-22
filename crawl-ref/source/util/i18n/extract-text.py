@@ -1,0 +1,2009 @@
+################################################################################
+#
+# This script extracts strings from C++ (and Lua and .des) source code
+#
+################################################################################
+
+import glob
+import json
+import re
+import sys
+
+msg_transforms = {
+    # item-prop.cc
+    "You learned that %s %s actually %s.": [
+        "You learned that @item1@ is actually @item2@.",
+        "You learned that @items1@ are actually @items2@",
+    ],
+    "%%s has regained %s charge%s." : [
+        "@Item@ has regained 1 charge.",
+        "@Item@ has regained @num@ charges.",
+    ],
+    "<white>Runes of Zot (</white><%s>%d</%s><white> collected) & Orbs of Power</white>" : [
+        "<white>Runes of Zot (@arg@ collected) & Orbs of Power</white>",
+    ],
+}
+
+# pattern for recognising strings
+# handles escaped double-quotes
+STRING_PATTERN = r'"(?:[^"\\]|\\.)*"'
+
+IGNORE_STRINGS = [
+    # partial strings
+    'the', 'a', 'an', 'is', 'are',
+    'your', 'his', 'her', 'its', 'their',
+    'of', 'in', 'by', 'and', 'or', 'but',
+    '%s', '%d', '%f',
+    # bug
+    'eggplant',
+]
+
+# These files need special handling because they define data structures
+# containing strings (normally names of things)
+SPECIAL_FILES = [
+    'mon-data.h',
+    'spl-data.h', 'zap-data.h', 'feature-data.h',
+    'item-prop.cc', 'item-name.cc',
+    'art-data.txt',
+    'job-data.h',
+]
+
+IGNORE_FILES = [
+    # art-data.h generated from art-data.txt
+    'art-data.h',
+    # generated from yaml files
+    'species-data.h', 'form-data.h',
+    # these just contain a bunch of compile flags, etc.
+    'AppHdr.h', 'AppHdr.cc',
+    'build.h', 'compflag.h',
+    'version.h', 'version.cc',
+    # json tags should not be translated
+    'branch-data-json.h', 'branch-data-json.cc',
+    'json.h', 'json.cc', 'json-wrapper.h',
+    'tileweb-text.h', 'tileweb-text.cc',
+    # nor other tags
+    'colour.h', 'colour.cc', 'format.h', 'format.cc',
+    # keys/properties
+    'defines.h', 'dgn-layouts.h', 'dgn-layouts.cc', 'god-abil.h', 'initfile.cc',
+    'libunix.h', 'libunix.cc', 'libutil.h', 'libutil.cc', 'mgen-data.h',
+    'mi-enum.h', 'mon-abil.h', 'mon-clone.h', 'mon-speak.cc', 'monster.h',
+    'religion-enum.h',
+    # debug/test stuff
+    'debug.h', 'ctest.h', 'ctest.cc', 'fake-main.cc', 'coord-def.h',
+    'crash.h', 'crash.cc', 'errors.h', 'errors.cc',
+    # English grammar
+    'english.h', 'english.cc',
+    # files related to the translation process itself
+    'localise.h', 'localise.cc', 'localise-util.h', 'localise-util.cc',
+    'database.h', 'database.cc', 'sqldbm.cc',
+    # stuff related to morgue file is not translated
+    # (because if we run this on a server, we want all the morgues in English)
+    'chardump.h', 'chardump.cc', 'kills.h', 'kills.cc', 'notes.h', 'notes.cc',
+    # lua scripting stuff
+    'clua.h', 'clua.cc', 'cluautil.h', 'cluautil.cc', 'dlua.h', 'dlua.cc',
+    # internal logic
+    'domino.h', 'domino.cc', 'dungeon.h', 'dungeon.cc', 'mapdef.h', 'mapdef.cc',
+    'mapmark.h', 'mapmark.cc', 'maps.h', 'maps.cc', 'mon-gear.h', 'mon-gear.cc',
+    'mon-pathfind.cc', 'ng-init.cc', 'ng-input.cc', 'precision-menu.h',
+    'precision-menu.cc', 'randbook.h', 'randbook.cc', 'sound.h', 'sound.cc',
+    'tilepick.cc', 'viewchar.h', 'viewchar.cc',
+    # error messages that probably aren't worth translating
+    'fontwrapper-ft.cc', 'game-options.h', 'game-options.cc', 'glwrapper-ogl.cc',
+    'libw32c.h', 'libw32c.cc', 'package.cc', 'windowmanager-sdl.cc',
+    # utils
+    'stringutil.cc', 'syscalls.h', 'syscalls.cc', 'ui.h', 'ui.cc',
+    'unicode.h', 'unicode.cc',
+    # nonsense
+    'lang-fake.h', 'lang-fake.cc',
+    # dump file stuff
+    'dat/clua/kills.lua',
+    # simple messaging - I don't think this is actually used, even though it's built into webtiles
+    'dgl-message.h', 'dgl-message.cc',
+]
+
+IGNORE_SECTIONS = {
+    'abyss.cc':         ['_abyss_grid'],        # dungeon generation
+    'acquire.cc':       [
+        '_hyphenated_letters',                  # hyphenate aquirement option letters
+        '_why_reject'                           # debug messages
+    ],
+    'arena.cc':         ['arena_tee'],          # arena dumpfile stuff
+    'art-func.h':       ['_SINGING_SWORD_melee_effects'], # internal keys
+    'artefact.cc':      ['replace_name_parts'],
+    'attack.cc':        ['chaos_effects'],      # chaos effect names are only used for debugging
+    'beam.cc':          ['enchant_monster_invisible'], # we expand strings at the point of calling
+    'command.cc':       [
+        # diagnostic stuff
+        'features', '_get_version_information', '_get_version_features', '_get_version_changes',
+        '_add_movement_diagram',                # same for all languages
+        '_get_help_section',                    # section header text that is never used
+    ],
+    # internal identifiers
+    'delay.cc':         ['activity_interrupt_names'],
+    'describe.cc':      [
+        'get_command_description',              # lookup key
+        'trap_name',                            # for interpreting vault spec
+    ],
+    'dgn-shoals.cc':    ['dgn_build_shoals_level'], # dungeon builder stuff
+    'god-abil.cc':      [
+        '_god_blessing_description',            # milestones
+        '_gozag_shop_spec',                     # internal identifiers
+    ],
+    'god-conduct.cc':   ['conducts'],           # debug
+    'hints.cc':         [
+        '_replace_static_tags',                 # error messages for translator, not end user
+        '_hints_target_mode',                   # literal commands (and % placeholder)
+    ],
+    'hiscores.cc':      [
+        'kill_method_names',                    # scorefile stuff (never displayed)
+        '_job_name', '_job_abbrev',             # obsolete jobs (backgrounds)
+        '_species_name', '_species_abbrev',     # obsolete species
+        '_deconstruct_shooter_phrase',          # search strings
+        'scorefile_entry::terse_missile_name',  # search strings
+        'scorefile_entry::set_base_xlog_fields', # internal ids
+    ],
+    'item-name.cc':     [
+        '_random_vowel',                        # random name generation
+        '_random_cons',
+        '_random_consonant_set',
+        '_unforbid',
+    ],
+    'item-prop.cc':     ['item_sets'],          # internal ids
+    'jobs.cc':          ['debug_jobdata'],      # debug
+    'message.cc':       [
+        # this function adds a prefix to the message parameter
+        # this script will add it when extracting the message at the point of call
+        'wu_jian_sifu_message',
+    ],
+    'misc.cc':          ['maybe_to_string'],    # debug
+    'mon-death.cc':     [
+        '_milestone_kill_verb',                 # only used for milesone
+        '_killer_type_name',                    # internal keys
+    ],
+    'mon-ench.cc':      [
+        # debug
+        'enchant_names', 'mon_enchant::operator_string',
+        'mon_enchant::kill_category_desc',
+    ],
+    'mon-info.cc':      ['_monster_list_colour_names'],     # internal identifiers
+    'mon-place.cc':     ['debug_bands'],        # debug
+    'mon-util.cc':      [
+        'holiness_name',                        # only used in LUA
+        'mons_type_name',                       # names for "random" monsters
+        '_get_species_insult', 'get_mon_shape_str',  # db keys
+        'debug_mondata', 'debug_monspells',   #debug
+    ],
+    'monster.cc':       [
+        '_invalid_monster_str',                 # debugging stuff
+    ],
+    'output.cc':        [
+        'mpr_monster_list',                     # only used in morgue and for debugging
+        '_itosym',                              # symbolic representaion of resist numbers
+    ],
+    'xom.cc':           [
+        '_note_potion_effect',                  # milestones
+        '_get_death_type_keyword', 'xom_events', # internal keys
+        # debug stuff
+        'validate_xom_events', '_list_exploration_estimate', 'debug_xom_effects',
+    ],
+}
+
+PLAYER_SILENCED_REASONS = ["silenced", "unable to breathe"]
+
+################################
+# Grammatical utility functions
+################################
+
+def replace_last(string, old, new):
+    return new.join(string.rsplit(old, 1))
+
+def has_article_the(string):
+    return re.match("^the ", string, flags=re.IGNORECASE)
+
+def has_article_a(string):
+    return re.match("^(a|an) ", string, flags=re.IGNORECASE)
+
+def remove_article(string):
+    return re.sub("^(a|an|the|some) ", "", string, flags=re.IGNORECASE)
+
+def article_a(string):
+    string = remove_article(string)
+    if re.search('^[aeiouAEIOU]', string) and not string.startswith('one-'):
+        return "an " + string
+    else:
+        return "a " + string
+
+def article_the(string):
+    return "the " + remove_article(string).lstrip()
+
+def possessive(string):
+    return string + "'s"
+
+# pluralise a string - replicates the logic of the equivalent function in english.cc
+def pluralise(string):
+    # if it's something like "potion of healing" then we want "potions of healing", not "potion of healings"
+    # so separate the suffix, pluralise the main noun, then put the suffix back
+    pos = string.find(" of ")
+    if pos < 0:
+        pos = string.find(" from ")
+    if pos < 0:
+        pos = string.find(" labelled ")
+    if pos >= 0:
+        prefix = string[0:pos]
+        suffix = string[pos:]
+        return pluralise(prefix) + suffix
+
+    if string.endswith("us"):
+        if string.endswith("lotus") or string.endswith("status"):
+            return string + "es"
+        else:
+            return string[:-2] + "i";
+    elif re.search('(larva|antenna|hypha|noma|amoeba)$', string):
+        return string + "e"
+    elif string.endswith("ex"):
+        return string[:-2] + "ices"
+    elif string.endswith("mosquito") or string.endswith("ss"):
+        return string + "es"
+    elif string.endswith("cyclops"):
+        return string[:-1] + "es"
+    elif string.endswith("catoblepas"):
+        return string[:-1] + "e"
+    elif string == "stratum":
+        return "strata"
+    elif string.endswith("s"):
+        return string
+    elif string.endswith("y"):
+        if string[-2] in "aeiou":
+            return string + "s"
+        else:
+            return string[:-1] + "ies"
+    elif string.endswith("fe"):
+        return string[:-2] + "ves"
+    elif string.endswith("staff"):
+        return string[:-2] + "ves"
+    elif string.endswith("f") and not string.endswith("ff"):
+        return string[:-1] + "ves"
+    elif string.endswith("mage") and not string.endswith("damage"):
+        return string[:-1] + "i"
+    elif re.search('(gold|fish|folk|spawn|tengu|sheep|swine|efreet|jiangshi|raiju|meliai|kemwar)$', string, re.IGNORECASE):
+        return string
+    elif re.search('(ch|sh|x|chon)$', string):
+        return string + "es"
+    elif re.search('(simulacrum|eidolon|plasmodium)$', string):
+        return string[:-2] + "a"
+    elif string.lower().endswith("djinni"):
+        return string[:-1]
+    elif string.endswith("foot"):
+        return string[:-4] + "feet"
+    elif re.search('(ophan|cherub|seraph)$', string):
+        return string + "im"
+    elif string.endswith("arachi"):
+        return string + "m"
+    elif string.endswith("ushabti"):
+        return string + "u"
+    elif string.endswith("mitl"):
+        return string[:-2] + "meh"
+    else:
+        return string + "s"
+
+# conjugate verb for 3rd person singular (he/she/it)
+def conjugate_verb(verb_phrase):
+    parts = verb_phrase.split(' ', 1)
+    verb = parts[0]
+    suffix = ''
+    i = 1
+    while verb.endswith('ly') and i < len(parts):
+        verb += ' ' + parts[i]
+        i += 1
+    while i < len(parts):
+        suffix += ' ' + parts[i]
+        i += 1
+
+    if verb == "be" or verb == "are":
+        return "is" + suffix
+    elif verb.endswith('ss') or verb.endswith('sh') or verb.endswith('ch'):
+        return verb + 'es' + suffix
+    else:
+        return verb + 's' + suffix
+
+def is_text_colour(string):
+    colours = ["black", "brown", "grey", "white", "blue",
+               "green", "cyan", "red", "magenta", "yellow"];
+    string = re.sub("^(light|dark)", "", string.strip())
+    return string in colours;
+
+def strip_formatting(string):
+    # strip printf format strings
+    result = string.replace("%%", "");
+    result = re.sub(r'%[\-\+ #0]?[\*0-9]*(\.[\*0-9]*)?(hh|h|l|ll|j|z|t|L)?[diuoxXfFeEgGaAcspn]', '', result)
+    # Hexadecimal number indicator
+    result = re.sub('0x', '', result);
+    return result
+
+def is_only_formatting(string):
+    temp = strip_formatting(string)
+    return not re.search("[A-Za-z0-9]", temp)
+
+def is_boolean(string):
+    string = string.lower()
+    return string in ["true", "false", "yes", "no"]
+
+def is_integer(string):
+    if string == "":
+        return False
+    if string[0] == "-" or string[0] == "+":
+        return string[1:].isdigit()
+    else:
+        return string.isdigit()
+
+def split_sentences(string):
+    temp = re.sub("([.?!]) ", "\\1\n", string)
+    return temp.split("\n")
+
+def dump_lines(orig_filename, lines):
+    with open(orig_filename + ".tmp", "w") as file:
+        for line in lines:
+            file.write(line)
+            file.write("\n")
+
+################################
+# String extraction functions
+################################
+
+def read_file_lines(filename):
+    infile = open(filename)
+    data = infile.read()
+    infile.close()
+    return data.splitlines()
+
+# remove comments and optionally whitespace
+def get_preprocessed_cpp_lines(filename, strip_whitespace=True):
+    with open(filename, 'r') as f:
+        text = f.read()
+    # strip multiline comments
+    text = re.sub(r'/\*.*?\*/', "", text, 0, re.DOTALL)
+    result = []
+    lines = text.split("\n")
+    for line in lines:
+        # remove single-line comments
+        if "//" in line:
+            line = re.sub(r"\s*//.*", "", line)
+            if line == "":
+                continue
+        line = line.rstrip()
+        if strip_whitespace:
+            line = line.lstrip()
+            if line == "":
+                continue
+
+        lines = re.sub(r"^\s*#\s*", "#", line)
+        if re.match("^ *# *include", line):
+            continue
+
+        result.append(line)
+
+    # concatenate lines where appropriate
+    lines = result
+    result = []
+    for line in lines:
+        lstripped = line.lstrip()
+        if len(result) == 0 or lstripped.startswith("#"):
+            result.append(line)
+            continue
+
+        concatenate = False
+        last = result[-1]
+
+        if last == "" and lstripped == "":
+            continue
+        elif last.endswith("\\"):
+            last = last[:-1].rstrip() + " "
+            line = lstripped
+            concatenate = True
+        elif last.endswith(",") and "(" in last and "-data" not in filename:
+            last += " "
+            line = lstripped
+            concatenate = True
+        elif last.endswith('"') and lstripped.startswith('"'):
+            last = last[:-1]
+            line = lstripped[1:]
+            concatenate = True
+        elif last.endswith("?") or lstripped.startswith("?") \
+                or last.endswith(":") or lstripped.startswith(":"):
+            last += " "
+            line = lstripped
+            concatenate = True
+
+        if concatenate:
+            result[-1] = last + line
+        else:
+            result.append(line)
+
+    return result
+
+
+# remove code surrounded by #if TAG_MAJOR_VERSION
+def remove_conditionally_compiled_code(lines):
+    anti_ignore = False
+    ignore = False
+    result = []
+    for line in lines:
+        if line.startswith("#ifdef"):
+            if "TAG_MAJOR_VERSION" in line or "DEBUG" in line:
+                ignore = True
+        elif line.startswith("#ifndef"):
+            if "TAG_MAJOR_VERSION" in line or "DEBUG" in line:
+                ignore = False
+                anti_ignore = True
+        elif line.startswith("#if") or line.startswith("#elif"):
+            if "defined" in line:
+                if "!defined(DEBUG" in line:
+                    ignore = False
+                    anti_ignore = True
+                elif "defined(DEBUG" in line:
+                    ignore = True
+                    anti_ignore = False
+            elif "TAG_MAJOR_VERSION" in line:
+                ignore = True
+                anti_ignore = False
+        elif line.startswith("#else"):
+            if anti_ignore:
+                ignore = True
+                anti_ignore = False
+            else:
+                ignore = False
+        elif line.startswith("#end"):
+            ignore = False
+            anti_ignore = False
+
+        if not ignore or re.match("^#(if|elif|else|end)", line):
+            result.append(line)
+    return result
+
+# should line be ignored?
+def ignore_cpp_line(line):
+    if '"' not in line:
+        return True
+
+    if line.startswith('#') and not line.startswith('#define '):
+        return True
+
+    if 'AXED' in line:
+        return True
+
+    if "mark_milestone" in line or "take_note" in line:
+        return True
+
+    # diagnotic messages
+    if re.search(r"(MSGCH_DIAGNOSTIC|dprf|dprintf|debug|DEBUG|ASSERTM|log_print|dump_|fprintf)", line):
+        return True
+    if re.search(r"(sysfail|report_error|bad_level_id|arena_error|dgn_veto_exception)", line):
+        return True
+    if re.search(r"\bdie\s*\(", line):
+        return True
+
+    return False
+
+# should string be ignored?
+def ignore_string(string):
+    stripped = string.strip()
+    if len(stripped) < 2:
+        return True
+
+    # check explicit ignore list
+    if stripped.lower() in IGNORE_STRINGS:
+        return True
+
+    if is_only_formatting(stripped):
+        return True
+
+    # ignore identifiers
+    if '_' in string and not ' ' in string:
+        return True
+
+    if re.search(r'\b(buggy|bugginess|bugger|bugdom|bug-filled|buggily)\b', string, re.IGNORECASE):
+        return True
+    if "BUG" in string:
+        return True
+
+    return False
+
+# should section be ignored?
+def ignore_section(filename, section):
+    if 'milestone' in section:
+        return True
+    elif filename in IGNORE_SECTIONS and section in IGNORE_SECTIONS[filename]:
+        return True
+
+    return False
+
+def keep_string(string):
+    return not ignore_string(string)
+
+# We want to keep most error messages in English so they can be reported to teh devs
+# The expception is environmental stuff like file errors
+def ignore_error_message(string):
+    if "Lua error" in string:
+        return False
+    if re.search(r"\b(file|lock|read|write|writing|open)\b", string, re.I):
+        return False
+    return True
+
+def is_section_start(line):
+    if line.lstrip() != line:
+        return False
+    if line.endswith(";") and not line.endswith("};"):
+        return False
+    if re.match(r'[#\{\}\[\]]', line):
+        return False
+    if not re.search(r"[a-zA-Z]+", line):
+        return False
+    return True
+
+def extract_section_name(line):
+    m = re.search(r"([^ ]+) *\(", line)
+    if m and m[1]:
+        return re.sub(r"[*&]", "", m[1])
+    m = re.search(r"([^ ]+) *\=", line)
+    if m and m[1]:
+        return re.sub(r'[^a-zA-Z0-9_:]', '', m[0])
+    return line.strip()
+
+# process art-data.txt
+def process_art_data_txt():
+    raw_lines = read_file_lines('art-data.txt')
+
+    lines = []
+    for line in raw_lines:
+        if line.lstrip().startswith('#'):
+            continue
+        line = line.rstrip()
+        if len(lines) != 0 and line.startswith(" "):
+            lines[-1] += line
+        else:
+            lines.append(line)
+
+    result = []
+    for line in lines:
+        if "DUMMY" in line:
+            continue
+        elif line.startswith('+'):
+            result.append(line[1:].strip())
+        elif ":" in line:
+            tokens = line.split(":", 1)
+            if len(tokens) != 2:
+                continue
+            key = tokens[0].strip()
+            value = tokens[1].strip()
+            if key == "NAME":
+                if re.search('(boots|gloves|gauntlets|quick blades)', value):
+                    if not 'pair of ' in value:
+                        value = 'pair of ' + value
+                result.append(article_the(value))
+            elif key in ["APPEAR", "TYPE"]:
+                result.append(article_the(value))
+            elif key == "INSCRIP":
+                tokens = value.split(",")
+                for tok in tokens:
+                    tok = tok.strip()
+                    if tok != "":
+                        result.append(tok)
+            elif key in ["DESCRIP", "DBRAND"]:
+                result.append(value)
+
+    return { "art_data" : result }
+
+def extract_key_value(string, sep):
+        tokens = string.split(":")
+        if len(tokens) != 2:
+            return ["", ""]
+        key = tokens[0].strip()
+        value = tokens[1].strip()
+        value = value.strip("'\"")
+        return [key, value]
+
+def split_yaml_list(line):
+    strings = []
+    line = re.sub(r".*\[", "", line.strip()).replace(']', '')
+    in_quotes = False
+    string = ""
+    for ch in line:
+        if ch == ',' and not in_quotes:
+            strings.append(string)
+            string = ""
+        else:
+            if ch == '"':
+                in_quotes = not in_quotes
+            string += ch
+    strings.append(string)
+
+    results = []
+    for string in strings:
+        string = string.strip().strip("'\"")
+        if string != "":
+            results.append(string)
+    return results
+
+def process_species_yaml_lines(lines, deprecated):
+    strings = []
+    name = None
+    short_name = None
+    orc_name = None
+    adjective = None
+    genus = None
+    child = None
+    for line in lines:
+        [key, value] = extract_key_value(line, ":")
+        if key in ["", "size", "difficulty", "undead_type"]:
+            continue
+        if value == "" or value == "[]" or is_boolean(value) or is_integer(value):
+            continue
+        if "_" in value or "#" in value or "Buggy" in value or "buggily" in value:
+            continue
+
+        if key == "name":
+            name = value
+        elif key == "short_name":
+            short_name = value
+        elif key == "child_name":
+            child = value
+        elif key == "orc_name":
+            orc_name = value
+        elif key == "walking_verb":
+            verb = value.lower()
+            if verb in ["glid", "wriggl"]:
+                verb += "e"
+            elif verb == "trott":
+                verb = verb[0:-1]
+            strings.append(verb)
+            if value == "Hop":
+                value = "Hopp"
+            strings.append(value + "ing")
+            strings.append(value + "er")
+        elif key == "genus":
+            genus = value
+        elif not deprecated:
+            if key == "altar_action":
+                value = "You " + value + " @the_altar@."
+            elif key == "adjective":
+                adjective = value
+            #strings.append("# " + key)
+            strings.append(value)
+
+    strings.insert(0, article_the(name))
+    if short_name == None:
+        short_name = name[0:2]
+    strings.insert(1, short_name)
+    if genus != None:
+        strings.append(article_the(genus))
+    if not deprecated:
+        genus = genus if genus != None else name
+        plural_genus = pluralise(genus)
+        if plural_genus != genus:
+            strings.append(plural_genus)
+
+    if short_name not in ["Dg", "LO", "SE", "HE", "Ce", "Ha", "DD", "My", "Pa"] \
+       and name != "Mottled Draconian":
+        # Dg can't worship gods, and the others were removed before any of this
+        if child != None:
+            # Hep title (changed to use specific child noun in 0.31)
+            if adjective == None:
+                adjective = name
+            strings.append(article_the(adjective + " " + child))
+        if orc_name != None and short_name not in ["Og", "Me"]:
+            # orc_name added in 0.32 when Beogh worship was opened up for non-orcs
+            strings.append(article_the(orc_name))
+
+    return strings
+
+def process_forms_yaml_lines(lines, deprecated):
+    strings = []
+    for line in lines:
+        [key, value] = extract_key_value(line, ":")
+        if key == "":
+            if '[' in line:
+                strings.extend(split_yaml_list(line))
+        elif value == "" or is_boolean(value) or is_integer(value):
+            continue
+        elif key == "unarmed_verbs":
+            if '[' not in value:
+                continue
+            verbs = split_yaml_list(value)
+            for verb in verbs:
+                verb = verb.strip()
+                strings.append("You " + verb + " @arg@@punct@")
+        elif key == "description":
+            strings.append("You turn into " + value)
+            strings.append("You are " + value)
+        elif key == "prayer_action":
+            strings.append("You " + value + " the altar of @arg@.")
+        elif key == "shout_verb":
+            strings.append(value)
+            strings.append(article_a(value))
+        elif key in ["hand_name", "foot_name"]:
+            strings.append(value)
+            strings.append("your " + value)
+            if not value.endswith("s"):
+                value = pluralise(value)
+                strings.append(value)
+                strings.append("your " + value)
+        elif key == "flesh_name":
+            strings.append(value)
+            strings.append("your " + value)
+        elif "name" in key:
+            strings.append(value)
+    return strings
+
+def process_yaml_file(filename):
+    strings = []
+    with open(filename) as file:
+        lines = file.readlines()
+    lines = list(map(lambda x: re.sub("#.*", "", x).strip(), lines))
+    deprecated = "deprecated" in filename
+    if "/species/" in filename:
+        strings = process_species_yaml_lines(lines, deprecated)
+    elif "/forms/" in filename:
+        if not deprecated:
+            strings = process_forms_yaml_lines(lines, deprecated)
+    return { "none": strings }
+
+def is_shop_rebadge_line(line):
+    if re.search(r'\bshop\b', line):
+        if "type:" in line or "suffix:" in line:
+            return True
+    elif "type:" in line and "suffix:" in line:
+        return True
+    return False
+
+def is_book_rebadge_line(line):
+    if "title:" in line:
+        return True
+    if "randbook" in line and "owner:" in line:
+        return True
+    return False
+
+def is_des_rebadge_line(line):
+    if re.search(r'\bname:', line):
+        return True
+    if is_shop_rebadge_line(line):
+        return True
+    if is_book_rebadge_line(line):
+        return True
+    return False
+
+def extract_rebadge_field(field, line):
+    result = ""
+    m = re.search(r'\b' + field + r':([^ \)\}]+)', line)
+    if m and m[1]:
+          result = m[1].replace('_', ' ')
+    if result == "player":
+        result = "@player_name@"
+    return result
+
+# where a name is overriden in a .des/.lua file, extract the new name and inflections
+def extract_strings_from_des_rebadge_line(line):
+
+    strings = []
+
+    # multiple monsters can be on the same line separated by slashes or commas
+    # process them separately
+    if '/' in line or ',' in line:
+        lines = re.split('[/,]', line)
+        for l in lines:
+            strings.extend(extract_strings_from_des_rebadge_line(l.strip()))
+        return strings
+
+    if not is_des_rebadge_line(line):
+        return []
+
+    # remove inventory
+    line = re.sub(r';.*$', '', line)
+
+    line = re.sub(r'.*=\s*', '', line)
+    line = re.sub(r'K?MONS:\s*', '', line)
+    line = re.sub(r'K?FEAT:\s*', '', line)
+    line = re.sub(r'spells:[^ ]+', '', line)
+
+    if is_shop_rebadge_line(line):
+        # Handle shop names
+        line = re.sub(r'\s*\.\.\s*([a-zA-Z_]+)\s*\.\.', r'@\1@', line)
+        line = line.replace('@smithy@', '@owner@')
+
+        # extract owner name
+        owner = "@owner@"
+        m = re.search(r'(?<=\bname:)[^ \)\}]+', line)
+        if m:
+            owner = m.group()
+
+        # extract shop type
+        shop_type = None
+        m = re.search(r'(?<=\btype:)[^ \)\}]+', line)
+        if m:
+            shop_type = m.group()
+
+        # extract shop suffix
+        suffix = None
+        m = re.search(r'(?<=\bsuffix:)[^ \)\}]+', line)
+        if m:
+            suffix = m.group()
+
+        if not shop_type:
+            return []
+
+        name = owner + "'s " + shop_type
+        if suffix:
+            name += " " + suffix
+        name = name.replace('_', ' ')
+
+        return [name]
+
+    elif is_book_rebadge_line(line):
+        title = extract_rebadge_field("title", line)
+        owner = extract_rebadge_field("owner", line)
+        strings = []
+        if owner != "" and owner != "@player_name@":
+            strings.append(owner)
+        if title != "":
+            strings.append(title)
+        return strings
+
+    if not is_des_rebadge_line(line):
+        return []
+
+    # clean up the line
+    line = re.sub(r'[\(\)\{\}\.]', ' ', line)
+    line = re.sub('  +', ' ', line).strip()
+    line = re.sub("^'", '', line)
+    line = re.sub("'$", '', line)
+
+    # extract base (original) name
+    words = re.findall(r'\b[^ ]+\b', line)
+    base_name = ''
+    for word in words:
+        if re.match(r'^[a-z]*$', word):
+            base_name += ' ' + word
+    base_name = base_name.strip()
+
+    # extract override
+    m = re.search(r'(?<=\bname:)[^ ]+', line)
+    if not m:
+        return []
+    override = m.group()
+    override = override.replace('_', ' ')
+
+    string = ""
+    is_adjective = False
+    if 'name_adjective' in line or 'n_adj' in line:
+        if override in ['sickly', 'monstrous', 'deformed', 'twisted', 'grotesque', 'hideous', 'febrile']:
+            # just take the adjective
+            string = override + " "
+            is_adjective = True
+        else:
+            # generate the full name
+            string = override + " " + base_name
+
+    elif 'name_suffix' in line or 'n_suf' in line:
+        string = base_name + " " + override
+    else:
+        string = override
+
+    if string == "":
+        return []
+
+    # if adjective, just return this single string as is
+    if is_adjective:
+        strings.append(string)
+        return strings
+
+    if " " in string:
+        for adj in ["rotten ", "ancient ", "large "]:
+            if string.startswith(adj):
+                strings.append(adj)
+                string = string.replace(adj, '')
+                break
+
+    is_item = string.endswith('corpse')
+    if is_item:
+        strings.append(article_the(string))
+    else:
+        #append_monster_permutations(strings, string)
+        strings.append(article_the(string))
+    return strings
+
+# extract strings from Lua line (can be enclosed in single or double quotes)
+def extract_lua_strings(line):
+
+    quote = None
+    start_pos = None
+    results = []
+
+    for i in range(0, len(line)):
+        if quote is None:
+            if line[i] == "'" or line[i] == '"':
+                quote = line[i]
+                start_pos = i
+        elif line[i] == quote:
+            # end of string
+            results.append(line[start_pos+1:i])
+            quote = None
+        elif line[i] == '\\':
+            i += 1
+
+    old_results = results
+    results = []
+    for string in old_results:
+        s = string.split("\\n")
+        results.extend(s)
+
+    results = list(filter(lambda s: len(s.strip()) > 1, results))
+    results = list(filter(lambda s: '_' not in s or not re.match('^[_A-Za-z0-9]+$', s) , results))
+    results = list(filter(lambda s: not re.match(r'^\.[A-Za-z0-9]', s) , results))
+
+    return results
+
+# lue string can be surrounded with single of double quotes
+# make them all double quotes
+def normalise_lua_strings(line):
+    if "'" not in line:
+        return line
+    elif '"' not in line:
+        line = line.replace("'", '"')
+        return line
+    return line
+
+def handle_lua_string_concatenation(line):
+    if ".." not in line:
+        return line
+
+    line = re.sub(r'"\s*\.\.\s*"', '', line)
+    line = re.sub(r"'\s*\.\.\s*'", '', line)
+    if ".." not in line:
+        return line
+
+    #sys.stderr.write("LINE OLD: " + line + "\n")
+
+    # replace concatenation operator with something that's easier to search for
+    #line = re.sub(r'(?<=[^.])\.\.(?=[^.])', '~~', line)
+    #line = re.sub(r'\s*~~\s*', ' ~~ ', line)
+    line = re.sub(r'\s+\.\.\s+', ' ~~ ', line)
+    if " ~~ " not in line:
+        return line
+
+    # foo = foo .. whatever
+    line = re.sub(r'\s*([a-zA-Z0-9_]+)\s*=\s*\1 ~~ ', '', line)
+
+    # embedded function call
+    line = re.sub(r'crawl\.article_(a|the)\s*\(([^)]*)\)', r'\2', line)
+    line = re.sub(r' ~~ ([a-zA-Z0-9_.:]+)\s*\([^()]*\)', r' ~~ \1', line)
+    line = re.sub(r'([a-zA-Z0-9_.:]+)\s*\([^()]*\) ~~ ', r'\1 ~~ ', line)
+    line = line.strip()
+    line = re.sub(r'" ~~ "', '', line)
+    line = re.sub(r"' ~~ '", '', line)
+    # param in middle of string
+    line = re.sub(r'" ~~ *([^"]+?) ~~ "', r'@\1@', line)
+    line = re.sub(r"' ~~ *([^']+?) ~~ '", r'@\1@', line)
+    # param at start of string
+    line = re.sub(r'([^(= ]+) ~~ "', r'"@\1@', line)
+    line = re.sub(r"([^(= ]+) ~~ '", r"'@\1@", line)
+    # param at end of string
+    line = re.sub(r'" ~~ ([^)]+)', r'@\1@"', line)
+    line = re.sub(r"' ~~ ([^)]+)", r"@\1@'", line)
+
+    # clean up params names
+    for token in re.findall('@[^@]+@', line):
+        param = token
+        param = re.sub(r'@.*[:.]', '@', param)
+        param = re.sub('[^a-zA-Z0-9@]', '_', param)
+        line = line.replace(token, param)
+
+    line = re.sub("@bane[^@]+@ XL", "@num@ XL", line)
+    line = re.sub("@[^@]*AUTOMAGIC_SPELL_SLOT[^@]*@", "@slot@", line)
+    line = re.sub("@feature_desc_at[^@]*@", "@feature@", line)
+
+    #sys.stderr.write("LINE NEW: " + line + "\n")
+
+    return line
+
+def handle_lua_door_description(line):
+    strings = []
+    noun = "door"
+    prefix = ""
+    suffix = ""
+    for (key, value) in re.findall(r'([A-Za-z0-9_]+)\s*=\s*"([^"]+)"', line):
+        if key == "door_description_noun":
+            noun = value
+        elif key == "door_description_prefix":
+            prefix = value
+        elif key == "door_description_suffix":
+            suffix = value
+        else:
+            strings.append(value)
+    desc = prefix + noun + suffix
+    strings.append(article_the(desc))
+    return strings
+
+def handle_timed_portal_message(line):
+    result = []
+    noisemaker = ""
+    sound = ""
+    adjectives = ["", "stately ", "brisk ", "urgent ", "frantic "]
+    distances = ["", "distant @arg@", "very distant @arg@", "@arg@ nearby", "@arg@ very nearby"]
+    line = re.sub(r'([A-Za-z_]+)\s*=', r'\n\1 =', line)
+    tokens = line.split("\n")
+    for token in tokens:
+        strings = extract_lua_strings(token)
+        if len(strings) == 0:
+            continue
+        if "noisemaker" in token:
+            noisemaker = strings[0]
+        elif "verb" in token:
+            sound = strings[0]
+        elif "ranges" in token:
+            adjectives = [""]
+            adjectives.extend(strings)
+        else:
+            result.extend(strings)
+
+    if noisemaker != "":
+        old_result = result
+        result = []
+        for string in old_result:
+            string = string.replace("$F{The}", "The " + noisemaker)
+            result.append(string)
+
+        for adj in adjectives:
+            if adj == "" and sound == "":
+                continue
+            for dist in distances:
+                thing = article_a(noisemaker)
+                if dist != "":
+                    thing = article_a(dist.replace("@arg@", noisemaker))
+                msg = "You hear the " + adj + sound + " of " + thing + ".";
+                result.append(msg)
+
+    return result
+
+def preprocess_lua_lines(lines):
+    result = []
+    for line in lines:
+        line = line.rstrip()
+        stripped = line.lstrip()
+
+        # remove comments
+        if stripped.startswith("--"):
+            continue
+
+        if len(result) == 0:
+            result.append(line)
+            continue
+
+        last = result[-1]
+
+        # join lines where appropriate
+        if last.endswith("\\"):
+            result[-1] = last[0:-1].rstrip() + " " + stripped
+            continue
+        elif last.endswith("..") or stripped.startswith(".."):
+            result[-1] = last  + " " + stripped
+            continue
+        elif "(" in last and re.search('[,{(]$', last):
+            result[-1] = last  + " " + stripped
+            continue
+        elif last.endswith('"') and stripped.startswith('"'):
+            result[-1] = last[0:-1] + stripped[1:]
+            continue
+        elif re.search(r'^\s*(if|elseif)', last) and not re.search(r'\bthen\b', last):
+            result[-1] = last  + " " + stripped
+            continue
+        elif re.search(r'timed_msg\s*\{', last):
+            if stripped != "}":
+                result[-1] = last  + " " + stripped
+                continue
+
+        result.append(line)
+
+    # split lines where appropriate
+    old_result = result
+    result = []
+    for line in old_result:
+        if re.search(r'\bthen\b', line):
+            line = re.sub(r'\bthen\b', 'then\n', line)
+        #line = re.sub(r'\\n', '"\n"', line)
+        if '\n' in line:
+            tokens = line.split('\n')
+            for token in tokens:
+                token = token.rstrip()
+                if token != "":
+                    result.append(token)
+        else:
+            result.append(line)
+
+
+    return result
+
+def process_lua_lines(filename, section, lines, result):
+    #dump_lines(section, lines)
+    lines = preprocess_lua_lines(lines)
+
+    for line in lines:
+        line = line.strip()
+        if line.startswith("function ") or line.startswith("local function "):
+            section = re.sub(".*function *", "", line)
+            section = re.sub(r" *\(.*$", "", section)
+            result[section] = []
+
+        if '"' not in line and "'" not in line:
+            continue
+
+        # debug/error stuff
+        if re.search("(stderr|error|dpr|assert)", line):
+            continue
+
+        if re.search(r'^(if|elseif)\b', line):
+            continue
+
+        if re.search(r'\b(map)\s*\(', line):
+            continue
+
+        if re.search(r'\b(take_note|mark_milestone)\s*\(', line):
+            continue
+
+        is_rebadge_line = is_des_rebadge_line(line)
+        if not is_rebadge_line:
+            if re.search(r'\b(kfeat|item|kitem|mons|kmons|subst|nsubst)\s*\(', line):
+                continue
+
+        #line = normalise_lua_strings(line)
+
+        line = handle_lua_string_concatenation(line)
+
+        if is_rebadge_line:
+            strings = extract_lua_strings(line)
+            for string in strings:
+                strings2 = extract_strings_from_des_rebadge_line(string)
+                result[section].extend(strings2)
+            continue
+
+        if "door_description_" in line:
+            strings = handle_lua_door_description(line)
+            result[section].extend(strings)
+            continue
+        elif re.search(r'timed_msg\s*\{', line):
+            strings = handle_timed_portal_message(line)
+            result[section].extend(strings)
+            continue
+        elif section == "decorative_floor" or "_statue_setup" in section:
+            for string in re.findall(r'\[\s*"([^"]+)"', line):
+                result[section].append(article_a(string))
+            continue
+        elif "decorative_floor" in line or "_statue_setup" in line:
+            continue
+
+        # dict keys
+        line = re.sub(r'\["[^"]+"\]', '[dummy]', line)
+        line = re.sub(r"\['[^']+'\]", '[dummy]', line)
+
+        if "crawl.mpr" in line:
+            # second param is channel
+            line = re.sub(r',\s*"[^"]*"\)', ')', line)
+
+        strings = extract_lua_strings(line)
+
+        if len(strings) == 0:
+            continue
+        elif "crawl.mpr" in line:
+            result[section].extend(strings)
+        elif re.search(r"(crawl\.god_speaks|set_feature_name)", line):
+            result[section].append(strings[-1])
+        elif re.search(r"(wizlab|trove)_milestone", line):
+            result[section].extend(strings)
+        else:
+            keepers = []
+            for string in strings:
+                if "The" in string:
+                    # looks like a sentence
+                    keepers.append(string)
+                elif re.search(r".{9}[.!?]$", string) and not re.search(r"[=:/]", string):
+                    # looks like a sentence
+                    keepers.append(string)
+            result[section].extend(keepers)
+            if len(keepers) < len(strings):
+                if len(keepers) == 0:
+                    #sys.stderr.write('IGNORE: ' + line + '\n')
+                    pass
+                else:
+                    #sys.stderr.write('PARTIALLY IGNORE: ' + line + '\n')
+                    pass
+
+def process_lua_file(filename):
+    result = {}
+    lines = read_file_lines(filename)
+    result["none"] = []
+    process_lua_lines(filename, "none", lines, result)
+    return result
+
+def preprocess_des_lines(lines):
+    old_lines = lines
+    lines = []
+    in_map = False
+    for line in old_lines:
+        line = line.rstrip()
+        trimmed = line.lstrip()
+
+        # skip comments
+        if trimmed.startswith("#"):
+            continue
+
+        # skip map section
+        if trimmed == "ENDMAP":
+            in_map = False
+            continue
+        elif trimmed == "MAP":
+            in_map = True
+        if in_map:
+            continue
+
+        # join lines that end with backslash
+        if len(lines) > 0:
+            last = lines[-1]
+            if last.endswith('\\'):
+                if trimmed.startswith(":"):
+                    line = trimmed[1:]
+                lines[-1] = last[0:-1].rstrip() + " " + line.lstrip()
+                continue
+
+        lines.append(line)
+    return lines
+
+def process_des_file(filename):
+    lines = read_file_lines(filename)
+    lines = preprocess_des_lines(lines)
+    #dump_lines(filename, lines)
+
+    result = {}
+    lua_lines = []
+    in_lua_section = False
+    section = "none"
+    result[section] = []
+    for line in lines:
+        trimmed = line.strip()
+
+        is_lua_line = False
+        if trimmed.startswith(":"):
+            is_lua_line = True
+            line = re.sub('^: ?', '', line)
+        elif "lua:" in line:
+            is_lua_line = True
+            line = re.sub('^.*?lua:', '', line)
+        else:
+            if "{{" in line and not re.match('^N?SUBST:', line):
+                in_lua_section = True
+            # start and end can be on same line
+            if in_lua_section and trimmed.endswith("}}"):
+                in_lua_section = False
+                is_lua_line = True
+
+        if in_lua_section:
+            is_lua_line = True
+
+        if is_lua_line:
+            lua_lines.append(line)
+            if in_lua_section or trimmed.startswith(":"):
+                continue
+
+        if len(lua_lines) != 0:
+            process_lua_lines(filename, section, lua_lines, result)
+            lua_lines = []
+
+        if is_lua_line:
+            continue
+
+        if "NAME:" in line:
+            section = line.replace("NAME:", "").strip()
+            if section not in result:
+                result[section] = []
+        elif "DESC:" in line:
+            string = line.replace("DESC:", "").strip()
+            result[section].append(string)
+        elif is_des_rebadge_line(line):
+            strings = extract_strings_from_des_rebadge_line(line)
+            result[section].extend(strings)
+
+    if len(lua_lines) != 0:
+        process_lua_lines(filename, section, lua_lines, result)
+
+    return result
+
+def split_on_newlines(strings):
+    result = []
+    for string in strings:
+        result.extend(string.split("\\n"))
+    return result
+
+def dummy_up_keys(line):
+    line = re.sub(r"(get[A-Za-z]+String|_get_xom_speech) *\(([^\)]+)\)", "$1(dummy)", line)
+    # 3rd arg is tag
+    line = re.sub(r"\b(menu_colour *\([^,]+,[^,]+,)[^,)]+", "$1, dummy", line)
+    # 1st arg is context
+    line = re.sub(r"(?<=localise_in_context\()[^,]+", "dummy", line)
+    # 1st arg is identifier
+    line = re.sub(r'(json_write_[a-z]+|push_ui_layout) *\( *"[^"]+"', '$1(dummy', line)
+    return line
+
+def extract_cpp_strings(line, filter_results):
+    strings = re.findall(STRING_PATTERN, line)
+    strings = list(map(lambda x: x.strip('"'), strings))
+    strings = split_on_newlines(strings)
+    if filter_results:
+        strings = list(filter(keep_string, strings))
+    return strings
+
+def process_cplusplus_file(filename):
+    lines = get_preprocessed_cpp_lines(filename, False)
+    lines = remove_conditionally_compiled_code(lines)
+    #if filename == "item-name.cc":
+    #    dump_lines(filename, lines)
+
+    results = {}
+    section = "none"
+    saved_section = None
+    results[section] = []
+
+    for line in lines:
+        if section == "_fixup_runeorb_entry":
+            pass
+        if filename == "item-name.cc":
+            for special in ["potion_qualifiers", "potion_colours"]:
+                if (special + "[] =") in line:
+                    saved_section = section
+                    section = special
+                elif special in line and saved_section != None:
+                    section = saved_section
+                    saved_section = None
+                if section not in results:
+                    results[section] = []
+
+        if is_section_start(line):
+            section = extract_section_name(line)
+            if section not in results:
+                results[section] = []
+        if ignore_section(filename, section):
+            continue
+        if ignore_cpp_line(line):
+            continue
+        line = dummy_up_keys(line)
+        strings = extract_cpp_strings(line, True)
+        if len(strings) == 0:
+            continue
+        if "MSGCH_ERROR" in line and ignore_error_message(strings[0]):
+            continue
+        if "simple_god_message" in line or "simple_monster_message" in line:
+            if strings[0].startswith(" ") or strings[0].startswith("'"):
+                strings[0] = "@Arg@" + strings[0]
+        if "attack_strength_punctuation" in line:
+            strings[0] = re.sub("%s$", "@punct@", strings[0]);
+        if "player_silenced_reason" in line:
+            format = strings.pop(0)
+            for reason in PLAYER_SILENCED_REASONS:
+                strings.append(replace_last(format, "%s", reason))
+        elif section == "player_silenced_reason":
+            strings = list(filter(lambda v: v not in PLAYER_SILENCED_REASONS, strings))
+        elif filename == 'melee-attack.cc':
+            if section == 'melee_attack::set_attack_verb':
+                # player-only attack verbs
+                if "verb_degree" in line:
+                    if len(strings) == 1 and len(results[section]) > 0:
+                        string = strings[0]
+                        strings = []
+                        if string == "balefully":
+                            for sentence in results[section]:
+                                if "clumsily bash" in sentence:
+                                    continue
+                                sentence = re.sub("@arg@.*", "@arg@ " + string + "@punct@", sentence)
+                                if sentence not in results[section]:
+                                    strings.append(sentence)
+                        else:
+                            if not string.startswith("'"):
+                                string = " " + string
+                            sentence = results[section][-1]
+                            results[section][-1] = re.sub("@arg@.*", "@arg@" + string + "@punct@", sentence)
+                elif "attack_verb" in line or len(strings) == 1:
+                    for i in range(len(strings)):
+                        strings[i] = "You " + strings[i] + " @arg@@punct@"
+                elif len(strings) == 2:
+                    string = "You " + strings[0] + " @arg@ " + strings[1] + "@punct@"
+                    strings = [string]
+            elif section == 'melee_attack::mons_attack_verb':
+                # monster-only attack verbs
+                verbs = strings
+                strings = []
+                for verb in verbs:
+                    verb = conjugate_verb(verb)
+                    strings.append("@Arg@ " + verb + " you@punct@")
+                    strings.append("@Arg1@ " + verb + " @arg2@@punct@")
+        if strings:
+            results[section].extend(strings)
+
+    #print(json.dumps(results, indent=2))
+    return results
+
+def process_file(filename):
+    if filename == 'art-data.txt':
+        results = process_art_data_txt()
+    elif filename.endswith('.yaml'):
+        results = process_yaml_file(filename)
+    elif filename.endswith('.des'):
+        results = process_des_file(filename)
+    elif filename.endswith('.lua'):
+        results = process_lua_file(filename)
+    else:
+        results = process_cplusplus_file(filename)
+    return results
+
+#################
+# Post-processing
+#################
+
+def expand_single_param_message(strings, include_empty_param):
+    param_vals = []
+    messages = []
+    if include_empty_param:
+        param_vals.append("")
+    for string in strings:
+        if len(string) < 15:
+            if string not in param_vals:
+                param_vals.append(string)
+        else:
+            messages.append(string)
+    results = []
+    for msg in messages:
+        if "%s" in msg:
+            for val in param_vals:
+                results.append(msg.replace("%s", val))
+        else:
+            results.append(msg)
+    return results
+
+
+def post_process_describe_cc(input):
+    results = {}
+
+    for section, strings in input.items():
+        strings_old = strings
+        strings = []
+        for string in strings_old:
+            if string.endswith(" +"):
+                strings.append(string + "%d.")
+            elif section == "_describe_armour":
+                if string.startswith("It is cumbersome"):
+                    sentences = split_sentences(string)
+                    if len(sentences) != 0:
+                        strings.append(sentences.pop(0))
+                        strings = expand_single_param_message(strings, True)
+                    strings.extend(sentences)
+                elif string.endswith(": "):
+                    string += "%d"
+                    if string.startswith(" ") and len(strings) != 0:
+                        strings[-1] += string
+                    else:
+                        strings.append(string)
+                elif string.startswith("'Of"):
+                    continue
+            else:
+                strings.append(string)
+            results[section] = strings
+
+    return results
+
+
+def post_process_feature_data_h(input):
+
+    altars = []
+    others = []
+
+    for section, strings in input.items():
+        new_strings = []
+        for string in strings:
+            # ignore internal ids
+            if string in ["unseen", "passage of golubria"]:
+                continue
+            if "altar" in string:
+                altars.append(article_the(string))
+            else:
+                if string.startswith("some "):
+                    others.append(string)
+                others.append(article_the(string))
+
+    altars.sort()
+    others = list(set(others))
+    others.sort()
+
+    results = { "altars" : altars, "others": others }
+    return results
+
+# this is where most of the item names are
+def post_process_item_prop_cc(input):
+    results = {}
+
+    for section, strings in input.items():
+        results[section] = []
+        for string in strings:
+            if "%s" in string:
+                results[section].append(string)
+                continue
+            elif string == ' dragon scales':
+                continue
+            elif section == 'Armour_prop':
+                if string in ['gloves', 'boots']:
+                    string = 'pair of ' + string
+                elif "the tower shield" in results[section]:
+                    # the rest after shields are dragon armours
+                    string = string + ' dragon scales'
+            elif section == 'Staff_prop':
+                string = "staff of " + string
+            elif section == 'Gem_prop':
+                string += " gem"
+
+            results[section].append(article_the(string))
+            if string in ['javelin', 'boomerang']:
+                results[section].append(article_the("silver " + string))
+
+        # stackable items need a plural with count
+        if section == 'Missile_prop':
+            extras = []
+            for string in results[section]:
+                extras.append('@num@ ' + pluralise(remove_article(string)))
+            results[section].extend(extras)
+
+    return results
+
+def post_process_item_name_cc(input):
+    results = {}
+    for section, old_strings in input.items():
+        new_strings = []
+        for string in old_strings:
+            if string in ["Donald", "%s of %s", "x) ", "corpse bug", "Unnamed gizmo", " rune of Zot"]:
+                continue
+            elif string.endswith(" of ") or string.endswith(" of"):
+                continue
+            elif string == " gem":
+                string = "the" + string
+            elif string == "enchanted %s":
+                string = string.replace("%s", "")
+            elif string == "plog":
+                string = "@item@ of " + string
+            elif "+" in string and not string.startswith("+"):
+                # annotation
+                elements = string.split()
+                for e in elements:
+                    new_strings.append(re.sub(r"[+\-].*", "", e));
+                continue
+            elif section == "special_missile_type_name":
+                if string.endswith("ed"):
+                    new_strings.append("the " + string + " dart")
+                    new_strings.append("@num@ " + string + " darts")
+                elif string in ["dispersal", "disjunction"]:
+                    new_strings.append("the dart of " + string)
+                    new_strings.append("@num@ darts of " + string)
+                elif string == "silver":
+                    new_strings.append("the " + string + " javelin")
+                    new_strings.append("@num@ " + string + " javelins")
+                else:
+                    new_strings.append(string)
+                continue
+            elif section == "weapon_brands_verbose":
+                if string in ["vampirism", "antimagic", "heavy", "spectralising", "devious"]:
+                    # only uses the adjective
+                    continue
+                else:
+                    string = "@item@ of " + string
+            elif section == "weapon_brands_adj":
+                if string in ["vampiric", "antimagic", "heavy", "spectral", "devious"]:
+                    # uses the adjective
+                    string += " "
+                else:
+                    continue
+            elif section == "special_armour_type_name":
+                if not re.search("[A-Z]", string) or string == "the Archmagi":
+                    string = "@item@ of " + string
+            elif section == "_wand_type_name":
+                string = "the wand of " + string
+            elif section == "wand_primary_string":
+                string = "the " + string + " wand"
+            elif section == "potion_type_name":
+                new_strings.append("the potion of " + string)
+                new_strings.append("@num@ potions of " + string)
+                continue
+            elif section == "scroll_type_name":
+                new_strings.append("the scroll of " + string)
+                new_strings.append("@num@ scrolls of " + string)
+                continue
+            elif section == "jewellery_effect_name":
+                if not re.search("[A-Z]", string):
+                    string = "@item@ of " + string
+            elif section == "ring_primary_string":
+                string = "the " + string + " ring"
+            elif section == "amulet_primary_string":
+                string = "the " + string + " amulet"
+            elif section == "staff_primary_string":
+                string = "the " + string + "staff"
+            elif section == "rune_type_name":
+                if string in ["elven", "mossy"]:
+                    # obsolete runes
+                    continue
+                #new_strings.append("the " + string + " rune of Zot")
+                new_strings.append("the " + string + " rune")
+            elif section == "misc_type_name":
+                new_strings.append(article_the(string))
+                if "Geryon" not in string:
+                    new_strings.append(pluralise(string))
+                continue
+            elif section == "_bauble_type_name":
+                string = string + " bauble"
+                new_strings.append(article_the(string))
+                new_strings.append("@num@ " + pluralise(string))
+                continue
+            elif string == " bauble":
+                continue
+            elif section == "_book_type_name":
+                if string == "Fixed Theme":
+                    continue
+                string = "a book of " + string
+            elif section == "sub_type_string":
+                if re.match("^(My|Great|the) ", string) or ("'" in string and "Poisoner's" not in string):
+                    pass
+                elif re.match("^[A-Z]", string):
+                    string = article_a(string)
+                else:
+                    string = article_the(string)
+            elif section == "ghost_brand_name":
+                if string == "weapon of %s":
+                    continue
+                else:
+                    string = string.replace("%s", "the");
+            elif section == "item_def::name_aux":
+                if ":" in string:
+                    # debugging stuff
+                    continue
+                elif string == "labelled ":
+                    new_strings.append("the scroll labelled @label@")
+                    new_strings.append("@num@ scrolls labelled @label@")
+                    continue
+                elif string == "gold piece":
+                    new_strings.append(article_the(string))
+                    new_strings.append("1 " + string)
+                    new_strings.append("@num@ " + pluralise(string))
+                    continue
+                elif not string.endswith(" "):
+                    string = article_the(string)
+            elif section == "potion_colours":
+                if "potions_singular" not in results:
+                    results["potions_singular"] = []
+                if "potions_plural" not in results:
+                    results["potions_plural"] = []
+                results["potions_singular"].append("the " + string + " potion");
+                results["potions_plural"].append("@num@ " + string + " potions");
+                continue
+            elif section == "_gem_parenthetical":
+                if string == " turns":
+                    string = "@num@ turns until shattered"
+                elif "until shattered" in string:
+                    string = "@num1@/@num2@ until shattered";
+                elif "shattered" in string:
+                    string = "shattered"
+            elif section == "RuneMenu::gem_title":
+                middle_bit = ", %d intact"
+                end_bit = ")</white>"
+                if string in [middle_bit, end_bit]:
+                    continue
+                elif "collected" in string:
+                    # middle bit is optional
+                    new_strings.append(string + end_bit)
+                    string += middle_bit + end_bit
+            elif section == "RuneMenu::set_footer":
+                start = "[<w>!</w>/<w>^</w>"
+                middle = "|<w>Right-click</w>"
+                end = "]: %s"
+                if string == start:
+                    string = start + end
+                elif string == middle:
+                    string = start + middle + end
+
+            new_strings.append(string)
+        results[section] = new_strings
+
+    if "potions_singular" in results:
+        results["potions_singular"].sort()
+    if "potions_plural" in results:
+        results["potions_plural"].sort()
+
+    return results
+
+def post_process_job_data_h(input):
+    results = {}
+    for section, old_strings in input.items():
+        strings = []
+        for string in old_strings:
+            if len(string) == 2:
+                # abbreviation
+                strings.append(string)
+                strings.append("@adj@@xx@" + string)
+            elif string[0].isupper():
+                strings.append(article_the(string))
+        results[section] = strings
+    return results
+
+def is_unique_monster(string):
+    # non-uniques with uppercase letters
+    specials = [
+        'Killer Klown', 'Orb Guardian', 'Brimstone Fiend', 'Ice Fiend',
+        'Tzitzimitl', 'Hell Sentinel', 'Executioner', 'Hellbinder',
+        'Cloud Mage', 'Statue of Wucad Mu'
+    ]
+    if string in specials:
+        return False
+
+    return re.match('^[A-Z]', string)
+
+def post_process_mon_data_h(input):
+    uniques = []
+    singles = []
+    plurals = []
+
+    for section, strings in input.items():
+        new_strings = []
+        for string in strings:
+            if string == "removed" or string.startswith('test '):
+                continue
+            if is_unique_monster(string):
+                if " the " in string:
+                    short_form = re.sub(" the .*", "", string)
+                    uniques.append(short_form)
+                if string not in uniques:
+                    uniques.append(string)
+            else:
+                singles.append(article_the(string))
+                plurals.append("@num@ " + pluralise(string))
+
+    uniques.sort()
+    singles.sort()
+    plurals.sort()
+
+    result = {
+        "uniques": uniques,
+        "singular": singles,
+        "plural": plurals,
+    }
+    return result
+
+def post_process_mon_util_cc(input):
+    results = {}
+    for section, strings in input.items():
+        if section == "mon_attack_name":
+            infinitives = []
+            messages = []
+            for verb in strings:
+                infinitive = re.sub(' (at|on)$', '', verb)
+                if infinitive == "":
+                    continue
+                infinitives.append(infinitive)
+                if " or " not in verb:
+                    verb = conjugate_verb(verb)
+                    messages.append("@Arg@ " + verb + " you@punct@")
+                    messages.append("@Arg1@ " + verb + " @arg2@@punct@")
+            strings = infinitives
+            strings.extend(messages)
+        results[section] = strings
+    return results
+
+def post_process_spl_data_h(input):
+    spells = []
+
+    for section, strings in input.items():
+        for string in strings:
+            if "Debugging" in string or "nonexistent" in string:
+                continue
+            if "serpent of hell breath" in string:
+                continue
+            spells.append(string)
+
+    spells.sort()
+
+    return { "spelldata": spells }
+
+def post_process_zap_data_h(input):
+    zaps = []
+
+    for section, strings in input.items():
+        for string in strings:
+            if "debugging" in string:
+                continue
+            zaps.append(article_the(string))
+
+    zaps = list(set(zaps))
+    zaps.sort()
+
+    return { "zapdata": zaps }
+
+def post_process_generic(input):
+    results = {}
+    for section, old_strings in input.items():
+        new_strings = []
+        for string in old_strings:
+            if string == "":
+                continue
+            if "veto" in string:
+                continue
+            if section not in ["potion_colours", "ugly_colour_names", "drac_colour_names"]:
+                if is_text_colour(string):
+                    continue
+            # trim trailing space from prompts
+            if re.search(r"\? +$", string):
+                string = string.rstrip()
+            new_strings.append(string)
+        results[section] = new_strings
+    return results
+
+def transform_messages(input):
+    results = {}
+    for section, strings in input.items():
+        new_strings = []
+        for string in strings:
+            if string in msg_transforms:
+                new_strings.extend(msg_transforms[string])
+            else:
+                new_strings.append(string)
+        results[section] = new_strings
+
+    for section, strings in results.items():
+        new_strings = []
+        for string in strings:
+
+            count = 0
+            while "%s" in string:
+                count += 1
+                string = string.replace("%s", "@arg" + str(count) + "@", 1)
+            if count == 1:
+                string = string.replace("@arg1@", "@arg@", 1)
+            string = re.sub("^@arg", "@Arg", string)
+
+            count = 0
+            while "%d" in string:
+                count += 1
+                string = string.replace("%d", "@num" + str(count) + "@", 1)
+            if count == 1:
+                string = string.replace("@num1@", "@num@", 1)
+
+            new_strings.append(string)
+        results[section] = new_strings
+
+    return results
+
+def filter_des_strings(filename, section, strings):
+    result = []
+    for string in strings:
+        if string == "":
+            continue
+        if filename.endswith("meat.des"):
+            # border_top and border_bottom end with a newline
+            string = string.replace("@border_top@", "")
+            string = string.replace("@border_bottom@", "")
+            # meatsprint border stuff
+            if re.search(r'-- +--', string) or re.search(r'-{30}', string):
+                continue
+        result.append(string)
+    return result
+
+def post_process_des_file(filename, input):
+    results = {}
+    for section, strings in input.items():
+        results[section] = filter_des_strings(filename, section, strings)
+    return results
+
+specific_post_processing_funcs = {
+    'describe.cc': post_process_describe_cc,
+    'feature-data.h': post_process_feature_data_h,
+    'item-prop.cc': post_process_item_prop_cc,
+    'item-name.cc': post_process_item_name_cc,
+    'job-data.h': post_process_job_data_h,
+    'mon-data.h': post_process_mon_data_h,
+    'mon-util.cc': post_process_mon_util_cc,
+    'spl-data.h': post_process_spl_data_h,
+    'zap-data.h': post_process_zap_data_h,
+}
+
+def post_process(filename, results):
+    results = post_process_generic(results)
+
+    # the strings in some files need special handling
+    if filename in specific_post_processing_funcs:
+        func = specific_post_processing_funcs[filename]
+        results = func(results)
+
+    if filename.endswith('.des'):
+        results = post_process_des_file(filename, results)
+
+    results = transform_messages(results)
+
+    return results
+
+#################
+# Main
+#################
+
+files = []
+if len(sys.argv) > 1:
+    # use list of files specified on command line
+    files = sys.argv[1:]
+else:
+    # build my own list of files
+
+    source_files = glob.glob("*.h")
+    source_files.extend(glob.glob("*.cc"))
+
+    # sort source files with .h files before matching .cc files
+    for i in range(len(source_files)):
+        source_files[i] = source_files[i].replace('.h', '.a')
+    source_files.sort()
+    for i in range(len(source_files)):
+        source_files[i] = source_files[i].replace('.a', '.h')
+
+    special_yaml_files = glob.glob("dat/species/*.yaml")
+    special_yaml_files.sort()
+    yaml_files = glob.glob("dat/forms/*.yaml")
+    yaml_files.sort()
+    source_files.extend(yaml_files)
+
+    lua_files = glob.glob("dat/clua/*.lua")
+    lua_files.append("dat/dlua/lm_timed.lua")
+    lua_files.append("dat/dlua/lm_tmsg.lua")
+    lua_files.append("dat/dlua/lm_trove.lua")
+    lua_files.append("dat/dlua/vault.lua")
+    lua_files.sort()
+    source_files.extend(lua_files)
+
+    des_files = glob.glob("dat/des/*/*.des")
+    des_files.sort()
+    source_files.extend(des_files)
+
+    # put some important files first
+    # (because if there are duplicate strings, we want them put under these files)
+    files = SPECIAL_FILES.copy()
+    files.extend(special_yaml_files)
+
+    # add wanted source files to list to be processed
+    for fname in source_files:
+        if fname not in files and \
+           fname not in IGNORE_FILES and \
+           not re.match('l-', fname) and \
+           not re.match('dbg-', fname):
+            files.append(fname)
+
+results = {}
+
+for filename in files:
+    temp = process_file(filename)
+    temp = post_process(filename, temp)
+    results[filename] = temp
+
+
+output = []
+for filename, sections in results.items():
+    output.append("##################")
+    output.append("# " + filename)
+    output.append("##################")
+    for section_name, strings in sections.items():
+        if not strings:
+            continue
+        output.append("")
+        output.append("# section: " + section_name)
+        for string in strings:
+            if string != string.strip():
+                string = '"' + string + '"'
+            if string in output:
+                string = "#duplicate: " + string
+            output.append(string)
+    output.append("")
+
+for string in output:
+    print(string)
