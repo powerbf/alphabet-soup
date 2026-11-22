@@ -52,6 +52,7 @@
 #include "jobs.h"
 #include "lang-fake.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "melee-attack.h" // describe_to_hit
 #include "message.h"
@@ -2988,6 +2989,7 @@ string get_item_description(const item_def &item,
                             item_description_mode mode)
 {
     ostringstream description;
+    string long_desc;
     const bool verbose = mode == IDM_DEFAULT || mode == IDM_MONSTER;
 
 #ifdef DEBUG_DIAGNOSTICS
@@ -3042,6 +3044,7 @@ string get_item_description(const item_def &item,
                 need_base_desc = false;
                 description.seekp((streamoff)-1, ios_base::cur);
                 description << " ";
+                long_desc = desc.substr(0, desc.length()-1);
             }
         }
         // Randart jewellery properties will be listed later,
@@ -3081,7 +3084,10 @@ string get_item_description(const item_def &item,
                 }
             }
             else
+            {
                 description << db_desc;
+                long_desc = db_desc.substr(0, db_desc.length()-1);
+            }
 
             // Get rid of newline at end of description; in most cases we
             // will be adding "\n\n" immediately, and we want only one,
@@ -3383,6 +3389,18 @@ string get_item_description(const item_def &item,
             description << "\nMenu/colouring prefixes: " << menu_prefix;
     }
 
+    if (localisation_active())
+    {
+        string result = description.str();
+        // i18n: long description should already be in the target language
+        if (!long_desc.empty())
+            result = replace_first(result, long_desc, NOLOC_PLACEHOLDER);
+        result = localise(result);
+        if (!long_desc.empty())
+            result = replace_first(result, NOLOC_PLACEHOLDER, long_desc);
+        return result;
+    }
+
     return description.str();
 }
 
@@ -3471,6 +3489,8 @@ static vector<extra_feature_desc> _get_feature_extra_descs(const coord_def &pos)
             tile_def(tileidx_cloud(*cloud)),
         });
     }
+    for (extra_feature_desc &desc: ret)
+        desc.title = localise(desc.title);
     return ret;
 }
 
@@ -3577,7 +3597,7 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
     strip_suffix(db_name, " (summoned)");
     string long_desc = getLongDescription(db_name);
 
-    inf.title = uppercase_first(desc);
+    inf.title = uppercase_first(localise(desc));
     if (!ends_with(desc, ".") && !ends_with(desc, "!")
         && !ends_with(desc, "?") && !desc.empty())
     {
@@ -3800,6 +3820,9 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
     if (pos == you.pos() && you.on_current_level)
         long_desc += "\nYou are here.";
 
+    // i18n: Parts of long_desc will already be in the target language.
+    // If we get "double translation" issues, we will have to do this the long way.
+    long_desc = localise(long_desc);
     inf.body << long_desc;
 
     if (include_extra)
@@ -4027,6 +4050,7 @@ void get_item_desc(const item_def &item, describe_info &inf)
     const item_description_mode mode = item.has_spells() ? IDM_PLAIN
                                                          : IDM_DEFAULT;
     string name = item.name(DESC_INVENTORY_EQUIP) + ".";
+    name = localise(name);
     if (!in_inventory(item))
         name = uppercase_first(name);
     inf.body << name << get_item_description(item, mode);
@@ -4349,6 +4373,7 @@ command_type describe_item_popup(const item_def &item,
     do_actions = do_actions && !(you.pending_revival || crawl_state.updating_scores);
 
     string name = item.name(DESC_INVENTORY_EQUIP) + ".";
+    name = localise(name);
     if (!in_inventory(item))
         name = uppercase_first(name);
 
