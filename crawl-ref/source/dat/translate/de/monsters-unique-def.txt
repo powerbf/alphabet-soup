@@ -1,0 +1,402 @@
+###############################################################################
+#
+# Monsters - unique, definite article
+#
+###############################################################################
+
+# Notes:
+#
+# When uniques have an adjective, they also get the definite article ("the")
+# (e.g. "You stab the helpless Sigmund.").
+#
+# Some uniques are gender-neutral in English. This may not be possible in some
+# languages, so we may have to revert to their previous genders.
+
+%%%%
+the @adj@Agnes
+{f}die {adj-e}@adj@Agnes
+%%%%
+the @adj@Aizul
+{f}die {adj-e}@adj@Aizul
+%%%%
+the @adj@Amaemon
+{m}der {adj-e}@adj@Amaemon
+%%%%
+# a giant/titan in Greek mythology
+the @adj@Antaeus
+{m}der {adj-e}@adj@Antaeus
+%%%%
+# in Greek mythology, a woman who was transformed into a spider
+the @adj@Arachne
+{f}die {adj-e}@adj@Arachne
+%%%%
+# Greek name of a demon in Judaism/Christainity
+the @adj@Asmodeus
+{m}der {adj-e}@adj@Asmodäus
+%%%%
+# the name of the minotaur in Greek mythology
+the @adj@Asterion
+{m}der {adj-e}@adj@Asterion
+%%%%
+# an angel in Islam
+the @adj@Azrael
+{m}der {adj-e}@adj@Azrael
+%%%%
+# a figure from Chinese mythology
+the @adj@Bai Suzhen
+{f}die {adj-e}@adj@Bai Suzhen
+%%%%
+# obsolete but could appear as killer in high scores list
+the @adj@Blork
+{m}der {adj-e}@adj@Blork
+%%%%
+the @adj@Blork the orc
+{m}der {adj-e}@adj@Blork der Ork
+%%%%
+the @adj@Blorkula
+{m}der {adj-e}@adj@Blorkula
+%%%%
+the @adj@Blorkula the Orcula
+{m}der {adj-e}@adj@Blorkula der Orkula
+%%%%
+the @adj@Boris
+{m}der {adj-e}@adj@Boris
+%%%%
+the @adj@Cassandra
+{f}die {adj-e}@adj@Cassandra
+%%%%
+# gender neutral in English, but was previously male
+the @adj@Cerebov
+{m}der {adj-e}@adj@Cerebov
+%%%%
+the @adj@Chuck
+{m}der {adj-e}@adj@Chuck
+%%%%
+the @adj@Cigotuvi's Monster
+{n}das {adj-e}@adj@Cigotuvis Monster
+%%%%
+the @adj@Crazy Yiuf
+{m}der {adj-e}@adj@Verrückte Yiuf
+%%%%
+# gender neutral in English, but was previously male
+# Roman god of the underworld
+the @adj@Dispater
+{m}der {adj-e}@adj@Dispater
+%%%%
+# gender neutral in English, was previously male
+# Dissolution is a feminine noun in French and German
+the @adj@Dissolution
+{f}die {adj-e}@adj@Dissolution
+%%%%
+the @adj@Donald
+{m}der {adj-e}@adj@Donald
+%%%%
+the @adj@Dowan
+{m}der {adj-e}@adj@Dowan
+%%%%
+the @adj@Duvessa
+{f}die {adj-e}@adj@Duvessa
+%%%%
+the @adj@Edmund
+{m}der {adj-e}@adj@Edmund
+%%%%
+# a Mesopotamian goddess
+the @adj@Ereshkigal
+{f}die {adj-e}@adj@Ereshkigal
+%%%%
+the @adj@Erica
+{f}die {adj-e}@adj@Erica
+%%%%
+the @adj@Erolcha
+{f}die {adj-e}@adj@Erolcha
+%%%%
+the @adj@Eustachio
+{m}der {adj-e}@adj@Eustachio
+%%%%
+# gender neutral in English, but was previously male
+the @adj@Fannar
+{m}der {adj-e}@adj@Fannar
+%%%%
+the @adj@Frances
+{f}die {adj-e}@adj@Frances
+%%%%
+the @adj@Frederick
+{m}der {adj-e}@adj@Frederick
+%%%%
+the @adj@Gastronok
+{m}der {adj-e}@adj@Gastronok
+%%%%
+# from Greek mythology
+the @adj@Geryon
+{m}der {adj-e}@adj@Geryon
+%%%%
+# gender neutral in English, but was previously male
+the @adj@Gloorx Vloq
+{m}der {adj-e}@adj@Gloorx Vloq
+%%%%
+the @adj@Goji
+{m}der {adj-e}@adj@Goji
+%%%%
+the @adj@Grinder
+{f}die {adj-e}@adj@Grinder
+%%%%
+the @adj@Grum
+{m}der {adj-e}@adj@Grum
+%%%%
+the @adj@Grunn
+{m}der {adj-e}@adj@Grunn
+%%%%
+the @adj@Harold
+{m}der {adj-e}@adj@Harold
+%%%%
+the @adj@Ignacio
+{m}der {adj-e}@adj@Ignacio
+%%%%
+the @adj@Ijyb
+{f}die {adj-e}@adj@Ijyb
+%%%%
+the @adj@Ilsuiw
+{f}die {adj-e}@adj@Ilsuiw
+%%%%
+the @adj@Jeremiah
+{m}der {adj-e}@adj@Jeremiah
+%%%%
+the @adj@Jessica
+{f}die {adj-e}@adj@Jessica
+%%%%
+the @adj@Jorgrun
+{m}der {adj-e}@adj@Jorgrun
+%%%%
+the @adj@Jory
+{m}der {adj-e}@adj@Jory
+%%%%
+the @adj@Joseph
+{m}der {adj-e}@adj@Joseph
+%%%%
+the @adj@Josephina
+{f}die {adj-e}@adj@Josephina
+%%%%
+the @adj@Josephine
+{f}die {adj-e}@adj@Josephine
+%%%%
+# the original Egyptian name of the pharaoh usually known by the Greek name Cheops
+the @adj@Khufu
+{m}der {adj-e}@adj@Khufu
+%%%%
+# the original Greek name of the minor goddess usually known as Circe
+the @adj@Kirke
+{f}die {adj-e}@adj@Kirke
+%%%%
+the @adj@Lodul
+{m}der {adj-e}@adj@Lodul
+%%%%
+# gender neutral in English, but was previously male
+the @adj@Lom Lobon
+{m}der {adj-e}@adj@Lom Lobon
+%%%%
+the @adj@Louise
+{f}die {adj-e}@adj@Louise
+%%%%
+the @adj@Maggie
+{f}die {adj-e}@adj@Maggie
+%%%%
+# a demon in Buddhism
+the @adj@Mara
+{m}der {adj-e}@adj@Mara
+%%%%
+the @adj@Margery
+{f}die {adj-e}@adj@Margery
+%%%%
+the @adj@Maurice
+{m}der {adj-e}@adj@Maurice
+%%%%
+# the original Egyptian name of the pharaoh also known by the Greek name Mykerinos
+the @adj@Menkaure
+{m}der {adj-e}@adj@Menkaure
+%%%%
+# probably a reference to one of several Christian saints named Menas
+the @adj@Mennas
+{m}der {adj-e}@adj@Mennas
+%%%%
+the @adj@Mlioglotl
+{m}der {adj-e}@adj@Mlioglotl
+%%%%
+# gender neutral in English, but was previously male
+the @adj@Mnoleg
+{m}der {adj-e}@adj@Mnoleg
+%%%%
+the @adj@Murray
+{m}der {adj-e}@adj@Murray
+%%%%
+the @adj@Natasha
+{f}die {adj-e}@adj@Natascha
+%%%%
+the @adj@Nellie
+{f}die {adj-e}@adj@Nellie
+%%%%
+the @adj@Nergalle
+{f}die {adj-e}@adj@Nergalle
+%%%%
+# gender neutral in English, but was previously male
+# a male centaur in Greek mythology
+the @adj@Nessos
+{m}der {adj-e}@adj@Nessos
+%%%%
+# Nikola Tesla
+the @adj@Nikola
+{m}der {adj-e}@adj@Nikola
+%%%%
+the @adj@Nobody
+{m}der {adj-e}@adj@Niemand
+%%%%
+the @adj@Norris
+{m}der {adj-e}@adj@Norris
+%%%%
+the @adj@Parghit
+{m}der {adj-e}@adj@Parghit
+%%%%
+the @adj@Pargi
+{m}der {adj-e}@adj@Pargi
+%%%%
+the @adj@Pikel
+{m}der {adj-e}@adj@Pikel
+%%%%
+# a cyclops in Greek mythology
+the @adj@Polyphemus
+{m}der {adj-e}@adj@Polyphem
+%%%%
+the @adj@Prince Ribbit
+{m}der {adj-e}@adj@Prinz Quak
+%%%%
+# named after the Greek goddess of the soul
+the @adj@Psyche
+{f}die {adj-e}@adj@Psyche
+%%%%
+the @adj@Purgy
+{m}der {adj-e}@adj@Purgy
+%%%%
+# gender neutral in English, but was previously female
+the @adj@Robin
+{f}die {adj-e}@adj@Robin
+%%%%
+the @adj@Roxanne
+{f}die {adj-e}@adj@Roxanne
+%%%%
+the @adj@Rupert
+{m}der {adj-e}@adj@Rupert
+%%%%
+# gender neutral in English, but was previously male
+the @adj@Saint Roka
+{m}der {adj-e}@adj@Sankt Roka
+%%%%
+# a hero in Norse mythology
+the @adj@Sigmund
+{m}der {adj-e}@adj@Sigmund
+%%%%
+the @adj@Snorg
+{f}die {adj-e}@adj@Snorg
+%%%%
+the @adj@Sojobo
+{f}die {adj-e}@adj@Sojobo
+%%%%
+the @adj@Sonja
+{f}die {adj-e}@adj@Sonja
+%%%%
+the @adj@Sprozz
+{m}der {adj-e}@adj@Sprozz
+%%%%
+the @adj@Terence
+{m}der {adj-e}@adj@Terence
+%%%%
+# a Mesopotamian goddess
+the @adj@Tiamat
+{f}die {adj-e}@adj@Tiamat
+%%%%
+the @adj@Urug
+{f}die {adj-e}@adj@Urug
+%%%%
+the @adj@Vashnia
+{f}die {adj-e}@adj@Vashnia
+%%%%
+the @adj@Vv
+{f}die {adj-e}@adj@Vv
+%%%%
+the @adj@Wiglaf
+{m}der {adj-e}@adj@Wiglaf
+%%%%
+the @adj@Xak'krixis
+{m}der {adj-e}@adj@Xak'krixis
+%%%%
+# gender neutral in English, but was previously female
+the @adj@Xtahua
+{f}die {adj-e}@adj@Xtahua
+%%%%
+the @adj@Zenata
+{f}die {adj-e}@adj@Zenata
+%%%%
+
+# these ones normally appear with the definite article anyway...
+
+%%%%
+the @adj@Enchantress
+{f}die {adj-e}@adj@Zauberin
+%%%%
+the @adj@Head Instructor
+{m}der {adj-e}@adj@Lehrmeister
+%%%%
+# from Greek mythology
+the @adj@Lernaean hydra
+{f}die {adj-e}@adj@Lernäische Hydra
+%%%%
+# a play on words - boss of the jellies in DCSS, and a substance created by bees
+the @adj@Royal Jelly
+{n}das {adj-e}@adj@Gelée Royale
+%%%%
+the @adj@Serpent of Hell
+{f}die {adj-e}@adj@Höllenschlange
+%%%%
+the @adj@Statue of Wucad Mu
+{f}die {adj-e}@adj@Statue von Wucad Mu
+%%%%
+
+# not really uniques, but gramatically similar
+
+# can't have two consecutive string params ("@adj@@player_name@") because
+# there's no way to tell where one ends and the next begins, so we're forced
+# to list all the possibilities long-hand
+
+%%%%
+the helpless @player_name@'s ghost
+{m}der hilflose Geist von @player_name@
+%%%%
+the helpless @player_name@'s illusion
+{f}die hilflose Illusion von @player_name@
+%%%%
+
+%%%%
+the bound @player_name@'s ghost
+{m}der gebundene Geist von @player_name@
+%%%%
+the bound @player_name@'s illusion
+{f}die gebundene Illusion von @player_name@
+%%%%
+
+# these meatsprint monsters appear with capitalised "The"
+
+%%%%
+# note: Must distinguish from fleshlords (in German, flesh and meat are both Fleisch)
+The @adj@Meatlord
+Der {adj-e}@adj@Schlachtmeister
+%%%%
+The @adj@Servant
+Der {adj-e}@adj@Diener
+%%%%
+The @adj@Captor
+Der {adj-e}@adj@Fänger
+%%%%
+The @adj@Defiler
+Der {adj-e}@adj@Schänder
+%%%%
+The @adj@Unspeakable
+Der {adj-e}@adj@Unsägliche
+%%%%

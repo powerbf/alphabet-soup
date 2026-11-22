@@ -1,0 +1,361 @@
+###############################################################################
+#
+# Items - plural, counted, nominative
+#
+###############################################################################
+
+%%%%
+@num@ items
+
+%%%%
+
+# Note: Counted plurals are only needed for items that stack (missiles, scrolls, potions, gold pieces).
+# Wands meld rather than stack.
+
+#################################
+# Melee Weapons
+#################################
+
+#################################
+# Launchers
+#################################
+
+#################################
+# Missiles
+#################################
+
+%%%%
+@num@ arrows
+
+%%%%
+@num@ bolts
+
+%%%%
+# fired by artefact crossbow "Damnation"
+@num@ damnation bolts
+
+%%%%
+@num@ darts
+
+%%%%
+@num@ poisoned darts
+
+%%%%
+@num@ curare-tipped darts
+
+%%%%
+@num@ atropa-tipped darts
+
+%%%%
+@num@ datura-tipped darts
+
+%%%%
+@num@ darts of disjunction
+
+%%%%
+# old name for dart of disjunction (can still appear in high scores list)
+@num@ darts of dispersal
+
+%%%%
+@num@ stones
+
+%%%%
+@num@ large rocks
+
+%%%%
+@num@ sling bullets
+
+%%%%
+@num@ javelins
+
+%%%%
+@num@ silver javelins
+
+%%%%
+@num@ throwing nets
+
+%%%%
+@num@ boomerangs
+
+%%%%
+@num@ silver boomerangs
+
+%%%%
+
+#################################
+# Armour
+#################################
+
+#################################
+# Rings
+#################################
+
+#################################
+# Amulets
+#################################
+
+#################################
+# Wands
+#################################
+
+#################################
+# Scrolls
+#################################
+
+# generic
+%%%%
+@num@ scrolls
+
+%%%%
+
+# unidentified
+%%%%
+@num@ scrolls labelled @arg@
+
+%%%%
+
+# identified
+%%%%
+@num@ scrolls of acquirement
+
+%%%%
+@num@ scrolls of amnesia
+
+%%%%
+@num@ scrolls of blinking
+
+%%%%
+@num@ scrolls of brand weapon
+
+%%%%
+@num@ scrolls of butterflies
+
+%%%%
+@num@ scrolls of enchant armour
+
+%%%%
+@num@ scrolls of enchant weapon
+
+%%%%
+@num@ scrolls of fear
+
+%%%%
+@num@ scrolls of fog
+
+%%%%
+@num@ scrolls of holy word
+
+%%%%
+@num@ scrolls of identify
+
+%%%%
+@num@ scrolls of immolation
+
+%%%%
+@num@ scrolls of noise
+
+%%%%
+@num@ scrolls of poison
+
+%%%%
+@num@ scrolls of remove curse
+
+%%%%
+@num@ scrolls of revelation
+
+%%%%
+@num@ scrolls of silence
+
+%%%%
+@num@ scrolls of summoning
+
+%%%%
+@num@ scrolls of teleportation
+
+%%%%
+@num@ scrolls of torment
+
+%%%%
+@num@ scrolls of vulnerability
+
+%%%%
+# obsolete items (can occur if player loads a saved game from an older version)
+@num@ scrolls of removedness
+
+%%%%
+
+#################################
+# Potions
+#################################
+
+# generic
+%%%%
+@num@ potions
+
+%%%%
+
+# identified
+%%%%
+@num@ potions of ambrosia
+
+%%%%
+@num@ potions of attraction
+
+%%%%
+@num@ potions of berserk rage
+
+%%%%
+@num@ potions of brilliance
+
+%%%%
+@num@ potions of cancellation
+
+%%%%
+@num@ potions of curing
+
+%%%%
+@num@ potions of degeneration
+
+%%%%
+@num@ potions of enlightenment
+
+%%%%
+@num@ potions of experience
+
+%%%%
+@num@ potions of flight
+
+%%%%
+@num@ potions of haste
+
+%%%%
+@num@ potions of heal wounds
+
+%%%%
+@num@ potions of invisibility
+
+%%%%
+@num@ potions of lignification
+
+%%%%
+@num@ potions of magic
+
+%%%%
+@num@ potions of might
+
+%%%%
+@num@ potions of mist
+
+%%%%
+@num@ potions of moonshine
+
+%%%%
+@num@ potions of mutation
+
+%%%%
+@num@ potions of resistance
+
+%%%%
+
+# unidentified potions can have 1 or 2 adjectives
+# the adjective closest to the noun is a colour
+
+%%%%
+@num@ amethyst potions
+
+%%%%
+@num@ black potions
+
+%%%%
+@num@ blue potions
+
+%%%%
+@num@ brown potions
+
+%%%%
+@num@ coppery potions
+
+%%%%
+@num@ cyan potions
+
+%%%%
+@num@ dark potions
+
+%%%%
+@num@ emerald potions
+
+%%%%
+@num@ golden potions
+
+%%%%
+@num@ green potions
+
+%%%%
+@num@ grey potions
+
+%%%%
+@num@ inky potions
+
+%%%%
+@num@ orange potions
+
+%%%%
+@num@ pink potions
+
+%%%%
+@num@ puce potions
+
+%%%%
+@num@ purple potions
+
+%%%%
+@num@ red potions
+
+%%%%
+@num@ ruby potions
+
+%%%%
+@num@ sapphire potions
+
+%%%%
+@num@ silvery potions
+
+%%%%
+@num@ white potions
+
+%%%%
+@num@ yellow potions
+
+%%%%
+
+#################################
+# Magical Staves
+#################################
+
+#################################
+# Baubles
+#################################
+
+%%%%
+@num@ flux baubles
+
+%%%%
+@num@ centipede baubles
+
+%%%%
+
+#################################
+# Corpses
+#################################
+
+#################################
+# Miscellaneous Items
+#################################
+
+#################################
+# Gold
+#################################
+%%%%
+@num@ gold pieces
+
+%%%%

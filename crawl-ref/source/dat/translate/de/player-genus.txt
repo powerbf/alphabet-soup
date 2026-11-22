@@ -1,0 +1,177 @@
+###############################################################################
+#
+# Player genus
+#
+###############################################################################
+
+##############################################
+# Player genus singular (used in some player titles)
+# NOTE: If not listed then species is used
+##############################################
+%%%%
+# Barachi
+the Frog
+{m}der Frosch
+%%%%
+# Coglin
+the Goblin
+{m}der Goblin
+%%%%
+# Deep/Mountain Dwarf
+the Dwarf
+{m}der Zwerg
+%%%%
+# Deep/Sludge/High Elf
+the Elf
+{m}der Elf
+%%%%
+# Demigod (Genus is "Demigod", but Genus_Short is "God")
+the God
+{m}der Gott
+%%%%
+# Felid
+the Cat
+{f}die Katze
+%%%%
+# Formicid
+the Ant
+{f}die Ameise
+%%%%
+# Octopode
+the Octopus
+{m}der Oktopus
+%%%%
+# Poltergeist
+the Geist
+{m}der Geist
+%%%%
+# Hill Orc
+the Orc
+{m}der Ork
+%%%%
+
+##############################################
+# Player genus plural
+##############################################
+
+# The parameter @player_genus_plural@ is included in some messages in
+# monspeak.txt and wpnnoise.txt. Species is used for genus in many cases.
+
+%%%%
+# Barachi
+Frogs
+{pl}Frösche
+%%%%
+# Coglin
+Goblins
+{pl}Goblins
+%%%%
+# Deep/Mountain Dwarf
+Dwarves
+{pl}Zwerge
+%%%%
+# Deep/Sludge/High Elf
+Elves
+{pl}Elfen
+%%%%
+# Demigod (Genus is "Demigod", but Genus_Short is "God")
+Gods
+{pl}Götter
+%%%%
+# Felid
+Cats
+{pl}Katzen
+%%%%
+# Formicid
+Ants
+{pl}Ameisen
+%%%%
+# Gale Centaur
+Centaurs
+{pl}Zentauren
+%%%%
+# Octopode
+Octopi
+{pl}Oktopusse
+%%%%
+# Poltergeist
+Geists
+{pl}Geister
+%%%%
+# Hill Orc
+Orcs
+{pl}Orks
+%%%%
+
+# These ones use species as genus
+%%%%
+Demigods
+{pl}Halbgötter
+%%%%
+# English plural same as singular
+{pl}Demonspawn
+{pl}Dämonenbruten
+%%%%
+Djinn
+{pl}Dschinns
+%%%%
+# used for draconians of all colours
+Draconians
+{pl}Drakonier
+%%%%
+Gargoyles
+{pl}Gargoyles
+%%%%
+Ghouls
+{pl}Ghule
+%%%%
+Gnolls
+{pl}Gnolle
+%%%%
+Humans
+{pl}Menschen
+%%%%
+Kobolds
+{pl}Kobolde
+%%%%
+# English plural same as singular
+{pl}Merfolk
+{pl}Meerwesen
+%%%%
+Minotaurs
+{pl}Minotauren
+%%%%
+Mummies
+{pl}Mumien
+%%%%
+Nagas
+{pl}Nagas
+%%%%
+Ogres
+{pl}Oger
+%%%%
+Onis
+{pl}Onis
+%%%%
+Palentongas
+{pl}Palentongas
+%%%%
+Revenants
+{pl}Wiedergänger
+%%%%
+Spriggans
+{pl}Spriggans
+%%%%
+# English plural same as singular
+{pl}Tengu
+{pl}Tengus
+%%%%
+Trolls
+{pl}Trolle
+%%%%
+Vampires
+{pl}Vampire
+%%%%
+Vine Stalkers
+{pl}Rebpirscher
+%%%%

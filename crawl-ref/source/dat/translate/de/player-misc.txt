@@ -1,0 +1,30 @@
+###############################################################################
+#
+# Translations for player-related stuff
+#
+###############################################################################
+
+#################################
+# Attributes
+#################################
+%%%%
+strength
+Stärke
+%%%%
+dexterity
+Geschicklichkeit
+%%%%
+intelligence
+Intelligenz
+%%%%
+
+%%%%
+your strength
+deine Stärke
+%%%%
+your dexterity
+deine Geschicklichkeit
+%%%%
+your intelligence
+deine Intelligenz
+%%%%

@@ -1,0 +1,700 @@
+###############################################################################
+#
+# Player species
+#
+###############################################################################
+
+##############################################
+# Player species
+##############################################
+
+# Note: If playing on trunk, obsolete species can still appear in the high
+# scores list (and possibly as player ghosts).
+# Armataur (At) - Removed in v0.35
+# Ghoul (Gh) - Removed in 0.33
+# Vampire (Vp) - Removed in 0.33
+# Hill Orc (HO) - Removed in 0.32
+# Meteoran (Me) - Removed in 0.31
+# Ogre (Og) - Removed in 0.31
+# Palentonga (Pa) - Removed in 0.30
+# Mayflytaur (My) - Only existed briefly in 0.29 as an April Fools joke
+# Deep Dwarf (DD) - Removed in 0.29
+# Halfling (Ha) - Removed in 0.27
+# Centaur (Ce) - Removed in 0.26
+# High Elf (HE) - Removed in 0.20
+# Mottled Draconian (subspecies of Draconian) - Removed in 0.20
+# Lava Orc (LO) - Never made it into a stable release, last seen in 0.15 trunk
+# Sludge Elf (SE) - Removed in 0.13
+# Kenku (Ke) - renamed to Tengu in 0.10
+# Gnome (Gm - formerly Gn before the addition of Gnolls) - Removed in 0.5
+# Grey Elf (GE) - Removed in 0.5
+# Ogre-mage (OM) - Merged with Ogres in 0.5
+# Hill Dwarf (HD) - Removed in 0.3
+# Elf (El) - Removed in 0.3
+
+%%%%
+the Armataur
+{m}der Armataur
+%%%%
+the Barachi
+{m}der Barachi
+%%%%
+the Centaur
+{m}der Zentaur
+%%%%
+the Coglin
+{m}der Coglin
+%%%%
+the Deep Dwarf
+{m}der Tiefenzwerg
+%%%%
+the Deep Elf
+{m}der Tiefenelf
+%%%%
+the Demigod
+{m}der Halbgott
+%%%%
+the Demonspawn
+{f}die Dämonenbrut
+%%%%
+the Djinni
+{m}der Dschinn
+%%%%
+the Draconian
+{m}der Drakonier
+%%%%
+the Felid
+{m}der Felid
+%%%%
+the Formicid
+{m}der Formicid
+%%%%
+the Gale Centaur
+{m}der Sturmwindzentaur
+%%%%
+the Gargoyle
+{m}der Gargoyle
+%%%%
+the Ghoul
+{m}der Ghul
+%%%%
+the Gnoll
+{m}der Gnoll
+%%%%
+the Halfling
+{m}der Halbling
+%%%%
+the High Elf
+{m}der Hochelf
+%%%%
+the Hill Orc
+{m}der Hügelork
+%%%%
+the Human
+{m}der Mensch
+%%%%
+the Kobold
+{m}der Kobold
+%%%%
+the Lava Orc
+{m}der Lava-Ork
+%%%%
+the Mayflytaur
+{m}der Eintagsfliegetaur
+%%%%
+the Merfolk
+{n}das Meerwesen
+%%%%
+the Meteoran
+{m}der Meteoran
+%%%%
+the Minotaur
+{m}der Minotaur
+%%%%
+the Mountain Dwarf
+{m}der Bergzwerg
+%%%%
+the Mummy
+{f}die Mumie
+%%%%
+the Naga
+{m}der Naga
+%%%%
+the Octopode
+{m}der Oktopode
+%%%%
+the Ogre
+{m}der Oger
+%%%%
+the Oni
+{m}der Oni
+%%%%
+the Palentonga
+{m}der Palentonga
+%%%%
+the Poltergeist
+{m}der Poltergeist
+%%%%
+the Revenant
+{m}der Wiedergänger
+%%%%
+the Sludge Elf
+{m}der Schlammelf
+%%%%
+the Spriggan
+{m}der Spriggan
+%%%%
+the Tengu
+{m}der Tengu
+%%%%
+the Troll
+{m}der Troll
+%%%%
+the Vampire
+{m}der Vampir
+%%%%
+the Vine Stalker
+{m}der Rebpirscher
+%%%%
+
+##############################################
+# Draconian subspecies
+##############################################
+%%%%
+the Mottled Draconian
+{m}der Fleckige Drakonier
+%%%%
+the Black Draconian
+{m}der Schwarze Drakonier
+%%%%
+the Green Draconian
+{m}der Grüne Drakonier
+%%%%
+the Grey Draconian
+{m}der Graue Drakonier
+%%%%
+the Pale Draconian
+{m}der Helle Drakonier
+%%%%
+the Purple Draconian
+{m}der Purpurne Drakonier
+%%%%
+the Red Draconian
+{m}der Rote Drakonier
+%%%%
+the White Draconian
+{m}der Weiße Drakonier
+%%%%
+the Yellow Draconian
+{m}der Gelbe Drakonier
+%%%%
+
+##############################################
+# Species abbreviations
+##############################################
+
+%%%%
+# Armataur
+At
+At
+%%%%
+# Barachi
+Ba
+Ba
+%%%%
+# Centaur
+Ce
+Ze
+%%%%
+# Coglin
+Co
+Co
+%%%%
+# Deep Dwarf
+DD
+TZ
+%%%%
+# Deep Elf
+DE
+TE
+%%%%
+# Demigod
+Dg
+Hg
+%%%%
+# Demonspawn
+Ds
+Db
+%%%%
+# Djinni
+Dj
+Dj
+%%%%
+# Draconian
+Dr
+Dr
+%%%%
+# Felid
+Fe
+Fe
+%%%%
+# Formicid
+Fo
+Fo
+%%%%
+# Gale centaur
+GC
+Sz
+%%%%
+# Gargoyle
+Gr
+Gr
+%%%%
+# Ghoul
+Gh
+Gh
+%%%%
+# Gnoll
+Gn
+Gn
+%%%%
+# Halfling
+Ha
+Ha
+%%%%
+# Hill Orc
+HO
+HO
+%%%%
+# High Elf
+HE
+He
+%%%%
+# Human
+Hu
+Mn
+%%%%
+# Kobold
+Ko
+Ko
+%%%%
+# Lava Orc
+LO
+LO
+%%%%
+# Mayflytaur
+My
+Et
+%%%%
+# Meteoran
+Me
+Me
+%%%%
+# Mountain Dwarf
+MD
+Bz
+%%%%
+# Merfolk
+Mf
+Mv
+%%%%
+# Minotaur
+Mi
+Mi
+%%%%
+# Mummy
+Mu
+Mu
+%%%%
+# Naga
+Na
+Na
+%%%%
+# Octopode
+Op
+Op
+%%%%
+# Ogre
+Og
+Og
+%%%%
+# Oni
+On
+On
+%%%%
+# Palentonga
+Pa
+Pa
+%%%%
+# Poltergeist
+Po
+Po
+%%%%
+# Revenant
+Re
+Wg
+%%%%
+# Sludge Elf
+SE
+Se
+%%%%
+# Spriggan
+Sp
+Sp
+%%%%
+# Tengu
+Te
+Te
+%%%%
+# Troll
+Tr
+Tr
+%%%%
+# Vampire
+Vp
+Vp
+%%%%
+# Vine Stalker
+VS
+Rp
+%%%%
+
+##############################################
+# Player species-orc hybrids
+##############################################
+
+# When worshipping Beogh, you become a kind of hybrid between your original
+# species and an orc. This mechanism was introduced in v0.32, so doesn't apply
+# to any species removed prior to that.
+
+%%%%
+# Armataur (same as Gale Centaur)
+#the Orcataur
+%%%%
+# Barachi
+the Orcphibian
+{f}die Orkphibie
+%%%%
+# Coglin
+the Exo-Orc
+{m}der Exo-Ork
+%%%%
+# Deep Elf
+the Deep Orc
+{m}der Tiefenork
+%%%%
+# Demigod
+# can't worship Beogh (or any god)
+%%%%
+# Demonspawn
+the Demon Orc
+{m}der Dämonenork
+%%%%
+# Centaur
+the Centorc
+{m}der Zentork
+%%%%
+# Deep Dwarf
+the Deep Dworc
+{m}der Tiefenzwork
+%%%%
+# Ghoul
+the Rotting Orc
+{m}der Faulende Ork
+%%%%
+# Hill Orc
+the Antique Orc
+{m}der Antike Ork
+%%%%
+# Djinni
+the Orcfreeti
+{m}der Orkfrit
+%%%%
+# Draconian
+the Orconian
+{m}der Orkonier
+%%%%
+# Black Draconian
+the Black Orconian
+{m}der Schwarze Orkonier
+%%%%
+# Green Draconian
+the Green Orconian
+{m}der Grüne Orkonier
+%%%%
+# Grey Draconian
+the Grey Orconian
+{m}der Graue Orkonier
+%%%%
+# Pale Draconian
+the Pale Orconian
+{m}der Helle Orkonier
+%%%%
+# Purple Draconian
+the Purple Orconian
+{m}der Purpurne Orkonier
+%%%%
+# Red Draconian
+the Red Orconian
+{m}der Rote Orkonier
+%%%%
+# White Draconian
+the White Orconian
+{m}der Weiße Orkonier
+%%%%
+# Yellow Draconian
+the Yellow Orconian
+{m}der Gelbe Orkonier
+%%%%
+# Felid
+the Orcat
+{f}die Orkatze
+%%%%
+# Formicid
+the Orcmicid
+{m}der Orkacid
+%%%%
+# Gale Centaur
+the Orcataur
+{m}der Orkataur
+%%%%
+# Gargoyle
+the Gargorcle
+{m}der Gargorkle
+%%%%
+# Gnoll
+the Hyenorc
+{m}der Hyänork
+%%%%
+# Human (duplicate of orc genus)
+#the Orc
+%%%%
+# Kobold
+the Orcobold
+{m}der Orkbold
+%%%%
+# Merfolk
+the Merforc
+{m}der Meerork
+%%%%
+# Minotaur
+the Minotorc
+{m}der Minotork
+%%%%
+# Mountain Dwarf
+the Mountain Orc
+{m}der Bergork
+%%%%
+# Mummy
+the Orcish Mummy
+{f}die Orkische Mumie
+%%%%
+# Naga
+the Nagorc
+{m}der Nagork
+%%%%
+# Octopode
+the Orctopode
+{m}der Orktopode
+%%%%
+# Oni
+the Big Orc
+{m}der Große Ork
+%%%%
+# Poltergeist
+the Phantasmorc
+{m}der Phantasmork
+%%%%
+# Revenant
+the Skeletorc
+{m}der Skelettork
+%%%%
+# Spriggan
+the Spriggorc
+{m}der Spriggork
+%%%%
+# Tengu
+the Tengorc
+{m}der Tengork
+%%%%
+# Troll
+the Trorc
+{m}der Trork
+%%%%
+# Vine Stalker
+the Orchid Stalker
+{m}der Orchideepirscher
+%%%%
+# Vampire
+the Orcula
+{m}der Orkula
+%%%%
+
+##############################################
+# Species adjectives
+# (only used in titles)
+##############################################
+%%%%
+Barachian
+Amphibische
+%%%%
+Dwarven
+Zwergische
+%%%%
+Elven
+Elfische
+%%%%
+Divine
+Göttliche
+%%%%
+Demonic
+Dämonische
+%%%%
+Feline
+Katzenartige
+%%%%
+# Gale Centaur
+Equine
+Pferdeartige
+%%%%
+Ghoulish
+Ghulische
+%%%%
+Merfolkian
+Meervölkische
+%%%%
+Octopoid
+Achtfüßige
+%%%%
+Ogreish
+Ogerische
+%%%%
+# Poltergeist
+Ghostly
+Spukhafte
+%%%%
+Trollish
+Trollische
+%%%%
+Vampiric
+Vampirische
+%%%%
+Orcish
+Orkische
+%%%%
+
+# English adjective is same as the noun, so context required
+%%%%
+# this one same as plural noun
+{adj-e}Djinn
+Magische
+%%%%
+{adj-e}Draconian
+Drakonische
+%%%%
+{adj-e}Formicid
+Insektoide
+%%%%
+{adj-e}Gargoyle
+Gargylische
+%%%%
+{adj-e}Gnoll
+Gnollische
+%%%%
+{adj-e}Human
+Menschliche
+%%%%
+{adj-e}Kobold
+Koboldische
+%%%%
+{adj-e}Minotaur
+Minotaurische
+%%%%
+{adj-e}Mummy
+Untote
+%%%%
+{adj-e}Naga
+Schlängelnde
+%%%%
+{adj-e}Palentonga
+Geschuppte
+%%%%
+{adj-e}Spriggan
+Leichtfüßige
+%%%%
+{adj-e}Tengu
+Fliegende
+%%%%
+{adj-e}Vine Stalker
+Pirschende
+%%%%
+
+##############################################
+# Species walking type (used in titles)
+##############################################
+%%%%
+# Default
+Walker
+Wanderer
+%%%%
+# Barachi (frog-like)
+Hopper
+Hüpfer
+%%%%
+# Djinni
+Floater
+Schweber
+%%%%
+# Gale Centaur
+Trotter
+Trotter
+%%%%
+# Naga (snake-like)
+Slitherer
+Kriecher
+%%%%
+# Octopode (octopus-like)
+Wriggler
+Schlängler
+%%%%
+# Spriggan
+Sprinter
+Sprinter
+%%%%
+# Tengu (bird-like)
+Glider
+Gleiter
+%%%%
+# Vine Stalker
+Stalker
+Pirscher
+%%%%
+
+%%%%
+Walking
+Wandernde
+%%%%
+Hopping
+Hüpfende
+%%%%
+Floating
+Schwebende
+%%%%
+Trotting
+Trottende
+%%%%
+Slithering
+Kriechende
+%%%%
+Wriggling
+Schlängelnde
+%%%%
+Sprinting
+Sprintende
+%%%%
+Gliding
+Gleitende
+%%%%
+Stalking
+Pirschende
+%%%%

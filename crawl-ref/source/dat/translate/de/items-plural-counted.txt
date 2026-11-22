@@ -1,0 +1,361 @@
+###############################################################################
+#
+# Items - plural, counted, nominative
+#
+###############################################################################
+
+%%%%
+@num@ items
+{pl}@num@ Gegenstände
+%%%%
+
+# Note: Counted plurals are only needed for items that stack (missiles, scrolls, potions, gold pieces).
+# Wands meld rather than stack.
+
+#################################
+# Melee Weapons
+#################################
+
+#################################
+# Launchers
+#################################
+
+#################################
+# Missiles
+#################################
+
+%%%%
+@num@ arrows
+{pl}@num@ Pfeile
+%%%%
+@num@ bolts
+{pl}@num@ Bolzen
+%%%%
+# fired by artefact crossbow "Damnation"
+@num@ damnation bolts
+{pl}@num@ Verdammnisbolzen
+%%%%
+@num@ darts
+{pl}@num@ Wurfpfeile
+%%%%
+@num@ poisoned darts
+{pl}@num@ vergiftete Wurfpfeile
+%%%%
+@num@ curare-tipped darts
+{pl}@num@ Curare-Wurfpfeile
+%%%%
+@num@ atropa-tipped darts
+{pl}@num@ Atropa-Wurfpfeile
+%%%%
+@num@ datura-tipped darts
+{pl}@num@ Datura-Wurfpfeile
+%%%%
+@num@ darts of disjunction
+{pl}@num@ Wurfpfeile der Disjunktion
+%%%%
+# old name for dart of disjunction (can still appear in high scores list)
+@num@ darts of dispersal
+{pl}@num@ Wurfpfeile der Zerstreuung
+%%%%
+@num@ stones
+{pl}@num@ Steine
+%%%%
+@num@ large rocks
+{pl}@num@ große Felsbrocken
+%%%%
+@num@ sling bullets
+{pl}@num@ Schleuderkugeln
+%%%%
+@num@ javelins
+{pl}@num@ Wurfspeere
+%%%%
+@num@ silver javelins
+{pl}@num@ Silberwurfspeere
+%%%%
+@num@ throwing nets
+{pl}@num@ Wurfnetze
+%%%%
+@num@ boomerangs
+{pl}@num@ Bumerangs
+%%%%
+@num@ silver boomerangs
+{pl}@num@ Silberbumerangs
+%%%%
+
+#################################
+# Armour
+#################################
+
+#################################
+# Rings
+#################################
+
+#################################
+# Amulets
+#################################
+
+#################################
+# Wands
+#################################
+
+#################################
+# Scrolls
+#################################
+
+# generic
+%%%%
+@num@ scrolls
+{pl}@num@ Schriftrollen
+%%%%
+
+# unidentified
+%%%%
+@num@ scrolls labelled @arg@
+{pl}@num@ Schriftrollen beschriftet mit @arg@
+%%%%
+
+# identified
+%%%%
+@num@ scrolls of acquirement
+{pl}@num@ Schriftrollen der Erwerbung
+%%%%
+@num@ scrolls of amnesia
+{pl}@num@ Schriftrollen der Amnesie
+%%%%
+@num@ scrolls of blinking
+{pl}@num@ Schriftrollen des Blinzelns
+%%%%
+@num@ scrolls of brand weapon
+{pl}@num@ Schriftrollen der Waffenprägung
+%%%%
+@num@ scrolls of butterflies
+{pl}@num@ Schriftrollen der Schmetterlinge
+%%%%
+@num@ scrolls of enchant armour
+{pl}@num@ Schriftrollen der Rüstungsverzauberung
+%%%%
+@num@ scrolls of enchant weapon
+{pl}@num@ Schriftrollen der Waffenverzauberung
+%%%%
+@num@ scrolls of fear
+{pl}@num@ Schriftrollen der Angst
+%%%%
+@num@ scrolls of fog
+{pl}@num@ Schriftrollen des Nebels
+%%%%
+@num@ scrolls of holy word
+{pl}@num@ Schriftrollen des heiligen Wortes
+%%%%
+@num@ scrolls of identify
+{pl}@num@ Schriftrollen der Identifizierung
+%%%%
+@num@ scrolls of immolation
+{pl}@num@ Schriftrollen des Entflammens
+%%%%
+@num@ scrolls of noise
+{pl}@num@ Schriftrollen des Lärms
+%%%%
+@num@ scrolls of poison
+{pl}@num@ Schriftrollen des Giftes
+%%%%
+@num@ scrolls of remove curse
+{pl}@num@ Schriftrollen des Fluchaufhebens
+%%%%
+@num@ scrolls of revelation
+{pl}@num@ Schriftrollen der Offenbarung
+%%%%
+@num@ scrolls of silence
+{pl}@num@ Schriftrollen der Stille
+%%%%
+@num@ scrolls of summoning
+{pl}@num@ Schriftrollen der Beschwörung
+%%%%
+@num@ scrolls of teleportation
+{pl}@num@ Schriftrollen der Teleportation
+%%%%
+@num@ scrolls of torment
+{pl}@num@ Schriftrollen der Peinigung
+%%%%
+@num@ scrolls of vulnerability
+{pl}@num@ Schriftrollen der Vulnerabilität
+%%%%
+# obsolete items (can occur if player loads a saved game from an older version)
+@num@ scrolls of removedness
+{pl}@num@ Schriftrollen der Obsoleszenz
+%%%%
+
+#################################
+# Potions
+#################################
+
+# generic
+%%%%
+@num@ potions
+{pl}@num@ Zaubertränke
+%%%%
+
+# identified
+%%%%
+@num@ potions of ambrosia
+{pl}@num@ Tränke der Ambrosia
+%%%%
+@num@ potions of attraction
+{pl}@num@ Tränke der Anziehung
+%%%%
+@num@ potions of berserk rage
+{pl}@num@ Tränke der Berserkerwut
+%%%%
+@num@ potions of brilliance
+{pl}@num@ Tränke der Brillanz
+%%%%
+@num@ potions of cancellation
+{pl}@num@ Tränke der Aufhebung
+%%%%
+@num@ potions of curing
+{pl}@num@ Tränke des Gegenmittels
+%%%%
+@num@ potions of degeneration
+{pl}@num@ Tränke der Degeneration
+%%%%
+@num@ potions of enlightenment
+{pl}@num@ Tränke der Erleuchtung
+%%%%
+@num@ potions of experience
+{pl}@num@ Tränke der Erfahrung
+%%%%
+@num@ potions of flight
+{pl}@num@ Tränke des Fliegens
+%%%%
+@num@ potions of haste
+{pl}@num@ Tränke der Eile
+%%%%
+@num@ potions of heal wounds
+{pl}@num@ Tränke der Wundheilung
+%%%%
+@num@ potions of invisibility
+{pl}@num@ Tränke der Unsichtbarkeit
+%%%%
+@num@ potions of lignification
+{pl}@num@ Tränke der Lignifizierung
+%%%%
+@num@ potions of magic
+{pl}@num@ Tränke der Magie
+%%%%
+@num@ potions of might
+{pl}@num@ Tränke der Macht
+%%%%
+@num@ potions of mist
+{pl}@num@ Tränke des Nebels
+%%%%
+@num@ potions of moonshine
+{pl}@num@ Tränke des Fusels
+%%%%
+@num@ potions of mutation
+{pl}@num@ Tränke der Mutation
+%%%%
+@num@ potions of resistance
+{pl}@num@ Tränke der Resistenz
+%%%%
+
+# unidentified potions can have 1 or 2 adjectives
+# the adjective closest to the noun is a colour
+
+%%%%
+@num@ amethyst potions
+{pl}@num@ amethystfarbene Zaubertränke
+%%%%
+@num@ black potions
+{pl}@num@ schwarze Zaubertränke
+%%%%
+@num@ blue potions
+{pl}@num@ blaue Zaubertränke
+%%%%
+@num@ brown potions
+{pl}@num@ braune Zaubertränke
+%%%%
+@num@ coppery potions
+{pl}@num@ kupferfarbene Zaubertränke
+%%%%
+@num@ cyan potions
+{pl}@num@ blaugrüne Zaubertränke
+%%%%
+@num@ dark potions
+{pl}@num@ dunkle Zaubertränke
+%%%%
+@num@ emerald potions
+{pl}@num@ smaragdgrüne Zaubertränke
+%%%%
+@num@ golden potions
+{pl}@num@ goldene Zaubertränke
+%%%%
+@num@ green potions
+{pl}@num@ grüne Zaubertränke
+%%%%
+@num@ grey potions
+{pl}@num@ graue Zaubertränke
+%%%%
+@num@ inky potions
+{pl}@num@ tintenschwarze Zaubertränke
+%%%%
+@num@ orange potions
+{pl}@num@ orange Zaubertränke
+%%%%
+@num@ pink potions
+{pl}@num@ rosa Zaubertränke
+%%%%
+@num@ puce potions
+{pl}@num@ braunrote Zaubertränke
+%%%%
+@num@ purple potions
+{pl}@num@ purpurrote Zaubertränke
+%%%%
+@num@ red potions
+{pl}@num@ rote Zaubertränke
+%%%%
+@num@ ruby potions
+{pl}@num@ rubinrote Zaubertränke
+%%%%
+@num@ sapphire potions
+{pl}@num@ saphirblaue Zaubertränke
+%%%%
+@num@ silvery potions
+{pl}@num@ silberne Zaubertränke
+%%%%
+@num@ white potions
+{pl}@num@ weiße Zaubertränke
+%%%%
+@num@ yellow potions
+{pl}@num@ gelbe Zaubertränke
+%%%%
+
+#################################
+# Magical Staves
+#################################
+
+#################################
+# Baubles
+#################################
+
+%%%%
+@num@ flux baubles
+{pl}@num@ Flux-Perlen
+%%%%
+@num@ centipede baubles
+{pl}@num@ Tausendfüßerperlen
+%%%%
+
+#################################
+# Corpses
+#################################
+
+#################################
+# Miscellaneous Items
+#################################
+
+#################################
+# Gold
+#################################
+%%%%
+@num@ gold pieces
+{pl}@num@ Goldmünzen
+%%%%

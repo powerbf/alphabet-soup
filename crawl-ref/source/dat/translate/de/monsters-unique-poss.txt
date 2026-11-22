@@ -1,0 +1,347 @@
+###############################################################################
+#
+# Monsters - unique - translation for English possessive
+#
+###############################################################################
+
+%%%%
+Agnes's
+von Agnes
+%%%%
+Aizul's
+von Aizul
+%%%%
+Amaemon's
+von Amaemon
+%%%%
+Antaeus's
+von Antaeus
+%%%%
+Arachne's
+von Arachne
+%%%%
+Asmodeus's
+von Asmodäus
+%%%%
+Asterion's
+von Asterion
+%%%%
+Azrael's
+von Azrael
+%%%%
+Bai Suzhen's
+von Bai Suzhen
+%%%%
+Blork's
+von Blork
+%%%%
+Blork the orc's
+von Blork dem Ork
+%%%%
+Blorkula's
+von Blorkula
+%%%%
+Blorkula the Orcula's
+von Blorkula dem Orkula
+%%%%
+Boris's
+von Boris
+%%%%
+Cassandra's
+von Cassandra
+%%%%
+Cerebov's
+von Cerebov
+%%%%
+Chuck's
+von Chuck
+%%%%
+Cigotuvi's Monster's
+von Cigotuvis Monster
+%%%%
+Crazy Yiuf's
+vom Verrückten Yiuf
+%%%%
+Dispater's
+von Dispater
+%%%%
+Dissolution's
+von Dissolution
+%%%%
+Donald's
+von Donald
+%%%%
+Dowan's
+von Dowan
+%%%%
+Duvessa's
+von Duvessa
+%%%%
+Edmund's
+von Edmund
+%%%%
+Ereshkigal's
+von Ereshkigal
+%%%%
+Erica's
+von Erica
+%%%%
+Erolcha's
+von Erolcha
+%%%%
+Eustachio's
+von Eustachio
+%%%%
+Fannar's
+von Fannar
+%%%%
+Frances's
+von Frances
+%%%%
+Frederick's
+von Frederick
+%%%%
+Gastronok's
+von Gastronok
+%%%%
+Geryon's
+von Geryon
+%%%%
+Gloorx Vloq's
+von Gloorx Vloq
+%%%%
+Goji's
+von Goji
+%%%%
+Grinder's
+von Grinder
+%%%%
+Grum's
+von Grum
+%%%%
+Grunn's
+von Grunn
+%%%%
+Harold's
+von Harold
+%%%%
+Ignacio's
+von Ignacio
+%%%%
+Ijyb's
+von Ijyb
+%%%%
+Ilsuiw's
+von Ilsuiw
+%%%%
+Jeremiah's
+von Jeremiah
+%%%%
+Jessica's
+von Jessica
+%%%%
+Jorgrun's
+von Jorgrun
+%%%%
+Jory's
+von Jory
+%%%%
+Joseph's
+von Joseph
+%%%%
+Josephina's
+von Josephina
+%%%%
+Josephine's
+von Josephine
+%%%%
+Khufu's
+von Khufu
+%%%%
+Kirke's
+von Kirke
+%%%%
+Lodul's
+von Lodul
+%%%%
+Lom Lobon's
+von Lom Lobon
+%%%%
+Louise's
+von Louise
+%%%%
+Maggie's
+von Maggie
+%%%%
+Mara's
+von Mara
+%%%%
+Margery's
+von Margery
+%%%%
+Maurice's
+von Maurice
+%%%%
+Menkaure's
+von Menkaure
+%%%%
+Mennas's
+von Mennas
+%%%%
+Mlioglotl's
+von Mlioglotl
+%%%%
+Mnoleg's
+von Mnoleg
+%%%%
+Murray's
+von Murray
+%%%%
+Natasha's
+von Natascha
+%%%%
+Nellie's
+von Nellie
+%%%%
+Nergalle's
+von Nergalle
+%%%%
+Nessos's
+von Nessos
+%%%%
+Nikola's
+von Nikola
+%%%%
+Nobody's
+von Niemand
+%%%%
+Norris's
+von Norris
+%%%%
+Parghit's
+von Parghit
+%%%%
+Pargi's
+von Pargi
+%%%%
+Pikel's
+von Pikel
+%%%%
+Polyphemus's
+von Polyphem
+%%%%
+Prince Ribbit's
+von Prinz Quak
+%%%%
+Psyche's
+von Psyche
+%%%%
+Purgy's
+von Purgy
+%%%%
+Robin's
+von Robin
+%%%%
+Roxanne's
+von Roxanne
+%%%%
+Rupert's
+von Rupert
+%%%%
+Saint Roka's
+von Sankt Roka
+%%%%
+Sigmund's
+von Sigmund
+%%%%
+Snorg's
+von Snorg
+%%%%
+Sojobo's
+von Sojobo
+%%%%
+Sonja's
+von Sonja
+%%%%
+Sprozz's
+von Sprozz
+%%%%
+Terence's
+von Terence
+%%%%
+Tiamat's
+von Tiamat
+%%%%
+Urug's
+von Urug
+%%%%
+Vashnia's
+von Vashnia
+%%%%
+Vv's
+von Vv
+%%%%
+Wiglaf's
+von Wiglaf
+%%%%
+Xak'krixis's
+von Xak'krixis
+%%%%
+Xtahua's
+von Xtahua
+%%%%
+Zenata's
+von Zenata
+%%%%
+
+# these ones normally appear with the definite article...
+
+%%%%
+the Enchantress's
+{f}der Zauberin
+%%%%
+the Head Instructor's
+{m}des Lehrmeisters
+%%%%
+the Lernaean hydra's
+{f}der Lernäischen Hydra
+%%%%
+the Royal Jelly's
+{n}des Gelée Royale
+%%%%
+the Serpent of Hell's
+{f}der Höllenschlange
+%%%%
+the Statue of Wucad Mu's
+{f}der Statue von Wucad Mu
+%%%%
+
+# not really uniques, but gramatically similar
+
+%%%%
+@player_name@'s ghost's
+{m}des Geistes von @player_name@
+%%%%
+@player_name@'s illusion's
+{f}der Illusion von @player_name@
+%%%%
+
+# these meatsprint monsters appear with capitalised "The"
+
+%%%%
+# note: Must distinguish from fleshlords (in German, flesh and meat are both Fleisch)
+The Meatlord's
+des Schlachtmeisters
+%%%%
+The Servant's
+des Dieners
+%%%%
+The Captor's
+des Fängers
+%%%%
+The Defiler's
+des Schänders
+%%%%
+The Unspeakable's
+des Unsäglichen
+%%%%

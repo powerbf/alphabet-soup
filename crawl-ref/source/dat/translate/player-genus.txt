@@ -1,0 +1,177 @@
+###############################################################################
+#
+# Player genus
+#
+###############################################################################
+
+##############################################
+# Player genus singular (used in some player titles)
+# NOTE: If not listed then species is used
+##############################################
+%%%%
+# Barachi
+the Frog
+
+%%%%
+# Coglin
+the Goblin
+
+%%%%
+# Deep/Mountain Dwarf
+the Dwarf
+
+%%%%
+# Deep/Sludge/High Elf
+the Elf
+
+%%%%
+# Demigod (Genus is "Demigod", but Genus_Short is "God")
+the God
+
+%%%%
+# Felid
+the Cat
+
+%%%%
+# Formicid
+the Ant
+
+%%%%
+# Octopode
+the Octopus
+
+%%%%
+# Poltergeist
+the Geist
+
+%%%%
+# Hill Orc
+the Orc
+
+%%%%
+
+##############################################
+# Player genus plural
+##############################################
+
+# The parameter @player_genus_plural@ is included in some messages in
+# monspeak.txt and wpnnoise.txt. Species is used for genus in many cases.
+
+%%%%
+# Barachi
+Frogs
+
+%%%%
+# Coglin
+Goblins
+
+%%%%
+# Deep/Mountain Dwarf
+Dwarves
+
+%%%%
+# Deep/Sludge/High Elf
+Elves
+
+%%%%
+# Demigod (Genus is "Demigod", but Genus_Short is "God")
+Gods
+
+%%%%
+# Felid
+Cats
+
+%%%%
+# Formicid
+Ants
+
+%%%%
+# Gale Centaur
+Centaurs
+
+%%%%
+# Octopode
+Octopi
+
+%%%%
+# Poltergeist
+Geists
+
+%%%%
+# Hill Orc
+Orcs
+
+%%%%
+
+# These ones use species as genus
+%%%%
+Demigods
+
+%%%%
+# English plural same as singular
+{pl}Demonspawn
+
+%%%%
+Djinn
+
+%%%%
+# used for draconians of all colours
+Draconians
+
+%%%%
+Gargoyles
+
+%%%%
+Ghouls
+
+%%%%
+Gnolls
+
+%%%%
+Humans
+
+%%%%
+Kobolds
+
+%%%%
+# English plural same as singular
+{pl}Merfolk
+
+%%%%
+Minotaurs
+
+%%%%
+Mummies
+
+%%%%
+Nagas
+
+%%%%
+Ogres
+
+%%%%
+Onis
+
+%%%%
+Palentongas
+
+%%%%
+Revenants
+
+%%%%
+Spriggans
+
+%%%%
+# English plural same as singular
+{pl}Tengu
+
+%%%%
+Trolls
+
+%%%%
+Vampires
+
+%%%%
+Vine Stalkers
+
+%%%%

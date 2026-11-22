@@ -1,0 +1,428 @@
+###############################################################################
+#
+# Translations for item suffixes
+#
+###############################################################################
+
+#################################
+# General
+#################################
+
+# protection from fire and fire resistance are equivalent
+# the former name is used on rings and the latter on armour
+%%%%
+@item@ of protection from fire
+@item@ der Feuerresistenz
+%%%%
+@item@ of fire resistance
+@item@ der Feuerresistenz
+%%%%
+
+# protection from cold and cold resistance are equivalent
+# the former name is used on rings and the latter on armour
+%%%%
+@item@ of protection from cold
+@item@ der Kälteresistenz
+%%%%
+@item@ of cold resistance
+@item@ der Kälteresistenz
+%%%%
+
+# these are equivalent
+# the former name is used on rings and the latter on armour
+%%%%
+@item@ of resist corrosion
+@item@ der Korrosionsresistenz
+%%%%
+@item@ of corrosion resistance
+@item@ der Korrosionsresistenz
+%%%%
+
+%%%%
+# grants more AC
+@item@ of protection
+@item@ des Schutzes
+%%%%
+# grants both fire and cold resistance
+@item@ of resistance
+@item@ der Resistanz
+%%%%
+@item@ of poison resistance
+@item@ der Giftresistenz
+%%%%
+# negative energy resistance
+@item@ of positive energy
+@item@ positiver Energie
+%%%%
+@item@ of strength
+@item@ der Stärke
+%%%%
+@item@ of dexterity
+@item@ der Geschicklichkeit
+%%%%
+@item@ of intelligence
+@item@ der Intelligenz
+%%%%
+@item@ of slaying
+@item@ des Tötens
+%%%%
+@item@ of see invisible
+@item@ des Sehens von Unsichtbarem
+%%%%
+@item@ of evasion
+@item@ des Ausweichens
+%%%%
+@item@ of wizardry
+@item@ der Zauberei
+%%%%
+@item@ of magical power
+@item@ magischer Kraft
+%%%%
+@item@ of flight
+@item@ des Fliegens
+%%%%
+@item@ of willpower
+@item@ der Willenskraft
+%%%%
+@item@ of fire
+@item@ des Feuers
+%%%%
+@item@ of ice
+@item@ des Eises
+%%%%
+@item@ of regeneration
+@item@ der Regeneration
+%%%%
+@item@ of magic regeneration
+@item@ der Magieregeneration
+%%%%
+@item@ of the acrobat
+@item@ des Akrobaten
+%%%%
+# base type of some artefact amulets
+@item@ of nothing
+@item@ des Nichts
+%%%%
+@item@ of guardian spirit
+@item@ des Geistschildes
+%%%%
+@item@ of faith
+@item@ des Glaubens
+%%%%
+@item@ of reflection
+@item@ der Reflexion
+%%%%
+@item@ of acid
+@item@ der Säure
+%%%%
+@item@ of chaos
+@item@ des Chaos
+%%%%
+@item@ of distortion
+@item@ der Verzerrung
+%%%%
+@item@ of draining
+@item@ der Auszehrung
+%%%%
+@item@ of electrocution
+@item@ des Stromschlags
+%%%%
+@item@ of flaming
+@item@ des Flammens
+%%%%
+@item@ of flame
+@item@ der Flamme
+%%%%
+@item@ of freezing
+@item@ des Einfrierens
+%%%%
+@item@ of holy wrath
+@item@ des heiligen Zorns
+%%%%
+@item@ of pain
+@item@ des Schmerzes
+%%%%
+@item@ of penetration
+@item@ der Penetration
+%%%%
+@item@ of speed
+@item@ der Hast
+%%%%
+@item@ of venom
+@item@ des Giftes
+%%%%
+@item@ of speedy slithering
+@item@ des schnellen Rutschens
+%%%%
+@item@ of running
+@item@ des Laufens
+%%%%
+@item@ of invisibility
+@item@ der Unsichtbarkeit
+%%%%
+@item@ of ponderousness
+@item@ der Trägheit
+%%%%
+@item@ of flying
+@item@ des Fliegens
+%%%%
+@item@ of the Archmagi
+@item@ der Erzmagier
+%%%%
+@item@ of spirit shield
+@item@ des Geistschildes
+%%%%
+@item@ of archery
+@item@ der Schießkunst
+%%%%
+@item@ of repulsion
+@item@ der Abstoßung
+%%%%
+@item@ of harm
+@item@ des Schadens
+%%%%
+@item@ of shadows
+@item@ der Schatten
+%%%%
+@item@ of rampaging
+@item@ des Randelierens
+%%%%
+# only on artefact Sword of Zonguldrok
+@item@ of reaping
+@item@ des Erntens
+%%%%
+# only on artefact lance Wyrmbane
+@item@ of dragon slaying
+@item@ der Drachentötung
+%%%%
+@item@ of rebuke
+@item@ des Rügens
+%%%%
+@item@ of valour
+@item@ des Mutes
+%%%%
+@item@ of entangling
+@item@ der Umschlingung
+%%%%
+@item@ of sundering
+@item@ des Spaltens
+%%%%
+@item@ of concussion
+@item@ der Erschütterung
+%%%%
+@item@ of weakness
+@item@ der Schwäche
+%%%%
+@item@ of vulnerability
+@item@ der Vulnerabilität
+%%%%
+@item@ of foul flame
+@item@ der fauligen Flamme
+%%%%
+@item@ of hurling
+@item@ des Werfens
+%%%%
+@item@ of infusion
+@item@ der Infusion
+%%%%
+@item@ of light
+@item@ des Lichts
+%%%%
+@item@ of wrath
+@item@ des Zorns
+%%%%
+@item@ of mayhem
+@item@ der Hektik
+%%%%
+@item@ of guile
+@item@ der List
+%%%%
+@item@ of energy
+@item@ der Energie
+%%%%
+@item@ of sniping
+@item@ des Scharfschießens
+%%%%
+@item@ of air
+@item@ der Luft
+%%%%
+@item@ of earth
+@item@ der Erde
+%%%%
+@item@ of command
+@item@ des Kommandos
+%%%%
+@item@ of death
+@item@ des Todes
+%%%%
+@item@ of resonance
+@item@ der Resonanz
+%%%%
+@item@ of parrying
+@item@ des Parierens
+%%%%
+@item@ of glass
+@item@ des Glases
+%%%%
+@item@ of pyromania
+@item@ der Pyromanie
+%%%%
+@item@ of stardust
+@item@ des Sternenstaubs
+%%%%
+@item@ of mesmerism
+@item@ des Mesmerismus
+%%%%
+@item@ of attunement
+@item@ der Einstimmung
+%%%%
+@item@ of wildshape
+@item@ der Wildgestalt
+%%%%
+@item@ of chemistry
+@item@ der Chemie
+%%%%
+@item@ of dissipation
+@item@ der Ableitung
+%%%%
+
+#################################
+# Artefact name suffixes
+#################################
+%%%%
+@item@ of Zot
+@item@ von Zot
+%%%%
+@item@ of the Moon
+@item@ des Mondes
+%%%%
+@item@ of plog
+@item@ von Plog
+%%%%
+@item@ of Dice, Bag, and Bottle
+@item@ von Würfel, Beutel und Flasche
+%%%%
+
+# generic fallbacks
+%%%%
+@item@ of the @arg@
+@item@ vom @arg@
+%%%%
+@item@ of @arg@
+@item@ von @arg@
+%%%%
+@item@ "@name@"
+@item@ "@name@"
+%%%%
+
+#################################
+# Manual suffixes
+#################################
+# note: these names should match the skill names
+%%%%
+@item@ of fighting
+@item@ des Kämpfens
+%%%%
+@item@ of short blades
+@item@ der Kurzklingen
+%%%%
+@item@ of long blades
+@item@ der Langklingen
+%%%%
+@item@ of axes
+@item@ der Äxte
+%%%%
+@item@ of maces & flails
+@item@ der Keulen & Flegel
+%%%%
+@item@ of polearms
+@item@ der Stangenwaffen
+%%%%
+@item@ of staves
+@item@ der Stäbe
+%%%%
+@item@ of slings
+@item@ der Schleudern
+%%%%
+@item@ of bows
+@item@ der Bögen
+%%%%
+@item@ of crossbows
+@item@ der Armbrüste
+%%%%
+@item@ of throwing
+@item@ des Werfens
+%%%%
+@item@ of armour
+@item@ der Rüstung
+%%%%
+@item@ of dodging
+@item@ des Ausweichens
+%%%%
+# also used on items that increase stealth
+@item@ of stealth
+@item@ der Heimlichkeit
+%%%%
+@item@ of shields
+@item@ der Schilde
+%%%%
+@item@ of unarmed combat
+@item@ des unbewaffneten Kampfes
+%%%%
+@item@ of evocations
+@item@ der Evokation
+%%%%
+@item@ of invocations
+@item@ der Anrufung
+%%%%
+@item@ of spellcasting
+@item@ des Zauberns
+%%%%
+@item@ of necromancy
+@item@ der Nekromantie
+%%%%
+@item@ of conjurations
+@item@ der Konjurationen
+%%%%
+@item@ of hexes
+@item@ der Verhexungen
+%%%%
+@item@ of charms
+@item@ der Bannzauber
+%%%%
+@item@ of summonings
+@item@ der Beschwörungen
+%%%%
+@item@ of translocations
+@item@ der Translokationen
+%%%%
+@item@ of transmutations
+@item@ der Verwandlungen
+%%%%
+@item@ of fire magic
+@item@ der Feuermagie
+%%%%
+@item@ of ice magic
+@item@ der Eismagie
+%%%%
+@item@ of air magic
+@item@ der Luftmagie
+%%%%
+@item@ of earth magic
+@item@ der Erdmagie
+%%%%
+@item@ of poison magic
+@item@ der Giftmagie
+%%%%
+
+#################################
+# Obsolete items
+#################################
+# these can occur if player loads a savegame from an earlier version of the game
+%%%%
+@item@ of obsoleteness
+@item@ der Obsoleszenz
+%%%%
+@item@ of removedness
+@item@ der Obsoleszenz
+%%%%

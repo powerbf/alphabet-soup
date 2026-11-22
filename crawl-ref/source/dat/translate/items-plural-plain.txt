@@ -1,0 +1,274 @@
+###############################################################################
+#
+# Items - plural, plain, nominative
+#
+###############################################################################
+
+#################################
+# Melee Weapons
+#################################
+
+#################################
+# Launchers
+#################################
+
+#################################
+# Missiles
+#################################
+
+# auto-generated from counted plural by grammar.txt
+
+#################################
+# Armour
+#################################
+
+#################################
+# Rings
+#################################
+
+# generic
+%%%%
+rings
+
+%%%%
+
+#################################
+# Amulets
+#################################
+
+# generic
+%%%%
+amulets
+
+%%%%
+
+#################################
+# Wands
+#################################
+
+# generic
+%%%%
+wands
+
+%%%%
+
+# identified
+%%%%
+wands of flame
+
+%%%%
+wands of paralysis
+
+%%%%
+wands of digging
+
+%%%%
+wands of iceblast
+
+%%%%
+wands of polymorph
+
+%%%%
+wands of charming
+
+%%%%
+wands of acid
+
+%%%%
+wands of mindburst
+
+%%%%
+wands of light
+
+%%%%
+wands of quicksilver
+
+%%%%
+wands of roots
+
+%%%%
+wands of warping
+
+%%%%
+
+#################################
+# Scrolls
+#################################
+
+# auto-generated from counted plural by grammar.txt
+
+#################################
+# Potions
+#################################
+
+# auto-generated from counted plural by grammar.txt
+
+#################################
+# Magical Staves
+#################################
+
+# generic
+%%%%
+staves
+
+%%%%
+
+# identified
+%%%%
+staves of earth
+
+%%%%
+staves of air
+
+%%%%
+staves of fire
+
+%%%%
+staves of cold
+
+%%%%
+staves of conjuration
+
+%%%%
+staves of death
+
+%%%%
+staves of poison
+
+%%%%
+staves of alchemy
+
+%%%%
+staves of necromancy
+
+%%%%
+
+#################################
+# Talismans
+#################################
+
+%%%%
+quill talismans
+
+%%%%
+inkwell talismans
+
+%%%%
+protean talismans
+
+%%%%
+rimehorn talismans
+
+%%%%
+spider talismans
+
+%%%%
+wellspring talismans
+
+%%%%
+scarab talismans
+
+%%%%
+medusa talismans
+
+%%%%
+spore talismans
+
+%%%%
+maw talismans
+
+%%%%
+serpent talismans
+
+%%%%
+eel talismans
+
+%%%%
+blade talismans
+
+%%%%
+lupine talismans
+
+%%%%
+fortress talismans
+
+%%%%
+granite talismans
+
+%%%%
+hive talismans
+
+%%%%
+dragon-coil talismans
+
+%%%%
+riddle talismans
+
+%%%%
+sanguine talismans
+
+%%%%
+talismans of death
+
+%%%%
+storm talismans
+
+%%%%
+vision talismans
+
+%%%%
+gecko talismans
+
+%%%%
+mist talismans
+
+%%%%
+jade talismans
+
+%%%%
+
+#################################
+# Corpses
+#################################
+
+#################################
+# Miscellaneous Items
+#################################
+
+%%%%
+boxes of beasts
+
+%%%%
+lightning rods
+
+%%%%
+phials of floods
+
+%%%%
+phantom mirrors
+
+%%%%
+figurines of a ziggurat
+
+%%%%
+condenser vanes
+
+%%%%
+pieces from Xom's chessboard
+
+%%%%
+tins of tremorstones
+
+%%%%
+sacks of spiders
+
+%%%%
+Gell's gravitambourines
+
+%%%%
+shop vouchers
+
+%%%%
+quad damages
+
+%%%%

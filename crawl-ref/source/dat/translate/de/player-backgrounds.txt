@@ -1,0 +1,497 @@
+###############################################################################
+#
+# Player background (aka job)
+#
+###############################################################################
+
+##############################################
+# Full background
+##############################################
+
+%%%%
+the Abyssal Knight
+{m}der Abgrundritter
+%%%%
+the Air Elementalist
+{m}der Luftmagier
+%%%%
+the Alchemist
+{m}der Alchemist
+%%%%
+the Arcane Marksman
+{m}der Arkane Schütze
+%%%%
+the Artificer
+{m}der Artifizient
+%%%%
+the Berserker
+{m}der Berserker
+%%%%
+the Brigand
+{m}der Brigant
+%%%%
+the Chaos Knight
+{m}der Chaosritter
+%%%%
+the Cinder Acolyte
+{m}der Aschenakolyth
+%%%%
+the Conjurer
+{m}der Konjurant
+%%%%
+the Delver
+{m}der Forscher
+%%%%
+the Earth Elementalist
+{m}der Erdmagier
+%%%%
+the Enchanter
+{m}der Verzauberer
+%%%%
+the Fighter
+{m}der Kämpfer
+%%%%
+the Fire Elementalist
+{m}der Feuermagier
+%%%%
+the Forgewright
+{m}der Magieschmied
+%%%%
+the Gladiator
+{m}der Gladiator
+%%%%
+the Hedge Wizard
+{m}der Heckenzauberer
+%%%%
+the Hexslinger
+{m}der Bannschütze
+%%%%
+the Hunter
+{m}der Jäger
+%%%%
+the Ice Elementalist
+{m}der Eismagier
+%%%%
+the Monk
+{m}der Mönch
+%%%%
+the Mystic
+{m}der Mystiker
+%%%%
+the Necromancer
+{m}der Nekromant
+%%%%
+the Reaver
+{m}der Plünderer
+%%%%
+the Shapeshifter
+{m}der Gestaltwandler
+%%%%
+the Stalker
+{m}der Pirscher
+%%%%
+the Summoner
+{m}der Beschwörer
+%%%%
+the Transmuter
+{m}der Verwandler
+%%%%
+the Venom Mage
+{m}der Giftmagier
+%%%%
+the Wanderer
+{m}der Wanderer
+%%%%
+the Warper
+{m}der Warper
+%%%%
+# old name for Hedge Wizard
+the Wizard
+{m}der Zauberer
+%%%%
+
+##############################################
+# player character combo
+# "the <species> <background>"
+# (as in "Welcome, Bob the Minotaur Berserker")
+##############################################
+
+%%%%
+the @species@ Abyssal Knight
+{m}der @species@ Abgrundritter
+%%%%
+the @species@ Air Elementalist
+{m}der @species@ Luftmagier
+%%%%
+the @species@ Alchemist
+{m}der @species@ Alchemist
+%%%%
+the @species@ Arcane Marksman
+{m}der @species@ Arkane Schütze
+%%%%
+the @species@ Artificer
+{m}der @species@ Artifizient
+%%%%
+the @species@ Berserker
+{m}der @species@ Berserker
+%%%%
+the @species@ Brigand
+{m}der @species@ Brigant
+%%%%
+the @species@ Chaos Knight
+{m}der @species@ Chaosritter
+%%%%
+the @species@ Cinder Acolyte
+{m}der @species@ Aschenakolyth
+%%%%
+the @species@ Conjurer
+{m}der @species@ Konjurant
+%%%%
+the @species@ Delver
+{m}der @species@ Forscher
+%%%%
+the @species@ Earth Elementalist
+{m}der @species@ Erdmagier
+%%%%
+the @species@ Enchanter
+{m}der @species@ Verzauberer
+%%%%
+the @species@ Fighter
+{m}der @species@ Kämpfer
+%%%%
+the @species@ Fire Elementalist
+{m}der @species@ Feuermagier
+%%%%
+the @species@ Forgewright
+{m}der @species@ Magieschmied
+%%%%
+the @species@ Gladiator
+{m}der @species@ Gladiator
+%%%%
+the @species@ Hedge Wizard
+{m}der @species@ Heckenzauberer
+%%%%
+the @species@ Hexslinger
+{m}der @species@ Bannschütze
+%%%%
+the @species@ Hunter
+{m}der @species@ Jäger
+%%%%
+the @species@ Ice Elementalist
+{m}der @species@ Eismagier
+%%%%
+the @species@ Monk
+{m}der @species@ Mönch
+%%%%
+the @species@ Mystic
+{m}der @species@ Mystiker
+%%%%
+the @species@ Necromancer
+{m}der @species@ Nekromant
+%%%%
+the @species@ Reaver
+{m}der @species@ Plünderer
+%%%%
+the @species@ Shapeshifter
+{m}der @species@ Gestaltwandler
+%%%%
+the @species@ Stalker
+{m}der @species@ Pirscher
+%%%%
+the @species@ Summoner
+{m}der @species@ Beschwörer
+%%%%
+the @species@ Transmuter
+{m}der @species@ Verwandler
+%%%%
+the @species@ Venom Mage
+{m}der @species@ Giftmagier
+%%%%
+the @species@ Wanderer
+{m}der @species@ Wanderer
+%%%%
+the @species@ Warper
+{m}der @species@ Warper
+%%%%
+# old name for Hedge Wizard
+the @species@ Wizard
+{m}der @species@ Zauberer
+%%%%
+
+##############################################
+# Background abbreviations
+##############################################
+
+%%%%
+# Abyssal Knight
+AK
+AR
+%%%%
+# Air Elementalist
+AE
+LM
+%%%%
+# Alchemist
+Al
+Al
+%%%%
+# Arcane Marksman
+AM
+AS
+%%%%
+# Artificer
+Ar
+Ar
+%%%%
+# Berserker
+Be
+Be
+%%%%
+# Brigand
+Br
+Br
+%%%%
+# Chaos Knight
+CK
+CR
+%%%%
+# Cinder Acolyte
+CA
+Aa
+%%%%
+# Conjurer
+Cj
+Kj
+%%%%
+# Delver
+De
+Fo
+%%%%
+# Earth Elementalist
+EE
+Er
+%%%%
+# Enchanter
+En
+Vz
+%%%%
+# Fighter
+Fi
+Kä
+%%%%
+# Fire Elementalist
+FE
+FM
+%%%%
+# Forgewright
+Fw
+Ms
+%%%%
+# Gladiator
+Gl
+Gl
+%%%%
+# Hedge Wizard
+HW
+Hz
+%%%%
+# Hexslinger
+Hs
+Bs
+%%%%
+# Hunter
+#Hu (same as Human)
+#
+%%%%
+# Ice Elementalist
+IE
+Ei
+%%%%
+# Monk
+Mo
+Mö
+%%%%
+# Mystic
+# Same as Mayflytaur
+#My
+#
+%%%%
+# Necromancer
+Ne
+Ne
+%%%%
+# Reaver
+# same as Revenant
+#Re
+#
+%%%%
+# Shapeshifter
+Sh
+Gw
+%%%%
+# Stalker
+St
+Pi
+%%%%
+# Summoner
+Su
+Hb
+%%%%
+# Transmuter
+Tm
+Vw
+%%%%
+# Venom Mage
+VM
+GM
+%%%%
+# Wanderer
+Wn
+Wn
+%%%%
+# Warper
+Wr
+Wr
+%%%%
+# Wizard
+Wz
+Zb
+%%%%
+
+##############################################
+# Short-form combos with adjective
+##############################################
+
+%%%%
+# Abyssal Knight
+@adj@@xx@AK
+{adj-er}@adj@@xx@AR
+%%%%
+# Air Elementalist
+@adj@@xx@AE
+{adj-er}@adj@@xx@LM
+%%%%
+# Alchemist
+@adj@@xx@Al
+{adj-er}@adj@@xx@Al
+%%%%
+# Arcane Marksman
+@adj@@xx@AM
+{adj-er}@adj@@xx@AS
+%%%%
+# Artificer
+@adj@@xx@Ar
+{adj-er}@adj@@xx@Ar
+%%%%
+# Berserker
+@adj@@xx@Be
+{adj-er}@adj@@xx@Be
+%%%%
+# Brigand
+@adj@@xx@Br
+{adj-er}@adj@@xx@Br
+%%%%
+# Chaos Knight
+@adj@@xx@CK
+{adj-er}@adj@@xx@CR
+%%%%
+# Cinder Acolyte
+@adj@@xx@CA
+{adj-er}@adj@@xx@Aa
+%%%%
+# Conjurer
+@adj@@xx@Cj
+{adj-er}@adj@@xx@Kj
+%%%%
+# Delver
+@adj@@xx@De
+{adj-er}@adj@@xx@Fo
+%%%%
+# Earth Elementalist
+@adj@@xx@EE
+{adj-er}@adj@@xx@Er
+%%%%
+# Enchanter
+@adj@@xx@En
+{adj-er}@adj@@xx@Vz
+%%%%
+# Fighter
+@adj@@xx@Fi
+{adj-er}@adj@@xx@Kä
+%%%%
+# Fire Elementalist
+@adj@@xx@FE
+{adj-er}@adj@@xx@FM
+%%%%
+# Forgewright
+@adj@@xx@Fw
+{adj-er}@adj@@xx@Ms
+%%%%
+# Gladiator
+@adj@@xx@Gl
+{adj-er}@adj@@xx@Gl
+%%%%
+# Hedge Wizard
+@adj@@xx@HW
+{adj-er}@adj@@xx@Hz
+%%%%
+# Hexslinger
+@adj@@xx@Hs
+{adj-er}@adj@@xx@Bs
+%%%%
+# Hunter
+@adj@@xx@Hu
+{adj-er}@adj@@xx@Jä
+%%%%
+# Ice Elementalist
+@adj@@xx@IE
+{adj-er}@adj@@xx@Ei
+%%%%
+# Monk
+@adj@@xx@Mo
+{adj-er}@adj@@xx@Mö
+%%%%
+# Mystic
+@adj@@xx@My
+{adj-er}@adj@@xx@My
+%%%%
+# Necromancer
+@adj@@xx@Ne
+{adj-er}@adj@@xx@Ne
+%%%%
+# Reaver
+@adj@@xx@Re
+{adj-er}@adj@@xx@Pl
+%%%%
+# Shapeshifter
+@adj@@xx@Sh
+{adj-er}@adj@@xx@Gw
+%%%%
+# Stalker
+@adj@@xx@St
+{adj-er}@adj@@xx@Pi
+%%%%
+# Summoner
+@adj@@xx@Su
+{adj-er}@adj@@xx@Hb
+%%%%
+# Transmuter
+@adj@@xx@Tm
+{adj-er}@adj@@xx@Vw
+%%%%
+# Venom Mage
+@adj@@xx@VM
+{adj-er}@adj@@xx@GM
+%%%%
+# Wanderer
+@adj@@xx@Wn
+{adj-er}@adj@@xx@Wn
+%%%%
+# Warper
+@adj@@xx@Wr
+{adj-er}@adj@@xx@Wr
+%%%%
+# Wizard
+@adj@@xx@Wz
+{adj-er}@adj@@xx@Zb
+%%%%

@@ -1,0 +1,428 @@
+###############################################################################
+#
+# Translations for item suffixes
+#
+###############################################################################
+
+#################################
+# General
+#################################
+
+# protection from fire and fire resistance are equivalent
+# the former name is used on rings and the latter on armour
+%%%%
+@item@ of protection from fire
+
+%%%%
+@item@ of fire resistance
+
+%%%%
+
+# protection from cold and cold resistance are equivalent
+# the former name is used on rings and the latter on armour
+%%%%
+@item@ of protection from cold
+
+%%%%
+@item@ of cold resistance
+
+%%%%
+
+# these are equivalent
+# the former name is used on rings and the latter on armour
+%%%%
+@item@ of resist corrosion
+
+%%%%
+@item@ of corrosion resistance
+
+%%%%
+
+%%%%
+# grants more AC
+@item@ of protection
+
+%%%%
+# grants both fire and cold resistance
+@item@ of resistance
+
+%%%%
+@item@ of poison resistance
+
+%%%%
+# negative energy resistance
+@item@ of positive energy
+
+%%%%
+@item@ of strength
+
+%%%%
+@item@ of dexterity
+
+%%%%
+@item@ of intelligence
+
+%%%%
+@item@ of slaying
+
+%%%%
+@item@ of see invisible
+
+%%%%
+@item@ of evasion
+
+%%%%
+@item@ of wizardry
+
+%%%%
+@item@ of magical power
+
+%%%%
+@item@ of flight
+
+%%%%
+@item@ of willpower
+
+%%%%
+@item@ of fire
+
+%%%%
+@item@ of ice
+
+%%%%
+@item@ of regeneration
+
+%%%%
+@item@ of magic regeneration
+
+%%%%
+@item@ of the acrobat
+
+%%%%
+# base type of some artefact amulets
+@item@ of nothing
+
+%%%%
+@item@ of guardian spirit
+
+%%%%
+@item@ of faith
+
+%%%%
+@item@ of reflection
+
+%%%%
+@item@ of acid
+
+%%%%
+@item@ of chaos
+
+%%%%
+@item@ of distortion
+
+%%%%
+@item@ of draining
+
+%%%%
+@item@ of electrocution
+
+%%%%
+@item@ of flaming
+
+%%%%
+@item@ of flame
+
+%%%%
+@item@ of freezing
+
+%%%%
+@item@ of holy wrath
+
+%%%%
+@item@ of pain
+
+%%%%
+@item@ of penetration
+
+%%%%
+@item@ of speed
+
+%%%%
+@item@ of venom
+
+%%%%
+@item@ of speedy slithering
+
+%%%%
+@item@ of running
+
+%%%%
+@item@ of invisibility
+
+%%%%
+@item@ of ponderousness
+
+%%%%
+@item@ of flying
+
+%%%%
+@item@ of the Archmagi
+
+%%%%
+@item@ of spirit shield
+
+%%%%
+@item@ of archery
+
+%%%%
+@item@ of repulsion
+
+%%%%
+@item@ of harm
+
+%%%%
+@item@ of shadows
+
+%%%%
+@item@ of rampaging
+
+%%%%
+# only on artefact Sword of Zonguldrok
+@item@ of reaping
+
+%%%%
+# only on artefact lance Wyrmbane
+@item@ of dragon slaying
+
+%%%%
+@item@ of rebuke
+
+%%%%
+@item@ of valour
+
+%%%%
+@item@ of entangling
+
+%%%%
+@item@ of sundering
+
+%%%%
+@item@ of concussion
+
+%%%%
+@item@ of weakness
+
+%%%%
+@item@ of vulnerability
+
+%%%%
+@item@ of foul flame
+
+%%%%
+@item@ of hurling
+
+%%%%
+@item@ of infusion
+
+%%%%
+@item@ of light
+
+%%%%
+@item@ of wrath
+
+%%%%
+@item@ of mayhem
+
+%%%%
+@item@ of guile
+
+%%%%
+@item@ of energy
+
+%%%%
+@item@ of sniping
+
+%%%%
+@item@ of air
+
+%%%%
+@item@ of earth
+
+%%%%
+@item@ of command
+
+%%%%
+@item@ of death
+
+%%%%
+@item@ of resonance
+
+%%%%
+@item@ of parrying
+
+%%%%
+@item@ of glass
+
+%%%%
+@item@ of pyromania
+
+%%%%
+@item@ of stardust
+
+%%%%
+@item@ of mesmerism
+
+%%%%
+@item@ of attunement
+
+%%%%
+@item@ of wildshape
+
+%%%%
+@item@ of chemistry
+
+%%%%
+@item@ of dissipation
+
+%%%%
+
+#################################
+# Artefact name suffixes
+#################################
+%%%%
+@item@ of Zot
+
+%%%%
+@item@ of the Moon
+
+%%%%
+@item@ of plog
+
+%%%%
+@item@ of Dice, Bag, and Bottle
+
+%%%%
+
+# generic fallbacks
+%%%%
+@item@ of the @arg@
+
+%%%%
+@item@ of @arg@
+
+%%%%
+@item@ "@name@"
+
+%%%%
+
+#################################
+# Manual suffixes
+#################################
+# note: these names should match the skill names
+%%%%
+@item@ of fighting
+
+%%%%
+@item@ of short blades
+
+%%%%
+@item@ of long blades
+
+%%%%
+@item@ of axes
+
+%%%%
+@item@ of maces & flails
+
+%%%%
+@item@ of polearms
+
+%%%%
+@item@ of staves
+
+%%%%
+@item@ of slings
+
+%%%%
+@item@ of bows
+
+%%%%
+@item@ of crossbows
+
+%%%%
+@item@ of throwing
+
+%%%%
+@item@ of armour
+
+%%%%
+@item@ of dodging
+
+%%%%
+# also used on items that increase stealth
+@item@ of stealth
+
+%%%%
+@item@ of shields
+
+%%%%
+@item@ of unarmed combat
+
+%%%%
+@item@ of evocations
+
+%%%%
+@item@ of invocations
+
+%%%%
+@item@ of spellcasting
+
+%%%%
+@item@ of necromancy
+
+%%%%
+@item@ of conjurations
+
+%%%%
+@item@ of hexes
+
+%%%%
+@item@ of charms
+
+%%%%
+@item@ of summonings
+
+%%%%
+@item@ of translocations
+
+%%%%
+@item@ of transmutations
+
+%%%%
+@item@ of fire magic
+
+%%%%
+@item@ of ice magic
+
+%%%%
+@item@ of air magic
+
+%%%%
+@item@ of earth magic
+
+%%%%
+@item@ of poison magic
+
+%%%%
+
+#################################
+# Obsolete items
+#################################
+# these can occur if player loads a savegame from an earlier version of the game
+%%%%
+@item@ of obsoleteness
+
+%%%%
+@item@ of removedness
+
+%%%%
