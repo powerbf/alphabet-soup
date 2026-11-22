@@ -43,7 +43,11 @@ public:
     operator bool() const { return _db != 0; }
     operator DBM*() const { return _db; }
 
+    // is this a db where the value is a translation of the key?
+    bool value_translates_key() const { return string(_db_name) == "translate"; }
+
  private:
+    vector<string> _get_file_list() const;
     bool _needs_update() const;
     void _regenerate_db();
 
@@ -62,7 +66,7 @@ public:
 
 // Convenience functions for (read-only) access to generic
 // berkeley DB databases.
-static void _store_text_db(const string &in, DBM *db);
+static void _store_text_db(const string &in, DBM *db, bool value_translates_key);
 
 static string _query_database(TextDB &db, string key, bool canonicalise_key,
                               bool run_lua, bool untranslated = false);
@@ -153,6 +157,11 @@ static TextDB AllDBs[] =
     TextDB("egos", "descript/",
           { "egos.txt",     // weapon/armour/missile egos
             }),
+
+    // in this db, the keys are English strings to be translated
+    TextDB("translate", "translate/",
+          { "*.txt",
+            }),
 };
 
 static TextDB& DescriptionDB = AllDBs[0];
@@ -166,6 +175,7 @@ static TextDB& HelpDB        = AllDBs[7];
 static TextDB& FAQDB         = AllDBs[8];
 static TextDB& HintsDB       = AllDBs[9];
 static TextDB& EgosDB        = AllDBs[10];
+static TextDB& TranslateDB   = AllDBs[11];
 
 static string _db_cache_path(string db, const char *lang)
 {
@@ -217,6 +227,12 @@ void TextDB::init()
         translation->init();
     }
 
+    if (value_translates_key() && !_parent)
+    {
+        // Do not load the English version
+        return;
+    }
+
     open_db();
 
     if (!_needs_update())
@@ -241,12 +257,33 @@ void TextDB::shutdown(bool recursive)
         translation->shutdown(recursive);
 }
 
+vector<string> TextDB::_get_file_list() const
+{
+    vector<string> input_files;
+    for (const string &file : _input_files)
+    {
+        if (file == "*.txt")
+        {
+            // Expand wildcard
+            string dir = _directory.substr(0,_directory.length()-1);
+            dir = datafile_path(dir, false, true, dir_exists);
+            vector<string> matched = get_dir_files_ext(dir, ".txt");
+            for (const string& file_name: matched)
+                input_files.push_back(file_name);
+        }
+        else
+            input_files.push_back(file);
+    }
+
+    return input_files;
+}
+
 bool TextDB::_needs_update() const
 {
     string ts;
     bool no_files = true;
 
-    for (const string &file : _input_files)
+    for (const string &file : _get_file_list())
     {
         string full_input_path = _directory + file;
         full_input_path = datafile_path(full_input_path, !_parent);
@@ -315,7 +352,7 @@ void TextDB::_regenerate_db()
     string ts;
     if (!(_db = dbm_open(db_path.c_str(), O_RDWR | O_CREAT, 0660)))
         end(1, true, "Unable to open DB: %s", db_path.c_str());
-    for (const string &file : _input_files)
+    for (const string &file : _get_file_list())
     {
         string full_input_path = _directory + file;
         full_input_path = datafile_path(full_input_path, !_parent);
@@ -326,7 +363,7 @@ void TextDB::_regenerate_db()
         {
             snprintf(buf, sizeof(buf), ":%" PRId64, (int64_t)mtime);
             ts += buf;
-            _store_text_db(full_input_path, _db);
+            _store_text_db(full_input_path, _db, value_translates_key());
         }
     }
     _add_entry(_db, "TIMESTAMP", ts);
@@ -510,7 +547,7 @@ static void _add_entry(DBM *db, const string &k, string &v)
         end(1, true, "Error storing %s", k.c_str());
 }
 
-static void _parse_text_db(LineInput &inf, DBM *db)
+static void _parse_text_db(LineInput &inf, DBM *db, bool value_translates_key)
 {
     string key;
     string value;
@@ -540,12 +577,25 @@ static void _parse_text_db(LineInput &inf, DBM *db)
         {
             key = line;
             trim_string(key);
-            lowercase(key);
+            if (value_translates_key)
+                key = trim_quotes(key);
+            else
+                lowercase(key);
         }
         else
         {
-            trim_string_right(line);
-            value += line + "\n";
+            if (value_translates_key)
+            {
+                if (!value.empty())
+                    value += "\n";
+                // quotes can be used to preserve whitespace
+                value += trim_quotes(trimmed_string(line));
+            }
+            else
+            {
+                trim_string_right(line);
+                value += line + "\n";
+            }
         }
     }
 
@@ -553,13 +603,13 @@ static void _parse_text_db(LineInput &inf, DBM *db)
         _add_entry(db, key, value);
 }
 
-static void _store_text_db(const string &in, DBM *db)
+static void _store_text_db(const string &in, DBM *db, bool value_translates_key)
 {
     UTF8FileLineInput inf(in.c_str());
     if (inf.error())
         end(1, true, "Unable to open input file: %s", in.c_str());
 
-    _parse_text_db(inf, db);
+    _parse_text_db(inf, db, value_translates_key);
 }
 
 static string _chooseStrByWeight(const string &entry, int fixed_weight = -1)
@@ -759,6 +809,9 @@ static string _query_database(TextDB &db, string key, bool canonicalise_key,
 
     string str((const char *)result.dptr, result.dsize);
 
+    if (db.value_translates_key())
+        return str;
+
     // <foo> is an alias to key foo
     if (str[0] == '<' && str[str.size() - 2] == '>'
         && str.find('<', 1) == str.npos
@@ -942,4 +995,37 @@ string getHintString(const string &key)
 string getEgoString(const string &key)
 {
     return unwrap_desc(_query_database(EgosDB, key, true, true));
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// Translate DB specific functions.
+
+string getTranslatedString(const string &original)
+{
+    if (Options.language == lang_t::EN)
+        return original;
+
+    return _query_database(TranslateDB, original, false, false);
+}
+
+vector<string> getTranslationKeysByRegex(const string &regex)
+{
+    if (!TranslateDB.translation || !TranslateDB.translation->get())
+    {
+        vector<string> empty;
+        return empty;
+    }
+
+    return _database_find_keys(TranslateDB.translation->get(), regex, false);
+}
+
+vector<string> getTranslationBodiesByRegex(const string &regex)
+{
+    if (!TranslateDB.translation || !TranslateDB.translation->get())
+    {
+        vector<string> empty;
+        return empty;
+    }
+
+    return _database_find_bodies(TranslateDB.translation->get(), regex, false);
 }

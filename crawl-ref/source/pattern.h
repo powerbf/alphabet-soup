@@ -20,9 +20,24 @@ public:
 
     string annotate_string(const string &color) const;
 
-    const string &matched_text() const
+    const string matched_text() const
     {
-        return text;
+        // note: [start, end) is a half-open range
+        if (start >= 0 && end <= (int)text.length() && end > start)
+            return text.substr(start, end - start);
+        else
+            return "";
+    }
+
+    int start_pos() const
+    {
+        return start;
+    }
+
+    // note: half-open range
+    int end_pos() const
+    {
+        return end;
     }
 
 private:
@@ -110,6 +125,14 @@ public:
     {
         return match_location(s.c_str(), s.length());
     }
+
+    // replace matches with repl
+    // repl may contain backreferences of the form $1, $2, etc.
+    string replace(const string &s, const string& repl,
+                   int max_replacements = -1) const;
+
+    // return regex capture groups
+    vector<string> capture(const string &s) const;
 
     const string &tostring() const override
     {

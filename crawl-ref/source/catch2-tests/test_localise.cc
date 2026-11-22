@@ -1,0 +1,253 @@
+#include "catch_amalgamated.hpp"
+
+#include "AppHdr.h"
+#include "database.h"
+#include "initfile.h"
+#include "localise.h"
+#include "options.h"
+
+#include <unistd.h>
+
+TEST_CASE( "Localise German", "[single-file]" )
+{
+    SECTION("Initialise")
+    {
+        shutdown_localisation();
+        setlocale(LC_ALL, "");
+        Options.lang_name = "de";
+        Options.language = lang_t::DE;
+        SysEnv.crawl_dir = ".";
+        databaseSystemInit();
+        init_localisation();
+    }
+
+    SECTION("Monsters")
+    {
+        // definite article
+        CHECK( localise("the orc") == "der Ork" );
+        CHECK( localise("the bat") == "die Fledermaus" );
+        CHECK( localise("the hell hog") == "das höllische Schwein" );
+        CHECK( localise("the red draconian") == "der rote Drakonier" );
+        CHECK( localise("the slime creature") == "die Schleimkreatur" );
+
+        // indefinite article
+        CHECK( localise("an orc") == "ein Ork" );
+        CHECK( localise("a bat") == "eine Fledermaus" );
+        CHECK( localise("a hell hog") == "ein höllisches Schwein" );
+        CHECK( localise("a green draconian") == "ein grüner Drakonier" );
+        CHECK( localise("a large slime creature") == "eine große Schleimkreatur" );
+
+        // your (allied)
+        CHECK( localise("your orc") == "dein Ork" );
+        CHECK( localise("your bat") == "deine Fledermaus" );
+        CHECK( localise("your hell hog") == "dein höllisches Schwein" );
+        CHECK( localise("your yellow draconian") == "dein gelber Drakonier" );
+        CHECK( localise("your very large slime creature") == "deine sehr große Schleimkreatur" );
+
+        // no article
+        CHECK( localise("orc") == "Ork" );
+        CHECK( localise("bat") == "Fledermaus" );
+        CHECK( localise("hell hog") == "höllisches Schwein" );
+        CHECK( localise("black draconian") == "schwarzer Drakonier" );
+        CHECK( localise("enormous slime creature") == "enorme Schleimkreatur" );
+
+        // plural
+        CHECK( localise("2 orcs") == "2 Orks" );
+        CHECK( localise("3 bats") == "3 Fledermäuse" );
+        CHECK( localise("4 hell hogs") == "4 höllische Schweine" );
+        CHECK( localise("5 white draconians") == "5 weiße Drakonier" );
+        CHECK( localise("6 titanic slime creatures") == "6 titanische Schleimkreaturen" );
+
+        // unique
+        CHECK( localise("Dowan") == "Dowan" );
+        CHECK( localise("Natasha") == "Natascha" );
+        CHECK( localise("Natasha (D:3)") == "Natascha (K:3)" );
+        CHECK( localise("the Lernaean hydra") == "die Lernäische Hydra" );
+        CHECK( localise("Blorkula the Orcula") == "Blorkula der Orkula" );
+
+        // named ally
+        CHECK( localise("Boghold the orc") == "Boghold der Ork" );
+
+        // shape-shifted unique
+        CHECK( localise("Sigmund the bat") == "Sigmund die Fledermaus" );
+        CHECK( localise("Natasha the acid blob") == "Natascha der Säureklumpen" );
+
+        // with added adjectives
+        CHECK( localise("the charmed orc") == "der verzauberte Ork" );
+        CHECK( localise("a spectral orc") == "ein spektraler Ork" );
+        CHECK( localise("neutral orc") == "neutraler Ork" );
+        CHECK( localise("the helpless Natasha") == "die hilflose Natascha" );
+        CHECK( localise("helpless Natasha") == "hilflose Natascha" );
+        CHECK( localise("the helpless Royal Jelly") == "das hilflose Gelée Royale" );
+        CHECK( localise("helpless Royal Jelly") == "hilfloses Gelée Royale" );
+        CHECK( localise("a one-headed hydra") == "eine einköpfige Hydra" );
+        CHECK( localise("an eight-headed hydra") == "eine achtköpfige Hydra" );
+        CHECK( localise("an 11-headed hydra") == "eine 11-köpfige Hydra" );
+        CHECK( localise("a 12-headed hydra") == "eine 12-köpfige Hydra" );
+        CHECK( localise("the 27-headed Lernaean hydra") == "die 27-köpfige Lernäische Hydra" );
+        CHECK( localise("a non-hostile very large slime creature") ==
+                        "eine nicht feindliche sehr große Schleimkreatur" );
+        CHECK( localise("a neutral bribed spectral orc") ==
+                        "ein neutraler bestochener spektraler Ork" );
+
+        // player ghost
+        CHECK( localise("MrDizzy's ghost") == "der Geist von MrDizzy" );
+        CHECK( localise("the helpless RepoMan's ghost") == "der hilflose Geist von RepoMan" );
+
+        // definite article - possessive
+        CHECK( localise("the orc's") == "des Orks" );
+        CHECK( localise("the bat's") == "der Fledermaus" );
+        CHECK( localise("the hell hog's") == "des höllischen Schweins" );
+        CHECK( localise("the red draconian's") == "des roten Drakoniers" );
+
+        // indefinite article - possessive
+        CHECK( localise("an orc's") == "eines Orks" );
+        CHECK( localise("a bat's") == "einer Fledermaus" );
+        CHECK( localise("a hell hog's") == "eines höllischen Schweins" );
+        CHECK( localise("a red draconian's") == "eines roten Drakoniers" );
+
+        // unique - possessive
+        CHECK( localise("Natasha's") == "von Natascha" );
+        CHECK( localise("the Lernaean hydra's") == "der Lernäischen Hydra" );
+        CHECK( localise("the 27-headed Lernaean hydra's") == "der 27-köpfigen Lernäischen Hydra" );
+
+        // derived monsters
+        CHECK( localise("the merfolk zombie") == "der Zombie eines Meerwesens" );
+        CHECK( localise("an orc skeleton") == "ein Skelett eines Orks" );
+        CHECK( localise("a red draconian simulacrum") == "ein Simulacrum eines roten Drakoniers" );
+        CHECK( localise("a neutral orc skeleton") == "ein neutrales Skelett eines Orks" );
+        CHECK( localise("a non-hostile red draconian simulacrum") ==
+                        "ein nicht feindliches Simulacrum eines roten Drakoniers" );
+
+        CHECK( localise("a goblin") ==  "ein Goblin" );
+        CHECK( localise("a goblin, wielding a +0 dagger") ==
+                        "ein Goblin, mit einem +0 Dolch bewaffnet" );
+        CHECK( localise("a goblin, wielding a +0 dagger (asleep)") ==
+                        "ein Goblin, mit einem +0 Dolch bewaffnet (schlafend)" );
+        CHECK( localise("<cyan>Here:</cyan> a goblin, wielding a +0 dagger (asleep)") ==
+                        "<cyan>Hier:</cyan> ein Goblin, mit einem +0 Dolch bewaffnet (schlafend)" );
+        CHECK( localise("Here: <lightgrey>a goblin, wielding a +0 dagger (asleep)</lightgrey>") ==
+                        "Hier: <lightgrey>ein Goblin, mit einem +0 Dolch bewaffnet (schlafend)</lightgrey>" );
+    }
+
+    SECTION("Items")
+    {
+        CHECK( localise("a short sword") == "ein Kurzschwert" );
+        CHECK( localise("m - 2 potions of might") == "m - 2 Tränke der Macht" );
+        CHECK( localise("j - 3 puce potions") == "j - 3 braunrote Zaubertränke" );
+        CHECK( localise("k - 4 murky puce potions") == "k - 4 trübe braunrote Zaubertränke" );
+        CHECK( localise("a +2 leather armour" ) == "eine +2 Lederrüstung" );
+        CHECK( localise("a +2 leather armour of fire resistance" ) == "eine +2 Lederrüstung der Feuerresistenz" );
+        CHECK( localise("a +1 pair of gloves of archery" ) == "ein +1 Paar Handschuhe der Schießkunst" );
+        CHECK( localise("the +7 war axe \"Hellblazer\" {flame rF+ Str+3}") ==
+                        "die +7 Kriegsaxt \"Hellblazer\" {Flammen rF+ Stä+3}" );
+        CHECK( localise("the +11 morningstar of Chance {antimagic, rElec rC- SInv}") ==
+                        "der +11 Morgenstern von Chance {Antimagie, rElek rK- UnsS}" );
+        CHECK( localise("the +7 hand cannon \"Mule\" {flame, backblast, rF+}") ==
+                        "die +7 Handkanone \"Mule\" {Flammen, Rückprall, rF+}" );
+        CHECK( localise("j - +5 fire dragon scales of Perfidy {rElec rF++ rC- rCorr}") ==
+                        "j - +5 Feuerdrachenschuppen von Perfidy {rElek rF++ rK- rKorr}" );
+        // search result
+        CHECK( localise("[Vaults:3] a +3 great sword of distortion (1 further duplicate)") ==
+               "[Gewölbe:3] ein +3 Großschwert der Verzerrung (1 weiteres Duplikat)" );
+        // description header
+        CHECK( localise("A +1 kite shield.") == "Ein +1 Drachenschild." );
+        // menu items can be capitalised
+        CHECK( localise("Shield of Resistance") == "Schild der Resistenz" );
+    }
+
+    SECTION("Parameterised messages")
+    {
+        CHECK( localise("You kill the rat!") == "Du tötest die Ratte!" );
+        CHECK( localise("You kill the orc!") == "Du tötest den Ork!" );
+        CHECK( localise("The jackal bites you!") == "Der Schakal beißt dich!" );
+        CHECK( localise("You hit the quicksilver dragon!!") == "Du triffst den Quecksilberdrachen!!" );
+        CHECK( localise("The broad axe dances into the air!") == "Die Breitaxt tanzt in die Luft!" );
+        CHECK( localise("The gnoll's halberd dances into the air!") == "Die Hellebarde des Gnolls tanzt in die Luft!" );
+        CHECK( localise("Sigmund's scythe dances into the air!") == "Die Sense von Sigmund tanzt in die Luft!" );
+
+        CHECK( localise("You draw life force from the goblin.") ==
+                        "Du ziehst Lebenskraft aus dem Goblin." );
+        CHECK( localise("You draw life force from Fannar!!") ==
+                        "Du ziehst Lebenskraft aus Fannar!!" );
+        CHECK( localise("The vampire draws life force from you!!!") ==
+                        "Der Vampir zieht Lebenskraft aus dir!!!" );
+
+        // Multiple sentences
+        CHECK( localise("This weapon falls into the 'Maces & Flails' category. It is a one-handed weapon.")
+               == "Diese Waffe gehört zur Kategorie 'Keulen & Flegel'. Dies ist eine Einhandwaffe." );
+    }
+
+    SECTION("Lists")
+    {
+        CHECK( localise("a goblin, 2 orcs and a kobold") == "ein Goblin, 2 Orks und ein Kobold" );
+        CHECK( localise("a goblin, 2 orcs, and a kobold") == "ein Goblin, 2 Orks und ein Kobold" );
+        CHECK( localise("a goblin, 2 orcs or a kobold") == "ein Goblin, 2 Orks oder ein Kobold" );
+        CHECK( localise("a goblin, 2 orcs, or a kobold") == "ein Goblin, 2 Orks oder ein Kobold" );
+        CHECK( localise("A goblin, 2 orcs and a kobold come into view.") ==
+                        "Ein Goblin, 2 Orks und ein Kobold kommen in Sicht." );
+        CHECK( localise("You see a goblin, 2 orcs and a kobold here.") ==
+                        "Du siehst einen Goblin, 2 Orks und einen Kobold hier." );
+        CHECK( localise("You see a goblin; 2 orcs and a kobold here.") ==
+                        "Du siehst einen Goblin; 2 Orks und einen Kobold hier." );
+    }
+
+    SECTION("UI")
+    {
+        // character overview screen
+        CHECK( localise("(Deep Elf Conjurer)") == "(Tiefenelf Konjurant)" );
+        CHECK( localise("(DECj)") == "(TEKj)" );
+        CHECK( localise(" Turns: 1234, Time: 01:02:03") == " Runde: 1234, Zeit: 01:02:03" );
+        CHECK( localise("Stlth   +++") == "Heiml   +++" );
+        CHECK( localise("<lightgrey>Stlth   ") == "<lightgrey>Heiml   " );
+        CHECK( localise("  - Nothing wielded") == "  - Nichts geführt" );
+        CHECK( localise("<darkgrey>(no helmet)</darkgrey>") ==
+                        "<darkgrey>(kein Helm)</darkgrey>" );
+        CHECK( localise("<darkgrey>(cloak unavailable)</darkgrey>") ==
+                        "<darkgrey>(Umhang nicht verfügbar)</darkgrey>" );
+        CHECK( localise("  <darkgrey>[gloves occupied]</darkgrey>") ==
+                        "  <darkgrey>[Handschuhe besetzt]</darkgrey>" );
+
+        // inventory section title
+        CHECK( localise("Missiles    (go to first with <w>(</w><blue>)") ==
+                        "Geschosse    (zum ersten Gegenstand mit <w>(</w><blue>)" );
+        CHECK( localise("(select first with <w>!</w><blue>)") ==
+                        "(ersten Gegenstand wählen mit <w>!</w><blue>)" );
+        CHECK( localise("(select all with <w>\"=</w><blue>)") ==
+                        "(alle wählen mit <w>\"=</w><blue>)" );
+
+        // spell memorise menu footer
+        string english = "[<w>Tab</w>] <w>Memorise</w>|Describe|Hide|Show   [<w>Ctrl-F</w>] search   [<w>?</w>] help";
+        string german = "[<w>Tab</w>] <w>Auswendiglernen</w>|Beschreiben|Ausblenden|Zeigen   [<w>Strg-F</w>] Suche   [<w>?</w>] Hilfe";
+        CHECK( localise(english) == german );
+    }
+
+    SECTION("Player")
+    {
+        CHECK( localise("Human Conjurer") == "Mensch Konjurant" );
+
+        CHECK( localise("MiFi") == "MiKä" );
+        CHECK( localise("HuCj") == "MnKj" );
+    }
+}
+
+TEST_CASE("Localise Russian")
+{
+    SECTION("Initialise")
+    {
+        shutdown_localisation();
+        setlocale(LC_ALL, "");
+        Options.lang_name = "ru";
+        Options.language = lang_t::RU;
+        SysEnv.crawl_dir = ".";
+        databaseSystemInit();
+        init_localisation();
+    }
+
+    // test different plural forms for different numbers
+    CHECK( localise("a horse") == "лошадь" );
+    CHECK( localise("4 horses") == "4 лошади" );
+    CHECK( localise("5 horses") == "5 лошадей" );
+    CHECK( localise("14 horses") == "14 лошадей" );
+    CHECK( localise("24 horses") == "24 лошади" );
+}

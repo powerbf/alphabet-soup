@@ -51,16 +51,22 @@ string replace_all_func(string s, const string &find, string (*repl_func)());
 
 string replace_all_of(string s, const string &tofind, const string &replacement);
 
+string replace_first(const string &s, const string &tofind, const string &replacement);
+
 string replace_keys(const string &text, const map<string, string>& replacements);
 
 string maybe_capitalise_substring(string s);
 string maybe_pick_random_substring(string s);
 
 int count_occurrences(const string &text, const string &searchfor);
+bool contains(const string &text, const string &searchfor);
+bool contains(const string &text, char c);
 
 string &trim_string(string &str);
 string &trim_string_right(string &str);
 string trimmed_string(string s);
+
+string trim_quotes(const string& s);
 
 /**
  * Find the enumerator e between begin and end that satisfies pred(e) and

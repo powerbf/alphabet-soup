@@ -126,6 +126,8 @@ lang-fake.o \
 lev-pand.o \
 libutil.o \
 loading-screen.o \
+localise.o \
+localise-util.o \
 lookup-help.o \
 los.o \
 los-def.o \
@@ -314,8 +316,10 @@ catch2-tests/test_describe.o \
 catch2-tests/test_english.o \
 catch2-tests/test_files.o \
 catch2-tests/test_items.o \
+catch2-tests/test_localise.o \
 catch2-tests/test_mon-util.o \
 catch2-tests/test_ng-init-branches.o \
+catch2-tests/test_pattern.o \
 catch2-tests/test_player.o \
 catch2-tests/test_player_fixture.o \
 catch2-tests/test_randbook.o \

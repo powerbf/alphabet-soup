@@ -365,6 +365,16 @@ string replace_all_of(string s, const string &tofind, const string &replacement)
     return s;
 }
 
+// Replace first occurrence of <tofind> with <replacement>
+string replace_first(const string &s, const string &tofind, const string &replacement)
+{
+    string result = s;
+    size_t pos = s.find(tofind);
+    if (pos != string::npos)
+        result.replace(pos, tofind.length(), replacement);
+    return result;
+}
+
 // Capitalise phrases encased in @CAPS@ ... @NOCAPS@. If @NOCAPS@ is
 // missing, change the rest of the line to uppercase.
 string maybe_capitalise_substring(string s)
@@ -462,6 +472,16 @@ int count_occurrences(const string &text, const string &s)
     return nfound;
 }
 
+bool contains(const string &text, const string &searchfor)
+{
+    return text.find(searchfor) != string::npos;
+}
+
+bool contains(const string &text, char c)
+{
+    return text.find(c) != string::npos;
+}
+
 // also used with macros
 string &trim_string(string &str)
 {
@@ -481,6 +501,14 @@ string trimmed_string(string s)
 {
     trim_string(s);
     return s;
+}
+
+string trim_quotes(const string& s)
+{
+    if (s.length() > 2 && s[0] == '"' && s[s.length() -1 ] == '"')
+        return s.substr(1, s.length() - 2);
+    else
+        return s;
 }
 
 static void add_segment(vector<string> &segs, string s, bool trim,
