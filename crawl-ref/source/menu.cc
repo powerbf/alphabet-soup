@@ -19,6 +19,7 @@
 #include "hints.h"
 #include "invent.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #ifdef USE_TILE
@@ -1360,7 +1361,8 @@ static string _command_to_string(command_type cmd)
 // standardized formatting for this
 string pad_more_with_esc(const string &s)
 {
-    return pad_more_with(s, menu_keyhelp_cmd(CMD_MENU_EXIT) + " exit");
+    string suffix = localise(menu_keyhelp_cmd(CMD_MENU_EXIT) + " exit");
+    return pad_more_with(s, suffix);
 }
 
 string menu_keyhelp_cmd(command_type cmd)
@@ -1487,6 +1489,7 @@ void Menu::set_title(const string &t, bool first, bool indent)
 
 void Menu::add_entry(MenuEntry *entry)
 {
+    entry->text = localise(entry->text);
     entry->tag = tag;
     items.push_back(entry);
 }
@@ -2855,7 +2858,7 @@ void Menu::update_title()
     if (m_filter)
     {
         fs = formatted_string::parse_string(
-            m_filter->get_prompt().c_str())
+            localise(m_filter->get_prompt()).c_str())
             // apply formatting only to the prompt
             + " " + m_filter->get_text();
     }
@@ -2868,6 +2871,7 @@ void Menu::update_title()
         ASSERT(t);
         auto col = item_colour(t);
         string text = t->get_text();
+        text = localise(text);
 
         fs.textcolour(col);
 
@@ -3577,7 +3581,7 @@ void column_composer::add_formatted(int ncol,
     ASSERT_RANGE(ncol, 0, (int) columns.size());
 
     column &col = columns[ncol];
-    vector<string> segs = split_string("\n", s, false, true);
+    vector<string> segs = split_string("\n", localise(s), false, true);
 
     vector<formatted_string> newlines;
     // Add a blank line if necessary. Blank lines will not

@@ -30,6 +30,7 @@
 #include "item-status-flag-type.h"
 #include "known-items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "options.h"
@@ -1032,10 +1033,8 @@ menu_letter InvMenu::load_items(const vector<const item_def*> &mitems,
             get_class_hotkeys(i, glyphs);
             if (!glyphs.empty())
             {
-                // longest string
-                const string str = "Magical Staves ";
-                subtitle += string(strwidth(str) - strwidth(subtitle),
-                                   ' ');
+                // i18n: Must localise now otherwise padding will be wrong
+                subtitle = chop_string(localise(subtitle), 20);
                 subtitle += "("+select_all+" with <w>";
                 for (char gly : glyphs)
                     subtitle += gly;

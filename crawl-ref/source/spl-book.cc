@@ -28,6 +28,7 @@
 #include "item-status-flag-type.h"
 #include "invent.h"
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "output.h"
 #include "prompt.h"
@@ -545,15 +546,21 @@ public:
 protected:
     virtual formatted_string calc_title() override
     {
-        return formatted_string::parse_string(
-                    make_stringf("<w>Spells %s                   Type                      %sLevel",
-                        current_action == action::cast ? "(Cast)    "
-                        : current_action == action::memorise ? "(Memorise)"
-                        : current_action == action::describe ? "(Describe)"
-                        : current_action == action::hide ? "(Hide)    "
-                        : current_action == action::imbue ? "(Imbue)   "
-                        : "(Show)    ",
-                        you.divine_exegesis ? "         " : "Failure  "));
+        string action_str =
+            current_action == action::cast ? "(Cast)"
+            : current_action == action::memorise ? "(Memorise)"
+            : current_action == action::describe ? "(Describe)"
+            : current_action == action::hide ? "(Hide)"
+            : current_action == action::imbue ? "(Imbue)"
+            : "(Show)";
+
+        string s = "<w>";
+        s += chop_string(localise("Spells " + action_str), 36);
+        s += chop_string(localise("Type"), 26);
+        s += chop_string(localise(you.divine_exegesis ? "" : "Failure"), 9);
+        s += localise("Level");
+
+        return formatted_string::parse_string(s);
     }
 
 private:
@@ -623,10 +630,16 @@ private:
         desc << "   " << menu_keyhelp_cmd(CMD_MENU_SEARCH) << " search"
                 "   [<w>?</w>] help"; // XX hardcoded for this menu
 
+        string desc_str = localise(desc.str());
+
         if (search_text.size())
-            return pad_more_with(desc.str(), "[<w>Esc</w>] clear"); // esc is hardcoded for this case
+        {
+            // esc is hardcoded for this case
+            string suffix = localise("[<w>Esc</w>] clear");
+            return pad_more_with(desc_str, suffix);
+        }
         else
-            return pad_more_with_esc(desc.str());
+            return pad_more_with_esc(desc_str);
     }
 
     bool cycle_mode(bool forward) override
