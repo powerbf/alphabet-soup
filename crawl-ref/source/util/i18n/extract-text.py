@@ -376,7 +376,7 @@ def get_preprocessed_cpp_lines(filename, strip_whitespace=True):
             if line == "":
                 continue
 
-        lines = re.sub(r"^\s*#\s*", "#", line)
+        line = re.sub(r"^\s*#\s*", "#", line)
         if re.match("^ *# *include", line):
             continue
 
