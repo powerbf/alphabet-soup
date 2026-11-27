@@ -34,8 +34,6 @@ IGNORE_STRINGS = [
     'your', 'his', 'her', 'its', 'their',
     'of', 'in', 'by', 'and', 'or', 'but',
     '%s', '%d', '%f',
-    # bug
-    'eggplant',
 ]
 
 # These files need special handling because they define data structures
@@ -494,17 +492,21 @@ def ignore_string(string):
     if stripped.lower() in IGNORE_STRINGS:
         return True
 
+    # ignore printf-style formatting
     if is_only_formatting(stripped):
+        return True
+
+    # ignore formatting tags
+    if re.match("^</?[a-z_]*>$", stripped):
         return True
 
     # ignore identifiers
     if '_' in string and not ' ' in string:
         return True
 
-    if re.search(r'\b(buggy|bugginess|bugger|bugdom|bug-filled|buggily)\b', string, re.IGNORECASE):
-        return True
-    if "BUG" in string:
-        return True
+    if re.search('(bug|eggplant)', string, re.IGNORECASE):
+        if not re.search('(program bug|bug report|Debugging commands)', string):
+            return True
 
     return False
 
@@ -516,9 +518,6 @@ def ignore_section(filename, section):
         return True
 
     return False
-
-def keep_string(string):
-    return not ignore_string(string)
 
 # We want to keep most error messages in English so they can be reported to teh devs
 # The expception is environmental stuff like file errors
@@ -938,6 +937,7 @@ def extract_lua_strings(line):
     results = list(filter(lambda s: len(s.strip()) > 1, results))
     results = list(filter(lambda s: '_' not in s or not re.match('^[_A-Za-z0-9]+$', s) , results))
     results = list(filter(lambda s: not re.match(r'^\.[A-Za-z0-9]', s) , results))
+    results = list(filter(lambda s: not ignore_string(s), results))
 
     return results
 
@@ -1335,7 +1335,7 @@ def extract_cpp_strings(line, filter_results):
     strings = list(map(lambda x: x.strip('"'), strings))
     strings = split_on_newlines(strings)
     if filter_results:
-        strings = list(filter(keep_string, strings))
+        strings = list(filter(lambda s: not ignore_string(s), strings))
     return strings
 
 def process_cplusplus_file(filename):
