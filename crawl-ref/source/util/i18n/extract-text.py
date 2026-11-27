@@ -1464,16 +1464,75 @@ def expand_single_param_message(strings, include_empty_param):
             results.append(msg)
     return results
 
+def prop_abbrev_prefix(prop, degree):
+    sign = '-' if degree < 0  else '+'
+    return (prop + (sign * abs(degree)) + ':').ljust(11)
+
+def prop_abbrev_prefix_from_msg(resist, msg):
+    props = {"fire": "rF", "cold": "rC", "negative energy": "rN"}
+    if resist not in props:
+        return ""
+    prop = props[resist]
+    degree = 0
+    if "extremely vulnerable" in msg:
+        degree = -3
+    elif "very vulnerable" in msg:
+        degree = -2
+    elif "vulnerable" in msg:
+        degree = -1
+    elif "almost immune" in msg:
+        degree = 3
+    elif "greatly protects" in msg:
+        degree = 2
+    elif "protects" in msg:
+        degree = 1
+    else:
+        return ""
+    return prop_abbrev_prefix(prop, degree)
 
 def post_process_describe_cc(input):
     results = {}
 
+    resistables = []
     for section, strings in input.items():
         strings_old = strings
         strings = []
         for string in strings_old:
             if string.endswith(" +"):
                 strings.append(string + "%d.")
+            elif section == "_get_all_artp_desc_data" and string[0].islower():
+                resistables.append(string)
+            elif section == "desc_randart_props":
+                if string.startswith("It "):
+                    for resist in resistables:
+                        prefix = prop_abbrev_prefix_from_msg(resist, string)
+                        strings.append(prefix + string + resist + ".")
+                elif "willpower" in string:
+                    for i in range(-3, 4):
+                        if i == 0:
+                            continue
+                        prefix = prop_abbrev_prefix("Will", i)
+                        verb = "increases" if i > 0 else "decreases"
+                        s = string.replace("%s", prefix, 1)
+                        s = s.replace("%s", "greatly " if abs(i) > 1 else "", 1)
+                        s = s.replace("%s", verb, 1)
+                        strings.append(s)
+                elif string in ["greatly ", "increases", "decreases"]:
+                    continue
+                elif "stealthy" in string:
+                    for i in range(-3, 4):
+                        if i == 0:
+                            continue
+                        prefix = prop_abbrev_prefix("Stlth", i)
+                        adverb = "more" if i > 0 else "less"
+                        s = string.replace("%s", prefix, 1)
+                        s = s.replace("%s", "much " if abs(i) > 1 else "", 1)
+                        s = s.replace("%s", adverb, 1)
+                        strings.append(s)
+                elif string in ["much ", "more", "less"]:
+                    continue
+                else:
+                    strings.append(string)
             elif section == "_describe_armour":
                 if string.startswith("It is cumbersome"):
                     sentences = split_sentences(string)
