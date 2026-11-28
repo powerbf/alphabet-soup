@@ -2067,11 +2067,7 @@ else:
     source_files.extend(glob.glob("*.cc"))
 
     # sort source files with .h files before matching .cc files
-    for i in range(len(source_files)):
-        source_files[i] = source_files[i].replace('.h', '.a')
-    source_files.sort()
-    for i in range(len(source_files)):
-        source_files[i] = source_files[i].replace('.a', '.h')
+    source_files.sort(key=lambda f: f[:-2] + '.a' if f.endswith('.h') else f)
 
     special_yaml_files = glob.glob("dat/species/*.yaml")
     special_yaml_files.sort()
