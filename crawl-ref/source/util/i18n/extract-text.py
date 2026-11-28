@@ -1503,6 +1503,41 @@ def prop_abbrev_prefix_from_msg(resist, msg):
         return ""
     return prop_abbrev_prefix(prop, degree)
 
+# Expand the strings from desc_randart_props into the full set of messages that
+# can be shown for them.
+# resistables is the list of resistance names from _get_all_artp_desc_data
+def expand_randart_props(strings, resistables):
+    results = []
+    for string in strings:
+        if "willpower" in string:
+            for i in range(-3, 4):
+                if i == 0:
+                    continue
+                s = string.replace("%s", prop_abbrev_prefix("Will", i), 1)
+                s = s.replace("%s", "greatly " if abs(i) > 1 else "", 1)
+                s = s.replace("%s", "increases" if i > 0 else "decreases", 1)
+                results.append(s)
+        elif string in ["greatly ", "increases", "decreases"]:
+            continue # only used to build the willpower messages above
+        elif "stealthy" in string:
+            for i in range(-3, 4):
+                if i == 0:
+                    continue
+                s = string.replace("%s", prop_abbrev_prefix("Stlth", i), 1)
+                s = s.replace("%s", "much " if abs(i) > 1 else "", 1)
+                s = s.replace("%s", "more" if i > 0 else "less", 1)
+                results.append(s)
+        elif string in ["much ", "more", "less"]:
+            continue # only used to build the stealth messages above
+        elif string.startswith("It "):
+            # e.g. "It protects you from " + each resistance
+            for resist in resistables:
+                prefix = prop_abbrev_prefix_from_msg(resist, string)
+                results.append(prefix + string + resist + ".")
+        else:
+            results.append(string)
+    return results
+
 # Mutant beast facets are fragments that are joined to make sentences like:
 # "It flies swiftly and unpredictably, and its breath smoulders ominously."
 # (see _describe_mutant_beast_facets)
@@ -1556,42 +1591,16 @@ def post_process_describe_cc(input):
     for section, strings in input.items():
         strings_old = strings
         strings = []
+
+        if section == "desc_randart_props":
+            results[section] = expand_randart_props(strings_old, resistables)
+            continue
+
         for string in strings_old:
             if string.endswith(" +"):
                 strings.append(string + "%d.")
             elif section == "_get_all_artp_desc_data" and string[0].islower():
                 resistables.append(string)
-            elif section == "desc_randart_props":
-                if string.startswith("It "):
-                    for resist in resistables:
-                        prefix = prop_abbrev_prefix_from_msg(resist, string)
-                        strings.append(prefix + string + resist + ".")
-                elif "willpower" in string:
-                    for i in range(-3, 4):
-                        if i == 0:
-                            continue
-                        prefix = prop_abbrev_prefix("Will", i)
-                        verb = "increases" if i > 0 else "decreases"
-                        s = string.replace("%s", prefix, 1)
-                        s = s.replace("%s", "greatly " if abs(i) > 1 else "", 1)
-                        s = s.replace("%s", verb, 1)
-                        strings.append(s)
-                elif string in ["greatly ", "increases", "decreases"]:
-                    continue
-                elif "stealthy" in string:
-                    for i in range(-3, 4):
-                        if i == 0:
-                            continue
-                        prefix = prop_abbrev_prefix("Stlth", i)
-                        adverb = "more" if i > 0 else "less"
-                        s = string.replace("%s", prefix, 1)
-                        s = s.replace("%s", "much " if abs(i) > 1 else "", 1)
-                        s = s.replace("%s", adverb, 1)
-                        strings.append(s)
-                elif string in ["much ", "more", "less"]:
-                    continue
-                else:
-                    strings.append(string)
             elif section == "_describe_armour":
                 if string.startswith("It is cumbersome"):
                     sentences = split_sentences(string)
