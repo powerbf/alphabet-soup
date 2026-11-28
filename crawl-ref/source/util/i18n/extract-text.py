@@ -505,7 +505,7 @@ def ignore_string(string):
         return True
 
     if re.search('(bug|eggplant)', string, re.IGNORECASE):
-        if not re.search('(program bug|bug report|Debugging commands)', string):
+        if not re.search('(bug-like|program bug|bug report|Debugging commands)', string):
             return True
 
     return False
@@ -1490,6 +1490,52 @@ def prop_abbrev_prefix_from_msg(resist, msg):
         return ""
     return prop_abbrev_prefix(prop, degree)
 
+# Mutant beast facets are fragments that are joined to make sentences like:
+# "It flies swiftly and unpredictably, and its breath smoulders ominously."
+# (see _describe_mutant_beast_facets)
+# A mutant beast always has two facets.
+def expand_mutant_beast_facets(strings):
+    joiners = ["It", ", and it", ", it"]
+    facets = [s for s in strings if s not in joiners]
+    results = []
+    # first facet
+    for facet in facets:
+        results.append("It" + facet + ", and @facet2@.")
+    # second facet
+    for facet in facets:
+        results.append("it" + facet)
+    return results
+
+# the first sentence of a pan lord's description is assembled from pieces
+# (see _describe_demon)
+def expand_pan_lord_description(strings):
+    joiners = [" lords of Pandemonium, ", " has ", " body "]
+    # descriptors set via the property XOM_PAN_LORD_DESC
+    descriptors = ["most pitiful"]
+    prefixes = []
+    bodies = []
+    wings = []
+    heads = []
+    others = []
+    for string in strings:
+        if string.startswith("One of the many"):
+            prefixes.insert(0, string)
+        elif string.startswith("One of"):
+            for desc in descriptors:
+                prefixes.append(string + desc + joiners[0])
+        elif string in joiners:
+            continue
+        elif string[0] == " " or string[0].isupper():
+            others.append(string)
+        elif string.startswith("with ") or string.startswith("which "):
+            wings.append("@body@ " + string)
+        elif len(wings) == 0:
+            bodies.append(article_a(string + " body"))
+        else:
+            heads.append(string)
+    sentences = list(map(lambda s: s + "@name@ has @body@ and @head@.", prefixes))
+    return sentences + bodies + wings + heads + others
+
 def post_process_describe_cc(input):
     results = {}
 
@@ -1550,7 +1596,14 @@ def post_process_describe_cc(input):
                     continue
             else:
                 strings.append(string)
-            results[section] = strings
+
+        # sections where the strings are pieces of a larger message
+        if section == "_describe_mutant_beast_facets":
+            strings = expand_mutant_beast_facets(strings)
+        elif section == "_describe_demon":
+            strings = expand_pan_lord_description(strings)
+
+        results[section] = strings
 
     return results
 
