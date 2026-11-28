@@ -3276,14 +3276,33 @@ It is an elder, stronger than mature beasts.
 It is a primal beast, the most powerful of its kind.
 
 %%%%
-# Mutant beast facets - multiple possible, code handles capitalisation
+# Mutant beast first facet
+It sports a set of venomous tails, and @facet2@.
+
+%%%%
+It flies swiftly and unpredictably, and @facet2@.
+
+%%%%
+Its breath smoulders ominously, and @facet2@.
+
+%%%%
+It is covered with eyes and tentacles, and @facet2@.
+
+%%%%
+It flickers and crackles with electricity, and @facet2@.
+
+%%%%
+It is covered in dense fur and muscle, and @facet2@.
+
+%%%%
+# Mutant beast second facet
 it sports a set of venomous tails
 
 %%%%
 it flies swiftly and unpredictably
 
 %%%%
-it's breath smoulders ominously
+its breath smoulders ominously
 
 %%%%
 it is covered with eyes and tentacles

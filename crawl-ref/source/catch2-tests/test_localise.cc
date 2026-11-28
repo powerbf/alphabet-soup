@@ -130,6 +130,17 @@ TEST_CASE( "Localise German", "[single-file]" )
                         "Hier: <lightgrey>ein Goblin, mit einem +0 Dolch bewaffnet (schlafend)</lightgrey>" );
     }
 
+    SECTION("Monster descriptions")
+    {
+        // mutant beast facets (there are always two)
+        CHECK( localise("It sports a set of venomous tails, and it flies swiftly and unpredictably.") ==
+                        "Es hat einen ganzen Satz giftiger Schwänze und es fliegt schnell und unberechenbar." );
+        CHECK( localise ("Its breath smoulders ominously, and it is covered with eyes and tentacles.") ==
+                         "Sein Odem glimmt bedrohlich und es ist mit Augen und Tentakeln bedeckt." );
+        CHECK( localise ("It flickers and crackles with electricity, and it is covered in dense fur and muscle.") ==
+                         "Es flackert und knistert vor Elektrizität und es ist mit dichtem Fell und Muskeln bedeckt." );
+    }
+
     SECTION("Items")
     {
         CHECK( localise("a short sword") == "ein Kurzschwert" );

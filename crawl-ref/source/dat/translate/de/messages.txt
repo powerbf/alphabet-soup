@@ -3276,14 +3276,33 @@ Es ist ein Ältester, stärker als erwachsene Tiere.
 It is a primal beast, the most powerful of its kind.
 Es ist ein Urbiest, das mächtigste seiner Art.
 %%%%
-# Mutant beast facets - multiple possible, code handles capitalisation
+# Mutant beast first facet
+It sports a set of venomous tails, and @facet2@.
+Es hat einen ganzen Satz giftiger Schwänze und @facet2@.
+%%%%
+It flies swiftly and unpredictably, and @facet2@.
+Es fliegt schnell und unberechenbar und @facet2@.
+%%%%
+Its breath smoulders ominously, and @facet2@.
+Sein Odem glimmt bedrohlich und @facet2@.
+%%%%
+It is covered with eyes and tentacles, and @facet2@.
+Es ist mit Augen und Tentakeln bedeckt und @facet2@.
+%%%%
+It flickers and crackles with electricity, and @facet2@.
+Es flackert und knistert vor Elektrizität und @facet2@.
+%%%%
+It is covered in dense fur and muscle, and @facet2@.
+Es ist mit dichtem Fell und Muskeln bedeckt und @facet2@.
+%%%%
+# Mutant beast second facet
 it sports a set of venomous tails
 es hat einen ganzen Satz giftiger Schwänze
 %%%%
 it flies swiftly and unpredictably
 es fliegt schnell und unberechenbar
 %%%%
-it's breath smoulders ominously
+its breath smoulders ominously
 sein Odem glimmt bedrohlich
 %%%%
 it is covered with eyes and tentacles
