@@ -121,6 +121,9 @@ IGNORE_SECTIONS = {
     'describe.cc':      [
         'get_command_description',              # lookup key
         'trap_name',                            # for interpreting vault spec
+        '_weapon_ego_key', '_missile_ego_key',  # lookup keys
+        '_armour_ego_key',
+        '_format_data_label',                   # builds format strings
     ],
     'dgn-shoals.cc':    ['dgn_build_shoals_level'], # dungeon builder stuff
     'god-abil.cc':      [
@@ -472,10 +475,14 @@ def ignore_cpp_line(line):
     if "mark_milestone" in line or "take_note" in line:
         return True
 
-    # diagnotic messages
+    if "send_exit_reason" in line:
+        return True
+
+    # diagnostic messages
     if re.search(r"(MSGCH_DIAGNOSTIC|dprf|dprintf|debug|DEBUG|ASSERTM|log_print|dump_|fprintf)", line):
         return True
-    if re.search(r"(sysfail|report_error|bad_level_id|arena_error|dgn_veto_exception)", line):
+    # errors
+    if re.search(r"(sysfail|report_error|bad_level_id|arena_error|dgn_veto_exception|ui::error)", line):
         return True
     if re.search(r"\bdie\s*\(", line):
         return True
