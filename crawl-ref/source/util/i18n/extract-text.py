@@ -1457,22 +1457,14 @@ def process_file(filename):
 # Post-processing
 #################
 
-def expand_single_param_message(strings, include_empty_param):
-    param_vals = []
-    messages = []
-    if include_empty_param:
-        param_vals.append("")
-    for string in strings:
-        if len(string) < 15:
-            if string not in param_vals:
-                param_vals.append(string)
-        else:
-            messages.append(string)
+def expand_single_param_messages(messages, param_vals):
+    if not isinstance(messages, list):
+        messages = [messages]
     results = []
     for msg in messages:
         if "%s" in msg:
             for val in param_vals:
-                results.append(msg.replace("%s", val))
+                results.append(msg.replace("%s", val, 1))
         else:
             results.append(msg)
     return results
@@ -1584,44 +1576,45 @@ def expand_pan_lord_description(strings):
     sentences = list(map(lambda s: s + "@name@ has @body@ and @head@.", prefixes))
     return sentences + bodies + wings + heads + others
 
+# Process the strings from _describe_armour.
+def expand_armour_description(strings):
+    results = []
+    adverbs = [""]
+    for string in strings:
+        if string.endswith("ly "):
+            adverbs.append(string)
+        elif string.startswith("It is cumbersome"):
+            sentences = split_sentences(string)
+            results.extend(expand_single_param_messages(sentences.pop(0), adverbs))
+            results.extend(sentences)
+        elif string.endswith(": "):
+            string += "%d"
+            if string.startswith(" ") and len(results) != 0:
+                results[-1] += string
+            else:
+                results.append(string)
+        elif string != "'Of ":
+            results.append(string)
+    return results
+
 def post_process_describe_cc(input):
     results = {}
 
     resistables = []
     for section, strings in input.items():
-        strings_old = strings
-        strings = []
+        strings = list(map(lambda s: s + "%d." if s.endswith(" +") else s, strings))
 
-        for string in strings_old:
-            if string.endswith(" +"):
-                strings.append(string + "%d.")
-            elif section == "_get_all_artp_desc_data" and string[0].islower():
-                resistables.append(string)
-            elif section == "_describe_armour":
-                if string.startswith("It is cumbersome"):
-                    sentences = split_sentences(string)
-                    if len(sentences) != 0:
-                        strings.append(sentences.pop(0))
-                        strings = expand_single_param_message(strings, True)
-                    strings.extend(sentences)
-                elif string.endswith(": "):
-                    string += "%d"
-                    if string.startswith(" ") and len(strings) != 0:
-                        strings[-1] += string
-                    else:
-                        strings.append(string)
-                elif string.startswith("'Of"):
-                    continue
-            else:
-                strings.append(string)
-
-        # sections where the strings are pieces of a larger message
-        if section == "desc_randart_props":
+        if section == "_get_all_artp_desc_data":
+            resistables = list(filter(lambda s: s[0].islower(), strings))
+            strings = list(filter(lambda s: s not in resistables, strings))
+        elif section == "desc_randart_props":
             strings = expand_randart_props(strings, resistables)
         elif section == "_describe_mutant_beast_facets":
             strings = expand_mutant_beast_facets(strings)
         elif section == "_describe_demon":
             strings = expand_pan_lord_description(strings)
+        elif section == "_describe_armour":
+            strings = expand_armour_description(strings)
 
         results[section] = strings
 
