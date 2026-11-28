@@ -148,7 +148,7 @@ TEST_CASE( "Localise German", "[single-file]" )
         CHECK( localise("One of the most pitiful lords of Pandemonium, Urauklom has a fat body with bony wings and"
                         " a hideous tangle of tentacles for a mouth.\n\nIt seems like it would really prefer not to be here right now.")
                      == "Einer der erbärmlichsten Lords des Pandämoniums, Urauklom hat einen fetten Körper mit knöchernen Flügeln und"
-                        " ein hässliches Gewirr von Tentakeln als Mund.\n\nEs scheint, als wäre es ihm lieber, jetzt nicht hier zu sein.");
+                        " ein hässliches Gewirr von Tentakeln als Mund.\n\nEr scheint wirklich keine Lust zu haben, jetzt hier zu sein.");
     }
 
     SECTION("Items")
