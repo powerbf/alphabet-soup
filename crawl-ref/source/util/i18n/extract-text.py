@@ -33,7 +33,6 @@ IGNORE_STRINGS = [
     'the', 'a', 'an', 'is', 'are',
     'your', 'his', 'her', 'its', 'their',
     'of', 'in', 'by', 'and', 'or', 'but',
-    '%s', '%d', '%f',
 ]
 
 # These files need special handling because they define data structures
@@ -475,12 +474,16 @@ def ignore_cpp_line(line):
     if "mark_milestone" in line or "take_note" in line:
         return True
 
-    if "send_exit_reason" in line:
+    # ui commands (strings are identifiers)
+    if re.search("(json_open|send_exit_reason|push_ui_layout|ui_state_change)",  line):
+        return True
+    if "json_write_" in line and not "json_write_string" in line:
         return True
 
     # diagnostic messages
     if re.search(r"(MSGCH_DIAGNOSTIC|dprf|dprintf|debug|DEBUG|ASSERTM|log_print|dump_|fprintf)", line):
         return True
+
     # errors
     if re.search(r"(sysfail|report_error|bad_level_id|arena_error|dgn_veto_exception|ui::error)", line):
         return True
@@ -491,12 +494,12 @@ def ignore_cpp_line(line):
 
 # should string be ignored?
 def ignore_string(string):
-    stripped = string.strip()
+    stripped = string.strip().lower()
     if len(stripped) < 2:
         return True
 
     # check explicit ignore list
-    if stripped.lower() in IGNORE_STRINGS:
+    if stripped in IGNORE_STRINGS:
         return True
 
     # ignore printf-style formatting
@@ -511,8 +514,11 @@ def ignore_string(string):
     if '_' in string and not ' ' in string:
         return True
 
-    if re.search('(bug|eggplant)', string, re.IGNORECASE):
-        if not re.search('(bug-like|program bug|bug report|Debugging commands)', string):
+    # bug-catching code
+    if "eggplant" in stripped:
+        return True
+    if "bug" in stripped and not "debug" in stripped:
+        if not re.search('(bug-like|program bug|bug report)', stripped):
             return True
 
     return False
@@ -1334,7 +1340,7 @@ def dummy_up_keys(line):
     # 1st arg is context
     line = re.sub(r"(?<=localise_in_context\()[^,]+", "dummy", line)
     # 1st arg is identifier
-    line = re.sub(r'(json_(write|open)_[a-z]+|push_ui_layout|ui_state_change) *\( *"[^"]+"', '$1(dummy', line)
+    line = re.sub(r'json_write_string *\( *"[^"]+"', '$1(dummy', line)
     return line
 
 def extract_cpp_strings(line, filter_results):
