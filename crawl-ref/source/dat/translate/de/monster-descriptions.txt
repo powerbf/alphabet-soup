@@ -84,7 +84,7 @@ Einer der vielen Lords des Pandämoniums, @name@ hat @body@ und @head@.
 %%%%
 # weak pan lord summoned by Xom
 One of the most pitiful lords of Pandemonium, @name@ has @body@ and @head@.
-
+Einer der erbärmlichsten Lords des Pandämoniums, @name@ hat @body@ und @head@.
 %%%%
 
 # Pan lord body types
@@ -413,9 +413,9 @@ ein Gesicht aus Albträumen
 " Seine Haut sieht nervenaufreibend faltig aus."
 %%%%
 " It changes colour whenever you look at it."
-
+" Jedes Mal, dass du ihn ansiehst, ändert er seine Farbe."
 %%%%
 # appears on a separate line (hence no preceeding space)
 It seems like it would really prefer not to be here right now.
-
+Es scheint, als wäre es ihm lieber, jetzt nicht hier zu sein.
 %%%%

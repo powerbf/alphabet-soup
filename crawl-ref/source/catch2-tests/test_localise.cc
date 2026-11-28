@@ -145,6 +145,8 @@ TEST_CASE( "Localise German", "[single-file]" )
                      == "Einer der vielen Lords des Pandämoniums, Qun Cadgh hat einen gepanzerten Körper und eine kubische Struktur anstelle eines Kopfes." );
         CHECK( localise("One of the many lords of Pandemonium, Teoq Sun has a vast, spindly body with small, bat-like wings and a brain for a head.")
                      == "Einer der vielen Lords des Pandämoniums, Teoq Sun hat einen großen, dürren Körper mit kleinen, fledermausartigen Flügeln und ein Gehirn anstelle eines Kopfes." );
+        CHECK( localise("One of the most pitiful lords of Pandemonium, Urauklom has a fat body with bony wings and a hideous tangle of tentacles for a mouth.")
+                     == "Einer der erbärmlichsten Lords des Pandämoniums, Urauklom hat einen fetten Körper mit knöchernen Flügeln und ein hässliches Gewirr von Tentakeln als Mund." );
     }
 
     SECTION("Items")
