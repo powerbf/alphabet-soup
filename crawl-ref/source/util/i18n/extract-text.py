@@ -1592,10 +1592,6 @@ def post_process_describe_cc(input):
         strings_old = strings
         strings = []
 
-        if section == "desc_randart_props":
-            results[section] = expand_randart_props(strings_old, resistables)
-            continue
-
         for string in strings_old:
             if string.endswith(" +"):
                 strings.append(string + "%d.")
@@ -1620,7 +1616,9 @@ def post_process_describe_cc(input):
                 strings.append(string)
 
         # sections where the strings are pieces of a larger message
-        if section == "_describe_mutant_beast_facets":
+        if section == "desc_randart_props":
+            strings = expand_randart_props(strings, resistables)
+        elif section == "_describe_mutant_beast_facets":
             strings = expand_mutant_beast_facets(strings)
         elif section == "_describe_demon":
             strings = expand_pan_lord_description(strings)
