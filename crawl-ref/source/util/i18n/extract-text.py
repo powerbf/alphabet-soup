@@ -1334,13 +1334,13 @@ def split_on_newlines(strings):
     return result
 
 def dummy_up_keys(line):
-    line = re.sub(r"(get[A-Za-z]+String|_get_xom_speech) *\(([^\)]+)\)", "$1(dummy)", line)
+    line = re.sub(r"(get[A-Za-z]+String|_get_xom_speech) *\(([^\)]+)\)", r"\1(dummy)", line)
     # 3rd arg is tag
-    line = re.sub(r"\b(menu_colour *\([^,]+,[^,]+,)[^,)]+", "$1, dummy", line)
+    line = re.sub(r"\b(menu_colour *\([^,]+,[^,]+,)[^,)]+", r"\1, dummy", line)
     # 1st arg is context
     line = re.sub(r"(?<=localise_in_context\()[^,]+", "dummy", line)
     # 1st arg is identifier
-    line = re.sub(r'json_write_string *\( *"[^"]+"', '$1(dummy', line)
+    line = re.sub(r'(json_write_string) *\( *"[^"]+"', r'\1(dummy', line)
     return line
 
 def extract_cpp_strings(line, filter_results):
